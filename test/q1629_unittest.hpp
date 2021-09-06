@@ -11,19 +11,18 @@
 #include "../src/q1629.hpp"
 
 using namespace std;
-using namespace leetcode;
 
 TEST(q1629, sample_input_01) {
   vector<int> t{9, 29, 49, 50};
   string k = "cbcd";
-  Solution solver;
+  l1629::Solution solver;
   EXPECT_EQ(solver.slowestKey(t, k), 'c');
 }
 
 TEST(q1629, sample_input_02) {
   vector<int> t{12, 23, 36, 46, 62};
   string k = "spuda";
-  Solution solver;
+  l1629::Solution solver;
   EXPECT_EQ(solver.slowestKey(t, k), 'a');
 }
 

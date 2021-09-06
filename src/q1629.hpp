@@ -6,7 +6,7 @@
 #include <iostream>
 #include <vector>
 
-namespace leetcode {
+namespace l1629 {
 using namespace std;
 class Solution {
  public:
