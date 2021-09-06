@@ -1,5 +1,6 @@
 # Daily Leetcode in C++
 [![githubbuild](https://github.com/vNaonLu/Daily_LeetCode/actions/workflows/test.yml/badge.svg)](https://github.com/vNaonLu/Daily_LeetCode/actions) 
+
 My daily challenge on leetcode since 2021/09/06.
 
 |Date|File|#|Question|
