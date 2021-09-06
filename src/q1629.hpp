@@ -1,3 +1,7 @@
+
+#ifndef LEETCODE_Q1629_H__
+#define LEETCODE_Q1629_H__
+
 #include <algorithm>
 #include <iostream>
 #include <vector>
@@ -10,7 +14,7 @@ class Solution {
     if (keysPressed.size() < 1) return '\0';
     char res = keysPressed[0];
     int longest = releaseTimes[0];
-    for (int i = 0; i < releaseTimes.size(); ++i) {
+    for (int i = 1; i < releaseTimes.size(); ++i) {
       int cur = releaseTimes[i] - releaseTimes[i - 1];
       if (cur > longest) {
         longest = cur;
@@ -23,3 +27,5 @@ class Solution {
   }
 };
 }  // namespace leetcode
+
+#endif
