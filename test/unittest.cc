@@ -2,6 +2,7 @@
 
 #include <iostream>
 
+#include "q189_unittest.hpp"
 #include "q977_unittest.hpp"
 #include "q1629_unittest.hpp"
 
