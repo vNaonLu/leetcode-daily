@@ -1,4 +1,4 @@
-# Daily Leetcode
+# Daily Leetcode in C++
 My daily challenge on leetcode since 2021/09/06.
 
 |Date|File|#|Question|
