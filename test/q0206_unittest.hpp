@@ -9,7 +9,8 @@
 #include "../src/q0206.hpp"
 
 using namespace std;
-using namespace l206;
+using l206::ListNode;
+using l206::Solution;
 
 inline ListNode *getListNode(const vector<int> &__i) {
   if (__i.size() == 0) return nullptr;
