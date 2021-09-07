@@ -26,4 +26,4 @@ jobs:
 
       - name: Testing
         run: |
-          ./build/test/unittest
+          ./build/unittest
