@@ -25,7 +25,8 @@ using namespace std;
   *
 */
 
-void release(l876::ListNode *p){
+namespace l876 {
+void release(l876::ListNode *p) {
   if (!p) return;
   release(p->next);
   delete p;
@@ -42,17 +43,18 @@ inline l876::ListNode *generate(const vector<int> &v) {
 }
 
 inline bool compare(l876::ListNode *p, l876::ListNode *q) {
-  while(p!= nullptr && q != nullptr){
+  while (p != nullptr && q != nullptr) {
     if (p->val != q->val) return false;
     p = p->next;
     q = q->next;
   }
   return p == nullptr && q == nullptr;
 }
+}  // namespace l876
 
 TEST(q876, sample_input01) {
-  l876::ListNode *p = generate({1, 2, 3, 4, 5});
-  l876::ListNode *exp = generate({3, 4, 5});
+  l876::ListNode *p = l876::generate({1, 2, 3, 4, 5});
+  l876::ListNode *exp = l876::generate({3, 4, 5});
   l876::Solution solver;
   EXPECT_TRUE(compare(solver.middleNode(p), exp));
   release(p);
@@ -60,8 +62,8 @@ TEST(q876, sample_input01) {
 }
 
 TEST(q876, sample_input02) {
-  l876::ListNode *p = generate({1, 2, 3, 4, 5, 6});
-  l876::ListNode *exp = generate({4, 5, 6});
+  l876::ListNode *p = l876::generate({1, 2, 3, 4, 5, 6});
+  l876::ListNode *exp = l876::generate({4, 5, 6});
   l876::Solution solver;
   EXPECT_TRUE(compare(solver.middleNode(p), exp));
   release(p);
