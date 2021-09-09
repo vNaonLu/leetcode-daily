@@ -25,6 +25,12 @@ using namespace std;
   *
 */
 
+void release(l876::ListNode *p){
+  if (!p) return;
+  release(p->next);
+  delete p;
+}
+
 inline l876::ListNode *generate(const vector<int> &v) {
   l876::ListNode *res = new l876::ListNode(v[0]);
   l876::ListNode *p = res;
@@ -49,6 +55,8 @@ TEST(q876, sample_input01) {
   l876::ListNode *exp = generate({3, 4, 5});
   l876::Solution solver;
   EXPECT_TRUE(compare(solver.middleNode(p), exp));
+  release(p);
+  release(exp);
 }
 
 TEST(q876, sample_input02) {
@@ -56,6 +64,8 @@ TEST(q876, sample_input02) {
   l876::ListNode *exp = generate({4, 5, 6});
   l876::Solution solver;
   EXPECT_TRUE(compare(solver.middleNode(p), exp));
+  release(p);
+  release(exp);
 }
 
 #endif
