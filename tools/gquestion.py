@@ -50,6 +50,7 @@ else:
                 f.write("#include <gtest/gtest.h>\n")
                 f.write("\n")
                 f.write("#include \"../src/{}\"\n".format(source_name))
+                f.write("using namespace std;\n")
                 f.write("\n")
                 f.writelines(description)
                 f.write("\n")
