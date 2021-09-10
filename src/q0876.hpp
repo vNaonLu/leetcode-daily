@@ -3,6 +3,8 @@
 #define LEETCODE_Q876_H__
 #include <iostream>
 
+#include "leetcode_struct/list_node.hpp"
+
 namespace l876 {
 using namespace std;
 
@@ -22,14 +24,6 @@ using namespace std;
   * -  1 <= Node.val <= 100 
   *
 */
-struct ListNode {
-    int val;
-    ListNode *next;
-    ListNode() : val(0), next(nullptr) {}
-    ListNode(int x) : val(x), next(nullptr) {}
-    ListNode(int x, ListNode *next) : val(x), next(next) {}
-};
-
 class Solution {
  public:
   ListNode* middleNode(ListNode* head) {

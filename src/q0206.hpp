@@ -4,15 +4,9 @@
 
 #include <iostream>
 
-namespace l206 {
-struct ListNode {
-  int val;
-  ListNode* next;
-  ListNode() : val(0), next(nullptr) {}
-  ListNode(int x) : val(x), next(nullptr) {}
-  ListNode(int x, ListNode* next) : val(x), next(next) {}
-};
+#include "leetcode_struct/list_node.hpp"
 
+namespace l206 {
 class Solution {
  public:
   ListNode* reverseList(ListNode* head) {

@@ -3,6 +3,8 @@
 #define LEETCODE_Q19_H__
 #include <iostream>
 
+#include "leetcode_struct/list_node.hpp"
+
 namespace l19 {
 using namespace std;
 
@@ -24,14 +26,6 @@ using namespace std;
   *  “Follow up:“ Could you do this in one pass?
   *
 */
-
-struct ListNode {
-  int val;
-  ListNode *next;
-  ListNode() : val(0), next(nullptr) {}
-  ListNode(int x) : val(x), next(nullptr) {}
-  ListNode(int x, ListNode *next) : val(x), next(next) {}
-};
 
 class Solution {
  public:
