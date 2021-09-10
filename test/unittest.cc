@@ -3,6 +3,7 @@
 #include <iostream>
 
 #include "q0001_unittest.hpp"
+#include "q0003_unittest.hpp"
 #include "q0019_unittest.hpp"
 #include "q0036_unittest.hpp"
 #include "q0074_unittest.hpp"
