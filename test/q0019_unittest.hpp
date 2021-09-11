@@ -28,33 +28,33 @@ using namespace std;
 #include <vector>
 
 TEST(q19, sample_input01) {
-  auto head = generateListNode({1, 2, 3, 4, 5});
+  auto head = ListNode::generate({1, 2, 3, 4, 5});
   int n = 2;
-  auto exp = generateListNode({1, 2, 3, 5});
+  auto exp = ListNode::generate({1, 2, 3, 5});
   l19::Solution solver;
-  EXPECT_TRUE(compareListNode(solver.removeNthFromEnd(head, n), exp));
-  releaseListNode(head);
-  releaseListNode(exp);
+  EXPECT_TRUE(ListNode::compare(solver.removeNthFromEnd(head, n), exp));
+  ListNode::release(head);
+  ListNode::release(exp);
 }
 
 TEST(q19, sample_input02) {
-  auto head = generateListNode({1});
+  auto head = ListNode::generate({1});
   int n = 1;
-  auto exp = generateListNode({});
+  auto exp = ListNode::generate({});
   l19::Solution solver;
-  EXPECT_TRUE(compareListNode(solver.removeNthFromEnd(head, n), exp));
-  releaseListNode(head);
-  releaseListNode(exp);
+  EXPECT_TRUE(ListNode::compare(solver.removeNthFromEnd(head, n), exp));
+  ListNode::release(head);
+  ListNode::release(exp);
 }
 
 TEST(q19, sample_input03) {
-  auto head = generateListNode({1, 2});
+  auto head = ListNode::generate({1, 2});
   int n = 1;
-  auto exp = generateListNode({1});
+  auto exp = ListNode::generate({1});
   l19::Solution solver;
-  EXPECT_TRUE(compareListNode(solver.removeNthFromEnd(head, n), exp));
-  releaseListNode(head);
-  releaseListNode(exp);
+  EXPECT_TRUE(ListNode::compare(solver.removeNthFromEnd(head, n), exp));
+  ListNode::release(head);
+  ListNode::release(exp);
 }
 
 #endif

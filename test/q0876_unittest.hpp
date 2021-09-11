@@ -26,21 +26,21 @@ using namespace std;
 */
 
 TEST(q876, sample_input01) {
-  ListNode *p = generateListNode({1, 2, 3, 4, 5});
-  ListNode *exp = generateListNode({3, 4, 5});
+  ListNode *p = ListNode::generate({1, 2, 3, 4, 5});
+  ListNode *exp = ListNode::generate({3, 4, 5});
   l876::Solution solver;
-  EXPECT_TRUE(compareListNode(solver.middleNode(p), exp));
-  releaseListNode(p);
-  releaseListNode(exp);
+  EXPECT_TRUE(ListNode::compare(solver.middleNode(p), exp));
+  ListNode::release(p);
+  ListNode::release(exp);
 }
 
 TEST(q876, sample_input02) {
-  ListNode *p = generateListNode({1, 2, 3, 4, 5, 6});
-  ListNode *exp = generateListNode({4, 5, 6});
+  ListNode *p = ListNode::generate({1, 2, 3, 4, 5, 6});
+  ListNode *exp = ListNode::generate({4, 5, 6});
   l876::Solution solver;
-  EXPECT_TRUE(compareListNode(solver.middleNode(p), exp));
-  releaseListNode(p);
-  releaseListNode(exp);
+  EXPECT_TRUE(ListNode::compare(solver.middleNode(p), exp));
+  ListNode::release(p);
+  ListNode::release(exp);
 }
 
 #endif

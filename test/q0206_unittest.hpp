@@ -16,11 +16,11 @@ TEST(q206, sample_input01) {
   vector<int> e{5, 4, 3, 2, 1};
   Solution solver;
 
-  auto out = solver.reverseList(generateListNode(i));
-  auto exp = generateListNode(e);
-  EXPECT_TRUE(compareListNode(exp, out));
-  releaseListNode(out);
-  releaseListNode(exp);
+  auto out = solver.reverseList(ListNode::generate(i));
+  auto exp = ListNode::generate(e);
+  EXPECT_TRUE(ListNode::compare(exp, out));
+  ListNode::release(out);
+  ListNode::release(exp);
 }
 
 TEST(q206, sample_input02) {
@@ -28,11 +28,11 @@ TEST(q206, sample_input02) {
   vector<int> e{2, 1};
   Solution solver;
 
-  auto out = solver.reverseList(generateListNode(i));
-  auto exp = generateListNode(e);
-  EXPECT_TRUE(compareListNode(exp, out));
-  releaseListNode(out);
-  releaseListNode(exp);
+  auto out = solver.reverseList(ListNode::generate(i));
+  auto exp = ListNode::generate(e);
+  EXPECT_TRUE(ListNode::compare(exp, out));
+  ListNode::release(out);
+  ListNode::release(exp);
 }
 
 TEST(q206, sample_input03) {
@@ -40,11 +40,11 @@ TEST(q206, sample_input03) {
   vector<int> e{};
   Solution solver;
 
-  auto out = solver.reverseList(generateListNode(i));
-  auto exp = generateListNode(e);
-  EXPECT_TRUE(compareListNode(exp, out));
-  releaseListNode(out);
-  releaseListNode(exp);
+  auto out = solver.reverseList(ListNode::generate(i));
+  auto exp = ListNode::generate(e);
+  EXPECT_TRUE(ListNode::compare(exp, out));
+  ListNode::release(out);
+  ListNode::release(exp);
 }
 
 #endif
