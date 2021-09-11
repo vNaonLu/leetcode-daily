@@ -23,6 +23,7 @@
 #include "q0557_unittest.hpp"
 #include "q0566_unittest.hpp"
 #include "q0567_unittest.hpp"
+#include "q0733_unittest.hpp"
 #include "q0763_unittest.hpp"
 #include "q0848_unittest.hpp"
 #include "q0876_unittest.hpp"
