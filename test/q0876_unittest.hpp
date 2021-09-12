@@ -29,7 +29,7 @@ TEST(q876, sample_input01) {
   ListNode *p = ListNode::generate({1, 2, 3, 4, 5});
   ListNode *exp = ListNode::generate({3, 4, 5});
   l876::Solution solver;
-  EXPECT_TRUE(ListNode::compare(solver.middleNode(p), exp));
+  EXPECT_TRUE(ListNode::equal(solver.middleNode(p), exp));
   ListNode::release(p);
   ListNode::release(exp);
 }
@@ -38,7 +38,7 @@ TEST(q876, sample_input02) {
   ListNode *p = ListNode::generate({1, 2, 3, 4, 5, 6});
   ListNode *exp = ListNode::generate({4, 5, 6});
   l876::Solution solver;
-  EXPECT_TRUE(ListNode::compare(solver.middleNode(p), exp));
+  EXPECT_TRUE(ListNode::equal(solver.middleNode(p), exp));
   ListNode::release(p);
   ListNode::release(exp);
 }

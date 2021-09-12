@@ -32,7 +32,7 @@ TEST(q19, sample_input01) {
   int n = 2;
   auto exp = ListNode::generate({1, 2, 3, 5});
   l19::Solution solver;
-  EXPECT_TRUE(ListNode::compare(solver.removeNthFromEnd(head, n), exp));
+  EXPECT_TRUE(ListNode::equal(solver.removeNthFromEnd(head, n), exp));
   ListNode::release(head);
   ListNode::release(exp);
 }
@@ -42,7 +42,7 @@ TEST(q19, sample_input02) {
   int n = 1;
   auto exp = ListNode::generate({});
   l19::Solution solver;
-  EXPECT_TRUE(ListNode::compare(solver.removeNthFromEnd(head, n), exp));
+  EXPECT_TRUE(ListNode::equal(solver.removeNthFromEnd(head, n), exp));
   ListNode::release(head);
   ListNode::release(exp);
 }
@@ -52,7 +52,7 @@ TEST(q19, sample_input03) {
   int n = 1;
   auto exp = ListNode::generate({1});
   l19::Solution solver;
-  EXPECT_TRUE(ListNode::compare(solver.removeNthFromEnd(head, n), exp));
+  EXPECT_TRUE(ListNode::equal(solver.removeNthFromEnd(head, n), exp));
   ListNode::release(head);
   ListNode::release(exp);
 }

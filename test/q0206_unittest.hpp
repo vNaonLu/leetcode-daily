@@ -18,7 +18,7 @@ TEST(q206, sample_input01) {
 
   auto out = solver.reverseList(ListNode::generate(i));
   auto exp = ListNode::generate(e);
-  EXPECT_TRUE(ListNode::compare(exp, out));
+  EXPECT_TRUE(ListNode::equal(exp, out));
   ListNode::release(out);
   ListNode::release(exp);
 }
@@ -30,7 +30,7 @@ TEST(q206, sample_input02) {
 
   auto out = solver.reverseList(ListNode::generate(i));
   auto exp = ListNode::generate(e);
-  EXPECT_TRUE(ListNode::compare(exp, out));
+  EXPECT_TRUE(ListNode::equal(exp, out));
   ListNode::release(out);
   ListNode::release(exp);
 }
@@ -42,7 +42,7 @@ TEST(q206, sample_input03) {
 
   auto out = solver.reverseList(ListNode::generate(i));
   auto exp = ListNode::generate(e);
-  EXPECT_TRUE(ListNode::compare(exp, out));
+  EXPECT_TRUE(ListNode::equal(exp, out));
   ListNode::release(out);
   ListNode::release(exp);
 }

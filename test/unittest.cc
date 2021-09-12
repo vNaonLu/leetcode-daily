@@ -27,6 +27,7 @@
 #include "q0557_unittest.hpp"
 #include "q0566_unittest.hpp"
 #include "q0567_unittest.hpp"
+#include "q0617_unittest.hpp"
 #include "q0695_unittest.hpp"
 #include "q0733_unittest.hpp"
 #include "q0763_unittest.hpp"

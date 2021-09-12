@@ -27,7 +27,7 @@ TEST(q203, sample_input01) {
   int val = 6;
   ListNode *exp = ListNode::generate({1, 2, 3, 4, 5});
   l203::Solution solver;
-  EXPECT_TRUE(ListNode::compare(solver.removeElements(head, val), exp));
+  EXPECT_TRUE(ListNode::equal(solver.removeElements(head, val), exp));
 }
 
 TEST(q203, sample_input02) {
@@ -35,7 +35,7 @@ TEST(q203, sample_input02) {
   int val = 1;
   ListNode *exp = ListNode::generate({});
   l203::Solution solver;
-  EXPECT_TRUE(ListNode::compare(solver.removeElements(head, val), exp));
+  EXPECT_TRUE(ListNode::equal(solver.removeElements(head, val), exp));
 }
 
 TEST(q203, sample_input03) {
@@ -43,7 +43,7 @@ TEST(q203, sample_input03) {
   int val = 7;
   ListNode *exp = ListNode::generate({});
   l203::Solution solver;
-  EXPECT_TRUE(ListNode::compare(solver.removeElements(head, val), exp));
+  EXPECT_TRUE(ListNode::equal(solver.removeElements(head, val), exp));
 }
 
 #endif

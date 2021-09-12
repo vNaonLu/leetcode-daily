@@ -27,7 +27,7 @@ TEST(q21, sample_input01) {
   ListNode *l2 = ListNode::generate({1, 3, 4});
   ListNode *exp = ListNode::generate({1, 1, 2, 3, 4, 4});
   l21::Solution solver;
-  EXPECT_TRUE(ListNode::compare(solver.mergeTwoLists(l1, l2), exp));
+  EXPECT_TRUE(ListNode::equal(solver.mergeTwoLists(l1, l2), exp));
 }
 
 TEST(q21, sample_input02) {
@@ -35,7 +35,7 @@ TEST(q21, sample_input02) {
   ListNode *l2 = ListNode::generate({});
   ListNode *exp = ListNode::generate({});
   l21::Solution solver;
-  EXPECT_TRUE(ListNode::compare(solver.mergeTwoLists(l1, l2), exp));
+  EXPECT_TRUE(ListNode::equal(solver.mergeTwoLists(l1, l2), exp));
 }
 
 TEST(q21, sample_input03) {
@@ -43,7 +43,7 @@ TEST(q21, sample_input03) {
   ListNode *l2 = ListNode::generate({0});
   ListNode *exp = ListNode::generate({0});
   l21::Solution solver;
-  EXPECT_TRUE(ListNode::compare(solver.mergeTwoLists(l1, l2), exp));
+  EXPECT_TRUE(ListNode::equal(solver.mergeTwoLists(l1, l2), exp));
 }
 
 #endif

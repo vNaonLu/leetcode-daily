@@ -54,7 +54,7 @@ class ListNode final {
     }
   }
 
-  inline static bool compare(ListNode *p, ListNode *q) {
+  inline static bool equal(ListNode *p, ListNode *q) {
     while (p != nullptr && q != nullptr) {
       if (p->val != q->val) return false;
       p = p->next;
