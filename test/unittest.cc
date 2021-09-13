@@ -40,6 +40,7 @@
 #include "q0882_unittest.hpp"
 #include "q0977_unittest.hpp"
 #include "q0994_unittest.hpp"
+#include "q1189_unittest.hpp"
 #include "q1629_unittest.hpp"
 
 int main(int argc, char **argv) {
