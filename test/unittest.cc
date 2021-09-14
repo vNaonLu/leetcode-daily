@@ -17,6 +17,7 @@
 #include "q0121_unittest.hpp"
 #include "q0141_unittest.hpp"
 #include "q0144_unittest.hpp"
+#include "q0145_unittest.hpp"
 #include "q0167_unittest.hpp"
 #include "q0189_unittest.hpp"
 #include "q0203_unittest.hpp"
