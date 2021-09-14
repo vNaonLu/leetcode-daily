@@ -1,6 +1,7 @@
 import requests
 import json
 import re
+import math
 
 __remove = ["</?p>", "</?ul>", "</?ol>", "</li>", "<img.*/>"]
 __replace = [["&nbsp;", ""], ["&quot;", '"'], ["&lt;", "<"], ["&gt;", ">"],
@@ -162,3 +163,9 @@ def get_description(number: int, prompt: str):
         return res
     else:
         return None
+
+
+def get_question_id_path(id: int):
+    interval_idx = math.floor(id / 50)
+    path = "q_{}_{}".format(interval_idx * 50 + 1, (interval_idx+1) * 50)
+    return path
