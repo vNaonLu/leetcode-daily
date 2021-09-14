@@ -1,6 +1,7 @@
 #!/usr/bin/python3
 
 import sys
+from utils import leetcode
 
 
 class Question(object):
@@ -33,8 +34,9 @@ else:
 
     mdtable += "|"
     for q in ques:
-        mdtable += "[📄](https://github.com/vNaonLu/Daily_LeetCode/blob/master/src/q{}.hpp)".format(
-            q.num.rjust(4, '0'))
+        sub = leetcode.get_question_id_path(int(q.num))
+        mdtable += "[📄](https://github.com/vNaonLu/Daily_LeetCode/blob/master/src/{}/q{}.hpp)".format(
+            sub.lower(), q.num.rjust(4, '0'))
         if q != ques[-1]:
             mdtable += "<br>"
 
