@@ -40,20 +40,30 @@ else:
                     f.write("#define {}_UNITTEST\n".format(
                         interval_name.upper()))
                     f.write("#endif")
+                    f.truncate()
                 print("[+] create file: {}".format(utindex))
-                with open(os.path.join(source_root_path, "unittest.cc"), 'w') as f:
+                with open(os.path.join(source_root_path, "unittest.cc"), 'r+') as f:
                     text = f.readlines()
+                    index = 0
                     for i in range(0, len(text)):
+                        index = i
                         if re.search("#include", text[i]):
                             num = re.search("Q_(\d*)_(\d*)", text[i])
                             if num and int(num.group(1)) > int(quest_num):
-                                text.insert(
-                                    i, "#include \"{}/unittest.hpp\"".format(interval_name.upper()))
-                                f.write("".join(text))
-                                print("[+] modify unittest.cc.")
                                 break
                             elif num and int(num.group(1)) < int(quest_num) and int(num.group(2)) > int(quest_num):
+                                index = len(text) - 1
                                 break
+                        else:
+                            break
+
+                    if index < len(text) - 1:
+                        text.insert(
+                            index, "#include \"{}/unittest.hpp\"\n".format(interval_name.upper()))
+                        f.seek(0)
+                        f.write("".join(text))
+                        f.truncate()
+                        print("[+] modify unittest.cc.")
 
             with open(source, 'w') as f:
                 f.write("\n")
@@ -69,6 +79,7 @@ else:
                 f.write("   // Put your code here\n")
                 f.write("}}  // namespace l{}\n".format(quest_num))
                 f.write("#endif")
+                f.truncate()
 
             print("[+] create file: {}".format(source))
 
@@ -87,16 +98,19 @@ else:
                 f.write("}\n")
                 f.write("\n")
                 f.write("#endif")
+                f.truncate()
 
             print("[+] create file: {}".format(unittest))
 
-            with open(utindex, 'w') as f:
+            with open(utindex, 'r+') as f:
                 text = f.readlines()
                 for i in range(0, len(text)):
                     if text[i] == "#endif":
-                        text.insert(i, "#include \"{}\"".format(unittest_name))
+                        text.insert(i, "#include \"{}\"\n".format(unittest_name))
                         print("[+] modifify file: {}".format(utindex))
+                        f.seek(0)
                         f.write("".join(text))
+                        f.truncate()
                         break
 
             subprocess.run(["code", source])
