@@ -59,7 +59,7 @@ else:
 
                     if index < len(text) - 1:
                         text.insert(
-                            index, "#include \"{}/unittest.hpp\"\n".format(interval_name.upper()))
+                            index, "#include \"{}/unittest.hpp\"\n".format(interval_name.lower()))
                         f.seek(0)
                         f.write("".join(text))
                         f.truncate()
