@@ -54,4 +54,14 @@ TEST(q112, sample_input03) {
   TreeNode::release(root);
 }
 
+TEST(q112, input01) {
+  int null = -1;
+  TreeNode *root = TreeNode::generate({}, null);
+  int targetSum = 0;
+  bool exp = false;
+  l112::Solution solver;
+  EXPECT_EQ(solver.hasPathSum(root, targetSum), exp);
+  TreeNode::release(root);
+}
+
 #endif

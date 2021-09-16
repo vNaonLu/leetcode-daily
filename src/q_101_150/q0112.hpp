@@ -39,9 +39,18 @@ class Solution {
  public:
   bool hasPathSum(TreeNode* root, int targetSum) {
     if (root == nullptr) {
-      return targetSum == 0;
+      return false;
     } else {
-      return hasPathSum(root->left, targetSum - root->val) || hasPathSum(root->right, targetSum - root->val);
+      int next = targetSum - root->val;
+      if (root->left == nullptr && root->right == nullptr) {
+        return next == 0;
+      } else if (root->left == nullptr) {
+        return hasPathSum(root->right, next);
+      } else if (root->right == nullptr) {
+        return hasPathSum(root->left, next);
+      } else {
+        return hasPathSum(root->left, next) || hasPathSum(root->right, next);
+      }
     }
   }
 };
