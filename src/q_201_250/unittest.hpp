@@ -5,4 +5,5 @@
 #include "q0206_unittest.hpp"
 #include "q0224_unittest.hpp"
 #include "q0242_unittest.hpp"
+#include "q0226_unittest.hpp"
 #endif
