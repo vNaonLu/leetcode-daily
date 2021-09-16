@@ -35,7 +35,7 @@ else:
     mdtable += "|"
     for q in ques:
         sub = leetcode.get_question_id_path(int(q.num))
-        mdtable += "[📄](https://github.com/vNaonLu/Daily_LeetCode/blob/master/src/{}/q{}.hpp)".format(
+        mdtable += "[📄](src/{}/q{}.hpp)".format(
             sub.lower(), q.num.rjust(4, '0'))
         if q != ques[-1]:
             mdtable += "<br>"

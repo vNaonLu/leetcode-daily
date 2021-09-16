@@ -127,6 +127,7 @@ def __get_problem_content(slug: str):
 
 
 def __get_problem(number: int):
+    res: list[Question] = []
     url = "https://leetcode.com/api/problems/all/"
 
     headers = {'User-Agent': user_agent, 'Connection': 'keep-alive'}
@@ -138,6 +139,34 @@ def __get_problem(number: int):
         if number == question['stat']['frontend_question_id']:
             return __get_problem_content(question['stat']['question__title_slug'])
     return None
+
+
+class Question:
+    def __init__(self, id: int, name: str, level: int):
+        self.id: int = id
+        self.title: str = name
+        self.level: str = 'Easy'
+        if level == 2:
+            self.level = 'Medium'
+        elif level == 3:
+            self.level = 'Hard'
+
+
+def get_questions():
+    res: list[Question] = []
+    url = "https://leetcode.com/api/problems/all/"
+
+    headers = {'User-Agent': user_agent, 'Connection': 'keep-alive'}
+    resp = session.get(url, headers=headers, timeout=10)
+
+    question_list = json.loads(resp.content.decode('utf-8'))
+
+    for question in question_list['stat_status_pairs']:
+        q = Question(question['stat']['frontend_question_id'],
+                     question['stat']['question__title'],
+                     question['difficulty']['level'])
+        res.append(q)
+    return res
 
 
 def get_description(number: int, prompt: str):
