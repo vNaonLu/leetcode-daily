@@ -6,4 +6,5 @@
 #include "q0088_unittest.hpp"
 #include "q0094_unittest.hpp"
 #include "q0077_unittest.hpp"
+#include "q0070_unittest.hpp"
 #endif
