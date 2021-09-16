@@ -56,11 +56,11 @@ else:
     mdtable += "|"
     for q in ques:
         if q.diff == "e":
-            mdtable += '<span style="color:green">Easy</span>'
+            mdtable += 'Easy'
         elif q.diff == "m":
-            mdtable += '<span style="color:orange">Medium</span>'
+            mdtable += 'Medium'
         elif q.diff == "h":
-            mdtable += '<span style="color:red">Hard</span>'
+            mdtable += 'Hard'
 
         if q != ques[-1]:
             mdtable += "<br>"
