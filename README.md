@@ -261,7 +261,7 @@ My daily challenge on leetcode since 2021/09/06.
 - [ ] \*250 Count Univalue Subtrees
 </details>
 <details>
-  <summary>251 ~ 500</summary>
+  <summary>### 251 ~ 500</summary>
 
 - [ ] \*251 Flatten 2D Vector
 - [ ] \*252 Meeting Rooms
@@ -515,7 +515,7 @@ My daily challenge on leetcode since 2021/09/06.
 - [ ] \*500 Keyboard Row
 </details>
 <details>
-  <summary>501 ~ 750</summary>
+  <summary>### 501 ~ 750</summary>
 
 - [ ] \*501 Find Mode in Binary Search Tree
 - [ ] \*502 IPO
@@ -769,7 +769,7 @@ My daily challenge on leetcode since 2021/09/06.
 - [ ] \*750 Number Of Corner Rectangles
 </details>
 <details>
-  <summary>751 ~ 1000</summary>
+  <summary>### 751 ~ 1000</summary>
 
 - [ ] \*751 IP to CIDR
 - [ ] \*752 Open the Lock
@@ -1023,7 +1023,7 @@ My daily challenge on leetcode since 2021/09/06.
 - [ ] 1000 Minimum Cost to Merge Stones
 </details>
 <details>
-  <summary>1001 ~ 1250</summary>
+  <summary>### 1001 ~ 1250</summary>
 
 - [ ] 1001 Grid Illumination
 - [ ] 1002 Find Common Characters
@@ -1277,7 +1277,7 @@ My daily challenge on leetcode since 2021/09/06.
 - [ ] 1250 Check If It Is a Good Array
 </details>
 <details>
-  <summary>1251 ~ 1500</summary>
+  <summary>### 1251 ~ 1500</summary>
 
 - [ ] 1251 Average Selling Price
 - [ ] 1252 Cells with Odd Values in a Matrix
@@ -1531,7 +1531,7 @@ My daily challenge on leetcode since 2021/09/06.
 - [ ] 1500 Design a File Sharing System
 </details>
 <details>
-  <summary>1551 ~ 1750</summary>
+  <summary>### 1551 ~ 1750</summary>
 
 - [ ] 1501 Countries You Can Safely Invest In
 - [ ] 1502 Can Make Arithmetic Progression From Sequence
@@ -1793,7 +1793,7 @@ My daily challenge on leetcode since 2021/09/06.
 - [ ] 1758 Minimum Changes To Make Alternating Binary String
 </details>
 <details>
-  <summary>1751 ~ 2004</summary>
+  <summary>### 1751 ~ 2004</summary>
 
 - [ ] 1759 Count Number of Homogenous Substrings
 - [ ] 1760 Minimum Limit of Balls in a Bag
