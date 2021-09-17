@@ -3,6 +3,8 @@
 #define TREE_NODE_H__
 #include <algorithm>
 #include <iostream>
+#include <set>
+#include <unordered_map>
 #include <vector>
 
 using namespace std;
@@ -17,7 +19,7 @@ class TreeNode final {
   TreeNode(int x, TreeNode *left, TreeNode *right) : val(x), left(left), right(right) {}
 
  private:
-  static vector<vector<TreeNode *>> memory_;
+  static unordered_map<TreeNode *, set<TreeNode *>> memory_;
 
   static TreeNode *generate_(vector<TreeNode *> &v, int current) {
     if (current >= v.size() || v[current] == nullptr)
@@ -25,6 +27,13 @@ class TreeNode final {
     v[current]->left = generate_(v, 2 * current + 1);
     v[current]->right = generate_(v, 2 * current + 2);
     return v[current];
+  }
+
+  inline static void cut_(TreeNode *p, set<TreeNode *> &map) {
+    if (p == nullptr) return;
+    cut_(p->left, map);
+    cut_(p->right, map);
+    map.insert(p);
   }
 
  public:
@@ -42,29 +51,29 @@ class TreeNode final {
 
   static TreeNode *generate(const vector<int> &v, const int &null) {
     vector<TreeNode *> dummy_nodes(v.size(), nullptr);
+    set<TreeNode *> tree_map;
     for (int i = 0; i < v.size(); ++i) {
-      if (v[i] != null)
+      if (v[i] != null) {
         dummy_nodes[i] = new TreeNode(v[i]);
+        tree_map.insert(dummy_nodes[i]);
+      }
     }
-    memory_.push_back(dummy_nodes);
-    return generate_(dummy_nodes, 0);
+    TreeNode *p = generate_(dummy_nodes, 0);
+    if (p != nullptr) memory_[p] = tree_map;
+    return p;
   }
 
   inline static void release(TreeNode *p) {
-    for (auto mem = memory_.begin(); mem != memory_.end(); ++mem) {
-      auto find = std::find((*mem).begin(), (*mem).end(), p);
-      if (find != (*mem).end()) {
-        for (auto it = (*mem).begin(); it != (*mem).end(); ++it) {
-          if (*it != nullptr)
-            delete *it;
-        }
-        memory_.erase(mem);
-        break;
-      }
+    cut_(p, memory_[p]);
+
+    for (auto it = memory_[p].begin(); it != memory_[p].end(); ++it) {
+      delete *it;
     }
+
+    memory_.erase(p);
   }
 };
 
-vector<vector<TreeNode *>> TreeNode::memory_ = {};
+unordered_map<TreeNode *, set<TreeNode *>> TreeNode::memory_;
 
 #endif
