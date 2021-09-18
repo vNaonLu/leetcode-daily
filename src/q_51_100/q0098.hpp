@@ -3,6 +3,7 @@
 #define LEETCODE_Q98_H__
 #include <iostream>
 #include <leetcode/tree_node.hpp>
+#include <limits>
 
 namespace l98 {
 using namespace std;
@@ -48,7 +49,7 @@ class Solution {
 
  public:
   bool isValidBST(TreeNode* root) {
-    return isBST(root, LONG_MIN, LONG_MAX);
+    return isBST(root, numeric_limits<long>::min(), numeric_limits<long>::max());
   }
 };
 }  // namespace l98
