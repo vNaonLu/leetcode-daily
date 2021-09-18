@@ -33,6 +33,7 @@ TEST(q98, sample_input01) {
   bool exp = true;
   l98::Solution solver;
   EXPECT_EQ(solver.isValidBST(root), exp);
+  TreeNode::release(root);
 }
 
 TEST(q98, sample_input02) {
@@ -41,6 +42,7 @@ TEST(q98, sample_input02) {
   bool exp = false;
   l98::Solution solver;
   EXPECT_EQ(solver.isValidBST(root), exp);
+  TreeNode::release(root);
 }
 
 #endif
