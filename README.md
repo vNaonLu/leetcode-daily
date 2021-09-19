@@ -123,7 +123,7 @@ My daily challenge on leetcode since 2021/09/06.
 - [x] \*112 [Path Sum](src/q_101_150/q0112.hpp)
 - [ ] \*113 Path Sum II
 - [ ] \*114 Flatten Binary Tree to Linked List
-- [ ] \*115 Distinct Subsequences
+- [x] \*115 [Distinct Subsequences](src/q_101_150/q0115.hpp)
 - [x] \*116 [Populating Next Right Pointers in Each Node](src/q_101_150/q0116.hpp)
 - [ ] \*117 Populating Next Right Pointers in Each Node II
 - [x] \*118 [Pascal's Triangle](src/q_101_150/q0118.hpp)
