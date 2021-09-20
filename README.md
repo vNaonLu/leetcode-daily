@@ -64,7 +64,7 @@ My daily challenge on leetcode since 2021/09/06.
 - [ ] \*\*53 Maximum Subarray
 - [x] \*\*54 [Spiral Matrix](src/q_51_100/q0054.hpp)
 - [ ] \*\*55 Jump Game
-- [ ] \*\*56 Merge Intervals
+- [x] \*\*56 [Merge Intervals](src/q_51_100/q0056.hpp)
 - [ ] \*\*57 Insert Interval
 - [ ] \*\*58 Length of Last Word
 - [ ] \*\*59 Spiral Matrix II
@@ -83,7 +83,7 @@ My daily challenge on leetcode since 2021/09/06.
 - [ ] \*\*72 Edit Distance
 - [ ] \*\*73 Set Matrix Zeroes
 - [x] \*\*74 [Search a 2D Matrix](src/q_51_100/q0074.hpp)
-- [ ] \*\*75 Sort Colors
+- [x] \*\*75 [Sort Colors](src/q_51_100/q0075.hpp)
 - [ ] \*\*76 Minimum Window Substring
 - [x] \*\*77 [Combinations](src/q_51_100/q0077.hpp)
 - [ ] \*\*78 Subsets
@@ -161,7 +161,7 @@ My daily challenge on leetcode since 2021/09/06.
 - [ ] \*150 Evaluate Reverse Polish Notation
 - [ ] \*151 Reverse Words in a String
 - [ ] \*152 Maximum Product Subarray
-- [ ] \*153 Find Minimum in Rotated Sorted Array
+- [x] \*153 [Find Minimum in Rotated Sorted Array](src/q_151_200/q0153.hpp)
 - [ ] \*154 Find Minimum in Rotated Sorted Array II
 - [ ] \*155 Min Stack
 - [ ] \*156 Binary Tree Upside Down
@@ -170,7 +170,7 @@ My daily challenge on leetcode since 2021/09/06.
 - [ ] \*159 Longest Substring with At Most Two Distinct Characters
 - [ ] \*160 Intersection of Two Linked Lists
 - [ ] \*161 One Edit Distance
-- [ ] \*162 Find Peak Element
+- [x] \*162 [Find Peak Element](src/q_151_200/q0162.hpp)
 - [ ] \*163 Missing Ranges
 - [ ] \*164 Maximum Gap
 - [ ] \*165 Compare Version Numbers
@@ -722,7 +722,7 @@ My daily challenge on leetcode since 2021/09/06.
 - [ ] \*703 Kth Largest Element in a Stream
 - [ ] \*704 Binary Search
 - [ ] \*705 Design HashSet
-- [ ] \*706 Design HashMap
+- [x] \*706 [Design HashMap](src/q_701_750/q0706.hpp)
 - [ ] \*707 Design Linked List
 - [ ] \*708 Insert into a Sorted Circular Linked List
 - [ ] \*709 To Lower Case
@@ -1303,7 +1303,7 @@ My daily challenge on leetcode since 2021/09/06.
 - [ ] 1272 Remove Interval
 - [ ] 1273 Delete Tree Nodes
 - [ ] 1274 Number of Ships in a Rectangle
-- [ ] 1275 Find Winner on a Tic Tac Toe Game
+- [x] 1275 [Find Winner on a Tic Tac Toe Game](src/q_1251_1300/q1275.hpp)
 - [ ] 1276 Number of Burgers with No Waste of Ingredients
 - [ ] 1277 Count Square Submatrices with All Ones
 - [ ] 1278 Palindrome Partitioning III
@@ -2047,6 +2047,7 @@ My daily challenge on leetcode since 2021/09/06.
 
 |                 Date                 |                                                                                                               File                                                                                                               |                                           # | Question                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              | Difficulty                                                     |
 | :----------------------------------: | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: | ------------------------------------------: | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | :------------------------------------------------------------- |
+|20210920<br><br><br><br><br><br>|[📄](src/q_51_100/q0056.hpp)<br>[📄](src/q_51_100/q0075.hpp)<br>[📄](src/q_151_200/q0153.hpp)<br>[📄](src/q_151_200/q0162.hpp)<br>[📄](src/q_701_750/q0706.hpp)<br>[📄](src/q_1251_1300/q1275.hpp)|56<br>75<br>153<br>162<br>706<br>1275|[Merge Intervals](https://leetcode.com/problems/merge-intervals/)<br>[Sort Colors](https://leetcode.com/problems/sort-colors/)<br>[Find Minimum in Rotated Sorted Array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/)<br>[ Find Peak Element](https://leetcode.com/problems/-find-peak-element/)<br>[Design HashMap](https://leetcode.com/problems/design-hashmap/)<br>[Find Winner on a Tic Tac Toe Game](https://leetcode.com/problems/find-winner-on-a-tic-tac-toe-game/)|Medium<br>Medium<br>Medium<br>Medium<br>Easy<br>Easy|
 |     20210919<br><br><br><br><br>     |                                     [📄](src/q_1_50/q0015.hpp)<br>[📄](src/q_1_50/q0033.hpp)<br>[📄](src/q_1_50/q0034.hpp)<br>[📄](src/q_101_150/q0115.hpp)<br>[📄](src/q_151_200/q0169.hpp)                                     |                15<br>33<br>34<br>115<br>169 | [3Sum](https://leetcode.com/problems/3sum/)<br>[Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/)<br>[Find First and Last Position of Element in Sorted Array](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/)<br>[Distinct Subsequences](https://leetcode.com/problems/distinct-subsequences/)<br>[Majority Element](https://leetcode.com/problems/majority-element/)                                                                                                                           | Medium<br>Medium<br>Medium<br>Hard<br>Easy                     |
 |   20210918<br><br><br><br><br><br>   |                [📄](src/q_51_100/q0098.hpp)<br>[📄](src/q_101_150/q0136.hpp)<br>[📄](src/q_151_200/q0190.hpp)<br>[📄](src/q_201_250/q0235.hpp)<br>[📄](src/q_251_300/q0282.hpp)<br>[📄](src/q_651_700/q0653.hpp)                 |       98<br>136<br>190<br>235<br>282<br>653 | [Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree/)<br>[Single Number](https://leetcode.com/problems/single-number/)<br>[Reverse Bits](https://leetcode.com/problems/reverse-bits/)<br>[Lowest Common Ancestor of a Binary Search Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/)<br>[Expression Add Operators](https://leetcode.com/problems/expression-add-operators/)<br>[Two Sum IV - Input is a BST](https://leetcode.com/problems/two-sum-iv---input-is-a-bst/)                                      | Medium<br>Easy<br>Easy<br>Easy<br>Hard<br>Easy                 |
 |       20210917<br><br><br><br>       |                                                 [📄](src/q_151_200/q0191.hpp)<br>[📄](src/q_201_250/q0231.hpp)<br>[📄](src/q_651_700/q0700.hpp)<br>[📄](src/q_701_750/q0701.hpp)                                                 |                    191<br>231<br>700<br>701 | [Number of 1 Bits](https://leetcode.com/problems/number-of-1-bits/)<br>[Power of Two](https://leetcode.com/problems/power-of-two/)<br>[Search in a Binary Search Tree](https://leetcode.com/problems/search-in-a-binary-search-tree/)<br>[Insert into a Binary Search Tree](https://leetcode.com/problems/insert-into-a-binary-search-tree/)                                                                                                                                                                                                                                          | Easy<br>Easy<br>Easy<br>Medium                                 |
