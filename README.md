@@ -56,7 +56,7 @@ My daily challenge on leetcode since 2021/09/06.
 - [ ] 0045 Jump Game II
 - [x] 0046 [Permutations](src/q_1_50/q0046.hpp)
 - [ ] 0047 Permutations II
-- [ ] 0048 Rotate Image
+- [x] 0048 [Rotate Image](src/q_1_50/q0048.hpp)
 - [ ] 0049 Group Anagrams
 - [ ] 0050 Pow(x, n)
 - [ ] 0051 N-Queens
@@ -67,7 +67,7 @@ My daily challenge on leetcode since 2021/09/06.
 - [x] 0056 [Merge Intervals](src/q_51_100/q0056.hpp)
 - [ ] 0057 Insert Interval
 - [ ] 0058 Length of Last Word
-- [ ] 0059 Spiral Matrix II
+- [x] 0059 [Spiral Matrix II](src/q_51_100/q0059.hpp)
 - [ ] 0060 Permutation Sequence
 - [ ] 0061 Rotate List
 - [ ] 0062 Unique Paths
@@ -90,7 +90,7 @@ My daily challenge on leetcode since 2021/09/06.
 - [ ] 0079 Word Search
 - [ ] 0080 Remove Duplicates from Sorted Array II
 - [ ] 0081 Search in Rotated Sorted Array II
-- [ ] 0082 Remove Duplicates from Sorted List II
+- [x] 0082 [Remove Duplicates from Sorted List II](src/q_51_100/q0082.hpp)
 - [x] 0083 [Remove Duplicates from Sorted List](src/q_51_100/q0083.hpp)
 - [ ] 0084 Largest Rectangle in Histogram
 - [ ] 0085 Maximal Rectangle
@@ -127,7 +127,7 @@ My daily challenge on leetcode since 2021/09/06.
 - [x] 0116 [Populating Next Right Pointers in Each Node](src/q_101_150/q0116.hpp)
 - [ ] 0117 Populating Next Right Pointers in Each Node II
 - [x] 0118 [Pascal's Triangle](src/q_101_150/q0118.hpp)
-- [ ] 0119 Pascal's Triangle II
+- [x] 0119 [Pascal's Triangle II](src/q_101_150/q0119.hpp)
 - [x] 0120 [Triangle](src/q_101_150/q0120.hpp)
 - [x] 0121 [Best Time to Buy and Sell Stock](src/q_101_150/q0121.hpp)
 - [ ] 0122 Best Time to Buy and Sell Stock II
@@ -497,7 +497,7 @@ My daily challenge on leetcode since 2021/09/06.
 - [ ] 0482 License Key Formatting
 - [ ] 0483 Smallest Good Base
 - [ ] 0484 Find Permutation
-- [ ] 0485 Max Consecutive Ones
+- [x] 0485 [Max Consecutive Ones](src/q_451_500/q0485.hpp)
 - [ ] 0486 Predict the Winner
 - [ ] 0487 Max Consecutive Ones II
 - [ ] 0488 Zuma Game
@@ -2047,7 +2047,8 @@ My daily challenge on leetcode since 2021/09/06.
 
 |                 Date                 |                                                                                                               File                                                                                                               |                                           # | Question                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              | Difficulty                                                     |
 | :----------------------------------: | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: | ------------------------------------------: | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | :------------------------------------------------------------- |
-|20210920<br><br><br><br><br><br>|[📄](src/q_51_100/q0056.hpp)<br>[📄](src/q_51_100/q0075.hpp)<br>[📄](src/q_151_200/q0153.hpp)<br>[📄](src/q_151_200/q0162.hpp)<br>[📄](src/q_701_750/q0706.hpp)<br>[📄](src/q_1251_1300/q1275.hpp)|56<br>75<br>153<br>162<br>706<br>1275|[Merge Intervals](https://leetcode.com/problems/merge-intervals/)<br>[Sort Colors](https://leetcode.com/problems/sort-colors/)<br>[Find Minimum in Rotated Sorted Array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/)<br>[ Find Peak Element](https://leetcode.com/problems/-find-peak-element/)<br>[Design HashMap](https://leetcode.com/problems/design-hashmap/)<br>[Find Winner on a Tic Tac Toe Game](https://leetcode.com/problems/find-winner-on-a-tic-tac-toe-game/)|Medium<br>Medium<br>Medium<br>Medium<br>Easy<br>Easy|
+|     20210921<br><br><br><br><br>     |                                   [📄](src/q_1_50/q0048.hpp)<br>[📄](src/q_51_100/q0059.hpp)<br>[📄](src/q_51_100/q0082.hpp)<br>[📄](src/q_101_150/q0119.hpp)<br>[📄](src/q_451_500/q0485.hpp)                                   |                48<br>59<br>82<br>119<br>485 | [Rotate Image](https://leetcode.com/problems/rotate-image/)<br>[Spiral Matrix II](https://leetcode.com/problems/spiral-matrix-ii/)<br>[Remove Duplicates from Sorted List II](https://leetcode.com/problems/remove-duplicates-from-sorted-list-ii/)<br>[Pascal's Triangle II](https://leetcode.com/problems/pascal's-triangle-ii/)<br>[Max Consecutive Ones](https://leetcode.com/problems/max-consecutive-ones/)                                                                                                                                                                     | Medium<br>Medium<br>Medium<br>Easy<br>Easy                     |
+|   20210920<br><br><br><br><br><br>   |                [📄](src/q_51_100/q0056.hpp)<br>[📄](src/q_51_100/q0075.hpp)<br>[📄](src/q_151_200/q0153.hpp)<br>[📄](src/q_151_200/q0162.hpp)<br>[📄](src/q_701_750/q0706.hpp)<br>[📄](src/q_1251_1300/q1275.hpp)                |       56<br>75<br>153<br>162<br>706<br>1275 | [Merge Intervals](https://leetcode.com/problems/merge-intervals/)<br>[Sort Colors](https://leetcode.com/problems/sort-colors/)<br>[Find Minimum in Rotated Sorted Array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/)<br>[ Find Peak Element](https://leetcode.com/problems/-find-peak-element/)<br>[Design HashMap](https://leetcode.com/problems/design-hashmap/)<br>[Find Winner on a Tic Tac Toe Game](https://leetcode.com/problems/find-winner-on-a-tic-tac-toe-game/)                                                                                  | Medium<br>Medium<br>Medium<br>Medium<br>Easy<br>Easy           |
 |     20210919<br><br><br><br><br>     |                                     [📄](src/q_1_50/q0015.hpp)<br>[📄](src/q_1_50/q0033.hpp)<br>[📄](src/q_1_50/q0034.hpp)<br>[📄](src/q_101_150/q0115.hpp)<br>[📄](src/q_151_200/q0169.hpp)                                     |                15<br>33<br>34<br>115<br>169 | [3Sum](https://leetcode.com/problems/3sum/)<br>[Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/)<br>[Find First and Last Position of Element in Sorted Array](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/)<br>[Distinct Subsequences](https://leetcode.com/problems/distinct-subsequences/)<br>[Majority Element](https://leetcode.com/problems/majority-element/)                                                                                                                           | Medium<br>Medium<br>Medium<br>Hard<br>Easy                     |
 |   20210918<br><br><br><br><br><br>   |                [📄](src/q_51_100/q0098.hpp)<br>[📄](src/q_101_150/q0136.hpp)<br>[📄](src/q_151_200/q0190.hpp)<br>[📄](src/q_201_250/q0235.hpp)<br>[📄](src/q_251_300/q0282.hpp)<br>[📄](src/q_651_700/q0653.hpp)                 |       98<br>136<br>190<br>235<br>282<br>653 | [Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree/)<br>[Single Number](https://leetcode.com/problems/single-number/)<br>[Reverse Bits](https://leetcode.com/problems/reverse-bits/)<br>[Lowest Common Ancestor of a Binary Search Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/)<br>[Expression Add Operators](https://leetcode.com/problems/expression-add-operators/)<br>[Two Sum IV - Input is a BST](https://leetcode.com/problems/two-sum-iv---input-is-a-bst/)                                      | Medium<br>Easy<br>Easy<br>Easy<br>Hard<br>Easy                 |
 |       20210917<br><br><br><br>       |                                                 [📄](src/q_151_200/q0191.hpp)<br>[📄](src/q_201_250/q0231.hpp)<br>[📄](src/q_651_700/q0700.hpp)<br>[📄](src/q_701_750/q0701.hpp)                                                 |                    191<br>231<br>700<br>701 | [Number of 1 Bits](https://leetcode.com/problems/number-of-1-bits/)<br>[Power of Two](https://leetcode.com/problems/power-of-two/)<br>[Search in a Binary Search Tree](https://leetcode.com/problems/search-in-a-binary-search-tree/)<br>[Insert into a Binary Search Tree](https://leetcode.com/problems/insert-into-a-binary-search-tree/)                                                                                                                                                                                                                                          | Easy<br>Easy<br>Easy<br>Medium                                 |
