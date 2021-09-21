@@ -176,20 +176,20 @@ def get_description(number: int, prompt: str):
         content = __parse(problem['content'])
 
         res: list[str] = []
-        res.append("/**\n")
-        res.append("  * {}\n".format(prompt))
-        res.append("  *\n")
-        res.append("  * {}. {}\n".format(number, title))
-        res.append("  *\n")
+        res.append("/**")
+        res.append("  * {}".format(prompt))
+        res.append("  *")
+        res.append("  * {}. {}".format(number, title))
+        res.append("  *")
         for statement in content['Description']:
-            res.append("  * {}\n".format(statement))
-        res.append("  *\n")
-        res.append("  * Constraints:\n")
+            res.append("  * {}".format(statement))
+        res.append("  *")
+        res.append("  * Constraints:")
         for statement in content['Constraints']:
-            res.append("  * {}\n".format(statement))
-        res.append("  *\n")
-        res.append("*/\n")
-        return res
+            res.append("  * {}".format(statement))
+        res.append("  *")
+        res.append("*/")
+        return "\n".join(res)
     else:
         return None
 
