@@ -12,4 +12,5 @@
 #include "q0075_unittest.hpp"
 #include "q0056_unittest.hpp"
 #include "q0082_unittest.hpp"
+#include "q0059_unittest.hpp"
 #endif
