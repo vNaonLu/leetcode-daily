@@ -27,6 +27,6 @@ qs.sort(key=id)
 
 for q in qs:
     if q.id in file_map:
-        print("- [x] {} [{}]({})".format(str(q.id).rjust(4, '*'), q.title, file_map[q.id]))
+        print("- [x] {} [{}]({})".format(str(q.id).rjust(4, '0'), q.title, file_map[q.id]))
     else:
-        print("- [ ] {} {}".format(str(q.id).rjust(4, '*'), q.title))
+        print("- [ ] {} {}".format(str(q.id).rjust(4, '0'), q.title))

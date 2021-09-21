@@ -9,1017 +9,1017 @@ My daily challenge on leetcode since 2021/09/06.
 <details>
   <summary>### 1 ~ 250</summary>
 
-- [x] \*\*\*1 [Two Sum](src/q_1_50/q0001.hpp)
-- [ ] \*\*\*2 Add Two Numbers
-- [x] \*\*\*3 [Longest Substring Without Repeating Characters](src/q_1_50/q0003.hpp)
-- [ ] \*\*\*4 Median of Two Sorted Arrays
-- [ ] \*\*\*5 Longest Palindromic Substring
-- [ ] \*\*\*6 ZigZag Conversion
-- [ ] \*\*\*7 Reverse Integer
-- [ ] \*\*\*8 String to Integer (atoi)
-- [ ] \*\*\*9 Palindrome Number
-- [ ] \*\*10 Regular Expression Matching
-- [ ] \*\*11 Container With Most Water
-- [ ] \*\*12 Integer to Roman
-- [ ] \*\*13 Roman to Integer
-- [ ] \*\*14 Longest Common Prefix
-- [x] \*\*15 [3Sum](src/q_1_50/q0015.hpp)
-- [ ] \*\*16 3Sum Closest
-- [ ] \*\*17 Letter Combinations of a Phone Number
-- [ ] \*\*18 4Sum
-- [x] \*\*19 [Remove Nth Node From End of List](src/q_1_50/q0019.hpp)
-- [x] \*\*20 [Valid Parentheses](src/q_1_50/q0020.hpp)
-- [x] \*\*21 [Merge Two Sorted Lists](src/q_1_50/q0021.hpp)
-- [ ] \*\*22 Generate Parentheses
-- [ ] \*\*23 Merge k Sorted Lists
-- [ ] \*\*24 Swap Nodes in Pairs
-- [ ] \*\*25 Reverse Nodes in k-Group
-- [ ] \*\*26 Remove Duplicates from Sorted Array
-- [ ] \*\*27 Remove Element
-- [ ] \*\*28 Implement strStr()
-- [ ] \*\*29 Divide Two Integers
-- [ ] \*\*30 Substring with Concatenation of All Words
-- [ ] \*\*31 Next Permutation
-- [ ] \*\*32 Longest Valid Parentheses
-- [x] \*\*33 [Search in Rotated Sorted Array](src/q_1_50/q0033.hpp)
-- [x] \*\*34 [Find First and Last Position of Element in Sorted Array](src/q_1_50/q0034.hpp)
-- [ ] \*\*35 Search Insert Position
-- [x] \*\*36 [Valid Sudoku](src/q_1_50/q0036.hpp)
-- [ ] \*\*37 Sudoku Solver
-- [ ] \*\*38 Count and Say
-- [ ] \*\*39 Combination Sum
-- [ ] \*\*40 Combination Sum II
-- [ ] \*\*41 First Missing Positive
-- [ ] \*\*42 Trapping Rain Water
-- [ ] \*\*43 Multiply Strings
-- [ ] \*\*44 Wildcard Matching
-- [ ] \*\*45 Jump Game II
-- [x] \*\*46 [Permutations](src/q_1_50/q0046.hpp)
-- [ ] \*\*47 Permutations II
-- [ ] \*\*48 Rotate Image
-- [ ] \*\*49 Group Anagrams
-- [ ] \*\*50 Pow(x, n)
-- [ ] \*\*51 N-Queens
-- [ ] \*\*52 N-Queens II
-- [ ] \*\*53 Maximum Subarray
-- [x] \*\*54 [Spiral Matrix](src/q_51_100/q0054.hpp)
-- [ ] \*\*55 Jump Game
-- [x] \*\*56 [Merge Intervals](src/q_51_100/q0056.hpp)
-- [ ] \*\*57 Insert Interval
-- [ ] \*\*58 Length of Last Word
-- [ ] \*\*59 Spiral Matrix II
-- [ ] \*\*60 Permutation Sequence
-- [ ] \*\*61 Rotate List
-- [ ] \*\*62 Unique Paths
-- [ ] \*\*63 Unique Paths II
-- [ ] \*\*64 Minimum Path Sum
-- [ ] \*\*65 Valid Number
-- [ ] \*\*66 Plus One
-- [ ] \*\*67 Add Binary
-- [ ] \*\*68 Text Justification
-- [ ] \*\*69 Sqrt(x)
-- [x] \*\*70 [Climbing Stairs](src/q_51_100/q0070.hpp)
-- [ ] \*\*71 Simplify Path
-- [ ] \*\*72 Edit Distance
-- [ ] \*\*73 Set Matrix Zeroes
-- [x] \*\*74 [Search a 2D Matrix](src/q_51_100/q0074.hpp)
-- [x] \*\*75 [Sort Colors](src/q_51_100/q0075.hpp)
-- [ ] \*\*76 Minimum Window Substring
-- [x] \*\*77 [Combinations](src/q_51_100/q0077.hpp)
-- [ ] \*\*78 Subsets
-- [ ] \*\*79 Word Search
-- [ ] \*\*80 Remove Duplicates from Sorted Array II
-- [ ] \*\*81 Search in Rotated Sorted Array II
-- [ ] \*\*82 Remove Duplicates from Sorted List II
-- [x] \*\*83 [Remove Duplicates from Sorted List](src/q_51_100/q0083.hpp)
-- [ ] \*\*84 Largest Rectangle in Histogram
-- [ ] \*\*85 Maximal Rectangle
-- [ ] \*\*86 Partition List
-- [ ] \*\*87 Scramble String
-- [x] \*\*88 [Merge Sorted Array](src/q_51_100/q0088.hpp)
-- [ ] \*\*89 Gray Code
-- [ ] \*\*90 Subsets II
-- [ ] \*\*91 Decode Ways
-- [ ] \*\*92 Reverse Linked List II
-- [ ] \*\*93 Restore IP Addresses
-- [x] \*\*94 [Binary Tree Inorder Traversal](src/q_51_100/q0094.hpp)
-- [ ] \*\*95 Unique Binary Search Trees II
-- [ ] \*\*96 Unique Binary Search Trees
-- [ ] \*\*97 Interleaving String
-- [x] \*\*98 [Validate Binary Search Tree](src/q_51_100/q0098.hpp)
-- [ ] \*\*99 Recover Binary Search Tree
-- [ ] \*100 Same Tree
-- [x] \*101 [Symmetric Tree](src/q_101_150/q0101.hpp)
-- [x] \*102 [Binary Tree Level Order Traversal](src/q_101_150/q0102.hpp)
-- [ ] \*103 Binary Tree Zigzag Level Order Traversal
-- [x] \*104 [Maximum Depth of Binary Tree](src/q_101_150/q0104.hpp)
-- [ ] \*105 Construct Binary Tree from Preorder and Inorder Traversal
-- [ ] \*106 Construct Binary Tree from Inorder and Postorder Traversal
-- [ ] \*107 Binary Tree Level Order Traversal II
-- [ ] \*108 Convert Sorted Array to Binary Search Tree
-- [ ] \*109 Convert Sorted List to Binary Search Tree
-- [ ] \*110 Balanced Binary Tree
-- [ ] \*111 Minimum Depth of Binary Tree
-- [x] \*112 [Path Sum](src/q_101_150/q0112.hpp)
-- [ ] \*113 Path Sum II
-- [ ] \*114 Flatten Binary Tree to Linked List
-- [x] \*115 [Distinct Subsequences](src/q_101_150/q0115.hpp)
-- [x] \*116 [Populating Next Right Pointers in Each Node](src/q_101_150/q0116.hpp)
-- [ ] \*117 Populating Next Right Pointers in Each Node II
-- [x] \*118 [Pascal's Triangle](src/q_101_150/q0118.hpp)
-- [ ] \*119 Pascal's Triangle II
-- [x] \*120 [Triangle](src/q_101_150/q0120.hpp)
-- [x] \*121 [Best Time to Buy and Sell Stock](src/q_101_150/q0121.hpp)
-- [ ] \*122 Best Time to Buy and Sell Stock II
-- [ ] \*123 Best Time to Buy and Sell Stock III
-- [ ] \*124 Binary Tree Maximum Path Sum
-- [ ] \*125 Valid Palindrome
-- [ ] \*126 Word Ladder II
-- [ ] \*127 Word Ladder
-- [ ] \*128 Longest Consecutive Sequence
-- [ ] \*129 Sum Root to Leaf Numbers
-- [ ] \*130 Surrounded Regions
-- [ ] \*131 Palindrome Partitioning
-- [ ] \*132 Palindrome Partitioning II
-- [ ] \*133 Clone Graph
-- [ ] \*134 Gas Station
-- [ ] \*135 Candy
-- [x] \*136 [Single Number](src/q_101_150/q0136.hpp)
-- [ ] \*137 Single Number II
-- [ ] \*138 Copy List with Random Pointer
-- [ ] \*139 Word Break
-- [ ] \*140 Word Break II
-- [x] \*141 [Linked List Cycle](src/q_101_150/q0141.hpp)
-- [ ] \*142 Linked List Cycle II
-- [ ] \*143 Reorder List
-- [x] \*144 [Binary Tree Preorder Traversal](src/q_101_150/q0144.hpp)
-- [x] \*145 [Binary Tree Postorder Traversal](src/q_101_150/q0145.hpp)
-- [ ] \*146 LRU Cache
-- [ ] \*147 Insertion Sort List
-- [ ] \*148 Sort List
-- [ ] \*149 Max Points on a Line
-- [ ] \*150 Evaluate Reverse Polish Notation
-- [ ] \*151 Reverse Words in a String
-- [ ] \*152 Maximum Product Subarray
-- [x] \*153 [Find Minimum in Rotated Sorted Array](src/q_151_200/q0153.hpp)
-- [ ] \*154 Find Minimum in Rotated Sorted Array II
-- [ ] \*155 Min Stack
-- [ ] \*156 Binary Tree Upside Down
-- [ ] \*157 Read N Characters Given Read4
-- [ ] \*158 Read N Characters Given Read4 II - Call multiple times
-- [ ] \*159 Longest Substring with At Most Two Distinct Characters
-- [ ] \*160 Intersection of Two Linked Lists
-- [ ] \*161 One Edit Distance
-- [x] \*162 [Find Peak Element](src/q_151_200/q0162.hpp)
-- [ ] \*163 Missing Ranges
-- [ ] \*164 Maximum Gap
-- [ ] \*165 Compare Version Numbers
-- [ ] \*166 Fraction to Recurring Decimal
-- [x] \*167 [Two Sum II - Input array is sorted](src/q_151_200/q0167.hpp)
-- [ ] \*168 Excel Sheet Column Title
-- [x] \*169 [Majority Element](src/q_151_200/q0169.hpp)
-- [ ] \*170 Two Sum III - Data structure design
-- [ ] \*171 Excel Sheet Column Number
-- [ ] \*172 Factorial Trailing Zeroes
-- [ ] \*173 Binary Search Tree Iterator
-- [ ] \*174 Dungeon Game
-- [ ] \*175 Combine Two Tables
-- [ ] \*176 Second Highest Salary
-- [ ] \*177 Nth Highest Salary
-- [ ] \*178 Rank Scores
-- [ ] \*179 Largest Number
-- [ ] \*180 Consecutive Numbers
-- [ ] \*181 Employees Earning More Than Their Managers
-- [ ] \*182 Duplicate Emails
-- [ ] \*183 Customers Who Never Order
-- [ ] \*184 Department Highest Salary
-- [ ] \*185 Department Top Three Salaries
-- [ ] \*186 Reverse Words in a String II
-- [ ] \*187 Repeated DNA Sequences
-- [ ] \*188 Best Time to Buy and Sell Stock IV
-- [x] \*189 [Rotate Array](src/q_151_200/q0189.hpp)
-- [x] \*190 [Reverse Bits](src/q_151_200/q0190.hpp)
-- [x] \*191 [Number of 1 Bits](src/q_151_200/q0191.hpp)
-- [ ] \*192 Word Frequency
-- [ ] \*193 Valid Phone Numbers
-- [ ] \*194 Transpose File
-- [ ] \*195 Tenth Line
-- [ ] \*196 Delete Duplicate Emails
-- [ ] \*197 Rising Temperature
-- [x] \*198 [House Robber](src/q_151_200/q0198.hpp)
-- [ ] \*199 Binary Tree Right Side View
-- [ ] \*200 Number of Islands
-- [ ] \*201 Bitwise AND of Numbers Range
-- [ ] \*202 Happy Number
-- [x] \*203 [Remove Linked List Elements](src/q_201_250/q0203.hpp)
-- [ ] \*204 Count Primes
-- [ ] \*205 Isomorphic Strings
-- [x] \*206 [Reverse Linked List](src/q_201_250/q0206.hpp)
-- [ ] \*207 Course Schedule
-- [ ] \*208 Implement Trie (Prefix Tree)
-- [ ] \*209 Minimum Size Subarray Sum
-- [ ] \*210 Course Schedule II
-- [ ] \*211 Design Add and Search Words Data Structure
-- [ ] \*212 Word Search II
-- [ ] \*213 House Robber II
-- [ ] \*214 Shortest Palindrome
-- [ ] \*215 Kth Largest Element in an Array
-- [ ] \*216 Combination Sum III
-- [ ] \*217 Contains Duplicate
-- [ ] \*218 The Skyline Problem
-- [ ] \*219 Contains Duplicate II
-- [ ] \*220 Contains Duplicate III
-- [ ] \*221 Maximal Square
-- [ ] \*222 Count Complete Tree Nodes
-- [ ] \*223 Rectangle Area
-- [x] \*224 [Basic Calculator](src/q_201_250/q0224.hpp)
-- [ ] \*225 Implement Stack using Queues
-- [x] \*226 [Invert Binary Tree](src/q_201_250/q0226.hpp)
-- [ ] \*227 Basic Calculator II
-- [ ] \*228 Summary Ranges
-- [ ] \*229 Majority Element II
-- [ ] \*230 Kth Smallest Element in a BST
-- [x] \*231 [Power of Two](src/q_201_250/q0231.hpp)
-- [ ] \*232 Implement Queue using Stacks
-- [ ] \*233 Number of Digit One
-- [ ] \*234 Palindrome Linked List
-- [x] \*235 [Lowest Common Ancestor of a Binary Search Tree](src/q_201_250/q0235.hpp)
-- [ ] \*236 Lowest Common Ancestor of a Binary Tree
-- [ ] \*237 Delete Node in a Linked List
-- [ ] \*238 Product of Array Except Self
-- [ ] \*239 Sliding Window Maximum
-- [ ] \*240 Search a 2D Matrix II
-- [ ] \*241 Different Ways to Add Parentheses
-- [x] \*242 [Valid Anagram](src/q_201_250/q0242.hpp)
-- [ ] \*243 Shortest Word Distance
-- [ ] \*244 Shortest Word Distance II
-- [ ] \*245 Shortest Word Distance III
-- [ ] \*246 Strobogrammatic Number
-- [ ] \*247 Strobogrammatic Number II
-- [ ] \*248 Strobogrammatic Number III
-- [ ] \*249 Group Shifted Strings
-- [ ] \*250 Count Univalue Subtrees
+- [x] 0001 [Two Sum](src/q_1_50/q0001.hpp)
+- [ ] 0002 Add Two Numbers
+- [x] 0003 [Longest Substring Without Repeating Characters](src/q_1_50/q0003.hpp)
+- [ ] 0004 Median of Two Sorted Arrays
+- [ ] 0005 Longest Palindromic Substring
+- [ ] 0006 ZigZag Conversion
+- [ ] 0007 Reverse Integer
+- [ ] 0008 String to Integer (atoi)
+- [ ] 0009 Palindrome Number
+- [ ] 0010 Regular Expression Matching
+- [ ] 0011 Container With Most Water
+- [ ] 0012 Integer to Roman
+- [ ] 0013 Roman to Integer
+- [ ] 0014 Longest Common Prefix
+- [x] 0015 [3Sum](src/q_1_50/q0015.hpp)
+- [ ] 0016 3Sum Closest
+- [ ] 0017 Letter Combinations of a Phone Number
+- [ ] 0018 4Sum
+- [x] 0019 [Remove Nth Node From End of List](src/q_1_50/q0019.hpp)
+- [x] 0020 [Valid Parentheses](src/q_1_50/q0020.hpp)
+- [x] 0021 [Merge Two Sorted Lists](src/q_1_50/q0021.hpp)
+- [ ] 0022 Generate Parentheses
+- [ ] 0023 Merge k Sorted Lists
+- [ ] 0024 Swap Nodes in Pairs
+- [ ] 0025 Reverse Nodes in k-Group
+- [ ] 0026 Remove Duplicates from Sorted Array
+- [ ] 0027 Remove Element
+- [ ] 0028 Implement strStr()
+- [ ] 0029 Divide Two Integers
+- [ ] 0030 Substring with Concatenation of All Words
+- [ ] 0031 Next Permutation
+- [ ] 0032 Longest Valid Parentheses
+- [x] 0033 [Search in Rotated Sorted Array](src/q_1_50/q0033.hpp)
+- [x] 0034 [Find First and Last Position of Element in Sorted Array](src/q_1_50/q0034.hpp)
+- [ ] 0035 Search Insert Position
+- [x] 0036 [Valid Sudoku](src/q_1_50/q0036.hpp)
+- [ ] 0037 Sudoku Solver
+- [ ] 0038 Count and Say
+- [ ] 0039 Combination Sum
+- [ ] 0040 Combination Sum II
+- [ ] 0041 First Missing Positive
+- [ ] 0042 Trapping Rain Water
+- [ ] 0043 Multiply Strings
+- [ ] 0044 Wildcard Matching
+- [ ] 0045 Jump Game II
+- [x] 0046 [Permutations](src/q_1_50/q0046.hpp)
+- [ ] 0047 Permutations II
+- [ ] 0048 Rotate Image
+- [ ] 0049 Group Anagrams
+- [ ] 0050 Pow(x, n)
+- [ ] 0051 N-Queens
+- [ ] 0052 N-Queens II
+- [ ] 0053 Maximum Subarray
+- [x] 0054 [Spiral Matrix](src/q_51_100/q0054.hpp)
+- [ ] 0055 Jump Game
+- [x] 0056 [Merge Intervals](src/q_51_100/q0056.hpp)
+- [ ] 0057 Insert Interval
+- [ ] 0058 Length of Last Word
+- [ ] 0059 Spiral Matrix II
+- [ ] 0060 Permutation Sequence
+- [ ] 0061 Rotate List
+- [ ] 0062 Unique Paths
+- [ ] 0063 Unique Paths II
+- [ ] 0064 Minimum Path Sum
+- [ ] 0065 Valid Number
+- [ ] 0066 Plus One
+- [ ] 0067 Add Binary
+- [ ] 0068 Text Justification
+- [ ] 0069 Sqrt(x)
+- [x] 0070 [Climbing Stairs](src/q_51_100/q0070.hpp)
+- [ ] 0071 Simplify Path
+- [ ] 0072 Edit Distance
+- [ ] 0073 Set Matrix Zeroes
+- [x] 0074 [Search a 2D Matrix](src/q_51_100/q0074.hpp)
+- [x] 0075 [Sort Colors](src/q_51_100/q0075.hpp)
+- [ ] 0076 Minimum Window Substring
+- [x] 0077 [Combinations](src/q_51_100/q0077.hpp)
+- [ ] 0078 Subsets
+- [ ] 0079 Word Search
+- [ ] 0080 Remove Duplicates from Sorted Array II
+- [ ] 0081 Search in Rotated Sorted Array II
+- [ ] 0082 Remove Duplicates from Sorted List II
+- [x] 0083 [Remove Duplicates from Sorted List](src/q_51_100/q0083.hpp)
+- [ ] 0084 Largest Rectangle in Histogram
+- [ ] 0085 Maximal Rectangle
+- [ ] 0086 Partition List
+- [ ] 0087 Scramble String
+- [x] 0088 [Merge Sorted Array](src/q_51_100/q0088.hpp)
+- [ ] 0089 Gray Code
+- [ ] 0090 Subsets II
+- [ ] 0091 Decode Ways
+- [ ] 0092 Reverse Linked List II
+- [ ] 0093 Restore IP Addresses
+- [x] 0094 [Binary Tree Inorder Traversal](src/q_51_100/q0094.hpp)
+- [ ] 0095 Unique Binary Search Trees II
+- [ ] 0096 Unique Binary Search Trees
+- [ ] 0097 Interleaving String
+- [x] 0098 [Validate Binary Search Tree](src/q_51_100/q0098.hpp)
+- [ ] 0099 Recover Binary Search Tree
+- [ ] 0100 Same Tree
+- [x] 0101 [Symmetric Tree](src/q_101_150/q0101.hpp)
+- [x] 0102 [Binary Tree Level Order Traversal](src/q_101_150/q0102.hpp)
+- [ ] 0103 Binary Tree Zigzag Level Order Traversal
+- [x] 0104 [Maximum Depth of Binary Tree](src/q_101_150/q0104.hpp)
+- [ ] 0105 Construct Binary Tree from Preorder and Inorder Traversal
+- [ ] 0106 Construct Binary Tree from Inorder and Postorder Traversal
+- [ ] 0107 Binary Tree Level Order Traversal II
+- [ ] 0108 Convert Sorted Array to Binary Search Tree
+- [ ] 0109 Convert Sorted List to Binary Search Tree
+- [ ] 0110 Balanced Binary Tree
+- [ ] 0111 Minimum Depth of Binary Tree
+- [x] 0112 [Path Sum](src/q_101_150/q0112.hpp)
+- [ ] 0113 Path Sum II
+- [ ] 0114 Flatten Binary Tree to Linked List
+- [x] 0115 [Distinct Subsequences](src/q_101_150/q0115.hpp)
+- [x] 0116 [Populating Next Right Pointers in Each Node](src/q_101_150/q0116.hpp)
+- [ ] 0117 Populating Next Right Pointers in Each Node II
+- [x] 0118 [Pascal's Triangle](src/q_101_150/q0118.hpp)
+- [ ] 0119 Pascal's Triangle II
+- [x] 0120 [Triangle](src/q_101_150/q0120.hpp)
+- [x] 0121 [Best Time to Buy and Sell Stock](src/q_101_150/q0121.hpp)
+- [ ] 0122 Best Time to Buy and Sell Stock II
+- [ ] 0123 Best Time to Buy and Sell Stock III
+- [ ] 0124 Binary Tree Maximum Path Sum
+- [ ] 0125 Valid Palindrome
+- [ ] 0126 Word Ladder II
+- [ ] 0127 Word Ladder
+- [ ] 0128 Longest Consecutive Sequence
+- [ ] 0129 Sum Root to Leaf Numbers
+- [ ] 0130 Surrounded Regions
+- [ ] 0131 Palindrome Partitioning
+- [ ] 0132 Palindrome Partitioning II
+- [ ] 0133 Clone Graph
+- [ ] 0134 Gas Station
+- [ ] 0135 Candy
+- [x] 0136 [Single Number](src/q_101_150/q0136.hpp)
+- [ ] 0137 Single Number II
+- [ ] 0138 Copy List with Random Pointer
+- [ ] 0139 Word Break
+- [ ] 0140 Word Break II
+- [x] 0141 [Linked List Cycle](src/q_101_150/q0141.hpp)
+- [ ] 0142 Linked List Cycle II
+- [ ] 0143 Reorder List
+- [x] 0144 [Binary Tree Preorder Traversal](src/q_101_150/q0144.hpp)
+- [x] 0145 [Binary Tree Postorder Traversal](src/q_101_150/q0145.hpp)
+- [ ] 0146 LRU Cache
+- [ ] 0147 Insertion Sort List
+- [ ] 0148 Sort List
+- [ ] 0149 Max Points on a Line
+- [ ] 0150 Evaluate Reverse Polish Notation
+- [ ] 0151 Reverse Words in a String
+- [ ] 0152 Maximum Product Subarray
+- [x] 0153 [Find Minimum in Rotated Sorted Array](src/q_151_200/q0153.hpp)
+- [ ] 0154 Find Minimum in Rotated Sorted Array II
+- [ ] 0155 Min Stack
+- [ ] 0156 Binary Tree Upside Down
+- [ ] 0157 Read N Characters Given Read4
+- [ ] 0158 Read N Characters Given Read4 II - Call multiple times
+- [ ] 0159 Longest Substring with At Most Two Distinct Characters
+- [ ] 0160 Intersection of Two Linked Lists
+- [ ] 0161 One Edit Distance
+- [x] 0162 [Find Peak Element](src/q_151_200/q0162.hpp)
+- [ ] 0163 Missing Ranges
+- [ ] 0164 Maximum Gap
+- [ ] 0165 Compare Version Numbers
+- [ ] 0166 Fraction to Recurring Decimal
+- [x] 0167 [Two Sum II - Input array is sorted](src/q_151_200/q0167.hpp)
+- [ ] 0168 Excel Sheet Column Title
+- [x] 0169 [Majority Element](src/q_151_200/q0169.hpp)
+- [ ] 0170 Two Sum III - Data structure design
+- [ ] 0171 Excel Sheet Column Number
+- [ ] 0172 Factorial Trailing Zeroes
+- [ ] 0173 Binary Search Tree Iterator
+- [ ] 0174 Dungeon Game
+- [ ] 0175 Combine Two Tables
+- [ ] 0176 Second Highest Salary
+- [ ] 0177 Nth Highest Salary
+- [ ] 0178 Rank Scores
+- [ ] 0179 Largest Number
+- [ ] 0180 Consecutive Numbers
+- [ ] 0181 Employees Earning More Than Their Managers
+- [ ] 0182 Duplicate Emails
+- [ ] 0183 Customers Who Never Order
+- [ ] 0184 Department Highest Salary
+- [ ] 0185 Department Top Three Salaries
+- [ ] 0186 Reverse Words in a String II
+- [ ] 0187 Repeated DNA Sequences
+- [ ] 0188 Best Time to Buy and Sell Stock IV
+- [x] 0189 [Rotate Array](src/q_151_200/q0189.hpp)
+- [x] 0190 [Reverse Bits](src/q_151_200/q0190.hpp)
+- [x] 0191 [Number of 1 Bits](src/q_151_200/q0191.hpp)
+- [ ] 0192 Word Frequency
+- [ ] 0193 Valid Phone Numbers
+- [ ] 0194 Transpose File
+- [ ] 0195 Tenth Line
+- [ ] 0196 Delete Duplicate Emails
+- [ ] 0197 Rising Temperature
+- [x] 0198 [House Robber](src/q_151_200/q0198.hpp)
+- [ ] 0199 Binary Tree Right Side View
+- [ ] 0200 Number of Islands
+- [ ] 0201 Bitwise AND of Numbers Range
+- [ ] 0202 Happy Number
+- [x] 0203 [Remove Linked List Elements](src/q_201_250/q0203.hpp)
+- [ ] 0204 Count Primes
+- [ ] 0205 Isomorphic Strings
+- [x] 0206 [Reverse Linked List](src/q_201_250/q0206.hpp)
+- [ ] 0207 Course Schedule
+- [ ] 0208 Implement Trie (Prefix Tree)
+- [ ] 0209 Minimum Size Subarray Sum
+- [ ] 0210 Course Schedule II
+- [ ] 0211 Design Add and Search Words Data Structure
+- [ ] 0212 Word Search II
+- [ ] 0213 House Robber II
+- [ ] 0214 Shortest Palindrome
+- [ ] 0215 Kth Largest Element in an Array
+- [ ] 0216 Combination Sum III
+- [ ] 0217 Contains Duplicate
+- [ ] 0218 The Skyline Problem
+- [ ] 0219 Contains Duplicate II
+- [ ] 0220 Contains Duplicate III
+- [ ] 0221 Maximal Square
+- [ ] 0222 Count Complete Tree Nodes
+- [ ] 0223 Rectangle Area
+- [x] 0224 [Basic Calculator](src/q_201_250/q0224.hpp)
+- [ ] 0225 Implement Stack using Queues
+- [x] 0226 [Invert Binary Tree](src/q_201_250/q0226.hpp)
+- [ ] 0227 Basic Calculator II
+- [ ] 0228 Summary Ranges
+- [ ] 0229 Majority Element II
+- [ ] 0230 Kth Smallest Element in a BST
+- [x] 0231 [Power of Two](src/q_201_250/q0231.hpp)
+- [ ] 0232 Implement Queue using Stacks
+- [ ] 0233 Number of Digit One
+- [ ] 0234 Palindrome Linked List
+- [x] 0235 [Lowest Common Ancestor of a Binary Search Tree](src/q_201_250/q0235.hpp)
+- [ ] 0236 Lowest Common Ancestor of a Binary Tree
+- [ ] 0237 Delete Node in a Linked List
+- [ ] 0238 Product of Array Except Self
+- [ ] 0239 Sliding Window Maximum
+- [ ] 0240 Search a 2D Matrix II
+- [ ] 0241 Different Ways to Add Parentheses
+- [x] 0242 [Valid Anagram](src/q_201_250/q0242.hpp)
+- [ ] 0243 Shortest Word Distance
+- [ ] 0244 Shortest Word Distance II
+- [ ] 0245 Shortest Word Distance III
+- [ ] 0246 Strobogrammatic Number
+- [ ] 0247 Strobogrammatic Number II
+- [ ] 0248 Strobogrammatic Number III
+- [ ] 0249 Group Shifted Strings
+- [ ] 0250 Count Univalue Subtrees
 </details>
 <details>
   <summary>### 251 ~ 500</summary>
 
-- [ ] \*251 Flatten 2D Vector
-- [ ] \*252 Meeting Rooms
-- [ ] \*253 Meeting Rooms II
-- [ ] \*254 Factor Combinations
-- [ ] \*255 Verify Preorder Sequence in Binary Search Tree
-- [ ] \*256 Paint House
-- [ ] \*257 Binary Tree Paths
-- [ ] \*258 Add Digits
-- [ ] \*259 3Sum Smaller
-- [ ] \*260 Single Number III
-- [ ] \*261 Graph Valid Tree
-- [ ] \*262 Trips and Users
-- [ ] \*263 Ugly Number
-- [ ] \*264 Ugly Number II
-- [ ] \*265 Paint House II
-- [ ] \*266 Palindrome Permutation
-- [ ] \*267 Palindrome Permutation II
-- [ ] \*268 Missing Number
-- [ ] \*269 Alien Dictionary
-- [ ] \*270 Closest Binary Search Tree Value
-- [ ] \*271 Encode and Decode Strings
-- [ ] \*272 Closest Binary Search Tree Value II
-- [ ] \*273 Integer to English Words
-- [ ] \*274 H-Index
-- [ ] \*275 H-Index II
-- [ ] \*276 Paint Fence
-- [ ] \*277 Find the Celebrity
-- [ ] \*278 First Bad Version
-- [ ] \*279 Perfect Squares
-- [ ] \*280 Wiggle Sort
-- [ ] \*281 Zigzag Iterator
-- [ ] \*282 Expression Add Operators
-- [x] \*283 [Move Zeroes](src/q_251_300/q0283.hpp)
-- [ ] \*284 Peeking Iterator
-- [ ] \*285 Inorder Successor in BST
-- [ ] \*286 Walls and Gates
-- [ ] \*287 Find the Duplicate Number
-- [ ] \*288 Unique Word Abbreviation
-- [ ] \*289 Game of Life
-- [ ] \*290 Word Pattern
-- [ ] \*291 Word Pattern II
-- [ ] \*292 Nim Game
-- [ ] \*293 Flip Game
-- [ ] \*294 Flip Game II
-- [ ] \*295 Find Median from Data Stream
-- [ ] \*296 Best Meeting Point
-- [ ] \*297 Serialize and Deserialize Binary Tree
-- [ ] \*298 Binary Tree Longest Consecutive Sequence
-- [ ] \*299 Bulls and Cows
-- [ ] \*300 Longest Increasing Subsequence
-- [ ] \*301 Remove Invalid Parentheses
-- [ ] \*302 Smallest Rectangle Enclosing Black Pixels
-- [ ] \*303 Range Sum Query - Immutable
-- [ ] \*304 Range Sum Query 2D - Immutable
-- [ ] \*305 Number of Islands II
-- [ ] \*306 Additive Number
-- [ ] \*307 Range Sum Query - Mutable
-- [ ] \*308 Range Sum Query 2D - Mutable
-- [ ] \*309 Best Time to Buy and Sell Stock with Cooldown
-- [ ] \*310 Minimum Height Trees
-- [ ] \*311 Sparse Matrix Multiplication
-- [ ] \*312 Burst Balloons
-- [ ] \*313 Super Ugly Number
-- [ ] \*314 Binary Tree Vertical Order Traversal
-- [ ] \*315 Count of Smaller Numbers After Self
-- [ ] \*316 Remove Duplicate Letters
-- [ ] \*317 Shortest Distance from All Buildings
-- [ ] \*318 Maximum Product of Word Lengths
-- [ ] \*319 Bulb Switcher
-- [ ] \*320 Generalized Abbreviation
-- [ ] \*321 Create Maximum Number
-- [ ] \*322 Coin Change
-- [ ] \*323 Number of Connected Components in an Undirected Graph
-- [ ] \*324 Wiggle Sort II
-- [ ] \*325 Maximum Size Subarray Sum Equals k
-- [ ] \*326 Power of Three
-- [ ] \*327 Count of Range Sum
-- [ ] \*328 Odd Even Linked List
-- [ ] \*329 Longest Increasing Path in a Matrix
-- [ ] \*330 Patching Array
-- [ ] \*331 Verify Preorder Serialization of a Binary Tree
-- [ ] \*332 Reconstruct Itinerary
-- [ ] \*333 Largest BST Subtree
-- [ ] \*334 Increasing Triplet Subsequence
-- [ ] \*335 Self Crossing
-- [ ] \*336 Palindrome Pairs
-- [ ] \*337 House Robber III
-- [ ] \*338 Counting Bits
-- [ ] \*339 Nested List Weight Sum
-- [ ] \*340 Longest Substring with At Most K Distinct Characters
-- [ ] \*341 Flatten Nested List Iterator
-- [ ] \*342 Power of Four
-- [ ] \*343 Integer Break
-- [x] \*344 [Reverse String](src/q_301_350/q0344.hpp)
-- [ ] \*345 Reverse Vowels of a String
-- [ ] \*346 Moving Average from Data Stream
-- [ ] \*347 Top K Frequent Elements
-- [ ] \*348 Design Tic-Tac-Toe
-- [ ] \*349 Intersection of Two Arrays
-- [x] \*350 [Intersection of Two Arrays II](src/q_301_350/q0350.hpp)
-- [ ] \*351 Android Unlock Patterns
-- [ ] \*352 Data Stream as Disjoint Intervals
-- [ ] \*353 Design Snake Game
-- [ ] \*354 Russian Doll Envelopes
-- [ ] \*355 Design Twitter
-- [ ] \*356 Line Reflection
-- [ ] \*357 Count Numbers with Unique Digits
-- [ ] \*358 Rearrange String k Distance Apart
-- [ ] \*359 Logger Rate Limiter
-- [ ] \*360 Sort Transformed Array
-- [ ] \*361 Bomb Enemy
-- [ ] \*362 Design Hit Counter
-- [ ] \*363 Max Sum of Rectangle No Larger Than K
-- [ ] \*364 Nested List Weight Sum II
-- [ ] \*365 Water and Jug Problem
-- [ ] \*366 Find Leaves of Binary Tree
-- [ ] \*367 Valid Perfect Square
-- [ ] \*368 Largest Divisible Subset
-- [ ] \*369 Plus One Linked List
-- [ ] \*370 Range Addition
-- [ ] \*371 Sum of Two Integers
-- [ ] \*372 Super Pow
-- [ ] \*373 Find K Pairs with Smallest Sums
-- [ ] \*374 Guess Number Higher or Lower
-- [ ] \*375 Guess Number Higher or Lower II
-- [ ] \*376 Wiggle Subsequence
-- [ ] \*377 Combination Sum IV
-- [ ] \*378 Kth Smallest Element in a Sorted Matrix
-- [ ] \*379 Design Phone Directory
-- [ ] \*380 Insert Delete GetRandom O(1)
-- [ ] \*381 Insert Delete GetRandom O(1) - Duplicates allowed
-- [ ] \*382 Linked List Random Node
-- [x] \*383 [Ransom Note](src/q_351_400/q0383.hpp)
-- [ ] \*384 Shuffle an Array
-- [ ] \*385 Mini Parser
-- [ ] \*386 Lexicographical Numbers
-- [x] \*387 [First Unique Character in a String](src/q_351_400/q0387.hpp)
-- [ ] \*388 Longest Absolute File Path
-- [ ] \*389 Find the Difference
-- [ ] \*390 Elimination Game
-- [ ] \*391 Perfect Rectangle
-- [ ] \*392 Is Subsequence
-- [ ] \*393 UTF-8 Validation
-- [ ] \*394 Decode String
-- [ ] \*395 Longest Substring with At Least K Repeating Characters
-- [ ] \*396 Rotate Function
-- [ ] \*397 Integer Replacement
-- [ ] \*398 Random Pick Index
-- [ ] \*399 Evaluate Division
-- [ ] \*400 Nth Digit
-- [ ] \*401 Binary Watch
-- [ ] \*402 Remove K Digits
-- [ ] \*403 Frog Jump
-- [ ] \*404 Sum of Left Leaves
-- [ ] \*405 Convert a Number to Hexadecimal
-- [ ] \*406 Queue Reconstruction by Height
-- [ ] \*407 Trapping Rain Water II
-- [ ] \*408 Valid Word Abbreviation
-- [ ] \*409 Longest Palindrome
-- [ ] \*410 Split Array Largest Sum
-- [ ] \*411 Minimum Unique Word Abbreviation
-- [ ] \*412 Fizz Buzz
-- [ ] \*413 Arithmetic Slices
-- [ ] \*414 Third Maximum Number
-- [ ] \*415 Add Strings
-- [ ] \*416 Partition Equal Subset Sum
-- [ ] \*417 Pacific Atlantic Water Flow
-- [ ] \*418 Sentence Screen Fitting
-- [ ] \*419 Battleships in a Board
-- [ ] \*420 Strong Password Checker
-- [ ] \*421 Maximum XOR of Two Numbers in an Array
-- [ ] \*422 Valid Word Square
-- [ ] \*423 Reconstruct Original Digits from English
-- [ ] \*424 Longest Repeating Character Replacement
-- [ ] \*425 Word Squares
-- [ ] \*426 Convert Binary Search Tree to Sorted Doubly Linked List
-- [ ] \*427 Construct Quad Tree
-- [ ] \*428 Serialize and Deserialize N-ary Tree
-- [ ] \*429 N-ary Tree Level Order Traversal
-- [ ] \*430 Flatten a Multilevel Doubly Linked List
-- [ ] \*431 Encode N-ary Tree to Binary Tree
-- [ ] \*432 All O`one Data Structure
-- [ ] \*433 Minimum Genetic Mutation
-- [ ] \*434 Number of Segments in a String
-- [ ] \*435 Non-overlapping Intervals
-- [ ] \*436 Find Right Interval
-- [ ] \*437 Path Sum III
-- [ ] \*438 Find All Anagrams in a String
-- [ ] \*439 Ternary Expression Parser
-- [ ] \*440 K-th Smallest in Lexicographical Order
-- [ ] \*441 Arranging Coins
-- [ ] \*442 Find All Duplicates in an Array
-- [ ] \*443 String Compression
-- [ ] \*444 Sequence Reconstruction
-- [ ] \*445 Add Two Numbers II
-- [x] \*446 [Arithmetic Slices II - Subsequence](src/q_401_450/q0446.hpp)
-- [ ] \*447 Number of Boomerangs
-- [ ] \*448 Find All Numbers Disappeared in an Array
-- [ ] \*449 Serialize and Deserialize BST
-- [ ] \*450 Delete Node in a BST
-- [ ] \*451 Sort Characters By Frequency
-- [ ] \*452 Minimum Number of Arrows to Burst Balloons
-- [ ] \*453 Minimum Moves to Equal Array Elements
-- [ ] \*454 4Sum II
-- [ ] \*455 Assign Cookies
-- [ ] \*456 132 Pattern
-- [ ] \*457 Circular Array Loop
-- [ ] \*458 Poor Pigs
-- [ ] \*459 Repeated Substring Pattern
-- [ ] \*460 LFU Cache
-- [ ] \*461 Hamming Distance
-- [ ] \*462 Minimum Moves to Equal Array Elements II
-- [ ] \*463 Island Perimeter
-- [ ] \*464 Can I Win
-- [ ] \*465 Optimal Account Balancing
-- [ ] \*466 Count The Repetitions
-- [ ] \*467 Unique Substrings in Wraparound String
-- [ ] \*468 Validate IP Address
-- [ ] \*469 Convex Polygon
-- [ ] \*470 Implement Rand10() Using Rand7()
-- [ ] \*471 Encode String with Shortest Length
-- [ ] \*472 Concatenated Words
-- [ ] \*473 Matchsticks to Square
-- [ ] \*474 Ones and Zeroes
-- [ ] \*475 Heaters
-- [ ] \*476 Number Complement
-- [ ] \*477 Total Hamming Distance
-- [ ] \*478 Generate Random Point in a Circle
-- [ ] \*479 Largest Palindrome Product
-- [ ] \*480 Sliding Window Median
-- [ ] \*481 Magical String
-- [ ] \*482 License Key Formatting
-- [ ] \*483 Smallest Good Base
-- [ ] \*484 Find Permutation
-- [ ] \*485 Max Consecutive Ones
-- [ ] \*486 Predict the Winner
-- [ ] \*487 Max Consecutive Ones II
-- [ ] \*488 Zuma Game
-- [ ] \*489 Robot Room Cleaner
-- [ ] \*490 The Maze
-- [ ] \*491 Increasing Subsequences
-- [ ] \*492 Construct the Rectangle
-- [ ] \*493 Reverse Pairs
-- [ ] \*494 Target Sum
-- [ ] \*495 Teemo Attacking
-- [ ] \*496 Next Greater Element I
-- [ ] \*497 Random Point in Non-overlapping Rectangles
-- [ ] \*498 Diagonal Traverse
-- [ ] \*499 The Maze III
-- [ ] \*500 Keyboard Row
+- [ ] 0251 Flatten 2D Vector
+- [ ] 0252 Meeting Rooms
+- [ ] 0253 Meeting Rooms II
+- [ ] 0254 Factor Combinations
+- [ ] 0255 Verify Preorder Sequence in Binary Search Tree
+- [ ] 0256 Paint House
+- [ ] 0257 Binary Tree Paths
+- [ ] 0258 Add Digits
+- [ ] 0259 3Sum Smaller
+- [ ] 0260 Single Number III
+- [ ] 0261 Graph Valid Tree
+- [ ] 0262 Trips and Users
+- [ ] 0263 Ugly Number
+- [ ] 0264 Ugly Number II
+- [ ] 0265 Paint House II
+- [ ] 0266 Palindrome Permutation
+- [ ] 0267 Palindrome Permutation II
+- [ ] 0268 Missing Number
+- [ ] 0269 Alien Dictionary
+- [ ] 0270 Closest Binary Search Tree Value
+- [ ] 0271 Encode and Decode Strings
+- [ ] 0272 Closest Binary Search Tree Value II
+- [ ] 0273 Integer to English Words
+- [ ] 0274 H-Index
+- [ ] 0275 H-Index II
+- [ ] 0276 Paint Fence
+- [ ] 0277 Find the Celebrity
+- [ ] 0278 First Bad Version
+- [ ] 0279 Perfect Squares
+- [ ] 0280 Wiggle Sort
+- [ ] 0281 Zigzag Iterator
+- [ ] 0282 Expression Add Operators
+- [x] 0283 [Move Zeroes](src/q_251_300/q0283.hpp)
+- [ ] 0284 Peeking Iterator
+- [ ] 0285 Inorder Successor in BST
+- [ ] 0286 Walls and Gates
+- [ ] 0287 Find the Duplicate Number
+- [ ] 0288 Unique Word Abbreviation
+- [ ] 0289 Game of Life
+- [ ] 0290 Word Pattern
+- [ ] 0291 Word Pattern II
+- [ ] 0292 Nim Game
+- [ ] 0293 Flip Game
+- [ ] 0294 Flip Game II
+- [ ] 0295 Find Median from Data Stream
+- [ ] 0296 Best Meeting Point
+- [ ] 0297 Serialize and Deserialize Binary Tree
+- [ ] 0298 Binary Tree Longest Consecutive Sequence
+- [ ] 0299 Bulls and Cows
+- [ ] 0300 Longest Increasing Subsequence
+- [ ] 0301 Remove Invalid Parentheses
+- [ ] 0302 Smallest Rectangle Enclosing Black Pixels
+- [ ] 0303 Range Sum Query - Immutable
+- [ ] 0304 Range Sum Query 2D - Immutable
+- [ ] 0305 Number of Islands II
+- [ ] 0306 Additive Number
+- [ ] 0307 Range Sum Query - Mutable
+- [ ] 0308 Range Sum Query 2D - Mutable
+- [ ] 0309 Best Time to Buy and Sell Stock with Cooldown
+- [ ] 0310 Minimum Height Trees
+- [ ] 0311 Sparse Matrix Multiplication
+- [ ] 0312 Burst Balloons
+- [ ] 0313 Super Ugly Number
+- [ ] 0314 Binary Tree Vertical Order Traversal
+- [ ] 0315 Count of Smaller Numbers After Self
+- [ ] 0316 Remove Duplicate Letters
+- [ ] 0317 Shortest Distance from All Buildings
+- [ ] 0318 Maximum Product of Word Lengths
+- [ ] 0319 Bulb Switcher
+- [ ] 0320 Generalized Abbreviation
+- [ ] 0321 Create Maximum Number
+- [ ] 0322 Coin Change
+- [ ] 0323 Number of Connected Components in an Undirected Graph
+- [ ] 0324 Wiggle Sort II
+- [ ] 0325 Maximum Size Subarray Sum Equals k
+- [ ] 0326 Power of Three
+- [ ] 0327 Count of Range Sum
+- [ ] 0328 Odd Even Linked List
+- [ ] 0329 Longest Increasing Path in a Matrix
+- [ ] 0330 Patching Array
+- [ ] 0331 Verify Preorder Serialization of a Binary Tree
+- [ ] 0332 Reconstruct Itinerary
+- [ ] 0333 Largest BST Subtree
+- [ ] 0334 Increasing Triplet Subsequence
+- [ ] 0335 Self Crossing
+- [ ] 0336 Palindrome Pairs
+- [ ] 0337 House Robber III
+- [ ] 0338 Counting Bits
+- [ ] 0339 Nested List Weight Sum
+- [ ] 0340 Longest Substring with At Most K Distinct Characters
+- [ ] 0341 Flatten Nested List Iterator
+- [ ] 0342 Power of Four
+- [ ] 0343 Integer Break
+- [x] 0344 [Reverse String](src/q_301_350/q0344.hpp)
+- [ ] 0345 Reverse Vowels of a String
+- [ ] 0346 Moving Average from Data Stream
+- [ ] 0347 Top K Frequent Elements
+- [ ] 0348 Design Tic-Tac-Toe
+- [ ] 0349 Intersection of Two Arrays
+- [x] 0350 [Intersection of Two Arrays II](src/q_301_350/q0350.hpp)
+- [ ] 0351 Android Unlock Patterns
+- [ ] 0352 Data Stream as Disjoint Intervals
+- [ ] 0353 Design Snake Game
+- [ ] 0354 Russian Doll Envelopes
+- [ ] 0355 Design Twitter
+- [ ] 0356 Line Reflection
+- [ ] 0357 Count Numbers with Unique Digits
+- [ ] 0358 Rearrange String k Distance Apart
+- [ ] 0359 Logger Rate Limiter
+- [ ] 0360 Sort Transformed Array
+- [ ] 0361 Bomb Enemy
+- [ ] 0362 Design Hit Counter
+- [ ] 0363 Max Sum of Rectangle No Larger Than K
+- [ ] 0364 Nested List Weight Sum II
+- [ ] 0365 Water and Jug Problem
+- [ ] 0366 Find Leaves of Binary Tree
+- [ ] 0367 Valid Perfect Square
+- [ ] 0368 Largest Divisible Subset
+- [ ] 0369 Plus One Linked List
+- [ ] 0370 Range Addition
+- [ ] 0371 Sum of Two Integers
+- [ ] 0372 Super Pow
+- [ ] 0373 Find K Pairs with Smallest Sums
+- [ ] 0374 Guess Number Higher or Lower
+- [ ] 0375 Guess Number Higher or Lower II
+- [ ] 0376 Wiggle Subsequence
+- [ ] 0377 Combination Sum IV
+- [ ] 0378 Kth Smallest Element in a Sorted Matrix
+- [ ] 0379 Design Phone Directory
+- [ ] 0380 Insert Delete GetRandom O(1)
+- [ ] 0381 Insert Delete GetRandom O(1) - Duplicates allowed
+- [ ] 0382 Linked List Random Node
+- [x] 0383 [Ransom Note](src/q_351_400/q0383.hpp)
+- [ ] 0384 Shuffle an Array
+- [ ] 0385 Mini Parser
+- [ ] 0386 Lexicographical Numbers
+- [x] 0387 [First Unique Character in a String](src/q_351_400/q0387.hpp)
+- [ ] 0388 Longest Absolute File Path
+- [ ] 0389 Find the Difference
+- [ ] 0390 Elimination Game
+- [ ] 0391 Perfect Rectangle
+- [ ] 0392 Is Subsequence
+- [ ] 0393 UTF-8 Validation
+- [ ] 0394 Decode String
+- [ ] 0395 Longest Substring with At Least K Repeating Characters
+- [ ] 0396 Rotate Function
+- [ ] 0397 Integer Replacement
+- [ ] 0398 Random Pick Index
+- [ ] 0399 Evaluate Division
+- [ ] 0400 Nth Digit
+- [ ] 0401 Binary Watch
+- [ ] 0402 Remove K Digits
+- [ ] 0403 Frog Jump
+- [ ] 0404 Sum of Left Leaves
+- [ ] 0405 Convert a Number to Hexadecimal
+- [ ] 0406 Queue Reconstruction by Height
+- [ ] 0407 Trapping Rain Water II
+- [ ] 0408 Valid Word Abbreviation
+- [ ] 0409 Longest Palindrome
+- [ ] 0410 Split Array Largest Sum
+- [ ] 0411 Minimum Unique Word Abbreviation
+- [ ] 0412 Fizz Buzz
+- [ ] 0413 Arithmetic Slices
+- [ ] 0414 Third Maximum Number
+- [ ] 0415 Add Strings
+- [ ] 0416 Partition Equal Subset Sum
+- [ ] 0417 Pacific Atlantic Water Flow
+- [ ] 0418 Sentence Screen Fitting
+- [ ] 0419 Battleships in a Board
+- [ ] 0420 Strong Password Checker
+- [ ] 0421 Maximum XOR of Two Numbers in an Array
+- [ ] 0422 Valid Word Square
+- [ ] 0423 Reconstruct Original Digits from English
+- [ ] 0424 Longest Repeating Character Replacement
+- [ ] 0425 Word Squares
+- [ ] 0426 Convert Binary Search Tree to Sorted Doubly Linked List
+- [ ] 0427 Construct Quad Tree
+- [ ] 0428 Serialize and Deserialize N-ary Tree
+- [ ] 0429 N-ary Tree Level Order Traversal
+- [ ] 0430 Flatten a Multilevel Doubly Linked List
+- [ ] 0431 Encode N-ary Tree to Binary Tree
+- [ ] 0432 All O`one Data Structure
+- [ ] 0433 Minimum Genetic Mutation
+- [ ] 0434 Number of Segments in a String
+- [ ] 0435 Non-overlapping Intervals
+- [ ] 0436 Find Right Interval
+- [ ] 0437 Path Sum III
+- [ ] 0438 Find All Anagrams in a String
+- [ ] 0439 Ternary Expression Parser
+- [ ] 0440 K-th Smallest in Lexicographical Order
+- [ ] 0441 Arranging Coins
+- [ ] 0442 Find All Duplicates in an Array
+- [ ] 0443 String Compression
+- [ ] 0444 Sequence Reconstruction
+- [ ] 0445 Add Two Numbers II
+- [x] 0446 [Arithmetic Slices II - Subsequence](src/q_401_450/q0446.hpp)
+- [ ] 0447 Number of Boomerangs
+- [ ] 0448 Find All Numbers Disappeared in an Array
+- [ ] 0449 Serialize and Deserialize BST
+- [ ] 0450 Delete Node in a BST
+- [ ] 0451 Sort Characters By Frequency
+- [ ] 0452 Minimum Number of Arrows to Burst Balloons
+- [ ] 0453 Minimum Moves to Equal Array Elements
+- [ ] 0454 4Sum II
+- [ ] 0455 Assign Cookies
+- [ ] 0456 132 Pattern
+- [ ] 0457 Circular Array Loop
+- [ ] 0458 Poor Pigs
+- [ ] 0459 Repeated Substring Pattern
+- [ ] 0460 LFU Cache
+- [ ] 0461 Hamming Distance
+- [ ] 0462 Minimum Moves to Equal Array Elements II
+- [ ] 0463 Island Perimeter
+- [ ] 0464 Can I Win
+- [ ] 0465 Optimal Account Balancing
+- [ ] 0466 Count The Repetitions
+- [ ] 0467 Unique Substrings in Wraparound String
+- [ ] 0468 Validate IP Address
+- [ ] 0469 Convex Polygon
+- [ ] 0470 Implement Rand10() Using Rand7()
+- [ ] 0471 Encode String with Shortest Length
+- [ ] 0472 Concatenated Words
+- [ ] 0473 Matchsticks to Square
+- [ ] 0474 Ones and Zeroes
+- [ ] 0475 Heaters
+- [ ] 0476 Number Complement
+- [ ] 0477 Total Hamming Distance
+- [ ] 0478 Generate Random Point in a Circle
+- [ ] 0479 Largest Palindrome Product
+- [ ] 0480 Sliding Window Median
+- [ ] 0481 Magical String
+- [ ] 0482 License Key Formatting
+- [ ] 0483 Smallest Good Base
+- [ ] 0484 Find Permutation
+- [ ] 0485 Max Consecutive Ones
+- [ ] 0486 Predict the Winner
+- [ ] 0487 Max Consecutive Ones II
+- [ ] 0488 Zuma Game
+- [ ] 0489 Robot Room Cleaner
+- [ ] 0490 The Maze
+- [ ] 0491 Increasing Subsequences
+- [ ] 0492 Construct the Rectangle
+- [ ] 0493 Reverse Pairs
+- [ ] 0494 Target Sum
+- [ ] 0495 Teemo Attacking
+- [ ] 0496 Next Greater Element I
+- [ ] 0497 Random Point in Non-overlapping Rectangles
+- [ ] 0498 Diagonal Traverse
+- [ ] 0499 The Maze III
+- [ ] 0500 Keyboard Row
 </details>
 <details>
   <summary>### 501 ~ 750</summary>
 
-- [ ] \*501 Find Mode in Binary Search Tree
-- [ ] \*502 IPO
-- [ ] \*503 Next Greater Element II
-- [ ] \*504 Base 7
-- [ ] \*505 The Maze II
-- [ ] \*506 Relative Ranks
-- [ ] \*507 Perfect Number
-- [ ] \*508 Most Frequent Subtree Sum
-- [ ] \*509 Fibonacci Number
-- [ ] \*510 Inorder Successor in BST II
-- [ ] \*511 Game Play Analysis I
-- [ ] \*512 Game Play Analysis II
-- [ ] \*513 Find Bottom Left Tree Value
-- [ ] \*514 Freedom Trail
-- [ ] \*515 Find Largest Value in Each Tree Row
-- [ ] \*516 Longest Palindromic Subsequence
-- [ ] \*517 Super Washing Machines
-- [ ] \*518 Coin Change 2
-- [ ] \*519 Random Flip Matrix
-- [ ] \*520 Detect Capital
-- [ ] \*521 Longest Uncommon Subsequence I
-- [ ] \*522 Longest Uncommon Subsequence II
-- [ ] \*523 Continuous Subarray Sum
-- [ ] \*524 Longest Word in Dictionary through Deleting
-- [ ] \*525 Contiguous Array
-- [ ] \*526 Beautiful Arrangement
-- [ ] \*527 Word Abbreviation
-- [ ] \*528 Random Pick with Weight
-- [ ] \*529 Minesweeper
-- [ ] \*530 Minimum Absolute Difference in BST
-- [ ] \*531 Lonely Pixel I
-- [ ] \*532 K-diff Pairs in an Array
-- [ ] \*533 Lonely Pixel II
-- [ ] \*534 Game Play Analysis III
-- [ ] \*535 Encode and Decode TinyURL
-- [ ] \*536 Construct Binary Tree from String
-- [ ] \*537 Complex Number Multiplication
-- [ ] \*538 Convert BST to Greater Tree
-- [ ] \*539 Minimum Time Difference
-- [ ] \*540 Single Element in a Sorted Array
-- [ ] \*541 Reverse String II
-- [x] \*542 [01 Matrix](src/q_501_550/q0542.hpp)
-- [ ] \*543 Diameter of Binary Tree
-- [ ] \*544 Output Contest Matches
-- [ ] \*545 Boundary of Binary Tree
-- [ ] \*546 Remove Boxes
-- [ ] \*547 Number of Provinces
-- [ ] \*548 Split Array with Equal Sum
-- [ ] \*549 Binary Tree Longest Consecutive Sequence II
-- [ ] \*550 Game Play Analysis IV
-- [ ] \*551 Student Attendance Record I
-- [ ] \*552 Student Attendance Record II
-- [ ] \*553 Optimal Division
-- [ ] \*554 Brick Wall
-- [ ] \*555 Split Concatenated Strings
-- [ ] \*556 Next Greater Element III
-- [x] \*557 [Reverse Words in a String III](src/q_551_600/q0557.hpp)
-- [ ] \*558 Logical OR of Two Binary Grids Represented as Quad-Trees
-- [ ] \*559 Maximum Depth of N-ary Tree
-- [ ] \*560 Subarray Sum Equals K
-- [ ] \*561 Array Partition I
-- [ ] \*562 Longest Line of Consecutive One in Matrix
-- [ ] \*563 Binary Tree Tilt
-- [ ] \*564 Find the Closest Palindrome
-- [ ] \*565 Array Nesting
-- [x] \*566 [Reshape the Matrix](src/q_551_600/q0566.hpp)
-- [x] \*567 [Permutation in String](src/q_551_600/q0567.hpp)
-- [ ] \*568 Maximum Vacation Days
-- [ ] \*569 Median Employee Salary
-- [ ] \*570 Managers with at Least 5 Direct Reports
-- [ ] \*571 Find Median Given Frequency of Numbers
-- [ ] \*572 Subtree of Another Tree
-- [ ] \*573 Squirrel Simulation
-- [ ] \*574 Winning Candidate
-- [ ] \*575 Distribute Candies
-- [ ] \*576 Out of Boundary Paths
-- [ ] \*577 Employee Bonus
-- [ ] \*578 Get Highest Answer Rate Question
-- [ ] \*579 Find Cumulative Salary of an Employee
-- [ ] \*580 Count Student Number in Departments
-- [ ] \*581 Shortest Unsorted Continuous Subarray
-- [ ] \*582 Kill Process
-- [ ] \*583 Delete Operation for Two Strings
-- [ ] \*584 Find Customer Referee
-- [ ] \*585 Investments in 2016
-- [ ] \*586 Customer Placing the Largest Number of Orders
-- [ ] \*587 Erect the Fence
-- [ ] \*588 Design In-Memory File System
-- [ ] \*589 N-ary Tree Preorder Traversal
-- [ ] \*590 N-ary Tree Postorder Traversal
-- [ ] \*591 Tag Validator
-- [ ] \*592 Fraction Addition and Subtraction
-- [ ] \*593 Valid Square
-- [ ] \*594 Longest Harmonious Subsequence
-- [ ] \*595 Big Countries
-- [ ] \*596 Classes More Than 5 Students
-- [ ] \*597 Friend Requests I: Overall Acceptance Rate
-- [ ] \*598 Range Addition II
-- [ ] \*599 Minimum Index Sum of Two Lists
-- [ ] \*600 Non-negative Integers without Consecutive Ones
-- [ ] \*601 Human Traffic of Stadium
-- [ ] \*602 Friend Requests II: Who Has the Most Friends
-- [ ] \*603 Consecutive Available Seats
-- [ ] \*604 Design Compressed String Iterator
-- [ ] \*605 Can Place Flowers
-- [ ] \*606 Construct String from Binary Tree
-- [ ] \*607 Sales Person
-- [ ] \*608 Tree Node
-- [ ] \*609 Find Duplicate File in System
-- [ ] \*610 Triangle Judgement
-- [ ] \*611 Valid Triangle Number
-- [ ] \*612 Shortest Distance in a Plane
-- [ ] \*613 Shortest Distance in a Line
-- [ ] \*614 Second Degree Follower
-- [ ] \*615 Average Salary: Departments VS Company
-- [ ] \*616 Add Bold Tag in String
-- [x] \*617 [Merge Two Binary Trees](src/q_601_650/q0617.hpp)
-- [ ] \*618 Students Report By Geography
-- [ ] \*619 Biggest Single Number
-- [ ] \*620 Not Boring Movies
-- [ ] \*621 Task Scheduler
-- [ ] \*622 Design Circular Queue
-- [ ] \*623 Add One Row to Tree
-- [ ] \*624 Maximum Distance in Arrays
-- [ ] \*625 Minimum Factorization
-- [ ] \*626 Exchange Seats
-- [ ] \*627 Swap Salary
-- [ ] \*628 Maximum Product of Three Numbers
-- [ ] \*629 K Inverse Pairs Array
-- [ ] \*630 Course Schedule III
-- [ ] \*631 Design Excel Sum Formula
-- [ ] \*632 Smallest Range Covering Elements from K Lists
-- [ ] \*633 Sum of Square Numbers
-- [ ] \*634 Find the Derangement of An Array
-- [ ] \*635 Design Log Storage System
-- [ ] \*636 Exclusive Time of Functions
-- [ ] \*637 Average of Levels in Binary Tree
-- [ ] \*638 Shopping Offers
-- [ ] \*639 Decode Ways II
-- [ ] \*640 Solve the Equation
-- [ ] \*641 Design Circular Deque
-- [ ] \*642 Design Search Autocomplete System
-- [ ] \*643 Maximum Average Subarray I
-- [ ] \*644 Maximum Average Subarray II
-- [ ] \*645 Set Mismatch
-- [ ] \*646 Maximum Length of Pair Chain
-- [ ] \*647 Palindromic Substrings
-- [ ] \*648 Replace Words
-- [ ] \*649 Dota2 Senate
-- [ ] \*650 2 Keys Keyboard
-- [ ] \*651 4 Keys Keyboard
-- [ ] \*652 Find Duplicate Subtrees
-- [x] \*653 [Two Sum IV - Input is a BST](src/q_651_700/q0653.hpp)
-- [ ] \*654 Maximum Binary Tree
-- [ ] \*655 Print Binary Tree
-- [ ] \*656 Coin Path
-- [ ] \*657 Robot Return to Origin
-- [ ] \*658 Find K Closest Elements
-- [ ] \*659 Split Array into Consecutive Subsequences
-- [ ] \*660 Remove 9
-- [ ] \*661 Image Smoother
-- [ ] \*662 Maximum Width of Binary Tree
-- [ ] \*663 Equal Tree Partition
-- [ ] \*664 Strange Printer
-- [ ] \*665 Non-decreasing Array
-- [ ] \*666 Path Sum IV
-- [ ] \*667 Beautiful Arrangement II
-- [ ] \*668 Kth Smallest Number in Multiplication Table
-- [ ] \*669 Trim a Binary Search Tree
-- [ ] \*670 Maximum Swap
-- [ ] \*671 Second Minimum Node In a Binary Tree
-- [ ] \*672 Bulb Switcher II
-- [ ] \*673 Number of Longest Increasing Subsequence
-- [ ] \*674 Longest Continuous Increasing Subsequence
-- [ ] \*675 Cut Off Trees for Golf Event
-- [ ] \*676 Implement Magic Dictionary
-- [ ] \*677 Map Sum Pairs
-- [ ] \*678 Valid Parenthesis String
-- [ ] \*679 24 Game
-- [ ] \*680 Valid Palindrome II
-- [ ] \*681 Next Closest Time
-- [ ] \*682 Baseball Game
-- [ ] \*683 K Empty Slots
-- [ ] \*684 Redundant Connection
-- [ ] \*685 Redundant Connection II
-- [ ] \*686 Repeated String Match
-- [ ] \*687 Longest Univalue Path
-- [ ] \*688 Knight Probability in Chessboard
-- [ ] \*689 Maximum Sum of 3 Non-Overlapping Subarrays
-- [ ] \*690 Employee Importance
-- [ ] \*691 Stickers to Spell Word
-- [ ] \*692 Top K Frequent Words
-- [ ] \*693 Binary Number with Alternating Bits
-- [ ] \*694 Number of Distinct Islands
-- [x] \*695 [Max Area of Island](src/q_651_700/q0695.hpp)
-- [ ] \*696 Count Binary Substrings
-- [ ] \*697 Degree of an Array
-- [ ] \*698 Partition to K Equal Sum Subsets
-- [ ] \*699 Falling Squares
-- [x] \*700 [Search in a Binary Search Tree](src/q_651_700/q0700.hpp)
-- [x] \*701 [Insert into a Binary Search Tree](src/q_701_750/q0701.hpp)
-- [ ] \*702 Search in a Sorted Array of Unknown Size
-- [ ] \*703 Kth Largest Element in a Stream
-- [ ] \*704 Binary Search
-- [ ] \*705 Design HashSet
-- [x] \*706 [Design HashMap](src/q_701_750/q0706.hpp)
-- [ ] \*707 Design Linked List
-- [ ] \*708 Insert into a Sorted Circular Linked List
-- [ ] \*709 To Lower Case
-- [ ] \*710 Random Pick with Blacklist
-- [ ] \*711 Number of Distinct Islands II
-- [ ] \*712 Minimum ASCII Delete Sum for Two Strings
-- [ ] \*713 Subarray Product Less Than K
-- [ ] \*714 Best Time to Buy and Sell Stock with Transaction Fee
-- [ ] \*715 Range Module
-- [ ] \*716 Max Stack
-- [ ] \*717 1-bit and 2-bit Characters
-- [ ] \*718 Maximum Length of Repeated Subarray
-- [ ] \*719 Find K-th Smallest Pair Distance
-- [ ] \*720 Longest Word in Dictionary
-- [ ] \*721 Accounts Merge
-- [ ] \*722 Remove Comments
-- [ ] \*723 Candy Crush
-- [ ] \*724 Find Pivot Index
-- [ ] \*725 Split Linked List in Parts
-- [ ] \*726 Number of Atoms
-- [ ] \*727 Minimum Window Subsequence
-- [ ] \*728 Self Dividing Numbers
-- [ ] \*729 My Calendar I
-- [ ] \*730 Count Different Palindromic Subsequences
-- [ ] \*731 My Calendar II
-- [ ] \*732 My Calendar III
-- [x] \*733 [Flood Fill](src/q_701_750/q0733.hpp)
-- [ ] \*734 Sentence Similarity
-- [ ] \*735 Asteroid Collision
-- [ ] \*736 Parse Lisp Expression
-- [ ] \*737 Sentence Similarity II
-- [ ] \*738 Monotone Increasing Digits
-- [ ] \*739 Daily Temperatures
-- [ ] \*740 Delete and Earn
-- [ ] \*741 Cherry Pickup
-- [ ] \*742 Closest Leaf in a Binary Tree
-- [ ] \*743 Network Delay Time
-- [ ] \*744 Find Smallest Letter Greater Than Target
-- [ ] \*745 Prefix and Suffix Search
-- [ ] \*746 Min Cost Climbing Stairs
-- [ ] \*747 Largest Number At Least Twice of Others
-- [ ] \*748 Shortest Completing Word
-- [ ] \*749 Contain Virus
-- [ ] \*750 Number Of Corner Rectangles
+- [ ] 0501 Find Mode in Binary Search Tree
+- [ ] 0502 IPO
+- [ ] 0503 Next Greater Element II
+- [ ] 0504 Base 7
+- [ ] 0505 The Maze II
+- [ ] 0506 Relative Ranks
+- [ ] 0507 Perfect Number
+- [ ] 0508 Most Frequent Subtree Sum
+- [ ] 0509 Fibonacci Number
+- [ ] 0510 Inorder Successor in BST II
+- [ ] 0511 Game Play Analysis I
+- [ ] 0512 Game Play Analysis II
+- [ ] 0513 Find Bottom Left Tree Value
+- [ ] 0514 Freedom Trail
+- [ ] 0515 Find Largest Value in Each Tree Row
+- [ ] 0516 Longest Palindromic Subsequence
+- [ ] 0517 Super Washing Machines
+- [ ] 0518 Coin Change 2
+- [ ] 0519 Random Flip Matrix
+- [ ] 0520 Detect Capital
+- [ ] 0521 Longest Uncommon Subsequence I
+- [ ] 0522 Longest Uncommon Subsequence II
+- [ ] 0523 Continuous Subarray Sum
+- [ ] 0524 Longest Word in Dictionary through Deleting
+- [ ] 0525 Contiguous Array
+- [ ] 0526 Beautiful Arrangement
+- [ ] 0527 Word Abbreviation
+- [ ] 0528 Random Pick with Weight
+- [ ] 0529 Minesweeper
+- [ ] 0530 Minimum Absolute Difference in BST
+- [ ] 0531 Lonely Pixel I
+- [ ] 0532 K-diff Pairs in an Array
+- [ ] 0533 Lonely Pixel II
+- [ ] 0534 Game Play Analysis III
+- [ ] 0535 Encode and Decode TinyURL
+- [ ] 0536 Construct Binary Tree from String
+- [ ] 0537 Complex Number Multiplication
+- [ ] 0538 Convert BST to Greater Tree
+- [ ] 0539 Minimum Time Difference
+- [ ] 0540 Single Element in a Sorted Array
+- [ ] 0541 Reverse String II
+- [x] 0542 [01 Matrix](src/q_501_550/q0542.hpp)
+- [ ] 0543 Diameter of Binary Tree
+- [ ] 0544 Output Contest Matches
+- [ ] 0545 Boundary of Binary Tree
+- [ ] 0546 Remove Boxes
+- [ ] 0547 Number of Provinces
+- [ ] 0548 Split Array with Equal Sum
+- [ ] 0549 Binary Tree Longest Consecutive Sequence II
+- [ ] 0550 Game Play Analysis IV
+- [ ] 0551 Student Attendance Record I
+- [ ] 0552 Student Attendance Record II
+- [ ] 0553 Optimal Division
+- [ ] 0554 Brick Wall
+- [ ] 0555 Split Concatenated Strings
+- [ ] 0556 Next Greater Element III
+- [x] 0557 [Reverse Words in a String III](src/q_551_600/q0557.hpp)
+- [ ] 0558 Logical OR of Two Binary Grids Represented as Quad-Trees
+- [ ] 0559 Maximum Depth of N-ary Tree
+- [ ] 0560 Subarray Sum Equals K
+- [ ] 0561 Array Partition I
+- [ ] 0562 Longest Line of Consecutive One in Matrix
+- [ ] 0563 Binary Tree Tilt
+- [ ] 0564 Find the Closest Palindrome
+- [ ] 0565 Array Nesting
+- [x] 0566 [Reshape the Matrix](src/q_551_600/q0566.hpp)
+- [x] 0567 [Permutation in String](src/q_551_600/q0567.hpp)
+- [ ] 0568 Maximum Vacation Days
+- [ ] 0569 Median Employee Salary
+- [ ] 0570 Managers with at Least 5 Direct Reports
+- [ ] 0571 Find Median Given Frequency of Numbers
+- [ ] 0572 Subtree of Another Tree
+- [ ] 0573 Squirrel Simulation
+- [ ] 0574 Winning Candidate
+- [ ] 0575 Distribute Candies
+- [ ] 0576 Out of Boundary Paths
+- [ ] 0577 Employee Bonus
+- [ ] 0578 Get Highest Answer Rate Question
+- [ ] 0579 Find Cumulative Salary of an Employee
+- [ ] 0580 Count Student Number in Departments
+- [ ] 0581 Shortest Unsorted Continuous Subarray
+- [ ] 0582 Kill Process
+- [ ] 0583 Delete Operation for Two Strings
+- [ ] 0584 Find Customer Referee
+- [ ] 0585 Investments in 2016
+- [ ] 0586 Customer Placing the Largest Number of Orders
+- [ ] 0587 Erect the Fence
+- [ ] 0588 Design In-Memory File System
+- [ ] 0589 N-ary Tree Preorder Traversal
+- [ ] 0590 N-ary Tree Postorder Traversal
+- [ ] 0591 Tag Validator
+- [ ] 0592 Fraction Addition and Subtraction
+- [ ] 0593 Valid Square
+- [ ] 0594 Longest Harmonious Subsequence
+- [ ] 0595 Big Countries
+- [ ] 0596 Classes More Than 5 Students
+- [ ] 0597 Friend Requests I: Overall Acceptance Rate
+- [ ] 0598 Range Addition II
+- [ ] 0599 Minimum Index Sum of Two Lists
+- [ ] 0600 Non-negative Integers without Consecutive Ones
+- [ ] 0601 Human Traffic of Stadium
+- [ ] 0602 Friend Requests II: Who Has the Most Friends
+- [ ] 0603 Consecutive Available Seats
+- [ ] 0604 Design Compressed String Iterator
+- [ ] 0605 Can Place Flowers
+- [ ] 0606 Construct String from Binary Tree
+- [ ] 0607 Sales Person
+- [ ] 0608 Tree Node
+- [ ] 0609 Find Duplicate File in System
+- [ ] 0610 Triangle Judgement
+- [ ] 0611 Valid Triangle Number
+- [ ] 0612 Shortest Distance in a Plane
+- [ ] 0613 Shortest Distance in a Line
+- [ ] 0614 Second Degree Follower
+- [ ] 0615 Average Salary: Departments VS Company
+- [ ] 0616 Add Bold Tag in String
+- [x] 0617 [Merge Two Binary Trees](src/q_601_650/q0617.hpp)
+- [ ] 0618 Students Report By Geography
+- [ ] 0619 Biggest Single Number
+- [ ] 0620 Not Boring Movies
+- [ ] 0621 Task Scheduler
+- [ ] 0622 Design Circular Queue
+- [ ] 0623 Add One Row to Tree
+- [ ] 0624 Maximum Distance in Arrays
+- [ ] 0625 Minimum Factorization
+- [ ] 0626 Exchange Seats
+- [ ] 0627 Swap Salary
+- [ ] 0628 Maximum Product of Three Numbers
+- [ ] 0629 K Inverse Pairs Array
+- [ ] 0630 Course Schedule III
+- [ ] 0631 Design Excel Sum Formula
+- [ ] 0632 Smallest Range Covering Elements from K Lists
+- [ ] 0633 Sum of Square Numbers
+- [ ] 0634 Find the Derangement of An Array
+- [ ] 0635 Design Log Storage System
+- [ ] 0636 Exclusive Time of Functions
+- [ ] 0637 Average of Levels in Binary Tree
+- [ ] 0638 Shopping Offers
+- [ ] 0639 Decode Ways II
+- [ ] 0640 Solve the Equation
+- [ ] 0641 Design Circular Deque
+- [ ] 0642 Design Search Autocomplete System
+- [ ] 0643 Maximum Average Subarray I
+- [ ] 0644 Maximum Average Subarray II
+- [ ] 0645 Set Mismatch
+- [ ] 0646 Maximum Length of Pair Chain
+- [ ] 0647 Palindromic Substrings
+- [ ] 0648 Replace Words
+- [ ] 0649 Dota2 Senate
+- [ ] 0650 2 Keys Keyboard
+- [ ] 0651 4 Keys Keyboard
+- [ ] 0652 Find Duplicate Subtrees
+- [x] 0653 [Two Sum IV - Input is a BST](src/q_651_700/q0653.hpp)
+- [ ] 0654 Maximum Binary Tree
+- [ ] 0655 Print Binary Tree
+- [ ] 0656 Coin Path
+- [ ] 0657 Robot Return to Origin
+- [ ] 0658 Find K Closest Elements
+- [ ] 0659 Split Array into Consecutive Subsequences
+- [ ] 0660 Remove 9
+- [ ] 0661 Image Smoother
+- [ ] 0662 Maximum Width of Binary Tree
+- [ ] 0663 Equal Tree Partition
+- [ ] 0664 Strange Printer
+- [ ] 0665 Non-decreasing Array
+- [ ] 0666 Path Sum IV
+- [ ] 0667 Beautiful Arrangement II
+- [ ] 0668 Kth Smallest Number in Multiplication Table
+- [ ] 0669 Trim a Binary Search Tree
+- [ ] 0670 Maximum Swap
+- [ ] 0671 Second Minimum Node In a Binary Tree
+- [ ] 0672 Bulb Switcher II
+- [ ] 0673 Number of Longest Increasing Subsequence
+- [ ] 0674 Longest Continuous Increasing Subsequence
+- [ ] 0675 Cut Off Trees for Golf Event
+- [ ] 0676 Implement Magic Dictionary
+- [ ] 0677 Map Sum Pairs
+- [ ] 0678 Valid Parenthesis String
+- [ ] 0679 24 Game
+- [ ] 0680 Valid Palindrome II
+- [ ] 0681 Next Closest Time
+- [ ] 0682 Baseball Game
+- [ ] 0683 K Empty Slots
+- [ ] 0684 Redundant Connection
+- [ ] 0685 Redundant Connection II
+- [ ] 0686 Repeated String Match
+- [ ] 0687 Longest Univalue Path
+- [ ] 0688 Knight Probability in Chessboard
+- [ ] 0689 Maximum Sum of 3 Non-Overlapping Subarrays
+- [ ] 0690 Employee Importance
+- [ ] 0691 Stickers to Spell Word
+- [ ] 0692 Top K Frequent Words
+- [ ] 0693 Binary Number with Alternating Bits
+- [ ] 0694 Number of Distinct Islands
+- [x] 0695 [Max Area of Island](src/q_651_700/q0695.hpp)
+- [ ] 0696 Count Binary Substrings
+- [ ] 0697 Degree of an Array
+- [ ] 0698 Partition to K Equal Sum Subsets
+- [ ] 0699 Falling Squares
+- [x] 0700 [Search in a Binary Search Tree](src/q_651_700/q0700.hpp)
+- [x] 0701 [Insert into a Binary Search Tree](src/q_701_750/q0701.hpp)
+- [ ] 0702 Search in a Sorted Array of Unknown Size
+- [ ] 0703 Kth Largest Element in a Stream
+- [ ] 0704 Binary Search
+- [ ] 0705 Design HashSet
+- [x] 0706 [Design HashMap](src/q_701_750/q0706.hpp)
+- [ ] 0707 Design Linked List
+- [ ] 0708 Insert into a Sorted Circular Linked List
+- [ ] 0709 To Lower Case
+- [ ] 0710 Random Pick with Blacklist
+- [ ] 0711 Number of Distinct Islands II
+- [ ] 0712 Minimum ASCII Delete Sum for Two Strings
+- [ ] 0713 Subarray Product Less Than K
+- [ ] 0714 Best Time to Buy and Sell Stock with Transaction Fee
+- [ ] 0715 Range Module
+- [ ] 0716 Max Stack
+- [ ] 0717 1-bit and 2-bit Characters
+- [ ] 0718 Maximum Length of Repeated Subarray
+- [ ] 0719 Find K-th Smallest Pair Distance
+- [ ] 0720 Longest Word in Dictionary
+- [ ] 0721 Accounts Merge
+- [ ] 0722 Remove Comments
+- [ ] 0723 Candy Crush
+- [ ] 0724 Find Pivot Index
+- [ ] 0725 Split Linked List in Parts
+- [ ] 0726 Number of Atoms
+- [ ] 0727 Minimum Window Subsequence
+- [ ] 0728 Self Dividing Numbers
+- [ ] 0729 My Calendar I
+- [ ] 0730 Count Different Palindromic Subsequences
+- [ ] 0731 My Calendar II
+- [ ] 0732 My Calendar III
+- [x] 0733 [Flood Fill](src/q_701_750/q0733.hpp)
+- [ ] 0734 Sentence Similarity
+- [ ] 0735 Asteroid Collision
+- [ ] 0736 Parse Lisp Expression
+- [ ] 0737 Sentence Similarity II
+- [ ] 0738 Monotone Increasing Digits
+- [ ] 0739 Daily Temperatures
+- [ ] 0740 Delete and Earn
+- [ ] 0741 Cherry Pickup
+- [ ] 0742 Closest Leaf in a Binary Tree
+- [ ] 0743 Network Delay Time
+- [ ] 0744 Find Smallest Letter Greater Than Target
+- [ ] 0745 Prefix and Suffix Search
+- [ ] 0746 Min Cost Climbing Stairs
+- [ ] 0747 Largest Number At Least Twice of Others
+- [ ] 0748 Shortest Completing Word
+- [ ] 0749 Contain Virus
+- [ ] 0750 Number Of Corner Rectangles
 </details>
 <details>
   <summary>### 751 ~ 1000</summary>
 
-- [ ] \*751 IP to CIDR
-- [ ] \*752 Open the Lock
-- [ ] \*753 Cracking the Safe
-- [ ] \*754 Reach a Number
-- [ ] \*755 Pour Water
-- [ ] \*756 Pyramid Transition Matrix
-- [ ] \*757 Set Intersection Size At Least Two
-- [ ] \*758 Bold Words in String
-- [ ] \*759 Employee Free Time
-- [ ] \*760 Find Anagram Mappings
-- [ ] \*761 Special Binary String
-- [ ] \*762 Prime Number of Set Bits in Binary Representation
-- [x] \*763 [Partition Labels](src/q_751_800/q0763.hpp)
-- [ ] \*764 Largest Plus Sign
-- [ ] \*765 Couples Holding Hands
-- [ ] \*766 Toeplitz Matrix
-- [ ] \*767 Reorganize String
-- [ ] \*768 Max Chunks To Make Sorted II
-- [ ] \*769 Max Chunks To Make Sorted
-- [ ] \*770 Basic Calculator IV
-- [ ] \*771 Jewels and Stones
-- [ ] \*772 Basic Calculator III
-- [ ] \*773 Sliding Puzzle
-- [ ] \*774 Minimize Max Distance to Gas Station
-- [ ] \*775 Global and Local Inversions
-- [ ] \*776 Split BST
-- [ ] \*777 Swap Adjacent in LR String
-- [ ] \*778 Swim in Rising Water
-- [ ] \*779 K-th Symbol in Grammar
-- [ ] \*780 Reaching Points
-- [ ] \*781 Rabbits in Forest
-- [ ] \*782 Transform to Chessboard
-- [ ] \*783 Minimum Distance Between BST Nodes
-- [x] \*784 [Letter Case Permutation](src/q_751_800/q0784.hpp)
-- [ ] \*785 Is Graph Bipartite?
-- [ ] \*786 K-th Smallest Prime Fraction
-- [ ] \*787 Cheapest Flights Within K Stops
-- [ ] \*788 Rotated Digits
-- [ ] \*789 Escape The Ghosts
-- [ ] \*790 Domino and Tromino Tiling
-- [ ] \*791 Custom Sort String
-- [ ] \*792 Number of Matching Subsequences
-- [ ] \*793 Preimage Size of Factorial Zeroes Function
-- [ ] \*794 Valid Tic-Tac-Toe State
-- [ ] \*795 Number of Subarrays with Bounded Maximum
-- [ ] \*796 Rotate String
-- [ ] \*797 All Paths From Source to Target
-- [ ] \*798 Smallest Rotation with Highest Score
-- [ ] \*799 Champagne Tower
-- [ ] \*800 Similar RGB Color
-- [ ] \*801 Minimum Swaps To Make Sequences Increasing
-- [ ] \*802 Find Eventual Safe States
-- [ ] \*803 Bricks Falling When Hit
-- [ ] \*804 Unique Morse Code Words
-- [ ] \*805 Split Array With Same Average
-- [ ] \*806 Number of Lines To Write String
-- [ ] \*807 Max Increase to Keep City Skyline
-- [ ] \*808 Soup Servings
-- [ ] \*809 Expressive Words
-- [ ] \*810 Chalkboard XOR Game
-- [ ] \*811 Subdomain Visit Count
-- [ ] \*812 Largest Triangle Area
-- [ ] \*813 Largest Sum of Averages
-- [ ] \*814 Binary Tree Pruning
-- [ ] \*815 Bus Routes
-- [ ] \*816 Ambiguous Coordinates
-- [ ] \*817 Linked List Components
-- [ ] \*818 Race Car
-- [ ] \*819 Most Common Word
-- [ ] \*820 Short Encoding of Words
-- [ ] \*821 Shortest Distance to a Character
-- [ ] \*822 Card Flipping Game
-- [ ] \*823 Binary Trees With Factors
-- [ ] \*824 Goat Latin
-- [ ] \*825 Friends Of Appropriate Ages
-- [ ] \*826 Most Profit Assigning Work
-- [ ] \*827 Making A Large Island
-- [ ] \*828 Count Unique Characters of All Substrings of a Given String
-- [ ] \*829 Consecutive Numbers Sum
-- [ ] \*830 Positions of Large Groups
-- [ ] \*831 Masking Personal Information
-- [ ] \*832 Flipping an Image
-- [ ] \*833 Find And Replace in String
-- [ ] \*834 Sum of Distances in Tree
-- [ ] \*835 Image Overlap
-- [ ] \*836 Rectangle Overlap
-- [ ] \*837 New 21 Game
-- [ ] \*838 Push Dominoes
-- [ ] \*839 Similar String Groups
-- [ ] \*840 Magic Squares In Grid
-- [ ] \*841 Keys and Rooms
-- [ ] \*842 Split Array into Fibonacci Sequence
-- [ ] \*843 Guess the Word
-- [ ] \*844 Backspace String Compare
-- [ ] \*845 Longest Mountain in Array
-- [ ] \*846 Hand of Straights
-- [ ] \*847 Shortest Path Visiting All Nodes
-- [x] \*848 [Shifting Letters](src/q_801_850/q0848.hpp)
-- [ ] \*849 Maximize Distance to Closest Person
-- [ ] \*850 Rectangle Area II
-- [ ] \*851 Loud and Rich
-- [ ] \*852 Peak Index in a Mountain Array
-- [ ] \*853 Car Fleet
-- [ ] \*854 K-Similar Strings
-- [ ] \*855 Exam Room
-- [ ] \*856 Score of Parentheses
-- [ ] \*857 Minimum Cost to Hire K Workers
-- [ ] \*858 Mirror Reflection
-- [ ] \*859 Buddy Strings
-- [ ] \*860 Lemonade Change
-- [ ] \*861 Score After Flipping Matrix
-- [ ] \*862 Shortest Subarray with Sum at Least K
-- [ ] \*863 All Nodes Distance K in Binary Tree
-- [ ] \*864 Shortest Path to Get All Keys
-- [ ] \*865 Smallest Subtree with all the Deepest Nodes
-- [ ] \*866 Prime Palindrome
-- [ ] \*867 Transpose Matrix
-- [ ] \*868 Binary Gap
-- [ ] \*869 Reordered Power of 2
-- [ ] \*870 Advantage Shuffle
-- [ ] \*871 Minimum Number of Refueling Stops
-- [ ] \*872 Leaf-Similar Trees
-- [ ] \*873 Length of Longest Fibonacci Subsequence
-- [ ] \*874 Walking Robot Simulation
-- [ ] \*875 Koko Eating Bananas
-- [x] \*876 [Middle of the Linked List](src/q_851_900/q0876.hpp)
-- [ ] \*877 Stone Game
-- [ ] \*878 Nth Magical Number
-- [ ] \*879 Profitable Schemes
-- [ ] \*880 Decoded String at Index
-- [ ] \*881 Boats to Save People
-- [x] \*882 [Reachable Nodes In Subdivided Graph](src/q_851_900/q0882.hpp)
-- [ ] \*883 Projection Area of 3D Shapes
-- [ ] \*884 Uncommon Words from Two Sentences
-- [ ] \*885 Spiral Matrix III
-- [ ] \*886 Possible Bipartition
-- [ ] \*887 Super Egg Drop
-- [ ] \*888 Fair Candy Swap
-- [ ] \*889 Construct Binary Tree from Preorder and Postorder Traversal
-- [ ] \*890 Find and Replace Pattern
-- [ ] \*891 Sum of Subsequence Widths
-- [ ] \*892 Surface Area of 3D Shapes
-- [ ] \*893 Groups of Special-Equivalent Strings
-- [ ] \*894 All Possible Full Binary Trees
-- [ ] \*895 Maximum Frequency Stack
-- [ ] \*896 Monotonic Array
-- [ ] \*897 Increasing Order Search Tree
-- [ ] \*898 Bitwise ORs of Subarrays
-- [ ] \*899 Orderly Queue
-- [ ] \*900 RLE Iterator
-- [ ] \*901 Online Stock Span
-- [ ] \*902 Numbers At Most N Given Digit Set
-- [ ] \*903 Valid Permutations for DI Sequence
-- [ ] \*904 Fruit Into Baskets
-- [ ] \*905 Sort Array By Parity
-- [ ] \*906 Super Palindromes
-- [ ] \*907 Sum of Subarray Minimums
-- [ ] \*908 Smallest Range I
-- [ ] \*909 Snakes and Ladders
-- [ ] \*910 Smallest Range II
-- [ ] \*911 Online Election
-- [ ] \*912 Sort an Array
-- [ ] \*913 Cat and Mouse
-- [ ] \*914 X of a Kind in a Deck of Cards
-- [ ] \*915 Partition Array into Disjoint Intervals
-- [ ] \*916 Word Subsets
-- [x] \*917 [Reverse Only Letters](src/q_901_950/q0917.hpp)
-- [ ] \*918 Maximum Sum Circular Subarray
-- [ ] \*919 Complete Binary Tree Inserter
-- [ ] \*920 Number of Music Playlists
-- [ ] \*921 Minimum Add to Make Parentheses Valid
-- [ ] \*922 Sort Array By Parity II
-- [ ] \*923 3Sum With Multiplicity
-- [ ] \*924 Minimize Malware Spread
-- [ ] \*925 Long Pressed Name
-- [ ] \*926 Flip String to Monotone Increasing
-- [ ] \*927 Three Equal Parts
-- [ ] \*928 Minimize Malware Spread II
-- [ ] \*929 Unique Email Addresses
-- [ ] \*930 Binary Subarrays With Sum
-- [ ] \*931 Minimum Falling Path Sum
-- [ ] \*932 Beautiful Array
-- [ ] \*933 Number of Recent Calls
-- [ ] \*934 Shortest Bridge
-- [ ] \*935 Knight Dialer
-- [ ] \*936 Stamping The Sequence
-- [ ] \*937 Reorder Data in Log Files
-- [ ] \*938 Range Sum of BST
-- [ ] \*939 Minimum Area Rectangle
-- [ ] \*940 Distinct Subsequences II
-- [ ] \*941 Valid Mountain Array
-- [ ] \*942 DI String Match
-- [ ] \*943 Find the Shortest Superstring
-- [ ] \*944 Delete Columns to Make Sorted
-- [ ] \*945 Minimum Increment to Make Array Unique
-- [ ] \*946 Validate Stack Sequences
-- [ ] \*947 Most Stones Removed with Same Row or Column
-- [ ] \*948 Bag of Tokens
-- [ ] \*949 Largest Time for Given Digits
-- [ ] \*950 Reveal Cards In Increasing Order
-- [ ] \*951 Flip Equivalent Binary Trees
-- [ ] \*952 Largest Component Size by Common Factor
-- [ ] \*953 Verifying an Alien Dictionary
-- [ ] \*954 Array of Doubled Pairs
-- [ ] \*955 Delete Columns to Make Sorted II
-- [ ] \*956 Tallest Billboard
-- [ ] \*957 Prison Cells After N Days
-- [ ] \*958 Check Completeness of a Binary Tree
-- [ ] \*959 Regions Cut By Slashes
-- [ ] \*960 Delete Columns to Make Sorted III
-- [ ] \*961 N-Repeated Element in Size 2N Array
-- [ ] \*962 Maximum Width Ramp
-- [ ] \*963 Minimum Area Rectangle II
-- [ ] \*964 Least Operators to Express Number
-- [ ] \*965 Univalued Binary Tree
-- [ ] \*966 Vowel Spellchecker
-- [ ] \*967 Numbers With Same Consecutive Differences
-- [ ] \*968 Binary Tree Cameras
-- [ ] \*969 Pancake Sorting
-- [ ] \*970 Powerful Integers
-- [ ] \*971 Flip Binary Tree To Match Preorder Traversal
-- [ ] \*972 Equal Rational Numbers
-- [ ] \*973 K Closest Points to Origin
-- [ ] \*974 Subarray Sums Divisible by K
-- [ ] \*975 Odd Even Jump
-- [ ] \*976 Largest Perimeter Triangle
-- [x] \*977 [Squares of a Sorted Array](src/q_951_1000/q0977.hpp)
-- [x] \*978 [Longest Turbulent Subarray](src/q_951_1000/q0978.hpp)
-- [ ] \*979 Distribute Coins in Binary Tree
-- [ ] \*980 Unique Paths III
-- [ ] \*981 Time Based Key-Value Store
-- [ ] \*982 Triples with Bitwise AND Equal To Zero
-- [ ] \*983 Minimum Cost For Tickets
-- [ ] \*984 String Without AAA or BBB
-- [ ] \*985 Sum of Even Numbers After Queries
-- [ ] \*986 Interval List Intersections
-- [ ] \*987 Vertical Order Traversal of a Binary Tree
-- [ ] \*988 Smallest String Starting From Leaf
-- [ ] \*989 Add to Array-Form of Integer
-- [ ] \*990 Satisfiability of Equality Equations
-- [ ] \*991 Broken Calculator
-- [ ] \*992 Subarrays with K Different Integers
-- [ ] \*993 Cousins in Binary Tree
-- [x] \*994 [Rotting Oranges](src/q_951_1000/q0994.hpp)
-- [ ] \*995 Minimum Number of K Consecutive Bit Flips
-- [ ] \*996 Number of Squareful Arrays
-- [ ] \*997 Find the Town Judge
-- [ ] \*998 Maximum Binary Tree II
-- [ ] \*999 Available Captures for Rook
+- [ ] 0751 IP to CIDR
+- [ ] 0752 Open the Lock
+- [ ] 0753 Cracking the Safe
+- [ ] 0754 Reach a Number
+- [ ] 0755 Pour Water
+- [ ] 0756 Pyramid Transition Matrix
+- [ ] 0757 Set Intersection Size At Least Two
+- [ ] 0758 Bold Words in String
+- [ ] 0759 Employee Free Time
+- [ ] 0760 Find Anagram Mappings
+- [ ] 0761 Special Binary String
+- [ ] 0762 Prime Number of Set Bits in Binary Representation
+- [x] 0763 [Partition Labels](src/q_751_800/q0763.hpp)
+- [ ] 0764 Largest Plus Sign
+- [ ] 0765 Couples Holding Hands
+- [ ] 0766 Toeplitz Matrix
+- [ ] 0767 Reorganize String
+- [ ] 0768 Max Chunks To Make Sorted II
+- [ ] 0769 Max Chunks To Make Sorted
+- [ ] 0770 Basic Calculator IV
+- [ ] 0771 Jewels and Stones
+- [ ] 0772 Basic Calculator III
+- [ ] 0773 Sliding Puzzle
+- [ ] 0774 Minimize Max Distance to Gas Station
+- [ ] 0775 Global and Local Inversions
+- [ ] 0776 Split BST
+- [ ] 0777 Swap Adjacent in LR String
+- [ ] 0778 Swim in Rising Water
+- [ ] 0779 K-th Symbol in Grammar
+- [ ] 0780 Reaching Points
+- [ ] 0781 Rabbits in Forest
+- [ ] 0782 Transform to Chessboard
+- [ ] 0783 Minimum Distance Between BST Nodes
+- [x] 0784 [Letter Case Permutation](src/q_751_800/q0784.hpp)
+- [ ] 0785 Is Graph Bipartite?
+- [ ] 0786 K-th Smallest Prime Fraction
+- [ ] 0787 Cheapest Flights Within K Stops
+- [ ] 0788 Rotated Digits
+- [ ] 0789 Escape The Ghosts
+- [ ] 0790 Domino and Tromino Tiling
+- [ ] 0791 Custom Sort String
+- [ ] 0792 Number of Matching Subsequences
+- [ ] 0793 Preimage Size of Factorial Zeroes Function
+- [ ] 0794 Valid Tic-Tac-Toe State
+- [ ] 0795 Number of Subarrays with Bounded Maximum
+- [ ] 0796 Rotate String
+- [ ] 0797 All Paths From Source to Target
+- [ ] 0798 Smallest Rotation with Highest Score
+- [ ] 0799 Champagne Tower
+- [ ] 0800 Similar RGB Color
+- [ ] 0801 Minimum Swaps To Make Sequences Increasing
+- [ ] 0802 Find Eventual Safe States
+- [ ] 0803 Bricks Falling When Hit
+- [ ] 0804 Unique Morse Code Words
+- [ ] 0805 Split Array With Same Average
+- [ ] 0806 Number of Lines To Write String
+- [ ] 0807 Max Increase to Keep City Skyline
+- [ ] 0808 Soup Servings
+- [ ] 0809 Expressive Words
+- [ ] 0810 Chalkboard XOR Game
+- [ ] 0811 Subdomain Visit Count
+- [ ] 0812 Largest Triangle Area
+- [ ] 0813 Largest Sum of Averages
+- [ ] 0814 Binary Tree Pruning
+- [ ] 0815 Bus Routes
+- [ ] 0816 Ambiguous Coordinates
+- [ ] 0817 Linked List Components
+- [ ] 0818 Race Car
+- [ ] 0819 Most Common Word
+- [ ] 0820 Short Encoding of Words
+- [ ] 0821 Shortest Distance to a Character
+- [ ] 0822 Card Flipping Game
+- [ ] 0823 Binary Trees With Factors
+- [ ] 0824 Goat Latin
+- [ ] 0825 Friends Of Appropriate Ages
+- [ ] 0826 Most Profit Assigning Work
+- [ ] 0827 Making A Large Island
+- [ ] 0828 Count Unique Characters of All Substrings of a Given String
+- [ ] 0829 Consecutive Numbers Sum
+- [ ] 0830 Positions of Large Groups
+- [ ] 0831 Masking Personal Information
+- [ ] 0832 Flipping an Image
+- [ ] 0833 Find And Replace in String
+- [ ] 0834 Sum of Distances in Tree
+- [ ] 0835 Image Overlap
+- [ ] 0836 Rectangle Overlap
+- [ ] 0837 New 21 Game
+- [ ] 0838 Push Dominoes
+- [ ] 0839 Similar String Groups
+- [ ] 0840 Magic Squares In Grid
+- [ ] 0841 Keys and Rooms
+- [ ] 0842 Split Array into Fibonacci Sequence
+- [ ] 0843 Guess the Word
+- [ ] 0844 Backspace String Compare
+- [ ] 0845 Longest Mountain in Array
+- [ ] 0846 Hand of Straights
+- [ ] 0847 Shortest Path Visiting All Nodes
+- [x] 0848 [Shifting Letters](src/q_801_850/q0848.hpp)
+- [ ] 0849 Maximize Distance to Closest Person
+- [ ] 0850 Rectangle Area II
+- [ ] 0851 Loud and Rich
+- [ ] 0852 Peak Index in a Mountain Array
+- [ ] 0853 Car Fleet
+- [ ] 0854 K-Similar Strings
+- [ ] 0855 Exam Room
+- [ ] 0856 Score of Parentheses
+- [ ] 0857 Minimum Cost to Hire K Workers
+- [ ] 0858 Mirror Reflection
+- [ ] 0859 Buddy Strings
+- [ ] 0860 Lemonade Change
+- [ ] 0861 Score After Flipping Matrix
+- [ ] 0862 Shortest Subarray with Sum at Least K
+- [ ] 0863 All Nodes Distance K in Binary Tree
+- [ ] 0864 Shortest Path to Get All Keys
+- [ ] 0865 Smallest Subtree with all the Deepest Nodes
+- [ ] 0866 Prime Palindrome
+- [ ] 0867 Transpose Matrix
+- [ ] 0868 Binary Gap
+- [ ] 0869 Reordered Power of 2
+- [ ] 0870 Advantage Shuffle
+- [ ] 0871 Minimum Number of Refueling Stops
+- [ ] 0872 Leaf-Similar Trees
+- [ ] 0873 Length of Longest Fibonacci Subsequence
+- [ ] 0874 Walking Robot Simulation
+- [ ] 0875 Koko Eating Bananas
+- [x] 0876 [Middle of the Linked List](src/q_851_900/q0876.hpp)
+- [ ] 0877 Stone Game
+- [ ] 0878 Nth Magical Number
+- [ ] 0879 Profitable Schemes
+- [ ] 0880 Decoded String at Index
+- [ ] 0881 Boats to Save People
+- [x] 0882 [Reachable Nodes In Subdivided Graph](src/q_851_900/q0882.hpp)
+- [ ] 0883 Projection Area of 3D Shapes
+- [ ] 0884 Uncommon Words from Two Sentences
+- [ ] 0885 Spiral Matrix III
+- [ ] 0886 Possible Bipartition
+- [ ] 0887 Super Egg Drop
+- [ ] 0888 Fair Candy Swap
+- [ ] 0889 Construct Binary Tree from Preorder and Postorder Traversal
+- [ ] 0890 Find and Replace Pattern
+- [ ] 0891 Sum of Subsequence Widths
+- [ ] 0892 Surface Area of 3D Shapes
+- [ ] 0893 Groups of Special-Equivalent Strings
+- [ ] 0894 All Possible Full Binary Trees
+- [ ] 0895 Maximum Frequency Stack
+- [ ] 0896 Monotonic Array
+- [ ] 0897 Increasing Order Search Tree
+- [ ] 0898 Bitwise ORs of Subarrays
+- [ ] 0899 Orderly Queue
+- [ ] 0900 RLE Iterator
+- [ ] 0901 Online Stock Span
+- [ ] 0902 Numbers At Most N Given Digit Set
+- [ ] 0903 Valid Permutations for DI Sequence
+- [ ] 0904 Fruit Into Baskets
+- [ ] 0905 Sort Array By Parity
+- [ ] 0906 Super Palindromes
+- [ ] 0907 Sum of Subarray Minimums
+- [ ] 0908 Smallest Range I
+- [ ] 0909 Snakes and Ladders
+- [ ] 0910 Smallest Range II
+- [ ] 0911 Online Election
+- [ ] 0912 Sort an Array
+- [ ] 0913 Cat and Mouse
+- [ ] 0914 X of a Kind in a Deck of Cards
+- [ ] 0915 Partition Array into Disjoint Intervals
+- [ ] 0916 Word Subsets
+- [x] 0917 [Reverse Only Letters](src/q_901_950/q0917.hpp)
+- [ ] 0918 Maximum Sum Circular Subarray
+- [ ] 0919 Complete Binary Tree Inserter
+- [ ] 0920 Number of Music Playlists
+- [ ] 0921 Minimum Add to Make Parentheses Valid
+- [ ] 0922 Sort Array By Parity II
+- [ ] 0923 3Sum With Multiplicity
+- [ ] 0924 Minimize Malware Spread
+- [ ] 0925 Long Pressed Name
+- [ ] 0926 Flip String to Monotone Increasing
+- [ ] 0927 Three Equal Parts
+- [ ] 0928 Minimize Malware Spread II
+- [ ] 0929 Unique Email Addresses
+- [ ] 0930 Binary Subarrays With Sum
+- [ ] 0931 Minimum Falling Path Sum
+- [ ] 0932 Beautiful Array
+- [ ] 0933 Number of Recent Calls
+- [ ] 0934 Shortest Bridge
+- [ ] 0935 Knight Dialer
+- [ ] 0936 Stamping The Sequence
+- [ ] 0937 Reorder Data in Log Files
+- [ ] 0938 Range Sum of BST
+- [ ] 0939 Minimum Area Rectangle
+- [ ] 0940 Distinct Subsequences II
+- [ ] 0941 Valid Mountain Array
+- [ ] 0942 DI String Match
+- [ ] 0943 Find the Shortest Superstring
+- [ ] 0944 Delete Columns to Make Sorted
+- [ ] 0945 Minimum Increment to Make Array Unique
+- [ ] 0946 Validate Stack Sequences
+- [ ] 0947 Most Stones Removed with Same Row or Column
+- [ ] 0948 Bag of Tokens
+- [ ] 0949 Largest Time for Given Digits
+- [ ] 0950 Reveal Cards In Increasing Order
+- [ ] 0951 Flip Equivalent Binary Trees
+- [ ] 0952 Largest Component Size by Common Factor
+- [ ] 0953 Verifying an Alien Dictionary
+- [ ] 0954 Array of Doubled Pairs
+- [ ] 0955 Delete Columns to Make Sorted II
+- [ ] 0956 Tallest Billboard
+- [ ] 0957 Prison Cells After N Days
+- [ ] 0958 Check Completeness of a Binary Tree
+- [ ] 0959 Regions Cut By Slashes
+- [ ] 0960 Delete Columns to Make Sorted III
+- [ ] 0961 N-Repeated Element in Size 2N Array
+- [ ] 0962 Maximum Width Ramp
+- [ ] 0963 Minimum Area Rectangle II
+- [ ] 0964 Least Operators to Express Number
+- [ ] 0965 Univalued Binary Tree
+- [ ] 0966 Vowel Spellchecker
+- [ ] 0967 Numbers With Same Consecutive Differences
+- [ ] 0968 Binary Tree Cameras
+- [ ] 0969 Pancake Sorting
+- [ ] 0970 Powerful Integers
+- [ ] 0971 Flip Binary Tree To Match Preorder Traversal
+- [ ] 0972 Equal Rational Numbers
+- [ ] 0973 K Closest Points to Origin
+- [ ] 0974 Subarray Sums Divisible by K
+- [ ] 0975 Odd Even Jump
+- [ ] 0976 Largest Perimeter Triangle
+- [x] 0977 [Squares of a Sorted Array](src/q_951_1000/q0977.hpp)
+- [x] 0978 [Longest Turbulent Subarray](src/q_951_1000/q0978.hpp)
+- [ ] 0979 Distribute Coins in Binary Tree
+- [ ] 0980 Unique Paths III
+- [ ] 0981 Time Based Key-Value Store
+- [ ] 0982 Triples with Bitwise AND Equal To Zero
+- [ ] 0983 Minimum Cost For Tickets
+- [ ] 0984 String Without AAA or BBB
+- [ ] 0985 Sum of Even Numbers After Queries
+- [ ] 0986 Interval List Intersections
+- [ ] 0987 Vertical Order Traversal of a Binary Tree
+- [ ] 0988 Smallest String Starting From Leaf
+- [ ] 0989 Add to Array-Form of Integer
+- [ ] 0990 Satisfiability of Equality Equations
+- [ ] 0991 Broken Calculator
+- [ ] 0992 Subarrays with K Different Integers
+- [ ] 0993 Cousins in Binary Tree
+- [x] 0994 [Rotting Oranges](src/q_951_1000/q0994.hpp)
+- [ ] 0995 Minimum Number of K Consecutive Bit Flips
+- [ ] 0996 Number of Squareful Arrays
+- [ ] 0997 Find the Town Judge
+- [ ] 0998 Maximum Binary Tree II
+- [ ] 0999 Available Captures for Rook
 - [ ] 1000 Minimum Cost to Merge Stones
 </details>
 <details>

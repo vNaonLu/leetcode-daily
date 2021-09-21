@@ -11,7 +11,7 @@ if((len(sys.argv) - 2) % 3):
     print("[Usage] <question number>")
 else:
     gen = os.path.basename(__file__)
-    quest_num = sys.argv[1]
+    quest_num = str(int(sys.argv[1]))
     project_path = pathlib.Path(__file__).parent.parent.resolve()
     interval_name = leetcode.get_question_id_path(int(quest_num))
     source_root_path = os.path.join(project_path, "src")
@@ -112,6 +112,12 @@ else:
                         f.write("".join(text))
                         f.truncate()
                         break
+
+            # with open(os.path.join(project_path, "README.md"), "r+") as f:
+            #     text = f.readlines();
+            #     for i in range(0, len(text)):
+            #         if re.match("{}".format(quest_num.rjust(4, "0"))):
+            #             break
 
             subprocess.run(["code", source])
             subprocess.run(["code", unittest])
