@@ -1,7 +1,6 @@
 import re
 import csv
-from . import leetcode
-
+import time
 
 def subunittest(path: str, new_file: str):
     with open(path, "r+") as f:
@@ -60,36 +59,23 @@ def question_list(path: str, ids: list[int]):
             f.seek(0)
             writer.writeheader()
             writer.writerows([v for _, v in sorted(
-                id_map.items(), key=lambda pair: int(pair[0]))])
+                id_map.items(), key=lambda pair: pair[0])])
             f.truncate()
 
 
-def readme_queslist(path: str, list: str):
-    ids: dict[int, dict[str, any]] = {}
-    with open(list, "r") as f:
-        rows = csv.DictReader(f, delimiter=',')
-        for row in rows:
-            if row["done"] == "1":
-                ids[int(row["id"])] = row
-    
-    if len(ids.keys()) == 0:
-        return
+def readme(path: str, qlist: str, log: str):
+    # ids_map: dict[int, dict[str, any]] = {}
+    # with open(qlist, "r") as f:
+    #     rows = csv.DictReader(f, delimiter=',')
+    #     for row in rows:
+    #         ids_map[int(row["id"])] = row
 
-    with open(path, "r+") as f:
-        contents = f.readlines()
-        for i in range(0, len(contents)):
-            find = re.search("(/d{4})", contents[i])
-            ques = None
-            if find:
-                ques = ids.get(int(find.group(1)))
-                if ques:
-                    contents[i] = "- [x] {} [{}]({})\n".format(
-                        ques["id"].zfill(4),
-                        ques["title"],
-                        "src/{}/q{}.hpp".format(
-                            leetcode.get_question_id_path(int(ques["id"])),
-                            ques["id"].zfill(4)))
-        
-        f.seek(0)
-        f.writelines(contents)
-        f.truncate()
+    log_map: dict[int, list[int]] = {}
+    with open(log, "r") as f:
+        rows = csv.DictReader(f, delimiter=",")
+        for row in rows:
+            date = time.strftime("%Y%m%d", time.localtime(int(row["date"])))
+            if not log_map.get(date):
+                log_map[date] = []
+            log_map[date].append(int(row["id"]))
+    print(log_map)

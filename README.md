@@ -294,7 +294,7 @@ My daily challenge on leetcode since 2021/09/06.
 - [ ] 0279 Perfect Squares
 - [ ] 0280 Wiggle Sort
 - [ ] 0281 Zigzag Iterator
-- [ ] 0282 Expression Add Operators
+- [x] 0282 [Expression Add Operators](src/q_251_300/q0282.hpp)
 - [x] 0283 [Move Zeroes](src/q_251_300/q0283.hpp)
 - [ ] 0284 Peeking Iterator
 - [ ] 0285 Inorder Successor in BST

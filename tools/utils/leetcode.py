@@ -201,10 +201,14 @@ def get_description(number: int, prompt: str):
         return None
 
 
-def get_question_id_path(id: int):
-    # [1, 50]
+def get_question_intv(id: int):
     interval_idx = math.floor((id - 1) / 50)
-    path = "q_{}_{}".format(interval_idx * 50 + 1, (interval_idx+1) * 50)
+    return [interval_idx * 50 + 1, (interval_idx+1) * 50]
+
+
+def get_question_id_path(id: int):
+    nums = get_question_intv(id)
+    path = "q_{}_{}".format(nums[0], nums[1])
     return path
 
 
