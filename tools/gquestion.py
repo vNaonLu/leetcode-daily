@@ -84,11 +84,11 @@ else:
 
     modified_md = True
 
-    for i in range(1, len(sys.argv)):
-        ques = QuestionFile(int(sys.argv[i]))
-        if not add_question(ques):
-            print("[x] Failed to generate Question #{}".format(ques.id()))
-            modified_md = False
+    # for i in range(1, len(sys.argv)):
+    #     ques = QuestionFile(int(sys.argv[i]))
+    #     if not add_question(ques):
+    #         print("[x] Failed to generate Question #{}".format(ques.id()))
+    #         modified_md = False
 
     if modified_md:
         modify.readme(

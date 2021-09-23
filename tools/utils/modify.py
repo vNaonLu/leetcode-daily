@@ -152,6 +152,7 @@ def readme(readme: str, qlist: str, log: str):
         ]))
 
         for date, ids in sorted(log_map.items(), key=lambda pair: pair[0], reverse=True):
+            ids.sort()
             line: list[str] = ["", str(date) + "<br>", "", "", "", "", "\n"]
             line = __table(line, ids_map[ids[0]])
             for i in range(1, len(ids)):
