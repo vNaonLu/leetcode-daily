@@ -4,4 +4,5 @@
 #include "q0557_unittest.hpp"
 #include "q0566_unittest.hpp"
 #include "q0567_unittest.hpp"
+#include "q0560_unittest.hpp"
 #endif
