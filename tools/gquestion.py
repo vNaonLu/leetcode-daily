@@ -56,12 +56,14 @@ def add_question(ques: QuestionFile):
 
     if os.path.exists(src):
         print("[!] file exist: {}".format(src))
+        return False
     else:
         template.generate_source(src, ques.id(), desc)
         subprocess.run(["code", src])
 
     if os.path.exists(utsrc):
         print("[!] file exist: {}".format(utsrc))
+        return False
     else:
         template.generate_unittest(utsrc, ques.id(), desc)
         subprocess.run(["code", utsrc])
@@ -69,6 +71,7 @@ def add_question(ques: QuestionFile):
     modify.log(log_csv, ques.id())
     modify.question_list(list_csv, [ques.id()])
     modify.subunittest(utindex, os.path.basename(utsrc))
+    return True
 
 
 if len(sys.argv) < 2:
@@ -79,11 +82,16 @@ else:
         solved = leetcode.get_solved_ids()
         modify.question_list(list_csv, solved)
 
+    modified_md = True
+
     for i in range(1, len(sys.argv)):
         ques = QuestionFile(int(sys.argv[i]))
-        add_question(ques)
+        if not add_question(ques):
+            print("[x] Failed to generate Question #{}".format(ques.id()))
+            modified_md = False
 
-    modify.readme(
-        os.path.join(proj_path, "README.md"),
-        list_csv,
-        log_csv)
+    if modified_md:
+        modify.readme(
+            os.path.join(proj_path, "README.md"),
+            list_csv,
+            log_csv)
