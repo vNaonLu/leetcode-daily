@@ -81,7 +81,7 @@ else:
 
     for i in range(1, len(sys.argv)):
         ques = QuestionFile(int(sys.argv[i]))
-        # add_question(ques)
+        add_question(ques)
 
     modify.readme(
         os.path.join(proj_path, "README.md"),
