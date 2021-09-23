@@ -69,10 +69,7 @@ def question_list(path: str, ids: list[int]):
 
 def log(log: str, id: int):
     with open(log, "a") as f:
-        f.write("{},{}\n".format(
-            calendar.timegm(time.strptime(
-                datetime.date.today().strftime("%Y%m%d"), '%Y%m%d')),
-            id))
+        f.write("{},{}\n".format(int(time.time()), id))
 
 
 def __table(line: list[str], obj: dict[str, any]):
