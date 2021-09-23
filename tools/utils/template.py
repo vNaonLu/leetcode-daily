@@ -1,3 +1,7 @@
+import csv
+from . import leetcode
+
+
 def generate_source(path: str, num: int, desc: str):
     with open(path, "w") as f:
         f.write("\n".join([
@@ -18,7 +22,7 @@ def generate_source(path: str, num: int, desc: str):
         print("[+] create file: {}".format(path))
 
 
-def generate_unittest(path:str, num: int, desc: str):
+def generate_unittest(path: str, num: int, desc: str):
     with open(path, "w") as f:
         f.write("\n".join([
             "",
@@ -47,4 +51,23 @@ def generate_intv_unittest(path: str, intv: str):
             "#define {}_UNITTEST\n".format(intv.upper()),
             "#endif",
         ]))
+        print("[+] create file: {}".format(path))
+
+
+def generate_question_list(path: str):
+    ques = leetcode.get_questions()
+
+    def id(q: leetcode.Question):
+        return q.id
+    ques.sort(key=id)
+    with open(path, "w", newline="") as f:
+        writer = csv.DictWriter(
+            f,
+            fieldnames=["id", "title", "level", "slug", "done"],
+            delimiter=',')
+        writer.writeheader()
+        for q in ques:
+            obj = q.toObj()
+            obj["done"] = 0
+            writer.writerow(obj)
         print("[+] create file: {}".format(path))

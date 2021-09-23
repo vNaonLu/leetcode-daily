@@ -2,6 +2,9 @@ import requests
 import json
 import re
 import math
+import os
+import pathlib
+
 
 __remove = ["</?p>", "</?ul>", "</?ol>", "</li>", "<img.*/>"]
 __replace = [["&nbsp;", ""], ["&quot;", '"'], ["&lt;", "<"], ["&gt;", ">"],
@@ -142,14 +145,19 @@ def __get_problem(number: int):
 
 
 class Question:
-    def __init__(self, id: int, name: str, level: int):
+    def __init__(self, id: int, name: str, level: int, slug: str):
         self.id: int = id
         self.title: str = name
-        self.level: str = 'Easy'
-        if level == 2:
-            self.level = 'Medium'
-        elif level == 3:
-            self.level = 'Hard'
+        self.level: int = level
+        self.slug: str = slug
+
+    def toObj(self):
+        return {
+            "id": self.id,
+            "title": self.title,
+            "slug": self.slug,
+            "level": self.level
+        }
 
 
 def get_questions():
@@ -164,7 +172,8 @@ def get_questions():
     for question in question_list['stat_status_pairs']:
         q = Question(question['stat']['frontend_question_id'],
                      question['stat']['question__title'],
-                     question['difficulty']['level'])
+                     question['difficulty']['level'],
+                     question['stat']['question__title_slug'],)
         res.append(q)
     return res
 
@@ -175,27 +184,39 @@ def get_description(number: int, prompt: str):
         title = problem['questionTitle']
         content = __parse(problem['content'])
 
-        res: list[str] = []
-        res.append("/**")
-        res.append("  * {}".format(prompt))
-        res.append("  *")
-        res.append("  * {}. {}".format(number, title))
-        res.append("  *")
-        for statement in content['Description']:
-            res.append("  * {}".format(statement))
-        res.append("  *")
-        res.append("  * Constraints:")
-        for statement in content['Constraints']:
-            res.append("  * {}".format(statement))
-        res.append("  *")
-        res.append("*/")
+        res = [
+            "/**",
+            "  * {}".format(prompt),
+            "  *",
+            "  * {}. {}".format(number, title),
+            "  * " + "\n  * ".join(content['Description']),
+            "  *",
+            "  * Constraints:",
+            "  * " + "\n  * ".join(content['Constraints']),
+            "  *",
+            "*/"
+        ]
         return "\n".join(res)
     else:
         return None
 
 
-def get_question_id_path(id: int):
-    # [1, 50]
+def get_question_intv(id: int):
     interval_idx = math.floor((id - 1) / 50)
-    path = "q_{}_{}".format(interval_idx * 50 + 1, (interval_idx+1) * 50)
+    return [interval_idx * 50 + 1, (interval_idx+1) * 50]
+
+
+def get_question_id_path(id: int):
+    nums = get_question_intv(id)
+    path = "q_{}_{}".format(nums[0], nums[1])
     return path
+
+
+def get_solved_ids():
+    res: list[int] = []
+    for _, _, files in os.walk(os.path.join(pathlib.Path(__file__).parent.parent.parent.resolve(), "src")):
+        for file in files:
+            g = re.search("q(\d*).hpp", file)
+            if g is not None:
+                res.append(int(g.group(1)))
+    return res
