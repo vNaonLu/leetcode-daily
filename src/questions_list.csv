@@ -236,7 +236,7 @@ id,title,level,slug,done
 235,Lowest Common Ancestor of a Binary Search Tree,1,lowest-common-ancestor-of-a-binary-search-tree,1
 236,Lowest Common Ancestor of a Binary Tree,2,lowest-common-ancestor-of-a-binary-tree,0
 237,Delete Node in a Linked List,1,delete-node-in-a-linked-list,0
-238,Product of Array Except Self,2,product-of-array-except-self,0
+238,Product of Array Except Self,2,product-of-array-except-self,1
 239,Sliding Window Maximum,3,sliding-window-maximum,0
 240,Search a 2D Matrix II,2,search-a-2d-matrix-ii,1
 241,Different Ways to Add Parentheses,2,different-ways-to-add-parentheses,0
