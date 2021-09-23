@@ -436,7 +436,7 @@ id,title,level,slug,done
 435,Non-overlapping Intervals,2,non-overlapping-intervals,1
 436,Find Right Interval,2,find-right-interval,0
 437,Path Sum III,2,path-sum-iii,0
-438,Find All Anagrams in a String,2,find-all-anagrams-in-a-string,0
+438,Find All Anagrams in a String,2,find-all-anagrams-in-a-string,1
 439,Ternary Expression Parser,2,ternary-expression-parser,0
 440,K-th Smallest in Lexicographical Order,3,k-th-smallest-in-lexicographical-order,0
 441,Arranging Coins,1,arranging-coins,0
