@@ -207,7 +207,7 @@ id,title,level,slug,done
 206,Reverse Linked List,1,reverse-linked-list,1
 207,Course Schedule,2,course-schedule,0
 208,Implement Trie (Prefix Tree),2,implement-trie-prefix-tree,0
-209,Minimum Size Subarray Sum,2,minimum-size-subarray-sum,0
+209,Minimum Size Subarray Sum,2,minimum-size-subarray-sum,1
 210,Course Schedule II,2,course-schedule-ii,0
 211,Design Add and Search Words Data Structure,2,design-add-and-search-words-data-structure,0
 212,Word Search II,3,word-search-ii,0
