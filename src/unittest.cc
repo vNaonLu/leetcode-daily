@@ -22,6 +22,7 @@
 #include "q_1601_1650/unittest.hpp"
 #include "q_1251_1300/unittest.hpp"
 #include "q_451_500/unittest.hpp"
+#include "q_1201_1250/unittest.hpp"
 
 int main(int argc, char **argv) {
   ::testing::InitGoogleTest(&argc, argv);

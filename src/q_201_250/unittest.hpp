@@ -8,4 +8,5 @@
 #include "q0226_unittest.hpp"
 #include "q0231_unittest.hpp"
 #include "q0235_unittest.hpp"
+#include "q0240_unittest.hpp"
 #endif
