@@ -66,6 +66,7 @@ def add_question(ques: QuestionFile):
         template.generate_unittest(utsrc, ques.id(), desc)
         subprocess.run(["code", utsrc])
 
+    modify.log(log_csv, ques.id())
     modify.question_list(list_csv, [ques.id()])
     modify.subunittest(utindex, os.path.basename(utsrc))
 
@@ -73,10 +74,10 @@ def add_question(ques: QuestionFile):
 if len(sys.argv) < 2:
     print("[Usage] <question number> ...")
 else:
-    # if not os.path.exists(list_csv):
-    #     template.generate_question_list(list_csv)
-    #     solved = leetcode.get_solved_ids()
-    #     modify.question_list(list_csv, solved)
+    if not os.path.exists(list_csv):
+        template.generate_question_list(list_csv)
+        solved = leetcode.get_solved_ids()
+        modify.question_list(list_csv, solved)
 
     for i in range(1, len(sys.argv)):
         ques = QuestionFile(int(sys.argv[i]))

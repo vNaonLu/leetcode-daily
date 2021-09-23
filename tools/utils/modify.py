@@ -1,6 +1,10 @@
-import re
-import csv
+import datetime
+import calendar
 import time
+import csv
+import re
+from . import leetcode
+
 
 def subunittest(path: str, new_file: str):
     with open(path, "r+") as f:
@@ -63,12 +67,47 @@ def question_list(path: str, ids: list[int]):
             f.truncate()
 
 
-def readme(path: str, qlist: str, log: str):
-    # ids_map: dict[int, dict[str, any]] = {}
-    # with open(qlist, "r") as f:
-    #     rows = csv.DictReader(f, delimiter=',')
-    #     for row in rows:
-    #         ids_map[int(row["id"])] = row
+def log(log: str, id: int):
+    with open(log, "a") as f:
+        f.write("{},{}\n".format(
+            calendar.timegm(time.strptime(
+                datetime.date.today().strftime("%Y%m%d"), '%Y%m%d')),
+            id))
+
+
+def __table(line: list[str], obj: dict[str, any]):
+    line[2] += ("[📄](src/{}/q{}.hpp)".format(
+        leetcode.get_question_id_path(int(obj["id"])),
+        obj["id"].zfill(4)
+    ))
+    line[3] += obj["id"]
+    line[4] += "[{}](https://leetcode.com/problems/{}/)".format(
+        obj["title"],
+        obj["slug"]
+    )
+    line[5] += "{}".format("Hard" if obj["level"] == "3" else (
+        "Medium" if obj["level"] == "2" else "Easy"))
+    return line
+
+
+def readme(readme: str, qlist: str, log: str):
+    ids_map: dict[int, dict[str, any]] = {}
+    quest_list: list[str] = []
+    with open(qlist, "r") as f:
+        rows = csv.DictReader(f, delimiter=',')
+        for row in rows:
+            ids_map[int(row["id"])] = row
+            if row["done"] == "1":
+                quest_list.append("- [x] {} [{}]({})".format(
+                    row["id"].zfill(4),
+                    row["title"],
+                    "src/{}/q{}.hpp".format(
+                        leetcode.get_question_id_path(int(row["id"])),
+                        row["id"].zfill(4))))
+            else:
+                quest_list.append("- [ ] {} {}".format(
+                    row["id"].zfill(4),
+                    row["title"]))
 
     log_map: dict[int, list[int]] = {}
     with open(log, "r") as f:
@@ -78,4 +117,47 @@ def readme(path: str, qlist: str, log: str):
             if not log_map.get(date):
                 log_map[date] = []
             log_map[date].append(int(row["id"]))
-    print(log_map)
+
+    with open(readme, "w") as f:
+        f.write("\n".join([
+            "# Daily Leetcode in C++",
+            "",
+            "[![githubbuild](https://github.com/vNaonLu/Daily_LeetCode/actions/workflows/test.yml/badge.svg)](https://github.com/vNaonLu/Daily_LeetCode/actions)",
+            "",
+            "My daily challenge on leetcode since 2021/09/06.",
+            "",
+            "## Questions List",
+            "",
+            ""
+        ]))
+
+        for i in range(0, len(quest_list), 250):
+            lines = ["<details>",
+                     "  <summary>### {} ~ {}</summary>".format(i+1, i+250),
+                     ""]
+            lines += quest_list[i:min(i+250, len(quest_list))]
+            lines.append("</details>")
+            lines.append("")
+            f.write("\n".join(lines))
+
+        f.write("\n".join([
+            "",
+            "---"
+            "",
+            "## Questions List",
+            "",
+            "|Date|File|#|Question Title|Difficulty|",
+            "|:-:|:-:|--:|:--|:--|",
+            ""
+        ]))
+
+        for date, ids in sorted(log_map.items(), key=lambda pair: pair[0], reverse=True):
+            line: list[str] = ["", str(date) + "<br>", "", "", "", "", "\n"]
+            line = __table(line, ids_map[ids[0]])
+            for i in range(1, len(ids)):
+                for j in range(1, 6):
+                    line[j] += "<br>"
+                line = __table(line, ids_map[ids[i]])
+            f.write("|".join(line))
+        f.truncate()
+        print("[+] modify file: {}".format(readme))
