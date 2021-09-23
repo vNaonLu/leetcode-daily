@@ -1326,7 +1326,7 @@ id,title,level,slug,done
 1325,Delete Leaves With a Given Value,2,delete-leaves-with-a-given-value,0
 1326,Minimum Number of Taps to Open to Water a Garden,3,minimum-number-of-taps-to-open-to-water-a-garden,0
 1327,List the Products Ordered in a Period,1,list-the-products-ordered-in-a-period,0
-1328,Break a Palindrome,2,break-a-palindrome,0
+1328,Break a Palindrome,2,break-a-palindrome,1
 1329,Sort the Matrix Diagonally,2,sort-the-matrix-diagonally,0
 1330,Reverse Subarray To Maximize Array Value,3,reverse-subarray-to-maximize-array-value,0
 1331,Rank Transform of an Array,1,rank-transform-of-an-array,0
