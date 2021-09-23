@@ -151,6 +151,14 @@ class Question:
         self.level: int = level
         self.slug: str = slug
 
+    def toObj(self):
+        return {
+            "id": self.id,
+            "title": self.title,
+            "slug": self.slug,
+            "level": self.level
+        }
+
 
 def get_questions():
     res: list[Question] = []

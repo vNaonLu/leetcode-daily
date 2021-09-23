@@ -65,8 +65,11 @@ def add_question(ques: QuestionFile):
         template.generate_unittest(utsrc, ques.id(), desc)
         subprocess.run(["code", utsrc])
 
-    modify.question_list(ques_index_csv, ques.id())
+    modify.question_list(ques_index_csv, [ques.id()])
     modify.subunittest(utindex, os.path.basename(utsrc))
+    modify.readme_queslist(
+        os.path.join(proj_path, "README.md"),
+        ques_index_csv)
 
 
 if len(sys.argv) < 2:
@@ -75,9 +78,8 @@ else:
     if not os.path.exists(ques_index_csv):
         template.generate_question_list(ques_index_csv)
         solved = leetcode.get_solved_ids()
-        for id in solved:
-            modify.question_list(ques_index_csv, id)
+        modify.question_list(ques_index_csv, solved)
 
     for i in range(1, len(sys.argv)):
         ques = QuestionFile(int(sys.argv[i]))
-        # add_question(ques)
+        add_question(ques)

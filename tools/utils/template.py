@@ -61,7 +61,13 @@ def generate_question_list(path: str):
         return q.id
     ques.sort(key=id)
     with open(path, "w", newline="") as f:
-        writer = csv.writer(f)
+        writer = csv.DictWriter(
+            f,
+            fieldnames=["id", "title", "level", "slug", "done"],
+            delimiter=',')
+        writer.writeheader()
         for q in ques:
-            writer.writerow([q.id, q.title, q.level, q.slug, 0])
+            obj = q.toObj()
+            obj["done"] = 0
+            writer.writerow(obj)
         print("[+] create file: {}".format(path))

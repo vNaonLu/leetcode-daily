@@ -41,21 +41,55 @@ def unittest(path: str, num: int, intv: str):
         print("[+] modify file: {}".format(path))
 
 
-def question_list(path: str, id: int):
-    with open(path, "r+") as f:
-        rows = list(csv.reader(f))
-        for row in rows:
-            if row[0] == str(id):
-                row[-1] = 1
-                f.seek(0);
-                writer = csv.writer(f)
-                writer.writerows(rows)
-                f.truncate()
-                print("[+] modify question #{} in question list".format(id))
-                break
+def question_list(path: str, ids: list[int]):
+    id_map: dict[int, dict[str, any]] = {}
 
-# def readme(path: str, ques: leetcode.Question):
-#     with open(path, "r+") as f:
-#         contents = f.readlines()
-#         for line in contents:
-#             find = re.search("(/d{4})")
+    with open(path, "r+") as f:
+        rows = csv.DictReader(f, delimiter=',')
+        writer = csv.DictWriter(
+            f,
+            fieldnames=['id', 'title', 'level', 'slug', 'done'],
+            delimiter=',')
+        for row in rows:
+            id_map[int(row["id"])] = row
+
+        if len(ids) > 0:
+            for id in ids:
+                id_map[id]['done'] = 1
+                print("[+] modify question #{:4} in list".format(id))
+            f.seek(0)
+            writer.writeheader()
+            writer.writerows([v for _, v in sorted(
+                id_map.items(), key=lambda pair: int(pair[0]))])
+            f.truncate()
+
+
+def readme_queslist(path: str, list: str):
+    ids: dict[int, dict[str, any]] = {}
+    with open(list, "r") as f:
+        rows = csv.DictReader(f, delimiter=',')
+        for row in rows:
+            if row["done"] == "1":
+                ids[int(row["id"])] = row
+    
+    if len(ids.keys()) == 0:
+        return
+
+    with open(path, "r+") as f:
+        contents = f.readlines()
+        for i in range(0, len(contents)):
+            find = re.search("(/d{4})", contents[i])
+            ques = None
+            if find:
+                ques = ids.get(int(find.group(1)))
+                if ques:
+                    contents[i] = "- [x] {} [{}]({})\n".format(
+                        ques["id"].zfill(4),
+                        ques["title"],
+                        "src/{}/q{}.hpp".format(
+                            leetcode.get_question_id_path(int(ques["id"])),
+                            ques["id"].zfill(4)))
+        
+        f.seek(0)
+        f.writelines(contents)
+        f.truncate()
