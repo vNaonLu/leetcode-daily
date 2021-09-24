@@ -6,7 +6,7 @@ import os
 
 
 def __parser():
-    parser = optparse.OptionParser()
+    parser = optparse.OptionParser(usage="%prog [options] id1 id2 ...")
     parser.add_option("-a", "--add",
                       dest="add_identify",
                       action="store_true",
@@ -23,6 +23,11 @@ def __parser():
 def __main():
     parser = __parser()
     options, args = parser.parse_args()
+
+    if len(args) == 0:
+        print("Usage: {} [options] id1 id2 ...".format(os.path.basename(__file__)))
+        return
+
     if options.add_identify and options.del_identify:
         parser.error("options -a and -d are mutually exclusive.")
     file_path = pathlib.Path(__file__).parent

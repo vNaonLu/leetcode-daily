@@ -75,7 +75,7 @@ def __main():
     options, args = parser.parse_args()
 
     if len(args) == 0:
-        print("[options] id1 id2 ...")
+        print("Usage: {} [options] id1 id2 ...".format(os.path.basename(__file__)))
         return
 
     readme_path = pathlib.Path(options.readme).resolve()
