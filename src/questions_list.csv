@@ -413,7 +413,7 @@ id,title,level,slug,done
 412,Fizz Buzz,1,fizz-buzz,0
 413,Arithmetic Slices,2,arithmetic-slices,0
 414,Third Maximum Number,1,third-maximum-number,0
-415,Add Strings,1,add-strings,0
+415,Add Strings,1,add-strings,1
 416,Partition Equal Subset Sum,2,partition-equal-subset-sum,0
 417,Pacific Atlantic Water Flow,2,pacific-atlantic-water-flow,0
 418,Sentence Screen Fitting,2,sentence-screen-fitting,0
