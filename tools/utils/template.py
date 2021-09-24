@@ -1,5 +1,4 @@
 import csv
-from . import leetcode
 
 
 def generate_source(path: str, num: int, desc: str):
@@ -54,12 +53,8 @@ def generate_intv_unittest(path: str, intv: str):
         print("[+] create file: {}".format(path))
 
 
-def generate_question_list(path: str):
-    ques = leetcode.get_questions()
-
-    def id(q: leetcode.Question):
-        return q.id
-    ques.sort(key=id)
+def generate_question_list(path: str, ques: list[object]):
+    ques.sort(key=lambda q: q['stat']['frontend_question_id'])
     with open(path, "w", newline="") as f:
         writer = csv.DictWriter(
             f,
@@ -67,7 +62,30 @@ def generate_question_list(path: str):
             delimiter=',')
         writer.writeheader()
         for q in ques:
-            obj = q.toObj()
-            obj["done"] = 0
-            writer.writerow(obj)
+            writer.writerow({
+                "id": q['stat']['frontend_question_id'],
+                "title": q['stat']['question__title'],
+                "level": q['difficulty']['level'],
+                "slug": q['stat']['question__title_slug'],
+                "done": 0,
+            })
         print("[+] create file: {}".format(path))
+
+
+def generate_question_description(prompt: str,
+                                  id: int,
+                                  title: str,
+                                  desc: list[str],
+                                  cons: list[str]):
+    return "\n".join([
+        "/**",
+        "  * {}".format(prompt),
+        "  *",
+        "  * {}. {}".format(id, title),
+        "  * " + "\n  * ".join(desc),
+        "  *",
+        "  * Constraints:",
+        "  * " + "\n  * ".join(cons),
+        "  *",
+        "*/"
+    ])

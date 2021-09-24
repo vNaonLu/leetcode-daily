@@ -1,9 +1,7 @@
-import datetime
-import calendar
 import time
 import csv
 import re
-from . import leetcode
+from . import local
 
 
 def subunittest(path: str, new_file: str):
@@ -74,7 +72,7 @@ def log(log: str, id: int):
 
 def __table(line: list[str], obj: dict[str, any]):
     line[2] += ("[📄](src/{}/q{}.hpp)".format(
-        leetcode.get_question_id_path(int(obj["id"])),
+        local.id_folder(int(obj["id"])),
         obj["id"].zfill(4)
     ))
     line[3] += obj["id"]
@@ -99,7 +97,7 @@ def readme(readme: str, qlist: str, log: str):
                     row["id"].zfill(4),
                     row["title"],
                     "src/{}/q{}.hpp".format(
-                        leetcode.get_question_id_path(int(row["id"])),
+                        local.id_folder(int(row["id"])),
                         row["id"].zfill(4))))
             else:
                 quest_list.append("- [ ] {} {}".format(
@@ -130,7 +128,8 @@ def readme(readme: str, qlist: str, log: str):
 
         for i in range(0, len(quest_list), 250):
             lines = ["<details>",
-                     "  <summary>### {} ~ {}</summary>".format(i+1, i+250),
+                     "  <summary>### {} ~ {}</summary>".format(
+                         i+1, min(i+250, len(quest_list))),
                      ""]
             lines += quest_list[i:min(i+250, len(quest_list))]
             lines.append("</details>")
