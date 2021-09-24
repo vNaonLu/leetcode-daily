@@ -21,7 +21,7 @@ def __parser():
                       dest="rdm_identifier",
                       action="store_true",
                       default=False,
-                      help="feature to delete question and modify README and src automatically.")
+                      help="update README.md")
     return parser
 
 
