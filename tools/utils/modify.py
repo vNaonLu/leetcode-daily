@@ -1,8 +1,11 @@
 import time
 import csv
 import re
-import os
 from . import local
+
+
+def __modify_prompt(file: str):
+    print("[+] modify a file: {}".format(file))
 
 
 def removesubunittest(path: str, id: int):
@@ -20,7 +23,8 @@ def removesubunittest(path: str, id: int):
     if modify:
         with open(path, "w") as f:
             f.writelines(new_contents)
-            print("[+] modify file: {}".format(path))
+            __modify_prompt(path)
+
 
 def subunittest(path: str, file_name: str):
     with open(path, "r+") as f:
@@ -32,7 +36,7 @@ def subunittest(path: str, file_name: str):
         f.seek(0)
         f.writelines(content)
         f.truncate()
-        print("[+] modify file: {}".format(path))
+        __modify_prompt(path)
 
 
 def unittest(path: str, num: int, intv: str):
@@ -57,7 +61,7 @@ def unittest(path: str, num: int, intv: str):
             f.seek(0)
             f.write("".join(text))
             f.truncate()
-        print("[+] modify file: {}".format(path))
+        __modify_prompt(path)
 
 
 def question_list(path: str, ids: list[int], done: bool = True):
@@ -75,22 +79,35 @@ def question_list(path: str, ids: list[int], done: bool = True):
         if len(ids) > 0:
             for id in ids:
                 id_map[id]['done'] = '1' if done else '0'
-                print("[+] modify question #{:4} in list".format(id))
             f.seek(0)
             writer.writeheader()
             writer.writerows([v for _, v in sorted(
                 id_map.items(), key=lambda pair: pair[0])])
             f.truncate()
+            __modify_prompt(path)
 
 
-def log(log: str, id: int):
-    if not os.path.exists(log):
-        with open(log, "w") as f:
-            f.write("date,id")
-            f.write("{},{}\n".format(int(time.time()), id))
-    else:
-        with open(log, "a") as f:
-            f.write("{},{}\n".format(int(time.time()), id))
+def log(path: str, id: int):
+    with open(path, "a") as f:
+        f.write("{},{}\n".format(int(time.time()), id))
+        __modify_prompt(path)
+
+
+def dellog(path: str, id: int):
+    contents: list[list[str]] = []
+    modify = False
+    with open(path, "r") as f:
+        rows = csv.reader(f, delimiter=',')
+        for row in rows:
+            if int(row[1]) != id:
+                contents.append(row)
+                modify = True
+
+    if modify:
+        with open(path, "w") as f:
+            writer = csv.writer(f, delimiter=',')
+            writer.writerows(contents)
+            __modify_prompt(path)
 
 
 def __table(line: list[str], obj: dict[str, any]):
@@ -129,12 +146,12 @@ def readme(readme: str, qlist: str, log: str):
 
     log_map: dict[int, list[int]] = {}
     with open(log, "r") as f:
-        rows = csv.DictReader(f, delimiter=",")
+        rows = csv.reader(f, delimiter=",")
         for row in rows:
-            date = time.strftime("%Y%m%d", time.localtime(int(row["date"])))
+            date = time.strftime("%Y%m%d", time.localtime(int(row[0])))
             if not log_map.get(date):
                 log_map[date] = []
-            log_map[date].append(int(row["id"]))
+            log_map[date].append(int(row[1]))
 
     with open(readme, "w") as f:
         f.write("\n".join([
@@ -180,4 +197,4 @@ def readme(readme: str, qlist: str, log: str):
                 line = __table(line, ids_map[ids[i]])
             f.write("|".join(line))
         f.truncate()
-        print("[+] modify file: {}".format(readme))
+        __modify_prompt(readme)

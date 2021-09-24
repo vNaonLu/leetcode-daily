@@ -19,10 +19,9 @@ def question_list(path: str, ques: list[object]):
             fieldnames=["id", "title", "level", "slug", "done"],
             delimiter=',')
         writer.writeheader()
-        for q in ques:
-            writer.writerow({
-                "id": q['stat']['frontend_question_id'],
-                "title": q['stat']['question__title'],
-                "level": q['difficulty']['level'],
-                "slug": q['stat']['question__title_slug'],
-                "done": 0})
+        writer.writerows([{
+            "id": q['stat']['frontend_question_id'],
+            "title": q['stat']['question__title'],
+            "level": q['difficulty']['level'],
+            "slug": q['stat']['question__title_slug'],
+            "done": 0} for q in ques])
