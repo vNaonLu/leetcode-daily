@@ -104,7 +104,7 @@ def __main():
             modify_subunittest.add(qfile.interval())
             question_added = True
         else:
-            print("[x] Failed to generate Question #{}".format(qfile.id()))
+            print("[x] failed to generate question #{}".format(qfile.id()))
 
     for subunittest in modify_subunittest:
         subsrc = os.path.join(sour_path, subunittest)
