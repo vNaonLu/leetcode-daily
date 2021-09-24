@@ -1,6 +1,7 @@
 import time
 import csv
 import re
+import os
 from . import local
 
 
@@ -66,8 +67,13 @@ def question_list(path: str, ids: list[int]):
 
 
 def log(log: str, id: int):
-    with open(log, "a") as f:
-        f.write("{},{}\n".format(int(time.time()), id))
+    if not os.path.exists(log):
+        with open(log, "a") as f:
+            f.write("date,id")
+            f.write("{},{}\n".format(int(time.time()), id))
+    else:
+        with open(log, "a") as f:
+            f.write("{},{}\n".format(int(time.time()), id))
 
 
 def __table(line: list[str], obj: dict[str, any]):
