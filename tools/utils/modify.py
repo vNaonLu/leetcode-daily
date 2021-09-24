@@ -17,7 +17,7 @@ def remove(path: str):
     try:
         os.remove(path)
     except OSError as e:
-        print("[x] {}".format(e.strerror))
+        print("[x] {}: {}".format(e.strerror, path))
         return False
     else:
         __delete_prompt(path)
