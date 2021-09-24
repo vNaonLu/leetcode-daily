@@ -2039,7 +2039,7 @@ My daily challenge on leetcode since 2021/09/06.
 - [ ] 2000 Reverse Prefix of Word
 </details>
 <details>
-  <summary>### 2001 ~ 2250</summary>
+  <summary>### 2001 ~ 2014</summary>
 
 - [ ] 2001 Number of Pairs of Interchangeable Rectangles
 - [ ] 2002 Maximum Product of the Length of Two Palindromic Subsequences
