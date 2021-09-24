@@ -25,10 +25,11 @@ class LeetCodeQuestion:
         self.__level: str = res_obj['difficulty']
         self.__snippet: str = None
 
-        for snippet in res_obj['codeSnippets']:
-            if snippet['langSlug'] == "cpp":
-                self.__snippet = snippet['code']
-                break
+        if res_obj['codeSnippets'] != None:
+            for snippet in res_obj['codeSnippets']:
+                if snippet['langSlug'] == "cpp":
+                    self.__snippet = snippet['code']
+                    break
 
         self.__desc: list[str] = None
         self.__cons: list[str] = None
