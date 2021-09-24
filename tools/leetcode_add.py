@@ -74,6 +74,10 @@ def __main():
     parser = __parser()
     options, args = parser.parse_args()
 
+    if len(args) == 0:
+        print("[options] id1 id2 ...")
+        return
+
     readme_path = pathlib.Path(options.readme).resolve()
     sour_path = pathlib.Path(options.output).resolve()
     list_csv = pathlib.Path(options.list).resolve()
