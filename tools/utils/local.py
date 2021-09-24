@@ -19,10 +19,10 @@ def solved_question_ids(path: str):
 def question_folders(path: str):
     res: list[int] = []
     for base, paths, _ in os.walk(path):
-        if base != path:
+        if pathlib.PurePath(base) != path:
             continue
         for path in paths:
-            res.append(pathlib.PurePath(path))
+            res.append(path)
     return res
 
 
