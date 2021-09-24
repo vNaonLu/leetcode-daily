@@ -115,9 +115,10 @@ def dellog(path: str, id: int):
     with open(path, "r") as f:
         rows = csv.reader(f, delimiter=',')
         for row in rows:
-            if int(row[1]) != id:
-                contents.append(row)
+            if int(row[1]) == id:
                 modify = True
+            else:
+                contents.append(row)
 
     if modify:
         with open(path, "w") as f:

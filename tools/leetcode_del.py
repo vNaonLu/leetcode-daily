@@ -55,7 +55,7 @@ def __main():
     modify_subunittest: set = set()
     modify_md = False
 
-    for id in args:
+    for id in [int(arg) for arg in args]:
         remove_success = False
         qfile = local.QuestionSource(int(id))
         remove_success |= modify.remove(os.path.join(qfile.src(sour_path)))
