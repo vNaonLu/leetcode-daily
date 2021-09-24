@@ -13,56 +13,31 @@ sour_path = ""
 list_csv = ""
 log_csv = ""
 
-
-class QuestionFile:
-    def __init__(self, id: int):
-        self.__id: str = str(id).zfill(4)
-        self.__intv: str = local.id_folder(id)
-        self.__name: str = "q{}.hpp".format(self.__id)
-        self.__ut_name: str = "q{}_unittest.hpp".format(self.__id)
-        self.__path: str = os.path.join(sour_path, self.__intv)
-
-    def interval(self):
-        return self.__intv
-
-    def id(self):
-        return int(self.__id)
-
-    def src(self):
-        return os.path.join(self.__path, self.__name)
-
-    def unittest(self):
-        return os.path.join(self.__path, self.__ut_name)
-
-    def path(self):
-        return self.__path
-
-
-def __add_question(qfile: QuestionFile, ques: LeetCodeQuestion):
+def __add_question(qfile: local.QuestionSource, ques: LeetCodeQuestion):
     desc = template.question_description(prompt,
                                          ques.id(),
                                          ques.title(),
                                          ques.description(50),
                                          ques.constraints())
 
-    if os.path.exists(qfile.src()):
-        print("[!] file exist: {}".format(qfile.src()))
+    if os.path.exists(qfile.src(sour_path)):
+        print("[!] file exist: {}".format(qfile.src(sour_path)))
         return False
     else:
-        generate.file(qfile.src(),
+        generate.file(qfile.src(sour_path),
                       template.source(qfile.id(),
                                       desc,
                                       ques.code_snippet()))
-        subprocess.run(["open", qfile.src()])
+        subprocess.run(["open", qfile.src(sour_path)])
 
-    if os.path.exists(qfile.unittest()):
-        print("[!] file exist: {}".format(qfile.unittest()))
+    if os.path.exists(qfile.unittest(sour_path)):
+        print("[!] file exist: {}".format(qfile.unittest(sour_path)))
         return False
     else:
-        generate.file(qfile.unittest(),
+        generate.file(qfile.unittest(sour_path),
                       template.unittest(qfile.id(),
                                         desc))
-        subprocess.run(["open", qfile.unittest()])
+        subprocess.run(["open", qfile.unittest(sour_path)])
 
     modify.log(log_csv, qfile.id())
     return True
@@ -113,7 +88,7 @@ def __main():
     modify_md = False
 
     for id in args:
-        qfile = QuestionFile(int(id))
+        qfile = local.QuestionSource(int(id))
         slug = LeetCodeRequest.question_slug(qfile.id())
         if not slug:
             print("[-] question #{} does not exist.".format(qfile.id()))
@@ -124,9 +99,9 @@ def __main():
             print("[-] question #{} needs a premium account.".format(qfile.id()))
             continue
 
-        if not os.path.isdir(qfile.path()):
-            os.makedirs(qfile.path())
-            print("[+] create a directory: {}".format(qfile.path()))
+        if not os.path.isdir(qfile.path(sour_path)):
+            os.makedirs(qfile.path(sour_path))
+            print("[+] create a directory: {}".format(qfile.path(sour_path)))
             modify_mainunittest = True
 
         if __add_question(qfile, ques):

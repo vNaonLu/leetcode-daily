@@ -4,6 +4,29 @@ import math
 import pathlib
 
 
+class QuestionSource:
+    def __init__(self, id: int):
+        self.__id: str = str(id).zfill(4)
+        self.__intv: str = id_folder(id)
+        self.__name: str = "q{}.hpp".format(self.__id)
+        self.__ut_name: str = "q{}_unittest.hpp".format(self.__id)
+
+    def interval(self):
+        return self.__intv
+
+    def id(self):
+        return int(self.__id)
+
+    def src(self, base: str):
+        return os.path.join(self.path(base), self.__name)
+
+    def unittest(self, base: str):
+        return os.path.join(self.path(base), self.__ut_name)
+
+    def path(self, base: str):
+        return os.path.join(base, self.__intv)
+
+
 def solved_question_ids(path: str):
     res: list[int] = []
     for _, _, files in os.walk(path):
