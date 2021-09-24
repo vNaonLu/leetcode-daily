@@ -1,7 +1,8 @@
 import csv
 
 
-def generate_source(path: str, num: int, desc: str):
+def generate_source(path: str, num: int,
+                    desc: str, snippet: str):
     with open(path, "w") as f:
         f.write("\n".join([
             "",
@@ -13,8 +14,7 @@ def generate_source(path: str, num: int, desc: str):
             "using namespace std;",
             "",
             desc,
-            "",
-            "// Put your code here",
+            snippet,
             "}}  // namespace l{}".format(num),
             "#endif",
         ]))

@@ -60,7 +60,7 @@ def add_question(qfile: QuestionFile, ques: LeetCodeQuestion):
         print("[!] file exist: {}".format(src))
         return False
     else:
-        template.generate_source(src, qfile.id(), desc)
+        template.generate_source(src, qfile.id(), desc, ques.code_snippet())
         subprocess.run(["code", src])
 
     if os.path.exists(utsrc):
