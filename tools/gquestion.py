@@ -3,7 +3,6 @@ import sys
 import os
 import pathlib
 import subprocess
-from tools.leetcode import question
 from utils import local, template, modify
 from leetcode import request as LeetCodeRequest
 from leetcode.question import LeetCodeQuestion

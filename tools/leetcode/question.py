@@ -95,7 +95,7 @@ class LeetCodeQuestion:
         if self.__desc == None:
             return None
         if not limit:
-            return "\n".join(self.__desc)
+            return [self.__desc]
         else:
             desc: list[str] = []
             for line in self.__desc:
@@ -118,7 +118,7 @@ class LeetCodeQuestion:
                         char_cnt = 0
                     if i == len(line) - 1 and last != -1:
                         desc.append(line[last:])
-            return "\n".join(desc)
+            return desc
 
     def constraints(self):
         return self.__cons
