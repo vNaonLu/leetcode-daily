@@ -91,6 +91,7 @@ def done_question(path: str, ids: list[int]):
             delimiter=',')
         for row in rows:
             id_map[int(row["id"])] = row
+            id_map[int(row["id"])]["done"] = '0'
 
         if len(ids) > 0:
             for id in ids:
