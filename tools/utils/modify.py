@@ -104,9 +104,9 @@ def done_question(path: str, ids: list[int]):
             __modify_prompt(path)
 
 
-def log(path: str, id: int):
+def log(path: str, id: int, timestamp: int):
     with open(path, "a") as f:
-        f.write("{},{}\n".format(int(time.time()), id))
+        f.write("{},{}\n".format(timestamp, id))
         __modify_prompt(path)
 
 

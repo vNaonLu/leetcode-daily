@@ -5,11 +5,13 @@ import pathlib
 
 
 class QuestionSource:
-    def __init__(self, id: int):
+    def __init__(self, id: int, base: str):
+        base_path = pathlib.Path(base)
         self.__id: str = str(id).zfill(4)
         self.__intv: str = id_folder(id)
-        self.__name: str = "q{}.hpp".format(self.__id)
-        self.__ut_name: str = "q{}_unittest.hpp".format(self.__id)
+        self.__dir: pathlib.Path = base_path.joinpath(self.__intv)
+        self.__src: pathlib.Path = self.__dir.joinpath("q{}.hpp".format(self.__id))
+        self.__unittest: pathlib.Path = self.__dir.joinpath("q{}_unittest.hpp".format(self.__id))
 
     def interval(self):
         return self.__intv
@@ -17,14 +19,14 @@ class QuestionSource:
     def id(self):
         return int(self.__id)
 
-    def src(self, base: str):
-        return os.path.join(self.path(base), self.__name)
+    def src(self):
+        return self.__src
 
-    def unittest(self, base: str):
-        return os.path.join(self.path(base), self.__ut_name)
+    def unittest(self):
+        return self.__unittest
 
-    def path(self, base: str):
-        return os.path.join(base, self.__intv)
+    def path(self):
+        return self.__dir
 
 
 def solved_question_ids(path: str):
