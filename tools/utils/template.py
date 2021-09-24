@@ -34,8 +34,8 @@ def unittest(num: int, desc: str):
 def subunittest(intv: str, files: list[str]):
     return "\n".join([
         "",
-        "#ifndef {}_UNITTEST\n".format(intv.upper()),
-        "#define {}_UNITTEST\n".format(intv.upper()),
+        "#ifndef {}_UNITTEST".format(intv.upper()),
+        "#define {}_UNITTEST".format(intv.upper()),
         ""] + [
         "#include \"{}\"".format(file) for file in files] + [
         "",
