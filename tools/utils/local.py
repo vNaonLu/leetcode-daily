@@ -3,16 +3,15 @@ import re
 import math
 import pathlib
 
-__ques_regex = "q(\d*).hpp"
-
 
 def solved_question_ids(path: str):
     res: list[int] = []
     for _, _, files in os.walk(path):
         for file in files:
-            g = re.search(__ques_regex, file)
+            g = re.search("q(\d*).hpp", file)
             if g is not None:
                 res.append(int(g.group(1)))
+    res.sort()
     return res
 
 
@@ -23,6 +22,7 @@ def question_folders(path: str):
             continue
         for path in paths:
             res.append(path)
+    res.sort(key=lambda p: int(re.search("(\d{1,})", p).group(1)))
     return res
 
 
