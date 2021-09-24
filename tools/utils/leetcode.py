@@ -115,6 +115,12 @@ def __get_problem_content(slug: str):
                 questionTitle
                 content
                 difficulty
+                codeSnippets {
+                    lang
+                    langSlug
+                    code
+                    __typename
+                }
             }
         }'''
     }
@@ -126,6 +132,8 @@ def __get_problem_content(slug: str):
                'Referer': 'https://leetcode.com/problems/' + slug}
     resp = session.post(url, data=json_data,
                         headers=headers, timeout=10).json()
+    print(resp['data'])
+    return None
     return resp['data']['question']
 
 
