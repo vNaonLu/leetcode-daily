@@ -2,7 +2,7 @@ import csv
 
 
 def __generate_prompt(file: str):
-    print("[+] ganerate a file: {}".format(file))
+    print("[+] ganerated a file: {}".format(file))
 
 
 def file(path: str, content: str):

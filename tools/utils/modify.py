@@ -1,11 +1,27 @@
 import time
 import csv
 import re
+import os
 from . import local
 
 
 def __modify_prompt(file: str):
-    print("[+] modify a file: {}".format(file))
+    print("[+] modified a file: {}".format(file))
+
+
+def __delete_prompt(file: str):
+    print("[-] deleted a file: {}".format(file))
+
+
+def remove(path: str):
+    try:
+        os.remove(path)
+    except OSError as e:
+        print("[x] {}".format(e.strerror))
+        return False
+    else:
+        __delete_prompt(path)
+        return True
 
 
 def removesubunittest(path: str, id: int):
@@ -64,7 +80,7 @@ def unittest(path: str, num: int, intv: str):
         __modify_prompt(path)
 
 
-def question_list(path: str, ids: list[int], done: bool = True):
+def done_question(path: str, ids: list[int]):
     id_map: dict[int, dict[str, any]] = {}
 
     with open(path, "r+") as f:
@@ -78,7 +94,7 @@ def question_list(path: str, ids: list[int], done: bool = True):
 
         if len(ids) > 0:
             for id in ids:
-                id_map[id]['done'] = '1' if done else '0'
+                id_map[id]['done'] = '1'
             f.seek(0)
             writer.writeheader()
             writer.writerows([v for _, v in sorted(
