@@ -1,6 +1,8 @@
 #!/usr/bin/python3
 import optparse
+import pathlib
 import subprocess
+import os
 
 
 def __parser():
@@ -23,12 +25,13 @@ def __main():
     options, args = parser.parse_args()
     # if options.add_identify and options.del_identify:
     #     parser.error("options -a and -d are mutually exclusive.")
+    file_path = pathlib.Path(__file__).parent.resolve()
     if options.add_identify:
-        subprocess.run(["python3", "./tools/leetcode_add.py",
-                        "--out", "./src/",
-                        "--readme", "./README.md",
-                        "--question-list", "./src/questions_list.csv",
-                        "--question-log", "./src/logs.csv"] + args)
+        subprocess.run(["python3", os.path.join(file_path, "./tools/leetcode_add.py"),
+                        "--out", os.path.join(file_path, "./src/"),
+                        "--readme", os.path.join(file_path, "./README.md"),
+                        "--question-list", os.path.join(file_path, "./src/questions_list.csv"),
+                        "--question-log", os.path.join(file_path, "./src/logs.csv")] + args)
 
 
 if __name__ == "__main__":

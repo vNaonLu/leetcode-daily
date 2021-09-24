@@ -1,10 +1,9 @@
 #!/usr/bin/python3
-import sys
 import os
 import optparse
 import pathlib
 import subprocess
-from utils import local, template, modify
+from utils import local, template, modify, generate
 from leetcode import request as LeetCodeRequest
 from leetcode.question import LeetCodeQuestion
 
@@ -40,38 +39,32 @@ class QuestionFile:
 
 
 def __add_question(qfile: QuestionFile, ques: LeetCodeQuestion):
-    desc = template.generate_question_description(prompt,
-                                                  ques.id(),
-                                                  ques.title(),
-                                                  ques.description(50),
-                                                  ques.constraints())
-
-    utindex = os.path.join(qfile.path(), "unittest.hpp")
-    if not os.path.isdir(qfile.path()):
-        os.makedirs(qfile.path())
-        print("[+] create directory: {}".format(qfile.path()))
-        template.generate_intv_unittest(utindex, qfile.interval())
-        modify.unittest(os.path.join(
-            sour_path, "unittest.cc"), qfile.id(), qfile.interval())
+    desc = template.question_description(prompt,
+                                         ques.id(),
+                                         ques.title(),
+                                         ques.description(50),
+                                         ques.constraints())
 
     if os.path.exists(qfile.src()):
         print("[!] file exist: {}".format(qfile.src()))
         return False
     else:
-        template.generate_source(qfile.src(), qfile.id(),
-                                 desc, ques.code_snippet())
+        generate.file(qfile.src(),
+                      template.source(qfile.id(),
+                                      desc,
+                                      ques.code_snippet()))
         subprocess.run(["open", qfile.src()])
 
     if os.path.exists(qfile.unittest()):
         print("[!] file exist: {}".format(qfile.unittest()))
         return False
     else:
-        template.generate_unittest(qfile.unittest(), qfile.id(), desc)
+        generate.file(qfile.unittest(),
+                      template.unittest(qfile.id(),
+                                        desc))
         subprocess.run(["open", qfile.unittest()])
 
     modify.log(log_csv, qfile.id())
-    modify.question_list(list_csv, [qfile.id()])
-    modify.subunittest(utindex, os.path.basename(qfile.unittest()))
     return True
 
 
@@ -113,11 +106,11 @@ def __main():
 
     if not os.path.exists(list_csv):
         question_list = LeetCodeRequest.questions()
-        template.generate_question_list(list_csv, question_list)
-        solved = local.solved_question_ids(sour_path)
-        modify.question_list(list_csv, solved)
+        generate.question_list(list_csv, question_list)
 
-    modified_md = False
+    modify_subunittest: set = set()
+    modify_mainunittest = False
+    modify_md = False
 
     for id in args:
         qfile = QuestionFile(int(id))
@@ -131,12 +124,34 @@ def __main():
             print("[-] question #{} needs a premium account.".format(qfile.id()))
             continue
 
+        if not os.path.isdir(qfile.path()):
+            os.makedirs(qfile.path())
+            print("[+] create a directory: {}".format(qfile.path()))
+            modify_mainunittest = True
+
         if __add_question(qfile, ques):
-            modified_md |= True
+            modify_md |= True
+            modify_subunittest.add(qfile.interval())
         else:
             print("[x] Failed to generate Question #{}".format(qfile.id()))
 
-    if modified_md:
+    for subunittest in modify_subunittest:
+        subsrc = os.path.join(sour_path, subunittest)
+        ids = local.solved_question_ids(subsrc)
+        generate.file(os.path.join(sour_path, subunittest, "unittest.hpp"),
+                      template.subunittest(subunittest,
+                                           ["q{}_unittest.hpp".format(str(id).zfill(4)) for id in ids]))
+
+    if modify_mainunittest:
+        folders = local.question_folders(sour_path)
+        generate.file(os.path.join(sour_path, "unittest.cc"),
+                      template.mainunittest([
+                          "{}/unittest.hpp".format(path) for path in folders
+                      ]))
+
+    if modify_md:
+        solved = local.solved_question_ids(sour_path)
+        modify.question_list(list_csv, solved)
         modify.readme(readme_path, list_csv, log_csv)
 
 

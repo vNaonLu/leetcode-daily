@@ -5,12 +5,29 @@ import os
 from . import local
 
 
-def subunittest(path: str, new_file: str):
+def removesubunittest(path: str, id: int):
+    new_contents: list[str] = []
+    modify = False
+    with open(path, "r") as f:
+        content = f.readlines()
+        for i in range(0, len(content)):
+            find = re.search("#include \"q{}.hpp\"", content[i])
+            if find and int(find.group(1)) == id:
+                modify = True
+                continue
+            new_contents.append(content[i])
+
+    if modify:
+        with open(path, "w") as f:
+            f.writelines(new_contents)
+            print("[+] modify file: {}".format(path))
+
+def subunittest(path: str, file_name: str):
     with open(path, "r+") as f:
         content = f.readlines()
         for i in range(0, len(content)):
             if content[i] == "#endif":
-                content.insert(i, "#include \"{}\"\n".format(new_file))
+                content.insert(i, "#include \"{}\"\n".format(file_name))
                 break
         f.seek(0)
         f.writelines(content)
@@ -43,7 +60,7 @@ def unittest(path: str, num: int, intv: str):
         print("[+] modify file: {}".format(path))
 
 
-def question_list(path: str, ids: list[int]):
+def question_list(path: str, ids: list[int], done: bool = True):
     id_map: dict[int, dict[str, any]] = {}
 
     with open(path, "r+") as f:
@@ -57,7 +74,7 @@ def question_list(path: str, ids: list[int]):
 
         if len(ids) > 0:
             for id in ids:
-                id_map[id]['done'] = 1
+                id_map[id]['done'] = '1' if done else '0'
                 print("[+] modify question #{:4} in list".format(id))
             f.seek(0)
             writer.writeheader()
@@ -68,7 +85,7 @@ def question_list(path: str, ids: list[int]):
 
 def log(log: str, id: int):
     if not os.path.exists(log):
-        with open(log, "a") as f:
+        with open(log, "w") as f:
             f.write("date,id")
             f.write("{},{}\n".format(int(time.time()), id))
     else:

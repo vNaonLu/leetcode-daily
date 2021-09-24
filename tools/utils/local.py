@@ -1,6 +1,7 @@
 import os
 import re
 import math
+import pathlib
 
 __ques_regex = "q(\d*).hpp"
 
@@ -12,6 +13,16 @@ def solved_question_ids(path: str):
             g = re.search(__ques_regex, file)
             if g is not None:
                 res.append(int(g.group(1)))
+    return res
+
+
+def question_folders(path: str):
+    res: list[int] = []
+    for base, paths, _ in os.walk(path):
+        if base != path:
+            continue
+        for path in paths:
+            res.append(pathlib.PurePath(path))
     return res
 
 
