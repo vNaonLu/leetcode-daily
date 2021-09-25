@@ -3,8 +3,6 @@ import optparse
 import pathlib
 import subprocess
 import os
-from tools.leetcode.question import LeetCodeQuestion
-from tools.leetcode import request as LeetCodeRequest
 
 
 def __parser():

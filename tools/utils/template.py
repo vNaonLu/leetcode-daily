@@ -1,32 +1,64 @@
-def source(num: int, includes: set[str], desc: str, snippet: str):
-    return "\n".join(["",
-                      "#ifndef LEETCODE_Q{}_H__".format(num),
-                      "#define LEETCODE_Q{}_H__".format(num)] + [
-                      "#include <{}>".format(icd) for icd in includes] + [
-                      "",
-                      "namespace l{} {{".format(num),
-                      "using namespace std;",
-                      "",
-                      desc,
-                      snippet,
-                      "}}  // namespace l{}".format(num),
-                      "#endif"])
+import re
 
 
-def unittest(num: int, desc: str):
+def source(id: int, includes: set[str], desc: str, snippet: str):
     return "\n".join([
         "",
-        "#ifndef Q{}_UNITTEST_H__".format(num),
-        "#define Q{}_UNITTEST_H__".format(num),
-        "#include <gtest/gtest.h>",
+        "#ifndef LEETCODE_Q{}_H__".format(id),
+        "#define LEETCODE_Q{}_H__".format(id)] + [
+        "#include <{}>".format(icd) for icd in includes] + [
         "",
-        "#include \"q{}.hpp\"".format(str(num).zfill(4)),
+        "namespace l{} {{".format(id),
         "using namespace std;",
         "",
         desc,
         "",
-        "TEST(q{}, sample_input01) {{".format(num),
-        "}",
+        snippet,
+        "}}  // namespace l{}".format(id),
+        "",
+        "#endif"])
+
+
+def __unittest_case(id: int, func: str, return_type: str, case: list[list[str]]):
+    if case == None or len(case) == 0:
+        return "\n".join([
+            "",
+            "TEST(q{}, NOT_IMPLEMENT) {{".format(id),
+            "   EXPECT_TRUE(\"NOT IMPLEMENT\")",
+            "}"
+        ])
+    res: list[str] = []
+    test_code: str = "EXPECT_EQ"
+    if re.search("ListNode", return_type):
+        test_code = "EXPECT_LISTNODE_EQ"
+    if re.search("TreeNode", return_type):
+        test_code = "EXPECT_TREENODE_EQ"
+
+    for i in range(0, len(case)):
+        res.append("\n".join([
+            "",
+            "TEST(q{}, sample_input{}) {{".format(id, str(i+1).zfill(2)),
+            "  l{}::Solution solver;".format(id)] + [
+            "  {}".format(line) for line in case[i]] + [
+            "  {}(solver.{}, exp);".format(test_code, func),
+            "}"
+        ]))
+    return "\n".join(res)
+
+
+def unittest(id: int, desc: str, func: str,
+             return_type: str, case: list[list[str]]):
+    return "\n".join([
+        "",
+        "#ifndef Q{}_UNITTEST_H__".format(id),
+        "#define Q{}_UNITTEST_H__".format(id),
+        "#include <gtest/gtest.h>",
+        "",
+        "#include \"q{}.hpp\"".format(str(id).zfill(4)),
+        "using namespace std;",
+        "",
+        desc,
+        __unittest_case(id, func, return_type, case),
         "",
         "#endif"])
 
@@ -58,14 +90,24 @@ def question_description(prompt: str,
                          title: str,
                          desc: list[str],
                          cons: list[str]):
-    return "\n".join([
-        "/**",
-        "  * {}".format(prompt),
-        "  *",
-        "  * {}. {}".format(id, title),
-        "  * " + "\n  * ".join(desc),
-        "  *",
-        "  * Constraints:",
-        "  * " + "\n  * ".join(cons),
-        "  *",
-        "*/"])
+    if desc == None:
+        return "\n".join([
+            "/**",
+            "  * {}".format(prompt),
+            "  *",
+            "  * {}. {}".format(id, title),
+            "  * To unlock the question need a premium account.",
+            "  *",
+            "*/"])
+    else:
+        return "\n".join([
+            "/**",
+            "  * {}".format(prompt),
+            "  *",
+            "  * {}. {}".format(id, title),
+            "  * " + "\n  * ".join(desc),
+            "  *",
+            "  * Constraints:",
+            "  * " + "\n  * ".join(cons),
+            "  *",
+            "*/"])

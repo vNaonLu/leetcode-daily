@@ -34,8 +34,11 @@ def __add_question(qfile: local.QuestionSource, ques: LeetCodeQuestion):
         return False
     else:
         generate.file(qfile.unittest(),
-                      template.unittest(qfile.id(),
-                                        desc))
+                      template.unittest(ques.id(),
+                                        desc, 
+                                        ques.function(),
+                                        ques.return_type(),
+                                        ques.unittest_case()))
         subprocess.run(["open", qfile.unittest()])
 
     return True
