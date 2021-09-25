@@ -13,7 +13,6 @@ using namespace std;
 
 #define NULL_TREENODE std::numeric_limits<int>::min()
 
-int cnt = 0;
 class TreeNode final {
  private:
   bool is_null;
