@@ -19,7 +19,7 @@ class LeetCodeQuestion:
 
     def __init__(self, title_slug: str):
         res_obj = LeetCodeRequest.question_details(title_slug)
-        self.__id: int = int(res_obj['questionId'])
+        self.__id: int = int(res_obj['questionFrontendId'])
         self.__title: str = res_obj['questionTitle']
         self.__slug: str = res_obj['titleSlug']
         self.__level: str = res_obj['difficulty']

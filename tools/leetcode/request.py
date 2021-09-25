@@ -35,7 +35,7 @@ def question_details(ques_slug: str):
         'variables': {'titleSlug': ques_slug},
         'query': '''query getQuestionDetail($titleSlug: String!) {
             question(titleSlug: $titleSlug) {
-                questionId
+                questionFrontendId
                 questionTitle
                 content
                 difficulty
