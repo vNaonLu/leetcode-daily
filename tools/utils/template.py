@@ -1,8 +1,8 @@
-def source(num: int, desc: str, snippet: str):
+def source(num: int, includes: set[str], desc: str, snippet: str):
     return "\n".join(["",
                       "#ifndef LEETCODE_Q{}_H__".format(num),
-                      "#define LEETCODE_Q{}_H__".format(num),
-                      "#include <iostream>",
+                      "#define LEETCODE_Q{}_H__".format(num)] + [
+                      "#include <{}>".format(icd) for icd in includes] + [
                       "",
                       "namespace l{} {{".format(num),
                       "using namespace std;",

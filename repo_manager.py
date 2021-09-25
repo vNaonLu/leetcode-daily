@@ -3,26 +3,28 @@ import optparse
 import pathlib
 import subprocess
 import os
+from tools.leetcode.question import LeetCodeQuestion
+from tools.leetcode import request as LeetCodeRequest
 
 
 def __parser():
     parser = optparse.OptionParser(usage="%prog [options] id1 id2 ...")
     proj_group = optparse.OptionGroup(parser, "Project")
     proj_group.add_option("-a", "--add",
-                      dest="add_identifier",
-                      action="store_true",
-                      default=False,
-                      help="feature to add question and modify README and src automatically with args id.")
+                          dest="add_identifier",
+                          action="store_true",
+                          default=False,
+                          help="feature to add question and modify README and src automatically with args id.")
     proj_group.add_option("-d", "--del",
-                      dest="del_identifier",
-                      action="store_true",
-                      default=False,
-                      help="feature to delete question and modify README and src automatically with args id.")
+                          dest="del_identifier",
+                          action="store_true",
+                          default=False,
+                          help="feature to delete question and modify README and src automatically with args id.")
     proj_group.add_option("-R", "--update-readme",
-                      dest="rdm_identifier",
-                      action="store_true",
-                      default=False,
-                      help="update README.md.")
+                          dest="rdm_identifier",
+                          action="store_true",
+                          default=False,
+                          help="update README.md.")
 
     build_group = optparse.OptionGroup(parser, "Build & Unittest")
     build_group.add_option("-B", "--build",
