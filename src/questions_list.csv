@@ -762,7 +762,7 @@ id,title,level,slug,done
 761,Special Binary String,3,special-binary-string,0
 762,Prime Number of Set Bits in Binary Representation,1,prime-number-of-set-bits-in-binary-representation,0
 763,Partition Labels,2,partition-labels,1
-764,Largest Plus Sign,2,largest-plus-sign,0
+764,Largest Plus Sign,2,largest-plus-sign,1
 765,Couples Holding Hands,3,couples-holding-hands,0
 766,Toeplitz Matrix,1,toeplitz-matrix,0
 767,Reorganize String,2,reorganize-string,0
