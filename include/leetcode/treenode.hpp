@@ -1,12 +1,9 @@
 
 #ifndef TREE_NODE_H__
 #define TREE_NODE_H__
-#include <algorithm>
 #include <initializer_list>
 #include <iostream>
 #include <limits>
-#include <set>
-#include <unordered_map>
 #include <vector>
 
 using namespace std;

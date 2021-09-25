@@ -9,42 +9,26 @@
 #include "q0206.hpp"
 
 using namespace std;
-using l206::Solution;
 
 TEST(q206, sample_input01) {
-  vector<int> i{1, 2, 3, 4, 5};
-  vector<int> e{5, 4, 3, 2, 1};
-  Solution solver;
-
-  auto out = solver.reverseList(ListNode::generate(i));
-  auto exp = ListNode::generate(e);
-  EXPECT_TRUE(ListNode::equal(exp, out));
-  ListNode::release(out);
-  ListNode::release(exp);
+  ListNode *head = ListNode::generate({1, 2, 3, 4, 5});
+  ListNode *exp = ListNode::generate({5, 4, 3, 2, 1});
+  l206::Solution solver;
+  EXPECT_LISTNODE_EQ(solver.reverseList(head) ,exp);
 }
 
 TEST(q206, sample_input02) {
-  vector<int> i{1, 2};
-  vector<int> e{2, 1};
-  Solution solver;
-
-  auto out = solver.reverseList(ListNode::generate(i));
-  auto exp = ListNode::generate(e);
-  EXPECT_TRUE(ListNode::equal(exp, out));
-  ListNode::release(out);
-  ListNode::release(exp);
+  ListNode *head = ListNode::generate({1, 2});
+  ListNode *exp = ListNode::generate({2, 1});
+  l206::Solution solver;
+  EXPECT_LISTNODE_EQ(solver.reverseList(head), exp);
 }
 
 TEST(q206, sample_input03) {
-  vector<int> i{};
-  vector<int> e{};
-  Solution solver;
-
-  auto out = solver.reverseList(ListNode::generate(i));
-  auto exp = ListNode::generate(e);
-  EXPECT_TRUE(ListNode::equal(exp, out));
-  ListNode::release(out);
-  ListNode::release(exp);
+  ListNode *head = ListNode::generate({});
+  ListNode *exp = ListNode::generate({});
+  l206::Solution solver;
+  EXPECT_LISTNODE_EQ(solver.reverseList(head), exp);
 }
 
 #endif

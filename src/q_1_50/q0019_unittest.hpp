@@ -28,33 +28,27 @@ using namespace std;
 #include <vector>
 
 TEST(q19, sample_input01) {
-  auto head = ListNode::generate({1, 2, 3, 4, 5});
+  ListNode *head = ListNode::generate({1, 2, 3, 4, 5});
   int n = 2;
-  auto exp = ListNode::generate({1, 2, 3, 5});
+  ListNode *exp = ListNode::generate({1, 2, 3, 5});
   l19::Solution solver;
-  EXPECT_TRUE(ListNode::equal(solver.removeNthFromEnd(head, n), exp));
-  ListNode::release(head);
-  ListNode::release(exp);
+  EXPECT_LISTNODE_EQ(solver.removeNthFromEnd(head, n), exp);
 }
 
 TEST(q19, sample_input02) {
-  auto head = ListNode::generate({1});
+  ListNode *head = ListNode::generate({1});
   int n = 1;
-  auto exp = ListNode::generate({});
+  ListNode *exp = ListNode::generate({});
   l19::Solution solver;
-  EXPECT_TRUE(ListNode::equal(solver.removeNthFromEnd(head, n), exp));
-  ListNode::release(head);
-  ListNode::release(exp);
+  EXPECT_LISTNODE_EQ(solver.removeNthFromEnd(head, n), exp);
 }
 
 TEST(q19, sample_input03) {
-  auto head = ListNode::generate({1, 2});
+  ListNode *head = ListNode::generate({1, 2});
   int n = 1;
-  auto exp = ListNode::generate({1});
+  ListNode *exp = ListNode::generate({1});
   l19::Solution solver;
-  EXPECT_TRUE(ListNode::equal(solver.removeNthFromEnd(head, n), exp));
-  ListNode::release(head);
-  ListNode::release(exp);
+  EXPECT_LISTNODE_EQ(solver.removeNthFromEnd(head, n), exp);
 }
 
 #endif

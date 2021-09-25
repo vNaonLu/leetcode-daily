@@ -2,7 +2,7 @@
 #ifndef LEETCODE_Q82_H__
 #define LEETCODE_Q82_H__
 #include <iostream>
-#include <leetcode/list_node.hpp>
+#include <leetcode/listnode.hpp>
 
 namespace l82 {
 using namespace std;

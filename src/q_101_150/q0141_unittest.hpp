@@ -35,7 +35,6 @@ TEST(q141, sample_input01) {
   bool exp = true;
   l141::Solution solver;
   EXPECT_EQ(solver.hasCycle(head), exp);
-  ListNode::release(head);
 }
 
 TEST(q141, sample_input02) {
@@ -43,7 +42,6 @@ TEST(q141, sample_input02) {
   bool exp = true;
   l141::Solution solver;
   EXPECT_EQ(solver.hasCycle(head), exp);
-  ListNode::release(head);
 }
 
 TEST(q141, sample_input03) {
@@ -51,7 +49,6 @@ TEST(q141, sample_input03) {
   bool exp = false;
   l141::Solution solver;
   EXPECT_EQ(solver.hasCycle(head), exp);
-  ListNode::release(head);
 }
 
 #endif

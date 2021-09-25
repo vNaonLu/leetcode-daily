@@ -27,18 +27,14 @@ TEST(q82, sample_input01) {
   ListNode *head = ListNode::generate({1, 2, 3, 3, 4, 4, 5});
   ListNode *exp = ListNode::generate({1, 2, 5});
   l82::Solution solver;
-  EXPECT_TRUE(ListNode::equal(solver.deleteDuplicates(head), exp));
-  ListNode::release(head);
-  ListNode::release(exp);
+  EXPECT_LISTNODE_EQ(solver.deleteDuplicates(head), exp);
 }
 
 TEST(q82, sample_input02) {
   ListNode *head = ListNode::generate({1, 1, 1, 2, 3});
   ListNode *exp = ListNode::generate({2, 3});
   l82::Solution solver;
-  EXPECT_TRUE(ListNode::equal(solver.deleteDuplicates(head), exp));
-  ListNode::release(head);
-  ListNode::release(exp);
+  EXPECT_LISTNODE_EQ(solver.deleteDuplicates(head), exp);
 }
 
 #endif
