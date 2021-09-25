@@ -1,12 +1,12 @@
 # This is a basic workflow to help you get started with Actions
 
-name: Test
+name: ExampleTest
 
 on:
   push:
-    branches: [ master ]
+    branches: [master, new-python-tools]
   pull_request:
-    branches: [ master ]
+    branches: [master]
 
   workflow_dispatch:
 
@@ -17,13 +17,15 @@ jobs:
     steps:
       - uses: actions/checkout@v2
 
-      - name: Build
+      - name: Install Requirement
         run: |
-          mkdir build
-          cmake -S . -B build -D CMAKE_BUILD_TYPE=Debug
-          cmake --build build
-        
+          python3 -m pip install -r tools/requirements.txt
 
-      - name: Testing
+      - name: Build Source
         run: |
-          ./build/unittest
+          python3 ./repo_manager.py -B --debug
+
+      - name: Run Unittest
+        run: |
+          python3 ./repo_manager.py -r
+

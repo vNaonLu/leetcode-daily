@@ -7,34 +7,35 @@ import os
 
 def __parser():
     parser = optparse.OptionParser(usage="%prog [options] id1 id2 ...")
-    parser.add_option("-a", "--add",
+    proj_group = optparse.OptionGroup(parser, "Project")
+    proj_group.add_option("-a", "--add",
                       dest="add_identifier",
                       action="store_true",
                       default=False,
                       help="feature to add question and modify README and src automatically with args id.")
-    parser.add_option("-d", "--del",
+    proj_group.add_option("-d", "--del",
                       dest="del_identifier",
                       action="store_true",
                       default=False,
                       help="feature to delete question and modify README and src automatically with args id.")
-    parser.add_option("-R", "--update-readme",
+    proj_group.add_option("-R", "--update-readme",
                       dest="rdm_identifier",
                       action="store_true",
                       default=False,
                       help="update README.md.")
 
-    build_group = optparse.OptionGroup(parser, "** Build & Unittest")
+    build_group = optparse.OptionGroup(parser, "Build & Unittest")
     build_group.add_option("-B", "--build",
                            dest="bud_identifier",
                            action="store_true",
                            default=False,
                            help="feature to build project.")
-    build_group.add_option("-C", "--clean",
+    build_group.add_option("-c", "--clean",
                            dest="cln_identifier",
                            action="store_true",
                            default=False,
                            help="clean the build folder.")
-    build_group.add_option("--run",
+    build_group.add_option("-r", "--run",
                            dest="run_identifier",
                            action="store_true",
                            default=False,
@@ -44,7 +45,13 @@ def __parser():
                            action="store",
                            default="./build",
                            help="the destination to build.")
+    build_group.add_option("--debug",
+                           dest="debug_identifier",
+                           action="store_true",
+                           default=False,
+                           help="build debug mode.")
 
+    parser.add_option_group(proj_group)
     parser.add_option_group(build_group)
     return parser
 
@@ -95,8 +102,12 @@ def __main():
                 ["cmake", "--build", dest.resolve(), "--target", "clean"])
 
         if options.bud_identifier:
-            subprocess.run(
-                ["cmake", "-S", file_path.resolve(), "-B", dest.resolve()])
+            if options.debug_identifier:
+                subprocess.run(
+                    ["cmake", "-S", file_path.resolve(), "-B", dest.resolve(), "-D", "CMAKE_BUILD_TYPE=Debug"])
+            else:
+                subprocess.run(
+                    ["cmake", "-S", file_path.resolve(), "-B", dest.resolve()])
             subprocess.run(
                 ["cmake", "--build", dest.resolve()])
 
