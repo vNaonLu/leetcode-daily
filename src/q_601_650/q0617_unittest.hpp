@@ -18,7 +18,7 @@ using namespace std;
   * two trees into a new binary tree. The merge rule
   * is that if two nodes overlap, then sum node values
   * up as the new value of the merged node. Otherwise,
-  * the NOT null node will be used as the node of the
+  * the NOT NULL_TREENODE node will be used as the node of the
   * new tree.
   * Return the merged tree .
   * “Note:“ The merging process must start from the
@@ -31,21 +31,19 @@ using namespace std;
 */
 
 TEST(q617, sample_input01) {
-  int null = 0;
-  TreeNode *root1 = TreeNode::generate({1, 3, 2, 5}, null),
-           *root2 = TreeNode::generate({2, 1, 3, null, 4, null, 7}, null);
-  TreeNode *exp = TreeNode::generate({3, 4, 5, 5, 4, null, 7}, null);
+  TreeNode *root1 = TreeNode::generate({1, 3, 2, 5}),
+           *root2 = TreeNode::generate({2, 1, 3, NULL_TREENODE, 4, NULL_TREENODE, 7});
+  TreeNode *exp = TreeNode::generate({3, 4, 5, 5, 4, NULL_TREENODE, 7});
   l617::Solution solver;
-  EXPECT_TRUE(TreeNode::equal(solver.mergeTrees(root1, root2), exp));
+  EXPECT_TREENODE_EQ(solver.mergeTrees(root1, root2), exp);
 }
 
 TEST(q617, sample_input02) {
-  int null = 0;
-  TreeNode *root1 = TreeNode::generate({1}, null),
-           *root2 = TreeNode::generate({1, 2}, null);
-  TreeNode *exp = TreeNode::generate({2, 2}, null);
+  TreeNode *root1 = TreeNode::generate({1}),
+           *root2 = TreeNode::generate({1, 2});
+  TreeNode *exp = TreeNode::generate({2, 2});
   l617::Solution solver;
-  EXPECT_TRUE(TreeNode::equal(solver.mergeTrees(root1, root2), exp));
+  EXPECT_TREENODE_EQ(solver.mergeTrees(root1, root2), exp);
 }
 
 #endif

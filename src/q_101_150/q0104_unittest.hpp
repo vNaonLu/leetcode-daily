@@ -24,39 +24,31 @@ using namespace std;
 */
 
 TEST(q104, sample_input01) {
-  int null = -1;
-  TreeNode *root = TreeNode::generate({3, 9, 20, null, null, 15, 7}, null);
+  TreeNode *root = TreeNode::generate({3, 9, 20, NULL_TREENODE, NULL_TREENODE, 15, 7});
   int exp = 3;
   l104::Solution solver;
   EXPECT_EQ(solver.maxDepth(root), exp);
-  TreeNode::release(root);
 }
 
 TEST(q104, sample_input02) {
-  int null = -1;
-  TreeNode *root = TreeNode::generate({1, null, 2}, null);
+  TreeNode *root = TreeNode::generate({1, NULL_TREENODE, 2});
   int exp = 2;
   l104::Solution solver;
   EXPECT_EQ(solver.maxDepth(root), exp);
-  TreeNode::release(root);
 }
 
 TEST(q104, sample_input03) {
-  int null = -1;
-  TreeNode *root = TreeNode::generate({}, null);
+  TreeNode *root = TreeNode::generate({});
   int exp = 0;
   l104::Solution solver;
   EXPECT_EQ(solver.maxDepth(root), exp);
-  TreeNode::release(root);
 }
 
 TEST(q104, sample_input04) {
-  int null = -1;
-  TreeNode *root = TreeNode::generate({0}, null);
+  TreeNode *root = TreeNode::generate({0});
   int exp = 1;
   l104::Solution solver;
   EXPECT_EQ(solver.maxDepth(root), exp);
-  TreeNode::release(root);
 }
 
 #endif

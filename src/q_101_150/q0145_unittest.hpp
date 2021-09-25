@@ -22,48 +22,38 @@ using namespace std;
 */
 
 TEST(q145, sample_input01) {
-  int null = -1;
-  TreeNode *root = TreeNode::generate({1, null, 2, null, null, 3}, null);
+  TreeNode *root = TreeNode::generate({1, NULL_TREENODE, 2, NULL_TREENODE, NULL_TREENODE, 3});
   vector<int> exp = {3, 2, 1};
   l145::Solution solver;
   EXPECT_EQ(solver.postorderTraversal(root), exp);
-  TreeNode::release(root);
 }
 
 TEST(q145, sample_input02) {
-  int null = -1;
-  TreeNode *root = TreeNode::generate({}, null);
+  TreeNode *root = TreeNode::generate({});
   vector<int> exp = {};
   l145::Solution solver;
   EXPECT_EQ(solver.postorderTraversal(root), exp);
-  TreeNode::release(root);
 }
 
 TEST(q145, sample_input03) {
-  int null = -1;
-  TreeNode *root = TreeNode::generate({1}, null);
+  TreeNode *root = TreeNode::generate({1});
   vector<int> exp = {1};
   l145::Solution solver;
   EXPECT_EQ(solver.postorderTraversal(root), exp);
-  TreeNode::release(root);
 }
 
 TEST(q145, sample_input04) {
-  int null = -1;
-  TreeNode *root = TreeNode::generate({1, 2}, null);
+  TreeNode *root = TreeNode::generate({1, 2});
   vector<int> exp = {2, 1};
   l145::Solution solver;
   EXPECT_EQ(solver.postorderTraversal(root), exp);
-  TreeNode::release(root);
 }
 
 TEST(q145, sample_input05) {
-  int null = -1;
-  TreeNode *root = TreeNode::generate({1, null, 2}, null);
+  TreeNode *root = TreeNode::generate({1, NULL_TREENODE, 2});
   vector<int> exp = {2, 1};
   l145::Solution solver;
   EXPECT_EQ(solver.postorderTraversal(root), exp);
-  TreeNode::release(root);
 }
 
 #endif

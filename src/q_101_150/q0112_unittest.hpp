@@ -25,43 +25,35 @@ using namespace std;
 */
 
 TEST(q112, sample_input01) {
-  int null = -1;
-  TreeNode *root = TreeNode::generate({5, 4, 8, 11, null, 13, 4, 7, 2, null, null, null, 1}, null);
+  TreeNode *root = TreeNode::generate({5, 4, 8, 11, NULL_TREENODE, 13, 4, 7, 2, NULL_TREENODE, NULL_TREENODE, NULL_TREENODE, 1});
   int targetSum = 22;
   bool exp = true;
   l112::Solution solver;
   EXPECT_EQ(solver.hasPathSum(root, targetSum), exp);
-  TreeNode::release(root);
 }
 
 TEST(q112, sample_input02) {
-  int null = -1;
-  TreeNode *root = TreeNode::generate({1, 2, 3}, null);
+  TreeNode *root = TreeNode::generate({1, 2, 3});
   int targetSum = 5;
   bool exp = false;
   l112::Solution solver;
   EXPECT_EQ(solver.hasPathSum(root, targetSum), exp);
-  TreeNode::release(root);
 }
 
 TEST(q112, sample_input03) {
-  int null = -1;
-  TreeNode *root = TreeNode::generate({1, 2}, null);
+  TreeNode *root = TreeNode::generate({1, 2});
   int targetSum = 0;
   bool exp = false;
   l112::Solution solver;
   EXPECT_EQ(solver.hasPathSum(root, targetSum), exp);
-  TreeNode::release(root);
 }
 
 TEST(q112, input01) {
-  int null = -1;
-  TreeNode *root = TreeNode::generate({}, null);
+  TreeNode *root = TreeNode::generate({});
   int targetSum = 0;
   bool exp = false;
   l112::Solution solver;
   EXPECT_EQ(solver.hasPathSum(root, targetSum), exp);
-  TreeNode::release(root);
 }
 
 #endif

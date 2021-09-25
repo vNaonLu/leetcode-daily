@@ -2,7 +2,7 @@
 #ifndef LEETCODE_Q235_H__
 #define LEETCODE_Q235_H__
 #include <iostream>
-#include <leetcode/tree_node.hpp>
+#include <leetcode/treenode.hpp>
 
 namespace l235 {
 using namespace std;

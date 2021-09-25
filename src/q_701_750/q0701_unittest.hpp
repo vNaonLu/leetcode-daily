@@ -30,36 +30,27 @@ using namespace std;
 */
 
 TEST(q701, sample_input01) {
-  int null = -1;
-  TreeNode *root = TreeNode::generate({4, 2, 7, 1, 3}, null);
+  TreeNode *root = TreeNode::generate({4, 2, 7, 1, 3});
   int val = 5;
-  TreeNode *exp = TreeNode::generate({4, 2, 7, 1, 3, 5}, null);
+  TreeNode *exp = TreeNode::generate({4, 2, 7, 1, 3, 5});
   l701::Solution solver;
-  EXPECT_TRUE(TreeNode::equal(solver.insertIntoBST(root, val), exp));
-  TreeNode::release(root);
-  TreeNode::release(exp);
+  EXPECT_TREENODE_EQ(solver.insertIntoBST(root, val), exp);
 }
 
 TEST(q701, sample_input02) {
-  int null = -1;
-  TreeNode *root = TreeNode::generate({40, 20, 60, 10, 30, 50, 70}, null);
+  TreeNode *root = TreeNode::generate({40, 20, 60, 10, 30, 50, 70});
   int val = 25;
-  TreeNode *exp = TreeNode::generate({40, 20, 60, 10, 30, 50, 70, null, null, 25}, null);
+  TreeNode *exp = TreeNode::generate({40, 20, 60, 10, 30, 50, 70, NULL_TREENODE, NULL_TREENODE, 25});
   l701::Solution solver;
-  EXPECT_TRUE(TreeNode::equal(solver.insertIntoBST(root, val), exp));
-  TreeNode::release(root);
-  TreeNode::release(exp);
+  EXPECT_TREENODE_EQ(solver.insertIntoBST(root, val), exp);
 }
 
 TEST(q701, sample_input03) {
-  int null = -1;
-  TreeNode *root = TreeNode::generate({4, 2, 7, 1, 3, null, null, null, null, null, null}, null);
+  TreeNode *root = TreeNode::generate({4, 2, 7, 1, 3, NULL_TREENODE, NULL_TREENODE, NULL_TREENODE, NULL_TREENODE, NULL_TREENODE, NULL_TREENODE});
   int val = 5;
-  TreeNode *exp = TreeNode::generate({4, 2, 7, 1, 3, 5}, null);
+  TreeNode *exp = TreeNode::generate({4, 2, 7, 1, 3, 5});
   l701::Solution solver;
-  EXPECT_TRUE(TreeNode::equal(solver.insertIntoBST(root, val), exp));
-  TreeNode::release(root);
-  TreeNode::release(exp);
+  EXPECT_TREENODE_EQ(solver.insertIntoBST(root, val), exp);
 }
 
 #endif

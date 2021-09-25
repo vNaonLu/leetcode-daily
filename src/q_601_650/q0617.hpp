@@ -2,7 +2,7 @@
 #ifndef LEETCODE_Q617_H__
 #define LEETCODE_Q617_H__
 #include <iostream>
-#include <leetcode/tree_node.hpp>
+#include <leetcode/treenode.hpp>
 
 namespace l617 {
 using namespace std;

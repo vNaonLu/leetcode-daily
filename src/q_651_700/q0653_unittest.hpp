@@ -25,53 +25,43 @@ using namespace std;
 */
 
 TEST(q653, sample_input01) {
-  int null = -1;
-  TreeNode *root = TreeNode::generate({5, 3, 6, 2, 4, null, 7}, null);
+  TreeNode *root = TreeNode::generate({5, 3, 6, 2, 4, NULL_TREENODE, 7});
   int k = 9;
   bool exp = true;
   l653::Solution solver;
   EXPECT_EQ(solver.findTarget(root, k), exp);
-  TreeNode::release(root);
 }
 
 TEST(q653, sample_input02) {
-  int null = -1;
-  TreeNode *root = TreeNode::generate({5, 3, 6, 2, 4, null, 7}, null);
+  TreeNode *root = TreeNode::generate({5, 3, 6, 2, 4, NULL_TREENODE, 7});
   int k = 28;
   bool exp = false;
   l653::Solution solver;
   EXPECT_EQ(solver.findTarget(root, k), exp);
-  TreeNode::release(root);
 }
 
 TEST(q653, sample_input03) {
-  int null = -1;
-  TreeNode *root = TreeNode::generate({2, 1, 3}, null);
+  TreeNode *root = TreeNode::generate({2, 1, 3});
   int k = 4;
   bool exp = true;
   l653::Solution solver;
   EXPECT_EQ(solver.findTarget(root, k), exp);
-  TreeNode::release(root);
 }
 
 TEST(q653, sample_input04) {
-  int null = -1;
-  TreeNode *root = TreeNode::generate({2, 1, 3}, null);
+  TreeNode *root = TreeNode::generate({2, 1, 3});
   int k = 1;
   bool exp = false;
   l653::Solution solver;
   EXPECT_EQ(solver.findTarget(root, k), exp);
-  TreeNode::release(root);
 }
 
 TEST(q653, sample_input05) {
-  int null = -1;
-  TreeNode *root = TreeNode::generate({2, 1, 3}, null);
+  TreeNode *root = TreeNode::generate({2, 1, 3});
   int k = 3;
   bool exp = true;
   l653::Solution solver;
   EXPECT_EQ(solver.findTarget(root, k), exp);
-  TreeNode::release(root);
 }
 
 #endif

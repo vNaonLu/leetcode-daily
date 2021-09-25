@@ -22,30 +22,24 @@ using namespace std;
 */
 
 TEST(q102, sample_input01) {
-  int null = -1;
-  TreeNode *root = TreeNode::generate({3, 9, 20, null, null, 15, 7}, null);
+  TreeNode *root = TreeNode::generate({3, 9, 20, NULL_TREENODE, NULL_TREENODE, 15, 7});
   vector<vector<int>> exp = {{3}, {9, 20}, {15, 7}};
   l102::Solution solver;
   EXPECT_EQ(solver.levelOrder(root), exp);
-  TreeNode::release(root);
 }
 
 TEST(q102, sample_input02) {
-  int null = -1;
-  TreeNode *root = TreeNode::generate({1}, null);
+  TreeNode *root = TreeNode::generate({1});
   vector<vector<int>> exp = {{1}};
   l102::Solution solver;
   EXPECT_EQ(solver.levelOrder(root), exp);
-  TreeNode::release(root);
 }
 
 TEST(q102, sample_input03) {
-  int null = -1;
-  TreeNode *root = TreeNode::generate({}, null);
+  TreeNode *root = TreeNode::generate({});
   vector<vector<int>> exp = {};
   l102::Solution solver;
   EXPECT_EQ(solver.levelOrder(root), exp);
-  TreeNode::release(root);
 }
 
 #endif

@@ -23,21 +23,17 @@ using namespace std;
 */
 
 TEST(q101, sample_input01) {
-  int null = -1;
-  TreeNode *root = TreeNode::generate({1, 2, 2, 3, 4, 4, 3}, null);
+  TreeNode *root = TreeNode::generate({1, 2, 2, 3, 4, 4, 3}, NULL_TREENODE);
   bool exp = true;
   l101::Solution solver;
   EXPECT_EQ(solver.isSymmetric(root), exp);
-  TreeNode::release(root);
 }
 
 TEST(q101, sample_input02) {
-  int null = -1;
-  TreeNode *root = TreeNode::generate({1, 2, 2, null, 3, null, 3}, null);
+  TreeNode *root = TreeNode::generate({1, 2, 2, NULL_TREENODE, 3, NULL_TREENODE, 3}, NULL_TREENODE);
   bool exp = false;
   l101::Solution solver;
   EXPECT_EQ(solver.isSymmetric(root), exp);
-  TreeNode::release(root);
 }
 
 #endif

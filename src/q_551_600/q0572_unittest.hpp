@@ -28,25 +28,19 @@ using namespace std;
 */
 
 TEST(q572, sample_input01) {
-  int null = -1;
-  TreeNode *root = TreeNode::generate({3, 4, 5, 1, 2}, null);
-  TreeNode *subRoot = TreeNode::generate({4, 1, 2}, null);
+  TreeNode *root = TreeNode::generate({3, 4, 5, 1, 2});
+  TreeNode *subRoot = TreeNode::generate({4, 1, 2});
   bool exp = true;
   l572::Solution solver;
   EXPECT_EQ(solver.isSubtree(root, subRoot), exp);
-  TreeNode::release(root);
-  TreeNode::release(subRoot);
 }
 
 TEST(q572, sample_input02) {
-  int null = -1;
-  TreeNode *root = TreeNode::generate({3, 4, 5, 1, 2, null, null, null, null, 0}, null);
-  TreeNode *subRoot = TreeNode::generate({4, 1, 2}, null);
+  TreeNode *root = TreeNode::generate({3, 4, 5, 1, 2, NULL_TREENODE, NULL_TREENODE, NULL_TREENODE, NULL_TREENODE, 0});
+  TreeNode *subRoot = TreeNode::generate({4, 1, 2});
   bool exp = false;
   l572::Solution solver;
   EXPECT_EQ(solver.isSubtree(root, subRoot), exp);
-  TreeNode::release(root);
-  TreeNode::release(subRoot);
 }
 
 #endif

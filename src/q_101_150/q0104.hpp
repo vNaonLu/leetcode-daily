@@ -2,7 +2,7 @@
 #ifndef LEETCODE_Q104_H__
 #define LEETCODE_Q104_H__
 #include <iostream>
-#include <leetcode/tree_node.hpp>
+#include <leetcode/treenode.hpp>
 #include <vector>
 
 namespace l104 {

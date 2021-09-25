@@ -15,7 +15,7 @@ using namespace std;
   * (BST) and an integer val .
   * Find the node in the BST that the node';s value
   * equals val and return the subtree rooted with that
-  * node. If such a node does not exist, return null .
+  * node. If such a node does not exist, return NULL_TREENODE .
   *
   * Constraints:
   * - The number of nodes in the tree is in the range [1, 5000] .
@@ -26,25 +26,19 @@ using namespace std;
 */
 
 TEST(q700, sample_input01) {
-  int null = -1;
-  TreeNode *root = TreeNode::generate({4, 2, 7, 1, 3}, null);
+  TreeNode *root = TreeNode::generate({4, 2, 7, 1, 3});
   int val = 2;
-  TreeNode *exp = TreeNode::generate({2, 1, 3}, null);
+  TreeNode *exp = TreeNode::generate({2, 1, 3});
   l700::Solution solver;
-  EXPECT_TRUE(TreeNode::equal(solver.searchBST(root, val), exp));
-  TreeNode::release(root);
-  TreeNode::release(exp);
+  EXPECT_TREENODE_EQ(solver.searchBST(root, val), exp);
 }
 
 TEST(q700, sample_input02) {
-  int null = -1;
-  TreeNode *root = TreeNode::generate({4, 2, 7, 1, 3}, null);
+  TreeNode *root = TreeNode::generate({4, 2, 7, 1, 3});
   int val = 5;
-  TreeNode *exp = TreeNode::generate({}, null);
+  TreeNode *exp = TreeNode::generate({});
   l700::Solution solver;
-  EXPECT_TRUE(TreeNode::equal(solver.searchBST(root, val), exp));
-  TreeNode::release(root);
-  TreeNode::release(exp);
+  EXPECT_TREENODE_EQ(solver.searchBST(root, val), exp);
 }
 
 #endif

@@ -28,21 +28,17 @@ using namespace std;
 */
 
 TEST(q98, sample_input01) {
-  int null = -1;
-  TreeNode *root = TreeNode::generate({2, 1, 3}, null);
+  TreeNode *root = TreeNode::generate({2, 1, 3});
   bool exp = true;
   l98::Solution solver;
   EXPECT_EQ(solver.isValidBST(root), exp);
-  TreeNode::release(root);
 }
 
 TEST(q98, sample_input02) {
-  int null = -1;
-  TreeNode *root = TreeNode::generate({5, 1, 4, null, null, 3, 6}, null);
+  TreeNode *root = TreeNode::generate({5, 1, 4, NULL_TREENODE, NULL_TREENODE, 3, 6});
   bool exp = false;
   l98::Solution solver;
   EXPECT_EQ(solver.isValidBST(root), exp);
-  TreeNode::release(root);
 }
 
 #endif

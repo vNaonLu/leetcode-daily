@@ -2,7 +2,7 @@
 #ifndef LEETCODE_Q572_H__
 #define LEETCODE_Q572_H__
 #include <iostream>
-#include <leetcode/tree_node.hpp>
+#include <leetcode/treenode.hpp>
 
 namespace l572 {
 using namespace std;
