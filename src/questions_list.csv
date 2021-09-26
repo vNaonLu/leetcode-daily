@@ -47,7 +47,7 @@ id,title,level,slug,done
 46,Permutations,2,permutations,1
 47,Permutations II,2,permutations-ii,0
 48,Rotate Image,2,rotate-image,1
-49,Group Anagrams,2,group-anagrams,0
+49,Group Anagrams,2,group-anagrams,1
 50,"Pow(x, n)",2,powx-n,0
 51,N-Queens,3,n-queens,0
 52,N-Queens II,3,n-queens-ii,0
