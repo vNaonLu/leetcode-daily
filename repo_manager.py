@@ -63,6 +63,7 @@ def __parser():
 def __main():
     parser = __parser()
     options, args = parser.parse_args()
+    operation = None
 
     # slug = LeetCodeRequest.question_slug(int(args[0]))
     # if slug:
@@ -86,28 +87,40 @@ def __main():
         if len(args) == 0:
             print("Usage: {} -a id1 id2 ...".format(os.path.basename(__file__)))
             return
-        subprocess.run(["python3", file_path.joinpath("./tools/leetcode_add.py").resolve(),
-                        "--out", file_path.joinpath("./src/").resolve(),
-                        "--question-list", file_path.joinpath(
-                            "./src/questions_list.csv").resolve(),
-                        "--question-log", file_path.joinpath("./src/logs.csv").resolve()] + args)
+        operation = subprocess.run([
+            "python3",
+            file_path.joinpath("./tools/leetcode_add.py").resolve(),
+            "--out",
+            file_path.joinpath("./src/").resolve(),
+            "--question-list",
+            file_path.joinpath("./src/questions_list.csv").resolve(),
+            "--question-log",
+            file_path.joinpath("./src/logs.csv").resolve()] + args)
 
     if options.del_identifier:
         if len(args) == 0:
             print("Usage: {} -d id1 id2 ...".format(os.path.basename(__file__)))
             return
-        subprocess.run(["python3", file_path.joinpath("./tools/leetcode_del.py").resolve(),
-                        "--out", file_path.joinpath("./src/").resolve(),
-                        "--question-list", file_path.joinpath(
-                            "./src/questions_list.csv").resolve(),
-                        "--question-log", file_path.joinpath("./src/logs.csv").resolve()] + args)
+        operation = subprocess.run([
+            "python3",
+            file_path.joinpath("./tools/leetcode_del.py").resolve(),
+            "--out",
+            file_path.joinpath("./src/").resolve(),
+            "--question-list",
+            file_path.joinpath("./src/questions_list.csv").resolve(),
+            "--question-log",
+            file_path.joinpath("./src/logs.csv").resolve()] + args)
 
     if options.rdm_identifier:
-        subprocess.run(["python3", file_path.joinpath("./tools/leetcode_rdm.py").resolve(),
-                        "--out", file_path.joinpath("./README.md").resolve(),
-                        "--question-list", file_path.joinpath(
-                            "./src/questions_list.csv").resolve(),
-                        "--question-log", file_path.joinpath("./src/logs.csv").resolve()] + args)
+        operation = subprocess.run([
+            "python3",
+            file_path.joinpath("./tools/leetcode_rdm.py").resolve(),
+            "--out",
+            file_path.joinpath("./README.md").resolve(),
+            "--question-list",
+            file_path.joinpath("./src/questions_list.csv").resolve(),
+            "--question-log",
+            file_path.joinpath("./src/logs.csv").resolve()] + args)
 
     if options.bud_identifier or options.cln_identifier or options.run_identifier:
         dest = file_path.joinpath(options.build_dest)
@@ -116,33 +129,44 @@ def __main():
             print("[+] create a directory: {}".format(dest))
 
         if options.cln_identifier:
-            subprocess.run(
-                ["cmake", "--build", dest.resolve(), "--target", "clean"])
+            operation = subprocess.run([
+                "cmake",
+                "--build", dest.resolve(),
+                "--target", "clean"])
 
         if options.bud_identifier:
             if options.debug_identifier:
-                subprocess.run(
-                    ["cmake", "-S", file_path.resolve(), "-B", dest.resolve(), "-D", "CMAKE_BUILD_TYPE=Debug"])
+                operation = subprocess.run([
+                    "cmake",
+                    "-S", file_path.resolve(),
+                    "-B", dest.resolve(),
+                    "-D", "CMAKE_BUILD_TYPE=Debug"])
             else:
-                subprocess.run(
-                    ["cmake", "-S", file_path.resolve(), "-B", dest.resolve()])
-            subprocess.run(
-                ["cmake", "--build", dest.resolve()])
+                operation = subprocess.run([
+                    "cmake",
+                    "-S", file_path.resolve(),
+                    "-B", dest.resolve()])
+            operation = subprocess.run([
+                "cmake",
+                "--build", dest.resolve()])
 
         if options.run_identifier:
             excute_file = dest.joinpath("unittest")
             if excute_file.exists():
                 if len(args) == 0:
-                    subprocess.run([excute_file.resolve()])
+                    operation = subprocess.run([excute_file.resolve()])
                 else:
                     filter_arg: list[str] = []
                     for id in [int(n) for n in args]:
                         filter_arg.append("q{}.*".format(id))
-                    subprocess.run(
-                        [excute_file.resolve(), "--gtest_filter={}".format(":".join(filter_arg))])
+                    operation = subprocess.run([
+                        excute_file.resolve(),
+                        "--gtest_filter={}".format(":".join(filter_arg))])
             else:
                 print("[x] you need to build project first.")
 
+    if not operation:
+        print("Usage: {} [options] id1 id2 ...".format(os.path.basename(__file__)))
 
 if __name__ == "__main__":
     __main()
