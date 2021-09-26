@@ -50,7 +50,7 @@ class SolutionAbstract:
     _outputend_identifier: str = "“"
 
     def __init__(self):
-        self._type: str = ""
+        self._type: str = None
         self._name: str = ""
         self._args: dict[str, str] = {}
         self._includes: set[str] = set()
@@ -63,7 +63,7 @@ class SolutionAbstract:
         return self._type
 
     def args(self):
-        return self._args.items()
+        return list(self._args.items())
 
     def includes(self):
         return self._includes
@@ -76,11 +76,37 @@ class SolutionAbstract:
             if re.search(pttn, type):
                 self._includes.add(include)
 
+    def function(self):
+        return "{}({})".format(self.name(),
+                               ", ".join([name for name, _ in self.args()]))
+
+    @staticmethod
+    def _is_known_type(type: str):
+        primitive_pattern = "void|int|char|double|float"
+        stllib_pattern = "vector|map|unoredered_map|set|unoredered_set|stack|queue|string"
+        custom_pattern = "ListNode|TreeNode"
+        single_container_pattern = "(?P<type>\w+)<(?P<val>\w+)>"
+        double_container_pattern = "(?P<type>\w+)<(?P<val1>\w+),[ ]*(?P<val2>\w+)>"
+
+        m_s = re.search(single_container_pattern, type)
+        if m_s:
+            return SolutionAbstract._is_known_type(m_s.group("type")) and \
+                SolutionAbstract._is_known_type(m_s.group("val"))
+        m_d = re.search(double_container_pattern, type)
+        if m_d:
+            return SolutionAbstract._is_known_type(m_d.group("type")) and \
+                SolutionAbstract._is_known_type(m_d.group("val1")) and \
+                SolutionAbstract._is_known_type(m_d.group("val2"))
+        if re.match(primitive_pattern, type):
+            return True
+        elif re.match(stllib_pattern, type):
+            return True
+        elif re.match(custom_pattern, type):
+            return True
+        return False
+
 
 class SolutionFunction(SolutionAbstract):
-    _inpt_pattern = "(?P<name>\w+) = (?P<value>\d+|\[.*\]|\".*\")"
-    _otpt_pattern = "“Output:” (?P<value>.+)"
-
     def __init__(self, code_snippet: list[str]):
         SolutionAbstract.__init__(self)
         self.__parse_codesnippets(code_snippet)
@@ -100,49 +126,67 @@ class SolutionFunction(SolutionAbstract):
 
     def __parse_input(self, input: str):
         inputs: list[str] = []
-        matches = re.findall(self._inpt_pattern, input)
-        for m in matches:
-            name = m[0]
-            value = m[1]
-            arg_type = self._args[name]
+        matches = re.findall("(?P<name>\w+) = (?P<value>\d+|\[[^=]+\]|\"[^=]+\")",
+                             input)
+        for i in range(0, len(matches)):
+            # in order based on function arguments
+            arg_name, arg_type = self.args()[i]
+            value = matches[i][1]
             if arg_type == None:
                 continue
             value = CodePrettifier.argument(arg_type, value)
-            inputs.append("{} {} = {};".format(arg_type, name, value))
+            inputs.append("{} {} = {};".format(arg_type, arg_name, value))
         return inputs
 
     def __parse_output(self, output: str):
-        match = re.search(self._otpt_pattern, output)
-        if match:
-            value = match.group("value")
-            value = CodePrettifier.argument(self._type, value)
-            return "{} exp = {};".format(self._type, value)
+        outputs: list[str] = []
+        if self._type == "void":
+            # assume adjust the first argument
+            _, type = self.args()[0]
+            output = CodePrettifier.argument(type, output)
+            outputs.append("{} exp = {};".format(type, output))
+            outputs.append("solver.{};".format(self.function()))
+        else:
+            output = CodePrettifier.argument(self._type, output)
+            outputs.append("{} exp = {};".format(self._type, output))
+        return outputs
+
+    def __expect_equation(self):
+        expect: list[str] = []
+        eq_arg1 = "solver." + self.function()
+        eq_type = self._type
+
+        if self._type == "void":
+            # assume adjust the first argument
+            name, type = self.args()[0]
+            eq_type = type
+            eq_arg1 = name
+
+        if re.search("ListNode", eq_type):
+            expect.append("EXPECT_LISTNODE_EQ({}, exp);".format(eq_arg1))
+        elif re.search("TreeNode", eq_type):
+            expect.append("EXPECT_TREENODE_EQ({}, exp);".format(eq_arg1))
+        else:
+            expect.append("EXPECT_EQ({}, exp);".format(eq_arg1))
+
+        return expect
 
     def unittest_desc(self, desc: list[str]):
-        case: list[list[str]] = []
-        for i in range(0, len(desc)):
-            if re.search(self._input_identifier, desc[i]):
-                inputs = []
-                outputs = []
-                for j in range(0, len(desc)-i):
-                    if(re.search(self._output_identifier, desc[i+j])):
-                        inputs = desc[i:i+j]
-                        i += j
-                        break
-                for j in range(1, len(desc)-i):
-                    if(re.search(self._outputend_identifier, desc[i+j])):
-                        outputs = desc[i:i+j]
-                        i += j
-                        break
+        res: list[list[str]] = []
+        content = "".join(desc)
+        cases = re.split("Example", content)
 
-                if len(inputs) == 0 or len(outputs) == 0:
-                    continue
-
-                inp = self.__parse_input("".join(inputs))
-                out = self.__parse_output("".join(outputs))
-                if inp and out:
-                    case.append(inp + [out])
-        return case
+        if self._is_known_type(self.type()):
+            for case in cases:
+                m_cas = \
+                    re.search("Input:[^\w]+(?P<in>[\w -=\[\],\"']+)[^\w]+Output:[^\w=-\[\],\"']+(?P<out>[\w -=\[\],\"']+)",
+                              case)
+                if m_cas:
+                    inp = self.__parse_input(m_cas.group("in").strip())
+                    out = self.__parse_output(m_cas.group("out").strip())
+                    eq = self.__expect_equation()
+                    res.append(inp + out + eq)
+        return res
 
 
 class SolutionStructure(SolutionAbstract):
@@ -172,7 +216,7 @@ class LeetCodeQuestion:
     __remove = ["</?p>", "</?ul>", "</?ol>", "</li>", "<img.*/>"]
     __replace = [["&nbsp;", ""], ["&quot;", '"'], ["&lt;", "<"], ["&gt;", ">"],
                  ["&le;", "≤"], ["&ge;", "≥"],
-                 ["<sup>", "^("], ["</sup>", ")"], ["&#39", "'"],
+                 ["<sup>", "^("], ["</sup>", ")"], ["&#39;", "'"],
                  ["<sub>", "⎽("], ["</sub>", ")"],
                  ["<b>", " “"], ["</b>", "” "],
                  ["&times;", "x"], ["&ldquo;", "“"], ["&rdquo;", "”"],
@@ -304,9 +348,7 @@ class LeetCodeQuestion:
         return self.__slttmp.includes()
 
     def function(self):
-        return "{}({})".format(
-            self.__slttmp.name(),
-            ", ".join([name for name, _ in self.__slttmp.args()]))
+        return self.__slttmp.function()
 
     def return_type(self):
         return self.__slttmp.type()

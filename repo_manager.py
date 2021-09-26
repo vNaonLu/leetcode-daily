@@ -4,6 +4,10 @@ import pathlib
 import subprocess
 import os
 
+# from tools.leetcode import request as LeetCodeRequest
+# from tools.leetcode.question import LeetCodeQuestion
+# from tools.utils import template
+
 
 def __parser():
     parser = optparse.OptionParser(usage="%prog [options] id1 id2 ...")
@@ -59,6 +63,20 @@ def __parser():
 def __main():
     parser = __parser()
     options, args = parser.parse_args()
+
+    # slug = LeetCodeRequest.question_slug(int(args[0]))
+    # if slug:
+    #     q = LeetCodeQuestion(slug)
+    #     desc = template.question_description("TEST prmpt", q.id(), q.title(),
+    #                                          q.description(50), q.constraints())
+
+    #     print(template.source(q.id(), q.includes(), desc, q.code_snippet()))
+    #     print()
+    #     print("============================")
+    #     print()
+    #     print(template.unittest(q.id(), desc, q.unittest_case()))
+
+    # return
 
     if options.add_identifier and options.del_identifier:
         parser.error("options --add and --del are mutually exclusive.")

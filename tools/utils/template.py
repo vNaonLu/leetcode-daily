@@ -6,7 +6,7 @@ def source(id: int, includes: set[str], desc: str, snippet: str):
         "",
         "#ifndef LEETCODE_Q{}_H__".format(id),
         "#define LEETCODE_Q{}_H__".format(id)] + [
-        "#include <{}>".format(icd) for icd in includes] + [
+        "#include <{}>".format(icd) for icd in sorted(includes)] + [
         "",
         "namespace l{} {{".format(id),
         "using namespace std;",
@@ -19,7 +19,7 @@ def source(id: int, includes: set[str], desc: str, snippet: str):
         "#endif"])
 
 
-def __unittest_case(id: int, func: str, return_type: str, case: list[list[str]]):
+def __unittest_case(id: int, case: list[list[str]]):
     if case == None or len(case) == 0:
         return "\n".join([
             "",
@@ -28,26 +28,17 @@ def __unittest_case(id: int, func: str, return_type: str, case: list[list[str]])
             "}"
         ])
     res: list[str] = []
-    test_code: str = "EXPECT_EQ"
-    if re.search("ListNode", return_type):
-        test_code = "EXPECT_LISTNODE_EQ"
-    if re.search("TreeNode", return_type):
-        test_code = "EXPECT_TREENODE_EQ"
-
     for i in range(0, len(case)):
         res.append("\n".join([
             "",
             "TEST(q{}, sample_input{}) {{".format(id, str(i+1).zfill(2)),
             "  l{}::Solution solver;".format(id)] + [
             "  {}".format(line) for line in case[i]] + [
-            "  {}(solver.{}, exp);".format(test_code, func),
-            "}"
-        ]))
+            "}"]))
     return "\n".join(res)
 
 
-def unittest(id: int, desc: str, func: str,
-             return_type: str, case: list[list[str]]):
+def unittest(id: int, desc: str, case: list[list[str]]):
     return "\n".join([
         "",
         "#ifndef Q{}_UNITTEST_H__".format(id),
@@ -58,7 +49,7 @@ def unittest(id: int, desc: str, func: str,
         "using namespace std;",
         "",
         desc,
-        __unittest_case(id, func, return_type, case),
+        __unittest_case(id, case),
         "",
         "#endif"])
 
