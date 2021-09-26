@@ -138,7 +138,7 @@ My daily challenge on leetcode since 2021/09/06.
 - [ ] 0127 Word Ladder
 - [ ] 0128 Longest Consecutive Sequence
 - [ ] 0129 Sum Root to Leaf Numbers
-- [ ] 0130 Surrounded Regions
+- [x] 0130 [Surrounded Regions](src/q_101_150/q0130.hpp)
 - [ ] 0131 Palindrome Partitioning
 - [ ] 0132 Palindrome Partitioning II
 - [ ] 0133 Clone Graph
@@ -2062,7 +2062,7 @@ My daily challenge on leetcode since 2021/09/06.
 
 |Date|File|#|Question Title|Difficulty|
 |:-:|:-:|--:|:--|:--|
-|20210926<br>|[📄](src/q_1051_1100/q1091.hpp)|1091|[Shortest Path in Binary Matrix](https://leetcode.com/problems/shortest-path-in-binary-matrix/)|Medium|
+|20210926<br><br>|[📄](src/q_101_150/q0130.hpp)<br>[📄](src/q_1051_1100/q1091.hpp)|130<br>1091|[Surrounded Regions](https://leetcode.com/problems/surrounded-regions/)<br>[Shortest Path in Binary Matrix](https://leetcode.com/problems/shortest-path-in-binary-matrix/)|Medium<br>Medium|
 |20210925<br><br><br><br><br>|[📄](src/q_101_150/q0117.hpp)<br>[📄](src/q_251_300/q0290.hpp)<br>[📄](src/q_551_600/q0572.hpp)<br>[📄](src/q_751_800/q0763.hpp)<br>[📄](src/q_1251_1300/q1293.hpp)|117<br>290<br>572<br>763<br>1293|[Populating Next Right Pointers in Each Node II](https://leetcode.com/problems/populating-next-right-pointers-in-each-node-ii/)<br>[Word Pattern](https://leetcode.com/problems/word-pattern/)<br>[Subtree of Another Tree](https://leetcode.com/problems/subtree-of-another-tree/)<br>[Partition Labels](https://leetcode.com/problems/partition-labels/)<br>[Shortest Path in a Grid with Obstacles Elimination](https://leetcode.com/problems/shortest-path-in-a-grid-with-obstacles-elimination/)|Medium<br>Easy<br>Easy<br>Medium<br>Hard|
 |20210924<br><br><br><br><br>|[📄](src/q_151_200/q0200.hpp)<br>[📄](src/q_401_450/q0409.hpp)<br>[📄](src/q_401_450/q0415.hpp)<br>[📄](src/q_501_550/q0547.hpp)<br>[📄](src/q_1101_1150/q1137.hpp)|200<br>409<br>415<br>547<br>1137|[Number of Islands](https://leetcode.com/problems/number-of-islands/)<br>[Longest Palindrome](https://leetcode.com/problems/longest-palindrome/)<br>[Add Strings](https://leetcode.com/problems/add-strings/)<br>[Number of Provinces](https://leetcode.com/problems/number-of-provinces/)<br>[N-th Tribonacci Number](https://leetcode.com/problems/n-th-tribonacci-number/)|Medium<br>Easy<br>Easy<br>Medium<br>Easy|
 |20210923<br><br><br><br><br><br><br>|[📄](src/q_201_250/q0209.hpp)<br>[📄](src/q_201_250/q0238.hpp)<br>[📄](src/q_301_350/q0334.hpp)<br>[📄](src/q_401_450/q0438.hpp)<br>[📄](src/q_551_600/q0560.hpp)<br>[📄](src/q_701_750/q0713.hpp)<br>[📄](src/q_1301_1350/q1328.hpp)|209<br>238<br>334<br>438<br>560<br>713<br>1328|[Minimum Size Subarray Sum](https://leetcode.com/problems/minimum-size-subarray-sum/)<br>[Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/)<br>[Increasing Triplet Subsequence](https://leetcode.com/problems/increasing-triplet-subsequence/)<br>[Find All Anagrams in a String](https://leetcode.com/problems/find-all-anagrams-in-a-string/)<br>[Subarray Sum Equals K](https://leetcode.com/problems/subarray-sum-equals-k/)<br>[Subarray Product Less Than K](https://leetcode.com/problems/subarray-product-less-than-k/)<br>[Break a Palindrome](https://leetcode.com/problems/break-a-palindrome/)|Medium<br>Medium<br>Medium<br>Medium<br>Medium<br>Medium<br>Medium|
