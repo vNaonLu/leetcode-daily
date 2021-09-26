@@ -2,8 +2,45 @@ import re
 from . import request as LeetCodeRequest
 
 
+class CodePrettifier:
+    @staticmethod
+    def argument(type: str, value: str):
+        m_vec = re.search("vector<(?P<typ>.+)>", type)
+        m_chr = re.search("char", type)
+        m_lst = re.search("ListNode", type)
+        m_trn = re.search("TreeNode", type)
+        if m_vec:
+            m_typ = m_vec.group("typ")
+            m_val = re.search("\[(?P<val>.*)\]", value)
+            m_val = m_val if m_val == None else m_val.group("val")
+            if m_val:
+                elm = re.findall("(\[[\w\"\',]*\]|[\w\"']+)", m_val)
+                val_in_vec = [CodePrettifier.argument(m_typ, e) for e in elm]
+                value = "{{{}}}".format(", ".join(val_in_vec))
+
+        elif m_chr:
+            value = re.sub("\"", "'", value)
+
+        elif m_lst:
+            m_val = re.search("\[(?P<val>[\w,]*)\]", value)
+            m_val = m_val if m_val == None else m_val.group("val")
+            if m_val:
+                m_val = re.sub(",", ", ", m_val)
+                value = "ListNode::generate({{{}}})".format(m_val)
+
+        elif m_trn:
+            m_val = re.search("\[(?P<val>[\w,]*)\]", value)
+            m_val = m_val if m_val == None else m_val.group("val")
+            if m_val:
+                m_val = re.sub(",", ", ", m_val)
+                m_val = re.sub("null", "NULL_TREENODE", m_val)
+                value = "TreeNode::generate({{{}}})".format(m_val)
+
+        return value
+
+
 class SolutionAbstract:
-    _func_pattern: str = "(?P<return_type>[\w<>*]+) +(?P<functionName>\w*)\((?P<args>.*)\) {"
+    _func_pattern: str = "(?P<return_type>[\w<>*]+) +(?P<function_name>\w*)\((?P<args>.*)\) {"
     _args_pattern: str = "(?P<type>[\w<>*]+)&{0,1} +(?P<name>[\w]+)"
     _type_pattern: list[str, str] = [("ListNode", "leetcode/listnode.hpp"), ("TreeNode", "leetcode/treenode.hpp"),
                                      ("vector", "vector"), ("map", "map"),
@@ -52,15 +89,14 @@ class SolutionFunction(SolutionAbstract):
         for line in code_snippet:
             match = re.search(self._func_pattern, line)
             if match:
-                self._name = match.group("functionName")
+                self._name = match.group("function_name")
                 self._type = match.group("return_type")
                 self._parse_type(self._type)
                 args = match.group("args").split(",")
                 for arg in args:
-                    arg_match = re.search(self._args_pattern, arg)
-                    self._parse_type(arg_match.group("type"))
-                    self._args[arg_match.group(
-                        "name")] = arg_match.group("type")
+                    m_arg = re.search(self._args_pattern, arg)
+                    self._parse_type(m_arg.group("type"))
+                    self._args[m_arg.group("name")] = m_arg.group("type")
 
     def __parse_input(self, input: str):
         inputs: list[str] = []
@@ -71,27 +107,7 @@ class SolutionFunction(SolutionAbstract):
             arg_type = self._args[name]
             if arg_type == None:
                 continue
-            if re.search("vector", arg_type):
-                value = re.sub(" ", "", value)
-                value = re.sub(",", ", ", value)
-                value = re.sub("\[", "{", value)
-                value = re.sub("\]", "}", value)
-
-            if re.search("ListNode", arg_type):
-                value = re.sub(" ", "", value)
-                value = re.sub(",", ", ", value)
-                value = re.sub("\[", "{", value)
-                value = re.sub("\]", "}", value)
-                value = "ListNode::generate({})".format(value)
-
-            if re.search("TreeNode", arg_type):
-                value = re.sub(" ", "", value)
-                value = re.sub(",", ", ", value)
-                value = re.sub("null", "NULL_TREENODE", value)
-                value = re.sub("\[", "{", value)
-                value = re.sub("\]", "}", value)
-                value = "TreeNode::generate({})".format(value)
-
+            value = CodePrettifier.argument(arg_type, value)
             inputs.append("{} {} = {};".format(arg_type, name, value))
         return inputs
 
@@ -99,27 +115,7 @@ class SolutionFunction(SolutionAbstract):
         match = re.search(self._otpt_pattern, output)
         if match:
             value = match.group("value")
-            if re.search("vector", self._type):
-                value = re.sub(" ", "", value)
-                value = re.sub(",", ", ", value)
-                value = re.sub("\[", "{", value)
-                value = re.sub("\]", "}", value)
-
-            if re.search("ListNode", self._type):
-                value = re.sub(" ", "", value)
-                value = re.sub(",", ", ", value)
-                value = re.sub("\[", "{", value)
-                value = re.sub("\]", "}", value)
-                value = "ListNode::generate({})".format(value)
-
-            if re.search("TreeNode", self._type):
-                value = re.sub(" ", "", value)
-                value = re.sub(",", ", ", value)
-                value = re.sub("null", "NULL_TREENODE", value)
-                value = re.sub("\[", "{", value)
-                value = re.sub("\]", "}", value)
-                value = "TreeNode::generate({})".format(value)
-
+            value = CodePrettifier.argument(self._type, value)
             return "{} exp = {};".format(self._type, value)
 
     def unittest_desc(self, desc: list[str]):
@@ -204,9 +200,12 @@ class LeetCodeQuestion:
             for snippet in code_snippets:
                 if snippet['langSlug'] == "cpp":
                     self.__snippet = re.sub("  ", " ", snippet['code'])
-                    self.__snippet = re.sub("public:", " public:", self.__snippet)
-                    self.__snippet = re.sub("private:", " private:", self.__snippet)
-                    self.__snippet = re.sub("protected:", " protected:", self.__snippet)
+                    self.__snippet = re.sub(
+                        "public:", " public:", self.__snippet)
+                    self.__snippet = re.sub(
+                        "private:", " private:", self.__snippet)
+                    self.__snippet = re.sub(
+                        "protected:", " protected:", self.__snippet)
                     # to google style
                     self.__slttmp = Solution.generate_template(self.__snippet)
                     break
@@ -307,7 +306,7 @@ class LeetCodeQuestion:
     def function(self):
         return "{}({})".format(
             self.__slttmp.name(),
-            ", ".join([name for name , _ in self.__slttmp.args()]))
+            ", ".join([name for name, _ in self.__slttmp.args()]))
 
     def return_type(self):
         return self.__slttmp.type()

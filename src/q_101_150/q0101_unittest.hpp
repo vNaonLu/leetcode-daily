@@ -23,14 +23,14 @@ using namespace std;
 */
 
 TEST(q101, sample_input01) {
-  TreeNode *root = TreeNode::generate({1, 2, 2, 3, 4, 4, 3}, NULL_TREENODE);
+  TreeNode *root = TreeNode::generate({1, 2, 2, 3, 4, 4, 3});
   bool exp = true;
   l101::Solution solver;
   EXPECT_EQ(solver.isSymmetric(root), exp);
 }
 
 TEST(q101, sample_input02) {
-  TreeNode *root = TreeNode::generate({1, 2, 2, NULL_TREENODE, 3, NULL_TREENODE, 3}, NULL_TREENODE);
+  TreeNode *root = TreeNode::generate({1, 2, 2, NULL_TREENODE, 3, NULL_TREENODE, 3});
   bool exp = false;
   l101::Solution solver;
   EXPECT_EQ(solver.isSymmetric(root), exp);
