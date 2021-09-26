@@ -795,7 +795,7 @@ id,title,level,slug,done
 794,Valid Tic-Tac-Toe State,2,valid-tic-tac-toe-state,0
 795,Number of Subarrays with Bounded Maximum,2,number-of-subarrays-with-bounded-maximum,0
 796,Rotate String,1,rotate-string,0
-797,All Paths From Source to Target,2,all-paths-from-source-to-target,0
+797,All Paths From Source to Target,2,all-paths-from-source-to-target,1
 798,Smallest Rotation with Highest Score,3,smallest-rotation-with-highest-score,0
 799,Champagne Tower,2,champagne-tower,0
 800,Similar RGB Color,1,similar-rgb-color,0
