@@ -12,6 +12,7 @@
 #include "q0033_unittest.hpp"
 #include "q0034_unittest.hpp"
 #include "q0036_unittest.hpp"
+#include "q0043_unittest.hpp"
 #include "q0046_unittest.hpp"
 #include "q0048_unittest.hpp"
 #include "q0049_unittest.hpp"
