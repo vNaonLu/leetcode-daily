@@ -780,7 +780,7 @@ id,title,level,slug,done
 779,K-th Symbol in Grammar,2,k-th-symbol-in-grammar,0
 780,Reaching Points,3,reaching-points,0
 781,Rabbits in Forest,2,rabbits-in-forest,0
-782,Transform to Chessboard,3,transform-to-chessboard,0
+782,Transform to Chessboard,3,transform-to-chessboard,1
 783,Minimum Distance Between BST Nodes,1,minimum-distance-between-bst-nodes,0
 784,Letter Case Permutation,2,letter-case-permutation,1
 785,Is Graph Bipartite?,2,is-graph-bipartite,0
