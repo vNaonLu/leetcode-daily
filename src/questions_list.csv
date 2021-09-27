@@ -76,7 +76,7 @@ id,title,level,slug,done
 75,Sort Colors,2,sort-colors,1
 76,Minimum Window Substring,3,minimum-window-substring,0
 77,Combinations,2,combinations,1
-78,Subsets,2,subsets,0
+78,Subsets,2,subsets,1
 79,Word Search,2,word-search,0
 80,Remove Duplicates from Sorted Array II,2,remove-duplicates-from-sorted-array-ii,0
 81,Search in Rotated Sorted Array II,2,search-in-rotated-sorted-array-ii,0
