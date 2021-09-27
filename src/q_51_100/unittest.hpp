@@ -13,6 +13,7 @@
 #include "q0082_unittest.hpp"
 #include "q0083_unittest.hpp"
 #include "q0088_unittest.hpp"
+#include "q0090_unittest.hpp"
 #include "q0094_unittest.hpp"
 #include "q0098_unittest.hpp"
 

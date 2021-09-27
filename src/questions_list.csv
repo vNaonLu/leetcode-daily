@@ -88,7 +88,7 @@ id,title,level,slug,done
 87,Scramble String,3,scramble-string,0
 88,Merge Sorted Array,1,merge-sorted-array,1
 89,Gray Code,2,gray-code,0
-90,Subsets II,2,subsets-ii,0
+90,Subsets II,2,subsets-ii,1
 91,Decode Ways,2,decode-ways,0
 92,Reverse Linked List II,2,reverse-linked-list-ii,0
 93,Restore IP Addresses,2,restore-ip-addresses,0
