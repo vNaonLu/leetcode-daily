@@ -37,12 +37,13 @@ def __main():
     readme_path = pathlib.Path(options.readme).resolve()
     list_csv = pathlib.Path(options.list).resolve()
     log_csv = pathlib.Path(options.log).resolve()
-    
 
     if not os.path.exists(list_csv):
-        pmt.show(pmt.fail("The question list is not found in: {}".format(list_csv)))
+        pmt.show(pmt.fail("The question list is not found in: {}".format(list_csv),
+                          "x"))
     elif not os.path.exists(log_csv):
-        pmt.show(pmt.fail("The log file is not found in: {}".format(log_csv)))
+        pmt.show(pmt.fail("The log file is not found in: {}".format(log_csv),
+                          "x"))
     else:
         modify.readme(readme_path, list_csv, log_csv)
 

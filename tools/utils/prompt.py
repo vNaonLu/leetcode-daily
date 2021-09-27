@@ -9,12 +9,12 @@ def show(pmt: str):
     print(pmt)
 
 
-def succ(prompt: str):
-    return "\033[32m[+]\033[0m {}".format(prompt)
+def succ(prompt: str, syb: str = "+"):
+    return "\033[32m[{}]\033[0m {}".format(syb, prompt)
 
 
-def fail(prompt: str):
-    return "\033[31m[-]\033[0m {}".format(prompt)
+def fail(prompt: str, syb: str):
+    return "\033[31m[{}]\033[0m {}".format(syb, prompt)
 
 
 class _LoadingPmt:

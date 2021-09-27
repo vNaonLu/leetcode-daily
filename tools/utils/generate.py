@@ -3,7 +3,8 @@ from . import prompt as pmt
 
 
 def __generate_prompt(file: str):
-    pmt.show(pmt.succ("The file has been created : {}".format(file)))
+    pmt.show(pmt.succ("The file has been created : {}".format(file),
+                      "+"))
 
 
 def file(path: str, content: str):

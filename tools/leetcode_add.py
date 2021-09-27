@@ -15,14 +15,16 @@ def __add_question(qfile: local.QuestionSource, ques: LeetCodeQuestion):
                              70)
 
     if os.path.exists(qfile.src()):
-        pmt.show(pmt.fail("The file has already exist: {}".format(qfile.src())))
+        pmt.show(pmt.fail("The file has already exist: {}".format(qfile.src()),
+                          "!"))
         return False
     else:
         generate.file(qfile.src(), src)
         subprocess.run(["open", qfile.src()])
 
     if os.path.exists(qfile.unittest()):
-        pmt.show(pmt.fail("The file has already exist: {}".format(qfile.unittest())))
+        pmt.show(pmt.fail("The file has already exist: {}".format(qfile.unittest()),
+                          "!"))
         return False
     else:
         generate.file(qfile.unittest(), uts)
@@ -81,17 +83,21 @@ def __main():
         slug = LeetCodeRequest.question_slug(qfile.id())
         if slug == None:
             pmt.recieve(
-                pmt.fail("There is no question with id {}!".format(id)))
+                pmt.fail("There is no question with id {}!".format(id), "x"))
             continue
-        pmt.recieve(pmt.succ("Successfully get the slug \"{}\".".format(slug)))
+        pmt.recieve(pmt.succ("Successfully get the slug \"{}\".".format(slug),
+                             "v"))
         pmt.pending("Requesting a details of question \"{}\"...".format(slug))
         ques = LeetCodeQuestion(slug)
         pmt.recieve(
-            pmt.succ("Successfully received the details \"{}\".".format(slug)))
+            pmt.succ("Successfully received the details \"{}\".".format(slug),
+                     "v"))
 
         if not os.path.isdir(qfile.path()):
             os.makedirs(qfile.path())
-            pmt.show(pmt.succ("The directory has been created: {}".format(qfile.path())))
+            pmt.show(
+                pmt.succ("The directory has been created: {}".format(qfile.path()),
+                         "+"))
             modify_mainunittest = True
 
         if __add_question(qfile, ques):
@@ -99,7 +105,8 @@ def __main():
             modify_subunittest.add(qfile.interval())
             question_added = True
         else:
-            pmt.show(pmt.fail("Failed to generate question #{}".format(qfile.id())))
+            pmt.show(
+                pmt.fail("Failed to generate question #{}".format(qfile.id()), "x"))
 
     for subunittest in modify_subunittest:
         subsrc = os.path.join(sour_path, subunittest)

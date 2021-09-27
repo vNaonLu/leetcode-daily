@@ -6,18 +6,20 @@ from . import local, prompt as pmt
 
 
 def __modify_prompt(file: str):
-    pmt.show(pmt.succ("The file has been modified: {}".format(file)))
+    pmt.show(pmt.succ("The file has been modified: {}".format(file),
+                      "+"))
 
 
 def __delete_prompt(file: str):
-    pmt.show(pmt.succ("The file has been deleted : {}".format(file)))
+    pmt.show(pmt.succ("The file has been deleted : {}".format(file),
+                      "-"))
 
 
 def remove(path: str):
     try:
         os.remove(path)
     except OSError as e:
-        pmt.show(pmt.fail("{}: {}".format(e.strerror, path)))
+        pmt.show(pmt.fail("{}: {}".format(e.strerror, path), "x"))
         return False
     else:
         __delete_prompt(path)
