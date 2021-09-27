@@ -927,7 +927,7 @@ id,title,level,slug,done
 926,Flip String to Monotone Increasing,2,flip-string-to-monotone-increasing,0
 927,Three Equal Parts,3,three-equal-parts,0
 928,Minimize Malware Spread II,3,minimize-malware-spread-ii,0
-929,Unique Email Addresses,1,unique-email-addresses,0
+929,Unique Email Addresses,1,unique-email-addresses,1
 930,Binary Subarrays With Sum,2,binary-subarrays-with-sum,0
 931,Minimum Falling Path Sum,2,minimum-falling-path-sum,0
 932,Beautiful Array,2,beautiful-array,0
