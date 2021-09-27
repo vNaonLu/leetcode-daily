@@ -452,13 +452,11 @@ class LeetCodeQuestion:
         if self.__slttmp.isanyorder():
             addition_include.append("#include <leetcode/anyorder.hpp>")
             addition_include.append("")
-        addition_include.append("")
         return "\n".join([
             "",
             "#ifndef Q{}_UNITTEST_H__".format(self.id()),
             "#define Q{}_UNITTEST_H__".format(self.id()),
             "#include <gtest/gtest.h>",
-            "",
             "\n".join(addition_include),
             "#include \"q{}.hpp\"".format(str(self.id()).zfill(4)),
             "using namespace std;",
