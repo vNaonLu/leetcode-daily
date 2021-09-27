@@ -15,7 +15,7 @@ class CodePrettifier:
             m_val = m_val if m_val == None else m_val.group("val")
             if m_val != None:
                 elm = \
-                    re.findall("(\[[\w\"\',]*\]|\"[\w.+@,]+\"|[\d.]+)",
+                    re.findall("(\[[\w\"\',]*\]|\"[^\n]+?\"|[\d.]+)",
                                m_val)
                 val_in_vec = [CodePrettifier.argument(m_typ, e) for e in elm]
                 value = "{{{}}}".format(", ".join(val_in_vec))
