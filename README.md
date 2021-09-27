@@ -195,7 +195,7 @@ My daily challenge on leetcode since 2021/09/06.
 - [ ] 0184 Department Highest Salary
 - [ ] 0185 Department Top Three Salaries
 - [ ] 0186 Reverse Words in a String II
-- [ ] 0187 Repeated DNA Sequences
+- [x] 0187 [Repeated DNA Sequences](src/q_151_200/q0187.hpp)
 - [ ] 0188 Best Time to Buy and Sell Stock IV
 - [x] 0189 [Rotate Array](src/q_151_200/q0189.hpp)
 - [x] 0190 [Reverse Bits](src/q_151_200/q0190.hpp)
@@ -2062,7 +2062,7 @@ My daily challenge on leetcode since 2021/09/06.
 
 |Date|File|#|Question Title|Difficulty|
 |:-:|:-:|--:|:--|:--|
-|20210927<br><br>|[📄](src/q_51_100/q0078.hpp)<br>[📄](src/q_51_100/q0090.hpp)|78<br>90|[Subsets](https://leetcode.com/problems/subsets/)<br>[Subsets II](https://leetcode.com/problems/subsets-ii/)|Medium<br>Medium|
+|20210927<br><br><br>|[📄](src/q_51_100/q0078.hpp)<br>[📄](src/q_51_100/q0090.hpp)<br>[📄](src/q_151_200/q0187.hpp)|78<br>90<br>187|[Subsets](https://leetcode.com/problems/subsets/)<br>[Subsets II](https://leetcode.com/problems/subsets-ii/)<br>[Repeated DNA Sequences](https://leetcode.com/problems/repeated-dna-sequences/)|Medium<br>Medium<br>Medium|
 |20210926<br><br><br><br><br><br>|[📄](src/q_1_50/q0043.hpp)<br>[📄](src/q_1_50/q0049.hpp)<br>[📄](src/q_101_150/q0130.hpp)<br>[📄](src/q_751_800/q0782.hpp)<br>[📄](src/q_751_800/q0797.hpp)<br>[📄](src/q_1051_1100/q1091.hpp)|43<br>49<br>130<br>782<br>797<br>1091|[Multiply Strings](https://leetcode.com/problems/multiply-strings/)<br>[Group Anagrams](https://leetcode.com/problems/group-anagrams/)<br>[Surrounded Regions](https://leetcode.com/problems/surrounded-regions/)<br>[Transform to Chessboard](https://leetcode.com/problems/transform-to-chessboard/)<br>[All Paths From Source to Target](https://leetcode.com/problems/all-paths-from-source-to-target/)<br>[Shortest Path in Binary Matrix](https://leetcode.com/problems/shortest-path-in-binary-matrix/)|Medium<br>Medium<br>Medium<br>Hard<br>Medium<br>Medium|
 |20210925<br><br><br><br><br>|[📄](src/q_101_150/q0117.hpp)<br>[📄](src/q_251_300/q0290.hpp)<br>[📄](src/q_551_600/q0572.hpp)<br>[📄](src/q_751_800/q0763.hpp)<br>[📄](src/q_1251_1300/q1293.hpp)|117<br>290<br>572<br>763<br>1293|[Populating Next Right Pointers in Each Node II](https://leetcode.com/problems/populating-next-right-pointers-in-each-node-ii/)<br>[Word Pattern](https://leetcode.com/problems/word-pattern/)<br>[Subtree of Another Tree](https://leetcode.com/problems/subtree-of-another-tree/)<br>[Partition Labels](https://leetcode.com/problems/partition-labels/)<br>[Shortest Path in a Grid with Obstacles Elimination](https://leetcode.com/problems/shortest-path-in-a-grid-with-obstacles-elimination/)|Medium<br>Easy<br>Easy<br>Medium<br>Hard|
 |20210924<br><br><br><br><br>|[📄](src/q_151_200/q0200.hpp)<br>[📄](src/q_401_450/q0409.hpp)<br>[📄](src/q_401_450/q0415.hpp)<br>[📄](src/q_501_550/q0547.hpp)<br>[📄](src/q_1101_1150/q1137.hpp)|200<br>409<br>415<br>547<br>1137|[Number of Islands](https://leetcode.com/problems/number-of-islands/)<br>[Longest Palindrome](https://leetcode.com/problems/longest-palindrome/)<br>[Add Strings](https://leetcode.com/problems/add-strings/)<br>[Number of Provinces](https://leetcode.com/problems/number-of-provinces/)<br>[N-th Tribonacci Number](https://leetcode.com/problems/n-th-tribonacci-number/)|Medium<br>Easy<br>Easy<br>Medium<br>Easy|
