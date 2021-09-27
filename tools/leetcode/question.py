@@ -14,7 +14,9 @@ class CodePrettifier:
             m_val = re.search("\[(?P<val>.*)\]", value)
             m_val = m_val if m_val == None else m_val.group("val")
             if m_val != None:
-                elm = re.findall("(\[[\w\"\',]*\]|[\w\"']+)", m_val)
+                elm = \
+                    re.findall("(\[[\w\"\',]*\]|\"[\w.+@,]+\"|[\d.]+)",
+                               m_val)
                 val_in_vec = [CodePrettifier.argument(m_typ, e) for e in elm]
                 value = "{{{}}}".format(", ".join(val_in_vec))
 
@@ -177,7 +179,7 @@ class SolutionFunction(SolutionAbstract):
         if self._is_known_type(self.type()):
             for case, _ in cases:
                 m_cas = \
-                    re.search("Input:[^\w]+(?P<in>[\w -=\[\],\"']+)[^\w]+Output:[^\w=-\[\],\"']+(?P<out>[\w -=\[\],\"']+)",
+                    re.search("Input[\w\W]+? (?P<in>[\w\W]+)[^\w]+Output:[^\w=-\[\],\"']+(?P<out>[\w -=\[\],\"']+)",
                               case)
                 if m_cas:
                     inp = self.__parse_input(m_cas.group("in").strip())
