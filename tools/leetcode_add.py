@@ -91,7 +91,7 @@ def __main():
 
         if not os.path.isdir(qfile.path()):
             os.makedirs(qfile.path())
-            pmt.show(pmt.succ("Create a directory: {}".format(qfile.path())))
+            pmt.show(pmt.succ("The directory has been created: {}".format(qfile.path())))
             modify_mainunittest = True
 
         if __add_question(qfile, ques):
