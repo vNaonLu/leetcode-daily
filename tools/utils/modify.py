@@ -10,7 +10,7 @@ def __modify_prompt(file: str):
 
 
 def __delete_prompt(file: str):
-    pmt.show(pmt.succ("The file has been deleted: {}".format(file)))
+    pmt.show(pmt.succ("The file has been deleted : {}".format(file)))
 
 
 def remove(path: str):
@@ -199,7 +199,7 @@ def readme(readme: str, qlist: str, log: str):
             "",
             "---"
             "",
-            "## Questions List",
+            "## Update",
             "",
             "|Date|File|#|Question Title|Difficulty|",
             "|:-:|:-:|--:|:--|:--|",

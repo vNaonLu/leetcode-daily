@@ -14,8 +14,9 @@ class CodePrettifier:
             m_val = re.search("\[(?P<val>.*)\]", value)
             m_val = m_val if m_val == None else m_val.group("val")
             if m_val != None:
+
                 elm = \
-                    re.findall("(\[[\w\"\',]*\]|\"[^\n]+?\"|[\d.]+)",
+                    re.findall("(\[[\w\"\',]*\]|\"[^\n]+?\"|[\d.+-]+)",
                                m_val)
                 val_in_vec = [CodePrettifier.argument(m_typ, e) for e in elm]
                 value = "{{{}}}".format(", ".join(val_in_vec))
@@ -133,7 +134,7 @@ class SolutionFunction(SolutionAbstract):
 
     def __parse_input(self, input: str):
         inputs: list[str] = []
-        matches = re.findall("(?P<name>\w+) = (?P<value>\d+|\[[^=]+\]|\"[^=]+\")",
+        matches = re.findall("(?P<name>\w+) = (?P<value>[\d+-]+|\[[^=]+\]|\"[^\n]+?\")",
                              input)
         for i in range(0, len(matches)):
             # in order based on function arguments
@@ -191,7 +192,7 @@ class SolutionFunction(SolutionAbstract):
         if self._is_known_type(self.type()):
             for case, _ in cases:
                 m_cas = \
-                    re.search("Input[\w\W]+? (?P<in>[\w\W]+)[^\w]+Output:[^\w=-\[\],\"']+(?P<out>[\w -=\[\],\"']+)",
+                    re.search("Input[\w\W]+? (?P<in>[\w\W]+)[^\w]+Output.* *(?P<out>[\d+-]+|\[[^=]+\]|\"[^\n]+?\")",
                               case)
                 if m_cas:
                     inp = self.__parse_input(m_cas.group("in").strip())
@@ -498,7 +499,7 @@ class LeetCodeQuestion:
             "  * "])
         if desc_lines == None:
             desc += "\n".join([
-                "  * \tTo unlock the question need a premium account.",
+                "To unlock the question need a premium account.",
                 "  *",
                 "*/"])
         else:

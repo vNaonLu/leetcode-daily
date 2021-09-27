@@ -14,7 +14,7 @@ def succ(prompt: str):
 
 
 def fail(prompt: str):
-    return "\033[31m[x]\033[0m {}".format(prompt)
+    return "\033[31m[-]\033[0m {}".format(prompt)
 
 
 class _LoadingPmt:

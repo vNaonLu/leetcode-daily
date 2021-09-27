@@ -2058,7 +2058,7 @@ My daily challenge on leetcode since 2021/09/06.
 </details>
 
 ---
-## Questions List
+## Update
 
 |Date|File|#|Question Title|Difficulty|
 |:-:|:-:|--:|:--|:--|
