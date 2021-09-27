@@ -176,7 +176,8 @@ class SolutionFunction(SolutionAbstract):
         else:
             if self._anyorder and re.search("vector", self.type()):
                 expect.append("// Try EXPECT_EQ_ANY_ORDER_RECURSIVE")
-                expect.append("// if the element is also matched in any order.")
+                expect.append(
+                    "// if the element is also matched in any order.")
                 expect.append("EXPECT_EQ_ANY_ORDER({}, exp);".format(eq_arg1))
             else:
                 expect.append("EXPECT_EQ({}, exp);".format(eq_arg1))
@@ -230,8 +231,10 @@ class LeetCodeQuestion:
             "6": "⁶", "7": "⁷", "8": "⁸", "9": "⁹", "+": "⁺", "-": "⁻",
             "=": "⁼", "(": "⁽", ")": "⁾",
             "a": "ᵃ", "b": "ᵇ", "c": "ᶜ", "d": "ᵈ", "e": "ᵉ",
-            "f": "ᶠ", "g": "ᵍ", "k": "ᵏ", "m": "ᵐ", "n": "ⁿ",
-            "o": "ᵒ", "p": "ᵖ", "t": "ᵗ", "u": "ᵘ", "v": "ᵛ", "z": "ᶻ",
+            "f": "ᶠ", "g": "ᵍ", "h": "ʰ", "i": "ⁱ", "j": "ʲ", "l": "ˡ",
+            "k": "ᵏ", "m": "ᵐ", "n": "ⁿ", "o": "ᵒ", "p": "ᵖ", "r": "ʳ",
+            "s": "ˢ", "t": "ᵗ", "u": "ᵘ", "v": "ᵛ", "w": "ʷ", "x": "ˣ",
+            "y": "ʸ", "z": "ᶻ",
         }
         relp: str = ""
         for c in match.group("content"):
@@ -250,9 +253,10 @@ class LeetCodeQuestion:
             "0": "₀", "1": "₁", "2": "₂", "3": "₃", "4": "₄", "5": "₅",
             "6": "₆", "7": "₇", "8": "₈", "9": "₉", "+": "₊", "-": "₋",
             "=": "₌", "(": "₍", ")": "₎",
-            "a": "ₐ", "d": "ᵈ", "e": "ₑ",
-            "f": "ᶠ", "g": "ᵍ", "k": "ᵏ", "m": "ᵐ", "n": "ⁿ",
-            "o": "ₒ", "r": "ᵣ", "t": "ₜ", "u": "ᵤ", "v": "ᵥ", "x": "ₓ"
+            "a": "ₐ", "d": "ᵈ", "e": "ₑ", "f": "ᶠ", "g": "ᵍ", "h": "ₕ",
+            "i": "ᵢ", "j": "ⱼ", "k": "ₖ", "l": "ₗ", "m": "ₘ", "n": "ₙ",
+            "o": "ₒ", "p": "ₚ", "r": "ᵣ", "s": "ₛ", "t": "ₜ", "u": "ᵤ", 
+            "v": "ᵥ", "x": "ₓ"
         }
         relp: str = ""
         for c in match.group("content"):
@@ -273,6 +277,11 @@ class LeetCodeQuestion:
         for p, r in repl:
             content = re.sub(p, r, content)
         return " ‘{}’ ".format(content)
+    
+    def __illist(match: re.Match):
+        li = re.search(" *<li>(?P<content>[\w\W]*?)<\/li> *",
+                )
+
 
     __repl = [
         ("&quot;(?P<content>[\w\W]*?)&quot;",                       # " "
@@ -477,13 +486,13 @@ class LeetCodeQuestion:
         return res
 
     def template(self, prompt: str, limit: int = 0):
-        separate_line = "=" * int((limit - 12) / 2)
+        separate_line = "–" * int((limit - 12) / 2)
         desc_lines = self.description(limit if limit > 30 else None)
         desc = "\n".join([
             "/**",
             "  * {}".format(prompt),
             "  *",
-            "  * #{}".format(self.id()),
+            "  * {}.".format(self.id()),
             "  *  {} {}".format(" " * len(str(self.id())), self.title()),
             "  *",
             "  * "])
