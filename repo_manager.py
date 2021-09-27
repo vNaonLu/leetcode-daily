@@ -4,10 +4,6 @@ import pathlib
 import subprocess
 import os
 
-# from tools.leetcode import request as LeetCodeRequest
-# from tools.leetcode.question import LeetCodeQuestion
-# from tools.utils import template
-
 
 def __parser():
     parser = optparse.OptionParser(usage="%prog [options] id1 id2 ...")
@@ -64,19 +60,6 @@ def __main():
     parser = __parser()
     options, args = parser.parse_args()
     operation = None
-
-    # slug = LeetCodeRequest.question_slug(int(args[0]))
-    # if slug:
-    #     q = LeetCodeQuestion(slug)
-    #     source, unittest = q.template("TEST CODE", 70)
-
-    #     print(source)
-    #     print()
-    #     print("============================")
-    #     print()
-    #     print(unittest)
-
-    # return
 
     if options.add_identifier and options.del_identifier:
         parser.error("options --add and --del are mutually exclusive.")
@@ -164,8 +147,10 @@ def __main():
             else:
                 print("[x] you need to build project first.")
 
-    if not operation:
-        print("Usage: {} [options] id1 id2 ...".format(os.path.basename(__file__)))
+    if operation == None:
+        print("Usage: {} [options] id1 id2 ...".format(
+            os.path.basename(__file__)))
+
 
 if __name__ == "__main__":
     __main()
