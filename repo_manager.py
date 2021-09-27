@@ -68,14 +68,13 @@ def __main():
     # slug = LeetCodeRequest.question_slug(int(args[0]))
     # if slug:
     #     q = LeetCodeQuestion(slug)
-    #     desc = template.question_description("TEST prmpt", q.id(), q.title(),
-    #                                          q.description(50), q.constraints())
+    #     source, unittest = q.template("TEST CODE", 70)
 
-    #     print(template.source(q.id(), q.includes(), desc, q.code_snippet()))
+    #     print(source)
     #     print()
     #     print("============================")
     #     print()
-    #     print(template.unittest(q.id(), desc, q.unittest_case()))
+    #     print(unittest)
 
     # return
 

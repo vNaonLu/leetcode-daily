@@ -82,7 +82,7 @@ class SolutionAbstract:
 
     @staticmethod
     def _is_known_type(type: str):
-        primitive_pattern = "void|int|char|double|float"
+        primitive_pattern = "void|int|char|double|float|bool"
         stllib_pattern = "vector|map|unoredered_map|set|unoredered_set|stack|queue|string"
         custom_pattern = "ListNode|TreeNode"
         single_container_pattern = "(?P<type>\w+)<(?P<val>\w+)>"
@@ -171,13 +171,12 @@ class SolutionFunction(SolutionAbstract):
 
         return expect
 
-    def unittest_desc(self, desc: list[str]):
+    def unittest_desc(self, content: list[str]):
         res: list[list[str]] = []
-        content = "".join(desc)
-        cases = re.split("Example", content)
+        cases = re.findall("(?P<case>Input[\w\W]+?)([^\n]+Example|$)", content)
 
         if self._is_known_type(self.type()):
-            for case in cases:
+            for case, _ in cases:
                 m_cas = \
                     re.search("Input:[^\w]+(?P<in>[\w -=\[\],\"']+)[^\w]+Output:[^\w=-\[\],\"']+(?P<out>[\w -=\[\],\"']+)",
                               case)
@@ -221,7 +220,7 @@ class LeetCodeQuestion:
                  ["<b>", " “"], ["</b>", "” "],
                  ["&times;", "x"], ["&ldquo;", "“"], ["&rdquo;", "”"],
                  [" *<strong> *", " “"], [" *</strong> *", "” "],
-                 [" *<code> *", " "], [" *</code> *", " "], ["<pre>", ""],
+                 [" *<code> *", " ‘"], [" *</code> *", "‘ "], ["<pre>", ""],
                  ["</pre>", ""], ["<em> *</em>", ""], [" *<em> *", " "],
                  [" *</em> *", " "], ["</?div.*?>", ""], ["	*</?li>", "- "], ["\n\n", "\n"]]
 
@@ -254,48 +253,21 @@ class LeetCodeQuestion:
                     self.__slttmp = Solution.generate_template(self.__snippet)
                     break
 
-    def __parse_desc(self, mul_lines: list[str]):
-        for i in range(0, len(mul_lines)):
-            if self.__example_id == mul_lines[i][:len(self.__example_id)] or \
-                    self.__constraints_id == mul_lines[i][:len(self.__constraints_id)]:
-                return mul_lines[:i]
-        return mul_lines
-
-    def __parse_exam(self, mul_lines: list[str], beg: int = 0):
-        example_beg = beg
-        for i in range(beg, len(mul_lines)):
-            if self.__example_id == mul_lines[i][:len(self.__example_id)]:
-                example_beg = i
-                break
-
-        for i in range(example_beg, len(mul_lines)):
-            if self.__constraints_id == mul_lines[i][:len(self.__constraints_id)]:
-                return mul_lines[example_beg:i]
-        return []
-
-    def __parse_cons(self, mul_lines: list[str]):
-        cons: list[str] = []
-
-        for line in mul_lines:
-            if len(line) > 0 and self.__constraints_id != line[:len(self.__constraints_id)]:
-                cons.append(line)
-        return cons
-
     def __parse_content(self, content: str):
         if content != None:
             for label in self.__remove:
                 content = re.sub(label, "", content)
             for patt, repl in self.__replace:
                 content = re.sub(patt, repl, content)
-            multi_lines = content.splitlines()
+            match = \
+                re.search("(?P<desc>[\w\W]+?)\n[^\n]+(?P<exam>Example[\w\W]+?)\n([^\n]+Constraints[^\n]+\s+(?P<cons>[\w\W]+)|$)",
+                          content)
 
-            description = self.__parse_desc(multi_lines)
-            example = self.__parse_exam(multi_lines, len(description))
-            constraints = self.__parse_cons(
-                multi_lines[len(description)+len(example):])
-            self.__desc = description
-            self.__cons = constraints
-            self.__testcase = self.__slttmp.unittest_desc(example)
+            if match:
+                self.__desc = match.group("desc").splitlines()
+                self.__cons = match.group("cons").splitlines()
+                self.__testcase = \
+                    self.__slttmp.unittest_desc(match.group("exam"))
 
     def id(self):
         return self.__id
@@ -316,29 +288,19 @@ class LeetCodeQuestion:
         if self.__desc == None:
             return None
         if not limit:
-            return [self.__desc]
+            return self.__desc
         else:
             desc: list[str] = []
-            for line in self.__desc:
-                char_cnt = 0
-                last = -1
-                last_space = -1
-                for i in range(0, len(line)):
-                    char_cnt += 1
-                    if line[i] == ' ':
-                        last_space = i
-                    if last == -1 and line[i] != ' ':
-                        last = i
-                    if char_cnt >= limit:
-                        if line[i] == ' ':
-                            desc.append(line[last:i])
-                            last = -1
-                        else:
-                            desc.append(line[last:last_space])
-                            last = last_space + 1
-                        char_cnt = 0
-                    if i == len(line) - 1 and last != -1:
-                        desc.append(line[last:])
+            for seg in self.__desc:
+                if len(seg) == 0:
+                    continue
+                seg_lim: list[str] = []
+                for d in re.findall("([^\n]{{0,{}}})[ .]".format(limit), seg):
+                    seg_lim.append(d.strip())
+                seg_lim[-1] += "."
+                desc += seg_lim
+                desc.append("")
+            del desc[-1]
             return desc
 
     def constraints(self):
@@ -358,3 +320,101 @@ class LeetCodeQuestion:
 
     def unittest_case(self):
         return self.__testcase
+
+    def __source(self, desc: str):
+        return "\n".join([
+            "",
+            "#ifndef LEETCODE_Q{}_H__".format(self.id()),
+            "#define LEETCODE_Q{}_H__".format(self.id())] + [
+            "#include <{}>".format(icd) for icd in sorted(self.includes())] + [
+            "",
+            "namespace l{} {{".format(self.id()),
+            "using namespace std;",
+            "",
+            desc,
+            "",
+            self.code_snippet(),
+            "}}  // namespace l{}".format(self.id()),
+            "",
+            "#endif"])
+
+    def __unittest_cases(self):
+        if self.__testcase == None:
+            return "\n".join([
+                "",
+                "TEST(q{}, NOT_IMPLEMENT) {{".format(self.id()),
+                "   EXPECT_TRUE(\"NOT IMPLEMENT\")",
+                "}"
+            ])
+        res: list[str] = []
+        for i in range(0, len(self.__testcase)):
+            res.append("\n".join([
+                "",
+                "TEST(q{}, sample_input{}) {{".format(self.id(),
+                                                      str(i+1).zfill(2)),
+                "  l{}::Solution solver;".format(self.id())] + [
+                "  {}".format(line) for line in self.__testcase[i]] + [
+                "}"]))
+        return "\n".join(res)
+
+    def __unittest(self, desc: str):
+        return "\n".join([
+            "",
+            "#ifndef Q{}_UNITTEST_H__".format(self.id()),
+            "#define Q{}_UNITTEST_H__".format(self.id()),
+            "#include <gtest/gtest.h>",
+            "",
+            "#include \"q{}.hpp\"".format(str(self.id()).zfill(4)),
+            "using namespace std;",
+            "",
+            desc,
+            self.__unittest_cases(),
+            "",
+            "#endif"])
+
+    def __constraints(self):
+        cons = self.constraints()
+        res: list[str] = []
+        for line in cons:
+            match = re.search("- +(?P<list>[^\n]+)", line)
+            if match:
+                res.append(match.group("list").strip())
+        return res
+
+    def template(self, prompt: str, limit: int = 0):
+        separate_line = "=" * int((limit - 12) / 2)
+        desc_lines = self.description(limit if limit > 30 else None)
+        desc = "\n".join([
+            "/**",
+            "  * {}".format(prompt),
+            "  *",
+            "  * #{}".format(self.id()),
+            "  *  {} {}".format(" " * len(str(self.id())), self.title()),
+            "  *",
+            "  *"])
+        if desc_lines == None:
+            desc += "\n".join([
+                "  * \tTo unlock the question need a premium account.",
+                "  *",
+                "*/"])
+        else:
+            desc += "\n".join([
+                separate_line + " Description " + separate_line,
+                "  *",
+                "  *   " +
+                "\n  *   ".join(desc_lines),
+                "  *",
+                "  * "])
+            cons_lines = self.__constraints()
+            if len(cons_lines) > 0:
+                desc += "\n".join([
+                    separate_line + " Constraints " + separate_line,
+                    "  *",
+                    "  *   • " +
+                    "\n  *   • ".join(cons_lines),
+                    "  *", ])
+            desc += "\n".join([
+                "",
+                "*/"])
+
+        return self.__source(desc), self.__unittest(desc)

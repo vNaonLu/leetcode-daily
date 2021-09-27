@@ -106,7 +106,8 @@ def done_question(path: str, ids: list[int]):
 
 def log(path: str, id: int, timestamp: int):
     with open(path, "a") as f:
-        f.write("{},{}\n".format(timestamp, id))
+        writer = csv.writer(f, delimiter=',')
+        writer.writerow([timestamp, id])
         __modify_prompt(path)
 
 
