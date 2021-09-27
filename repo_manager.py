@@ -56,22 +56,10 @@ def __parser():
     return parser
 
 
-
 def __main():
     parser = __parser()
     options, args = parser.parse_args()
     operation = None
-
-    # from tools.leetcode.question import LeetCodeQuestion
-    # from tools.leetcode import request as Rq
-    # slug = Rq.question_slug(int(args[0]))
-    # if slug:
-    #     q = LeetCodeQuestion(slug)
-    #     s, u = q.template("prompt test", 70)
-    #     print(s)
-    #     print("==============")
-    #     print(u)
-    # return
 
     if options.add_identifier and options.del_identifier:
         parser.error("options --add and --del are mutually exclusive.")

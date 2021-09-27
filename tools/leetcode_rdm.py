@@ -2,7 +2,7 @@
 import os
 import optparse
 import pathlib
-from utils import modify
+from utils import modify, prompt as pmt
 
 readme_path = ""
 list_csv = ""
@@ -40,9 +40,9 @@ def __main():
     
 
     if not os.path.exists(list_csv):
-        print("[x] question list not found: {}".format(list_csv))
+        pmt.show(pmt.fail("The question list is not found in: {}".format(list_csv)))
     elif not os.path.exists(log_csv):
-        print("[x] log file not found: {}".format(log_csv))
+        pmt.show(pmt.fail("The log file is not found in: {}".format(log_csv)))
     else:
         modify.readme(readme_path, list_csv, log_csv)
 

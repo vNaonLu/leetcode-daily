@@ -206,7 +206,8 @@ class SolutionStructure(SolutionAbstract):
         self.__parse_codesnippets(code_snippet)
 
     def __parse_codesnippets(self, code_snippet: list[str]):
-        print("not implement structure")
+        # does not implement structure
+        pass
 
 
 class Solution:

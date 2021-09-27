@@ -2,22 +2,22 @@ import time
 import csv
 import re
 import os
-from . import local
+from . import local, prompt as pmt
 
 
 def __modify_prompt(file: str):
-    print("[+] modified a file: {}".format(file))
+    pmt.show(pmt.succ("Modified a file: {}".format(file)))
 
 
 def __delete_prompt(file: str):
-    print("[-] deleted a file: {}".format(file))
+    pmt.show(pmt.succ("Deleted a file: {}".format(file)))
 
 
 def remove(path: str):
     try:
         os.remove(path)
     except OSError as e:
-        print("[x] {}: {}".format(e.strerror, path))
+        pmt.show(pmt.fail("{}: {}".format(e.strerror, path)))
         return False
     else:
         __delete_prompt(path)

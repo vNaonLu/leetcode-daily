@@ -2,7 +2,7 @@
 import os
 import optparse
 import pathlib
-from utils import local, template, modify, generate
+from utils import local, template, modify, generate, prompt as pmt
 from leetcode import request as LeetCodeRequest
 
 def __parser():
@@ -31,7 +31,7 @@ def __main():
     options, args = parser.parse_args()
 
     if len(args) == 0:
-        print("Usage: {} [options] id1 id2 ...".format(os.path.basename(__file__)))
+        pmt.show("Usage: {} [options] id1 id2 ...".format(os.path.basename(__file__)))
         return
 
     sour_path = pathlib.Path(options.output).resolve()
