@@ -3,6 +3,8 @@
 #define Q78_UNITTEST_H__
 #include <gtest/gtest.h>
 
+#include <leetcode/anyorder.hpp>
+
 #include "q0078.hpp"
 using namespace std;
 
@@ -32,7 +34,7 @@ TEST(q78, sample_input01) {
   l78::Solution solver;
   vector<int> nums = {1, 2, 3};
   vector<vector<int>> exp = {{}, {1}, {2}, {1, 2}, {3}, {1, 3}, {2, 3}, {1, 2, 3}};
-  EXPECT_EQ(solver.subsets(nums), exp);
+  EXPECT_EQ_ANY_ORDER(solver.subsets(nums), exp);
 }
 
 TEST(q78, sample_input02) {

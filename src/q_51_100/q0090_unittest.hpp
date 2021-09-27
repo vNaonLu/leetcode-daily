@@ -3,6 +3,8 @@
 #define Q90_UNITTEST_H__
 #include <gtest/gtest.h>
 
+#include <leetcode/anyorder.hpp>
+
 #include "q0090.hpp"
 using namespace std;
 
@@ -30,15 +32,15 @@ using namespace std;
 TEST(q90, sample_input01) {
   l90::Solution solver;
   vector<int> nums = {1, 2, 2};
-  vector<vector<int>> exp = {{}, {1}, {2}, {1, 2}, {2, 2}, {1, 2, 2}};
-  EXPECT_EQ(solver.subsetsWithDup(nums), exp);
+  vector<vector<int>> exp = {{}, {1}, {1, 2}, {1, 2, 2}, {2}, {2, 2}};
+  EXPECT_EQ_ANY_ORDER(solver.subsetsWithDup(nums), exp);
 }
 
 TEST(q90, sample_input02) {
   l90::Solution solver;
   vector<int> nums = {0};
   vector<vector<int>> exp = {{}, {0}};
-  EXPECT_EQ(solver.subsetsWithDup(nums), exp);
+  EXPECT_EQ_ANY_ORDER(solver.subsetsWithDup(nums), exp);
 }
 
 #endif

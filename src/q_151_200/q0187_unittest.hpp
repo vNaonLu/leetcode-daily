@@ -3,6 +3,8 @@
 #define Q187_UNITTEST_H__
 #include <gtest/gtest.h>
 
+#include <leetcode/anyorder.hpp>
+
 #include "q0187.hpp"
 using namespace std;
 
@@ -36,15 +38,15 @@ using namespace std;
 TEST(q187, sample_input01) {
   l187::Solution solver;
   string s = "AAAAACCCCCAAAAACCCCCCAAAAAGGGTTT";
-  vector<string> exp = {"CCCCCAAAAA", "AAAAACCCCC"};
-  EXPECT_EQ(solver.findRepeatedDnaSequences(s), exp);
+  vector<string> exp = {"AAAAACCCCC", "CCCCCAAAAA"};
+  EXPECT_EQ_ANY_ORDER(solver.findRepeatedDnaSequences(s), exp);
 }
 
 TEST(q187, sample_input02) {
   l187::Solution solver;
   string s = "AAAAAAAAAAAAA";
   vector<string> exp = {"AAAAAAAAAA"};
-  EXPECT_EQ(solver.findRepeatedDnaSequences(s), exp);
+  EXPECT_EQ_ANY_ORDER(solver.findRepeatedDnaSequences(s), exp);
 }
 
 #endif

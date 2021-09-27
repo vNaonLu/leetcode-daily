@@ -3,7 +3,7 @@
 #define Q49_UNITTEST_H__
 #include <gtest/gtest.h>
 
-#include <algorithm>
+#include <leetcode/anyorder.hpp>
 
 #include "q0049.hpp"
 using namespace std;
@@ -30,15 +30,15 @@ using namespace std;
 TEST(q49, sample_input01) {
   l49::Solution solver;
   vector<string> strs = {"eat", "tea", "tan", "ate", "nat", "bat"};
-  vector<vector<string>> exp = {{"bat"}, {"eat", "tea", "ate"}, {"tan", "nat"}};
-  EXPECT_EQ(solver.groupAnagrams(strs), exp);
+  vector<vector<string>> exp = {{"bat"}, {"nat", "tan"}, {"ate", "eat", "tea"}};
+  EXPECT_EQ_ANY_ORDER_RECURSIVE(solver.groupAnagrams(strs), exp);
 }
 
 TEST(q49, sample_input02) {
   l49::Solution solver;
   vector<string> strs = {""};
   vector<vector<string>> exp = {{""}};
-  EXPECT_EQ(solver.groupAnagrams(strs), exp);
+  EXPECT_EQ_ANY_ORDER_RECURSIVE(solver.groupAnagrams(strs), exp);
 }
 
 #endif
