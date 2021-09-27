@@ -199,13 +199,12 @@ class SolutionStructure(SolutionAbstract):
 
 
 class Solution:
-    __func_pattern = "class Solution {1,}{"
-
     @staticmethod
     def generate_template(code_snippet: str):
         multi_lines = code_snippet.splitlines()
         for i in range(0, len(multi_lines)):
-            if re.match(Solution.__func_pattern, multi_lines[i]):
+            if re.match("class Solution {1,}{",
+                        multi_lines[i]):
                 return SolutionFunction(multi_lines[i:])
         return SolutionStructure(multi_lines)
 
@@ -261,14 +260,14 @@ class LeetCodeQuestion:
         content = match.group("content")
         for p, r in repl:
             content = re.sub(p, r, content)
-        return " ‘{}‘ ".format(content)
+        return " ‘{}’ ".format(content)
 
     __repl = [
         ("&quot;(?P<content>[\w\W]*?)&quot;",                       # " "
          lambda match: "\"{}\"".format(match.group("content"))),
         ("&#39;(?P<content>[\w\W]*?)&#39;",                         # ' '
          lambda match: "'{}'".format(match.group("content"))),
-        (" *<li>(?P<content>[\w\W]*?)<\/li> *",                     # ‘
+        (" *<li>(?P<content>[\w\W]*?)<\/li> *",                     # -
          lambda match: "- {}".format(match.group("content"))),
 
         (" *<b>(?P<content>[\w\W]*?)<\/b> *",                       # “ ”
@@ -282,7 +281,7 @@ class LeetCodeQuestion:
         ("</?div.*?>", ""),
         ("\n\n", "\n"),
 
-        ("<code>(?P<content>[\w\W]+?)<\/code>", __math),            # code
+        (" *<code>(?P<content>[\w\W]+?)<\/code> *", __math),        # code
         ("<sup>(?P<content>[\w\W]+?)<\/sup>", __sup),               # sup
         ("<sub>(?P<content>[\w\W]+?)<\/sub>", __sub),               # sub
         ("&nbsp;", ""),                                             # space
@@ -326,11 +325,11 @@ class LeetCodeQuestion:
                 if snippet['langSlug'] == "cpp":
                     self.__snippet = re.sub("  ", " ", snippet['code'])
                     self.__snippet = re.sub(
-                        "public:", " public:", self.__snippet)
+                        " *public:", " public:", self.__snippet)
                     self.__snippet = re.sub(
-                        "private:", " private:", self.__snippet)
+                        " *private:", " private:", self.__snippet)
                     self.__snippet = re.sub(
-                        "protected:", " protected:", self.__snippet)
+                        " *protected:", " protected:", self.__snippet)
                     # to google style
                     self.__slttmp = Solution.generate_template(self.__snippet)
                     break
@@ -470,7 +469,7 @@ class LeetCodeQuestion:
             "  * #{}".format(self.id()),
             "  *  {} {}".format(" " * len(str(self.id())), self.title()),
             "  *",
-            "  *"])
+            "  * "])
         if desc_lines == None:
             desc += "\n".join([
                 "  * \tTo unlock the question need a premium account.",
