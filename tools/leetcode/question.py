@@ -46,11 +46,14 @@ class SolutionAbstract:
                                      ("vector", "vector"), ("map", "map"),
                                      ("unordered_map", "unordered_map"), ("string", "string")]
 
-    def __init__(self):
+    def __init__(self, content: str):
         self._type: str = None
         self._name: str = ""
         self._args: dict[str, str] = {}
         self._includes: set[str] = set()
+        self._anyorder: bool = re.search("any order",
+                                         content,
+                                         re.IGNORECASE) != None
         self._includes.add("iostream")
 
     def name(self):
@@ -58,6 +61,9 @@ class SolutionAbstract:
 
     def type(self):
         return self._type
+
+    def isanyorder(self):
+        return self._anyorder
 
     def args(self):
         return list(self._args.items())
@@ -104,8 +110,8 @@ class SolutionAbstract:
 
 
 class SolutionFunction(SolutionAbstract):
-    def __init__(self, code_snippet: list[str]):
-        SolutionAbstract.__init__(self)
+    def __init__(self, code_snippet: list[str], content: str):
+        SolutionAbstract.__init__(self, content)
         self.__parse_codesnippets(code_snippet)
 
     def __parse_codesnippets(self, code_snippet: list[str]):
@@ -168,7 +174,12 @@ class SolutionFunction(SolutionAbstract):
         elif re.search("TreeNode", eq_type):
             expect.append("EXPECT_TREENODE_EQ({}, exp);".format(eq_arg1))
         else:
-            expect.append("EXPECT_EQ({}, exp);".format(eq_arg1))
+            if self._anyorder and re.search("vector", self.type()):
+                expect.append("// Try EXPECT_EQ_ANY_ORDER_RECURSIVE")
+                expect.append("// if the element is also matched in any order.")
+                expect.append("EXPECT_EQ_ANY_ORDER({}, exp);".format(eq_arg1))
+            else:
+                expect.append("EXPECT_EQ({}, exp);".format(eq_arg1))
 
         return expect
 
@@ -190,8 +201,8 @@ class SolutionFunction(SolutionAbstract):
 
 
 class SolutionStructure(SolutionAbstract):
-    def __init__(self, code_snippet: list[str]):
-        SolutionAbstract.__init__(self)
+    def __init__(self, code_snippet: list[str], content: str):
+        SolutionAbstract.__init__(self, content)
         self.__parse_codesnippets(code_snippet)
 
     def __parse_codesnippets(self, code_snippet: list[str]):
@@ -200,13 +211,13 @@ class SolutionStructure(SolutionAbstract):
 
 class Solution:
     @staticmethod
-    def generate_template(code_snippet: str):
+    def generate_template(code_snippet: str, content: str):
         multi_lines = code_snippet.splitlines()
         for i in range(0, len(multi_lines)):
             if re.match("class Solution {1,}{",
                         multi_lines[i]):
-                return SolutionFunction(multi_lines[i:])
-        return SolutionStructure(multi_lines)
+                return SolutionFunction(multi_lines[i:], content)
+        return SolutionStructure(multi_lines, content)
 
 
 class LeetCodeQuestion:
@@ -312,14 +323,14 @@ class LeetCodeQuestion:
         self.__slug: str = res_obj['titleSlug']
         self.__level: str = res_obj['difficulty']
         self.__snippet: str = ""
-        self.__slttmp: SolutionAbstract = SolutionAbstract()
-        self.__parse_code_snippet(res_obj['codeSnippets'])
+        self.__slttmp: SolutionAbstract = SolutionAbstract("")
         self.__desc: list[str] = None
         self.__cons: list[str] = None
         self.__testcase: list[list[str]] = []
+        self.__parse_code_snippet(res_obj['codeSnippets'], res_obj['content'])
         self.__parse_content(res_obj['content'])
 
-    def __parse_code_snippet(self, code_snippets: list[object]):
+    def __parse_code_snippet(self, code_snippets: list[object], content: str):
         if code_snippets != None:
             for snippet in code_snippets:
                 if snippet['langSlug'] == "cpp":
@@ -331,7 +342,8 @@ class LeetCodeQuestion:
                     self.__snippet = re.sub(
                         " *protected:", " protected:", self.__snippet)
                     # to google style
-                    self.__slttmp = Solution.generate_template(self.__snippet)
+                    self.__slttmp = Solution.generate_template(self.__snippet,
+                                                               content)
                     break
 
     def __parse_content(self, content: str):
@@ -436,12 +448,18 @@ class LeetCodeQuestion:
         return "\n".join(res)
 
     def __unittest(self, desc: str):
+        addition_include: list[str] = [""]
+        if self.__slttmp.isanyorder():
+            addition_include.append("#include <leetcode/anyorder.hpp>")
+            addition_include.append("")
+        addition_include.append("")
         return "\n".join([
             "",
             "#ifndef Q{}_UNITTEST_H__".format(self.id()),
             "#define Q{}_UNITTEST_H__".format(self.id()),
             "#include <gtest/gtest.h>",
             "",
+            "\n".join(addition_include),
             "#include \"q{}.hpp\"".format(str(self.id()).zfill(4)),
             "using namespace std;",
             "",
