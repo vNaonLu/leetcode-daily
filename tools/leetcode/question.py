@@ -11,7 +11,7 @@ class CodePrettifier:
         m_trn = re.search("TreeNode", type)
         if m_vec:
             m_typ = m_vec.group("typ")
-            m_val = re.search("\[(?P<val>.*)\]", value)
+            m_val = re.search("\[(?P<val>[\w\W]*)\]", value)
             m_val = m_val if m_val == None else m_val.group("val")
             if m_val != None:
 
@@ -192,7 +192,7 @@ class SolutionFunction(SolutionAbstract):
         if self._is_known_type(self.type()):
             for case, _ in cases:
                 m_cas = \
-                    re.search("Input[\w\W]+? (?P<in>[\w\W]+)[^\w]+Output.* *(?P<out>[\d+-]+|\[[^=]+\]|\"[^\n]+?\")",
+                    re.search("Input[\w\W]+? (?P<in>[\w\W]+)[^\w]+Output[^\[\"\']*(?P<out>[\d+-]+|\[[\w\W]*\]|\"[^\n]+?\")",
                               case)
                 if m_cas:
                     inp = self.__parse_input(m_cas.group("in").strip())
