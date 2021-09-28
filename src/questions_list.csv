@@ -1,6 +1,6 @@
 id,title,level,slug,done
 1,Two Sum,1,two-sum,1
-2,Add Two Numbers,2,add-two-numbers,0
+2,Add Two Numbers,2,add-two-numbers,1
 3,Longest Substring Without Repeating Characters,2,longest-substring-without-repeating-characters,1
 4,Median of Two Sorted Arrays,3,median-of-two-sorted-arrays,0
 5,Longest Palindromic Substring,2,longest-palindromic-substring,1

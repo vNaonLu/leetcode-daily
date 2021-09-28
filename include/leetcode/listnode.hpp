@@ -66,14 +66,14 @@ class ListNode final {
 vector<vector<ListNode>> ListNode::keep_ = {};
 
 #ifdef EXPECT_EQ
-#define EXPECT_LISTNODE_EQ(val1, val2)        \
-  ListNode *tval1 = val1, *tval2 = val2;      \
-  if (tval1 != nullptr && tval2 != nullptr) { \
-    EXPECT_EQ(*tval1, *tval2);                \
-  } else {                                    \
-    EXPECT_EQ(tval1, tval2);                  \
-  }                                           \
-  ListNode::release({tval1, tval2});
+#define EXPECT_LISTNODE_EQ(val1, val2)          \
+  ListNode *actual = val1, *expect = val2;      \
+  if (actual != nullptr && expect != nullptr) { \
+    EXPECT_EQ(*actual, *expect);                \
+  } else {                                      \
+    EXPECT_EQ(actual, expect);                  \
+  }                                             \
+  ListNode::release({actual, expect});
 #endif
 
 #endif
