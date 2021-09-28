@@ -74,10 +74,10 @@ def __main():
     log_csv = pathlib.Path(options.log).resolve()
 
     if not os.path.exists(list_csv):
-        pmt.show(pmt.fail("The question list is not found in: {}".format(list_csv),
+        pmt.show(pmt.fail("The question list not found: {}".format(list_csv),
                           "x"))
     elif not os.path.exists(log_csv):
-        pmt.show(pmt.fail("The log file is not found in: {}".format(log_csv),
+        pmt.show(pmt.fail("The log file not found: {}".format(log_csv),
                           "x"))
     else:
         idsmap, queslist, levelcnt = __read_question_list(list_csv)

@@ -79,7 +79,7 @@ def __main():
 
     for id in args:
         qfile = local.QuestionSource(int(id), sour_path)
-        pmt.pending("Requesting a slug with question id {}...".format(id))
+        pmt.pending("Requesting a slug with question id {}".format(id))
         slug = LeetCodeRequest.question_slug(qfile.id())
         if slug == None:
             pmt.recieve(
@@ -87,7 +87,7 @@ def __main():
             continue
         pmt.recieve(pmt.succ("Successfully get the slug \"{}\".".format(slug),
                              "v"))
-        pmt.pending("Requesting a details of question \"{}\"...".format(slug))
+        pmt.pending("Requesting a details of question \"{}\"".format(slug))
         ques = LeetCodeQuestion(slug)
         pmt.recieve(
             pmt.succ("Successfully received the details \"{}\".".format(slug),
@@ -124,7 +124,7 @@ def __main():
 
     if question_added:
         if not os.path.exists(list_csv):
-            pmt.pending("Requesting the question list...")
+            pmt.pending("Requesting the question list")
             question_list = LeetCodeRequest.questions()
             pmt.recieve(pmt.succ("Successfully received the question list.", "v"))
             generate.question_list(list_csv, question_list)

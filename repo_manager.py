@@ -3,6 +3,93 @@ import optparse
 import pathlib
 import subprocess
 import os
+import shutil
+from tools.utils import prompt as pmt
+
+_file_path = pathlib.Path(__file__).parent
+
+
+def _run_process(argc: list[str], hide: bool = False):
+    if hide:
+        return subprocess.run(argc,
+                              stdout=subprocess.PIPE,
+                              stderr=subprocess.PIPE)
+    return subprocess.run(argc)
+
+
+def _build_option(options: optparse, args: list[str]):
+    dest = _file_path.joinpath(options.build_dest)
+    operation: subprocess.CompletedProcess = None
+    if options.cln_identifier:
+        operation = "clean"
+        if pathlib.Path.exists(dest):
+            shutil.rmtree(dest)
+            pmt.show(
+                pmt.succ("The directory has been removed: {}".format(dest), "-"))
+        else:
+            pmt.show(
+                pmt.fail("The directory not found: {}".format(dest), "x"))
+
+    if options.bud_identifier:
+        if not pathlib.Path.exists(dest):
+            pathlib.Path.mkdir(dest, parents=True, exist_ok=True)
+            pmt.show(
+                pmt.succ("The directory has been created: {}".format(dest), "+"))
+
+        pmt.pending("Configuring the CMakeLists.txt")
+        if options.debug_identifier:
+            operation = _run_process([
+                "cmake",
+                "-S", _file_path.resolve(),
+                "-B", dest.resolve(),
+                "-D", "CMAKE_BUILD_TYPE=Debug"], True)
+        else:
+            operation = _run_process([
+                "cmake",
+                "-S", _file_path.resolve(),
+                "-B", dest.resolve()], True)
+
+        if operation.returncode == 0:
+            pmt.recieve(
+                pmt.succ("Has been Configured the CMakeLists.txt!", "v"))
+        else:
+            pmt.recieve(
+                pmt.fail("Failed to Configure the CMakeLists.txt, the reason is below:", "x"))
+            pmt.show(operation.stderr.decode('unicode_escape'))
+
+        pmt.pending("Building the project")
+        operation = _run_process([
+            "cmake",
+            "--build", dest.resolve()], True)
+        if operation.returncode == 0:
+            pmt.recieve(
+                pmt.succ("Build the project successfully!", "v"))
+        else:
+            pmt.recieve(
+                pmt.fail("Failed to build the project, the reason is below:", "x"))
+            pmt.show(operation.stderr.decode('unicode_escape'))
+
+    if options.run_identifier:
+        if options.bud_identifier and operation.returncode != 0:
+            if not pmt.ask("The project has failed to build, run the old version"):
+                return operation
+
+        excute_file = dest.joinpath("unittest")
+        if not excute_file.exists():
+            operation = "fail"
+            pmt.show(pmt.fail("The project has not been built ever.", "x"))
+        else:
+            if len(args) == 0:
+                operation = _run_process([
+                    excute_file.resolve()])
+            else:
+                filter_arg: list[str] = []
+                for id in [int(n) for n in args]:
+                    filter_arg.append("q{}.*".format(id))
+                operation = _run_process([
+                    excute_file.resolve(),
+                    "--gtest_filter={}".format(":".join(filter_arg))])
+    return operation
 
 
 def __parser():
@@ -59,7 +146,7 @@ def __parser():
 def __main():
     parser = __parser()
     options, args = parser.parse_args()
-    operation = None
+    operation: subprocess.CompletedProcess = None
 
     # from tools.leetcode.question import LeetCodeQuestion
     # from tools.leetcode import request as Rq
@@ -75,91 +162,50 @@ def __main():
     if options.add_identifier and options.del_identifier:
         parser.error("options --add and --del are mutually exclusive.")
 
-    file_path = pathlib.Path(__file__).parent
     if options.add_identifier:
         if len(args) == 0:
-            print("Usage: {} -a id1 id2 ...".format(os.path.basename(__file__)))
+            pmt.show("Usage: {} -a id1 id2 ...".format(os.path.basename(__file__)))
             return
-        operation = subprocess.run([
+        operation = _run_process([
             "python3",
-            file_path.joinpath("./tools/leetcode_add.py").resolve(),
+            _file_path.joinpath("./tools/leetcode_add.py").resolve(),
             "--out",
-            file_path.joinpath("./src/").resolve(),
+            _file_path.joinpath("./src/").resolve(),
             "--question-list",
-            file_path.joinpath("./src/questions_list.csv").resolve(),
+            _file_path.joinpath("./src/questions_list.csv").resolve(),
             "--question-log",
-            file_path.joinpath("./src/logs.csv").resolve()] + args)
+            _file_path.joinpath("./src/logs.csv").resolve()] + args)
 
     if options.del_identifier:
         if len(args) == 0:
-            print("Usage: {} -d id1 id2 ...".format(os.path.basename(__file__)))
+            pmt.show("Usage: {} -d id1 id2 ...".format(os.path.basename(__file__)))
             return
-        operation = subprocess.run([
+        operation = _run_process([
             "python3",
-            file_path.joinpath("./tools/leetcode_del.py").resolve(),
+            _file_path.joinpath("./tools/leetcode_del.py").resolve(),
             "--out",
-            file_path.joinpath("./src/").resolve(),
+            _file_path.joinpath("./src/").resolve(),
             "--question-list",
-            file_path.joinpath("./src/questions_list.csv").resolve(),
+            _file_path.joinpath("./src/questions_list.csv").resolve(),
             "--question-log",
-            file_path.joinpath("./src/logs.csv").resolve()] + args)
+            _file_path.joinpath("./src/logs.csv").resolve()] + args)
 
     if options.rdm_identifier:
-        operation = subprocess.run([
+        operation = _run_process([
             "python3",
-            file_path.joinpath("./tools/leetcode_rdm.py").resolve(),
+            _file_path.joinpath("./tools/leetcode_rdm.py").resolve(),
             "--out",
-            file_path.joinpath("./README.md").resolve(),
+            _file_path.joinpath("./README.md").resolve(),
             "--question-list",
-            file_path.joinpath("./src/questions_list.csv").resolve(),
+            _file_path.joinpath("./src/questions_list.csv").resolve(),
             "--question-log",
-            file_path.joinpath("./src/logs.csv").resolve()] + args)
+            _file_path.joinpath("./src/logs.csv").resolve()] + args)
 
     if options.bud_identifier or options.cln_identifier or options.run_identifier:
-        dest = file_path.joinpath(options.build_dest)
-        if not pathlib.Path.exists(dest):
-            pathlib.Path.mkdir(dest, parents=True, exist_ok=True)
-            print("[+] create a directory: {}".format(dest))
-
-        if options.cln_identifier:
-            operation = subprocess.run([
-                "cmake",
-                "--build", dest.resolve(),
-                "--target", "clean"])
-
-        if options.bud_identifier:
-            if options.debug_identifier:
-                operation = subprocess.run([
-                    "cmake",
-                    "-S", file_path.resolve(),
-                    "-B", dest.resolve(),
-                    "-D", "CMAKE_BUILD_TYPE=Debug"])
-            else:
-                operation = subprocess.run([
-                    "cmake",
-                    "-S", file_path.resolve(),
-                    "-B", dest.resolve()])
-            operation = subprocess.run([
-                "cmake",
-                "--build", dest.resolve()])
-
-        if options.run_identifier:
-            excute_file = dest.joinpath("unittest")
-            if excute_file.exists():
-                if len(args) == 0:
-                    operation = subprocess.run([excute_file.resolve()])
-                else:
-                    filter_arg: list[str] = []
-                    for id in [int(n) for n in args]:
-                        filter_arg.append("q{}.*".format(id))
-                    operation = subprocess.run([
-                        excute_file.resolve(),
-                        "--gtest_filter={}".format(":".join(filter_arg))])
-            else:
-                print("[x] you need to build project first.")
+        operation = _build_option(options, args)
 
     if operation == None:
-        print("Usage: {} [options] id1 id2 ...".format(
+        pmt.show("Usage: {} [options] id1 id2 ...".format(
             os.path.basename(__file__)))
 
 
