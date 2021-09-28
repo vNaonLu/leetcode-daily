@@ -5,6 +5,7 @@ import subprocess
 import os
 import shutil
 from tools.utils import prompt as pmt
+from tools.utils import local
 
 _file_path = pathlib.Path(__file__).parent
 
@@ -100,12 +101,12 @@ def __parser():
                           dest="add_identifier",
                           action="store_true",
                           default=False,
-                          help="feature to add question and modify README and src automatically with args id.")
+                          help="feature to add question and modify README and src automatically with arg ids.")
     proj_group.add_option("-d", "--del",
                           dest="del_identifier",
                           action="store_true",
                           default=False,
-                          help="feature to delete question and modify README and src automatically with args id.")
+                          help="feature to delete question and modify README and src automatically with arg ids.")
     proj_group.add_option("-R", "--update-readme",
                           dest="rdm_identifier",
                           action="store_true",
@@ -127,8 +128,8 @@ def __parser():
                            dest="run_identifier",
                            action="store_true",
                            default=False,
-                           help="run the unittest with args id.")
-    build_group.add_option("--build-dest",
+                           help="run the unittest with arg ids.")
+    build_group.add_option("--b-dest",
                            dest="build_dest",
                            action="store",
                            default="./build",
