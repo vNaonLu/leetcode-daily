@@ -26,9 +26,7 @@ class ListNode final {
                                     next(next),
                                     generate_by_test(false) {}
 
-  ~ListNode() {
-    if (next != nullptr && !next->generate_by_test) delete next;
-  }
+  ~ListNode() {}
 
  private:
   static vector<vector<ListNode>>
@@ -58,8 +56,17 @@ class ListNode final {
   }
 
   inline static void release(initializer_list<ListNode *> p) {
-    for (auto node : p)
-      if (node != nullptr && !node->generate_by_test) delete node;
+    for (auto node : p) {
+      vector<ListNode *> cand;
+      ListNode *q = node;
+      while (q != nullptr) {
+        if (!q->generate_by_test)
+          cand.push_back(q);
+        q = q->next;
+      }
+      for (auto candtodel : cand)
+        delete candtodel;
+    }
   }
 };
 
