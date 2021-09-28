@@ -55,7 +55,7 @@ My daily challenge on leetcode since 2021/09/06.
 - [ ] 0044 Wildcard Matching
 - [ ] 0045 Jump Game II
 - [x] 0046 [Permutations](src/q_1_50/q0046.hpp)
-- [ ] 0047 Permutations II
+- [x] 0047 [Permutations II](src/q_1_50/q0047.hpp)
 - [x] 0048 [Rotate Image](src/q_1_50/q0048.hpp)
 - [x] 0049 [Group Anagrams](src/q_1_50/q0049.hpp)
 - [ ] 0050 Pow(x, n)
@@ -2062,6 +2062,7 @@ My daily challenge on leetcode since 2021/09/06.
 
 |Date|File|#|Question Title|Difficulty|
 |:-:|:-:|--:|:--|:--|
+|20210928<br>|[📄](src/q_1_50/q0047.hpp)|47|[Permutations II](https://leetcode.com/problems/permutations-ii/)|Medium|
 |20210927<br><br><br><br><br>|[📄](src/q_1_50/q0005.hpp)<br>[📄](src/q_51_100/q0078.hpp)<br>[📄](src/q_51_100/q0090.hpp)<br>[📄](src/q_151_200/q0187.hpp)<br>[📄](src/q_901_950/q0929.hpp)|5<br>78<br>90<br>187<br>929|[Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/)<br>[Subsets](https://leetcode.com/problems/subsets/)<br>[Subsets II](https://leetcode.com/problems/subsets-ii/)<br>[Repeated DNA Sequences](https://leetcode.com/problems/repeated-dna-sequences/)<br>[Unique Email Addresses](https://leetcode.com/problems/unique-email-addresses/)|Medium<br>Medium<br>Medium<br>Medium<br>Easy|
 |20210926<br><br><br><br><br><br>|[📄](src/q_1_50/q0043.hpp)<br>[📄](src/q_1_50/q0049.hpp)<br>[📄](src/q_101_150/q0130.hpp)<br>[📄](src/q_751_800/q0782.hpp)<br>[📄](src/q_751_800/q0797.hpp)<br>[📄](src/q_1051_1100/q1091.hpp)|43<br>49<br>130<br>782<br>797<br>1091|[Multiply Strings](https://leetcode.com/problems/multiply-strings/)<br>[Group Anagrams](https://leetcode.com/problems/group-anagrams/)<br>[Surrounded Regions](https://leetcode.com/problems/surrounded-regions/)<br>[Transform to Chessboard](https://leetcode.com/problems/transform-to-chessboard/)<br>[All Paths From Source to Target](https://leetcode.com/problems/all-paths-from-source-to-target/)<br>[Shortest Path in Binary Matrix](https://leetcode.com/problems/shortest-path-in-binary-matrix/)|Medium<br>Medium<br>Medium<br>Hard<br>Medium<br>Medium|
 |20210925<br><br><br><br><br>|[📄](src/q_101_150/q0117.hpp)<br>[📄](src/q_251_300/q0290.hpp)<br>[📄](src/q_551_600/q0572.hpp)<br>[📄](src/q_751_800/q0763.hpp)<br>[📄](src/q_1251_1300/q1293.hpp)|117<br>290<br>572<br>763<br>1293|[Populating Next Right Pointers in Each Node II](https://leetcode.com/problems/populating-next-right-pointers-in-each-node-ii/)<br>[Word Pattern](https://leetcode.com/problems/word-pattern/)<br>[Subtree of Another Tree](https://leetcode.com/problems/subtree-of-another-tree/)<br>[Partition Labels](https://leetcode.com/problems/partition-labels/)<br>[Shortest Path in a Grid with Obstacles Elimination](https://leetcode.com/problems/shortest-path-in-a-grid-with-obstacles-elimination/)|Medium<br>Easy<br>Easy<br>Medium<br>Hard|

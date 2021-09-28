@@ -45,7 +45,7 @@ id,title,level,slug,done
 44,Wildcard Matching,3,wildcard-matching,0
 45,Jump Game II,2,jump-game-ii,0
 46,Permutations,2,permutations,1
-47,Permutations II,2,permutations-ii,0
+47,Permutations II,2,permutations-ii,1
 48,Rotate Image,2,rotate-image,1
 49,Group Anagrams,2,group-anagrams,1
 50,"Pow(x, n)",2,powx-n,0
