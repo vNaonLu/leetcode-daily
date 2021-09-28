@@ -45,7 +45,7 @@ def __parser():
                            action="store",
                            default="./build",
                            help="the destination to build.")
-    build_group.add_option("--debug",
+    build_group.add_option("-D", "--debug",
                            dest="debug_identifier",
                            action="store_true",
                            default=False,
