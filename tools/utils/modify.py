@@ -5,12 +5,12 @@ from . import local, prompt as pmt
 
 
 def __modify_prompt(file: str):
-    pmt.show(pmt.succ("The file has been modified: {}".format(file),
+    pmt.show(pmt.succ("\033[37mThe file has been modified: \033[0m{}".format(file),
                       "+"))
 
 
 def __delete_prompt(file: str):
-    pmt.show(pmt.succ("The file has been deleted : {}".format(file),
+    pmt.show(pmt.succ("\033[37mThe file has been deleted : \033[0m{}".format(file),
                       "-"))
 
 
@@ -18,7 +18,7 @@ def remove(path: str):
     try:
         os.remove(path)
     except OSError as e:
-        pmt.show(pmt.fail("{}: {}".format(e.strerror, path), "x"))
+        pmt.show(pmt.fail("\033[37m{}: \033[0m{}".format(e.strerror, path), "x"))
         return False
     else:
         __delete_prompt(path)

@@ -25,16 +25,16 @@ def _build_option(options: optparse, args: list[str]):
         if pathlib.Path.exists(dest):
             shutil.rmtree(dest)
             pmt.show(
-                pmt.succ("The directory has been removed: {}".format(dest), "-"))
+                pmt.succ("\033[37mThe directory has been removed:\033[0m {}".format(dest), "-"))
         else:
             pmt.show(
-                pmt.fail("The directory not found: {}".format(dest), "x"))
+                pmt.fail("\033[37mThe directory not found: \033[0m{}".format(dest), "x"))
 
     if options.bud_identifier:
         if not pathlib.Path.exists(dest):
             pathlib.Path.mkdir(dest, parents=True, exist_ok=True)
             pmt.show(
-                pmt.succ("The directory has been created: {}".format(dest), "+"))
+                pmt.succ("\033[37mThe directory has been created: \033[0m{}".format(dest), "+"))
 
         pmt.pending("Configuring the CMakeLists.txt")
         if options.debug_identifier:
@@ -51,10 +51,10 @@ def _build_option(options: optparse, args: list[str]):
 
         if operation.returncode == 0:
             pmt.recieve(
-                pmt.succ("Has been Configured the CMakeLists.txt!", "v"))
+                pmt.succ("\033[37mHas been Configured the CMakeLists.txt!\033[0m", "v"))
         else:
             pmt.recieve(
-                pmt.fail("Failed to Configure the CMakeLists.txt, the reason is below:", "x"))
+                pmt.fail("\033[37mFailed to Configure the CMakeLists.txt, the reason is below:\033[0m", "x"))
             pmt.show(operation.stderr.decode('unicode_escape'))
 
         pmt.pending("Building the project")
@@ -63,10 +63,10 @@ def _build_option(options: optparse, args: list[str]):
             "--build", dest.resolve()], True)
         if operation.returncode == 0:
             pmt.recieve(
-                pmt.succ("Build the project successfully!", "v"))
+                pmt.succ("\033[37mBuild the project successfully!\033[0m", "v"))
         else:
             pmt.recieve(
-                pmt.fail("Failed to build the project, the reason is below:", "x"))
+                pmt.fail("\033[37mFailed to build the project, the reason is below:\033[0m", "x"))
             pmt.show(operation.stderr.decode('unicode_escape'))
 
     if options.run_identifier:
@@ -77,7 +77,8 @@ def _build_option(options: optparse, args: list[str]):
         excute_file = dest.joinpath("unittest")
         if not excute_file.exists():
             operation = "fail"
-            pmt.show(pmt.fail("The project has not been built ever.", "x"))
+            pmt.show(
+                pmt.fail("\033[37mThe project has not been built ever.\033[0m", "x"))
         else:
             if len(args) == 0:
                 operation = _run_process([

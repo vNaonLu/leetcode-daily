@@ -10,18 +10,12 @@ def show(pmt: str):
     print(pmt)
 
 
-def succ(prompt: str, syb: str = "+", bold: bool = False):
-    if bold:
-        return "\033[0;32m[{}] \033[1;32m{}\033[0m".format(syb, prompt)
-    else:
-        return "\033[32m[{}] \033[0;37m{}\033[0m".format(syb, prompt)
+def succ(prompt: str, syb: str = "+"):
+    return "\033[32m[{}] \033[0m{}".format(syb, prompt)
 
 
-def fail(prompt: str, syb: str, bold: bool = False):
-    if bold:
-        return "\033[0;31m[{}] \033[1;31m{}\033[0m".format(syb, prompt)
-    else:
-        return "\033[31m[{}] \033[0;31m{}\033[0m".format(syb, prompt)
+def fail(prompt: str, syb: str):
+    return "\033[31m[{}] \033[0m{}".format(syb, prompt)
 
 
 def ask(pmt: str):

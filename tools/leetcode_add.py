@@ -15,7 +15,7 @@ def __add_question(qfile: local.QuestionSource, ques: LeetCodeQuestion):
                              70)
 
     if os.path.exists(qfile.src()):
-        pmt.show(pmt.fail("The file has already exist: {}".format(qfile.src()),
+        pmt.show(pmt.fail("\033[37mThe file has already exist: \033[0m{}".format(qfile.src()),
                           "!"))
         return False
     else:
@@ -23,7 +23,7 @@ def __add_question(qfile: local.QuestionSource, ques: LeetCodeQuestion):
         subprocess.run(["open", qfile.src()])
 
     if os.path.exists(qfile.unittest()):
-        pmt.show(pmt.fail("The file has already exist: {}".format(qfile.unittest()),
+        pmt.show(pmt.fail("\033[37mThe file has already exist: \033[0m{}".format(qfile.unittest()),
                           "!"))
         return False
     else:
@@ -79,24 +79,26 @@ def __main():
 
     for id in args:
         qfile = local.QuestionSource(int(id), sour_path)
-        pmt.pending("Requesting a slug with question id {}".format(id))
+        pmt.pending(
+            "\033[37mRequesting a slug with question id {}\033[0m".format(id))
         slug = LeetCodeRequest.question_slug(qfile.id())
         if slug == None:
             pmt.recieve(
-                pmt.fail("There is no question with id {}!".format(id), "x"))
+                pmt.fail("\033[37mThere is no question with id {}\033[0m!".format(id), "x"))
             continue
-        pmt.recieve(pmt.succ("Successfully get the slug \"{}\".".format(slug),
+        pmt.recieve(pmt.succ("\033[37mSuccessfully get the slug \"{}\".\033[0m".format(slug),
                              "v"))
-        pmt.pending("Requesting a details of question \"{}\"".format(slug))
+        pmt.pending(
+            "\033[37mRequesting a details of question \"{}\"\033[0m".format(slug))
         ques = LeetCodeQuestion(slug)
         pmt.recieve(
-            pmt.succ("Successfully received the details \"{}\".".format(slug),
+            pmt.succ("\033[37mSuccessfully received the details \"{}\".\033[0m".format(slug),
                      "v"))
 
         if not os.path.isdir(qfile.path()):
             os.makedirs(qfile.path())
             pmt.show(
-                pmt.succ("The directory has been created: {}".format(qfile.path()),
+                pmt.succ("\033[37mThe directory has been created:\033[0m {}".format(qfile.path()),
                          "+"))
             modify_mainunittest = True
 
@@ -106,7 +108,7 @@ def __main():
             question_added = True
         else:
             pmt.show(
-                pmt.fail("Failed to generate question #{}!".format(qfile.id()), "x"))
+                pmt.fail("\033[37mFailed to generate question #{}!\033[0m".format(qfile.id()), "x"))
 
     for subunittest in modify_subunittest:
         subsrc = os.path.join(sour_path, subunittest)
@@ -124,9 +126,10 @@ def __main():
 
     if question_added:
         if not os.path.exists(list_csv):
-            pmt.pending("Requesting the question list")
+            pmt.pending("\033[37mRequesting the question list\033[0m")
             question_list = LeetCodeRequest.questions()
-            pmt.recieve(pmt.succ("Successfully received the question list.", "v"))
+            pmt.recieve(
+                pmt.succ("\033[37mSuccessfully received the question list.\033[0m", "v"))
             generate.question_list(list_csv, question_list)
         solved = local.solved_question_ids(sour_path)
         modify.done_question(list_csv, solved)
