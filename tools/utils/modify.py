@@ -18,7 +18,7 @@ def remove(path: str):
     try:
         os.remove(path)
     except OSError as e:
-        pmt.show(pmt.fail("\033[37m{}: \033[0m{}".format(e.strerror, path), "x"))
+        pmt.show(pmt.fail("\033[37m{} : \033[0m{}".format(e.strerror, path), "x"))
         return False
     else:
         __delete_prompt(path)
