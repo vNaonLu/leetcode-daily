@@ -37,7 +37,7 @@ id,title,level,slug,done
 36,Valid Sudoku,2,valid-sudoku,1
 37,Sudoku Solver,3,sudoku-solver,0
 38,Count and Say,2,count-and-say,0
-39,Combination Sum,2,combination-sum,0
+39,Combination Sum,2,combination-sum,1
 40,Combination Sum II,2,combination-sum-ii,0
 41,First Missing Positive,3,first-missing-positive,0
 42,Trapping Rain Water,3,trapping-rain-water,0
