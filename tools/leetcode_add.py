@@ -106,7 +106,7 @@ def __main():
             question_added = True
         else:
             pmt.show(
-                pmt.fail("Failed to generate question #{}".format(qfile.id()), "x"))
+                pmt.fail("Failed to generate question #{}!".format(qfile.id()), "x"))
 
     for subunittest in modify_subunittest:
         subsrc = os.path.join(sour_path, subunittest)
@@ -124,7 +124,9 @@ def __main():
 
     if question_added:
         if not os.path.exists(list_csv):
+            pmt.pending("Requesting the question list...")
             question_list = LeetCodeRequest.questions()
+            pmt.recieve(pmt.succ("Successfully received the question list.", "v"))
             generate.question_list(list_csv, question_list)
         solved = local.solved_question_ids(sour_path)
         modify.done_question(list_csv, solved)

@@ -1,4 +1,3 @@
-import time
 import csv
 import re
 import os
@@ -146,34 +145,10 @@ def __table(line: list[str], obj: dict[str, any]):
     return line
 
 
-def readme(readme: str, qlist: str, log: str):
-    ids_map: dict[int, dict[str, any]] = {}
-    quest_list: list[str] = []
-    with open(qlist, "r") as f:
-        rows = csv.DictReader(f, delimiter=',')
-        for row in rows:
-            ids_map[int(row["id"])] = row
-            if row["done"] == "1":
-                quest_list.append("- [x] {} [{}]({})".format(
-                    row["id"].zfill(4),
-                    row["title"],
-                    "src/{}/q{}.hpp".format(
-                        local.id_folder(int(row["id"])),
-                        row["id"].zfill(4))))
-            else:
-                quest_list.append("- [ ] {} {}".format(
-                    row["id"].zfill(4),
-                    row["title"]))
-
-    log_map: dict[int, list[int]] = {}
-    with open(log, "r") as f:
-        rows = csv.reader(f, delimiter=",")
-        for row in rows:
-            date = time.strftime("%Y%m%d", time.localtime(int(row[0])))
-            if not log_map.get(date):
-                log_map[date] = []
-            log_map[date].append(int(row[1]))
-
+def readme(readme: str,
+           ids_map: dict[int, dict[str, any]], 
+           log_map: dict[int, list[int]],
+           quest_list: list[str]):
     with open(readme, "w") as f:
         f.write("\n".join([
             "# Daily Leetcode in C++",
