@@ -140,7 +140,7 @@ id,title,level,slug,done
 139,Word Break,2,word-break,0
 140,Word Break II,3,word-break-ii,0
 141,Linked List Cycle,1,linked-list-cycle,1
-142,Linked List Cycle II,2,linked-list-cycle-ii,0
+142,Linked List Cycle II,2,linked-list-cycle-ii,1
 143,Reorder List,2,reorder-list,0
 144,Binary Tree Preorder Traversal,1,binary-tree-preorder-traversal,1
 145,Binary Tree Postorder Traversal,1,binary-tree-postorder-traversal,1
