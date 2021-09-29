@@ -118,16 +118,15 @@ class SolutionFunction(SolutionAbstract):
     def __parse_codesnippets(self, code_snippet: list[str]):
         for line in code_snippet:
             match = \
-                re.search("(?P<return_type>[\w<>*]+) +(?P<function_name>\w*)\((?P<args>.*)\) {",
+                re.search("(?P<return_type>[\w<> ]+[*]{0,1}) *(?P<function_name>\w*)\((?P<args>.*)\) {",
                           line)
             if match:
                 self._name = match.group("function_name")
                 self._type = match.group("return_type")
                 self._parse_type(self._type)
-                args = match.group("args").split(",")
-                for arg in args:
+                for arg in match.group("args").split(","):
                     m_arg = \
-                        re.search("(?P<type>[\w<>*]+)&{0,1} +(?P<name>[\w]+)",
+                        re.search("(?P<type>[\w<> ]+[&*]{0,1}) *(?P<name>[\w]+)",
                                   arg)
                     self._parse_type(m_arg.group("type"))
                     self._args[m_arg.group("name")] = m_arg.group("type")
