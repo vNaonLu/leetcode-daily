@@ -20,7 +20,7 @@ id,title,level,slug,done
 19,Remove Nth Node From End of List,2,remove-nth-node-from-end-of-list,1
 20,Valid Parentheses,1,valid-parentheses,1
 21,Merge Two Sorted Lists,1,merge-two-sorted-lists,1
-22,Generate Parentheses,2,generate-parentheses,0
+22,Generate Parentheses,2,generate-parentheses,1
 23,Merge k Sorted Lists,3,merge-k-sorted-lists,0
 24,Swap Nodes in Pairs,2,swap-nodes-in-pairs,0
 25,Reverse Nodes in k-Group,3,reverse-nodes-in-k-group,0
