@@ -158,7 +158,7 @@ id,title,level,slug,done
 157,Read N Characters Given Read4,1,read-n-characters-given-read4,0
 158,Read N Characters Given Read4 II - Call multiple times,3,read-n-characters-given-read4-ii-call-multiple-times,0
 159,Longest Substring with At Most Two Distinct Characters,2,longest-substring-with-at-most-two-distinct-characters,0
-160,Intersection of Two Linked Lists,1,intersection-of-two-linked-lists,0
+160,Intersection of Two Linked Lists,1,intersection-of-two-linked-lists,1
 161,One Edit Distance,2,one-edit-distance,0
 162,Find Peak Element,2,find-peak-element,1
 163,Missing Ranges,1,missing-ranges,0
