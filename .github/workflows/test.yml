@@ -17,15 +17,15 @@ jobs:
     steps:
       - uses: actions/checkout@v2
 
-      - name: Install Requirement
+      - name: Configure CMakeLists.txt
         run: |
-          python3 -m pip install -r tools/requirements.txt
+          cmake . -D CMAKE_BUILD_TYPE=Debug
 
       - name: Build Source
         run: |
-          python3 ./repo_manager.py -B --debug
+          cmake --build .
 
       - name: Run Unittest
         run: |
-          python3 ./repo_manager.py -r
+          ./unittest
 
