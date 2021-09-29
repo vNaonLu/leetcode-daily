@@ -723,7 +723,7 @@ id,title,level,slug,done
 722,Remove Comments,2,remove-comments,0
 723,Candy Crush,2,candy-crush,0
 724,Find Pivot Index,1,find-pivot-index,0
-725,Split Linked List in Parts,2,split-linked-list-in-parts,0
+725,Split Linked List in Parts,2,split-linked-list-in-parts,1
 726,Number of Atoms,3,number-of-atoms,0
 727,Minimum Window Subsequence,3,minimum-window-subsequence,0
 728,Self Dividing Numbers,1,self-dividing-numbers,0

@@ -49,7 +49,7 @@ class SolutionFunction(SolutionAbstract):
     def __parse_codesnippets(self, code_snippet: list[str]):
         for line in code_snippet:
             match = \
-                re.search("(?P<return_type>[\w<>]+|[\w<> ]+[*]) *(?P<function_name>\w*)\((?P<args>.*)\) {",
+                re.search("(?P<return_type>\w+|\w+<[\w\W]+>|\w+? *\*) *(?P<function_name>\w+)\((?P<args>.*)\) {",
                           line)
             if match:
                 self._name = match.group("function_name")

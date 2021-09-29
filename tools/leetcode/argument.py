@@ -25,17 +25,17 @@ class Argument:
 
     @staticmethod
     def generate(typename: str):
+        vector_match = re.search(" *(?P<type>vector<(?P<content>[\w*]+)>)",
+                                 typename)
+        if vector_match != None:
+            return VectorArgument(vector_match.group("type"),
+                                  vector_match.group("content"))
         list_match = re.search(" *(?P<type>ListNode *\*)", typename)
         if list_match != None:
             return ListNodeArgument(list_match.group("type"))
         tree_match = re.search(" *(?P<type>TreeNode *\*)", typename)
         if tree_match != None:
             return TreeNodeArgument(tree_match.group("type"))
-        vector_match = re.search(" *(?P<type>vector<(?P<content>\w+)>)",
-                                 typename)
-        if vector_match != None:
-            return VectorArgument(vector_match.group("type"),
-                                  vector_match.group("content"))
         integer_match = re.search(" *(?P<type>int|long)", typename)
         if integer_match != None:
             return IntegerArgument(integer_match.group("type"))
@@ -51,7 +51,7 @@ class Argument:
         string_match = re.search(" *(?P<type>string)", typename)
         if string_match != None:
             return StringArgument(string_match.group("type"))
-        return Argument()
+        return Argument(None)
 
 
 class IntegerArgument(Argument):
@@ -134,7 +134,7 @@ class VectorArgument(Argument):
                                  match.group("val"))
             return "{{{}}}".format(
                 ", ".join([self._content._parse_value(e) for e in element]))
-        return "\{\}"
+        return "{}"
 
     def is_valid(self):
         return self._content.is_valid()
