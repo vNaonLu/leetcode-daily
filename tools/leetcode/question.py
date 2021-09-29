@@ -1,56 +1,13 @@
 import re
 from . import request as LeetCodeRequest
-
-
-class CodePrettifier:
-    @staticmethod
-    def argument(type: str, value: str):
-        m_vec = re.search("vector<(?P<typ>.+)>", type)
-        m_chr = re.search("char", type)
-        m_lst = re.search("ListNode", type)
-        m_trn = re.search("TreeNode", type)
-        if m_vec:
-            m_typ = m_vec.group("typ")
-            m_val = re.search("\[(?P<val>[\w\W]*)\]", value)
-            m_val = m_val if m_val == None else m_val.group("val")
-            if m_val != None:
-
-                elm = \
-                    re.findall("(\[[\w\"\',]*\]|\"[^\n]+?\"|[\d.+-]+)",
-                               m_val)
-                val_in_vec = [CodePrettifier.argument(m_typ, e) for e in elm]
-                value = "{{{}}}".format(", ".join(val_in_vec))
-
-        elif m_chr:
-            value = re.sub("\"", "'", value)
-
-        elif m_lst:
-            m_val = re.search("\[(?P<val>[\w,]*)\]", value)
-            m_val = m_val if m_val == None else m_val.group("val")
-            if m_val:
-                m_val = re.sub(",", ", ", m_val)
-                value = "ListNode::generate({{{}}})".format(m_val)
-
-        elif m_trn:
-            m_val = re.search("\[(?P<val>[\w,]*)\]", value)
-            m_val = m_val if m_val == None else m_val.group("val")
-            if m_val:
-                m_val = re.sub(",", ", ", m_val)
-                m_val = re.sub("null", "NULL_TREENODE", m_val)
-                value = "TreeNode::generate({{{}}})".format(m_val)
-
-        return value
+from .argument import Argument
 
 
 class SolutionAbstract:
-    _type_pattern: list[str, str] = [("ListNode", "leetcode/listnode.hpp"), ("TreeNode", "leetcode/treenode.hpp"),
-                                     ("vector", "vector"), ("map", "map"),
-                                     ("unordered_map", "unordered_map"), ("string", "string")]
-
     def __init__(self, content: str):
-        self._type: str = None
+        self._type: Argument = None
         self._name: str = ""
-        self._args: dict[str, str] = {}
+        self._args: dict[str, Argument] = {}
         self._includes: set[str] = set()
         self._anyorder: bool = re.search("any order",
                                          content,
@@ -61,7 +18,7 @@ class SolutionAbstract:
         return self._name
 
     def type(self):
-        return self._type
+        return self._type.type()
 
     def isanyorder(self):
         return self._anyorder
@@ -75,39 +32,13 @@ class SolutionAbstract:
     def unittest_desc(self, desc: list[str]):
         return []
 
-    def _parse_type(self, type: str):
-        for pttn, include in self._type_pattern:
-            if re.search(pttn, type):
-                self._includes.add(include)
+    def _add_include(self, arg: Argument):
+        for include in arg.get_includes():
+            self._includes.add(include)
 
     def function(self):
         return "{}({})".format(self.name(),
                                ", ".join([name for name, _ in self.args()]))
-
-    @staticmethod
-    def _is_known_type(type: str):
-        primitive_pattern = "void|int|char|double|float|bool"
-        stllib_pattern = "vector|map|unoredered_map|set|unoredered_set|stack|queue|string"
-        custom_pattern = "ListNode|TreeNode"
-        single_container_pattern = "(?P<type>\w+)<(?P<val>\w+)>"
-        double_container_pattern = "(?P<type>\w+)<(?P<val1>\w+),[ ]*(?P<val2>\w+)>"
-
-        m_s = re.search(single_container_pattern, type)
-        if m_s:
-            return SolutionAbstract._is_known_type(m_s.group("type")) and \
-                SolutionAbstract._is_known_type(m_s.group("val"))
-        m_d = re.search(double_container_pattern, type)
-        if m_d:
-            return SolutionAbstract._is_known_type(m_d.group("type")) and \
-                SolutionAbstract._is_known_type(m_d.group("val1")) and \
-                SolutionAbstract._is_known_type(m_d.group("val2"))
-        if re.match(primitive_pattern, type):
-            return True
-        elif re.match(stllib_pattern, type):
-            return True
-        elif re.match(custom_pattern, type):
-            return True
-        return False
 
 
 class SolutionFunction(SolutionAbstract):
@@ -118,50 +49,52 @@ class SolutionFunction(SolutionAbstract):
     def __parse_codesnippets(self, code_snippet: list[str]):
         for line in code_snippet:
             match = \
-                re.search("(?P<return_type>[\w<> ]+[*]{0,1}) *(?P<function_name>\w*)\((?P<args>.*)\) {",
+                re.search("(?P<return_type>[\w<>]+|[\w<> ]+[*]) *(?P<function_name>\w*)\((?P<args>.*)\) {",
                           line)
             if match:
                 self._name = match.group("function_name")
-                self._type = match.group("return_type")
-                self._parse_type(self._type)
+                self._type = Argument.generate(match.group("return_type"))
+                self._add_include(self._type)
                 for arg in match.group("args").split(","):
                     m_arg = \
-                        re.search("(?P<type>[\w<> ]+[&*]{0,1}) *(?P<name>[\w]+)",
+                        re.search("(?P<type>[\w<> ]+[&*]{0,1}) +(?P<name>[\w]+)",
                                   arg)
-                    self._parse_type(m_arg.group("type"))
-                    self._args[m_arg.group("name")] = m_arg.group("type")
+                    if m_arg:
+                        arg = Argument.generate(m_arg.group("type"))
+                        self._add_include(arg)
+                        self._args[m_arg.group("name")] = arg
 
     def __parse_input(self, input: str):
         inputs: list[str] = []
-        matches = re.findall("(?P<name>\w+) = (?P<value>[\d+-]+|\[[^=]+\]|\"[^\n]+?\")",
+        matches = re.findall("(?P<name>\w+) = (?P<value>[.\d+-]+|\[[\w\W]*\]|\"[\w\W]*?\")",
                              input)
         for i in range(0, len(matches)):
-            # in order based on function arguments
-            arg_name, arg_type = self.args()[i]
-            value = matches[i][1]
-            if arg_type == None:
-                continue
-            value = CodePrettifier.argument(arg_type, value)
-            inputs.append("{} {} = {};".format(arg_type, arg_name, value))
+            if i < len(self.args()):
+                # in order based on function arguments
+                arg_name, argument = self.args()[i]
+                value = matches[i][1]
+                if argument == None:  # ???
+                    continue
+                inputs.append(argument.get_statement(arg_name, value))
+            else:
+                inputs.append("//{} = {}".format(matches[i][0], matches[i][1]))
         return inputs
 
     def __parse_output(self, output: str):
         outputs: list[str] = []
-        if self._type == "void":
+        if self.type() == "void":
             # assume adjust the first argument
-            _, type = self.args()[0]
-            output = CodePrettifier.argument(type, output)
-            outputs.append("{} exp = {};".format(type, output))
+            _, argument = self.args()[0]
+            outputs.append(argument.get_statement("exp", output))
             outputs.append("solver.{};".format(self.function()))
         else:
-            output = CodePrettifier.argument(self._type, output)
-            outputs.append("{} exp = {};".format(self._type, output))
+            outputs.append(self._type.get_statement("exp", output))
         return outputs
 
     def __expect_equation(self):
         expect: list[str] = []
         eq_arg1 = "solver." + self.function()
-        eq_type = self._type
+        eq_type = self.type()
 
         if self._type == "void":
             # assume adjust the first argument
@@ -188,10 +121,10 @@ class SolutionFunction(SolutionAbstract):
         res: list[list[str]] = []
         cases = re.findall("(?P<case>Input[\w\W]+?)([^\n]+Example|$)", content)
 
-        if self._is_known_type(self.type()):
+        if self._type.is_valid():
             for case, _ in cases:
                 m_cas = \
-                    re.search("Input[\w\W]+? (?P<in>[\w\W]+)[^\w]+Output[^\[\"\']*(?P<out>[\d+-]+|\[[\w\W]*\]|\"[^\n]+?\")",
+                    re.search("Input[\w\W]+? (?P<in>[\w\W]+)[^\w]+Output[^\[\"\'\w]*(?P<out>[\d+-]+|\[[\w\W]*\]|\"[^\n]+?\"|True|False|true|false)",
                               case)
                 if m_cas:
                     inp = self.__parse_input(m_cas.group("in").strip())
@@ -255,7 +188,7 @@ class LeetCodeQuestion:
             "=": "₌", "(": "₍", ")": "₎",
             "a": "ₐ", "d": "ᵈ", "e": "ₑ", "f": "ᶠ", "h": "ₕ",
             "i": "ᵢ", "j": "ⱼ", "k": "ₖ", "l": "ₗ", "m": "ₘ", "n": "ₙ",
-            "o": "ₒ", "p": "ₚ", "r": "ᵣ", "s": "ₛ", "t": "ₜ", "u": "ᵤ", 
+            "o": "ₒ", "p": "ₚ", "r": "ᵣ", "s": "ₛ", "t": "ₜ", "u": "ᵤ",
             "v": "ᵥ", "x": "ₓ"
         }
         relp: str = ""
@@ -279,11 +212,10 @@ class LeetCodeQuestion:
         for p, r in repl:
             content = re.sub(p, r, content)
         return " ‘{}’ ".format(content)
-    
+
     def __illist(match: re.Match):
         li = re.search(" *<li>(?P<content>[\w\W]*?)<\/li> *",
-                )
-
+                       )
 
     __repl = [
         ("&quot;(?P<content>[\w\W]*?)&quot;",                       # " "

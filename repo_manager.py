@@ -156,9 +156,14 @@ def __main():
     # if slug:
     #     q = LeetCodeQuestion(slug)
     #     s, u = q.template("prompt test", 70)
+    #     print()
+    #     print("=====================================================")
+    #     print()
     #     print(s)
-    #     # print("==============")
-    #     # print(u)
+    #     print()
+    #     print("=====================================================")
+    #     print()
+    #     print(u)
     # return
 
     if options.add_identifier and options.del_identifier:
