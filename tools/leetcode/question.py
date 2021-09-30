@@ -1,6 +1,6 @@
 import re
 from . import request as LeetCodeRequest
-from .argument import Argument
+from .argument import Argument, CustomArgument
 
 
 class SolutionAbstract:
@@ -13,6 +13,9 @@ class SolutionAbstract:
                                          content,
                                          re.IGNORECASE) != None
         self._includes.add("iostream")
+
+    def class_name(self):
+        return "Solution"
 
     def name(self):
         return self._name
@@ -29,8 +32,8 @@ class SolutionAbstract:
     def includes(self):
         return self._includes
 
-    def unittest_desc(self, desc: list[str]):
-        return []
+    def unittest_desc(self, content: str):
+        return None
 
     def _add_include(self, arg: Argument):
         for include in arg.get_includes():
@@ -42,7 +45,7 @@ class SolutionAbstract:
 
 
 class SolutionFunction(SolutionAbstract):
-    def __init__(self, code_snippet: list[str], content: str):
+    def __init__(self, code_snippet: list[str], content: str = ""):
         SolutionAbstract.__init__(self, content)
         self.__parse_codesnippets(code_snippet)
 
@@ -63,6 +66,7 @@ class SolutionFunction(SolutionAbstract):
                         arg = Argument.generate(m_arg.group("type"))
                         self._add_include(arg)
                         self._args[m_arg.group("name")] = arg
+                break
 
     def __parse_input(self, input: str):
         inputs: list[str] = []
@@ -92,32 +96,24 @@ class SolutionFunction(SolutionAbstract):
         return outputs
 
     def __expect_equation(self):
-        expect: list[str] = []
-        eq_arg1 = "solver." + self.function()
+        exp: list[str] = []
         eq_type = self.type()
 
-        if self._type == "void":
-            # assume adjust the first argument
+        if eq_type == "void":
             name, type = self.args()[0]
-            eq_type = type
-            eq_arg1 = name
-
-        if re.search("ListNode", eq_type):
-            expect.append("EXPECT_LISTNODE_EQ({}, exp);".format(eq_arg1))
-        elif re.search("TreeNode", eq_type):
-            expect.append("EXPECT_TREENODE_EQ({}, exp);".format(eq_arg1))
+            exp.append("// Assume the first argument is answer.")
+            exp.append(type.expect_compare(name, "exp"))
+        elif self._anyorder and re.search("vector", eq_type):
+            eq_arg = "solver." + self.function()
+            exp.append("// Try EXPECT_EQ_ANY_ORDER_RECURSIVE")
+            exp.append("// if the element is also matched in any order.")
+            exp.append("EXPECT_EQ_ANY_ORDER({}, exp);".format(eq_arg))
         else:
-            if self._anyorder and re.search("vector", self.type()):
-                expect.append("// Try EXPECT_EQ_ANY_ORDER_RECURSIVE")
-                expect.append(
-                    "// if the element is also matched in any order.")
-                expect.append("EXPECT_EQ_ANY_ORDER({}, exp);".format(eq_arg1))
-            else:
-                expect.append("EXPECT_EQ({}, exp);".format(eq_arg1))
+            eq_arg = "solver." + self.function()
+            exp.append(self._type.expect_compare(eq_arg, "exp"))
+        return exp
 
-        return expect
-
-    def unittest_desc(self, content: list[str]):
+    def unittest_desc(self, content: str):
         res: list[list[str]] = []
         cases = re.findall("(?P<case>Input[\w\W]+?)([^\n]+Example|$)", content)
 
@@ -134,25 +130,89 @@ class SolutionFunction(SolutionAbstract):
         return res
 
 
-class SolutionStructure(SolutionAbstract):
-    def __init__(self, code_snippet: list[str], content: str):
+class SolutionClass(SolutionAbstract):
+    def __init__(self, class_name: str, code_snippet: list[str], content: str = ""):
         SolutionAbstract.__init__(self, content)
+        self.__methods: dict[str, SolutionAbstract] = {}
+        self.__name = class_name
         self.__parse_codesnippets(code_snippet)
 
+    def class_name(self):
+        return self.__name
+
     def __parse_codesnippets(self, code_snippet: list[str]):
-        # does not implement structure
-        pass
+        for line in code_snippet:
+            if re.match(" *\w+ +\w+ *\([\w\W]*\) *{", line):
+                func = SolutionFunction([line])
+                self.__methods[func.name()] = func
+
+    def __expect_equation(self, input: str, answer: list[str]):
+        out: list[str] = []
+        split = re.findall("\[([^\[\]]*|\[.*\])\]", input)
+        functions = re.findall("\"(\w+)\"", split[0])
+        args_statement = re.findall("\[(.*?)\]", split[1])
+
+        if len(functions) != len(answer) or \
+                len(functions) != len(args_statement):
+            return out
+        for i in range(0, len(functions)):
+            if functions[i] not in self.__methods:
+                continue
+            method = self.__methods[functions[i]]
+            arg_input = re.findall("(\"[\w\W]*\"|[.\d+-]+|\[[\w\W]*\])",
+                                   args_statement[i])
+            if len(method.args()) != len(arg_input):
+                continue
+
+            args = []
+            for j in range(0, len(arg_input)):
+                _, t = method.args()[j]
+                args.append(t.parse_value(arg_input[j]))
+            actual = "solver.{}({})".format(method.name(),
+                                            ", ".join(args))
+            if method.type() == "void":
+                out.append("{};".format(actual))
+            else:
+                out.append(method._type.expect_compare(actual,
+                                                       method._type.parse_value(answer[i])))
+        return out
+
+    def __parse_output(self, output: str):
+        outputs: list[str] = []
+        match = re.search("\[(?P<out>.*?)\]", output)
+        if not match:
+            return outputs
+
+        outputs = re.findall("(null|\"[\w\W]*\"|[.\d+-]+|\[[\w\W]*\])",
+                             match.group("out"))
+        return outputs
+
+    def unittest_desc(self, content: str):
+        res: list[list[str]] = []
+        cases = re.findall("(?P<case>Input[\w\W]+?)([^\n]+Example|$)", content)
+        for case, _ in cases:
+            m_cas = \
+                re.search("Input[\w\W]+? (?P<in>[\w\W]+)[^\w]+Output[^\[\"\'\w]*(?P<out>\[[\w\W]*\])",
+                          case)
+            if m_cas:
+                ans = self.__parse_output(m_cas.group("out").strip())
+                res.append(self.__expect_equation(m_cas.group("in").strip(),
+                                                  ans))
+        return res
 
 
 class Solution:
     @staticmethod
     def generate_template(code_snippet: str, content: str):
         multi_lines = code_snippet.splitlines()
+
         for i in range(0, len(multi_lines)):
-            if re.match("class Solution {1,}{",
-                        multi_lines[i]):
+            match = re.search("class (?P<class_name>\w+) *{", multi_lines[i])
+            if match and match.group("class_name") == "Solution":
                 return SolutionFunction(multi_lines[i:], content)
-        return SolutionStructure(multi_lines, content)
+            else:
+                return SolutionClass(match.group("class_name"),
+                                     multi_lines[i:], content)
 
 
 class LeetCodeQuestion:
@@ -343,18 +403,6 @@ class LeetCodeQuestion:
     def includes(self):
         return self.__slttmp.includes()
 
-    def function(self):
-        return self.__slttmp.function()
-
-    def return_type(self):
-        return self.__slttmp.type()
-
-    def return_args(self):
-        return self.__slttmp.args()
-
-    def unittest_case(self):
-        return self.__testcase
-
     def __source(self, desc: str):
         return "\n".join([
             "",
@@ -377,7 +425,7 @@ class LeetCodeQuestion:
             return "\n".join([
                 "",
                 "TEST(q{}, NOT_IMPLEMENT) {{".format(self.id()),
-                "   EXPECT_TRUE(\"NOT IMPLEMENT\")",
+                "   EXPECT_TRUE(\"NOT IMPLEMENT\");",
                 "}"
             ])
         res: list[str] = []
@@ -386,7 +434,7 @@ class LeetCodeQuestion:
                 "",
                 "TEST(q{}, sample_input{}) {{".format(self.id(),
                                                       str(i+1).zfill(2)),
-                "  l{}::Solution solver;".format(self.id())] + [
+                "  l{}::{} solver;".format(self.id(), self.__slttmp.class_name())] + [
                 "  {}".format(line) for line in self.__testcase[i]] + [
                 "}"]))
         return "\n".join(res)

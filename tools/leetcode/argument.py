@@ -9,9 +9,9 @@ class Argument:
 
     def get_statement(self, name: str, value: str):
         return "{} {} = {};".format(self._type, name,
-                                    self._parse_value(value))
+                                    self.parse_value(value))
 
-    def _parse_value(self, value: str):
+    def parse_value(self, value: str):
         return value
 
     def type(self):
@@ -22,6 +22,9 @@ class Argument:
 
     def get_includes(self):
         return self._includes
+
+    def expect_compare(self, first_arg: str, second_arg: str):
+        return "EXPECT_EQ({}, {});".format(first_arg, second_arg)
 
     @staticmethod
     def generate(typename: str):
@@ -36,6 +39,9 @@ class Argument:
         tree_match = re.search(" *(?P<type>TreeNode *\*)", typename)
         if tree_match != None:
             return TreeNodeArgument(tree_match.group("type"))
+        void_match = re.search(" *(?P<type>void)", typename)
+        if void_match != None:
+            return VoidArgument(void_match.group("type"))
         integer_match = re.search(" *(?P<type>int|long)", typename)
         if integer_match != None:
             return IntegerArgument(integer_match.group("type"))
@@ -54,11 +60,27 @@ class Argument:
         return Argument(None)
 
 
+class CustomArgument(Argument):
+    def __init__(self, typename: str):
+        Argument.__init__(self, typename)
+
+    def is_valid(self):
+        return True
+
+
+class VoidArgument(Argument):
+    def __init__(self, typename: str):
+        Argument.__init__(self, typename)
+
+    def is_valid(self):
+        return True
+
+
 class IntegerArgument(Argument):
     def __init__(self, typename: str):
         Argument.__init__(self, typename)
 
-    def _parse_value(self, string: str):
+    def parse_value(self, string: str):
         match = re.search("(?P<val>[\d+-]+)", string)
         if match != None:
             return str(match.group("val"))
@@ -72,7 +94,7 @@ class FloatArgument(Argument):
     def __init__(self, typename: str):
         Argument.__init__(self, typename)
 
-    def _parse_value(self, string: str):
+    def parse_value(self, string: str):
         match = re.search("(?P<val>[\d.+-]+)", string)
         if match != None:
             return str(match.group("val"))
@@ -81,11 +103,12 @@ class FloatArgument(Argument):
     def is_valid(self):
         return True
 
+
 class BooleanArgument(Argument):
     def __init__(self, typename: str):
         Argument.__init__(self, typename)
 
-    def _parse_value(self, string: str):
+    def parse_value(self, string: str):
         match = re.search("(?P<val>true|false|True|False)", string)
         if match != None:
             return str(match.group("val"))
@@ -94,11 +117,12 @@ class BooleanArgument(Argument):
     def is_valid(self):
         return True
 
+
 class CharArgument(Argument):
     def __init__(self, typename: str):
         Argument.__init__(self, typename)
 
-    def _parse_value(self, string: str):
+    def parse_value(self, string: str):
         match = re.search("(?P<val>\'[\w\W]*\'|\"[\w\W]*\")", string)
         if match != None:
             return str(re.sub("\"", "\'", match.group("val")))
@@ -107,12 +131,13 @@ class CharArgument(Argument):
     def is_valid(self):
         return True
 
+
 class StringArgument(Argument):
     def __init__(self, typename: str):
         Argument.__init__(self, typename)
         self._includes.append("string")
 
-    def _parse_value(self, string: str):
+    def parse_value(self, string: str):
         match = re.search("(?P<val>\'[\w\W]*\'|\"[\w\W]*\")", string)
         if match != None:
             return str(match.group("val"))
@@ -121,23 +146,25 @@ class StringArgument(Argument):
     def is_valid(self):
         return True
 
+
 class VectorArgument(Argument):
     def __init__(self, typename: str, content: str):
         Argument.__init__(self, typename)
         self._content = Argument.generate(content)
         self._includes.append("vector")
 
-    def _parse_value(self, string: str):
+    def parse_value(self, string: str):
         match = re.search("\[(?P<val>[\w\W]*)\]", string)
         if match != None:
             element = re.findall("(\[[\w\"\',]*\]|\"[^\n]+?\"|[\d.+-]+)",
                                  match.group("val"))
             return "{{{}}}".format(
-                ", ".join([self._content._parse_value(e) for e in element]))
+                ", ".join([self._content.parse_value(e) for e in element]))
         return "{}"
 
     def is_valid(self):
         return self._content.is_valid()
+
 
 class ListNodeArgument(Argument):
     def __init__(self, typename: str):
@@ -145,11 +172,15 @@ class ListNodeArgument(Argument):
         self._content = Argument.generate("vector<int>")
         self._includes.append("leetcode/listnode.hpp")
 
-    def _parse_value(self, string: str):
-        return "ListNode::generate({})".format(self._content._parse_value(string))
+    def parse_value(self, string: str):
+        return "ListNode::generate({})".format(self._content.parse_value(string))
 
     def is_valid(self):
         return self._content.is_valid()
+
+    def expect_compare(self, first_arg: str, second_arg: str):
+        return "EXPECT_LISTNODE_EQ({}, {});".format(first_arg, second_arg)
+
 
 class TreeNodeArgument(Argument):
     def __init__(self, typename: str):
@@ -157,10 +188,13 @@ class TreeNodeArgument(Argument):
         self._content = Argument.generate("vector<int>")
         self._includes.append("leetcode/treenode.hpp")
 
-    def _parse_value(self, string: str):
-        val = self._content._parse_value(string)
+    def parse_value(self, string: str):
+        val = self._content.parse_value(string)
         val = re.sub("null", "NULL_TREENODE", val)
-        return "TreeNode::generate({})".format(self._content._parse_value(string))
+        return "TreeNode::generate({})".format(self._content.parse_value(string))
 
     def is_valid(self):
         return self._content.is_valid()
+
+    def expect_compare(self, first_arg: str, second_arg: str):
+        return "EXPECT_TREENODE_EQ({}, {});".format(first_arg, second_arg)
