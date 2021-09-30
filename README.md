@@ -714,7 +714,7 @@ My daily challenge on leetcode since 2021/09/06.
 - [x] 0695 [Max Area of Island](src/q_651_700/q0695.hpp)
 - [ ] 0696 Count Binary Substrings
 - [ ] 0697 Degree of an Array
-- [ ] 0698 Partition to K Equal Sum Subsets
+- [x] 0698 [Partition to K Equal Sum Subsets](src/q_651_700/q0698.hpp)
 - [ ] 0699 Falling Squares
 - [x] 0700 [Search in a Binary Search Tree](src/q_651_700/q0700.hpp)
 - [x] 0701 [Insert into a Binary Search Tree](src/q_701_750/q0701.hpp)
@@ -2062,6 +2062,7 @@ My daily challenge on leetcode since 2021/09/06.
 
 |Time|#|</>|Question Title|Difficulty|
 |:--|--:|:-:|:--|:--|
+|2021-09-30 15:33|698|[📎](../src/q_651_700/q0698.hpp)|[Partition to K Equal Sum Subsets](https://leetcode.com/problems/partition-to-k-equal-sum-subsets/)|Medium|
 |2021-09-30 14:17|707|[📎](../src/q_701_750/q0707.hpp)|[Design Linked List](https://leetcode.com/problems/design-linked-list/)|Medium|
 |2021-09-30 13:48|24|[📎](../src/q_1_50/q0024.hpp)|[Swap Nodes in Pairs](https://leetcode.com/problems/swap-nodes-in-pairs/)|Medium|
 |2021-09-30 13:40|55|[📎](../src/q_51_100/q0055.hpp)|[Jump Game](https://leetcode.com/problems/jump-game/)|Medium|
@@ -2086,10 +2087,9 @@ My daily challenge on leetcode since 2021/09/06.
 |2021-09-26 18:28|43|[📎](../src/q_1_50/q0043.hpp)|[Multiply Strings](https://leetcode.com/problems/multiply-strings/)|Medium|
 |2021-09-26 17:38|49|[📎](../src/q_1_50/q0049.hpp)|[Group Anagrams](https://leetcode.com/problems/group-anagrams/)|Medium|
 |2021-09-26 15:53|797|[📎](../src/q_751_800/q0797.hpp)|[All Paths From Source to Target](https://leetcode.com/problems/all-paths-from-source-to-target/)|Medium|
-|2021-09-26 15:27|130|[📎](../src/q_101_150/q0130.hpp)|[Surrounded Regions](https://leetcode.com/problems/surrounded-regions/)|Medium|
 
 ## Previous Logs
 
 |Month|Submissions|Easy|Medium|Hard|
 |:--|:--|:--|:--|:--|
-|[September_2021](./assets/September_2021.md)|132|55|70|7|
+|[September_2021](./assets/September_2021.md)|133|55|71|7|
