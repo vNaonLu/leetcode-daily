@@ -705,7 +705,7 @@ id,title,level,slug,done
 704,Binary Search,1,binary-search,0
 705,Design HashSet,1,design-hashset,0
 706,Design HashMap,1,design-hashmap,1
-707,Design Linked List,2,design-linked-list,0
+707,Design Linked List,2,design-linked-list,1
 708,Insert into a Sorted Circular Linked List,2,insert-into-a-sorted-circular-linked-list,0
 709,To Lower Case,1,to-lower-case,0
 710,Random Pick with Blacklist,3,random-pick-with-blacklist,0
