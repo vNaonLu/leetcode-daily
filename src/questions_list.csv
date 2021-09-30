@@ -53,7 +53,7 @@ id,title,level,slug,done
 52,N-Queens II,3,n-queens-ii,0
 53,Maximum Subarray,1,maximum-subarray,0
 54,Spiral Matrix,2,spiral-matrix,1
-55,Jump Game,2,jump-game,0
+55,Jump Game,2,jump-game,1
 56,Merge Intervals,2,merge-intervals,1
 57,Insert Interval,2,insert-interval,0
 58,Length of Last Word,1,length-of-last-word,0
