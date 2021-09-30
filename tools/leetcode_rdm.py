@@ -4,8 +4,9 @@ import optparse
 import pathlib
 import csv
 import time
-import calendar
-from utils import modify, local, prompt as pmt
+import datetime
+from utils import modify, local, template, prompt as pmt
+from utils import generate
 
 
 def __read_question_list(path: str):
@@ -52,6 +53,11 @@ def __parser():
                       action="store",
                       default="./README.md",
                       metavar=" Readme_File")
+    parser.add_option("-a", "--assets",
+                      dest="assets",
+                      action="store",
+                      default=".",
+                      metavar=" Assets_Destination")
     parser.add_option("-q", "--question-list",
                       dest="list",
                       action="store",
@@ -70,6 +76,7 @@ def __main():
     options, _ = parser.parse_args()
 
     readme_path = pathlib.Path(options.readme).resolve()
+    assets_path = pathlib.Path(options.assets).resolve()
     list_csv = pathlib.Path(options.list).resolve()
     log_csv = pathlib.Path(options.log).resolve()
 
@@ -80,12 +87,30 @@ def __main():
         pmt.show(pmt.fail("The log file not found: {}".format(log_csv),
                           "x"))
     else:
-        idsmap, queslist, levelcnt = __read_question_list(list_csv)
-        logmap = __read_log(log_csv)
-        modify.readme(readme_path,
-                      idsmap,
-                      logmap,
-                      queslist)
+        log = local.SolvedLog(log_csv)
+        questions = local.QuestionList(list_csv)
+        sub_md: list[str, list[int]] = []
+        solved_question: list[local.Log] = []
+        for year in log.years():
+            for month in log.months(year):
+                timetuple = datetime.datetime(year, month, 1).timetuple()
+                md_title = time.strftime("%B %Y", timetuple)
+                file_name = time.strftime("%B_%Y", timetuple)
+                logs = log.get_by_month(year, month)
+                submissions = [0, 0, 0]
+                solved_question += logs
+                for log in logs:
+                    submissions[questions.get(log.id()).level() - 1] += 1
+                generate.file(assets_path.joinpath(file_name + ".md").resolve(),
+                              template.log_readme(md_title, logs,
+                                                  questions))
+                sub_md.append((file_name, submissions))
+        sub_md.reverse()
+        solved_question.sort(key=lambda log: log.timestamp(),
+                             reverse=True)
+
+        modify.readme(readme_path.resolve(), questions,
+                      solved_question, sub_md)
 
 
 if __name__ == "__main__":

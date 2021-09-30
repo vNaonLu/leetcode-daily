@@ -203,6 +203,8 @@ def __main():
             _file_path.joinpath("./tools/leetcode_rdm.py").resolve(),
             "--out",
             _file_path.joinpath("./README.md").resolve(),
+            "--assets",
+            _file_path.joinpath("./assets/").resolve(),
             "--question-list",
             _file_path.joinpath("./src/questions_list.csv").resolve(),
             "--question-log",

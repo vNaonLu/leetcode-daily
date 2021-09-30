@@ -1,7 +1,8 @@
 import csv
 import re
 import os
-from . import local, prompt as pmt
+import time
+from . import local, template, prompt as pmt
 
 
 def __modify_prompt(file: str):
@@ -18,7 +19,8 @@ def remove(path: str):
     try:
         os.remove(path)
     except OSError as e:
-        pmt.show(pmt.fail("\033[37m{} : \033[0m{}".format(e.strerror, path), "x"))
+        pmt.show(
+            pmt.fail("\033[37m{} : \033[0m{}".format(e.strerror, path), "x"))
         return False
     else:
         __delete_prompt(path)
@@ -130,26 +132,9 @@ def dellog(path: str, id: int):
             __modify_prompt(path)
 
 
-def __table(line: list[str], obj: dict[str, any]):
-    line[2] += ("[📄](src/{}/q{}.hpp)".format(
-        local.id_folder(int(obj["id"])),
-        obj["id"].zfill(4)
-    ))
-    line[3] += obj["id"]
-    line[4] += "[{}](https://leetcode.com/problems/{}/)".format(
-        obj["title"],
-        obj["slug"]
-    )
-    line[5] += "{}".format("Hard" if obj["level"] == "3" else (
-        "Medium" if obj["level"] == "2" else "Easy"))
-    return line
-
-
-def readme(readme: str,
-           ids_map: dict[int, dict[str, any]], 
-           log_map: dict[int, list[int]],
-           quest_list: list[str]):
-    with open(readme, "w") as f:
+def readme(path: str, question_list: local.QuestionList,
+           solved: list[local.Log], sub_md: list[str]):
+    with open(path, "w") as f:
         f.write("\n".join([
             "# Daily Leetcode in C++",
             "",
@@ -162,12 +147,14 @@ def readme(readme: str,
             ""
         ]))
 
-        for i in range(0, len(quest_list), 250):
+        ids = question_list.ids()
+        for i in range(0, len(ids), 250):
             lines = ["<details>",
                      "  <summary>### {} ~ {}</summary>".format(
-                         i+1, min(i+250, len(quest_list))),
+                         i+1, min(i+250, len(ids))),
                      ""]
-            lines += quest_list[i:min(i+250, len(quest_list))]
+            lines += [template.question_detail(question_list.get(id))
+                      for id in ids[i:min(i+250, len(ids))]]
             lines.append("</details>")
             lines.append("")
             f.write("\n".join(lines))
@@ -176,21 +163,31 @@ def readme(readme: str,
             "",
             "---"
             "",
-            "## Update",
+            "## Last 25 Submissions",
             "",
-            "|Date|File|#|Question Title|Difficulty|",
-            "|:-:|:-:|--:|:--|:--|",
+            "|Time|#|</>|Question Title|Difficulty|",
+            "|:--|--:|:-:|:--|:--|",
+            ""
+        ]))
+        for log in solved[0:25]:
+            date = time.strftime("%Y-%m-%d %H:%M",
+                                 time.localtime(log.timestamp()))
+            row = template.table_row(date, [question_list.get(log.id())])
+            f.write("{}\n".format(row))
+
+        f.write("\n".join([
+            "",
+            "## Previous Logs",
+            "",
+            "|Month|Submissions|Easy|Medium|Hard|",
+            "|:--|:--|:--|:--|:--|",
             ""
         ]))
 
-        for date, ids in sorted(log_map.items(), key=lambda pair: pair[0], reverse=True):
-            ids.sort()
-            line: list[str] = ["", str(date) + "<br>", "", "", "", "", "\n"]
-            line = __table(line, ids_map[ids[0]])
-            for i in range(1, len(ids)):
-                for j in range(1, 6):
-                    line[j] += "<br>"
-                line = __table(line, ids_map[ids[i]])
-            f.write("|".join(line))
+        for md in sub_md:
+            row = ["[{}](./assets/{}.md)".format(md[0], md[0]),
+                   str(md[1][0] + md[1][1] + md[1][2]),
+                   str(md[1][0]), str(md[1][1]), str(md[1][2])]
+            f.write("|{}|\n".format("|".join(row)))
         f.truncate()
-        __modify_prompt(readme)
+        __modify_prompt(path)
