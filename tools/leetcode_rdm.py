@@ -2,48 +2,10 @@
 import os
 import optparse
 import pathlib
-import csv
 import time
 import datetime
 from utils import modify, local, template, prompt as pmt
 from utils import generate
-
-
-def __read_question_list(path: str):
-    ids_map: dict[int, dict[str, any]] = {}
-    quest_list: list[str] = []
-    acc_cnt: list[int] = [0, 0, 0]
-    lev_cnt: list[int] = [0, 0, 0]
-    with open(path, "r") as f:
-        rows = csv.DictReader(f, delimiter=',')
-        for row in rows:
-            ids_map[int(row["id"])] = row
-            lev_cnt[int(row["level"])-1] += 1
-            if row["done"] == "1":
-                acc_cnt[int(row["level"])-1] += 1
-                quest_list.append("- [x] {} [{}]({})".format(
-                    row["id"].zfill(4),
-                    row["title"],
-                    "src/{}/q{}.hpp".format(
-                        local.id_folder(int(row["id"])),
-                        row["id"].zfill(4))))
-            else:
-                quest_list.append("- [ ] {} {}".format(
-                    row["id"].zfill(4),
-                    row["title"]))
-    return ids_map, quest_list, [acc_cnt, lev_cnt]
-
-
-def __read_log(path: str):
-    log_map: dict[int, list[int]] = {}
-    with open(path, "r") as f:
-        rows = csv.reader(f, delimiter=",")
-        for row in rows:
-            date = time.strftime("%Y%m%d", time.localtime(int(row[0])))
-            if not log_map.get(date):
-                log_map[date] = []
-            log_map[date].append(int(row[1]))
-    return log_map
 
 
 def __parser():
@@ -87,6 +49,7 @@ def __main():
         pmt.show(pmt.fail("The log file not found: {}".format(log_csv),
                           "x"))
     else:
+        total_submit = [0, 0, 0]
         log = local.SolvedLog(log_csv)
         questions = local.QuestionList(list_csv)
         sub_md: list[str, list[int]] = []
@@ -99,8 +62,9 @@ def __main():
                 logs = log.get_by_month(year, month)
                 submissions = [0, 0, 0]
                 solved_question += logs
-                for log in logs:
-                    submissions[questions.get(log.id()).level() - 1] += 1
+                for l in logs:
+                    submissions[questions.get(l.id()).level() - 1] += 1
+                    total_submit[questions.get(l.id()).level() - 1] += 1
                 generate.file(assets_path.joinpath(file_name + ".md").resolve(),
                               template.log_readme(md_title, logs,
                                                   questions))
@@ -108,7 +72,11 @@ def __main():
         sub_md.reverse()
         solved_question.sort(key=lambda log: log.timestamp(),
                              reverse=True)
-
+        generate.file(assets_path.joinpath("submission.svg").resolve(),
+                      template.accepted_svg(total_submit[0],
+                                            total_submit[1],
+                                            total_submit[2],
+                                            len(questions.ids())))
         modify.readme(readme_path.resolve(), questions,
                       solved_question, sub_md)
 

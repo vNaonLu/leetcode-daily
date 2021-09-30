@@ -144,6 +144,8 @@ def readme(path: str, question_list: local.QuestionList,
             "",
             "## Questions List",
             "",
+            "![process](./assets/submission.svg)"
+            "",
             ""
         ]))
 
@@ -152,7 +154,9 @@ def readme(path: str, question_list: local.QuestionList,
             lines = ["<details>",
                      "  <summary>### {} ~ {}</summary>".format(
                          i+1, min(i+250, len(ids))),
-                     ""]
+                     "",
+                     "|Source|#|Solution Title|Difficulty|",
+                     "|:-:|--:|:--|:--|"]
             lines += [template.question_detail(question_list.get(id))
                       for id in ids[i:min(i+250, len(ids))]]
             lines.append("</details>")

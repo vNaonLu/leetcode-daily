@@ -29,19 +29,27 @@ def mainunittest(subunittest: list[str]):
 def question_detail(question: local.QuestionDetails):
     id = str(question.id()).zfill(4)
     if question.done():
-        return "- [x] {} [{}]({})".format(id, question.title(),
-                                          "src/{}/q{}.hpp".format(local.id_folder(question.id()),
-                                                                  id))
+        return "|[✅]({})|{}|{}|{}|".format(
+            "../src/{}/q{}.hpp".format(local.id_folder(question.id()), id),
+            question.id(),
+            "[{}](https://leetcode.com/problems/{}/)".format(question.title(),
+                                                             question.slug()),
+            "Hard" if question.level() == 3 else ("Medium" if question.level() == 2 else "Easy"))
     else:
-        return "- [ ] {} {}".format(id, question.title())
+        return "||{}|{}|{}|".format(
+            question.id(),
+            "[{}](https://leetcode.com/problems/{}/)".format(question.title(),
+                                                             question.slug()),
+            "Hard" if question.level() == 3 else ("Medium" if question.level() == 2 else "Easy"))
 
 
 def accepted_svg(e: int, m: int, h: int, total: int):
     radius: float = 30.0
     text = ["Easy Solved",
             "Medium Solved",
-            "Hard Solved"]
-    text_pos = [50 + radius * 2, 50 - radius]
+            "Hard Solved",
+            "Total Solved"]
+    text_pos = [50 + radius * 2, 50 - radius - 10]
     e_fm = [50 + radius, 50]
     e_to = [50 + radius * math.cos(math.radians(360 * e / total)),
             50 + radius * math.sin(math.radians(360 * e / total))]
@@ -52,21 +60,21 @@ def accepted_svg(e: int, m: int, h: int, total: int):
     return "\n".join([
         '<?xml version="1.0" encoding="UTF-8" standalone="no"?>',
         '<svg width="200" height="100" viewBox="0 0 200 100" xmlns="http://www.w3.org/2000/svg"', 'xmlns:xlink="http://www.w3.org/1999/xlink" stroke-width="40" fill="none">',
-        '<style>.small {font: bold 10px sans-serif; fill: #d0d0d0;}</style>',
+        '<style>.small {font: bold 10px sans-serif; fill: #d0d0d0; stroke: black; stroke-width: 0.5px;}</style>',
         '<style>.esy {font: bold 10px sans-serif; fill: green;}</style>',
         '<style>.mdm {font: bold 10px sans-serif; fill: orange;}</style>',
         '<style>.hrd {font: bold 10px sans-serif; fill: red;}</style>',
         '<circle cx="50" cy="50" r="{}" stroke="gray" />'.format(
             radius, radius),
-        '<path d="M{} {} A {} {}, 0, 0, 1, {} {}" stroke="green" />'.format(e_fm[0], e_fm[1],
-                                                                            radius, radius,
-                                                                            e_to[0], e_to[1]),
-        '<path d="M{} {} A {} {}, 0, 1, 1, {} {}" stroke="orange" />'.format(e_to[0], e_to[1],
-                                                                             radius, radius,
-                                                                             m_to[0], m_to[1]),
-        '<path d="M{} {} A {} {}, 0, 0, 1, {} {}" stroke="red" />'.format(m_to[0], m_to[1],
-                                                                          radius, radius,
-                                                                          h_to[0], h_to[1]),
+        '<path d="M{} {} A {} {}, 0, {}, 1, {} {}" stroke="green" />'.format(e_fm[0], e_fm[1],
+                                                                             radius, radius, 0 if e / total < 0.5 else 1,
+                                                                             e_to[0], e_to[1]),
+        '<path d="M{} {} A {} {}, 0, {}, 1, {} {}" stroke="orange" />'.format(e_to[0], e_to[1],
+                                                                              radius, radius, 0 if m / total < 0.5 else 1,
+                                                                              m_to[0], m_to[1]),
+        '<path d="M{} {} A {} {}, 0, {}, 1, {} {}" stroke="red" />'.format(m_to[0], m_to[1],
+                                                                           radius, radius, 0 if h / total < 0.5 else 1,
+                                                                           h_to[0], h_to[1]),
         '<text x="{}" y="{}" class="small">{}</text>'.format(text_pos[0], text_pos[1],
                                                              text[0]),
         '<text x="{}" y="{}" class="esy">{}</text>'.format(text_pos[0], text_pos[1] + 10,
@@ -79,6 +87,10 @@ def accepted_svg(e: int, m: int, h: int, total: int):
                                                              text[2]),
         '<text x="{}" y="{}" class="hrd">{}</text>'.format(text_pos[0], text_pos[1] + 60,
                                                            h),
+        '<text x="{}" y="{}" class="small">{}</text>'.format(text_pos[0], text_pos[1] + 75,
+                                                             text[3]),
+        '<text x="{}" y="{}" class="small">{}</text>'.format(text_pos[0], text_pos[1] + 85,
+                                                             e+m+h),
         '</svg>'])
 
 

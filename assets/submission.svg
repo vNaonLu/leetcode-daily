@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="200" height="100" viewBox="0 0 200 100" xmlns="http://www.w3.org/2000/svg"
+xmlns:xlink="http://www.w3.org/1999/xlink" stroke-width="40" fill="none">
+<style>.small {font: bold 10px sans-serif; fill: #d0d0d0; stroke: black; stroke-width: 0.5px;}</style>
+<style>.esy {font: bold 10px sans-serif; fill: green;}</style>
+<style>.mdm {font: bold 10px sans-serif; fill: orange;}</style>
+<style>.hrd {font: bold 10px sans-serif; fill: red;}</style>
+<circle cx="50" cy="50" r="30.0" stroke="gray" />
+<path d="M80.0 50 A 30.0 30.0, 0, 0, 1, 79.55945361486985 55.122372691473934" stroke="green" />
+<path d="M79.55945361486985 55.122372691473934 A 30.0 30.0, 0, 0, 1, 77.71190682428437 61.49131063726768" stroke="orange" />
+<path d="M77.71190682428437 61.49131063726768 A 30.0 30.0, 0, 0, 1, 77.45436851729056 62.093702878639164" stroke="red" />
+<text x="110.0" y="10.0" class="small">Easy Solved</text>
+<text x="110.0" y="20.0" class="esy">55</text>
+<text x="110.0" y="35.0" class="small">Medium Solved</text>
+<text x="110.0" y="45.0" class="mdm">71</text>
+<text x="110.0" y="60.0" class="small">Hard Solved</text>
+<text x="110.0" y="70.0" class="hrd">7</text>
+<text x="110.0" y="85.0" class="small">Total Solved</text>
+<text x="110.0" y="95.0" class="small">133</text>
+</svg>
