@@ -30,7 +30,7 @@ def question_detail(question: local.QuestionDetails):
     id = str(question.id()).zfill(4)
     if question.done():
         return "|[✅]({})|{}|{}|{}|".format(
-            "../src/{}/q{}.hpp".format(local.id_folder(question.id()), id),
+            "./src/{}/q{}.hpp".format(local.id_folder(question.id()), id),
             question.id(),
             "[{}](https://leetcode.com/problems/{}/)".format(question.title(),
                                                              question.slug()),
@@ -94,9 +94,9 @@ def accepted_svg(e: int, m: int, h: int, total: int):
         '</svg>'])
 
 
-def __table_row(line: list[str], details: local.QuestionDetails):
+def __table_row(line: list[str], details: local.QuestionDetails, base: str):
     line[2] += str(details.id())
-    line[3] += "[📎](../src/{}/q{}.hpp)".format(local.id_folder(details.id()),
+    line[3] += "[📎]({}/src/{}/q{}.hpp)".format(base, local.id_folder(details.id()),
                                                str(details.id()).zfill(4))
     line[4] += "[{}](https://leetcode.com/problems/{}/)".format(details.title(),
                                                                 details.slug())
@@ -105,13 +105,13 @@ def __table_row(line: list[str], details: local.QuestionDetails):
     return line
 
 
-def table_row(date: str, details: list[local.QuestionDetails]):
+def table_row(date: str, details: list[local.QuestionDetails], base: str = "."):
     line: list[str] = ["", date, "", "", "", "", ""]
-    line = __table_row(line, details[0])
+    line = __table_row(line, details[0], base)
     for i in range(1, len(details)):
         for j in range(2, 6):
             line[j] += "<br>"
-        line = __table_row(line, details[i])
+        line = __table_row(line, details[i], base)
     return "|".join(line)
 
 
@@ -129,7 +129,7 @@ def log_readme(month: str, solved_logs: list[local.Log], ques_data: local.Questi
     for date, details_list in sorted(day_map.items(), key=lambda t: t[0], reverse=True):
         details_list.sort(key=lambda e: e.id())
         table_content.append(table_row("Day {}".format(date),
-                                       details_list))
+                                       details_list, ".."))
 
     return "\n".join([
         "## {}".format(month),
