@@ -20,7 +20,7 @@ def fail(prompt: str, syb: str):
 
 def ask(pmt: str):
     while True:
-        req = input("\033[33m[?] \033[0;37m{} (y/n)?\033[0m ".format(pmt))[0]
+        req = input("\033[33m[?] \033[0;33m{} (y/n)?\033[0m ".format(pmt))[0]
         if req == 'y':
             return True
         elif req == 'n':

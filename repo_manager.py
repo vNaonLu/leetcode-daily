@@ -208,7 +208,9 @@ def __main():
             "--question-list",
             _file_path.joinpath("./src/questions_list.csv").resolve(),
             "--question-log",
-            _file_path.joinpath("./src/logs.csv").resolve()] + args)
+            _file_path.joinpath("./src/logs.csv").resolve(),
+            "--source",
+            _file_path.joinpath("./src/").resolve(), ] + args)
 
     if options.bud_identifier or options.cln_identifier or options.run_identifier:
         operation = _build_option(options, args)

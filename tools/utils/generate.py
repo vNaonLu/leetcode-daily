@@ -18,7 +18,7 @@ def question_list(path: str, ques: list[object]):
     with open(path, "w") as f:
         writer = csv.DictWriter(
             f,
-            fieldnames=["id", "title", "level", "slug", "done"],
+            fieldnames=["id", "title", "level", "slug", "paid", "done"],
             delimiter=',')
         writer.writeheader()
         writer.writerows([{
@@ -26,4 +26,5 @@ def question_list(path: str, ques: list[object]):
             "title": q['stat']['question__title'],
             "level": q['difficulty']['level'],
             "slug": q['stat']['question__title_slug'],
+            "paid": 1 if q['paid_only'] == True else 0,
             "done": 0} for q in ques])

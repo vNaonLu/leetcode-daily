@@ -134,8 +134,8 @@ def __main():
         if not os.path.exists(list_csv):
             pmt.pending("\033[37mRequesting the question list\033[0m")
             question_list = LeetCodeRequest.questions()
-            pmt.recieve(
-                pmt.succ("\033[37mSuccessfully received the question list.\033[0m", "v"))
+            pmt.recieve(pmt.succ("\033[37mSuccessfully received the question list.\033[0m",
+                                 "v"))
             generate.question_list(list_csv, question_list)
         solved = local.solved_question_ids(sour_path)
         modify.done_question(list_csv, solved)

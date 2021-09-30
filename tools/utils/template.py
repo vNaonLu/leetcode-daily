@@ -1,5 +1,4 @@
 import time
-import datetime
 import math
 from . import local
 
@@ -28,19 +27,16 @@ def mainunittest(subunittest: list[str]):
 
 def question_detail(question: local.QuestionDetails):
     id = str(question.id()).zfill(4)
-    if question.done():
-        return "|[✅]({})|{}|{}|{}|".format(
-            "./src/{}/q{}.hpp".format(local.id_folder(question.id()), id),
-            question.id(),
-            "[{}](https://leetcode.com/problems/{}/)".format(question.title(),
-                                                             question.slug()),
-            "Hard" if question.level() == 3 else ("Medium" if question.level() == 2 else "Easy"))
-    else:
-        return "||{}|{}|{}|".format(
-            question.id(),
-            "[{}](https://leetcode.com/problems/{}/)".format(question.title(),
-                                                             question.slug()),
-            "Hard" if question.level() == 3 else ("Medium" if question.level() == 2 else "Easy"))
+    done = "" if not question.done() else \
+        "[✅]({})".format("./src/{}/q{}.hpp".format(local.id_folder(question.id()),
+                                                   id))
+    title = "" if not question.paid_only() else "🔒 "
+    title += "[{}](https://leetcode.com/problems/{}/)".format(question.title(),
+                                                              question.slug())
+    return "|{}|{}|{}|{}|".format(done,
+                                  question.id(),
+                                  title,
+                                  "Hard" if question.level() == 3 else ("Medium" if question.level() == 2 else "Easy"))
 
 
 def accepted_svg(e: int, m: int, h: int, total: int):

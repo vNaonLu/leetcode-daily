@@ -39,7 +39,8 @@ class QuestionDetails:
         self._level = int(csv_data["level"])
         self._title = csv_data["title"]
         self._slug = csv_data["slug"]
-        self._done = True if csv_data["done"] == "1" else False
+        self._paid = csv_data["paid"] == "1"
+        self._done = csv_data["done"] == "1"
 
     def id(self):
         return self._id
@@ -52,6 +53,9 @@ class QuestionDetails:
 
     def slug(self):
         return self._slug
+
+    def paid_only(self):
+        return self._paid
 
     def done(self):
         return self._done
