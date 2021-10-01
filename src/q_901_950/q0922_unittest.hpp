@@ -3,6 +3,8 @@
 #define Q922_UNITTEST_H__
 #include <gtest/gtest.h>
 
+#include <leetcode/condition.hpp>
+
 #include "q0922.hpp"
 using namespace std;
 
@@ -34,15 +36,31 @@ using namespace std;
 TEST(q922, sample_input01) {
   l922::Solution solver;
   vector<int> nums = {4, 2, 5, 7};
-  vector<int> exp = {4, 5, 2, 7};
-  EXPECT_EQ(solver.sortArrayByParityII(nums), exp);
+  auto exp = [](const vector<int> &act) {
+    for (int i = 0; i < act.size(); ++i) {
+      if (i % 2 && !(act[i] % 2))
+        return false;
+      else if (!(i % 2) && act[i] % 2)
+        return false;
+    }
+    return true;
+  };
+  EXPECT_TRUE_IF(solver.sortArrayByParityII(nums), exp);
 }
 
 TEST(q922, sample_input02) {
   l922::Solution solver;
   vector<int> nums = {2, 3};
-  vector<int> exp = {2, 3};
-  EXPECT_EQ(solver.sortArrayByParityII(nums), exp);
+  auto exp = [](const vector<int> &act) {
+    for (int i = 0; i < act.size(); ++i) {
+      if (i % 2 && !(act[i] % 2))
+        return false;
+      else if (!(i % 2) && act[i] % 2)
+        return false;
+    }
+    return true;
+  };
+  EXPECT_TRUE_IF(solver.sortArrayByParityII(nums), exp);
 }
 
 #endif
