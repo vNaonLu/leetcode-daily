@@ -60,7 +60,7 @@ id,title,level,slug,paid,done
 59,Spiral Matrix II,2,spiral-matrix-ii,0,1
 60,Permutation Sequence,3,permutation-sequence,0,0
 61,Rotate List,2,rotate-list,0,0
-62,Unique Paths,2,unique-paths,0,0
+62,Unique Paths,2,unique-paths,0,1
 63,Unique Paths II,2,unique-paths-ii,0,0
 64,Minimum Path Sum,2,minimum-path-sum,0,0
 65,Valid Number,3,valid-number,0,0

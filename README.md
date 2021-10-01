@@ -73,7 +73,7 @@ My daily challenge on leetcode since 2021/09/06.
 |[✅](./src/q_51_100/q0059.hpp)|59|[Spiral Matrix II](https://leetcode.com/problems/spiral-matrix-ii/)|Medium|
 ||60|[Permutation Sequence](https://leetcode.com/problems/permutation-sequence/)|Hard|
 ||61|[Rotate List](https://leetcode.com/problems/rotate-list/)|Medium|
-||62|[Unique Paths](https://leetcode.com/problems/unique-paths/)|Medium|
+|[✅](./src/q_51_100/q0062.hpp)|62|[Unique Paths](https://leetcode.com/problems/unique-paths/)|Medium|
 ||63|[Unique Paths II](https://leetcode.com/problems/unique-paths-ii/)|Medium|
 ||64|[Minimum Path Sum](https://leetcode.com/problems/minimum-path-sum/)|Medium|
 ||65|[Valid Number](https://leetcode.com/problems/valid-number/)|Hard|
@@ -2088,6 +2088,7 @@ My daily challenge on leetcode since 2021/09/06.
 
 |Time|#|</>|Question Title|Difficulty|
 |:--|--:|:-:|:--|:--|
+|2021-10-01 11:51|62|[📎](./src/q_51_100/q0062.hpp)|[Unique Paths](https://leetcode.com/problems/unique-paths/)|Medium|
 |2021-10-01 11:39|45|[📎](./src/q_1_50/q0045.hpp)|[Jump Game II](https://leetcode.com/problems/jump-game-ii/)|Medium|
 |2021-10-01 11:36|1143|[📎](./src/q_1101_1150/q1143.hpp)|[Longest Common Subsequence](https://leetcode.com/problems/longest-common-subsequence/)|Medium|
 |2021-09-30 15:33|698|[📎](./src/q_651_700/q0698.hpp)|[Partition to K Equal Sum Subsets](https://leetcode.com/problems/partition-to-k-equal-sum-subsets/)|Medium|
@@ -2112,11 +2113,10 @@ My daily challenge on leetcode since 2021/09/06.
 |2021-09-27 13:40|90|[📎](./src/q_51_100/q0090.hpp)|[Subsets II](https://leetcode.com/problems/subsets-ii/)|Medium|
 |2021-09-27 13:25|78|[📎](./src/q_51_100/q0078.hpp)|[Subsets](https://leetcode.com/problems/subsets/)|Medium|
 |2021-09-26 18:44|782|[📎](./src/q_751_800/q0782.hpp)|[Transform to Chessboard](https://leetcode.com/problems/transform-to-chessboard/)|Hard|
-|2021-09-26 18:28|43|[📎](./src/q_1_50/q0043.hpp)|[Multiply Strings](https://leetcode.com/problems/multiply-strings/)|Medium|
 
 ## Previous Logs
 
 |Month|Submissions|Easy|Medium|Hard|
 |:--|:--|:--|:--|:--|
-|[October_2021](./assets/October_2021.md)|2|0|2|0|
+|[October_2021](./assets/October_2021.md)|3|0|3|0|
 |[September_2021](./assets/September_2021.md)|133|55|71|7|
