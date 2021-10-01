@@ -154,7 +154,7 @@ My daily challenge on leetcode since 2021/09/06.
 ||140|[Word Break II](https://leetcode.com/problems/word-break-ii/)|Hard|
 |[✅](./src/q_101_150/q0141.hpp)|141|[Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/)|Easy|
 |[✅](./src/q_101_150/q0142.hpp)|142|[Linked List Cycle II](https://leetcode.com/problems/linked-list-cycle-ii/)|Medium|
-||143|[Reorder List](https://leetcode.com/problems/reorder-list/)|Medium|
+|[✅](./src/q_101_150/q0143.hpp)|143|[Reorder List](https://leetcode.com/problems/reorder-list/)|Medium|
 |[✅](./src/q_101_150/q0144.hpp)|144|[Binary Tree Preorder Traversal](https://leetcode.com/problems/binary-tree-preorder-traversal/)|Easy|
 |[✅](./src/q_101_150/q0145.hpp)|145|[Binary Tree Postorder Traversal](https://leetcode.com/problems/binary-tree-postorder-traversal/)|Easy|
 ||146|[LRU Cache](https://leetcode.com/problems/lru-cache/)|Medium|
@@ -2088,6 +2088,7 @@ My daily challenge on leetcode since 2021/09/06.
 
 |Time|#|</>|Question Title|Difficulty|
 |:--|--:|:-:|:--|:--|
+|2021-10-01 12:06|143|[📎](./src/q_101_150/q0143.hpp)|[Reorder List](https://leetcode.com/problems/reorder-list/)|Medium|
 |2021-10-01 11:51|62|[📎](./src/q_51_100/q0062.hpp)|[Unique Paths](https://leetcode.com/problems/unique-paths/)|Medium|
 |2021-10-01 11:39|45|[📎](./src/q_1_50/q0045.hpp)|[Jump Game II](https://leetcode.com/problems/jump-game-ii/)|Medium|
 |2021-10-01 11:36|1143|[📎](./src/q_1101_1150/q1143.hpp)|[Longest Common Subsequence](https://leetcode.com/problems/longest-common-subsequence/)|Medium|
@@ -2112,11 +2113,10 @@ My daily challenge on leetcode since 2021/09/06.
 |2021-09-27 13:52|187|[📎](./src/q_151_200/q0187.hpp)|[Repeated DNA Sequences](https://leetcode.com/problems/repeated-dna-sequences/)|Medium|
 |2021-09-27 13:40|90|[📎](./src/q_51_100/q0090.hpp)|[Subsets II](https://leetcode.com/problems/subsets-ii/)|Medium|
 |2021-09-27 13:25|78|[📎](./src/q_51_100/q0078.hpp)|[Subsets](https://leetcode.com/problems/subsets/)|Medium|
-|2021-09-26 18:44|782|[📎](./src/q_751_800/q0782.hpp)|[Transform to Chessboard](https://leetcode.com/problems/transform-to-chessboard/)|Hard|
 
 ## Previous Logs
 
 |Month|Submissions|Easy|Medium|Hard|
 |:--|:--|:--|:--|:--|
-|[October_2021](./assets/October_2021.md)|3|0|3|0|
+|[October_2021](./assets/October_2021.md)|4|0|4|0|
 |[September_2021](./assets/September_2021.md)|133|55|71|7|

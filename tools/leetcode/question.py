@@ -210,7 +210,7 @@ class Solution:
             match = re.search("class (?P<class_name>\w+) *{", multi_lines[i])
             if match and match.group("class_name") == "Solution":
                 return SolutionFunction(multi_lines[i:], content)
-            else:
+            elif match:
                 return SolutionClass(match.group("class_name"),
                                      multi_lines[i:], content)
 
