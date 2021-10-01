@@ -2,6 +2,7 @@
 #define LIST_NODE_H__
 #include <initializer_list>
 #include <iostream>
+#include <unordered_set>
 #include <vector>
 
 using namespace std;
@@ -40,9 +41,36 @@ class ListNode final {
   }
 
  public:
-  bool operator==(const ListNode &rhs) const {
-    return val == rhs.val &&
-           (next == nullptr ? rhs.next == nullptr : (rhs.next == nullptr ? false : *next == *(rhs.next)));
+  inline bool operator==(const ListNode &rhs) const {
+    unordered_set<ListNode *> memo;
+    vector<ListNode *> self;
+    vector<ListNode *> rhsvector;
+    ListNode *p = next;
+    int cnt = 0;
+    if (val != rhs.val) return false;
+    while (p != nullptr) {
+      if (memo.count(p)) break;
+      memo.insert(p);
+      self.push_back(p);
+      p = p->next;
+      ++cnt;
+    }
+    p = rhs.next;
+    cnt = 0;
+    while (p != nullptr) {
+      if (memo.count(p)) break;
+      memo.insert(p);
+      rhsvector.push_back(p);
+      p = p->next;
+      ++cnt;
+    }
+    if (self.size() != rhsvector.size()) return false;
+    auto selfit = self.begin();
+    auto rhsit = rhsvector.begin();
+    for (int i = 0; i < self.size(); ++i) {
+      if ((*selfit++)->val != (*rhsit++)->val) return false;
+    }
+    return true;
   }
 
   inline static ListNode *generate(const vector<int> &v, const int &repeat = -1) {
@@ -57,11 +85,13 @@ class ListNode final {
 
   inline static void release(initializer_list<ListNode *> p) {
     for (auto node : p) {
+      unordered_set<ListNode *> memo;
       vector<ListNode *> cand;
       ListNode *q = node;
       while (q != nullptr) {
-        if (!q->generate_by_test)
-          cand.push_back(q);
+        if (memo.count(q)) break;
+        memo.insert(q);
+        if (!q->generate_by_test) cand.push_back(q);
         q = q->next;
       }
       for (auto candtodel : cand)

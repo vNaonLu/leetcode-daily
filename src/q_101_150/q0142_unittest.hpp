@@ -34,8 +34,28 @@ using namespace std;
   *
 */
 
-TEST(q142, NOT_IMPLEMENT) {
-  EXPECT_TRUE("NOT IMPLEMENT");
+TEST(q142, sample_input01) {
+  l142::Solution solver;
+  int pos = 1;
+  ListNode *head = ListNode::generate({3, 2, 0, -4}, pos);
+  ListNode *exp = ListNode::generate({2, 0, -4}, 0);
+  EXPECT_LISTNODE_EQ(solver.detectCycle(head), exp);
+}
+
+TEST(q142, sample_input02) {
+  l142::Solution solver;
+  int pos = 0;
+  ListNode *head = ListNode::generate({1, 2}, pos);
+  ListNode *exp = ListNode::generate({1, 2}, 0);
+  EXPECT_LISTNODE_EQ(solver.detectCycle(head), exp);
+}
+
+TEST(q142, sample_input03) {
+  l142::Solution solver;
+  int pos = -1;
+  ListNode *head = ListNode::generate({1}, pos);
+  ListNode *exp = nullptr;
+  EXPECT_LISTNODE_EQ(solver.detectCycle(head), exp);
 }
 
 #endif
