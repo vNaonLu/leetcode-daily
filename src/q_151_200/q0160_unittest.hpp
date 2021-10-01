@@ -63,8 +63,56 @@ using namespace std;
   *
 */
 
-TEST(q160, NOT_IMPLEMENT) {
-  EXPECT_TRUE("NOT IMPLEMENT");
+TEST(q160, sample_input01) {
+  l160::Solution solver;
+  ListNode *intersection = ListNode::generate({8, 4, 5});
+  ListNode *headA = ListNode::generate({4, 1});
+  ListNode *headB = ListNode::generate({5, 6, 1});
+  ListNode *exp = ListNode::generate({8, 4, 5});
+
+  ListNode *p = headA;
+  while (p->next != nullptr) {
+    p = p->next;
+  }
+  p->next = intersection;
+  p = headB;
+  while (p->next != nullptr) {
+    p = p->next;
+  }
+  p->next = intersection;
+
+  EXPECT_LISTNODE_EQ(solver.getIntersectionNode(headA, headB), exp);
+}
+
+TEST(q160, sample_input02) {
+  l160::Solution solver;
+  ListNode *intersection = ListNode::generate({2, 4});
+  ListNode *headA = ListNode::generate({1, 9, 1});
+  ListNode *headB = ListNode::generate({3});
+  ListNode *exp = ListNode::generate({2, 4});
+
+  ListNode *p = headA;
+  while (p->next != nullptr) {
+    p = p->next;
+  }
+  p->next = intersection;
+  p = headB;
+  while (p->next != nullptr) {
+    p = p->next;
+  }
+  p->next = intersection;
+
+  EXPECT_LISTNODE_EQ(solver.getIntersectionNode(headA, headB), exp);
+}
+
+TEST(q160, sample_input03) {
+  l160::Solution solver;
+  ListNode *intersection = ListNode::generate({});
+  ListNode *headA = ListNode::generate({2, 6, 4});
+  ListNode *headB = ListNode::generate({1, 5});
+  ListNode *exp = ListNode::generate({});
+
+  EXPECT_LISTNODE_EQ(solver.getIntersectionNode(headA, headB), exp);
 }
 
 #endif
