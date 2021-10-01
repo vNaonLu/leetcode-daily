@@ -155,7 +155,7 @@ def readme(path: str, question_list: local.QuestionList,
                      "  <summary>### {} ~ {}</summary>".format(
                          i+1, min(i+250, len(ids))),
                      "",
-                     "|Source|#|Solution Title|Difficulty|",
+                     "|</>|#|Solution Title|Difficulty|",
                      "|:-:|--:|:--|:--|"]
             lines += [template.question_detail(question_list.get(id))
                       for id in ids[i:min(i+250, len(ids))]]

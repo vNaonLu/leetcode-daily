@@ -26,17 +26,14 @@ def mainunittest(subunittest: list[str]):
 
 
 def question_detail(question: local.QuestionDetails):
-    id = str(question.id()).zfill(4)
-    done = "" if not question.done() else \
-        "[✅]({})".format("./src/{}/q{}.hpp".format(local.id_folder(question.id()),
-                                                   id))
-    title = "" if not question.paid_only() else "🔒 "
-    title += "[{}](https://leetcode.com/problems/{}/)".format(question.title(),
-                                                              question.slug())
-    return "|{}|{}|{}|{}|".format(done,
-                                  question.id(),
-                                  title,
-                                  "Hard" if question.level() == 3 else ("Medium" if question.level() == 2 else "Easy"))
+    qfile = local.QuestionSource(question.id(), "./src")
+    src = "" if not question.paid_only() else "🔒"
+    title = "[{}](https://leetcode.com/problems/{}/)".format(question.title(),
+                                                             question.slug())
+    if question.done():
+        src = "[📎]({}) [📝]({})".format(qfile.src(), qfile.unittest())
+    return "|{}|{}|{}|{}|".format(src, question.id(), title,
+                                     "Hard" if question.level() == 3 else ("Medium" if question.level() == 2 else "Easy"))
 
 
 def accepted_svg(e: int, m: int, h: int, total: int):
@@ -91,9 +88,9 @@ def accepted_svg(e: int, m: int, h: int, total: int):
 
 
 def __table_row(line: list[str], details: local.QuestionDetails, base: str):
+    qfile = local.QuestionSource(details.id(), base)
     line[2] += str(details.id())
-    line[3] += "[📎]({}/src/{}/q{}.hpp)".format(base, local.id_folder(details.id()),
-                                               str(details.id()).zfill(4))
+    line[3] += "[📎]({}) [📝]({})".format(qfile.src(), qfile.unittest())
     line[4] += "[{}](https://leetcode.com/problems/{}/)".format(details.title(),
                                                                 details.slug())
     line[5] += "{}".format("Hard" if details.level() == 3 else (
@@ -101,7 +98,7 @@ def __table_row(line: list[str], details: local.QuestionDetails, base: str):
     return line
 
 
-def table_row(date: str, details: list[local.QuestionDetails], base: str = "."):
+def table_row(date: str, details: list[local.QuestionDetails], base: str = "./src"):
     line: list[str] = ["", date, "", "", "", "", ""]
     line = __table_row(line, details[0], base)
     for i in range(1, len(details)):
@@ -125,7 +122,7 @@ def log_readme(month: str, solved_logs: list[local.Log], ques_data: local.Questi
     for date, details_list in sorted(day_map.items(), key=lambda t: t[0], reverse=True):
         details_list.sort(key=lambda e: e.id())
         table_content.append(table_row("Day {}".format(date),
-                                       details_list, ".."))
+                                       details_list, "../src"))
 
     return "\n".join([
         "## {}".format(month),
