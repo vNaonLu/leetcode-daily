@@ -36,7 +36,7 @@ My daily challenge on leetcode since 2021/09/06.
 |[✅](./src/q_1_50/q0022.hpp)|22|[Generate Parentheses](https://leetcode.com/problems/generate-parentheses/)|Medium|
 ||23|[Merge k Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/)|Hard|
 |[✅](./src/q_1_50/q0024.hpp)|24|[Swap Nodes in Pairs](https://leetcode.com/problems/swap-nodes-in-pairs/)|Medium|
-||25|[Reverse Nodes in k-Group](https://leetcode.com/problems/reverse-nodes-in-k-group/)|Hard|
+|[✅](./src/q_1_50/q0025.hpp)|25|[Reverse Nodes in k-Group](https://leetcode.com/problems/reverse-nodes-in-k-group/)|Hard|
 ||26|[Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/)|Easy|
 ||27|[Remove Element](https://leetcode.com/problems/remove-element/)|Easy|
 ||28|[Implement strStr()](https://leetcode.com/problems/implement-strstr/)|Easy|
@@ -2088,6 +2088,7 @@ My daily challenge on leetcode since 2021/09/06.
 
 |Time|#|</>|Question Title|Difficulty|
 |:--|--:|:-:|:--|:--|
+|2021-10-01 12:27|25|[📎](./src/q_1_50/q0025.hpp)|[Reverse Nodes in k-Group](https://leetcode.com/problems/reverse-nodes-in-k-group/)|Hard|
 |2021-10-01 12:06|143|[📎](./src/q_101_150/q0143.hpp)|[Reorder List](https://leetcode.com/problems/reorder-list/)|Medium|
 |2021-10-01 11:51|62|[📎](./src/q_51_100/q0062.hpp)|[Unique Paths](https://leetcode.com/problems/unique-paths/)|Medium|
 |2021-10-01 11:39|45|[📎](./src/q_1_50/q0045.hpp)|[Jump Game II](https://leetcode.com/problems/jump-game-ii/)|Medium|
@@ -2112,11 +2113,10 @@ My daily challenge on leetcode since 2021/09/06.
 |2021-09-27 14:03|5|[📎](./src/q_1_50/q0005.hpp)|[Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/)|Medium|
 |2021-09-27 13:52|187|[📎](./src/q_151_200/q0187.hpp)|[Repeated DNA Sequences](https://leetcode.com/problems/repeated-dna-sequences/)|Medium|
 |2021-09-27 13:40|90|[📎](./src/q_51_100/q0090.hpp)|[Subsets II](https://leetcode.com/problems/subsets-ii/)|Medium|
-|2021-09-27 13:25|78|[📎](./src/q_51_100/q0078.hpp)|[Subsets](https://leetcode.com/problems/subsets/)|Medium|
 
 ## Previous Logs
 
 |Month|Submissions|Easy|Medium|Hard|
 |:--|:--|:--|:--|:--|
-|[October_2021](./assets/October_2021.md)|4|0|4|0|
+|[October_2021](./assets/October_2021.md)|5|0|4|1|
 |[September_2021](./assets/September_2021.md)|133|55|71|7|
