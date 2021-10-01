@@ -1178,7 +1178,7 @@ My daily challenge on leetcode since 2021/09/06.
 ||1140|[Stone Game II](https://leetcode.com/problems/stone-game-ii/)|Medium|
 ||1141|🔒 [User Activity for the Past 30 Days I](https://leetcode.com/problems/user-activity-for-the-past-30-days-i/)|Easy|
 ||1142|🔒 [User Activity for the Past 30 Days II](https://leetcode.com/problems/user-activity-for-the-past-30-days-ii/)|Easy|
-||1143|[Longest Common Subsequence](https://leetcode.com/problems/longest-common-subsequence/)|Medium|
+|[✅](./src/q_1101_1150/q1143.hpp)|1143|[Longest Common Subsequence](https://leetcode.com/problems/longest-common-subsequence/)|Medium|
 ||1144|[Decrease Elements To Make Array Zigzag](https://leetcode.com/problems/decrease-elements-to-make-array-zigzag/)|Medium|
 ||1145|[Binary Tree Coloring Game](https://leetcode.com/problems/binary-tree-coloring-game/)|Medium|
 ||1146|[Snapshot Array](https://leetcode.com/problems/snapshot-array/)|Medium|
@@ -2088,6 +2088,7 @@ My daily challenge on leetcode since 2021/09/06.
 
 |Time|#|</>|Question Title|Difficulty|
 |:--|--:|:-:|:--|:--|
+|2021-10-01 11:36|1143|[📎](./src/q_1101_1150/q1143.hpp)|[Longest Common Subsequence](https://leetcode.com/problems/longest-common-subsequence/)|Medium|
 |2021-09-30 15:33|698|[📎](./src/q_651_700/q0698.hpp)|[Partition to K Equal Sum Subsets](https://leetcode.com/problems/partition-to-k-equal-sum-subsets/)|Medium|
 |2021-09-30 14:17|707|[📎](./src/q_701_750/q0707.hpp)|[Design Linked List](https://leetcode.com/problems/design-linked-list/)|Medium|
 |2021-09-30 13:48|24|[📎](./src/q_1_50/q0024.hpp)|[Swap Nodes in Pairs](https://leetcode.com/problems/swap-nodes-in-pairs/)|Medium|
@@ -2112,10 +2113,10 @@ My daily challenge on leetcode since 2021/09/06.
 |2021-09-26 18:44|782|[📎](./src/q_751_800/q0782.hpp)|[Transform to Chessboard](https://leetcode.com/problems/transform-to-chessboard/)|Hard|
 |2021-09-26 18:28|43|[📎](./src/q_1_50/q0043.hpp)|[Multiply Strings](https://leetcode.com/problems/multiply-strings/)|Medium|
 |2021-09-26 17:38|49|[📎](./src/q_1_50/q0049.hpp)|[Group Anagrams](https://leetcode.com/problems/group-anagrams/)|Medium|
-|2021-09-26 15:53|797|[📎](./src/q_751_800/q0797.hpp)|[All Paths From Source to Target](https://leetcode.com/problems/all-paths-from-source-to-target/)|Medium|
 
 ## Previous Logs
 
 |Month|Submissions|Easy|Medium|Hard|
 |:--|:--|:--|:--|:--|
+|[October_2021](./assets/October_2021.md)|1|0|1|0|
 |[September_2021](./assets/September_2021.md)|133|55|71|7|
