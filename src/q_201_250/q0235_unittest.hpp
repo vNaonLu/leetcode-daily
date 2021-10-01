@@ -31,8 +31,31 @@ using namespace std;
   *
 */
 
-TEST(q235, NOT_IMPLEMENT) {
-  EXPECT_TRUE("NOT IMPLEMENT");
+TEST(q235, sample_input01) {
+  l235::Solution solver;
+  TreeNode *root = TreeNode::generate({6, 2, 8, 0, 4, 7, 9, NULL_TREENODE, NULL_TREENODE, 3, 5});
+  TreeNode *p = root->left;
+  TreeNode *q = root->right;
+  TreeNode *exp = TreeNode::generate({6, 2, 8, 0, 4, 7, 9, NULL_TREENODE, NULL_TREENODE, 3, 5});
+  EXPECT_TREENODE_EQ(solver.lowestCommonAncestor(root, p, q), exp);
+}
+
+TEST(q235, sample_input02) {
+  l235::Solution solver;
+  TreeNode *root = TreeNode::generate({6, 2, 8, 0, 4, 7, 9, NULL_TREENODE, NULL_TREENODE, 3, 5});
+  TreeNode *p = root->left;
+  TreeNode *q = root->left->right;
+  TreeNode *exp = TreeNode::generate({2, 0, 4, NULL_TREENODE, NULL_TREENODE, 3, 5});
+  EXPECT_TREENODE_EQ(solver.lowestCommonAncestor(root, p, q), exp);
+}
+
+TEST(q235, sample_input03) {
+  l235::Solution solver;
+  TreeNode *root = TreeNode::generate({2, 1});
+  TreeNode *p = root;
+  TreeNode *q = root->left;
+  TreeNode *exp = TreeNode::generate({2, 1});
+  EXPECT_TREENODE_EQ(solver.lowestCommonAncestor(root, p, q), exp);
 }
 
 #endif
