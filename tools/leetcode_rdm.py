@@ -78,6 +78,10 @@ def __main():
 
     sub_md: list[str, list[int]] = []
     solved_question: list[local.Log] = []
+    free = 0
+    for id in questions.ids():
+        if not questions.get(id).paid_only():
+            free += 1
     for year in log.years():
         for month in log.months(year):
             timetuple = datetime.datetime(year, month, 1).timetuple()
@@ -97,10 +101,8 @@ def __main():
     solved_question.sort(key=lambda log: log.timestamp(),
                          reverse=True)
     generate.file(assets_path.joinpath("submission.svg").resolve(),
-                  template.accepted_svg(total_submit[0],
-                                        total_submit[1],
-                                        total_submit[2],
-                                        len(questions.ids())))
+                  template.accepted_svg(total_submit[0], total_submit[1],
+                                        total_submit[2], free))
     modify.readme(readme_path.resolve(), questions,
                   solved_question, sub_md)
 

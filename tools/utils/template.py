@@ -33,7 +33,7 @@ def question_detail(question: local.QuestionDetails):
     if question.done():
         src = "[📎]({}) [📝]({})".format(qfile.src(), qfile.unittest())
     return "|{}|{}|{}|{}|".format(src, question.id(), title,
-                                     "Hard" if question.level() == 3 else ("Medium" if question.level() == 2 else "Easy"))
+                                  "Hard" if question.level() == 3 else ("Medium" if question.level() == 2 else "Easy"))
 
 
 def accepted_svg(e: int, m: int, h: int, total: int):

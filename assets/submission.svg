@@ -6,9 +6,9 @@ xmlns:xlink="http://www.w3.org/1999/xlink" stroke-width="40" fill="none">
 <style>.mdm {font: bold 10px sans-serif; fill: orange;}</style>
 <style>.hrd {font: bold 10px sans-serif; fill: red;}</style>
 <circle cx="50" cy="50" r="30.0" stroke="gray" />
-<path d="M80.0 50 A 30.0 30.0, 0, 0, 1, 79.5624926841773 55.104804236987356" stroke="green" />
-<path d="M79.5624926841773 55.104804236987356 A 30.0 30.0, 0, 0, 1, 77.58295217328235 61.79748911448611" stroke="orange" />
-<path d="M77.58295217328235 61.79748911448611 A 30.0 30.0, 0, 0, 1, 77.28102920545253 62.47980150047453" stroke="red" />
+<path d="M80.0 50 A 30.0 30.0, 0, 0, 1, 79.27985212042674 56.53377837135156" stroke="green" />
+<path d="M79.27985212042674 56.53377837135156 A 30.0 30.0, 0, 0, 1, 76.05033763439556 64.87884098759021" stroke="orange" />
+<path d="M76.05033763439556 64.87884098759021 A 30.0 30.0, 0, 0, 1, 75.56198216373792 65.70302734700365" stroke="red" />
 <text x="110.0" y="10.0" class="small">Easy Solved</text>
 <text x="110.0" y="20.0" class="esy">55</text>
 <text x="110.0" y="35.0" class="small">Medium Solved</text>

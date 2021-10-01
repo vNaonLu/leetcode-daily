@@ -6,12 +6,12 @@ My daily challenge on leetcode since 2021/09/06.
 
 ## Questions List
 
-![process](./assets/submission.svg)
+![free questions progress](./assets/submission.svg)
 <details>
   <summary>### 1 ~ 250</summary>
 
 |</>|#|Solution Title|Difficulty|
-|:-:|--:|:--|:--|
+|--:|--:|:--|:--|
 |[📎](src/q_1_50/q0001.hpp) [📝](src/q_1_50/q0001_unittest.hpp)|1|[Two Sum](https://leetcode.com/problems/two-sum/)|Easy|
 |[📎](src/q_1_50/q0002.hpp) [📝](src/q_1_50/q0002_unittest.hpp)|2|[Add Two Numbers](https://leetcode.com/problems/add-two-numbers/)|Medium|
 |[📎](src/q_1_50/q0003.hpp) [📝](src/q_1_50/q0003_unittest.hpp)|3|[Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/)|Medium|
@@ -267,7 +267,7 @@ My daily challenge on leetcode since 2021/09/06.
   <summary>### 251 ~ 500</summary>
 
 |</>|#|Solution Title|Difficulty|
-|:-:|--:|:--|:--|
+|--:|--:|:--|:--|
 |🔒|251|[Flatten 2D Vector](https://leetcode.com/problems/flatten-2d-vector/)|Medium|
 |🔒|252|[Meeting Rooms](https://leetcode.com/problems/meeting-rooms/)|Easy|
 |🔒|253|[Meeting Rooms II](https://leetcode.com/problems/meeting-rooms-ii/)|Medium|
@@ -523,7 +523,7 @@ My daily challenge on leetcode since 2021/09/06.
   <summary>### 501 ~ 750</summary>
 
 |</>|#|Solution Title|Difficulty|
-|:-:|--:|:--|:--|
+|--:|--:|:--|:--|
 ||501|[Find Mode in Binary Search Tree](https://leetcode.com/problems/find-mode-in-binary-search-tree/)|Easy|
 ||502|[IPO](https://leetcode.com/problems/ipo/)|Hard|
 ||503|[Next Greater Element II](https://leetcode.com/problems/next-greater-element-ii/)|Medium|
@@ -779,7 +779,7 @@ My daily challenge on leetcode since 2021/09/06.
   <summary>### 751 ~ 1000</summary>
 
 |</>|#|Solution Title|Difficulty|
-|:-:|--:|:--|:--|
+|--:|--:|:--|:--|
 |🔒|751|[IP to CIDR](https://leetcode.com/problems/ip-to-cidr/)|Medium|
 ||752|[Open the Lock](https://leetcode.com/problems/open-the-lock/)|Medium|
 ||753|[Cracking the Safe](https://leetcode.com/problems/cracking-the-safe/)|Hard|
@@ -1035,7 +1035,7 @@ My daily challenge on leetcode since 2021/09/06.
   <summary>### 1001 ~ 1250</summary>
 
 |</>|#|Solution Title|Difficulty|
-|:-:|--:|:--|:--|
+|--:|--:|:--|:--|
 ||1001|[Grid Illumination](https://leetcode.com/problems/grid-illumination/)|Hard|
 ||1002|[Find Common Characters](https://leetcode.com/problems/find-common-characters/)|Easy|
 ||1003|[Check If Word Is Valid After Substitutions](https://leetcode.com/problems/check-if-word-is-valid-after-substitutions/)|Medium|
@@ -1291,7 +1291,7 @@ My daily challenge on leetcode since 2021/09/06.
   <summary>### 1251 ~ 1500</summary>
 
 |</>|#|Solution Title|Difficulty|
-|:-:|--:|:--|:--|
+|--:|--:|:--|:--|
 |🔒|1251|[Average Selling Price](https://leetcode.com/problems/average-selling-price/)|Easy|
 ||1252|[Cells with Odd Values in a Matrix](https://leetcode.com/problems/cells-with-odd-values-in-a-matrix/)|Easy|
 ||1253|[Reconstruct a 2-Row Binary Matrix](https://leetcode.com/problems/reconstruct-a-2-row-binary-matrix/)|Medium|
@@ -1547,7 +1547,7 @@ My daily challenge on leetcode since 2021/09/06.
   <summary>### 1501 ~ 1750</summary>
 
 |</>|#|Solution Title|Difficulty|
-|:-:|--:|:--|:--|
+|--:|--:|:--|:--|
 |🔒|1501|[Countries You Can Safely Invest In](https://leetcode.com/problems/countries-you-can-safely-invest-in/)|Medium|
 ||1502|[Can Make Arithmetic Progression From Sequence](https://leetcode.com/problems/can-make-arithmetic-progression-from-sequence/)|Easy|
 ||1503|[Last Moment Before All Ants Fall Out of a Plank](https://leetcode.com/problems/last-moment-before-all-ants-fall-out-of-a-plank/)|Medium|
@@ -1803,7 +1803,7 @@ My daily challenge on leetcode since 2021/09/06.
   <summary>### 1751 ~ 2000</summary>
 
 |</>|#|Solution Title|Difficulty|
-|:-:|--:|:--|:--|
+|--:|--:|:--|:--|
 ||1751|[Maximum Number of Events That Can Be Attended II](https://leetcode.com/problems/maximum-number-of-events-that-can-be-attended-ii/)|Hard|
 ||1752|[Check if Array Is Sorted and Rotated](https://leetcode.com/problems/check-if-array-is-sorted-and-rotated/)|Easy|
 ||1753|[Maximum Score From Removing Stones](https://leetcode.com/problems/maximum-score-from-removing-stones/)|Medium|
@@ -2059,7 +2059,7 @@ My daily challenge on leetcode since 2021/09/06.
   <summary>### 2001 ~ 2021</summary>
 
 |</>|#|Solution Title|Difficulty|
-|:-:|--:|:--|:--|
+|--:|--:|:--|:--|
 ||2001|[Number of Pairs of Interchangeable Rectangles](https://leetcode.com/problems/number-of-pairs-of-interchangeable-rectangles/)|Medium|
 ||2002|[Maximum Product of the Length of Two Palindromic Subsequences](https://leetcode.com/problems/maximum-product-of-the-length-of-two-palindromic-subsequences/)|Medium|
 ||2003|[Smallest Missing Genetic Value in Each Subtree](https://leetcode.com/problems/smallest-missing-genetic-value-in-each-subtree/)|Hard|
