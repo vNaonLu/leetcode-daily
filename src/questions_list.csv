@@ -43,7 +43,7 @@ id,title,level,slug,paid,done
 42,Trapping Rain Water,3,trapping-rain-water,0,0
 43,Multiply Strings,2,multiply-strings,0,1
 44,Wildcard Matching,3,wildcard-matching,0,0
-45,Jump Game II,2,jump-game-ii,0,0
+45,Jump Game II,2,jump-game-ii,0,1
 46,Permutations,2,permutations,0,1
 47,Permutations II,2,permutations-ii,0,1
 48,Rotate Image,2,rotate-image,0,1

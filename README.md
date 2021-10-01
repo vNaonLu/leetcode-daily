@@ -56,7 +56,7 @@ My daily challenge on leetcode since 2021/09/06.
 ||42|[Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water/)|Hard|
 |[✅](./src/q_1_50/q0043.hpp)|43|[Multiply Strings](https://leetcode.com/problems/multiply-strings/)|Medium|
 ||44|[Wildcard Matching](https://leetcode.com/problems/wildcard-matching/)|Hard|
-||45|[Jump Game II](https://leetcode.com/problems/jump-game-ii/)|Medium|
+|[✅](./src/q_1_50/q0045.hpp)|45|[Jump Game II](https://leetcode.com/problems/jump-game-ii/)|Medium|
 |[✅](./src/q_1_50/q0046.hpp)|46|[Permutations](https://leetcode.com/problems/permutations/)|Medium|
 |[✅](./src/q_1_50/q0047.hpp)|47|[Permutations II](https://leetcode.com/problems/permutations-ii/)|Medium|
 |[✅](./src/q_1_50/q0048.hpp)|48|[Rotate Image](https://leetcode.com/problems/rotate-image/)|Medium|
@@ -2088,6 +2088,7 @@ My daily challenge on leetcode since 2021/09/06.
 
 |Time|#|</>|Question Title|Difficulty|
 |:--|--:|:-:|:--|:--|
+|2021-10-01 11:39|45|[📎](./src/q_1_50/q0045.hpp)|[Jump Game II](https://leetcode.com/problems/jump-game-ii/)|Medium|
 |2021-10-01 11:36|1143|[📎](./src/q_1101_1150/q1143.hpp)|[Longest Common Subsequence](https://leetcode.com/problems/longest-common-subsequence/)|Medium|
 |2021-09-30 15:33|698|[📎](./src/q_651_700/q0698.hpp)|[Partition to K Equal Sum Subsets](https://leetcode.com/problems/partition-to-k-equal-sum-subsets/)|Medium|
 |2021-09-30 14:17|707|[📎](./src/q_701_750/q0707.hpp)|[Design Linked List](https://leetcode.com/problems/design-linked-list/)|Medium|
@@ -2112,11 +2113,10 @@ My daily challenge on leetcode since 2021/09/06.
 |2021-09-27 13:25|78|[📎](./src/q_51_100/q0078.hpp)|[Subsets](https://leetcode.com/problems/subsets/)|Medium|
 |2021-09-26 18:44|782|[📎](./src/q_751_800/q0782.hpp)|[Transform to Chessboard](https://leetcode.com/problems/transform-to-chessboard/)|Hard|
 |2021-09-26 18:28|43|[📎](./src/q_1_50/q0043.hpp)|[Multiply Strings](https://leetcode.com/problems/multiply-strings/)|Medium|
-|2021-09-26 17:38|49|[📎](./src/q_1_50/q0049.hpp)|[Group Anagrams](https://leetcode.com/problems/group-anagrams/)|Medium|
 
 ## Previous Logs
 
 |Month|Submissions|Easy|Medium|Hard|
 |:--|:--|:--|:--|:--|
-|[October_2021](./assets/October_2021.md)|1|0|1|0|
+|[October_2021](./assets/October_2021.md)|2|0|2|0|
 |[September_2021](./assets/September_2021.md)|133|55|71|7|
