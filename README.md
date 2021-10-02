@@ -1284,7 +1284,7 @@ My daily challenge on leetcode since 2021/09/06.
 |🔒|1246|[Palindrome Removal](https://leetcode.com/problems/palindrome-removal/)|Hard|
 ||1247|[Minimum Swaps to Make Strings Equal](https://leetcode.com/problems/minimum-swaps-to-make-strings-equal/)|Medium|
 ||1248|[Count Number of Nice Subarrays](https://leetcode.com/problems/count-number-of-nice-subarrays/)|Medium|
-||1249|[Minimum Remove to Make Valid Parentheses](https://leetcode.com/problems/minimum-remove-to-make-valid-parentheses/)|Medium|
+|[📎](src/q_1201_1250/q1249.hpp) [📝](src/q_1201_1250/q1249_unittest.hpp)|1249|[Minimum Remove to Make Valid Parentheses](https://leetcode.com/problems/minimum-remove-to-make-valid-parentheses/)|Medium|
 ||1250|[Check If It Is a Good Array](https://leetcode.com/problems/check-if-it-is-a-good-array/)|Hard|
 </details>
 <details>
@@ -2088,6 +2088,7 @@ My daily challenge on leetcode since 2021/09/06.
 
 |Time|#|</>|Question Title|Difficulty|
 |:--|--:|:-:|:--|:--|
+|2021-10-02 14:42|1249|[📎](src/q_1201_1250/q1249.hpp) [📝](src/q_1201_1250/q1249_unittest.hpp)|[Minimum Remove to Make Valid Parentheses](https://leetcode.com/problems/minimum-remove-to-make-valid-parentheses/)|Medium|
 |2021-10-02 14:34|155|[📎](src/q_151_200/q0155.hpp) [📝](src/q_151_200/q0155_unittest.hpp)|[Min Stack](https://leetcode.com/problems/min-stack/)|Easy|
 |2021-10-02 14:23|413|[📎](src/q_401_450/q0413.hpp) [📝](src/q_401_450/q0413_unittest.hpp)|[Arithmetic Slices](https://leetcode.com/problems/arithmetic-slices/)|Medium|
 |2021-10-02 13:20|174|[📎](src/q_151_200/q0174.hpp) [📝](src/q_151_200/q0174_unittest.hpp)|[Dungeon Game](https://leetcode.com/problems/dungeon-game/)|Hard|
@@ -2112,11 +2113,10 @@ My daily challenge on leetcode since 2021/09/06.
 |2021-09-28 10:40|40|[📎](src/q_1_50/q0040.hpp) [📝](src/q_1_50/q0040_unittest.hpp)|[Combination Sum II](https://leetcode.com/problems/combination-sum-ii/)|Medium|
 |2021-09-28 10:15|39|[📎](src/q_1_50/q0039.hpp) [📝](src/q_1_50/q0039_unittest.hpp)|[Combination Sum](https://leetcode.com/problems/combination-sum/)|Medium|
 |2021-09-28 09:55|47|[📎](src/q_1_50/q0047.hpp) [📝](src/q_1_50/q0047_unittest.hpp)|[Permutations II](https://leetcode.com/problems/permutations-ii/)|Medium|
-|2021-09-27 16:02|929|[📎](src/q_901_950/q0929.hpp) [📝](src/q_901_950/q0929_unittest.hpp)|[Unique Email Addresses](https://leetcode.com/problems/unique-email-addresses/)|Easy|
 
 ## Previous Logs
 
 |Month|Submissions|Easy|Medium|Hard|
 |:--|:--|:--|:--|:--|
-|[October_2021](./assets/October_2021.md)|8|1|5|2|
+|[October_2021](./assets/October_2021.md)|9|1|6|2|
 |[September_2021](./assets/September_2021.md)|133|55|71|7|
