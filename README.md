@@ -430,7 +430,7 @@ My daily challenge on leetcode since 2021/09/06.
 ||410|[Split Array Largest Sum](https://leetcode.com/problems/split-array-largest-sum/)|Hard|
 |🔒|411|[Minimum Unique Word Abbreviation](https://leetcode.com/problems/minimum-unique-word-abbreviation/)|Hard|
 ||412|[Fizz Buzz](https://leetcode.com/problems/fizz-buzz/)|Easy|
-||413|[Arithmetic Slices](https://leetcode.com/problems/arithmetic-slices/)|Medium|
+|[📎](src/q_401_450/q0413.hpp) [📝](src/q_401_450/q0413_unittest.hpp)|413|[Arithmetic Slices](https://leetcode.com/problems/arithmetic-slices/)|Medium|
 ||414|[Third Maximum Number](https://leetcode.com/problems/third-maximum-number/)|Easy|
 |[📎](src/q_401_450/q0415.hpp) [📝](src/q_401_450/q0415_unittest.hpp)|415|[Add Strings](https://leetcode.com/problems/add-strings/)|Easy|
 ||416|[Partition Equal Subset Sum](https://leetcode.com/problems/partition-equal-subset-sum/)|Medium|
@@ -2088,6 +2088,7 @@ My daily challenge on leetcode since 2021/09/06.
 
 |Time|#|</>|Question Title|Difficulty|
 |:--|--:|:-:|:--|:--|
+|2021-10-02 14:23|413|[📎](src/q_401_450/q0413.hpp) [📝](src/q_401_450/q0413_unittest.hpp)|[Arithmetic Slices](https://leetcode.com/problems/arithmetic-slices/)|Medium|
 |2021-10-02 13:20|174|[📎](src/q_151_200/q0174.hpp) [📝](src/q_151_200/q0174_unittest.hpp)|[Dungeon Game](https://leetcode.com/problems/dungeon-game/)|Hard|
 |2021-10-01 12:27|25|[📎](src/q_1_50/q0025.hpp) [📝](src/q_1_50/q0025_unittest.hpp)|[Reverse Nodes in k-Group](https://leetcode.com/problems/reverse-nodes-in-k-group/)|Hard|
 |2021-10-01 12:06|143|[📎](src/q_101_150/q0143.hpp) [📝](src/q_101_150/q0143_unittest.hpp)|[Reorder List](https://leetcode.com/problems/reorder-list/)|Medium|
@@ -2112,11 +2113,10 @@ My daily challenge on leetcode since 2021/09/06.
 |2021-09-28 09:55|47|[📎](src/q_1_50/q0047.hpp) [📝](src/q_1_50/q0047_unittest.hpp)|[Permutations II](https://leetcode.com/problems/permutations-ii/)|Medium|
 |2021-09-27 16:02|929|[📎](src/q_901_950/q0929.hpp) [📝](src/q_901_950/q0929_unittest.hpp)|[Unique Email Addresses](https://leetcode.com/problems/unique-email-addresses/)|Easy|
 |2021-09-27 14:03|5|[📎](src/q_1_50/q0005.hpp) [📝](src/q_1_50/q0005_unittest.hpp)|[Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/)|Medium|
-|2021-09-27 13:52|187|[📎](src/q_151_200/q0187.hpp) [📝](src/q_151_200/q0187_unittest.hpp)|[Repeated DNA Sequences](https://leetcode.com/problems/repeated-dna-sequences/)|Medium|
 
 ## Previous Logs
 
 |Month|Submissions|Easy|Medium|Hard|
 |:--|:--|:--|:--|:--|
-|[October_2021](./assets/October_2021.md)|6|0|4|2|
+|[October_2021](./assets/October_2021.md)|7|0|5|2|
 |[September_2021](./assets/September_2021.md)|133|55|71|7|

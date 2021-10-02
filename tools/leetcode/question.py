@@ -64,7 +64,6 @@ class SolutionFunction(SolutionAbstract):
                                   arg)
                     if m_arg:
                         arg = Argument.generate(m_arg.group("type"))
-                        self._add_include(arg)
                         self._args[m_arg.group("name")] = arg
                 break
 

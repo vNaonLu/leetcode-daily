@@ -28,7 +28,7 @@ class Argument:
 
     @staticmethod
     def generate(typename: str):
-        vector_match = re.search(" *(?P<type>vector<(?P<content>[\w*]+)>)",
+        vector_match = re.search(" *(?P<type>vector<(?P<content>[\w<>*]+)>)",
                                  typename)
         if vector_match != None:
             return VectorArgument(vector_match.group("type"),
@@ -156,7 +156,7 @@ class VectorArgument(Argument):
     def parse_value(self, string: str):
         match = re.search("\[(?P<val>[\w\W]*)\]", string)
         if match != None:
-            element = re.findall("(\[[\w\"\',]*\]|\"[^\n]+?\"|[\d.+-]+)",
+            element = re.findall("(\[[\w\W]*?\]|\"[\w\W]*?\"|[\d.+-]+)",
                                  match.group("val"))
             return "{{{}}}".format(
                 ", ".join([self._content.parse_value(e) for e in element]))
