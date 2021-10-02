@@ -153,7 +153,7 @@ id,title,level,slug,paid,done
 152,Maximum Product Subarray,2,maximum-product-subarray,0,0
 153,Find Minimum in Rotated Sorted Array,2,find-minimum-in-rotated-sorted-array,0,1
 154,Find Minimum in Rotated Sorted Array II,3,find-minimum-in-rotated-sorted-array-ii,0,0
-155,Min Stack,1,min-stack,0,0
+155,Min Stack,1,min-stack,0,1
 156,Binary Tree Upside Down,2,binary-tree-upside-down,1,0
 157,Read N Characters Given Read4,1,read-n-characters-given-read4,1,0
 158,Read N Characters Given Read4 II - Call multiple times,3,read-n-characters-given-read4-ii-call-multiple-times,1,0

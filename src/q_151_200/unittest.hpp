@@ -3,6 +3,7 @@
 #define Q_151_200_UNITTEST
 
 #include "q0153_unittest.hpp"
+#include "q0155_unittest.hpp"
 #include "q0160_unittest.hpp"
 #include "q0162_unittest.hpp"
 #include "q0167_unittest.hpp"
