@@ -26,6 +26,7 @@
 #include "q_1251_1300/unittest.hpp"
 #include "q_1301_1350/unittest.hpp"
 #include "q_1601_1650/unittest.hpp"
+#include "q_1801_1850/unittest.hpp"
 #include "q_1951_2000/unittest.hpp"
 
 int main(int argc, char **argv) {

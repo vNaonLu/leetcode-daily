@@ -1876,7 +1876,7 @@ My daily challenge on leetcode since 2021/09/06.
 |🔒|1820|[Maximum Number of Accepted Invitations](https://leetcode.com/problems/maximum-number-of-accepted-invitations/)|Medium|
 |🔒|1821|[Find Customers With Positive Revenue this Year](https://leetcode.com/problems/find-customers-with-positive-revenue-this-year/)|Easy|
 ||1822|[Sign of the Product of an Array](https://leetcode.com/problems/sign-of-the-product-of-an-array/)|Easy|
-||1823|[Find the Winner of the Circular Game](https://leetcode.com/problems/find-the-winner-of-the-circular-game/)|Medium|
+|[📎](src/q_1801_1850/q1823.hpp) [📝](src/q_1801_1850/q1823_unittest.hpp)|1823|[Find the Winner of the Circular Game](https://leetcode.com/problems/find-the-winner-of-the-circular-game/)|Medium|
 ||1824|[Minimum Sideway Jumps](https://leetcode.com/problems/minimum-sideway-jumps/)|Medium|
 ||1825|[Finding MK Average](https://leetcode.com/problems/finding-mk-average/)|Hard|
 |🔒|1826|[Faulty Sensor](https://leetcode.com/problems/faulty-sensor/)|Easy|
@@ -2088,6 +2088,7 @@ My daily challenge on leetcode since 2021/09/06.
 
 |Time|#|</>|Question Title|Difficulty|
 |:--|--:|:-:|:--|:--|
+|2021-10-02 15:06|1823|[📎](src/q_1801_1850/q1823.hpp) [📝](src/q_1801_1850/q1823_unittest.hpp)|[Find the Winner of the Circular Game](https://leetcode.com/problems/find-the-winner-of-the-circular-game/)|Medium|
 |2021-10-02 14:42|1249|[📎](src/q_1201_1250/q1249.hpp) [📝](src/q_1201_1250/q1249_unittest.hpp)|[Minimum Remove to Make Valid Parentheses](https://leetcode.com/problems/minimum-remove-to-make-valid-parentheses/)|Medium|
 |2021-10-02 14:34|155|[📎](src/q_151_200/q0155.hpp) [📝](src/q_151_200/q0155_unittest.hpp)|[Min Stack](https://leetcode.com/problems/min-stack/)|Easy|
 |2021-10-02 14:23|413|[📎](src/q_401_450/q0413.hpp) [📝](src/q_401_450/q0413_unittest.hpp)|[Arithmetic Slices](https://leetcode.com/problems/arithmetic-slices/)|Medium|
@@ -2112,11 +2113,10 @@ My daily challenge on leetcode since 2021/09/06.
 |2021-09-28 10:52|2|[📎](src/q_1_50/q0002.hpp) [📝](src/q_1_50/q0002_unittest.hpp)|[Add Two Numbers](https://leetcode.com/problems/add-two-numbers/)|Medium|
 |2021-09-28 10:40|40|[📎](src/q_1_50/q0040.hpp) [📝](src/q_1_50/q0040_unittest.hpp)|[Combination Sum II](https://leetcode.com/problems/combination-sum-ii/)|Medium|
 |2021-09-28 10:15|39|[📎](src/q_1_50/q0039.hpp) [📝](src/q_1_50/q0039_unittest.hpp)|[Combination Sum](https://leetcode.com/problems/combination-sum/)|Medium|
-|2021-09-28 09:55|47|[📎](src/q_1_50/q0047.hpp) [📝](src/q_1_50/q0047_unittest.hpp)|[Permutations II](https://leetcode.com/problems/permutations-ii/)|Medium|
 
 ## Previous Logs
 
 |Month|Submissions|Easy|Medium|Hard|
 |:--|:--|:--|:--|:--|
-|[October_2021](./assets/October_2021.md)|9|1|6|2|
+|[October_2021](./assets/October_2021.md)|10|1|7|2|
 |[September_2021](./assets/September_2021.md)|133|55|71|7|
