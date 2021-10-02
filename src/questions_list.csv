@@ -172,7 +172,7 @@ id,title,level,slug,paid,done
 171,Excel Sheet Column Number,1,excel-sheet-column-number,0,0
 172,Factorial Trailing Zeroes,2,factorial-trailing-zeroes,0,0
 173,Binary Search Tree Iterator,2,binary-search-tree-iterator,0,0
-174,Dungeon Game,3,dungeon-game,0,0
+174,Dungeon Game,3,dungeon-game,0,1
 175,Combine Two Tables,1,combine-two-tables,0,0
 176,Second Highest Salary,2,second-highest-salary,0,0
 177,Nth Highest Salary,2,nth-highest-salary,0,0

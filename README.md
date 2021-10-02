@@ -185,7 +185,7 @@ My daily challenge on leetcode since 2021/09/06.
 ||171|[Excel Sheet Column Number](https://leetcode.com/problems/excel-sheet-column-number/)|Easy|
 ||172|[Factorial Trailing Zeroes](https://leetcode.com/problems/factorial-trailing-zeroes/)|Medium|
 ||173|[Binary Search Tree Iterator](https://leetcode.com/problems/binary-search-tree-iterator/)|Medium|
-||174|[Dungeon Game](https://leetcode.com/problems/dungeon-game/)|Hard|
+|[📎](src/q_151_200/q0174.hpp) [📝](src/q_151_200/q0174_unittest.hpp)|174|[Dungeon Game](https://leetcode.com/problems/dungeon-game/)|Hard|
 ||175|[Combine Two Tables](https://leetcode.com/problems/combine-two-tables/)|Easy|
 ||176|[Second Highest Salary](https://leetcode.com/problems/second-highest-salary/)|Medium|
 ||177|[Nth Highest Salary](https://leetcode.com/problems/nth-highest-salary/)|Medium|
@@ -2088,6 +2088,7 @@ My daily challenge on leetcode since 2021/09/06.
 
 |Time|#|</>|Question Title|Difficulty|
 |:--|--:|:-:|:--|:--|
+|2021-10-02 13:20|174|[📎](src/q_151_200/q0174.hpp) [📝](src/q_151_200/q0174_unittest.hpp)|[Dungeon Game](https://leetcode.com/problems/dungeon-game/)|Hard|
 |2021-10-01 12:27|25|[📎](src/q_1_50/q0025.hpp) [📝](src/q_1_50/q0025_unittest.hpp)|[Reverse Nodes in k-Group](https://leetcode.com/problems/reverse-nodes-in-k-group/)|Hard|
 |2021-10-01 12:06|143|[📎](src/q_101_150/q0143.hpp) [📝](src/q_101_150/q0143_unittest.hpp)|[Reorder List](https://leetcode.com/problems/reorder-list/)|Medium|
 |2021-10-01 11:51|62|[📎](src/q_51_100/q0062.hpp) [📝](src/q_51_100/q0062_unittest.hpp)|[Unique Paths](https://leetcode.com/problems/unique-paths/)|Medium|
@@ -2112,11 +2113,10 @@ My daily challenge on leetcode since 2021/09/06.
 |2021-09-27 16:02|929|[📎](src/q_901_950/q0929.hpp) [📝](src/q_901_950/q0929_unittest.hpp)|[Unique Email Addresses](https://leetcode.com/problems/unique-email-addresses/)|Easy|
 |2021-09-27 14:03|5|[📎](src/q_1_50/q0005.hpp) [📝](src/q_1_50/q0005_unittest.hpp)|[Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/)|Medium|
 |2021-09-27 13:52|187|[📎](src/q_151_200/q0187.hpp) [📝](src/q_151_200/q0187_unittest.hpp)|[Repeated DNA Sequences](https://leetcode.com/problems/repeated-dna-sequences/)|Medium|
-|2021-09-27 13:40|90|[📎](src/q_51_100/q0090.hpp) [📝](src/q_51_100/q0090_unittest.hpp)|[Subsets II](https://leetcode.com/problems/subsets-ii/)|Medium|
 
 ## Previous Logs
 
 |Month|Submissions|Easy|Medium|Hard|
 |:--|:--|:--|:--|:--|
-|[October_2021](./assets/October_2021.md)|5|0|4|1|
+|[October_2021](./assets/October_2021.md)|6|0|4|2|
 |[September_2021](./assets/September_2021.md)|133|55|71|7|
