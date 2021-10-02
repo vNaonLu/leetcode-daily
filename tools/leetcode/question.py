@@ -65,6 +65,7 @@ class SolutionFunction(SolutionAbstract):
                     if m_arg:
                         arg = Argument.generate(m_arg.group("type"))
                         self._args[m_arg.group("name")] = arg
+                        self._add_include(arg)
                 break
 
     def __parse_input(self, input: str):
