@@ -101,7 +101,7 @@ id,title,level,slug,paid,done
 100,Same Tree,1,same-tree,0,0
 101,Symmetric Tree,1,symmetric-tree,0,1
 102,Binary Tree Level Order Traversal,2,binary-tree-level-order-traversal,0,1
-103,Binary Tree Zigzag Level Order Traversal,2,binary-tree-zigzag-level-order-traversal,0,0
+103,Binary Tree Zigzag Level Order Traversal,2,binary-tree-zigzag-level-order-traversal,0,1
 104,Maximum Depth of Binary Tree,1,maximum-depth-of-binary-tree,0,1
 105,Construct Binary Tree from Preorder and Inorder Traversal,2,construct-binary-tree-from-preorder-and-inorder-traversal,0,1
 106,Construct Binary Tree from Inorder and Postorder Traversal,2,construct-binary-tree-from-inorder-and-postorder-traversal,0,0
@@ -2020,3 +2020,12 @@ id,title,level,slug,paid,done
 2019,The Score of Students Solving Math Expression,3,the-score-of-students-solving-math-expression,0,0
 2020,Number of Accounts That Did Not Stream,2,number-of-accounts-that-did-not-stream,1,0
 2021,Brightest Position on Street,2,brightest-position-on-street,1,0
+2022,Convert 1D Array Into 2D Array,1,convert-1d-array-into-2d-array,0,0
+2023,Number of Pairs of Strings With Concatenation Equal to Target,2,number-of-pairs-of-strings-with-concatenation-equal-to-target,0,0
+2024,Maximize the Confusion of an Exam,2,maximize-the-confusion-of-an-exam,0,0
+2025,Maximum Number of Ways to Partition an Array,3,maximum-number-of-ways-to-partition-an-array,0,0
+2026,Low-Quality Problems,1,low-quality-problems,1,0
+2027,Minimum Moves to Convert String,1,minimum-moves-to-convert-string,0,0
+2028,Find Missing Observations,2,find-missing-observations,0,0
+2029,Stone Game IX,2,stone-game-ix,0,0
+2030,Smallest K-Length Subsequence With Occurrences of a Letter,3,smallest-k-length-subsequence-with-occurrences-of-a-letter,0,0
