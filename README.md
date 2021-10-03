@@ -102,7 +102,7 @@ My daily challenge on leetcode since 2021/09/06.
 |[📎](src/q_51_100/q0088.hpp) [📝](src/q_51_100/q0088_unittest.hpp)|88|[Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array/)|Easy|
 ||89|[Gray Code](https://leetcode.com/problems/gray-code/)|Medium|
 |[📎](src/q_51_100/q0090.hpp) [📝](src/q_51_100/q0090_unittest.hpp)|90|[Subsets II](https://leetcode.com/problems/subsets-ii/)|Medium|
-||91|[Decode Ways](https://leetcode.com/problems/decode-ways/)|Medium|
+|[📎](src/q_51_100/q0091.hpp) [📝](src/q_51_100/q0091_unittest.hpp)|91|[Decode Ways](https://leetcode.com/problems/decode-ways/)|Medium|
 ||92|[Reverse Linked List II](https://leetcode.com/problems/reverse-linked-list-ii/)|Medium|
 ||93|[Restore IP Addresses](https://leetcode.com/problems/restore-ip-addresses/)|Medium|
 |[📎](src/q_51_100/q0094.hpp) [📝](src/q_51_100/q0094_unittest.hpp)|94|[Binary Tree Inorder Traversal](https://leetcode.com/problems/binary-tree-inorder-traversal/)|Easy|
@@ -150,7 +150,7 @@ My daily challenge on leetcode since 2021/09/06.
 |[📎](src/q_101_150/q0136.hpp) [📝](src/q_101_150/q0136_unittest.hpp)|136|[Single Number](https://leetcode.com/problems/single-number/)|Easy|
 ||137|[Single Number II](https://leetcode.com/problems/single-number-ii/)|Medium|
 ||138|[Copy List with Random Pointer](https://leetcode.com/problems/copy-list-with-random-pointer/)|Medium|
-||139|[Word Break](https://leetcode.com/problems/word-break/)|Medium|
+|[📎](src/q_101_150/q0139.hpp) [📝](src/q_101_150/q0139_unittest.hpp)|139|[Word Break](https://leetcode.com/problems/word-break/)|Medium|
 ||140|[Word Break II](https://leetcode.com/problems/word-break-ii/)|Hard|
 |[📎](src/q_101_150/q0141.hpp) [📝](src/q_101_150/q0141_unittest.hpp)|141|[Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/)|Easy|
 |[📎](src/q_101_150/q0142.hpp) [📝](src/q_101_150/q0142_unittest.hpp)|142|[Linked List Cycle II](https://leetcode.com/problems/linked-list-cycle-ii/)|Medium|
@@ -2088,6 +2088,8 @@ My daily challenge on leetcode since 2021/09/06.
 
 |Time|#|</>|Question Title|Difficulty|
 |:--|--:|:-:|:--|:--|
+|2021-10-03 11:52|139|[📎](src/q_101_150/q0139.hpp) [📝](src/q_101_150/q0139_unittest.hpp)|[Word Break](https://leetcode.com/problems/word-break/)|Medium|
+|2021-10-03 11:33|91|[📎](src/q_51_100/q0091.hpp) [📝](src/q_51_100/q0091_unittest.hpp)|[Decode Ways](https://leetcode.com/problems/decode-ways/)|Medium|
 |2021-10-02 15:06|1823|[📎](src/q_1801_1850/q1823.hpp) [📝](src/q_1801_1850/q1823_unittest.hpp)|[Find the Winner of the Circular Game](https://leetcode.com/problems/find-the-winner-of-the-circular-game/)|Medium|
 |2021-10-02 14:42|1249|[📎](src/q_1201_1250/q1249.hpp) [📝](src/q_1201_1250/q1249_unittest.hpp)|[Minimum Remove to Make Valid Parentheses](https://leetcode.com/problems/minimum-remove-to-make-valid-parentheses/)|Medium|
 |2021-10-02 14:34|155|[📎](src/q_151_200/q0155.hpp) [📝](src/q_151_200/q0155_unittest.hpp)|[Min Stack](https://leetcode.com/problems/min-stack/)|Easy|
@@ -2111,12 +2113,10 @@ My daily challenge on leetcode since 2021/09/06.
 |2021-09-28 18:22|922|[📎](src/q_901_950/q0922.hpp) [📝](src/q_901_950/q0922_unittest.hpp)|[Sort Array By Parity II](https://leetcode.com/problems/sort-array-by-parity-ii/)|Easy|
 |2021-09-28 11:22|142|[📎](src/q_101_150/q0142.hpp) [📝](src/q_101_150/q0142_unittest.hpp)|[Linked List Cycle II](https://leetcode.com/problems/linked-list-cycle-ii/)|Medium|
 |2021-09-28 10:52|2|[📎](src/q_1_50/q0002.hpp) [📝](src/q_1_50/q0002_unittest.hpp)|[Add Two Numbers](https://leetcode.com/problems/add-two-numbers/)|Medium|
-|2021-09-28 10:40|40|[📎](src/q_1_50/q0040.hpp) [📝](src/q_1_50/q0040_unittest.hpp)|[Combination Sum II](https://leetcode.com/problems/combination-sum-ii/)|Medium|
-|2021-09-28 10:15|39|[📎](src/q_1_50/q0039.hpp) [📝](src/q_1_50/q0039_unittest.hpp)|[Combination Sum](https://leetcode.com/problems/combination-sum/)|Medium|
 
 ## Previous Logs
 
 |Month|Submissions|Easy|Medium|Hard|
 |:--|:--|:--|:--|:--|
-|[October_2021](./assets/October_2021.md)|10|1|7|2|
+|[October_2021](./assets/October_2021.md)|12|1|9|2|
 |[September_2021](./assets/September_2021.md)|133|55|71|7|
