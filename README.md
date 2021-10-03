@@ -116,7 +116,7 @@ My daily challenge on leetcode since 2021/09/06.
 |[📎](src/q_101_150/q0102.hpp) [📝](src/q_101_150/q0102_unittest.hpp)|102|[Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal/)|Medium|
 ||103|[Binary Tree Zigzag Level Order Traversal](https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal/)|Medium|
 |[📎](src/q_101_150/q0104.hpp) [📝](src/q_101_150/q0104_unittest.hpp)|104|[Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/)|Easy|
-||105|[Construct Binary Tree from Preorder and Inorder Traversal](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/)|Medium|
+|[📎](src/q_101_150/q0105.hpp) [📝](src/q_101_150/q0105_unittest.hpp)|105|[Construct Binary Tree from Preorder and Inorder Traversal](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/)|Medium|
 ||106|[Construct Binary Tree from Inorder and Postorder Traversal](https://leetcode.com/problems/construct-binary-tree-from-inorder-and-postorder-traversal/)|Medium|
 ||107|[Binary Tree Level Order Traversal II](https://leetcode.com/problems/binary-tree-level-order-traversal-ii/)|Medium|
 |[📎](src/q_101_150/q0108.hpp) [📝](src/q_101_150/q0108_unittest.hpp)|108|[Convert Sorted Array to Binary Search Tree](https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree/)|Easy|
@@ -2088,6 +2088,7 @@ My daily challenge on leetcode since 2021/09/06.
 
 |Time|#|</>|Question Title|Difficulty|
 |:--|--:|:-:|:--|:--|
+|2021-10-03 12:47|105|[📎](src/q_101_150/q0105.hpp) [📝](src/q_101_150/q0105_unittest.hpp)|[Construct Binary Tree from Preorder and Inorder Traversal](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/)|Medium|
 |2021-10-03 12:07|108|[📎](src/q_101_150/q0108.hpp) [📝](src/q_101_150/q0108_unittest.hpp)|[Convert Sorted Array to Binary Search Tree](https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree/)|Easy|
 |2021-10-03 11:52|139|[📎](src/q_101_150/q0139.hpp) [📝](src/q_101_150/q0139_unittest.hpp)|[Word Break](https://leetcode.com/problems/word-break/)|Medium|
 |2021-10-03 11:33|91|[📎](src/q_51_100/q0091.hpp) [📝](src/q_51_100/q0091_unittest.hpp)|[Decode Ways](https://leetcode.com/problems/decode-ways/)|Medium|
@@ -2112,11 +2113,10 @@ My daily challenge on leetcode since 2021/09/06.
 |2021-09-29 13:19|22|[📎](src/q_1_50/q0022.hpp) [📝](src/q_1_50/q0022_unittest.hpp)|[Generate Parentheses](https://leetcode.com/problems/generate-parentheses/)|Medium|
 |2021-09-29 13:05|17|[📎](src/q_1_50/q0017.hpp) [📝](src/q_1_50/q0017_unittest.hpp)|[Letter Combinations of a Phone Number](https://leetcode.com/problems/letter-combinations-of-a-phone-number/)|Medium|
 |2021-09-28 18:22|922|[📎](src/q_901_950/q0922.hpp) [📝](src/q_901_950/q0922_unittest.hpp)|[Sort Array By Parity II](https://leetcode.com/problems/sort-array-by-parity-ii/)|Easy|
-|2021-09-28 11:22|142|[📎](src/q_101_150/q0142.hpp) [📝](src/q_101_150/q0142_unittest.hpp)|[Linked List Cycle II](https://leetcode.com/problems/linked-list-cycle-ii/)|Medium|
 
 ## Previous Logs
 
 |Month|Submissions|Easy|Medium|Hard|
 |:--|:--|:--|:--|:--|
-|[October_2021](./assets/October_2021.md)|13|2|9|2|
+|[October_2021](./assets/October_2021.md)|14|2|10|2|
 |[September_2021](./assets/September_2021.md)|133|55|71|7|

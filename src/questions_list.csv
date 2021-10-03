@@ -103,7 +103,7 @@ id,title,level,slug,paid,done
 102,Binary Tree Level Order Traversal,2,binary-tree-level-order-traversal,0,1
 103,Binary Tree Zigzag Level Order Traversal,2,binary-tree-zigzag-level-order-traversal,0,0
 104,Maximum Depth of Binary Tree,1,maximum-depth-of-binary-tree,0,1
-105,Construct Binary Tree from Preorder and Inorder Traversal,2,construct-binary-tree-from-preorder-and-inorder-traversal,0,0
+105,Construct Binary Tree from Preorder and Inorder Traversal,2,construct-binary-tree-from-preorder-and-inorder-traversal,0,1
 106,Construct Binary Tree from Inorder and Postorder Traversal,2,construct-binary-tree-from-inorder-and-postorder-traversal,0,0
 107,Binary Tree Level Order Traversal II,2,binary-tree-level-order-traversal-ii,0,0
 108,Convert Sorted Array to Binary Search Tree,1,convert-sorted-array-to-binary-search-tree,0,1

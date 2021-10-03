@@ -1,4 +1,5 @@
 import re
+import regex
 from . import request as LeetCodeRequest
 from .argument import Argument, CustomArgument
 
@@ -70,7 +71,7 @@ class SolutionFunction(SolutionAbstract):
 
     def __parse_input(self, input: str):
         inputs: list[str] = []
-        matches = re.findall("(?P<name>\w+) = (?P<value>[.\d+-]+|\[[\w\W]*\]|\"[\w\W]*?\")",
+        matches = regex.findall("(?P<name>\w+)[^\[\]\w]+(?P<value>[.\d+-]+|\"[\w\W]*?\"|\[(?:[^\[\]]|(?R))*\])",
                              input)
         for i in range(0, len(matches)):
             if i < len(self.args()):
