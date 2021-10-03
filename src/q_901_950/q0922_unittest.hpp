@@ -3,8 +3,6 @@
 #define Q922_UNITTEST_H__
 #include <gtest/gtest.h>
 
-#include <leetcode/condition.hpp>
-
 #include "q0922.hpp"
 using namespace std;
 
@@ -33,34 +31,26 @@ using namespace std;
   *
 */
 
+bool expect(const vector<int> &act) {
+  for (int i = 0; i < act.size(); ++i) {
+    if (i % 2 && !(act[i] % 2))
+      return false;
+    else if (!(i % 2) && act[i] % 2)
+      return false;
+  }
+  return true;
+}
+
 TEST(q922, sample_input01) {
   l922::Solution solver;
   vector<int> nums = {4, 2, 5, 7};
-  auto exp = [](const vector<int> &act) {
-    for (int i = 0; i < act.size(); ++i) {
-      if (i % 2 && !(act[i] % 2))
-        return false;
-      else if (!(i % 2) && act[i] % 2)
-        return false;
-    }
-    return true;
-  };
-  EXPECT_TRUE_IF(solver.sortArrayByParityII(nums), exp);
+  EXPECT_TRUE(expect(solver.sortArrayByParityII(nums)));
 }
 
 TEST(q922, sample_input02) {
   l922::Solution solver;
   vector<int> nums = {2, 3};
-  auto exp = [](const vector<int> &act) {
-    for (int i = 0; i < act.size(); ++i) {
-      if (i % 2 && !(act[i] % 2))
-        return false;
-      else if (!(i % 2) && act[i] % 2)
-        return false;
-    }
-    return true;
-  };
-  EXPECT_TRUE_IF(solver.sortArrayByParityII(nums), exp);
+  EXPECT_TRUE(expect(solver.sortArrayByParityII(nums)));
 }
 
 #endif
