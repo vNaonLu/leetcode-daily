@@ -461,7 +461,7 @@ id,title,level,slug,paid,done
 460,LFU Cache,3,lfu-cache,0,0
 461,Hamming Distance,1,hamming-distance,0,0
 462,Minimum Moves to Equal Array Elements II,2,minimum-moves-to-equal-array-elements-ii,0,0
-463,Island Perimeter,1,island-perimeter,0,0
+463,Island Perimeter,1,island-perimeter,0,1
 464,Can I Win,2,can-i-win,0,0
 465,Optimal Account Balancing,3,optimal-account-balancing,1,0
 466,Count The Repetitions,3,count-the-repetitions,0,0

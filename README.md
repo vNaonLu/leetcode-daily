@@ -480,7 +480,7 @@ My daily challenge on leetcode since 2021/09/06.
 ||460|[LFU Cache](https://leetcode.com/problems/lfu-cache/)|Hard|
 ||461|[Hamming Distance](https://leetcode.com/problems/hamming-distance/)|Easy|
 ||462|[Minimum Moves to Equal Array Elements II](https://leetcode.com/problems/minimum-moves-to-equal-array-elements-ii/)|Medium|
-||463|[Island Perimeter](https://leetcode.com/problems/island-perimeter/)|Easy|
+|[📎](src/q_451_500/q0463.hpp) [📝](src/q_451_500/q0463_unittest.hpp)|463|[Island Perimeter](https://leetcode.com/problems/island-perimeter/)|Easy|
 ||464|[Can I Win](https://leetcode.com/problems/can-i-win/)|Medium|
 |🔒|465|[Optimal Account Balancing](https://leetcode.com/problems/optimal-account-balancing/)|Hard|
 ||466|[Count The Repetitions](https://leetcode.com/problems/count-the-repetitions/)|Hard|
@@ -2097,6 +2097,7 @@ My daily challenge on leetcode since 2021/09/06.
 
 |Time|#|</>|Question Title|Difficulty|
 |:--|--:|:-:|:--|:--|
+|2021-10-04 11:24|463|[📎](src/q_451_500/q0463.hpp) [📝](src/q_451_500/q0463_unittest.hpp)|[Island Perimeter](https://leetcode.com/problems/island-perimeter/)|Easy|
 |2021-10-03 13:42|103|[📎](src/q_101_150/q0103.hpp) [📝](src/q_101_150/q0103_unittest.hpp)|[Binary Tree Zigzag Level Order Traversal](https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal/)|Medium|
 |2021-10-03 12:47|105|[📎](src/q_101_150/q0105.hpp) [📝](src/q_101_150/q0105_unittest.hpp)|[Construct Binary Tree from Preorder and Inorder Traversal](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/)|Medium|
 |2021-10-03 12:07|108|[📎](src/q_101_150/q0108.hpp) [📝](src/q_101_150/q0108_unittest.hpp)|[Convert Sorted Array to Binary Search Tree](https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree/)|Easy|
@@ -2121,11 +2122,10 @@ My daily challenge on leetcode since 2021/09/06.
 |2021-09-29 14:18|160|[📎](src/q_151_200/q0160.hpp) [📝](src/q_151_200/q0160_unittest.hpp)|[Intersection of Two Linked Lists](https://leetcode.com/problems/intersection-of-two-linked-lists/)|Easy|
 |2021-09-29 13:56|79|[📎](src/q_51_100/q0079.hpp) [📝](src/q_51_100/q0079_unittest.hpp)|[Word Search](https://leetcode.com/problems/word-search/)|Medium|
 |2021-09-29 13:19|22|[📎](src/q_1_50/q0022.hpp) [📝](src/q_1_50/q0022_unittest.hpp)|[Generate Parentheses](https://leetcode.com/problems/generate-parentheses/)|Medium|
-|2021-09-29 13:05|17|[📎](src/q_1_50/q0017.hpp) [📝](src/q_1_50/q0017_unittest.hpp)|[Letter Combinations of a Phone Number](https://leetcode.com/problems/letter-combinations-of-a-phone-number/)|Medium|
 
 ## Previous Logs
 
 |Month|Submissions|Easy|Medium|Hard|
 |:--|:--|:--|:--|:--|
-|[October_2021](./assets/October_2021.md)|15|2|11|2|
+|[October_2021](./assets/October_2021.md)|16|3|11|2|
 |[September_2021](./assets/September_2021.md)|133|55|71|7|
