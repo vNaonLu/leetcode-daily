@@ -197,7 +197,7 @@ id,title,level,slug,paid,done
 196,Delete Duplicate Emails,1,delete-duplicate-emails,0,0
 197,Rising Temperature,1,rising-temperature,0,0
 198,House Robber,2,house-robber,0,1
-199,Binary Tree Right Side View,2,binary-tree-right-side-view,0,0
+199,Binary Tree Right Side View,2,binary-tree-right-side-view,0,1
 200,Number of Islands,2,number-of-islands,0,1
 201,Bitwise AND of Numbers Range,2,bitwise-and-of-numbers-range,0,0
 202,Happy Number,1,happy-number,0,0

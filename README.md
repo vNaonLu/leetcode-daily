@@ -210,7 +210,7 @@ My daily challenge on leetcode since 2021/09/06.
 ||196|[Delete Duplicate Emails](https://leetcode.com/problems/delete-duplicate-emails/)|Easy|
 ||197|[Rising Temperature](https://leetcode.com/problems/rising-temperature/)|Easy|
 |[📎](src/q_151_200/q0198.hpp) [📝](src/q_151_200/q0198_unittest.hpp)|198|[House Robber](https://leetcode.com/problems/house-robber/)|Medium|
-||199|[Binary Tree Right Side View](https://leetcode.com/problems/binary-tree-right-side-view/)|Medium|
+|[📎](src/q_151_200/q0199.hpp) [📝](src/q_151_200/q0199_unittest.hpp)|199|[Binary Tree Right Side View](https://leetcode.com/problems/binary-tree-right-side-view/)|Medium|
 |[📎](src/q_151_200/q0200.hpp) [📝](src/q_151_200/q0200_unittest.hpp)|200|[Number of Islands](https://leetcode.com/problems/number-of-islands/)|Medium|
 ||201|[Bitwise AND of Numbers Range](https://leetcode.com/problems/bitwise-and-of-numbers-range/)|Medium|
 ||202|[Happy Number](https://leetcode.com/problems/happy-number/)|Easy|
@@ -2097,6 +2097,7 @@ My daily challenge on leetcode since 2021/09/06.
 
 |Time|#|</>|Question Title|Difficulty|
 |:--|--:|:-:|:--|:--|
+|2021-10-04 12:31|199|[📎](src/q_151_200/q0199.hpp) [📝](src/q_151_200/q0199_unittest.hpp)|[Binary Tree Right Side View](https://leetcode.com/problems/binary-tree-right-side-view/)|Medium|
 |2021-10-04 12:25|673|[📎](src/q_651_700/q0673.hpp) [📝](src/q_651_700/q0673_unittest.hpp)|[Number of Longest Increasing Subsequence](https://leetcode.com/problems/number-of-longest-increasing-subsequence/)|Medium|
 |2021-10-04 12:12|300|[📎](src/q_251_300/q0300.hpp) [📝](src/q_251_300/q0300_unittest.hpp)|[Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence/)|Medium|
 |2021-10-04 11:24|463|[📎](src/q_451_500/q0463.hpp) [📝](src/q_451_500/q0463_unittest.hpp)|[Island Perimeter](https://leetcode.com/problems/island-perimeter/)|Easy|
@@ -2121,11 +2122,10 @@ My daily challenge on leetcode since 2021/09/06.
 |2021-09-30 13:40|55|[📎](src/q_51_100/q0055.hpp) [📝](src/q_51_100/q0055_unittest.hpp)|[Jump Game](https://leetcode.com/problems/jump-game/)|Medium|
 |2021-09-30 13:33|213|[📎](src/q_201_250/q0213.hpp) [📝](src/q_201_250/q0213_unittest.hpp)|[House Robber II](https://leetcode.com/problems/house-robber-ii/)|Medium|
 |2021-09-29 17:00|725|[📎](src/q_701_750/q0725.hpp) [📝](src/q_701_750/q0725_unittest.hpp)|[Split Linked List in Parts](https://leetcode.com/problems/split-linked-list-in-parts/)|Medium|
-|2021-09-29 14:18|160|[📎](src/q_151_200/q0160.hpp) [📝](src/q_151_200/q0160_unittest.hpp)|[Intersection of Two Linked Lists](https://leetcode.com/problems/intersection-of-two-linked-lists/)|Easy|
 
 ## Previous Logs
 
 |Month|Submissions|Easy|Medium|Hard|
 |:--|:--|:--|:--|:--|
-|[October_2021](./assets/October_2021.md)|18|3|13|2|
+|[October_2021](./assets/October_2021.md)|19|3|14|2|
 |[September_2021](./assets/September_2021.md)|133|55|71|7|
