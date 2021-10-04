@@ -317,7 +317,7 @@ My daily challenge on leetcode since 2021/09/06.
 ||297|[Serialize and Deserialize Binary Tree](https://leetcode.com/problems/serialize-and-deserialize-binary-tree/)|Hard|
 |🔒|298|[Binary Tree Longest Consecutive Sequence](https://leetcode.com/problems/binary-tree-longest-consecutive-sequence/)|Medium|
 ||299|[Bulls and Cows](https://leetcode.com/problems/bulls-and-cows/)|Medium|
-||300|[Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence/)|Medium|
+|[📎](src/q_251_300/q0300.hpp) [📝](src/q_251_300/q0300_unittest.hpp)|300|[Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence/)|Medium|
 ||301|[Remove Invalid Parentheses](https://leetcode.com/problems/remove-invalid-parentheses/)|Hard|
 |🔒|302|[Smallest Rectangle Enclosing Black Pixels](https://leetcode.com/problems/smallest-rectangle-enclosing-black-pixels/)|Hard|
 ||303|[Range Sum Query - Immutable](https://leetcode.com/problems/range-sum-query-immutable/)|Easy|
@@ -2097,6 +2097,7 @@ My daily challenge on leetcode since 2021/09/06.
 
 |Time|#|</>|Question Title|Difficulty|
 |:--|--:|:-:|:--|:--|
+|2021-10-04 12:12|300|[📎](src/q_251_300/q0300.hpp) [📝](src/q_251_300/q0300_unittest.hpp)|[Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence/)|Medium|
 |2021-10-04 11:24|463|[📎](src/q_451_500/q0463.hpp) [📝](src/q_451_500/q0463_unittest.hpp)|[Island Perimeter](https://leetcode.com/problems/island-perimeter/)|Easy|
 |2021-10-03 13:42|103|[📎](src/q_101_150/q0103.hpp) [📝](src/q_101_150/q0103_unittest.hpp)|[Binary Tree Zigzag Level Order Traversal](https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal/)|Medium|
 |2021-10-03 12:47|105|[📎](src/q_101_150/q0105.hpp) [📝](src/q_101_150/q0105_unittest.hpp)|[Construct Binary Tree from Preorder and Inorder Traversal](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/)|Medium|
@@ -2121,11 +2122,10 @@ My daily challenge on leetcode since 2021/09/06.
 |2021-09-29 17:00|725|[📎](src/q_701_750/q0725.hpp) [📝](src/q_701_750/q0725_unittest.hpp)|[Split Linked List in Parts](https://leetcode.com/problems/split-linked-list-in-parts/)|Medium|
 |2021-09-29 14:18|160|[📎](src/q_151_200/q0160.hpp) [📝](src/q_151_200/q0160_unittest.hpp)|[Intersection of Two Linked Lists](https://leetcode.com/problems/intersection-of-two-linked-lists/)|Easy|
 |2021-09-29 13:56|79|[📎](src/q_51_100/q0079.hpp) [📝](src/q_51_100/q0079_unittest.hpp)|[Word Search](https://leetcode.com/problems/word-search/)|Medium|
-|2021-09-29 13:19|22|[📎](src/q_1_50/q0022.hpp) [📝](src/q_1_50/q0022_unittest.hpp)|[Generate Parentheses](https://leetcode.com/problems/generate-parentheses/)|Medium|
 
 ## Previous Logs
 
 |Month|Submissions|Easy|Medium|Hard|
 |:--|:--|:--|:--|:--|
-|[October_2021](./assets/October_2021.md)|16|3|11|2|
+|[October_2021](./assets/October_2021.md)|17|3|12|2|
 |[September_2021](./assets/September_2021.md)|133|55|71|7|

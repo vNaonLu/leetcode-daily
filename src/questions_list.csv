@@ -298,7 +298,7 @@ id,title,level,slug,paid,done
 297,Serialize and Deserialize Binary Tree,3,serialize-and-deserialize-binary-tree,0,0
 298,Binary Tree Longest Consecutive Sequence,2,binary-tree-longest-consecutive-sequence,1,0
 299,Bulls and Cows,2,bulls-and-cows,0,0
-300,Longest Increasing Subsequence,2,longest-increasing-subsequence,0,0
+300,Longest Increasing Subsequence,2,longest-increasing-subsequence,0,1
 301,Remove Invalid Parentheses,3,remove-invalid-parentheses,0,0
 302,Smallest Rectangle Enclosing Black Pixels,3,smallest-rectangle-enclosing-black-pixels,1,0
 303,Range Sum Query - Immutable,1,range-sum-query-immutable,0,0
