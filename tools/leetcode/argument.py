@@ -169,14 +169,17 @@ class VectorArgument(Argument):
 class ListNodeArgument(Argument):
     def __init__(self, typename: str):
         Argument.__init__(self, typename)
-        self._content = Argument.generate("vector<int>")
         self._includes.append("leetcode/listnode.hpp")
 
     def parse_value(self, string: str):
-        return "ListNode::generate({})".format(self._content.parse_value(string))
+        match = re.search("\[(?P<val>[\w\W]*)\]", string)
+        if match != None:
+            element = re.findall("([\d.+-]+)", match.group("val"))
+            return "ListNode::generate({{{}}})".format(", ".join(element))
+        return "ListNode::generate({})"
 
     def is_valid(self):
-        return self._content.is_valid()
+        return True
 
     def expect_compare(self, first_arg: str, second_arg: str):
         return "EXPECT_LISTNODE_EQ({}, {});".format(first_arg, second_arg)
@@ -185,16 +188,19 @@ class ListNodeArgument(Argument):
 class TreeNodeArgument(Argument):
     def __init__(self, typename: str):
         Argument.__init__(self, typename)
-        self._content = Argument.generate("vector<int>")
         self._includes.append("leetcode/treenode.hpp")
 
     def parse_value(self, string: str):
-        val = self._content.parse_value(string)
-        val = re.sub("null", "NULL_TREENODE", val)
-        return "TreeNode::generate({})".format(self._content.parse_value(string))
+        match = re.search("\[(?P<val>[\w\W]*)\]", string)
+        if match != None:
+            element = re.findall("([\d.+-]+|null)", match.group("val"))
+            return "TreeNode::generate({{{}}})".format(", ".join([
+                re.sub("null", "NULL_TREENODE", e) for e in element
+            ]))
+        return "TreeNode::generate({})"
 
     def is_valid(self):
-        return self._content.is_valid()
+        return True
 
     def expect_compare(self, first_arg: str, second_arg: str):
         return "EXPECT_TREENODE_EQ({}, {});".format(first_arg, second_arg)
