@@ -120,8 +120,9 @@ class SolutionFunction(SolutionAbstract):
 
         if self._type.is_valid():
             for case, _ in cases:
+                print(case)
                 m_cas = \
-                    re.search("Input[\w\W]+? (?P<in>[\w\W]+)[^\w]+Output[^\[\"\'\w]*(?P<out>[\d+-]+|\[[\w\W]*\]|\"[^\n]+?\"|True|False|true|false)",
+                    re.search("Input[\w\W]+? (?P<in>[\w\W]+)[^\w]+Output[^\[\"\'\w]* +(?P<out>[\d+-]+|\[[\w\W]*\]|\"[^\n]+?\"|True|False|true|false)",
                               case)
                 if m_cas:
                     inp = self.__parse_input(m_cas.group("in").strip())
