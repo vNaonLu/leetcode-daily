@@ -18,7 +18,7 @@ My daily challenge on leetcode since 2021/09/06.
 ||4|[Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays/)|Hard|
 |[📎](src/q_1_50/q0005.hpp) [📝](src/q_1_50/q0005_unittest.hpp)|5|[Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/)|Medium|
 ||6|[ZigZag Conversion](https://leetcode.com/problems/zigzag-conversion/)|Medium|
-||7|[Reverse Integer](https://leetcode.com/problems/reverse-integer/)|Easy|
+|[📎](src/q_1_50/q0007.hpp) [📝](src/q_1_50/q0007_unittest.hpp)|7|[Reverse Integer](https://leetcode.com/problems/reverse-integer/)|Easy|
 ||8|[String to Integer (atoi)](https://leetcode.com/problems/string-to-integer-atoi/)|Medium|
 ||9|[Palindrome Number](https://leetcode.com/problems/palindrome-number/)|Easy|
 ||10|[Regular Expression Matching](https://leetcode.com/problems/regular-expression-matching/)|Hard|
@@ -2097,6 +2097,7 @@ My daily challenge on leetcode since 2021/09/06.
 
 |Time|#|</>|Question Title|Difficulty|
 |:--|--:|:-:|:--|:--|
+|2021-10-05 01:21|7|[📎](src/q_1_50/q0007.hpp) [📝](src/q_1_50/q0007_unittest.hpp)|[Reverse Integer](https://leetcode.com/problems/reverse-integer/)|Easy|
 |2021-10-04 23:01|37|[📎](src/q_1_50/q0037.hpp) [📝](src/q_1_50/q0037_unittest.hpp)|[Sudoku Solver](https://leetcode.com/problems/sudoku-solver/)|Hard|
 |2021-10-04 13:11|450|[📎](src/q_401_450/q0450.hpp) [📝](src/q_401_450/q0450_unittest.hpp)|[Delete Node in a BST](https://leetcode.com/problems/delete-node-in-a-bst/)|Medium|
 |2021-10-04 12:40|113|[📎](src/q_101_150/q0113.hpp) [📝](src/q_101_150/q0113_unittest.hpp)|[Path Sum II](https://leetcode.com/problems/path-sum-ii/)|Medium|
@@ -2121,11 +2122,10 @@ My daily challenge on leetcode since 2021/09/06.
 |2021-10-01 11:36|1143|[📎](src/q_1101_1150/q1143.hpp) [📝](src/q_1101_1150/q1143_unittest.hpp)|[Longest Common Subsequence](https://leetcode.com/problems/longest-common-subsequence/)|Medium|
 |2021-09-30 15:33|698|[📎](src/q_651_700/q0698.hpp) [📝](src/q_651_700/q0698_unittest.hpp)|[Partition to K Equal Sum Subsets](https://leetcode.com/problems/partition-to-k-equal-sum-subsets/)|Medium|
 |2021-09-30 14:17|707|[📎](src/q_701_750/q0707.hpp) [📝](src/q_701_750/q0707_unittest.hpp)|[Design Linked List](https://leetcode.com/problems/design-linked-list/)|Medium|
-|2021-09-30 13:48|24|[📎](src/q_1_50/q0024.hpp) [📝](src/q_1_50/q0024_unittest.hpp)|[Swap Nodes in Pairs](https://leetcode.com/problems/swap-nodes-in-pairs/)|Medium|
 
 ## Previous Logs
 
 |Month|Submissions|Easy|Medium|Hard|
 |:--|:--|:--|:--|:--|
-|[October_2021](./assets/October_2021.md)|22|3|16|3|
+|[October_2021](./assets/October_2021.md)|23|4|16|3|
 |[September_2021](./assets/September_2021.md)|133|55|71|7|

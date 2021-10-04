@@ -5,7 +5,7 @@ id,title,level,slug,paid,done
 4,Median of Two Sorted Arrays,3,median-of-two-sorted-arrays,0,0
 5,Longest Palindromic Substring,2,longest-palindromic-substring,0,1
 6,ZigZag Conversion,2,zigzag-conversion,0,0
-7,Reverse Integer,1,reverse-integer,0,0
+7,Reverse Integer,1,reverse-integer,0,1
 8,String to Integer (atoi),2,string-to-integer-atoi,0,0
 9,Palindrome Number,1,palindrome-number,0,0
 10,Regular Expression Matching,3,regular-expression-matching,0,0
