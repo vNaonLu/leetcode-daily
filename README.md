@@ -48,7 +48,7 @@ My daily challenge on leetcode since 2021/09/06.
 |[📎](src/q_1_50/q0034.hpp) [📝](src/q_1_50/q0034_unittest.hpp)|34|[Find First and Last Position of Element in Sorted Array](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/)|Medium|
 ||35|[Search Insert Position](https://leetcode.com/problems/search-insert-position/)|Easy|
 |[📎](src/q_1_50/q0036.hpp) [📝](src/q_1_50/q0036_unittest.hpp)|36|[Valid Sudoku](https://leetcode.com/problems/valid-sudoku/)|Medium|
-||37|[Sudoku Solver](https://leetcode.com/problems/sudoku-solver/)|Hard|
+|[📎](src/q_1_50/q0037.hpp) [📝](src/q_1_50/q0037_unittest.hpp)|37|[Sudoku Solver](https://leetcode.com/problems/sudoku-solver/)|Hard|
 ||38|[Count and Say](https://leetcode.com/problems/count-and-say/)|Medium|
 |[📎](src/q_1_50/q0039.hpp) [📝](src/q_1_50/q0039_unittest.hpp)|39|[Combination Sum](https://leetcode.com/problems/combination-sum/)|Medium|
 |[📎](src/q_1_50/q0040.hpp) [📝](src/q_1_50/q0040_unittest.hpp)|40|[Combination Sum II](https://leetcode.com/problems/combination-sum-ii/)|Medium|
@@ -2097,6 +2097,7 @@ My daily challenge on leetcode since 2021/09/06.
 
 |Time|#|</>|Question Title|Difficulty|
 |:--|--:|:-:|:--|:--|
+|2021-10-04 23:01|37|[📎](src/q_1_50/q0037.hpp) [📝](src/q_1_50/q0037_unittest.hpp)|[Sudoku Solver](https://leetcode.com/problems/sudoku-solver/)|Hard|
 |2021-10-04 13:11|450|[📎](src/q_401_450/q0450.hpp) [📝](src/q_401_450/q0450_unittest.hpp)|[Delete Node in a BST](https://leetcode.com/problems/delete-node-in-a-bst/)|Medium|
 |2021-10-04 12:40|113|[📎](src/q_101_150/q0113.hpp) [📝](src/q_101_150/q0113_unittest.hpp)|[Path Sum II](https://leetcode.com/problems/path-sum-ii/)|Medium|
 |2021-10-04 12:31|199|[📎](src/q_151_200/q0199.hpp) [📝](src/q_151_200/q0199_unittest.hpp)|[Binary Tree Right Side View](https://leetcode.com/problems/binary-tree-right-side-view/)|Medium|
@@ -2121,11 +2122,10 @@ My daily challenge on leetcode since 2021/09/06.
 |2021-09-30 15:33|698|[📎](src/q_651_700/q0698.hpp) [📝](src/q_651_700/q0698_unittest.hpp)|[Partition to K Equal Sum Subsets](https://leetcode.com/problems/partition-to-k-equal-sum-subsets/)|Medium|
 |2021-09-30 14:17|707|[📎](src/q_701_750/q0707.hpp) [📝](src/q_701_750/q0707_unittest.hpp)|[Design Linked List](https://leetcode.com/problems/design-linked-list/)|Medium|
 |2021-09-30 13:48|24|[📎](src/q_1_50/q0024.hpp) [📝](src/q_1_50/q0024_unittest.hpp)|[Swap Nodes in Pairs](https://leetcode.com/problems/swap-nodes-in-pairs/)|Medium|
-|2021-09-30 13:40|55|[📎](src/q_51_100/q0055.hpp) [📝](src/q_51_100/q0055_unittest.hpp)|[Jump Game](https://leetcode.com/problems/jump-game/)|Medium|
 
 ## Previous Logs
 
 |Month|Submissions|Easy|Medium|Hard|
 |:--|:--|:--|:--|:--|
-|[October_2021](./assets/October_2021.md)|21|3|16|2|
+|[October_2021](./assets/October_2021.md)|22|3|16|3|
 |[September_2021](./assets/September_2021.md)|133|55|71|7|

@@ -35,7 +35,7 @@ id,title,level,slug,paid,done
 34,Find First and Last Position of Element in Sorted Array,2,find-first-and-last-position-of-element-in-sorted-array,0,1
 35,Search Insert Position,1,search-insert-position,0,0
 36,Valid Sudoku,2,valid-sudoku,0,1
-37,Sudoku Solver,3,sudoku-solver,0,0
+37,Sudoku Solver,3,sudoku-solver,0,1
 38,Count and Say,2,count-and-say,0,0
 39,Combination Sum,2,combination-sum,0,1
 40,Combination Sum II,2,combination-sum-ii,0,1
