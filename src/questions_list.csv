@@ -91,7 +91,7 @@ id,title,level,slug,paid,done
 90,Subsets II,2,subsets-ii,0,1
 91,Decode Ways,2,decode-ways,0,1
 92,Reverse Linked List II,2,reverse-linked-list-ii,0,0
-93,Restore IP Addresses,2,restore-ip-addresses,0,0
+93,Restore IP Addresses,2,restore-ip-addresses,0,1
 94,Binary Tree Inorder Traversal,1,binary-tree-inorder-traversal,0,1
 95,Unique Binary Search Trees II,2,unique-binary-search-trees-ii,0,0
 96,Unique Binary Search Trees,2,unique-binary-search-trees,0,0
