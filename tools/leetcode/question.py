@@ -71,7 +71,7 @@ class SolutionFunction(SolutionAbstract):
 
     def __parse_input(self, input: str):
         inputs: list[str] = []
-        matches = regex.findall("(?P<name>\w+)[^\[\]\w]+(?P<value>[.\d+-]+|\"[\w\W]*?\"|\[(?:[^\[\]]|(?R))*\])",
+        matches = regex.findall("(?P<name>\w+) *= *(?P<value>[.\d+-]+|\"[\w\W]*?\"|\[(?:[^\[\]]|(?&value))*\])",
                              input)
         for i in range(0, len(matches)):
             if i < len(self.args()):
