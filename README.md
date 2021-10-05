@@ -927,7 +927,7 @@ My daily challenge on leetcode since 2021/09/06.
 ||895|[Maximum Frequency Stack](https://leetcode.com/problems/maximum-frequency-stack/)|Hard|
 ||896|[Monotonic Array](https://leetcode.com/problems/monotonic-array/)|Easy|
 ||897|[Increasing Order Search Tree](https://leetcode.com/problems/increasing-order-search-tree/)|Easy|
-||898|[Bitwise ORs of Subarrays](https://leetcode.com/problems/bitwise-ors-of-subarrays/)|Medium|
+|[📎](src/q_851_900/q0898.hpp) [📝](src/q_851_900/q0898_unittest.hpp)|898|[Bitwise ORs of Subarrays](https://leetcode.com/problems/bitwise-ors-of-subarrays/)|Medium|
 ||899|[Orderly Queue](https://leetcode.com/problems/orderly-queue/)|Hard|
 ||900|[RLE Iterator](https://leetcode.com/problems/rle-iterator/)|Medium|
 ||901|[Online Stock Span](https://leetcode.com/problems/online-stock-span/)|Medium|
@@ -2097,6 +2097,7 @@ My daily challenge on leetcode since 2021/09/06.
 
 |Time|#|</>|Question Title|Difficulty|
 |:--|--:|:-:|:--|:--|
+|2021-10-06 00:20|898|[📎](src/q_851_900/q0898.hpp) [📝](src/q_851_900/q0898_unittest.hpp)|[Bitwise ORs of Subarrays](https://leetcode.com/problems/bitwise-ors-of-subarrays/)|Medium|
 |2021-10-06 00:06|338|[📎](src/q_301_350/q0338.hpp) [📝](src/q_301_350/q0338_unittest.hpp)|[Counting Bits](https://leetcode.com/problems/counting-bits/)|Easy|
 |2021-10-06 00:01|717|[📎](src/q_701_750/q0717.hpp) [📝](src/q_701_750/q0717_unittest.hpp)|[1-bit and 2-bit Characters](https://leetcode.com/problems/1-bit-and-2-bit-characters/)|Easy|
 |2021-10-05 23:51|1545|[📎](src/q_1501_1550/q1545.hpp) [📝](src/q_1501_1550/q1545_unittest.hpp)|[Find Kth Bit in Nth Binary String](https://leetcode.com/problems/find-kth-bit-in-nth-binary-string/)|Medium|
@@ -2121,11 +2122,10 @@ My daily challenge on leetcode since 2021/09/06.
 |2021-10-02 15:06|1823|[📎](src/q_1801_1850/q1823.hpp) [📝](src/q_1801_1850/q1823_unittest.hpp)|[Find the Winner of the Circular Game](https://leetcode.com/problems/find-the-winner-of-the-circular-game/)|Medium|
 |2021-10-02 14:42|1249|[📎](src/q_1201_1250/q1249.hpp) [📝](src/q_1201_1250/q1249_unittest.hpp)|[Minimum Remove to Make Valid Parentheses](https://leetcode.com/problems/minimum-remove-to-make-valid-parentheses/)|Medium|
 |2021-10-02 14:34|155|[📎](src/q_151_200/q0155.hpp) [📝](src/q_151_200/q0155_unittest.hpp)|[Min Stack](https://leetcode.com/problems/min-stack/)|Easy|
-|2021-10-02 14:23|413|[📎](src/q_401_450/q0413.hpp) [📝](src/q_401_450/q0413_unittest.hpp)|[Arithmetic Slices](https://leetcode.com/problems/arithmetic-slices/)|Medium|
 
 ## Previous Logs
 
 |Month|Submissions|Easy|Medium|Hard|
 |:--|:--|:--|:--|:--|
-|[October_2021](./assets/October_2021.md)|31|7|21|3|
+|[October_2021](./assets/October_2021.md)|32|7|22|3|
 |[September_2021](./assets/September_2021.md)|133|55|71|7|
