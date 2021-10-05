@@ -7,5 +7,6 @@
 #include "q0566_unittest.hpp"
 #include "q0567_unittest.hpp"
 #include "q0572_unittest.hpp"
+#include "q0583_unittest.hpp"
 
 #endif

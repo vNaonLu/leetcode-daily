@@ -581,7 +581,7 @@ id,title,level,slug,paid,done
 580,Count Student Number in Departments,2,count-student-number-in-departments,1,0
 581,Shortest Unsorted Continuous Subarray,2,shortest-unsorted-continuous-subarray,0,0
 582,Kill Process,2,kill-process,1,0
-583,Delete Operation for Two Strings,2,delete-operation-for-two-strings,0,0
+583,Delete Operation for Two Strings,2,delete-operation-for-two-strings,0,1
 584,Find Customer Referee,1,find-customer-referee,1,0
 585,Investments in 2016,2,investments-in-2016,1,0
 586,Customer Placing the Largest Number of Orders,1,customer-placing-the-largest-number-of-orders,1,0

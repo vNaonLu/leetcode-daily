@@ -606,7 +606,7 @@ My daily challenge on leetcode since 2021/09/06.
 |🔒|580|[Count Student Number in Departments](https://leetcode.com/problems/count-student-number-in-departments/)|Medium|
 ||581|[Shortest Unsorted Continuous Subarray](https://leetcode.com/problems/shortest-unsorted-continuous-subarray/)|Medium|
 |🔒|582|[Kill Process](https://leetcode.com/problems/kill-process/)|Medium|
-||583|[Delete Operation for Two Strings](https://leetcode.com/problems/delete-operation-for-two-strings/)|Medium|
+|[📎](src/q_551_600/q0583.hpp) [📝](src/q_551_600/q0583_unittest.hpp)|583|[Delete Operation for Two Strings](https://leetcode.com/problems/delete-operation-for-two-strings/)|Medium|
 |🔒|584|[Find Customer Referee](https://leetcode.com/problems/find-customer-referee/)|Easy|
 |🔒|585|[Investments in 2016](https://leetcode.com/problems/investments-in-2016/)|Medium|
 |🔒|586|[Customer Placing the Largest Number of Orders](https://leetcode.com/problems/customer-placing-the-largest-number-of-orders/)|Easy|
@@ -2097,6 +2097,7 @@ My daily challenge on leetcode since 2021/09/06.
 
 |Time|#|</>|Question Title|Difficulty|
 |:--|--:|:-:|:--|:--|
+|2021-10-05 12:06|583|[📎](src/q_551_600/q0583.hpp) [📝](src/q_551_600/q0583_unittest.hpp)|[Delete Operation for Two Strings](https://leetcode.com/problems/delete-operation-for-two-strings/)|Medium|
 |2021-10-05 01:53|93|[📎](src/q_51_100/q0093.hpp) [📝](src/q_51_100/q0093_unittest.hpp)|[Restore IP Addresses](https://leetcode.com/problems/restore-ip-addresses/)|Medium|
 |2021-10-05 01:21|7|[📎](src/q_1_50/q0007.hpp) [📝](src/q_1_50/q0007_unittest.hpp)|[Reverse Integer](https://leetcode.com/problems/reverse-integer/)|Easy|
 |2021-10-04 23:01|37|[📎](src/q_1_50/q0037.hpp) [📝](src/q_1_50/q0037_unittest.hpp)|[Sudoku Solver](https://leetcode.com/problems/sudoku-solver/)|Hard|
@@ -2121,11 +2122,10 @@ My daily challenge on leetcode since 2021/09/06.
 |2021-10-01 11:51|62|[📎](src/q_51_100/q0062.hpp) [📝](src/q_51_100/q0062_unittest.hpp)|[Unique Paths](https://leetcode.com/problems/unique-paths/)|Medium|
 |2021-10-01 11:39|45|[📎](src/q_1_50/q0045.hpp) [📝](src/q_1_50/q0045_unittest.hpp)|[Jump Game II](https://leetcode.com/problems/jump-game-ii/)|Medium|
 |2021-10-01 11:36|1143|[📎](src/q_1101_1150/q1143.hpp) [📝](src/q_1101_1150/q1143_unittest.hpp)|[Longest Common Subsequence](https://leetcode.com/problems/longest-common-subsequence/)|Medium|
-|2021-09-30 15:33|698|[📎](src/q_651_700/q0698.hpp) [📝](src/q_651_700/q0698_unittest.hpp)|[Partition to K Equal Sum Subsets](https://leetcode.com/problems/partition-to-k-equal-sum-subsets/)|Medium|
 
 ## Previous Logs
 
 |Month|Submissions|Easy|Medium|Hard|
 |:--|:--|:--|:--|:--|
-|[October_2021](./assets/October_2021.md)|24|4|17|3|
+|[October_2021](./assets/October_2021.md)|25|4|18|3|
 |[September_2021](./assets/September_2021.md)|133|55|71|7|
