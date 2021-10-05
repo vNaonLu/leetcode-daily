@@ -20,19 +20,18 @@ using namespace std;
   * -  1 <= n <= 45 
   *
 */
+
 class Solution {
  public:
   int climbStairs(int n) {
-    int ret = 0;
-    for (int i = 0; 2 * i <= n; i++) {
-      double count = 1;
-      int num_step = n - i;
-      for (int j = 0; j < i; j++) {
-        count *= (double)(num_step - j) / (double)(j + 1);
-      }
-      ret += (int)(count + 0.5);
+    int first = 0, second = 1, res;
+    for (int i = 0; i < n; ++i) {
+      //Fibonacci
+      res = first + second;
+      first = second;
+      second = res;
     }
-    return ret;
+    return res;
   }
 };
 }  // namespace l70
