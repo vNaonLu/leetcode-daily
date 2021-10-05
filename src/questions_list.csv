@@ -199,7 +199,7 @@ id,title,level,slug,paid,done
 198,House Robber,2,house-robber,0,1
 199,Binary Tree Right Side View,2,binary-tree-right-side-view,0,1
 200,Number of Islands,2,number-of-islands,0,1
-201,Bitwise AND of Numbers Range,2,bitwise-and-of-numbers-range,0,0
+201,Bitwise AND of Numbers Range,2,bitwise-and-of-numbers-range,0,1
 202,Happy Number,1,happy-number,0,0
 203,Remove Linked List Elements,1,remove-linked-list-elements,0,1
 204,Count Primes,2,count-primes,0,0
@@ -691,7 +691,7 @@ id,title,level,slug,paid,done
 690,Employee Importance,1,employee-importance,0,0
 691,Stickers to Spell Word,3,stickers-to-spell-word,0,0
 692,Top K Frequent Words,2,top-k-frequent-words,0,0
-693,Binary Number with Alternating Bits,1,binary-number-with-alternating-bits,0,0
+693,Binary Number with Alternating Bits,1,binary-number-with-alternating-bits,0,1
 694,Number of Distinct Islands,2,number-of-distinct-islands,1,0
 695,Max Area of Island,2,max-area-of-island,0,1
 696,Count Binary Substrings,1,count-binary-substrings,0,0

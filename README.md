@@ -212,7 +212,7 @@ My daily challenge on leetcode since 2021/09/06.
 |[📎](src/q_151_200/q0198.hpp) [📝](src/q_151_200/q0198_unittest.hpp)|198|[House Robber](https://leetcode.com/problems/house-robber/)|Medium|
 |[📎](src/q_151_200/q0199.hpp) [📝](src/q_151_200/q0199_unittest.hpp)|199|[Binary Tree Right Side View](https://leetcode.com/problems/binary-tree-right-side-view/)|Medium|
 |[📎](src/q_151_200/q0200.hpp) [📝](src/q_151_200/q0200_unittest.hpp)|200|[Number of Islands](https://leetcode.com/problems/number-of-islands/)|Medium|
-||201|[Bitwise AND of Numbers Range](https://leetcode.com/problems/bitwise-and-of-numbers-range/)|Medium|
+|[📎](src/q_201_250/q0201.hpp) [📝](src/q_201_250/q0201_unittest.hpp)|201|[Bitwise AND of Numbers Range](https://leetcode.com/problems/bitwise-and-of-numbers-range/)|Medium|
 ||202|[Happy Number](https://leetcode.com/problems/happy-number/)|Easy|
 |[📎](src/q_201_250/q0203.hpp) [📝](src/q_201_250/q0203_unittest.hpp)|203|[Remove Linked List Elements](https://leetcode.com/problems/remove-linked-list-elements/)|Easy|
 ||204|[Count Primes](https://leetcode.com/problems/count-primes/)|Medium|
@@ -716,7 +716,7 @@ My daily challenge on leetcode since 2021/09/06.
 ||690|[Employee Importance](https://leetcode.com/problems/employee-importance/)|Easy|
 ||691|[Stickers to Spell Word](https://leetcode.com/problems/stickers-to-spell-word/)|Hard|
 ||692|[Top K Frequent Words](https://leetcode.com/problems/top-k-frequent-words/)|Medium|
-||693|[Binary Number with Alternating Bits](https://leetcode.com/problems/binary-number-with-alternating-bits/)|Easy|
+|[📎](src/q_651_700/q0693.hpp) [📝](src/q_651_700/q0693_unittest.hpp)|693|[Binary Number with Alternating Bits](https://leetcode.com/problems/binary-number-with-alternating-bits/)|Easy|
 |🔒|694|[Number of Distinct Islands](https://leetcode.com/problems/number-of-distinct-islands/)|Medium|
 |[📎](src/q_651_700/q0695.hpp) [📝](src/q_651_700/q0695_unittest.hpp)|695|[Max Area of Island](https://leetcode.com/problems/max-area-of-island/)|Medium|
 ||696|[Count Binary Substrings](https://leetcode.com/problems/count-binary-substrings/)|Easy|
@@ -2097,6 +2097,8 @@ My daily challenge on leetcode since 2021/09/06.
 
 |Time|#|</>|Question Title|Difficulty|
 |:--|--:|:-:|:--|:--|
+|2021-10-06 00:46|693|[📎](src/q_651_700/q0693.hpp) [📝](src/q_651_700/q0693_unittest.hpp)|[Binary Number with Alternating Bits](https://leetcode.com/problems/binary-number-with-alternating-bits/)|Easy|
+|2021-10-06 00:41|201|[📎](src/q_201_250/q0201.hpp) [📝](src/q_201_250/q0201_unittest.hpp)|[Bitwise AND of Numbers Range](https://leetcode.com/problems/bitwise-and-of-numbers-range/)|Medium|
 |2021-10-06 00:20|898|[📎](src/q_851_900/q0898.hpp) [📝](src/q_851_900/q0898_unittest.hpp)|[Bitwise ORs of Subarrays](https://leetcode.com/problems/bitwise-ors-of-subarrays/)|Medium|
 |2021-10-06 00:06|338|[📎](src/q_301_350/q0338.hpp) [📝](src/q_301_350/q0338_unittest.hpp)|[Counting Bits](https://leetcode.com/problems/counting-bits/)|Easy|
 |2021-10-06 00:01|717|[📎](src/q_701_750/q0717.hpp) [📝](src/q_701_750/q0717_unittest.hpp)|[1-bit and 2-bit Characters](https://leetcode.com/problems/1-bit-and-2-bit-characters/)|Easy|
@@ -2120,12 +2122,10 @@ My daily challenge on leetcode since 2021/09/06.
 |2021-10-03 11:52|139|[📎](src/q_101_150/q0139.hpp) [📝](src/q_101_150/q0139_unittest.hpp)|[Word Break](https://leetcode.com/problems/word-break/)|Medium|
 |2021-10-03 11:33|91|[📎](src/q_51_100/q0091.hpp) [📝](src/q_51_100/q0091_unittest.hpp)|[Decode Ways](https://leetcode.com/problems/decode-ways/)|Medium|
 |2021-10-02 15:06|1823|[📎](src/q_1801_1850/q1823.hpp) [📝](src/q_1801_1850/q1823_unittest.hpp)|[Find the Winner of the Circular Game](https://leetcode.com/problems/find-the-winner-of-the-circular-game/)|Medium|
-|2021-10-02 14:42|1249|[📎](src/q_1201_1250/q1249.hpp) [📝](src/q_1201_1250/q1249_unittest.hpp)|[Minimum Remove to Make Valid Parentheses](https://leetcode.com/problems/minimum-remove-to-make-valid-parentheses/)|Medium|
-|2021-10-02 14:34|155|[📎](src/q_151_200/q0155.hpp) [📝](src/q_151_200/q0155_unittest.hpp)|[Min Stack](https://leetcode.com/problems/min-stack/)|Easy|
 
 ## Previous Logs
 
 |Month|Submissions|Easy|Medium|Hard|
 |:--|:--|:--|:--|:--|
-|[October_2021](./assets/October_2021.md)|32|7|22|3|
+|[October_2021](./assets/October_2021.md)|34|8|23|3|
 |[September_2021](./assets/September_2021.md)|133|55|71|7|
