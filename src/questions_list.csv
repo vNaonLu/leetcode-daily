@@ -228,7 +228,7 @@ id,title,level,slug,paid,done
 227,Basic Calculator II,2,basic-calculator-ii,0,0
 228,Summary Ranges,1,summary-ranges,0,0
 229,Majority Element II,2,majority-element-ii,0,0
-230,Kth Smallest Element in a BST,2,kth-smallest-element-in-a-bst,0,0
+230,Kth Smallest Element in a BST,2,kth-smallest-element-in-a-bst,0,1
 231,Power of Two,1,power-of-two,0,1
 232,Implement Queue using Stacks,1,implement-queue-using-stacks,0,0
 233,Number of Digit One,3,number-of-digit-one,0,0
