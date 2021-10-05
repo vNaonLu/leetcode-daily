@@ -524,7 +524,7 @@ My daily challenge on leetcode since 2021/09/06.
 
 |</>|#|Solution Title|Difficulty|
 |--:|--:|:--|:--|
-||501|[Find Mode in Binary Search Tree](https://leetcode.com/problems/find-mode-in-binary-search-tree/)|Easy|
+|[📎](src/q_501_550/q0501.hpp) [📝](src/q_501_550/q0501_unittest.hpp)|501|[Find Mode in Binary Search Tree](https://leetcode.com/problems/find-mode-in-binary-search-tree/)|Easy|
 ||502|[IPO](https://leetcode.com/problems/ipo/)|Hard|
 ||503|[Next Greater Element II](https://leetcode.com/problems/next-greater-element-ii/)|Medium|
 ||504|[Base 7](https://leetcode.com/problems/base-7/)|Easy|
@@ -2097,6 +2097,7 @@ My daily challenge on leetcode since 2021/09/06.
 
 |Time|#|</>|Question Title|Difficulty|
 |:--|--:|:-:|:--|:--|
+|2021-10-05 12:58|501|[📎](src/q_501_550/q0501.hpp) [📝](src/q_501_550/q0501_unittest.hpp)|[Find Mode in Binary Search Tree](https://leetcode.com/problems/find-mode-in-binary-search-tree/)|Easy|
 |2021-10-05 12:37|173|[📎](src/q_151_200/q0173.hpp) [📝](src/q_151_200/q0173_unittest.hpp)|[Binary Search Tree Iterator](https://leetcode.com/problems/binary-search-tree-iterator/)|Medium|
 |2021-10-05 12:25|230|[📎](src/q_201_250/q0230.hpp) [📝](src/q_201_250/q0230_unittest.hpp)|[Kth Smallest Element in a BST](https://leetcode.com/problems/kth-smallest-element-in-a-bst/)|Medium|
 |2021-10-05 12:06|583|[📎](src/q_551_600/q0583.hpp) [📝](src/q_551_600/q0583_unittest.hpp)|[Delete Operation for Two Strings](https://leetcode.com/problems/delete-operation-for-two-strings/)|Medium|
@@ -2121,11 +2122,10 @@ My daily challenge on leetcode since 2021/09/06.
 |2021-10-02 13:20|174|[📎](src/q_151_200/q0174.hpp) [📝](src/q_151_200/q0174_unittest.hpp)|[Dungeon Game](https://leetcode.com/problems/dungeon-game/)|Hard|
 |2021-10-01 12:27|25|[📎](src/q_1_50/q0025.hpp) [📝](src/q_1_50/q0025_unittest.hpp)|[Reverse Nodes in k-Group](https://leetcode.com/problems/reverse-nodes-in-k-group/)|Hard|
 |2021-10-01 12:06|143|[📎](src/q_101_150/q0143.hpp) [📝](src/q_101_150/q0143_unittest.hpp)|[Reorder List](https://leetcode.com/problems/reorder-list/)|Medium|
-|2021-10-01 11:51|62|[📎](src/q_51_100/q0062.hpp) [📝](src/q_51_100/q0062_unittest.hpp)|[Unique Paths](https://leetcode.com/problems/unique-paths/)|Medium|
 
 ## Previous Logs
 
 |Month|Submissions|Easy|Medium|Hard|
 |:--|:--|:--|:--|:--|
-|[October_2021](./assets/October_2021.md)|27|4|20|3|
+|[October_2021](./assets/October_2021.md)|28|5|20|3|
 |[September_2021](./assets/September_2021.md)|133|55|71|7|
