@@ -1592,7 +1592,7 @@ My daily challenge on leetcode since 2021/09/06.
 ||1542|[Find Longest Awesome Substring](https://leetcode.com/problems/find-longest-awesome-substring/)|Hard|
 |🔒|1543|[Fix Product Name Format](https://leetcode.com/problems/fix-product-name-format/)|Easy|
 ||1544|[Make The String Great](https://leetcode.com/problems/make-the-string-great/)|Easy|
-||1545|[Find Kth Bit in Nth Binary String](https://leetcode.com/problems/find-kth-bit-in-nth-binary-string/)|Medium|
+|[📎](src/q_1501_1550/q1545.hpp) [📝](src/q_1501_1550/q1545_unittest.hpp)|1545|[Find Kth Bit in Nth Binary String](https://leetcode.com/problems/find-kth-bit-in-nth-binary-string/)|Medium|
 ||1546|[Maximum Number of Non-Overlapping Subarrays With Sum Equals Target](https://leetcode.com/problems/maximum-number-of-non-overlapping-subarrays-with-sum-equals-target/)|Medium|
 ||1547|[Minimum Cost to Cut a Stick](https://leetcode.com/problems/minimum-cost-to-cut-a-stick/)|Hard|
 |🔒|1548|[The Most Similar Path in a Graph](https://leetcode.com/problems/the-most-similar-path-in-a-graph/)|Hard|
@@ -2097,6 +2097,7 @@ My daily challenge on leetcode since 2021/09/06.
 
 |Time|#|</>|Question Title|Difficulty|
 |:--|--:|:-:|:--|:--|
+|2021-10-05 23:51|1545|[📎](src/q_1501_1550/q1545.hpp) [📝](src/q_1501_1550/q1545_unittest.hpp)|[Find Kth Bit in Nth Binary String](https://leetcode.com/problems/find-kth-bit-in-nth-binary-string/)|Medium|
 |2021-10-05 12:58|501|[📎](src/q_501_550/q0501.hpp) [📝](src/q_501_550/q0501_unittest.hpp)|[Find Mode in Binary Search Tree](https://leetcode.com/problems/find-mode-in-binary-search-tree/)|Easy|
 |2021-10-05 12:37|173|[📎](src/q_151_200/q0173.hpp) [📝](src/q_151_200/q0173_unittest.hpp)|[Binary Search Tree Iterator](https://leetcode.com/problems/binary-search-tree-iterator/)|Medium|
 |2021-10-05 12:25|230|[📎](src/q_201_250/q0230.hpp) [📝](src/q_201_250/q0230_unittest.hpp)|[Kth Smallest Element in a BST](https://leetcode.com/problems/kth-smallest-element-in-a-bst/)|Medium|
@@ -2121,11 +2122,10 @@ My daily challenge on leetcode since 2021/09/06.
 |2021-10-02 14:23|413|[📎](src/q_401_450/q0413.hpp) [📝](src/q_401_450/q0413_unittest.hpp)|[Arithmetic Slices](https://leetcode.com/problems/arithmetic-slices/)|Medium|
 |2021-10-02 13:20|174|[📎](src/q_151_200/q0174.hpp) [📝](src/q_151_200/q0174_unittest.hpp)|[Dungeon Game](https://leetcode.com/problems/dungeon-game/)|Hard|
 |2021-10-01 12:27|25|[📎](src/q_1_50/q0025.hpp) [📝](src/q_1_50/q0025_unittest.hpp)|[Reverse Nodes in k-Group](https://leetcode.com/problems/reverse-nodes-in-k-group/)|Hard|
-|2021-10-01 12:06|143|[📎](src/q_101_150/q0143.hpp) [📝](src/q_101_150/q0143_unittest.hpp)|[Reorder List](https://leetcode.com/problems/reorder-list/)|Medium|
 
 ## Previous Logs
 
 |Month|Submissions|Easy|Medium|Hard|
 |:--|:--|:--|:--|:--|
-|[October_2021](./assets/October_2021.md)|28|5|20|3|
+|[October_2021](./assets/October_2021.md)|29|5|21|3|
 |[September_2021](./assets/September_2021.md)|133|55|71|7|

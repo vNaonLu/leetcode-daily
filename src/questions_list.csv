@@ -1543,7 +1543,7 @@ id,title,level,slug,paid,done
 1542,Find Longest Awesome Substring,3,find-longest-awesome-substring,0,0
 1543,Fix Product Name Format,1,fix-product-name-format,1,0
 1544,Make The String Great,1,make-the-string-great,0,0
-1545,Find Kth Bit in Nth Binary String,2,find-kth-bit-in-nth-binary-string,0,0
+1545,Find Kth Bit in Nth Binary String,2,find-kth-bit-in-nth-binary-string,0,1
 1546,Maximum Number of Non-Overlapping Subarrays With Sum Equals Target,2,maximum-number-of-non-overlapping-subarrays-with-sum-equals-target,0,0
 1547,Minimum Cost to Cut a Stick,3,minimum-cost-to-cut-a-stick,0,0
 1548,The Most Similar Path in a Graph,3,the-most-similar-path-in-a-graph,1,0
