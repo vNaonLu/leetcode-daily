@@ -336,7 +336,7 @@ id,title,level,slug,paid,done
 335,Self Crossing,3,self-crossing,0,0
 336,Palindrome Pairs,3,palindrome-pairs,0,0
 337,House Robber III,2,house-robber-iii,0,0
-338,Counting Bits,1,counting-bits,0,0
+338,Counting Bits,1,counting-bits,0,1
 339,Nested List Weight Sum,2,nested-list-weight-sum,1,0
 340,Longest Substring with At Most K Distinct Characters,2,longest-substring-with-at-most-k-distinct-characters,1,0
 341,Flatten Nested List Iterator,2,flatten-nested-list-iterator,0,0

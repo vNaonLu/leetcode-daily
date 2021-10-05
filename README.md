@@ -355,7 +355,7 @@ My daily challenge on leetcode since 2021/09/06.
 ||335|[Self Crossing](https://leetcode.com/problems/self-crossing/)|Hard|
 ||336|[Palindrome Pairs](https://leetcode.com/problems/palindrome-pairs/)|Hard|
 ||337|[House Robber III](https://leetcode.com/problems/house-robber-iii/)|Medium|
-||338|[Counting Bits](https://leetcode.com/problems/counting-bits/)|Easy|
+|[📎](src/q_301_350/q0338.hpp) [📝](src/q_301_350/q0338_unittest.hpp)|338|[Counting Bits](https://leetcode.com/problems/counting-bits/)|Easy|
 |🔒|339|[Nested List Weight Sum](https://leetcode.com/problems/nested-list-weight-sum/)|Medium|
 |🔒|340|[Longest Substring with At Most K Distinct Characters](https://leetcode.com/problems/longest-substring-with-at-most-k-distinct-characters/)|Medium|
 ||341|[Flatten Nested List Iterator](https://leetcode.com/problems/flatten-nested-list-iterator/)|Medium|
@@ -2097,6 +2097,7 @@ My daily challenge on leetcode since 2021/09/06.
 
 |Time|#|</>|Question Title|Difficulty|
 |:--|--:|:-:|:--|:--|
+|2021-10-06 00:06|338|[📎](src/q_301_350/q0338.hpp) [📝](src/q_301_350/q0338_unittest.hpp)|[Counting Bits](https://leetcode.com/problems/counting-bits/)|Easy|
 |2021-10-06 00:01|717|[📎](src/q_701_750/q0717.hpp) [📝](src/q_701_750/q0717_unittest.hpp)|[1-bit and 2-bit Characters](https://leetcode.com/problems/1-bit-and-2-bit-characters/)|Easy|
 |2021-10-05 23:51|1545|[📎](src/q_1501_1550/q1545.hpp) [📝](src/q_1501_1550/q1545_unittest.hpp)|[Find Kth Bit in Nth Binary String](https://leetcode.com/problems/find-kth-bit-in-nth-binary-string/)|Medium|
 |2021-10-05 12:58|501|[📎](src/q_501_550/q0501.hpp) [📝](src/q_501_550/q0501_unittest.hpp)|[Find Mode in Binary Search Tree](https://leetcode.com/problems/find-mode-in-binary-search-tree/)|Easy|
@@ -2121,11 +2122,10 @@ My daily challenge on leetcode since 2021/09/06.
 |2021-10-02 14:42|1249|[📎](src/q_1201_1250/q1249.hpp) [📝](src/q_1201_1250/q1249_unittest.hpp)|[Minimum Remove to Make Valid Parentheses](https://leetcode.com/problems/minimum-remove-to-make-valid-parentheses/)|Medium|
 |2021-10-02 14:34|155|[📎](src/q_151_200/q0155.hpp) [📝](src/q_151_200/q0155_unittest.hpp)|[Min Stack](https://leetcode.com/problems/min-stack/)|Easy|
 |2021-10-02 14:23|413|[📎](src/q_401_450/q0413.hpp) [📝](src/q_401_450/q0413_unittest.hpp)|[Arithmetic Slices](https://leetcode.com/problems/arithmetic-slices/)|Medium|
-|2021-10-02 13:20|174|[📎](src/q_151_200/q0174.hpp) [📝](src/q_151_200/q0174_unittest.hpp)|[Dungeon Game](https://leetcode.com/problems/dungeon-game/)|Hard|
 
 ## Previous Logs
 
 |Month|Submissions|Easy|Medium|Hard|
 |:--|:--|:--|:--|:--|
-|[October_2021](./assets/October_2021.md)|30|6|21|3|
+|[October_2021](./assets/October_2021.md)|31|7|21|3|
 |[September_2021](./assets/September_2021.md)|133|55|71|7|
