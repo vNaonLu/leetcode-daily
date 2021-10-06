@@ -234,7 +234,7 @@ id,title,level,slug,paid,done
 233,Number of Digit One,3,number-of-digit-one,0,0
 234,Palindrome Linked List,1,palindrome-linked-list,0,0
 235,Lowest Common Ancestor of a Binary Search Tree,1,lowest-common-ancestor-of-a-binary-search-tree,0,1
-236,Lowest Common Ancestor of a Binary Tree,2,lowest-common-ancestor-of-a-binary-tree,0,0
+236,Lowest Common Ancestor of a Binary Tree,2,lowest-common-ancestor-of-a-binary-tree,0,1
 237,Delete Node in a Linked List,1,delete-node-in-a-linked-list,0,0
 238,Product of Array Except Self,2,product-of-array-except-self,0,1
 239,Sliding Window Maximum,3,sliding-window-maximum,0,0
