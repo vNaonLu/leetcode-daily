@@ -459,7 +459,7 @@ My daily challenge on leetcode since 2021/09/06.
 |🔒|439|[Ternary Expression Parser](https://leetcode.com/problems/ternary-expression-parser/)|Medium|
 ||440|[K-th Smallest in Lexicographical Order](https://leetcode.com/problems/k-th-smallest-in-lexicographical-order/)|Hard|
 ||441|[Arranging Coins](https://leetcode.com/problems/arranging-coins/)|Easy|
-||442|[Find All Duplicates in an Array](https://leetcode.com/problems/find-all-duplicates-in-an-array/)|Medium|
+|[📎](src/q_401_450/q0442.hpp) [📝](src/q_401_450/q0442_unittest.hpp)|442|[Find All Duplicates in an Array](https://leetcode.com/problems/find-all-duplicates-in-an-array/)|Medium|
 ||443|[String Compression](https://leetcode.com/problems/string-compression/)|Medium|
 |🔒|444|[Sequence Reconstruction](https://leetcode.com/problems/sequence-reconstruction/)|Medium|
 ||445|[Add Two Numbers II](https://leetcode.com/problems/add-two-numbers-ii/)|Medium|
@@ -2097,6 +2097,7 @@ My daily challenge on leetcode since 2021/09/06.
 
 |Time|#|</>|Question Title|Difficulty|
 |:--|--:|:-:|:--|:--|
+|2021-10-06 12:29|442|[📎](src/q_401_450/q0442.hpp) [📝](src/q_401_450/q0442_unittest.hpp)|[Find All Duplicates in an Array](https://leetcode.com/problems/find-all-duplicates-in-an-array/)|Medium|
 |2021-10-06 01:12|762|[📎](src/q_751_800/q0762.hpp) [📝](src/q_751_800/q0762_unittest.hpp)|[Prime Number of Set Bits in Binary Representation](https://leetcode.com/problems/prime-number-of-set-bits-in-binary-representation/)|Easy|
 |2021-10-06 00:58|1356|[📎](src/q_1351_1400/q1356.hpp) [📝](src/q_1351_1400/q1356_unittest.hpp)|[Sort Integers by The Number of 1 Bits](https://leetcode.com/problems/sort-integers-by-the-number-of-1-bits/)|Easy|
 |2021-10-06 00:46|693|[📎](src/q_651_700/q0693.hpp) [📝](src/q_651_700/q0693_unittest.hpp)|[Binary Number with Alternating Bits](https://leetcode.com/problems/binary-number-with-alternating-bits/)|Easy|
@@ -2121,11 +2122,10 @@ My daily challenge on leetcode since 2021/09/06.
 |2021-10-03 13:42|103|[📎](src/q_101_150/q0103.hpp) [📝](src/q_101_150/q0103_unittest.hpp)|[Binary Tree Zigzag Level Order Traversal](https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal/)|Medium|
 |2021-10-03 12:47|105|[📎](src/q_101_150/q0105.hpp) [📝](src/q_101_150/q0105_unittest.hpp)|[Construct Binary Tree from Preorder and Inorder Traversal](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/)|Medium|
 |2021-10-03 12:07|108|[📎](src/q_101_150/q0108.hpp) [📝](src/q_101_150/q0108_unittest.hpp)|[Convert Sorted Array to Binary Search Tree](https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree/)|Easy|
-|2021-10-03 11:52|139|[📎](src/q_101_150/q0139.hpp) [📝](src/q_101_150/q0139_unittest.hpp)|[Word Break](https://leetcode.com/problems/word-break/)|Medium|
 
 ## Previous Logs
 
 |Month|Submissions|Easy|Medium|Hard|
 |:--|:--|:--|:--|:--|
-|[October_2021](./assets/October_2021.md)|36|10|23|3|
+|[October_2021](./assets/October_2021.md)|37|10|24|3|
 |[September_2021](./assets/September_2021.md)|133|55|71|7|

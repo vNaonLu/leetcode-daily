@@ -440,7 +440,7 @@ id,title,level,slug,paid,done
 439,Ternary Expression Parser,2,ternary-expression-parser,1,0
 440,K-th Smallest in Lexicographical Order,3,k-th-smallest-in-lexicographical-order,0,0
 441,Arranging Coins,1,arranging-coins,0,0
-442,Find All Duplicates in an Array,2,find-all-duplicates-in-an-array,0,0
+442,Find All Duplicates in an Array,2,find-all-duplicates-in-an-array,0,1
 443,String Compression,2,string-compression,0,0
 444,Sequence Reconstruction,2,sequence-reconstruction,1,0
 445,Add Two Numbers II,2,add-two-numbers-ii,0,0
