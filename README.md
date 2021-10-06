@@ -83,7 +83,7 @@ My daily challenge on leetcode since 2021/09/06.
 ||69|[Sqrt(x)](https://leetcode.com/problems/sqrtx/)|Easy|
 |[📎](src/q_51_100/q0070.hpp) [📝](src/q_51_100/q0070_unittest.hpp)|70|[Climbing Stairs](https://leetcode.com/problems/climbing-stairs/)|Easy|
 ||71|[Simplify Path](https://leetcode.com/problems/simplify-path/)|Medium|
-||72|[Edit Distance](https://leetcode.com/problems/edit-distance/)|Hard|
+|[📎](src/q_51_100/q0072.hpp) [📝](src/q_51_100/q0072_unittest.hpp)|72|[Edit Distance](https://leetcode.com/problems/edit-distance/)|Hard|
 ||73|[Set Matrix Zeroes](https://leetcode.com/problems/set-matrix-zeroes/)|Medium|
 |[📎](src/q_51_100/q0074.hpp) [📝](src/q_51_100/q0074_unittest.hpp)|74|[Search a 2D Matrix](https://leetcode.com/problems/search-a-2d-matrix/)|Medium|
 |[📎](src/q_51_100/q0075.hpp) [📝](src/q_51_100/q0075_unittest.hpp)|75|[Sort Colors](https://leetcode.com/problems/sort-colors/)|Medium|
@@ -2097,6 +2097,7 @@ My daily challenge on leetcode since 2021/09/06.
 
 |Time|#|</>|Question Title|Difficulty|
 |:--|--:|:-:|:--|:--|
+|2021-10-06 13:11|72|[📎](src/q_51_100/q0072.hpp) [📝](src/q_51_100/q0072_unittest.hpp)|[Edit Distance](https://leetcode.com/problems/edit-distance/)|Hard|
 |2021-10-06 13:01|322|[📎](src/q_301_350/q0322.hpp) [📝](src/q_301_350/q0322_unittest.hpp)|[Coin Change](https://leetcode.com/problems/coin-change/)|Medium|
 |2021-10-06 12:45|343|[📎](src/q_301_350/q0343.hpp) [📝](src/q_301_350/q0343_unittest.hpp)|[Integer Break](https://leetcode.com/problems/integer-break/)|Medium|
 |2021-10-06 12:29|442|[📎](src/q_401_450/q0442.hpp) [📝](src/q_401_450/q0442_unittest.hpp)|[Find All Duplicates in an Array](https://leetcode.com/problems/find-all-duplicates-in-an-array/)|Medium|
@@ -2121,11 +2122,10 @@ My daily challenge on leetcode since 2021/09/06.
 |2021-10-04 12:25|673|[📎](src/q_651_700/q0673.hpp) [📝](src/q_651_700/q0673_unittest.hpp)|[Number of Longest Increasing Subsequence](https://leetcode.com/problems/number-of-longest-increasing-subsequence/)|Medium|
 |2021-10-04 12:12|300|[📎](src/q_251_300/q0300.hpp) [📝](src/q_251_300/q0300_unittest.hpp)|[Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence/)|Medium|
 |2021-10-04 11:24|463|[📎](src/q_451_500/q0463.hpp) [📝](src/q_451_500/q0463_unittest.hpp)|[Island Perimeter](https://leetcode.com/problems/island-perimeter/)|Easy|
-|2021-10-03 13:42|103|[📎](src/q_101_150/q0103.hpp) [📝](src/q_101_150/q0103_unittest.hpp)|[Binary Tree Zigzag Level Order Traversal](https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal/)|Medium|
 
 ## Previous Logs
 
 |Month|Submissions|Easy|Medium|Hard|
 |:--|:--|:--|:--|:--|
-|[October_2021](./assets/October_2021.md)|39|10|26|3|
+|[October_2021](./assets/October_2021.md)|40|10|26|4|
 |[September_2021](./assets/September_2021.md)|133|55|71|7|
