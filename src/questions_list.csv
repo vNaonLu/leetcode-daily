@@ -320,7 +320,7 @@ id,title,level,slug,paid,done
 319,Bulb Switcher,2,bulb-switcher,0,0
 320,Generalized Abbreviation,2,generalized-abbreviation,1,0
 321,Create Maximum Number,3,create-maximum-number,0,0
-322,Coin Change,2,coin-change,0,0
+322,Coin Change,2,coin-change,0,1
 323,Number of Connected Components in an Undirected Graph,2,number-of-connected-components-in-an-undirected-graph,1,0
 324,Wiggle Sort II,2,wiggle-sort-ii,0,0
 325,Maximum Size Subarray Sum Equals k,2,maximum-size-subarray-sum-equals-k,1,0
