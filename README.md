@@ -314,7 +314,7 @@ My daily challenge on leetcode since 2021/09/06.
 |🔒|294|[Flip Game II](https://leetcode.com/problems/flip-game-ii/)|Medium|
 ||295|[Find Median from Data Stream](https://leetcode.com/problems/find-median-from-data-stream/)|Hard|
 |🔒|296|[Best Meeting Point](https://leetcode.com/problems/best-meeting-point/)|Hard|
-||297|[Serialize and Deserialize Binary Tree](https://leetcode.com/problems/serialize-and-deserialize-binary-tree/)|Hard|
+|[📎](src/q_251_300/q0297.hpp) [📝](src/q_251_300/q0297_unittest.hpp)|297|[Serialize and Deserialize Binary Tree](https://leetcode.com/problems/serialize-and-deserialize-binary-tree/)|Hard|
 |🔒|298|[Binary Tree Longest Consecutive Sequence](https://leetcode.com/problems/binary-tree-longest-consecutive-sequence/)|Medium|
 ||299|[Bulls and Cows](https://leetcode.com/problems/bulls-and-cows/)|Medium|
 |[📎](src/q_251_300/q0300.hpp) [📝](src/q_251_300/q0300_unittest.hpp)|300|[Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence/)|Medium|
@@ -2097,6 +2097,7 @@ My daily challenge on leetcode since 2021/09/06.
 
 |Time|#|</>|Question Title|Difficulty|
 |:--|--:|:-:|:--|:--|
+|2021-10-06 13:54|297|[📎](src/q_251_300/q0297.hpp) [📝](src/q_251_300/q0297_unittest.hpp)|[Serialize and Deserialize Binary Tree](https://leetcode.com/problems/serialize-and-deserialize-binary-tree/)|Hard|
 |2021-10-06 13:27|236|[📎](src/q_201_250/q0236.hpp) [📝](src/q_201_250/q0236_unittest.hpp)|[Lowest Common Ancestor of a Binary Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/)|Medium|
 |2021-10-06 13:11|72|[📎](src/q_51_100/q0072.hpp) [📝](src/q_51_100/q0072_unittest.hpp)|[Edit Distance](https://leetcode.com/problems/edit-distance/)|Hard|
 |2021-10-06 13:01|322|[📎](src/q_301_350/q0322.hpp) [📝](src/q_301_350/q0322_unittest.hpp)|[Coin Change](https://leetcode.com/problems/coin-change/)|Medium|
@@ -2121,11 +2122,10 @@ My daily challenge on leetcode since 2021/09/06.
 |2021-10-04 12:40|113|[📎](src/q_101_150/q0113.hpp) [📝](src/q_101_150/q0113_unittest.hpp)|[Path Sum II](https://leetcode.com/problems/path-sum-ii/)|Medium|
 |2021-10-04 12:31|199|[📎](src/q_151_200/q0199.hpp) [📝](src/q_151_200/q0199_unittest.hpp)|[Binary Tree Right Side View](https://leetcode.com/problems/binary-tree-right-side-view/)|Medium|
 |2021-10-04 12:25|673|[📎](src/q_651_700/q0673.hpp) [📝](src/q_651_700/q0673_unittest.hpp)|[Number of Longest Increasing Subsequence](https://leetcode.com/problems/number-of-longest-increasing-subsequence/)|Medium|
-|2021-10-04 12:12|300|[📎](src/q_251_300/q0300.hpp) [📝](src/q_251_300/q0300_unittest.hpp)|[Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence/)|Medium|
 
 ## Previous Logs
 
 |Month|Submissions|Easy|Medium|Hard|
 |:--|:--|:--|:--|:--|
-|[October_2021](./assets/October_2021.md)|41|10|27|4|
+|[October_2021](./assets/October_2021.md)|42|10|27|5|
 |[September_2021](./assets/September_2021.md)|133|55|71|7|
