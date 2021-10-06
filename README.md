@@ -360,7 +360,7 @@ My daily challenge on leetcode since 2021/09/06.
 |🔒|340|[Longest Substring with At Most K Distinct Characters](https://leetcode.com/problems/longest-substring-with-at-most-k-distinct-characters/)|Medium|
 ||341|[Flatten Nested List Iterator](https://leetcode.com/problems/flatten-nested-list-iterator/)|Medium|
 ||342|[Power of Four](https://leetcode.com/problems/power-of-four/)|Easy|
-||343|[Integer Break](https://leetcode.com/problems/integer-break/)|Medium|
+|[📎](src/q_301_350/q0343.hpp) [📝](src/q_301_350/q0343_unittest.hpp)|343|[Integer Break](https://leetcode.com/problems/integer-break/)|Medium|
 |[📎](src/q_301_350/q0344.hpp) [📝](src/q_301_350/q0344_unittest.hpp)|344|[Reverse String](https://leetcode.com/problems/reverse-string/)|Easy|
 ||345|[Reverse Vowels of a String](https://leetcode.com/problems/reverse-vowels-of-a-string/)|Easy|
 |🔒|346|[Moving Average from Data Stream](https://leetcode.com/problems/moving-average-from-data-stream/)|Easy|
@@ -2097,6 +2097,7 @@ My daily challenge on leetcode since 2021/09/06.
 
 |Time|#|</>|Question Title|Difficulty|
 |:--|--:|:-:|:--|:--|
+|2021-10-06 12:45|343|[📎](src/q_301_350/q0343.hpp) [📝](src/q_301_350/q0343_unittest.hpp)|[Integer Break](https://leetcode.com/problems/integer-break/)|Medium|
 |2021-10-06 12:29|442|[📎](src/q_401_450/q0442.hpp) [📝](src/q_401_450/q0442_unittest.hpp)|[Find All Duplicates in an Array](https://leetcode.com/problems/find-all-duplicates-in-an-array/)|Medium|
 |2021-10-06 01:12|762|[📎](src/q_751_800/q0762.hpp) [📝](src/q_751_800/q0762_unittest.hpp)|[Prime Number of Set Bits in Binary Representation](https://leetcode.com/problems/prime-number-of-set-bits-in-binary-representation/)|Easy|
 |2021-10-06 00:58|1356|[📎](src/q_1351_1400/q1356.hpp) [📝](src/q_1351_1400/q1356_unittest.hpp)|[Sort Integers by The Number of 1 Bits](https://leetcode.com/problems/sort-integers-by-the-number-of-1-bits/)|Easy|
@@ -2121,11 +2122,10 @@ My daily challenge on leetcode since 2021/09/06.
 |2021-10-04 11:24|463|[📎](src/q_451_500/q0463.hpp) [📝](src/q_451_500/q0463_unittest.hpp)|[Island Perimeter](https://leetcode.com/problems/island-perimeter/)|Easy|
 |2021-10-03 13:42|103|[📎](src/q_101_150/q0103.hpp) [📝](src/q_101_150/q0103_unittest.hpp)|[Binary Tree Zigzag Level Order Traversal](https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal/)|Medium|
 |2021-10-03 12:47|105|[📎](src/q_101_150/q0105.hpp) [📝](src/q_101_150/q0105_unittest.hpp)|[Construct Binary Tree from Preorder and Inorder Traversal](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/)|Medium|
-|2021-10-03 12:07|108|[📎](src/q_101_150/q0108.hpp) [📝](src/q_101_150/q0108_unittest.hpp)|[Convert Sorted Array to Binary Search Tree](https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree/)|Easy|
 
 ## Previous Logs
 
 |Month|Submissions|Easy|Medium|Hard|
 |:--|:--|:--|:--|:--|
-|[October_2021](./assets/October_2021.md)|37|10|24|3|
+|[October_2021](./assets/October_2021.md)|38|10|25|3|
 |[September_2021](./assets/September_2021.md)|133|55|71|7|
