@@ -995,7 +995,7 @@ id,title,level,slug,paid,done
 994,Rotting Oranges,2,rotting-oranges,0,1
 995,Minimum Number of K Consecutive Bit Flips,3,minimum-number-of-k-consecutive-bit-flips,0,0
 996,Number of Squareful Arrays,3,number-of-squareful-arrays,0,0
-997,Find the Town Judge,1,find-the-town-judge,0,0
+997,Find the Town Judge,1,find-the-town-judge,0,1
 998,Maximum Binary Tree II,2,maximum-binary-tree-ii,0,0
 999,Available Captures for Rook,1,available-captures-for-rook,0,0
 1000,Minimum Cost to Merge Stones,3,minimum-cost-to-merge-stones,0,0

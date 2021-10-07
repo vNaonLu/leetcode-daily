@@ -1026,7 +1026,7 @@ My daily challenge on leetcode since 2021/09/06.
 |[📎](src/q_951_1000/q0994.hpp) [📝](src/q_951_1000/q0994_unittest.hpp)|994|[Rotting Oranges](https://leetcode.com/problems/rotting-oranges/)|Medium|
 ||995|[Minimum Number of K Consecutive Bit Flips](https://leetcode.com/problems/minimum-number-of-k-consecutive-bit-flips/)|Hard|
 ||996|[Number of Squareful Arrays](https://leetcode.com/problems/number-of-squareful-arrays/)|Hard|
-||997|[Find the Town Judge](https://leetcode.com/problems/find-the-town-judge/)|Easy|
+|[📎](src/q_951_1000/q0997.hpp) [📝](src/q_951_1000/q0997_unittest.hpp)|997|[Find the Town Judge](https://leetcode.com/problems/find-the-town-judge/)|Easy|
 ||998|[Maximum Binary Tree II](https://leetcode.com/problems/maximum-binary-tree-ii/)|Medium|
 ||999|[Available Captures for Rook](https://leetcode.com/problems/available-captures-for-rook/)|Easy|
 ||1000|[Minimum Cost to Merge Stones](https://leetcode.com/problems/minimum-cost-to-merge-stones/)|Hard|
@@ -2097,6 +2097,7 @@ My daily challenge on leetcode since 2021/09/06.
 
 |Time|#|</>|Question Title|Difficulty|
 |:--|--:|:-:|:--|:--|
+|2021-10-07 10:11|997|[📎](src/q_951_1000/q0997.hpp) [📝](src/q_951_1000/q0997_unittest.hpp)|[Find the Town Judge](https://leetcode.com/problems/find-the-town-judge/)|Easy|
 |2021-10-06 13:54|297|[📎](src/q_251_300/q0297.hpp) [📝](src/q_251_300/q0297_unittest.hpp)|[Serialize and Deserialize Binary Tree](https://leetcode.com/problems/serialize-and-deserialize-binary-tree/)|Hard|
 |2021-10-06 13:27|236|[📎](src/q_201_250/q0236.hpp) [📝](src/q_201_250/q0236_unittest.hpp)|[Lowest Common Ancestor of a Binary Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/)|Medium|
 |2021-10-06 13:11|72|[📎](src/q_51_100/q0072.hpp) [📝](src/q_51_100/q0072_unittest.hpp)|[Edit Distance](https://leetcode.com/problems/edit-distance/)|Hard|
@@ -2121,11 +2122,10 @@ My daily challenge on leetcode since 2021/09/06.
 |2021-10-04 13:11|450|[📎](src/q_401_450/q0450.hpp) [📝](src/q_401_450/q0450_unittest.hpp)|[Delete Node in a BST](https://leetcode.com/problems/delete-node-in-a-bst/)|Medium|
 |2021-10-04 12:40|113|[📎](src/q_101_150/q0113.hpp) [📝](src/q_101_150/q0113_unittest.hpp)|[Path Sum II](https://leetcode.com/problems/path-sum-ii/)|Medium|
 |2021-10-04 12:31|199|[📎](src/q_151_200/q0199.hpp) [📝](src/q_151_200/q0199_unittest.hpp)|[Binary Tree Right Side View](https://leetcode.com/problems/binary-tree-right-side-view/)|Medium|
-|2021-10-04 12:25|673|[📎](src/q_651_700/q0673.hpp) [📝](src/q_651_700/q0673_unittest.hpp)|[Number of Longest Increasing Subsequence](https://leetcode.com/problems/number-of-longest-increasing-subsequence/)|Medium|
 
 ## Previous Logs
 
 |Month|Submissions|Easy|Medium|Hard|
 |:--|:--|:--|:--|:--|
-|[October_2021](./assets/October_2021.md)|42|10|27|5|
+|[October_2021](./assets/October_2021.md)|43|11|27|5|
 |[September_2021](./assets/September_2021.md)|133|55|71|7|
