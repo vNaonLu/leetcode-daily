@@ -1,4 +1,5 @@
 import re
+import regex
 
 
 class Argument:
@@ -154,9 +155,9 @@ class VectorArgument(Argument):
         self._includes.append("vector")
 
     def parse_value(self, string: str):
-        match = re.search("\[(?P<val>[^\[\]|(?R)]*)\]", string)
+        match = re.search("\[(?P<val>[\w\W]*)\]", string)
         if match != None:
-            element = re.findall("(\[[\w\W]*?\]|\"[\w\W]*?\"|[\d.+-]+)",
+            element = regex.findall("(\"[\w\W]*?\"|[\d.+-]+|\[(?:[^\[\]]|(?R))*\])",
                                  match.group("val"))
             return "{{{}}}".format(
                 ", ".join([self._content.parse_value(e) for e in element]))
