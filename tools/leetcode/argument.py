@@ -155,7 +155,6 @@ class VectorArgument(Argument):
         self._includes.append("vector")
 
     def parse_value(self, string: str):
-        print(string)
         match = regex.search("\[(?P<val>(?:[^\[\]]|(?R))*)\]", string)
         if match != None:
             element = regex.findall("(\"[\w\W]*?\"|[\d.+-]+|\[(?:[^\[\]]|(?R))*\])",
