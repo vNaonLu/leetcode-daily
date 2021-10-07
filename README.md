@@ -1604,7 +1604,7 @@ My daily challenge on leetcode since 2021/09/06.
 |🔒|1554|[Strings Differ by One Character](https://leetcode.com/problems/strings-differ-by-one-character/)|Medium|
 |🔒|1555|[Bank Account Summary](https://leetcode.com/problems/bank-account-summary/)|Medium|
 ||1556|[Thousand Separator](https://leetcode.com/problems/thousand-separator/)|Easy|
-||1557|[Minimum Number of Vertices to Reach All Nodes](https://leetcode.com/problems/minimum-number-of-vertices-to-reach-all-nodes/)|Medium|
+|[📎](src/q_1551_1600/q1557.hpp) [📝](src/q_1551_1600/q1557_unittest.hpp)|1557|[Minimum Number of Vertices to Reach All Nodes](https://leetcode.com/problems/minimum-number-of-vertices-to-reach-all-nodes/)|Medium|
 ||1558|[Minimum Numbers of Function Calls to Make Target Array](https://leetcode.com/problems/minimum-numbers-of-function-calls-to-make-target-array/)|Medium|
 ||1559|[Detect Cycles in 2D Grid](https://leetcode.com/problems/detect-cycles-in-2d-grid/)|Medium|
 ||1560|[Most Visited Sector in  a Circular Track](https://leetcode.com/problems/most-visited-sector-in-a-circular-track/)|Easy|
@@ -2097,6 +2097,7 @@ My daily challenge on leetcode since 2021/09/06.
 
 |Time|#|</>|Question Title|Difficulty|
 |:--|--:|:-:|:--|:--|
+|2021-10-07 10:32|1557|[📎](src/q_1551_1600/q1557.hpp) [📝](src/q_1551_1600/q1557_unittest.hpp)|[Minimum Number of Vertices to Reach All Nodes](https://leetcode.com/problems/minimum-number-of-vertices-to-reach-all-nodes/)|Medium|
 |2021-10-07 10:11|997|[📎](src/q_951_1000/q0997.hpp) [📝](src/q_951_1000/q0997_unittest.hpp)|[Find the Town Judge](https://leetcode.com/problems/find-the-town-judge/)|Easy|
 |2021-10-06 13:54|297|[📎](src/q_251_300/q0297.hpp) [📝](src/q_251_300/q0297_unittest.hpp)|[Serialize and Deserialize Binary Tree](https://leetcode.com/problems/serialize-and-deserialize-binary-tree/)|Hard|
 |2021-10-06 13:27|236|[📎](src/q_201_250/q0236.hpp) [📝](src/q_201_250/q0236_unittest.hpp)|[Lowest Common Ancestor of a Binary Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/)|Medium|
@@ -2121,11 +2122,10 @@ My daily challenge on leetcode since 2021/09/06.
 |2021-10-04 23:01|37|[📎](src/q_1_50/q0037.hpp) [📝](src/q_1_50/q0037_unittest.hpp)|[Sudoku Solver](https://leetcode.com/problems/sudoku-solver/)|Hard|
 |2021-10-04 13:11|450|[📎](src/q_401_450/q0450.hpp) [📝](src/q_401_450/q0450_unittest.hpp)|[Delete Node in a BST](https://leetcode.com/problems/delete-node-in-a-bst/)|Medium|
 |2021-10-04 12:40|113|[📎](src/q_101_150/q0113.hpp) [📝](src/q_101_150/q0113_unittest.hpp)|[Path Sum II](https://leetcode.com/problems/path-sum-ii/)|Medium|
-|2021-10-04 12:31|199|[📎](src/q_151_200/q0199.hpp) [📝](src/q_151_200/q0199_unittest.hpp)|[Binary Tree Right Side View](https://leetcode.com/problems/binary-tree-right-side-view/)|Medium|
 
 ## Previous Logs
 
 |Month|Submissions|Easy|Medium|Hard|
 |:--|:--|:--|:--|:--|
-|[October_2021](./assets/October_2021.md)|43|11|27|5|
+|[October_2021](./assets/October_2021.md)|44|11|28|5|
 |[September_2021](./assets/September_2021.md)|133|55|71|7|

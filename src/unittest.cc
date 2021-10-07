@@ -27,6 +27,7 @@
 #include "q_1301_1350/unittest.hpp"
 #include "q_1351_1400/unittest.hpp"
 #include "q_1501_1550/unittest.hpp"
+#include "q_1551_1600/unittest.hpp"
 #include "q_1601_1650/unittest.hpp"
 #include "q_1801_1850/unittest.hpp"
 #include "q_1951_2000/unittest.hpp"
