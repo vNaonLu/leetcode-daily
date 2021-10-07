@@ -155,7 +155,8 @@ class VectorArgument(Argument):
         self._includes.append("vector")
 
     def parse_value(self, string: str):
-        match = re.search("\[(?P<val>[\w\W]*)\]", string)
+        print(string)
+        match = regex.search("\[(?P<val>(?:[^\[\]]|(?R))*)\]", string)
         if match != None:
             element = regex.findall("(\"[\w\W]*?\"|[\d.+-]+|\[(?:[^\[\]]|(?R))*\])",
                                  match.group("val"))
@@ -173,7 +174,7 @@ class ListNodeArgument(Argument):
         self._includes.append("leetcode/listnode.hpp")
 
     def parse_value(self, string: str):
-        match = re.search("\[(?P<val>[\w\W]*)\]", string)
+        match = regex.search("\[(?P<val>(?:[^\[\]]|(?R))*)\]", string)
         if match != None:
             element = re.findall("([\d.+-]+)", match.group("val"))
             return "ListNode::generate({{{}}})".format(", ".join(element))
@@ -192,7 +193,7 @@ class TreeNodeArgument(Argument):
         self._includes.append("leetcode/treenode.hpp")
 
     def parse_value(self, string: str):
-        match = re.search("\[(?P<val>[\w\W]*)\]", string)
+        match = regex.search("\[(?P<val>(?:[^\[\]]|(?R))*)\]", string)
         if match != None:
             element = re.findall("([\d.+-]+|null)", match.group("val"))
             return "TreeNode::generate({{{}}})".format(", ".join([
