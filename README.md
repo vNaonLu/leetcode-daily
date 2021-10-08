@@ -18,7 +18,7 @@ My daily challenge on leetcode since 2021/09/06.
 ||4|[Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays/)|Hard|
 |[📎](src/q_1_50/q0005.hpp) [📝](src/q_1_50/q0005_unittest.hpp)|5|[Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/)|Medium|
 ||6|[ZigZag Conversion](https://leetcode.com/problems/zigzag-conversion/)|Medium|
-|[📎](src/q_1_50/q0007.hpp) [📝](src/q_1_50/q0007_unittest.hpp)|7|[Reverse Integer](https://leetcode.com/problems/reverse-integer/)|Easy|
+|[📎](src/q_1_50/q0007.hpp) [📝](src/q_1_50/q0007_unittest.hpp)|7|[Reverse Integer](https://leetcode.com/problems/reverse-integer/)|Medium|
 ||8|[String to Integer (atoi)](https://leetcode.com/problems/string-to-integer-atoi/)|Medium|
 ||9|[Palindrome Number](https://leetcode.com/problems/palindrome-number/)|Easy|
 ||10|[Regular Expression Matching](https://leetcode.com/problems/regular-expression-matching/)|Hard|
@@ -219,7 +219,7 @@ My daily challenge on leetcode since 2021/09/06.
 ||205|[Isomorphic Strings](https://leetcode.com/problems/isomorphic-strings/)|Easy|
 |[📎](src/q_201_250/q0206.hpp) [📝](src/q_201_250/q0206_unittest.hpp)|206|[Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/)|Easy|
 ||207|[Course Schedule](https://leetcode.com/problems/course-schedule/)|Medium|
-||208|[Implement Trie (Prefix Tree)](https://leetcode.com/problems/implement-trie-prefix-tree/)|Medium|
+|[📎](src/q_201_250/q0208.hpp) [📝](src/q_201_250/q0208_unittest.hpp)|208|[Implement Trie (Prefix Tree)](https://leetcode.com/problems/implement-trie-prefix-tree/)|Medium|
 |[📎](src/q_201_250/q0209.hpp) [📝](src/q_201_250/q0209_unittest.hpp)|209|[Minimum Size Subarray Sum](https://leetcode.com/problems/minimum-size-subarray-sum/)|Medium|
 ||210|[Course Schedule II](https://leetcode.com/problems/course-schedule-ii/)|Medium|
 ||211|[Design Add and Search Words Data Structure](https://leetcode.com/problems/design-add-and-search-words-data-structure/)|Medium|
@@ -2056,7 +2056,7 @@ My daily challenge on leetcode since 2021/09/06.
 ||2000|[Reverse Prefix of Word](https://leetcode.com/problems/reverse-prefix-of-word/)|Easy|
 </details>
 <details>
-  <summary>### 2001 ~ 2030</summary>
+  <summary>### 2001 ~ 2031</summary>
 
 |</>|#|Solution Title|Difficulty|
 |--:|--:|:--|:--|
@@ -2090,6 +2090,7 @@ My daily challenge on leetcode since 2021/09/06.
 ||2028|[Find Missing Observations](https://leetcode.com/problems/find-missing-observations/)|Medium|
 ||2029|[Stone Game IX](https://leetcode.com/problems/stone-game-ix/)|Medium|
 ||2030|[Smallest K-Length Subsequence With Occurrences of a Letter](https://leetcode.com/problems/smallest-k-length-subsequence-with-occurrences-of-a-letter/)|Hard|
+|🔒|2031|[Count Subarrays With More Ones Than Zeros](https://leetcode.com/problems/count-subarrays-with-more-ones-than-zeros/)|Medium|
 </details>
 
 ---
@@ -2097,6 +2098,7 @@ My daily challenge on leetcode since 2021/09/06.
 
 |Time|#|</>|Question Title|Difficulty|
 |:--|--:|:-:|:--|:--|
+|2021-10-08 12:18|208|[📎](src/q_201_250/q0208.hpp) [📝](src/q_201_250/q0208_unittest.hpp)|[Implement Trie (Prefix Tree)](https://leetcode.com/problems/implement-trie-prefix-tree/)|Medium|
 |2021-10-07 10:57|841|[📎](src/q_801_850/q0841.hpp) [📝](src/q_801_850/q0841_unittest.hpp)|[Keys and Rooms](https://leetcode.com/problems/keys-and-rooms/)|Medium|
 |2021-10-07 10:32|1557|[📎](src/q_1551_1600/q1557.hpp) [📝](src/q_1551_1600/q1557_unittest.hpp)|[Minimum Number of Vertices to Reach All Nodes](https://leetcode.com/problems/minimum-number-of-vertices-to-reach-all-nodes/)|Medium|
 |2021-10-07 10:11|997|[📎](src/q_951_1000/q0997.hpp) [📝](src/q_951_1000/q0997_unittest.hpp)|[Find the Town Judge](https://leetcode.com/problems/find-the-town-judge/)|Easy|
@@ -2119,13 +2121,12 @@ My daily challenge on leetcode since 2021/09/06.
 |2021-10-05 12:25|230|[📎](src/q_201_250/q0230.hpp) [📝](src/q_201_250/q0230_unittest.hpp)|[Kth Smallest Element in a BST](https://leetcode.com/problems/kth-smallest-element-in-a-bst/)|Medium|
 |2021-10-05 12:06|583|[📎](src/q_551_600/q0583.hpp) [📝](src/q_551_600/q0583_unittest.hpp)|[Delete Operation for Two Strings](https://leetcode.com/problems/delete-operation-for-two-strings/)|Medium|
 |2021-10-05 01:53|93|[📎](src/q_51_100/q0093.hpp) [📝](src/q_51_100/q0093_unittest.hpp)|[Restore IP Addresses](https://leetcode.com/problems/restore-ip-addresses/)|Medium|
-|2021-10-05 01:21|7|[📎](src/q_1_50/q0007.hpp) [📝](src/q_1_50/q0007_unittest.hpp)|[Reverse Integer](https://leetcode.com/problems/reverse-integer/)|Easy|
+|2021-10-05 01:21|7|[📎](src/q_1_50/q0007.hpp) [📝](src/q_1_50/q0007_unittest.hpp)|[Reverse Integer](https://leetcode.com/problems/reverse-integer/)|Medium|
 |2021-10-04 23:01|37|[📎](src/q_1_50/q0037.hpp) [📝](src/q_1_50/q0037_unittest.hpp)|[Sudoku Solver](https://leetcode.com/problems/sudoku-solver/)|Hard|
-|2021-10-04 13:11|450|[📎](src/q_401_450/q0450.hpp) [📝](src/q_401_450/q0450_unittest.hpp)|[Delete Node in a BST](https://leetcode.com/problems/delete-node-in-a-bst/)|Medium|
 
 ## Previous Logs
 
 |Month|Submissions|Easy|Medium|Hard|
 |:--|:--|:--|:--|:--|
-|[October_2021](./assets/October_2021.md)|45|11|29|5|
+|[October_2021](./assets/October_2021.md)|46|10|31|5|
 |[September_2021](./assets/September_2021.md)|133|55|71|7|

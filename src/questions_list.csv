@@ -5,7 +5,7 @@ id,title,level,slug,paid,done
 4,Median of Two Sorted Arrays,3,median-of-two-sorted-arrays,0,0
 5,Longest Palindromic Substring,2,longest-palindromic-substring,0,1
 6,ZigZag Conversion,2,zigzag-conversion,0,0
-7,Reverse Integer,1,reverse-integer,0,1
+7,Reverse Integer,2,reverse-integer,0,1
 8,String to Integer (atoi),2,string-to-integer-atoi,0,0
 9,Palindrome Number,1,palindrome-number,0,0
 10,Regular Expression Matching,3,regular-expression-matching,0,0
@@ -206,7 +206,7 @@ id,title,level,slug,paid,done
 205,Isomorphic Strings,1,isomorphic-strings,0,0
 206,Reverse Linked List,1,reverse-linked-list,0,1
 207,Course Schedule,2,course-schedule,0,0
-208,Implement Trie (Prefix Tree),2,implement-trie-prefix-tree,0,0
+208,Implement Trie (Prefix Tree),2,implement-trie-prefix-tree,0,1
 209,Minimum Size Subarray Sum,2,minimum-size-subarray-sum,0,1
 210,Course Schedule II,2,course-schedule-ii,0,0
 211,Design Add and Search Words Data Structure,2,design-add-and-search-words-data-structure,0,0
@@ -2029,3 +2029,4 @@ id,title,level,slug,paid,done
 2028,Find Missing Observations,2,find-missing-observations,0,0
 2029,Stone Game IX,2,stone-game-ix,0,0
 2030,Smallest K-Length Subsequence With Occurrences of a Letter,3,smallest-k-length-subsequence-with-occurrences-of-a-letter,0,0
+2031,Count Subarrays With More Ones Than Zeros,2,count-subarrays-with-more-ones-than-zeros,1,0
