@@ -111,12 +111,12 @@ class SolutionFunction(SolutionAbstract):
             exp.append("// Assume the first argument is answer.")
             exp.append(type.expect_compare(name, "exp"))
         elif self._anyorder and re.search("vector", eq_type):
-            eq_arg = "{}.{};".format(self._solnobj, self.function())
+            eq_arg = "{}.{}".format(self._solnobj, self.function())
             exp.append("// Try EXPECT_EQ_ANY_ORDER_RECURSIVE")
             exp.append("// if the element is also matched in any order.")
             exp.append("EXPECT_EQ_ANY_ORDER({}, exp);".format(eq_arg))
         else:
-            eq_arg = "{}.{};".format(self.solution_object(), self.function())
+            eq_arg = "{}.{}".format(self.solution_object(), self.function())
             exp.append(self._type.expect_compare(eq_arg, "exp"))
         return exp
 
