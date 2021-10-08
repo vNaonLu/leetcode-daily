@@ -301,10 +301,6 @@ class LeetCodeQuestion:
             content = re.sub(p, r, content)
         return " ‘{}’ ".format(content)
 
-    def __illist(match: re.Match):
-        li = re.search(" *<li>(?P<content>[\w\W]*?)<\/li> *",
-                       )
-
     __repl = [
         ("&quot;(?P<content>[\w\W]*?)&quot;",                       # " "
          lambda match: "\"{}\"".format(match.group("content"))),
