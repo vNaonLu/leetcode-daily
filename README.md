@@ -364,7 +364,7 @@ My daily challenge on leetcode since 2021/09/06.
 |[📎](src/q_301_350/q0344.hpp) [📝](src/q_301_350/q0344_unittest.hpp)|344|[Reverse String](https://leetcode.com/problems/reverse-string/)|Easy|
 ||345|[Reverse Vowels of a String](https://leetcode.com/problems/reverse-vowels-of-a-string/)|Easy|
 |🔒|346|[Moving Average from Data Stream](https://leetcode.com/problems/moving-average-from-data-stream/)|Easy|
-||347|[Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/)|Medium|
+|[📎](src/q_301_350/q0347.hpp) [📝](src/q_301_350/q0347_unittest.hpp)|347|[Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/)|Medium|
 |🔒|348|[Design Tic-Tac-Toe](https://leetcode.com/problems/design-tic-tac-toe/)|Medium|
 ||349|[Intersection of Two Arrays](https://leetcode.com/problems/intersection-of-two-arrays/)|Easy|
 |[📎](src/q_301_350/q0350.hpp) [📝](src/q_301_350/q0350_unittest.hpp)|350|[Intersection of Two Arrays II](https://leetcode.com/problems/intersection-of-two-arrays-ii/)|Easy|
@@ -2098,6 +2098,7 @@ My daily challenge on leetcode since 2021/09/06.
 
 |Time|#|</>|Question Title|Difficulty|
 |:--|--:|:-:|:--|:--|
+|2021-10-08 13:09|347|[📎](src/q_301_350/q0347.hpp) [📝](src/q_301_350/q0347_unittest.hpp)|[Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/)|Medium|
 |2021-10-08 12:56|215|[📎](src/q_201_250/q0215.hpp) [📝](src/q_201_250/q0215_unittest.hpp)|[Kth Largest Element in an Array](https://leetcode.com/problems/kth-largest-element-in-an-array/)|Medium|
 |2021-10-08 12:48|384|[📎](src/q_351_400/q0384.hpp) [📝](src/q_351_400/q0384_unittest.hpp)|[Shuffle an Array](https://leetcode.com/problems/shuffle-an-array/)|Medium|
 |2021-10-08 12:18|208|[📎](src/q_201_250/q0208.hpp) [📝](src/q_201_250/q0208_unittest.hpp)|[Implement Trie (Prefix Tree)](https://leetcode.com/problems/implement-trie-prefix-tree/)|Medium|
@@ -2122,11 +2123,10 @@ My daily challenge on leetcode since 2021/09/06.
 |2021-10-05 12:37|173|[📎](src/q_151_200/q0173.hpp) [📝](src/q_151_200/q0173_unittest.hpp)|[Binary Search Tree Iterator](https://leetcode.com/problems/binary-search-tree-iterator/)|Medium|
 |2021-10-05 12:25|230|[📎](src/q_201_250/q0230.hpp) [📝](src/q_201_250/q0230_unittest.hpp)|[Kth Smallest Element in a BST](https://leetcode.com/problems/kth-smallest-element-in-a-bst/)|Medium|
 |2021-10-05 12:06|583|[📎](src/q_551_600/q0583.hpp) [📝](src/q_551_600/q0583_unittest.hpp)|[Delete Operation for Two Strings](https://leetcode.com/problems/delete-operation-for-two-strings/)|Medium|
-|2021-10-05 01:53|93|[📎](src/q_51_100/q0093.hpp) [📝](src/q_51_100/q0093_unittest.hpp)|[Restore IP Addresses](https://leetcode.com/problems/restore-ip-addresses/)|Medium|
 
 ## Previous Logs
 
 |Month|Submissions|Easy|Medium|Hard|
 |:--|:--|:--|:--|:--|
-|[October_2021](./assets/October_2021.md)|48|10|33|5|
+|[October_2021](./assets/October_2021.md)|49|10|34|5|
 |[September_2021](./assets/September_2021.md)|133|55|71|7|
