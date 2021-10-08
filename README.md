@@ -274,7 +274,7 @@ My daily challenge on leetcode since 2021/09/06.
 |🔒|254|[Factor Combinations](https://leetcode.com/problems/factor-combinations/)|Medium|
 |🔒|255|[Verify Preorder Sequence in Binary Search Tree](https://leetcode.com/problems/verify-preorder-sequence-in-binary-search-tree/)|Medium|
 |🔒|256|[Paint House](https://leetcode.com/problems/paint-house/)|Medium|
-||257|[Binary Tree Paths](https://leetcode.com/problems/binary-tree-paths/)|Easy|
+|[📎](src/q_251_300/q0257.hpp) [📝](src/q_251_300/q0257_unittest.hpp)|257|[Binary Tree Paths](https://leetcode.com/problems/binary-tree-paths/)|Easy|
 ||258|[Add Digits](https://leetcode.com/problems/add-digits/)|Easy|
 |🔒|259|[3Sum Smaller](https://leetcode.com/problems/3sum-smaller/)|Medium|
 ||260|[Single Number III](https://leetcode.com/problems/single-number-iii/)|Medium|
@@ -2098,6 +2098,7 @@ My daily challenge on leetcode since 2021/09/06.
 
 |Time|#|</>|Question Title|Difficulty|
 |:--|--:|:-:|:--|:--|
+|2021-10-08 15:55|257|[📎](src/q_251_300/q0257.hpp) [📝](src/q_251_300/q0257_unittest.hpp)|[Binary Tree Paths](https://leetcode.com/problems/binary-tree-paths/)|Easy|
 |2021-10-08 13:09|347|[📎](src/q_301_350/q0347.hpp) [📝](src/q_301_350/q0347_unittest.hpp)|[Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/)|Medium|
 |2021-10-08 12:56|215|[📎](src/q_201_250/q0215.hpp) [📝](src/q_201_250/q0215_unittest.hpp)|[Kth Largest Element in an Array](https://leetcode.com/problems/kth-largest-element-in-an-array/)|Medium|
 |2021-10-08 12:48|384|[📎](src/q_351_400/q0384.hpp) [📝](src/q_351_400/q0384_unittest.hpp)|[Shuffle an Array](https://leetcode.com/problems/shuffle-an-array/)|Medium|
@@ -2122,11 +2123,10 @@ My daily challenge on leetcode since 2021/09/06.
 |2021-10-05 12:58|501|[📎](src/q_501_550/q0501.hpp) [📝](src/q_501_550/q0501_unittest.hpp)|[Find Mode in Binary Search Tree](https://leetcode.com/problems/find-mode-in-binary-search-tree/)|Easy|
 |2021-10-05 12:37|173|[📎](src/q_151_200/q0173.hpp) [📝](src/q_151_200/q0173_unittest.hpp)|[Binary Search Tree Iterator](https://leetcode.com/problems/binary-search-tree-iterator/)|Medium|
 |2021-10-05 12:25|230|[📎](src/q_201_250/q0230.hpp) [📝](src/q_201_250/q0230_unittest.hpp)|[Kth Smallest Element in a BST](https://leetcode.com/problems/kth-smallest-element-in-a-bst/)|Medium|
-|2021-10-05 12:06|583|[📎](src/q_551_600/q0583.hpp) [📝](src/q_551_600/q0583_unittest.hpp)|[Delete Operation for Two Strings](https://leetcode.com/problems/delete-operation-for-two-strings/)|Medium|
 
 ## Previous Logs
 
 |Month|Submissions|Easy|Medium|Hard|
 |:--|:--|:--|:--|:--|
-|[October_2021](./assets/October_2021.md)|49|10|34|5|
+|[October_2021](./assets/October_2021.md)|50|11|34|5|
 |[September_2021](./assets/September_2021.md)|133|55|71|7|
