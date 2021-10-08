@@ -382,7 +382,7 @@ id,title,level,slug,paid,done
 381,Insert Delete GetRandom O(1) - Duplicates allowed,3,insert-delete-getrandom-o1-duplicates-allowed,0,0
 382,Linked List Random Node,2,linked-list-random-node,0,0
 383,Ransom Note,1,ransom-note,0,1
-384,Shuffle an Array,2,shuffle-an-array,0,0
+384,Shuffle an Array,2,shuffle-an-array,0,1
 385,Mini Parser,2,mini-parser,0,0
 386,Lexicographical Numbers,2,lexicographical-numbers,0,0
 387,First Unique Character in a String,1,first-unique-character-in-a-string,0,1

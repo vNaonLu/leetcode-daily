@@ -401,7 +401,7 @@ My daily challenge on leetcode since 2021/09/06.
 ||381|[Insert Delete GetRandom O(1) - Duplicates allowed](https://leetcode.com/problems/insert-delete-getrandom-o1-duplicates-allowed/)|Hard|
 ||382|[Linked List Random Node](https://leetcode.com/problems/linked-list-random-node/)|Medium|
 |[📎](src/q_351_400/q0383.hpp) [📝](src/q_351_400/q0383_unittest.hpp)|383|[Ransom Note](https://leetcode.com/problems/ransom-note/)|Easy|
-||384|[Shuffle an Array](https://leetcode.com/problems/shuffle-an-array/)|Medium|
+|[📎](src/q_351_400/q0384.hpp) [📝](src/q_351_400/q0384_unittest.hpp)|384|[Shuffle an Array](https://leetcode.com/problems/shuffle-an-array/)|Medium|
 ||385|[Mini Parser](https://leetcode.com/problems/mini-parser/)|Medium|
 ||386|[Lexicographical Numbers](https://leetcode.com/problems/lexicographical-numbers/)|Medium|
 |[📎](src/q_351_400/q0387.hpp) [📝](src/q_351_400/q0387_unittest.hpp)|387|[First Unique Character in a String](https://leetcode.com/problems/first-unique-character-in-a-string/)|Easy|
@@ -2098,6 +2098,7 @@ My daily challenge on leetcode since 2021/09/06.
 
 |Time|#|</>|Question Title|Difficulty|
 |:--|--:|:-:|:--|:--|
+|2021-10-08 12:48|384|[📎](src/q_351_400/q0384.hpp) [📝](src/q_351_400/q0384_unittest.hpp)|[Shuffle an Array](https://leetcode.com/problems/shuffle-an-array/)|Medium|
 |2021-10-08 12:18|208|[📎](src/q_201_250/q0208.hpp) [📝](src/q_201_250/q0208_unittest.hpp)|[Implement Trie (Prefix Tree)](https://leetcode.com/problems/implement-trie-prefix-tree/)|Medium|
 |2021-10-07 10:57|841|[📎](src/q_801_850/q0841.hpp) [📝](src/q_801_850/q0841_unittest.hpp)|[Keys and Rooms](https://leetcode.com/problems/keys-and-rooms/)|Medium|
 |2021-10-07 10:32|1557|[📎](src/q_1551_1600/q1557.hpp) [📝](src/q_1551_1600/q1557_unittest.hpp)|[Minimum Number of Vertices to Reach All Nodes](https://leetcode.com/problems/minimum-number-of-vertices-to-reach-all-nodes/)|Medium|
@@ -2122,11 +2123,10 @@ My daily challenge on leetcode since 2021/09/06.
 |2021-10-05 12:06|583|[📎](src/q_551_600/q0583.hpp) [📝](src/q_551_600/q0583_unittest.hpp)|[Delete Operation for Two Strings](https://leetcode.com/problems/delete-operation-for-two-strings/)|Medium|
 |2021-10-05 01:53|93|[📎](src/q_51_100/q0093.hpp) [📝](src/q_51_100/q0093_unittest.hpp)|[Restore IP Addresses](https://leetcode.com/problems/restore-ip-addresses/)|Medium|
 |2021-10-05 01:21|7|[📎](src/q_1_50/q0007.hpp) [📝](src/q_1_50/q0007_unittest.hpp)|[Reverse Integer](https://leetcode.com/problems/reverse-integer/)|Medium|
-|2021-10-04 23:01|37|[📎](src/q_1_50/q0037.hpp) [📝](src/q_1_50/q0037_unittest.hpp)|[Sudoku Solver](https://leetcode.com/problems/sudoku-solver/)|Hard|
 
 ## Previous Logs
 
 |Month|Submissions|Easy|Medium|Hard|
 |:--|:--|:--|:--|:--|
-|[October_2021](./assets/October_2021.md)|46|10|31|5|
+|[October_2021](./assets/October_2021.md)|47|10|32|5|
 |[September_2021](./assets/September_2021.md)|133|55|71|7|
