@@ -184,7 +184,7 @@ class SolutionClass(SolutionAbstract):
         if not match:
             return outputs
 
-        outputs = re.findall("(null|\"[\w\W]*\"|[.\d+-]+|\[[\w\W]*\])",
+        outputs = re.findall("(null|\"[\w\W]*\"|[.\d+-]+|\[[\w\W]*\]|true|false|True|False)",
                              match.group("out"))
         return outputs
 
