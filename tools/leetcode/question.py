@@ -1,12 +1,13 @@
 import re
 import regex
 from . import request as LeetCodeRequest
-from .argument import Argument, CustomArgument
+from .argument import Argument
 
 
 class SolutionAbstract:
-    def __init__(self, content: str):
+    def __init__(self, id: int, content: str):
         self._type: Argument = None
+        self._id: int = id
         self._name: str = ""
         self._args: dict[str, Argument] = {}
         self._includes: set[str] = set()
@@ -14,9 +15,13 @@ class SolutionAbstract:
                                          content,
                                          re.IGNORECASE) != None
         self._includes.add("iostream")
+        self._solnobj: str = "solver"
 
     def class_name(self):
         return "Solution"
+
+    def solution_object(self):
+        return self._solnobj
 
     def name(self):
         return self._name
@@ -46,8 +51,8 @@ class SolutionAbstract:
 
 
 class SolutionFunction(SolutionAbstract):
-    def __init__(self, code_snippet: list[str], content: str = ""):
-        SolutionAbstract.__init__(self, content)
+    def __init__(self, id: int, code_snippet: list[str], content: str = ""):
+        SolutionAbstract.__init__(self, id, content)
         self.__parse_codesnippets(code_snippet)
 
     def __parse_codesnippets(self, code_snippet: list[str]):
@@ -72,7 +77,7 @@ class SolutionFunction(SolutionAbstract):
     def __parse_input(self, input: str):
         inputs: list[str] = []
         matches = regex.findall("(?P<name>\w+) *= *(?P<value>[.\d+-]+|\"[\w\W]*?\"|\[(?:[^\[\]]|(?&value))*\])",
-                             input)
+                                input)
         for i in range(0, len(matches)):
             if i < len(self.args()):
                 # in order based on function arguments
@@ -91,7 +96,8 @@ class SolutionFunction(SolutionAbstract):
             # assume adjust the first argument
             _, argument = self.args()[0]
             outputs.append(argument.get_statement("exp", output))
-            outputs.append("solver.{};".format(self.function()))
+            outputs.append("{}.{};".format(
+                self.solution_object(), self.function()))
         else:
             outputs.append(self._type.get_statement("exp", output))
         return outputs
@@ -105,14 +111,19 @@ class SolutionFunction(SolutionAbstract):
             exp.append("// Assume the first argument is answer.")
             exp.append(type.expect_compare(name, "exp"))
         elif self._anyorder and re.search("vector", eq_type):
-            eq_arg = "solver." + self.function()
+            eq_arg = "{}.{};".format(self._solnobj, self.function())
             exp.append("// Try EXPECT_EQ_ANY_ORDER_RECURSIVE")
             exp.append("// if the element is also matched in any order.")
             exp.append("EXPECT_EQ_ANY_ORDER({}, exp);".format(eq_arg))
         else:
-            eq_arg = "solver." + self.function()
+            eq_arg = "{}.{};".format(self.solution_object(), self.function())
             exp.append(self._type.expect_compare(eq_arg, "exp"))
         return exp
+
+    def __generate_object(self):
+        return ["l{}::{} {};".format(self._id,
+                                     self.class_name(),
+                                     self.solution_object())]
 
     def unittest_desc(self, content: str):
         res: list[list[str]] = []
@@ -124,18 +135,21 @@ class SolutionFunction(SolutionAbstract):
                     re.search("Input[\w\W]+? (?P<in>[\w\W]+)[^\w]+Output[^\[\"\'\w]* +(?P<out>[\d+-]+|\[[\w\W]*\]|\"[^\n]+?\"|True|False|true|false)",
                               case)
                 if m_cas:
-                    inp = self.__parse_input(m_cas.group("in").strip())
-                    out = self.__parse_output(m_cas.group("out").strip())
-                    eq = self.__expect_equation()
-                    res.append(inp + out + eq)
+                    res.append(self.__generate_object() +
+                               self.__parse_input(m_cas.group("in").strip()) +
+                               self.__parse_output(m_cas.group("out").strip()) +
+                               self.__expect_equation())
         return res
 
 
 class SolutionClass(SolutionAbstract):
-    def __init__(self, class_name: str, code_snippet: list[str], content: str = ""):
-        SolutionAbstract.__init__(self, content)
+    def __init__(self, id: int, class_name: str, code_snippet: list[str], content: str = ""):
+        SolutionAbstract.__init__(self, id, content)
         self.__methods: dict[str, SolutionAbstract] = {}
         self.__name = class_name
+        self._solnobj = "_".join(
+            [e.lower() for e in list(filter(lambda e: e != "",
+                                            re.split("([A-Z][a-z]+)", self.__name)))])
         self.__parse_codesnippets(code_snippet)
 
     def class_name(self):
@@ -143,25 +157,29 @@ class SolutionClass(SolutionAbstract):
 
     def __parse_codesnippets(self, code_snippet: list[str]):
         for line in code_snippet:
-            if re.match(" *\w+ +\w+ *\([\w\W]*\) *{", line):
-                func = SolutionFunction([line])
+            if re.search(" *(?P<func>{} *\([\w\W]*\))".format(self.class_name()), line):
+                func = SolutionFunction(self._id, ["void " + line])
+                self.__methods[func.name()] = func
+            elif re.match(" *\w+ +\w+ *\([\w\W]*\) *{", line):
+                func = SolutionFunction(self._id, [line])
                 self.__methods[func.name()] = func
 
     def __expect_equation(self, input: str, answer: list[str]):
         out: list[str] = []
-        split = re.findall("\[([^\[\]]*|\[.*\])\]", input)
+        split = regex.findall("\[((?:[^\[\]]|(?R))*)\]", input)
         functions = re.findall("\"(\w+)\"", split[0])
-        args_statement = re.findall("\[(.*?)\]", split[1])
-
+        args_statement = regex.findall("\[((?:[^\[\]]|(?R))*)\]", split[1])
         if len(functions) != len(answer) or \
                 len(functions) != len(args_statement):
             return out
+
         for i in range(0, len(functions)):
             if functions[i] not in self.__methods:
                 continue
+
             method = self.__methods[functions[i]]
-            arg_input = re.findall("(\"[\w\W]*\"|[.\d+-]+|\[[\w\W]*\])",
-                                   args_statement[i])
+            arg_input = regex.findall("(\"[\w\W]*?\"|[.\d+-]+|\[(?:[^\[\]]|(?R))*\])",
+                                      args_statement[i])
             if len(method.args()) != len(arg_input):
                 continue
 
@@ -169,13 +187,22 @@ class SolutionClass(SolutionAbstract):
             for j in range(0, len(arg_input)):
                 _, t = method.args()[j]
                 args.append(t.parse_value(arg_input[j]))
-            actual = "solver.{}({})".format(method.name(),
-                                            ", ".join(args))
-            if method.type() == "void":
-                out.append("{};".format(actual))
+
+            if functions[i] == self.class_name():
+                out.append("l{}::{} *{} = new {}({});".format(self._id, self.class_name(),
+                                                              self.solution_object(),
+                                                              self.class_name(),
+                                                              ", ".join(args)))
             else:
-                out.append(method._type.expect_compare(actual,
-                                                       method._type.parse_value(answer[i])))
+                actual = "{}->{}({})".format(self.solution_object(),
+                                             method.name(),
+                                             ", ".join(args))
+                if method.type() == "void":
+                    out.append("{};".format(actual))
+                else:
+                    out.append(method._type.expect_compare(actual,
+                                                           method._type.parse_value(answer[i])))
+        out.append("delete {};".format(self.solution_object()))
         return out
 
     def __parse_output(self, output: str):
@@ -204,15 +231,15 @@ class SolutionClass(SolutionAbstract):
 
 class Solution:
     @staticmethod
-    def generate_template(code_snippet: str, content: str):
+    def generate_template(id: int, code_snippet: str, content: str):
         multi_lines = code_snippet.splitlines()
 
         for i in range(0, len(multi_lines)):
             match = re.search("class (?P<class_name>\w+) *{", multi_lines[i])
             if match and match.group("class_name") == "Solution":
-                return SolutionFunction(multi_lines[i:], content)
+                return SolutionFunction(id, multi_lines[i:], content)
             elif match:
-                return SolutionClass(match.group("class_name"),
+                return SolutionClass(id, match.group("class_name"),
                                      multi_lines[i:], content)
 
 
@@ -328,7 +355,7 @@ class LeetCodeQuestion:
         self.__slug: str = res_obj['titleSlug']
         self.__level: str = res_obj['difficulty']
         self.__snippet: str = ""
-        self.__slttmp: SolutionAbstract = SolutionAbstract("")
+        self.__solntmp: SolutionAbstract = SolutionAbstract(-1, "")
         self.__desc: list[str] = None
         self.__cons: list[str] = None
         self.__testcase: list[list[str]] = []
@@ -347,8 +374,9 @@ class LeetCodeQuestion:
                     self.__snippet = re.sub(
                         " *protected:", " protected:", self.__snippet)
                     # to google style
-                    self.__slttmp = Solution.generate_template(self.__snippet,
-                                                               content)
+                    self.__solntmp = Solution.generate_template(self.id(),
+                                                                self.__snippet,
+                                                                content)
                     break
 
     def __parse_content(self, content: str):
@@ -362,7 +390,7 @@ class LeetCodeQuestion:
                 self.__desc = match.group("desc").splitlines()
                 self.__cons = match.group("cons").splitlines()
                 self.__testcase = \
-                    self.__slttmp.unittest_desc(match.group("exam"))
+                    self.__solntmp.unittest_desc(match.group("exam"))
 
     def id(self):
         return self.__id
@@ -402,7 +430,7 @@ class LeetCodeQuestion:
         return self.__cons
 
     def includes(self):
-        return self.__slttmp.includes()
+        return self.__solntmp.includes()
 
     def __source(self, desc: str):
         return "\n".join([
@@ -434,15 +462,14 @@ class LeetCodeQuestion:
             res.append("\n".join([
                 "",
                 "TEST(q{}, sample_input{}) {{".format(self.id(),
-                                                      str(i+1).zfill(2)),
-                "  l{}::{} solver;".format(self.id(), self.__slttmp.class_name())] + [
+                                                      str(i+1).zfill(2))] + [
                 "  {}".format(line) for line in self.__testcase[i]] + [
                 "}"]))
         return "\n".join(res)
 
     def __unittest(self, desc: str):
         addition_include: list[str] = [""]
-        if self.__slttmp.isanyorder():
+        if self.__solntmp.isanyorder():
             addition_include.append("#include <leetcode/anyorder.hpp>")
             addition_include.append("")
         return "\n".join([
