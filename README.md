@@ -226,7 +226,7 @@ My daily challenge on leetcode since 2021/09/06.
 ||212|[Word Search II](https://leetcode.com/problems/word-search-ii/)|Hard|
 |[📎](src/q_201_250/q0213.hpp) [📝](src/q_201_250/q0213_unittest.hpp)|213|[House Robber II](https://leetcode.com/problems/house-robber-ii/)|Medium|
 ||214|[Shortest Palindrome](https://leetcode.com/problems/shortest-palindrome/)|Hard|
-||215|[Kth Largest Element in an Array](https://leetcode.com/problems/kth-largest-element-in-an-array/)|Medium|
+|[📎](src/q_201_250/q0215.hpp) [📝](src/q_201_250/q0215_unittest.hpp)|215|[Kth Largest Element in an Array](https://leetcode.com/problems/kth-largest-element-in-an-array/)|Medium|
 ||216|[Combination Sum III](https://leetcode.com/problems/combination-sum-iii/)|Medium|
 ||217|[Contains Duplicate](https://leetcode.com/problems/contains-duplicate/)|Easy|
 ||218|[The Skyline Problem](https://leetcode.com/problems/the-skyline-problem/)|Hard|
@@ -2098,6 +2098,7 @@ My daily challenge on leetcode since 2021/09/06.
 
 |Time|#|</>|Question Title|Difficulty|
 |:--|--:|:-:|:--|:--|
+|2021-10-08 12:56|215|[📎](src/q_201_250/q0215.hpp) [📝](src/q_201_250/q0215_unittest.hpp)|[Kth Largest Element in an Array](https://leetcode.com/problems/kth-largest-element-in-an-array/)|Medium|
 |2021-10-08 12:48|384|[📎](src/q_351_400/q0384.hpp) [📝](src/q_351_400/q0384_unittest.hpp)|[Shuffle an Array](https://leetcode.com/problems/shuffle-an-array/)|Medium|
 |2021-10-08 12:18|208|[📎](src/q_201_250/q0208.hpp) [📝](src/q_201_250/q0208_unittest.hpp)|[Implement Trie (Prefix Tree)](https://leetcode.com/problems/implement-trie-prefix-tree/)|Medium|
 |2021-10-07 10:57|841|[📎](src/q_801_850/q0841.hpp) [📝](src/q_801_850/q0841_unittest.hpp)|[Keys and Rooms](https://leetcode.com/problems/keys-and-rooms/)|Medium|
@@ -2122,11 +2123,10 @@ My daily challenge on leetcode since 2021/09/06.
 |2021-10-05 12:25|230|[📎](src/q_201_250/q0230.hpp) [📝](src/q_201_250/q0230_unittest.hpp)|[Kth Smallest Element in a BST](https://leetcode.com/problems/kth-smallest-element-in-a-bst/)|Medium|
 |2021-10-05 12:06|583|[📎](src/q_551_600/q0583.hpp) [📝](src/q_551_600/q0583_unittest.hpp)|[Delete Operation for Two Strings](https://leetcode.com/problems/delete-operation-for-two-strings/)|Medium|
 |2021-10-05 01:53|93|[📎](src/q_51_100/q0093.hpp) [📝](src/q_51_100/q0093_unittest.hpp)|[Restore IP Addresses](https://leetcode.com/problems/restore-ip-addresses/)|Medium|
-|2021-10-05 01:21|7|[📎](src/q_1_50/q0007.hpp) [📝](src/q_1_50/q0007_unittest.hpp)|[Reverse Integer](https://leetcode.com/problems/reverse-integer/)|Medium|
 
 ## Previous Logs
 
 |Month|Submissions|Easy|Medium|Hard|
 |:--|:--|:--|:--|:--|
-|[October_2021](./assets/October_2021.md)|47|10|32|5|
+|[October_2021](./assets/October_2021.md)|48|10|33|5|
 |[September_2021](./assets/September_2021.md)|133|55|71|7|
