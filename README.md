@@ -223,7 +223,7 @@ My daily challenge on leetcode since 2021/09/06.
 |[📎](src/q_201_250/q0209.hpp) [📝](src/q_201_250/q0209_unittest.hpp)|209|[Minimum Size Subarray Sum](https://leetcode.com/problems/minimum-size-subarray-sum/)|Medium|
 ||210|[Course Schedule II](https://leetcode.com/problems/course-schedule-ii/)|Medium|
 ||211|[Design Add and Search Words Data Structure](https://leetcode.com/problems/design-add-and-search-words-data-structure/)|Medium|
-||212|[Word Search II](https://leetcode.com/problems/word-search-ii/)|Hard|
+|[📎](src/q_201_250/q0212.hpp) [📝](src/q_201_250/q0212_unittest.hpp)|212|[Word Search II](https://leetcode.com/problems/word-search-ii/)|Hard|
 |[📎](src/q_201_250/q0213.hpp) [📝](src/q_201_250/q0213_unittest.hpp)|213|[House Robber II](https://leetcode.com/problems/house-robber-ii/)|Medium|
 ||214|[Shortest Palindrome](https://leetcode.com/problems/shortest-palindrome/)|Hard|
 |[📎](src/q_201_250/q0215.hpp) [📝](src/q_201_250/q0215_unittest.hpp)|215|[Kth Largest Element in an Array](https://leetcode.com/problems/kth-largest-element-in-an-array/)|Medium|
@@ -2098,6 +2098,7 @@ My daily challenge on leetcode since 2021/09/06.
 
 |Time|#|</>|Question Title|Difficulty|
 |:--|--:|:-:|:--|:--|
+|2021-10-09 15:38|212|[📎](src/q_201_250/q0212.hpp) [📝](src/q_201_250/q0212_unittest.hpp)|[Word Search II](https://leetcode.com/problems/word-search-ii/)|Hard|
 |2021-10-09 15:18|973|[📎](src/q_951_1000/q0973.hpp) [📝](src/q_951_1000/q0973_unittest.hpp)|[K Closest Points to Origin](https://leetcode.com/problems/k-closest-points-to-origin/)|Medium|
 |2021-10-09 15:05|451|[📎](src/q_451_500/q0451.hpp) [📝](src/q_451_500/q0451_unittest.hpp)|[Sort Characters By Frequency](https://leetcode.com/problems/sort-characters-by-frequency/)|Medium|
 |2021-10-09 14:42|149|[📎](src/q_101_150/q0149.hpp) [📝](src/q_101_150/q0149_unittest.hpp)|[Max Points on a Line](https://leetcode.com/problems/max-points-on-a-line/)|Hard|
@@ -2122,11 +2123,10 @@ My daily challenge on leetcode since 2021/09/06.
 |2021-10-06 00:46|693|[📎](src/q_651_700/q0693.hpp) [📝](src/q_651_700/q0693_unittest.hpp)|[Binary Number with Alternating Bits](https://leetcode.com/problems/binary-number-with-alternating-bits/)|Easy|
 |2021-10-06 00:41|201|[📎](src/q_201_250/q0201.hpp) [📝](src/q_201_250/q0201_unittest.hpp)|[Bitwise AND of Numbers Range](https://leetcode.com/problems/bitwise-and-of-numbers-range/)|Medium|
 |2021-10-06 00:20|898|[📎](src/q_851_900/q0898.hpp) [📝](src/q_851_900/q0898_unittest.hpp)|[Bitwise ORs of Subarrays](https://leetcode.com/problems/bitwise-ors-of-subarrays/)|Medium|
-|2021-10-06 00:06|338|[📎](src/q_301_350/q0338.hpp) [📝](src/q_301_350/q0338_unittest.hpp)|[Counting Bits](https://leetcode.com/problems/counting-bits/)|Easy|
 
 ## Previous Logs
 
 |Month|Submissions|Easy|Medium|Hard|
 |:--|:--|:--|:--|:--|
-|[October_2021](./assets/October_2021.md)|55|12|36|7|
+|[October_2021](./assets/October_2021.md)|56|12|36|8|
 |[September_2021](./assets/September_2021.md)|133|55|71|7|

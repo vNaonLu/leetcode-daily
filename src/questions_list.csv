@@ -210,7 +210,7 @@ id,title,level,slug,paid,done
 209,Minimum Size Subarray Sum,2,minimum-size-subarray-sum,0,1
 210,Course Schedule II,2,course-schedule-ii,0,0
 211,Design Add and Search Words Data Structure,2,design-add-and-search-words-data-structure,0,0
-212,Word Search II,3,word-search-ii,0,0
+212,Word Search II,3,word-search-ii,0,1
 213,House Robber II,2,house-robber-ii,0,1
 214,Shortest Palindrome,3,shortest-palindrome,0,0
 215,Kth Largest Element in an Array,2,kth-largest-element-in-an-array,0,1
