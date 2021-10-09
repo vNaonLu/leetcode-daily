@@ -971,7 +971,7 @@ id,title,level,slug,paid,done
 970,Powerful Integers,2,powerful-integers,0,0
 971,Flip Binary Tree To Match Preorder Traversal,2,flip-binary-tree-to-match-preorder-traversal,0,0
 972,Equal Rational Numbers,3,equal-rational-numbers,0,0
-973,K Closest Points to Origin,2,k-closest-points-to-origin,0,0
+973,K Closest Points to Origin,2,k-closest-points-to-origin,0,1
 974,Subarray Sums Divisible by K,2,subarray-sums-divisible-by-k,0,0
 975,Odd Even Jump,3,odd-even-jump,0,0
 976,Largest Perimeter Triangle,1,largest-perimeter-triangle,0,0

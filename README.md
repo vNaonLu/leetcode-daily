@@ -1002,7 +1002,7 @@ My daily challenge on leetcode since 2021/09/06.
 ||970|[Powerful Integers](https://leetcode.com/problems/powerful-integers/)|Medium|
 ||971|[Flip Binary Tree To Match Preorder Traversal](https://leetcode.com/problems/flip-binary-tree-to-match-preorder-traversal/)|Medium|
 ||972|[Equal Rational Numbers](https://leetcode.com/problems/equal-rational-numbers/)|Hard|
-||973|[K Closest Points to Origin](https://leetcode.com/problems/k-closest-points-to-origin/)|Medium|
+|[📎](src/q_951_1000/q0973.hpp) [📝](src/q_951_1000/q0973_unittest.hpp)|973|[K Closest Points to Origin](https://leetcode.com/problems/k-closest-points-to-origin/)|Medium|
 ||974|[Subarray Sums Divisible by K](https://leetcode.com/problems/subarray-sums-divisible-by-k/)|Medium|
 ||975|[Odd Even Jump](https://leetcode.com/problems/odd-even-jump/)|Hard|
 ||976|[Largest Perimeter Triangle](https://leetcode.com/problems/largest-perimeter-triangle/)|Easy|
@@ -2098,6 +2098,7 @@ My daily challenge on leetcode since 2021/09/06.
 
 |Time|#|</>|Question Title|Difficulty|
 |:--|--:|:-:|:--|:--|
+|2021-10-09 15:18|973|[📎](src/q_951_1000/q0973.hpp) [📝](src/q_951_1000/q0973_unittest.hpp)|[K Closest Points to Origin](https://leetcode.com/problems/k-closest-points-to-origin/)|Medium|
 |2021-10-09 15:05|451|[📎](src/q_451_500/q0451.hpp) [📝](src/q_451_500/q0451_unittest.hpp)|[Sort Characters By Frequency](https://leetcode.com/problems/sort-characters-by-frequency/)|Medium|
 |2021-10-09 14:42|149|[📎](src/q_101_150/q0149.hpp) [📝](src/q_101_150/q0149_unittest.hpp)|[Max Points on a Line](https://leetcode.com/problems/max-points-on-a-line/)|Hard|
 |2021-10-09 14:21|202|[📎](src/q_201_250/q0202.hpp) [📝](src/q_201_250/q0202_unittest.hpp)|[Happy Number](https://leetcode.com/problems/happy-number/)|Easy|
@@ -2122,11 +2123,10 @@ My daily challenge on leetcode since 2021/09/06.
 |2021-10-06 00:41|201|[📎](src/q_201_250/q0201.hpp) [📝](src/q_201_250/q0201_unittest.hpp)|[Bitwise AND of Numbers Range](https://leetcode.com/problems/bitwise-and-of-numbers-range/)|Medium|
 |2021-10-06 00:20|898|[📎](src/q_851_900/q0898.hpp) [📝](src/q_851_900/q0898_unittest.hpp)|[Bitwise ORs of Subarrays](https://leetcode.com/problems/bitwise-ors-of-subarrays/)|Medium|
 |2021-10-06 00:06|338|[📎](src/q_301_350/q0338.hpp) [📝](src/q_301_350/q0338_unittest.hpp)|[Counting Bits](https://leetcode.com/problems/counting-bits/)|Easy|
-|2021-10-06 00:01|717|[📎](src/q_701_750/q0717.hpp) [📝](src/q_701_750/q0717_unittest.hpp)|[1-bit and 2-bit Characters](https://leetcode.com/problems/1-bit-and-2-bit-characters/)|Easy|
 
 ## Previous Logs
 
 |Month|Submissions|Easy|Medium|Hard|
 |:--|:--|:--|:--|:--|
-|[October_2021](./assets/October_2021.md)|54|12|35|7|
+|[October_2021](./assets/October_2021.md)|55|12|36|7|
 |[September_2021](./assets/September_2021.md)|133|55|71|7|
