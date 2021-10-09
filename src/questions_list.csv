@@ -94,7 +94,7 @@ id,title,level,slug,paid,done
 93,Restore IP Addresses,2,restore-ip-addresses,0,1
 94,Binary Tree Inorder Traversal,1,binary-tree-inorder-traversal,0,1
 95,Unique Binary Search Trees II,2,unique-binary-search-trees-ii,0,0
-96,Unique Binary Search Trees,2,unique-binary-search-trees,0,0
+96,Unique Binary Search Trees,2,unique-binary-search-trees,0,1
 97,Interleaving String,2,interleaving-string,0,0
 98,Validate Binary Search Tree,2,validate-binary-search-tree,0,1
 99,Recover Binary Search Tree,2,recover-binary-search-tree,0,0
