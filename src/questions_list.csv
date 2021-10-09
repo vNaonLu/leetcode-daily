@@ -147,7 +147,7 @@ id,title,level,slug,paid,done
 146,LRU Cache,2,lru-cache,0,0
 147,Insertion Sort List,2,insertion-sort-list,0,0
 148,Sort List,2,sort-list,0,0
-149,Max Points on a Line,3,max-points-on-a-line,0,0
+149,Max Points on a Line,3,max-points-on-a-line,0,1
 150,Evaluate Reverse Polish Notation,2,evaluate-reverse-polish-notation,0,0
 151,Reverse Words in a String,2,reverse-words-in-a-string,0,0
 152,Maximum Product Subarray,2,maximum-product-subarray,0,0
