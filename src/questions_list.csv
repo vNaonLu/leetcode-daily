@@ -449,7 +449,7 @@ id,title,level,slug,paid,done
 448,Find All Numbers Disappeared in an Array,1,find-all-numbers-disappeared-in-an-array,0,0
 449,Serialize and Deserialize BST,2,serialize-and-deserialize-bst,0,0
 450,Delete Node in a BST,2,delete-node-in-a-bst,0,1
-451,Sort Characters By Frequency,2,sort-characters-by-frequency,0,0
+451,Sort Characters By Frequency,2,sort-characters-by-frequency,0,1
 452,Minimum Number of Arrows to Burst Balloons,2,minimum-number-of-arrows-to-burst-balloons,0,0
 453,Minimum Moves to Equal Array Elements,2,minimum-moves-to-equal-array-elements,0,0
 454,4Sum II,2,4sum-ii,0,0
