@@ -20,7 +20,7 @@ My daily challenge on leetcode since 2021/09/06.
 |[📎](src/q_1_50/q0006.hpp) [📝](src/q_1_50/q0006_unittest.hpp)|6|[ZigZag Conversion](https://leetcode.com/problems/zigzag-conversion/)|Medium|
 |[📎](src/q_1_50/q0007.hpp) [📝](src/q_1_50/q0007_unittest.hpp)|7|[Reverse Integer](https://leetcode.com/problems/reverse-integer/)|Medium|
 |[📎](src/q_1_50/q0008.hpp) [📝](src/q_1_50/q0008_unittest.hpp)|8|[String to Integer (atoi)](https://leetcode.com/problems/string-to-integer-atoi/)|Medium|
-||9|[Palindrome Number](https://leetcode.com/problems/palindrome-number/)|Easy|
+|[📎](src/q_1_50/q0009.hpp) [📝](src/q_1_50/q0009_unittest.hpp)|9|[Palindrome Number](https://leetcode.com/problems/palindrome-number/)|Easy|
 ||10|[Regular Expression Matching](https://leetcode.com/problems/regular-expression-matching/)|Hard|
 |[📎](src/q_1_50/q0011.hpp) [📝](src/q_1_50/q0011_unittest.hpp)|11|[Container With Most Water](https://leetcode.com/problems/container-with-most-water/)|Medium|
 ||12|[Integer to Roman](https://leetcode.com/problems/integer-to-roman/)|Medium|
@@ -2098,6 +2098,7 @@ My daily challenge on leetcode since 2021/09/06.
 
 |Time|#|</>|Question Title|Difficulty|
 |:--|--:|:-:|:--|:--|
+|2021-10-10 13:56|9|[📎](src/q_1_50/q0009.hpp) [📝](src/q_1_50/q0009_unittest.hpp)|[Palindrome Number](https://leetcode.com/problems/palindrome-number/)|Easy|
 |2021-10-10 13:46|6|[📎](src/q_1_50/q0006.hpp) [📝](src/q_1_50/q0006_unittest.hpp)|[ZigZag Conversion](https://leetcode.com/problems/zigzag-conversion/)|Medium|
 |2021-10-10 13:37|509|[📎](src/q_501_550/q0509.hpp) [📝](src/q_501_550/q0509_unittest.hpp)|[Fibonacci Number](https://leetcode.com/problems/fibonacci-number/)|Easy|
 |2021-10-09 17:09|8|[📎](src/q_1_50/q0008.hpp) [📝](src/q_1_50/q0008_unittest.hpp)|[String to Integer (atoi)](https://leetcode.com/problems/string-to-integer-atoi/)|Medium|
@@ -2122,11 +2123,10 @@ My daily challenge on leetcode since 2021/09/06.
 |2021-10-06 13:01|322|[📎](src/q_301_350/q0322.hpp) [📝](src/q_301_350/q0322_unittest.hpp)|[Coin Change](https://leetcode.com/problems/coin-change/)|Medium|
 |2021-10-06 12:45|343|[📎](src/q_301_350/q0343.hpp) [📝](src/q_301_350/q0343_unittest.hpp)|[Integer Break](https://leetcode.com/problems/integer-break/)|Medium|
 |2021-10-06 12:29|442|[📎](src/q_401_450/q0442.hpp) [📝](src/q_401_450/q0442_unittest.hpp)|[Find All Duplicates in an Array](https://leetcode.com/problems/find-all-duplicates-in-an-array/)|Medium|
-|2021-10-06 01:12|762|[📎](src/q_751_800/q0762.hpp) [📝](src/q_751_800/q0762_unittest.hpp)|[Prime Number of Set Bits in Binary Representation](https://leetcode.com/problems/prime-number-of-set-bits-in-binary-representation/)|Easy|
 
 ## Previous Logs
 
 |Month|Submissions|Easy|Medium|Hard|
 |:--|:--|:--|:--|:--|
-|[October_2021](./assets/October_2021.md)|60|13|39|8|
+|[October_2021](./assets/October_2021.md)|61|14|39|8|
 |[September_2021](./assets/September_2021.md)|133|55|71|7|
