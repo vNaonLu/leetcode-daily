@@ -4,7 +4,7 @@ id,title,level,slug,paid,done
 3,Longest Substring Without Repeating Characters,2,longest-substring-without-repeating-characters,0,1
 4,Median of Two Sorted Arrays,3,median-of-two-sorted-arrays,0,1
 5,Longest Palindromic Substring,2,longest-palindromic-substring,0,1
-6,ZigZag Conversion,2,zigzag-conversion,0,0
+6,ZigZag Conversion,2,zigzag-conversion,0,1
 7,Reverse Integer,2,reverse-integer,0,1
 8,String to Integer (atoi),2,string-to-integer-atoi,0,1
 9,Palindrome Number,1,palindrome-number,0,0
