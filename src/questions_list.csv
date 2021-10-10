@@ -507,7 +507,7 @@ id,title,level,slug,paid,done
 506,Relative Ranks,1,relative-ranks,0,0
 507,Perfect Number,1,perfect-number,0,0
 508,Most Frequent Subtree Sum,2,most-frequent-subtree-sum,0,0
-509,Fibonacci Number,1,fibonacci-number,0,0
+509,Fibonacci Number,1,fibonacci-number,0,1
 510,Inorder Successor in BST II,2,inorder-successor-in-bst-ii,1,0
 511,Game Play Analysis I,1,game-play-analysis-i,1,0
 512,Game Play Analysis II,1,game-play-analysis-ii,1,0
