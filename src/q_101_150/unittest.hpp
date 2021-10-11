@@ -8,6 +8,7 @@
 #include "q0104_unittest.hpp"
 #include "q0105_unittest.hpp"
 #include "q0108_unittest.hpp"
+#include "q0110_unittest.hpp"
 #include "q0111_unittest.hpp"
 #include "q0112_unittest.hpp"
 #include "q0113_unittest.hpp"

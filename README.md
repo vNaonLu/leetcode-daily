@@ -121,7 +121,7 @@ My daily challenge on leetcode since 2021/09/06.
 ||107|[Binary Tree Level Order Traversal II](https://leetcode.com/problems/binary-tree-level-order-traversal-ii/)|Medium|
 |[📎](src/q_101_150/q0108.hpp) [📝](src/q_101_150/q0108_unittest.hpp)|108|[Convert Sorted Array to Binary Search Tree](https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree/)|Easy|
 ||109|[Convert Sorted List to Binary Search Tree](https://leetcode.com/problems/convert-sorted-list-to-binary-search-tree/)|Medium|
-||110|[Balanced Binary Tree](https://leetcode.com/problems/balanced-binary-tree/)|Easy|
+|[📎](src/q_101_150/q0110.hpp) [📝](src/q_101_150/q0110_unittest.hpp)|110|[Balanced Binary Tree](https://leetcode.com/problems/balanced-binary-tree/)|Easy|
 |[📎](src/q_101_150/q0111.hpp) [📝](src/q_101_150/q0111_unittest.hpp)|111|[Minimum Depth of Binary Tree](https://leetcode.com/problems/minimum-depth-of-binary-tree/)|Easy|
 |[📎](src/q_101_150/q0112.hpp) [📝](src/q_101_150/q0112_unittest.hpp)|112|[Path Sum](https://leetcode.com/problems/path-sum/)|Easy|
 |[📎](src/q_101_150/q0113.hpp) [📝](src/q_101_150/q0113_unittest.hpp)|113|[Path Sum II](https://leetcode.com/problems/path-sum-ii/)|Medium|
@@ -2098,6 +2098,7 @@ My daily challenge on leetcode since 2021/09/06.
 
 |Time|#|</>|Question Title|Difficulty|
 |:--|--:|:-:|:--|:--|
+|2021-10-11 18:09|110|[📎](src/q_101_150/q0110.hpp) [📝](src/q_101_150/q0110_unittest.hpp)|[Balanced Binary Tree](https://leetcode.com/problems/balanced-binary-tree/)|Easy|
 |2021-10-11 17:55|111|[📎](src/q_101_150/q0111.hpp) [📝](src/q_101_150/q0111_unittest.hpp)|[Minimum Depth of Binary Tree](https://leetcode.com/problems/minimum-depth-of-binary-tree/)|Easy|
 |2021-10-11 17:49|114|[📎](src/q_101_150/q0114.hpp) [📝](src/q_101_150/q0114_unittest.hpp)|[Flatten Binary Tree to Linked List](https://leetcode.com/problems/flatten-binary-tree-to-linked-list/)|Medium|
 |2021-10-11 17:31|12|[📎](src/q_1_50/q0012.hpp) [📝](src/q_1_50/q0012_unittest.hpp)|[Integer to Roman](https://leetcode.com/problems/integer-to-roman/)|Medium|
@@ -2122,11 +2123,10 @@ My daily challenge on leetcode since 2021/09/06.
 |2021-10-08 12:18|208|[📎](src/q_201_250/q0208.hpp) [📝](src/q_201_250/q0208_unittest.hpp)|[Implement Trie (Prefix Tree)](https://leetcode.com/problems/implement-trie-prefix-tree/)|Medium|
 |2021-10-07 10:57|841|[📎](src/q_801_850/q0841.hpp) [📝](src/q_801_850/q0841_unittest.hpp)|[Keys and Rooms](https://leetcode.com/problems/keys-and-rooms/)|Medium|
 |2021-10-07 10:32|1557|[📎](src/q_1551_1600/q1557.hpp) [📝](src/q_1551_1600/q1557_unittest.hpp)|[Minimum Number of Vertices to Reach All Nodes](https://leetcode.com/problems/minimum-number-of-vertices-to-reach-all-nodes/)|Medium|
-|2021-10-07 10:11|997|[📎](src/q_951_1000/q0997.hpp) [📝](src/q_951_1000/q0997_unittest.hpp)|[Find the Town Judge](https://leetcode.com/problems/find-the-town-judge/)|Easy|
 
 ## Previous Logs
 
 |Month|Submissions|Easy|Medium|Hard|
 |:--|:--|:--|:--|:--|
-|[October_2021](./assets/October_2021.md)|67|17|41|9|
+|[October_2021](./assets/October_2021.md)|68|18|41|9|
 |[September_2021](./assets/September_2021.md)|133|55|71|7|
