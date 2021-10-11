@@ -334,6 +334,8 @@ class LeetCodeQuestion:
         ("&ldquo;", "“"),                                           # “
         ("&rdquo;", "”"),                                           # ”
 
+        (" *<blockquote>(?P<content>[\w\W]*?)<\/blockquote>",
+         lambda match: match.group("content")),
         (" *<p>(?P<content>[\w\W]*?)<\/p>",
          lambda match: match.group("content")),
         (" *<ul>(?P<content>[\w\W]*?)<\/ul>",
