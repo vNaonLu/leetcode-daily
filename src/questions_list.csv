@@ -109,7 +109,7 @@ id,title,level,slug,paid,done
 108,Convert Sorted Array to Binary Search Tree,1,convert-sorted-array-to-binary-search-tree,0,1
 109,Convert Sorted List to Binary Search Tree,2,convert-sorted-list-to-binary-search-tree,0,0
 110,Balanced Binary Tree,1,balanced-binary-tree,0,0
-111,Minimum Depth of Binary Tree,1,minimum-depth-of-binary-tree,0,0
+111,Minimum Depth of Binary Tree,1,minimum-depth-of-binary-tree,0,1
 112,Path Sum,1,path-sum,0,1
 113,Path Sum II,2,path-sum-ii,0,1
 114,Flatten Binary Tree to Linked List,2,flatten-binary-tree-to-linked-list,0,1
