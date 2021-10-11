@@ -45,16 +45,11 @@ TEST(q543, sample_input02) {
   EXPECT_EQ(solver.diameterOfBinaryTree(root), exp);
 }
 
-// TEST(q543, input01) {
-//   l543::Solution solver;
-//   TreeNode* root = TreeNode::generate({{4,
-//                                         -7, -3,
-//                                         NULL_TREENODE, NULL_TREENODE, -9, -3,
-//                                         NULL_TREENODE, NULL_TREENODE, NULL_TREENODE, NULL_TREENODE, 9, -7, -4, NULL_TREENODE,
-//                                         NULL_TREENODE, NULL_TREENODE, NULL_TREENODE, NULL_TREENODE, NULL_TREENODE, NULL_TREENODE, NULL_TREENODE, NULL_TREENODE, 6, NULL_TREENODE, -6, -6, NULL_TREENODE, NULL_TREENODE, 
-//                                         0, 6, 5, NULL_TREENODE, 9, NULL_TREENODE, NULL_TREENODE, -1, -4, NULL_TREENODE, NULL_TREENODE, NULL_TREENODE, -2}});
-//   int exp = 1;
-//   EXPECT_EQ(solver.diameterOfBinaryTree(root), exp);
-// }
+TEST(q543, input01) {
+  l543::Solution solver;
+  TreeNode* root = TreeNode::generate({4,-7,-3,NULL_TREENODE,NULL_TREENODE,-9,-3,9,-7,-4,NULL_TREENODE,6,NULL_TREENODE,-6,-6,NULL_TREENODE,NULL_TREENODE,0,6,5,NULL_TREENODE,9,NULL_TREENODE,NULL_TREENODE,-1,-4,NULL_TREENODE,NULL_TREENODE,NULL_TREENODE,-2});
+  int exp = 8;
+  EXPECT_EQ(solver.diameterOfBinaryTree(root), exp);
+}
 
 #endif

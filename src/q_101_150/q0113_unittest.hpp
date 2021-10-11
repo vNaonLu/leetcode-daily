@@ -32,7 +32,7 @@ using namespace std;
 
 TEST(q113, sample_input01) {
   l113::Solution solver;
-  TreeNode* root = TreeNode::generate({5, 4, 8, 11, NULL_TREENODE, 13, 4, 7, 2, NULL_TREENODE, NULL_TREENODE, NULL_TREENODE, NULL_TREENODE, 5, 1});
+  TreeNode* root = TreeNode::generate({5, 4, 8, 11, NULL_TREENODE, 13, 4, 7, 2, NULL_TREENODE, NULL_TREENODE, 5, 1});
   int targetSum = 22;
   vector<vector<int>> exp = {{5, 4, 11, 2}, {5, 8, 4, 5}};
   EXPECT_EQ(solver.pathSum(root, targetSum), exp);

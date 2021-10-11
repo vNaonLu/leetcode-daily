@@ -42,7 +42,7 @@ using namespace std;
 
 TEST(q501, sample_input01) {
   l501::Solution solver;
-  TreeNode* root = TreeNode::generate({1, NULL_TREENODE, 2, NULL_TREENODE, NULL_TREENODE, 2});
+  TreeNode* root = TreeNode::generate({1, NULL_TREENODE, 2, 2});
   vector<int> exp = {2};
   // Try EXPECT_EQ_ANY_ORDER_RECURSIVE
   // if the element is also matched in any order.

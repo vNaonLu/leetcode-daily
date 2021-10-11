@@ -22,7 +22,7 @@ using namespace std;
 */
 
 TEST(q94, sample_input01) {
-  TreeNode *root = TreeNode::generate({1, NULL_TREENODE, 2, NULL_TREENODE, NULL_TREENODE, 3});
+  TreeNode *root = TreeNode::generate({1, NULL_TREENODE, 2, 3});
   vector<int> exp = {1, 3, 2};
   l94::Solution solver;
   EXPECT_EQ(solver.inorderTraversal(root), exp);

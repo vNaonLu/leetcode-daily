@@ -4,6 +4,7 @@
 #include <initializer_list>
 #include <iostream>
 #include <limits>
+#include <queue>
 #include <vector>
 
 using namespace std;
@@ -52,11 +53,27 @@ class TreeNode final {
  private:
   static vector<vector<TreeNode>> keep_;
 
-  static TreeNode *build_tree_(vector<TreeNode> &v, int current = 0) {
-    if (current >= v.size() || v[current].is_null) return nullptr;
-    v[current].left = build_tree_(v, 2 * current + 1);
-    v[current].right = build_tree_(v, 2 * current + 2);
-    return &v[current];
+  inline static TreeNode *build_tree_(vector<TreeNode> &v, int current = 0) {
+    TreeNode *res = nullptr;
+    vector<TreeNode>::iterator p = v.begin();
+    if (p != v.end() && !(*p).is_null) {
+      queue<TreeNode *> q;
+      q.push(&(*p));
+      res = &(*p);
+      while (!q.empty() && p != v.end()) {
+        TreeNode *node = q.front();
+        q.pop();
+        if (p != v.end() && p + 1 != v.end() && !(*++p).is_null) {
+          q.push(&(*p));
+          node->left = &(*p);
+        }
+        if (p != v.end() && p + 1 != v.end() && !(*++p).is_null) {
+          q.push(&(*p));
+          node->right = &(*p);
+        }
+      }
+    }
+    return res;
   }
 
  public:
