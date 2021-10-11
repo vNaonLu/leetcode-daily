@@ -125,7 +125,7 @@ My daily challenge on leetcode since 2021/09/06.
 ||111|[Minimum Depth of Binary Tree](https://leetcode.com/problems/minimum-depth-of-binary-tree/)|Easy|
 |[📎](src/q_101_150/q0112.hpp) [📝](src/q_101_150/q0112_unittest.hpp)|112|[Path Sum](https://leetcode.com/problems/path-sum/)|Easy|
 |[📎](src/q_101_150/q0113.hpp) [📝](src/q_101_150/q0113_unittest.hpp)|113|[Path Sum II](https://leetcode.com/problems/path-sum-ii/)|Medium|
-||114|[Flatten Binary Tree to Linked List](https://leetcode.com/problems/flatten-binary-tree-to-linked-list/)|Medium|
+|[📎](src/q_101_150/q0114.hpp) [📝](src/q_101_150/q0114_unittest.hpp)|114|[Flatten Binary Tree to Linked List](https://leetcode.com/problems/flatten-binary-tree-to-linked-list/)|Medium|
 |[📎](src/q_101_150/q0115.hpp) [📝](src/q_101_150/q0115_unittest.hpp)|115|[Distinct Subsequences](https://leetcode.com/problems/distinct-subsequences/)|Hard|
 |[📎](src/q_101_150/q0116.hpp) [📝](src/q_101_150/q0116_unittest.hpp)|116|[Populating Next Right Pointers in Each Node](https://leetcode.com/problems/populating-next-right-pointers-in-each-node/)|Medium|
 |[📎](src/q_101_150/q0117.hpp) [📝](src/q_101_150/q0117_unittest.hpp)|117|[Populating Next Right Pointers in Each Node II](https://leetcode.com/problems/populating-next-right-pointers-in-each-node-ii/)|Medium|
@@ -2098,6 +2098,7 @@ My daily challenge on leetcode since 2021/09/06.
 
 |Time|#|</>|Question Title|Difficulty|
 |:--|--:|:-:|:--|:--|
+|2021-10-11 17:49|114|[📎](src/q_101_150/q0114.hpp) [📝](src/q_101_150/q0114_unittest.hpp)|[Flatten Binary Tree to Linked List](https://leetcode.com/problems/flatten-binary-tree-to-linked-list/)|Medium|
 |2021-10-11 17:31|12|[📎](src/q_1_50/q0012.hpp) [📝](src/q_1_50/q0012_unittest.hpp)|[Integer to Roman](https://leetcode.com/problems/integer-to-roman/)|Medium|
 |2021-10-11 15:07|746|[📎](src/q_701_750/q0746.hpp) [📝](src/q_701_750/q0746_unittest.hpp)|[Min Cost Climbing Stairs](https://leetcode.com/problems/min-cost-climbing-stairs/)|Easy|
 |2021-10-11 14:53|543|[📎](src/q_501_550/q0543.hpp) [📝](src/q_501_550/q0543_unittest.hpp)|[Diameter of Binary Tree](https://leetcode.com/problems/diameter-of-binary-tree/)|Easy|
@@ -2122,11 +2123,10 @@ My daily challenge on leetcode since 2021/09/06.
 |2021-10-07 10:32|1557|[📎](src/q_1551_1600/q1557.hpp) [📝](src/q_1551_1600/q1557_unittest.hpp)|[Minimum Number of Vertices to Reach All Nodes](https://leetcode.com/problems/minimum-number-of-vertices-to-reach-all-nodes/)|Medium|
 |2021-10-07 10:11|997|[📎](src/q_951_1000/q0997.hpp) [📝](src/q_951_1000/q0997_unittest.hpp)|[Find the Town Judge](https://leetcode.com/problems/find-the-town-judge/)|Easy|
 |2021-10-06 13:54|297|[📎](src/q_251_300/q0297.hpp) [📝](src/q_251_300/q0297_unittest.hpp)|[Serialize and Deserialize Binary Tree](https://leetcode.com/problems/serialize-and-deserialize-binary-tree/)|Hard|
-|2021-10-06 13:27|236|[📎](src/q_201_250/q0236.hpp) [📝](src/q_201_250/q0236_unittest.hpp)|[Lowest Common Ancestor of a Binary Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/)|Medium|
 
 ## Previous Logs
 
 |Month|Submissions|Easy|Medium|Hard|
 |:--|:--|:--|:--|:--|
-|[October_2021](./assets/October_2021.md)|65|16|40|9|
+|[October_2021](./assets/October_2021.md)|66|16|41|9|
 |[September_2021](./assets/September_2021.md)|133|55|71|7|

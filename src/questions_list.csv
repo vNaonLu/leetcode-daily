@@ -112,7 +112,7 @@ id,title,level,slug,paid,done
 111,Minimum Depth of Binary Tree,1,minimum-depth-of-binary-tree,0,0
 112,Path Sum,1,path-sum,0,1
 113,Path Sum II,2,path-sum-ii,0,1
-114,Flatten Binary Tree to Linked List,2,flatten-binary-tree-to-linked-list,0,0
+114,Flatten Binary Tree to Linked List,2,flatten-binary-tree-to-linked-list,0,1
 115,Distinct Subsequences,3,distinct-subsequences,0,1
 116,Populating Next Right Pointers in Each Node,2,populating-next-right-pointers-in-each-node,0,1
 117,Populating Next Right Pointers in Each Node II,2,populating-next-right-pointers-in-each-node-ii,0,1
