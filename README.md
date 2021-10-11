@@ -566,7 +566,7 @@ My daily challenge on leetcode since 2021/09/06.
 ||540|[Single Element in a Sorted Array](https://leetcode.com/problems/single-element-in-a-sorted-array/)|Medium|
 ||541|[Reverse String II](https://leetcode.com/problems/reverse-string-ii/)|Easy|
 |[📎](src/q_501_550/q0542.hpp) [📝](src/q_501_550/q0542_unittest.hpp)|542|[01 Matrix](https://leetcode.com/problems/01-matrix/)|Medium|
-||543|[Diameter of Binary Tree](https://leetcode.com/problems/diameter-of-binary-tree/)|Easy|
+|[📎](src/q_501_550/q0543.hpp) [📝](src/q_501_550/q0543_unittest.hpp)|543|[Diameter of Binary Tree](https://leetcode.com/problems/diameter-of-binary-tree/)|Easy|
 |🔒|544|[Output Contest Matches](https://leetcode.com/problems/output-contest-matches/)|Medium|
 |🔒|545|[Boundary of Binary Tree](https://leetcode.com/problems/boundary-of-binary-tree/)|Medium|
 ||546|[Remove Boxes](https://leetcode.com/problems/remove-boxes/)|Hard|
@@ -2098,6 +2098,7 @@ My daily challenge on leetcode since 2021/09/06.
 
 |Time|#|</>|Question Title|Difficulty|
 |:--|--:|:-:|:--|:--|
+|2021-10-11 14:53|543|[📎](src/q_501_550/q0543.hpp) [📝](src/q_501_550/q0543_unittest.hpp)|[Diameter of Binary Tree](https://leetcode.com/problems/diameter-of-binary-tree/)|Easy|
 |2021-10-10 14:20|10|[📎](src/q_1_50/q0010.hpp) [📝](src/q_1_50/q0010_unittest.hpp)|[Regular Expression Matching](https://leetcode.com/problems/regular-expression-matching/)|Hard|
 |2021-10-10 13:56|9|[📎](src/q_1_50/q0009.hpp) [📝](src/q_1_50/q0009_unittest.hpp)|[Palindrome Number](https://leetcode.com/problems/palindrome-number/)|Easy|
 |2021-10-10 13:46|6|[📎](src/q_1_50/q0006.hpp) [📝](src/q_1_50/q0006_unittest.hpp)|[ZigZag Conversion](https://leetcode.com/problems/zigzag-conversion/)|Medium|
@@ -2122,11 +2123,10 @@ My daily challenge on leetcode since 2021/09/06.
 |2021-10-06 13:27|236|[📎](src/q_201_250/q0236.hpp) [📝](src/q_201_250/q0236_unittest.hpp)|[Lowest Common Ancestor of a Binary Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/)|Medium|
 |2021-10-06 13:11|72|[📎](src/q_51_100/q0072.hpp) [📝](src/q_51_100/q0072_unittest.hpp)|[Edit Distance](https://leetcode.com/problems/edit-distance/)|Hard|
 |2021-10-06 13:01|322|[📎](src/q_301_350/q0322.hpp) [📝](src/q_301_350/q0322_unittest.hpp)|[Coin Change](https://leetcode.com/problems/coin-change/)|Medium|
-|2021-10-06 12:45|343|[📎](src/q_301_350/q0343.hpp) [📝](src/q_301_350/q0343_unittest.hpp)|[Integer Break](https://leetcode.com/problems/integer-break/)|Medium|
 
 ## Previous Logs
 
 |Month|Submissions|Easy|Medium|Hard|
 |:--|:--|:--|:--|:--|
-|[October_2021](./assets/October_2021.md)|62|14|39|9|
+|[October_2021](./assets/October_2021.md)|63|15|39|9|
 |[September_2021](./assets/September_2021.md)|133|55|71|7|

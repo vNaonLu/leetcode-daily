@@ -541,7 +541,7 @@ id,title,level,slug,paid,done
 540,Single Element in a Sorted Array,2,single-element-in-a-sorted-array,0,0
 541,Reverse String II,1,reverse-string-ii,0,0
 542,01 Matrix,2,01-matrix,0,1
-543,Diameter of Binary Tree,1,diameter-of-binary-tree,0,0
+543,Diameter of Binary Tree,1,diameter-of-binary-tree,0,1
 544,Output Contest Matches,2,output-contest-matches,1,0
 545,Boundary of Binary Tree,2,boundary-of-binary-tree,1,0
 546,Remove Boxes,3,remove-boxes,0,0
