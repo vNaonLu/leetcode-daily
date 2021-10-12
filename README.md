@@ -1940,7 +1940,7 @@ My daily challenge on leetcode since 2021/09/06.
 ||1884|[Egg Drop With 2 Eggs and N Floors](https://leetcode.com/problems/egg-drop-with-2-eggs-and-n-floors/)|Medium|
 |🔒|1885|[Count Pairs in Two Arrays](https://leetcode.com/problems/count-pairs-in-two-arrays/)|Medium|
 ||1886|[Determine Whether Matrix Can Be Obtained By Rotation](https://leetcode.com/problems/determine-whether-matrix-can-be-obtained-by-rotation/)|Easy|
-||1887|[Reduction Operations to Make the Array Elements Equal](https://leetcode.com/problems/reduction-operations-to-make-the-array-elements-equal/)|Medium|
+|[📎](src/q_1851_1900/q1887.hpp) [📝](src/q_1851_1900/q1887_unittest.hpp)|1887|[Reduction Operations to Make the Array Elements Equal](https://leetcode.com/problems/reduction-operations-to-make-the-array-elements-equal/)|Medium|
 ||1888|[Minimum Number of Flips to Make the Binary String Alternating](https://leetcode.com/problems/minimum-number-of-flips-to-make-the-binary-string-alternating/)|Medium|
 ||1889|[Minimum Space Wasted From Packaging](https://leetcode.com/problems/minimum-space-wasted-from-packaging/)|Hard|
 |🔒|1890|[The Latest Login in 2020](https://leetcode.com/problems/the-latest-login-in-2020/)|Easy|
@@ -2102,6 +2102,7 @@ My daily challenge on leetcode since 2021/09/06.
 
 |Time|#|</>|Question Title|Difficulty|
 |:--|--:|:-:|:--|:--|
+|2021-10-12 12:18|1887|[📎](src/q_1851_1900/q1887.hpp) [📝](src/q_1851_1900/q1887_unittest.hpp)|[Reduction Operations to Make the Array Elements Equal](https://leetcode.com/problems/reduction-operations-to-make-the-array-elements-equal/)|Medium|
 |2021-10-12 11:52|740|[📎](src/q_701_750/q0740.hpp) [📝](src/q_701_750/q0740_unittest.hpp)|[Delete and Earn](https://leetcode.com/problems/delete-and-earn/)|Medium|
 |2021-10-12 11:20|374|[📎](src/q_351_400/q0374.hpp) [📝](src/q_351_400/q0374_unittest.hpp)|[Guess Number Higher or Lower](https://leetcode.com/problems/guess-number-higher-or-lower/)|Easy|
 |2021-10-11 18:09|110|[📎](src/q_101_150/q0110.hpp) [📝](src/q_101_150/q0110_unittest.hpp)|[Balanced Binary Tree](https://leetcode.com/problems/balanced-binary-tree/)|Easy|
@@ -2126,11 +2127,10 @@ My daily challenge on leetcode since 2021/09/06.
 |2021-10-08 13:09|347|[📎](src/q_301_350/q0347.hpp) [📝](src/q_301_350/q0347_unittest.hpp)|[Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/)|Medium|
 |2021-10-08 12:56|215|[📎](src/q_201_250/q0215.hpp) [📝](src/q_201_250/q0215_unittest.hpp)|[Kth Largest Element in an Array](https://leetcode.com/problems/kth-largest-element-in-an-array/)|Medium|
 |2021-10-08 12:48|384|[📎](src/q_351_400/q0384.hpp) [📝](src/q_351_400/q0384_unittest.hpp)|[Shuffle an Array](https://leetcode.com/problems/shuffle-an-array/)|Medium|
-|2021-10-08 12:18|208|[📎](src/q_201_250/q0208.hpp) [📝](src/q_201_250/q0208_unittest.hpp)|[Implement Trie (Prefix Tree)](https://leetcode.com/problems/implement-trie-prefix-tree/)|Medium|
 
 ## Previous Logs
 
 |Month|Submissions|Easy|Medium|Hard|
 |:--|:--|:--|:--|:--|
-|[October_2021](./assets/October_2021.md)|70|19|42|9|
+|[October_2021](./assets/October_2021.md)|71|19|43|9|
 |[September_2021](./assets/September_2021.md)|133|55|71|7|
