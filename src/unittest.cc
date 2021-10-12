@@ -32,6 +32,7 @@
 #include "q_1801_1850/unittest.hpp"
 #include "q_1851_1900/unittest.hpp"
 #include "q_1951_2000/unittest.hpp"
+#include "q_2001_2050/unittest.hpp"
 
 int main(int argc, char **argv) {
   ::testing::InitGoogleTest(&argc, argv);
