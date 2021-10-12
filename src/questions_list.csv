@@ -372,7 +372,7 @@ id,title,level,slug,paid,done
 371,Sum of Two Integers,2,sum-of-two-integers,0,0
 372,Super Pow,2,super-pow,0,0
 373,Find K Pairs with Smallest Sums,2,find-k-pairs-with-smallest-sums,0,0
-374,Guess Number Higher or Lower,1,guess-number-higher-or-lower,0,0
+374,Guess Number Higher or Lower,1,guess-number-higher-or-lower,0,1
 375,Guess Number Higher or Lower II,2,guess-number-higher-or-lower-ii,0,0
 376,Wiggle Subsequence,2,wiggle-subsequence,0,0
 377,Combination Sum IV,2,combination-sum-iv,0,0
@@ -2030,3 +2030,7 @@ id,title,level,slug,paid,done
 2029,Stone Game IX,2,stone-game-ix,0,0
 2030,Smallest K-Length Subsequence With Occurrences of a Letter,3,smallest-k-length-subsequence-with-occurrences-of-a-letter,0,0
 2031,Count Subarrays With More Ones Than Zeros,2,count-subarrays-with-more-ones-than-zeros,1,0
+2032,Two Out of Three,1,two-out-of-three,0,0
+2033,Minimum Operations to Make a Uni-Value Grid,2,minimum-operations-to-make-a-uni-value-grid,0,0
+2034,Stock Price Fluctuation ,2,stock-price-fluctuation,0,0
+2035,Partition Array Into Two Arrays to Minimize Sum Difference,3,partition-array-into-two-arrays-to-minimize-sum-difference,0,0
