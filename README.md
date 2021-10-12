@@ -763,7 +763,7 @@ My daily challenge on leetcode since 2021/09/06.
 |🔒|737|[Sentence Similarity II](https://leetcode.com/problems/sentence-similarity-ii/)|Medium|
 ||738|[Monotone Increasing Digits](https://leetcode.com/problems/monotone-increasing-digits/)|Medium|
 ||739|[Daily Temperatures](https://leetcode.com/problems/daily-temperatures/)|Medium|
-||740|[Delete and Earn](https://leetcode.com/problems/delete-and-earn/)|Medium|
+|[📎](src/q_701_750/q0740.hpp) [📝](src/q_701_750/q0740_unittest.hpp)|740|[Delete and Earn](https://leetcode.com/problems/delete-and-earn/)|Medium|
 ||741|[Cherry Pickup](https://leetcode.com/problems/cherry-pickup/)|Hard|
 |🔒|742|[Closest Leaf in a Binary Tree](https://leetcode.com/problems/closest-leaf-in-a-binary-tree/)|Medium|
 ||743|[Network Delay Time](https://leetcode.com/problems/network-delay-time/)|Medium|
@@ -2102,6 +2102,7 @@ My daily challenge on leetcode since 2021/09/06.
 
 |Time|#|</>|Question Title|Difficulty|
 |:--|--:|:-:|:--|:--|
+|2021-10-12 11:52|740|[📎](src/q_701_750/q0740.hpp) [📝](src/q_701_750/q0740_unittest.hpp)|[Delete and Earn](https://leetcode.com/problems/delete-and-earn/)|Medium|
 |2021-10-12 11:20|374|[📎](src/q_351_400/q0374.hpp) [📝](src/q_351_400/q0374_unittest.hpp)|[Guess Number Higher or Lower](https://leetcode.com/problems/guess-number-higher-or-lower/)|Easy|
 |2021-10-11 18:09|110|[📎](src/q_101_150/q0110.hpp) [📝](src/q_101_150/q0110_unittest.hpp)|[Balanced Binary Tree](https://leetcode.com/problems/balanced-binary-tree/)|Easy|
 |2021-10-11 17:55|111|[📎](src/q_101_150/q0111.hpp) [📝](src/q_101_150/q0111_unittest.hpp)|[Minimum Depth of Binary Tree](https://leetcode.com/problems/minimum-depth-of-binary-tree/)|Easy|
@@ -2126,11 +2127,10 @@ My daily challenge on leetcode since 2021/09/06.
 |2021-10-08 12:56|215|[📎](src/q_201_250/q0215.hpp) [📝](src/q_201_250/q0215_unittest.hpp)|[Kth Largest Element in an Array](https://leetcode.com/problems/kth-largest-element-in-an-array/)|Medium|
 |2021-10-08 12:48|384|[📎](src/q_351_400/q0384.hpp) [📝](src/q_351_400/q0384_unittest.hpp)|[Shuffle an Array](https://leetcode.com/problems/shuffle-an-array/)|Medium|
 |2021-10-08 12:18|208|[📎](src/q_201_250/q0208.hpp) [📝](src/q_201_250/q0208_unittest.hpp)|[Implement Trie (Prefix Tree)](https://leetcode.com/problems/implement-trie-prefix-tree/)|Medium|
-|2021-10-07 10:57|841|[📎](src/q_801_850/q0841.hpp) [📝](src/q_801_850/q0841_unittest.hpp)|[Keys and Rooms](https://leetcode.com/problems/keys-and-rooms/)|Medium|
 
 ## Previous Logs
 
 |Month|Submissions|Easy|Medium|Hard|
 |:--|:--|:--|:--|:--|
-|[October_2021](./assets/October_2021.md)|69|19|41|9|
+|[October_2021](./assets/October_2021.md)|70|19|42|9|
 |[September_2021](./assets/September_2021.md)|133|55|71|7|
