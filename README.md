@@ -881,7 +881,7 @@ My daily challenge on leetcode since 2021/09/06.
 ||849|[Maximize Distance to Closest Person](https://leetcode.com/problems/maximize-distance-to-closest-person/)|Medium|
 ||850|[Rectangle Area II](https://leetcode.com/problems/rectangle-area-ii/)|Hard|
 ||851|[Loud and Rich](https://leetcode.com/problems/loud-and-rich/)|Medium|
-||852|[Peak Index in a Mountain Array](https://leetcode.com/problems/peak-index-in-a-mountain-array/)|Easy|
+|[📎](src/q_851_900/q0852.hpp) [📝](src/q_851_900/q0852_unittest.hpp)|852|[Peak Index in a Mountain Array](https://leetcode.com/problems/peak-index-in-a-mountain-array/)|Easy|
 ||853|[Car Fleet](https://leetcode.com/problems/car-fleet/)|Medium|
 ||854|[K-Similar Strings](https://leetcode.com/problems/k-similar-strings/)|Hard|
 ||855|[Exam Room](https://leetcode.com/problems/exam-room/)|Medium|
@@ -2102,6 +2102,7 @@ My daily challenge on leetcode since 2021/09/06.
 
 |Time|#|</>|Question Title|Difficulty|
 |:--|--:|:-:|:--|:--|
+|2021-10-13 13:21|852|[📎](src/q_851_900/q0852.hpp) [📝](src/q_851_900/q0852_unittest.hpp)|[Peak Index in a Mountain Array](https://leetcode.com/problems/peak-index-in-a-mountain-array/)|Easy|
 |2021-10-13 12:55|946|[📎](src/q_901_950/q0946.hpp) [📝](src/q_901_950/q0946_unittest.hpp)|[Validate Stack Sequences](https://leetcode.com/problems/validate-stack-sequences/)|Medium|
 |2021-10-13 12:46|1822|[📎](src/q_1801_1850/q1822.hpp) [📝](src/q_1801_1850/q1822_unittest.hpp)|[Sign of the Product of an Array](https://leetcode.com/problems/sign-of-the-product-of-an-array/)|Easy|
 |2021-10-13 12:39|1534|[📎](src/q_1501_1550/q1534.hpp) [📝](src/q_1501_1550/q1534_unittest.hpp)|[Count Good Triplets](https://leetcode.com/problems/count-good-triplets/)|Easy|
@@ -2126,11 +2127,10 @@ My daily challenge on leetcode since 2021/09/06.
 |2021-10-09 15:38|212|[📎](src/q_201_250/q0212.hpp) [📝](src/q_201_250/q0212_unittest.hpp)|[Word Search II](https://leetcode.com/problems/word-search-ii/)|Hard|
 |2021-10-09 15:18|973|[📎](src/q_951_1000/q0973.hpp) [📝](src/q_951_1000/q0973_unittest.hpp)|[K Closest Points to Origin](https://leetcode.com/problems/k-closest-points-to-origin/)|Medium|
 |2021-10-09 15:05|451|[📎](src/q_451_500/q0451.hpp) [📝](src/q_451_500/q0451_unittest.hpp)|[Sort Characters By Frequency](https://leetcode.com/problems/sort-characters-by-frequency/)|Medium|
-|2021-10-09 14:42|149|[📎](src/q_101_150/q0149.hpp) [📝](src/q_101_150/q0149_unittest.hpp)|[Max Points on a Line](https://leetcode.com/problems/max-points-on-a-line/)|Hard|
 
 ## Previous Logs
 
 |Month|Submissions|Easy|Medium|Hard|
 |:--|:--|:--|:--|:--|
-|[October_2021](./assets/October_2021.md)|77|21|47|9|
+|[October_2021](./assets/October_2021.md)|78|22|47|9|
 |[September_2021](./assets/September_2021.md)|133|55|71|7|
