@@ -1875,7 +1875,7 @@ My daily challenge on leetcode since 2021/09/06.
 ||1819|[Number of Different Subsequences GCDs](https://leetcode.com/problems/number-of-different-subsequences-gcds/)|Hard|
 |🔒|1820|[Maximum Number of Accepted Invitations](https://leetcode.com/problems/maximum-number-of-accepted-invitations/)|Medium|
 |🔒|1821|[Find Customers With Positive Revenue this Year](https://leetcode.com/problems/find-customers-with-positive-revenue-this-year/)|Easy|
-||1822|[Sign of the Product of an Array](https://leetcode.com/problems/sign-of-the-product-of-an-array/)|Easy|
+|[📎](src/q_1801_1850/q1822.hpp) [📝](src/q_1801_1850/q1822_unittest.hpp)|1822|[Sign of the Product of an Array](https://leetcode.com/problems/sign-of-the-product-of-an-array/)|Easy|
 |[📎](src/q_1801_1850/q1823.hpp) [📝](src/q_1801_1850/q1823_unittest.hpp)|1823|[Find the Winner of the Circular Game](https://leetcode.com/problems/find-the-winner-of-the-circular-game/)|Medium|
 ||1824|[Minimum Sideway Jumps](https://leetcode.com/problems/minimum-sideway-jumps/)|Medium|
 ||1825|[Finding MK Average](https://leetcode.com/problems/finding-mk-average/)|Hard|
@@ -2102,6 +2102,7 @@ My daily challenge on leetcode since 2021/09/06.
 
 |Time|#|</>|Question Title|Difficulty|
 |:--|--:|:-:|:--|:--|
+|2021-10-13 12:46|1822|[📎](src/q_1801_1850/q1822.hpp) [📝](src/q_1801_1850/q1822_unittest.hpp)|[Sign of the Product of an Array](https://leetcode.com/problems/sign-of-the-product-of-an-array/)|Easy|
 |2021-10-13 12:39|1534|[📎](src/q_1501_1550/q1534.hpp) [📝](src/q_1501_1550/q1534_unittest.hpp)|[Count Good Triplets](https://leetcode.com/problems/count-good-triplets/)|Easy|
 |2021-10-13 12:32|540|[📎](src/q_501_550/q0540.hpp) [📝](src/q_501_550/q0540_unittest.hpp)|[Single Element in a Sorted Array](https://leetcode.com/problems/single-element-in-a-sorted-array/)|Medium|
 |2021-10-13 12:11|1008|[📎](src/q_1001_1050/q1008.hpp) [📝](src/q_1001_1050/q1008_unittest.hpp)|[Construct Binary Search Tree from Preorder Traversal](https://leetcode.com/problems/construct-binary-search-tree-from-preorder-traversal/)|Medium|
@@ -2126,11 +2127,10 @@ My daily challenge on leetcode since 2021/09/06.
 |2021-10-09 15:05|451|[📎](src/q_451_500/q0451.hpp) [📝](src/q_451_500/q0451_unittest.hpp)|[Sort Characters By Frequency](https://leetcode.com/problems/sort-characters-by-frequency/)|Medium|
 |2021-10-09 14:42|149|[📎](src/q_101_150/q0149.hpp) [📝](src/q_101_150/q0149_unittest.hpp)|[Max Points on a Line](https://leetcode.com/problems/max-points-on-a-line/)|Hard|
 |2021-10-09 14:21|202|[📎](src/q_201_250/q0202.hpp) [📝](src/q_201_250/q0202_unittest.hpp)|[Happy Number](https://leetcode.com/problems/happy-number/)|Easy|
-|2021-10-08 16:27|4|[📎](src/q_1_50/q0004.hpp) [📝](src/q_1_50/q0004_unittest.hpp)|[Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays/)|Hard|
 
 ## Previous Logs
 
 |Month|Submissions|Easy|Medium|Hard|
 |:--|:--|:--|:--|:--|
-|[October_2021](./assets/October_2021.md)|75|20|46|9|
+|[October_2021](./assets/October_2021.md)|76|21|46|9|
 |[September_2021](./assets/September_2021.md)|133|55|71|7|
