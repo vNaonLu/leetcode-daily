@@ -1043,7 +1043,7 @@ My daily challenge on leetcode since 2021/09/06.
 ||1005|[Maximize Sum Of Array After K Negations](https://leetcode.com/problems/maximize-sum-of-array-after-k-negations/)|Easy|
 ||1006|[Clumsy Factorial](https://leetcode.com/problems/clumsy-factorial/)|Medium|
 ||1007|[Minimum Domino Rotations For Equal Row](https://leetcode.com/problems/minimum-domino-rotations-for-equal-row/)|Medium|
-||1008|[Construct Binary Search Tree from Preorder Traversal](https://leetcode.com/problems/construct-binary-search-tree-from-preorder-traversal/)|Medium|
+|[📎](src/q_1001_1050/q1008.hpp) [📝](src/q_1001_1050/q1008_unittest.hpp)|1008|[Construct Binary Search Tree from Preorder Traversal](https://leetcode.com/problems/construct-binary-search-tree-from-preorder-traversal/)|Medium|
 ||1009|[Complement of Base 10 Integer](https://leetcode.com/problems/complement-of-base-10-integer/)|Easy|
 ||1010|[Pairs of Songs With Total Durations Divisible by 60](https://leetcode.com/problems/pairs-of-songs-with-total-durations-divisible-by-60/)|Medium|
 ||1011|[Capacity To Ship Packages Within D Days](https://leetcode.com/problems/capacity-to-ship-packages-within-d-days/)|Medium|
@@ -2102,6 +2102,7 @@ My daily challenge on leetcode since 2021/09/06.
 
 |Time|#|</>|Question Title|Difficulty|
 |:--|--:|:-:|:--|:--|
+|2021-10-13 12:11|1008|[📎](src/q_1001_1050/q1008.hpp) [📝](src/q_1001_1050/q1008_unittest.hpp)|[Construct Binary Search Tree from Preorder Traversal](https://leetcode.com/problems/construct-binary-search-tree-from-preorder-traversal/)|Medium|
 |2021-10-12 22:11|2018|[📎](src/q_2001_2050/q2018.hpp) [📝](src/q_2001_2050/q2018_unittest.hpp)|[Check if Word Can Be Placed In Crossword](https://leetcode.com/problems/check-if-word-can-be-placed-in-crossword/)|Medium|
 |2021-10-12 12:18|1887|[📎](src/q_1851_1900/q1887.hpp) [📝](src/q_1851_1900/q1887_unittest.hpp)|[Reduction Operations to Make the Array Elements Equal](https://leetcode.com/problems/reduction-operations-to-make-the-array-elements-equal/)|Medium|
 |2021-10-12 11:52|740|[📎](src/q_701_750/q0740.hpp) [📝](src/q_701_750/q0740_unittest.hpp)|[Delete and Earn](https://leetcode.com/problems/delete-and-earn/)|Medium|
@@ -2126,11 +2127,10 @@ My daily challenge on leetcode since 2021/09/06.
 |2021-10-08 16:27|4|[📎](src/q_1_50/q0004.hpp) [📝](src/q_1_50/q0004_unittest.hpp)|[Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays/)|Hard|
 |2021-10-08 15:55|257|[📎](src/q_251_300/q0257.hpp) [📝](src/q_251_300/q0257_unittest.hpp)|[Binary Tree Paths](https://leetcode.com/problems/binary-tree-paths/)|Easy|
 |2021-10-08 13:09|347|[📎](src/q_301_350/q0347.hpp) [📝](src/q_301_350/q0347_unittest.hpp)|[Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/)|Medium|
-|2021-10-08 12:56|215|[📎](src/q_201_250/q0215.hpp) [📝](src/q_201_250/q0215_unittest.hpp)|[Kth Largest Element in an Array](https://leetcode.com/problems/kth-largest-element-in-an-array/)|Medium|
 
 ## Previous Logs
 
 |Month|Submissions|Easy|Medium|Hard|
 |:--|:--|:--|:--|:--|
-|[October_2021](./assets/October_2021.md)|72|19|44|9|
+|[October_2021](./assets/October_2021.md)|73|19|45|9|
 |[September_2021](./assets/September_2021.md)|133|55|71|7|
