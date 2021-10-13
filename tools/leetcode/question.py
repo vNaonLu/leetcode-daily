@@ -2,6 +2,7 @@ import re
 import regex
 from . import request as LeetCodeRequest
 from .argument import Argument
+from .prettify import Description
 
 
 class SolutionAbstract:
@@ -245,107 +246,6 @@ class Solution:
 
 class LeetCodeQuestion:
 
-    def __sup(match: re.Match):
-        content = "^({})".format(match.group("content"))
-        replmap: dict[str, str] = {
-            "0": "⁰", "1": "¹", "2": "²", "3": "³", "4": "⁴", "5": "⁵",
-            "6": "⁶", "7": "⁷", "8": "⁸", "9": "⁹", "+": "⁺", "-": "⁻",
-            "=": "⁼", "(": "⁽", ")": "⁾",
-            "a": "ᵃ", "b": "ᵇ", "c": "ᶜ", "d": "ᵈ", "e": "ᵉ",
-            "f": "ᶠ", "g": "ᵍ", "h": "ʰ", "i": "ⁱ", "j": "ʲ", "l": "ˡ",
-            "k": "ᵏ", "m": "ᵐ", "n": "ⁿ", "o": "ᵒ", "p": "ᵖ", "r": "ʳ",
-            "s": "ˢ", "t": "ᵗ", "u": "ᵘ", "v": "ᵛ", "w": "ʷ", "x": "ˣ",
-            "y": "ʸ", "z": "ᶻ",
-        }
-        relp: str = ""
-        for c in match.group("content"):
-            if c in replmap:
-                relp += replmap[c]
-            else:
-                relp = None
-                break
-        if relp != None:
-            content = relp
-        return content
-
-    def __sub(match: re.Match):
-        content = "⎽({})".format(match.group("content"))
-        replmap: dict[str, str] = {
-            "0": "₀", "1": "₁", "2": "₂", "3": "₃", "4": "₄", "5": "₅",
-            "6": "₆", "7": "₇", "8": "₈", "9": "₉", "+": "₊", "-": "₋",
-            "=": "₌", "(": "₍", ")": "₎",
-            "a": "ₐ", "d": "ᵈ", "e": "ₑ", "f": "ᶠ", "h": "ₕ",
-            "i": "ᵢ", "j": "ⱼ", "k": "ₖ", "l": "ₗ", "m": "ₘ", "n": "ₙ",
-            "o": "ₒ", "p": "ₚ", "r": "ᵣ", "s": "ₛ", "t": "ₜ", "u": "ᵤ",
-            "v": "ᵥ", "x": "ₓ"
-        }
-        relp: str = ""
-        for c in match.group("content"):
-            if c in replmap:
-                relp += replmap[c]
-            else:
-                relp = None
-                break
-        if relp != None:
-            content = relp
-        return content
-
-    def __math(match: re.Match):
-        repl = [
-            ("[*]", "&times;"),
-            ("==", "="),
-            ("!=", "≠")
-        ]
-        content = match.group("content")
-        for p, r in repl:
-            content = re.sub(p, r, content)
-        return " ‘{}’ ".format(content)
-
-    __repl = [
-        ("&quot;(?P<content>[\w\W]*?)&quot;",                       # " "
-         lambda match: "\"{}\"".format(match.group("content"))),
-        ("&#39;(?P<content>[\w\W]*?)&#39;",                         # ' '
-         lambda match: "'{}'".format(match.group("content"))),
-        (" *<li>(?P<content>[\w\W]*?)<\/li> *",                     # -
-         lambda match: "- {}".format(match.group("content"))),
-
-        (" *<b>(?P<content>[\w\W]*?)<\/b> *",                       # “ ”
-         lambda match: " “{}” ".format(match.group("content"))),
-        (" *<strong>(?P<content>[\w\W]*?)<\/strong> *",             # “ ”
-         lambda match: " “{}” ".format(match.group("content"))),
-        (" *<em>(?P<content>[\w\W]*?)<\/em> *",                     # “ ”
-         lambda match: " “{}” ".format(match.group("content"))),
-
-        ("<img(?P<content>[\w\W]*?)\/>", ""),
-        ("</?div.*?>", ""),
-        ("\n\n", "\n"),
-
-        (" *<code>(?P<content>[\w\W]+?)<\/code> *", __math),        # code
-        ("<sup>(?P<content>[\w\W]+?)<\/sup>", __sup),               # sup
-        ("<sub>(?P<content>[\w\W]+?)<\/sub>", __sub),               # sub
-        ("&nbsp;", ""),                                             # space
-        ("&lt;(?!=)", "<"),                                         # <
-        ("&gt;(?!=)", ">"),                                         # >
-        ("&lt;=", "≤"),                                             # ≤
-        ("&gt;=", "≥"),                                             # ≥
-        ("&le;", "≤"),                                              # ≤
-        ("&ge;", "≥"),                                              # ≥
-        ("&times;", "×"),                                           # ×
-        ("&ldquo;", "“"),                                           # “
-        ("&rdquo;", "”"),                                           # ”
-
-        (" *<blockquote>(?P<content>[\w\W]*?)<\/blockquote>",
-         lambda match: match.group("content")),
-        (" *<p>(?P<content>[\w\W]*?)<\/p>",
-         lambda match: match.group("content")),
-        (" *<ul>(?P<content>[\w\W]*?)<\/ul>",
-         lambda match: match.group("content")),
-        (" *<ol>(?P<content>[\w\W]*?)<\/ol>",
-         lambda match: match.group("content")),
-        (" *<pre>(?P<content>[\w\W]*?)<\/pre>",
-         lambda match: match.group("content"))
-    ]
-
     def __init__(self, title_slug: str):
         res_obj = LeetCodeRequest.question_details(title_slug)
         self.__id: int = int(res_obj['questionFrontendId'])
@@ -379,13 +279,12 @@ class LeetCodeQuestion:
 
     def __parse_content(self, content: str):
         if content != None:
-            for patt, repl in self.__repl:
-                content = re.sub(patt, repl, content)
+            content = Description.prettify(content)
             match = \
                 re.search("(?P<desc>[\w\W]+?)\n[^\n]+(?P<exam>Example[\w\W]+?)\n([^\n]+Constraints[^\n]+\s+(?P<cons>[\w\W]+)|$)",
                           content)
             if match:
-                self.__desc = match.group("desc").splitlines()
+                self.__desc = match.group("desc")
                 self.__cons = match.group("cons").splitlines()
                 self.__testcase = \
                     self.__solntmp.unittest_desc(match.group("exam"))
@@ -404,25 +303,6 @@ class LeetCodeQuestion:
 
     def code_snippet(self):
         return self.__snippet
-
-    def description(self, limit: int = None):
-        if self.__desc == None:
-            return None
-        if not limit:
-            return self.__desc
-        else:
-            desc: list[str] = []
-            for seg in self.__desc:
-                if len(seg) == 0:
-                    continue
-                seg_lim: list[str] = []
-                for d in re.findall("([^\n]{{0,{}}})[ .]".format(limit), seg):
-                    seg_lim.append(d.strip())
-                seg_lim[-1] += "."
-                desc += seg_lim
-                desc.append("")
-            del desc[-1]
-            return desc
 
     def constraints(self):
         return self.__cons
@@ -495,7 +375,8 @@ class LeetCodeQuestion:
 
     def template(self, prompt: str, limit: int = 0):
         separate_line = "–" * int((limit - 12) / 2)
-        desc_lines = self.description(limit if limit > 30 else None)
+        desc_lines = Description.bound(self.__desc,
+                                       limit if limit > 30 else None)
         desc = "\n".join([
             "/**",
             "  * {}".format(prompt),
