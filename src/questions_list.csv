@@ -1532,7 +1532,7 @@ id,title,level,slug,paid,done
 1531,String Compression II,3,string-compression-ii,0,0
 1532,The Most Recent Three Orders,2,the-most-recent-three-orders,1,0
 1533,Find the Index of the Large Integer,2,find-the-index-of-the-large-integer,1,0
-1534,Count Good Triplets,1,count-good-triplets,0,0
+1534,Count Good Triplets,1,count-good-triplets,0,1
 1535,Find the Winner of an Array Game,2,find-the-winner-of-an-array-game,0,0
 1536,Minimum Swaps to Arrange a Binary Grid,2,minimum-swaps-to-arrange-a-binary-grid,0,0
 1537,Get the Maximum Score,3,get-the-maximum-score,0,0
