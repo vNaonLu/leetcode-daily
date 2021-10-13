@@ -944,7 +944,7 @@ id,title,level,slug,paid,done
 943,Find the Shortest Superstring,3,find-the-shortest-superstring,0,0
 944,Delete Columns to Make Sorted,1,delete-columns-to-make-sorted,0,0
 945,Minimum Increment to Make Array Unique,2,minimum-increment-to-make-array-unique,0,0
-946,Validate Stack Sequences,2,validate-stack-sequences,0,0
+946,Validate Stack Sequences,2,validate-stack-sequences,0,1
 947,Most Stones Removed with Same Row or Column,2,most-stones-removed-with-same-row-or-column,0,0
 948,Bag of Tokens,2,bag-of-tokens,0,0
 949,Largest Time for Given Digits,2,largest-time-for-given-digits,0,0

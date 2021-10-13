@@ -5,5 +5,6 @@
 #include "q0917_unittest.hpp"
 #include "q0922_unittest.hpp"
 #include "q0929_unittest.hpp"
+#include "q0946_unittest.hpp"
 
 #endif
