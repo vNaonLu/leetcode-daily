@@ -563,7 +563,7 @@ My daily challenge on leetcode since 2021/09/06.
 ||537|[Complex Number Multiplication](https://leetcode.com/problems/complex-number-multiplication/)|Medium|
 ||538|[Convert BST to Greater Tree](https://leetcode.com/problems/convert-bst-to-greater-tree/)|Medium|
 ||539|[Minimum Time Difference](https://leetcode.com/problems/minimum-time-difference/)|Medium|
-||540|[Single Element in a Sorted Array](https://leetcode.com/problems/single-element-in-a-sorted-array/)|Medium|
+|[📎](src/q_501_550/q0540.hpp) [📝](src/q_501_550/q0540_unittest.hpp)|540|[Single Element in a Sorted Array](https://leetcode.com/problems/single-element-in-a-sorted-array/)|Medium|
 ||541|[Reverse String II](https://leetcode.com/problems/reverse-string-ii/)|Easy|
 |[📎](src/q_501_550/q0542.hpp) [📝](src/q_501_550/q0542_unittest.hpp)|542|[01 Matrix](https://leetcode.com/problems/01-matrix/)|Medium|
 |[📎](src/q_501_550/q0543.hpp) [📝](src/q_501_550/q0543_unittest.hpp)|543|[Diameter of Binary Tree](https://leetcode.com/problems/diameter-of-binary-tree/)|Easy|
@@ -2102,6 +2102,7 @@ My daily challenge on leetcode since 2021/09/06.
 
 |Time|#|</>|Question Title|Difficulty|
 |:--|--:|:-:|:--|:--|
+|2021-10-13 12:32|540|[📎](src/q_501_550/q0540.hpp) [📝](src/q_501_550/q0540_unittest.hpp)|[Single Element in a Sorted Array](https://leetcode.com/problems/single-element-in-a-sorted-array/)|Medium|
 |2021-10-13 12:11|1008|[📎](src/q_1001_1050/q1008.hpp) [📝](src/q_1001_1050/q1008_unittest.hpp)|[Construct Binary Search Tree from Preorder Traversal](https://leetcode.com/problems/construct-binary-search-tree-from-preorder-traversal/)|Medium|
 |2021-10-12 22:11|2018|[📎](src/q_2001_2050/q2018.hpp) [📝](src/q_2001_2050/q2018_unittest.hpp)|[Check if Word Can Be Placed In Crossword](https://leetcode.com/problems/check-if-word-can-be-placed-in-crossword/)|Medium|
 |2021-10-12 12:18|1887|[📎](src/q_1851_1900/q1887.hpp) [📝](src/q_1851_1900/q1887_unittest.hpp)|[Reduction Operations to Make the Array Elements Equal](https://leetcode.com/problems/reduction-operations-to-make-the-array-elements-equal/)|Medium|
@@ -2126,11 +2127,10 @@ My daily challenge on leetcode since 2021/09/06.
 |2021-10-09 14:21|202|[📎](src/q_201_250/q0202.hpp) [📝](src/q_201_250/q0202_unittest.hpp)|[Happy Number](https://leetcode.com/problems/happy-number/)|Easy|
 |2021-10-08 16:27|4|[📎](src/q_1_50/q0004.hpp) [📝](src/q_1_50/q0004_unittest.hpp)|[Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays/)|Hard|
 |2021-10-08 15:55|257|[📎](src/q_251_300/q0257.hpp) [📝](src/q_251_300/q0257_unittest.hpp)|[Binary Tree Paths](https://leetcode.com/problems/binary-tree-paths/)|Easy|
-|2021-10-08 13:09|347|[📎](src/q_301_350/q0347.hpp) [📝](src/q_301_350/q0347_unittest.hpp)|[Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/)|Medium|
 
 ## Previous Logs
 
 |Month|Submissions|Easy|Medium|Hard|
 |:--|:--|:--|:--|:--|
-|[October_2021](./assets/October_2021.md)|73|19|45|9|
+|[October_2021](./assets/October_2021.md)|74|19|46|9|
 |[September_2021](./assets/September_2021.md)|133|55|71|7|
