@@ -947,7 +947,7 @@ My daily challenge on leetcode since 2021/09/06.
 ||915|[Partition Array into Disjoint Intervals](https://leetcode.com/problems/partition-array-into-disjoint-intervals/)|Medium|
 ||916|[Word Subsets](https://leetcode.com/problems/word-subsets/)|Medium|
 |[📎](src/q_901_950/q0917.hpp) [📝](src/q_901_950/q0917_unittest.hpp)|917|[Reverse Only Letters](https://leetcode.com/problems/reverse-only-letters/)|Easy|
-||918|[Maximum Sum Circular Subarray](https://leetcode.com/problems/maximum-sum-circular-subarray/)|Medium|
+|[📎](src/q_901_950/q0918.hpp) [📝](src/q_901_950/q0918_unittest.hpp)|918|[Maximum Sum Circular Subarray](https://leetcode.com/problems/maximum-sum-circular-subarray/)|Medium|
 ||919|[Complete Binary Tree Inserter](https://leetcode.com/problems/complete-binary-tree-inserter/)|Medium|
 ||920|[Number of Music Playlists](https://leetcode.com/problems/number-of-music-playlists/)|Hard|
 ||921|[Minimum Add to Make Parentheses Valid](https://leetcode.com/problems/minimum-add-to-make-parentheses-valid/)|Medium|
@@ -2102,6 +2102,7 @@ My daily challenge on leetcode since 2021/09/06.
 
 |Time|#|</>|Question Title|Difficulty|
 |:--|--:|:-:|:--|:--|
+|2021-10-14 12:48|918|[📎](src/q_901_950/q0918.hpp) [📝](src/q_901_950/q0918_unittest.hpp)|[Maximum Sum Circular Subarray](https://leetcode.com/problems/maximum-sum-circular-subarray/)|Medium|
 |2021-10-14 12:35|53|[📎](src/q_51_100/q0053.hpp) [📝](src/q_51_100/q0053_unittest.hpp)|[Maximum Subarray](https://leetcode.com/problems/maximum-subarray/)|Easy|
 |2021-10-14 11:56|279|[📎](src/q_251_300/q0279.hpp) [📝](src/q_251_300/q0279_unittest.hpp)|[Perfect Squares](https://leetcode.com/problems/perfect-squares/)|Medium|
 |2021-10-13 13:21|852|[📎](src/q_851_900/q0852.hpp) [📝](src/q_851_900/q0852_unittest.hpp)|[Peak Index in a Mountain Array](https://leetcode.com/problems/peak-index-in-a-mountain-array/)|Easy|
@@ -2126,11 +2127,10 @@ My daily challenge on leetcode since 2021/09/06.
 |2021-10-10 13:37|509|[📎](src/q_501_550/q0509.hpp) [📝](src/q_501_550/q0509_unittest.hpp)|[Fibonacci Number](https://leetcode.com/problems/fibonacci-number/)|Easy|
 |2021-10-09 17:09|8|[📎](src/q_1_50/q0008.hpp) [📝](src/q_1_50/q0008_unittest.hpp)|[String to Integer (atoi)](https://leetcode.com/problems/string-to-integer-atoi/)|Medium|
 |2021-10-09 16:38|96|[📎](src/q_51_100/q0096.hpp) [📝](src/q_51_100/q0096_unittest.hpp)|[Unique Binary Search Trees](https://leetcode.com/problems/unique-binary-search-trees/)|Medium|
-|2021-10-09 15:38|212|[📎](src/q_201_250/q0212.hpp) [📝](src/q_201_250/q0212_unittest.hpp)|[Word Search II](https://leetcode.com/problems/word-search-ii/)|Hard|
 
 ## Previous Logs
 
 |Month|Submissions|Easy|Medium|Hard|
 |:--|:--|:--|:--|:--|
-|[October_2021](./assets/October_2021.md)|80|23|48|9|
+|[October_2021](./assets/October_2021.md)|81|23|49|9|
 |[September_2021](./assets/September_2021.md)|133|55|71|7|

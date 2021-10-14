@@ -916,7 +916,7 @@ id,title,level,slug,paid,done
 915,Partition Array into Disjoint Intervals,2,partition-array-into-disjoint-intervals,0,0
 916,Word Subsets,2,word-subsets,0,0
 917,Reverse Only Letters,1,reverse-only-letters,0,1
-918,Maximum Sum Circular Subarray,2,maximum-sum-circular-subarray,0,0
+918,Maximum Sum Circular Subarray,2,maximum-sum-circular-subarray,0,1
 919,Complete Binary Tree Inserter,2,complete-binary-tree-inserter,0,0
 920,Number of Music Playlists,3,number-of-music-playlists,0,0
 921,Minimum Add to Make Parentheses Valid,2,minimum-add-to-make-parentheses-valid,0,0
