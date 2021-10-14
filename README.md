@@ -296,7 +296,7 @@ My daily challenge on leetcode since 2021/09/06.
 |🔒|276|[Paint Fence](https://leetcode.com/problems/paint-fence/)|Medium|
 |🔒|277|[Find the Celebrity](https://leetcode.com/problems/find-the-celebrity/)|Medium|
 ||278|[First Bad Version](https://leetcode.com/problems/first-bad-version/)|Easy|
-||279|[Perfect Squares](https://leetcode.com/problems/perfect-squares/)|Medium|
+|[📎](src/q_251_300/q0279.hpp) [📝](src/q_251_300/q0279_unittest.hpp)|279|[Perfect Squares](https://leetcode.com/problems/perfect-squares/)|Medium|
 |🔒|280|[Wiggle Sort](https://leetcode.com/problems/wiggle-sort/)|Medium|
 |🔒|281|[Zigzag Iterator](https://leetcode.com/problems/zigzag-iterator/)|Medium|
 |[📎](src/q_251_300/q0282.hpp) [📝](src/q_251_300/q0282_unittest.hpp)|282|[Expression Add Operators](https://leetcode.com/problems/expression-add-operators/)|Hard|
@@ -2102,6 +2102,7 @@ My daily challenge on leetcode since 2021/09/06.
 
 |Time|#|</>|Question Title|Difficulty|
 |:--|--:|:-:|:--|:--|
+|2021-10-14 11:56|279|[📎](src/q_251_300/q0279.hpp) [📝](src/q_251_300/q0279_unittest.hpp)|[Perfect Squares](https://leetcode.com/problems/perfect-squares/)|Medium|
 |2021-10-13 13:21|852|[📎](src/q_851_900/q0852.hpp) [📝](src/q_851_900/q0852_unittest.hpp)|[Peak Index in a Mountain Array](https://leetcode.com/problems/peak-index-in-a-mountain-array/)|Easy|
 |2021-10-13 12:55|946|[📎](src/q_901_950/q0946.hpp) [📝](src/q_901_950/q0946_unittest.hpp)|[Validate Stack Sequences](https://leetcode.com/problems/validate-stack-sequences/)|Medium|
 |2021-10-13 12:46|1822|[📎](src/q_1801_1850/q1822.hpp) [📝](src/q_1801_1850/q1822_unittest.hpp)|[Sign of the Product of an Array](https://leetcode.com/problems/sign-of-the-product-of-an-array/)|Easy|
@@ -2126,11 +2127,10 @@ My daily challenge on leetcode since 2021/09/06.
 |2021-10-09 16:38|96|[📎](src/q_51_100/q0096.hpp) [📝](src/q_51_100/q0096_unittest.hpp)|[Unique Binary Search Trees](https://leetcode.com/problems/unique-binary-search-trees/)|Medium|
 |2021-10-09 15:38|212|[📎](src/q_201_250/q0212.hpp) [📝](src/q_201_250/q0212_unittest.hpp)|[Word Search II](https://leetcode.com/problems/word-search-ii/)|Hard|
 |2021-10-09 15:18|973|[📎](src/q_951_1000/q0973.hpp) [📝](src/q_951_1000/q0973_unittest.hpp)|[K Closest Points to Origin](https://leetcode.com/problems/k-closest-points-to-origin/)|Medium|
-|2021-10-09 15:05|451|[📎](src/q_451_500/q0451.hpp) [📝](src/q_451_500/q0451_unittest.hpp)|[Sort Characters By Frequency](https://leetcode.com/problems/sort-characters-by-frequency/)|Medium|
 
 ## Previous Logs
 
 |Month|Submissions|Easy|Medium|Hard|
 |:--|:--|:--|:--|:--|
-|[October_2021](./assets/October_2021.md)|78|22|47|9|
+|[October_2021](./assets/October_2021.md)|79|22|48|9|
 |[September_2021](./assets/September_2021.md)|133|55|71|7|
