@@ -150,7 +150,7 @@ id,title,level,slug,paid,done
 149,Max Points on a Line,3,max-points-on-a-line,0,1
 150,Evaluate Reverse Polish Notation,2,evaluate-reverse-polish-notation,0,0
 151,Reverse Words in a String,2,reverse-words-in-a-string,0,0
-152,Maximum Product Subarray,2,maximum-product-subarray,0,0
+152,Maximum Product Subarray,2,maximum-product-subarray,0,1
 153,Find Minimum in Rotated Sorted Array,2,find-minimum-in-rotated-sorted-array,0,1
 154,Find Minimum in Rotated Sorted Array II,3,find-minimum-in-rotated-sorted-array-ii,0,0
 155,Min Stack,1,min-stack,0,1

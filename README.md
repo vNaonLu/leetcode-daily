@@ -163,7 +163,7 @@ My daily challenge on leetcode since 2021/09/06.
 |[📎](src/q_101_150/q0149.hpp) [📝](src/q_101_150/q0149_unittest.hpp)|149|[Max Points on a Line](https://leetcode.com/problems/max-points-on-a-line/)|Hard|
 ||150|[Evaluate Reverse Polish Notation](https://leetcode.com/problems/evaluate-reverse-polish-notation/)|Medium|
 ||151|[Reverse Words in a String](https://leetcode.com/problems/reverse-words-in-a-string/)|Medium|
-||152|[Maximum Product Subarray](https://leetcode.com/problems/maximum-product-subarray/)|Medium|
+|[📎](src/q_151_200/q0152.hpp) [📝](src/q_151_200/q0152_unittest.hpp)|152|[Maximum Product Subarray](https://leetcode.com/problems/maximum-product-subarray/)|Medium|
 |[📎](src/q_151_200/q0153.hpp) [📝](src/q_151_200/q0153_unittest.hpp)|153|[Find Minimum in Rotated Sorted Array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/)|Medium|
 ||154|[Find Minimum in Rotated Sorted Array II](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array-ii/)|Hard|
 |[📎](src/q_151_200/q0155.hpp) [📝](src/q_151_200/q0155_unittest.hpp)|155|[Min Stack](https://leetcode.com/problems/min-stack/)|Easy|
@@ -2102,6 +2102,7 @@ My daily challenge on leetcode since 2021/09/06.
 
 |Time|#|</>|Question Title|Difficulty|
 |:--|--:|:-:|:--|:--|
+|2021-10-15 10:17|152|[📎](src/q_151_200/q0152.hpp) [📝](src/q_151_200/q0152_unittest.hpp)|[Maximum Product Subarray](https://leetcode.com/problems/maximum-product-subarray/)|Medium|
 |2021-10-15 10:08|309|[📎](src/q_301_350/q0309.hpp) [📝](src/q_301_350/q0309_unittest.hpp)|[Best Time to Buy and Sell Stock with Cooldown](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-cooldown/)|Medium|
 |2021-10-14 12:48|918|[📎](src/q_901_950/q0918.hpp) [📝](src/q_901_950/q0918_unittest.hpp)|[Maximum Sum Circular Subarray](https://leetcode.com/problems/maximum-sum-circular-subarray/)|Medium|
 |2021-10-14 12:35|53|[📎](src/q_51_100/q0053.hpp) [📝](src/q_51_100/q0053_unittest.hpp)|[Maximum Subarray](https://leetcode.com/problems/maximum-subarray/)|Easy|
@@ -2126,11 +2127,10 @@ My daily challenge on leetcode since 2021/09/06.
 |2021-10-10 13:56|9|[📎](src/q_1_50/q0009.hpp) [📝](src/q_1_50/q0009_unittest.hpp)|[Palindrome Number](https://leetcode.com/problems/palindrome-number/)|Easy|
 |2021-10-10 13:46|6|[📎](src/q_1_50/q0006.hpp) [📝](src/q_1_50/q0006_unittest.hpp)|[ZigZag Conversion](https://leetcode.com/problems/zigzag-conversion/)|Medium|
 |2021-10-10 13:37|509|[📎](src/q_501_550/q0509.hpp) [📝](src/q_501_550/q0509_unittest.hpp)|[Fibonacci Number](https://leetcode.com/problems/fibonacci-number/)|Easy|
-|2021-10-09 17:09|8|[📎](src/q_1_50/q0008.hpp) [📝](src/q_1_50/q0008_unittest.hpp)|[String to Integer (atoi)](https://leetcode.com/problems/string-to-integer-atoi/)|Medium|
 
 ## Previous Logs
 
 |Month|Submissions|Easy|Medium|Hard|
 |:--|:--|:--|:--|:--|
-|[October_2021](./assets/October_2021.md)|82|23|50|9|
+|[October_2021](./assets/October_2021.md)|83|23|51|9|
 |[September_2021](./assets/September_2021.md)|133|55|71|7|
