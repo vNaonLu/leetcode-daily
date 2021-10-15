@@ -1565,7 +1565,7 @@ id,title,level,slug,paid,done
 1564,Put Boxes Into the Warehouse I,2,put-boxes-into-the-warehouse-i,1,0
 1565,Unique Orders and Customers Per Month,1,unique-orders-and-customers-per-month,1,0
 1566,Detect Pattern of Length M Repeated K or More Times,1,detect-pattern-of-length-m-repeated-k-or-more-times,0,0
-1567,Maximum Length of Subarray With Positive Product,2,maximum-length-of-subarray-with-positive-product,0,0
+1567,Maximum Length of Subarray With Positive Product,2,maximum-length-of-subarray-with-positive-product,0,1
 1568,Minimum Number of Days to Disconnect Island,3,minimum-number-of-days-to-disconnect-island,0,0
 1569,Number of Ways to Reorder Array to Get Same BST,3,number-of-ways-to-reorder-array-to-get-same-bst,0,0
 1570,Dot Product of Two Sparse Vectors,2,dot-product-of-two-sparse-vectors,1,0
