@@ -379,35 +379,35 @@ class LeetCodeQuestion:
                                        limit if limit > 30 else None)
         desc = "\n".join([
             "/**",
-            "  * {}".format(prompt),
-            "  *",
-            "  * {}.".format(self.id()),
-            "  *  {} {}".format(" " * len(str(self.id())), self.title()),
-            "  *",
-            "  * "])
+            " * {}".format(prompt),
+            " *",
+            " * {}.".format(self.id()),
+            " *  {} {}".format(" " * len(str(self.id())), self.title()),
+            " *",
+            " * "])
         if desc_lines == None:
             desc += "\n".join([
                 "To unlock the question need a premium account.",
-                "  *",
-                "*/"])
+                " *",
+                " */"])
         else:
             desc += "\n".join([
                 separate_line + " Description " + separate_line,
-                "  *",
-                "  *   " +
-                "\n  *   ".join(desc_lines),
-                "  *",
-                "  * "])
+                " *",
+                " *   " +
+                "\n *   ".join(desc_lines),
+                " *",
+                " * "])
             cons_lines = self.__constraints()
             if len(cons_lines) > 0:
                 desc += "\n".join([
                     separate_line + " Constraints " + separate_line,
-                    "  *",
-                    "  *   • " +
-                    "\n  *   • ".join(cons_lines),
-                    "  *", ])
+                    " *",
+                    " *   • " +
+                    "\n *   • ".join(cons_lines),
+                    " *", ])
             desc += "\n".join([
                 "",
-                "*/"])
+                " */"])
 
         return self.__source(desc), self.__unittest(desc)
