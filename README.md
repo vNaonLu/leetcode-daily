@@ -1049,7 +1049,7 @@ My daily challenge on leetcode since 2021/09/06.
 ||1011|[Capacity To Ship Packages Within D Days](https://leetcode.com/problems/capacity-to-ship-packages-within-d-days/)|Medium|
 ||1012|[Numbers With Repeated Digits](https://leetcode.com/problems/numbers-with-repeated-digits/)|Hard|
 ||1013|[Partition Array Into Three Parts With Equal Sum](https://leetcode.com/problems/partition-array-into-three-parts-with-equal-sum/)|Easy|
-||1014|[Best Sightseeing Pair](https://leetcode.com/problems/best-sightseeing-pair/)|Medium|
+|[📎](src/q_1001_1050/q1014.hpp) [📝](src/q_1001_1050/q1014_unittest.hpp)|1014|[Best Sightseeing Pair](https://leetcode.com/problems/best-sightseeing-pair/)|Medium|
 ||1015|[Smallest Integer Divisible by K](https://leetcode.com/problems/smallest-integer-divisible-by-k/)|Medium|
 ||1016|[Binary String With Substrings Representing 1 To N](https://leetcode.com/problems/binary-string-with-substrings-representing-1-to-n/)|Medium|
 ||1017|[Convert to Base -2](https://leetcode.com/problems/convert-to-base-2/)|Medium|
@@ -2103,6 +2103,7 @@ My daily challenge on leetcode since 2021/09/06.
 
 |Time|#|</>|Question Title|Difficulty|
 |:--|--:|:-:|:--|:--|
+|2021-10-16 13:29|1014|[📎](src/q_1001_1050/q1014.hpp) [📝](src/q_1001_1050/q1014_unittest.hpp)|[Best Sightseeing Pair](https://leetcode.com/problems/best-sightseeing-pair/)|Medium|
 |2021-10-16 13:13|123|[📎](src/q_101_150/q0123.hpp) [📝](src/q_101_150/q0123_unittest.hpp)|[Best Time to Buy and Sell Stock III](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iii/)|Hard|
 |2021-10-15 10:28|1567|[📎](src/q_1551_1600/q1567.hpp) [📝](src/q_1551_1600/q1567_unittest.hpp)|[Maximum Length of Subarray With Positive Product](https://leetcode.com/problems/maximum-length-of-subarray-with-positive-product/)|Medium|
 |2021-10-15 10:17|152|[📎](src/q_151_200/q0152.hpp) [📝](src/q_151_200/q0152_unittest.hpp)|[Maximum Product Subarray](https://leetcode.com/problems/maximum-product-subarray/)|Medium|
@@ -2127,11 +2128,10 @@ My daily challenge on leetcode since 2021/09/06.
 |2021-10-11 15:07|746|[📎](src/q_701_750/q0746.hpp) [📝](src/q_701_750/q0746_unittest.hpp)|[Min Cost Climbing Stairs](https://leetcode.com/problems/min-cost-climbing-stairs/)|Easy|
 |2021-10-11 14:53|543|[📎](src/q_501_550/q0543.hpp) [📝](src/q_501_550/q0543_unittest.hpp)|[Diameter of Binary Tree](https://leetcode.com/problems/diameter-of-binary-tree/)|Easy|
 |2021-10-10 14:20|10|[📎](src/q_1_50/q0010.hpp) [📝](src/q_1_50/q0010_unittest.hpp)|[Regular Expression Matching](https://leetcode.com/problems/regular-expression-matching/)|Hard|
-|2021-10-10 13:56|9|[📎](src/q_1_50/q0009.hpp) [📝](src/q_1_50/q0009_unittest.hpp)|[Palindrome Number](https://leetcode.com/problems/palindrome-number/)|Easy|
 
 ## Previous Logs
 
 |Month|Submissions|Easy|Medium|Hard|
 |:--|:--|:--|:--|:--|
-|[October_2021](./assets/October_2021.md)|85|23|52|10|
+|[October_2021](./assets/October_2021.md)|86|23|53|10|
 |[September_2021](./assets/September_2021.md)|133|55|71|7|
