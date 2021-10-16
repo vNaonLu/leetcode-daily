@@ -120,7 +120,7 @@ id,title,level,slug,paid,done
 119,Pascal's Triangle II,1,pascals-triangle-ii,0,1
 120,Triangle,2,triangle,0,1
 121,Best Time to Buy and Sell Stock,1,best-time-to-buy-and-sell-stock,0,1
-122,Best Time to Buy and Sell Stock II,2,best-time-to-buy-and-sell-stock-ii,0,0
+122,Best Time to Buy and Sell Stock II,2,best-time-to-buy-and-sell-stock-ii,0,1
 123,Best Time to Buy and Sell Stock III,3,best-time-to-buy-and-sell-stock-iii,0,1
 124,Binary Tree Maximum Path Sum,3,binary-tree-maximum-path-sum,0,0
 125,Valid Palindrome,1,valid-palindrome,0,0

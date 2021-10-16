@@ -133,7 +133,7 @@ My daily challenge on leetcode since 2021/09/06.
 |[📎](src/q_101_150/q0119.hpp) [📝](src/q_101_150/q0119_unittest.hpp)|119|[Pascal's Triangle II](https://leetcode.com/problems/pascals-triangle-ii/)|Easy|
 |[📎](src/q_101_150/q0120.hpp) [📝](src/q_101_150/q0120_unittest.hpp)|120|[Triangle](https://leetcode.com/problems/triangle/)|Medium|
 |[📎](src/q_101_150/q0121.hpp) [📝](src/q_101_150/q0121_unittest.hpp)|121|[Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/)|Easy|
-||122|[Best Time to Buy and Sell Stock II](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/)|Medium|
+|[📎](src/q_101_150/q0122.hpp) [📝](src/q_101_150/q0122_unittest.hpp)|122|[Best Time to Buy and Sell Stock II](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/)|Medium|
 |[📎](src/q_101_150/q0123.hpp) [📝](src/q_101_150/q0123_unittest.hpp)|123|[Best Time to Buy and Sell Stock III](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iii/)|Hard|
 ||124|[Binary Tree Maximum Path Sum](https://leetcode.com/problems/binary-tree-maximum-path-sum/)|Hard|
 ||125|[Valid Palindrome](https://leetcode.com/problems/valid-palindrome/)|Easy|
@@ -2103,6 +2103,7 @@ My daily challenge on leetcode since 2021/09/06.
 
 |Time|#|</>|Question Title|Difficulty|
 |:--|--:|:-:|:--|:--|
+|2021-10-16 13:35|122|[📎](src/q_101_150/q0122.hpp) [📝](src/q_101_150/q0122_unittest.hpp)|[Best Time to Buy and Sell Stock II](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/)|Medium|
 |2021-10-16 13:29|1014|[📎](src/q_1001_1050/q1014.hpp) [📝](src/q_1001_1050/q1014_unittest.hpp)|[Best Sightseeing Pair](https://leetcode.com/problems/best-sightseeing-pair/)|Medium|
 |2021-10-16 13:13|123|[📎](src/q_101_150/q0123.hpp) [📝](src/q_101_150/q0123_unittest.hpp)|[Best Time to Buy and Sell Stock III](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iii/)|Hard|
 |2021-10-15 10:28|1567|[📎](src/q_1551_1600/q1567.hpp) [📝](src/q_1551_1600/q1567_unittest.hpp)|[Maximum Length of Subarray With Positive Product](https://leetcode.com/problems/maximum-length-of-subarray-with-positive-product/)|Medium|
@@ -2127,11 +2128,10 @@ My daily challenge on leetcode since 2021/09/06.
 |2021-10-11 17:31|12|[📎](src/q_1_50/q0012.hpp) [📝](src/q_1_50/q0012_unittest.hpp)|[Integer to Roman](https://leetcode.com/problems/integer-to-roman/)|Medium|
 |2021-10-11 15:07|746|[📎](src/q_701_750/q0746.hpp) [📝](src/q_701_750/q0746_unittest.hpp)|[Min Cost Climbing Stairs](https://leetcode.com/problems/min-cost-climbing-stairs/)|Easy|
 |2021-10-11 14:53|543|[📎](src/q_501_550/q0543.hpp) [📝](src/q_501_550/q0543_unittest.hpp)|[Diameter of Binary Tree](https://leetcode.com/problems/diameter-of-binary-tree/)|Easy|
-|2021-10-10 14:20|10|[📎](src/q_1_50/q0010.hpp) [📝](src/q_1_50/q0010_unittest.hpp)|[Regular Expression Matching](https://leetcode.com/problems/regular-expression-matching/)|Hard|
 
 ## Previous Logs
 
 |Month|Submissions|Easy|Medium|Hard|
 |:--|:--|:--|:--|:--|
-|[October_2021](./assets/October_2021.md)|86|23|53|10|
+|[October_2021](./assets/October_2021.md)|87|23|54|10|
 |[September_2021](./assets/September_2021.md)|133|55|71|7|
