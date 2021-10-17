@@ -1934,7 +1934,7 @@ My daily challenge on leetcode since 2021/09/06.
 ||1878|[Get Biggest Three Rhombus Sums in a Grid](https://leetcode.com/problems/get-biggest-three-rhombus-sums-in-a-grid/)|Medium|
 ||1879|[Minimum XOR Sum of Two Arrays](https://leetcode.com/problems/minimum-xor-sum-of-two-arrays/)|Hard|
 ||1880|[Check if Word Equals Summation of Two Words](https://leetcode.com/problems/check-if-word-equals-summation-of-two-words/)|Easy|
-||1881|[Maximum Value after Insertion](https://leetcode.com/problems/maximum-value-after-insertion/)|Medium|
+|[📎](src/q_1851_1900/q1881.hpp) [📝](src/q_1851_1900/q1881_unittest.hpp)|1881|[Maximum Value after Insertion](https://leetcode.com/problems/maximum-value-after-insertion/)|Medium|
 ||1882|[Process Tasks Using Servers](https://leetcode.com/problems/process-tasks-using-servers/)|Medium|
 ||1883|[Minimum Skips to Arrive at Meeting On Time](https://leetcode.com/problems/minimum-skips-to-arrive-at-meeting-on-time/)|Hard|
 ||1884|[Egg Drop With 2 Eggs and N Floors](https://leetcode.com/problems/egg-drop-with-2-eggs-and-n-floors/)|Medium|
@@ -2103,6 +2103,7 @@ My daily challenge on leetcode since 2021/09/06.
 
 |Time|#|</>|Question Title|Difficulty|
 |:--|--:|:-:|:--|:--|
+|2021-10-17 15:52|1881|[📎](src/q_1851_1900/q1881.hpp) [📝](src/q_1851_1900/q1881_unittest.hpp)|[Maximum Value after Insertion](https://leetcode.com/problems/maximum-value-after-insertion/)|Medium|
 |2021-10-17 15:37|1361|[📎](src/q_1351_1400/q1361.hpp) [📝](src/q_1351_1400/q1361_unittest.hpp)|[Validate Binary Tree Nodes](https://leetcode.com/problems/validate-binary-tree-nodes/)|Medium|
 |2021-10-17 14:20|714|[📎](src/q_701_750/q0714.hpp) [📝](src/q_701_750/q0714_unittest.hpp)|[Best Time to Buy and Sell Stock with Transaction Fee](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-transaction-fee/)|Medium|
 |2021-10-17 14:07|437|[📎](src/q_401_450/q0437.hpp) [📝](src/q_401_450/q0437_unittest.hpp)|[Path Sum III](https://leetcode.com/problems/path-sum-iii/)|Medium|
@@ -2127,11 +2128,10 @@ My daily challenge on leetcode since 2021/09/06.
 |2021-10-12 11:20|374|[📎](src/q_351_400/q0374.hpp) [📝](src/q_351_400/q0374_unittest.hpp)|[Guess Number Higher or Lower](https://leetcode.com/problems/guess-number-higher-or-lower/)|Easy|
 |2021-10-11 18:09|110|[📎](src/q_101_150/q0110.hpp) [📝](src/q_101_150/q0110_unittest.hpp)|[Balanced Binary Tree](https://leetcode.com/problems/balanced-binary-tree/)|Easy|
 |2021-10-11 17:55|111|[📎](src/q_101_150/q0111.hpp) [📝](src/q_101_150/q0111_unittest.hpp)|[Minimum Depth of Binary Tree](https://leetcode.com/problems/minimum-depth-of-binary-tree/)|Easy|
-|2021-10-11 17:49|114|[📎](src/q_101_150/q0114.hpp) [📝](src/q_101_150/q0114_unittest.hpp)|[Flatten Binary Tree to Linked List](https://leetcode.com/problems/flatten-binary-tree-to-linked-list/)|Medium|
 
 ## Previous Logs
 
 |Month|Submissions|Easy|Medium|Hard|
 |:--|:--|:--|:--|:--|
-|[October_2021](./assets/October_2021.md)|90|23|57|10|
+|[October_2021](./assets/October_2021.md)|91|23|58|10|
 |[September_2021](./assets/September_2021.md)|133|55|71|7|

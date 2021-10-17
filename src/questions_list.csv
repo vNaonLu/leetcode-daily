@@ -1879,7 +1879,7 @@ id,title,level,slug,paid,done
 1878,Get Biggest Three Rhombus Sums in a Grid,2,get-biggest-three-rhombus-sums-in-a-grid,0,0
 1879,Minimum XOR Sum of Two Arrays,3,minimum-xor-sum-of-two-arrays,0,0
 1880,Check if Word Equals Summation of Two Words,1,check-if-word-equals-summation-of-two-words,0,0
-1881,Maximum Value after Insertion,2,maximum-value-after-insertion,0,0
+1881,Maximum Value after Insertion,2,maximum-value-after-insertion,0,1
 1882,Process Tasks Using Servers,2,process-tasks-using-servers,0,0
 1883,Minimum Skips to Arrive at Meeting On Time,3,minimum-skips-to-arrive-at-meeting-on-time,0,0
 1884,Egg Drop With 2 Eggs and N Floors,2,egg-drop-with-2-eggs-and-n-floors,0,0
