@@ -737,7 +737,7 @@ My daily challenge on leetcode since 2021/09/06.
 |🔒|711|[Number of Distinct Islands II](https://leetcode.com/problems/number-of-distinct-islands-ii/)|Hard|
 ||712|[Minimum ASCII Delete Sum for Two Strings](https://leetcode.com/problems/minimum-ascii-delete-sum-for-two-strings/)|Medium|
 |[📎](src/q_701_750/q0713.hpp) [📝](src/q_701_750/q0713_unittest.hpp)|713|[Subarray Product Less Than K](https://leetcode.com/problems/subarray-product-less-than-k/)|Medium|
-||714|[Best Time to Buy and Sell Stock with Transaction Fee](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-transaction-fee/)|Medium|
+|[📎](src/q_701_750/q0714.hpp) [📝](src/q_701_750/q0714_unittest.hpp)|714|[Best Time to Buy and Sell Stock with Transaction Fee](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-transaction-fee/)|Medium|
 ||715|[Range Module](https://leetcode.com/problems/range-module/)|Hard|
 |🔒|716|[Max Stack](https://leetcode.com/problems/max-stack/)|Easy|
 |[📎](src/q_701_750/q0717.hpp) [📝](src/q_701_750/q0717_unittest.hpp)|717|[1-bit and 2-bit Characters](https://leetcode.com/problems/1-bit-and-2-bit-characters/)|Easy|
@@ -2103,6 +2103,7 @@ My daily challenge on leetcode since 2021/09/06.
 
 |Time|#|</>|Question Title|Difficulty|
 |:--|--:|:-:|:--|:--|
+|2021-10-17 14:20|714|[📎](src/q_701_750/q0714.hpp) [📝](src/q_701_750/q0714_unittest.hpp)|[Best Time to Buy and Sell Stock with Transaction Fee](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-transaction-fee/)|Medium|
 |2021-10-17 14:07|437|[📎](src/q_401_450/q0437.hpp) [📝](src/q_401_450/q0437_unittest.hpp)|[Path Sum III](https://leetcode.com/problems/path-sum-iii/)|Medium|
 |2021-10-16 13:35|122|[📎](src/q_101_150/q0122.hpp) [📝](src/q_101_150/q0122_unittest.hpp)|[Best Time to Buy and Sell Stock II](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/)|Medium|
 |2021-10-16 13:29|1014|[📎](src/q_1001_1050/q1014.hpp) [📝](src/q_1001_1050/q1014_unittest.hpp)|[Best Sightseeing Pair](https://leetcode.com/problems/best-sightseeing-pair/)|Medium|
@@ -2127,11 +2128,10 @@ My daily challenge on leetcode since 2021/09/06.
 |2021-10-11 17:55|111|[📎](src/q_101_150/q0111.hpp) [📝](src/q_101_150/q0111_unittest.hpp)|[Minimum Depth of Binary Tree](https://leetcode.com/problems/minimum-depth-of-binary-tree/)|Easy|
 |2021-10-11 17:49|114|[📎](src/q_101_150/q0114.hpp) [📝](src/q_101_150/q0114_unittest.hpp)|[Flatten Binary Tree to Linked List](https://leetcode.com/problems/flatten-binary-tree-to-linked-list/)|Medium|
 |2021-10-11 17:31|12|[📎](src/q_1_50/q0012.hpp) [📝](src/q_1_50/q0012_unittest.hpp)|[Integer to Roman](https://leetcode.com/problems/integer-to-roman/)|Medium|
-|2021-10-11 15:07|746|[📎](src/q_701_750/q0746.hpp) [📝](src/q_701_750/q0746_unittest.hpp)|[Min Cost Climbing Stairs](https://leetcode.com/problems/min-cost-climbing-stairs/)|Easy|
 
 ## Previous Logs
 
 |Month|Submissions|Easy|Medium|Hard|
 |:--|:--|:--|:--|:--|
-|[October_2021](./assets/October_2021.md)|88|23|55|10|
+|[October_2021](./assets/October_2021.md)|89|23|56|10|
 |[September_2021](./assets/September_2021.md)|133|55|71|7|

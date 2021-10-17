@@ -712,7 +712,7 @@ id,title,level,slug,paid,done
 711,Number of Distinct Islands II,3,number-of-distinct-islands-ii,1,0
 712,Minimum ASCII Delete Sum for Two Strings,2,minimum-ascii-delete-sum-for-two-strings,0,0
 713,Subarray Product Less Than K,2,subarray-product-less-than-k,0,1
-714,Best Time to Buy and Sell Stock with Transaction Fee,2,best-time-to-buy-and-sell-stock-with-transaction-fee,0,0
+714,Best Time to Buy and Sell Stock with Transaction Fee,2,best-time-to-buy-and-sell-stock-with-transaction-fee,0,1
 715,Range Module,3,range-module,0,0
 716,Max Stack,1,max-stack,1,0
 717,1-bit and 2-bit Characters,1,1-bit-and-2-bit-characters,0,1
