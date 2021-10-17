@@ -435,7 +435,7 @@ id,title,level,slug,paid,done
 434,Number of Segments in a String,1,number-of-segments-in-a-string,0,0
 435,Non-overlapping Intervals,2,non-overlapping-intervals,0,1
 436,Find Right Interval,2,find-right-interval,0,0
-437,Path Sum III,2,path-sum-iii,0,0
+437,Path Sum III,2,path-sum-iii,0,1
 438,Find All Anagrams in a String,2,find-all-anagrams-in-a-string,0,1
 439,Ternary Expression Parser,2,ternary-expression-parser,1,0
 440,K-th Smallest in Lexicographical Order,3,k-th-smallest-in-lexicographical-order,0,0
