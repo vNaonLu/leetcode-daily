@@ -1359,7 +1359,7 @@ id,title,level,slug,paid,done
 1358,Number of Substrings Containing All Three Characters,2,number-of-substrings-containing-all-three-characters,0,0
 1359,Count All Valid Pickup and Delivery Options,3,count-all-valid-pickup-and-delivery-options,0,0
 1360,Number of Days Between Two Dates,1,number-of-days-between-two-dates,0,0
-1361,Validate Binary Tree Nodes,2,validate-binary-tree-nodes,0,0
+1361,Validate Binary Tree Nodes,2,validate-binary-tree-nodes,0,1
 1362,Closest Divisors,2,closest-divisors,0,0
 1363,Largest Multiple of Three,3,largest-multiple-of-three,0,0
 1364,Number of Trusted Contacts of a Customer,2,number-of-trusted-contacts-of-a-customer,1,0

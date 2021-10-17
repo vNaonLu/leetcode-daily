@@ -1402,7 +1402,7 @@ My daily challenge on leetcode since 2021/09/06.
 ||1358|[Number of Substrings Containing All Three Characters](https://leetcode.com/problems/number-of-substrings-containing-all-three-characters/)|Medium|
 ||1359|[Count All Valid Pickup and Delivery Options](https://leetcode.com/problems/count-all-valid-pickup-and-delivery-options/)|Hard|
 ||1360|[Number of Days Between Two Dates](https://leetcode.com/problems/number-of-days-between-two-dates/)|Easy|
-||1361|[Validate Binary Tree Nodes](https://leetcode.com/problems/validate-binary-tree-nodes/)|Medium|
+|[📎](src/q_1351_1400/q1361.hpp) [📝](src/q_1351_1400/q1361_unittest.hpp)|1361|[Validate Binary Tree Nodes](https://leetcode.com/problems/validate-binary-tree-nodes/)|Medium|
 ||1362|[Closest Divisors](https://leetcode.com/problems/closest-divisors/)|Medium|
 ||1363|[Largest Multiple of Three](https://leetcode.com/problems/largest-multiple-of-three/)|Hard|
 |🔒|1364|[Number of Trusted Contacts of a Customer](https://leetcode.com/problems/number-of-trusted-contacts-of-a-customer/)|Medium|
@@ -2103,6 +2103,7 @@ My daily challenge on leetcode since 2021/09/06.
 
 |Time|#|</>|Question Title|Difficulty|
 |:--|--:|:-:|:--|:--|
+|2021-10-17 15:37|1361|[📎](src/q_1351_1400/q1361.hpp) [📝](src/q_1351_1400/q1361_unittest.hpp)|[Validate Binary Tree Nodes](https://leetcode.com/problems/validate-binary-tree-nodes/)|Medium|
 |2021-10-17 14:20|714|[📎](src/q_701_750/q0714.hpp) [📝](src/q_701_750/q0714_unittest.hpp)|[Best Time to Buy and Sell Stock with Transaction Fee](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-transaction-fee/)|Medium|
 |2021-10-17 14:07|437|[📎](src/q_401_450/q0437.hpp) [📝](src/q_401_450/q0437_unittest.hpp)|[Path Sum III](https://leetcode.com/problems/path-sum-iii/)|Medium|
 |2021-10-16 13:35|122|[📎](src/q_101_150/q0122.hpp) [📝](src/q_101_150/q0122_unittest.hpp)|[Best Time to Buy and Sell Stock II](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/)|Medium|
@@ -2127,11 +2128,10 @@ My daily challenge on leetcode since 2021/09/06.
 |2021-10-11 18:09|110|[📎](src/q_101_150/q0110.hpp) [📝](src/q_101_150/q0110_unittest.hpp)|[Balanced Binary Tree](https://leetcode.com/problems/balanced-binary-tree/)|Easy|
 |2021-10-11 17:55|111|[📎](src/q_101_150/q0111.hpp) [📝](src/q_101_150/q0111_unittest.hpp)|[Minimum Depth of Binary Tree](https://leetcode.com/problems/minimum-depth-of-binary-tree/)|Easy|
 |2021-10-11 17:49|114|[📎](src/q_101_150/q0114.hpp) [📝](src/q_101_150/q0114_unittest.hpp)|[Flatten Binary Tree to Linked List](https://leetcode.com/problems/flatten-binary-tree-to-linked-list/)|Medium|
-|2021-10-11 17:31|12|[📎](src/q_1_50/q0012.hpp) [📝](src/q_1_50/q0012_unittest.hpp)|[Integer to Roman](https://leetcode.com/problems/integer-to-roman/)|Medium|
 
 ## Previous Logs
 
 |Month|Submissions|Easy|Medium|Hard|
 |:--|:--|:--|:--|:--|
-|[October_2021](./assets/October_2021.md)|89|23|56|10|
+|[October_2021](./assets/October_2021.md)|90|23|57|10|
 |[September_2021](./assets/September_2021.md)|133|55|71|7|
