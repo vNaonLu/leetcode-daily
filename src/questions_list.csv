@@ -40,7 +40,7 @@ id,title,level,slug,paid,done
 39,Combination Sum,2,combination-sum,0,1
 40,Combination Sum II,2,combination-sum-ii,0,1
 41,First Missing Positive,3,first-missing-positive,0,0
-42,Trapping Rain Water,3,trapping-rain-water,0,0
+42,Trapping Rain Water,3,trapping-rain-water,0,1
 43,Multiply Strings,2,multiply-strings,0,1
 44,Wildcard Matching,3,wildcard-matching,0,0
 45,Jump Game II,2,jump-game-ii,0,1

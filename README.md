@@ -53,7 +53,7 @@ My daily challenge on leetcode since 2021/09/06.
 |[📎](src/q_1_50/q0039.hpp) [📝](src/q_1_50/q0039_unittest.hpp)|39|[Combination Sum](https://leetcode.com/problems/combination-sum/)|Medium|
 |[📎](src/q_1_50/q0040.hpp) [📝](src/q_1_50/q0040_unittest.hpp)|40|[Combination Sum II](https://leetcode.com/problems/combination-sum-ii/)|Medium|
 ||41|[First Missing Positive](https://leetcode.com/problems/first-missing-positive/)|Hard|
-||42|[Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water/)|Hard|
+|[📎](src/q_1_50/q0042.hpp) [📝](src/q_1_50/q0042_unittest.hpp)|42|[Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water/)|Hard|
 |[📎](src/q_1_50/q0043.hpp) [📝](src/q_1_50/q0043_unittest.hpp)|43|[Multiply Strings](https://leetcode.com/problems/multiply-strings/)|Medium|
 ||44|[Wildcard Matching](https://leetcode.com/problems/wildcard-matching/)|Hard|
 |[📎](src/q_1_50/q0045.hpp) [📝](src/q_1_50/q0045_unittest.hpp)|45|[Jump Game II](https://leetcode.com/problems/jump-game-ii/)|Medium|
@@ -2103,6 +2103,7 @@ My daily challenge on leetcode since 2021/09/06.
 
 |Time|#|</>|Question Title|Difficulty|
 |:--|--:|:-:|:--|:--|
+|2021-10-18 13:29|42|[📎](src/q_1_50/q0042.hpp) [📝](src/q_1_50/q0042_unittest.hpp)|[Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water/)|Hard|
 |2021-10-18 12:57|993|[📎](src/q_951_1000/q0993.hpp) [📝](src/q_951_1000/q0993_unittest.hpp)|[Cousins in Binary Tree](https://leetcode.com/problems/cousins-in-binary-tree/)|Easy|
 |2021-10-17 15:52|1881|[📎](src/q_1851_1900/q1881.hpp) [📝](src/q_1851_1900/q1881_unittest.hpp)|[Maximum Value after Insertion](https://leetcode.com/problems/maximum-value-after-insertion/)|Medium|
 |2021-10-17 15:37|1361|[📎](src/q_1351_1400/q1361.hpp) [📝](src/q_1351_1400/q1361_unittest.hpp)|[Validate Binary Tree Nodes](https://leetcode.com/problems/validate-binary-tree-nodes/)|Medium|
@@ -2127,11 +2128,10 @@ My daily challenge on leetcode since 2021/09/06.
 |2021-10-12 12:18|1887|[📎](src/q_1851_1900/q1887.hpp) [📝](src/q_1851_1900/q1887_unittest.hpp)|[Reduction Operations to Make the Array Elements Equal](https://leetcode.com/problems/reduction-operations-to-make-the-array-elements-equal/)|Medium|
 |2021-10-12 11:52|740|[📎](src/q_701_750/q0740.hpp) [📝](src/q_701_750/q0740_unittest.hpp)|[Delete and Earn](https://leetcode.com/problems/delete-and-earn/)|Medium|
 |2021-10-12 11:20|374|[📎](src/q_351_400/q0374.hpp) [📝](src/q_351_400/q0374_unittest.hpp)|[Guess Number Higher or Lower](https://leetcode.com/problems/guess-number-higher-or-lower/)|Easy|
-|2021-10-11 18:09|110|[📎](src/q_101_150/q0110.hpp) [📝](src/q_101_150/q0110_unittest.hpp)|[Balanced Binary Tree](https://leetcode.com/problems/balanced-binary-tree/)|Easy|
 
 ## Previous Logs
 
 |Month|Submissions|Easy|Medium|Hard|
 |:--|:--|:--|:--|:--|
-|[October_2021](./assets/October_2021.md)|92|24|58|10|
+|[October_2021](./assets/October_2021.md)|93|24|58|11|
 |[September_2021](./assets/September_2021.md)|133|55|71|7|
