@@ -991,7 +991,7 @@ id,title,level,slug,paid,done
 990,Satisfiability of Equality Equations,2,satisfiability-of-equality-equations,0,0
 991,Broken Calculator,2,broken-calculator,0,0
 992,Subarrays with K Different Integers,3,subarrays-with-k-different-integers,0,0
-993,Cousins in Binary Tree,1,cousins-in-binary-tree,0,0
+993,Cousins in Binary Tree,1,cousins-in-binary-tree,0,1
 994,Rotting Oranges,2,rotting-oranges,0,1
 995,Minimum Number of K Consecutive Bit Flips,3,minimum-number-of-k-consecutive-bit-flips,0,0
 996,Number of Squareful Arrays,3,number-of-squareful-arrays,0,0
