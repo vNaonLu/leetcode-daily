@@ -1557,7 +1557,7 @@ id,title,level,slug,paid,done
 1556,Thousand Separator,1,thousand-separator,0,0
 1557,Minimum Number of Vertices to Reach All Nodes,2,minimum-number-of-vertices-to-reach-all-nodes,0,1
 1558,Minimum Numbers of Function Calls to Make Target Array,2,minimum-numbers-of-function-calls-to-make-target-array,0,0
-1559,Detect Cycles in 2D Grid,2,detect-cycles-in-2d-grid,0,0
+1559,Detect Cycles in 2D Grid,2,detect-cycles-in-2d-grid,0,1
 1560,Most Visited Sector in  a Circular Track,1,most-visited-sector-in-a-circular-track,0,0
 1561,Maximum Number of Coins You Can Get,2,maximum-number-of-coins-you-can-get,0,0
 1562,Find Latest Group of Size M,2,find-latest-group-of-size-m,0,0
