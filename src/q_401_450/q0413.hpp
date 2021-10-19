@@ -38,12 +38,11 @@ class Solution {
  public:
   int numberOfArithmeticSlices(vector<int>& nums) {
     if (nums.size() < 3) return 0;
-    int res = 0, cnt = 1;
-    vector<int> diff(nums.size() - 1, 0);
-    for (int i = 1; i < nums.size(); ++i)
-      diff[i - 1] = nums[i] - nums[i - 1];
-    for (int i = 0; i < diff.size() - 1; ++i) {
-      if (diff[i] == diff[i + 1]) {
+    int res = 0,
+        cnt = 1;
+
+    for (int i = 0; i < nums.size() - 2; ++i) {
+      if (nums[i + 2] - nums[i + 1] == nums[i + 1] - nums[i]) {
         ++cnt;
       } else {
         res += cnt * (cnt - 1) / 2;
