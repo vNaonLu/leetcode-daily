@@ -55,9 +55,10 @@ class Solution {
   int numDecodings(string s) {
     vector<int> dp(s.size() + 1, 0);
     dp[0] = 1;
-    for (int i = 1; i <= s.size(); ++i) {
+    dp[1] = s[0] == '0' ? 0 : 1;
+    for (int i = 2; i <= s.size(); ++i){
       dp[i] = s[i - 1] == '0' ? 0 : dp[i - 1];
-      if (i >= 2 && (s[i - 2] == '1' || (s[i - 2] == '2' && s[i - 1] <= '6')))
+      if(s[i-2] == '1' || (s[i-2] == '2' && s[i-1] <= '6'))
         dp[i] += dp[i - 2];
     }
     return dp.back();
