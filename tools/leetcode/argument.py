@@ -158,7 +158,7 @@ class VectorArgument(Argument):
     def parse_value(self, string: str):
         match = regex.search("\[(?P<val>(?:[^\[\]]|(?R))*)\]", string)
         if match != None:
-            element = regex.findall("(\"[\w\W]*?\"|[\d.+-]+|\[(?:[^\[\]]|(?R))*\])",
+            element = regex.findall("(\'[\w\W]*?\'|\"[\w\W]*?\"|[\d.+-]+|\[(?:[^\[\]]|(?R))*\])",
                                  match.group("val"))
             return "{{{}}}".format(
                 ", ".join([self._content.parse_value(e) for e in element]))
