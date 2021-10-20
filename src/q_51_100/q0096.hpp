@@ -27,14 +27,14 @@ using namespace std;
 class Solution {
  public:
   int numTrees(int n) {
-    vector<int> dp = {0, 1};
-    for (int i = 2; i <= n; ++i) {
-      int num = dp[i - 1] * 2;
+    vector<int> dp(n + 1, 1);
+    dp[0] = 0;
+    for (int i = 2; i < dp.size(); ++i) {
+      dp[i] = 2 * dp[i - 1];
       for (int j = 2; j < i; ++j)
-        num += dp[j - 1] * dp[i - j];
-      dp.push_back(num);
+        dp[i] += dp[j - 1] * dp[i - j];
     }
-    return dp[n];
+    return dp.back();
   }
 };
 }  // namespace l96
