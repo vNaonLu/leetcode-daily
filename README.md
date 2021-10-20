@@ -281,7 +281,7 @@ My daily challenge on leetcode since 2021/09/06.
 |🔒|261|[Graph Valid Tree](https://leetcode.com/problems/graph-valid-tree/)|Medium|
 ||262|[Trips and Users](https://leetcode.com/problems/trips-and-users/)|Hard|
 ||263|[Ugly Number](https://leetcode.com/problems/ugly-number/)|Easy|
-||264|[Ugly Number II](https://leetcode.com/problems/ugly-number-ii/)|Medium|
+|[📎](src/q_251_300/q0264.hpp) [📝](src/q_251_300/q0264_unittest.hpp)|264|[Ugly Number II](https://leetcode.com/problems/ugly-number-ii/)|Medium|
 |🔒|265|[Paint House II](https://leetcode.com/problems/paint-house-ii/)|Hard|
 |🔒|266|[Palindrome Permutation](https://leetcode.com/problems/palindrome-permutation/)|Easy|
 |🔒|267|[Palindrome Permutation II](https://leetcode.com/problems/palindrome-permutation-ii/)|Medium|
@@ -2103,6 +2103,7 @@ My daily challenge on leetcode since 2021/09/06.
 
 |Time|#|</>|Question Title|Difficulty|
 |:--|--:|:-:|:--|:--|
+|2021-10-20 13:30|264|[📎](src/q_251_300/q0264.hpp) [📝](src/q_251_300/q0264_unittest.hpp)|[Ugly Number II](https://leetcode.com/problems/ugly-number-ii/)|Medium|
 |2021-10-20 13:17|151|[📎](src/q_151_200/q0151.hpp) [📝](src/q_151_200/q0151_unittest.hpp)|[Reverse Words in a String](https://leetcode.com/problems/reverse-words-in-a-string/)|Medium|
 |2021-10-19 12:05|1559|[📎](src/q_1551_1600/q1559.hpp) [📝](src/q_1551_1600/q1559_unittest.hpp)|[Detect Cycles in 2D Grid](https://leetcode.com/problems/detect-cycles-in-2d-grid/)|Medium|
 |2021-10-19 10:51|496|[📎](src/q_451_500/q0496.hpp) [📝](src/q_451_500/q0496_unittest.hpp)|[Next Greater Element I](https://leetcode.com/problems/next-greater-element-i/)|Easy|
@@ -2127,11 +2128,10 @@ My daily challenge on leetcode since 2021/09/06.
 |2021-10-13 12:39|1534|[📎](src/q_1501_1550/q1534.hpp) [📝](src/q_1501_1550/q1534_unittest.hpp)|[Count Good Triplets](https://leetcode.com/problems/count-good-triplets/)|Easy|
 |2021-10-13 12:32|540|[📎](src/q_501_550/q0540.hpp) [📝](src/q_501_550/q0540_unittest.hpp)|[Single Element in a Sorted Array](https://leetcode.com/problems/single-element-in-a-sorted-array/)|Medium|
 |2021-10-13 12:11|1008|[📎](src/q_1001_1050/q1008.hpp) [📝](src/q_1001_1050/q1008_unittest.hpp)|[Construct Binary Search Tree from Preorder Traversal](https://leetcode.com/problems/construct-binary-search-tree-from-preorder-traversal/)|Medium|
-|2021-10-12 22:11|2018|[📎](src/q_2001_2050/q2018.hpp) [📝](src/q_2001_2050/q2018_unittest.hpp)|[Check if Word Can Be Placed In Crossword](https://leetcode.com/problems/check-if-word-can-be-placed-in-crossword/)|Medium|
 
 ## Previous Logs
 
 |Month|Submissions|Easy|Medium|Hard|
 |:--|:--|:--|:--|:--|
-|[October_2021](./assets/October_2021.md)|96|25|60|11|
+|[October_2021](./assets/October_2021.md)|97|25|61|11|
 |[September_2021](./assets/September_2021.md)|133|55|71|7|
