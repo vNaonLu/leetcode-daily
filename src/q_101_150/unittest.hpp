@@ -30,6 +30,7 @@
 #include "q0143_unittest.hpp"
 #include "q0144_unittest.hpp"
 #include "q0145_unittest.hpp"
+#include "q0148_unittest.hpp"
 #include "q0149_unittest.hpp"
 
 #endif

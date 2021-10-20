@@ -159,7 +159,7 @@ My daily challenge on leetcode since 2021/09/06.
 |[📎](src/q_101_150/q0145.hpp) [📝](src/q_101_150/q0145_unittest.hpp)|145|[Binary Tree Postorder Traversal](https://leetcode.com/problems/binary-tree-postorder-traversal/)|Easy|
 ||146|[LRU Cache](https://leetcode.com/problems/lru-cache/)|Medium|
 ||147|[Insertion Sort List](https://leetcode.com/problems/insertion-sort-list/)|Medium|
-||148|[Sort List](https://leetcode.com/problems/sort-list/)|Medium|
+|[📎](src/q_101_150/q0148.hpp) [📝](src/q_101_150/q0148_unittest.hpp)|148|[Sort List](https://leetcode.com/problems/sort-list/)|Medium|
 |[📎](src/q_101_150/q0149.hpp) [📝](src/q_101_150/q0149_unittest.hpp)|149|[Max Points on a Line](https://leetcode.com/problems/max-points-on-a-line/)|Hard|
 ||150|[Evaluate Reverse Polish Notation](https://leetcode.com/problems/evaluate-reverse-polish-notation/)|Medium|
 |[📎](src/q_151_200/q0151.hpp) [📝](src/q_151_200/q0151_unittest.hpp)|151|[Reverse Words in a String](https://leetcode.com/problems/reverse-words-in-a-string/)|Medium|
@@ -2103,6 +2103,7 @@ My daily challenge on leetcode since 2021/09/06.
 
 |Time|#|</>|Question Title|Difficulty|
 |:--|--:|:-:|:--|:--|
+|2021-10-20 13:51|148|[📎](src/q_101_150/q0148.hpp) [📝](src/q_101_150/q0148_unittest.hpp)|[Sort List](https://leetcode.com/problems/sort-list/)|Medium|
 |2021-10-20 13:30|264|[📎](src/q_251_300/q0264.hpp) [📝](src/q_251_300/q0264_unittest.hpp)|[Ugly Number II](https://leetcode.com/problems/ugly-number-ii/)|Medium|
 |2021-10-20 13:17|151|[📎](src/q_151_200/q0151.hpp) [📝](src/q_151_200/q0151_unittest.hpp)|[Reverse Words in a String](https://leetcode.com/problems/reverse-words-in-a-string/)|Medium|
 |2021-10-19 12:05|1559|[📎](src/q_1551_1600/q1559.hpp) [📝](src/q_1551_1600/q1559_unittest.hpp)|[Detect Cycles in 2D Grid](https://leetcode.com/problems/detect-cycles-in-2d-grid/)|Medium|
@@ -2127,11 +2128,10 @@ My daily challenge on leetcode since 2021/09/06.
 |2021-10-13 12:46|1822|[📎](src/q_1801_1850/q1822.hpp) [📝](src/q_1801_1850/q1822_unittest.hpp)|[Sign of the Product of an Array](https://leetcode.com/problems/sign-of-the-product-of-an-array/)|Easy|
 |2021-10-13 12:39|1534|[📎](src/q_1501_1550/q1534.hpp) [📝](src/q_1501_1550/q1534_unittest.hpp)|[Count Good Triplets](https://leetcode.com/problems/count-good-triplets/)|Easy|
 |2021-10-13 12:32|540|[📎](src/q_501_550/q0540.hpp) [📝](src/q_501_550/q0540_unittest.hpp)|[Single Element in a Sorted Array](https://leetcode.com/problems/single-element-in-a-sorted-array/)|Medium|
-|2021-10-13 12:11|1008|[📎](src/q_1001_1050/q1008.hpp) [📝](src/q_1001_1050/q1008_unittest.hpp)|[Construct Binary Search Tree from Preorder Traversal](https://leetcode.com/problems/construct-binary-search-tree-from-preorder-traversal/)|Medium|
 
 ## Previous Logs
 
 |Month|Submissions|Easy|Medium|Hard|
 |:--|:--|:--|:--|:--|
-|[October_2021](./assets/October_2021.md)|97|25|61|11|
+|[October_2021](./assets/October_2021.md)|98|25|62|11|
 |[September_2021](./assets/September_2021.md)|133|55|71|7|
