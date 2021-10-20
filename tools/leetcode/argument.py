@@ -139,7 +139,6 @@ class StringArgument(Argument):
         self._includes.append("string")
 
     def parse_value(self, string: str):
-        print(string )
         match = re.search("(?P<val>\'[\w\W]*\'|\"[\w\W]*\")", string)
         if match != None:
             return str(re.sub("\'", "\"", match.group("val")))
