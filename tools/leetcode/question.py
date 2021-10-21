@@ -168,7 +168,7 @@ class SolutionClass(SolutionAbstract):
     def __expect_equation(self, input: str, answer: list[str]):
         out: list[str] = []
         split = regex.findall("\[((?:[^\[\]]|(?R))*)\]", input)
-        functions = re.findall("\"(\w+)\"", split[0])
+        functions = re.findall("(\w+)", split[0])
         args_statement = regex.findall("\[((?:[^\[\]]|(?R))*)\]", split[1])
         if len(functions) != len(answer) or \
                 len(functions) != len(args_statement):
