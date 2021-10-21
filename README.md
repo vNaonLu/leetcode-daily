@@ -397,7 +397,7 @@ My daily challenge on leetcode since 2021/09/06.
 ||377|[Combination Sum IV](https://leetcode.com/problems/combination-sum-iv/)|Medium|
 ||378|[Kth Smallest Element in a Sorted Matrix](https://leetcode.com/problems/kth-smallest-element-in-a-sorted-matrix/)|Medium|
 |🔒|379|[Design Phone Directory](https://leetcode.com/problems/design-phone-directory/)|Medium|
-||380|[Insert Delete GetRandom O(1)](https://leetcode.com/problems/insert-delete-getrandom-o1/)|Medium|
+|[📎](src/q_351_400/q0380.hpp) [📝](src/q_351_400/q0380_unittest.hpp)|380|[Insert Delete GetRandom O(1)](https://leetcode.com/problems/insert-delete-getrandom-o1/)|Medium|
 ||381|[Insert Delete GetRandom O(1) - Duplicates allowed](https://leetcode.com/problems/insert-delete-getrandom-o1-duplicates-allowed/)|Hard|
 ||382|[Linked List Random Node](https://leetcode.com/problems/linked-list-random-node/)|Medium|
 |[📎](src/q_351_400/q0383.hpp) [📝](src/q_351_400/q0383_unittest.hpp)|383|[Ransom Note](https://leetcode.com/problems/ransom-note/)|Easy|
@@ -1462,7 +1462,7 @@ My daily challenge on leetcode since 2021/09/06.
 ||1418|[Display Table of Food Orders in a Restaurant](https://leetcode.com/problems/display-table-of-food-orders-in-a-restaurant/)|Medium|
 ||1419|[Minimum Number of Frogs Croaking](https://leetcode.com/problems/minimum-number-of-frogs-croaking/)|Medium|
 ||1420|[Build Array Where You Can Find The Maximum Exactly K Comparisons](https://leetcode.com/problems/build-array-where-you-can-find-the-maximum-exactly-k-comparisons/)|Hard|
-|🔒|1421|[NPV Queries](https://leetcode.com/problems/npv-queries/)|Medium|
+|🔒|1421|[NPV Queries](https://leetcode.com/problems/npv-queries/)|Easy|
 ||1422|[Maximum Score After Splitting a String](https://leetcode.com/problems/maximum-score-after-splitting-a-string/)|Easy|
 ||1423|[Maximum Points You Can Obtain from Cards](https://leetcode.com/problems/maximum-points-you-can-obtain-from-cards/)|Medium|
 ||1424|[Diagonal Traverse II](https://leetcode.com/problems/diagonal-traverse-ii/)|Medium|
@@ -2056,7 +2056,7 @@ My daily challenge on leetcode since 2021/09/06.
 ||2000|[Reverse Prefix of Word](https://leetcode.com/problems/reverse-prefix-of-word/)|Easy|
 </details>
 <details>
-  <summary>### 2001 ~ 2036</summary>
+  <summary>### 2001 ~ 2045</summary>
 
 |</>|#|Solution Title|Difficulty|
 |--:|--:|:--|:--|
@@ -2096,6 +2096,15 @@ My daily challenge on leetcode since 2021/09/06.
 ||2034|[Stock Price Fluctuation ](https://leetcode.com/problems/stock-price-fluctuation/)|Medium|
 ||2035|[Partition Array Into Two Arrays to Minimize Sum Difference](https://leetcode.com/problems/partition-array-into-two-arrays-to-minimize-sum-difference/)|Hard|
 |🔒|2036|[Maximum Alternating Subarray Sum](https://leetcode.com/problems/maximum-alternating-subarray-sum/)|Medium|
+||2037|[Minimum Number of Moves to Seat Everyone](https://leetcode.com/problems/minimum-number-of-moves-to-seat-everyone/)|Easy|
+||2038|[Remove Colored Pieces if Both Neighbors are the Same Color](https://leetcode.com/problems/remove-colored-pieces-if-both-neighbors-are-the-same-color/)|Medium|
+||2039|[The Time When the Network Becomes Idle](https://leetcode.com/problems/the-time-when-the-network-becomes-idle/)|Medium|
+||2040|[Kth Smallest Product of Two Sorted Arrays](https://leetcode.com/problems/kth-smallest-product-of-two-sorted-arrays/)|Hard|
+|🔒|2041|[Accepted Candidates From the Interviews](https://leetcode.com/problems/accepted-candidates-from-the-interviews/)|Medium|
+||2042|[Check if Numbers Are Ascending in a Sentence](https://leetcode.com/problems/check-if-numbers-are-ascending-in-a-sentence/)|Easy|
+||2043|[Simple Bank System](https://leetcode.com/problems/simple-bank-system/)|Medium|
+||2044|[Count Number of Maximum Bitwise-OR Subsets](https://leetcode.com/problems/count-number-of-maximum-bitwise-or-subsets/)|Medium|
+||2045|[Second Minimum Time to Reach Destination](https://leetcode.com/problems/second-minimum-time-to-reach-destination/)|Hard|
 </details>
 
 ---
@@ -2103,6 +2112,7 @@ My daily challenge on leetcode since 2021/09/06.
 
 |Time|#|</>|Question Title|Difficulty|
 |:--|--:|:-:|:--|:--|
+|2021-10-21 13:14|380|[📎](src/q_351_400/q0380.hpp) [📝](src/q_351_400/q0380_unittest.hpp)|[Insert Delete GetRandom O(1)](https://leetcode.com/problems/insert-delete-getrandom-o1/)|Medium|
 |2021-10-20 13:51|148|[📎](src/q_101_150/q0148.hpp) [📝](src/q_101_150/q0148_unittest.hpp)|[Sort List](https://leetcode.com/problems/sort-list/)|Medium|
 |2021-10-20 13:30|264|[📎](src/q_251_300/q0264.hpp) [📝](src/q_251_300/q0264_unittest.hpp)|[Ugly Number II](https://leetcode.com/problems/ugly-number-ii/)|Medium|
 |2021-10-20 13:17|151|[📎](src/q_151_200/q0151.hpp) [📝](src/q_151_200/q0151_unittest.hpp)|[Reverse Words in a String](https://leetcode.com/problems/reverse-words-in-a-string/)|Medium|
@@ -2127,11 +2137,10 @@ My daily challenge on leetcode since 2021/09/06.
 |2021-10-13 12:55|946|[📎](src/q_901_950/q0946.hpp) [📝](src/q_901_950/q0946_unittest.hpp)|[Validate Stack Sequences](https://leetcode.com/problems/validate-stack-sequences/)|Medium|
 |2021-10-13 12:46|1822|[📎](src/q_1801_1850/q1822.hpp) [📝](src/q_1801_1850/q1822_unittest.hpp)|[Sign of the Product of an Array](https://leetcode.com/problems/sign-of-the-product-of-an-array/)|Easy|
 |2021-10-13 12:39|1534|[📎](src/q_1501_1550/q1534.hpp) [📝](src/q_1501_1550/q1534_unittest.hpp)|[Count Good Triplets](https://leetcode.com/problems/count-good-triplets/)|Easy|
-|2021-10-13 12:32|540|[📎](src/q_501_550/q0540.hpp) [📝](src/q_501_550/q0540_unittest.hpp)|[Single Element in a Sorted Array](https://leetcode.com/problems/single-element-in-a-sorted-array/)|Medium|
 
 ## Previous Logs
 
 |Month|Submissions|Easy|Medium|Hard|
 |:--|:--|:--|:--|:--|
-|[October_2021](./assets/October_2021.md)|98|25|62|11|
+|[October_2021](./assets/October_2021.md)|99|25|63|11|
 |[September_2021](./assets/September_2021.md)|133|55|71|7|

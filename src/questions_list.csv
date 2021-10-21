@@ -378,7 +378,7 @@ id,title,level,slug,paid,done
 377,Combination Sum IV,2,combination-sum-iv,0,0
 378,Kth Smallest Element in a Sorted Matrix,2,kth-smallest-element-in-a-sorted-matrix,0,0
 379,Design Phone Directory,2,design-phone-directory,1,0
-380,Insert Delete GetRandom O(1),2,insert-delete-getrandom-o1,0,0
+380,Insert Delete GetRandom O(1),2,insert-delete-getrandom-o1,0,1
 381,Insert Delete GetRandom O(1) - Duplicates allowed,3,insert-delete-getrandom-o1-duplicates-allowed,0,0
 382,Linked List Random Node,2,linked-list-random-node,0,0
 383,Ransom Note,1,ransom-note,0,1
@@ -1419,7 +1419,7 @@ id,title,level,slug,paid,done
 1418,Display Table of Food Orders in a Restaurant,2,display-table-of-food-orders-in-a-restaurant,0,0
 1419,Minimum Number of Frogs Croaking,2,minimum-number-of-frogs-croaking,0,0
 1420,Build Array Where You Can Find The Maximum Exactly K Comparisons,3,build-array-where-you-can-find-the-maximum-exactly-k-comparisons,0,0
-1421,NPV Queries,2,npv-queries,1,0
+1421,NPV Queries,1,npv-queries,1,0
 1422,Maximum Score After Splitting a String,1,maximum-score-after-splitting-a-string,0,0
 1423,Maximum Points You Can Obtain from Cards,2,maximum-points-you-can-obtain-from-cards,0,0
 1424,Diagonal Traverse II,2,diagonal-traverse-ii,0,0
@@ -2035,3 +2035,12 @@ id,title,level,slug,paid,done
 2034,Stock Price Fluctuation ,2,stock-price-fluctuation,0,0
 2035,Partition Array Into Two Arrays to Minimize Sum Difference,3,partition-array-into-two-arrays-to-minimize-sum-difference,0,0
 2036,Maximum Alternating Subarray Sum,2,maximum-alternating-subarray-sum,1,0
+2037,Minimum Number of Moves to Seat Everyone,1,minimum-number-of-moves-to-seat-everyone,0,0
+2038,Remove Colored Pieces if Both Neighbors are the Same Color,2,remove-colored-pieces-if-both-neighbors-are-the-same-color,0,0
+2039,The Time When the Network Becomes Idle,2,the-time-when-the-network-becomes-idle,0,0
+2040,Kth Smallest Product of Two Sorted Arrays,3,kth-smallest-product-of-two-sorted-arrays,0,0
+2041,Accepted Candidates From the Interviews,2,accepted-candidates-from-the-interviews,1,0
+2042,Check if Numbers Are Ascending in a Sentence,1,check-if-numbers-are-ascending-in-a-sentence,0,0
+2043,Simple Bank System,2,simple-bank-system,0,0
+2044,Count Number of Maximum Bitwise-OR Subsets,2,count-number-of-maximum-bitwise-or-subsets,0,0
+2045,Second Minimum Time to Reach Destination,3,second-minimum-time-to-reach-destination,0,0
