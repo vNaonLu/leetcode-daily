@@ -190,10 +190,11 @@ class SolutionClass(SolutionAbstract):
                 args.append(t.parse_value(arg_input[j]))
 
             if functions[i] == self.class_name():
-                out.append("l{}::{} *{} = new {}({});".format(self._id, self.class_name(),
-                                                              self.solution_object(),
-                                                              self.class_name(),
-                                                              ", ".join(args)))
+                out.append("l{}::{} *{} = new l{}::{}({});".format(self._id, self.class_name(),
+                                                                   self.solution_object(),
+                                                                   self._id,
+                                                                   self.class_name(),
+                                                                   ", ".join(args)))
             else:
                 actual = "{}->{}({})".format(self.solution_object(),
                                              method.name(),
