@@ -960,7 +960,7 @@ My daily challenge on leetcode since 2021/09/06.
 ||928|[Minimize Malware Spread II](https://leetcode.com/problems/minimize-malware-spread-ii/)|Hard|
 |[📎](src/q_901_950/q0929.hpp) [📝](src/q_901_950/q0929_unittest.hpp)|929|[Unique Email Addresses](https://leetcode.com/problems/unique-email-addresses/)|Easy|
 ||930|[Binary Subarrays With Sum](https://leetcode.com/problems/binary-subarrays-with-sum/)|Medium|
-||931|[Minimum Falling Path Sum](https://leetcode.com/problems/minimum-falling-path-sum/)|Medium|
+|[📎](src/q_901_950/q0931.hpp) [📝](src/q_901_950/q0931_unittest.hpp)|931|[Minimum Falling Path Sum](https://leetcode.com/problems/minimum-falling-path-sum/)|Medium|
 ||932|[Beautiful Array](https://leetcode.com/problems/beautiful-array/)|Medium|
 ||933|[Number of Recent Calls](https://leetcode.com/problems/number-of-recent-calls/)|Easy|
 ||934|[Shortest Bridge](https://leetcode.com/problems/shortest-bridge/)|Medium|
@@ -2056,7 +2056,7 @@ My daily challenge on leetcode since 2021/09/06.
 ||2000|[Reverse Prefix of Word](https://leetcode.com/problems/reverse-prefix-of-word/)|Easy|
 </details>
 <details>
-  <summary>### 2001 ~ 2045</summary>
+  <summary>### 2001 ~ 2046</summary>
 
 |</>|#|Solution Title|Difficulty|
 |--:|--:|:--|:--|
@@ -2105,6 +2105,7 @@ My daily challenge on leetcode since 2021/09/06.
 ||2043|[Simple Bank System](https://leetcode.com/problems/simple-bank-system/)|Medium|
 ||2044|[Count Number of Maximum Bitwise-OR Subsets](https://leetcode.com/problems/count-number-of-maximum-bitwise-or-subsets/)|Medium|
 ||2045|[Second Minimum Time to Reach Destination](https://leetcode.com/problems/second-minimum-time-to-reach-destination/)|Hard|
+|🔒|2046|[Sort Linked List Already Sorted Using Absolute Values](https://leetcode.com/problems/sort-linked-list-already-sorted-using-absolute-values/)|Medium|
 </details>
 
 ---
@@ -2112,6 +2113,7 @@ My daily challenge on leetcode since 2021/09/06.
 
 |Time|#|</>|Question Title|Difficulty|
 |:--|--:|:-:|:--|:--|
+|2021-10-22 13:55|931|[📎](src/q_901_950/q0931.hpp) [📝](src/q_901_950/q0931_unittest.hpp)|[Minimum Falling Path Sum](https://leetcode.com/problems/minimum-falling-path-sum/)|Medium|
 |2021-10-21 13:14|380|[📎](src/q_351_400/q0380.hpp) [📝](src/q_351_400/q0380_unittest.hpp)|[Insert Delete GetRandom O(1)](https://leetcode.com/problems/insert-delete-getrandom-o1/)|Medium|
 |2021-10-20 13:51|148|[📎](src/q_101_150/q0148.hpp) [📝](src/q_101_150/q0148_unittest.hpp)|[Sort List](https://leetcode.com/problems/sort-list/)|Medium|
 |2021-10-20 13:30|264|[📎](src/q_251_300/q0264.hpp) [📝](src/q_251_300/q0264_unittest.hpp)|[Ugly Number II](https://leetcode.com/problems/ugly-number-ii/)|Medium|
@@ -2136,11 +2138,10 @@ My daily challenge on leetcode since 2021/09/06.
 |2021-10-13 13:21|852|[📎](src/q_851_900/q0852.hpp) [📝](src/q_851_900/q0852_unittest.hpp)|[Peak Index in a Mountain Array](https://leetcode.com/problems/peak-index-in-a-mountain-array/)|Easy|
 |2021-10-13 12:55|946|[📎](src/q_901_950/q0946.hpp) [📝](src/q_901_950/q0946_unittest.hpp)|[Validate Stack Sequences](https://leetcode.com/problems/validate-stack-sequences/)|Medium|
 |2021-10-13 12:46|1822|[📎](src/q_1801_1850/q1822.hpp) [📝](src/q_1801_1850/q1822_unittest.hpp)|[Sign of the Product of an Array](https://leetcode.com/problems/sign-of-the-product-of-an-array/)|Easy|
-|2021-10-13 12:39|1534|[📎](src/q_1501_1550/q1534.hpp) [📝](src/q_1501_1550/q1534_unittest.hpp)|[Count Good Triplets](https://leetcode.com/problems/count-good-triplets/)|Easy|
 
 ## Previous Logs
 
 |Month|Submissions|Easy|Medium|Hard|
 |:--|:--|:--|:--|:--|
-|[October_2021](./assets/October_2021.md)|99|25|63|11|
+|[October_2021](./assets/October_2021.md)|100|25|64|11|
 |[September_2021](./assets/September_2021.md)|133|55|71|7|
