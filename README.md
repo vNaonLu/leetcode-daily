@@ -165,7 +165,7 @@ My daily challenge on leetcode since 2021/09/06.
 |[📎](src/q_151_200/q0151.hpp) [📝](src/q_151_200/q0151_unittest.hpp)|151|[Reverse Words in a String](https://leetcode.com/problems/reverse-words-in-a-string/)|Medium|
 |[📎](src/q_151_200/q0152.hpp) [📝](src/q_151_200/q0152_unittest.hpp)|152|[Maximum Product Subarray](https://leetcode.com/problems/maximum-product-subarray/)|Medium|
 |[📎](src/q_151_200/q0153.hpp) [📝](src/q_151_200/q0153_unittest.hpp)|153|[Find Minimum in Rotated Sorted Array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/)|Medium|
-||154|[Find Minimum in Rotated Sorted Array II](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array-ii/)|Hard|
+|[📎](src/q_151_200/q0154.hpp) [📝](src/q_151_200/q0154_unittest.hpp)|154|[Find Minimum in Rotated Sorted Array II](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array-ii/)|Hard|
 |[📎](src/q_151_200/q0155.hpp) [📝](src/q_151_200/q0155_unittest.hpp)|155|[Min Stack](https://leetcode.com/problems/min-stack/)|Easy|
 |🔒|156|[Binary Tree Upside Down](https://leetcode.com/problems/binary-tree-upside-down/)|Medium|
 |🔒|157|[Read N Characters Given Read4](https://leetcode.com/problems/read-n-characters-given-read4/)|Easy|
@@ -2113,6 +2113,7 @@ My daily challenge on leetcode since 2021/09/06.
 
 |Time|#|</>|Question Title|Difficulty|
 |:--|--:|:-:|:--|:--|
+|2021-10-23 09:55|154|[📎](src/q_151_200/q0154.hpp) [📝](src/q_151_200/q0154_unittest.hpp)|[Find Minimum in Rotated Sorted Array II](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array-ii/)|Hard|
 |2021-10-22 13:55|931|[📎](src/q_901_950/q0931.hpp) [📝](src/q_901_950/q0931_unittest.hpp)|[Minimum Falling Path Sum](https://leetcode.com/problems/minimum-falling-path-sum/)|Medium|
 |2021-10-21 13:14|380|[📎](src/q_351_400/q0380.hpp) [📝](src/q_351_400/q0380_unittest.hpp)|[Insert Delete GetRandom O(1)](https://leetcode.com/problems/insert-delete-getrandom-o1/)|Medium|
 |2021-10-20 13:51|148|[📎](src/q_101_150/q0148.hpp) [📝](src/q_101_150/q0148_unittest.hpp)|[Sort List](https://leetcode.com/problems/sort-list/)|Medium|
@@ -2137,11 +2138,10 @@ My daily challenge on leetcode since 2021/09/06.
 |2021-10-14 11:56|279|[📎](src/q_251_300/q0279.hpp) [📝](src/q_251_300/q0279_unittest.hpp)|[Perfect Squares](https://leetcode.com/problems/perfect-squares/)|Medium|
 |2021-10-13 13:21|852|[📎](src/q_851_900/q0852.hpp) [📝](src/q_851_900/q0852_unittest.hpp)|[Peak Index in a Mountain Array](https://leetcode.com/problems/peak-index-in-a-mountain-array/)|Easy|
 |2021-10-13 12:55|946|[📎](src/q_901_950/q0946.hpp) [📝](src/q_901_950/q0946_unittest.hpp)|[Validate Stack Sequences](https://leetcode.com/problems/validate-stack-sequences/)|Medium|
-|2021-10-13 12:46|1822|[📎](src/q_1801_1850/q1822.hpp) [📝](src/q_1801_1850/q1822_unittest.hpp)|[Sign of the Product of an Array](https://leetcode.com/problems/sign-of-the-product-of-an-array/)|Easy|
 
 ## Previous Logs
 
 |Month|Submissions|Easy|Medium|Hard|
 |:--|:--|:--|:--|:--|
-|[October_2021](./assets/October_2021.md)|100|25|64|11|
+|[October_2021](./assets/October_2021.md)|101|25|64|12|
 |[September_2021](./assets/September_2021.md)|133|55|71|7|
