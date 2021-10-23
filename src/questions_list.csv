@@ -1312,7 +1312,7 @@ id,title,level,slug,paid,done
 1311,Get Watched Videos by Your Friends,2,get-watched-videos-by-your-friends,0,0
 1312,Minimum Insertion Steps to Make a String Palindrome,3,minimum-insertion-steps-to-make-a-string-palindrome,0,0
 1313,Decompress Run-Length Encoded List,1,decompress-run-length-encoded-list,0,0
-1314,Matrix Block Sum,2,matrix-block-sum,0,0
+1314,Matrix Block Sum,2,matrix-block-sum,0,1
 1315,Sum of Nodes with Even-Valued Grandparent,2,sum-of-nodes-with-even-valued-grandparent,0,0
 1316,Distinct Echo Substrings,3,distinct-echo-substrings,0,0
 1317,Convert Integer to the Sum of Two No-Zero Integers,1,convert-integer-to-the-sum-of-two-no-zero-integers,0,0

@@ -1355,7 +1355,7 @@ My daily challenge on leetcode since 2021/09/06.
 ||1311|[Get Watched Videos by Your Friends](https://leetcode.com/problems/get-watched-videos-by-your-friends/)|Medium|
 ||1312|[Minimum Insertion Steps to Make a String Palindrome](https://leetcode.com/problems/minimum-insertion-steps-to-make-a-string-palindrome/)|Hard|
 ||1313|[Decompress Run-Length Encoded List](https://leetcode.com/problems/decompress-run-length-encoded-list/)|Easy|
-||1314|[Matrix Block Sum](https://leetcode.com/problems/matrix-block-sum/)|Medium|
+|[📎](src/q_1301_1350/q1314.hpp) [📝](src/q_1301_1350/q1314_unittest.hpp)|1314|[Matrix Block Sum](https://leetcode.com/problems/matrix-block-sum/)|Medium|
 ||1315|[Sum of Nodes with Even-Valued Grandparent](https://leetcode.com/problems/sum-of-nodes-with-even-valued-grandparent/)|Medium|
 ||1316|[Distinct Echo Substrings](https://leetcode.com/problems/distinct-echo-substrings/)|Hard|
 ||1317|[Convert Integer to the Sum of Two No-Zero Integers](https://leetcode.com/problems/convert-integer-to-the-sum-of-two-no-zero-integers/)|Easy|
@@ -2113,6 +2113,7 @@ My daily challenge on leetcode since 2021/09/06.
 
 |Time|#|</>|Question Title|Difficulty|
 |:--|--:|:-:|:--|:--|
+|2021-10-23 09:56|1314|[📎](src/q_1301_1350/q1314.hpp) [📝](src/q_1301_1350/q1314_unittest.hpp)|[Matrix Block Sum](https://leetcode.com/problems/matrix-block-sum/)|Medium|
 |2021-10-23 09:55|154|[📎](src/q_151_200/q0154.hpp) [📝](src/q_151_200/q0154_unittest.hpp)|[Find Minimum in Rotated Sorted Array II](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array-ii/)|Hard|
 |2021-10-22 13:55|931|[📎](src/q_901_950/q0931.hpp) [📝](src/q_901_950/q0931_unittest.hpp)|[Minimum Falling Path Sum](https://leetcode.com/problems/minimum-falling-path-sum/)|Medium|
 |2021-10-21 13:14|380|[📎](src/q_351_400/q0380.hpp) [📝](src/q_351_400/q0380_unittest.hpp)|[Insert Delete GetRandom O(1)](https://leetcode.com/problems/insert-delete-getrandom-o1/)|Medium|
@@ -2137,11 +2138,10 @@ My daily challenge on leetcode since 2021/09/06.
 |2021-10-14 12:35|53|[📎](src/q_51_100/q0053.hpp) [📝](src/q_51_100/q0053_unittest.hpp)|[Maximum Subarray](https://leetcode.com/problems/maximum-subarray/)|Easy|
 |2021-10-14 11:56|279|[📎](src/q_251_300/q0279.hpp) [📝](src/q_251_300/q0279_unittest.hpp)|[Perfect Squares](https://leetcode.com/problems/perfect-squares/)|Medium|
 |2021-10-13 13:21|852|[📎](src/q_851_900/q0852.hpp) [📝](src/q_851_900/q0852_unittest.hpp)|[Peak Index in a Mountain Array](https://leetcode.com/problems/peak-index-in-a-mountain-array/)|Easy|
-|2021-10-13 12:55|946|[📎](src/q_901_950/q0946.hpp) [📝](src/q_901_950/q0946_unittest.hpp)|[Validate Stack Sequences](https://leetcode.com/problems/validate-stack-sequences/)|Medium|
 
 ## Previous Logs
 
 |Month|Submissions|Easy|Medium|Hard|
 |:--|:--|:--|:--|:--|
-|[October_2021](./assets/October_2021.md)|101|25|64|12|
+|[October_2021](./assets/October_2021.md)|102|25|65|12|
 |[September_2021](./assets/September_2021.md)|133|55|71|7|
