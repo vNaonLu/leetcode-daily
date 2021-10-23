@@ -302,7 +302,7 @@ id,title,level,slug,paid,done
 301,Remove Invalid Parentheses,3,remove-invalid-parentheses,0,0
 302,Smallest Rectangle Enclosing Black Pixels,3,smallest-rectangle-enclosing-black-pixels,1,0
 303,Range Sum Query - Immutable,1,range-sum-query-immutable,0,0
-304,Range Sum Query 2D - Immutable,2,range-sum-query-2d-immutable,0,0
+304,Range Sum Query 2D - Immutable,2,range-sum-query-2d-immutable,0,1
 305,Number of Islands II,3,number-of-islands-ii,1,0
 306,Additive Number,2,additive-number,0,0
 307,Range Sum Query - Mutable,2,range-sum-query-mutable,0,0
