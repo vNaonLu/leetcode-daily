@@ -233,7 +233,7 @@ My daily challenge on leetcode since 2021/09/06.
 ||219|[Contains Duplicate II](https://leetcode.com/problems/contains-duplicate-ii/)|Easy|
 ||220|[Contains Duplicate III](https://leetcode.com/problems/contains-duplicate-iii/)|Medium|
 ||221|[Maximal Square](https://leetcode.com/problems/maximal-square/)|Medium|
-||222|[Count Complete Tree Nodes](https://leetcode.com/problems/count-complete-tree-nodes/)|Medium|
+|[📎](src/q_201_250/q0222.hpp) [📝](src/q_201_250/q0222_unittest.hpp)|222|[Count Complete Tree Nodes](https://leetcode.com/problems/count-complete-tree-nodes/)|Medium|
 ||223|[Rectangle Area](https://leetcode.com/problems/rectangle-area/)|Medium|
 |[📎](src/q_201_250/q0224.hpp) [📝](src/q_201_250/q0224_unittest.hpp)|224|[Basic Calculator](https://leetcode.com/problems/basic-calculator/)|Hard|
 ||225|[Implement Stack using Queues](https://leetcode.com/problems/implement-stack-using-queues/)|Easy|
@@ -2113,6 +2113,7 @@ My daily challenge on leetcode since 2021/09/06.
 
 |Time|#|</>|Question Title|Difficulty|
 |:--|--:|:-:|:--|:--|
+|2021-10-24 22:03|222|[📎](src/q_201_250/q0222.hpp) [📝](src/q_201_250/q0222_unittest.hpp)|[Count Complete Tree Nodes](https://leetcode.com/problems/count-complete-tree-nodes/)|Medium|
 |2021-10-23 09:57|304|[📎](src/q_301_350/q0304.hpp) [📝](src/q_301_350/q0304_unittest.hpp)|[Range Sum Query 2D - Immutable](https://leetcode.com/problems/range-sum-query-2d-immutable/)|Medium|
 |2021-10-23 09:56|1314|[📎](src/q_1301_1350/q1314.hpp) [📝](src/q_1301_1350/q1314_unittest.hpp)|[Matrix Block Sum](https://leetcode.com/problems/matrix-block-sum/)|Medium|
 |2021-10-23 09:55|154|[📎](src/q_151_200/q0154.hpp) [📝](src/q_151_200/q0154_unittest.hpp)|[Find Minimum in Rotated Sorted Array II](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array-ii/)|Hard|
@@ -2137,11 +2138,10 @@ My daily challenge on leetcode since 2021/09/06.
 |2021-10-15 10:08|309|[📎](src/q_301_350/q0309.hpp) [📝](src/q_301_350/q0309_unittest.hpp)|[Best Time to Buy and Sell Stock with Cooldown](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-cooldown/)|Medium|
 |2021-10-14 12:48|918|[📎](src/q_901_950/q0918.hpp) [📝](src/q_901_950/q0918_unittest.hpp)|[Maximum Sum Circular Subarray](https://leetcode.com/problems/maximum-sum-circular-subarray/)|Medium|
 |2021-10-14 12:35|53|[📎](src/q_51_100/q0053.hpp) [📝](src/q_51_100/q0053_unittest.hpp)|[Maximum Subarray](https://leetcode.com/problems/maximum-subarray/)|Easy|
-|2021-10-14 11:56|279|[📎](src/q_251_300/q0279.hpp) [📝](src/q_251_300/q0279_unittest.hpp)|[Perfect Squares](https://leetcode.com/problems/perfect-squares/)|Medium|
 
 ## Previous Logs
 
 |Month|Submissions|Easy|Medium|Hard|
 |:--|:--|:--|:--|:--|
-|[October_2021](./assets/October_2021.md)|103|25|66|12|
+|[October_2021](./assets/October_2021.md)|104|25|67|12|
 |[September_2021](./assets/September_2021.md)|133|55|71|7|
