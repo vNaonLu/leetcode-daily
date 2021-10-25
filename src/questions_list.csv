@@ -219,7 +219,7 @@ id,title,level,slug,paid,done
 218,The Skyline Problem,3,the-skyline-problem,0,0
 219,Contains Duplicate II,1,contains-duplicate-ii,0,0
 220,Contains Duplicate III,2,contains-duplicate-iii,0,0
-221,Maximal Square,2,maximal-square,0,0
+221,Maximal Square,2,maximal-square,0,1
 222,Count Complete Tree Nodes,2,count-complete-tree-nodes,0,1
 223,Rectangle Area,2,rectangle-area,0,0
 224,Basic Calculator,3,basic-calculator,0,1
