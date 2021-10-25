@@ -62,7 +62,7 @@ id,title,level,slug,paid,done
 61,Rotate List,2,rotate-list,0,0
 62,Unique Paths,2,unique-paths,0,1
 63,Unique Paths II,2,unique-paths-ii,0,1
-64,Minimum Path Sum,2,minimum-path-sum,0,0
+64,Minimum Path Sum,2,minimum-path-sum,0,1
 65,Valid Number,3,valid-number,0,0
 66,Plus One,1,plus-one,0,0
 67,Add Binary,1,add-binary,0,0
@@ -2045,3 +2045,7 @@ id,title,level,slug,paid,done
 2044,Count Number of Maximum Bitwise-OR Subsets,2,count-number-of-maximum-bitwise-or-subsets,0,0
 2045,Second Minimum Time to Reach Destination,3,second-minimum-time-to-reach-destination,0,0
 2046,Sort Linked List Already Sorted Using Absolute Values,2,sort-linked-list-already-sorted-using-absolute-values,1,0
+2047,Number of Valid Words in a Sentence,1,number-of-valid-words-in-a-sentence,0,0
+2048,Next Greater Numerically Balanced Number,2,next-greater-numerically-balanced-number,0,0
+2049,Count Nodes With the Highest Score,2,count-nodes-with-the-highest-score,0,0
+2050,Parallel Courses III,3,parallel-courses-iii,0,0

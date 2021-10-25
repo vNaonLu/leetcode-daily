@@ -9,6 +9,7 @@
 #include "q0059_unittest.hpp"
 #include "q0062_unittest.hpp"
 #include "q0063_unittest.hpp"
+#include "q0064_unittest.hpp"
 #include "q0070_unittest.hpp"
 #include "q0072_unittest.hpp"
 #include "q0074_unittest.hpp"
