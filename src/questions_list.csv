@@ -514,7 +514,7 @@ id,title,level,slug,paid,done
 513,Find Bottom Left Tree Value,2,find-bottom-left-tree-value,0,0
 514,Freedom Trail,3,freedom-trail,0,0
 515,Find Largest Value in Each Tree Row,2,find-largest-value-in-each-tree-row,0,0
-516,Longest Palindromic Subsequence,2,longest-palindromic-subsequence,0,0
+516,Longest Palindromic Subsequence,2,longest-palindromic-subsequence,0,1
 517,Super Washing Machines,3,super-washing-machines,0,0
 518,Coin Change 2,2,coin-change-2,0,0
 519,Random Flip Matrix,2,random-flip-matrix,0,0
