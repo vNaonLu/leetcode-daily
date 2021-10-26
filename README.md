@@ -584,7 +584,7 @@ My daily challenge on leetcode since 2021/09/06.
 ||558|[Logical OR of Two Binary Grids Represented as Quad-Trees](https://leetcode.com/problems/logical-or-of-two-binary-grids-represented-as-quad-trees/)|Medium|
 ||559|[Maximum Depth of N-ary Tree](https://leetcode.com/problems/maximum-depth-of-n-ary-tree/)|Easy|
 |[📎](src/q_551_600/q0560.hpp) [📝](src/q_551_600/q0560_unittest.hpp)|560|[Subarray Sum Equals K](https://leetcode.com/problems/subarray-sum-equals-k/)|Medium|
-||561|[Array Partition I](https://leetcode.com/problems/array-partition-i/)|Easy|
+|[📎](src/q_551_600/q0561.hpp) [📝](src/q_551_600/q0561_unittest.hpp)|561|[Array Partition I](https://leetcode.com/problems/array-partition-i/)|Easy|
 |🔒|562|[Longest Line of Consecutive One in Matrix](https://leetcode.com/problems/longest-line-of-consecutive-one-in-matrix/)|Medium|
 ||563|[Binary Tree Tilt](https://leetcode.com/problems/binary-tree-tilt/)|Easy|
 ||564|[Find the Closest Palindrome](https://leetcode.com/problems/find-the-closest-palindrome/)|Hard|
@@ -2117,6 +2117,7 @@ My daily challenge on leetcode since 2021/09/06.
 
 |Time|#|</>|Question Title|Difficulty|
 |:--|--:|:-:|:--|:--|
+|2021-10-26 14:26|561|[📎](src/q_551_600/q0561.hpp) [📝](src/q_551_600/q0561_unittest.hpp)|[Array Partition I](https://leetcode.com/problems/array-partition-i/)|Easy|
 |2021-10-26 14:13|516|[📎](src/q_501_550/q0516.hpp) [📝](src/q_501_550/q0516_unittest.hpp)|[Longest Palindromic Subsequence](https://leetcode.com/problems/longest-palindromic-subsequence/)|Medium|
 |2021-10-25 14:23|221|[📎](src/q_201_250/q0221.hpp) [📝](src/q_201_250/q0221_unittest.hpp)|[Maximal Square](https://leetcode.com/problems/maximal-square/)|Medium|
 |2021-10-25 14:22|64|[📎](src/q_51_100/q0064.hpp) [📝](src/q_51_100/q0064_unittest.hpp)|[Minimum Path Sum](https://leetcode.com/problems/minimum-path-sum/)|Medium|
@@ -2141,11 +2142,10 @@ My daily challenge on leetcode since 2021/09/06.
 |2021-10-16 13:35|122|[📎](src/q_101_150/q0122.hpp) [📝](src/q_101_150/q0122_unittest.hpp)|[Best Time to Buy and Sell Stock II](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/)|Medium|
 |2021-10-16 13:29|1014|[📎](src/q_1001_1050/q1014.hpp) [📝](src/q_1001_1050/q1014_unittest.hpp)|[Best Sightseeing Pair](https://leetcode.com/problems/best-sightseeing-pair/)|Medium|
 |2021-10-16 13:13|123|[📎](src/q_101_150/q0123.hpp) [📝](src/q_101_150/q0123_unittest.hpp)|[Best Time to Buy and Sell Stock III](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iii/)|Hard|
-|2021-10-15 10:28|1567|[📎](src/q_1551_1600/q1567.hpp) [📝](src/q_1551_1600/q1567_unittest.hpp)|[Maximum Length of Subarray With Positive Product](https://leetcode.com/problems/maximum-length-of-subarray-with-positive-product/)|Medium|
 
 ## Previous Logs
 
 |Month|Submissions|Easy|Medium|Hard|
 |:--|:--|:--|:--|:--|
-|[October_2021](./assets/October_2021.md)|108|25|71|12|
+|[October_2021](./assets/October_2021.md)|109|26|71|12|
 |[September_2021](./assets/September_2021.md)|133|55|71|7|

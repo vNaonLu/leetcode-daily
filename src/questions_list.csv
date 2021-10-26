@@ -559,7 +559,7 @@ id,title,level,slug,paid,done
 558,Logical OR of Two Binary Grids Represented as Quad-Trees,2,logical-or-of-two-binary-grids-represented-as-quad-trees,0,0
 559,Maximum Depth of N-ary Tree,1,maximum-depth-of-n-ary-tree,0,0
 560,Subarray Sum Equals K,2,subarray-sum-equals-k,0,1
-561,Array Partition I,1,array-partition-i,0,0
+561,Array Partition I,1,array-partition-i,0,1
 562,Longest Line of Consecutive One in Matrix,2,longest-line-of-consecutive-one-in-matrix,1,0
 563,Binary Tree Tilt,1,binary-tree-tilt,0,0
 564,Find the Closest Palindrome,3,find-the-closest-palindrome,0,0
