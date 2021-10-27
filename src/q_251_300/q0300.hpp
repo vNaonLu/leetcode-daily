@@ -44,6 +44,19 @@ class Solution {
     return res;
   }
 };
+
+class Solution_2 {
+ public:
+  int lengthOfLIS(vector<int>& nums) {
+    vector<int> dp;
+    dp.reserve(nums.size());
+    for (const auto& x : nums) {
+      if (dp.empty() || dp.back() < x) dp.emplace_back(x);
+      else *lower_bound(dp.begin(), dp.end(), x) = x;
+    }
+    return dp.size();
+  }
+};
 }  // namespace l300
 
 #endif

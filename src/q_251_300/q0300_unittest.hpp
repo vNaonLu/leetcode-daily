@@ -50,4 +50,25 @@ TEST(q300, sample_input03) {
   EXPECT_EQ(solver.lengthOfLIS(nums), exp);
 }
 
+TEST(q300, solution2_sample_input01) {
+  l300::Solution_2 solver;
+  vector<int> nums = {10, 9, 2, 5, 3, 7, 101, 18};
+  int exp = 4;
+  EXPECT_EQ(solver.lengthOfLIS(nums), exp);
+}
+
+TEST(q300, solution2_sample_input02) {
+  l300::Solution_2 solver;
+  vector<int> nums = {0, 1, 0, 3, 2, 3};
+  int exp = 4;
+  EXPECT_EQ(solver.lengthOfLIS(nums), exp);
+}
+
+TEST(q300, solution2_sample_input03) {
+  l300::Solution_2 solver;
+  vector<int> nums = {7, 7, 7, 7, 7, 7, 7};
+  int exp = 1;
+  EXPECT_EQ(solver.lengthOfLIS(nums), exp);
+}
+
 #endif
