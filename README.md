@@ -393,7 +393,7 @@ My daily challenge on leetcode since 2021/09/06.
 ||373|[Find K Pairs with Smallest Sums](https://leetcode.com/problems/find-k-pairs-with-smallest-sums/)|Medium|
 |[📎](src/q_351_400/q0374.hpp) [📝](src/q_351_400/q0374_unittest.hpp)|374|[Guess Number Higher or Lower](https://leetcode.com/problems/guess-number-higher-or-lower/)|Easy|
 ||375|[Guess Number Higher or Lower II](https://leetcode.com/problems/guess-number-higher-or-lower-ii/)|Medium|
-||376|[Wiggle Subsequence](https://leetcode.com/problems/wiggle-subsequence/)|Medium|
+|[📎](src/q_351_400/q0376.hpp) [📝](src/q_351_400/q0376_unittest.hpp)|376|[Wiggle Subsequence](https://leetcode.com/problems/wiggle-subsequence/)|Medium|
 ||377|[Combination Sum IV](https://leetcode.com/problems/combination-sum-iv/)|Medium|
 ||378|[Kth Smallest Element in a Sorted Matrix](https://leetcode.com/problems/kth-smallest-element-in-a-sorted-matrix/)|Medium|
 |🔒|379|[Design Phone Directory](https://leetcode.com/problems/design-phone-directory/)|Medium|
@@ -2117,6 +2117,7 @@ My daily challenge on leetcode since 2021/09/06.
 
 |Time|#|</>|Question Title|Difficulty|
 |:--|--:|:-:|:--|:--|
+|2021-10-27 14:00|376|[📎](src/q_351_400/q0376.hpp) [📝](src/q_351_400/q0376_unittest.hpp)|[Wiggle Subsequence](https://leetcode.com/problems/wiggle-subsequence/)|Medium|
 |2021-10-26 14:26|561|[📎](src/q_551_600/q0561.hpp) [📝](src/q_551_600/q0561_unittest.hpp)|[Array Partition I](https://leetcode.com/problems/array-partition-i/)|Easy|
 |2021-10-26 14:13|516|[📎](src/q_501_550/q0516.hpp) [📝](src/q_501_550/q0516_unittest.hpp)|[Longest Palindromic Subsequence](https://leetcode.com/problems/longest-palindromic-subsequence/)|Medium|
 |2021-10-25 14:23|221|[📎](src/q_201_250/q0221.hpp) [📝](src/q_201_250/q0221_unittest.hpp)|[Maximal Square](https://leetcode.com/problems/maximal-square/)|Medium|
@@ -2141,11 +2142,10 @@ My daily challenge on leetcode since 2021/09/06.
 |2021-10-17 14:07|437|[📎](src/q_401_450/q0437.hpp) [📝](src/q_401_450/q0437_unittest.hpp)|[Path Sum III](https://leetcode.com/problems/path-sum-iii/)|Medium|
 |2021-10-16 13:35|122|[📎](src/q_101_150/q0122.hpp) [📝](src/q_101_150/q0122_unittest.hpp)|[Best Time to Buy and Sell Stock II](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/)|Medium|
 |2021-10-16 13:29|1014|[📎](src/q_1001_1050/q1014.hpp) [📝](src/q_1001_1050/q1014_unittest.hpp)|[Best Sightseeing Pair](https://leetcode.com/problems/best-sightseeing-pair/)|Medium|
-|2021-10-16 13:13|123|[📎](src/q_101_150/q0123.hpp) [📝](src/q_101_150/q0123_unittest.hpp)|[Best Time to Buy and Sell Stock III](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iii/)|Hard|
 
 ## Previous Logs
 
 |Month|Submissions|Easy|Medium|Hard|
 |:--|:--|:--|:--|:--|
-|[October_2021](./assets/October_2021.md)|109|26|71|12|
+|[October_2021](./assets/October_2021.md)|110|26|72|12|
 |[September_2021](./assets/September_2021.md)|133|55|71|7|
