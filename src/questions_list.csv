@@ -4,7 +4,7 @@ id,title,level,slug,paid,done
 3,Longest Substring Without Repeating Characters,2,longest-substring-without-repeating-characters,0,1
 4,Median of Two Sorted Arrays,3,median-of-two-sorted-arrays,0,1
 5,Longest Palindromic Substring,2,longest-palindromic-substring,0,1
-6,ZigZag Conversion,2,zigzag-conversion,0,1
+6,Zigzag Conversion,2,zigzag-conversion,0,1
 7,Reverse Integer,2,reverse-integer,0,1
 8,String to Integer (atoi),2,string-to-integer-atoi,0,1
 9,Palindrome Number,1,palindrome-number,0,1
@@ -156,7 +156,7 @@ id,title,level,slug,paid,done
 155,Min Stack,1,min-stack,0,1
 156,Binary Tree Upside Down,2,binary-tree-upside-down,1,0
 157,Read N Characters Given Read4,1,read-n-characters-given-read4,1,0
-158,Read N Characters Given Read4 II - Call multiple times,3,read-n-characters-given-read4-ii-call-multiple-times,1,0
+158,Read N Characters Given read4 II - Call Multiple Times,3,read-n-characters-given-read4-ii-call-multiple-times,1,0
 159,Longest Substring with At Most Two Distinct Characters,2,longest-substring-with-at-most-two-distinct-characters,1,0
 160,Intersection of Two Linked Lists,1,intersection-of-two-linked-lists,0,1
 161,One Edit Distance,2,one-edit-distance,1,0
@@ -165,7 +165,7 @@ id,title,level,slug,paid,done
 164,Maximum Gap,3,maximum-gap,0,0
 165,Compare Version Numbers,2,compare-version-numbers,0,0
 166,Fraction to Recurring Decimal,2,fraction-to-recurring-decimal,0,0
-167,Two Sum II - Input array is sorted,1,two-sum-ii-input-array-is-sorted,0,1
+167,Two Sum II - Input Array Is Sorted,1,two-sum-ii-input-array-is-sorted,0,1
 168,Excel Sheet Column Title,1,excel-sheet-column-title,0,0
 169,Majority Element,1,majority-element,0,1
 170,Two Sum III - Data structure design,1,two-sum-iii-data-structure-design,1,0
@@ -516,7 +516,7 @@ id,title,level,slug,paid,done
 515,Find Largest Value in Each Tree Row,2,find-largest-value-in-each-tree-row,0,0
 516,Longest Palindromic Subsequence,2,longest-palindromic-subsequence,0,1
 517,Super Washing Machines,3,super-washing-machines,0,0
-518,Coin Change 2,2,coin-change-2,0,0
+518,Coin Change 2,2,coin-change-2,0,1
 519,Random Flip Matrix,2,random-flip-matrix,0,0
 520,Detect Capital,1,detect-capital,0,0
 521,Longest Uncommon Subsequence I,1,longest-uncommon-subsequence-i,0,0
@@ -2049,3 +2049,5 @@ id,title,level,slug,paid,done
 2048,Next Greater Numerically Balanced Number,2,next-greater-numerically-balanced-number,0,0
 2049,Count Nodes With the Highest Score,2,count-nodes-with-the-highest-score,0,0
 2050,Parallel Courses III,3,parallel-courses-iii,0,0
+2051,The Category of Each Member in the Store,2,the-category-of-each-member-in-the-store,1,0
+2052,Minimum Cost to Separate Sentence Into Rows,2,minimum-cost-to-separate-sentence-into-rows,1,0

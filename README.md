@@ -17,7 +17,7 @@ My daily challenge on leetcode since 2021/09/06.
 |[📎](src/q_1_50/q0003.hpp) [📝](src/q_1_50/q0003_unittest.hpp)|3|[Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/)|Medium|
 |[📎](src/q_1_50/q0004.hpp) [📝](src/q_1_50/q0004_unittest.hpp)|4|[Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays/)|Hard|
 |[📎](src/q_1_50/q0005.hpp) [📝](src/q_1_50/q0005_unittest.hpp)|5|[Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/)|Medium|
-|[📎](src/q_1_50/q0006.hpp) [📝](src/q_1_50/q0006_unittest.hpp)|6|[ZigZag Conversion](https://leetcode.com/problems/zigzag-conversion/)|Medium|
+|[📎](src/q_1_50/q0006.hpp) [📝](src/q_1_50/q0006_unittest.hpp)|6|[Zigzag Conversion](https://leetcode.com/problems/zigzag-conversion/)|Medium|
 |[📎](src/q_1_50/q0007.hpp) [📝](src/q_1_50/q0007_unittest.hpp)|7|[Reverse Integer](https://leetcode.com/problems/reverse-integer/)|Medium|
 |[📎](src/q_1_50/q0008.hpp) [📝](src/q_1_50/q0008_unittest.hpp)|8|[String to Integer (atoi)](https://leetcode.com/problems/string-to-integer-atoi/)|Medium|
 |[📎](src/q_1_50/q0009.hpp) [📝](src/q_1_50/q0009_unittest.hpp)|9|[Palindrome Number](https://leetcode.com/problems/palindrome-number/)|Easy|
@@ -169,7 +169,7 @@ My daily challenge on leetcode since 2021/09/06.
 |[📎](src/q_151_200/q0155.hpp) [📝](src/q_151_200/q0155_unittest.hpp)|155|[Min Stack](https://leetcode.com/problems/min-stack/)|Easy|
 |🔒|156|[Binary Tree Upside Down](https://leetcode.com/problems/binary-tree-upside-down/)|Medium|
 |🔒|157|[Read N Characters Given Read4](https://leetcode.com/problems/read-n-characters-given-read4/)|Easy|
-|🔒|158|[Read N Characters Given Read4 II - Call multiple times](https://leetcode.com/problems/read-n-characters-given-read4-ii-call-multiple-times/)|Hard|
+|🔒|158|[Read N Characters Given read4 II - Call Multiple Times](https://leetcode.com/problems/read-n-characters-given-read4-ii-call-multiple-times/)|Hard|
 |🔒|159|[Longest Substring with At Most Two Distinct Characters](https://leetcode.com/problems/longest-substring-with-at-most-two-distinct-characters/)|Medium|
 |[📎](src/q_151_200/q0160.hpp) [📝](src/q_151_200/q0160_unittest.hpp)|160|[Intersection of Two Linked Lists](https://leetcode.com/problems/intersection-of-two-linked-lists/)|Easy|
 |🔒|161|[One Edit Distance](https://leetcode.com/problems/one-edit-distance/)|Medium|
@@ -178,7 +178,7 @@ My daily challenge on leetcode since 2021/09/06.
 ||164|[Maximum Gap](https://leetcode.com/problems/maximum-gap/)|Hard|
 ||165|[Compare Version Numbers](https://leetcode.com/problems/compare-version-numbers/)|Medium|
 ||166|[Fraction to Recurring Decimal](https://leetcode.com/problems/fraction-to-recurring-decimal/)|Medium|
-|[📎](src/q_151_200/q0167.hpp) [📝](src/q_151_200/q0167_unittest.hpp)|167|[Two Sum II - Input array is sorted](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/)|Easy|
+|[📎](src/q_151_200/q0167.hpp) [📝](src/q_151_200/q0167_unittest.hpp)|167|[Two Sum II - Input Array Is Sorted](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/)|Easy|
 ||168|[Excel Sheet Column Title](https://leetcode.com/problems/excel-sheet-column-title/)|Easy|
 |[📎](src/q_151_200/q0169.hpp) [📝](src/q_151_200/q0169_unittest.hpp)|169|[Majority Element](https://leetcode.com/problems/majority-element/)|Easy|
 |🔒|170|[Two Sum III - Data structure design](https://leetcode.com/problems/two-sum-iii-data-structure-design/)|Easy|
@@ -541,7 +541,7 @@ My daily challenge on leetcode since 2021/09/06.
 ||515|[Find Largest Value in Each Tree Row](https://leetcode.com/problems/find-largest-value-in-each-tree-row/)|Medium|
 |[📎](src/q_501_550/q0516.hpp) [📝](src/q_501_550/q0516_unittest.hpp)|516|[Longest Palindromic Subsequence](https://leetcode.com/problems/longest-palindromic-subsequence/)|Medium|
 ||517|[Super Washing Machines](https://leetcode.com/problems/super-washing-machines/)|Hard|
-||518|[Coin Change 2](https://leetcode.com/problems/coin-change-2/)|Medium|
+|[📎](src/q_501_550/q0518.hpp) [📝](src/q_501_550/q0518_unittest.hpp)|518|[Coin Change 2](https://leetcode.com/problems/coin-change-2/)|Medium|
 ||519|[Random Flip Matrix](https://leetcode.com/problems/random-flip-matrix/)|Medium|
 ||520|[Detect Capital](https://leetcode.com/problems/detect-capital/)|Easy|
 ||521|[Longest Uncommon Subsequence I](https://leetcode.com/problems/longest-uncommon-subsequence-i/)|Easy|
@@ -2056,7 +2056,7 @@ My daily challenge on leetcode since 2021/09/06.
 ||2000|[Reverse Prefix of Word](https://leetcode.com/problems/reverse-prefix-of-word/)|Easy|
 </details>
 <details>
-  <summary>### 2001 ~ 2050</summary>
+  <summary>### 2001 ~ 2052</summary>
 
 |</>|#|Solution Title|Difficulty|
 |--:|--:|:--|:--|
@@ -2110,6 +2110,8 @@ My daily challenge on leetcode since 2021/09/06.
 ||2048|[Next Greater Numerically Balanced Number](https://leetcode.com/problems/next-greater-numerically-balanced-number/)|Medium|
 ||2049|[Count Nodes With the Highest Score](https://leetcode.com/problems/count-nodes-with-the-highest-score/)|Medium|
 ||2050|[Parallel Courses III](https://leetcode.com/problems/parallel-courses-iii/)|Hard|
+|🔒|2051|[The Category of Each Member in the Store](https://leetcode.com/problems/the-category-of-each-member-in-the-store/)|Medium|
+|🔒|2052|[Minimum Cost to Separate Sentence Into Rows](https://leetcode.com/problems/minimum-cost-to-separate-sentence-into-rows/)|Medium|
 </details>
 
 ---
@@ -2117,6 +2119,7 @@ My daily challenge on leetcode since 2021/09/06.
 
 |Time|#|</>|Question Title|Difficulty|
 |:--|--:|:-:|:--|:--|
+|2021-10-29 12:56|518|[📎](src/q_501_550/q0518.hpp) [📝](src/q_501_550/q0518_unittest.hpp)|[Coin Change 2](https://leetcode.com/problems/coin-change-2/)|Medium|
 |2021-10-28 14:32|392|[📎](src/q_351_400/q0392.hpp) [📝](src/q_351_400/q0392_unittest.hpp)|[Is Subsequence](https://leetcode.com/problems/is-subsequence/)|Easy|
 |2021-10-27 14:00|376|[📎](src/q_351_400/q0376.hpp) [📝](src/q_351_400/q0376_unittest.hpp)|[Wiggle Subsequence](https://leetcode.com/problems/wiggle-subsequence/)|Medium|
 |2021-10-26 14:26|561|[📎](src/q_551_600/q0561.hpp) [📝](src/q_551_600/q0561_unittest.hpp)|[Array Partition I](https://leetcode.com/problems/array-partition-i/)|Easy|
@@ -2141,11 +2144,10 @@ My daily challenge on leetcode since 2021/09/06.
 |2021-10-17 15:37|1361|[📎](src/q_1351_1400/q1361.hpp) [📝](src/q_1351_1400/q1361_unittest.hpp)|[Validate Binary Tree Nodes](https://leetcode.com/problems/validate-binary-tree-nodes/)|Medium|
 |2021-10-17 14:20|714|[📎](src/q_701_750/q0714.hpp) [📝](src/q_701_750/q0714_unittest.hpp)|[Best Time to Buy and Sell Stock with Transaction Fee](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-transaction-fee/)|Medium|
 |2021-10-17 14:07|437|[📎](src/q_401_450/q0437.hpp) [📝](src/q_401_450/q0437_unittest.hpp)|[Path Sum III](https://leetcode.com/problems/path-sum-iii/)|Medium|
-|2021-10-16 13:35|122|[📎](src/q_101_150/q0122.hpp) [📝](src/q_101_150/q0122_unittest.hpp)|[Best Time to Buy and Sell Stock II](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/)|Medium|
 
 ## Previous Logs
 
 |Month|Submissions|Easy|Medium|Hard|
 |:--|:--|:--|:--|:--|
-|[October_2021](./assets/October_2021.md)|111|27|72|12|
+|[October_2021](./assets/October_2021.md)|112|27|73|12|
 |[September_2021](./assets/September_2021.md)|133|55|71|7|
