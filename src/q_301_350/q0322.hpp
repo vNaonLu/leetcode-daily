@@ -38,10 +38,11 @@ class Solution {
   int coinChange(vector<int>& coins, int amount) {
     vector<int> dp(amount + 1, amount + 1);
     dp[0] = 0;
-    for (int i = 1; i <= amount; ++i)
-      for (const auto& c : coins)
-        if (i >= c)
-          dp[i] = min(dp[i], dp[i - c] + 1);
+    for (const auto& c : coins) {
+      for (int x = c; x < dp.size(); ++x) {
+        dp[x] = min(dp[x], 1 + dp[x - c]);
+      }
+    }
     return dp.back() == amount + 1 ? -1 : dp.back();
   }
 };
