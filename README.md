@@ -394,7 +394,7 @@ My daily challenge on leetcode since 2021/09/06.
 |[📎](src/q_351_400/q0374.hpp) [📝](src/q_351_400/q0374_unittest.hpp)|374|[Guess Number Higher or Lower](https://leetcode.com/problems/guess-number-higher-or-lower/)|Easy|
 ||375|[Guess Number Higher or Lower II](https://leetcode.com/problems/guess-number-higher-or-lower-ii/)|Medium|
 |[📎](src/q_351_400/q0376.hpp) [📝](src/q_351_400/q0376_unittest.hpp)|376|[Wiggle Subsequence](https://leetcode.com/problems/wiggle-subsequence/)|Medium|
-||377|[Combination Sum IV](https://leetcode.com/problems/combination-sum-iv/)|Medium|
+|[📎](src/q_351_400/q0377.hpp) [📝](src/q_351_400/q0377_unittest.hpp)|377|[Combination Sum IV](https://leetcode.com/problems/combination-sum-iv/)|Medium|
 ||378|[Kth Smallest Element in a Sorted Matrix](https://leetcode.com/problems/kth-smallest-element-in-a-sorted-matrix/)|Medium|
 |🔒|379|[Design Phone Directory](https://leetcode.com/problems/design-phone-directory/)|Medium|
 |[📎](src/q_351_400/q0380.hpp) [📝](src/q_351_400/q0380_unittest.hpp)|380|[Insert Delete GetRandom O(1)](https://leetcode.com/problems/insert-delete-getrandom-o1/)|Medium|
@@ -2119,6 +2119,7 @@ My daily challenge on leetcode since 2021/09/06.
 
 |Time|#|</>|Question Title|Difficulty|
 |:--|--:|:-:|:--|:--|
+|2021-10-30 15:09|377|[📎](src/q_351_400/q0377.hpp) [📝](src/q_351_400/q0377_unittest.hpp)|[Combination Sum IV](https://leetcode.com/problems/combination-sum-iv/)|Medium|
 |2021-10-30 14:49|1044|[📎](src/q_1001_1050/q1044.hpp) [📝](src/q_1001_1050/q1044_unittest.hpp)|[Longest Duplicate Substring](https://leetcode.com/problems/longest-duplicate-substring/)|Hard|
 |2021-10-29 12:56|518|[📎](src/q_501_550/q0518.hpp) [📝](src/q_501_550/q0518_unittest.hpp)|[Coin Change 2](https://leetcode.com/problems/coin-change-2/)|Medium|
 |2021-10-28 14:32|392|[📎](src/q_351_400/q0392.hpp) [📝](src/q_351_400/q0392_unittest.hpp)|[Is Subsequence](https://leetcode.com/problems/is-subsequence/)|Easy|
@@ -2143,11 +2144,10 @@ My daily challenge on leetcode since 2021/09/06.
 |2021-10-18 12:57|993|[📎](src/q_951_1000/q0993.hpp) [📝](src/q_951_1000/q0993_unittest.hpp)|[Cousins in Binary Tree](https://leetcode.com/problems/cousins-in-binary-tree/)|Easy|
 |2021-10-17 15:52|1881|[📎](src/q_1851_1900/q1881.hpp) [📝](src/q_1851_1900/q1881_unittest.hpp)|[Maximum Value after Insertion](https://leetcode.com/problems/maximum-value-after-insertion/)|Medium|
 |2021-10-17 15:37|1361|[📎](src/q_1351_1400/q1361.hpp) [📝](src/q_1351_1400/q1361_unittest.hpp)|[Validate Binary Tree Nodes](https://leetcode.com/problems/validate-binary-tree-nodes/)|Medium|
-|2021-10-17 14:20|714|[📎](src/q_701_750/q0714.hpp) [📝](src/q_701_750/q0714_unittest.hpp)|[Best Time to Buy and Sell Stock with Transaction Fee](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-transaction-fee/)|Medium|
 
 ## Previous Logs
 
 |Month|Submissions|Easy|Medium|Hard|
 |:--|:--|:--|:--|:--|
-|[October_2021](./assets/October_2021.md)|113|27|73|13|
+|[October_2021](./assets/October_2021.md)|114|27|74|13|
 |[September_2021](./assets/September_2021.md)|133|55|71|7|

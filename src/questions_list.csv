@@ -375,7 +375,7 @@ id,title,level,slug,paid,done
 374,Guess Number Higher or Lower,1,guess-number-higher-or-lower,0,1
 375,Guess Number Higher or Lower II,2,guess-number-higher-or-lower-ii,0,0
 376,Wiggle Subsequence,2,wiggle-subsequence,0,1
-377,Combination Sum IV,2,combination-sum-iv,0,0
+377,Combination Sum IV,2,combination-sum-iv,0,1
 378,Kth Smallest Element in a Sorted Matrix,2,kth-smallest-element-in-a-sorted-matrix,0,0
 379,Design Phone Directory,2,design-phone-directory,1,0
 380,Insert Delete GetRandom O(1),2,insert-delete-getrandom-o1,0,1
