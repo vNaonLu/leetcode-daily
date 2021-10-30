@@ -2,6 +2,7 @@
 
 ||#|</>|Question Title|Difficulty|
 |:--|--:|:-:|:--|:--|
+|Day 30|1044|[📎](../src/q_1001_1050/q1044.hpp) [📝](../src/q_1001_1050/q1044_unittest.hpp)|[Longest Duplicate Substring](https://leetcode.com/problems/longest-duplicate-substring/)|Hard|
 |Day 29|518|[📎](../src/q_501_550/q0518.hpp) [📝](../src/q_501_550/q0518_unittest.hpp)|[Coin Change 2](https://leetcode.com/problems/coin-change-2/)|Medium|
 |Day 28|392|[📎](../src/q_351_400/q0392.hpp) [📝](../src/q_351_400/q0392_unittest.hpp)|[Is Subsequence](https://leetcode.com/problems/is-subsequence/)|Easy|
 |Day 27|376|[📎](../src/q_351_400/q0376.hpp) [📝](../src/q_351_400/q0376_unittest.hpp)|[Wiggle Subsequence](https://leetcode.com/problems/wiggle-subsequence/)|Medium|

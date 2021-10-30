@@ -1042,7 +1042,7 @@ id,title,level,slug,paid,done
 1041,Robot Bounded In Circle,2,robot-bounded-in-circle,0,0
 1042,Flower Planting With No Adjacent,2,flower-planting-with-no-adjacent,0,0
 1043,Partition Array for Maximum Sum,2,partition-array-for-maximum-sum,0,0
-1044,Longest Duplicate Substring,3,longest-duplicate-substring,0,0
+1044,Longest Duplicate Substring,3,longest-duplicate-substring,0,1
 1045,Customers Who Bought All Products,2,customers-who-bought-all-products,1,0
 1046,Last Stone Weight,1,last-stone-weight,0,0
 1047,Remove All Adjacent Duplicates In String,1,remove-all-adjacent-duplicates-in-string,0,0
