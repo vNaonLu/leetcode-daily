@@ -18,6 +18,9 @@ class SolutionAbstract:
         self._includes.add("iostream")
         self._solnobj: str = "solver"
 
+    def is_valid(self):
+        return False
+
     def class_name(self):
         return "Solution"
 
@@ -54,7 +57,11 @@ class SolutionAbstract:
 class SolutionFunction(SolutionAbstract):
     def __init__(self, id: int, code_snippet: list[str], content: str = ""):
         SolutionAbstract.__init__(self, id, content)
+        self.__valid: bool = True
         self.__parse_codesnippets(code_snippet)
+
+    def is_valid(self):
+        return self.__valid
 
     def __parse_codesnippets(self, code_snippet: list[str]):
         for line in code_snippet:
@@ -73,6 +80,7 @@ class SolutionFunction(SolutionAbstract):
                         arg = Argument.generate(m_arg.group("type"))
                         self._args[m_arg.group("name")] = arg
                         self._add_include(arg)
+                        self.__valid &= arg.is_valid()
                 break
 
     def __parse_input(self, input: str):
@@ -148,10 +156,14 @@ class SolutionClass(SolutionAbstract):
         SolutionAbstract.__init__(self, id, content)
         self.__methods: dict[str, SolutionAbstract] = {}
         self.__name = class_name
+        self.__valid = True
         self._solnobj = "_".join(
             [e.lower() for e in list(filter(lambda e: e != "",
                                             re.split("([A-Z][a-z]+)", self.__name)))])
         self.__parse_codesnippets(code_snippet)
+
+    def is_valid(self):
+        return self.__valid
 
     def class_name(self):
         return self.__name
@@ -161,9 +173,11 @@ class SolutionClass(SolutionAbstract):
             if re.search(" *(?P<func>{} *\([\w\W]*\))".format(self.class_name()), line):
                 func = SolutionFunction(self._id, ["void " + line])
                 self.__methods[func.name()] = func
+                self.__valid &= func.is_valid()
             elif re.match(" *\w+ +\w+ *\([\w\W]*\) *{", line):
                 func = SolutionFunction(self._id, [line])
                 self.__methods[func.name()] = func
+                self.__valid &= func.is_valid()
 
     def __expect_equation(self, input: str, answer: list[str]):
         out: list[str] = []
@@ -236,7 +250,7 @@ class Solution:
     def generate_template(id: int, code_snippet: str, content: str):
         multi_lines = code_snippet.splitlines()
 
-        for i in range(0, len(multi_lines)):
+        for i in range(len(multi_lines)-1, -1, -1):
             match = re.search("class (?P<class_name>\w+) *{", multi_lines[i])
             if match and match.group("class_name") == "Solution":
                 return SolutionFunction(id, multi_lines[i:], content)
@@ -287,7 +301,7 @@ class LeetCodeQuestion:
             if match:
                 self.__desc = match.group("desc")
                 self.__cons = match.group("cons").splitlines()
-                if testcase:
+                if testcase and self.__solntmp.is_valid():
                     self.__testcase = \
                         self.__solntmp.unittest_desc(match.group("exam"))
                 else:

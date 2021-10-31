@@ -159,7 +159,7 @@ def __main():
     # from tools.leetcode import request as Rq
     # slug = Rq.question_slug(int(args[0]))
     # if slug:
-    #     q = LeetCodeQuestion(slug)
+    #     q = LeetCodeQuestion(slug, not options.no_testcase)
     #     s, u = q.template("prompt test", 70)
     #     print()
     #     print("=====================================================")
