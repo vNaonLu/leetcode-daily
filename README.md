@@ -447,7 +447,7 @@ My daily challenge on leetcode since 2021/09/06.
 ||427|[Construct Quad Tree](https://leetcode.com/problems/construct-quad-tree/)|Medium|
 |🔒|428|[Serialize and Deserialize N-ary Tree](https://leetcode.com/problems/serialize-and-deserialize-n-ary-tree/)|Hard|
 ||429|[N-ary Tree Level Order Traversal](https://leetcode.com/problems/n-ary-tree-level-order-traversal/)|Medium|
-||430|[Flatten a Multilevel Doubly Linked List](https://leetcode.com/problems/flatten-a-multilevel-doubly-linked-list/)|Medium|
+|[📎](src/q_401_450/q0430.hpp) [📝](src/q_401_450/q0430_unittest.hpp)|430|[Flatten a Multilevel Doubly Linked List](https://leetcode.com/problems/flatten-a-multilevel-doubly-linked-list/)|Medium|
 |🔒|431|[Encode N-ary Tree to Binary Tree](https://leetcode.com/problems/encode-n-ary-tree-to-binary-tree/)|Hard|
 ||432|[All O`one Data Structure](https://leetcode.com/problems/all-oone-data-structure/)|Hard|
 ||433|[Minimum Genetic Mutation](https://leetcode.com/problems/minimum-genetic-mutation/)|Medium|
@@ -2119,6 +2119,7 @@ My daily challenge on leetcode since 2021/09/06.
 
 |Time|#|</>|Question Title|Difficulty|
 |:--|--:|:-:|:--|:--|
+|2021-10-31 13:12|430|[📎](src/q_401_450/q0430.hpp) [📝](src/q_401_450/q0430_unittest.hpp)|[Flatten a Multilevel Doubly Linked List](https://leetcode.com/problems/flatten-a-multilevel-doubly-linked-list/)|Medium|
 |2021-10-30 15:09|377|[📎](src/q_351_400/q0377.hpp) [📝](src/q_351_400/q0377_unittest.hpp)|[Combination Sum IV](https://leetcode.com/problems/combination-sum-iv/)|Medium|
 |2021-10-30 14:49|1044|[📎](src/q_1001_1050/q1044.hpp) [📝](src/q_1001_1050/q1044_unittest.hpp)|[Longest Duplicate Substring](https://leetcode.com/problems/longest-duplicate-substring/)|Hard|
 |2021-10-29 12:56|518|[📎](src/q_501_550/q0518.hpp) [📝](src/q_501_550/q0518_unittest.hpp)|[Coin Change 2](https://leetcode.com/problems/coin-change-2/)|Medium|
@@ -2143,11 +2144,10 @@ My daily challenge on leetcode since 2021/09/06.
 |2021-10-18 13:29|42|[📎](src/q_1_50/q0042.hpp) [📝](src/q_1_50/q0042_unittest.hpp)|[Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water/)|Hard|
 |2021-10-18 12:57|993|[📎](src/q_951_1000/q0993.hpp) [📝](src/q_951_1000/q0993_unittest.hpp)|[Cousins in Binary Tree](https://leetcode.com/problems/cousins-in-binary-tree/)|Easy|
 |2021-10-17 15:52|1881|[📎](src/q_1851_1900/q1881.hpp) [📝](src/q_1851_1900/q1881_unittest.hpp)|[Maximum Value after Insertion](https://leetcode.com/problems/maximum-value-after-insertion/)|Medium|
-|2021-10-17 15:37|1361|[📎](src/q_1351_1400/q1361.hpp) [📝](src/q_1351_1400/q1361_unittest.hpp)|[Validate Binary Tree Nodes](https://leetcode.com/problems/validate-binary-tree-nodes/)|Medium|
 
 ## Previous Logs
 
 |Month|Submissions|Easy|Medium|Hard|
 |:--|:--|:--|:--|:--|
-|[October_2021](./assets/October_2021.md)|114|27|74|13|
+|[October_2021](./assets/October_2021.md)|115|27|75|13|
 |[September_2021](./assets/September_2021.md)|133|55|71|7|

@@ -428,7 +428,7 @@ id,title,level,slug,paid,done
 427,Construct Quad Tree,2,construct-quad-tree,0,0
 428,Serialize and Deserialize N-ary Tree,3,serialize-and-deserialize-n-ary-tree,1,0
 429,N-ary Tree Level Order Traversal,2,n-ary-tree-level-order-traversal,0,0
-430,Flatten a Multilevel Doubly Linked List,2,flatten-a-multilevel-doubly-linked-list,0,0
+430,Flatten a Multilevel Doubly Linked List,2,flatten-a-multilevel-doubly-linked-list,0,1
 431,Encode N-ary Tree to Binary Tree,3,encode-n-ary-tree-to-binary-tree,1,0
 432,All O`one Data Structure,3,all-oone-data-structure,0,0
 433,Minimum Genetic Mutation,2,minimum-genetic-mutation,0,0
