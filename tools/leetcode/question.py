@@ -247,7 +247,7 @@ class Solution:
 
 class LeetCodeQuestion:
 
-    def __init__(self, title_slug: str):
+    def __init__(self, title_slug: str, testcase: bool):
         res_obj = LeetCodeRequest.question_details(title_slug)
         self.__id: int = int(res_obj['questionFrontendId'])
         self.__title: str = res_obj['questionTitle']
@@ -259,7 +259,7 @@ class LeetCodeQuestion:
         self.__cons: list[str] = None
         self.__testcase: list[list[str]] = []
         self.__parse_code_snippet(res_obj['codeSnippets'], res_obj['content'])
-        self.__parse_content(res_obj['content'])
+        self.__parse_content(res_obj['content'], testcase)
 
     def __parse_code_snippet(self, code_snippets: list[object], content: str):
         if code_snippets != None:
@@ -278,7 +278,7 @@ class LeetCodeQuestion:
                                                                 content)
                     break
 
-    def __parse_content(self, content: str):
+    def __parse_content(self, content: str, testcase: bool):
         if content != None:
             content = Description.prettify(content)
             match = \
@@ -287,8 +287,9 @@ class LeetCodeQuestion:
             if match:
                 self.__desc = match.group("desc")
                 self.__cons = match.group("cons").splitlines()
-                self.__testcase = \
-                    self.__solntmp.unittest_desc(match.group("exam"))
+                if testcase:
+                    self.__testcase = \
+                        self.__solntmp.unittest_desc(match.group("exam"))
 
     def id(self):
         return self.__id

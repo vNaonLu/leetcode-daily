@@ -10,7 +10,7 @@ from leetcode import request as LeetCodeRequest
 from leetcode.question import LeetCodeQuestion
 
 
-def __add_question(qfile: local.QuestionSource):
+def __add_question(qfile: local.QuestionSource, testcase: bool):
     if os.path.exists(qfile.src()):
         pmt.show(pmt.fail("\033[37mThe file has already exist: \033[0m{}".format(qfile.src()),
                           "!"))
@@ -32,7 +32,7 @@ def __add_question(qfile: local.QuestionSource):
                          "v"))
     pmt.pending(
         "\033[37mRequesting a details of question \"{}\"\033[0m".format(slug))
-    ques = LeetCodeQuestion(slug)
+    ques = LeetCodeQuestion(slug, testcase)
     pmt.recieve(
         pmt.succ("\033[37mSuccessfully received the details \"{}\".\033[0m".format(slug),
                  "v"))
@@ -76,6 +76,11 @@ def __parser():
                       action="store",
                       default="./logs.csv",
                       metavar=" Question_Logs_File")
+    parser.add_option("-n", "--no-testcase",
+                      dest="testcase",
+                      action="store_true",
+                      default=False,
+                      metavar=" Question_Logs_File")
     parser.add_option("--timestamp",
                       dest="timestamp",
                       action="store",
@@ -97,6 +102,7 @@ def __main():
     list_csv = pathlib.Path(options.list).resolve()
     log_csv = pathlib.Path(options.log).resolve()
     timestamp = int(options.timestamp)
+    testcase = not options.testcase
 
     modify_subunittest: set = set()
     modify_mainunittest = False
@@ -105,7 +111,7 @@ def __main():
     for id in args:
         qfile = local.QuestionSource(int(id), sour_path)
 
-        succ, new_folder = __add_question(qfile)
+        succ, new_folder = __add_question(qfile, testcase)
         modify_mainunittest = new_folder
 
         if succ:

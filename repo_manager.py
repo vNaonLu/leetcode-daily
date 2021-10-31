@@ -112,6 +112,11 @@ def __parser():
                           action="store_true",
                           default=False,
                           help="update README.md.")
+    proj_group.add_option("--no-testcase",
+                          dest="no_testcase",
+                          action="store_true",
+                          default=False,
+                          help="add questions without generating testcases.")
 
     build_group = optparse.OptionGroup(parser, "Build & Unittest")
     build_group.add_option("-B", "--build",
@@ -173,15 +178,27 @@ def __main():
         if len(args) == 0:
             pmt.show("Usage: {} -a id1 id2 ...".format(os.path.basename(__file__)))
             return
-        operation = _run_process([
-            "python3",
-            _file_path.joinpath("./tools/leetcode_add.py").resolve(),
-            "--out",
-            _file_path.joinpath("./src/").resolve(),
-            "--question-list",
-            _file_path.joinpath("./src/questions_list.csv").resolve(),
-            "--question-log",
-            _file_path.joinpath("./src/logs.csv").resolve()] + args)
+        if options.no_testcase:
+            operation = _run_process([
+                "python3",
+                _file_path.joinpath("./tools/leetcode_add.py").resolve(),
+                "--out",
+                _file_path.joinpath("./src/").resolve(),
+                "--question-list",
+                _file_path.joinpath("./src/questions_list.csv").resolve(),
+                "--question-log",
+                _file_path.joinpath("./src/logs.csv").resolve()] + args)
+        else:
+            operation = _run_process([
+                "python3",
+                _file_path.joinpath("./tools/leetcode_add.py").resolve(),
+                "--out",
+                _file_path.joinpath("./src/").resolve(),
+                "--question-list",
+                _file_path.joinpath("./src/questions_list.csv").resolve(),
+                "--question-log",
+                _file_path.joinpath("./src/logs.csv").resolve()] + args,
+                "--no-testcase")
 
     if options.del_identifier:
         if len(args) == 0:
