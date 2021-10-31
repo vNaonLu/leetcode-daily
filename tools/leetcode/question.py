@@ -290,6 +290,8 @@ class LeetCodeQuestion:
                 if testcase:
                     self.__testcase = \
                         self.__solntmp.unittest_desc(match.group("exam"))
+                else:
+                    self.__testcase = None
 
     def id(self):
         return self.__id

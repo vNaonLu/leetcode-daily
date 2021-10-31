@@ -187,7 +187,8 @@ def __main():
                 "--question-list",
                 _file_path.joinpath("./src/questions_list.csv").resolve(),
                 "--question-log",
-                _file_path.joinpath("./src/logs.csv").resolve()] + args)
+                _file_path.joinpath("./src/logs.csv").resolve(),
+                "--no-testcase"] + args)
         else:
             operation = _run_process([
                 "python3",
@@ -197,8 +198,7 @@ def __main():
                 "--question-list",
                 _file_path.joinpath("./src/questions_list.csv").resolve(),
                 "--question-log",
-                _file_path.joinpath("./src/logs.csv").resolve()] + args,
-                "--no-testcase")
+                _file_path.joinpath("./src/logs.csv").resolve()] + args)
 
     if options.del_identifier:
         if len(args) == 0:
