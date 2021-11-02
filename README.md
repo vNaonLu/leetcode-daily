@@ -1009,7 +1009,7 @@ My daily challenge on leetcode since 2021/09/06.
 |[📎](src/q_951_1000/q0977.hpp) [📝](src/q_951_1000/q0977_unittest.hpp)|977|[Squares of a Sorted Array](https://leetcode.com/problems/squares-of-a-sorted-array/)|Easy|
 |[📎](src/q_951_1000/q0978.hpp) [📝](src/q_951_1000/q0978_unittest.hpp)|978|[Longest Turbulent Subarray](https://leetcode.com/problems/longest-turbulent-subarray/)|Medium|
 ||979|[Distribute Coins in Binary Tree](https://leetcode.com/problems/distribute-coins-in-binary-tree/)|Medium|
-||980|[Unique Paths III](https://leetcode.com/problems/unique-paths-iii/)|Hard|
+|[📎](src/q_951_1000/q0980.hpp) [📝](src/q_951_1000/q0980_unittest.hpp)|980|[Unique Paths III](https://leetcode.com/problems/unique-paths-iii/)|Hard|
 ||981|[Time Based Key-Value Store](https://leetcode.com/problems/time-based-key-value-store/)|Medium|
 ||982|[Triples with Bitwise AND Equal To Zero](https://leetcode.com/problems/triples-with-bitwise-and-equal-to-zero/)|Hard|
 ||983|[Minimum Cost For Tickets](https://leetcode.com/problems/minimum-cost-for-tickets/)|Medium|
@@ -2119,6 +2119,7 @@ My daily challenge on leetcode since 2021/09/06.
 
 |Time|#|</>|Question Title|Difficulty|
 |:--|--:|:-:|:--|:--|
+|2021-11-02 18:23|980|[📎](src/q_951_1000/q0980.hpp) [📝](src/q_951_1000/q0980_unittest.hpp)|[Unique Paths III](https://leetcode.com/problems/unique-paths-iii/)|Hard|
 |2021-11-01 18:23|1480|[📎](src/q_1451_1500/q1480.hpp) [📝](src/q_1451_1500/q1480_unittest.hpp)|[Running Sum of 1d Array](https://leetcode.com/problems/running-sum-of-1d-array/)|Easy|
 |2021-10-31 13:12|430|[📎](src/q_401_450/q0430.hpp) [📝](src/q_401_450/q0430_unittest.hpp)|[Flatten a Multilevel Doubly Linked List](https://leetcode.com/problems/flatten-a-multilevel-doubly-linked-list/)|Medium|
 |2021-10-30 15:09|377|[📎](src/q_351_400/q0377.hpp) [📝](src/q_351_400/q0377_unittest.hpp)|[Combination Sum IV](https://leetcode.com/problems/combination-sum-iv/)|Medium|
@@ -2143,12 +2144,11 @@ My daily challenge on leetcode since 2021/09/06.
 |2021-10-19 12:05|1559|[📎](src/q_1551_1600/q1559.hpp) [📝](src/q_1551_1600/q1559_unittest.hpp)|[Detect Cycles in 2D Grid](https://leetcode.com/problems/detect-cycles-in-2d-grid/)|Medium|
 |2021-10-19 10:51|496|[📎](src/q_451_500/q0496.hpp) [📝](src/q_451_500/q0496_unittest.hpp)|[Next Greater Element I](https://leetcode.com/problems/next-greater-element-i/)|Easy|
 |2021-10-18 13:29|42|[📎](src/q_1_50/q0042.hpp) [📝](src/q_1_50/q0042_unittest.hpp)|[Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water/)|Hard|
-|2021-10-18 12:57|993|[📎](src/q_951_1000/q0993.hpp) [📝](src/q_951_1000/q0993_unittest.hpp)|[Cousins in Binary Tree](https://leetcode.com/problems/cousins-in-binary-tree/)|Easy|
 
 ## Previous Logs
 
 |Month|Submissions|Easy|Medium|Hard|
 |:--|:--|:--|:--|:--|
-|[November_2021](./assets/November_2021.md)|1|1|0|0|
+|[November_2021](./assets/November_2021.md)|2|1|0|1|
 |[October_2021](./assets/October_2021.md)|115|27|75|13|
 |[September_2021](./assets/September_2021.md)|133|55|71|7|
