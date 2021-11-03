@@ -127,7 +127,7 @@ id,title,level,slug,paid,done
 126,Word Ladder II,3,word-ladder-ii,0,0
 127,Word Ladder,3,word-ladder,0,0
 128,Longest Consecutive Sequence,2,longest-consecutive-sequence,0,0
-129,Sum Root to Leaf Numbers,2,sum-root-to-leaf-numbers,0,0
+129,Sum Root to Leaf Numbers,2,sum-root-to-leaf-numbers,0,1
 130,Surrounded Regions,2,surrounded-regions,0,1
 131,Palindrome Partitioning,2,palindrome-partitioning,0,0
 132,Palindrome Partitioning II,3,palindrome-partitioning-ii,0,0
@@ -330,7 +330,7 @@ id,title,level,slug,paid,done
 329,Longest Increasing Path in a Matrix,3,longest-increasing-path-in-a-matrix,0,0
 330,Patching Array,3,patching-array,0,0
 331,Verify Preorder Serialization of a Binary Tree,2,verify-preorder-serialization-of-a-binary-tree,0,0
-332,Reconstruct Itinerary,2,reconstruct-itinerary,0,0
+332,Reconstruct Itinerary,3,reconstruct-itinerary,0,0
 333,Largest BST Subtree,2,largest-bst-subtree,1,0
 334,Increasing Triplet Subsequence,2,increasing-triplet-subsequence,0,1
 335,Self Crossing,3,self-crossing,0,0
@@ -2051,3 +2051,11 @@ id,title,level,slug,paid,done
 2050,Parallel Courses III,3,parallel-courses-iii,0,0
 2051,The Category of Each Member in the Store,2,the-category-of-each-member-in-the-store,1,0
 2052,Minimum Cost to Separate Sentence Into Rows,2,minimum-cost-to-separate-sentence-into-rows,1,0
+2053,Kth Distinct String in an Array,1,kth-distinct-string-in-an-array,0,0
+2054,Two Best Non-Overlapping Events,2,two-best-non-overlapping-events,0,0
+2055,Plates Between Candles,2,plates-between-candles,0,0
+2056,Number of Valid Move Combinations On Chessboard,3,number-of-valid-move-combinations-on-chessboard,0,0
+2057,Smallest Index With Equal Value,1,smallest-index-with-equal-value,0,0
+2058,Find the Minimum and Maximum Number of Nodes Between Critical Points,2,find-the-minimum-and-maximum-number-of-nodes-between-critical-points,0,0
+2059,Minimum Operations to Convert Number,2,minimum-operations-to-convert-number,0,0
+2060,Check if an Original String Exists Given Two Encoded Strings,3,check-if-an-original-string-exists-given-two-encoded-strings,0,0

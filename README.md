@@ -140,7 +140,7 @@ My daily challenge on leetcode since 2021/09/06.
 ||126|[Word Ladder II](https://leetcode.com/problems/word-ladder-ii/)|Hard|
 ||127|[Word Ladder](https://leetcode.com/problems/word-ladder/)|Hard|
 ||128|[Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence/)|Medium|
-||129|[Sum Root to Leaf Numbers](https://leetcode.com/problems/sum-root-to-leaf-numbers/)|Medium|
+|[📎](src/q_101_150/q0129.hpp) [📝](src/q_101_150/q0129_unittest.hpp)|129|[Sum Root to Leaf Numbers](https://leetcode.com/problems/sum-root-to-leaf-numbers/)|Medium|
 |[📎](src/q_101_150/q0130.hpp) [📝](src/q_101_150/q0130_unittest.hpp)|130|[Surrounded Regions](https://leetcode.com/problems/surrounded-regions/)|Medium|
 ||131|[Palindrome Partitioning](https://leetcode.com/problems/palindrome-partitioning/)|Medium|
 ||132|[Palindrome Partitioning II](https://leetcode.com/problems/palindrome-partitioning-ii/)|Hard|
@@ -349,7 +349,7 @@ My daily challenge on leetcode since 2021/09/06.
 ||329|[Longest Increasing Path in a Matrix](https://leetcode.com/problems/longest-increasing-path-in-a-matrix/)|Hard|
 ||330|[Patching Array](https://leetcode.com/problems/patching-array/)|Hard|
 ||331|[Verify Preorder Serialization of a Binary Tree](https://leetcode.com/problems/verify-preorder-serialization-of-a-binary-tree/)|Medium|
-||332|[Reconstruct Itinerary](https://leetcode.com/problems/reconstruct-itinerary/)|Medium|
+||332|[Reconstruct Itinerary](https://leetcode.com/problems/reconstruct-itinerary/)|Hard|
 |🔒|333|[Largest BST Subtree](https://leetcode.com/problems/largest-bst-subtree/)|Medium|
 |[📎](src/q_301_350/q0334.hpp) [📝](src/q_301_350/q0334_unittest.hpp)|334|[Increasing Triplet Subsequence](https://leetcode.com/problems/increasing-triplet-subsequence/)|Medium|
 ||335|[Self Crossing](https://leetcode.com/problems/self-crossing/)|Hard|
@@ -2056,7 +2056,7 @@ My daily challenge on leetcode since 2021/09/06.
 ||2000|[Reverse Prefix of Word](https://leetcode.com/problems/reverse-prefix-of-word/)|Easy|
 </details>
 <details>
-  <summary>### 2001 ~ 2052</summary>
+  <summary>### 2001 ~ 2060</summary>
 
 |</>|#|Solution Title|Difficulty|
 |--:|--:|:--|:--|
@@ -2112,6 +2112,14 @@ My daily challenge on leetcode since 2021/09/06.
 ||2050|[Parallel Courses III](https://leetcode.com/problems/parallel-courses-iii/)|Hard|
 |🔒|2051|[The Category of Each Member in the Store](https://leetcode.com/problems/the-category-of-each-member-in-the-store/)|Medium|
 |🔒|2052|[Minimum Cost to Separate Sentence Into Rows](https://leetcode.com/problems/minimum-cost-to-separate-sentence-into-rows/)|Medium|
+||2053|[Kth Distinct String in an Array](https://leetcode.com/problems/kth-distinct-string-in-an-array/)|Easy|
+||2054|[Two Best Non-Overlapping Events](https://leetcode.com/problems/two-best-non-overlapping-events/)|Medium|
+||2055|[Plates Between Candles](https://leetcode.com/problems/plates-between-candles/)|Medium|
+||2056|[Number of Valid Move Combinations On Chessboard](https://leetcode.com/problems/number-of-valid-move-combinations-on-chessboard/)|Hard|
+||2057|[Smallest Index With Equal Value](https://leetcode.com/problems/smallest-index-with-equal-value/)|Easy|
+||2058|[Find the Minimum and Maximum Number of Nodes Between Critical Points](https://leetcode.com/problems/find-the-minimum-and-maximum-number-of-nodes-between-critical-points/)|Medium|
+||2059|[Minimum Operations to Convert Number](https://leetcode.com/problems/minimum-operations-to-convert-number/)|Medium|
+||2060|[Check if an Original String Exists Given Two Encoded Strings](https://leetcode.com/problems/check-if-an-original-string-exists-given-two-encoded-strings/)|Hard|
 </details>
 
 ---
@@ -2119,6 +2127,7 @@ My daily challenge on leetcode since 2021/09/06.
 
 |Time|#|</>|Question Title|Difficulty|
 |:--|--:|:-:|:--|:--|
+|2021-11-03 18:16|129|[📎](src/q_101_150/q0129.hpp) [📝](src/q_101_150/q0129_unittest.hpp)|[Sum Root to Leaf Numbers](https://leetcode.com/problems/sum-root-to-leaf-numbers/)|Medium|
 |2021-11-02 18:23|980|[📎](src/q_951_1000/q0980.hpp) [📝](src/q_951_1000/q0980_unittest.hpp)|[Unique Paths III](https://leetcode.com/problems/unique-paths-iii/)|Hard|
 |2021-11-01 18:23|1480|[📎](src/q_1451_1500/q1480.hpp) [📝](src/q_1451_1500/q1480_unittest.hpp)|[Running Sum of 1d Array](https://leetcode.com/problems/running-sum-of-1d-array/)|Easy|
 |2021-10-31 13:12|430|[📎](src/q_401_450/q0430.hpp) [📝](src/q_401_450/q0430_unittest.hpp)|[Flatten a Multilevel Doubly Linked List](https://leetcode.com/problems/flatten-a-multilevel-doubly-linked-list/)|Medium|
@@ -2143,12 +2152,11 @@ My daily challenge on leetcode since 2021/09/06.
 |2021-10-20 13:17|151|[📎](src/q_151_200/q0151.hpp) [📝](src/q_151_200/q0151_unittest.hpp)|[Reverse Words in a String](https://leetcode.com/problems/reverse-words-in-a-string/)|Medium|
 |2021-10-19 12:05|1559|[📎](src/q_1551_1600/q1559.hpp) [📝](src/q_1551_1600/q1559_unittest.hpp)|[Detect Cycles in 2D Grid](https://leetcode.com/problems/detect-cycles-in-2d-grid/)|Medium|
 |2021-10-19 10:51|496|[📎](src/q_451_500/q0496.hpp) [📝](src/q_451_500/q0496_unittest.hpp)|[Next Greater Element I](https://leetcode.com/problems/next-greater-element-i/)|Easy|
-|2021-10-18 13:29|42|[📎](src/q_1_50/q0042.hpp) [📝](src/q_1_50/q0042_unittest.hpp)|[Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water/)|Hard|
 
 ## Previous Logs
 
 |Month|Submissions|Easy|Medium|Hard|
 |:--|:--|:--|:--|:--|
-|[November_2021](./assets/November_2021.md)|2|1|0|1|
+|[November_2021](./assets/November_2021.md)|3|1|1|1|
 |[October_2021](./assets/October_2021.md)|115|27|75|13|
 |[September_2021](./assets/September_2021.md)|133|55|71|7|
