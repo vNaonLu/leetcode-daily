@@ -1252,7 +1252,7 @@ id,title,level,slug,paid,done
 1251,Average Selling Price,1,average-selling-price,1,0
 1252,Cells with Odd Values in a Matrix,1,cells-with-odd-values-in-a-matrix,0,0
 1253,Reconstruct a 2-Row Binary Matrix,2,reconstruct-a-2-row-binary-matrix,0,0
-1254,Number of Closed Islands,2,number-of-closed-islands,0,0
+1254,Number of Closed Islands,2,number-of-closed-islands,0,1
 1255,Maximum Score Words Formed by Letters,3,maximum-score-words-formed-by-letters,0,0
 1256,Encode Number,2,encode-number,1,0
 1257,Smallest Common Region,2,smallest-common-region,1,0
