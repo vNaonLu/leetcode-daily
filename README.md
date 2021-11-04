@@ -458,7 +458,7 @@ My daily challenge on leetcode since 2021/09/06.
 |[📎](src/q_401_450/q0438.hpp) [📝](src/q_401_450/q0438_unittest.hpp)|438|[Find All Anagrams in a String](https://leetcode.com/problems/find-all-anagrams-in-a-string/)|Medium|
 |🔒|439|[Ternary Expression Parser](https://leetcode.com/problems/ternary-expression-parser/)|Medium|
 ||440|[K-th Smallest in Lexicographical Order](https://leetcode.com/problems/k-th-smallest-in-lexicographical-order/)|Hard|
-||441|[Arranging Coins](https://leetcode.com/problems/arranging-coins/)|Easy|
+|[📎](src/q_401_450/q0441.hpp) [📝](src/q_401_450/q0441_unittest.hpp)|441|[Arranging Coins](https://leetcode.com/problems/arranging-coins/)|Easy|
 |[📎](src/q_401_450/q0442.hpp) [📝](src/q_401_450/q0442_unittest.hpp)|442|[Find All Duplicates in an Array](https://leetcode.com/problems/find-all-duplicates-in-an-array/)|Medium|
 ||443|[String Compression](https://leetcode.com/problems/string-compression/)|Medium|
 |🔒|444|[Sequence Reconstruction](https://leetcode.com/problems/sequence-reconstruction/)|Medium|
@@ -1295,7 +1295,7 @@ My daily challenge on leetcode since 2021/09/06.
 |🔒|1251|[Average Selling Price](https://leetcode.com/problems/average-selling-price/)|Easy|
 ||1252|[Cells with Odd Values in a Matrix](https://leetcode.com/problems/cells-with-odd-values-in-a-matrix/)|Easy|
 ||1253|[Reconstruct a 2-Row Binary Matrix](https://leetcode.com/problems/reconstruct-a-2-row-binary-matrix/)|Medium|
-||1254|[Number of Closed Islands](https://leetcode.com/problems/number-of-closed-islands/)|Medium|
+|[📎](src/q_1251_1300/q1254.hpp) [📝](src/q_1251_1300/q1254_unittest.hpp)|1254|[Number of Closed Islands](https://leetcode.com/problems/number-of-closed-islands/)|Medium|
 ||1255|[Maximum Score Words Formed by Letters](https://leetcode.com/problems/maximum-score-words-formed-by-letters/)|Hard|
 |🔒|1256|[Encode Number](https://leetcode.com/problems/encode-number/)|Medium|
 |🔒|1257|[Smallest Common Region](https://leetcode.com/problems/smallest-common-region/)|Medium|
@@ -2127,6 +2127,8 @@ My daily challenge on leetcode since 2021/09/06.
 
 |Time|#|</>|Question Title|Difficulty|
 |:--|--:|:-:|:--|:--|
+|2021-11-05 18:21|441|[📎](src/q_401_450/q0441.hpp) [📝](src/q_401_450/q0441_unittest.hpp)|[Arranging Coins](https://leetcode.com/problems/arranging-coins/)|Easy|
+|2021-11-04 18:09|1254|[📎](src/q_1251_1300/q1254.hpp) [📝](src/q_1251_1300/q1254_unittest.hpp)|[Number of Closed Islands](https://leetcode.com/problems/number-of-closed-islands/)|Medium|
 |2021-11-04 18:00|404|[📎](src/q_401_450/q0404.hpp) [📝](src/q_401_450/q0404_unittest.hpp)|[Sum of Left Leaves](https://leetcode.com/problems/sum-of-left-leaves/)|Easy|
 |2021-11-03 18:16|129|[📎](src/q_101_150/q0129.hpp) [📝](src/q_101_150/q0129_unittest.hpp)|[Sum Root to Leaf Numbers](https://leetcode.com/problems/sum-root-to-leaf-numbers/)|Medium|
 |2021-11-02 18:23|980|[📎](src/q_951_1000/q0980.hpp) [📝](src/q_951_1000/q0980_unittest.hpp)|[Unique Paths III](https://leetcode.com/problems/unique-paths-iii/)|Hard|
@@ -2150,13 +2152,11 @@ My daily challenge on leetcode since 2021/09/06.
 |2021-10-21 13:14|380|[📎](src/q_351_400/q0380.hpp) [📝](src/q_351_400/q0380_unittest.hpp)|[Insert Delete GetRandom O(1)](https://leetcode.com/problems/insert-delete-getrandom-o1/)|Medium|
 |2021-10-20 13:51|148|[📎](src/q_101_150/q0148.hpp) [📝](src/q_101_150/q0148_unittest.hpp)|[Sort List](https://leetcode.com/problems/sort-list/)|Medium|
 |2021-10-20 13:30|264|[📎](src/q_251_300/q0264.hpp) [📝](src/q_251_300/q0264_unittest.hpp)|[Ugly Number II](https://leetcode.com/problems/ugly-number-ii/)|Medium|
-|2021-10-20 13:17|151|[📎](src/q_151_200/q0151.hpp) [📝](src/q_151_200/q0151_unittest.hpp)|[Reverse Words in a String](https://leetcode.com/problems/reverse-words-in-a-string/)|Medium|
-|2021-10-19 12:05|1559|[📎](src/q_1551_1600/q1559.hpp) [📝](src/q_1551_1600/q1559_unittest.hpp)|[Detect Cycles in 2D Grid](https://leetcode.com/problems/detect-cycles-in-2d-grid/)|Medium|
 
 ## Previous Logs
 
 |Month|Submissions|Easy|Medium|Hard|
 |:--|:--|:--|:--|:--|
-|[November_2021](./assets/November_2021.md)|4|2|1|1|
+|[November_2021](./assets/November_2021.md)|6|3|2|1|
 |[October_2021](./assets/October_2021.md)|115|27|75|13|
 |[September_2021](./assets/September_2021.md)|133|55|71|7|
