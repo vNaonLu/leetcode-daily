@@ -1,6 +1,7 @@
 
 #ifndef LEETCODE_Q441_H__
 #define LEETCODE_Q441_H__
+#include <cmath>
 #include <iostream>
 
 namespace l441 {
