@@ -277,7 +277,7 @@ My daily challenge on leetcode since 2021/09/06.
 |[📎](src/q_251_300/q0257.hpp) [📝](src/q_251_300/q0257_unittest.hpp)|257|[Binary Tree Paths](https://leetcode.com/problems/binary-tree-paths/)|Easy|
 ||258|[Add Digits](https://leetcode.com/problems/add-digits/)|Easy|
 |🔒|259|[3Sum Smaller](https://leetcode.com/problems/3sum-smaller/)|Medium|
-||260|[Single Number III](https://leetcode.com/problems/single-number-iii/)|Medium|
+|[📎](src/q_251_300/q0260.hpp) [📝](src/q_251_300/q0260_unittest.hpp)|260|[Single Number III](https://leetcode.com/problems/single-number-iii/)|Medium|
 |🔒|261|[Graph Valid Tree](https://leetcode.com/problems/graph-valid-tree/)|Medium|
 ||262|[Trips and Users](https://leetcode.com/problems/trips-and-users/)|Hard|
 ||263|[Ugly Number](https://leetcode.com/problems/ugly-number/)|Easy|
@@ -713,7 +713,7 @@ My daily challenge on leetcode since 2021/09/06.
 ||687|[Longest Univalue Path](https://leetcode.com/problems/longest-univalue-path/)|Medium|
 ||688|[Knight Probability in Chessboard](https://leetcode.com/problems/knight-probability-in-chessboard/)|Medium|
 ||689|[Maximum Sum of 3 Non-Overlapping Subarrays](https://leetcode.com/problems/maximum-sum-of-3-non-overlapping-subarrays/)|Hard|
-||690|[Employee Importance](https://leetcode.com/problems/employee-importance/)|Easy|
+||690|[Employee Importance](https://leetcode.com/problems/employee-importance/)|Medium|
 ||691|[Stickers to Spell Word](https://leetcode.com/problems/stickers-to-spell-word/)|Hard|
 ||692|[Top K Frequent Words](https://leetcode.com/problems/top-k-frequent-words/)|Medium|
 |[📎](src/q_651_700/q0693.hpp) [📝](src/q_651_700/q0693_unittest.hpp)|693|[Binary Number with Alternating Bits](https://leetcode.com/problems/binary-number-with-alternating-bits/)|Easy|
@@ -2056,7 +2056,7 @@ My daily challenge on leetcode since 2021/09/06.
 ||2000|[Reverse Prefix of Word](https://leetcode.com/problems/reverse-prefix-of-word/)|Easy|
 </details>
 <details>
-  <summary>### 2001 ~ 2060</summary>
+  <summary>### 2001 ~ 2061</summary>
 
 |</>|#|Solution Title|Difficulty|
 |--:|--:|:--|:--|
@@ -2120,6 +2120,7 @@ My daily challenge on leetcode since 2021/09/06.
 ||2058|[Find the Minimum and Maximum Number of Nodes Between Critical Points](https://leetcode.com/problems/find-the-minimum-and-maximum-number-of-nodes-between-critical-points/)|Medium|
 ||2059|[Minimum Operations to Convert Number](https://leetcode.com/problems/minimum-operations-to-convert-number/)|Medium|
 ||2060|[Check if an Original String Exists Given Two Encoded Strings](https://leetcode.com/problems/check-if-an-original-string-exists-given-two-encoded-strings/)|Hard|
+|🔒|2061|[Number of Spaces Cleaning Robot Cleaned](https://leetcode.com/problems/number-of-spaces-cleaning-robot-cleaned/)|Medium|
 </details>
 
 ---
@@ -2127,6 +2128,7 @@ My daily challenge on leetcode since 2021/09/06.
 
 |Time|#|</>|Question Title|Difficulty|
 |:--|--:|:-:|:--|:--|
+|2021-11-06 20:07|260|[📎](src/q_251_300/q0260.hpp) [📝](src/q_251_300/q0260_unittest.hpp)|[Single Number III](https://leetcode.com/problems/single-number-iii/)|Medium|
 |2021-11-05 18:21|441|[📎](src/q_401_450/q0441.hpp) [📝](src/q_401_450/q0441_unittest.hpp)|[Arranging Coins](https://leetcode.com/problems/arranging-coins/)|Easy|
 |2021-11-04 18:09|1254|[📎](src/q_1251_1300/q1254.hpp) [📝](src/q_1251_1300/q1254_unittest.hpp)|[Number of Closed Islands](https://leetcode.com/problems/number-of-closed-islands/)|Medium|
 |2021-11-04 18:00|404|[📎](src/q_401_450/q0404.hpp) [📝](src/q_401_450/q0404_unittest.hpp)|[Sum of Left Leaves](https://leetcode.com/problems/sum-of-left-leaves/)|Easy|
@@ -2151,12 +2153,11 @@ My daily challenge on leetcode since 2021/09/06.
 |2021-10-22 13:55|931|[📎](src/q_901_950/q0931.hpp) [📝](src/q_901_950/q0931_unittest.hpp)|[Minimum Falling Path Sum](https://leetcode.com/problems/minimum-falling-path-sum/)|Medium|
 |2021-10-21 13:14|380|[📎](src/q_351_400/q0380.hpp) [📝](src/q_351_400/q0380_unittest.hpp)|[Insert Delete GetRandom O(1)](https://leetcode.com/problems/insert-delete-getrandom-o1/)|Medium|
 |2021-10-20 13:51|148|[📎](src/q_101_150/q0148.hpp) [📝](src/q_101_150/q0148_unittest.hpp)|[Sort List](https://leetcode.com/problems/sort-list/)|Medium|
-|2021-10-20 13:30|264|[📎](src/q_251_300/q0264.hpp) [📝](src/q_251_300/q0264_unittest.hpp)|[Ugly Number II](https://leetcode.com/problems/ugly-number-ii/)|Medium|
 
 ## Previous Logs
 
 |Month|Submissions|Easy|Medium|Hard|
 |:--|:--|:--|:--|:--|
-|[November_2021](./assets/November_2021.md)|6|3|2|1|
+|[November_2021](./assets/November_2021.md)|7|3|3|1|
 |[October_2021](./assets/October_2021.md)|115|27|75|13|
 |[September_2021](./assets/September_2021.md)|133|55|71|7|

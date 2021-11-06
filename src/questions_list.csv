@@ -258,7 +258,7 @@ id,title,level,slug,paid,done
 257,Binary Tree Paths,1,binary-tree-paths,0,1
 258,Add Digits,1,add-digits,0,0
 259,3Sum Smaller,2,3sum-smaller,1,0
-260,Single Number III,2,single-number-iii,0,0
+260,Single Number III,2,single-number-iii,0,1
 261,Graph Valid Tree,2,graph-valid-tree,1,0
 262,Trips and Users,3,trips-and-users,0,0
 263,Ugly Number,1,ugly-number,0,0
@@ -688,7 +688,7 @@ id,title,level,slug,paid,done
 687,Longest Univalue Path,2,longest-univalue-path,0,0
 688,Knight Probability in Chessboard,2,knight-probability-in-chessboard,0,0
 689,Maximum Sum of 3 Non-Overlapping Subarrays,3,maximum-sum-of-3-non-overlapping-subarrays,0,0
-690,Employee Importance,1,employee-importance,0,0
+690,Employee Importance,2,employee-importance,0,0
 691,Stickers to Spell Word,3,stickers-to-spell-word,0,0
 692,Top K Frequent Words,2,top-k-frequent-words,0,0
 693,Binary Number with Alternating Bits,1,binary-number-with-alternating-bits,0,1
@@ -2059,3 +2059,4 @@ id,title,level,slug,paid,done
 2058,Find the Minimum and Maximum Number of Nodes Between Critical Points,2,find-the-minimum-and-maximum-number-of-nodes-between-critical-points,0,0
 2059,Minimum Operations to Convert Number,2,minimum-operations-to-convert-number,0,0
 2060,Check if an Original String Exists Given Two Encoded Strings,3,check-if-an-original-string-exists-given-two-encoded-strings,0,0
+2061,Number of Spaces Cleaning Robot Cleaned,2,number-of-spaces-cleaning-robot-cleaned,1,0
