@@ -913,7 +913,7 @@ My daily challenge on leetcode since 2021/09/06.
 ||881|[Boats to Save People](https://leetcode.com/problems/boats-to-save-people/)|Medium|
 |[📎](src/q_851_900/q0882.hpp) [📝](src/q_851_900/q0882_unittest.hpp)|882|[Reachable Nodes In Subdivided Graph](https://leetcode.com/problems/reachable-nodes-in-subdivided-graph/)|Hard|
 ||883|[Projection Area of 3D Shapes](https://leetcode.com/problems/projection-area-of-3d-shapes/)|Easy|
-||884|[Uncommon Words from Two Sentences](https://leetcode.com/problems/uncommon-words-from-two-sentences/)|Easy|
+|[📎](src/q_851_900/q0884.hpp) [📝](src/q_851_900/q0884_unittest.hpp)|884|[Uncommon Words from Two Sentences](https://leetcode.com/problems/uncommon-words-from-two-sentences/)|Easy|
 ||885|[Spiral Matrix III](https://leetcode.com/problems/spiral-matrix-iii/)|Medium|
 ||886|[Possible Bipartition](https://leetcode.com/problems/possible-bipartition/)|Medium|
 ||887|[Super Egg Drop](https://leetcode.com/problems/super-egg-drop/)|Hard|
@@ -2128,6 +2128,7 @@ My daily challenge on leetcode since 2021/09/06.
 
 |Time|#|</>|Question Title|Difficulty|
 |:--|--:|:-:|:--|:--|
+|2021-11-06 20:16|884|[📎](src/q_851_900/q0884.hpp) [📝](src/q_851_900/q0884_unittest.hpp)|[Uncommon Words from Two Sentences](https://leetcode.com/problems/uncommon-words-from-two-sentences/)|Easy|
 |2021-11-06 20:07|260|[📎](src/q_251_300/q0260.hpp) [📝](src/q_251_300/q0260_unittest.hpp)|[Single Number III](https://leetcode.com/problems/single-number-iii/)|Medium|
 |2021-11-05 18:21|441|[📎](src/q_401_450/q0441.hpp) [📝](src/q_401_450/q0441_unittest.hpp)|[Arranging Coins](https://leetcode.com/problems/arranging-coins/)|Easy|
 |2021-11-04 18:09|1254|[📎](src/q_1251_1300/q1254.hpp) [📝](src/q_1251_1300/q1254_unittest.hpp)|[Number of Closed Islands](https://leetcode.com/problems/number-of-closed-islands/)|Medium|
@@ -2152,12 +2153,11 @@ My daily challenge on leetcode since 2021/09/06.
 |2021-10-23 09:55|154|[📎](src/q_151_200/q0154.hpp) [📝](src/q_151_200/q0154_unittest.hpp)|[Find Minimum in Rotated Sorted Array II](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array-ii/)|Hard|
 |2021-10-22 13:55|931|[📎](src/q_901_950/q0931.hpp) [📝](src/q_901_950/q0931_unittest.hpp)|[Minimum Falling Path Sum](https://leetcode.com/problems/minimum-falling-path-sum/)|Medium|
 |2021-10-21 13:14|380|[📎](src/q_351_400/q0380.hpp) [📝](src/q_351_400/q0380_unittest.hpp)|[Insert Delete GetRandom O(1)](https://leetcode.com/problems/insert-delete-getrandom-o1/)|Medium|
-|2021-10-20 13:51|148|[📎](src/q_101_150/q0148.hpp) [📝](src/q_101_150/q0148_unittest.hpp)|[Sort List](https://leetcode.com/problems/sort-list/)|Medium|
 
 ## Previous Logs
 
 |Month|Submissions|Easy|Medium|Hard|
 |:--|:--|:--|:--|:--|
-|[November_2021](./assets/November_2021.md)|7|3|3|1|
+|[November_2021](./assets/November_2021.md)|8|4|3|1|
 |[October_2021](./assets/October_2021.md)|115|27|75|13|
 |[September_2021](./assets/September_2021.md)|133|55|71|7|
