@@ -25,7 +25,7 @@ My daily challenge on leetcode since 2021/09/06.
 |[📎](src/q_1_50/q0011.hpp) [📝](src/q_1_50/q0011_unittest.hpp)|11|[Container With Most Water](https://leetcode.com/problems/container-with-most-water/)|Medium|
 |[📎](src/q_1_50/q0012.hpp) [📝](src/q_1_50/q0012_unittest.hpp)|12|[Integer to Roman](https://leetcode.com/problems/integer-to-roman/)|Medium|
 |[📎](src/q_1_50/q0013.hpp) [📝](src/q_1_50/q0013_unittest.hpp)|13|[Roman to Integer](https://leetcode.com/problems/roman-to-integer/)|Easy|
-||14|[Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix/)|Easy|
+|[📎](src/q_1_50/q0014.hpp) [📝](src/q_1_50/q0014_unittest.hpp)|14|[Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix/)|Easy|
 |[📎](src/q_1_50/q0015.hpp) [📝](src/q_1_50/q0015_unittest.hpp)|15|[3Sum](https://leetcode.com/problems/3sum/)|Medium|
 ||16|[3Sum Closest](https://leetcode.com/problems/3sum-closest/)|Medium|
 |[📎](src/q_1_50/q0017.hpp) [📝](src/q_1_50/q0017_unittest.hpp)|17|[Letter Combinations of a Phone Number](https://leetcode.com/problems/letter-combinations-of-a-phone-number/)|Medium|
@@ -2128,6 +2128,7 @@ My daily challenge on leetcode since 2021/09/06.
 
 |Time|#|</>|Question Title|Difficulty|
 |:--|--:|:-:|:--|:--|
+|2021-11-07 15:25|14|[📎](src/q_1_50/q0014.hpp) [📝](src/q_1_50/q0014_unittest.hpp)|[Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix/)|Easy|
 |2021-11-07 15:18|13|[📎](src/q_1_50/q0013.hpp) [📝](src/q_1_50/q0013_unittest.hpp)|[Roman to Integer](https://leetcode.com/problems/roman-to-integer/)|Easy|
 |2021-11-07 15:03|951|[📎](src/q_951_1000/q0951.hpp) [📝](src/q_951_1000/q0951_unittest.hpp)|[Flip Equivalent Binary Trees](https://leetcode.com/problems/flip-equivalent-binary-trees/)|Medium|
 |2021-11-06 20:16|884|[📎](src/q_851_900/q0884.hpp) [📝](src/q_851_900/q0884_unittest.hpp)|[Uncommon Words from Two Sentences](https://leetcode.com/problems/uncommon-words-from-two-sentences/)|Easy|
@@ -2152,12 +2153,11 @@ My daily challenge on leetcode since 2021/09/06.
 |2021-10-24 22:03|222|[📎](src/q_201_250/q0222.hpp) [📝](src/q_201_250/q0222_unittest.hpp)|[Count Complete Tree Nodes](https://leetcode.com/problems/count-complete-tree-nodes/)|Medium|
 |2021-10-23 09:57|304|[📎](src/q_301_350/q0304.hpp) [📝](src/q_301_350/q0304_unittest.hpp)|[Range Sum Query 2D - Immutable](https://leetcode.com/problems/range-sum-query-2d-immutable/)|Medium|
 |2021-10-23 09:56|1314|[📎](src/q_1301_1350/q1314.hpp) [📝](src/q_1301_1350/q1314_unittest.hpp)|[Matrix Block Sum](https://leetcode.com/problems/matrix-block-sum/)|Medium|
-|2021-10-23 09:55|154|[📎](src/q_151_200/q0154.hpp) [📝](src/q_151_200/q0154_unittest.hpp)|[Find Minimum in Rotated Sorted Array II](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array-ii/)|Hard|
 
 ## Previous Logs
 
 |Month|Submissions|Easy|Medium|Hard|
 |:--|:--|:--|:--|:--|
-|[November_2021](./assets/November_2021.md)|10|5|4|1|
+|[November_2021](./assets/November_2021.md)|11|6|4|1|
 |[October_2021](./assets/October_2021.md)|115|27|75|13|
 |[September_2021](./assets/September_2021.md)|133|55|71|7|
