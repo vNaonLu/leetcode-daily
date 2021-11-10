@@ -1078,7 +1078,7 @@ My daily challenge on leetcode since 2021/09/06.
 ||1040|[Moving Stones Until Consecutive II](https://leetcode.com/problems/moving-stones-until-consecutive-ii/)|Medium|
 ||1041|[Robot Bounded In Circle](https://leetcode.com/problems/robot-bounded-in-circle/)|Medium|
 ||1042|[Flower Planting With No Adjacent](https://leetcode.com/problems/flower-planting-with-no-adjacent/)|Medium|
-||1043|[Partition Array for Maximum Sum](https://leetcode.com/problems/partition-array-for-maximum-sum/)|Medium|
+|[📎](src/q_1001_1050/q1043.hpp) [📝](src/q_1001_1050/q1043_unittest.hpp)|1043|[Partition Array for Maximum Sum](https://leetcode.com/problems/partition-array-for-maximum-sum/)|Medium|
 |[📎](src/q_1001_1050/q1044.hpp) [📝](src/q_1001_1050/q1044_unittest.hpp)|1044|[Longest Duplicate Substring](https://leetcode.com/problems/longest-duplicate-substring/)|Hard|
 |🔒|1045|[Customers Who Bought All Products](https://leetcode.com/problems/customers-who-bought-all-products/)|Medium|
 ||1046|[Last Stone Weight](https://leetcode.com/problems/last-stone-weight/)|Easy|
@@ -2128,6 +2128,7 @@ My daily challenge on leetcode since 2021/09/06.
 
 |Time|#|</>|Question Title|Difficulty|
 |:--|--:|:-:|:--|:--|
+|2021-11-10 17:52|1043|[📎](src/q_1001_1050/q1043.hpp) [📝](src/q_1001_1050/q1043_unittest.hpp)|[Partition Array for Maximum Sum](https://leetcode.com/problems/partition-array-for-maximum-sum/)|Medium|
 |2021-11-09 18:10|1178|[📎](src/q_1151_1200/q1178.hpp) [📝](src/q_1151_1200/q1178_unittest.hpp)|[Number of Valid Words for Each Puzzle](https://leetcode.com/problems/number-of-valid-words-for-each-puzzle/)|Hard|
 |2021-11-08 18:26|621|[📎](src/q_601_650/q0621.hpp) [📝](src/q_601_650/q0621_unittest.hpp)|[Task Scheduler](https://leetcode.com/problems/task-scheduler/)|Medium|
 |2021-11-07 15:25|14|[📎](src/q_1_50/q0014.hpp) [📝](src/q_1_50/q0014_unittest.hpp)|[Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix/)|Easy|
@@ -2152,12 +2153,11 @@ My daily challenge on leetcode since 2021/09/06.
 |2021-10-25 14:23|221|[📎](src/q_201_250/q0221.hpp) [📝](src/q_201_250/q0221_unittest.hpp)|[Maximal Square](https://leetcode.com/problems/maximal-square/)|Medium|
 |2021-10-25 14:22|64|[📎](src/q_51_100/q0064.hpp) [📝](src/q_51_100/q0064_unittest.hpp)|[Minimum Path Sum](https://leetcode.com/problems/minimum-path-sum/)|Medium|
 |2021-10-24 22:07|63|[📎](src/q_51_100/q0063.hpp) [📝](src/q_51_100/q0063_unittest.hpp)|[Unique Paths II](https://leetcode.com/problems/unique-paths-ii/)|Medium|
-|2021-10-24 22:03|222|[📎](src/q_201_250/q0222.hpp) [📝](src/q_201_250/q0222_unittest.hpp)|[Count Complete Tree Nodes](https://leetcode.com/problems/count-complete-tree-nodes/)|Medium|
 
 ## Previous Logs
 
 |Month|Submissions|Easy|Medium|Hard|
 |:--|:--|:--|:--|:--|
-|[November_2021](./assets/November_2021.md)|13|6|5|2|
+|[November_2021](./assets/November_2021.md)|14|6|6|2|
 |[October_2021](./assets/October_2021.md)|115|27|75|13|
 |[September_2021](./assets/September_2021.md)|133|55|71|7|
