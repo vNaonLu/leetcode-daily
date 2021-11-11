@@ -262,18 +262,23 @@ class Solution:
 class LeetCodeQuestion:
 
     def __init__(self, title_slug: str, testcase: bool):
-        res_obj = LeetCodeRequest.question_details(title_slug)
-        self.__id: int = int(res_obj['questionFrontendId'])
-        self.__title: str = res_obj['questionTitle']
-        self.__slug: str = res_obj['titleSlug']
-        self.__level: str = res_obj['difficulty']
-        self.__snippet: str = ""
-        self.__solntmp: SolutionAbstract = SolutionAbstract(-1, "")
-        self.__desc: list[str] = None
-        self.__cons: list[str] = None
-        self.__testcase: list[list[str]] = []
-        self.__parse_code_snippet(res_obj['codeSnippets'], res_obj['content'])
-        self.__parse_content(res_obj['content'], testcase)
+        self.__res_obj = LeetCodeRequest.question_details(title_slug)
+        if self.__res_obj != None:
+            self.__id: int = int(self.__res_obj['questionFrontendId'])
+            self.__title: str = self.__res_obj['questionTitle']
+            self.__slug: str = self.__res_obj['titleSlug']
+            self.__level: str = self.__res_obj['difficulty']
+            self.__snippet: str = ""
+            self.__solntmp: SolutionAbstract = SolutionAbstract(-1, "")
+            self.__desc: list[str] = None
+            self.__cons: list[str] = None
+            self.__testcase: list[list[str]] = []
+            self.__parse_code_snippet(self.__res_obj['codeSnippets'],
+                                      self.__res_obj['content'])
+            self.__parse_content(self.__res_obj['content'], testcase)
+
+    def is_valid(self):
+        return self.__res_obj
 
     def __parse_code_snippet(self, code_snippets: list[object], content: str):
         if code_snippets != None:
