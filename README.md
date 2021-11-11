@@ -1256,7 +1256,7 @@ My daily challenge on leetcode since 2021/09/06.
 ||1218|[Longest Arithmetic Subsequence of Given Difference](https://leetcode.com/problems/longest-arithmetic-subsequence-of-given-difference/)|Medium|
 ||1219|[Path with Maximum Gold](https://leetcode.com/problems/path-with-maximum-gold/)|Medium|
 ||1220|[Count Vowels Permutation](https://leetcode.com/problems/count-vowels-permutation/)|Hard|
-||1221|[Split a String in Balanced Strings](https://leetcode.com/problems/split-a-string-in-balanced-strings/)|Easy|
+|[📎](src/q_1201_1250/q1221.hpp) [📝](src/q_1201_1250/q1221_unittest.hpp)|1221|[Split a String in Balanced Strings](https://leetcode.com/problems/split-a-string-in-balanced-strings/)|Easy|
 ||1222|[Queens That Can Attack the King](https://leetcode.com/problems/queens-that-can-attack-the-king/)|Medium|
 ||1223|[Dice Roll Simulation](https://leetcode.com/problems/dice-roll-simulation/)|Hard|
 ||1224|[Maximum Equal Frequency](https://leetcode.com/problems/maximum-equal-frequency/)|Hard|
@@ -2134,6 +2134,7 @@ My daily challenge on leetcode since 2021/09/06.
 
 |Time|#|</>|Question Title|Difficulty|
 |:--|--:|:-:|:--|:--|
+|2021-11-11 21:34|1221|[📎](src/q_1201_1250/q1221.hpp) [📝](src/q_1201_1250/q1221_unittest.hpp)|[Split a String in Balanced Strings](https://leetcode.com/problems/split-a-string-in-balanced-strings/)|Easy|
 |2021-11-11 21:28|1413|[📎](src/q_1401_1450/q1413.hpp) [📝](src/q_1401_1450/q1413_unittest.hpp)|[Minimum Value to Get Positive Step by Step Sum](https://leetcode.com/problems/minimum-value-to-get-positive-step-by-step-sum/)|Easy|
 |2021-11-10 17:52|1043|[📎](src/q_1001_1050/q1043.hpp) [📝](src/q_1001_1050/q1043_unittest.hpp)|[Partition Array for Maximum Sum](https://leetcode.com/problems/partition-array-for-maximum-sum/)|Medium|
 |2021-11-09 18:10|1178|[📎](src/q_1151_1200/q1178.hpp) [📝](src/q_1151_1200/q1178_unittest.hpp)|[Number of Valid Words for Each Puzzle](https://leetcode.com/problems/number-of-valid-words-for-each-puzzle/)|Hard|
@@ -2158,12 +2159,11 @@ My daily challenge on leetcode since 2021/09/06.
 |2021-10-26 14:26|561|[📎](src/q_551_600/q0561.hpp) [📝](src/q_551_600/q0561_unittest.hpp)|[Array Partition I](https://leetcode.com/problems/array-partition-i/)|Easy|
 |2021-10-26 14:13|516|[📎](src/q_501_550/q0516.hpp) [📝](src/q_501_550/q0516_unittest.hpp)|[Longest Palindromic Subsequence](https://leetcode.com/problems/longest-palindromic-subsequence/)|Medium|
 |2021-10-25 14:23|221|[📎](src/q_201_250/q0221.hpp) [📝](src/q_201_250/q0221_unittest.hpp)|[Maximal Square](https://leetcode.com/problems/maximal-square/)|Medium|
-|2021-10-25 14:22|64|[📎](src/q_51_100/q0064.hpp) [📝](src/q_51_100/q0064_unittest.hpp)|[Minimum Path Sum](https://leetcode.com/problems/minimum-path-sum/)|Medium|
 
 ## Previous Logs
 
 |Month|Submissions|Easy|Medium|Hard|
 |:--|:--|:--|:--|:--|
-|[November_2021](./assets/November_2021.md)|15|7|6|2|
+|[November_2021](./assets/November_2021.md)|16|8|6|2|
 |[October_2021](./assets/October_2021.md)|115|27|75|13|
 |[September_2021](./assets/September_2021.md)|133|55|71|7|

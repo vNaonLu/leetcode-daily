@@ -1219,7 +1219,7 @@ id,title,level,slug,paid,done
 1218,Longest Arithmetic Subsequence of Given Difference,2,longest-arithmetic-subsequence-of-given-difference,0,0
 1219,Path with Maximum Gold,2,path-with-maximum-gold,0,0
 1220,Count Vowels Permutation,3,count-vowels-permutation,0,0
-1221,Split a String in Balanced Strings,1,split-a-string-in-balanced-strings,0,0
+1221,Split a String in Balanced Strings,1,split-a-string-in-balanced-strings,0,1
 1222,Queens That Can Attack the King,2,queens-that-can-attack-the-king,0,0
 1223,Dice Roll Simulation,3,dice-roll-simulation,0,0
 1224,Maximum Equal Frequency,3,maximum-equal-frequency,0,0
