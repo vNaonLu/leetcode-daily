@@ -1411,7 +1411,7 @@ id,title,level,slug,paid,done
 1410,HTML Entity Parser,2,html-entity-parser,0,0
 1411,Number of Ways to Paint N × 3 Grid,3,number-of-ways-to-paint-n-3-grid,0,0
 1412,Find the Quiet Students in All Exams,3,find-the-quiet-students-in-all-exams,1,0
-1413,Minimum Value to Get Positive Step by Step Sum,1,minimum-value-to-get-positive-step-by-step-sum,0,0
+1413,Minimum Value to Get Positive Step by Step Sum,1,minimum-value-to-get-positive-step-by-step-sum,0,1
 1414,Find the Minimum Number of Fibonacci Numbers Whose Sum Is K,2,find-the-minimum-number-of-fibonacci-numbers-whose-sum-is-k,0,0
 1415,The k-th Lexicographical String of All Happy Strings of Length n,2,the-k-th-lexicographical-string-of-all-happy-strings-of-length-n,0,0
 1416,Restore The Array,3,restore-the-array,0,0
@@ -2060,3 +2060,9 @@ id,title,level,slug,paid,done
 2059,Minimum Operations to Convert Number,2,minimum-operations-to-convert-number,0,0
 2060,Check if an Original String Exists Given Two Encoded Strings,3,check-if-an-original-string-exists-given-two-encoded-strings,0,0
 2061,Number of Spaces Cleaning Robot Cleaned,2,number-of-spaces-cleaning-robot-cleaned,1,0
+2062,Count Vowel Substrings of a String,1,count-vowel-substrings-of-a-string,0,0
+2063,Vowels of All Substrings,2,vowels-of-all-substrings,0,0
+2064,Minimized Maximum of Products Distributed to Any Store,2,minimized-maximum-of-products-distributed-to-any-store,0,0
+2065,Maximum Path Quality of a Graph,3,maximum-path-quality-of-a-graph,0,0
+2066,Account Balance,2,account-balance,1,0
+2067,Number of Equal Count Substrings,2,number-of-equal-count-substrings,1,0
