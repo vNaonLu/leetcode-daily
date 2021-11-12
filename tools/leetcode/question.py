@@ -278,7 +278,7 @@ class LeetCodeQuestion:
             self.__parse_content(self.__res_obj['content'], testcase)
 
     def is_valid(self):
-        return self.__res_obj
+        return self.__res_obj != None
 
     def __parse_code_snippet(self, code_snippets: list[object], content: str):
         if code_snippets != None:

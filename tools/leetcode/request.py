@@ -71,7 +71,6 @@ def question_details(ques_slug: str):
         request_count -= 1
         if resp.status_code == 200:
             break
-    return None
     if resp.status_code == 200:
         raw_data = json.loads(resp.content.decode("utf8"))
         return raw_data['data']['question']
