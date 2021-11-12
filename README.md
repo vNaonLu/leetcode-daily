@@ -917,7 +917,7 @@ My daily challenge on leetcode since 2021/09/06.
 ||885|[Spiral Matrix III](https://leetcode.com/problems/spiral-matrix-iii/)|Medium|
 ||886|[Possible Bipartition](https://leetcode.com/problems/possible-bipartition/)|Medium|
 ||887|[Super Egg Drop](https://leetcode.com/problems/super-egg-drop/)|Hard|
-||888|[Fair Candy Swap](https://leetcode.com/problems/fair-candy-swap/)|Easy|
+|[📎](src/q_851_900/q0888.hpp) [📝](src/q_851_900/q0888_unittest.hpp)|888|[Fair Candy Swap](https://leetcode.com/problems/fair-candy-swap/)|Easy|
 ||889|[Construct Binary Tree from Preorder and Postorder Traversal](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-postorder-traversal/)|Medium|
 ||890|[Find and Replace Pattern](https://leetcode.com/problems/find-and-replace-pattern/)|Medium|
 ||891|[Sum of Subsequence Widths](https://leetcode.com/problems/sum-of-subsequence-widths/)|Hard|
@@ -2134,6 +2134,7 @@ My daily challenge on leetcode since 2021/09/06.
 
 |Time|#|</>|Question Title|Difficulty|
 |:--|--:|:-:|:--|:--|
+|2021-11-12 18:29|888|[📎](src/q_851_900/q0888.hpp) [📝](src/q_851_900/q0888_unittest.hpp)|[Fair Candy Swap](https://leetcode.com/problems/fair-candy-swap/)|Easy|
 |2021-11-11 21:34|1221|[📎](src/q_1201_1250/q1221.hpp) [📝](src/q_1201_1250/q1221_unittest.hpp)|[Split a String in Balanced Strings](https://leetcode.com/problems/split-a-string-in-balanced-strings/)|Easy|
 |2021-11-11 21:28|1413|[📎](src/q_1401_1450/q1413.hpp) [📝](src/q_1401_1450/q1413_unittest.hpp)|[Minimum Value to Get Positive Step by Step Sum](https://leetcode.com/problems/minimum-value-to-get-positive-step-by-step-sum/)|Easy|
 |2021-11-10 17:52|1043|[📎](src/q_1001_1050/q1043.hpp) [📝](src/q_1001_1050/q1043_unittest.hpp)|[Partition Array for Maximum Sum](https://leetcode.com/problems/partition-array-for-maximum-sum/)|Medium|
@@ -2158,12 +2159,11 @@ My daily challenge on leetcode since 2021/09/06.
 |2021-10-27 14:00|376|[📎](src/q_351_400/q0376.hpp) [📝](src/q_351_400/q0376_unittest.hpp)|[Wiggle Subsequence](https://leetcode.com/problems/wiggle-subsequence/)|Medium|
 |2021-10-26 14:26|561|[📎](src/q_551_600/q0561.hpp) [📝](src/q_551_600/q0561_unittest.hpp)|[Array Partition I](https://leetcode.com/problems/array-partition-i/)|Easy|
 |2021-10-26 14:13|516|[📎](src/q_501_550/q0516.hpp) [📝](src/q_501_550/q0516_unittest.hpp)|[Longest Palindromic Subsequence](https://leetcode.com/problems/longest-palindromic-subsequence/)|Medium|
-|2021-10-25 14:23|221|[📎](src/q_201_250/q0221.hpp) [📝](src/q_201_250/q0221_unittest.hpp)|[Maximal Square](https://leetcode.com/problems/maximal-square/)|Medium|
 
 ## Previous Logs
 
 |Month|Submissions|Easy|Medium|Hard|
 |:--|:--|:--|:--|:--|
-|[November_2021](./assets/November_2021.md)|16|8|6|2|
+|[November_2021](./assets/November_2021.md)|17|9|6|2|
 |[October_2021](./assets/October_2021.md)|115|27|75|13|
 |[September_2021](./assets/September_2021.md)|133|55|71|7|
