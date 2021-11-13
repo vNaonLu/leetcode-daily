@@ -737,7 +737,7 @@ id,title,level,slug,paid,done
 736,Parse Lisp Expression,3,parse-lisp-expression,0,0
 737,Sentence Similarity II,2,sentence-similarity-ii,1,0
 738,Monotone Increasing Digits,2,monotone-increasing-digits,0,0
-739,Daily Temperatures,2,daily-temperatures,0,0
+739,Daily Temperatures,2,daily-temperatures,0,1
 740,Delete and Earn,2,delete-and-earn,0,1
 741,Cherry Pickup,3,cherry-pickup,0,0
 742,Closest Leaf in a Binary Tree,2,closest-leaf-in-a-binary-tree,1,0

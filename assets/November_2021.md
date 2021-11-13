@@ -2,6 +2,7 @@
 
 ||#|</>|Question Title|Difficulty|
 |:--|--:|:-:|:--|:--|
+|Day 13|739|[📎](../src/q_701_750/q0739.hpp) [📝](../src/q_701_750/q0739_unittest.hpp)|[Daily Temperatures](https://leetcode.com/problems/daily-temperatures/)|Medium|
 |Day 12|888|[📎](../src/q_851_900/q0888.hpp) [📝](../src/q_851_900/q0888_unittest.hpp)|[Fair Candy Swap](https://leetcode.com/problems/fair-candy-swap/)|Easy|
 |Day 11|1221<br>1413|[📎](../src/q_1201_1250/q1221.hpp) [📝](../src/q_1201_1250/q1221_unittest.hpp)<br>[📎](../src/q_1401_1450/q1413.hpp) [📝](../src/q_1401_1450/q1413_unittest.hpp)|[Split a String in Balanced Strings](https://leetcode.com/problems/split-a-string-in-balanced-strings/)<br>[Minimum Value to Get Positive Step by Step Sum](https://leetcode.com/problems/minimum-value-to-get-positive-step-by-step-sum/)|Easy<br>Easy|
 |Day 10|1043|[📎](../src/q_1001_1050/q1043.hpp) [📝](../src/q_1001_1050/q1043_unittest.hpp)|[Partition Array for Maximum Sum](https://leetcode.com/problems/partition-array-for-maximum-sum/)|Medium|

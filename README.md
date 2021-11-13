@@ -762,7 +762,7 @@ My daily challenge on leetcode since 2021/09/06.
 ||736|[Parse Lisp Expression](https://leetcode.com/problems/parse-lisp-expression/)|Hard|
 |🔒|737|[Sentence Similarity II](https://leetcode.com/problems/sentence-similarity-ii/)|Medium|
 ||738|[Monotone Increasing Digits](https://leetcode.com/problems/monotone-increasing-digits/)|Medium|
-||739|[Daily Temperatures](https://leetcode.com/problems/daily-temperatures/)|Medium|
+|[📎](src/q_701_750/q0739.hpp) [📝](src/q_701_750/q0739_unittest.hpp)|739|[Daily Temperatures](https://leetcode.com/problems/daily-temperatures/)|Medium|
 |[📎](src/q_701_750/q0740.hpp) [📝](src/q_701_750/q0740_unittest.hpp)|740|[Delete and Earn](https://leetcode.com/problems/delete-and-earn/)|Medium|
 ||741|[Cherry Pickup](https://leetcode.com/problems/cherry-pickup/)|Hard|
 |🔒|742|[Closest Leaf in a Binary Tree](https://leetcode.com/problems/closest-leaf-in-a-binary-tree/)|Medium|
@@ -2134,6 +2134,7 @@ My daily challenge on leetcode since 2021/09/06.
 
 |Time|#|</>|Question Title|Difficulty|
 |:--|--:|:-:|:--|:--|
+|2021-11-13 11:51|739|[📎](src/q_701_750/q0739.hpp) [📝](src/q_701_750/q0739_unittest.hpp)|[Daily Temperatures](https://leetcode.com/problems/daily-temperatures/)|Medium|
 |2021-11-12 18:29|888|[📎](src/q_851_900/q0888.hpp) [📝](src/q_851_900/q0888_unittest.hpp)|[Fair Candy Swap](https://leetcode.com/problems/fair-candy-swap/)|Easy|
 |2021-11-11 21:34|1221|[📎](src/q_1201_1250/q1221.hpp) [📝](src/q_1201_1250/q1221_unittest.hpp)|[Split a String in Balanced Strings](https://leetcode.com/problems/split-a-string-in-balanced-strings/)|Easy|
 |2021-11-11 21:28|1413|[📎](src/q_1401_1450/q1413.hpp) [📝](src/q_1401_1450/q1413_unittest.hpp)|[Minimum Value to Get Positive Step by Step Sum](https://leetcode.com/problems/minimum-value-to-get-positive-step-by-step-sum/)|Easy|
@@ -2158,12 +2159,11 @@ My daily challenge on leetcode since 2021/09/06.
 |2021-10-28 14:32|392|[📎](src/q_351_400/q0392.hpp) [📝](src/q_351_400/q0392_unittest.hpp)|[Is Subsequence](https://leetcode.com/problems/is-subsequence/)|Easy|
 |2021-10-27 14:00|376|[📎](src/q_351_400/q0376.hpp) [📝](src/q_351_400/q0376_unittest.hpp)|[Wiggle Subsequence](https://leetcode.com/problems/wiggle-subsequence/)|Medium|
 |2021-10-26 14:26|561|[📎](src/q_551_600/q0561.hpp) [📝](src/q_551_600/q0561_unittest.hpp)|[Array Partition I](https://leetcode.com/problems/array-partition-i/)|Easy|
-|2021-10-26 14:13|516|[📎](src/q_501_550/q0516.hpp) [📝](src/q_501_550/q0516_unittest.hpp)|[Longest Palindromic Subsequence](https://leetcode.com/problems/longest-palindromic-subsequence/)|Medium|
 
 ## Previous Logs
 
 |Month|Submissions|Easy|Medium|Hard|
 |:--|:--|:--|:--|:--|
-|[November_2021](./assets/November_2021.md)|17|9|6|2|
+|[November_2021](./assets/November_2021.md)|18|9|7|2|
 |[October_2021](./assets/October_2021.md)|115|27|75|13|
 |[September_2021](./assets/September_2021.md)|133|55|71|7|
