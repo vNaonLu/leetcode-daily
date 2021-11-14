@@ -187,13 +187,11 @@ class SolutionClass(SolutionAbstract):
         if len(functions) != len(answer) or \
                 len(functions) != len(args_statement):
             return out
-
         for i in range(0, len(functions)):
             if functions[i] not in self.__methods:
                 continue
-
             method = self.__methods[functions[i]]
-            arg_input = regex.findall("(\"[\w\W]*?\"|[.\d+-]+|\[(?:[^\[\]]|(?R))*\])",
+            arg_input = regex.findall("(\"[\w\W]*?\"|\'[\w\W]*?\'|[.\d+-]+|\[(?:[^\[\]]|(?R))*\])",
                                       args_statement[i])
             if len(method.args()) != len(arg_input):
                 continue
@@ -226,8 +224,7 @@ class SolutionClass(SolutionAbstract):
         match = re.search("\[(?P<out>.*?)\]", output)
         if not match:
             return outputs
-
-        outputs = re.findall("(null|\"[\w\W]*\"|[.\d+-]+|\[[\w\W]*\]|true|false|True|False)",
+        outputs = re.findall("(null|\"[\w\W]*?\"|\'[\w\W]*?\'|[.\d+-]+|\[[\w\W]*\]|true|false|True|False)",
                              match.group("out"))
         return outputs
 
