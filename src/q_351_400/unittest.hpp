@@ -2,6 +2,7 @@
 #ifndef Q_351_400_UNITTEST
 #define Q_351_400_UNITTEST
 
+#include "q0368_unittest.hpp"
 #include "q0374_unittest.hpp"
 #include "q0376_unittest.hpp"
 #include "q0377_unittest.hpp"

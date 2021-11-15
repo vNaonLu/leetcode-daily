@@ -6,15 +6,15 @@ xmlns:xlink="http://www.w3.org/1999/xlink" stroke-width="40" fill="none">
 <style>.mdm {font: bold 10px sans-serif; fill: orange;}</style>
 <style>.hrd {font: bold 10px sans-serif; fill: red;}</style>
 <circle cx="50" cy="50" r="30.0" stroke="gray" />
-<path d="M80.0 50 A 30.0 30.0, 0, 0, 1, 78.12797038532061 60.431552233609665" stroke="green" />
-<path d="M78.12797038532061 60.431552233609665 A 30.0 30.0, 0, 0, 1, 67.30040966344602 74.50909679031327" stroke="orange" />
-<path d="M67.30040966344602 74.50909679031327 A 30.0 30.0, 0, 0, 1, 65.1349863346704 75.90235874682729" stroke="red" />
+<path d="M80.0 50 A 30.0 30.0, 0, 0, 1, 78.14624407362679 60.3821454694022" stroke="green" />
+<path d="M78.14624407362679 60.3821454694022 A 30.0 30.0, 0, 0, 1, 67.32109398866915 74.49448311427881" stroke="orange" />
+<path d="M67.32109398866915 74.49448311427881 A 30.0 30.0, 0, 0, 1, 65.16783664010961 75.8831360476073" stroke="red" />
 <text x="110.0" y="10.0" class="small">Easy Solved</text>
 <text x="110.0" y="20.0" class="esy">91</text>
 <text x="110.0" y="35.0" class="small">Medium Solved</text>
-<text x="110.0" y="45.0" class="mdm">154</text>
+<text x="110.0" y="45.0" class="mdm">155</text>
 <text x="110.0" y="60.0" class="small">Hard Solved</text>
 <text x="110.0" y="70.0" class="hrd">22</text>
 <text x="110.0" y="85.0" class="small">Total Solved</text>
-<text x="110.0" y="95.0" class="small">267</text>
+<text x="110.0" y="95.0" class="small">268</text>
 </svg>

@@ -366,7 +366,7 @@ id,title,level,slug,paid,done
 365,Water and Jug Problem,2,water-and-jug-problem,0,0
 366,Find Leaves of Binary Tree,2,find-leaves-of-binary-tree,1,0
 367,Valid Perfect Square,1,valid-perfect-square,0,0
-368,Largest Divisible Subset,2,largest-divisible-subset,0,0
+368,Largest Divisible Subset,2,largest-divisible-subset,0,1
 369,Plus One Linked List,2,plus-one-linked-list,1,0
 370,Range Addition,2,range-addition,1,0
 371,Sum of Two Integers,2,sum-of-two-integers,0,0
@@ -2066,3 +2066,12 @@ id,title,level,slug,paid,done
 2065,Maximum Path Quality of a Graph,3,maximum-path-quality-of-a-graph,0,0
 2066,Account Balance,2,account-balance,1,0
 2067,Number of Equal Count Substrings,2,number-of-equal-count-substrings,1,0
+2068,Check Whether Two Strings are Almost Equivalent,1,check-whether-two-strings-are-almost-equivalent,0,0
+2069,Walking Robot Simulation II,2,walking-robot-simulation-ii,0,0
+2070,Most Beautiful Item for Each Query,2,most-beautiful-item-for-each-query,0,0
+2071,Maximum Number of Tasks You Can Assign,3,maximum-number-of-tasks-you-can-assign,0,0
+2072,The Winner University,1,the-winner-university,1,0
+2073,Time Needed to Buy Tickets,1,time-needed-to-buy-tickets,0,0
+2074,Reverse Nodes in Even Length Groups,2,reverse-nodes-in-even-length-groups,0,0
+2075,Decode the Slanted Ciphertext,2,decode-the-slanted-ciphertext,0,0
+2076,Process Restricted Friend Requests,3,process-restricted-friend-requests,0,0
