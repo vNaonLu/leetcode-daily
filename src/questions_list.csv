@@ -666,7 +666,7 @@ id,title,level,slug,paid,done
 665,Non-decreasing Array,2,non-decreasing-array,0,0
 666,Path Sum IV,2,path-sum-iv,1,0
 667,Beautiful Arrangement II,2,beautiful-arrangement-ii,0,0
-668,Kth Smallest Number in Multiplication Table,3,kth-smallest-number-in-multiplication-table,0,0
+668,Kth Smallest Number in Multiplication Table,3,kth-smallest-number-in-multiplication-table,0,1
 669,Trim a Binary Search Tree,2,trim-a-binary-search-tree,0,0
 670,Maximum Swap,2,maximum-swap,0,0
 671,Second Minimum Node In a Binary Tree,1,second-minimum-node-in-a-binary-tree,0,0

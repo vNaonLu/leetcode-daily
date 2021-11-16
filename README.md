@@ -691,7 +691,7 @@ My daily challenge on leetcode since 2021/09/06.
 ||665|[Non-decreasing Array](https://leetcode.com/problems/non-decreasing-array/)|Medium|
 |🔒|666|[Path Sum IV](https://leetcode.com/problems/path-sum-iv/)|Medium|
 ||667|[Beautiful Arrangement II](https://leetcode.com/problems/beautiful-arrangement-ii/)|Medium|
-||668|[Kth Smallest Number in Multiplication Table](https://leetcode.com/problems/kth-smallest-number-in-multiplication-table/)|Hard|
+|[📎](src/q_651_700/q0668.hpp) [📝](src/q_651_700/q0668_unittest.hpp)|668|[Kth Smallest Number in Multiplication Table](https://leetcode.com/problems/kth-smallest-number-in-multiplication-table/)|Hard|
 ||669|[Trim a Binary Search Tree](https://leetcode.com/problems/trim-a-binary-search-tree/)|Medium|
 ||670|[Maximum Swap](https://leetcode.com/problems/maximum-swap/)|Medium|
 ||671|[Second Minimum Node In a Binary Tree](https://leetcode.com/problems/second-minimum-node-in-a-binary-tree/)|Easy|
@@ -2143,6 +2143,7 @@ My daily challenge on leetcode since 2021/09/06.
 
 |Time|#|</>|Question Title|Difficulty|
 |:--|--:|:-:|:--|:--|
+|2021-11-16 18:13|668|[📎](src/q_651_700/q0668.hpp) [📝](src/q_651_700/q0668_unittest.hpp)|[Kth Smallest Number in Multiplication Table](https://leetcode.com/problems/kth-smallest-number-in-multiplication-table/)|Hard|
 |2021-11-15 18:09|368|[📎](src/q_351_400/q0368.hpp) [📝](src/q_351_400/q0368_unittest.hpp)|[Largest Divisible Subset](https://leetcode.com/problems/largest-divisible-subset/)|Medium|
 |2021-11-14 13:18|1286|[📎](src/q_1251_1300/q1286.hpp) [📝](src/q_1251_1300/q1286_unittest.hpp)|[Iterator for Combination](https://leetcode.com/problems/iterator-for-combination/)|Medium|
 |2021-11-13 11:51|739|[📎](src/q_701_750/q0739.hpp) [📝](src/q_701_750/q0739_unittest.hpp)|[Daily Temperatures](https://leetcode.com/problems/daily-temperatures/)|Medium|
@@ -2167,12 +2168,11 @@ My daily challenge on leetcode since 2021/09/06.
 |2021-10-30 15:09|377|[📎](src/q_351_400/q0377.hpp) [📝](src/q_351_400/q0377_unittest.hpp)|[Combination Sum IV](https://leetcode.com/problems/combination-sum-iv/)|Medium|
 |2021-10-30 14:49|1044|[📎](src/q_1001_1050/q1044.hpp) [📝](src/q_1001_1050/q1044_unittest.hpp)|[Longest Duplicate Substring](https://leetcode.com/problems/longest-duplicate-substring/)|Hard|
 |2021-10-29 12:56|518|[📎](src/q_501_550/q0518.hpp) [📝](src/q_501_550/q0518_unittest.hpp)|[Coin Change 2](https://leetcode.com/problems/coin-change-2/)|Medium|
-|2021-10-28 14:32|392|[📎](src/q_351_400/q0392.hpp) [📝](src/q_351_400/q0392_unittest.hpp)|[Is Subsequence](https://leetcode.com/problems/is-subsequence/)|Easy|
 
 ## Previous Logs
 
 |Month|Submissions|Easy|Medium|Hard|
 |:--|:--|:--|:--|:--|
-|[November_2021](./assets/November_2021.md)|20|9|9|2|
+|[November_2021](./assets/November_2021.md)|21|9|9|3|
 |[October_2021](./assets/October_2021.md)|115|27|75|13|
 |[September_2021](./assets/September_2021.md)|133|55|71|7|

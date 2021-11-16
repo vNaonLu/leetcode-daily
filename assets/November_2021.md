@@ -2,6 +2,7 @@
 
 ||#|</>|Question Title|Difficulty|
 |:--|--:|:-:|:--|:--|
+|Day 16|668|[📎](../src/q_651_700/q0668.hpp) [📝](../src/q_651_700/q0668_unittest.hpp)|[Kth Smallest Number in Multiplication Table](https://leetcode.com/problems/kth-smallest-number-in-multiplication-table/)|Hard|
 |Day 15|368|[📎](../src/q_351_400/q0368.hpp) [📝](../src/q_351_400/q0368_unittest.hpp)|[Largest Divisible Subset](https://leetcode.com/problems/largest-divisible-subset/)|Medium|
 |Day 14|1286|[📎](../src/q_1251_1300/q1286.hpp) [📝](../src/q_1251_1300/q1286_unittest.hpp)|[Iterator for Combination](https://leetcode.com/problems/iterator-for-combination/)|Medium|
 |Day 13|739|[📎](../src/q_701_750/q0739.hpp) [📝](../src/q_701_750/q0739_unittest.hpp)|[Daily Temperatures](https://leetcode.com/problems/daily-temperatures/)|Medium|
