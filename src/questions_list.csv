@@ -21,7 +21,7 @@ id,title,level,slug,paid,done
 20,Valid Parentheses,1,valid-parentheses,0,1
 21,Merge Two Sorted Lists,1,merge-two-sorted-lists,0,1
 22,Generate Parentheses,2,generate-parentheses,0,1
-23,Merge k Sorted Lists,3,merge-k-sorted-lists,0,0
+23,Merge k Sorted Lists,3,merge-k-sorted-lists,0,1
 24,Swap Nodes in Pairs,2,swap-nodes-in-pairs,0,1
 25,Reverse Nodes in k-Group,3,reverse-nodes-in-k-group,0,1
 26,Remove Duplicates from Sorted Array,1,remove-duplicates-from-sorted-array,0,0
