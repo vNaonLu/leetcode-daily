@@ -27,7 +27,7 @@ My daily challenge on leetcode since 2021/09/06.
 |[📎](src/q_1_50/q0013.hpp) [📝](src/q_1_50/q0013_unittest.hpp)|13|[Roman to Integer](https://leetcode.com/problems/roman-to-integer/)|Easy|
 |[📎](src/q_1_50/q0014.hpp) [📝](src/q_1_50/q0014_unittest.hpp)|14|[Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix/)|Easy|
 |[📎](src/q_1_50/q0015.hpp) [📝](src/q_1_50/q0015_unittest.hpp)|15|[3Sum](https://leetcode.com/problems/3sum/)|Medium|
-||16|[3Sum Closest](https://leetcode.com/problems/3sum-closest/)|Medium|
+|[📎](src/q_1_50/q0016.hpp) [📝](src/q_1_50/q0016_unittest.hpp)|16|[3Sum Closest](https://leetcode.com/problems/3sum-closest/)|Medium|
 |[📎](src/q_1_50/q0017.hpp) [📝](src/q_1_50/q0017_unittest.hpp)|17|[Letter Combinations of a Phone Number](https://leetcode.com/problems/letter-combinations-of-a-phone-number/)|Medium|
 ||18|[4Sum](https://leetcode.com/problems/4sum/)|Medium|
 |[📎](src/q_1_50/q0019.hpp) [📝](src/q_1_50/q0019_unittest.hpp)|19|[Remove Nth Node From End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/)|Medium|
@@ -2143,6 +2143,7 @@ My daily challenge on leetcode since 2021/09/06.
 
 |Time|#|</>|Question Title|Difficulty|
 |:--|--:|:-:|:--|:--|
+|2021-11-17 18:17|16|[📎](src/q_1_50/q0016.hpp) [📝](src/q_1_50/q0016_unittest.hpp)|[3Sum Closest](https://leetcode.com/problems/3sum-closest/)|Medium|
 |2021-11-16 18:13|668|[📎](src/q_651_700/q0668.hpp) [📝](src/q_651_700/q0668_unittest.hpp)|[Kth Smallest Number in Multiplication Table](https://leetcode.com/problems/kth-smallest-number-in-multiplication-table/)|Hard|
 |2021-11-15 18:09|368|[📎](src/q_351_400/q0368.hpp) [📝](src/q_351_400/q0368_unittest.hpp)|[Largest Divisible Subset](https://leetcode.com/problems/largest-divisible-subset/)|Medium|
 |2021-11-14 13:18|1286|[📎](src/q_1251_1300/q1286.hpp) [📝](src/q_1251_1300/q1286_unittest.hpp)|[Iterator for Combination](https://leetcode.com/problems/iterator-for-combination/)|Medium|
@@ -2167,12 +2168,11 @@ My daily challenge on leetcode since 2021/09/06.
 |2021-10-31 13:12|430|[📎](src/q_401_450/q0430.hpp) [📝](src/q_401_450/q0430_unittest.hpp)|[Flatten a Multilevel Doubly Linked List](https://leetcode.com/problems/flatten-a-multilevel-doubly-linked-list/)|Medium|
 |2021-10-30 15:09|377|[📎](src/q_351_400/q0377.hpp) [📝](src/q_351_400/q0377_unittest.hpp)|[Combination Sum IV](https://leetcode.com/problems/combination-sum-iv/)|Medium|
 |2021-10-30 14:49|1044|[📎](src/q_1001_1050/q1044.hpp) [📝](src/q_1001_1050/q1044_unittest.hpp)|[Longest Duplicate Substring](https://leetcode.com/problems/longest-duplicate-substring/)|Hard|
-|2021-10-29 12:56|518|[📎](src/q_501_550/q0518.hpp) [📝](src/q_501_550/q0518_unittest.hpp)|[Coin Change 2](https://leetcode.com/problems/coin-change-2/)|Medium|
 
 ## Previous Logs
 
 |Month|Submissions|Easy|Medium|Hard|
 |:--|:--|:--|:--|:--|
-|[November_2021](./assets/November_2021.md)|21|9|9|3|
+|[November_2021](./assets/November_2021.md)|22|9|10|3|
 |[October_2021](./assets/October_2021.md)|115|27|75|13|
 |[September_2021](./assets/September_2021.md)|133|55|71|7|

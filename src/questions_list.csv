@@ -14,7 +14,7 @@ id,title,level,slug,paid,done
 13,Roman to Integer,1,roman-to-integer,0,1
 14,Longest Common Prefix,1,longest-common-prefix,0,1
 15,3Sum,2,3sum,0,1
-16,3Sum Closest,2,3sum-closest,0,0
+16,3Sum Closest,2,3sum-closest,0,1
 17,Letter Combinations of a Phone Number,2,letter-combinations-of-a-phone-number,0,1
 18,4Sum,2,4sum,0,0
 19,Remove Nth Node From End of List,2,remove-nth-node-from-end-of-list,0,1
