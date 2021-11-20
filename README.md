@@ -39,7 +39,7 @@ My daily challenge on leetcode since 2021/09/06.
 |[📎](src/q_1_50/q0025.hpp) [📝](src/q_1_50/q0025_unittest.hpp)|25|[Reverse Nodes in k-Group](https://leetcode.com/problems/reverse-nodes-in-k-group/)|Hard|
 |[📎](src/q_1_50/q0026.hpp) [📝](src/q_1_50/q0026_unittest.hpp)|26|[Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/)|Easy|
 |[📎](src/q_1_50/q0027.hpp) [📝](src/q_1_50/q0027_unittest.hpp)|27|[Remove Element](https://leetcode.com/problems/remove-element/)|Easy|
-||28|[Implement strStr()](https://leetcode.com/problems/implement-strstr/)|Easy|
+|[📎](src/q_1_50/q0028.hpp) [📝](src/q_1_50/q0028_unittest.hpp)|28|[Implement strStr()](https://leetcode.com/problems/implement-strstr/)|Easy|
 ||29|[Divide Two Integers](https://leetcode.com/problems/divide-two-integers/)|Medium|
 ||30|[Substring with Concatenation of All Words](https://leetcode.com/problems/substring-with-concatenation-of-all-words/)|Hard|
 ||31|[Next Permutation](https://leetcode.com/problems/next-permutation/)|Medium|
@@ -2144,6 +2144,7 @@ My daily challenge on leetcode since 2021/09/06.
 
 |Time|#|</>|Question Title|Difficulty|
 |:--|--:|:-:|:--|:--|
+|2021-11-20 14:36|28|[📎](src/q_1_50/q0028.hpp) [📝](src/q_1_50/q0028_unittest.hpp)|[Implement strStr()](https://leetcode.com/problems/implement-strstr/)|Easy|
 |2021-11-20 14:21|27|[📎](src/q_1_50/q0027.hpp) [📝](src/q_1_50/q0027_unittest.hpp)|[Remove Element](https://leetcode.com/problems/remove-element/)|Easy|
 |2021-11-20 14:14|26|[📎](src/q_1_50/q0026.hpp) [📝](src/q_1_50/q0026_unittest.hpp)|[Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/)|Easy|
 |2021-11-19 22:39|461|[📎](src/q_451_500/q0461.hpp) [📝](src/q_451_500/q0461_unittest.hpp)|[Hamming Distance](https://leetcode.com/problems/hamming-distance/)|Easy|
@@ -2168,12 +2169,11 @@ My daily challenge on leetcode since 2021/09/06.
 |2021-11-05 18:21|441|[📎](src/q_401_450/q0441.hpp) [📝](src/q_401_450/q0441_unittest.hpp)|[Arranging Coins](https://leetcode.com/problems/arranging-coins/)|Easy|
 |2021-11-04 18:09|1254|[📎](src/q_1251_1300/q1254.hpp) [📝](src/q_1251_1300/q1254_unittest.hpp)|[Number of Closed Islands](https://leetcode.com/problems/number-of-closed-islands/)|Medium|
 |2021-11-04 18:00|404|[📎](src/q_401_450/q0404.hpp) [📝](src/q_401_450/q0404_unittest.hpp)|[Sum of Left Leaves](https://leetcode.com/problems/sum-of-left-leaves/)|Easy|
-|2021-11-03 18:16|129|[📎](src/q_101_150/q0129.hpp) [📝](src/q_101_150/q0129_unittest.hpp)|[Sum Root to Leaf Numbers](https://leetcode.com/problems/sum-root-to-leaf-numbers/)|Medium|
 
 ## Previous Logs
 
 |Month|Submissions|Easy|Medium|Hard|
 |:--|:--|:--|:--|:--|
-|[November_2021](./assets/November_2021.md)|27|13|10|4|
+|[November_2021](./assets/November_2021.md)|28|14|10|4|
 |[October_2021](./assets/October_2021.md)|115|27|75|13|
 |[September_2021](./assets/September_2021.md)|133|55|71|7|
