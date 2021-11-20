@@ -37,7 +37,7 @@ My daily challenge on leetcode since 2021/09/06.
 |[📎](src/q_1_50/q0023.hpp) [📝](src/q_1_50/q0023_unittest.hpp)|23|[Merge k Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/)|Hard|
 |[📎](src/q_1_50/q0024.hpp) [📝](src/q_1_50/q0024_unittest.hpp)|24|[Swap Nodes in Pairs](https://leetcode.com/problems/swap-nodes-in-pairs/)|Medium|
 |[📎](src/q_1_50/q0025.hpp) [📝](src/q_1_50/q0025_unittest.hpp)|25|[Reverse Nodes in k-Group](https://leetcode.com/problems/reverse-nodes-in-k-group/)|Hard|
-||26|[Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/)|Easy|
+|[📎](src/q_1_50/q0026.hpp) [📝](src/q_1_50/q0026_unittest.hpp)|26|[Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/)|Easy|
 ||27|[Remove Element](https://leetcode.com/problems/remove-element/)|Easy|
 ||28|[Implement strStr()](https://leetcode.com/problems/implement-strstr/)|Easy|
 ||29|[Divide Two Integers](https://leetcode.com/problems/divide-two-integers/)|Medium|
@@ -2056,7 +2056,7 @@ My daily challenge on leetcode since 2021/09/06.
 ||2000|[Reverse Prefix of Word](https://leetcode.com/problems/reverse-prefix-of-word/)|Easy|
 </details>
 <details>
-  <summary>### 2001 ~ 2076</summary>
+  <summary>### 2001 ~ 2077</summary>
 
 |</>|#|Solution Title|Difficulty|
 |--:|--:|:--|:--|
@@ -2136,6 +2136,7 @@ My daily challenge on leetcode since 2021/09/06.
 ||2074|[Reverse Nodes in Even Length Groups](https://leetcode.com/problems/reverse-nodes-in-even-length-groups/)|Medium|
 ||2075|[Decode the Slanted Ciphertext](https://leetcode.com/problems/decode-the-slanted-ciphertext/)|Medium|
 ||2076|[Process Restricted Friend Requests](https://leetcode.com/problems/process-restricted-friend-requests/)|Hard|
+|🔒|2077|[Paths in Maze That Lead to Same Room](https://leetcode.com/problems/paths-in-maze-that-lead-to-same-room/)|Medium|
 </details>
 
 ---
@@ -2143,6 +2144,7 @@ My daily challenge on leetcode since 2021/09/06.
 
 |Time|#|</>|Question Title|Difficulty|
 |:--|--:|:-:|:--|:--|
+|2021-11-20 14:14|26|[📎](src/q_1_50/q0026.hpp) [📝](src/q_1_50/q0026_unittest.hpp)|[Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/)|Easy|
 |2021-11-19 22:39|461|[📎](src/q_451_500/q0461.hpp) [📝](src/q_451_500/q0461_unittest.hpp)|[Hamming Distance](https://leetcode.com/problems/hamming-distance/)|Easy|
 |2021-11-18 18:27|448|[📎](src/q_401_450/q0448.hpp) [📝](src/q_401_450/q0448_unittest.hpp)|[Find All Numbers Disappeared in an Array](https://leetcode.com/problems/find-all-numbers-disappeared-in-an-array/)|Easy|
 |2021-11-17 18:43|23|[📎](src/q_1_50/q0023.hpp) [📝](src/q_1_50/q0023_unittest.hpp)|[Merge k Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/)|Hard|
@@ -2167,12 +2169,11 @@ My daily challenge on leetcode since 2021/09/06.
 |2021-11-04 18:00|404|[📎](src/q_401_450/q0404.hpp) [📝](src/q_401_450/q0404_unittest.hpp)|[Sum of Left Leaves](https://leetcode.com/problems/sum-of-left-leaves/)|Easy|
 |2021-11-03 18:16|129|[📎](src/q_101_150/q0129.hpp) [📝](src/q_101_150/q0129_unittest.hpp)|[Sum Root to Leaf Numbers](https://leetcode.com/problems/sum-root-to-leaf-numbers/)|Medium|
 |2021-11-02 18:23|980|[📎](src/q_951_1000/q0980.hpp) [📝](src/q_951_1000/q0980_unittest.hpp)|[Unique Paths III](https://leetcode.com/problems/unique-paths-iii/)|Hard|
-|2021-11-01 18:23|1480|[📎](src/q_1451_1500/q1480.hpp) [📝](src/q_1451_1500/q1480_unittest.hpp)|[Running Sum of 1d Array](https://leetcode.com/problems/running-sum-of-1d-array/)|Easy|
 
 ## Previous Logs
 
 |Month|Submissions|Easy|Medium|Hard|
 |:--|:--|:--|:--|:--|
-|[November_2021](./assets/November_2021.md)|25|11|10|4|
+|[November_2021](./assets/November_2021.md)|26|12|10|4|
 |[October_2021](./assets/October_2021.md)|115|27|75|13|
 |[September_2021](./assets/September_2021.md)|133|55|71|7|

@@ -24,7 +24,7 @@ id,title,level,slug,paid,done
 23,Merge k Sorted Lists,3,merge-k-sorted-lists,0,1
 24,Swap Nodes in Pairs,2,swap-nodes-in-pairs,0,1
 25,Reverse Nodes in k-Group,3,reverse-nodes-in-k-group,0,1
-26,Remove Duplicates from Sorted Array,1,remove-duplicates-from-sorted-array,0,0
+26,Remove Duplicates from Sorted Array,1,remove-duplicates-from-sorted-array,0,1
 27,Remove Element,1,remove-element,0,0
 28,Implement strStr(),1,implement-strstr,0,0
 29,Divide Two Integers,2,divide-two-integers,0,0
@@ -2075,3 +2075,4 @@ id,title,level,slug,paid,done
 2074,Reverse Nodes in Even Length Groups,2,reverse-nodes-in-even-length-groups,0,0
 2075,Decode the Slanted Ciphertext,2,decode-the-slanted-ciphertext,0,0
 2076,Process Restricted Friend Requests,3,process-restricted-friend-requests,0,0
+2077,Paths in Maze That Lead to Same Room,2,paths-in-maze-that-lead-to-same-room,1,0
