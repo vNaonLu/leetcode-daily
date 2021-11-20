@@ -2,7 +2,7 @@
 
 ||#|</>|Question Title|Difficulty|
 |:--|--:|:-:|:--|:--|
-|Day 20|26|[📎](../src/q_1_50/q0026.hpp) [📝](../src/q_1_50/q0026_unittest.hpp)|[Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/)|Easy|
+|Day 20|26<br>27|[📎](../src/q_1_50/q0026.hpp) [📝](../src/q_1_50/q0026_unittest.hpp)<br>[📎](../src/q_1_50/q0027.hpp) [📝](../src/q_1_50/q0027_unittest.hpp)|[Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/)<br>[Remove Element](https://leetcode.com/problems/remove-element/)|Easy<br>Easy|
 |Day 19|461|[📎](../src/q_451_500/q0461.hpp) [📝](../src/q_451_500/q0461_unittest.hpp)|[Hamming Distance](https://leetcode.com/problems/hamming-distance/)|Easy|
 |Day 18|448|[📎](../src/q_401_450/q0448.hpp) [📝](../src/q_401_450/q0448_unittest.hpp)|[Find All Numbers Disappeared in an Array](https://leetcode.com/problems/find-all-numbers-disappeared-in-an-array/)|Easy|
 |Day 17|16<br>23|[📎](../src/q_1_50/q0016.hpp) [📝](../src/q_1_50/q0016_unittest.hpp)<br>[📎](../src/q_1_50/q0023.hpp) [📝](../src/q_1_50/q0023_unittest.hpp)|[3Sum Closest](https://leetcode.com/problems/3sum-closest/)<br>[Merge k Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/)|Medium<br>Hard|
