@@ -29,6 +29,7 @@
 #include "q0026_unittest.hpp"
 #include "q0027_unittest.hpp"
 #include "q0028_unittest.hpp"
+#include "q0029_unittest.hpp"
 #include "q0033_unittest.hpp"
 #include "q0034_unittest.hpp"
 #include "q0036_unittest.hpp"
