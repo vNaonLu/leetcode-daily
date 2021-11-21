@@ -117,7 +117,7 @@ My daily challenge on leetcode since 2021/09/06.
 |[📎](src/q_101_150/q0103.hpp) [📝](src/q_101_150/q0103_unittest.hpp)|103|[Binary Tree Zigzag Level Order Traversal](https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal/)|Medium|
 |[📎](src/q_101_150/q0104.hpp) [📝](src/q_101_150/q0104_unittest.hpp)|104|[Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/)|Easy|
 |[📎](src/q_101_150/q0105.hpp) [📝](src/q_101_150/q0105_unittest.hpp)|105|[Construct Binary Tree from Preorder and Inorder Traversal](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/)|Medium|
-||106|[Construct Binary Tree from Inorder and Postorder Traversal](https://leetcode.com/problems/construct-binary-tree-from-inorder-and-postorder-traversal/)|Medium|
+|[📎](src/q_101_150/q0106.hpp) [📝](src/q_101_150/q0106_unittest.hpp)|106|[Construct Binary Tree from Inorder and Postorder Traversal](https://leetcode.com/problems/construct-binary-tree-from-inorder-and-postorder-traversal/)|Medium|
 ||107|[Binary Tree Level Order Traversal II](https://leetcode.com/problems/binary-tree-level-order-traversal-ii/)|Medium|
 |[📎](src/q_101_150/q0108.hpp) [📝](src/q_101_150/q0108_unittest.hpp)|108|[Convert Sorted Array to Binary Search Tree](https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree/)|Easy|
 ||109|[Convert Sorted List to Binary Search Tree](https://leetcode.com/problems/convert-sorted-list-to-binary-search-tree/)|Medium|
@@ -2144,6 +2144,7 @@ My daily challenge on leetcode since 2021/09/06.
 
 |Time|#|</>|Question Title|Difficulty|
 |:--|--:|:-:|:--|:--|
+|2021-11-21 13:23|106|[📎](src/q_101_150/q0106.hpp) [📝](src/q_101_150/q0106_unittest.hpp)|[Construct Binary Tree from Inorder and Postorder Traversal](https://leetcode.com/problems/construct-binary-tree-from-inorder-and-postorder-traversal/)|Medium|
 |2021-11-20 14:38|29|[📎](src/q_1_50/q0029.hpp) [📝](src/q_1_50/q0029_unittest.hpp)|[Divide Two Integers](https://leetcode.com/problems/divide-two-integers/)|Medium|
 |2021-11-20 14:36|28|[📎](src/q_1_50/q0028.hpp) [📝](src/q_1_50/q0028_unittest.hpp)|[Implement strStr()](https://leetcode.com/problems/implement-strstr/)|Easy|
 |2021-11-20 14:21|27|[📎](src/q_1_50/q0027.hpp) [📝](src/q_1_50/q0027_unittest.hpp)|[Remove Element](https://leetcode.com/problems/remove-element/)|Easy|
@@ -2168,12 +2169,11 @@ My daily challenge on leetcode since 2021/09/06.
 |2021-11-06 20:16|884|[📎](src/q_851_900/q0884.hpp) [📝](src/q_851_900/q0884_unittest.hpp)|[Uncommon Words from Two Sentences](https://leetcode.com/problems/uncommon-words-from-two-sentences/)|Easy|
 |2021-11-06 20:07|260|[📎](src/q_251_300/q0260.hpp) [📝](src/q_251_300/q0260_unittest.hpp)|[Single Number III](https://leetcode.com/problems/single-number-iii/)|Medium|
 |2021-11-05 18:21|441|[📎](src/q_401_450/q0441.hpp) [📝](src/q_401_450/q0441_unittest.hpp)|[Arranging Coins](https://leetcode.com/problems/arranging-coins/)|Easy|
-|2021-11-04 18:09|1254|[📎](src/q_1251_1300/q1254.hpp) [📝](src/q_1251_1300/q1254_unittest.hpp)|[Number of Closed Islands](https://leetcode.com/problems/number-of-closed-islands/)|Medium|
 
 ## Previous Logs
 
 |Month|Submissions|Easy|Medium|Hard|
 |:--|:--|:--|:--|:--|
-|[November_2021](./assets/November_2021.md)|29|14|11|4|
+|[November_2021](./assets/November_2021.md)|30|14|12|4|
 |[October_2021](./assets/October_2021.md)|115|27|75|13|
 |[September_2021](./assets/September_2021.md)|133|55|71|7|
