@@ -29,7 +29,7 @@ My daily challenge on leetcode since 2021/09/06.
 |[📎](src/q_1_50/q0015.hpp) [📝](src/q_1_50/q0015_unittest.hpp)|15|[3Sum](https://leetcode.com/problems/3sum/)|Medium|
 |[📎](src/q_1_50/q0016.hpp) [📝](src/q_1_50/q0016_unittest.hpp)|16|[3Sum Closest](https://leetcode.com/problems/3sum-closest/)|Medium|
 |[📎](src/q_1_50/q0017.hpp) [📝](src/q_1_50/q0017_unittest.hpp)|17|[Letter Combinations of a Phone Number](https://leetcode.com/problems/letter-combinations-of-a-phone-number/)|Medium|
-||18|[4Sum](https://leetcode.com/problems/4sum/)|Medium|
+|[📎](src/q_1_50/q0018.hpp) [📝](src/q_1_50/q0018_unittest.hpp)|18|[4Sum](https://leetcode.com/problems/4sum/)|Medium|
 |[📎](src/q_1_50/q0019.hpp) [📝](src/q_1_50/q0019_unittest.hpp)|19|[Remove Nth Node From End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/)|Medium|
 |[📎](src/q_1_50/q0020.hpp) [📝](src/q_1_50/q0020_unittest.hpp)|20|[Valid Parentheses](https://leetcode.com/problems/valid-parentheses/)|Easy|
 |[📎](src/q_1_50/q0021.hpp) [📝](src/q_1_50/q0021_unittest.hpp)|21|[Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/)|Easy|
@@ -2056,7 +2056,7 @@ My daily challenge on leetcode since 2021/09/06.
 ||2000|[Reverse Prefix of Word](https://leetcode.com/problems/reverse-prefix-of-word/)|Easy|
 </details>
 <details>
-  <summary>### 2001 ~ 2077</summary>
+  <summary>### 2001 ~ 2081</summary>
 
 |</>|#|Solution Title|Difficulty|
 |--:|--:|:--|:--|
@@ -2137,6 +2137,10 @@ My daily challenge on leetcode since 2021/09/06.
 ||2075|[Decode the Slanted Ciphertext](https://leetcode.com/problems/decode-the-slanted-ciphertext/)|Medium|
 ||2076|[Process Restricted Friend Requests](https://leetcode.com/problems/process-restricted-friend-requests/)|Hard|
 |🔒|2077|[Paths in Maze That Lead to Same Room](https://leetcode.com/problems/paths-in-maze-that-lead-to-same-room/)|Medium|
+||2078|[Two Furthest Houses With Different Colors](https://leetcode.com/problems/two-furthest-houses-with-different-colors/)|Easy|
+||2079|[Watering Plants](https://leetcode.com/problems/watering-plants/)|Medium|
+||2080|[Range Frequency Queries](https://leetcode.com/problems/range-frequency-queries/)|Medium|
+||2081|[Sum of k-Mirror Numbers](https://leetcode.com/problems/sum-of-k-mirror-numbers/)|Hard|
 </details>
 
 ---
@@ -2144,6 +2148,7 @@ My daily challenge on leetcode since 2021/09/06.
 
 |Time|#|</>|Question Title|Difficulty|
 |:--|--:|:-:|:--|:--|
+|2021-11-22 18:12|18|[📎](src/q_1_50/q0018.hpp) [📝](src/q_1_50/q0018_unittest.hpp)|[4Sum](https://leetcode.com/problems/4sum/)|Medium|
 |2021-11-21 13:23|106|[📎](src/q_101_150/q0106.hpp) [📝](src/q_101_150/q0106_unittest.hpp)|[Construct Binary Tree from Inorder and Postorder Traversal](https://leetcode.com/problems/construct-binary-tree-from-inorder-and-postorder-traversal/)|Medium|
 |2021-11-20 14:38|29|[📎](src/q_1_50/q0029.hpp) [📝](src/q_1_50/q0029_unittest.hpp)|[Divide Two Integers](https://leetcode.com/problems/divide-two-integers/)|Medium|
 |2021-11-20 14:36|28|[📎](src/q_1_50/q0028.hpp) [📝](src/q_1_50/q0028_unittest.hpp)|[Implement strStr()](https://leetcode.com/problems/implement-strstr/)|Easy|
@@ -2168,12 +2173,11 @@ My daily challenge on leetcode since 2021/09/06.
 |2021-11-07 15:03|951|[📎](src/q_951_1000/q0951.hpp) [📝](src/q_951_1000/q0951_unittest.hpp)|[Flip Equivalent Binary Trees](https://leetcode.com/problems/flip-equivalent-binary-trees/)|Medium|
 |2021-11-06 20:16|884|[📎](src/q_851_900/q0884.hpp) [📝](src/q_851_900/q0884_unittest.hpp)|[Uncommon Words from Two Sentences](https://leetcode.com/problems/uncommon-words-from-two-sentences/)|Easy|
 |2021-11-06 20:07|260|[📎](src/q_251_300/q0260.hpp) [📝](src/q_251_300/q0260_unittest.hpp)|[Single Number III](https://leetcode.com/problems/single-number-iii/)|Medium|
-|2021-11-05 18:21|441|[📎](src/q_401_450/q0441.hpp) [📝](src/q_401_450/q0441_unittest.hpp)|[Arranging Coins](https://leetcode.com/problems/arranging-coins/)|Easy|
 
 ## Previous Logs
 
 |Month|Submissions|Easy|Medium|Hard|
 |:--|:--|:--|:--|:--|
-|[November_2021](./assets/November_2021.md)|30|14|12|4|
+|[November_2021](./assets/November_2021.md)|31|14|13|4|
 |[October_2021](./assets/October_2021.md)|115|27|75|13|
 |[September_2021](./assets/September_2021.md)|133|55|71|7|
