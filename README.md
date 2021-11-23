@@ -2070,7 +2070,7 @@ My daily challenge on leetcode since 2021/09/06.
 ||2008|[Maximum Earnings From Taxi](https://leetcode.com/problems/maximum-earnings-from-taxi/)|Medium|
 ||2009|[Minimum Number of Operations to Make Array Continuous](https://leetcode.com/problems/minimum-number-of-operations-to-make-array-continuous/)|Hard|
 |🔒|2010|[The Number of Seniors and Juniors to Join the Company II](https://leetcode.com/problems/the-number-of-seniors-and-juniors-to-join-the-company-ii/)|Hard|
-||2011|[Final Value of Variable After Performing Operations](https://leetcode.com/problems/final-value-of-variable-after-performing-operations/)|Easy|
+|[📎](src/q_2001_2050/q2011.hpp) [📝](src/q_2001_2050/q2011_unittest.hpp)|2011|[Final Value of Variable After Performing Operations](https://leetcode.com/problems/final-value-of-variable-after-performing-operations/)|Easy|
 ||2012|[Sum of Beauty in the Array](https://leetcode.com/problems/sum-of-beauty-in-the-array/)|Medium|
 ||2013|[Detect Squares](https://leetcode.com/problems/detect-squares/)|Medium|
 ||2014|[Longest Subsequence Repeated k Times](https://leetcode.com/problems/longest-subsequence-repeated-k-times/)|Hard|
@@ -2148,6 +2148,7 @@ My daily challenge on leetcode since 2021/09/06.
 
 |Time|#|</>|Question Title|Difficulty|
 |:--|--:|:-:|:--|:--|
+|2021-11-23 18:44|2011|[📎](src/q_2001_2050/q2011.hpp) [📝](src/q_2001_2050/q2011_unittest.hpp)|[Final Value of Variable After Performing Operations](https://leetcode.com/problems/final-value-of-variable-after-performing-operations/)|Easy|
 |2021-11-23 18:31|952|[📎](src/q_951_1000/q0952.hpp) [📝](src/q_951_1000/q0952_unittest.hpp)|[Largest Component Size by Common Factor](https://leetcode.com/problems/largest-component-size-by-common-factor/)|Hard|
 |2021-11-22 18:12|18|[📎](src/q_1_50/q0018.hpp) [📝](src/q_1_50/q0018_unittest.hpp)|[4Sum](https://leetcode.com/problems/4sum/)|Medium|
 |2021-11-21 13:23|106|[📎](src/q_101_150/q0106.hpp) [📝](src/q_101_150/q0106_unittest.hpp)|[Construct Binary Tree from Inorder and Postorder Traversal](https://leetcode.com/problems/construct-binary-tree-from-inorder-and-postorder-traversal/)|Medium|
@@ -2172,12 +2173,11 @@ My daily challenge on leetcode since 2021/09/06.
 |2021-11-07 15:25|14|[📎](src/q_1_50/q0014.hpp) [📝](src/q_1_50/q0014_unittest.hpp)|[Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix/)|Easy|
 |2021-11-07 15:18|13|[📎](src/q_1_50/q0013.hpp) [📝](src/q_1_50/q0013_unittest.hpp)|[Roman to Integer](https://leetcode.com/problems/roman-to-integer/)|Easy|
 |2021-11-07 15:03|951|[📎](src/q_951_1000/q0951.hpp) [📝](src/q_951_1000/q0951_unittest.hpp)|[Flip Equivalent Binary Trees](https://leetcode.com/problems/flip-equivalent-binary-trees/)|Medium|
-|2021-11-06 20:16|884|[📎](src/q_851_900/q0884.hpp) [📝](src/q_851_900/q0884_unittest.hpp)|[Uncommon Words from Two Sentences](https://leetcode.com/problems/uncommon-words-from-two-sentences/)|Easy|
 
 ## Previous Logs
 
 |Month|Submissions|Easy|Medium|Hard|
 |:--|:--|:--|:--|:--|
-|[November_2021](./assets/November_2021.md)|32|14|13|5|
+|[November_2021](./assets/November_2021.md)|33|15|13|5|
 |[October_2021](./assets/October_2021.md)|115|27|75|13|
 |[September_2021](./assets/September_2021.md)|133|55|71|7|
