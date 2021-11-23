@@ -153,6 +153,7 @@ class VectorArgument(Argument):
         Argument.__init__(self, typename)
         self._content = Argument.generate(content)
         self._includes.append("vector")
+        self._includes+=self._content._includes
 
     def parse_value(self, string: str):
         match = regex.search("\[(?P<val>(?:[^\[\]]|(?R))*)\]", string)
