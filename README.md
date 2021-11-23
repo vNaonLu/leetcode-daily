@@ -275,7 +275,7 @@ My daily challenge on leetcode since 2021/09/06.
 |🔒|255|[Verify Preorder Sequence in Binary Search Tree](https://leetcode.com/problems/verify-preorder-sequence-in-binary-search-tree/)|Medium|
 |🔒|256|[Paint House](https://leetcode.com/problems/paint-house/)|Medium|
 |[📎](src/q_251_300/q0257.hpp) [📝](src/q_251_300/q0257_unittest.hpp)|257|[Binary Tree Paths](https://leetcode.com/problems/binary-tree-paths/)|Easy|
-||258|[Add Digits](https://leetcode.com/problems/add-digits/)|Easy|
+|[📎](src/q_251_300/q0258.hpp) [📝](src/q_251_300/q0258_unittest.hpp)|258|[Add Digits](https://leetcode.com/problems/add-digits/)|Easy|
 |🔒|259|[3Sum Smaller](https://leetcode.com/problems/3sum-smaller/)|Medium|
 |[📎](src/q_251_300/q0260.hpp) [📝](src/q_251_300/q0260_unittest.hpp)|260|[Single Number III](https://leetcode.com/problems/single-number-iii/)|Medium|
 |🔒|261|[Graph Valid Tree](https://leetcode.com/problems/graph-valid-tree/)|Medium|
@@ -2148,6 +2148,7 @@ My daily challenge on leetcode since 2021/09/06.
 
 |Time|#|</>|Question Title|Difficulty|
 |:--|--:|:-:|:--|:--|
+|2021-11-23 18:50|258|[📎](src/q_251_300/q0258.hpp) [📝](src/q_251_300/q0258_unittest.hpp)|[Add Digits](https://leetcode.com/problems/add-digits/)|Easy|
 |2021-11-23 18:44|2011|[📎](src/q_2001_2050/q2011.hpp) [📝](src/q_2001_2050/q2011_unittest.hpp)|[Final Value of Variable After Performing Operations](https://leetcode.com/problems/final-value-of-variable-after-performing-operations/)|Easy|
 |2021-11-23 18:31|952|[📎](src/q_951_1000/q0952.hpp) [📝](src/q_951_1000/q0952_unittest.hpp)|[Largest Component Size by Common Factor](https://leetcode.com/problems/largest-component-size-by-common-factor/)|Hard|
 |2021-11-22 18:12|18|[📎](src/q_1_50/q0018.hpp) [📝](src/q_1_50/q0018_unittest.hpp)|[4Sum](https://leetcode.com/problems/4sum/)|Medium|
@@ -2172,12 +2173,11 @@ My daily challenge on leetcode since 2021/09/06.
 |2021-11-08 18:26|621|[📎](src/q_601_650/q0621.hpp) [📝](src/q_601_650/q0621_unittest.hpp)|[Task Scheduler](https://leetcode.com/problems/task-scheduler/)|Medium|
 |2021-11-07 15:25|14|[📎](src/q_1_50/q0014.hpp) [📝](src/q_1_50/q0014_unittest.hpp)|[Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix/)|Easy|
 |2021-11-07 15:18|13|[📎](src/q_1_50/q0013.hpp) [📝](src/q_1_50/q0013_unittest.hpp)|[Roman to Integer](https://leetcode.com/problems/roman-to-integer/)|Easy|
-|2021-11-07 15:03|951|[📎](src/q_951_1000/q0951.hpp) [📝](src/q_951_1000/q0951_unittest.hpp)|[Flip Equivalent Binary Trees](https://leetcode.com/problems/flip-equivalent-binary-trees/)|Medium|
 
 ## Previous Logs
 
 |Month|Submissions|Easy|Medium|Hard|
 |:--|:--|:--|:--|:--|
-|[November_2021](./assets/November_2021.md)|33|15|13|5|
+|[November_2021](./assets/November_2021.md)|34|16|13|5|
 |[October_2021](./assets/October_2021.md)|115|27|75|13|
 |[September_2021](./assets/September_2021.md)|133|55|71|7|
