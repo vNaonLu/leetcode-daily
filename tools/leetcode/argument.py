@@ -4,7 +4,7 @@ import regex
 
 class Argument:
     def __init__(self, typename: str):
-        self._content: Argument = None
+        self._contents: list[Argument] = []
         self._type: str = typename if typename != None else "void"
         self._includes: list[str] = ["iostream"]
 
@@ -22,7 +22,10 @@ class Argument:
         return False
 
     def get_includes(self):
-        return self._includes
+        __res = self._includes
+        for contain in self._contents:
+            __res += contain.get_includes()
+        return __res
 
     def expect_compare(self, first_arg: str, second_arg: str):
         return "EXPECT_EQ({}, {});".format(first_arg, second_arg)
@@ -151,9 +154,8 @@ class StringArgument(Argument):
 class VectorArgument(Argument):
     def __init__(self, typename: str, content: str):
         Argument.__init__(self, typename)
-        self._content = Argument.generate(content)
+        self._contents.append(Argument.generate(content))
         self._includes.append("vector")
-        self._includes+=self._content._includes
 
     def parse_value(self, string: str):
         match = regex.search("\[(?P<val>(?:[^\[\]]|(?R))*)\]", string)
@@ -161,11 +163,11 @@ class VectorArgument(Argument):
             element = regex.findall("(\'[\w\W]*?\'|\"[\w\W]*?\"|[\d.+-]+|\[(?:[^\[\]]|(?R))*\])",
                                  match.group("val"))
             return "{{{}}}".format(
-                ", ".join([self._content.parse_value(e) for e in element]))
+                ", ".join([self._contents[0].parse_value(e) for e in element]))
         return "{}"
 
     def is_valid(self):
-        return self._content.is_valid()
+        return self._contents[0].is_valid()
 
 
 class ListNodeArgument(Argument):
