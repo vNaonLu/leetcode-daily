@@ -1000,7 +1000,7 @@ id,title,level,slug,paid,done
 999,Available Captures for Rook,1,available-captures-for-rook,0,0
 1000,Minimum Cost to Merge Stones,3,minimum-cost-to-merge-stones,0,0
 1001,Grid Illumination,3,grid-illumination,0,0
-1002,Find Common Characters,1,find-common-characters,0,0
+1002,Find Common Characters,1,find-common-characters,0,1
 1003,Check If Word Is Valid After Substitutions,2,check-if-word-is-valid-after-substitutions,0,0
 1004,Max Consecutive Ones III,2,max-consecutive-ones-iii,0,0
 1005,Maximize Sum Of Array After K Negations,1,maximize-sum-of-array-after-k-negations,0,0

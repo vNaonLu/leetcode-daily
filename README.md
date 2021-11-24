@@ -1037,7 +1037,7 @@ My daily challenge on leetcode since 2021/09/06.
 |</>|#|Solution Title|Difficulty|
 |--:|--:|:--|:--|
 ||1001|[Grid Illumination](https://leetcode.com/problems/grid-illumination/)|Hard|
-||1002|[Find Common Characters](https://leetcode.com/problems/find-common-characters/)|Easy|
+|[📎](src/q_1001_1050/q1002.hpp) [📝](src/q_1001_1050/q1002_unittest.hpp)|1002|[Find Common Characters](https://leetcode.com/problems/find-common-characters/)|Easy|
 ||1003|[Check If Word Is Valid After Substitutions](https://leetcode.com/problems/check-if-word-is-valid-after-substitutions/)|Medium|
 ||1004|[Max Consecutive Ones III](https://leetcode.com/problems/max-consecutive-ones-iii/)|Medium|
 ||1005|[Maximize Sum Of Array After K Negations](https://leetcode.com/problems/maximize-sum-of-array-after-k-negations/)|Easy|
@@ -2148,6 +2148,7 @@ My daily challenge on leetcode since 2021/09/06.
 
 |Time|#|</>|Question Title|Difficulty|
 |:--|--:|:-:|:--|:--|
+|2021-11-24 18:10|1002|[📎](src/q_1001_1050/q1002.hpp) [📝](src/q_1001_1050/q1002_unittest.hpp)|[Find Common Characters](https://leetcode.com/problems/find-common-characters/)|Easy|
 |2021-11-23 18:50|258|[📎](src/q_251_300/q0258.hpp) [📝](src/q_251_300/q0258_unittest.hpp)|[Add Digits](https://leetcode.com/problems/add-digits/)|Easy|
 |2021-11-23 18:44|2011|[📎](src/q_2001_2050/q2011.hpp) [📝](src/q_2001_2050/q2011_unittest.hpp)|[Final Value of Variable After Performing Operations](https://leetcode.com/problems/final-value-of-variable-after-performing-operations/)|Easy|
 |2021-11-23 18:31|952|[📎](src/q_951_1000/q0952.hpp) [📝](src/q_951_1000/q0952_unittest.hpp)|[Largest Component Size by Common Factor](https://leetcode.com/problems/largest-component-size-by-common-factor/)|Hard|
@@ -2172,12 +2173,11 @@ My daily challenge on leetcode since 2021/09/06.
 |2021-11-09 18:10|1178|[📎](src/q_1151_1200/q1178.hpp) [📝](src/q_1151_1200/q1178_unittest.hpp)|[Number of Valid Words for Each Puzzle](https://leetcode.com/problems/number-of-valid-words-for-each-puzzle/)|Hard|
 |2021-11-08 18:26|621|[📎](src/q_601_650/q0621.hpp) [📝](src/q_601_650/q0621_unittest.hpp)|[Task Scheduler](https://leetcode.com/problems/task-scheduler/)|Medium|
 |2021-11-07 15:25|14|[📎](src/q_1_50/q0014.hpp) [📝](src/q_1_50/q0014_unittest.hpp)|[Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix/)|Easy|
-|2021-11-07 15:18|13|[📎](src/q_1_50/q0013.hpp) [📝](src/q_1_50/q0013_unittest.hpp)|[Roman to Integer](https://leetcode.com/problems/roman-to-integer/)|Easy|
 
 ## Previous Logs
 
 |Month|Submissions|Easy|Medium|Hard|
 |:--|:--|:--|:--|:--|
-|[November_2021](./assets/November_2021.md)|34|16|13|5|
+|[November_2021](./assets/November_2021.md)|35|17|13|5|
 |[October_2021](./assets/October_2021.md)|115|27|75|13|
 |[September_2021](./assets/September_2021.md)|133|55|71|7|
