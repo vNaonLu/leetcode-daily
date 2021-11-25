@@ -261,7 +261,7 @@ id,title,level,slug,paid,done
 260,Single Number III,2,single-number-iii,0,1
 261,Graph Valid Tree,2,graph-valid-tree,1,0
 262,Trips and Users,3,trips-and-users,0,0
-263,Ugly Number,1,ugly-number,0,0
+263,Ugly Number,1,ugly-number,0,1
 264,Ugly Number II,2,ugly-number-ii,0,1
 265,Paint House II,3,paint-house-ii,1,0
 266,Palindrome Permutation,1,palindrome-permutation,1,0
@@ -2080,3 +2080,4 @@ id,title,level,slug,paid,done
 2079,Watering Plants,2,watering-plants,0,0
 2080,Range Frequency Queries,2,range-frequency-queries,0,0
 2081,Sum of k-Mirror Numbers,3,sum-of-k-mirror-numbers,0,0
+2082,The Number of Rich Customers,1,the-number-of-rich-customers,1,0
