@@ -46,7 +46,7 @@ My daily challenge on leetcode since 2021/09/06.
 ||32|[Longest Valid Parentheses](https://leetcode.com/problems/longest-valid-parentheses/)|Hard|
 |[📎](src/q_1_50/q0033.hpp) [📝](src/q_1_50/q0033_unittest.hpp)|33|[Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/)|Medium|
 |[📎](src/q_1_50/q0034.hpp) [📝](src/q_1_50/q0034_unittest.hpp)|34|[Find First and Last Position of Element in Sorted Array](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/)|Medium|
-||35|[Search Insert Position](https://leetcode.com/problems/search-insert-position/)|Easy|
+|[📎](src/q_1_50/q0035.hpp) [📝](src/q_1_50/q0035_unittest.hpp)|35|[Search Insert Position](https://leetcode.com/problems/search-insert-position/)|Easy|
 |[📎](src/q_1_50/q0036.hpp) [📝](src/q_1_50/q0036_unittest.hpp)|36|[Valid Sudoku](https://leetcode.com/problems/valid-sudoku/)|Medium|
 |[📎](src/q_1_50/q0037.hpp) [📝](src/q_1_50/q0037_unittest.hpp)|37|[Sudoku Solver](https://leetcode.com/problems/sudoku-solver/)|Hard|
 ||38|[Count and Say](https://leetcode.com/problems/count-and-say/)|Medium|
@@ -2056,7 +2056,7 @@ My daily challenge on leetcode since 2021/09/06.
 ||2000|[Reverse Prefix of Word](https://leetcode.com/problems/reverse-prefix-of-word/)|Easy|
 </details>
 <details>
-  <summary>### 2001 ~ 2082</summary>
+  <summary>### 2001 ~ 2084</summary>
 
 |</>|#|Solution Title|Difficulty|
 |--:|--:|:--|:--|
@@ -2142,6 +2142,8 @@ My daily challenge on leetcode since 2021/09/06.
 ||2080|[Range Frequency Queries](https://leetcode.com/problems/range-frequency-queries/)|Medium|
 ||2081|[Sum of k-Mirror Numbers](https://leetcode.com/problems/sum-of-k-mirror-numbers/)|Hard|
 |🔒|2082|[The Number of Rich Customers](https://leetcode.com/problems/the-number-of-rich-customers/)|Easy|
+|🔒|2083|[Substrings That Begin and End With the Same Letter](https://leetcode.com/problems/substrings-that-begin-and-end-with-the-same-letter/)|Medium|
+|🔒|2084|[Drop Type 1 Orders for Customers With Type 0 Orders](https://leetcode.com/problems/drop-type-1-orders-for-customers-with-type-0-orders/)|Medium|
 </details>
 
 ---
@@ -2149,6 +2151,7 @@ My daily challenge on leetcode since 2021/09/06.
 
 |Time|#|</>|Question Title|Difficulty|
 |:--|--:|:-:|:--|:--|
+|2021-11-26 21:37|35|[📎](src/q_1_50/q0035.hpp) [📝](src/q_1_50/q0035_unittest.hpp)|[Search Insert Position](https://leetcode.com/problems/search-insert-position/)|Easy|
 |2021-11-25 18:02|263|[📎](src/q_251_300/q0263.hpp) [📝](src/q_251_300/q0263_unittest.hpp)|[Ugly Number](https://leetcode.com/problems/ugly-number/)|Easy|
 |2021-11-24 18:10|1002|[📎](src/q_1001_1050/q1002.hpp) [📝](src/q_1001_1050/q1002_unittest.hpp)|[Find Common Characters](https://leetcode.com/problems/find-common-characters/)|Easy|
 |2021-11-23 18:50|258|[📎](src/q_251_300/q0258.hpp) [📝](src/q_251_300/q0258_unittest.hpp)|[Add Digits](https://leetcode.com/problems/add-digits/)|Easy|
@@ -2173,12 +2176,11 @@ My daily challenge on leetcode since 2021/09/06.
 |2021-11-11 21:28|1413|[📎](src/q_1401_1450/q1413.hpp) [📝](src/q_1401_1450/q1413_unittest.hpp)|[Minimum Value to Get Positive Step by Step Sum](https://leetcode.com/problems/minimum-value-to-get-positive-step-by-step-sum/)|Easy|
 |2021-11-10 17:52|1043|[📎](src/q_1001_1050/q1043.hpp) [📝](src/q_1001_1050/q1043_unittest.hpp)|[Partition Array for Maximum Sum](https://leetcode.com/problems/partition-array-for-maximum-sum/)|Medium|
 |2021-11-09 18:10|1178|[📎](src/q_1151_1200/q1178.hpp) [📝](src/q_1151_1200/q1178_unittest.hpp)|[Number of Valid Words for Each Puzzle](https://leetcode.com/problems/number-of-valid-words-for-each-puzzle/)|Hard|
-|2021-11-08 18:26|621|[📎](src/q_601_650/q0621.hpp) [📝](src/q_601_650/q0621_unittest.hpp)|[Task Scheduler](https://leetcode.com/problems/task-scheduler/)|Medium|
 
 ## Previous Logs
 
 |Month|Submissions|Easy|Medium|Hard|
 |:--|:--|:--|:--|:--|
-|[November_2021](./assets/November_2021.md)|36|18|13|5|
+|[November_2021](./assets/November_2021.md)|37|19|13|5|
 |[October_2021](./assets/October_2021.md)|115|27|75|13|
 |[September_2021](./assets/September_2021.md)|133|55|71|7|
