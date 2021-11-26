@@ -73,7 +73,6 @@ class SolutionFunction(SolutionAbstract):
                 self._type = Argument.generate(match.group("return_type"))
                 self._add_include(self._type)
                 for arg in match.group("args").split(","):
-                    print(arg)
                     m_arg = \
                         re.search("(?P<type>[\w*&<> ]+[&*]{0,1}) +(?P<name>[\w]+)",
                                   arg)
