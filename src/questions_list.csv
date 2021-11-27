@@ -29,7 +29,7 @@ id,title,level,slug,paid,done
 28,Implement strStr(),1,implement-strstr,0,1
 29,Divide Two Integers,2,divide-two-integers,0,1
 30,Substring with Concatenation of All Words,3,substring-with-concatenation-of-all-words,0,0
-31,Next Permutation,2,next-permutation,0,0
+31,Next Permutation,2,next-permutation,0,1
 32,Longest Valid Parentheses,3,longest-valid-parentheses,0,0
 33,Search in Rotated Sorted Array,2,search-in-rotated-sorted-array,0,1
 34,Find First and Last Position of Element in Sorted Array,2,find-first-and-last-position-of-element-in-sorted-array,0,1

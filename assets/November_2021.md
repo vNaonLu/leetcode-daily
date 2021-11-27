@@ -2,6 +2,7 @@
 
 ||#|</>|Question Title|Difficulty|
 |:--|--:|:-:|:--|:--|
+|Day 27|31|[📎](../src/q_1_50/q0031.hpp) [📝](../src/q_1_50/q0031_unittest.hpp)|[Next Permutation](https://leetcode.com/problems/next-permutation/)|Medium|
 |Day 26|35|[📎](../src/q_1_50/q0035.hpp) [📝](../src/q_1_50/q0035_unittest.hpp)|[Search Insert Position](https://leetcode.com/problems/search-insert-position/)|Easy|
 |Day 25|263|[📎](../src/q_251_300/q0263.hpp) [📝](../src/q_251_300/q0263_unittest.hpp)|[Ugly Number](https://leetcode.com/problems/ugly-number/)|Easy|
 |Day 24|1002|[📎](../src/q_1001_1050/q1002.hpp) [📝](../src/q_1001_1050/q1002_unittest.hpp)|[Find Common Characters](https://leetcode.com/problems/find-common-characters/)|Easy|
