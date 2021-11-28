@@ -46,5 +46,6 @@
 #include "q0047_unittest.hpp"
 #include "q0048_unittest.hpp"
 #include "q0049_unittest.hpp"
+#include "q0050_unittest.hpp"
 
 #endif

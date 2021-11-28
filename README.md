@@ -61,7 +61,7 @@ My daily challenge on leetcode since 2021/09/06.
 |[📎](src/q_1_50/q0047.hpp) [📝](src/q_1_50/q0047_unittest.hpp)|47|[Permutations II](https://leetcode.com/problems/permutations-ii/)|Medium|
 |[📎](src/q_1_50/q0048.hpp) [📝](src/q_1_50/q0048_unittest.hpp)|48|[Rotate Image](https://leetcode.com/problems/rotate-image/)|Medium|
 |[📎](src/q_1_50/q0049.hpp) [📝](src/q_1_50/q0049_unittest.hpp)|49|[Group Anagrams](https://leetcode.com/problems/group-anagrams/)|Medium|
-||50|[Pow(x, n)](https://leetcode.com/problems/powx-n/)|Medium|
+|[📎](src/q_1_50/q0050.hpp) [📝](src/q_1_50/q0050_unittest.hpp)|50|[Pow(x, n)](https://leetcode.com/problems/powx-n/)|Medium|
 ||51|[N-Queens](https://leetcode.com/problems/n-queens/)|Hard|
 ||52|[N-Queens II](https://leetcode.com/problems/n-queens-ii/)|Hard|
 |[📎](src/q_51_100/q0053.hpp) [📝](src/q_51_100/q0053_unittest.hpp)|53|[Maximum Subarray](https://leetcode.com/problems/maximum-subarray/)|Easy|
@@ -2151,6 +2151,7 @@ My daily challenge on leetcode since 2021/09/06.
 
 |Time|#|</>|Question Title|Difficulty|
 |:--|--:|:-:|:--|:--|
+|2021-11-28 14:29|50|[📎](src/q_1_50/q0050.hpp) [📝](src/q_1_50/q0050_unittest.hpp)|[Pow(x, n)](https://leetcode.com/problems/powx-n/)|Medium|
 |2021-11-27 14:02|31|[📎](src/q_1_50/q0031.hpp) [📝](src/q_1_50/q0031_unittest.hpp)|[Next Permutation](https://leetcode.com/problems/next-permutation/)|Medium|
 |2021-11-26 21:37|35|[📎](src/q_1_50/q0035.hpp) [📝](src/q_1_50/q0035_unittest.hpp)|[Search Insert Position](https://leetcode.com/problems/search-insert-position/)|Easy|
 |2021-11-25 18:02|263|[📎](src/q_251_300/q0263.hpp) [📝](src/q_251_300/q0263_unittest.hpp)|[Ugly Number](https://leetcode.com/problems/ugly-number/)|Easy|
@@ -2175,12 +2176,11 @@ My daily challenge on leetcode since 2021/09/06.
 |2021-11-12 18:29|888|[📎](src/q_851_900/q0888.hpp) [📝](src/q_851_900/q0888_unittest.hpp)|[Fair Candy Swap](https://leetcode.com/problems/fair-candy-swap/)|Easy|
 |2021-11-11 21:34|1221|[📎](src/q_1201_1250/q1221.hpp) [📝](src/q_1201_1250/q1221_unittest.hpp)|[Split a String in Balanced Strings](https://leetcode.com/problems/split-a-string-in-balanced-strings/)|Easy|
 |2021-11-11 21:28|1413|[📎](src/q_1401_1450/q1413.hpp) [📝](src/q_1401_1450/q1413_unittest.hpp)|[Minimum Value to Get Positive Step by Step Sum](https://leetcode.com/problems/minimum-value-to-get-positive-step-by-step-sum/)|Easy|
-|2021-11-10 17:52|1043|[📎](src/q_1001_1050/q1043.hpp) [📝](src/q_1001_1050/q1043_unittest.hpp)|[Partition Array for Maximum Sum](https://leetcode.com/problems/partition-array-for-maximum-sum/)|Medium|
 
 ## Previous Logs
 
 |Month|Submissions|Easy|Medium|Hard|
 |:--|:--|:--|:--|:--|
-|[November_2021](./assets/November_2021.md)|38|19|14|5|
+|[November_2021](./assets/November_2021.md)|39|19|15|5|
 |[October_2021](./assets/October_2021.md)|115|27|75|13|
 |[September_2021](./assets/September_2021.md)|133|55|71|7|

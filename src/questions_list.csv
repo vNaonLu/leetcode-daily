@@ -48,7 +48,7 @@ id,title,level,slug,paid,done
 47,Permutations II,2,permutations-ii,0,1
 48,Rotate Image,2,rotate-image,0,1
 49,Group Anagrams,2,group-anagrams,0,1
-50,"Pow(x, n)",2,powx-n,0,0
+50,"Pow(x, n)",2,powx-n,0,1
 51,N-Queens,3,n-queens,0,0
 52,N-Queens II,3,n-queens-ii,0,0
 53,Maximum Subarray,1,maximum-subarray,0,1
