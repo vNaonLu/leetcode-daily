@@ -744,7 +744,7 @@ My daily challenge on leetcode since 2021/09/06.
 ||718|[Maximum Length of Repeated Subarray](https://leetcode.com/problems/maximum-length-of-repeated-subarray/)|Medium|
 ||719|[Find K-th Smallest Pair Distance](https://leetcode.com/problems/find-k-th-smallest-pair-distance/)|Hard|
 ||720|[Longest Word in Dictionary](https://leetcode.com/problems/longest-word-in-dictionary/)|Medium|
-||721|[Accounts Merge](https://leetcode.com/problems/accounts-merge/)|Medium|
+|[📎](src/q_701_750/q0721.hpp) [📝](src/q_701_750/q0721_unittest.hpp)|721|[Accounts Merge](https://leetcode.com/problems/accounts-merge/)|Medium|
 ||722|[Remove Comments](https://leetcode.com/problems/remove-comments/)|Medium|
 |🔒|723|[Candy Crush](https://leetcode.com/problems/candy-crush/)|Medium|
 ||724|[Find Pivot Index](https://leetcode.com/problems/find-pivot-index/)|Easy|
@@ -2056,7 +2056,7 @@ My daily challenge on leetcode since 2021/09/06.
 ||2000|[Reverse Prefix of Word](https://leetcode.com/problems/reverse-prefix-of-word/)|Easy|
 </details>
 <details>
-  <summary>### 2001 ~ 2084</summary>
+  <summary>### 2001 ~ 2092</summary>
 
 |</>|#|Solution Title|Difficulty|
 |--:|--:|:--|:--|
@@ -2144,6 +2144,14 @@ My daily challenge on leetcode since 2021/09/06.
 |🔒|2082|[The Number of Rich Customers](https://leetcode.com/problems/the-number-of-rich-customers/)|Easy|
 |🔒|2083|[Substrings That Begin and End With the Same Letter](https://leetcode.com/problems/substrings-that-begin-and-end-with-the-same-letter/)|Medium|
 |🔒|2084|[Drop Type 1 Orders for Customers With Type 0 Orders](https://leetcode.com/problems/drop-type-1-orders-for-customers-with-type-0-orders/)|Medium|
+||2085|[Count Common Words With One Occurrence](https://leetcode.com/problems/count-common-words-with-one-occurrence/)|Easy|
+||2086|[Minimum Number of Buckets Required to Collect Rainwater from Houses](https://leetcode.com/problems/minimum-number-of-buckets-required-to-collect-rainwater-from-houses/)|Medium|
+||2087|[Minimum Cost Homecoming of a Robot in a Grid](https://leetcode.com/problems/minimum-cost-homecoming-of-a-robot-in-a-grid/)|Medium|
+||2088|[Count Fertile Pyramids in a Land](https://leetcode.com/problems/count-fertile-pyramids-in-a-land/)|Hard|
+||2089|[Find Target Indices After Sorting Array](https://leetcode.com/problems/find-target-indices-after-sorting-array/)|Easy|
+||2090|[K Radius Subarray Averages](https://leetcode.com/problems/k-radius-subarray-averages/)|Medium|
+||2091|[Removing Minimum and Maximum From Array](https://leetcode.com/problems/removing-minimum-and-maximum-from-array/)|Medium|
+||2092|[Find All People With Secret](https://leetcode.com/problems/find-all-people-with-secret/)|Hard|
 </details>
 
 ---
@@ -2151,6 +2159,7 @@ My daily challenge on leetcode since 2021/09/06.
 
 |Time|#|</>|Question Title|Difficulty|
 |:--|--:|:-:|:--|:--|
+|2021-11-29 18:07|721|[📎](src/q_701_750/q0721.hpp) [📝](src/q_701_750/q0721_unittest.hpp)|[Accounts Merge](https://leetcode.com/problems/accounts-merge/)|Medium|
 |2021-11-28 14:29|50|[📎](src/q_1_50/q0050.hpp) [📝](src/q_1_50/q0050_unittest.hpp)|[Pow(x, n)](https://leetcode.com/problems/powx-n/)|Medium|
 |2021-11-27 14:02|31|[📎](src/q_1_50/q0031.hpp) [📝](src/q_1_50/q0031_unittest.hpp)|[Next Permutation](https://leetcode.com/problems/next-permutation/)|Medium|
 |2021-11-26 21:37|35|[📎](src/q_1_50/q0035.hpp) [📝](src/q_1_50/q0035_unittest.hpp)|[Search Insert Position](https://leetcode.com/problems/search-insert-position/)|Easy|
@@ -2175,12 +2184,11 @@ My daily challenge on leetcode since 2021/09/06.
 |2021-11-13 11:51|739|[📎](src/q_701_750/q0739.hpp) [📝](src/q_701_750/q0739_unittest.hpp)|[Daily Temperatures](https://leetcode.com/problems/daily-temperatures/)|Medium|
 |2021-11-12 18:29|888|[📎](src/q_851_900/q0888.hpp) [📝](src/q_851_900/q0888_unittest.hpp)|[Fair Candy Swap](https://leetcode.com/problems/fair-candy-swap/)|Easy|
 |2021-11-11 21:34|1221|[📎](src/q_1201_1250/q1221.hpp) [📝](src/q_1201_1250/q1221_unittest.hpp)|[Split a String in Balanced Strings](https://leetcode.com/problems/split-a-string-in-balanced-strings/)|Easy|
-|2021-11-11 21:28|1413|[📎](src/q_1401_1450/q1413.hpp) [📝](src/q_1401_1450/q1413_unittest.hpp)|[Minimum Value to Get Positive Step by Step Sum](https://leetcode.com/problems/minimum-value-to-get-positive-step-by-step-sum/)|Easy|
 
 ## Previous Logs
 
 |Month|Submissions|Easy|Medium|Hard|
 |:--|:--|:--|:--|:--|
-|[November_2021](./assets/November_2021.md)|39|19|15|5|
+|[November_2021](./assets/November_2021.md)|40|19|16|5|
 |[October_2021](./assets/October_2021.md)|115|27|75|13|
 |[September_2021](./assets/September_2021.md)|133|55|71|7|

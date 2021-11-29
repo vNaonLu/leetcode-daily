@@ -719,7 +719,7 @@ id,title,level,slug,paid,done
 718,Maximum Length of Repeated Subarray,2,maximum-length-of-repeated-subarray,0,0
 719,Find K-th Smallest Pair Distance,3,find-k-th-smallest-pair-distance,0,0
 720,Longest Word in Dictionary,2,longest-word-in-dictionary,0,0
-721,Accounts Merge,2,accounts-merge,0,0
+721,Accounts Merge,2,accounts-merge,0,1
 722,Remove Comments,2,remove-comments,0,0
 723,Candy Crush,2,candy-crush,1,0
 724,Find Pivot Index,1,find-pivot-index,0,0
@@ -2083,3 +2083,11 @@ id,title,level,slug,paid,done
 2082,The Number of Rich Customers,1,the-number-of-rich-customers,1,0
 2083,Substrings That Begin and End With the Same Letter,2,substrings-that-begin-and-end-with-the-same-letter,1,0
 2084,Drop Type 1 Orders for Customers With Type 0 Orders,2,drop-type-1-orders-for-customers-with-type-0-orders,1,0
+2085,Count Common Words With One Occurrence,1,count-common-words-with-one-occurrence,0,0
+2086,Minimum Number of Buckets Required to Collect Rainwater from Houses,2,minimum-number-of-buckets-required-to-collect-rainwater-from-houses,0,0
+2087,Minimum Cost Homecoming of a Robot in a Grid,2,minimum-cost-homecoming-of-a-robot-in-a-grid,0,0
+2088,Count Fertile Pyramids in a Land,3,count-fertile-pyramids-in-a-land,0,0
+2089,Find Target Indices After Sorting Array,1,find-target-indices-after-sorting-array,0,0
+2090,K Radius Subarray Averages,2,k-radius-subarray-averages,0,0
+2091,Removing Minimum and Maximum From Array,2,removing-minimum-and-maximum-from-array,0,0
+2092,Find All People With Secret,3,find-all-people-with-secret,0,0
