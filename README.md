@@ -96,7 +96,7 @@ My daily challenge on leetcode since 2021/09/06.
 |[📎](src/q_51_100/q0082.hpp) [📝](src/q_51_100/q0082_unittest.hpp)|82|[Remove Duplicates from Sorted List II](https://leetcode.com/problems/remove-duplicates-from-sorted-list-ii/)|Medium|
 |[📎](src/q_51_100/q0083.hpp) [📝](src/q_51_100/q0083_unittest.hpp)|83|[Remove Duplicates from Sorted List](https://leetcode.com/problems/remove-duplicates-from-sorted-list/)|Easy|
 ||84|[Largest Rectangle in Histogram](https://leetcode.com/problems/largest-rectangle-in-histogram/)|Hard|
-||85|[Maximal Rectangle](https://leetcode.com/problems/maximal-rectangle/)|Hard|
+|[📎](src/q_51_100/q0085.hpp) [📝](src/q_51_100/q0085_unittest.hpp)|85|[Maximal Rectangle](https://leetcode.com/problems/maximal-rectangle/)|Hard|
 ||86|[Partition List](https://leetcode.com/problems/partition-list/)|Medium|
 ||87|[Scramble String](https://leetcode.com/problems/scramble-string/)|Hard|
 |[📎](src/q_51_100/q0088.hpp) [📝](src/q_51_100/q0088_unittest.hpp)|88|[Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array/)|Easy|
@@ -2159,6 +2159,7 @@ My daily challenge on leetcode since 2021/09/06.
 
 |Time|#|</>|Question Title|Difficulty|
 |:--|--:|:-:|:--|:--|
+|2021-11-30 18:19|85|[📎](src/q_51_100/q0085.hpp) [📝](src/q_51_100/q0085_unittest.hpp)|[Maximal Rectangle](https://leetcode.com/problems/maximal-rectangle/)|Hard|
 |2021-11-29 18:07|721|[📎](src/q_701_750/q0721.hpp) [📝](src/q_701_750/q0721_unittest.hpp)|[Accounts Merge](https://leetcode.com/problems/accounts-merge/)|Medium|
 |2021-11-28 14:29|50|[📎](src/q_1_50/q0050.hpp) [📝](src/q_1_50/q0050_unittest.hpp)|[Pow(x, n)](https://leetcode.com/problems/powx-n/)|Medium|
 |2021-11-27 14:02|31|[📎](src/q_1_50/q0031.hpp) [📝](src/q_1_50/q0031_unittest.hpp)|[Next Permutation](https://leetcode.com/problems/next-permutation/)|Medium|
@@ -2183,12 +2184,11 @@ My daily challenge on leetcode since 2021/09/06.
 |2021-11-14 13:18|1286|[📎](src/q_1251_1300/q1286.hpp) [📝](src/q_1251_1300/q1286_unittest.hpp)|[Iterator for Combination](https://leetcode.com/problems/iterator-for-combination/)|Medium|
 |2021-11-13 11:51|739|[📎](src/q_701_750/q0739.hpp) [📝](src/q_701_750/q0739_unittest.hpp)|[Daily Temperatures](https://leetcode.com/problems/daily-temperatures/)|Medium|
 |2021-11-12 18:29|888|[📎](src/q_851_900/q0888.hpp) [📝](src/q_851_900/q0888_unittest.hpp)|[Fair Candy Swap](https://leetcode.com/problems/fair-candy-swap/)|Easy|
-|2021-11-11 21:34|1221|[📎](src/q_1201_1250/q1221.hpp) [📝](src/q_1201_1250/q1221_unittest.hpp)|[Split a String in Balanced Strings](https://leetcode.com/problems/split-a-string-in-balanced-strings/)|Easy|
 
 ## Previous Logs
 
 |Month|Submissions|Easy|Medium|Hard|
 |:--|:--|:--|:--|:--|
-|[November_2021](./assets/November_2021.md)|40|19|16|5|
+|[November_2021](./assets/November_2021.md)|41|19|16|6|
 |[October_2021](./assets/October_2021.md)|115|27|75|13|
 |[September_2021](./assets/September_2021.md)|133|55|71|7|
