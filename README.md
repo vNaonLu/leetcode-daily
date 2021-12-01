@@ -43,7 +43,7 @@ My daily challenge on leetcode since 2021/09/06.
 |[📎](src/q_1_50/q0029.hpp) [📝](src/q_1_50/q0029_unittest.hpp)|29|[Divide Two Integers](https://leetcode.com/problems/divide-two-integers/)|Medium|
 ||30|[Substring with Concatenation of All Words](https://leetcode.com/problems/substring-with-concatenation-of-all-words/)|Hard|
 |[📎](src/q_1_50/q0031.hpp) [📝](src/q_1_50/q0031_unittest.hpp)|31|[Next Permutation](https://leetcode.com/problems/next-permutation/)|Medium|
-||32|[Longest Valid Parentheses](https://leetcode.com/problems/longest-valid-parentheses/)|Hard|
+|[📎](src/q_1_50/q0032.hpp) [📝](src/q_1_50/q0032_unittest.hpp)|32|[Longest Valid Parentheses](https://leetcode.com/problems/longest-valid-parentheses/)|Hard|
 |[📎](src/q_1_50/q0033.hpp) [📝](src/q_1_50/q0033_unittest.hpp)|33|[Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/)|Medium|
 |[📎](src/q_1_50/q0034.hpp) [📝](src/q_1_50/q0034_unittest.hpp)|34|[Find First and Last Position of Element in Sorted Array](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/)|Medium|
 |[📎](src/q_1_50/q0035.hpp) [📝](src/q_1_50/q0035_unittest.hpp)|35|[Search Insert Position](https://leetcode.com/problems/search-insert-position/)|Easy|
@@ -2159,6 +2159,7 @@ My daily challenge on leetcode since 2021/09/06.
 
 |Time|#|</>|Question Title|Difficulty|
 |:--|--:|:-:|:--|:--|
+|2021-12-01 22:00|32|[📎](src/q_1_50/q0032.hpp) [📝](src/q_1_50/q0032_unittest.hpp)|[Longest Valid Parentheses](https://leetcode.com/problems/longest-valid-parentheses/)|Hard|
 |2021-11-30 18:19|85|[📎](src/q_51_100/q0085.hpp) [📝](src/q_51_100/q0085_unittest.hpp)|[Maximal Rectangle](https://leetcode.com/problems/maximal-rectangle/)|Hard|
 |2021-11-29 18:07|721|[📎](src/q_701_750/q0721.hpp) [📝](src/q_701_750/q0721_unittest.hpp)|[Accounts Merge](https://leetcode.com/problems/accounts-merge/)|Medium|
 |2021-11-28 14:29|50|[📎](src/q_1_50/q0050.hpp) [📝](src/q_1_50/q0050_unittest.hpp)|[Pow(x, n)](https://leetcode.com/problems/powx-n/)|Medium|
@@ -2183,12 +2184,12 @@ My daily challenge on leetcode since 2021/09/06.
 |2021-11-15 18:09|368|[📎](src/q_351_400/q0368.hpp) [📝](src/q_351_400/q0368_unittest.hpp)|[Largest Divisible Subset](https://leetcode.com/problems/largest-divisible-subset/)|Medium|
 |2021-11-14 13:18|1286|[📎](src/q_1251_1300/q1286.hpp) [📝](src/q_1251_1300/q1286_unittest.hpp)|[Iterator for Combination](https://leetcode.com/problems/iterator-for-combination/)|Medium|
 |2021-11-13 11:51|739|[📎](src/q_701_750/q0739.hpp) [📝](src/q_701_750/q0739_unittest.hpp)|[Daily Temperatures](https://leetcode.com/problems/daily-temperatures/)|Medium|
-|2021-11-12 18:29|888|[📎](src/q_851_900/q0888.hpp) [📝](src/q_851_900/q0888_unittest.hpp)|[Fair Candy Swap](https://leetcode.com/problems/fair-candy-swap/)|Easy|
 
 ## Previous Logs
 
 |Month|Submissions|Easy|Medium|Hard|
 |:--|:--|:--|:--|:--|
+|[December_2021](./assets/December_2021.md)|1|0|0|1|
 |[November_2021](./assets/November_2021.md)|41|19|16|6|
 |[October_2021](./assets/October_2021.md)|115|27|75|13|
 |[September_2021](./assets/September_2021.md)|133|55|71|7|
