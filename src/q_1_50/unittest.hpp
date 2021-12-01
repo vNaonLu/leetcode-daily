@@ -40,6 +40,7 @@
 #include "q0037_unittest.hpp"
 #include "q0039_unittest.hpp"
 #include "q0040_unittest.hpp"
+#include "q0041_unittest.hpp"
 #include "q0042_unittest.hpp"
 #include "q0043_unittest.hpp"
 #include "q0045_unittest.hpp"

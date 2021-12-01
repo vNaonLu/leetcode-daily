@@ -39,7 +39,7 @@ id,title,level,slug,paid,done
 38,Count and Say,2,count-and-say,0,0
 39,Combination Sum,2,combination-sum,0,1
 40,Combination Sum II,2,combination-sum-ii,0,1
-41,First Missing Positive,3,first-missing-positive,0,0
+41,First Missing Positive,3,first-missing-positive,0,1
 42,Trapping Rain Water,3,trapping-rain-water,0,1
 43,Multiply Strings,2,multiply-strings,0,1
 44,Wildcard Matching,3,wildcard-matching,0,0
