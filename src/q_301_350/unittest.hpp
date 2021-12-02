@@ -5,6 +5,7 @@
 #include "q0304_unittest.hpp"
 #include "q0309_unittest.hpp"
 #include "q0322_unittest.hpp"
+#include "q0328_unittest.hpp"
 #include "q0334_unittest.hpp"
 #include "q0338_unittest.hpp"
 #include "q0343_unittest.hpp"
