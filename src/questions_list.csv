@@ -518,7 +518,7 @@ id,title,level,slug,paid,done
 517,Super Washing Machines,3,super-washing-machines,0,0
 518,Coin Change 2,2,coin-change-2,0,1
 519,Random Flip Matrix,2,random-flip-matrix,0,0
-520,Detect Capital,1,detect-capital,0,0
+520,Detect Capital,1,detect-capital,0,1
 521,Longest Uncommon Subsequence I,1,longest-uncommon-subsequence-i,0,0
 522,Longest Uncommon Subsequence II,2,longest-uncommon-subsequence-ii,0,0
 523,Continuous Subarray Sum,2,continuous-subarray-sum,0,0

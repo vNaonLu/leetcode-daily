@@ -6,6 +6,7 @@
 #include "q0509_unittest.hpp"
 #include "q0516_unittest.hpp"
 #include "q0518_unittest.hpp"
+#include "q0520_unittest.hpp"
 #include "q0540_unittest.hpp"
 #include "q0542_unittest.hpp"
 #include "q0543_unittest.hpp"

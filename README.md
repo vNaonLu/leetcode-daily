@@ -543,7 +543,7 @@ My daily challenge on leetcode since 2021/09/06.
 ||517|[Super Washing Machines](https://leetcode.com/problems/super-washing-machines/)|Hard|
 |[📎](src/q_501_550/q0518.hpp) [📝](src/q_501_550/q0518_unittest.hpp)|518|[Coin Change 2](https://leetcode.com/problems/coin-change-2/)|Medium|
 ||519|[Random Flip Matrix](https://leetcode.com/problems/random-flip-matrix/)|Medium|
-||520|[Detect Capital](https://leetcode.com/problems/detect-capital/)|Easy|
+|[📎](src/q_501_550/q0520.hpp) [📝](src/q_501_550/q0520_unittest.hpp)|520|[Detect Capital](https://leetcode.com/problems/detect-capital/)|Easy|
 ||521|[Longest Uncommon Subsequence I](https://leetcode.com/problems/longest-uncommon-subsequence-i/)|Easy|
 ||522|[Longest Uncommon Subsequence II](https://leetcode.com/problems/longest-uncommon-subsequence-ii/)|Medium|
 ||523|[Continuous Subarray Sum](https://leetcode.com/problems/continuous-subarray-sum/)|Medium|
@@ -2159,6 +2159,7 @@ My daily challenge on leetcode since 2021/09/06.
 
 |Time|#|</>|Question Title|Difficulty|
 |:--|--:|:-:|:--|:--|
+|2021-12-03 18:37|520|[📎](src/q_501_550/q0520.hpp) [📝](src/q_501_550/q0520_unittest.hpp)|[Detect Capital](https://leetcode.com/problems/detect-capital/)|Easy|
 |2021-12-02 13:04|328|[📎](src/q_301_350/q0328.hpp) [📝](src/q_301_350/q0328_unittest.hpp)|[Odd Even Linked List](https://leetcode.com/problems/odd-even-linked-list/)|Medium|
 |2021-12-01 22:24|41|[📎](src/q_1_50/q0041.hpp) [📝](src/q_1_50/q0041_unittest.hpp)|[First Missing Positive](https://leetcode.com/problems/first-missing-positive/)|Hard|
 |2021-12-01 22:00|32|[📎](src/q_1_50/q0032.hpp) [📝](src/q_1_50/q0032_unittest.hpp)|[Longest Valid Parentheses](https://leetcode.com/problems/longest-valid-parentheses/)|Hard|
@@ -2183,13 +2184,12 @@ My daily challenge on leetcode since 2021/09/06.
 |2021-11-17 18:43|23|[📎](src/q_1_50/q0023.hpp) [📝](src/q_1_50/q0023_unittest.hpp)|[Merge k Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/)|Hard|
 |2021-11-17 18:17|16|[📎](src/q_1_50/q0016.hpp) [📝](src/q_1_50/q0016_unittest.hpp)|[3Sum Closest](https://leetcode.com/problems/3sum-closest/)|Medium|
 |2021-11-16 18:13|668|[📎](src/q_651_700/q0668.hpp) [📝](src/q_651_700/q0668_unittest.hpp)|[Kth Smallest Number in Multiplication Table](https://leetcode.com/problems/kth-smallest-number-in-multiplication-table/)|Hard|
-|2021-11-15 18:09|368|[📎](src/q_351_400/q0368.hpp) [📝](src/q_351_400/q0368_unittest.hpp)|[Largest Divisible Subset](https://leetcode.com/problems/largest-divisible-subset/)|Medium|
 
 ## Previous Logs
 
 |Month|Submissions|Easy|Medium|Hard|
 |:--|:--|:--|:--|:--|
-|[December_2021](./assets/December_2021.md)|3|0|1|2|
+|[December_2021](./assets/December_2021.md)|4|1|1|2|
 |[November_2021](./assets/November_2021.md)|41|19|16|6|
 |[October_2021](./assets/October_2021.md)|115|27|75|13|
 |[September_2021](./assets/September_2021.md)|133|55|71|7|
