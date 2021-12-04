@@ -1067,7 +1067,7 @@ My daily challenge on leetcode since 2021/09/06.
 ||1029|[Two City Scheduling](https://leetcode.com/problems/two-city-scheduling/)|Medium|
 ||1030|[Matrix Cells in Distance Order](https://leetcode.com/problems/matrix-cells-in-distance-order/)|Easy|
 ||1031|[Maximum Sum of Two Non-Overlapping Subarrays](https://leetcode.com/problems/maximum-sum-of-two-non-overlapping-subarrays/)|Medium|
-||1032|[Stream of Characters](https://leetcode.com/problems/stream-of-characters/)|Hard|
+|[📎](src/q_1001_1050/q1032.hpp) [📝](src/q_1001_1050/q1032_unittest.hpp)|1032|[Stream of Characters](https://leetcode.com/problems/stream-of-characters/)|Hard|
 ||1033|[Moving Stones Until Consecutive](https://leetcode.com/problems/moving-stones-until-consecutive/)|Medium|
 ||1034|[Coloring A Border](https://leetcode.com/problems/coloring-a-border/)|Medium|
 ||1035|[Uncrossed Lines](https://leetcode.com/problems/uncrossed-lines/)|Medium|
@@ -2056,7 +2056,7 @@ My daily challenge on leetcode since 2021/09/06.
 ||2000|[Reverse Prefix of Word](https://leetcode.com/problems/reverse-prefix-of-word/)|Easy|
 </details>
 <details>
-  <summary>### 2001 ~ 2092</summary>
+  <summary>### 2001 ~ 2093</summary>
 
 |</>|#|Solution Title|Difficulty|
 |--:|--:|:--|:--|
@@ -2152,6 +2152,7 @@ My daily challenge on leetcode since 2021/09/06.
 ||2090|[K Radius Subarray Averages](https://leetcode.com/problems/k-radius-subarray-averages/)|Medium|
 ||2091|[Removing Minimum and Maximum From Array](https://leetcode.com/problems/removing-minimum-and-maximum-from-array/)|Medium|
 ||2092|[Find All People With Secret](https://leetcode.com/problems/find-all-people-with-secret/)|Hard|
+|🔒|2093|[Minimum Cost to Reach City With Discounts](https://leetcode.com/problems/minimum-cost-to-reach-city-with-discounts/)|Medium|
 </details>
 
 ---
@@ -2159,6 +2160,7 @@ My daily challenge on leetcode since 2021/09/06.
 
 |Time|#|</>|Question Title|Difficulty|
 |:--|--:|:-:|:--|:--|
+|2021-12-04 22:22|1032|[📎](src/q_1001_1050/q1032.hpp) [📝](src/q_1001_1050/q1032_unittest.hpp)|[Stream of Characters](https://leetcode.com/problems/stream-of-characters/)|Hard|
 |2021-12-03 18:37|520|[📎](src/q_501_550/q0520.hpp) [📝](src/q_501_550/q0520_unittest.hpp)|[Detect Capital](https://leetcode.com/problems/detect-capital/)|Easy|
 |2021-12-02 13:04|328|[📎](src/q_301_350/q0328.hpp) [📝](src/q_301_350/q0328_unittest.hpp)|[Odd Even Linked List](https://leetcode.com/problems/odd-even-linked-list/)|Medium|
 |2021-12-01 22:24|41|[📎](src/q_1_50/q0041.hpp) [📝](src/q_1_50/q0041_unittest.hpp)|[First Missing Positive](https://leetcode.com/problems/first-missing-positive/)|Hard|
@@ -2183,13 +2185,12 @@ My daily challenge on leetcode since 2021/09/06.
 |2021-11-18 18:27|448|[📎](src/q_401_450/q0448.hpp) [📝](src/q_401_450/q0448_unittest.hpp)|[Find All Numbers Disappeared in an Array](https://leetcode.com/problems/find-all-numbers-disappeared-in-an-array/)|Easy|
 |2021-11-17 18:43|23|[📎](src/q_1_50/q0023.hpp) [📝](src/q_1_50/q0023_unittest.hpp)|[Merge k Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/)|Hard|
 |2021-11-17 18:17|16|[📎](src/q_1_50/q0016.hpp) [📝](src/q_1_50/q0016_unittest.hpp)|[3Sum Closest](https://leetcode.com/problems/3sum-closest/)|Medium|
-|2021-11-16 18:13|668|[📎](src/q_651_700/q0668.hpp) [📝](src/q_651_700/q0668_unittest.hpp)|[Kth Smallest Number in Multiplication Table](https://leetcode.com/problems/kth-smallest-number-in-multiplication-table/)|Hard|
 
 ## Previous Logs
 
 |Month|Submissions|Easy|Medium|Hard|
 |:--|:--|:--|:--|:--|
-|[December_2021](./assets/December_2021.md)|4|1|1|2|
+|[December_2021](./assets/December_2021.md)|5|1|1|3|
 |[November_2021](./assets/November_2021.md)|41|19|16|6|
 |[October_2021](./assets/October_2021.md)|115|27|75|13|
 |[September_2021](./assets/September_2021.md)|133|55|71|7|

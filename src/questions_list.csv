@@ -1030,7 +1030,7 @@ id,title,level,slug,paid,done
 1029,Two City Scheduling,2,two-city-scheduling,0,0
 1030,Matrix Cells in Distance Order,1,matrix-cells-in-distance-order,0,0
 1031,Maximum Sum of Two Non-Overlapping Subarrays,2,maximum-sum-of-two-non-overlapping-subarrays,0,0
-1032,Stream of Characters,3,stream-of-characters,0,0
+1032,Stream of Characters,3,stream-of-characters,0,1
 1033,Moving Stones Until Consecutive,2,moving-stones-until-consecutive,0,0
 1034,Coloring A Border,2,coloring-a-border,0,0
 1035,Uncrossed Lines,2,uncrossed-lines,0,0
@@ -2091,3 +2091,4 @@ id,title,level,slug,paid,done
 2090,K Radius Subarray Averages,2,k-radius-subarray-averages,0,0
 2091,Removing Minimum and Maximum From Array,2,removing-minimum-and-maximum-from-array,0,0
 2092,Find All People With Secret,3,find-all-people-with-secret,0,0
+2093,Minimum Cost to Reach City With Discounts,2,minimum-cost-to-reach-city-with-discounts,1,0
