@@ -7,6 +7,7 @@
 #include "q0322_unittest.hpp"
 #include "q0328_unittest.hpp"
 #include "q0334_unittest.hpp"
+#include "q0337_unittest.hpp"
 #include "q0338_unittest.hpp"
 #include "q0343_unittest.hpp"
 #include "q0344_unittest.hpp"
