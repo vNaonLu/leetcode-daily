@@ -1215,7 +1215,7 @@ id,title,level,slug,paid,done
 1214,Two Sum BSTs,2,two-sum-bsts,1,0
 1215,Stepping Numbers,2,stepping-numbers,1,0
 1216,Valid Palindrome III,3,valid-palindrome-iii,1,0
-1217,Minimum Cost to Move Chips to The Same Position,1,minimum-cost-to-move-chips-to-the-same-position,0,0
+1217,Minimum Cost to Move Chips to The Same Position,1,minimum-cost-to-move-chips-to-the-same-position,0,1
 1218,Longest Arithmetic Subsequence of Given Difference,2,longest-arithmetic-subsequence-of-given-difference,0,0
 1219,Path with Maximum Gold,2,path-with-maximum-gold,0,0
 1220,Count Vowels Permutation,3,count-vowels-permutation,0,0

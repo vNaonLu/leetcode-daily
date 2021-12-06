@@ -1252,7 +1252,7 @@ My daily challenge on leetcode since 2021/09/06.
 |🔒|1214|[Two Sum BSTs](https://leetcode.com/problems/two-sum-bsts/)|Medium|
 |🔒|1215|[Stepping Numbers](https://leetcode.com/problems/stepping-numbers/)|Medium|
 |🔒|1216|[Valid Palindrome III](https://leetcode.com/problems/valid-palindrome-iii/)|Hard|
-||1217|[Minimum Cost to Move Chips to The Same Position](https://leetcode.com/problems/minimum-cost-to-move-chips-to-the-same-position/)|Easy|
+|[📎](src/q_1201_1250/q1217.hpp) [📝](src/q_1201_1250/q1217_unittest.hpp)|1217|[Minimum Cost to Move Chips to The Same Position](https://leetcode.com/problems/minimum-cost-to-move-chips-to-the-same-position/)|Easy|
 ||1218|[Longest Arithmetic Subsequence of Given Difference](https://leetcode.com/problems/longest-arithmetic-subsequence-of-given-difference/)|Medium|
 ||1219|[Path with Maximum Gold](https://leetcode.com/problems/path-with-maximum-gold/)|Medium|
 ||1220|[Count Vowels Permutation](https://leetcode.com/problems/count-vowels-permutation/)|Hard|
@@ -2160,6 +2160,7 @@ My daily challenge on leetcode since 2021/09/06.
 
 |Time|#|</>|Question Title|Difficulty|
 |:--|--:|:-:|:--|:--|
+|2021-12-06 18:16|1217|[📎](src/q_1201_1250/q1217.hpp) [📝](src/q_1201_1250/q1217_unittest.hpp)|[Minimum Cost to Move Chips to The Same Position](https://leetcode.com/problems/minimum-cost-to-move-chips-to-the-same-position/)|Easy|
 |2021-12-05 14:08|337|[📎](src/q_301_350/q0337.hpp) [📝](src/q_301_350/q0337_unittest.hpp)|[House Robber III](https://leetcode.com/problems/house-robber-iii/)|Medium|
 |2021-12-04 22:22|1032|[📎](src/q_1001_1050/q1032.hpp) [📝](src/q_1001_1050/q1032_unittest.hpp)|[Stream of Characters](https://leetcode.com/problems/stream-of-characters/)|Hard|
 |2021-12-03 18:37|520|[📎](src/q_501_550/q0520.hpp) [📝](src/q_501_550/q0520_unittest.hpp)|[Detect Capital](https://leetcode.com/problems/detect-capital/)|Easy|
@@ -2184,13 +2185,12 @@ My daily challenge on leetcode since 2021/09/06.
 |2021-11-20 14:14|26|[📎](src/q_1_50/q0026.hpp) [📝](src/q_1_50/q0026_unittest.hpp)|[Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/)|Easy|
 |2021-11-19 22:39|461|[📎](src/q_451_500/q0461.hpp) [📝](src/q_451_500/q0461_unittest.hpp)|[Hamming Distance](https://leetcode.com/problems/hamming-distance/)|Easy|
 |2021-11-18 18:27|448|[📎](src/q_401_450/q0448.hpp) [📝](src/q_401_450/q0448_unittest.hpp)|[Find All Numbers Disappeared in an Array](https://leetcode.com/problems/find-all-numbers-disappeared-in-an-array/)|Easy|
-|2021-11-17 18:43|23|[📎](src/q_1_50/q0023.hpp) [📝](src/q_1_50/q0023_unittest.hpp)|[Merge k Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/)|Hard|
 
 ## Previous Logs
 
 |Month|Submissions|Easy|Medium|Hard|
 |:--|:--|:--|:--|:--|
-|[December_2021](./assets/December_2021.md)|6|1|2|3|
+|[December_2021](./assets/December_2021.md)|7|2|2|3|
 |[November_2021](./assets/November_2021.md)|41|19|16|6|
 |[October_2021](./assets/October_2021.md)|115|27|75|13|
 |[September_2021](./assets/September_2021.md)|133|55|71|7|
