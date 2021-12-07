@@ -1331,7 +1331,7 @@ My daily challenge on leetcode since 2021/09/06.
 ||1287|[Element Appearing More Than 25% In Sorted Array](https://leetcode.com/problems/element-appearing-more-than-25-in-sorted-array/)|Easy|
 ||1288|[Remove Covered Intervals](https://leetcode.com/problems/remove-covered-intervals/)|Medium|
 ||1289|[Minimum Falling Path Sum II](https://leetcode.com/problems/minimum-falling-path-sum-ii/)|Hard|
-||1290|[Convert Binary Number in a Linked List to Integer](https://leetcode.com/problems/convert-binary-number-in-a-linked-list-to-integer/)|Easy|
+|[📎](src/q_1251_1300/q1290.hpp) [📝](src/q_1251_1300/q1290_unittest.hpp)|1290|[Convert Binary Number in a Linked List to Integer](https://leetcode.com/problems/convert-binary-number-in-a-linked-list-to-integer/)|Easy|
 ||1291|[Sequential Digits](https://leetcode.com/problems/sequential-digits/)|Medium|
 ||1292|[Maximum Side Length of a Square with Sum Less than or Equal to Threshold](https://leetcode.com/problems/maximum-side-length-of-a-square-with-sum-less-than-or-equal-to-threshold/)|Medium|
 |[📎](src/q_1251_1300/q1293.hpp) [📝](src/q_1251_1300/q1293_unittest.hpp)|1293|[Shortest Path in a Grid with Obstacles Elimination](https://leetcode.com/problems/shortest-path-in-a-grid-with-obstacles-elimination/)|Hard|
@@ -2160,6 +2160,7 @@ My daily challenge on leetcode since 2021/09/06.
 
 |Time|#|</>|Question Title|Difficulty|
 |:--|--:|:-:|:--|:--|
+|2021-12-07 18:28|1290|[📎](src/q_1251_1300/q1290.hpp) [📝](src/q_1251_1300/q1290_unittest.hpp)|[Convert Binary Number in a Linked List to Integer](https://leetcode.com/problems/convert-binary-number-in-a-linked-list-to-integer/)|Easy|
 |2021-12-06 18:16|1217|[📎](src/q_1201_1250/q1217.hpp) [📝](src/q_1201_1250/q1217_unittest.hpp)|[Minimum Cost to Move Chips to The Same Position](https://leetcode.com/problems/minimum-cost-to-move-chips-to-the-same-position/)|Easy|
 |2021-12-05 14:08|337|[📎](src/q_301_350/q0337.hpp) [📝](src/q_301_350/q0337_unittest.hpp)|[House Robber III](https://leetcode.com/problems/house-robber-iii/)|Medium|
 |2021-12-04 22:22|1032|[📎](src/q_1001_1050/q1032.hpp) [📝](src/q_1001_1050/q1032_unittest.hpp)|[Stream of Characters](https://leetcode.com/problems/stream-of-characters/)|Hard|
@@ -2184,13 +2185,12 @@ My daily challenge on leetcode since 2021/09/06.
 |2021-11-20 14:21|27|[📎](src/q_1_50/q0027.hpp) [📝](src/q_1_50/q0027_unittest.hpp)|[Remove Element](https://leetcode.com/problems/remove-element/)|Easy|
 |2021-11-20 14:14|26|[📎](src/q_1_50/q0026.hpp) [📝](src/q_1_50/q0026_unittest.hpp)|[Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/)|Easy|
 |2021-11-19 22:39|461|[📎](src/q_451_500/q0461.hpp) [📝](src/q_451_500/q0461_unittest.hpp)|[Hamming Distance](https://leetcode.com/problems/hamming-distance/)|Easy|
-|2021-11-18 18:27|448|[📎](src/q_401_450/q0448.hpp) [📝](src/q_401_450/q0448_unittest.hpp)|[Find All Numbers Disappeared in an Array](https://leetcode.com/problems/find-all-numbers-disappeared-in-an-array/)|Easy|
 
 ## Previous Logs
 
 |Month|Submissions|Easy|Medium|Hard|
 |:--|:--|:--|:--|:--|
-|[December_2021](./assets/December_2021.md)|7|2|2|3|
+|[December_2021](./assets/December_2021.md)|8|3|2|3|
 |[November_2021](./assets/November_2021.md)|41|19|16|6|
 |[October_2021](./assets/October_2021.md)|115|27|75|13|
 |[September_2021](./assets/September_2021.md)|133|55|71|7|

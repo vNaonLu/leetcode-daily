@@ -1288,7 +1288,7 @@ id,title,level,slug,paid,done
 1287,Element Appearing More Than 25% In Sorted Array,1,element-appearing-more-than-25-in-sorted-array,0,0
 1288,Remove Covered Intervals,2,remove-covered-intervals,0,0
 1289,Minimum Falling Path Sum II,3,minimum-falling-path-sum-ii,0,0
-1290,Convert Binary Number in a Linked List to Integer,1,convert-binary-number-in-a-linked-list-to-integer,0,0
+1290,Convert Binary Number in a Linked List to Integer,1,convert-binary-number-in-a-linked-list-to-integer,0,1
 1291,Sequential Digits,2,sequential-digits,0,0
 1292,Maximum Side Length of a Square with Sum Less than or Equal to Threshold,2,maximum-side-length-of-a-square-with-sum-less-than-or-equal-to-threshold,0,0
 1293,Shortest Path in a Grid with Obstacles Elimination,3,shortest-path-in-a-grid-with-obstacles-elimination,0,1

@@ -2,6 +2,7 @@
 
 ||#|</>|Question Title|Difficulty|
 |:--|--:|:-:|:--|:--|
+|Day 7|1290|[📎](../src/q_1251_1300/q1290.hpp) [📝](../src/q_1251_1300/q1290_unittest.hpp)|[Convert Binary Number in a Linked List to Integer](https://leetcode.com/problems/convert-binary-number-in-a-linked-list-to-integer/)|Easy|
 |Day 6|1217|[📎](../src/q_1201_1250/q1217.hpp) [📝](../src/q_1201_1250/q1217_unittest.hpp)|[Minimum Cost to Move Chips to The Same Position](https://leetcode.com/problems/minimum-cost-to-move-chips-to-the-same-position/)|Easy|
 |Day 5|337|[📎](../src/q_301_350/q0337.hpp) [📝](../src/q_301_350/q0337_unittest.hpp)|[House Robber III](https://leetcode.com/problems/house-robber-iii/)|Medium|
 |Day 4|1032|[📎](../src/q_1001_1050/q1032.hpp) [📝](../src/q_1001_1050/q1032_unittest.hpp)|[Stream of Characters](https://leetcode.com/problems/stream-of-characters/)|Hard|
