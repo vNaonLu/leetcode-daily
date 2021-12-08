@@ -75,7 +75,7 @@ def _build_option(options: optparse, args: list[str]):
             if not pmt.ask("The project has failed to build, run the old version"):
                 return operation
 
-        excute_file = dest.joinpath("unittest")
+        excute_file = dest.joinpath("leetcode_test")
         if not excute_file.exists():
             operation = "fail"
             pmt.show(
