@@ -5,7 +5,6 @@ import subprocess
 import os
 import shutil
 from tools.utils import prompt as pmt
-from tools.utils import local
 
 _file_path = pathlib.Path(__file__).parent
 
