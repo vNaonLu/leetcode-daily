@@ -561,7 +561,7 @@ id,title,level,slug,paid,done
 560,Subarray Sum Equals K,2,subarray-sum-equals-k,0,1
 561,Array Partition I,1,array-partition-i,0,1
 562,Longest Line of Consecutive One in Matrix,2,longest-line-of-consecutive-one-in-matrix,1,0
-563,Binary Tree Tilt,1,binary-tree-tilt,0,0
+563,Binary Tree Tilt,1,binary-tree-tilt,0,1
 564,Find the Closest Palindrome,3,find-the-closest-palindrome,0,0
 565,Array Nesting,2,array-nesting,0,0
 566,Reshape the Matrix,1,reshape-the-matrix,0,1

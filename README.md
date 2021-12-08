@@ -586,7 +586,7 @@ My daily challenge on leetcode since 2021/09/06.
 |[📎](src/q_551_600/q0560.hpp) [📝](src/q_551_600/q0560_unittest.hpp)|560|[Subarray Sum Equals K](https://leetcode.com/problems/subarray-sum-equals-k/)|Medium|
 |[📎](src/q_551_600/q0561.hpp) [📝](src/q_551_600/q0561_unittest.hpp)|561|[Array Partition I](https://leetcode.com/problems/array-partition-i/)|Easy|
 |🔒|562|[Longest Line of Consecutive One in Matrix](https://leetcode.com/problems/longest-line-of-consecutive-one-in-matrix/)|Medium|
-||563|[Binary Tree Tilt](https://leetcode.com/problems/binary-tree-tilt/)|Easy|
+|[📎](src/q_551_600/q0563.hpp) [📝](src/q_551_600/q0563_unittest.hpp)|563|[Binary Tree Tilt](https://leetcode.com/problems/binary-tree-tilt/)|Easy|
 ||564|[Find the Closest Palindrome](https://leetcode.com/problems/find-the-closest-palindrome/)|Hard|
 ||565|[Array Nesting](https://leetcode.com/problems/array-nesting/)|Medium|
 |[📎](src/q_551_600/q0566.hpp) [📝](src/q_551_600/q0566_unittest.hpp)|566|[Reshape the Matrix](https://leetcode.com/problems/reshape-the-matrix/)|Easy|
@@ -2160,6 +2160,7 @@ My daily challenge on leetcode since 2021/09/06.
 
 |Time|#|</>|Question Title|Difficulty|
 |:--|--:|:-:|:--|:--|
+|2021-12-08 17:51|563|[📎](src/q_551_600/q0563.hpp) [📝](src/q_551_600/q0563_unittest.hpp)|[Binary Tree Tilt](https://leetcode.com/problems/binary-tree-tilt/)|Easy|
 |2021-12-07 18:28|1290|[📎](src/q_1251_1300/q1290.hpp) [📝](src/q_1251_1300/q1290_unittest.hpp)|[Convert Binary Number in a Linked List to Integer](https://leetcode.com/problems/convert-binary-number-in-a-linked-list-to-integer/)|Easy|
 |2021-12-06 18:16|1217|[📎](src/q_1201_1250/q1217.hpp) [📝](src/q_1201_1250/q1217_unittest.hpp)|[Minimum Cost to Move Chips to The Same Position](https://leetcode.com/problems/minimum-cost-to-move-chips-to-the-same-position/)|Easy|
 |2021-12-05 14:08|337|[📎](src/q_301_350/q0337.hpp) [📝](src/q_301_350/q0337_unittest.hpp)|[House Robber III](https://leetcode.com/problems/house-robber-iii/)|Medium|
@@ -2184,13 +2185,12 @@ My daily challenge on leetcode since 2021/09/06.
 |2021-11-20 14:36|28|[📎](src/q_1_50/q0028.hpp) [📝](src/q_1_50/q0028_unittest.hpp)|[Implement strStr()](https://leetcode.com/problems/implement-strstr/)|Easy|
 |2021-11-20 14:21|27|[📎](src/q_1_50/q0027.hpp) [📝](src/q_1_50/q0027_unittest.hpp)|[Remove Element](https://leetcode.com/problems/remove-element/)|Easy|
 |2021-11-20 14:14|26|[📎](src/q_1_50/q0026.hpp) [📝](src/q_1_50/q0026_unittest.hpp)|[Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/)|Easy|
-|2021-11-19 22:39|461|[📎](src/q_451_500/q0461.hpp) [📝](src/q_451_500/q0461_unittest.hpp)|[Hamming Distance](https://leetcode.com/problems/hamming-distance/)|Easy|
 
 ## Previous Logs
 
 |Month|Submissions|Easy|Medium|Hard|
 |:--|:--|:--|:--|:--|
-|[December_2021](./assets/December_2021.md)|8|3|2|3|
+|[December_2021](./assets/December_2021.md)|9|4|2|3|
 |[November_2021](./assets/November_2021.md)|41|19|16|6|
 |[October_2021](./assets/October_2021.md)|115|27|75|13|
 |[September_2021](./assets/September_2021.md)|133|55|71|7|
