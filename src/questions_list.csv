@@ -1304,7 +1304,7 @@ id,title,level,slug,paid,done
 1303,Find the Team Size,1,find-the-team-size,1,0
 1304,Find N Unique Integers Sum up to Zero,1,find-n-unique-integers-sum-up-to-zero,0,0
 1305,All Elements in Two Binary Search Trees,2,all-elements-in-two-binary-search-trees,0,0
-1306,Jump Game III,2,jump-game-iii,0,0
+1306,Jump Game III,2,jump-game-iii,0,1
 1307,Verbal Arithmetic Puzzle,3,verbal-arithmetic-puzzle,0,0
 1308,Running Total for Different Genders,2,running-total-for-different-genders,1,0
 1309,Decrypt String from Alphabet to Integer Mapping,1,decrypt-string-from-alphabet-to-integer-mapping,0,0

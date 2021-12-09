@@ -2,6 +2,7 @@
 
 ||#|</>|Question Title|Difficulty|
 |:--|--:|:-:|:--|:--|
+|Day 9|1306|[📎](../src/q_1301_1350/q1306.hpp) [📝](../src/q_1301_1350/q1306_unittest.hpp)|[Jump Game III](https://leetcode.com/problems/jump-game-iii/)|Medium|
 |Day 8|563|[📎](../src/q_551_600/q0563.hpp) [📝](../src/q_551_600/q0563_unittest.hpp)|[Binary Tree Tilt](https://leetcode.com/problems/binary-tree-tilt/)|Easy|
 |Day 7|1290|[📎](../src/q_1251_1300/q1290.hpp) [📝](../src/q_1251_1300/q1290_unittest.hpp)|[Convert Binary Number in a Linked List to Integer](https://leetcode.com/problems/convert-binary-number-in-a-linked-list-to-integer/)|Easy|
 |Day 6|1217|[📎](../src/q_1201_1250/q1217.hpp) [📝](../src/q_1201_1250/q1217_unittest.hpp)|[Minimum Cost to Move Chips to The Same Position](https://leetcode.com/problems/minimum-cost-to-move-chips-to-the-same-position/)|Easy|
