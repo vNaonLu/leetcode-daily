@@ -1,114 +1,110 @@
 #ifndef __LIST_NODE_H_
 #define __LIST_NODE_H_
+
 #include <initializer_list>
 #include <iostream>
+#include <unordered_map>
 #include <unordered_set>
 #include <vector>
 
 using namespace std;
 
-class ListNode final {
- private:
-  bool generate_by_test;
-  ListNode(int x, const bool &gbt) : val(x),
-                                     next(nullptr),
-                                     generate_by_test(gbt) {}
-
- public:
+struct ListNode final {
+  /// for leetcode usage
   int val;
   ListNode *next;
-  ListNode() : val(0),
-               next(nullptr),
-               generate_by_test(false) {}
-  ListNode(int x) : val(x),
-                    next(nullptr),
-                    generate_by_test(false) {}
-  ListNode(int x, ListNode *next) : val(x),
-                                    next(next),
-                                    generate_by_test(false) {}
-
+  ListNode() : val(0), next(nullptr) {}
+  ListNode(int x) : val(x), next(nullptr) {}
+  ListNode(int x, ListNode *next) : val(x), next(next) {}
   ~ListNode() {}
 
- private:
-  static vector<vector<ListNode>>
-      keep_;
+  /// for project usage
+  typedef pair<int, int> _listnode_data;
+  bool _generate_by_test {false};
+  ListNode(int x, const bool &gbt) : val(x),
+                                     next(nullptr),
+                                     _generate_by_test(gbt) {}
 
-  static ListNode *build_list_(vector<ListNode> &v, const int &repeat) {
+  static vector<vector<ListNode>> keep_;
+
+  static ListNode*
+  _build_list(vector<ListNode> &v, const int &repeat) noexcept {
+    if (v.empty()) return nullptr;
     for (int i = 0; i < v.size() - 1; ++i)
       v[i].next = &v[i + 1];
     if (repeat >= 0) v.back().next = &v[repeat];
     return &v.front();
   }
 
- public:
-  inline bool operator==(const ListNode &rhs) const {
-    unordered_set<ListNode *> memo;
-    vector<ListNode *> self;
-    vector<ListNode *> rhsvector;
-    ListNode *p = next;
-    int cnt = 0;
-    if (val != rhs.val) return false;
-    while (p != nullptr) {
-      if (memo.count(p)) break;
-      memo.insert(p);
-      self.push_back(p);
-      p = p->next;
-      ++cnt;
+  inline vector<_listnode_data>
+  _data() const noexcept {
+    unordered_map<uint64_t, int> _memo; /// avoid repeat
+    vector<_listnode_data>  _data;
+    const ListNode          *_p = this;
+    size_t                  idx = 0;
+    while(nullptr != _p) {
+      if(_memo.count(reinterpret_cast<uint64_t>(_p))) {
+        _data.emplace_back(_p->val,
+                           _memo.at(reinterpret_cast<uint64_t>(_p)));
+        break;
+      } else {
+        _data.emplace_back(_p->val, idx);
+        _memo.insert(make_pair(reinterpret_cast<uint64_t>(_p),
+                               idx++));
+      }
+      _p = _p->next;
     }
-    p = rhs.next;
-    cnt = 0;
-    while (p != nullptr) {
-      if (memo.count(p)) break;
-      memo.insert(p);
-      rhsvector.push_back(p);
-      p = p->next;
-      ++cnt;
-    }
-    if (self.size() != rhsvector.size()) return false;
-    auto selfit = self.begin();
-    auto rhsit = rhsvector.begin();
-    for (int i = 0; i < self.size(); ++i) {
-      if ((*selfit++)->val != (*rhsit++)->val) return false;
-    }
-    return true;
+    return _data;
   }
 
-  inline static ListNode *generate(const vector<int> &v, const int &repeat = -1) {
+  inline static ListNode *
+  generate(const vector<int> &v, const int &repeat = -1) {
     assert(repeat == -1 || repeat < v.size());
     if (v.empty()) return nullptr;
-    keep_.push_back({});
+    keep_.emplace_back(vector<ListNode>{});
     vector<ListNode> &dummy = keep_.back();
     for (int i = 0; i < v.size(); ++i)
-      dummy.push_back(ListNode(v[i], true));
-    return build_list_(dummy, repeat);
+      dummy.emplace_back(ListNode(v[i], true));
+    return _build_list(dummy, repeat);
   }
 
-  inline static void release(initializer_list<ListNode *> p) {
-    for (auto node : p) {
-      unordered_set<ListNode *> memo;
-      vector<ListNode *> cand;
-      ListNode *q = node;
-      while (q != nullptr) {
-        if (memo.count(q)) break;
-        memo.insert(q);
-        if (!q->generate_by_test) cand.push_back(q);
-        q = q->next;
+  inline static size_t
+  release(initializer_list<ListNode *> p) {
+    unordered_set<ListNode *> memo;
+    vector<ListNode *> cand;
+    for (ListNode *node : p) {
+      while (nullptr != node) {
+        if (memo.count(node)) break;
+        memo.insert(node);
+        if (!node->_generate_by_test) cand.push_back(node);
+        node = node->next;
       }
-      for (auto candtodel : cand)
-        delete candtodel;
     }
+    for (auto candtodel : cand)
+      delete candtodel;
+    return cand.size();
   }
 };
 
+inline bool
+operator==(const ListNode &lhs, const ListNode &rhs) noexcept {
+  auto _ldata = lhs._data(),
+       _rdata = rhs._data();
+  return _ldata == _rdata;
+}
+
 #ifdef EXPECT_EQ
+/// TODO: release position
 #define EXPECT_LISTNODE_EQ(val1, val2)          \
+{                                               \
   ListNode *actual = val1, *expect = val2;      \
   if (actual != nullptr && expect != nullptr) { \
     EXPECT_EQ(*actual, *expect);                \
   } else {                                      \
     EXPECT_EQ(actual, expect);                  \
   }                                             \
-  ListNode::release({actual, expect});
+  ListNode::release({actual, expect});          \
+}
 #endif
 
 #endif
