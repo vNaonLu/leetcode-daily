@@ -1,11 +1,10 @@
-#!/usr/bin/python3
+#!/usr/bin/env python3
 import optparse
 import pathlib
 import subprocess
 import os
 import shutil
 from tools.utils import prompt as pmt
-from tools.utils import local
 
 _file_path = pathlib.Path(__file__).parent
 
@@ -75,7 +74,7 @@ def _build_option(options: optparse, args: list[str]):
             if not pmt.ask("The project has failed to build, run the old version"):
                 return operation
 
-        excute_file = dest.joinpath("unittest")
+        excute_file = dest.joinpath("leetcode_test")
         if not excute_file.exists():
             operation = "fail"
             pmt.show(
@@ -118,7 +117,7 @@ def __parser():
                           default=False,
                           help="add questions without generating testcases.")
 
-    build_group = optparse.OptionGroup(parser, "Build & Unittest")
+    build_group = optparse.OptionGroup(parser, "Build & Test")
     build_group.add_option("-B", "--build",
                            dest="bud_identifier",
                            action="store_true",
@@ -133,7 +132,7 @@ def __parser():
                            dest="run_identifier",
                            action="store_true",
                            default=False,
-                           help="run the unittest with arg ids.")
+                           help="run the googletest with arg ids.")
     build_group.add_option("--b-dest",
                            dest="build_dest",
                            action="store",
@@ -157,18 +156,23 @@ def __main():
 
     # from tools.leetcode.question import LeetCodeQuestion
     # from tools.leetcode import request as Rq
+    # from tools.utils import local, code_snippet
     # slug = Rq.question_slug(int(args[0]))
+    # _q = local.QuestionSource(int(args[0]), "src")
+
+    # content = None
+    # with open(_q.path()
+    #           .joinpath("q{}.hpp".format(str(_q.id()).zfill(4)))
+    #           .resolve(), 'r') as f:
+    #     content = code_snippet.code_snippet(f.read())
+
     # if slug:
-    #     q = LeetCodeQuestion(slug, not options.no_testcase)
-    #     s, u = q.template("prompt test", 70)
+    #     q = LeetCodeQuestion(slug, not options.no_testcase, content)
+    #     s = q.template("prompt test", 70)
     #     print()
     #     print("=====================================================")
     #     print()
     #     print(s)
-    #     print()
-    #     print("=====================================================")
-    #     print()
-    #     print(u)
     # return
 
     if options.add_identifier and options.del_identifier:

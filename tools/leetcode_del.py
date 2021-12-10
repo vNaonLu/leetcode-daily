@@ -39,25 +39,15 @@ def __main():
     log_csv = pathlib.Path(options.log).resolve()
 
     question_deleted = False
-    modify_subunittest: set = set()
 
     for id in [int(arg) for arg in args]:
         remove_success = False
         qfile = local.QuestionSource(int(id), sour_path)
         remove_success |= modify.remove(os.path.join(qfile.src()))
-        remove_success |= modify.remove(os.path.join(qfile.unittest()))
 
         if remove_success:
             question_deleted = True
             modify.dellog(log_csv, id)
-            modify_subunittest.add(qfile.interval())
-
-    for subunittest in modify_subunittest:
-        subsrc = os.path.join(sour_path, subunittest)
-        ids = local.solved_question_ids(subsrc)
-        generate.file(os.path.join(sour_path, subunittest, "unittest.hpp"),
-                      template.subunittest(subunittest,
-                                           ["q{}_unittest.hpp".format(str(id).zfill(4)) for id in ids]))
 
     if question_deleted:
         if not os.path.exists(list_csv):

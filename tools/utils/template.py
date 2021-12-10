@@ -3,35 +3,13 @@ import math
 from . import local
 
 
-def subunittest(intv: str, files: list[str]):
-    return "\n".join([
-        "",
-        "#ifndef {}_UNITTEST".format(intv.upper()),
-        "#define {}_UNITTEST".format(intv.upper()),
-        ""] + [
-        "#include \"{}\"".format(file) for file in files] + [
-        "",
-        "#endif"])
-
-
-def mainunittest(subunittest: list[str]):
-    return "\n".join([
-        "#include <gtest/gtest.h>"] + [
-        "#include \"{}\"".format(utfile) for utfile in subunittest] + [
-        "",
-        "int main(int argc, char **argv) {",
-        "  ::testing::InitGoogleTest(&argc, argv);",
-        "  return ::RUN_ALL_TESTS();",
-        "}"])
-
-
 def question_detail(question: local.QuestionDetails):
     qfile = local.QuestionSource(question.id(), "./src")
     src = "" if not question.paid_only() else "🔒"
     title = "[{}](https://leetcode.com/problems/{}/)".format(question.title(),
                                                              question.slug())
     if question.done():
-        src = "[📎]({}) [📝]({})".format(qfile.src(), qfile.unittest())
+        src = "[📎]({})".format(qfile.src())
     return "|{}|{}|{}|{}|".format(src, question.id(), title,
                                   "Hard" if question.level() == 3 else ("Medium" if question.level() == 2 else "Easy"))
 
@@ -90,7 +68,7 @@ def accepted_svg(e: int, m: int, h: int, total: int):
 def __table_row(line: list[str], details: local.QuestionDetails, base: str):
     qfile = local.QuestionSource(details.id(), base)
     line[2] += str(details.id())
-    line[3] += "[📎]({}) [📝]({})".format(qfile.src(), qfile.unittest())
+    line[3] += "[📎]({})".format(qfile.src())
     line[4] += "[{}](https://leetcode.com/problems/{}/)".format(details.title(),
                                                                 details.slug())
     line[5] += "{}".format("Hard" if details.level() == 3 else (
