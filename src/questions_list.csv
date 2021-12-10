@@ -788,7 +788,7 @@ id,title,level,slug,paid,done
 787,Cheapest Flights Within K Stops,2,cheapest-flights-within-k-stops,0,0
 788,Rotated Digits,2,rotated-digits,0,0
 789,Escape The Ghosts,2,escape-the-ghosts,0,0
-790,Domino and Tromino Tiling,2,domino-and-tromino-tiling,0,0
+790,Domino and Tromino Tiling,2,domino-and-tromino-tiling,0,1
 791,Custom Sort String,2,custom-sort-string,0,0
 792,Number of Matching Subsequences,2,number-of-matching-subsequences,0,0
 793,Preimage Size of Factorial Zeroes Function,3,preimage-size-of-factorial-zeroes-function,0,0

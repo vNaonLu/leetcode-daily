@@ -7,6 +7,7 @@
 #include "q0764_unittest.hpp"
 #include "q0782_unittest.hpp"
 #include "q0784_unittest.hpp"
+#include "q0790_unittest.hpp"
 #include "q0797_unittest.hpp"
 
 #endif
