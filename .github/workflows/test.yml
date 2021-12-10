@@ -19,7 +19,7 @@ jobs:
 
       - name: Configure CMakeLists.txt
         run: |
-          cmake . -D CMAKE_BUILD_TYPE=Debug
+          cmake . -ENABLE_LEETCODE_TEST=ON -DENABLE_INFRA_TEST=ON
 
       - name: Build Source
         run: |
