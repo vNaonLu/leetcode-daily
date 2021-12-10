@@ -3,7 +3,6 @@ import regex
 from . import request as LeetCodeRequest
 from .argument import Argument
 from .prettify import CodeSnippet, Description
-from tools.leetcode import prettify
 
 
 class SolutionAbstract:
