@@ -57,32 +57,6 @@ def subunittest(path: str, file_name: str):
         f.truncate()
         __modify_prompt(path)
 
-
-def unittest(path: str, num: int, intv: str):
-    with open(path, "r+") as f:
-        text = f.readlines()
-        index = 0
-        for i in range(0, len(text)):
-            index = i
-            if re.search("#include", text[i]):
-                cintv = re.search("Q_(\d*)_(\d*)", text[i])
-                if cintv and int(cintv.group(1)) > num:
-                    break
-                elif cintv and int(cintv.group(1)) < num and int(cintv.group(2)) > num:
-                    index = len(text) - 1
-                    break
-            else:
-                break
-
-        if index < len(text) - 1:
-            text.insert(
-                index, "#include \"{}/unittest.hpp\"\n".format(intv.lower()))
-            f.seek(0)
-            f.write("".join(text))
-            f.truncate()
-        __modify_prompt(path)
-
-
 def done_question(path: str, ids: list[int]):
     id_map: dict[int, dict[str, any]] = {}
 
@@ -156,7 +130,7 @@ def readme(path: str, question_list: local.QuestionList,
                          i+1, min(i+250, len(ids))),
                      "",
                      "|</>|#|Solution Title|Difficulty|",
-                     "|--:|--:|:--|:--|"]
+                     "|:-:|--:|:--|:--|"]
             lines += [template.question_detail(question_list.get(id))
                       for id in ids[i:min(i+250, len(ids))]]
             lines.append("</details>")
