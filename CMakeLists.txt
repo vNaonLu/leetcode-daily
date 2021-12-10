@@ -12,5 +12,10 @@ set(gtest_force_shared_crt ON CACHE BOOL "" FORCE)
 set(BUILD_GMOCK OFF CACHE BOOL "" FORCE)
 FetchContent_MakeAvailable(googletest)
 
-add_subdirectory(src)
-add_subdirectory(test)
+if(${ENABLE_LEETCODE_TEST})
+  add_subdirectory(src)
+endif()
+
+if(${ENABLE_INFRA_TEST})
+  add_subdirectory(test)
+endif()

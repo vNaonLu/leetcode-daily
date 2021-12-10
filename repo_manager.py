@@ -42,12 +42,16 @@ def _build_option(options: optparse, args: list[str]):
                 "cmake",
                 "-S", _file_path.resolve(),
                 "-B", dest.resolve(),
-                "-D", "CMAKE_BUILD_TYPE=Debug"], True)
+                "-DCMAKE_BUILD_TYPE=Debug",
+                "-DENABLE_LEETCODE_TEST=ON",
+                "-DENABLE_INFRA_TEST=ON"], True)
         else:
             operation = _run_process([
                 "cmake",
                 "-S", _file_path.resolve(),
-                "-B", dest.resolve()], True)
+                "-B", dest.resolve(),
+                "-DENABLE_LEETCODE_TEST=ON",
+                "-DENABLE_INFRA_TEST=ON"], True)
 
         if operation.returncode == 0:
             pmt.recieve(
