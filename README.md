@@ -819,7 +819,7 @@ My daily challenge on leetcode since 2021/09/06.
 ||787|[Cheapest Flights Within K Stops](https://leetcode.com/problems/cheapest-flights-within-k-stops/)|Medium|
 ||788|[Rotated Digits](https://leetcode.com/problems/rotated-digits/)|Medium|
 ||789|[Escape The Ghosts](https://leetcode.com/problems/escape-the-ghosts/)|Medium|
-||790|[Domino and Tromino Tiling](https://leetcode.com/problems/domino-and-tromino-tiling/)|Medium|
+|[📎](src/q_751_800/q0790.hpp) [📝](src/q_751_800/q0790_unittest.hpp)|790|[Domino and Tromino Tiling](https://leetcode.com/problems/domino-and-tromino-tiling/)|Medium|
 ||791|[Custom Sort String](https://leetcode.com/problems/custom-sort-string/)|Medium|
 ||792|[Number of Matching Subsequences](https://leetcode.com/problems/number-of-matching-subsequences/)|Medium|
 ||793|[Preimage Size of Factorial Zeroes Function](https://leetcode.com/problems/preimage-size-of-factorial-zeroes-function/)|Hard|
@@ -2160,6 +2160,7 @@ My daily challenge on leetcode since 2021/09/06.
 
 |Time|#|</>|Question Title|Difficulty|
 |:--|--:|:-:|:--|:--|
+|2021-12-10 17:59|790|[📎](src/q_751_800/q0790.hpp) [📝](src/q_751_800/q0790_unittest.hpp)|[Domino and Tromino Tiling](https://leetcode.com/problems/domino-and-tromino-tiling/)|Medium|
 |2021-12-09 17:58|1306|[📎](src/q_1301_1350/q1306.hpp) [📝](src/q_1301_1350/q1306_unittest.hpp)|[Jump Game III](https://leetcode.com/problems/jump-game-iii/)|Medium|
 |2021-12-08 17:51|563|[📎](src/q_551_600/q0563.hpp) [📝](src/q_551_600/q0563_unittest.hpp)|[Binary Tree Tilt](https://leetcode.com/problems/binary-tree-tilt/)|Easy|
 |2021-12-07 18:28|1290|[📎](src/q_1251_1300/q1290.hpp) [📝](src/q_1251_1300/q1290_unittest.hpp)|[Convert Binary Number in a Linked List to Integer](https://leetcode.com/problems/convert-binary-number-in-a-linked-list-to-integer/)|Easy|
@@ -2184,13 +2185,12 @@ My daily challenge on leetcode since 2021/09/06.
 |2021-11-21 13:23|106|[📎](src/q_101_150/q0106.hpp) [📝](src/q_101_150/q0106_unittest.hpp)|[Construct Binary Tree from Inorder and Postorder Traversal](https://leetcode.com/problems/construct-binary-tree-from-inorder-and-postorder-traversal/)|Medium|
 |2021-11-20 14:38|29|[📎](src/q_1_50/q0029.hpp) [📝](src/q_1_50/q0029_unittest.hpp)|[Divide Two Integers](https://leetcode.com/problems/divide-two-integers/)|Medium|
 |2021-11-20 14:36|28|[📎](src/q_1_50/q0028.hpp) [📝](src/q_1_50/q0028_unittest.hpp)|[Implement strStr()](https://leetcode.com/problems/implement-strstr/)|Easy|
-|2021-11-20 14:21|27|[📎](src/q_1_50/q0027.hpp) [📝](src/q_1_50/q0027_unittest.hpp)|[Remove Element](https://leetcode.com/problems/remove-element/)|Easy|
 
 ## Previous Logs
 
 |Month|Submissions|Easy|Medium|Hard|
 |:--|:--|:--|:--|:--|
-|[December_2021](./assets/December_2021.md)|10|4|3|3|
+|[December_2021](./assets/December_2021.md)|11|4|4|3|
 |[November_2021](./assets/November_2021.md)|41|19|16|6|
 |[October_2021](./assets/October_2021.md)|115|27|75|13|
 |[September_2021](./assets/September_2021.md)|133|55|71|7|

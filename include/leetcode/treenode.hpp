@@ -1,6 +1,6 @@
+#ifndef __TREE_NODE_H_
+#define __TREE_NODE_H_
 
-#ifndef TREE_NODE_H__
-#define TREE_NODE_H__
 #include <initializer_list>
 #include <iostream>
 #include <limits>
@@ -96,8 +96,6 @@ class TreeNode final {
       if (node != nullptr && !node->generate_by_test) delete node;
   }
 };
-
-vector<vector<TreeNode>> TreeNode::keep_ = {};
 
 #ifdef EXPECT_EQ
 #define EXPECT_TREENODE_EQ(val1, val2)        \
