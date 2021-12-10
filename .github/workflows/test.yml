@@ -4,7 +4,7 @@ name: ExampleTest
 
 on:
   push:
-    branches: [master, new-python-tools]
+    branches: [master, fix-github-action]
   pull_request:
     branches: [master]
 
@@ -19,7 +19,7 @@ jobs:
 
       - name: Configure CMakeLists.txt
         run: |
-          cmake . -ENABLE_LEETCODE_TEST=ON -DENABLE_INFRA_TEST=ON
+          cmake . -DENABLE_LEETCODE_TEST=ON -DENABLE_INFRA_TEST=ON
 
       - name: Build Source
         run: |
