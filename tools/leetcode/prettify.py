@@ -1,6 +1,7 @@
 import re
 
 import regex
+from requests.models import codes
 
 
 class Description:
@@ -156,3 +157,15 @@ class Description:
             pat = re.compile("([^\n]{{1,{}}})(?: |$| *\.$)".format(limit))
             content = pat.findall(content)
             return content
+
+class CodeSnippet:
+    @staticmethod
+    def prettify(content: str):
+        content = re.sub("\/\*[\w\W]*?\*\/", "", content)
+        content = re.sub("\/\/[^\n]*\n?", "", content)
+        content = re.sub("  ", " ", content)
+        content = re.sub(" *public:", " public:", content)
+        content = re.sub(" *private:", " private:", content)
+        content = re.sub(" *protected:", " protected:", content)
+        content = re.sub("\n\n", "\n", content)
+        return content

@@ -1,5 +1,5 @@
-#ifndef LIST_NODE_H__
-#define LIST_NODE_H__
+#ifndef __LIST_NODE_H_
+#define __LIST_NODE_H_
 #include <initializer_list>
 #include <iostream>
 #include <unordered_set>
@@ -99,8 +99,6 @@ class ListNode final {
     }
   }
 };
-
-vector<vector<ListNode>> ListNode::keep_ = {};
 
 #ifdef EXPECT_EQ
 #define EXPECT_LISTNODE_EQ(val1, val2)          \

@@ -25,7 +25,11 @@ jobs:
         run: |
           cmake --build .
 
-      - name: Run Unittest
+      - name: Run Infra Test
         run: |
-          ./unittest
+          ./infra_test
+
+      - name: Run Leetcode Test
+        run: |
+          ./leetcode_test
 
