@@ -12,10 +12,7 @@ class QuestionSource:
         self.__id: str = str(id).zfill(4)
         self.__intv: str = id_folder(id)
         self.__dir: pathlib.Path = base_path.joinpath(self.__intv)
-        self.__src: pathlib.Path = self.__dir.joinpath(
-            "q{}.hpp".format(self.__id))
-        self.__unittest: pathlib.Path = self.__dir.joinpath(
-            "q{}_unittest.hpp".format(self.__id))
+        self.__src: pathlib.Path = self.__dir.joinpath("q{}.cc".format(self.__id))
 
     def interval(self):
         return self.__intv
@@ -25,9 +22,6 @@ class QuestionSource:
 
     def src(self):
         return self.__src
-
-    def unittest(self):
-        return self.__unittest
 
     def path(self):
         return self.__dir
@@ -156,7 +150,7 @@ def solved_question_ids(path: str):
     res: list[int] = []
     for _, _, files in os.walk(path):
         for file in files:
-            g = re.search("q(\d*).hpp", file)
+            g = re.search("q(\d*).cc", file)
             if g is not None:
                 res.append(int(g.group(1)))
     res.sort()

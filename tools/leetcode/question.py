@@ -2,7 +2,8 @@ import re
 import regex
 from . import request as LeetCodeRequest
 from .argument import Argument
-from .prettify import Description
+from .prettify import CodeSnippet, Description
+from tools.leetcode import prettify
 
 
 class SolutionAbstract:
@@ -16,7 +17,7 @@ class SolutionAbstract:
                                          content,
                                          re.IGNORECASE) != None
         self._includes.add("iostream")
-        self._solnobj: str = "solver"
+        self._solnobj: str = "solution"
 
     def is_valid(self):
         return False
@@ -120,19 +121,21 @@ class SolutionFunction(SolutionAbstract):
             exp.append("// Assume the first argument is answer.")
             exp.append(type.expect_compare(name, "exp"))
         elif self._anyorder and re.search("vector", eq_type):
-            eq_arg = "{}.{}".format(self._solnobj, self.function())
+            eq_arg = "{}->{}".format(self._solnobj, self.function())
             exp.append("// Try EXPECT_EQ_ANY_ORDER_RECURSIVE")
             exp.append("// if the element is also matched in any order.")
             exp.append("EXPECT_EQ_ANY_ORDER({}, exp);".format(eq_arg))
         else:
-            eq_arg = "{}.{}".format(self.solution_object(), self.function())
+            eq_arg = "{}->{}".format(self.solution_object(), self.function())
             exp.append(self._type.expect_compare(eq_arg, "exp"))
         return exp
 
     def __generate_object(self):
-        return ["l{}::{} {};".format(self._id,
-                                     self.class_name(),
-                                     self.solution_object())]
+        return ["{} = new {}();".format(self.solution_object(),
+                                        self.class_name())]
+    
+    def __delete(self):
+        return ["delete {};".format(self.solution_object())]
 
     def unittest_desc(self, content: str):
         res: list[list[str]] = []
@@ -147,7 +150,8 @@ class SolutionFunction(SolutionAbstract):
                     res.append(self.__generate_object() +
                                self.__parse_input(m_cas.group("in").strip()) +
                                self.__parse_output(m_cas.group("out").strip()) +
-                               self.__expect_equation())
+                               self.__expect_equation() +
+                               self.__delete())
         return res
 
 
@@ -197,17 +201,20 @@ class SolutionClass(SolutionAbstract):
                 continue
 
             args = []
-            for j in range(0, len(arg_input)):
-                _, t = method.args()[j]
-                args.append(t.parse_value(arg_input[j]))
 
             if functions[i] == self.class_name():
-                out.append("l{}::{} *{} = new l{}::{}({});".format(self._id, self.class_name(),
-                                                                   self.solution_object(),
-                                                                   self._id,
-                                                                   self.class_name(),
-                                                                   ", ".join(args)))
+                for j in range(0, len(arg_input)):
+                    f, t = method.args()[j]
+                    out.append("{} {} = {};".format(t.type(), f,
+                                                    t.parse_value(arg_input[j])))
+                    args.append(f)
+                out.append("{} = new {}({});".format(self.solution_object(),
+                                                     self.class_name(),
+                                                     ", ".join(args)))
             else:
+                for j in range(0, len(arg_input)):
+                    _, t = method.args()[j]
+                    args.append(t.parse_value(arg_input[j]))
                 actual = "{}->{}({})".format(self.solution_object(),
                                              method.name(),
                                              ", ".join(args))
@@ -258,7 +265,7 @@ class Solution:
 
 class LeetCodeQuestion:
 
-    def __init__(self, title_slug: str, testcase: bool):
+    def __init__(self, title_slug: str, testcase: bool, _snippet: str = None):
         self.__res_obj = LeetCodeRequest.question_details(title_slug)
         if self.__res_obj != None:
             self.__id: int = int(self.__res_obj['questionFrontendId'])
@@ -271,28 +278,29 @@ class LeetCodeQuestion:
             self.__cons: list[str] = None
             self.__testcase: list[list[str]] = []
             self.__parse_code_snippet(self.__res_obj['codeSnippets'],
-                                      self.__res_obj['content'])
+                                      self.__res_obj['content'],
+                                      _snippet)
             self.__parse_content(self.__res_obj['content'], testcase)
 
     def is_valid(self):
         return self.__res_obj != None
 
-    def __parse_code_snippet(self, code_snippets: list[object], content: str):
+    def __parse_code_snippet(self, code_snippets: list[object], content: str, _snippet: str):
         if code_snippets != None:
             for snippet in code_snippets:
                 if snippet['langSlug'] == "cpp":
-                    self.__snippet = re.sub("  ", " ", snippet['code'])
-                    self.__snippet = re.sub(
-                        " *public:", " public:", self.__snippet)
-                    self.__snippet = re.sub(
-                        " *private:", " private:", self.__snippet)
-                    self.__snippet = re.sub(
-                        " *protected:", " protected:", self.__snippet)
-                    # to google style
+                    self.__snippet = CodeSnippet.prettify(snippet['code'])
                     self.__solntmp = Solution.generate_template(self.id(),
                                                                 self.__snippet,
                                                                 content)
+                    # indent
+                    self.__snippet = "  " + "\n  ".join(self.__snippet.splitlines())
                     break
+
+        if _snippet != None:
+            self.__snippet = CodeSnippet.prettify(_snippet)
+            # indent
+            self.__snippet = "  " + "\n  ".join(self.__snippet.splitlines())
 
     def __parse_content(self, content: str, testcase: bool):
         if content != None:
@@ -331,27 +339,30 @@ class LeetCodeQuestion:
         return self.__solntmp.includes()
 
     def __source(self, desc: str):
+        _includes = list(self.includes())
+        _includes.append("gtest/gtest.h")
+        if self.__solntmp.isanyorder():
+            _includes.append("leetcode/anyorder.hpp")
         return "\n".join([
+            "#include <{}>".format(icd) for icd in sorted(_includes)] + [
             "",
-            "#ifndef LEETCODE_Q{}_H__".format(self.id()),
-            "#define LEETCODE_Q{}_H__".format(self.id())] + [
-            "#include <{}>".format(icd) for icd in sorted(self.includes())] + [
-            "",
-            "namespace l{} {{".format(self.id()),
             "using namespace std;",
             "",
             desc,
             "",
+            "struct q{} : public ::testing::Test {{".format(self.id()),
+            "  // Leetcode answer here",
             self.code_snippet(),
-            "}}  // namespace l{}".format(self.id()),
             "",
-            "#endif"])
+            "  class {} *{};".format(self.__solntmp.class_name(), self.__solntmp.solution_object()),
+            "};",
+            self.__unittest_cases()])
 
     def __unittest_cases(self):
         if self.__testcase == None:
             return "\n".join([
                 "",
-                "TEST(q{}, NOT_IMPLEMENT) {{".format(self.id()),
+                "TEST_F(q{}, NOT_IMPLEMENT) {{".format(self.id()),
                 "   EXPECT_TRUE(\"NOT IMPLEMENT\");",
                 "}"
             ])
@@ -359,30 +370,10 @@ class LeetCodeQuestion:
         for i in range(0, len(self.__testcase)):
             res.append("\n".join([
                 "",
-                "TEST(q{}, sample_input{}) {{".format(self.id(),
-                                                      str(i+1).zfill(2))] + [
+                "TEST_F(q{}, sample_input{}) {{".format(self.id(), str(i+1).zfill(2))] + [
                 "  {}".format(line) for line in self.__testcase[i]] + [
                 "}"]))
         return "\n".join(res)
-
-    def __unittest(self, desc: str):
-        addition_include: list[str] = [""]
-        if self.__solntmp.isanyorder():
-            addition_include.append("#include <leetcode/anyorder.hpp>")
-            addition_include.append("")
-        return "\n".join([
-            "",
-            "#ifndef Q{}_UNITTEST_H__".format(self.id()),
-            "#define Q{}_UNITTEST_H__".format(self.id()),
-            "#include <gtest/gtest.h>",
-            "\n".join(addition_include),
-            "#include \"q{}.hpp\"".format(str(self.id()).zfill(4)),
-            "using namespace std;",
-            "",
-            desc,
-            self.__unittest_cases(),
-            "",
-            "#endif"])
 
     def __constraints(self):
         cons = self.constraints()
@@ -430,4 +421,4 @@ class LeetCodeQuestion:
                 "",
                 " */"])
 
-        return self.__source(desc), self.__unittest(desc)
+        return self.__source(desc)
