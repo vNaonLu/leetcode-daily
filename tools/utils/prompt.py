@@ -27,7 +27,6 @@ def succ(prompt: str, syb: str = "+"):
 def fail(prompt: str, syb: str):
     return "\033[31m[{}] \033[0m{}".format(syb, prompt)
 
-
 def ask(pmt: str):
     while True:
         req = input("\033[33m[?] \033[0;33m{} (y/n)?\033[0m ".format(pmt))[0]
@@ -35,7 +34,6 @@ def ask(pmt: str):
             return True
         elif req == 'n':
             return False
-
 
 class _LoadingPmt:
     _instance = None

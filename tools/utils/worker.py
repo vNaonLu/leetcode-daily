@@ -1,4 +1,4 @@
-from time import time
+from time import time, sleep
 from threading import Thread
 from . import prompt as pmt
 
@@ -9,8 +9,8 @@ class pending_pmt_worker:
     self._thread: Thread = None
     self._active: bool   = False
 
-  def prompt(self):
-    _step = int(self._timer * 10)
+  def prompt(self, step: int = 0):
+    _step = step
     _dot = ["⠇", "⠏", "⠋", "⠛", "⠙", "⠹", "⠸", "⠼", "⠴", "⠶", "⠦", "⠧"]
     return "\033[1;34m {} \033[0;37m{}{}\033[0m ({:.1f} s)".format(
         _dot[_step % len(_dot)], self._pmt,
@@ -19,10 +19,13 @@ class pending_pmt_worker:
   def __invoke(self):
     self._timer = 0.
     start_t = time()
+    _step = 0
     pmt.show(self.prompt())
     while self._active:
+      _step += 1
       self._timer = time() - start_t
-      pmt.show(pmt.front() + self.prompt())
+      pmt.show(pmt.front() + self.prompt(_step))
+      sleep(0.075)
 
   def start(self):
     if self._active:
