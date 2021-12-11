@@ -8,7 +8,6 @@ from tools.utils import prompt as pmt
 
 _file_path = pathlib.Path(__file__).parent
 
-
 def _run_process(argc: list[str], hide: bool = False):
     if hide:
         return subprocess.run(argc,
@@ -36,23 +35,15 @@ def _build_option(options: optparse, args: list[str]):
             pmt.show(
                 pmt.succ("\033[37mThe directory has been created: \033[0m{}".format(dest), "+"))
 
-        pmt.pending("Configuring the CMakeLists.txt")
+        _conf_command: list[str] = ["cmake", "-S", _file_path.resolve(),
+                                             "-B", dest.resolve(),
+                                             "-DCMAKE_EXPORT_COMPILE_COMMANDS=ON",
+                                             "-DENABLE_LEETCODE_TEST=ON",
+                                             "-DENABLE_INFRA_TEST=ON"]
         if options.debug_identifier:
-            operation = _run_process([
-                "cmake",
-                "-S", _file_path.resolve(),
-                "-B", dest.resolve(),
-                "-DCMAKE_BUILD_TYPE=Debug",
-                "-DENABLE_LEETCODE_TEST=ON",
-                "-DENABLE_INFRA_TEST=ON"], True)
-        else:
-            operation = _run_process([
-                "cmake",
-                "-S", _file_path.resolve(),
-                "-B", dest.resolve(),
-                "-DENABLE_LEETCODE_TEST=ON",
-                "-DENABLE_INFRA_TEST=ON"], True)
-
+            _conf_command.append("-DCMAKE_BUILD_TYPE=Debug")
+        pmt.pending("Configuring the CMakeLists.txt")
+        operation = _run_process(_conf_command, True)
         if operation.returncode == 0:
             pmt.recieve(
                 pmt.succ("\033[37mHas been Configured the CMakeLists.txt!\033[0m", "v"))
@@ -163,15 +154,8 @@ def __main():
     # from tools.utils import local, code_snippet
     # slug = Rq.question_slug(int(args[0]))
     # _q = local.QuestionSource(int(args[0]), "src")
-
-    # content = None
-    # with open(_q.path()
-    #           .joinpath("q{}.hpp".format(str(_q.id()).zfill(4)))
-    #           .resolve(), 'r') as f:
-    #     content = code_snippet.code_snippet(f.read())
-
     # if slug:
-    #     q = LeetCodeQuestion(slug, not options.no_testcase, content)
+    #     q = LeetCodeQuestion(slug, not options.no_testcase)
     #     s = q.template("prompt test", 70)
     #     print()
     #     print("=====================================================")
