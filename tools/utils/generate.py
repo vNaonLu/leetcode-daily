@@ -1,10 +1,10 @@
 import csv
+from pathlib import Path
 from . import prompt as pmt
 
 
-def __generate_prompt(file: str):
-    pmt.show(pmt.succ("\033[37mThe file has been created : \033[0m{}".format(file),
-                      "+"))
+def __generate_prompt(file: Path):
+    pmt.show(pmt.succ(pmt.hi("The file has been created : ") + str(file), "+"))
 
 
 def file(path: str, content: str):

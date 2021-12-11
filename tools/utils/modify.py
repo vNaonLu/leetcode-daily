@@ -1,26 +1,24 @@
 import csv
+from pathlib import Path
 import re
 import os
 import time
 from . import local, template, prompt as pmt
 
 
-def __modify_prompt(file: str):
-    pmt.show(pmt.succ("\033[37mThe file has been modified: \033[0m{}".format(file),
-                      "+"))
+def __modify_prompt(file: Path):
+    pmt.show(pmt.succ(pmt.hi("The file has been modified: ") + str(file), "+"))
 
 
-def __delete_prompt(file: str):
-    pmt.show(pmt.succ("\033[37mThe file has been deleted : \033[0m{}".format(file),
-                      "-"))
+def __delete_prompt(file: Path):
+    pmt.show(pmt.succ(pmt.hi("The file has been deleted : ") + str(file), "-"))
 
 
-def remove(path: str):
+def remove(path: Path):
     try:
         os.remove(path)
     except OSError as e:
-        pmt.show(
-            pmt.fail("\033[37m{} : \033[0m{}".format(e.strerror, path), "x"))
+        pmt.show(pmt.fail(pmt.hi("{} : ".format(e.strerror)) + str(path), "x"))
         return False
     else:
         __delete_prompt(path)

@@ -49,18 +49,17 @@ def __main():
     list_csv = pathlib.Path(options.list).resolve()
     log_csv = pathlib.Path(options.log).resolve()
 
-    pmt.pending("\033[37mRequesting the question list\033[0m")
+    pmt.pending(pmt.hi("Requesting the question list"))
     question_list = LeetCodeRequest.questions()
-    pmt.recieve(pmt.succ("\033[37mSuccessfully received the question list.\033[0m",
-                         "v"))
+    pmt.recieve(pmt.succ(pmt.hi("Successfully received the question list."), "v"))
 
     if not os.path.exists(list_csv):
         pmt.show(pmt.fail("The question list not found: {}".format(list_csv),
                           "x"))
         if(pmt.ask("Create a question list")):
-            generate.question_list(list_csv, question_list)
+            generate.question_list(list_csv.resolve(), question_list)
             solved = local.solved_question_ids(source_path)
-            modify.done_question(list_csv, solved)
+            modify.done_question(list_csv.resolve(), solved)
 
     if not os.path.exists(log_csv):
         pmt.show(pmt.fail("The log file not found: {}".format(log_csv),
@@ -71,9 +70,9 @@ def __main():
     questions = local.QuestionList(list_csv)
     if len(questions.ids()) != len(question_list) and \
             pmt.ask("New questions found, do you want to update the question list"):
-        generate.question_list(list_csv, question_list)
+        generate.question_list(list_csv.resolve(), question_list)
         solved = local.solved_question_ids(source_path)
-        modify.done_question(list_csv, solved)
+        modify.done_question(list_csv.resolve(), solved)
         questions = local.QuestionList(list_csv)
 
     sub_md: list[str, list[int]] = []
