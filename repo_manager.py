@@ -5,16 +5,18 @@ import subprocess
 import os
 import shutil
 from tools.utils import prompt as pmt
+from tools.utils.subprocess_runner import subprocess_runner
 
-_file_path = pathlib.Path(__file__).parent
+_file_path  = pathlib.Path(__file__).parent
+_add_script = _file_path.joinpath("./tools/leetcode_add.py")
+_del_script = _file_path.joinpath("./tools/leetcode_del.py")
+_rdm_script = _file_path.joinpath("./tools/leetcode_rdm.py")
 
-def _run_process(argc: list[str], hide: bool = False):
-    if hide:
-        return subprocess.run(argc,
-                              stdout=subprocess.PIPE,
-                              stderr=subprocess.PIPE)
-    return subprocess.run(argc)
-
+_readme_path = _file_path.joinpath("./README.md")
+_assets_path = _file_path.joinpath("./assets/")
+_source_path = _file_path.joinpath("./src")
+_qlist_path  = _file_path.joinpath("./src/questions_list.csv")
+_qlog_path   = _file_path.joinpath("./src/logs.csv")
 
 def _build_option(options: optparse, args: list[str]):
     dest = _file_path.joinpath(options.build_dest)
@@ -23,17 +25,14 @@ def _build_option(options: optparse, args: list[str]):
         operation = "clean"
         if pathlib.Path.exists(dest):
             shutil.rmtree(dest)
-            pmt.show(
-                pmt.succ("\033[37mThe directory has been removed:\033[0m {}".format(dest), "-"))
+            pmt.show(pmt.succ("\033[37mThe directory has been removed:\033[0m {}".format(dest), "-"))
         else:
-            pmt.show(
-                pmt.fail("\033[37mThe directory not found: \033[0m{}".format(dest), "x"))
+            pmt.show(pmt.fail("\033[37mThe directory not found: \033[0m{}".format(dest), "x"))
 
     if options.bud_identifier:
         if not pathlib.Path.exists(dest):
             pathlib.Path.mkdir(dest, parents=True, exist_ok=True)
-            pmt.show(
-                pmt.succ("\033[37mThe directory has been created: \033[0m{}".format(dest), "+"))
+            pmt.show(pmt.succ("\033[37mThe directory has been created: \033[0m{}".format(dest), "+"))
 
         _conf_command: list[str] = ["cmake", "-S", _file_path.resolve(),
                                              "-B", dest.resolve(),
@@ -42,49 +41,36 @@ def _build_option(options: optparse, args: list[str]):
                                              "-DENABLE_INFRA_TEST=ON"]
         if options.debug_identifier:
             _conf_command.append("-DCMAKE_BUILD_TYPE=Debug")
-        pmt.pending("Configuring the CMakeLists.txt")
-        operation = _run_process(_conf_command, True)
-        if operation.returncode == 0:
-            pmt.recieve(
-                pmt.succ("\033[37mHas been Configured the CMakeLists.txt!\033[0m", "v"))
-        else:
-            pmt.recieve(
-                pmt.fail("\033[37mFailed to Configure the CMakeLists.txt, the reason is below:\033[0m", "x"))
-            pmt.show(operation.stderr.decode('unicode_escape'))
+        operation = subprocess_runner("Configuring the CMakeLists.txt") \
+                    .invoke(_conf_command,
+                            "Has been Configured the CMakeLists.txt!",
+                            "Failed to Configure the CMakeLists.txt, the reason is below:")
+        if operation.returncode != 0:
+            pmt.show(operation.stderr.decode("unicode_escape"))
 
-        pmt.pending("Building the project")
-        operation = _run_process([
-            "cmake",
-            "--build", dest.resolve()], True)
-        if operation.returncode == 0:
-            pmt.recieve(
-                pmt.succ("\033[37mBuild the project successfully!\033[0m", "v"))
-        else:
-            pmt.recieve(
-                pmt.fail("\033[37mFailed to build the project, the reason is below:\033[0m", "x"))
-            pmt.show(operation.stderr.decode('unicode_escape'))
+        _build_cmd    = ["cmake", "--build", dest.resolve()]
+        operation = subprocess_runner("Building the project")\
+                    .invoke(_build_cmd,
+                            "Build the project successfully!",
+                            "Failed to build the project, the reason is below:")
+        if operation.returncode != 0:
+            pmt.show(operation.stderr.decode("unicode_escape"))
 
     if options.run_identifier:
         if options.bud_identifier and operation.returncode != 0:
             if not pmt.ask("The project has failed to build, run the old version"):
                 return operation
 
-        excute_file = dest.joinpath("leetcode_test")
-        if not excute_file.exists():
-            operation = "fail"
-            pmt.show(
-                pmt.fail("\033[37mThe project has not been built ever.\033[0m", "x"))
+        leetcode_test = dest.joinpath("leetcode_test")
+        if not leetcode_test.exists():
+            pmt.show(pmt.fail(pmt.hi("The project has not been built ever."), "x"))
         else:
-            if len(args) == 0:
-                operation = _run_process([
-                    excute_file.resolve()])
-            else:
-                filter_arg: list[str] = []
-                for id in [int(n) for n in args]:
-                    filter_arg.append("q{}.*".format(id))
-                operation = _run_process([
-                    excute_file.resolve(),
-                    "--gtest_filter={}".format(":".join(filter_arg))])
+            _test_cmd = [leetcode_test.resolve()]
+            if len(args) > 0:
+                filter_arg = ["q{}.*".format(id) for id in [int(n) for n in args]]
+                _test_cmd.append("--gtest_filter={}".format(":".join(filter_arg)))
+            operation = subprocess_runner("leetcode_test", False)\
+                        .invoke(_test_cmd)
     return operation
 
 
@@ -170,56 +156,36 @@ def __main():
         if len(args) == 0:
             pmt.show("Usage: {} -a id1 id2 ...".format(os.path.basename(__file__)))
             return
+        _add_question_cmd = ["python3",         _add_script.resolve(),
+                             "--out",           _source_path.resolve(),
+                             "--question-list", _qlist_path.resolve(),
+                             "--question-log",  _qlog_path.resolve()]
         if options.no_testcase:
-            operation = _run_process([
-                "python3",
-                _file_path.joinpath("./tools/leetcode_add.py").resolve(),
-                "--out",
-                _file_path.joinpath("./src/").resolve(),
-                "--question-list",
-                _file_path.joinpath("./src/questions_list.csv").resolve(),
-                "--question-log",
-                _file_path.joinpath("./src/logs.csv").resolve(),
-                "--no-testcase"] + args)
-        else:
-            operation = _run_process([
-                "python3",
-                _file_path.joinpath("./tools/leetcode_add.py").resolve(),
-                "--out",
-                _file_path.joinpath("./src/").resolve(),
-                "--question-list",
-                _file_path.joinpath("./src/questions_list.csv").resolve(),
-                "--question-log",
-                _file_path.joinpath("./src/logs.csv").resolve()] + args)
+            _add_question_cmd.append("--no-testcase")
+        operation = subprocess_runner("add questions", False)\
+                    .invoke(_add_question_cmd + args)
 
     if options.del_identifier:
         if len(args) == 0:
             pmt.show("Usage: {} -d id1 id2 ...".format(os.path.basename(__file__)))
             return
-        operation = _run_process([
-            "python3",
-            _file_path.joinpath("./tools/leetcode_del.py").resolve(),
-            "--out",
-            _file_path.joinpath("./src/").resolve(),
-            "--question-list",
-            _file_path.joinpath("./src/questions_list.csv").resolve(),
-            "--question-log",
-            _file_path.joinpath("./src/logs.csv").resolve()] + args)
+        
+        _del_cmd = ["python3",         _del_script.resolve(),
+                    "--out",           _source_path.resolve(),
+                    "--question-list", _qlist_path.resolve(),
+                    "--question-log",  _qlog_path.resolve()]
+        operation = subprocess_runner("del questions", False)\
+                    .invoke(_del_cmd + args)
 
     if options.rdm_identifier:
-        operation = _run_process([
-            "python3",
-            _file_path.joinpath("./tools/leetcode_rdm.py").resolve(),
-            "--out",
-            _file_path.joinpath("./README.md").resolve(),
-            "--assets",
-            _file_path.joinpath("./assets/").resolve(),
-            "--question-list",
-            _file_path.joinpath("./src/questions_list.csv").resolve(),
-            "--question-log",
-            _file_path.joinpath("./src/logs.csv").resolve(),
-            "--source",
-            _file_path.joinpath("./src/").resolve(), ] + args)
+        _rdm_cmd = ["python3",         _rdm_script.resolve(),
+                    "--out",           _readme_path.resolve(),
+                    "--source",        _source_path.resolve(),
+                    "--assets",        _assets_path.resolve(),
+                    "--question-list", _qlist_path.resolve(),
+                    "--question-log",  _qlog_path.resolve()]
+        operation = subprocess_runner("rdm modifies", False)\
+                    .invoke(_rdm_cmd + args)
 
     if options.bud_identifier or options.cln_identifier or options.run_identifier:
         operation = _build_option(options, args)
