@@ -907,7 +907,7 @@ My daily challenge on leetcode since 2021/09/06.
 ||875|[Koko Eating Bananas](https://leetcode.com/problems/koko-eating-bananas/)|Medium|
 |[📎](src/q_851_900/q0876.cc)|876|[Middle of the Linked List](https://leetcode.com/problems/middle-of-the-linked-list/)|Easy|
 ||877|[Stone Game](https://leetcode.com/problems/stone-game/)|Medium|
-||878|[Nth Magical Number](https://leetcode.com/problems/nth-magical-number/)|Hard|
+|[📎](src/q_851_900/q0878.cc)|878|[Nth Magical Number](https://leetcode.com/problems/nth-magical-number/)|Hard|
 ||879|[Profitable Schemes](https://leetcode.com/problems/profitable-schemes/)|Hard|
 ||880|[Decoded String at Index](https://leetcode.com/problems/decoded-string-at-index/)|Medium|
 ||881|[Boats to Save People](https://leetcode.com/problems/boats-to-save-people/)|Medium|
@@ -2160,6 +2160,7 @@ My daily challenge on leetcode since 2021/09/06.
 
 |Time|#|</>|Question Title|Difficulty|
 |:--|--:|:-:|:--|:--|
+|2021-12-11 14:28|878|[📎](src/q_851_900/q0878.cc)|[Nth Magical Number](https://leetcode.com/problems/nth-magical-number/)|Hard|
 |2021-12-10 17:59|790|[📎](src/q_751_800/q0790.cc)|[Domino and Tromino Tiling](https://leetcode.com/problems/domino-and-tromino-tiling/)|Medium|
 |2021-12-09 17:58|1306|[📎](src/q_1301_1350/q1306.cc)|[Jump Game III](https://leetcode.com/problems/jump-game-iii/)|Medium|
 |2021-12-08 17:51|563|[📎](src/q_551_600/q0563.cc)|[Binary Tree Tilt](https://leetcode.com/problems/binary-tree-tilt/)|Easy|
@@ -2184,13 +2185,12 @@ My daily challenge on leetcode since 2021/09/06.
 |2021-11-22 18:12|18|[📎](src/q_1_50/q0018.cc)|[4Sum](https://leetcode.com/problems/4sum/)|Medium|
 |2021-11-21 13:23|106|[📎](src/q_101_150/q0106.cc)|[Construct Binary Tree from Inorder and Postorder Traversal](https://leetcode.com/problems/construct-binary-tree-from-inorder-and-postorder-traversal/)|Medium|
 |2021-11-20 14:38|29|[📎](src/q_1_50/q0029.cc)|[Divide Two Integers](https://leetcode.com/problems/divide-two-integers/)|Medium|
-|2021-11-20 14:36|28|[📎](src/q_1_50/q0028.cc)|[Implement strStr()](https://leetcode.com/problems/implement-strstr/)|Easy|
 
 ## Previous Logs
 
 |Month|Submissions|Easy|Medium|Hard|
 |:--|:--|:--|:--|:--|
-|[December_2021](./assets/December_2021.md)|11|4|4|3|
+|[December_2021](./assets/December_2021.md)|12|4|4|4|
 |[November_2021](./assets/November_2021.md)|41|19|16|6|
 |[October_2021](./assets/October_2021.md)|115|27|75|13|
 |[September_2021](./assets/September_2021.md)|133|55|71|7|

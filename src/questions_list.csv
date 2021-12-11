@@ -876,7 +876,7 @@ id,title,level,slug,paid,done
 875,Koko Eating Bananas,2,koko-eating-bananas,0,0
 876,Middle of the Linked List,1,middle-of-the-linked-list,0,1
 877,Stone Game,2,stone-game,0,0
-878,Nth Magical Number,3,nth-magical-number,0,0
+878,Nth Magical Number,3,nth-magical-number,0,1
 879,Profitable Schemes,3,profitable-schemes,0,0
 880,Decoded String at Index,2,decoded-string-at-index,0,0
 881,Boats to Save People,2,boats-to-save-people,0,0

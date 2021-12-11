@@ -2,6 +2,7 @@
 
 ||#|</>|Question Title|Difficulty|
 |:--|--:|:-:|:--|:--|
+|Day 11|878|[📎](../src/q_851_900/q0878.cc)|[Nth Magical Number](https://leetcode.com/problems/nth-magical-number/)|Hard|
 |Day 10|790|[📎](../src/q_751_800/q0790.cc)|[Domino and Tromino Tiling](https://leetcode.com/problems/domino-and-tromino-tiling/)|Medium|
 |Day 9|1306|[📎](../src/q_1301_1350/q1306.cc)|[Jump Game III](https://leetcode.com/problems/jump-game-iii/)|Medium|
 |Day 8|563|[📎](../src/q_551_600/q0563.cc)|[Binary Tree Tilt](https://leetcode.com/problems/binary-tree-tilt/)|Easy|
