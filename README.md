@@ -1487,7 +1487,7 @@ My daily challenge on leetcode since 2021/09/06.
 ||1443|[Minimum Time to Collect All Apples in a Tree](https://leetcode.com/problems/minimum-time-to-collect-all-apples-in-a-tree/)|Medium|
 ||1444|[Number of Ways of Cutting a Pizza](https://leetcode.com/problems/number-of-ways-of-cutting-a-pizza/)|Hard|
 |🔒|1445|[Apples & Oranges](https://leetcode.com/problems/apples-oranges/)|Medium|
-||1446|[Consecutive Characters](https://leetcode.com/problems/consecutive-characters/)|Easy|
+|[📎](src/q_1401_1450/q1446.cc)|1446|[Consecutive Characters](https://leetcode.com/problems/consecutive-characters/)|Easy|
 ||1447|[Simplified Fractions](https://leetcode.com/problems/simplified-fractions/)|Medium|
 ||1448|[Count Good Nodes in Binary Tree](https://leetcode.com/problems/count-good-nodes-in-binary-tree/)|Medium|
 ||1449|[Form Largest Integer With Digits That Add up to Target](https://leetcode.com/problems/form-largest-integer-with-digits-that-add-up-to-target/)|Hard|
@@ -2160,6 +2160,7 @@ My daily challenge on leetcode since 2021/09/06.
 
 |Time|#|</>|Question Title|Difficulty|
 |:--|--:|:-:|:--|:--|
+|2021-12-13 18:10|1446|[📎](src/q_1401_1450/q1446.cc)|[Consecutive Characters](https://leetcode.com/problems/consecutive-characters/)|Easy|
 |2021-12-12 15:04|416|[📎](src/q_401_450/q0416.cc)|[Partition Equal Subset Sum](https://leetcode.com/problems/partition-equal-subset-sum/)|Medium|
 |2021-12-11 14:28|878|[📎](src/q_851_900/q0878.cc)|[Nth Magical Number](https://leetcode.com/problems/nth-magical-number/)|Hard|
 |2021-12-10 17:59|790|[📎](src/q_751_800/q0790.cc)|[Domino and Tromino Tiling](https://leetcode.com/problems/domino-and-tromino-tiling/)|Medium|
@@ -2184,13 +2185,12 @@ My daily challenge on leetcode since 2021/09/06.
 |2021-11-23 18:44|2011|[📎](src/q_2001_2050/q2011.cc)|[Final Value of Variable After Performing Operations](https://leetcode.com/problems/final-value-of-variable-after-performing-operations/)|Easy|
 |2021-11-23 18:31|952|[📎](src/q_951_1000/q0952.cc)|[Largest Component Size by Common Factor](https://leetcode.com/problems/largest-component-size-by-common-factor/)|Hard|
 |2021-11-22 18:12|18|[📎](src/q_1_50/q0018.cc)|[4Sum](https://leetcode.com/problems/4sum/)|Medium|
-|2021-11-21 13:23|106|[📎](src/q_101_150/q0106.cc)|[Construct Binary Tree from Inorder and Postorder Traversal](https://leetcode.com/problems/construct-binary-tree-from-inorder-and-postorder-traversal/)|Medium|
 
 ## Previous Logs
 
 |Month|Submissions|Easy|Medium|Hard|
 |:--|:--|:--|:--|:--|
-|[December_2021](./assets/December_2021.md)|13|4|5|4|
+|[December_2021](./assets/December_2021.md)|14|5|5|4|
 |[November_2021](./assets/November_2021.md)|41|19|16|6|
 |[October_2021](./assets/October_2021.md)|115|27|75|13|
 |[September_2021](./assets/September_2021.md)|133|55|71|7|
