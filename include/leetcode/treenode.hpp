@@ -4,108 +4,96 @@
 #include <initializer_list>
 #include <iostream>
 #include <limits>
+#include <optional>
 #include <queue>
+#include <unordered_set>
 #include <vector>
 
 using namespace std;
 
-#define NULL_TREENODE std::numeric_limits<int>::min()
+#define NULL_TREENODE nullopt
 
-class TreeNode final {
- private:
-  bool is_null;
-  bool generate_by_test;
-  TreeNode(int x, const bool &is_null) : val(x),
-                                         left(nullptr),
-                                         right(nullptr),
-                                         is_null(is_null),
-                                         generate_by_test(true) {}
-
- public:
+struct TreeNode final {
+  /// for leetcode usage
   int val;
-  TreeNode *left;
-  TreeNode *right;
-  TreeNode() : val(0),
-               left(nullptr),
-               right(nullptr),
-               generate_by_test(false),
-               is_null(false) {}
-  TreeNode(int x) : val(x),
-                    left(nullptr),
-                    right(nullptr),
-                    generate_by_test(false),
-                    is_null(false) {}
-  TreeNode(int x, TreeNode *left, TreeNode *right) : val(x),
-                                                     left(left),
-                                                     right(right),
-                                                     generate_by_test(false),
-                                                     is_null(false) {}
-  TreeNode(const TreeNode &p) : val(p.val),
-                                left(p.left),
-                                right(p.right),
-                                generate_by_test(p.generate_by_test),
-                                is_null(p.is_null) {}
-  ~TreeNode() {
-    if (left != nullptr && !left->generate_by_test) delete left;
-    if (right != nullptr && !right->generate_by_test) delete right;
-  }
+  TreeNode *left, *right;
+  TreeNode() : val(0), left(nullptr),right(nullptr) {}
+  TreeNode(int x) : val(x), left(nullptr),right(nullptr) {}
+  TreeNode(int x, TreeNode *left, TreeNode *right) : val(x), left(left), right(right) {}
+  ~TreeNode() {}
 
- private:
-  static vector<vector<TreeNode>> keep_;
+  /// for project usage
 
-  inline static TreeNode *build_tree_(vector<TreeNode> &v, int current = 0) {
-    TreeNode *res = nullptr;
-    vector<TreeNode>::iterator p = v.begin();
-    if (p != v.end() && !(*p).is_null) {
-      queue<TreeNode *> q;
-      q.push(&(*p));
-      res = &(*p);
-      while (!q.empty() && p != v.end()) {
-        TreeNode *node = q.front();
-        q.pop();
-        if (p != v.end() && p + 1 != v.end() && !(*++p).is_null) {
-          q.push(&(*p));
-          node->left = &(*p);
-        }
-        if (p != v.end() && p + 1 != v.end() && !(*++p).is_null) {
-          q.push(&(*p));
-          node->right = &(*p);
-        }
+  inline static TreeNode *_build_tree(vector<TreeNode*> &v) noexcept {
+    if (v.empty()) return nullptr;
+    auto _v_ptr = v.begin();
+    queue<TreeNode *> q;
+    q.emplace(*_v_ptr);
+    while (!q.empty() && _v_ptr != v.end()) {
+      TreeNode *node = q.front(); q.pop();
+      if (_v_ptr + 1 != v.end() && nullptr != *(++_v_ptr)) {
+        q.emplace(*_v_ptr);
+        node->left = *_v_ptr;
+      }
+      if (_v_ptr + 1 != v.end() && nullptr != *(++_v_ptr)) {
+        q.emplace(*_v_ptr);
+        node->right = *_v_ptr;
       }
     }
-    return res;
+    return v.front();
   }
 
- public:
-  bool operator==(const TreeNode &rhs) const {
-    return val == rhs.val &&
-           (left == nullptr ? rhs.left == nullptr : (rhs.left == nullptr ? false : *(rhs.left) == *left)) &&
-           (right == nullptr ? rhs.right == nullptr : (rhs.right == nullptr ? false : *(rhs.right) == *right));
+  static TreeNode *generate(const vector<optional<int>> &v) {
+    vector<TreeNode*> dummy;
+    for(const auto &x : v)
+      dummy.emplace_back(x.has_value() ? new TreeNode(x.value())
+                                       : nullptr);
+    return _build_tree(dummy);
   }
 
-  static TreeNode *generate(const vector<int> &v, const int &nil = NULL_TREENODE) {
-    keep_.push_back({});
-    vector<TreeNode> &dummy = keep_.back();
-    for (int i = 0; i < v.size(); ++i)
-      dummy.push_back(TreeNode(v[i], v[i] == nil));
-    return build_tree_(dummy);
-  }
-
-  static void release(initializer_list<TreeNode *> p) {
-    for (auto node : p)
-      if (node != nullptr && !node->generate_by_test) delete node;
+  static size_t release(initializer_list<TreeNode *> trees) {
+    unordered_set<TreeNode *> memo;
+    for (auto p : trees) {
+      if (nullptr == p) continue;
+      queue<TreeNode *> q;
+      q.emplace(p);
+      while(!q.empty()) {
+        auto node = q.front(); q.pop();
+        if (memo.count(node)) continue;
+        memo.insert(node);
+        if (nullptr != node->left) q.emplace(node->left);
+        if (nullptr != node->right) q.emplace(node->right);
+      }
+    }
+    for(auto it = memo.begin(); it != memo.end(); ++it)
+      delete *it;
+    return memo.size();
   }
 };
 
+inline bool
+operator==(const TreeNode &lhs, const TreeNode &rhs) noexcept {
+  return lhs.val == rhs.val &&
+         (lhs.left == nullptr ? rhs.left == nullptr 
+                              : (rhs.left == nullptr ? false 
+                                                     : *(rhs.left) == *(lhs.left))) &&
+         (lhs.right == nullptr ? rhs.right == nullptr 
+                               : (rhs.right == nullptr ? false
+                                                       : *(rhs.right) == *(lhs.right)));
+}
+
 #ifdef EXPECT_EQ
+/// TODO: release position
 #define EXPECT_TREENODE_EQ(val1, val2)        \
+{                                             \
   TreeNode *tval1 = val1, *tval2 = val2;      \
   if (tval1 != nullptr && tval2 != nullptr) { \
     EXPECT_EQ(*tval1, *tval2);                \
   } else {                                    \
     EXPECT_EQ(tval1, tval2);                  \
   }                                           \
-  TreeNode::release({tval1, tval2});
+  TreeNode::release({tval1, tval2});          \
+}
 #endif
 
 #endif

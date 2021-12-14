@@ -3,7 +3,6 @@
 #include <leetcode/treenode.hpp>
 
 vector<vector<ListNode*>> ListNode::keep_ = {};
-vector<vector<TreeNode>> TreeNode::keep_ = {};
 
 int main(int argc, char **argv) {
   ::testing::InitGoogleTest(&argc, argv);

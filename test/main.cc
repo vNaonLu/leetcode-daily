@@ -2,7 +2,6 @@
 #include <leetcode/listnode.hpp>
 #include <leetcode/treenode.hpp>
 
-vector<vector<TreeNode>> TreeNode::keep_ = {};
 vector<vector<ListNode*>> ListNode::keep_ = {};
 
 int main(int argc, char **argv) {
