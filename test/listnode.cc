@@ -35,13 +35,13 @@ TEST(listnode, equal_loop) {
   EXPECT_TRUE(p == q);
 }
 
-TEST(listnode, nonequal) {
+TEST(listnode, unequal) {
   ListNode p2(0), p1(1, &p2), p(0, &p1);
   ListNode q2(0), q1(0, &q2), q(0, &q1);
   EXPECT_FALSE(p == q);
 }
 
-TEST(listnode, nonequal_loop) {
+TEST(listnode, unequal_loop) {
   ListNode p2(0), p1(1, &p2), p(0, &p1);
   p2.next = &p;
   ListNode q2(0), q1(0, &q2), q(0, &q1);
