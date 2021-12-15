@@ -57,7 +57,8 @@ class SolutionAbstract:
 class SolutionFunction(SolutionAbstract):
     def __init__(self, id: int, code_snippet: list[str], content: str = ""):
         SolutionAbstract.__init__(self, id, content)
-        self.__valid: bool = True
+        self.__valid             : bool      = True
+        self.__listnode_variables: list[str] = []
         self.__parse_codesnippets(code_snippet)
 
     def is_valid(self):
@@ -77,10 +78,16 @@ class SolutionFunction(SolutionAbstract):
                         re.search("(?P<type>[\w*&<> ]+[&*]{0,1}) +(?P<name>[\w]+)",
                                   arg)
                     if m_arg:
+                        arg_name = m_arg.group("name")
                         arg = Argument.generate(m_arg.group("type"))
-                        self._args[m_arg.group("name")] = arg
+                        self._args[arg_name] = arg
                         self._add_include(arg)
                         self.__valid &= arg.is_valid()
+                        if arg.type() == "ListNode*":
+                            self.__listnode_variables.append(arg_name)
+                if self.type() == "ListNode*":
+                    self.__listnode_variables.append("exp");
+                    self.__listnode_variables.append("act");
                 break
 
     def __parse_input(self, input: str):
@@ -105,8 +112,7 @@ class SolutionFunction(SolutionAbstract):
             # assume adjust the first argument
             _, argument = self.args()[0]
             outputs.append(argument.get_statement("exp", output))
-            outputs.append("{}.{};".format(
-                self.solution_object(), self.function()))
+            outputs.append("{}->{};".format(self.solution_object(), self.function()))
         else:
             outputs.append(self._type.get_statement("exp", output))
         return outputs
@@ -126,7 +132,8 @@ class SolutionFunction(SolutionAbstract):
             exp.append("EXPECT_EQ_ANY_ORDER({}, exp);".format(eq_arg))
         else:
             eq_arg = "{}->{}".format(self.solution_object(), self.function())
-            exp.append(self._type.expect_compare(eq_arg, "exp"))
+            exp.append("{} act = {};".format(eq_type, eq_arg))
+            exp.append(self._type.expect_compare("act", "exp"))
         return exp
 
     def __generate_object(self):
@@ -134,7 +141,11 @@ class SolutionFunction(SolutionAbstract):
                                         self.class_name())]
     
     def __delete(self):
-        return ["delete {};".format(self.solution_object())]
+        _del: list[str] = []
+        if len(self.__listnode_variables) > 0:
+            _del.append("ListNode::release({});".format(", ".join(self.__listnode_variables)))
+        _del.append("delete {};".format(self.solution_object()))
+        return _del
 
     def unittest_desc(self, content: str):
         res: list[list[str]] = []
