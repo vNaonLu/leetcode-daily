@@ -49,9 +49,12 @@ class Argument:
         integer_match = re.search(" *(?P<type>int|long)", typename)
         if integer_match != None:
             return IntegerArgument(integer_match.group("type"))
-        float_match = re.search(" *(?P<type>double|float)", typename)
+        float_match = re.search(" *(?P<type>float)", typename)
         if float_match != None:
             return FloatArgument(float_match.group("type"))
+        double_match = re.search(" *(?P<type>double)", typename)
+        if double_match != None:
+            return DoubleArgument(double_match.group("type"))
         bool_match = re.search(" *(?P<type>bool)", typename)
         if bool_match != None:
             return BooleanArgument(bool_match.group("type"))
@@ -106,6 +109,25 @@ class FloatArgument(Argument):
 
     def is_valid(self):
         return True
+
+    def expect_compare(self, first_arg: str, second_arg: str):
+        return "EXPECT_FLOAT_EQ({}, {});".format(first_arg, second_arg)
+
+class DoubleArgument(Argument):
+    def __init__(self, typename: str):
+        Argument.__init__(self, typename)
+
+    def parse_value(self, string: str):
+        match = re.search("(?P<val>[\d.+-]+)", string)
+        if match != None:
+            return str(match.group("val"))
+        return "0.0"
+
+    def is_valid(self):
+        return True
+
+    def expect_compare(self, first_arg: str, second_arg: str):
+        return "EXPECT_DOUBLE_EQ({}, {});".format(first_arg, second_arg)
 
 
 class BooleanArgument(Argument):

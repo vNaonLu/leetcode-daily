@@ -152,6 +152,17 @@ def __parser():
     parser.add_option_group(build_group)
     return parser
 
+def __test_code(options, args):
+    from tools.leetcode.question import LeetCodeQuestion
+    from tools.leetcode import request as Rq
+    slug = Rq.question_slug(int(args[0]))
+    if slug:
+        q = LeetCodeQuestion(slug, not options.no_testcase)
+        s = q.template("prompt test", 70)
+        print()
+        print("=====================================================")
+        print()
+        print(s)
 
 def __main():
     parser = __parser()
