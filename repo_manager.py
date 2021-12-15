@@ -134,21 +134,7 @@ def __main():
     parser = __parser()
     options, args = parser.parse_args()
     operation: subprocess.CompletedProcess = None
-
-    # from tools.leetcode.question import LeetCodeQuestion
-    # from tools.leetcode import request as Rq
-    # from tools.utils import local, code_snippet
-    # slug = Rq.question_slug(int(args[0]))
-    # _q = local.QuestionSource(int(args[0]), "src")
-    # if slug:
-    #     q = LeetCodeQuestion(slug, not options.no_testcase)
-    #     s = q.template("prompt test", 70)
-    #     print()
-    #     print("=====================================================")
-    #     print()
-    #     print(s)
-    # return
-
+    
     if options.add_identifier and options.del_identifier:
         parser.error("options --add and --del are mutually exclusive.")
 
