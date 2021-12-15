@@ -20,20 +20,15 @@ struct ListNode final {
 
   /// for project usage
   typedef pair<int, int> _listnode_data;
-  bool _generate_by_test {false};
-  ListNode(int x, const bool &gbt) : val(x),
-                                     next(nullptr),
-                                     _generate_by_test(gbt) {}
-
-  static vector<vector<ListNode>> keep_;
+  static  vector<vector<ListNode*>> keep_;
 
   static ListNode*
-  _build_list(vector<ListNode> &v, const int &repeat) noexcept {
+  _build_list(vector<ListNode*> &v, const int &repeat) noexcept {
     if (v.empty()) return nullptr;
     for (int i = 0; i < v.size() - 1; ++i)
-      v[i].next = &v[i + 1];
-    if (repeat >= 0) v.back().next = &v[repeat];
-    return &v.front();
+      v[i]->next = v[i + 1];
+    if (repeat >= 0) v.back()->next = v[repeat];
+    return v.front();
   }
 
   inline vector<_listnode_data>
@@ -61,10 +56,10 @@ struct ListNode final {
   generate(const vector<int> &v, const int &repeat = -1) {
     assert(repeat == -1 || repeat < v.size());
     if (v.empty()) return nullptr;
-    keep_.emplace_back(vector<ListNode>{});
-    vector<ListNode> &dummy = keep_.back();
+    keep_.emplace_back(vector<ListNode*>{});
+    vector<ListNode*> &dummy = keep_.back();
     for (int i = 0; i < v.size(); ++i)
-      dummy.emplace_back(ListNode(v[i], true));
+      dummy.emplace_back(new ListNode(v[i]));
     return _build_list(dummy, repeat);
   }
 
@@ -76,7 +71,7 @@ struct ListNode final {
       while (nullptr != node) {
         if (memo.count(node)) break;
         memo.insert(node);
-        if (!node->_generate_by_test) cand.push_back(node);
+        cand.push_back(node);
         node = node->next;
       }
     }
