@@ -52,7 +52,9 @@ TEST_F(q19, sample_input01) {
   ListNode* head = ListNode::generate({1, 2, 3, 4, 5});
   int n = 2;
   ListNode* exp = ListNode::generate({1, 2, 3, 5});
-  EXPECT_LISTNODE_EQ(solution->removeNthFromEnd(head, n), exp);
+  ListNode* act = solution->removeNthFromEnd(head, n);
+  EXPECT_LISTNODE_EQ(act, exp);
+  ListNode::release(head, exp, act);
   delete solution;
 }
 
@@ -61,7 +63,9 @@ TEST_F(q19, sample_input02) {
   ListNode* head = ListNode::generate({1});
   int n = 1;
   ListNode* exp = ListNode::generate({});
-  EXPECT_LISTNODE_EQ(solution->removeNthFromEnd(head, n), exp);
+  ListNode* act = solution->removeNthFromEnd(head, n);
+  EXPECT_LISTNODE_EQ(act, exp);
+  ListNode::release(head, exp, act);
   delete solution;
 }
 
@@ -70,6 +74,8 @@ TEST_F(q19, sample_input03) {
   ListNode* head = ListNode::generate({1, 2});
   int n = 1;
   ListNode* exp = ListNode::generate({1});
-  EXPECT_LISTNODE_EQ(solution->removeNthFromEnd(head, n), exp);
+  ListNode* act = solution->removeNthFromEnd(head, n);
+  EXPECT_LISTNODE_EQ(act, exp);
+  ListNode::release(head, exp, act);
   delete solution;
 }

@@ -58,7 +58,9 @@ TEST_F(q21, sample_input01) {
   ListNode* list1 = ListNode::generate({1, 2, 4});
   ListNode* list2 = ListNode::generate({1, 3, 4});
   ListNode* exp = ListNode::generate({1, 1, 2, 3, 4, 4});
-  EXPECT_LISTNODE_EQ(solution->mergeTwoLists(list1, list2), exp);
+  ListNode* act = solution->mergeTwoLists(list1, list2);
+  EXPECT_LISTNODE_EQ(act, exp);
+  ListNode::release(list1, list2, exp, act);
   delete solution;
 }
 
@@ -67,7 +69,9 @@ TEST_F(q21, sample_input02) {
   ListNode* list1 = ListNode::generate({});
   ListNode* list2 = ListNode::generate({});
   ListNode* exp = ListNode::generate({});
-  EXPECT_LISTNODE_EQ(solution->mergeTwoLists(list1, list2), exp);
+  ListNode* act = solution->mergeTwoLists(list1, list2);
+  EXPECT_LISTNODE_EQ(act, exp);
+  ListNode::release(list1, list2, exp, act);
   delete solution;
 }
 
@@ -76,6 +80,8 @@ TEST_F(q21, sample_input03) {
   ListNode* list1 = ListNode::generate({});
   ListNode* list2 = ListNode::generate({0});
   ListNode* exp = ListNode::generate({0});
-  EXPECT_LISTNODE_EQ(solution->mergeTwoLists(list1, list2), exp);
+  ListNode* act = solution->mergeTwoLists(list1, list2);
+  EXPECT_LISTNODE_EQ(act, exp);
+  ListNode::release(list1, list2, exp, act);
   delete solution;
 }

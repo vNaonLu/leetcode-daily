@@ -62,6 +62,7 @@ TEST_F(q143, sample_input01) {
   solution->reorderList(head);
   // Assume the first argument is answer.
   EXPECT_LISTNODE_EQ(head, exp);
+  ListNode::release(head, exp);
   delete solution;
 }
 
@@ -72,5 +73,6 @@ TEST_F(q143, sample_input02) {
   solution->reorderList(head);
   // Assume the first argument is answer.
   EXPECT_LISTNODE_EQ(head, exp);
+  ListNode::release(head, exp);
   delete solution;
 }

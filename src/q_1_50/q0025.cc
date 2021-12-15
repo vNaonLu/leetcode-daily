@@ -81,7 +81,9 @@ TEST_F(q25, sample_input01) {
   ListNode* head = ListNode::generate({1, 2, 3, 4, 5});
   int k = 2;
   ListNode* exp = ListNode::generate({2, 1, 4, 3, 5});
-  EXPECT_LISTNODE_EQ(solution->reverseKGroup(head, k), exp);
+  ListNode* act = solution->reverseKGroup(head, k);
+  EXPECT_LISTNODE_EQ(act, exp);
+  ListNode::release(head, exp, act);
   delete solution;
 }
 
@@ -90,7 +92,9 @@ TEST_F(q25, sample_input02) {
   ListNode* head = ListNode::generate({1, 2, 3, 4, 5});
   int k = 3;
   ListNode* exp = ListNode::generate({3, 2, 1, 4, 5});
-  EXPECT_LISTNODE_EQ(solution->reverseKGroup(head, k), exp);
+  ListNode* act = solution->reverseKGroup(head, k);
+  EXPECT_LISTNODE_EQ(act, exp);
+  ListNode::release(head, exp, act);
   delete solution;
 }
 
@@ -99,7 +103,9 @@ TEST_F(q25, sample_input03) {
   ListNode* head = ListNode::generate({1, 2, 3, 4, 5});
   int k = 1;
   ListNode* exp = ListNode::generate({1, 2, 3, 4, 5});
-  EXPECT_LISTNODE_EQ(solution->reverseKGroup(head, k), exp);
+  ListNode* act = solution->reverseKGroup(head, k);
+  EXPECT_LISTNODE_EQ(act, exp);
+  ListNode::release(head, exp, act);
   delete solution;
 }
 
@@ -108,6 +114,8 @@ TEST_F(q25, sample_input04) {
   ListNode* head = ListNode::generate({1});
   int k = 1;
   ListNode* exp = ListNode::generate({1});
-  EXPECT_LISTNODE_EQ(solution->reverseKGroup(head, k), exp);
+  ListNode* act = solution->reverseKGroup(head, k);
+  EXPECT_LISTNODE_EQ(act, exp);
+  ListNode::release(head, exp, act);
   delete solution;
 }

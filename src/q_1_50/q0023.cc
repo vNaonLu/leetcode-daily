@@ -68,22 +68,28 @@ TEST_F(q23, sample_input01) {
   solution = new Solution();
   vector<ListNode*> lists = {ListNode::generate({1, 4, 5}), ListNode::generate({1, 3, 4}), ListNode::generate({2, 6})};
   ListNode* exp = ListNode::generate({1, 1, 2, 3, 4, 4, 5, 6});
-  EXPECT_LISTNODE_EQ(solution->mergeKLists(lists), exp);
+  ListNode* act = solution->mergeKLists(lists);
+  EXPECT_LISTNODE_EQ(act, exp);
+  ListNode::release(exp, act, lists[0], lists[1], lists[2]);
   delete solution;
 }
 
 TEST_F(q23, sample_input02) {
   solution = new Solution();
   vector<ListNode*> lists = {};
-  ListNode* exp = ListNode::generate({});
-  EXPECT_LISTNODE_EQ(solution->mergeKLists(lists), exp);
+  ListNode *exp = ListNode::generate({});
+  ListNode *act = solution->mergeKLists(lists);
+  EXPECT_LISTNODE_EQ(act, exp);
+  ListNode::release(exp, act);
   delete solution;
 }
 
 TEST_F(q23, sample_input03) {
   solution = new Solution();
   vector<ListNode*> lists = {ListNode::generate({})};
-  ListNode* exp = ListNode::generate({});
-  EXPECT_LISTNODE_EQ(solution->mergeKLists(lists), exp);
+  ListNode *exp = ListNode::generate({});
+  ListNode *act = solution->mergeKLists(lists);
+  EXPECT_LISTNODE_EQ(act, exp);
+  ListNode::release(exp, act, lists[0]);
   delete solution;
 }

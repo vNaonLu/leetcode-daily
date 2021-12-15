@@ -59,7 +59,9 @@ TEST_F(q2, sample_input01) {
   ListNode* l1 = ListNode::generate({2, 4, 3});
   ListNode* l2 = ListNode::generate({5, 6, 4});
   ListNode* exp = ListNode::generate({7, 0, 8});
-  EXPECT_LISTNODE_EQ(solution->addTwoNumbers(l1, l2), exp);
+  ListNode* act = solution->addTwoNumbers(l1, l2);
+  EXPECT_LISTNODE_EQ(act, exp);
+  ListNode::release(l1, l2, exp, act);
   delete solution;
 }
 
@@ -68,7 +70,9 @@ TEST_F(q2, sample_input02) {
   ListNode* l1 = ListNode::generate({0});
   ListNode* l2 = ListNode::generate({0});
   ListNode* exp = ListNode::generate({0});
-  EXPECT_LISTNODE_EQ(solution->addTwoNumbers(l1, l2), exp);
+  ListNode* act = solution->addTwoNumbers(l1, l2);
+  EXPECT_LISTNODE_EQ(act, exp);
+  ListNode::release(l1, l2, exp, act);
   delete solution;
 }
 
@@ -77,6 +81,8 @@ TEST_F(q2, sample_input03) {
   ListNode* l1 = ListNode::generate({9, 9, 9, 9, 9, 9, 9});
   ListNode* l2 = ListNode::generate({9, 9, 9, 9});
   ListNode* exp = ListNode::generate({8, 9, 9, 9, 0, 0, 0, 1});
-  EXPECT_LISTNODE_EQ(solution->addTwoNumbers(l1, l2), exp);
+  ListNode* act = solution->addTwoNumbers(l1, l2);
+  EXPECT_LISTNODE_EQ(act, exp);
+  ListNode::release(l1, l2, exp, act);
   delete solution;
 }
