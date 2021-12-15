@@ -2,6 +2,7 @@
 
 ||#|</>|Question Title|Difficulty|
 |:--|--:|:-:|:--|:--|
+|Day 15|30|[📎](../src/q_1_50/q0030.cc)|[Substring with Concatenation of All Words](https://leetcode.com/problems/substring-with-concatenation-of-all-words/)|Hard|
 |Day 13|1446|[📎](../src/q_1401_1450/q1446.cc)|[Consecutive Characters](https://leetcode.com/problems/consecutive-characters/)|Easy|
 |Day 12|416|[📎](../src/q_401_450/q0416.cc)|[Partition Equal Subset Sum](https://leetcode.com/problems/partition-equal-subset-sum/)|Medium|
 |Day 11|878|[📎](../src/q_851_900/q0878.cc)|[Nth Magical Number](https://leetcode.com/problems/nth-magical-number/)|Hard|
