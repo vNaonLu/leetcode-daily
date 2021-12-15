@@ -6,7 +6,11 @@ using namespace std;
 TEST(listnode, release) {
   ListNode *p = new ListNode();
   ListNode *q = new ListNode(0);
-  EXPECT_EQ(ListNode::release({p, q, p, q}), 2);
+  EXPECT_EQ(ListNode::release(p, q, p, q), 2);
+  ListNode *p3 = new ListNode(3),
+           *p2 = new ListNode(2, p3),
+           *p1 = new ListNode(1, p2);
+  EXPECT_EQ(ListNode::release(p1), 3);
 }
 
 TEST(listnode, generate) {
@@ -128,7 +132,7 @@ TEST(listnode, build_list_normal) {
   ListNode *_gen = ListNode::_build_list(_listnodes, -1);
   ASSERT_TRUE(_gen == _listnodes.front());
   EXPECT_TRUE(p == *_gen);
-  ListNode::release({_gen});
+  ListNode::release(_gen);
 }
 
 TEST(listnode, build_list_loop) {
@@ -141,7 +145,7 @@ TEST(listnode, build_list_loop) {
   ListNode *_gen = ListNode::_build_list(_listnodes, 0);
   ASSERT_TRUE(_gen == _listnodes.front());
   EXPECT_TRUE(p == *_gen);
-  ListNode::release({_gen});
+  ListNode::release(_gen);
 }
 
 ListNode *__dummy_problem(ListNode *_some_ptr) {
