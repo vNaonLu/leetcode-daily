@@ -6,10 +6,15 @@
 #include <limits>
 #include <optional>
 #include <queue>
+#include <type_traits>
 #include <unordered_set>
 #include <vector>
 
 using namespace std;
+struct TreeNode;
+
+template <typename... _type>
+using enable_if_treenode_t = std::enable_if_t<(... && std::is_same_v<_type, TreeNode *>), size_t>;
 
 #define NULL_TREENODE nullopt
 
@@ -51,23 +56,24 @@ struct TreeNode final {
     return _build_tree(dummy);
   }
 
-  static size_t release(initializer_list<TreeNode *> trees) {
-    unordered_set<TreeNode *> memo;
-    for (auto p : trees) {
-      if (nullptr == p) continue;
-      queue<TreeNode *> q;
-      q.emplace(p);
-      while(!q.empty()) {
-        auto node = q.front(); q.pop();
-        if (memo.count(node)) continue;
-        memo.insert(node);
-        if (nullptr != node->left) q.emplace(node->left);
-        if (nullptr != node->right) q.emplace(node->right);
+  template <typename... _type> static
+  enable_if_treenode_t<_type...> release(_type... nodes) noexcept {
+    vector<TreeNode *> _variadic_nodes = {nodes...};
+    unordered_set<TreeNode *> _cand_to_del;
+    for(auto node : _variadic_nodes) {
+      if (nullptr == node) continue;
+      queue<TreeNode *> travel; travel.emplace(node);
+      while(!travel.empty()) {
+        auto cur = travel.front(); travel.pop();
+        if (_cand_to_del.count(cur)) continue;
+        _cand_to_del.insert(cur);
+        if (nullptr != cur->left) travel.emplace(cur->left);
+        if (nullptr != cur->right) travel.emplace(cur->right);
       }
     }
-    for(auto it = memo.begin(); it != memo.end(); ++it)
+    for (auto it = _cand_to_del.begin(); it != _cand_to_del.end(); ++it)
       delete *it;
-    return memo.size();
+    return _cand_to_del.size();
   }
 };
 
@@ -92,7 +98,6 @@ operator==(const TreeNode &lhs, const TreeNode &rhs) noexcept {
   } else {                                    \
     EXPECT_EQ(tval1, tval2);                  \
   }                                           \
-  TreeNode::release({tval1, tval2});          \
 }
 #endif
 
