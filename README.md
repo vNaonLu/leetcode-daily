@@ -327,7 +327,7 @@ My daily challenge on leetcode since 2021/09/06.
 ||307|[Range Sum Query - Mutable](https://leetcode.com/problems/range-sum-query-mutable/)|Medium|
 |🔒|308|[Range Sum Query 2D - Mutable](https://leetcode.com/problems/range-sum-query-2d-mutable/)|Hard|
 |[📎](src/q_301_350/q0309.cc)|309|[Best Time to Buy and Sell Stock with Cooldown](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-cooldown/)|Medium|
-||310|[Minimum Height Trees](https://leetcode.com/problems/minimum-height-trees/)|Medium|
+|[📎](src/q_301_350/q0310.cc)|310|[Minimum Height Trees](https://leetcode.com/problems/minimum-height-trees/)|Medium|
 |🔒|311|[Sparse Matrix Multiplication](https://leetcode.com/problems/sparse-matrix-multiplication/)|Medium|
 ||312|[Burst Balloons](https://leetcode.com/problems/burst-balloons/)|Hard|
 ||313|[Super Ugly Number](https://leetcode.com/problems/super-ugly-number/)|Medium|
@@ -2169,6 +2169,7 @@ My daily challenge on leetcode since 2021/09/06.
 
 |Time|#|</>|Question Title|Difficulty|
 |:--|--:|:-:|:--|:--|
+|2021-12-16 18:21|310|[📎](src/q_301_350/q0310.cc)|[Minimum Height Trees](https://leetcode.com/problems/minimum-height-trees/)|Medium|
 |2021-12-15 18:04|147|[📎](src/q_101_150/q0147.cc)|[Insertion Sort List](https://leetcode.com/problems/insertion-sort-list/)|Medium|
 |2021-12-14 18:05|938|[📎](src/q_901_950/q0938.cc)|[Range Sum of BST](https://leetcode.com/problems/range-sum-of-bst/)|Easy|
 |2021-12-13 18:10|1446|[📎](src/q_1401_1450/q1446.cc)|[Consecutive Characters](https://leetcode.com/problems/consecutive-characters/)|Easy|
@@ -2193,13 +2194,12 @@ My daily challenge on leetcode since 2021/09/06.
 |2021-11-25 18:02|263|[📎](src/q_251_300/q0263.cc)|[Ugly Number](https://leetcode.com/problems/ugly-number/)|Easy|
 |2021-11-24 18:10|1002|[📎](src/q_1001_1050/q1002.cc)|[Find Common Characters](https://leetcode.com/problems/find-common-characters/)|Easy|
 |2021-11-23 18:50|258|[📎](src/q_251_300/q0258.cc)|[Add Digits](https://leetcode.com/problems/add-digits/)|Easy|
-|2021-11-23 18:44|2011|[📎](src/q_2001_2050/q2011.cc)|[Final Value of Variable After Performing Operations](https://leetcode.com/problems/final-value-of-variable-after-performing-operations/)|Easy|
 
 ## Previous Logs
 
 |Month|Submissions|Easy|Medium|Hard|
 |:--|:--|:--|:--|:--|
-|[December_2021](./assets/December_2021.md)|16|6|6|4|
+|[December_2021](./assets/December_2021.md)|17|6|7|4|
 |[November_2021](./assets/November_2021.md)|41|19|16|6|
 |[October_2021](./assets/October_2021.md)|115|27|75|13|
 |[September_2021](./assets/September_2021.md)|133|55|71|7|

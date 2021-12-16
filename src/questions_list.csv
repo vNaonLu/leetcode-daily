@@ -308,7 +308,7 @@ id,title,level,slug,paid,done
 307,Range Sum Query - Mutable,2,range-sum-query-mutable,0,0
 308,Range Sum Query 2D - Mutable,3,range-sum-query-2d-mutable,1,0
 309,Best Time to Buy and Sell Stock with Cooldown,2,best-time-to-buy-and-sell-stock-with-cooldown,0,1
-310,Minimum Height Trees,2,minimum-height-trees,0,0
+310,Minimum Height Trees,2,minimum-height-trees,0,1
 311,Sparse Matrix Multiplication,2,sparse-matrix-multiplication,1,0
 312,Burst Balloons,3,burst-balloons,0,0
 313,Super Ugly Number,2,super-ugly-number,0,0
