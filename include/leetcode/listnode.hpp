@@ -25,7 +25,6 @@ struct ListNode final {
 
   /// for project usage
   typedef pair<int, int> _listnode_data;
-  static  vector<vector<ListNode*>> keep_;
 
   static ListNode*
   _build_list(vector<ListNode*> &v, const int &repeat) noexcept {
@@ -61,8 +60,7 @@ struct ListNode final {
   generate(const vector<int> &v, const int &repeat = -1) {
     assert(repeat == -1 || repeat < v.size());
     if (v.empty()) return nullptr;
-    keep_.emplace_back(vector<ListNode*>{});
-    vector<ListNode*> &dummy = keep_.back();
+    vector<ListNode*> dummy;
     for (int i = 0; i < v.size(); ++i)
       dummy.emplace_back(new ListNode(v[i]));
     return _build_list(dummy, repeat);
