@@ -45,16 +45,12 @@ struct q50 : public ::testing::Test {
   class Solution *solution;
 };
 
-inline bool approximately_equal(double x, double y) noexcept {
-  return abs(y - x) < 1e-6;
-}
-
 TEST_F(q50, sample_input01) {
   solution = new Solution();
   double x = 2.00000;
   int n = 10;
   double exp = 1024.00000;
-  EXPECT_TRUE(approximately_equal(solution->myPow(x, n), exp));
+  EXPECT_DOUBLE_EQ(solution->myPow(x, n), exp);
   delete solution;
 }
 
@@ -63,7 +59,7 @@ TEST_F(q50, sample_input02) {
   double x = 2.10000;
   int n = 3;
   double exp = 9.26100;
-  EXPECT_TRUE(approximately_equal(solution->myPow(x, n), exp));
+  EXPECT_DOUBLE_EQ(solution->myPow(x, n), exp);
   delete solution;
 }
 
@@ -72,6 +68,6 @@ TEST_F(q50, sample_input03) {
   double x = 2.00000;
   int n = -2;
   double exp = 0.25000;
-  EXPECT_TRUE(approximately_equal(solution->myPow(x, n), exp));
+  EXPECT_DOUBLE_EQ(solution->myPow(x, n), exp);
   delete solution;
 }

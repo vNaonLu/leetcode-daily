@@ -2,7 +2,7 @@
 import os
 import optparse
 import pathlib
-from utils import local, template, modify, generate, prompt as pmt
+from utils import local, modify, generate, prompt as pmt
 from leetcode import request as LeetCodeRequest
 
 def __parser():
@@ -43,18 +43,18 @@ def __main():
     for id in [int(arg) for arg in args]:
         remove_success = False
         qfile = local.QuestionSource(int(id), sour_path)
-        remove_success |= modify.remove(os.path.join(qfile.src()))
+        remove_success |= modify.remove(sour_path.joinpath(qfile.src()).resolve())
 
         if remove_success:
             question_deleted = True
-            modify.dellog(log_csv, id)
+            modify.dellog(log_csv.resolve(), id)
 
     if question_deleted:
         if not os.path.exists(list_csv):
             question_list = LeetCodeRequest.questions()
-            generate.question_list(list_csv, question_list)
+            generate.question_list(list_csv.resolve(), question_list)
         solved = local.solved_question_ids(sour_path)
-        modify.done_question(list_csv, solved)
+        modify.done_question(list_csv.resolve(), solved)
 
 
 if __name__ == "__main__":

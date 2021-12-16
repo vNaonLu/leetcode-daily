@@ -1,6 +1,7 @@
 set(SOURCE
   "main.cc"
-  "listnode.cc")
+  "listnode.cc"
+  "treenode.cc")
 add_executable(infra_test ${SOURCE})
 target_include_directories(infra_test 
   PRIVATE "${CMAKE_SOURCE_DIR}/include")

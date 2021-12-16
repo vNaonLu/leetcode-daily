@@ -41,7 +41,7 @@ My daily challenge on leetcode since 2021/09/06.
 |[📎](src/q_1_50/q0027.cc)|27|[Remove Element](https://leetcode.com/problems/remove-element/)|Easy|
 |[📎](src/q_1_50/q0028.cc)|28|[Implement strStr()](https://leetcode.com/problems/implement-strstr/)|Easy|
 |[📎](src/q_1_50/q0029.cc)|29|[Divide Two Integers](https://leetcode.com/problems/divide-two-integers/)|Medium|
-||30|[Substring with Concatenation of All Words](https://leetcode.com/problems/substring-with-concatenation-of-all-words/)|Hard|
+|[📎](src/q_1_50/q0030.cc)|30|[Substring with Concatenation of All Words](https://leetcode.com/problems/substring-with-concatenation-of-all-words/)|Hard|
 |[📎](src/q_1_50/q0031.cc)|31|[Next Permutation](https://leetcode.com/problems/next-permutation/)|Medium|
 |[📎](src/q_1_50/q0032.cc)|32|[Longest Valid Parentheses](https://leetcode.com/problems/longest-valid-parentheses/)|Hard|
 |[📎](src/q_1_50/q0033.cc)|33|[Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/)|Medium|
@@ -2170,6 +2170,7 @@ My daily challenge on leetcode since 2021/09/06.
 |Time|#|</>|Question Title|Difficulty|
 |:--|--:|:-:|:--|:--|
 |2021-12-16 18:21|310|[📎](src/q_301_350/q0310.cc)|[Minimum Height Trees](https://leetcode.com/problems/minimum-height-trees/)|Medium|
+|2021-12-15 23:17|30|[📎](src/q_1_50/q0030.cc)|[Substring with Concatenation of All Words](https://leetcode.com/problems/substring-with-concatenation-of-all-words/)|Hard|
 |2021-12-15 18:04|147|[📎](src/q_101_150/q0147.cc)|[Insertion Sort List](https://leetcode.com/problems/insertion-sort-list/)|Medium|
 |2021-12-14 18:05|938|[📎](src/q_901_950/q0938.cc)|[Range Sum of BST](https://leetcode.com/problems/range-sum-of-bst/)|Easy|
 |2021-12-13 18:10|1446|[📎](src/q_1401_1450/q1446.cc)|[Consecutive Characters](https://leetcode.com/problems/consecutive-characters/)|Easy|
@@ -2193,13 +2194,12 @@ My daily challenge on leetcode since 2021/09/06.
 |2021-11-26 21:37|35|[📎](src/q_1_50/q0035.cc)|[Search Insert Position](https://leetcode.com/problems/search-insert-position/)|Easy|
 |2021-11-25 18:02|263|[📎](src/q_251_300/q0263.cc)|[Ugly Number](https://leetcode.com/problems/ugly-number/)|Easy|
 |2021-11-24 18:10|1002|[📎](src/q_1001_1050/q1002.cc)|[Find Common Characters](https://leetcode.com/problems/find-common-characters/)|Easy|
-|2021-11-23 18:50|258|[📎](src/q_251_300/q0258.cc)|[Add Digits](https://leetcode.com/problems/add-digits/)|Easy|
 
 ## Previous Logs
 
 |Month|Submissions|Easy|Medium|Hard|
 |:--|:--|:--|:--|:--|
-|[December_2021](./assets/December_2021.md)|17|6|7|4|
+|[December_2021](./assets/December_2021.md)|18|6|7|5|
 |[November_2021](./assets/November_2021.md)|41|19|16|6|
 |[October_2021](./assets/October_2021.md)|115|27|75|13|
 |[September_2021](./assets/September_2021.md)|133|55|71|7|
