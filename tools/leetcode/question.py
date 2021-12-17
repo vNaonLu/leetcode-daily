@@ -59,6 +59,7 @@ class SolutionFunction(SolutionAbstract):
         SolutionAbstract.__init__(self, id, content)
         self.__valid             : bool      = True
         self.__listnode_variables: list[str] = []
+        self.__treenode_variables: list[str] = []
         self.__parse_codesnippets(code_snippet)
 
     def is_valid(self):
@@ -85,9 +86,14 @@ class SolutionFunction(SolutionAbstract):
                         self.__valid &= arg.is_valid()
                         if arg.type() == "ListNode*":
                             self.__listnode_variables.append(arg_name)
+                        elif arg.type() == "TreeNode*":
+                            self.__treenode_variables.append(arg_name)
                 if self.type() == "ListNode*":
                     self.__listnode_variables.append("exp");
                     self.__listnode_variables.append("act");
+                elif self.type() == "TreeNode*":
+                    self.__treenode_variables.append("exp");
+                    self.__treenode_variables.append("act");
                 break
 
     def __parse_input(self, input: str):
@@ -144,6 +150,8 @@ class SolutionFunction(SolutionAbstract):
         _del: list[str] = []
         if len(self.__listnode_variables) > 0:
             _del.append("ListNode::release({});".format(", ".join(self.__listnode_variables)))
+        if len(self.__treenode_variables) > 0:
+            _del.append("TreeNode::release({});".format(", ".join(self.__treenode_variables)))
         _del.append("delete {};".format(self.solution_object()))
         return _del
 
