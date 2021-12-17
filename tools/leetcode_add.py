@@ -12,7 +12,7 @@ from leetcode.question import LeetCodeQuestion
 
 def __add_question(qfile: local.QuestionSource, testcase: bool):
     if os.path.exists(qfile.src()):
-        pmt.show(pmt.fail(pmt.hi("The file has already exist: ") + qfile.src().resolve(), "!"))
+        pmt.show(pmt.fail(pmt.hi("The file has already exist: ") + str(qfile.src().resolve()), "!"))
         return False
 
     pmt.pending(pmt.hi("Requesting a slug with question id {}".format(qfile.id())))
