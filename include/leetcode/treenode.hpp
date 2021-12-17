@@ -89,7 +89,6 @@ operator==(const TreeNode &lhs, const TreeNode &rhs) noexcept {
 }
 
 #ifdef EXPECT_EQ
-/// TODO: release position
 #define EXPECT_TREENODE_EQ(val1, val2)        \
 {                                             \
   TreeNode *tval1 = val1, *tval2 = val2;      \
