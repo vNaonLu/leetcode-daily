@@ -68,7 +68,7 @@ My daily challenge on leetcode since 2021/09/06.
 |[📎](src/q_51_100/q0054.cc)|54|[Spiral Matrix](https://leetcode.com/problems/spiral-matrix/)|Medium|
 |[📎](src/q_51_100/q0055.cc)|55|[Jump Game](https://leetcode.com/problems/jump-game/)|Medium|
 |[📎](src/q_51_100/q0056.cc)|56|[Merge Intervals](https://leetcode.com/problems/merge-intervals/)|Medium|
-||57|[Insert Interval](https://leetcode.com/problems/insert-interval/)|Medium|
+|[📎](src/q_51_100/q0057.cc)|57|[Insert Interval](https://leetcode.com/problems/insert-interval/)|Medium|
 ||58|[Length of Last Word](https://leetcode.com/problems/length-of-last-word/)|Easy|
 |[📎](src/q_51_100/q0059.cc)|59|[Spiral Matrix II](https://leetcode.com/problems/spiral-matrix-ii/)|Medium|
 ||60|[Permutation Sequence](https://leetcode.com/problems/permutation-sequence/)|Hard|
@@ -2169,6 +2169,7 @@ My daily challenge on leetcode since 2021/09/06.
 
 |Time|#|</>|Question Title|Difficulty|
 |:--|--:|:-:|:--|:--|
+|2021-12-17 23:14|57|[📎](src/q_51_100/q0057.cc)|[Insert Interval](https://leetcode.com/problems/insert-interval/)|Medium|
 |2021-12-16 18:21|310|[📎](src/q_301_350/q0310.cc)|[Minimum Height Trees](https://leetcode.com/problems/minimum-height-trees/)|Medium|
 |2021-12-15 23:17|30|[📎](src/q_1_50/q0030.cc)|[Substring with Concatenation of All Words](https://leetcode.com/problems/substring-with-concatenation-of-all-words/)|Hard|
 |2021-12-15 18:04|147|[📎](src/q_101_150/q0147.cc)|[Insertion Sort List](https://leetcode.com/problems/insertion-sort-list/)|Medium|
@@ -2193,13 +2194,12 @@ My daily challenge on leetcode since 2021/09/06.
 |2021-11-27 14:02|31|[📎](src/q_1_50/q0031.cc)|[Next Permutation](https://leetcode.com/problems/next-permutation/)|Medium|
 |2021-11-26 21:37|35|[📎](src/q_1_50/q0035.cc)|[Search Insert Position](https://leetcode.com/problems/search-insert-position/)|Easy|
 |2021-11-25 18:02|263|[📎](src/q_251_300/q0263.cc)|[Ugly Number](https://leetcode.com/problems/ugly-number/)|Easy|
-|2021-11-24 18:10|1002|[📎](src/q_1001_1050/q1002.cc)|[Find Common Characters](https://leetcode.com/problems/find-common-characters/)|Easy|
 
 ## Previous Logs
 
 |Month|Submissions|Easy|Medium|Hard|
 |:--|:--|:--|:--|:--|
-|[December_2021](./assets/December_2021.md)|18|6|7|5|
+|[December_2021](./assets/December_2021.md)|19|6|8|5|
 |[November_2021](./assets/November_2021.md)|41|19|16|6|
 |[October_2021](./assets/October_2021.md)|115|27|75|13|
 |[September_2021](./assets/September_2021.md)|133|55|71|7|

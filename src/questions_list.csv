@@ -55,7 +55,7 @@ id,title,level,slug,paid,done
 54,Spiral Matrix,2,spiral-matrix,0,1
 55,Jump Game,2,jump-game,0,1
 56,Merge Intervals,2,merge-intervals,0,1
-57,Insert Interval,2,insert-interval,0,0
+57,Insert Interval,2,insert-interval,0,1
 58,Length of Last Word,1,length-of-last-word,0,0
 59,Spiral Matrix II,2,spiral-matrix-ii,0,1
 60,Permutation Sequence,3,permutation-sequence,0,0
