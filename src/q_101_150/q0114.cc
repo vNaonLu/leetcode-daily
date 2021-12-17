@@ -60,6 +60,7 @@ TEST_F(q114, sample_input01) {
   solution->flatten(root);
   // Assume the first argument is answer.
   EXPECT_TREENODE_EQ(root, exp);
+  TreeNode::release(root, exp);
   delete solution;
 }
 
@@ -70,6 +71,7 @@ TEST_F(q114, sample_input02) {
   solution->flatten(root);
   // Assume the first argument is answer.
   EXPECT_TREENODE_EQ(root, exp);
+  TreeNode::release(root, exp);
   delete solution;
 }
 

@@ -42,7 +42,9 @@ TEST_F(q226, sample_input01) {
   solution = new Solution();
   TreeNode* root = TreeNode::generate({4, 2, 7, 1, 3, 6, 9});
   TreeNode* exp = TreeNode::generate({4, 7, 2, 9, 6, 3, 1});
-  EXPECT_TREENODE_EQ(solution->invertTree(root), exp);
+  TreeNode* act = solution->invertTree(root);
+  EXPECT_TREENODE_EQ(act, exp);
+  TreeNode::release(root, exp, act);
   delete solution;
 }
 
@@ -50,7 +52,9 @@ TEST_F(q226, sample_input02) {
   solution = new Solution();
   TreeNode* root = TreeNode::generate({2, 1, 3});
   TreeNode* exp = TreeNode::generate({2, 3, 1});
-  EXPECT_TREENODE_EQ(solution->invertTree(root), exp);
+  TreeNode* act = solution->invertTree(root);
+  EXPECT_TREENODE_EQ(act, exp);
+  TreeNode::release(root, exp, act);
   delete solution;
 }
 
@@ -58,6 +62,8 @@ TEST_F(q226, sample_input03) {
   solution = new Solution();
   TreeNode* root = TreeNode::generate({});
   TreeNode* exp = TreeNode::generate({});
-  EXPECT_TREENODE_EQ(solution->invertTree(root), exp);
+  TreeNode* act = solution->invertTree(root);
+  EXPECT_TREENODE_EQ(act, exp);
+  TreeNode::release(root, exp, act);
   delete solution;
 }

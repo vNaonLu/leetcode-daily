@@ -51,7 +51,9 @@ TEST_F(q700, sample_input01) {
   TreeNode* root = TreeNode::generate({4, 2, 7, 1, 3});
   int val = 2;
   TreeNode* exp = TreeNode::generate({2, 1, 3});
-  EXPECT_TREENODE_EQ(solution->searchBST(root, val), exp);
+  TreeNode* act = solution->searchBST(root, val);
+  EXPECT_TREENODE_EQ(act, exp);
+  TreeNode::release(root, exp, act);
   delete solution;
 }
 
@@ -60,6 +62,8 @@ TEST_F(q700, sample_input02) {
   TreeNode* root = TreeNode::generate({4, 2, 7, 1, 3});
   int val = 5;
   TreeNode* exp = TreeNode::generate({});
-  EXPECT_TREENODE_EQ(solution->searchBST(root, val), exp);
+  TreeNode* act = solution->searchBST(root, val);
+  EXPECT_TREENODE_EQ(act, exp);
+  TreeNode::release(root, exp, act);
   delete solution;
 }

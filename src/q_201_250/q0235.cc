@@ -66,7 +66,9 @@ TEST_F(q235, sample_input01) {
   TreeNode* p = TreeNode::generate({});
   TreeNode* q = TreeNode::generate({});
   TreeNode* exp = TreeNode::generate({});
-  EXPECT_TREENODE_EQ(solution->lowestCommonAncestor(root, p, q), exp);
+  TreeNode* act = solution->lowestCommonAncestor(root, p, q);
+  EXPECT_TREENODE_EQ(act, exp);
+  TreeNode::release(root, p, q, exp, act);
   delete solution;
 }
 
@@ -76,7 +78,9 @@ TEST_F(q235, sample_input02) {
   TreeNode* p = TreeNode::generate({});
   TreeNode* q = TreeNode::generate({});
   TreeNode* exp = TreeNode::generate({});
-  EXPECT_TREENODE_EQ(solution->lowestCommonAncestor(root, p, q), exp);
+  TreeNode* act = solution->lowestCommonAncestor(root, p, q);
+  EXPECT_TREENODE_EQ(act, exp);
+  TreeNode::release(root, p, q, exp, act);
   delete solution;
 }
 
@@ -86,6 +90,8 @@ TEST_F(q235, sample_input03) {
   TreeNode* p = TreeNode::generate({});
   TreeNode* q = TreeNode::generate({});
   TreeNode* exp = TreeNode::generate({});
-  EXPECT_TREENODE_EQ(solution->lowestCommonAncestor(root, p, q), exp);
+  TreeNode* act = solution->lowestCommonAncestor(root, p, q);
+  EXPECT_TREENODE_EQ(act, exp);
+  TreeNode::release(root, p, q, exp, act);
   delete solution;
 }

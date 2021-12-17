@@ -90,7 +90,9 @@ TEST_F(q450, sample_input01) {
   TreeNode* root = TreeNode::generate({5, 3, 6, 2, 4, NULL_TREENODE, 7});
   int key = 3;
   TreeNode* exp = TreeNode::generate({5, 4, 6, 2, NULL_TREENODE, NULL_TREENODE, 7});
-  EXPECT_TREENODE_EQ(solution->deleteNode(root, key), exp);
+  TreeNode *act = solution->deleteNode(root, key);
+  EXPECT_TREENODE_EQ(act, exp);
+  TreeNode::release(root, exp, act);
   delete solution;
 }
 
@@ -98,8 +100,10 @@ TEST_F(q450, sample_input02) {
   solution = new Solution();
   TreeNode* root = TreeNode::generate({5, 3, 6, 2, 4, NULL_TREENODE, 7});
   int key = 0;
-  TreeNode* exp = TreeNode::generate({5, 3, 6, 2, 4, NULL_TREENODE, 7});
-  EXPECT_TREENODE_EQ(solution->deleteNode(root, key), exp);
+  TreeNode *exp = TreeNode::generate({5, 3, 6, 2, 4, NULL_TREENODE, 7});
+  TreeNode *act = solution->deleteNode(root, key);
+  EXPECT_TREENODE_EQ(act, exp);
+  TreeNode::release(root, exp, act);
   delete solution;
 }
 
@@ -107,7 +111,9 @@ TEST_F(q450, sample_input03) {
   solution = new Solution();
   TreeNode* root = TreeNode::generate({});
   int key = 0;
-  TreeNode* exp = TreeNode::generate({});
-  EXPECT_TREENODE_EQ(solution->deleteNode(root, key), exp);
+  TreeNode *exp = TreeNode::generate({});
+  TreeNode *act = solution->deleteNode(root, key);
+  EXPECT_TREENODE_EQ(act, exp);
+  TreeNode::release(root, exp, act);
   delete solution;
 }

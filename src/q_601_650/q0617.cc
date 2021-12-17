@@ -56,7 +56,9 @@ TEST_F(q617, sample_input01) {
   TreeNode* root1 = TreeNode::generate({1, 3, 2, 5});
   TreeNode* root2 = TreeNode::generate({2, 1, 3, NULL_TREENODE, 4, NULL_TREENODE, 7});
   TreeNode* exp = TreeNode::generate({3, 4, 5, 5, 4, NULL_TREENODE, 7});
-  EXPECT_TREENODE_EQ(solution->mergeTrees(root1, root2), exp);
+  TreeNode* act = solution->mergeTrees(root1, root2);
+  EXPECT_TREENODE_EQ(act, exp);
+  TreeNode::release(root1, root2, exp, act);
   delete solution;
 }
 
@@ -65,6 +67,8 @@ TEST_F(q617, sample_input02) {
   TreeNode* root1 = TreeNode::generate({1});
   TreeNode* root2 = TreeNode::generate({1, 2});
   TreeNode* exp = TreeNode::generate({2, 2});
-  EXPECT_TREENODE_EQ(solution->mergeTrees(root1, root2), exp);
+  TreeNode* act = solution->mergeTrees(root1, root2);
+  EXPECT_TREENODE_EQ(act, exp);
+  TreeNode::release(root1, root2, exp, act);
   delete solution;
 }
