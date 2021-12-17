@@ -45,7 +45,9 @@ TEST_F(q206, sample_input01) {
   solution = new Solution();
   ListNode* head = ListNode::generate({1, 2, 3, 4, 5});
   ListNode* exp = ListNode::generate({5, 4, 3, 2, 1});
-  EXPECT_LISTNODE_EQ(solution->reverseList(head), exp);
+  ListNode* act = solution->reverseList(head);
+  EXPECT_LISTNODE_EQ(act, exp);
+  ListNode::release(head, exp, act);
   delete solution;
 }
 
@@ -53,7 +55,9 @@ TEST_F(q206, sample_input02) {
   solution = new Solution();
   ListNode* head = ListNode::generate({1, 2});
   ListNode* exp = ListNode::generate({2, 1});
-  EXPECT_LISTNODE_EQ(solution->reverseList(head), exp);
+  ListNode* act = solution->reverseList(head);
+  EXPECT_LISTNODE_EQ(act, exp);
+  ListNode::release(head, exp, act);
   delete solution;
 }
 
@@ -61,6 +65,8 @@ TEST_F(q206, sample_input03) {
   solution = new Solution();
   ListNode* head = ListNode::generate({});
   ListNode* exp = ListNode::generate({});
-  EXPECT_LISTNODE_EQ(solution->reverseList(head), exp);
+  ListNode* act = solution->reverseList(head);
+  EXPECT_LISTNODE_EQ(act, exp);
+  ListNode::release(head, exp, act);
   delete solution;
 }

@@ -6,10 +6,14 @@ using namespace std;
 TEST(listnode, release) {
   ListNode *p = new ListNode();
   ListNode *q = new ListNode(0);
-  EXPECT_EQ(ListNode::release({p, q, p, q}), 2);
+  EXPECT_EQ(ListNode::release(p, q, p, q), 2);
+  ListNode *p3 = new ListNode(3),
+           *p2 = new ListNode(2, p3),
+           *p1 = new ListNode(1, p2);
+  EXPECT_EQ(ListNode::release(p1), 3);
 }
 
-TEST(listnode, generate) {
+TEST(listnode, constructor) {
   ListNode p1;
   EXPECT_EQ(p1.val, 0);
   EXPECT_EQ(p1.next, nullptr);
@@ -80,6 +84,7 @@ TEST(listnode, equal_macro) {
   EXPECT_TRUE(*q == *q);
   EXPECT_TRUE(*p == *q);
   EXPECT_LISTNODE_EQ(p, q);
+  ListNode::release(p, q);
 }
 
 TEST(listnode, equal_macro_loop) {
@@ -95,6 +100,7 @@ TEST(listnode, equal_macro_loop) {
   EXPECT_TRUE(*q == *q);
   EXPECT_TRUE(*p == *q);
   EXPECT_LISTNODE_EQ(p, q);
+  ListNode::release(p, q);
 }
 
 TEST(listnode, equal_macro_loop_not_equal) {
@@ -109,8 +115,7 @@ TEST(listnode, equal_macro_loop_not_equal) {
   EXPECT_TRUE(*q == *q);
   EXPECT_TRUE(*p == *p);
   EXPECT_FALSE(*p == *q);
-  delete p;
-  delete q;
+  ListNode::release(p, q);
 }
 
 TEST(listnode, build_list_empty) {
@@ -128,7 +133,7 @@ TEST(listnode, build_list_normal) {
   ListNode *_gen = ListNode::_build_list(_listnodes, -1);
   ASSERT_TRUE(_gen == _listnodes.front());
   EXPECT_TRUE(p == *_gen);
-  ListNode::release({_gen});
+  ListNode::release(_gen);
 }
 
 TEST(listnode, build_list_loop) {
@@ -141,7 +146,7 @@ TEST(listnode, build_list_loop) {
   ListNode *_gen = ListNode::_build_list(_listnodes, 0);
   ASSERT_TRUE(_gen == _listnodes.front());
   EXPECT_TRUE(p == *_gen);
-  ListNode::release({_gen});
+  ListNode::release(_gen);
 }
 
 ListNode *__dummy_problem(ListNode *_some_ptr) {
@@ -156,18 +161,20 @@ TEST(listnode, dummy_problem) {
   EXPECT_TRUE(p == q);
   EXPECT_NO_THROW(EXPECT_EQ(*q, _cmp));
   EXPECT_NO_THROW(EXPECT_EQ(q->val, 0));
-  delete p;
+  ListNode::release(p);
 }
 
-TEST(listnode, generate_function) {
+TEST(listnode, generate) {
   ListNode p2(0), p1(0, &p2), p(0, &p1);
   ListNode *q = ListNode::generate({0, 0, 0});
   EXPECT_TRUE(p == *q);
+  ListNode::release(q);
 }
 
-TEST(listnode, generate_function_loop) {
+TEST(listnode, generate_loop) {
   ListNode p2(0), p1(0, &p2), p(0, &p1);
   p2.next = &p;
   ListNode *q = ListNode::generate({0, 0, 0}, 0);
   EXPECT_TRUE(p == *q);
+  ListNode::release(q);
 }

@@ -60,7 +60,9 @@ TEST_F(q105, sample_input01) {
   vector<int> preorder = {3, 9, 20, 15, 7};
   vector<int> inorder = {9, 3, 15, 20, 7};
   TreeNode* exp = TreeNode::generate({3, 9, 20, NULL_TREENODE, NULL_TREENODE, 15, 7});
-  EXPECT_TREENODE_EQ(solution->buildTree(preorder, inorder), exp);
+  TreeNode* act = solution->buildTree(preorder, inorder);
+  EXPECT_TREENODE_EQ(act, exp);
+  TreeNode::release(exp, act);
   delete solution;
 }
 
@@ -69,6 +71,8 @@ TEST_F(q105, sample_input02) {
   vector<int> preorder = {-1};
   vector<int> inorder = {-1};
   TreeNode* exp = TreeNode::generate({-1});
-  EXPECT_TREENODE_EQ(solution->buildTree(preorder, inorder), exp);
+  TreeNode* act = solution->buildTree(preorder, inorder);
+  EXPECT_TREENODE_EQ(act, exp);
+  TreeNode::release(exp, act);
   delete solution;
 }

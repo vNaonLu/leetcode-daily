@@ -3,11 +3,16 @@
 
 #include <initializer_list>
 #include <iostream>
+#include <type_traits>
 #include <unordered_map>
 #include <unordered_set>
 #include <vector>
 
 using namespace std;
+struct ListNode;
+
+template <typename... _type>
+using enable_if_listnode_t = std::enable_if_t<(... && std::is_same_v<_type, ListNode *>), size_t>;
 
 struct ListNode final {
   /// for leetcode usage
@@ -20,7 +25,6 @@ struct ListNode final {
 
   /// for project usage
   typedef pair<int, int> _listnode_data;
-  static  vector<vector<ListNode*>> keep_;
 
   static ListNode*
   _build_list(vector<ListNode*> &v, const int &repeat) noexcept {
@@ -56,30 +60,29 @@ struct ListNode final {
   generate(const vector<int> &v, const int &repeat = -1) {
     assert(repeat == -1 || repeat < v.size());
     if (v.empty()) return nullptr;
-    keep_.emplace_back(vector<ListNode*>{});
-    vector<ListNode*> &dummy = keep_.back();
+    vector<ListNode*> dummy;
     for (int i = 0; i < v.size(); ++i)
       dummy.emplace_back(new ListNode(v[i]));
     return _build_list(dummy, repeat);
   }
 
-  inline static size_t
-  release(initializer_list<ListNode *> p) {
-    unordered_set<ListNode *> memo;
-    vector<ListNode *> cand;
-    for (ListNode *node : p) {
+  template <typename... _type> inline static
+  enable_if_listnode_t<_type...> release(_type... nodes) noexcept {
+    vector<ListNode *> _variadic_nodes = {nodes...};
+    unordered_set<ListNode *> _cand_to_del;
+    for (auto node : _variadic_nodes) {
       while (nullptr != node) {
-        if (memo.count(node)) break;
-        memo.insert(node);
-        cand.push_back(node);
+        if (_cand_to_del.count(node)) break;
+        _cand_to_del.insert(node);
         node = node->next;
       }
     }
-    for (auto candtodel : cand)
-      delete candtodel;
-    return cand.size();
+    for (auto it = _cand_to_del.begin(); it != _cand_to_del.end(); ++it)
+      delete *it;
+    return _cand_to_del.size();
   }
 };
+
 
 inline bool
 operator==(const ListNode &lhs, const ListNode &rhs) noexcept {
@@ -89,7 +92,6 @@ operator==(const ListNode &lhs, const ListNode &rhs) noexcept {
 }
 
 #ifdef EXPECT_EQ
-/// TODO: release position
 #define EXPECT_LISTNODE_EQ(val1, val2)          \
 {                                               \
   ListNode *actual = val1, *expect = val2;      \
@@ -98,7 +100,6 @@ operator==(const ListNode &lhs, const ListNode &rhs) noexcept {
   } else {                                      \
     EXPECT_EQ(actual, expect);                  \
   }                                             \
-  ListNode::release({actual, expect});          \
 }
 #endif
 

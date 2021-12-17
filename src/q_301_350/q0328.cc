@@ -57,7 +57,9 @@ TEST_F(q328, sample_input01) {
   solution = new Solution();
   ListNode* head = ListNode::generate({1, 2, 3, 4, 5});
   ListNode* exp = ListNode::generate({1, 3, 5, 2, 4});
-  EXPECT_LISTNODE_EQ(solution->oddEvenList(head), exp);
+  ListNode* act = solution->oddEvenList(head);
+  EXPECT_LISTNODE_EQ(act, exp);
+  ListNode::release(head, exp, act);
   delete solution;
 }
 
@@ -65,6 +67,8 @@ TEST_F(q328, sample_input02) {
   solution = new Solution();
   ListNode* head = ListNode::generate({2, 1, 3, 5, 6, 4, 7});
   ListNode* exp = ListNode::generate({2, 3, 6, 7, 1, 5, 4});
-  EXPECT_LISTNODE_EQ(solution->oddEvenList(head), exp);
+  ListNode* act = solution->oddEvenList(head);
+  EXPECT_LISTNODE_EQ(act, exp);
+  ListNode::release(head, exp, act);
   delete solution;
 }

@@ -53,7 +53,9 @@ TEST_F(q82, sample_input01) {
   solution = new Solution();
   ListNode* head = ListNode::generate({1, 2, 3, 3, 4, 4, 5});
   ListNode* exp = ListNode::generate({1, 2, 5});
-  EXPECT_LISTNODE_EQ(solution->deleteDuplicates(head), exp);
+  ListNode* act = solution->deleteDuplicates(head);
+  EXPECT_LISTNODE_EQ(act, exp);
+  ListNode::release(head, exp, act);
   delete solution;
 }
 
@@ -61,6 +63,8 @@ TEST_F(q82, sample_input02) {
   solution = new Solution();
   ListNode* head = ListNode::generate({1, 1, 1, 2, 3});
   ListNode* exp = ListNode::generate({2, 3});
-  EXPECT_LISTNODE_EQ(solution->deleteDuplicates(head), exp);
+  ListNode* act = solution->deleteDuplicates(head);
+  EXPECT_LISTNODE_EQ(act, exp);
+  ListNode::release(head, exp, act);
   delete solution;
 }

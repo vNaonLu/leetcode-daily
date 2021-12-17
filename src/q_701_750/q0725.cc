@@ -76,6 +76,7 @@ TEST_F(q725, sample_input01) {
   EXPECT_EQ(ans.size(), exp.size());
   for (int i = 0; i < ans.size(); ++i) {
     EXPECT_LISTNODE_EQ(ans[i], exp[i]);
+    ListNode::release(ans[i], exp[i]);
   }
   delete solution;
 }
@@ -89,6 +90,7 @@ TEST_F(q725, sample_input02) {
   EXPECT_EQ(ans.size(), exp.size());
   for (int i = 0; i < ans.size(); ++i) {
     EXPECT_LISTNODE_EQ(ans[i], exp[i]);
+    ListNode::release(ans[i], exp[i]);
   }
   delete solution;
 }

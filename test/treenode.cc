@@ -4,28 +4,28 @@
 TEST(treenode, release) {
   TreeNode *p0 = new TreeNode(10);
   TreeNode *q0 = new TreeNode(10);
-  EXPECT_EQ(2, TreeNode::release({p0, q0, p0, q0}));
+  EXPECT_EQ(2, TreeNode::release(p0, q0, p0, q0));
   TreeNode *p3 = new TreeNode(3),
            *p2 = new TreeNode(2),
            *p1 = new TreeNode(1, p2, p3);
   TreeNode *q3 = new TreeNode(3),
            *q2 = new TreeNode(2),
            *q1 = new TreeNode(1, q2, q3);
-  EXPECT_EQ(6, TreeNode::release({p1, q1, p2, q2}));
+  EXPECT_EQ(6, TreeNode::release(p1, q1, p2, q2));
   TreeNode *p6 = new TreeNode(6),
            *p5 = new TreeNode(5, p6, nullptr),
            *p4 = new TreeNode(4, p5, nullptr);
   TreeNode *q6 = new TreeNode(6),
            *q5 = new TreeNode(5, q6, nullptr),
            *q4 = new TreeNode(4, q5, nullptr);
-  EXPECT_EQ(6, TreeNode::release({p4, q4, p5, q5}));
+  EXPECT_EQ(6, TreeNode::release(p4, q4, p5, q5));
   TreeNode *p9 = new TreeNode(9),
            *p8 = new TreeNode(8, nullptr, p9),
            *p7 = new TreeNode(7, nullptr, p8);
   TreeNode *q9 = new TreeNode(9),
            *q8 = new TreeNode(8, nullptr, q9),
            *q7 = new TreeNode(7, nullptr, q8);
-  EXPECT_EQ(6, TreeNode::release({p7, q7, p8, q9}));
+  EXPECT_EQ(6, TreeNode::release(p7, q7, p8, q9));
 }
 
 TEST(treenode, constructor) {
@@ -102,6 +102,7 @@ TEST(treenode, equal_macro) {
            *q7 = new TreeNode(7, nullptr, q8);
   ASSERT_TRUE(*p7 == *q7);
   EXPECT_TREENODE_EQ(p7, q7);
+  TreeNode::release(p0, q0, p1, q1, p4, q1, p7, q1);
 }
 
 TEST(treenode, build_tree_empty) {
@@ -137,6 +138,7 @@ TEST(treenode, build_tree) {
   TreeNode *q7 = TreeNode::_build_tree(_init_q7);
   ASSERT_TRUE(*p7 == *q7);
   EXPECT_TREENODE_EQ(p7, q7);
+  TreeNode::release(p0, q0, p1, q1, p4, q1, p7, q1);
 }
 
 TEST(treenode, generate_empty) {
@@ -169,4 +171,5 @@ TEST(treenode, generate) {
   TreeNode *q7 = TreeNode::generate({7, NULL_TREENODE, 8, NULL_TREENODE, 9});
   ASSERT_TRUE(*p7 == *q7);
   EXPECT_TREENODE_EQ(p7, q7);
+  TreeNode::release(p0, q0, p1, q1, p4, q1, p7, q1);
 }
