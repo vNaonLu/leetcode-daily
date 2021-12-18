@@ -28,7 +28,7 @@ id,title,level,slug,paid,done
 27,Remove Element,1,remove-element,0,1
 28,Implement strStr(),1,implement-strstr,0,1
 29,Divide Two Integers,2,divide-two-integers,0,1
-30,Substring with Concatenation of All Words,3,substring-with-concatenation-of-all-words,0,0
+30,Substring with Concatenation of All Words,3,substring-with-concatenation-of-all-words,0,1
 31,Next Permutation,2,next-permutation,0,1
 32,Longest Valid Parentheses,3,longest-valid-parentheses,0,1
 33,Search in Rotated Sorted Array,2,search-in-rotated-sorted-array,0,1
@@ -55,7 +55,7 @@ id,title,level,slug,paid,done
 54,Spiral Matrix,2,spiral-matrix,0,1
 55,Jump Game,2,jump-game,0,1
 56,Merge Intervals,2,merge-intervals,0,1
-57,Insert Interval,2,insert-interval,0,0
+57,Insert Interval,2,insert-interval,0,1
 58,Length of Last Word,1,length-of-last-word,0,0
 59,Spiral Matrix II,2,spiral-matrix-ii,0,1
 60,Permutation Sequence,3,permutation-sequence,0,0
@@ -145,7 +145,7 @@ id,title,level,slug,paid,done
 144,Binary Tree Preorder Traversal,1,binary-tree-preorder-traversal,0,1
 145,Binary Tree Postorder Traversal,1,binary-tree-postorder-traversal,0,1
 146,LRU Cache,2,lru-cache,0,0
-147,Insertion Sort List,2,insertion-sort-list,0,0
+147,Insertion Sort List,2,insertion-sort-list,0,1
 148,Sort List,2,sort-list,0,1
 149,Max Points on a Line,3,max-points-on-a-line,0,1
 150,Evaluate Reverse Polish Notation,2,evaluate-reverse-polish-notation,0,0
@@ -308,7 +308,7 @@ id,title,level,slug,paid,done
 307,Range Sum Query - Mutable,2,range-sum-query-mutable,0,0
 308,Range Sum Query 2D - Mutable,3,range-sum-query-2d-mutable,1,0
 309,Best Time to Buy and Sell Stock with Cooldown,2,best-time-to-buy-and-sell-stock-with-cooldown,0,1
-310,Minimum Height Trees,2,minimum-height-trees,0,0
+310,Minimum Height Trees,2,minimum-height-trees,0,1
 311,Sparse Matrix Multiplication,2,sparse-matrix-multiplication,1,0
 312,Burst Balloons,3,burst-balloons,0,0
 313,Super Ugly Number,2,super-ugly-number,0,0
@@ -900,7 +900,7 @@ id,title,level,slug,paid,done
 899,Orderly Queue,3,orderly-queue,0,0
 900,RLE Iterator,2,rle-iterator,0,0
 901,Online Stock Span,2,online-stock-span,0,0
-902,Numbers At Most N Given Digit Set,3,numbers-at-most-n-given-digit-set,0,0
+902,Numbers At Most N Given Digit Set,3,numbers-at-most-n-given-digit-set,0,1
 903,Valid Permutations for DI Sequence,3,valid-permutations-for-di-sequence,0,0
 904,Fruit Into Baskets,2,fruit-into-baskets,0,0
 905,Sort Array By Parity,1,sort-array-by-parity,0,0
@@ -936,7 +936,7 @@ id,title,level,slug,paid,done
 935,Knight Dialer,2,knight-dialer,0,0
 936,Stamping The Sequence,3,stamping-the-sequence,0,0
 937,Reorder Data in Log Files,1,reorder-data-in-log-files,0,0
-938,Range Sum of BST,1,range-sum-of-bst,0,0
+938,Range Sum of BST,1,range-sum-of-bst,0,1
 939,Minimum Area Rectangle,2,minimum-area-rectangle,0,0
 940,Distinct Subsequences II,3,distinct-subsequences-ii,0,0
 941,Valid Mountain Array,1,valid-mountain-array,0,0
@@ -1373,7 +1373,6 @@ id,title,level,slug,paid,done
 1372,Longest ZigZag Path in a Binary Tree,2,longest-zigzag-path-in-a-binary-tree,0,0
 1373,Maximum Sum BST in Binary Tree,3,maximum-sum-bst-in-binary-tree,0,0
 1374,Generate a String With Characters That Have Odd Counts,1,generate-a-string-with-characters-that-have-odd-counts,0,0
-1375,Bulb Switcher III,2,bulb-switcher-iii,0,0
 1376,Time Needed to Inform All Employees,2,time-needed-to-inform-all-employees,0,0
 1377,Frog Position After T Seconds,3,frog-position-after-t-seconds,0,0
 1378,Replace Employee ID With The Unique Identifier,1,replace-employee-id-with-the-unique-identifier,1,0
@@ -1403,7 +1402,6 @@ id,title,level,slug,paid,done
 1402,Reducing Dishes,3,reducing-dishes,0,0
 1403,Minimum Subsequence in Non-Increasing Order,1,minimum-subsequence-in-non-increasing-order,0,0
 1404,Number of Steps to Reduce a Number in Binary Representation to One,2,number-of-steps-to-reduce-a-number-in-binary-representation-to-one,0,0
-1405,Longest Happy String,2,longest-happy-string,0,0
 1406,Stone Game III,3,stone-game-iii,0,0
 1407,Top Travellers,1,top-travellers,1,0
 1408,String Matching in an Array,1,string-matching-in-an-array,0,0
@@ -1576,7 +1574,6 @@ id,title,level,slug,paid,done
 1575,Count All Possible Routes,3,count-all-possible-routes,0,0
 1576,Replace All ?'s to Avoid Consecutive Repeating Characters,1,replace-all-s-to-avoid-consecutive-repeating-characters,0,0
 1577,Number of Ways Where Square of Number Is Equal to Product of Two Numbers,2,number-of-ways-where-square-of-number-is-equal-to-product-of-two-numbers,0,0
-1578,Minimum Deletion Cost to Avoid Repeating Letters,2,minimum-deletion-cost-to-avoid-repeating-letters,0,0
 1579,Remove Max Number of Edges to Keep Graph Fully Traversable,3,remove-max-number-of-edges-to-keep-graph-fully-traversable,0,0
 1580,Put Boxes Into the Warehouse II,2,put-boxes-into-the-warehouse-ii,1,0
 1581,Customer Who Visited but Did Not Make Any Transactions,1,customer-who-visited-but-did-not-make-any-transactions,1,0
@@ -1902,7 +1899,6 @@ id,title,level,slug,paid,done
 1901,Find a Peak Element II,2,find-a-peak-element-ii,0,0
 1902,Depth of BST Given Insertion Order,2,depth-of-bst-given-insertion-order,1,0
 1903,Largest Odd Number in String,1,largest-odd-number-in-string,0,0
-1904,The Number of Full Rounds You Have Played,2,the-number-of-full-rounds-you-have-played,0,0
 1905,Count Sub Islands,2,count-sub-islands,0,0
 1906,Minimum Absolute Difference Queries,2,minimum-absolute-difference-queries,0,0
 1907,Count Salary Categories,2,count-salary-categories,1,0
@@ -2092,3 +2088,16 @@ id,title,level,slug,paid,done
 2091,Removing Minimum and Maximum From Array,2,removing-minimum-and-maximum-from-array,0,0
 2092,Find All People With Secret,3,find-all-people-with-secret,0,0
 2093,Minimum Cost to Reach City With Discounts,2,minimum-cost-to-reach-city-with-discounts,1,0
+2094,Finding 3-Digit Even Numbers,1,finding-3-digit-even-numbers,0,0
+2095,Delete the Middle Node of a Linked List,2,delete-the-middle-node-of-a-linked-list,0,0
+2096,Step-By-Step Directions From a Binary Tree Node to Another,2,step-by-step-directions-from-a-binary-tree-node-to-another,0,0
+2097,Valid Arrangement of Pairs,3,valid-arrangement-of-pairs,0,0
+2098,Subsequence of Size K With the Largest Even Sum,2,subsequence-of-size-k-with-the-largest-even-sum,1,0
+2099,Find Subsequence of Length K With the Largest Sum,1,find-subsequence-of-length-k-with-the-largest-sum,0,0
+2100,Find Good Days to Rob the Bank,2,find-good-days-to-rob-the-bank,0,0
+2101,Detonate the Maximum Bombs,2,detonate-the-maximum-bombs,0,0
+2102,Sequentially Ordinal Rank Tracker,3,sequentially-ordinal-rank-tracker,0,0
+2103,Rings and Rods,1,rings-and-rods,0,0
+2104,Sum of Subarray Ranges,2,sum-of-subarray-ranges,0,0
+2105,Watering Plants II,2,watering-plants-ii,0,0
+2106,Maximum Fruits Harvested After at Most K Steps,3,maximum-fruits-harvested-after-at-most-k-steps,0,0
