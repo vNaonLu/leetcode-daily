@@ -900,7 +900,7 @@ id,title,level,slug,paid,done
 899,Orderly Queue,3,orderly-queue,0,0
 900,RLE Iterator,2,rle-iterator,0,0
 901,Online Stock Span,2,online-stock-span,0,0
-902,Numbers At Most N Given Digit Set,3,numbers-at-most-n-given-digit-set,0,0
+902,Numbers At Most N Given Digit Set,3,numbers-at-most-n-given-digit-set,0,1
 903,Valid Permutations for DI Sequence,3,valid-permutations-for-di-sequence,0,0
 904,Fruit Into Baskets,2,fruit-into-baskets,0,0
 905,Sort Array By Parity,1,sort-array-by-parity,0,0

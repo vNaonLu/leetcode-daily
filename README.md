@@ -931,7 +931,7 @@ My daily challenge on leetcode since 2021/09/06.
 ||899|[Orderly Queue](https://leetcode.com/problems/orderly-queue/)|Hard|
 ||900|[RLE Iterator](https://leetcode.com/problems/rle-iterator/)|Medium|
 ||901|[Online Stock Span](https://leetcode.com/problems/online-stock-span/)|Medium|
-||902|[Numbers At Most N Given Digit Set](https://leetcode.com/problems/numbers-at-most-n-given-digit-set/)|Hard|
+|[📎](src/q_901_950/q0902.cc)|902|[Numbers At Most N Given Digit Set](https://leetcode.com/problems/numbers-at-most-n-given-digit-set/)|Hard|
 ||903|[Valid Permutations for DI Sequence](https://leetcode.com/problems/valid-permutations-for-di-sequence/)|Hard|
 ||904|[Fruit Into Baskets](https://leetcode.com/problems/fruit-into-baskets/)|Medium|
 ||905|[Sort Array By Parity](https://leetcode.com/problems/sort-array-by-parity/)|Easy|
@@ -2169,6 +2169,7 @@ My daily challenge on leetcode since 2021/09/06.
 
 |Time|#|</>|Question Title|Difficulty|
 |:--|--:|:-:|:--|:--|
+|2021-12-18 11:35|902|[📎](src/q_901_950/q0902.cc)|[Numbers At Most N Given Digit Set](https://leetcode.com/problems/numbers-at-most-n-given-digit-set/)|Hard|
 |2021-12-17 23:14|57|[📎](src/q_51_100/q0057.cc)|[Insert Interval](https://leetcode.com/problems/insert-interval/)|Medium|
 |2021-12-16 18:21|310|[📎](src/q_301_350/q0310.cc)|[Minimum Height Trees](https://leetcode.com/problems/minimum-height-trees/)|Medium|
 |2021-12-15 23:17|30|[📎](src/q_1_50/q0030.cc)|[Substring with Concatenation of All Words](https://leetcode.com/problems/substring-with-concatenation-of-all-words/)|Hard|
@@ -2193,13 +2194,12 @@ My daily challenge on leetcode since 2021/09/06.
 |2021-11-28 14:29|50|[📎](src/q_1_50/q0050.cc)|[Pow(x, n)](https://leetcode.com/problems/powx-n/)|Medium|
 |2021-11-27 14:02|31|[📎](src/q_1_50/q0031.cc)|[Next Permutation](https://leetcode.com/problems/next-permutation/)|Medium|
 |2021-11-26 21:37|35|[📎](src/q_1_50/q0035.cc)|[Search Insert Position](https://leetcode.com/problems/search-insert-position/)|Easy|
-|2021-11-25 18:02|263|[📎](src/q_251_300/q0263.cc)|[Ugly Number](https://leetcode.com/problems/ugly-number/)|Easy|
 
 ## Previous Logs
 
 |Month|Submissions|Easy|Medium|Hard|
 |:--|:--|:--|:--|:--|
-|[December_2021](./assets/December_2021.md)|19|6|8|5|
+|[December_2021](./assets/December_2021.md)|20|6|8|6|
 |[November_2021](./assets/November_2021.md)|41|19|16|6|
 |[October_2021](./assets/October_2021.md)|115|27|75|13|
 |[September_2021](./assets/September_2021.md)|133|55|71|7|
