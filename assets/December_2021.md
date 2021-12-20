@@ -2,6 +2,7 @@
 
 ||#|</>|Question Title|Difficulty|
 |:--|--:|:-:|:--|:--|
+|Day 20|1200|[📎](../src/q_1151_1200/q1200.cc)|[Minimum Absolute Difference](https://leetcode.com/problems/minimum-absolute-difference/)|Easy|
 |Day 19|394|[📎](../src/q_351_400/q0394.cc)|[Decode String](https://leetcode.com/problems/decode-string/)|Medium|
 |Day 18|902|[📎](../src/q_901_950/q0902.cc)|[Numbers At Most N Given Digit Set](https://leetcode.com/problems/numbers-at-most-n-given-digit-set/)|Hard|
 |Day 17|57|[📎](../src/q_51_100/q0057.cc)|[Insert Interval](https://leetcode.com/problems/insert-interval/)|Medium|

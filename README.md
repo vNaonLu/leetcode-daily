@@ -1235,7 +1235,7 @@ My daily challenge on leetcode since 2021/09/06.
 |🔒|1197|[Minimum Knight Moves](https://leetcode.com/problems/minimum-knight-moves/)|Medium|
 |🔒|1198|[Find Smallest Common Element in All Rows](https://leetcode.com/problems/find-smallest-common-element-in-all-rows/)|Medium|
 |🔒|1199|[Minimum Time to Build Blocks](https://leetcode.com/problems/minimum-time-to-build-blocks/)|Hard|
-||1200|[Minimum Absolute Difference](https://leetcode.com/problems/minimum-absolute-difference/)|Easy|
+|[📎](src/q_1151_1200/q1200.cc)|1200|[Minimum Absolute Difference](https://leetcode.com/problems/minimum-absolute-difference/)|Easy|
 ||1201|[Ugly Number III](https://leetcode.com/problems/ugly-number-iii/)|Medium|
 ||1202|[Smallest String With Swaps](https://leetcode.com/problems/smallest-string-with-swaps/)|Medium|
 ||1203|[Sort Items by Groups Respecting Dependencies](https://leetcode.com/problems/sort-items-by-groups-respecting-dependencies/)|Hard|
@@ -2178,6 +2178,7 @@ My daily challenge on leetcode since 2021/09/06.
 
 |Time|#|</>|Question Title|Difficulty|
 |:--|--:|:-:|:--|:--|
+|2021-12-20 18:07|1200|[📎](src/q_1151_1200/q1200.cc)|[Minimum Absolute Difference](https://leetcode.com/problems/minimum-absolute-difference/)|Easy|
 |2021-12-19 17:38|394|[📎](src/q_351_400/q0394.cc)|[Decode String](https://leetcode.com/problems/decode-string/)|Medium|
 |2021-12-18 11:35|902|[📎](src/q_901_950/q0902.cc)|[Numbers At Most N Given Digit Set](https://leetcode.com/problems/numbers-at-most-n-given-digit-set/)|Hard|
 |2021-12-17 23:14|57|[📎](src/q_51_100/q0057.cc)|[Insert Interval](https://leetcode.com/problems/insert-interval/)|Medium|
@@ -2202,13 +2203,12 @@ My daily challenge on leetcode since 2021/09/06.
 |2021-11-30 18:19|85|[📎](src/q_51_100/q0085.cc)|[Maximal Rectangle](https://leetcode.com/problems/maximal-rectangle/)|Hard|
 |2021-11-29 18:07|721|[📎](src/q_701_750/q0721.cc)|[Accounts Merge](https://leetcode.com/problems/accounts-merge/)|Medium|
 |2021-11-28 14:29|50|[📎](src/q_1_50/q0050.cc)|[Pow(x, n)](https://leetcode.com/problems/powx-n/)|Medium|
-|2021-11-27 14:02|31|[📎](src/q_1_50/q0031.cc)|[Next Permutation](https://leetcode.com/problems/next-permutation/)|Medium|
 
 ## Previous Logs
 
 |Month|Submissions|Easy|Medium|Hard|
 |:--|:--|:--|:--|:--|
-|[December_2021](./assets/December_2021.md)|21|6|9|6|
+|[December_2021](./assets/December_2021.md)|22|7|9|6|
 |[November_2021](./assets/November_2021.md)|41|19|16|6|
 |[October_2021](./assets/October_2021.md)|115|27|75|13|
 |[September_2021](./assets/September_2021.md)|133|55|71|7|
