@@ -72,7 +72,7 @@ My daily challenge on leetcode since 2021/09/06.
 ||58|[Length of Last Word](https://leetcode.com/problems/length-of-last-word/)|Easy|
 |[📎](src/q_51_100/q0059.cc)|59|[Spiral Matrix II](https://leetcode.com/problems/spiral-matrix-ii/)|Medium|
 ||60|[Permutation Sequence](https://leetcode.com/problems/permutation-sequence/)|Hard|
-||61|[Rotate List](https://leetcode.com/problems/rotate-list/)|Medium|
+|[📎](src/q_51_100/q0061.cc)|61|[Rotate List](https://leetcode.com/problems/rotate-list/)|Medium|
 |[📎](src/q_51_100/q0062.cc)|62|[Unique Paths](https://leetcode.com/problems/unique-paths/)|Medium|
 |[📎](src/q_51_100/q0063.cc)|63|[Unique Paths II](https://leetcode.com/problems/unique-paths-ii/)|Medium|
 |[📎](src/q_51_100/q0064.cc)|64|[Minimum Path Sum](https://leetcode.com/problems/minimum-path-sum/)|Medium|
@@ -2178,6 +2178,7 @@ My daily challenge on leetcode since 2021/09/06.
 
 |Time|#|</>|Question Title|Difficulty|
 |:--|--:|:-:|:--|:--|
+|2021-12-21 14:34|61|[📎](src/q_51_100/q0061.cc)|[Rotate List](https://leetcode.com/problems/rotate-list/)|Medium|
 |2021-12-20 18:07|1200|[📎](src/q_1151_1200/q1200.cc)|[Minimum Absolute Difference](https://leetcode.com/problems/minimum-absolute-difference/)|Easy|
 |2021-12-19 17:38|394|[📎](src/q_351_400/q0394.cc)|[Decode String](https://leetcode.com/problems/decode-string/)|Medium|
 |2021-12-18 11:35|902|[📎](src/q_901_950/q0902.cc)|[Numbers At Most N Given Digit Set](https://leetcode.com/problems/numbers-at-most-n-given-digit-set/)|Hard|
@@ -2202,13 +2203,12 @@ My daily challenge on leetcode since 2021/09/06.
 |2021-12-01 22:00|32|[📎](src/q_1_50/q0032.cc)|[Longest Valid Parentheses](https://leetcode.com/problems/longest-valid-parentheses/)|Hard|
 |2021-11-30 18:19|85|[📎](src/q_51_100/q0085.cc)|[Maximal Rectangle](https://leetcode.com/problems/maximal-rectangle/)|Hard|
 |2021-11-29 18:07|721|[📎](src/q_701_750/q0721.cc)|[Accounts Merge](https://leetcode.com/problems/accounts-merge/)|Medium|
-|2021-11-28 14:29|50|[📎](src/q_1_50/q0050.cc)|[Pow(x, n)](https://leetcode.com/problems/powx-n/)|Medium|
 
 ## Previous Logs
 
 |Month|Submissions|Easy|Medium|Hard|
 |:--|:--|:--|:--|:--|
-|[December_2021](./assets/December_2021.md)|22|7|9|6|
+|[December_2021](./assets/December_2021.md)|23|7|10|6|
 |[November_2021](./assets/November_2021.md)|41|19|16|6|
 |[October_2021](./assets/October_2021.md)|115|27|75|13|
 |[September_2021](./assets/September_2021.md)|133|55|71|7|
