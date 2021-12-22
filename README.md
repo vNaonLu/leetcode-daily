@@ -530,7 +530,7 @@ My daily challenge on leetcode since 2021/09/06.
 ||504|[Base 7](https://leetcode.com/problems/base-7/)|Easy|
 |🔒|505|[The Maze II](https://leetcode.com/problems/the-maze-ii/)|Medium|
 ||506|[Relative Ranks](https://leetcode.com/problems/relative-ranks/)|Easy|
-||507|[Perfect Number](https://leetcode.com/problems/perfect-number/)|Easy|
+|[📎](src/q_501_550/q0507.cc)|507|[Perfect Number](https://leetcode.com/problems/perfect-number/)|Easy|
 ||508|[Most Frequent Subtree Sum](https://leetcode.com/problems/most-frequent-subtree-sum/)|Medium|
 |[📎](src/q_501_550/q0509.cc)|509|[Fibonacci Number](https://leetcode.com/problems/fibonacci-number/)|Easy|
 |🔒|510|[Inorder Successor in BST II](https://leetcode.com/problems/inorder-successor-in-bst-ii/)|Medium|
@@ -2178,6 +2178,7 @@ My daily challenge on leetcode since 2021/09/06.
 
 |Time|#|</>|Question Title|Difficulty|
 |:--|--:|:-:|:--|:--|
+|2021-12-22 21:58|507|[📎](src/q_501_550/q0507.cc)|[Perfect Number](https://leetcode.com/problems/perfect-number/)|Easy|
 |2021-12-21 14:34|61|[📎](src/q_51_100/q0061.cc)|[Rotate List](https://leetcode.com/problems/rotate-list/)|Medium|
 |2021-12-20 18:07|1200|[📎](src/q_1151_1200/q1200.cc)|[Minimum Absolute Difference](https://leetcode.com/problems/minimum-absolute-difference/)|Easy|
 |2021-12-19 17:38|394|[📎](src/q_351_400/q0394.cc)|[Decode String](https://leetcode.com/problems/decode-string/)|Medium|
@@ -2202,13 +2203,12 @@ My daily challenge on leetcode since 2021/09/06.
 |2021-12-01 22:24|41|[📎](src/q_1_50/q0041.cc)|[First Missing Positive](https://leetcode.com/problems/first-missing-positive/)|Hard|
 |2021-12-01 22:00|32|[📎](src/q_1_50/q0032.cc)|[Longest Valid Parentheses](https://leetcode.com/problems/longest-valid-parentheses/)|Hard|
 |2021-11-30 18:19|85|[📎](src/q_51_100/q0085.cc)|[Maximal Rectangle](https://leetcode.com/problems/maximal-rectangle/)|Hard|
-|2021-11-29 18:07|721|[📎](src/q_701_750/q0721.cc)|[Accounts Merge](https://leetcode.com/problems/accounts-merge/)|Medium|
 
 ## Previous Logs
 
 |Month|Submissions|Easy|Medium|Hard|
 |:--|:--|:--|:--|:--|
-|[December_2021](./assets/December_2021.md)|23|7|10|6|
+|[December_2021](./assets/December_2021.md)|24|8|10|6|
 |[November_2021](./assets/November_2021.md)|41|19|16|6|
 |[October_2021](./assets/October_2021.md)|115|27|75|13|
 |[September_2021](./assets/September_2021.md)|133|55|71|7|
