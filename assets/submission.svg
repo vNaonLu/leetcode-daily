@@ -8,13 +8,13 @@ xmlns:xlink="http://www.w3.org/1999/xlink" stroke-width="40" fill="none">
 <circle cx="50" cy="50" r="30.0" stroke="gray" />
 <path d="M80.0 50 A 30.0 30.0, 0, 0, 1, 77.4404137998812 62.12533259301737" stroke="green" />
 <path d="M77.4404137998812 62.12533259301737 A 30.0 30.0, 0, 0, 1, 64.23334428070065 76.40855752567805" stroke="orange" />
-<path d="M64.23334428070065 76.40855752567805 A 30.0 30.0, 0, 0, 1, 60.909450177703654 77.9460891149406" stroke="red" />
+<path d="M64.23334428070065 76.40855752567805 A 30.0 30.0, 0, 0, 1, 60.80269388453625 77.98752945218644" stroke="red" />
 <text x="110.0" y="10.0" class="small">Easy Solved</text>
 <text x="110.0" y="20.0" class="esy">109</text>
 <text x="110.0" y="35.0" class="small">Medium Solved</text>
 <text x="110.0" y="45.0" class="mdm">173</text>
 <text x="110.0" y="60.0" class="small">Hard Solved</text>
-<text x="110.0" y="70.0" class="hrd">32</text>
+<text x="110.0" y="70.0" class="hrd">33</text>
 <text x="110.0" y="85.0" class="small">Total Solved</text>
-<text x="110.0" y="95.0" class="small">314</text>
+<text x="110.0" y="95.0" class="small">315</text>
 </svg>

@@ -55,7 +55,7 @@ My daily challenge on leetcode since 2021/09/06.
 |[📎](src/q_1_50/q0041.cc)|41|[First Missing Positive](https://leetcode.com/problems/first-missing-positive/)|Hard|
 |[📎](src/q_1_50/q0042.cc)|42|[Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water/)|Hard|
 |[📎](src/q_1_50/q0043.cc)|43|[Multiply Strings](https://leetcode.com/problems/multiply-strings/)|Medium|
-||44|[Wildcard Matching](https://leetcode.com/problems/wildcard-matching/)|Hard|
+|[📎](src/q_1_50/q0044.cc)|44|[Wildcard Matching](https://leetcode.com/problems/wildcard-matching/)|Hard|
 |[📎](src/q_1_50/q0045.cc)|45|[Jump Game II](https://leetcode.com/problems/jump-game-ii/)|Medium|
 |[📎](src/q_1_50/q0046.cc)|46|[Permutations](https://leetcode.com/problems/permutations/)|Medium|
 |[📎](src/q_1_50/q0047.cc)|47|[Permutations II](https://leetcode.com/problems/permutations-ii/)|Medium|
@@ -2179,6 +2179,7 @@ My daily challenge on leetcode since 2021/09/06.
 
 |Time|#|</>|Question Title|Difficulty|
 |:--|--:|:-:|:--|:--|
+|2021-12-24 18:29|44|[📎](src/q_1_50/q0044.cc)|[Wildcard Matching](https://leetcode.com/problems/wildcard-matching/)|Hard|
 |2021-12-23 18:09|210|[📎](src/q_201_250/q0210.cc)|[Course Schedule II](https://leetcode.com/problems/course-schedule-ii/)|Medium|
 |2021-12-22 21:58|507|[📎](src/q_501_550/q0507.cc)|[Perfect Number](https://leetcode.com/problems/perfect-number/)|Easy|
 |2021-12-21 14:34|61|[📎](src/q_51_100/q0061.cc)|[Rotate List](https://leetcode.com/problems/rotate-list/)|Medium|
@@ -2203,13 +2204,12 @@ My daily challenge on leetcode since 2021/09/06.
 |2021-12-03 18:37|520|[📎](src/q_501_550/q0520.cc)|[Detect Capital](https://leetcode.com/problems/detect-capital/)|Easy|
 |2021-12-02 13:04|328|[📎](src/q_301_350/q0328.cc)|[Odd Even Linked List](https://leetcode.com/problems/odd-even-linked-list/)|Medium|
 |2021-12-01 22:24|41|[📎](src/q_1_50/q0041.cc)|[First Missing Positive](https://leetcode.com/problems/first-missing-positive/)|Hard|
-|2021-12-01 22:00|32|[📎](src/q_1_50/q0032.cc)|[Longest Valid Parentheses](https://leetcode.com/problems/longest-valid-parentheses/)|Hard|
 
 ## Previous Logs
 
 |Month|Submissions|Easy|Medium|Hard|
 |:--|:--|:--|:--|:--|
-|[December_2021](./assets/December_2021.md)|25|8|11|6|
+|[December_2021](./assets/December_2021.md)|26|8|11|7|
 |[November_2021](./assets/November_2021.md)|41|19|16|6|
 |[October_2021](./assets/October_2021.md)|115|27|75|13|
 |[September_2021](./assets/September_2021.md)|133|55|71|7|
