@@ -238,7 +238,7 @@ My daily challenge on leetcode since 2021/09/06.
 |[📎](src/q_201_250/q0224.cc)|224|[Basic Calculator](https://leetcode.com/problems/basic-calculator/)|Hard|
 ||225|[Implement Stack using Queues](https://leetcode.com/problems/implement-stack-using-queues/)|Easy|
 |[📎](src/q_201_250/q0226.cc)|226|[Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree/)|Easy|
-||227|[Basic Calculator II](https://leetcode.com/problems/basic-calculator-ii/)|Medium|
+|[📎](src/q_201_250/q0227.cc)|227|[Basic Calculator II](https://leetcode.com/problems/basic-calculator-ii/)|Medium|
 ||228|[Summary Ranges](https://leetcode.com/problems/summary-ranges/)|Easy|
 ||229|[Majority Element II](https://leetcode.com/problems/majority-element-ii/)|Medium|
 |[📎](src/q_201_250/q0230.cc)|230|[Kth Smallest Element in a BST](https://leetcode.com/problems/kth-smallest-element-in-a-bst/)|Medium|
@@ -2179,6 +2179,7 @@ My daily challenge on leetcode since 2021/09/06.
 
 |Time|#|</>|Question Title|Difficulty|
 |:--|--:|:-:|:--|:--|
+|2021-12-25 20:42|227|[📎](src/q_201_250/q0227.cc)|[Basic Calculator II](https://leetcode.com/problems/basic-calculator-ii/)|Medium|
 |2021-12-24 18:29|44|[📎](src/q_1_50/q0044.cc)|[Wildcard Matching](https://leetcode.com/problems/wildcard-matching/)|Hard|
 |2021-12-23 18:09|210|[📎](src/q_201_250/q0210.cc)|[Course Schedule II](https://leetcode.com/problems/course-schedule-ii/)|Medium|
 |2021-12-22 21:58|507|[📎](src/q_501_550/q0507.cc)|[Perfect Number](https://leetcode.com/problems/perfect-number/)|Easy|
@@ -2203,13 +2204,12 @@ My daily challenge on leetcode since 2021/09/06.
 |2021-12-04 22:22|1032|[📎](src/q_1001_1050/q1032.cc)|[Stream of Characters](https://leetcode.com/problems/stream-of-characters/)|Hard|
 |2021-12-03 18:37|520|[📎](src/q_501_550/q0520.cc)|[Detect Capital](https://leetcode.com/problems/detect-capital/)|Easy|
 |2021-12-02 13:04|328|[📎](src/q_301_350/q0328.cc)|[Odd Even Linked List](https://leetcode.com/problems/odd-even-linked-list/)|Medium|
-|2021-12-01 22:24|41|[📎](src/q_1_50/q0041.cc)|[First Missing Positive](https://leetcode.com/problems/first-missing-positive/)|Hard|
 
 ## Previous Logs
 
 |Month|Submissions|Easy|Medium|Hard|
 |:--|:--|:--|:--|:--|
-|[December_2021](./assets/December_2021.md)|26|8|11|7|
+|[December_2021](./assets/December_2021.md)|27|8|12|7|
 |[November_2021](./assets/November_2021.md)|41|19|16|6|
 |[October_2021](./assets/October_2021.md)|115|27|75|13|
 |[September_2021](./assets/September_2021.md)|133|55|71|7|
