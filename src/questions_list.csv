@@ -42,7 +42,7 @@ id,title,level,slug,paid,done
 41,First Missing Positive,3,first-missing-positive,0,1
 42,Trapping Rain Water,3,trapping-rain-water,0,1
 43,Multiply Strings,2,multiply-strings,0,1
-44,Wildcard Matching,3,wildcard-matching,0,0
+44,Wildcard Matching,3,wildcard-matching,0,1
 45,Jump Game II,2,jump-game-ii,0,1
 46,Permutations,2,permutations,0,1
 47,Permutations II,2,permutations-ii,0,1
@@ -59,7 +59,7 @@ id,title,level,slug,paid,done
 58,Length of Last Word,1,length-of-last-word,0,0
 59,Spiral Matrix II,2,spiral-matrix-ii,0,1
 60,Permutation Sequence,3,permutation-sequence,0,0
-61,Rotate List,2,rotate-list,0,0
+61,Rotate List,2,rotate-list,0,1
 62,Unique Paths,2,unique-paths,0,1
 63,Unique Paths II,2,unique-paths-ii,0,1
 64,Minimum Path Sum,2,minimum-path-sum,0,1
@@ -208,7 +208,7 @@ id,title,level,slug,paid,done
 207,Course Schedule,2,course-schedule,0,0
 208,Implement Trie (Prefix Tree),2,implement-trie-prefix-tree,0,1
 209,Minimum Size Subarray Sum,2,minimum-size-subarray-sum,0,1
-210,Course Schedule II,2,course-schedule-ii,0,0
+210,Course Schedule II,2,course-schedule-ii,0,1
 211,Design Add and Search Words Data Structure,2,design-add-and-search-words-data-structure,0,0
 212,Word Search II,3,word-search-ii,0,1
 213,House Robber II,2,house-robber-ii,0,1
@@ -225,7 +225,7 @@ id,title,level,slug,paid,done
 224,Basic Calculator,3,basic-calculator,0,1
 225,Implement Stack using Queues,1,implement-stack-using-queues,0,0
 226,Invert Binary Tree,1,invert-binary-tree,0,1
-227,Basic Calculator II,2,basic-calculator-ii,0,0
+227,Basic Calculator II,2,basic-calculator-ii,0,1
 228,Summary Ranges,1,summary-ranges,0,0
 229,Majority Element II,2,majority-element-ii,0,0
 230,Kth Smallest Element in a BST,2,kth-smallest-element-in-a-bst,0,1
@@ -392,7 +392,7 @@ id,title,level,slug,paid,done
 391,Perfect Rectangle,3,perfect-rectangle,0,0
 392,Is Subsequence,1,is-subsequence,0,1
 393,UTF-8 Validation,2,utf-8-validation,0,0
-394,Decode String,2,decode-string,0,0
+394,Decode String,2,decode-string,0,1
 395,Longest Substring with At Least K Repeating Characters,2,longest-substring-with-at-least-k-repeating-characters,0,0
 396,Rotate Function,2,rotate-function,0,0
 397,Integer Replacement,2,integer-replacement,0,0
@@ -505,7 +505,7 @@ id,title,level,slug,paid,done
 504,Base 7,1,base-7,0,0
 505,The Maze II,2,the-maze-ii,1,0
 506,Relative Ranks,1,relative-ranks,0,0
-507,Perfect Number,1,perfect-number,0,0
+507,Perfect Number,1,perfect-number,0,1
 508,Most Frequent Subtree Sum,2,most-frequent-subtree-sum,0,0
 509,Fibonacci Number,1,fibonacci-number,0,1
 510,Inorder Successor in BST II,2,inorder-successor-in-bst-ii,1,0
@@ -1198,7 +1198,7 @@ id,title,level,slug,paid,done
 1197,Minimum Knight Moves,2,minimum-knight-moves,1,0
 1198,Find Smallest Common Element in All Rows,2,find-smallest-common-element-in-all-rows,1,0
 1199,Minimum Time to Build Blocks,3,minimum-time-to-build-blocks,1,0
-1200,Minimum Absolute Difference,1,minimum-absolute-difference,0,0
+1200,Minimum Absolute Difference,1,minimum-absolute-difference,0,1
 1201,Ugly Number III,2,ugly-number-iii,0,0
 1202,Smallest String With Swaps,2,smallest-string-with-swaps,0,0
 1203,Sort Items by Groups Respecting Dependencies,3,sort-items-by-groups-respecting-dependencies,0,0
@@ -1373,6 +1373,7 @@ id,title,level,slug,paid,done
 1372,Longest ZigZag Path in a Binary Tree,2,longest-zigzag-path-in-a-binary-tree,0,0
 1373,Maximum Sum BST in Binary Tree,3,maximum-sum-bst-in-binary-tree,0,0
 1374,Generate a String With Characters That Have Odd Counts,1,generate-a-string-with-characters-that-have-odd-counts,0,0
+1375,Number of Times Binary String Is Prefix-Aligned,2,number-of-times-binary-string-is-prefix-aligned,0,0
 1376,Time Needed to Inform All Employees,2,time-needed-to-inform-all-employees,0,0
 1377,Frog Position After T Seconds,3,frog-position-after-t-seconds,0,0
 1378,Replace Employee ID With The Unique Identifier,1,replace-employee-id-with-the-unique-identifier,1,0
@@ -1402,6 +1403,7 @@ id,title,level,slug,paid,done
 1402,Reducing Dishes,3,reducing-dishes,0,0
 1403,Minimum Subsequence in Non-Increasing Order,1,minimum-subsequence-in-non-increasing-order,0,0
 1404,Number of Steps to Reduce a Number in Binary Representation to One,2,number-of-steps-to-reduce-a-number-in-binary-representation-to-one,0,0
+1405,Longest Happy String,2,longest-happy-string,0,0
 1406,Stone Game III,3,stone-game-iii,0,0
 1407,Top Travellers,1,top-travellers,1,0
 1408,String Matching in an Array,1,string-matching-in-an-array,0,0
@@ -1525,7 +1527,7 @@ id,title,level,slug,paid,done
 1526,Minimum Number of Increments on Subarrays to Form a Target Array,3,minimum-number-of-increments-on-subarrays-to-form-a-target-array,0,0
 1527,Patients With a Condition,1,patients-with-a-condition,1,0
 1528,Shuffle String,1,shuffle-string,0,0
-1529,Bulb Switcher IV,2,bulb-switcher-iv,0,0
+1529,Minimum Suffix Flips,2,minimum-suffix-flips,0,0
 1530,Number of Good Leaf Nodes Pairs,2,number-of-good-leaf-nodes-pairs,0,0
 1531,String Compression II,3,string-compression-ii,0,0
 1532,The Most Recent Three Orders,2,the-most-recent-three-orders,1,0
@@ -1574,6 +1576,7 @@ id,title,level,slug,paid,done
 1575,Count All Possible Routes,3,count-all-possible-routes,0,0
 1576,Replace All ?'s to Avoid Consecutive Repeating Characters,1,replace-all-s-to-avoid-consecutive-repeating-characters,0,0
 1577,Number of Ways Where Square of Number Is Equal to Product of Two Numbers,2,number-of-ways-where-square-of-number-is-equal-to-product-of-two-numbers,0,0
+1578,Minimum Time to Make Rope Colorful,2,minimum-time-to-make-rope-colorful,0,0
 1579,Remove Max Number of Edges to Keep Graph Fully Traversable,3,remove-max-number-of-edges-to-keep-graph-fully-traversable,0,0
 1580,Put Boxes Into the Warehouse II,2,put-boxes-into-the-warehouse-ii,1,0
 1581,Customer Who Visited but Did Not Make Any Transactions,1,customer-who-visited-but-did-not-make-any-transactions,1,0
@@ -1899,6 +1902,7 @@ id,title,level,slug,paid,done
 1901,Find a Peak Element II,2,find-a-peak-element-ii,0,0
 1902,Depth of BST Given Insertion Order,2,depth-of-bst-given-insertion-order,1,0
 1903,Largest Odd Number in String,1,largest-odd-number-in-string,0,0
+1904,The Number of Full Rounds You Have Played,2,the-number-of-full-rounds-you-have-played,0,0
 1905,Count Sub Islands,2,count-sub-islands,0,0
 1906,Minimum Absolute Difference Queries,2,minimum-absolute-difference-queries,0,0
 1907,Count Salary Categories,2,count-salary-categories,1,0
@@ -2101,3 +2105,9 @@ id,title,level,slug,paid,done
 2104,Sum of Subarray Ranges,2,sum-of-subarray-ranges,0,0
 2105,Watering Plants II,2,watering-plants-ii,0,0
 2106,Maximum Fruits Harvested After at Most K Steps,3,maximum-fruits-harvested-after-at-most-k-steps,0,0
+2107,Number of Unique Flavors After Sharing K Candies,2,number-of-unique-flavors-after-sharing-k-candies,1,0
+2108,Find First Palindromic String in the Array,1,find-first-palindromic-string-in-the-array,0,0
+2109,Adding Spaces to a String,2,adding-spaces-to-a-string,0,0
+2110,Number of Smooth Descent Periods of a Stock,2,number-of-smooth-descent-periods-of-a-stock,0,0
+2111,Minimum Operations to Make the Array K-Increasing,3,minimum-operations-to-make-the-array-k-increasing,0,0
+2112,The Airport With the Most Traffic,2,the-airport-with-the-most-traffic,1,0
