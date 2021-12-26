@@ -77,7 +77,7 @@ My daily challenge on leetcode since 2021/09/06.
 |[📎](src/q_51_100/q0063.cc)|63|[Unique Paths II](https://leetcode.com/problems/unique-paths-ii/)|Medium|
 |[📎](src/q_51_100/q0064.cc)|64|[Minimum Path Sum](https://leetcode.com/problems/minimum-path-sum/)|Medium|
 ||65|[Valid Number](https://leetcode.com/problems/valid-number/)|Hard|
-||66|[Plus One](https://leetcode.com/problems/plus-one/)|Easy|
+|[📎](src/q_51_100/q0066.cc)|66|[Plus One](https://leetcode.com/problems/plus-one/)|Easy|
 ||67|[Add Binary](https://leetcode.com/problems/add-binary/)|Easy|
 ||68|[Text Justification](https://leetcode.com/problems/text-justification/)|Hard|
 ||69|[Sqrt(x)](https://leetcode.com/problems/sqrtx/)|Easy|
@@ -2179,6 +2179,7 @@ My daily challenge on leetcode since 2021/09/06.
 
 |Time|#|</>|Question Title|Difficulty|
 |:--|--:|:-:|:--|:--|
+|2021-12-26 14:59|66|[📎](src/q_51_100/q0066.cc)|[Plus One](https://leetcode.com/problems/plus-one/)|Easy|
 |2021-12-25 20:42|227|[📎](src/q_201_250/q0227.cc)|[Basic Calculator II](https://leetcode.com/problems/basic-calculator-ii/)|Medium|
 |2021-12-24 18:29|44|[📎](src/q_1_50/q0044.cc)|[Wildcard Matching](https://leetcode.com/problems/wildcard-matching/)|Hard|
 |2021-12-23 18:09|210|[📎](src/q_201_250/q0210.cc)|[Course Schedule II](https://leetcode.com/problems/course-schedule-ii/)|Medium|
@@ -2203,13 +2204,12 @@ My daily challenge on leetcode since 2021/09/06.
 |2021-12-05 14:08|337|[📎](src/q_301_350/q0337.cc)|[House Robber III](https://leetcode.com/problems/house-robber-iii/)|Medium|
 |2021-12-04 22:22|1032|[📎](src/q_1001_1050/q1032.cc)|[Stream of Characters](https://leetcode.com/problems/stream-of-characters/)|Hard|
 |2021-12-03 18:37|520|[📎](src/q_501_550/q0520.cc)|[Detect Capital](https://leetcode.com/problems/detect-capital/)|Easy|
-|2021-12-02 13:04|328|[📎](src/q_301_350/q0328.cc)|[Odd Even Linked List](https://leetcode.com/problems/odd-even-linked-list/)|Medium|
 
 ## Previous Logs
 
 |Month|Submissions|Easy|Medium|Hard|
 |:--|:--|:--|:--|:--|
-|[December_2021](./assets/December_2021.md)|27|8|12|7|
+|[December_2021](./assets/December_2021.md)|28|9|12|7|
 |[November_2021](./assets/November_2021.md)|41|19|16|6|
 |[October_2021](./assets/October_2021.md)|115|27|75|13|
 |[September_2021](./assets/September_2021.md)|133|55|71|7|

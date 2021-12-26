@@ -2,6 +2,7 @@
 
 ||#|</>|Question Title|Difficulty|
 |:--|--:|:-:|:--|:--|
+|Day 26|66|[📎](../src/q_51_100/q0066.cc)|[Plus One](https://leetcode.com/problems/plus-one/)|Easy|
 |Day 25|227|[📎](../src/q_201_250/q0227.cc)|[Basic Calculator II](https://leetcode.com/problems/basic-calculator-ii/)|Medium|
 |Day 24|44|[📎](../src/q_1_50/q0044.cc)|[Wildcard Matching](https://leetcode.com/problems/wildcard-matching/)|Hard|
 |Day 23|210|[📎](../src/q_201_250/q0210.cc)|[Course Schedule II](https://leetcode.com/problems/course-schedule-ii/)|Medium|
