@@ -493,7 +493,7 @@ My daily challenge on leetcode since 2021/09/06.
 ||473|[Matchsticks to Square](https://leetcode.com/problems/matchsticks-to-square/)|Medium|
 ||474|[Ones and Zeroes](https://leetcode.com/problems/ones-and-zeroes/)|Medium|
 ||475|[Heaters](https://leetcode.com/problems/heaters/)|Medium|
-||476|[Number Complement](https://leetcode.com/problems/number-complement/)|Easy|
+|[📎](src/q_451_500/q0476.cc)|476|[Number Complement](https://leetcode.com/problems/number-complement/)|Easy|
 ||477|[Total Hamming Distance](https://leetcode.com/problems/total-hamming-distance/)|Medium|
 ||478|[Generate Random Point in a Circle](https://leetcode.com/problems/generate-random-point-in-a-circle/)|Medium|
 ||479|[Largest Palindrome Product](https://leetcode.com/problems/largest-palindrome-product/)|Hard|
@@ -2056,7 +2056,7 @@ My daily challenge on leetcode since 2021/09/06.
 ||2000|[Reverse Prefix of Word](https://leetcode.com/problems/reverse-prefix-of-word/)|Easy|
 </details>
 <details>
-  <summary>### 2001 ~ 2112</summary>
+  <summary>### 2001 ~ 2122</summary>
 
 |</>|#|Solution Title|Difficulty|
 |:-:|--:|:--|:--|
@@ -2172,6 +2172,16 @@ My daily challenge on leetcode since 2021/09/06.
 ||2110|[Number of Smooth Descent Periods of a Stock](https://leetcode.com/problems/number-of-smooth-descent-periods-of-a-stock/)|Medium|
 ||2111|[Minimum Operations to Make the Array K-Increasing](https://leetcode.com/problems/minimum-operations-to-make-the-array-k-increasing/)|Hard|
 |🔒|2112|[The Airport With the Most Traffic](https://leetcode.com/problems/the-airport-with-the-most-traffic/)|Medium|
+|🔒|2113|[Elements in Array After Removing and Replacing Elements](https://leetcode.com/problems/elements-in-array-after-removing-and-replacing-elements/)|Medium|
+||2114|[Maximum Number of Words Found in Sentences](https://leetcode.com/problems/maximum-number-of-words-found-in-sentences/)|Easy|
+||2115|[Find All Possible Recipes from Given Supplies](https://leetcode.com/problems/find-all-possible-recipes-from-given-supplies/)|Medium|
+||2116|[Check if a Parentheses String Can Be Valid](https://leetcode.com/problems/check-if-a-parentheses-string-can-be-valid/)|Medium|
+||2117|[Abbreviating the Product of a Range](https://leetcode.com/problems/abbreviating-the-product-of-a-range/)|Hard|
+|🔒|2118|[Build the Equation](https://leetcode.com/problems/build-the-equation/)|Hard|
+||2119|[A Number After a Double Reversal](https://leetcode.com/problems/a-number-after-a-double-reversal/)|Easy|
+||2120|[Execution of All Suffix Instructions Staying in a Grid](https://leetcode.com/problems/execution-of-all-suffix-instructions-staying-in-a-grid/)|Medium|
+||2121|[Intervals Between Identical Elements](https://leetcode.com/problems/intervals-between-identical-elements/)|Medium|
+||2122|[Recover the Original Array](https://leetcode.com/problems/recover-the-original-array/)|Hard|
 </details>
 
 ---
@@ -2179,6 +2189,7 @@ My daily challenge on leetcode since 2021/09/06.
 
 |Time|#|</>|Question Title|Difficulty|
 |:--|--:|:-:|:--|:--|
+|2021-12-27 18:26|476|[📎](src/q_451_500/q0476.cc)|[Number Complement](https://leetcode.com/problems/number-complement/)|Easy|
 |2021-12-26 14:59|66|[📎](src/q_51_100/q0066.cc)|[Plus One](https://leetcode.com/problems/plus-one/)|Easy|
 |2021-12-25 20:42|227|[📎](src/q_201_250/q0227.cc)|[Basic Calculator II](https://leetcode.com/problems/basic-calculator-ii/)|Medium|
 |2021-12-24 18:29|44|[📎](src/q_1_50/q0044.cc)|[Wildcard Matching](https://leetcode.com/problems/wildcard-matching/)|Hard|
@@ -2203,13 +2214,12 @@ My daily challenge on leetcode since 2021/09/06.
 |2021-12-06 18:16|1217|[📎](src/q_1201_1250/q1217.cc)|[Minimum Cost to Move Chips to The Same Position](https://leetcode.com/problems/minimum-cost-to-move-chips-to-the-same-position/)|Easy|
 |2021-12-05 14:08|337|[📎](src/q_301_350/q0337.cc)|[House Robber III](https://leetcode.com/problems/house-robber-iii/)|Medium|
 |2021-12-04 22:22|1032|[📎](src/q_1001_1050/q1032.cc)|[Stream of Characters](https://leetcode.com/problems/stream-of-characters/)|Hard|
-|2021-12-03 18:37|520|[📎](src/q_501_550/q0520.cc)|[Detect Capital](https://leetcode.com/problems/detect-capital/)|Easy|
 
 ## Previous Logs
 
 |Month|Submissions|Easy|Medium|Hard|
 |:--|:--|:--|:--|:--|
-|[December_2021](./assets/December_2021.md)|28|9|12|7|
+|[December_2021](./assets/December_2021.md)|29|10|12|7|
 |[November_2021](./assets/November_2021.md)|41|19|16|6|
 |[October_2021](./assets/October_2021.md)|115|27|75|13|
 |[September_2021](./assets/September_2021.md)|133|55|71|7|

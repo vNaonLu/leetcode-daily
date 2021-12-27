@@ -474,7 +474,7 @@ id,title,level,slug,paid,done
 473,Matchsticks to Square,2,matchsticks-to-square,0,0
 474,Ones and Zeroes,2,ones-and-zeroes,0,0
 475,Heaters,2,heaters,0,0
-476,Number Complement,1,number-complement,0,0
+476,Number Complement,1,number-complement,0,1
 477,Total Hamming Distance,2,total-hamming-distance,0,0
 478,Generate Random Point in a Circle,2,generate-random-point-in-a-circle,0,0
 479,Largest Palindrome Product,3,largest-palindrome-product,0,0
@@ -2111,3 +2111,13 @@ id,title,level,slug,paid,done
 2110,Number of Smooth Descent Periods of a Stock,2,number-of-smooth-descent-periods-of-a-stock,0,0
 2111,Minimum Operations to Make the Array K-Increasing,3,minimum-operations-to-make-the-array-k-increasing,0,0
 2112,The Airport With the Most Traffic,2,the-airport-with-the-most-traffic,1,0
+2113,Elements in Array After Removing and Replacing Elements,2,elements-in-array-after-removing-and-replacing-elements,1,0
+2114,Maximum Number of Words Found in Sentences,1,maximum-number-of-words-found-in-sentences,0,0
+2115,Find All Possible Recipes from Given Supplies,2,find-all-possible-recipes-from-given-supplies,0,0
+2116,Check if a Parentheses String Can Be Valid,2,check-if-a-parentheses-string-can-be-valid,0,0
+2117,Abbreviating the Product of a Range,3,abbreviating-the-product-of-a-range,0,0
+2118,Build the Equation,3,build-the-equation,1,0
+2119,A Number After a Double Reversal,1,a-number-after-a-double-reversal,0,0
+2120,Execution of All Suffix Instructions Staying in a Grid,2,execution-of-all-suffix-instructions-staying-in-a-grid,0,0
+2121,Intervals Between Identical Elements,2,intervals-between-identical-elements,0,0
+2122,Recover the Original Array,3,recover-the-original-array,0,0
