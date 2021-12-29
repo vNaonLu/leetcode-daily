@@ -103,7 +103,7 @@ My daily challenge on leetcode since 2021/09/06.
 ||89|[Gray Code](https://leetcode.com/problems/gray-code/)|Medium|
 |[📎](src/q_51_100/q0090.cc)|90|[Subsets II](https://leetcode.com/problems/subsets-ii/)|Medium|
 |[📎](src/q_51_100/q0091.cc)|91|[Decode Ways](https://leetcode.com/problems/decode-ways/)|Medium|
-||92|[Reverse Linked List II](https://leetcode.com/problems/reverse-linked-list-ii/)|Medium|
+|[📎](src/q_51_100/q0092.cc)|92|[Reverse Linked List II](https://leetcode.com/problems/reverse-linked-list-ii/)|Medium|
 |[📎](src/q_51_100/q0093.cc)|93|[Restore IP Addresses](https://leetcode.com/problems/restore-ip-addresses/)|Medium|
 |[📎](src/q_51_100/q0094.cc)|94|[Binary Tree Inorder Traversal](https://leetcode.com/problems/binary-tree-inorder-traversal/)|Easy|
 ||95|[Unique Binary Search Trees II](https://leetcode.com/problems/unique-binary-search-trees-ii/)|Medium|
@@ -2189,6 +2189,7 @@ My daily challenge on leetcode since 2021/09/06.
 
 |Time|#|</>|Question Title|Difficulty|
 |:--|--:|:-:|:--|:--|
+|2021-12-29 18:13|92|[📎](src/q_51_100/q0092.cc)|[Reverse Linked List II](https://leetcode.com/problems/reverse-linked-list-ii/)|Medium|
 |2021-12-28 18:40|58|[📎](src/q_51_100/q0058.cc)|[Length of Last Word](https://leetcode.com/problems/length-of-last-word/)|Easy|
 |2021-12-27 18:26|476|[📎](src/q_451_500/q0476.cc)|[Number Complement](https://leetcode.com/problems/number-complement/)|Easy|
 |2021-12-26 14:59|66|[📎](src/q_51_100/q0066.cc)|[Plus One](https://leetcode.com/problems/plus-one/)|Easy|
@@ -2213,13 +2214,12 @@ My daily challenge on leetcode since 2021/09/06.
 |2021-12-08 17:51|563|[📎](src/q_551_600/q0563.cc)|[Binary Tree Tilt](https://leetcode.com/problems/binary-tree-tilt/)|Easy|
 |2021-12-07 18:28|1290|[📎](src/q_1251_1300/q1290.cc)|[Convert Binary Number in a Linked List to Integer](https://leetcode.com/problems/convert-binary-number-in-a-linked-list-to-integer/)|Easy|
 |2021-12-06 18:16|1217|[📎](src/q_1201_1250/q1217.cc)|[Minimum Cost to Move Chips to The Same Position](https://leetcode.com/problems/minimum-cost-to-move-chips-to-the-same-position/)|Easy|
-|2021-12-05 14:08|337|[📎](src/q_301_350/q0337.cc)|[House Robber III](https://leetcode.com/problems/house-robber-iii/)|Medium|
 
 ## Previous Logs
 
 |Month|Submissions|Easy|Medium|Hard|
 |:--|:--|:--|:--|:--|
-|[December_2021](./assets/December_2021.md)|30|11|12|7|
+|[December_2021](./assets/December_2021.md)|31|11|13|7|
 |[November_2021](./assets/November_2021.md)|41|19|16|6|
 |[October_2021](./assets/October_2021.md)|115|27|75|13|
 |[September_2021](./assets/September_2021.md)|133|55|71|7|

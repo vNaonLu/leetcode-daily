@@ -2,6 +2,7 @@
 
 ||#|</>|Question Title|Difficulty|
 |:--|--:|:-:|:--|:--|
+|Day 29|92|[📎](../src/q_51_100/q0092.cc)|[Reverse Linked List II](https://leetcode.com/problems/reverse-linked-list-ii/)|Medium|
 |Day 28|58|[📎](../src/q_51_100/q0058.cc)|[Length of Last Word](https://leetcode.com/problems/length-of-last-word/)|Easy|
 |Day 27|476|[📎](../src/q_451_500/q0476.cc)|[Number Complement](https://leetcode.com/problems/number-complement/)|Easy|
 |Day 26|66|[📎](../src/q_51_100/q0066.cc)|[Plus One](https://leetcode.com/problems/plus-one/)|Easy|
