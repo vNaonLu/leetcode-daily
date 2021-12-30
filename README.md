@@ -1050,7 +1050,7 @@ My daily challenge on leetcode since 2021/09/06.
 ||1012|[Numbers With Repeated Digits](https://leetcode.com/problems/numbers-with-repeated-digits/)|Hard|
 ||1013|[Partition Array Into Three Parts With Equal Sum](https://leetcode.com/problems/partition-array-into-three-parts-with-equal-sum/)|Easy|
 |[📎](src/q_1001_1050/q1014.cc)|1014|[Best Sightseeing Pair](https://leetcode.com/problems/best-sightseeing-pair/)|Medium|
-||1015|[Smallest Integer Divisible by K](https://leetcode.com/problems/smallest-integer-divisible-by-k/)|Medium|
+|[📎](src/q_1001_1050/q1015.cc)|1015|[Smallest Integer Divisible by K](https://leetcode.com/problems/smallest-integer-divisible-by-k/)|Medium|
 ||1016|[Binary String With Substrings Representing 1 To N](https://leetcode.com/problems/binary-string-with-substrings-representing-1-to-n/)|Medium|
 ||1017|[Convert to Base -2](https://leetcode.com/problems/convert-to-base-2/)|Medium|
 ||1018|[Binary Prefix Divisible By 5](https://leetcode.com/problems/binary-prefix-divisible-by-5/)|Easy|
@@ -2056,7 +2056,7 @@ My daily challenge on leetcode since 2021/09/06.
 ||2000|[Reverse Prefix of Word](https://leetcode.com/problems/reverse-prefix-of-word/)|Easy|
 </details>
 <details>
-  <summary>### 2001 ~ 2122</summary>
+  <summary>### 2001 ~ 2123</summary>
 
 |</>|#|Solution Title|Difficulty|
 |:-:|--:|:--|:--|
@@ -2182,6 +2182,7 @@ My daily challenge on leetcode since 2021/09/06.
 ||2120|[Execution of All Suffix Instructions Staying in a Grid](https://leetcode.com/problems/execution-of-all-suffix-instructions-staying-in-a-grid/)|Medium|
 ||2121|[Intervals Between Identical Elements](https://leetcode.com/problems/intervals-between-identical-elements/)|Medium|
 ||2122|[Recover the Original Array](https://leetcode.com/problems/recover-the-original-array/)|Hard|
+|🔒|2123|[Minimum Operations to Remove Adjacent Ones in Matrix](https://leetcode.com/problems/minimum-operations-to-remove-adjacent-ones-in-matrix/)|Hard|
 </details>
 
 ---
@@ -2189,6 +2190,7 @@ My daily challenge on leetcode since 2021/09/06.
 
 |Time|#|</>|Question Title|Difficulty|
 |:--|--:|:-:|:--|:--|
+|2021-12-30 18:05|1015|[📎](src/q_1001_1050/q1015.cc)|[Smallest Integer Divisible by K](https://leetcode.com/problems/smallest-integer-divisible-by-k/)|Medium|
 |2021-12-29 18:13|92|[📎](src/q_51_100/q0092.cc)|[Reverse Linked List II](https://leetcode.com/problems/reverse-linked-list-ii/)|Medium|
 |2021-12-28 18:40|58|[📎](src/q_51_100/q0058.cc)|[Length of Last Word](https://leetcode.com/problems/length-of-last-word/)|Easy|
 |2021-12-27 18:26|476|[📎](src/q_451_500/q0476.cc)|[Number Complement](https://leetcode.com/problems/number-complement/)|Easy|
@@ -2213,13 +2215,12 @@ My daily challenge on leetcode since 2021/09/06.
 |2021-12-09 17:58|1306|[📎](src/q_1301_1350/q1306.cc)|[Jump Game III](https://leetcode.com/problems/jump-game-iii/)|Medium|
 |2021-12-08 17:51|563|[📎](src/q_551_600/q0563.cc)|[Binary Tree Tilt](https://leetcode.com/problems/binary-tree-tilt/)|Easy|
 |2021-12-07 18:28|1290|[📎](src/q_1251_1300/q1290.cc)|[Convert Binary Number in a Linked List to Integer](https://leetcode.com/problems/convert-binary-number-in-a-linked-list-to-integer/)|Easy|
-|2021-12-06 18:16|1217|[📎](src/q_1201_1250/q1217.cc)|[Minimum Cost to Move Chips to The Same Position](https://leetcode.com/problems/minimum-cost-to-move-chips-to-the-same-position/)|Easy|
 
 ## Previous Logs
 
 |Month|Submissions|Easy|Medium|Hard|
 |:--|:--|:--|:--|:--|
-|[December_2021](./assets/December_2021.md)|31|11|13|7|
+|[December_2021](./assets/December_2021.md)|32|11|14|7|
 |[November_2021](./assets/November_2021.md)|41|19|16|6|
 |[October_2021](./assets/October_2021.md)|115|27|75|13|
 |[September_2021](./assets/September_2021.md)|133|55|71|7|

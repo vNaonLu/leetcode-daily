@@ -1013,7 +1013,7 @@ id,title,level,slug,paid,done
 1012,Numbers With Repeated Digits,3,numbers-with-repeated-digits,0,0
 1013,Partition Array Into Three Parts With Equal Sum,1,partition-array-into-three-parts-with-equal-sum,0,0
 1014,Best Sightseeing Pair,2,best-sightseeing-pair,0,1
-1015,Smallest Integer Divisible by K,2,smallest-integer-divisible-by-k,0,0
+1015,Smallest Integer Divisible by K,2,smallest-integer-divisible-by-k,0,1
 1016,Binary String With Substrings Representing 1 To N,2,binary-string-with-substrings-representing-1-to-n,0,0
 1017,Convert to Base -2,2,convert-to-base-2,0,0
 1018,Binary Prefix Divisible By 5,1,binary-prefix-divisible-by-5,0,0
@@ -2121,3 +2121,4 @@ id,title,level,slug,paid,done
 2120,Execution of All Suffix Instructions Staying in a Grid,2,execution-of-all-suffix-instructions-staying-in-a-grid,0,0
 2121,Intervals Between Identical Elements,2,intervals-between-identical-elements,0,0
 2122,Recover the Original Array,3,recover-the-original-array,0,0
+2123,Minimum Operations to Remove Adjacent Ones in Matrix,3,minimum-operations-to-remove-adjacent-ones-in-matrix,1,0
