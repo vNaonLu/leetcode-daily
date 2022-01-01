@@ -56,7 +56,7 @@ id,title,level,slug,paid,done
 55,Jump Game,2,jump-game,0,1
 56,Merge Intervals,2,merge-intervals,0,1
 57,Insert Interval,2,insert-interval,0,1
-58,Length of Last Word,1,length-of-last-word,0,0
+58,Length of Last Word,1,length-of-last-word,0,1
 59,Spiral Matrix II,2,spiral-matrix-ii,0,1
 60,Permutation Sequence,3,permutation-sequence,0,0
 61,Rotate List,2,rotate-list,0,1
@@ -64,7 +64,7 @@ id,title,level,slug,paid,done
 63,Unique Paths II,2,unique-paths-ii,0,1
 64,Minimum Path Sum,2,minimum-path-sum,0,1
 65,Valid Number,3,valid-number,0,0
-66,Plus One,1,plus-one,0,0
+66,Plus One,1,plus-one,0,1
 67,Add Binary,1,add-binary,0,0
 68,Text Justification,3,text-justification,0,0
 69,Sqrt(x),1,sqrtx,0,0
@@ -90,7 +90,7 @@ id,title,level,slug,paid,done
 89,Gray Code,2,gray-code,0,0
 90,Subsets II,2,subsets-ii,0,1
 91,Decode Ways,2,decode-ways,0,1
-92,Reverse Linked List II,2,reverse-linked-list-ii,0,0
+92,Reverse Linked List II,2,reverse-linked-list-ii,0,1
 93,Restore IP Addresses,2,restore-ip-addresses,0,1
 94,Binary Tree Inorder Traversal,1,binary-tree-inorder-traversal,0,1
 95,Unique Binary Search Trees II,2,unique-binary-search-trees-ii,0,0
@@ -310,7 +310,7 @@ id,title,level,slug,paid,done
 309,Best Time to Buy and Sell Stock with Cooldown,2,best-time-to-buy-and-sell-stock-with-cooldown,0,1
 310,Minimum Height Trees,2,minimum-height-trees,0,1
 311,Sparse Matrix Multiplication,2,sparse-matrix-multiplication,1,0
-312,Burst Balloons,3,burst-balloons,0,0
+312,Burst Balloons,3,burst-balloons,0,1
 313,Super Ugly Number,2,super-ugly-number,0,0
 314,Binary Tree Vertical Order Traversal,2,binary-tree-vertical-order-traversal,1,0
 315,Count of Smaller Numbers After Self,3,count-of-smaller-numbers-after-self,0,0
@@ -474,7 +474,7 @@ id,title,level,slug,paid,done
 473,Matchsticks to Square,2,matchsticks-to-square,0,0
 474,Ones and Zeroes,2,ones-and-zeroes,0,0
 475,Heaters,2,heaters,0,0
-476,Number Complement,1,number-complement,0,0
+476,Number Complement,1,number-complement,0,1
 477,Total Hamming Distance,2,total-hamming-distance,0,0
 478,Generate Random Point in a Circle,2,generate-random-point-in-a-circle,0,0
 479,Largest Palindrome Product,3,largest-palindrome-product,0,0
@@ -1013,7 +1013,7 @@ id,title,level,slug,paid,done
 1012,Numbers With Repeated Digits,3,numbers-with-repeated-digits,0,0
 1013,Partition Array Into Three Parts With Equal Sum,1,partition-array-into-three-parts-with-equal-sum,0,0
 1014,Best Sightseeing Pair,2,best-sightseeing-pair,0,1
-1015,Smallest Integer Divisible by K,2,smallest-integer-divisible-by-k,0,0
+1015,Smallest Integer Divisible by K,2,smallest-integer-divisible-by-k,0,1
 1016,Binary String With Substrings Representing 1 To N,2,binary-string-with-substrings-representing-1-to-n,0,0
 1017,Convert to Base -2,2,convert-to-base-2,0,0
 1018,Binary Prefix Divisible By 5,1,binary-prefix-divisible-by-5,0,0
@@ -1024,7 +1024,7 @@ id,title,level,slug,paid,done
 1023,Camelcase Matching,2,camelcase-matching,0,0
 1024,Video Stitching,2,video-stitching,0,0
 1025,Divisor Game,1,divisor-game,0,0
-1026,Maximum Difference Between Node and Ancestor,2,maximum-difference-between-node-and-ancestor,0,0
+1026,Maximum Difference Between Node and Ancestor,2,maximum-difference-between-node-and-ancestor,0,1
 1027,Longest Arithmetic Subsequence,2,longest-arithmetic-subsequence,0,0
 1028,Recover a Tree From Preorder Traversal,3,recover-a-tree-from-preorder-traversal,0,0
 1029,Two City Scheduling,2,two-city-scheduling,0,0
@@ -2111,3 +2111,14 @@ id,title,level,slug,paid,done
 2110,Number of Smooth Descent Periods of a Stock,2,number-of-smooth-descent-periods-of-a-stock,0,0
 2111,Minimum Operations to Make the Array K-Increasing,3,minimum-operations-to-make-the-array-k-increasing,0,0
 2112,The Airport With the Most Traffic,2,the-airport-with-the-most-traffic,1,0
+2113,Elements in Array After Removing and Replacing Elements,2,elements-in-array-after-removing-and-replacing-elements,1,0
+2114,Maximum Number of Words Found in Sentences,1,maximum-number-of-words-found-in-sentences,0,0
+2115,Find All Possible Recipes from Given Supplies,2,find-all-possible-recipes-from-given-supplies,0,0
+2116,Check if a Parentheses String Can Be Valid,2,check-if-a-parentheses-string-can-be-valid,0,0
+2117,Abbreviating the Product of a Range,3,abbreviating-the-product-of-a-range,0,0
+2118,Build the Equation,3,build-the-equation,1,0
+2119,A Number After a Double Reversal,1,a-number-after-a-double-reversal,0,0
+2120,Execution of All Suffix Instructions Staying in a Grid,2,execution-of-all-suffix-instructions-staying-in-a-grid,0,0
+2121,Intervals Between Identical Elements,2,intervals-between-identical-elements,0,0
+2122,Recover the Original Array,3,recover-the-original-array,0,0
+2123,Minimum Operations to Remove Adjacent Ones in Matrix,3,minimum-operations-to-remove-adjacent-ones-in-matrix,1,0
