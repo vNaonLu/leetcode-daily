@@ -329,7 +329,7 @@ My daily challenge on leetcode since 2021/09/06.
 |[📎](src/q_301_350/q0309.cc)|309|[Best Time to Buy and Sell Stock with Cooldown](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-cooldown/)|Medium|
 |[📎](src/q_301_350/q0310.cc)|310|[Minimum Height Trees](https://leetcode.com/problems/minimum-height-trees/)|Medium|
 |🔒|311|[Sparse Matrix Multiplication](https://leetcode.com/problems/sparse-matrix-multiplication/)|Medium|
-||312|[Burst Balloons](https://leetcode.com/problems/burst-balloons/)|Hard|
+|[📎](src/q_301_350/q0312.cc)|312|[Burst Balloons](https://leetcode.com/problems/burst-balloons/)|Hard|
 ||313|[Super Ugly Number](https://leetcode.com/problems/super-ugly-number/)|Medium|
 |🔒|314|[Binary Tree Vertical Order Traversal](https://leetcode.com/problems/binary-tree-vertical-order-traversal/)|Medium|
 ||315|[Count of Smaller Numbers After Self](https://leetcode.com/problems/count-of-smaller-numbers-after-self/)|Hard|
@@ -2190,6 +2190,7 @@ My daily challenge on leetcode since 2021/09/06.
 
 |Time|#|</>|Question Title|Difficulty|
 |:--|--:|:-:|:--|:--|
+|2022-01-01 14:36|312|[📎](src/q_301_350/q0312.cc)|[Burst Balloons](https://leetcode.com/problems/burst-balloons/)|Hard|
 |2021-12-31 14:34|1026|[📎](src/q_1001_1050/q1026.cc)|[Maximum Difference Between Node and Ancestor](https://leetcode.com/problems/maximum-difference-between-node-and-ancestor/)|Medium|
 |2021-12-30 18:05|1015|[📎](src/q_1001_1050/q1015.cc)|[Smallest Integer Divisible by K](https://leetcode.com/problems/smallest-integer-divisible-by-k/)|Medium|
 |2021-12-29 18:13|92|[📎](src/q_51_100/q0092.cc)|[Reverse Linked List II](https://leetcode.com/problems/reverse-linked-list-ii/)|Medium|
@@ -2214,12 +2215,12 @@ My daily challenge on leetcode since 2021/09/06.
 |2021-12-11 14:28|878|[📎](src/q_851_900/q0878.cc)|[Nth Magical Number](https://leetcode.com/problems/nth-magical-number/)|Hard|
 |2021-12-10 17:59|790|[📎](src/q_751_800/q0790.cc)|[Domino and Tromino Tiling](https://leetcode.com/problems/domino-and-tromino-tiling/)|Medium|
 |2021-12-09 17:58|1306|[📎](src/q_1301_1350/q1306.cc)|[Jump Game III](https://leetcode.com/problems/jump-game-iii/)|Medium|
-|2021-12-08 17:51|563|[📎](src/q_551_600/q0563.cc)|[Binary Tree Tilt](https://leetcode.com/problems/binary-tree-tilt/)|Easy|
 
 ## Previous Logs
 
 |Month|Submissions|Easy|Medium|Hard|
 |:--|:--|:--|:--|:--|
+|[January_2022](./assets/January_2022.md)|1|0|0|1|
 |[December_2021](./assets/December_2021.md)|33|11|15|7|
 |[November_2021](./assets/November_2021.md)|41|19|16|6|
 |[October_2021](./assets/October_2021.md)|115|27|75|13|

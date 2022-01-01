@@ -310,7 +310,7 @@ id,title,level,slug,paid,done
 309,Best Time to Buy and Sell Stock with Cooldown,2,best-time-to-buy-and-sell-stock-with-cooldown,0,1
 310,Minimum Height Trees,2,minimum-height-trees,0,1
 311,Sparse Matrix Multiplication,2,sparse-matrix-multiplication,1,0
-312,Burst Balloons,3,burst-balloons,0,0
+312,Burst Balloons,3,burst-balloons,0,1
 313,Super Ugly Number,2,super-ugly-number,0,0
 314,Binary Tree Vertical Order Traversal,2,binary-tree-vertical-order-traversal,1,0
 315,Count of Smaller Numbers After Self,3,count-of-smaller-numbers-after-self,0,0
