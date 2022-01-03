@@ -36,7 +36,7 @@ id,title,level,slug,paid,done
 35,Search Insert Position,1,search-insert-position,0,1
 36,Valid Sudoku,2,valid-sudoku,0,1
 37,Sudoku Solver,3,sudoku-solver,0,1
-38,Count and Say,2,count-and-say,0,0
+38,Count and Say,2,count-and-say,0,1
 39,Combination Sum,2,combination-sum,0,1
 40,Combination Sum II,2,combination-sum-ii,0,1
 41,First Missing Positive,3,first-missing-positive,0,1
@@ -2122,3 +2122,7 @@ id,title,level,slug,paid,done
 2121,Intervals Between Identical Elements,2,intervals-between-identical-elements,0,0
 2122,Recover the Original Array,3,recover-the-original-array,0,0
 2123,Minimum Operations to Remove Adjacent Ones in Matrix,3,minimum-operations-to-remove-adjacent-ones-in-matrix,1,0
+2124,Check if All A's Appears Before All B's,1,check-if-all-as-appears-before-all-bs,0,0
+2125,Number of Laser Beams in a Bank,2,number-of-laser-beams-in-a-bank,0,0
+2126,Destroying Asteroids,2,destroying-asteroids,0,0
+2127,Maximum Employees to Be Invited to a Meeting,3,maximum-employees-to-be-invited-to-a-meeting,0,0

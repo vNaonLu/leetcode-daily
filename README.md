@@ -49,7 +49,7 @@ My daily challenge on leetcode since 2021/09/06.
 |[📎](src/q_1_50/q0035.cc)|35|[Search Insert Position](https://leetcode.com/problems/search-insert-position/)|Easy|
 |[📎](src/q_1_50/q0036.cc)|36|[Valid Sudoku](https://leetcode.com/problems/valid-sudoku/)|Medium|
 |[📎](src/q_1_50/q0037.cc)|37|[Sudoku Solver](https://leetcode.com/problems/sudoku-solver/)|Hard|
-||38|[Count and Say](https://leetcode.com/problems/count-and-say/)|Medium|
+|[📎](src/q_1_50/q0038.cc)|38|[Count and Say](https://leetcode.com/problems/count-and-say/)|Medium|
 |[📎](src/q_1_50/q0039.cc)|39|[Combination Sum](https://leetcode.com/problems/combination-sum/)|Medium|
 |[📎](src/q_1_50/q0040.cc)|40|[Combination Sum II](https://leetcode.com/problems/combination-sum-ii/)|Medium|
 |[📎](src/q_1_50/q0041.cc)|41|[First Missing Positive](https://leetcode.com/problems/first-missing-positive/)|Hard|
@@ -2056,7 +2056,7 @@ My daily challenge on leetcode since 2021/09/06.
 ||2000|[Reverse Prefix of Word](https://leetcode.com/problems/reverse-prefix-of-word/)|Easy|
 </details>
 <details>
-  <summary>### 2001 ~ 2123</summary>
+  <summary>### 2001 ~ 2127</summary>
 
 |</>|#|Solution Title|Difficulty|
 |:-:|--:|:--|:--|
@@ -2183,6 +2183,10 @@ My daily challenge on leetcode since 2021/09/06.
 ||2121|[Intervals Between Identical Elements](https://leetcode.com/problems/intervals-between-identical-elements/)|Medium|
 ||2122|[Recover the Original Array](https://leetcode.com/problems/recover-the-original-array/)|Hard|
 |🔒|2123|[Minimum Operations to Remove Adjacent Ones in Matrix](https://leetcode.com/problems/minimum-operations-to-remove-adjacent-ones-in-matrix/)|Hard|
+||2124|[Check if All A's Appears Before All B's](https://leetcode.com/problems/check-if-all-as-appears-before-all-bs/)|Easy|
+||2125|[Number of Laser Beams in a Bank](https://leetcode.com/problems/number-of-laser-beams-in-a-bank/)|Medium|
+||2126|[Destroying Asteroids](https://leetcode.com/problems/destroying-asteroids/)|Medium|
+||2127|[Maximum Employees to Be Invited to a Meeting](https://leetcode.com/problems/maximum-employees-to-be-invited-to-a-meeting/)|Hard|
 </details>
 
 ---
@@ -2190,6 +2194,7 @@ My daily challenge on leetcode since 2021/09/06.
 
 |Time|#|</>|Question Title|Difficulty|
 |:--|--:|:-:|:--|:--|
+|2022-01-03 18:16|38|[📎](src/q_1_50/q0038.cc)|[Count and Say](https://leetcode.com/problems/count-and-say/)|Medium|
 |2022-01-02 15:26|1010|[📎](src/q_1001_1050/q1010.cc)|[Pairs of Songs With Total Durations Divisible by 60](https://leetcode.com/problems/pairs-of-songs-with-total-durations-divisible-by-60/)|Medium|
 |2022-01-01 14:36|312|[📎](src/q_301_350/q0312.cc)|[Burst Balloons](https://leetcode.com/problems/burst-balloons/)|Hard|
 |2021-12-31 14:34|1026|[📎](src/q_1001_1050/q1026.cc)|[Maximum Difference Between Node and Ancestor](https://leetcode.com/problems/maximum-difference-between-node-and-ancestor/)|Medium|
@@ -2214,13 +2219,12 @@ My daily challenge on leetcode since 2021/09/06.
 |2021-12-13 18:10|1446|[📎](src/q_1401_1450/q1446.cc)|[Consecutive Characters](https://leetcode.com/problems/consecutive-characters/)|Easy|
 |2021-12-12 15:04|416|[📎](src/q_401_450/q0416.cc)|[Partition Equal Subset Sum](https://leetcode.com/problems/partition-equal-subset-sum/)|Medium|
 |2021-12-11 14:28|878|[📎](src/q_851_900/q0878.cc)|[Nth Magical Number](https://leetcode.com/problems/nth-magical-number/)|Hard|
-|2021-12-10 17:59|790|[📎](src/q_751_800/q0790.cc)|[Domino and Tromino Tiling](https://leetcode.com/problems/domino-and-tromino-tiling/)|Medium|
 
 ## Previous Logs
 
 |Month|Submissions|Easy|Medium|Hard|
 |:--|:--|:--|:--|:--|
-|[January_2022](./assets/January_2022.md)|2|0|1|1|
+|[January_2022](./assets/January_2022.md)|3|0|2|1|
 |[December_2021](./assets/December_2021.md)|33|11|15|7|
 |[November_2021](./assets/November_2021.md)|41|19|16|6|
 |[October_2021](./assets/October_2021.md)|115|27|75|13|
