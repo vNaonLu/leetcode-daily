@@ -1129,7 +1129,7 @@ My daily challenge on leetcode since 2021/09/06.
 |[📎](src/q_1051_1100/q1091.cc)|1091|[Shortest Path in Binary Matrix](https://leetcode.com/problems/shortest-path-in-binary-matrix/)|Medium|
 ||1092|[Shortest Common Supersequence ](https://leetcode.com/problems/shortest-common-supersequence/)|Hard|
 ||1093|[Statistics from a Large Sample](https://leetcode.com/problems/statistics-from-a-large-sample/)|Medium|
-||1094|[Car Pooling](https://leetcode.com/problems/car-pooling/)|Medium|
+|[📎](src/q_1051_1100/q1094.cc)|1094|[Car Pooling](https://leetcode.com/problems/car-pooling/)|Medium|
 ||1095|[Find in Mountain Array](https://leetcode.com/problems/find-in-mountain-array/)|Hard|
 ||1096|[Brace Expansion II](https://leetcode.com/problems/brace-expansion-ii/)|Hard|
 |🔒|1097|[Game Play Analysis V](https://leetcode.com/problems/game-play-analysis-v/)|Hard|
@@ -2194,6 +2194,7 @@ My daily challenge on leetcode since 2021/09/06.
 
 |Time|#|</>|Question Title|Difficulty|
 |:--|--:|:-:|:--|:--|
+|2022-01-06 18:11|1094|[📎](src/q_1051_1100/q1094.cc)|[Car Pooling](https://leetcode.com/problems/car-pooling/)|Medium|
 |2022-01-05 18:18|131|[📎](src/q_101_150/q0131.cc)|[Palindrome Partitioning](https://leetcode.com/problems/palindrome-partitioning/)|Medium|
 |2022-01-04 18:15|1009|[📎](src/q_1001_1050/q1009.cc)|[Complement of Base 10 Integer](https://leetcode.com/problems/complement-of-base-10-integer/)|Easy|
 |2022-01-03 18:16|38|[📎](src/q_1_50/q0038.cc)|[Count and Say](https://leetcode.com/problems/count-and-say/)|Medium|
@@ -2218,13 +2219,12 @@ My daily challenge on leetcode since 2021/09/06.
 |2021-12-15 23:17|30|[📎](src/q_1_50/q0030.cc)|[Substring with Concatenation of All Words](https://leetcode.com/problems/substring-with-concatenation-of-all-words/)|Hard|
 |2021-12-15 18:04|147|[📎](src/q_101_150/q0147.cc)|[Insertion Sort List](https://leetcode.com/problems/insertion-sort-list/)|Medium|
 |2021-12-14 18:05|938|[📎](src/q_901_950/q0938.cc)|[Range Sum of BST](https://leetcode.com/problems/range-sum-of-bst/)|Easy|
-|2021-12-13 18:10|1446|[📎](src/q_1401_1450/q1446.cc)|[Consecutive Characters](https://leetcode.com/problems/consecutive-characters/)|Easy|
 
 ## Previous Logs
 
 |Month|Submissions|Easy|Medium|Hard|
 |:--|:--|:--|:--|:--|
-|[January_2022](./assets/January_2022.md)|5|1|3|1|
+|[January_2022](./assets/January_2022.md)|6|1|4|1|
 |[December_2021](./assets/December_2021.md)|33|11|15|7|
 |[November_2021](./assets/November_2021.md)|41|19|16|6|
 |[October_2021](./assets/October_2021.md)|115|27|75|13|

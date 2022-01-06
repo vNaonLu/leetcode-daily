@@ -2,6 +2,7 @@
 
 ||#|</>|Question Title|Difficulty|
 |:--|--:|:-:|:--|:--|
+|Day 6|1094|[📎](../src/q_1051_1100/q1094.cc)|[Car Pooling](https://leetcode.com/problems/car-pooling/)|Medium|
 |Day 5|131|[📎](../src/q_101_150/q0131.cc)|[Palindrome Partitioning](https://leetcode.com/problems/palindrome-partitioning/)|Medium|
 |Day 4|1009|[📎](../src/q_1001_1050/q1009.cc)|[Complement of Base 10 Integer](https://leetcode.com/problems/complement-of-base-10-integer/)|Easy|
 |Day 3|38|[📎](../src/q_1_50/q0038.cc)|[Count and Say](https://leetcode.com/problems/count-and-say/)|Medium|
