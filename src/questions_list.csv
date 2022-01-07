@@ -380,7 +380,7 @@ id,title,level,slug,paid,done
 379,Design Phone Directory,2,design-phone-directory,1,0
 380,Insert Delete GetRandom O(1),2,insert-delete-getrandom-o1,0,1
 381,Insert Delete GetRandom O(1) - Duplicates allowed,3,insert-delete-getrandom-o1-duplicates-allowed,0,0
-382,Linked List Random Node,2,linked-list-random-node,0,0
+382,Linked List Random Node,2,linked-list-random-node,0,1
 383,Ransom Note,1,ransom-note,0,1
 384,Shuffle an Array,2,shuffle-an-array,0,1
 385,Mini Parser,2,mini-parser,0,0
@@ -2126,3 +2126,4 @@ id,title,level,slug,paid,done
 2125,Number of Laser Beams in a Bank,2,number-of-laser-beams-in-a-bank,0,0
 2126,Destroying Asteroids,2,destroying-asteroids,0,0
 2127,Maximum Employees to Be Invited to a Meeting,3,maximum-employees-to-be-invited-to-a-meeting,0,0
+2128,Remove All Ones With Row and Column Flips,2,remove-all-ones-with-row-and-column-flips,1,0
