@@ -49,7 +49,7 @@ My daily challenge on leetcode since 2021/09/06.
 |[📎](src/q_1_50/q0035.cc)|35|[Search Insert Position](https://leetcode.com/problems/search-insert-position/)|Easy|
 |[📎](src/q_1_50/q0036.cc)|36|[Valid Sudoku](https://leetcode.com/problems/valid-sudoku/)|Medium|
 |[📎](src/q_1_50/q0037.cc)|37|[Sudoku Solver](https://leetcode.com/problems/sudoku-solver/)|Hard|
-||38|[Count and Say](https://leetcode.com/problems/count-and-say/)|Medium|
+|[📎](src/q_1_50/q0038.cc)|38|[Count and Say](https://leetcode.com/problems/count-and-say/)|Medium|
 |[📎](src/q_1_50/q0039.cc)|39|[Combination Sum](https://leetcode.com/problems/combination-sum/)|Medium|
 |[📎](src/q_1_50/q0040.cc)|40|[Combination Sum II](https://leetcode.com/problems/combination-sum-ii/)|Medium|
 |[📎](src/q_1_50/q0041.cc)|41|[First Missing Positive](https://leetcode.com/problems/first-missing-positive/)|Hard|
@@ -142,7 +142,7 @@ My daily challenge on leetcode since 2021/09/06.
 ||128|[Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence/)|Medium|
 |[📎](src/q_101_150/q0129.cc)|129|[Sum Root to Leaf Numbers](https://leetcode.com/problems/sum-root-to-leaf-numbers/)|Medium|
 |[📎](src/q_101_150/q0130.cc)|130|[Surrounded Regions](https://leetcode.com/problems/surrounded-regions/)|Medium|
-||131|[Palindrome Partitioning](https://leetcode.com/problems/palindrome-partitioning/)|Medium|
+|[📎](src/q_101_150/q0131.cc)|131|[Palindrome Partitioning](https://leetcode.com/problems/palindrome-partitioning/)|Medium|
 ||132|[Palindrome Partitioning II](https://leetcode.com/problems/palindrome-partitioning-ii/)|Hard|
 ||133|[Clone Graph](https://leetcode.com/problems/clone-graph/)|Medium|
 ||134|[Gas Station](https://leetcode.com/problems/gas-station/)|Medium|
@@ -399,7 +399,7 @@ My daily challenge on leetcode since 2021/09/06.
 |🔒|379|[Design Phone Directory](https://leetcode.com/problems/design-phone-directory/)|Medium|
 |[📎](src/q_351_400/q0380.cc)|380|[Insert Delete GetRandom O(1)](https://leetcode.com/problems/insert-delete-getrandom-o1/)|Medium|
 ||381|[Insert Delete GetRandom O(1) - Duplicates allowed](https://leetcode.com/problems/insert-delete-getrandom-o1-duplicates-allowed/)|Hard|
-||382|[Linked List Random Node](https://leetcode.com/problems/linked-list-random-node/)|Medium|
+|[📎](src/q_351_400/q0382.cc)|382|[Linked List Random Node](https://leetcode.com/problems/linked-list-random-node/)|Medium|
 |[📎](src/q_351_400/q0383.cc)|383|[Ransom Note](https://leetcode.com/problems/ransom-note/)|Easy|
 |[📎](src/q_351_400/q0384.cc)|384|[Shuffle an Array](https://leetcode.com/problems/shuffle-an-array/)|Medium|
 ||385|[Mini Parser](https://leetcode.com/problems/mini-parser/)|Medium|
@@ -1044,8 +1044,8 @@ My daily challenge on leetcode since 2021/09/06.
 ||1006|[Clumsy Factorial](https://leetcode.com/problems/clumsy-factorial/)|Medium|
 ||1007|[Minimum Domino Rotations For Equal Row](https://leetcode.com/problems/minimum-domino-rotations-for-equal-row/)|Medium|
 |[📎](src/q_1001_1050/q1008.cc)|1008|[Construct Binary Search Tree from Preorder Traversal](https://leetcode.com/problems/construct-binary-search-tree-from-preorder-traversal/)|Medium|
-||1009|[Complement of Base 10 Integer](https://leetcode.com/problems/complement-of-base-10-integer/)|Easy|
-||1010|[Pairs of Songs With Total Durations Divisible by 60](https://leetcode.com/problems/pairs-of-songs-with-total-durations-divisible-by-60/)|Medium|
+|[📎](src/q_1001_1050/q1009.cc)|1009|[Complement of Base 10 Integer](https://leetcode.com/problems/complement-of-base-10-integer/)|Easy|
+|[📎](src/q_1001_1050/q1010.cc)|1010|[Pairs of Songs With Total Durations Divisible by 60](https://leetcode.com/problems/pairs-of-songs-with-total-durations-divisible-by-60/)|Medium|
 ||1011|[Capacity To Ship Packages Within D Days](https://leetcode.com/problems/capacity-to-ship-packages-within-d-days/)|Medium|
 ||1012|[Numbers With Repeated Digits](https://leetcode.com/problems/numbers-with-repeated-digits/)|Hard|
 ||1013|[Partition Array Into Three Parts With Equal Sum](https://leetcode.com/problems/partition-array-into-three-parts-with-equal-sum/)|Easy|
@@ -1129,7 +1129,7 @@ My daily challenge on leetcode since 2021/09/06.
 |[📎](src/q_1051_1100/q1091.cc)|1091|[Shortest Path in Binary Matrix](https://leetcode.com/problems/shortest-path-in-binary-matrix/)|Medium|
 ||1092|[Shortest Common Supersequence ](https://leetcode.com/problems/shortest-common-supersequence/)|Hard|
 ||1093|[Statistics from a Large Sample](https://leetcode.com/problems/statistics-from-a-large-sample/)|Medium|
-||1094|[Car Pooling](https://leetcode.com/problems/car-pooling/)|Medium|
+|[📎](src/q_1051_1100/q1094.cc)|1094|[Car Pooling](https://leetcode.com/problems/car-pooling/)|Medium|
 ||1095|[Find in Mountain Array](https://leetcode.com/problems/find-in-mountain-array/)|Hard|
 ||1096|[Brace Expansion II](https://leetcode.com/problems/brace-expansion-ii/)|Hard|
 |🔒|1097|[Game Play Analysis V](https://leetcode.com/problems/game-play-analysis-v/)|Hard|
@@ -1504,7 +1504,7 @@ My daily challenge on leetcode since 2021/09/06.
 ||1460|[Make Two Arrays Equal by Reversing Sub-arrays](https://leetcode.com/problems/make-two-arrays-equal-by-reversing-sub-arrays/)|Easy|
 ||1461|[Check If a String Contains All Binary Codes of Size K](https://leetcode.com/problems/check-if-a-string-contains-all-binary-codes-of-size-k/)|Medium|
 ||1462|[Course Schedule IV](https://leetcode.com/problems/course-schedule-iv/)|Medium|
-||1463|[Cherry Pickup II](https://leetcode.com/problems/cherry-pickup-ii/)|Hard|
+|[📎](src/q_1451_1500/q1463.cc)|1463|[Cherry Pickup II](https://leetcode.com/problems/cherry-pickup-ii/)|Hard|
 ||1464|[Maximum Product of Two Elements in an Array](https://leetcode.com/problems/maximum-product-of-two-elements-in-an-array/)|Easy|
 ||1465|[Maximum Area of a Piece of Cake After Horizontal and Vertical Cuts](https://leetcode.com/problems/maximum-area-of-a-piece-of-cake-after-horizontal-and-vertical-cuts/)|Medium|
 ||1466|[Reorder Routes to Make All Paths Lead to the City Zero](https://leetcode.com/problems/reorder-routes-to-make-all-paths-lead-to-the-city-zero/)|Medium|
@@ -2056,7 +2056,7 @@ My daily challenge on leetcode since 2021/09/06.
 ||2000|[Reverse Prefix of Word](https://leetcode.com/problems/reverse-prefix-of-word/)|Easy|
 </details>
 <details>
-  <summary>### 2001 ~ 2123</summary>
+  <summary>### 2001 ~ 2128</summary>
 
 |</>|#|Solution Title|Difficulty|
 |:-:|--:|:--|:--|
@@ -2183,6 +2183,11 @@ My daily challenge on leetcode since 2021/09/06.
 ||2121|[Intervals Between Identical Elements](https://leetcode.com/problems/intervals-between-identical-elements/)|Medium|
 ||2122|[Recover the Original Array](https://leetcode.com/problems/recover-the-original-array/)|Hard|
 |🔒|2123|[Minimum Operations to Remove Adjacent Ones in Matrix](https://leetcode.com/problems/minimum-operations-to-remove-adjacent-ones-in-matrix/)|Hard|
+||2124|[Check if All A's Appears Before All B's](https://leetcode.com/problems/check-if-all-as-appears-before-all-bs/)|Easy|
+||2125|[Number of Laser Beams in a Bank](https://leetcode.com/problems/number-of-laser-beams-in-a-bank/)|Medium|
+||2126|[Destroying Asteroids](https://leetcode.com/problems/destroying-asteroids/)|Medium|
+||2127|[Maximum Employees to Be Invited to a Meeting](https://leetcode.com/problems/maximum-employees-to-be-invited-to-a-meeting/)|Hard|
+|🔒|2128|[Remove All Ones With Row and Column Flips](https://leetcode.com/problems/remove-all-ones-with-row-and-column-flips/)|Medium|
 </details>
 
 ---
@@ -2190,6 +2195,13 @@ My daily challenge on leetcode since 2021/09/06.
 
 |Time|#|</>|Question Title|Difficulty|
 |:--|--:|:-:|:--|:--|
+|2022-01-08 13:55|1463|[📎](src/q_1451_1500/q1463.cc)|[Cherry Pickup II](https://leetcode.com/problems/cherry-pickup-ii/)|Hard|
+|2022-01-07 18:11|382|[📎](src/q_351_400/q0382.cc)|[Linked List Random Node](https://leetcode.com/problems/linked-list-random-node/)|Medium|
+|2022-01-06 18:11|1094|[📎](src/q_1051_1100/q1094.cc)|[Car Pooling](https://leetcode.com/problems/car-pooling/)|Medium|
+|2022-01-05 18:18|131|[📎](src/q_101_150/q0131.cc)|[Palindrome Partitioning](https://leetcode.com/problems/palindrome-partitioning/)|Medium|
+|2022-01-04 18:15|1009|[📎](src/q_1001_1050/q1009.cc)|[Complement of Base 10 Integer](https://leetcode.com/problems/complement-of-base-10-integer/)|Easy|
+|2022-01-03 18:16|38|[📎](src/q_1_50/q0038.cc)|[Count and Say](https://leetcode.com/problems/count-and-say/)|Medium|
+|2022-01-02 15:26|1010|[📎](src/q_1001_1050/q1010.cc)|[Pairs of Songs With Total Durations Divisible by 60](https://leetcode.com/problems/pairs-of-songs-with-total-durations-divisible-by-60/)|Medium|
 |2022-01-01 14:36|312|[📎](src/q_301_350/q0312.cc)|[Burst Balloons](https://leetcode.com/problems/burst-balloons/)|Hard|
 |2021-12-31 14:34|1026|[📎](src/q_1001_1050/q1026.cc)|[Maximum Difference Between Node and Ancestor](https://leetcode.com/problems/maximum-difference-between-node-and-ancestor/)|Medium|
 |2021-12-30 18:05|1015|[📎](src/q_1001_1050/q1015.cc)|[Smallest Integer Divisible by K](https://leetcode.com/problems/smallest-integer-divisible-by-k/)|Medium|
@@ -2208,19 +2220,12 @@ My daily challenge on leetcode since 2021/09/06.
 |2021-12-17 23:14|57|[📎](src/q_51_100/q0057.cc)|[Insert Interval](https://leetcode.com/problems/insert-interval/)|Medium|
 |2021-12-16 18:21|310|[📎](src/q_301_350/q0310.cc)|[Minimum Height Trees](https://leetcode.com/problems/minimum-height-trees/)|Medium|
 |2021-12-15 23:17|30|[📎](src/q_1_50/q0030.cc)|[Substring with Concatenation of All Words](https://leetcode.com/problems/substring-with-concatenation-of-all-words/)|Hard|
-|2021-12-15 18:04|147|[📎](src/q_101_150/q0147.cc)|[Insertion Sort List](https://leetcode.com/problems/insertion-sort-list/)|Medium|
-|2021-12-14 18:05|938|[📎](src/q_901_950/q0938.cc)|[Range Sum of BST](https://leetcode.com/problems/range-sum-of-bst/)|Easy|
-|2021-12-13 18:10|1446|[📎](src/q_1401_1450/q1446.cc)|[Consecutive Characters](https://leetcode.com/problems/consecutive-characters/)|Easy|
-|2021-12-12 15:04|416|[📎](src/q_401_450/q0416.cc)|[Partition Equal Subset Sum](https://leetcode.com/problems/partition-equal-subset-sum/)|Medium|
-|2021-12-11 14:28|878|[📎](src/q_851_900/q0878.cc)|[Nth Magical Number](https://leetcode.com/problems/nth-magical-number/)|Hard|
-|2021-12-10 17:59|790|[📎](src/q_751_800/q0790.cc)|[Domino and Tromino Tiling](https://leetcode.com/problems/domino-and-tromino-tiling/)|Medium|
-|2021-12-09 17:58|1306|[📎](src/q_1301_1350/q1306.cc)|[Jump Game III](https://leetcode.com/problems/jump-game-iii/)|Medium|
 
 ## Previous Logs
 
 |Month|Submissions|Easy|Medium|Hard|
 |:--|:--|:--|:--|:--|
-|[January_2022](./assets/January_2022.md)|1|0|0|1|
+|[January_2022](./assets/January_2022.md)|8|1|5|2|
 |[December_2021](./assets/December_2021.md)|33|11|15|7|
 |[November_2021](./assets/November_2021.md)|41|19|16|6|
 |[October_2021](./assets/October_2021.md)|115|27|75|13|

@@ -36,7 +36,7 @@ id,title,level,slug,paid,done
 35,Search Insert Position,1,search-insert-position,0,1
 36,Valid Sudoku,2,valid-sudoku,0,1
 37,Sudoku Solver,3,sudoku-solver,0,1
-38,Count and Say,2,count-and-say,0,0
+38,Count and Say,2,count-and-say,0,1
 39,Combination Sum,2,combination-sum,0,1
 40,Combination Sum II,2,combination-sum-ii,0,1
 41,First Missing Positive,3,first-missing-positive,0,1
@@ -129,7 +129,7 @@ id,title,level,slug,paid,done
 128,Longest Consecutive Sequence,2,longest-consecutive-sequence,0,0
 129,Sum Root to Leaf Numbers,2,sum-root-to-leaf-numbers,0,1
 130,Surrounded Regions,2,surrounded-regions,0,1
-131,Palindrome Partitioning,2,palindrome-partitioning,0,0
+131,Palindrome Partitioning,2,palindrome-partitioning,0,1
 132,Palindrome Partitioning II,3,palindrome-partitioning-ii,0,0
 133,Clone Graph,2,clone-graph,0,0
 134,Gas Station,2,gas-station,0,0
@@ -380,7 +380,7 @@ id,title,level,slug,paid,done
 379,Design Phone Directory,2,design-phone-directory,1,0
 380,Insert Delete GetRandom O(1),2,insert-delete-getrandom-o1,0,1
 381,Insert Delete GetRandom O(1) - Duplicates allowed,3,insert-delete-getrandom-o1-duplicates-allowed,0,0
-382,Linked List Random Node,2,linked-list-random-node,0,0
+382,Linked List Random Node,2,linked-list-random-node,0,1
 383,Ransom Note,1,ransom-note,0,1
 384,Shuffle an Array,2,shuffle-an-array,0,1
 385,Mini Parser,2,mini-parser,0,0
@@ -1007,8 +1007,8 @@ id,title,level,slug,paid,done
 1006,Clumsy Factorial,2,clumsy-factorial,0,0
 1007,Minimum Domino Rotations For Equal Row,2,minimum-domino-rotations-for-equal-row,0,0
 1008,Construct Binary Search Tree from Preorder Traversal,2,construct-binary-search-tree-from-preorder-traversal,0,1
-1009,Complement of Base 10 Integer,1,complement-of-base-10-integer,0,0
-1010,Pairs of Songs With Total Durations Divisible by 60,2,pairs-of-songs-with-total-durations-divisible-by-60,0,0
+1009,Complement of Base 10 Integer,1,complement-of-base-10-integer,0,1
+1010,Pairs of Songs With Total Durations Divisible by 60,2,pairs-of-songs-with-total-durations-divisible-by-60,0,1
 1011,Capacity To Ship Packages Within D Days,2,capacity-to-ship-packages-within-d-days,0,0
 1012,Numbers With Repeated Digits,3,numbers-with-repeated-digits,0,0
 1013,Partition Array Into Three Parts With Equal Sum,1,partition-array-into-three-parts-with-equal-sum,0,0
@@ -1092,7 +1092,7 @@ id,title,level,slug,paid,done
 1091,Shortest Path in Binary Matrix,2,shortest-path-in-binary-matrix,0,1
 1092,Shortest Common Supersequence ,3,shortest-common-supersequence,0,0
 1093,Statistics from a Large Sample,2,statistics-from-a-large-sample,0,0
-1094,Car Pooling,2,car-pooling,0,0
+1094,Car Pooling,2,car-pooling,0,1
 1095,Find in Mountain Array,3,find-in-mountain-array,0,0
 1096,Brace Expansion II,3,brace-expansion-ii,0,0
 1097,Game Play Analysis V,3,game-play-analysis-v,1,0
@@ -1461,7 +1461,7 @@ id,title,level,slug,paid,done
 1460,Make Two Arrays Equal by Reversing Sub-arrays,1,make-two-arrays-equal-by-reversing-sub-arrays,0,0
 1461,Check If a String Contains All Binary Codes of Size K,2,check-if-a-string-contains-all-binary-codes-of-size-k,0,0
 1462,Course Schedule IV,2,course-schedule-iv,0,0
-1463,Cherry Pickup II,3,cherry-pickup-ii,0,0
+1463,Cherry Pickup II,3,cherry-pickup-ii,0,1
 1464,Maximum Product of Two Elements in an Array,1,maximum-product-of-two-elements-in-an-array,0,0
 1465,Maximum Area of a Piece of Cake After Horizontal and Vertical Cuts,2,maximum-area-of-a-piece-of-cake-after-horizontal-and-vertical-cuts,0,0
 1466,Reorder Routes to Make All Paths Lead to the City Zero,2,reorder-routes-to-make-all-paths-lead-to-the-city-zero,0,0
@@ -2122,3 +2122,8 @@ id,title,level,slug,paid,done
 2121,Intervals Between Identical Elements,2,intervals-between-identical-elements,0,0
 2122,Recover the Original Array,3,recover-the-original-array,0,0
 2123,Minimum Operations to Remove Adjacent Ones in Matrix,3,minimum-operations-to-remove-adjacent-ones-in-matrix,1,0
+2124,Check if All A's Appears Before All B's,1,check-if-all-as-appears-before-all-bs,0,0
+2125,Number of Laser Beams in a Bank,2,number-of-laser-beams-in-a-bank,0,0
+2126,Destroying Asteroids,2,destroying-asteroids,0,0
+2127,Maximum Employees to Be Invited to a Meeting,3,maximum-employees-to-be-invited-to-a-meeting,0,0
+2128,Remove All Ones With Row and Column Flips,2,remove-all-ones-with-row-and-column-flips,1,0
