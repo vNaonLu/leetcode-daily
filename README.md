@@ -1076,7 +1076,7 @@ My daily challenge on leetcode since 2021/09/06.
 ||1038|[Binary Search Tree to Greater Sum Tree](https://leetcode.com/problems/binary-search-tree-to-greater-sum-tree/)|Medium|
 ||1039|[Minimum Score Triangulation of Polygon](https://leetcode.com/problems/minimum-score-triangulation-of-polygon/)|Medium|
 ||1040|[Moving Stones Until Consecutive II](https://leetcode.com/problems/moving-stones-until-consecutive-ii/)|Medium|
-||1041|[Robot Bounded In Circle](https://leetcode.com/problems/robot-bounded-in-circle/)|Medium|
+|[📎](src/q_1001_1050/q1041.cc)|1041|[Robot Bounded In Circle](https://leetcode.com/problems/robot-bounded-in-circle/)|Medium|
 ||1042|[Flower Planting With No Adjacent](https://leetcode.com/problems/flower-planting-with-no-adjacent/)|Medium|
 |[📎](src/q_1001_1050/q1043.cc)|1043|[Partition Array for Maximum Sum](https://leetcode.com/problems/partition-array-for-maximum-sum/)|Medium|
 |[📎](src/q_1001_1050/q1044.cc)|1044|[Longest Duplicate Substring](https://leetcode.com/problems/longest-duplicate-substring/)|Hard|
@@ -2056,7 +2056,7 @@ My daily challenge on leetcode since 2021/09/06.
 ||2000|[Reverse Prefix of Word](https://leetcode.com/problems/reverse-prefix-of-word/)|Easy|
 </details>
 <details>
-  <summary>### 2001 ~ 2128</summary>
+  <summary>### 2001 ~ 2136</summary>
 
 |</>|#|Solution Title|Difficulty|
 |:-:|--:|:--|:--|
@@ -2188,6 +2188,14 @@ My daily challenge on leetcode since 2021/09/06.
 ||2126|[Destroying Asteroids](https://leetcode.com/problems/destroying-asteroids/)|Medium|
 ||2127|[Maximum Employees to Be Invited to a Meeting](https://leetcode.com/problems/maximum-employees-to-be-invited-to-a-meeting/)|Hard|
 |🔒|2128|[Remove All Ones With Row and Column Flips](https://leetcode.com/problems/remove-all-ones-with-row-and-column-flips/)|Medium|
+||2129|[Capitalize the Title](https://leetcode.com/problems/capitalize-the-title/)|Easy|
+||2130|[Maximum Twin Sum of a Linked List](https://leetcode.com/problems/maximum-twin-sum-of-a-linked-list/)|Medium|
+||2131|[Longest Palindrome by Concatenating Two Letter Words](https://leetcode.com/problems/longest-palindrome-by-concatenating-two-letter-words/)|Medium|
+||2132|[Stamping the Grid](https://leetcode.com/problems/stamping-the-grid/)|Hard|
+||2133|[Check if Every Row and Column Contains All Numbers](https://leetcode.com/problems/check-if-every-row-and-column-contains-all-numbers/)|Easy|
+||2134|[Minimum Swaps to Group All 1's Together II](https://leetcode.com/problems/minimum-swaps-to-group-all-1s-together-ii/)|Medium|
+||2135|[Count Words Obtained After Adding a Letter](https://leetcode.com/problems/count-words-obtained-after-adding-a-letter/)|Medium|
+||2136|[Earliest Possible Day of Full Bloom](https://leetcode.com/problems/earliest-possible-day-of-full-bloom/)|Hard|
 </details>
 
 ---
@@ -2195,6 +2203,7 @@ My daily challenge on leetcode since 2021/09/06.
 
 |Time|#|</>|Question Title|Difficulty|
 |:--|--:|:-:|:--|:--|
+|2022-01-09 14:29|1041|[📎](src/q_1001_1050/q1041.cc)|[Robot Bounded In Circle](https://leetcode.com/problems/robot-bounded-in-circle/)|Medium|
 |2022-01-08 13:55|1463|[📎](src/q_1451_1500/q1463.cc)|[Cherry Pickup II](https://leetcode.com/problems/cherry-pickup-ii/)|Hard|
 |2022-01-07 18:11|382|[📎](src/q_351_400/q0382.cc)|[Linked List Random Node](https://leetcode.com/problems/linked-list-random-node/)|Medium|
 |2022-01-06 18:11|1094|[📎](src/q_1051_1100/q1094.cc)|[Car Pooling](https://leetcode.com/problems/car-pooling/)|Medium|
@@ -2219,13 +2228,12 @@ My daily challenge on leetcode since 2021/09/06.
 |2021-12-18 11:35|902|[📎](src/q_901_950/q0902.cc)|[Numbers At Most N Given Digit Set](https://leetcode.com/problems/numbers-at-most-n-given-digit-set/)|Hard|
 |2021-12-17 23:14|57|[📎](src/q_51_100/q0057.cc)|[Insert Interval](https://leetcode.com/problems/insert-interval/)|Medium|
 |2021-12-16 18:21|310|[📎](src/q_301_350/q0310.cc)|[Minimum Height Trees](https://leetcode.com/problems/minimum-height-trees/)|Medium|
-|2021-12-15 23:17|30|[📎](src/q_1_50/q0030.cc)|[Substring with Concatenation of All Words](https://leetcode.com/problems/substring-with-concatenation-of-all-words/)|Hard|
 
 ## Previous Logs
 
 |Month|Submissions|Easy|Medium|Hard|
 |:--|:--|:--|:--|:--|
-|[January_2022](./assets/January_2022.md)|8|1|5|2|
+|[January_2022](./assets/January_2022.md)|9|1|6|2|
 |[December_2021](./assets/December_2021.md)|33|11|15|7|
 |[November_2021](./assets/November_2021.md)|41|19|16|6|
 |[October_2021](./assets/October_2021.md)|115|27|75|13|

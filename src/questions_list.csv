@@ -1039,7 +1039,7 @@ id,title,level,slug,paid,done
 1038,Binary Search Tree to Greater Sum Tree,2,binary-search-tree-to-greater-sum-tree,0,0
 1039,Minimum Score Triangulation of Polygon,2,minimum-score-triangulation-of-polygon,0,0
 1040,Moving Stones Until Consecutive II,2,moving-stones-until-consecutive-ii,0,0
-1041,Robot Bounded In Circle,2,robot-bounded-in-circle,0,0
+1041,Robot Bounded In Circle,2,robot-bounded-in-circle,0,1
 1042,Flower Planting With No Adjacent,2,flower-planting-with-no-adjacent,0,0
 1043,Partition Array for Maximum Sum,2,partition-array-for-maximum-sum,0,1
 1044,Longest Duplicate Substring,3,longest-duplicate-substring,0,1
@@ -2127,3 +2127,11 @@ id,title,level,slug,paid,done
 2126,Destroying Asteroids,2,destroying-asteroids,0,0
 2127,Maximum Employees to Be Invited to a Meeting,3,maximum-employees-to-be-invited-to-a-meeting,0,0
 2128,Remove All Ones With Row and Column Flips,2,remove-all-ones-with-row-and-column-flips,1,0
+2129,Capitalize the Title,1,capitalize-the-title,0,0
+2130,Maximum Twin Sum of a Linked List,2,maximum-twin-sum-of-a-linked-list,0,0
+2131,Longest Palindrome by Concatenating Two Letter Words,2,longest-palindrome-by-concatenating-two-letter-words,0,0
+2132,Stamping the Grid,3,stamping-the-grid,0,0
+2133,Check if Every Row and Column Contains All Numbers,1,check-if-every-row-and-column-contains-all-numbers,0,0
+2134,Minimum Swaps to Group All 1's Together II,2,minimum-swaps-to-group-all-1s-together-ii,0,0
+2135,Count Words Obtained After Adding a Letter,2,count-words-obtained-after-adding-a-letter,0,0
+2136,Earliest Possible Day of Full Bloom,3,earliest-possible-day-of-full-bloom,0,0

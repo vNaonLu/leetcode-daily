@@ -2,6 +2,7 @@
 
 ||#|</>|Question Title|Difficulty|
 |:--|--:|:-:|:--|:--|
+|Day 9|1041|[📎](../src/q_1001_1050/q1041.cc)|[Robot Bounded In Circle](https://leetcode.com/problems/robot-bounded-in-circle/)|Medium|
 |Day 8|1463|[📎](../src/q_1451_1500/q1463.cc)|[Cherry Pickup II](https://leetcode.com/problems/cherry-pickup-ii/)|Hard|
 |Day 7|382|[📎](../src/q_351_400/q0382.cc)|[Linked List Random Node](https://leetcode.com/problems/linked-list-random-node/)|Medium|
 |Day 6|1094|[📎](../src/q_1051_1100/q1094.cc)|[Car Pooling](https://leetcode.com/problems/car-pooling/)|Medium|
