@@ -78,7 +78,7 @@ My daily challenge on leetcode since 2021/09/06.
 |[📎](src/q_51_100/q0064.cc)|64|[Minimum Path Sum](https://leetcode.com/problems/minimum-path-sum/)|Medium|
 ||65|[Valid Number](https://leetcode.com/problems/valid-number/)|Hard|
 |[📎](src/q_51_100/q0066.cc)|66|[Plus One](https://leetcode.com/problems/plus-one/)|Easy|
-||67|[Add Binary](https://leetcode.com/problems/add-binary/)|Easy|
+|[📎](src/q_51_100/q0067.cc)|67|[Add Binary](https://leetcode.com/problems/add-binary/)|Easy|
 ||68|[Text Justification](https://leetcode.com/problems/text-justification/)|Hard|
 ||69|[Sqrt(x)](https://leetcode.com/problems/sqrtx/)|Easy|
 |[📎](src/q_51_100/q0070.cc)|70|[Climbing Stairs](https://leetcode.com/problems/climbing-stairs/)|Easy|
@@ -2203,6 +2203,7 @@ My daily challenge on leetcode since 2021/09/06.
 
 |Time|#|</>|Question Title|Difficulty|
 |:--|--:|:-:|:--|:--|
+|2022-01-10 18:14|67|[📎](src/q_51_100/q0067.cc)|[Add Binary](https://leetcode.com/problems/add-binary/)|Easy|
 |2022-01-09 14:29|1041|[📎](src/q_1001_1050/q1041.cc)|[Robot Bounded In Circle](https://leetcode.com/problems/robot-bounded-in-circle/)|Medium|
 |2022-01-08 13:55|1463|[📎](src/q_1451_1500/q1463.cc)|[Cherry Pickup II](https://leetcode.com/problems/cherry-pickup-ii/)|Hard|
 |2022-01-07 18:11|382|[📎](src/q_351_400/q0382.cc)|[Linked List Random Node](https://leetcode.com/problems/linked-list-random-node/)|Medium|
@@ -2227,13 +2228,12 @@ My daily challenge on leetcode since 2021/09/06.
 |2021-12-19 17:38|394|[📎](src/q_351_400/q0394.cc)|[Decode String](https://leetcode.com/problems/decode-string/)|Medium|
 |2021-12-18 11:35|902|[📎](src/q_901_950/q0902.cc)|[Numbers At Most N Given Digit Set](https://leetcode.com/problems/numbers-at-most-n-given-digit-set/)|Hard|
 |2021-12-17 23:14|57|[📎](src/q_51_100/q0057.cc)|[Insert Interval](https://leetcode.com/problems/insert-interval/)|Medium|
-|2021-12-16 18:21|310|[📎](src/q_301_350/q0310.cc)|[Minimum Height Trees](https://leetcode.com/problems/minimum-height-trees/)|Medium|
 
 ## Previous Logs
 
 |Month|Submissions|Easy|Medium|Hard|
 |:--|:--|:--|:--|:--|
-|[January_2022](./assets/January_2022.md)|9|1|6|2|
+|[January_2022](./assets/January_2022.md)|10|2|6|2|
 |[December_2021](./assets/December_2021.md)|33|11|15|7|
 |[November_2021](./assets/November_2021.md)|41|19|16|6|
 |[October_2021](./assets/October_2021.md)|115|27|75|13|

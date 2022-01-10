@@ -65,7 +65,7 @@ id,title,level,slug,paid,done
 64,Minimum Path Sum,2,minimum-path-sum,0,1
 65,Valid Number,3,valid-number,0,0
 66,Plus One,1,plus-one,0,1
-67,Add Binary,1,add-binary,0,0
+67,Add Binary,1,add-binary,0,1
 68,Text Justification,3,text-justification,0,0
 69,Sqrt(x),1,sqrtx,0,0
 70,Climbing Stairs,1,climbing-stairs,0,1
