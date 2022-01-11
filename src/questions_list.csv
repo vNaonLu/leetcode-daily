@@ -1020,7 +1020,7 @@ id,title,level,slug,paid,done
 1019,Next Greater Node In Linked List,2,next-greater-node-in-linked-list,0,0
 1020,Number of Enclaves,2,number-of-enclaves,0,0
 1021,Remove Outermost Parentheses,1,remove-outermost-parentheses,0,0
-1022,Sum of Root To Leaf Binary Numbers,1,sum-of-root-to-leaf-binary-numbers,0,0
+1022,Sum of Root To Leaf Binary Numbers,1,sum-of-root-to-leaf-binary-numbers,0,1
 1023,Camelcase Matching,2,camelcase-matching,0,0
 1024,Video Stitching,2,video-stitching,0,0
 1025,Divisor Game,1,divisor-game,0,0
