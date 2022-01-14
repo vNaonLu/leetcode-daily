@@ -80,7 +80,7 @@ My daily challenge on leetcode since 2021/09/06.
 |[📎](src/q_51_100/q0066.cc)|66|[Plus One](https://leetcode.com/problems/plus-one/)|Easy|
 |[📎](src/q_51_100/q0067.cc)|67|[Add Binary](https://leetcode.com/problems/add-binary/)|Easy|
 ||68|[Text Justification](https://leetcode.com/problems/text-justification/)|Hard|
-||69|[Sqrt(x)](https://leetcode.com/problems/sqrtx/)|Easy|
+|[📎](src/q_51_100/q0069.cc)|69|[Sqrt(x)](https://leetcode.com/problems/sqrtx/)|Easy|
 |[📎](src/q_51_100/q0070.cc)|70|[Climbing Stairs](https://leetcode.com/problems/climbing-stairs/)|Easy|
 ||71|[Simplify Path](https://leetcode.com/problems/simplify-path/)|Medium|
 |[📎](src/q_51_100/q0072.cc)|72|[Edit Distance](https://leetcode.com/problems/edit-distance/)|Hard|
@@ -2204,6 +2204,7 @@ My daily challenge on leetcode since 2021/09/06.
 
 |Time|#|</>|Question Title|Difficulty|
 |:--|--:|:-:|:--|:--|
+|2022-01-14 18:14|69|[📎](src/q_51_100/q0069.cc)|[Sqrt(x)](https://leetcode.com/problems/sqrtx/)|Easy|
 |2022-01-13 18:10|452|[📎](src/q_451_500/q0452.cc)|[Minimum Number of Arrows to Burst Balloons](https://leetcode.com/problems/minimum-number-of-arrows-to-burst-balloons/)|Medium|
 |2022-01-12 17:59|2042|[📎](src/q_2001_2050/q2042.cc)|[Check if Numbers Are Ascending in a Sentence](https://leetcode.com/problems/check-if-numbers-are-ascending-in-a-sentence/)|Easy|
 |2022-01-11 18:04|1022|[📎](src/q_1001_1050/q1022.cc)|[Sum of Root To Leaf Binary Numbers](https://leetcode.com/problems/sum-of-root-to-leaf-binary-numbers/)|Easy|
@@ -2228,13 +2229,12 @@ My daily challenge on leetcode since 2021/09/06.
 |2021-12-23 18:09|210|[📎](src/q_201_250/q0210.cc)|[Course Schedule II](https://leetcode.com/problems/course-schedule-ii/)|Medium|
 |2021-12-22 21:58|507|[📎](src/q_501_550/q0507.cc)|[Perfect Number](https://leetcode.com/problems/perfect-number/)|Easy|
 |2021-12-21 14:34|61|[📎](src/q_51_100/q0061.cc)|[Rotate List](https://leetcode.com/problems/rotate-list/)|Medium|
-|2021-12-20 18:07|1200|[📎](src/q_1151_1200/q1200.cc)|[Minimum Absolute Difference](https://leetcode.com/problems/minimum-absolute-difference/)|Easy|
 
 ## Previous Logs
 
 |Month|Submissions|Easy|Medium|Hard|
 |:--|:--|:--|:--|:--|
-|[January_2022](./assets/January_2022.md)|13|4|7|2|
+|[January_2022](./assets/January_2022.md)|14|5|7|2|
 |[December_2021](./assets/December_2021.md)|33|11|15|7|
 |[November_2021](./assets/November_2021.md)|41|19|16|6|
 |[October_2021](./assets/October_2021.md)|115|27|75|13|

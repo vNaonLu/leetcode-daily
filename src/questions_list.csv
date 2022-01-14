@@ -67,7 +67,7 @@ id,title,level,slug,paid,done
 66,Plus One,1,plus-one,0,1
 67,Add Binary,1,add-binary,0,1
 68,Text Justification,3,text-justification,0,0
-69,Sqrt(x),1,sqrtx,0,0
+69,Sqrt(x),1,sqrtx,0,1
 70,Climbing Stairs,1,climbing-stairs,0,1
 71,Simplify Path,2,simplify-path,0,0
 72,Edit Distance,3,edit-distance,0,1
