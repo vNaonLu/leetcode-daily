@@ -1343,7 +1343,7 @@ id,title,level,slug,paid,done
 1342,Number of Steps to Reduce a Number to Zero,1,number-of-steps-to-reduce-a-number-to-zero,0,0
 1343,Number of Sub-arrays of Size K and Average Greater than or Equal to Threshold,2,number-of-sub-arrays-of-size-k-and-average-greater-than-or-equal-to-threshold,0,0
 1344,Angle Between Hands of a Clock,2,angle-between-hands-of-a-clock,0,0
-1345,Jump Game IV,3,jump-game-iv,0,0
+1345,Jump Game IV,3,jump-game-iv,0,1
 1346,Check If N and Its Double Exist,1,check-if-n-and-its-double-exist,0,0
 1347,Minimum Number of Steps to Make Two Strings Anagram,2,minimum-number-of-steps-to-make-two-strings-anagram,0,0
 1348,Tweet Counts Per Frequency,2,tweet-counts-per-frequency,0,0
