@@ -65,9 +65,9 @@ id,title,level,slug,paid,done
 64,Minimum Path Sum,2,minimum-path-sum,0,1
 65,Valid Number,3,valid-number,0,0
 66,Plus One,1,plus-one,0,1
-67,Add Binary,1,add-binary,0,0
+67,Add Binary,1,add-binary,0,1
 68,Text Justification,3,text-justification,0,0
-69,Sqrt(x),1,sqrtx,0,0
+69,Sqrt(x),1,sqrtx,0,1
 70,Climbing Stairs,1,climbing-stairs,0,1
 71,Simplify Path,2,simplify-path,0,0
 72,Edit Distance,3,edit-distance,0,1
@@ -450,7 +450,7 @@ id,title,level,slug,paid,done
 449,Serialize and Deserialize BST,2,serialize-and-deserialize-bst,0,0
 450,Delete Node in a BST,2,delete-node-in-a-bst,0,1
 451,Sort Characters By Frequency,2,sort-characters-by-frequency,0,1
-452,Minimum Number of Arrows to Burst Balloons,2,minimum-number-of-arrows-to-burst-balloons,0,0
+452,Minimum Number of Arrows to Burst Balloons,2,minimum-number-of-arrows-to-burst-balloons,0,1
 453,Minimum Moves to Equal Array Elements,2,minimum-moves-to-equal-array-elements,0,0
 454,4Sum II,2,4sum-ii,0,0
 455,Assign Cookies,1,assign-cookies,0,0
@@ -1020,7 +1020,7 @@ id,title,level,slug,paid,done
 1019,Next Greater Node In Linked List,2,next-greater-node-in-linked-list,0,0
 1020,Number of Enclaves,2,number-of-enclaves,0,0
 1021,Remove Outermost Parentheses,1,remove-outermost-parentheses,0,0
-1022,Sum of Root To Leaf Binary Numbers,1,sum-of-root-to-leaf-binary-numbers,0,0
+1022,Sum of Root To Leaf Binary Numbers,1,sum-of-root-to-leaf-binary-numbers,0,1
 1023,Camelcase Matching,2,camelcase-matching,0,0
 1024,Video Stitching,2,video-stitching,0,0
 1025,Divisor Game,1,divisor-game,0,0
@@ -1039,7 +1039,7 @@ id,title,level,slug,paid,done
 1038,Binary Search Tree to Greater Sum Tree,2,binary-search-tree-to-greater-sum-tree,0,0
 1039,Minimum Score Triangulation of Polygon,2,minimum-score-triangulation-of-polygon,0,0
 1040,Moving Stones Until Consecutive II,2,moving-stones-until-consecutive-ii,0,0
-1041,Robot Bounded In Circle,2,robot-bounded-in-circle,0,0
+1041,Robot Bounded In Circle,2,robot-bounded-in-circle,0,1
 1042,Flower Planting With No Adjacent,2,flower-planting-with-no-adjacent,0,0
 1043,Partition Array for Maximum Sum,2,partition-array-for-maximum-sum,0,1
 1044,Longest Duplicate Substring,3,longest-duplicate-substring,0,1
@@ -1343,7 +1343,7 @@ id,title,level,slug,paid,done
 1342,Number of Steps to Reduce a Number to Zero,1,number-of-steps-to-reduce-a-number-to-zero,0,0
 1343,Number of Sub-arrays of Size K and Average Greater than or Equal to Threshold,2,number-of-sub-arrays-of-size-k-and-average-greater-than-or-equal-to-threshold,0,0
 1344,Angle Between Hands of a Clock,2,angle-between-hands-of-a-clock,0,0
-1345,Jump Game IV,3,jump-game-iv,0,0
+1345,Jump Game IV,3,jump-game-iv,0,1
 1346,Check If N and Its Double Exist,1,check-if-n-and-its-double-exist,0,0
 1347,Minimum Number of Steps to Make Two Strings Anagram,2,minimum-number-of-steps-to-make-two-strings-anagram,0,0
 1348,Tweet Counts Per Frequency,2,tweet-counts-per-frequency,0,0
@@ -2040,7 +2040,7 @@ id,title,level,slug,paid,done
 2039,The Time When the Network Becomes Idle,2,the-time-when-the-network-becomes-idle,0,0
 2040,Kth Smallest Product of Two Sorted Arrays,3,kth-smallest-product-of-two-sorted-arrays,0,0
 2041,Accepted Candidates From the Interviews,2,accepted-candidates-from-the-interviews,1,0
-2042,Check if Numbers Are Ascending in a Sentence,1,check-if-numbers-are-ascending-in-a-sentence,0,0
+2042,Check if Numbers Are Ascending in a Sentence,1,check-if-numbers-are-ascending-in-a-sentence,0,1
 2043,Simple Bank System,2,simple-bank-system,0,0
 2044,Count Number of Maximum Bitwise-OR Subsets,2,count-number-of-maximum-bitwise-or-subsets,0,0
 2045,Second Minimum Time to Reach Destination,3,second-minimum-time-to-reach-destination,0,0
@@ -2127,3 +2127,12 @@ id,title,level,slug,paid,done
 2126,Destroying Asteroids,2,destroying-asteroids,0,0
 2127,Maximum Employees to Be Invited to a Meeting,3,maximum-employees-to-be-invited-to-a-meeting,0,0
 2128,Remove All Ones With Row and Column Flips,2,remove-all-ones-with-row-and-column-flips,1,0
+2129,Capitalize the Title,1,capitalize-the-title,0,0
+2130,Maximum Twin Sum of a Linked List,2,maximum-twin-sum-of-a-linked-list,0,0
+2131,Longest Palindrome by Concatenating Two Letter Words,2,longest-palindrome-by-concatenating-two-letter-words,0,0
+2132,Stamping the Grid,3,stamping-the-grid,0,0
+2133,Check if Every Row and Column Contains All Numbers,1,check-if-every-row-and-column-contains-all-numbers,0,0
+2134,Minimum Swaps to Group All 1's Together II,2,minimum-swaps-to-group-all-1s-together-ii,0,0
+2135,Count Words Obtained After Adding a Letter,2,count-words-obtained-after-adding-a-letter,0,0
+2136,Earliest Possible Day of Full Bloom,3,earliest-possible-day-of-full-bloom,0,0
+2137,Pour Water Between Buckets to Make Water Levels Equal,2,pour-water-between-buckets-to-make-water-levels-equal,1,0
