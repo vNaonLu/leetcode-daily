@@ -847,7 +847,7 @@ id,title,level,slug,paid,done
 846,Hand of Straights,2,hand-of-straights,0,0
 847,Shortest Path Visiting All Nodes,3,shortest-path-visiting-all-nodes,0,0
 848,Shifting Letters,2,shifting-letters,0,1
-849,Maximize Distance to Closest Person,2,maximize-distance-to-closest-person,0,0
+849,Maximize Distance to Closest Person,2,maximize-distance-to-closest-person,0,1
 850,Rectangle Area II,3,rectangle-area-ii,0,0
 851,Loud and Rich,2,loud-and-rich,0,0
 852,Peak Index in a Mountain Array,1,peak-index-in-a-mountain-array,0,1
@@ -2136,3 +2136,7 @@ id,title,level,slug,paid,done
 2135,Count Words Obtained After Adding a Letter,2,count-words-obtained-after-adding-a-letter,0,0
 2136,Earliest Possible Day of Full Bloom,3,earliest-possible-day-of-full-bloom,0,0
 2137,Pour Water Between Buckets to Make Water Levels Equal,2,pour-water-between-buckets-to-make-water-levels-equal,1,0
+2138,Divide a String Into Groups of Size k,1,divide-a-string-into-groups-of-size-k,0,0
+2139,Minimum Moves to Reach Target Score,2,minimum-moves-to-reach-target-score,0,0
+2140,Solving Questions With Brainpower,2,solving-questions-with-brainpower,0,0
+2141,Maximum Running Time of N Computers,3,maximum-running-time-of-n-computers,0,0
