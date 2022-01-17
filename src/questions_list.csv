@@ -78,7 +78,7 @@ id,title,level,slug,paid,done
 77,Combinations,2,combinations,0,1
 78,Subsets,2,subsets,0,1
 79,Word Search,2,word-search,0,1
-80,Remove Duplicates from Sorted Array II,2,remove-duplicates-from-sorted-array-ii,0,0
+80,Remove Duplicates from Sorted Array II,2,remove-duplicates-from-sorted-array-ii,0,1
 81,Search in Rotated Sorted Array II,2,search-in-rotated-sorted-array-ii,0,0
 82,Remove Duplicates from Sorted List II,2,remove-duplicates-from-sorted-list-ii,0,1
 83,Remove Duplicates from Sorted List,1,remove-duplicates-from-sorted-list,0,1
@@ -2140,3 +2140,4 @@ id,title,level,slug,paid,done
 2139,Minimum Moves to Reach Target Score,2,minimum-moves-to-reach-target-score,0,0
 2140,Solving Questions With Brainpower,2,solving-questions-with-brainpower,0,0
 2141,Maximum Running Time of N Computers,3,maximum-running-time-of-n-computers,0,0
+2142,The Number of Passengers in Each Bus I,2,the-number-of-passengers-in-each-bus-i,1,0

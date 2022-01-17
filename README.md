@@ -91,7 +91,7 @@ My daily challenge on leetcode since 2021/09/06.
 |[📎](src/q_51_100/q0077.cc)|77|[Combinations](https://leetcode.com/problems/combinations/)|Medium|
 |[📎](src/q_51_100/q0078.cc)|78|[Subsets](https://leetcode.com/problems/subsets/)|Medium|
 |[📎](src/q_51_100/q0079.cc)|79|[Word Search](https://leetcode.com/problems/word-search/)|Medium|
-||80|[Remove Duplicates from Sorted Array II](https://leetcode.com/problems/remove-duplicates-from-sorted-array-ii/)|Medium|
+|[📎](src/q_51_100/q0080.cc)|80|[Remove Duplicates from Sorted Array II](https://leetcode.com/problems/remove-duplicates-from-sorted-array-ii/)|Medium|
 ||81|[Search in Rotated Sorted Array II](https://leetcode.com/problems/search-in-rotated-sorted-array-ii/)|Medium|
 |[📎](src/q_51_100/q0082.cc)|82|[Remove Duplicates from Sorted List II](https://leetcode.com/problems/remove-duplicates-from-sorted-list-ii/)|Medium|
 |[📎](src/q_51_100/q0083.cc)|83|[Remove Duplicates from Sorted List](https://leetcode.com/problems/remove-duplicates-from-sorted-list/)|Easy|
@@ -2056,7 +2056,7 @@ My daily challenge on leetcode since 2021/09/06.
 ||2000|[Reverse Prefix of Word](https://leetcode.com/problems/reverse-prefix-of-word/)|Easy|
 </details>
 <details>
-  <summary>### 2001 ~ 2141</summary>
+  <summary>### 2001 ~ 2142</summary>
 
 |</>|#|Solution Title|Difficulty|
 |:-:|--:|:--|:--|
@@ -2201,6 +2201,7 @@ My daily challenge on leetcode since 2021/09/06.
 ||2139|[Minimum Moves to Reach Target Score](https://leetcode.com/problems/minimum-moves-to-reach-target-score/)|Medium|
 ||2140|[Solving Questions With Brainpower](https://leetcode.com/problems/solving-questions-with-brainpower/)|Medium|
 ||2141|[Maximum Running Time of N Computers](https://leetcode.com/problems/maximum-running-time-of-n-computers/)|Hard|
+|🔒|2142|[The Number of Passengers in Each Bus I](https://leetcode.com/problems/the-number-of-passengers-in-each-bus-i/)|Medium|
 </details>
 
 ---
@@ -2208,6 +2209,7 @@ My daily challenge on leetcode since 2021/09/06.
 
 |Time|#|</>|Question Title|Difficulty|
 |:--|--:|:-:|:--|:--|
+|2022-01-17 14:50|80|[📎](src/q_51_100/q0080.cc)|[Remove Duplicates from Sorted Array II](https://leetcode.com/problems/remove-duplicates-from-sorted-array-ii/)|Medium|
 |2022-01-16 15:14|849|[📎](src/q_801_850/q0849.cc)|[Maximize Distance to Closest Person](https://leetcode.com/problems/maximize-distance-to-closest-person/)|Medium|
 |2022-01-15 14:26|1345|[📎](src/q_1301_1350/q1345.cc)|[Jump Game IV](https://leetcode.com/problems/jump-game-iv/)|Hard|
 |2022-01-14 18:14|69|[📎](src/q_51_100/q0069.cc)|[Sqrt(x)](https://leetcode.com/problems/sqrtx/)|Easy|
@@ -2232,13 +2234,12 @@ My daily challenge on leetcode since 2021/09/06.
 |2021-12-26 14:59|66|[📎](src/q_51_100/q0066.cc)|[Plus One](https://leetcode.com/problems/plus-one/)|Easy|
 |2021-12-25 20:42|227|[📎](src/q_201_250/q0227.cc)|[Basic Calculator II](https://leetcode.com/problems/basic-calculator-ii/)|Medium|
 |2021-12-24 18:29|44|[📎](src/q_1_50/q0044.cc)|[Wildcard Matching](https://leetcode.com/problems/wildcard-matching/)|Hard|
-|2021-12-23 18:09|210|[📎](src/q_201_250/q0210.cc)|[Course Schedule II](https://leetcode.com/problems/course-schedule-ii/)|Medium|
 
 ## Previous Logs
 
 |Month|Submissions|Easy|Medium|Hard|
 |:--|:--|:--|:--|:--|
-|[January_2022](./assets/January_2022.md)|16|5|8|3|
+|[January_2022](./assets/January_2022.md)|17|5|9|3|
 |[December_2021](./assets/December_2021.md)|33|11|15|7|
 |[November_2021](./assets/November_2021.md)|41|19|16|6|
 |[October_2021](./assets/October_2021.md)|115|27|75|13|
