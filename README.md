@@ -145,7 +145,7 @@ My daily challenge on leetcode since 2021/09/06.
 |[📎](src/q_101_150/q0131.cc)|131|[Palindrome Partitioning](https://leetcode.com/problems/palindrome-partitioning/)|Medium|
 ||132|[Palindrome Partitioning II](https://leetcode.com/problems/palindrome-partitioning-ii/)|Hard|
 ||133|[Clone Graph](https://leetcode.com/problems/clone-graph/)|Medium|
-||134|[Gas Station](https://leetcode.com/problems/gas-station/)|Medium|
+|[📎](src/q_101_150/q0134.cc)|134|[Gas Station](https://leetcode.com/problems/gas-station/)|Medium|
 ||135|[Candy](https://leetcode.com/problems/candy/)|Hard|
 |[📎](src/q_101_150/q0136.cc)|136|[Single Number](https://leetcode.com/problems/single-number/)|Easy|
 ||137|[Single Number II](https://leetcode.com/problems/single-number-ii/)|Medium|
@@ -2056,7 +2056,7 @@ My daily challenge on leetcode since 2021/09/06.
 ||2000|[Reverse Prefix of Word](https://leetcode.com/problems/reverse-prefix-of-word/)|Easy|
 </details>
 <details>
-  <summary>### 2001 ~ 2137</summary>
+  <summary>### 2001 ~ 2143</summary>
 
 |</>|#|Solution Title|Difficulty|
 |:-:|--:|:--|:--|
@@ -2197,6 +2197,12 @@ My daily challenge on leetcode since 2021/09/06.
 ||2135|[Count Words Obtained After Adding a Letter](https://leetcode.com/problems/count-words-obtained-after-adding-a-letter/)|Medium|
 ||2136|[Earliest Possible Day of Full Bloom](https://leetcode.com/problems/earliest-possible-day-of-full-bloom/)|Hard|
 |🔒|2137|[Pour Water Between Buckets to Make Water Levels Equal](https://leetcode.com/problems/pour-water-between-buckets-to-make-water-levels-equal/)|Medium|
+||2138|[Divide a String Into Groups of Size k](https://leetcode.com/problems/divide-a-string-into-groups-of-size-k/)|Easy|
+||2139|[Minimum Moves to Reach Target Score](https://leetcode.com/problems/minimum-moves-to-reach-target-score/)|Medium|
+||2140|[Solving Questions With Brainpower](https://leetcode.com/problems/solving-questions-with-brainpower/)|Medium|
+||2141|[Maximum Running Time of N Computers](https://leetcode.com/problems/maximum-running-time-of-n-computers/)|Hard|
+|🔒|2142|[The Number of Passengers in Each Bus I](https://leetcode.com/problems/the-number-of-passengers-in-each-bus-i/)|Medium|
+|🔒|2143|[Choose Numbers From Two Arrays in Range](https://leetcode.com/problems/choose-numbers-from-two-arrays-in-range/)|Hard|
 </details>
 
 ---
@@ -2204,6 +2210,7 @@ My daily challenge on leetcode since 2021/09/06.
 
 |Time|#|</>|Question Title|Difficulty|
 |:--|--:|:-:|:--|:--|
+|2022-01-21 22:12|134|[📎](src/q_101_150/q0134.cc)|[Gas Station](https://leetcode.com/problems/gas-station/)|Medium|
 |2022-01-15 14:26|1345|[📎](src/q_1301_1350/q1345.cc)|[Jump Game IV](https://leetcode.com/problems/jump-game-iv/)|Hard|
 |2022-01-14 18:14|69|[📎](src/q_51_100/q0069.cc)|[Sqrt(x)](https://leetcode.com/problems/sqrtx/)|Easy|
 |2022-01-13 18:10|452|[📎](src/q_451_500/q0452.cc)|[Minimum Number of Arrows to Burst Balloons](https://leetcode.com/problems/minimum-number-of-arrows-to-burst-balloons/)|Medium|
@@ -2228,13 +2235,12 @@ My daily challenge on leetcode since 2021/09/06.
 |2021-12-25 20:42|227|[📎](src/q_201_250/q0227.cc)|[Basic Calculator II](https://leetcode.com/problems/basic-calculator-ii/)|Medium|
 |2021-12-24 18:29|44|[📎](src/q_1_50/q0044.cc)|[Wildcard Matching](https://leetcode.com/problems/wildcard-matching/)|Hard|
 |2021-12-23 18:09|210|[📎](src/q_201_250/q0210.cc)|[Course Schedule II](https://leetcode.com/problems/course-schedule-ii/)|Medium|
-|2021-12-22 21:58|507|[📎](src/q_501_550/q0507.cc)|[Perfect Number](https://leetcode.com/problems/perfect-number/)|Easy|
 
 ## Previous Logs
 
 |Month|Submissions|Easy|Medium|Hard|
 |:--|:--|:--|:--|:--|
-|[January_2022](./assets/January_2022.md)|15|5|7|3|
+|[January_2022](./assets/January_2022.md)|16|5|8|3|
 |[December_2021](./assets/December_2021.md)|33|11|15|7|
 |[November_2021](./assets/November_2021.md)|41|19|16|6|
 |[October_2021](./assets/October_2021.md)|115|27|75|13|
