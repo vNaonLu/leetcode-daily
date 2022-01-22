@@ -2,7 +2,13 @@
 
 ||#|</>|Question Title|Difficulty|
 |:--|--:|:-:|:--|:--|
+|Day 22|1510|[📎](../src/q_1501_1550/q1510.cc)|[Stone Game IV](https://leetcode.com/problems/stone-game-iv/)|Hard|
 |Day 21|134|[📎](../src/q_101_150/q0134.cc)|[Gas Station](https://leetcode.com/problems/gas-station/)|Medium|
+|Day 20|875|[📎](../src/q_851_900/q0875.cc)|[Koko Eating Bananas](https://leetcode.com/problems/koko-eating-bananas/)|Medium|
+|Day 19|95|[📎](../src/q_51_100/q0095.cc)|[Unique Binary Search Trees II](https://leetcode.com/problems/unique-binary-search-trees-ii/)|Medium|
+|Day 18|605|[📎](../src/q_601_650/q0605.cc)|[Can Place Flowers](https://leetcode.com/problems/can-place-flowers/)|Easy|
+|Day 17|80|[📎](../src/q_51_100/q0080.cc)|[Remove Duplicates from Sorted Array II](https://leetcode.com/problems/remove-duplicates-from-sorted-array-ii/)|Medium|
+|Day 16|849|[📎](../src/q_801_850/q0849.cc)|[Maximize Distance to Closest Person](https://leetcode.com/problems/maximize-distance-to-closest-person/)|Medium|
 |Day 15|1345|[📎](../src/q_1301_1350/q1345.cc)|[Jump Game IV](https://leetcode.com/problems/jump-game-iv/)|Hard|
 |Day 14|69|[📎](../src/q_51_100/q0069.cc)|[Sqrt(x)](https://leetcode.com/problems/sqrtx/)|Easy|
 |Day 13|452|[📎](../src/q_451_500/q0452.cc)|[Minimum Number of Arrows to Burst Balloons](https://leetcode.com/problems/minimum-number-of-arrows-to-burst-balloons/)|Medium|

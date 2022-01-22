@@ -91,7 +91,7 @@ My daily challenge on leetcode since 2021/09/06.
 |[📎](src/q_51_100/q0077.cc)|77|[Combinations](https://leetcode.com/problems/combinations/)|Medium|
 |[📎](src/q_51_100/q0078.cc)|78|[Subsets](https://leetcode.com/problems/subsets/)|Medium|
 |[📎](src/q_51_100/q0079.cc)|79|[Word Search](https://leetcode.com/problems/word-search/)|Medium|
-||80|[Remove Duplicates from Sorted Array II](https://leetcode.com/problems/remove-duplicates-from-sorted-array-ii/)|Medium|
+|[📎](src/q_51_100/q0080.cc)|80|[Remove Duplicates from Sorted Array II](https://leetcode.com/problems/remove-duplicates-from-sorted-array-ii/)|Medium|
 ||81|[Search in Rotated Sorted Array II](https://leetcode.com/problems/search-in-rotated-sorted-array-ii/)|Medium|
 |[📎](src/q_51_100/q0082.cc)|82|[Remove Duplicates from Sorted List II](https://leetcode.com/problems/remove-duplicates-from-sorted-list-ii/)|Medium|
 |[📎](src/q_51_100/q0083.cc)|83|[Remove Duplicates from Sorted List](https://leetcode.com/problems/remove-duplicates-from-sorted-list/)|Easy|
@@ -106,7 +106,7 @@ My daily challenge on leetcode since 2021/09/06.
 |[📎](src/q_51_100/q0092.cc)|92|[Reverse Linked List II](https://leetcode.com/problems/reverse-linked-list-ii/)|Medium|
 |[📎](src/q_51_100/q0093.cc)|93|[Restore IP Addresses](https://leetcode.com/problems/restore-ip-addresses/)|Medium|
 |[📎](src/q_51_100/q0094.cc)|94|[Binary Tree Inorder Traversal](https://leetcode.com/problems/binary-tree-inorder-traversal/)|Easy|
-||95|[Unique Binary Search Trees II](https://leetcode.com/problems/unique-binary-search-trees-ii/)|Medium|
+|[📎](src/q_51_100/q0095.cc)|95|[Unique Binary Search Trees II](https://leetcode.com/problems/unique-binary-search-trees-ii/)|Medium|
 |[📎](src/q_51_100/q0096.cc)|96|[Unique Binary Search Trees](https://leetcode.com/problems/unique-binary-search-trees/)|Medium|
 ||97|[Interleaving String](https://leetcode.com/problems/interleaving-string/)|Medium|
 |[📎](src/q_51_100/q0098.cc)|98|[Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree/)|Medium|
@@ -628,7 +628,7 @@ My daily challenge on leetcode since 2021/09/06.
 |🔒|602|[Friend Requests II: Who Has the Most Friends](https://leetcode.com/problems/friend-requests-ii-who-has-the-most-friends/)|Medium|
 |🔒|603|[Consecutive Available Seats](https://leetcode.com/problems/consecutive-available-seats/)|Easy|
 |🔒|604|[Design Compressed String Iterator](https://leetcode.com/problems/design-compressed-string-iterator/)|Easy|
-||605|[Can Place Flowers](https://leetcode.com/problems/can-place-flowers/)|Easy|
+|[📎](src/q_601_650/q0605.cc)|605|[Can Place Flowers](https://leetcode.com/problems/can-place-flowers/)|Easy|
 ||606|[Construct String from Binary Tree](https://leetcode.com/problems/construct-string-from-binary-tree/)|Easy|
 |🔒|607|[Sales Person](https://leetcode.com/problems/sales-person/)|Easy|
 |🔒|608|[Tree Node](https://leetcode.com/problems/tree-node/)|Medium|
@@ -878,7 +878,7 @@ My daily challenge on leetcode since 2021/09/06.
 ||846|[Hand of Straights](https://leetcode.com/problems/hand-of-straights/)|Medium|
 ||847|[Shortest Path Visiting All Nodes](https://leetcode.com/problems/shortest-path-visiting-all-nodes/)|Hard|
 |[📎](src/q_801_850/q0848.cc)|848|[Shifting Letters](https://leetcode.com/problems/shifting-letters/)|Medium|
-||849|[Maximize Distance to Closest Person](https://leetcode.com/problems/maximize-distance-to-closest-person/)|Medium|
+|[📎](src/q_801_850/q0849.cc)|849|[Maximize Distance to Closest Person](https://leetcode.com/problems/maximize-distance-to-closest-person/)|Medium|
 ||850|[Rectangle Area II](https://leetcode.com/problems/rectangle-area-ii/)|Hard|
 ||851|[Loud and Rich](https://leetcode.com/problems/loud-and-rich/)|Medium|
 |[📎](src/q_851_900/q0852.cc)|852|[Peak Index in a Mountain Array](https://leetcode.com/problems/peak-index-in-a-mountain-array/)|Easy|
@@ -904,7 +904,7 @@ My daily challenge on leetcode since 2021/09/06.
 ||872|[Leaf-Similar Trees](https://leetcode.com/problems/leaf-similar-trees/)|Easy|
 ||873|[Length of Longest Fibonacci Subsequence](https://leetcode.com/problems/length-of-longest-fibonacci-subsequence/)|Medium|
 ||874|[Walking Robot Simulation](https://leetcode.com/problems/walking-robot-simulation/)|Medium|
-||875|[Koko Eating Bananas](https://leetcode.com/problems/koko-eating-bananas/)|Medium|
+|[📎](src/q_851_900/q0875.cc)|875|[Koko Eating Bananas](https://leetcode.com/problems/koko-eating-bananas/)|Medium|
 |[📎](src/q_851_900/q0876.cc)|876|[Middle of the Linked List](https://leetcode.com/problems/middle-of-the-linked-list/)|Easy|
 ||877|[Stone Game](https://leetcode.com/problems/stone-game/)|Medium|
 |[📎](src/q_851_900/q0878.cc)|878|[Nth Magical Number](https://leetcode.com/problems/nth-magical-number/)|Hard|
@@ -1557,7 +1557,7 @@ My daily challenge on leetcode since 2021/09/06.
 ||1507|[Reformat Date](https://leetcode.com/problems/reformat-date/)|Easy|
 ||1508|[Range Sum of Sorted Subarray Sums](https://leetcode.com/problems/range-sum-of-sorted-subarray-sums/)|Medium|
 ||1509|[Minimum Difference Between Largest and Smallest Value in Three Moves](https://leetcode.com/problems/minimum-difference-between-largest-and-smallest-value-in-three-moves/)|Medium|
-||1510|[Stone Game IV](https://leetcode.com/problems/stone-game-iv/)|Hard|
+|[📎](src/q_1501_1550/q1510.cc)|1510|[Stone Game IV](https://leetcode.com/problems/stone-game-iv/)|Hard|
 |🔒|1511|[Customer Order Frequency](https://leetcode.com/problems/customer-order-frequency/)|Easy|
 ||1512|[Number of Good Pairs](https://leetcode.com/problems/number-of-good-pairs/)|Easy|
 ||1513|[Number of Substrings With Only 1s](https://leetcode.com/problems/number-of-substrings-with-only-1s/)|Medium|
@@ -2210,7 +2210,13 @@ My daily challenge on leetcode since 2021/09/06.
 
 |Time|#|</>|Question Title|Difficulty|
 |:--|--:|:-:|:--|:--|
+|2022-01-22 13:57|1510|[📎](src/q_1501_1550/q1510.cc)|[Stone Game IV](https://leetcode.com/problems/stone-game-iv/)|Hard|
 |2022-01-21 22:12|134|[📎](src/q_101_150/q0134.cc)|[Gas Station](https://leetcode.com/problems/gas-station/)|Medium|
+|2022-01-20 18:13|875|[📎](src/q_851_900/q0875.cc)|[Koko Eating Bananas](https://leetcode.com/problems/koko-eating-bananas/)|Medium|
+|2022-01-19 18:21|95|[📎](src/q_51_100/q0095.cc)|[Unique Binary Search Trees II](https://leetcode.com/problems/unique-binary-search-trees-ii/)|Medium|
+|2022-01-18 18:15|605|[📎](src/q_601_650/q0605.cc)|[Can Place Flowers](https://leetcode.com/problems/can-place-flowers/)|Easy|
+|2022-01-17 14:50|80|[📎](src/q_51_100/q0080.cc)|[Remove Duplicates from Sorted Array II](https://leetcode.com/problems/remove-duplicates-from-sorted-array-ii/)|Medium|
+|2022-01-16 15:14|849|[📎](src/q_801_850/q0849.cc)|[Maximize Distance to Closest Person](https://leetcode.com/problems/maximize-distance-to-closest-person/)|Medium|
 |2022-01-15 14:26|1345|[📎](src/q_1301_1350/q1345.cc)|[Jump Game IV](https://leetcode.com/problems/jump-game-iv/)|Hard|
 |2022-01-14 18:14|69|[📎](src/q_51_100/q0069.cc)|[Sqrt(x)](https://leetcode.com/problems/sqrtx/)|Easy|
 |2022-01-13 18:10|452|[📎](src/q_451_500/q0452.cc)|[Minimum Number of Arrows to Burst Balloons](https://leetcode.com/problems/minimum-number-of-arrows-to-burst-balloons/)|Medium|
@@ -2229,18 +2235,12 @@ My daily challenge on leetcode since 2021/09/06.
 |2021-12-31 14:34|1026|[📎](src/q_1001_1050/q1026.cc)|[Maximum Difference Between Node and Ancestor](https://leetcode.com/problems/maximum-difference-between-node-and-ancestor/)|Medium|
 |2021-12-30 18:05|1015|[📎](src/q_1001_1050/q1015.cc)|[Smallest Integer Divisible by K](https://leetcode.com/problems/smallest-integer-divisible-by-k/)|Medium|
 |2021-12-29 18:13|92|[📎](src/q_51_100/q0092.cc)|[Reverse Linked List II](https://leetcode.com/problems/reverse-linked-list-ii/)|Medium|
-|2021-12-28 18:40|58|[📎](src/q_51_100/q0058.cc)|[Length of Last Word](https://leetcode.com/problems/length-of-last-word/)|Easy|
-|2021-12-27 18:26|476|[📎](src/q_451_500/q0476.cc)|[Number Complement](https://leetcode.com/problems/number-complement/)|Easy|
-|2021-12-26 14:59|66|[📎](src/q_51_100/q0066.cc)|[Plus One](https://leetcode.com/problems/plus-one/)|Easy|
-|2021-12-25 20:42|227|[📎](src/q_201_250/q0227.cc)|[Basic Calculator II](https://leetcode.com/problems/basic-calculator-ii/)|Medium|
-|2021-12-24 18:29|44|[📎](src/q_1_50/q0044.cc)|[Wildcard Matching](https://leetcode.com/problems/wildcard-matching/)|Hard|
-|2021-12-23 18:09|210|[📎](src/q_201_250/q0210.cc)|[Course Schedule II](https://leetcode.com/problems/course-schedule-ii/)|Medium|
 
 ## Previous Logs
 
 |Month|Submissions|Easy|Medium|Hard|
 |:--|:--|:--|:--|:--|
-|[January_2022](./assets/January_2022.md)|16|5|8|3|
+|[January_2022](./assets/January_2022.md)|22|6|12|4|
 |[December_2021](./assets/December_2021.md)|33|11|15|7|
 |[November_2021](./assets/November_2021.md)|41|19|16|6|
 |[October_2021](./assets/October_2021.md)|115|27|75|13|

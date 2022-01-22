@@ -78,7 +78,7 @@ id,title,level,slug,paid,done
 77,Combinations,2,combinations,0,1
 78,Subsets,2,subsets,0,1
 79,Word Search,2,word-search,0,1
-80,Remove Duplicates from Sorted Array II,2,remove-duplicates-from-sorted-array-ii,0,0
+80,Remove Duplicates from Sorted Array II,2,remove-duplicates-from-sorted-array-ii,0,1
 81,Search in Rotated Sorted Array II,2,search-in-rotated-sorted-array-ii,0,0
 82,Remove Duplicates from Sorted List II,2,remove-duplicates-from-sorted-list-ii,0,1
 83,Remove Duplicates from Sorted List,1,remove-duplicates-from-sorted-list,0,1
@@ -93,7 +93,7 @@ id,title,level,slug,paid,done
 92,Reverse Linked List II,2,reverse-linked-list-ii,0,1
 93,Restore IP Addresses,2,restore-ip-addresses,0,1
 94,Binary Tree Inorder Traversal,1,binary-tree-inorder-traversal,0,1
-95,Unique Binary Search Trees II,2,unique-binary-search-trees-ii,0,0
+95,Unique Binary Search Trees II,2,unique-binary-search-trees-ii,0,1
 96,Unique Binary Search Trees,2,unique-binary-search-trees,0,1
 97,Interleaving String,2,interleaving-string,0,0
 98,Validate Binary Search Tree,2,validate-binary-search-tree,0,1
@@ -603,7 +603,7 @@ id,title,level,slug,paid,done
 602,Friend Requests II: Who Has the Most Friends,2,friend-requests-ii-who-has-the-most-friends,1,0
 603,Consecutive Available Seats,1,consecutive-available-seats,1,0
 604,Design Compressed String Iterator,1,design-compressed-string-iterator,1,0
-605,Can Place Flowers,1,can-place-flowers,0,0
+605,Can Place Flowers,1,can-place-flowers,0,1
 606,Construct String from Binary Tree,1,construct-string-from-binary-tree,0,0
 607,Sales Person,1,sales-person,1,0
 608,Tree Node,2,tree-node,1,0
@@ -847,7 +847,7 @@ id,title,level,slug,paid,done
 846,Hand of Straights,2,hand-of-straights,0,0
 847,Shortest Path Visiting All Nodes,3,shortest-path-visiting-all-nodes,0,0
 848,Shifting Letters,2,shifting-letters,0,1
-849,Maximize Distance to Closest Person,2,maximize-distance-to-closest-person,0,0
+849,Maximize Distance to Closest Person,2,maximize-distance-to-closest-person,0,1
 850,Rectangle Area II,3,rectangle-area-ii,0,0
 851,Loud and Rich,2,loud-and-rich,0,0
 852,Peak Index in a Mountain Array,1,peak-index-in-a-mountain-array,0,1
@@ -873,7 +873,7 @@ id,title,level,slug,paid,done
 872,Leaf-Similar Trees,1,leaf-similar-trees,0,0
 873,Length of Longest Fibonacci Subsequence,2,length-of-longest-fibonacci-subsequence,0,0
 874,Walking Robot Simulation,2,walking-robot-simulation,0,0
-875,Koko Eating Bananas,2,koko-eating-bananas,0,0
+875,Koko Eating Bananas,2,koko-eating-bananas,0,1
 876,Middle of the Linked List,1,middle-of-the-linked-list,0,1
 877,Stone Game,2,stone-game,0,0
 878,Nth Magical Number,3,nth-magical-number,0,1
@@ -1508,7 +1508,7 @@ id,title,level,slug,paid,done
 1507,Reformat Date,1,reformat-date,0,0
 1508,Range Sum of Sorted Subarray Sums,2,range-sum-of-sorted-subarray-sums,0,0
 1509,Minimum Difference Between Largest and Smallest Value in Three Moves,2,minimum-difference-between-largest-and-smallest-value-in-three-moves,0,0
-1510,Stone Game IV,3,stone-game-iv,0,0
+1510,Stone Game IV,3,stone-game-iv,0,1
 1511,Customer Order Frequency,1,customer-order-frequency,1,0
 1512,Number of Good Pairs,1,number-of-good-pairs,0,0
 1513,Number of Substrings With Only 1s,2,number-of-substrings-with-only-1s,0,0
