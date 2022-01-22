@@ -1508,7 +1508,7 @@ id,title,level,slug,paid,done
 1507,Reformat Date,1,reformat-date,0,0
 1508,Range Sum of Sorted Subarray Sums,2,range-sum-of-sorted-subarray-sums,0,0
 1509,Minimum Difference Between Largest and Smallest Value in Three Moves,2,minimum-difference-between-largest-and-smallest-value-in-three-moves,0,0
-1510,Stone Game IV,3,stone-game-iv,0,0
+1510,Stone Game IV,3,stone-game-iv,0,1
 1511,Customer Order Frequency,1,customer-order-frequency,1,0
 1512,Number of Good Pairs,1,number-of-good-pairs,0,0
 1513,Number of Substrings With Only 1s,2,number-of-substrings-with-only-1s,0,0
