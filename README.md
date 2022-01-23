@@ -1332,7 +1332,7 @@ My daily challenge on leetcode since 2021/09/06.
 ||1288|[Remove Covered Intervals](https://leetcode.com/problems/remove-covered-intervals/)|Medium|
 ||1289|[Minimum Falling Path Sum II](https://leetcode.com/problems/minimum-falling-path-sum-ii/)|Hard|
 |[📎](src/q_1251_1300/q1290.cc)|1290|[Convert Binary Number in a Linked List to Integer](https://leetcode.com/problems/convert-binary-number-in-a-linked-list-to-integer/)|Easy|
-||1291|[Sequential Digits](https://leetcode.com/problems/sequential-digits/)|Medium|
+|[📎](src/q_1251_1300/q1291.cc)|1291|[Sequential Digits](https://leetcode.com/problems/sequential-digits/)|Medium|
 ||1292|[Maximum Side Length of a Square with Sum Less than or Equal to Threshold](https://leetcode.com/problems/maximum-side-length-of-a-square-with-sum-less-than-or-equal-to-threshold/)|Medium|
 |[📎](src/q_1251_1300/q1293.cc)|1293|[Shortest Path in a Grid with Obstacles Elimination](https://leetcode.com/problems/shortest-path-in-a-grid-with-obstacles-elimination/)|Hard|
 |🔒|1294|[Weather Type in Each Country](https://leetcode.com/problems/weather-type-in-each-country/)|Easy|
@@ -2056,7 +2056,7 @@ My daily challenge on leetcode since 2021/09/06.
 ||2000|[Reverse Prefix of Word](https://leetcode.com/problems/reverse-prefix-of-word/)|Easy|
 </details>
 <details>
-  <summary>### 2001 ~ 2143</summary>
+  <summary>### 2001 ~ 2147</summary>
 
 |</>|#|Solution Title|Difficulty|
 |:-:|--:|:--|:--|
@@ -2203,6 +2203,10 @@ My daily challenge on leetcode since 2021/09/06.
 ||2141|[Maximum Running Time of N Computers](https://leetcode.com/problems/maximum-running-time-of-n-computers/)|Hard|
 |🔒|2142|[The Number of Passengers in Each Bus I](https://leetcode.com/problems/the-number-of-passengers-in-each-bus-i/)|Medium|
 |🔒|2143|[Choose Numbers From Two Arrays in Range](https://leetcode.com/problems/choose-numbers-from-two-arrays-in-range/)|Hard|
+||2144|[Minimum Cost of Buying Candies With Discount](https://leetcode.com/problems/minimum-cost-of-buying-candies-with-discount/)|Easy|
+||2145|[Count the Hidden Sequences](https://leetcode.com/problems/count-the-hidden-sequences/)|Medium|
+||2146|[K Highest Ranked Items Within a Price Range](https://leetcode.com/problems/k-highest-ranked-items-within-a-price-range/)|Medium|
+||2147|[Number of Ways to Divide a Long Corridor](https://leetcode.com/problems/number-of-ways-to-divide-a-long-corridor/)|Hard|
 </details>
 
 ---
@@ -2210,6 +2214,7 @@ My daily challenge on leetcode since 2021/09/06.
 
 |Time|#|</>|Question Title|Difficulty|
 |:--|--:|:-:|:--|:--|
+|2022-01-23 14:04|1291|[📎](src/q_1251_1300/q1291.cc)|[Sequential Digits](https://leetcode.com/problems/sequential-digits/)|Medium|
 |2022-01-22 13:57|1510|[📎](src/q_1501_1550/q1510.cc)|[Stone Game IV](https://leetcode.com/problems/stone-game-iv/)|Hard|
 |2022-01-21 22:12|134|[📎](src/q_101_150/q0134.cc)|[Gas Station](https://leetcode.com/problems/gas-station/)|Medium|
 |2022-01-20 18:13|875|[📎](src/q_851_900/q0875.cc)|[Koko Eating Bananas](https://leetcode.com/problems/koko-eating-bananas/)|Medium|
@@ -2234,13 +2239,12 @@ My daily challenge on leetcode since 2021/09/06.
 |2022-01-01 14:36|312|[📎](src/q_301_350/q0312.cc)|[Burst Balloons](https://leetcode.com/problems/burst-balloons/)|Hard|
 |2021-12-31 14:34|1026|[📎](src/q_1001_1050/q1026.cc)|[Maximum Difference Between Node and Ancestor](https://leetcode.com/problems/maximum-difference-between-node-and-ancestor/)|Medium|
 |2021-12-30 18:05|1015|[📎](src/q_1001_1050/q1015.cc)|[Smallest Integer Divisible by K](https://leetcode.com/problems/smallest-integer-divisible-by-k/)|Medium|
-|2021-12-29 18:13|92|[📎](src/q_51_100/q0092.cc)|[Reverse Linked List II](https://leetcode.com/problems/reverse-linked-list-ii/)|Medium|
 
 ## Previous Logs
 
 |Month|Submissions|Easy|Medium|Hard|
 |:--|:--|:--|:--|:--|
-|[January_2022](./assets/January_2022.md)|22|6|12|4|
+|[January_2022](./assets/January_2022.md)|23|6|13|4|
 |[December_2021](./assets/December_2021.md)|33|11|15|7|
 |[November_2021](./assets/November_2021.md)|41|19|16|6|
 |[October_2021](./assets/October_2021.md)|115|27|75|13|

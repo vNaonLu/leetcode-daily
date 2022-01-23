@@ -2,6 +2,7 @@
 
 ||#|</>|Question Title|Difficulty|
 |:--|--:|:-:|:--|:--|
+|Day 23|1291|[📎](../src/q_1251_1300/q1291.cc)|[Sequential Digits](https://leetcode.com/problems/sequential-digits/)|Medium|
 |Day 22|1510|[📎](../src/q_1501_1550/q1510.cc)|[Stone Game IV](https://leetcode.com/problems/stone-game-iv/)|Hard|
 |Day 21|134|[📎](../src/q_101_150/q0134.cc)|[Gas Station](https://leetcode.com/problems/gas-station/)|Medium|
 |Day 20|875|[📎](../src/q_851_900/q0875.cc)|[Koko Eating Bananas](https://leetcode.com/problems/koko-eating-bananas/)|Medium|
