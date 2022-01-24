@@ -798,7 +798,7 @@ My daily challenge on leetcode since 2021/09/06.
 ||766|[Toeplitz Matrix](https://leetcode.com/problems/toeplitz-matrix/)|Easy|
 ||767|[Reorganize String](https://leetcode.com/problems/reorganize-string/)|Medium|
 ||768|[Max Chunks To Make Sorted II](https://leetcode.com/problems/max-chunks-to-make-sorted-ii/)|Hard|
-||769|[Max Chunks To Make Sorted](https://leetcode.com/problems/max-chunks-to-make-sorted/)|Medium|
+|[📎](src/q_751_800/q0769.cc)|769|[Max Chunks To Make Sorted](https://leetcode.com/problems/max-chunks-to-make-sorted/)|Medium|
 ||770|[Basic Calculator IV](https://leetcode.com/problems/basic-calculator-iv/)|Hard|
 ||771|[Jewels and Stones](https://leetcode.com/problems/jewels-and-stones/)|Easy|
 |🔒|772|[Basic Calculator III](https://leetcode.com/problems/basic-calculator-iii/)|Hard|
@@ -2056,7 +2056,7 @@ My daily challenge on leetcode since 2021/09/06.
 ||2000|[Reverse Prefix of Word](https://leetcode.com/problems/reverse-prefix-of-word/)|Easy|
 </details>
 <details>
-  <summary>### 2001 ~ 2147</summary>
+  <summary>### 2001 ~ 2151</summary>
 
 |</>|#|Solution Title|Difficulty|
 |:-:|--:|:--|:--|
@@ -2207,6 +2207,10 @@ My daily challenge on leetcode since 2021/09/06.
 ||2145|[Count the Hidden Sequences](https://leetcode.com/problems/count-the-hidden-sequences/)|Medium|
 ||2146|[K Highest Ranked Items Within a Price Range](https://leetcode.com/problems/k-highest-ranked-items-within-a-price-range/)|Medium|
 ||2147|[Number of Ways to Divide a Long Corridor](https://leetcode.com/problems/number-of-ways-to-divide-a-long-corridor/)|Hard|
+||2148|[Count Elements With Strictly Smaller and Greater Elements ](https://leetcode.com/problems/count-elements-with-strictly-smaller-and-greater-elements/)|Easy|
+||2149|[Rearrange Array Elements by Sign](https://leetcode.com/problems/rearrange-array-elements-by-sign/)|Medium|
+||2150|[Find All Lonely Numbers in the Array](https://leetcode.com/problems/find-all-lonely-numbers-in-the-array/)|Medium|
+||2151|[Maximum Good People Based on Statements](https://leetcode.com/problems/maximum-good-people-based-on-statements/)|Hard|
 </details>
 
 ---
@@ -2214,6 +2218,7 @@ My daily challenge on leetcode since 2021/09/06.
 
 |Time|#|</>|Question Title|Difficulty|
 |:--|--:|:-:|:--|:--|
+|2022-01-24 18:12|769|[📎](src/q_751_800/q0769.cc)|[Max Chunks To Make Sorted](https://leetcode.com/problems/max-chunks-to-make-sorted/)|Medium|
 |2022-01-23 14:04|1291|[📎](src/q_1251_1300/q1291.cc)|[Sequential Digits](https://leetcode.com/problems/sequential-digits/)|Medium|
 |2022-01-22 13:57|1510|[📎](src/q_1501_1550/q1510.cc)|[Stone Game IV](https://leetcode.com/problems/stone-game-iv/)|Hard|
 |2022-01-21 22:12|134|[📎](src/q_101_150/q0134.cc)|[Gas Station](https://leetcode.com/problems/gas-station/)|Medium|
@@ -2238,13 +2243,12 @@ My daily challenge on leetcode since 2021/09/06.
 |2022-01-02 15:26|1010|[📎](src/q_1001_1050/q1010.cc)|[Pairs of Songs With Total Durations Divisible by 60](https://leetcode.com/problems/pairs-of-songs-with-total-durations-divisible-by-60/)|Medium|
 |2022-01-01 14:36|312|[📎](src/q_301_350/q0312.cc)|[Burst Balloons](https://leetcode.com/problems/burst-balloons/)|Hard|
 |2021-12-31 14:34|1026|[📎](src/q_1001_1050/q1026.cc)|[Maximum Difference Between Node and Ancestor](https://leetcode.com/problems/maximum-difference-between-node-and-ancestor/)|Medium|
-|2021-12-30 18:05|1015|[📎](src/q_1001_1050/q1015.cc)|[Smallest Integer Divisible by K](https://leetcode.com/problems/smallest-integer-divisible-by-k/)|Medium|
 
 ## Previous Logs
 
 |Month|Submissions|Easy|Medium|Hard|
 |:--|:--|:--|:--|:--|
-|[January_2022](./assets/January_2022.md)|23|6|13|4|
+|[January_2022](./assets/January_2022.md)|24|6|14|4|
 |[December_2021](./assets/December_2021.md)|33|11|15|7|
 |[November_2021](./assets/November_2021.md)|41|19|16|6|
 |[October_2021](./assets/October_2021.md)|115|27|75|13|
