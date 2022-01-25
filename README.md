@@ -970,7 +970,7 @@ My daily challenge on leetcode since 2021/09/06.
 |[📎](src/q_901_950/q0938.cc)|938|[Range Sum of BST](https://leetcode.com/problems/range-sum-of-bst/)|Easy|
 ||939|[Minimum Area Rectangle](https://leetcode.com/problems/minimum-area-rectangle/)|Medium|
 ||940|[Distinct Subsequences II](https://leetcode.com/problems/distinct-subsequences-ii/)|Hard|
-||941|[Valid Mountain Array](https://leetcode.com/problems/valid-mountain-array/)|Easy|
+|[📎](src/q_901_950/q0941.cc)|941|[Valid Mountain Array](https://leetcode.com/problems/valid-mountain-array/)|Easy|
 ||942|[DI String Match](https://leetcode.com/problems/di-string-match/)|Easy|
 ||943|[Find the Shortest Superstring](https://leetcode.com/problems/find-the-shortest-superstring/)|Hard|
 ||944|[Delete Columns to Make Sorted](https://leetcode.com/problems/delete-columns-to-make-sorted/)|Easy|
@@ -2218,6 +2218,7 @@ My daily challenge on leetcode since 2021/09/06.
 
 |Time|#|</>|Question Title|Difficulty|
 |:--|--:|:-:|:--|:--|
+|2022-01-25 18:08|941|[📎](src/q_901_950/q0941.cc)|[Valid Mountain Array](https://leetcode.com/problems/valid-mountain-array/)|Easy|
 |2022-01-24 18:12|769|[📎](src/q_751_800/q0769.cc)|[Max Chunks To Make Sorted](https://leetcode.com/problems/max-chunks-to-make-sorted/)|Medium|
 |2022-01-23 14:04|1291|[📎](src/q_1251_1300/q1291.cc)|[Sequential Digits](https://leetcode.com/problems/sequential-digits/)|Medium|
 |2022-01-22 13:57|1510|[📎](src/q_1501_1550/q1510.cc)|[Stone Game IV](https://leetcode.com/problems/stone-game-iv/)|Hard|
@@ -2242,13 +2243,12 @@ My daily challenge on leetcode since 2021/09/06.
 |2022-01-03 18:16|38|[📎](src/q_1_50/q0038.cc)|[Count and Say](https://leetcode.com/problems/count-and-say/)|Medium|
 |2022-01-02 15:26|1010|[📎](src/q_1001_1050/q1010.cc)|[Pairs of Songs With Total Durations Divisible by 60](https://leetcode.com/problems/pairs-of-songs-with-total-durations-divisible-by-60/)|Medium|
 |2022-01-01 14:36|312|[📎](src/q_301_350/q0312.cc)|[Burst Balloons](https://leetcode.com/problems/burst-balloons/)|Hard|
-|2021-12-31 14:34|1026|[📎](src/q_1001_1050/q1026.cc)|[Maximum Difference Between Node and Ancestor](https://leetcode.com/problems/maximum-difference-between-node-and-ancestor/)|Medium|
 
 ## Previous Logs
 
 |Month|Submissions|Easy|Medium|Hard|
 |:--|:--|:--|:--|:--|
-|[January_2022](./assets/January_2022.md)|24|6|14|4|
+|[January_2022](./assets/January_2022.md)|25|7|14|4|
 |[December_2021](./assets/December_2021.md)|33|11|15|7|
 |[November_2021](./assets/November_2021.md)|41|19|16|6|
 |[October_2021](./assets/October_2021.md)|115|27|75|13|

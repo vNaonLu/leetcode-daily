@@ -939,7 +939,7 @@ id,title,level,slug,paid,done
 938,Range Sum of BST,1,range-sum-of-bst,0,1
 939,Minimum Area Rectangle,2,minimum-area-rectangle,0,0
 940,Distinct Subsequences II,3,distinct-subsequences-ii,0,0
-941,Valid Mountain Array,1,valid-mountain-array,0,0
+941,Valid Mountain Array,1,valid-mountain-array,0,1
 942,DI String Match,1,di-string-match,0,0
 943,Find the Shortest Superstring,3,find-the-shortest-superstring,0,0
 944,Delete Columns to Make Sorted,1,delete-columns-to-make-sorted,0,0
