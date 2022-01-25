@@ -71,7 +71,7 @@ My daily challenge on leetcode since 2021/09/06.
 |[📎](src/q_51_100/q0057.cc)|57|[Insert Interval](https://leetcode.com/problems/insert-interval/)|Medium|
 |[📎](src/q_51_100/q0058.cc)|58|[Length of Last Word](https://leetcode.com/problems/length-of-last-word/)|Easy|
 |[📎](src/q_51_100/q0059.cc)|59|[Spiral Matrix II](https://leetcode.com/problems/spiral-matrix-ii/)|Medium|
-||60|[Permutation Sequence](https://leetcode.com/problems/permutation-sequence/)|Hard|
+|[📎](src/q_51_100/q0060.cc)|60|[Permutation Sequence](https://leetcode.com/problems/permutation-sequence/)|Hard|
 |[📎](src/q_51_100/q0061.cc)|61|[Rotate List](https://leetcode.com/problems/rotate-list/)|Medium|
 |[📎](src/q_51_100/q0062.cc)|62|[Unique Paths](https://leetcode.com/problems/unique-paths/)|Medium|
 |[📎](src/q_51_100/q0063.cc)|63|[Unique Paths II](https://leetcode.com/problems/unique-paths-ii/)|Medium|
@@ -2218,6 +2218,7 @@ My daily challenge on leetcode since 2021/09/06.
 
 |Time|#|</>|Question Title|Difficulty|
 |:--|--:|:-:|:--|:--|
+|2022-01-26 00:27|60|[📎](src/q_51_100/q0060.cc)|[Permutation Sequence](https://leetcode.com/problems/permutation-sequence/)|Hard|
 |2022-01-25 18:08|941|[📎](src/q_901_950/q0941.cc)|[Valid Mountain Array](https://leetcode.com/problems/valid-mountain-array/)|Easy|
 |2022-01-24 18:12|769|[📎](src/q_751_800/q0769.cc)|[Max Chunks To Make Sorted](https://leetcode.com/problems/max-chunks-to-make-sorted/)|Medium|
 |2022-01-23 14:04|1291|[📎](src/q_1251_1300/q1291.cc)|[Sequential Digits](https://leetcode.com/problems/sequential-digits/)|Medium|
@@ -2242,13 +2243,12 @@ My daily challenge on leetcode since 2021/09/06.
 |2022-01-04 18:15|1009|[📎](src/q_1001_1050/q1009.cc)|[Complement of Base 10 Integer](https://leetcode.com/problems/complement-of-base-10-integer/)|Easy|
 |2022-01-03 18:16|38|[📎](src/q_1_50/q0038.cc)|[Count and Say](https://leetcode.com/problems/count-and-say/)|Medium|
 |2022-01-02 15:26|1010|[📎](src/q_1001_1050/q1010.cc)|[Pairs of Songs With Total Durations Divisible by 60](https://leetcode.com/problems/pairs-of-songs-with-total-durations-divisible-by-60/)|Medium|
-|2022-01-01 14:36|312|[📎](src/q_301_350/q0312.cc)|[Burst Balloons](https://leetcode.com/problems/burst-balloons/)|Hard|
 
 ## Previous Logs
 
 |Month|Submissions|Easy|Medium|Hard|
 |:--|:--|:--|:--|:--|
-|[January_2022](./assets/January_2022.md)|25|7|14|4|
+|[January_2022](./assets/January_2022.md)|26|7|14|5|
 |[December_2021](./assets/December_2021.md)|33|11|15|7|
 |[November_2021](./assets/November_2021.md)|41|19|16|6|
 |[October_2021](./assets/October_2021.md)|115|27|75|13|
