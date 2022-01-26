@@ -1346,7 +1346,7 @@ My daily challenge on leetcode since 2021/09/06.
 ||1302|[Deepest Leaves Sum](https://leetcode.com/problems/deepest-leaves-sum/)|Medium|
 |🔒|1303|[Find the Team Size](https://leetcode.com/problems/find-the-team-size/)|Easy|
 ||1304|[Find N Unique Integers Sum up to Zero](https://leetcode.com/problems/find-n-unique-integers-sum-up-to-zero/)|Easy|
-||1305|[All Elements in Two Binary Search Trees](https://leetcode.com/problems/all-elements-in-two-binary-search-trees/)|Medium|
+|[📎](src/q_1301_1350/q1305.cc)|1305|[All Elements in Two Binary Search Trees](https://leetcode.com/problems/all-elements-in-two-binary-search-trees/)|Medium|
 |[📎](src/q_1301_1350/q1306.cc)|1306|[Jump Game III](https://leetcode.com/problems/jump-game-iii/)|Medium|
 ||1307|[Verbal Arithmetic Puzzle](https://leetcode.com/problems/verbal-arithmetic-puzzle/)|Hard|
 |🔒|1308|[Running Total for Different Genders](https://leetcode.com/problems/running-total-for-different-genders/)|Medium|
@@ -2218,6 +2218,7 @@ My daily challenge on leetcode since 2021/09/06.
 
 |Time|#|</>|Question Title|Difficulty|
 |:--|--:|:-:|:--|:--|
+|2022-01-26 18:06|1305|[📎](src/q_1301_1350/q1305.cc)|[All Elements in Two Binary Search Trees](https://leetcode.com/problems/all-elements-in-two-binary-search-trees/)|Medium|
 |2022-01-26 00:27|60|[📎](src/q_51_100/q0060.cc)|[Permutation Sequence](https://leetcode.com/problems/permutation-sequence/)|Hard|
 |2022-01-25 18:08|941|[📎](src/q_901_950/q0941.cc)|[Valid Mountain Array](https://leetcode.com/problems/valid-mountain-array/)|Easy|
 |2022-01-24 18:12|769|[📎](src/q_751_800/q0769.cc)|[Max Chunks To Make Sorted](https://leetcode.com/problems/max-chunks-to-make-sorted/)|Medium|
@@ -2242,13 +2243,12 @@ My daily challenge on leetcode since 2021/09/06.
 |2022-01-05 18:18|131|[📎](src/q_101_150/q0131.cc)|[Palindrome Partitioning](https://leetcode.com/problems/palindrome-partitioning/)|Medium|
 |2022-01-04 18:15|1009|[📎](src/q_1001_1050/q1009.cc)|[Complement of Base 10 Integer](https://leetcode.com/problems/complement-of-base-10-integer/)|Easy|
 |2022-01-03 18:16|38|[📎](src/q_1_50/q0038.cc)|[Count and Say](https://leetcode.com/problems/count-and-say/)|Medium|
-|2022-01-02 15:26|1010|[📎](src/q_1001_1050/q1010.cc)|[Pairs of Songs With Total Durations Divisible by 60](https://leetcode.com/problems/pairs-of-songs-with-total-durations-divisible-by-60/)|Medium|
 
 ## Previous Logs
 
 |Month|Submissions|Easy|Medium|Hard|
 |:--|:--|:--|:--|:--|
-|[January_2022](./assets/January_2022.md)|26|7|14|5|
+|[January_2022](./assets/January_2022.md)|27|7|15|5|
 |[December_2021](./assets/December_2021.md)|33|11|15|7|
 |[November_2021](./assets/November_2021.md)|41|19|16|6|
 |[October_2021](./assets/October_2021.md)|115|27|75|13|
