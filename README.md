@@ -438,7 +438,7 @@ My daily challenge on leetcode since 2021/09/06.
 |🔒|418|[Sentence Screen Fitting](https://leetcode.com/problems/sentence-screen-fitting/)|Medium|
 ||419|[Battleships in a Board](https://leetcode.com/problems/battleships-in-a-board/)|Medium|
 ||420|[Strong Password Checker](https://leetcode.com/problems/strong-password-checker/)|Hard|
-||421|[Maximum XOR of Two Numbers in an Array](https://leetcode.com/problems/maximum-xor-of-two-numbers-in-an-array/)|Medium|
+|[📎](src/q_401_450/q0421.cc)|421|[Maximum XOR of Two Numbers in an Array](https://leetcode.com/problems/maximum-xor-of-two-numbers-in-an-array/)|Medium|
 |🔒|422|[Valid Word Square](https://leetcode.com/problems/valid-word-square/)|Easy|
 ||423|[Reconstruct Original Digits from English](https://leetcode.com/problems/reconstruct-original-digits-from-english/)|Medium|
 ||424|[Longest Repeating Character Replacement](https://leetcode.com/problems/longest-repeating-character-replacement/)|Medium|
@@ -2218,6 +2218,7 @@ My daily challenge on leetcode since 2021/09/06.
 
 |Time|#|</>|Question Title|Difficulty|
 |:--|--:|:-:|:--|:--|
+|2022-01-27 18:12|421|[📎](src/q_401_450/q0421.cc)|[Maximum XOR of Two Numbers in an Array](https://leetcode.com/problems/maximum-xor-of-two-numbers-in-an-array/)|Medium|
 |2022-01-26 18:06|1305|[📎](src/q_1301_1350/q1305.cc)|[All Elements in Two Binary Search Trees](https://leetcode.com/problems/all-elements-in-two-binary-search-trees/)|Medium|
 |2022-01-26 00:27|60|[📎](src/q_51_100/q0060.cc)|[Permutation Sequence](https://leetcode.com/problems/permutation-sequence/)|Hard|
 |2022-01-25 18:08|941|[📎](src/q_901_950/q0941.cc)|[Valid Mountain Array](https://leetcode.com/problems/valid-mountain-array/)|Easy|
@@ -2242,13 +2243,12 @@ My daily challenge on leetcode since 2021/09/06.
 |2022-01-06 18:11|1094|[📎](src/q_1051_1100/q1094.cc)|[Car Pooling](https://leetcode.com/problems/car-pooling/)|Medium|
 |2022-01-05 18:18|131|[📎](src/q_101_150/q0131.cc)|[Palindrome Partitioning](https://leetcode.com/problems/palindrome-partitioning/)|Medium|
 |2022-01-04 18:15|1009|[📎](src/q_1001_1050/q1009.cc)|[Complement of Base 10 Integer](https://leetcode.com/problems/complement-of-base-10-integer/)|Easy|
-|2022-01-03 18:16|38|[📎](src/q_1_50/q0038.cc)|[Count and Say](https://leetcode.com/problems/count-and-say/)|Medium|
 
 ## Previous Logs
 
 |Month|Submissions|Easy|Medium|Hard|
 |:--|:--|:--|:--|:--|
-|[January_2022](./assets/January_2022.md)|27|7|15|5|
+|[January_2022](./assets/January_2022.md)|28|7|16|5|
 |[December_2021](./assets/December_2021.md)|33|11|15|7|
 |[November_2021](./assets/November_2021.md)|41|19|16|6|
 |[October_2021](./assets/October_2021.md)|115|27|75|13|

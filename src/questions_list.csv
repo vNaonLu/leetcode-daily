@@ -419,7 +419,7 @@ id,title,level,slug,paid,done
 418,Sentence Screen Fitting,2,sentence-screen-fitting,1,0
 419,Battleships in a Board,2,battleships-in-a-board,0,0
 420,Strong Password Checker,3,strong-password-checker,0,0
-421,Maximum XOR of Two Numbers in an Array,2,maximum-xor-of-two-numbers-in-an-array,0,0
+421,Maximum XOR of Two Numbers in an Array,2,maximum-xor-of-two-numbers-in-an-array,0,1
 422,Valid Word Square,1,valid-word-square,1,0
 423,Reconstruct Original Digits from English,2,reconstruct-original-digits-from-english,0,0
 424,Longest Repeating Character Replacement,2,longest-repeating-character-replacement,0,0
