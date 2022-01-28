@@ -209,7 +209,7 @@ id,title,level,slug,paid,done
 208,Implement Trie (Prefix Tree),2,implement-trie-prefix-tree,0,1
 209,Minimum Size Subarray Sum,2,minimum-size-subarray-sum,0,1
 210,Course Schedule II,2,course-schedule-ii,0,1
-211,Design Add and Search Words Data Structure,2,design-add-and-search-words-data-structure,0,0
+211,Design Add and Search Words Data Structure,2,design-add-and-search-words-data-structure,0,1
 212,Word Search II,3,word-search-ii,0,1
 213,House Robber II,2,house-robber-ii,0,1
 214,Shortest Palindrome,3,shortest-palindrome,0,0
@@ -2150,3 +2150,4 @@ id,title,level,slug,paid,done
 2149,Rearrange Array Elements by Sign,2,rearrange-array-elements-by-sign,0,0
 2150,Find All Lonely Numbers in the Array,2,find-all-lonely-numbers-in-the-array,0,0
 2151,Maximum Good People Based on Statements,3,maximum-good-people-based-on-statements,0,0
+2152,Minimum Number of Lines to Cover Points,2,minimum-number-of-lines-to-cover-points,1,0

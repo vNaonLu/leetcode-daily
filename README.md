@@ -222,7 +222,7 @@ My daily challenge on leetcode since 2021/09/06.
 |[📎](src/q_201_250/q0208.cc)|208|[Implement Trie (Prefix Tree)](https://leetcode.com/problems/implement-trie-prefix-tree/)|Medium|
 |[📎](src/q_201_250/q0209.cc)|209|[Minimum Size Subarray Sum](https://leetcode.com/problems/minimum-size-subarray-sum/)|Medium|
 |[📎](src/q_201_250/q0210.cc)|210|[Course Schedule II](https://leetcode.com/problems/course-schedule-ii/)|Medium|
-||211|[Design Add and Search Words Data Structure](https://leetcode.com/problems/design-add-and-search-words-data-structure/)|Medium|
+|[📎](src/q_201_250/q0211.cc)|211|[Design Add and Search Words Data Structure](https://leetcode.com/problems/design-add-and-search-words-data-structure/)|Medium|
 |[📎](src/q_201_250/q0212.cc)|212|[Word Search II](https://leetcode.com/problems/word-search-ii/)|Hard|
 |[📎](src/q_201_250/q0213.cc)|213|[House Robber II](https://leetcode.com/problems/house-robber-ii/)|Medium|
 ||214|[Shortest Palindrome](https://leetcode.com/problems/shortest-palindrome/)|Hard|
@@ -2056,7 +2056,7 @@ My daily challenge on leetcode since 2021/09/06.
 ||2000|[Reverse Prefix of Word](https://leetcode.com/problems/reverse-prefix-of-word/)|Easy|
 </details>
 <details>
-  <summary>### 2001 ~ 2151</summary>
+  <summary>### 2001 ~ 2152</summary>
 
 |</>|#|Solution Title|Difficulty|
 |:-:|--:|:--|:--|
@@ -2211,6 +2211,7 @@ My daily challenge on leetcode since 2021/09/06.
 ||2149|[Rearrange Array Elements by Sign](https://leetcode.com/problems/rearrange-array-elements-by-sign/)|Medium|
 ||2150|[Find All Lonely Numbers in the Array](https://leetcode.com/problems/find-all-lonely-numbers-in-the-array/)|Medium|
 ||2151|[Maximum Good People Based on Statements](https://leetcode.com/problems/maximum-good-people-based-on-statements/)|Hard|
+|🔒|2152|[Minimum Number of Lines to Cover Points](https://leetcode.com/problems/minimum-number-of-lines-to-cover-points/)|Medium|
 </details>
 
 ---
@@ -2218,6 +2219,7 @@ My daily challenge on leetcode since 2021/09/06.
 
 |Time|#|</>|Question Title|Difficulty|
 |:--|--:|:-:|:--|:--|
+|2022-01-28 18:12|211|[📎](src/q_201_250/q0211.cc)|[Design Add and Search Words Data Structure](https://leetcode.com/problems/design-add-and-search-words-data-structure/)|Medium|
 |2022-01-27 18:12|421|[📎](src/q_401_450/q0421.cc)|[Maximum XOR of Two Numbers in an Array](https://leetcode.com/problems/maximum-xor-of-two-numbers-in-an-array/)|Medium|
 |2022-01-26 18:06|1305|[📎](src/q_1301_1350/q1305.cc)|[All Elements in Two Binary Search Trees](https://leetcode.com/problems/all-elements-in-two-binary-search-trees/)|Medium|
 |2022-01-26 00:27|60|[📎](src/q_51_100/q0060.cc)|[Permutation Sequence](https://leetcode.com/problems/permutation-sequence/)|Hard|
@@ -2242,13 +2244,12 @@ My daily challenge on leetcode since 2021/09/06.
 |2022-01-07 18:11|382|[📎](src/q_351_400/q0382.cc)|[Linked List Random Node](https://leetcode.com/problems/linked-list-random-node/)|Medium|
 |2022-01-06 18:11|1094|[📎](src/q_1051_1100/q1094.cc)|[Car Pooling](https://leetcode.com/problems/car-pooling/)|Medium|
 |2022-01-05 18:18|131|[📎](src/q_101_150/q0131.cc)|[Palindrome Partitioning](https://leetcode.com/problems/palindrome-partitioning/)|Medium|
-|2022-01-04 18:15|1009|[📎](src/q_1001_1050/q1009.cc)|[Complement of Base 10 Integer](https://leetcode.com/problems/complement-of-base-10-integer/)|Easy|
 
 ## Previous Logs
 
 |Month|Submissions|Easy|Medium|Hard|
 |:--|:--|:--|:--|:--|
-|[January_2022](./assets/January_2022.md)|28|7|16|5|
+|[January_2022](./assets/January_2022.md)|29|7|17|5|
 |[December_2021](./assets/December_2021.md)|33|11|15|7|
 |[November_2021](./assets/November_2021.md)|41|19|16|6|
 |[October_2021](./assets/October_2021.md)|115|27|75|13|

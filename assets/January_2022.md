@@ -2,6 +2,7 @@
 
 ||#|</>|Question Title|Difficulty|
 |:--|--:|:-:|:--|:--|
+|Day 28|211|[📎](../src/q_201_250/q0211.cc)|[Design Add and Search Words Data Structure](https://leetcode.com/problems/design-add-and-search-words-data-structure/)|Medium|
 |Day 27|421|[📎](../src/q_401_450/q0421.cc)|[Maximum XOR of Two Numbers in an Array](https://leetcode.com/problems/maximum-xor-of-two-numbers-in-an-array/)|Medium|
 |Day 26|60<br>1305|[📎](../src/q_51_100/q0060.cc)<br>[📎](../src/q_1301_1350/q1305.cc)|[Permutation Sequence](https://leetcode.com/problems/permutation-sequence/)<br>[All Elements in Two Binary Search Trees](https://leetcode.com/problems/all-elements-in-two-binary-search-trees/)|Hard<br>Medium|
 |Day 25|941|[📎](../src/q_901_950/q0941.cc)|[Valid Mountain Array](https://leetcode.com/problems/valid-mountain-array/)|Easy|
