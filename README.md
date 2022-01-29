@@ -95,7 +95,7 @@ My daily challenge on leetcode since 2021/09/06.
 ||81|[Search in Rotated Sorted Array II](https://leetcode.com/problems/search-in-rotated-sorted-array-ii/)|Medium|
 |[📎](src/q_51_100/q0082.cc)|82|[Remove Duplicates from Sorted List II](https://leetcode.com/problems/remove-duplicates-from-sorted-list-ii/)|Medium|
 |[📎](src/q_51_100/q0083.cc)|83|[Remove Duplicates from Sorted List](https://leetcode.com/problems/remove-duplicates-from-sorted-list/)|Easy|
-||84|[Largest Rectangle in Histogram](https://leetcode.com/problems/largest-rectangle-in-histogram/)|Hard|
+|[📎](src/q_51_100/q0084.cc)|84|[Largest Rectangle in Histogram](https://leetcode.com/problems/largest-rectangle-in-histogram/)|Hard|
 |[📎](src/q_51_100/q0085.cc)|85|[Maximal Rectangle](https://leetcode.com/problems/maximal-rectangle/)|Hard|
 ||86|[Partition List](https://leetcode.com/problems/partition-list/)|Medium|
 ||87|[Scramble String](https://leetcode.com/problems/scramble-string/)|Hard|
@@ -2219,6 +2219,7 @@ My daily challenge on leetcode since 2021/09/06.
 
 |Time|#|</>|Question Title|Difficulty|
 |:--|--:|:-:|:--|:--|
+|2022-01-29 13:17|84|[📎](src/q_51_100/q0084.cc)|[Largest Rectangle in Histogram](https://leetcode.com/problems/largest-rectangle-in-histogram/)|Hard|
 |2022-01-28 18:12|211|[📎](src/q_201_250/q0211.cc)|[Design Add and Search Words Data Structure](https://leetcode.com/problems/design-add-and-search-words-data-structure/)|Medium|
 |2022-01-27 18:12|421|[📎](src/q_401_450/q0421.cc)|[Maximum XOR of Two Numbers in an Array](https://leetcode.com/problems/maximum-xor-of-two-numbers-in-an-array/)|Medium|
 |2022-01-26 18:06|1305|[📎](src/q_1301_1350/q1305.cc)|[All Elements in Two Binary Search Trees](https://leetcode.com/problems/all-elements-in-two-binary-search-trees/)|Medium|
@@ -2243,13 +2244,12 @@ My daily challenge on leetcode since 2021/09/06.
 |2022-01-08 13:55|1463|[📎](src/q_1451_1500/q1463.cc)|[Cherry Pickup II](https://leetcode.com/problems/cherry-pickup-ii/)|Hard|
 |2022-01-07 18:11|382|[📎](src/q_351_400/q0382.cc)|[Linked List Random Node](https://leetcode.com/problems/linked-list-random-node/)|Medium|
 |2022-01-06 18:11|1094|[📎](src/q_1051_1100/q1094.cc)|[Car Pooling](https://leetcode.com/problems/car-pooling/)|Medium|
-|2022-01-05 18:18|131|[📎](src/q_101_150/q0131.cc)|[Palindrome Partitioning](https://leetcode.com/problems/palindrome-partitioning/)|Medium|
 
 ## Previous Logs
 
 |Month|Submissions|Easy|Medium|Hard|
 |:--|:--|:--|:--|:--|
-|[January_2022](./assets/January_2022.md)|29|7|17|5|
+|[January_2022](./assets/January_2022.md)|30|7|17|6|
 |[December_2021](./assets/December_2021.md)|33|11|15|7|
 |[November_2021](./assets/November_2021.md)|41|19|16|6|
 |[October_2021](./assets/October_2021.md)|115|27|75|13|

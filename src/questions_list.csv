@@ -82,7 +82,7 @@ id,title,level,slug,paid,done
 81,Search in Rotated Sorted Array II,2,search-in-rotated-sorted-array-ii,0,0
 82,Remove Duplicates from Sorted List II,2,remove-duplicates-from-sorted-list-ii,0,1
 83,Remove Duplicates from Sorted List,1,remove-duplicates-from-sorted-list,0,1
-84,Largest Rectangle in Histogram,3,largest-rectangle-in-histogram,0,0
+84,Largest Rectangle in Histogram,3,largest-rectangle-in-histogram,0,1
 85,Maximal Rectangle,3,maximal-rectangle,0,1
 86,Partition List,2,partition-list,0,0
 87,Scramble String,3,scramble-string,0,0
