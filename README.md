@@ -538,7 +538,7 @@ My daily challenge on leetcode since 2021/09/06.
 |🔒|512|[Game Play Analysis II](https://leetcode.com/problems/game-play-analysis-ii/)|Easy|
 ||513|[Find Bottom Left Tree Value](https://leetcode.com/problems/find-bottom-left-tree-value/)|Medium|
 ||514|[Freedom Trail](https://leetcode.com/problems/freedom-trail/)|Hard|
-||515|[Find Largest Value in Each Tree Row](https://leetcode.com/problems/find-largest-value-in-each-tree-row/)|Medium|
+|[📎](src/q_501_550/q0515.cc)|515|[Find Largest Value in Each Tree Row](https://leetcode.com/problems/find-largest-value-in-each-tree-row/)|Medium|
 |[📎](src/q_501_550/q0516.cc)|516|[Longest Palindromic Subsequence](https://leetcode.com/problems/longest-palindromic-subsequence/)|Medium|
 ||517|[Super Washing Machines](https://leetcode.com/problems/super-washing-machines/)|Hard|
 |[📎](src/q_501_550/q0518.cc)|518|[Coin Change 2](https://leetcode.com/problems/coin-change-2/)|Medium|
@@ -2056,7 +2056,7 @@ My daily challenge on leetcode since 2021/09/06.
 ||2000|[Reverse Prefix of Word](https://leetcode.com/problems/reverse-prefix-of-word/)|Easy|
 </details>
 <details>
-  <summary>### 2001 ~ 2152</summary>
+  <summary>### 2001 ~ 2153</summary>
 
 |</>|#|Solution Title|Difficulty|
 |:-:|--:|:--|:--|
@@ -2212,6 +2212,7 @@ My daily challenge on leetcode since 2021/09/06.
 ||2150|[Find All Lonely Numbers in the Array](https://leetcode.com/problems/find-all-lonely-numbers-in-the-array/)|Medium|
 ||2151|[Maximum Good People Based on Statements](https://leetcode.com/problems/maximum-good-people-based-on-statements/)|Hard|
 |🔒|2152|[Minimum Number of Lines to Cover Points](https://leetcode.com/problems/minimum-number-of-lines-to-cover-points/)|Medium|
+|🔒|2153|[The Number of Passengers in Each Bus II](https://leetcode.com/problems/the-number-of-passengers-in-each-bus-ii/)|Hard|
 </details>
 
 ---
@@ -2219,6 +2220,7 @@ My daily challenge on leetcode since 2021/09/06.
 
 |Time|#|</>|Question Title|Difficulty|
 |:--|--:|:-:|:--|:--|
+|2022-01-30 13:24|515|[📎](src/q_501_550/q0515.cc)|[Find Largest Value in Each Tree Row](https://leetcode.com/problems/find-largest-value-in-each-tree-row/)|Medium|
 |2022-01-29 13:17|84|[📎](src/q_51_100/q0084.cc)|[Largest Rectangle in Histogram](https://leetcode.com/problems/largest-rectangle-in-histogram/)|Hard|
 |2022-01-28 18:12|211|[📎](src/q_201_250/q0211.cc)|[Design Add and Search Words Data Structure](https://leetcode.com/problems/design-add-and-search-words-data-structure/)|Medium|
 |2022-01-27 18:12|421|[📎](src/q_401_450/q0421.cc)|[Maximum XOR of Two Numbers in an Array](https://leetcode.com/problems/maximum-xor-of-two-numbers-in-an-array/)|Medium|
@@ -2243,13 +2245,12 @@ My daily challenge on leetcode since 2021/09/06.
 |2022-01-09 14:29|1041|[📎](src/q_1001_1050/q1041.cc)|[Robot Bounded In Circle](https://leetcode.com/problems/robot-bounded-in-circle/)|Medium|
 |2022-01-08 13:55|1463|[📎](src/q_1451_1500/q1463.cc)|[Cherry Pickup II](https://leetcode.com/problems/cherry-pickup-ii/)|Hard|
 |2022-01-07 18:11|382|[📎](src/q_351_400/q0382.cc)|[Linked List Random Node](https://leetcode.com/problems/linked-list-random-node/)|Medium|
-|2022-01-06 18:11|1094|[📎](src/q_1051_1100/q1094.cc)|[Car Pooling](https://leetcode.com/problems/car-pooling/)|Medium|
 
 ## Previous Logs
 
 |Month|Submissions|Easy|Medium|Hard|
 |:--|:--|:--|:--|:--|
-|[January_2022](./assets/January_2022.md)|30|7|17|6|
+|[January_2022](./assets/January_2022.md)|31|7|18|6|
 |[December_2021](./assets/December_2021.md)|33|11|15|7|
 |[November_2021](./assets/November_2021.md)|41|19|16|6|
 |[October_2021](./assets/October_2021.md)|115|27|75|13|
