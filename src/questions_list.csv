@@ -1670,7 +1670,7 @@ id,title,level,slug,paid,done
 1669,Merge In Between Linked Lists,2,merge-in-between-linked-lists,0,0
 1670,Design Front Middle Back Queue,2,design-front-middle-back-queue,0,0
 1671,Minimum Number of Removals to Make Mountain Array,3,minimum-number-of-removals-to-make-mountain-array,0,0
-1672,Richest Customer Wealth,1,richest-customer-wealth,0,0
+1672,Richest Customer Wealth,1,richest-customer-wealth,0,1
 1673,Find the Most Competitive Subsequence,2,find-the-most-competitive-subsequence,0,0
 1674,Minimum Moves to Make Array Complementary,2,minimum-moves-to-make-array-complementary,0,0
 1675,Minimize Deviation in Array,3,minimize-deviation-in-array,0,0
@@ -2152,3 +2152,7 @@ id,title,level,slug,paid,done
 2151,Maximum Good People Based on Statements,3,maximum-good-people-based-on-statements,0,0
 2152,Minimum Number of Lines to Cover Points,2,minimum-number-of-lines-to-cover-points,1,0
 2153,The Number of Passengers in Each Bus II,3,the-number-of-passengers-in-each-bus-ii,1,0
+2154,Keep Multiplying Found Values by Two,1,keep-multiplying-found-values-by-two,0,0
+2155,All Divisions With the Highest Score of a Binary Array,2,all-divisions-with-the-highest-score-of-a-binary-array,0,0
+2156,Find Substring With Given Hash Value,2,find-substring-with-given-hash-value,0,0
+2157,Groups of Strings,3,groups-of-strings,0,0
