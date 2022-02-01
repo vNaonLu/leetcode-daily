@@ -1308,7 +1308,7 @@ My daily challenge on leetcode since 2021/09/06.
 |🔒|1264|[Page Recommendations](https://leetcode.com/problems/page-recommendations/)|Medium|
 |🔒|1265|[Print Immutable Linked List in Reverse](https://leetcode.com/problems/print-immutable-linked-list-in-reverse/)|Medium|
 ||1266|[Minimum Time Visiting All Points](https://leetcode.com/problems/minimum-time-visiting-all-points/)|Easy|
-||1267|[Count Servers that Communicate](https://leetcode.com/problems/count-servers-that-communicate/)|Medium|
+|[📎](src/q_1251_1300/q1267.cc)|1267|[Count Servers that Communicate](https://leetcode.com/problems/count-servers-that-communicate/)|Medium|
 ||1268|[Search Suggestions System](https://leetcode.com/problems/search-suggestions-system/)|Medium|
 ||1269|[Number of Ways to Stay in the Same Place After Some Steps](https://leetcode.com/problems/number-of-ways-to-stay-in-the-same-place-after-some-steps/)|Hard|
 |🔒|1270|[All People Report to the Given Manager](https://leetcode.com/problems/all-people-report-to-the-given-manager/)|Medium|
@@ -2224,6 +2224,7 @@ My daily challenge on leetcode since 2021/09/06.
 
 |Time|#|</>|Question Title|Difficulty|
 |:--|--:|:-:|:--|:--|
+|2022-02-01 13:41|1267|[📎](src/q_1251_1300/q1267.cc)|[Count Servers that Communicate](https://leetcode.com/problems/count-servers-that-communicate/)|Medium|
 |2022-01-31 11:26|1672|[📎](src/q_1651_1700/q1672.cc)|[Richest Customer Wealth](https://leetcode.com/problems/richest-customer-wealth/)|Easy|
 |2022-01-30 13:24|515|[📎](src/q_501_550/q0515.cc)|[Find Largest Value in Each Tree Row](https://leetcode.com/problems/find-largest-value-in-each-tree-row/)|Medium|
 |2022-01-29 13:17|84|[📎](src/q_51_100/q0084.cc)|[Largest Rectangle in Histogram](https://leetcode.com/problems/largest-rectangle-in-histogram/)|Hard|
@@ -2248,12 +2249,12 @@ My daily challenge on leetcode since 2021/09/06.
 |2022-01-11 18:04|1022|[📎](src/q_1001_1050/q1022.cc)|[Sum of Root To Leaf Binary Numbers](https://leetcode.com/problems/sum-of-root-to-leaf-binary-numbers/)|Easy|
 |2022-01-10 18:14|67|[📎](src/q_51_100/q0067.cc)|[Add Binary](https://leetcode.com/problems/add-binary/)|Easy|
 |2022-01-09 14:29|1041|[📎](src/q_1001_1050/q1041.cc)|[Robot Bounded In Circle](https://leetcode.com/problems/robot-bounded-in-circle/)|Medium|
-|2022-01-08 13:55|1463|[📎](src/q_1451_1500/q1463.cc)|[Cherry Pickup II](https://leetcode.com/problems/cherry-pickup-ii/)|Hard|
 
 ## Previous Logs
 
 |Month|Submissions|Easy|Medium|Hard|
 |:--|:--|:--|:--|:--|
+|[February_2022](./assets/February_2022.md)|1|0|1|0|
 |[January_2022](./assets/January_2022.md)|32|8|18|6|
 |[December_2021](./assets/December_2021.md)|33|11|15|7|
 |[November_2021](./assets/November_2021.md)|41|19|16|6|

@@ -1265,7 +1265,7 @@ id,title,level,slug,paid,done
 1264,Page Recommendations,2,page-recommendations,1,0
 1265,Print Immutable Linked List in Reverse,2,print-immutable-linked-list-in-reverse,1,0
 1266,Minimum Time Visiting All Points,1,minimum-time-visiting-all-points,0,0
-1267,Count Servers that Communicate,2,count-servers-that-communicate,0,0
+1267,Count Servers that Communicate,2,count-servers-that-communicate,0,1
 1268,Search Suggestions System,2,search-suggestions-system,0,0
 1269,Number of Ways to Stay in the Same Place After Some Steps,3,number-of-ways-to-stay-in-the-same-place-after-some-steps,0,0
 1270,All People Report to the Given Manager,2,all-people-report-to-the-given-manager,1,0
