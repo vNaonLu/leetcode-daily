@@ -1079,7 +1079,7 @@ id,title,level,slug,paid,done
 1078,Occurrences After Bigram,1,occurrences-after-bigram,0,0
 1079,Letter Tile Possibilities,2,letter-tile-possibilities,0,0
 1080,Insufficient Nodes in Root to Leaf Paths,2,insufficient-nodes-in-root-to-leaf-paths,0,0
-1081,Smallest Subsequence of Distinct Characters,2,smallest-subsequence-of-distinct-characters,0,0
+1081,Smallest Subsequence of Distinct Characters,2,smallest-subsequence-of-distinct-characters,0,1
 1082,Sales Analysis I,1,sales-analysis-i,1,0
 1083,Sales Analysis II,1,sales-analysis-ii,1,0
 1084,Sales Analysis III,1,sales-analysis-iii,1,0
