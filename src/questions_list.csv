@@ -452,7 +452,7 @@ id,title,level,slug,paid,done
 451,Sort Characters By Frequency,2,sort-characters-by-frequency,0,1
 452,Minimum Number of Arrows to Burst Balloons,2,minimum-number-of-arrows-to-burst-balloons,0,1
 453,Minimum Moves to Equal Array Elements,2,minimum-moves-to-equal-array-elements,0,0
-454,4Sum II,2,4sum-ii,0,0
+454,4Sum II,2,4sum-ii,0,1
 455,Assign Cookies,1,assign-cookies,0,0
 456,132 Pattern,2,132-pattern,0,0
 457,Circular Array Loop,2,circular-array-loop,0,0
@@ -2156,3 +2156,4 @@ id,title,level,slug,paid,done
 2155,All Divisions With the Highest Score of a Binary Array,2,all-divisions-with-the-highest-score-of-a-binary-array,0,0
 2156,Find Substring With Given Hash Value,2,find-substring-with-given-hash-value,0,0
 2157,Groups of Strings,3,groups-of-strings,0,0
+2158,Amount of New Area Painted Each Day,3,amount-of-new-area-painted-each-day,1,0
