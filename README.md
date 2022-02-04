@@ -548,7 +548,7 @@ My daily challenge on leetcode since 2021/09/06.
 ||522|[Longest Uncommon Subsequence II](https://leetcode.com/problems/longest-uncommon-subsequence-ii/)|Medium|
 ||523|[Continuous Subarray Sum](https://leetcode.com/problems/continuous-subarray-sum/)|Medium|
 ||524|[Longest Word in Dictionary through Deleting](https://leetcode.com/problems/longest-word-in-dictionary-through-deleting/)|Medium|
-||525|[Contiguous Array](https://leetcode.com/problems/contiguous-array/)|Medium|
+|[📎](src/q_501_550/q0525.cc)|525|[Contiguous Array](https://leetcode.com/problems/contiguous-array/)|Medium|
 ||526|[Beautiful Arrangement](https://leetcode.com/problems/beautiful-arrangement/)|Medium|
 |🔒|527|[Word Abbreviation](https://leetcode.com/problems/word-abbreviation/)|Hard|
 ||528|[Random Pick with Weight](https://leetcode.com/problems/random-pick-with-weight/)|Medium|
@@ -2225,6 +2225,7 @@ My daily challenge on leetcode since 2021/09/06.
 
 |Time|#|</>|Question Title|Difficulty|
 |:--|--:|:-:|:--|:--|
+|2022-02-04 12:02|525|[📎](src/q_501_550/q0525.cc)|[Contiguous Array](https://leetcode.com/problems/contiguous-array/)|Medium|
 |2022-02-03 13:29|454|[📎](src/q_451_500/q0454.cc)|[4Sum II](https://leetcode.com/problems/4sum-ii/)|Medium|
 |2022-02-02 12:37|1081|[📎](src/q_1051_1100/q1081.cc)|[Smallest Subsequence of Distinct Characters](https://leetcode.com/problems/smallest-subsequence-of-distinct-characters/)|Medium|
 |2022-02-01 13:41|1267|[📎](src/q_1251_1300/q1267.cc)|[Count Servers that Communicate](https://leetcode.com/problems/count-servers-that-communicate/)|Medium|
@@ -2249,13 +2250,12 @@ My daily challenge on leetcode since 2021/09/06.
 |2022-01-14 18:14|69|[📎](src/q_51_100/q0069.cc)|[Sqrt(x)](https://leetcode.com/problems/sqrtx/)|Easy|
 |2022-01-13 18:10|452|[📎](src/q_451_500/q0452.cc)|[Minimum Number of Arrows to Burst Balloons](https://leetcode.com/problems/minimum-number-of-arrows-to-burst-balloons/)|Medium|
 |2022-01-12 17:59|2042|[📎](src/q_2001_2050/q2042.cc)|[Check if Numbers Are Ascending in a Sentence](https://leetcode.com/problems/check-if-numbers-are-ascending-in-a-sentence/)|Easy|
-|2022-01-11 18:04|1022|[📎](src/q_1001_1050/q1022.cc)|[Sum of Root To Leaf Binary Numbers](https://leetcode.com/problems/sum-of-root-to-leaf-binary-numbers/)|Easy|
 
 ## Previous Logs
 
 |Month|Submissions|Easy|Medium|Hard|
 |:--|:--|:--|:--|:--|
-|[February_2022](./assets/February_2022.md)|3|0|3|0|
+|[February_2022](./assets/February_2022.md)|4|0|4|0|
 |[January_2022](./assets/January_2022.md)|32|8|18|6|
 |[December_2021](./assets/December_2021.md)|33|11|15|7|
 |[November_2021](./assets/November_2021.md)|41|19|16|6|
