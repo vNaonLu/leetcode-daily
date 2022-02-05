@@ -25,14 +25,14 @@ def _build_option(options: optparse, args: list[str]):
         operation = "clean"
         if pathlib.Path.exists(dest):
             shutil.rmtree(dest)
-            pmt.show(pmt.succ(pmt.hi("The directory has been removed: ") + dest), "-")
+            pmt.show(pmt.succ(pmt.hi("The directory has been removed: ") + str(dest)), "-")
         else:
-            pmt.show(pmt.fail(pmt.hi("The directory not found: ") + dest, "x"))
+            pmt.show(pmt.fail(pmt.hi("The directory not found: ") + str(dest), "x"))
 
     if options.bud_identifier:
         if not pathlib.Path.exists(dest):
             pathlib.Path.mkdir(dest, parents=True, exist_ok=True)
-            pmt.show(pmt.succ(pmt.hi("The directory has been created: ") + dest, "+"))
+            pmt.show(pmt.succ(pmt.hi("The directory has been created: ") + str(dest), "+"))
 
         _conf_command: list[str] = ["cmake", "-S", _file_path.resolve(),
                                              "-B", dest.resolve(),

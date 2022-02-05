@@ -36,7 +36,7 @@ def __add_question(qfile: local.QuestionSource, testcase: bool):
 
     if not os.path.isdir(qfile.path()):
         os.makedirs(qfile.path())
-        pmt.show(pmt.succ(pmt.hi("The directory has been created: ") + qfile.path(),"+"))
+        pmt.show(pmt.succ(pmt.hi("The directory has been created: ") + str(qfile.path()),"+"))
 
     generate.file(qfile.src().resolve(), src)
     subprocess.run(["open", qfile.src()])
