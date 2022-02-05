@@ -1767,7 +1767,7 @@ My daily challenge on leetcode since 2021/09/06.
 ||1717|[Maximum Score From Removing Substrings](https://leetcode.com/problems/maximum-score-from-removing-substrings/)|Medium|
 ||1718|[Construct the Lexicographically Largest Valid Sequence](https://leetcode.com/problems/construct-the-lexicographically-largest-valid-sequence/)|Medium|
 ||1719|[Number Of Ways To Reconstruct A Tree](https://leetcode.com/problems/number-of-ways-to-reconstruct-a-tree/)|Hard|
-||1720|[Decode XORed Array](https://leetcode.com/problems/decode-xored-array/)|Easy|
+|[📎](src/q_1701_1750/q1720.cc)|1720|[Decode XORed Array](https://leetcode.com/problems/decode-xored-array/)|Easy|
 ||1721|[Swapping Nodes in a Linked List](https://leetcode.com/problems/swapping-nodes-in-a-linked-list/)|Medium|
 ||1722|[Minimize Hamming Distance After Swap Operations](https://leetcode.com/problems/minimize-hamming-distance-after-swap-operations/)|Medium|
 ||1723|[Find Minimum Time to Finish All Jobs](https://leetcode.com/problems/find-minimum-time-to-finish-all-jobs/)|Hard|
@@ -2225,6 +2225,7 @@ My daily challenge on leetcode since 2021/09/06.
 
 |Time|#|</>|Question Title|Difficulty|
 |:--|--:|:-:|:--|:--|
+|2022-02-05 15:26|1720|[📎](src/q_1701_1750/q1720.cc)|[Decode XORed Array](https://leetcode.com/problems/decode-xored-array/)|Easy|
 |2022-02-04 12:02|525|[📎](src/q_501_550/q0525.cc)|[Contiguous Array](https://leetcode.com/problems/contiguous-array/)|Medium|
 |2022-02-03 13:29|454|[📎](src/q_451_500/q0454.cc)|[4Sum II](https://leetcode.com/problems/4sum-ii/)|Medium|
 |2022-02-02 12:37|1081|[📎](src/q_1051_1100/q1081.cc)|[Smallest Subsequence of Distinct Characters](https://leetcode.com/problems/smallest-subsequence-of-distinct-characters/)|Medium|
@@ -2249,13 +2250,12 @@ My daily challenge on leetcode since 2021/09/06.
 |2022-01-15 14:26|1345|[📎](src/q_1301_1350/q1345.cc)|[Jump Game IV](https://leetcode.com/problems/jump-game-iv/)|Hard|
 |2022-01-14 18:14|69|[📎](src/q_51_100/q0069.cc)|[Sqrt(x)](https://leetcode.com/problems/sqrtx/)|Easy|
 |2022-01-13 18:10|452|[📎](src/q_451_500/q0452.cc)|[Minimum Number of Arrows to Burst Balloons](https://leetcode.com/problems/minimum-number-of-arrows-to-burst-balloons/)|Medium|
-|2022-01-12 17:59|2042|[📎](src/q_2001_2050/q2042.cc)|[Check if Numbers Are Ascending in a Sentence](https://leetcode.com/problems/check-if-numbers-are-ascending-in-a-sentence/)|Easy|
 
 ## Previous Logs
 
 |Month|Submissions|Easy|Medium|Hard|
 |:--|:--|:--|:--|:--|
-|[February_2022](./assets/February_2022.md)|4|0|4|0|
+|[February_2022](./assets/February_2022.md)|5|1|4|0|
 |[January_2022](./assets/January_2022.md)|32|8|18|6|
 |[December_2021](./assets/December_2021.md)|33|11|15|7|
 |[November_2021](./assets/November_2021.md)|41|19|16|6|

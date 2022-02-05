@@ -1718,7 +1718,7 @@ id,title,level,slug,paid,done
 1717,Maximum Score From Removing Substrings,2,maximum-score-from-removing-substrings,0,0
 1718,Construct the Lexicographically Largest Valid Sequence,2,construct-the-lexicographically-largest-valid-sequence,0,0
 1719,Number Of Ways To Reconstruct A Tree,3,number-of-ways-to-reconstruct-a-tree,0,0
-1720,Decode XORed Array,1,decode-xored-array,0,0
+1720,Decode XORed Array,1,decode-xored-array,0,1
 1721,Swapping Nodes in a Linked List,2,swapping-nodes-in-a-linked-list,0,0
 1722,Minimize Hamming Distance After Swap Operations,2,minimize-hamming-distance-after-swap-operations,0,0
 1723,Find Minimum Time to Finish All Jobs,3,find-minimum-time-to-finish-all-jobs,0,0
