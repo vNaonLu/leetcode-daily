@@ -178,7 +178,7 @@ My daily challenge on leetcode since 2021/09/06.
 ||164|[Maximum Gap](https://leetcode.com/problems/maximum-gap/)|Hard|
 ||165|[Compare Version Numbers](https://leetcode.com/problems/compare-version-numbers/)|Medium|
 ||166|[Fraction to Recurring Decimal](https://leetcode.com/problems/fraction-to-recurring-decimal/)|Medium|
-|[📎](src/q_151_200/q0167.cc)|167|[Two Sum II - Input Array Is Sorted](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/)|Easy|
+|[📎](src/q_151_200/q0167.cc)|167|[Two Sum II - Input Array Is Sorted](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/)|Medium|
 ||168|[Excel Sheet Column Title](https://leetcode.com/problems/excel-sheet-column-title/)|Easy|
 |[📎](src/q_151_200/q0169.cc)|169|[Majority Element](https://leetcode.com/problems/majority-element/)|Easy|
 |🔒|170|[Two Sum III - Data structure design](https://leetcode.com/problems/two-sum-iii-data-structure-design/)|Easy|
@@ -1805,7 +1805,7 @@ My daily challenge on leetcode since 2021/09/06.
 |</>|#|Solution Title|Difficulty|
 |:-:|--:|:--|:--|
 ||1751|[Maximum Number of Events That Can Be Attended II](https://leetcode.com/problems/maximum-number-of-events-that-can-be-attended-ii/)|Hard|
-||1752|[Check if Array Is Sorted and Rotated](https://leetcode.com/problems/check-if-array-is-sorted-and-rotated/)|Easy|
+|[📎](src/q_1751_1800/q1752.cc)|1752|[Check if Array Is Sorted and Rotated](https://leetcode.com/problems/check-if-array-is-sorted-and-rotated/)|Easy|
 ||1753|[Maximum Score From Removing Stones](https://leetcode.com/problems/maximum-score-from-removing-stones/)|Medium|
 ||1754|[Largest Merge Of Two Strings](https://leetcode.com/problems/largest-merge-of-two-strings/)|Medium|
 ||1755|[Closest Subsequence Sum](https://leetcode.com/problems/closest-subsequence-sum/)|Hard|
@@ -2056,7 +2056,7 @@ My daily challenge on leetcode since 2021/09/06.
 ||2000|[Reverse Prefix of Word](https://leetcode.com/problems/reverse-prefix-of-word/)|Easy|
 </details>
 <details>
-  <summary>### 2001 ~ 2158</summary>
+  <summary>### 2001 ~ 2163</summary>
 
 |</>|#|Solution Title|Difficulty|
 |:-:|--:|:--|:--|
@@ -2218,6 +2218,11 @@ My daily challenge on leetcode since 2021/09/06.
 ||2156|[Find Substring With Given Hash Value](https://leetcode.com/problems/find-substring-with-given-hash-value/)|Medium|
 ||2157|[Groups of Strings](https://leetcode.com/problems/groups-of-strings/)|Hard|
 |🔒|2158|[Amount of New Area Painted Each Day](https://leetcode.com/problems/amount-of-new-area-painted-each-day/)|Hard|
+|🔒|2159|[Order Two Columns Independently](https://leetcode.com/problems/order-two-columns-independently/)|Medium|
+||2160|[Minimum Sum of Four Digit Number After Splitting Digits](https://leetcode.com/problems/minimum-sum-of-four-digit-number-after-splitting-digits/)|Easy|
+||2161|[Partition Array According to Given Pivot](https://leetcode.com/problems/partition-array-according-to-given-pivot/)|Medium|
+||2162|[Minimum Cost to Set Cooking Time](https://leetcode.com/problems/minimum-cost-to-set-cooking-time/)|Medium|
+||2163|[Minimum Difference in Sums After Removal of Elements](https://leetcode.com/problems/minimum-difference-in-sums-after-removal-of-elements/)|Hard|
 </details>
 
 ---
@@ -2225,6 +2230,7 @@ My daily challenge on leetcode since 2021/09/06.
 
 |Time|#|</>|Question Title|Difficulty|
 |:--|--:|:-:|:--|:--|
+|2022-02-06 14:22|1752|[📎](src/q_1751_1800/q1752.cc)|[Check if Array Is Sorted and Rotated](https://leetcode.com/problems/check-if-array-is-sorted-and-rotated/)|Easy|
 |2022-02-05 15:26|1720|[📎](src/q_1701_1750/q1720.cc)|[Decode XORed Array](https://leetcode.com/problems/decode-xored-array/)|Easy|
 |2022-02-04 12:02|525|[📎](src/q_501_550/q0525.cc)|[Contiguous Array](https://leetcode.com/problems/contiguous-array/)|Medium|
 |2022-02-03 13:29|454|[📎](src/q_451_500/q0454.cc)|[4Sum II](https://leetcode.com/problems/4sum-ii/)|Medium|
@@ -2249,15 +2255,14 @@ My daily challenge on leetcode since 2021/09/06.
 |2022-01-16 15:14|849|[📎](src/q_801_850/q0849.cc)|[Maximize Distance to Closest Person](https://leetcode.com/problems/maximize-distance-to-closest-person/)|Medium|
 |2022-01-15 14:26|1345|[📎](src/q_1301_1350/q1345.cc)|[Jump Game IV](https://leetcode.com/problems/jump-game-iv/)|Hard|
 |2022-01-14 18:14|69|[📎](src/q_51_100/q0069.cc)|[Sqrt(x)](https://leetcode.com/problems/sqrtx/)|Easy|
-|2022-01-13 18:10|452|[📎](src/q_451_500/q0452.cc)|[Minimum Number of Arrows to Burst Balloons](https://leetcode.com/problems/minimum-number-of-arrows-to-burst-balloons/)|Medium|
 
 ## Previous Logs
 
 |Month|Submissions|Easy|Medium|Hard|
 |:--|:--|:--|:--|:--|
-|[February_2022](./assets/February_2022.md)|5|1|4|0|
+|[February_2022](./assets/February_2022.md)|6|2|4|0|
 |[January_2022](./assets/January_2022.md)|32|8|18|6|
 |[December_2021](./assets/December_2021.md)|33|11|15|7|
 |[November_2021](./assets/November_2021.md)|41|19|16|6|
 |[October_2021](./assets/October_2021.md)|115|27|75|13|
-|[September_2021](./assets/September_2021.md)|133|55|71|7|
+|[September_2021](./assets/September_2021.md)|133|54|72|7|

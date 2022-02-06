@@ -165,7 +165,7 @@ id,title,level,slug,paid,done
 164,Maximum Gap,3,maximum-gap,0,0
 165,Compare Version Numbers,2,compare-version-numbers,0,0
 166,Fraction to Recurring Decimal,2,fraction-to-recurring-decimal,0,0
-167,Two Sum II - Input Array Is Sorted,1,two-sum-ii-input-array-is-sorted,0,1
+167,Two Sum II - Input Array Is Sorted,2,two-sum-ii-input-array-is-sorted,0,1
 168,Excel Sheet Column Title,1,excel-sheet-column-title,0,0
 169,Majority Element,1,majority-element,0,1
 170,Two Sum III - Data structure design,1,two-sum-iii-data-structure-design,1,0
@@ -1750,7 +1750,7 @@ id,title,level,slug,paid,done
 1749,Maximum Absolute Sum of Any Subarray,2,maximum-absolute-sum-of-any-subarray,0,0
 1750,Minimum Length of String After Deleting Similar Ends,2,minimum-length-of-string-after-deleting-similar-ends,0,0
 1751,Maximum Number of Events That Can Be Attended II,3,maximum-number-of-events-that-can-be-attended-ii,0,0
-1752,Check if Array Is Sorted and Rotated,1,check-if-array-is-sorted-and-rotated,0,0
+1752,Check if Array Is Sorted and Rotated,1,check-if-array-is-sorted-and-rotated,0,1
 1753,Maximum Score From Removing Stones,2,maximum-score-from-removing-stones,0,0
 1754,Largest Merge Of Two Strings,2,largest-merge-of-two-strings,0,0
 1755,Closest Subsequence Sum,3,closest-subsequence-sum,0,0
@@ -2157,3 +2157,8 @@ id,title,level,slug,paid,done
 2156,Find Substring With Given Hash Value,2,find-substring-with-given-hash-value,0,0
 2157,Groups of Strings,3,groups-of-strings,0,0
 2158,Amount of New Area Painted Each Day,3,amount-of-new-area-painted-each-day,1,0
+2159,Order Two Columns Independently,2,order-two-columns-independently,1,0
+2160,Minimum Sum of Four Digit Number After Splitting Digits,1,minimum-sum-of-four-digit-number-after-splitting-digits,0,0
+2161,Partition Array According to Given Pivot,2,partition-array-according-to-given-pivot,0,0
+2162,Minimum Cost to Set Cooking Time,2,minimum-cost-to-set-cooking-time,0,0
+2163,Minimum Difference in Sums After Removal of Elements,3,minimum-difference-in-sums-after-removal-of-elements,0,0
