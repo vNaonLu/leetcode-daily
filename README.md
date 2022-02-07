@@ -406,7 +406,7 @@ My daily challenge on leetcode since 2021/09/06.
 ||386|[Lexicographical Numbers](https://leetcode.com/problems/lexicographical-numbers/)|Medium|
 |[📎](src/q_351_400/q0387.cc)|387|[First Unique Character in a String](https://leetcode.com/problems/first-unique-character-in-a-string/)|Easy|
 ||388|[Longest Absolute File Path](https://leetcode.com/problems/longest-absolute-file-path/)|Medium|
-||389|[Find the Difference](https://leetcode.com/problems/find-the-difference/)|Easy|
+|[📎](src/q_351_400/q0389.cc)|389|[Find the Difference](https://leetcode.com/problems/find-the-difference/)|Easy|
 ||390|[Elimination Game](https://leetcode.com/problems/elimination-game/)|Medium|
 ||391|[Perfect Rectangle](https://leetcode.com/problems/perfect-rectangle/)|Hard|
 |[📎](src/q_351_400/q0392.cc)|392|[Is Subsequence](https://leetcode.com/problems/is-subsequence/)|Easy|
@@ -2056,7 +2056,7 @@ My daily challenge on leetcode since 2021/09/06.
 ||2000|[Reverse Prefix of Word](https://leetcode.com/problems/reverse-prefix-of-word/)|Easy|
 </details>
 <details>
-  <summary>### 2001 ~ 2163</summary>
+  <summary>### 2001 ~ 2167</summary>
 
 |</>|#|Solution Title|Difficulty|
 |:-:|--:|:--|:--|
@@ -2215,7 +2215,7 @@ My daily challenge on leetcode since 2021/09/06.
 |🔒|2153|[The Number of Passengers in Each Bus II](https://leetcode.com/problems/the-number-of-passengers-in-each-bus-ii/)|Hard|
 ||2154|[Keep Multiplying Found Values by Two](https://leetcode.com/problems/keep-multiplying-found-values-by-two/)|Easy|
 ||2155|[All Divisions With the Highest Score of a Binary Array](https://leetcode.com/problems/all-divisions-with-the-highest-score-of-a-binary-array/)|Medium|
-||2156|[Find Substring With Given Hash Value](https://leetcode.com/problems/find-substring-with-given-hash-value/)|Medium|
+||2156|[Find Substring With Given Hash Value](https://leetcode.com/problems/find-substring-with-given-hash-value/)|Hard|
 ||2157|[Groups of Strings](https://leetcode.com/problems/groups-of-strings/)|Hard|
 |🔒|2158|[Amount of New Area Painted Each Day](https://leetcode.com/problems/amount-of-new-area-painted-each-day/)|Hard|
 |🔒|2159|[Order Two Columns Independently](https://leetcode.com/problems/order-two-columns-independently/)|Medium|
@@ -2223,6 +2223,10 @@ My daily challenge on leetcode since 2021/09/06.
 ||2161|[Partition Array According to Given Pivot](https://leetcode.com/problems/partition-array-according-to-given-pivot/)|Medium|
 ||2162|[Minimum Cost to Set Cooking Time](https://leetcode.com/problems/minimum-cost-to-set-cooking-time/)|Medium|
 ||2163|[Minimum Difference in Sums After Removal of Elements](https://leetcode.com/problems/minimum-difference-in-sums-after-removal-of-elements/)|Hard|
+||2164|[Sort Even and Odd Indices Independently](https://leetcode.com/problems/sort-even-and-odd-indices-independently/)|Easy|
+||2165|[Smallest Value of the Rearranged Number](https://leetcode.com/problems/smallest-value-of-the-rearranged-number/)|Medium|
+||2166|[Design Bitset](https://leetcode.com/problems/design-bitset/)|Medium|
+||2167|[Minimum Time to Remove All Cars Containing Illegal Goods](https://leetcode.com/problems/minimum-time-to-remove-all-cars-containing-illegal-goods/)|Hard|
 </details>
 
 ---
@@ -2230,6 +2234,7 @@ My daily challenge on leetcode since 2021/09/06.
 
 |Time|#|</>|Question Title|Difficulty|
 |:--|--:|:-:|:--|:--|
+|2022-02-07 18:13|389|[📎](src/q_351_400/q0389.cc)|[Find the Difference](https://leetcode.com/problems/find-the-difference/)|Easy|
 |2022-02-06 14:22|1752|[📎](src/q_1751_1800/q1752.cc)|[Check if Array Is Sorted and Rotated](https://leetcode.com/problems/check-if-array-is-sorted-and-rotated/)|Easy|
 |2022-02-05 15:26|1720|[📎](src/q_1701_1750/q1720.cc)|[Decode XORed Array](https://leetcode.com/problems/decode-xored-array/)|Easy|
 |2022-02-04 12:02|525|[📎](src/q_501_550/q0525.cc)|[Contiguous Array](https://leetcode.com/problems/contiguous-array/)|Medium|
@@ -2254,13 +2259,12 @@ My daily challenge on leetcode since 2021/09/06.
 |2022-01-17 14:50|80|[📎](src/q_51_100/q0080.cc)|[Remove Duplicates from Sorted Array II](https://leetcode.com/problems/remove-duplicates-from-sorted-array-ii/)|Medium|
 |2022-01-16 15:14|849|[📎](src/q_801_850/q0849.cc)|[Maximize Distance to Closest Person](https://leetcode.com/problems/maximize-distance-to-closest-person/)|Medium|
 |2022-01-15 14:26|1345|[📎](src/q_1301_1350/q1345.cc)|[Jump Game IV](https://leetcode.com/problems/jump-game-iv/)|Hard|
-|2022-01-14 18:14|69|[📎](src/q_51_100/q0069.cc)|[Sqrt(x)](https://leetcode.com/problems/sqrtx/)|Easy|
 
 ## Previous Logs
 
 |Month|Submissions|Easy|Medium|Hard|
 |:--|:--|:--|:--|:--|
-|[February_2022](./assets/February_2022.md)|6|2|4|0|
+|[February_2022](./assets/February_2022.md)|7|3|4|0|
 |[January_2022](./assets/January_2022.md)|32|8|18|6|
 |[December_2021](./assets/December_2021.md)|33|11|15|7|
 |[November_2021](./assets/November_2021.md)|41|19|16|6|

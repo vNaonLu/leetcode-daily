@@ -387,7 +387,7 @@ id,title,level,slug,paid,done
 386,Lexicographical Numbers,2,lexicographical-numbers,0,0
 387,First Unique Character in a String,1,first-unique-character-in-a-string,0,1
 388,Longest Absolute File Path,2,longest-absolute-file-path,0,0
-389,Find the Difference,1,find-the-difference,0,0
+389,Find the Difference,1,find-the-difference,0,1
 390,Elimination Game,2,elimination-game,0,0
 391,Perfect Rectangle,3,perfect-rectangle,0,0
 392,Is Subsequence,1,is-subsequence,0,1
@@ -2154,7 +2154,7 @@ id,title,level,slug,paid,done
 2153,The Number of Passengers in Each Bus II,3,the-number-of-passengers-in-each-bus-ii,1,0
 2154,Keep Multiplying Found Values by Two,1,keep-multiplying-found-values-by-two,0,0
 2155,All Divisions With the Highest Score of a Binary Array,2,all-divisions-with-the-highest-score-of-a-binary-array,0,0
-2156,Find Substring With Given Hash Value,2,find-substring-with-given-hash-value,0,0
+2156,Find Substring With Given Hash Value,3,find-substring-with-given-hash-value,0,0
 2157,Groups of Strings,3,groups-of-strings,0,0
 2158,Amount of New Area Painted Each Day,3,amount-of-new-area-painted-each-day,1,0
 2159,Order Two Columns Independently,2,order-two-columns-independently,1,0
@@ -2162,3 +2162,7 @@ id,title,level,slug,paid,done
 2161,Partition Array According to Given Pivot,2,partition-array-according-to-given-pivot,0,0
 2162,Minimum Cost to Set Cooking Time,2,minimum-cost-to-set-cooking-time,0,0
 2163,Minimum Difference in Sums After Removal of Elements,3,minimum-difference-in-sums-after-removal-of-elements,0,0
+2164,Sort Even and Odd Indices Independently,1,sort-even-and-odd-indices-independently,0,0
+2165,Smallest Value of the Rearranged Number,2,smallest-value-of-the-rearranged-number,0,0
+2166,Design Bitset,2,design-bitset,0,0
+2167,Minimum Time to Remove All Cars Containing Illegal Goods,3,minimum-time-to-remove-all-cars-containing-illegal-goods,0,0
