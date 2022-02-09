@@ -555,7 +555,7 @@ My daily challenge on leetcode since 2021/09/06.
 ||529|[Minesweeper](https://leetcode.com/problems/minesweeper/)|Medium|
 ||530|[Minimum Absolute Difference in BST](https://leetcode.com/problems/minimum-absolute-difference-in-bst/)|Easy|
 |🔒|531|[Lonely Pixel I](https://leetcode.com/problems/lonely-pixel-i/)|Medium|
-||532|[K-diff Pairs in an Array](https://leetcode.com/problems/k-diff-pairs-in-an-array/)|Medium|
+|[📎](src/q_501_550/q0532.cc)|532|[K-diff Pairs in an Array](https://leetcode.com/problems/k-diff-pairs-in-an-array/)|Medium|
 |🔒|533|[Lonely Pixel II](https://leetcode.com/problems/lonely-pixel-ii/)|Medium|
 |🔒|534|[Game Play Analysis III](https://leetcode.com/problems/game-play-analysis-iii/)|Medium|
 ||535|[Encode and Decode TinyURL](https://leetcode.com/problems/encode-and-decode-tinyurl/)|Medium|
@@ -2234,6 +2234,7 @@ My daily challenge on leetcode since 2021/09/06.
 
 |Time|#|</>|Question Title|Difficulty|
 |:--|--:|:-:|:--|:--|
+|2022-02-09 18:16|532|[📎](src/q_501_550/q0532.cc)|[K-diff Pairs in an Array](https://leetcode.com/problems/k-diff-pairs-in-an-array/)|Medium|
 |2022-02-08 18:33|1020|[📎](src/q_1001_1050/q1020.cc)|[Number of Enclaves](https://leetcode.com/problems/number-of-enclaves/)|Medium|
 |2022-02-07 18:13|389|[📎](src/q_351_400/q0389.cc)|[Find the Difference](https://leetcode.com/problems/find-the-difference/)|Easy|
 |2022-02-06 14:22|1752|[📎](src/q_1751_1800/q1752.cc)|[Check if Array Is Sorted and Rotated](https://leetcode.com/problems/check-if-array-is-sorted-and-rotated/)|Easy|
@@ -2258,13 +2259,12 @@ My daily challenge on leetcode since 2021/09/06.
 |2022-01-19 18:21|95|[📎](src/q_51_100/q0095.cc)|[Unique Binary Search Trees II](https://leetcode.com/problems/unique-binary-search-trees-ii/)|Medium|
 |2022-01-18 18:15|605|[📎](src/q_601_650/q0605.cc)|[Can Place Flowers](https://leetcode.com/problems/can-place-flowers/)|Easy|
 |2022-01-17 14:50|80|[📎](src/q_51_100/q0080.cc)|[Remove Duplicates from Sorted Array II](https://leetcode.com/problems/remove-duplicates-from-sorted-array-ii/)|Medium|
-|2022-01-16 15:14|849|[📎](src/q_801_850/q0849.cc)|[Maximize Distance to Closest Person](https://leetcode.com/problems/maximize-distance-to-closest-person/)|Medium|
 
 ## Previous Logs
 
 |Month|Submissions|Easy|Medium|Hard|
 |:--|:--|:--|:--|:--|
-|[February_2022](./assets/February_2022.md)|8|3|5|0|
+|[February_2022](./assets/February_2022.md)|9|3|6|0|
 |[January_2022](./assets/January_2022.md)|32|8|18|6|
 |[December_2021](./assets/December_2021.md)|33|11|15|7|
 |[November_2021](./assets/November_2021.md)|41|19|16|6|
