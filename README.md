@@ -869,7 +869,7 @@ My daily challenge on leetcode since 2021/09/06.
 ||837|[New 21 Game](https://leetcode.com/problems/new-21-game/)|Medium|
 ||838|[Push Dominoes](https://leetcode.com/problems/push-dominoes/)|Medium|
 ||839|[Similar String Groups](https://leetcode.com/problems/similar-string-groups/)|Hard|
-||840|[Magic Squares In Grid](https://leetcode.com/problems/magic-squares-in-grid/)|Medium|
+|[📎](src/q_801_850/q0840.cc)|840|[Magic Squares In Grid](https://leetcode.com/problems/magic-squares-in-grid/)|Medium|
 |[📎](src/q_801_850/q0841.cc)|841|[Keys and Rooms](https://leetcode.com/problems/keys-and-rooms/)|Medium|
 ||842|[Split Array into Fibonacci Sequence](https://leetcode.com/problems/split-array-into-fibonacci-sequence/)|Medium|
 ||843|[Guess the Word](https://leetcode.com/problems/guess-the-word/)|Hard|
@@ -2234,6 +2234,7 @@ My daily challenge on leetcode since 2021/09/06.
 
 |Time|#|</>|Question Title|Difficulty|
 |:--|--:|:-:|:--|:--|
+|2022-02-09 19:10|840|[📎](src/q_801_850/q0840.cc)|[Magic Squares In Grid](https://leetcode.com/problems/magic-squares-in-grid/)|Medium|
 |2022-02-09 18:16|532|[📎](src/q_501_550/q0532.cc)|[K-diff Pairs in an Array](https://leetcode.com/problems/k-diff-pairs-in-an-array/)|Medium|
 |2022-02-08 18:33|1020|[📎](src/q_1001_1050/q1020.cc)|[Number of Enclaves](https://leetcode.com/problems/number-of-enclaves/)|Medium|
 |2022-02-07 18:13|389|[📎](src/q_351_400/q0389.cc)|[Find the Difference](https://leetcode.com/problems/find-the-difference/)|Easy|
@@ -2258,13 +2259,12 @@ My daily challenge on leetcode since 2021/09/06.
 |2022-01-20 18:13|875|[📎](src/q_851_900/q0875.cc)|[Koko Eating Bananas](https://leetcode.com/problems/koko-eating-bananas/)|Medium|
 |2022-01-19 18:21|95|[📎](src/q_51_100/q0095.cc)|[Unique Binary Search Trees II](https://leetcode.com/problems/unique-binary-search-trees-ii/)|Medium|
 |2022-01-18 18:15|605|[📎](src/q_601_650/q0605.cc)|[Can Place Flowers](https://leetcode.com/problems/can-place-flowers/)|Easy|
-|2022-01-17 14:50|80|[📎](src/q_51_100/q0080.cc)|[Remove Duplicates from Sorted Array II](https://leetcode.com/problems/remove-duplicates-from-sorted-array-ii/)|Medium|
 
 ## Previous Logs
 
 |Month|Submissions|Easy|Medium|Hard|
 |:--|:--|:--|:--|:--|
-|[February_2022](./assets/February_2022.md)|9|3|6|0|
+|[February_2022](./assets/February_2022.md)|10|3|7|0|
 |[January_2022](./assets/January_2022.md)|32|8|18|6|
 |[December_2021](./assets/December_2021.md)|33|11|15|7|
 |[November_2021](./assets/November_2021.md)|41|19|16|6|

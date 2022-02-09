@@ -838,7 +838,7 @@ id,title,level,slug,paid,done
 837,New 21 Game,2,new-21-game,0,0
 838,Push Dominoes,2,push-dominoes,0,0
 839,Similar String Groups,3,similar-string-groups,0,0
-840,Magic Squares In Grid,2,magic-squares-in-grid,0,0
+840,Magic Squares In Grid,2,magic-squares-in-grid,0,1
 841,Keys and Rooms,2,keys-and-rooms,0,1
 842,Split Array into Fibonacci Sequence,2,split-array-into-fibonacci-sequence,0,0
 843,Guess the Word,3,guess-the-word,0,0
