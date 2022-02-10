@@ -135,7 +135,7 @@ My daily challenge on leetcode since 2021/09/06.
 |[📎](src/q_101_150/q0121.cc)|121|[Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/)|Easy|
 |[📎](src/q_101_150/q0122.cc)|122|[Best Time to Buy and Sell Stock II](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/)|Medium|
 |[📎](src/q_101_150/q0123.cc)|123|[Best Time to Buy and Sell Stock III](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iii/)|Hard|
-||124|[Binary Tree Maximum Path Sum](https://leetcode.com/problems/binary-tree-maximum-path-sum/)|Hard|
+|[📎](src/q_101_150/q0124.cc)|124|[Binary Tree Maximum Path Sum](https://leetcode.com/problems/binary-tree-maximum-path-sum/)|Hard|
 ||125|[Valid Palindrome](https://leetcode.com/problems/valid-palindrome/)|Easy|
 ||126|[Word Ladder II](https://leetcode.com/problems/word-ladder-ii/)|Hard|
 ||127|[Word Ladder](https://leetcode.com/problems/word-ladder/)|Hard|
@@ -2235,6 +2235,7 @@ My daily challenge on leetcode since 2021/09/06.
 
 |Time|#|</>|Question Title|Difficulty|
 |:--|--:|:-:|:--|:--|
+|2022-02-10 21:05|124|[📎](src/q_101_150/q0124.cc)|[Binary Tree Maximum Path Sum](https://leetcode.com/problems/binary-tree-maximum-path-sum/)|Hard|
 |2022-02-10 19:37|1786|[📎](src/q_1751_1800/q1786.cc)|[Number of Restricted Paths From First to Last Node](https://leetcode.com/problems/number-of-restricted-paths-from-first-to-last-node/)|Medium|
 |2022-02-10 19:04|767|[📎](src/q_751_800/q0767.cc)|[Reorganize String](https://leetcode.com/problems/reorganize-string/)|Medium|
 |2022-02-10 18:03|1419|[📎](src/q_1401_1450/q1419.cc)|[Minimum Number of Frogs Croaking](https://leetcode.com/problems/minimum-number-of-frogs-croaking/)|Medium|
@@ -2259,13 +2260,12 @@ My daily challenge on leetcode since 2021/09/06.
 |2022-01-27 18:12|421|[📎](src/q_401_450/q0421.cc)|[Maximum XOR of Two Numbers in an Array](https://leetcode.com/problems/maximum-xor-of-two-numbers-in-an-array/)|Medium|
 |2022-01-26 18:06|1305|[📎](src/q_1301_1350/q1305.cc)|[All Elements in Two Binary Search Trees](https://leetcode.com/problems/all-elements-in-two-binary-search-trees/)|Medium|
 |2022-01-26 00:27|60|[📎](src/q_51_100/q0060.cc)|[Permutation Sequence](https://leetcode.com/problems/permutation-sequence/)|Hard|
-|2022-01-25 18:08|941|[📎](src/q_901_950/q0941.cc)|[Valid Mountain Array](https://leetcode.com/problems/valid-mountain-array/)|Easy|
 
 ## Previous Logs
 
 |Month|Submissions|Easy|Medium|Hard|
 |:--|:--|:--|:--|:--|
-|[February_2022](./assets/February_2022.md)|17|4|13|0|
+|[February_2022](./assets/February_2022.md)|18|4|13|1|
 |[January_2022](./assets/January_2022.md)|32|8|18|6|
 |[December_2021](./assets/December_2021.md)|33|11|15|7|
 |[November_2021](./assets/November_2021.md)|41|19|16|6|
