@@ -1881,7 +1881,7 @@ My daily challenge on leetcode since 2021/09/06.
 ||1825|[Finding MK Average](https://leetcode.com/problems/finding-mk-average/)|Hard|
 |🔒|1826|[Faulty Sensor](https://leetcode.com/problems/faulty-sensor/)|Easy|
 ||1827|[Minimum Operations to Make the Array Increasing](https://leetcode.com/problems/minimum-operations-to-make-the-array-increasing/)|Easy|
-||1828|[Queries on Number of Points Inside a Circle](https://leetcode.com/problems/queries-on-number-of-points-inside-a-circle/)|Medium|
+|[📎](src/q_1801_1850/q1828.cc)|1828|[Queries on Number of Points Inside a Circle](https://leetcode.com/problems/queries-on-number-of-points-inside-a-circle/)|Medium|
 ||1829|[Maximum XOR for Each Query](https://leetcode.com/problems/maximum-xor-for-each-query/)|Medium|
 ||1830|[Minimum Number of Operations to Make String Sorted](https://leetcode.com/problems/minimum-number-of-operations-to-make-string-sorted/)|Hard|
 |🔒|1831|[Maximum Transaction Each Day](https://leetcode.com/problems/maximum-transaction-each-day/)|Medium|
@@ -2235,6 +2235,7 @@ My daily challenge on leetcode since 2021/09/06.
 
 |Time|#|</>|Question Title|Difficulty|
 |:--|--:|:-:|:--|:--|
+|2022-02-10 16:23|1828|[📎](src/q_1801_1850/q1828.cc)|[Queries on Number of Points Inside a Circle](https://leetcode.com/problems/queries-on-number-of-points-inside-a-circle/)|Medium|
 |2022-02-10 15:42|1155|[📎](src/q_1151_1200/q1155.cc)|[Number of Dice Rolls With Target Sum](https://leetcode.com/problems/number-of-dice-rolls-with-target-sum/)|Medium|
 |2022-02-09 19:10|840|[📎](src/q_801_850/q0840.cc)|[Magic Squares In Grid](https://leetcode.com/problems/magic-squares-in-grid/)|Medium|
 |2022-02-09 18:16|532|[📎](src/q_501_550/q0532.cc)|[K-diff Pairs in an Array](https://leetcode.com/problems/k-diff-pairs-in-an-array/)|Medium|
@@ -2259,13 +2260,12 @@ My daily challenge on leetcode since 2021/09/06.
 |2022-01-22 13:57|1510|[📎](src/q_1501_1550/q1510.cc)|[Stone Game IV](https://leetcode.com/problems/stone-game-iv/)|Hard|
 |2022-01-21 22:12|134|[📎](src/q_101_150/q0134.cc)|[Gas Station](https://leetcode.com/problems/gas-station/)|Medium|
 |2022-01-20 18:13|875|[📎](src/q_851_900/q0875.cc)|[Koko Eating Bananas](https://leetcode.com/problems/koko-eating-bananas/)|Medium|
-|2022-01-19 18:21|95|[📎](src/q_51_100/q0095.cc)|[Unique Binary Search Trees II](https://leetcode.com/problems/unique-binary-search-trees-ii/)|Medium|
 
 ## Previous Logs
 
 |Month|Submissions|Easy|Medium|Hard|
 |:--|:--|:--|:--|:--|
-|[February_2022](./assets/February_2022.md)|11|3|8|0|
+|[February_2022](./assets/February_2022.md)|12|3|9|0|
 |[January_2022](./assets/January_2022.md)|32|8|18|6|
 |[December_2021](./assets/December_2021.md)|33|11|15|7|
 |[November_2021](./assets/November_2021.md)|41|19|16|6|
