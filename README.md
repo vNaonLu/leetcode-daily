@@ -1190,7 +1190,7 @@ My daily challenge on leetcode since 2021/09/06.
 |🔒|1152|[Analyze User Website Visit Pattern](https://leetcode.com/problems/analyze-user-website-visit-pattern/)|Medium|
 |🔒|1153|[String Transforms Into Another String](https://leetcode.com/problems/string-transforms-into-another-string/)|Hard|
 ||1154|[Day of the Year](https://leetcode.com/problems/day-of-the-year/)|Easy|
-||1155|[Number of Dice Rolls With Target Sum](https://leetcode.com/problems/number-of-dice-rolls-with-target-sum/)|Medium|
+|[📎](src/q_1151_1200/q1155.cc)|1155|[Number of Dice Rolls With Target Sum](https://leetcode.com/problems/number-of-dice-rolls-with-target-sum/)|Medium|
 ||1156|[Swap For Longest Repeated Character Substring](https://leetcode.com/problems/swap-for-longest-repeated-character-substring/)|Medium|
 ||1157|[Online Majority Element In Subarray](https://leetcode.com/problems/online-majority-element-in-subarray/)|Hard|
 |🔒|1158|[Market Analysis I](https://leetcode.com/problems/market-analysis-i/)|Medium|
@@ -2056,7 +2056,7 @@ My daily challenge on leetcode since 2021/09/06.
 ||2000|[Reverse Prefix of Word](https://leetcode.com/problems/reverse-prefix-of-word/)|Easy|
 </details>
 <details>
-  <summary>### 2001 ~ 2167</summary>
+  <summary>### 2001 ~ 2168</summary>
 
 |</>|#|Solution Title|Difficulty|
 |:-:|--:|:--|:--|
@@ -2227,6 +2227,7 @@ My daily challenge on leetcode since 2021/09/06.
 ||2165|[Smallest Value of the Rearranged Number](https://leetcode.com/problems/smallest-value-of-the-rearranged-number/)|Medium|
 ||2166|[Design Bitset](https://leetcode.com/problems/design-bitset/)|Medium|
 ||2167|[Minimum Time to Remove All Cars Containing Illegal Goods](https://leetcode.com/problems/minimum-time-to-remove-all-cars-containing-illegal-goods/)|Hard|
+|🔒|2168|[Unique Substrings With Equal Digit Frequency](https://leetcode.com/problems/unique-substrings-with-equal-digit-frequency/)|Medium|
 </details>
 
 ---
@@ -2234,6 +2235,7 @@ My daily challenge on leetcode since 2021/09/06.
 
 |Time|#|</>|Question Title|Difficulty|
 |:--|--:|:-:|:--|:--|
+|2022-02-10 15:42|1155|[📎](src/q_1151_1200/q1155.cc)|[Number of Dice Rolls With Target Sum](https://leetcode.com/problems/number-of-dice-rolls-with-target-sum/)|Medium|
 |2022-02-09 19:10|840|[📎](src/q_801_850/q0840.cc)|[Magic Squares In Grid](https://leetcode.com/problems/magic-squares-in-grid/)|Medium|
 |2022-02-09 18:16|532|[📎](src/q_501_550/q0532.cc)|[K-diff Pairs in an Array](https://leetcode.com/problems/k-diff-pairs-in-an-array/)|Medium|
 |2022-02-08 18:33|1020|[📎](src/q_1001_1050/q1020.cc)|[Number of Enclaves](https://leetcode.com/problems/number-of-enclaves/)|Medium|
@@ -2258,13 +2260,12 @@ My daily challenge on leetcode since 2021/09/06.
 |2022-01-21 22:12|134|[📎](src/q_101_150/q0134.cc)|[Gas Station](https://leetcode.com/problems/gas-station/)|Medium|
 |2022-01-20 18:13|875|[📎](src/q_851_900/q0875.cc)|[Koko Eating Bananas](https://leetcode.com/problems/koko-eating-bananas/)|Medium|
 |2022-01-19 18:21|95|[📎](src/q_51_100/q0095.cc)|[Unique Binary Search Trees II](https://leetcode.com/problems/unique-binary-search-trees-ii/)|Medium|
-|2022-01-18 18:15|605|[📎](src/q_601_650/q0605.cc)|[Can Place Flowers](https://leetcode.com/problems/can-place-flowers/)|Easy|
 
 ## Previous Logs
 
 |Month|Submissions|Easy|Medium|Hard|
 |:--|:--|:--|:--|:--|
-|[February_2022](./assets/February_2022.md)|10|3|7|0|
+|[February_2022](./assets/February_2022.md)|11|3|8|0|
 |[January_2022](./assets/January_2022.md)|32|8|18|6|
 |[December_2021](./assets/December_2021.md)|33|11|15|7|
 |[November_2021](./assets/November_2021.md)|41|19|16|6|

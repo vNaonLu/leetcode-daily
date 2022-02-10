@@ -1153,7 +1153,7 @@ id,title,level,slug,paid,done
 1152,Analyze User Website Visit Pattern,2,analyze-user-website-visit-pattern,1,0
 1153,String Transforms Into Another String,3,string-transforms-into-another-string,1,0
 1154,Day of the Year,1,day-of-the-year,0,0
-1155,Number of Dice Rolls With Target Sum,2,number-of-dice-rolls-with-target-sum,0,0
+1155,Number of Dice Rolls With Target Sum,2,number-of-dice-rolls-with-target-sum,0,1
 1156,Swap For Longest Repeated Character Substring,2,swap-for-longest-repeated-character-substring,0,0
 1157,Online Majority Element In Subarray,3,online-majority-element-in-subarray,0,0
 1158,Market Analysis I,2,market-analysis-i,1,0
@@ -2166,3 +2166,4 @@ id,title,level,slug,paid,done
 2165,Smallest Value of the Rearranged Number,2,smallest-value-of-the-rearranged-number,0,0
 2166,Design Bitset,2,design-bitset,0,0
 2167,Minimum Time to Remove All Cars Containing Illegal Goods,3,minimum-time-to-remove-all-cars-containing-illegal-goods,0,0
+2168,Unique Substrings With Equal Digit Frequency,2,unique-substrings-with-equal-digit-frequency,1,0
