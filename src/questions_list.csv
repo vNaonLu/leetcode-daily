@@ -1927,7 +1927,7 @@ id,title,level,slug,paid,done
 1926,Nearest Exit from Entrance in Maze,2,nearest-exit-from-entrance-in-maze,0,0
 1927,Sum Game,2,sum-game,0,0
 1928,Minimum Cost to Reach Destination in Time,3,minimum-cost-to-reach-destination-in-time,0,0
-1929,Concatenation of Array,1,concatenation-of-array,0,0
+1929,Concatenation of Array,1,concatenation-of-array,0,1
 1930,Unique Length-3 Palindromic Subsequences,2,unique-length-3-palindromic-subsequences,0,0
 1931,Painting a Grid With Three Different Colors,3,painting-a-grid-with-three-different-colors,0,0
 1932,Merge BSTs to Create Single BST,3,merge-bsts-to-create-single-bst,0,0
