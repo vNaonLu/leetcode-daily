@@ -1460,7 +1460,7 @@ My daily challenge on leetcode since 2021/09/06.
 ||1416|[Restore The Array](https://leetcode.com/problems/restore-the-array/)|Hard|
 ||1417|[Reformat The String](https://leetcode.com/problems/reformat-the-string/)|Easy|
 ||1418|[Display Table of Food Orders in a Restaurant](https://leetcode.com/problems/display-table-of-food-orders-in-a-restaurant/)|Medium|
-||1419|[Minimum Number of Frogs Croaking](https://leetcode.com/problems/minimum-number-of-frogs-croaking/)|Medium|
+|[📎](src/q_1401_1450/q1419.cc)|1419|[Minimum Number of Frogs Croaking](https://leetcode.com/problems/minimum-number-of-frogs-croaking/)|Medium|
 ||1420|[Build Array Where You Can Find The Maximum Exactly K Comparisons](https://leetcode.com/problems/build-array-where-you-can-find-the-maximum-exactly-k-comparisons/)|Hard|
 |🔒|1421|[NPV Queries](https://leetcode.com/problems/npv-queries/)|Easy|
 ||1422|[Maximum Score After Splitting a String](https://leetcode.com/problems/maximum-score-after-splitting-a-string/)|Easy|
@@ -2235,6 +2235,7 @@ My daily challenge on leetcode since 2021/09/06.
 
 |Time|#|</>|Question Title|Difficulty|
 |:--|--:|:-:|:--|:--|
+|2022-02-10 18:03|1419|[📎](src/q_1401_1450/q1419.cc)|[Minimum Number of Frogs Croaking](https://leetcode.com/problems/minimum-number-of-frogs-croaking/)|Medium|
 |2022-02-10 16:36|2090|[📎](src/q_2051_2100/q2090.cc)|[K Radius Subarray Averages](https://leetcode.com/problems/k-radius-subarray-averages/)|Medium|
 |2022-02-10 16:31|1929|[📎](src/q_1901_1950/q1929.cc)|[Concatenation of Array](https://leetcode.com/problems/concatenation-of-array/)|Easy|
 |2022-02-10 16:23|1828|[📎](src/q_1801_1850/q1828.cc)|[Queries on Number of Points Inside a Circle](https://leetcode.com/problems/queries-on-number-of-points-inside-a-circle/)|Medium|
@@ -2259,13 +2260,12 @@ My daily challenge on leetcode since 2021/09/06.
 |2022-01-25 18:08|941|[📎](src/q_901_950/q0941.cc)|[Valid Mountain Array](https://leetcode.com/problems/valid-mountain-array/)|Easy|
 |2022-01-24 18:12|769|[📎](src/q_751_800/q0769.cc)|[Max Chunks To Make Sorted](https://leetcode.com/problems/max-chunks-to-make-sorted/)|Medium|
 |2022-01-23 14:04|1291|[📎](src/q_1251_1300/q1291.cc)|[Sequential Digits](https://leetcode.com/problems/sequential-digits/)|Medium|
-|2022-01-22 13:57|1510|[📎](src/q_1501_1550/q1510.cc)|[Stone Game IV](https://leetcode.com/problems/stone-game-iv/)|Hard|
 
 ## Previous Logs
 
 |Month|Submissions|Easy|Medium|Hard|
 |:--|:--|:--|:--|:--|
-|[February_2022](./assets/February_2022.md)|14|4|10|0|
+|[February_2022](./assets/February_2022.md)|15|4|11|0|
 |[January_2022](./assets/January_2022.md)|32|8|18|6|
 |[December_2021](./assets/December_2021.md)|33|11|15|7|
 |[November_2021](./assets/November_2021.md)|41|19|16|6|

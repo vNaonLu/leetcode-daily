@@ -1417,7 +1417,7 @@ id,title,level,slug,paid,done
 1416,Restore The Array,3,restore-the-array,0,0
 1417,Reformat The String,1,reformat-the-string,0,0
 1418,Display Table of Food Orders in a Restaurant,2,display-table-of-food-orders-in-a-restaurant,0,0
-1419,Minimum Number of Frogs Croaking,2,minimum-number-of-frogs-croaking,0,0
+1419,Minimum Number of Frogs Croaking,2,minimum-number-of-frogs-croaking,0,1
 1420,Build Array Where You Can Find The Maximum Exactly K Comparisons,3,build-array-where-you-can-find-the-maximum-exactly-k-comparisons,0,0
 1421,NPV Queries,1,npv-queries,1,0
 1422,Maximum Score After Splitting a String,1,maximum-score-after-splitting-a-string,0,0
