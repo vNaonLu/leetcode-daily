@@ -2149,7 +2149,7 @@ My daily challenge on leetcode since 2021/09/06.
 ||2087|[Minimum Cost Homecoming of a Robot in a Grid](https://leetcode.com/problems/minimum-cost-homecoming-of-a-robot-in-a-grid/)|Medium|
 ||2088|[Count Fertile Pyramids in a Land](https://leetcode.com/problems/count-fertile-pyramids-in-a-land/)|Hard|
 ||2089|[Find Target Indices After Sorting Array](https://leetcode.com/problems/find-target-indices-after-sorting-array/)|Easy|
-||2090|[K Radius Subarray Averages](https://leetcode.com/problems/k-radius-subarray-averages/)|Medium|
+|[📎](src/q_2051_2100/q2090.cc)|2090|[K Radius Subarray Averages](https://leetcode.com/problems/k-radius-subarray-averages/)|Medium|
 ||2091|[Removing Minimum and Maximum From Array](https://leetcode.com/problems/removing-minimum-and-maximum-from-array/)|Medium|
 ||2092|[Find All People With Secret](https://leetcode.com/problems/find-all-people-with-secret/)|Hard|
 |🔒|2093|[Minimum Cost to Reach City With Discounts](https://leetcode.com/problems/minimum-cost-to-reach-city-with-discounts/)|Medium|
@@ -2235,6 +2235,7 @@ My daily challenge on leetcode since 2021/09/06.
 
 |Time|#|</>|Question Title|Difficulty|
 |:--|--:|:-:|:--|:--|
+|2022-02-10 16:36|2090|[📎](src/q_2051_2100/q2090.cc)|[K Radius Subarray Averages](https://leetcode.com/problems/k-radius-subarray-averages/)|Medium|
 |2022-02-10 16:31|1929|[📎](src/q_1901_1950/q1929.cc)|[Concatenation of Array](https://leetcode.com/problems/concatenation-of-array/)|Easy|
 |2022-02-10 16:23|1828|[📎](src/q_1801_1850/q1828.cc)|[Queries on Number of Points Inside a Circle](https://leetcode.com/problems/queries-on-number-of-points-inside-a-circle/)|Medium|
 |2022-02-10 15:42|1155|[📎](src/q_1151_1200/q1155.cc)|[Number of Dice Rolls With Target Sum](https://leetcode.com/problems/number-of-dice-rolls-with-target-sum/)|Medium|
@@ -2259,13 +2260,12 @@ My daily challenge on leetcode since 2021/09/06.
 |2022-01-24 18:12|769|[📎](src/q_751_800/q0769.cc)|[Max Chunks To Make Sorted](https://leetcode.com/problems/max-chunks-to-make-sorted/)|Medium|
 |2022-01-23 14:04|1291|[📎](src/q_1251_1300/q1291.cc)|[Sequential Digits](https://leetcode.com/problems/sequential-digits/)|Medium|
 |2022-01-22 13:57|1510|[📎](src/q_1501_1550/q1510.cc)|[Stone Game IV](https://leetcode.com/problems/stone-game-iv/)|Hard|
-|2022-01-21 22:12|134|[📎](src/q_101_150/q0134.cc)|[Gas Station](https://leetcode.com/problems/gas-station/)|Medium|
 
 ## Previous Logs
 
 |Month|Submissions|Easy|Medium|Hard|
 |:--|:--|:--|:--|:--|
-|[February_2022](./assets/February_2022.md)|13|4|9|0|
+|[February_2022](./assets/February_2022.md)|14|4|10|0|
 |[January_2022](./assets/January_2022.md)|32|8|18|6|
 |[December_2021](./assets/December_2021.md)|33|11|15|7|
 |[November_2021](./assets/November_2021.md)|41|19|16|6|

@@ -2088,7 +2088,7 @@ id,title,level,slug,paid,done
 2087,Minimum Cost Homecoming of a Robot in a Grid,2,minimum-cost-homecoming-of-a-robot-in-a-grid,0,0
 2088,Count Fertile Pyramids in a Land,3,count-fertile-pyramids-in-a-land,0,0
 2089,Find Target Indices After Sorting Array,1,find-target-indices-after-sorting-array,0,0
-2090,K Radius Subarray Averages,2,k-radius-subarray-averages,0,0
+2090,K Radius Subarray Averages,2,k-radius-subarray-averages,0,1
 2091,Removing Minimum and Maximum From Array,2,removing-minimum-and-maximum-from-array,0,0
 2092,Find All People With Secret,3,find-all-people-with-secret,0,0
 2093,Minimum Cost to Reach City With Discounts,2,minimum-cost-to-reach-city-with-discounts,1,0
