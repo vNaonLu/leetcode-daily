@@ -391,7 +391,7 @@ id,title,level,slug,paid,done
 390,Elimination Game,2,elimination-game,0,0
 391,Perfect Rectangle,3,perfect-rectangle,0,0
 392,Is Subsequence,1,is-subsequence,0,1
-393,UTF-8 Validation,2,utf-8-validation,0,0
+393,UTF-8 Validation,2,utf-8-validation,0,1
 394,Decode String,2,decode-string,0,1
 395,Longest Substring with At Least K Repeating Characters,2,longest-substring-with-at-least-k-repeating-characters,0,0
 396,Rotate Function,2,rotate-function,0,0

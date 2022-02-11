@@ -410,7 +410,7 @@ My daily challenge on leetcode since 2021/09/06.
 ||390|[Elimination Game](https://leetcode.com/problems/elimination-game/)|Medium|
 ||391|[Perfect Rectangle](https://leetcode.com/problems/perfect-rectangle/)|Hard|
 |[📎](src/q_351_400/q0392.cc)|392|[Is Subsequence](https://leetcode.com/problems/is-subsequence/)|Easy|
-||393|[UTF-8 Validation](https://leetcode.com/problems/utf-8-validation/)|Medium|
+|[📎](src/q_351_400/q0393.cc)|393|[UTF-8 Validation](https://leetcode.com/problems/utf-8-validation/)|Medium|
 |[📎](src/q_351_400/q0394.cc)|394|[Decode String](https://leetcode.com/problems/decode-string/)|Medium|
 ||395|[Longest Substring with At Least K Repeating Characters](https://leetcode.com/problems/longest-substring-with-at-least-k-repeating-characters/)|Medium|
 ||396|[Rotate Function](https://leetcode.com/problems/rotate-function/)|Medium|
@@ -2235,6 +2235,7 @@ My daily challenge on leetcode since 2021/09/06.
 
 |Time|#|</>|Question Title|Difficulty|
 |:--|--:|:-:|:--|:--|
+|2022-02-11 18:48|393|[📎](src/q_351_400/q0393.cc)|[UTF-8 Validation](https://leetcode.com/problems/utf-8-validation/)|Medium|
 |2022-02-11 18:34|504|[📎](src/q_501_550/q0504.cc)|[Base 7](https://leetcode.com/problems/base-7/)|Easy|
 |2022-02-10 21:05|124|[📎](src/q_101_150/q0124.cc)|[Binary Tree Maximum Path Sum](https://leetcode.com/problems/binary-tree-maximum-path-sum/)|Hard|
 |2022-02-10 19:37|1786|[📎](src/q_1751_1800/q1786.cc)|[Number of Restricted Paths From First to Last Node](https://leetcode.com/problems/number-of-restricted-paths-from-first-to-last-node/)|Medium|
@@ -2259,13 +2260,12 @@ My daily challenge on leetcode since 2021/09/06.
 |2022-01-29 13:17|84|[📎](src/q_51_100/q0084.cc)|[Largest Rectangle in Histogram](https://leetcode.com/problems/largest-rectangle-in-histogram/)|Hard|
 |2022-01-28 18:12|211|[📎](src/q_201_250/q0211.cc)|[Design Add and Search Words Data Structure](https://leetcode.com/problems/design-add-and-search-words-data-structure/)|Medium|
 |2022-01-27 18:12|421|[📎](src/q_401_450/q0421.cc)|[Maximum XOR of Two Numbers in an Array](https://leetcode.com/problems/maximum-xor-of-two-numbers-in-an-array/)|Medium|
-|2022-01-26 18:06|1305|[📎](src/q_1301_1350/q1305.cc)|[All Elements in Two Binary Search Trees](https://leetcode.com/problems/all-elements-in-two-binary-search-trees/)|Medium|
 
 ## Previous Logs
 
 |Month|Submissions|Easy|Medium|Hard|
 |:--|:--|:--|:--|:--|
-|[February_2022](./assets/February_2022.md)|19|5|13|1|
+|[February_2022](./assets/February_2022.md)|20|5|14|1|
 |[January_2022](./assets/January_2022.md)|32|8|18|6|
 |[December_2021](./assets/December_2021.md)|33|11|15|7|
 |[November_2021](./assets/November_2021.md)|41|19|16|6|
