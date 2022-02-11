@@ -1,6 +1,7 @@
 #include <gtest/gtest.h>
 #include <iostream>
 #include <string>
+#include <unordered_map>
 
 using namespace std;
 
@@ -29,20 +30,26 @@ struct q567 : public ::testing::Test {
   class Solution {
    public:
     bool checkInclusion(string s1, string s2) {
-      if (s2.size() >= s1.size()) {
-        vector<int> cnt(26), cnt2(26);
-        mapping(s1, cnt, 0, s1.size());
-        for (int i = 0; i < s2.size() - s1.size() + 1; ++i) {
-          mapping(s2, cnt2, i, s1.size());
-          if (cnt == cnt2) return true;
+      unordered_map<int, int> key;
+      vector<int> count(26, 0);
+      int length = 0, left = 0;
+      size_t key_size = s1.size();
+      for (const auto &c : s1) ++key[c - 'a'];
+      for (int i = 0; i < s2.size(); ++i) {
+        ++length;
+        ++count[s2[i] - 'a'];
+        if (length > key_size) {
+          --length;
+          --count[s2[left++] - 'a'];
         }
+
+        bool match = true;
+        for (auto &[c, v] : key) {
+          match &= count[c] == v;
+        }
+        if (match) return true;
       }
       return false;
-    }
-   private:
-    inline void mapping(const string &s, vector<int> &out, int beg, size_t len) {
-      fill(out.begin(), out.end(), 0);
-      for (int i = 0; i < len; ++i) ++out[s[beg + i] - 'a'];
     }
   };
 
