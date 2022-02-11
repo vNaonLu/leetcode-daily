@@ -1527,7 +1527,7 @@ id,title,level,slug,paid,done
 1526,Minimum Number of Increments on Subarrays to Form a Target Array,3,minimum-number-of-increments-on-subarrays-to-form-a-target-array,0,0
 1527,Patients With a Condition,1,patients-with-a-condition,1,0
 1528,Shuffle String,1,shuffle-string,0,0
-1529,Minimum Suffix Flips,2,minimum-suffix-flips,0,0
+1529,Minimum Suffix Flips,2,minimum-suffix-flips,0,1
 1530,Number of Good Leaf Nodes Pairs,2,number-of-good-leaf-nodes-pairs,0,0
 1531,String Compression II,3,string-compression-ii,0,0
 1532,The Most Recent Three Orders,2,the-most-recent-three-orders,1,0

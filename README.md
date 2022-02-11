@@ -1576,7 +1576,7 @@ My daily challenge on leetcode since 2021/09/06.
 ||1526|[Minimum Number of Increments on Subarrays to Form a Target Array](https://leetcode.com/problems/minimum-number-of-increments-on-subarrays-to-form-a-target-array/)|Hard|
 |🔒|1527|[Patients With a Condition](https://leetcode.com/problems/patients-with-a-condition/)|Easy|
 ||1528|[Shuffle String](https://leetcode.com/problems/shuffle-string/)|Easy|
-||1529|[Minimum Suffix Flips](https://leetcode.com/problems/minimum-suffix-flips/)|Medium|
+|[📎](src/q_1501_1550/q1529.cc)|1529|[Minimum Suffix Flips](https://leetcode.com/problems/minimum-suffix-flips/)|Medium|
 ||1530|[Number of Good Leaf Nodes Pairs](https://leetcode.com/problems/number-of-good-leaf-nodes-pairs/)|Medium|
 ||1531|[String Compression II](https://leetcode.com/problems/string-compression-ii/)|Hard|
 |🔒|1532|[The Most Recent Three Orders](https://leetcode.com/problems/the-most-recent-three-orders/)|Medium|
@@ -2235,6 +2235,7 @@ My daily challenge on leetcode since 2021/09/06.
 
 |Time|#|</>|Question Title|Difficulty|
 |:--|--:|:-:|:--|:--|
+|2022-02-12 00:03|1529|[📎](src/q_1501_1550/q1529.cc)|[Minimum Suffix Flips](https://leetcode.com/problems/minimum-suffix-flips/)|Medium|
 |2022-02-11 23:41|397|[📎](src/q_351_400/q0397.cc)|[Integer Replacement](https://leetcode.com/problems/integer-replacement/)|Medium|
 |2022-02-11 21:58|752|[📎](src/q_751_800/q0752.cc)|[Open the Lock](https://leetcode.com/problems/open-the-lock/)|Medium|
 |2022-02-11 18:48|393|[📎](src/q_351_400/q0393.cc)|[UTF-8 Validation](https://leetcode.com/problems/utf-8-validation/)|Medium|
@@ -2259,13 +2260,12 @@ My daily challenge on leetcode since 2021/09/06.
 |2022-02-01 13:41|1267|[📎](src/q_1251_1300/q1267.cc)|[Count Servers that Communicate](https://leetcode.com/problems/count-servers-that-communicate/)|Medium|
 |2022-01-31 11:26|1672|[📎](src/q_1651_1700/q1672.cc)|[Richest Customer Wealth](https://leetcode.com/problems/richest-customer-wealth/)|Easy|
 |2022-01-30 13:24|515|[📎](src/q_501_550/q0515.cc)|[Find Largest Value in Each Tree Row](https://leetcode.com/problems/find-largest-value-in-each-tree-row/)|Medium|
-|2022-01-29 13:17|84|[📎](src/q_51_100/q0084.cc)|[Largest Rectangle in Histogram](https://leetcode.com/problems/largest-rectangle-in-histogram/)|Hard|
 
 ## Previous Logs
 
 |Month|Submissions|Easy|Medium|Hard|
 |:--|:--|:--|:--|:--|
-|[February_2022](./assets/February_2022.md)|22|5|16|1|
+|[February_2022](./assets/February_2022.md)|23|5|17|1|
 |[January_2022](./assets/January_2022.md)|32|8|18|6|
 |[December_2021](./assets/December_2021.md)|33|11|15|7|
 |[November_2021](./assets/November_2021.md)|41|19|16|6|
