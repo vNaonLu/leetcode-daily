@@ -395,7 +395,7 @@ id,title,level,slug,paid,done
 394,Decode String,2,decode-string,0,1
 395,Longest Substring with At Least K Repeating Characters,2,longest-substring-with-at-least-k-repeating-characters,0,0
 396,Rotate Function,2,rotate-function,0,0
-397,Integer Replacement,2,integer-replacement,0,0
+397,Integer Replacement,2,integer-replacement,0,1
 398,Random Pick Index,2,random-pick-index,0,0
 399,Evaluate Division,2,evaluate-division,0,0
 400,Nth Digit,2,nth-digit,0,0
