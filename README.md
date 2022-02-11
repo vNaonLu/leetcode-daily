@@ -781,7 +781,7 @@ My daily challenge on leetcode since 2021/09/06.
 |</>|#|Solution Title|Difficulty|
 |:-:|--:|:--|:--|
 |🔒|751|[IP to CIDR](https://leetcode.com/problems/ip-to-cidr/)|Medium|
-||752|[Open the Lock](https://leetcode.com/problems/open-the-lock/)|Medium|
+|[📎](src/q_751_800/q0752.cc)|752|[Open the Lock](https://leetcode.com/problems/open-the-lock/)|Medium|
 ||753|[Cracking the Safe](https://leetcode.com/problems/cracking-the-safe/)|Hard|
 ||754|[Reach a Number](https://leetcode.com/problems/reach-a-number/)|Medium|
 |🔒|755|[Pour Water](https://leetcode.com/problems/pour-water/)|Medium|
@@ -2235,6 +2235,7 @@ My daily challenge on leetcode since 2021/09/06.
 
 |Time|#|</>|Question Title|Difficulty|
 |:--|--:|:-:|:--|:--|
+|2022-02-11 21:58|752|[📎](src/q_751_800/q0752.cc)|[Open the Lock](https://leetcode.com/problems/open-the-lock/)|Medium|
 |2022-02-11 18:48|393|[📎](src/q_351_400/q0393.cc)|[UTF-8 Validation](https://leetcode.com/problems/utf-8-validation/)|Medium|
 |2022-02-11 18:34|504|[📎](src/q_501_550/q0504.cc)|[Base 7](https://leetcode.com/problems/base-7/)|Easy|
 |2022-02-10 21:05|124|[📎](src/q_101_150/q0124.cc)|[Binary Tree Maximum Path Sum](https://leetcode.com/problems/binary-tree-maximum-path-sum/)|Hard|
@@ -2259,13 +2260,12 @@ My daily challenge on leetcode since 2021/09/06.
 |2022-01-30 13:24|515|[📎](src/q_501_550/q0515.cc)|[Find Largest Value in Each Tree Row](https://leetcode.com/problems/find-largest-value-in-each-tree-row/)|Medium|
 |2022-01-29 13:17|84|[📎](src/q_51_100/q0084.cc)|[Largest Rectangle in Histogram](https://leetcode.com/problems/largest-rectangle-in-histogram/)|Hard|
 |2022-01-28 18:12|211|[📎](src/q_201_250/q0211.cc)|[Design Add and Search Words Data Structure](https://leetcode.com/problems/design-add-and-search-words-data-structure/)|Medium|
-|2022-01-27 18:12|421|[📎](src/q_401_450/q0421.cc)|[Maximum XOR of Two Numbers in an Array](https://leetcode.com/problems/maximum-xor-of-two-numbers-in-an-array/)|Medium|
 
 ## Previous Logs
 
 |Month|Submissions|Easy|Medium|Hard|
 |:--|:--|:--|:--|:--|
-|[February_2022](./assets/February_2022.md)|20|5|14|1|
+|[February_2022](./assets/February_2022.md)|21|5|15|1|
 |[January_2022](./assets/January_2022.md)|32|8|18|6|
 |[December_2021](./assets/December_2021.md)|33|11|15|7|
 |[November_2021](./assets/November_2021.md)|41|19|16|6|

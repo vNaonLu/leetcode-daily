@@ -750,7 +750,7 @@ id,title,level,slug,paid,done
 749,Contain Virus,3,contain-virus,0,0
 750,Number Of Corner Rectangles,2,number-of-corner-rectangles,1,0
 751,IP to CIDR,2,ip-to-cidr,1,0
-752,Open the Lock,2,open-the-lock,0,0
+752,Open the Lock,2,open-the-lock,0,1
 753,Cracking the Safe,3,cracking-the-safe,0,0
 754,Reach a Number,2,reach-a-number,0,0
 755,Pour Water,2,pour-water,1,0
