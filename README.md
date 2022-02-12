@@ -138,7 +138,7 @@ My daily challenge on leetcode since 2021/09/06.
 |[📎](src/q_101_150/q0124.cc)|124|[Binary Tree Maximum Path Sum](https://leetcode.com/problems/binary-tree-maximum-path-sum/)|Hard|
 ||125|[Valid Palindrome](https://leetcode.com/problems/valid-palindrome/)|Easy|
 ||126|[Word Ladder II](https://leetcode.com/problems/word-ladder-ii/)|Hard|
-||127|[Word Ladder](https://leetcode.com/problems/word-ladder/)|Hard|
+|[📎](src/q_101_150/q0127.cc)|127|[Word Ladder](https://leetcode.com/problems/word-ladder/)|Hard|
 ||128|[Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence/)|Medium|
 |[📎](src/q_101_150/q0129.cc)|129|[Sum Root to Leaf Numbers](https://leetcode.com/problems/sum-root-to-leaf-numbers/)|Medium|
 |[📎](src/q_101_150/q0130.cc)|130|[Surrounded Regions](https://leetcode.com/problems/surrounded-regions/)|Medium|
@@ -2235,6 +2235,7 @@ My daily challenge on leetcode since 2021/09/06.
 
 |Time|#|</>|Question Title|Difficulty|
 |:--|--:|:-:|:--|:--|
+|2022-02-12 16:27|127|[📎](src/q_101_150/q0127.cc)|[Word Ladder](https://leetcode.com/problems/word-ladder/)|Hard|
 |2022-02-12 00:03|1529|[📎](src/q_1501_1550/q1529.cc)|[Minimum Suffix Flips](https://leetcode.com/problems/minimum-suffix-flips/)|Medium|
 |2022-02-11 23:41|397|[📎](src/q_351_400/q0397.cc)|[Integer Replacement](https://leetcode.com/problems/integer-replacement/)|Medium|
 |2022-02-11 21:58|752|[📎](src/q_751_800/q0752.cc)|[Open the Lock](https://leetcode.com/problems/open-the-lock/)|Medium|
@@ -2259,13 +2260,12 @@ My daily challenge on leetcode since 2021/09/06.
 |2022-02-02 12:37|1081|[📎](src/q_1051_1100/q1081.cc)|[Smallest Subsequence of Distinct Characters](https://leetcode.com/problems/smallest-subsequence-of-distinct-characters/)|Medium|
 |2022-02-01 13:41|1267|[📎](src/q_1251_1300/q1267.cc)|[Count Servers that Communicate](https://leetcode.com/problems/count-servers-that-communicate/)|Medium|
 |2022-01-31 11:26|1672|[📎](src/q_1651_1700/q1672.cc)|[Richest Customer Wealth](https://leetcode.com/problems/richest-customer-wealth/)|Easy|
-|2022-01-30 13:24|515|[📎](src/q_501_550/q0515.cc)|[Find Largest Value in Each Tree Row](https://leetcode.com/problems/find-largest-value-in-each-tree-row/)|Medium|
 
 ## Previous Logs
 
 |Month|Submissions|Easy|Medium|Hard|
 |:--|:--|:--|:--|:--|
-|[February_2022](./assets/February_2022.md)|23|5|17|1|
+|[February_2022](./assets/February_2022.md)|24|5|17|2|
 |[January_2022](./assets/January_2022.md)|32|8|18|6|
 |[December_2021](./assets/December_2021.md)|33|11|15|7|
 |[November_2021](./assets/November_2021.md)|41|19|16|6|
