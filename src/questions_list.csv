@@ -1388,7 +1388,7 @@ id,title,level,slug,paid,done
 1387,Sort Integers by The Power Value,2,sort-integers-by-the-power-value,0,0
 1388,Pizza With 3n Slices,3,pizza-with-3n-slices,0,0
 1389,Create Target Array in the Given Order,1,create-target-array-in-the-given-order,0,0
-1390,Four Divisors,2,four-divisors,0,0
+1390,Four Divisors,2,four-divisors,0,1
 1391,Check if There is a Valid Path in a Grid,2,check-if-there-is-a-valid-path-in-a-grid,0,0
 1392,Longest Happy Prefix,3,longest-happy-prefix,0,0
 1393,Capital Gain/Loss,2,capital-gainloss,1,0
