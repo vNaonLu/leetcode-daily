@@ -122,10 +122,10 @@ id,title,level,slug,paid,done
 121,Best Time to Buy and Sell Stock,1,best-time-to-buy-and-sell-stock,0,1
 122,Best Time to Buy and Sell Stock II,2,best-time-to-buy-and-sell-stock-ii,0,1
 123,Best Time to Buy and Sell Stock III,3,best-time-to-buy-and-sell-stock-iii,0,1
-124,Binary Tree Maximum Path Sum,3,binary-tree-maximum-path-sum,0,0
+124,Binary Tree Maximum Path Sum,3,binary-tree-maximum-path-sum,0,1
 125,Valid Palindrome,1,valid-palindrome,0,0
 126,Word Ladder II,3,word-ladder-ii,0,0
-127,Word Ladder,3,word-ladder,0,0
+127,Word Ladder,3,word-ladder,0,1
 128,Longest Consecutive Sequence,2,longest-consecutive-sequence,0,0
 129,Sum Root to Leaf Numbers,2,sum-root-to-leaf-numbers,0,1
 130,Surrounded Regions,2,surrounded-regions,0,1
@@ -165,7 +165,7 @@ id,title,level,slug,paid,done
 164,Maximum Gap,3,maximum-gap,0,0
 165,Compare Version Numbers,2,compare-version-numbers,0,0
 166,Fraction to Recurring Decimal,2,fraction-to-recurring-decimal,0,0
-167,Two Sum II - Input Array Is Sorted,1,two-sum-ii-input-array-is-sorted,0,1
+167,Two Sum II - Input Array Is Sorted,2,two-sum-ii-input-array-is-sorted,0,1
 168,Excel Sheet Column Title,1,excel-sheet-column-title,0,0
 169,Majority Element,1,majority-element,0,1
 170,Two Sum III - Data structure design,1,two-sum-iii-data-structure-design,1,0
@@ -387,15 +387,15 @@ id,title,level,slug,paid,done
 386,Lexicographical Numbers,2,lexicographical-numbers,0,0
 387,First Unique Character in a String,1,first-unique-character-in-a-string,0,1
 388,Longest Absolute File Path,2,longest-absolute-file-path,0,0
-389,Find the Difference,1,find-the-difference,0,0
+389,Find the Difference,1,find-the-difference,0,1
 390,Elimination Game,2,elimination-game,0,0
 391,Perfect Rectangle,3,perfect-rectangle,0,0
 392,Is Subsequence,1,is-subsequence,0,1
-393,UTF-8 Validation,2,utf-8-validation,0,0
+393,UTF-8 Validation,2,utf-8-validation,0,1
 394,Decode String,2,decode-string,0,1
 395,Longest Substring with At Least K Repeating Characters,2,longest-substring-with-at-least-k-repeating-characters,0,0
 396,Rotate Function,2,rotate-function,0,0
-397,Integer Replacement,2,integer-replacement,0,0
+397,Integer Replacement,2,integer-replacement,0,1
 398,Random Pick Index,2,random-pick-index,0,0
 399,Evaluate Division,2,evaluate-division,0,0
 400,Nth Digit,2,nth-digit,0,0
@@ -502,7 +502,7 @@ id,title,level,slug,paid,done
 501,Find Mode in Binary Search Tree,1,find-mode-in-binary-search-tree,0,1
 502,IPO,3,ipo,0,0
 503,Next Greater Element II,2,next-greater-element-ii,0,0
-504,Base 7,1,base-7,0,0
+504,Base 7,1,base-7,0,1
 505,The Maze II,2,the-maze-ii,1,0
 506,Relative Ranks,1,relative-ranks,0,0
 507,Perfect Number,1,perfect-number,0,1
@@ -530,7 +530,7 @@ id,title,level,slug,paid,done
 529,Minesweeper,2,minesweeper,0,0
 530,Minimum Absolute Difference in BST,1,minimum-absolute-difference-in-bst,0,0
 531,Lonely Pixel I,2,lonely-pixel-i,1,0
-532,K-diff Pairs in an Array,2,k-diff-pairs-in-an-array,0,0
+532,K-diff Pairs in an Array,2,k-diff-pairs-in-an-array,0,1
 533,Lonely Pixel II,2,lonely-pixel-ii,1,0
 534,Game Play Analysis III,2,game-play-analysis-iii,1,0
 535,Encode and Decode TinyURL,2,encode-and-decode-tinyurl,0,0
@@ -750,7 +750,7 @@ id,title,level,slug,paid,done
 749,Contain Virus,3,contain-virus,0,0
 750,Number Of Corner Rectangles,2,number-of-corner-rectangles,1,0
 751,IP to CIDR,2,ip-to-cidr,1,0
-752,Open the Lock,2,open-the-lock,0,0
+752,Open the Lock,2,open-the-lock,0,1
 753,Cracking the Safe,3,cracking-the-safe,0,0
 754,Reach a Number,2,reach-a-number,0,0
 755,Pour Water,2,pour-water,1,0
@@ -765,7 +765,7 @@ id,title,level,slug,paid,done
 764,Largest Plus Sign,2,largest-plus-sign,0,1
 765,Couples Holding Hands,3,couples-holding-hands,0,0
 766,Toeplitz Matrix,1,toeplitz-matrix,0,0
-767,Reorganize String,2,reorganize-string,0,0
+767,Reorganize String,2,reorganize-string,0,1
 768,Max Chunks To Make Sorted II,3,max-chunks-to-make-sorted-ii,0,0
 769,Max Chunks To Make Sorted,2,max-chunks-to-make-sorted,0,1
 770,Basic Calculator IV,3,basic-calculator-iv,0,0
@@ -838,7 +838,7 @@ id,title,level,slug,paid,done
 837,New 21 Game,2,new-21-game,0,0
 838,Push Dominoes,2,push-dominoes,0,0
 839,Similar String Groups,3,similar-string-groups,0,0
-840,Magic Squares In Grid,2,magic-squares-in-grid,0,0
+840,Magic Squares In Grid,2,magic-squares-in-grid,0,1
 841,Keys and Rooms,2,keys-and-rooms,0,1
 842,Split Array into Fibonacci Sequence,2,split-array-into-fibonacci-sequence,0,0
 843,Guess the Word,3,guess-the-word,0,0
@@ -1018,7 +1018,7 @@ id,title,level,slug,paid,done
 1017,Convert to Base -2,2,convert-to-base-2,0,0
 1018,Binary Prefix Divisible By 5,1,binary-prefix-divisible-by-5,0,0
 1019,Next Greater Node In Linked List,2,next-greater-node-in-linked-list,0,0
-1020,Number of Enclaves,2,number-of-enclaves,0,0
+1020,Number of Enclaves,2,number-of-enclaves,0,1
 1021,Remove Outermost Parentheses,1,remove-outermost-parentheses,0,0
 1022,Sum of Root To Leaf Binary Numbers,1,sum-of-root-to-leaf-binary-numbers,0,1
 1023,Camelcase Matching,2,camelcase-matching,0,0
@@ -1153,7 +1153,7 @@ id,title,level,slug,paid,done
 1152,Analyze User Website Visit Pattern,2,analyze-user-website-visit-pattern,1,0
 1153,String Transforms Into Another String,3,string-transforms-into-another-string,1,0
 1154,Day of the Year,1,day-of-the-year,0,0
-1155,Number of Dice Rolls With Target Sum,2,number-of-dice-rolls-with-target-sum,0,0
+1155,Number of Dice Rolls With Target Sum,2,number-of-dice-rolls-with-target-sum,0,1
 1156,Swap For Longest Repeated Character Substring,2,swap-for-longest-repeated-character-substring,0,0
 1157,Online Majority Element In Subarray,3,online-majority-element-in-subarray,0,0
 1158,Market Analysis I,2,market-analysis-i,1,0
@@ -1388,7 +1388,7 @@ id,title,level,slug,paid,done
 1387,Sort Integers by The Power Value,2,sort-integers-by-the-power-value,0,0
 1388,Pizza With 3n Slices,3,pizza-with-3n-slices,0,0
 1389,Create Target Array in the Given Order,1,create-target-array-in-the-given-order,0,0
-1390,Four Divisors,2,four-divisors,0,0
+1390,Four Divisors,2,four-divisors,0,1
 1391,Check if There is a Valid Path in a Grid,2,check-if-there-is-a-valid-path-in-a-grid,0,0
 1392,Longest Happy Prefix,3,longest-happy-prefix,0,0
 1393,Capital Gain/Loss,2,capital-gainloss,1,0
@@ -1417,7 +1417,7 @@ id,title,level,slug,paid,done
 1416,Restore The Array,3,restore-the-array,0,0
 1417,Reformat The String,1,reformat-the-string,0,0
 1418,Display Table of Food Orders in a Restaurant,2,display-table-of-food-orders-in-a-restaurant,0,0
-1419,Minimum Number of Frogs Croaking,2,minimum-number-of-frogs-croaking,0,0
+1419,Minimum Number of Frogs Croaking,2,minimum-number-of-frogs-croaking,0,1
 1420,Build Array Where You Can Find The Maximum Exactly K Comparisons,3,build-array-where-you-can-find-the-maximum-exactly-k-comparisons,0,0
 1421,NPV Queries,1,npv-queries,1,0
 1422,Maximum Score After Splitting a String,1,maximum-score-after-splitting-a-string,0,0
@@ -1527,7 +1527,7 @@ id,title,level,slug,paid,done
 1526,Minimum Number of Increments on Subarrays to Form a Target Array,3,minimum-number-of-increments-on-subarrays-to-form-a-target-array,0,0
 1527,Patients With a Condition,1,patients-with-a-condition,1,0
 1528,Shuffle String,1,shuffle-string,0,0
-1529,Minimum Suffix Flips,2,minimum-suffix-flips,0,0
+1529,Minimum Suffix Flips,2,minimum-suffix-flips,0,1
 1530,Number of Good Leaf Nodes Pairs,2,number-of-good-leaf-nodes-pairs,0,0
 1531,String Compression II,3,string-compression-ii,0,0
 1532,The Most Recent Three Orders,2,the-most-recent-three-orders,1,0
@@ -1580,7 +1580,7 @@ id,title,level,slug,paid,done
 1579,Remove Max Number of Edges to Keep Graph Fully Traversable,3,remove-max-number-of-edges-to-keep-graph-fully-traversable,0,0
 1580,Put Boxes Into the Warehouse II,2,put-boxes-into-the-warehouse-ii,1,0
 1581,Customer Who Visited but Did Not Make Any Transactions,1,customer-who-visited-but-did-not-make-any-transactions,1,0
-1582,Special Positions in a Binary Matrix,1,special-positions-in-a-binary-matrix,0,0
+1582,Special Positions in a Binary Matrix,1,special-positions-in-a-binary-matrix,0,1
 1583,Count Unhappy Friends,2,count-unhappy-friends,0,0
 1584,Min Cost to Connect All Points,2,min-cost-to-connect-all-points,0,0
 1585,Check If String Is Transformable With Substring Sort Operations,3,check-if-string-is-transformable-with-substring-sort-operations,0,0
@@ -1750,7 +1750,7 @@ id,title,level,slug,paid,done
 1749,Maximum Absolute Sum of Any Subarray,2,maximum-absolute-sum-of-any-subarray,0,0
 1750,Minimum Length of String After Deleting Similar Ends,2,minimum-length-of-string-after-deleting-similar-ends,0,0
 1751,Maximum Number of Events That Can Be Attended II,3,maximum-number-of-events-that-can-be-attended-ii,0,0
-1752,Check if Array Is Sorted and Rotated,1,check-if-array-is-sorted-and-rotated,0,0
+1752,Check if Array Is Sorted and Rotated,1,check-if-array-is-sorted-and-rotated,0,1
 1753,Maximum Score From Removing Stones,2,maximum-score-from-removing-stones,0,0
 1754,Largest Merge Of Two Strings,2,largest-merge-of-two-strings,0,0
 1755,Closest Subsequence Sum,3,closest-subsequence-sum,0,0
@@ -1784,7 +1784,7 @@ id,title,level,slug,paid,done
 1783,Grand Slam Titles,2,grand-slam-titles,1,0
 1784,Check if Binary String Has at Most One Segment of Ones,1,check-if-binary-string-has-at-most-one-segment-of-ones,0,0
 1785,Minimum Elements to Add to Form a Given Sum,2,minimum-elements-to-add-to-form-a-given-sum,0,0
-1786,Number of Restricted Paths From First to Last Node,2,number-of-restricted-paths-from-first-to-last-node,0,0
+1786,Number of Restricted Paths From First to Last Node,2,number-of-restricted-paths-from-first-to-last-node,0,1
 1787,Make the XOR of All Segments Equal to Zero,3,make-the-xor-of-all-segments-equal-to-zero,0,0
 1788,Maximize the Beauty of the Garden,3,maximize-the-beauty-of-the-garden,1,0
 1789,Primary Department for Each Employee,1,primary-department-for-each-employee,1,0
@@ -1826,7 +1826,7 @@ id,title,level,slug,paid,done
 1825,Finding MK Average,3,finding-mk-average,0,0
 1826,Faulty Sensor,1,faulty-sensor,1,0
 1827,Minimum Operations to Make the Array Increasing,1,minimum-operations-to-make-the-array-increasing,0,0
-1828,Queries on Number of Points Inside a Circle,2,queries-on-number-of-points-inside-a-circle,0,0
+1828,Queries on Number of Points Inside a Circle,2,queries-on-number-of-points-inside-a-circle,0,1
 1829,Maximum XOR for Each Query,2,maximum-xor-for-each-query,0,0
 1830,Minimum Number of Operations to Make String Sorted,3,minimum-number-of-operations-to-make-string-sorted,0,0
 1831,Maximum Transaction Each Day,2,maximum-transaction-each-day,1,0
@@ -1927,7 +1927,7 @@ id,title,level,slug,paid,done
 1926,Nearest Exit from Entrance in Maze,2,nearest-exit-from-entrance-in-maze,0,0
 1927,Sum Game,2,sum-game,0,0
 1928,Minimum Cost to Reach Destination in Time,3,minimum-cost-to-reach-destination-in-time,0,0
-1929,Concatenation of Array,1,concatenation-of-array,0,0
+1929,Concatenation of Array,1,concatenation-of-array,0,1
 1930,Unique Length-3 Palindromic Subsequences,2,unique-length-3-palindromic-subsequences,0,0
 1931,Painting a Grid With Three Different Colors,3,painting-a-grid-with-three-different-colors,0,0
 1932,Merge BSTs to Create Single BST,3,merge-bsts-to-create-single-bst,0,0
@@ -2088,7 +2088,7 @@ id,title,level,slug,paid,done
 2087,Minimum Cost Homecoming of a Robot in a Grid,2,minimum-cost-homecoming-of-a-robot-in-a-grid,0,0
 2088,Count Fertile Pyramids in a Land,3,count-fertile-pyramids-in-a-land,0,0
 2089,Find Target Indices After Sorting Array,1,find-target-indices-after-sorting-array,0,0
-2090,K Radius Subarray Averages,2,k-radius-subarray-averages,0,0
+2090,K Radius Subarray Averages,2,k-radius-subarray-averages,0,1
 2091,Removing Minimum and Maximum From Array,2,removing-minimum-and-maximum-from-array,0,0
 2092,Find All People With Secret,3,find-all-people-with-secret,0,0
 2093,Minimum Cost to Reach City With Discounts,2,minimum-cost-to-reach-city-with-discounts,1,0
@@ -2154,6 +2154,16 @@ id,title,level,slug,paid,done
 2153,The Number of Passengers in Each Bus II,3,the-number-of-passengers-in-each-bus-ii,1,0
 2154,Keep Multiplying Found Values by Two,1,keep-multiplying-found-values-by-two,0,0
 2155,All Divisions With the Highest Score of a Binary Array,2,all-divisions-with-the-highest-score-of-a-binary-array,0,0
-2156,Find Substring With Given Hash Value,2,find-substring-with-given-hash-value,0,0
+2156,Find Substring With Given Hash Value,3,find-substring-with-given-hash-value,0,0
 2157,Groups of Strings,3,groups-of-strings,0,0
 2158,Amount of New Area Painted Each Day,3,amount-of-new-area-painted-each-day,1,0
+2159,Order Two Columns Independently,2,order-two-columns-independently,1,0
+2160,Minimum Sum of Four Digit Number After Splitting Digits,1,minimum-sum-of-four-digit-number-after-splitting-digits,0,0
+2161,Partition Array According to Given Pivot,2,partition-array-according-to-given-pivot,0,0
+2162,Minimum Cost to Set Cooking Time,2,minimum-cost-to-set-cooking-time,0,0
+2163,Minimum Difference in Sums After Removal of Elements,3,minimum-difference-in-sums-after-removal-of-elements,0,0
+2164,Sort Even and Odd Indices Independently,1,sort-even-and-odd-indices-independently,0,0
+2165,Smallest Value of the Rearranged Number,2,smallest-value-of-the-rearranged-number,0,0
+2166,Design Bitset,2,design-bitset,0,0
+2167,Minimum Time to Remove All Cars Containing Illegal Goods,3,minimum-time-to-remove-all-cars-containing-illegal-goods,0,0
+2168,Unique Substrings With Equal Digit Frequency,2,unique-substrings-with-equal-digit-frequency,1,0
