@@ -509,7 +509,7 @@ My daily challenge on leetcode since 2021/09/06.
 |🔒|489|[Robot Room Cleaner](https://leetcode.com/problems/robot-room-cleaner/)|Hard|
 |🔒|490|[The Maze](https://leetcode.com/problems/the-maze/)|Medium|
 ||491|[Increasing Subsequences](https://leetcode.com/problems/increasing-subsequences/)|Medium|
-||492|[Construct the Rectangle](https://leetcode.com/problems/construct-the-rectangle/)|Easy|
+|[📎](src/q_451_500/q0492.cc)|492|[Construct the Rectangle](https://leetcode.com/problems/construct-the-rectangle/)|Easy|
 ||493|[Reverse Pairs](https://leetcode.com/problems/reverse-pairs/)|Hard|
 ||494|[Target Sum](https://leetcode.com/problems/target-sum/)|Medium|
 ||495|[Teemo Attacking](https://leetcode.com/problems/teemo-attacking/)|Easy|
@@ -2056,7 +2056,7 @@ My daily challenge on leetcode since 2021/09/06.
 ||2000|[Reverse Prefix of Word](https://leetcode.com/problems/reverse-prefix-of-word/)|Easy|
 </details>
 <details>
-  <summary>### 2001 ~ 2168</summary>
+  <summary>### 2001 ~ 2172</summary>
 
 |</>|#|Solution Title|Difficulty|
 |:-:|--:|:--|:--|
@@ -2228,6 +2228,10 @@ My daily challenge on leetcode since 2021/09/06.
 ||2166|[Design Bitset](https://leetcode.com/problems/design-bitset/)|Medium|
 ||2167|[Minimum Time to Remove All Cars Containing Illegal Goods](https://leetcode.com/problems/minimum-time-to-remove-all-cars-containing-illegal-goods/)|Hard|
 |🔒|2168|[Unique Substrings With Equal Digit Frequency](https://leetcode.com/problems/unique-substrings-with-equal-digit-frequency/)|Medium|
+||2169|[Count Operations to Obtain Zero](https://leetcode.com/problems/count-operations-to-obtain-zero/)|Easy|
+||2170|[Minimum Operations to Make the Array Alternating](https://leetcode.com/problems/minimum-operations-to-make-the-array-alternating/)|Medium|
+||2171|[Removing Minimum Number of Magic Beans](https://leetcode.com/problems/removing-minimum-number-of-magic-beans/)|Medium|
+||2172|[Maximum AND Sum of Array](https://leetcode.com/problems/maximum-and-sum-of-array/)|Hard|
 </details>
 
 ---
@@ -2235,6 +2239,7 @@ My daily challenge on leetcode since 2021/09/06.
 
 |Time|#|</>|Question Title|Difficulty|
 |:--|--:|:-:|:--|:--|
+|2022-02-13 21:46|492|[📎](src/q_451_500/q0492.cc)|[Construct the Rectangle](https://leetcode.com/problems/construct-the-rectangle/)|Easy|
 |2022-02-12 17:00|1582|[📎](src/q_1551_1600/q1582.cc)|[Special Positions in a Binary Matrix](https://leetcode.com/problems/special-positions-in-a-binary-matrix/)|Easy|
 |2022-02-12 16:48|1390|[📎](src/q_1351_1400/q1390.cc)|[Four Divisors](https://leetcode.com/problems/four-divisors/)|Medium|
 |2022-02-12 16:27|127|[📎](src/q_101_150/q0127.cc)|[Word Ladder](https://leetcode.com/problems/word-ladder/)|Hard|
@@ -2259,13 +2264,12 @@ My daily challenge on leetcode since 2021/09/06.
 |2022-02-05 15:26|1720|[📎](src/q_1701_1750/q1720.cc)|[Decode XORed Array](https://leetcode.com/problems/decode-xored-array/)|Easy|
 |2022-02-04 12:02|525|[📎](src/q_501_550/q0525.cc)|[Contiguous Array](https://leetcode.com/problems/contiguous-array/)|Medium|
 |2022-02-03 13:29|454|[📎](src/q_451_500/q0454.cc)|[4Sum II](https://leetcode.com/problems/4sum-ii/)|Medium|
-|2022-02-02 12:37|1081|[📎](src/q_1051_1100/q1081.cc)|[Smallest Subsequence of Distinct Characters](https://leetcode.com/problems/smallest-subsequence-of-distinct-characters/)|Medium|
 
 ## Previous Logs
 
 |Month|Submissions|Easy|Medium|Hard|
 |:--|:--|:--|:--|:--|
-|[February_2022](./assets/February_2022.md)|26|6|18|2|
+|[February_2022](./assets/February_2022.md)|27|7|18|2|
 |[January_2022](./assets/January_2022.md)|32|8|18|6|
 |[December_2021](./assets/December_2021.md)|33|11|15|7|
 |[November_2021](./assets/November_2021.md)|41|19|16|6|

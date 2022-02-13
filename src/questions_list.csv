@@ -490,7 +490,7 @@ id,title,level,slug,paid,done
 489,Robot Room Cleaner,3,robot-room-cleaner,1,0
 490,The Maze,2,the-maze,1,0
 491,Increasing Subsequences,2,increasing-subsequences,0,0
-492,Construct the Rectangle,1,construct-the-rectangle,0,0
+492,Construct the Rectangle,1,construct-the-rectangle,0,1
 493,Reverse Pairs,3,reverse-pairs,0,0
 494,Target Sum,2,target-sum,0,0
 495,Teemo Attacking,1,teemo-attacking,0,0
@@ -2167,3 +2167,7 @@ id,title,level,slug,paid,done
 2166,Design Bitset,2,design-bitset,0,0
 2167,Minimum Time to Remove All Cars Containing Illegal Goods,3,minimum-time-to-remove-all-cars-containing-illegal-goods,0,0
 2168,Unique Substrings With Equal Digit Frequency,2,unique-substrings-with-equal-digit-frequency,1,0
+2169,Count Operations to Obtain Zero,1,count-operations-to-obtain-zero,0,0
+2170,Minimum Operations to Make the Array Alternating,2,minimum-operations-to-make-the-array-alternating,0,0
+2171,Removing Minimum Number of Magic Beans,2,removing-minimum-number-of-magic-beans,0,0
+2172,Maximum AND Sum of Array,3,maximum-and-sum-of-array,0,0
