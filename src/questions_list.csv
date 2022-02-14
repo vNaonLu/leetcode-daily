@@ -1877,7 +1877,7 @@ id,title,level,slug,paid,done
 1876,Substrings of Size Three with Distinct Characters,1,substrings-of-size-three-with-distinct-characters,0,0
 1877,Minimize Maximum Pair Sum in Array,2,minimize-maximum-pair-sum-in-array,0,0
 1878,Get Biggest Three Rhombus Sums in a Grid,2,get-biggest-three-rhombus-sums-in-a-grid,0,0
-1879,Minimum XOR Sum of Two Arrays,3,minimum-xor-sum-of-two-arrays,0,0
+1879,Minimum XOR Sum of Two Arrays,3,minimum-xor-sum-of-two-arrays,0,1
 1880,Check if Word Equals Summation of Two Words,1,check-if-word-equals-summation-of-two-words,0,0
 1881,Maximum Value after Insertion,2,maximum-value-after-insertion,0,1
 1882,Process Tasks Using Servers,2,process-tasks-using-servers,0,0
