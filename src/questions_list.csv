@@ -1120,7 +1120,7 @@ id,title,level,slug,paid,done
 1119,Remove Vowels from a String,1,remove-vowels-from-a-string,1,0
 1120,Maximum Average Subtree,2,maximum-average-subtree,1,0
 1121,Divide Array Into Increasing Sequences,3,divide-array-into-increasing-sequences,1,0
-1122,Relative Sort Array,1,relative-sort-array,0,0
+1122,Relative Sort Array,1,relative-sort-array,0,1
 1123,Lowest Common Ancestor of Deepest Leaves,2,lowest-common-ancestor-of-deepest-leaves,0,0
 1124,Longest Well-Performing Interval,2,longest-well-performing-interval,0,0
 1125,Smallest Sufficient Team,3,smallest-sufficient-team,0,0
@@ -2171,3 +2171,4 @@ id,title,level,slug,paid,done
 2170,Minimum Operations to Make the Array Alternating,2,minimum-operations-to-make-the-array-alternating,0,0
 2171,Removing Minimum Number of Magic Beans,2,removing-minimum-number-of-magic-beans,0,0
 2172,Maximum AND Sum of Array,3,maximum-and-sum-of-array,0,0
+2173,Longest Winning Streak,3,longest-winning-streak,1,0
