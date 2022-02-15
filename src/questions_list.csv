@@ -313,7 +313,7 @@ id,title,level,slug,paid,done
 312,Burst Balloons,3,burst-balloons,0,1
 313,Super Ugly Number,2,super-ugly-number,0,0
 314,Binary Tree Vertical Order Traversal,2,binary-tree-vertical-order-traversal,1,0
-315,Count of Smaller Numbers After Self,3,count-of-smaller-numbers-after-self,0,0
+315,Count of Smaller Numbers After Self,3,count-of-smaller-numbers-after-self,0,1
 316,Remove Duplicate Letters,2,remove-duplicate-letters,0,0
 317,Shortest Distance from All Buildings,3,shortest-distance-from-all-buildings,1,0
 318,Maximum Product of Word Lengths,2,maximum-product-of-word-lengths,0,0

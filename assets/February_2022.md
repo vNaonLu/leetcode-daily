@@ -2,7 +2,7 @@
 
 ||#|</>|Question Title|Difficulty|
 |:--|--:|:-:|:--|:--|
-|Day 15|1122|[📎](../src/q_1101_1150/q1122.cc)|[Relative Sort Array](https://leetcode.com/problems/relative-sort-array/)|Easy|
+|Day 15|315<br>1122|[📎](../src/q_301_350/q0315.cc)<br>[📎](../src/q_1101_1150/q1122.cc)|[Count of Smaller Numbers After Self](https://leetcode.com/problems/count-of-smaller-numbers-after-self/)<br>[Relative Sort Array](https://leetcode.com/problems/relative-sort-array/)|Hard<br>Easy|
 |Day 14|1879|[📎](../src/q_1851_1900/q1879.cc)|[Minimum XOR Sum of Two Arrays](https://leetcode.com/problems/minimum-xor-sum-of-two-arrays/)|Hard|
 |Day 13|492|[📎](../src/q_451_500/q0492.cc)|[Construct the Rectangle](https://leetcode.com/problems/construct-the-rectangle/)|Easy|
 |Day 12|127<br>1390<br>1529<br>1582|[📎](../src/q_101_150/q0127.cc)<br>[📎](../src/q_1351_1400/q1390.cc)<br>[📎](../src/q_1501_1550/q1529.cc)<br>[📎](../src/q_1551_1600/q1582.cc)|[Word Ladder](https://leetcode.com/problems/word-ladder/)<br>[Four Divisors](https://leetcode.com/problems/four-divisors/)<br>[Minimum Suffix Flips](https://leetcode.com/problems/minimum-suffix-flips/)<br>[Special Positions in a Binary Matrix](https://leetcode.com/problems/special-positions-in-a-binary-matrix/)|Hard<br>Medium<br>Medium<br>Easy|
