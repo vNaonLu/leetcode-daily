@@ -1037,7 +1037,7 @@ id,title,level,slug,paid,done
 1036,Escape a Large Maze,3,escape-a-large-maze,0,0
 1037,Valid Boomerang,1,valid-boomerang,0,0
 1038,Binary Search Tree to Greater Sum Tree,2,binary-search-tree-to-greater-sum-tree,0,0
-1039,Minimum Score Triangulation of Polygon,2,minimum-score-triangulation-of-polygon,0,0
+1039,Minimum Score Triangulation of Polygon,2,minimum-score-triangulation-of-polygon,0,1
 1040,Moving Stones Until Consecutive II,2,moving-stones-until-consecutive-ii,0,0
 1041,Robot Bounded In Circle,2,robot-bounded-in-circle,0,1
 1042,Flower Planting With No Adjacent,2,flower-planting-with-no-adjacent,0,0

@@ -1074,7 +1074,7 @@ My daily challenge on leetcode since 2021/09/06.
 ||1036|[Escape a Large Maze](https://leetcode.com/problems/escape-a-large-maze/)|Hard|
 ||1037|[Valid Boomerang](https://leetcode.com/problems/valid-boomerang/)|Easy|
 ||1038|[Binary Search Tree to Greater Sum Tree](https://leetcode.com/problems/binary-search-tree-to-greater-sum-tree/)|Medium|
-||1039|[Minimum Score Triangulation of Polygon](https://leetcode.com/problems/minimum-score-triangulation-of-polygon/)|Medium|
+|[📎](src/q_1001_1050/q1039.cc)|1039|[Minimum Score Triangulation of Polygon](https://leetcode.com/problems/minimum-score-triangulation-of-polygon/)|Medium|
 ||1040|[Moving Stones Until Consecutive II](https://leetcode.com/problems/moving-stones-until-consecutive-ii/)|Medium|
 |[📎](src/q_1001_1050/q1041.cc)|1041|[Robot Bounded In Circle](https://leetcode.com/problems/robot-bounded-in-circle/)|Medium|
 ||1042|[Flower Planting With No Adjacent](https://leetcode.com/problems/flower-planting-with-no-adjacent/)|Medium|
@@ -2240,6 +2240,7 @@ My daily challenge on leetcode since 2021/09/06.
 
 |Time|#|</>|Question Title|Difficulty|
 |:--|--:|:-:|:--|:--|
+|2022-02-15 18:46|1039|[📎](src/q_1001_1050/q1039.cc)|[Minimum Score Triangulation of Polygon](https://leetcode.com/problems/minimum-score-triangulation-of-polygon/)|Medium|
 |2022-02-15 18:25|315|[📎](src/q_301_350/q0315.cc)|[Count of Smaller Numbers After Self](https://leetcode.com/problems/count-of-smaller-numbers-after-self/)|Hard|
 |2022-02-15 18:15|1122|[📎](src/q_1101_1150/q1122.cc)|[Relative Sort Array](https://leetcode.com/problems/relative-sort-array/)|Easy|
 |2022-02-14 18:15|1879|[📎](src/q_1851_1900/q1879.cc)|[Minimum XOR Sum of Two Arrays](https://leetcode.com/problems/minimum-xor-sum-of-two-arrays/)|Hard|
@@ -2264,13 +2265,12 @@ My daily challenge on leetcode since 2021/09/06.
 |2022-02-09 18:16|532|[📎](src/q_501_550/q0532.cc)|[K-diff Pairs in an Array](https://leetcode.com/problems/k-diff-pairs-in-an-array/)|Medium|
 |2022-02-08 18:33|1020|[📎](src/q_1001_1050/q1020.cc)|[Number of Enclaves](https://leetcode.com/problems/number-of-enclaves/)|Medium|
 |2022-02-07 18:13|389|[📎](src/q_351_400/q0389.cc)|[Find the Difference](https://leetcode.com/problems/find-the-difference/)|Easy|
-|2022-02-06 14:22|1752|[📎](src/q_1751_1800/q1752.cc)|[Check if Array Is Sorted and Rotated](https://leetcode.com/problems/check-if-array-is-sorted-and-rotated/)|Easy|
 
 ## Previous Logs
 
 |Month|Submissions|Easy|Medium|Hard|
 |:--|:--|:--|:--|:--|
-|[February_2022](./assets/February_2022.md)|30|8|18|4|
+|[February_2022](./assets/February_2022.md)|31|8|19|4|
 |[January_2022](./assets/January_2022.md)|32|8|18|6|
 |[December_2021](./assets/December_2021.md)|33|11|15|7|
 |[November_2021](./assets/November_2021.md)|41|19|16|6|
