@@ -1507,7 +1507,7 @@ id,title,level,slug,paid,done
 1506,Find Root of N-Ary Tree,2,find-root-of-n-ary-tree,1,0
 1507,Reformat Date,1,reformat-date,0,0
 1508,Range Sum of Sorted Subarray Sums,2,range-sum-of-sorted-subarray-sums,0,0
-1509,Minimum Difference Between Largest and Smallest Value in Three Moves,2,minimum-difference-between-largest-and-smallest-value-in-three-moves,0,0
+1509,Minimum Difference Between Largest and Smallest Value in Three Moves,2,minimum-difference-between-largest-and-smallest-value-in-three-moves,0,1
 1510,Stone Game IV,3,stone-game-iv,0,1
 1511,Customer Order Frequency,1,customer-order-frequency,1,0
 1512,Number of Good Pairs,1,number-of-good-pairs,0,0

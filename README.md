@@ -1556,7 +1556,7 @@ My daily challenge on leetcode since 2021/09/06.
 |🔒|1506|[Find Root of N-Ary Tree](https://leetcode.com/problems/find-root-of-n-ary-tree/)|Medium|
 ||1507|[Reformat Date](https://leetcode.com/problems/reformat-date/)|Easy|
 ||1508|[Range Sum of Sorted Subarray Sums](https://leetcode.com/problems/range-sum-of-sorted-subarray-sums/)|Medium|
-||1509|[Minimum Difference Between Largest and Smallest Value in Three Moves](https://leetcode.com/problems/minimum-difference-between-largest-and-smallest-value-in-three-moves/)|Medium|
+|[📎](src/q_1501_1550/q1509.cc)|1509|[Minimum Difference Between Largest and Smallest Value in Three Moves](https://leetcode.com/problems/minimum-difference-between-largest-and-smallest-value-in-three-moves/)|Medium|
 |[📎](src/q_1501_1550/q1510.cc)|1510|[Stone Game IV](https://leetcode.com/problems/stone-game-iv/)|Hard|
 |🔒|1511|[Customer Order Frequency](https://leetcode.com/problems/customer-order-frequency/)|Easy|
 ||1512|[Number of Good Pairs](https://leetcode.com/problems/number-of-good-pairs/)|Easy|
@@ -2240,6 +2240,7 @@ My daily challenge on leetcode since 2021/09/06.
 
 |Time|#|</>|Question Title|Difficulty|
 |:--|--:|:-:|:--|:--|
+|2022-02-16 18:35|1509|[📎](src/q_1501_1550/q1509.cc)|[Minimum Difference Between Largest and Smallest Value in Three Moves](https://leetcode.com/problems/minimum-difference-between-largest-and-smallest-value-in-three-moves/)|Medium|
 |2022-02-16 18:17|2134|[📎](src/q_2101_2150/q2134.cc)|[Minimum Swaps to Group All 1's Together II](https://leetcode.com/problems/minimum-swaps-to-group-all-1s-together-ii/)|Medium|
 |2022-02-16 18:10|1017|[📎](src/q_1001_1050/q1017.cc)|[Convert to Base -2](https://leetcode.com/problems/convert-to-base-2/)|Medium|
 |2022-02-15 18:46|1039|[📎](src/q_1001_1050/q1039.cc)|[Minimum Score Triangulation of Polygon](https://leetcode.com/problems/minimum-score-triangulation-of-polygon/)|Medium|
@@ -2264,13 +2265,12 @@ My daily challenge on leetcode since 2021/09/06.
 |2022-02-10 16:23|1828|[📎](src/q_1801_1850/q1828.cc)|[Queries on Number of Points Inside a Circle](https://leetcode.com/problems/queries-on-number-of-points-inside-a-circle/)|Medium|
 |2022-02-10 15:42|1155|[📎](src/q_1151_1200/q1155.cc)|[Number of Dice Rolls With Target Sum](https://leetcode.com/problems/number-of-dice-rolls-with-target-sum/)|Medium|
 |2022-02-09 19:10|840|[📎](src/q_801_850/q0840.cc)|[Magic Squares In Grid](https://leetcode.com/problems/magic-squares-in-grid/)|Medium|
-|2022-02-09 18:16|532|[📎](src/q_501_550/q0532.cc)|[K-diff Pairs in an Array](https://leetcode.com/problems/k-diff-pairs-in-an-array/)|Medium|
 
 ## Previous Logs
 
 |Month|Submissions|Easy|Medium|Hard|
 |:--|:--|:--|:--|:--|
-|[February_2022](./assets/February_2022.md)|33|8|21|4|
+|[February_2022](./assets/February_2022.md)|34|8|22|4|
 |[January_2022](./assets/January_2022.md)|32|8|18|6|
 |[December_2021](./assets/December_2021.md)|33|11|15|7|
 |[November_2021](./assets/November_2021.md)|41|19|16|6|
