@@ -2193,7 +2193,7 @@ My daily challenge on leetcode since 2021/09/06.
 ||2131|[Longest Palindrome by Concatenating Two Letter Words](https://leetcode.com/problems/longest-palindrome-by-concatenating-two-letter-words/)|Medium|
 ||2132|[Stamping the Grid](https://leetcode.com/problems/stamping-the-grid/)|Hard|
 ||2133|[Check if Every Row and Column Contains All Numbers](https://leetcode.com/problems/check-if-every-row-and-column-contains-all-numbers/)|Easy|
-||2134|[Minimum Swaps to Group All 1's Together II](https://leetcode.com/problems/minimum-swaps-to-group-all-1s-together-ii/)|Medium|
+|[📎](src/q_2101_2150/q2134.cc)|2134|[Minimum Swaps to Group All 1's Together II](https://leetcode.com/problems/minimum-swaps-to-group-all-1s-together-ii/)|Medium|
 ||2135|[Count Words Obtained After Adding a Letter](https://leetcode.com/problems/count-words-obtained-after-adding-a-letter/)|Medium|
 ||2136|[Earliest Possible Day of Full Bloom](https://leetcode.com/problems/earliest-possible-day-of-full-bloom/)|Hard|
 |🔒|2137|[Pour Water Between Buckets to Make Water Levels Equal](https://leetcode.com/problems/pour-water-between-buckets-to-make-water-levels-equal/)|Medium|
@@ -2240,6 +2240,7 @@ My daily challenge on leetcode since 2021/09/06.
 
 |Time|#|</>|Question Title|Difficulty|
 |:--|--:|:-:|:--|:--|
+|2022-02-16 18:17|2134|[📎](src/q_2101_2150/q2134.cc)|[Minimum Swaps to Group All 1's Together II](https://leetcode.com/problems/minimum-swaps-to-group-all-1s-together-ii/)|Medium|
 |2022-02-16 18:10|1017|[📎](src/q_1001_1050/q1017.cc)|[Convert to Base -2](https://leetcode.com/problems/convert-to-base-2/)|Medium|
 |2022-02-15 18:46|1039|[📎](src/q_1001_1050/q1039.cc)|[Minimum Score Triangulation of Polygon](https://leetcode.com/problems/minimum-score-triangulation-of-polygon/)|Medium|
 |2022-02-15 18:25|315|[📎](src/q_301_350/q0315.cc)|[Count of Smaller Numbers After Self](https://leetcode.com/problems/count-of-smaller-numbers-after-self/)|Hard|
@@ -2264,13 +2265,12 @@ My daily challenge on leetcode since 2021/09/06.
 |2022-02-10 15:42|1155|[📎](src/q_1151_1200/q1155.cc)|[Number of Dice Rolls With Target Sum](https://leetcode.com/problems/number-of-dice-rolls-with-target-sum/)|Medium|
 |2022-02-09 19:10|840|[📎](src/q_801_850/q0840.cc)|[Magic Squares In Grid](https://leetcode.com/problems/magic-squares-in-grid/)|Medium|
 |2022-02-09 18:16|532|[📎](src/q_501_550/q0532.cc)|[K-diff Pairs in an Array](https://leetcode.com/problems/k-diff-pairs-in-an-array/)|Medium|
-|2022-02-08 18:33|1020|[📎](src/q_1001_1050/q1020.cc)|[Number of Enclaves](https://leetcode.com/problems/number-of-enclaves/)|Medium|
 
 ## Previous Logs
 
 |Month|Submissions|Easy|Medium|Hard|
 |:--|:--|:--|:--|:--|
-|[February_2022](./assets/February_2022.md)|32|8|20|4|
+|[February_2022](./assets/February_2022.md)|33|8|21|4|
 |[January_2022](./assets/January_2022.md)|32|8|18|6|
 |[December_2021](./assets/December_2021.md)|33|11|15|7|
 |[November_2021](./assets/November_2021.md)|41|19|16|6|

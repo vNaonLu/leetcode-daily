@@ -2132,7 +2132,7 @@ id,title,level,slug,paid,done
 2131,Longest Palindrome by Concatenating Two Letter Words,2,longest-palindrome-by-concatenating-two-letter-words,0,0
 2132,Stamping the Grid,3,stamping-the-grid,0,0
 2133,Check if Every Row and Column Contains All Numbers,1,check-if-every-row-and-column-contains-all-numbers,0,0
-2134,Minimum Swaps to Group All 1's Together II,2,minimum-swaps-to-group-all-1s-together-ii,0,0
+2134,Minimum Swaps to Group All 1's Together II,2,minimum-swaps-to-group-all-1s-together-ii,0,1
 2135,Count Words Obtained After Adding a Letter,2,count-words-obtained-after-adding-a-letter,0,0
 2136,Earliest Possible Day of Full Bloom,3,earliest-possible-day-of-full-bloom,0,0
 2137,Pour Water Between Buckets to Make Water Levels Equal,2,pour-water-between-buckets-to-make-water-levels-equal,1,0
