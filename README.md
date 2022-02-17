@@ -1066,7 +1066,7 @@ My daily challenge on leetcode since 2021/09/06.
 ||1028|[Recover a Tree From Preorder Traversal](https://leetcode.com/problems/recover-a-tree-from-preorder-traversal/)|Hard|
 ||1029|[Two City Scheduling](https://leetcode.com/problems/two-city-scheduling/)|Medium|
 ||1030|[Matrix Cells in Distance Order](https://leetcode.com/problems/matrix-cells-in-distance-order/)|Easy|
-||1031|[Maximum Sum of Two Non-Overlapping Subarrays](https://leetcode.com/problems/maximum-sum-of-two-non-overlapping-subarrays/)|Medium|
+|[📎](src/q_1001_1050/q1031.cc)|1031|[Maximum Sum of Two Non-Overlapping Subarrays](https://leetcode.com/problems/maximum-sum-of-two-non-overlapping-subarrays/)|Medium|
 |[📎](src/q_1001_1050/q1032.cc)|1032|[Stream of Characters](https://leetcode.com/problems/stream-of-characters/)|Hard|
 ||1033|[Moving Stones Until Consecutive](https://leetcode.com/problems/moving-stones-until-consecutive/)|Medium|
 ||1034|[Coloring A Border](https://leetcode.com/problems/coloring-a-border/)|Medium|
@@ -2056,7 +2056,7 @@ My daily challenge on leetcode since 2021/09/06.
 ||2000|[Reverse Prefix of Word](https://leetcode.com/problems/reverse-prefix-of-word/)|Easy|
 </details>
 <details>
-  <summary>### 2001 ~ 2173</summary>
+  <summary>### 2001 ~ 2174</summary>
 
 |</>|#|Solution Title|Difficulty|
 |:-:|--:|:--|:--|
@@ -2233,6 +2233,7 @@ My daily challenge on leetcode since 2021/09/06.
 ||2171|[Removing Minimum Number of Magic Beans](https://leetcode.com/problems/removing-minimum-number-of-magic-beans/)|Medium|
 ||2172|[Maximum AND Sum of Array](https://leetcode.com/problems/maximum-and-sum-of-array/)|Hard|
 |🔒|2173|[Longest Winning Streak](https://leetcode.com/problems/longest-winning-streak/)|Hard|
+|🔒|2174|[Remove All Ones With Row and Column Flips II](https://leetcode.com/problems/remove-all-ones-with-row-and-column-flips-ii/)|Medium|
 </details>
 
 ---
@@ -2240,6 +2241,7 @@ My daily challenge on leetcode since 2021/09/06.
 
 |Time|#|</>|Question Title|Difficulty|
 |:--|--:|:-:|:--|:--|
+|2022-02-17 18:37|1031|[📎](src/q_1001_1050/q1031.cc)|[Maximum Sum of Two Non-Overlapping Subarrays](https://leetcode.com/problems/maximum-sum-of-two-non-overlapping-subarrays/)|Medium|
 |2022-02-16 18:35|1509|[📎](src/q_1501_1550/q1509.cc)|[Minimum Difference Between Largest and Smallest Value in Three Moves](https://leetcode.com/problems/minimum-difference-between-largest-and-smallest-value-in-three-moves/)|Medium|
 |2022-02-16 18:17|2134|[📎](src/q_2101_2150/q2134.cc)|[Minimum Swaps to Group All 1's Together II](https://leetcode.com/problems/minimum-swaps-to-group-all-1s-together-ii/)|Medium|
 |2022-02-16 18:10|1017|[📎](src/q_1001_1050/q1017.cc)|[Convert to Base -2](https://leetcode.com/problems/convert-to-base-2/)|Medium|
@@ -2264,13 +2266,12 @@ My daily challenge on leetcode since 2021/09/06.
 |2022-02-10 16:31|1929|[📎](src/q_1901_1950/q1929.cc)|[Concatenation of Array](https://leetcode.com/problems/concatenation-of-array/)|Easy|
 |2022-02-10 16:23|1828|[📎](src/q_1801_1850/q1828.cc)|[Queries on Number of Points Inside a Circle](https://leetcode.com/problems/queries-on-number-of-points-inside-a-circle/)|Medium|
 |2022-02-10 15:42|1155|[📎](src/q_1151_1200/q1155.cc)|[Number of Dice Rolls With Target Sum](https://leetcode.com/problems/number-of-dice-rolls-with-target-sum/)|Medium|
-|2022-02-09 19:10|840|[📎](src/q_801_850/q0840.cc)|[Magic Squares In Grid](https://leetcode.com/problems/magic-squares-in-grid/)|Medium|
 
 ## Previous Logs
 
 |Month|Submissions|Easy|Medium|Hard|
 |:--|:--|:--|:--|:--|
-|[February_2022](./assets/February_2022.md)|34|8|22|4|
+|[February_2022](./assets/February_2022.md)|35|8|23|4|
 |[January_2022](./assets/January_2022.md)|32|8|18|6|
 |[December_2021](./assets/December_2021.md)|33|11|15|7|
 |[November_2021](./assets/November_2021.md)|41|19|16|6|

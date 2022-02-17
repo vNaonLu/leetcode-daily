@@ -1029,7 +1029,7 @@ id,title,level,slug,paid,done
 1028,Recover a Tree From Preorder Traversal,3,recover-a-tree-from-preorder-traversal,0,0
 1029,Two City Scheduling,2,two-city-scheduling,0,0
 1030,Matrix Cells in Distance Order,1,matrix-cells-in-distance-order,0,0
-1031,Maximum Sum of Two Non-Overlapping Subarrays,2,maximum-sum-of-two-non-overlapping-subarrays,0,0
+1031,Maximum Sum of Two Non-Overlapping Subarrays,2,maximum-sum-of-two-non-overlapping-subarrays,0,1
 1032,Stream of Characters,3,stream-of-characters,0,1
 1033,Moving Stones Until Consecutive,2,moving-stones-until-consecutive,0,0
 1034,Coloring A Border,2,coloring-a-border,0,0
@@ -2172,3 +2172,4 @@ id,title,level,slug,paid,done
 2171,Removing Minimum Number of Magic Beans,2,removing-minimum-number-of-magic-beans,0,0
 2172,Maximum AND Sum of Array,3,maximum-and-sum-of-array,0,0
 2173,Longest Winning Streak,3,longest-winning-streak,1,0
+2174,Remove All Ones With Row and Column Flips II,2,remove-all-ones-with-row-and-column-flips-ii,1,0
