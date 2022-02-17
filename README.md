@@ -1364,7 +1364,7 @@ My daily challenge on leetcode since 2021/09/06.
 ||1320|[Minimum Distance to Type a Word Using Two Fingers](https://leetcode.com/problems/minimum-distance-to-type-a-word-using-two-fingers/)|Hard|
 |🔒|1321|[Restaurant Growth](https://leetcode.com/problems/restaurant-growth/)|Medium|
 |🔒|1322|[Ads Performance](https://leetcode.com/problems/ads-performance/)|Easy|
-||1323|[Maximum 69 Number](https://leetcode.com/problems/maximum-69-number/)|Easy|
+|[📎](src/q_1301_1350/q1323.cc)|1323|[Maximum 69 Number](https://leetcode.com/problems/maximum-69-number/)|Easy|
 ||1324|[Print Words Vertically](https://leetcode.com/problems/print-words-vertically/)|Medium|
 ||1325|[Delete Leaves With a Given Value](https://leetcode.com/problems/delete-leaves-with-a-given-value/)|Medium|
 ||1326|[Minimum Number of Taps to Open to Water a Garden](https://leetcode.com/problems/minimum-number-of-taps-to-open-to-water-a-garden/)|Hard|
@@ -2241,6 +2241,7 @@ My daily challenge on leetcode since 2021/09/06.
 
 |Time|#|</>|Question Title|Difficulty|
 |:--|--:|:-:|:--|:--|
+|2022-02-17 22:43|1323|[📎](src/q_1301_1350/q1323.cc)|[Maximum 69 Number](https://leetcode.com/problems/maximum-69-number/)|Easy|
 |2022-02-17 22:24|375|[📎](src/q_351_400/q0375.cc)|[Guess Number Higher or Lower II](https://leetcode.com/problems/guess-number-higher-or-lower-ii/)|Medium|
 |2022-02-17 21:55|1705|[📎](src/q_1701_1750/q1705.cc)|[Maximum Number of Eaten Apples](https://leetcode.com/problems/maximum-number-of-eaten-apples/)|Medium|
 |2022-02-17 18:49|1191|[📎](src/q_1151_1200/q1191.cc)|[K-Concatenation Maximum Sum](https://leetcode.com/problems/k-concatenation-maximum-sum/)|Medium|
@@ -2265,13 +2266,12 @@ My daily challenge on leetcode since 2021/09/06.
 |2022-02-10 19:37|1786|[📎](src/q_1751_1800/q1786.cc)|[Number of Restricted Paths From First to Last Node](https://leetcode.com/problems/number-of-restricted-paths-from-first-to-last-node/)|Medium|
 |2022-02-10 19:04|767|[📎](src/q_751_800/q0767.cc)|[Reorganize String](https://leetcode.com/problems/reorganize-string/)|Medium|
 |2022-02-10 18:03|1419|[📎](src/q_1401_1450/q1419.cc)|[Minimum Number of Frogs Croaking](https://leetcode.com/problems/minimum-number-of-frogs-croaking/)|Medium|
-|2022-02-10 16:36|2090|[📎](src/q_2051_2100/q2090.cc)|[K Radius Subarray Averages](https://leetcode.com/problems/k-radius-subarray-averages/)|Medium|
 
 ## Previous Logs
 
 |Month|Submissions|Easy|Medium|Hard|
 |:--|:--|:--|:--|:--|
-|[February_2022](./assets/February_2022.md)|38|8|26|4|
+|[February_2022](./assets/February_2022.md)|39|9|26|4|
 |[January_2022](./assets/January_2022.md)|32|8|18|6|
 |[December_2021](./assets/December_2021.md)|33|11|15|7|
 |[November_2021](./assets/November_2021.md)|41|19|16|6|
