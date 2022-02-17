@@ -392,7 +392,7 @@ My daily challenge on leetcode since 2021/09/06.
 ||372|[Super Pow](https://leetcode.com/problems/super-pow/)|Medium|
 ||373|[Find K Pairs with Smallest Sums](https://leetcode.com/problems/find-k-pairs-with-smallest-sums/)|Medium|
 |[📎](src/q_351_400/q0374.cc)|374|[Guess Number Higher or Lower](https://leetcode.com/problems/guess-number-higher-or-lower/)|Easy|
-||375|[Guess Number Higher or Lower II](https://leetcode.com/problems/guess-number-higher-or-lower-ii/)|Medium|
+|[📎](src/q_351_400/q0375.cc)|375|[Guess Number Higher or Lower II](https://leetcode.com/problems/guess-number-higher-or-lower-ii/)|Medium|
 |[📎](src/q_351_400/q0376.cc)|376|[Wiggle Subsequence](https://leetcode.com/problems/wiggle-subsequence/)|Medium|
 |[📎](src/q_351_400/q0377.cc)|377|[Combination Sum IV](https://leetcode.com/problems/combination-sum-iv/)|Medium|
 ||378|[Kth Smallest Element in a Sorted Matrix](https://leetcode.com/problems/kth-smallest-element-in-a-sorted-matrix/)|Medium|
@@ -2241,6 +2241,7 @@ My daily challenge on leetcode since 2021/09/06.
 
 |Time|#|</>|Question Title|Difficulty|
 |:--|--:|:-:|:--|:--|
+|2022-02-17 22:24|375|[📎](src/q_351_400/q0375.cc)|[Guess Number Higher or Lower II](https://leetcode.com/problems/guess-number-higher-or-lower-ii/)|Medium|
 |2022-02-17 21:55|1705|[📎](src/q_1701_1750/q1705.cc)|[Maximum Number of Eaten Apples](https://leetcode.com/problems/maximum-number-of-eaten-apples/)|Medium|
 |2022-02-17 18:49|1191|[📎](src/q_1151_1200/q1191.cc)|[K-Concatenation Maximum Sum](https://leetcode.com/problems/k-concatenation-maximum-sum/)|Medium|
 |2022-02-17 18:37|1031|[📎](src/q_1001_1050/q1031.cc)|[Maximum Sum of Two Non-Overlapping Subarrays](https://leetcode.com/problems/maximum-sum-of-two-non-overlapping-subarrays/)|Medium|
@@ -2265,13 +2266,12 @@ My daily challenge on leetcode since 2021/09/06.
 |2022-02-10 19:04|767|[📎](src/q_751_800/q0767.cc)|[Reorganize String](https://leetcode.com/problems/reorganize-string/)|Medium|
 |2022-02-10 18:03|1419|[📎](src/q_1401_1450/q1419.cc)|[Minimum Number of Frogs Croaking](https://leetcode.com/problems/minimum-number-of-frogs-croaking/)|Medium|
 |2022-02-10 16:36|2090|[📎](src/q_2051_2100/q2090.cc)|[K Radius Subarray Averages](https://leetcode.com/problems/k-radius-subarray-averages/)|Medium|
-|2022-02-10 16:31|1929|[📎](src/q_1901_1950/q1929.cc)|[Concatenation of Array](https://leetcode.com/problems/concatenation-of-array/)|Easy|
 
 ## Previous Logs
 
 |Month|Submissions|Easy|Medium|Hard|
 |:--|:--|:--|:--|:--|
-|[February_2022](./assets/February_2022.md)|37|8|25|4|
+|[February_2022](./assets/February_2022.md)|38|8|26|4|
 |[January_2022](./assets/January_2022.md)|32|8|18|6|
 |[December_2021](./assets/December_2021.md)|33|11|15|7|
 |[November_2021](./assets/November_2021.md)|41|19|16|6|
