@@ -682,7 +682,7 @@ id,title,level,slug,paid,done
 681,Next Closest Time,2,next-closest-time,1,0
 682,Baseball Game,1,baseball-game,0,0
 683,K Empty Slots,3,k-empty-slots,1,0
-684,Redundant Connection,2,redundant-connection,0,0
+684,Redundant Connection,2,redundant-connection,0,1
 685,Redundant Connection II,3,redundant-connection-ii,0,0
 686,Repeated String Match,2,repeated-string-match,0,0
 687,Longest Univalue Path,2,longest-univalue-path,0,0

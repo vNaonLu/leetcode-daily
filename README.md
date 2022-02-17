@@ -707,7 +707,7 @@ My daily challenge on leetcode since 2021/09/06.
 |🔒|681|[Next Closest Time](https://leetcode.com/problems/next-closest-time/)|Medium|
 ||682|[Baseball Game](https://leetcode.com/problems/baseball-game/)|Easy|
 |🔒|683|[K Empty Slots](https://leetcode.com/problems/k-empty-slots/)|Hard|
-||684|[Redundant Connection](https://leetcode.com/problems/redundant-connection/)|Medium|
+|[📎](src/q_651_700/q0684.cc)|684|[Redundant Connection](https://leetcode.com/problems/redundant-connection/)|Medium|
 ||685|[Redundant Connection II](https://leetcode.com/problems/redundant-connection-ii/)|Hard|
 ||686|[Repeated String Match](https://leetcode.com/problems/repeated-string-match/)|Medium|
 ||687|[Longest Univalue Path](https://leetcode.com/problems/longest-univalue-path/)|Medium|
@@ -2241,6 +2241,7 @@ My daily challenge on leetcode since 2021/09/06.
 
 |Time|#|</>|Question Title|Difficulty|
 |:--|--:|:-:|:--|:--|
+|2022-02-17 23:02|684|[📎](src/q_651_700/q0684.cc)|[Redundant Connection](https://leetcode.com/problems/redundant-connection/)|Medium|
 |2022-02-17 22:43|1323|[📎](src/q_1301_1350/q1323.cc)|[Maximum 69 Number](https://leetcode.com/problems/maximum-69-number/)|Easy|
 |2022-02-17 22:24|375|[📎](src/q_351_400/q0375.cc)|[Guess Number Higher or Lower II](https://leetcode.com/problems/guess-number-higher-or-lower-ii/)|Medium|
 |2022-02-17 21:55|1705|[📎](src/q_1701_1750/q1705.cc)|[Maximum Number of Eaten Apples](https://leetcode.com/problems/maximum-number-of-eaten-apples/)|Medium|
@@ -2265,13 +2266,12 @@ My daily challenge on leetcode since 2021/09/06.
 |2022-02-10 21:05|124|[📎](src/q_101_150/q0124.cc)|[Binary Tree Maximum Path Sum](https://leetcode.com/problems/binary-tree-maximum-path-sum/)|Hard|
 |2022-02-10 19:37|1786|[📎](src/q_1751_1800/q1786.cc)|[Number of Restricted Paths From First to Last Node](https://leetcode.com/problems/number-of-restricted-paths-from-first-to-last-node/)|Medium|
 |2022-02-10 19:04|767|[📎](src/q_751_800/q0767.cc)|[Reorganize String](https://leetcode.com/problems/reorganize-string/)|Medium|
-|2022-02-10 18:03|1419|[📎](src/q_1401_1450/q1419.cc)|[Minimum Number of Frogs Croaking](https://leetcode.com/problems/minimum-number-of-frogs-croaking/)|Medium|
 
 ## Previous Logs
 
 |Month|Submissions|Easy|Medium|Hard|
 |:--|:--|:--|:--|:--|
-|[February_2022](./assets/February_2022.md)|39|9|26|4|
+|[February_2022](./assets/February_2022.md)|40|9|27|4|
 |[January_2022](./assets/January_2022.md)|32|8|18|6|
 |[December_2021](./assets/December_2021.md)|33|11|15|7|
 |[November_2021](./assets/November_2021.md)|41|19|16|6|
