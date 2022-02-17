@@ -1226,7 +1226,7 @@ My daily challenge on leetcode since 2021/09/06.
 |🔒|1188|[Design Bounded Blocking Queue](https://leetcode.com/problems/design-bounded-blocking-queue/)|Medium|
 |[📎](src/q_1151_1200/q1189.cc)|1189|[Maximum Number of Balloons](https://leetcode.com/problems/maximum-number-of-balloons/)|Easy|
 ||1190|[Reverse Substrings Between Each Pair of Parentheses](https://leetcode.com/problems/reverse-substrings-between-each-pair-of-parentheses/)|Medium|
-||1191|[K-Concatenation Maximum Sum](https://leetcode.com/problems/k-concatenation-maximum-sum/)|Medium|
+|[📎](src/q_1151_1200/q1191.cc)|1191|[K-Concatenation Maximum Sum](https://leetcode.com/problems/k-concatenation-maximum-sum/)|Medium|
 ||1192|[Critical Connections in a Network](https://leetcode.com/problems/critical-connections-in-a-network/)|Hard|
 |🔒|1193|[Monthly Transactions I](https://leetcode.com/problems/monthly-transactions-i/)|Medium|
 |🔒|1194|[Tournament Winners](https://leetcode.com/problems/tournament-winners/)|Hard|
@@ -2241,6 +2241,7 @@ My daily challenge on leetcode since 2021/09/06.
 
 |Time|#|</>|Question Title|Difficulty|
 |:--|--:|:-:|:--|:--|
+|2022-02-17 18:49|1191|[📎](src/q_1151_1200/q1191.cc)|[K-Concatenation Maximum Sum](https://leetcode.com/problems/k-concatenation-maximum-sum/)|Medium|
 |2022-02-17 18:37|1031|[📎](src/q_1001_1050/q1031.cc)|[Maximum Sum of Two Non-Overlapping Subarrays](https://leetcode.com/problems/maximum-sum-of-two-non-overlapping-subarrays/)|Medium|
 |2022-02-16 18:35|1509|[📎](src/q_1501_1550/q1509.cc)|[Minimum Difference Between Largest and Smallest Value in Three Moves](https://leetcode.com/problems/minimum-difference-between-largest-and-smallest-value-in-three-moves/)|Medium|
 |2022-02-16 18:17|2134|[📎](src/q_2101_2150/q2134.cc)|[Minimum Swaps to Group All 1's Together II](https://leetcode.com/problems/minimum-swaps-to-group-all-1s-together-ii/)|Medium|
@@ -2265,13 +2266,12 @@ My daily challenge on leetcode since 2021/09/06.
 |2022-02-10 16:36|2090|[📎](src/q_2051_2100/q2090.cc)|[K Radius Subarray Averages](https://leetcode.com/problems/k-radius-subarray-averages/)|Medium|
 |2022-02-10 16:31|1929|[📎](src/q_1901_1950/q1929.cc)|[Concatenation of Array](https://leetcode.com/problems/concatenation-of-array/)|Easy|
 |2022-02-10 16:23|1828|[📎](src/q_1801_1850/q1828.cc)|[Queries on Number of Points Inside a Circle](https://leetcode.com/problems/queries-on-number-of-points-inside-a-circle/)|Medium|
-|2022-02-10 15:42|1155|[📎](src/q_1151_1200/q1155.cc)|[Number of Dice Rolls With Target Sum](https://leetcode.com/problems/number-of-dice-rolls-with-target-sum/)|Medium|
 
 ## Previous Logs
 
 |Month|Submissions|Easy|Medium|Hard|
 |:--|:--|:--|:--|:--|
-|[February_2022](./assets/February_2022.md)|35|8|23|4|
+|[February_2022](./assets/February_2022.md)|36|8|24|4|
 |[January_2022](./assets/January_2022.md)|32|8|18|6|
 |[December_2021](./assets/December_2021.md)|33|11|15|7|
 |[November_2021](./assets/November_2021.md)|41|19|16|6|
