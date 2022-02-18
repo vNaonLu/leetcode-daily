@@ -1143,7 +1143,7 @@ id,title,level,slug,paid,done
 1142,User Activity for the Past 30 Days II,1,user-activity-for-the-past-30-days-ii,1,0
 1143,Longest Common Subsequence,2,longest-common-subsequence,0,1
 1144,Decrease Elements To Make Array Zigzag,2,decrease-elements-to-make-array-zigzag,0,0
-1145,Binary Tree Coloring Game,2,binary-tree-coloring-game,0,0
+1145,Binary Tree Coloring Game,2,binary-tree-coloring-game,0,1
 1146,Snapshot Array,2,snapshot-array,0,0
 1147,Longest Chunked Palindrome Decomposition,3,longest-chunked-palindrome-decomposition,0,0
 1148,Article Views I,1,article-views-i,1,0
