@@ -419,7 +419,7 @@ My daily challenge on leetcode since 2021/09/06.
 ||399|[Evaluate Division](https://leetcode.com/problems/evaluate-division/)|Medium|
 ||400|[Nth Digit](https://leetcode.com/problems/nth-digit/)|Medium|
 ||401|[Binary Watch](https://leetcode.com/problems/binary-watch/)|Easy|
-||402|[Remove K Digits](https://leetcode.com/problems/remove-k-digits/)|Medium|
+|[📎](src/q_401_450/q0402.cc)|402|[Remove K Digits](https://leetcode.com/problems/remove-k-digits/)|Medium|
 ||403|[Frog Jump](https://leetcode.com/problems/frog-jump/)|Hard|
 |[📎](src/q_401_450/q0404.cc)|404|[Sum of Left Leaves](https://leetcode.com/problems/sum-of-left-leaves/)|Easy|
 ||405|[Convert a Number to Hexadecimal](https://leetcode.com/problems/convert-a-number-to-hexadecimal/)|Easy|
@@ -2241,6 +2241,7 @@ My daily challenge on leetcode since 2021/09/06.
 
 |Time|#|</>|Question Title|Difficulty|
 |:--|--:|:-:|:--|:--|
+|2022-02-18 18:25|402|[📎](src/q_401_450/q0402.cc)|[Remove K Digits](https://leetcode.com/problems/remove-k-digits/)|Medium|
 |2022-02-17 23:02|684|[📎](src/q_651_700/q0684.cc)|[Redundant Connection](https://leetcode.com/problems/redundant-connection/)|Medium|
 |2022-02-17 22:43|1323|[📎](src/q_1301_1350/q1323.cc)|[Maximum 69 Number](https://leetcode.com/problems/maximum-69-number/)|Easy|
 |2022-02-17 22:24|375|[📎](src/q_351_400/q0375.cc)|[Guess Number Higher or Lower II](https://leetcode.com/problems/guess-number-higher-or-lower-ii/)|Medium|
@@ -2265,13 +2266,12 @@ My daily challenge on leetcode since 2021/09/06.
 |2022-02-11 18:34|504|[📎](src/q_501_550/q0504.cc)|[Base 7](https://leetcode.com/problems/base-7/)|Easy|
 |2022-02-10 21:05|124|[📎](src/q_101_150/q0124.cc)|[Binary Tree Maximum Path Sum](https://leetcode.com/problems/binary-tree-maximum-path-sum/)|Hard|
 |2022-02-10 19:37|1786|[📎](src/q_1751_1800/q1786.cc)|[Number of Restricted Paths From First to Last Node](https://leetcode.com/problems/number-of-restricted-paths-from-first-to-last-node/)|Medium|
-|2022-02-10 19:04|767|[📎](src/q_751_800/q0767.cc)|[Reorganize String](https://leetcode.com/problems/reorganize-string/)|Medium|
 
 ## Previous Logs
 
 |Month|Submissions|Easy|Medium|Hard|
 |:--|:--|:--|:--|:--|
-|[February_2022](./assets/February_2022.md)|40|9|27|4|
+|[February_2022](./assets/February_2022.md)|41|9|28|4|
 |[January_2022](./assets/January_2022.md)|32|8|18|6|
 |[December_2021](./assets/December_2021.md)|33|11|15|7|
 |[November_2021](./assets/November_2021.md)|41|19|16|6|
