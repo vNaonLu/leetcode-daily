@@ -1088,7 +1088,7 @@ My daily challenge on leetcode since 2021/09/06.
 |🔒|1050|[Actors and Directors Who Cooperated At Least Three Times](https://leetcode.com/problems/actors-and-directors-who-cooperated-at-least-three-times/)|Easy|
 ||1051|[Height Checker](https://leetcode.com/problems/height-checker/)|Easy|
 ||1052|[Grumpy Bookstore Owner](https://leetcode.com/problems/grumpy-bookstore-owner/)|Medium|
-||1053|[Previous Permutation With One Swap](https://leetcode.com/problems/previous-permutation-with-one-swap/)|Medium|
+|[📎](src/q_1051_1100/q1053.cc)|1053|[Previous Permutation With One Swap](https://leetcode.com/problems/previous-permutation-with-one-swap/)|Medium|
 ||1054|[Distant Barcodes](https://leetcode.com/problems/distant-barcodes/)|Medium|
 |🔒|1055|[Shortest Way to Form String](https://leetcode.com/problems/shortest-way-to-form-string/)|Medium|
 |🔒|1056|[Confusing Number](https://leetcode.com/problems/confusing-number/)|Easy|
@@ -2242,6 +2242,7 @@ My daily challenge on leetcode since 2021/09/06.
 
 |Time|#|</>|Question Title|Difficulty|
 |:--|--:|:-:|:--|:--|
+|2022-02-19 14:52|1053|[📎](src/q_1051_1100/q1053.cc)|[Previous Permutation With One Swap](https://leetcode.com/problems/previous-permutation-with-one-swap/)|Medium|
 |2022-02-19 14:39|1675|[📎](src/q_1651_1700/q1675.cc)|[Minimize Deviation in Array](https://leetcode.com/problems/minimize-deviation-in-array/)|Hard|
 |2022-02-18 23:49|65|[📎](src/q_51_100/q0065.cc)|[Valid Number](https://leetcode.com/problems/valid-number/)|Hard|
 |2022-02-18 19:51|1408|[📎](src/q_1401_1450/q1408.cc)|[String Matching in an Array](https://leetcode.com/problems/string-matching-in-an-array/)|Easy|
@@ -2266,13 +2267,12 @@ My daily challenge on leetcode since 2021/09/06.
 |2022-02-12 16:27|127|[📎](src/q_101_150/q0127.cc)|[Word Ladder](https://leetcode.com/problems/word-ladder/)|Hard|
 |2022-02-12 00:03|1529|[📎](src/q_1501_1550/q1529.cc)|[Minimum Suffix Flips](https://leetcode.com/problems/minimum-suffix-flips/)|Medium|
 |2022-02-11 23:41|397|[📎](src/q_351_400/q0397.cc)|[Integer Replacement](https://leetcode.com/problems/integer-replacement/)|Medium|
-|2022-02-11 21:58|752|[📎](src/q_751_800/q0752.cc)|[Open the Lock](https://leetcode.com/problems/open-the-lock/)|Medium|
 
 ## Previous Logs
 
 |Month|Submissions|Easy|Medium|Hard|
 |:--|:--|:--|:--|:--|
-|[February_2022](./assets/February_2022.md)|45|10|29|6|
+|[February_2022](./assets/February_2022.md)|46|10|30|6|
 |[January_2022](./assets/January_2022.md)|32|8|18|6|
 |[December_2021](./assets/December_2021.md)|33|11|15|7|
 |[November_2021](./assets/November_2021.md)|41|19|16|6|

@@ -1051,7 +1051,7 @@ id,title,level,slug,paid,done
 1050,Actors and Directors Who Cooperated At Least Three Times,1,actors-and-directors-who-cooperated-at-least-three-times,1,0
 1051,Height Checker,1,height-checker,0,0
 1052,Grumpy Bookstore Owner,2,grumpy-bookstore-owner,0,0
-1053,Previous Permutation With One Swap,2,previous-permutation-with-one-swap,0,0
+1053,Previous Permutation With One Swap,2,previous-permutation-with-one-swap,0,1
 1054,Distant Barcodes,2,distant-barcodes,0,0
 1055,Shortest Way to Form String,2,shortest-way-to-form-string,1,0
 1056,Confusing Number,1,confusing-number,1,0
