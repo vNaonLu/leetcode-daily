@@ -68,7 +68,7 @@ class SolutionFunction(SolutionAbstract):
     def __parse_codesnippets(self, code_snippet: list[str]):
         for line in code_snippet:
             match = \
-                re.search("(?P<return_type>\w+|\w+<[\w\W]+>|\w+? *\*) *(?P<function_name>\w+)\((?P<args>.*)\) {",
+                re.search("(?P<return_type>\w+|\w+<[\w\W]+>|\w+? *\*) *(?P<function_name>\w+) *\((?P<args>.*)\) *{",
                           line)
             if match:
                 self._name = match.group("function_name")
@@ -158,6 +158,7 @@ class SolutionFunction(SolutionAbstract):
     def unittest_desc(self, content: str):
         res: list[list[str]] = []
         cases = re.findall("(?P<case>Input[\w\W]+?)([^\n]+Example|$)", content)
+        print(self._type)
 
         if self._type.is_valid():
             for case, _ in cases:
