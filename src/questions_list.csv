@@ -1673,7 +1673,7 @@ id,title,level,slug,paid,done
 1672,Richest Customer Wealth,1,richest-customer-wealth,0,1
 1673,Find the Most Competitive Subsequence,2,find-the-most-competitive-subsequence,0,0
 1674,Minimum Moves to Make Array Complementary,2,minimum-moves-to-make-array-complementary,0,0
-1675,Minimize Deviation in Array,3,minimize-deviation-in-array,0,0
+1675,Minimize Deviation in Array,3,minimize-deviation-in-array,0,1
 1676,Lowest Common Ancestor of a Binary Tree IV,2,lowest-common-ancestor-of-a-binary-tree-iv,1,0
 1677,Product's Worth Over Invoices,1,products-worth-over-invoices,1,0
 1678,Goal Parser Interpretation,1,goal-parser-interpretation,0,0
@@ -2173,3 +2173,4 @@ id,title,level,slug,paid,done
 2172,Maximum AND Sum of Array,3,maximum-and-sum-of-array,0,0
 2173,Longest Winning Streak,3,longest-winning-streak,1,0
 2174,Remove All Ones With Row and Column Flips II,2,remove-all-ones-with-row-and-column-flips-ii,1,0
+2175,The Change in Global Rankings,2,the-change-in-global-rankings,1,0

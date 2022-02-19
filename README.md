@@ -1722,7 +1722,7 @@ My daily challenge on leetcode since 2021/09/06.
 |[📎](src/q_1651_1700/q1672.cc)|1672|[Richest Customer Wealth](https://leetcode.com/problems/richest-customer-wealth/)|Easy|
 ||1673|[Find the Most Competitive Subsequence](https://leetcode.com/problems/find-the-most-competitive-subsequence/)|Medium|
 ||1674|[Minimum Moves to Make Array Complementary](https://leetcode.com/problems/minimum-moves-to-make-array-complementary/)|Medium|
-||1675|[Minimize Deviation in Array](https://leetcode.com/problems/minimize-deviation-in-array/)|Hard|
+|[📎](src/q_1651_1700/q1675.cc)|1675|[Minimize Deviation in Array](https://leetcode.com/problems/minimize-deviation-in-array/)|Hard|
 |🔒|1676|[Lowest Common Ancestor of a Binary Tree IV](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree-iv/)|Medium|
 |🔒|1677|[Product's Worth Over Invoices](https://leetcode.com/problems/products-worth-over-invoices/)|Easy|
 ||1678|[Goal Parser Interpretation](https://leetcode.com/problems/goal-parser-interpretation/)|Easy|
@@ -2056,7 +2056,7 @@ My daily challenge on leetcode since 2021/09/06.
 ||2000|[Reverse Prefix of Word](https://leetcode.com/problems/reverse-prefix-of-word/)|Easy|
 </details>
 <details>
-  <summary>### 2001 ~ 2174</summary>
+  <summary>### 2001 ~ 2175</summary>
 
 |</>|#|Solution Title|Difficulty|
 |:-:|--:|:--|:--|
@@ -2234,6 +2234,7 @@ My daily challenge on leetcode since 2021/09/06.
 ||2172|[Maximum AND Sum of Array](https://leetcode.com/problems/maximum-and-sum-of-array/)|Hard|
 |🔒|2173|[Longest Winning Streak](https://leetcode.com/problems/longest-winning-streak/)|Hard|
 |🔒|2174|[Remove All Ones With Row and Column Flips II](https://leetcode.com/problems/remove-all-ones-with-row-and-column-flips-ii/)|Medium|
+|🔒|2175|[The Change in Global Rankings](https://leetcode.com/problems/the-change-in-global-rankings/)|Medium|
 </details>
 
 ---
@@ -2241,6 +2242,7 @@ My daily challenge on leetcode since 2021/09/06.
 
 |Time|#|</>|Question Title|Difficulty|
 |:--|--:|:-:|:--|:--|
+|2022-02-19 14:39|1675|[📎](src/q_1651_1700/q1675.cc)|[Minimize Deviation in Array](https://leetcode.com/problems/minimize-deviation-in-array/)|Hard|
 |2022-02-18 23:49|65|[📎](src/q_51_100/q0065.cc)|[Valid Number](https://leetcode.com/problems/valid-number/)|Hard|
 |2022-02-18 19:51|1408|[📎](src/q_1401_1450/q1408.cc)|[String Matching in an Array](https://leetcode.com/problems/string-matching-in-an-array/)|Easy|
 |2022-02-18 18:39|1145|[📎](src/q_1101_1150/q1145.cc)|[Binary Tree Coloring Game](https://leetcode.com/problems/binary-tree-coloring-game/)|Medium|
@@ -2265,13 +2267,12 @@ My daily challenge on leetcode since 2021/09/06.
 |2022-02-12 00:03|1529|[📎](src/q_1501_1550/q1529.cc)|[Minimum Suffix Flips](https://leetcode.com/problems/minimum-suffix-flips/)|Medium|
 |2022-02-11 23:41|397|[📎](src/q_351_400/q0397.cc)|[Integer Replacement](https://leetcode.com/problems/integer-replacement/)|Medium|
 |2022-02-11 21:58|752|[📎](src/q_751_800/q0752.cc)|[Open the Lock](https://leetcode.com/problems/open-the-lock/)|Medium|
-|2022-02-11 18:48|393|[📎](src/q_351_400/q0393.cc)|[UTF-8 Validation](https://leetcode.com/problems/utf-8-validation/)|Medium|
 
 ## Previous Logs
 
 |Month|Submissions|Easy|Medium|Hard|
 |:--|:--|:--|:--|:--|
-|[February_2022](./assets/February_2022.md)|44|10|29|5|
+|[February_2022](./assets/February_2022.md)|45|10|29|6|
 |[January_2022](./assets/January_2022.md)|32|8|18|6|
 |[December_2021](./assets/December_2021.md)|33|11|15|7|
 |[November_2021](./assets/November_2021.md)|41|19|16|6|
