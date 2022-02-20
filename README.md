@@ -562,7 +562,7 @@ My daily challenge on leetcode since 2021/09/06.
 |🔒|536|[Construct Binary Tree from String](https://leetcode.com/problems/construct-binary-tree-from-string/)|Medium|
 ||537|[Complex Number Multiplication](https://leetcode.com/problems/complex-number-multiplication/)|Medium|
 ||538|[Convert BST to Greater Tree](https://leetcode.com/problems/convert-bst-to-greater-tree/)|Medium|
-||539|[Minimum Time Difference](https://leetcode.com/problems/minimum-time-difference/)|Medium|
+|[📎](src/q_501_550/q0539.cc)|539|[Minimum Time Difference](https://leetcode.com/problems/minimum-time-difference/)|Medium|
 |[📎](src/q_501_550/q0540.cc)|540|[Single Element in a Sorted Array](https://leetcode.com/problems/single-element-in-a-sorted-array/)|Medium|
 ||541|[Reverse String II](https://leetcode.com/problems/reverse-string-ii/)|Easy|
 |[📎](src/q_501_550/q0542.cc)|542|[01 Matrix](https://leetcode.com/problems/01-matrix/)|Medium|
@@ -2246,6 +2246,7 @@ My daily challenge on leetcode since 2021/09/06.
 
 |Time|#|</>|Question Title|Difficulty|
 |:--|--:|:-:|:--|:--|
+|2022-02-20 14:33|539|[📎](src/q_501_550/q0539.cc)|[Minimum Time Difference](https://leetcode.com/problems/minimum-time-difference/)|Medium|
 |2022-02-20 14:19|1288|[📎](src/q_1251_1300/q1288.cc)|[Remove Covered Intervals](https://leetcode.com/problems/remove-covered-intervals/)|Medium|
 |2022-02-19 14:52|1053|[📎](src/q_1051_1100/q1053.cc)|[Previous Permutation With One Swap](https://leetcode.com/problems/previous-permutation-with-one-swap/)|Medium|
 |2022-02-19 14:39|1675|[📎](src/q_1651_1700/q1675.cc)|[Minimize Deviation in Array](https://leetcode.com/problems/minimize-deviation-in-array/)|Hard|
@@ -2270,13 +2271,12 @@ My daily challenge on leetcode since 2021/09/06.
 |2022-02-12 17:00|1582|[📎](src/q_1551_1600/q1582.cc)|[Special Positions in a Binary Matrix](https://leetcode.com/problems/special-positions-in-a-binary-matrix/)|Easy|
 |2022-02-12 16:48|1390|[📎](src/q_1351_1400/q1390.cc)|[Four Divisors](https://leetcode.com/problems/four-divisors/)|Medium|
 |2022-02-12 16:27|127|[📎](src/q_101_150/q0127.cc)|[Word Ladder](https://leetcode.com/problems/word-ladder/)|Hard|
-|2022-02-12 00:03|1529|[📎](src/q_1501_1550/q1529.cc)|[Minimum Suffix Flips](https://leetcode.com/problems/minimum-suffix-flips/)|Medium|
 
 ## Previous Logs
 
 |Month|Submissions|Easy|Medium|Hard|
 |:--|:--|:--|:--|:--|
-|[February_2022](./assets/February_2022.md)|47|10|31|6|
+|[February_2022](./assets/February_2022.md)|48|10|32|6|
 |[January_2022](./assets/January_2022.md)|32|8|18|6|
 |[December_2021](./assets/December_2021.md)|33|11|15|7|
 |[November_2021](./assets/November_2021.md)|41|19|16|6|
