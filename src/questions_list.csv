@@ -1286,7 +1286,7 @@ id,title,level,slug,paid,done
 1285,Find the Start and End Number of Continuous Ranges,2,find-the-start-and-end-number-of-continuous-ranges,1,0
 1286,Iterator for Combination,2,iterator-for-combination,0,1
 1287,Element Appearing More Than 25% In Sorted Array,1,element-appearing-more-than-25-in-sorted-array,0,0
-1288,Remove Covered Intervals,2,remove-covered-intervals,0,0
+1288,Remove Covered Intervals,2,remove-covered-intervals,0,1
 1289,Minimum Falling Path Sum II,3,minimum-falling-path-sum-ii,0,0
 1290,Convert Binary Number in a Linked List to Integer,1,convert-binary-number-in-a-linked-list-to-integer,0,1
 1291,Sequential Digits,2,sequential-digits,0,1
@@ -2174,3 +2174,7 @@ id,title,level,slug,paid,done
 2173,Longest Winning Streak,3,longest-winning-streak,1,0
 2174,Remove All Ones With Row and Column Flips II,2,remove-all-ones-with-row-and-column-flips-ii,1,0
 2175,The Change in Global Rankings,2,the-change-in-global-rankings,1,0
+2176,Count Equal and Divisible Pairs in an Array,1,count-equal-and-divisible-pairs-in-an-array,0,0
+2177,Find Three Consecutive Integers That Sum to a Given Number,2,find-three-consecutive-integers-that-sum-to-a-given-number,0,0
+2178,Maximum Split of Positive Even Integers,2,maximum-split-of-positive-even-integers,0,0
+2179,Count Good Triplets in an Array,3,count-good-triplets-in-an-array,0,0
