@@ -350,7 +350,7 @@ id,title,level,slug,paid,done
 349,Intersection of Two Arrays,1,intersection-of-two-arrays,0,0
 350,Intersection of Two Arrays II,1,intersection-of-two-arrays-ii,0,1
 351,Android Unlock Patterns,2,android-unlock-patterns,1,0
-352,Data Stream as Disjoint Intervals,3,data-stream-as-disjoint-intervals,0,0
+352,Data Stream as Disjoint Intervals,3,data-stream-as-disjoint-intervals,0,1
 353,Design Snake Game,2,design-snake-game,1,0
 354,Russian Doll Envelopes,3,russian-doll-envelopes,0,0
 355,Design Twitter,2,design-twitter,0,0
