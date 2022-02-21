@@ -936,7 +936,7 @@ My daily challenge on leetcode since 2021/09/06.
 ||904|[Fruit Into Baskets](https://leetcode.com/problems/fruit-into-baskets/)|Medium|
 ||905|[Sort Array By Parity](https://leetcode.com/problems/sort-array-by-parity/)|Easy|
 ||906|[Super Palindromes](https://leetcode.com/problems/super-palindromes/)|Hard|
-||907|[Sum of Subarray Minimums](https://leetcode.com/problems/sum-of-subarray-minimums/)|Medium|
+|[📎](src/q_901_950/q0907.cc)|907|[Sum of Subarray Minimums](https://leetcode.com/problems/sum-of-subarray-minimums/)|Medium|
 ||908|[Smallest Range I](https://leetcode.com/problems/smallest-range-i/)|Easy|
 ||909|[Snakes and Ladders](https://leetcode.com/problems/snakes-and-ladders/)|Medium|
 ||910|[Smallest Range II](https://leetcode.com/problems/smallest-range-ii/)|Medium|
@@ -2250,6 +2250,7 @@ My daily challenge on leetcode since 2021/09/06.
 
 |Time|#|</>|Question Title|Difficulty|
 |:--|--:|:-:|:--|:--|
+|2022-02-21 22:50|907|[📎](src/q_901_950/q0907.cc)|[Sum of Subarray Minimums](https://leetcode.com/problems/sum-of-subarray-minimums/)|Medium|
 |2022-02-21 22:34|862|[📎](src/q_851_900/q0862.cc)|[Shortest Subarray with Sum at Least K](https://leetcode.com/problems/shortest-subarray-with-sum-at-least-k/)|Hard|
 |2022-02-21 18:42|1963|[📎](src/q_1951_2000/q1963.cc)|[Minimum Number of Swaps to Make the String Balanced](https://leetcode.com/problems/minimum-number-of-swaps-to-make-the-string-balanced/)|Medium|
 |2022-02-20 14:33|539|[📎](src/q_501_550/q0539.cc)|[Minimum Time Difference](https://leetcode.com/problems/minimum-time-difference/)|Medium|
@@ -2274,13 +2275,12 @@ My daily challenge on leetcode since 2021/09/06.
 |2022-02-15 18:15|1122|[📎](src/q_1101_1150/q1122.cc)|[Relative Sort Array](https://leetcode.com/problems/relative-sort-array/)|Easy|
 |2022-02-14 18:15|1879|[📎](src/q_1851_1900/q1879.cc)|[Minimum XOR Sum of Two Arrays](https://leetcode.com/problems/minimum-xor-sum-of-two-arrays/)|Hard|
 |2022-02-13 21:46|492|[📎](src/q_451_500/q0492.cc)|[Construct the Rectangle](https://leetcode.com/problems/construct-the-rectangle/)|Easy|
-|2022-02-12 17:00|1582|[📎](src/q_1551_1600/q1582.cc)|[Special Positions in a Binary Matrix](https://leetcode.com/problems/special-positions-in-a-binary-matrix/)|Easy|
 
 ## Previous Logs
 
 |Month|Submissions|Easy|Medium|Hard|
 |:--|:--|:--|:--|:--|
-|[February_2022](./assets/February_2022.md)|50|10|33|7|
+|[February_2022](./assets/February_2022.md)|51|10|34|7|
 |[January_2022](./assets/January_2022.md)|32|8|18|6|
 |[December_2021](./assets/December_2021.md)|33|11|15|7|
 |[November_2021](./assets/November_2021.md)|41|19|16|6|
