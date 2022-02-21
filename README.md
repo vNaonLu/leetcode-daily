@@ -1064,7 +1064,7 @@ My daily challenge on leetcode since 2021/09/06.
 |[📎](src/q_1001_1050/q1026.cc)|1026|[Maximum Difference Between Node and Ancestor](https://leetcode.com/problems/maximum-difference-between-node-and-ancestor/)|Medium|
 ||1027|[Longest Arithmetic Subsequence](https://leetcode.com/problems/longest-arithmetic-subsequence/)|Medium|
 ||1028|[Recover a Tree From Preorder Traversal](https://leetcode.com/problems/recover-a-tree-from-preorder-traversal/)|Hard|
-||1029|[Two City Scheduling](https://leetcode.com/problems/two-city-scheduling/)|Medium|
+|[📎](src/q_1001_1050/q1029.cc)|1029|[Two City Scheduling](https://leetcode.com/problems/two-city-scheduling/)|Medium|
 ||1030|[Matrix Cells in Distance Order](https://leetcode.com/problems/matrix-cells-in-distance-order/)|Easy|
 |[📎](src/q_1001_1050/q1031.cc)|1031|[Maximum Sum of Two Non-Overlapping Subarrays](https://leetcode.com/problems/maximum-sum-of-two-non-overlapping-subarrays/)|Medium|
 |[📎](src/q_1001_1050/q1032.cc)|1032|[Stream of Characters](https://leetcode.com/problems/stream-of-characters/)|Hard|
@@ -2250,6 +2250,7 @@ My daily challenge on leetcode since 2021/09/06.
 
 |Time|#|</>|Question Title|Difficulty|
 |:--|--:|:-:|:--|:--|
+|2022-02-21 23:52|1029|[📎](src/q_1001_1050/q1029.cc)|[Two City Scheduling](https://leetcode.com/problems/two-city-scheduling/)|Medium|
 |2022-02-21 23:48|771|[📎](src/q_751_800/q0771.cc)|[Jewels and Stones](https://leetcode.com/problems/jewels-and-stones/)|Easy|
 |2022-02-21 23:08|352|[📎](src/q_351_400/q0352.cc)|[Data Stream as Disjoint Intervals](https://leetcode.com/problems/data-stream-as-disjoint-intervals/)|Hard|
 |2022-02-21 22:50|907|[📎](src/q_901_950/q0907.cc)|[Sum of Subarray Minimums](https://leetcode.com/problems/sum-of-subarray-minimums/)|Medium|
@@ -2274,13 +2275,12 @@ My daily challenge on leetcode since 2021/09/06.
 |2022-02-16 18:10|1017|[📎](src/q_1001_1050/q1017.cc)|[Convert to Base -2](https://leetcode.com/problems/convert-to-base-2/)|Medium|
 |2022-02-15 18:46|1039|[📎](src/q_1001_1050/q1039.cc)|[Minimum Score Triangulation of Polygon](https://leetcode.com/problems/minimum-score-triangulation-of-polygon/)|Medium|
 |2022-02-15 18:25|315|[📎](src/q_301_350/q0315.cc)|[Count of Smaller Numbers After Self](https://leetcode.com/problems/count-of-smaller-numbers-after-self/)|Hard|
-|2022-02-15 18:15|1122|[📎](src/q_1101_1150/q1122.cc)|[Relative Sort Array](https://leetcode.com/problems/relative-sort-array/)|Easy|
 
 ## Previous Logs
 
 |Month|Submissions|Easy|Medium|Hard|
 |:--|:--|:--|:--|:--|
-|[February_2022](./assets/February_2022.md)|53|11|34|8|
+|[February_2022](./assets/February_2022.md)|54|11|35|8|
 |[January_2022](./assets/January_2022.md)|32|8|18|6|
 |[December_2021](./assets/December_2021.md)|33|11|15|7|
 |[November_2021](./assets/November_2021.md)|41|19|16|6|

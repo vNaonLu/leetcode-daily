@@ -1027,7 +1027,7 @@ id,title,level,slug,paid,done
 1026,Maximum Difference Between Node and Ancestor,2,maximum-difference-between-node-and-ancestor,0,1
 1027,Longest Arithmetic Subsequence,2,longest-arithmetic-subsequence,0,0
 1028,Recover a Tree From Preorder Traversal,3,recover-a-tree-from-preorder-traversal,0,0
-1029,Two City Scheduling,2,two-city-scheduling,0,0
+1029,Two City Scheduling,2,two-city-scheduling,0,1
 1030,Matrix Cells in Distance Order,1,matrix-cells-in-distance-order,0,0
 1031,Maximum Sum of Two Non-Overlapping Subarrays,2,maximum-sum-of-two-non-overlapping-subarrays,0,1
 1032,Stream of Characters,3,stream-of-characters,0,1
