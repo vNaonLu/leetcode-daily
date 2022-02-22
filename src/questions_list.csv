@@ -1672,7 +1672,7 @@ id,title,level,slug,paid,done
 1671,Minimum Number of Removals to Make Mountain Array,3,minimum-number-of-removals-to-make-mountain-array,0,0
 1672,Richest Customer Wealth,1,richest-customer-wealth,0,1
 1673,Find the Most Competitive Subsequence,2,find-the-most-competitive-subsequence,0,0
-1674,Minimum Moves to Make Array Complementary,2,minimum-moves-to-make-array-complementary,0,0
+1674,Minimum Moves to Make Array Complementary,2,minimum-moves-to-make-array-complementary,0,1
 1675,Minimize Deviation in Array,3,minimize-deviation-in-array,0,1
 1676,Lowest Common Ancestor of a Binary Tree IV,2,lowest-common-ancestor-of-a-binary-tree-iv,1,0
 1677,Product's Worth Over Invoices,1,products-worth-over-invoices,1,0
