@@ -169,7 +169,7 @@ id,title,level,slug,paid,done
 168,Excel Sheet Column Title,1,excel-sheet-column-title,0,0
 169,Majority Element,1,majority-element,0,1
 170,Two Sum III - Data structure design,1,two-sum-iii-data-structure-design,1,0
-171,Excel Sheet Column Number,1,excel-sheet-column-number,0,0
+171,Excel Sheet Column Number,1,excel-sheet-column-number,0,1
 172,Factorial Trailing Zeroes,2,factorial-trailing-zeroes,0,0
 173,Binary Search Tree Iterator,2,binary-search-tree-iterator,0,1
 174,Dungeon Game,3,dungeon-game,0,1
