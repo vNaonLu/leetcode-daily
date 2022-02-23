@@ -131,7 +131,7 @@ id,title,level,slug,paid,done
 130,Surrounded Regions,2,surrounded-regions,0,1
 131,Palindrome Partitioning,2,palindrome-partitioning,0,1
 132,Palindrome Partitioning II,3,palindrome-partitioning-ii,0,0
-133,Clone Graph,2,clone-graph,0,0
+133,Clone Graph,2,clone-graph,0,1
 134,Gas Station,2,gas-station,0,1
 135,Candy,3,candy,0,0
 136,Single Number,1,single-number,0,1
