@@ -1901,7 +1901,7 @@ id,title,level,slug,paid,done
 1900,The Earliest and Latest Rounds Where Players Compete,3,the-earliest-and-latest-rounds-where-players-compete,0,0
 1901,Find a Peak Element II,2,find-a-peak-element-ii,0,0
 1902,Depth of BST Given Insertion Order,2,depth-of-bst-given-insertion-order,1,0
-1903,Largest Odd Number in String,1,largest-odd-number-in-string,0,0
+1903,Largest Odd Number in String,1,largest-odd-number-in-string,0,1
 1904,The Number of Full Rounds You Have Played,2,the-number-of-full-rounds-you-have-played,0,0
 1905,Count Sub Islands,2,count-sub-islands,0,0
 1906,Minimum Absolute Difference Queries,2,minimum-absolute-difference-queries,0,0
