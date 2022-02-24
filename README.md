@@ -1159,7 +1159,7 @@ My daily challenge on leetcode since 2021/09/06.
 |🔒|1121|[Divide Array Into Increasing Sequences](https://leetcode.com/problems/divide-array-into-increasing-sequences/)|Hard|
 |[📎](src/q_1101_1150/q1122.cc)|1122|[Relative Sort Array](https://leetcode.com/problems/relative-sort-array/)|Easy|
 ||1123|[Lowest Common Ancestor of Deepest Leaves](https://leetcode.com/problems/lowest-common-ancestor-of-deepest-leaves/)|Medium|
-||1124|[Longest Well-Performing Interval](https://leetcode.com/problems/longest-well-performing-interval/)|Medium|
+|[📎](src/q_1101_1150/q1124.cc)|1124|[Longest Well-Performing Interval](https://leetcode.com/problems/longest-well-performing-interval/)|Medium|
 ||1125|[Smallest Sufficient Team](https://leetcode.com/problems/smallest-sufficient-team/)|Hard|
 |🔒|1126|[Active Businesses](https://leetcode.com/problems/active-businesses/)|Medium|
 |🔒|1127|[User Purchase Platform](https://leetcode.com/problems/user-purchase-platform/)|Hard|
@@ -2251,6 +2251,7 @@ My daily challenge on leetcode since 2021/09/06.
 
 |Time|#|</>|Question Title|Difficulty|
 |:--|--:|:-:|:--|:--|
+|2022-02-24 18:41|1124|[📎](src/q_1101_1150/q1124.cc)|[Longest Well-Performing Interval](https://leetcode.com/problems/longest-well-performing-interval/)|Medium|
 |2022-02-24 18:19|1838|[📎](src/q_1801_1850/q1838.cc)|[Frequency of the Most Frequent Element](https://leetcode.com/problems/frequency-of-the-most-frequent-element/)|Medium|
 |2022-02-23 19:25|1791|[📎](src/q_1751_1800/q1791.cc)|[Find Center of Star Graph](https://leetcode.com/problems/find-center-of-star-graph/)|Easy|
 |2022-02-23 19:13|1903|[📎](src/q_1901_1950/q1903.cc)|[Largest Odd Number in String](https://leetcode.com/problems/largest-odd-number-in-string/)|Easy|
@@ -2275,13 +2276,12 @@ My daily challenge on leetcode since 2021/09/06.
 |2022-02-17 22:43|1323|[📎](src/q_1301_1350/q1323.cc)|[Maximum 69 Number](https://leetcode.com/problems/maximum-69-number/)|Easy|
 |2022-02-17 22:24|375|[📎](src/q_351_400/q0375.cc)|[Guess Number Higher or Lower II](https://leetcode.com/problems/guess-number-higher-or-lower-ii/)|Medium|
 |2022-02-17 21:55|1705|[📎](src/q_1701_1750/q1705.cc)|[Maximum Number of Eaten Apples](https://leetcode.com/problems/maximum-number-of-eaten-apples/)|Medium|
-|2022-02-17 18:49|1191|[📎](src/q_1151_1200/q1191.cc)|[K-Concatenation Maximum Sum](https://leetcode.com/problems/k-concatenation-maximum-sum/)|Medium|
 
 ## Previous Logs
 
 |Month|Submissions|Easy|Medium|Hard|
 |:--|:--|:--|:--|:--|
-|[February_2022](./assets/February_2022.md)|60|14|38|8|
+|[February_2022](./assets/February_2022.md)|61|14|39|8|
 |[January_2022](./assets/January_2022.md)|32|8|18|6|
 |[December_2021](./assets/December_2021.md)|33|11|15|7|
 |[November_2021](./assets/November_2021.md)|41|19|16|6|

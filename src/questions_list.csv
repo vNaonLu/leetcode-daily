@@ -1122,7 +1122,7 @@ id,title,level,slug,paid,done
 1121,Divide Array Into Increasing Sequences,3,divide-array-into-increasing-sequences,1,0
 1122,Relative Sort Array,1,relative-sort-array,0,1
 1123,Lowest Common Ancestor of Deepest Leaves,2,lowest-common-ancestor-of-deepest-leaves,0,0
-1124,Longest Well-Performing Interval,2,longest-well-performing-interval,0,0
+1124,Longest Well-Performing Interval,2,longest-well-performing-interval,0,1
 1125,Smallest Sufficient Team,3,smallest-sufficient-team,0,0
 1126,Active Businesses,2,active-businesses,1,0
 1127,User Purchase Platform,3,user-purchase-platform,1,0
