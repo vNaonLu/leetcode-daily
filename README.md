@@ -1891,7 +1891,7 @@ My daily challenge on leetcode since 2021/09/06.
 ||1835|[Find XOR Sum of All Pairs Bitwise AND](https://leetcode.com/problems/find-xor-sum-of-all-pairs-bitwise-and/)|Hard|
 |🔒|1836|[Remove Duplicates From an Unsorted Linked List](https://leetcode.com/problems/remove-duplicates-from-an-unsorted-linked-list/)|Medium|
 ||1837|[Sum of Digits in Base K](https://leetcode.com/problems/sum-of-digits-in-base-k/)|Easy|
-||1838|[Frequency of the Most Frequent Element](https://leetcode.com/problems/frequency-of-the-most-frequent-element/)|Medium|
+|[📎](src/q_1801_1850/q1838.cc)|1838|[Frequency of the Most Frequent Element](https://leetcode.com/problems/frequency-of-the-most-frequent-element/)|Medium|
 ||1839|[Longest Substring Of All Vowels in Order](https://leetcode.com/problems/longest-substring-of-all-vowels-in-order/)|Medium|
 ||1840|[Maximum Building Height](https://leetcode.com/problems/maximum-building-height/)|Hard|
 |🔒|1841|[League Statistics](https://leetcode.com/problems/league-statistics/)|Medium|
@@ -2056,7 +2056,7 @@ My daily challenge on leetcode since 2021/09/06.
 ||2000|[Reverse Prefix of Word](https://leetcode.com/problems/reverse-prefix-of-word/)|Easy|
 </details>
 <details>
-  <summary>### 2001 ~ 2183</summary>
+  <summary>### 2001 ~ 2184</summary>
 
 |</>|#|Solution Title|Difficulty|
 |:-:|--:|:--|:--|
@@ -2243,6 +2243,7 @@ My daily challenge on leetcode since 2021/09/06.
 ||2181|[Merge Nodes in Between Zeros](https://leetcode.com/problems/merge-nodes-in-between-zeros/)|Medium|
 ||2182|[Construct String With Repeat Limit](https://leetcode.com/problems/construct-string-with-repeat-limit/)|Medium|
 ||2183|[Count Array Pairs Divisible by K](https://leetcode.com/problems/count-array-pairs-divisible-by-k/)|Hard|
+|🔒|2184|[Number of Ways to Build Sturdy Brick Wall](https://leetcode.com/problems/number-of-ways-to-build-sturdy-brick-wall/)|Medium|
 </details>
 
 ---
@@ -2250,6 +2251,7 @@ My daily challenge on leetcode since 2021/09/06.
 
 |Time|#|</>|Question Title|Difficulty|
 |:--|--:|:-:|:--|:--|
+|2022-02-24 18:19|1838|[📎](src/q_1801_1850/q1838.cc)|[Frequency of the Most Frequent Element](https://leetcode.com/problems/frequency-of-the-most-frequent-element/)|Medium|
 |2022-02-23 19:25|1791|[📎](src/q_1751_1800/q1791.cc)|[Find Center of Star Graph](https://leetcode.com/problems/find-center-of-star-graph/)|Easy|
 |2022-02-23 19:13|1903|[📎](src/q_1901_1950/q1903.cc)|[Largest Odd Number in String](https://leetcode.com/problems/largest-odd-number-in-string/)|Easy|
 |2022-02-23 18:25|133|[📎](src/q_101_150/q0133.cc)|[Clone Graph](https://leetcode.com/problems/clone-graph/)|Medium|
@@ -2274,13 +2276,12 @@ My daily challenge on leetcode since 2021/09/06.
 |2022-02-17 22:24|375|[📎](src/q_351_400/q0375.cc)|[Guess Number Higher or Lower II](https://leetcode.com/problems/guess-number-higher-or-lower-ii/)|Medium|
 |2022-02-17 21:55|1705|[📎](src/q_1701_1750/q1705.cc)|[Maximum Number of Eaten Apples](https://leetcode.com/problems/maximum-number-of-eaten-apples/)|Medium|
 |2022-02-17 18:49|1191|[📎](src/q_1151_1200/q1191.cc)|[K-Concatenation Maximum Sum](https://leetcode.com/problems/k-concatenation-maximum-sum/)|Medium|
-|2022-02-17 18:37|1031|[📎](src/q_1001_1050/q1031.cc)|[Maximum Sum of Two Non-Overlapping Subarrays](https://leetcode.com/problems/maximum-sum-of-two-non-overlapping-subarrays/)|Medium|
 
 ## Previous Logs
 
 |Month|Submissions|Easy|Medium|Hard|
 |:--|:--|:--|:--|:--|
-|[February_2022](./assets/February_2022.md)|59|14|37|8|
+|[February_2022](./assets/February_2022.md)|60|14|38|8|
 |[January_2022](./assets/January_2022.md)|32|8|18|6|
 |[December_2021](./assets/December_2021.md)|33|11|15|7|
 |[November_2021](./assets/November_2021.md)|41|19|16|6|
