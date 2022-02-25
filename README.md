@@ -157,7 +157,7 @@ My daily challenge on leetcode since 2021/09/06.
 |[📎](src/q_101_150/q0143.cc)|143|[Reorder List](https://leetcode.com/problems/reorder-list/)|Medium|
 |[📎](src/q_101_150/q0144.cc)|144|[Binary Tree Preorder Traversal](https://leetcode.com/problems/binary-tree-preorder-traversal/)|Easy|
 |[📎](src/q_101_150/q0145.cc)|145|[Binary Tree Postorder Traversal](https://leetcode.com/problems/binary-tree-postorder-traversal/)|Easy|
-||146|[LRU Cache](https://leetcode.com/problems/lru-cache/)|Medium|
+|[📎](src/q_101_150/q0146.cc)|146|[LRU Cache](https://leetcode.com/problems/lru-cache/)|Medium|
 |[📎](src/q_101_150/q0147.cc)|147|[Insertion Sort List](https://leetcode.com/problems/insertion-sort-list/)|Medium|
 |[📎](src/q_101_150/q0148.cc)|148|[Sort List](https://leetcode.com/problems/sort-list/)|Medium|
 |[📎](src/q_101_150/q0149.cc)|149|[Max Points on a Line](https://leetcode.com/problems/max-points-on-a-line/)|Hard|
@@ -2251,6 +2251,7 @@ My daily challenge on leetcode since 2021/09/06.
 
 |Time|#|</>|Question Title|Difficulty|
 |:--|--:|:-:|:--|:--|
+|2022-02-26 00:48|146|[📎](src/q_101_150/q0146.cc)|[LRU Cache](https://leetcode.com/problems/lru-cache/)|Medium|
 |2022-02-25 16:04|165|[📎](src/q_151_200/q0165.cc)|[Compare Version Numbers](https://leetcode.com/problems/compare-version-numbers/)|Medium|
 |2022-02-24 18:41|1124|[📎](src/q_1101_1150/q1124.cc)|[Longest Well-Performing Interval](https://leetcode.com/problems/longest-well-performing-interval/)|Medium|
 |2022-02-24 18:19|1838|[📎](src/q_1801_1850/q1838.cc)|[Frequency of the Most Frequent Element](https://leetcode.com/problems/frequency-of-the-most-frequent-element/)|Medium|
@@ -2275,13 +2276,12 @@ My daily challenge on leetcode since 2021/09/06.
 |2022-02-18 18:25|402|[📎](src/q_401_450/q0402.cc)|[Remove K Digits](https://leetcode.com/problems/remove-k-digits/)|Medium|
 |2022-02-17 23:02|684|[📎](src/q_651_700/q0684.cc)|[Redundant Connection](https://leetcode.com/problems/redundant-connection/)|Medium|
 |2022-02-17 22:43|1323|[📎](src/q_1301_1350/q1323.cc)|[Maximum 69 Number](https://leetcode.com/problems/maximum-69-number/)|Easy|
-|2022-02-17 22:24|375|[📎](src/q_351_400/q0375.cc)|[Guess Number Higher or Lower II](https://leetcode.com/problems/guess-number-higher-or-lower-ii/)|Medium|
 
 ## Previous Logs
 
 |Month|Submissions|Easy|Medium|Hard|
 |:--|:--|:--|:--|:--|
-|[February_2022](./assets/February_2022.md)|62|14|40|8|
+|[February_2022](./assets/February_2022.md)|63|14|41|8|
 |[January_2022](./assets/January_2022.md)|32|8|18|6|
 |[December_2021](./assets/December_2021.md)|33|11|15|7|
 |[November_2021](./assets/November_2021.md)|41|19|16|6|
