@@ -845,7 +845,7 @@ id,title,level,slug,paid,done
 844,Backspace String Compare,1,backspace-string-compare,0,1
 845,Longest Mountain in Array,2,longest-mountain-in-array,0,0
 846,Hand of Straights,2,hand-of-straights,0,0
-847,Shortest Path Visiting All Nodes,3,shortest-path-visiting-all-nodes,0,0
+847,Shortest Path Visiting All Nodes,3,shortest-path-visiting-all-nodes,0,1
 848,Shifting Letters,2,shifting-letters,0,1
 849,Maximize Distance to Closest Person,2,maximize-distance-to-closest-person,0,1
 850,Rectangle Area II,3,rectangle-area-ii,0,0

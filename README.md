@@ -876,7 +876,7 @@ My daily challenge on leetcode since 2021/09/06.
 |[📎](src/q_801_850/q0844.cc)|844|[Backspace String Compare](https://leetcode.com/problems/backspace-string-compare/)|Easy|
 ||845|[Longest Mountain in Array](https://leetcode.com/problems/longest-mountain-in-array/)|Medium|
 ||846|[Hand of Straights](https://leetcode.com/problems/hand-of-straights/)|Medium|
-||847|[Shortest Path Visiting All Nodes](https://leetcode.com/problems/shortest-path-visiting-all-nodes/)|Hard|
+|[📎](src/q_801_850/q0847.cc)|847|[Shortest Path Visiting All Nodes](https://leetcode.com/problems/shortest-path-visiting-all-nodes/)|Hard|
 |[📎](src/q_801_850/q0848.cc)|848|[Shifting Letters](https://leetcode.com/problems/shifting-letters/)|Medium|
 |[📎](src/q_801_850/q0849.cc)|849|[Maximize Distance to Closest Person](https://leetcode.com/problems/maximize-distance-to-closest-person/)|Medium|
 ||850|[Rectangle Area II](https://leetcode.com/problems/rectangle-area-ii/)|Hard|
@@ -2251,6 +2251,7 @@ My daily challenge on leetcode since 2021/09/06.
 
 |Time|#|</>|Question Title|Difficulty|
 |:--|--:|:-:|:--|:--|
+|2022-02-26 14:01|847|[📎](src/q_801_850/q0847.cc)|[Shortest Path Visiting All Nodes](https://leetcode.com/problems/shortest-path-visiting-all-nodes/)|Hard|
 |2022-02-26 00:48|146|[📎](src/q_101_150/q0146.cc)|[LRU Cache](https://leetcode.com/problems/lru-cache/)|Medium|
 |2022-02-25 16:04|165|[📎](src/q_151_200/q0165.cc)|[Compare Version Numbers](https://leetcode.com/problems/compare-version-numbers/)|Medium|
 |2022-02-24 18:41|1124|[📎](src/q_1101_1150/q1124.cc)|[Longest Well-Performing Interval](https://leetcode.com/problems/longest-well-performing-interval/)|Medium|
@@ -2275,13 +2276,12 @@ My daily challenge on leetcode since 2021/09/06.
 |2022-02-18 18:39|1145|[📎](src/q_1101_1150/q1145.cc)|[Binary Tree Coloring Game](https://leetcode.com/problems/binary-tree-coloring-game/)|Medium|
 |2022-02-18 18:25|402|[📎](src/q_401_450/q0402.cc)|[Remove K Digits](https://leetcode.com/problems/remove-k-digits/)|Medium|
 |2022-02-17 23:02|684|[📎](src/q_651_700/q0684.cc)|[Redundant Connection](https://leetcode.com/problems/redundant-connection/)|Medium|
-|2022-02-17 22:43|1323|[📎](src/q_1301_1350/q1323.cc)|[Maximum 69 Number](https://leetcode.com/problems/maximum-69-number/)|Easy|
 
 ## Previous Logs
 
 |Month|Submissions|Easy|Medium|Hard|
 |:--|:--|:--|:--|:--|
-|[February_2022](./assets/February_2022.md)|63|14|41|8|
+|[February_2022](./assets/February_2022.md)|64|14|41|9|
 |[January_2022](./assets/January_2022.md)|32|8|18|6|
 |[December_2021](./assets/December_2021.md)|33|11|15|7|
 |[November_2021](./assets/November_2021.md)|41|19|16|6|
