@@ -63,7 +63,7 @@ My daily challenge on leetcode since 2021/09/06.
 |[📎](src/q_1_50/q0049.cc)|49|[Group Anagrams](https://leetcode.com/problems/group-anagrams/)|Medium|
 |[📎](src/q_1_50/q0050.cc)|50|[Pow(x, n)](https://leetcode.com/problems/powx-n/)|Medium|
 |[📎](src/q_51_100/q0051.cc)|51|[N-Queens](https://leetcode.com/problems/n-queens/)|Hard|
-||52|[N-Queens II](https://leetcode.com/problems/n-queens-ii/)|Hard|
+|[📎](src/q_51_100/q0052.cc)|52|[N-Queens II](https://leetcode.com/problems/n-queens-ii/)|Hard|
 |[📎](src/q_51_100/q0053.cc)|53|[Maximum Subarray](https://leetcode.com/problems/maximum-subarray/)|Easy|
 |[📎](src/q_51_100/q0054.cc)|54|[Spiral Matrix](https://leetcode.com/problems/spiral-matrix/)|Medium|
 |[📎](src/q_51_100/q0055.cc)|55|[Jump Game](https://leetcode.com/problems/jump-game/)|Medium|
@@ -2251,6 +2251,7 @@ My daily challenge on leetcode since 2021/09/06.
 
 |Time|#|</>|Question Title|Difficulty|
 |:--|--:|:-:|:--|:--|
+|2022-02-27 00:19|52|[📎](src/q_51_100/q0052.cc)|[N-Queens II](https://leetcode.com/problems/n-queens-ii/)|Hard|
 |2022-02-26 23:32|51|[📎](src/q_51_100/q0051.cc)|[N-Queens](https://leetcode.com/problems/n-queens/)|Hard|
 |2022-02-26 14:01|847|[📎](src/q_801_850/q0847.cc)|[Shortest Path Visiting All Nodes](https://leetcode.com/problems/shortest-path-visiting-all-nodes/)|Hard|
 |2022-02-26 00:48|146|[📎](src/q_101_150/q0146.cc)|[LRU Cache](https://leetcode.com/problems/lru-cache/)|Medium|
@@ -2275,13 +2276,12 @@ My daily challenge on leetcode since 2021/09/06.
 |2022-02-18 23:49|65|[📎](src/q_51_100/q0065.cc)|[Valid Number](https://leetcode.com/problems/valid-number/)|Hard|
 |2022-02-18 19:51|1408|[📎](src/q_1401_1450/q1408.cc)|[String Matching in an Array](https://leetcode.com/problems/string-matching-in-an-array/)|Easy|
 |2022-02-18 18:39|1145|[📎](src/q_1101_1150/q1145.cc)|[Binary Tree Coloring Game](https://leetcode.com/problems/binary-tree-coloring-game/)|Medium|
-|2022-02-18 18:25|402|[📎](src/q_401_450/q0402.cc)|[Remove K Digits](https://leetcode.com/problems/remove-k-digits/)|Medium|
 
 ## Previous Logs
 
 |Month|Submissions|Easy|Medium|Hard|
 |:--|:--|:--|:--|:--|
-|[February_2022](./assets/February_2022.md)|65|14|41|10|
+|[February_2022](./assets/February_2022.md)|66|14|41|11|
 |[January_2022](./assets/January_2022.md)|32|8|18|6|
 |[December_2021](./assets/December_2021.md)|33|11|15|7|
 |[November_2021](./assets/November_2021.md)|41|19|16|6|

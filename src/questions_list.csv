@@ -50,7 +50,7 @@ id,title,level,slug,paid,done
 49,Group Anagrams,2,group-anagrams,0,1
 50,"Pow(x, n)",2,powx-n,0,1
 51,N-Queens,3,n-queens,0,1
-52,N-Queens II,3,n-queens-ii,0,0
+52,N-Queens II,3,n-queens-ii,0,1
 53,Maximum Subarray,1,maximum-subarray,0,1
 54,Spiral Matrix,2,spiral-matrix,0,1
 55,Jump Game,2,jump-game,0,1
