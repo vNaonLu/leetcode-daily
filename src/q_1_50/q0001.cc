@@ -33,13 +33,15 @@ struct q1 : public ::testing::Test {
   // Leetcode answer here
   class Solution {
    public:
-    vector<int> twoSum(vector<int>& nums, int target) {
-      unordered_map<int, int> mark;
-      for (int i = 0; i < nums.size(); ++i) {
-        if (mark.count(target - nums[i])) {
-          return {mark[target - nums[i]], i};
+    vector<int> twoSum(vector<int> &nums, int target) {
+      int i = 0;
+      unordered_map<int, int> memos;
+      for (const auto &x : nums) {
+        auto it = memos.find(target - x);
+        if (it != memos.end()) {
+          return {it->second, i};
         }
-        mark[nums[i]] = i;
+        memos.emplace(x, i++);
       }
       return {-1, -1};
     }
