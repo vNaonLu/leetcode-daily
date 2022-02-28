@@ -239,7 +239,7 @@ My daily challenge on leetcode since 2021/09/06.
 ||225|[Implement Stack using Queues](https://leetcode.com/problems/implement-stack-using-queues/)|Easy|
 |[📎](src/q_201_250/q0226.cc)|226|[Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree/)|Easy|
 |[📎](src/q_201_250/q0227.cc)|227|[Basic Calculator II](https://leetcode.com/problems/basic-calculator-ii/)|Medium|
-||228|[Summary Ranges](https://leetcode.com/problems/summary-ranges/)|Easy|
+|[📎](src/q_201_250/q0228.cc)|228|[Summary Ranges](https://leetcode.com/problems/summary-ranges/)|Easy|
 ||229|[Majority Element II](https://leetcode.com/problems/majority-element-ii/)|Medium|
 |[📎](src/q_201_250/q0230.cc)|230|[Kth Smallest Element in a BST](https://leetcode.com/problems/kth-smallest-element-in-a-bst/)|Medium|
 |[📎](src/q_201_250/q0231.cc)|231|[Power of Two](https://leetcode.com/problems/power-of-two/)|Easy|
@@ -2056,7 +2056,7 @@ My daily challenge on leetcode since 2021/09/06.
 ||2000|[Reverse Prefix of Word](https://leetcode.com/problems/reverse-prefix-of-word/)|Easy|
 </details>
 <details>
-  <summary>### 2001 ~ 2184</summary>
+  <summary>### 2001 ~ 2188</summary>
 
 |</>|#|Solution Title|Difficulty|
 |:-:|--:|:--|:--|
@@ -2244,6 +2244,10 @@ My daily challenge on leetcode since 2021/09/06.
 ||2182|[Construct String With Repeat Limit](https://leetcode.com/problems/construct-string-with-repeat-limit/)|Medium|
 ||2183|[Count Array Pairs Divisible by K](https://leetcode.com/problems/count-array-pairs-divisible-by-k/)|Hard|
 |🔒|2184|[Number of Ways to Build Sturdy Brick Wall](https://leetcode.com/problems/number-of-ways-to-build-sturdy-brick-wall/)|Medium|
+||2185|[Counting Words With a Given Prefix](https://leetcode.com/problems/counting-words-with-a-given-prefix/)|Easy|
+||2186|[Minimum Number of Steps to Make Two Strings Anagram II](https://leetcode.com/problems/minimum-number-of-steps-to-make-two-strings-anagram-ii/)|Medium|
+||2187|[Minimum Time to Complete Trips](https://leetcode.com/problems/minimum-time-to-complete-trips/)|Medium|
+||2188|[Minimum Time to Finish the Race](https://leetcode.com/problems/minimum-time-to-finish-the-race/)|Hard|
 </details>
 
 ---
@@ -2251,6 +2255,7 @@ My daily challenge on leetcode since 2021/09/06.
 
 |Time|#|</>|Question Title|Difficulty|
 |:--|--:|:-:|:--|:--|
+|2022-02-28 15:43|228|[📎](src/q_201_250/q0228.cc)|[Summary Ranges](https://leetcode.com/problems/summary-ranges/)|Easy|
 |2022-02-27 11:27|662|[📎](src/q_651_700/q0662.cc)|[Maximum Width of Binary Tree](https://leetcode.com/problems/maximum-width-of-binary-tree/)|Medium|
 |2022-02-27 00:41|86|[📎](src/q_51_100/q0086.cc)|[Partition List](https://leetcode.com/problems/partition-list/)|Medium|
 |2022-02-27 00:19|52|[📎](src/q_51_100/q0052.cc)|[N-Queens II](https://leetcode.com/problems/n-queens-ii/)|Hard|
@@ -2275,13 +2280,12 @@ My daily challenge on leetcode since 2021/09/06.
 |2022-02-20 14:19|1288|[📎](src/q_1251_1300/q1288.cc)|[Remove Covered Intervals](https://leetcode.com/problems/remove-covered-intervals/)|Medium|
 |2022-02-19 14:52|1053|[📎](src/q_1051_1100/q1053.cc)|[Previous Permutation With One Swap](https://leetcode.com/problems/previous-permutation-with-one-swap/)|Medium|
 |2022-02-19 14:39|1675|[📎](src/q_1651_1700/q1675.cc)|[Minimize Deviation in Array](https://leetcode.com/problems/minimize-deviation-in-array/)|Hard|
-|2022-02-18 23:49|65|[📎](src/q_51_100/q0065.cc)|[Valid Number](https://leetcode.com/problems/valid-number/)|Hard|
 
 ## Previous Logs
 
 |Month|Submissions|Easy|Medium|Hard|
 |:--|:--|:--|:--|:--|
-|[February_2022](./assets/February_2022.md)|68|14|43|11|
+|[February_2022](./assets/February_2022.md)|69|15|43|11|
 |[January_2022](./assets/January_2022.md)|32|8|18|6|
 |[December_2021](./assets/December_2021.md)|33|11|15|7|
 |[November_2021](./assets/November_2021.md)|41|19|16|6|

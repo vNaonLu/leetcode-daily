@@ -226,7 +226,7 @@ id,title,level,slug,paid,done
 225,Implement Stack using Queues,1,implement-stack-using-queues,0,0
 226,Invert Binary Tree,1,invert-binary-tree,0,1
 227,Basic Calculator II,2,basic-calculator-ii,0,1
-228,Summary Ranges,1,summary-ranges,0,0
+228,Summary Ranges,1,summary-ranges,0,1
 229,Majority Element II,2,majority-element-ii,0,0
 230,Kth Smallest Element in a BST,2,kth-smallest-element-in-a-bst,0,1
 231,Power of Two,1,power-of-two,0,1
@@ -2183,3 +2183,7 @@ id,title,level,slug,paid,done
 2182,Construct String With Repeat Limit,2,construct-string-with-repeat-limit,0,0
 2183,Count Array Pairs Divisible by K,3,count-array-pairs-divisible-by-k,0,0
 2184,Number of Ways to Build Sturdy Brick Wall,2,number-of-ways-to-build-sturdy-brick-wall,1,0
+2185,Counting Words With a Given Prefix,1,counting-words-with-a-given-prefix,0,0
+2186,Minimum Number of Steps to Make Two Strings Anagram II,2,minimum-number-of-steps-to-make-two-strings-anagram-ii,0,0
+2187,Minimum Time to Complete Trips,2,minimum-time-to-complete-trips,0,0
+2188,Minimum Time to Finish the Race,3,minimum-time-to-finish-the-race,0,0

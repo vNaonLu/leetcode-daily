@@ -2,6 +2,7 @@
 
 ||#|</>|Question Title|Difficulty|
 |:--|--:|:-:|:--|:--|
+|Day 28|228|[📎](../src/q_201_250/q0228.cc)|[Summary Ranges](https://leetcode.com/problems/summary-ranges/)|Easy|
 |Day 27|52<br>86<br>662|[📎](../src/q_51_100/q0052.cc)<br>[📎](../src/q_51_100/q0086.cc)<br>[📎](../src/q_651_700/q0662.cc)|[N-Queens II](https://leetcode.com/problems/n-queens-ii/)<br>[Partition List](https://leetcode.com/problems/partition-list/)<br>[Maximum Width of Binary Tree](https://leetcode.com/problems/maximum-width-of-binary-tree/)|Hard<br>Medium<br>Medium|
 |Day 26|51<br>146<br>847|[📎](../src/q_51_100/q0051.cc)<br>[📎](../src/q_101_150/q0146.cc)<br>[📎](../src/q_801_850/q0847.cc)|[N-Queens](https://leetcode.com/problems/n-queens/)<br>[LRU Cache](https://leetcode.com/problems/lru-cache/)<br>[Shortest Path Visiting All Nodes](https://leetcode.com/problems/shortest-path-visiting-all-nodes/)|Hard<br>Medium<br>Hard|
 |Day 25|165|[📎](../src/q_151_200/q0165.cc)|[Compare Version Numbers](https://leetcode.com/problems/compare-version-numbers/)|Medium|
