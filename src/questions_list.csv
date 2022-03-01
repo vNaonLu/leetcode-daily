@@ -107,7 +107,7 @@ id,title,level,slug,paid,done
 106,Construct Binary Tree from Inorder and Postorder Traversal,2,construct-binary-tree-from-inorder-and-postorder-traversal,0,1
 107,Binary Tree Level Order Traversal II,2,binary-tree-level-order-traversal-ii,0,0
 108,Convert Sorted Array to Binary Search Tree,1,convert-sorted-array-to-binary-search-tree,0,1
-109,Convert Sorted List to Binary Search Tree,2,convert-sorted-list-to-binary-search-tree,0,0
+109,Convert Sorted List to Binary Search Tree,2,convert-sorted-list-to-binary-search-tree,0,1
 110,Balanced Binary Tree,1,balanced-binary-tree,0,1
 111,Minimum Depth of Binary Tree,1,minimum-depth-of-binary-tree,0,1
 112,Path Sum,1,path-sum,0,1
