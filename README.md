@@ -79,7 +79,7 @@ My daily challenge on leetcode since 2021/09/06.
 |[📎](src/q_51_100/q0065.cc)|65|[Valid Number](https://leetcode.com/problems/valid-number/)|Hard|
 |[📎](src/q_51_100/q0066.cc)|66|[Plus One](https://leetcode.com/problems/plus-one/)|Easy|
 |[📎](src/q_51_100/q0067.cc)|67|[Add Binary](https://leetcode.com/problems/add-binary/)|Easy|
-||68|[Text Justification](https://leetcode.com/problems/text-justification/)|Hard|
+|[📎](src/q_51_100/q0068.cc)|68|[Text Justification](https://leetcode.com/problems/text-justification/)|Hard|
 |[📎](src/q_51_100/q0069.cc)|69|[Sqrt(x)](https://leetcode.com/problems/sqrtx/)|Easy|
 |[📎](src/q_51_100/q0070.cc)|70|[Climbing Stairs](https://leetcode.com/problems/climbing-stairs/)|Easy|
 ||71|[Simplify Path](https://leetcode.com/problems/simplify-path/)|Medium|
@@ -2255,6 +2255,7 @@ My daily challenge on leetcode since 2021/09/06.
 
 |Time|#|</>|Question Title|Difficulty|
 |:--|--:|:-:|:--|:--|
+|2022-03-01 21:04|68|[📎](src/q_51_100/q0068.cc)|[Text Justification](https://leetcode.com/problems/text-justification/)|Hard|
 |2022-03-01 14:29|109|[📎](src/q_101_150/q0109.cc)|[Convert Sorted List to Binary Search Tree](https://leetcode.com/problems/convert-sorted-list-to-binary-search-tree/)|Medium|
 |2022-02-28 15:43|228|[📎](src/q_201_250/q0228.cc)|[Summary Ranges](https://leetcode.com/problems/summary-ranges/)|Easy|
 |2022-02-27 11:27|662|[📎](src/q_651_700/q0662.cc)|[Maximum Width of Binary Tree](https://leetcode.com/problems/maximum-width-of-binary-tree/)|Medium|
@@ -2279,13 +2280,12 @@ My daily challenge on leetcode since 2021/09/06.
 |2022-02-21 18:42|1963|[📎](src/q_1951_2000/q1963.cc)|[Minimum Number of Swaps to Make the String Balanced](https://leetcode.com/problems/minimum-number-of-swaps-to-make-the-string-balanced/)|Medium|
 |2022-02-20 14:33|539|[📎](src/q_501_550/q0539.cc)|[Minimum Time Difference](https://leetcode.com/problems/minimum-time-difference/)|Medium|
 |2022-02-20 14:19|1288|[📎](src/q_1251_1300/q1288.cc)|[Remove Covered Intervals](https://leetcode.com/problems/remove-covered-intervals/)|Medium|
-|2022-02-19 14:52|1053|[📎](src/q_1051_1100/q1053.cc)|[Previous Permutation With One Swap](https://leetcode.com/problems/previous-permutation-with-one-swap/)|Medium|
 
 ## Previous Logs
 
 |Month|Submissions|Easy|Medium|Hard|
 |:--|:--|:--|:--|:--|
-|[March_2022](./assets/March_2022.md)|1|0|1|0|
+|[March_2022](./assets/March_2022.md)|2|0|1|1|
 |[February_2022](./assets/February_2022.md)|69|15|43|11|
 |[January_2022](./assets/January_2022.md)|32|8|18|6|
 |[December_2021](./assets/December_2021.md)|33|11|15|7|
