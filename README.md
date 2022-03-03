@@ -1554,7 +1554,7 @@ My daily challenge on leetcode since 2021/09/06.
 ||1504|[Count Submatrices With All Ones](https://leetcode.com/problems/count-submatrices-with-all-ones/)|Medium|
 ||1505|[Minimum Possible Integer After at Most K Adjacent Swaps On Digits](https://leetcode.com/problems/minimum-possible-integer-after-at-most-k-adjacent-swaps-on-digits/)|Hard|
 |🔒|1506|[Find Root of N-Ary Tree](https://leetcode.com/problems/find-root-of-n-ary-tree/)|Medium|
-||1507|[Reformat Date](https://leetcode.com/problems/reformat-date/)|Easy|
+|[📎](src/q_1501_1550/q1507.cc)|1507|[Reformat Date](https://leetcode.com/problems/reformat-date/)|Easy|
 ||1508|[Range Sum of Sorted Subarray Sums](https://leetcode.com/problems/range-sum-of-sorted-subarray-sums/)|Medium|
 |[📎](src/q_1501_1550/q1509.cc)|1509|[Minimum Difference Between Largest and Smallest Value in Three Moves](https://leetcode.com/problems/minimum-difference-between-largest-and-smallest-value-in-three-moves/)|Medium|
 |[📎](src/q_1501_1550/q1510.cc)|1510|[Stone Game IV](https://leetcode.com/problems/stone-game-iv/)|Hard|
@@ -2056,7 +2056,7 @@ My daily challenge on leetcode since 2021/09/06.
 ||2000|[Reverse Prefix of Word](https://leetcode.com/problems/reverse-prefix-of-word/)|Easy|
 </details>
 <details>
-  <summary>### 2001 ~ 2188</summary>
+  <summary>### 2001 ~ 2189</summary>
 
 |</>|#|Solution Title|Difficulty|
 |:-:|--:|:--|:--|
@@ -2248,6 +2248,7 @@ My daily challenge on leetcode since 2021/09/06.
 ||2186|[Minimum Number of Steps to Make Two Strings Anagram II](https://leetcode.com/problems/minimum-number-of-steps-to-make-two-strings-anagram-ii/)|Medium|
 ||2187|[Minimum Time to Complete Trips](https://leetcode.com/problems/minimum-time-to-complete-trips/)|Medium|
 ||2188|[Minimum Time to Finish the Race](https://leetcode.com/problems/minimum-time-to-finish-the-race/)|Hard|
+|🔒|2189|[Number of Ways to Build House of Cards](https://leetcode.com/problems/number-of-ways-to-build-house-of-cards/)|Medium|
 </details>
 
 ---
@@ -2255,6 +2256,7 @@ My daily challenge on leetcode since 2021/09/06.
 
 |Time|#|</>|Question Title|Difficulty|
 |:--|--:|:-:|:--|:--|
+|2022-03-03 18:13|1507|[📎](src/q_1501_1550/q1507.cc)|[Reformat Date](https://leetcode.com/problems/reformat-date/)|Easy|
 |2022-03-02 18:33|1344|[📎](src/q_1301_1350/q1344.cc)|[Angle Between Hands of a Clock](https://leetcode.com/problems/angle-between-hands-of-a-clock/)|Medium|
 |2022-03-01 21:04|68|[📎](src/q_51_100/q0068.cc)|[Text Justification](https://leetcode.com/problems/text-justification/)|Hard|
 |2022-03-01 14:29|109|[📎](src/q_101_150/q0109.cc)|[Convert Sorted List to Binary Search Tree](https://leetcode.com/problems/convert-sorted-list-to-binary-search-tree/)|Medium|
@@ -2279,13 +2281,12 @@ My daily challenge on leetcode since 2021/09/06.
 |2022-02-21 22:50|907|[📎](src/q_901_950/q0907.cc)|[Sum of Subarray Minimums](https://leetcode.com/problems/sum-of-subarray-minimums/)|Medium|
 |2022-02-21 22:34|862|[📎](src/q_851_900/q0862.cc)|[Shortest Subarray with Sum at Least K](https://leetcode.com/problems/shortest-subarray-with-sum-at-least-k/)|Hard|
 |2022-02-21 18:42|1963|[📎](src/q_1951_2000/q1963.cc)|[Minimum Number of Swaps to Make the String Balanced](https://leetcode.com/problems/minimum-number-of-swaps-to-make-the-string-balanced/)|Medium|
-|2022-02-20 14:33|539|[📎](src/q_501_550/q0539.cc)|[Minimum Time Difference](https://leetcode.com/problems/minimum-time-difference/)|Medium|
 
 ## Previous Logs
 
 |Month|Submissions|Easy|Medium|Hard|
 |:--|:--|:--|:--|:--|
-|[March_2022](./assets/March_2022.md)|3|0|2|1|
+|[March_2022](./assets/March_2022.md)|4|1|2|1|
 |[February_2022](./assets/February_2022.md)|69|15|43|11|
 |[January_2022](./assets/January_2022.md)|32|8|18|6|
 |[December_2021](./assets/December_2021.md)|33|11|15|7|

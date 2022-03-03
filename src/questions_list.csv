@@ -1505,7 +1505,7 @@ id,title,level,slug,paid,done
 1504,Count Submatrices With All Ones,2,count-submatrices-with-all-ones,0,0
 1505,Minimum Possible Integer After at Most K Adjacent Swaps On Digits,3,minimum-possible-integer-after-at-most-k-adjacent-swaps-on-digits,0,0
 1506,Find Root of N-Ary Tree,2,find-root-of-n-ary-tree,1,0
-1507,Reformat Date,1,reformat-date,0,0
+1507,Reformat Date,1,reformat-date,0,1
 1508,Range Sum of Sorted Subarray Sums,2,range-sum-of-sorted-subarray-sums,0,0
 1509,Minimum Difference Between Largest and Smallest Value in Three Moves,2,minimum-difference-between-largest-and-smallest-value-in-three-moves,0,1
 1510,Stone Game IV,3,stone-game-iv,0,1
@@ -2187,3 +2187,4 @@ id,title,level,slug,paid,done
 2186,Minimum Number of Steps to Make Two Strings Anagram II,2,minimum-number-of-steps-to-make-two-strings-anagram-ii,0,0
 2187,Minimum Time to Complete Trips,2,minimum-time-to-complete-trips,0,0
 2188,Minimum Time to Finish the Race,3,minimum-time-to-finish-the-race,0,0
+2189,Number of Ways to Build House of Cards,2,number-of-ways-to-build-house-of-cards,1,0
