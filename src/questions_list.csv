@@ -797,7 +797,7 @@ id,title,level,slug,paid,done
 796,Rotate String,1,rotate-string,0,0
 797,All Paths From Source to Target,2,all-paths-from-source-to-target,0,1
 798,Smallest Rotation with Highest Score,3,smallest-rotation-with-highest-score,0,0
-799,Champagne Tower,2,champagne-tower,0,0
+799,Champagne Tower,2,champagne-tower,0,1
 800,Similar RGB Color,1,similar-rgb-color,1,0
 801,Minimum Swaps To Make Sequences Increasing,3,minimum-swaps-to-make-sequences-increasing,0,0
 802,Find Eventual Safe States,2,find-eventual-safe-states,0,0
