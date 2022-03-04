@@ -1460,7 +1460,7 @@ id,title,level,slug,paid,done
 1459,Rectangles Area,2,rectangles-area,1,0
 1460,Make Two Arrays Equal by Reversing Sub-arrays,1,make-two-arrays-equal-by-reversing-sub-arrays,0,0
 1461,Check If a String Contains All Binary Codes of Size K,2,check-if-a-string-contains-all-binary-codes-of-size-k,0,0
-1462,Course Schedule IV,2,course-schedule-iv,0,0
+1462,Course Schedule IV,2,course-schedule-iv,0,1
 1463,Cherry Pickup II,3,cherry-pickup-ii,0,1
 1464,Maximum Product of Two Elements in an Array,1,maximum-product-of-two-elements-in-an-array,0,0
 1465,Maximum Area of a Piece of Cake After Horizontal and Vertical Cuts,2,maximum-area-of-a-piece-of-cake-after-horizontal-and-vertical-cuts,0,0
