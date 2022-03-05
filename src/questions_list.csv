@@ -386,7 +386,7 @@ id,title,level,slug,paid,done
 385,Mini Parser,2,mini-parser,0,0
 386,Lexicographical Numbers,2,lexicographical-numbers,0,0
 387,First Unique Character in a String,1,first-unique-character-in-a-string,0,1
-388,Longest Absolute File Path,2,longest-absolute-file-path,0,0
+388,Longest Absolute File Path,2,longest-absolute-file-path,0,1
 389,Find the Difference,1,find-the-difference,0,1
 390,Elimination Game,2,elimination-game,0,0
 391,Perfect Rectangle,3,perfect-rectangle,0,0

@@ -405,7 +405,7 @@ My daily challenge on leetcode since 2021/09/06.
 ||385|[Mini Parser](https://leetcode.com/problems/mini-parser/)|Medium|
 ||386|[Lexicographical Numbers](https://leetcode.com/problems/lexicographical-numbers/)|Medium|
 |[📎](src/q_351_400/q0387.cc)|387|[First Unique Character in a String](https://leetcode.com/problems/first-unique-character-in-a-string/)|Easy|
-||388|[Longest Absolute File Path](https://leetcode.com/problems/longest-absolute-file-path/)|Medium|
+|[📎](src/q_351_400/q0388.cc)|388|[Longest Absolute File Path](https://leetcode.com/problems/longest-absolute-file-path/)|Medium|
 |[📎](src/q_351_400/q0389.cc)|389|[Find the Difference](https://leetcode.com/problems/find-the-difference/)|Easy|
 ||390|[Elimination Game](https://leetcode.com/problems/elimination-game/)|Medium|
 ||391|[Perfect Rectangle](https://leetcode.com/problems/perfect-rectangle/)|Hard|
@@ -2256,6 +2256,7 @@ My daily challenge on leetcode since 2021/09/06.
 
 |Time|#|</>|Question Title|Difficulty|
 |:--|--:|:-:|:--|:--|
+|2022-03-05 10:14|388|[📎](src/q_351_400/q0388.cc)|[Longest Absolute File Path](https://leetcode.com/problems/longest-absolute-file-path/)|Medium|
 |2022-03-05 10:04|999|[📎](src/q_951_1000/q0999.cc)|[Available Captures for Rook](https://leetcode.com/problems/available-captures-for-rook/)|Easy|
 |2022-03-04 18:34|1462|[📎](src/q_1451_1500/q1462.cc)|[Course Schedule IV](https://leetcode.com/problems/course-schedule-iv/)|Medium|
 |2022-03-04 18:09|799|[📎](src/q_751_800/q0799.cc)|[Champagne Tower](https://leetcode.com/problems/champagne-tower/)|Medium|
@@ -2280,13 +2281,12 @@ My daily challenge on leetcode since 2021/09/06.
 |2022-02-22 18:01|171|[📎](src/q_151_200/q0171.cc)|[Excel Sheet Column Number](https://leetcode.com/problems/excel-sheet-column-number/)|Easy|
 |2022-02-21 23:52|1029|[📎](src/q_1001_1050/q1029.cc)|[Two City Scheduling](https://leetcode.com/problems/two-city-scheduling/)|Medium|
 |2022-02-21 23:48|771|[📎](src/q_751_800/q0771.cc)|[Jewels and Stones](https://leetcode.com/problems/jewels-and-stones/)|Easy|
-|2022-02-21 23:08|352|[📎](src/q_351_400/q0352.cc)|[Data Stream as Disjoint Intervals](https://leetcode.com/problems/data-stream-as-disjoint-intervals/)|Hard|
 
 ## Previous Logs
 
 |Month|Submissions|Easy|Medium|Hard|
 |:--|:--|:--|:--|:--|
-|[March_2022](./assets/March_2022.md)|7|2|4|1|
+|[March_2022](./assets/March_2022.md)|8|2|5|1|
 |[February_2022](./assets/February_2022.md)|69|15|43|11|
 |[January_2022](./assets/January_2022.md)|32|8|18|6|
 |[December_2021](./assets/December_2021.md)|33|11|15|7|
