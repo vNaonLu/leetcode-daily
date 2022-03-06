@@ -66,7 +66,7 @@ id,title,level,slug,paid,done
 65,Valid Number,3,valid-number,0,1
 66,Plus One,1,plus-one,0,1
 67,Add Binary,1,add-binary,0,1
-68,Text Justification,3,text-justification,0,0
+68,Text Justification,3,text-justification,0,1
 69,Sqrt(x),1,sqrtx,0,1
 70,Climbing Stairs,1,climbing-stairs,0,1
 71,Simplify Path,2,simplify-path,0,0
@@ -107,7 +107,7 @@ id,title,level,slug,paid,done
 106,Construct Binary Tree from Inorder and Postorder Traversal,2,construct-binary-tree-from-inorder-and-postorder-traversal,0,1
 107,Binary Tree Level Order Traversal II,2,binary-tree-level-order-traversal-ii,0,0
 108,Convert Sorted Array to Binary Search Tree,1,convert-sorted-array-to-binary-search-tree,0,1
-109,Convert Sorted List to Binary Search Tree,2,convert-sorted-list-to-binary-search-tree,0,0
+109,Convert Sorted List to Binary Search Tree,2,convert-sorted-list-to-binary-search-tree,0,1
 110,Balanced Binary Tree,1,balanced-binary-tree,0,1
 111,Minimum Depth of Binary Tree,1,minimum-depth-of-binary-tree,0,1
 112,Path Sum,1,path-sum,0,1
@@ -226,7 +226,7 @@ id,title,level,slug,paid,done
 225,Implement Stack using Queues,1,implement-stack-using-queues,0,0
 226,Invert Binary Tree,1,invert-binary-tree,0,1
 227,Basic Calculator II,2,basic-calculator-ii,0,1
-228,Summary Ranges,1,summary-ranges,0,0
+228,Summary Ranges,1,summary-ranges,0,1
 229,Majority Element II,2,majority-element-ii,0,0
 230,Kth Smallest Element in a BST,2,kth-smallest-element-in-a-bst,0,1
 231,Power of Two,1,power-of-two,0,1
@@ -386,7 +386,7 @@ id,title,level,slug,paid,done
 385,Mini Parser,2,mini-parser,0,0
 386,Lexicographical Numbers,2,lexicographical-numbers,0,0
 387,First Unique Character in a String,1,first-unique-character-in-a-string,0,1
-388,Longest Absolute File Path,2,longest-absolute-file-path,0,0
+388,Longest Absolute File Path,2,longest-absolute-file-path,0,1
 389,Find the Difference,1,find-the-difference,0,1
 390,Elimination Game,2,elimination-game,0,0
 391,Perfect Rectangle,3,perfect-rectangle,0,0
@@ -660,7 +660,7 @@ id,title,level,slug,paid,done
 659,Split Array into Consecutive Subsequences,2,split-array-into-consecutive-subsequences,0,0
 660,Remove 9,3,remove-9,1,0
 661,Image Smoother,1,image-smoother,0,0
-662,Maximum Width of Binary Tree,2,maximum-width-of-binary-tree,0,0
+662,Maximum Width of Binary Tree,2,maximum-width-of-binary-tree,0,1
 663,Equal Tree Partition,2,equal-tree-partition,1,0
 664,Strange Printer,3,strange-printer,0,0
 665,Non-decreasing Array,2,non-decreasing-array,0,0
@@ -797,7 +797,7 @@ id,title,level,slug,paid,done
 796,Rotate String,1,rotate-string,0,0
 797,All Paths From Source to Target,2,all-paths-from-source-to-target,0,1
 798,Smallest Rotation with Highest Score,3,smallest-rotation-with-highest-score,0,0
-799,Champagne Tower,2,champagne-tower,0,0
+799,Champagne Tower,2,champagne-tower,0,1
 800,Similar RGB Color,1,similar-rgb-color,1,0
 801,Minimum Swaps To Make Sequences Increasing,3,minimum-swaps-to-make-sequences-increasing,0,0
 802,Find Eventual Safe States,2,find-eventual-safe-states,0,0
@@ -997,7 +997,7 @@ id,title,level,slug,paid,done
 996,Number of Squareful Arrays,3,number-of-squareful-arrays,0,0
 997,Find the Town Judge,1,find-the-town-judge,0,1
 998,Maximum Binary Tree II,2,maximum-binary-tree-ii,0,0
-999,Available Captures for Rook,1,available-captures-for-rook,0,0
+999,Available Captures for Rook,1,available-captures-for-rook,0,1
 1000,Minimum Cost to Merge Stones,3,minimum-cost-to-merge-stones,0,0
 1001,Grid Illumination,3,grid-illumination,0,0
 1002,Find Common Characters,1,find-common-characters,0,1
@@ -1342,7 +1342,7 @@ id,title,level,slug,paid,done
 1341,Movie Rating,2,movie-rating,1,0
 1342,Number of Steps to Reduce a Number to Zero,1,number-of-steps-to-reduce-a-number-to-zero,0,0
 1343,Number of Sub-arrays of Size K and Average Greater than or Equal to Threshold,2,number-of-sub-arrays-of-size-k-and-average-greater-than-or-equal-to-threshold,0,0
-1344,Angle Between Hands of a Clock,2,angle-between-hands-of-a-clock,0,0
+1344,Angle Between Hands of a Clock,2,angle-between-hands-of-a-clock,0,1
 1345,Jump Game IV,3,jump-game-iv,0,1
 1346,Check If N and Its Double Exist,1,check-if-n-and-its-double-exist,0,0
 1347,Minimum Number of Steps to Make Two Strings Anagram,2,minimum-number-of-steps-to-make-two-strings-anagram,0,0
@@ -1357,7 +1357,7 @@ id,title,level,slug,paid,done
 1356,Sort Integers by The Number of 1 Bits,1,sort-integers-by-the-number-of-1-bits,0,1
 1357,Apply Discount Every n Orders,2,apply-discount-every-n-orders,0,0
 1358,Number of Substrings Containing All Three Characters,2,number-of-substrings-containing-all-three-characters,0,0
-1359,Count All Valid Pickup and Delivery Options,3,count-all-valid-pickup-and-delivery-options,0,0
+1359,Count All Valid Pickup and Delivery Options,3,count-all-valid-pickup-and-delivery-options,0,1
 1360,Number of Days Between Two Dates,1,number-of-days-between-two-dates,0,0
 1361,Validate Binary Tree Nodes,2,validate-binary-tree-nodes,0,1
 1362,Closest Divisors,2,closest-divisors,0,0
@@ -1460,7 +1460,7 @@ id,title,level,slug,paid,done
 1459,Rectangles Area,2,rectangles-area,1,0
 1460,Make Two Arrays Equal by Reversing Sub-arrays,1,make-two-arrays-equal-by-reversing-sub-arrays,0,0
 1461,Check If a String Contains All Binary Codes of Size K,2,check-if-a-string-contains-all-binary-codes-of-size-k,0,0
-1462,Course Schedule IV,2,course-schedule-iv,0,0
+1462,Course Schedule IV,2,course-schedule-iv,0,1
 1463,Cherry Pickup II,3,cherry-pickup-ii,0,1
 1464,Maximum Product of Two Elements in an Array,1,maximum-product-of-two-elements-in-an-array,0,0
 1465,Maximum Area of a Piece of Cake After Horizontal and Vertical Cuts,2,maximum-area-of-a-piece-of-cake-after-horizontal-and-vertical-cuts,0,0
@@ -1505,7 +1505,7 @@ id,title,level,slug,paid,done
 1504,Count Submatrices With All Ones,2,count-submatrices-with-all-ones,0,0
 1505,Minimum Possible Integer After at Most K Adjacent Swaps On Digits,3,minimum-possible-integer-after-at-most-k-adjacent-swaps-on-digits,0,0
 1506,Find Root of N-Ary Tree,2,find-root-of-n-ary-tree,1,0
-1507,Reformat Date,1,reformat-date,0,0
+1507,Reformat Date,1,reformat-date,0,1
 1508,Range Sum of Sorted Subarray Sums,2,range-sum-of-sorted-subarray-sums,0,0
 1509,Minimum Difference Between Largest and Smallest Value in Three Moves,2,minimum-difference-between-largest-and-smallest-value-in-three-moves,0,1
 1510,Stone Game IV,3,stone-game-iv,0,1
@@ -2183,3 +2183,12 @@ id,title,level,slug,paid,done
 2182,Construct String With Repeat Limit,2,construct-string-with-repeat-limit,0,0
 2183,Count Array Pairs Divisible by K,3,count-array-pairs-divisible-by-k,0,0
 2184,Number of Ways to Build Sturdy Brick Wall,2,number-of-ways-to-build-sturdy-brick-wall,1,0
+2185,Counting Words With a Given Prefix,1,counting-words-with-a-given-prefix,0,0
+2186,Minimum Number of Steps to Make Two Strings Anagram II,2,minimum-number-of-steps-to-make-two-strings-anagram-ii,0,0
+2187,Minimum Time to Complete Trips,2,minimum-time-to-complete-trips,0,0
+2188,Minimum Time to Finish the Race,3,minimum-time-to-finish-the-race,0,0
+2189,Number of Ways to Build House of Cards,2,number-of-ways-to-build-house-of-cards,1,0
+2190,Most Frequent Number Following Key In an Array,1,most-frequent-number-following-key-in-an-array,0,0
+2191,Sort the Jumbled Numbers,2,sort-the-jumbled-numbers,0,0
+2192,All Ancestors of a Node in a Directed Acyclic Graph,2,all-ancestors-of-a-node-in-a-directed-acyclic-graph,0,0
+2193,Minimum Number of Moves to Make Palindrome,3,minimum-number-of-moves-to-make-palindrome,0,0
