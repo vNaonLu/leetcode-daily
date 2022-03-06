@@ -1357,7 +1357,7 @@ id,title,level,slug,paid,done
 1356,Sort Integers by The Number of 1 Bits,1,sort-integers-by-the-number-of-1-bits,0,1
 1357,Apply Discount Every n Orders,2,apply-discount-every-n-orders,0,0
 1358,Number of Substrings Containing All Three Characters,2,number-of-substrings-containing-all-three-characters,0,0
-1359,Count All Valid Pickup and Delivery Options,3,count-all-valid-pickup-and-delivery-options,0,0
+1359,Count All Valid Pickup and Delivery Options,3,count-all-valid-pickup-and-delivery-options,0,1
 1360,Number of Days Between Two Dates,1,number-of-days-between-two-dates,0,0
 1361,Validate Binary Tree Nodes,2,validate-binary-tree-nodes,0,1
 1362,Closest Divisors,2,closest-divisors,0,0
@@ -2188,3 +2188,7 @@ id,title,level,slug,paid,done
 2187,Minimum Time to Complete Trips,2,minimum-time-to-complete-trips,0,0
 2188,Minimum Time to Finish the Race,3,minimum-time-to-finish-the-race,0,0
 2189,Number of Ways to Build House of Cards,2,number-of-ways-to-build-house-of-cards,1,0
+2190,Most Frequent Number Following Key In an Array,1,most-frequent-number-following-key-in-an-array,0,0
+2191,Sort the Jumbled Numbers,2,sort-the-jumbled-numbers,0,0
+2192,All Ancestors of a Node in a Directed Acyclic Graph,2,all-ancestors-of-a-node-in-a-directed-acyclic-graph,0,0
+2193,Minimum Number of Moves to Make Palindrome,3,minimum-number-of-moves-to-make-palindrome,0,0

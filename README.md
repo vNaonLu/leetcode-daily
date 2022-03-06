@@ -1400,7 +1400,7 @@ My daily challenge on leetcode since 2021/09/06.
 |[📎](src/q_1351_1400/q1356.cc)|1356|[Sort Integers by The Number of 1 Bits](https://leetcode.com/problems/sort-integers-by-the-number-of-1-bits/)|Easy|
 ||1357|[Apply Discount Every n Orders](https://leetcode.com/problems/apply-discount-every-n-orders/)|Medium|
 ||1358|[Number of Substrings Containing All Three Characters](https://leetcode.com/problems/number-of-substrings-containing-all-three-characters/)|Medium|
-||1359|[Count All Valid Pickup and Delivery Options](https://leetcode.com/problems/count-all-valid-pickup-and-delivery-options/)|Hard|
+|[📎](src/q_1351_1400/q1359.cc)|1359|[Count All Valid Pickup and Delivery Options](https://leetcode.com/problems/count-all-valid-pickup-and-delivery-options/)|Hard|
 ||1360|[Number of Days Between Two Dates](https://leetcode.com/problems/number-of-days-between-two-dates/)|Easy|
 |[📎](src/q_1351_1400/q1361.cc)|1361|[Validate Binary Tree Nodes](https://leetcode.com/problems/validate-binary-tree-nodes/)|Medium|
 ||1362|[Closest Divisors](https://leetcode.com/problems/closest-divisors/)|Medium|
@@ -2056,7 +2056,7 @@ My daily challenge on leetcode since 2021/09/06.
 ||2000|[Reverse Prefix of Word](https://leetcode.com/problems/reverse-prefix-of-word/)|Easy|
 </details>
 <details>
-  <summary>### 2001 ~ 2189</summary>
+  <summary>### 2001 ~ 2193</summary>
 
 |</>|#|Solution Title|Difficulty|
 |:-:|--:|:--|:--|
@@ -2249,6 +2249,10 @@ My daily challenge on leetcode since 2021/09/06.
 ||2187|[Minimum Time to Complete Trips](https://leetcode.com/problems/minimum-time-to-complete-trips/)|Medium|
 ||2188|[Minimum Time to Finish the Race](https://leetcode.com/problems/minimum-time-to-finish-the-race/)|Hard|
 |🔒|2189|[Number of Ways to Build House of Cards](https://leetcode.com/problems/number-of-ways-to-build-house-of-cards/)|Medium|
+||2190|[Most Frequent Number Following Key In an Array](https://leetcode.com/problems/most-frequent-number-following-key-in-an-array/)|Easy|
+||2191|[Sort the Jumbled Numbers](https://leetcode.com/problems/sort-the-jumbled-numbers/)|Medium|
+||2192|[All Ancestors of a Node in a Directed Acyclic Graph](https://leetcode.com/problems/all-ancestors-of-a-node-in-a-directed-acyclic-graph/)|Medium|
+||2193|[Minimum Number of Moves to Make Palindrome](https://leetcode.com/problems/minimum-number-of-moves-to-make-palindrome/)|Hard|
 </details>
 
 ---
@@ -2256,6 +2260,7 @@ My daily challenge on leetcode since 2021/09/06.
 
 |Time|#|</>|Question Title|Difficulty|
 |:--|--:|:-:|:--|:--|
+|2022-03-06 12:49|1359|[📎](src/q_1351_1400/q1359.cc)|[Count All Valid Pickup and Delivery Options](https://leetcode.com/problems/count-all-valid-pickup-and-delivery-options/)|Hard|
 |2022-03-05 10:14|388|[📎](src/q_351_400/q0388.cc)|[Longest Absolute File Path](https://leetcode.com/problems/longest-absolute-file-path/)|Medium|
 |2022-03-05 10:04|999|[📎](src/q_951_1000/q0999.cc)|[Available Captures for Rook](https://leetcode.com/problems/available-captures-for-rook/)|Easy|
 |2022-03-04 18:34|1462|[📎](src/q_1451_1500/q1462.cc)|[Course Schedule IV](https://leetcode.com/problems/course-schedule-iv/)|Medium|
@@ -2280,13 +2285,12 @@ My daily challenge on leetcode since 2021/09/06.
 |2022-02-22 18:05|1674|[📎](src/q_1651_1700/q1674.cc)|[Minimum Moves to Make Array Complementary](https://leetcode.com/problems/minimum-moves-to-make-array-complementary/)|Medium|
 |2022-02-22 18:01|171|[📎](src/q_151_200/q0171.cc)|[Excel Sheet Column Number](https://leetcode.com/problems/excel-sheet-column-number/)|Easy|
 |2022-02-21 23:52|1029|[📎](src/q_1001_1050/q1029.cc)|[Two City Scheduling](https://leetcode.com/problems/two-city-scheduling/)|Medium|
-|2022-02-21 23:48|771|[📎](src/q_751_800/q0771.cc)|[Jewels and Stones](https://leetcode.com/problems/jewels-and-stones/)|Easy|
 
 ## Previous Logs
 
 |Month|Submissions|Easy|Medium|Hard|
 |:--|:--|:--|:--|:--|
-|[March_2022](./assets/March_2022.md)|8|2|5|1|
+|[March_2022](./assets/March_2022.md)|9|2|5|2|
 |[February_2022](./assets/February_2022.md)|69|15|43|11|
 |[January_2022](./assets/January_2022.md)|32|8|18|6|
 |[December_2021](./assets/December_2021.md)|33|11|15|7|
