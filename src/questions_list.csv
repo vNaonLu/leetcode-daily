@@ -1966,7 +1966,7 @@ id,title,level,slug,paid,done
 1965,Employees With Missing Information,1,employees-with-missing-information,1,0
 1966,Binary Searchable Numbers in an Unsorted Array,2,binary-searchable-numbers-in-an-unsorted-array,1,0
 1967,Number of Strings That Appear as Substrings in Word,1,number-of-strings-that-appear-as-substrings-in-word,0,0
-1968,Array With Elements Not Equal to Average of Neighbors,2,array-with-elements-not-equal-to-average-of-neighbors,0,0
+1968,Array With Elements Not Equal to Average of Neighbors,2,array-with-elements-not-equal-to-average-of-neighbors,0,1
 1969,Minimum Non-Zero Product of the Array Elements,2,minimum-non-zero-product-of-the-array-elements,0,0
 1970,Last Day Where You Can Still Cross,3,last-day-where-you-can-still-cross,0,0
 1971,Find if Path Exists in Graph,1,find-if-path-exists-in-graph,0,0
@@ -2192,3 +2192,7 @@ id,title,level,slug,paid,done
 2191,Sort the Jumbled Numbers,2,sort-the-jumbled-numbers,0,0
 2192,All Ancestors of a Node in a Directed Acyclic Graph,2,all-ancestors-of-a-node-in-a-directed-acyclic-graph,0,0
 2193,Minimum Number of Moves to Make Palindrome,3,minimum-number-of-moves-to-make-palindrome,0,0
+2194,Cells in a Range on an Excel Sheet,1,cells-in-a-range-on-an-excel-sheet,0,0
+2195,Append K Integers With Minimal Sum,2,append-k-integers-with-minimal-sum,0,0
+2196,Create Binary Tree From Descriptions,2,create-binary-tree-from-descriptions,0,0
+2197,Replace Non-Coprime Numbers in Array,3,replace-non-coprime-numbers-in-array,0,0
