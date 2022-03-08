@@ -2,6 +2,7 @@
 
 ||#|</>|Question Title|Difficulty|
 |:--|--:|:-:|:--|:--|
+|Day 8|1019|[📎](../src/q_1001_1050/q1019.cc)|[Next Greater Node In Linked List](https://leetcode.com/problems/next-greater-node-in-linked-list/)|Medium|
 |Day 7|1968|[📎](../src/q_1951_2000/q1968.cc)|[Array With Elements Not Equal to Average of Neighbors](https://leetcode.com/problems/array-with-elements-not-equal-to-average-of-neighbors/)|Medium|
 |Day 6|1359|[📎](../src/q_1351_1400/q1359.cc)|[Count All Valid Pickup and Delivery Options](https://leetcode.com/problems/count-all-valid-pickup-and-delivery-options/)|Hard|
 |Day 5|388<br>999|[📎](../src/q_351_400/q0388.cc)<br>[📎](../src/q_951_1000/q0999.cc)|[Longest Absolute File Path](https://leetcode.com/problems/longest-absolute-file-path/)<br>[Available Captures for Rook](https://leetcode.com/problems/available-captures-for-rook/)|Medium<br>Easy|

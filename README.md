@@ -1054,7 +1054,7 @@ My daily challenge on leetcode since 2021/09/06.
 ||1016|[Binary String With Substrings Representing 1 To N](https://leetcode.com/problems/binary-string-with-substrings-representing-1-to-n/)|Medium|
 |[📎](src/q_1001_1050/q1017.cc)|1017|[Convert to Base -2](https://leetcode.com/problems/convert-to-base-2/)|Medium|
 ||1018|[Binary Prefix Divisible By 5](https://leetcode.com/problems/binary-prefix-divisible-by-5/)|Easy|
-||1019|[Next Greater Node In Linked List](https://leetcode.com/problems/next-greater-node-in-linked-list/)|Medium|
+|[📎](src/q_1001_1050/q1019.cc)|1019|[Next Greater Node In Linked List](https://leetcode.com/problems/next-greater-node-in-linked-list/)|Medium|
 |[📎](src/q_1001_1050/q1020.cc)|1020|[Number of Enclaves](https://leetcode.com/problems/number-of-enclaves/)|Medium|
 ||1021|[Remove Outermost Parentheses](https://leetcode.com/problems/remove-outermost-parentheses/)|Easy|
 |[📎](src/q_1001_1050/q1022.cc)|1022|[Sum of Root To Leaf Binary Numbers](https://leetcode.com/problems/sum-of-root-to-leaf-binary-numbers/)|Easy|
@@ -2264,6 +2264,7 @@ My daily challenge on leetcode since 2021/09/06.
 
 |Time|#|</>|Question Title|Difficulty|
 |:--|--:|:-:|:--|:--|
+|2022-03-08 12:36|1019|[📎](src/q_1001_1050/q1019.cc)|[Next Greater Node In Linked List](https://leetcode.com/problems/next-greater-node-in-linked-list/)|Medium|
 |2022-03-07 19:08|1968|[📎](src/q_1951_2000/q1968.cc)|[Array With Elements Not Equal to Average of Neighbors](https://leetcode.com/problems/array-with-elements-not-equal-to-average-of-neighbors/)|Medium|
 |2022-03-06 12:49|1359|[📎](src/q_1351_1400/q1359.cc)|[Count All Valid Pickup and Delivery Options](https://leetcode.com/problems/count-all-valid-pickup-and-delivery-options/)|Hard|
 |2022-03-05 10:14|388|[📎](src/q_351_400/q0388.cc)|[Longest Absolute File Path](https://leetcode.com/problems/longest-absolute-file-path/)|Medium|
@@ -2288,13 +2289,12 @@ My daily challenge on leetcode since 2021/09/06.
 |2022-02-23 19:13|1903|[📎](src/q_1901_1950/q1903.cc)|[Largest Odd Number in String](https://leetcode.com/problems/largest-odd-number-in-string/)|Easy|
 |2022-02-23 18:25|133|[📎](src/q_101_150/q0133.cc)|[Clone Graph](https://leetcode.com/problems/clone-graph/)|Medium|
 |2022-02-22 18:05|1674|[📎](src/q_1651_1700/q1674.cc)|[Minimum Moves to Make Array Complementary](https://leetcode.com/problems/minimum-moves-to-make-array-complementary/)|Medium|
-|2022-02-22 18:01|171|[📎](src/q_151_200/q0171.cc)|[Excel Sheet Column Number](https://leetcode.com/problems/excel-sheet-column-number/)|Easy|
 
 ## Previous Logs
 
 |Month|Submissions|Easy|Medium|Hard|
 |:--|:--|:--|:--|:--|
-|[March_2022](./assets/March_2022.md)|10|2|6|2|
+|[March_2022](./assets/March_2022.md)|11|2|7|2|
 |[February_2022](./assets/February_2022.md)|69|15|43|11|
 |[January_2022](./assets/January_2022.md)|32|8|18|6|
 |[December_2021](./assets/December_2021.md)|33|11|15|7|
