@@ -777,7 +777,7 @@ id,title,level,slug,paid,done
 776,Split BST,2,split-bst,1,0
 777,Swap Adjacent in LR String,2,swap-adjacent-in-lr-string,0,0
 778,Swim in Rising Water,3,swim-in-rising-water,0,0
-779,K-th Symbol in Grammar,2,k-th-symbol-in-grammar,0,0
+779,K-th Symbol in Grammar,2,k-th-symbol-in-grammar,0,1
 780,Reaching Points,3,reaching-points,0,0
 781,Rabbits in Forest,2,rabbits-in-forest,0,0
 782,Transform to Chessboard,3,transform-to-chessboard,0,1

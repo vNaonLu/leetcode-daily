@@ -808,7 +808,7 @@ My daily challenge on leetcode since 2021/09/06.
 |🔒|776|[Split BST](https://leetcode.com/problems/split-bst/)|Medium|
 ||777|[Swap Adjacent in LR String](https://leetcode.com/problems/swap-adjacent-in-lr-string/)|Medium|
 ||778|[Swim in Rising Water](https://leetcode.com/problems/swim-in-rising-water/)|Hard|
-||779|[K-th Symbol in Grammar](https://leetcode.com/problems/k-th-symbol-in-grammar/)|Medium|
+|[📎](src/q_751_800/q0779.cc)|779|[K-th Symbol in Grammar](https://leetcode.com/problems/k-th-symbol-in-grammar/)|Medium|
 ||780|[Reaching Points](https://leetcode.com/problems/reaching-points/)|Hard|
 ||781|[Rabbits in Forest](https://leetcode.com/problems/rabbits-in-forest/)|Medium|
 |[📎](src/q_751_800/q0782.cc)|782|[Transform to Chessboard](https://leetcode.com/problems/transform-to-chessboard/)|Hard|
@@ -2264,6 +2264,7 @@ My daily challenge on leetcode since 2021/09/06.
 
 |Time|#|</>|Question Title|Difficulty|
 |:--|--:|:-:|:--|:--|
+|2022-03-09 18:07|779|[📎](src/q_751_800/q0779.cc)|[K-th Symbol in Grammar](https://leetcode.com/problems/k-th-symbol-in-grammar/)|Medium|
 |2022-03-08 12:36|1019|[📎](src/q_1001_1050/q1019.cc)|[Next Greater Node In Linked List](https://leetcode.com/problems/next-greater-node-in-linked-list/)|Medium|
 |2022-03-07 19:08|1968|[📎](src/q_1951_2000/q1968.cc)|[Array With Elements Not Equal to Average of Neighbors](https://leetcode.com/problems/array-with-elements-not-equal-to-average-of-neighbors/)|Medium|
 |2022-03-06 12:49|1359|[📎](src/q_1351_1400/q1359.cc)|[Count All Valid Pickup and Delivery Options](https://leetcode.com/problems/count-all-valid-pickup-and-delivery-options/)|Hard|
@@ -2288,13 +2289,12 @@ My daily challenge on leetcode since 2021/09/06.
 |2022-02-23 19:25|1791|[📎](src/q_1751_1800/q1791.cc)|[Find Center of Star Graph](https://leetcode.com/problems/find-center-of-star-graph/)|Easy|
 |2022-02-23 19:13|1903|[📎](src/q_1901_1950/q1903.cc)|[Largest Odd Number in String](https://leetcode.com/problems/largest-odd-number-in-string/)|Easy|
 |2022-02-23 18:25|133|[📎](src/q_101_150/q0133.cc)|[Clone Graph](https://leetcode.com/problems/clone-graph/)|Medium|
-|2022-02-22 18:05|1674|[📎](src/q_1651_1700/q1674.cc)|[Minimum Moves to Make Array Complementary](https://leetcode.com/problems/minimum-moves-to-make-array-complementary/)|Medium|
 
 ## Previous Logs
 
 |Month|Submissions|Easy|Medium|Hard|
 |:--|:--|:--|:--|:--|
-|[March_2022](./assets/March_2022.md)|11|2|7|2|
+|[March_2022](./assets/March_2022.md)|12|2|8|2|
 |[February_2022](./assets/February_2022.md)|69|15|43|11|
 |[January_2022](./assets/January_2022.md)|32|8|18|6|
 |[December_2021](./assets/December_2021.md)|33|11|15|7|
