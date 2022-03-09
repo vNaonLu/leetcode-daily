@@ -2,7 +2,7 @@
 
 ||#|</>|Question Title|Difficulty|
 |:--|--:|:-:|:--|:--|
-|Day 9|779|[📎](../src/q_751_800/q0779.cc)|[K-th Symbol in Grammar](https://leetcode.com/problems/k-th-symbol-in-grammar/)|Medium|
+|Day 9|779<br>1007|[📎](../src/q_751_800/q0779.cc)<br>[📎](../src/q_1001_1050/q1007.cc)|[K-th Symbol in Grammar](https://leetcode.com/problems/k-th-symbol-in-grammar/)<br>[Minimum Domino Rotations For Equal Row](https://leetcode.com/problems/minimum-domino-rotations-for-equal-row/)|Medium<br>Medium|
 |Day 8|1019|[📎](../src/q_1001_1050/q1019.cc)|[Next Greater Node In Linked List](https://leetcode.com/problems/next-greater-node-in-linked-list/)|Medium|
 |Day 7|1968|[📎](../src/q_1951_2000/q1968.cc)|[Array With Elements Not Equal to Average of Neighbors](https://leetcode.com/problems/array-with-elements-not-equal-to-average-of-neighbors/)|Medium|
 |Day 6|1359|[📎](../src/q_1351_1400/q1359.cc)|[Count All Valid Pickup and Delivery Options](https://leetcode.com/problems/count-all-valid-pickup-and-delivery-options/)|Hard|

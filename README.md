@@ -1042,7 +1042,7 @@ My daily challenge on leetcode since 2021/09/06.
 ||1004|[Max Consecutive Ones III](https://leetcode.com/problems/max-consecutive-ones-iii/)|Medium|
 ||1005|[Maximize Sum Of Array After K Negations](https://leetcode.com/problems/maximize-sum-of-array-after-k-negations/)|Easy|
 ||1006|[Clumsy Factorial](https://leetcode.com/problems/clumsy-factorial/)|Medium|
-||1007|[Minimum Domino Rotations For Equal Row](https://leetcode.com/problems/minimum-domino-rotations-for-equal-row/)|Medium|
+|[📎](src/q_1001_1050/q1007.cc)|1007|[Minimum Domino Rotations For Equal Row](https://leetcode.com/problems/minimum-domino-rotations-for-equal-row/)|Medium|
 |[📎](src/q_1001_1050/q1008.cc)|1008|[Construct Binary Search Tree from Preorder Traversal](https://leetcode.com/problems/construct-binary-search-tree-from-preorder-traversal/)|Medium|
 |[📎](src/q_1001_1050/q1009.cc)|1009|[Complement of Base 10 Integer](https://leetcode.com/problems/complement-of-base-10-integer/)|Easy|
 |[📎](src/q_1001_1050/q1010.cc)|1010|[Pairs of Songs With Total Durations Divisible by 60](https://leetcode.com/problems/pairs-of-songs-with-total-durations-divisible-by-60/)|Medium|
@@ -2264,6 +2264,7 @@ My daily challenge on leetcode since 2021/09/06.
 
 |Time|#|</>|Question Title|Difficulty|
 |:--|--:|:-:|:--|:--|
+|2022-03-09 18:17|1007|[📎](src/q_1001_1050/q1007.cc)|[Minimum Domino Rotations For Equal Row](https://leetcode.com/problems/minimum-domino-rotations-for-equal-row/)|Medium|
 |2022-03-09 18:07|779|[📎](src/q_751_800/q0779.cc)|[K-th Symbol in Grammar](https://leetcode.com/problems/k-th-symbol-in-grammar/)|Medium|
 |2022-03-08 12:36|1019|[📎](src/q_1001_1050/q1019.cc)|[Next Greater Node In Linked List](https://leetcode.com/problems/next-greater-node-in-linked-list/)|Medium|
 |2022-03-07 19:08|1968|[📎](src/q_1951_2000/q1968.cc)|[Array With Elements Not Equal to Average of Neighbors](https://leetcode.com/problems/array-with-elements-not-equal-to-average-of-neighbors/)|Medium|
@@ -2288,13 +2289,12 @@ My daily challenge on leetcode since 2021/09/06.
 |2022-02-24 18:19|1838|[📎](src/q_1801_1850/q1838.cc)|[Frequency of the Most Frequent Element](https://leetcode.com/problems/frequency-of-the-most-frequent-element/)|Medium|
 |2022-02-23 19:25|1791|[📎](src/q_1751_1800/q1791.cc)|[Find Center of Star Graph](https://leetcode.com/problems/find-center-of-star-graph/)|Easy|
 |2022-02-23 19:13|1903|[📎](src/q_1901_1950/q1903.cc)|[Largest Odd Number in String](https://leetcode.com/problems/largest-odd-number-in-string/)|Easy|
-|2022-02-23 18:25|133|[📎](src/q_101_150/q0133.cc)|[Clone Graph](https://leetcode.com/problems/clone-graph/)|Medium|
 
 ## Previous Logs
 
 |Month|Submissions|Easy|Medium|Hard|
 |:--|:--|:--|:--|:--|
-|[March_2022](./assets/March_2022.md)|12|2|8|2|
+|[March_2022](./assets/March_2022.md)|13|2|9|2|
 |[February_2022](./assets/February_2022.md)|69|15|43|11|
 |[January_2022](./assets/January_2022.md)|32|8|18|6|
 |[December_2021](./assets/December_2021.md)|33|11|15|7|
