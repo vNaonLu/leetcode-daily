@@ -1678,7 +1678,7 @@ id,title,level,slug,paid,done
 1677,Product's Worth Over Invoices,1,products-worth-over-invoices,1,0
 1678,Goal Parser Interpretation,1,goal-parser-interpretation,0,0
 1679,Max Number of K-Sum Pairs,2,max-number-of-k-sum-pairs,0,0
-1680,Concatenation of Consecutive Binary Numbers,2,concatenation-of-consecutive-binary-numbers,0,0
+1680,Concatenation of Consecutive Binary Numbers,2,concatenation-of-consecutive-binary-numbers,0,1
 1681,Minimum Incompatibility,3,minimum-incompatibility,0,0
 1682,Longest Palindromic Subsequence II,2,longest-palindromic-subsequence-ii,1,0
 1683,Invalid Tweets,1,invalid-tweets,1,0
@@ -2196,3 +2196,4 @@ id,title,level,slug,paid,done
 2195,Append K Integers With Minimal Sum,2,append-k-integers-with-minimal-sum,0,0
 2196,Create Binary Tree From Descriptions,2,create-binary-tree-from-descriptions,0,0
 2197,Replace Non-Coprime Numbers in Array,3,replace-non-coprime-numbers-in-array,0,0
+2198,Number of Single Divisor Triplets,2,number-of-single-divisor-triplets,1,0
