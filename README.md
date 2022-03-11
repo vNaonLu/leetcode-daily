@@ -1012,7 +1012,7 @@ My daily challenge on leetcode since 2021/09/06.
 |[📎](src/q_951_1000/q0980.cc)|980|[Unique Paths III](https://leetcode.com/problems/unique-paths-iii/)|Hard|
 ||981|[Time Based Key-Value Store](https://leetcode.com/problems/time-based-key-value-store/)|Medium|
 ||982|[Triples with Bitwise AND Equal To Zero](https://leetcode.com/problems/triples-with-bitwise-and-equal-to-zero/)|Hard|
-||983|[Minimum Cost For Tickets](https://leetcode.com/problems/minimum-cost-for-tickets/)|Medium|
+|[📎](src/q_951_1000/q0983.cc)|983|[Minimum Cost For Tickets](https://leetcode.com/problems/minimum-cost-for-tickets/)|Medium|
 ||984|[String Without AAA or BBB](https://leetcode.com/problems/string-without-aaa-or-bbb/)|Medium|
 ||985|[Sum of Even Numbers After Queries](https://leetcode.com/problems/sum-of-even-numbers-after-queries/)|Medium|
 |[📎](src/q_951_1000/q0986.cc)|986|[Interval List Intersections](https://leetcode.com/problems/interval-list-intersections/)|Medium|
@@ -2056,7 +2056,7 @@ My daily challenge on leetcode since 2021/09/06.
 ||2000|[Reverse Prefix of Word](https://leetcode.com/problems/reverse-prefix-of-word/)|Easy|
 </details>
 <details>
-  <summary>### 2001 ~ 2198</summary>
+  <summary>### 2001 ~ 2199</summary>
 
 |</>|#|Solution Title|Difficulty|
 |:-:|--:|:--|:--|
@@ -2258,6 +2258,7 @@ My daily challenge on leetcode since 2021/09/06.
 ||2196|[Create Binary Tree From Descriptions](https://leetcode.com/problems/create-binary-tree-from-descriptions/)|Medium|
 ||2197|[Replace Non-Coprime Numbers in Array](https://leetcode.com/problems/replace-non-coprime-numbers-in-array/)|Hard|
 |🔒|2198|[Number of Single Divisor Triplets](https://leetcode.com/problems/number-of-single-divisor-triplets/)|Medium|
+|🔒|2199|[Finding the Topic of Each Post](https://leetcode.com/problems/finding-the-topic-of-each-post/)|Hard|
 </details>
 
 ---
@@ -2265,6 +2266,7 @@ My daily challenge on leetcode since 2021/09/06.
 
 |Time|#|</>|Question Title|Difficulty|
 |:--|--:|:-:|:--|:--|
+|2022-03-11 18:27|983|[📎](src/q_951_1000/q0983.cc)|[Minimum Cost For Tickets](https://leetcode.com/problems/minimum-cost-for-tickets/)|Medium|
 |2022-03-10 18:29|1464|[📎](src/q_1451_1500/q1464.cc)|[Maximum Product of Two Elements in an Array](https://leetcode.com/problems/maximum-product-of-two-elements-in-an-array/)|Easy|
 |2022-03-10 18:17|1680|[📎](src/q_1651_1700/q1680.cc)|[Concatenation of Consecutive Binary Numbers](https://leetcode.com/problems/concatenation-of-consecutive-binary-numbers/)|Medium|
 |2022-03-09 18:17|1007|[📎](src/q_1001_1050/q1007.cc)|[Minimum Domino Rotations For Equal Row](https://leetcode.com/problems/minimum-domino-rotations-for-equal-row/)|Medium|
@@ -2289,13 +2291,12 @@ My daily challenge on leetcode since 2021/09/06.
 |2022-02-26 00:48|146|[📎](src/q_101_150/q0146.cc)|[LRU Cache](https://leetcode.com/problems/lru-cache/)|Medium|
 |2022-02-25 16:04|165|[📎](src/q_151_200/q0165.cc)|[Compare Version Numbers](https://leetcode.com/problems/compare-version-numbers/)|Medium|
 |2022-02-24 18:41|1124|[📎](src/q_1101_1150/q1124.cc)|[Longest Well-Performing Interval](https://leetcode.com/problems/longest-well-performing-interval/)|Medium|
-|2022-02-24 18:19|1838|[📎](src/q_1801_1850/q1838.cc)|[Frequency of the Most Frequent Element](https://leetcode.com/problems/frequency-of-the-most-frequent-element/)|Medium|
 
 ## Previous Logs
 
 |Month|Submissions|Easy|Medium|Hard|
 |:--|:--|:--|:--|:--|
-|[March_2022](./assets/March_2022.md)|15|3|10|2|
+|[March_2022](./assets/March_2022.md)|16|3|11|2|
 |[February_2022](./assets/February_2022.md)|69|15|43|11|
 |[January_2022](./assets/January_2022.md)|32|8|18|6|
 |[December_2021](./assets/December_2021.md)|33|11|15|7|
