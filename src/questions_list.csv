@@ -136,7 +136,7 @@ id,title,level,slug,paid,done
 135,Candy,3,candy,0,0
 136,Single Number,1,single-number,0,1
 137,Single Number II,2,single-number-ii,0,0
-138,Copy List with Random Pointer,2,copy-list-with-random-pointer,0,0
+138,Copy List with Random Pointer,2,copy-list-with-random-pointer,0,1
 139,Word Break,2,word-break,0,1
 140,Word Break II,3,word-break-ii,0,0
 141,Linked List Cycle,1,linked-list-cycle,0,1
