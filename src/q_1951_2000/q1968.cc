@@ -52,7 +52,7 @@ struct q1968 : public ::testing::Test {
 TEST_F(q1968, sample_input01) {
   solution = new Solution();
   vector<int> nums = {1, 2, 3, 4, 5};
-  vector<int> exp = {1, 2, 4, 5, 3};
+  vector<int> exp = {1, 3, 2, 5, 4};
   vector<int> act = solution->rearrangeArray(nums);
   EXPECT_EQ(act, exp);
   delete solution;
@@ -61,7 +61,7 @@ TEST_F(q1968, sample_input01) {
 TEST_F(q1968, sample_input02) {
   solution = new Solution();
   vector<int> nums = {6, 2, 0, 9, 7};
-  vector<int> exp = {9, 7, 6, 2, 0};
+  vector<int> exp = {6, 0, 9, 2, 7};
   vector<int> act = solution->rearrangeArray(nums);
   EXPECT_EQ(act, exp);
   delete solution;
