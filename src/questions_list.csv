@@ -136,7 +136,7 @@ id,title,level,slug,paid,done
 135,Candy,3,candy,0,0
 136,Single Number,1,single-number,0,1
 137,Single Number II,2,single-number-ii,0,0
-138,Copy List with Random Pointer,2,copy-list-with-random-pointer,0,0
+138,Copy List with Random Pointer,2,copy-list-with-random-pointer,0,1
 139,Word Break,2,word-break,0,1
 140,Word Break II,3,word-break-ii,0,0
 141,Linked List Cycle,1,linked-list-cycle,0,1
@@ -777,7 +777,7 @@ id,title,level,slug,paid,done
 776,Split BST,2,split-bst,1,0
 777,Swap Adjacent in LR String,2,swap-adjacent-in-lr-string,0,0
 778,Swim in Rising Water,3,swim-in-rising-water,0,0
-779,K-th Symbol in Grammar,2,k-th-symbol-in-grammar,0,0
+779,K-th Symbol in Grammar,2,k-th-symbol-in-grammar,0,1
 780,Reaching Points,3,reaching-points,0,0
 781,Rabbits in Forest,2,rabbits-in-forest,0,0
 782,Transform to Chessboard,3,transform-to-chessboard,0,1
@@ -981,7 +981,7 @@ id,title,level,slug,paid,done
 980,Unique Paths III,3,unique-paths-iii,0,1
 981,Time Based Key-Value Store,2,time-based-key-value-store,0,0
 982,Triples with Bitwise AND Equal To Zero,3,triples-with-bitwise-and-equal-to-zero,0,0
-983,Minimum Cost For Tickets,2,minimum-cost-for-tickets,0,0
+983,Minimum Cost For Tickets,2,minimum-cost-for-tickets,0,1
 984,String Without AAA or BBB,2,string-without-aaa-or-bbb,0,0
 985,Sum of Even Numbers After Queries,2,sum-of-even-numbers-after-queries,0,0
 986,Interval List Intersections,2,interval-list-intersections,0,1
@@ -1005,7 +1005,7 @@ id,title,level,slug,paid,done
 1004,Max Consecutive Ones III,2,max-consecutive-ones-iii,0,0
 1005,Maximize Sum Of Array After K Negations,1,maximize-sum-of-array-after-k-negations,0,0
 1006,Clumsy Factorial,2,clumsy-factorial,0,0
-1007,Minimum Domino Rotations For Equal Row,2,minimum-domino-rotations-for-equal-row,0,0
+1007,Minimum Domino Rotations For Equal Row,2,minimum-domino-rotations-for-equal-row,0,1
 1008,Construct Binary Search Tree from Preorder Traversal,2,construct-binary-search-tree-from-preorder-traversal,0,1
 1009,Complement of Base 10 Integer,1,complement-of-base-10-integer,0,1
 1010,Pairs of Songs With Total Durations Divisible by 60,2,pairs-of-songs-with-total-durations-divisible-by-60,0,1
@@ -1017,7 +1017,7 @@ id,title,level,slug,paid,done
 1016,Binary String With Substrings Representing 1 To N,2,binary-string-with-substrings-representing-1-to-n,0,0
 1017,Convert to Base -2,2,convert-to-base-2,0,1
 1018,Binary Prefix Divisible By 5,1,binary-prefix-divisible-by-5,0,0
-1019,Next Greater Node In Linked List,2,next-greater-node-in-linked-list,0,0
+1019,Next Greater Node In Linked List,2,next-greater-node-in-linked-list,0,1
 1020,Number of Enclaves,2,number-of-enclaves,0,1
 1021,Remove Outermost Parentheses,1,remove-outermost-parentheses,0,0
 1022,Sum of Root To Leaf Binary Numbers,1,sum-of-root-to-leaf-binary-numbers,0,1
@@ -1462,7 +1462,7 @@ id,title,level,slug,paid,done
 1461,Check If a String Contains All Binary Codes of Size K,2,check-if-a-string-contains-all-binary-codes-of-size-k,0,0
 1462,Course Schedule IV,2,course-schedule-iv,0,1
 1463,Cherry Pickup II,3,cherry-pickup-ii,0,1
-1464,Maximum Product of Two Elements in an Array,1,maximum-product-of-two-elements-in-an-array,0,0
+1464,Maximum Product of Two Elements in an Array,1,maximum-product-of-two-elements-in-an-array,0,1
 1465,Maximum Area of a Piece of Cake After Horizontal and Vertical Cuts,2,maximum-area-of-a-piece-of-cake-after-horizontal-and-vertical-cuts,0,0
 1466,Reorder Routes to Make All Paths Lead to the City Zero,2,reorder-routes-to-make-all-paths-lead-to-the-city-zero,0,0
 1467,Probability of a Two Boxes Having The Same Number of Distinct Balls,3,probability-of-a-two-boxes-having-the-same-number-of-distinct-balls,0,0
@@ -1678,7 +1678,7 @@ id,title,level,slug,paid,done
 1677,Product's Worth Over Invoices,1,products-worth-over-invoices,1,0
 1678,Goal Parser Interpretation,1,goal-parser-interpretation,0,0
 1679,Max Number of K-Sum Pairs,2,max-number-of-k-sum-pairs,0,0
-1680,Concatenation of Consecutive Binary Numbers,2,concatenation-of-consecutive-binary-numbers,0,0
+1680,Concatenation of Consecutive Binary Numbers,2,concatenation-of-consecutive-binary-numbers,0,1
 1681,Minimum Incompatibility,3,minimum-incompatibility,0,0
 1682,Longest Palindromic Subsequence II,2,longest-palindromic-subsequence-ii,1,0
 1683,Invalid Tweets,1,invalid-tweets,1,0
@@ -1903,7 +1903,7 @@ id,title,level,slug,paid,done
 1902,Depth of BST Given Insertion Order,2,depth-of-bst-given-insertion-order,1,0
 1903,Largest Odd Number in String,1,largest-odd-number-in-string,0,1
 1904,The Number of Full Rounds You Have Played,2,the-number-of-full-rounds-you-have-played,0,0
-1905,Count Sub Islands,2,count-sub-islands,0,0
+1905,Count Sub Islands,2,count-sub-islands,0,1
 1906,Minimum Absolute Difference Queries,2,minimum-absolute-difference-queries,0,0
 1907,Count Salary Categories,2,count-salary-categories,1,0
 1908,Game of Nim,2,game-of-nim,1,0
@@ -1966,7 +1966,7 @@ id,title,level,slug,paid,done
 1965,Employees With Missing Information,1,employees-with-missing-information,1,0
 1966,Binary Searchable Numbers in an Unsorted Array,2,binary-searchable-numbers-in-an-unsorted-array,1,0
 1967,Number of Strings That Appear as Substrings in Word,1,number-of-strings-that-appear-as-substrings-in-word,0,0
-1968,Array With Elements Not Equal to Average of Neighbors,2,array-with-elements-not-equal-to-average-of-neighbors,0,0
+1968,Array With Elements Not Equal to Average of Neighbors,2,array-with-elements-not-equal-to-average-of-neighbors,0,1
 1969,Minimum Non-Zero Product of the Array Elements,2,minimum-non-zero-product-of-the-array-elements,0,0
 1970,Last Day Where You Can Still Cross,3,last-day-where-you-can-still-cross,0,0
 1971,Find if Path Exists in Graph,1,find-if-path-exists-in-graph,0,0
@@ -2192,3 +2192,9 @@ id,title,level,slug,paid,done
 2191,Sort the Jumbled Numbers,2,sort-the-jumbled-numbers,0,0
 2192,All Ancestors of a Node in a Directed Acyclic Graph,2,all-ancestors-of-a-node-in-a-directed-acyclic-graph,0,0
 2193,Minimum Number of Moves to Make Palindrome,3,minimum-number-of-moves-to-make-palindrome,0,0
+2194,Cells in a Range on an Excel Sheet,1,cells-in-a-range-on-an-excel-sheet,0,0
+2195,Append K Integers With Minimal Sum,2,append-k-integers-with-minimal-sum,0,0
+2196,Create Binary Tree From Descriptions,2,create-binary-tree-from-descriptions,0,0
+2197,Replace Non-Coprime Numbers in Array,3,replace-non-coprime-numbers-in-array,0,0
+2198,Number of Single Divisor Triplets,2,number-of-single-divisor-triplets,1,0
+2199,Finding the Topic of Each Post,3,finding-the-topic-of-each-post,1,0
