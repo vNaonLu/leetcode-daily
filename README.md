@@ -2259,7 +2259,7 @@ My daily challenge on leetcode since 2021/09/06.
 ||2197|[Replace Non-Coprime Numbers in Array](https://leetcode.com/problems/replace-non-coprime-numbers-in-array/)|Hard|
 |🔒|2198|[Number of Single Divisor Triplets](https://leetcode.com/problems/number-of-single-divisor-triplets/)|Medium|
 |🔒|2199|[Finding the Topic of Each Post](https://leetcode.com/problems/finding-the-topic-of-each-post/)|Hard|
-||2200|[Find All K-Distant Indices in an Array](https://leetcode.com/problems/find-all-k-distant-indices-in-an-array/)|Easy|
+|[📎](src/q_2151_2200/q2200.cc)|2200|[Find All K-Distant Indices in an Array](https://leetcode.com/problems/find-all-k-distant-indices-in-an-array/)|Easy|
 ||2201|[Count Artifacts That Can Be Extracted](https://leetcode.com/problems/count-artifacts-that-can-be-extracted/)|Medium|
 ||2202|[Maximize the Topmost Element After K Moves](https://leetcode.com/problems/maximize-the-topmost-element-after-k-moves/)|Medium|
 ||2203|[Minimum Weighted Subgraph With the Required Paths](https://leetcode.com/problems/minimum-weighted-subgraph-with-the-required-paths/)|Hard|
@@ -2270,6 +2270,7 @@ My daily challenge on leetcode since 2021/09/06.
 
 |Time|#|</>|Question Title|Difficulty|
 |:--|--:|:-:|:--|:--|
+|2022-03-13 14:53|2200|[📎](src/q_2151_2200/q2200.cc)|[Find All K-Distant Indices in an Array](https://leetcode.com/problems/find-all-k-distant-indices-in-an-array/)|Easy|
 |2022-03-13 14:08|417|[📎](src/q_401_450/q0417.cc)|[Pacific Atlantic Water Flow](https://leetcode.com/problems/pacific-atlantic-water-flow/)|Medium|
 |2022-03-13 13:28|1162|[📎](src/q_1151_1200/q1162.cc)|[As Far from Land as Possible](https://leetcode.com/problems/as-far-from-land-as-possible/)|Medium|
 |2022-03-12 14:08|1905|[📎](src/q_1901_1950/q1905.cc)|[Count Sub Islands](https://leetcode.com/problems/count-sub-islands/)|Medium|
@@ -2294,13 +2295,12 @@ My daily challenge on leetcode since 2021/09/06.
 |2022-02-27 11:27|662|[📎](src/q_651_700/q0662.cc)|[Maximum Width of Binary Tree](https://leetcode.com/problems/maximum-width-of-binary-tree/)|Medium|
 |2022-02-27 00:41|86|[📎](src/q_51_100/q0086.cc)|[Partition List](https://leetcode.com/problems/partition-list/)|Medium|
 |2022-02-27 00:19|52|[📎](src/q_51_100/q0052.cc)|[N-Queens II](https://leetcode.com/problems/n-queens-ii/)|Hard|
-|2022-02-26 23:32|51|[📎](src/q_51_100/q0051.cc)|[N-Queens](https://leetcode.com/problems/n-queens/)|Hard|
 
 ## Previous Logs
 
 |Month|Submissions|Easy|Medium|Hard|
 |:--|:--|:--|:--|:--|
-|[March_2022](./assets/March_2022.md)|20|3|15|2|
+|[March_2022](./assets/March_2022.md)|21|4|15|2|
 |[February_2022](./assets/February_2022.md)|69|15|43|11|
 |[January_2022](./assets/January_2022.md)|32|8|18|6|
 |[December_2021](./assets/December_2021.md)|33|11|15|7|

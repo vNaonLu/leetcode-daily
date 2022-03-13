@@ -2198,7 +2198,7 @@ id,title,level,slug,paid,done
 2197,Replace Non-Coprime Numbers in Array,3,replace-non-coprime-numbers-in-array,0,0
 2198,Number of Single Divisor Triplets,2,number-of-single-divisor-triplets,1,0
 2199,Finding the Topic of Each Post,3,finding-the-topic-of-each-post,1,0
-2200,Find All K-Distant Indices in an Array,1,find-all-k-distant-indices-in-an-array,0,0
+2200,Find All K-Distant Indices in an Array,1,find-all-k-distant-indices-in-an-array,0,1
 2201,Count Artifacts That Can Be Extracted,2,count-artifacts-that-can-be-extracted,0,0
 2202,Maximize the Topmost Element After K Moves,2,maximize-the-topmost-element-after-k-moves,0,0
 2203,Minimum Weighted Subgraph With the Required Paths,3,minimum-weighted-subgraph-with-the-required-paths,0,0
