@@ -1197,7 +1197,7 @@ My daily challenge on leetcode since 2021/09/06.
 |🔒|1159|[Market Analysis II](https://leetcode.com/problems/market-analysis-ii/)|Hard|
 ||1160|[Find Words That Can Be Formed by Characters](https://leetcode.com/problems/find-words-that-can-be-formed-by-characters/)|Easy|
 ||1161|[Maximum Level Sum of a Binary Tree](https://leetcode.com/problems/maximum-level-sum-of-a-binary-tree/)|Medium|
-||1162|[As Far from Land as Possible](https://leetcode.com/problems/as-far-from-land-as-possible/)|Medium|
+|[📎](src/q_1151_1200/q1162.cc)|1162|[As Far from Land as Possible](https://leetcode.com/problems/as-far-from-land-as-possible/)|Medium|
 ||1163|[Last Substring in Lexicographical Order](https://leetcode.com/problems/last-substring-in-lexicographical-order/)|Hard|
 |🔒|1164|[Product Price at a Given Date](https://leetcode.com/problems/product-price-at-a-given-date/)|Medium|
 |🔒|1165|[Single-Row Keyboard](https://leetcode.com/problems/single-row-keyboard/)|Easy|
@@ -2056,7 +2056,7 @@ My daily challenge on leetcode since 2021/09/06.
 ||2000|[Reverse Prefix of Word](https://leetcode.com/problems/reverse-prefix-of-word/)|Easy|
 </details>
 <details>
-  <summary>### 2001 ~ 2199</summary>
+  <summary>### 2001 ~ 2203</summary>
 
 |</>|#|Solution Title|Difficulty|
 |:-:|--:|:--|:--|
@@ -2259,6 +2259,10 @@ My daily challenge on leetcode since 2021/09/06.
 ||2197|[Replace Non-Coprime Numbers in Array](https://leetcode.com/problems/replace-non-coprime-numbers-in-array/)|Hard|
 |🔒|2198|[Number of Single Divisor Triplets](https://leetcode.com/problems/number-of-single-divisor-triplets/)|Medium|
 |🔒|2199|[Finding the Topic of Each Post](https://leetcode.com/problems/finding-the-topic-of-each-post/)|Hard|
+||2200|[Find All K-Distant Indices in an Array](https://leetcode.com/problems/find-all-k-distant-indices-in-an-array/)|Easy|
+||2201|[Count Artifacts That Can Be Extracted](https://leetcode.com/problems/count-artifacts-that-can-be-extracted/)|Medium|
+||2202|[Maximize the Topmost Element After K Moves](https://leetcode.com/problems/maximize-the-topmost-element-after-k-moves/)|Medium|
+||2203|[Minimum Weighted Subgraph With the Required Paths](https://leetcode.com/problems/minimum-weighted-subgraph-with-the-required-paths/)|Hard|
 </details>
 
 ---
@@ -2266,6 +2270,7 @@ My daily challenge on leetcode since 2021/09/06.
 
 |Time|#|</>|Question Title|Difficulty|
 |:--|--:|:-:|:--|:--|
+|2022-03-13 13:28|1162|[📎](src/q_1151_1200/q1162.cc)|[As Far from Land as Possible](https://leetcode.com/problems/as-far-from-land-as-possible/)|Medium|
 |2022-03-12 14:08|1905|[📎](src/q_1901_1950/q1905.cc)|[Count Sub Islands](https://leetcode.com/problems/count-sub-islands/)|Medium|
 |2022-03-12 13:26|138|[📎](src/q_101_150/q0138.cc)|[Copy List with Random Pointer](https://leetcode.com/problems/copy-list-with-random-pointer/)|Medium|
 |2022-03-11 18:27|983|[📎](src/q_951_1000/q0983.cc)|[Minimum Cost For Tickets](https://leetcode.com/problems/minimum-cost-for-tickets/)|Medium|
@@ -2290,13 +2295,12 @@ My daily challenge on leetcode since 2021/09/06.
 |2022-02-27 00:19|52|[📎](src/q_51_100/q0052.cc)|[N-Queens II](https://leetcode.com/problems/n-queens-ii/)|Hard|
 |2022-02-26 23:32|51|[📎](src/q_51_100/q0051.cc)|[N-Queens](https://leetcode.com/problems/n-queens/)|Hard|
 |2022-02-26 14:01|847|[📎](src/q_801_850/q0847.cc)|[Shortest Path Visiting All Nodes](https://leetcode.com/problems/shortest-path-visiting-all-nodes/)|Hard|
-|2022-02-26 00:48|146|[📎](src/q_101_150/q0146.cc)|[LRU Cache](https://leetcode.com/problems/lru-cache/)|Medium|
 
 ## Previous Logs
 
 |Month|Submissions|Easy|Medium|Hard|
 |:--|:--|:--|:--|:--|
-|[March_2022](./assets/March_2022.md)|18|3|13|2|
+|[March_2022](./assets/March_2022.md)|19|3|14|2|
 |[February_2022](./assets/February_2022.md)|69|15|43|11|
 |[January_2022](./assets/January_2022.md)|32|8|18|6|
 |[December_2021](./assets/December_2021.md)|33|11|15|7|

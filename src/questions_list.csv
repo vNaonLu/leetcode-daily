@@ -1160,7 +1160,7 @@ id,title,level,slug,paid,done
 1159,Market Analysis II,3,market-analysis-ii,1,0
 1160,Find Words That Can Be Formed by Characters,1,find-words-that-can-be-formed-by-characters,0,0
 1161,Maximum Level Sum of a Binary Tree,2,maximum-level-sum-of-a-binary-tree,0,0
-1162,As Far from Land as Possible,2,as-far-from-land-as-possible,0,0
+1162,As Far from Land as Possible,2,as-far-from-land-as-possible,0,1
 1163,Last Substring in Lexicographical Order,3,last-substring-in-lexicographical-order,0,0
 1164,Product Price at a Given Date,2,product-price-at-a-given-date,1,0
 1165,Single-Row Keyboard,1,single-row-keyboard,1,0
@@ -2198,3 +2198,7 @@ id,title,level,slug,paid,done
 2197,Replace Non-Coprime Numbers in Array,3,replace-non-coprime-numbers-in-array,0,0
 2198,Number of Single Divisor Triplets,2,number-of-single-divisor-triplets,1,0
 2199,Finding the Topic of Each Post,3,finding-the-topic-of-each-post,1,0
+2200,Find All K-Distant Indices in an Array,1,find-all-k-distant-indices-in-an-array,0,0
+2201,Count Artifacts That Can Be Extracted,2,count-artifacts-that-can-be-extracted,0,0
+2202,Maximize the Topmost Element After K Moves,2,maximize-the-topmost-element-after-k-moves,0,0
+2203,Minimum Weighted Subgraph With the Required Paths,3,minimum-weighted-subgraph-with-the-required-paths,0,0
