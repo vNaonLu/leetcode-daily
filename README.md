@@ -82,7 +82,7 @@ My daily challenge on leetcode since 2021/09/06.
 |[📎](src/q_51_100/q0068.cc)|68|[Text Justification](https://leetcode.com/problems/text-justification/)|Hard|
 |[📎](src/q_51_100/q0069.cc)|69|[Sqrt(x)](https://leetcode.com/problems/sqrtx/)|Easy|
 |[📎](src/q_51_100/q0070.cc)|70|[Climbing Stairs](https://leetcode.com/problems/climbing-stairs/)|Easy|
-||71|[Simplify Path](https://leetcode.com/problems/simplify-path/)|Medium|
+|[📎](src/q_51_100/q0071.cc)|71|[Simplify Path](https://leetcode.com/problems/simplify-path/)|Medium|
 |[📎](src/q_51_100/q0072.cc)|72|[Edit Distance](https://leetcode.com/problems/edit-distance/)|Hard|
 ||73|[Set Matrix Zeroes](https://leetcode.com/problems/set-matrix-zeroes/)|Medium|
 |[📎](src/q_51_100/q0074.cc)|74|[Search a 2D Matrix](https://leetcode.com/problems/search-a-2d-matrix/)|Medium|
@@ -2270,6 +2270,7 @@ My daily challenge on leetcode since 2021/09/06.
 
 |Time|#|</>|Question Title|Difficulty|
 |:--|--:|:-:|:--|:--|
+|2022-03-14 18:29|71|[📎](src/q_51_100/q0071.cc)|[Simplify Path](https://leetcode.com/problems/simplify-path/)|Medium|
 |2022-03-13 14:53|2200|[📎](src/q_2151_2200/q2200.cc)|[Find All K-Distant Indices in an Array](https://leetcode.com/problems/find-all-k-distant-indices-in-an-array/)|Easy|
 |2022-03-13 14:08|417|[📎](src/q_401_450/q0417.cc)|[Pacific Atlantic Water Flow](https://leetcode.com/problems/pacific-atlantic-water-flow/)|Medium|
 |2022-03-13 13:28|1162|[📎](src/q_1151_1200/q1162.cc)|[As Far from Land as Possible](https://leetcode.com/problems/as-far-from-land-as-possible/)|Medium|
@@ -2294,13 +2295,12 @@ My daily challenge on leetcode since 2021/09/06.
 |2022-02-28 15:43|228|[📎](src/q_201_250/q0228.cc)|[Summary Ranges](https://leetcode.com/problems/summary-ranges/)|Easy|
 |2022-02-27 11:27|662|[📎](src/q_651_700/q0662.cc)|[Maximum Width of Binary Tree](https://leetcode.com/problems/maximum-width-of-binary-tree/)|Medium|
 |2022-02-27 00:41|86|[📎](src/q_51_100/q0086.cc)|[Partition List](https://leetcode.com/problems/partition-list/)|Medium|
-|2022-02-27 00:19|52|[📎](src/q_51_100/q0052.cc)|[N-Queens II](https://leetcode.com/problems/n-queens-ii/)|Hard|
 
 ## Previous Logs
 
 |Month|Submissions|Easy|Medium|Hard|
 |:--|:--|:--|:--|:--|
-|[March_2022](./assets/March_2022.md)|21|4|15|2|
+|[March_2022](./assets/March_2022.md)|22|4|16|2|
 |[February_2022](./assets/February_2022.md)|69|15|43|11|
 |[January_2022](./assets/January_2022.md)|32|8|18|6|
 |[December_2021](./assets/December_2021.md)|33|11|15|7|
