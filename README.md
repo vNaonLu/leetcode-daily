@@ -963,7 +963,7 @@ My daily challenge on leetcode since 2021/09/06.
 |[📎](src/q_901_950/q0931.cc)|931|[Minimum Falling Path Sum](https://leetcode.com/problems/minimum-falling-path-sum/)|Medium|
 ||932|[Beautiful Array](https://leetcode.com/problems/beautiful-array/)|Medium|
 ||933|[Number of Recent Calls](https://leetcode.com/problems/number-of-recent-calls/)|Easy|
-||934|[Shortest Bridge](https://leetcode.com/problems/shortest-bridge/)|Medium|
+|[📎](src/q_901_950/q0934.cc)|934|[Shortest Bridge](https://leetcode.com/problems/shortest-bridge/)|Medium|
 ||935|[Knight Dialer](https://leetcode.com/problems/knight-dialer/)|Medium|
 ||936|[Stamping The Sequence](https://leetcode.com/problems/stamping-the-sequence/)|Hard|
 ||937|[Reorder Data in Log Files](https://leetcode.com/problems/reorder-data-in-log-files/)|Easy|
@@ -2270,6 +2270,7 @@ My daily challenge on leetcode since 2021/09/06.
 
 |Time|#|</>|Question Title|Difficulty|
 |:--|--:|:-:|:--|:--|
+|2022-03-15 18:19|934|[📎](src/q_901_950/q0934.cc)|[Shortest Bridge](https://leetcode.com/problems/shortest-bridge/)|Medium|
 |2022-03-14 18:29|71|[📎](src/q_51_100/q0071.cc)|[Simplify Path](https://leetcode.com/problems/simplify-path/)|Medium|
 |2022-03-13 14:53|2200|[📎](src/q_2151_2200/q2200.cc)|[Find All K-Distant Indices in an Array](https://leetcode.com/problems/find-all-k-distant-indices-in-an-array/)|Easy|
 |2022-03-13 14:08|417|[📎](src/q_401_450/q0417.cc)|[Pacific Atlantic Water Flow](https://leetcode.com/problems/pacific-atlantic-water-flow/)|Medium|
@@ -2294,13 +2295,12 @@ My daily challenge on leetcode since 2021/09/06.
 |2022-03-01 14:29|109|[📎](src/q_101_150/q0109.cc)|[Convert Sorted List to Binary Search Tree](https://leetcode.com/problems/convert-sorted-list-to-binary-search-tree/)|Medium|
 |2022-02-28 15:43|228|[📎](src/q_201_250/q0228.cc)|[Summary Ranges](https://leetcode.com/problems/summary-ranges/)|Easy|
 |2022-02-27 11:27|662|[📎](src/q_651_700/q0662.cc)|[Maximum Width of Binary Tree](https://leetcode.com/problems/maximum-width-of-binary-tree/)|Medium|
-|2022-02-27 00:41|86|[📎](src/q_51_100/q0086.cc)|[Partition List](https://leetcode.com/problems/partition-list/)|Medium|
 
 ## Previous Logs
 
 |Month|Submissions|Easy|Medium|Hard|
 |:--|:--|:--|:--|:--|
-|[March_2022](./assets/March_2022.md)|22|4|16|2|
+|[March_2022](./assets/March_2022.md)|23|4|17|2|
 |[February_2022](./assets/February_2022.md)|69|15|43|11|
 |[January_2022](./assets/January_2022.md)|32|8|18|6|
 |[December_2021](./assets/December_2021.md)|33|11|15|7|

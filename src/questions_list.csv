@@ -932,7 +932,7 @@ id,title,level,slug,paid,done
 931,Minimum Falling Path Sum,2,minimum-falling-path-sum,0,1
 932,Beautiful Array,2,beautiful-array,0,0
 933,Number of Recent Calls,1,number-of-recent-calls,0,0
-934,Shortest Bridge,2,shortest-bridge,0,0
+934,Shortest Bridge,2,shortest-bridge,0,1
 935,Knight Dialer,2,knight-dialer,0,0
 936,Stamping The Sequence,3,stamping-the-sequence,0,0
 937,Reorder Data in Log Files,1,reorder-data-in-log-files,0,0
