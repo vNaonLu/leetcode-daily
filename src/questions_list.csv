@@ -2178,7 +2178,7 @@ id,title,level,slug,paid,done
 2177,Find Three Consecutive Integers That Sum to a Given Number,2,find-three-consecutive-integers-that-sum-to-a-given-number,0,0
 2178,Maximum Split of Positive Even Integers,2,maximum-split-of-positive-even-integers,0,0
 2179,Count Good Triplets in an Array,3,count-good-triplets-in-an-array,0,0
-2180,Count Integers With Even Digit Sum,1,count-integers-with-even-digit-sum,0,0
+2180,Count Integers With Even Digit Sum,1,count-integers-with-even-digit-sum,0,1
 2181,Merge Nodes in Between Zeros,2,merge-nodes-in-between-zeros,0,0
 2182,Construct String With Repeat Limit,2,construct-string-with-repeat-limit,0,0
 2183,Count Array Pairs Divisible by K,3,count-array-pairs-divisible-by-k,0,0
