@@ -1360,7 +1360,7 @@ My daily challenge on leetcode since 2021/09/06.
 ||1316|[Distinct Echo Substrings](https://leetcode.com/problems/distinct-echo-substrings/)|Hard|
 ||1317|[Convert Integer to the Sum of Two No-Zero Integers](https://leetcode.com/problems/convert-integer-to-the-sum-of-two-no-zero-integers/)|Easy|
 ||1318|[Minimum Flips to Make a OR b Equal to c](https://leetcode.com/problems/minimum-flips-to-make-a-or-b-equal-to-c/)|Medium|
-||1319|[Number of Operations to Make Network Connected](https://leetcode.com/problems/number-of-operations-to-make-network-connected/)|Medium|
+|[📎](src/q_1301_1350/q1319.cc)|1319|[Number of Operations to Make Network Connected](https://leetcode.com/problems/number-of-operations-to-make-network-connected/)|Medium|
 ||1320|[Minimum Distance to Type a Word Using Two Fingers](https://leetcode.com/problems/minimum-distance-to-type-a-word-using-two-fingers/)|Hard|
 |🔒|1321|[Restaurant Growth](https://leetcode.com/problems/restaurant-growth/)|Medium|
 |🔒|1322|[Ads Performance](https://leetcode.com/problems/ads-performance/)|Easy|
@@ -2270,6 +2270,7 @@ My daily challenge on leetcode since 2021/09/06.
 
 |Time|#|</>|Question Title|Difficulty|
 |:--|--:|:-:|:--|:--|
+|2022-03-17 18:22|1319|[📎](src/q_1301_1350/q1319.cc)|[Number of Operations to Make Network Connected](https://leetcode.com/problems/number-of-operations-to-make-network-connected/)|Medium|
 |2022-03-17 18:08|856|[📎](src/q_851_900/q0856.cc)|[Score of Parentheses](https://leetcode.com/problems/score-of-parentheses/)|Medium|
 |2022-03-16 18:36|2180|[📎](src/q_2151_2200/q2180.cc)|[Count Integers With Even Digit Sum](https://leetcode.com/problems/count-integers-with-even-digit-sum/)|Easy|
 |2022-03-15 18:42|1926|[📎](src/q_1901_1950/q1926.cc)|[Nearest Exit from Entrance in Maze](https://leetcode.com/problems/nearest-exit-from-entrance-in-maze/)|Medium|
@@ -2294,13 +2295,12 @@ My daily challenge on leetcode since 2021/09/06.
 |2022-03-04 18:09|799|[📎](src/q_751_800/q0799.cc)|[Champagne Tower](https://leetcode.com/problems/champagne-tower/)|Medium|
 |2022-03-03 18:13|1507|[📎](src/q_1501_1550/q1507.cc)|[Reformat Date](https://leetcode.com/problems/reformat-date/)|Easy|
 |2022-03-02 18:33|1344|[📎](src/q_1301_1350/q1344.cc)|[Angle Between Hands of a Clock](https://leetcode.com/problems/angle-between-hands-of-a-clock/)|Medium|
-|2022-03-01 21:04|68|[📎](src/q_51_100/q0068.cc)|[Text Justification](https://leetcode.com/problems/text-justification/)|Hard|
 
 ## Previous Logs
 
 |Month|Submissions|Easy|Medium|Hard|
 |:--|:--|:--|:--|:--|
-|[March_2022](./assets/March_2022.md)|26|5|19|2|
+|[March_2022](./assets/March_2022.md)|27|5|20|2|
 |[February_2022](./assets/February_2022.md)|69|15|43|11|
 |[January_2022](./assets/January_2022.md)|32|8|18|6|
 |[December_2021](./assets/December_2021.md)|33|11|15|7|
