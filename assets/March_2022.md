@@ -2,6 +2,7 @@
 
 ||#|</>|Question Title|Difficulty|
 |:--|--:|:-:|:--|:--|
+|Day 17|856|[📎](../src/q_851_900/q0856.cc)|[Score of Parentheses](https://leetcode.com/problems/score-of-parentheses/)|Medium|
 |Day 16|2180|[📎](../src/q_2151_2200/q2180.cc)|[Count Integers With Even Digit Sum](https://leetcode.com/problems/count-integers-with-even-digit-sum/)|Easy|
 |Day 15|934<br>1926|[📎](../src/q_901_950/q0934.cc)<br>[📎](../src/q_1901_1950/q1926.cc)|[Shortest Bridge](https://leetcode.com/problems/shortest-bridge/)<br>[Nearest Exit from Entrance in Maze](https://leetcode.com/problems/nearest-exit-from-entrance-in-maze/)|Medium<br>Medium|
 |Day 14|71|[📎](../src/q_51_100/q0071.cc)|[Simplify Path](https://leetcode.com/problems/simplify-path/)|Medium|

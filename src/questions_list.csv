@@ -854,7 +854,7 @@ id,title,level,slug,paid,done
 853,Car Fleet,2,car-fleet,0,0
 854,K-Similar Strings,3,k-similar-strings,0,0
 855,Exam Room,2,exam-room,0,0
-856,Score of Parentheses,2,score-of-parentheses,0,0
+856,Score of Parentheses,2,score-of-parentheses,0,1
 857,Minimum Cost to Hire K Workers,3,minimum-cost-to-hire-k-workers,0,0
 858,Mirror Reflection,2,mirror-reflection,0,0
 859,Buddy Strings,1,buddy-strings,0,0

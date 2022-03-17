@@ -885,7 +885,7 @@ My daily challenge on leetcode since 2021/09/06.
 ||853|[Car Fleet](https://leetcode.com/problems/car-fleet/)|Medium|
 ||854|[K-Similar Strings](https://leetcode.com/problems/k-similar-strings/)|Hard|
 ||855|[Exam Room](https://leetcode.com/problems/exam-room/)|Medium|
-||856|[Score of Parentheses](https://leetcode.com/problems/score-of-parentheses/)|Medium|
+|[📎](src/q_851_900/q0856.cc)|856|[Score of Parentheses](https://leetcode.com/problems/score-of-parentheses/)|Medium|
 ||857|[Minimum Cost to Hire K Workers](https://leetcode.com/problems/minimum-cost-to-hire-k-workers/)|Hard|
 ||858|[Mirror Reflection](https://leetcode.com/problems/mirror-reflection/)|Medium|
 ||859|[Buddy Strings](https://leetcode.com/problems/buddy-strings/)|Easy|
@@ -2270,6 +2270,7 @@ My daily challenge on leetcode since 2021/09/06.
 
 |Time|#|</>|Question Title|Difficulty|
 |:--|--:|:-:|:--|:--|
+|2022-03-17 18:08|856|[📎](src/q_851_900/q0856.cc)|[Score of Parentheses](https://leetcode.com/problems/score-of-parentheses/)|Medium|
 |2022-03-16 18:36|2180|[📎](src/q_2151_2200/q2180.cc)|[Count Integers With Even Digit Sum](https://leetcode.com/problems/count-integers-with-even-digit-sum/)|Easy|
 |2022-03-15 18:42|1926|[📎](src/q_1901_1950/q1926.cc)|[Nearest Exit from Entrance in Maze](https://leetcode.com/problems/nearest-exit-from-entrance-in-maze/)|Medium|
 |2022-03-15 18:19|934|[📎](src/q_901_950/q0934.cc)|[Shortest Bridge](https://leetcode.com/problems/shortest-bridge/)|Medium|
@@ -2294,13 +2295,12 @@ My daily challenge on leetcode since 2021/09/06.
 |2022-03-03 18:13|1507|[📎](src/q_1501_1550/q1507.cc)|[Reformat Date](https://leetcode.com/problems/reformat-date/)|Easy|
 |2022-03-02 18:33|1344|[📎](src/q_1301_1350/q1344.cc)|[Angle Between Hands of a Clock](https://leetcode.com/problems/angle-between-hands-of-a-clock/)|Medium|
 |2022-03-01 21:04|68|[📎](src/q_51_100/q0068.cc)|[Text Justification](https://leetcode.com/problems/text-justification/)|Hard|
-|2022-03-01 14:29|109|[📎](src/q_101_150/q0109.cc)|[Convert Sorted List to Binary Search Tree](https://leetcode.com/problems/convert-sorted-list-to-binary-search-tree/)|Medium|
 
 ## Previous Logs
 
 |Month|Submissions|Easy|Medium|Hard|
 |:--|:--|:--|:--|:--|
-|[March_2022](./assets/March_2022.md)|25|5|18|2|
+|[March_2022](./assets/March_2022.md)|26|5|19|2|
 |[February_2022](./assets/February_2022.md)|69|15|43|11|
 |[January_2022](./assets/January_2022.md)|32|8|18|6|
 |[December_2021](./assets/December_2021.md)|33|11|15|7|
