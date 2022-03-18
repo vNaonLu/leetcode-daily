@@ -333,7 +333,7 @@ My daily challenge on leetcode since 2021/09/06.
 ||313|[Super Ugly Number](https://leetcode.com/problems/super-ugly-number/)|Medium|
 |🔒|314|[Binary Tree Vertical Order Traversal](https://leetcode.com/problems/binary-tree-vertical-order-traversal/)|Medium|
 |[📎](src/q_301_350/q0315.cc)|315|[Count of Smaller Numbers After Self](https://leetcode.com/problems/count-of-smaller-numbers-after-self/)|Hard|
-||316|[Remove Duplicate Letters](https://leetcode.com/problems/remove-duplicate-letters/)|Medium|
+|[📎](src/q_301_350/q0316.cc)|316|[Remove Duplicate Letters](https://leetcode.com/problems/remove-duplicate-letters/)|Medium|
 |🔒|317|[Shortest Distance from All Buildings](https://leetcode.com/problems/shortest-distance-from-all-buildings/)|Hard|
 ||318|[Maximum Product of Word Lengths](https://leetcode.com/problems/maximum-product-of-word-lengths/)|Medium|
 ||319|[Bulb Switcher](https://leetcode.com/problems/bulb-switcher/)|Medium|
@@ -2056,7 +2056,7 @@ My daily challenge on leetcode since 2021/09/06.
 ||2000|[Reverse Prefix of Word](https://leetcode.com/problems/reverse-prefix-of-word/)|Easy|
 </details>
 <details>
-  <summary>### 2001 ~ 2203</summary>
+  <summary>### 2001 ~ 2204</summary>
 
 |</>|#|Solution Title|Difficulty|
 |:-:|--:|:--|:--|
@@ -2263,6 +2263,7 @@ My daily challenge on leetcode since 2021/09/06.
 ||2201|[Count Artifacts That Can Be Extracted](https://leetcode.com/problems/count-artifacts-that-can-be-extracted/)|Medium|
 ||2202|[Maximize the Topmost Element After K Moves](https://leetcode.com/problems/maximize-the-topmost-element-after-k-moves/)|Medium|
 ||2203|[Minimum Weighted Subgraph With the Required Paths](https://leetcode.com/problems/minimum-weighted-subgraph-with-the-required-paths/)|Hard|
+|🔒|2204|[Distance to a Cycle in Undirected Graph](https://leetcode.com/problems/distance-to-a-cycle-in-undirected-graph/)|Hard|
 </details>
 
 ---
@@ -2270,6 +2271,7 @@ My daily challenge on leetcode since 2021/09/06.
 
 |Time|#|</>|Question Title|Difficulty|
 |:--|--:|:-:|:--|:--|
+|2022-03-18 18:14|316|[📎](src/q_301_350/q0316.cc)|[Remove Duplicate Letters](https://leetcode.com/problems/remove-duplicate-letters/)|Medium|
 |2022-03-17 18:22|1319|[📎](src/q_1301_1350/q1319.cc)|[Number of Operations to Make Network Connected](https://leetcode.com/problems/number-of-operations-to-make-network-connected/)|Medium|
 |2022-03-17 18:08|856|[📎](src/q_851_900/q0856.cc)|[Score of Parentheses](https://leetcode.com/problems/score-of-parentheses/)|Medium|
 |2022-03-16 18:36|2180|[📎](src/q_2151_2200/q2180.cc)|[Count Integers With Even Digit Sum](https://leetcode.com/problems/count-integers-with-even-digit-sum/)|Easy|
@@ -2294,13 +2296,12 @@ My daily challenge on leetcode since 2021/09/06.
 |2022-03-04 18:34|1462|[📎](src/q_1451_1500/q1462.cc)|[Course Schedule IV](https://leetcode.com/problems/course-schedule-iv/)|Medium|
 |2022-03-04 18:09|799|[📎](src/q_751_800/q0799.cc)|[Champagne Tower](https://leetcode.com/problems/champagne-tower/)|Medium|
 |2022-03-03 18:13|1507|[📎](src/q_1501_1550/q1507.cc)|[Reformat Date](https://leetcode.com/problems/reformat-date/)|Easy|
-|2022-03-02 18:33|1344|[📎](src/q_1301_1350/q1344.cc)|[Angle Between Hands of a Clock](https://leetcode.com/problems/angle-between-hands-of-a-clock/)|Medium|
 
 ## Previous Logs
 
 |Month|Submissions|Easy|Medium|Hard|
 |:--|:--|:--|:--|:--|
-|[March_2022](./assets/March_2022.md)|27|5|20|2|
+|[March_2022](./assets/March_2022.md)|28|5|21|2|
 |[February_2022](./assets/February_2022.md)|69|15|43|11|
 |[January_2022](./assets/January_2022.md)|32|8|18|6|
 |[December_2021](./assets/December_2021.md)|33|11|15|7|

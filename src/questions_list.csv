@@ -314,7 +314,7 @@ id,title,level,slug,paid,done
 313,Super Ugly Number,2,super-ugly-number,0,0
 314,Binary Tree Vertical Order Traversal,2,binary-tree-vertical-order-traversal,1,0
 315,Count of Smaller Numbers After Self,3,count-of-smaller-numbers-after-self,0,1
-316,Remove Duplicate Letters,2,remove-duplicate-letters,0,0
+316,Remove Duplicate Letters,2,remove-duplicate-letters,0,1
 317,Shortest Distance from All Buildings,3,shortest-distance-from-all-buildings,1,0
 318,Maximum Product of Word Lengths,2,maximum-product-of-word-lengths,0,0
 319,Bulb Switcher,2,bulb-switcher,0,0
@@ -2202,3 +2202,4 @@ id,title,level,slug,paid,done
 2201,Count Artifacts That Can Be Extracted,2,count-artifacts-that-can-be-extracted,0,0
 2202,Maximize the Topmost Element After K Moves,2,maximize-the-topmost-element-after-k-moves,0,0
 2203,Minimum Weighted Subgraph With the Required Paths,3,minimum-weighted-subgraph-with-the-required-paths,0,0
+2204,Distance to a Cycle in Undirected Graph,3,distance-to-a-cycle-in-undirected-graph,1,0
