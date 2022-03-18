@@ -800,7 +800,7 @@ id,title,level,slug,paid,done
 799,Champagne Tower,2,champagne-tower,0,1
 800,Similar RGB Color,1,similar-rgb-color,1,0
 801,Minimum Swaps To Make Sequences Increasing,3,minimum-swaps-to-make-sequences-increasing,0,0
-802,Find Eventual Safe States,2,find-eventual-safe-states,0,0
+802,Find Eventual Safe States,2,find-eventual-safe-states,0,1
 803,Bricks Falling When Hit,3,bricks-falling-when-hit,0,0
 804,Unique Morse Code Words,1,unique-morse-code-words,0,0
 805,Split Array With Same Average,3,split-array-with-same-average,0,0
