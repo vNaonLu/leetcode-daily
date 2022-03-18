@@ -1417,7 +1417,7 @@ My daily challenge on leetcode since 2021/09/06.
 ||1373|[Maximum Sum BST in Binary Tree](https://leetcode.com/problems/maximum-sum-bst-in-binary-tree/)|Hard|
 ||1374|[Generate a String With Characters That Have Odd Counts](https://leetcode.com/problems/generate-a-string-with-characters-that-have-odd-counts/)|Easy|
 ||1375|[Number of Times Binary String Is Prefix-Aligned](https://leetcode.com/problems/number-of-times-binary-string-is-prefix-aligned/)|Medium|
-||1376|[Time Needed to Inform All Employees](https://leetcode.com/problems/time-needed-to-inform-all-employees/)|Medium|
+|[📎](src/q_1351_1400/q1376.cc)|1376|[Time Needed to Inform All Employees](https://leetcode.com/problems/time-needed-to-inform-all-employees/)|Medium|
 ||1377|[Frog Position After T Seconds](https://leetcode.com/problems/frog-position-after-t-seconds/)|Hard|
 |🔒|1378|[Replace Employee ID With The Unique Identifier](https://leetcode.com/problems/replace-employee-id-with-the-unique-identifier/)|Easy|
 ||1379|[Find a Corresponding Node of a Binary Tree in a Clone of That Tree](https://leetcode.com/problems/find-a-corresponding-node-of-a-binary-tree-in-a-clone-of-that-tree/)|Medium|
@@ -2271,6 +2271,7 @@ My daily challenge on leetcode since 2021/09/06.
 
 |Time|#|</>|Question Title|Difficulty|
 |:--|--:|:-:|:--|:--|
+|2022-03-18 18:26|1376|[📎](src/q_1351_1400/q1376.cc)|[Time Needed to Inform All Employees](https://leetcode.com/problems/time-needed-to-inform-all-employees/)|Medium|
 |2022-03-18 18:14|316|[📎](src/q_301_350/q0316.cc)|[Remove Duplicate Letters](https://leetcode.com/problems/remove-duplicate-letters/)|Medium|
 |2022-03-17 18:22|1319|[📎](src/q_1301_1350/q1319.cc)|[Number of Operations to Make Network Connected](https://leetcode.com/problems/number-of-operations-to-make-network-connected/)|Medium|
 |2022-03-17 18:08|856|[📎](src/q_851_900/q0856.cc)|[Score of Parentheses](https://leetcode.com/problems/score-of-parentheses/)|Medium|
@@ -2295,13 +2296,12 @@ My daily challenge on leetcode since 2021/09/06.
 |2022-03-05 10:04|999|[📎](src/q_951_1000/q0999.cc)|[Available Captures for Rook](https://leetcode.com/problems/available-captures-for-rook/)|Easy|
 |2022-03-04 18:34|1462|[📎](src/q_1451_1500/q1462.cc)|[Course Schedule IV](https://leetcode.com/problems/course-schedule-iv/)|Medium|
 |2022-03-04 18:09|799|[📎](src/q_751_800/q0799.cc)|[Champagne Tower](https://leetcode.com/problems/champagne-tower/)|Medium|
-|2022-03-03 18:13|1507|[📎](src/q_1501_1550/q1507.cc)|[Reformat Date](https://leetcode.com/problems/reformat-date/)|Easy|
 
 ## Previous Logs
 
 |Month|Submissions|Easy|Medium|Hard|
 |:--|:--|:--|:--|:--|
-|[March_2022](./assets/March_2022.md)|28|5|21|2|
+|[March_2022](./assets/March_2022.md)|29|5|22|2|
 |[February_2022](./assets/February_2022.md)|69|15|43|11|
 |[January_2022](./assets/January_2022.md)|32|8|18|6|
 |[December_2021](./assets/December_2021.md)|33|11|15|7|

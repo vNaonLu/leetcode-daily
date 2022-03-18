@@ -1374,7 +1374,7 @@ id,title,level,slug,paid,done
 1373,Maximum Sum BST in Binary Tree,3,maximum-sum-bst-in-binary-tree,0,0
 1374,Generate a String With Characters That Have Odd Counts,1,generate-a-string-with-characters-that-have-odd-counts,0,0
 1375,Number of Times Binary String Is Prefix-Aligned,2,number-of-times-binary-string-is-prefix-aligned,0,0
-1376,Time Needed to Inform All Employees,2,time-needed-to-inform-all-employees,0,0
+1376,Time Needed to Inform All Employees,2,time-needed-to-inform-all-employees,0,1
 1377,Frog Position After T Seconds,3,frog-position-after-t-seconds,0,0
 1378,Replace Employee ID With The Unique Identifier,1,replace-employee-id-with-the-unique-identifier,1,0
 1379,Find a Corresponding Node of a Binary Tree in a Clone of That Tree,2,find-a-corresponding-node-of-a-binary-tree-in-a-clone-of-that-tree,0,0
