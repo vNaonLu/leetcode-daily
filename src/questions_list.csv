@@ -69,7 +69,7 @@ id,title,level,slug,paid,done
 68,Text Justification,3,text-justification,0,1
 69,Sqrt(x),1,sqrtx,0,1
 70,Climbing Stairs,1,climbing-stairs,0,1
-71,Simplify Path,2,simplify-path,0,0
+71,Simplify Path,2,simplify-path,0,1
 72,Edit Distance,3,edit-distance,0,1
 73,Set Matrix Zeroes,2,set-matrix-zeroes,0,0
 74,Search a 2D Matrix,2,search-a-2d-matrix,0,1
@@ -314,7 +314,7 @@ id,title,level,slug,paid,done
 313,Super Ugly Number,2,super-ugly-number,0,0
 314,Binary Tree Vertical Order Traversal,2,binary-tree-vertical-order-traversal,1,0
 315,Count of Smaller Numbers After Self,3,count-of-smaller-numbers-after-self,0,1
-316,Remove Duplicate Letters,2,remove-duplicate-letters,0,0
+316,Remove Duplicate Letters,2,remove-duplicate-letters,0,1
 317,Shortest Distance from All Buildings,3,shortest-distance-from-all-buildings,1,0
 318,Maximum Product of Word Lengths,2,maximum-product-of-word-lengths,0,0
 319,Bulb Switcher,2,bulb-switcher,0,0
@@ -415,7 +415,7 @@ id,title,level,slug,paid,done
 414,Third Maximum Number,1,third-maximum-number,0,0
 415,Add Strings,1,add-strings,0,1
 416,Partition Equal Subset Sum,2,partition-equal-subset-sum,0,1
-417,Pacific Atlantic Water Flow,2,pacific-atlantic-water-flow,0,0
+417,Pacific Atlantic Water Flow,2,pacific-atlantic-water-flow,0,1
 418,Sentence Screen Fitting,2,sentence-screen-fitting,1,0
 419,Battleships in a Board,2,battleships-in-a-board,0,0
 420,Strong Password Checker,3,strong-password-checker,0,0
@@ -800,7 +800,7 @@ id,title,level,slug,paid,done
 799,Champagne Tower,2,champagne-tower,0,1
 800,Similar RGB Color,1,similar-rgb-color,1,0
 801,Minimum Swaps To Make Sequences Increasing,3,minimum-swaps-to-make-sequences-increasing,0,0
-802,Find Eventual Safe States,2,find-eventual-safe-states,0,0
+802,Find Eventual Safe States,2,find-eventual-safe-states,0,1
 803,Bricks Falling When Hit,3,bricks-falling-when-hit,0,0
 804,Unique Morse Code Words,1,unique-morse-code-words,0,0
 805,Split Array With Same Average,3,split-array-with-same-average,0,0
@@ -854,7 +854,7 @@ id,title,level,slug,paid,done
 853,Car Fleet,2,car-fleet,0,0
 854,K-Similar Strings,3,k-similar-strings,0,0
 855,Exam Room,2,exam-room,0,0
-856,Score of Parentheses,2,score-of-parentheses,0,0
+856,Score of Parentheses,2,score-of-parentheses,0,1
 857,Minimum Cost to Hire K Workers,3,minimum-cost-to-hire-k-workers,0,0
 858,Mirror Reflection,2,mirror-reflection,0,0
 859,Buddy Strings,1,buddy-strings,0,0
@@ -893,7 +893,7 @@ id,title,level,slug,paid,done
 892,Surface Area of 3D Shapes,1,surface-area-of-3d-shapes,0,0
 893,Groups of Special-Equivalent Strings,2,groups-of-special-equivalent-strings,0,0
 894,All Possible Full Binary Trees,2,all-possible-full-binary-trees,0,0
-895,Maximum Frequency Stack,3,maximum-frequency-stack,0,0
+895,Maximum Frequency Stack,3,maximum-frequency-stack,0,1
 896,Monotonic Array,1,monotonic-array,0,0
 897,Increasing Order Search Tree,1,increasing-order-search-tree,0,0
 898,Bitwise ORs of Subarrays,2,bitwise-ors-of-subarrays,0,1
@@ -932,7 +932,7 @@ id,title,level,slug,paid,done
 931,Minimum Falling Path Sum,2,minimum-falling-path-sum,0,1
 932,Beautiful Array,2,beautiful-array,0,0
 933,Number of Recent Calls,1,number-of-recent-calls,0,0
-934,Shortest Bridge,2,shortest-bridge,0,0
+934,Shortest Bridge,2,shortest-bridge,0,1
 935,Knight Dialer,2,knight-dialer,0,0
 936,Stamping The Sequence,3,stamping-the-sequence,0,0
 937,Reorder Data in Log Files,1,reorder-data-in-log-files,0,0
@@ -1127,7 +1127,7 @@ id,title,level,slug,paid,done
 1126,Active Businesses,2,active-businesses,1,0
 1127,User Purchase Platform,3,user-purchase-platform,1,0
 1128,Number of Equivalent Domino Pairs,1,number-of-equivalent-domino-pairs,0,0
-1129,Shortest Path with Alternating Colors,2,shortest-path-with-alternating-colors,0,0
+1129,Shortest Path with Alternating Colors,2,shortest-path-with-alternating-colors,0,1
 1130,Minimum Cost Tree From Leaf Values,2,minimum-cost-tree-from-leaf-values,0,0
 1131,Maximum of Absolute Value Expression,2,maximum-of-absolute-value-expression,0,0
 1132,Reported Posts II,2,reported-posts-ii,1,0
@@ -1160,7 +1160,7 @@ id,title,level,slug,paid,done
 1159,Market Analysis II,3,market-analysis-ii,1,0
 1160,Find Words That Can Be Formed by Characters,1,find-words-that-can-be-formed-by-characters,0,0
 1161,Maximum Level Sum of a Binary Tree,2,maximum-level-sum-of-a-binary-tree,0,0
-1162,As Far from Land as Possible,2,as-far-from-land-as-possible,0,0
+1162,As Far from Land as Possible,2,as-far-from-land-as-possible,0,1
 1163,Last Substring in Lexicographical Order,3,last-substring-in-lexicographical-order,0,0
 1164,Product Price at a Given Date,2,product-price-at-a-given-date,1,0
 1165,Single-Row Keyboard,1,single-row-keyboard,1,0
@@ -1317,7 +1317,7 @@ id,title,level,slug,paid,done
 1316,Distinct Echo Substrings,3,distinct-echo-substrings,0,0
 1317,Convert Integer to the Sum of Two No-Zero Integers,1,convert-integer-to-the-sum-of-two-no-zero-integers,0,0
 1318,Minimum Flips to Make a OR b Equal to c,2,minimum-flips-to-make-a-or-b-equal-to-c,0,0
-1319,Number of Operations to Make Network Connected,2,number-of-operations-to-make-network-connected,0,0
+1319,Number of Operations to Make Network Connected,2,number-of-operations-to-make-network-connected,0,1
 1320,Minimum Distance to Type a Word Using Two Fingers,3,minimum-distance-to-type-a-word-using-two-fingers,0,0
 1321,Restaurant Growth,2,restaurant-growth,1,0
 1322,Ads Performance,1,ads-performance,1,0
@@ -1374,7 +1374,7 @@ id,title,level,slug,paid,done
 1373,Maximum Sum BST in Binary Tree,3,maximum-sum-bst-in-binary-tree,0,0
 1374,Generate a String With Characters That Have Odd Counts,1,generate-a-string-with-characters-that-have-odd-counts,0,0
 1375,Number of Times Binary String Is Prefix-Aligned,2,number-of-times-binary-string-is-prefix-aligned,0,0
-1376,Time Needed to Inform All Employees,2,time-needed-to-inform-all-employees,0,0
+1376,Time Needed to Inform All Employees,2,time-needed-to-inform-all-employees,0,1
 1377,Frog Position After T Seconds,3,frog-position-after-t-seconds,0,0
 1378,Replace Employee ID With The Unique Identifier,1,replace-employee-id-with-the-unique-identifier,1,0
 1379,Find a Corresponding Node of a Binary Tree in a Clone of That Tree,2,find-a-corresponding-node-of-a-binary-tree-in-a-clone-of-that-tree,0,0
@@ -1464,7 +1464,7 @@ id,title,level,slug,paid,done
 1463,Cherry Pickup II,3,cherry-pickup-ii,0,1
 1464,Maximum Product of Two Elements in an Array,1,maximum-product-of-two-elements-in-an-array,0,1
 1465,Maximum Area of a Piece of Cake After Horizontal and Vertical Cuts,2,maximum-area-of-a-piece-of-cake-after-horizontal-and-vertical-cuts,0,0
-1466,Reorder Routes to Make All Paths Lead to the City Zero,2,reorder-routes-to-make-all-paths-lead-to-the-city-zero,0,0
+1466,Reorder Routes to Make All Paths Lead to the City Zero,2,reorder-routes-to-make-all-paths-lead-to-the-city-zero,0,1
 1467,Probability of a Two Boxes Having The Same Number of Distinct Balls,3,probability-of-a-two-boxes-having-the-same-number-of-distinct-balls,0,0
 1468,Calculate Salaries,2,calculate-salaries,1,0
 1469,Find All The Lonely Nodes,1,find-all-the-lonely-nodes,1,0
@@ -1924,7 +1924,7 @@ id,title,level,slug,paid,done
 1923,Longest Common Subpath,3,longest-common-subpath,0,0
 1924,Erect the Fence II,3,erect-the-fence-ii,1,0
 1925,Count Square Sum Triples,1,count-square-sum-triples,0,0
-1926,Nearest Exit from Entrance in Maze,2,nearest-exit-from-entrance-in-maze,0,0
+1926,Nearest Exit from Entrance in Maze,2,nearest-exit-from-entrance-in-maze,0,1
 1927,Sum Game,2,sum-game,0,0
 1928,Minimum Cost to Reach Destination in Time,3,minimum-cost-to-reach-destination-in-time,0,0
 1929,Concatenation of Array,1,concatenation-of-array,0,1
@@ -2178,7 +2178,7 @@ id,title,level,slug,paid,done
 2177,Find Three Consecutive Integers That Sum to a Given Number,2,find-three-consecutive-integers-that-sum-to-a-given-number,0,0
 2178,Maximum Split of Positive Even Integers,2,maximum-split-of-positive-even-integers,0,0
 2179,Count Good Triplets in an Array,3,count-good-triplets-in-an-array,0,0
-2180,Count Integers With Even Digit Sum,1,count-integers-with-even-digit-sum,0,0
+2180,Count Integers With Even Digit Sum,1,count-integers-with-even-digit-sum,0,1
 2181,Merge Nodes in Between Zeros,2,merge-nodes-in-between-zeros,0,0
 2182,Construct String With Repeat Limit,2,construct-string-with-repeat-limit,0,0
 2183,Count Array Pairs Divisible by K,3,count-array-pairs-divisible-by-k,0,0
@@ -2198,3 +2198,8 @@ id,title,level,slug,paid,done
 2197,Replace Non-Coprime Numbers in Array,3,replace-non-coprime-numbers-in-array,0,0
 2198,Number of Single Divisor Triplets,2,number-of-single-divisor-triplets,1,0
 2199,Finding the Topic of Each Post,3,finding-the-topic-of-each-post,1,0
+2200,Find All K-Distant Indices in an Array,1,find-all-k-distant-indices-in-an-array,0,1
+2201,Count Artifacts That Can Be Extracted,2,count-artifacts-that-can-be-extracted,0,0
+2202,Maximize the Topmost Element After K Moves,2,maximize-the-topmost-element-after-k-moves,0,0
+2203,Minimum Weighted Subgraph With the Required Paths,3,minimum-weighted-subgraph-with-the-required-paths,0,0
+2204,Distance to a Cycle in Undirected Graph,3,distance-to-a-cycle-in-undirected-graph,1,0
