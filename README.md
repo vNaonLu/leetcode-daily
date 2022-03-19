@@ -1164,7 +1164,7 @@ My daily challenge on leetcode since 2021/09/06.
 |🔒|1126|[Active Businesses](https://leetcode.com/problems/active-businesses/)|Medium|
 |🔒|1127|[User Purchase Platform](https://leetcode.com/problems/user-purchase-platform/)|Hard|
 ||1128|[Number of Equivalent Domino Pairs](https://leetcode.com/problems/number-of-equivalent-domino-pairs/)|Easy|
-||1129|[Shortest Path with Alternating Colors](https://leetcode.com/problems/shortest-path-with-alternating-colors/)|Medium|
+|[📎](src/q_1101_1150/q1129.cc)|1129|[Shortest Path with Alternating Colors](https://leetcode.com/problems/shortest-path-with-alternating-colors/)|Medium|
 ||1130|[Minimum Cost Tree From Leaf Values](https://leetcode.com/problems/minimum-cost-tree-from-leaf-values/)|Medium|
 ||1131|[Maximum of Absolute Value Expression](https://leetcode.com/problems/maximum-of-absolute-value-expression/)|Medium|
 |🔒|1132|[Reported Posts II](https://leetcode.com/problems/reported-posts-ii/)|Medium|
@@ -2271,6 +2271,7 @@ My daily challenge on leetcode since 2021/09/06.
 
 |Time|#|</>|Question Title|Difficulty|
 |:--|--:|:-:|:--|:--|
+|2022-03-19 14:31|1129|[📎](src/q_1101_1150/q1129.cc)|[Shortest Path with Alternating Colors](https://leetcode.com/problems/shortest-path-with-alternating-colors/)|Medium|
 |2022-03-19 13:40|895|[📎](src/q_851_900/q0895.cc)|[Maximum Frequency Stack](https://leetcode.com/problems/maximum-frequency-stack/)|Hard|
 |2022-03-18 18:54|802|[📎](src/q_801_850/q0802.cc)|[Find Eventual Safe States](https://leetcode.com/problems/find-eventual-safe-states/)|Medium|
 |2022-03-18 18:26|1376|[📎](src/q_1351_1400/q1376.cc)|[Time Needed to Inform All Employees](https://leetcode.com/problems/time-needed-to-inform-all-employees/)|Medium|
@@ -2295,13 +2296,12 @@ My daily challenge on leetcode since 2021/09/06.
 |2022-03-07 19:08|1968|[📎](src/q_1951_2000/q1968.cc)|[Array With Elements Not Equal to Average of Neighbors](https://leetcode.com/problems/array-with-elements-not-equal-to-average-of-neighbors/)|Medium|
 |2022-03-06 12:49|1359|[📎](src/q_1351_1400/q1359.cc)|[Count All Valid Pickup and Delivery Options](https://leetcode.com/problems/count-all-valid-pickup-and-delivery-options/)|Hard|
 |2022-03-05 10:14|388|[📎](src/q_351_400/q0388.cc)|[Longest Absolute File Path](https://leetcode.com/problems/longest-absolute-file-path/)|Medium|
-|2022-03-05 10:04|999|[📎](src/q_951_1000/q0999.cc)|[Available Captures for Rook](https://leetcode.com/problems/available-captures-for-rook/)|Easy|
 
 ## Previous Logs
 
 |Month|Submissions|Easy|Medium|Hard|
 |:--|:--|:--|:--|:--|
-|[March_2022](./assets/March_2022.md)|31|5|23|3|
+|[March_2022](./assets/March_2022.md)|32|5|24|3|
 |[February_2022](./assets/February_2022.md)|69|15|43|11|
 |[January_2022](./assets/January_2022.md)|32|8|18|6|
 |[December_2021](./assets/December_2021.md)|33|11|15|7|

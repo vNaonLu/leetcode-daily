@@ -1127,7 +1127,7 @@ id,title,level,slug,paid,done
 1126,Active Businesses,2,active-businesses,1,0
 1127,User Purchase Platform,3,user-purchase-platform,1,0
 1128,Number of Equivalent Domino Pairs,1,number-of-equivalent-domino-pairs,0,0
-1129,Shortest Path with Alternating Colors,2,shortest-path-with-alternating-colors,0,0
+1129,Shortest Path with Alternating Colors,2,shortest-path-with-alternating-colors,0,1
 1130,Minimum Cost Tree From Leaf Values,2,minimum-cost-tree-from-leaf-values,0,0
 1131,Maximum of Absolute Value Expression,2,maximum-of-absolute-value-expression,0,0
 1132,Reported Posts II,2,reported-posts-ii,1,0
