@@ -893,7 +893,7 @@ id,title,level,slug,paid,done
 892,Surface Area of 3D Shapes,1,surface-area-of-3d-shapes,0,0
 893,Groups of Special-Equivalent Strings,2,groups-of-special-equivalent-strings,0,0
 894,All Possible Full Binary Trees,2,all-possible-full-binary-trees,0,0
-895,Maximum Frequency Stack,3,maximum-frequency-stack,0,0
+895,Maximum Frequency Stack,3,maximum-frequency-stack,0,1
 896,Monotonic Array,1,monotonic-array,0,0
 897,Increasing Order Search Tree,1,increasing-order-search-tree,0,0
 898,Bitwise ORs of Subarrays,2,bitwise-ors-of-subarrays,0,1

@@ -2,6 +2,7 @@
 
 ||#|</>|Question Title|Difficulty|
 |:--|--:|:-:|:--|:--|
+|Day 19|895|[📎](../src/q_851_900/q0895.cc)|[Maximum Frequency Stack](https://leetcode.com/problems/maximum-frequency-stack/)|Hard|
 |Day 18|316<br>802<br>1376|[📎](../src/q_301_350/q0316.cc)<br>[📎](../src/q_801_850/q0802.cc)<br>[📎](../src/q_1351_1400/q1376.cc)|[Remove Duplicate Letters](https://leetcode.com/problems/remove-duplicate-letters/)<br>[Find Eventual Safe States](https://leetcode.com/problems/find-eventual-safe-states/)<br>[Time Needed to Inform All Employees](https://leetcode.com/problems/time-needed-to-inform-all-employees/)|Medium<br>Medium<br>Medium|
 |Day 17|856<br>1319|[📎](../src/q_851_900/q0856.cc)<br>[📎](../src/q_1301_1350/q1319.cc)|[Score of Parentheses](https://leetcode.com/problems/score-of-parentheses/)<br>[Number of Operations to Make Network Connected](https://leetcode.com/problems/number-of-operations-to-make-network-connected/)|Medium<br>Medium|
 |Day 16|2180|[📎](../src/q_2151_2200/q2180.cc)|[Count Integers With Even Digit Sum](https://leetcode.com/problems/count-integers-with-even-digit-sum/)|Easy|
