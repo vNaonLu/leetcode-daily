@@ -363,7 +363,7 @@ id,title,level,slug,paid,done
 362,Design Hit Counter,2,design-hit-counter,1,0
 363,Max Sum of Rectangle No Larger Than K,3,max-sum-of-rectangle-no-larger-than-k,0,0
 364,Nested List Weight Sum II,2,nested-list-weight-sum-ii,1,0
-365,Water and Jug Problem,2,water-and-jug-problem,0,0
+365,Water and Jug Problem,2,water-and-jug-problem,0,1
 366,Find Leaves of Binary Tree,2,find-leaves-of-binary-tree,1,0
 367,Valid Perfect Square,1,valid-perfect-square,0,0
 368,Largest Divisible Subset,2,largest-divisible-subset,0,1

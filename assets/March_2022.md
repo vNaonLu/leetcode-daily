@@ -2,7 +2,7 @@
 
 ||#|</>|Question Title|Difficulty|
 |:--|--:|:-:|:--|:--|
-|Day 20|1654|[📎](../src/q_1651_1700/q1654.cc)|[Minimum Jumps to Reach Home](https://leetcode.com/problems/minimum-jumps-to-reach-home/)|Medium|
+|Day 20|365<br>1654|[📎](../src/q_351_400/q0365.cc)<br>[📎](../src/q_1651_1700/q1654.cc)|[Water and Jug Problem](https://leetcode.com/problems/water-and-jug-problem/)<br>[Minimum Jumps to Reach Home](https://leetcode.com/problems/minimum-jumps-to-reach-home/)|Medium<br>Medium|
 |Day 19|895<br>1129<br>1466|[📎](../src/q_851_900/q0895.cc)<br>[📎](../src/q_1101_1150/q1129.cc)<br>[📎](../src/q_1451_1500/q1466.cc)|[Maximum Frequency Stack](https://leetcode.com/problems/maximum-frequency-stack/)<br>[Shortest Path with Alternating Colors](https://leetcode.com/problems/shortest-path-with-alternating-colors/)<br>[Reorder Routes to Make All Paths Lead to the City Zero](https://leetcode.com/problems/reorder-routes-to-make-all-paths-lead-to-the-city-zero/)|Hard<br>Medium<br>Medium|
 |Day 18|316<br>802<br>1376|[📎](../src/q_301_350/q0316.cc)<br>[📎](../src/q_801_850/q0802.cc)<br>[📎](../src/q_1351_1400/q1376.cc)|[Remove Duplicate Letters](https://leetcode.com/problems/remove-duplicate-letters/)<br>[Find Eventual Safe States](https://leetcode.com/problems/find-eventual-safe-states/)<br>[Time Needed to Inform All Employees](https://leetcode.com/problems/time-needed-to-inform-all-employees/)|Medium<br>Medium<br>Medium|
 |Day 17|856<br>1319|[📎](../src/q_851_900/q0856.cc)<br>[📎](../src/q_1301_1350/q1319.cc)|[Score of Parentheses](https://leetcode.com/problems/score-of-parentheses/)<br>[Number of Operations to Make Network Connected](https://leetcode.com/problems/number-of-operations-to-make-network-connected/)|Medium<br>Medium|

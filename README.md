@@ -382,7 +382,7 @@ My daily challenge on leetcode since 2021/09/06.
 |🔒|362|[Design Hit Counter](https://leetcode.com/problems/design-hit-counter/)|Medium|
 ||363|[Max Sum of Rectangle No Larger Than K](https://leetcode.com/problems/max-sum-of-rectangle-no-larger-than-k/)|Hard|
 |🔒|364|[Nested List Weight Sum II](https://leetcode.com/problems/nested-list-weight-sum-ii/)|Medium|
-||365|[Water and Jug Problem](https://leetcode.com/problems/water-and-jug-problem/)|Medium|
+|[📎](src/q_351_400/q0365.cc)|365|[Water and Jug Problem](https://leetcode.com/problems/water-and-jug-problem/)|Medium|
 |🔒|366|[Find Leaves of Binary Tree](https://leetcode.com/problems/find-leaves-of-binary-tree/)|Medium|
 ||367|[Valid Perfect Square](https://leetcode.com/problems/valid-perfect-square/)|Easy|
 |[📎](src/q_351_400/q0368.cc)|368|[Largest Divisible Subset](https://leetcode.com/problems/largest-divisible-subset/)|Medium|
@@ -2276,6 +2276,7 @@ My daily challenge on leetcode since 2021/09/06.
 
 |Time|#|</>|Question Title|Difficulty|
 |:--|--:|:-:|:--|:--|
+|2022-03-20 14:14|365|[📎](src/q_351_400/q0365.cc)|[Water and Jug Problem](https://leetcode.com/problems/water-and-jug-problem/)|Medium|
 |2022-03-20 13:57|1654|[📎](src/q_1651_1700/q1654.cc)|[Minimum Jumps to Reach Home](https://leetcode.com/problems/minimum-jumps-to-reach-home/)|Medium|
 |2022-03-19 15:09|1466|[📎](src/q_1451_1500/q1466.cc)|[Reorder Routes to Make All Paths Lead to the City Zero](https://leetcode.com/problems/reorder-routes-to-make-all-paths-lead-to-the-city-zero/)|Medium|
 |2022-03-19 14:31|1129|[📎](src/q_1101_1150/q1129.cc)|[Shortest Path with Alternating Colors](https://leetcode.com/problems/shortest-path-with-alternating-colors/)|Medium|
@@ -2300,13 +2301,12 @@ My daily challenge on leetcode since 2021/09/06.
 |2022-03-09 18:17|1007|[📎](src/q_1001_1050/q1007.cc)|[Minimum Domino Rotations For Equal Row](https://leetcode.com/problems/minimum-domino-rotations-for-equal-row/)|Medium|
 |2022-03-09 18:07|779|[📎](src/q_751_800/q0779.cc)|[K-th Symbol in Grammar](https://leetcode.com/problems/k-th-symbol-in-grammar/)|Medium|
 |2022-03-08 12:36|1019|[📎](src/q_1001_1050/q1019.cc)|[Next Greater Node In Linked List](https://leetcode.com/problems/next-greater-node-in-linked-list/)|Medium|
-|2022-03-07 19:08|1968|[📎](src/q_1951_2000/q1968.cc)|[Array With Elements Not Equal to Average of Neighbors](https://leetcode.com/problems/array-with-elements-not-equal-to-average-of-neighbors/)|Medium|
 
 ## Previous Logs
 
 |Month|Submissions|Easy|Medium|Hard|
 |:--|:--|:--|:--|:--|
-|[March_2022](./assets/March_2022.md)|34|5|26|3|
+|[March_2022](./assets/March_2022.md)|35|5|27|3|
 |[February_2022](./assets/February_2022.md)|69|15|43|11|
 |[January_2022](./assets/January_2022.md)|32|8|18|6|
 |[December_2021](./assets/December_2021.md)|33|11|15|7|
