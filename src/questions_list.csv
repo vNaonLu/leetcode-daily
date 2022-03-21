@@ -431,7 +431,7 @@ id,title,level,slug,paid,done
 430,Flatten a Multilevel Doubly Linked List,2,flatten-a-multilevel-doubly-linked-list,0,1
 431,Encode N-ary Tree to Binary Tree,3,encode-n-ary-tree-to-binary-tree,1,0
 432,All O`one Data Structure,3,all-oone-data-structure,0,0
-433,Minimum Genetic Mutation,2,minimum-genetic-mutation,0,0
+433,Minimum Genetic Mutation,2,minimum-genetic-mutation,0,1
 434,Number of Segments in a String,1,number-of-segments-in-a-string,0,0
 435,Non-overlapping Intervals,2,non-overlapping-intervals,0,1
 436,Find Right Interval,2,find-right-interval,0,0
@@ -2208,3 +2208,7 @@ id,title,level,slug,paid,done
 2207,Maximize Number of Subsequences in a String,2,maximize-number-of-subsequences-in-a-string,0,0
 2208,Minimum Operations to Halve Array Sum,2,minimum-operations-to-halve-array-sum,0,0
 2209,Minimum White Tiles After Covering With Carpets,3,minimum-white-tiles-after-covering-with-carpets,0,0
+2210,Count Hills and Valleys in an Array,1,count-hills-and-valleys-in-an-array,0,0
+2211,Count Collisions on a Road,2,count-collisions-on-a-road,0,0
+2212,Maximum Points in an Archery Competition,2,maximum-points-in-an-archery-competition,0,0
+2213,Longest Substring of One Repeating Character,3,longest-substring-of-one-repeating-character,0,0
