@@ -1710,7 +1710,7 @@ My daily challenge on leetcode since 2021/09/06.
 |🔒|1660|[Correct a Binary Tree](https://leetcode.com/problems/correct-a-binary-tree/)|Medium|
 |🔒|1661|[Average Time of Process per Machine](https://leetcode.com/problems/average-time-of-process-per-machine/)|Easy|
 ||1662|[Check If Two String Arrays are Equivalent](https://leetcode.com/problems/check-if-two-string-arrays-are-equivalent/)|Easy|
-||1663|[Smallest String With A Given Numeric Value](https://leetcode.com/problems/smallest-string-with-a-given-numeric-value/)|Medium|
+|[📎](src/q_1651_1700/q1663.cc)|1663|[Smallest String With A Given Numeric Value](https://leetcode.com/problems/smallest-string-with-a-given-numeric-value/)|Medium|
 ||1664|[Ways to Make a Fair Array](https://leetcode.com/problems/ways-to-make-a-fair-array/)|Medium|
 ||1665|[Minimum Initial Energy to Finish Tasks](https://leetcode.com/problems/minimum-initial-energy-to-finish-tasks/)|Hard|
 |🔒|1666|[Change the Root of a Binary Tree](https://leetcode.com/problems/change-the-root-of-a-binary-tree/)|Medium|
@@ -2280,6 +2280,7 @@ My daily challenge on leetcode since 2021/09/06.
 
 |Time|#|</>|Question Title|Difficulty|
 |:--|--:|:-:|:--|:--|
+|2022-03-22 11:51|1663|[📎](src/q_1651_1700/q1663.cc)|[Smallest String With A Given Numeric Value](https://leetcode.com/problems/smallest-string-with-a-given-numeric-value/)|Medium|
 |2022-03-21 16:31|433|[📎](src/q_401_450/q0433.cc)|[Minimum Genetic Mutation](https://leetcode.com/problems/minimum-genetic-mutation/)|Medium|
 |2022-03-20 14:14|365|[📎](src/q_351_400/q0365.cc)|[Water and Jug Problem](https://leetcode.com/problems/water-and-jug-problem/)|Medium|
 |2022-03-20 13:57|1654|[📎](src/q_1651_1700/q1654.cc)|[Minimum Jumps to Reach Home](https://leetcode.com/problems/minimum-jumps-to-reach-home/)|Medium|
@@ -2304,13 +2305,12 @@ My daily challenge on leetcode since 2021/09/06.
 |2022-03-10 18:29|1464|[📎](src/q_1451_1500/q1464.cc)|[Maximum Product of Two Elements in an Array](https://leetcode.com/problems/maximum-product-of-two-elements-in-an-array/)|Easy|
 |2022-03-10 18:17|1680|[📎](src/q_1651_1700/q1680.cc)|[Concatenation of Consecutive Binary Numbers](https://leetcode.com/problems/concatenation-of-consecutive-binary-numbers/)|Medium|
 |2022-03-09 18:17|1007|[📎](src/q_1001_1050/q1007.cc)|[Minimum Domino Rotations For Equal Row](https://leetcode.com/problems/minimum-domino-rotations-for-equal-row/)|Medium|
-|2022-03-09 18:07|779|[📎](src/q_751_800/q0779.cc)|[K-th Symbol in Grammar](https://leetcode.com/problems/k-th-symbol-in-grammar/)|Medium|
 
 ## Previous Logs
 
 |Month|Submissions|Easy|Medium|Hard|
 |:--|:--|:--|:--|:--|
-|[March_2022](./assets/March_2022.md)|36|5|28|3|
+|[March_2022](./assets/March_2022.md)|37|5|29|3|
 |[February_2022](./assets/February_2022.md)|69|15|43|11|
 |[January_2022](./assets/January_2022.md)|32|8|18|6|
 |[December_2021](./assets/December_2021.md)|33|11|15|7|

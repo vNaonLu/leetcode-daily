@@ -2,6 +2,7 @@
 
 ||#|</>|Question Title|Difficulty|
 |:--|--:|:-:|:--|:--|
+|Day 22|1663|[📎](../src/q_1651_1700/q1663.cc)|[Smallest String With A Given Numeric Value](https://leetcode.com/problems/smallest-string-with-a-given-numeric-value/)|Medium|
 |Day 21|433|[📎](../src/q_401_450/q0433.cc)|[Minimum Genetic Mutation](https://leetcode.com/problems/minimum-genetic-mutation/)|Medium|
 |Day 20|365<br>1654|[📎](../src/q_351_400/q0365.cc)<br>[📎](../src/q_1651_1700/q1654.cc)|[Water and Jug Problem](https://leetcode.com/problems/water-and-jug-problem/)<br>[Minimum Jumps to Reach Home](https://leetcode.com/problems/minimum-jumps-to-reach-home/)|Medium<br>Medium|
 |Day 19|895<br>1129<br>1466|[📎](../src/q_851_900/q0895.cc)<br>[📎](../src/q_1101_1150/q1129.cc)<br>[📎](../src/q_1451_1500/q1466.cc)|[Maximum Frequency Stack](https://leetcode.com/problems/maximum-frequency-stack/)<br>[Shortest Path with Alternating Colors](https://leetcode.com/problems/shortest-path-with-alternating-colors/)<br>[Reorder Routes to Make All Paths Lead to the City Zero](https://leetcode.com/problems/reorder-routes-to-make-all-paths-lead-to-the-city-zero/)|Hard<br>Medium<br>Medium|
