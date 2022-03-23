@@ -1662,7 +1662,7 @@ My daily challenge on leetcode since 2021/09/06.
 |🔒|1612|[Check If Two Expression Trees are Equivalent](https://leetcode.com/problems/check-if-two-expression-trees-are-equivalent/)|Medium|
 |🔒|1613|[Find the Missing IDs](https://leetcode.com/problems/find-the-missing-ids/)|Medium|
 ||1614|[Maximum Nesting Depth of the Parentheses](https://leetcode.com/problems/maximum-nesting-depth-of-the-parentheses/)|Easy|
-||1615|[Maximal Network Rank](https://leetcode.com/problems/maximal-network-rank/)|Medium|
+|[📎](src/q_1601_1650/q1615.cc)|1615|[Maximal Network Rank](https://leetcode.com/problems/maximal-network-rank/)|Medium|
 ||1616|[Split Two Strings to Make Palindrome](https://leetcode.com/problems/split-two-strings-to-make-palindrome/)|Medium|
 ||1617|[Count Subtrees With Max Distance Between Cities](https://leetcode.com/problems/count-subtrees-with-max-distance-between-cities/)|Hard|
 |🔒|1618|[Maximum Font to Fit a Sentence in a Screen](https://leetcode.com/problems/maximum-font-to-fit-a-sentence-in-a-screen/)|Medium|
@@ -2280,6 +2280,7 @@ My daily challenge on leetcode since 2021/09/06.
 
 |Time|#|</>|Question Title|Difficulty|
 |:--|--:|:-:|:--|:--|
+|2022-03-23 18:34|1615|[📎](src/q_1601_1650/q1615.cc)|[Maximal Network Rank](https://leetcode.com/problems/maximal-network-rank/)|Medium|
 |2022-03-23 18:27|991|[📎](src/q_951_1000/q0991.cc)|[Broken Calculator](https://leetcode.com/problems/broken-calculator/)|Medium|
 |2022-03-22 11:51|1663|[📎](src/q_1651_1700/q1663.cc)|[Smallest String With A Given Numeric Value](https://leetcode.com/problems/smallest-string-with-a-given-numeric-value/)|Medium|
 |2022-03-21 16:31|433|[📎](src/q_401_450/q0433.cc)|[Minimum Genetic Mutation](https://leetcode.com/problems/minimum-genetic-mutation/)|Medium|
@@ -2304,13 +2305,12 @@ My daily challenge on leetcode since 2021/09/06.
 |2022-03-12 13:26|138|[📎](src/q_101_150/q0138.cc)|[Copy List with Random Pointer](https://leetcode.com/problems/copy-list-with-random-pointer/)|Medium|
 |2022-03-11 18:27|983|[📎](src/q_951_1000/q0983.cc)|[Minimum Cost For Tickets](https://leetcode.com/problems/minimum-cost-for-tickets/)|Medium|
 |2022-03-10 18:29|1464|[📎](src/q_1451_1500/q1464.cc)|[Maximum Product of Two Elements in an Array](https://leetcode.com/problems/maximum-product-of-two-elements-in-an-array/)|Easy|
-|2022-03-10 18:17|1680|[📎](src/q_1651_1700/q1680.cc)|[Concatenation of Consecutive Binary Numbers](https://leetcode.com/problems/concatenation-of-consecutive-binary-numbers/)|Medium|
 
 ## Previous Logs
 
 |Month|Submissions|Easy|Medium|Hard|
 |:--|:--|:--|:--|:--|
-|[March_2022](./assets/March_2022.md)|38|5|30|3|
+|[March_2022](./assets/March_2022.md)|39|5|31|3|
 |[February_2022](./assets/February_2022.md)|69|15|43|11|
 |[January_2022](./assets/January_2022.md)|32|8|18|6|
 |[December_2021](./assets/December_2021.md)|33|11|15|7|
