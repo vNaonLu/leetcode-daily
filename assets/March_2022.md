@@ -2,6 +2,7 @@
 
 ||#|</>|Question Title|Difficulty|
 |:--|--:|:-:|:--|:--|
+|Day 23|991|[📎](../src/q_951_1000/q0991.cc)|[Broken Calculator](https://leetcode.com/problems/broken-calculator/)|Medium|
 |Day 22|1663|[📎](../src/q_1651_1700/q1663.cc)|[Smallest String With A Given Numeric Value](https://leetcode.com/problems/smallest-string-with-a-given-numeric-value/)|Medium|
 |Day 21|433|[📎](../src/q_401_450/q0433.cc)|[Minimum Genetic Mutation](https://leetcode.com/problems/minimum-genetic-mutation/)|Medium|
 |Day 20|365<br>1654|[📎](../src/q_351_400/q0365.cc)<br>[📎](../src/q_1651_1700/q1654.cc)|[Water and Jug Problem](https://leetcode.com/problems/water-and-jug-problem/)<br>[Minimum Jumps to Reach Home](https://leetcode.com/problems/minimum-jumps-to-reach-home/)|Medium<br>Medium|

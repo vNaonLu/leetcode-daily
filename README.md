@@ -1020,7 +1020,7 @@ My daily challenge on leetcode since 2021/09/06.
 ||988|[Smallest String Starting From Leaf](https://leetcode.com/problems/smallest-string-starting-from-leaf/)|Medium|
 ||989|[Add to Array-Form of Integer](https://leetcode.com/problems/add-to-array-form-of-integer/)|Easy|
 ||990|[Satisfiability of Equality Equations](https://leetcode.com/problems/satisfiability-of-equality-equations/)|Medium|
-||991|[Broken Calculator](https://leetcode.com/problems/broken-calculator/)|Medium|
+|[📎](src/q_951_1000/q0991.cc)|991|[Broken Calculator](https://leetcode.com/problems/broken-calculator/)|Medium|
 ||992|[Subarrays with K Different Integers](https://leetcode.com/problems/subarrays-with-k-different-integers/)|Hard|
 |[📎](src/q_951_1000/q0993.cc)|993|[Cousins in Binary Tree](https://leetcode.com/problems/cousins-in-binary-tree/)|Easy|
 |[📎](src/q_951_1000/q0994.cc)|994|[Rotting Oranges](https://leetcode.com/problems/rotting-oranges/)|Medium|
@@ -2280,6 +2280,7 @@ My daily challenge on leetcode since 2021/09/06.
 
 |Time|#|</>|Question Title|Difficulty|
 |:--|--:|:-:|:--|:--|
+|2022-03-23 18:27|991|[📎](src/q_951_1000/q0991.cc)|[Broken Calculator](https://leetcode.com/problems/broken-calculator/)|Medium|
 |2022-03-22 11:51|1663|[📎](src/q_1651_1700/q1663.cc)|[Smallest String With A Given Numeric Value](https://leetcode.com/problems/smallest-string-with-a-given-numeric-value/)|Medium|
 |2022-03-21 16:31|433|[📎](src/q_401_450/q0433.cc)|[Minimum Genetic Mutation](https://leetcode.com/problems/minimum-genetic-mutation/)|Medium|
 |2022-03-20 14:14|365|[📎](src/q_351_400/q0365.cc)|[Water and Jug Problem](https://leetcode.com/problems/water-and-jug-problem/)|Medium|
@@ -2304,13 +2305,12 @@ My daily challenge on leetcode since 2021/09/06.
 |2022-03-11 18:27|983|[📎](src/q_951_1000/q0983.cc)|[Minimum Cost For Tickets](https://leetcode.com/problems/minimum-cost-for-tickets/)|Medium|
 |2022-03-10 18:29|1464|[📎](src/q_1451_1500/q1464.cc)|[Maximum Product of Two Elements in an Array](https://leetcode.com/problems/maximum-product-of-two-elements-in-an-array/)|Easy|
 |2022-03-10 18:17|1680|[📎](src/q_1651_1700/q1680.cc)|[Concatenation of Consecutive Binary Numbers](https://leetcode.com/problems/concatenation-of-consecutive-binary-numbers/)|Medium|
-|2022-03-09 18:17|1007|[📎](src/q_1001_1050/q1007.cc)|[Minimum Domino Rotations For Equal Row](https://leetcode.com/problems/minimum-domino-rotations-for-equal-row/)|Medium|
 
 ## Previous Logs
 
 |Month|Submissions|Easy|Medium|Hard|
 |:--|:--|:--|:--|:--|
-|[March_2022](./assets/March_2022.md)|37|5|29|3|
+|[March_2022](./assets/March_2022.md)|38|5|30|3|
 |[February_2022](./assets/February_2022.md)|69|15|43|11|
 |[January_2022](./assets/January_2022.md)|32|8|18|6|
 |[December_2021](./assets/December_2021.md)|33|11|15|7|
