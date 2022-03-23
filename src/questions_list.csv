@@ -783,7 +783,7 @@ id,title,level,slug,paid,done
 782,Transform to Chessboard,3,transform-to-chessboard,0,1
 783,Minimum Distance Between BST Nodes,1,minimum-distance-between-bst-nodes,0,0
 784,Letter Case Permutation,2,letter-case-permutation,0,1
-785,Is Graph Bipartite?,2,is-graph-bipartite,0,0
+785,Is Graph Bipartite?,2,is-graph-bipartite,0,1
 786,K-th Smallest Prime Fraction,3,k-th-smallest-prime-fraction,0,0
 787,Cheapest Flights Within K Stops,2,cheapest-flights-within-k-stops,0,0
 788,Rotated Digits,2,rotated-digits,0,0
