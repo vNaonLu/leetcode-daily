@@ -49,13 +49,13 @@ struct q886 : public ::testing::Test {
                    visited(n + 1, false);
 
       for (int i = 1; i <= n; ++i) {
+        if (visited[i]) continue;
         queue<int> q;
         q.emplace(i);
         visited[i] = true;
 
         while (!q.empty()) {
-          auto x = q.front();
-          q.pop();
+          auto x = q.front(); q.pop();
 
           for (auto &y : graph[x]) {
             if (!visited[y]) {
