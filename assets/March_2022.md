@@ -2,6 +2,7 @@
 
 ||#|</>|Question Title|Difficulty|
 |:--|--:|:-:|:--|:--|
+|Day 24|881|[📎](../src/q_851_900/q0881.cc)|[Boats to Save People](https://leetcode.com/problems/boats-to-save-people/)|Medium|
 |Day 23|785<br>886<br>991<br>1615|[📎](../src/q_751_800/q0785.cc)<br>[📎](../src/q_851_900/q0886.cc)<br>[📎](../src/q_951_1000/q0991.cc)<br>[📎](../src/q_1601_1650/q1615.cc)|[Is Graph Bipartite?](https://leetcode.com/problems/is-graph-bipartite/)<br>[Possible Bipartition](https://leetcode.com/problems/possible-bipartition/)<br>[Broken Calculator](https://leetcode.com/problems/broken-calculator/)<br>[Maximal Network Rank](https://leetcode.com/problems/maximal-network-rank/)|Medium<br>Medium<br>Medium<br>Medium|
 |Day 22|1663|[📎](../src/q_1651_1700/q1663.cc)|[Smallest String With A Given Numeric Value](https://leetcode.com/problems/smallest-string-with-a-given-numeric-value/)|Medium|
 |Day 21|433|[📎](../src/q_401_450/q0433.cc)|[Minimum Genetic Mutation](https://leetcode.com/problems/minimum-genetic-mutation/)|Medium|

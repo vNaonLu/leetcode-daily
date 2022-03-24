@@ -910,7 +910,7 @@ My daily challenge on leetcode since 2021/09/06.
 |[📎](src/q_851_900/q0878.cc)|878|[Nth Magical Number](https://leetcode.com/problems/nth-magical-number/)|Hard|
 ||879|[Profitable Schemes](https://leetcode.com/problems/profitable-schemes/)|Hard|
 ||880|[Decoded String at Index](https://leetcode.com/problems/decoded-string-at-index/)|Medium|
-||881|[Boats to Save People](https://leetcode.com/problems/boats-to-save-people/)|Medium|
+|[📎](src/q_851_900/q0881.cc)|881|[Boats to Save People](https://leetcode.com/problems/boats-to-save-people/)|Medium|
 |[📎](src/q_851_900/q0882.cc)|882|[Reachable Nodes In Subdivided Graph](https://leetcode.com/problems/reachable-nodes-in-subdivided-graph/)|Hard|
 ||883|[Projection Area of 3D Shapes](https://leetcode.com/problems/projection-area-of-3d-shapes/)|Easy|
 |[📎](src/q_851_900/q0884.cc)|884|[Uncommon Words from Two Sentences](https://leetcode.com/problems/uncommon-words-from-two-sentences/)|Easy|
@@ -2056,7 +2056,7 @@ My daily challenge on leetcode since 2021/09/06.
 ||2000|[Reverse Prefix of Word](https://leetcode.com/problems/reverse-prefix-of-word/)|Easy|
 </details>
 <details>
-  <summary>### 2001 ~ 2213</summary>
+  <summary>### 2001 ~ 2214</summary>
 
 |</>|#|Solution Title|Difficulty|
 |:-:|--:|:--|:--|
@@ -2273,6 +2273,7 @@ My daily challenge on leetcode since 2021/09/06.
 ||2211|[Count Collisions on a Road](https://leetcode.com/problems/count-collisions-on-a-road/)|Medium|
 ||2212|[Maximum Points in an Archery Competition](https://leetcode.com/problems/maximum-points-in-an-archery-competition/)|Medium|
 ||2213|[Longest Substring of One Repeating Character](https://leetcode.com/problems/longest-substring-of-one-repeating-character/)|Hard|
+|🔒|2214|[Minimum Health to Beat Game](https://leetcode.com/problems/minimum-health-to-beat-game/)|Medium|
 </details>
 
 ---
@@ -2280,6 +2281,7 @@ My daily challenge on leetcode since 2021/09/06.
 
 |Time|#|</>|Question Title|Difficulty|
 |:--|--:|:-:|:--|:--|
+|2022-03-24 18:23|881|[📎](src/q_851_900/q0881.cc)|[Boats to Save People](https://leetcode.com/problems/boats-to-save-people/)|Medium|
 |2022-03-23 18:56|785|[📎](src/q_751_800/q0785.cc)|[Is Graph Bipartite?](https://leetcode.com/problems/is-graph-bipartite/)|Medium|
 |2022-03-23 18:42|886|[📎](src/q_851_900/q0886.cc)|[Possible Bipartition](https://leetcode.com/problems/possible-bipartition/)|Medium|
 |2022-03-23 18:34|1615|[📎](src/q_1601_1650/q1615.cc)|[Maximal Network Rank](https://leetcode.com/problems/maximal-network-rank/)|Medium|
@@ -2304,13 +2306,12 @@ My daily challenge on leetcode since 2021/09/06.
 |2022-03-13 14:08|417|[📎](src/q_401_450/q0417.cc)|[Pacific Atlantic Water Flow](https://leetcode.com/problems/pacific-atlantic-water-flow/)|Medium|
 |2022-03-13 13:28|1162|[📎](src/q_1151_1200/q1162.cc)|[As Far from Land as Possible](https://leetcode.com/problems/as-far-from-land-as-possible/)|Medium|
 |2022-03-12 14:08|1905|[📎](src/q_1901_1950/q1905.cc)|[Count Sub Islands](https://leetcode.com/problems/count-sub-islands/)|Medium|
-|2022-03-12 13:26|138|[📎](src/q_101_150/q0138.cc)|[Copy List with Random Pointer](https://leetcode.com/problems/copy-list-with-random-pointer/)|Medium|
 
 ## Previous Logs
 
 |Month|Submissions|Easy|Medium|Hard|
 |:--|:--|:--|:--|:--|
-|[March_2022](./assets/March_2022.md)|41|5|33|3|
+|[March_2022](./assets/March_2022.md)|42|5|34|3|
 |[February_2022](./assets/February_2022.md)|69|15|43|11|
 |[January_2022](./assets/January_2022.md)|32|8|18|6|
 |[December_2021](./assets/December_2021.md)|33|11|15|7|

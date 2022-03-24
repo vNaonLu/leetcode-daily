@@ -879,7 +879,7 @@ id,title,level,slug,paid,done
 878,Nth Magical Number,3,nth-magical-number,0,1
 879,Profitable Schemes,3,profitable-schemes,0,0
 880,Decoded String at Index,2,decoded-string-at-index,0,0
-881,Boats to Save People,2,boats-to-save-people,0,0
+881,Boats to Save People,2,boats-to-save-people,0,1
 882,Reachable Nodes In Subdivided Graph,3,reachable-nodes-in-subdivided-graph,0,1
 883,Projection Area of 3D Shapes,1,projection-area-of-3d-shapes,0,0
 884,Uncommon Words from Two Sentences,1,uncommon-words-from-two-sentences,0,1
@@ -2212,3 +2212,4 @@ id,title,level,slug,paid,done
 2211,Count Collisions on a Road,2,count-collisions-on-a-road,0,0
 2212,Maximum Points in an Archery Competition,2,maximum-points-in-an-archery-competition,0,0
 2213,Longest Substring of One Repeating Character,3,longest-substring-of-one-repeating-character,0,0
+2214,Minimum Health to Beat Game,2,minimum-health-to-beat-game,1,0
