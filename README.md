@@ -1512,7 +1512,7 @@ My daily challenge on leetcode since 2021/09/06.
 |🔒|1468|[Calculate Salaries](https://leetcode.com/problems/calculate-salaries/)|Medium|
 |🔒|1469|[Find All The Lonely Nodes](https://leetcode.com/problems/find-all-the-lonely-nodes/)|Easy|
 ||1470|[Shuffle the Array](https://leetcode.com/problems/shuffle-the-array/)|Easy|
-||1471|[The k Strongest Values in an Array](https://leetcode.com/problems/the-k-strongest-values-in-an-array/)|Medium|
+|[📎](src/q_1451_1500/q1471.cc)|1471|[The k Strongest Values in an Array](https://leetcode.com/problems/the-k-strongest-values-in-an-array/)|Medium|
 ||1472|[Design Browser History](https://leetcode.com/problems/design-browser-history/)|Medium|
 ||1473|[Paint House III](https://leetcode.com/problems/paint-house-iii/)|Hard|
 |🔒|1474|[Delete N Nodes After M Nodes of a Linked List](https://leetcode.com/problems/delete-n-nodes-after-m-nodes-of-a-linked-list/)|Easy|
@@ -2281,6 +2281,7 @@ My daily challenge on leetcode since 2021/09/06.
 
 |Time|#|</>|Question Title|Difficulty|
 |:--|--:|:-:|:--|:--|
+|2022-03-25 18:11|1471|[📎](src/q_1451_1500/q1471.cc)|[The k Strongest Values in an Array](https://leetcode.com/problems/the-k-strongest-values-in-an-array/)|Medium|
 |2022-03-24 18:23|881|[📎](src/q_851_900/q0881.cc)|[Boats to Save People](https://leetcode.com/problems/boats-to-save-people/)|Medium|
 |2022-03-23 18:56|785|[📎](src/q_751_800/q0785.cc)|[Is Graph Bipartite?](https://leetcode.com/problems/is-graph-bipartite/)|Medium|
 |2022-03-23 18:42|886|[📎](src/q_851_900/q0886.cc)|[Possible Bipartition](https://leetcode.com/problems/possible-bipartition/)|Medium|
@@ -2305,13 +2306,12 @@ My daily challenge on leetcode since 2021/09/06.
 |2022-03-13 14:53|2200|[📎](src/q_2151_2200/q2200.cc)|[Find All K-Distant Indices in an Array](https://leetcode.com/problems/find-all-k-distant-indices-in-an-array/)|Easy|
 |2022-03-13 14:08|417|[📎](src/q_401_450/q0417.cc)|[Pacific Atlantic Water Flow](https://leetcode.com/problems/pacific-atlantic-water-flow/)|Medium|
 |2022-03-13 13:28|1162|[📎](src/q_1151_1200/q1162.cc)|[As Far from Land as Possible](https://leetcode.com/problems/as-far-from-land-as-possible/)|Medium|
-|2022-03-12 14:08|1905|[📎](src/q_1901_1950/q1905.cc)|[Count Sub Islands](https://leetcode.com/problems/count-sub-islands/)|Medium|
 
 ## Previous Logs
 
 |Month|Submissions|Easy|Medium|Hard|
 |:--|:--|:--|:--|:--|
-|[March_2022](./assets/March_2022.md)|42|5|34|3|
+|[March_2022](./assets/March_2022.md)|43|5|35|3|
 |[February_2022](./assets/February_2022.md)|69|15|43|11|
 |[January_2022](./assets/January_2022.md)|32|8|18|6|
 |[December_2021](./assets/December_2021.md)|33|11|15|7|

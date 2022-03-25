@@ -1469,7 +1469,7 @@ id,title,level,slug,paid,done
 1468,Calculate Salaries,2,calculate-salaries,1,0
 1469,Find All The Lonely Nodes,1,find-all-the-lonely-nodes,1,0
 1470,Shuffle the Array,1,shuffle-the-array,0,0
-1471,The k Strongest Values in an Array,2,the-k-strongest-values-in-an-array,0,0
+1471,The k Strongest Values in an Array,2,the-k-strongest-values-in-an-array,0,1
 1472,Design Browser History,2,design-browser-history,0,0
 1473,Paint House III,3,paint-house-iii,0,0
 1474,Delete N Nodes After M Nodes of a Linked List,1,delete-n-nodes-after-m-nodes-of-a-linked-list,1,0
