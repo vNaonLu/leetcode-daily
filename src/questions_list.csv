@@ -363,7 +363,7 @@ id,title,level,slug,paid,done
 362,Design Hit Counter,2,design-hit-counter,1,0
 363,Max Sum of Rectangle No Larger Than K,3,max-sum-of-rectangle-no-larger-than-k,0,0
 364,Nested List Weight Sum II,2,nested-list-weight-sum-ii,1,0
-365,Water and Jug Problem,2,water-and-jug-problem,0,0
+365,Water and Jug Problem,2,water-and-jug-problem,0,1
 366,Find Leaves of Binary Tree,2,find-leaves-of-binary-tree,1,0
 367,Valid Perfect Square,1,valid-perfect-square,0,0
 368,Largest Divisible Subset,2,largest-divisible-subset,0,1
@@ -431,7 +431,7 @@ id,title,level,slug,paid,done
 430,Flatten a Multilevel Doubly Linked List,2,flatten-a-multilevel-doubly-linked-list,0,1
 431,Encode N-ary Tree to Binary Tree,3,encode-n-ary-tree-to-binary-tree,1,0
 432,All O`one Data Structure,3,all-oone-data-structure,0,0
-433,Minimum Genetic Mutation,2,minimum-genetic-mutation,0,0
+433,Minimum Genetic Mutation,2,minimum-genetic-mutation,0,1
 434,Number of Segments in a String,1,number-of-segments-in-a-string,0,0
 435,Non-overlapping Intervals,2,non-overlapping-intervals,0,1
 436,Find Right Interval,2,find-right-interval,0,0
@@ -783,7 +783,7 @@ id,title,level,slug,paid,done
 782,Transform to Chessboard,3,transform-to-chessboard,0,1
 783,Minimum Distance Between BST Nodes,1,minimum-distance-between-bst-nodes,0,0
 784,Letter Case Permutation,2,letter-case-permutation,0,1
-785,Is Graph Bipartite?,2,is-graph-bipartite,0,0
+785,Is Graph Bipartite?,2,is-graph-bipartite,0,1
 786,K-th Smallest Prime Fraction,3,k-th-smallest-prime-fraction,0,0
 787,Cheapest Flights Within K Stops,2,cheapest-flights-within-k-stops,0,0
 788,Rotated Digits,2,rotated-digits,0,0
@@ -879,12 +879,12 @@ id,title,level,slug,paid,done
 878,Nth Magical Number,3,nth-magical-number,0,1
 879,Profitable Schemes,3,profitable-schemes,0,0
 880,Decoded String at Index,2,decoded-string-at-index,0,0
-881,Boats to Save People,2,boats-to-save-people,0,0
+881,Boats to Save People,2,boats-to-save-people,0,1
 882,Reachable Nodes In Subdivided Graph,3,reachable-nodes-in-subdivided-graph,0,1
 883,Projection Area of 3D Shapes,1,projection-area-of-3d-shapes,0,0
 884,Uncommon Words from Two Sentences,1,uncommon-words-from-two-sentences,0,1
 885,Spiral Matrix III,2,spiral-matrix-iii,0,0
-886,Possible Bipartition,2,possible-bipartition,0,0
+886,Possible Bipartition,2,possible-bipartition,0,1
 887,Super Egg Drop,3,super-egg-drop,0,0
 888,Fair Candy Swap,1,fair-candy-swap,0,1
 889,Construct Binary Tree from Preorder and Postorder Traversal,2,construct-binary-tree-from-preorder-and-postorder-traversal,0,0
@@ -989,7 +989,7 @@ id,title,level,slug,paid,done
 988,Smallest String Starting From Leaf,2,smallest-string-starting-from-leaf,0,0
 989,Add to Array-Form of Integer,1,add-to-array-form-of-integer,0,0
 990,Satisfiability of Equality Equations,2,satisfiability-of-equality-equations,0,0
-991,Broken Calculator,2,broken-calculator,0,0
+991,Broken Calculator,2,broken-calculator,0,1
 992,Subarrays with K Different Integers,3,subarrays-with-k-different-integers,0,0
 993,Cousins in Binary Tree,1,cousins-in-binary-tree,0,1
 994,Rotting Oranges,2,rotting-oranges,0,1
@@ -1033,7 +1033,7 @@ id,title,level,slug,paid,done
 1032,Stream of Characters,3,stream-of-characters,0,1
 1033,Moving Stones Until Consecutive,2,moving-stones-until-consecutive,0,0
 1034,Coloring A Border,2,coloring-a-border,0,0
-1035,Uncrossed Lines,2,uncrossed-lines,0,0
+1035,Uncrossed Lines,2,uncrossed-lines,0,1
 1036,Escape a Large Maze,3,escape-a-large-maze,0,0
 1037,Valid Boomerang,1,valid-boomerang,0,0
 1038,Binary Search Tree to Greater Sum Tree,2,binary-search-tree-to-greater-sum-tree,0,0
@@ -1469,7 +1469,7 @@ id,title,level,slug,paid,done
 1468,Calculate Salaries,2,calculate-salaries,1,0
 1469,Find All The Lonely Nodes,1,find-all-the-lonely-nodes,1,0
 1470,Shuffle the Array,1,shuffle-the-array,0,0
-1471,The k Strongest Values in an Array,2,the-k-strongest-values-in-an-array,0,0
+1471,The k Strongest Values in an Array,2,the-k-strongest-values-in-an-array,0,1
 1472,Design Browser History,2,design-browser-history,0,0
 1473,Paint House III,3,paint-house-iii,0,0
 1474,Delete N Nodes After M Nodes of a Linked List,1,delete-n-nodes-after-m-nodes-of-a-linked-list,1,0
@@ -1613,7 +1613,7 @@ id,title,level,slug,paid,done
 1612,Check If Two Expression Trees are Equivalent,2,check-if-two-expression-trees-are-equivalent,1,0
 1613,Find the Missing IDs,2,find-the-missing-ids,1,0
 1614,Maximum Nesting Depth of the Parentheses,1,maximum-nesting-depth-of-the-parentheses,0,0
-1615,Maximal Network Rank,2,maximal-network-rank,0,0
+1615,Maximal Network Rank,2,maximal-network-rank,0,1
 1616,Split Two Strings to Make Palindrome,2,split-two-strings-to-make-palindrome,0,0
 1617,Count Subtrees With Max Distance Between Cities,3,count-subtrees-with-max-distance-between-cities,0,0
 1618,Maximum Font to Fit a Sentence in a Screen,2,maximum-font-to-fit-a-sentence-in-a-screen,1,0
@@ -1652,7 +1652,7 @@ id,title,level,slug,paid,done
 1651,Hopper Company Queries III,3,hopper-company-queries-iii,1,0
 1652,Defuse the Bomb,1,defuse-the-bomb,0,0
 1653,Minimum Deletions to Make String Balanced,2,minimum-deletions-to-make-string-balanced,0,0
-1654,Minimum Jumps to Reach Home,2,minimum-jumps-to-reach-home,0,0
+1654,Minimum Jumps to Reach Home,2,minimum-jumps-to-reach-home,0,1
 1655,Distribute Repeating Integers,3,distribute-repeating-integers,0,0
 1656,Design an Ordered Stream,1,design-an-ordered-stream,0,0
 1657,Determine if Two Strings Are Close,2,determine-if-two-strings-are-close,0,0
@@ -1661,7 +1661,7 @@ id,title,level,slug,paid,done
 1660,Correct a Binary Tree,2,correct-a-binary-tree,1,0
 1661,Average Time of Process per Machine,1,average-time-of-process-per-machine,1,0
 1662,Check If Two String Arrays are Equivalent,1,check-if-two-string-arrays-are-equivalent,0,0
-1663,Smallest String With A Given Numeric Value,2,smallest-string-with-a-given-numeric-value,0,0
+1663,Smallest String With A Given Numeric Value,2,smallest-string-with-a-given-numeric-value,0,1
 1664,Ways to Make a Fair Array,2,ways-to-make-a-fair-array,0,0
 1665,Minimum Initial Energy to Finish Tasks,3,minimum-initial-energy-to-finish-tasks,0,0
 1666,Change the Root of a Binary Tree,2,change-the-root-of-a-binary-tree,1,0
@@ -2203,3 +2203,13 @@ id,title,level,slug,paid,done
 2202,Maximize the Topmost Element After K Moves,2,maximize-the-topmost-element-after-k-moves,0,0
 2203,Minimum Weighted Subgraph With the Required Paths,3,minimum-weighted-subgraph-with-the-required-paths,0,0
 2204,Distance to a Cycle in Undirected Graph,3,distance-to-a-cycle-in-undirected-graph,1,0
+2205,The Number of Users That Are Eligible for Discount,1,the-number-of-users-that-are-eligible-for-discount,1,0
+2206,Divide Array Into Equal Pairs,1,divide-array-into-equal-pairs,0,0
+2207,Maximize Number of Subsequences in a String,2,maximize-number-of-subsequences-in-a-string,0,0
+2208,Minimum Operations to Halve Array Sum,2,minimum-operations-to-halve-array-sum,0,0
+2209,Minimum White Tiles After Covering With Carpets,3,minimum-white-tiles-after-covering-with-carpets,0,0
+2210,Count Hills and Valleys in an Array,1,count-hills-and-valleys-in-an-array,0,0
+2211,Count Collisions on a Road,2,count-collisions-on-a-road,0,0
+2212,Maximum Points in an Archery Competition,2,maximum-points-in-an-archery-competition,0,0
+2213,Longest Substring of One Repeating Character,3,longest-substring-of-one-repeating-character,0,0
+2214,Minimum Health to Beat Game,2,minimum-health-to-beat-game,1,0
