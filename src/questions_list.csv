@@ -1033,7 +1033,7 @@ id,title,level,slug,paid,done
 1032,Stream of Characters,3,stream-of-characters,0,1
 1033,Moving Stones Until Consecutive,2,moving-stones-until-consecutive,0,0
 1034,Coloring A Border,2,coloring-a-border,0,0
-1035,Uncrossed Lines,2,uncrossed-lines,0,0
+1035,Uncrossed Lines,2,uncrossed-lines,0,1
 1036,Escape a Large Maze,3,escape-a-large-maze,0,0
 1037,Valid Boomerang,1,valid-boomerang,0,0
 1038,Binary Search Tree to Greater Sum Tree,2,binary-search-tree-to-greater-sum-tree,0,0

@@ -2,6 +2,7 @@
 
 ||#|</>|Question Title|Difficulty|
 |:--|--:|:-:|:--|:--|
+|Day 26|1035|[📎](../src/q_1001_1050/q1035.cc)|[Uncrossed Lines](https://leetcode.com/problems/uncrossed-lines/)|Medium|
 |Day 25|1471|[📎](../src/q_1451_1500/q1471.cc)|[The k Strongest Values in an Array](https://leetcode.com/problems/the-k-strongest-values-in-an-array/)|Medium|
 |Day 24|881|[📎](../src/q_851_900/q0881.cc)|[Boats to Save People](https://leetcode.com/problems/boats-to-save-people/)|Medium|
 |Day 23|785<br>886<br>991<br>1615|[📎](../src/q_751_800/q0785.cc)<br>[📎](../src/q_851_900/q0886.cc)<br>[📎](../src/q_951_1000/q0991.cc)<br>[📎](../src/q_1601_1650/q1615.cc)|[Is Graph Bipartite?](https://leetcode.com/problems/is-graph-bipartite/)<br>[Possible Bipartition](https://leetcode.com/problems/possible-bipartition/)<br>[Broken Calculator](https://leetcode.com/problems/broken-calculator/)<br>[Maximal Network Rank](https://leetcode.com/problems/maximal-network-rank/)|Medium<br>Medium<br>Medium<br>Medium|

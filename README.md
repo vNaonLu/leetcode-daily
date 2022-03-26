@@ -1070,7 +1070,7 @@ My daily challenge on leetcode since 2021/09/06.
 |[📎](src/q_1001_1050/q1032.cc)|1032|[Stream of Characters](https://leetcode.com/problems/stream-of-characters/)|Hard|
 ||1033|[Moving Stones Until Consecutive](https://leetcode.com/problems/moving-stones-until-consecutive/)|Medium|
 ||1034|[Coloring A Border](https://leetcode.com/problems/coloring-a-border/)|Medium|
-||1035|[Uncrossed Lines](https://leetcode.com/problems/uncrossed-lines/)|Medium|
+|[📎](src/q_1001_1050/q1035.cc)|1035|[Uncrossed Lines](https://leetcode.com/problems/uncrossed-lines/)|Medium|
 ||1036|[Escape a Large Maze](https://leetcode.com/problems/escape-a-large-maze/)|Hard|
 ||1037|[Valid Boomerang](https://leetcode.com/problems/valid-boomerang/)|Easy|
 ||1038|[Binary Search Tree to Greater Sum Tree](https://leetcode.com/problems/binary-search-tree-to-greater-sum-tree/)|Medium|
@@ -2281,6 +2281,7 @@ My daily challenge on leetcode since 2021/09/06.
 
 |Time|#|</>|Question Title|Difficulty|
 |:--|--:|:-:|:--|:--|
+|2022-03-26 11:56|1035|[📎](src/q_1001_1050/q1035.cc)|[Uncrossed Lines](https://leetcode.com/problems/uncrossed-lines/)|Medium|
 |2022-03-25 18:11|1471|[📎](src/q_1451_1500/q1471.cc)|[The k Strongest Values in an Array](https://leetcode.com/problems/the-k-strongest-values-in-an-array/)|Medium|
 |2022-03-24 18:23|881|[📎](src/q_851_900/q0881.cc)|[Boats to Save People](https://leetcode.com/problems/boats-to-save-people/)|Medium|
 |2022-03-23 18:56|785|[📎](src/q_751_800/q0785.cc)|[Is Graph Bipartite?](https://leetcode.com/problems/is-graph-bipartite/)|Medium|
@@ -2305,13 +2306,12 @@ My daily challenge on leetcode since 2021/09/06.
 |2022-03-14 18:29|71|[📎](src/q_51_100/q0071.cc)|[Simplify Path](https://leetcode.com/problems/simplify-path/)|Medium|
 |2022-03-13 14:53|2200|[📎](src/q_2151_2200/q2200.cc)|[Find All K-Distant Indices in an Array](https://leetcode.com/problems/find-all-k-distant-indices-in-an-array/)|Easy|
 |2022-03-13 14:08|417|[📎](src/q_401_450/q0417.cc)|[Pacific Atlantic Water Flow](https://leetcode.com/problems/pacific-atlantic-water-flow/)|Medium|
-|2022-03-13 13:28|1162|[📎](src/q_1151_1200/q1162.cc)|[As Far from Land as Possible](https://leetcode.com/problems/as-far-from-land-as-possible/)|Medium|
 
 ## Previous Logs
 
 |Month|Submissions|Easy|Medium|Hard|
 |:--|:--|:--|:--|:--|
-|[March_2022](./assets/March_2022.md)|43|5|35|3|
+|[March_2022](./assets/March_2022.md)|44|5|36|3|
 |[February_2022](./assets/February_2022.md)|69|15|43|11|
 |[January_2022](./assets/January_2022.md)|32|8|18|6|
 |[December_2021](./assets/December_2021.md)|33|11|15|7|
