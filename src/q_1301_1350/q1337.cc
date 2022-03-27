@@ -54,7 +54,6 @@ struct q1337 : public ::testing::Test {
         }
         pq.emplace(l, row++);
       }
-
       vector<int> res;
       while (k-- && !pq.empty()) {
         res.emplace_back(pq.top().second);
@@ -70,7 +69,7 @@ struct q1337 : public ::testing::Test {
 
 TEST_F(q1337, sample_input01) {
   solution = new Solution();
-  vector<vector<int>> mat = {};
+  vector<vector<int>> mat = {{1, 1, 0, 0, 0}, {1, 1, 1, 1, 0}, {1, 0, 0, 0, 0}, {1, 1, 0, 0, 0}, {1, 1, 1, 1, 1}};
   vector<int> exp = {2, 0, 3};
   int k = 3;
   vector<int> act = solution->kWeakestRows(mat, k);
@@ -80,7 +79,7 @@ TEST_F(q1337, sample_input01) {
 
 TEST_F(q1337, sample_input02) {
   solution = new Solution();
-  vector<vector<int>> mat = {};
+  vector<vector<int>> mat = {{1, 0, 0, 0}, {1, 1, 1, 1}, {1, 0, 0, 0}, {1, 0, 0, 0}};
   vector<int> exp = {0, 2};
   int k = 2;
   vector<int> act = solution->kWeakestRows(mat, k);
