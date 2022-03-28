@@ -79,7 +79,7 @@ id,title,level,slug,paid,done
 78,Subsets,2,subsets,0,1
 79,Word Search,2,word-search,0,1
 80,Remove Duplicates from Sorted Array II,2,remove-duplicates-from-sorted-array-ii,0,1
-81,Search in Rotated Sorted Array II,2,search-in-rotated-sorted-array-ii,0,0
+81,Search in Rotated Sorted Array II,2,search-in-rotated-sorted-array-ii,0,1
 82,Remove Duplicates from Sorted List II,2,remove-duplicates-from-sorted-list-ii,0,1
 83,Remove Duplicates from Sorted List,1,remove-duplicates-from-sorted-list,0,1
 84,Largest Rectangle in Histogram,3,largest-rectangle-in-histogram,0,1
