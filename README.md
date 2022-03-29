@@ -304,7 +304,7 @@ My daily challenge on leetcode since 2021/09/06.
 ||284|[Peeking Iterator](https://leetcode.com/problems/peeking-iterator/)|Medium|
 |🔒|285|[Inorder Successor in BST](https://leetcode.com/problems/inorder-successor-in-bst/)|Medium|
 |🔒|286|[Walls and Gates](https://leetcode.com/problems/walls-and-gates/)|Medium|
-||287|[Find the Duplicate Number](https://leetcode.com/problems/find-the-duplicate-number/)|Medium|
+|[📎](src/q_251_300/q0287.cc)|287|[Find the Duplicate Number](https://leetcode.com/problems/find-the-duplicate-number/)|Medium|
 |🔒|288|[Unique Word Abbreviation](https://leetcode.com/problems/unique-word-abbreviation/)|Medium|
 ||289|[Game of Life](https://leetcode.com/problems/game-of-life/)|Medium|
 |[📎](src/q_251_300/q0290.cc)|290|[Word Pattern](https://leetcode.com/problems/word-pattern/)|Easy|
@@ -2285,6 +2285,7 @@ My daily challenge on leetcode since 2021/09/06.
 
 |Time|#|</>|Question Title|Difficulty|
 |:--|--:|:-:|:--|:--|
+|2022-03-29 18:10|287|[📎](src/q_251_300/q0287.cc)|[Find the Duplicate Number](https://leetcode.com/problems/find-the-duplicate-number/)|Medium|
 |2022-03-28 18:20|81|[📎](src/q_51_100/q0081.cc)|[Search in Rotated Sorted Array II](https://leetcode.com/problems/search-in-rotated-sorted-array-ii/)|Medium|
 |2022-03-27 23:33|1337|[📎](src/q_1301_1350/q1337.cc)|[The K Weakest Rows in a Matrix](https://leetcode.com/problems/the-k-weakest-rows-in-a-matrix/)|Easy|
 |2022-03-26 11:56|1035|[📎](src/q_1001_1050/q1035.cc)|[Uncrossed Lines](https://leetcode.com/problems/uncrossed-lines/)|Medium|
@@ -2309,13 +2310,12 @@ My daily challenge on leetcode since 2021/09/06.
 |2022-03-16 18:36|2180|[📎](src/q_2151_2200/q2180.cc)|[Count Integers With Even Digit Sum](https://leetcode.com/problems/count-integers-with-even-digit-sum/)|Easy|
 |2022-03-15 18:42|1926|[📎](src/q_1901_1950/q1926.cc)|[Nearest Exit from Entrance in Maze](https://leetcode.com/problems/nearest-exit-from-entrance-in-maze/)|Medium|
 |2022-03-15 18:19|934|[📎](src/q_901_950/q0934.cc)|[Shortest Bridge](https://leetcode.com/problems/shortest-bridge/)|Medium|
-|2022-03-14 18:29|71|[📎](src/q_51_100/q0071.cc)|[Simplify Path](https://leetcode.com/problems/simplify-path/)|Medium|
 
 ## Previous Logs
 
 |Month|Submissions|Easy|Medium|Hard|
 |:--|:--|:--|:--|:--|
-|[March_2022](./assets/March_2022.md)|46|6|37|3|
+|[March_2022](./assets/March_2022.md)|47|6|38|3|
 |[February_2022](./assets/February_2022.md)|69|15|43|11|
 |[January_2022](./assets/January_2022.md)|32|8|18|6|
 |[December_2021](./assets/December_2021.md)|33|11|15|7|

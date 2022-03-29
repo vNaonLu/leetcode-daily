@@ -285,7 +285,7 @@ id,title,level,slug,paid,done
 284,Peeking Iterator,2,peeking-iterator,0,0
 285,Inorder Successor in BST,2,inorder-successor-in-bst,1,0
 286,Walls and Gates,2,walls-and-gates,1,0
-287,Find the Duplicate Number,2,find-the-duplicate-number,0,0
+287,Find the Duplicate Number,2,find-the-duplicate-number,0,1
 288,Unique Word Abbreviation,2,unique-word-abbreviation,1,0
 289,Game of Life,2,game-of-life,0,0
 290,Word Pattern,1,word-pattern,0,1
