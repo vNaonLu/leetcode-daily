@@ -408,7 +408,7 @@ id,title,level,slug,paid,done
 407,Trapping Rain Water II,3,trapping-rain-water-ii,0,0
 408,Valid Word Abbreviation,1,valid-word-abbreviation,1,0
 409,Longest Palindrome,1,longest-palindrome,0,1
-410,Split Array Largest Sum,3,split-array-largest-sum,0,0
+410,Split Array Largest Sum,3,split-array-largest-sum,0,1
 411,Minimum Unique Word Abbreviation,3,minimum-unique-word-abbreviation,1,0
 412,Fizz Buzz,1,fizz-buzz,0,0
 413,Arithmetic Slices,2,arithmetic-slices,0,1
