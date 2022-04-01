@@ -2147,7 +2147,7 @@ id,title,level,slug,paid,done
 2146,K Highest Ranked Items Within a Price Range,2,k-highest-ranked-items-within-a-price-range,0,0
 2147,Number of Ways to Divide a Long Corridor,3,number-of-ways-to-divide-a-long-corridor,0,0
 2148,Count Elements With Strictly Smaller and Greater Elements ,1,count-elements-with-strictly-smaller-and-greater-elements,0,0
-2149,Rearrange Array Elements by Sign,2,rearrange-array-elements-by-sign,0,0
+2149,Rearrange Array Elements by Sign,2,rearrange-array-elements-by-sign,0,1
 2150,Find All Lonely Numbers in the Array,2,find-all-lonely-numbers-in-the-array,0,0
 2151,Maximum Good People Based on Statements,3,maximum-good-people-based-on-statements,0,0
 2152,Minimum Number of Lines to Cover Points,2,minimum-number-of-lines-to-cover-points,1,0
@@ -2217,3 +2217,4 @@ id,title,level,slug,paid,done
 2216,Minimum Deletions to Make Array Beautiful,2,minimum-deletions-to-make-array-beautiful,0,0
 2217,Find Palindrome With Fixed Length,2,find-palindrome-with-fixed-length,0,0
 2218,Maximum Value of K Coins From Piles,3,maximum-value-of-k-coins-from-piles,0,0
+2219,Maximum Sum Score of Array,2,maximum-sum-score-of-array,1,0
