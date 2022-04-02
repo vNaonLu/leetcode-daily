@@ -703,7 +703,7 @@ My daily challenge on leetcode since 2021/09/06.
 ||677|[Map Sum Pairs](https://leetcode.com/problems/map-sum-pairs/)|Medium|
 ||678|[Valid Parenthesis String](https://leetcode.com/problems/valid-parenthesis-string/)|Medium|
 ||679|[24 Game](https://leetcode.com/problems/24-game/)|Hard|
-||680|[Valid Palindrome II](https://leetcode.com/problems/valid-palindrome-ii/)|Easy|
+|[📎](src/q_651_700/q0680.cc)|680|[Valid Palindrome II](https://leetcode.com/problems/valid-palindrome-ii/)|Easy|
 |🔒|681|[Next Closest Time](https://leetcode.com/problems/next-closest-time/)|Medium|
 ||682|[Baseball Game](https://leetcode.com/problems/baseball-game/)|Easy|
 |🔒|683|[K Empty Slots](https://leetcode.com/problems/k-empty-slots/)|Hard|
@@ -2286,6 +2286,7 @@ My daily challenge on leetcode since 2021/09/06.
 
 |Time|#|</>|Question Title|Difficulty|
 |:--|--:|:-:|:--|:--|
+|2022-04-02 16:10|680|[📎](src/q_651_700/q0680.cc)|[Valid Palindrome II](https://leetcode.com/problems/valid-palindrome-ii/)|Easy|
 |2022-04-01 18:22|2149|[📎](src/q_2101_2150/q2149.cc)|[Rearrange Array Elements by Sign](https://leetcode.com/problems/rearrange-array-elements-by-sign/)|Medium|
 |2022-03-31 13:48|410|[📎](src/q_401_450/q0410.cc)|[Split Array Largest Sum](https://leetcode.com/problems/split-array-largest-sum/)|Hard|
 |2022-03-30 18:42|1829|[📎](src/q_1801_1850/q1829.cc)|[Maximum XOR for Each Query](https://leetcode.com/problems/maximum-xor-for-each-query/)|Medium|
@@ -2310,13 +2311,12 @@ My daily challenge on leetcode since 2021/09/06.
 |2022-03-18 18:26|1376|[📎](src/q_1351_1400/q1376.cc)|[Time Needed to Inform All Employees](https://leetcode.com/problems/time-needed-to-inform-all-employees/)|Medium|
 |2022-03-18 18:14|316|[📎](src/q_301_350/q0316.cc)|[Remove Duplicate Letters](https://leetcode.com/problems/remove-duplicate-letters/)|Medium|
 |2022-03-17 18:22|1319|[📎](src/q_1301_1350/q1319.cc)|[Number of Operations to Make Network Connected](https://leetcode.com/problems/number-of-operations-to-make-network-connected/)|Medium|
-|2022-03-17 18:08|856|[📎](src/q_851_900/q0856.cc)|[Score of Parentheses](https://leetcode.com/problems/score-of-parentheses/)|Medium|
 
 ## Previous Logs
 
 |Month|Submissions|Easy|Medium|Hard|
 |:--|:--|:--|:--|:--|
-|[April_2022](./assets/April_2022.md)|1|0|1|0|
+|[April_2022](./assets/April_2022.md)|2|1|1|0|
 |[March_2022](./assets/March_2022.md)|49|6|39|4|
 |[February_2022](./assets/February_2022.md)|69|15|43|11|
 |[January_2022](./assets/January_2022.md)|32|8|18|6|
