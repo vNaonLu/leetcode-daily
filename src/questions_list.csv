@@ -79,7 +79,7 @@ id,title,level,slug,paid,done
 78,Subsets,2,subsets,0,1
 79,Word Search,2,word-search,0,1
 80,Remove Duplicates from Sorted Array II,2,remove-duplicates-from-sorted-array-ii,0,1
-81,Search in Rotated Sorted Array II,2,search-in-rotated-sorted-array-ii,0,0
+81,Search in Rotated Sorted Array II,2,search-in-rotated-sorted-array-ii,0,1
 82,Remove Duplicates from Sorted List II,2,remove-duplicates-from-sorted-list-ii,0,1
 83,Remove Duplicates from Sorted List,1,remove-duplicates-from-sorted-list,0,1
 84,Largest Rectangle in Histogram,3,largest-rectangle-in-histogram,0,1
@@ -285,7 +285,7 @@ id,title,level,slug,paid,done
 284,Peeking Iterator,2,peeking-iterator,0,0
 285,Inorder Successor in BST,2,inorder-successor-in-bst,1,0
 286,Walls and Gates,2,walls-and-gates,1,0
-287,Find the Duplicate Number,2,find-the-duplicate-number,0,0
+287,Find the Duplicate Number,2,find-the-duplicate-number,0,1
 288,Unique Word Abbreviation,2,unique-word-abbreviation,1,0
 289,Game of Life,2,game-of-life,0,0
 290,Word Pattern,1,word-pattern,0,1
@@ -408,7 +408,7 @@ id,title,level,slug,paid,done
 407,Trapping Rain Water II,3,trapping-rain-water-ii,0,0
 408,Valid Word Abbreviation,1,valid-word-abbreviation,1,0
 409,Longest Palindrome,1,longest-palindrome,0,1
-410,Split Array Largest Sum,3,split-array-largest-sum,0,0
+410,Split Array Largest Sum,3,split-array-largest-sum,0,1
 411,Minimum Unique Word Abbreviation,3,minimum-unique-word-abbreviation,1,0
 412,Fizz Buzz,1,fizz-buzz,0,0
 413,Arithmetic Slices,2,arithmetic-slices,0,1
@@ -509,7 +509,7 @@ id,title,level,slug,paid,done
 508,Most Frequent Subtree Sum,2,most-frequent-subtree-sum,0,0
 509,Fibonacci Number,1,fibonacci-number,0,1
 510,Inorder Successor in BST II,2,inorder-successor-in-bst-ii,1,0
-511,Game Play Analysis I,1,game-play-analysis-i,1,0
+511,Game Play Analysis I,1,game-play-analysis-i,0,0
 512,Game Play Analysis II,1,game-play-analysis-ii,1,0
 513,Find Bottom Left Tree Value,2,find-bottom-left-tree-value,0,0
 514,Freedom Trail,3,freedom-trail,0,0
@@ -582,9 +582,9 @@ id,title,level,slug,paid,done
 581,Shortest Unsorted Continuous Subarray,2,shortest-unsorted-continuous-subarray,0,0
 582,Kill Process,2,kill-process,1,0
 583,Delete Operation for Two Strings,2,delete-operation-for-two-strings,0,1
-584,Find Customer Referee,1,find-customer-referee,1,0
+584,Find Customer Referee,1,find-customer-referee,0,0
 585,Investments in 2016,2,investments-in-2016,1,0
-586,Customer Placing the Largest Number of Orders,1,customer-placing-the-largest-number-of-orders,1,0
+586,Customer Placing the Largest Number of Orders,1,customer-placing-the-largest-number-of-orders,0,0
 587,Erect the Fence,3,erect-the-fence,0,0
 588,Design In-Memory File System,3,design-in-memory-file-system,1,0
 589,N-ary Tree Preorder Traversal,1,n-ary-tree-preorder-traversal,0,0
@@ -605,8 +605,8 @@ id,title,level,slug,paid,done
 604,Design Compressed String Iterator,1,design-compressed-string-iterator,1,0
 605,Can Place Flowers,1,can-place-flowers,0,1
 606,Construct String from Binary Tree,1,construct-string-from-binary-tree,0,0
-607,Sales Person,1,sales-person,1,0
-608,Tree Node,2,tree-node,1,0
+607,Sales Person,1,sales-person,0,0
+608,Tree Node,2,tree-node,0,0
 609,Find Duplicate File in System,2,find-duplicate-file-in-system,0,0
 610,Triangle Judgement,1,triangle-judgement,1,0
 611,Valid Triangle Number,2,valid-triangle-number,0,0
@@ -678,7 +678,7 @@ id,title,level,slug,paid,done
 677,Map Sum Pairs,2,map-sum-pairs,0,0
 678,Valid Parenthesis String,2,valid-parenthesis-string,0,0
 679,24 Game,3,24-game,0,0
-680,Valid Palindrome II,1,valid-palindrome-ii,0,0
+680,Valid Palindrome II,1,valid-palindrome-ii,0,1
 681,Next Closest Time,2,next-closest-time,1,0
 682,Baseball Game,1,baseball-game,0,0
 683,K Empty Slots,3,k-empty-slots,1,0
@@ -1048,7 +1048,7 @@ id,title,level,slug,paid,done
 1047,Remove All Adjacent Duplicates In String,1,remove-all-adjacent-duplicates-in-string,0,0
 1048,Longest String Chain,2,longest-string-chain,0,0
 1049,Last Stone Weight II,2,last-stone-weight-ii,0,0
-1050,Actors and Directors Who Cooperated At Least Three Times,1,actors-and-directors-who-cooperated-at-least-three-times,1,0
+1050,Actors and Directors Who Cooperated At Least Three Times,1,actors-and-directors-who-cooperated-at-least-three-times,0,0
 1051,Height Checker,1,height-checker,0,0
 1052,Grumpy Bookstore Owner,2,grumpy-bookstore-owner,0,0
 1053,Previous Permutation With One Swap,2,previous-permutation-with-one-swap,0,1
@@ -1082,7 +1082,7 @@ id,title,level,slug,paid,done
 1081,Smallest Subsequence of Distinct Characters,2,smallest-subsequence-of-distinct-characters,0,1
 1082,Sales Analysis I,1,sales-analysis-i,1,0
 1083,Sales Analysis II,1,sales-analysis-ii,1,0
-1084,Sales Analysis III,1,sales-analysis-iii,1,0
+1084,Sales Analysis III,1,sales-analysis-iii,0,0
 1085,Sum of Digits in the Minimum Number,1,sum-of-digits-in-the-minimum-number,1,0
 1086,High Five,1,high-five,1,0
 1087,Brace Expansion,2,brace-expansion,1,0
@@ -1139,14 +1139,14 @@ id,title,level,slug,paid,done
 1138,Alphabet Board Path,2,alphabet-board-path,0,0
 1139,Largest 1-Bordered Square,2,largest-1-bordered-square,0,0
 1140,Stone Game II,2,stone-game-ii,0,0
-1141,User Activity for the Past 30 Days I,1,user-activity-for-the-past-30-days-i,1,0
+1141,User Activity for the Past 30 Days I,1,user-activity-for-the-past-30-days-i,0,0
 1142,User Activity for the Past 30 Days II,1,user-activity-for-the-past-30-days-ii,1,0
 1143,Longest Common Subsequence,2,longest-common-subsequence,0,1
 1144,Decrease Elements To Make Array Zigzag,2,decrease-elements-to-make-array-zigzag,0,0
 1145,Binary Tree Coloring Game,2,binary-tree-coloring-game,0,1
 1146,Snapshot Array,2,snapshot-array,0,0
 1147,Longest Chunked Palindrome Decomposition,3,longest-chunked-palindrome-decomposition,0,0
-1148,Article Views I,1,article-views-i,1,0
+1148,Article Views I,1,article-views-i,0,0
 1149,Article Views II,2,article-views-ii,1,0
 1150,Check If a Number Is Majority Element in a Sorted Array,1,check-if-a-number-is-majority-element-in-a-sorted-array,1,0
 1151,Minimum Swaps to Group All 1's Together,2,minimum-swaps-to-group-all-1s-together,1,0
@@ -1156,7 +1156,7 @@ id,title,level,slug,paid,done
 1155,Number of Dice Rolls With Target Sum,2,number-of-dice-rolls-with-target-sum,0,1
 1156,Swap For Longest Repeated Character Substring,2,swap-for-longest-repeated-character-substring,0,0
 1157,Online Majority Element In Subarray,3,online-majority-element-in-subarray,0,0
-1158,Market Analysis I,2,market-analysis-i,1,0
+1158,Market Analysis I,2,market-analysis-i,0,0
 1159,Market Analysis II,3,market-analysis-ii,1,0
 1160,Find Words That Can Be Formed by Characters,1,find-words-that-can-be-formed-by-characters,0,0
 1161,Maximum Level Sum of a Binary Tree,2,maximum-level-sum-of-a-binary-tree,0,0
@@ -1335,7 +1335,7 @@ id,title,level,slug,paid,done
 1334,Find the City With the Smallest Number of Neighbors at a Threshold Distance,2,find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance,0,0
 1335,Minimum Difficulty of a Job Schedule,3,minimum-difficulty-of-a-job-schedule,0,0
 1336,Number of Transactions per Visit,3,number-of-transactions-per-visit,1,0
-1337,The K Weakest Rows in a Matrix,1,the-k-weakest-rows-in-a-matrix,0,0
+1337,The K Weakest Rows in a Matrix,1,the-k-weakest-rows-in-a-matrix,0,1
 1338,Reduce Array Size to The Half,2,reduce-array-size-to-the-half,0,0
 1339,Maximum Product of Splitted Binary Tree,2,maximum-product-of-splitted-binary-tree,0,0
 1340,Jump Game V,3,jump-game-v,0,0
@@ -1391,7 +1391,7 @@ id,title,level,slug,paid,done
 1390,Four Divisors,2,four-divisors,0,1
 1391,Check if There is a Valid Path in a Grid,2,check-if-there-is-a-valid-path-in-a-grid,0,0
 1392,Longest Happy Prefix,3,longest-happy-prefix,0,0
-1393,Capital Gain/Loss,2,capital-gainloss,1,0
+1393,Capital Gain/Loss,2,capital-gainloss,0,0
 1394,Find Lucky Integer in an Array,1,find-lucky-integer-in-an-array,0,0
 1395,Count Number of Teams,2,count-number-of-teams,0,0
 1396,Design Underground System,2,design-underground-system,0,0
@@ -1405,7 +1405,7 @@ id,title,level,slug,paid,done
 1404,Number of Steps to Reduce a Number in Binary Representation to One,2,number-of-steps-to-reduce-a-number-in-binary-representation-to-one,0,0
 1405,Longest Happy String,2,longest-happy-string,0,0
 1406,Stone Game III,3,stone-game-iii,0,0
-1407,Top Travellers,1,top-travellers,1,0
+1407,Top Travellers,1,top-travellers,0,0
 1408,String Matching in an Array,1,string-matching-in-an-array,0,1
 1409,Queries on a Permutation With Key,2,queries-on-a-permutation-with-key,0,0
 1410,HTML Entity Parser,2,html-entity-parser,0,0
@@ -1482,7 +1482,7 @@ id,title,level,slug,paid,done
 1481,Least Number of Unique Integers after K Removals,2,least-number-of-unique-integers-after-k-removals,0,0
 1482,Minimum Number of Days to Make m Bouquets,2,minimum-number-of-days-to-make-m-bouquets,0,0
 1483,Kth Ancestor of a Tree Node,3,kth-ancestor-of-a-tree-node,0,0
-1484,Group Sold Products By The Date,1,group-sold-products-by-the-date,1,0
+1484,Group Sold Products By The Date,1,group-sold-products-by-the-date,0,0
 1485,Clone Binary Tree With Random Pointer,2,clone-binary-tree-with-random-pointer,1,0
 1486,XOR Operation in an Array,1,xor-operation-in-an-array,0,0
 1487,Making File Names Unique,2,making-file-names-unique,0,0
@@ -1525,7 +1525,7 @@ id,title,level,slug,paid,done
 1524,Number of Sub-arrays With Odd Sum,2,number-of-sub-arrays-with-odd-sum,0,0
 1525,Number of Good Ways to Split a String,2,number-of-good-ways-to-split-a-string,0,0
 1526,Minimum Number of Increments on Subarrays to Form a Target Array,3,minimum-number-of-increments-on-subarrays-to-form-a-target-array,0,0
-1527,Patients With a Condition,1,patients-with-a-condition,1,0
+1527,Patients With a Condition,1,patients-with-a-condition,0,0
 1528,Shuffle String,1,shuffle-string,0,0
 1529,Minimum Suffix Flips,2,minimum-suffix-flips,0,1
 1530,Number of Good Leaf Nodes Pairs,2,number-of-good-leaf-nodes-pairs,0,0
@@ -1579,13 +1579,13 @@ id,title,level,slug,paid,done
 1578,Minimum Time to Make Rope Colorful,2,minimum-time-to-make-rope-colorful,0,0
 1579,Remove Max Number of Edges to Keep Graph Fully Traversable,3,remove-max-number-of-edges-to-keep-graph-fully-traversable,0,0
 1580,Put Boxes Into the Warehouse II,2,put-boxes-into-the-warehouse-ii,1,0
-1581,Customer Who Visited but Did Not Make Any Transactions,1,customer-who-visited-but-did-not-make-any-transactions,1,0
+1581,Customer Who Visited but Did Not Make Any Transactions,1,customer-who-visited-but-did-not-make-any-transactions,0,0
 1582,Special Positions in a Binary Matrix,1,special-positions-in-a-binary-matrix,0,1
 1583,Count Unhappy Friends,2,count-unhappy-friends,0,0
 1584,Min Cost to Connect All Points,2,min-cost-to-connect-all-points,0,0
 1585,Check If String Is Transformable With Substring Sort Operations,3,check-if-string-is-transformable-with-substring-sort-operations,0,0
 1586,Binary Search Tree Iterator II,2,binary-search-tree-iterator-ii,1,0
-1587,Bank Account Summary II,1,bank-account-summary-ii,1,0
+1587,Bank Account Summary II,1,bank-account-summary-ii,0,0
 1588,Sum of All Odd Length Subarrays,1,sum-of-all-odd-length-subarrays,0,0
 1589,Maximum Sum Obtained of Any Permutation,2,maximum-sum-obtained-of-any-permutation,0,0
 1590,Make Sum Divisible by P,2,make-sum-divisible-by-p,0,0
@@ -1665,7 +1665,7 @@ id,title,level,slug,paid,done
 1664,Ways to Make a Fair Array,2,ways-to-make-a-fair-array,0,0
 1665,Minimum Initial Energy to Finish Tasks,3,minimum-initial-energy-to-finish-tasks,0,0
 1666,Change the Root of a Binary Tree,2,change-the-root-of-a-binary-tree,1,0
-1667,Fix Names in a Table,1,fix-names-in-a-table,1,0
+1667,Fix Names in a Table,1,fix-names-in-a-table,0,0
 1668,Maximum Repeating Substring,1,maximum-repeating-substring,0,0
 1669,Merge In Between Linked Lists,2,merge-in-between-linked-lists,0,0
 1670,Design Front Middle Back Queue,2,design-front-middle-back-queue,0,0
@@ -1691,7 +1691,7 @@ id,title,level,slug,paid,done
 1690,Stone Game VII,2,stone-game-vii,0,0
 1691,Maximum Height by Stacking Cuboids ,3,maximum-height-by-stacking-cuboids,0,0
 1692,Count Ways to Distribute Candies,3,count-ways-to-distribute-candies,1,0
-1693,Daily Leads and Partners,1,daily-leads-and-partners,1,0
+1693,Daily Leads and Partners,1,daily-leads-and-partners,0,0
 1694,Reformat Phone Number,1,reformat-phone-number,0,0
 1695,Maximum Erasure Value,2,maximum-erasure-value,0,0
 1696,Jump Game VI,2,jump-game-vi,0,0
@@ -1727,7 +1727,7 @@ id,title,level,slug,paid,done
 1726,Tuple with Same Product,2,tuple-with-same-product,0,0
 1727,Largest Submatrix With Rearrangements,2,largest-submatrix-with-rearrangements,0,0
 1728,Cat and Mouse II,3,cat-and-mouse-ii,0,0
-1729,Find Followers Count,1,find-followers-count,1,0
+1729,Find Followers Count,1,find-followers-count,0,0
 1730,Shortest Path to Get Food,2,shortest-path-to-get-food,1,0
 1731,The Number of Employees Which Report to Each Employee,1,the-number-of-employees-which-report-to-each-employee,1,0
 1732,Find the Highest Altitude,1,find-the-highest-altitude,0,0
@@ -1739,7 +1739,7 @@ id,title,level,slug,paid,done
 1738,Find Kth Largest XOR Coordinate Value,2,find-kth-largest-xor-coordinate-value,0,0
 1739,Building Boxes,3,building-boxes,0,0
 1740,Find Distance in a Binary Tree,2,find-distance-in-a-binary-tree,1,0
-1741,Find Total Time Spent by Each Employee,1,find-total-time-spent-by-each-employee,1,0
+1741,Find Total Time Spent by Each Employee,1,find-total-time-spent-by-each-employee,0,0
 1742,Maximum Number of Balls in a Box,1,maximum-number-of-balls-in-a-box,0,0
 1743,Restore the Array From Adjacent Pairs,2,restore-the-array-from-adjacent-pairs,0,0
 1744,Can You Eat Your Favorite Candy on Your Favorite Day?,2,can-you-eat-your-favorite-candy-on-your-favorite-day,0,0
@@ -1755,7 +1755,7 @@ id,title,level,slug,paid,done
 1754,Largest Merge Of Two Strings,2,largest-merge-of-two-strings,0,0
 1755,Closest Subsequence Sum,3,closest-subsequence-sum,0,0
 1756,Design Most Recently Used Queue,2,design-most-recently-used-queue,1,0
-1757,Recyclable and Low Fat Products,1,recyclable-and-low-fat-products,1,0
+1757,Recyclable and Low Fat Products,1,recyclable-and-low-fat-products,0,0
 1758,Minimum Changes To Make Alternating Binary String,1,minimum-changes-to-make-alternating-binary-string,0,0
 1759,Count Number of Homogenous Substrings,2,count-number-of-homogenous-substrings,0,0
 1760,Minimum Limit of Balls in a Bag,2,minimum-limit-of-balls-in-a-bag,0,0
@@ -1793,7 +1793,7 @@ id,title,level,slug,paid,done
 1792,Maximum Average Pass Ratio,2,maximum-average-pass-ratio,0,0
 1793,Maximum Score of a Good Subarray,3,maximum-score-of-a-good-subarray,0,0
 1794,Count Pairs of Equal Substrings With Minimum Difference,2,count-pairs-of-equal-substrings-with-minimum-difference,1,0
-1795,Rearrange Products Table,1,rearrange-products-table,1,0
+1795,Rearrange Products Table,1,rearrange-products-table,0,0
 1796,Second Largest Digit in a String,1,second-largest-digit-in-a-string,0,0
 1797,Design Authentication Manager,2,design-authentication-manager,0,0
 1798,Maximum Number of Consecutive Values You Can Make,2,maximum-number-of-consecutive-values-you-can-make,0,0
@@ -1827,7 +1827,7 @@ id,title,level,slug,paid,done
 1826,Faulty Sensor,1,faulty-sensor,1,0
 1827,Minimum Operations to Make the Array Increasing,1,minimum-operations-to-make-the-array-increasing,0,0
 1828,Queries on Number of Points Inside a Circle,2,queries-on-number-of-points-inside-a-circle,0,1
-1829,Maximum XOR for Each Query,2,maximum-xor-for-each-query,0,0
+1829,Maximum XOR for Each Query,2,maximum-xor-for-each-query,0,1
 1830,Minimum Number of Operations to Make String Sorted,3,minimum-number-of-operations-to-make-string-sorted,0,0
 1831,Maximum Transaction Each Day,2,maximum-transaction-each-day,1,0
 1832,Check if the Sentence Is Pangram,1,check-if-the-sentence-is-pangram,0,0
@@ -1871,7 +1871,7 @@ id,title,level,slug,paid,done
 1870,Minimum Speed to Arrive on Time,2,minimum-speed-to-arrive-on-time,0,0
 1871,Jump Game VII,2,jump-game-vii,0,0
 1872,Stone Game VIII,3,stone-game-viii,0,0
-1873,Calculate Special Bonus,1,calculate-special-bonus,1,0
+1873,Calculate Special Bonus,1,calculate-special-bonus,0,0
 1874,Minimize Product Sum of Two Arrays,2,minimize-product-sum-of-two-arrays,1,0
 1875,Group Employees of the Same Salary,2,group-employees-of-the-same-salary,1,0
 1876,Substrings of Size Three with Distinct Characters,1,substrings-of-size-three-with-distinct-characters,0,0
@@ -1888,7 +1888,7 @@ id,title,level,slug,paid,done
 1887,Reduction Operations to Make the Array Elements Equal,2,reduction-operations-to-make-the-array-elements-equal,0,1
 1888,Minimum Number of Flips to Make the Binary String Alternating,2,minimum-number-of-flips-to-make-the-binary-string-alternating,0,0
 1889,Minimum Space Wasted From Packaging,3,minimum-space-wasted-from-packaging,0,0
-1890,The Latest Login in 2020,1,the-latest-login-in-2020,1,0
+1890,The Latest Login in 2020,1,the-latest-login-in-2020,0,0
 1891,Cutting Ribbons,2,cutting-ribbons,1,0
 1892,Page Recommendations II,3,page-recommendations-ii,1,0
 1893,Check if All the Integers in a Range Are Covered,1,check-if-all-the-integers-in-a-range-are-covered,0,0
@@ -1963,7 +1963,7 @@ id,title,level,slug,paid,done
 1962,Remove Stones to Minimize the Total,2,remove-stones-to-minimize-the-total,0,0
 1963,Minimum Number of Swaps to Make the String Balanced,2,minimum-number-of-swaps-to-make-the-string-balanced,0,1
 1964,Find the Longest Valid Obstacle Course at Each Position,3,find-the-longest-valid-obstacle-course-at-each-position,0,0
-1965,Employees With Missing Information,1,employees-with-missing-information,1,0
+1965,Employees With Missing Information,1,employees-with-missing-information,0,0
 1966,Binary Searchable Numbers in an Unsorted Array,2,binary-searchable-numbers-in-an-unsorted-array,1,0
 1967,Number of Strings That Appear as Substrings in Word,1,number-of-strings-that-appear-as-substrings-in-word,0,0
 1968,Array With Elements Not Equal to Average of Neighbors,2,array-with-elements-not-equal-to-average-of-neighbors,0,1
@@ -2147,7 +2147,7 @@ id,title,level,slug,paid,done
 2146,K Highest Ranked Items Within a Price Range,2,k-highest-ranked-items-within-a-price-range,0,0
 2147,Number of Ways to Divide a Long Corridor,3,number-of-ways-to-divide-a-long-corridor,0,0
 2148,Count Elements With Strictly Smaller and Greater Elements ,1,count-elements-with-strictly-smaller-and-greater-elements,0,0
-2149,Rearrange Array Elements by Sign,2,rearrange-array-elements-by-sign,0,0
+2149,Rearrange Array Elements by Sign,2,rearrange-array-elements-by-sign,0,1
 2150,Find All Lonely Numbers in the Array,2,find-all-lonely-numbers-in-the-array,0,0
 2151,Maximum Good People Based on Statements,3,maximum-good-people-based-on-statements,0,0
 2152,Minimum Number of Lines to Cover Points,2,minimum-number-of-lines-to-cover-points,1,0
@@ -2213,3 +2213,8 @@ id,title,level,slug,paid,done
 2212,Maximum Points in an Archery Competition,2,maximum-points-in-an-archery-competition,0,0
 2213,Longest Substring of One Repeating Character,3,longest-substring-of-one-repeating-character,0,0
 2214,Minimum Health to Beat Game,2,minimum-health-to-beat-game,1,0
+2215,Find the Difference of Two Arrays,1,find-the-difference-of-two-arrays,0,0
+2216,Minimum Deletions to Make Array Beautiful,2,minimum-deletions-to-make-array-beautiful,0,0
+2217,Find Palindrome With Fixed Length,2,find-palindrome-with-fixed-length,0,0
+2218,Maximum Value of K Coins From Piles,3,maximum-value-of-k-coins-from-piles,0,0
+2219,Maximum Sum Score of Array,2,maximum-sum-score-of-array,1,0

@@ -48,7 +48,7 @@ def _build_option(options: optparse, args: list[str]):
         if operation.returncode != 0:
             pmt.show(operation.stderr.decode("unicode_escape"))
 
-        _build_cmd    = ["cmake", "--build", dest.resolve()]
+        _build_cmd    = ["cmake", "--build", dest.resolve(), "-j8"]
         operation = subprocess_runner("Building the project")\
                     .invoke(_build_cmd,
                             "Build the project successfully!",
