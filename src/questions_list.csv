@@ -1719,7 +1719,7 @@ id,title,level,slug,paid,done
 1718,Construct the Lexicographically Largest Valid Sequence,2,construct-the-lexicographically-largest-valid-sequence,0,0
 1719,Number Of Ways To Reconstruct A Tree,3,number-of-ways-to-reconstruct-a-tree,0,0
 1720,Decode XORed Array,1,decode-xored-array,0,1
-1721,Swapping Nodes in a Linked List,2,swapping-nodes-in-a-linked-list,0,0
+1721,Swapping Nodes in a Linked List,2,swapping-nodes-in-a-linked-list,0,1
 1722,Minimize Hamming Distance After Swap Operations,2,minimize-hamming-distance-after-swap-operations,0,0
 1723,Find Minimum Time to Finish All Jobs,3,find-minimum-time-to-finish-all-jobs,0,0
 1724,Checking Existence of Edge Length Limited Paths II,3,checking-existence-of-edge-length-limited-paths-ii,1,0
@@ -2218,3 +2218,11 @@ id,title,level,slug,paid,done
 2217,Find Palindrome With Fixed Length,2,find-palindrome-with-fixed-length,0,0
 2218,Maximum Value of K Coins From Piles,3,maximum-value-of-k-coins-from-piles,0,0
 2219,Maximum Sum Score of Array,2,maximum-sum-score-of-array,1,0
+2220,Minimum Bit Flips to Convert Number,1,minimum-bit-flips-to-convert-number,0,0
+2221,Find Triangular Sum of an Array,2,find-triangular-sum-of-an-array,0,0
+2222,Number of Ways to Select Buildings,2,number-of-ways-to-select-buildings,0,0
+2223,Sum of Scores of Built Strings,3,sum-of-scores-of-built-strings,0,0
+2224,Minimum Number of Operations to Convert Time,1,minimum-number-of-operations-to-convert-time,0,0
+2225,Find Players With Zero or One Losses,2,find-players-with-zero-or-one-losses,0,0
+2226,Maximum Candies Allocated to K Children,2,maximum-candies-allocated-to-k-children,0,0
+2227,Encrypt and Decrypt Strings,3,encrypt-and-decrypt-strings,0,0

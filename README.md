@@ -1768,7 +1768,7 @@ My daily challenge on leetcode since 2021/09/06.
 ||1718|[Construct the Lexicographically Largest Valid Sequence](https://leetcode.com/problems/construct-the-lexicographically-largest-valid-sequence/)|Medium|
 ||1719|[Number Of Ways To Reconstruct A Tree](https://leetcode.com/problems/number-of-ways-to-reconstruct-a-tree/)|Hard|
 |[📎](src/q_1701_1750/q1720.cc)|1720|[Decode XORed Array](https://leetcode.com/problems/decode-xored-array/)|Easy|
-||1721|[Swapping Nodes in a Linked List](https://leetcode.com/problems/swapping-nodes-in-a-linked-list/)|Medium|
+|[📎](src/q_1701_1750/q1721.cc)|1721|[Swapping Nodes in a Linked List](https://leetcode.com/problems/swapping-nodes-in-a-linked-list/)|Medium|
 ||1722|[Minimize Hamming Distance After Swap Operations](https://leetcode.com/problems/minimize-hamming-distance-after-swap-operations/)|Medium|
 ||1723|[Find Minimum Time to Finish All Jobs](https://leetcode.com/problems/find-minimum-time-to-finish-all-jobs/)|Hard|
 |🔒|1724|[Checking Existence of Edge Length Limited Paths II](https://leetcode.com/problems/checking-existence-of-edge-length-limited-paths-ii/)|Hard|
@@ -2056,7 +2056,7 @@ My daily challenge on leetcode since 2021/09/06.
 ||2000|[Reverse Prefix of Word](https://leetcode.com/problems/reverse-prefix-of-word/)|Easy|
 </details>
 <details>
-  <summary>### 2001 ~ 2219</summary>
+  <summary>### 2001 ~ 2227</summary>
 
 |</>|#|Solution Title|Difficulty|
 |:-:|--:|:--|:--|
@@ -2279,6 +2279,14 @@ My daily challenge on leetcode since 2021/09/06.
 ||2217|[Find Palindrome With Fixed Length](https://leetcode.com/problems/find-palindrome-with-fixed-length/)|Medium|
 ||2218|[Maximum Value of K Coins From Piles](https://leetcode.com/problems/maximum-value-of-k-coins-from-piles/)|Hard|
 |🔒|2219|[Maximum Sum Score of Array](https://leetcode.com/problems/maximum-sum-score-of-array/)|Medium|
+||2220|[Minimum Bit Flips to Convert Number](https://leetcode.com/problems/minimum-bit-flips-to-convert-number/)|Easy|
+||2221|[Find Triangular Sum of an Array](https://leetcode.com/problems/find-triangular-sum-of-an-array/)|Medium|
+||2222|[Number of Ways to Select Buildings](https://leetcode.com/problems/number-of-ways-to-select-buildings/)|Medium|
+||2223|[Sum of Scores of Built Strings](https://leetcode.com/problems/sum-of-scores-of-built-strings/)|Hard|
+||2224|[Minimum Number of Operations to Convert Time](https://leetcode.com/problems/minimum-number-of-operations-to-convert-time/)|Easy|
+||2225|[Find Players With Zero or One Losses](https://leetcode.com/problems/find-players-with-zero-or-one-losses/)|Medium|
+||2226|[Maximum Candies Allocated to K Children](https://leetcode.com/problems/maximum-candies-allocated-to-k-children/)|Medium|
+||2227|[Encrypt and Decrypt Strings](https://leetcode.com/problems/encrypt-and-decrypt-strings/)|Hard|
 </details>
 
 ---
@@ -2286,6 +2294,7 @@ My daily challenge on leetcode since 2021/09/06.
 
 |Time|#|</>|Question Title|Difficulty|
 |:--|--:|:-:|:--|:--|
+|2022-04-04 13:28|1721|[📎](src/q_1701_1750/q1721.cc)|[Swapping Nodes in a Linked List](https://leetcode.com/problems/swapping-nodes-in-a-linked-list/)|Medium|
 |2022-04-03 15:39|704|[📎](src/q_701_750/q0704.cc)|[Binary Search](https://leetcode.com/problems/binary-search/)|Easy|
 |2022-04-02 16:10|680|[📎](src/q_651_700/q0680.cc)|[Valid Palindrome II](https://leetcode.com/problems/valid-palindrome-ii/)|Easy|
 |2022-04-01 18:22|2149|[📎](src/q_2101_2150/q2149.cc)|[Rearrange Array Elements by Sign](https://leetcode.com/problems/rearrange-array-elements-by-sign/)|Medium|
@@ -2310,13 +2319,12 @@ My daily challenge on leetcode since 2021/09/06.
 |2022-03-19 13:40|895|[📎](src/q_851_900/q0895.cc)|[Maximum Frequency Stack](https://leetcode.com/problems/maximum-frequency-stack/)|Hard|
 |2022-03-18 18:54|802|[📎](src/q_801_850/q0802.cc)|[Find Eventual Safe States](https://leetcode.com/problems/find-eventual-safe-states/)|Medium|
 |2022-03-18 18:26|1376|[📎](src/q_1351_1400/q1376.cc)|[Time Needed to Inform All Employees](https://leetcode.com/problems/time-needed-to-inform-all-employees/)|Medium|
-|2022-03-18 18:14|316|[📎](src/q_301_350/q0316.cc)|[Remove Duplicate Letters](https://leetcode.com/problems/remove-duplicate-letters/)|Medium|
 
 ## Previous Logs
 
 |Month|Submissions|Easy|Medium|Hard|
 |:--|:--|:--|:--|:--|
-|[April_2022](./assets/April_2022.md)|3|2|1|0|
+|[April_2022](./assets/April_2022.md)|4|2|2|0|
 |[March_2022](./assets/March_2022.md)|49|6|39|4|
 |[February_2022](./assets/February_2022.md)|69|15|43|11|
 |[January_2022](./assets/January_2022.md)|32|8|18|6|
