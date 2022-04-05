@@ -910,7 +910,7 @@ id,title,level,slug,paid,done
 909,Snakes and Ladders,2,snakes-and-ladders,0,0
 910,Smallest Range II,2,smallest-range-ii,0,0
 911,Online Election,2,online-election,0,0
-912,Sort an Array,2,sort-an-array,0,0
+912,Sort an Array,2,sort-an-array,0,1
 913,Cat and Mouse,3,cat-and-mouse,0,0
 914,X of a Kind in a Deck of Cards,1,x-of-a-kind-in-a-deck-of-cards,0,0
 915,Partition Array into Disjoint Intervals,2,partition-array-into-disjoint-intervals,0,0
@@ -2226,3 +2226,4 @@ id,title,level,slug,paid,done
 2225,Find Players With Zero or One Losses,2,find-players-with-zero-or-one-losses,0,0
 2226,Maximum Candies Allocated to K Children,2,maximum-candies-allocated-to-k-children,0,0
 2227,Encrypt and Decrypt Strings,3,encrypt-and-decrypt-strings,0,0
+2228,Users With Two Purchases in Seven Days,2,users-with-two-purchases-in-seven-days,1,0
