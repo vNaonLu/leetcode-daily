@@ -384,7 +384,7 @@ My daily challenge on leetcode since 2021/09/06.
 |🔒|364|[Nested List Weight Sum II](https://leetcode.com/problems/nested-list-weight-sum-ii/)|Medium|
 |[📎](src/q_351_400/q0365.cc)|365|[Water and Jug Problem](https://leetcode.com/problems/water-and-jug-problem/)|Medium|
 |🔒|366|[Find Leaves of Binary Tree](https://leetcode.com/problems/find-leaves-of-binary-tree/)|Medium|
-||367|[Valid Perfect Square](https://leetcode.com/problems/valid-perfect-square/)|Easy|
+|[📎](src/q_351_400/q0367.cc)|367|[Valid Perfect Square](https://leetcode.com/problems/valid-perfect-square/)|Easy|
 |[📎](src/q_351_400/q0368.cc)|368|[Largest Divisible Subset](https://leetcode.com/problems/largest-divisible-subset/)|Medium|
 |🔒|369|[Plus One Linked List](https://leetcode.com/problems/plus-one-linked-list/)|Medium|
 |🔒|370|[Range Addition](https://leetcode.com/problems/range-addition/)|Medium|
@@ -2295,6 +2295,7 @@ My daily challenge on leetcode since 2021/09/06.
 
 |Time|#|</>|Question Title|Difficulty|
 |:--|--:|:-:|:--|:--|
+|2022-04-06 18:53|367|[📎](src/q_351_400/q0367.cc)|[Valid Perfect Square](https://leetcode.com/problems/valid-perfect-square/)|Easy|
 |2022-04-06 18:10|923|[📎](src/q_901_950/q0923.cc)|[3Sum With Multiplicity](https://leetcode.com/problems/3sum-with-multiplicity/)|Medium|
 |2022-04-05 18:12|912|[📎](src/q_901_950/q0912.cc)|[Sort an Array](https://leetcode.com/problems/sort-an-array/)|Medium|
 |2022-04-04 13:28|1721|[📎](src/q_1701_1750/q1721.cc)|[Swapping Nodes in a Linked List](https://leetcode.com/problems/swapping-nodes-in-a-linked-list/)|Medium|
@@ -2319,13 +2320,12 @@ My daily challenge on leetcode since 2021/09/06.
 |2022-03-20 13:57|1654|[📎](src/q_1651_1700/q1654.cc)|[Minimum Jumps to Reach Home](https://leetcode.com/problems/minimum-jumps-to-reach-home/)|Medium|
 |2022-03-19 15:09|1466|[📎](src/q_1451_1500/q1466.cc)|[Reorder Routes to Make All Paths Lead to the City Zero](https://leetcode.com/problems/reorder-routes-to-make-all-paths-lead-to-the-city-zero/)|Medium|
 |2022-03-19 14:31|1129|[📎](src/q_1101_1150/q1129.cc)|[Shortest Path with Alternating Colors](https://leetcode.com/problems/shortest-path-with-alternating-colors/)|Medium|
-|2022-03-19 13:40|895|[📎](src/q_851_900/q0895.cc)|[Maximum Frequency Stack](https://leetcode.com/problems/maximum-frequency-stack/)|Hard|
 
 ## Previous Logs
 
 |Month|Submissions|Easy|Medium|Hard|
 |:--|:--|:--|:--|:--|
-|[April_2022](./assets/April_2022.md)|6|2|4|0|
+|[April_2022](./assets/April_2022.md)|7|3|4|0|
 |[March_2022](./assets/March_2022.md)|49|6|39|4|
 |[February_2022](./assets/February_2022.md)|69|15|43|11|
 |[January_2022](./assets/January_2022.md)|32|8|18|6|

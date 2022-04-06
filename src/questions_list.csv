@@ -365,7 +365,7 @@ id,title,level,slug,paid,done
 364,Nested List Weight Sum II,2,nested-list-weight-sum-ii,1,0
 365,Water and Jug Problem,2,water-and-jug-problem,0,1
 366,Find Leaves of Binary Tree,2,find-leaves-of-binary-tree,1,0
-367,Valid Perfect Square,1,valid-perfect-square,0,0
+367,Valid Perfect Square,1,valid-perfect-square,0,1
 368,Largest Divisible Subset,2,largest-divisible-subset,0,1
 369,Plus One Linked List,2,plus-one-linked-list,1,0
 370,Range Addition,2,range-addition,1,0
