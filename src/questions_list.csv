@@ -921,7 +921,7 @@ id,title,level,slug,paid,done
 920,Number of Music Playlists,3,number-of-music-playlists,0,0
 921,Minimum Add to Make Parentheses Valid,2,minimum-add-to-make-parentheses-valid,0,0
 922,Sort Array By Parity II,1,sort-array-by-parity-ii,0,1
-923,3Sum With Multiplicity,2,3sum-with-multiplicity,0,0
+923,3Sum With Multiplicity,2,3sum-with-multiplicity,0,1
 924,Minimize Malware Spread,3,minimize-malware-spread,0,0
 925,Long Pressed Name,1,long-pressed-name,0,0
 926,Flip String to Monotone Increasing,2,flip-string-to-monotone-increasing,0,0

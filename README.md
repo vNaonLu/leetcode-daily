@@ -952,7 +952,7 @@ My daily challenge on leetcode since 2021/09/06.
 ||920|[Number of Music Playlists](https://leetcode.com/problems/number-of-music-playlists/)|Hard|
 ||921|[Minimum Add to Make Parentheses Valid](https://leetcode.com/problems/minimum-add-to-make-parentheses-valid/)|Medium|
 |[📎](src/q_901_950/q0922.cc)|922|[Sort Array By Parity II](https://leetcode.com/problems/sort-array-by-parity-ii/)|Easy|
-||923|[3Sum With Multiplicity](https://leetcode.com/problems/3sum-with-multiplicity/)|Medium|
+|[📎](src/q_901_950/q0923.cc)|923|[3Sum With Multiplicity](https://leetcode.com/problems/3sum-with-multiplicity/)|Medium|
 ||924|[Minimize Malware Spread](https://leetcode.com/problems/minimize-malware-spread/)|Hard|
 ||925|[Long Pressed Name](https://leetcode.com/problems/long-pressed-name/)|Easy|
 ||926|[Flip String to Monotone Increasing](https://leetcode.com/problems/flip-string-to-monotone-increasing/)|Medium|
@@ -2295,6 +2295,7 @@ My daily challenge on leetcode since 2021/09/06.
 
 |Time|#|</>|Question Title|Difficulty|
 |:--|--:|:-:|:--|:--|
+|2022-04-06 18:10|923|[📎](src/q_901_950/q0923.cc)|[3Sum With Multiplicity](https://leetcode.com/problems/3sum-with-multiplicity/)|Medium|
 |2022-04-05 18:12|912|[📎](src/q_901_950/q0912.cc)|[Sort an Array](https://leetcode.com/problems/sort-an-array/)|Medium|
 |2022-04-04 13:28|1721|[📎](src/q_1701_1750/q1721.cc)|[Swapping Nodes in a Linked List](https://leetcode.com/problems/swapping-nodes-in-a-linked-list/)|Medium|
 |2022-04-03 15:39|704|[📎](src/q_701_750/q0704.cc)|[Binary Search](https://leetcode.com/problems/binary-search/)|Easy|
@@ -2319,13 +2320,12 @@ My daily challenge on leetcode since 2021/09/06.
 |2022-03-19 15:09|1466|[📎](src/q_1451_1500/q1466.cc)|[Reorder Routes to Make All Paths Lead to the City Zero](https://leetcode.com/problems/reorder-routes-to-make-all-paths-lead-to-the-city-zero/)|Medium|
 |2022-03-19 14:31|1129|[📎](src/q_1101_1150/q1129.cc)|[Shortest Path with Alternating Colors](https://leetcode.com/problems/shortest-path-with-alternating-colors/)|Medium|
 |2022-03-19 13:40|895|[📎](src/q_851_900/q0895.cc)|[Maximum Frequency Stack](https://leetcode.com/problems/maximum-frequency-stack/)|Hard|
-|2022-03-18 18:54|802|[📎](src/q_801_850/q0802.cc)|[Find Eventual Safe States](https://leetcode.com/problems/find-eventual-safe-states/)|Medium|
 
 ## Previous Logs
 
 |Month|Submissions|Easy|Medium|Hard|
 |:--|:--|:--|:--|:--|
-|[April_2022](./assets/April_2022.md)|5|2|3|0|
+|[April_2022](./assets/April_2022.md)|6|2|4|0|
 |[March_2022](./assets/March_2022.md)|49|6|39|4|
 |[February_2022](./assets/February_2022.md)|69|15|43|11|
 |[January_2022](./assets/January_2022.md)|32|8|18|6|
