@@ -767,7 +767,7 @@ My daily challenge on leetcode since 2021/09/06.
 ||741|[Cherry Pickup](https://leetcode.com/problems/cherry-pickup/)|Hard|
 |🔒|742|[Closest Leaf in a Binary Tree](https://leetcode.com/problems/closest-leaf-in-a-binary-tree/)|Medium|
 ||743|[Network Delay Time](https://leetcode.com/problems/network-delay-time/)|Medium|
-||744|[Find Smallest Letter Greater Than Target](https://leetcode.com/problems/find-smallest-letter-greater-than-target/)|Easy|
+|[📎](src/q_701_750/q0744.cc)|744|[Find Smallest Letter Greater Than Target](https://leetcode.com/problems/find-smallest-letter-greater-than-target/)|Easy|
 ||745|[Prefix and Suffix Search](https://leetcode.com/problems/prefix-and-suffix-search/)|Hard|
 |[📎](src/q_701_750/q0746.cc)|746|[Min Cost Climbing Stairs](https://leetcode.com/problems/min-cost-climbing-stairs/)|Easy|
 ||747|[Largest Number At Least Twice of Others](https://leetcode.com/problems/largest-number-at-least-twice-of-others/)|Easy|
@@ -2295,6 +2295,7 @@ My daily challenge on leetcode since 2021/09/06.
 
 |Time|#|</>|Question Title|Difficulty|
 |:--|--:|:-:|:--|:--|
+|2022-04-06 19:12|744|[📎](src/q_701_750/q0744.cc)|[Find Smallest Letter Greater Than Target](https://leetcode.com/problems/find-smallest-letter-greater-than-target/)|Easy|
 |2022-04-06 18:57|1385|[📎](src/q_1351_1400/q1385.cc)|[Find the Distance Value Between Two Arrays](https://leetcode.com/problems/find-the-distance-value-between-two-arrays/)|Easy|
 |2022-04-06 18:53|367|[📎](src/q_351_400/q0367.cc)|[Valid Perfect Square](https://leetcode.com/problems/valid-perfect-square/)|Easy|
 |2022-04-06 18:10|923|[📎](src/q_901_950/q0923.cc)|[3Sum With Multiplicity](https://leetcode.com/problems/3sum-with-multiplicity/)|Medium|
@@ -2319,13 +2320,12 @@ My daily challenge on leetcode since 2021/09/06.
 |2022-03-21 16:31|433|[📎](src/q_401_450/q0433.cc)|[Minimum Genetic Mutation](https://leetcode.com/problems/minimum-genetic-mutation/)|Medium|
 |2022-03-20 14:14|365|[📎](src/q_351_400/q0365.cc)|[Water and Jug Problem](https://leetcode.com/problems/water-and-jug-problem/)|Medium|
 |2022-03-20 13:57|1654|[📎](src/q_1651_1700/q1654.cc)|[Minimum Jumps to Reach Home](https://leetcode.com/problems/minimum-jumps-to-reach-home/)|Medium|
-|2022-03-19 15:09|1466|[📎](src/q_1451_1500/q1466.cc)|[Reorder Routes to Make All Paths Lead to the City Zero](https://leetcode.com/problems/reorder-routes-to-make-all-paths-lead-to-the-city-zero/)|Medium|
 
 ## Previous Logs
 
 |Month|Submissions|Easy|Medium|Hard|
 |:--|:--|:--|:--|:--|
-|[April_2022](./assets/April_2022.md)|8|4|4|0|
+|[April_2022](./assets/April_2022.md)|9|5|4|0|
 |[March_2022](./assets/March_2022.md)|49|6|39|4|
 |[February_2022](./assets/February_2022.md)|69|15|43|11|
 |[January_2022](./assets/January_2022.md)|32|8|18|6|
