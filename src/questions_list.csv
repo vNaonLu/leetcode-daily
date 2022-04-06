@@ -1383,7 +1383,7 @@ id,title,level,slug,paid,done
 1382,Balance a Binary Search Tree,2,balance-a-binary-search-tree,0,0
 1383,Maximum Performance of a Team,3,maximum-performance-of-a-team,0,0
 1384,Total Sales Amount by Year,3,total-sales-amount-by-year,1,0
-1385,Find the Distance Value Between Two Arrays,1,find-the-distance-value-between-two-arrays,0,0
+1385,Find the Distance Value Between Two Arrays,1,find-the-distance-value-between-two-arrays,0,1
 1386,Cinema Seat Allocation,2,cinema-seat-allocation,0,0
 1387,Sort Integers by The Power Value,2,sort-integers-by-the-power-value,0,0
 1388,Pizza With 3n Slices,3,pizza-with-3n-slices,0,0
