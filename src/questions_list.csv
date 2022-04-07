@@ -276,7 +276,7 @@ id,title,level,slug,paid,done
 275,H-Index II,2,h-index-ii,0,0
 276,Paint Fence,2,paint-fence,1,0
 277,Find the Celebrity,2,find-the-celebrity,1,0
-278,First Bad Version,1,first-bad-version,0,0
+278,First Bad Version,1,first-bad-version,0,1
 279,Perfect Squares,2,perfect-squares,0,1
 280,Wiggle Sort,2,wiggle-sort,1,0
 281,Zigzag Iterator,2,zigzag-iterator,1,0
