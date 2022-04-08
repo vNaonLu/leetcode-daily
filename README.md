@@ -1586,7 +1586,7 @@ My daily challenge on leetcode since 2021/09/06.
 ||1536|[Minimum Swaps to Arrange a Binary Grid](https://leetcode.com/problems/minimum-swaps-to-arrange-a-binary-grid/)|Medium|
 ||1537|[Get the Maximum Score](https://leetcode.com/problems/get-the-maximum-score/)|Hard|
 |🔒|1538|[Guess the Majority in a Hidden Array](https://leetcode.com/problems/guess-the-majority-in-a-hidden-array/)|Medium|
-||1539|[Kth Missing Positive Number](https://leetcode.com/problems/kth-missing-positive-number/)|Easy|
+|[📎](src/q_1501_1550/q1539.cc)|1539|[Kth Missing Positive Number](https://leetcode.com/problems/kth-missing-positive-number/)|Easy|
 ||1540|[Can Convert String in K Moves](https://leetcode.com/problems/can-convert-string-in-k-moves/)|Medium|
 ||1541|[Minimum Insertions to Balance a Parentheses String](https://leetcode.com/problems/minimum-insertions-to-balance-a-parentheses-string/)|Medium|
 ||1542|[Find Longest Awesome Substring](https://leetcode.com/problems/find-longest-awesome-substring/)|Hard|
@@ -2296,6 +2296,7 @@ My daily challenge on leetcode since 2021/09/06.
 
 |Time|#|</>|Question Title|Difficulty|
 |:--|--:|:-:|:--|:--|
+|2022-04-08 18:37|1539|[📎](src/q_1501_1550/q1539.cc)|[Kth Missing Positive Number](https://leetcode.com/problems/kth-missing-positive-number/)|Easy|
 |2022-04-07 18:35|278|[📎](src/q_251_300/q0278.cc)|[First Bad Version](https://leetcode.com/problems/first-bad-version/)|Easy|
 |2022-04-07 18:27|1046|[📎](src/q_1001_1050/q1046.cc)|[Last Stone Weight](https://leetcode.com/problems/last-stone-weight/)|Easy|
 |2022-04-06 19:12|744|[📎](src/q_701_750/q0744.cc)|[Find Smallest Letter Greater Than Target](https://leetcode.com/problems/find-smallest-letter-greater-than-target/)|Easy|
@@ -2320,13 +2321,12 @@ My daily challenge on leetcode since 2021/09/06.
 |2022-03-23 18:34|1615|[📎](src/q_1601_1650/q1615.cc)|[Maximal Network Rank](https://leetcode.com/problems/maximal-network-rank/)|Medium|
 |2022-03-23 18:27|991|[📎](src/q_951_1000/q0991.cc)|[Broken Calculator](https://leetcode.com/problems/broken-calculator/)|Medium|
 |2022-03-22 11:51|1663|[📎](src/q_1651_1700/q1663.cc)|[Smallest String With A Given Numeric Value](https://leetcode.com/problems/smallest-string-with-a-given-numeric-value/)|Medium|
-|2022-03-21 16:31|433|[📎](src/q_401_450/q0433.cc)|[Minimum Genetic Mutation](https://leetcode.com/problems/minimum-genetic-mutation/)|Medium|
 
 ## Previous Logs
 
 |Month|Submissions|Easy|Medium|Hard|
 |:--|:--|:--|:--|:--|
-|[April_2022](./assets/April_2022.md)|11|7|4|0|
+|[April_2022](./assets/April_2022.md)|12|8|4|0|
 |[March_2022](./assets/March_2022.md)|49|6|39|4|
 |[February_2022](./assets/February_2022.md)|69|15|43|11|
 |[January_2022](./assets/January_2022.md)|32|8|18|6|

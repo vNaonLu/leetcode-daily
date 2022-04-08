@@ -1537,7 +1537,7 @@ id,title,level,slug,paid,done
 1536,Minimum Swaps to Arrange a Binary Grid,2,minimum-swaps-to-arrange-a-binary-grid,0,0
 1537,Get the Maximum Score,3,get-the-maximum-score,0,0
 1538,Guess the Majority in a Hidden Array,2,guess-the-majority-in-a-hidden-array,1,0
-1539,Kth Missing Positive Number,1,kth-missing-positive-number,0,0
+1539,Kth Missing Positive Number,1,kth-missing-positive-number,0,1
 1540,Can Convert String in K Moves,2,can-convert-string-in-k-moves,0,0
 1541,Minimum Insertions to Balance a Parentheses String,2,minimum-insertions-to-balance-a-parentheses-string,0,0
 1542,Find Longest Awesome Substring,3,find-longest-awesome-substring,0,0
