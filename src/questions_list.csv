@@ -701,7 +701,7 @@ id,title,level,slug,paid,done
 700,Search in a Binary Search Tree,1,search-in-a-binary-search-tree,0,1
 701,Insert into a Binary Search Tree,2,insert-into-a-binary-search-tree,0,1
 702,Search in a Sorted Array of Unknown Size,2,search-in-a-sorted-array-of-unknown-size,1,0
-703,Kth Largest Element in a Stream,1,kth-largest-element-in-a-stream,0,0
+703,Kth Largest Element in a Stream,1,kth-largest-element-in-a-stream,0,1
 704,Binary Search,1,binary-search,0,1
 705,Design HashSet,1,design-hashset,0,0
 706,Design HashMap,1,design-hashmap,0,1
