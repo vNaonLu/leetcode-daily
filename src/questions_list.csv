@@ -1606,7 +1606,7 @@ id,title,level,slug,paid,done
 1605,Find Valid Matrix Given Row and Column Sums,2,find-valid-matrix-given-row-and-column-sums,0,0
 1606,Find Servers That Handled Most Number of Requests,3,find-servers-that-handled-most-number-of-requests,0,0
 1607,Sellers With No Sales,1,sellers-with-no-sales,1,0
-1608,Special Array With X Elements Greater Than or Equal X,1,special-array-with-x-elements-greater-than-or-equal-x,0,0
+1608,Special Array With X Elements Greater Than or Equal X,1,special-array-with-x-elements-greater-than-or-equal-x,0,1
 1609,Even Odd Tree,2,even-odd-tree,0,0
 1610,Maximum Number of Visible Points,3,maximum-number-of-visible-points,0,0
 1611,Minimum One Bit Operations to Make Integers Zero,3,minimum-one-bit-operations-to-make-integers-zero,0,0

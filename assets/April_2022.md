@@ -2,6 +2,7 @@
 
 ||#|</>|Question Title|Difficulty|
 |:--|--:|:-:|:--|:--|
+|Day 9|1608|[📎](../src/q_1601_1650/q1608.cc)|[Special Array With X Elements Greater Than or Equal X](https://leetcode.com/problems/special-array-with-x-elements-greater-than-or-equal-x/)|Easy|
 |Day 8|703<br>1539|[📎](../src/q_701_750/q0703.cc)<br>[📎](../src/q_1501_1550/q1539.cc)|[Kth Largest Element in a Stream](https://leetcode.com/problems/kth-largest-element-in-a-stream/)<br>[Kth Missing Positive Number](https://leetcode.com/problems/kth-missing-positive-number/)|Easy<br>Easy|
 |Day 7|278<br>1046|[📎](../src/q_251_300/q0278.cc)<br>[📎](../src/q_1001_1050/q1046.cc)|[First Bad Version](https://leetcode.com/problems/first-bad-version/)<br>[Last Stone Weight](https://leetcode.com/problems/last-stone-weight/)|Easy<br>Easy|
 |Day 6|367<br>744<br>923<br>1385|[📎](../src/q_351_400/q0367.cc)<br>[📎](../src/q_701_750/q0744.cc)<br>[📎](../src/q_901_950/q0923.cc)<br>[📎](../src/q_1351_1400/q1385.cc)|[Valid Perfect Square](https://leetcode.com/problems/valid-perfect-square/)<br>[Find Smallest Letter Greater Than Target](https://leetcode.com/problems/find-smallest-letter-greater-than-target/)<br>[3Sum With Multiplicity](https://leetcode.com/problems/3sum-with-multiplicity/)<br>[Find the Distance Value Between Two Arrays](https://leetcode.com/problems/find-the-distance-value-between-two-arrays/)|Easy<br>Easy<br>Medium<br>Easy|
