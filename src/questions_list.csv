@@ -276,7 +276,7 @@ id,title,level,slug,paid,done
 275,H-Index II,2,h-index-ii,0,0
 276,Paint Fence,2,paint-fence,1,0
 277,Find the Celebrity,2,find-the-celebrity,1,0
-278,First Bad Version,1,first-bad-version,0,0
+278,First Bad Version,1,first-bad-version,0,1
 279,Perfect Squares,2,perfect-squares,0,1
 280,Wiggle Sort,2,wiggle-sort,1,0
 281,Zigzag Iterator,2,zigzag-iterator,1,0
@@ -365,7 +365,7 @@ id,title,level,slug,paid,done
 364,Nested List Weight Sum II,2,nested-list-weight-sum-ii,1,0
 365,Water and Jug Problem,2,water-and-jug-problem,0,1
 366,Find Leaves of Binary Tree,2,find-leaves-of-binary-tree,1,0
-367,Valid Perfect Square,1,valid-perfect-square,0,0
+367,Valid Perfect Square,1,valid-perfect-square,0,1
 368,Largest Divisible Subset,2,largest-divisible-subset,0,1
 369,Plus One Linked List,2,plus-one-linked-list,1,0
 370,Range Addition,2,range-addition,1,0
@@ -701,8 +701,8 @@ id,title,level,slug,paid,done
 700,Search in a Binary Search Tree,1,search-in-a-binary-search-tree,0,1
 701,Insert into a Binary Search Tree,2,insert-into-a-binary-search-tree,0,1
 702,Search in a Sorted Array of Unknown Size,2,search-in-a-sorted-array-of-unknown-size,1,0
-703,Kth Largest Element in a Stream,1,kth-largest-element-in-a-stream,0,0
-704,Binary Search,1,binary-search,0,0
+703,Kth Largest Element in a Stream,1,kth-largest-element-in-a-stream,0,1
+704,Binary Search,1,binary-search,0,1
 705,Design HashSet,1,design-hashset,0,0
 706,Design HashMap,1,design-hashmap,0,1
 707,Design Linked List,2,design-linked-list,0,1
@@ -742,7 +742,7 @@ id,title,level,slug,paid,done
 741,Cherry Pickup,3,cherry-pickup,0,0
 742,Closest Leaf in a Binary Tree,2,closest-leaf-in-a-binary-tree,1,0
 743,Network Delay Time,2,network-delay-time,0,0
-744,Find Smallest Letter Greater Than Target,1,find-smallest-letter-greater-than-target,0,0
+744,Find Smallest Letter Greater Than Target,1,find-smallest-letter-greater-than-target,0,1
 745,Prefix and Suffix Search,3,prefix-and-suffix-search,0,0
 746,Min Cost Climbing Stairs,1,min-cost-climbing-stairs,0,1
 747,Largest Number At Least Twice of Others,1,largest-number-at-least-twice-of-others,0,0
@@ -910,7 +910,7 @@ id,title,level,slug,paid,done
 909,Snakes and Ladders,2,snakes-and-ladders,0,0
 910,Smallest Range II,2,smallest-range-ii,0,0
 911,Online Election,2,online-election,0,0
-912,Sort an Array,2,sort-an-array,0,0
+912,Sort an Array,2,sort-an-array,0,1
 913,Cat and Mouse,3,cat-and-mouse,0,0
 914,X of a Kind in a Deck of Cards,1,x-of-a-kind-in-a-deck-of-cards,0,0
 915,Partition Array into Disjoint Intervals,2,partition-array-into-disjoint-intervals,0,0
@@ -921,7 +921,7 @@ id,title,level,slug,paid,done
 920,Number of Music Playlists,3,number-of-music-playlists,0,0
 921,Minimum Add to Make Parentheses Valid,2,minimum-add-to-make-parentheses-valid,0,0
 922,Sort Array By Parity II,1,sort-array-by-parity-ii,0,1
-923,3Sum With Multiplicity,2,3sum-with-multiplicity,0,0
+923,3Sum With Multiplicity,2,3sum-with-multiplicity,0,1
 924,Minimize Malware Spread,3,minimize-malware-spread,0,0
 925,Long Pressed Name,1,long-pressed-name,0,0
 926,Flip String to Monotone Increasing,2,flip-string-to-monotone-increasing,0,0
@@ -1044,7 +1044,7 @@ id,title,level,slug,paid,done
 1043,Partition Array for Maximum Sum,2,partition-array-for-maximum-sum,0,1
 1044,Longest Duplicate Substring,3,longest-duplicate-substring,0,1
 1045,Customers Who Bought All Products,2,customers-who-bought-all-products,1,0
-1046,Last Stone Weight,1,last-stone-weight,0,0
+1046,Last Stone Weight,1,last-stone-weight,0,1
 1047,Remove All Adjacent Duplicates In String,1,remove-all-adjacent-duplicates-in-string,0,0
 1048,Longest String Chain,2,longest-string-chain,0,0
 1049,Last Stone Weight II,2,last-stone-weight-ii,0,0
@@ -1383,7 +1383,7 @@ id,title,level,slug,paid,done
 1382,Balance a Binary Search Tree,2,balance-a-binary-search-tree,0,0
 1383,Maximum Performance of a Team,3,maximum-performance-of-a-team,0,0
 1384,Total Sales Amount by Year,3,total-sales-amount-by-year,1,0
-1385,Find the Distance Value Between Two Arrays,1,find-the-distance-value-between-two-arrays,0,0
+1385,Find the Distance Value Between Two Arrays,1,find-the-distance-value-between-two-arrays,0,1
 1386,Cinema Seat Allocation,2,cinema-seat-allocation,0,0
 1387,Sort Integers by The Power Value,2,sort-integers-by-the-power-value,0,0
 1388,Pizza With 3n Slices,3,pizza-with-3n-slices,0,0
@@ -1537,7 +1537,7 @@ id,title,level,slug,paid,done
 1536,Minimum Swaps to Arrange a Binary Grid,2,minimum-swaps-to-arrange-a-binary-grid,0,0
 1537,Get the Maximum Score,3,get-the-maximum-score,0,0
 1538,Guess the Majority in a Hidden Array,2,guess-the-majority-in-a-hidden-array,1,0
-1539,Kth Missing Positive Number,1,kth-missing-positive-number,0,0
+1539,Kth Missing Positive Number,1,kth-missing-positive-number,0,1
 1540,Can Convert String in K Moves,2,can-convert-string-in-k-moves,0,0
 1541,Minimum Insertions to Balance a Parentheses String,2,minimum-insertions-to-balance-a-parentheses-string,0,0
 1542,Find Longest Awesome Substring,3,find-longest-awesome-substring,0,0
@@ -1606,7 +1606,7 @@ id,title,level,slug,paid,done
 1605,Find Valid Matrix Given Row and Column Sums,2,find-valid-matrix-given-row-and-column-sums,0,0
 1606,Find Servers That Handled Most Number of Requests,3,find-servers-that-handled-most-number-of-requests,0,0
 1607,Sellers With No Sales,1,sellers-with-no-sales,1,0
-1608,Special Array With X Elements Greater Than or Equal X,1,special-array-with-x-elements-greater-than-or-equal-x,0,0
+1608,Special Array With X Elements Greater Than or Equal X,1,special-array-with-x-elements-greater-than-or-equal-x,0,1
 1609,Even Odd Tree,2,even-odd-tree,0,0
 1610,Maximum Number of Visible Points,3,maximum-number-of-visible-points,0,0
 1611,Minimum One Bit Operations to Make Integers Zero,3,minimum-one-bit-operations-to-make-integers-zero,0,0
@@ -1719,7 +1719,7 @@ id,title,level,slug,paid,done
 1718,Construct the Lexicographically Largest Valid Sequence,2,construct-the-lexicographically-largest-valid-sequence,0,0
 1719,Number Of Ways To Reconstruct A Tree,3,number-of-ways-to-reconstruct-a-tree,0,0
 1720,Decode XORed Array,1,decode-xored-array,0,1
-1721,Swapping Nodes in a Linked List,2,swapping-nodes-in-a-linked-list,0,0
+1721,Swapping Nodes in a Linked List,2,swapping-nodes-in-a-linked-list,0,1
 1722,Minimize Hamming Distance After Swap Operations,2,minimize-hamming-distance-after-swap-operations,0,0
 1723,Find Minimum Time to Finish All Jobs,3,find-minimum-time-to-finish-all-jobs,0,0
 1724,Checking Existence of Edge Length Limited Paths II,3,checking-existence-of-edge-length-limited-paths-ii,1,0
@@ -1793,7 +1793,7 @@ id,title,level,slug,paid,done
 1792,Maximum Average Pass Ratio,2,maximum-average-pass-ratio,0,0
 1793,Maximum Score of a Good Subarray,3,maximum-score-of-a-good-subarray,0,0
 1794,Count Pairs of Equal Substrings With Minimum Difference,2,count-pairs-of-equal-substrings-with-minimum-difference,1,0
-1795,Rearrange Products Table,1,rearrange-products-table,0,0
+1795,Rearrange Products Table,1,rearrange-products-table,1,0
 1796,Second Largest Digit in a String,1,second-largest-digit-in-a-string,0,0
 1797,Design Authentication Manager,2,design-authentication-manager,0,0
 1798,Maximum Number of Consecutive Values You Can Make,2,maximum-number-of-consecutive-values-you-can-make,0,0
@@ -2218,3 +2218,13 @@ id,title,level,slug,paid,done
 2217,Find Palindrome With Fixed Length,2,find-palindrome-with-fixed-length,0,0
 2218,Maximum Value of K Coins From Piles,3,maximum-value-of-k-coins-from-piles,0,0
 2219,Maximum Sum Score of Array,2,maximum-sum-score-of-array,1,0
+2220,Minimum Bit Flips to Convert Number,1,minimum-bit-flips-to-convert-number,0,0
+2221,Find Triangular Sum of an Array,2,find-triangular-sum-of-an-array,0,0
+2222,Number of Ways to Select Buildings,2,number-of-ways-to-select-buildings,0,0
+2223,Sum of Scores of Built Strings,3,sum-of-scores-of-built-strings,0,0
+2224,Minimum Number of Operations to Convert Time,1,minimum-number-of-operations-to-convert-time,0,0
+2225,Find Players With Zero or One Losses,2,find-players-with-zero-or-one-losses,0,0
+2226,Maximum Candies Allocated to K Children,2,maximum-candies-allocated-to-k-children,0,0
+2227,Encrypt and Decrypt Strings,3,encrypt-and-decrypt-strings,0,0
+2228,Users With Two Purchases Within Seven Days,2,users-with-two-purchases-within-seven-days,1,0
+2229,Check if an Array Is Consecutive,1,check-if-an-array-is-consecutive,1,0
