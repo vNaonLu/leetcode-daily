@@ -1392,7 +1392,7 @@ My daily challenge on leetcode since 2021/09/06.
 ||1348|[Tweet Counts Per Frequency](https://leetcode.com/problems/tweet-counts-per-frequency/)|Medium|
 ||1349|[Maximum Students Taking Exam](https://leetcode.com/problems/maximum-students-taking-exam/)|Hard|
 |🔒|1350|[Students With Invalid Departments](https://leetcode.com/problems/students-with-invalid-departments/)|Easy|
-||1351|[Count Negative Numbers in a Sorted Matrix](https://leetcode.com/problems/count-negative-numbers-in-a-sorted-matrix/)|Easy|
+|[📎](src/q_1351_1400/q1351.cc)|1351|[Count Negative Numbers in a Sorted Matrix](https://leetcode.com/problems/count-negative-numbers-in-a-sorted-matrix/)|Easy|
 ||1352|[Product of the Last K Numbers](https://leetcode.com/problems/product-of-the-last-k-numbers/)|Medium|
 ||1353|[Maximum Number of Events That Can Be Attended](https://leetcode.com/problems/maximum-number-of-events-that-can-be-attended/)|Medium|
 ||1354|[Construct Target Array With Multiple Sums](https://leetcode.com/problems/construct-target-array-with-multiple-sums/)|Hard|
@@ -2297,6 +2297,7 @@ My daily challenge on leetcode since 2021/09/06.
 
 |Time|#|</>|Question Title|Difficulty|
 |:--|--:|:-:|:--|:--|
+|2022-04-10 14:24|1351|[📎](src/q_1351_1400/q1351.cc)|[Count Negative Numbers in a Sorted Matrix](https://leetcode.com/problems/count-negative-numbers-in-a-sorted-matrix/)|Easy|
 |2022-04-10 13:59|682|[📎](src/q_651_700/q0682.cc)|[Baseball Game](https://leetcode.com/problems/baseball-game/)|Easy|
 |2022-04-09 12:00|1608|[📎](src/q_1601_1650/q1608.cc)|[Special Array With X Elements Greater Than or Equal X](https://leetcode.com/problems/special-array-with-x-elements-greater-than-or-equal-x/)|Easy|
 |2022-04-08 20:15|703|[📎](src/q_701_750/q0703.cc)|[Kth Largest Element in a Stream](https://leetcode.com/problems/kth-largest-element-in-a-stream/)|Easy|
@@ -2321,13 +2322,12 @@ My daily challenge on leetcode since 2021/09/06.
 |2022-03-25 18:11|1471|[📎](src/q_1451_1500/q1471.cc)|[The k Strongest Values in an Array](https://leetcode.com/problems/the-k-strongest-values-in-an-array/)|Medium|
 |2022-03-24 18:23|881|[📎](src/q_851_900/q0881.cc)|[Boats to Save People](https://leetcode.com/problems/boats-to-save-people/)|Medium|
 |2022-03-23 18:56|785|[📎](src/q_751_800/q0785.cc)|[Is Graph Bipartite?](https://leetcode.com/problems/is-graph-bipartite/)|Medium|
-|2022-03-23 18:42|886|[📎](src/q_851_900/q0886.cc)|[Possible Bipartition](https://leetcode.com/problems/possible-bipartition/)|Medium|
 
 ## Previous Logs
 
 |Month|Submissions|Easy|Medium|Hard|
 |:--|:--|:--|:--|:--|
-|[April_2022](./assets/April_2022.md)|15|11|4|0|
+|[April_2022](./assets/April_2022.md)|16|12|4|0|
 |[March_2022](./assets/March_2022.md)|49|6|39|4|
 |[February_2022](./assets/February_2022.md)|69|15|43|11|
 |[January_2022](./assets/January_2022.md)|32|8|18|6|

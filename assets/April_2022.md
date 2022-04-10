@@ -2,7 +2,7 @@
 
 ||#|</>|Question Title|Difficulty|
 |:--|--:|:-:|:--|:--|
-|Day 10|682|[📎](../src/q_651_700/q0682.cc)|[Baseball Game](https://leetcode.com/problems/baseball-game/)|Easy|
+|Day 10|682<br>1351|[📎](../src/q_651_700/q0682.cc)<br>[📎](../src/q_1351_1400/q1351.cc)|[Baseball Game](https://leetcode.com/problems/baseball-game/)<br>[Count Negative Numbers in a Sorted Matrix](https://leetcode.com/problems/count-negative-numbers-in-a-sorted-matrix/)|Easy<br>Easy|
 |Day 9|1608|[📎](../src/q_1601_1650/q1608.cc)|[Special Array With X Elements Greater Than or Equal X](https://leetcode.com/problems/special-array-with-x-elements-greater-than-or-equal-x/)|Easy|
 |Day 8|703<br>1539|[📎](../src/q_701_750/q0703.cc)<br>[📎](../src/q_1501_1550/q1539.cc)|[Kth Largest Element in a Stream](https://leetcode.com/problems/kth-largest-element-in-a-stream/)<br>[Kth Missing Positive Number](https://leetcode.com/problems/kth-missing-positive-number/)|Easy<br>Easy|
 |Day 7|278<br>1046|[📎](../src/q_251_300/q0278.cc)<br>[📎](../src/q_1001_1050/q1046.cc)|[First Bad Version](https://leetcode.com/problems/first-bad-version/)<br>[Last Stone Weight](https://leetcode.com/problems/last-stone-weight/)|Easy<br>Easy|

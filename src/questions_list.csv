@@ -1349,7 +1349,7 @@ id,title,level,slug,paid,done
 1348,Tweet Counts Per Frequency,2,tweet-counts-per-frequency,0,0
 1349,Maximum Students Taking Exam,3,maximum-students-taking-exam,0,0
 1350,Students With Invalid Departments,1,students-with-invalid-departments,1,0
-1351,Count Negative Numbers in a Sorted Matrix,1,count-negative-numbers-in-a-sorted-matrix,0,0
+1351,Count Negative Numbers in a Sorted Matrix,1,count-negative-numbers-in-a-sorted-matrix,0,1
 1352,Product of the Last K Numbers,2,product-of-the-last-k-numbers,0,0
 1353,Maximum Number of Events That Can Be Attended,2,maximum-number-of-events-that-can-be-attended,0,0
 1354,Construct Target Array With Multiple Sums,3,construct-target-array-with-multiple-sums,0,0
