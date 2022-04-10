@@ -680,7 +680,7 @@ id,title,level,slug,paid,done
 679,24 Game,3,24-game,0,0
 680,Valid Palindrome II,1,valid-palindrome-ii,0,1
 681,Next Closest Time,2,next-closest-time,1,0
-682,Baseball Game,1,baseball-game,0,0
+682,Baseball Game,1,baseball-game,0,1
 683,K Empty Slots,3,k-empty-slots,1,0
 684,Redundant Connection,2,redundant-connection,0,1
 685,Redundant Connection II,3,redundant-connection-ii,0,0
@@ -1793,7 +1793,7 @@ id,title,level,slug,paid,done
 1792,Maximum Average Pass Ratio,2,maximum-average-pass-ratio,0,0
 1793,Maximum Score of a Good Subarray,3,maximum-score-of-a-good-subarray,0,0
 1794,Count Pairs of Equal Substrings With Minimum Difference,2,count-pairs-of-equal-substrings-with-minimum-difference,1,0
-1795,Rearrange Products Table,1,rearrange-products-table,1,0
+1795,Rearrange Products Table,1,rearrange-products-table,0,0
 1796,Second Largest Digit in a String,1,second-largest-digit-in-a-string,0,0
 1797,Design Authentication Manager,2,design-authentication-manager,0,0
 1798,Maximum Number of Consecutive Values You Can Make,2,maximum-number-of-consecutive-values-you-can-make,0,0
@@ -2228,3 +2228,4 @@ id,title,level,slug,paid,done
 2227,Encrypt and Decrypt Strings,3,encrypt-and-decrypt-strings,0,0
 2228,Users With Two Purchases Within Seven Days,2,users-with-two-purchases-within-seven-days,1,0
 2229,Check if an Array Is Consecutive,1,check-if-an-array-is-consecutive,1,0
+2230,The Users That Are Eligible for Discount,1,the-users-that-are-eligible-for-discount,1,0

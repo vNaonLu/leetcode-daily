@@ -705,7 +705,7 @@ My daily challenge on leetcode since 2021/09/06.
 ||679|[24 Game](https://leetcode.com/problems/24-game/)|Hard|
 |[📎](src/q_651_700/q0680.cc)|680|[Valid Palindrome II](https://leetcode.com/problems/valid-palindrome-ii/)|Easy|
 |🔒|681|[Next Closest Time](https://leetcode.com/problems/next-closest-time/)|Medium|
-||682|[Baseball Game](https://leetcode.com/problems/baseball-game/)|Easy|
+|[📎](src/q_651_700/q0682.cc)|682|[Baseball Game](https://leetcode.com/problems/baseball-game/)|Easy|
 |🔒|683|[K Empty Slots](https://leetcode.com/problems/k-empty-slots/)|Hard|
 |[📎](src/q_651_700/q0684.cc)|684|[Redundant Connection](https://leetcode.com/problems/redundant-connection/)|Medium|
 ||685|[Redundant Connection II](https://leetcode.com/problems/redundant-connection-ii/)|Hard|
@@ -1848,7 +1848,7 @@ My daily challenge on leetcode since 2021/09/06.
 ||1792|[Maximum Average Pass Ratio](https://leetcode.com/problems/maximum-average-pass-ratio/)|Medium|
 ||1793|[Maximum Score of a Good Subarray](https://leetcode.com/problems/maximum-score-of-a-good-subarray/)|Hard|
 |🔒|1794|[Count Pairs of Equal Substrings With Minimum Difference](https://leetcode.com/problems/count-pairs-of-equal-substrings-with-minimum-difference/)|Medium|
-|🔒|1795|[Rearrange Products Table](https://leetcode.com/problems/rearrange-products-table/)|Easy|
+||1795|[Rearrange Products Table](https://leetcode.com/problems/rearrange-products-table/)|Easy|
 ||1796|[Second Largest Digit in a String](https://leetcode.com/problems/second-largest-digit-in-a-string/)|Easy|
 ||1797|[Design Authentication Manager](https://leetcode.com/problems/design-authentication-manager/)|Medium|
 ||1798|[Maximum Number of Consecutive Values You Can Make](https://leetcode.com/problems/maximum-number-of-consecutive-values-you-can-make/)|Medium|
@@ -2056,7 +2056,7 @@ My daily challenge on leetcode since 2021/09/06.
 ||2000|[Reverse Prefix of Word](https://leetcode.com/problems/reverse-prefix-of-word/)|Easy|
 </details>
 <details>
-  <summary>### 2001 ~ 2229</summary>
+  <summary>### 2001 ~ 2230</summary>
 
 |</>|#|Solution Title|Difficulty|
 |:-:|--:|:--|:--|
@@ -2289,6 +2289,7 @@ My daily challenge on leetcode since 2021/09/06.
 ||2227|[Encrypt and Decrypt Strings](https://leetcode.com/problems/encrypt-and-decrypt-strings/)|Hard|
 |🔒|2228|[Users With Two Purchases Within Seven Days](https://leetcode.com/problems/users-with-two-purchases-within-seven-days/)|Medium|
 |🔒|2229|[Check if an Array Is Consecutive](https://leetcode.com/problems/check-if-an-array-is-consecutive/)|Easy|
+|🔒|2230|[The Users That Are Eligible for Discount](https://leetcode.com/problems/the-users-that-are-eligible-for-discount/)|Easy|
 </details>
 
 ---
@@ -2296,6 +2297,7 @@ My daily challenge on leetcode since 2021/09/06.
 
 |Time|#|</>|Question Title|Difficulty|
 |:--|--:|:-:|:--|:--|
+|2022-04-10 13:59|682|[📎](src/q_651_700/q0682.cc)|[Baseball Game](https://leetcode.com/problems/baseball-game/)|Easy|
 |2022-04-09 12:00|1608|[📎](src/q_1601_1650/q1608.cc)|[Special Array With X Elements Greater Than or Equal X](https://leetcode.com/problems/special-array-with-x-elements-greater-than-or-equal-x/)|Easy|
 |2022-04-08 20:15|703|[📎](src/q_701_750/q0703.cc)|[Kth Largest Element in a Stream](https://leetcode.com/problems/kth-largest-element-in-a-stream/)|Easy|
 |2022-04-08 18:37|1539|[📎](src/q_1501_1550/q1539.cc)|[Kth Missing Positive Number](https://leetcode.com/problems/kth-missing-positive-number/)|Easy|
@@ -2320,13 +2322,12 @@ My daily challenge on leetcode since 2021/09/06.
 |2022-03-24 18:23|881|[📎](src/q_851_900/q0881.cc)|[Boats to Save People](https://leetcode.com/problems/boats-to-save-people/)|Medium|
 |2022-03-23 18:56|785|[📎](src/q_751_800/q0785.cc)|[Is Graph Bipartite?](https://leetcode.com/problems/is-graph-bipartite/)|Medium|
 |2022-03-23 18:42|886|[📎](src/q_851_900/q0886.cc)|[Possible Bipartition](https://leetcode.com/problems/possible-bipartition/)|Medium|
-|2022-03-23 18:34|1615|[📎](src/q_1601_1650/q1615.cc)|[Maximal Network Rank](https://leetcode.com/problems/maximal-network-rank/)|Medium|
 
 ## Previous Logs
 
 |Month|Submissions|Easy|Medium|Hard|
 |:--|:--|:--|:--|:--|
-|[April_2022](./assets/April_2022.md)|14|10|4|0|
+|[April_2022](./assets/April_2022.md)|15|11|4|0|
 |[March_2022](./assets/March_2022.md)|49|6|39|4|
 |[February_2022](./assets/February_2022.md)|69|15|43|11|
 |[January_2022](./assets/January_2022.md)|32|8|18|6|
