@@ -1258,7 +1258,7 @@ id,title,level,slug,paid,done
 1257,Smallest Common Region,2,smallest-common-region,1,0
 1258,Synonymous Sentences,2,synonymous-sentences,1,0
 1259,Handshakes That Don't Cross,3,handshakes-that-dont-cross,1,0
-1260,Shift 2D Grid,1,shift-2d-grid,0,0
+1260,Shift 2D Grid,1,shift-2d-grid,0,1
 1261,Find Elements in a Contaminated Binary Tree,2,find-elements-in-a-contaminated-binary-tree,0,0
 1262,Greatest Sum Divisible by Three,2,greatest-sum-divisible-by-three,0,0
 1263,Minimum Moves to Move a Box to Their Target Location,3,minimum-moves-to-move-a-box-to-their-target-location,0,0
@@ -2229,3 +2229,7 @@ id,title,level,slug,paid,done
 2228,Users With Two Purchases Within Seven Days,2,users-with-two-purchases-within-seven-days,1,0
 2229,Check if an Array Is Consecutive,1,check-if-an-array-is-consecutive,1,0
 2230,The Users That Are Eligible for Discount,1,the-users-that-are-eligible-for-discount,1,0
+2231,Largest Number After Digit Swaps by Parity,1,largest-number-after-digit-swaps-by-parity,0,0
+2232,Minimize Result by Adding Parentheses to Expression,2,minimize-result-by-adding-parentheses-to-expression,0,0
+2233,Maximum Product After K Increments,2,maximum-product-after-k-increments,0,0
+2234,Maximum Total Beauty of the Gardens,3,maximum-total-beauty-of-the-gardens,0,0
