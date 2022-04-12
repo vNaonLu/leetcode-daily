@@ -631,7 +631,7 @@ id,title,level,slug,paid,done
 630,Course Schedule III,3,course-schedule-iii,0,0
 631,Design Excel Sum Formula,3,design-excel-sum-formula,1,0
 632,Smallest Range Covering Elements from K Lists,3,smallest-range-covering-elements-from-k-lists,0,0
-633,Sum of Square Numbers,2,sum-of-square-numbers,0,0
+633,Sum of Square Numbers,2,sum-of-square-numbers,0,1
 634,Find the Derangement of An Array,2,find-the-derangement-of-an-array,1,0
 635,Design Log Storage System,2,design-log-storage-system,1,0
 636,Exclusive Time of Functions,2,exclusive-time-of-functions,0,0
@@ -2233,3 +2233,5 @@ id,title,level,slug,paid,done
 2232,Minimize Result by Adding Parentheses to Expression,2,minimize-result-by-adding-parentheses-to-expression,0,0
 2233,Maximum Product After K Increments,2,maximum-product-after-k-increments,0,0
 2234,Maximum Total Beauty of the Gardens,3,maximum-total-beauty-of-the-gardens,0,0
+2235,Add Two Integers,1,add-two-integers,0,0
+2236,Root Equals Sum of Children,1,root-equals-sum-of-children,0,0

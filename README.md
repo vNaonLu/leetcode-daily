@@ -656,7 +656,7 @@ My daily challenge on leetcode since 2021/09/06.
 ||630|[Course Schedule III](https://leetcode.com/problems/course-schedule-iii/)|Hard|
 |🔒|631|[Design Excel Sum Formula](https://leetcode.com/problems/design-excel-sum-formula/)|Hard|
 ||632|[Smallest Range Covering Elements from K Lists](https://leetcode.com/problems/smallest-range-covering-elements-from-k-lists/)|Hard|
-||633|[Sum of Square Numbers](https://leetcode.com/problems/sum-of-square-numbers/)|Medium|
+|[📎](src/q_601_650/q0633.cc)|633|[Sum of Square Numbers](https://leetcode.com/problems/sum-of-square-numbers/)|Medium|
 |🔒|634|[Find the Derangement of An Array](https://leetcode.com/problems/find-the-derangement-of-an-array/)|Medium|
 |🔒|635|[Design Log Storage System](https://leetcode.com/problems/design-log-storage-system/)|Medium|
 ||636|[Exclusive Time of Functions](https://leetcode.com/problems/exclusive-time-of-functions/)|Medium|
@@ -2056,7 +2056,7 @@ My daily challenge on leetcode since 2021/09/06.
 ||2000|[Reverse Prefix of Word](https://leetcode.com/problems/reverse-prefix-of-word/)|Easy|
 </details>
 <details>
-  <summary>### 2001 ~ 2234</summary>
+  <summary>### 2001 ~ 2236</summary>
 
 |</>|#|Solution Title|Difficulty|
 |:-:|--:|:--|:--|
@@ -2294,6 +2294,8 @@ My daily challenge on leetcode since 2021/09/06.
 ||2232|[Minimize Result by Adding Parentheses to Expression](https://leetcode.com/problems/minimize-result-by-adding-parentheses-to-expression/)|Medium|
 ||2233|[Maximum Product After K Increments](https://leetcode.com/problems/maximum-product-after-k-increments/)|Medium|
 ||2234|[Maximum Total Beauty of the Gardens](https://leetcode.com/problems/maximum-total-beauty-of-the-gardens/)|Hard|
+||2235|[Add Two Integers](https://leetcode.com/problems/add-two-integers/)|Easy|
+||2236|[Root Equals Sum of Children](https://leetcode.com/problems/root-equals-sum-of-children/)|Easy|
 </details>
 
 ---
@@ -2301,6 +2303,7 @@ My daily challenge on leetcode since 2021/09/06.
 
 |Time|#|</>|Question Title|Difficulty|
 |:--|--:|:-:|:--|:--|
+|2022-04-12 18:24|633|[📎](src/q_601_650/q0633.cc)|[Sum of Square Numbers](https://leetcode.com/problems/sum-of-square-numbers/)|Medium|
 |2022-04-11 18:30|1346|[📎](src/q_1301_1350/q1346.cc)|[Check If N and Its Double Exist](https://leetcode.com/problems/check-if-n-and-its-double-exist/)|Easy|
 |2022-04-11 18:21|1260|[📎](src/q_1251_1300/q1260.cc)|[Shift 2D Grid](https://leetcode.com/problems/shift-2d-grid/)|Easy|
 |2022-04-10 14:24|1351|[📎](src/q_1351_1400/q1351.cc)|[Count Negative Numbers in a Sorted Matrix](https://leetcode.com/problems/count-negative-numbers-in-a-sorted-matrix/)|Easy|
@@ -2325,13 +2328,12 @@ My daily challenge on leetcode since 2021/09/06.
 |2022-03-28 18:20|81|[📎](src/q_51_100/q0081.cc)|[Search in Rotated Sorted Array II](https://leetcode.com/problems/search-in-rotated-sorted-array-ii/)|Medium|
 |2022-03-27 23:33|1337|[📎](src/q_1301_1350/q1337.cc)|[The K Weakest Rows in a Matrix](https://leetcode.com/problems/the-k-weakest-rows-in-a-matrix/)|Easy|
 |2022-03-26 11:56|1035|[📎](src/q_1001_1050/q1035.cc)|[Uncrossed Lines](https://leetcode.com/problems/uncrossed-lines/)|Medium|
-|2022-03-25 18:11|1471|[📎](src/q_1451_1500/q1471.cc)|[The k Strongest Values in an Array](https://leetcode.com/problems/the-k-strongest-values-in-an-array/)|Medium|
 
 ## Previous Logs
 
 |Month|Submissions|Easy|Medium|Hard|
 |:--|:--|:--|:--|:--|
-|[April_2022](./assets/April_2022.md)|18|14|4|0|
+|[April_2022](./assets/April_2022.md)|19|14|5|0|
 |[March_2022](./assets/March_2022.md)|49|6|39|4|
 |[February_2022](./assets/February_2022.md)|69|15|43|11|
 |[January_2022](./assets/January_2022.md)|32|8|18|6|

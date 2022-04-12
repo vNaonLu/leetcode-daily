@@ -2,6 +2,7 @@
 
 ||#|</>|Question Title|Difficulty|
 |:--|--:|:-:|:--|:--|
+|Day 12|633|[📎](../src/q_601_650/q0633.cc)|[Sum of Square Numbers](https://leetcode.com/problems/sum-of-square-numbers/)|Medium|
 |Day 11|1260<br>1346|[📎](../src/q_1251_1300/q1260.cc)<br>[📎](../src/q_1301_1350/q1346.cc)|[Shift 2D Grid](https://leetcode.com/problems/shift-2d-grid/)<br>[Check If N and Its Double Exist](https://leetcode.com/problems/check-if-n-and-its-double-exist/)|Easy<br>Easy|
 |Day 10|682<br>1351|[📎](../src/q_651_700/q0682.cc)<br>[📎](../src/q_1351_1400/q1351.cc)|[Baseball Game](https://leetcode.com/problems/baseball-game/)<br>[Count Negative Numbers in a Sorted Matrix](https://leetcode.com/problems/count-negative-numbers-in-a-sorted-matrix/)|Easy<br>Easy|
 |Day 9|1608|[📎](../src/q_1601_1650/q1608.cc)|[Special Array With X Elements Greater Than or Equal X](https://leetcode.com/problems/special-array-with-x-elements-greater-than-or-equal-x/)|Easy|
