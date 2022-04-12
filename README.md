@@ -306,7 +306,7 @@ My daily challenge on leetcode since 2021/09/06.
 |🔒|286|[Walls and Gates](https://leetcode.com/problems/walls-and-gates/)|Medium|
 |[📎](src/q_251_300/q0287.cc)|287|[Find the Duplicate Number](https://leetcode.com/problems/find-the-duplicate-number/)|Medium|
 |🔒|288|[Unique Word Abbreviation](https://leetcode.com/problems/unique-word-abbreviation/)|Medium|
-||289|[Game of Life](https://leetcode.com/problems/game-of-life/)|Medium|
+|[📎](src/q_251_300/q0289.cc)|289|[Game of Life](https://leetcode.com/problems/game-of-life/)|Medium|
 |[📎](src/q_251_300/q0290.cc)|290|[Word Pattern](https://leetcode.com/problems/word-pattern/)|Easy|
 |🔒|291|[Word Pattern II](https://leetcode.com/problems/word-pattern-ii/)|Medium|
 ||292|[Nim Game](https://leetcode.com/problems/nim-game/)|Easy|
@@ -2303,6 +2303,7 @@ My daily challenge on leetcode since 2021/09/06.
 
 |Time|#|</>|Question Title|Difficulty|
 |:--|--:|:-:|:--|:--|
+|2022-04-12 18:29|289|[📎](src/q_251_300/q0289.cc)|[Game of Life](https://leetcode.com/problems/game-of-life/)|Medium|
 |2022-04-12 18:24|633|[📎](src/q_601_650/q0633.cc)|[Sum of Square Numbers](https://leetcode.com/problems/sum-of-square-numbers/)|Medium|
 |2022-04-11 18:30|1346|[📎](src/q_1301_1350/q1346.cc)|[Check If N and Its Double Exist](https://leetcode.com/problems/check-if-n-and-its-double-exist/)|Easy|
 |2022-04-11 18:21|1260|[📎](src/q_1251_1300/q1260.cc)|[Shift 2D Grid](https://leetcode.com/problems/shift-2d-grid/)|Easy|
@@ -2327,13 +2328,12 @@ My daily challenge on leetcode since 2021/09/06.
 |2022-03-29 18:10|287|[📎](src/q_251_300/q0287.cc)|[Find the Duplicate Number](https://leetcode.com/problems/find-the-duplicate-number/)|Medium|
 |2022-03-28 18:20|81|[📎](src/q_51_100/q0081.cc)|[Search in Rotated Sorted Array II](https://leetcode.com/problems/search-in-rotated-sorted-array-ii/)|Medium|
 |2022-03-27 23:33|1337|[📎](src/q_1301_1350/q1337.cc)|[The K Weakest Rows in a Matrix](https://leetcode.com/problems/the-k-weakest-rows-in-a-matrix/)|Easy|
-|2022-03-26 11:56|1035|[📎](src/q_1001_1050/q1035.cc)|[Uncrossed Lines](https://leetcode.com/problems/uncrossed-lines/)|Medium|
 
 ## Previous Logs
 
 |Month|Submissions|Easy|Medium|Hard|
 |:--|:--|:--|:--|:--|
-|[April_2022](./assets/April_2022.md)|19|14|5|0|
+|[April_2022](./assets/April_2022.md)|20|14|6|0|
 |[March_2022](./assets/March_2022.md)|49|6|39|4|
 |[February_2022](./assets/February_2022.md)|69|15|43|11|
 |[January_2022](./assets/January_2022.md)|32|8|18|6|
