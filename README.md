@@ -1908,7 +1908,7 @@ My daily challenge on leetcode since 2021/09/06.
 |🔒|1852|[Distinct Numbers in Each Subarray](https://leetcode.com/problems/distinct-numbers-in-each-subarray/)|Medium|
 |🔒|1853|[Convert Date Format](https://leetcode.com/problems/convert-date-format/)|Easy|
 ||1854|[Maximum Population Year](https://leetcode.com/problems/maximum-population-year/)|Easy|
-||1855|[Maximum Distance Between a Pair of Values](https://leetcode.com/problems/maximum-distance-between-a-pair-of-values/)|Medium|
+|[📎](src/q_1851_1900/q1855.cc)|1855|[Maximum Distance Between a Pair of Values](https://leetcode.com/problems/maximum-distance-between-a-pair-of-values/)|Medium|
 ||1856|[Maximum Subarray Min-Product](https://leetcode.com/problems/maximum-subarray-min-product/)|Medium|
 ||1857|[Largest Color Value in a Directed Graph](https://leetcode.com/problems/largest-color-value-in-a-directed-graph/)|Hard|
 |🔒|1858|[Longest Word With All Prefixes](https://leetcode.com/problems/longest-word-with-all-prefixes/)|Medium|
@@ -2303,6 +2303,7 @@ My daily challenge on leetcode since 2021/09/06.
 
 |Time|#|</>|Question Title|Difficulty|
 |:--|--:|:-:|:--|:--|
+|2022-04-13 19:07|1855|[📎](src/q_1851_1900/q1855.cc)|[Maximum Distance Between a Pair of Values](https://leetcode.com/problems/maximum-distance-between-a-pair-of-values/)|Medium|
 |2022-04-12 18:29|289|[📎](src/q_251_300/q0289.cc)|[Game of Life](https://leetcode.com/problems/game-of-life/)|Medium|
 |2022-04-12 18:24|633|[📎](src/q_601_650/q0633.cc)|[Sum of Square Numbers](https://leetcode.com/problems/sum-of-square-numbers/)|Medium|
 |2022-04-11 18:30|1346|[📎](src/q_1301_1350/q1346.cc)|[Check If N and Its Double Exist](https://leetcode.com/problems/check-if-n-and-its-double-exist/)|Easy|
@@ -2327,13 +2328,12 @@ My daily challenge on leetcode since 2021/09/06.
 |2022-03-30 18:42|1829|[📎](src/q_1801_1850/q1829.cc)|[Maximum XOR for Each Query](https://leetcode.com/problems/maximum-xor-for-each-query/)|Medium|
 |2022-03-29 18:10|287|[📎](src/q_251_300/q0287.cc)|[Find the Duplicate Number](https://leetcode.com/problems/find-the-duplicate-number/)|Medium|
 |2022-03-28 18:20|81|[📎](src/q_51_100/q0081.cc)|[Search in Rotated Sorted Array II](https://leetcode.com/problems/search-in-rotated-sorted-array-ii/)|Medium|
-|2022-03-27 23:33|1337|[📎](src/q_1301_1350/q1337.cc)|[The K Weakest Rows in a Matrix](https://leetcode.com/problems/the-k-weakest-rows-in-a-matrix/)|Easy|
 
 ## Previous Logs
 
 |Month|Submissions|Easy|Medium|Hard|
 |:--|:--|:--|:--|:--|
-|[April_2022](./assets/April_2022.md)|20|14|6|0|
+|[April_2022](./assets/April_2022.md)|21|14|7|0|
 |[March_2022](./assets/March_2022.md)|49|6|39|4|
 |[February_2022](./assets/February_2022.md)|69|15|43|11|
 |[January_2022](./assets/January_2022.md)|32|8|18|6|

@@ -1853,7 +1853,7 @@ id,title,level,slug,paid,done
 1852,Distinct Numbers in Each Subarray,2,distinct-numbers-in-each-subarray,1,0
 1853,Convert Date Format,1,convert-date-format,1,0
 1854,Maximum Population Year,1,maximum-population-year,0,0
-1855,Maximum Distance Between a Pair of Values,2,maximum-distance-between-a-pair-of-values,0,0
+1855,Maximum Distance Between a Pair of Values,2,maximum-distance-between-a-pair-of-values,0,1
 1856,Maximum Subarray Min-Product,2,maximum-subarray-min-product,0,0
 1857,Largest Color Value in a Directed Graph,3,largest-color-value-in-a-directed-graph,0,0
 1858,Longest Word With All Prefixes,2,longest-word-with-all-prefixes,1,0
