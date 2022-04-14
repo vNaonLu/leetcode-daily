@@ -2,7 +2,7 @@
 
 ||#|</>|Question Title|Difficulty|
 |:--|--:|:-:|:--|:--|
-|Day 14|1523|[📎](../src/q_1501_1550/q1523.cc)|[Count Odd Numbers in an Interval Range](https://leetcode.com/problems/count-odd-numbers-in-an-interval-range/)|Easy|
+|Day 14|1491<br>1523|[📎](../src/q_1451_1500/q1491.cc)<br>[📎](../src/q_1501_1550/q1523.cc)|[Average Salary Excluding the Minimum and Maximum Salary](https://leetcode.com/problems/average-salary-excluding-the-minimum-and-maximum-salary/)<br>[Count Odd Numbers in an Interval Range](https://leetcode.com/problems/count-odd-numbers-in-an-interval-range/)|Easy<br>Easy|
 |Day 13|1855|[📎](../src/q_1851_1900/q1855.cc)|[Maximum Distance Between a Pair of Values](https://leetcode.com/problems/maximum-distance-between-a-pair-of-values/)|Medium|
 |Day 12|289<br>633|[📎](../src/q_251_300/q0289.cc)<br>[📎](../src/q_601_650/q0633.cc)|[Game of Life](https://leetcode.com/problems/game-of-life/)<br>[Sum of Square Numbers](https://leetcode.com/problems/sum-of-square-numbers/)|Medium<br>Medium|
 |Day 11|1260<br>1346|[📎](../src/q_1251_1300/q1260.cc)<br>[📎](../src/q_1301_1350/q1346.cc)|[Shift 2D Grid](https://leetcode.com/problems/shift-2d-grid/)<br>[Check If N and Its Double Exist](https://leetcode.com/problems/check-if-n-and-its-double-exist/)|Easy<br>Easy|

@@ -1489,7 +1489,7 @@ id,title,level,slug,paid,done
 1488,Avoid Flood in The City,2,avoid-flood-in-the-city,0,0
 1489,Find Critical and Pseudo-Critical Edges in Minimum Spanning Tree,3,find-critical-and-pseudo-critical-edges-in-minimum-spanning-tree,0,0
 1490,Clone N-ary Tree,2,clone-n-ary-tree,1,0
-1491,Average Salary Excluding the Minimum and Maximum Salary,1,average-salary-excluding-the-minimum-and-maximum-salary,0,0
+1491,Average Salary Excluding the Minimum and Maximum Salary,1,average-salary-excluding-the-minimum-and-maximum-salary,0,1
 1492,The kth Factor of n,2,the-kth-factor-of-n,0,0
 1493,Longest Subarray of 1's After Deleting One Element,2,longest-subarray-of-1s-after-deleting-one-element,0,0
 1494,Parallel Courses II,3,parallel-courses-ii,0,0
