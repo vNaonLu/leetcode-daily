@@ -1521,7 +1521,7 @@ id,title,level,slug,paid,done
 1520,Maximum Number of Non-Overlapping Substrings,3,maximum-number-of-non-overlapping-substrings,0,0
 1521,Find a Value of a Mysterious Function Closest to Target,3,find-a-value-of-a-mysterious-function-closest-to-target,0,0
 1522,Diameter of N-Ary Tree,2,diameter-of-n-ary-tree,1,0
-1523,Count Odd Numbers in an Interval Range,1,count-odd-numbers-in-an-interval-range,0,0
+1523,Count Odd Numbers in an Interval Range,1,count-odd-numbers-in-an-interval-range,0,1
 1524,Number of Sub-arrays With Odd Sum,2,number-of-sub-arrays-with-odd-sum,0,0
 1525,Number of Good Ways to Split a String,2,number-of-good-ways-to-split-a-string,0,0
 1526,Minimum Number of Increments on Subarrays to Form a Target Array,3,minimum-number-of-increments-on-subarrays-to-form-a-target-array,0,0
