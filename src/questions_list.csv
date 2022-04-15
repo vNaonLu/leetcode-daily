@@ -667,7 +667,7 @@ id,title,level,slug,paid,done
 666,Path Sum IV,2,path-sum-iv,1,0
 667,Beautiful Arrangement II,2,beautiful-arrangement-ii,0,0
 668,Kth Smallest Number in Multiplication Table,3,kth-smallest-number-in-multiplication-table,0,1
-669,Trim a Binary Search Tree,2,trim-a-binary-search-tree,0,0
+669,Trim a Binary Search Tree,2,trim-a-binary-search-tree,0,1
 670,Maximum Swap,2,maximum-swap,0,0
 671,Second Minimum Node In a Binary Tree,1,second-minimum-node-in-a-binary-tree,0,0
 672,Bulb Switcher II,2,bulb-switcher-ii,0,0
@@ -2235,3 +2235,5 @@ id,title,level,slug,paid,done
 2234,Maximum Total Beauty of the Gardens,3,maximum-total-beauty-of-the-gardens,0,0
 2235,Add Two Integers,1,add-two-integers,0,0
 2236,Root Equals Sum of Children,1,root-equals-sum-of-children,0,0
+2237,Count Positions on Street With Required Brightness,2,count-positions-on-street-with-required-brightness,1,0
+2238,Number of Times a Driver Was a Passenger,2,number-of-times-a-driver-was-a-passenger,1,0

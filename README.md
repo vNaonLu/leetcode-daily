@@ -692,7 +692,7 @@ My daily challenge on leetcode since 2021/09/06.
 |🔒|666|[Path Sum IV](https://leetcode.com/problems/path-sum-iv/)|Medium|
 ||667|[Beautiful Arrangement II](https://leetcode.com/problems/beautiful-arrangement-ii/)|Medium|
 |[📎](src/q_651_700/q0668.cc)|668|[Kth Smallest Number in Multiplication Table](https://leetcode.com/problems/kth-smallest-number-in-multiplication-table/)|Hard|
-||669|[Trim a Binary Search Tree](https://leetcode.com/problems/trim-a-binary-search-tree/)|Medium|
+|[📎](src/q_651_700/q0669.cc)|669|[Trim a Binary Search Tree](https://leetcode.com/problems/trim-a-binary-search-tree/)|Medium|
 ||670|[Maximum Swap](https://leetcode.com/problems/maximum-swap/)|Medium|
 ||671|[Second Minimum Node In a Binary Tree](https://leetcode.com/problems/second-minimum-node-in-a-binary-tree/)|Easy|
 ||672|[Bulb Switcher II](https://leetcode.com/problems/bulb-switcher-ii/)|Medium|
@@ -2056,7 +2056,7 @@ My daily challenge on leetcode since 2021/09/06.
 ||2000|[Reverse Prefix of Word](https://leetcode.com/problems/reverse-prefix-of-word/)|Easy|
 </details>
 <details>
-  <summary>### 2001 ~ 2236</summary>
+  <summary>### 2001 ~ 2238</summary>
 
 |</>|#|Solution Title|Difficulty|
 |:-:|--:|:--|:--|
@@ -2296,6 +2296,8 @@ My daily challenge on leetcode since 2021/09/06.
 ||2234|[Maximum Total Beauty of the Gardens](https://leetcode.com/problems/maximum-total-beauty-of-the-gardens/)|Hard|
 ||2235|[Add Two Integers](https://leetcode.com/problems/add-two-integers/)|Easy|
 ||2236|[Root Equals Sum of Children](https://leetcode.com/problems/root-equals-sum-of-children/)|Easy|
+|🔒|2237|[Count Positions on Street With Required Brightness](https://leetcode.com/problems/count-positions-on-street-with-required-brightness/)|Medium|
+|🔒|2238|[Number of Times a Driver Was a Passenger](https://leetcode.com/problems/number-of-times-a-driver-was-a-passenger/)|Medium|
 </details>
 
 ---
@@ -2303,6 +2305,7 @@ My daily challenge on leetcode since 2021/09/06.
 
 |Time|#|</>|Question Title|Difficulty|
 |:--|--:|:-:|:--|:--|
+|2022-04-15 19:30|669|[📎](src/q_651_700/q0669.cc)|[Trim a Binary Search Tree](https://leetcode.com/problems/trim-a-binary-search-tree/)|Medium|
 |2022-04-14 18:40|1491|[📎](src/q_1451_1500/q1491.cc)|[Average Salary Excluding the Minimum and Maximum Salary](https://leetcode.com/problems/average-salary-excluding-the-minimum-and-maximum-salary/)|Easy|
 |2022-04-14 18:37|1523|[📎](src/q_1501_1550/q1523.cc)|[Count Odd Numbers in an Interval Range](https://leetcode.com/problems/count-odd-numbers-in-an-interval-range/)|Easy|
 |2022-04-13 19:07|1855|[📎](src/q_1851_1900/q1855.cc)|[Maximum Distance Between a Pair of Values](https://leetcode.com/problems/maximum-distance-between-a-pair-of-values/)|Medium|
@@ -2327,13 +2330,12 @@ My daily challenge on leetcode since 2021/09/06.
 |2022-04-02 16:10|680|[📎](src/q_651_700/q0680.cc)|[Valid Palindrome II](https://leetcode.com/problems/valid-palindrome-ii/)|Easy|
 |2022-04-01 18:22|2149|[📎](src/q_2101_2150/q2149.cc)|[Rearrange Array Elements by Sign](https://leetcode.com/problems/rearrange-array-elements-by-sign/)|Medium|
 |2022-03-31 13:48|410|[📎](src/q_401_450/q0410.cc)|[Split Array Largest Sum](https://leetcode.com/problems/split-array-largest-sum/)|Hard|
-|2022-03-30 18:42|1829|[📎](src/q_1801_1850/q1829.cc)|[Maximum XOR for Each Query](https://leetcode.com/problems/maximum-xor-for-each-query/)|Medium|
 
 ## Previous Logs
 
 |Month|Submissions|Easy|Medium|Hard|
 |:--|:--|:--|:--|:--|
-|[April_2022](./assets/April_2022.md)|23|16|7|0|
+|[April_2022](./assets/April_2022.md)|24|16|8|0|
 |[March_2022](./assets/March_2022.md)|49|6|39|4|
 |[February_2022](./assets/February_2022.md)|69|15|43|11|
 |[January_2022](./assets/January_2022.md)|32|8|18|6|
