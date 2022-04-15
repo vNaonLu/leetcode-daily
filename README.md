@@ -1322,7 +1322,7 @@ My daily challenge on leetcode since 2021/09/06.
 ||1278|[Palindrome Partitioning III](https://leetcode.com/problems/palindrome-partitioning-iii/)|Hard|
 |🔒|1279|[Traffic Light Controlled Intersection](https://leetcode.com/problems/traffic-light-controlled-intersection/)|Easy|
 |🔒|1280|[Students and Examinations](https://leetcode.com/problems/students-and-examinations/)|Easy|
-||1281|[Subtract the Product and Sum of Digits of an Integer](https://leetcode.com/problems/subtract-the-product-and-sum-of-digits-of-an-integer/)|Easy|
+|[📎](src/q_1251_1300/q1281.cc)|1281|[Subtract the Product and Sum of Digits of an Integer](https://leetcode.com/problems/subtract-the-product-and-sum-of-digits-of-an-integer/)|Easy|
 ||1282|[Group the People Given the Group Size They Belong To](https://leetcode.com/problems/group-the-people-given-the-group-size-they-belong-to/)|Medium|
 ||1283|[Find the Smallest Divisor Given a Threshold](https://leetcode.com/problems/find-the-smallest-divisor-given-a-threshold/)|Medium|
 ||1284|[Minimum Number of Flips to Convert Binary Matrix to Zero Matrix](https://leetcode.com/problems/minimum-number-of-flips-to-convert-binary-matrix-to-zero-matrix/)|Hard|
@@ -2305,6 +2305,7 @@ My daily challenge on leetcode since 2021/09/06.
 
 |Time|#|</>|Question Title|Difficulty|
 |:--|--:|:-:|:--|:--|
+|2022-04-15 19:38|1281|[📎](src/q_1251_1300/q1281.cc)|[Subtract the Product and Sum of Digits of an Integer](https://leetcode.com/problems/subtract-the-product-and-sum-of-digits-of-an-integer/)|Easy|
 |2022-04-15 19:30|669|[📎](src/q_651_700/q0669.cc)|[Trim a Binary Search Tree](https://leetcode.com/problems/trim-a-binary-search-tree/)|Medium|
 |2022-04-14 18:40|1491|[📎](src/q_1451_1500/q1491.cc)|[Average Salary Excluding the Minimum and Maximum Salary](https://leetcode.com/problems/average-salary-excluding-the-minimum-and-maximum-salary/)|Easy|
 |2022-04-14 18:37|1523|[📎](src/q_1501_1550/q1523.cc)|[Count Odd Numbers in an Interval Range](https://leetcode.com/problems/count-odd-numbers-in-an-interval-range/)|Easy|
@@ -2329,13 +2330,12 @@ My daily challenge on leetcode since 2021/09/06.
 |2022-04-03 15:39|704|[📎](src/q_701_750/q0704.cc)|[Binary Search](https://leetcode.com/problems/binary-search/)|Easy|
 |2022-04-02 16:10|680|[📎](src/q_651_700/q0680.cc)|[Valid Palindrome II](https://leetcode.com/problems/valid-palindrome-ii/)|Easy|
 |2022-04-01 18:22|2149|[📎](src/q_2101_2150/q2149.cc)|[Rearrange Array Elements by Sign](https://leetcode.com/problems/rearrange-array-elements-by-sign/)|Medium|
-|2022-03-31 13:48|410|[📎](src/q_401_450/q0410.cc)|[Split Array Largest Sum](https://leetcode.com/problems/split-array-largest-sum/)|Hard|
 
 ## Previous Logs
 
 |Month|Submissions|Easy|Medium|Hard|
 |:--|:--|:--|:--|:--|
-|[April_2022](./assets/April_2022.md)|24|16|8|0|
+|[April_2022](./assets/April_2022.md)|25|17|8|0|
 |[March_2022](./assets/March_2022.md)|49|6|39|4|
 |[February_2022](./assets/February_2022.md)|69|15|43|11|
 |[January_2022](./assets/January_2022.md)|32|8|18|6|

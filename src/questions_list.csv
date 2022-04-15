@@ -1279,7 +1279,7 @@ id,title,level,slug,paid,done
 1278,Palindrome Partitioning III,3,palindrome-partitioning-iii,0,0
 1279,Traffic Light Controlled Intersection,1,traffic-light-controlled-intersection,1,0
 1280,Students and Examinations,1,students-and-examinations,1,0
-1281,Subtract the Product and Sum of Digits of an Integer,1,subtract-the-product-and-sum-of-digits-of-an-integer,0,0
+1281,Subtract the Product and Sum of Digits of an Integer,1,subtract-the-product-and-sum-of-digits-of-an-integer,0,1
 1282,Group the People Given the Group Size They Belong To,2,group-the-people-given-the-group-size-they-belong-to,0,0
 1283,Find the Smallest Divisor Given a Threshold,2,find-the-smallest-divisor-given-a-threshold,0,0
 1284,Minimum Number of Flips to Convert Binary Matrix to Zero Matrix,3,minimum-number-of-flips-to-convert-binary-matrix-to-zero-matrix,0,0
