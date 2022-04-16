@@ -536,7 +536,7 @@ id,title,level,slug,paid,done
 535,Encode and Decode TinyURL,2,encode-and-decode-tinyurl,0,0
 536,Construct Binary Tree from String,2,construct-binary-tree-from-string,1,0
 537,Complex Number Multiplication,2,complex-number-multiplication,0,0
-538,Convert BST to Greater Tree,2,convert-bst-to-greater-tree,0,0
+538,Convert BST to Greater Tree,2,convert-bst-to-greater-tree,0,1
 539,Minimum Time Difference,2,minimum-time-difference,0,1
 540,Single Element in a Sorted Array,2,single-element-in-a-sorted-array,0,1
 541,Reverse String II,1,reverse-string-ii,0,0
