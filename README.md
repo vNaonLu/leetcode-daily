@@ -1005,7 +1005,7 @@ My daily challenge on leetcode since 2021/09/06.
 |[📎](src/q_951_1000/q0973.cc)|973|[K Closest Points to Origin](https://leetcode.com/problems/k-closest-points-to-origin/)|Medium|
 ||974|[Subarray Sums Divisible by K](https://leetcode.com/problems/subarray-sums-divisible-by-k/)|Medium|
 ||975|[Odd Even Jump](https://leetcode.com/problems/odd-even-jump/)|Hard|
-||976|[Largest Perimeter Triangle](https://leetcode.com/problems/largest-perimeter-triangle/)|Easy|
+|[📎](src/q_951_1000/q0976.cc)|976|[Largest Perimeter Triangle](https://leetcode.com/problems/largest-perimeter-triangle/)|Easy|
 |[📎](src/q_951_1000/q0977.cc)|977|[Squares of a Sorted Array](https://leetcode.com/problems/squares-of-a-sorted-array/)|Easy|
 |[📎](src/q_951_1000/q0978.cc)|978|[Longest Turbulent Subarray](https://leetcode.com/problems/longest-turbulent-subarray/)|Medium|
 ||979|[Distribute Coins in Binary Tree](https://leetcode.com/problems/distribute-coins-in-binary-tree/)|Medium|
@@ -2305,6 +2305,7 @@ My daily challenge on leetcode since 2021/09/06.
 
 |Time|#|</>|Question Title|Difficulty|
 |:--|--:|:-:|:--|:--|
+|2022-04-16 11:12|976|[📎](src/q_951_1000/q0976.cc)|[Largest Perimeter Triangle](https://leetcode.com/problems/largest-perimeter-triangle/)|Easy|
 |2022-04-16 10:53|1779|[📎](src/q_1751_1800/q1779.cc)|[Find Nearest Point That Has the Same X or Y Coordinate](https://leetcode.com/problems/find-nearest-point-that-has-the-same-x-or-y-coordinate/)|Easy|
 |2022-04-16 10:46|538|[📎](src/q_501_550/q0538.cc)|[Convert BST to Greater Tree](https://leetcode.com/problems/convert-bst-to-greater-tree/)|Medium|
 |2022-04-15 19:38|1281|[📎](src/q_1251_1300/q1281.cc)|[Subtract the Product and Sum of Digits of an Integer](https://leetcode.com/problems/subtract-the-product-and-sum-of-digits-of-an-integer/)|Easy|
@@ -2329,13 +2330,12 @@ My daily challenge on leetcode since 2021/09/06.
 |2022-04-06 18:10|923|[📎](src/q_901_950/q0923.cc)|[3Sum With Multiplicity](https://leetcode.com/problems/3sum-with-multiplicity/)|Medium|
 |2022-04-05 18:12|912|[📎](src/q_901_950/q0912.cc)|[Sort an Array](https://leetcode.com/problems/sort-an-array/)|Medium|
 |2022-04-04 13:28|1721|[📎](src/q_1701_1750/q1721.cc)|[Swapping Nodes in a Linked List](https://leetcode.com/problems/swapping-nodes-in-a-linked-list/)|Medium|
-|2022-04-03 15:39|704|[📎](src/q_701_750/q0704.cc)|[Binary Search](https://leetcode.com/problems/binary-search/)|Easy|
 
 ## Previous Logs
 
 |Month|Submissions|Easy|Medium|Hard|
 |:--|:--|:--|:--|:--|
-|[April_2022](./assets/April_2022.md)|27|18|9|0|
+|[April_2022](./assets/April_2022.md)|28|19|9|0|
 |[March_2022](./assets/March_2022.md)|49|6|39|4|
 |[February_2022](./assets/February_2022.md)|69|15|43|11|
 |[January_2022](./assets/January_2022.md)|32|8|18|6|
