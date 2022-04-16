@@ -287,7 +287,7 @@ id,title,level,slug,paid,done
 286,Walls and Gates,2,walls-and-gates,1,0
 287,Find the Duplicate Number,2,find-the-duplicate-number,0,1
 288,Unique Word Abbreviation,2,unique-word-abbreviation,1,0
-289,Game of Life,2,game-of-life,0,0
+289,Game of Life,2,game-of-life,0,1
 290,Word Pattern,1,word-pattern,0,1
 291,Word Pattern II,2,word-pattern-ii,1,0
 292,Nim Game,1,nim-game,0,0
@@ -536,7 +536,7 @@ id,title,level,slug,paid,done
 535,Encode and Decode TinyURL,2,encode-and-decode-tinyurl,0,0
 536,Construct Binary Tree from String,2,construct-binary-tree-from-string,1,0
 537,Complex Number Multiplication,2,complex-number-multiplication,0,0
-538,Convert BST to Greater Tree,2,convert-bst-to-greater-tree,0,0
+538,Convert BST to Greater Tree,2,convert-bst-to-greater-tree,0,1
 539,Minimum Time Difference,2,minimum-time-difference,0,1
 540,Single Element in a Sorted Array,2,single-element-in-a-sorted-array,0,1
 541,Reverse String II,1,reverse-string-ii,0,0
@@ -631,7 +631,7 @@ id,title,level,slug,paid,done
 630,Course Schedule III,3,course-schedule-iii,0,0
 631,Design Excel Sum Formula,3,design-excel-sum-formula,1,0
 632,Smallest Range Covering Elements from K Lists,3,smallest-range-covering-elements-from-k-lists,0,0
-633,Sum of Square Numbers,2,sum-of-square-numbers,0,0
+633,Sum of Square Numbers,2,sum-of-square-numbers,0,1
 634,Find the Derangement of An Array,2,find-the-derangement-of-an-array,1,0
 635,Design Log Storage System,2,design-log-storage-system,1,0
 636,Exclusive Time of Functions,2,exclusive-time-of-functions,0,0
@@ -667,7 +667,7 @@ id,title,level,slug,paid,done
 666,Path Sum IV,2,path-sum-iv,1,0
 667,Beautiful Arrangement II,2,beautiful-arrangement-ii,0,0
 668,Kth Smallest Number in Multiplication Table,3,kth-smallest-number-in-multiplication-table,0,1
-669,Trim a Binary Search Tree,2,trim-a-binary-search-tree,0,0
+669,Trim a Binary Search Tree,2,trim-a-binary-search-tree,0,1
 670,Maximum Swap,2,maximum-swap,0,0
 671,Second Minimum Node In a Binary Tree,1,second-minimum-node-in-a-binary-tree,0,0
 672,Bulb Switcher II,2,bulb-switcher-ii,0,0
@@ -680,7 +680,7 @@ id,title,level,slug,paid,done
 679,24 Game,3,24-game,0,0
 680,Valid Palindrome II,1,valid-palindrome-ii,0,1
 681,Next Closest Time,2,next-closest-time,1,0
-682,Baseball Game,1,baseball-game,0,0
+682,Baseball Game,1,baseball-game,0,1
 683,K Empty Slots,3,k-empty-slots,1,0
 684,Redundant Connection,2,redundant-connection,0,1
 685,Redundant Connection II,3,redundant-connection-ii,0,0
@@ -974,7 +974,7 @@ id,title,level,slug,paid,done
 973,K Closest Points to Origin,2,k-closest-points-to-origin,0,1
 974,Subarray Sums Divisible by K,2,subarray-sums-divisible-by-k,0,0
 975,Odd Even Jump,3,odd-even-jump,0,0
-976,Largest Perimeter Triangle,1,largest-perimeter-triangle,0,0
+976,Largest Perimeter Triangle,1,largest-perimeter-triangle,0,1
 977,Squares of a Sorted Array,1,squares-of-a-sorted-array,0,1
 978,Longest Turbulent Subarray,2,longest-turbulent-subarray,0,1
 979,Distribute Coins in Binary Tree,2,distribute-coins-in-binary-tree,0,0
@@ -1258,7 +1258,7 @@ id,title,level,slug,paid,done
 1257,Smallest Common Region,2,smallest-common-region,1,0
 1258,Synonymous Sentences,2,synonymous-sentences,1,0
 1259,Handshakes That Don't Cross,3,handshakes-that-dont-cross,1,0
-1260,Shift 2D Grid,1,shift-2d-grid,0,0
+1260,Shift 2D Grid,1,shift-2d-grid,0,1
 1261,Find Elements in a Contaminated Binary Tree,2,find-elements-in-a-contaminated-binary-tree,0,0
 1262,Greatest Sum Divisible by Three,2,greatest-sum-divisible-by-three,0,0
 1263,Minimum Moves to Move a Box to Their Target Location,3,minimum-moves-to-move-a-box-to-their-target-location,0,0
@@ -1279,7 +1279,7 @@ id,title,level,slug,paid,done
 1278,Palindrome Partitioning III,3,palindrome-partitioning-iii,0,0
 1279,Traffic Light Controlled Intersection,1,traffic-light-controlled-intersection,1,0
 1280,Students and Examinations,1,students-and-examinations,1,0
-1281,Subtract the Product and Sum of Digits of an Integer,1,subtract-the-product-and-sum-of-digits-of-an-integer,0,0
+1281,Subtract the Product and Sum of Digits of an Integer,1,subtract-the-product-and-sum-of-digits-of-an-integer,0,1
 1282,Group the People Given the Group Size They Belong To,2,group-the-people-given-the-group-size-they-belong-to,0,0
 1283,Find the Smallest Divisor Given a Threshold,2,find-the-smallest-divisor-given-a-threshold,0,0
 1284,Minimum Number of Flips to Convert Binary Matrix to Zero Matrix,3,minimum-number-of-flips-to-convert-binary-matrix-to-zero-matrix,0,0
@@ -1344,12 +1344,12 @@ id,title,level,slug,paid,done
 1343,Number of Sub-arrays of Size K and Average Greater than or Equal to Threshold,2,number-of-sub-arrays-of-size-k-and-average-greater-than-or-equal-to-threshold,0,0
 1344,Angle Between Hands of a Clock,2,angle-between-hands-of-a-clock,0,1
 1345,Jump Game IV,3,jump-game-iv,0,1
-1346,Check If N and Its Double Exist,1,check-if-n-and-its-double-exist,0,0
+1346,Check If N and Its Double Exist,1,check-if-n-and-its-double-exist,0,1
 1347,Minimum Number of Steps to Make Two Strings Anagram,2,minimum-number-of-steps-to-make-two-strings-anagram,0,0
 1348,Tweet Counts Per Frequency,2,tweet-counts-per-frequency,0,0
 1349,Maximum Students Taking Exam,3,maximum-students-taking-exam,0,0
 1350,Students With Invalid Departments,1,students-with-invalid-departments,1,0
-1351,Count Negative Numbers in a Sorted Matrix,1,count-negative-numbers-in-a-sorted-matrix,0,0
+1351,Count Negative Numbers in a Sorted Matrix,1,count-negative-numbers-in-a-sorted-matrix,0,1
 1352,Product of the Last K Numbers,2,product-of-the-last-k-numbers,0,0
 1353,Maximum Number of Events That Can Be Attended,2,maximum-number-of-events-that-can-be-attended,0,0
 1354,Construct Target Array With Multiple Sums,3,construct-target-array-with-multiple-sums,0,0
@@ -1489,7 +1489,7 @@ id,title,level,slug,paid,done
 1488,Avoid Flood in The City,2,avoid-flood-in-the-city,0,0
 1489,Find Critical and Pseudo-Critical Edges in Minimum Spanning Tree,3,find-critical-and-pseudo-critical-edges-in-minimum-spanning-tree,0,0
 1490,Clone N-ary Tree,2,clone-n-ary-tree,1,0
-1491,Average Salary Excluding the Minimum and Maximum Salary,1,average-salary-excluding-the-minimum-and-maximum-salary,0,0
+1491,Average Salary Excluding the Minimum and Maximum Salary,1,average-salary-excluding-the-minimum-and-maximum-salary,0,1
 1492,The kth Factor of n,2,the-kth-factor-of-n,0,0
 1493,Longest Subarray of 1's After Deleting One Element,2,longest-subarray-of-1s-after-deleting-one-element,0,0
 1494,Parallel Courses II,3,parallel-courses-ii,0,0
@@ -1521,7 +1521,7 @@ id,title,level,slug,paid,done
 1520,Maximum Number of Non-Overlapping Substrings,3,maximum-number-of-non-overlapping-substrings,0,0
 1521,Find a Value of a Mysterious Function Closest to Target,3,find-a-value-of-a-mysterious-function-closest-to-target,0,0
 1522,Diameter of N-Ary Tree,2,diameter-of-n-ary-tree,1,0
-1523,Count Odd Numbers in an Interval Range,1,count-odd-numbers-in-an-interval-range,0,0
+1523,Count Odd Numbers in an Interval Range,1,count-odd-numbers-in-an-interval-range,0,1
 1524,Number of Sub-arrays With Odd Sum,2,number-of-sub-arrays-with-odd-sum,0,0
 1525,Number of Good Ways to Split a String,2,number-of-good-ways-to-split-a-string,0,0
 1526,Minimum Number of Increments on Subarrays to Form a Target Array,3,minimum-number-of-increments-on-subarrays-to-form-a-target-array,0,0
@@ -1777,7 +1777,7 @@ id,title,level,slug,paid,done
 1776,Car Fleet II,3,car-fleet-ii,0,0
 1777,Product's Price for Each Store,1,products-price-for-each-store,1,0
 1778,Shortest Path in a Hidden Grid,2,shortest-path-in-a-hidden-grid,1,0
-1779,Find Nearest Point That Has the Same X or Y Coordinate,1,find-nearest-point-that-has-the-same-x-or-y-coordinate,0,0
+1779,Find Nearest Point That Has the Same X or Y Coordinate,1,find-nearest-point-that-has-the-same-x-or-y-coordinate,0,1
 1780,Check if Number is a Sum of Powers of Three,2,check-if-number-is-a-sum-of-powers-of-three,0,0
 1781,Sum of Beauty of All Substrings,2,sum-of-beauty-of-all-substrings,0,0
 1782,Count Pairs Of Nodes,3,count-pairs-of-nodes,0,0
@@ -1793,7 +1793,7 @@ id,title,level,slug,paid,done
 1792,Maximum Average Pass Ratio,2,maximum-average-pass-ratio,0,0
 1793,Maximum Score of a Good Subarray,3,maximum-score-of-a-good-subarray,0,0
 1794,Count Pairs of Equal Substrings With Minimum Difference,2,count-pairs-of-equal-substrings-with-minimum-difference,1,0
-1795,Rearrange Products Table,1,rearrange-products-table,1,0
+1795,Rearrange Products Table,1,rearrange-products-table,0,0
 1796,Second Largest Digit in a String,1,second-largest-digit-in-a-string,0,0
 1797,Design Authentication Manager,2,design-authentication-manager,0,0
 1798,Maximum Number of Consecutive Values You Can Make,2,maximum-number-of-consecutive-values-you-can-make,0,0
@@ -1853,7 +1853,7 @@ id,title,level,slug,paid,done
 1852,Distinct Numbers in Each Subarray,2,distinct-numbers-in-each-subarray,1,0
 1853,Convert Date Format,1,convert-date-format,1,0
 1854,Maximum Population Year,1,maximum-population-year,0,0
-1855,Maximum Distance Between a Pair of Values,2,maximum-distance-between-a-pair-of-values,0,0
+1855,Maximum Distance Between a Pair of Values,2,maximum-distance-between-a-pair-of-values,0,1
 1856,Maximum Subarray Min-Product,2,maximum-subarray-min-product,0,0
 1857,Largest Color Value in a Directed Graph,3,largest-color-value-in-a-directed-graph,0,0
 1858,Longest Word With All Prefixes,2,longest-word-with-all-prefixes,1,0
@@ -2228,3 +2228,12 @@ id,title,level,slug,paid,done
 2227,Encrypt and Decrypt Strings,3,encrypt-and-decrypt-strings,0,0
 2228,Users With Two Purchases Within Seven Days,2,users-with-two-purchases-within-seven-days,1,0
 2229,Check if an Array Is Consecutive,1,check-if-an-array-is-consecutive,1,0
+2230,The Users That Are Eligible for Discount,1,the-users-that-are-eligible-for-discount,1,0
+2231,Largest Number After Digit Swaps by Parity,1,largest-number-after-digit-swaps-by-parity,0,0
+2232,Minimize Result by Adding Parentheses to Expression,2,minimize-result-by-adding-parentheses-to-expression,0,0
+2233,Maximum Product After K Increments,2,maximum-product-after-k-increments,0,0
+2234,Maximum Total Beauty of the Gardens,3,maximum-total-beauty-of-the-gardens,0,0
+2235,Add Two Integers,1,add-two-integers,0,0
+2236,Root Equals Sum of Children,1,root-equals-sum-of-children,0,0
+2237,Count Positions on Street With Required Brightness,2,count-positions-on-street-with-required-brightness,1,0
+2238,Number of Times a Driver Was a Passenger,2,number-of-times-a-driver-was-a-passenger,1,0

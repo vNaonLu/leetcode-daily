@@ -30,22 +30,43 @@ using namespace std;
 struct q74 : public ::testing::Test {
   // Leetcode answer here
   class Solution {
-   public:
-    bool searchMatrix(vector<vector<int>>& matrix, int target) {
-      for (int i = 0; i < matrix.size(); ++i) {
-        if (target > matrix[i].back()) continue;
-        if (target < matrix[i].front()) continue;
-        int l = 0, r = matrix[i].size() - 1;
-        while (l <= r) {
-          int mid = l + (r - l) / 2;
-          if (target == matrix[i][mid]) return true;
-          if (target < matrix[i][mid])
-            r = mid - 1;
-          else
-            l = mid + 1;
+   private:
+    vector<int> nil;
+    vector<int> &find_row(vector<vector<int>> &m, int target) {
+      int l = 0, r = m.size();
+      while (l < r) {
+        int mid = l + (r - l) / 2;
+        if (m[mid].front() <= target && m[mid].back() >= target) {
+          return m[mid];
+        } else if (m[mid].front() > target) {
+          r = mid;
+        } else {
+          l = mid + 1;
         }
       }
+      return nil;
+    }
+
+    bool find(vector<int> &v, int target) {
+      int l = 0, r = v.size();
+      while (l < r) {
+        int m = l + (r - l) / 2;
+        if (v[m] == target) {
+          return true;
+        } else if (v[m] > target) {
+          r = m;
+        } else {
+          l = m + 1;
+        }
+      }
+
       return false;
+    }
+
+   public:
+    bool searchMatrix(vector<vector<int>> &matrix, int target) {
+      auto row = find_row(matrix, target);
+      return find(row, target);
     }
   };
 
