@@ -1832,7 +1832,7 @@ My daily challenge on leetcode since 2021/09/06.
 ||1776|[Car Fleet II](https://leetcode.com/problems/car-fleet-ii/)|Hard|
 |🔒|1777|[Product's Price for Each Store](https://leetcode.com/problems/products-price-for-each-store/)|Easy|
 |🔒|1778|[Shortest Path in a Hidden Grid](https://leetcode.com/problems/shortest-path-in-a-hidden-grid/)|Medium|
-||1779|[Find Nearest Point That Has the Same X or Y Coordinate](https://leetcode.com/problems/find-nearest-point-that-has-the-same-x-or-y-coordinate/)|Easy|
+|[📎](src/q_1751_1800/q1779.cc)|1779|[Find Nearest Point That Has the Same X or Y Coordinate](https://leetcode.com/problems/find-nearest-point-that-has-the-same-x-or-y-coordinate/)|Easy|
 ||1780|[Check if Number is a Sum of Powers of Three](https://leetcode.com/problems/check-if-number-is-a-sum-of-powers-of-three/)|Medium|
 ||1781|[Sum of Beauty of All Substrings](https://leetcode.com/problems/sum-of-beauty-of-all-substrings/)|Medium|
 ||1782|[Count Pairs Of Nodes](https://leetcode.com/problems/count-pairs-of-nodes/)|Hard|
@@ -2305,6 +2305,7 @@ My daily challenge on leetcode since 2021/09/06.
 
 |Time|#|</>|Question Title|Difficulty|
 |:--|--:|:-:|:--|:--|
+|2022-04-16 10:53|1779|[📎](src/q_1751_1800/q1779.cc)|[Find Nearest Point That Has the Same X or Y Coordinate](https://leetcode.com/problems/find-nearest-point-that-has-the-same-x-or-y-coordinate/)|Easy|
 |2022-04-16 10:46|538|[📎](src/q_501_550/q0538.cc)|[Convert BST to Greater Tree](https://leetcode.com/problems/convert-bst-to-greater-tree/)|Medium|
 |2022-04-15 19:38|1281|[📎](src/q_1251_1300/q1281.cc)|[Subtract the Product and Sum of Digits of an Integer](https://leetcode.com/problems/subtract-the-product-and-sum-of-digits-of-an-integer/)|Easy|
 |2022-04-15 19:30|669|[📎](src/q_651_700/q0669.cc)|[Trim a Binary Search Tree](https://leetcode.com/problems/trim-a-binary-search-tree/)|Medium|
@@ -2329,13 +2330,12 @@ My daily challenge on leetcode since 2021/09/06.
 |2022-04-05 18:12|912|[📎](src/q_901_950/q0912.cc)|[Sort an Array](https://leetcode.com/problems/sort-an-array/)|Medium|
 |2022-04-04 13:28|1721|[📎](src/q_1701_1750/q1721.cc)|[Swapping Nodes in a Linked List](https://leetcode.com/problems/swapping-nodes-in-a-linked-list/)|Medium|
 |2022-04-03 15:39|704|[📎](src/q_701_750/q0704.cc)|[Binary Search](https://leetcode.com/problems/binary-search/)|Easy|
-|2022-04-02 16:10|680|[📎](src/q_651_700/q0680.cc)|[Valid Palindrome II](https://leetcode.com/problems/valid-palindrome-ii/)|Easy|
 
 ## Previous Logs
 
 |Month|Submissions|Easy|Medium|Hard|
 |:--|:--|:--|:--|:--|
-|[April_2022](./assets/April_2022.md)|26|17|9|0|
+|[April_2022](./assets/April_2022.md)|27|18|9|0|
 |[March_2022](./assets/March_2022.md)|49|6|39|4|
 |[February_2022](./assets/February_2022.md)|69|15|43|11|
 |[January_2022](./assets/January_2022.md)|32|8|18|6|

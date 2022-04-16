@@ -1777,7 +1777,7 @@ id,title,level,slug,paid,done
 1776,Car Fleet II,3,car-fleet-ii,0,0
 1777,Product's Price for Each Store,1,products-price-for-each-store,1,0
 1778,Shortest Path in a Hidden Grid,2,shortest-path-in-a-hidden-grid,1,0
-1779,Find Nearest Point That Has the Same X or Y Coordinate,1,find-nearest-point-that-has-the-same-x-or-y-coordinate,0,0
+1779,Find Nearest Point That Has the Same X or Y Coordinate,1,find-nearest-point-that-has-the-same-x-or-y-coordinate,0,1
 1780,Check if Number is a Sum of Powers of Three,2,check-if-number-is-a-sum-of-powers-of-three,0,0
 1781,Sum of Beauty of All Substrings,2,sum-of-beauty-of-all-substrings,0,0
 1782,Count Pairs Of Nodes,3,count-pairs-of-nodes,0,0
