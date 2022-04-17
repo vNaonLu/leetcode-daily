@@ -895,7 +895,7 @@ id,title,level,slug,paid,done
 894,All Possible Full Binary Trees,2,all-possible-full-binary-trees,0,0
 895,Maximum Frequency Stack,3,maximum-frequency-stack,0,1
 896,Monotonic Array,1,monotonic-array,0,0
-897,Increasing Order Search Tree,1,increasing-order-search-tree,0,0
+897,Increasing Order Search Tree,1,increasing-order-search-tree,0,1
 898,Bitwise ORs of Subarrays,2,bitwise-ors-of-subarrays,0,1
 899,Orderly Queue,3,orderly-queue,0,0
 900,RLE Iterator,2,rle-iterator,0,0
