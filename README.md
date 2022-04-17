@@ -1843,7 +1843,7 @@ My daily challenge on leetcode since 2021/09/06.
 ||1787|[Make the XOR of All Segments Equal to Zero](https://leetcode.com/problems/make-the-xor-of-all-segments-equal-to-zero/)|Hard|
 |🔒|1788|[Maximize the Beauty of the Garden](https://leetcode.com/problems/maximize-the-beauty-of-the-garden/)|Hard|
 |🔒|1789|[Primary Department for Each Employee](https://leetcode.com/problems/primary-department-for-each-employee/)|Easy|
-||1790|[Check if One String Swap Can Make Strings Equal](https://leetcode.com/problems/check-if-one-string-swap-can-make-strings-equal/)|Easy|
+|[📎](src/q_1751_1800/q1790.cc)|1790|[Check if One String Swap Can Make Strings Equal](https://leetcode.com/problems/check-if-one-string-swap-can-make-strings-equal/)|Easy|
 |[📎](src/q_1751_1800/q1791.cc)|1791|[Find Center of Star Graph](https://leetcode.com/problems/find-center-of-star-graph/)|Easy|
 ||1792|[Maximum Average Pass Ratio](https://leetcode.com/problems/maximum-average-pass-ratio/)|Medium|
 ||1793|[Maximum Score of a Good Subarray](https://leetcode.com/problems/maximum-score-of-a-good-subarray/)|Hard|
@@ -2313,6 +2313,7 @@ My daily challenge on leetcode since 2021/09/06.
 
 |Time|#|</>|Question Title|Difficulty|
 |:--|--:|:-:|:--|:--|
+|2022-04-17 12:45|1790|[📎](src/q_1751_1800/q1790.cc)|[Check if One String Swap Can Make Strings Equal](https://leetcode.com/problems/check-if-one-string-swap-can-make-strings-equal/)|Easy|
 |2022-04-17 12:42|1502|[📎](src/q_1501_1550/q1502.cc)|[Can Make Arithmetic Progression From Sequence](https://leetcode.com/problems/can-make-arithmetic-progression-from-sequence/)|Easy|
 |2022-04-17 12:10|897|[📎](src/q_851_900/q0897.cc)|[Increasing Order Search Tree](https://leetcode.com/problems/increasing-order-search-tree/)|Easy|
 |2022-04-16 11:12|976|[📎](src/q_951_1000/q0976.cc)|[Largest Perimeter Triangle](https://leetcode.com/problems/largest-perimeter-triangle/)|Easy|
@@ -2337,13 +2338,12 @@ My daily challenge on leetcode since 2021/09/06.
 |2022-04-06 19:12|744|[📎](src/q_701_750/q0744.cc)|[Find Smallest Letter Greater Than Target](https://leetcode.com/problems/find-smallest-letter-greater-than-target/)|Easy|
 |2022-04-06 18:57|1385|[📎](src/q_1351_1400/q1385.cc)|[Find the Distance Value Between Two Arrays](https://leetcode.com/problems/find-the-distance-value-between-two-arrays/)|Easy|
 |2022-04-06 18:53|367|[📎](src/q_351_400/q0367.cc)|[Valid Perfect Square](https://leetcode.com/problems/valid-perfect-square/)|Easy|
-|2022-04-06 18:10|923|[📎](src/q_901_950/q0923.cc)|[3Sum With Multiplicity](https://leetcode.com/problems/3sum-with-multiplicity/)|Medium|
 
 ## Previous Logs
 
 |Month|Submissions|Easy|Medium|Hard|
 |:--|:--|:--|:--|:--|
-|[April_2022](./assets/April_2022.md)|30|21|9|0|
+|[April_2022](./assets/April_2022.md)|31|22|9|0|
 |[March_2022](./assets/March_2022.md)|49|6|39|4|
 |[February_2022](./assets/February_2022.md)|69|15|43|11|
 |[January_2022](./assets/January_2022.md)|32|8|18|6|

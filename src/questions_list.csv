@@ -1788,7 +1788,7 @@ id,title,level,slug,paid,done
 1787,Make the XOR of All Segments Equal to Zero,3,make-the-xor-of-all-segments-equal-to-zero,0,0
 1788,Maximize the Beauty of the Garden,3,maximize-the-beauty-of-the-garden,1,0
 1789,Primary Department for Each Employee,1,primary-department-for-each-employee,1,0
-1790,Check if One String Swap Can Make Strings Equal,1,check-if-one-string-swap-can-make-strings-equal,0,0
+1790,Check if One String Swap Can Make Strings Equal,1,check-if-one-string-swap-can-make-strings-equal,0,1
 1791,Find Center of Star Graph,1,find-center-of-star-graph,0,1
 1792,Maximum Average Pass Ratio,2,maximum-average-pass-ratio,0,0
 1793,Maximum Score of a Good Subarray,3,maximum-score-of-a-good-subarray,0,0
