@@ -1549,7 +1549,7 @@ My daily challenge on leetcode since 2021/09/06.
 |</>|#|Solution Title|Difficulty|
 |:-:|--:|:--|:--|
 |🔒|1501|[Countries You Can Safely Invest In](https://leetcode.com/problems/countries-you-can-safely-invest-in/)|Medium|
-||1502|[Can Make Arithmetic Progression From Sequence](https://leetcode.com/problems/can-make-arithmetic-progression-from-sequence/)|Easy|
+|[📎](src/q_1501_1550/q1502.cc)|1502|[Can Make Arithmetic Progression From Sequence](https://leetcode.com/problems/can-make-arithmetic-progression-from-sequence/)|Easy|
 ||1503|[Last Moment Before All Ants Fall Out of a Plank](https://leetcode.com/problems/last-moment-before-all-ants-fall-out-of-a-plank/)|Medium|
 ||1504|[Count Submatrices With All Ones](https://leetcode.com/problems/count-submatrices-with-all-ones/)|Medium|
 ||1505|[Minimum Possible Integer After at Most K Adjacent Swaps On Digits](https://leetcode.com/problems/minimum-possible-integer-after-at-most-k-adjacent-swaps-on-digits/)|Hard|
@@ -2056,7 +2056,7 @@ My daily challenge on leetcode since 2021/09/06.
 ||2000|[Reverse Prefix of Word](https://leetcode.com/problems/reverse-prefix-of-word/)|Easy|
 </details>
 <details>
-  <summary>### 2001 ~ 2238</summary>
+  <summary>### 2001 ~ 2246</summary>
 
 |</>|#|Solution Title|Difficulty|
 |:-:|--:|:--|:--|
@@ -2298,6 +2298,14 @@ My daily challenge on leetcode since 2021/09/06.
 ||2236|[Root Equals Sum of Children](https://leetcode.com/problems/root-equals-sum-of-children/)|Easy|
 |🔒|2237|[Count Positions on Street With Required Brightness](https://leetcode.com/problems/count-positions-on-street-with-required-brightness/)|Medium|
 |🔒|2238|[Number of Times a Driver Was a Passenger](https://leetcode.com/problems/number-of-times-a-driver-was-a-passenger/)|Medium|
+||2239|[Find Closest Number to Zero](https://leetcode.com/problems/find-closest-number-to-zero/)|Easy|
+||2240|[Number of Ways to Buy Pens and Pencils](https://leetcode.com/problems/number-of-ways-to-buy-pens-and-pencils/)|Medium|
+||2241|[Design an ATM Machine](https://leetcode.com/problems/design-an-atm-machine/)|Medium|
+||2242|[Maximum Score of a Node Sequence](https://leetcode.com/problems/maximum-score-of-a-node-sequence/)|Hard|
+||2243|[Calculate Digit Sum of a String](https://leetcode.com/problems/calculate-digit-sum-of-a-string/)|Easy|
+||2244|[Minimum Rounds to Complete All Tasks](https://leetcode.com/problems/minimum-rounds-to-complete-all-tasks/)|Medium|
+||2245|[Maximum Trailing Zeros in a Cornered Path](https://leetcode.com/problems/maximum-trailing-zeros-in-a-cornered-path/)|Medium|
+||2246|[Longest Path With Different Adjacent Characters](https://leetcode.com/problems/longest-path-with-different-adjacent-characters/)|Hard|
 </details>
 
 ---
@@ -2305,6 +2313,7 @@ My daily challenge on leetcode since 2021/09/06.
 
 |Time|#|</>|Question Title|Difficulty|
 |:--|--:|:-:|:--|:--|
+|2022-04-17 12:42|1502|[📎](src/q_1501_1550/q1502.cc)|[Can Make Arithmetic Progression From Sequence](https://leetcode.com/problems/can-make-arithmetic-progression-from-sequence/)|Easy|
 |2022-04-17 12:10|897|[📎](src/q_851_900/q0897.cc)|[Increasing Order Search Tree](https://leetcode.com/problems/increasing-order-search-tree/)|Easy|
 |2022-04-16 11:12|976|[📎](src/q_951_1000/q0976.cc)|[Largest Perimeter Triangle](https://leetcode.com/problems/largest-perimeter-triangle/)|Easy|
 |2022-04-16 10:53|1779|[📎](src/q_1751_1800/q1779.cc)|[Find Nearest Point That Has the Same X or Y Coordinate](https://leetcode.com/problems/find-nearest-point-that-has-the-same-x-or-y-coordinate/)|Easy|
@@ -2329,13 +2338,12 @@ My daily challenge on leetcode since 2021/09/06.
 |2022-04-06 18:57|1385|[📎](src/q_1351_1400/q1385.cc)|[Find the Distance Value Between Two Arrays](https://leetcode.com/problems/find-the-distance-value-between-two-arrays/)|Easy|
 |2022-04-06 18:53|367|[📎](src/q_351_400/q0367.cc)|[Valid Perfect Square](https://leetcode.com/problems/valid-perfect-square/)|Easy|
 |2022-04-06 18:10|923|[📎](src/q_901_950/q0923.cc)|[3Sum With Multiplicity](https://leetcode.com/problems/3sum-with-multiplicity/)|Medium|
-|2022-04-05 18:12|912|[📎](src/q_901_950/q0912.cc)|[Sort an Array](https://leetcode.com/problems/sort-an-array/)|Medium|
 
 ## Previous Logs
 
 |Month|Submissions|Easy|Medium|Hard|
 |:--|:--|:--|:--|:--|
-|[April_2022](./assets/April_2022.md)|29|20|9|0|
+|[April_2022](./assets/April_2022.md)|30|21|9|0|
 |[March_2022](./assets/March_2022.md)|49|6|39|4|
 |[February_2022](./assets/February_2022.md)|69|15|43|11|
 |[January_2022](./assets/January_2022.md)|32|8|18|6|
