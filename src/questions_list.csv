@@ -587,7 +587,7 @@ id,title,level,slug,paid,done
 586,Customer Placing the Largest Number of Orders,1,customer-placing-the-largest-number-of-orders,0,0
 587,Erect the Fence,3,erect-the-fence,0,0
 588,Design In-Memory File System,3,design-in-memory-file-system,1,0
-589,N-ary Tree Preorder Traversal,1,n-ary-tree-preorder-traversal,0,0
+589,N-ary Tree Preorder Traversal,1,n-ary-tree-preorder-traversal,0,1
 590,N-ary Tree Postorder Traversal,1,n-ary-tree-postorder-traversal,0,0
 591,Tag Validator,3,tag-validator,0,0
 592,Fraction Addition and Subtraction,2,fraction-addition-and-subtraction,0,0
