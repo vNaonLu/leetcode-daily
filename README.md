@@ -1267,7 +1267,7 @@ My daily challenge on leetcode since 2021/09/06.
 |🔒|1229|[Meeting Scheduler](https://leetcode.com/problems/meeting-scheduler/)|Medium|
 |🔒|1230|[Toss Strange Coins](https://leetcode.com/problems/toss-strange-coins/)|Medium|
 |🔒|1231|[Divide Chocolate](https://leetcode.com/problems/divide-chocolate/)|Hard|
-||1232|[Check If It Is a Straight Line](https://leetcode.com/problems/check-if-it-is-a-straight-line/)|Easy|
+|[📎](src/q_1201_1250/q1232.cc)|1232|[Check If It Is a Straight Line](https://leetcode.com/problems/check-if-it-is-a-straight-line/)|Easy|
 ||1233|[Remove Sub-Folders from the Filesystem](https://leetcode.com/problems/remove-sub-folders-from-the-filesystem/)|Medium|
 ||1234|[Replace the Substring for Balanced String](https://leetcode.com/problems/replace-the-substring-for-balanced-string/)|Medium|
 ||1235|[Maximum Profit in Job Scheduling](https://leetcode.com/problems/maximum-profit-in-job-scheduling/)|Hard|
@@ -2313,6 +2313,7 @@ My daily challenge on leetcode since 2021/09/06.
 
 |Time|#|</>|Question Title|Difficulty|
 |:--|--:|:-:|:--|:--|
+|2022-04-18 18:21|1232|[📎](src/q_1201_1250/q1232.cc)|[Check If It Is a Straight Line](https://leetcode.com/problems/check-if-it-is-a-straight-line/)|Easy|
 |2022-04-18 18:14|589|[📎](src/q_551_600/q0589.cc)|[N-ary Tree Preorder Traversal](https://leetcode.com/problems/n-ary-tree-preorder-traversal/)|Easy|
 |2022-04-17 12:45|1790|[📎](src/q_1751_1800/q1790.cc)|[Check if One String Swap Can Make Strings Equal](https://leetcode.com/problems/check-if-one-string-swap-can-make-strings-equal/)|Easy|
 |2022-04-17 12:42|1502|[📎](src/q_1501_1550/q1502.cc)|[Can Make Arithmetic Progression From Sequence](https://leetcode.com/problems/can-make-arithmetic-progression-from-sequence/)|Easy|
@@ -2337,13 +2338,12 @@ My daily challenge on leetcode since 2021/09/06.
 |2022-04-07 18:35|278|[📎](src/q_251_300/q0278.cc)|[First Bad Version](https://leetcode.com/problems/first-bad-version/)|Easy|
 |2022-04-07 18:27|1046|[📎](src/q_1001_1050/q1046.cc)|[Last Stone Weight](https://leetcode.com/problems/last-stone-weight/)|Easy|
 |2022-04-06 19:12|744|[📎](src/q_701_750/q0744.cc)|[Find Smallest Letter Greater Than Target](https://leetcode.com/problems/find-smallest-letter-greater-than-target/)|Easy|
-|2022-04-06 18:57|1385|[📎](src/q_1351_1400/q1385.cc)|[Find the Distance Value Between Two Arrays](https://leetcode.com/problems/find-the-distance-value-between-two-arrays/)|Easy|
 
 ## Previous Logs
 
 |Month|Submissions|Easy|Medium|Hard|
 |:--|:--|:--|:--|:--|
-|[April_2022](./assets/April_2022.md)|32|23|9|0|
+|[April_2022](./assets/April_2022.md)|33|24|9|0|
 |[March_2022](./assets/March_2022.md)|49|6|39|4|
 |[February_2022](./assets/February_2022.md)|69|15|43|11|
 |[January_2022](./assets/January_2022.md)|32|8|18|6|

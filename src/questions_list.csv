@@ -1230,7 +1230,7 @@ id,title,level,slug,paid,done
 1229,Meeting Scheduler,2,meeting-scheduler,1,0
 1230,Toss Strange Coins,2,toss-strange-coins,1,0
 1231,Divide Chocolate,3,divide-chocolate,1,0
-1232,Check If It Is a Straight Line,1,check-if-it-is-a-straight-line,0,0
+1232,Check If It Is a Straight Line,1,check-if-it-is-a-straight-line,0,1
 1233,Remove Sub-Folders from the Filesystem,2,remove-sub-folders-from-the-filesystem,0,0
 1234,Replace the Substring for Balanced String,2,replace-the-substring-for-balanced-string,0,0
 1235,Maximum Profit in Job Scheduling,3,maximum-profit-in-job-scheduling,0,0
