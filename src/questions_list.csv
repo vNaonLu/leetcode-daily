@@ -1586,7 +1586,7 @@ id,title,level,slug,paid,done
 1585,Check If String Is Transformable With Substring Sort Operations,3,check-if-string-is-transformable-with-substring-sort-operations,0,0
 1586,Binary Search Tree Iterator II,2,binary-search-tree-iterator-ii,1,0
 1587,Bank Account Summary II,1,bank-account-summary-ii,0,0
-1588,Sum of All Odd Length Subarrays,1,sum-of-all-odd-length-subarrays,0,0
+1588,Sum of All Odd Length Subarrays,1,sum-of-all-odd-length-subarrays,0,1
 1589,Maximum Sum Obtained of Any Permutation,2,maximum-sum-obtained-of-any-permutation,0,0
 1590,Make Sum Divisible by P,2,make-sum-divisible-by-p,0,0
 1591,Strange Printer II,3,strange-printer-ii,0,0

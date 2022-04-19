@@ -1635,7 +1635,7 @@ My daily challenge on leetcode since 2021/09/06.
 ||1585|[Check If String Is Transformable With Substring Sort Operations](https://leetcode.com/problems/check-if-string-is-transformable-with-substring-sort-operations/)|Hard|
 |🔒|1586|[Binary Search Tree Iterator II](https://leetcode.com/problems/binary-search-tree-iterator-ii/)|Medium|
 ||1587|[Bank Account Summary II](https://leetcode.com/problems/bank-account-summary-ii/)|Easy|
-||1588|[Sum of All Odd Length Subarrays](https://leetcode.com/problems/sum-of-all-odd-length-subarrays/)|Easy|
+|[📎](src/q_1551_1600/q1588.cc)|1588|[Sum of All Odd Length Subarrays](https://leetcode.com/problems/sum-of-all-odd-length-subarrays/)|Easy|
 ||1589|[Maximum Sum Obtained of Any Permutation](https://leetcode.com/problems/maximum-sum-obtained-of-any-permutation/)|Medium|
 ||1590|[Make Sum Divisible by P](https://leetcode.com/problems/make-sum-divisible-by-p/)|Medium|
 ||1591|[Strange Printer II](https://leetcode.com/problems/strange-printer-ii/)|Hard|
@@ -2313,6 +2313,7 @@ My daily challenge on leetcode since 2021/09/06.
 
 |Time|#|</>|Question Title|Difficulty|
 |:--|--:|:-:|:--|:--|
+|2022-04-19 11:57|1588|[📎](src/q_1551_1600/q1588.cc)|[Sum of All Odd Length Subarrays](https://leetcode.com/problems/sum-of-all-odd-length-subarrays/)|Easy|
 |2022-04-19 11:44|99|[📎](src/q_51_100/q0099.cc)|[Recover Binary Search Tree](https://leetcode.com/problems/recover-binary-search-tree/)|Medium|
 |2022-04-18 18:21|1232|[📎](src/q_1201_1250/q1232.cc)|[Check If It Is a Straight Line](https://leetcode.com/problems/check-if-it-is-a-straight-line/)|Easy|
 |2022-04-18 18:14|589|[📎](src/q_551_600/q0589.cc)|[N-ary Tree Preorder Traversal](https://leetcode.com/problems/n-ary-tree-preorder-traversal/)|Easy|
@@ -2337,13 +2338,12 @@ My daily challenge on leetcode since 2021/09/06.
 |2022-04-08 20:15|703|[📎](src/q_701_750/q0703.cc)|[Kth Largest Element in a Stream](https://leetcode.com/problems/kth-largest-element-in-a-stream/)|Easy|
 |2022-04-08 18:37|1539|[📎](src/q_1501_1550/q1539.cc)|[Kth Missing Positive Number](https://leetcode.com/problems/kth-missing-positive-number/)|Easy|
 |2022-04-07 18:35|278|[📎](src/q_251_300/q0278.cc)|[First Bad Version](https://leetcode.com/problems/first-bad-version/)|Easy|
-|2022-04-07 18:27|1046|[📎](src/q_1001_1050/q1046.cc)|[Last Stone Weight](https://leetcode.com/problems/last-stone-weight/)|Easy|
 
 ## Previous Logs
 
 |Month|Submissions|Easy|Medium|Hard|
 |:--|:--|:--|:--|:--|
-|[April_2022](./assets/April_2022.md)|34|24|10|0|
+|[April_2022](./assets/April_2022.md)|35|25|10|0|
 |[March_2022](./assets/March_2022.md)|49|6|39|4|
 |[February_2022](./assets/February_2022.md)|69|15|43|11|
 |[January_2022](./assets/January_2022.md)|32|8|18|6|
