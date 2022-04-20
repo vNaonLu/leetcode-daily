@@ -1619,7 +1619,7 @@ My daily challenge on leetcode since 2021/09/06.
 ||1569|[Number of Ways to Reorder Array to Get Same BST](https://leetcode.com/problems/number-of-ways-to-reorder-array-to-get-same-bst/)|Hard|
 |🔒|1570|[Dot Product of Two Sparse Vectors](https://leetcode.com/problems/dot-product-of-two-sparse-vectors/)|Medium|
 |🔒|1571|[Warehouse Manager](https://leetcode.com/problems/warehouse-manager/)|Easy|
-||1572|[Matrix Diagonal Sum](https://leetcode.com/problems/matrix-diagonal-sum/)|Easy|
+|[📎](src/q_1551_1600/q1572.cc)|1572|[Matrix Diagonal Sum](https://leetcode.com/problems/matrix-diagonal-sum/)|Easy|
 ||1573|[Number of Ways to Split a String](https://leetcode.com/problems/number-of-ways-to-split-a-string/)|Medium|
 ||1574|[Shortest Subarray to be Removed to Make Array Sorted](https://leetcode.com/problems/shortest-subarray-to-be-removed-to-make-array-sorted/)|Medium|
 ||1575|[Count All Possible Routes](https://leetcode.com/problems/count-all-possible-routes/)|Hard|
@@ -2313,6 +2313,7 @@ My daily challenge on leetcode since 2021/09/06.
 
 |Time|#|</>|Question Title|Difficulty|
 |:--|--:|:-:|:--|:--|
+|2022-04-20 18:07|1572|[📎](src/q_1551_1600/q1572.cc)|[Matrix Diagonal Sum](https://leetcode.com/problems/matrix-diagonal-sum/)|Easy|
 |2022-04-19 11:57|1588|[📎](src/q_1551_1600/q1588.cc)|[Sum of All Odd Length Subarrays](https://leetcode.com/problems/sum-of-all-odd-length-subarrays/)|Easy|
 |2022-04-19 11:44|99|[📎](src/q_51_100/q0099.cc)|[Recover Binary Search Tree](https://leetcode.com/problems/recover-binary-search-tree/)|Medium|
 |2022-04-18 18:21|1232|[📎](src/q_1201_1250/q1232.cc)|[Check If It Is a Straight Line](https://leetcode.com/problems/check-if-it-is-a-straight-line/)|Easy|
@@ -2337,13 +2338,12 @@ My daily challenge on leetcode since 2021/09/06.
 |2022-04-09 12:00|1608|[📎](src/q_1601_1650/q1608.cc)|[Special Array With X Elements Greater Than or Equal X](https://leetcode.com/problems/special-array-with-x-elements-greater-than-or-equal-x/)|Easy|
 |2022-04-08 20:15|703|[📎](src/q_701_750/q0703.cc)|[Kth Largest Element in a Stream](https://leetcode.com/problems/kth-largest-element-in-a-stream/)|Easy|
 |2022-04-08 18:37|1539|[📎](src/q_1501_1550/q1539.cc)|[Kth Missing Positive Number](https://leetcode.com/problems/kth-missing-positive-number/)|Easy|
-|2022-04-07 18:35|278|[📎](src/q_251_300/q0278.cc)|[First Bad Version](https://leetcode.com/problems/first-bad-version/)|Easy|
 
 ## Previous Logs
 
 |Month|Submissions|Easy|Medium|Hard|
 |:--|:--|:--|:--|:--|
-|[April_2022](./assets/April_2022.md)|35|25|10|0|
+|[April_2022](./assets/April_2022.md)|36|26|10|0|
 |[March_2022](./assets/March_2022.md)|49|6|39|4|
 |[February_2022](./assets/February_2022.md)|69|15|43|11|
 |[January_2022](./assets/January_2022.md)|32|8|18|6|

@@ -2,6 +2,7 @@
 
 ||#|</>|Question Title|Difficulty|
 |:--|--:|:-:|:--|:--|
+|Day 20|1572|[📎](../src/q_1551_1600/q1572.cc)|[Matrix Diagonal Sum](https://leetcode.com/problems/matrix-diagonal-sum/)|Easy|
 |Day 19|99<br>1588|[📎](../src/q_51_100/q0099.cc)<br>[📎](../src/q_1551_1600/q1588.cc)|[Recover Binary Search Tree](https://leetcode.com/problems/recover-binary-search-tree/)<br>[Sum of All Odd Length Subarrays](https://leetcode.com/problems/sum-of-all-odd-length-subarrays/)|Medium<br>Easy|
 |Day 18|589<br>1232|[📎](../src/q_551_600/q0589.cc)<br>[📎](../src/q_1201_1250/q1232.cc)|[N-ary Tree Preorder Traversal](https://leetcode.com/problems/n-ary-tree-preorder-traversal/)<br>[Check If It Is a Straight Line](https://leetcode.com/problems/check-if-it-is-a-straight-line/)|Easy<br>Easy|
 |Day 17|897<br>1502<br>1790|[📎](../src/q_851_900/q0897.cc)<br>[📎](../src/q_1501_1550/q1502.cc)<br>[📎](../src/q_1751_1800/q1790.cc)|[Increasing Order Search Tree](https://leetcode.com/problems/increasing-order-search-tree/)<br>[Can Make Arithmetic Progression From Sequence](https://leetcode.com/problems/can-make-arithmetic-progression-from-sequence/)<br>[Check if One String Swap Can Make Strings Equal](https://leetcode.com/problems/check-if-one-string-swap-can-make-strings-equal/)|Easy<br>Easy<br>Easy|
