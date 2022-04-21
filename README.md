@@ -1821,7 +1821,7 @@ My daily challenge on leetcode since 2021/09/06.
 ||1765|[Map of Highest Peak](https://leetcode.com/problems/map-of-highest-peak/)|Medium|
 ||1766|[Tree of Coprimes](https://leetcode.com/problems/tree-of-coprimes/)|Hard|
 |🔒|1767|[Find the Subtasks That Did Not Execute](https://leetcode.com/problems/find-the-subtasks-that-did-not-execute/)|Hard|
-||1768|[Merge Strings Alternately](https://leetcode.com/problems/merge-strings-alternately/)|Easy|
+|[📎](src/q_1751_1800/q1768.cc)|1768|[Merge Strings Alternately](https://leetcode.com/problems/merge-strings-alternately/)|Easy|
 ||1769|[Minimum Number of Operations to Move All Balls to Each Box](https://leetcode.com/problems/minimum-number-of-operations-to-move-all-balls-to-each-box/)|Medium|
 ||1770|[Maximum Score from Performing Multiplication Operations](https://leetcode.com/problems/maximum-score-from-performing-multiplication-operations/)|Medium|
 ||1771|[Maximize Palindrome Length From Subsequences](https://leetcode.com/problems/maximize-palindrome-length-from-subsequences/)|Hard|
@@ -2313,6 +2313,7 @@ My daily challenge on leetcode since 2021/09/06.
 
 |Time|#|</>|Question Title|Difficulty|
 |:--|--:|:-:|:--|:--|
+|2022-04-21 09:01|1768|[📎](src/q_1751_1800/q1768.cc)|[Merge Strings Alternately](https://leetcode.com/problems/merge-strings-alternately/)|Easy|
 |2022-04-21 08:32|705|[📎](src/q_701_750/q0705.cc)|[Design HashSet](https://leetcode.com/problems/design-hashset/)|Easy|
 |2022-04-20 18:07|1572|[📎](src/q_1551_1600/q1572.cc)|[Matrix Diagonal Sum](https://leetcode.com/problems/matrix-diagonal-sum/)|Easy|
 |2022-04-19 11:57|1588|[📎](src/q_1551_1600/q1588.cc)|[Sum of All Odd Length Subarrays](https://leetcode.com/problems/sum-of-all-odd-length-subarrays/)|Easy|
@@ -2337,13 +2338,12 @@ My daily challenge on leetcode since 2021/09/06.
 |2022-04-10 14:24|1351|[📎](src/q_1351_1400/q1351.cc)|[Count Negative Numbers in a Sorted Matrix](https://leetcode.com/problems/count-negative-numbers-in-a-sorted-matrix/)|Easy|
 |2022-04-10 13:59|682|[📎](src/q_651_700/q0682.cc)|[Baseball Game](https://leetcode.com/problems/baseball-game/)|Easy|
 |2022-04-09 12:00|1608|[📎](src/q_1601_1650/q1608.cc)|[Special Array With X Elements Greater Than or Equal X](https://leetcode.com/problems/special-array-with-x-elements-greater-than-or-equal-x/)|Easy|
-|2022-04-08 20:15|703|[📎](src/q_701_750/q0703.cc)|[Kth Largest Element in a Stream](https://leetcode.com/problems/kth-largest-element-in-a-stream/)|Easy|
 
 ## Previous Logs
 
 |Month|Submissions|Easy|Medium|Hard|
 |:--|:--|:--|:--|:--|
-|[April_2022](./assets/April_2022.md)|37|27|10|0|
+|[April_2022](./assets/April_2022.md)|38|28|10|0|
 |[March_2022](./assets/March_2022.md)|49|6|39|4|
 |[February_2022](./assets/February_2022.md)|69|15|43|11|
 |[January_2022](./assets/January_2022.md)|32|8|18|6|
