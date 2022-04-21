@@ -703,7 +703,7 @@ id,title,level,slug,paid,done
 702,Search in a Sorted Array of Unknown Size,2,search-in-a-sorted-array-of-unknown-size,1,0
 703,Kth Largest Element in a Stream,1,kth-largest-element-in-a-stream,0,1
 704,Binary Search,1,binary-search,0,1
-705,Design HashSet,1,design-hashset,0,0
+705,Design HashSet,1,design-hashset,0,1
 706,Design HashMap,1,design-hashmap,0,1
 707,Design Linked List,2,design-linked-list,0,1
 708,Insert into a Sorted Circular Linked List,2,insert-into-a-sorted-circular-linked-list,1,0
