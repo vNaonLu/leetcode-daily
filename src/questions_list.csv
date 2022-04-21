@@ -1676,7 +1676,7 @@ id,title,level,slug,paid,done
 1675,Minimize Deviation in Array,3,minimize-deviation-in-array,0,1
 1676,Lowest Common Ancestor of a Binary Tree IV,2,lowest-common-ancestor-of-a-binary-tree-iv,1,0
 1677,Product's Worth Over Invoices,1,products-worth-over-invoices,1,0
-1678,Goal Parser Interpretation,1,goal-parser-interpretation,0,0
+1678,Goal Parser Interpretation,1,goal-parser-interpretation,0,1
 1679,Max Number of K-Sum Pairs,2,max-number-of-k-sum-pairs,0,0
 1680,Concatenation of Consecutive Binary Numbers,2,concatenation-of-consecutive-binary-numbers,0,1
 1681,Minimum Incompatibility,3,minimum-incompatibility,0,0

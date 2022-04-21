@@ -1725,7 +1725,7 @@ My daily challenge on leetcode since 2021/09/06.
 |[📎](src/q_1651_1700/q1675.cc)|1675|[Minimize Deviation in Array](https://leetcode.com/problems/minimize-deviation-in-array/)|Hard|
 |🔒|1676|[Lowest Common Ancestor of a Binary Tree IV](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree-iv/)|Medium|
 |🔒|1677|[Product's Worth Over Invoices](https://leetcode.com/problems/products-worth-over-invoices/)|Easy|
-||1678|[Goal Parser Interpretation](https://leetcode.com/problems/goal-parser-interpretation/)|Easy|
+|[📎](src/q_1651_1700/q1678.cc)|1678|[Goal Parser Interpretation](https://leetcode.com/problems/goal-parser-interpretation/)|Easy|
 ||1679|[Max Number of K-Sum Pairs](https://leetcode.com/problems/max-number-of-k-sum-pairs/)|Medium|
 |[📎](src/q_1651_1700/q1680.cc)|1680|[Concatenation of Consecutive Binary Numbers](https://leetcode.com/problems/concatenation-of-consecutive-binary-numbers/)|Medium|
 ||1681|[Minimum Incompatibility](https://leetcode.com/problems/minimum-incompatibility/)|Hard|
@@ -2313,6 +2313,7 @@ My daily challenge on leetcode since 2021/09/06.
 
 |Time|#|</>|Question Title|Difficulty|
 |:--|--:|:-:|:--|:--|
+|2022-04-21 09:06|1678|[📎](src/q_1651_1700/q1678.cc)|[Goal Parser Interpretation](https://leetcode.com/problems/goal-parser-interpretation/)|Easy|
 |2022-04-21 09:01|1768|[📎](src/q_1751_1800/q1768.cc)|[Merge Strings Alternately](https://leetcode.com/problems/merge-strings-alternately/)|Easy|
 |2022-04-21 08:32|705|[📎](src/q_701_750/q0705.cc)|[Design HashSet](https://leetcode.com/problems/design-hashset/)|Easy|
 |2022-04-20 18:07|1572|[📎](src/q_1551_1600/q1572.cc)|[Matrix Diagonal Sum](https://leetcode.com/problems/matrix-diagonal-sum/)|Easy|
@@ -2337,13 +2338,12 @@ My daily challenge on leetcode since 2021/09/06.
 |2022-04-11 18:21|1260|[📎](src/q_1251_1300/q1260.cc)|[Shift 2D Grid](https://leetcode.com/problems/shift-2d-grid/)|Easy|
 |2022-04-10 14:24|1351|[📎](src/q_1351_1400/q1351.cc)|[Count Negative Numbers in a Sorted Matrix](https://leetcode.com/problems/count-negative-numbers-in-a-sorted-matrix/)|Easy|
 |2022-04-10 13:59|682|[📎](src/q_651_700/q0682.cc)|[Baseball Game](https://leetcode.com/problems/baseball-game/)|Easy|
-|2022-04-09 12:00|1608|[📎](src/q_1601_1650/q1608.cc)|[Special Array With X Elements Greater Than or Equal X](https://leetcode.com/problems/special-array-with-x-elements-greater-than-or-equal-x/)|Easy|
 
 ## Previous Logs
 
 |Month|Submissions|Easy|Medium|Hard|
 |:--|:--|:--|:--|:--|
-|[April_2022](./assets/April_2022.md)|38|28|10|0|
+|[April_2022](./assets/April_2022.md)|39|29|10|0|
 |[March_2022](./assets/March_2022.md)|49|6|39|4|
 |[February_2022](./assets/February_2022.md)|69|15|43|11|
 |[January_2022](./assets/January_2022.md)|32|8|18|6|
