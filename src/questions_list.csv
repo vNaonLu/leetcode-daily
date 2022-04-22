@@ -1307,7 +1307,7 @@ id,title,level,slug,paid,done
 1306,Jump Game III,2,jump-game-iii,0,1
 1307,Verbal Arithmetic Puzzle,3,verbal-arithmetic-puzzle,0,0
 1308,Running Total for Different Genders,2,running-total-for-different-genders,1,0
-1309,Decrypt String from Alphabet to Integer Mapping,1,decrypt-string-from-alphabet-to-integer-mapping,0,0
+1309,Decrypt String from Alphabet to Integer Mapping,1,decrypt-string-from-alphabet-to-integer-mapping,0,1
 1310,XOR Queries of a Subarray,2,xor-queries-of-a-subarray,0,0
 1311,Get Watched Videos by Your Friends,2,get-watched-videos-by-your-friends,0,0
 1312,Minimum Insertion Steps to Make a String Palindrome,3,minimum-insertion-steps-to-make-a-string-palindrome,0,0
