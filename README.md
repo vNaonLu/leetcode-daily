@@ -982,7 +982,7 @@ My daily challenge on leetcode since 2021/09/06.
 ||950|[Reveal Cards In Increasing Order](https://leetcode.com/problems/reveal-cards-in-increasing-order/)|Medium|
 |[📎](src/q_951_1000/q0951.cc)|951|[Flip Equivalent Binary Trees](https://leetcode.com/problems/flip-equivalent-binary-trees/)|Medium|
 |[📎](src/q_951_1000/q0952.cc)|952|[Largest Component Size by Common Factor](https://leetcode.com/problems/largest-component-size-by-common-factor/)|Hard|
-||953|[Verifying an Alien Dictionary](https://leetcode.com/problems/verifying-an-alien-dictionary/)|Easy|
+|[📎](src/q_951_1000/q0953.cc)|953|[Verifying an Alien Dictionary](https://leetcode.com/problems/verifying-an-alien-dictionary/)|Easy|
 ||954|[Array of Doubled Pairs](https://leetcode.com/problems/array-of-doubled-pairs/)|Medium|
 ||955|[Delete Columns to Make Sorted II](https://leetcode.com/problems/delete-columns-to-make-sorted-ii/)|Medium|
 ||956|[Tallest Billboard](https://leetcode.com/problems/tallest-billboard/)|Hard|
@@ -2314,6 +2314,7 @@ My daily challenge on leetcode since 2021/09/06.
 
 |Time|#|</>|Question Title|Difficulty|
 |:--|--:|:-:|:--|:--|
+|2022-04-22 09:06|953|[📎](src/q_951_1000/q0953.cc)|[Verifying an Alien Dictionary](https://leetcode.com/problems/verifying-an-alien-dictionary/)|Easy|
 |2022-04-22 08:58|1309|[📎](src/q_1301_1350/q1309.cc)|[Decrypt String from Alphabet to Integer Mapping](https://leetcode.com/problems/decrypt-string-from-alphabet-to-integer-mapping/)|Easy|
 |2022-04-22 08:49|709|[📎](src/q_701_750/q0709.cc)|[To Lower Case](https://leetcode.com/problems/to-lower-case/)|Easy|
 |2022-04-21 09:06|1678|[📎](src/q_1651_1700/q1678.cc)|[Goal Parser Interpretation](https://leetcode.com/problems/goal-parser-interpretation/)|Easy|
@@ -2338,13 +2339,12 @@ My daily challenge on leetcode since 2021/09/06.
 |2022-04-12 18:29|289|[📎](src/q_251_300/q0289.cc)|[Game of Life](https://leetcode.com/problems/game-of-life/)|Medium|
 |2022-04-12 18:24|633|[📎](src/q_601_650/q0633.cc)|[Sum of Square Numbers](https://leetcode.com/problems/sum-of-square-numbers/)|Medium|
 |2022-04-11 18:30|1346|[📎](src/q_1301_1350/q1346.cc)|[Check If N and Its Double Exist](https://leetcode.com/problems/check-if-n-and-its-double-exist/)|Easy|
-|2022-04-11 18:21|1260|[📎](src/q_1251_1300/q1260.cc)|[Shift 2D Grid](https://leetcode.com/problems/shift-2d-grid/)|Easy|
 
 ## Previous Logs
 
 |Month|Submissions|Easy|Medium|Hard|
 |:--|:--|:--|:--|:--|
-|[April_2022](./assets/April_2022.md)|41|31|10|0|
+|[April_2022](./assets/April_2022.md)|42|32|10|0|
 |[March_2022](./assets/March_2022.md)|49|6|39|4|
 |[February_2022](./assets/February_2022.md)|69|15|43|11|
 |[January_2022](./assets/January_2022.md)|32|8|18|6|
