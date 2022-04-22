@@ -732,7 +732,7 @@ My daily challenge on leetcode since 2021/09/06.
 |[📎](src/q_701_750/q0706.cc)|706|[Design HashMap](https://leetcode.com/problems/design-hashmap/)|Easy|
 |[📎](src/q_701_750/q0707.cc)|707|[Design Linked List](https://leetcode.com/problems/design-linked-list/)|Medium|
 |🔒|708|[Insert into a Sorted Circular Linked List](https://leetcode.com/problems/insert-into-a-sorted-circular-linked-list/)|Medium|
-||709|[To Lower Case](https://leetcode.com/problems/to-lower-case/)|Easy|
+|[📎](src/q_701_750/q0709.cc)|709|[To Lower Case](https://leetcode.com/problems/to-lower-case/)|Easy|
 ||710|[Random Pick with Blacklist](https://leetcode.com/problems/random-pick-with-blacklist/)|Hard|
 |🔒|711|[Number of Distinct Islands II](https://leetcode.com/problems/number-of-distinct-islands-ii/)|Hard|
 ||712|[Minimum ASCII Delete Sum for Two Strings](https://leetcode.com/problems/minimum-ascii-delete-sum-for-two-strings/)|Medium|
@@ -2056,7 +2056,7 @@ My daily challenge on leetcode since 2021/09/06.
 ||2000|[Reverse Prefix of Word](https://leetcode.com/problems/reverse-prefix-of-word/)|Easy|
 </details>
 <details>
-  <summary>### 2001 ~ 2246</summary>
+  <summary>### 2001 ~ 2247</summary>
 
 |</>|#|Solution Title|Difficulty|
 |:-:|--:|:--|:--|
@@ -2306,6 +2306,7 @@ My daily challenge on leetcode since 2021/09/06.
 ||2244|[Minimum Rounds to Complete All Tasks](https://leetcode.com/problems/minimum-rounds-to-complete-all-tasks/)|Medium|
 ||2245|[Maximum Trailing Zeros in a Cornered Path](https://leetcode.com/problems/maximum-trailing-zeros-in-a-cornered-path/)|Medium|
 ||2246|[Longest Path With Different Adjacent Characters](https://leetcode.com/problems/longest-path-with-different-adjacent-characters/)|Hard|
+|🔒|2247|[Maximum Cost of Trip With K Highways](https://leetcode.com/problems/maximum-cost-of-trip-with-k-highways/)|Hard|
 </details>
 
 ---
@@ -2313,6 +2314,7 @@ My daily challenge on leetcode since 2021/09/06.
 
 |Time|#|</>|Question Title|Difficulty|
 |:--|--:|:-:|:--|:--|
+|2022-04-22 08:49|709|[📎](src/q_701_750/q0709.cc)|[To Lower Case](https://leetcode.com/problems/to-lower-case/)|Easy|
 |2022-04-21 09:06|1678|[📎](src/q_1651_1700/q1678.cc)|[Goal Parser Interpretation](https://leetcode.com/problems/goal-parser-interpretation/)|Easy|
 |2022-04-21 09:01|1768|[📎](src/q_1751_1800/q1768.cc)|[Merge Strings Alternately](https://leetcode.com/problems/merge-strings-alternately/)|Easy|
 |2022-04-21 08:32|705|[📎](src/q_701_750/q0705.cc)|[Design HashSet](https://leetcode.com/problems/design-hashset/)|Easy|
@@ -2337,13 +2339,12 @@ My daily challenge on leetcode since 2021/09/06.
 |2022-04-11 18:30|1346|[📎](src/q_1301_1350/q1346.cc)|[Check If N and Its Double Exist](https://leetcode.com/problems/check-if-n-and-its-double-exist/)|Easy|
 |2022-04-11 18:21|1260|[📎](src/q_1251_1300/q1260.cc)|[Shift 2D Grid](https://leetcode.com/problems/shift-2d-grid/)|Easy|
 |2022-04-10 14:24|1351|[📎](src/q_1351_1400/q1351.cc)|[Count Negative Numbers in a Sorted Matrix](https://leetcode.com/problems/count-negative-numbers-in-a-sorted-matrix/)|Easy|
-|2022-04-10 13:59|682|[📎](src/q_651_700/q0682.cc)|[Baseball Game](https://leetcode.com/problems/baseball-game/)|Easy|
 
 ## Previous Logs
 
 |Month|Submissions|Easy|Medium|Hard|
 |:--|:--|:--|:--|:--|
-|[April_2022](./assets/April_2022.md)|39|29|10|0|
+|[April_2022](./assets/April_2022.md)|40|30|10|0|
 |[March_2022](./assets/March_2022.md)|49|6|39|4|
 |[February_2022](./assets/February_2022.md)|69|15|43|11|
 |[January_2022](./assets/January_2022.md)|32|8|18|6|

@@ -707,7 +707,7 @@ id,title,level,slug,paid,done
 706,Design HashMap,1,design-hashmap,0,1
 707,Design Linked List,2,design-linked-list,0,1
 708,Insert into a Sorted Circular Linked List,2,insert-into-a-sorted-circular-linked-list,1,0
-709,To Lower Case,1,to-lower-case,0,0
+709,To Lower Case,1,to-lower-case,0,1
 710,Random Pick with Blacklist,3,random-pick-with-blacklist,0,0
 711,Number of Distinct Islands II,3,number-of-distinct-islands-ii,1,0
 712,Minimum ASCII Delete Sum for Two Strings,2,minimum-ascii-delete-sum-for-two-strings,0,0
@@ -2245,3 +2245,4 @@ id,title,level,slug,paid,done
 2244,Minimum Rounds to Complete All Tasks,2,minimum-rounds-to-complete-all-tasks,0,0
 2245,Maximum Trailing Zeros in a Cornered Path,2,maximum-trailing-zeros-in-a-cornered-path,0,0
 2246,Longest Path With Different Adjacent Characters,3,longest-path-with-different-adjacent-characters,0,0
+2247,Maximum Cost of Trip With K Highways,3,maximum-cost-of-trip-with-k-highways,1,0
