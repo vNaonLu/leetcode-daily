@@ -558,7 +558,7 @@ My daily challenge on leetcode since 2021/09/06.
 |[📎](src/q_501_550/q0532.cc)|532|[K-diff Pairs in an Array](https://leetcode.com/problems/k-diff-pairs-in-an-array/)|Medium|
 |🔒|533|[Lonely Pixel II](https://leetcode.com/problems/lonely-pixel-ii/)|Medium|
 |🔒|534|[Game Play Analysis III](https://leetcode.com/problems/game-play-analysis-iii/)|Medium|
-||535|[Encode and Decode TinyURL](https://leetcode.com/problems/encode-and-decode-tinyurl/)|Medium|
+|[📎](src/q_501_550/q0535.cc)|535|[Encode and Decode TinyURL](https://leetcode.com/problems/encode-and-decode-tinyurl/)|Medium|
 |🔒|536|[Construct Binary Tree from String](https://leetcode.com/problems/construct-binary-tree-from-string/)|Medium|
 ||537|[Complex Number Multiplication](https://leetcode.com/problems/complex-number-multiplication/)|Medium|
 |[📎](src/q_501_550/q0538.cc)|538|[Convert BST to Greater Tree](https://leetcode.com/problems/convert-bst-to-greater-tree/)|Medium|
@@ -2314,6 +2314,7 @@ My daily challenge on leetcode since 2021/09/06.
 
 |Time|#|</>|Question Title|Difficulty|
 |:--|--:|:-:|:--|:--|
+|2022-04-23 14:52|535|[📎](src/q_501_550/q0535.cc)|[Encode and Decode TinyURL](https://leetcode.com/problems/encode-and-decode-tinyurl/)|Medium|
 |2022-04-22 09:06|953|[📎](src/q_951_1000/q0953.cc)|[Verifying an Alien Dictionary](https://leetcode.com/problems/verifying-an-alien-dictionary/)|Easy|
 |2022-04-22 08:58|1309|[📎](src/q_1301_1350/q1309.cc)|[Decrypt String from Alphabet to Integer Mapping](https://leetcode.com/problems/decrypt-string-from-alphabet-to-integer-mapping/)|Easy|
 |2022-04-22 08:49|709|[📎](src/q_701_750/q0709.cc)|[To Lower Case](https://leetcode.com/problems/to-lower-case/)|Easy|
@@ -2338,13 +2339,12 @@ My daily challenge on leetcode since 2021/09/06.
 |2022-04-13 19:07|1855|[📎](src/q_1851_1900/q1855.cc)|[Maximum Distance Between a Pair of Values](https://leetcode.com/problems/maximum-distance-between-a-pair-of-values/)|Medium|
 |2022-04-12 18:29|289|[📎](src/q_251_300/q0289.cc)|[Game of Life](https://leetcode.com/problems/game-of-life/)|Medium|
 |2022-04-12 18:24|633|[📎](src/q_601_650/q0633.cc)|[Sum of Square Numbers](https://leetcode.com/problems/sum-of-square-numbers/)|Medium|
-|2022-04-11 18:30|1346|[📎](src/q_1301_1350/q1346.cc)|[Check If N and Its Double Exist](https://leetcode.com/problems/check-if-n-and-its-double-exist/)|Easy|
 
 ## Previous Logs
 
 |Month|Submissions|Easy|Medium|Hard|
 |:--|:--|:--|:--|:--|
-|[April_2022](./assets/April_2022.md)|42|32|10|0|
+|[April_2022](./assets/April_2022.md)|43|32|11|0|
 |[March_2022](./assets/March_2022.md)|49|6|39|4|
 |[February_2022](./assets/February_2022.md)|69|15|43|11|
 |[January_2022](./assets/January_2022.md)|32|8|18|6|
