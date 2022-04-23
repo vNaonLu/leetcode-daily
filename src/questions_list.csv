@@ -97,7 +97,7 @@ id,title,level,slug,paid,done
 96,Unique Binary Search Trees,2,unique-binary-search-trees,0,1
 97,Interleaving String,2,interleaving-string,0,0
 98,Validate Binary Search Tree,2,validate-binary-search-tree,0,1
-99,Recover Binary Search Tree,2,recover-binary-search-tree,0,0
+99,Recover Binary Search Tree,2,recover-binary-search-tree,0,1
 100,Same Tree,1,same-tree,0,0
 101,Symmetric Tree,1,symmetric-tree,0,1
 102,Binary Tree Level Order Traversal,2,binary-tree-level-order-traversal,0,1
@@ -533,7 +533,7 @@ id,title,level,slug,paid,done
 532,K-diff Pairs in an Array,2,k-diff-pairs-in-an-array,0,1
 533,Lonely Pixel II,2,lonely-pixel-ii,1,0
 534,Game Play Analysis III,2,game-play-analysis-iii,1,0
-535,Encode and Decode TinyURL,2,encode-and-decode-tinyurl,0,0
+535,Encode and Decode TinyURL,2,encode-and-decode-tinyurl,0,1
 536,Construct Binary Tree from String,2,construct-binary-tree-from-string,1,0
 537,Complex Number Multiplication,2,complex-number-multiplication,0,0
 538,Convert BST to Greater Tree,2,convert-bst-to-greater-tree,0,1
@@ -587,7 +587,7 @@ id,title,level,slug,paid,done
 586,Customer Placing the Largest Number of Orders,1,customer-placing-the-largest-number-of-orders,0,0
 587,Erect the Fence,3,erect-the-fence,0,0
 588,Design In-Memory File System,3,design-in-memory-file-system,1,0
-589,N-ary Tree Preorder Traversal,1,n-ary-tree-preorder-traversal,0,0
+589,N-ary Tree Preorder Traversal,1,n-ary-tree-preorder-traversal,0,1
 590,N-ary Tree Postorder Traversal,1,n-ary-tree-postorder-traversal,0,0
 591,Tag Validator,3,tag-validator,0,0
 592,Fraction Addition and Subtraction,2,fraction-addition-and-subtraction,0,0
@@ -703,11 +703,11 @@ id,title,level,slug,paid,done
 702,Search in a Sorted Array of Unknown Size,2,search-in-a-sorted-array-of-unknown-size,1,0
 703,Kth Largest Element in a Stream,1,kth-largest-element-in-a-stream,0,1
 704,Binary Search,1,binary-search,0,1
-705,Design HashSet,1,design-hashset,0,0
+705,Design HashSet,1,design-hashset,0,1
 706,Design HashMap,1,design-hashmap,0,1
 707,Design Linked List,2,design-linked-list,0,1
 708,Insert into a Sorted Circular Linked List,2,insert-into-a-sorted-circular-linked-list,1,0
-709,To Lower Case,1,to-lower-case,0,0
+709,To Lower Case,1,to-lower-case,0,1
 710,Random Pick with Blacklist,3,random-pick-with-blacklist,0,0
 711,Number of Distinct Islands II,3,number-of-distinct-islands-ii,1,0
 712,Minimum ASCII Delete Sum for Two Strings,2,minimum-ascii-delete-sum-for-two-strings,0,0
@@ -895,7 +895,7 @@ id,title,level,slug,paid,done
 894,All Possible Full Binary Trees,2,all-possible-full-binary-trees,0,0
 895,Maximum Frequency Stack,3,maximum-frequency-stack,0,1
 896,Monotonic Array,1,monotonic-array,0,0
-897,Increasing Order Search Tree,1,increasing-order-search-tree,0,0
+897,Increasing Order Search Tree,1,increasing-order-search-tree,0,1
 898,Bitwise ORs of Subarrays,2,bitwise-ors-of-subarrays,0,1
 899,Orderly Queue,3,orderly-queue,0,0
 900,RLE Iterator,2,rle-iterator,0,0
@@ -951,7 +951,7 @@ id,title,level,slug,paid,done
 950,Reveal Cards In Increasing Order,2,reveal-cards-in-increasing-order,0,0
 951,Flip Equivalent Binary Trees,2,flip-equivalent-binary-trees,0,1
 952,Largest Component Size by Common Factor,3,largest-component-size-by-common-factor,0,1
-953,Verifying an Alien Dictionary,1,verifying-an-alien-dictionary,0,0
+953,Verifying an Alien Dictionary,1,verifying-an-alien-dictionary,0,1
 954,Array of Doubled Pairs,2,array-of-doubled-pairs,0,0
 955,Delete Columns to Make Sorted II,2,delete-columns-to-make-sorted-ii,0,0
 956,Tallest Billboard,3,tallest-billboard,0,0
@@ -1230,7 +1230,7 @@ id,title,level,slug,paid,done
 1229,Meeting Scheduler,2,meeting-scheduler,1,0
 1230,Toss Strange Coins,2,toss-strange-coins,1,0
 1231,Divide Chocolate,3,divide-chocolate,1,0
-1232,Check If It Is a Straight Line,1,check-if-it-is-a-straight-line,0,0
+1232,Check If It Is a Straight Line,1,check-if-it-is-a-straight-line,0,1
 1233,Remove Sub-Folders from the Filesystem,2,remove-sub-folders-from-the-filesystem,0,0
 1234,Replace the Substring for Balanced String,2,replace-the-substring-for-balanced-string,0,0
 1235,Maximum Profit in Job Scheduling,3,maximum-profit-in-job-scheduling,0,0
@@ -1307,7 +1307,7 @@ id,title,level,slug,paid,done
 1306,Jump Game III,2,jump-game-iii,0,1
 1307,Verbal Arithmetic Puzzle,3,verbal-arithmetic-puzzle,0,0
 1308,Running Total for Different Genders,2,running-total-for-different-genders,1,0
-1309,Decrypt String from Alphabet to Integer Mapping,1,decrypt-string-from-alphabet-to-integer-mapping,0,0
+1309,Decrypt String from Alphabet to Integer Mapping,1,decrypt-string-from-alphabet-to-integer-mapping,0,1
 1310,XOR Queries of a Subarray,2,xor-queries-of-a-subarray,0,0
 1311,Get Watched Videos by Your Friends,2,get-watched-videos-by-your-friends,0,0
 1312,Minimum Insertion Steps to Make a String Palindrome,3,minimum-insertion-steps-to-make-a-string-palindrome,0,0
@@ -1500,7 +1500,7 @@ id,title,level,slug,paid,done
 1499,Max Value of Equation,3,max-value-of-equation,0,0
 1500,Design a File Sharing System,2,design-a-file-sharing-system,1,0
 1501,Countries You Can Safely Invest In,2,countries-you-can-safely-invest-in,1,0
-1502,Can Make Arithmetic Progression From Sequence,1,can-make-arithmetic-progression-from-sequence,0,0
+1502,Can Make Arithmetic Progression From Sequence,1,can-make-arithmetic-progression-from-sequence,0,1
 1503,Last Moment Before All Ants Fall Out of a Plank,2,last-moment-before-all-ants-fall-out-of-a-plank,0,0
 1504,Count Submatrices With All Ones,2,count-submatrices-with-all-ones,0,0
 1505,Minimum Possible Integer After at Most K Adjacent Swaps On Digits,3,minimum-possible-integer-after-at-most-k-adjacent-swaps-on-digits,0,0
@@ -1570,7 +1570,7 @@ id,title,level,slug,paid,done
 1569,Number of Ways to Reorder Array to Get Same BST,3,number-of-ways-to-reorder-array-to-get-same-bst,0,0
 1570,Dot Product of Two Sparse Vectors,2,dot-product-of-two-sparse-vectors,1,0
 1571,Warehouse Manager,1,warehouse-manager,1,0
-1572,Matrix Diagonal Sum,1,matrix-diagonal-sum,0,0
+1572,Matrix Diagonal Sum,1,matrix-diagonal-sum,0,1
 1573,Number of Ways to Split a String,2,number-of-ways-to-split-a-string,0,0
 1574,Shortest Subarray to be Removed to Make Array Sorted,2,shortest-subarray-to-be-removed-to-make-array-sorted,0,0
 1575,Count All Possible Routes,3,count-all-possible-routes,0,0
@@ -1586,7 +1586,7 @@ id,title,level,slug,paid,done
 1585,Check If String Is Transformable With Substring Sort Operations,3,check-if-string-is-transformable-with-substring-sort-operations,0,0
 1586,Binary Search Tree Iterator II,2,binary-search-tree-iterator-ii,1,0
 1587,Bank Account Summary II,1,bank-account-summary-ii,0,0
-1588,Sum of All Odd Length Subarrays,1,sum-of-all-odd-length-subarrays,0,0
+1588,Sum of All Odd Length Subarrays,1,sum-of-all-odd-length-subarrays,0,1
 1589,Maximum Sum Obtained of Any Permutation,2,maximum-sum-obtained-of-any-permutation,0,0
 1590,Make Sum Divisible by P,2,make-sum-divisible-by-p,0,0
 1591,Strange Printer II,3,strange-printer-ii,0,0
@@ -1676,7 +1676,7 @@ id,title,level,slug,paid,done
 1675,Minimize Deviation in Array,3,minimize-deviation-in-array,0,1
 1676,Lowest Common Ancestor of a Binary Tree IV,2,lowest-common-ancestor-of-a-binary-tree-iv,1,0
 1677,Product's Worth Over Invoices,1,products-worth-over-invoices,1,0
-1678,Goal Parser Interpretation,1,goal-parser-interpretation,0,0
+1678,Goal Parser Interpretation,1,goal-parser-interpretation,0,1
 1679,Max Number of K-Sum Pairs,2,max-number-of-k-sum-pairs,0,0
 1680,Concatenation of Consecutive Binary Numbers,2,concatenation-of-consecutive-binary-numbers,0,1
 1681,Minimum Incompatibility,3,minimum-incompatibility,0,0
@@ -1766,7 +1766,7 @@ id,title,level,slug,paid,done
 1765,Map of Highest Peak,2,map-of-highest-peak,0,0
 1766,Tree of Coprimes,3,tree-of-coprimes,0,0
 1767,Find the Subtasks That Did Not Execute,3,find-the-subtasks-that-did-not-execute,1,0
-1768,Merge Strings Alternately,1,merge-strings-alternately,0,0
+1768,Merge Strings Alternately,1,merge-strings-alternately,0,1
 1769,Minimum Number of Operations to Move All Balls to Each Box,2,minimum-number-of-operations-to-move-all-balls-to-each-box,0,0
 1770,Maximum Score from Performing Multiplication Operations,2,maximum-score-from-performing-multiplication-operations,0,0
 1771,Maximize Palindrome Length From Subsequences,3,maximize-palindrome-length-from-subsequences,0,0
@@ -1788,7 +1788,7 @@ id,title,level,slug,paid,done
 1787,Make the XOR of All Segments Equal to Zero,3,make-the-xor-of-all-segments-equal-to-zero,0,0
 1788,Maximize the Beauty of the Garden,3,maximize-the-beauty-of-the-garden,1,0
 1789,Primary Department for Each Employee,1,primary-department-for-each-employee,1,0
-1790,Check if One String Swap Can Make Strings Equal,1,check-if-one-string-swap-can-make-strings-equal,0,0
+1790,Check if One String Swap Can Make Strings Equal,1,check-if-one-string-swap-can-make-strings-equal,0,1
 1791,Find Center of Star Graph,1,find-center-of-star-graph,0,1
 1792,Maximum Average Pass Ratio,2,maximum-average-pass-ratio,0,0
 1793,Maximum Score of a Good Subarray,3,maximum-score-of-a-good-subarray,0,0
@@ -2237,3 +2237,12 @@ id,title,level,slug,paid,done
 2236,Root Equals Sum of Children,1,root-equals-sum-of-children,0,0
 2237,Count Positions on Street With Required Brightness,2,count-positions-on-street-with-required-brightness,1,0
 2238,Number of Times a Driver Was a Passenger,2,number-of-times-a-driver-was-a-passenger,1,0
+2239,Find Closest Number to Zero,1,find-closest-number-to-zero,0,0
+2240,Number of Ways to Buy Pens and Pencils,2,number-of-ways-to-buy-pens-and-pencils,0,0
+2241,Design an ATM Machine,2,design-an-atm-machine,0,0
+2242,Maximum Score of a Node Sequence,3,maximum-score-of-a-node-sequence,0,0
+2243,Calculate Digit Sum of a String,1,calculate-digit-sum-of-a-string,0,0
+2244,Minimum Rounds to Complete All Tasks,2,minimum-rounds-to-complete-all-tasks,0,0
+2245,Maximum Trailing Zeros in a Cornered Path,2,maximum-trailing-zeros-in-a-cornered-path,0,0
+2246,Longest Path With Different Adjacent Characters,3,longest-path-with-different-adjacent-characters,0,0
+2247,Maximum Cost of Trip With K Highways,3,maximum-cost-of-trip-with-k-highways,1,0
