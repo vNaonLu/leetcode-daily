@@ -1394,7 +1394,7 @@ id,title,level,slug,paid,done
 1393,Capital Gain/Loss,2,capital-gainloss,0,0
 1394,Find Lucky Integer in an Array,1,find-lucky-integer-in-an-array,0,0
 1395,Count Number of Teams,2,count-number-of-teams,0,0
-1396,Design Underground System,2,design-underground-system,0,0
+1396,Design Underground System,2,design-underground-system,0,1
 1397,Find All Good Strings,3,find-all-good-strings,0,0
 1398,Customers Who Bought Products A and B but Not C,2,customers-who-bought-products-a-and-b-but-not-c,1,0
 1399,Count Largest Group,1,count-largest-group,0,0

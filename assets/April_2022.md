@@ -2,6 +2,7 @@
 
 ||#|</>|Question Title|Difficulty|
 |:--|--:|:-:|:--|:--|
+|Day 24|1396|[📎](../src/q_1351_1400/q1396.cc)|[Design Underground System](https://leetcode.com/problems/design-underground-system/)|Medium|
 |Day 23|535|[📎](../src/q_501_550/q0535.cc)|[Encode and Decode TinyURL](https://leetcode.com/problems/encode-and-decode-tinyurl/)|Medium|
 |Day 22|709<br>953<br>1309|[📎](../src/q_701_750/q0709.cc)<br>[📎](../src/q_951_1000/q0953.cc)<br>[📎](../src/q_1301_1350/q1309.cc)|[To Lower Case](https://leetcode.com/problems/to-lower-case/)<br>[Verifying an Alien Dictionary](https://leetcode.com/problems/verifying-an-alien-dictionary/)<br>[Decrypt String from Alphabet to Integer Mapping](https://leetcode.com/problems/decrypt-string-from-alphabet-to-integer-mapping/)|Easy<br>Easy<br>Easy|
 |Day 21|705<br>1678<br>1768|[📎](../src/q_701_750/q0705.cc)<br>[📎](../src/q_1651_1700/q1678.cc)<br>[📎](../src/q_1751_1800/q1768.cc)|[Design HashSet](https://leetcode.com/problems/design-hashset/)<br>[Goal Parser Interpretation](https://leetcode.com/problems/goal-parser-interpretation/)<br>[Merge Strings Alternately](https://leetcode.com/problems/merge-strings-alternately/)|Easy<br>Easy<br>Easy|
