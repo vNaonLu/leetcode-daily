@@ -282,7 +282,7 @@ id,title,level,slug,paid,done
 281,Zigzag Iterator,2,zigzag-iterator,1,0
 282,Expression Add Operators,3,expression-add-operators,0,1
 283,Move Zeroes,1,move-zeroes,0,1
-284,Peeking Iterator,2,peeking-iterator,0,0
+284,Peeking Iterator,2,peeking-iterator,0,1
 285,Inorder Successor in BST,2,inorder-successor-in-bst,1,0
 286,Walls and Gates,2,walls-and-gates,1,0
 287,Find the Duplicate Number,2,find-the-duplicate-number,0,1
@@ -2246,3 +2246,9 @@ id,title,level,slug,paid,done
 2245,Maximum Trailing Zeros in a Cornered Path,2,maximum-trailing-zeros-in-a-cornered-path,0,0
 2246,Longest Path With Different Adjacent Characters,3,longest-path-with-different-adjacent-characters,0,0
 2247,Maximum Cost of Trip With K Highways,3,maximum-cost-of-trip-with-k-highways,1,0
+2248,Intersection of Multiple Arrays,1,intersection-of-multiple-arrays,0,0
+2249,Count Lattice Points Inside a Circle,2,count-lattice-points-inside-a-circle,0,0
+2250,Count Number of Rectangles Containing Each Point,2,count-number-of-rectangles-containing-each-point,0,0
+2251,Number of Flowers in Full Bloom,3,number-of-flowers-in-full-bloom,0,0
+2252,Dynamic Pivoting of a Table,3,dynamic-pivoting-of-a-table,1,0
+2253,Dynamic Unpivoting of a Table,3,dynamic-unpivoting-of-a-table,1,0

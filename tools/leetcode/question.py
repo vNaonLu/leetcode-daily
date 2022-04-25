@@ -280,6 +280,7 @@ class Solution:
             elif match:
                 return SolutionClass(id, match.group("class_name"),
                                      multi_lines[i:], content)
+        return SolutionFunction(id, "", "")
 
 
 class LeetCodeQuestion:

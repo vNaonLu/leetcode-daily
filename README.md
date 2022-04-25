@@ -301,7 +301,7 @@ My daily challenge on leetcode since 2021/09/06.
 |🔒|281|[Zigzag Iterator](https://leetcode.com/problems/zigzag-iterator/)|Medium|
 |[📎](src/q_251_300/q0282.cc)|282|[Expression Add Operators](https://leetcode.com/problems/expression-add-operators/)|Hard|
 |[📎](src/q_251_300/q0283.cc)|283|[Move Zeroes](https://leetcode.com/problems/move-zeroes/)|Easy|
-||284|[Peeking Iterator](https://leetcode.com/problems/peeking-iterator/)|Medium|
+|[📎](src/q_251_300/q0284.cc)|284|[Peeking Iterator](https://leetcode.com/problems/peeking-iterator/)|Medium|
 |🔒|285|[Inorder Successor in BST](https://leetcode.com/problems/inorder-successor-in-bst/)|Medium|
 |🔒|286|[Walls and Gates](https://leetcode.com/problems/walls-and-gates/)|Medium|
 |[📎](src/q_251_300/q0287.cc)|287|[Find the Duplicate Number](https://leetcode.com/problems/find-the-duplicate-number/)|Medium|
@@ -2056,7 +2056,7 @@ My daily challenge on leetcode since 2021/09/06.
 ||2000|[Reverse Prefix of Word](https://leetcode.com/problems/reverse-prefix-of-word/)|Easy|
 </details>
 <details>
-  <summary>### 2001 ~ 2247</summary>
+  <summary>### 2001 ~ 2250</summary>
 
 |</>|#|Solution Title|Difficulty|
 |:-:|--:|:--|:--|
@@ -2307,6 +2307,18 @@ My daily challenge on leetcode since 2021/09/06.
 ||2245|[Maximum Trailing Zeros in a Cornered Path](https://leetcode.com/problems/maximum-trailing-zeros-in-a-cornered-path/)|Medium|
 ||2246|[Longest Path With Different Adjacent Characters](https://leetcode.com/problems/longest-path-with-different-adjacent-characters/)|Hard|
 |🔒|2247|[Maximum Cost of Trip With K Highways](https://leetcode.com/problems/maximum-cost-of-trip-with-k-highways/)|Hard|
+||2248|[Intersection of Multiple Arrays](https://leetcode.com/problems/intersection-of-multiple-arrays/)|Easy|
+||2249|[Count Lattice Points Inside a Circle](https://leetcode.com/problems/count-lattice-points-inside-a-circle/)|Medium|
+||2250|[Count Number of Rectangles Containing Each Point](https://leetcode.com/problems/count-number-of-rectangles-containing-each-point/)|Medium|
+</details>
+<details>
+  <summary>### 2251 ~ 2253</summary>
+
+|</>|#|Solution Title|Difficulty|
+|:-:|--:|:--|:--|
+||2251|[Number of Flowers in Full Bloom](https://leetcode.com/problems/number-of-flowers-in-full-bloom/)|Hard|
+|🔒|2252|[Dynamic Pivoting of a Table](https://leetcode.com/problems/dynamic-pivoting-of-a-table/)|Hard|
+|🔒|2253|[Dynamic Unpivoting of a Table](https://leetcode.com/problems/dynamic-unpivoting-of-a-table/)|Hard|
 </details>
 
 ---
@@ -2314,6 +2326,7 @@ My daily challenge on leetcode since 2021/09/06.
 
 |Time|#|</>|Question Title|Difficulty|
 |:--|--:|:-:|:--|:--|
+|2022-04-25 18:32|284|[📎](src/q_251_300/q0284.cc)|[Peeking Iterator](https://leetcode.com/problems/peeking-iterator/)|Medium|
 |2022-04-24 14:23|1396|[📎](src/q_1351_1400/q1396.cc)|[Design Underground System](https://leetcode.com/problems/design-underground-system/)|Medium|
 |2022-04-23 14:52|535|[📎](src/q_501_550/q0535.cc)|[Encode and Decode TinyURL](https://leetcode.com/problems/encode-and-decode-tinyurl/)|Medium|
 |2022-04-22 09:06|953|[📎](src/q_951_1000/q0953.cc)|[Verifying an Alien Dictionary](https://leetcode.com/problems/verifying-an-alien-dictionary/)|Easy|
@@ -2338,13 +2351,12 @@ My daily challenge on leetcode since 2021/09/06.
 |2022-04-14 18:40|1491|[📎](src/q_1451_1500/q1491.cc)|[Average Salary Excluding the Minimum and Maximum Salary](https://leetcode.com/problems/average-salary-excluding-the-minimum-and-maximum-salary/)|Easy|
 |2022-04-14 18:37|1523|[📎](src/q_1501_1550/q1523.cc)|[Count Odd Numbers in an Interval Range](https://leetcode.com/problems/count-odd-numbers-in-an-interval-range/)|Easy|
 |2022-04-13 19:07|1855|[📎](src/q_1851_1900/q1855.cc)|[Maximum Distance Between a Pair of Values](https://leetcode.com/problems/maximum-distance-between-a-pair-of-values/)|Medium|
-|2022-04-12 18:29|289|[📎](src/q_251_300/q0289.cc)|[Game of Life](https://leetcode.com/problems/game-of-life/)|Medium|
 
 ## Previous Logs
 
 |Month|Submissions|Easy|Medium|Hard|
 |:--|:--|:--|:--|:--|
-|[April_2022](./assets/April_2022.md)|44|32|12|0|
+|[April_2022](./assets/April_2022.md)|45|32|13|0|
 |[March_2022](./assets/March_2022.md)|49|6|39|4|
 |[February_2022](./assets/February_2022.md)|69|15|43|11|
 |[January_2022](./assets/January_2022.md)|32|8|18|6|
