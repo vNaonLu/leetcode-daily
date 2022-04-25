@@ -1650,7 +1650,7 @@ My daily challenge on leetcode since 2021/09/06.
 ||1600|[Throne Inheritance](https://leetcode.com/problems/throne-inheritance/)|Medium|
 ||1601|[Maximum Number of Achievable Transfer Requests](https://leetcode.com/problems/maximum-number-of-achievable-transfer-requests/)|Hard|
 |🔒|1602|[Find Nearest Right Node in Binary Tree](https://leetcode.com/problems/find-nearest-right-node-in-binary-tree/)|Medium|
-||1603|[Design Parking System](https://leetcode.com/problems/design-parking-system/)|Easy|
+|[📎](src/q_1601_1650/q1603.cc)|1603|[Design Parking System](https://leetcode.com/problems/design-parking-system/)|Easy|
 ||1604|[Alert Using Same Key-Card Three or More Times in a One Hour Period](https://leetcode.com/problems/alert-using-same-key-card-three-or-more-times-in-a-one-hour-period/)|Medium|
 ||1605|[Find Valid Matrix Given Row and Column Sums](https://leetcode.com/problems/find-valid-matrix-given-row-and-column-sums/)|Medium|
 ||1606|[Find Servers That Handled Most Number of Requests](https://leetcode.com/problems/find-servers-that-handled-most-number-of-requests/)|Hard|
@@ -2326,6 +2326,7 @@ My daily challenge on leetcode since 2021/09/06.
 
 |Time|#|</>|Question Title|Difficulty|
 |:--|--:|:-:|:--|:--|
+|2022-04-25 18:43|1603|[📎](src/q_1601_1650/q1603.cc)|[Design Parking System](https://leetcode.com/problems/design-parking-system/)|Easy|
 |2022-04-25 18:32|284|[📎](src/q_251_300/q0284.cc)|[Peeking Iterator](https://leetcode.com/problems/peeking-iterator/)|Medium|
 |2022-04-24 14:23|1396|[📎](src/q_1351_1400/q1396.cc)|[Design Underground System](https://leetcode.com/problems/design-underground-system/)|Medium|
 |2022-04-23 14:52|535|[📎](src/q_501_550/q0535.cc)|[Encode and Decode TinyURL](https://leetcode.com/problems/encode-and-decode-tinyurl/)|Medium|
@@ -2350,13 +2351,12 @@ My daily challenge on leetcode since 2021/09/06.
 |2022-04-15 19:30|669|[📎](src/q_651_700/q0669.cc)|[Trim a Binary Search Tree](https://leetcode.com/problems/trim-a-binary-search-tree/)|Medium|
 |2022-04-14 18:40|1491|[📎](src/q_1451_1500/q1491.cc)|[Average Salary Excluding the Minimum and Maximum Salary](https://leetcode.com/problems/average-salary-excluding-the-minimum-and-maximum-salary/)|Easy|
 |2022-04-14 18:37|1523|[📎](src/q_1501_1550/q1523.cc)|[Count Odd Numbers in an Interval Range](https://leetcode.com/problems/count-odd-numbers-in-an-interval-range/)|Easy|
-|2022-04-13 19:07|1855|[📎](src/q_1851_1900/q1855.cc)|[Maximum Distance Between a Pair of Values](https://leetcode.com/problems/maximum-distance-between-a-pair-of-values/)|Medium|
 
 ## Previous Logs
 
 |Month|Submissions|Easy|Medium|Hard|
 |:--|:--|:--|:--|:--|
-|[April_2022](./assets/April_2022.md)|45|32|13|0|
+|[April_2022](./assets/April_2022.md)|46|33|13|0|
 |[March_2022](./assets/March_2022.md)|49|6|39|4|
 |[February_2022](./assets/February_2022.md)|69|15|43|11|
 |[January_2022](./assets/January_2022.md)|32|8|18|6|
