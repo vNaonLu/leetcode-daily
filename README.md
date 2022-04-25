@@ -320,7 +320,7 @@ My daily challenge on leetcode since 2021/09/06.
 |[📎](src/q_251_300/q0300.cc)|300|[Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence/)|Medium|
 ||301|[Remove Invalid Parentheses](https://leetcode.com/problems/remove-invalid-parentheses/)|Hard|
 |🔒|302|[Smallest Rectangle Enclosing Black Pixels](https://leetcode.com/problems/smallest-rectangle-enclosing-black-pixels/)|Hard|
-||303|[Range Sum Query - Immutable](https://leetcode.com/problems/range-sum-query-immutable/)|Easy|
+|[📎](src/q_301_350/q0303.cc)|303|[Range Sum Query - Immutable](https://leetcode.com/problems/range-sum-query-immutable/)|Easy|
 |[📎](src/q_301_350/q0304.cc)|304|[Range Sum Query 2D - Immutable](https://leetcode.com/problems/range-sum-query-2d-immutable/)|Medium|
 |🔒|305|[Number of Islands II](https://leetcode.com/problems/number-of-islands-ii/)|Hard|
 ||306|[Additive Number](https://leetcode.com/problems/additive-number/)|Medium|
@@ -2326,6 +2326,7 @@ My daily challenge on leetcode since 2021/09/06.
 
 |Time|#|</>|Question Title|Difficulty|
 |:--|--:|:-:|:--|:--|
+|2022-04-25 18:49|303|[📎](src/q_301_350/q0303.cc)|[Range Sum Query - Immutable](https://leetcode.com/problems/range-sum-query-immutable/)|Easy|
 |2022-04-25 18:43|1603|[📎](src/q_1601_1650/q1603.cc)|[Design Parking System](https://leetcode.com/problems/design-parking-system/)|Easy|
 |2022-04-25 18:32|284|[📎](src/q_251_300/q0284.cc)|[Peeking Iterator](https://leetcode.com/problems/peeking-iterator/)|Medium|
 |2022-04-24 14:23|1396|[📎](src/q_1351_1400/q1396.cc)|[Design Underground System](https://leetcode.com/problems/design-underground-system/)|Medium|
@@ -2350,13 +2351,12 @@ My daily challenge on leetcode since 2021/09/06.
 |2022-04-15 19:38|1281|[📎](src/q_1251_1300/q1281.cc)|[Subtract the Product and Sum of Digits of an Integer](https://leetcode.com/problems/subtract-the-product-and-sum-of-digits-of-an-integer/)|Easy|
 |2022-04-15 19:30|669|[📎](src/q_651_700/q0669.cc)|[Trim a Binary Search Tree](https://leetcode.com/problems/trim-a-binary-search-tree/)|Medium|
 |2022-04-14 18:40|1491|[📎](src/q_1451_1500/q1491.cc)|[Average Salary Excluding the Minimum and Maximum Salary](https://leetcode.com/problems/average-salary-excluding-the-minimum-and-maximum-salary/)|Easy|
-|2022-04-14 18:37|1523|[📎](src/q_1501_1550/q1523.cc)|[Count Odd Numbers in an Interval Range](https://leetcode.com/problems/count-odd-numbers-in-an-interval-range/)|Easy|
 
 ## Previous Logs
 
 |Month|Submissions|Easy|Medium|Hard|
 |:--|:--|:--|:--|:--|
-|[April_2022](./assets/April_2022.md)|46|33|13|0|
+|[April_2022](./assets/April_2022.md)|47|34|13|0|
 |[March_2022](./assets/March_2022.md)|49|6|39|4|
 |[February_2022](./assets/February_2022.md)|69|15|43|11|
 |[January_2022](./assets/January_2022.md)|32|8|18|6|
