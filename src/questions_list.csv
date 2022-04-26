@@ -894,7 +894,7 @@ id,title,level,slug,paid,done
 893,Groups of Special-Equivalent Strings,2,groups-of-special-equivalent-strings,0,0
 894,All Possible Full Binary Trees,2,all-possible-full-binary-trees,0,0
 895,Maximum Frequency Stack,3,maximum-frequency-stack,0,1
-896,Monotonic Array,1,monotonic-array,0,0
+896,Monotonic Array,1,monotonic-array,0,1
 897,Increasing Order Search Tree,1,increasing-order-search-tree,0,1
 898,Bitwise ORs of Subarrays,2,bitwise-ors-of-subarrays,0,1
 899,Orderly Queue,3,orderly-queue,0,0

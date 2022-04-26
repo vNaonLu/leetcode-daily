@@ -925,7 +925,7 @@ My daily challenge on leetcode since 2021/09/06.
 ||893|[Groups of Special-Equivalent Strings](https://leetcode.com/problems/groups-of-special-equivalent-strings/)|Medium|
 ||894|[All Possible Full Binary Trees](https://leetcode.com/problems/all-possible-full-binary-trees/)|Medium|
 |[📎](src/q_851_900/q0895.cc)|895|[Maximum Frequency Stack](https://leetcode.com/problems/maximum-frequency-stack/)|Hard|
-||896|[Monotonic Array](https://leetcode.com/problems/monotonic-array/)|Easy|
+|[📎](src/q_851_900/q0896.cc)|896|[Monotonic Array](https://leetcode.com/problems/monotonic-array/)|Easy|
 |[📎](src/q_851_900/q0897.cc)|897|[Increasing Order Search Tree](https://leetcode.com/problems/increasing-order-search-tree/)|Easy|
 |[📎](src/q_851_900/q0898.cc)|898|[Bitwise ORs of Subarrays](https://leetcode.com/problems/bitwise-ors-of-subarrays/)|Medium|
 ||899|[Orderly Queue](https://leetcode.com/problems/orderly-queue/)|Hard|
@@ -2326,6 +2326,7 @@ My daily challenge on leetcode since 2021/09/06.
 
 |Time|#|</>|Question Title|Difficulty|
 |:--|--:|:-:|:--|:--|
+|2022-04-26 19:02|896|[📎](src/q_851_900/q0896.cc)|[Monotonic Array](https://leetcode.com/problems/monotonic-array/)|Easy|
 |2022-04-26 18:35|1584|[📎](src/q_1551_1600/q1584.cc)|[Min Cost to Connect All Points](https://leetcode.com/problems/min-cost-to-connect-all-points/)|Medium|
 |2022-04-25 18:49|303|[📎](src/q_301_350/q0303.cc)|[Range Sum Query - Immutable](https://leetcode.com/problems/range-sum-query-immutable/)|Easy|
 |2022-04-25 18:43|1603|[📎](src/q_1601_1650/q1603.cc)|[Design Parking System](https://leetcode.com/problems/design-parking-system/)|Easy|
@@ -2350,13 +2351,12 @@ My daily challenge on leetcode since 2021/09/06.
 |2022-04-16 10:53|1779|[📎](src/q_1751_1800/q1779.cc)|[Find Nearest Point That Has the Same X or Y Coordinate](https://leetcode.com/problems/find-nearest-point-that-has-the-same-x-or-y-coordinate/)|Easy|
 |2022-04-16 10:46|538|[📎](src/q_501_550/q0538.cc)|[Convert BST to Greater Tree](https://leetcode.com/problems/convert-bst-to-greater-tree/)|Medium|
 |2022-04-15 19:38|1281|[📎](src/q_1251_1300/q1281.cc)|[Subtract the Product and Sum of Digits of an Integer](https://leetcode.com/problems/subtract-the-product-and-sum-of-digits-of-an-integer/)|Easy|
-|2022-04-15 19:30|669|[📎](src/q_651_700/q0669.cc)|[Trim a Binary Search Tree](https://leetcode.com/problems/trim-a-binary-search-tree/)|Medium|
 
 ## Previous Logs
 
 |Month|Submissions|Easy|Medium|Hard|
 |:--|:--|:--|:--|:--|
-|[April_2022](./assets/April_2022.md)|48|34|14|0|
+|[April_2022](./assets/April_2022.md)|49|35|14|0|
 |[March_2022](./assets/March_2022.md)|49|6|39|4|
 |[February_2022](./assets/February_2022.md)|69|15|43|11|
 |[January_2022](./assets/January_2022.md)|32|8|18|6|
