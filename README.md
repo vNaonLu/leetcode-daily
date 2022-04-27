@@ -1237,7 +1237,7 @@ My daily challenge on leetcode since 2021/09/06.
 |🔒|1199|[Minimum Time to Build Blocks](https://leetcode.com/problems/minimum-time-to-build-blocks/)|Hard|
 |[📎](src/q_1151_1200/q1200.cc)|1200|[Minimum Absolute Difference](https://leetcode.com/problems/minimum-absolute-difference/)|Easy|
 ||1201|[Ugly Number III](https://leetcode.com/problems/ugly-number-iii/)|Medium|
-||1202|[Smallest String With Swaps](https://leetcode.com/problems/smallest-string-with-swaps/)|Medium|
+|[📎](src/q_1201_1250/q1202.cc)|1202|[Smallest String With Swaps](https://leetcode.com/problems/smallest-string-with-swaps/)|Medium|
 ||1203|[Sort Items by Groups Respecting Dependencies](https://leetcode.com/problems/sort-items-by-groups-respecting-dependencies/)|Hard|
 |🔒|1204|[Last Person to Fit in the Bus](https://leetcode.com/problems/last-person-to-fit-in-the-bus/)|Medium|
 |🔒|1205|[Monthly Transactions II](https://leetcode.com/problems/monthly-transactions-ii/)|Medium|
@@ -2326,6 +2326,7 @@ My daily challenge on leetcode since 2021/09/06.
 
 |Time|#|</>|Question Title|Difficulty|
 |:--|--:|:-:|:--|:--|
+|2022-04-27 18:21|1202|[📎](src/q_1201_1250/q1202.cc)|[Smallest String With Swaps](https://leetcode.com/problems/smallest-string-with-swaps/)|Medium|
 |2022-04-26 19:02|896|[📎](src/q_851_900/q0896.cc)|[Monotonic Array](https://leetcode.com/problems/monotonic-array/)|Easy|
 |2022-04-26 18:35|1584|[📎](src/q_1551_1600/q1584.cc)|[Min Cost to Connect All Points](https://leetcode.com/problems/min-cost-to-connect-all-points/)|Medium|
 |2022-04-25 18:49|303|[📎](src/q_301_350/q0303.cc)|[Range Sum Query - Immutable](https://leetcode.com/problems/range-sum-query-immutable/)|Easy|
@@ -2350,13 +2351,12 @@ My daily challenge on leetcode since 2021/09/06.
 |2022-04-16 11:12|976|[📎](src/q_951_1000/q0976.cc)|[Largest Perimeter Triangle](https://leetcode.com/problems/largest-perimeter-triangle/)|Easy|
 |2022-04-16 10:53|1779|[📎](src/q_1751_1800/q1779.cc)|[Find Nearest Point That Has the Same X or Y Coordinate](https://leetcode.com/problems/find-nearest-point-that-has-the-same-x-or-y-coordinate/)|Easy|
 |2022-04-16 10:46|538|[📎](src/q_501_550/q0538.cc)|[Convert BST to Greater Tree](https://leetcode.com/problems/convert-bst-to-greater-tree/)|Medium|
-|2022-04-15 19:38|1281|[📎](src/q_1251_1300/q1281.cc)|[Subtract the Product and Sum of Digits of an Integer](https://leetcode.com/problems/subtract-the-product-and-sum-of-digits-of-an-integer/)|Easy|
 
 ## Previous Logs
 
 |Month|Submissions|Easy|Medium|Hard|
 |:--|:--|:--|:--|:--|
-|[April_2022](./assets/April_2022.md)|49|35|14|0|
+|[April_2022](./assets/April_2022.md)|50|35|15|0|
 |[March_2022](./assets/March_2022.md)|49|6|39|4|
 |[February_2022](./assets/February_2022.md)|69|15|43|11|
 |[January_2022](./assets/January_2022.md)|32|8|18|6|

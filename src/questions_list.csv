@@ -1200,7 +1200,7 @@ id,title,level,slug,paid,done
 1199,Minimum Time to Build Blocks,3,minimum-time-to-build-blocks,1,0
 1200,Minimum Absolute Difference,1,minimum-absolute-difference,0,1
 1201,Ugly Number III,2,ugly-number-iii,0,0
-1202,Smallest String With Swaps,2,smallest-string-with-swaps,0,0
+1202,Smallest String With Swaps,2,smallest-string-with-swaps,0,1
 1203,Sort Items by Groups Respecting Dependencies,3,sort-items-by-groups-respecting-dependencies,0,0
 1204,Last Person to Fit in the Bus,2,last-person-to-fit-in-the-bus,1,0
 1205,Monthly Transactions II,2,monthly-transactions-ii,1,0
