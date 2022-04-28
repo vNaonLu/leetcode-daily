@@ -1678,7 +1678,7 @@ My daily challenge on leetcode since 2021/09/06.
 |🔒|1628|[Design an Expression Tree With Evaluate Function](https://leetcode.com/problems/design-an-expression-tree-with-evaluate-function/)|Medium|
 |[📎](src/q_1601_1650/q1629.cc)|1629|[Slowest Key](https://leetcode.com/problems/slowest-key/)|Easy|
 ||1630|[Arithmetic Subarrays](https://leetcode.com/problems/arithmetic-subarrays/)|Medium|
-||1631|[Path With Minimum Effort](https://leetcode.com/problems/path-with-minimum-effort/)|Medium|
+|[📎](src/q_1601_1650/q1631.cc)|1631|[Path With Minimum Effort](https://leetcode.com/problems/path-with-minimum-effort/)|Medium|
 ||1632|[Rank Transform of a Matrix](https://leetcode.com/problems/rank-transform-of-a-matrix/)|Hard|
 |🔒|1633|[Percentage of Users Attended a Contest](https://leetcode.com/problems/percentage-of-users-attended-a-contest/)|Easy|
 |🔒|1634|[Add Two Polynomials Represented as Linked Lists](https://leetcode.com/problems/add-two-polynomials-represented-as-linked-lists/)|Medium|
@@ -2327,6 +2327,7 @@ My daily challenge on leetcode since 2021/09/06.
 
 |Time|#|</>|Question Title|Difficulty|
 |:--|--:|:-:|:--|:--|
+|2022-04-28 18:28|1631|[📎](src/q_1601_1650/q1631.cc)|[Path With Minimum Effort](https://leetcode.com/problems/path-with-minimum-effort/)|Medium|
 |2022-04-28 18:15|150|[📎](src/q_101_150/q0150.cc)|[Evaluate Reverse Polish Notation](https://leetcode.com/problems/evaluate-reverse-polish-notation/)|Medium|
 |2022-04-27 18:40|459|[📎](src/q_451_500/q0459.cc)|[Repeated Substring Pattern](https://leetcode.com/problems/repeated-substring-pattern/)|Easy|
 |2022-04-27 18:21|1202|[📎](src/q_1201_1250/q1202.cc)|[Smallest String With Swaps](https://leetcode.com/problems/smallest-string-with-swaps/)|Medium|
@@ -2351,13 +2352,12 @@ My daily challenge on leetcode since 2021/09/06.
 |2022-04-17 12:45|1790|[📎](src/q_1751_1800/q1790.cc)|[Check if One String Swap Can Make Strings Equal](https://leetcode.com/problems/check-if-one-string-swap-can-make-strings-equal/)|Easy|
 |2022-04-17 12:42|1502|[📎](src/q_1501_1550/q1502.cc)|[Can Make Arithmetic Progression From Sequence](https://leetcode.com/problems/can-make-arithmetic-progression-from-sequence/)|Easy|
 |2022-04-17 12:10|897|[📎](src/q_851_900/q0897.cc)|[Increasing Order Search Tree](https://leetcode.com/problems/increasing-order-search-tree/)|Easy|
-|2022-04-16 11:12|976|[📎](src/q_951_1000/q0976.cc)|[Largest Perimeter Triangle](https://leetcode.com/problems/largest-perimeter-triangle/)|Easy|
 
 ## Previous Logs
 
 |Month|Submissions|Easy|Medium|Hard|
 |:--|:--|:--|:--|:--|
-|[April_2022](./assets/April_2022.md)|52|36|16|0|
+|[April_2022](./assets/April_2022.md)|53|36|17|0|
 |[March_2022](./assets/March_2022.md)|49|6|39|4|
 |[February_2022](./assets/February_2022.md)|69|15|43|11|
 |[January_2022](./assets/January_2022.md)|32|8|18|6|
