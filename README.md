@@ -161,7 +161,7 @@ My daily challenge on leetcode since 2021/09/06.
 |[📎](src/q_101_150/q0147.cc)|147|[Insertion Sort List](https://leetcode.com/problems/insertion-sort-list/)|Medium|
 |[📎](src/q_101_150/q0148.cc)|148|[Sort List](https://leetcode.com/problems/sort-list/)|Medium|
 |[📎](src/q_101_150/q0149.cc)|149|[Max Points on a Line](https://leetcode.com/problems/max-points-on-a-line/)|Hard|
-||150|[Evaluate Reverse Polish Notation](https://leetcode.com/problems/evaluate-reverse-polish-notation/)|Medium|
+|[📎](src/q_101_150/q0150.cc)|150|[Evaluate Reverse Polish Notation](https://leetcode.com/problems/evaluate-reverse-polish-notation/)|Medium|
 |[📎](src/q_151_200/q0151.cc)|151|[Reverse Words in a String](https://leetcode.com/problems/reverse-words-in-a-string/)|Medium|
 |[📎](src/q_151_200/q0152.cc)|152|[Maximum Product Subarray](https://leetcode.com/problems/maximum-product-subarray/)|Medium|
 |[📎](src/q_151_200/q0153.cc)|153|[Find Minimum in Rotated Sorted Array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/)|Medium|
@@ -2312,13 +2312,14 @@ My daily challenge on leetcode since 2021/09/06.
 ||2250|[Count Number of Rectangles Containing Each Point](https://leetcode.com/problems/count-number-of-rectangles-containing-each-point/)|Medium|
 </details>
 <details>
-  <summary>### 2251 ~ 2253</summary>
+  <summary>### 2251 ~ 2254</summary>
 
 |</>|#|Solution Title|Difficulty|
 |:-:|--:|:--|:--|
 ||2251|[Number of Flowers in Full Bloom](https://leetcode.com/problems/number-of-flowers-in-full-bloom/)|Hard|
 |🔒|2252|[Dynamic Pivoting of a Table](https://leetcode.com/problems/dynamic-pivoting-of-a-table/)|Hard|
 |🔒|2253|[Dynamic Unpivoting of a Table](https://leetcode.com/problems/dynamic-unpivoting-of-a-table/)|Hard|
+|🔒|2254|[Design Video Sharing Platform](https://leetcode.com/problems/design-video-sharing-platform/)|Hard|
 </details>
 
 ---
@@ -2326,6 +2327,7 @@ My daily challenge on leetcode since 2021/09/06.
 
 |Time|#|</>|Question Title|Difficulty|
 |:--|--:|:-:|:--|:--|
+|2022-04-28 18:15|150|[📎](src/q_101_150/q0150.cc)|[Evaluate Reverse Polish Notation](https://leetcode.com/problems/evaluate-reverse-polish-notation/)|Medium|
 |2022-04-27 18:40|459|[📎](src/q_451_500/q0459.cc)|[Repeated Substring Pattern](https://leetcode.com/problems/repeated-substring-pattern/)|Easy|
 |2022-04-27 18:21|1202|[📎](src/q_1201_1250/q1202.cc)|[Smallest String With Swaps](https://leetcode.com/problems/smallest-string-with-swaps/)|Medium|
 |2022-04-26 19:02|896|[📎](src/q_851_900/q0896.cc)|[Monotonic Array](https://leetcode.com/problems/monotonic-array/)|Easy|
@@ -2350,13 +2352,12 @@ My daily challenge on leetcode since 2021/09/06.
 |2022-04-17 12:42|1502|[📎](src/q_1501_1550/q1502.cc)|[Can Make Arithmetic Progression From Sequence](https://leetcode.com/problems/can-make-arithmetic-progression-from-sequence/)|Easy|
 |2022-04-17 12:10|897|[📎](src/q_851_900/q0897.cc)|[Increasing Order Search Tree](https://leetcode.com/problems/increasing-order-search-tree/)|Easy|
 |2022-04-16 11:12|976|[📎](src/q_951_1000/q0976.cc)|[Largest Perimeter Triangle](https://leetcode.com/problems/largest-perimeter-triangle/)|Easy|
-|2022-04-16 10:53|1779|[📎](src/q_1751_1800/q1779.cc)|[Find Nearest Point That Has the Same X or Y Coordinate](https://leetcode.com/problems/find-nearest-point-that-has-the-same-x-or-y-coordinate/)|Easy|
 
 ## Previous Logs
 
 |Month|Submissions|Easy|Medium|Hard|
 |:--|:--|:--|:--|:--|
-|[April_2022](./assets/April_2022.md)|51|36|15|0|
+|[April_2022](./assets/April_2022.md)|52|36|16|0|
 |[March_2022](./assets/March_2022.md)|49|6|39|4|
 |[February_2022](./assets/February_2022.md)|69|15|43|11|
 |[January_2022](./assets/January_2022.md)|32|8|18|6|
