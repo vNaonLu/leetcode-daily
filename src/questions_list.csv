@@ -1365,7 +1365,7 @@ id,title,level,slug,paid,done
 1364,Number of Trusted Contacts of a Customer,2,number-of-trusted-contacts-of-a-customer,1,0
 1365,How Many Numbers Are Smaller Than the Current Number,1,how-many-numbers-are-smaller-than-the-current-number,0,0
 1366,Rank Teams by Votes,2,rank-teams-by-votes,0,0
-1367,Linked List in Binary Tree,2,linked-list-in-binary-tree,0,0
+1367,Linked List in Binary Tree,2,linked-list-in-binary-tree,0,1
 1368,Minimum Cost to Make at Least One Valid Path in a Grid,3,minimum-cost-to-make-at-least-one-valid-path-in-a-grid,0,0
 1369,Get the Second Most Recent Activity,3,get-the-second-most-recent-activity,1,0
 1370,Increasing Decreasing String,1,increasing-decreasing-string,0,0

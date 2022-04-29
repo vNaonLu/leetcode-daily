@@ -1408,7 +1408,7 @@ My daily challenge on leetcode since 2021/09/06.
 |🔒|1364|[Number of Trusted Contacts of a Customer](https://leetcode.com/problems/number-of-trusted-contacts-of-a-customer/)|Medium|
 ||1365|[How Many Numbers Are Smaller Than the Current Number](https://leetcode.com/problems/how-many-numbers-are-smaller-than-the-current-number/)|Easy|
 ||1366|[Rank Teams by Votes](https://leetcode.com/problems/rank-teams-by-votes/)|Medium|
-||1367|[Linked List in Binary Tree](https://leetcode.com/problems/linked-list-in-binary-tree/)|Medium|
+|[📎](src/q_1351_1400/q1367.cc)|1367|[Linked List in Binary Tree](https://leetcode.com/problems/linked-list-in-binary-tree/)|Medium|
 ||1368|[Minimum Cost to Make at Least One Valid Path in a Grid](https://leetcode.com/problems/minimum-cost-to-make-at-least-one-valid-path-in-a-grid/)|Hard|
 |🔒|1369|[Get the Second Most Recent Activity](https://leetcode.com/problems/get-the-second-most-recent-activity/)|Hard|
 ||1370|[Increasing Decreasing String](https://leetcode.com/problems/increasing-decreasing-string/)|Easy|
@@ -2327,6 +2327,7 @@ My daily challenge on leetcode since 2021/09/06.
 
 |Time|#|</>|Question Title|Difficulty|
 |:--|--:|:-:|:--|:--|
+|2022-04-29 15:24|1367|[📎](src/q_1351_1400/q1367.cc)|[Linked List in Binary Tree](https://leetcode.com/problems/linked-list-in-binary-tree/)|Medium|
 |2022-04-28 18:28|1631|[📎](src/q_1601_1650/q1631.cc)|[Path With Minimum Effort](https://leetcode.com/problems/path-with-minimum-effort/)|Medium|
 |2022-04-28 18:15|150|[📎](src/q_101_150/q0150.cc)|[Evaluate Reverse Polish Notation](https://leetcode.com/problems/evaluate-reverse-polish-notation/)|Medium|
 |2022-04-27 18:40|459|[📎](src/q_451_500/q0459.cc)|[Repeated Substring Pattern](https://leetcode.com/problems/repeated-substring-pattern/)|Easy|
@@ -2351,13 +2352,12 @@ My daily challenge on leetcode since 2021/09/06.
 |2022-04-18 18:14|589|[📎](src/q_551_600/q0589.cc)|[N-ary Tree Preorder Traversal](https://leetcode.com/problems/n-ary-tree-preorder-traversal/)|Easy|
 |2022-04-17 12:45|1790|[📎](src/q_1751_1800/q1790.cc)|[Check if One String Swap Can Make Strings Equal](https://leetcode.com/problems/check-if-one-string-swap-can-make-strings-equal/)|Easy|
 |2022-04-17 12:42|1502|[📎](src/q_1501_1550/q1502.cc)|[Can Make Arithmetic Progression From Sequence](https://leetcode.com/problems/can-make-arithmetic-progression-from-sequence/)|Easy|
-|2022-04-17 12:10|897|[📎](src/q_851_900/q0897.cc)|[Increasing Order Search Tree](https://leetcode.com/problems/increasing-order-search-tree/)|Easy|
 
 ## Previous Logs
 
 |Month|Submissions|Easy|Medium|Hard|
 |:--|:--|:--|:--|:--|
-|[April_2022](./assets/April_2022.md)|53|36|17|0|
+|[April_2022](./assets/April_2022.md)|54|36|18|0|
 |[March_2022](./assets/March_2022.md)|49|6|39|4|
 |[February_2022](./assets/February_2022.md)|69|15|43|11|
 |[January_2022](./assets/January_2022.md)|32|8|18|6|
