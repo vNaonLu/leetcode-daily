@@ -148,7 +148,7 @@ id,title,level,slug,paid,done
 147,Insertion Sort List,2,insertion-sort-list,0,1
 148,Sort List,2,sort-list,0,1
 149,Max Points on a Line,3,max-points-on-a-line,0,1
-150,Evaluate Reverse Polish Notation,2,evaluate-reverse-polish-notation,0,0
+150,Evaluate Reverse Polish Notation,2,evaluate-reverse-polish-notation,0,1
 151,Reverse Words in a String,2,reverse-words-in-a-string,0,1
 152,Maximum Product Subarray,2,maximum-product-subarray,0,1
 153,Find Minimum in Rotated Sorted Array,2,find-minimum-in-rotated-sorted-array,0,1
@@ -282,7 +282,7 @@ id,title,level,slug,paid,done
 281,Zigzag Iterator,2,zigzag-iterator,1,0
 282,Expression Add Operators,3,expression-add-operators,0,1
 283,Move Zeroes,1,move-zeroes,0,1
-284,Peeking Iterator,2,peeking-iterator,0,0
+284,Peeking Iterator,2,peeking-iterator,0,1
 285,Inorder Successor in BST,2,inorder-successor-in-bst,1,0
 286,Walls and Gates,2,walls-and-gates,1,0
 287,Find the Duplicate Number,2,find-the-duplicate-number,0,1
@@ -301,7 +301,7 @@ id,title,level,slug,paid,done
 300,Longest Increasing Subsequence,2,longest-increasing-subsequence,0,1
 301,Remove Invalid Parentheses,3,remove-invalid-parentheses,0,0
 302,Smallest Rectangle Enclosing Black Pixels,3,smallest-rectangle-enclosing-black-pixels,1,0
-303,Range Sum Query - Immutable,1,range-sum-query-immutable,0,0
+303,Range Sum Query - Immutable,1,range-sum-query-immutable,0,1
 304,Range Sum Query 2D - Immutable,2,range-sum-query-2d-immutable,0,1
 305,Number of Islands II,3,number-of-islands-ii,1,0
 306,Additive Number,2,additive-number,0,0
@@ -397,7 +397,7 @@ id,title,level,slug,paid,done
 396,Rotate Function,2,rotate-function,0,0
 397,Integer Replacement,2,integer-replacement,0,1
 398,Random Pick Index,2,random-pick-index,0,0
-399,Evaluate Division,2,evaluate-division,0,0
+399,Evaluate Division,2,evaluate-division,0,1
 400,Nth Digit,2,nth-digit,0,0
 401,Binary Watch,1,binary-watch,0,0
 402,Remove K Digits,2,remove-k-digits,0,1
@@ -457,7 +457,7 @@ id,title,level,slug,paid,done
 456,132 Pattern,2,132-pattern,0,0
 457,Circular Array Loop,2,circular-array-loop,0,0
 458,Poor Pigs,3,poor-pigs,0,0
-459,Repeated Substring Pattern,1,repeated-substring-pattern,0,0
+459,Repeated Substring Pattern,1,repeated-substring-pattern,0,1
 460,LFU Cache,3,lfu-cache,0,0
 461,Hamming Distance,1,hamming-distance,0,1
 462,Minimum Moves to Equal Array Elements II,2,minimum-moves-to-equal-array-elements-ii,0,0
@@ -894,7 +894,7 @@ id,title,level,slug,paid,done
 893,Groups of Special-Equivalent Strings,2,groups-of-special-equivalent-strings,0,0
 894,All Possible Full Binary Trees,2,all-possible-full-binary-trees,0,0
 895,Maximum Frequency Stack,3,maximum-frequency-stack,0,1
-896,Monotonic Array,1,monotonic-array,0,0
+896,Monotonic Array,1,monotonic-array,0,1
 897,Increasing Order Search Tree,1,increasing-order-search-tree,0,1
 898,Bitwise ORs of Subarrays,2,bitwise-ors-of-subarrays,0,1
 899,Orderly Queue,3,orderly-queue,0,0
@@ -987,7 +987,7 @@ id,title,level,slug,paid,done
 986,Interval List Intersections,2,interval-list-intersections,0,1
 987,Vertical Order Traversal of a Binary Tree,3,vertical-order-traversal-of-a-binary-tree,0,0
 988,Smallest String Starting From Leaf,2,smallest-string-starting-from-leaf,0,0
-989,Add to Array-Form of Integer,1,add-to-array-form-of-integer,0,0
+989,Add to Array-Form of Integer,1,add-to-array-form-of-integer,0,1
 990,Satisfiability of Equality Equations,2,satisfiability-of-equality-equations,0,0
 991,Broken Calculator,2,broken-calculator,0,1
 992,Subarrays with K Different Integers,3,subarrays-with-k-different-integers,0,0
@@ -1200,7 +1200,7 @@ id,title,level,slug,paid,done
 1199,Minimum Time to Build Blocks,3,minimum-time-to-build-blocks,1,0
 1200,Minimum Absolute Difference,1,minimum-absolute-difference,0,1
 1201,Ugly Number III,2,ugly-number-iii,0,0
-1202,Smallest String With Swaps,2,smallest-string-with-swaps,0,0
+1202,Smallest String With Swaps,2,smallest-string-with-swaps,0,1
 1203,Sort Items by Groups Respecting Dependencies,3,sort-items-by-groups-respecting-dependencies,0,0
 1204,Last Person to Fit in the Bus,2,last-person-to-fit-in-the-bus,1,0
 1205,Monthly Transactions II,2,monthly-transactions-ii,1,0
@@ -1365,7 +1365,7 @@ id,title,level,slug,paid,done
 1364,Number of Trusted Contacts of a Customer,2,number-of-trusted-contacts-of-a-customer,1,0
 1365,How Many Numbers Are Smaller Than the Current Number,1,how-many-numbers-are-smaller-than-the-current-number,0,0
 1366,Rank Teams by Votes,2,rank-teams-by-votes,0,0
-1367,Linked List in Binary Tree,2,linked-list-in-binary-tree,0,0
+1367,Linked List in Binary Tree,2,linked-list-in-binary-tree,0,1
 1368,Minimum Cost to Make at Least One Valid Path in a Grid,3,minimum-cost-to-make-at-least-one-valid-path-in-a-grid,0,0
 1369,Get the Second Most Recent Activity,3,get-the-second-most-recent-activity,1,0
 1370,Increasing Decreasing String,1,increasing-decreasing-string,0,0
@@ -1394,7 +1394,7 @@ id,title,level,slug,paid,done
 1393,Capital Gain/Loss,2,capital-gainloss,0,0
 1394,Find Lucky Integer in an Array,1,find-lucky-integer-in-an-array,0,0
 1395,Count Number of Teams,2,count-number-of-teams,0,0
-1396,Design Underground System,2,design-underground-system,0,0
+1396,Design Underground System,2,design-underground-system,0,1
 1397,Find All Good Strings,3,find-all-good-strings,0,0
 1398,Customers Who Bought Products A and B but Not C,2,customers-who-bought-products-a-and-b-but-not-c,1,0
 1399,Count Largest Group,1,count-largest-group,0,0
@@ -1582,7 +1582,7 @@ id,title,level,slug,paid,done
 1581,Customer Who Visited but Did Not Make Any Transactions,1,customer-who-visited-but-did-not-make-any-transactions,0,0
 1582,Special Positions in a Binary Matrix,1,special-positions-in-a-binary-matrix,0,1
 1583,Count Unhappy Friends,2,count-unhappy-friends,0,0
-1584,Min Cost to Connect All Points,2,min-cost-to-connect-all-points,0,0
+1584,Min Cost to Connect All Points,2,min-cost-to-connect-all-points,0,1
 1585,Check If String Is Transformable With Substring Sort Operations,3,check-if-string-is-transformable-with-substring-sort-operations,0,0
 1586,Binary Search Tree Iterator II,2,binary-search-tree-iterator-ii,1,0
 1587,Bank Account Summary II,1,bank-account-summary-ii,0,0
@@ -1601,7 +1601,7 @@ id,title,level,slug,paid,done
 1600,Throne Inheritance,2,throne-inheritance,0,0
 1601,Maximum Number of Achievable Transfer Requests,3,maximum-number-of-achievable-transfer-requests,0,0
 1602,Find Nearest Right Node in Binary Tree,2,find-nearest-right-node-in-binary-tree,1,0
-1603,Design Parking System,1,design-parking-system,0,0
+1603,Design Parking System,1,design-parking-system,0,1
 1604,Alert Using Same Key-Card Three or More Times in a One Hour Period,2,alert-using-same-key-card-three-or-more-times-in-a-one-hour-period,0,0
 1605,Find Valid Matrix Given Row and Column Sums,2,find-valid-matrix-given-row-and-column-sums,0,0
 1606,Find Servers That Handled Most Number of Requests,3,find-servers-that-handled-most-number-of-requests,0,0
@@ -1629,7 +1629,7 @@ id,title,level,slug,paid,done
 1628,Design an Expression Tree With Evaluate Function,2,design-an-expression-tree-with-evaluate-function,1,0
 1629,Slowest Key,1,slowest-key,0,1
 1630,Arithmetic Subarrays,2,arithmetic-subarrays,0,0
-1631,Path With Minimum Effort,2,path-with-minimum-effort,0,0
+1631,Path With Minimum Effort,2,path-with-minimum-effort,0,1
 1632,Rank Transform of a Matrix,3,rank-transform-of-a-matrix,0,0
 1633,Percentage of Users Attended a Contest,1,percentage-of-users-attended-a-contest,1,0
 1634,Add Two Polynomials Represented as Linked Lists,2,add-two-polynomials-represented-as-linked-lists,1,0
@@ -2246,3 +2246,10 @@ id,title,level,slug,paid,done
 2245,Maximum Trailing Zeros in a Cornered Path,2,maximum-trailing-zeros-in-a-cornered-path,0,0
 2246,Longest Path With Different Adjacent Characters,3,longest-path-with-different-adjacent-characters,0,0
 2247,Maximum Cost of Trip With K Highways,3,maximum-cost-of-trip-with-k-highways,1,0
+2248,Intersection of Multiple Arrays,1,intersection-of-multiple-arrays,0,0
+2249,Count Lattice Points Inside a Circle,2,count-lattice-points-inside-a-circle,0,0
+2250,Count Number of Rectangles Containing Each Point,2,count-number-of-rectangles-containing-each-point,0,0
+2251,Number of Flowers in Full Bloom,3,number-of-flowers-in-full-bloom,0,0
+2252,Dynamic Pivoting of a Table,3,dynamic-pivoting-of-a-table,1,0
+2253,Dynamic Unpivoting of a Table,3,dynamic-unpivoting-of-a-table,1,0
+2254,Design Video Sharing Platform,3,design-video-sharing-platform,1,0
