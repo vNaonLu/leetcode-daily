@@ -987,7 +987,7 @@ id,title,level,slug,paid,done
 986,Interval List Intersections,2,interval-list-intersections,0,1
 987,Vertical Order Traversal of a Binary Tree,3,vertical-order-traversal-of-a-binary-tree,0,0
 988,Smallest String Starting From Leaf,2,smallest-string-starting-from-leaf,0,0
-989,Add to Array-Form of Integer,1,add-to-array-form-of-integer,0,0
+989,Add to Array-Form of Integer,1,add-to-array-form-of-integer,0,1
 990,Satisfiability of Equality Equations,2,satisfiability-of-equality-equations,0,0
 991,Broken Calculator,2,broken-calculator,0,1
 992,Subarrays with K Different Integers,3,subarrays-with-k-different-integers,0,0

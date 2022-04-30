@@ -2,6 +2,7 @@
 
 ||#|</>|Question Title|Difficulty|
 |:--|--:|:-:|:--|:--|
+|Day 30|989|[📎](../src/q_951_1000/q0989.cc)|[Add to Array-Form of Integer](https://leetcode.com/problems/add-to-array-form-of-integer/)|Easy|
 |Day 29|1367|[📎](../src/q_1351_1400/q1367.cc)|[Linked List in Binary Tree](https://leetcode.com/problems/linked-list-in-binary-tree/)|Medium|
 |Day 28|150<br>1631|[📎](../src/q_101_150/q0150.cc)<br>[📎](../src/q_1601_1650/q1631.cc)|[Evaluate Reverse Polish Notation](https://leetcode.com/problems/evaluate-reverse-polish-notation/)<br>[Path With Minimum Effort](https://leetcode.com/problems/path-with-minimum-effort/)|Medium<br>Medium|
 |Day 27|459<br>1202|[📎](../src/q_451_500/q0459.cc)<br>[📎](../src/q_1201_1250/q1202.cc)|[Repeated Substring Pattern](https://leetcode.com/problems/repeated-substring-pattern/)<br>[Smallest String With Swaps](https://leetcode.com/problems/smallest-string-with-swaps/)|Easy<br>Medium|

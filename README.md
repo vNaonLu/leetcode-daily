@@ -1018,7 +1018,7 @@ My daily challenge on leetcode since 2021/09/06.
 |[📎](src/q_951_1000/q0986.cc)|986|[Interval List Intersections](https://leetcode.com/problems/interval-list-intersections/)|Medium|
 ||987|[Vertical Order Traversal of a Binary Tree](https://leetcode.com/problems/vertical-order-traversal-of-a-binary-tree/)|Hard|
 ||988|[Smallest String Starting From Leaf](https://leetcode.com/problems/smallest-string-starting-from-leaf/)|Medium|
-||989|[Add to Array-Form of Integer](https://leetcode.com/problems/add-to-array-form-of-integer/)|Easy|
+|[📎](src/q_951_1000/q0989.cc)|989|[Add to Array-Form of Integer](https://leetcode.com/problems/add-to-array-form-of-integer/)|Easy|
 ||990|[Satisfiability of Equality Equations](https://leetcode.com/problems/satisfiability-of-equality-equations/)|Medium|
 |[📎](src/q_951_1000/q0991.cc)|991|[Broken Calculator](https://leetcode.com/problems/broken-calculator/)|Medium|
 ||992|[Subarrays with K Different Integers](https://leetcode.com/problems/subarrays-with-k-different-integers/)|Hard|
@@ -2327,6 +2327,7 @@ My daily challenge on leetcode since 2021/09/06.
 
 |Time|#|</>|Question Title|Difficulty|
 |:--|--:|:-:|:--|:--|
+|2022-04-30 10:30|989|[📎](src/q_951_1000/q0989.cc)|[Add to Array-Form of Integer](https://leetcode.com/problems/add-to-array-form-of-integer/)|Easy|
 |2022-04-29 15:24|1367|[📎](src/q_1351_1400/q1367.cc)|[Linked List in Binary Tree](https://leetcode.com/problems/linked-list-in-binary-tree/)|Medium|
 |2022-04-28 18:28|1631|[📎](src/q_1601_1650/q1631.cc)|[Path With Minimum Effort](https://leetcode.com/problems/path-with-minimum-effort/)|Medium|
 |2022-04-28 18:15|150|[📎](src/q_101_150/q0150.cc)|[Evaluate Reverse Polish Notation](https://leetcode.com/problems/evaluate-reverse-polish-notation/)|Medium|
@@ -2351,13 +2352,12 @@ My daily challenge on leetcode since 2021/09/06.
 |2022-04-18 18:21|1232|[📎](src/q_1201_1250/q1232.cc)|[Check If It Is a Straight Line](https://leetcode.com/problems/check-if-it-is-a-straight-line/)|Easy|
 |2022-04-18 18:14|589|[📎](src/q_551_600/q0589.cc)|[N-ary Tree Preorder Traversal](https://leetcode.com/problems/n-ary-tree-preorder-traversal/)|Easy|
 |2022-04-17 12:45|1790|[📎](src/q_1751_1800/q1790.cc)|[Check if One String Swap Can Make Strings Equal](https://leetcode.com/problems/check-if-one-string-swap-can-make-strings-equal/)|Easy|
-|2022-04-17 12:42|1502|[📎](src/q_1501_1550/q1502.cc)|[Can Make Arithmetic Progression From Sequence](https://leetcode.com/problems/can-make-arithmetic-progression-from-sequence/)|Easy|
 
 ## Previous Logs
 
 |Month|Submissions|Easy|Medium|Hard|
 |:--|:--|:--|:--|:--|
-|[April_2022](./assets/April_2022.md)|54|36|18|0|
+|[April_2022](./assets/April_2022.md)|55|37|18|0|
 |[March_2022](./assets/March_2022.md)|49|6|39|4|
 |[February_2022](./assets/February_2022.md)|69|15|43|11|
 |[January_2022](./assets/January_2022.md)|32|8|18|6|
