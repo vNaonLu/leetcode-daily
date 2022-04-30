@@ -397,7 +397,7 @@ id,title,level,slug,paid,done
 396,Rotate Function,2,rotate-function,0,0
 397,Integer Replacement,2,integer-replacement,0,1
 398,Random Pick Index,2,random-pick-index,0,0
-399,Evaluate Division,2,evaluate-division,0,0
+399,Evaluate Division,2,evaluate-division,0,1
 400,Nth Digit,2,nth-digit,0,0
 401,Binary Watch,1,binary-watch,0,0
 402,Remove K Digits,2,remove-k-digits,0,1
