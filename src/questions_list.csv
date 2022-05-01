@@ -2004,7 +2004,7 @@ id,title,level,slug,paid,done
 2003,Smallest Missing Genetic Value in Each Subtree,3,smallest-missing-genetic-value-in-each-subtree,0,0
 2004,The Number of Seniors and Juniors to Join the Company,3,the-number-of-seniors-and-juniors-to-join-the-company,1,0
 2005,Subtree Removal Game with Fibonacci Tree,3,subtree-removal-game-with-fibonacci-tree,1,0
-2006,Count Number of Pairs With Absolute Difference K,1,count-number-of-pairs-with-absolute-difference-k,0,0
+2006,Count Number of Pairs With Absolute Difference K,1,count-number-of-pairs-with-absolute-difference-k,0,1
 2007,Find Original Array From Doubled Array,2,find-original-array-from-doubled-array,0,0
 2008,Maximum Earnings From Taxi,2,maximum-earnings-from-taxi,0,0
 2009,Minimum Number of Operations to Make Array Continuous,3,minimum-number-of-operations-to-make-array-continuous,0,0
@@ -2253,3 +2253,7 @@ id,title,level,slug,paid,done
 2252,Dynamic Pivoting of a Table,3,dynamic-pivoting-of-a-table,1,0
 2253,Dynamic Unpivoting of a Table,3,dynamic-unpivoting-of-a-table,1,0
 2254,Design Video Sharing Platform,3,design-video-sharing-platform,1,0
+2255,Count Prefixes of a Given String,1,count-prefixes-of-a-given-string,0,0
+2256,Minimum Average Difference,2,minimum-average-difference,0,0
+2257,Count Unguarded Cells in the Grid,2,count-unguarded-cells-in-the-grid,0,0
+2258,Escape the Spreading Fire,3,escape-the-spreading-fire,0,0
