@@ -1884,7 +1884,7 @@ id,title,level,slug,paid,done
 1883,Minimum Skips to Arrive at Meeting On Time,3,minimum-skips-to-arrive-at-meeting-on-time,0,0
 1884,Egg Drop With 2 Eggs and N Floors,2,egg-drop-with-2-eggs-and-n-floors,0,0
 1885,Count Pairs in Two Arrays,2,count-pairs-in-two-arrays,1,0
-1886,Determine Whether Matrix Can Be Obtained By Rotation,1,determine-whether-matrix-can-be-obtained-by-rotation,0,0
+1886,Determine Whether Matrix Can Be Obtained By Rotation,1,determine-whether-matrix-can-be-obtained-by-rotation,0,1
 1887,Reduction Operations to Make the Array Elements Equal,2,reduction-operations-to-make-the-array-elements-equal,0,1
 1888,Minimum Number of Flips to Make the Binary String Alternating,2,minimum-number-of-flips-to-make-the-binary-string-alternating,0,0
 1889,Minimum Space Wasted From Packaging,3,minimum-space-wasted-from-packaging,0,0

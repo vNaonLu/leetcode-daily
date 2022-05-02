@@ -1939,7 +1939,7 @@ My daily challenge on leetcode since 2021/09/06.
 ||1883|[Minimum Skips to Arrive at Meeting On Time](https://leetcode.com/problems/minimum-skips-to-arrive-at-meeting-on-time/)|Hard|
 ||1884|[Egg Drop With 2 Eggs and N Floors](https://leetcode.com/problems/egg-drop-with-2-eggs-and-n-floors/)|Medium|
 |🔒|1885|[Count Pairs in Two Arrays](https://leetcode.com/problems/count-pairs-in-two-arrays/)|Medium|
-||1886|[Determine Whether Matrix Can Be Obtained By Rotation](https://leetcode.com/problems/determine-whether-matrix-can-be-obtained-by-rotation/)|Easy|
+|[📎](src/q_1851_1900/q1886.cc)|1886|[Determine Whether Matrix Can Be Obtained By Rotation](https://leetcode.com/problems/determine-whether-matrix-can-be-obtained-by-rotation/)|Easy|
 |[📎](src/q_1851_1900/q1887.cc)|1887|[Reduction Operations to Make the Array Elements Equal](https://leetcode.com/problems/reduction-operations-to-make-the-array-elements-equal/)|Medium|
 ||1888|[Minimum Number of Flips to Make the Binary String Alternating](https://leetcode.com/problems/minimum-number-of-flips-to-make-the-binary-string-alternating/)|Medium|
 ||1889|[Minimum Space Wasted From Packaging](https://leetcode.com/problems/minimum-space-wasted-from-packaging/)|Hard|
@@ -2335,6 +2335,7 @@ My daily challenge on leetcode since 2021/09/06.
 
 |Time|#|</>|Question Title|Difficulty|
 |:--|--:|:-:|:--|:--|
+|2022-05-02 13:31|1886|[📎](src/q_1851_1900/q1886.cc)|[Determine Whether Matrix Can Be Obtained By Rotation](https://leetcode.com/problems/determine-whether-matrix-can-be-obtained-by-rotation/)|Easy|
 |2022-05-02 13:17|905|[📎](src/q_901_950/q0905.cc)|[Sort Array By Parity](https://leetcode.com/problems/sort-array-by-parity/)|Easy|
 |2022-05-01 11:21|2006|[📎](src/q_2001_2050/q2006.cc)|[Count Number of Pairs With Absolute Difference K](https://leetcode.com/problems/count-number-of-pairs-with-absolute-difference-k/)|Easy|
 |2022-04-30 10:39|399|[📎](src/q_351_400/q0399.cc)|[Evaluate Division](https://leetcode.com/problems/evaluate-division/)|Medium|
@@ -2359,13 +2360,12 @@ My daily challenge on leetcode since 2021/09/06.
 |2022-04-21 08:32|705|[📎](src/q_701_750/q0705.cc)|[Design HashSet](https://leetcode.com/problems/design-hashset/)|Easy|
 |2022-04-20 18:07|1572|[📎](src/q_1551_1600/q1572.cc)|[Matrix Diagonal Sum](https://leetcode.com/problems/matrix-diagonal-sum/)|Easy|
 |2022-04-19 11:57|1588|[📎](src/q_1551_1600/q1588.cc)|[Sum of All Odd Length Subarrays](https://leetcode.com/problems/sum-of-all-odd-length-subarrays/)|Easy|
-|2022-04-19 11:44|99|[📎](src/q_51_100/q0099.cc)|[Recover Binary Search Tree](https://leetcode.com/problems/recover-binary-search-tree/)|Medium|
 
 ## Previous Logs
 
 |Month|Submissions|Easy|Medium|Hard|
 |:--|:--|:--|:--|:--|
-|[May_2022](./assets/May_2022.md)|2|2|0|0|
+|[May_2022](./assets/May_2022.md)|3|3|0|0|
 |[April_2022](./assets/April_2022.md)|56|37|19|0|
 |[March_2022](./assets/March_2022.md)|49|6|39|4|
 |[February_2022](./assets/February_2022.md)|69|15|43|11|
