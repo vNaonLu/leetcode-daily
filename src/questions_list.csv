@@ -903,7 +903,7 @@ id,title,level,slug,paid,done
 902,Numbers At Most N Given Digit Set,3,numbers-at-most-n-given-digit-set,0,1
 903,Valid Permutations for DI Sequence,3,valid-permutations-for-di-sequence,0,0
 904,Fruit Into Baskets,2,fruit-into-baskets,0,0
-905,Sort Array By Parity,1,sort-array-by-parity,0,0
+905,Sort Array By Parity,1,sort-array-by-parity,0,1
 906,Super Palindromes,3,super-palindromes,0,0
 907,Sum of Subarray Minimums,2,sum-of-subarray-minimums,0,1
 908,Smallest Range I,1,smallest-range-i,0,0
@@ -2257,3 +2257,7 @@ id,title,level,slug,paid,done
 2256,Minimum Average Difference,2,minimum-average-difference,0,0
 2257,Count Unguarded Cells in the Grid,2,count-unguarded-cells-in-the-grid,0,0
 2258,Escape the Spreading Fire,3,escape-the-spreading-fire,0,0
+2259,Remove Digit From Number to Maximize Result,1,remove-digit-from-number-to-maximize-result,0,0
+2260,Minimum Consecutive Cards to Pick Up,2,minimum-consecutive-cards-to-pick-up,0,0
+2261,K Divisible Elements Subarrays,2,k-divisible-elements-subarrays,0,0
+2262,Total Appeal of A String,3,total-appeal-of-a-string,0,0
