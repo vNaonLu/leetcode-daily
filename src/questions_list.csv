@@ -579,7 +579,7 @@ id,title,level,slug,paid,done
 578,Get Highest Answer Rate Question,2,get-highest-answer-rate-question,1,0
 579,Find Cumulative Salary of an Employee,3,find-cumulative-salary-of-an-employee,1,0
 580,Count Student Number in Departments,2,count-student-number-in-departments,1,0
-581,Shortest Unsorted Continuous Subarray,2,shortest-unsorted-continuous-subarray,0,0
+581,Shortest Unsorted Continuous Subarray,2,shortest-unsorted-continuous-subarray,0,1
 582,Kill Process,2,kill-process,1,0
 583,Delete Operation for Two Strings,2,delete-operation-for-two-strings,0,1
 584,Find Customer Referee,1,find-customer-referee,0,0
@@ -1677,7 +1677,7 @@ id,title,level,slug,paid,done
 1676,Lowest Common Ancestor of a Binary Tree IV,2,lowest-common-ancestor-of-a-binary-tree-iv,1,0
 1677,Product's Worth Over Invoices,1,products-worth-over-invoices,1,0
 1678,Goal Parser Interpretation,1,goal-parser-interpretation,0,1
-1679,Max Number of K-Sum Pairs,2,max-number-of-k-sum-pairs,0,0
+1679,Max Number of K-Sum Pairs,2,max-number-of-k-sum-pairs,0,1
 1680,Concatenation of Consecutive Binary Numbers,2,concatenation-of-consecutive-binary-numbers,0,1
 1681,Minimum Incompatibility,3,minimum-incompatibility,0,0
 1682,Longest Palindromic Subsequence II,2,longest-palindromic-subsequence-ii,1,0
