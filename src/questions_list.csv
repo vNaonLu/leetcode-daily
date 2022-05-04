@@ -1628,7 +1628,7 @@ id,title,level,slug,paid,done
 1627,Graph Connectivity With Threshold,3,graph-connectivity-with-threshold,0,0
 1628,Design an Expression Tree With Evaluate Function,2,design-an-expression-tree-with-evaluate-function,1,0
 1629,Slowest Key,1,slowest-key,0,1
-1630,Arithmetic Subarrays,2,arithmetic-subarrays,0,0
+1630,Arithmetic Subarrays,2,arithmetic-subarrays,0,1
 1631,Path With Minimum Effort,2,path-with-minimum-effort,0,1
 1632,Rank Transform of a Matrix,3,rank-transform-of-a-matrix,0,0
 1633,Percentage of Users Attended a Contest,1,percentage-of-users-attended-a-contest,1,0

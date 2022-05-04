@@ -1677,7 +1677,7 @@ My daily challenge on leetcode since 2021/09/06.
 ||1627|[Graph Connectivity With Threshold](https://leetcode.com/problems/graph-connectivity-with-threshold/)|Hard|
 |🔒|1628|[Design an Expression Tree With Evaluate Function](https://leetcode.com/problems/design-an-expression-tree-with-evaluate-function/)|Medium|
 |[📎](src/q_1601_1650/q1629.cc)|1629|[Slowest Key](https://leetcode.com/problems/slowest-key/)|Easy|
-||1630|[Arithmetic Subarrays](https://leetcode.com/problems/arithmetic-subarrays/)|Medium|
+|[📎](src/q_1601_1650/q1630.cc)|1630|[Arithmetic Subarrays](https://leetcode.com/problems/arithmetic-subarrays/)|Medium|
 |[📎](src/q_1601_1650/q1631.cc)|1631|[Path With Minimum Effort](https://leetcode.com/problems/path-with-minimum-effort/)|Medium|
 ||1632|[Rank Transform of a Matrix](https://leetcode.com/problems/rank-transform-of-a-matrix/)|Hard|
 |🔒|1633|[Percentage of Users Attended a Contest](https://leetcode.com/problems/percentage-of-users-attended-a-contest/)|Easy|
@@ -2335,6 +2335,7 @@ My daily challenge on leetcode since 2021/09/06.
 
 |Time|#|</>|Question Title|Difficulty|
 |:--|--:|:-:|:--|:--|
+|2022-05-04 18:04|1630|[📎](src/q_1601_1650/q1630.cc)|[Arithmetic Subarrays](https://leetcode.com/problems/arithmetic-subarrays/)|Medium|
 |2022-05-04 17:59|1679|[📎](src/q_1651_1700/q1679.cc)|[Max Number of K-Sum Pairs](https://leetcode.com/problems/max-number-of-k-sum-pairs/)|Medium|
 |2022-05-03 17:59|581|[📎](src/q_551_600/q0581.cc)|[Shortest Unsorted Continuous Subarray](https://leetcode.com/problems/shortest-unsorted-continuous-subarray/)|Medium|
 |2022-05-02 13:31|1886|[📎](src/q_1851_1900/q1886.cc)|[Determine Whether Matrix Can Be Obtained By Rotation](https://leetcode.com/problems/determine-whether-matrix-can-be-obtained-by-rotation/)|Easy|
@@ -2359,13 +2360,12 @@ My daily challenge on leetcode since 2021/09/06.
 |2022-04-22 08:49|709|[📎](src/q_701_750/q0709.cc)|[To Lower Case](https://leetcode.com/problems/to-lower-case/)|Easy|
 |2022-04-21 09:06|1678|[📎](src/q_1651_1700/q1678.cc)|[Goal Parser Interpretation](https://leetcode.com/problems/goal-parser-interpretation/)|Easy|
 |2022-04-21 09:01|1768|[📎](src/q_1751_1800/q1768.cc)|[Merge Strings Alternately](https://leetcode.com/problems/merge-strings-alternately/)|Easy|
-|2022-04-21 08:32|705|[📎](src/q_701_750/q0705.cc)|[Design HashSet](https://leetcode.com/problems/design-hashset/)|Easy|
 
 ## Previous Logs
 
 |Month|Submissions|Easy|Medium|Hard|
 |:--|:--|:--|:--|:--|
-|[May_2022](./assets/May_2022.md)|5|3|2|0|
+|[May_2022](./assets/May_2022.md)|6|3|3|0|
 |[April_2022](./assets/April_2022.md)|56|37|19|0|
 |[March_2022](./assets/March_2022.md)|49|6|39|4|
 |[February_2022](./assets/February_2022.md)|69|15|43|11|
