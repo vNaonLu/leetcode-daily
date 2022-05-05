@@ -579,7 +579,7 @@ My daily challenge on leetcode since 2021/09/06.
 ||553|[Optimal Division](https://leetcode.com/problems/optimal-division/)|Medium|
 ||554|[Brick Wall](https://leetcode.com/problems/brick-wall/)|Medium|
 |🔒|555|[Split Concatenated Strings](https://leetcode.com/problems/split-concatenated-strings/)|Medium|
-||556|[Next Greater Element III](https://leetcode.com/problems/next-greater-element-iii/)|Medium|
+|[📎](src/q_551_600/q0556.cc)|556|[Next Greater Element III](https://leetcode.com/problems/next-greater-element-iii/)|Medium|
 |[📎](src/q_551_600/q0557.cc)|557|[Reverse Words in a String III](https://leetcode.com/problems/reverse-words-in-a-string-iii/)|Easy|
 ||558|[Logical OR of Two Binary Grids Represented as Quad-Trees](https://leetcode.com/problems/logical-or-of-two-binary-grids-represented-as-quad-trees/)|Medium|
 ||559|[Maximum Depth of N-ary Tree](https://leetcode.com/problems/maximum-depth-of-n-ary-tree/)|Easy|
@@ -2335,6 +2335,7 @@ My daily challenge on leetcode since 2021/09/06.
 
 |Time|#|</>|Question Title|Difficulty|
 |:--|--:|:-:|:--|:--|
+|2022-05-05 18:24|556|[📎](src/q_551_600/q0556.cc)|[Next Greater Element III](https://leetcode.com/problems/next-greater-element-iii/)|Medium|
 |2022-05-05 18:12|225|[📎](src/q_201_250/q0225.cc)|[Implement Stack using Queues](https://leetcode.com/problems/implement-stack-using-queues/)|Easy|
 |2022-05-04 18:14|429|[📎](src/q_401_450/q0429.cc)|[N-ary Tree Level Order Traversal](https://leetcode.com/problems/n-ary-tree-level-order-traversal/)|Medium|
 |2022-05-04 18:04|1630|[📎](src/q_1601_1650/q1630.cc)|[Arithmetic Subarrays](https://leetcode.com/problems/arithmetic-subarrays/)|Medium|
@@ -2359,13 +2360,12 @@ My daily challenge on leetcode since 2021/09/06.
 |2022-04-23 14:52|535|[📎](src/q_501_550/q0535.cc)|[Encode and Decode TinyURL](https://leetcode.com/problems/encode-and-decode-tinyurl/)|Medium|
 |2022-04-22 09:06|953|[📎](src/q_951_1000/q0953.cc)|[Verifying an Alien Dictionary](https://leetcode.com/problems/verifying-an-alien-dictionary/)|Easy|
 |2022-04-22 08:58|1309|[📎](src/q_1301_1350/q1309.cc)|[Decrypt String from Alphabet to Integer Mapping](https://leetcode.com/problems/decrypt-string-from-alphabet-to-integer-mapping/)|Easy|
-|2022-04-22 08:49|709|[📎](src/q_701_750/q0709.cc)|[To Lower Case](https://leetcode.com/problems/to-lower-case/)|Easy|
 
 ## Previous Logs
 
 |Month|Submissions|Easy|Medium|Hard|
 |:--|:--|:--|:--|:--|
-|[May_2022](./assets/May_2022.md)|8|4|4|0|
+|[May_2022](./assets/May_2022.md)|9|4|5|0|
 |[April_2022](./assets/April_2022.md)|56|37|19|0|
 |[March_2022](./assets/March_2022.md)|49|6|39|4|
 |[February_2022](./assets/February_2022.md)|69|15|43|11|
