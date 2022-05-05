@@ -501,7 +501,7 @@ id,title,level,slug,paid,done
 500,Keyboard Row,1,keyboard-row,0,0
 501,Find Mode in Binary Search Tree,1,find-mode-in-binary-search-tree,0,1
 502,IPO,3,ipo,0,0
-503,Next Greater Element II,2,next-greater-element-ii,0,0
+503,Next Greater Element II,2,next-greater-element-ii,0,1
 504,Base 7,1,base-7,0,1
 505,The Maze II,2,the-maze-ii,1,0
 506,Relative Ranks,1,relative-ranks,0,0

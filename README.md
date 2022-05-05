@@ -526,7 +526,7 @@ My daily challenge on leetcode since 2021/09/06.
 |:-:|--:|:--|:--|
 |[📎](src/q_501_550/q0501.cc)|501|[Find Mode in Binary Search Tree](https://leetcode.com/problems/find-mode-in-binary-search-tree/)|Easy|
 ||502|[IPO](https://leetcode.com/problems/ipo/)|Hard|
-||503|[Next Greater Element II](https://leetcode.com/problems/next-greater-element-ii/)|Medium|
+|[📎](src/q_501_550/q0503.cc)|503|[Next Greater Element II](https://leetcode.com/problems/next-greater-element-ii/)|Medium|
 |[📎](src/q_501_550/q0504.cc)|504|[Base 7](https://leetcode.com/problems/base-7/)|Easy|
 |🔒|505|[The Maze II](https://leetcode.com/problems/the-maze-ii/)|Medium|
 ||506|[Relative Ranks](https://leetcode.com/problems/relative-ranks/)|Easy|
@@ -2335,6 +2335,7 @@ My daily challenge on leetcode since 2021/09/06.
 
 |Time|#|</>|Question Title|Difficulty|
 |:--|--:|:-:|:--|:--|
+|2022-05-05 18:41|503|[📎](src/q_501_550/q0503.cc)|[Next Greater Element II](https://leetcode.com/problems/next-greater-element-ii/)|Medium|
 |2022-05-05 18:24|556|[📎](src/q_551_600/q0556.cc)|[Next Greater Element III](https://leetcode.com/problems/next-greater-element-iii/)|Medium|
 |2022-05-05 18:12|225|[📎](src/q_201_250/q0225.cc)|[Implement Stack using Queues](https://leetcode.com/problems/implement-stack-using-queues/)|Easy|
 |2022-05-04 18:14|429|[📎](src/q_401_450/q0429.cc)|[N-ary Tree Level Order Traversal](https://leetcode.com/problems/n-ary-tree-level-order-traversal/)|Medium|
@@ -2359,13 +2360,12 @@ My daily challenge on leetcode since 2021/09/06.
 |2022-04-24 14:23|1396|[📎](src/q_1351_1400/q1396.cc)|[Design Underground System](https://leetcode.com/problems/design-underground-system/)|Medium|
 |2022-04-23 14:52|535|[📎](src/q_501_550/q0535.cc)|[Encode and Decode TinyURL](https://leetcode.com/problems/encode-and-decode-tinyurl/)|Medium|
 |2022-04-22 09:06|953|[📎](src/q_951_1000/q0953.cc)|[Verifying an Alien Dictionary](https://leetcode.com/problems/verifying-an-alien-dictionary/)|Easy|
-|2022-04-22 08:58|1309|[📎](src/q_1301_1350/q1309.cc)|[Decrypt String from Alphabet to Integer Mapping](https://leetcode.com/problems/decrypt-string-from-alphabet-to-integer-mapping/)|Easy|
 
 ## Previous Logs
 
 |Month|Submissions|Easy|Medium|Hard|
 |:--|:--|:--|:--|:--|
-|[May_2022](./assets/May_2022.md)|9|4|5|0|
+|[May_2022](./assets/May_2022.md)|10|4|6|0|
 |[April_2022](./assets/April_2022.md)|56|37|19|0|
 |[March_2022](./assets/March_2022.md)|49|6|39|4|
 |[February_2022](./assets/February_2022.md)|69|15|43|11|
