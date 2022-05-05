@@ -223,7 +223,7 @@ id,title,level,slug,paid,done
 222,Count Complete Tree Nodes,2,count-complete-tree-nodes,0,1
 223,Rectangle Area,2,rectangle-area,0,0
 224,Basic Calculator,3,basic-calculator,0,1
-225,Implement Stack using Queues,1,implement-stack-using-queues,0,0
+225,Implement Stack using Queues,1,implement-stack-using-queues,0,1
 226,Invert Binary Tree,1,invert-binary-tree,0,1
 227,Basic Calculator II,2,basic-calculator-ii,0,1
 228,Summary Ranges,1,summary-ranges,0,1

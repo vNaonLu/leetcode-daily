@@ -236,7 +236,7 @@ My daily challenge on leetcode since 2021/09/06.
 |[📎](src/q_201_250/q0222.cc)|222|[Count Complete Tree Nodes](https://leetcode.com/problems/count-complete-tree-nodes/)|Medium|
 ||223|[Rectangle Area](https://leetcode.com/problems/rectangle-area/)|Medium|
 |[📎](src/q_201_250/q0224.cc)|224|[Basic Calculator](https://leetcode.com/problems/basic-calculator/)|Hard|
-||225|[Implement Stack using Queues](https://leetcode.com/problems/implement-stack-using-queues/)|Easy|
+|[📎](src/q_201_250/q0225.cc)|225|[Implement Stack using Queues](https://leetcode.com/problems/implement-stack-using-queues/)|Easy|
 |[📎](src/q_201_250/q0226.cc)|226|[Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree/)|Easy|
 |[📎](src/q_201_250/q0227.cc)|227|[Basic Calculator II](https://leetcode.com/problems/basic-calculator-ii/)|Medium|
 |[📎](src/q_201_250/q0228.cc)|228|[Summary Ranges](https://leetcode.com/problems/summary-ranges/)|Easy|
@@ -2335,6 +2335,7 @@ My daily challenge on leetcode since 2021/09/06.
 
 |Time|#|</>|Question Title|Difficulty|
 |:--|--:|:-:|:--|:--|
+|2022-05-05 18:12|225|[📎](src/q_201_250/q0225.cc)|[Implement Stack using Queues](https://leetcode.com/problems/implement-stack-using-queues/)|Easy|
 |2022-05-04 18:14|429|[📎](src/q_401_450/q0429.cc)|[N-ary Tree Level Order Traversal](https://leetcode.com/problems/n-ary-tree-level-order-traversal/)|Medium|
 |2022-05-04 18:04|1630|[📎](src/q_1601_1650/q1630.cc)|[Arithmetic Subarrays](https://leetcode.com/problems/arithmetic-subarrays/)|Medium|
 |2022-05-04 17:59|1679|[📎](src/q_1651_1700/q1679.cc)|[Max Number of K-Sum Pairs](https://leetcode.com/problems/max-number-of-k-sum-pairs/)|Medium|
@@ -2359,13 +2360,12 @@ My daily challenge on leetcode since 2021/09/06.
 |2022-04-22 09:06|953|[📎](src/q_951_1000/q0953.cc)|[Verifying an Alien Dictionary](https://leetcode.com/problems/verifying-an-alien-dictionary/)|Easy|
 |2022-04-22 08:58|1309|[📎](src/q_1301_1350/q1309.cc)|[Decrypt String from Alphabet to Integer Mapping](https://leetcode.com/problems/decrypt-string-from-alphabet-to-integer-mapping/)|Easy|
 |2022-04-22 08:49|709|[📎](src/q_701_750/q0709.cc)|[To Lower Case](https://leetcode.com/problems/to-lower-case/)|Easy|
-|2022-04-21 09:06|1678|[📎](src/q_1651_1700/q1678.cc)|[Goal Parser Interpretation](https://leetcode.com/problems/goal-parser-interpretation/)|Easy|
 
 ## Previous Logs
 
 |Month|Submissions|Easy|Medium|Hard|
 |:--|:--|:--|:--|:--|
-|[May_2022](./assets/May_2022.md)|7|3|4|0|
+|[May_2022](./assets/May_2022.md)|8|4|4|0|
 |[April_2022](./assets/April_2022.md)|56|37|19|0|
 |[March_2022](./assets/March_2022.md)|49|6|39|4|
 |[February_2022](./assets/February_2022.md)|69|15|43|11|
