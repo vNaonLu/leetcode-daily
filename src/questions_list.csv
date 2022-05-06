@@ -1207,7 +1207,7 @@ id,title,level,slug,paid,done
 1206,Design Skiplist,3,design-skiplist,0,0
 1207,Unique Number of Occurrences,1,unique-number-of-occurrences,0,0
 1208,Get Equal Substrings Within Budget,2,get-equal-substrings-within-budget,0,0
-1209,Remove All Adjacent Duplicates in String II,2,remove-all-adjacent-duplicates-in-string-ii,0,0
+1209,Remove All Adjacent Duplicates in String II,2,remove-all-adjacent-duplicates-in-string-ii,0,1
 1210,Minimum Moves to Reach Target with Rotations,3,minimum-moves-to-reach-target-with-rotations,0,0
 1211,Queries Quality and Percentage,1,queries-quality-and-percentage,1,0
 1212,Team Scores in Football Tournament,2,team-scores-in-football-tournament,1,0
@@ -2261,3 +2261,4 @@ id,title,level,slug,paid,done
 2260,Minimum Consecutive Cards to Pick Up,2,minimum-consecutive-cards-to-pick-up,0,0
 2261,K Divisible Elements Subarrays,2,k-divisible-elements-subarrays,0,0
 2262,Total Appeal of A String,3,total-appeal-of-a-string,0,0
+2263,Make Array Non-decreasing or Non-increasing,3,make-array-non-decreasing-or-non-increasing,1,0

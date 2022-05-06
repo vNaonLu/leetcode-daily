@@ -1244,7 +1244,7 @@ My daily challenge on leetcode since 2021/09/06.
 ||1206|[Design Skiplist](https://leetcode.com/problems/design-skiplist/)|Hard|
 ||1207|[Unique Number of Occurrences](https://leetcode.com/problems/unique-number-of-occurrences/)|Easy|
 ||1208|[Get Equal Substrings Within Budget](https://leetcode.com/problems/get-equal-substrings-within-budget/)|Medium|
-||1209|[Remove All Adjacent Duplicates in String II](https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string-ii/)|Medium|
+|[📎](src/q_1201_1250/q1209.cc)|1209|[Remove All Adjacent Duplicates in String II](https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string-ii/)|Medium|
 ||1210|[Minimum Moves to Reach Target with Rotations](https://leetcode.com/problems/minimum-moves-to-reach-target-with-rotations/)|Hard|
 |🔒|1211|[Queries Quality and Percentage](https://leetcode.com/problems/queries-quality-and-percentage/)|Easy|
 |🔒|1212|[Team Scores in Football Tournament](https://leetcode.com/problems/team-scores-in-football-tournament/)|Medium|
@@ -2312,7 +2312,7 @@ My daily challenge on leetcode since 2021/09/06.
 ||2250|[Count Number of Rectangles Containing Each Point](https://leetcode.com/problems/count-number-of-rectangles-containing-each-point/)|Medium|
 </details>
 <details>
-  <summary>### 2251 ~ 2262</summary>
+  <summary>### 2251 ~ 2263</summary>
 
 |</>|#|Solution Title|Difficulty|
 |:-:|--:|:--|:--|
@@ -2328,6 +2328,7 @@ My daily challenge on leetcode since 2021/09/06.
 ||2260|[Minimum Consecutive Cards to Pick Up](https://leetcode.com/problems/minimum-consecutive-cards-to-pick-up/)|Medium|
 ||2261|[K Divisible Elements Subarrays](https://leetcode.com/problems/k-divisible-elements-subarrays/)|Medium|
 ||2262|[Total Appeal of A String](https://leetcode.com/problems/total-appeal-of-a-string/)|Hard|
+|🔒|2263|[Make Array Non-decreasing or Non-increasing](https://leetcode.com/problems/make-array-non-decreasing-or-non-increasing/)|Hard|
 </details>
 
 ---
@@ -2335,6 +2336,7 @@ My daily challenge on leetcode since 2021/09/06.
 
 |Time|#|</>|Question Title|Difficulty|
 |:--|--:|:-:|:--|:--|
+|2022-05-06 18:29|1209|[📎](src/q_1201_1250/q1209.cc)|[Remove All Adjacent Duplicates in String II](https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string-ii/)|Medium|
 |2022-05-05 18:41|503|[📎](src/q_501_550/q0503.cc)|[Next Greater Element II](https://leetcode.com/problems/next-greater-element-ii/)|Medium|
 |2022-05-05 18:24|556|[📎](src/q_551_600/q0556.cc)|[Next Greater Element III](https://leetcode.com/problems/next-greater-element-iii/)|Medium|
 |2022-05-05 18:12|225|[📎](src/q_201_250/q0225.cc)|[Implement Stack using Queues](https://leetcode.com/problems/implement-stack-using-queues/)|Easy|
@@ -2359,13 +2361,12 @@ My daily challenge on leetcode since 2021/09/06.
 |2022-04-25 18:32|284|[📎](src/q_251_300/q0284.cc)|[Peeking Iterator](https://leetcode.com/problems/peeking-iterator/)|Medium|
 |2022-04-24 14:23|1396|[📎](src/q_1351_1400/q1396.cc)|[Design Underground System](https://leetcode.com/problems/design-underground-system/)|Medium|
 |2022-04-23 14:52|535|[📎](src/q_501_550/q0535.cc)|[Encode and Decode TinyURL](https://leetcode.com/problems/encode-and-decode-tinyurl/)|Medium|
-|2022-04-22 09:06|953|[📎](src/q_951_1000/q0953.cc)|[Verifying an Alien Dictionary](https://leetcode.com/problems/verifying-an-alien-dictionary/)|Easy|
 
 ## Previous Logs
 
 |Month|Submissions|Easy|Medium|Hard|
 |:--|:--|:--|:--|:--|
-|[May_2022](./assets/May_2022.md)|10|4|6|0|
+|[May_2022](./assets/May_2022.md)|11|4|7|0|
 |[April_2022](./assets/April_2022.md)|56|37|19|0|
 |[March_2022](./assets/March_2022.md)|49|6|39|4|
 |[February_2022](./assets/February_2022.md)|69|15|43|11|
