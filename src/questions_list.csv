@@ -223,7 +223,7 @@ id,title,level,slug,paid,done
 222,Count Complete Tree Nodes,2,count-complete-tree-nodes,0,1
 223,Rectangle Area,2,rectangle-area,0,0
 224,Basic Calculator,3,basic-calculator,0,1
-225,Implement Stack using Queues,1,implement-stack-using-queues,0,0
+225,Implement Stack using Queues,1,implement-stack-using-queues,0,1
 226,Invert Binary Tree,1,invert-binary-tree,0,1
 227,Basic Calculator II,2,basic-calculator-ii,0,1
 228,Summary Ranges,1,summary-ranges,0,1
@@ -427,7 +427,7 @@ id,title,level,slug,paid,done
 426,Convert Binary Search Tree to Sorted Doubly Linked List,2,convert-binary-search-tree-to-sorted-doubly-linked-list,1,0
 427,Construct Quad Tree,2,construct-quad-tree,0,0
 428,Serialize and Deserialize N-ary Tree,3,serialize-and-deserialize-n-ary-tree,1,0
-429,N-ary Tree Level Order Traversal,2,n-ary-tree-level-order-traversal,0,0
+429,N-ary Tree Level Order Traversal,2,n-ary-tree-level-order-traversal,0,1
 430,Flatten a Multilevel Doubly Linked List,2,flatten-a-multilevel-doubly-linked-list,0,1
 431,Encode N-ary Tree to Binary Tree,3,encode-n-ary-tree-to-binary-tree,1,0
 432,All O`one Data Structure,3,all-oone-data-structure,0,0
@@ -454,7 +454,7 @@ id,title,level,slug,paid,done
 453,Minimum Moves to Equal Array Elements,2,minimum-moves-to-equal-array-elements,0,0
 454,4Sum II,2,4sum-ii,0,1
 455,Assign Cookies,1,assign-cookies,0,0
-456,132 Pattern,2,132-pattern,0,0
+456,132 Pattern,2,132-pattern,0,1
 457,Circular Array Loop,2,circular-array-loop,0,0
 458,Poor Pigs,3,poor-pigs,0,0
 459,Repeated Substring Pattern,1,repeated-substring-pattern,0,1
@@ -501,7 +501,7 @@ id,title,level,slug,paid,done
 500,Keyboard Row,1,keyboard-row,0,0
 501,Find Mode in Binary Search Tree,1,find-mode-in-binary-search-tree,0,1
 502,IPO,3,ipo,0,0
-503,Next Greater Element II,2,next-greater-element-ii,0,0
+503,Next Greater Element II,2,next-greater-element-ii,0,1
 504,Base 7,1,base-7,0,1
 505,The Maze II,2,the-maze-ii,1,0
 506,Relative Ranks,1,relative-ranks,0,0
@@ -554,7 +554,7 @@ id,title,level,slug,paid,done
 553,Optimal Division,2,optimal-division,0,0
 554,Brick Wall,2,brick-wall,0,0
 555,Split Concatenated Strings,2,split-concatenated-strings,1,0
-556,Next Greater Element III,2,next-greater-element-iii,0,0
+556,Next Greater Element III,2,next-greater-element-iii,0,1
 557,Reverse Words in a String III,1,reverse-words-in-a-string-iii,0,1
 558,Logical OR of Two Binary Grids Represented as Quad-Trees,2,logical-or-of-two-binary-grids-represented-as-quad-trees,0,0
 559,Maximum Depth of N-ary Tree,1,maximum-depth-of-n-ary-tree,0,0
@@ -579,7 +579,7 @@ id,title,level,slug,paid,done
 578,Get Highest Answer Rate Question,2,get-highest-answer-rate-question,1,0
 579,Find Cumulative Salary of an Employee,3,find-cumulative-salary-of-an-employee,1,0
 580,Count Student Number in Departments,2,count-student-number-in-departments,1,0
-581,Shortest Unsorted Continuous Subarray,2,shortest-unsorted-continuous-subarray,0,0
+581,Shortest Unsorted Continuous Subarray,2,shortest-unsorted-continuous-subarray,0,1
 582,Kill Process,2,kill-process,1,0
 583,Delete Operation for Two Strings,2,delete-operation-for-two-strings,0,1
 584,Find Customer Referee,1,find-customer-referee,0,0
@@ -903,7 +903,7 @@ id,title,level,slug,paid,done
 902,Numbers At Most N Given Digit Set,3,numbers-at-most-n-given-digit-set,0,1
 903,Valid Permutations for DI Sequence,3,valid-permutations-for-di-sequence,0,0
 904,Fruit Into Baskets,2,fruit-into-baskets,0,0
-905,Sort Array By Parity,1,sort-array-by-parity,0,0
+905,Sort Array By Parity,1,sort-array-by-parity,0,1
 906,Super Palindromes,3,super-palindromes,0,0
 907,Sum of Subarray Minimums,2,sum-of-subarray-minimums,0,1
 908,Smallest Range I,1,smallest-range-i,0,0
@@ -1207,7 +1207,7 @@ id,title,level,slug,paid,done
 1206,Design Skiplist,3,design-skiplist,0,0
 1207,Unique Number of Occurrences,1,unique-number-of-occurrences,0,0
 1208,Get Equal Substrings Within Budget,2,get-equal-substrings-within-budget,0,0
-1209,Remove All Adjacent Duplicates in String II,2,remove-all-adjacent-duplicates-in-string-ii,0,0
+1209,Remove All Adjacent Duplicates in String II,2,remove-all-adjacent-duplicates-in-string-ii,0,1
 1210,Minimum Moves to Reach Target with Rotations,3,minimum-moves-to-reach-target-with-rotations,0,0
 1211,Queries Quality and Percentage,1,queries-quality-and-percentage,1,0
 1212,Team Scores in Football Tournament,2,team-scores-in-football-tournament,1,0
@@ -1628,7 +1628,7 @@ id,title,level,slug,paid,done
 1627,Graph Connectivity With Threshold,3,graph-connectivity-with-threshold,0,0
 1628,Design an Expression Tree With Evaluate Function,2,design-an-expression-tree-with-evaluate-function,1,0
 1629,Slowest Key,1,slowest-key,0,1
-1630,Arithmetic Subarrays,2,arithmetic-subarrays,0,0
+1630,Arithmetic Subarrays,2,arithmetic-subarrays,0,1
 1631,Path With Minimum Effort,2,path-with-minimum-effort,0,1
 1632,Rank Transform of a Matrix,3,rank-transform-of-a-matrix,0,0
 1633,Percentage of Users Attended a Contest,1,percentage-of-users-attended-a-contest,1,0
@@ -1677,7 +1677,7 @@ id,title,level,slug,paid,done
 1676,Lowest Common Ancestor of a Binary Tree IV,2,lowest-common-ancestor-of-a-binary-tree-iv,1,0
 1677,Product's Worth Over Invoices,1,products-worth-over-invoices,1,0
 1678,Goal Parser Interpretation,1,goal-parser-interpretation,0,1
-1679,Max Number of K-Sum Pairs,2,max-number-of-k-sum-pairs,0,0
+1679,Max Number of K-Sum Pairs,2,max-number-of-k-sum-pairs,0,1
 1680,Concatenation of Consecutive Binary Numbers,2,concatenation-of-consecutive-binary-numbers,0,1
 1681,Minimum Incompatibility,3,minimum-incompatibility,0,0
 1682,Longest Palindromic Subsequence II,2,longest-palindromic-subsequence-ii,1,0
@@ -1884,7 +1884,7 @@ id,title,level,slug,paid,done
 1883,Minimum Skips to Arrive at Meeting On Time,3,minimum-skips-to-arrive-at-meeting-on-time,0,0
 1884,Egg Drop With 2 Eggs and N Floors,2,egg-drop-with-2-eggs-and-n-floors,0,0
 1885,Count Pairs in Two Arrays,2,count-pairs-in-two-arrays,1,0
-1886,Determine Whether Matrix Can Be Obtained By Rotation,1,determine-whether-matrix-can-be-obtained-by-rotation,0,0
+1886,Determine Whether Matrix Can Be Obtained By Rotation,1,determine-whether-matrix-can-be-obtained-by-rotation,0,1
 1887,Reduction Operations to Make the Array Elements Equal,2,reduction-operations-to-make-the-array-elements-equal,0,1
 1888,Minimum Number of Flips to Make the Binary String Alternating,2,minimum-number-of-flips-to-make-the-binary-string-alternating,0,0
 1889,Minimum Space Wasted From Packaging,3,minimum-space-wasted-from-packaging,0,0
@@ -2004,7 +2004,7 @@ id,title,level,slug,paid,done
 2003,Smallest Missing Genetic Value in Each Subtree,3,smallest-missing-genetic-value-in-each-subtree,0,0
 2004,The Number of Seniors and Juniors to Join the Company,3,the-number-of-seniors-and-juniors-to-join-the-company,1,0
 2005,Subtree Removal Game with Fibonacci Tree,3,subtree-removal-game-with-fibonacci-tree,1,0
-2006,Count Number of Pairs With Absolute Difference K,1,count-number-of-pairs-with-absolute-difference-k,0,0
+2006,Count Number of Pairs With Absolute Difference K,1,count-number-of-pairs-with-absolute-difference-k,0,1
 2007,Find Original Array From Doubled Array,2,find-original-array-from-doubled-array,0,0
 2008,Maximum Earnings From Taxi,2,maximum-earnings-from-taxi,0,0
 2009,Minimum Number of Operations to Make Array Continuous,3,minimum-number-of-operations-to-make-array-continuous,0,0
@@ -2253,3 +2253,12 @@ id,title,level,slug,paid,done
 2252,Dynamic Pivoting of a Table,3,dynamic-pivoting-of-a-table,1,0
 2253,Dynamic Unpivoting of a Table,3,dynamic-unpivoting-of-a-table,1,0
 2254,Design Video Sharing Platform,3,design-video-sharing-platform,1,0
+2255,Count Prefixes of a Given String,1,count-prefixes-of-a-given-string,0,0
+2256,Minimum Average Difference,2,minimum-average-difference,0,0
+2257,Count Unguarded Cells in the Grid,2,count-unguarded-cells-in-the-grid,0,0
+2258,Escape the Spreading Fire,3,escape-the-spreading-fire,0,0
+2259,Remove Digit From Number to Maximize Result,1,remove-digit-from-number-to-maximize-result,0,0
+2260,Minimum Consecutive Cards to Pick Up,2,minimum-consecutive-cards-to-pick-up,0,0
+2261,K Divisible Elements Subarrays,2,k-divisible-elements-subarrays,0,0
+2262,Total Appeal of A String,3,total-appeal-of-a-string,0,0
+2263,Make Array Non-decreasing or Non-increasing,3,make-array-non-decreasing-or-non-increasing,1,0
