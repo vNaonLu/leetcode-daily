@@ -1,6 +1,7 @@
 #include <gtest/gtest.h>
 #include <iostream>
 #include <vector>
+#include <stack>
 
 using namespace std;
 
@@ -29,7 +30,27 @@ struct q581 : public ::testing::Test {
   class Solution {
    public:
     int findUnsortedSubarray(vector<int>& nums) {
-      
+      stack<int> stk;
+
+      int l = nums.size(), r = 0;
+      for (int i = 0; i < nums.size(); ++i) {
+        while (!stk.empty() && nums[stk.top()] > nums[i]) {
+          l = min(l, stk.top());
+          stk.pop();
+        }
+        stk.emplace(i);
+      }
+      stack<int>{}.swap(stk);
+
+      for (int i = nums.size() - 1; i >= 0; --i) {
+        while (!stk.empty() && nums[stk.top()] < nums[i]) {
+          r = max(r, stk.top());
+          stk.pop();
+        }
+        stk.emplace(i);
+      }
+
+      return r - l > 0 ? r - l + 1 : 0;
     }
   };
 
