@@ -358,7 +358,7 @@ My daily challenge on leetcode since 2021/09/06.
 |[📎](src/q_301_350/q0338.cc)|338|[Counting Bits](https://leetcode.com/problems/counting-bits/)|Easy|
 |🔒|339|[Nested List Weight Sum](https://leetcode.com/problems/nested-list-weight-sum/)|Medium|
 |🔒|340|[Longest Substring with At Most K Distinct Characters](https://leetcode.com/problems/longest-substring-with-at-most-k-distinct-characters/)|Medium|
-||341|[Flatten Nested List Iterator](https://leetcode.com/problems/flatten-nested-list-iterator/)|Medium|
+|[📎](src/q_301_350/q0341.cc)|341|[Flatten Nested List Iterator](https://leetcode.com/problems/flatten-nested-list-iterator/)|Medium|
 ||342|[Power of Four](https://leetcode.com/problems/power-of-four/)|Easy|
 |[📎](src/q_301_350/q0343.cc)|343|[Integer Break](https://leetcode.com/problems/integer-break/)|Medium|
 |[📎](src/q_301_350/q0344.cc)|344|[Reverse String](https://leetcode.com/problems/reverse-string/)|Easy|
@@ -2336,6 +2336,7 @@ My daily challenge on leetcode since 2021/09/06.
 
 |Time|#|</>|Question Title|Difficulty|
 |:--|--:|:-:|:--|:--|
+|2022-05-08 12:51|341|[📎](src/q_301_350/q0341.cc)|[Flatten Nested List Iterator](https://leetcode.com/problems/flatten-nested-list-iterator/)|Medium|
 |2022-05-08 12:44|910|[📎](src/q_901_950/q0910.cc)|[Smallest Range II](https://leetcode.com/problems/smallest-range-ii/)|Medium|
 |2022-05-07 13:30|456|[📎](src/q_451_500/q0456.cc)|[132 Pattern](https://leetcode.com/problems/132-pattern/)|Medium|
 |2022-05-06 18:29|1209|[📎](src/q_1201_1250/q1209.cc)|[Remove All Adjacent Duplicates in String II](https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string-ii/)|Medium|
@@ -2360,13 +2361,12 @@ My daily challenge on leetcode since 2021/09/06.
 |2022-04-26 18:35|1584|[📎](src/q_1551_1600/q1584.cc)|[Min Cost to Connect All Points](https://leetcode.com/problems/min-cost-to-connect-all-points/)|Medium|
 |2022-04-25 18:49|303|[📎](src/q_301_350/q0303.cc)|[Range Sum Query - Immutable](https://leetcode.com/problems/range-sum-query-immutable/)|Easy|
 |2022-04-25 18:43|1603|[📎](src/q_1601_1650/q1603.cc)|[Design Parking System](https://leetcode.com/problems/design-parking-system/)|Easy|
-|2022-04-25 18:32|284|[📎](src/q_251_300/q0284.cc)|[Peeking Iterator](https://leetcode.com/problems/peeking-iterator/)|Medium|
 
 ## Previous Logs
 
 |Month|Submissions|Easy|Medium|Hard|
 |:--|:--|:--|:--|:--|
-|[May_2022](./assets/May_2022.md)|13|4|9|0|
+|[May_2022](./assets/May_2022.md)|14|4|10|0|
 |[April_2022](./assets/April_2022.md)|56|37|19|0|
 |[March_2022](./assets/March_2022.md)|49|6|39|4|
 |[February_2022](./assets/February_2022.md)|69|15|43|11|

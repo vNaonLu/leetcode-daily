@@ -339,7 +339,7 @@ id,title,level,slug,paid,done
 338,Counting Bits,1,counting-bits,0,1
 339,Nested List Weight Sum,2,nested-list-weight-sum,1,0
 340,Longest Substring with At Most K Distinct Characters,2,longest-substring-with-at-most-k-distinct-characters,1,0
-341,Flatten Nested List Iterator,2,flatten-nested-list-iterator,0,0
+341,Flatten Nested List Iterator,2,flatten-nested-list-iterator,0,1
 342,Power of Four,1,power-of-four,0,0
 343,Integer Break,2,integer-break,0,1
 344,Reverse String,1,reverse-string,0,1
