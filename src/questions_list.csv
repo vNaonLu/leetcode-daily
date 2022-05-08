@@ -908,7 +908,7 @@ id,title,level,slug,paid,done
 907,Sum of Subarray Minimums,2,sum-of-subarray-minimums,0,1
 908,Smallest Range I,1,smallest-range-i,0,0
 909,Snakes and Ladders,2,snakes-and-ladders,0,0
-910,Smallest Range II,2,smallest-range-ii,0,0
+910,Smallest Range II,2,smallest-range-ii,0,1
 911,Online Election,2,online-election,0,0
 912,Sort an Array,2,sort-an-array,0,1
 913,Cat and Mouse,3,cat-and-mouse,0,0
