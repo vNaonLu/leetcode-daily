@@ -715,7 +715,7 @@ My daily challenge on leetcode since 2021/09/06.
 ||689|[Maximum Sum of 3 Non-Overlapping Subarrays](https://leetcode.com/problems/maximum-sum-of-3-non-overlapping-subarrays/)|Hard|
 ||690|[Employee Importance](https://leetcode.com/problems/employee-importance/)|Medium|
 ||691|[Stickers to Spell Word](https://leetcode.com/problems/stickers-to-spell-word/)|Hard|
-||692|[Top K Frequent Words](https://leetcode.com/problems/top-k-frequent-words/)|Medium|
+|[📎](src/q_651_700/q0692.cc)|692|[Top K Frequent Words](https://leetcode.com/problems/top-k-frequent-words/)|Medium|
 |[📎](src/q_651_700/q0693.cc)|693|[Binary Number with Alternating Bits](https://leetcode.com/problems/binary-number-with-alternating-bits/)|Easy|
 |🔒|694|[Number of Distinct Islands](https://leetcode.com/problems/number-of-distinct-islands/)|Medium|
 |[📎](src/q_651_700/q0695.cc)|695|[Max Area of Island](https://leetcode.com/problems/max-area-of-island/)|Medium|
@@ -2312,7 +2312,7 @@ My daily challenge on leetcode since 2021/09/06.
 ||2250|[Count Number of Rectangles Containing Each Point](https://leetcode.com/problems/count-number-of-rectangles-containing-each-point/)|Medium|
 </details>
 <details>
-  <summary>### 2251 ~ 2263</summary>
+  <summary>### 2251 ~ 2267</summary>
 
 |</>|#|Solution Title|Difficulty|
 |:-:|--:|:--|:--|
@@ -2329,6 +2329,10 @@ My daily challenge on leetcode since 2021/09/06.
 ||2261|[K Divisible Elements Subarrays](https://leetcode.com/problems/k-divisible-elements-subarrays/)|Medium|
 ||2262|[Total Appeal of A String](https://leetcode.com/problems/total-appeal-of-a-string/)|Hard|
 |🔒|2263|[Make Array Non-decreasing or Non-increasing](https://leetcode.com/problems/make-array-non-decreasing-or-non-increasing/)|Hard|
+||2264|[Largest 3-Same-Digit Number in String](https://leetcode.com/problems/largest-3-same-digit-number-in-string/)|Easy|
+||2265|[Count Nodes Equal to Average of Subtree](https://leetcode.com/problems/count-nodes-equal-to-average-of-subtree/)|Medium|
+||2266|[Count Number of Texts](https://leetcode.com/problems/count-number-of-texts/)|Medium|
+||2267|[ Check if There Is a Valid Parentheses String Path](https://leetcode.com/problems/check-if-there-is-a-valid-parentheses-string-path/)|Hard|
 </details>
 
 ---
@@ -2336,6 +2340,7 @@ My daily challenge on leetcode since 2021/09/06.
 
 |Time|#|</>|Question Title|Difficulty|
 |:--|--:|:-:|:--|:--|
+|2022-05-09 17:55|692|[📎](src/q_651_700/q0692.cc)|[Top K Frequent Words](https://leetcode.com/problems/top-k-frequent-words/)|Medium|
 |2022-05-08 12:51|341|[📎](src/q_301_350/q0341.cc)|[Flatten Nested List Iterator](https://leetcode.com/problems/flatten-nested-list-iterator/)|Medium|
 |2022-05-08 12:44|910|[📎](src/q_901_950/q0910.cc)|[Smallest Range II](https://leetcode.com/problems/smallest-range-ii/)|Medium|
 |2022-05-07 13:30|456|[📎](src/q_451_500/q0456.cc)|[132 Pattern](https://leetcode.com/problems/132-pattern/)|Medium|
@@ -2360,13 +2365,12 @@ My daily challenge on leetcode since 2021/09/06.
 |2022-04-26 19:02|896|[📎](src/q_851_900/q0896.cc)|[Monotonic Array](https://leetcode.com/problems/monotonic-array/)|Easy|
 |2022-04-26 18:35|1584|[📎](src/q_1551_1600/q1584.cc)|[Min Cost to Connect All Points](https://leetcode.com/problems/min-cost-to-connect-all-points/)|Medium|
 |2022-04-25 18:49|303|[📎](src/q_301_350/q0303.cc)|[Range Sum Query - Immutable](https://leetcode.com/problems/range-sum-query-immutable/)|Easy|
-|2022-04-25 18:43|1603|[📎](src/q_1601_1650/q1603.cc)|[Design Parking System](https://leetcode.com/problems/design-parking-system/)|Easy|
 
 ## Previous Logs
 
 |Month|Submissions|Easy|Medium|Hard|
 |:--|:--|:--|:--|:--|
-|[May_2022](./assets/May_2022.md)|14|4|10|0|
+|[May_2022](./assets/May_2022.md)|15|4|11|0|
 |[April_2022](./assets/April_2022.md)|56|37|19|0|
 |[March_2022](./assets/March_2022.md)|49|6|39|4|
 |[February_2022](./assets/February_2022.md)|69|15|43|11|

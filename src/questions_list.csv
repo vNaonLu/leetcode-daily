@@ -690,7 +690,7 @@ id,title,level,slug,paid,done
 689,Maximum Sum of 3 Non-Overlapping Subarrays,3,maximum-sum-of-3-non-overlapping-subarrays,0,0
 690,Employee Importance,2,employee-importance,0,0
 691,Stickers to Spell Word,3,stickers-to-spell-word,0,0
-692,Top K Frequent Words,2,top-k-frequent-words,0,0
+692,Top K Frequent Words,2,top-k-frequent-words,0,1
 693,Binary Number with Alternating Bits,1,binary-number-with-alternating-bits,0,1
 694,Number of Distinct Islands,2,number-of-distinct-islands,1,0
 695,Max Area of Island,2,max-area-of-island,0,1
@@ -2262,3 +2262,7 @@ id,title,level,slug,paid,done
 2261,K Divisible Elements Subarrays,2,k-divisible-elements-subarrays,0,0
 2262,Total Appeal of A String,3,total-appeal-of-a-string,0,0
 2263,Make Array Non-decreasing or Non-increasing,3,make-array-non-decreasing-or-non-increasing,1,0
+2264,Largest 3-Same-Digit Number in String,1,largest-3-same-digit-number-in-string,0,0
+2265,Count Nodes Equal to Average of Subtree,2,count-nodes-equal-to-average-of-subtree,0,0
+2266,Count Number of Texts,2,count-number-of-texts,0,0
+2267, Check if There Is a Valid Parentheses String Path,3,check-if-there-is-a-valid-parentheses-string-path,0,0
