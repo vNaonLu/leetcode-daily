@@ -443,7 +443,7 @@ id,title,level,slug,paid,done
 442,Find All Duplicates in an Array,2,find-all-duplicates-in-an-array,0,1
 443,String Compression,2,string-compression,0,0
 444,Sequence Reconstruction,2,sequence-reconstruction,1,0
-445,Add Two Numbers II,2,add-two-numbers-ii,0,0
+445,Add Two Numbers II,2,add-two-numbers-ii,0,1
 446,Arithmetic Slices II - Subsequence,3,arithmetic-slices-ii-subsequence,0,1
 447,Number of Boomerangs,2,number-of-boomerangs,0,0
 448,Find All Numbers Disappeared in an Array,1,find-all-numbers-disappeared-in-an-array,0,1
