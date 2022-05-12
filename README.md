@@ -889,7 +889,7 @@ My daily challenge on leetcode since 2021/09/06.
 ||857|[Minimum Cost to Hire K Workers](https://leetcode.com/problems/minimum-cost-to-hire-k-workers/)|Hard|
 ||858|[Mirror Reflection](https://leetcode.com/problems/mirror-reflection/)|Medium|
 ||859|[Buddy Strings](https://leetcode.com/problems/buddy-strings/)|Easy|
-||860|[Lemonade Change](https://leetcode.com/problems/lemonade-change/)|Easy|
+|[📎](src/q_851_900/q0860.cc)|860|[Lemonade Change](https://leetcode.com/problems/lemonade-change/)|Easy|
 ||861|[Score After Flipping Matrix](https://leetcode.com/problems/score-after-flipping-matrix/)|Medium|
 |[📎](src/q_851_900/q0862.cc)|862|[Shortest Subarray with Sum at Least K](https://leetcode.com/problems/shortest-subarray-with-sum-at-least-k/)|Hard|
 ||863|[All Nodes Distance K in Binary Tree](https://leetcode.com/problems/all-nodes-distance-k-in-binary-tree/)|Medium|
@@ -2341,6 +2341,7 @@ My daily challenge on leetcode since 2021/09/06.
 
 |Time|#|</>|Question Title|Difficulty|
 |:--|--:|:-:|:--|:--|
+|2022-05-12 18:11|860|[📎](src/q_851_900/q0860.cc)|[Lemonade Change](https://leetcode.com/problems/lemonade-change/)|Easy|
 |2022-05-11 11:15|1641|[📎](src/q_1601_1650/q1641.cc)|[Count Sorted Vowel Strings](https://leetcode.com/problems/count-sorted-vowel-strings/)|Medium|
 |2022-05-10 19:27|445|[📎](src/q_401_450/q0445.cc)|[Add Two Numbers II](https://leetcode.com/problems/add-two-numbers-ii/)|Medium|
 |2022-05-10 19:01|216|[📎](src/q_201_250/q0216.cc)|[Combination Sum III](https://leetcode.com/problems/combination-sum-iii/)|Medium|
@@ -2365,13 +2366,12 @@ My daily challenge on leetcode since 2021/09/06.
 |2022-04-28 18:28|1631|[📎](src/q_1601_1650/q1631.cc)|[Path With Minimum Effort](https://leetcode.com/problems/path-with-minimum-effort/)|Medium|
 |2022-04-28 18:15|150|[📎](src/q_101_150/q0150.cc)|[Evaluate Reverse Polish Notation](https://leetcode.com/problems/evaluate-reverse-polish-notation/)|Medium|
 |2022-04-27 18:40|459|[📎](src/q_451_500/q0459.cc)|[Repeated Substring Pattern](https://leetcode.com/problems/repeated-substring-pattern/)|Easy|
-|2022-04-27 18:21|1202|[📎](src/q_1201_1250/q1202.cc)|[Smallest String With Swaps](https://leetcode.com/problems/smallest-string-with-swaps/)|Medium|
 
 ## Previous Logs
 
 |Month|Submissions|Easy|Medium|Hard|
 |:--|:--|:--|:--|:--|
-|[May_2022](./assets/May_2022.md)|18|4|14|0|
+|[May_2022](./assets/May_2022.md)|19|5|14|0|
 |[April_2022](./assets/April_2022.md)|56|37|19|0|
 |[March_2022](./assets/March_2022.md)|49|6|39|4|
 |[February_2022](./assets/February_2022.md)|69|15|43|11|
