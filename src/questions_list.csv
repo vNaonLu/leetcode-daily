@@ -1843,7 +1843,7 @@ id,title,level,slug,paid,done
 1842,Next Palindrome Using Same Digits,3,next-palindrome-using-same-digits,1,0
 1843,Suspicious Bank Accounts,2,suspicious-bank-accounts,1,0
 1844,Replace All Digits with Characters,1,replace-all-digits-with-characters,0,0
-1845,Seat Reservation Manager,2,seat-reservation-manager,0,0
+1845,Seat Reservation Manager,2,seat-reservation-manager,0,1
 1846,Maximum Element After Decreasing and Rearranging,2,maximum-element-after-decreasing-and-rearranging,0,0
 1847,Closest Room,3,closest-room,0,0
 1848,Minimum Distance to the Target Element,1,minimum-distance-to-the-target-element,0,0
