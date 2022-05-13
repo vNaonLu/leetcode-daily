@@ -1128,7 +1128,7 @@ My daily challenge on leetcode since 2021/09/06.
 ||1090|[Largest Values From Labels](https://leetcode.com/problems/largest-values-from-labels/)|Medium|
 |[📎](src/q_1051_1100/q1091.cc)|1091|[Shortest Path in Binary Matrix](https://leetcode.com/problems/shortest-path-in-binary-matrix/)|Medium|
 ||1092|[Shortest Common Supersequence ](https://leetcode.com/problems/shortest-common-supersequence/)|Hard|
-||1093|[Statistics from a Large Sample](https://leetcode.com/problems/statistics-from-a-large-sample/)|Medium|
+|[📎](src/q_1051_1100/q1093.cc)|1093|[Statistics from a Large Sample](https://leetcode.com/problems/statistics-from-a-large-sample/)|Medium|
 |[📎](src/q_1051_1100/q1094.cc)|1094|[Car Pooling](https://leetcode.com/problems/car-pooling/)|Medium|
 ||1095|[Find in Mountain Array](https://leetcode.com/problems/find-in-mountain-array/)|Hard|
 ||1096|[Brace Expansion II](https://leetcode.com/problems/brace-expansion-ii/)|Hard|
@@ -2341,6 +2341,7 @@ My daily challenge on leetcode since 2021/09/06.
 
 |Time|#|</>|Question Title|Difficulty|
 |:--|--:|:-:|:--|:--|
+|2022-05-13 18:33|1093|[📎](src/q_1051_1100/q1093.cc)|[Statistics from a Large Sample](https://leetcode.com/problems/statistics-from-a-large-sample/)|Medium|
 |2022-05-12 18:19|1845|[📎](src/q_1801_1850/q1845.cc)|[Seat Reservation Manager](https://leetcode.com/problems/seat-reservation-manager/)|Medium|
 |2022-05-12 18:11|860|[📎](src/q_851_900/q0860.cc)|[Lemonade Change](https://leetcode.com/problems/lemonade-change/)|Easy|
 |2022-05-11 11:15|1641|[📎](src/q_1601_1650/q1641.cc)|[Count Sorted Vowel Strings](https://leetcode.com/problems/count-sorted-vowel-strings/)|Medium|
@@ -2365,13 +2366,12 @@ My daily challenge on leetcode since 2021/09/06.
 |2022-04-30 10:30|989|[📎](src/q_951_1000/q0989.cc)|[Add to Array-Form of Integer](https://leetcode.com/problems/add-to-array-form-of-integer/)|Easy|
 |2022-04-29 15:24|1367|[📎](src/q_1351_1400/q1367.cc)|[Linked List in Binary Tree](https://leetcode.com/problems/linked-list-in-binary-tree/)|Medium|
 |2022-04-28 18:28|1631|[📎](src/q_1601_1650/q1631.cc)|[Path With Minimum Effort](https://leetcode.com/problems/path-with-minimum-effort/)|Medium|
-|2022-04-28 18:15|150|[📎](src/q_101_150/q0150.cc)|[Evaluate Reverse Polish Notation](https://leetcode.com/problems/evaluate-reverse-polish-notation/)|Medium|
 
 ## Previous Logs
 
 |Month|Submissions|Easy|Medium|Hard|
 |:--|:--|:--|:--|:--|
-|[May_2022](./assets/May_2022.md)|20|5|15|0|
+|[May_2022](./assets/May_2022.md)|21|5|16|0|
 |[April_2022](./assets/April_2022.md)|56|37|19|0|
 |[March_2022](./assets/March_2022.md)|49|6|39|4|
 |[February_2022](./assets/February_2022.md)|69|15|43|11|

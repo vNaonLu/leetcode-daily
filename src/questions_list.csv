@@ -1091,7 +1091,7 @@ id,title,level,slug,paid,done
 1090,Largest Values From Labels,2,largest-values-from-labels,0,0
 1091,Shortest Path in Binary Matrix,2,shortest-path-in-binary-matrix,0,1
 1092,Shortest Common Supersequence ,3,shortest-common-supersequence,0,0
-1093,Statistics from a Large Sample,2,statistics-from-a-large-sample,0,0
+1093,Statistics from a Large Sample,2,statistics-from-a-large-sample,0,1
 1094,Car Pooling,2,car-pooling,0,1
 1095,Find in Mountain Array,3,find-in-mountain-array,0,0
 1096,Brace Expansion II,3,brace-expansion-ii,0,0
