@@ -1795,7 +1795,7 @@ id,title,level,slug,paid,done
 1794,Count Pairs of Equal Substrings With Minimum Difference,2,count-pairs-of-equal-substrings-with-minimum-difference,1,0
 1795,Rearrange Products Table,1,rearrange-products-table,0,0
 1796,Second Largest Digit in a String,1,second-largest-digit-in-a-string,0,0
-1797,Design Authentication Manager,2,design-authentication-manager,0,0
+1797,Design Authentication Manager,2,design-authentication-manager,0,1
 1798,Maximum Number of Consecutive Values You Can Make,2,maximum-number-of-consecutive-values-you-can-make,0,0
 1799,Maximize Score After N Operations,3,maximize-score-after-n-operations,0,0
 1800,Maximum Ascending Subarray Sum,1,maximum-ascending-subarray-sum,0,0

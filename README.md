@@ -1850,7 +1850,7 @@ My daily challenge on leetcode since 2021/09/06.
 |🔒|1794|[Count Pairs of Equal Substrings With Minimum Difference](https://leetcode.com/problems/count-pairs-of-equal-substrings-with-minimum-difference/)|Medium|
 ||1795|[Rearrange Products Table](https://leetcode.com/problems/rearrange-products-table/)|Easy|
 ||1796|[Second Largest Digit in a String](https://leetcode.com/problems/second-largest-digit-in-a-string/)|Easy|
-||1797|[Design Authentication Manager](https://leetcode.com/problems/design-authentication-manager/)|Medium|
+|[📎](src/q_1751_1800/q1797.cc)|1797|[Design Authentication Manager](https://leetcode.com/problems/design-authentication-manager/)|Medium|
 ||1798|[Maximum Number of Consecutive Values You Can Make](https://leetcode.com/problems/maximum-number-of-consecutive-values-you-can-make/)|Medium|
 ||1799|[Maximize Score After N Operations](https://leetcode.com/problems/maximize-score-after-n-operations/)|Hard|
 ||1800|[Maximum Ascending Subarray Sum](https://leetcode.com/problems/maximum-ascending-subarray-sum/)|Easy|
@@ -2341,6 +2341,7 @@ My daily challenge on leetcode since 2021/09/06.
 
 |Time|#|</>|Question Title|Difficulty|
 |:--|--:|:-:|:--|:--|
+|2022-05-14 12:59|1797|[📎](src/q_1751_1800/q1797.cc)|[Design Authentication Manager](https://leetcode.com/problems/design-authentication-manager/)|Medium|
 |2022-05-14 12:34|743|[📎](src/q_701_750/q0743.cc)|[Network Delay Time](https://leetcode.com/problems/network-delay-time/)|Medium|
 |2022-05-13 18:33|1093|[📎](src/q_1051_1100/q1093.cc)|[Statistics from a Large Sample](https://leetcode.com/problems/statistics-from-a-large-sample/)|Medium|
 |2022-05-12 18:19|1845|[📎](src/q_1801_1850/q1845.cc)|[Seat Reservation Manager](https://leetcode.com/problems/seat-reservation-manager/)|Medium|
@@ -2365,13 +2366,12 @@ My daily challenge on leetcode since 2021/09/06.
 |2022-05-01 11:21|2006|[📎](src/q_2001_2050/q2006.cc)|[Count Number of Pairs With Absolute Difference K](https://leetcode.com/problems/count-number-of-pairs-with-absolute-difference-k/)|Easy|
 |2022-04-30 10:39|399|[📎](src/q_351_400/q0399.cc)|[Evaluate Division](https://leetcode.com/problems/evaluate-division/)|Medium|
 |2022-04-30 10:30|989|[📎](src/q_951_1000/q0989.cc)|[Add to Array-Form of Integer](https://leetcode.com/problems/add-to-array-form-of-integer/)|Easy|
-|2022-04-29 15:24|1367|[📎](src/q_1351_1400/q1367.cc)|[Linked List in Binary Tree](https://leetcode.com/problems/linked-list-in-binary-tree/)|Medium|
 
 ## Previous Logs
 
 |Month|Submissions|Easy|Medium|Hard|
 |:--|:--|:--|:--|:--|
-|[May_2022](./assets/May_2022.md)|22|5|17|0|
+|[May_2022](./assets/May_2022.md)|23|5|18|0|
 |[April_2022](./assets/April_2022.md)|56|37|19|0|
 |[March_2022](./assets/March_2022.md)|49|6|39|4|
 |[February_2022](./assets/February_2022.md)|69|15|43|11|
