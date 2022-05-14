@@ -741,7 +741,7 @@ id,title,level,slug,paid,done
 740,Delete and Earn,2,delete-and-earn,0,1
 741,Cherry Pickup,3,cherry-pickup,0,0
 742,Closest Leaf in a Binary Tree,2,closest-leaf-in-a-binary-tree,1,0
-743,Network Delay Time,2,network-delay-time,0,0
+743,Network Delay Time,2,network-delay-time,0,1
 744,Find Smallest Letter Greater Than Target,1,find-smallest-letter-greater-than-target,0,1
 745,Prefix and Suffix Search,3,prefix-and-suffix-search,0,0
 746,Min Cost Climbing Stairs,1,min-cost-climbing-stairs,0,1
