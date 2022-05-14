@@ -214,7 +214,7 @@ id,title,level,slug,paid,done
 213,House Robber II,2,house-robber-ii,0,1
 214,Shortest Palindrome,3,shortest-palindrome,0,0
 215,Kth Largest Element in an Array,2,kth-largest-element-in-an-array,0,1
-216,Combination Sum III,2,combination-sum-iii,0,0
+216,Combination Sum III,2,combination-sum-iii,0,1
 217,Contains Duplicate,1,contains-duplicate,0,0
 218,The Skyline Problem,3,the-skyline-problem,0,0
 219,Contains Duplicate II,1,contains-duplicate-ii,0,0
@@ -339,7 +339,7 @@ id,title,level,slug,paid,done
 338,Counting Bits,1,counting-bits,0,1
 339,Nested List Weight Sum,2,nested-list-weight-sum,1,0
 340,Longest Substring with At Most K Distinct Characters,2,longest-substring-with-at-most-k-distinct-characters,1,0
-341,Flatten Nested List Iterator,2,flatten-nested-list-iterator,0,0
+341,Flatten Nested List Iterator,2,flatten-nested-list-iterator,0,1
 342,Power of Four,1,power-of-four,0,0
 343,Integer Break,2,integer-break,0,1
 344,Reverse String,1,reverse-string,0,1
@@ -443,7 +443,7 @@ id,title,level,slug,paid,done
 442,Find All Duplicates in an Array,2,find-all-duplicates-in-an-array,0,1
 443,String Compression,2,string-compression,0,0
 444,Sequence Reconstruction,2,sequence-reconstruction,1,0
-445,Add Two Numbers II,2,add-two-numbers-ii,0,0
+445,Add Two Numbers II,2,add-two-numbers-ii,0,1
 446,Arithmetic Slices II - Subsequence,3,arithmetic-slices-ii-subsequence,0,1
 447,Number of Boomerangs,2,number-of-boomerangs,0,0
 448,Find All Numbers Disappeared in an Array,1,find-all-numbers-disappeared-in-an-array,0,1
@@ -690,7 +690,7 @@ id,title,level,slug,paid,done
 689,Maximum Sum of 3 Non-Overlapping Subarrays,3,maximum-sum-of-3-non-overlapping-subarrays,0,0
 690,Employee Importance,2,employee-importance,0,0
 691,Stickers to Spell Word,3,stickers-to-spell-word,0,0
-692,Top K Frequent Words,2,top-k-frequent-words,0,0
+692,Top K Frequent Words,2,top-k-frequent-words,0,1
 693,Binary Number with Alternating Bits,1,binary-number-with-alternating-bits,0,1
 694,Number of Distinct Islands,2,number-of-distinct-islands,1,0
 695,Max Area of Island,2,max-area-of-island,0,1
@@ -741,7 +741,7 @@ id,title,level,slug,paid,done
 740,Delete and Earn,2,delete-and-earn,0,1
 741,Cherry Pickup,3,cherry-pickup,0,0
 742,Closest Leaf in a Binary Tree,2,closest-leaf-in-a-binary-tree,1,0
-743,Network Delay Time,2,network-delay-time,0,0
+743,Network Delay Time,2,network-delay-time,0,1
 744,Find Smallest Letter Greater Than Target,1,find-smallest-letter-greater-than-target,0,1
 745,Prefix and Suffix Search,3,prefix-and-suffix-search,0,0
 746,Min Cost Climbing Stairs,1,min-cost-climbing-stairs,0,1
@@ -858,7 +858,7 @@ id,title,level,slug,paid,done
 857,Minimum Cost to Hire K Workers,3,minimum-cost-to-hire-k-workers,0,0
 858,Mirror Reflection,2,mirror-reflection,0,0
 859,Buddy Strings,1,buddy-strings,0,0
-860,Lemonade Change,1,lemonade-change,0,0
+860,Lemonade Change,1,lemonade-change,0,1
 861,Score After Flipping Matrix,2,score-after-flipping-matrix,0,0
 862,Shortest Subarray with Sum at Least K,3,shortest-subarray-with-sum-at-least-k,0,1
 863,All Nodes Distance K in Binary Tree,2,all-nodes-distance-k-in-binary-tree,0,0
@@ -908,7 +908,7 @@ id,title,level,slug,paid,done
 907,Sum of Subarray Minimums,2,sum-of-subarray-minimums,0,1
 908,Smallest Range I,1,smallest-range-i,0,0
 909,Snakes and Ladders,2,snakes-and-ladders,0,0
-910,Smallest Range II,2,smallest-range-ii,0,0
+910,Smallest Range II,2,smallest-range-ii,0,1
 911,Online Election,2,online-election,0,0
 912,Sort an Array,2,sort-an-array,0,1
 913,Cat and Mouse,3,cat-and-mouse,0,0
@@ -1091,7 +1091,7 @@ id,title,level,slug,paid,done
 1090,Largest Values From Labels,2,largest-values-from-labels,0,0
 1091,Shortest Path in Binary Matrix,2,shortest-path-in-binary-matrix,0,1
 1092,Shortest Common Supersequence ,3,shortest-common-supersequence,0,0
-1093,Statistics from a Large Sample,2,statistics-from-a-large-sample,0,0
+1093,Statistics from a Large Sample,2,statistics-from-a-large-sample,0,1
 1094,Car Pooling,2,car-pooling,0,1
 1095,Find in Mountain Array,3,find-in-mountain-array,0,0
 1096,Brace Expansion II,3,brace-expansion-ii,0,0
@@ -1639,7 +1639,7 @@ id,title,level,slug,paid,done
 1638,Count Substrings That Differ by One Character,2,count-substrings-that-differ-by-one-character,0,0
 1639,Number of Ways to Form a Target String Given a Dictionary,3,number-of-ways-to-form-a-target-string-given-a-dictionary,0,0
 1640,Check Array Formation Through Concatenation,1,check-array-formation-through-concatenation,0,0
-1641,Count Sorted Vowel Strings,2,count-sorted-vowel-strings,0,0
+1641,Count Sorted Vowel Strings,2,count-sorted-vowel-strings,0,1
 1642,Furthest Building You Can Reach,2,furthest-building-you-can-reach,0,0
 1643,Kth Smallest Instructions,3,kth-smallest-instructions,0,0
 1644,Lowest Common Ancestor of a Binary Tree II,2,lowest-common-ancestor-of-a-binary-tree-ii,1,0
@@ -1795,7 +1795,7 @@ id,title,level,slug,paid,done
 1794,Count Pairs of Equal Substrings With Minimum Difference,2,count-pairs-of-equal-substrings-with-minimum-difference,1,0
 1795,Rearrange Products Table,1,rearrange-products-table,0,0
 1796,Second Largest Digit in a String,1,second-largest-digit-in-a-string,0,0
-1797,Design Authentication Manager,2,design-authentication-manager,0,0
+1797,Design Authentication Manager,2,design-authentication-manager,0,1
 1798,Maximum Number of Consecutive Values You Can Make,2,maximum-number-of-consecutive-values-you-can-make,0,0
 1799,Maximize Score After N Operations,3,maximize-score-after-n-operations,0,0
 1800,Maximum Ascending Subarray Sum,1,maximum-ascending-subarray-sum,0,0
@@ -1843,7 +1843,7 @@ id,title,level,slug,paid,done
 1842,Next Palindrome Using Same Digits,3,next-palindrome-using-same-digits,1,0
 1843,Suspicious Bank Accounts,2,suspicious-bank-accounts,1,0
 1844,Replace All Digits with Characters,1,replace-all-digits-with-characters,0,0
-1845,Seat Reservation Manager,2,seat-reservation-manager,0,0
+1845,Seat Reservation Manager,2,seat-reservation-manager,0,1
 1846,Maximum Element After Decreasing and Rearranging,2,maximum-element-after-decreasing-and-rearranging,0,0
 1847,Closest Room,3,closest-room,0,0
 1848,Minimum Distance to the Target Element,1,minimum-distance-to-the-target-element,0,0
@@ -2262,3 +2262,8 @@ id,title,level,slug,paid,done
 2261,K Divisible Elements Subarrays,2,k-divisible-elements-subarrays,0,0
 2262,Total Appeal of A String,3,total-appeal-of-a-string,0,0
 2263,Make Array Non-decreasing or Non-increasing,3,make-array-non-decreasing-or-non-increasing,1,0
+2264,Largest 3-Same-Digit Number in String,1,largest-3-same-digit-number-in-string,0,0
+2265,Count Nodes Equal to Average of Subtree,2,count-nodes-equal-to-average-of-subtree,0,0
+2266,Count Number of Texts,2,count-number-of-texts,0,0
+2267, Check if There Is a Valid Parentheses String Path,3,check-if-there-is-a-valid-parentheses-string-path,0,0
+2268,Minimum Number of Keypresses,2,minimum-number-of-keypresses,1,0
