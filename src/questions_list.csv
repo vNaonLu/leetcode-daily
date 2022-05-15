@@ -727,7 +727,7 @@ id,title,level,slug,paid,done
 726,Number of Atoms,3,number-of-atoms,0,0
 727,Minimum Window Subsequence,3,minimum-window-subsequence,1,0
 728,Self Dividing Numbers,1,self-dividing-numbers,0,0
-729,My Calendar I,2,my-calendar-i,0,0
+729,My Calendar I,2,my-calendar-i,0,1
 730,Count Different Palindromic Subsequences,3,count-different-palindromic-subsequences,0,0
 731,My Calendar II,2,my-calendar-ii,0,0
 732,My Calendar III,3,my-calendar-iii,0,0
