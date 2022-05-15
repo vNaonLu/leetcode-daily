@@ -1343,7 +1343,7 @@ My daily challenge on leetcode since 2021/09/06.
 ||1299|[Replace Elements with Greatest Element on Right Side](https://leetcode.com/problems/replace-elements-with-greatest-element-on-right-side/)|Easy|
 ||1300|[Sum of Mutated Array Closest to Target](https://leetcode.com/problems/sum-of-mutated-array-closest-to-target/)|Medium|
 ||1301|[Number of Paths with Max Score](https://leetcode.com/problems/number-of-paths-with-max-score/)|Hard|
-||1302|[Deepest Leaves Sum](https://leetcode.com/problems/deepest-leaves-sum/)|Medium|
+|[📎](src/q_1301_1350/q1302.cc)|1302|[Deepest Leaves Sum](https://leetcode.com/problems/deepest-leaves-sum/)|Medium|
 |🔒|1303|[Find the Team Size](https://leetcode.com/problems/find-the-team-size/)|Easy|
 ||1304|[Find N Unique Integers Sum up to Zero](https://leetcode.com/problems/find-n-unique-integers-sum-up-to-zero/)|Easy|
 |[📎](src/q_1301_1350/q1305.cc)|1305|[All Elements in Two Binary Search Trees](https://leetcode.com/problems/all-elements-in-two-binary-search-trees/)|Medium|
@@ -2312,7 +2312,7 @@ My daily challenge on leetcode since 2021/09/06.
 ||2250|[Count Number of Rectangles Containing Each Point](https://leetcode.com/problems/count-number-of-rectangles-containing-each-point/)|Medium|
 </details>
 <details>
-  <summary>### 2251 ~ 2268</summary>
+  <summary>### 2251 ~ 2276</summary>
 
 |</>|#|Solution Title|Difficulty|
 |:-:|--:|:--|:--|
@@ -2334,6 +2334,14 @@ My daily challenge on leetcode since 2021/09/06.
 ||2266|[Count Number of Texts](https://leetcode.com/problems/count-number-of-texts/)|Medium|
 ||2267|[ Check if There Is a Valid Parentheses String Path](https://leetcode.com/problems/check-if-there-is-a-valid-parentheses-string-path/)|Hard|
 |🔒|2268|[Minimum Number of Keypresses](https://leetcode.com/problems/minimum-number-of-keypresses/)|Medium|
+||2269|[Find the K-Beauty of a Number](https://leetcode.com/problems/find-the-k-beauty-of-a-number/)|Easy|
+||2270|[Number of Ways to Split Array](https://leetcode.com/problems/number-of-ways-to-split-array/)|Medium|
+||2271|[Maximum White Tiles Covered by a Carpet](https://leetcode.com/problems/maximum-white-tiles-covered-by-a-carpet/)|Medium|
+||2272|[Substring With Largest Variance](https://leetcode.com/problems/substring-with-largest-variance/)|Hard|
+||2273|[Find Resultant Array After Removing Anagrams](https://leetcode.com/problems/find-resultant-array-after-removing-anagrams/)|Easy|
+||2274|[Maximum Consecutive Floors Without Special Floors](https://leetcode.com/problems/maximum-consecutive-floors-without-special-floors/)|Medium|
+||2275|[Largest Combination With Bitwise AND Greater Than Zero](https://leetcode.com/problems/largest-combination-with-bitwise-and-greater-than-zero/)|Medium|
+||2276|[Count Integers in Intervals](https://leetcode.com/problems/count-integers-in-intervals/)|Hard|
 </details>
 
 ---
@@ -2341,6 +2349,7 @@ My daily challenge on leetcode since 2021/09/06.
 
 |Time|#|</>|Question Title|Difficulty|
 |:--|--:|:-:|:--|:--|
+|2022-05-15 12:59|1302|[📎](src/q_1301_1350/q1302.cc)|[Deepest Leaves Sum](https://leetcode.com/problems/deepest-leaves-sum/)|Medium|
 |2022-05-14 12:59|1797|[📎](src/q_1751_1800/q1797.cc)|[Design Authentication Manager](https://leetcode.com/problems/design-authentication-manager/)|Medium|
 |2022-05-14 12:34|743|[📎](src/q_701_750/q0743.cc)|[Network Delay Time](https://leetcode.com/problems/network-delay-time/)|Medium|
 |2022-05-13 18:33|1093|[📎](src/q_1051_1100/q1093.cc)|[Statistics from a Large Sample](https://leetcode.com/problems/statistics-from-a-large-sample/)|Medium|
@@ -2365,13 +2374,12 @@ My daily challenge on leetcode since 2021/09/06.
 |2022-05-02 13:17|905|[📎](src/q_901_950/q0905.cc)|[Sort Array By Parity](https://leetcode.com/problems/sort-array-by-parity/)|Easy|
 |2022-05-01 11:21|2006|[📎](src/q_2001_2050/q2006.cc)|[Count Number of Pairs With Absolute Difference K](https://leetcode.com/problems/count-number-of-pairs-with-absolute-difference-k/)|Easy|
 |2022-04-30 10:39|399|[📎](src/q_351_400/q0399.cc)|[Evaluate Division](https://leetcode.com/problems/evaluate-division/)|Medium|
-|2022-04-30 10:30|989|[📎](src/q_951_1000/q0989.cc)|[Add to Array-Form of Integer](https://leetcode.com/problems/add-to-array-form-of-integer/)|Easy|
 
 ## Previous Logs
 
 |Month|Submissions|Easy|Medium|Hard|
 |:--|:--|:--|:--|:--|
-|[May_2022](./assets/May_2022.md)|23|5|18|0|
+|[May_2022](./assets/May_2022.md)|24|5|19|0|
 |[April_2022](./assets/April_2022.md)|56|37|19|0|
 |[March_2022](./assets/March_2022.md)|49|6|39|4|
 |[February_2022](./assets/February_2022.md)|69|15|43|11|

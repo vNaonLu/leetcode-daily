@@ -1300,7 +1300,7 @@ id,title,level,slug,paid,done
 1299,Replace Elements with Greatest Element on Right Side,1,replace-elements-with-greatest-element-on-right-side,0,0
 1300,Sum of Mutated Array Closest to Target,2,sum-of-mutated-array-closest-to-target,0,0
 1301,Number of Paths with Max Score,3,number-of-paths-with-max-score,0,0
-1302,Deepest Leaves Sum,2,deepest-leaves-sum,0,0
+1302,Deepest Leaves Sum,2,deepest-leaves-sum,0,1
 1303,Find the Team Size,1,find-the-team-size,1,0
 1304,Find N Unique Integers Sum up to Zero,1,find-n-unique-integers-sum-up-to-zero,0,0
 1305,All Elements in Two Binary Search Trees,2,all-elements-in-two-binary-search-trees,0,1
@@ -2267,3 +2267,11 @@ id,title,level,slug,paid,done
 2266,Count Number of Texts,2,count-number-of-texts,0,0
 2267, Check if There Is a Valid Parentheses String Path,3,check-if-there-is-a-valid-parentheses-string-path,0,0
 2268,Minimum Number of Keypresses,2,minimum-number-of-keypresses,1,0
+2269,Find the K-Beauty of a Number,1,find-the-k-beauty-of-a-number,0,0
+2270,Number of Ways to Split Array,2,number-of-ways-to-split-array,0,0
+2271,Maximum White Tiles Covered by a Carpet,2,maximum-white-tiles-covered-by-a-carpet,0,0
+2272,Substring With Largest Variance,3,substring-with-largest-variance,0,0
+2273,Find Resultant Array After Removing Anagrams,1,find-resultant-array-after-removing-anagrams,0,0
+2274,Maximum Consecutive Floors Without Special Floors,2,maximum-consecutive-floors-without-special-floors,0,0
+2275,Largest Combination With Bitwise AND Greater Than Zero,2,largest-combination-with-bitwise-and-greater-than-zero,0,0
+2276,Count Integers in Intervals,3,count-integers-in-intervals,0,0
