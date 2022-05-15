@@ -620,7 +620,7 @@ id,title,level,slug,paid,done
 619,Biggest Single Number,1,biggest-single-number,1,0
 620,Not Boring Movies,1,not-boring-movies,0,0
 621,Task Scheduler,2,task-scheduler,0,1
-622,Design Circular Queue,2,design-circular-queue,0,0
+622,Design Circular Queue,2,design-circular-queue,0,1
 623,Add One Row to Tree,2,add-one-row-to-tree,0,0
 624,Maximum Distance in Arrays,2,maximum-distance-in-arrays,1,0
 625,Minimum Factorization,2,minimum-factorization,1,0

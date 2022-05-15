@@ -645,7 +645,7 @@ My daily challenge on leetcode since 2021/09/06.
 |🔒|619|[Biggest Single Number](https://leetcode.com/problems/biggest-single-number/)|Easy|
 ||620|[Not Boring Movies](https://leetcode.com/problems/not-boring-movies/)|Easy|
 |[📎](src/q_601_650/q0621.cc)|621|[Task Scheduler](https://leetcode.com/problems/task-scheduler/)|Medium|
-||622|[Design Circular Queue](https://leetcode.com/problems/design-circular-queue/)|Medium|
+|[📎](src/q_601_650/q0622.cc)|622|[Design Circular Queue](https://leetcode.com/problems/design-circular-queue/)|Medium|
 ||623|[Add One Row to Tree](https://leetcode.com/problems/add-one-row-to-tree/)|Medium|
 |🔒|624|[Maximum Distance in Arrays](https://leetcode.com/problems/maximum-distance-in-arrays/)|Medium|
 |🔒|625|[Minimum Factorization](https://leetcode.com/problems/minimum-factorization/)|Medium|
@@ -2349,6 +2349,7 @@ My daily challenge on leetcode since 2021/09/06.
 
 |Time|#|</>|Question Title|Difficulty|
 |:--|--:|:-:|:--|:--|
+|2022-05-15 13:35|622|[📎](src/q_601_650/q0622.cc)|[Design Circular Queue](https://leetcode.com/problems/design-circular-queue/)|Medium|
 |2022-05-15 13:05|729|[📎](src/q_701_750/q0729.cc)|[My Calendar I](https://leetcode.com/problems/my-calendar-i/)|Medium|
 |2022-05-15 12:59|1302|[📎](src/q_1301_1350/q1302.cc)|[Deepest Leaves Sum](https://leetcode.com/problems/deepest-leaves-sum/)|Medium|
 |2022-05-14 12:59|1797|[📎](src/q_1751_1800/q1797.cc)|[Design Authentication Manager](https://leetcode.com/problems/design-authentication-manager/)|Medium|
@@ -2373,13 +2374,12 @@ My daily challenge on leetcode since 2021/09/06.
 |2022-05-03 17:59|581|[📎](src/q_551_600/q0581.cc)|[Shortest Unsorted Continuous Subarray](https://leetcode.com/problems/shortest-unsorted-continuous-subarray/)|Medium|
 |2022-05-02 13:31|1886|[📎](src/q_1851_1900/q1886.cc)|[Determine Whether Matrix Can Be Obtained By Rotation](https://leetcode.com/problems/determine-whether-matrix-can-be-obtained-by-rotation/)|Easy|
 |2022-05-02 13:17|905|[📎](src/q_901_950/q0905.cc)|[Sort Array By Parity](https://leetcode.com/problems/sort-array-by-parity/)|Easy|
-|2022-05-01 11:21|2006|[📎](src/q_2001_2050/q2006.cc)|[Count Number of Pairs With Absolute Difference K](https://leetcode.com/problems/count-number-of-pairs-with-absolute-difference-k/)|Easy|
 
 ## Previous Logs
 
 |Month|Submissions|Easy|Medium|Hard|
 |:--|:--|:--|:--|:--|
-|[May_2022](./assets/May_2022.md)|25|5|20|0|
+|[May_2022](./assets/May_2022.md)|26|5|21|0|
 |[April_2022](./assets/April_2022.md)|56|37|19|0|
 |[March_2022](./assets/March_2022.md)|49|6|39|4|
 |[February_2022](./assets/February_2022.md)|69|15|43|11|
