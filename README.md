@@ -151,7 +151,7 @@ My daily challenge on leetcode since 2021/09/06.
 ||137|[Single Number II](https://leetcode.com/problems/single-number-ii/)|Medium|
 |[📎](src/q_101_150/q0138.cc)|138|[Copy List with Random Pointer](https://leetcode.com/problems/copy-list-with-random-pointer/)|Medium|
 |[📎](src/q_101_150/q0139.cc)|139|[Word Break](https://leetcode.com/problems/word-break/)|Medium|
-||140|[Word Break II](https://leetcode.com/problems/word-break-ii/)|Hard|
+|[📎](src/q_101_150/q0140.cc)|140|[Word Break II](https://leetcode.com/problems/word-break-ii/)|Hard|
 |[📎](src/q_101_150/q0141.cc)|141|[Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/)|Easy|
 |[📎](src/q_101_150/q0142.cc)|142|[Linked List Cycle II](https://leetcode.com/problems/linked-list-cycle-ii/)|Medium|
 |[📎](src/q_101_150/q0143.cc)|143|[Reorder List](https://leetcode.com/problems/reorder-list/)|Medium|
@@ -2349,6 +2349,7 @@ My daily challenge on leetcode since 2021/09/06.
 
 |Time|#|</>|Question Title|Difficulty|
 |:--|--:|:-:|:--|:--|
+|2022-05-16 17:56|140|[📎](src/q_101_150/q0140.cc)|[Word Break II](https://leetcode.com/problems/word-break-ii/)|Hard|
 |2022-05-15 13:35|622|[📎](src/q_601_650/q0622.cc)|[Design Circular Queue](https://leetcode.com/problems/design-circular-queue/)|Medium|
 |2022-05-15 13:05|729|[📎](src/q_701_750/q0729.cc)|[My Calendar I](https://leetcode.com/problems/my-calendar-i/)|Medium|
 |2022-05-15 12:59|1302|[📎](src/q_1301_1350/q1302.cc)|[Deepest Leaves Sum](https://leetcode.com/problems/deepest-leaves-sum/)|Medium|
@@ -2373,13 +2374,12 @@ My daily challenge on leetcode since 2021/09/06.
 |2022-05-04 17:59|1679|[📎](src/q_1651_1700/q1679.cc)|[Max Number of K-Sum Pairs](https://leetcode.com/problems/max-number-of-k-sum-pairs/)|Medium|
 |2022-05-03 17:59|581|[📎](src/q_551_600/q0581.cc)|[Shortest Unsorted Continuous Subarray](https://leetcode.com/problems/shortest-unsorted-continuous-subarray/)|Medium|
 |2022-05-02 13:31|1886|[📎](src/q_1851_1900/q1886.cc)|[Determine Whether Matrix Can Be Obtained By Rotation](https://leetcode.com/problems/determine-whether-matrix-can-be-obtained-by-rotation/)|Easy|
-|2022-05-02 13:17|905|[📎](src/q_901_950/q0905.cc)|[Sort Array By Parity](https://leetcode.com/problems/sort-array-by-parity/)|Easy|
 
 ## Previous Logs
 
 |Month|Submissions|Easy|Medium|Hard|
 |:--|:--|:--|:--|:--|
-|[May_2022](./assets/May_2022.md)|26|5|21|0|
+|[May_2022](./assets/May_2022.md)|27|5|21|1|
 |[April_2022](./assets/April_2022.md)|56|37|19|0|
 |[March_2022](./assets/March_2022.md)|49|6|39|4|
 |[February_2022](./assets/February_2022.md)|69|15|43|11|
