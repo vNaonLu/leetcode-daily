@@ -1377,7 +1377,7 @@ id,title,level,slug,paid,done
 1376,Time Needed to Inform All Employees,2,time-needed-to-inform-all-employees,0,1
 1377,Frog Position After T Seconds,3,frog-position-after-t-seconds,0,0
 1378,Replace Employee ID With The Unique Identifier,1,replace-employee-id-with-the-unique-identifier,1,0
-1379,Find a Corresponding Node of a Binary Tree in a Clone of That Tree,2,find-a-corresponding-node-of-a-binary-tree-in-a-clone-of-that-tree,0,0
+1379,Find a Corresponding Node of a Binary Tree in a Clone of That Tree,2,find-a-corresponding-node-of-a-binary-tree-in-a-clone-of-that-tree,0,1
 1380,Lucky Numbers in a Matrix,1,lucky-numbers-in-a-matrix,0,0
 1381,Design a Stack With Increment Operation,2,design-a-stack-with-increment-operation,0,0
 1382,Balance a Binary Search Tree,2,balance-a-binary-search-tree,0,0
