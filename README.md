@@ -1227,7 +1227,7 @@ My daily challenge on leetcode since 2021/09/06.
 |[📎](src/q_1151_1200/q1189.cc)|1189|[Maximum Number of Balloons](https://leetcode.com/problems/maximum-number-of-balloons/)|Easy|
 ||1190|[Reverse Substrings Between Each Pair of Parentheses](https://leetcode.com/problems/reverse-substrings-between-each-pair-of-parentheses/)|Medium|
 |[📎](src/q_1151_1200/q1191.cc)|1191|[K-Concatenation Maximum Sum](https://leetcode.com/problems/k-concatenation-maximum-sum/)|Medium|
-||1192|[Critical Connections in a Network](https://leetcode.com/problems/critical-connections-in-a-network/)|Hard|
+|[📎](src/q_1151_1200/q1192.cc)|1192|[Critical Connections in a Network](https://leetcode.com/problems/critical-connections-in-a-network/)|Hard|
 |🔒|1193|[Monthly Transactions I](https://leetcode.com/problems/monthly-transactions-i/)|Medium|
 |🔒|1194|[Tournament Winners](https://leetcode.com/problems/tournament-winners/)|Hard|
 ||1195|[Fizz Buzz Multithreaded](https://leetcode.com/problems/fizz-buzz-multithreaded/)|Medium|
@@ -2349,6 +2349,7 @@ My daily challenge on leetcode since 2021/09/06.
 
 |Time|#|</>|Question Title|Difficulty|
 |:--|--:|:-:|:--|:--|
+|2022-05-18 18:21|1192|[📎](src/q_1151_1200/q1192.cc)|[Critical Connections in a Network](https://leetcode.com/problems/critical-connections-in-a-network/)|Hard|
 |2022-05-17 18:15|1379|[📎](src/q_1351_1400/q1379.cc)|[Find a Corresponding Node of a Binary Tree in a Clone of That Tree](https://leetcode.com/problems/find-a-corresponding-node-of-a-binary-tree-in-a-clone-of-that-tree/)|Medium|
 |2022-05-16 17:56|140|[📎](src/q_101_150/q0140.cc)|[Word Break II](https://leetcode.com/problems/word-break-ii/)|Hard|
 |2022-05-15 13:35|622|[📎](src/q_601_650/q0622.cc)|[Design Circular Queue](https://leetcode.com/problems/design-circular-queue/)|Medium|
@@ -2373,13 +2374,12 @@ My daily challenge on leetcode since 2021/09/06.
 |2022-05-04 18:14|429|[📎](src/q_401_450/q0429.cc)|[N-ary Tree Level Order Traversal](https://leetcode.com/problems/n-ary-tree-level-order-traversal/)|Medium|
 |2022-05-04 18:04|1630|[📎](src/q_1601_1650/q1630.cc)|[Arithmetic Subarrays](https://leetcode.com/problems/arithmetic-subarrays/)|Medium|
 |2022-05-04 17:59|1679|[📎](src/q_1651_1700/q1679.cc)|[Max Number of K-Sum Pairs](https://leetcode.com/problems/max-number-of-k-sum-pairs/)|Medium|
-|2022-05-03 17:59|581|[📎](src/q_551_600/q0581.cc)|[Shortest Unsorted Continuous Subarray](https://leetcode.com/problems/shortest-unsorted-continuous-subarray/)|Medium|
 
 ## Previous Logs
 
 |Month|Submissions|Easy|Medium|Hard|
 |:--|:--|:--|:--|:--|
-|[May_2022](./assets/May_2022.md)|28|5|22|1|
+|[May_2022](./assets/May_2022.md)|29|5|22|2|
 |[April_2022](./assets/April_2022.md)|56|37|19|0|
 |[March_2022](./assets/March_2022.md)|49|6|39|4|
 |[February_2022](./assets/February_2022.md)|69|15|43|11|

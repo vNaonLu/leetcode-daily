@@ -1190,7 +1190,7 @@ id,title,level,slug,paid,done
 1189,Maximum Number of Balloons,1,maximum-number-of-balloons,0,1
 1190,Reverse Substrings Between Each Pair of Parentheses,2,reverse-substrings-between-each-pair-of-parentheses,0,0
 1191,K-Concatenation Maximum Sum,2,k-concatenation-maximum-sum,0,1
-1192,Critical Connections in a Network,3,critical-connections-in-a-network,0,0
+1192,Critical Connections in a Network,3,critical-connections-in-a-network,0,1
 1193,Monthly Transactions I,2,monthly-transactions-i,1,0
 1194,Tournament Winners,3,tournament-winners,1,0
 1195,Fizz Buzz Multithreaded,2,fizz-buzz-multithreaded,0,0
