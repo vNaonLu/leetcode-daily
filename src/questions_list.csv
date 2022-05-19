@@ -327,7 +327,7 @@ id,title,level,slug,paid,done
 326,Power of Three,1,power-of-three,0,0
 327,Count of Range Sum,3,count-of-range-sum,0,0
 328,Odd Even Linked List,2,odd-even-linked-list,0,1
-329,Longest Increasing Path in a Matrix,3,longest-increasing-path-in-a-matrix,0,0
+329,Longest Increasing Path in a Matrix,3,longest-increasing-path-in-a-matrix,0,1
 330,Patching Array,3,patching-array,0,0
 331,Verify Preorder Serialization of a Binary Tree,2,verify-preorder-serialization-of-a-binary-tree,0,0
 332,Reconstruct Itinerary,3,reconstruct-itinerary,0,0
