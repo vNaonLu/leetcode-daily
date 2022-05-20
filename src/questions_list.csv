@@ -641,7 +641,7 @@ id,title,level,slug,paid,done
 640,Solve the Equation,2,solve-the-equation,0,0
 641,Design Circular Deque,2,design-circular-deque,0,0
 642,Design Search Autocomplete System,3,design-search-autocomplete-system,1,0
-643,Maximum Average Subarray I,1,maximum-average-subarray-i,0,0
+643,Maximum Average Subarray I,1,maximum-average-subarray-i,0,1
 644,Maximum Average Subarray II,3,maximum-average-subarray-ii,1,0
 645,Set Mismatch,1,set-mismatch,0,0
 646,Maximum Length of Pair Chain,2,maximum-length-of-pair-chain,0,0
