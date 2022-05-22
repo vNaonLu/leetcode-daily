@@ -29,18 +29,18 @@ struct q647 : public ::testing::Test {
   class Solution {
    public:
     int countSubstrings(string s) {
-      int n = s.size();
-      int res = 0;
+      int n = s.size(), res = 0;
+      vector<vector<int>> dp(n, vector<int>(n, 0));
       for (int i = 0; i < n; ++i) {
-        for (int j = n - 1; j >= i; --j) {
-          bool is_palindromic = true;
-          int l = i, r = j;
+        dp[i][i] = 1;
+        ++res;
+      }
 
-          while (is_palindromic && l < r) {
-            is_palindromic &= s[l++] == s[r--];
-          }
-
-          if (is_palindromic) {
+      for (int i = 1; i < n; ++i) {
+        for (int j = 0; j < i; ++j) {
+          if ((j + 1 == i && s[i] == s[j]) ||
+              (dp[j + 1][i - 1] == 1 && s[i] == s[j])) {
+            dp[j][i] = 1;
             ++res;
           }
         }
