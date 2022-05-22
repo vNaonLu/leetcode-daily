@@ -645,7 +645,7 @@ id,title,level,slug,paid,done
 644,Maximum Average Subarray II,3,maximum-average-subarray-ii,1,0
 645,Set Mismatch,1,set-mismatch,0,0
 646,Maximum Length of Pair Chain,2,maximum-length-of-pair-chain,0,0
-647,Palindromic Substrings,2,palindromic-substrings,0,0
+647,Palindromic Substrings,2,palindromic-substrings,0,1
 648,Replace Words,2,replace-words,0,0
 649,Dota2 Senate,2,dota2-senate,0,0
 650,2 Keys Keyboard,2,2-keys-keyboard,0,0
@@ -1377,7 +1377,7 @@ id,title,level,slug,paid,done
 1376,Time Needed to Inform All Employees,2,time-needed-to-inform-all-employees,0,1
 1377,Frog Position After T Seconds,3,frog-position-after-t-seconds,0,0
 1378,Replace Employee ID With The Unique Identifier,1,replace-employee-id-with-the-unique-identifier,1,0
-1379,Find a Corresponding Node of a Binary Tree in a Clone of That Tree,2,find-a-corresponding-node-of-a-binary-tree-in-a-clone-of-that-tree,0,1
+1379,Find a Corresponding Node of a Binary Tree in a Clone of That Tree,1,find-a-corresponding-node-of-a-binary-tree-in-a-clone-of-that-tree,0,1
 1380,Lucky Numbers in a Matrix,1,lucky-numbers-in-a-matrix,0,0
 1381,Design a Stack With Increment Operation,2,design-a-stack-with-increment-operation,0,0
 1382,Balance a Binary Search Tree,2,balance-a-binary-search-tree,0,0
@@ -2275,3 +2275,8 @@ id,title,level,slug,paid,done
 2274,Maximum Consecutive Floors Without Special Floors,2,maximum-consecutive-floors-without-special-floors,0,0
 2275,Largest Combination With Bitwise AND Greater Than Zero,2,largest-combination-with-bitwise-and-greater-than-zero,0,0
 2276,Count Integers in Intervals,3,count-integers-in-intervals,0,0
+2277,Closest Node to Path in Tree,3,closest-node-to-path-in-tree,1,0
+2278,Percentage of Letter in String,1,percentage-of-letter-in-string,0,0
+2279,Maximum Bags With Full Capacity of Rocks,2,maximum-bags-with-full-capacity-of-rocks,0,0
+2280,Minimum Lines to Represent a Line Chart,2,minimum-lines-to-represent-a-line-chart,0,0
+2281,Sum of Total Strength of Wizards,3,sum-of-total-strength-of-wizards,0,0
