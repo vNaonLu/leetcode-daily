@@ -138,7 +138,7 @@ id,title,level,slug,paid,done
 137,Single Number II,2,single-number-ii,0,0
 138,Copy List with Random Pointer,2,copy-list-with-random-pointer,0,1
 139,Word Break,2,word-break,0,1
-140,Word Break II,3,word-break-ii,0,0
+140,Word Break II,3,word-break-ii,0,1
 141,Linked List Cycle,1,linked-list-cycle,0,1
 142,Linked List Cycle II,2,linked-list-cycle-ii,0,1
 143,Reorder List,2,reorder-list,0,1
@@ -327,7 +327,7 @@ id,title,level,slug,paid,done
 326,Power of Three,1,power-of-three,0,0
 327,Count of Range Sum,3,count-of-range-sum,0,0
 328,Odd Even Linked List,2,odd-even-linked-list,0,1
-329,Longest Increasing Path in a Matrix,3,longest-increasing-path-in-a-matrix,0,0
+329,Longest Increasing Path in a Matrix,3,longest-increasing-path-in-a-matrix,0,1
 330,Patching Array,3,patching-array,0,0
 331,Verify Preorder Serialization of a Binary Tree,2,verify-preorder-serialization-of-a-binary-tree,0,0
 332,Reconstruct Itinerary,3,reconstruct-itinerary,0,0
@@ -620,7 +620,7 @@ id,title,level,slug,paid,done
 619,Biggest Single Number,1,biggest-single-number,1,0
 620,Not Boring Movies,1,not-boring-movies,0,0
 621,Task Scheduler,2,task-scheduler,0,1
-622,Design Circular Queue,2,design-circular-queue,0,0
+622,Design Circular Queue,2,design-circular-queue,0,1
 623,Add One Row to Tree,2,add-one-row-to-tree,0,0
 624,Maximum Distance in Arrays,2,maximum-distance-in-arrays,1,0
 625,Minimum Factorization,2,minimum-factorization,1,0
@@ -641,7 +641,7 @@ id,title,level,slug,paid,done
 640,Solve the Equation,2,solve-the-equation,0,0
 641,Design Circular Deque,2,design-circular-deque,0,0
 642,Design Search Autocomplete System,3,design-search-autocomplete-system,1,0
-643,Maximum Average Subarray I,1,maximum-average-subarray-i,0,0
+643,Maximum Average Subarray I,1,maximum-average-subarray-i,0,1
 644,Maximum Average Subarray II,3,maximum-average-subarray-ii,1,0
 645,Set Mismatch,1,set-mismatch,0,0
 646,Maximum Length of Pair Chain,2,maximum-length-of-pair-chain,0,0
@@ -727,7 +727,7 @@ id,title,level,slug,paid,done
 726,Number of Atoms,3,number-of-atoms,0,0
 727,Minimum Window Subsequence,3,minimum-window-subsequence,1,0
 728,Self Dividing Numbers,1,self-dividing-numbers,0,0
-729,My Calendar I,2,my-calendar-i,0,0
+729,My Calendar I,2,my-calendar-i,0,1
 730,Count Different Palindromic Subsequences,3,count-different-palindromic-subsequences,0,0
 731,My Calendar II,2,my-calendar-ii,0,0
 732,My Calendar III,3,my-calendar-iii,0,0
@@ -1190,7 +1190,7 @@ id,title,level,slug,paid,done
 1189,Maximum Number of Balloons,1,maximum-number-of-balloons,0,1
 1190,Reverse Substrings Between Each Pair of Parentheses,2,reverse-substrings-between-each-pair-of-parentheses,0,0
 1191,K-Concatenation Maximum Sum,2,k-concatenation-maximum-sum,0,1
-1192,Critical Connections in a Network,3,critical-connections-in-a-network,0,0
+1192,Critical Connections in a Network,3,critical-connections-in-a-network,0,1
 1193,Monthly Transactions I,2,monthly-transactions-i,1,0
 1194,Tournament Winners,3,tournament-winners,1,0
 1195,Fizz Buzz Multithreaded,2,fizz-buzz-multithreaded,0,0
@@ -1300,7 +1300,7 @@ id,title,level,slug,paid,done
 1299,Replace Elements with Greatest Element on Right Side,1,replace-elements-with-greatest-element-on-right-side,0,0
 1300,Sum of Mutated Array Closest to Target,2,sum-of-mutated-array-closest-to-target,0,0
 1301,Number of Paths with Max Score,3,number-of-paths-with-max-score,0,0
-1302,Deepest Leaves Sum,2,deepest-leaves-sum,0,0
+1302,Deepest Leaves Sum,2,deepest-leaves-sum,0,1
 1303,Find the Team Size,1,find-the-team-size,1,0
 1304,Find N Unique Integers Sum up to Zero,1,find-n-unique-integers-sum-up-to-zero,0,0
 1305,All Elements in Two Binary Search Trees,2,all-elements-in-two-binary-search-trees,0,1
@@ -1377,7 +1377,7 @@ id,title,level,slug,paid,done
 1376,Time Needed to Inform All Employees,2,time-needed-to-inform-all-employees,0,1
 1377,Frog Position After T Seconds,3,frog-position-after-t-seconds,0,0
 1378,Replace Employee ID With The Unique Identifier,1,replace-employee-id-with-the-unique-identifier,1,0
-1379,Find a Corresponding Node of a Binary Tree in a Clone of That Tree,2,find-a-corresponding-node-of-a-binary-tree-in-a-clone-of-that-tree,0,0
+1379,Find a Corresponding Node of a Binary Tree in a Clone of That Tree,2,find-a-corresponding-node-of-a-binary-tree-in-a-clone-of-that-tree,0,1
 1380,Lucky Numbers in a Matrix,1,lucky-numbers-in-a-matrix,0,0
 1381,Design a Stack With Increment Operation,2,design-a-stack-with-increment-operation,0,0
 1382,Balance a Binary Search Tree,2,balance-a-binary-search-tree,0,0
@@ -1989,7 +1989,7 @@ id,title,level,slug,paid,done
 1988,Find Cutoff Score for Each School,2,find-cutoff-score-for-each-school,1,0
 1989,Maximum Number of People That Can Be Caught in Tag,2,maximum-number-of-people-that-can-be-caught-in-tag,1,0
 1990,Count the Number of Experiments,2,count-the-number-of-experiments,1,0
-1991,Find the Middle Index in Array,1,find-the-middle-index-in-array,0,0
+1991,Find the Middle Index in Array,1,find-the-middle-index-in-array,0,1
 1992,Find All Groups of Farmland,2,find-all-groups-of-farmland,0,0
 1993,Operations on Tree,2,operations-on-tree,0,0
 1994,The Number of Good Subsets,3,the-number-of-good-subsets,0,0
@@ -2267,3 +2267,11 @@ id,title,level,slug,paid,done
 2266,Count Number of Texts,2,count-number-of-texts,0,0
 2267, Check if There Is a Valid Parentheses String Path,3,check-if-there-is-a-valid-parentheses-string-path,0,0
 2268,Minimum Number of Keypresses,2,minimum-number-of-keypresses,1,0
+2269,Find the K-Beauty of a Number,1,find-the-k-beauty-of-a-number,0,0
+2270,Number of Ways to Split Array,2,number-of-ways-to-split-array,0,0
+2271,Maximum White Tiles Covered by a Carpet,2,maximum-white-tiles-covered-by-a-carpet,0,0
+2272,Substring With Largest Variance,3,substring-with-largest-variance,0,0
+2273,Find Resultant Array After Removing Anagrams,1,find-resultant-array-after-removing-anagrams,0,0
+2274,Maximum Consecutive Floors Without Special Floors,2,maximum-consecutive-floors-without-special-floors,0,0
+2275,Largest Combination With Bitwise AND Greater Than Zero,2,largest-combination-with-bitwise-and-greater-than-zero,0,0
+2276,Count Integers in Intervals,3,count-integers-in-intervals,0,0
