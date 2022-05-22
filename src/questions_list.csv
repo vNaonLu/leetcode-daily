@@ -1989,7 +1989,7 @@ id,title,level,slug,paid,done
 1988,Find Cutoff Score for Each School,2,find-cutoff-score-for-each-school,1,0
 1989,Maximum Number of People That Can Be Caught in Tag,2,maximum-number-of-people-that-can-be-caught-in-tag,1,0
 1990,Count the Number of Experiments,2,count-the-number-of-experiments,1,0
-1991,Find the Middle Index in Array,1,find-the-middle-index-in-array,0,0
+1991,Find the Middle Index in Array,1,find-the-middle-index-in-array,0,1
 1992,Find All Groups of Farmland,2,find-all-groups-of-farmland,0,0
 1993,Operations on Tree,2,operations-on-tree,0,0
 1994,The Number of Good Subsets,3,the-number-of-good-subsets,0,0

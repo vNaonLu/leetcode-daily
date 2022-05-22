@@ -2044,7 +2044,7 @@ My daily challenge on leetcode since 2021/09/06.
 |🔒|1988|[Find Cutoff Score for Each School](https://leetcode.com/problems/find-cutoff-score-for-each-school/)|Medium|
 |🔒|1989|[Maximum Number of People That Can Be Caught in Tag](https://leetcode.com/problems/maximum-number-of-people-that-can-be-caught-in-tag/)|Medium|
 |🔒|1990|[Count the Number of Experiments](https://leetcode.com/problems/count-the-number-of-experiments/)|Medium|
-||1991|[Find the Middle Index in Array](https://leetcode.com/problems/find-the-middle-index-in-array/)|Easy|
+|[📎](src/q_1951_2000/q1991.cc)|1991|[Find the Middle Index in Array](https://leetcode.com/problems/find-the-middle-index-in-array/)|Easy|
 ||1992|[Find All Groups of Farmland](https://leetcode.com/problems/find-all-groups-of-farmland/)|Medium|
 ||1993|[Operations on Tree](https://leetcode.com/problems/operations-on-tree/)|Medium|
 ||1994|[The Number of Good Subsets](https://leetcode.com/problems/the-number-of-good-subsets/)|Hard|
@@ -2349,6 +2349,7 @@ My daily challenge on leetcode since 2021/09/06.
 
 |Time|#|</>|Question Title|Difficulty|
 |:--|--:|:-:|:--|:--|
+|2022-05-21 14:03|1991|[📎](src/q_1951_2000/q1991.cc)|[Find the Middle Index in Array](https://leetcode.com/problems/find-the-middle-index-in-array/)|Easy|
 |2022-05-20 18:17|643|[📎](src/q_601_650/q0643.cc)|[Maximum Average Subarray I](https://leetcode.com/problems/maximum-average-subarray-i/)|Easy|
 |2022-05-19 18:17|329|[📎](src/q_301_350/q0329.cc)|[Longest Increasing Path in a Matrix](https://leetcode.com/problems/longest-increasing-path-in-a-matrix/)|Hard|
 |2022-05-18 18:21|1192|[📎](src/q_1151_1200/q1192.cc)|[Critical Connections in a Network](https://leetcode.com/problems/critical-connections-in-a-network/)|Hard|
@@ -2373,13 +2374,12 @@ My daily challenge on leetcode since 2021/09/06.
 |2022-05-05 18:41|503|[📎](src/q_501_550/q0503.cc)|[Next Greater Element II](https://leetcode.com/problems/next-greater-element-ii/)|Medium|
 |2022-05-05 18:24|556|[📎](src/q_551_600/q0556.cc)|[Next Greater Element III](https://leetcode.com/problems/next-greater-element-iii/)|Medium|
 |2022-05-05 18:12|225|[📎](src/q_201_250/q0225.cc)|[Implement Stack using Queues](https://leetcode.com/problems/implement-stack-using-queues/)|Easy|
-|2022-05-04 18:14|429|[📎](src/q_401_450/q0429.cc)|[N-ary Tree Level Order Traversal](https://leetcode.com/problems/n-ary-tree-level-order-traversal/)|Medium|
 
 ## Previous Logs
 
 |Month|Submissions|Easy|Medium|Hard|
 |:--|:--|:--|:--|:--|
-|[May_2022](./assets/May_2022.md)|31|6|22|3|
+|[May_2022](./assets/May_2022.md)|32|7|22|3|
 |[April_2022](./assets/April_2022.md)|56|37|19|0|
 |[March_2022](./assets/March_2022.md)|49|6|39|4|
 |[February_2022](./assets/February_2022.md)|69|15|43|11|
