@@ -491,7 +491,7 @@ My daily challenge on leetcode since 2021/09/06.
 |🔒|471|[Encode String with Shortest Length](https://leetcode.com/problems/encode-string-with-shortest-length/)|Hard|
 ||472|[Concatenated Words](https://leetcode.com/problems/concatenated-words/)|Hard|
 ||473|[Matchsticks to Square](https://leetcode.com/problems/matchsticks-to-square/)|Medium|
-||474|[Ones and Zeroes](https://leetcode.com/problems/ones-and-zeroes/)|Medium|
+|[📎](src/q_451_500/q0474.cc)|474|[Ones and Zeroes](https://leetcode.com/problems/ones-and-zeroes/)|Medium|
 ||475|[Heaters](https://leetcode.com/problems/heaters/)|Medium|
 |[📎](src/q_451_500/q0476.cc)|476|[Number Complement](https://leetcode.com/problems/number-complement/)|Easy|
 ||477|[Total Hamming Distance](https://leetcode.com/problems/total-hamming-distance/)|Medium|
@@ -2354,6 +2354,7 @@ My daily challenge on leetcode since 2021/09/06.
 
 |Time|#|</>|Question Title|Difficulty|
 |:--|--:|:-:|:--|:--|
+|2022-05-23 18:23|474|[📎](src/q_451_500/q0474.cc)|[Ones and Zeroes](https://leetcode.com/problems/ones-and-zeroes/)|Medium|
 |2022-05-22 14:26|647|[📎](src/q_601_650/q0647.cc)|[Palindromic Substrings](https://leetcode.com/problems/palindromic-substrings/)|Medium|
 |2022-05-21 14:03|1991|[📎](src/q_1951_2000/q1991.cc)|[Find the Middle Index in Array](https://leetcode.com/problems/find-the-middle-index-in-array/)|Easy|
 |2022-05-20 18:17|643|[📎](src/q_601_650/q0643.cc)|[Maximum Average Subarray I](https://leetcode.com/problems/maximum-average-subarray-i/)|Easy|
@@ -2378,13 +2379,12 @@ My daily challenge on leetcode since 2021/09/06.
 |2022-05-07 13:30|456|[📎](src/q_451_500/q0456.cc)|[132 Pattern](https://leetcode.com/problems/132-pattern/)|Medium|
 |2022-05-06 18:29|1209|[📎](src/q_1201_1250/q1209.cc)|[Remove All Adjacent Duplicates in String II](https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string-ii/)|Medium|
 |2022-05-05 18:41|503|[📎](src/q_501_550/q0503.cc)|[Next Greater Element II](https://leetcode.com/problems/next-greater-element-ii/)|Medium|
-|2022-05-05 18:24|556|[📎](src/q_551_600/q0556.cc)|[Next Greater Element III](https://leetcode.com/problems/next-greater-element-iii/)|Medium|
 
 ## Previous Logs
 
 |Month|Submissions|Easy|Medium|Hard|
 |:--|:--|:--|:--|:--|
-|[May_2022](./assets/May_2022.md)|33|8|22|3|
+|[May_2022](./assets/May_2022.md)|34|8|23|3|
 |[April_2022](./assets/April_2022.md)|56|37|19|0|
 |[March_2022](./assets/March_2022.md)|49|6|39|4|
 |[February_2022](./assets/February_2022.md)|69|15|43|11|
