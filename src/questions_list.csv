@@ -1435,7 +1435,7 @@ id,title,level,slug,paid,done
 1434,Number of Ways to Wear Different Hats to Each Other,3,number-of-ways-to-wear-different-hats-to-each-other,0,0
 1435,Create a Session Bar Chart,1,create-a-session-bar-chart,1,0
 1436,Destination City,1,destination-city,0,0
-1437,Check If All 1's Are at Least Length K Places Away,1,check-if-all-1s-are-at-least-length-k-places-away,0,0
+1437,Check If All 1's Are at Least Length K Places Away,1,check-if-all-1s-are-at-least-length-k-places-away,0,1
 1438,Longest Continuous Subarray With Absolute Diff Less Than or Equal to Limit,2,longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit,0,0
 1439,Find the Kth Smallest Sum of a Matrix With Sorted Rows,3,find-the-kth-smallest-sum-of-a-matrix-with-sorted-rows,0,0
 1440,Evaluate Boolean Expression,2,evaluate-boolean-expression,1,0
