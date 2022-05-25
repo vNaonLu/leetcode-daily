@@ -371,7 +371,7 @@ My daily challenge on leetcode since 2021/09/06.
 |🔒|351|[Android Unlock Patterns](https://leetcode.com/problems/android-unlock-patterns/)|Medium|
 |[📎](src/q_351_400/q0352.cc)|352|[Data Stream as Disjoint Intervals](https://leetcode.com/problems/data-stream-as-disjoint-intervals/)|Hard|
 |🔒|353|[Design Snake Game](https://leetcode.com/problems/design-snake-game/)|Medium|
-||354|[Russian Doll Envelopes](https://leetcode.com/problems/russian-doll-envelopes/)|Hard|
+|[📎](src/q_351_400/q0354.cc)|354|[Russian Doll Envelopes](https://leetcode.com/problems/russian-doll-envelopes/)|Hard|
 ||355|[Design Twitter](https://leetcode.com/problems/design-twitter/)|Medium|
 |🔒|356|[Line Reflection](https://leetcode.com/problems/line-reflection/)|Medium|
 ||357|[Count Numbers with Unique Digits](https://leetcode.com/problems/count-numbers-with-unique-digits/)|Medium|
@@ -2354,6 +2354,7 @@ My daily challenge on leetcode since 2021/09/06.
 
 |Time|#|</>|Question Title|Difficulty|
 |:--|--:|:-:|:--|:--|
+|2022-05-25 18:13|354|[📎](src/q_351_400/q0354.cc)|[Russian Doll Envelopes](https://leetcode.com/problems/russian-doll-envelopes/)|Hard|
 |2022-05-24 14:03|1437|[📎](src/q_1401_1450/q1437.cc)|[Check If All 1's Are at Least Length K Places Away](https://leetcode.com/problems/check-if-all-1s-are-at-least-length-k-places-away/)|Easy|
 |2022-05-23 18:23|474|[📎](src/q_451_500/q0474.cc)|[Ones and Zeroes](https://leetcode.com/problems/ones-and-zeroes/)|Medium|
 |2022-05-22 14:26|647|[📎](src/q_601_650/q0647.cc)|[Palindromic Substrings](https://leetcode.com/problems/palindromic-substrings/)|Medium|
@@ -2378,13 +2379,12 @@ My daily challenge on leetcode since 2021/09/06.
 |2022-05-08 12:51|341|[📎](src/q_301_350/q0341.cc)|[Flatten Nested List Iterator](https://leetcode.com/problems/flatten-nested-list-iterator/)|Medium|
 |2022-05-08 12:44|910|[📎](src/q_901_950/q0910.cc)|[Smallest Range II](https://leetcode.com/problems/smallest-range-ii/)|Medium|
 |2022-05-07 13:30|456|[📎](src/q_451_500/q0456.cc)|[132 Pattern](https://leetcode.com/problems/132-pattern/)|Medium|
-|2022-05-06 18:29|1209|[📎](src/q_1201_1250/q1209.cc)|[Remove All Adjacent Duplicates in String II](https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string-ii/)|Medium|
 
 ## Previous Logs
 
 |Month|Submissions|Easy|Medium|Hard|
 |:--|:--|:--|:--|:--|
-|[May_2022](./assets/May_2022.md)|35|9|23|3|
+|[May_2022](./assets/May_2022.md)|36|9|23|4|
 |[April_2022](./assets/April_2022.md)|56|37|19|0|
 |[March_2022](./assets/March_2022.md)|49|6|39|4|
 |[February_2022](./assets/February_2022.md)|69|15|43|11|
