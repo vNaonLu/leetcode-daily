@@ -646,7 +646,7 @@ My daily challenge on leetcode since 2021/09/06.
 ||620|[Not Boring Movies](https://leetcode.com/problems/not-boring-movies/)|Easy|
 |[📎](src/q_601_650/q0621.cc)|621|[Task Scheduler](https://leetcode.com/problems/task-scheduler/)|Medium|
 |[📎](src/q_601_650/q0622.cc)|622|[Design Circular Queue](https://leetcode.com/problems/design-circular-queue/)|Medium|
-||623|[Add One Row to Tree](https://leetcode.com/problems/add-one-row-to-tree/)|Medium|
+|[📎](src/q_601_650/q0623.cc)|623|[Add One Row to Tree](https://leetcode.com/problems/add-one-row-to-tree/)|Medium|
 |🔒|624|[Maximum Distance in Arrays](https://leetcode.com/problems/maximum-distance-in-arrays/)|Medium|
 |🔒|625|[Minimum Factorization](https://leetcode.com/problems/minimum-factorization/)|Medium|
 ||626|[Exchange Seats](https://leetcode.com/problems/exchange-seats/)|Medium|
@@ -2354,6 +2354,7 @@ My daily challenge on leetcode since 2021/09/06.
 
 |Time|#|</>|Question Title|Difficulty|
 |:--|--:|:-:|:--|:--|
+|2022-05-26 18:26|623|[📎](src/q_601_650/q0623.cc)|[Add One Row to Tree](https://leetcode.com/problems/add-one-row-to-tree/)|Medium|
 |2022-05-25 18:13|354|[📎](src/q_351_400/q0354.cc)|[Russian Doll Envelopes](https://leetcode.com/problems/russian-doll-envelopes/)|Hard|
 |2022-05-24 14:03|1437|[📎](src/q_1401_1450/q1437.cc)|[Check If All 1's Are at Least Length K Places Away](https://leetcode.com/problems/check-if-all-1s-are-at-least-length-k-places-away/)|Easy|
 |2022-05-23 18:23|474|[📎](src/q_451_500/q0474.cc)|[Ones and Zeroes](https://leetcode.com/problems/ones-and-zeroes/)|Medium|
@@ -2378,13 +2379,12 @@ My daily challenge on leetcode since 2021/09/06.
 |2022-05-09 17:55|692|[📎](src/q_651_700/q0692.cc)|[Top K Frequent Words](https://leetcode.com/problems/top-k-frequent-words/)|Medium|
 |2022-05-08 12:51|341|[📎](src/q_301_350/q0341.cc)|[Flatten Nested List Iterator](https://leetcode.com/problems/flatten-nested-list-iterator/)|Medium|
 |2022-05-08 12:44|910|[📎](src/q_901_950/q0910.cc)|[Smallest Range II](https://leetcode.com/problems/smallest-range-ii/)|Medium|
-|2022-05-07 13:30|456|[📎](src/q_451_500/q0456.cc)|[132 Pattern](https://leetcode.com/problems/132-pattern/)|Medium|
 
 ## Previous Logs
 
 |Month|Submissions|Easy|Medium|Hard|
 |:--|:--|:--|:--|:--|
-|[May_2022](./assets/May_2022.md)|36|9|23|4|
+|[May_2022](./assets/May_2022.md)|37|9|24|4|
 |[April_2022](./assets/April_2022.md)|56|37|19|0|
 |[March_2022](./assets/March_2022.md)|49|6|39|4|
 |[February_2022](./assets/February_2022.md)|69|15|43|11|
