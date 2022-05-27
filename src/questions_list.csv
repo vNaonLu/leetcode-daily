@@ -1340,7 +1340,7 @@ id,title,level,slug,paid,done
 1339,Maximum Product of Splitted Binary Tree,2,maximum-product-of-splitted-binary-tree,0,0
 1340,Jump Game V,3,jump-game-v,0,0
 1341,Movie Rating,2,movie-rating,1,0
-1342,Number of Steps to Reduce a Number to Zero,1,number-of-steps-to-reduce-a-number-to-zero,0,0
+1342,Number of Steps to Reduce a Number to Zero,1,number-of-steps-to-reduce-a-number-to-zero,0,1
 1343,Number of Sub-arrays of Size K and Average Greater than or Equal to Threshold,2,number-of-sub-arrays-of-size-k-and-average-greater-than-or-equal-to-threshold,0,0
 1344,Angle Between Hands of a Clock,2,angle-between-hands-of-a-clock,0,1
 1345,Jump Game IV,3,jump-game-iv,0,1
@@ -2280,3 +2280,4 @@ id,title,level,slug,paid,done
 2279,Maximum Bags With Full Capacity of Rocks,2,maximum-bags-with-full-capacity-of-rocks,0,0
 2280,Minimum Lines to Represent a Line Chart,2,minimum-lines-to-represent-a-line-chart,0,0
 2281,Sum of Total Strength of Wizards,3,sum-of-total-strength-of-wizards,0,0
+2282,Number of People That Can Be Seen in a Grid,2,number-of-people-that-can-be-seen-in-a-grid,1,0

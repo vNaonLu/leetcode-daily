@@ -1383,7 +1383,7 @@ My daily challenge on leetcode since 2021/09/06.
 ||1339|[Maximum Product of Splitted Binary Tree](https://leetcode.com/problems/maximum-product-of-splitted-binary-tree/)|Medium|
 ||1340|[Jump Game V](https://leetcode.com/problems/jump-game-v/)|Hard|
 |🔒|1341|[Movie Rating](https://leetcode.com/problems/movie-rating/)|Medium|
-||1342|[Number of Steps to Reduce a Number to Zero](https://leetcode.com/problems/number-of-steps-to-reduce-a-number-to-zero/)|Easy|
+|[📎](src/q_1301_1350/q1342.cc)|1342|[Number of Steps to Reduce a Number to Zero](https://leetcode.com/problems/number-of-steps-to-reduce-a-number-to-zero/)|Easy|
 ||1343|[Number of Sub-arrays of Size K and Average Greater than or Equal to Threshold](https://leetcode.com/problems/number-of-sub-arrays-of-size-k-and-average-greater-than-or-equal-to-threshold/)|Medium|
 |[📎](src/q_1301_1350/q1344.cc)|1344|[Angle Between Hands of a Clock](https://leetcode.com/problems/angle-between-hands-of-a-clock/)|Medium|
 |[📎](src/q_1301_1350/q1345.cc)|1345|[Jump Game IV](https://leetcode.com/problems/jump-game-iv/)|Hard|
@@ -2312,7 +2312,7 @@ My daily challenge on leetcode since 2021/09/06.
 ||2250|[Count Number of Rectangles Containing Each Point](https://leetcode.com/problems/count-number-of-rectangles-containing-each-point/)|Medium|
 </details>
 <details>
-  <summary>### 2251 ~ 2281</summary>
+  <summary>### 2251 ~ 2282</summary>
 
 |</>|#|Solution Title|Difficulty|
 |:-:|--:|:--|:--|
@@ -2347,6 +2347,7 @@ My daily challenge on leetcode since 2021/09/06.
 ||2279|[Maximum Bags With Full Capacity of Rocks](https://leetcode.com/problems/maximum-bags-with-full-capacity-of-rocks/)|Medium|
 ||2280|[Minimum Lines to Represent a Line Chart](https://leetcode.com/problems/minimum-lines-to-represent-a-line-chart/)|Medium|
 ||2281|[Sum of Total Strength of Wizards](https://leetcode.com/problems/sum-of-total-strength-of-wizards/)|Hard|
+|🔒|2282|[Number of People That Can Be Seen in a Grid](https://leetcode.com/problems/number-of-people-that-can-be-seen-in-a-grid/)|Medium|
 </details>
 
 ---
@@ -2354,6 +2355,7 @@ My daily challenge on leetcode since 2021/09/06.
 
 |Time|#|</>|Question Title|Difficulty|
 |:--|--:|:-:|:--|:--|
+|2022-05-27 18:13|1342|[📎](src/q_1301_1350/q1342.cc)|[Number of Steps to Reduce a Number to Zero](https://leetcode.com/problems/number-of-steps-to-reduce-a-number-to-zero/)|Easy|
 |2022-05-26 18:26|623|[📎](src/q_601_650/q0623.cc)|[Add One Row to Tree](https://leetcode.com/problems/add-one-row-to-tree/)|Medium|
 |2022-05-25 18:13|354|[📎](src/q_351_400/q0354.cc)|[Russian Doll Envelopes](https://leetcode.com/problems/russian-doll-envelopes/)|Hard|
 |2022-05-24 14:03|1437|[📎](src/q_1401_1450/q1437.cc)|[Check If All 1's Are at Least Length K Places Away](https://leetcode.com/problems/check-if-all-1s-are-at-least-length-k-places-away/)|Easy|
@@ -2378,13 +2380,12 @@ My daily challenge on leetcode since 2021/09/06.
 |2022-05-10 19:01|216|[📎](src/q_201_250/q0216.cc)|[Combination Sum III](https://leetcode.com/problems/combination-sum-iii/)|Medium|
 |2022-05-09 17:55|692|[📎](src/q_651_700/q0692.cc)|[Top K Frequent Words](https://leetcode.com/problems/top-k-frequent-words/)|Medium|
 |2022-05-08 12:51|341|[📎](src/q_301_350/q0341.cc)|[Flatten Nested List Iterator](https://leetcode.com/problems/flatten-nested-list-iterator/)|Medium|
-|2022-05-08 12:44|910|[📎](src/q_901_950/q0910.cc)|[Smallest Range II](https://leetcode.com/problems/smallest-range-ii/)|Medium|
 
 ## Previous Logs
 
 |Month|Submissions|Easy|Medium|Hard|
 |:--|:--|:--|:--|:--|
-|[May_2022](./assets/May_2022.md)|37|9|24|4|
+|[May_2022](./assets/May_2022.md)|38|10|24|4|
 |[April_2022](./assets/April_2022.md)|56|37|19|0|
 |[March_2022](./assets/March_2022.md)|49|6|39|4|
 |[February_2022](./assets/February_2022.md)|69|15|43|11|
