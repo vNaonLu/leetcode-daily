@@ -266,7 +266,7 @@ id,title,level,slug,paid,done
 265,Paint House II,3,paint-house-ii,1,0
 266,Palindrome Permutation,1,palindrome-permutation,1,0
 267,Palindrome Permutation II,2,palindrome-permutation-ii,1,0
-268,Missing Number,1,missing-number,0,0
+268,Missing Number,1,missing-number,0,1
 269,Alien Dictionary,3,alien-dictionary,1,0
 270,Closest Binary Search Tree Value,1,closest-binary-search-tree-value,1,0
 271,Encode and Decode Strings,2,encode-and-decode-strings,1,0
@@ -352,8 +352,7 @@ id,title,level,slug,paid,done
 351,Android Unlock Patterns,2,android-unlock-patterns,1,0
 352,Data Stream as Disjoint Intervals,3,data-stream-as-disjoint-intervals,0,1
 353,Design Snake Game,2,design-snake-game,1,0
-354,Russian Doll Envelopes,3,russian-doll-envelopes,0,0
-355,Design Twitter,2,design-twitter,0,0
+354,Russian Doll Envelopes,3,russian-doll-envelopes,0,1
 356,Line Reflection,2,line-reflection,1,0
 357,Count Numbers with Unique Digits,2,count-numbers-with-unique-digits,0,0
 358,Rearrange String k Distance Apart,3,rearrange-string-k-distance-apart,1,0
@@ -472,7 +471,7 @@ id,title,level,slug,paid,done
 471,Encode String with Shortest Length,3,encode-string-with-shortest-length,1,0
 472,Concatenated Words,3,concatenated-words,0,0
 473,Matchsticks to Square,2,matchsticks-to-square,0,0
-474,Ones and Zeroes,2,ones-and-zeroes,0,0
+474,Ones and Zeroes,2,ones-and-zeroes,0,1
 475,Heaters,2,heaters,0,0
 476,Number Complement,1,number-complement,0,1
 477,Total Hamming Distance,2,total-hamming-distance,0,0
@@ -621,7 +620,7 @@ id,title,level,slug,paid,done
 620,Not Boring Movies,1,not-boring-movies,0,0
 621,Task Scheduler,2,task-scheduler,0,1
 622,Design Circular Queue,2,design-circular-queue,0,1
-623,Add One Row to Tree,2,add-one-row-to-tree,0,0
+623,Add One Row to Tree,2,add-one-row-to-tree,0,1
 624,Maximum Distance in Arrays,2,maximum-distance-in-arrays,1,0
 625,Minimum Factorization,2,minimum-factorization,1,0
 626,Exchange Seats,2,exchange-seats,0,0
@@ -645,7 +644,7 @@ id,title,level,slug,paid,done
 644,Maximum Average Subarray II,3,maximum-average-subarray-ii,1,0
 645,Set Mismatch,1,set-mismatch,0,0
 646,Maximum Length of Pair Chain,2,maximum-length-of-pair-chain,0,0
-647,Palindromic Substrings,2,palindromic-substrings,0,0
+647,Palindromic Substrings,2,palindromic-substrings,0,1
 648,Replace Words,2,replace-words,0,0
 649,Dota2 Senate,2,dota2-senate,0,0
 650,2 Keys Keyboard,2,2-keys-keyboard,0,0
@@ -1340,7 +1339,7 @@ id,title,level,slug,paid,done
 1339,Maximum Product of Splitted Binary Tree,2,maximum-product-of-splitted-binary-tree,0,0
 1340,Jump Game V,3,jump-game-v,0,0
 1341,Movie Rating,2,movie-rating,1,0
-1342,Number of Steps to Reduce a Number to Zero,1,number-of-steps-to-reduce-a-number-to-zero,0,0
+1342,Number of Steps to Reduce a Number to Zero,1,number-of-steps-to-reduce-a-number-to-zero,0,1
 1343,Number of Sub-arrays of Size K and Average Greater than or Equal to Threshold,2,number-of-sub-arrays-of-size-k-and-average-greater-than-or-equal-to-threshold,0,0
 1344,Angle Between Hands of a Clock,2,angle-between-hands-of-a-clock,0,1
 1345,Jump Game IV,3,jump-game-iv,0,1
@@ -1377,7 +1376,7 @@ id,title,level,slug,paid,done
 1376,Time Needed to Inform All Employees,2,time-needed-to-inform-all-employees,0,1
 1377,Frog Position After T Seconds,3,frog-position-after-t-seconds,0,0
 1378,Replace Employee ID With The Unique Identifier,1,replace-employee-id-with-the-unique-identifier,1,0
-1379,Find a Corresponding Node of a Binary Tree in a Clone of That Tree,2,find-a-corresponding-node-of-a-binary-tree-in-a-clone-of-that-tree,0,1
+1379,Find a Corresponding Node of a Binary Tree in a Clone of That Tree,1,find-a-corresponding-node-of-a-binary-tree-in-a-clone-of-that-tree,0,1
 1380,Lucky Numbers in a Matrix,1,lucky-numbers-in-a-matrix,0,0
 1381,Design a Stack With Increment Operation,2,design-a-stack-with-increment-operation,0,0
 1382,Balance a Binary Search Tree,2,balance-a-binary-search-tree,0,0
@@ -1435,7 +1434,7 @@ id,title,level,slug,paid,done
 1434,Number of Ways to Wear Different Hats to Each Other,3,number-of-ways-to-wear-different-hats-to-each-other,0,0
 1435,Create a Session Bar Chart,1,create-a-session-bar-chart,1,0
 1436,Destination City,1,destination-city,0,0
-1437,Check If All 1's Are at Least Length K Places Away,1,check-if-all-1s-are-at-least-length-k-places-away,0,0
+1437,Check If All 1's Are at Least Length K Places Away,1,check-if-all-1s-are-at-least-length-k-places-away,0,1
 1438,Longest Continuous Subarray With Absolute Diff Less Than or Equal to Limit,2,longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit,0,0
 1439,Find the Kth Smallest Sum of a Matrix With Sorted Rows,3,find-the-kth-smallest-sum-of-a-matrix-with-sorted-rows,0,0
 1440,Evaluate Boolean Expression,2,evaluate-boolean-expression,1,0
@@ -2275,3 +2274,9 @@ id,title,level,slug,paid,done
 2274,Maximum Consecutive Floors Without Special Floors,2,maximum-consecutive-floors-without-special-floors,0,0
 2275,Largest Combination With Bitwise AND Greater Than Zero,2,largest-combination-with-bitwise-and-greater-than-zero,0,0
 2276,Count Integers in Intervals,3,count-integers-in-intervals,0,0
+2277,Closest Node to Path in Tree,3,closest-node-to-path-in-tree,1,0
+2278,Percentage of Letter in String,1,percentage-of-letter-in-string,0,0
+2279,Maximum Bags With Full Capacity of Rocks,2,maximum-bags-with-full-capacity-of-rocks,0,0
+2280,Minimum Lines to Represent a Line Chart,2,minimum-lines-to-represent-a-line-chart,0,0
+2281,Sum of Total Strength of Wizards,3,sum-of-total-strength-of-wizards,0,0
+2282,Number of People That Can Be Seen in a Grid,2,number-of-people-that-can-be-seen-in-a-grid,1,0
