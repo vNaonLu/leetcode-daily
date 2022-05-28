@@ -266,7 +266,7 @@ id,title,level,slug,paid,done
 265,Paint House II,3,paint-house-ii,1,0
 266,Palindrome Permutation,1,palindrome-permutation,1,0
 267,Palindrome Permutation II,2,palindrome-permutation-ii,1,0
-268,Missing Number,1,missing-number,0,0
+268,Missing Number,1,missing-number,0,1
 269,Alien Dictionary,3,alien-dictionary,1,0
 270,Closest Binary Search Tree Value,1,closest-binary-search-tree-value,1,0
 271,Encode and Decode Strings,2,encode-and-decode-strings,1,0
@@ -353,7 +353,6 @@ id,title,level,slug,paid,done
 352,Data Stream as Disjoint Intervals,3,data-stream-as-disjoint-intervals,0,1
 353,Design Snake Game,2,design-snake-game,1,0
 354,Russian Doll Envelopes,3,russian-doll-envelopes,0,1
-355,Design Twitter,2,design-twitter,0,0
 356,Line Reflection,2,line-reflection,1,0
 357,Count Numbers with Unique Digits,2,count-numbers-with-unique-digits,0,0
 358,Rearrange String k Distance Apart,3,rearrange-string-k-distance-apart,1,0
