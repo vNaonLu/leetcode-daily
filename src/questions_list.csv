@@ -316,7 +316,7 @@ id,title,level,slug,paid,done
 315,Count of Smaller Numbers After Self,3,count-of-smaller-numbers-after-self,0,1
 316,Remove Duplicate Letters,2,remove-duplicate-letters,0,1
 317,Shortest Distance from All Buildings,3,shortest-distance-from-all-buildings,1,0
-318,Maximum Product of Word Lengths,2,maximum-product-of-word-lengths,0,0
+318,Maximum Product of Word Lengths,2,maximum-product-of-word-lengths,0,1
 319,Bulb Switcher,2,bulb-switcher,0,0
 320,Generalized Abbreviation,2,generalized-abbreviation,1,0
 321,Create Maximum Number,3,create-maximum-number,0,0
