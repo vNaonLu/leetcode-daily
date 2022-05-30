@@ -421,7 +421,7 @@ My daily challenge on leetcode since 2021/09/06.
 |[📎](src/q_401_450/q0402.cc)|402|[Remove K Digits](https://leetcode.com/problems/remove-k-digits/)|Medium|
 ||403|[Frog Jump](https://leetcode.com/problems/frog-jump/)|Hard|
 |[📎](src/q_401_450/q0404.cc)|404|[Sum of Left Leaves](https://leetcode.com/problems/sum-of-left-leaves/)|Easy|
-||405|[Convert a Number to Hexadecimal](https://leetcode.com/problems/convert-a-number-to-hexadecimal/)|Easy|
+|[📎](src/q_401_450/q0405.cc)|405|[Convert a Number to Hexadecimal](https://leetcode.com/problems/convert-a-number-to-hexadecimal/)|Easy|
 ||406|[Queue Reconstruction by Height](https://leetcode.com/problems/queue-reconstruction-by-height/)|Medium|
 ||407|[Trapping Rain Water II](https://leetcode.com/problems/trapping-rain-water-ii/)|Hard|
 |🔒|408|[Valid Word Abbreviation](https://leetcode.com/problems/valid-word-abbreviation/)|Easy|
@@ -2312,7 +2312,7 @@ My daily challenge on leetcode since 2021/09/06.
 ||2251|[Number of Flowers in Full Bloom](https://leetcode.com/problems/number-of-flowers-in-full-bloom/)|Hard|
 </details>
 <details>
-  <summary>### 2251 ~ 2281</summary>
+  <summary>### 2251 ~ 2289</summary>
 
 |</>|#|Solution Title|Difficulty|
 |:-:|--:|:--|:--|
@@ -2347,6 +2347,14 @@ My daily challenge on leetcode since 2021/09/06.
 ||2280|[Minimum Lines to Represent a Line Chart](https://leetcode.com/problems/minimum-lines-to-represent-a-line-chart/)|Medium|
 ||2281|[Sum of Total Strength of Wizards](https://leetcode.com/problems/sum-of-total-strength-of-wizards/)|Hard|
 |🔒|2282|[Number of People That Can Be Seen in a Grid](https://leetcode.com/problems/number-of-people-that-can-be-seen-in-a-grid/)|Medium|
+||2283|[Check if Number Has Equal Digit Count and Digit Value](https://leetcode.com/problems/check-if-number-has-equal-digit-count-and-digit-value/)|Easy|
+||2284|[Sender With Largest Word Count](https://leetcode.com/problems/sender-with-largest-word-count/)|Medium|
+||2285|[Maximum Total Importance of Roads](https://leetcode.com/problems/maximum-total-importance-of-roads/)|Medium|
+||2286|[Booking Concert Tickets in Groups](https://leetcode.com/problems/booking-concert-tickets-in-groups/)|Hard|
+||2287|[Rearrange Characters to Make Target String](https://leetcode.com/problems/rearrange-characters-to-make-target-string/)|Easy|
+||2288|[Apply Discount to Prices](https://leetcode.com/problems/apply-discount-to-prices/)|Medium|
+||2289|[Steps to Make Array Non-decreasing](https://leetcode.com/problems/steps-to-make-array-non-decreasing/)|Medium|
+||2290|[Minimum Obstacle Removal to Reach Corner](https://leetcode.com/problems/minimum-obstacle-removal-to-reach-corner/)|Hard|
 </details>
 
 ---
@@ -2354,6 +2362,7 @@ My daily challenge on leetcode since 2021/09/06.
 
 |Time|#|</>|Question Title|Difficulty|
 |:--|--:|:-:|:--|:--|
+|2022-05-30 18:20|405|[📎](src/q_401_450/q0405.cc)|[Convert a Number to Hexadecimal](https://leetcode.com/problems/convert-a-number-to-hexadecimal/)|Easy|
 |2022-05-29 14:09|318|[📎](src/q_301_350/q0318.cc)|[Maximum Product of Word Lengths](https://leetcode.com/problems/maximum-product-of-word-lengths/)|Medium|
 |2022-05-28 12:20|268|[📎](src/q_251_300/q0268.cc)|[Missing Number](https://leetcode.com/problems/missing-number/)|Easy|
 |2022-05-27 18:13|1342|[📎](src/q_1301_1350/q1342.cc)|[Number of Steps to Reduce a Number to Zero](https://leetcode.com/problems/number-of-steps-to-reduce-a-number-to-zero/)|Easy|
@@ -2378,13 +2387,12 @@ My daily challenge on leetcode since 2021/09/06.
 |2022-05-12 18:11|860|[📎](src/q_851_900/q0860.cc)|[Lemonade Change](https://leetcode.com/problems/lemonade-change/)|Easy|
 |2022-05-11 11:15|1641|[📎](src/q_1601_1650/q1641.cc)|[Count Sorted Vowel Strings](https://leetcode.com/problems/count-sorted-vowel-strings/)|Medium|
 |2022-05-10 19:27|445|[📎](src/q_401_450/q0445.cc)|[Add Two Numbers II](https://leetcode.com/problems/add-two-numbers-ii/)|Medium|
-|2022-05-10 19:01|216|[📎](src/q_201_250/q0216.cc)|[Combination Sum III](https://leetcode.com/problems/combination-sum-iii/)|Medium|
 
 ## Previous Logs
 
 |Month|Submissions|Easy|Medium|Hard|
 |:--|:--|:--|:--|:--|
-|[May_2022](./assets/May_2022.md)|40|11|25|4|
+|[May_2022](./assets/May_2022.md)|41|12|25|4|
 |[April_2022](./assets/April_2022.md)|56|37|19|0|
 |[March_2022](./assets/March_2022.md)|49|6|39|4|
 |[February_2022](./assets/February_2022.md)|69|15|43|11|

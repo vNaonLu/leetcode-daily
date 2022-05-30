@@ -402,7 +402,7 @@ id,title,level,slug,paid,done
 402,Remove K Digits,2,remove-k-digits,0,1
 403,Frog Jump,3,frog-jump,0,0
 404,Sum of Left Leaves,1,sum-of-left-leaves,0,1
-405,Convert a Number to Hexadecimal,1,convert-a-number-to-hexadecimal,0,0
+405,Convert a Number to Hexadecimal,1,convert-a-number-to-hexadecimal,0,1
 406,Queue Reconstruction by Height,2,queue-reconstruction-by-height,0,0
 407,Trapping Rain Water II,3,trapping-rain-water-ii,0,0
 408,Valid Word Abbreviation,1,valid-word-abbreviation,1,0
@@ -2280,3 +2280,11 @@ id,title,level,slug,paid,done
 2280,Minimum Lines to Represent a Line Chart,2,minimum-lines-to-represent-a-line-chart,0,0
 2281,Sum of Total Strength of Wizards,3,sum-of-total-strength-of-wizards,0,0
 2282,Number of People That Can Be Seen in a Grid,2,number-of-people-that-can-be-seen-in-a-grid,1,0
+2283,Check if Number Has Equal Digit Count and Digit Value,1,check-if-number-has-equal-digit-count-and-digit-value,0,0
+2284,Sender With Largest Word Count,2,sender-with-largest-word-count,0,0
+2285,Maximum Total Importance of Roads,2,maximum-total-importance-of-roads,0,0
+2286,Booking Concert Tickets in Groups,3,booking-concert-tickets-in-groups,0,0
+2287,Rearrange Characters to Make Target String,1,rearrange-characters-to-make-target-string,0,0
+2288,Apply Discount to Prices,2,apply-discount-to-prices,0,0
+2289,Steps to Make Array Non-decreasing,2,steps-to-make-array-non-decreasing,0,0
+2290,Minimum Obstacle Removal to Reach Corner,3,minimum-obstacle-removal-to-reach-corner,0,0
