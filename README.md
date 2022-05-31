@@ -372,6 +372,7 @@ My daily challenge on leetcode since 2021/09/06.
 |[📎](src/q_351_400/q0352.cc)|352|[Data Stream as Disjoint Intervals](https://leetcode.com/problems/data-stream-as-disjoint-intervals/)|Hard|
 |🔒|353|[Design Snake Game](https://leetcode.com/problems/design-snake-game/)|Medium|
 |[📎](src/q_351_400/q0354.cc)|354|[Russian Doll Envelopes](https://leetcode.com/problems/russian-doll-envelopes/)|Hard|
+||355|[Design Twitter](https://leetcode.com/problems/design-twitter/)|Medium|
 |🔒|356|[Line Reflection](https://leetcode.com/problems/line-reflection/)|Medium|
 ||357|[Count Numbers with Unique Digits](https://leetcode.com/problems/count-numbers-with-unique-digits/)|Medium|
 |🔒|358|[Rearrange String k Distance Apart](https://leetcode.com/problems/rearrange-string-k-distance-apart/)|Hard|
@@ -517,13 +518,13 @@ My daily challenge on leetcode since 2021/09/06.
 ||498|[Diagonal Traverse](https://leetcode.com/problems/diagonal-traverse/)|Medium|
 |🔒|499|[The Maze III](https://leetcode.com/problems/the-maze-iii/)|Hard|
 ||500|[Keyboard Row](https://leetcode.com/problems/keyboard-row/)|Easy|
-|[📎](src/q_501_550/q0501.cc)|501|[Find Mode in Binary Search Tree](https://leetcode.com/problems/find-mode-in-binary-search-tree/)|Easy|
 </details>
 <details>
   <summary>### 501 ~ 750</summary>
 
 |</>|#|Solution Title|Difficulty|
 |:-:|--:|:--|:--|
+|[📎](src/q_501_550/q0501.cc)|501|[Find Mode in Binary Search Tree](https://leetcode.com/problems/find-mode-in-binary-search-tree/)|Easy|
 ||502|[IPO](https://leetcode.com/problems/ipo/)|Hard|
 |[📎](src/q_501_550/q0503.cc)|503|[Next Greater Element II](https://leetcode.com/problems/next-greater-element-ii/)|Medium|
 |[📎](src/q_501_550/q0504.cc)|504|[Base 7](https://leetcode.com/problems/base-7/)|Easy|
@@ -773,13 +774,13 @@ My daily challenge on leetcode since 2021/09/06.
 ||748|[Shortest Completing Word](https://leetcode.com/problems/shortest-completing-word/)|Easy|
 ||749|[Contain Virus](https://leetcode.com/problems/contain-virus/)|Hard|
 |🔒|750|[Number Of Corner Rectangles](https://leetcode.com/problems/number-of-corner-rectangles/)|Medium|
-|🔒|751|[IP to CIDR](https://leetcode.com/problems/ip-to-cidr/)|Medium|
 </details>
 <details>
   <summary>### 751 ~ 1000</summary>
 
 |</>|#|Solution Title|Difficulty|
 |:-:|--:|:--|:--|
+|🔒|751|[IP to CIDR](https://leetcode.com/problems/ip-to-cidr/)|Medium|
 |[📎](src/q_751_800/q0752.cc)|752|[Open the Lock](https://leetcode.com/problems/open-the-lock/)|Medium|
 ||753|[Cracking the Safe](https://leetcode.com/problems/cracking-the-safe/)|Hard|
 ||754|[Reach a Number](https://leetcode.com/problems/reach-a-number/)|Medium|
@@ -1029,13 +1030,13 @@ My daily challenge on leetcode since 2021/09/06.
 ||998|[Maximum Binary Tree II](https://leetcode.com/problems/maximum-binary-tree-ii/)|Medium|
 |[📎](src/q_951_1000/q0999.cc)|999|[Available Captures for Rook](https://leetcode.com/problems/available-captures-for-rook/)|Easy|
 ||1000|[Minimum Cost to Merge Stones](https://leetcode.com/problems/minimum-cost-to-merge-stones/)|Hard|
-||1001|[Grid Illumination](https://leetcode.com/problems/grid-illumination/)|Hard|
 </details>
 <details>
   <summary>### 1001 ~ 1250</summary>
 
 |</>|#|Solution Title|Difficulty|
 |:-:|--:|:--|:--|
+||1001|[Grid Illumination](https://leetcode.com/problems/grid-illumination/)|Hard|
 |[📎](src/q_1001_1050/q1002.cc)|1002|[Find Common Characters](https://leetcode.com/problems/find-common-characters/)|Easy|
 ||1003|[Check If Word Is Valid After Substitutions](https://leetcode.com/problems/check-if-word-is-valid-after-substitutions/)|Medium|
 ||1004|[Max Consecutive Ones III](https://leetcode.com/problems/max-consecutive-ones-iii/)|Medium|
@@ -1285,13 +1286,13 @@ My daily challenge on leetcode since 2021/09/06.
 ||1248|[Count Number of Nice Subarrays](https://leetcode.com/problems/count-number-of-nice-subarrays/)|Medium|
 |[📎](src/q_1201_1250/q1249.cc)|1249|[Minimum Remove to Make Valid Parentheses](https://leetcode.com/problems/minimum-remove-to-make-valid-parentheses/)|Medium|
 ||1250|[Check If It Is a Good Array](https://leetcode.com/problems/check-if-it-is-a-good-array/)|Hard|
-|🔒|1251|[Average Selling Price](https://leetcode.com/problems/average-selling-price/)|Easy|
 </details>
 <details>
   <summary>### 1251 ~ 1500</summary>
 
 |</>|#|Solution Title|Difficulty|
 |:-:|--:|:--|:--|
+|🔒|1251|[Average Selling Price](https://leetcode.com/problems/average-selling-price/)|Easy|
 ||1252|[Cells with Odd Values in a Matrix](https://leetcode.com/problems/cells-with-odd-values-in-a-matrix/)|Easy|
 ||1253|[Reconstruct a 2-Row Binary Matrix](https://leetcode.com/problems/reconstruct-a-2-row-binary-matrix/)|Medium|
 |[📎](src/q_1251_1300/q1254.cc)|1254|[Number of Closed Islands](https://leetcode.com/problems/number-of-closed-islands/)|Medium|
@@ -1501,7 +1502,7 @@ My daily challenge on leetcode since 2021/09/06.
 ||1458|[Max Dot Product of Two Subsequences](https://leetcode.com/problems/max-dot-product-of-two-subsequences/)|Hard|
 |🔒|1459|[Rectangles Area](https://leetcode.com/problems/rectangles-area/)|Medium|
 ||1460|[Make Two Arrays Equal by Reversing Sub-arrays](https://leetcode.com/problems/make-two-arrays-equal-by-reversing-sub-arrays/)|Easy|
-||1461|[Check If a String Contains All Binary Codes of Size K](https://leetcode.com/problems/check-if-a-string-contains-all-binary-codes-of-size-k/)|Medium|
+|[📎](src/q_1451_1500/q1461.cc)|1461|[Check If a String Contains All Binary Codes of Size K](https://leetcode.com/problems/check-if-a-string-contains-all-binary-codes-of-size-k/)|Medium|
 |[📎](src/q_1451_1500/q1462.cc)|1462|[Course Schedule IV](https://leetcode.com/problems/course-schedule-iv/)|Medium|
 |[📎](src/q_1451_1500/q1463.cc)|1463|[Cherry Pickup II](https://leetcode.com/problems/cherry-pickup-ii/)|Hard|
 |[📎](src/q_1451_1500/q1464.cc)|1464|[Maximum Product of Two Elements in an Array](https://leetcode.com/problems/maximum-product-of-two-elements-in-an-array/)|Easy|
@@ -1541,13 +1542,13 @@ My daily challenge on leetcode since 2021/09/06.
 ||1498|[Number of Subsequences That Satisfy the Given Sum Condition](https://leetcode.com/problems/number-of-subsequences-that-satisfy-the-given-sum-condition/)|Medium|
 ||1499|[Max Value of Equation](https://leetcode.com/problems/max-value-of-equation/)|Hard|
 |🔒|1500|[Design a File Sharing System](https://leetcode.com/problems/design-a-file-sharing-system/)|Medium|
-|🔒|1501|[Countries You Can Safely Invest In](https://leetcode.com/problems/countries-you-can-safely-invest-in/)|Medium|
 </details>
 <details>
   <summary>### 1501 ~ 1750</summary>
 
 |</>|#|Solution Title|Difficulty|
 |:-:|--:|:--|:--|
+|🔒|1501|[Countries You Can Safely Invest In](https://leetcode.com/problems/countries-you-can-safely-invest-in/)|Medium|
 |[📎](src/q_1501_1550/q1502.cc)|1502|[Can Make Arithmetic Progression From Sequence](https://leetcode.com/problems/can-make-arithmetic-progression-from-sequence/)|Easy|
 ||1503|[Last Moment Before All Ants Fall Out of a Plank](https://leetcode.com/problems/last-moment-before-all-ants-fall-out-of-a-plank/)|Medium|
 ||1504|[Count Submatrices With All Ones](https://leetcode.com/problems/count-submatrices-with-all-ones/)|Medium|
@@ -1797,13 +1798,13 @@ My daily challenge on leetcode since 2021/09/06.
 ||1748|[Sum of Unique Elements](https://leetcode.com/problems/sum-of-unique-elements/)|Easy|
 ||1749|[Maximum Absolute Sum of Any Subarray](https://leetcode.com/problems/maximum-absolute-sum-of-any-subarray/)|Medium|
 ||1750|[Minimum Length of String After Deleting Similar Ends](https://leetcode.com/problems/minimum-length-of-string-after-deleting-similar-ends/)|Medium|
-||1751|[Maximum Number of Events That Can Be Attended II](https://leetcode.com/problems/maximum-number-of-events-that-can-be-attended-ii/)|Hard|
 </details>
 <details>
   <summary>### 1751 ~ 2000</summary>
 
 |</>|#|Solution Title|Difficulty|
 |:-:|--:|:--|:--|
+||1751|[Maximum Number of Events That Can Be Attended II](https://leetcode.com/problems/maximum-number-of-events-that-can-be-attended-ii/)|Hard|
 |[📎](src/q_1751_1800/q1752.cc)|1752|[Check if Array Is Sorted and Rotated](https://leetcode.com/problems/check-if-array-is-sorted-and-rotated/)|Easy|
 ||1753|[Maximum Score From Removing Stones](https://leetcode.com/problems/maximum-score-from-removing-stones/)|Medium|
 ||1754|[Largest Merge Of Two Strings](https://leetcode.com/problems/largest-merge-of-two-strings/)|Medium|
@@ -2053,13 +2054,13 @@ My daily challenge on leetcode since 2021/09/06.
 ||1998|[GCD Sort of an Array](https://leetcode.com/problems/gcd-sort-of-an-array/)|Hard|
 |🔒|1999|[Smallest Greater Multiple Made of Two Digits](https://leetcode.com/problems/smallest-greater-multiple-made-of-two-digits/)|Medium|
 ||2000|[Reverse Prefix of Word](https://leetcode.com/problems/reverse-prefix-of-word/)|Easy|
-||2001|[Number of Pairs of Interchangeable Rectangles](https://leetcode.com/problems/number-of-pairs-of-interchangeable-rectangles/)|Medium|
 </details>
 <details>
   <summary>### 2001 ~ 2250</summary>
 
 |</>|#|Solution Title|Difficulty|
 |:-:|--:|:--|:--|
+||2001|[Number of Pairs of Interchangeable Rectangles](https://leetcode.com/problems/number-of-pairs-of-interchangeable-rectangles/)|Medium|
 ||2002|[Maximum Product of the Length of Two Palindromic Subsequences](https://leetcode.com/problems/maximum-product-of-the-length-of-two-palindromic-subsequences/)|Medium|
 ||2003|[Smallest Missing Genetic Value in Each Subtree](https://leetcode.com/problems/smallest-missing-genetic-value-in-each-subtree/)|Hard|
 |🔒|2004|[The Number of Seniors and Juniors to Join the Company](https://leetcode.com/problems/the-number-of-seniors-and-juniors-to-join-the-company/)|Hard|
@@ -2309,13 +2310,13 @@ My daily challenge on leetcode since 2021/09/06.
 ||2248|[Intersection of Multiple Arrays](https://leetcode.com/problems/intersection-of-multiple-arrays/)|Easy|
 ||2249|[Count Lattice Points Inside a Circle](https://leetcode.com/problems/count-lattice-points-inside-a-circle/)|Medium|
 ||2250|[Count Number of Rectangles Containing Each Point](https://leetcode.com/problems/count-number-of-rectangles-containing-each-point/)|Medium|
-||2251|[Number of Flowers in Full Bloom](https://leetcode.com/problems/number-of-flowers-in-full-bloom/)|Hard|
 </details>
 <details>
-  <summary>### 2251 ~ 2289</summary>
+  <summary>### 2251 ~ 2290</summary>
 
 |</>|#|Solution Title|Difficulty|
 |:-:|--:|:--|:--|
+||2251|[Number of Flowers in Full Bloom](https://leetcode.com/problems/number-of-flowers-in-full-bloom/)|Hard|
 |🔒|2252|[Dynamic Pivoting of a Table](https://leetcode.com/problems/dynamic-pivoting-of-a-table/)|Hard|
 |🔒|2253|[Dynamic Unpivoting of a Table](https://leetcode.com/problems/dynamic-unpivoting-of-a-table/)|Hard|
 |🔒|2254|[Design Video Sharing Platform](https://leetcode.com/problems/design-video-sharing-platform/)|Hard|
@@ -2362,6 +2363,7 @@ My daily challenge on leetcode since 2021/09/06.
 
 |Time|#|</>|Question Title|Difficulty|
 |:--|--:|:-:|:--|:--|
+|2022-05-31 18:19|1461|[📎](src/q_1451_1500/q1461.cc)|[Check If a String Contains All Binary Codes of Size K](https://leetcode.com/problems/check-if-a-string-contains-all-binary-codes-of-size-k/)|Medium|
 |2022-05-30 18:20|405|[📎](src/q_401_450/q0405.cc)|[Convert a Number to Hexadecimal](https://leetcode.com/problems/convert-a-number-to-hexadecimal/)|Easy|
 |2022-05-29 14:09|318|[📎](src/q_301_350/q0318.cc)|[Maximum Product of Word Lengths](https://leetcode.com/problems/maximum-product-of-word-lengths/)|Medium|
 |2022-05-28 12:20|268|[📎](src/q_251_300/q0268.cc)|[Missing Number](https://leetcode.com/problems/missing-number/)|Easy|
@@ -2386,13 +2388,12 @@ My daily challenge on leetcode since 2021/09/06.
 |2022-05-12 18:19|1845|[📎](src/q_1801_1850/q1845.cc)|[Seat Reservation Manager](https://leetcode.com/problems/seat-reservation-manager/)|Medium|
 |2022-05-12 18:11|860|[📎](src/q_851_900/q0860.cc)|[Lemonade Change](https://leetcode.com/problems/lemonade-change/)|Easy|
 |2022-05-11 11:15|1641|[📎](src/q_1601_1650/q1641.cc)|[Count Sorted Vowel Strings](https://leetcode.com/problems/count-sorted-vowel-strings/)|Medium|
-|2022-05-10 19:27|445|[📎](src/q_401_450/q0445.cc)|[Add Two Numbers II](https://leetcode.com/problems/add-two-numbers-ii/)|Medium|
 
 ## Previous Logs
 
 |Month|Submissions|Easy|Medium|Hard|
 |:--|:--|:--|:--|:--|
-|[May_2022](./assets/May_2022.md)|41|12|25|4|
+|[May_2022](./assets/May_2022.md)|42|12|26|4|
 |[April_2022](./assets/April_2022.md)|56|37|19|0|
 |[March_2022](./assets/March_2022.md)|49|6|39|4|
 |[February_2022](./assets/February_2022.md)|69|15|43|11|

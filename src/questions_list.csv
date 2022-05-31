@@ -353,6 +353,7 @@ id,title,level,slug,paid,done
 352,Data Stream as Disjoint Intervals,3,data-stream-as-disjoint-intervals,0,1
 353,Design Snake Game,2,design-snake-game,1,0
 354,Russian Doll Envelopes,3,russian-doll-envelopes,0,1
+355,Design Twitter,2,design-twitter,0,0
 356,Line Reflection,2,line-reflection,1,0
 357,Count Numbers with Unique Digits,2,count-numbers-with-unique-digits,0,0
 358,Rearrange String k Distance Apart,3,rearrange-string-k-distance-apart,1,0
@@ -1458,7 +1459,7 @@ id,title,level,slug,paid,done
 1458,Max Dot Product of Two Subsequences,3,max-dot-product-of-two-subsequences,0,0
 1459,Rectangles Area,2,rectangles-area,1,0
 1460,Make Two Arrays Equal by Reversing Sub-arrays,1,make-two-arrays-equal-by-reversing-sub-arrays,0,0
-1461,Check If a String Contains All Binary Codes of Size K,2,check-if-a-string-contains-all-binary-codes-of-size-k,0,0
+1461,Check If a String Contains All Binary Codes of Size K,2,check-if-a-string-contains-all-binary-codes-of-size-k,0,1
 1462,Course Schedule IV,2,course-schedule-iv,0,1
 1463,Cherry Pickup II,3,cherry-pickup-ii,0,1
 1464,Maximum Product of Two Elements in an Array,1,maximum-product-of-two-elements-in-an-array,0,1
