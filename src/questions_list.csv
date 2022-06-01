@@ -2264,7 +2264,7 @@ id,title,level,slug,paid,done
 2263,Make Array Non-decreasing or Non-increasing,3,make-array-non-decreasing-or-non-increasing,1,0
 2264,Largest 3-Same-Digit Number in String,1,largest-3-same-digit-number-in-string,0,0
 2265,Count Nodes Equal to Average of Subtree,2,count-nodes-equal-to-average-of-subtree,0,0
-2266,Count Number of Texts,2,count-number-of-texts,0,0
+2266,Count Number of Texts,2,count-number-of-texts,0,1
 2267, Check if There Is a Valid Parentheses String Path,3,check-if-there-is-a-valid-parentheses-string-path,0,0
 2268,Minimum Number of Keypresses,2,minimum-number-of-keypresses,1,0
 2269,Find the K-Beauty of a Number,1,find-the-k-beauty-of-a-number,0,0
@@ -2289,3 +2289,4 @@ id,title,level,slug,paid,done
 2288,Apply Discount to Prices,2,apply-discount-to-prices,0,0
 2289,Steps to Make Array Non-decreasing,2,steps-to-make-array-non-decreasing,0,0
 2290,Minimum Obstacle Removal to Reach Corner,3,minimum-obstacle-removal-to-reach-corner,0,0
+2291,Maximum Profit From Trading Stocks,2,maximum-profit-from-trading-stocks,1,0
