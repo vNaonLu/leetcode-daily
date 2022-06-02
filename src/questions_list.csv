@@ -865,7 +865,7 @@ id,title,level,slug,paid,done
 864,Shortest Path to Get All Keys,3,shortest-path-to-get-all-keys,0,0
 865,Smallest Subtree with all the Deepest Nodes,2,smallest-subtree-with-all-the-deepest-nodes,0,0
 866,Prime Palindrome,2,prime-palindrome,0,0
-867,Transpose Matrix,1,transpose-matrix,0,0
+867,Transpose Matrix,1,transpose-matrix,0,1
 868,Binary Gap,1,binary-gap,0,0
 869,Reordered Power of 2,2,reordered-power-of-2,0,0
 870,Advantage Shuffle,2,advantage-shuffle,0,0
