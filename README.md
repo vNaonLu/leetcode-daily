@@ -1735,7 +1735,7 @@ My daily challenge on leetcode since 2021/09/06.
 ||1685|[Sum of Absolute Differences in a Sorted Array](https://leetcode.com/problems/sum-of-absolute-differences-in-a-sorted-array/)|Medium|
 ||1686|[Stone Game VI](https://leetcode.com/problems/stone-game-vi/)|Medium|
 ||1687|[Delivering Boxes from Storage to Ports](https://leetcode.com/problems/delivering-boxes-from-storage-to-ports/)|Hard|
-||1688|[Count of Matches in Tournament](https://leetcode.com/problems/count-of-matches-in-tournament/)|Easy|
+|[📎](src/q_1651_1700/q1688.cc)|1688|[Count of Matches in Tournament](https://leetcode.com/problems/count-of-matches-in-tournament/)|Easy|
 ||1689|[Partitioning Into Minimum Number Of Deci-Binary Numbers](https://leetcode.com/problems/partitioning-into-minimum-number-of-deci-binary-numbers/)|Medium|
 ||1690|[Stone Game VII](https://leetcode.com/problems/stone-game-vii/)|Medium|
 ||1691|[Maximum Height by Stacking Cuboids ](https://leetcode.com/problems/maximum-height-by-stacking-cuboids/)|Hard|
@@ -2364,6 +2364,7 @@ My daily challenge on leetcode since 2021/09/06.
 
 |Time|#|</>|Question Title|Difficulty|
 |:--|--:|:-:|:--|:--|
+|2022-06-03 13:41|1688|[📎](src/q_1651_1700/q1688.cc)|[Count of Matches in Tournament](https://leetcode.com/problems/count-of-matches-in-tournament/)|Easy|
 |2022-06-02 18:21|867|[📎](src/q_851_900/q0867.cc)|[Transpose Matrix](https://leetcode.com/problems/transpose-matrix/)|Easy|
 |2022-06-01 18:04|2266|[📎](src/q_2251_2300/q2266.cc)|[Count Number of Texts](https://leetcode.com/problems/count-number-of-texts/)|Medium|
 |2022-05-31 18:19|1461|[📎](src/q_1451_1500/q1461.cc)|[Check If a String Contains All Binary Codes of Size K](https://leetcode.com/problems/check-if-a-string-contains-all-binary-codes-of-size-k/)|Medium|
@@ -2388,13 +2389,12 @@ My daily challenge on leetcode since 2021/09/06.
 |2022-05-14 12:59|1797|[📎](src/q_1751_1800/q1797.cc)|[Design Authentication Manager](https://leetcode.com/problems/design-authentication-manager/)|Medium|
 |2022-05-14 12:34|743|[📎](src/q_701_750/q0743.cc)|[Network Delay Time](https://leetcode.com/problems/network-delay-time/)|Medium|
 |2022-05-13 18:33|1093|[📎](src/q_1051_1100/q1093.cc)|[Statistics from a Large Sample](https://leetcode.com/problems/statistics-from-a-large-sample/)|Medium|
-|2022-05-12 18:19|1845|[📎](src/q_1801_1850/q1845.cc)|[Seat Reservation Manager](https://leetcode.com/problems/seat-reservation-manager/)|Medium|
 
 ## Previous Logs
 
 |Month|Submissions|Easy|Medium|Hard|
 |:--|:--|:--|:--|:--|
-|[June_2022](./assets/June_2022.md)|2|1|1|0|
+|[June_2022](./assets/June_2022.md)|3|2|1|0|
 |[May_2022](./assets/May_2022.md)|42|12|26|4|
 |[April_2022](./assets/April_2022.md)|56|37|19|0|
 |[March_2022](./assets/March_2022.md)|49|6|39|4|
