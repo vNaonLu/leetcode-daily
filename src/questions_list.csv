@@ -1825,7 +1825,7 @@ id,title,level,slug,paid,done
 1824,Minimum Sideway Jumps,2,minimum-sideway-jumps,0,0
 1825,Finding MK Average,3,finding-mk-average,0,0
 1826,Faulty Sensor,1,faulty-sensor,1,0
-1827,Minimum Operations to Make the Array Increasing,1,minimum-operations-to-make-the-array-increasing,0,0
+1827,Minimum Operations to Make the Array Increasing,1,minimum-operations-to-make-the-array-increasing,0,1
 1828,Queries on Number of Points Inside a Circle,2,queries-on-number-of-points-inside-a-circle,0,1
 1829,Maximum XOR for Each Query,2,maximum-xor-for-each-query,0,1
 1830,Minimum Number of Operations to Make String Sorted,3,minimum-number-of-operations-to-make-string-sorted,0,0
@@ -2290,3 +2290,4 @@ id,title,level,slug,paid,done
 2289,Steps to Make Array Non-decreasing,2,steps-to-make-array-non-decreasing,0,0
 2290,Minimum Obstacle Removal to Reach Corner,3,minimum-obstacle-removal-to-reach-corner,0,0
 2291,Maximum Profit From Trading Stocks,2,maximum-profit-from-trading-stocks,1,0
+2292,Products With Three or More Orders in Two Consecutive Years,2,products-with-three-or-more-orders-in-two-consecutive-years,1,0
