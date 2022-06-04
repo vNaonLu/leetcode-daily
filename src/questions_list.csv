@@ -316,7 +316,7 @@ id,title,level,slug,paid,done
 315,Count of Smaller Numbers After Self,3,count-of-smaller-numbers-after-self,0,1
 316,Remove Duplicate Letters,2,remove-duplicate-letters,0,1
 317,Shortest Distance from All Buildings,3,shortest-distance-from-all-buildings,1,0
-318,Maximum Product of Word Lengths,2,maximum-product-of-word-lengths,0,0
+318,Maximum Product of Word Lengths,2,maximum-product-of-word-lengths,0,1
 319,Bulb Switcher,2,bulb-switcher,0,0
 320,Generalized Abbreviation,2,generalized-abbreviation,1,0
 321,Create Maximum Number,3,create-maximum-number,0,0
@@ -353,6 +353,7 @@ id,title,level,slug,paid,done
 352,Data Stream as Disjoint Intervals,3,data-stream-as-disjoint-intervals,0,1
 353,Design Snake Game,2,design-snake-game,1,0
 354,Russian Doll Envelopes,3,russian-doll-envelopes,0,1
+355,Design Twitter,2,design-twitter,0,0
 356,Line Reflection,2,line-reflection,1,0
 357,Count Numbers with Unique Digits,2,count-numbers-with-unique-digits,0,0
 358,Rearrange String k Distance Apart,3,rearrange-string-k-distance-apart,1,0
@@ -402,7 +403,7 @@ id,title,level,slug,paid,done
 402,Remove K Digits,2,remove-k-digits,0,1
 403,Frog Jump,3,frog-jump,0,0
 404,Sum of Left Leaves,1,sum-of-left-leaves,0,1
-405,Convert a Number to Hexadecimal,1,convert-a-number-to-hexadecimal,0,0
+405,Convert a Number to Hexadecimal,1,convert-a-number-to-hexadecimal,0,1
 406,Queue Reconstruction by Height,2,queue-reconstruction-by-height,0,0
 407,Trapping Rain Water II,3,trapping-rain-water-ii,0,0
 408,Valid Word Abbreviation,1,valid-word-abbreviation,1,0
@@ -864,7 +865,7 @@ id,title,level,slug,paid,done
 864,Shortest Path to Get All Keys,3,shortest-path-to-get-all-keys,0,0
 865,Smallest Subtree with all the Deepest Nodes,2,smallest-subtree-with-all-the-deepest-nodes,0,0
 866,Prime Palindrome,2,prime-palindrome,0,0
-867,Transpose Matrix,1,transpose-matrix,0,0
+867,Transpose Matrix,1,transpose-matrix,0,1
 868,Binary Gap,1,binary-gap,0,0
 869,Reordered Power of 2,2,reordered-power-of-2,0,0
 870,Advantage Shuffle,2,advantage-shuffle,0,0
@@ -1458,7 +1459,7 @@ id,title,level,slug,paid,done
 1458,Max Dot Product of Two Subsequences,3,max-dot-product-of-two-subsequences,0,0
 1459,Rectangles Area,2,rectangles-area,1,0
 1460,Make Two Arrays Equal by Reversing Sub-arrays,1,make-two-arrays-equal-by-reversing-sub-arrays,0,0
-1461,Check If a String Contains All Binary Codes of Size K,2,check-if-a-string-contains-all-binary-codes-of-size-k,0,0
+1461,Check If a String Contains All Binary Codes of Size K,2,check-if-a-string-contains-all-binary-codes-of-size-k,0,1
 1462,Course Schedule IV,2,course-schedule-iv,0,1
 1463,Cherry Pickup II,3,cherry-pickup-ii,0,1
 1464,Maximum Product of Two Elements in an Array,1,maximum-product-of-two-elements-in-an-array,0,1
@@ -1685,7 +1686,7 @@ id,title,level,slug,paid,done
 1685,Sum of Absolute Differences in a Sorted Array,2,sum-of-absolute-differences-in-a-sorted-array,0,0
 1686,Stone Game VI,2,stone-game-vi,0,0
 1687,Delivering Boxes from Storage to Ports,3,delivering-boxes-from-storage-to-ports,0,0
-1688,Count of Matches in Tournament,1,count-of-matches-in-tournament,0,0
+1688,Count of Matches in Tournament,1,count-of-matches-in-tournament,0,1
 1689,Partitioning Into Minimum Number Of Deci-Binary Numbers,2,partitioning-into-minimum-number-of-deci-binary-numbers,0,0
 1690,Stone Game VII,2,stone-game-vii,0,0
 1691,Maximum Height by Stacking Cuboids ,3,maximum-height-by-stacking-cuboids,0,0
@@ -1824,7 +1825,7 @@ id,title,level,slug,paid,done
 1824,Minimum Sideway Jumps,2,minimum-sideway-jumps,0,0
 1825,Finding MK Average,3,finding-mk-average,0,0
 1826,Faulty Sensor,1,faulty-sensor,1,0
-1827,Minimum Operations to Make the Array Increasing,1,minimum-operations-to-make-the-array-increasing,0,0
+1827,Minimum Operations to Make the Array Increasing,1,minimum-operations-to-make-the-array-increasing,0,1
 1828,Queries on Number of Points Inside a Circle,2,queries-on-number-of-points-inside-a-circle,0,1
 1829,Maximum XOR for Each Query,2,maximum-xor-for-each-query,0,1
 1830,Minimum Number of Operations to Make String Sorted,3,minimum-number-of-operations-to-make-string-sorted,0,0
@@ -2263,7 +2264,7 @@ id,title,level,slug,paid,done
 2263,Make Array Non-decreasing or Non-increasing,3,make-array-non-decreasing-or-non-increasing,1,0
 2264,Largest 3-Same-Digit Number in String,1,largest-3-same-digit-number-in-string,0,0
 2265,Count Nodes Equal to Average of Subtree,2,count-nodes-equal-to-average-of-subtree,0,0
-2266,Count Number of Texts,2,count-number-of-texts,0,0
+2266,Count Number of Texts,2,count-number-of-texts,0,1
 2267, Check if There Is a Valid Parentheses String Path,3,check-if-there-is-a-valid-parentheses-string-path,0,0
 2268,Minimum Number of Keypresses,2,minimum-number-of-keypresses,1,0
 2269,Find the K-Beauty of a Number,1,find-the-k-beauty-of-a-number,0,0
@@ -2280,3 +2281,13 @@ id,title,level,slug,paid,done
 2280,Minimum Lines to Represent a Line Chart,2,minimum-lines-to-represent-a-line-chart,0,0
 2281,Sum of Total Strength of Wizards,3,sum-of-total-strength-of-wizards,0,0
 2282,Number of People That Can Be Seen in a Grid,2,number-of-people-that-can-be-seen-in-a-grid,1,0
+2283,Check if Number Has Equal Digit Count and Digit Value,1,check-if-number-has-equal-digit-count-and-digit-value,0,0
+2284,Sender With Largest Word Count,2,sender-with-largest-word-count,0,0
+2285,Maximum Total Importance of Roads,2,maximum-total-importance-of-roads,0,0
+2286,Booking Concert Tickets in Groups,3,booking-concert-tickets-in-groups,0,0
+2287,Rearrange Characters to Make Target String,1,rearrange-characters-to-make-target-string,0,0
+2288,Apply Discount to Prices,2,apply-discount-to-prices,0,0
+2289,Steps to Make Array Non-decreasing,2,steps-to-make-array-non-decreasing,0,0
+2290,Minimum Obstacle Removal to Reach Corner,3,minimum-obstacle-removal-to-reach-corner,0,0
+2291,Maximum Profit From Trading Stocks,2,maximum-profit-from-trading-stocks,1,0
+2292,Products With Three or More Orders in Two Consecutive Years,2,products-with-three-or-more-orders-in-two-consecutive-years,1,0
