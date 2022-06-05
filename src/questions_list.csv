@@ -652,7 +652,7 @@ id,title,level,slug,paid,done
 651,4 Keys Keyboard,2,4-keys-keyboard,1,0
 652,Find Duplicate Subtrees,2,find-duplicate-subtrees,0,0
 653,Two Sum IV - Input is a BST,1,two-sum-iv-input-is-a-bst,0,1
-654,Maximum Binary Tree,2,maximum-binary-tree,0,0
+654,Maximum Binary Tree,2,maximum-binary-tree,0,1
 655,Print Binary Tree,2,print-binary-tree,0,0
 656,Coin Path,3,coin-path,1,0
 657,Robot Return to Origin,1,robot-return-to-origin,0,0

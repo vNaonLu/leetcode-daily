@@ -677,7 +677,7 @@ My daily challenge on leetcode since 2021/09/06.
 |🔒|651|[4 Keys Keyboard](https://leetcode.com/problems/4-keys-keyboard/)|Medium|
 ||652|[Find Duplicate Subtrees](https://leetcode.com/problems/find-duplicate-subtrees/)|Medium|
 |[📎](src/q_651_700/q0653.cc)|653|[Two Sum IV - Input is a BST](https://leetcode.com/problems/two-sum-iv-input-is-a-bst/)|Easy|
-||654|[Maximum Binary Tree](https://leetcode.com/problems/maximum-binary-tree/)|Medium|
+|[📎](src/q_651_700/q0654.cc)|654|[Maximum Binary Tree](https://leetcode.com/problems/maximum-binary-tree/)|Medium|
 ||655|[Print Binary Tree](https://leetcode.com/problems/print-binary-tree/)|Medium|
 |🔒|656|[Coin Path](https://leetcode.com/problems/coin-path/)|Hard|
 ||657|[Robot Return to Origin](https://leetcode.com/problems/robot-return-to-origin/)|Easy|
@@ -2365,6 +2365,7 @@ My daily challenge on leetcode since 2021/09/06.
 
 |Time|#|</>|Question Title|Difficulty|
 |:--|--:|:-:|:--|:--|
+|2022-06-05 13:57|654|[📎](src/q_651_700/q0654.cc)|[Maximum Binary Tree](https://leetcode.com/problems/maximum-binary-tree/)|Medium|
 |2022-06-04 21:42|1827|[📎](src/q_1801_1850/q1827.cc)|[Minimum Operations to Make the Array Increasing](https://leetcode.com/problems/minimum-operations-to-make-the-array-increasing/)|Easy|
 |2022-06-03 13:41|1688|[📎](src/q_1651_1700/q1688.cc)|[Count of Matches in Tournament](https://leetcode.com/problems/count-of-matches-in-tournament/)|Easy|
 |2022-06-02 18:21|867|[📎](src/q_851_900/q0867.cc)|[Transpose Matrix](https://leetcode.com/problems/transpose-matrix/)|Easy|
@@ -2389,13 +2390,12 @@ My daily challenge on leetcode since 2021/09/06.
 |2022-05-15 13:05|729|[📎](src/q_701_750/q0729.cc)|[My Calendar I](https://leetcode.com/problems/my-calendar-i/)|Medium|
 |2022-05-15 12:59|1302|[📎](src/q_1301_1350/q1302.cc)|[Deepest Leaves Sum](https://leetcode.com/problems/deepest-leaves-sum/)|Medium|
 |2022-05-14 12:59|1797|[📎](src/q_1751_1800/q1797.cc)|[Design Authentication Manager](https://leetcode.com/problems/design-authentication-manager/)|Medium|
-|2022-05-14 12:34|743|[📎](src/q_701_750/q0743.cc)|[Network Delay Time](https://leetcode.com/problems/network-delay-time/)|Medium|
 
 ## Previous Logs
 
 |Month|Submissions|Easy|Medium|Hard|
 |:--|:--|:--|:--|:--|
-|[June_2022](./assets/June_2022.md)|4|3|1|0|
+|[June_2022](./assets/June_2022.md)|5|3|2|0|
 |[May_2022](./assets/May_2022.md)|42|12|26|4|
 |[April_2022](./assets/April_2022.md)|56|37|19|0|
 |[March_2022](./assets/March_2022.md)|49|6|39|4|
