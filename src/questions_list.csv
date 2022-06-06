@@ -1047,7 +1047,7 @@ id,title,level,slug,paid,done
 1046,Last Stone Weight,1,last-stone-weight,0,1
 1047,Remove All Adjacent Duplicates In String,1,remove-all-adjacent-duplicates-in-string,0,0
 1048,Longest String Chain,2,longest-string-chain,0,0
-1049,Last Stone Weight II,2,last-stone-weight-ii,0,0
+1049,Last Stone Weight II,2,last-stone-weight-ii,0,1
 1050,Actors and Directors Who Cooperated At Least Three Times,1,actors-and-directors-who-cooperated-at-least-three-times,0,0
 1051,Height Checker,1,height-checker,0,0
 1052,Grumpy Bookstore Owner,2,grumpy-bookstore-owner,0,0
@@ -2291,3 +2291,7 @@ id,title,level,slug,paid,done
 2290,Minimum Obstacle Removal to Reach Corner,3,minimum-obstacle-removal-to-reach-corner,0,0
 2291,Maximum Profit From Trading Stocks,2,maximum-profit-from-trading-stocks,1,0
 2292,Products With Three or More Orders in Two Consecutive Years,2,products-with-three-or-more-orders-in-two-consecutive-years,1,0
+2293,Min Max Game,1,min-max-game,0,0
+2294,Partition Array Such That Maximum Difference Is K,2,partition-array-such-that-maximum-difference-is-k,0,0
+2295,Replace Elements in an Array,2,replace-elements-in-an-array,0,0
+2296,Design a Text Editor,3,design-a-text-editor,0,0
