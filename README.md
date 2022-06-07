@@ -230,7 +230,7 @@ My daily challenge on leetcode since 2021/09/06.
 |[📎](src/q_201_250/q0216.cc)|216|[Combination Sum III](https://leetcode.com/problems/combination-sum-iii/)|Medium|
 ||217|[Contains Duplicate](https://leetcode.com/problems/contains-duplicate/)|Easy|
 ||218|[The Skyline Problem](https://leetcode.com/problems/the-skyline-problem/)|Hard|
-||219|[Contains Duplicate II](https://leetcode.com/problems/contains-duplicate-ii/)|Easy|
+|[📎](src/q_201_250/q0219.cc)|219|[Contains Duplicate II](https://leetcode.com/problems/contains-duplicate-ii/)|Easy|
 ||220|[Contains Duplicate III](https://leetcode.com/problems/contains-duplicate-iii/)|Medium|
 |[📎](src/q_201_250/q0221.cc)|221|[Maximal Square](https://leetcode.com/problems/maximal-square/)|Medium|
 |[📎](src/q_201_250/q0222.cc)|222|[Count Complete Tree Nodes](https://leetcode.com/problems/count-complete-tree-nodes/)|Medium|
@@ -2369,6 +2369,7 @@ My daily challenge on leetcode since 2021/09/06.
 
 |Time|#|</>|Question Title|Difficulty|
 |:--|--:|:-:|:--|:--|
+|2022-06-07 18:25|219|[📎](src/q_201_250/q0219.cc)|[Contains Duplicate II](https://leetcode.com/problems/contains-duplicate-ii/)|Easy|
 |2022-06-06 18:16|1049|[📎](src/q_1001_1050/q1049.cc)|[Last Stone Weight II](https://leetcode.com/problems/last-stone-weight-ii/)|Medium|
 |2022-06-05 13:57|654|[📎](src/q_651_700/q0654.cc)|[Maximum Binary Tree](https://leetcode.com/problems/maximum-binary-tree/)|Medium|
 |2022-06-04 21:42|1827|[📎](src/q_1801_1850/q1827.cc)|[Minimum Operations to Make the Array Increasing](https://leetcode.com/problems/minimum-operations-to-make-the-array-increasing/)|Easy|
@@ -2393,13 +2394,12 @@ My daily challenge on leetcode since 2021/09/06.
 |2022-05-16 17:56|140|[📎](src/q_101_150/q0140.cc)|[Word Break II](https://leetcode.com/problems/word-break-ii/)|Hard|
 |2022-05-15 13:35|622|[📎](src/q_601_650/q0622.cc)|[Design Circular Queue](https://leetcode.com/problems/design-circular-queue/)|Medium|
 |2022-05-15 13:05|729|[📎](src/q_701_750/q0729.cc)|[My Calendar I](https://leetcode.com/problems/my-calendar-i/)|Medium|
-|2022-05-15 12:59|1302|[📎](src/q_1301_1350/q1302.cc)|[Deepest Leaves Sum](https://leetcode.com/problems/deepest-leaves-sum/)|Medium|
 
 ## Previous Logs
 
 |Month|Submissions|Easy|Medium|Hard|
 |:--|:--|:--|:--|:--|
-|[June_2022](./assets/June_2022.md)|6|3|3|0|
+|[June_2022](./assets/June_2022.md)|7|4|3|0|
 |[May_2022](./assets/May_2022.md)|42|12|26|4|
 |[April_2022](./assets/April_2022.md)|56|37|19|0|
 |[March_2022](./assets/March_2022.md)|49|6|39|4|
