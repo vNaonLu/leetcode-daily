@@ -1330,7 +1330,7 @@ id,title,level,slug,paid,done
 1329,Sort the Matrix Diagonally,2,sort-the-matrix-diagonally,0,0
 1330,Reverse Subarray To Maximize Array Value,3,reverse-subarray-to-maximize-array-value,0,0
 1331,Rank Transform of an Array,1,rank-transform-of-an-array,0,0
-1332,Remove Palindromic Subsequences,1,remove-palindromic-subsequences,0,0
+1332,Remove Palindromic Subsequences,1,remove-palindromic-subsequences,0,1
 1333,"Filter Restaurants by Vegan-Friendly, Price and Distance",2,filter-restaurants-by-vegan-friendly-price-and-distance,0,0
 1334,Find the City With the Smallest Number of Neighbors at a Threshold Distance,2,find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance,0,0
 1335,Minimum Difficulty of a Job Schedule,3,minimum-difficulty-of-a-job-schedule,0,0

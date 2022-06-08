@@ -1373,7 +1373,7 @@ My daily challenge on leetcode since 2021/09/06.
 ||1329|[Sort the Matrix Diagonally](https://leetcode.com/problems/sort-the-matrix-diagonally/)|Medium|
 ||1330|[Reverse Subarray To Maximize Array Value](https://leetcode.com/problems/reverse-subarray-to-maximize-array-value/)|Hard|
 ||1331|[Rank Transform of an Array](https://leetcode.com/problems/rank-transform-of-an-array/)|Easy|
-||1332|[Remove Palindromic Subsequences](https://leetcode.com/problems/remove-palindromic-subsequences/)|Easy|
+|[📎](src/q_1301_1350/q1332.cc)|1332|[Remove Palindromic Subsequences](https://leetcode.com/problems/remove-palindromic-subsequences/)|Easy|
 ||1333|[Filter Restaurants by Vegan-Friendly, Price and Distance](https://leetcode.com/problems/filter-restaurants-by-vegan-friendly-price-and-distance/)|Medium|
 ||1334|[Find the City With the Smallest Number of Neighbors at a Threshold Distance](https://leetcode.com/problems/find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance/)|Medium|
 ||1335|[Minimum Difficulty of a Job Schedule](https://leetcode.com/problems/minimum-difficulty-of-a-job-schedule/)|Hard|
@@ -2369,6 +2369,7 @@ My daily challenge on leetcode since 2021/09/06.
 
 |Time|#|</>|Question Title|Difficulty|
 |:--|--:|:-:|:--|:--|
+|2022-06-08 18:02|1332|[📎](src/q_1301_1350/q1332.cc)|[Remove Palindromic Subsequences](https://leetcode.com/problems/remove-palindromic-subsequences/)|Easy|
 |2022-06-07 18:25|219|[📎](src/q_201_250/q0219.cc)|[Contains Duplicate II](https://leetcode.com/problems/contains-duplicate-ii/)|Easy|
 |2022-06-06 18:16|1049|[📎](src/q_1001_1050/q1049.cc)|[Last Stone Weight II](https://leetcode.com/problems/last-stone-weight-ii/)|Medium|
 |2022-06-05 13:57|654|[📎](src/q_651_700/q0654.cc)|[Maximum Binary Tree](https://leetcode.com/problems/maximum-binary-tree/)|Medium|
@@ -2393,13 +2394,12 @@ My daily challenge on leetcode since 2021/09/06.
 |2022-05-17 18:15|1379|[📎](src/q_1351_1400/q1379.cc)|[Find a Corresponding Node of a Binary Tree in a Clone of That Tree](https://leetcode.com/problems/find-a-corresponding-node-of-a-binary-tree-in-a-clone-of-that-tree/)|Easy|
 |2022-05-16 17:56|140|[📎](src/q_101_150/q0140.cc)|[Word Break II](https://leetcode.com/problems/word-break-ii/)|Hard|
 |2022-05-15 13:35|622|[📎](src/q_601_650/q0622.cc)|[Design Circular Queue](https://leetcode.com/problems/design-circular-queue/)|Medium|
-|2022-05-15 13:05|729|[📎](src/q_701_750/q0729.cc)|[My Calendar I](https://leetcode.com/problems/my-calendar-i/)|Medium|
 
 ## Previous Logs
 
 |Month|Submissions|Easy|Medium|Hard|
 |:--|:--|:--|:--|:--|
-|[June_2022](./assets/June_2022.md)|7|4|3|0|
+|[June_2022](./assets/June_2022.md)|8|5|3|0|
 |[May_2022](./assets/May_2022.md)|42|12|26|4|
 |[April_2022](./assets/April_2022.md)|56|37|19|0|
 |[March_2022](./assets/March_2022.md)|49|6|39|4|
