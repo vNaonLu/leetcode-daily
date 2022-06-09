@@ -823,7 +823,7 @@ My daily challenge on leetcode since 2021/09/06.
 ||791|[Custom Sort String](https://leetcode.com/problems/custom-sort-string/)|Medium|
 ||792|[Number of Matching Subsequences](https://leetcode.com/problems/number-of-matching-subsequences/)|Medium|
 ||793|[Preimage Size of Factorial Zeroes Function](https://leetcode.com/problems/preimage-size-of-factorial-zeroes-function/)|Hard|
-||794|[Valid Tic-Tac-Toe State](https://leetcode.com/problems/valid-tic-tac-toe-state/)|Medium|
+|[📎](src/q_751_800/q0794.cc)|794|[Valid Tic-Tac-Toe State](https://leetcode.com/problems/valid-tic-tac-toe-state/)|Medium|
 ||795|[Number of Subarrays with Bounded Maximum](https://leetcode.com/problems/number-of-subarrays-with-bounded-maximum/)|Medium|
 ||796|[Rotate String](https://leetcode.com/problems/rotate-string/)|Easy|
 |[📎](src/q_751_800/q0797.cc)|797|[All Paths From Source to Target](https://leetcode.com/problems/all-paths-from-source-to-target/)|Medium|
@@ -2312,7 +2312,7 @@ My daily challenge on leetcode since 2021/09/06.
 ||2250|[Count Number of Rectangles Containing Each Point](https://leetcode.com/problems/count-number-of-rectangles-containing-each-point/)|Medium|
 </details>
 <details>
-  <summary>### 2251 ~ 2296</summary>
+  <summary>### 2251 ~ 2297</summary>
 
 |</>|#|Solution Title|Difficulty|
 |:-:|--:|:--|:--|
@@ -2362,6 +2362,7 @@ My daily challenge on leetcode since 2021/09/06.
 ||2294|[Partition Array Such That Maximum Difference Is K](https://leetcode.com/problems/partition-array-such-that-maximum-difference-is-k/)|Medium|
 ||2295|[Replace Elements in an Array](https://leetcode.com/problems/replace-elements-in-an-array/)|Medium|
 ||2296|[Design a Text Editor](https://leetcode.com/problems/design-a-text-editor/)|Hard|
+|🔒|2297|[Jump Game IX](https://leetcode.com/problems/jump-game-ix/)|Medium|
 </details>
 
 ---
@@ -2369,6 +2370,7 @@ My daily challenge on leetcode since 2021/09/06.
 
 |Time|#|</>|Question Title|Difficulty|
 |:--|--:|:-:|:--|:--|
+|2022-06-09 18:35|794|[📎](src/q_751_800/q0794.cc)|[Valid Tic-Tac-Toe State](https://leetcode.com/problems/valid-tic-tac-toe-state/)|Medium|
 |2022-06-08 18:02|1332|[📎](src/q_1301_1350/q1332.cc)|[Remove Palindromic Subsequences](https://leetcode.com/problems/remove-palindromic-subsequences/)|Easy|
 |2022-06-07 18:25|219|[📎](src/q_201_250/q0219.cc)|[Contains Duplicate II](https://leetcode.com/problems/contains-duplicate-ii/)|Easy|
 |2022-06-06 18:16|1049|[📎](src/q_1001_1050/q1049.cc)|[Last Stone Weight II](https://leetcode.com/problems/last-stone-weight-ii/)|Medium|
@@ -2393,13 +2395,12 @@ My daily challenge on leetcode since 2021/09/06.
 |2022-05-18 18:21|1192|[📎](src/q_1151_1200/q1192.cc)|[Critical Connections in a Network](https://leetcode.com/problems/critical-connections-in-a-network/)|Hard|
 |2022-05-17 18:15|1379|[📎](src/q_1351_1400/q1379.cc)|[Find a Corresponding Node of a Binary Tree in a Clone of That Tree](https://leetcode.com/problems/find-a-corresponding-node-of-a-binary-tree-in-a-clone-of-that-tree/)|Easy|
 |2022-05-16 17:56|140|[📎](src/q_101_150/q0140.cc)|[Word Break II](https://leetcode.com/problems/word-break-ii/)|Hard|
-|2022-05-15 13:35|622|[📎](src/q_601_650/q0622.cc)|[Design Circular Queue](https://leetcode.com/problems/design-circular-queue/)|Medium|
 
 ## Previous Logs
 
 |Month|Submissions|Easy|Medium|Hard|
 |:--|:--|:--|:--|:--|
-|[June_2022](./assets/June_2022.md)|8|5|3|0|
+|[June_2022](./assets/June_2022.md)|9|5|4|0|
 |[May_2022](./assets/May_2022.md)|42|12|26|4|
 |[April_2022](./assets/April_2022.md)|56|37|19|0|
 |[March_2022](./assets/March_2022.md)|49|6|39|4|

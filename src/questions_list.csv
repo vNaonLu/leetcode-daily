@@ -792,7 +792,7 @@ id,title,level,slug,paid,done
 791,Custom Sort String,2,custom-sort-string,0,0
 792,Number of Matching Subsequences,2,number-of-matching-subsequences,0,0
 793,Preimage Size of Factorial Zeroes Function,3,preimage-size-of-factorial-zeroes-function,0,0
-794,Valid Tic-Tac-Toe State,2,valid-tic-tac-toe-state,0,0
+794,Valid Tic-Tac-Toe State,2,valid-tic-tac-toe-state,0,1
 795,Number of Subarrays with Bounded Maximum,2,number-of-subarrays-with-bounded-maximum,0,0
 796,Rotate String,1,rotate-string,0,0
 797,All Paths From Source to Target,2,all-paths-from-source-to-target,0,1
@@ -2295,3 +2295,4 @@ id,title,level,slug,paid,done
 2294,Partition Array Such That Maximum Difference Is K,2,partition-array-such-that-maximum-difference-is-k,0,0
 2295,Replace Elements in an Array,2,replace-elements-in-an-array,0,0
 2296,Design a Text Editor,3,design-a-text-editor,0,0
+2297,Jump Game IX,2,jump-game-ix,1,0
