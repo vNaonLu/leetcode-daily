@@ -217,7 +217,7 @@ id,title,level,slug,paid,done
 216,Combination Sum III,2,combination-sum-iii,0,1
 217,Contains Duplicate,1,contains-duplicate,0,0
 218,The Skyline Problem,3,the-skyline-problem,0,0
-219,Contains Duplicate II,1,contains-duplicate-ii,0,0
+219,Contains Duplicate II,1,contains-duplicate-ii,0,1
 220,Contains Duplicate III,2,contains-duplicate-iii,0,0
 221,Maximal Square,2,maximal-square,0,1
 222,Count Complete Tree Nodes,2,count-complete-tree-nodes,0,1
@@ -340,7 +340,7 @@ id,title,level,slug,paid,done
 339,Nested List Weight Sum,2,nested-list-weight-sum,1,0
 340,Longest Substring with At Most K Distinct Characters,2,longest-substring-with-at-most-k-distinct-characters,1,0
 341,Flatten Nested List Iterator,2,flatten-nested-list-iterator,0,1
-342,Power of Four,1,power-of-four,0,0
+342,Power of Four,1,power-of-four,0,1
 343,Integer Break,2,integer-break,0,1
 344,Reverse String,1,reverse-string,0,1
 345,Reverse Vowels of a String,1,reverse-vowels-of-a-string,0,0
@@ -652,7 +652,7 @@ id,title,level,slug,paid,done
 651,4 Keys Keyboard,2,4-keys-keyboard,1,0
 652,Find Duplicate Subtrees,2,find-duplicate-subtrees,0,0
 653,Two Sum IV - Input is a BST,1,two-sum-iv-input-is-a-bst,0,1
-654,Maximum Binary Tree,2,maximum-binary-tree,0,0
+654,Maximum Binary Tree,2,maximum-binary-tree,0,1
 655,Print Binary Tree,2,print-binary-tree,0,0
 656,Coin Path,3,coin-path,1,0
 657,Robot Return to Origin,1,robot-return-to-origin,0,0
@@ -792,7 +792,7 @@ id,title,level,slug,paid,done
 791,Custom Sort String,2,custom-sort-string,0,0
 792,Number of Matching Subsequences,2,number-of-matching-subsequences,0,0
 793,Preimage Size of Factorial Zeroes Function,3,preimage-size-of-factorial-zeroes-function,0,0
-794,Valid Tic-Tac-Toe State,2,valid-tic-tac-toe-state,0,0
+794,Valid Tic-Tac-Toe State,2,valid-tic-tac-toe-state,0,1
 795,Number of Subarrays with Bounded Maximum,2,number-of-subarrays-with-bounded-maximum,0,0
 796,Rotate String,1,rotate-string,0,0
 797,All Paths From Source to Target,2,all-paths-from-source-to-target,0,1
@@ -1047,7 +1047,7 @@ id,title,level,slug,paid,done
 1046,Last Stone Weight,1,last-stone-weight,0,1
 1047,Remove All Adjacent Duplicates In String,1,remove-all-adjacent-duplicates-in-string,0,0
 1048,Longest String Chain,2,longest-string-chain,0,0
-1049,Last Stone Weight II,2,last-stone-weight-ii,0,0
+1049,Last Stone Weight II,2,last-stone-weight-ii,0,1
 1050,Actors and Directors Who Cooperated At Least Three Times,1,actors-and-directors-who-cooperated-at-least-three-times,0,0
 1051,Height Checker,1,height-checker,0,0
 1052,Grumpy Bookstore Owner,2,grumpy-bookstore-owner,0,0
@@ -1330,7 +1330,7 @@ id,title,level,slug,paid,done
 1329,Sort the Matrix Diagonally,2,sort-the-matrix-diagonally,0,0
 1330,Reverse Subarray To Maximize Array Value,3,reverse-subarray-to-maximize-array-value,0,0
 1331,Rank Transform of an Array,1,rank-transform-of-an-array,0,0
-1332,Remove Palindromic Subsequences,1,remove-palindromic-subsequences,0,0
+1332,Remove Palindromic Subsequences,1,remove-palindromic-subsequences,0,1
 1333,"Filter Restaurants by Vegan-Friendly, Price and Distance",2,filter-restaurants-by-vegan-friendly-price-and-distance,0,0
 1334,Find the City With the Smallest Number of Neighbors at a Threshold Distance,2,find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance,0,0
 1335,Minimum Difficulty of a Job Schedule,3,minimum-difficulty-of-a-job-schedule,0,0
@@ -1656,7 +1656,7 @@ id,title,level,slug,paid,done
 1655,Distribute Repeating Integers,3,distribute-repeating-integers,0,0
 1656,Design an Ordered Stream,1,design-an-ordered-stream,0,0
 1657,Determine if Two Strings Are Close,2,determine-if-two-strings-are-close,0,0
-1658,Minimum Operations to Reduce X to Zero,2,minimum-operations-to-reduce-x-to-zero,0,0
+1658,Minimum Operations to Reduce X to Zero,2,minimum-operations-to-reduce-x-to-zero,0,1
 1659,Maximize Grid Happiness,3,maximize-grid-happiness,0,0
 1660,Correct a Binary Tree,2,correct-a-binary-tree,1,0
 1661,Average Time of Process per Machine,1,average-time-of-process-per-machine,1,0
@@ -2291,3 +2291,8 @@ id,title,level,slug,paid,done
 2290,Minimum Obstacle Removal to Reach Corner,3,minimum-obstacle-removal-to-reach-corner,0,0
 2291,Maximum Profit From Trading Stocks,2,maximum-profit-from-trading-stocks,1,0
 2292,Products With Three or More Orders in Two Consecutive Years,2,products-with-three-or-more-orders-in-two-consecutive-years,1,0
+2293,Min Max Game,1,min-max-game,0,0
+2294,Partition Array Such That Maximum Difference Is K,2,partition-array-such-that-maximum-difference-is-k,0,0
+2295,Replace Elements in an Array,2,replace-elements-in-an-array,0,0
+2296,Design a Text Editor,3,design-a-text-editor,0,0
+2297,Jump Game IX,2,jump-game-ix,1,0
