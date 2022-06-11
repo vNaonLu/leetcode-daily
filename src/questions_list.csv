@@ -1656,7 +1656,7 @@ id,title,level,slug,paid,done
 1655,Distribute Repeating Integers,3,distribute-repeating-integers,0,0
 1656,Design an Ordered Stream,1,design-an-ordered-stream,0,0
 1657,Determine if Two Strings Are Close,2,determine-if-two-strings-are-close,0,0
-1658,Minimum Operations to Reduce X to Zero,2,minimum-operations-to-reduce-x-to-zero,0,0
+1658,Minimum Operations to Reduce X to Zero,2,minimum-operations-to-reduce-x-to-zero,0,1
 1659,Maximize Grid Happiness,3,maximize-grid-happiness,0,0
 1660,Correct a Binary Tree,2,correct-a-binary-tree,1,0
 1661,Average Time of Process per Machine,1,average-time-of-process-per-machine,1,0

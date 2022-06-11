@@ -1705,7 +1705,7 @@ My daily challenge on leetcode since 2021/09/06.
 ||1655|[Distribute Repeating Integers](https://leetcode.com/problems/distribute-repeating-integers/)|Hard|
 ||1656|[Design an Ordered Stream](https://leetcode.com/problems/design-an-ordered-stream/)|Easy|
 ||1657|[Determine if Two Strings Are Close](https://leetcode.com/problems/determine-if-two-strings-are-close/)|Medium|
-||1658|[Minimum Operations to Reduce X to Zero](https://leetcode.com/problems/minimum-operations-to-reduce-x-to-zero/)|Medium|
+|[📎](src/q_1651_1700/q1658.cc)|1658|[Minimum Operations to Reduce X to Zero](https://leetcode.com/problems/minimum-operations-to-reduce-x-to-zero/)|Medium|
 ||1659|[Maximize Grid Happiness](https://leetcode.com/problems/maximize-grid-happiness/)|Hard|
 |🔒|1660|[Correct a Binary Tree](https://leetcode.com/problems/correct-a-binary-tree/)|Medium|
 |🔒|1661|[Average Time of Process per Machine](https://leetcode.com/problems/average-time-of-process-per-machine/)|Easy|
@@ -2370,6 +2370,7 @@ My daily challenge on leetcode since 2021/09/06.
 
 |Time|#|</>|Question Title|Difficulty|
 |:--|--:|:-:|:--|:--|
+|2022-06-11 12:29|1658|[📎](src/q_1651_1700/q1658.cc)|[Minimum Operations to Reduce X to Zero](https://leetcode.com/problems/minimum-operations-to-reduce-x-to-zero/)|Medium|
 |2022-06-10 11:29|342|[📎](src/q_301_350/q0342.cc)|[Power of Four](https://leetcode.com/problems/power-of-four/)|Easy|
 |2022-06-09 18:35|794|[📎](src/q_751_800/q0794.cc)|[Valid Tic-Tac-Toe State](https://leetcode.com/problems/valid-tic-tac-toe-state/)|Medium|
 |2022-06-08 18:02|1332|[📎](src/q_1301_1350/q1332.cc)|[Remove Palindromic Subsequences](https://leetcode.com/problems/remove-palindromic-subsequences/)|Easy|
@@ -2394,13 +2395,12 @@ My daily challenge on leetcode since 2021/09/06.
 |2022-05-20 18:17|643|[📎](src/q_601_650/q0643.cc)|[Maximum Average Subarray I](https://leetcode.com/problems/maximum-average-subarray-i/)|Easy|
 |2022-05-19 18:17|329|[📎](src/q_301_350/q0329.cc)|[Longest Increasing Path in a Matrix](https://leetcode.com/problems/longest-increasing-path-in-a-matrix/)|Hard|
 |2022-05-18 18:21|1192|[📎](src/q_1151_1200/q1192.cc)|[Critical Connections in a Network](https://leetcode.com/problems/critical-connections-in-a-network/)|Hard|
-|2022-05-17 18:15|1379|[📎](src/q_1351_1400/q1379.cc)|[Find a Corresponding Node of a Binary Tree in a Clone of That Tree](https://leetcode.com/problems/find-a-corresponding-node-of-a-binary-tree-in-a-clone-of-that-tree/)|Easy|
 
 ## Previous Logs
 
 |Month|Submissions|Easy|Medium|Hard|
 |:--|:--|:--|:--|:--|
-|[June_2022](./assets/June_2022.md)|10|6|4|0|
+|[June_2022](./assets/June_2022.md)|11|6|5|0|
 |[May_2022](./assets/May_2022.md)|42|12|26|4|
 |[April_2022](./assets/April_2022.md)|56|37|19|0|
 |[March_2022](./assets/March_2022.md)|49|6|39|4|
