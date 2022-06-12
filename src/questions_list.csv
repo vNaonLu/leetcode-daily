@@ -1693,7 +1693,7 @@ id,title,level,slug,paid,done
 1692,Count Ways to Distribute Candies,3,count-ways-to-distribute-candies,1,0
 1693,Daily Leads and Partners,1,daily-leads-and-partners,0,0
 1694,Reformat Phone Number,1,reformat-phone-number,0,0
-1695,Maximum Erasure Value,2,maximum-erasure-value,0,0
+1695,Maximum Erasure Value,2,maximum-erasure-value,0,1
 1696,Jump Game VI,2,jump-game-vi,0,0
 1697,Checking Existence of Edge Length Limited Paths,3,checking-existence-of-edge-length-limited-paths,0,0
 1698,Number of Distinct Substrings in a String,2,number-of-distinct-substrings-in-a-string,1,0
@@ -2296,3 +2296,8 @@ id,title,level,slug,paid,done
 2295,Replace Elements in an Array,2,replace-elements-in-an-array,0,0
 2296,Design a Text Editor,3,design-a-text-editor,0,0
 2297,Jump Game IX,2,jump-game-ix,1,0
+2298,Tasks Count in the Weekend,2,tasks-count-in-the-weekend,1,0
+2299,Strong Password Checker II,1,strong-password-checker-ii,0,0
+2300,Successful Pairs of Spells and Potions,2,successful-pairs-of-spells-and-potions,0,0
+2301,Match Substring After Replacement,3,match-substring-after-replacement,0,0
+2302,Count Subarrays With Score Less Than K,3,count-subarrays-with-score-less-than-k,0,0
