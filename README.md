@@ -1163,7 +1163,7 @@ My daily challenge on leetcode since 2021/09/06.
 ||1125|[Smallest Sufficient Team](https://leetcode.com/problems/smallest-sufficient-team/)|Hard|
 |🔒|1126|[Active Businesses](https://leetcode.com/problems/active-businesses/)|Medium|
 |🔒|1127|[User Purchase Platform](https://leetcode.com/problems/user-purchase-platform/)|Hard|
-||1128|[Number of Equivalent Domino Pairs](https://leetcode.com/problems/number-of-equivalent-domino-pairs/)|Easy|
+|[📎](src/q_1101_1150/q1128.cc)|1128|[Number of Equivalent Domino Pairs](https://leetcode.com/problems/number-of-equivalent-domino-pairs/)|Easy|
 |[📎](src/q_1101_1150/q1129.cc)|1129|[Shortest Path with Alternating Colors](https://leetcode.com/problems/shortest-path-with-alternating-colors/)|Medium|
 ||1130|[Minimum Cost Tree From Leaf Values](https://leetcode.com/problems/minimum-cost-tree-from-leaf-values/)|Medium|
 ||1131|[Maximum of Absolute Value Expression](https://leetcode.com/problems/maximum-of-absolute-value-expression/)|Medium|
@@ -2312,7 +2312,7 @@ My daily challenge on leetcode since 2021/09/06.
 ||2250|[Count Number of Rectangles Containing Each Point](https://leetcode.com/problems/count-number-of-rectangles-containing-each-point/)|Medium|
 </details>
 <details>
-  <summary>### 2251 ~ 2302</summary>
+  <summary>### 2251 ~ 2306</summary>
 
 |</>|#|Solution Title|Difficulty|
 |:-:|--:|:--|:--|
@@ -2368,6 +2368,10 @@ My daily challenge on leetcode since 2021/09/06.
 ||2300|[Successful Pairs of Spells and Potions](https://leetcode.com/problems/successful-pairs-of-spells-and-potions/)|Medium|
 ||2301|[Match Substring After Replacement](https://leetcode.com/problems/match-substring-after-replacement/)|Hard|
 ||2302|[Count Subarrays With Score Less Than K](https://leetcode.com/problems/count-subarrays-with-score-less-than-k/)|Hard|
+||2303|[Calculate Amount Paid in Taxes](https://leetcode.com/problems/calculate-amount-paid-in-taxes/)|Easy|
+||2304|[Minimum Path Cost in a Grid](https://leetcode.com/problems/minimum-path-cost-in-a-grid/)|Medium|
+||2305|[Fair Distribution of Cookies](https://leetcode.com/problems/fair-distribution-of-cookies/)|Medium|
+||2306|[Naming a Company](https://leetcode.com/problems/naming-a-company/)|Hard|
 </details>
 
 ---
@@ -2375,6 +2379,7 @@ My daily challenge on leetcode since 2021/09/06.
 
 |Time|#|</>|Question Title|Difficulty|
 |:--|--:|:-:|:--|:--|
+|2022-06-13 18:21|1128|[📎](src/q_1101_1150/q1128.cc)|[Number of Equivalent Domino Pairs](https://leetcode.com/problems/number-of-equivalent-domino-pairs/)|Easy|
 |2022-06-12 14:29|1695|[📎](src/q_1651_1700/q1695.cc)|[Maximum Erasure Value](https://leetcode.com/problems/maximum-erasure-value/)|Medium|
 |2022-06-11 12:29|1658|[📎](src/q_1651_1700/q1658.cc)|[Minimum Operations to Reduce X to Zero](https://leetcode.com/problems/minimum-operations-to-reduce-x-to-zero/)|Medium|
 |2022-06-10 11:29|342|[📎](src/q_301_350/q0342.cc)|[Power of Four](https://leetcode.com/problems/power-of-four/)|Easy|
@@ -2399,13 +2404,12 @@ My daily challenge on leetcode since 2021/09/06.
 |2022-05-22 14:26|647|[📎](src/q_601_650/q0647.cc)|[Palindromic Substrings](https://leetcode.com/problems/palindromic-substrings/)|Medium|
 |2022-05-21 14:03|1991|[📎](src/q_1951_2000/q1991.cc)|[Find the Middle Index in Array](https://leetcode.com/problems/find-the-middle-index-in-array/)|Easy|
 |2022-05-20 18:17|643|[📎](src/q_601_650/q0643.cc)|[Maximum Average Subarray I](https://leetcode.com/problems/maximum-average-subarray-i/)|Easy|
-|2022-05-19 18:17|329|[📎](src/q_301_350/q0329.cc)|[Longest Increasing Path in a Matrix](https://leetcode.com/problems/longest-increasing-path-in-a-matrix/)|Hard|
 
 ## Previous Logs
 
 |Month|Submissions|Easy|Medium|Hard|
 |:--|:--|:--|:--|:--|
-|[June_2022](./assets/June_2022.md)|12|6|6|0|
+|[June_2022](./assets/June_2022.md)|13|7|6|0|
 |[May_2022](./assets/May_2022.md)|42|12|26|4|
 |[April_2022](./assets/April_2022.md)|56|37|19|0|
 |[March_2022](./assets/March_2022.md)|49|6|39|4|

@@ -1126,7 +1126,7 @@ id,title,level,slug,paid,done
 1125,Smallest Sufficient Team,3,smallest-sufficient-team,0,0
 1126,Active Businesses,2,active-businesses,1,0
 1127,User Purchase Platform,3,user-purchase-platform,1,0
-1128,Number of Equivalent Domino Pairs,1,number-of-equivalent-domino-pairs,0,0
+1128,Number of Equivalent Domino Pairs,1,number-of-equivalent-domino-pairs,0,1
 1129,Shortest Path with Alternating Colors,2,shortest-path-with-alternating-colors,0,1
 1130,Minimum Cost Tree From Leaf Values,2,minimum-cost-tree-from-leaf-values,0,0
 1131,Maximum of Absolute Value Expression,2,maximum-of-absolute-value-expression,0,0
@@ -2301,3 +2301,7 @@ id,title,level,slug,paid,done
 2300,Successful Pairs of Spells and Potions,2,successful-pairs-of-spells-and-potions,0,0
 2301,Match Substring After Replacement,3,match-substring-after-replacement,0,0
 2302,Count Subarrays With Score Less Than K,3,count-subarrays-with-score-less-than-k,0,0
+2303,Calculate Amount Paid in Taxes,1,calculate-amount-paid-in-taxes,0,0
+2304,Minimum Path Cost in a Grid,2,minimum-path-cost-in-a-grid,0,0
+2305,Fair Distribution of Cookies,2,fair-distribution-of-cookies,0,0
+2306,Naming a Company,3,naming-a-company,0,0
