@@ -1380,7 +1380,7 @@ id,title,level,slug,paid,done
 1379,Find a Corresponding Node of a Binary Tree in a Clone of That Tree,1,find-a-corresponding-node-of-a-binary-tree-in-a-clone-of-that-tree,0,1
 1380,Lucky Numbers in a Matrix,1,lucky-numbers-in-a-matrix,0,0
 1381,Design a Stack With Increment Operation,2,design-a-stack-with-increment-operation,0,0
-1382,Balance a Binary Search Tree,2,balance-a-binary-search-tree,0,0
+1382,Balance a Binary Search Tree,2,balance-a-binary-search-tree,0,1
 1383,Maximum Performance of a Team,3,maximum-performance-of-a-team,0,0
 1384,Total Sales Amount by Year,3,total-sales-amount-by-year,1,0
 1385,Find the Distance Value Between Two Arrays,1,find-the-distance-value-between-two-arrays,0,1

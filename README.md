@@ -1423,7 +1423,7 @@ My daily challenge on leetcode since 2021/09/06.
 |[📎](src/q_1351_1400/q1379.cc)|1379|[Find a Corresponding Node of a Binary Tree in a Clone of That Tree](https://leetcode.com/problems/find-a-corresponding-node-of-a-binary-tree-in-a-clone-of-that-tree/)|Easy|
 ||1380|[Lucky Numbers in a Matrix](https://leetcode.com/problems/lucky-numbers-in-a-matrix/)|Easy|
 ||1381|[Design a Stack With Increment Operation](https://leetcode.com/problems/design-a-stack-with-increment-operation/)|Medium|
-||1382|[Balance a Binary Search Tree](https://leetcode.com/problems/balance-a-binary-search-tree/)|Medium|
+|[📎](src/q_1351_1400/q1382.cc)|1382|[Balance a Binary Search Tree](https://leetcode.com/problems/balance-a-binary-search-tree/)|Medium|
 ||1383|[Maximum Performance of a Team](https://leetcode.com/problems/maximum-performance-of-a-team/)|Hard|
 |🔒|1384|[Total Sales Amount by Year](https://leetcode.com/problems/total-sales-amount-by-year/)|Hard|
 |[📎](src/q_1351_1400/q1385.cc)|1385|[Find the Distance Value Between Two Arrays](https://leetcode.com/problems/find-the-distance-value-between-two-arrays/)|Easy|
@@ -2379,6 +2379,7 @@ My daily challenge on leetcode since 2021/09/06.
 
 |Time|#|</>|Question Title|Difficulty|
 |:--|--:|:-:|:--|:--|
+|2022-06-14 18:26|1382|[📎](src/q_1351_1400/q1382.cc)|[Balance a Binary Search Tree](https://leetcode.com/problems/balance-a-binary-search-tree/)|Medium|
 |2022-06-13 18:21|1128|[📎](src/q_1101_1150/q1128.cc)|[Number of Equivalent Domino Pairs](https://leetcode.com/problems/number-of-equivalent-domino-pairs/)|Easy|
 |2022-06-12 14:29|1695|[📎](src/q_1651_1700/q1695.cc)|[Maximum Erasure Value](https://leetcode.com/problems/maximum-erasure-value/)|Medium|
 |2022-06-11 12:29|1658|[📎](src/q_1651_1700/q1658.cc)|[Minimum Operations to Reduce X to Zero](https://leetcode.com/problems/minimum-operations-to-reduce-x-to-zero/)|Medium|
@@ -2403,13 +2404,12 @@ My daily challenge on leetcode since 2021/09/06.
 |2022-05-23 18:23|474|[📎](src/q_451_500/q0474.cc)|[Ones and Zeroes](https://leetcode.com/problems/ones-and-zeroes/)|Medium|
 |2022-05-22 14:26|647|[📎](src/q_601_650/q0647.cc)|[Palindromic Substrings](https://leetcode.com/problems/palindromic-substrings/)|Medium|
 |2022-05-21 14:03|1991|[📎](src/q_1951_2000/q1991.cc)|[Find the Middle Index in Array](https://leetcode.com/problems/find-the-middle-index-in-array/)|Easy|
-|2022-05-20 18:17|643|[📎](src/q_601_650/q0643.cc)|[Maximum Average Subarray I](https://leetcode.com/problems/maximum-average-subarray-i/)|Easy|
 
 ## Previous Logs
 
 |Month|Submissions|Easy|Medium|Hard|
 |:--|:--|:--|:--|:--|
-|[June_2022](./assets/June_2022.md)|13|7|6|0|
+|[June_2022](./assets/June_2022.md)|14|7|7|0|
 |[May_2022](./assets/May_2022.md)|42|12|26|4|
 |[April_2022](./assets/April_2022.md)|56|37|19|0|
 |[March_2022](./assets/March_2022.md)|49|6|39|4|
