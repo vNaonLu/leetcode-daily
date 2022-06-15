@@ -1046,7 +1046,7 @@ id,title,level,slug,paid,done
 1045,Customers Who Bought All Products,2,customers-who-bought-all-products,1,0
 1046,Last Stone Weight,1,last-stone-weight,0,1
 1047,Remove All Adjacent Duplicates In String,1,remove-all-adjacent-duplicates-in-string,0,0
-1048,Longest String Chain,2,longest-string-chain,0,0
+1048,Longest String Chain,2,longest-string-chain,0,1
 1049,Last Stone Weight II,2,last-stone-weight-ii,0,1
 1050,Actors and Directors Who Cooperated At Least Three Times,1,actors-and-directors-who-cooperated-at-least-three-times,0,0
 1051,Height Checker,1,height-checker,0,0
