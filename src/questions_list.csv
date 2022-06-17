@@ -966,7 +966,7 @@ id,title,level,slug,paid,done
 965,Univalued Binary Tree,1,univalued-binary-tree,0,0
 966,Vowel Spellchecker,2,vowel-spellchecker,0,0
 967,Numbers With Same Consecutive Differences,2,numbers-with-same-consecutive-differences,0,0
-968,Binary Tree Cameras,3,binary-tree-cameras,0,0
+968,Binary Tree Cameras,3,binary-tree-cameras,0,1
 969,Pancake Sorting,2,pancake-sorting,0,0
 970,Powerful Integers,2,powerful-integers,0,0
 971,Flip Binary Tree To Match Preorder Traversal,2,flip-binary-tree-to-match-preorder-traversal,0,0

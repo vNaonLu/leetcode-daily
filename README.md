@@ -997,7 +997,7 @@ My daily challenge on leetcode since 2021/09/06.
 ||965|[Univalued Binary Tree](https://leetcode.com/problems/univalued-binary-tree/)|Easy|
 ||966|[Vowel Spellchecker](https://leetcode.com/problems/vowel-spellchecker/)|Medium|
 ||967|[Numbers With Same Consecutive Differences](https://leetcode.com/problems/numbers-with-same-consecutive-differences/)|Medium|
-||968|[Binary Tree Cameras](https://leetcode.com/problems/binary-tree-cameras/)|Hard|
+|[📎](src/q_951_1000/q0968.cc)|968|[Binary Tree Cameras](https://leetcode.com/problems/binary-tree-cameras/)|Hard|
 ||969|[Pancake Sorting](https://leetcode.com/problems/pancake-sorting/)|Medium|
 ||970|[Powerful Integers](https://leetcode.com/problems/powerful-integers/)|Medium|
 ||971|[Flip Binary Tree To Match Preorder Traversal](https://leetcode.com/problems/flip-binary-tree-to-match-preorder-traversal/)|Medium|
@@ -2381,6 +2381,7 @@ My daily challenge on leetcode since 2021/09/06.
 
 |Time|#|</>|Question Title|Difficulty|
 |:--|--:|:-:|:--|:--|
+|2022-06-17 22:09|968|[📎](src/q_951_1000/q0968.cc)|[Binary Tree Cameras](https://leetcode.com/problems/binary-tree-cameras/)|Hard|
 |2022-06-16 18:22|1609|[📎](src/q_1601_1650/q1609.cc)|[Even Odd Tree](https://leetcode.com/problems/even-odd-tree/)|Medium|
 |2022-06-15 21:21|1048|[📎](src/q_1001_1050/q1048.cc)|[Longest String Chain](https://leetcode.com/problems/longest-string-chain/)|Medium|
 |2022-06-14 18:26|1382|[📎](src/q_1351_1400/q1382.cc)|[Balance a Binary Search Tree](https://leetcode.com/problems/balance-a-binary-search-tree/)|Medium|
@@ -2405,13 +2406,12 @@ My daily challenge on leetcode since 2021/09/06.
 |2022-05-26 18:26|623|[📎](src/q_601_650/q0623.cc)|[Add One Row to Tree](https://leetcode.com/problems/add-one-row-to-tree/)|Medium|
 |2022-05-25 18:13|354|[📎](src/q_351_400/q0354.cc)|[Russian Doll Envelopes](https://leetcode.com/problems/russian-doll-envelopes/)|Hard|
 |2022-05-24 14:03|1437|[📎](src/q_1401_1450/q1437.cc)|[Check If All 1's Are at Least Length K Places Away](https://leetcode.com/problems/check-if-all-1s-are-at-least-length-k-places-away/)|Easy|
-|2022-05-23 18:23|474|[📎](src/q_451_500/q0474.cc)|[Ones and Zeroes](https://leetcode.com/problems/ones-and-zeroes/)|Medium|
 
 ## Previous Logs
 
 |Month|Submissions|Easy|Medium|Hard|
 |:--|:--|:--|:--|:--|
-|[June_2022](./assets/June_2022.md)|16|7|9|0|
+|[June_2022](./assets/June_2022.md)|17|7|9|1|
 |[May_2022](./assets/May_2022.md)|42|12|26|4|
 |[April_2022](./assets/April_2022.md)|56|37|19|0|
 |[March_2022](./assets/March_2022.md)|49|6|39|4|
