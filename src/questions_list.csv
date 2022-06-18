@@ -743,7 +743,7 @@ id,title,level,slug,paid,done
 742,Closest Leaf in a Binary Tree,2,closest-leaf-in-a-binary-tree,1,0
 743,Network Delay Time,2,network-delay-time,0,1
 744,Find Smallest Letter Greater Than Target,1,find-smallest-letter-greater-than-target,0,1
-745,Prefix and Suffix Search,3,prefix-and-suffix-search,0,0
+745,Prefix and Suffix Search,3,prefix-and-suffix-search,0,1
 746,Min Cost Climbing Stairs,1,min-cost-climbing-stairs,0,1
 747,Largest Number At Least Twice of Others,1,largest-number-at-least-twice-of-others,0,0
 748,Shortest Completing Word,1,shortest-completing-word,0,0
@@ -966,7 +966,7 @@ id,title,level,slug,paid,done
 965,Univalued Binary Tree,1,univalued-binary-tree,0,0
 966,Vowel Spellchecker,2,vowel-spellchecker,0,0
 967,Numbers With Same Consecutive Differences,2,numbers-with-same-consecutive-differences,0,0
-968,Binary Tree Cameras,3,binary-tree-cameras,0,0
+968,Binary Tree Cameras,3,binary-tree-cameras,0,1
 969,Pancake Sorting,2,pancake-sorting,0,0
 970,Powerful Integers,2,powerful-integers,0,0
 971,Flip Binary Tree To Match Preorder Traversal,2,flip-binary-tree-to-match-preorder-traversal,0,0
@@ -1046,7 +1046,7 @@ id,title,level,slug,paid,done
 1045,Customers Who Bought All Products,2,customers-who-bought-all-products,1,0
 1046,Last Stone Weight,1,last-stone-weight,0,1
 1047,Remove All Adjacent Duplicates In String,1,remove-all-adjacent-duplicates-in-string,0,0
-1048,Longest String Chain,2,longest-string-chain,0,0
+1048,Longest String Chain,2,longest-string-chain,0,1
 1049,Last Stone Weight II,2,last-stone-weight-ii,0,1
 1050,Actors and Directors Who Cooperated At Least Three Times,1,actors-and-directors-who-cooperated-at-least-three-times,0,0
 1051,Height Checker,1,height-checker,0,0
@@ -1126,7 +1126,7 @@ id,title,level,slug,paid,done
 1125,Smallest Sufficient Team,3,smallest-sufficient-team,0,0
 1126,Active Businesses,2,active-businesses,1,0
 1127,User Purchase Platform,3,user-purchase-platform,1,0
-1128,Number of Equivalent Domino Pairs,1,number-of-equivalent-domino-pairs,0,0
+1128,Number of Equivalent Domino Pairs,1,number-of-equivalent-domino-pairs,0,1
 1129,Shortest Path with Alternating Colors,2,shortest-path-with-alternating-colors,0,1
 1130,Minimum Cost Tree From Leaf Values,2,minimum-cost-tree-from-leaf-values,0,0
 1131,Maximum of Absolute Value Expression,2,maximum-of-absolute-value-expression,0,0
@@ -1380,7 +1380,7 @@ id,title,level,slug,paid,done
 1379,Find a Corresponding Node of a Binary Tree in a Clone of That Tree,1,find-a-corresponding-node-of-a-binary-tree-in-a-clone-of-that-tree,0,1
 1380,Lucky Numbers in a Matrix,1,lucky-numbers-in-a-matrix,0,0
 1381,Design a Stack With Increment Operation,2,design-a-stack-with-increment-operation,0,0
-1382,Balance a Binary Search Tree,2,balance-a-binary-search-tree,0,0
+1382,Balance a Binary Search Tree,2,balance-a-binary-search-tree,0,1
 1383,Maximum Performance of a Team,3,maximum-performance-of-a-team,0,0
 1384,Total Sales Amount by Year,3,total-sales-amount-by-year,1,0
 1385,Find the Distance Value Between Two Arrays,1,find-the-distance-value-between-two-arrays,0,1
@@ -1607,7 +1607,7 @@ id,title,level,slug,paid,done
 1606,Find Servers That Handled Most Number of Requests,3,find-servers-that-handled-most-number-of-requests,0,0
 1607,Sellers With No Sales,1,sellers-with-no-sales,1,0
 1608,Special Array With X Elements Greater Than or Equal X,1,special-array-with-x-elements-greater-than-or-equal-x,0,1
-1609,Even Odd Tree,2,even-odd-tree,0,0
+1609,Even Odd Tree,2,even-odd-tree,0,1
 1610,Maximum Number of Visible Points,3,maximum-number-of-visible-points,0,0
 1611,Minimum One Bit Operations to Make Integers Zero,3,minimum-one-bit-operations-to-make-integers-zero,0,0
 1612,Check If Two Expression Trees are Equivalent,2,check-if-two-expression-trees-are-equivalent,1,0
@@ -1693,7 +1693,7 @@ id,title,level,slug,paid,done
 1692,Count Ways to Distribute Candies,3,count-ways-to-distribute-candies,1,0
 1693,Daily Leads and Partners,1,daily-leads-and-partners,0,0
 1694,Reformat Phone Number,1,reformat-phone-number,0,0
-1695,Maximum Erasure Value,2,maximum-erasure-value,0,0
+1695,Maximum Erasure Value,2,maximum-erasure-value,0,1
 1696,Jump Game VI,2,jump-game-vi,0,0
 1697,Checking Existence of Edge Length Limited Paths,3,checking-existence-of-edge-length-limited-paths,0,0
 1698,Number of Distinct Substrings in a String,2,number-of-distinct-substrings-in-a-string,1,0
@@ -2295,4 +2295,15 @@ id,title,level,slug,paid,done
 2294,Partition Array Such That Maximum Difference Is K,2,partition-array-such-that-maximum-difference-is-k,0,0
 2295,Replace Elements in an Array,2,replace-elements-in-an-array,0,0
 2296,Design a Text Editor,3,design-a-text-editor,0,0
-2297,Jump Game IX,2,jump-game-ix,1,0
+2297,Jump Game VIII,2,jump-game-viii,1,0
+2298,Tasks Count in the Weekend,2,tasks-count-in-the-weekend,1,0
+2299,Strong Password Checker II,1,strong-password-checker-ii,0,0
+2300,Successful Pairs of Spells and Potions,2,successful-pairs-of-spells-and-potions,0,0
+2301,Match Substring After Replacement,3,match-substring-after-replacement,0,0
+2302,Count Subarrays With Score Less Than K,3,count-subarrays-with-score-less-than-k,0,0
+2303,Calculate Amount Paid in Taxes,1,calculate-amount-paid-in-taxes,0,0
+2304,Minimum Path Cost in a Grid,2,minimum-path-cost-in-a-grid,0,0
+2305,Fair Distribution of Cookies,2,fair-distribution-of-cookies,0,0
+2306,Naming a Company,3,naming-a-company,0,0
+2307,Check for Contradictions in Equations,3,check-for-contradictions-in-equations,1,0
+2308,Arrange Table by Gender,2,arrange-table-by-gender,1,0
