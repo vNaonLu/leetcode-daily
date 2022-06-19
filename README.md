@@ -1309,7 +1309,7 @@ My daily challenge on leetcode since 2021/09/06.
 |🔒|1265|[Print Immutable Linked List in Reverse](https://leetcode.com/problems/print-immutable-linked-list-in-reverse/)|Medium|
 ||1266|[Minimum Time Visiting All Points](https://leetcode.com/problems/minimum-time-visiting-all-points/)|Easy|
 |[📎](src/q_1251_1300/q1267.cc)|1267|[Count Servers that Communicate](https://leetcode.com/problems/count-servers-that-communicate/)|Medium|
-||1268|[Search Suggestions System](https://leetcode.com/problems/search-suggestions-system/)|Medium|
+|[📎](src/q_1251_1300/q1268.cc)|1268|[Search Suggestions System](https://leetcode.com/problems/search-suggestions-system/)|Medium|
 ||1269|[Number of Ways to Stay in the Same Place After Some Steps](https://leetcode.com/problems/number-of-ways-to-stay-in-the-same-place-after-some-steps/)|Hard|
 |🔒|1270|[All People Report to the Given Manager](https://leetcode.com/problems/all-people-report-to-the-given-manager/)|Medium|
 |🔒|1271|[Hexspeak](https://leetcode.com/problems/hexspeak/)|Easy|
@@ -2381,6 +2381,7 @@ My daily challenge on leetcode since 2021/09/06.
 
 |Time|#|</>|Question Title|Difficulty|
 |:--|--:|:-:|:--|:--|
+|2022-06-19 13:18|1268|[📎](src/q_1251_1300/q1268.cc)|[Search Suggestions System](https://leetcode.com/problems/search-suggestions-system/)|Medium|
 |2022-06-18 14:48|745|[📎](src/q_701_750/q0745.cc)|[Prefix and Suffix Search](https://leetcode.com/problems/prefix-and-suffix-search/)|Hard|
 |2022-06-17 22:09|968|[📎](src/q_951_1000/q0968.cc)|[Binary Tree Cameras](https://leetcode.com/problems/binary-tree-cameras/)|Hard|
 |2022-06-16 18:22|1609|[📎](src/q_1601_1650/q1609.cc)|[Even Odd Tree](https://leetcode.com/problems/even-odd-tree/)|Medium|
@@ -2405,13 +2406,12 @@ My daily challenge on leetcode since 2021/09/06.
 |2022-05-28 12:20|268|[📎](src/q_251_300/q0268.cc)|[Missing Number](https://leetcode.com/problems/missing-number/)|Easy|
 |2022-05-27 18:13|1342|[📎](src/q_1301_1350/q1342.cc)|[Number of Steps to Reduce a Number to Zero](https://leetcode.com/problems/number-of-steps-to-reduce-a-number-to-zero/)|Easy|
 |2022-05-26 18:26|623|[📎](src/q_601_650/q0623.cc)|[Add One Row to Tree](https://leetcode.com/problems/add-one-row-to-tree/)|Medium|
-|2022-05-25 18:13|354|[📎](src/q_351_400/q0354.cc)|[Russian Doll Envelopes](https://leetcode.com/problems/russian-doll-envelopes/)|Hard|
 
 ## Previous Logs
 
 |Month|Submissions|Easy|Medium|Hard|
 |:--|:--|:--|:--|:--|
-|[June_2022](./assets/June_2022.md)|18|7|9|2|
+|[June_2022](./assets/June_2022.md)|19|7|10|2|
 |[May_2022](./assets/May_2022.md)|42|12|26|4|
 |[April_2022](./assets/April_2022.md)|56|37|19|0|
 |[March_2022](./assets/March_2022.md)|49|6|39|4|
