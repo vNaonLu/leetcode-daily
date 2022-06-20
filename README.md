@@ -815,7 +815,7 @@ My daily challenge on leetcode since 2021/09/06.
 ||783|[Minimum Distance Between BST Nodes](https://leetcode.com/problems/minimum-distance-between-bst-nodes/)|Easy|
 |[📎](src/q_751_800/q0784.cc)|784|[Letter Case Permutation](https://leetcode.com/problems/letter-case-permutation/)|Medium|
 |[📎](src/q_751_800/q0785.cc)|785|[Is Graph Bipartite?](https://leetcode.com/problems/is-graph-bipartite/)|Medium|
-||786|[K-th Smallest Prime Fraction](https://leetcode.com/problems/k-th-smallest-prime-fraction/)|Hard|
+||786|[K-th Smallest Prime Fraction](https://leetcode.com/problems/k-th-smallest-prime-fraction/)|Medium|
 ||787|[Cheapest Flights Within K Stops](https://leetcode.com/problems/cheapest-flights-within-k-stops/)|Medium|
 ||788|[Rotated Digits](https://leetcode.com/problems/rotated-digits/)|Medium|
 ||789|[Escape The Ghosts](https://leetcode.com/problems/escape-the-ghosts/)|Medium|
@@ -849,7 +849,7 @@ My daily challenge on leetcode since 2021/09/06.
 ||817|[Linked List Components](https://leetcode.com/problems/linked-list-components/)|Medium|
 ||818|[Race Car](https://leetcode.com/problems/race-car/)|Hard|
 ||819|[Most Common Word](https://leetcode.com/problems/most-common-word/)|Easy|
-||820|[Short Encoding of Words](https://leetcode.com/problems/short-encoding-of-words/)|Medium|
+|[📎](src/q_801_850/q0820.cc)|820|[Short Encoding of Words](https://leetcode.com/problems/short-encoding-of-words/)|Medium|
 ||821|[Shortest Distance to a Character](https://leetcode.com/problems/shortest-distance-to-a-character/)|Easy|
 ||822|[Card Flipping Game](https://leetcode.com/problems/card-flipping-game/)|Medium|
 ||823|[Binary Trees With Factors](https://leetcode.com/problems/binary-trees-with-factors/)|Medium|
@@ -2312,7 +2312,7 @@ My daily challenge on leetcode since 2021/09/06.
 ||2250|[Count Number of Rectangles Containing Each Point](https://leetcode.com/problems/count-number-of-rectangles-containing-each-point/)|Medium|
 </details>
 <details>
-  <summary>### 2251 ~ 2308</summary>
+  <summary>### 2251 ~ 2312</summary>
 
 |</>|#|Solution Title|Difficulty|
 |:-:|--:|:--|:--|
@@ -2374,6 +2374,10 @@ My daily challenge on leetcode since 2021/09/06.
 ||2306|[Naming a Company](https://leetcode.com/problems/naming-a-company/)|Hard|
 |🔒|2307|[Check for Contradictions in Equations](https://leetcode.com/problems/check-for-contradictions-in-equations/)|Hard|
 |🔒|2308|[Arrange Table by Gender](https://leetcode.com/problems/arrange-table-by-gender/)|Medium|
+||2309|[Greatest English Letter in Upper and Lower Case](https://leetcode.com/problems/greatest-english-letter-in-upper-and-lower-case/)|Easy|
+||2310|[Sum of Numbers With Units Digit K](https://leetcode.com/problems/sum-of-numbers-with-units-digit-k/)|Medium|
+||2311|[Longest Binary Subsequence Less Than or Equal to K](https://leetcode.com/problems/longest-binary-subsequence-less-than-or-equal-to-k/)|Medium|
+||2312|[Selling Pieces of Wood](https://leetcode.com/problems/selling-pieces-of-wood/)|Hard|
 </details>
 
 ---
@@ -2381,6 +2385,7 @@ My daily challenge on leetcode since 2021/09/06.
 
 |Time|#|</>|Question Title|Difficulty|
 |:--|--:|:-:|:--|:--|
+|2022-06-20 18:11|820|[📎](src/q_801_850/q0820.cc)|[Short Encoding of Words](https://leetcode.com/problems/short-encoding-of-words/)|Medium|
 |2022-06-19 13:18|1268|[📎](src/q_1251_1300/q1268.cc)|[Search Suggestions System](https://leetcode.com/problems/search-suggestions-system/)|Medium|
 |2022-06-18 14:48|745|[📎](src/q_701_750/q0745.cc)|[Prefix and Suffix Search](https://leetcode.com/problems/prefix-and-suffix-search/)|Hard|
 |2022-06-17 22:09|968|[📎](src/q_951_1000/q0968.cc)|[Binary Tree Cameras](https://leetcode.com/problems/binary-tree-cameras/)|Hard|
@@ -2405,13 +2410,12 @@ My daily challenge on leetcode since 2021/09/06.
 |2022-05-29 14:09|318|[📎](src/q_301_350/q0318.cc)|[Maximum Product of Word Lengths](https://leetcode.com/problems/maximum-product-of-word-lengths/)|Medium|
 |2022-05-28 12:20|268|[📎](src/q_251_300/q0268.cc)|[Missing Number](https://leetcode.com/problems/missing-number/)|Easy|
 |2022-05-27 18:13|1342|[📎](src/q_1301_1350/q1342.cc)|[Number of Steps to Reduce a Number to Zero](https://leetcode.com/problems/number-of-steps-to-reduce-a-number-to-zero/)|Easy|
-|2022-05-26 18:26|623|[📎](src/q_601_650/q0623.cc)|[Add One Row to Tree](https://leetcode.com/problems/add-one-row-to-tree/)|Medium|
 
 ## Previous Logs
 
 |Month|Submissions|Easy|Medium|Hard|
 |:--|:--|:--|:--|:--|
-|[June_2022](./assets/June_2022.md)|19|7|10|2|
+|[June_2022](./assets/June_2022.md)|20|7|11|2|
 |[May_2022](./assets/May_2022.md)|42|12|26|4|
 |[April_2022](./assets/April_2022.md)|56|37|19|0|
 |[March_2022](./assets/March_2022.md)|49|6|39|4|
