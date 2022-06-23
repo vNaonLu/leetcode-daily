@@ -653,7 +653,7 @@ My daily challenge on leetcode since 2021/09/06.
 ||627|[Swap Salary](https://leetcode.com/problems/swap-salary/)|Easy|
 ||628|[Maximum Product of Three Numbers](https://leetcode.com/problems/maximum-product-of-three-numbers/)|Easy|
 ||629|[K Inverse Pairs Array](https://leetcode.com/problems/k-inverse-pairs-array/)|Hard|
-||630|[Course Schedule III](https://leetcode.com/problems/course-schedule-iii/)|Hard|
+|[📎](src/q_601_650/q0630.cc)|630|[Course Schedule III](https://leetcode.com/problems/course-schedule-iii/)|Hard|
 |🔒|631|[Design Excel Sum Formula](https://leetcode.com/problems/design-excel-sum-formula/)|Hard|
 ||632|[Smallest Range Covering Elements from K Lists](https://leetcode.com/problems/smallest-range-covering-elements-from-k-lists/)|Hard|
 |[📎](src/q_601_650/q0633.cc)|633|[Sum of Square Numbers](https://leetcode.com/problems/sum-of-square-numbers/)|Medium|
@@ -2385,6 +2385,7 @@ My daily challenge on leetcode since 2021/09/06.
 
 |Time|#|</>|Question Title|Difficulty|
 |:--|--:|:-:|:--|:--|
+|2022-06-23 18:22|630|[📎](src/q_601_650/q0630.cc)|[Course Schedule III](https://leetcode.com/problems/course-schedule-iii/)|Hard|
 |2022-06-22 18:14|1805|[📎](src/q_1801_1850/q1805.cc)|[Number of Different Integers in a String](https://leetcode.com/problems/number-of-different-integers-in-a-string/)|Easy|
 |2022-06-21 22:12|1642|[📎](src/q_1601_1650/q1642.cc)|[Furthest Building You Can Reach](https://leetcode.com/problems/furthest-building-you-can-reach/)|Medium|
 |2022-06-20 18:11|820|[📎](src/q_801_850/q0820.cc)|[Short Encoding of Words](https://leetcode.com/problems/short-encoding-of-words/)|Medium|
@@ -2409,13 +2410,12 @@ My daily challenge on leetcode since 2021/09/06.
 |2022-06-01 18:04|2266|[📎](src/q_2251_2300/q2266.cc)|[Count Number of Texts](https://leetcode.com/problems/count-number-of-texts/)|Medium|
 |2022-05-31 18:19|1461|[📎](src/q_1451_1500/q1461.cc)|[Check If a String Contains All Binary Codes of Size K](https://leetcode.com/problems/check-if-a-string-contains-all-binary-codes-of-size-k/)|Medium|
 |2022-05-30 18:20|405|[📎](src/q_401_450/q0405.cc)|[Convert a Number to Hexadecimal](https://leetcode.com/problems/convert-a-number-to-hexadecimal/)|Easy|
-|2022-05-29 14:09|318|[📎](src/q_301_350/q0318.cc)|[Maximum Product of Word Lengths](https://leetcode.com/problems/maximum-product-of-word-lengths/)|Medium|
 
 ## Previous Logs
 
 |Month|Submissions|Easy|Medium|Hard|
 |:--|:--|:--|:--|:--|
-|[June_2022](./assets/June_2022.md)|22|8|12|2|
+|[June_2022](./assets/June_2022.md)|23|8|12|3|
 |[May_2022](./assets/May_2022.md)|42|12|26|4|
 |[April_2022](./assets/April_2022.md)|56|37|19|0|
 |[March_2022](./assets/March_2022.md)|49|6|39|4|
