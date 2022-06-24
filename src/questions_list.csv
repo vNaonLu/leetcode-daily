@@ -1362,7 +1362,7 @@ id,title,level,slug,paid,done
 1361,Validate Binary Tree Nodes,2,validate-binary-tree-nodes,0,1
 1362,Closest Divisors,2,closest-divisors,0,0
 1363,Largest Multiple of Three,3,largest-multiple-of-three,0,0
-1364,Number of Trusted Contacts of a Customer,2,number-of-trusted-contacts-of-a-customer,1,0
+1364,Number of Trusted Contacts of a Customer,2,number-of-trusted-contacts-of-a-customer,1,1
 1365,How Many Numbers Are Smaller Than the Current Number,1,how-many-numbers-are-smaller-than-the-current-number,0,0
 1366,Rank Teams by Votes,2,rank-teams-by-votes,0,0
 1367,Linked List in Binary Tree,2,linked-list-in-binary-tree,0,1
@@ -2311,3 +2311,5 @@ id,title,level,slug,paid,done
 2310,Sum of Numbers With Units Digit K,2,sum-of-numbers-with-units-digit-k,0,0
 2311,Longest Binary Subsequence Less Than or Equal to K,2,longest-binary-subsequence-less-than-or-equal-to-k,0,0
 2312,Selling Pieces of Wood,3,selling-pieces-of-wood,0,0
+2313,Minimum Flips in Binary Tree to Get Result,3,minimum-flips-in-binary-tree-to-get-result,1,0
+2314,The First Day of the Maximum Recorded Degree in Each City,2,the-first-day-of-the-maximum-recorded-degree-in-each-city,1,0

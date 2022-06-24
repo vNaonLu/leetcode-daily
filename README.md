@@ -1405,7 +1405,7 @@ My daily challenge on leetcode since 2021/09/06.
 |[📎](src/q_1351_1400/q1361.cc)|1361|[Validate Binary Tree Nodes](https://leetcode.com/problems/validate-binary-tree-nodes/)|Medium|
 ||1362|[Closest Divisors](https://leetcode.com/problems/closest-divisors/)|Medium|
 ||1363|[Largest Multiple of Three](https://leetcode.com/problems/largest-multiple-of-three/)|Hard|
-|🔒|1364|[Number of Trusted Contacts of a Customer](https://leetcode.com/problems/number-of-trusted-contacts-of-a-customer/)|Medium|
+|[📎](src/q_1351_1400/q1364.cc)|1364|[Number of Trusted Contacts of a Customer](https://leetcode.com/problems/number-of-trusted-contacts-of-a-customer/)|Medium|
 ||1365|[How Many Numbers Are Smaller Than the Current Number](https://leetcode.com/problems/how-many-numbers-are-smaller-than-the-current-number/)|Easy|
 ||1366|[Rank Teams by Votes](https://leetcode.com/problems/rank-teams-by-votes/)|Medium|
 |[📎](src/q_1351_1400/q1367.cc)|1367|[Linked List in Binary Tree](https://leetcode.com/problems/linked-list-in-binary-tree/)|Medium|
@@ -2312,7 +2312,7 @@ My daily challenge on leetcode since 2021/09/06.
 ||2250|[Count Number of Rectangles Containing Each Point](https://leetcode.com/problems/count-number-of-rectangles-containing-each-point/)|Medium|
 </details>
 <details>
-  <summary>### 2251 ~ 2312</summary>
+  <summary>### 2251 ~ 2314</summary>
 
 |</>|#|Solution Title|Difficulty|
 |:-:|--:|:--|:--|
@@ -2378,6 +2378,8 @@ My daily challenge on leetcode since 2021/09/06.
 ||2310|[Sum of Numbers With Units Digit K](https://leetcode.com/problems/sum-of-numbers-with-units-digit-k/)|Medium|
 ||2311|[Longest Binary Subsequence Less Than or Equal to K](https://leetcode.com/problems/longest-binary-subsequence-less-than-or-equal-to-k/)|Medium|
 ||2312|[Selling Pieces of Wood](https://leetcode.com/problems/selling-pieces-of-wood/)|Hard|
+|🔒|2313|[Minimum Flips in Binary Tree to Get Result](https://leetcode.com/problems/minimum-flips-in-binary-tree-to-get-result/)|Hard|
+|🔒|2314|[The First Day of the Maximum Recorded Degree in Each City](https://leetcode.com/problems/the-first-day-of-the-maximum-recorded-degree-in-each-city/)|Medium|
 </details>
 
 ---
@@ -2385,6 +2387,7 @@ My daily challenge on leetcode since 2021/09/06.
 
 |Time|#|</>|Question Title|Difficulty|
 |:--|--:|:-:|:--|:--|
+|2022-06-24 18:06|1364|[📎](src/q_1351_1400/q1364.cc)|[Number of Trusted Contacts of a Customer](https://leetcode.com/problems/number-of-trusted-contacts-of-a-customer/)|Medium|
 |2022-06-23 18:22|630|[📎](src/q_601_650/q0630.cc)|[Course Schedule III](https://leetcode.com/problems/course-schedule-iii/)|Hard|
 |2022-06-22 18:14|1805|[📎](src/q_1801_1850/q1805.cc)|[Number of Different Integers in a String](https://leetcode.com/problems/number-of-different-integers-in-a-string/)|Easy|
 |2022-06-21 22:12|1642|[📎](src/q_1601_1650/q1642.cc)|[Furthest Building You Can Reach](https://leetcode.com/problems/furthest-building-you-can-reach/)|Medium|
@@ -2409,13 +2412,12 @@ My daily challenge on leetcode since 2021/09/06.
 |2022-06-02 18:21|867|[📎](src/q_851_900/q0867.cc)|[Transpose Matrix](https://leetcode.com/problems/transpose-matrix/)|Easy|
 |2022-06-01 18:04|2266|[📎](src/q_2251_2300/q2266.cc)|[Count Number of Texts](https://leetcode.com/problems/count-number-of-texts/)|Medium|
 |2022-05-31 18:19|1461|[📎](src/q_1451_1500/q1461.cc)|[Check If a String Contains All Binary Codes of Size K](https://leetcode.com/problems/check-if-a-string-contains-all-binary-codes-of-size-k/)|Medium|
-|2022-05-30 18:20|405|[📎](src/q_401_450/q0405.cc)|[Convert a Number to Hexadecimal](https://leetcode.com/problems/convert-a-number-to-hexadecimal/)|Easy|
 
 ## Previous Logs
 
 |Month|Submissions|Easy|Medium|Hard|
 |:--|:--|:--|:--|:--|
-|[June_2022](./assets/June_2022.md)|23|8|12|3|
+|[June_2022](./assets/June_2022.md)|24|8|13|3|
 |[May_2022](./assets/May_2022.md)|42|12|26|4|
 |[April_2022](./assets/April_2022.md)|56|37|19|0|
 |[March_2022](./assets/March_2022.md)|49|6|39|4|
