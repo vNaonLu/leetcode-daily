@@ -628,7 +628,7 @@ id,title,level,slug,paid,done
 627,Swap Salary,1,swap-salary,0,0
 628,Maximum Product of Three Numbers,1,maximum-product-of-three-numbers,0,0
 629,K Inverse Pairs Array,3,k-inverse-pairs-array,0,0
-630,Course Schedule III,3,course-schedule-iii,0,0
+630,Course Schedule III,3,course-schedule-iii,0,1
 631,Design Excel Sum Formula,3,design-excel-sum-formula,1,0
 632,Smallest Range Covering Elements from K Lists,3,smallest-range-covering-elements-from-k-lists,0,0
 633,Sum of Square Numbers,2,sum-of-square-numbers,0,1
@@ -663,7 +663,7 @@ id,title,level,slug,paid,done
 662,Maximum Width of Binary Tree,2,maximum-width-of-binary-tree,0,1
 663,Equal Tree Partition,2,equal-tree-partition,1,0
 664,Strange Printer,3,strange-printer,0,0
-665,Non-decreasing Array,2,non-decreasing-array,0,0
+665,Non-decreasing Array,2,non-decreasing-array,0,1
 666,Path Sum IV,2,path-sum-iv,1,0
 667,Beautiful Arrangement II,2,beautiful-arrangement-ii,0,0
 668,Kth Smallest Number in Multiplication Table,3,kth-smallest-number-in-multiplication-table,0,1
@@ -784,7 +784,7 @@ id,title,level,slug,paid,done
 783,Minimum Distance Between BST Nodes,1,minimum-distance-between-bst-nodes,0,0
 784,Letter Case Permutation,2,letter-case-permutation,0,1
 785,Is Graph Bipartite?,2,is-graph-bipartite,0,1
-786,K-th Smallest Prime Fraction,3,k-th-smallest-prime-fraction,0,0
+786,K-th Smallest Prime Fraction,2,k-th-smallest-prime-fraction,0,0
 787,Cheapest Flights Within K Stops,2,cheapest-flights-within-k-stops,0,0
 788,Rotated Digits,2,rotated-digits,0,0
 789,Escape The Ghosts,2,escape-the-ghosts,0,0
@@ -818,7 +818,7 @@ id,title,level,slug,paid,done
 817,Linked List Components,2,linked-list-components,0,0
 818,Race Car,3,race-car,0,0
 819,Most Common Word,1,most-common-word,0,0
-820,Short Encoding of Words,2,short-encoding-of-words,0,0
+820,Short Encoding of Words,2,short-encoding-of-words,0,1
 821,Shortest Distance to a Character,1,shortest-distance-to-a-character,0,0
 822,Card Flipping Game,2,card-flipping-game,0,0
 823,Binary Trees With Factors,2,binary-trees-with-factors,0,0
@@ -1266,7 +1266,7 @@ id,title,level,slug,paid,done
 1265,Print Immutable Linked List in Reverse,2,print-immutable-linked-list-in-reverse,1,0
 1266,Minimum Time Visiting All Points,1,minimum-time-visiting-all-points,0,0
 1267,Count Servers that Communicate,2,count-servers-that-communicate,0,1
-1268,Search Suggestions System,2,search-suggestions-system,0,0
+1268,Search Suggestions System,2,search-suggestions-system,0,1
 1269,Number of Ways to Stay in the Same Place After Some Steps,3,number-of-ways-to-stay-in-the-same-place-after-some-steps,0,0
 1270,All People Report to the Given Manager,2,all-people-report-to-the-given-manager,1,0
 1271,Hexspeak,1,hexspeak,1,0
@@ -1362,7 +1362,7 @@ id,title,level,slug,paid,done
 1361,Validate Binary Tree Nodes,2,validate-binary-tree-nodes,0,1
 1362,Closest Divisors,2,closest-divisors,0,0
 1363,Largest Multiple of Three,3,largest-multiple-of-three,0,0
-1364,Number of Trusted Contacts of a Customer,2,number-of-trusted-contacts-of-a-customer,1,0
+1364,Number of Trusted Contacts of a Customer,2,number-of-trusted-contacts-of-a-customer,1,1
 1365,How Many Numbers Are Smaller Than the Current Number,1,how-many-numbers-are-smaller-than-the-current-number,0,0
 1366,Rank Teams by Votes,2,rank-teams-by-votes,0,0
 1367,Linked List in Binary Tree,2,linked-list-in-binary-tree,0,1
@@ -1640,7 +1640,7 @@ id,title,level,slug,paid,done
 1639,Number of Ways to Form a Target String Given a Dictionary,3,number-of-ways-to-form-a-target-string-given-a-dictionary,0,0
 1640,Check Array Formation Through Concatenation,1,check-array-formation-through-concatenation,0,0
 1641,Count Sorted Vowel Strings,2,count-sorted-vowel-strings,0,1
-1642,Furthest Building You Can Reach,2,furthest-building-you-can-reach,0,0
+1642,Furthest Building You Can Reach,2,furthest-building-you-can-reach,0,1
 1643,Kth Smallest Instructions,3,kth-smallest-instructions,0,0
 1644,Lowest Common Ancestor of a Binary Tree II,2,lowest-common-ancestor-of-a-binary-tree-ii,1,0
 1645,Hopper Company Queries II,3,hopper-company-queries-ii,1,0
@@ -1803,7 +1803,7 @@ id,title,level,slug,paid,done
 1802,Maximum Value at a Given Index in a Bounded Array,2,maximum-value-at-a-given-index-in-a-bounded-array,0,0
 1803,Count Pairs With XOR in a Range,3,count-pairs-with-xor-in-a-range,0,0
 1804,Implement Trie II (Prefix Tree),2,implement-trie-ii-prefix-tree,1,0
-1805,Number of Different Integers in a String,1,number-of-different-integers-in-a-string,0,0
+1805,Number of Different Integers in a String,1,number-of-different-integers-in-a-string,0,1
 1806,Minimum Number of Operations to Reinitialize a Permutation,2,minimum-number-of-operations-to-reinitialize-a-permutation,0,0
 1807,Evaluate the Bracket Pairs of a String,2,evaluate-the-bracket-pairs-of-a-string,0,0
 1808,Maximize Number of Nice Divisors,3,maximize-number-of-nice-divisors,0,0
@@ -2307,3 +2307,9 @@ id,title,level,slug,paid,done
 2306,Naming a Company,3,naming-a-company,0,0
 2307,Check for Contradictions in Equations,3,check-for-contradictions-in-equations,1,0
 2308,Arrange Table by Gender,2,arrange-table-by-gender,1,0
+2309,Greatest English Letter in Upper and Lower Case,1,greatest-english-letter-in-upper-and-lower-case,0,0
+2310,Sum of Numbers With Units Digit K,2,sum-of-numbers-with-units-digit-k,0,0
+2311,Longest Binary Subsequence Less Than or Equal to K,2,longest-binary-subsequence-less-than-or-equal-to-k,0,0
+2312,Selling Pieces of Wood,3,selling-pieces-of-wood,0,0
+2313,Minimum Flips in Binary Tree to Get Result,3,minimum-flips-in-binary-tree-to-get-result,1,0
+2314,The First Day of the Maximum Recorded Degree in Each City,2,the-first-day-of-the-maximum-recorded-degree-in-each-city,1,0
