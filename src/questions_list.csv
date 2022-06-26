@@ -1421,7 +1421,7 @@ id,title,level,slug,paid,done
 1420,Build Array Where You Can Find The Maximum Exactly K Comparisons,3,build-array-where-you-can-find-the-maximum-exactly-k-comparisons,0,0
 1421,NPV Queries,1,npv-queries,1,0
 1422,Maximum Score After Splitting a String,1,maximum-score-after-splitting-a-string,0,0
-1423,Maximum Points You Can Obtain from Cards,2,maximum-points-you-can-obtain-from-cards,0,0
+1423,Maximum Points You Can Obtain from Cards,2,maximum-points-you-can-obtain-from-cards,0,1
 1424,Diagonal Traverse II,2,diagonal-traverse-ii,0,0
 1425,Constrained Subsequence Sum,3,constrained-subsequence-sum,0,0
 1426,Counting Elements,1,counting-elements,1,0
@@ -2313,3 +2313,11 @@ id,title,level,slug,paid,done
 2312,Selling Pieces of Wood,3,selling-pieces-of-wood,0,0
 2313,Minimum Flips in Binary Tree to Get Result,3,minimum-flips-in-binary-tree-to-get-result,1,0
 2314,The First Day of the Maximum Recorded Degree in Each City,2,the-first-day-of-the-maximum-recorded-degree-in-each-city,1,0
+2315,Count Asterisks,1,count-asterisks,0,0
+2316,Count Unreachable Pairs of Nodes in an Undirected Graph,2,count-unreachable-pairs-of-nodes-in-an-undirected-graph,0,0
+2317,Maximum XOR After Operations ,2,maximum-xor-after-operations,0,0
+2318,Number of Distinct Roll Sequences,3,number-of-distinct-roll-sequences,0,0
+2319,Check if Matrix Is X-Matrix,1,check-if-matrix-is-x-matrix,0,0
+2320,Count Number of Ways to Place Houses,2,count-number-of-ways-to-place-houses,0,0
+2321,Maximum Score Of Spliced Array,3,maximum-score-of-spliced-array,0,0
+2322,Minimum Score After Removals on a Tree,3,minimum-score-after-removals-on-a-tree,0,0
