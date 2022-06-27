@@ -1736,7 +1736,7 @@ My daily challenge on leetcode since 2021/09/06.
 ||1686|[Stone Game VI](https://leetcode.com/problems/stone-game-vi/)|Medium|
 ||1687|[Delivering Boxes from Storage to Ports](https://leetcode.com/problems/delivering-boxes-from-storage-to-ports/)|Hard|
 |[📎](src/q_1651_1700/q1688.cc)|1688|[Count of Matches in Tournament](https://leetcode.com/problems/count-of-matches-in-tournament/)|Easy|
-||1689|[Partitioning Into Minimum Number Of Deci-Binary Numbers](https://leetcode.com/problems/partitioning-into-minimum-number-of-deci-binary-numbers/)|Medium|
+|[📎](src/q_1651_1700/q1689.cc)|1689|[Partitioning Into Minimum Number Of Deci-Binary Numbers](https://leetcode.com/problems/partitioning-into-minimum-number-of-deci-binary-numbers/)|Medium|
 ||1690|[Stone Game VII](https://leetcode.com/problems/stone-game-vii/)|Medium|
 ||1691|[Maximum Height by Stacking Cuboids ](https://leetcode.com/problems/maximum-height-by-stacking-cuboids/)|Hard|
 |🔒|1692|[Count Ways to Distribute Candies](https://leetcode.com/problems/count-ways-to-distribute-candies/)|Hard|
@@ -2395,6 +2395,7 @@ My daily challenge on leetcode since 2021/09/06.
 
 |Time|#|</>|Question Title|Difficulty|
 |:--|--:|:-:|:--|:--|
+|2022-06-27 18:08|1689|[📎](src/q_1651_1700/q1689.cc)|[Partitioning Into Minimum Number Of Deci-Binary Numbers](https://leetcode.com/problems/partitioning-into-minimum-number-of-deci-binary-numbers/)|Medium|
 |2022-06-26 14:36|1423|[📎](src/q_1401_1450/q1423.cc)|[Maximum Points You Can Obtain from Cards](https://leetcode.com/problems/maximum-points-you-can-obtain-from-cards/)|Medium|
 |2022-06-25 12:24|665|[📎](src/q_651_700/q0665.cc)|[Non-decreasing Array](https://leetcode.com/problems/non-decreasing-array/)|Medium|
 |2022-06-24 18:06|1364|[📎](src/q_1351_1400/q1364.cc)|[Number of Trusted Contacts of a Customer](https://leetcode.com/problems/number-of-trusted-contacts-of-a-customer/)|Medium|
@@ -2419,13 +2420,12 @@ My daily challenge on leetcode since 2021/09/06.
 |2022-06-05 13:57|654|[📎](src/q_651_700/q0654.cc)|[Maximum Binary Tree](https://leetcode.com/problems/maximum-binary-tree/)|Medium|
 |2022-06-04 21:42|1827|[📎](src/q_1801_1850/q1827.cc)|[Minimum Operations to Make the Array Increasing](https://leetcode.com/problems/minimum-operations-to-make-the-array-increasing/)|Easy|
 |2022-06-03 13:41|1688|[📎](src/q_1651_1700/q1688.cc)|[Count of Matches in Tournament](https://leetcode.com/problems/count-of-matches-in-tournament/)|Easy|
-|2022-06-02 18:21|867|[📎](src/q_851_900/q0867.cc)|[Transpose Matrix](https://leetcode.com/problems/transpose-matrix/)|Easy|
 
 ## Previous Logs
 
 |Month|Submissions|Easy|Medium|Hard|
 |:--|:--|:--|:--|:--|
-|[June_2022](./assets/June_2022.md)|26|8|15|3|
+|[June_2022](./assets/June_2022.md)|27|8|16|3|
 |[May_2022](./assets/May_2022.md)|42|12|26|4|
 |[April_2022](./assets/April_2022.md)|56|37|19|0|
 |[March_2022](./assets/March_2022.md)|49|6|39|4|
