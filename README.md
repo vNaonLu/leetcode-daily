@@ -1694,7 +1694,7 @@ My daily challenge on leetcode since 2021/09/06.
 |🔒|1644|[Lowest Common Ancestor of a Binary Tree II](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree-ii/)|Medium|
 |🔒|1645|[Hopper Company Queries II](https://leetcode.com/problems/hopper-company-queries-ii/)|Hard|
 ||1646|[Get Maximum in Generated Array](https://leetcode.com/problems/get-maximum-in-generated-array/)|Easy|
-||1647|[Minimum Deletions to Make Character Frequencies Unique](https://leetcode.com/problems/minimum-deletions-to-make-character-frequencies-unique/)|Medium|
+|[📎](src/q_1601_1650/q1647.cc)|1647|[Minimum Deletions to Make Character Frequencies Unique](https://leetcode.com/problems/minimum-deletions-to-make-character-frequencies-unique/)|Medium|
 ||1648|[Sell Diminishing-Valued Colored Balls](https://leetcode.com/problems/sell-diminishing-valued-colored-balls/)|Medium|
 ||1649|[Create Sorted Array through Instructions](https://leetcode.com/problems/create-sorted-array-through-instructions/)|Hard|
 |🔒|1650|[Lowest Common Ancestor of a Binary Tree III](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree-iii/)|Medium|
@@ -2395,6 +2395,7 @@ My daily challenge on leetcode since 2021/09/06.
 
 |Time|#|</>|Question Title|Difficulty|
 |:--|--:|:-:|:--|:--|
+|2022-06-28 18:08|1647|[📎](src/q_1601_1650/q1647.cc)|[Minimum Deletions to Make Character Frequencies Unique](https://leetcode.com/problems/minimum-deletions-to-make-character-frequencies-unique/)|Medium|
 |2022-06-27 18:08|1689|[📎](src/q_1651_1700/q1689.cc)|[Partitioning Into Minimum Number Of Deci-Binary Numbers](https://leetcode.com/problems/partitioning-into-minimum-number-of-deci-binary-numbers/)|Medium|
 |2022-06-26 14:36|1423|[📎](src/q_1401_1450/q1423.cc)|[Maximum Points You Can Obtain from Cards](https://leetcode.com/problems/maximum-points-you-can-obtain-from-cards/)|Medium|
 |2022-06-25 12:24|665|[📎](src/q_651_700/q0665.cc)|[Non-decreasing Array](https://leetcode.com/problems/non-decreasing-array/)|Medium|
@@ -2419,13 +2420,12 @@ My daily challenge on leetcode since 2021/09/06.
 |2022-06-06 18:16|1049|[📎](src/q_1001_1050/q1049.cc)|[Last Stone Weight II](https://leetcode.com/problems/last-stone-weight-ii/)|Medium|
 |2022-06-05 13:57|654|[📎](src/q_651_700/q0654.cc)|[Maximum Binary Tree](https://leetcode.com/problems/maximum-binary-tree/)|Medium|
 |2022-06-04 21:42|1827|[📎](src/q_1801_1850/q1827.cc)|[Minimum Operations to Make the Array Increasing](https://leetcode.com/problems/minimum-operations-to-make-the-array-increasing/)|Easy|
-|2022-06-03 13:41|1688|[📎](src/q_1651_1700/q1688.cc)|[Count of Matches in Tournament](https://leetcode.com/problems/count-of-matches-in-tournament/)|Easy|
 
 ## Previous Logs
 
 |Month|Submissions|Easy|Medium|Hard|
 |:--|:--|:--|:--|:--|
-|[June_2022](./assets/June_2022.md)|27|8|16|3|
+|[June_2022](./assets/June_2022.md)|28|8|17|3|
 |[May_2022](./assets/May_2022.md)|42|12|26|4|
 |[April_2022](./assets/April_2022.md)|56|37|19|0|
 |[March_2022](./assets/March_2022.md)|49|6|39|4|

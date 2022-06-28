@@ -1645,7 +1645,7 @@ id,title,level,slug,paid,done
 1644,Lowest Common Ancestor of a Binary Tree II,2,lowest-common-ancestor-of-a-binary-tree-ii,1,0
 1645,Hopper Company Queries II,3,hopper-company-queries-ii,1,0
 1646,Get Maximum in Generated Array,1,get-maximum-in-generated-array,0,0
-1647,Minimum Deletions to Make Character Frequencies Unique,2,minimum-deletions-to-make-character-frequencies-unique,0,0
+1647,Minimum Deletions to Make Character Frequencies Unique,2,minimum-deletions-to-make-character-frequencies-unique,0,1
 1648,Sell Diminishing-Valued Colored Balls,2,sell-diminishing-valued-colored-balls,0,0
 1649,Create Sorted Array through Instructions,3,create-sorted-array-through-instructions,0,0
 1650,Lowest Common Ancestor of a Binary Tree III,2,lowest-common-ancestor-of-a-binary-tree-iii,1,0
