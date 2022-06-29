@@ -423,7 +423,7 @@ My daily challenge on leetcode since 2021/09/06.
 ||403|[Frog Jump](https://leetcode.com/problems/frog-jump/)|Hard|
 |[📎](src/q_401_450/q0404.cc)|404|[Sum of Left Leaves](https://leetcode.com/problems/sum-of-left-leaves/)|Easy|
 |[📎](src/q_401_450/q0405.cc)|405|[Convert a Number to Hexadecimal](https://leetcode.com/problems/convert-a-number-to-hexadecimal/)|Easy|
-||406|[Queue Reconstruction by Height](https://leetcode.com/problems/queue-reconstruction-by-height/)|Medium|
+|[📎](src/q_401_450/q0406.cc)|406|[Queue Reconstruction by Height](https://leetcode.com/problems/queue-reconstruction-by-height/)|Medium|
 ||407|[Trapping Rain Water II](https://leetcode.com/problems/trapping-rain-water-ii/)|Hard|
 |🔒|408|[Valid Word Abbreviation](https://leetcode.com/problems/valid-word-abbreviation/)|Easy|
 |[📎](src/q_401_450/q0409.cc)|409|[Longest Palindrome](https://leetcode.com/problems/longest-palindrome/)|Easy|
@@ -2395,6 +2395,7 @@ My daily challenge on leetcode since 2021/09/06.
 
 |Time|#|</>|Question Title|Difficulty|
 |:--|--:|:-:|:--|:--|
+|2022-06-29 18:37|406|[📎](src/q_401_450/q0406.cc)|[Queue Reconstruction by Height](https://leetcode.com/problems/queue-reconstruction-by-height/)|Medium|
 |2022-06-28 18:08|1647|[📎](src/q_1601_1650/q1647.cc)|[Minimum Deletions to Make Character Frequencies Unique](https://leetcode.com/problems/minimum-deletions-to-make-character-frequencies-unique/)|Medium|
 |2022-06-27 18:08|1689|[📎](src/q_1651_1700/q1689.cc)|[Partitioning Into Minimum Number Of Deci-Binary Numbers](https://leetcode.com/problems/partitioning-into-minimum-number-of-deci-binary-numbers/)|Medium|
 |2022-06-26 14:36|1423|[📎](src/q_1401_1450/q1423.cc)|[Maximum Points You Can Obtain from Cards](https://leetcode.com/problems/maximum-points-you-can-obtain-from-cards/)|Medium|
@@ -2419,13 +2420,12 @@ My daily challenge on leetcode since 2021/09/06.
 |2022-06-07 18:25|219|[📎](src/q_201_250/q0219.cc)|[Contains Duplicate II](https://leetcode.com/problems/contains-duplicate-ii/)|Easy|
 |2022-06-06 18:16|1049|[📎](src/q_1001_1050/q1049.cc)|[Last Stone Weight II](https://leetcode.com/problems/last-stone-weight-ii/)|Medium|
 |2022-06-05 13:57|654|[📎](src/q_651_700/q0654.cc)|[Maximum Binary Tree](https://leetcode.com/problems/maximum-binary-tree/)|Medium|
-|2022-06-04 21:42|1827|[📎](src/q_1801_1850/q1827.cc)|[Minimum Operations to Make the Array Increasing](https://leetcode.com/problems/minimum-operations-to-make-the-array-increasing/)|Easy|
 
 ## Previous Logs
 
 |Month|Submissions|Easy|Medium|Hard|
 |:--|:--|:--|:--|:--|
-|[June_2022](./assets/June_2022.md)|28|8|17|3|
+|[June_2022](./assets/June_2022.md)|29|8|18|3|
 |[May_2022](./assets/May_2022.md)|42|12|26|4|
 |[April_2022](./assets/April_2022.md)|56|37|19|0|
 |[March_2022](./assets/March_2022.md)|49|6|39|4|
