@@ -64,7 +64,7 @@ My daily challenge on leetcode since 2021/09/06.
 |[📎](src/q_1_50/q0050.cc)|50|[Pow(x, n)](https://leetcode.com/problems/powx-n/)|Medium|
 |[📎](src/q_51_100/q0051.cc)|51|[N-Queens](https://leetcode.com/problems/n-queens/)|Hard|
 |[📎](src/q_51_100/q0052.cc)|52|[N-Queens II](https://leetcode.com/problems/n-queens-ii/)|Hard|
-|[📎](src/q_51_100/q0053.cc)|53|[Maximum Subarray](https://leetcode.com/problems/maximum-subarray/)|Easy|
+|[📎](src/q_51_100/q0053.cc)|53|[Maximum Subarray](https://leetcode.com/problems/maximum-subarray/)|Medium|
 |[📎](src/q_51_100/q0054.cc)|54|[Spiral Matrix](https://leetcode.com/problems/spiral-matrix/)|Medium|
 |[📎](src/q_51_100/q0055.cc)|55|[Jump Game](https://leetcode.com/problems/jump-game/)|Medium|
 |[📎](src/q_51_100/q0056.cc)|56|[Merge Intervals](https://leetcode.com/problems/merge-intervals/)|Medium|
@@ -166,7 +166,7 @@ My daily challenge on leetcode since 2021/09/06.
 |[📎](src/q_151_200/q0152.cc)|152|[Maximum Product Subarray](https://leetcode.com/problems/maximum-product-subarray/)|Medium|
 |[📎](src/q_151_200/q0153.cc)|153|[Find Minimum in Rotated Sorted Array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/)|Medium|
 |[📎](src/q_151_200/q0154.cc)|154|[Find Minimum in Rotated Sorted Array II](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array-ii/)|Hard|
-|[📎](src/q_151_200/q0155.cc)|155|[Min Stack](https://leetcode.com/problems/min-stack/)|Easy|
+|[📎](src/q_151_200/q0155.cc)|155|[Min Stack](https://leetcode.com/problems/min-stack/)|Medium|
 |🔒|156|[Binary Tree Upside Down](https://leetcode.com/problems/binary-tree-upside-down/)|Medium|
 |🔒|157|[Read N Characters Given Read4](https://leetcode.com/problems/read-n-characters-given-read4/)|Easy|
 |🔒|158|[Read N Characters Given read4 II - Call Multiple Times](https://leetcode.com/problems/read-n-characters-given-read4-ii-call-multiple-times/)|Hard|
@@ -479,7 +479,7 @@ My daily challenge on leetcode since 2021/09/06.
 |[📎](src/q_451_500/q0459.cc)|459|[Repeated Substring Pattern](https://leetcode.com/problems/repeated-substring-pattern/)|Easy|
 ||460|[LFU Cache](https://leetcode.com/problems/lfu-cache/)|Hard|
 |[📎](src/q_451_500/q0461.cc)|461|[Hamming Distance](https://leetcode.com/problems/hamming-distance/)|Easy|
-||462|[Minimum Moves to Equal Array Elements II](https://leetcode.com/problems/minimum-moves-to-equal-array-elements-ii/)|Medium|
+|[📎](src/q_451_500/q0462.cc)|462|[Minimum Moves to Equal Array Elements II](https://leetcode.com/problems/minimum-moves-to-equal-array-elements-ii/)|Medium|
 |[📎](src/q_451_500/q0463.cc)|463|[Island Perimeter](https://leetcode.com/problems/island-perimeter/)|Easy|
 ||464|[Can I Win](https://leetcode.com/problems/can-i-win/)|Medium|
 |🔒|465|[Optimal Account Balancing](https://leetcode.com/problems/optimal-account-balancing/)|Hard|
@@ -739,7 +739,7 @@ My daily challenge on leetcode since 2021/09/06.
 |[📎](src/q_701_750/q0713.cc)|713|[Subarray Product Less Than K](https://leetcode.com/problems/subarray-product-less-than-k/)|Medium|
 |[📎](src/q_701_750/q0714.cc)|714|[Best Time to Buy and Sell Stock with Transaction Fee](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-transaction-fee/)|Medium|
 ||715|[Range Module](https://leetcode.com/problems/range-module/)|Hard|
-|🔒|716|[Max Stack](https://leetcode.com/problems/max-stack/)|Easy|
+|🔒|716|[Max Stack](https://leetcode.com/problems/max-stack/)|Hard|
 |[📎](src/q_701_750/q0717.cc)|717|[1-bit and 2-bit Characters](https://leetcode.com/problems/1-bit-and-2-bit-characters/)|Easy|
 ||718|[Maximum Length of Repeated Subarray](https://leetcode.com/problems/maximum-length-of-repeated-subarray/)|Medium|
 ||719|[Find K-th Smallest Pair Distance](https://leetcode.com/problems/find-k-th-smallest-pair-distance/)|Hard|
@@ -2312,7 +2312,7 @@ My daily challenge on leetcode since 2021/09/06.
 ||2250|[Count Number of Rectangles Containing Each Point](https://leetcode.com/problems/count-number-of-rectangles-containing-each-point/)|Medium|
 </details>
 <details>
-  <summary>### 2251 ~ 2322</summary>
+  <summary>### 2251 ~ 2323</summary>
 
 |</>|#|Solution Title|Difficulty|
 |:-:|--:|:--|:--|
@@ -2388,6 +2388,7 @@ My daily challenge on leetcode since 2021/09/06.
 ||2320|[Count Number of Ways to Place Houses](https://leetcode.com/problems/count-number-of-ways-to-place-houses/)|Medium|
 ||2321|[Maximum Score Of Spliced Array](https://leetcode.com/problems/maximum-score-of-spliced-array/)|Hard|
 ||2322|[Minimum Score After Removals on a Tree](https://leetcode.com/problems/minimum-score-after-removals-on-a-tree/)|Hard|
+|🔒|2323|[Find Minimum Time to Finish All Jobs II](https://leetcode.com/problems/find-minimum-time-to-finish-all-jobs-ii/)|Medium|
 </details>
 
 ---
@@ -2395,6 +2396,7 @@ My daily challenge on leetcode since 2021/09/06.
 
 |Time|#|</>|Question Title|Difficulty|
 |:--|--:|:-:|:--|:--|
+|2022-06-30 12:01|462|[📎](src/q_451_500/q0462.cc)|[Minimum Moves to Equal Array Elements II](https://leetcode.com/problems/minimum-moves-to-equal-array-elements-ii/)|Medium|
 |2022-06-29 18:37|406|[📎](src/q_401_450/q0406.cc)|[Queue Reconstruction by Height](https://leetcode.com/problems/queue-reconstruction-by-height/)|Medium|
 |2022-06-28 18:08|1647|[📎](src/q_1601_1650/q1647.cc)|[Minimum Deletions to Make Character Frequencies Unique](https://leetcode.com/problems/minimum-deletions-to-make-character-frequencies-unique/)|Medium|
 |2022-06-27 18:08|1689|[📎](src/q_1651_1700/q1689.cc)|[Partitioning Into Minimum Number Of Deci-Binary Numbers](https://leetcode.com/problems/partitioning-into-minimum-number-of-deci-binary-numbers/)|Medium|
@@ -2419,13 +2421,12 @@ My daily challenge on leetcode since 2021/09/06.
 |2022-06-08 18:02|1332|[📎](src/q_1301_1350/q1332.cc)|[Remove Palindromic Subsequences](https://leetcode.com/problems/remove-palindromic-subsequences/)|Easy|
 |2022-06-07 18:25|219|[📎](src/q_201_250/q0219.cc)|[Contains Duplicate II](https://leetcode.com/problems/contains-duplicate-ii/)|Easy|
 |2022-06-06 18:16|1049|[📎](src/q_1001_1050/q1049.cc)|[Last Stone Weight II](https://leetcode.com/problems/last-stone-weight-ii/)|Medium|
-|2022-06-05 13:57|654|[📎](src/q_651_700/q0654.cc)|[Maximum Binary Tree](https://leetcode.com/problems/maximum-binary-tree/)|Medium|
 
 ## Previous Logs
 
 |Month|Submissions|Easy|Medium|Hard|
 |:--|:--|:--|:--|:--|
-|[June_2022](./assets/June_2022.md)|29|8|18|3|
+|[June_2022](./assets/June_2022.md)|30|8|19|3|
 |[May_2022](./assets/May_2022.md)|42|12|26|4|
 |[April_2022](./assets/April_2022.md)|56|37|19|0|
 |[March_2022](./assets/March_2022.md)|49|6|39|4|
@@ -2433,5 +2434,5 @@ My daily challenge on leetcode since 2021/09/06.
 |[January_2022](./assets/January_2022.md)|32|8|18|6|
 |[December_2021](./assets/December_2021.md)|33|11|15|7|
 |[November_2021](./assets/November_2021.md)|41|19|16|6|
-|[October_2021](./assets/October_2021.md)|115|27|75|13|
+|[October_2021](./assets/October_2021.md)|115|25|77|13|
 |[September_2021](./assets/September_2021.md)|133|54|72|7|

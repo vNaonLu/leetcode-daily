@@ -51,7 +51,7 @@ id,title,level,slug,paid,done
 50,"Pow(x, n)",2,powx-n,0,1
 51,N-Queens,3,n-queens,0,1
 52,N-Queens II,3,n-queens-ii,0,1
-53,Maximum Subarray,1,maximum-subarray,0,1
+53,Maximum Subarray,2,maximum-subarray,0,1
 54,Spiral Matrix,2,spiral-matrix,0,1
 55,Jump Game,2,jump-game,0,1
 56,Merge Intervals,2,merge-intervals,0,1
@@ -153,7 +153,7 @@ id,title,level,slug,paid,done
 152,Maximum Product Subarray,2,maximum-product-subarray,0,1
 153,Find Minimum in Rotated Sorted Array,2,find-minimum-in-rotated-sorted-array,0,1
 154,Find Minimum in Rotated Sorted Array II,3,find-minimum-in-rotated-sorted-array-ii,0,1
-155,Min Stack,1,min-stack,0,1
+155,Min Stack,2,min-stack,0,1
 156,Binary Tree Upside Down,2,binary-tree-upside-down,1,0
 157,Read N Characters Given Read4,1,read-n-characters-given-read4,1,0
 158,Read N Characters Given read4 II - Call Multiple Times,3,read-n-characters-given-read4-ii-call-multiple-times,1,0
@@ -460,7 +460,7 @@ id,title,level,slug,paid,done
 459,Repeated Substring Pattern,1,repeated-substring-pattern,0,1
 460,LFU Cache,3,lfu-cache,0,0
 461,Hamming Distance,1,hamming-distance,0,1
-462,Minimum Moves to Equal Array Elements II,2,minimum-moves-to-equal-array-elements-ii,0,0
+462,Minimum Moves to Equal Array Elements II,2,minimum-moves-to-equal-array-elements-ii,0,1
 463,Island Perimeter,1,island-perimeter,0,1
 464,Can I Win,2,can-i-win,0,0
 465,Optimal Account Balancing,3,optimal-account-balancing,1,0
@@ -714,7 +714,7 @@ id,title,level,slug,paid,done
 713,Subarray Product Less Than K,2,subarray-product-less-than-k,0,1
 714,Best Time to Buy and Sell Stock with Transaction Fee,2,best-time-to-buy-and-sell-stock-with-transaction-fee,0,1
 715,Range Module,3,range-module,0,0
-716,Max Stack,1,max-stack,1,0
+716,Max Stack,3,max-stack,1,0
 717,1-bit and 2-bit Characters,1,1-bit-and-2-bit-characters,0,1
 718,Maximum Length of Repeated Subarray,2,maximum-length-of-repeated-subarray,0,0
 719,Find K-th Smallest Pair Distance,3,find-k-th-smallest-pair-distance,0,0
@@ -2321,3 +2321,4 @@ id,title,level,slug,paid,done
 2320,Count Number of Ways to Place Houses,2,count-number-of-ways-to-place-houses,0,0
 2321,Maximum Score Of Spliced Array,3,maximum-score-of-spliced-array,0,0
 2322,Minimum Score After Removals on a Tree,3,minimum-score-after-removals-on-a-tree,0,0
+2323,Find Minimum Time to Finish All Jobs II,2,find-minimum-time-to-finish-all-jobs-ii,1,0
