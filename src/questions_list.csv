@@ -1708,7 +1708,7 @@ id,title,level,slug,paid,done
 1707,Maximum XOR With an Element From Array,3,maximum-xor-with-an-element-from-array,0,0
 1708,Largest Subarray Length K,1,largest-subarray-length-k,1,0
 1709,Biggest Window Between Visits,2,biggest-window-between-visits,1,0
-1710,Maximum Units on a Truck,1,maximum-units-on-a-truck,0,0
+1710,Maximum Units on a Truck,1,maximum-units-on-a-truck,0,1
 1711,Count Good Meals,2,count-good-meals,0,0
 1712,Ways to Split Array Into Three Subarrays,2,ways-to-split-array-into-three-subarrays,0,0
 1713,Minimum Operations to Make a Subsequence,3,minimum-operations-to-make-a-subsequence,0,0
@@ -2322,3 +2322,4 @@ id,title,level,slug,paid,done
 2321,Maximum Score Of Spliced Array,3,maximum-score-of-spliced-array,0,0
 2322,Minimum Score After Removals on a Tree,3,minimum-score-after-removals-on-a-tree,0,0
 2323,Find Minimum Time to Finish All Jobs II,2,find-minimum-time-to-finish-all-jobs-ii,1,0
+2324,Product Sales Analysis IV,2,product-sales-analysis-iv,1,0
