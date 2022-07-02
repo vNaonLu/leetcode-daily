@@ -1506,7 +1506,7 @@ My daily challenge on leetcode since 2021/09/06.
 |[📎](src/q_1451_1500/q1462.cc)|1462|[Course Schedule IV](https://leetcode.com/problems/course-schedule-iv/)|Medium|
 |[📎](src/q_1451_1500/q1463.cc)|1463|[Cherry Pickup II](https://leetcode.com/problems/cherry-pickup-ii/)|Hard|
 |[📎](src/q_1451_1500/q1464.cc)|1464|[Maximum Product of Two Elements in an Array](https://leetcode.com/problems/maximum-product-of-two-elements-in-an-array/)|Easy|
-||1465|[Maximum Area of a Piece of Cake After Horizontal and Vertical Cuts](https://leetcode.com/problems/maximum-area-of-a-piece-of-cake-after-horizontal-and-vertical-cuts/)|Medium|
+|[📎](src/q_1451_1500/q1465.cc)|1465|[Maximum Area of a Piece of Cake After Horizontal and Vertical Cuts](https://leetcode.com/problems/maximum-area-of-a-piece-of-cake-after-horizontal-and-vertical-cuts/)|Medium|
 |[📎](src/q_1451_1500/q1466.cc)|1466|[Reorder Routes to Make All Paths Lead to the City Zero](https://leetcode.com/problems/reorder-routes-to-make-all-paths-lead-to-the-city-zero/)|Medium|
 ||1467|[Probability of a Two Boxes Having The Same Number of Distinct Balls](https://leetcode.com/problems/probability-of-a-two-boxes-having-the-same-number-of-distinct-balls/)|Hard|
 |🔒|1468|[Calculate Salaries](https://leetcode.com/problems/calculate-salaries/)|Medium|
@@ -2397,6 +2397,7 @@ My daily challenge on leetcode since 2021/09/06.
 
 |Time|#|</>|Question Title|Difficulty|
 |:--|--:|:-:|:--|:--|
+|2022-07-02 13:25|1465|[📎](src/q_1451_1500/q1465.cc)|[Maximum Area of a Piece of Cake After Horizontal and Vertical Cuts](https://leetcode.com/problems/maximum-area-of-a-piece-of-cake-after-horizontal-and-vertical-cuts/)|Medium|
 |2022-07-01 18:20|1710|[📎](src/q_1701_1750/q1710.cc)|[Maximum Units on a Truck](https://leetcode.com/problems/maximum-units-on-a-truck/)|Easy|
 |2022-06-30 12:01|462|[📎](src/q_451_500/q0462.cc)|[Minimum Moves to Equal Array Elements II](https://leetcode.com/problems/minimum-moves-to-equal-array-elements-ii/)|Medium|
 |2022-06-29 18:37|406|[📎](src/q_401_450/q0406.cc)|[Queue Reconstruction by Height](https://leetcode.com/problems/queue-reconstruction-by-height/)|Medium|
@@ -2421,13 +2422,12 @@ My daily challenge on leetcode since 2021/09/06.
 |2022-06-10 11:29|342|[📎](src/q_301_350/q0342.cc)|[Power of Four](https://leetcode.com/problems/power-of-four/)|Easy|
 |2022-06-09 18:35|794|[📎](src/q_751_800/q0794.cc)|[Valid Tic-Tac-Toe State](https://leetcode.com/problems/valid-tic-tac-toe-state/)|Medium|
 |2022-06-08 18:02|1332|[📎](src/q_1301_1350/q1332.cc)|[Remove Palindromic Subsequences](https://leetcode.com/problems/remove-palindromic-subsequences/)|Easy|
-|2022-06-07 18:25|219|[📎](src/q_201_250/q0219.cc)|[Contains Duplicate II](https://leetcode.com/problems/contains-duplicate-ii/)|Easy|
 
 ## Previous Logs
 
 |Month|Submissions|Easy|Medium|Hard|
 |:--|:--|:--|:--|:--|
-|[July_2022](./assets/July_2022.md)|1|1|0|0|
+|[July_2022](./assets/July_2022.md)|2|1|1|0|
 |[June_2022](./assets/June_2022.md)|30|8|19|3|
 |[May_2022](./assets/May_2022.md)|42|12|26|4|
 |[April_2022](./assets/April_2022.md)|56|37|19|0|
