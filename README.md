@@ -146,7 +146,7 @@ My daily challenge on leetcode since 2021/09/06.
 ||132|[Palindrome Partitioning II](https://leetcode.com/problems/palindrome-partitioning-ii/)|Hard|
 |[📎](src/q_101_150/q0133.cc)|133|[Clone Graph](https://leetcode.com/problems/clone-graph/)|Medium|
 |[📎](src/q_101_150/q0134.cc)|134|[Gas Station](https://leetcode.com/problems/gas-station/)|Medium|
-||135|[Candy](https://leetcode.com/problems/candy/)|Hard|
+|[📎](src/q_101_150/q0135.cc)|135|[Candy](https://leetcode.com/problems/candy/)|Hard|
 |[📎](src/q_101_150/q0136.cc)|136|[Single Number](https://leetcode.com/problems/single-number/)|Easy|
 ||137|[Single Number II](https://leetcode.com/problems/single-number-ii/)|Medium|
 |[📎](src/q_101_150/q0138.cc)|138|[Copy List with Random Pointer](https://leetcode.com/problems/copy-list-with-random-pointer/)|Medium|
@@ -2312,7 +2312,7 @@ My daily challenge on leetcode since 2021/09/06.
 ||2250|[Count Number of Rectangles Containing Each Point](https://leetcode.com/problems/count-number-of-rectangles-containing-each-point/)|Medium|
 </details>
 <details>
-  <summary>### 2251 ~ 2324</summary>
+  <summary>### 2251 ~ 2329</summary>
 
 |</>|#|Solution Title|Difficulty|
 |:-:|--:|:--|:--|
@@ -2390,6 +2390,11 @@ My daily challenge on leetcode since 2021/09/06.
 ||2322|[Minimum Score After Removals on a Tree](https://leetcode.com/problems/minimum-score-after-removals-on-a-tree/)|Hard|
 |🔒|2323|[Find Minimum Time to Finish All Jobs II](https://leetcode.com/problems/find-minimum-time-to-finish-all-jobs-ii/)|Medium|
 |🔒|2324|[Product Sales Analysis IV](https://leetcode.com/problems/product-sales-analysis-iv/)|Medium|
+||2325|[Decode the Message](https://leetcode.com/problems/decode-the-message/)|Easy|
+||2326|[Spiral Matrix IV](https://leetcode.com/problems/spiral-matrix-iv/)|Medium|
+||2327|[Number of People Aware of a Secret](https://leetcode.com/problems/number-of-people-aware-of-a-secret/)|Medium|
+||2328|[Number of Increasing Paths in a Grid](https://leetcode.com/problems/number-of-increasing-paths-in-a-grid/)|Hard|
+|🔒|2329|[Product Sales Analysis V](https://leetcode.com/problems/product-sales-analysis-v/)|Medium|
 </details>
 
 ---
@@ -2397,6 +2402,7 @@ My daily challenge on leetcode since 2021/09/06.
 
 |Time|#|</>|Question Title|Difficulty|
 |:--|--:|:-:|:--|:--|
+|2022-07-04 18:16|135|[📎](src/q_101_150/q0135.cc)|[Candy](https://leetcode.com/problems/candy/)|Hard|
 |2022-07-03 14:26|1576|[📎](src/q_1551_1600/q1576.cc)|[Replace All ?'s to Avoid Consecutive Repeating Characters](https://leetcode.com/problems/replace-all-s-to-avoid-consecutive-repeating-characters/)|Easy|
 |2022-07-02 13:25|1465|[📎](src/q_1451_1500/q1465.cc)|[Maximum Area of a Piece of Cake After Horizontal and Vertical Cuts](https://leetcode.com/problems/maximum-area-of-a-piece-of-cake-after-horizontal-and-vertical-cuts/)|Medium|
 |2022-07-01 18:20|1710|[📎](src/q_1701_1750/q1710.cc)|[Maximum Units on a Truck](https://leetcode.com/problems/maximum-units-on-a-truck/)|Easy|
@@ -2421,13 +2427,12 @@ My daily challenge on leetcode since 2021/09/06.
 |2022-06-12 14:29|1695|[📎](src/q_1651_1700/q1695.cc)|[Maximum Erasure Value](https://leetcode.com/problems/maximum-erasure-value/)|Medium|
 |2022-06-11 12:29|1658|[📎](src/q_1651_1700/q1658.cc)|[Minimum Operations to Reduce X to Zero](https://leetcode.com/problems/minimum-operations-to-reduce-x-to-zero/)|Medium|
 |2022-06-10 11:29|342|[📎](src/q_301_350/q0342.cc)|[Power of Four](https://leetcode.com/problems/power-of-four/)|Easy|
-|2022-06-09 18:35|794|[📎](src/q_751_800/q0794.cc)|[Valid Tic-Tac-Toe State](https://leetcode.com/problems/valid-tic-tac-toe-state/)|Medium|
 
 ## Previous Logs
 
 |Month|Submissions|Easy|Medium|Hard|
 |:--|:--|:--|:--|:--|
-|[July_2022](./assets/July_2022.md)|3|2|1|0|
+|[July_2022](./assets/July_2022.md)|4|2|1|1|
 |[June_2022](./assets/June_2022.md)|30|8|19|3|
 |[May_2022](./assets/May_2022.md)|42|12|26|4|
 |[April_2022](./assets/April_2022.md)|56|37|19|0|

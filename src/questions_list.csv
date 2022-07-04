@@ -133,7 +133,7 @@ id,title,level,slug,paid,done
 132,Palindrome Partitioning II,3,palindrome-partitioning-ii,0,0
 133,Clone Graph,2,clone-graph,0,1
 134,Gas Station,2,gas-station,0,1
-135,Candy,3,candy,0,0
+135,Candy,3,candy,0,1
 136,Single Number,1,single-number,0,1
 137,Single Number II,2,single-number-ii,0,0
 138,Copy List with Random Pointer,2,copy-list-with-random-pointer,0,1
@@ -2323,3 +2323,8 @@ id,title,level,slug,paid,done
 2322,Minimum Score After Removals on a Tree,3,minimum-score-after-removals-on-a-tree,0,0
 2323,Find Minimum Time to Finish All Jobs II,2,find-minimum-time-to-finish-all-jobs-ii,1,0
 2324,Product Sales Analysis IV,2,product-sales-analysis-iv,1,0
+2325,Decode the Message,1,decode-the-message,0,0
+2326,Spiral Matrix IV,2,spiral-matrix-iv,0,0
+2327,Number of People Aware of a Secret,2,number-of-people-aware-of-a-secret,0,0
+2328,Number of Increasing Paths in a Grid,3,number-of-increasing-paths-in-a-grid,0,0
+2329,Product Sales Analysis V,2,product-sales-analysis-v,1,0
