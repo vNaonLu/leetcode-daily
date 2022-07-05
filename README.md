@@ -139,7 +139,7 @@ My daily challenge on leetcode since 2021/09/06.
 ||125|[Valid Palindrome](https://leetcode.com/problems/valid-palindrome/)|Easy|
 ||126|[Word Ladder II](https://leetcode.com/problems/word-ladder-ii/)|Hard|
 |[📎](src/q_101_150/q0127.cc)|127|[Word Ladder](https://leetcode.com/problems/word-ladder/)|Hard|
-||128|[Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence/)|Medium|
+|[📎](src/q_101_150/q0128.cc)|128|[Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence/)|Medium|
 |[📎](src/q_101_150/q0129.cc)|129|[Sum Root to Leaf Numbers](https://leetcode.com/problems/sum-root-to-leaf-numbers/)|Medium|
 |[📎](src/q_101_150/q0130.cc)|130|[Surrounded Regions](https://leetcode.com/problems/surrounded-regions/)|Medium|
 |[📎](src/q_101_150/q0131.cc)|131|[Palindrome Partitioning](https://leetcode.com/problems/palindrome-partitioning/)|Medium|
@@ -2402,6 +2402,7 @@ My daily challenge on leetcode since 2021/09/06.
 
 |Time|#|</>|Question Title|Difficulty|
 |:--|--:|:-:|:--|:--|
+|2022-07-05 18:24|128|[📎](src/q_101_150/q0128.cc)|[Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence/)|Medium|
 |2022-07-04 18:16|135|[📎](src/q_101_150/q0135.cc)|[Candy](https://leetcode.com/problems/candy/)|Hard|
 |2022-07-03 14:26|1576|[📎](src/q_1551_1600/q1576.cc)|[Replace All ?'s to Avoid Consecutive Repeating Characters](https://leetcode.com/problems/replace-all-s-to-avoid-consecutive-repeating-characters/)|Easy|
 |2022-07-02 13:25|1465|[📎](src/q_1451_1500/q1465.cc)|[Maximum Area of a Piece of Cake After Horizontal and Vertical Cuts](https://leetcode.com/problems/maximum-area-of-a-piece-of-cake-after-horizontal-and-vertical-cuts/)|Medium|
@@ -2426,13 +2427,12 @@ My daily challenge on leetcode since 2021/09/06.
 |2022-06-13 18:21|1128|[📎](src/q_1101_1150/q1128.cc)|[Number of Equivalent Domino Pairs](https://leetcode.com/problems/number-of-equivalent-domino-pairs/)|Easy|
 |2022-06-12 14:29|1695|[📎](src/q_1651_1700/q1695.cc)|[Maximum Erasure Value](https://leetcode.com/problems/maximum-erasure-value/)|Medium|
 |2022-06-11 12:29|1658|[📎](src/q_1651_1700/q1658.cc)|[Minimum Operations to Reduce X to Zero](https://leetcode.com/problems/minimum-operations-to-reduce-x-to-zero/)|Medium|
-|2022-06-10 11:29|342|[📎](src/q_301_350/q0342.cc)|[Power of Four](https://leetcode.com/problems/power-of-four/)|Easy|
 
 ## Previous Logs
 
 |Month|Submissions|Easy|Medium|Hard|
 |:--|:--|:--|:--|:--|
-|[July_2022](./assets/July_2022.md)|4|2|1|1|
+|[July_2022](./assets/July_2022.md)|5|2|2|1|
 |[June_2022](./assets/June_2022.md)|30|8|19|3|
 |[May_2022](./assets/May_2022.md)|42|12|26|4|
 |[April_2022](./assets/April_2022.md)|56|37|19|0|

@@ -126,7 +126,7 @@ id,title,level,slug,paid,done
 125,Valid Palindrome,1,valid-palindrome,0,0
 126,Word Ladder II,3,word-ladder-ii,0,0
 127,Word Ladder,3,word-ladder,0,1
-128,Longest Consecutive Sequence,2,longest-consecutive-sequence,0,0
+128,Longest Consecutive Sequence,2,longest-consecutive-sequence,0,1
 129,Sum Root to Leaf Numbers,2,sum-root-to-leaf-numbers,0,1
 130,Surrounded Regions,2,surrounded-regions,0,1
 131,Palindrome Partitioning,2,palindrome-partitioning,0,1
