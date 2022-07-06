@@ -638,7 +638,7 @@ id,title,level,slug,paid,done
 637,Average of Levels in Binary Tree,1,average-of-levels-in-binary-tree,0,0
 638,Shopping Offers,2,shopping-offers,0,0
 639,Decode Ways II,3,decode-ways-ii,0,0
-640,Solve the Equation,2,solve-the-equation,0,0
+640,Solve the Equation,2,solve-the-equation,0,1
 641,Design Circular Deque,2,design-circular-deque,0,0
 642,Design Search Autocomplete System,3,design-search-autocomplete-system,1,0
 643,Maximum Average Subarray I,1,maximum-average-subarray-i,0,1
