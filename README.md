@@ -108,7 +108,7 @@ My daily challenge on leetcode since 2021/09/06.
 |[📎](src/q_51_100/q0094.cc)|94|[Binary Tree Inorder Traversal](https://leetcode.com/problems/binary-tree-inorder-traversal/)|Easy|
 |[📎](src/q_51_100/q0095.cc)|95|[Unique Binary Search Trees II](https://leetcode.com/problems/unique-binary-search-trees-ii/)|Medium|
 |[📎](src/q_51_100/q0096.cc)|96|[Unique Binary Search Trees](https://leetcode.com/problems/unique-binary-search-trees/)|Medium|
-||97|[Interleaving String](https://leetcode.com/problems/interleaving-string/)|Medium|
+|[📎](src/q_51_100/q0097.cc)|97|[Interleaving String](https://leetcode.com/problems/interleaving-string/)|Medium|
 |[📎](src/q_51_100/q0098.cc)|98|[Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree/)|Medium|
 |[📎](src/q_51_100/q0099.cc)|99|[Recover Binary Search Tree](https://leetcode.com/problems/recover-binary-search-tree/)|Medium|
 ||100|[Same Tree](https://leetcode.com/problems/same-tree/)|Easy|
@@ -584,7 +584,7 @@ My daily challenge on leetcode since 2021/09/06.
 ||558|[Logical OR of Two Binary Grids Represented as Quad-Trees](https://leetcode.com/problems/logical-or-of-two-binary-grids-represented-as-quad-trees/)|Medium|
 ||559|[Maximum Depth of N-ary Tree](https://leetcode.com/problems/maximum-depth-of-n-ary-tree/)|Easy|
 |[📎](src/q_551_600/q0560.cc)|560|[Subarray Sum Equals K](https://leetcode.com/problems/subarray-sum-equals-k/)|Medium|
-|[📎](src/q_551_600/q0561.cc)|561|[Array Partition I](https://leetcode.com/problems/array-partition-i/)|Easy|
+|[📎](src/q_551_600/q0561.cc)|561|[Array Partition](https://leetcode.com/problems/array-partition/)|Easy|
 |🔒|562|[Longest Line of Consecutive One in Matrix](https://leetcode.com/problems/longest-line-of-consecutive-one-in-matrix/)|Medium|
 |[📎](src/q_551_600/q0563.cc)|563|[Binary Tree Tilt](https://leetcode.com/problems/binary-tree-tilt/)|Easy|
 ||564|[Find the Closest Palindrome](https://leetcode.com/problems/find-the-closest-palindrome/)|Hard|
@@ -881,7 +881,7 @@ My daily challenge on leetcode since 2021/09/06.
 |[📎](src/q_801_850/q0849.cc)|849|[Maximize Distance to Closest Person](https://leetcode.com/problems/maximize-distance-to-closest-person/)|Medium|
 ||850|[Rectangle Area II](https://leetcode.com/problems/rectangle-area-ii/)|Hard|
 ||851|[Loud and Rich](https://leetcode.com/problems/loud-and-rich/)|Medium|
-|[📎](src/q_851_900/q0852.cc)|852|[Peak Index in a Mountain Array](https://leetcode.com/problems/peak-index-in-a-mountain-array/)|Easy|
+|[📎](src/q_851_900/q0852.cc)|852|[Peak Index in a Mountain Array](https://leetcode.com/problems/peak-index-in-a-mountain-array/)|Medium|
 ||853|[Car Fleet](https://leetcode.com/problems/car-fleet/)|Medium|
 ||854|[K-Similar Strings](https://leetcode.com/problems/k-similar-strings/)|Hard|
 ||855|[Exam Room](https://leetcode.com/problems/exam-room/)|Medium|
@@ -2312,7 +2312,7 @@ My daily challenge on leetcode since 2021/09/06.
 ||2250|[Count Number of Rectangles Containing Each Point](https://leetcode.com/problems/count-number-of-rectangles-containing-each-point/)|Medium|
 </details>
 <details>
-  <summary>### 2251 ~ 2329</summary>
+  <summary>### 2251 ~ 2330</summary>
 
 |</>|#|Solution Title|Difficulty|
 |:-:|--:|:--|:--|
@@ -2395,6 +2395,7 @@ My daily challenge on leetcode since 2021/09/06.
 ||2327|[Number of People Aware of a Secret](https://leetcode.com/problems/number-of-people-aware-of-a-secret/)|Medium|
 ||2328|[Number of Increasing Paths in a Grid](https://leetcode.com/problems/number-of-increasing-paths-in-a-grid/)|Hard|
 |🔒|2329|[Product Sales Analysis V](https://leetcode.com/problems/product-sales-analysis-v/)|Medium|
+|🔒|2330|[Valid Palindrome IV](https://leetcode.com/problems/valid-palindrome-iv/)|Medium|
 </details>
 
 ---
@@ -2402,6 +2403,7 @@ My daily challenge on leetcode since 2021/09/06.
 
 |Time|#|</>|Question Title|Difficulty|
 |:--|--:|:-:|:--|:--|
+|2022-07-07 18:34|97|[📎](src/q_51_100/q0097.cc)|[Interleaving String](https://leetcode.com/problems/interleaving-string/)|Medium|
 |2022-07-06 18:18|640|[📎](src/q_601_650/q0640.cc)|[Solve the Equation](https://leetcode.com/problems/solve-the-equation/)|Medium|
 |2022-07-05 18:24|128|[📎](src/q_101_150/q0128.cc)|[Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence/)|Medium|
 |2022-07-04 18:16|135|[📎](src/q_101_150/q0135.cc)|[Candy](https://leetcode.com/problems/candy/)|Hard|
@@ -2426,13 +2428,12 @@ My daily challenge on leetcode since 2021/09/06.
 |2022-06-15 21:21|1048|[📎](src/q_1001_1050/q1048.cc)|[Longest String Chain](https://leetcode.com/problems/longest-string-chain/)|Medium|
 |2022-06-14 18:26|1382|[📎](src/q_1351_1400/q1382.cc)|[Balance a Binary Search Tree](https://leetcode.com/problems/balance-a-binary-search-tree/)|Medium|
 |2022-06-13 18:21|1128|[📎](src/q_1101_1150/q1128.cc)|[Number of Equivalent Domino Pairs](https://leetcode.com/problems/number-of-equivalent-domino-pairs/)|Easy|
-|2022-06-12 14:29|1695|[📎](src/q_1651_1700/q1695.cc)|[Maximum Erasure Value](https://leetcode.com/problems/maximum-erasure-value/)|Medium|
 
 ## Previous Logs
 
 |Month|Submissions|Easy|Medium|Hard|
 |:--|:--|:--|:--|:--|
-|[July_2022](./assets/July_2022.md)|6|2|3|1|
+|[July_2022](./assets/July_2022.md)|7|2|4|1|
 |[June_2022](./assets/June_2022.md)|30|8|19|3|
 |[May_2022](./assets/May_2022.md)|42|12|26|4|
 |[April_2022](./assets/April_2022.md)|56|37|19|0|
@@ -2441,5 +2442,5 @@ My daily challenge on leetcode since 2021/09/06.
 |[January_2022](./assets/January_2022.md)|32|8|18|6|
 |[December_2021](./assets/December_2021.md)|33|11|15|7|
 |[November_2021](./assets/November_2021.md)|41|19|16|6|
-|[October_2021](./assets/October_2021.md)|115|25|77|13|
+|[October_2021](./assets/October_2021.md)|115|24|78|13|
 |[September_2021](./assets/September_2021.md)|133|54|72|7|
