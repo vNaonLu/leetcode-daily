@@ -1471,7 +1471,7 @@ id,title,level,slug,paid,done
 1470,Shuffle the Array,1,shuffle-the-array,0,0
 1471,The k Strongest Values in an Array,2,the-k-strongest-values-in-an-array,0,1
 1472,Design Browser History,2,design-browser-history,0,0
-1473,Paint House III,3,paint-house-iii,0,0
+1473,Paint House III,3,paint-house-iii,0,1
 1474,Delete N Nodes After M Nodes of a Linked List,1,delete-n-nodes-after-m-nodes-of-a-linked-list,1,0
 1475,Final Prices With a Special Discount in a Shop,1,final-prices-with-a-special-discount-in-a-shop,0,0
 1476,Subrectangle Queries,2,subrectangle-queries,0,0

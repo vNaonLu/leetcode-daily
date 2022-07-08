@@ -1514,7 +1514,7 @@ My daily challenge on leetcode since 2021/09/06.
 ||1470|[Shuffle the Array](https://leetcode.com/problems/shuffle-the-array/)|Easy|
 |[📎](src/q_1451_1500/q1471.cc)|1471|[The k Strongest Values in an Array](https://leetcode.com/problems/the-k-strongest-values-in-an-array/)|Medium|
 ||1472|[Design Browser History](https://leetcode.com/problems/design-browser-history/)|Medium|
-||1473|[Paint House III](https://leetcode.com/problems/paint-house-iii/)|Hard|
+|[📎](src/q_1451_1500/q1473.cc)|1473|[Paint House III](https://leetcode.com/problems/paint-house-iii/)|Hard|
 |🔒|1474|[Delete N Nodes After M Nodes of a Linked List](https://leetcode.com/problems/delete-n-nodes-after-m-nodes-of-a-linked-list/)|Easy|
 ||1475|[Final Prices With a Special Discount in a Shop](https://leetcode.com/problems/final-prices-with-a-special-discount-in-a-shop/)|Easy|
 ||1476|[Subrectangle Queries](https://leetcode.com/problems/subrectangle-queries/)|Medium|
@@ -2403,6 +2403,7 @@ My daily challenge on leetcode since 2021/09/06.
 
 |Time|#|</>|Question Title|Difficulty|
 |:--|--:|:-:|:--|:--|
+|2022-07-08 18:21|1473|[📎](src/q_1451_1500/q1473.cc)|[Paint House III](https://leetcode.com/problems/paint-house-iii/)|Hard|
 |2022-07-07 18:34|97|[📎](src/q_51_100/q0097.cc)|[Interleaving String](https://leetcode.com/problems/interleaving-string/)|Medium|
 |2022-07-06 18:18|640|[📎](src/q_601_650/q0640.cc)|[Solve the Equation](https://leetcode.com/problems/solve-the-equation/)|Medium|
 |2022-07-05 18:24|128|[📎](src/q_101_150/q0128.cc)|[Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence/)|Medium|
@@ -2427,13 +2428,12 @@ My daily challenge on leetcode since 2021/09/06.
 |2022-06-16 18:22|1609|[📎](src/q_1601_1650/q1609.cc)|[Even Odd Tree](https://leetcode.com/problems/even-odd-tree/)|Medium|
 |2022-06-15 21:21|1048|[📎](src/q_1001_1050/q1048.cc)|[Longest String Chain](https://leetcode.com/problems/longest-string-chain/)|Medium|
 |2022-06-14 18:26|1382|[📎](src/q_1351_1400/q1382.cc)|[Balance a Binary Search Tree](https://leetcode.com/problems/balance-a-binary-search-tree/)|Medium|
-|2022-06-13 18:21|1128|[📎](src/q_1101_1150/q1128.cc)|[Number of Equivalent Domino Pairs](https://leetcode.com/problems/number-of-equivalent-domino-pairs/)|Easy|
 
 ## Previous Logs
 
 |Month|Submissions|Easy|Medium|Hard|
 |:--|:--|:--|:--|:--|
-|[July_2022](./assets/July_2022.md)|7|2|4|1|
+|[July_2022](./assets/July_2022.md)|8|2|4|2|
 |[June_2022](./assets/June_2022.md)|30|8|19|3|
 |[May_2022](./assets/May_2022.md)|42|12|26|4|
 |[April_2022](./assets/April_2022.md)|56|37|19|0|
