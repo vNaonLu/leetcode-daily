@@ -95,7 +95,7 @@ id,title,level,slug,paid,done
 94,Binary Tree Inorder Traversal,1,binary-tree-inorder-traversal,0,1
 95,Unique Binary Search Trees II,2,unique-binary-search-trees-ii,0,1
 96,Unique Binary Search Trees,2,unique-binary-search-trees,0,1
-97,Interleaving String,2,interleaving-string,0,0
+97,Interleaving String,2,interleaving-string,0,1
 98,Validate Binary Search Tree,2,validate-binary-search-tree,0,1
 99,Recover Binary Search Tree,2,recover-binary-search-tree,0,1
 100,Same Tree,1,same-tree,0,0
@@ -126,14 +126,14 @@ id,title,level,slug,paid,done
 125,Valid Palindrome,1,valid-palindrome,0,0
 126,Word Ladder II,3,word-ladder-ii,0,0
 127,Word Ladder,3,word-ladder,0,1
-128,Longest Consecutive Sequence,2,longest-consecutive-sequence,0,0
+128,Longest Consecutive Sequence,2,longest-consecutive-sequence,0,1
 129,Sum Root to Leaf Numbers,2,sum-root-to-leaf-numbers,0,1
 130,Surrounded Regions,2,surrounded-regions,0,1
 131,Palindrome Partitioning,2,palindrome-partitioning,0,1
 132,Palindrome Partitioning II,3,palindrome-partitioning-ii,0,0
 133,Clone Graph,2,clone-graph,0,1
 134,Gas Station,2,gas-station,0,1
-135,Candy,3,candy,0,0
+135,Candy,3,candy,0,1
 136,Single Number,1,single-number,0,1
 137,Single Number II,2,single-number-ii,0,0
 138,Copy List with Random Pointer,2,copy-list-with-random-pointer,0,1
@@ -559,7 +559,7 @@ id,title,level,slug,paid,done
 558,Logical OR of Two Binary Grids Represented as Quad-Trees,2,logical-or-of-two-binary-grids-represented-as-quad-trees,0,0
 559,Maximum Depth of N-ary Tree,1,maximum-depth-of-n-ary-tree,0,0
 560,Subarray Sum Equals K,2,subarray-sum-equals-k,0,1
-561,Array Partition I,1,array-partition-i,0,1
+561,Array Partition,1,array-partition,0,1
 562,Longest Line of Consecutive One in Matrix,2,longest-line-of-consecutive-one-in-matrix,1,0
 563,Binary Tree Tilt,1,binary-tree-tilt,0,1
 564,Find the Closest Palindrome,3,find-the-closest-palindrome,0,0
@@ -638,7 +638,7 @@ id,title,level,slug,paid,done
 637,Average of Levels in Binary Tree,1,average-of-levels-in-binary-tree,0,0
 638,Shopping Offers,2,shopping-offers,0,0
 639,Decode Ways II,3,decode-ways-ii,0,0
-640,Solve the Equation,2,solve-the-equation,0,0
+640,Solve the Equation,2,solve-the-equation,0,1
 641,Design Circular Deque,2,design-circular-deque,0,0
 642,Design Search Autocomplete System,3,design-search-autocomplete-system,1,0
 643,Maximum Average Subarray I,1,maximum-average-subarray-i,0,1
@@ -850,7 +850,7 @@ id,title,level,slug,paid,done
 849,Maximize Distance to Closest Person,2,maximize-distance-to-closest-person,0,1
 850,Rectangle Area II,3,rectangle-area-ii,0,0
 851,Loud and Rich,2,loud-and-rich,0,0
-852,Peak Index in a Mountain Array,1,peak-index-in-a-mountain-array,0,1
+852,Peak Index in a Mountain Array,2,peak-index-in-a-mountain-array,0,1
 853,Car Fleet,2,car-fleet,0,0
 854,K-Similar Strings,3,k-similar-strings,0,0
 855,Exam Room,2,exam-room,0,0
@@ -1471,7 +1471,7 @@ id,title,level,slug,paid,done
 1470,Shuffle the Array,1,shuffle-the-array,0,0
 1471,The k Strongest Values in an Array,2,the-k-strongest-values-in-an-array,0,1
 1472,Design Browser History,2,design-browser-history,0,0
-1473,Paint House III,3,paint-house-iii,0,0
+1473,Paint House III,3,paint-house-iii,0,1
 1474,Delete N Nodes After M Nodes of a Linked List,1,delete-n-nodes-after-m-nodes-of-a-linked-list,1,0
 1475,Final Prices With a Special Discount in a Shop,1,final-prices-with-a-special-discount-in-a-shop,0,0
 1476,Subrectangle Queries,2,subrectangle-queries,0,0
@@ -1574,7 +1574,7 @@ id,title,level,slug,paid,done
 1573,Number of Ways to Split a String,2,number-of-ways-to-split-a-string,0,0
 1574,Shortest Subarray to be Removed to Make Array Sorted,2,shortest-subarray-to-be-removed-to-make-array-sorted,0,0
 1575,Count All Possible Routes,3,count-all-possible-routes,0,0
-1576,Replace All ?'s to Avoid Consecutive Repeating Characters,1,replace-all-s-to-avoid-consecutive-repeating-characters,0,0
+1576,Replace All ?'s to Avoid Consecutive Repeating Characters,1,replace-all-s-to-avoid-consecutive-repeating-characters,0,1
 1577,Number of Ways Where Square of Number Is Equal to Product of Two Numbers,2,number-of-ways-where-square-of-number-is-equal-to-product-of-two-numbers,0,0
 1578,Minimum Time to Make Rope Colorful,2,minimum-time-to-make-rope-colorful,0,0
 1579,Remove Max Number of Edges to Keep Graph Fully Traversable,3,remove-max-number-of-edges-to-keep-graph-fully-traversable,0,0
@@ -1694,7 +1694,7 @@ id,title,level,slug,paid,done
 1693,Daily Leads and Partners,1,daily-leads-and-partners,0,0
 1694,Reformat Phone Number,1,reformat-phone-number,0,0
 1695,Maximum Erasure Value,2,maximum-erasure-value,0,1
-1696,Jump Game VI,2,jump-game-vi,0,0
+1696,Jump Game VI,2,jump-game-vi,0,1
 1697,Checking Existence of Edge Length Limited Paths,3,checking-existence-of-edge-length-limited-paths,0,0
 1698,Number of Distinct Substrings in a String,2,number-of-distinct-substrings-in-a-string,1,0
 1699,Number of Calls Between Two Persons,2,number-of-calls-between-two-persons,1,0
@@ -2323,3 +2323,9 @@ id,title,level,slug,paid,done
 2322,Minimum Score After Removals on a Tree,3,minimum-score-after-removals-on-a-tree,0,0
 2323,Find Minimum Time to Finish All Jobs II,2,find-minimum-time-to-finish-all-jobs-ii,1,0
 2324,Product Sales Analysis IV,2,product-sales-analysis-iv,1,0
+2325,Decode the Message,1,decode-the-message,0,0
+2326,Spiral Matrix IV,2,spiral-matrix-iv,0,0
+2327,Number of People Aware of a Secret,2,number-of-people-aware-of-a-secret,0,0
+2328,Number of Increasing Paths in a Grid,3,number-of-increasing-paths-in-a-grid,0,0
+2329,Product Sales Analysis V,2,product-sales-analysis-v,1,0
+2330,Valid Palindrome IV,2,valid-palindrome-iv,1,0
