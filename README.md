@@ -1743,7 +1743,7 @@ My daily challenge on leetcode since 2021/09/06.
 ||1693|[Daily Leads and Partners](https://leetcode.com/problems/daily-leads-and-partners/)|Easy|
 ||1694|[Reformat Phone Number](https://leetcode.com/problems/reformat-phone-number/)|Easy|
 |[📎](src/q_1651_1700/q1695.cc)|1695|[Maximum Erasure Value](https://leetcode.com/problems/maximum-erasure-value/)|Medium|
-||1696|[Jump Game VI](https://leetcode.com/problems/jump-game-vi/)|Medium|
+|[📎](src/q_1651_1700/q1696.cc)|1696|[Jump Game VI](https://leetcode.com/problems/jump-game-vi/)|Medium|
 ||1697|[Checking Existence of Edge Length Limited Paths](https://leetcode.com/problems/checking-existence-of-edge-length-limited-paths/)|Hard|
 |🔒|1698|[Number of Distinct Substrings in a String](https://leetcode.com/problems/number-of-distinct-substrings-in-a-string/)|Medium|
 |🔒|1699|[Number of Calls Between Two Persons](https://leetcode.com/problems/number-of-calls-between-two-persons/)|Medium|
@@ -2403,6 +2403,7 @@ My daily challenge on leetcode since 2021/09/06.
 
 |Time|#|</>|Question Title|Difficulty|
 |:--|--:|:-:|:--|:--|
+|2022-07-09 16:44|1696|[📎](src/q_1651_1700/q1696.cc)|[Jump Game VI](https://leetcode.com/problems/jump-game-vi/)|Medium|
 |2022-07-08 18:21|1473|[📎](src/q_1451_1500/q1473.cc)|[Paint House III](https://leetcode.com/problems/paint-house-iii/)|Hard|
 |2022-07-07 18:34|97|[📎](src/q_51_100/q0097.cc)|[Interleaving String](https://leetcode.com/problems/interleaving-string/)|Medium|
 |2022-07-06 18:18|640|[📎](src/q_601_650/q0640.cc)|[Solve the Equation](https://leetcode.com/problems/solve-the-equation/)|Medium|
@@ -2427,13 +2428,12 @@ My daily challenge on leetcode since 2021/09/06.
 |2022-06-17 22:09|968|[📎](src/q_951_1000/q0968.cc)|[Binary Tree Cameras](https://leetcode.com/problems/binary-tree-cameras/)|Hard|
 |2022-06-16 18:22|1609|[📎](src/q_1601_1650/q1609.cc)|[Even Odd Tree](https://leetcode.com/problems/even-odd-tree/)|Medium|
 |2022-06-15 21:21|1048|[📎](src/q_1001_1050/q1048.cc)|[Longest String Chain](https://leetcode.com/problems/longest-string-chain/)|Medium|
-|2022-06-14 18:26|1382|[📎](src/q_1351_1400/q1382.cc)|[Balance a Binary Search Tree](https://leetcode.com/problems/balance-a-binary-search-tree/)|Medium|
 
 ## Previous Logs
 
 |Month|Submissions|Easy|Medium|Hard|
 |:--|:--|:--|:--|:--|
-|[July_2022](./assets/July_2022.md)|8|2|4|2|
+|[July_2022](./assets/July_2022.md)|9|2|5|2|
 |[June_2022](./assets/June_2022.md)|30|8|19|3|
 |[May_2022](./assets/May_2022.md)|42|12|26|4|
 |[April_2022](./assets/April_2022.md)|56|37|19|0|
