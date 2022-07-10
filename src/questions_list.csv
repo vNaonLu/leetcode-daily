@@ -828,7 +828,7 @@ id,title,level,slug,paid,done
 827,Making A Large Island,3,making-a-large-island,0,0
 828,Count Unique Characters of All Substrings of a Given String,3,count-unique-characters-of-all-substrings-of-a-given-string,0,0
 829,Consecutive Numbers Sum,3,consecutive-numbers-sum,0,0
-830,Positions of Large Groups,1,positions-of-large-groups,0,0
+830,Positions of Large Groups,1,positions-of-large-groups,0,1
 831,Masking Personal Information,2,masking-personal-information,0,0
 832,Flipping an Image,1,flipping-an-image,0,0
 833,Find And Replace in String,2,find-and-replace-in-string,0,0
@@ -935,7 +935,7 @@ id,title,level,slug,paid,done
 934,Shortest Bridge,2,shortest-bridge,0,1
 935,Knight Dialer,2,knight-dialer,0,0
 936,Stamping The Sequence,3,stamping-the-sequence,0,0
-937,Reorder Data in Log Files,1,reorder-data-in-log-files,0,0
+937,Reorder Data in Log Files,2,reorder-data-in-log-files,0,0
 938,Range Sum of BST,1,range-sum-of-bst,0,1
 939,Minimum Area Rectangle,2,minimum-area-rectangle,0,0
 940,Distinct Subsequences II,3,distinct-subsequences-ii,0,0
@@ -2329,3 +2329,11 @@ id,title,level,slug,paid,done
 2328,Number of Increasing Paths in a Grid,3,number-of-increasing-paths-in-a-grid,0,0
 2329,Product Sales Analysis V,2,product-sales-analysis-v,1,0
 2330,Valid Palindrome IV,2,valid-palindrome-iv,1,0
+2331,Evaluate Boolean Binary Tree,1,evaluate-boolean-binary-tree,0,0
+2332,The Latest Time to Catch a Bus,2,the-latest-time-to-catch-a-bus,0,0
+2333,Minimum Sum of Squared Difference,2,minimum-sum-of-squared-difference,0,0
+2334,Subarray With Elements Greater Than Varying Threshold,3,subarray-with-elements-greater-than-varying-threshold,0,0
+2335,Minimum Amount of Time to Fill Cups,1,minimum-amount-of-time-to-fill-cups,0,0
+2336,Smallest Number in Infinite Set,2,smallest-number-in-infinite-set,0,0
+2337,Move Pieces to Obtain a String,2,move-pieces-to-obtain-a-string,0,0
+2338,Count the Number of Ideal Arrays,3,count-the-number-of-ideal-arrays,0,0
