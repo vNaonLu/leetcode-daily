@@ -2339,7 +2339,7 @@ My daily challenge on leetcode since 2021/09/06.
 ||2271|[Maximum White Tiles Covered by a Carpet](https://leetcode.com/problems/maximum-white-tiles-covered-by-a-carpet/)|Medium|
 ||2272|[Substring With Largest Variance](https://leetcode.com/problems/substring-with-largest-variance/)|Hard|
 ||2273|[Find Resultant Array After Removing Anagrams](https://leetcode.com/problems/find-resultant-array-after-removing-anagrams/)|Easy|
-||2274|[Maximum Consecutive Floors Without Special Floors](https://leetcode.com/problems/maximum-consecutive-floors-without-special-floors/)|Medium|
+|[📎](src/q_2251_2300/q2274.cc)|2274|[Maximum Consecutive Floors Without Special Floors](https://leetcode.com/problems/maximum-consecutive-floors-without-special-floors/)|Medium|
 ||2275|[Largest Combination With Bitwise AND Greater Than Zero](https://leetcode.com/problems/largest-combination-with-bitwise-and-greater-than-zero/)|Medium|
 ||2276|[Count Integers in Intervals](https://leetcode.com/problems/count-integers-in-intervals/)|Hard|
 |🔒|2277|[Closest Node to Path in Tree](https://leetcode.com/problems/closest-node-to-path-in-tree/)|Hard|
@@ -2411,6 +2411,7 @@ My daily challenge on leetcode since 2021/09/06.
 
 |Time|#|</>|Question Title|Difficulty|
 |:--|--:|:-:|:--|:--|
+|2022-07-11 18:21|2274|[📎](src/q_2251_2300/q2274.cc)|[Maximum Consecutive Floors Without Special Floors](https://leetcode.com/problems/maximum-consecutive-floors-without-special-floors/)|Medium|
 |2022-07-10 14:13|830|[📎](src/q_801_850/q0830.cc)|[Positions of Large Groups](https://leetcode.com/problems/positions-of-large-groups/)|Easy|
 |2022-07-09 16:44|1696|[📎](src/q_1651_1700/q1696.cc)|[Jump Game VI](https://leetcode.com/problems/jump-game-vi/)|Medium|
 |2022-07-08 18:21|1473|[📎](src/q_1451_1500/q1473.cc)|[Paint House III](https://leetcode.com/problems/paint-house-iii/)|Hard|
@@ -2435,13 +2436,12 @@ My daily challenge on leetcode since 2021/09/06.
 |2022-06-19 13:18|1268|[📎](src/q_1251_1300/q1268.cc)|[Search Suggestions System](https://leetcode.com/problems/search-suggestions-system/)|Medium|
 |2022-06-18 14:48|745|[📎](src/q_701_750/q0745.cc)|[Prefix and Suffix Search](https://leetcode.com/problems/prefix-and-suffix-search/)|Hard|
 |2022-06-17 22:09|968|[📎](src/q_951_1000/q0968.cc)|[Binary Tree Cameras](https://leetcode.com/problems/binary-tree-cameras/)|Hard|
-|2022-06-16 18:22|1609|[📎](src/q_1601_1650/q1609.cc)|[Even Odd Tree](https://leetcode.com/problems/even-odd-tree/)|Medium|
 
 ## Previous Logs
 
 |Month|Submissions|Easy|Medium|Hard|
 |:--|:--|:--|:--|:--|
-|[July_2022](./assets/July_2022.md)|10|3|5|2|
+|[July_2022](./assets/July_2022.md)|11|3|6|2|
 |[June_2022](./assets/June_2022.md)|30|8|19|3|
 |[May_2022](./assets/May_2022.md)|42|12|26|4|
 |[April_2022](./assets/April_2022.md)|56|37|19|0|
