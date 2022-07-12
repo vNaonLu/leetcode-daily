@@ -471,7 +471,7 @@ id,title,level,slug,paid,done
 470,Implement Rand10() Using Rand7(),2,implement-rand10-using-rand7,0,0
 471,Encode String with Shortest Length,3,encode-string-with-shortest-length,1,0
 472,Concatenated Words,3,concatenated-words,0,0
-473,Matchsticks to Square,2,matchsticks-to-square,0,0
+473,Matchsticks to Square,2,matchsticks-to-square,0,1
 474,Ones and Zeroes,2,ones-and-zeroes,0,1
 475,Heaters,2,heaters,0,0
 476,Number Complement,1,number-complement,0,1
