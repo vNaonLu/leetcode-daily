@@ -1916,7 +1916,7 @@ My daily challenge on leetcode since 2021/09/06.
 ||1860|[Incremental Memory Leak](https://leetcode.com/problems/incremental-memory-leak/)|Medium|
 ||1861|[Rotating the Box](https://leetcode.com/problems/rotating-the-box/)|Medium|
 ||1862|[Sum of Floored Pairs](https://leetcode.com/problems/sum-of-floored-pairs/)|Hard|
-||1863|[Sum of All Subset XOR Totals](https://leetcode.com/problems/sum-of-all-subset-xor-totals/)|Easy|
+|[📎](src/q_1851_1900/q1863.cc)|1863|[Sum of All Subset XOR Totals](https://leetcode.com/problems/sum-of-all-subset-xor-totals/)|Easy|
 ||1864|[Minimum Number of Swaps to Make the Binary String Alternating](https://leetcode.com/problems/minimum-number-of-swaps-to-make-the-binary-string-alternating/)|Medium|
 ||1865|[Finding Pairs With a Certain Sum](https://leetcode.com/problems/finding-pairs-with-a-certain-sum/)|Medium|
 ||1866|[Number of Ways to Rearrange Sticks With K Sticks Visible](https://leetcode.com/problems/number-of-ways-to-rearrange-sticks-with-k-sticks-visible/)|Hard|
@@ -2411,6 +2411,7 @@ My daily challenge on leetcode since 2021/09/06.
 
 |Time|#|</>|Question Title|Difficulty|
 |:--|--:|:-:|:--|:--|
+|2022-07-13 18:12|1863|[📎](src/q_1851_1900/q1863.cc)|[Sum of All Subset XOR Totals](https://leetcode.com/problems/sum-of-all-subset-xor-totals/)|Easy|
 |2022-07-12 13:10|473|[📎](src/q_451_500/q0473.cc)|[Matchsticks to Square](https://leetcode.com/problems/matchsticks-to-square/)|Medium|
 |2022-07-11 18:42|1967|[📎](src/q_1951_2000/q1967.cc)|[Number of Strings That Appear as Substrings in Word](https://leetcode.com/problems/number-of-strings-that-appear-as-substrings-in-word/)|Easy|
 |2022-07-11 18:21|2274|[📎](src/q_2251_2300/q2274.cc)|[Maximum Consecutive Floors Without Special Floors](https://leetcode.com/problems/maximum-consecutive-floors-without-special-floors/)|Medium|
@@ -2435,13 +2436,12 @@ My daily challenge on leetcode since 2021/09/06.
 |2022-06-22 18:14|1805|[📎](src/q_1801_1850/q1805.cc)|[Number of Different Integers in a String](https://leetcode.com/problems/number-of-different-integers-in-a-string/)|Easy|
 |2022-06-21 22:12|1642|[📎](src/q_1601_1650/q1642.cc)|[Furthest Building You Can Reach](https://leetcode.com/problems/furthest-building-you-can-reach/)|Medium|
 |2022-06-20 18:11|820|[📎](src/q_801_850/q0820.cc)|[Short Encoding of Words](https://leetcode.com/problems/short-encoding-of-words/)|Medium|
-|2022-06-19 13:18|1268|[📎](src/q_1251_1300/q1268.cc)|[Search Suggestions System](https://leetcode.com/problems/search-suggestions-system/)|Medium|
 
 ## Previous Logs
 
 |Month|Submissions|Easy|Medium|Hard|
 |:--|:--|:--|:--|:--|
-|[July_2022](./assets/July_2022.md)|13|4|7|2|
+|[July_2022](./assets/July_2022.md)|14|5|7|2|
 |[June_2022](./assets/June_2022.md)|30|8|19|3|
 |[May_2022](./assets/May_2022.md)|42|12|26|4|
 |[April_2022](./assets/April_2022.md)|56|37|19|0|

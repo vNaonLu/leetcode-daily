@@ -1861,7 +1861,7 @@ id,title,level,slug,paid,done
 1860,Incremental Memory Leak,2,incremental-memory-leak,0,0
 1861,Rotating the Box,2,rotating-the-box,0,0
 1862,Sum of Floored Pairs,3,sum-of-floored-pairs,0,0
-1863,Sum of All Subset XOR Totals,1,sum-of-all-subset-xor-totals,0,0
+1863,Sum of All Subset XOR Totals,1,sum-of-all-subset-xor-totals,0,1
 1864,Minimum Number of Swaps to Make the Binary String Alternating,2,minimum-number-of-swaps-to-make-the-binary-string-alternating,0,0
 1865,Finding Pairs With a Certain Sum,2,finding-pairs-with-a-certain-sum,0,0
 1866,Number of Ways to Rearrange Sticks With K Sticks Visible,3,number-of-ways-to-rearrange-sticks-with-k-sticks-visible,0,0
