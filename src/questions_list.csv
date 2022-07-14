@@ -609,7 +609,7 @@ id,title,level,slug,paid,done
 608,Tree Node,2,tree-node,0,0
 609,Find Duplicate File in System,2,find-duplicate-file-in-system,0,0
 610,Triangle Judgement,1,triangle-judgement,1,0
-611,Valid Triangle Number,2,valid-triangle-number,0,0
+611,Valid Triangle Number,2,valid-triangle-number,0,1
 612,Shortest Distance in a Plane,2,shortest-distance-in-a-plane,1,0
 613,Shortest Distance in a Line,1,shortest-distance-in-a-line,1,0
 614,Second Degree Follower,2,second-degree-follower,1,0
