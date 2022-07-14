@@ -1144,7 +1144,7 @@ id,title,level,slug,paid,done
 1143,Longest Common Subsequence,2,longest-common-subsequence,0,1
 1144,Decrease Elements To Make Array Zigzag,2,decrease-elements-to-make-array-zigzag,0,0
 1145,Binary Tree Coloring Game,2,binary-tree-coloring-game,0,1
-1146,Snapshot Array,2,snapshot-array,0,0
+1146,Snapshot Array,2,snapshot-array,0,1
 1147,Longest Chunked Palindrome Decomposition,3,longest-chunked-palindrome-decomposition,0,0
 1148,Article Views I,1,article-views-i,0,0
 1149,Article Views II,2,article-views-ii,1,0
@@ -2327,7 +2327,7 @@ id,title,level,slug,paid,done
 2326,Spiral Matrix IV,2,spiral-matrix-iv,0,0
 2327,Number of People Aware of a Secret,2,number-of-people-aware-of-a-secret,0,0
 2328,Number of Increasing Paths in a Grid,3,number-of-increasing-paths-in-a-grid,0,0
-2329,Product Sales Analysis V,2,product-sales-analysis-v,1,0
+2329,Product Sales Analysis V,1,product-sales-analysis-v,1,0
 2330,Valid Palindrome IV,2,valid-palindrome-iv,1,0
 2331,Evaluate Boolean Binary Tree,1,evaluate-boolean-binary-tree,0,0
 2332,The Latest Time to Catch a Bus,2,the-latest-time-to-catch-a-bus,0,0
@@ -2337,3 +2337,5 @@ id,title,level,slug,paid,done
 2336,Smallest Number in Infinite Set,2,smallest-number-in-infinite-set,0,0
 2337,Move Pieces to Obtain a String,2,move-pieces-to-obtain-a-string,0,0
 2338,Count the Number of Ideal Arrays,3,count-the-number-of-ideal-arrays,0,0
+2339,All the Matches of the League,1,all-the-matches-of-the-league,1,0
+2340,Minimum Adjacent Swaps to Make a Valid Array,2,minimum-adjacent-swaps-to-make-a-valid-array,1,0
