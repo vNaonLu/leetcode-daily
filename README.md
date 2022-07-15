@@ -681,7 +681,7 @@ My daily challenge on leetcode since 2021/09/06.
 ||655|[Print Binary Tree](https://leetcode.com/problems/print-binary-tree/)|Medium|
 |🔒|656|[Coin Path](https://leetcode.com/problems/coin-path/)|Hard|
 ||657|[Robot Return to Origin](https://leetcode.com/problems/robot-return-to-origin/)|Easy|
-||658|[Find K Closest Elements](https://leetcode.com/problems/find-k-closest-elements/)|Medium|
+|[📎](src/q_651_700/q0658.cc)|658|[Find K Closest Elements](https://leetcode.com/problems/find-k-closest-elements/)|Medium|
 ||659|[Split Array into Consecutive Subsequences](https://leetcode.com/problems/split-array-into-consecutive-subsequences/)|Medium|
 |🔒|660|[Remove 9](https://leetcode.com/problems/remove-9/)|Hard|
 ||661|[Image Smoother](https://leetcode.com/problems/image-smoother/)|Easy|
@@ -2413,6 +2413,7 @@ My daily challenge on leetcode since 2021/09/06.
 
 |Time|#|</>|Question Title|Difficulty|
 |:--|--:|:-:|:--|:--|
+|2022-07-15 20:42|658|[📎](src/q_651_700/q0658.cc)|[Find K Closest Elements](https://leetcode.com/problems/find-k-closest-elements/)|Medium|
 |2022-07-14 22:39|611|[📎](src/q_601_650/q0611.cc)|[Valid Triangle Number](https://leetcode.com/problems/valid-triangle-number/)|Medium|
 |2022-07-14 18:33|1146|[📎](src/q_1101_1150/q1146.cc)|[Snapshot Array](https://leetcode.com/problems/snapshot-array/)|Medium|
 |2022-07-13 18:12|1863|[📎](src/q_1851_1900/q1863.cc)|[Sum of All Subset XOR Totals](https://leetcode.com/problems/sum-of-all-subset-xor-totals/)|Easy|
@@ -2437,13 +2438,12 @@ My daily challenge on leetcode since 2021/09/06.
 |2022-06-25 12:24|665|[📎](src/q_651_700/q0665.cc)|[Non-decreasing Array](https://leetcode.com/problems/non-decreasing-array/)|Medium|
 |2022-06-24 18:06|1364|[📎](src/q_1351_1400/q1364.cc)|[Number of Trusted Contacts of a Customer](https://leetcode.com/problems/number-of-trusted-contacts-of-a-customer/)|Medium|
 |2022-06-23 18:22|630|[📎](src/q_601_650/q0630.cc)|[Course Schedule III](https://leetcode.com/problems/course-schedule-iii/)|Hard|
-|2022-06-22 18:14|1805|[📎](src/q_1801_1850/q1805.cc)|[Number of Different Integers in a String](https://leetcode.com/problems/number-of-different-integers-in-a-string/)|Easy|
 
 ## Previous Logs
 
 |Month|Submissions|Easy|Medium|Hard|
 |:--|:--|:--|:--|:--|
-|[July_2022](./assets/July_2022.md)|16|5|9|2|
+|[July_2022](./assets/July_2022.md)|17|5|10|2|
 |[June_2022](./assets/June_2022.md)|30|8|19|3|
 |[May_2022](./assets/May_2022.md)|42|12|26|4|
 |[April_2022](./assets/April_2022.md)|56|37|19|0|
