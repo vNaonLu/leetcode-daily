@@ -1947,7 +1947,7 @@ My daily challenge on leetcode since 2021/09/06.
 |🔒|1891|[Cutting Ribbons](https://leetcode.com/problems/cutting-ribbons/)|Medium|
 |🔒|1892|[Page Recommendations II](https://leetcode.com/problems/page-recommendations-ii/)|Hard|
 ||1893|[Check if All the Integers in a Range Are Covered](https://leetcode.com/problems/check-if-all-the-integers-in-a-range-are-covered/)|Easy|
-||1894|[Find the Student that Will Replace the Chalk](https://leetcode.com/problems/find-the-student-that-will-replace-the-chalk/)|Medium|
+|[📎](src/q_1851_1900/q1894.cc)|1894|[Find the Student that Will Replace the Chalk](https://leetcode.com/problems/find-the-student-that-will-replace-the-chalk/)|Medium|
 ||1895|[Largest Magic Square](https://leetcode.com/problems/largest-magic-square/)|Medium|
 ||1896|[Minimum Cost to Change the Final Value of Expression](https://leetcode.com/problems/minimum-cost-to-change-the-final-value-of-expression/)|Hard|
 ||1897|[Redistribute Characters to Make All Strings Equal](https://leetcode.com/problems/redistribute-characters-to-make-all-strings-equal/)|Easy|
@@ -2413,6 +2413,7 @@ My daily challenge on leetcode since 2021/09/06.
 
 |Time|#|</>|Question Title|Difficulty|
 |:--|--:|:-:|:--|:--|
+|2022-07-15 21:00|1894|[📎](src/q_1851_1900/q1894.cc)|[Find the Student that Will Replace the Chalk](https://leetcode.com/problems/find-the-student-that-will-replace-the-chalk/)|Medium|
 |2022-07-15 20:42|658|[📎](src/q_651_700/q0658.cc)|[Find K Closest Elements](https://leetcode.com/problems/find-k-closest-elements/)|Medium|
 |2022-07-14 22:39|611|[📎](src/q_601_650/q0611.cc)|[Valid Triangle Number](https://leetcode.com/problems/valid-triangle-number/)|Medium|
 |2022-07-14 18:33|1146|[📎](src/q_1101_1150/q1146.cc)|[Snapshot Array](https://leetcode.com/problems/snapshot-array/)|Medium|
@@ -2437,13 +2438,12 @@ My daily challenge on leetcode since 2021/09/06.
 |2022-06-26 14:36|1423|[📎](src/q_1401_1450/q1423.cc)|[Maximum Points You Can Obtain from Cards](https://leetcode.com/problems/maximum-points-you-can-obtain-from-cards/)|Medium|
 |2022-06-25 12:24|665|[📎](src/q_651_700/q0665.cc)|[Non-decreasing Array](https://leetcode.com/problems/non-decreasing-array/)|Medium|
 |2022-06-24 18:06|1364|[📎](src/q_1351_1400/q1364.cc)|[Number of Trusted Contacts of a Customer](https://leetcode.com/problems/number-of-trusted-contacts-of-a-customer/)|Medium|
-|2022-06-23 18:22|630|[📎](src/q_601_650/q0630.cc)|[Course Schedule III](https://leetcode.com/problems/course-schedule-iii/)|Hard|
 
 ## Previous Logs
 
 |Month|Submissions|Easy|Medium|Hard|
 |:--|:--|:--|:--|:--|
-|[July_2022](./assets/July_2022.md)|17|5|10|2|
+|[July_2022](./assets/July_2022.md)|18|5|11|2|
 |[June_2022](./assets/June_2022.md)|30|8|19|3|
 |[May_2022](./assets/May_2022.md)|42|12|26|4|
 |[April_2022](./assets/April_2022.md)|56|37|19|0|

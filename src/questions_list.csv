@@ -1892,7 +1892,7 @@ id,title,level,slug,paid,done
 1891,Cutting Ribbons,2,cutting-ribbons,1,0
 1892,Page Recommendations II,3,page-recommendations-ii,1,0
 1893,Check if All the Integers in a Range Are Covered,1,check-if-all-the-integers-in-a-range-are-covered,0,0
-1894,Find the Student that Will Replace the Chalk,2,find-the-student-that-will-replace-the-chalk,0,0
+1894,Find the Student that Will Replace the Chalk,2,find-the-student-that-will-replace-the-chalk,0,1
 1895,Largest Magic Square,2,largest-magic-square,0,0
 1896,Minimum Cost to Change the Final Value of Expression,3,minimum-cost-to-change-the-final-value-of-expression,0,0
 1897,Redistribute Characters to Make All Strings Equal,1,redistribute-characters-to-make-all-strings-equal,0,0
