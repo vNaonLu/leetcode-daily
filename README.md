@@ -599,7 +599,7 @@ My daily challenge on leetcode since 2021/09/06.
 |🔒|573|[Squirrel Simulation](https://leetcode.com/problems/squirrel-simulation/)|Medium|
 |🔒|574|[Winning Candidate](https://leetcode.com/problems/winning-candidate/)|Medium|
 ||575|[Distribute Candies](https://leetcode.com/problems/distribute-candies/)|Easy|
-||576|[Out of Boundary Paths](https://leetcode.com/problems/out-of-boundary-paths/)|Medium|
+|[📎](src/q_551_600/q0576.cc)|576|[Out of Boundary Paths](https://leetcode.com/problems/out-of-boundary-paths/)|Medium|
 |🔒|577|[Employee Bonus](https://leetcode.com/problems/employee-bonus/)|Easy|
 |🔒|578|[Get Highest Answer Rate Question](https://leetcode.com/problems/get-highest-answer-rate-question/)|Medium|
 |🔒|579|[Find Cumulative Salary of an Employee](https://leetcode.com/problems/find-cumulative-salary-of-an-employee/)|Hard|
@@ -2413,6 +2413,7 @@ My daily challenge on leetcode since 2021/09/06.
 
 |Time|#|</>|Question Title|Difficulty|
 |:--|--:|:-:|:--|:--|
+|2022-07-16 14:38|576|[📎](src/q_551_600/q0576.cc)|[Out of Boundary Paths](https://leetcode.com/problems/out-of-boundary-paths/)|Medium|
 |2022-07-15 21:00|1894|[📎](src/q_1851_1900/q1894.cc)|[Find the Student that Will Replace the Chalk](https://leetcode.com/problems/find-the-student-that-will-replace-the-chalk/)|Medium|
 |2022-07-15 20:42|658|[📎](src/q_651_700/q0658.cc)|[Find K Closest Elements](https://leetcode.com/problems/find-k-closest-elements/)|Medium|
 |2022-07-14 22:39|611|[📎](src/q_601_650/q0611.cc)|[Valid Triangle Number](https://leetcode.com/problems/valid-triangle-number/)|Medium|
@@ -2437,13 +2438,12 @@ My daily challenge on leetcode since 2021/09/06.
 |2022-06-27 18:08|1689|[📎](src/q_1651_1700/q1689.cc)|[Partitioning Into Minimum Number Of Deci-Binary Numbers](https://leetcode.com/problems/partitioning-into-minimum-number-of-deci-binary-numbers/)|Medium|
 |2022-06-26 14:36|1423|[📎](src/q_1401_1450/q1423.cc)|[Maximum Points You Can Obtain from Cards](https://leetcode.com/problems/maximum-points-you-can-obtain-from-cards/)|Medium|
 |2022-06-25 12:24|665|[📎](src/q_651_700/q0665.cc)|[Non-decreasing Array](https://leetcode.com/problems/non-decreasing-array/)|Medium|
-|2022-06-24 18:06|1364|[📎](src/q_1351_1400/q1364.cc)|[Number of Trusted Contacts of a Customer](https://leetcode.com/problems/number-of-trusted-contacts-of-a-customer/)|Medium|
 
 ## Previous Logs
 
 |Month|Submissions|Easy|Medium|Hard|
 |:--|:--|:--|:--|:--|
-|[July_2022](./assets/July_2022.md)|18|5|11|2|
+|[July_2022](./assets/July_2022.md)|19|5|12|2|
 |[June_2022](./assets/June_2022.md)|30|8|19|3|
 |[May_2022](./assets/May_2022.md)|42|12|26|4|
 |[April_2022](./assets/April_2022.md)|56|37|19|0|

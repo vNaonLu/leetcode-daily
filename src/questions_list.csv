@@ -574,7 +574,7 @@ id,title,level,slug,paid,done
 573,Squirrel Simulation,2,squirrel-simulation,1,0
 574,Winning Candidate,2,winning-candidate,1,0
 575,Distribute Candies,1,distribute-candies,0,0
-576,Out of Boundary Paths,2,out-of-boundary-paths,0,0
+576,Out of Boundary Paths,2,out-of-boundary-paths,0,1
 577,Employee Bonus,1,employee-bonus,1,0
 578,Get Highest Answer Rate Question,2,get-highest-answer-rate-question,1,0
 579,Find Cumulative Salary of an Employee,3,find-cumulative-salary-of-an-employee,1,0
