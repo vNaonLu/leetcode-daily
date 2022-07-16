@@ -1758,7 +1758,7 @@ id,title,level,slug,paid,done
 1757,Recyclable and Low Fat Products,1,recyclable-and-low-fat-products,0,0
 1758,Minimum Changes To Make Alternating Binary String,1,minimum-changes-to-make-alternating-binary-string,0,0
 1759,Count Number of Homogenous Substrings,2,count-number-of-homogenous-substrings,0,0
-1760,Minimum Limit of Balls in a Bag,2,minimum-limit-of-balls-in-a-bag,0,0
+1760,Minimum Limit of Balls in a Bag,2,minimum-limit-of-balls-in-a-bag,0,1
 1761,Minimum Degree of a Connected Trio in a Graph,3,minimum-degree-of-a-connected-trio-in-a-graph,0,0
 1762,Buildings With an Ocean View,2,buildings-with-an-ocean-view,1,0
 1763,Longest Nice Substring,1,longest-nice-substring,0,0

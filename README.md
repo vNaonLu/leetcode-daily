@@ -1813,7 +1813,7 @@ My daily challenge on leetcode since 2021/09/06.
 ||1757|[Recyclable and Low Fat Products](https://leetcode.com/problems/recyclable-and-low-fat-products/)|Easy|
 ||1758|[Minimum Changes To Make Alternating Binary String](https://leetcode.com/problems/minimum-changes-to-make-alternating-binary-string/)|Easy|
 ||1759|[Count Number of Homogenous Substrings](https://leetcode.com/problems/count-number-of-homogenous-substrings/)|Medium|
-||1760|[Minimum Limit of Balls in a Bag](https://leetcode.com/problems/minimum-limit-of-balls-in-a-bag/)|Medium|
+|[📎](src/q_1751_1800/q1760.cc)|1760|[Minimum Limit of Balls in a Bag](https://leetcode.com/problems/minimum-limit-of-balls-in-a-bag/)|Medium|
 ||1761|[Minimum Degree of a Connected Trio in a Graph](https://leetcode.com/problems/minimum-degree-of-a-connected-trio-in-a-graph/)|Hard|
 |🔒|1762|[Buildings With an Ocean View](https://leetcode.com/problems/buildings-with-an-ocean-view/)|Medium|
 ||1763|[Longest Nice Substring](https://leetcode.com/problems/longest-nice-substring/)|Easy|
@@ -2413,6 +2413,7 @@ My daily challenge on leetcode since 2021/09/06.
 
 |Time|#|</>|Question Title|Difficulty|
 |:--|--:|:-:|:--|:--|
+|2022-07-16 15:15|1760|[📎](src/q_1751_1800/q1760.cc)|[Minimum Limit of Balls in a Bag](https://leetcode.com/problems/minimum-limit-of-balls-in-a-bag/)|Medium|
 |2022-07-16 14:38|576|[📎](src/q_551_600/q0576.cc)|[Out of Boundary Paths](https://leetcode.com/problems/out-of-boundary-paths/)|Medium|
 |2022-07-15 21:00|1894|[📎](src/q_1851_1900/q1894.cc)|[Find the Student that Will Replace the Chalk](https://leetcode.com/problems/find-the-student-that-will-replace-the-chalk/)|Medium|
 |2022-07-15 20:42|658|[📎](src/q_651_700/q0658.cc)|[Find K Closest Elements](https://leetcode.com/problems/find-k-closest-elements/)|Medium|
@@ -2437,13 +2438,12 @@ My daily challenge on leetcode since 2021/09/06.
 |2022-06-28 18:08|1647|[📎](src/q_1601_1650/q1647.cc)|[Minimum Deletions to Make Character Frequencies Unique](https://leetcode.com/problems/minimum-deletions-to-make-character-frequencies-unique/)|Medium|
 |2022-06-27 18:08|1689|[📎](src/q_1651_1700/q1689.cc)|[Partitioning Into Minimum Number Of Deci-Binary Numbers](https://leetcode.com/problems/partitioning-into-minimum-number-of-deci-binary-numbers/)|Medium|
 |2022-06-26 14:36|1423|[📎](src/q_1401_1450/q1423.cc)|[Maximum Points You Can Obtain from Cards](https://leetcode.com/problems/maximum-points-you-can-obtain-from-cards/)|Medium|
-|2022-06-25 12:24|665|[📎](src/q_651_700/q0665.cc)|[Non-decreasing Array](https://leetcode.com/problems/non-decreasing-array/)|Medium|
 
 ## Previous Logs
 
 |Month|Submissions|Easy|Medium|Hard|
 |:--|:--|:--|:--|:--|
-|[July_2022](./assets/July_2022.md)|19|5|12|2|
+|[July_2022](./assets/July_2022.md)|20|5|13|2|
 |[June_2022](./assets/June_2022.md)|30|8|19|3|
 |[May_2022](./assets/May_2022.md)|42|12|26|4|
 |[April_2022](./assets/April_2022.md)|56|37|19|0|
