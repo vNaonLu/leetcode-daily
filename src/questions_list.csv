@@ -471,7 +471,7 @@ id,title,level,slug,paid,done
 470,Implement Rand10() Using Rand7(),2,implement-rand10-using-rand7,0,0
 471,Encode String with Shortest Length,3,encode-string-with-shortest-length,1,0
 472,Concatenated Words,3,concatenated-words,0,0
-473,Matchsticks to Square,2,matchsticks-to-square,0,0
+473,Matchsticks to Square,2,matchsticks-to-square,0,1
 474,Ones and Zeroes,2,ones-and-zeroes,0,1
 475,Heaters,2,heaters,0,0
 476,Number Complement,1,number-complement,0,1
@@ -574,7 +574,7 @@ id,title,level,slug,paid,done
 573,Squirrel Simulation,2,squirrel-simulation,1,0
 574,Winning Candidate,2,winning-candidate,1,0
 575,Distribute Candies,1,distribute-candies,0,0
-576,Out of Boundary Paths,2,out-of-boundary-paths,0,0
+576,Out of Boundary Paths,2,out-of-boundary-paths,0,1
 577,Employee Bonus,1,employee-bonus,1,0
 578,Get Highest Answer Rate Question,2,get-highest-answer-rate-question,1,0
 579,Find Cumulative Salary of an Employee,3,find-cumulative-salary-of-an-employee,1,0
@@ -609,7 +609,7 @@ id,title,level,slug,paid,done
 608,Tree Node,2,tree-node,0,0
 609,Find Duplicate File in System,2,find-duplicate-file-in-system,0,0
 610,Triangle Judgement,1,triangle-judgement,1,0
-611,Valid Triangle Number,2,valid-triangle-number,0,0
+611,Valid Triangle Number,2,valid-triangle-number,0,1
 612,Shortest Distance in a Plane,2,shortest-distance-in-a-plane,1,0
 613,Shortest Distance in a Line,1,shortest-distance-in-a-line,1,0
 614,Second Degree Follower,2,second-degree-follower,1,0
@@ -656,7 +656,7 @@ id,title,level,slug,paid,done
 655,Print Binary Tree,2,print-binary-tree,0,0
 656,Coin Path,3,coin-path,1,0
 657,Robot Return to Origin,1,robot-return-to-origin,0,0
-658,Find K Closest Elements,2,find-k-closest-elements,0,0
+658,Find K Closest Elements,2,find-k-closest-elements,0,1
 659,Split Array into Consecutive Subsequences,2,split-array-into-consecutive-subsequences,0,0
 660,Remove 9,3,remove-9,1,0
 661,Image Smoother,1,image-smoother,0,0
@@ -828,7 +828,7 @@ id,title,level,slug,paid,done
 827,Making A Large Island,3,making-a-large-island,0,0
 828,Count Unique Characters of All Substrings of a Given String,3,count-unique-characters-of-all-substrings-of-a-given-string,0,0
 829,Consecutive Numbers Sum,3,consecutive-numbers-sum,0,0
-830,Positions of Large Groups,1,positions-of-large-groups,0,0
+830,Positions of Large Groups,1,positions-of-large-groups,0,1
 831,Masking Personal Information,2,masking-personal-information,0,0
 832,Flipping an Image,1,flipping-an-image,0,0
 833,Find And Replace in String,2,find-and-replace-in-string,0,0
@@ -935,7 +935,7 @@ id,title,level,slug,paid,done
 934,Shortest Bridge,2,shortest-bridge,0,1
 935,Knight Dialer,2,knight-dialer,0,0
 936,Stamping The Sequence,3,stamping-the-sequence,0,0
-937,Reorder Data in Log Files,1,reorder-data-in-log-files,0,0
+937,Reorder Data in Log Files,2,reorder-data-in-log-files,0,0
 938,Range Sum of BST,1,range-sum-of-bst,0,1
 939,Minimum Area Rectangle,2,minimum-area-rectangle,0,0
 940,Distinct Subsequences II,3,distinct-subsequences-ii,0,0
@@ -1144,7 +1144,7 @@ id,title,level,slug,paid,done
 1143,Longest Common Subsequence,2,longest-common-subsequence,0,1
 1144,Decrease Elements To Make Array Zigzag,2,decrease-elements-to-make-array-zigzag,0,0
 1145,Binary Tree Coloring Game,2,binary-tree-coloring-game,0,1
-1146,Snapshot Array,2,snapshot-array,0,0
+1146,Snapshot Array,2,snapshot-array,0,1
 1147,Longest Chunked Palindrome Decomposition,3,longest-chunked-palindrome-decomposition,0,0
 1148,Article Views I,1,article-views-i,0,0
 1149,Article Views II,2,article-views-ii,1,0
@@ -1758,7 +1758,7 @@ id,title,level,slug,paid,done
 1757,Recyclable and Low Fat Products,1,recyclable-and-low-fat-products,0,0
 1758,Minimum Changes To Make Alternating Binary String,1,minimum-changes-to-make-alternating-binary-string,0,0
 1759,Count Number of Homogenous Substrings,2,count-number-of-homogenous-substrings,0,0
-1760,Minimum Limit of Balls in a Bag,2,minimum-limit-of-balls-in-a-bag,0,0
+1760,Minimum Limit of Balls in a Bag,2,minimum-limit-of-balls-in-a-bag,0,1
 1761,Minimum Degree of a Connected Trio in a Graph,3,minimum-degree-of-a-connected-trio-in-a-graph,0,0
 1762,Buildings With an Ocean View,2,buildings-with-an-ocean-view,1,0
 1763,Longest Nice Substring,1,longest-nice-substring,0,0
@@ -1861,7 +1861,7 @@ id,title,level,slug,paid,done
 1860,Incremental Memory Leak,2,incremental-memory-leak,0,0
 1861,Rotating the Box,2,rotating-the-box,0,0
 1862,Sum of Floored Pairs,3,sum-of-floored-pairs,0,0
-1863,Sum of All Subset XOR Totals,1,sum-of-all-subset-xor-totals,0,0
+1863,Sum of All Subset XOR Totals,1,sum-of-all-subset-xor-totals,0,1
 1864,Minimum Number of Swaps to Make the Binary String Alternating,2,minimum-number-of-swaps-to-make-the-binary-string-alternating,0,0
 1865,Finding Pairs With a Certain Sum,2,finding-pairs-with-a-certain-sum,0,0
 1866,Number of Ways to Rearrange Sticks With K Sticks Visible,3,number-of-ways-to-rearrange-sticks-with-k-sticks-visible,0,0
@@ -1892,7 +1892,7 @@ id,title,level,slug,paid,done
 1891,Cutting Ribbons,2,cutting-ribbons,1,0
 1892,Page Recommendations II,3,page-recommendations-ii,1,0
 1893,Check if All the Integers in a Range Are Covered,1,check-if-all-the-integers-in-a-range-are-covered,0,0
-1894,Find the Student that Will Replace the Chalk,2,find-the-student-that-will-replace-the-chalk,0,0
+1894,Find the Student that Will Replace the Chalk,2,find-the-student-that-will-replace-the-chalk,0,1
 1895,Largest Magic Square,2,largest-magic-square,0,0
 1896,Minimum Cost to Change the Final Value of Expression,3,minimum-cost-to-change-the-final-value-of-expression,0,0
 1897,Redistribute Characters to Make All Strings Equal,1,redistribute-characters-to-make-all-strings-equal,0,0
@@ -1965,7 +1965,7 @@ id,title,level,slug,paid,done
 1964,Find the Longest Valid Obstacle Course at Each Position,3,find-the-longest-valid-obstacle-course-at-each-position,0,0
 1965,Employees With Missing Information,1,employees-with-missing-information,0,0
 1966,Binary Searchable Numbers in an Unsorted Array,2,binary-searchable-numbers-in-an-unsorted-array,1,0
-1967,Number of Strings That Appear as Substrings in Word,1,number-of-strings-that-appear-as-substrings-in-word,0,0
+1967,Number of Strings That Appear as Substrings in Word,1,number-of-strings-that-appear-as-substrings-in-word,0,1
 1968,Array With Elements Not Equal to Average of Neighbors,2,array-with-elements-not-equal-to-average-of-neighbors,0,1
 1969,Minimum Non-Zero Product of the Array Elements,2,minimum-non-zero-product-of-the-array-elements,0,0
 1970,Last Day Where You Can Still Cross,3,last-day-where-you-can-still-cross,0,0
@@ -2272,7 +2272,7 @@ id,title,level,slug,paid,done
 2271,Maximum White Tiles Covered by a Carpet,2,maximum-white-tiles-covered-by-a-carpet,0,0
 2272,Substring With Largest Variance,3,substring-with-largest-variance,0,0
 2273,Find Resultant Array After Removing Anagrams,1,find-resultant-array-after-removing-anagrams,0,0
-2274,Maximum Consecutive Floors Without Special Floors,2,maximum-consecutive-floors-without-special-floors,0,0
+2274,Maximum Consecutive Floors Without Special Floors,2,maximum-consecutive-floors-without-special-floors,0,1
 2275,Largest Combination With Bitwise AND Greater Than Zero,2,largest-combination-with-bitwise-and-greater-than-zero,0,0
 2276,Count Integers in Intervals,3,count-integers-in-intervals,0,0
 2277,Closest Node to Path in Tree,3,closest-node-to-path-in-tree,1,0
@@ -2327,5 +2327,15 @@ id,title,level,slug,paid,done
 2326,Spiral Matrix IV,2,spiral-matrix-iv,0,0
 2327,Number of People Aware of a Secret,2,number-of-people-aware-of-a-secret,0,0
 2328,Number of Increasing Paths in a Grid,3,number-of-increasing-paths-in-a-grid,0,0
-2329,Product Sales Analysis V,2,product-sales-analysis-v,1,0
+2329,Product Sales Analysis V,1,product-sales-analysis-v,1,0
 2330,Valid Palindrome IV,2,valid-palindrome-iv,1,0
+2331,Evaluate Boolean Binary Tree,1,evaluate-boolean-binary-tree,0,0
+2332,The Latest Time to Catch a Bus,2,the-latest-time-to-catch-a-bus,0,0
+2333,Minimum Sum of Squared Difference,2,minimum-sum-of-squared-difference,0,0
+2334,Subarray With Elements Greater Than Varying Threshold,3,subarray-with-elements-greater-than-varying-threshold,0,0
+2335,Minimum Amount of Time to Fill Cups,1,minimum-amount-of-time-to-fill-cups,0,0
+2336,Smallest Number in Infinite Set,2,smallest-number-in-infinite-set,0,0
+2337,Move Pieces to Obtain a String,2,move-pieces-to-obtain-a-string,0,0
+2338,Count the Number of Ideal Arrays,3,count-the-number-of-ideal-arrays,0,0
+2339,All the Matches of the League,1,all-the-matches-of-the-league,1,0
+2340,Minimum Adjacent Swaps to Make a Valid Array,2,minimum-adjacent-swaps-to-make-a-valid-array,1,0
