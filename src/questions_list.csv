@@ -1550,7 +1550,7 @@ id,title,level,slug,paid,done
 1549,The Most Recent Orders for Each Product,2,the-most-recent-orders-for-each-product,1,0
 1550,Three Consecutive Odds,1,three-consecutive-odds,0,0
 1551,Minimum Operations to Make Array Equal,2,minimum-operations-to-make-array-equal,0,0
-1552,Magnetic Force Between Two Balls,2,magnetic-force-between-two-balls,0,0
+1552,Magnetic Force Between Two Balls,2,magnetic-force-between-two-balls,0,1
 1553,Minimum Number of Days to Eat N Oranges,3,minimum-number-of-days-to-eat-n-oranges,0,0
 1554,Strings Differ by One Character,2,strings-differ-by-one-character,1,0
 1555,Bank Account Summary,2,bank-account-summary,1,0
