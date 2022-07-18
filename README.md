@@ -1109,7 +1109,7 @@ My daily challenge on leetcode since 2021/09/06.
 ||1071|[Greatest Common Divisor of Strings](https://leetcode.com/problems/greatest-common-divisor-of-strings/)|Easy|
 ||1072|[Flip Columns For Maximum Number of Equal Rows](https://leetcode.com/problems/flip-columns-for-maximum-number-of-equal-rows/)|Medium|
 ||1073|[Adding Two Negabinary Numbers](https://leetcode.com/problems/adding-two-negabinary-numbers/)|Medium|
-||1074|[Number of Submatrices That Sum to Target](https://leetcode.com/problems/number-of-submatrices-that-sum-to-target/)|Hard|
+|[📎](src/q_1051_1100/q1074.cc)|1074|[Number of Submatrices That Sum to Target](https://leetcode.com/problems/number-of-submatrices-that-sum-to-target/)|Hard|
 |🔒|1075|[Project Employees I](https://leetcode.com/problems/project-employees-i/)|Easy|
 |🔒|1076|[Project Employees II](https://leetcode.com/problems/project-employees-ii/)|Easy|
 |🔒|1077|[Project Employees III](https://leetcode.com/problems/project-employees-iii/)|Medium|
@@ -2312,7 +2312,7 @@ My daily challenge on leetcode since 2021/09/06.
 ||2250|[Count Number of Rectangles Containing Each Point](https://leetcode.com/problems/count-number-of-rectangles-containing-each-point/)|Medium|
 </details>
 <details>
-  <summary>### 2251 ~ 2340</summary>
+  <summary>### 2251 ~ 2344</summary>
 
 |</>|#|Solution Title|Difficulty|
 |:-:|--:|:--|:--|
@@ -2406,6 +2406,10 @@ My daily challenge on leetcode since 2021/09/06.
 ||2338|[Count the Number of Ideal Arrays](https://leetcode.com/problems/count-the-number-of-ideal-arrays/)|Hard|
 |🔒|2339|[All the Matches of the League](https://leetcode.com/problems/all-the-matches-of-the-league/)|Easy|
 |🔒|2340|[Minimum Adjacent Swaps to Make a Valid Array](https://leetcode.com/problems/minimum-adjacent-swaps-to-make-a-valid-array/)|Medium|
+||2341|[Maximum Number of Pairs in Array](https://leetcode.com/problems/maximum-number-of-pairs-in-array/)|Easy|
+||2342|[Max Sum of a Pair With Equal Sum of Digits](https://leetcode.com/problems/max-sum-of-a-pair-with-equal-sum-of-digits/)|Medium|
+||2343|[Query Kth Smallest Trimmed Number](https://leetcode.com/problems/query-kth-smallest-trimmed-number/)|Medium|
+||2344|[Minimum Deletions to Make Array Divisible](https://leetcode.com/problems/minimum-deletions-to-make-array-divisible/)|Hard|
 </details>
 
 ---
@@ -2413,6 +2417,7 @@ My daily challenge on leetcode since 2021/09/06.
 
 |Time|#|</>|Question Title|Difficulty|
 |:--|--:|:-:|:--|:--|
+|2022-07-18 18:36|1074|[📎](src/q_1051_1100/q1074.cc)|[Number of Submatrices That Sum to Target](https://leetcode.com/problems/number-of-submatrices-that-sum-to-target/)|Hard|
 |2022-07-17 14:37|1552|[📎](src/q_1551_1600/q1552.cc)|[Magnetic Force Between Two Balls](https://leetcode.com/problems/magnetic-force-between-two-balls/)|Medium|
 |2022-07-17 14:25|629|[📎](src/q_601_650/q0629.cc)|[K Inverse Pairs Array](https://leetcode.com/problems/k-inverse-pairs-array/)|Hard|
 |2022-07-16 15:15|1760|[📎](src/q_1751_1800/q1760.cc)|[Minimum Limit of Balls in a Bag](https://leetcode.com/problems/minimum-limit-of-balls-in-a-bag/)|Medium|
@@ -2437,13 +2442,12 @@ My daily challenge on leetcode since 2021/09/06.
 |2022-07-01 18:20|1710|[📎](src/q_1701_1750/q1710.cc)|[Maximum Units on a Truck](https://leetcode.com/problems/maximum-units-on-a-truck/)|Easy|
 |2022-06-30 12:01|462|[📎](src/q_451_500/q0462.cc)|[Minimum Moves to Equal Array Elements II](https://leetcode.com/problems/minimum-moves-to-equal-array-elements-ii/)|Medium|
 |2022-06-29 18:37|406|[📎](src/q_401_450/q0406.cc)|[Queue Reconstruction by Height](https://leetcode.com/problems/queue-reconstruction-by-height/)|Medium|
-|2022-06-28 18:08|1647|[📎](src/q_1601_1650/q1647.cc)|[Minimum Deletions to Make Character Frequencies Unique](https://leetcode.com/problems/minimum-deletions-to-make-character-frequencies-unique/)|Medium|
 
 ## Previous Logs
 
 |Month|Submissions|Easy|Medium|Hard|
 |:--|:--|:--|:--|:--|
-|[July_2022](./assets/July_2022.md)|22|5|14|3|
+|[July_2022](./assets/July_2022.md)|23|5|14|4|
 |[June_2022](./assets/June_2022.md)|30|8|19|3|
 |[May_2022](./assets/May_2022.md)|42|12|26|4|
 |[April_2022](./assets/April_2022.md)|56|37|19|0|
