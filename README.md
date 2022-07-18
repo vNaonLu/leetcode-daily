@@ -1324,7 +1324,7 @@ My daily challenge on leetcode since 2021/09/06.
 |🔒|1280|[Students and Examinations](https://leetcode.com/problems/students-and-examinations/)|Easy|
 |[📎](src/q_1251_1300/q1281.cc)|1281|[Subtract the Product and Sum of Digits of an Integer](https://leetcode.com/problems/subtract-the-product-and-sum-of-digits-of-an-integer/)|Easy|
 ||1282|[Group the People Given the Group Size They Belong To](https://leetcode.com/problems/group-the-people-given-the-group-size-they-belong-to/)|Medium|
-||1283|[Find the Smallest Divisor Given a Threshold](https://leetcode.com/problems/find-the-smallest-divisor-given-a-threshold/)|Medium|
+|[📎](src/q_1251_1300/q1283.cc)|1283|[Find the Smallest Divisor Given a Threshold](https://leetcode.com/problems/find-the-smallest-divisor-given-a-threshold/)|Medium|
 ||1284|[Minimum Number of Flips to Convert Binary Matrix to Zero Matrix](https://leetcode.com/problems/minimum-number-of-flips-to-convert-binary-matrix-to-zero-matrix/)|Hard|
 |🔒|1285|[Find the Start and End Number of Continuous Ranges](https://leetcode.com/problems/find-the-start-and-end-number-of-continuous-ranges/)|Medium|
 |[📎](src/q_1251_1300/q1286.cc)|1286|[Iterator for Combination](https://leetcode.com/problems/iterator-for-combination/)|Medium|
@@ -2417,6 +2417,7 @@ My daily challenge on leetcode since 2021/09/06.
 
 |Time|#|</>|Question Title|Difficulty|
 |:--|--:|:-:|:--|:--|
+|2022-07-18 18:54|1283|[📎](src/q_1251_1300/q1283.cc)|[Find the Smallest Divisor Given a Threshold](https://leetcode.com/problems/find-the-smallest-divisor-given-a-threshold/)|Medium|
 |2022-07-18 18:36|1074|[📎](src/q_1051_1100/q1074.cc)|[Number of Submatrices That Sum to Target](https://leetcode.com/problems/number-of-submatrices-that-sum-to-target/)|Hard|
 |2022-07-17 14:37|1552|[📎](src/q_1551_1600/q1552.cc)|[Magnetic Force Between Two Balls](https://leetcode.com/problems/magnetic-force-between-two-balls/)|Medium|
 |2022-07-17 14:25|629|[📎](src/q_601_650/q0629.cc)|[K Inverse Pairs Array](https://leetcode.com/problems/k-inverse-pairs-array/)|Hard|
@@ -2441,13 +2442,12 @@ My daily challenge on leetcode since 2021/09/06.
 |2022-07-02 13:25|1465|[📎](src/q_1451_1500/q1465.cc)|[Maximum Area of a Piece of Cake After Horizontal and Vertical Cuts](https://leetcode.com/problems/maximum-area-of-a-piece-of-cake-after-horizontal-and-vertical-cuts/)|Medium|
 |2022-07-01 18:20|1710|[📎](src/q_1701_1750/q1710.cc)|[Maximum Units on a Truck](https://leetcode.com/problems/maximum-units-on-a-truck/)|Easy|
 |2022-06-30 12:01|462|[📎](src/q_451_500/q0462.cc)|[Minimum Moves to Equal Array Elements II](https://leetcode.com/problems/minimum-moves-to-equal-array-elements-ii/)|Medium|
-|2022-06-29 18:37|406|[📎](src/q_401_450/q0406.cc)|[Queue Reconstruction by Height](https://leetcode.com/problems/queue-reconstruction-by-height/)|Medium|
 
 ## Previous Logs
 
 |Month|Submissions|Easy|Medium|Hard|
 |:--|:--|:--|:--|:--|
-|[July_2022](./assets/July_2022.md)|23|5|14|4|
+|[July_2022](./assets/July_2022.md)|24|5|15|4|
 |[June_2022](./assets/June_2022.md)|30|8|19|3|
 |[May_2022](./assets/May_2022.md)|42|12|26|4|
 |[April_2022](./assets/April_2022.md)|56|37|19|0|

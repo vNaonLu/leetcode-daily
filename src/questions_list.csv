@@ -1281,7 +1281,7 @@ id,title,level,slug,paid,done
 1280,Students and Examinations,1,students-and-examinations,1,0
 1281,Subtract the Product and Sum of Digits of an Integer,1,subtract-the-product-and-sum-of-digits-of-an-integer,0,1
 1282,Group the People Given the Group Size They Belong To,2,group-the-people-given-the-group-size-they-belong-to,0,0
-1283,Find the Smallest Divisor Given a Threshold,2,find-the-smallest-divisor-given-a-threshold,0,0
+1283,Find the Smallest Divisor Given a Threshold,2,find-the-smallest-divisor-given-a-threshold,0,1
 1284,Minimum Number of Flips to Convert Binary Matrix to Zero Matrix,3,minimum-number-of-flips-to-convert-binary-matrix-to-zero-matrix,0,0
 1285,Find the Start and End Number of Continuous Ranges,2,find-the-start-and-end-number-of-continuous-ranges,1,0
 1286,Iterator for Combination,2,iterator-for-combination,0,1
