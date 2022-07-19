@@ -1868,7 +1868,7 @@ id,title,level,slug,paid,done
 1867,Orders With Maximum Quantity Above Average,2,orders-with-maximum-quantity-above-average,1,0
 1868,Product of Two Run-Length Encoded Arrays,2,product-of-two-run-length-encoded-arrays,1,0
 1869,Longer Contiguous Segments of Ones than Zeros,1,longer-contiguous-segments-of-ones-than-zeros,0,0
-1870,Minimum Speed to Arrive on Time,2,minimum-speed-to-arrive-on-time,0,0
+1870,Minimum Speed to Arrive on Time,2,minimum-speed-to-arrive-on-time,0,1
 1871,Jump Game VII,2,jump-game-vii,0,0
 1872,Stone Game VIII,3,stone-game-viii,0,0
 1873,Calculate Special Bonus,1,calculate-special-bonus,0,0
