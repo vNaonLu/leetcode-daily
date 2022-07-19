@@ -1896,7 +1896,7 @@ id,title,level,slug,paid,done
 1895,Largest Magic Square,2,largest-magic-square,0,0
 1896,Minimum Cost to Change the Final Value of Expression,3,minimum-cost-to-change-the-final-value-of-expression,0,0
 1897,Redistribute Characters to Make All Strings Equal,1,redistribute-characters-to-make-all-strings-equal,0,0
-1898,Maximum Number of Removable Characters,2,maximum-number-of-removable-characters,0,0
+1898,Maximum Number of Removable Characters,2,maximum-number-of-removable-characters,0,1
 1899,Merge Triplets to Form Target Triplet,2,merge-triplets-to-form-target-triplet,0,0
 1900,The Earliest and Latest Rounds Where Players Compete,3,the-earliest-and-latest-rounds-where-players-compete,0,0
 1901,Find a Peak Element II,2,find-a-peak-element-ii,0,0
