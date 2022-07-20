@@ -1480,7 +1480,7 @@ id,title,level,slug,paid,done
 1479,Sales by Day of the Week,3,sales-by-day-of-the-week,1,0
 1480,Running Sum of 1d Array,1,running-sum-of-1d-array,0,1
 1481,Least Number of Unique Integers after K Removals,2,least-number-of-unique-integers-after-k-removals,0,0
-1482,Minimum Number of Days to Make m Bouquets,2,minimum-number-of-days-to-make-m-bouquets,0,0
+1482,Minimum Number of Days to Make m Bouquets,2,minimum-number-of-days-to-make-m-bouquets,0,1
 1483,Kth Ancestor of a Tree Node,3,kth-ancestor-of-a-tree-node,0,0
 1484,Group Sold Products By The Date,1,group-sold-products-by-the-date,0,0
 1485,Clone Binary Tree With Random Pointer,2,clone-binary-tree-with-random-pointer,1,0
