@@ -1871,7 +1871,7 @@ My daily challenge on leetcode since 2021/09/06.
 ||1815|[Maximum Number of Groups Getting Fresh Donuts](https://leetcode.com/problems/maximum-number-of-groups-getting-fresh-donuts/)|Hard|
 ||1816|[Truncate Sentence](https://leetcode.com/problems/truncate-sentence/)|Easy|
 ||1817|[Finding the Users Active Minutes](https://leetcode.com/problems/finding-the-users-active-minutes/)|Medium|
-||1818|[Minimum Absolute Sum Difference](https://leetcode.com/problems/minimum-absolute-sum-difference/)|Medium|
+|[📎](src/q_1801_1850/q1818.cc)|1818|[Minimum Absolute Sum Difference](https://leetcode.com/problems/minimum-absolute-sum-difference/)|Medium|
 ||1819|[Number of Different Subsequences GCDs](https://leetcode.com/problems/number-of-different-subsequences-gcds/)|Hard|
 |🔒|1820|[Maximum Number of Accepted Invitations](https://leetcode.com/problems/maximum-number-of-accepted-invitations/)|Medium|
 |🔒|1821|[Find Customers With Positive Revenue this Year](https://leetcode.com/problems/find-customers-with-positive-revenue-this-year/)|Easy|
@@ -2417,6 +2417,7 @@ My daily challenge on leetcode since 2021/09/06.
 
 |Time|#|</>|Question Title|Difficulty|
 |:--|--:|:-:|:--|:--|
+|2022-07-20 19:02|1818|[📎](src/q_1801_1850/q1818.cc)|[Minimum Absolute Sum Difference](https://leetcode.com/problems/minimum-absolute-sum-difference/)|Medium|
 |2022-07-20 18:38|1482|[📎](src/q_1451_1500/q1482.cc)|[Minimum Number of Days to Make m Bouquets](https://leetcode.com/problems/minimum-number-of-days-to-make-m-bouquets/)|Medium|
 |2022-07-19 12:37|1870|[📎](src/q_1851_1900/q1870.cc)|[Minimum Speed to Arrive on Time](https://leetcode.com/problems/minimum-speed-to-arrive-on-time/)|Medium|
 |2022-07-19 12:27|1898|[📎](src/q_1851_1900/q1898.cc)|[Maximum Number of Removable Characters](https://leetcode.com/problems/maximum-number-of-removable-characters/)|Medium|
@@ -2441,13 +2442,12 @@ My daily challenge on leetcode since 2021/09/06.
 |2022-07-06 18:18|640|[📎](src/q_601_650/q0640.cc)|[Solve the Equation](https://leetcode.com/problems/solve-the-equation/)|Medium|
 |2022-07-05 18:24|128|[📎](src/q_101_150/q0128.cc)|[Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence/)|Medium|
 |2022-07-04 18:16|135|[📎](src/q_101_150/q0135.cc)|[Candy](https://leetcode.com/problems/candy/)|Hard|
-|2022-07-03 14:26|1576|[📎](src/q_1551_1600/q1576.cc)|[Replace All ?'s to Avoid Consecutive Repeating Characters](https://leetcode.com/problems/replace-all-s-to-avoid-consecutive-repeating-characters/)|Easy|
 
 ## Previous Logs
 
 |Month|Submissions|Easy|Medium|Hard|
 |:--|:--|:--|:--|:--|
-|[July_2022](./assets/July_2022.md)|27|5|18|4|
+|[July_2022](./assets/July_2022.md)|28|5|19|4|
 |[June_2022](./assets/June_2022.md)|30|8|19|3|
 |[May_2022](./assets/May_2022.md)|42|12|26|4|
 |[April_2022](./assets/April_2022.md)|56|37|19|0|

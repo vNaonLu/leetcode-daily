@@ -1816,7 +1816,7 @@ id,title,level,slug,paid,done
 1815,Maximum Number of Groups Getting Fresh Donuts,3,maximum-number-of-groups-getting-fresh-donuts,0,0
 1816,Truncate Sentence,1,truncate-sentence,0,0
 1817,Finding the Users Active Minutes,2,finding-the-users-active-minutes,0,0
-1818,Minimum Absolute Sum Difference,2,minimum-absolute-sum-difference,0,0
+1818,Minimum Absolute Sum Difference,2,minimum-absolute-sum-difference,0,1
 1819,Number of Different Subsequences GCDs,3,number-of-different-subsequences-gcds,0,0
 1820,Maximum Number of Accepted Invitations,2,maximum-number-of-accepted-invitations,1,0
 1821,Find Customers With Positive Revenue this Year,1,find-customers-with-positive-revenue-this-year,1,0
