@@ -292,7 +292,7 @@ My daily challenge on leetcode since 2021/09/06.
 |🔒|272|[Closest Binary Search Tree Value II](https://leetcode.com/problems/closest-binary-search-tree-value-ii/)|Hard|
 ||273|[Integer to English Words](https://leetcode.com/problems/integer-to-english-words/)|Hard|
 ||274|[H-Index](https://leetcode.com/problems/h-index/)|Medium|
-||275|[H-Index II](https://leetcode.com/problems/h-index-ii/)|Medium|
+|[📎](src/q_251_300/q0275.cc)|275|[H-Index II](https://leetcode.com/problems/h-index-ii/)|Medium|
 |🔒|276|[Paint Fence](https://leetcode.com/problems/paint-fence/)|Medium|
 |🔒|277|[Find the Celebrity](https://leetcode.com/problems/find-the-celebrity/)|Medium|
 |[📎](src/q_251_300/q0278.cc)|278|[First Bad Version](https://leetcode.com/problems/first-bad-version/)|Easy|
@@ -2312,7 +2312,7 @@ My daily challenge on leetcode since 2021/09/06.
 ||2250|[Count Number of Rectangles Containing Each Point](https://leetcode.com/problems/count-number-of-rectangles-containing-each-point/)|Medium|
 </details>
 <details>
-  <summary>### 2251 ~ 2344</summary>
+  <summary>### 2251 ~ 2345</summary>
 
 |</>|#|Solution Title|Difficulty|
 |:-:|--:|:--|:--|
@@ -2410,6 +2410,7 @@ My daily challenge on leetcode since 2021/09/06.
 ||2342|[Max Sum of a Pair With Equal Sum of Digits](https://leetcode.com/problems/max-sum-of-a-pair-with-equal-sum-of-digits/)|Medium|
 ||2343|[Query Kth Smallest Trimmed Number](https://leetcode.com/problems/query-kth-smallest-trimmed-number/)|Medium|
 ||2344|[Minimum Deletions to Make Array Divisible](https://leetcode.com/problems/minimum-deletions-to-make-array-divisible/)|Hard|
+|🔒|2345|[Finding the Number of Visible Mountains](https://leetcode.com/problems/finding-the-number-of-visible-mountains/)|Medium|
 </details>
 
 ---
@@ -2417,6 +2418,7 @@ My daily challenge on leetcode since 2021/09/06.
 
 |Time|#|</>|Question Title|Difficulty|
 |:--|--:|:-:|:--|:--|
+|2022-07-21 19:57|275|[📎](src/q_251_300/q0275.cc)|[H-Index II](https://leetcode.com/problems/h-index-ii/)|Medium|
 |2022-07-21 01:00|792|[📎](src/q_751_800/q0792.cc)|[Number of Matching Subsequences](https://leetcode.com/problems/number-of-matching-subsequences/)|Medium|
 |2022-07-20 19:02|1818|[📎](src/q_1801_1850/q1818.cc)|[Minimum Absolute Sum Difference](https://leetcode.com/problems/minimum-absolute-sum-difference/)|Medium|
 |2022-07-20 18:38|1482|[📎](src/q_1451_1500/q1482.cc)|[Minimum Number of Days to Make m Bouquets](https://leetcode.com/problems/minimum-number-of-days-to-make-m-bouquets/)|Medium|
@@ -2441,13 +2443,12 @@ My daily challenge on leetcode since 2021/09/06.
 |2022-07-08 18:21|1473|[📎](src/q_1451_1500/q1473.cc)|[Paint House III](https://leetcode.com/problems/paint-house-iii/)|Hard|
 |2022-07-07 18:34|97|[📎](src/q_51_100/q0097.cc)|[Interleaving String](https://leetcode.com/problems/interleaving-string/)|Medium|
 |2022-07-06 18:18|640|[📎](src/q_601_650/q0640.cc)|[Solve the Equation](https://leetcode.com/problems/solve-the-equation/)|Medium|
-|2022-07-05 18:24|128|[📎](src/q_101_150/q0128.cc)|[Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence/)|Medium|
 
 ## Previous Logs
 
 |Month|Submissions|Easy|Medium|Hard|
 |:--|:--|:--|:--|:--|
-|[July_2022](./assets/July_2022.md)|29|5|20|4|
+|[July_2022](./assets/July_2022.md)|30|5|21|4|
 |[June_2022](./assets/June_2022.md)|30|8|19|3|
 |[May_2022](./assets/May_2022.md)|42|12|26|4|
 |[April_2022](./assets/April_2022.md)|56|37|19|0|

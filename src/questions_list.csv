@@ -273,7 +273,7 @@ id,title,level,slug,paid,done
 272,Closest Binary Search Tree Value II,3,closest-binary-search-tree-value-ii,1,0
 273,Integer to English Words,3,integer-to-english-words,0,0
 274,H-Index,2,h-index,0,0
-275,H-Index II,2,h-index-ii,0,0
+275,H-Index II,2,h-index-ii,0,1
 276,Paint Fence,2,paint-fence,1,0
 277,Find the Celebrity,2,find-the-celebrity,1,0
 278,First Bad Version,1,first-bad-version,0,1
@@ -2343,3 +2343,4 @@ id,title,level,slug,paid,done
 2342,Max Sum of a Pair With Equal Sum of Digits,2,max-sum-of-a-pair-with-equal-sum-of-digits,0,0
 2343,Query Kth Smallest Trimmed Number,2,query-kth-smallest-trimmed-number,0,0
 2344,Minimum Deletions to Make Array Divisible,3,minimum-deletions-to-make-array-divisible,0,0
+2345,Finding the Number of Visible Mountains,2,finding-the-number-of-visible-mountains,1,0
