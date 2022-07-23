@@ -1710,7 +1710,7 @@ id,title,level,slug,paid,done
 1709,Biggest Window Between Visits,2,biggest-window-between-visits,1,0
 1710,Maximum Units on a Truck,1,maximum-units-on-a-truck,0,1
 1711,Count Good Meals,2,count-good-meals,0,0
-1712,Ways to Split Array Into Three Subarrays,2,ways-to-split-array-into-three-subarrays,0,0
+1712,Ways to Split Array Into Three Subarrays,2,ways-to-split-array-into-three-subarrays,0,1
 1713,Minimum Operations to Make a Subsequence,3,minimum-operations-to-make-a-subsequence,0,0
 1714,Sum Of Special Evenly-Spaced Elements In Array,3,sum-of-special-evenly-spaced-elements-in-array,1,0
 1715,Count Apples and Oranges,2,count-apples-and-oranges,1,0

@@ -1759,7 +1759,7 @@ My daily challenge on leetcode since 2021/09/06.
 |🔒|1709|[Biggest Window Between Visits](https://leetcode.com/problems/biggest-window-between-visits/)|Medium|
 |[📎](src/q_1701_1750/q1710.cc)|1710|[Maximum Units on a Truck](https://leetcode.com/problems/maximum-units-on-a-truck/)|Easy|
 ||1711|[Count Good Meals](https://leetcode.com/problems/count-good-meals/)|Medium|
-||1712|[Ways to Split Array Into Three Subarrays](https://leetcode.com/problems/ways-to-split-array-into-three-subarrays/)|Medium|
+|[📎](src/q_1701_1750/q1712.cc)|1712|[Ways to Split Array Into Three Subarrays](https://leetcode.com/problems/ways-to-split-array-into-three-subarrays/)|Medium|
 ||1713|[Minimum Operations to Make a Subsequence](https://leetcode.com/problems/minimum-operations-to-make-a-subsequence/)|Hard|
 |🔒|1714|[Sum Of Special Evenly-Spaced Elements In Array](https://leetcode.com/problems/sum-of-special-evenly-spaced-elements-in-array/)|Hard|
 |🔒|1715|[Count Apples and Oranges](https://leetcode.com/problems/count-apples-and-oranges/)|Medium|
@@ -2419,6 +2419,7 @@ My daily challenge on leetcode since 2021/09/06.
 
 |Time|#|</>|Question Title|Difficulty|
 |:--|--:|:-:|:--|:--|
+|2022-07-23 17:35|1712|[📎](src/q_1701_1750/q1712.cc)|[Ways to Split Array Into Three Subarrays](https://leetcode.com/problems/ways-to-split-array-into-three-subarrays/)|Medium|
 |2022-07-22 23:34|482|[📎](src/q_451_500/q0482.cc)|[License Key Formatting](https://leetcode.com/problems/license-key-formatting/)|Easy|
 |2022-07-21 19:57|275|[📎](src/q_251_300/q0275.cc)|[H-Index II](https://leetcode.com/problems/h-index-ii/)|Medium|
 |2022-07-21 01:00|792|[📎](src/q_751_800/q0792.cc)|[Number of Matching Subsequences](https://leetcode.com/problems/number-of-matching-subsequences/)|Medium|
@@ -2443,13 +2444,12 @@ My daily challenge on leetcode since 2021/09/06.
 |2022-07-10 14:13|830|[📎](src/q_801_850/q0830.cc)|[Positions of Large Groups](https://leetcode.com/problems/positions-of-large-groups/)|Easy|
 |2022-07-09 16:44|1696|[📎](src/q_1651_1700/q1696.cc)|[Jump Game VI](https://leetcode.com/problems/jump-game-vi/)|Medium|
 |2022-07-08 18:21|1473|[📎](src/q_1451_1500/q1473.cc)|[Paint House III](https://leetcode.com/problems/paint-house-iii/)|Hard|
-|2022-07-07 18:34|97|[📎](src/q_51_100/q0097.cc)|[Interleaving String](https://leetcode.com/problems/interleaving-string/)|Medium|
 
 ## Previous Logs
 
 |Month|Submissions|Easy|Medium|Hard|
 |:--|:--|:--|:--|:--|
-|[July_2022](./assets/July_2022.md)|31|6|21|4|
+|[July_2022](./assets/July_2022.md)|32|6|22|4|
 |[June_2022](./assets/June_2022.md)|30|8|19|3|
 |[May_2022](./assets/May_2022.md)|42|12|26|4|
 |[April_2022](./assets/April_2022.md)|56|37|19|0|
