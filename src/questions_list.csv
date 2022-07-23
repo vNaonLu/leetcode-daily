@@ -273,7 +273,7 @@ id,title,level,slug,paid,done
 272,Closest Binary Search Tree Value II,3,closest-binary-search-tree-value-ii,1,0
 273,Integer to English Words,3,integer-to-english-words,0,0
 274,H-Index,2,h-index,0,0
-275,H-Index II,2,h-index-ii,0,0
+275,H-Index II,2,h-index-ii,0,1
 276,Paint Fence,2,paint-fence,1,0
 277,Find the Celebrity,2,find-the-celebrity,1,0
 278,First Bad Version,1,first-bad-version,0,1
@@ -480,7 +480,7 @@ id,title,level,slug,paid,done
 479,Largest Palindrome Product,3,largest-palindrome-product,0,0
 480,Sliding Window Median,3,sliding-window-median,0,0
 481,Magical String,2,magical-string,0,0
-482,License Key Formatting,1,license-key-formatting,0,0
+482,License Key Formatting,1,license-key-formatting,0,1
 483,Smallest Good Base,3,smallest-good-base,0,0
 484,Find Permutation,2,find-permutation,1,0
 485,Max Consecutive Ones,1,max-consecutive-ones,0,1
@@ -627,7 +627,7 @@ id,title,level,slug,paid,done
 626,Exchange Seats,2,exchange-seats,0,0
 627,Swap Salary,1,swap-salary,0,0
 628,Maximum Product of Three Numbers,1,maximum-product-of-three-numbers,0,0
-629,K Inverse Pairs Array,3,k-inverse-pairs-array,0,0
+629,K Inverse Pairs Array,3,k-inverse-pairs-array,0,1
 630,Course Schedule III,3,course-schedule-iii,0,1
 631,Design Excel Sum Formula,3,design-excel-sum-formula,1,0
 632,Smallest Range Covering Elements from K Lists,3,smallest-range-covering-elements-from-k-lists,0,0
@@ -790,7 +790,7 @@ id,title,level,slug,paid,done
 789,Escape The Ghosts,2,escape-the-ghosts,0,0
 790,Domino and Tromino Tiling,2,domino-and-tromino-tiling,0,1
 791,Custom Sort String,2,custom-sort-string,0,0
-792,Number of Matching Subsequences,2,number-of-matching-subsequences,0,0
+792,Number of Matching Subsequences,2,number-of-matching-subsequences,0,1
 793,Preimage Size of Factorial Zeroes Function,3,preimage-size-of-factorial-zeroes-function,0,0
 794,Valid Tic-Tac-Toe State,2,valid-tic-tac-toe-state,0,1
 795,Number of Subarrays with Bounded Maximum,2,number-of-subarrays-with-bounded-maximum,0,0
@@ -1072,7 +1072,7 @@ id,title,level,slug,paid,done
 1071,Greatest Common Divisor of Strings,1,greatest-common-divisor-of-strings,0,0
 1072,Flip Columns For Maximum Number of Equal Rows,2,flip-columns-for-maximum-number-of-equal-rows,0,0
 1073,Adding Two Negabinary Numbers,2,adding-two-negabinary-numbers,0,0
-1074,Number of Submatrices That Sum to Target,3,number-of-submatrices-that-sum-to-target,0,0
+1074,Number of Submatrices That Sum to Target,3,number-of-submatrices-that-sum-to-target,0,1
 1075,Project Employees I,1,project-employees-i,1,0
 1076,Project Employees II,1,project-employees-ii,1,0
 1077,Project Employees III,2,project-employees-iii,1,0
@@ -1281,7 +1281,7 @@ id,title,level,slug,paid,done
 1280,Students and Examinations,1,students-and-examinations,1,0
 1281,Subtract the Product and Sum of Digits of an Integer,1,subtract-the-product-and-sum-of-digits-of-an-integer,0,1
 1282,Group the People Given the Group Size They Belong To,2,group-the-people-given-the-group-size-they-belong-to,0,0
-1283,Find the Smallest Divisor Given a Threshold,2,find-the-smallest-divisor-given-a-threshold,0,0
+1283,Find the Smallest Divisor Given a Threshold,2,find-the-smallest-divisor-given-a-threshold,0,1
 1284,Minimum Number of Flips to Convert Binary Matrix to Zero Matrix,3,minimum-number-of-flips-to-convert-binary-matrix-to-zero-matrix,0,0
 1285,Find the Start and End Number of Continuous Ranges,2,find-the-start-and-end-number-of-continuous-ranges,1,0
 1286,Iterator for Combination,2,iterator-for-combination,0,1
@@ -1480,7 +1480,7 @@ id,title,level,slug,paid,done
 1479,Sales by Day of the Week,3,sales-by-day-of-the-week,1,0
 1480,Running Sum of 1d Array,1,running-sum-of-1d-array,0,1
 1481,Least Number of Unique Integers after K Removals,2,least-number-of-unique-integers-after-k-removals,0,0
-1482,Minimum Number of Days to Make m Bouquets,2,minimum-number-of-days-to-make-m-bouquets,0,0
+1482,Minimum Number of Days to Make m Bouquets,2,minimum-number-of-days-to-make-m-bouquets,0,1
 1483,Kth Ancestor of a Tree Node,3,kth-ancestor-of-a-tree-node,0,0
 1484,Group Sold Products By The Date,1,group-sold-products-by-the-date,0,0
 1485,Clone Binary Tree With Random Pointer,2,clone-binary-tree-with-random-pointer,1,0
@@ -1550,7 +1550,7 @@ id,title,level,slug,paid,done
 1549,The Most Recent Orders for Each Product,2,the-most-recent-orders-for-each-product,1,0
 1550,Three Consecutive Odds,1,three-consecutive-odds,0,0
 1551,Minimum Operations to Make Array Equal,2,minimum-operations-to-make-array-equal,0,0
-1552,Magnetic Force Between Two Balls,2,magnetic-force-between-two-balls,0,0
+1552,Magnetic Force Between Two Balls,2,magnetic-force-between-two-balls,0,1
 1553,Minimum Number of Days to Eat N Oranges,3,minimum-number-of-days-to-eat-n-oranges,0,0
 1554,Strings Differ by One Character,2,strings-differ-by-one-character,1,0
 1555,Bank Account Summary,2,bank-account-summary,1,0
@@ -1710,7 +1710,7 @@ id,title,level,slug,paid,done
 1709,Biggest Window Between Visits,2,biggest-window-between-visits,1,0
 1710,Maximum Units on a Truck,1,maximum-units-on-a-truck,0,1
 1711,Count Good Meals,2,count-good-meals,0,0
-1712,Ways to Split Array Into Three Subarrays,2,ways-to-split-array-into-three-subarrays,0,0
+1712,Ways to Split Array Into Three Subarrays,2,ways-to-split-array-into-three-subarrays,0,1
 1713,Minimum Operations to Make a Subsequence,3,minimum-operations-to-make-a-subsequence,0,0
 1714,Sum Of Special Evenly-Spaced Elements In Array,3,sum-of-special-evenly-spaced-elements-in-array,1,0
 1715,Count Apples and Oranges,2,count-apples-and-oranges,1,0
@@ -1816,7 +1816,7 @@ id,title,level,slug,paid,done
 1815,Maximum Number of Groups Getting Fresh Donuts,3,maximum-number-of-groups-getting-fresh-donuts,0,0
 1816,Truncate Sentence,1,truncate-sentence,0,0
 1817,Finding the Users Active Minutes,2,finding-the-users-active-minutes,0,0
-1818,Minimum Absolute Sum Difference,2,minimum-absolute-sum-difference,0,0
+1818,Minimum Absolute Sum Difference,2,minimum-absolute-sum-difference,0,1
 1819,Number of Different Subsequences GCDs,3,number-of-different-subsequences-gcds,0,0
 1820,Maximum Number of Accepted Invitations,2,maximum-number-of-accepted-invitations,1,0
 1821,Find Customers With Positive Revenue this Year,1,find-customers-with-positive-revenue-this-year,1,0
@@ -1868,7 +1868,7 @@ id,title,level,slug,paid,done
 1867,Orders With Maximum Quantity Above Average,2,orders-with-maximum-quantity-above-average,1,0
 1868,Product of Two Run-Length Encoded Arrays,2,product-of-two-run-length-encoded-arrays,1,0
 1869,Longer Contiguous Segments of Ones than Zeros,1,longer-contiguous-segments-of-ones-than-zeros,0,0
-1870,Minimum Speed to Arrive on Time,2,minimum-speed-to-arrive-on-time,0,0
+1870,Minimum Speed to Arrive on Time,2,minimum-speed-to-arrive-on-time,0,1
 1871,Jump Game VII,2,jump-game-vii,0,0
 1872,Stone Game VIII,3,stone-game-viii,0,0
 1873,Calculate Special Bonus,1,calculate-special-bonus,0,0
@@ -1896,7 +1896,7 @@ id,title,level,slug,paid,done
 1895,Largest Magic Square,2,largest-magic-square,0,0
 1896,Minimum Cost to Change the Final Value of Expression,3,minimum-cost-to-change-the-final-value-of-expression,0,0
 1897,Redistribute Characters to Make All Strings Equal,1,redistribute-characters-to-make-all-strings-equal,0,0
-1898,Maximum Number of Removable Characters,2,maximum-number-of-removable-characters,0,0
+1898,Maximum Number of Removable Characters,2,maximum-number-of-removable-characters,0,1
 1899,Merge Triplets to Form Target Triplet,2,merge-triplets-to-form-target-triplet,0,0
 1900,The Earliest and Latest Rounds Where Players Compete,3,the-earliest-and-latest-rounds-where-players-compete,0,0
 1901,Find a Peak Element II,2,find-a-peak-element-ii,0,0
@@ -2339,3 +2339,9 @@ id,title,level,slug,paid,done
 2338,Count the Number of Ideal Arrays,3,count-the-number-of-ideal-arrays,0,0
 2339,All the Matches of the League,1,all-the-matches-of-the-league,1,0
 2340,Minimum Adjacent Swaps to Make a Valid Array,2,minimum-adjacent-swaps-to-make-a-valid-array,1,0
+2341,Maximum Number of Pairs in Array,1,maximum-number-of-pairs-in-array,0,0
+2342,Max Sum of a Pair With Equal Sum of Digits,2,max-sum-of-a-pair-with-equal-sum-of-digits,0,0
+2343,Query Kth Smallest Trimmed Number,2,query-kth-smallest-trimmed-number,0,0
+2344,Minimum Deletions to Make Array Divisible,3,minimum-deletions-to-make-array-divisible,0,0
+2345,Finding the Number of Visible Mountains,2,finding-the-number-of-visible-mountains,1,0
+2346,Compute the Rank as a Percentage,1,compute-the-rank-as-a-percentage,1,0

@@ -33,11 +33,38 @@ using namespace std;
 
 struct q222 : public ::testing::Test {
   // Leetcode answer here
+  /**
+   * Definition for a binary tree node.
+   * struct TreeNode {
+   *     int val;
+   *     TreeNode *left;
+   *     TreeNode *right;
+   *     TreeNode() : val(0), left(nullptr), right(nullptr) {}
+   *     TreeNode(int x) : val(x), left(nullptr), right(nullptr) {}
+   *     TreeNode(int x, TreeNode *left, TreeNode *right) : val(x), left(left), right(right) {}
+   * };
+   */
   class Solution {
-   public:
-    int countNodes(TreeNode* root) {
-      if (root == nullptr) return 0;
-      return 1 + countNodes(root->left) + countNodes(root->right);
+  private:
+    template <typename Op>
+    int calcHeight(TreeNode *p, Op f) {
+      if (p == nullptr) {
+        return 0;
+      } else {
+        return 1 + calcHeight(f(p), f);
+      }
+    }
+
+  public:
+    int countNodes(TreeNode *root) {
+      int lh = calcHeight(root, [](TreeNode *p) { return p->left; }),
+          rh = calcHeight(root, [](TreeNode *p) { return p->right; });
+
+      if (lh == rh) {
+        return pow(2, lh) - 1;
+      } else {
+        return 1 + countNodes(root->left) + countNodes(root->right);
+      }
     }
   };
 
@@ -46,7 +73,7 @@ struct q222 : public ::testing::Test {
 
 TEST_F(q222, sample_input01) {
   solution = new Solution();
-  TreeNode* root = TreeNode::generate({1, 2, 3, 4, 5, 6});
+  TreeNode *root = TreeNode::generate({1, 2, 3, 4, 5, 6});
   int exp = 6;
   EXPECT_EQ(solution->countNodes(root), exp);
   delete solution;
@@ -54,7 +81,7 @@ TEST_F(q222, sample_input01) {
 
 TEST_F(q222, sample_input02) {
   solution = new Solution();
-  TreeNode* root = TreeNode::generate({});
+  TreeNode *root = TreeNode::generate({});
   int exp = 0;
   EXPECT_EQ(solution->countNodes(root), exp);
   delete solution;
@@ -62,7 +89,7 @@ TEST_F(q222, sample_input02) {
 
 TEST_F(q222, sample_input03) {
   solution = new Solution();
-  TreeNode* root = TreeNode::generate({1});
+  TreeNode *root = TreeNode::generate({1});
   int exp = 1;
   EXPECT_EQ(solution->countNodes(root), exp);
   delete solution;
