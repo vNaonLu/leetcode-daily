@@ -453,7 +453,7 @@ My daily challenge on leetcode since 2021/09/06.
 |[📎](src/q_401_450/q0433.cc)|433|[Minimum Genetic Mutation](https://leetcode.com/problems/minimum-genetic-mutation/)|Medium|
 ||434|[Number of Segments in a String](https://leetcode.com/problems/number-of-segments-in-a-string/)|Easy|
 |[📎](src/q_401_450/q0435.cc)|435|[Non-overlapping Intervals](https://leetcode.com/problems/non-overlapping-intervals/)|Medium|
-||436|[Find Right Interval](https://leetcode.com/problems/find-right-interval/)|Medium|
+|[📎](src/q_401_450/q0436.cc)|436|[Find Right Interval](https://leetcode.com/problems/find-right-interval/)|Medium|
 |[📎](src/q_401_450/q0437.cc)|437|[Path Sum III](https://leetcode.com/problems/path-sum-iii/)|Medium|
 |[📎](src/q_401_450/q0438.cc)|438|[Find All Anagrams in a String](https://leetcode.com/problems/find-all-anagrams-in-a-string/)|Medium|
 |🔒|439|[Ternary Expression Parser](https://leetcode.com/problems/ternary-expression-parser/)|Medium|
@@ -2423,6 +2423,7 @@ My daily challenge on leetcode since 2021/09/06.
 
 |Time|#|</>|Question Title|Difficulty|
 |:--|--:|:-:|:--|:--|
+|2022-07-24 15:12|436|[📎](src/q_401_450/q0436.cc)|[Find Right Interval](https://leetcode.com/problems/find-right-interval/)|Medium|
 |2022-07-24 14:52|826|[📎](src/q_801_850/q0826.cc)|[Most Profit Assigning Work](https://leetcode.com/problems/most-profit-assigning-work/)|Medium|
 |2022-07-23 17:35|1712|[📎](src/q_1701_1750/q1712.cc)|[Ways to Split Array Into Three Subarrays](https://leetcode.com/problems/ways-to-split-array-into-three-subarrays/)|Medium|
 |2022-07-22 23:34|482|[📎](src/q_451_500/q0482.cc)|[License Key Formatting](https://leetcode.com/problems/license-key-formatting/)|Easy|
@@ -2447,13 +2448,12 @@ My daily challenge on leetcode since 2021/09/06.
 |2022-07-11 18:42|1967|[📎](src/q_1951_2000/q1967.cc)|[Number of Strings That Appear as Substrings in Word](https://leetcode.com/problems/number-of-strings-that-appear-as-substrings-in-word/)|Easy|
 |2022-07-11 18:21|2274|[📎](src/q_2251_2300/q2274.cc)|[Maximum Consecutive Floors Without Special Floors](https://leetcode.com/problems/maximum-consecutive-floors-without-special-floors/)|Medium|
 |2022-07-10 14:13|830|[📎](src/q_801_850/q0830.cc)|[Positions of Large Groups](https://leetcode.com/problems/positions-of-large-groups/)|Easy|
-|2022-07-09 16:44|1696|[📎](src/q_1651_1700/q1696.cc)|[Jump Game VI](https://leetcode.com/problems/jump-game-vi/)|Medium|
 
 ## Previous Logs
 
 |Month|Submissions|Easy|Medium|Hard|
 |:--|:--|:--|:--|:--|
-|[July_2022](./assets/July_2022.md)|33|6|23|4|
+|[July_2022](./assets/July_2022.md)|34|6|24|4|
 |[June_2022](./assets/June_2022.md)|30|8|19|3|
 |[May_2022](./assets/May_2022.md)|42|12|26|4|
 |[April_2022](./assets/April_2022.md)|56|37|19|0|
