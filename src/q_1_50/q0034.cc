@@ -29,27 +29,40 @@ using namespace std;
 struct q34 : public ::testing::Test {
   // Leetcode answer here
   class Solution {
-   public:
-    vector<int> searchRange(vector<int>& nums, int target) {
-      vector<int> res = {-1, -1};
-      if (nums.empty()) return res;
-      int l = 0, r = nums.size() - 1;
-      int m;
-      while (l <= r) {
-        m = l + (r - l) / 2;
-        if (nums[m] == target) {
-          break;
-        } else if (nums[m] > target) {
-          r = m - 1;
-        } else {
-          l = m + 1;
+  public:
+    vector<int> searchRange(vector<int> &nums, int target) {
+      vector<int> res(2, -1);
+      auto find = lower_bound(nums.begin(), nums.end(), target);
+
+      if (find != nums.end() && *find == target) {
+        res[0] = res[1] = find - nums.begin();
+
+        int lo = 0,
+            hi = res[0];
+
+        while (lo <= hi) {
+          int mid = lo + (hi - lo) / 2;
+          if (nums[mid] != target) {
+            lo = mid + 1;
+          } else {
+            res[0] = mid;
+            hi = mid - 1;
+          }
+        }
+
+        lo = res[1];
+        hi = nums.size() - 1;
+        while (lo <= hi) {
+          int mid = lo + (hi - lo) / 2;
+          if (nums[mid] != target) {
+            hi = mid - 1;
+          } else {
+            res[1] = mid;
+            lo = mid + 1;
+          }
         }
       }
-      if (nums[m] == target) {
-        res[0] = res[1] = m;
-        while (res[0] > 0 && nums[res[0] - 1] == target) --res[0];
-        while (res[1] < nums.size() - 1 && nums[res[1] + 1] == target) ++res[1];
-      }
+
       return res;
     }
   };
