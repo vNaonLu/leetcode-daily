@@ -526,7 +526,7 @@ id,title,level,slug,paid,done
 525,Contiguous Array,2,contiguous-array,0,1
 526,Beautiful Arrangement,2,beautiful-arrangement,0,0
 527,Word Abbreviation,3,word-abbreviation,1,0
-528,Random Pick with Weight,2,random-pick-with-weight,0,0
+528,Random Pick with Weight,2,random-pick-with-weight,0,1
 529,Minesweeper,2,minesweeper,0,0
 530,Minimum Absolute Difference in BST,1,minimum-absolute-difference-in-bst,0,0
 531,Lonely Pixel I,2,lonely-pixel-i,1,0
@@ -2349,3 +2349,7 @@ id,title,level,slug,paid,done
 2348,Number of Zero-Filled Subarrays,2,number-of-zero-filled-subarrays,0,0
 2349,Design a Number Container System,2,design-a-number-container-system,0,0
 2350,Shortest Impossible Sequence of Rolls,3,shortest-impossible-sequence-of-rolls,0,0
+2351,First Letter to Appear Twice,1,first-letter-to-appear-twice,0,0
+2352,Equal Row and Column Pairs,2,equal-row-and-column-pairs,0,0
+2353,Design a Food Rating System,2,design-a-food-rating-system,0,0
+2354,Number of Excellent Pairs,3,number-of-excellent-pairs,0,0

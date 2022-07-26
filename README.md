@@ -551,7 +551,7 @@ My daily challenge on leetcode since 2021/09/06.
 |[📎](src/q_501_550/q0525.cc)|525|[Contiguous Array](https://leetcode.com/problems/contiguous-array/)|Medium|
 ||526|[Beautiful Arrangement](https://leetcode.com/problems/beautiful-arrangement/)|Medium|
 |🔒|527|[Word Abbreviation](https://leetcode.com/problems/word-abbreviation/)|Hard|
-||528|[Random Pick with Weight](https://leetcode.com/problems/random-pick-with-weight/)|Medium|
+|[📎](src/q_501_550/q0528.cc)|528|[Random Pick with Weight](https://leetcode.com/problems/random-pick-with-weight/)|Medium|
 ||529|[Minesweeper](https://leetcode.com/problems/minesweeper/)|Medium|
 ||530|[Minimum Absolute Difference in BST](https://leetcode.com/problems/minimum-absolute-difference-in-bst/)|Easy|
 |🔒|531|[Lonely Pixel I](https://leetcode.com/problems/lonely-pixel-i/)|Medium|
@@ -2312,7 +2312,7 @@ My daily challenge on leetcode since 2021/09/06.
 ||2250|[Count Number of Rectangles Containing Each Point](https://leetcode.com/problems/count-number-of-rectangles-containing-each-point/)|Medium|
 </details>
 <details>
-  <summary>### 2251 ~ 2350</summary>
+  <summary>### 2251 ~ 2354</summary>
 
 |</>|#|Solution Title|Difficulty|
 |:-:|--:|:--|:--|
@@ -2416,6 +2416,10 @@ My daily challenge on leetcode since 2021/09/06.
 ||2348|[Number of Zero-Filled Subarrays](https://leetcode.com/problems/number-of-zero-filled-subarrays/)|Medium|
 ||2349|[Design a Number Container System](https://leetcode.com/problems/design-a-number-container-system/)|Medium|
 ||2350|[Shortest Impossible Sequence of Rolls](https://leetcode.com/problems/shortest-impossible-sequence-of-rolls/)|Hard|
+||2351|[First Letter to Appear Twice](https://leetcode.com/problems/first-letter-to-appear-twice/)|Easy|
+||2352|[Equal Row and Column Pairs](https://leetcode.com/problems/equal-row-and-column-pairs/)|Medium|
+||2353|[Design a Food Rating System](https://leetcode.com/problems/design-a-food-rating-system/)|Medium|
+||2354|[Number of Excellent Pairs](https://leetcode.com/problems/number-of-excellent-pairs/)|Hard|
 </details>
 
 ---
@@ -2423,6 +2427,7 @@ My daily challenge on leetcode since 2021/09/06.
 
 |Time|#|</>|Question Title|Difficulty|
 |:--|--:|:-:|:--|:--|
+|2022-07-26 19:19|528|[📎](src/q_501_550/q0528.cc)|[Random Pick with Weight](https://leetcode.com/problems/random-pick-with-weight/)|Medium|
 |2022-07-24 15:12|436|[📎](src/q_401_450/q0436.cc)|[Find Right Interval](https://leetcode.com/problems/find-right-interval/)|Medium|
 |2022-07-24 14:52|826|[📎](src/q_801_850/q0826.cc)|[Most Profit Assigning Work](https://leetcode.com/problems/most-profit-assigning-work/)|Medium|
 |2022-07-23 17:35|1712|[📎](src/q_1701_1750/q1712.cc)|[Ways to Split Array Into Three Subarrays](https://leetcode.com/problems/ways-to-split-array-into-three-subarrays/)|Medium|
@@ -2447,13 +2452,12 @@ My daily challenge on leetcode since 2021/09/06.
 |2022-07-12 13:10|473|[📎](src/q_451_500/q0473.cc)|[Matchsticks to Square](https://leetcode.com/problems/matchsticks-to-square/)|Medium|
 |2022-07-11 18:42|1967|[📎](src/q_1951_2000/q1967.cc)|[Number of Strings That Appear as Substrings in Word](https://leetcode.com/problems/number-of-strings-that-appear-as-substrings-in-word/)|Easy|
 |2022-07-11 18:21|2274|[📎](src/q_2251_2300/q2274.cc)|[Maximum Consecutive Floors Without Special Floors](https://leetcode.com/problems/maximum-consecutive-floors-without-special-floors/)|Medium|
-|2022-07-10 14:13|830|[📎](src/q_801_850/q0830.cc)|[Positions of Large Groups](https://leetcode.com/problems/positions-of-large-groups/)|Easy|
 
 ## Previous Logs
 
 |Month|Submissions|Easy|Medium|Hard|
 |:--|:--|:--|:--|:--|
-|[July_2022](./assets/July_2022.md)|34|6|24|4|
+|[July_2022](./assets/July_2022.md)|35|6|25|4|
 |[June_2022](./assets/June_2022.md)|30|8|19|3|
 |[May_2022](./assets/May_2022.md)|42|12|26|4|
 |[April_2022](./assets/April_2022.md)|56|37|19|0|
