@@ -1555,7 +1555,7 @@ My daily challenge on leetcode since 2021/09/06.
 ||1505|[Minimum Possible Integer After at Most K Adjacent Swaps On Digits](https://leetcode.com/problems/minimum-possible-integer-after-at-most-k-adjacent-swaps-on-digits/)|Hard|
 |🔒|1506|[Find Root of N-Ary Tree](https://leetcode.com/problems/find-root-of-n-ary-tree/)|Medium|
 |[📎](src/q_1501_1550/q1507.cc)|1507|[Reformat Date](https://leetcode.com/problems/reformat-date/)|Easy|
-||1508|[Range Sum of Sorted Subarray Sums](https://leetcode.com/problems/range-sum-of-sorted-subarray-sums/)|Medium|
+|[📎](src/q_1501_1550/q1508.cc)|1508|[Range Sum of Sorted Subarray Sums](https://leetcode.com/problems/range-sum-of-sorted-subarray-sums/)|Medium|
 |[📎](src/q_1501_1550/q1509.cc)|1509|[Minimum Difference Between Largest and Smallest Value in Three Moves](https://leetcode.com/problems/minimum-difference-between-largest-and-smallest-value-in-three-moves/)|Medium|
 |[📎](src/q_1501_1550/q1510.cc)|1510|[Stone Game IV](https://leetcode.com/problems/stone-game-iv/)|Hard|
 |🔒|1511|[Customer Order Frequency](https://leetcode.com/problems/customer-order-frequency/)|Easy|
@@ -2427,6 +2427,7 @@ My daily challenge on leetcode since 2021/09/06.
 
 |Time|#|</>|Question Title|Difficulty|
 |:--|--:|:-:|:--|:--|
+|2022-07-27 18:31|1508|[📎](src/q_1501_1550/q1508.cc)|[Range Sum of Sorted Subarray Sums](https://leetcode.com/problems/range-sum-of-sorted-subarray-sums/)|Medium|
 |2022-07-27 18:21|1574|[📎](src/q_1551_1600/q1574.cc)|[Shortest Subarray to be Removed to Make Array Sorted](https://leetcode.com/problems/shortest-subarray-to-be-removed-to-make-array-sorted/)|Medium|
 |2022-07-26 19:19|528|[📎](src/q_501_550/q0528.cc)|[Random Pick with Weight](https://leetcode.com/problems/random-pick-with-weight/)|Medium|
 |2022-07-24 15:12|436|[📎](src/q_401_450/q0436.cc)|[Find Right Interval](https://leetcode.com/problems/find-right-interval/)|Medium|
@@ -2451,13 +2452,12 @@ My daily challenge on leetcode since 2021/09/06.
 |2022-07-14 18:33|1146|[📎](src/q_1101_1150/q1146.cc)|[Snapshot Array](https://leetcode.com/problems/snapshot-array/)|Medium|
 |2022-07-13 18:12|1863|[📎](src/q_1851_1900/q1863.cc)|[Sum of All Subset XOR Totals](https://leetcode.com/problems/sum-of-all-subset-xor-totals/)|Easy|
 |2022-07-12 13:10|473|[📎](src/q_451_500/q0473.cc)|[Matchsticks to Square](https://leetcode.com/problems/matchsticks-to-square/)|Medium|
-|2022-07-11 18:42|1967|[📎](src/q_1951_2000/q1967.cc)|[Number of Strings That Appear as Substrings in Word](https://leetcode.com/problems/number-of-strings-that-appear-as-substrings-in-word/)|Easy|
 
 ## Previous Logs
 
 |Month|Submissions|Easy|Medium|Hard|
 |:--|:--|:--|:--|:--|
-|[July_2022](./assets/July_2022.md)|36|6|26|4|
+|[July_2022](./assets/July_2022.md)|37|6|27|4|
 |[June_2022](./assets/June_2022.md)|30|8|19|3|
 |[May_2022](./assets/May_2022.md)|42|12|26|4|
 |[April_2022](./assets/April_2022.md)|56|37|19|0|
