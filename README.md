@@ -1333,7 +1333,7 @@ My daily challenge on leetcode since 2021/09/06.
 ||1289|[Minimum Falling Path Sum II](https://leetcode.com/problems/minimum-falling-path-sum-ii/)|Hard|
 |[📎](src/q_1251_1300/q1290.cc)|1290|[Convert Binary Number in a Linked List to Integer](https://leetcode.com/problems/convert-binary-number-in-a-linked-list-to-integer/)|Easy|
 |[📎](src/q_1251_1300/q1291.cc)|1291|[Sequential Digits](https://leetcode.com/problems/sequential-digits/)|Medium|
-||1292|[Maximum Side Length of a Square with Sum Less than or Equal to Threshold](https://leetcode.com/problems/maximum-side-length-of-a-square-with-sum-less-than-or-equal-to-threshold/)|Medium|
+|[📎](src/q_1251_1300/q1292.cc)|1292|[Maximum Side Length of a Square with Sum Less than or Equal to Threshold](https://leetcode.com/problems/maximum-side-length-of-a-square-with-sum-less-than-or-equal-to-threshold/)|Medium|
 |[📎](src/q_1251_1300/q1293.cc)|1293|[Shortest Path in a Grid with Obstacles Elimination](https://leetcode.com/problems/shortest-path-in-a-grid-with-obstacles-elimination/)|Hard|
 |🔒|1294|[Weather Type in Each Country](https://leetcode.com/problems/weather-type-in-each-country/)|Easy|
 ||1295|[Find Numbers with Even Number of Digits](https://leetcode.com/problems/find-numbers-with-even-number-of-digits/)|Easy|
@@ -2312,7 +2312,7 @@ My daily challenge on leetcode since 2021/09/06.
 ||2250|[Count Number of Rectangles Containing Each Point](https://leetcode.com/problems/count-number-of-rectangles-containing-each-point/)|Medium|
 </details>
 <details>
-  <summary>### 2251 ~ 2354</summary>
+  <summary>### 2251 ~ 2355</summary>
 
 |</>|#|Solution Title|Difficulty|
 |:-:|--:|:--|:--|
@@ -2420,6 +2420,7 @@ My daily challenge on leetcode since 2021/09/06.
 ||2352|[Equal Row and Column Pairs](https://leetcode.com/problems/equal-row-and-column-pairs/)|Medium|
 ||2353|[Design a Food Rating System](https://leetcode.com/problems/design-a-food-rating-system/)|Medium|
 ||2354|[Number of Excellent Pairs](https://leetcode.com/problems/number-of-excellent-pairs/)|Hard|
+|🔒|2355|[Maximum Number of Books You Can Take](https://leetcode.com/problems/maximum-number-of-books-you-can-take/)|Hard|
 </details>
 
 ---
@@ -2427,6 +2428,7 @@ My daily challenge on leetcode since 2021/09/06.
 
 |Time|#|</>|Question Title|Difficulty|
 |:--|--:|:-:|:--|:--|
+|2022-07-28 18:17|1292|[📎](src/q_1251_1300/q1292.cc)|[Maximum Side Length of a Square with Sum Less than or Equal to Threshold](https://leetcode.com/problems/maximum-side-length-of-a-square-with-sum-less-than-or-equal-to-threshold/)|Medium|
 |2022-07-27 18:31|1508|[📎](src/q_1501_1550/q1508.cc)|[Range Sum of Sorted Subarray Sums](https://leetcode.com/problems/range-sum-of-sorted-subarray-sums/)|Medium|
 |2022-07-27 18:21|1574|[📎](src/q_1551_1600/q1574.cc)|[Shortest Subarray to be Removed to Make Array Sorted](https://leetcode.com/problems/shortest-subarray-to-be-removed-to-make-array-sorted/)|Medium|
 |2022-07-26 19:19|528|[📎](src/q_501_550/q0528.cc)|[Random Pick with Weight](https://leetcode.com/problems/random-pick-with-weight/)|Medium|
@@ -2451,13 +2453,12 @@ My daily challenge on leetcode since 2021/09/06.
 |2022-07-14 22:39|611|[📎](src/q_601_650/q0611.cc)|[Valid Triangle Number](https://leetcode.com/problems/valid-triangle-number/)|Medium|
 |2022-07-14 18:33|1146|[📎](src/q_1101_1150/q1146.cc)|[Snapshot Array](https://leetcode.com/problems/snapshot-array/)|Medium|
 |2022-07-13 18:12|1863|[📎](src/q_1851_1900/q1863.cc)|[Sum of All Subset XOR Totals](https://leetcode.com/problems/sum-of-all-subset-xor-totals/)|Easy|
-|2022-07-12 13:10|473|[📎](src/q_451_500/q0473.cc)|[Matchsticks to Square](https://leetcode.com/problems/matchsticks-to-square/)|Medium|
 
 ## Previous Logs
 
 |Month|Submissions|Easy|Medium|Hard|
 |:--|:--|:--|:--|:--|
-|[July_2022](./assets/July_2022.md)|37|6|27|4|
+|[July_2022](./assets/July_2022.md)|38|6|28|4|
 |[June_2022](./assets/June_2022.md)|30|8|19|3|
 |[May_2022](./assets/May_2022.md)|42|12|26|4|
 |[April_2022](./assets/April_2022.md)|56|37|19|0|

@@ -1290,7 +1290,7 @@ id,title,level,slug,paid,done
 1289,Minimum Falling Path Sum II,3,minimum-falling-path-sum-ii,0,0
 1290,Convert Binary Number in a Linked List to Integer,1,convert-binary-number-in-a-linked-list-to-integer,0,1
 1291,Sequential Digits,2,sequential-digits,0,1
-1292,Maximum Side Length of a Square with Sum Less than or Equal to Threshold,2,maximum-side-length-of-a-square-with-sum-less-than-or-equal-to-threshold,0,0
+1292,Maximum Side Length of a Square with Sum Less than or Equal to Threshold,2,maximum-side-length-of-a-square-with-sum-less-than-or-equal-to-threshold,0,1
 1293,Shortest Path in a Grid with Obstacles Elimination,3,shortest-path-in-a-grid-with-obstacles-elimination,0,1
 1294,Weather Type in Each Country,1,weather-type-in-each-country,1,0
 1295,Find Numbers with Even Number of Digits,1,find-numbers-with-even-number-of-digits,0,0
@@ -2353,3 +2353,4 @@ id,title,level,slug,paid,done
 2352,Equal Row and Column Pairs,2,equal-row-and-column-pairs,0,0
 2353,Design a Food Rating System,2,design-a-food-rating-system,0,0
 2354,Number of Excellent Pairs,3,number-of-excellent-pairs,0,0
+2355,Maximum Number of Books You Can Take,3,maximum-number-of-books-you-can-take,1,0
