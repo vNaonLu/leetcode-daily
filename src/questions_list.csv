@@ -1496,7 +1496,7 @@ id,title,level,slug,paid,done
 1495,Friendly Movies Streamed Last Month,1,friendly-movies-streamed-last-month,1,0
 1496,Path Crossing,1,path-crossing,0,0
 1497,Check If Array Pairs Are Divisible by k,2,check-if-array-pairs-are-divisible-by-k,0,0
-1498,Number of Subsequences That Satisfy the Given Sum Condition,2,number-of-subsequences-that-satisfy-the-given-sum-condition,0,0
+1498,Number of Subsequences That Satisfy the Given Sum Condition,2,number-of-subsequences-that-satisfy-the-given-sum-condition,0,1
 1499,Max Value of Equation,3,max-value-of-equation,0,0
 1500,Design a File Sharing System,2,design-a-file-sharing-system,1,0
 1501,Countries You Can Safely Invest In,2,countries-you-can-safely-invest-in,1,0

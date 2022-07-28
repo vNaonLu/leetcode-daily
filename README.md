@@ -1539,7 +1539,7 @@ My daily challenge on leetcode since 2021/09/06.
 |🔒|1495|[Friendly Movies Streamed Last Month](https://leetcode.com/problems/friendly-movies-streamed-last-month/)|Easy|
 ||1496|[Path Crossing](https://leetcode.com/problems/path-crossing/)|Easy|
 ||1497|[Check If Array Pairs Are Divisible by k](https://leetcode.com/problems/check-if-array-pairs-are-divisible-by-k/)|Medium|
-||1498|[Number of Subsequences That Satisfy the Given Sum Condition](https://leetcode.com/problems/number-of-subsequences-that-satisfy-the-given-sum-condition/)|Medium|
+|[📎](src/q_1451_1500/q1498.cc)|1498|[Number of Subsequences That Satisfy the Given Sum Condition](https://leetcode.com/problems/number-of-subsequences-that-satisfy-the-given-sum-condition/)|Medium|
 ||1499|[Max Value of Equation](https://leetcode.com/problems/max-value-of-equation/)|Hard|
 |🔒|1500|[Design a File Sharing System](https://leetcode.com/problems/design-a-file-sharing-system/)|Medium|
 </details>
@@ -2428,6 +2428,7 @@ My daily challenge on leetcode since 2021/09/06.
 
 |Time|#|</>|Question Title|Difficulty|
 |:--|--:|:-:|:--|:--|
+|2022-07-28 18:56|1498|[📎](src/q_1451_1500/q1498.cc)|[Number of Subsequences That Satisfy the Given Sum Condition](https://leetcode.com/problems/number-of-subsequences-that-satisfy-the-given-sum-condition/)|Medium|
 |2022-07-28 18:17|1292|[📎](src/q_1251_1300/q1292.cc)|[Maximum Side Length of a Square with Sum Less than or Equal to Threshold](https://leetcode.com/problems/maximum-side-length-of-a-square-with-sum-less-than-or-equal-to-threshold/)|Medium|
 |2022-07-27 18:31|1508|[📎](src/q_1501_1550/q1508.cc)|[Range Sum of Sorted Subarray Sums](https://leetcode.com/problems/range-sum-of-sorted-subarray-sums/)|Medium|
 |2022-07-27 18:21|1574|[📎](src/q_1551_1600/q1574.cc)|[Shortest Subarray to be Removed to Make Array Sorted](https://leetcode.com/problems/shortest-subarray-to-be-removed-to-make-array-sorted/)|Medium|
@@ -2452,13 +2453,12 @@ My daily challenge on leetcode since 2021/09/06.
 |2022-07-15 20:42|658|[📎](src/q_651_700/q0658.cc)|[Find K Closest Elements](https://leetcode.com/problems/find-k-closest-elements/)|Medium|
 |2022-07-14 22:39|611|[📎](src/q_601_650/q0611.cc)|[Valid Triangle Number](https://leetcode.com/problems/valid-triangle-number/)|Medium|
 |2022-07-14 18:33|1146|[📎](src/q_1101_1150/q1146.cc)|[Snapshot Array](https://leetcode.com/problems/snapshot-array/)|Medium|
-|2022-07-13 18:12|1863|[📎](src/q_1851_1900/q1863.cc)|[Sum of All Subset XOR Totals](https://leetcode.com/problems/sum-of-all-subset-xor-totals/)|Easy|
 
 ## Previous Logs
 
 |Month|Submissions|Easy|Medium|Hard|
 |:--|:--|:--|:--|:--|
-|[July_2022](./assets/July_2022.md)|38|6|28|4|
+|[July_2022](./assets/July_2022.md)|39|6|29|4|
 |[June_2022](./assets/June_2022.md)|30|8|19|3|
 |[May_2022](./assets/May_2022.md)|42|12|26|4|
 |[April_2022](./assets/April_2022.md)|56|37|19|0|
