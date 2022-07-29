@@ -1298,7 +1298,7 @@ id,title,level,slug,paid,done
 1297,Maximum Number of Occurrences of a Substring,2,maximum-number-of-occurrences-of-a-substring,0,0
 1298,Maximum Candies You Can Get from Boxes,3,maximum-candies-you-can-get-from-boxes,0,0
 1299,Replace Elements with Greatest Element on Right Side,1,replace-elements-with-greatest-element-on-right-side,0,0
-1300,Sum of Mutated Array Closest to Target,2,sum-of-mutated-array-closest-to-target,0,0
+1300,Sum of Mutated Array Closest to Target,2,sum-of-mutated-array-closest-to-target,0,1
 1301,Number of Paths with Max Score,3,number-of-paths-with-max-score,0,0
 1302,Deepest Leaves Sum,2,deepest-leaves-sum,0,1
 1303,Find the Team Size,1,find-the-team-size,1,0
