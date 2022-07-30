@@ -945,7 +945,7 @@ My daily challenge on leetcode since 2021/09/06.
 ||913|[Cat and Mouse](https://leetcode.com/problems/cat-and-mouse/)|Hard|
 ||914|[X of a Kind in a Deck of Cards](https://leetcode.com/problems/x-of-a-kind-in-a-deck-of-cards/)|Easy|
 ||915|[Partition Array into Disjoint Intervals](https://leetcode.com/problems/partition-array-into-disjoint-intervals/)|Medium|
-||916|[Word Subsets](https://leetcode.com/problems/word-subsets/)|Medium|
+|[📎](src/q_901_950/q0916.cc)|916|[Word Subsets](https://leetcode.com/problems/word-subsets/)|Medium|
 |[📎](src/q_901_950/q0917.cc)|917|[Reverse Only Letters](https://leetcode.com/problems/reverse-only-letters/)|Easy|
 |[📎](src/q_901_950/q0918.cc)|918|[Maximum Sum Circular Subarray](https://leetcode.com/problems/maximum-sum-circular-subarray/)|Medium|
 ||919|[Complete Binary Tree Inserter](https://leetcode.com/problems/complete-binary-tree-inserter/)|Medium|
@@ -2429,6 +2429,7 @@ My daily challenge on leetcode since 2021/09/06.
 
 |Time|#|</>|Question Title|Difficulty|
 |:--|--:|:-:|:--|:--|
+|2022-07-30 16:44|916|[📎](src/q_901_950/q0916.cc)|[Word Subsets](https://leetcode.com/problems/word-subsets/)|Medium|
 |2022-07-29 18:49|1300|[📎](src/q_1251_1300/q1300.cc)|[Sum of Mutated Array Closest to Target](https://leetcode.com/problems/sum-of-mutated-array-closest-to-target/)|Medium|
 |2022-07-29 18:41|981|[📎](src/q_951_1000/q0981.cc)|[Time Based Key-Value Store](https://leetcode.com/problems/time-based-key-value-store/)|Medium|
 |2022-07-29 18:21|890|[📎](src/q_851_900/q0890.cc)|[Find and Replace Pattern](https://leetcode.com/problems/find-and-replace-pattern/)|Medium|
@@ -2453,13 +2454,12 @@ My daily challenge on leetcode since 2021/09/06.
 |2022-07-17 14:25|629|[📎](src/q_601_650/q0629.cc)|[K Inverse Pairs Array](https://leetcode.com/problems/k-inverse-pairs-array/)|Hard|
 |2022-07-16 15:15|1760|[📎](src/q_1751_1800/q1760.cc)|[Minimum Limit of Balls in a Bag](https://leetcode.com/problems/minimum-limit-of-balls-in-a-bag/)|Medium|
 |2022-07-16 14:38|576|[📎](src/q_551_600/q0576.cc)|[Out of Boundary Paths](https://leetcode.com/problems/out-of-boundary-paths/)|Medium|
-|2022-07-15 21:00|1894|[📎](src/q_1851_1900/q1894.cc)|[Find the Student that Will Replace the Chalk](https://leetcode.com/problems/find-the-student-that-will-replace-the-chalk/)|Medium|
 
 ## Previous Logs
 
 |Month|Submissions|Easy|Medium|Hard|
 |:--|:--|:--|:--|:--|
-|[July_2022](./assets/July_2022.md)|42|6|32|4|
+|[July_2022](./assets/July_2022.md)|43|6|33|4|
 |[June_2022](./assets/June_2022.md)|30|8|19|3|
 |[May_2022](./assets/May_2022.md)|42|12|26|4|
 |[April_2022](./assets/April_2022.md)|56|37|19|0|

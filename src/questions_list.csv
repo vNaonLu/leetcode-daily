@@ -914,7 +914,7 @@ id,title,level,slug,paid,done
 913,Cat and Mouse,3,cat-and-mouse,0,0
 914,X of a Kind in a Deck of Cards,1,x-of-a-kind-in-a-deck-of-cards,0,0
 915,Partition Array into Disjoint Intervals,2,partition-array-into-disjoint-intervals,0,0
-916,Word Subsets,2,word-subsets,0,0
+916,Word Subsets,2,word-subsets,0,1
 917,Reverse Only Letters,1,reverse-only-letters,0,1
 918,Maximum Sum Circular Subarray,2,maximum-sum-circular-subarray,0,1
 919,Complete Binary Tree Inserter,2,complete-binary-tree-inserter,0,0
