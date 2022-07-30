@@ -1899,7 +1899,7 @@ id,title,level,slug,paid,done
 1898,Maximum Number of Removable Characters,2,maximum-number-of-removable-characters,0,1
 1899,Merge Triplets to Form Target Triplet,2,merge-triplets-to-form-target-triplet,0,0
 1900,The Earliest and Latest Rounds Where Players Compete,3,the-earliest-and-latest-rounds-where-players-compete,0,0
-1901,Find a Peak Element II,2,find-a-peak-element-ii,0,0
+1901,Find a Peak Element II,2,find-a-peak-element-ii,0,1
 1902,Depth of BST Given Insertion Order,2,depth-of-bst-given-insertion-order,1,0
 1903,Largest Odd Number in String,1,largest-odd-number-in-string,0,1
 1904,The Number of Full Rounds You Have Played,2,the-number-of-full-rounds-you-have-played,0,0

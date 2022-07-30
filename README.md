@@ -1954,7 +1954,7 @@ My daily challenge on leetcode since 2021/09/06.
 |[📎](src/q_1851_1900/q1898.cc)|1898|[Maximum Number of Removable Characters](https://leetcode.com/problems/maximum-number-of-removable-characters/)|Medium|
 ||1899|[Merge Triplets to Form Target Triplet](https://leetcode.com/problems/merge-triplets-to-form-target-triplet/)|Medium|
 ||1900|[The Earliest and Latest Rounds Where Players Compete](https://leetcode.com/problems/the-earliest-and-latest-rounds-where-players-compete/)|Hard|
-||1901|[Find a Peak Element II](https://leetcode.com/problems/find-a-peak-element-ii/)|Medium|
+|[📎](src/q_1901_1950/q1901.cc)|1901|[Find a Peak Element II](https://leetcode.com/problems/find-a-peak-element-ii/)|Medium|
 |🔒|1902|[Depth of BST Given Insertion Order](https://leetcode.com/problems/depth-of-bst-given-insertion-order/)|Medium|
 |[📎](src/q_1901_1950/q1903.cc)|1903|[Largest Odd Number in String](https://leetcode.com/problems/largest-odd-number-in-string/)|Easy|
 ||1904|[The Number of Full Rounds You Have Played](https://leetcode.com/problems/the-number-of-full-rounds-you-have-played/)|Medium|
@@ -2429,6 +2429,7 @@ My daily challenge on leetcode since 2021/09/06.
 
 |Time|#|</>|Question Title|Difficulty|
 |:--|--:|:-:|:--|:--|
+|2022-07-30 17:22|1901|[📎](src/q_1901_1950/q1901.cc)|[Find a Peak Element II](https://leetcode.com/problems/find-a-peak-element-ii/)|Medium|
 |2022-07-30 17:15|1802|[📎](src/q_1801_1850/q1802.cc)|[Maximum Value at a Given Index in a Bounded Array](https://leetcode.com/problems/maximum-value-at-a-given-index-in-a-bounded-array/)|Medium|
 |2022-07-30 16:44|916|[📎](src/q_901_950/q0916.cc)|[Word Subsets](https://leetcode.com/problems/word-subsets/)|Medium|
 |2022-07-29 18:49|1300|[📎](src/q_1251_1300/q1300.cc)|[Sum of Mutated Array Closest to Target](https://leetcode.com/problems/sum-of-mutated-array-closest-to-target/)|Medium|
@@ -2453,13 +2454,12 @@ My daily challenge on leetcode since 2021/09/06.
 |2022-07-18 18:36|1074|[📎](src/q_1051_1100/q1074.cc)|[Number of Submatrices That Sum to Target](https://leetcode.com/problems/number-of-submatrices-that-sum-to-target/)|Hard|
 |2022-07-17 14:37|1552|[📎](src/q_1551_1600/q1552.cc)|[Magnetic Force Between Two Balls](https://leetcode.com/problems/magnetic-force-between-two-balls/)|Medium|
 |2022-07-17 14:25|629|[📎](src/q_601_650/q0629.cc)|[K Inverse Pairs Array](https://leetcode.com/problems/k-inverse-pairs-array/)|Hard|
-|2022-07-16 15:15|1760|[📎](src/q_1751_1800/q1760.cc)|[Minimum Limit of Balls in a Bag](https://leetcode.com/problems/minimum-limit-of-balls-in-a-bag/)|Medium|
 
 ## Previous Logs
 
 |Month|Submissions|Easy|Medium|Hard|
 |:--|:--|:--|:--|:--|
-|[July_2022](./assets/July_2022.md)|44|6|34|4|
+|[July_2022](./assets/July_2022.md)|45|6|35|4|
 |[June_2022](./assets/June_2022.md)|30|8|19|3|
 |[May_2022](./assets/May_2022.md)|42|12|26|4|
 |[April_2022](./assets/April_2022.md)|56|37|19|0|
