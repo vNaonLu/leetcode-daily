@@ -35,20 +35,32 @@ using namespace std;
 struct q154 : public ::testing::Test {
   // Leetcode answer here
   class Solution {
-   public:
-    int findMin(vector<int>& nums) {
-      int l = 0, r = nums.size() - 1;
-      while (l < r) {
-        int m = l + (r - l) / 2;
-        if (nums[m] > nums[r]) {
-          l = m + 1;
-        } else if (nums[r] > nums[m]) {
-          r = m;
+  private:
+    template <typename iterator>
+    iterator solve(iterator beg, iterator end) {
+      auto len = distance(beg, --end);
+      while (len != 0) {
+        auto half = len / 2;
+        auto mid = beg + half;
+
+        if (*mid > *end) {
+          beg = mid + 1;
+          len -= half + 1;
+        } else if (*mid < *end) {
+          end = mid;
+          len = half;
         } else {
-          --r;
+          --end;
+          --len;
         }
       }
-      return nums[r];
+
+      return end;
+    }
+
+  public:
+    int findMin(vector<int> &nums) {
+      return *solve(nums.begin(), nums.end());
     }
   };
 

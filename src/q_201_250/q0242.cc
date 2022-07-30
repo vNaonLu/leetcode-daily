@@ -26,14 +26,22 @@ using namespace std;
 struct q242 : public ::testing::Test {
   // Leetcode answer here
   class Solution {
-   public:
+  public:
     bool isAnagram(string s, string t) {
-      if (s.size() != t.size()) return false;
-      unordered_map<char, int> hash;
-      for (const auto &c : s) ++hash[c];
-      for (const auto &c : t)
-        if (!hash.count(c) || --hash[c] < 0)
+      vector<int> cnt(26, 0);
+      for (auto c : s) {
+        ++cnt[c - 'a'];
+      }
+      for (auto c : t) {
+        --cnt[c - 'a'];
+      }
+
+      for (auto c : cnt) {
+        if (c != 0) {
           return false;
+        }
+      }
+
       return true;
     }
   };

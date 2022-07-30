@@ -34,27 +34,41 @@ using namespace std;
 struct q236 : public ::testing::Test {
   // Leetcode answer here
   class Solution {
-   private:
-    bool trace(TreeNode* root, TreeNode* p, vector<TreeNode*>& path) {
-      if (root == nullptr) return false;
-      path.push_back(root);
-      if (root == p)
+  private:
+    bool findPath(vector<TreeNode *> &path, TreeNode *p, TreeNode *t) {
+      if (p == nullptr) {
+
+        return false;
+      } else if (p == t) {
+        path.emplace_back(p);
+
         return true;
-      else if (trace(root->left, p, path) || trace(root->right, p, path))
-        return true;
-      path.pop_back();
-      return false;
-    }
-   public:
-    TreeNode* lowestCommonAncestor(TreeNode* root, TreeNode* p, TreeNode* q) {
-      vector<TreeNode*> trace_p, trace_q;
-      if (trace(root, p, trace_p) && trace(root, q, trace_q)) {
-        TreeNode* res = nullptr;
-        for (int i = 0; i < trace_p.size() && i < trace_q.size() && trace_p[i] == trace_q[i]; ++i) {
-          res = trace_p[i];
-        }
-        return res;
+      } else {
+        path.emplace_back(p);
+
+        return findPath(path, p->left, t) ||
+               findPath(path, p->right, t) ||
+               (path.pop_back(), false);
       }
+    }
+
+  public:
+    TreeNode *lowestCommonAncestor(TreeNode *root, TreeNode *p, TreeNode *q) {
+      vector<TreeNode *> path_p, path_q;
+
+      if (findPath(path_p, root, p) && findPath(path_q, root, q)) {
+        auto p_it = path_p.begin(),
+             q_it = path_q.begin();
+
+        while (p_it != path_p.end() && q_it != path_q.end()) {
+          if (*(p_it++) != *(q_it++)) {
+            return *(p_it - 2);
+          }
+        }
+
+        return p_it == path_p.end() ? *(--p_it) : *(--q_it);
+      }
+
       return nullptr;
     }
   };
@@ -64,11 +78,11 @@ struct q236 : public ::testing::Test {
 
 TEST_F(q236, sample_input01) {
   solution = new Solution();
-  TreeNode* root = TreeNode::generate({3, 5, 1, 6, 2, 0, 8, NULL_TREENODE, NULL_TREENODE, 7, 4});
-  TreeNode* p = TreeNode::generate({});
-  TreeNode* q = TreeNode::generate({});
-  TreeNode* exp = TreeNode::generate({});
-  TreeNode* act = solution->lowestCommonAncestor(root, p, q);
+  TreeNode *root = TreeNode::generate({3, 5, 1, 6, 2, 0, 8, NULL_TREENODE, NULL_TREENODE, 7, 4});
+  TreeNode *p = TreeNode::generate({});
+  TreeNode *q = TreeNode::generate({});
+  TreeNode *exp = TreeNode::generate({});
+  TreeNode *act = solution->lowestCommonAncestor(root, p, q);
   EXPECT_TREENODE_EQ(act, exp);
   TreeNode::release(root, p, q, exp, act);
   delete solution;
@@ -76,11 +90,11 @@ TEST_F(q236, sample_input01) {
 
 TEST_F(q236, sample_input02) {
   solution = new Solution();
-  TreeNode* root = TreeNode::generate({3, 5, 1, 6, 2, 0, 8, NULL_TREENODE, NULL_TREENODE, 7, 4});
-  TreeNode* p = TreeNode::generate({});
-  TreeNode* q = TreeNode::generate({});
-  TreeNode* exp = TreeNode::generate({});
-  TreeNode* act = solution->lowestCommonAncestor(root, p, q);
+  TreeNode *root = TreeNode::generate({3, 5, 1, 6, 2, 0, 8, NULL_TREENODE, NULL_TREENODE, 7, 4});
+  TreeNode *p = TreeNode::generate({});
+  TreeNode *q = TreeNode::generate({});
+  TreeNode *exp = TreeNode::generate({});
+  TreeNode *act = solution->lowestCommonAncestor(root, p, q);
   EXPECT_TREENODE_EQ(act, exp);
   TreeNode::release(root, p, q, exp, act);
   delete solution;
@@ -88,11 +102,11 @@ TEST_F(q236, sample_input02) {
 
 TEST_F(q236, sample_input03) {
   solution = new Solution();
-  TreeNode* root = TreeNode::generate({1, 2});
-  TreeNode* p = TreeNode::generate({});
-  TreeNode* q = TreeNode::generate({});
-  TreeNode* exp = TreeNode::generate({});
-  TreeNode* act = solution->lowestCommonAncestor(root, p, q);
+  TreeNode *root = TreeNode::generate({1, 2});
+  TreeNode *p = TreeNode::generate({});
+  TreeNode *q = TreeNode::generate({});
+  TreeNode *exp = TreeNode::generate({});
+  TreeNode *act = solution->lowestCommonAncestor(root, p, q);
   EXPECT_TREENODE_EQ(act, exp);
   TreeNode::release(root, p, q, exp, act);
   delete solution;

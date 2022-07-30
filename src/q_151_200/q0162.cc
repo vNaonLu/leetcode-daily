@@ -30,18 +30,26 @@ using namespace std;
 struct q162 : public ::testing::Test {
   // Leetcode answer here
   class Solution {
-   public:
-    int findPeakElement(vector<int>& nums) {
-      int l = 0, r = nums.size() - 1;
-      while (l < r) {
-        int m = l + (r - l) / 2;
-        if (nums[m] > nums[m + 1]) {
-          r = m;
-        } else {
-          l = m + 1;
-        }
+  private:
+    template <typename iterator>
+    iterator solve(iterator beg, iterator end) {
+      auto len = distance(beg, end) - 1;
+
+      if (len == 0) {
+
+        return beg;
+      } else {
+        auto mid = beg + len / 2;
+
+        return *mid > *(mid + 1)
+                   ? solve(beg, mid + 1)
+                   : solve(mid + 1, end);
       }
-      return l;
+    }
+
+  public:
+    int findPeakElement(vector<int> &nums) {
+      return distance(nums.begin(), solve(nums.begin(), nums.end()));
     }
   };
 

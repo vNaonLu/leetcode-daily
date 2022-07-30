@@ -30,21 +30,35 @@ using namespace std;
 struct q704 : public ::testing::Test {
   // Leetcode answer here
   class Solution {
-   public:
-    int search(vector<int>& nums, int target) {
-      int l = 0, r = nums.size() - 1;
-      while (l <= r) {
-        int m = l + (r - l) / 2;
-        if (nums[m] == target) {
-          return m;
-        } else if (nums[m] > target) {
-          r = m - 1;
+  private:
+    template <typename iterator, typename type>
+    iterator solve(iterator beg, iterator end, type &&val) {
+      auto not_found = end;
+      auto len = distance(beg, end);
+      while (len != 0) {
+        auto half = len / 2;
+        auto mid = beg + half;
+
+        if (*mid == val) {
+
+          return mid;
+        } else if (*mid > val) {
+          len = half;
+          end = mid;
         } else {
-          l = m + 1;
+          len -= half + 1;
+          beg = ++mid;
         }
       }
 
-      return -1;
+      return not_found;
+    }
+
+  public:
+    int search(vector<int> &nums, int target) {
+      auto find = solve(nums.begin(), nums.end(), target);
+
+      return find == nums.end() ? -1 : distance(nums.begin(), find);
     }
   };
 
