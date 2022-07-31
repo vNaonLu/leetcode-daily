@@ -1486,7 +1486,7 @@ id,title,level,slug,paid,done
 1485,Clone Binary Tree With Random Pointer,2,clone-binary-tree-with-random-pointer,1,0
 1486,XOR Operation in an Array,1,xor-operation-in-an-array,0,0
 1487,Making File Names Unique,2,making-file-names-unique,0,0
-1488,Avoid Flood in The City,2,avoid-flood-in-the-city,0,0
+1488,Avoid Flood in The City,2,avoid-flood-in-the-city,0,1
 1489,Find Critical and Pseudo-Critical Edges in Minimum Spanning Tree,3,find-critical-and-pseudo-critical-edges-in-minimum-spanning-tree,0,0
 1490,Clone N-ary Tree,2,clone-n-ary-tree,1,0
 1491,Average Salary Excluding the Minimum and Maximum Salary,1,average-salary-excluding-the-minimum-and-maximum-salary,0,1
