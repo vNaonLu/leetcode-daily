@@ -1560,7 +1560,7 @@ id,title,level,slug,paid,done
 1559,Detect Cycles in 2D Grid,2,detect-cycles-in-2d-grid,0,1
 1560,Most Visited Sector in  a Circular Track,1,most-visited-sector-in-a-circular-track,0,0
 1561,Maximum Number of Coins You Can Get,2,maximum-number-of-coins-you-can-get,0,0
-1562,Find Latest Group of Size M,2,find-latest-group-of-size-m,0,0
+1562,Find Latest Group of Size M,2,find-latest-group-of-size-m,0,1
 1563,Stone Game V,3,stone-game-v,0,0
 1564,Put Boxes Into the Warehouse I,2,put-boxes-into-the-warehouse-i,1,0
 1565,Unique Orders and Customers Per Month,1,unique-orders-and-customers-per-month,1,0
@@ -2355,3 +2355,7 @@ id,title,level,slug,paid,done
 2354,Number of Excellent Pairs,3,number-of-excellent-pairs,0,0
 2355,Maximum Number of Books You Can Take,3,maximum-number-of-books-you-can-take,1,0
 2356,Number of Unique Subjects Taught by Each Teacher,1,number-of-unique-subjects-taught-by-each-teacher,1,0
+2357,Make Array Zero by Subtracting Equal Amounts,1,make-array-zero-by-subtracting-equal-amounts,0,0
+2358,Maximum Number of Groups Entering a Competition,2,maximum-number-of-groups-entering-a-competition,0,0
+2359,Find Closest Node to Given Two Nodes,2,find-closest-node-to-given-two-nodes,0,0
+2360,Longest Cycle in a Graph,3,longest-cycle-in-a-graph,0,0
