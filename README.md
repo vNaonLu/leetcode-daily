@@ -1236,7 +1236,7 @@ My daily challenge on leetcode since 2021/09/06.
 |🔒|1198|[Find Smallest Common Element in All Rows](https://leetcode.com/problems/find-smallest-common-element-in-all-rows/)|Medium|
 |🔒|1199|[Minimum Time to Build Blocks](https://leetcode.com/problems/minimum-time-to-build-blocks/)|Hard|
 |[📎](src/q_1151_1200/q1200.cc)|1200|[Minimum Absolute Difference](https://leetcode.com/problems/minimum-absolute-difference/)|Easy|
-||1201|[Ugly Number III](https://leetcode.com/problems/ugly-number-iii/)|Medium|
+|[📎](src/q_1201_1250/q1201.cc)|1201|[Ugly Number III](https://leetcode.com/problems/ugly-number-iii/)|Medium|
 |[📎](src/q_1201_1250/q1202.cc)|1202|[Smallest String With Swaps](https://leetcode.com/problems/smallest-string-with-swaps/)|Medium|
 ||1203|[Sort Items by Groups Respecting Dependencies](https://leetcode.com/problems/sort-items-by-groups-respecting-dependencies/)|Hard|
 |🔒|1204|[Last Person to Fit in the Bus](https://leetcode.com/problems/last-person-to-fit-in-the-bus/)|Medium|
@@ -2433,6 +2433,7 @@ My daily challenge on leetcode since 2021/09/06.
 
 |Time|#|</>|Question Title|Difficulty|
 |:--|--:|:-:|:--|:--|
+|2022-08-02 18:21|1201|[📎](src/q_1201_1250/q1201.cc)|[Ugly Number III](https://leetcode.com/problems/ugly-number-iii/)|Medium|
 |2022-08-01 18:48|1648|[📎](src/q_1601_1650/q1648.cc)|[Sell Diminishing-Valued Colored Balls](https://leetcode.com/problems/sell-diminishing-valued-colored-balls/)|Medium|
 |2022-08-01 18:36|1562|[📎](src/q_1551_1600/q1562.cc)|[Find Latest Group of Size M](https://leetcode.com/problems/find-latest-group-of-size-m/)|Medium|
 |2022-07-31 13:00|1488|[📎](src/q_1451_1500/q1488.cc)|[Avoid Flood in The City](https://leetcode.com/problems/avoid-flood-in-the-city/)|Medium|
@@ -2457,13 +2458,12 @@ My daily challenge on leetcode since 2021/09/06.
 |2022-07-20 19:02|1818|[📎](src/q_1801_1850/q1818.cc)|[Minimum Absolute Sum Difference](https://leetcode.com/problems/minimum-absolute-sum-difference/)|Medium|
 |2022-07-20 18:38|1482|[📎](src/q_1451_1500/q1482.cc)|[Minimum Number of Days to Make m Bouquets](https://leetcode.com/problems/minimum-number-of-days-to-make-m-bouquets/)|Medium|
 |2022-07-19 12:37|1870|[📎](src/q_1851_1900/q1870.cc)|[Minimum Speed to Arrive on Time](https://leetcode.com/problems/minimum-speed-to-arrive-on-time/)|Medium|
-|2022-07-19 12:27|1898|[📎](src/q_1851_1900/q1898.cc)|[Maximum Number of Removable Characters](https://leetcode.com/problems/maximum-number-of-removable-characters/)|Medium|
 
 ## Previous Logs
 
 |Month|Submissions|Easy|Medium|Hard|
 |:--|:--|:--|:--|:--|
-|[August_2022](./assets/August_2022.md)|2|0|2|0|
+|[August_2022](./assets/August_2022.md)|3|0|3|0|
 |[July_2022](./assets/July_2022.md)|47|6|37|4|
 |[June_2022](./assets/June_2022.md)|30|8|19|3|
 |[May_2022](./assets/May_2022.md)|42|12|26|4|
