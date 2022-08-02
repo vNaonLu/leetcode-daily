@@ -940,7 +940,7 @@ My daily challenge on leetcode since 2021/09/06.
 ||908|[Smallest Range I](https://leetcode.com/problems/smallest-range-i/)|Easy|
 ||909|[Snakes and Ladders](https://leetcode.com/problems/snakes-and-ladders/)|Medium|
 |[📎](src/q_901_950/q0910.cc)|910|[Smallest Range II](https://leetcode.com/problems/smallest-range-ii/)|Medium|
-||911|[Online Election](https://leetcode.com/problems/online-election/)|Medium|
+|[📎](src/q_901_950/q0911.cc)|911|[Online Election](https://leetcode.com/problems/online-election/)|Medium|
 |[📎](src/q_901_950/q0912.cc)|912|[Sort an Array](https://leetcode.com/problems/sort-an-array/)|Medium|
 ||913|[Cat and Mouse](https://leetcode.com/problems/cat-and-mouse/)|Hard|
 ||914|[X of a Kind in a Deck of Cards](https://leetcode.com/problems/x-of-a-kind-in-a-deck-of-cards/)|Easy|
@@ -2433,6 +2433,7 @@ My daily challenge on leetcode since 2021/09/06.
 
 |Time|#|</>|Question Title|Difficulty|
 |:--|--:|:-:|:--|:--|
+|2022-08-02 18:30|911|[📎](src/q_901_950/q0911.cc)|[Online Election](https://leetcode.com/problems/online-election/)|Medium|
 |2022-08-02 18:21|1201|[📎](src/q_1201_1250/q1201.cc)|[Ugly Number III](https://leetcode.com/problems/ugly-number-iii/)|Medium|
 |2022-08-01 18:48|1648|[📎](src/q_1601_1650/q1648.cc)|[Sell Diminishing-Valued Colored Balls](https://leetcode.com/problems/sell-diminishing-valued-colored-balls/)|Medium|
 |2022-08-01 18:36|1562|[📎](src/q_1551_1600/q1562.cc)|[Find Latest Group of Size M](https://leetcode.com/problems/find-latest-group-of-size-m/)|Medium|
@@ -2457,13 +2458,12 @@ My daily challenge on leetcode since 2021/09/06.
 |2022-07-21 01:00|792|[📎](src/q_751_800/q0792.cc)|[Number of Matching Subsequences](https://leetcode.com/problems/number-of-matching-subsequences/)|Medium|
 |2022-07-20 19:02|1818|[📎](src/q_1801_1850/q1818.cc)|[Minimum Absolute Sum Difference](https://leetcode.com/problems/minimum-absolute-sum-difference/)|Medium|
 |2022-07-20 18:38|1482|[📎](src/q_1451_1500/q1482.cc)|[Minimum Number of Days to Make m Bouquets](https://leetcode.com/problems/minimum-number-of-days-to-make-m-bouquets/)|Medium|
-|2022-07-19 12:37|1870|[📎](src/q_1851_1900/q1870.cc)|[Minimum Speed to Arrive on Time](https://leetcode.com/problems/minimum-speed-to-arrive-on-time/)|Medium|
 
 ## Previous Logs
 
 |Month|Submissions|Easy|Medium|Hard|
 |:--|:--|:--|:--|:--|
-|[August_2022](./assets/August_2022.md)|3|0|3|0|
+|[August_2022](./assets/August_2022.md)|4|0|4|0|
 |[July_2022](./assets/July_2022.md)|47|6|37|4|
 |[June_2022](./assets/June_2022.md)|30|8|19|3|
 |[May_2022](./assets/May_2022.md)|42|12|26|4|
