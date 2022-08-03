@@ -2309,7 +2309,7 @@ id,title,level,slug,paid,done
 2308,Arrange Table by Gender,2,arrange-table-by-gender,1,0
 2309,Greatest English Letter in Upper and Lower Case,1,greatest-english-letter-in-upper-and-lower-case,0,0
 2310,Sum of Numbers With Units Digit K,2,sum-of-numbers-with-units-digit-k,0,0
-2311,Longest Binary Subsequence Less Than or Equal to K,2,longest-binary-subsequence-less-than-or-equal-to-k,0,0
+2311,Longest Binary Subsequence Less Than or Equal to K,2,longest-binary-subsequence-less-than-or-equal-to-k,0,1
 2312,Selling Pieces of Wood,3,selling-pieces-of-wood,0,0
 2313,Minimum Flips in Binary Tree to Get Result,3,minimum-flips-in-binary-tree-to-get-result,1,0
 2314,The First Day of the Maximum Recorded Degree in Each City,2,the-first-day-of-the-maximum-recorded-degree-in-each-city,1,0
@@ -2359,3 +2359,4 @@ id,title,level,slug,paid,done
 2358,Maximum Number of Groups Entering a Competition,2,maximum-number-of-groups-entering-a-competition,0,0
 2359,Find Closest Node to Given Two Nodes,2,find-closest-node-to-given-two-nodes,0,0
 2360,Longest Cycle in a Graph,3,longest-cycle-in-a-graph,0,0
+2361,Minimum Costs Using the Train Line,3,minimum-costs-using-the-train-line,1,0

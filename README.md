@@ -2312,7 +2312,7 @@ My daily challenge on leetcode since 2021/09/06.
 ||2250|[Count Number of Rectangles Containing Each Point](https://leetcode.com/problems/count-number-of-rectangles-containing-each-point/)|Medium|
 </details>
 <details>
-  <summary>### 2251 ~ 2360</summary>
+  <summary>### 2251 ~ 2361</summary>
 
 |</>|#|Solution Title|Difficulty|
 |:-:|--:|:--|:--|
@@ -2376,7 +2376,7 @@ My daily challenge on leetcode since 2021/09/06.
 |🔒|2308|[Arrange Table by Gender](https://leetcode.com/problems/arrange-table-by-gender/)|Medium|
 ||2309|[Greatest English Letter in Upper and Lower Case](https://leetcode.com/problems/greatest-english-letter-in-upper-and-lower-case/)|Easy|
 ||2310|[Sum of Numbers With Units Digit K](https://leetcode.com/problems/sum-of-numbers-with-units-digit-k/)|Medium|
-||2311|[Longest Binary Subsequence Less Than or Equal to K](https://leetcode.com/problems/longest-binary-subsequence-less-than-or-equal-to-k/)|Medium|
+|[📎](src/q_2301_2350/q2311.cc)|2311|[Longest Binary Subsequence Less Than or Equal to K](https://leetcode.com/problems/longest-binary-subsequence-less-than-or-equal-to-k/)|Medium|
 ||2312|[Selling Pieces of Wood](https://leetcode.com/problems/selling-pieces-of-wood/)|Hard|
 |🔒|2313|[Minimum Flips in Binary Tree to Get Result](https://leetcode.com/problems/minimum-flips-in-binary-tree-to-get-result/)|Hard|
 |🔒|2314|[The First Day of the Maximum Recorded Degree in Each City](https://leetcode.com/problems/the-first-day-of-the-maximum-recorded-degree-in-each-city/)|Medium|
@@ -2426,6 +2426,7 @@ My daily challenge on leetcode since 2021/09/06.
 ||2358|[Maximum Number of Groups Entering a Competition](https://leetcode.com/problems/maximum-number-of-groups-entering-a-competition/)|Medium|
 ||2359|[Find Closest Node to Given Two Nodes](https://leetcode.com/problems/find-closest-node-to-given-two-nodes/)|Medium|
 ||2360|[Longest Cycle in a Graph](https://leetcode.com/problems/longest-cycle-in-a-graph/)|Hard|
+|🔒|2361|[Minimum Costs Using the Train Line](https://leetcode.com/problems/minimum-costs-using-the-train-line/)|Hard|
 </details>
 
 ---
@@ -2433,6 +2434,7 @@ My daily challenge on leetcode since 2021/09/06.
 
 |Time|#|</>|Question Title|Difficulty|
 |:--|--:|:-:|:--|:--|
+|2022-08-03 18:50|2311|[📎](src/q_2301_2350/q2311.cc)|[Longest Binary Subsequence Less Than or Equal to K](https://leetcode.com/problems/longest-binary-subsequence-less-than-or-equal-to-k/)|Medium|
 |2022-08-02 18:55|378|[📎](src/q_351_400/q0378.cc)|[Kth Smallest Element in a Sorted Matrix](https://leetcode.com/problems/kth-smallest-element-in-a-sorted-matrix/)|Medium|
 |2022-08-02 18:30|911|[📎](src/q_901_950/q0911.cc)|[Online Election](https://leetcode.com/problems/online-election/)|Medium|
 |2022-08-02 18:21|1201|[📎](src/q_1201_1250/q1201.cc)|[Ugly Number III](https://leetcode.com/problems/ugly-number-iii/)|Medium|
@@ -2457,13 +2459,12 @@ My daily challenge on leetcode since 2021/09/06.
 |2022-07-22 23:34|482|[📎](src/q_451_500/q0482.cc)|[License Key Formatting](https://leetcode.com/problems/license-key-formatting/)|Easy|
 |2022-07-21 19:57|275|[📎](src/q_251_300/q0275.cc)|[H-Index II](https://leetcode.com/problems/h-index-ii/)|Medium|
 |2022-07-21 01:00|792|[📎](src/q_751_800/q0792.cc)|[Number of Matching Subsequences](https://leetcode.com/problems/number-of-matching-subsequences/)|Medium|
-|2022-07-20 19:02|1818|[📎](src/q_1801_1850/q1818.cc)|[Minimum Absolute Sum Difference](https://leetcode.com/problems/minimum-absolute-sum-difference/)|Medium|
 
 ## Previous Logs
 
 |Month|Submissions|Easy|Medium|Hard|
 |:--|:--|:--|:--|:--|
-|[August_2022](./assets/August_2022.md)|5|0|5|0|
+|[August_2022](./assets/August_2022.md)|6|0|6|0|
 |[July_2022](./assets/July_2022.md)|47|6|37|4|
 |[June_2022](./assets/June_2022.md)|30|8|19|3|
 |[May_2022](./assets/May_2022.md)|42|12|26|4|
