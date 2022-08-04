@@ -887,7 +887,7 @@ My daily challenge on leetcode since 2021/09/06.
 ||855|[Exam Room](https://leetcode.com/problems/exam-room/)|Medium|
 |[📎](src/q_851_900/q0856.cc)|856|[Score of Parentheses](https://leetcode.com/problems/score-of-parentheses/)|Medium|
 ||857|[Minimum Cost to Hire K Workers](https://leetcode.com/problems/minimum-cost-to-hire-k-workers/)|Hard|
-||858|[Mirror Reflection](https://leetcode.com/problems/mirror-reflection/)|Medium|
+|[📎](src/q_851_900/q0858.cc)|858|[Mirror Reflection](https://leetcode.com/problems/mirror-reflection/)|Medium|
 ||859|[Buddy Strings](https://leetcode.com/problems/buddy-strings/)|Easy|
 |[📎](src/q_851_900/q0860.cc)|860|[Lemonade Change](https://leetcode.com/problems/lemonade-change/)|Easy|
 ||861|[Score After Flipping Matrix](https://leetcode.com/problems/score-after-flipping-matrix/)|Medium|
@@ -2434,6 +2434,7 @@ My daily challenge on leetcode since 2021/09/06.
 
 |Time|#|</>|Question Title|Difficulty|
 |:--|--:|:-:|:--|:--|
+|2022-08-04 18:31|858|[📎](src/q_851_900/q0858.cc)|[Mirror Reflection](https://leetcode.com/problems/mirror-reflection/)|Medium|
 |2022-08-03 18:50|2311|[📎](src/q_2301_2350/q2311.cc)|[Longest Binary Subsequence Less Than or Equal to K](https://leetcode.com/problems/longest-binary-subsequence-less-than-or-equal-to-k/)|Medium|
 |2022-08-02 18:55|378|[📎](src/q_351_400/q0378.cc)|[Kth Smallest Element in a Sorted Matrix](https://leetcode.com/problems/kth-smallest-element-in-a-sorted-matrix/)|Medium|
 |2022-08-02 18:30|911|[📎](src/q_901_950/q0911.cc)|[Online Election](https://leetcode.com/problems/online-election/)|Medium|
@@ -2458,13 +2459,12 @@ My daily challenge on leetcode since 2021/09/06.
 |2022-07-23 17:35|1712|[📎](src/q_1701_1750/q1712.cc)|[Ways to Split Array Into Three Subarrays](https://leetcode.com/problems/ways-to-split-array-into-three-subarrays/)|Medium|
 |2022-07-22 23:34|482|[📎](src/q_451_500/q0482.cc)|[License Key Formatting](https://leetcode.com/problems/license-key-formatting/)|Easy|
 |2022-07-21 19:57|275|[📎](src/q_251_300/q0275.cc)|[H-Index II](https://leetcode.com/problems/h-index-ii/)|Medium|
-|2022-07-21 01:00|792|[📎](src/q_751_800/q0792.cc)|[Number of Matching Subsequences](https://leetcode.com/problems/number-of-matching-subsequences/)|Medium|
 
 ## Previous Logs
 
 |Month|Submissions|Easy|Medium|Hard|
 |:--|:--|:--|:--|:--|
-|[August_2022](./assets/August_2022.md)|6|0|6|0|
+|[August_2022](./assets/August_2022.md)|7|0|7|0|
 |[July_2022](./assets/July_2022.md)|47|6|37|4|
 |[June_2022](./assets/June_2022.md)|30|8|19|3|
 |[May_2022](./assets/May_2022.md)|42|12|26|4|
