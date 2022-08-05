@@ -1087,7 +1087,7 @@ id,title,level,slug,paid,done
 1086,High Five,1,high-five,1,0
 1087,Brace Expansion,2,brace-expansion,1,0
 1088,Confusing Number II,3,confusing-number-ii,1,0
-1089,Duplicate Zeros,1,duplicate-zeros,0,0
+1089,Duplicate Zeros,1,duplicate-zeros,0,1
 1090,Largest Values From Labels,2,largest-values-from-labels,0,0
 1091,Shortest Path in Binary Matrix,2,shortest-path-in-binary-matrix,0,1
 1092,Shortest Common Supersequence ,3,shortest-common-supersequence,0,0
@@ -2360,3 +2360,4 @@ id,title,level,slug,paid,done
 2359,Find Closest Node to Given Two Nodes,2,find-closest-node-to-given-two-nodes,0,0
 2360,Longest Cycle in a Graph,3,longest-cycle-in-a-graph,0,0
 2361,Minimum Costs Using the Train Line,3,minimum-costs-using-the-train-line,1,0
+2362,Generate the Invoice,3,generate-the-invoice,1,0
