@@ -36,41 +36,25 @@ using namespace std;
 struct q729 : public ::testing::Test {
   // Leetcode answer here
   class MyCalendar {
-   private:
-    set<pair<int, int>> booked_;
+  private:
+    map<int, int> itinerary; /// end -> beg
 
-   public:
+  public:
     MyCalendar() {
     }
 
     bool book(int start, int end) {
-      bool overlap = false;
+      auto find = itinerary.upper_bound(start);
 
-      for (const auto &[b, e] : booked_) {
-        if (b >= end) {
-          break;
-        } else if ((start >= b && start < e) ||
-                   (end > b && end < e) ||
-                   (b >= start && b < end) ||
-                   (e > start && e < end)) {
-          overlap = true;
-          break;
-        }
+      if (find == itinerary.end() || end <= find->second) {
+        itinerary[end] = start;
+
+        return true;
       }
 
-      if (!overlap) {
-        booked_.emplace(start, end);
-      }
-
-      return !overlap;
+      return false;
     }
   };
-
-  /**
-   * Your MyCalendar object will be instantiated and called as such:
-   * MyCalendar* obj = new MyCalendar();
-   * bool param_1 = obj->book(start,end);
-   */
 
   class MyCalendar *my_calendar;
 };

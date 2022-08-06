@@ -324,7 +324,7 @@ My daily challenge on leetcode since 2021/09/06.
 |[📎](src/q_301_350/q0304.cc)|304|[Range Sum Query 2D - Immutable](https://leetcode.com/problems/range-sum-query-2d-immutable/)|Medium|
 |🔒|305|[Number of Islands II](https://leetcode.com/problems/number-of-islands-ii/)|Hard|
 ||306|[Additive Number](https://leetcode.com/problems/additive-number/)|Medium|
-||307|[Range Sum Query - Mutable](https://leetcode.com/problems/range-sum-query-mutable/)|Medium|
+|[📎](src/q_301_350/q0307.cc)|307|[Range Sum Query - Mutable](https://leetcode.com/problems/range-sum-query-mutable/)|Medium|
 |🔒|308|[Range Sum Query 2D - Mutable](https://leetcode.com/problems/range-sum-query-2d-mutable/)|Hard|
 |[📎](src/q_301_350/q0309.cc)|309|[Best Time to Buy and Sell Stock with Cooldown](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-cooldown/)|Medium|
 |[📎](src/q_301_350/q0310.cc)|310|[Minimum Height Trees](https://leetcode.com/problems/minimum-height-trees/)|Medium|
@@ -395,7 +395,7 @@ My daily challenge on leetcode since 2021/09/06.
 |[📎](src/q_351_400/q0375.cc)|375|[Guess Number Higher or Lower II](https://leetcode.com/problems/guess-number-higher-or-lower-ii/)|Medium|
 |[📎](src/q_351_400/q0376.cc)|376|[Wiggle Subsequence](https://leetcode.com/problems/wiggle-subsequence/)|Medium|
 |[📎](src/q_351_400/q0377.cc)|377|[Combination Sum IV](https://leetcode.com/problems/combination-sum-iv/)|Medium|
-||378|[Kth Smallest Element in a Sorted Matrix](https://leetcode.com/problems/kth-smallest-element-in-a-sorted-matrix/)|Medium|
+|[📎](src/q_351_400/q0378.cc)|378|[Kth Smallest Element in a Sorted Matrix](https://leetcode.com/problems/kth-smallest-element-in-a-sorted-matrix/)|Medium|
 |🔒|379|[Design Phone Directory](https://leetcode.com/problems/design-phone-directory/)|Medium|
 |[📎](src/q_351_400/q0380.cc)|380|[Insert Delete GetRandom O(1)](https://leetcode.com/problems/insert-delete-getrandom-o1/)|Medium|
 ||381|[Insert Delete GetRandom O(1) - Duplicates allowed](https://leetcode.com/problems/insert-delete-getrandom-o1-duplicates-allowed/)|Hard|
@@ -475,7 +475,7 @@ My daily challenge on leetcode since 2021/09/06.
 ||455|[Assign Cookies](https://leetcode.com/problems/assign-cookies/)|Easy|
 |[📎](src/q_451_500/q0456.cc)|456|[132 Pattern](https://leetcode.com/problems/132-pattern/)|Medium|
 ||457|[Circular Array Loop](https://leetcode.com/problems/circular-array-loop/)|Medium|
-||458|[Poor Pigs](https://leetcode.com/problems/poor-pigs/)|Hard|
+|[📎](src/q_451_500/q0458.cc)|458|[Poor Pigs](https://leetcode.com/problems/poor-pigs/)|Hard|
 |[📎](src/q_451_500/q0459.cc)|459|[Repeated Substring Pattern](https://leetcode.com/problems/repeated-substring-pattern/)|Easy|
 ||460|[LFU Cache](https://leetcode.com/problems/lfu-cache/)|Hard|
 |[📎](src/q_451_500/q0461.cc)|461|[Hamming Distance](https://leetcode.com/problems/hamming-distance/)|Easy|
@@ -887,7 +887,7 @@ My daily challenge on leetcode since 2021/09/06.
 ||855|[Exam Room](https://leetcode.com/problems/exam-room/)|Medium|
 |[📎](src/q_851_900/q0856.cc)|856|[Score of Parentheses](https://leetcode.com/problems/score-of-parentheses/)|Medium|
 ||857|[Minimum Cost to Hire K Workers](https://leetcode.com/problems/minimum-cost-to-hire-k-workers/)|Hard|
-||858|[Mirror Reflection](https://leetcode.com/problems/mirror-reflection/)|Medium|
+|[📎](src/q_851_900/q0858.cc)|858|[Mirror Reflection](https://leetcode.com/problems/mirror-reflection/)|Medium|
 ||859|[Buddy Strings](https://leetcode.com/problems/buddy-strings/)|Easy|
 |[📎](src/q_851_900/q0860.cc)|860|[Lemonade Change](https://leetcode.com/problems/lemonade-change/)|Easy|
 ||861|[Score After Flipping Matrix](https://leetcode.com/problems/score-after-flipping-matrix/)|Medium|
@@ -940,7 +940,7 @@ My daily challenge on leetcode since 2021/09/06.
 ||908|[Smallest Range I](https://leetcode.com/problems/smallest-range-i/)|Easy|
 ||909|[Snakes and Ladders](https://leetcode.com/problems/snakes-and-ladders/)|Medium|
 |[📎](src/q_901_950/q0910.cc)|910|[Smallest Range II](https://leetcode.com/problems/smallest-range-ii/)|Medium|
-||911|[Online Election](https://leetcode.com/problems/online-election/)|Medium|
+|[📎](src/q_901_950/q0911.cc)|911|[Online Election](https://leetcode.com/problems/online-election/)|Medium|
 |[📎](src/q_901_950/q0912.cc)|912|[Sort an Array](https://leetcode.com/problems/sort-an-array/)|Medium|
 ||913|[Cat and Mouse](https://leetcode.com/problems/cat-and-mouse/)|Hard|
 ||914|[X of a Kind in a Deck of Cards](https://leetcode.com/problems/x-of-a-kind-in-a-deck-of-cards/)|Easy|
@@ -1124,7 +1124,7 @@ My daily challenge on leetcode since 2021/09/06.
 |🔒|1086|[High Five](https://leetcode.com/problems/high-five/)|Easy|
 |🔒|1087|[Brace Expansion](https://leetcode.com/problems/brace-expansion/)|Medium|
 |🔒|1088|[Confusing Number II](https://leetcode.com/problems/confusing-number-ii/)|Hard|
-||1089|[Duplicate Zeros](https://leetcode.com/problems/duplicate-zeros/)|Easy|
+|[📎](src/q_1051_1100/q1089.cc)|1089|[Duplicate Zeros](https://leetcode.com/problems/duplicate-zeros/)|Easy|
 ||1090|[Largest Values From Labels](https://leetcode.com/problems/largest-values-from-labels/)|Medium|
 |[📎](src/q_1051_1100/q1091.cc)|1091|[Shortest Path in Binary Matrix](https://leetcode.com/problems/shortest-path-in-binary-matrix/)|Medium|
 ||1092|[Shortest Common Supersequence ](https://leetcode.com/problems/shortest-common-supersequence/)|Hard|
@@ -1236,7 +1236,7 @@ My daily challenge on leetcode since 2021/09/06.
 |🔒|1198|[Find Smallest Common Element in All Rows](https://leetcode.com/problems/find-smallest-common-element-in-all-rows/)|Medium|
 |🔒|1199|[Minimum Time to Build Blocks](https://leetcode.com/problems/minimum-time-to-build-blocks/)|Hard|
 |[📎](src/q_1151_1200/q1200.cc)|1200|[Minimum Absolute Difference](https://leetcode.com/problems/minimum-absolute-difference/)|Easy|
-||1201|[Ugly Number III](https://leetcode.com/problems/ugly-number-iii/)|Medium|
+|[📎](src/q_1201_1250/q1201.cc)|1201|[Ugly Number III](https://leetcode.com/problems/ugly-number-iii/)|Medium|
 |[📎](src/q_1201_1250/q1202.cc)|1202|[Smallest String With Swaps](https://leetcode.com/problems/smallest-string-with-swaps/)|Medium|
 ||1203|[Sort Items by Groups Respecting Dependencies](https://leetcode.com/problems/sort-items-by-groups-respecting-dependencies/)|Hard|
 |🔒|1204|[Last Person to Fit in the Bus](https://leetcode.com/problems/last-person-to-fit-in-the-bus/)|Medium|
@@ -1529,7 +1529,7 @@ My daily challenge on leetcode since 2021/09/06.
 |🔒|1485|[Clone Binary Tree With Random Pointer](https://leetcode.com/problems/clone-binary-tree-with-random-pointer/)|Medium|
 ||1486|[XOR Operation in an Array](https://leetcode.com/problems/xor-operation-in-an-array/)|Easy|
 ||1487|[Making File Names Unique](https://leetcode.com/problems/making-file-names-unique/)|Medium|
-||1488|[Avoid Flood in The City](https://leetcode.com/problems/avoid-flood-in-the-city/)|Medium|
+|[📎](src/q_1451_1500/q1488.cc)|1488|[Avoid Flood in The City](https://leetcode.com/problems/avoid-flood-in-the-city/)|Medium|
 ||1489|[Find Critical and Pseudo-Critical Edges in Minimum Spanning Tree](https://leetcode.com/problems/find-critical-and-pseudo-critical-edges-in-minimum-spanning-tree/)|Hard|
 |🔒|1490|[Clone N-ary Tree](https://leetcode.com/problems/clone-n-ary-tree/)|Medium|
 |[📎](src/q_1451_1500/q1491.cc)|1491|[Average Salary Excluding the Minimum and Maximum Salary](https://leetcode.com/problems/average-salary-excluding-the-minimum-and-maximum-salary/)|Easy|
@@ -1609,7 +1609,7 @@ My daily challenge on leetcode since 2021/09/06.
 |[📎](src/q_1551_1600/q1559.cc)|1559|[Detect Cycles in 2D Grid](https://leetcode.com/problems/detect-cycles-in-2d-grid/)|Medium|
 ||1560|[Most Visited Sector in  a Circular Track](https://leetcode.com/problems/most-visited-sector-in-a-circular-track/)|Easy|
 ||1561|[Maximum Number of Coins You Can Get](https://leetcode.com/problems/maximum-number-of-coins-you-can-get/)|Medium|
-||1562|[Find Latest Group of Size M](https://leetcode.com/problems/find-latest-group-of-size-m/)|Medium|
+|[📎](src/q_1551_1600/q1562.cc)|1562|[Find Latest Group of Size M](https://leetcode.com/problems/find-latest-group-of-size-m/)|Medium|
 ||1563|[Stone Game V](https://leetcode.com/problems/stone-game-v/)|Hard|
 |🔒|1564|[Put Boxes Into the Warehouse I](https://leetcode.com/problems/put-boxes-into-the-warehouse-i/)|Medium|
 |🔒|1565|[Unique Orders and Customers Per Month](https://leetcode.com/problems/unique-orders-and-customers-per-month/)|Easy|
@@ -1695,7 +1695,7 @@ My daily challenge on leetcode since 2021/09/06.
 |🔒|1645|[Hopper Company Queries II](https://leetcode.com/problems/hopper-company-queries-ii/)|Hard|
 ||1646|[Get Maximum in Generated Array](https://leetcode.com/problems/get-maximum-in-generated-array/)|Easy|
 |[📎](src/q_1601_1650/q1647.cc)|1647|[Minimum Deletions to Make Character Frequencies Unique](https://leetcode.com/problems/minimum-deletions-to-make-character-frequencies-unique/)|Medium|
-||1648|[Sell Diminishing-Valued Colored Balls](https://leetcode.com/problems/sell-diminishing-valued-colored-balls/)|Medium|
+|[📎](src/q_1601_1650/q1648.cc)|1648|[Sell Diminishing-Valued Colored Balls](https://leetcode.com/problems/sell-diminishing-valued-colored-balls/)|Medium|
 ||1649|[Create Sorted Array through Instructions](https://leetcode.com/problems/create-sorted-array-through-instructions/)|Hard|
 |🔒|1650|[Lowest Common Ancestor of a Binary Tree III](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree-iii/)|Medium|
 |🔒|1651|[Hopper Company Queries III](https://leetcode.com/problems/hopper-company-queries-iii/)|Hard|
@@ -2312,7 +2312,7 @@ My daily challenge on leetcode since 2021/09/06.
 ||2250|[Count Number of Rectangles Containing Each Point](https://leetcode.com/problems/count-number-of-rectangles-containing-each-point/)|Medium|
 </details>
 <details>
-  <summary>### 2251 ~ 2356</summary>
+  <summary>### 2251 ~ 2362</summary>
 
 |</>|#|Solution Title|Difficulty|
 |:-:|--:|:--|:--|
@@ -2376,7 +2376,7 @@ My daily challenge on leetcode since 2021/09/06.
 |🔒|2308|[Arrange Table by Gender](https://leetcode.com/problems/arrange-table-by-gender/)|Medium|
 ||2309|[Greatest English Letter in Upper and Lower Case](https://leetcode.com/problems/greatest-english-letter-in-upper-and-lower-case/)|Easy|
 ||2310|[Sum of Numbers With Units Digit K](https://leetcode.com/problems/sum-of-numbers-with-units-digit-k/)|Medium|
-||2311|[Longest Binary Subsequence Less Than or Equal to K](https://leetcode.com/problems/longest-binary-subsequence-less-than-or-equal-to-k/)|Medium|
+|[📎](src/q_2301_2350/q2311.cc)|2311|[Longest Binary Subsequence Less Than or Equal to K](https://leetcode.com/problems/longest-binary-subsequence-less-than-or-equal-to-k/)|Medium|
 ||2312|[Selling Pieces of Wood](https://leetcode.com/problems/selling-pieces-of-wood/)|Hard|
 |🔒|2313|[Minimum Flips in Binary Tree to Get Result](https://leetcode.com/problems/minimum-flips-in-binary-tree-to-get-result/)|Hard|
 |🔒|2314|[The First Day of the Maximum Recorded Degree in Each City](https://leetcode.com/problems/the-first-day-of-the-maximum-recorded-degree-in-each-city/)|Medium|
@@ -2422,6 +2422,12 @@ My daily challenge on leetcode since 2021/09/06.
 ||2354|[Number of Excellent Pairs](https://leetcode.com/problems/number-of-excellent-pairs/)|Hard|
 |🔒|2355|[Maximum Number of Books You Can Take](https://leetcode.com/problems/maximum-number-of-books-you-can-take/)|Hard|
 |🔒|2356|[Number of Unique Subjects Taught by Each Teacher](https://leetcode.com/problems/number-of-unique-subjects-taught-by-each-teacher/)|Easy|
+||2357|[Make Array Zero by Subtracting Equal Amounts](https://leetcode.com/problems/make-array-zero-by-subtracting-equal-amounts/)|Easy|
+||2358|[Maximum Number of Groups Entering a Competition](https://leetcode.com/problems/maximum-number-of-groups-entering-a-competition/)|Medium|
+||2359|[Find Closest Node to Given Two Nodes](https://leetcode.com/problems/find-closest-node-to-given-two-nodes/)|Medium|
+||2360|[Longest Cycle in a Graph](https://leetcode.com/problems/longest-cycle-in-a-graph/)|Hard|
+|🔒|2361|[Minimum Costs Using the Train Line](https://leetcode.com/problems/minimum-costs-using-the-train-line/)|Hard|
+|🔒|2362|[Generate the Invoice](https://leetcode.com/problems/generate-the-invoice/)|Hard|
 </details>
 
 ---
@@ -2429,6 +2435,17 @@ My daily challenge on leetcode since 2021/09/06.
 
 |Time|#|</>|Question Title|Difficulty|
 |:--|--:|:-:|:--|:--|
+|2022-08-06 15:12|458|[📎](src/q_451_500/q0458.cc)|[Poor Pigs](https://leetcode.com/problems/poor-pigs/)|Hard|
+|2022-08-05 18:28|1089|[📎](src/q_1051_1100/q1089.cc)|[Duplicate Zeros](https://leetcode.com/problems/duplicate-zeros/)|Easy|
+|2022-08-04 18:31|858|[📎](src/q_851_900/q0858.cc)|[Mirror Reflection](https://leetcode.com/problems/mirror-reflection/)|Medium|
+|2022-08-03 18:50|2311|[📎](src/q_2301_2350/q2311.cc)|[Longest Binary Subsequence Less Than or Equal to K](https://leetcode.com/problems/longest-binary-subsequence-less-than-or-equal-to-k/)|Medium|
+|2022-08-02 18:55|378|[📎](src/q_351_400/q0378.cc)|[Kth Smallest Element in a Sorted Matrix](https://leetcode.com/problems/kth-smallest-element-in-a-sorted-matrix/)|Medium|
+|2022-08-02 18:30|911|[📎](src/q_901_950/q0911.cc)|[Online Election](https://leetcode.com/problems/online-election/)|Medium|
+|2022-08-02 18:21|1201|[📎](src/q_1201_1250/q1201.cc)|[Ugly Number III](https://leetcode.com/problems/ugly-number-iii/)|Medium|
+|2022-08-01 18:48|1648|[📎](src/q_1601_1650/q1648.cc)|[Sell Diminishing-Valued Colored Balls](https://leetcode.com/problems/sell-diminishing-valued-colored-balls/)|Medium|
+|2022-08-01 18:36|1562|[📎](src/q_1551_1600/q1562.cc)|[Find Latest Group of Size M](https://leetcode.com/problems/find-latest-group-of-size-m/)|Medium|
+|2022-07-31 13:00|1488|[📎](src/q_1451_1500/q1488.cc)|[Avoid Flood in The City](https://leetcode.com/problems/avoid-flood-in-the-city/)|Medium|
+|2022-07-31 12:40|307|[📎](src/q_301_350/q0307.cc)|[Range Sum Query - Mutable](https://leetcode.com/problems/range-sum-query-mutable/)|Medium|
 |2022-07-30 17:22|1901|[📎](src/q_1901_1950/q1901.cc)|[Find a Peak Element II](https://leetcode.com/problems/find-a-peak-element-ii/)|Medium|
 |2022-07-30 17:15|1802|[📎](src/q_1801_1850/q1802.cc)|[Maximum Value at a Given Index in a Bounded Array](https://leetcode.com/problems/maximum-value-at-a-given-index-in-a-bounded-array/)|Medium|
 |2022-07-30 16:44|916|[📎](src/q_901_950/q0916.cc)|[Word Subsets](https://leetcode.com/problems/word-subsets/)|Medium|
@@ -2443,23 +2460,13 @@ My daily challenge on leetcode since 2021/09/06.
 |2022-07-24 15:12|436|[📎](src/q_401_450/q0436.cc)|[Find Right Interval](https://leetcode.com/problems/find-right-interval/)|Medium|
 |2022-07-24 14:52|826|[📎](src/q_801_850/q0826.cc)|[Most Profit Assigning Work](https://leetcode.com/problems/most-profit-assigning-work/)|Medium|
 |2022-07-23 17:35|1712|[📎](src/q_1701_1750/q1712.cc)|[Ways to Split Array Into Three Subarrays](https://leetcode.com/problems/ways-to-split-array-into-three-subarrays/)|Medium|
-|2022-07-22 23:34|482|[📎](src/q_451_500/q0482.cc)|[License Key Formatting](https://leetcode.com/problems/license-key-formatting/)|Easy|
-|2022-07-21 19:57|275|[📎](src/q_251_300/q0275.cc)|[H-Index II](https://leetcode.com/problems/h-index-ii/)|Medium|
-|2022-07-21 01:00|792|[📎](src/q_751_800/q0792.cc)|[Number of Matching Subsequences](https://leetcode.com/problems/number-of-matching-subsequences/)|Medium|
-|2022-07-20 19:02|1818|[📎](src/q_1801_1850/q1818.cc)|[Minimum Absolute Sum Difference](https://leetcode.com/problems/minimum-absolute-sum-difference/)|Medium|
-|2022-07-20 18:38|1482|[📎](src/q_1451_1500/q1482.cc)|[Minimum Number of Days to Make m Bouquets](https://leetcode.com/problems/minimum-number-of-days-to-make-m-bouquets/)|Medium|
-|2022-07-19 12:37|1870|[📎](src/q_1851_1900/q1870.cc)|[Minimum Speed to Arrive on Time](https://leetcode.com/problems/minimum-speed-to-arrive-on-time/)|Medium|
-|2022-07-19 12:27|1898|[📎](src/q_1851_1900/q1898.cc)|[Maximum Number of Removable Characters](https://leetcode.com/problems/maximum-number-of-removable-characters/)|Medium|
-|2022-07-18 18:54|1283|[📎](src/q_1251_1300/q1283.cc)|[Find the Smallest Divisor Given a Threshold](https://leetcode.com/problems/find-the-smallest-divisor-given-a-threshold/)|Medium|
-|2022-07-18 18:36|1074|[📎](src/q_1051_1100/q1074.cc)|[Number of Submatrices That Sum to Target](https://leetcode.com/problems/number-of-submatrices-that-sum-to-target/)|Hard|
-|2022-07-17 14:37|1552|[📎](src/q_1551_1600/q1552.cc)|[Magnetic Force Between Two Balls](https://leetcode.com/problems/magnetic-force-between-two-balls/)|Medium|
-|2022-07-17 14:25|629|[📎](src/q_601_650/q0629.cc)|[K Inverse Pairs Array](https://leetcode.com/problems/k-inverse-pairs-array/)|Hard|
 
 ## Previous Logs
 
 |Month|Submissions|Easy|Medium|Hard|
 |:--|:--|:--|:--|:--|
-|[July_2022](./assets/July_2022.md)|45|6|35|4|
+|[August_2022](./assets/August_2022.md)|9|1|7|1|
+|[July_2022](./assets/July_2022.md)|47|6|37|4|
 |[June_2022](./assets/June_2022.md)|30|8|19|3|
 |[May_2022](./assets/May_2022.md)|42|12|26|4|
 |[April_2022](./assets/April_2022.md)|56|37|19|0|

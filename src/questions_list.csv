@@ -305,7 +305,7 @@ id,title,level,slug,paid,done
 304,Range Sum Query 2D - Immutable,2,range-sum-query-2d-immutable,0,1
 305,Number of Islands II,3,number-of-islands-ii,1,0
 306,Additive Number,2,additive-number,0,0
-307,Range Sum Query - Mutable,2,range-sum-query-mutable,0,0
+307,Range Sum Query - Mutable,2,range-sum-query-mutable,0,1
 308,Range Sum Query 2D - Mutable,3,range-sum-query-2d-mutable,1,0
 309,Best Time to Buy and Sell Stock with Cooldown,2,best-time-to-buy-and-sell-stock-with-cooldown,0,1
 310,Minimum Height Trees,2,minimum-height-trees,0,1
@@ -376,7 +376,7 @@ id,title,level,slug,paid,done
 375,Guess Number Higher or Lower II,2,guess-number-higher-or-lower-ii,0,1
 376,Wiggle Subsequence,2,wiggle-subsequence,0,1
 377,Combination Sum IV,2,combination-sum-iv,0,1
-378,Kth Smallest Element in a Sorted Matrix,2,kth-smallest-element-in-a-sorted-matrix,0,0
+378,Kth Smallest Element in a Sorted Matrix,2,kth-smallest-element-in-a-sorted-matrix,0,1
 379,Design Phone Directory,2,design-phone-directory,1,0
 380,Insert Delete GetRandom O(1),2,insert-delete-getrandom-o1,0,1
 381,Insert Delete GetRandom O(1) - Duplicates allowed,3,insert-delete-getrandom-o1-duplicates-allowed,0,0
@@ -456,7 +456,7 @@ id,title,level,slug,paid,done
 455,Assign Cookies,1,assign-cookies,0,0
 456,132 Pattern,2,132-pattern,0,1
 457,Circular Array Loop,2,circular-array-loop,0,0
-458,Poor Pigs,3,poor-pigs,0,0
+458,Poor Pigs,3,poor-pigs,0,1
 459,Repeated Substring Pattern,1,repeated-substring-pattern,0,1
 460,LFU Cache,3,lfu-cache,0,0
 461,Hamming Distance,1,hamming-distance,0,1
@@ -856,7 +856,7 @@ id,title,level,slug,paid,done
 855,Exam Room,2,exam-room,0,0
 856,Score of Parentheses,2,score-of-parentheses,0,1
 857,Minimum Cost to Hire K Workers,3,minimum-cost-to-hire-k-workers,0,0
-858,Mirror Reflection,2,mirror-reflection,0,0
+858,Mirror Reflection,2,mirror-reflection,0,1
 859,Buddy Strings,1,buddy-strings,0,0
 860,Lemonade Change,1,lemonade-change,0,1
 861,Score After Flipping Matrix,2,score-after-flipping-matrix,0,0
@@ -909,7 +909,7 @@ id,title,level,slug,paid,done
 908,Smallest Range I,1,smallest-range-i,0,0
 909,Snakes and Ladders,2,snakes-and-ladders,0,0
 910,Smallest Range II,2,smallest-range-ii,0,1
-911,Online Election,2,online-election,0,0
+911,Online Election,2,online-election,0,1
 912,Sort an Array,2,sort-an-array,0,1
 913,Cat and Mouse,3,cat-and-mouse,0,0
 914,X of a Kind in a Deck of Cards,1,x-of-a-kind-in-a-deck-of-cards,0,0
@@ -1087,7 +1087,7 @@ id,title,level,slug,paid,done
 1086,High Five,1,high-five,1,0
 1087,Brace Expansion,2,brace-expansion,1,0
 1088,Confusing Number II,3,confusing-number-ii,1,0
-1089,Duplicate Zeros,1,duplicate-zeros,0,0
+1089,Duplicate Zeros,1,duplicate-zeros,0,1
 1090,Largest Values From Labels,2,largest-values-from-labels,0,0
 1091,Shortest Path in Binary Matrix,2,shortest-path-in-binary-matrix,0,1
 1092,Shortest Common Supersequence ,3,shortest-common-supersequence,0,0
@@ -1199,7 +1199,7 @@ id,title,level,slug,paid,done
 1198,Find Smallest Common Element in All Rows,2,find-smallest-common-element-in-all-rows,1,0
 1199,Minimum Time to Build Blocks,3,minimum-time-to-build-blocks,1,0
 1200,Minimum Absolute Difference,1,minimum-absolute-difference,0,1
-1201,Ugly Number III,2,ugly-number-iii,0,0
+1201,Ugly Number III,2,ugly-number-iii,0,1
 1202,Smallest String With Swaps,2,smallest-string-with-swaps,0,1
 1203,Sort Items by Groups Respecting Dependencies,3,sort-items-by-groups-respecting-dependencies,0,0
 1204,Last Person to Fit in the Bus,2,last-person-to-fit-in-the-bus,1,0
@@ -1486,7 +1486,7 @@ id,title,level,slug,paid,done
 1485,Clone Binary Tree With Random Pointer,2,clone-binary-tree-with-random-pointer,1,0
 1486,XOR Operation in an Array,1,xor-operation-in-an-array,0,0
 1487,Making File Names Unique,2,making-file-names-unique,0,0
-1488,Avoid Flood in The City,2,avoid-flood-in-the-city,0,0
+1488,Avoid Flood in The City,2,avoid-flood-in-the-city,0,1
 1489,Find Critical and Pseudo-Critical Edges in Minimum Spanning Tree,3,find-critical-and-pseudo-critical-edges-in-minimum-spanning-tree,0,0
 1490,Clone N-ary Tree,2,clone-n-ary-tree,1,0
 1491,Average Salary Excluding the Minimum and Maximum Salary,1,average-salary-excluding-the-minimum-and-maximum-salary,0,1
@@ -1560,7 +1560,7 @@ id,title,level,slug,paid,done
 1559,Detect Cycles in 2D Grid,2,detect-cycles-in-2d-grid,0,1
 1560,Most Visited Sector in  a Circular Track,1,most-visited-sector-in-a-circular-track,0,0
 1561,Maximum Number of Coins You Can Get,2,maximum-number-of-coins-you-can-get,0,0
-1562,Find Latest Group of Size M,2,find-latest-group-of-size-m,0,0
+1562,Find Latest Group of Size M,2,find-latest-group-of-size-m,0,1
 1563,Stone Game V,3,stone-game-v,0,0
 1564,Put Boxes Into the Warehouse I,2,put-boxes-into-the-warehouse-i,1,0
 1565,Unique Orders and Customers Per Month,1,unique-orders-and-customers-per-month,1,0
@@ -1646,7 +1646,7 @@ id,title,level,slug,paid,done
 1645,Hopper Company Queries II,3,hopper-company-queries-ii,1,0
 1646,Get Maximum in Generated Array,1,get-maximum-in-generated-array,0,0
 1647,Minimum Deletions to Make Character Frequencies Unique,2,minimum-deletions-to-make-character-frequencies-unique,0,1
-1648,Sell Diminishing-Valued Colored Balls,2,sell-diminishing-valued-colored-balls,0,0
+1648,Sell Diminishing-Valued Colored Balls,2,sell-diminishing-valued-colored-balls,0,1
 1649,Create Sorted Array through Instructions,3,create-sorted-array-through-instructions,0,0
 1650,Lowest Common Ancestor of a Binary Tree III,2,lowest-common-ancestor-of-a-binary-tree-iii,1,0
 1651,Hopper Company Queries III,3,hopper-company-queries-iii,1,0
@@ -2309,7 +2309,7 @@ id,title,level,slug,paid,done
 2308,Arrange Table by Gender,2,arrange-table-by-gender,1,0
 2309,Greatest English Letter in Upper and Lower Case,1,greatest-english-letter-in-upper-and-lower-case,0,0
 2310,Sum of Numbers With Units Digit K,2,sum-of-numbers-with-units-digit-k,0,0
-2311,Longest Binary Subsequence Less Than or Equal to K,2,longest-binary-subsequence-less-than-or-equal-to-k,0,0
+2311,Longest Binary Subsequence Less Than or Equal to K,2,longest-binary-subsequence-less-than-or-equal-to-k,0,1
 2312,Selling Pieces of Wood,3,selling-pieces-of-wood,0,0
 2313,Minimum Flips in Binary Tree to Get Result,3,minimum-flips-in-binary-tree-to-get-result,1,0
 2314,The First Day of the Maximum Recorded Degree in Each City,2,the-first-day-of-the-maximum-recorded-degree-in-each-city,1,0
@@ -2355,3 +2355,9 @@ id,title,level,slug,paid,done
 2354,Number of Excellent Pairs,3,number-of-excellent-pairs,0,0
 2355,Maximum Number of Books You Can Take,3,maximum-number-of-books-you-can-take,1,0
 2356,Number of Unique Subjects Taught by Each Teacher,1,number-of-unique-subjects-taught-by-each-teacher,1,0
+2357,Make Array Zero by Subtracting Equal Amounts,1,make-array-zero-by-subtracting-equal-amounts,0,0
+2358,Maximum Number of Groups Entering a Competition,2,maximum-number-of-groups-entering-a-competition,0,0
+2359,Find Closest Node to Given Two Nodes,2,find-closest-node-to-given-two-nodes,0,0
+2360,Longest Cycle in a Graph,3,longest-cycle-in-a-graph,0,0
+2361,Minimum Costs Using the Train Line,3,minimum-costs-using-the-train-line,1,0
+2362,Generate the Invoice,3,generate-the-invoice,1,0
