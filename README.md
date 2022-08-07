@@ -1255,7 +1255,7 @@ My daily challenge on leetcode since 2021/09/06.
 |[📎](src/q_1201_1250/q1217.cc)|1217|[Minimum Cost to Move Chips to The Same Position](https://leetcode.com/problems/minimum-cost-to-move-chips-to-the-same-position/)|Easy|
 ||1218|[Longest Arithmetic Subsequence of Given Difference](https://leetcode.com/problems/longest-arithmetic-subsequence-of-given-difference/)|Medium|
 ||1219|[Path with Maximum Gold](https://leetcode.com/problems/path-with-maximum-gold/)|Medium|
-||1220|[Count Vowels Permutation](https://leetcode.com/problems/count-vowels-permutation/)|Hard|
+|[📎](src/q_1201_1250/q1220.cc)|1220|[Count Vowels Permutation](https://leetcode.com/problems/count-vowels-permutation/)|Hard|
 |[📎](src/q_1201_1250/q1221.cc)|1221|[Split a String in Balanced Strings](https://leetcode.com/problems/split-a-string-in-balanced-strings/)|Easy|
 ||1222|[Queens That Can Attack the King](https://leetcode.com/problems/queens-that-can-attack-the-king/)|Medium|
 ||1223|[Dice Roll Simulation](https://leetcode.com/problems/dice-roll-simulation/)|Hard|
@@ -2312,7 +2312,7 @@ My daily challenge on leetcode since 2021/09/06.
 ||2250|[Count Number of Rectangles Containing Each Point](https://leetcode.com/problems/count-number-of-rectangles-containing-each-point/)|Medium|
 </details>
 <details>
-  <summary>### 2251 ~ 2362</summary>
+  <summary>### 2251 ~ 2370</summary>
 
 |</>|#|Solution Title|Difficulty|
 |:-:|--:|:--|:--|
@@ -2428,6 +2428,14 @@ My daily challenge on leetcode since 2021/09/06.
 ||2360|[Longest Cycle in a Graph](https://leetcode.com/problems/longest-cycle-in-a-graph/)|Hard|
 |🔒|2361|[Minimum Costs Using the Train Line](https://leetcode.com/problems/minimum-costs-using-the-train-line/)|Hard|
 |🔒|2362|[Generate the Invoice](https://leetcode.com/problems/generate-the-invoice/)|Hard|
+||2363|[Merge Similar Items](https://leetcode.com/problems/merge-similar-items/)|Easy|
+||2364|[Count Number of Bad Pairs](https://leetcode.com/problems/count-number-of-bad-pairs/)|Medium|
+||2365|[Task Scheduler II](https://leetcode.com/problems/task-scheduler-ii/)|Medium|
+||2366|[Minimum Replacements to Sort the Array](https://leetcode.com/problems/minimum-replacements-to-sort-the-array/)|Hard|
+||2367|[Number of Arithmetic Triplets](https://leetcode.com/problems/number-of-arithmetic-triplets/)|Easy|
+||2368|[Reachable Nodes With Restrictions](https://leetcode.com/problems/reachable-nodes-with-restrictions/)|Medium|
+||2369|[Check if There is a Valid Partition For The Array](https://leetcode.com/problems/check-if-there-is-a-valid-partition-for-the-array/)|Medium|
+||2370|[Longest Ideal Subsequence](https://leetcode.com/problems/longest-ideal-subsequence/)|Medium|
 </details>
 
 ---
@@ -2435,6 +2443,7 @@ My daily challenge on leetcode since 2021/09/06.
 
 |Time|#|</>|Question Title|Difficulty|
 |:--|--:|:-:|:--|:--|
+|2022-08-07 13:07|1220|[📎](src/q_1201_1250/q1220.cc)|[Count Vowels Permutation](https://leetcode.com/problems/count-vowels-permutation/)|Hard|
 |2022-08-06 15:12|458|[📎](src/q_451_500/q0458.cc)|[Poor Pigs](https://leetcode.com/problems/poor-pigs/)|Hard|
 |2022-08-05 18:28|1089|[📎](src/q_1051_1100/q1089.cc)|[Duplicate Zeros](https://leetcode.com/problems/duplicate-zeros/)|Easy|
 |2022-08-04 18:31|858|[📎](src/q_851_900/q0858.cc)|[Mirror Reflection](https://leetcode.com/problems/mirror-reflection/)|Medium|
@@ -2459,13 +2468,12 @@ My daily challenge on leetcode since 2021/09/06.
 |2022-07-26 19:19|528|[📎](src/q_501_550/q0528.cc)|[Random Pick with Weight](https://leetcode.com/problems/random-pick-with-weight/)|Medium|
 |2022-07-24 15:12|436|[📎](src/q_401_450/q0436.cc)|[Find Right Interval](https://leetcode.com/problems/find-right-interval/)|Medium|
 |2022-07-24 14:52|826|[📎](src/q_801_850/q0826.cc)|[Most Profit Assigning Work](https://leetcode.com/problems/most-profit-assigning-work/)|Medium|
-|2022-07-23 17:35|1712|[📎](src/q_1701_1750/q1712.cc)|[Ways to Split Array Into Three Subarrays](https://leetcode.com/problems/ways-to-split-array-into-three-subarrays/)|Medium|
 
 ## Previous Logs
 
 |Month|Submissions|Easy|Medium|Hard|
 |:--|:--|:--|:--|:--|
-|[August_2022](./assets/August_2022.md)|9|1|7|1|
+|[August_2022](./assets/August_2022.md)|10|1|7|2|
 |[July_2022](./assets/July_2022.md)|47|6|37|4|
 |[June_2022](./assets/June_2022.md)|30|8|19|3|
 |[May_2022](./assets/May_2022.md)|42|12|26|4|
