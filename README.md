@@ -1307,7 +1307,7 @@ My daily challenge on leetcode since 2021/09/06.
 ||1263|[Minimum Moves to Move a Box to Their Target Location](https://leetcode.com/problems/minimum-moves-to-move-a-box-to-their-target-location/)|Hard|
 |🔒|1264|[Page Recommendations](https://leetcode.com/problems/page-recommendations/)|Medium|
 |🔒|1265|[Print Immutable Linked List in Reverse](https://leetcode.com/problems/print-immutable-linked-list-in-reverse/)|Medium|
-||1266|[Minimum Time Visiting All Points](https://leetcode.com/problems/minimum-time-visiting-all-points/)|Easy|
+|[📎](src/q_1251_1300/q1266.cc)|1266|[Minimum Time Visiting All Points](https://leetcode.com/problems/minimum-time-visiting-all-points/)|Easy|
 |[📎](src/q_1251_1300/q1267.cc)|1267|[Count Servers that Communicate](https://leetcode.com/problems/count-servers-that-communicate/)|Medium|
 |[📎](src/q_1251_1300/q1268.cc)|1268|[Search Suggestions System](https://leetcode.com/problems/search-suggestions-system/)|Medium|
 ||1269|[Number of Ways to Stay in the Same Place After Some Steps](https://leetcode.com/problems/number-of-ways-to-stay-in-the-same-place-after-some-steps/)|Hard|
@@ -2443,6 +2443,7 @@ My daily challenge on leetcode since 2021/09/06.
 
 |Time|#|</>|Question Title|Difficulty|
 |:--|--:|:-:|:--|:--|
+|2022-08-08 18:22|1266|[📎](src/q_1251_1300/q1266.cc)|[Minimum Time Visiting All Points](https://leetcode.com/problems/minimum-time-visiting-all-points/)|Easy|
 |2022-08-07 13:07|1220|[📎](src/q_1201_1250/q1220.cc)|[Count Vowels Permutation](https://leetcode.com/problems/count-vowels-permutation/)|Hard|
 |2022-08-06 15:12|458|[📎](src/q_451_500/q0458.cc)|[Poor Pigs](https://leetcode.com/problems/poor-pigs/)|Hard|
 |2022-08-05 18:28|1089|[📎](src/q_1051_1100/q1089.cc)|[Duplicate Zeros](https://leetcode.com/problems/duplicate-zeros/)|Easy|
@@ -2467,13 +2468,12 @@ My daily challenge on leetcode since 2021/09/06.
 |2022-07-27 18:21|1574|[📎](src/q_1551_1600/q1574.cc)|[Shortest Subarray to be Removed to Make Array Sorted](https://leetcode.com/problems/shortest-subarray-to-be-removed-to-make-array-sorted/)|Medium|
 |2022-07-26 19:19|528|[📎](src/q_501_550/q0528.cc)|[Random Pick with Weight](https://leetcode.com/problems/random-pick-with-weight/)|Medium|
 |2022-07-24 15:12|436|[📎](src/q_401_450/q0436.cc)|[Find Right Interval](https://leetcode.com/problems/find-right-interval/)|Medium|
-|2022-07-24 14:52|826|[📎](src/q_801_850/q0826.cc)|[Most Profit Assigning Work](https://leetcode.com/problems/most-profit-assigning-work/)|Medium|
 
 ## Previous Logs
 
 |Month|Submissions|Easy|Medium|Hard|
 |:--|:--|:--|:--|:--|
-|[August_2022](./assets/August_2022.md)|10|1|7|2|
+|[August_2022](./assets/August_2022.md)|11|2|7|2|
 |[July_2022](./assets/July_2022.md)|47|6|37|4|
 |[June_2022](./assets/June_2022.md)|30|8|19|3|
 |[May_2022](./assets/May_2022.md)|42|12|26|4|
