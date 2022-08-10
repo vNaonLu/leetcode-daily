@@ -956,7 +956,7 @@ id,title,level,slug,paid,done
 955,Delete Columns to Make Sorted II,2,delete-columns-to-make-sorted-ii,0,0
 956,Tallest Billboard,3,tallest-billboard,0,0
 957,Prison Cells After N Days,2,prison-cells-after-n-days,0,0
-958,Check Completeness of a Binary Tree,2,check-completeness-of-a-binary-tree,0,0
+958,Check Completeness of a Binary Tree,2,check-completeness-of-a-binary-tree,0,1
 959,Regions Cut By Slashes,2,regions-cut-by-slashes,0,0
 960,Delete Columns to Make Sorted III,3,delete-columns-to-make-sorted-iii,0,0
 961,N-Repeated Element in Size 2N Array,1,n-repeated-element-in-size-2n-array,0,0
