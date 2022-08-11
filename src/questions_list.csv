@@ -1918,7 +1918,7 @@ id,title,level,slug,paid,done
 1917,Leetcodify Friends Recommendations,3,leetcodify-friends-recommendations,1,0
 1918,Kth Smallest Subarray Sum,2,kth-smallest-subarray-sum,1,0
 1919,Leetcodify Similar Friends,3,leetcodify-similar-friends,1,0
-1920,Build Array from Permutation,1,build-array-from-permutation,0,0
+1920,Build Array from Permutation,1,build-array-from-permutation,0,1
 1921,Eliminate Maximum Number of Monsters,2,eliminate-maximum-number-of-monsters,0,0
 1922,Count Good Numbers,2,count-good-numbers,0,0
 1923,Longest Common Subpath,3,longest-common-subpath,0,0
