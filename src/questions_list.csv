@@ -2219,7 +2219,7 @@ id,title,level,slug,paid,done
 2218,Maximum Value of K Coins From Piles,3,maximum-value-of-k-coins-from-piles,0,0
 2219,Maximum Sum Score of Array,2,maximum-sum-score-of-array,1,0
 2220,Minimum Bit Flips to Convert Number,1,minimum-bit-flips-to-convert-number,0,0
-2221,Find Triangular Sum of an Array,2,find-triangular-sum-of-an-array,0,0
+2221,Find Triangular Sum of an Array,2,find-triangular-sum-of-an-array,0,1
 2222,Number of Ways to Select Buildings,2,number-of-ways-to-select-buildings,0,0
 2223,Sum of Scores of Built Strings,3,sum-of-scores-of-built-strings,0,0
 2224,Minimum Number of Operations to Convert Time,1,minimum-number-of-operations-to-convert-time,0,0
@@ -2369,3 +2369,4 @@ id,title,level,slug,paid,done
 2368,Reachable Nodes With Restrictions,2,reachable-nodes-with-restrictions,0,0
 2369,Check if There is a Valid Partition For The Array,2,check-if-there-is-a-valid-partition-for-the-array,0,0
 2370,Longest Ideal Subsequence,2,longest-ideal-subsequence,0,0
+2371,Minimize Maximum Value in a Grid,3,minimize-maximum-value-in-a-grid,1,0
