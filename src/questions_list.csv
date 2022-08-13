@@ -290,7 +290,7 @@ id,title,level,slug,paid,done
 289,Game of Life,2,game-of-life,0,1
 290,Word Pattern,1,word-pattern,0,1
 291,Word Pattern II,2,word-pattern-ii,1,0
-292,Nim Game,1,nim-game,0,0
+292,Nim Game,1,nim-game,0,1
 293,Flip Game,1,flip-game,1,0
 294,Flip Game II,2,flip-game-ii,1,0
 295,Find Median from Data Stream,3,find-median-from-data-stream,0,0

@@ -309,7 +309,7 @@ My daily challenge on leetcode since 2021/09/06.
 |[📎](src/q_251_300/q0289.cc)|289|[Game of Life](https://leetcode.com/problems/game-of-life/)|Medium|
 |[📎](src/q_251_300/q0290.cc)|290|[Word Pattern](https://leetcode.com/problems/word-pattern/)|Easy|
 |🔒|291|[Word Pattern II](https://leetcode.com/problems/word-pattern-ii/)|Medium|
-||292|[Nim Game](https://leetcode.com/problems/nim-game/)|Easy|
+|[📎](src/q_251_300/q0292.cc)|292|[Nim Game](https://leetcode.com/problems/nim-game/)|Easy|
 |🔒|293|[Flip Game](https://leetcode.com/problems/flip-game/)|Easy|
 |🔒|294|[Flip Game II](https://leetcode.com/problems/flip-game-ii/)|Medium|
 ||295|[Find Median from Data Stream](https://leetcode.com/problems/find-median-from-data-stream/)|Hard|
@@ -2444,6 +2444,7 @@ My daily challenge on leetcode since 2021/09/06.
 
 |Time|#|</>|Question Title|Difficulty|
 |:--|--:|:-:|:--|:--|
+|2022-08-13 12:42|292|[📎](src/q_251_300/q0292.cc)|[Nim Game](https://leetcode.com/problems/nim-game/)|Easy|
 |2022-08-12 21:19|2221|[📎](src/q_2201_2250/q2221.cc)|[Find Triangular Sum of an Array](https://leetcode.com/problems/find-triangular-sum-of-an-array/)|Medium|
 |2022-08-11 12:04|1920|[📎](src/q_1901_1950/q1920.cc)|[Build Array from Permutation](https://leetcode.com/problems/build-array-from-permutation/)|Easy|
 |2022-08-10 20:36|958|[📎](src/q_951_1000/q0958.cc)|[Check Completeness of a Binary Tree](https://leetcode.com/problems/check-completeness-of-a-binary-tree/)|Medium|
@@ -2468,13 +2469,12 @@ My daily challenge on leetcode since 2021/09/06.
 |2022-07-29 18:41|981|[📎](src/q_951_1000/q0981.cc)|[Time Based Key-Value Store](https://leetcode.com/problems/time-based-key-value-store/)|Medium|
 |2022-07-29 18:21|890|[📎](src/q_851_900/q0890.cc)|[Find and Replace Pattern](https://leetcode.com/problems/find-and-replace-pattern/)|Medium|
 |2022-07-28 18:56|1498|[📎](src/q_1451_1500/q1498.cc)|[Number of Subsequences That Satisfy the Given Sum Condition](https://leetcode.com/problems/number-of-subsequences-that-satisfy-the-given-sum-condition/)|Medium|
-|2022-07-28 18:17|1292|[📎](src/q_1251_1300/q1292.cc)|[Maximum Side Length of a Square with Sum Less than or Equal to Threshold](https://leetcode.com/problems/maximum-side-length-of-a-square-with-sum-less-than-or-equal-to-threshold/)|Medium|
 
 ## Previous Logs
 
 |Month|Submissions|Easy|Medium|Hard|
 |:--|:--|:--|:--|:--|
-|[August_2022](./assets/August_2022.md)|15|3|10|2|
+|[August_2022](./assets/August_2022.md)|16|4|10|2|
 |[July_2022](./assets/July_2022.md)|47|6|37|4|
 |[June_2022](./assets/June_2022.md)|30|8|19|3|
 |[May_2022](./assets/May_2022.md)|42|12|26|4|
