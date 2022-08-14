@@ -137,7 +137,7 @@ My daily challenge on leetcode since 2021/09/06.
 |[📎](src/q_101_150/q0123.cc)|123|[Best Time to Buy and Sell Stock III](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iii/)|Hard|
 |[📎](src/q_101_150/q0124.cc)|124|[Binary Tree Maximum Path Sum](https://leetcode.com/problems/binary-tree-maximum-path-sum/)|Hard|
 ||125|[Valid Palindrome](https://leetcode.com/problems/valid-palindrome/)|Easy|
-||126|[Word Ladder II](https://leetcode.com/problems/word-ladder-ii/)|Hard|
+|[📎](src/q_101_150/q0126.cc)|126|[Word Ladder II](https://leetcode.com/problems/word-ladder-ii/)|Hard|
 |[📎](src/q_101_150/q0127.cc)|127|[Word Ladder](https://leetcode.com/problems/word-ladder/)|Hard|
 |[📎](src/q_101_150/q0128.cc)|128|[Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence/)|Medium|
 |[📎](src/q_101_150/q0129.cc)|129|[Sum Root to Leaf Numbers](https://leetcode.com/problems/sum-root-to-leaf-numbers/)|Medium|
@@ -2312,7 +2312,7 @@ My daily challenge on leetcode since 2021/09/06.
 ||2250|[Count Number of Rectangles Containing Each Point](https://leetcode.com/problems/count-number-of-rectangles-containing-each-point/)|Medium|
 </details>
 <details>
-  <summary>### 2251 ~ 2371</summary>
+  <summary>### 2251 ~ 2372</summary>
 
 |</>|#|Solution Title|Difficulty|
 |:-:|--:|:--|:--|
@@ -2437,6 +2437,7 @@ My daily challenge on leetcode since 2021/09/06.
 ||2369|[Check if There is a Valid Partition For The Array](https://leetcode.com/problems/check-if-there-is-a-valid-partition-for-the-array/)|Medium|
 ||2370|[Longest Ideal Subsequence](https://leetcode.com/problems/longest-ideal-subsequence/)|Medium|
 |🔒|2371|[Minimize Maximum Value in a Grid](https://leetcode.com/problems/minimize-maximum-value-in-a-grid/)|Hard|
+|🔒|2372|[Calculate the Influence of Each Salesperson](https://leetcode.com/problems/calculate-the-influence-of-each-salesperson/)|Medium|
 </details>
 
 ---
@@ -2444,6 +2445,7 @@ My daily challenge on leetcode since 2021/09/06.
 
 |Time|#|</>|Question Title|Difficulty|
 |:--|--:|:-:|:--|:--|
+|2022-08-14 14:35|126|[📎](src/q_101_150/q0126.cc)|[Word Ladder II](https://leetcode.com/problems/word-ladder-ii/)|Hard|
 |2022-08-13 12:42|292|[📎](src/q_251_300/q0292.cc)|[Nim Game](https://leetcode.com/problems/nim-game/)|Easy|
 |2022-08-12 21:19|2221|[📎](src/q_2201_2250/q2221.cc)|[Find Triangular Sum of an Array](https://leetcode.com/problems/find-triangular-sum-of-an-array/)|Medium|
 |2022-08-11 12:04|1920|[📎](src/q_1901_1950/q1920.cc)|[Build Array from Permutation](https://leetcode.com/problems/build-array-from-permutation/)|Easy|
@@ -2468,13 +2470,12 @@ My daily challenge on leetcode since 2021/09/06.
 |2022-07-29 18:49|1300|[📎](src/q_1251_1300/q1300.cc)|[Sum of Mutated Array Closest to Target](https://leetcode.com/problems/sum-of-mutated-array-closest-to-target/)|Medium|
 |2022-07-29 18:41|981|[📎](src/q_951_1000/q0981.cc)|[Time Based Key-Value Store](https://leetcode.com/problems/time-based-key-value-store/)|Medium|
 |2022-07-29 18:21|890|[📎](src/q_851_900/q0890.cc)|[Find and Replace Pattern](https://leetcode.com/problems/find-and-replace-pattern/)|Medium|
-|2022-07-28 18:56|1498|[📎](src/q_1451_1500/q1498.cc)|[Number of Subsequences That Satisfy the Given Sum Condition](https://leetcode.com/problems/number-of-subsequences-that-satisfy-the-given-sum-condition/)|Medium|
 
 ## Previous Logs
 
 |Month|Submissions|Easy|Medium|Hard|
 |:--|:--|:--|:--|:--|
-|[August_2022](./assets/August_2022.md)|16|4|10|2|
+|[August_2022](./assets/August_2022.md)|17|4|10|3|
 |[July_2022](./assets/July_2022.md)|47|6|37|4|
 |[June_2022](./assets/June_2022.md)|30|8|19|3|
 |[May_2022](./assets/May_2022.md)|42|12|26|4|

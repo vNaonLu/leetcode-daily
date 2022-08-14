@@ -124,7 +124,7 @@ id,title,level,slug,paid,done
 123,Best Time to Buy and Sell Stock III,3,best-time-to-buy-and-sell-stock-iii,0,1
 124,Binary Tree Maximum Path Sum,3,binary-tree-maximum-path-sum,0,1
 125,Valid Palindrome,1,valid-palindrome,0,0
-126,Word Ladder II,3,word-ladder-ii,0,0
+126,Word Ladder II,3,word-ladder-ii,0,1
 127,Word Ladder,3,word-ladder,0,1
 128,Longest Consecutive Sequence,2,longest-consecutive-sequence,0,1
 129,Sum Root to Leaf Numbers,2,sum-root-to-leaf-numbers,0,1
@@ -2370,3 +2370,4 @@ id,title,level,slug,paid,done
 2369,Check if There is a Valid Partition For The Array,2,check-if-there-is-a-valid-partition-for-the-array,0,0
 2370,Longest Ideal Subsequence,2,longest-ideal-subsequence,0,0
 2371,Minimize Maximum Value in a Grid,3,minimize-maximum-value-in-a-grid,1,0
+2372,Calculate the Influence of Each Salesperson,2,calculate-the-influence-of-each-salesperson,1,0
