@@ -418,7 +418,7 @@ My daily challenge on leetcode since 2021/09/06.
 ||398|[Random Pick Index](https://leetcode.com/problems/random-pick-index/)|Medium|
 |[📎](src/q_351_400/q0399.cc)|399|[Evaluate Division](https://leetcode.com/problems/evaluate-division/)|Medium|
 ||400|[Nth Digit](https://leetcode.com/problems/nth-digit/)|Medium|
-||401|[Binary Watch](https://leetcode.com/problems/binary-watch/)|Easy|
+|[📎](src/q_401_450/q0401.cc)|401|[Binary Watch](https://leetcode.com/problems/binary-watch/)|Easy|
 |[📎](src/q_401_450/q0402.cc)|402|[Remove K Digits](https://leetcode.com/problems/remove-k-digits/)|Medium|
 ||403|[Frog Jump](https://leetcode.com/problems/frog-jump/)|Hard|
 |[📎](src/q_401_450/q0404.cc)|404|[Sum of Left Leaves](https://leetcode.com/problems/sum-of-left-leaves/)|Easy|
@@ -2312,7 +2312,7 @@ My daily challenge on leetcode since 2021/09/06.
 ||2250|[Count Number of Rectangles Containing Each Point](https://leetcode.com/problems/count-number-of-rectangles-containing-each-point/)|Medium|
 </details>
 <details>
-  <summary>### 2251 ~ 2372</summary>
+  <summary>### 2251 ~ 2376</summary>
 
 |</>|#|Solution Title|Difficulty|
 |:-:|--:|:--|:--|
@@ -2438,6 +2438,10 @@ My daily challenge on leetcode since 2021/09/06.
 ||2370|[Longest Ideal Subsequence](https://leetcode.com/problems/longest-ideal-subsequence/)|Medium|
 |🔒|2371|[Minimize Maximum Value in a Grid](https://leetcode.com/problems/minimize-maximum-value-in-a-grid/)|Hard|
 |🔒|2372|[Calculate the Influence of Each Salesperson](https://leetcode.com/problems/calculate-the-influence-of-each-salesperson/)|Medium|
+||2373|[Largest Local Values in a Matrix](https://leetcode.com/problems/largest-local-values-in-a-matrix/)|Easy|
+||2374|[Node With Highest Edge Score](https://leetcode.com/problems/node-with-highest-edge-score/)|Medium|
+||2375|[Construct Smallest Number From DI String](https://leetcode.com/problems/construct-smallest-number-from-di-string/)|Medium|
+||2376|[Count Special Integers](https://leetcode.com/problems/count-special-integers/)|Hard|
 </details>
 
 ---
@@ -2445,6 +2449,7 @@ My daily challenge on leetcode since 2021/09/06.
 
 |Time|#|</>|Question Title|Difficulty|
 |:--|--:|:-:|:--|:--|
+|2022-08-15 18:05|401|[📎](src/q_401_450/q0401.cc)|[Binary Watch](https://leetcode.com/problems/binary-watch/)|Easy|
 |2022-08-14 14:35|126|[📎](src/q_101_150/q0126.cc)|[Word Ladder II](https://leetcode.com/problems/word-ladder-ii/)|Hard|
 |2022-08-13 12:42|292|[📎](src/q_251_300/q0292.cc)|[Nim Game](https://leetcode.com/problems/nim-game/)|Easy|
 |2022-08-12 21:19|2221|[📎](src/q_2201_2250/q2221.cc)|[Find Triangular Sum of an Array](https://leetcode.com/problems/find-triangular-sum-of-an-array/)|Medium|
@@ -2469,13 +2474,12 @@ My daily challenge on leetcode since 2021/09/06.
 |2022-07-30 16:44|916|[📎](src/q_901_950/q0916.cc)|[Word Subsets](https://leetcode.com/problems/word-subsets/)|Medium|
 |2022-07-29 18:49|1300|[📎](src/q_1251_1300/q1300.cc)|[Sum of Mutated Array Closest to Target](https://leetcode.com/problems/sum-of-mutated-array-closest-to-target/)|Medium|
 |2022-07-29 18:41|981|[📎](src/q_951_1000/q0981.cc)|[Time Based Key-Value Store](https://leetcode.com/problems/time-based-key-value-store/)|Medium|
-|2022-07-29 18:21|890|[📎](src/q_851_900/q0890.cc)|[Find and Replace Pattern](https://leetcode.com/problems/find-and-replace-pattern/)|Medium|
 
 ## Previous Logs
 
 |Month|Submissions|Easy|Medium|Hard|
 |:--|:--|:--|:--|:--|
-|[August_2022](./assets/August_2022.md)|17|4|10|3|
+|[August_2022](./assets/August_2022.md)|18|5|10|3|
 |[July_2022](./assets/July_2022.md)|47|6|37|4|
 |[June_2022](./assets/June_2022.md)|30|8|19|3|
 |[May_2022](./assets/May_2022.md)|42|12|26|4|
