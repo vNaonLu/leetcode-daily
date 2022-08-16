@@ -802,7 +802,7 @@ id,title,level,slug,paid,done
 801,Minimum Swaps To Make Sequences Increasing,3,minimum-swaps-to-make-sequences-increasing,0,0
 802,Find Eventual Safe States,2,find-eventual-safe-states,0,1
 803,Bricks Falling When Hit,3,bricks-falling-when-hit,0,0
-804,Unique Morse Code Words,1,unique-morse-code-words,0,0
+804,Unique Morse Code Words,1,unique-morse-code-words,0,1
 805,Split Array With Same Average,3,split-array-with-same-average,0,0
 806,Number of Lines To Write String,1,number-of-lines-to-write-string,0,0
 807,Max Increase to Keep City Skyline,2,max-increase-to-keep-city-skyline,0,0
@@ -2375,3 +2375,4 @@ id,title,level,slug,paid,done
 2374,Node With Highest Edge Score,2,node-with-highest-edge-score,0,0
 2375,Construct Smallest Number From DI String,2,construct-smallest-number-from-di-string,0,0
 2376,Count Special Integers,3,count-special-integers,0,0
+2377,Sort the Olympic Table,1,sort-the-olympic-table,1,0

@@ -833,7 +833,7 @@ My daily challenge on leetcode since 2021/09/06.
 ||801|[Minimum Swaps To Make Sequences Increasing](https://leetcode.com/problems/minimum-swaps-to-make-sequences-increasing/)|Hard|
 |[📎](src/q_801_850/q0802.cc)|802|[Find Eventual Safe States](https://leetcode.com/problems/find-eventual-safe-states/)|Medium|
 ||803|[Bricks Falling When Hit](https://leetcode.com/problems/bricks-falling-when-hit/)|Hard|
-||804|[Unique Morse Code Words](https://leetcode.com/problems/unique-morse-code-words/)|Easy|
+|[📎](src/q_801_850/q0804.cc)|804|[Unique Morse Code Words](https://leetcode.com/problems/unique-morse-code-words/)|Easy|
 ||805|[Split Array With Same Average](https://leetcode.com/problems/split-array-with-same-average/)|Hard|
 ||806|[Number of Lines To Write String](https://leetcode.com/problems/number-of-lines-to-write-string/)|Easy|
 ||807|[Max Increase to Keep City Skyline](https://leetcode.com/problems/max-increase-to-keep-city-skyline/)|Medium|
@@ -2312,7 +2312,7 @@ My daily challenge on leetcode since 2021/09/06.
 ||2250|[Count Number of Rectangles Containing Each Point](https://leetcode.com/problems/count-number-of-rectangles-containing-each-point/)|Medium|
 </details>
 <details>
-  <summary>### 2251 ~ 2376</summary>
+  <summary>### 2251 ~ 2377</summary>
 
 |</>|#|Solution Title|Difficulty|
 |:-:|--:|:--|:--|
@@ -2442,6 +2442,7 @@ My daily challenge on leetcode since 2021/09/06.
 ||2374|[Node With Highest Edge Score](https://leetcode.com/problems/node-with-highest-edge-score/)|Medium|
 ||2375|[Construct Smallest Number From DI String](https://leetcode.com/problems/construct-smallest-number-from-di-string/)|Medium|
 ||2376|[Count Special Integers](https://leetcode.com/problems/count-special-integers/)|Hard|
+|🔒|2377|[Sort the Olympic Table](https://leetcode.com/problems/sort-the-olympic-table/)|Easy|
 </details>
 
 ---
@@ -2449,6 +2450,7 @@ My daily challenge on leetcode since 2021/09/06.
 
 |Time|#|</>|Question Title|Difficulty|
 |:--|--:|:-:|:--|:--|
+|2022-08-16 18:33|804|[📎](src/q_801_850/q0804.cc)|[Unique Morse Code Words](https://leetcode.com/problems/unique-morse-code-words/)|Easy|
 |2022-08-15 18:05|401|[📎](src/q_401_450/q0401.cc)|[Binary Watch](https://leetcode.com/problems/binary-watch/)|Easy|
 |2022-08-14 14:35|126|[📎](src/q_101_150/q0126.cc)|[Word Ladder II](https://leetcode.com/problems/word-ladder-ii/)|Hard|
 |2022-08-13 12:42|292|[📎](src/q_251_300/q0292.cc)|[Nim Game](https://leetcode.com/problems/nim-game/)|Easy|
@@ -2473,13 +2475,12 @@ My daily challenge on leetcode since 2021/09/06.
 |2022-07-30 17:15|1802|[📎](src/q_1801_1850/q1802.cc)|[Maximum Value at a Given Index in a Bounded Array](https://leetcode.com/problems/maximum-value-at-a-given-index-in-a-bounded-array/)|Medium|
 |2022-07-30 16:44|916|[📎](src/q_901_950/q0916.cc)|[Word Subsets](https://leetcode.com/problems/word-subsets/)|Medium|
 |2022-07-29 18:49|1300|[📎](src/q_1251_1300/q1300.cc)|[Sum of Mutated Array Closest to Target](https://leetcode.com/problems/sum-of-mutated-array-closest-to-target/)|Medium|
-|2022-07-29 18:41|981|[📎](src/q_951_1000/q0981.cc)|[Time Based Key-Value Store](https://leetcode.com/problems/time-based-key-value-store/)|Medium|
 
 ## Previous Logs
 
 |Month|Submissions|Easy|Medium|Hard|
 |:--|:--|:--|:--|:--|
-|[August_2022](./assets/August_2022.md)|18|5|10|3|
+|[August_2022](./assets/August_2022.md)|19|6|10|3|
 |[July_2022](./assets/July_2022.md)|47|6|37|4|
 |[June_2022](./assets/June_2022.md)|30|8|19|3|
 |[May_2022](./assets/May_2022.md)|42|12|26|4|
