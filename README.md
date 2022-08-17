@@ -343,7 +343,7 @@ My daily challenge on leetcode since 2021/09/06.
 |🔒|323|[Number of Connected Components in an Undirected Graph](https://leetcode.com/problems/number-of-connected-components-in-an-undirected-graph/)|Medium|
 ||324|[Wiggle Sort II](https://leetcode.com/problems/wiggle-sort-ii/)|Medium|
 |🔒|325|[Maximum Size Subarray Sum Equals k](https://leetcode.com/problems/maximum-size-subarray-sum-equals-k/)|Medium|
-||326|[Power of Three](https://leetcode.com/problems/power-of-three/)|Easy|
+|[📎](src/q_301_350/q0326.cc)|326|[Power of Three](https://leetcode.com/problems/power-of-three/)|Easy|
 ||327|[Count of Range Sum](https://leetcode.com/problems/count-of-range-sum/)|Hard|
 |[📎](src/q_301_350/q0328.cc)|328|[Odd Even Linked List](https://leetcode.com/problems/odd-even-linked-list/)|Medium|
 |[📎](src/q_301_350/q0329.cc)|329|[Longest Increasing Path in a Matrix](https://leetcode.com/problems/longest-increasing-path-in-a-matrix/)|Hard|
@@ -2450,6 +2450,7 @@ My daily challenge on leetcode since 2021/09/06.
 
 |Time|#|</>|Question Title|Difficulty|
 |:--|--:|:-:|:--|:--|
+|2022-08-17 18:25|326|[📎](src/q_301_350/q0326.cc)|[Power of Three](https://leetcode.com/problems/power-of-three/)|Easy|
 |2022-08-16 18:33|804|[📎](src/q_801_850/q0804.cc)|[Unique Morse Code Words](https://leetcode.com/problems/unique-morse-code-words/)|Easy|
 |2022-08-15 18:05|401|[📎](src/q_401_450/q0401.cc)|[Binary Watch](https://leetcode.com/problems/binary-watch/)|Easy|
 |2022-08-14 14:35|126|[📎](src/q_101_150/q0126.cc)|[Word Ladder II](https://leetcode.com/problems/word-ladder-ii/)|Hard|
@@ -2474,13 +2475,12 @@ My daily challenge on leetcode since 2021/09/06.
 |2022-07-30 17:22|1901|[📎](src/q_1901_1950/q1901.cc)|[Find a Peak Element II](https://leetcode.com/problems/find-a-peak-element-ii/)|Medium|
 |2022-07-30 17:15|1802|[📎](src/q_1801_1850/q1802.cc)|[Maximum Value at a Given Index in a Bounded Array](https://leetcode.com/problems/maximum-value-at-a-given-index-in-a-bounded-array/)|Medium|
 |2022-07-30 16:44|916|[📎](src/q_901_950/q0916.cc)|[Word Subsets](https://leetcode.com/problems/word-subsets/)|Medium|
-|2022-07-29 18:49|1300|[📎](src/q_1251_1300/q1300.cc)|[Sum of Mutated Array Closest to Target](https://leetcode.com/problems/sum-of-mutated-array-closest-to-target/)|Medium|
 
 ## Previous Logs
 
 |Month|Submissions|Easy|Medium|Hard|
 |:--|:--|:--|:--|:--|
-|[August_2022](./assets/August_2022.md)|19|6|10|3|
+|[August_2022](./assets/August_2022.md)|20|7|10|3|
 |[July_2022](./assets/July_2022.md)|47|6|37|4|
 |[June_2022](./assets/June_2022.md)|30|8|19|3|
 |[May_2022](./assets/May_2022.md)|42|12|26|4|

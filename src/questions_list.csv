@@ -324,7 +324,7 @@ id,title,level,slug,paid,done
 323,Number of Connected Components in an Undirected Graph,2,number-of-connected-components-in-an-undirected-graph,1,0
 324,Wiggle Sort II,2,wiggle-sort-ii,0,0
 325,Maximum Size Subarray Sum Equals k,2,maximum-size-subarray-sum-equals-k,1,0
-326,Power of Three,1,power-of-three,0,0
+326,Power of Three,1,power-of-three,0,1
 327,Count of Range Sum,3,count-of-range-sum,0,0
 328,Odd Even Linked List,2,odd-even-linked-list,0,1
 329,Longest Increasing Path in a Matrix,3,longest-increasing-path-in-a-matrix,0,1
