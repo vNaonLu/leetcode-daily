@@ -1379,7 +1379,7 @@ My daily challenge on leetcode since 2021/09/06.
 ||1335|[Minimum Difficulty of a Job Schedule](https://leetcode.com/problems/minimum-difficulty-of-a-job-schedule/)|Hard|
 |🔒|1336|[Number of Transactions per Visit](https://leetcode.com/problems/number-of-transactions-per-visit/)|Hard|
 |[📎](src/q_1301_1350/q1337.cc)|1337|[The K Weakest Rows in a Matrix](https://leetcode.com/problems/the-k-weakest-rows-in-a-matrix/)|Easy|
-||1338|[Reduce Array Size to The Half](https://leetcode.com/problems/reduce-array-size-to-the-half/)|Medium|
+|[📎](src/q_1301_1350/q1338.cc)|1338|[Reduce Array Size to The Half](https://leetcode.com/problems/reduce-array-size-to-the-half/)|Medium|
 ||1339|[Maximum Product of Splitted Binary Tree](https://leetcode.com/problems/maximum-product-of-splitted-binary-tree/)|Medium|
 ||1340|[Jump Game V](https://leetcode.com/problems/jump-game-v/)|Hard|
 |🔒|1341|[Movie Rating](https://leetcode.com/problems/movie-rating/)|Medium|
@@ -2312,7 +2312,7 @@ My daily challenge on leetcode since 2021/09/06.
 ||2250|[Count Number of Rectangles Containing Each Point](https://leetcode.com/problems/count-number-of-rectangles-containing-each-point/)|Medium|
 </details>
 <details>
-  <summary>### 2251 ~ 2377</summary>
+  <summary>### 2251 ~ 2378</summary>
 
 |</>|#|Solution Title|Difficulty|
 |:-:|--:|:--|:--|
@@ -2443,6 +2443,7 @@ My daily challenge on leetcode since 2021/09/06.
 ||2375|[Construct Smallest Number From DI String](https://leetcode.com/problems/construct-smallest-number-from-di-string/)|Medium|
 ||2376|[Count Special Integers](https://leetcode.com/problems/count-special-integers/)|Hard|
 |🔒|2377|[Sort the Olympic Table](https://leetcode.com/problems/sort-the-olympic-table/)|Easy|
+|🔒|2378|[Choose Edges to Maximize Score in a Tree](https://leetcode.com/problems/choose-edges-to-maximize-score-in-a-tree/)|Medium|
 </details>
 
 ---
@@ -2450,6 +2451,7 @@ My daily challenge on leetcode since 2021/09/06.
 
 |Time|#|</>|Question Title|Difficulty|
 |:--|--:|:-:|:--|:--|
+|2022-08-18 18:23|1338|[📎](src/q_1301_1350/q1338.cc)|[Reduce Array Size to The Half](https://leetcode.com/problems/reduce-array-size-to-the-half/)|Medium|
 |2022-08-17 18:25|326|[📎](src/q_301_350/q0326.cc)|[Power of Three](https://leetcode.com/problems/power-of-three/)|Easy|
 |2022-08-16 18:33|804|[📎](src/q_801_850/q0804.cc)|[Unique Morse Code Words](https://leetcode.com/problems/unique-morse-code-words/)|Easy|
 |2022-08-15 18:05|401|[📎](src/q_401_450/q0401.cc)|[Binary Watch](https://leetcode.com/problems/binary-watch/)|Easy|
@@ -2474,13 +2476,12 @@ My daily challenge on leetcode since 2021/09/06.
 |2022-07-31 12:40|307|[📎](src/q_301_350/q0307.cc)|[Range Sum Query - Mutable](https://leetcode.com/problems/range-sum-query-mutable/)|Medium|
 |2022-07-30 17:22|1901|[📎](src/q_1901_1950/q1901.cc)|[Find a Peak Element II](https://leetcode.com/problems/find-a-peak-element-ii/)|Medium|
 |2022-07-30 17:15|1802|[📎](src/q_1801_1850/q1802.cc)|[Maximum Value at a Given Index in a Bounded Array](https://leetcode.com/problems/maximum-value-at-a-given-index-in-a-bounded-array/)|Medium|
-|2022-07-30 16:44|916|[📎](src/q_901_950/q0916.cc)|[Word Subsets](https://leetcode.com/problems/word-subsets/)|Medium|
 
 ## Previous Logs
 
 |Month|Submissions|Easy|Medium|Hard|
 |:--|:--|:--|:--|:--|
-|[August_2022](./assets/August_2022.md)|20|7|10|3|
+|[August_2022](./assets/August_2022.md)|21|7|11|3|
 |[July_2022](./assets/July_2022.md)|47|6|37|4|
 |[June_2022](./assets/June_2022.md)|30|8|19|3|
 |[May_2022](./assets/May_2022.md)|42|12|26|4|
