@@ -682,7 +682,7 @@ My daily challenge on leetcode since 2021/09/06.
 |🔒|656|[Coin Path](https://leetcode.com/problems/coin-path/)|Hard|
 ||657|[Robot Return to Origin](https://leetcode.com/problems/robot-return-to-origin/)|Easy|
 |[📎](src/q_651_700/q0658.cc)|658|[Find K Closest Elements](https://leetcode.com/problems/find-k-closest-elements/)|Medium|
-||659|[Split Array into Consecutive Subsequences](https://leetcode.com/problems/split-array-into-consecutive-subsequences/)|Medium|
+|[📎](src/q_651_700/q0659.cc)|659|[Split Array into Consecutive Subsequences](https://leetcode.com/problems/split-array-into-consecutive-subsequences/)|Medium|
 |🔒|660|[Remove 9](https://leetcode.com/problems/remove-9/)|Hard|
 ||661|[Image Smoother](https://leetcode.com/problems/image-smoother/)|Easy|
 |[📎](src/q_651_700/q0662.cc)|662|[Maximum Width of Binary Tree](https://leetcode.com/problems/maximum-width-of-binary-tree/)|Medium|
@@ -2451,6 +2451,7 @@ My daily challenge on leetcode since 2021/09/06.
 
 |Time|#|</>|Question Title|Difficulty|
 |:--|--:|:-:|:--|:--|
+|2022-08-19 18:17|659|[📎](src/q_651_700/q0659.cc)|[Split Array into Consecutive Subsequences](https://leetcode.com/problems/split-array-into-consecutive-subsequences/)|Medium|
 |2022-08-18 18:23|1338|[📎](src/q_1301_1350/q1338.cc)|[Reduce Array Size to The Half](https://leetcode.com/problems/reduce-array-size-to-the-half/)|Medium|
 |2022-08-17 18:25|326|[📎](src/q_301_350/q0326.cc)|[Power of Three](https://leetcode.com/problems/power-of-three/)|Easy|
 |2022-08-16 18:33|804|[📎](src/q_801_850/q0804.cc)|[Unique Morse Code Words](https://leetcode.com/problems/unique-morse-code-words/)|Easy|
@@ -2475,13 +2476,12 @@ My daily challenge on leetcode since 2021/09/06.
 |2022-07-31 13:00|1488|[📎](src/q_1451_1500/q1488.cc)|[Avoid Flood in The City](https://leetcode.com/problems/avoid-flood-in-the-city/)|Medium|
 |2022-07-31 12:40|307|[📎](src/q_301_350/q0307.cc)|[Range Sum Query - Mutable](https://leetcode.com/problems/range-sum-query-mutable/)|Medium|
 |2022-07-30 17:22|1901|[📎](src/q_1901_1950/q1901.cc)|[Find a Peak Element II](https://leetcode.com/problems/find-a-peak-element-ii/)|Medium|
-|2022-07-30 17:15|1802|[📎](src/q_1801_1850/q1802.cc)|[Maximum Value at a Given Index in a Bounded Array](https://leetcode.com/problems/maximum-value-at-a-given-index-in-a-bounded-array/)|Medium|
 
 ## Previous Logs
 
 |Month|Submissions|Easy|Medium|Hard|
 |:--|:--|:--|:--|:--|
-|[August_2022](./assets/August_2022.md)|21|7|11|3|
+|[August_2022](./assets/August_2022.md)|22|7|12|3|
 |[July_2022](./assets/July_2022.md)|47|6|37|4|
 |[June_2022](./assets/June_2022.md)|30|8|19|3|
 |[May_2022](./assets/May_2022.md)|42|12|26|4|

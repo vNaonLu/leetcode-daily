@@ -657,7 +657,7 @@ id,title,level,slug,paid,done
 656,Coin Path,3,coin-path,1,0
 657,Robot Return to Origin,1,robot-return-to-origin,0,0
 658,Find K Closest Elements,2,find-k-closest-elements,0,1
-659,Split Array into Consecutive Subsequences,2,split-array-into-consecutive-subsequences,0,0
+659,Split Array into Consecutive Subsequences,2,split-array-into-consecutive-subsequences,0,1
 660,Remove 9,3,remove-9,1,0
 661,Image Smoother,1,image-smoother,0,0
 662,Maximum Width of Binary Tree,2,maximum-width-of-binary-tree,0,1
