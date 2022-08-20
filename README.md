@@ -137,7 +137,7 @@ My daily challenge on leetcode since 2021/09/06.
 |[📎](src/q_101_150/q0123.cc)|123|[Best Time to Buy and Sell Stock III](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iii/)|Hard|
 |[📎](src/q_101_150/q0124.cc)|124|[Binary Tree Maximum Path Sum](https://leetcode.com/problems/binary-tree-maximum-path-sum/)|Hard|
 ||125|[Valid Palindrome](https://leetcode.com/problems/valid-palindrome/)|Easy|
-||126|[Word Ladder II](https://leetcode.com/problems/word-ladder-ii/)|Hard|
+|[📎](src/q_101_150/q0126.cc)|126|[Word Ladder II](https://leetcode.com/problems/word-ladder-ii/)|Hard|
 |[📎](src/q_101_150/q0127.cc)|127|[Word Ladder](https://leetcode.com/problems/word-ladder/)|Hard|
 |[📎](src/q_101_150/q0128.cc)|128|[Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence/)|Medium|
 |[📎](src/q_101_150/q0129.cc)|129|[Sum Root to Leaf Numbers](https://leetcode.com/problems/sum-root-to-leaf-numbers/)|Medium|
@@ -343,7 +343,7 @@ My daily challenge on leetcode since 2021/09/06.
 |🔒|323|[Number of Connected Components in an Undirected Graph](https://leetcode.com/problems/number-of-connected-components-in-an-undirected-graph/)|Medium|
 ||324|[Wiggle Sort II](https://leetcode.com/problems/wiggle-sort-ii/)|Medium|
 |🔒|325|[Maximum Size Subarray Sum Equals k](https://leetcode.com/problems/maximum-size-subarray-sum-equals-k/)|Medium|
-||326|[Power of Three](https://leetcode.com/problems/power-of-three/)|Easy|
+|[📎](src/q_301_350/q0326.cc)|326|[Power of Three](https://leetcode.com/problems/power-of-three/)|Easy|
 ||327|[Count of Range Sum](https://leetcode.com/problems/count-of-range-sum/)|Hard|
 |[📎](src/q_301_350/q0328.cc)|328|[Odd Even Linked List](https://leetcode.com/problems/odd-even-linked-list/)|Medium|
 |[📎](src/q_301_350/q0329.cc)|329|[Longest Increasing Path in a Matrix](https://leetcode.com/problems/longest-increasing-path-in-a-matrix/)|Hard|
@@ -418,7 +418,7 @@ My daily challenge on leetcode since 2021/09/06.
 ||398|[Random Pick Index](https://leetcode.com/problems/random-pick-index/)|Medium|
 |[📎](src/q_351_400/q0399.cc)|399|[Evaluate Division](https://leetcode.com/problems/evaluate-division/)|Medium|
 ||400|[Nth Digit](https://leetcode.com/problems/nth-digit/)|Medium|
-||401|[Binary Watch](https://leetcode.com/problems/binary-watch/)|Easy|
+|[📎](src/q_401_450/q0401.cc)|401|[Binary Watch](https://leetcode.com/problems/binary-watch/)|Easy|
 |[📎](src/q_401_450/q0402.cc)|402|[Remove K Digits](https://leetcode.com/problems/remove-k-digits/)|Medium|
 ||403|[Frog Jump](https://leetcode.com/problems/frog-jump/)|Hard|
 |[📎](src/q_401_450/q0404.cc)|404|[Sum of Left Leaves](https://leetcode.com/problems/sum-of-left-leaves/)|Easy|
@@ -682,7 +682,7 @@ My daily challenge on leetcode since 2021/09/06.
 |🔒|656|[Coin Path](https://leetcode.com/problems/coin-path/)|Hard|
 ||657|[Robot Return to Origin](https://leetcode.com/problems/robot-return-to-origin/)|Easy|
 |[📎](src/q_651_700/q0658.cc)|658|[Find K Closest Elements](https://leetcode.com/problems/find-k-closest-elements/)|Medium|
-||659|[Split Array into Consecutive Subsequences](https://leetcode.com/problems/split-array-into-consecutive-subsequences/)|Medium|
+|[📎](src/q_651_700/q0659.cc)|659|[Split Array into Consecutive Subsequences](https://leetcode.com/problems/split-array-into-consecutive-subsequences/)|Medium|
 |🔒|660|[Remove 9](https://leetcode.com/problems/remove-9/)|Hard|
 ||661|[Image Smoother](https://leetcode.com/problems/image-smoother/)|Easy|
 |[📎](src/q_651_700/q0662.cc)|662|[Maximum Width of Binary Tree](https://leetcode.com/problems/maximum-width-of-binary-tree/)|Medium|
@@ -833,7 +833,7 @@ My daily challenge on leetcode since 2021/09/06.
 ||801|[Minimum Swaps To Make Sequences Increasing](https://leetcode.com/problems/minimum-swaps-to-make-sequences-increasing/)|Hard|
 |[📎](src/q_801_850/q0802.cc)|802|[Find Eventual Safe States](https://leetcode.com/problems/find-eventual-safe-states/)|Medium|
 ||803|[Bricks Falling When Hit](https://leetcode.com/problems/bricks-falling-when-hit/)|Hard|
-||804|[Unique Morse Code Words](https://leetcode.com/problems/unique-morse-code-words/)|Easy|
+|[📎](src/q_801_850/q0804.cc)|804|[Unique Morse Code Words](https://leetcode.com/problems/unique-morse-code-words/)|Easy|
 ||805|[Split Array With Same Average](https://leetcode.com/problems/split-array-with-same-average/)|Hard|
 ||806|[Number of Lines To Write String](https://leetcode.com/problems/number-of-lines-to-write-string/)|Easy|
 ||807|[Max Increase to Keep City Skyline](https://leetcode.com/problems/max-increase-to-keep-city-skyline/)|Medium|
@@ -900,7 +900,7 @@ My daily challenge on leetcode since 2021/09/06.
 ||868|[Binary Gap](https://leetcode.com/problems/binary-gap/)|Easy|
 ||869|[Reordered Power of 2](https://leetcode.com/problems/reordered-power-of-2/)|Medium|
 ||870|[Advantage Shuffle](https://leetcode.com/problems/advantage-shuffle/)|Medium|
-||871|[Minimum Number of Refueling Stops](https://leetcode.com/problems/minimum-number-of-refueling-stops/)|Hard|
+|[📎](src/q_851_900/q0871.cc)|871|[Minimum Number of Refueling Stops](https://leetcode.com/problems/minimum-number-of-refueling-stops/)|Hard|
 ||872|[Leaf-Similar Trees](https://leetcode.com/problems/leaf-similar-trees/)|Easy|
 ||873|[Length of Longest Fibonacci Subsequence](https://leetcode.com/problems/length-of-longest-fibonacci-subsequence/)|Medium|
 ||874|[Walking Robot Simulation](https://leetcode.com/problems/walking-robot-simulation/)|Medium|
@@ -1379,7 +1379,7 @@ My daily challenge on leetcode since 2021/09/06.
 ||1335|[Minimum Difficulty of a Job Schedule](https://leetcode.com/problems/minimum-difficulty-of-a-job-schedule/)|Hard|
 |🔒|1336|[Number of Transactions per Visit](https://leetcode.com/problems/number-of-transactions-per-visit/)|Hard|
 |[📎](src/q_1301_1350/q1337.cc)|1337|[The K Weakest Rows in a Matrix](https://leetcode.com/problems/the-k-weakest-rows-in-a-matrix/)|Easy|
-||1338|[Reduce Array Size to The Half](https://leetcode.com/problems/reduce-array-size-to-the-half/)|Medium|
+|[📎](src/q_1301_1350/q1338.cc)|1338|[Reduce Array Size to The Half](https://leetcode.com/problems/reduce-array-size-to-the-half/)|Medium|
 ||1339|[Maximum Product of Splitted Binary Tree](https://leetcode.com/problems/maximum-product-of-splitted-binary-tree/)|Medium|
 ||1340|[Jump Game V](https://leetcode.com/problems/jump-game-v/)|Hard|
 |🔒|1341|[Movie Rating](https://leetcode.com/problems/movie-rating/)|Medium|
@@ -2312,7 +2312,7 @@ My daily challenge on leetcode since 2021/09/06.
 ||2250|[Count Number of Rectangles Containing Each Point](https://leetcode.com/problems/count-number-of-rectangles-containing-each-point/)|Medium|
 </details>
 <details>
-  <summary>### 2251 ~ 2371</summary>
+  <summary>### 2251 ~ 2378</summary>
 
 |</>|#|Solution Title|Difficulty|
 |:-:|--:|:--|:--|
@@ -2437,6 +2437,13 @@ My daily challenge on leetcode since 2021/09/06.
 ||2369|[Check if There is a Valid Partition For The Array](https://leetcode.com/problems/check-if-there-is-a-valid-partition-for-the-array/)|Medium|
 ||2370|[Longest Ideal Subsequence](https://leetcode.com/problems/longest-ideal-subsequence/)|Medium|
 |🔒|2371|[Minimize Maximum Value in a Grid](https://leetcode.com/problems/minimize-maximum-value-in-a-grid/)|Hard|
+|🔒|2372|[Calculate the Influence of Each Salesperson](https://leetcode.com/problems/calculate-the-influence-of-each-salesperson/)|Medium|
+||2373|[Largest Local Values in a Matrix](https://leetcode.com/problems/largest-local-values-in-a-matrix/)|Easy|
+||2374|[Node With Highest Edge Score](https://leetcode.com/problems/node-with-highest-edge-score/)|Medium|
+||2375|[Construct Smallest Number From DI String](https://leetcode.com/problems/construct-smallest-number-from-di-string/)|Medium|
+||2376|[Count Special Integers](https://leetcode.com/problems/count-special-integers/)|Hard|
+|🔒|2377|[Sort the Olympic Table](https://leetcode.com/problems/sort-the-olympic-table/)|Easy|
+|🔒|2378|[Choose Edges to Maximize Score in a Tree](https://leetcode.com/problems/choose-edges-to-maximize-score-in-a-tree/)|Medium|
 </details>
 
 ---
@@ -2444,6 +2451,13 @@ My daily challenge on leetcode since 2021/09/06.
 
 |Time|#|</>|Question Title|Difficulty|
 |:--|--:|:-:|:--|:--|
+|2022-08-20 14:10|871|[📎](src/q_851_900/q0871.cc)|[Minimum Number of Refueling Stops](https://leetcode.com/problems/minimum-number-of-refueling-stops/)|Hard|
+|2022-08-19 18:17|659|[📎](src/q_651_700/q0659.cc)|[Split Array into Consecutive Subsequences](https://leetcode.com/problems/split-array-into-consecutive-subsequences/)|Medium|
+|2022-08-18 18:23|1338|[📎](src/q_1301_1350/q1338.cc)|[Reduce Array Size to The Half](https://leetcode.com/problems/reduce-array-size-to-the-half/)|Medium|
+|2022-08-17 18:25|326|[📎](src/q_301_350/q0326.cc)|[Power of Three](https://leetcode.com/problems/power-of-three/)|Easy|
+|2022-08-16 18:33|804|[📎](src/q_801_850/q0804.cc)|[Unique Morse Code Words](https://leetcode.com/problems/unique-morse-code-words/)|Easy|
+|2022-08-15 18:05|401|[📎](src/q_401_450/q0401.cc)|[Binary Watch](https://leetcode.com/problems/binary-watch/)|Easy|
+|2022-08-14 14:35|126|[📎](src/q_101_150/q0126.cc)|[Word Ladder II](https://leetcode.com/problems/word-ladder-ii/)|Hard|
 |2022-08-13 12:42|292|[📎](src/q_251_300/q0292.cc)|[Nim Game](https://leetcode.com/problems/nim-game/)|Easy|
 |2022-08-12 21:19|2221|[📎](src/q_2201_2250/q2221.cc)|[Find Triangular Sum of an Array](https://leetcode.com/problems/find-triangular-sum-of-an-array/)|Medium|
 |2022-08-11 12:04|1920|[📎](src/q_1901_1950/q1920.cc)|[Build Array from Permutation](https://leetcode.com/problems/build-array-from-permutation/)|Easy|
@@ -2462,19 +2476,12 @@ My daily challenge on leetcode since 2021/09/06.
 |2022-08-01 18:36|1562|[📎](src/q_1551_1600/q1562.cc)|[Find Latest Group of Size M](https://leetcode.com/problems/find-latest-group-of-size-m/)|Medium|
 |2022-07-31 13:00|1488|[📎](src/q_1451_1500/q1488.cc)|[Avoid Flood in The City](https://leetcode.com/problems/avoid-flood-in-the-city/)|Medium|
 |2022-07-31 12:40|307|[📎](src/q_301_350/q0307.cc)|[Range Sum Query - Mutable](https://leetcode.com/problems/range-sum-query-mutable/)|Medium|
-|2022-07-30 17:22|1901|[📎](src/q_1901_1950/q1901.cc)|[Find a Peak Element II](https://leetcode.com/problems/find-a-peak-element-ii/)|Medium|
-|2022-07-30 17:15|1802|[📎](src/q_1801_1850/q1802.cc)|[Maximum Value at a Given Index in a Bounded Array](https://leetcode.com/problems/maximum-value-at-a-given-index-in-a-bounded-array/)|Medium|
-|2022-07-30 16:44|916|[📎](src/q_901_950/q0916.cc)|[Word Subsets](https://leetcode.com/problems/word-subsets/)|Medium|
-|2022-07-29 18:49|1300|[📎](src/q_1251_1300/q1300.cc)|[Sum of Mutated Array Closest to Target](https://leetcode.com/problems/sum-of-mutated-array-closest-to-target/)|Medium|
-|2022-07-29 18:41|981|[📎](src/q_951_1000/q0981.cc)|[Time Based Key-Value Store](https://leetcode.com/problems/time-based-key-value-store/)|Medium|
-|2022-07-29 18:21|890|[📎](src/q_851_900/q0890.cc)|[Find and Replace Pattern](https://leetcode.com/problems/find-and-replace-pattern/)|Medium|
-|2022-07-28 18:56|1498|[📎](src/q_1451_1500/q1498.cc)|[Number of Subsequences That Satisfy the Given Sum Condition](https://leetcode.com/problems/number-of-subsequences-that-satisfy-the-given-sum-condition/)|Medium|
 
 ## Previous Logs
 
 |Month|Submissions|Easy|Medium|Hard|
 |:--|:--|:--|:--|:--|
-|[August_2022](./assets/August_2022.md)|16|4|10|2|
+|[August_2022](./assets/August_2022.md)|23|7|12|4|
 |[July_2022](./assets/July_2022.md)|47|6|37|4|
 |[June_2022](./assets/June_2022.md)|30|8|19|3|
 |[May_2022](./assets/May_2022.md)|42|12|26|4|

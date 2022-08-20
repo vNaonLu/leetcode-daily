@@ -124,7 +124,7 @@ id,title,level,slug,paid,done
 123,Best Time to Buy and Sell Stock III,3,best-time-to-buy-and-sell-stock-iii,0,1
 124,Binary Tree Maximum Path Sum,3,binary-tree-maximum-path-sum,0,1
 125,Valid Palindrome,1,valid-palindrome,0,0
-126,Word Ladder II,3,word-ladder-ii,0,0
+126,Word Ladder II,3,word-ladder-ii,0,1
 127,Word Ladder,3,word-ladder,0,1
 128,Longest Consecutive Sequence,2,longest-consecutive-sequence,0,1
 129,Sum Root to Leaf Numbers,2,sum-root-to-leaf-numbers,0,1
@@ -324,7 +324,7 @@ id,title,level,slug,paid,done
 323,Number of Connected Components in an Undirected Graph,2,number-of-connected-components-in-an-undirected-graph,1,0
 324,Wiggle Sort II,2,wiggle-sort-ii,0,0
 325,Maximum Size Subarray Sum Equals k,2,maximum-size-subarray-sum-equals-k,1,0
-326,Power of Three,1,power-of-three,0,0
+326,Power of Three,1,power-of-three,0,1
 327,Count of Range Sum,3,count-of-range-sum,0,0
 328,Odd Even Linked List,2,odd-even-linked-list,0,1
 329,Longest Increasing Path in a Matrix,3,longest-increasing-path-in-a-matrix,0,1
@@ -399,7 +399,7 @@ id,title,level,slug,paid,done
 398,Random Pick Index,2,random-pick-index,0,0
 399,Evaluate Division,2,evaluate-division,0,1
 400,Nth Digit,2,nth-digit,0,0
-401,Binary Watch,1,binary-watch,0,0
+401,Binary Watch,1,binary-watch,0,1
 402,Remove K Digits,2,remove-k-digits,0,1
 403,Frog Jump,3,frog-jump,0,0
 404,Sum of Left Leaves,1,sum-of-left-leaves,0,1
@@ -657,7 +657,7 @@ id,title,level,slug,paid,done
 656,Coin Path,3,coin-path,1,0
 657,Robot Return to Origin,1,robot-return-to-origin,0,0
 658,Find K Closest Elements,2,find-k-closest-elements,0,1
-659,Split Array into Consecutive Subsequences,2,split-array-into-consecutive-subsequences,0,0
+659,Split Array into Consecutive Subsequences,2,split-array-into-consecutive-subsequences,0,1
 660,Remove 9,3,remove-9,1,0
 661,Image Smoother,1,image-smoother,0,0
 662,Maximum Width of Binary Tree,2,maximum-width-of-binary-tree,0,1
@@ -802,7 +802,7 @@ id,title,level,slug,paid,done
 801,Minimum Swaps To Make Sequences Increasing,3,minimum-swaps-to-make-sequences-increasing,0,0
 802,Find Eventual Safe States,2,find-eventual-safe-states,0,1
 803,Bricks Falling When Hit,3,bricks-falling-when-hit,0,0
-804,Unique Morse Code Words,1,unique-morse-code-words,0,0
+804,Unique Morse Code Words,1,unique-morse-code-words,0,1
 805,Split Array With Same Average,3,split-array-with-same-average,0,0
 806,Number of Lines To Write String,1,number-of-lines-to-write-string,0,0
 807,Max Increase to Keep City Skyline,2,max-increase-to-keep-city-skyline,0,0
@@ -869,7 +869,7 @@ id,title,level,slug,paid,done
 868,Binary Gap,1,binary-gap,0,0
 869,Reordered Power of 2,2,reordered-power-of-2,0,0
 870,Advantage Shuffle,2,advantage-shuffle,0,0
-871,Minimum Number of Refueling Stops,3,minimum-number-of-refueling-stops,0,0
+871,Minimum Number of Refueling Stops,3,minimum-number-of-refueling-stops,0,1
 872,Leaf-Similar Trees,1,leaf-similar-trees,0,0
 873,Length of Longest Fibonacci Subsequence,2,length-of-longest-fibonacci-subsequence,0,0
 874,Walking Robot Simulation,2,walking-robot-simulation,0,0
@@ -1336,7 +1336,7 @@ id,title,level,slug,paid,done
 1335,Minimum Difficulty of a Job Schedule,3,minimum-difficulty-of-a-job-schedule,0,0
 1336,Number of Transactions per Visit,3,number-of-transactions-per-visit,1,0
 1337,The K Weakest Rows in a Matrix,1,the-k-weakest-rows-in-a-matrix,0,1
-1338,Reduce Array Size to The Half,2,reduce-array-size-to-the-half,0,0
+1338,Reduce Array Size to The Half,2,reduce-array-size-to-the-half,0,1
 1339,Maximum Product of Splitted Binary Tree,2,maximum-product-of-splitted-binary-tree,0,0
 1340,Jump Game V,3,jump-game-v,0,0
 1341,Movie Rating,2,movie-rating,1,0
@@ -2370,3 +2370,10 @@ id,title,level,slug,paid,done
 2369,Check if There is a Valid Partition For The Array,2,check-if-there-is-a-valid-partition-for-the-array,0,0
 2370,Longest Ideal Subsequence,2,longest-ideal-subsequence,0,0
 2371,Minimize Maximum Value in a Grid,3,minimize-maximum-value-in-a-grid,1,0
+2372,Calculate the Influence of Each Salesperson,2,calculate-the-influence-of-each-salesperson,1,0
+2373,Largest Local Values in a Matrix,1,largest-local-values-in-a-matrix,0,0
+2374,Node With Highest Edge Score,2,node-with-highest-edge-score,0,0
+2375,Construct Smallest Number From DI String,2,construct-smallest-number-from-di-string,0,0
+2376,Count Special Integers,3,count-special-integers,0,0
+2377,Sort the Olympic Table,1,sort-the-olympic-table,1,0
+2378,Choose Edges to Maximize Score in a Tree,2,choose-edges-to-maximize-score-in-a-tree,1,0
