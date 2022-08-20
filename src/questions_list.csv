@@ -869,7 +869,7 @@ id,title,level,slug,paid,done
 868,Binary Gap,1,binary-gap,0,0
 869,Reordered Power of 2,2,reordered-power-of-2,0,0
 870,Advantage Shuffle,2,advantage-shuffle,0,0
-871,Minimum Number of Refueling Stops,3,minimum-number-of-refueling-stops,0,0
+871,Minimum Number of Refueling Stops,3,minimum-number-of-refueling-stops,0,1
 872,Leaf-Similar Trees,1,leaf-similar-trees,0,0
 873,Length of Longest Fibonacci Subsequence,2,length-of-longest-fibonacci-subsequence,0,0
 874,Walking Robot Simulation,2,walking-robot-simulation,0,0
