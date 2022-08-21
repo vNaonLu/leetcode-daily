@@ -164,7 +164,7 @@ id,title,level,slug,paid,done
 163,Missing Ranges,1,missing-ranges,1,0
 164,Maximum Gap,3,maximum-gap,0,0
 165,Compare Version Numbers,2,compare-version-numbers,0,1
-166,Fraction to Recurring Decimal,2,fraction-to-recurring-decimal,0,0
+166,Fraction to Recurring Decimal,2,fraction-to-recurring-decimal,0,1
 167,Two Sum II - Input Array Is Sorted,2,two-sum-ii-input-array-is-sorted,0,1
 168,Excel Sheet Column Title,1,excel-sheet-column-title,0,0
 169,Majority Element,1,majority-element,0,1

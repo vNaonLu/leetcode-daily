@@ -177,7 +177,7 @@ My daily challenge on leetcode since 2021/09/06.
 |🔒|163|[Missing Ranges](https://leetcode.com/problems/missing-ranges/)|Easy|
 ||164|[Maximum Gap](https://leetcode.com/problems/maximum-gap/)|Hard|
 |[📎](src/q_151_200/q0165.cc)|165|[Compare Version Numbers](https://leetcode.com/problems/compare-version-numbers/)|Medium|
-||166|[Fraction to Recurring Decimal](https://leetcode.com/problems/fraction-to-recurring-decimal/)|Medium|
+|[📎](src/q_151_200/q0166.cc)|166|[Fraction to Recurring Decimal](https://leetcode.com/problems/fraction-to-recurring-decimal/)|Medium|
 |[📎](src/q_151_200/q0167.cc)|167|[Two Sum II - Input Array Is Sorted](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/)|Medium|
 ||168|[Excel Sheet Column Title](https://leetcode.com/problems/excel-sheet-column-title/)|Easy|
 |[📎](src/q_151_200/q0169.cc)|169|[Majority Element](https://leetcode.com/problems/majority-element/)|Easy|
@@ -2459,6 +2459,7 @@ My daily challenge on leetcode since 2021/09/06.
 
 |Time|#|</>|Question Title|Difficulty|
 |:--|--:|:-:|:--|:--|
+|2022-08-22 00:04|166|[📎](src/q_151_200/q0166.cc)|[Fraction to Recurring Decimal](https://leetcode.com/problems/fraction-to-recurring-decimal/)|Medium|
 |2022-08-21 23:55|137|[📎](src/q_101_150/q0137.cc)|[Single Number II](https://leetcode.com/problems/single-number-ii/)|Medium|
 |2022-08-21 23:46|89|[📎](src/q_51_100/q0089.cc)|[Gray Code](https://leetcode.com/problems/gray-code/)|Medium|
 |2022-08-21 14:48|936|[📎](src/q_901_950/q0936.cc)|[Stamping The Sequence](https://leetcode.com/problems/stamping-the-sequence/)|Hard|
@@ -2483,13 +2484,12 @@ My daily challenge on leetcode since 2021/09/06.
 |2022-08-02 18:55|378|[📎](src/q_351_400/q0378.cc)|[Kth Smallest Element in a Sorted Matrix](https://leetcode.com/problems/kth-smallest-element-in-a-sorted-matrix/)|Medium|
 |2022-08-02 18:30|911|[📎](src/q_901_950/q0911.cc)|[Online Election](https://leetcode.com/problems/online-election/)|Medium|
 |2022-08-02 18:21|1201|[📎](src/q_1201_1250/q1201.cc)|[Ugly Number III](https://leetcode.com/problems/ugly-number-iii/)|Medium|
-|2022-08-01 18:48|1648|[📎](src/q_1601_1650/q1648.cc)|[Sell Diminishing-Valued Colored Balls](https://leetcode.com/problems/sell-diminishing-valued-colored-balls/)|Medium|
 
 ## Previous Logs
 
 |Month|Submissions|Easy|Medium|Hard|
 |:--|:--|:--|:--|:--|
-|[August_2022](./assets/August_2022.md)|26|7|14|5|
+|[August_2022](./assets/August_2022.md)|27|7|15|5|
 |[July_2022](./assets/July_2022.md)|47|6|37|4|
 |[June_2022](./assets/June_2022.md)|30|8|19|3|
 |[May_2022](./assets/May_2022.md)|42|12|26|4|
