@@ -1,3 +1,4 @@
+#include <bitset>
 #include <gtest/gtest.h>
 #include <iostream>
 #include <leetcode/anyorder.hpp>
@@ -44,7 +45,8 @@ struct q401 : public ::testing::Test {
       }
 
       if (num == 0) {
-        res.emplace_back(to_string(hour) + ":" + (minute < 10 ? "0" : "") + to_string(minute));
+        res.emplace_back(to_string(hour) + ":" + (minute < 10 ? "0" : "") +
+                         to_string(minute));
         return;
       }
 
@@ -75,7 +77,8 @@ struct q401 : public ::testing::Test {
 TEST_F(q401, sample_input01) {
   solution = new Solution();
   int turnedOn = 1;
-  vector<string> exp = {"0:01", "0:02", "0:04", "0:08", "0:16", "0:32", "1:00", "2:00", "4:00", "8:00"};
+  vector<string> exp = {"0:01", "0:02", "0:04", "0:08", "0:16",
+                        "0:32", "1:00", "2:00", "4:00", "8:00"};
   // Try EXPECT_EQ_ANY_ORDER_RECURSIVE
   // if the element is also matched in any order.
   EXPECT_EQ_ANY_ORDER(solution->readBinaryWatch(turnedOn), exp);
