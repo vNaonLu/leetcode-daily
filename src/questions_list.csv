@@ -934,7 +934,7 @@ id,title,level,slug,paid,done
 933,Number of Recent Calls,1,number-of-recent-calls,0,0
 934,Shortest Bridge,2,shortest-bridge,0,1
 935,Knight Dialer,2,knight-dialer,0,0
-936,Stamping The Sequence,3,stamping-the-sequence,0,0
+936,Stamping The Sequence,3,stamping-the-sequence,0,1
 937,Reorder Data in Log Files,2,reorder-data-in-log-files,0,0
 938,Range Sum of BST,1,range-sum-of-bst,0,1
 939,Minimum Area Rectangle,2,minimum-area-rectangle,0,0
@@ -1439,7 +1439,7 @@ id,title,level,slug,paid,done
 1438,Longest Continuous Subarray With Absolute Diff Less Than or Equal to Limit,2,longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit,0,0
 1439,Find the Kth Smallest Sum of a Matrix With Sorted Rows,3,find-the-kth-smallest-sum-of-a-matrix-with-sorted-rows,0,0
 1440,Evaluate Boolean Expression,2,evaluate-boolean-expression,1,0
-1441,Build an Array With Stack Operations,1,build-an-array-with-stack-operations,0,0
+1441,Build an Array With Stack Operations,2,build-an-array-with-stack-operations,0,0
 1442,Count Triplets That Can Form Two Arrays of Equal XOR,2,count-triplets-that-can-form-two-arrays-of-equal-xor,0,0
 1443,Minimum Time to Collect All Apples in a Tree,2,minimum-time-to-collect-all-apples-in-a-tree,0,0
 1444,Number of Ways of Cutting a Pizza,3,number-of-ways-of-cutting-a-pizza,0,0
@@ -2377,3 +2377,11 @@ id,title,level,slug,paid,done
 2376,Count Special Integers,3,count-special-integers,0,0
 2377,Sort the Olympic Table,1,sort-the-olympic-table,1,0
 2378,Choose Edges to Maximize Score in a Tree,2,choose-edges-to-maximize-score-in-a-tree,1,0
+2379,Minimum Recolors to Get K Consecutive Black Blocks,1,minimum-recolors-to-get-k-consecutive-black-blocks,0,0
+2380,Time Needed to Rearrange a Binary String,2,time-needed-to-rearrange-a-binary-string,0,0
+2381,Shifting Letters II,2,shifting-letters-ii,0,0
+2382,Maximum Segment Sum After Removals,3,maximum-segment-sum-after-removals,0,0
+2383,Minimum Hours of Training to Win a Competition,1,minimum-hours-of-training-to-win-a-competition,0,0
+2384,Largest Palindromic Number,2,largest-palindromic-number,0,0
+2385,Amount of Time for Binary Tree to Be Infected,2,amount-of-time-for-binary-tree-to-be-infected,0,0
+2386,Find the K-Sum of an Array,3,find-the-k-sum-of-an-array,0,0

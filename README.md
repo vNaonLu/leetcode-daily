@@ -965,7 +965,7 @@ My daily challenge on leetcode since 2021/09/06.
 ||933|[Number of Recent Calls](https://leetcode.com/problems/number-of-recent-calls/)|Easy|
 |[📎](src/q_901_950/q0934.cc)|934|[Shortest Bridge](https://leetcode.com/problems/shortest-bridge/)|Medium|
 ||935|[Knight Dialer](https://leetcode.com/problems/knight-dialer/)|Medium|
-||936|[Stamping The Sequence](https://leetcode.com/problems/stamping-the-sequence/)|Hard|
+|[📎](src/q_901_950/q0936.cc)|936|[Stamping The Sequence](https://leetcode.com/problems/stamping-the-sequence/)|Hard|
 ||937|[Reorder Data in Log Files](https://leetcode.com/problems/reorder-data-in-log-files/)|Medium|
 |[📎](src/q_901_950/q0938.cc)|938|[Range Sum of BST](https://leetcode.com/problems/range-sum-of-bst/)|Easy|
 ||939|[Minimum Area Rectangle](https://leetcode.com/problems/minimum-area-rectangle/)|Medium|
@@ -1482,7 +1482,7 @@ My daily challenge on leetcode since 2021/09/06.
 ||1438|[Longest Continuous Subarray With Absolute Diff Less Than or Equal to Limit](https://leetcode.com/problems/longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit/)|Medium|
 ||1439|[Find the Kth Smallest Sum of a Matrix With Sorted Rows](https://leetcode.com/problems/find-the-kth-smallest-sum-of-a-matrix-with-sorted-rows/)|Hard|
 |🔒|1440|[Evaluate Boolean Expression](https://leetcode.com/problems/evaluate-boolean-expression/)|Medium|
-||1441|[Build an Array With Stack Operations](https://leetcode.com/problems/build-an-array-with-stack-operations/)|Easy|
+||1441|[Build an Array With Stack Operations](https://leetcode.com/problems/build-an-array-with-stack-operations/)|Medium|
 ||1442|[Count Triplets That Can Form Two Arrays of Equal XOR](https://leetcode.com/problems/count-triplets-that-can-form-two-arrays-of-equal-xor/)|Medium|
 ||1443|[Minimum Time to Collect All Apples in a Tree](https://leetcode.com/problems/minimum-time-to-collect-all-apples-in-a-tree/)|Medium|
 ||1444|[Number of Ways of Cutting a Pizza](https://leetcode.com/problems/number-of-ways-of-cutting-a-pizza/)|Hard|
@@ -2312,7 +2312,7 @@ My daily challenge on leetcode since 2021/09/06.
 ||2250|[Count Number of Rectangles Containing Each Point](https://leetcode.com/problems/count-number-of-rectangles-containing-each-point/)|Medium|
 </details>
 <details>
-  <summary>### 2251 ~ 2378</summary>
+  <summary>### 2251 ~ 2386</summary>
 
 |</>|#|Solution Title|Difficulty|
 |:-:|--:|:--|:--|
@@ -2444,6 +2444,14 @@ My daily challenge on leetcode since 2021/09/06.
 ||2376|[Count Special Integers](https://leetcode.com/problems/count-special-integers/)|Hard|
 |🔒|2377|[Sort the Olympic Table](https://leetcode.com/problems/sort-the-olympic-table/)|Easy|
 |🔒|2378|[Choose Edges to Maximize Score in a Tree](https://leetcode.com/problems/choose-edges-to-maximize-score-in-a-tree/)|Medium|
+||2379|[Minimum Recolors to Get K Consecutive Black Blocks](https://leetcode.com/problems/minimum-recolors-to-get-k-consecutive-black-blocks/)|Easy|
+||2380|[Time Needed to Rearrange a Binary String](https://leetcode.com/problems/time-needed-to-rearrange-a-binary-string/)|Medium|
+||2381|[Shifting Letters II](https://leetcode.com/problems/shifting-letters-ii/)|Medium|
+||2382|[Maximum Segment Sum After Removals](https://leetcode.com/problems/maximum-segment-sum-after-removals/)|Hard|
+||2383|[Minimum Hours of Training to Win a Competition](https://leetcode.com/problems/minimum-hours-of-training-to-win-a-competition/)|Easy|
+||2384|[Largest Palindromic Number](https://leetcode.com/problems/largest-palindromic-number/)|Medium|
+||2385|[Amount of Time for Binary Tree to Be Infected](https://leetcode.com/problems/amount-of-time-for-binary-tree-to-be-infected/)|Medium|
+||2386|[Find the K-Sum of an Array](https://leetcode.com/problems/find-the-k-sum-of-an-array/)|Hard|
 </details>
 
 ---
@@ -2451,6 +2459,7 @@ My daily challenge on leetcode since 2021/09/06.
 
 |Time|#|</>|Question Title|Difficulty|
 |:--|--:|:-:|:--|:--|
+|2022-08-21 14:48|936|[📎](src/q_901_950/q0936.cc)|[Stamping The Sequence](https://leetcode.com/problems/stamping-the-sequence/)|Hard|
 |2022-08-20 14:10|871|[📎](src/q_851_900/q0871.cc)|[Minimum Number of Refueling Stops](https://leetcode.com/problems/minimum-number-of-refueling-stops/)|Hard|
 |2022-08-19 18:17|659|[📎](src/q_651_700/q0659.cc)|[Split Array into Consecutive Subsequences](https://leetcode.com/problems/split-array-into-consecutive-subsequences/)|Medium|
 |2022-08-18 18:23|1338|[📎](src/q_1301_1350/q1338.cc)|[Reduce Array Size to The Half](https://leetcode.com/problems/reduce-array-size-to-the-half/)|Medium|
@@ -2475,13 +2484,12 @@ My daily challenge on leetcode since 2021/09/06.
 |2022-08-01 18:48|1648|[📎](src/q_1601_1650/q1648.cc)|[Sell Diminishing-Valued Colored Balls](https://leetcode.com/problems/sell-diminishing-valued-colored-balls/)|Medium|
 |2022-08-01 18:36|1562|[📎](src/q_1551_1600/q1562.cc)|[Find Latest Group of Size M](https://leetcode.com/problems/find-latest-group-of-size-m/)|Medium|
 |2022-07-31 13:00|1488|[📎](src/q_1451_1500/q1488.cc)|[Avoid Flood in The City](https://leetcode.com/problems/avoid-flood-in-the-city/)|Medium|
-|2022-07-31 12:40|307|[📎](src/q_301_350/q0307.cc)|[Range Sum Query - Mutable](https://leetcode.com/problems/range-sum-query-mutable/)|Medium|
 
 ## Previous Logs
 
 |Month|Submissions|Easy|Medium|Hard|
 |:--|:--|:--|:--|:--|
-|[August_2022](./assets/August_2022.md)|23|7|12|4|
+|[August_2022](./assets/August_2022.md)|24|7|12|5|
 |[July_2022](./assets/July_2022.md)|47|6|37|4|
 |[June_2022](./assets/June_2022.md)|30|8|19|3|
 |[May_2022](./assets/May_2022.md)|42|12|26|4|
