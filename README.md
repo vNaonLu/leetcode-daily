@@ -100,7 +100,7 @@ My daily challenge on leetcode since 2021/09/06.
 |[📎](src/q_51_100/q0086.cc)|86|[Partition List](https://leetcode.com/problems/partition-list/)|Medium|
 ||87|[Scramble String](https://leetcode.com/problems/scramble-string/)|Hard|
 |[📎](src/q_51_100/q0088.cc)|88|[Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array/)|Easy|
-||89|[Gray Code](https://leetcode.com/problems/gray-code/)|Medium|
+|[📎](src/q_51_100/q0089.cc)|89|[Gray Code](https://leetcode.com/problems/gray-code/)|Medium|
 |[📎](src/q_51_100/q0090.cc)|90|[Subsets II](https://leetcode.com/problems/subsets-ii/)|Medium|
 |[📎](src/q_51_100/q0091.cc)|91|[Decode Ways](https://leetcode.com/problems/decode-ways/)|Medium|
 |[📎](src/q_51_100/q0092.cc)|92|[Reverse Linked List II](https://leetcode.com/problems/reverse-linked-list-ii/)|Medium|
@@ -2459,6 +2459,7 @@ My daily challenge on leetcode since 2021/09/06.
 
 |Time|#|</>|Question Title|Difficulty|
 |:--|--:|:-:|:--|:--|
+|2022-08-21 23:46|89|[📎](src/q_51_100/q0089.cc)|[Gray Code](https://leetcode.com/problems/gray-code/)|Medium|
 |2022-08-21 14:48|936|[📎](src/q_901_950/q0936.cc)|[Stamping The Sequence](https://leetcode.com/problems/stamping-the-sequence/)|Hard|
 |2022-08-20 14:10|871|[📎](src/q_851_900/q0871.cc)|[Minimum Number of Refueling Stops](https://leetcode.com/problems/minimum-number-of-refueling-stops/)|Hard|
 |2022-08-19 18:17|659|[📎](src/q_651_700/q0659.cc)|[Split Array into Consecutive Subsequences](https://leetcode.com/problems/split-array-into-consecutive-subsequences/)|Medium|
@@ -2483,13 +2484,12 @@ My daily challenge on leetcode since 2021/09/06.
 |2022-08-02 18:21|1201|[📎](src/q_1201_1250/q1201.cc)|[Ugly Number III](https://leetcode.com/problems/ugly-number-iii/)|Medium|
 |2022-08-01 18:48|1648|[📎](src/q_1601_1650/q1648.cc)|[Sell Diminishing-Valued Colored Balls](https://leetcode.com/problems/sell-diminishing-valued-colored-balls/)|Medium|
 |2022-08-01 18:36|1562|[📎](src/q_1551_1600/q1562.cc)|[Find Latest Group of Size M](https://leetcode.com/problems/find-latest-group-of-size-m/)|Medium|
-|2022-07-31 13:00|1488|[📎](src/q_1451_1500/q1488.cc)|[Avoid Flood in The City](https://leetcode.com/problems/avoid-flood-in-the-city/)|Medium|
 
 ## Previous Logs
 
 |Month|Submissions|Easy|Medium|Hard|
 |:--|:--|:--|:--|:--|
-|[August_2022](./assets/August_2022.md)|24|7|12|5|
+|[August_2022](./assets/August_2022.md)|25|7|13|5|
 |[July_2022](./assets/July_2022.md)|47|6|37|4|
 |[June_2022](./assets/June_2022.md)|30|8|19|3|
 |[May_2022](./assets/May_2022.md)|42|12|26|4|

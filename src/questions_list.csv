@@ -87,7 +87,7 @@ id,title,level,slug,paid,done
 86,Partition List,2,partition-list,0,1
 87,Scramble String,3,scramble-string,0,0
 88,Merge Sorted Array,1,merge-sorted-array,0,1
-89,Gray Code,2,gray-code,0,0
+89,Gray Code,2,gray-code,0,1
 90,Subsets II,2,subsets-ii,0,1
 91,Decode Ways,2,decode-ways,0,1
 92,Reverse Linked List II,2,reverse-linked-list-ii,0,1
