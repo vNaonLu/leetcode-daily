@@ -343,7 +343,7 @@ id,title,level,slug,paid,done
 342,Power of Four,1,power-of-four,0,1
 343,Integer Break,2,integer-break,0,1
 344,Reverse String,1,reverse-string,0,1
-345,Reverse Vowels of a String,1,reverse-vowels-of-a-string,0,0
+345,Reverse Vowels of a String,1,reverse-vowels-of-a-string,0,1
 346,Moving Average from Data Stream,1,moving-average-from-data-stream,1,0
 347,Top K Frequent Elements,2,top-k-frequent-elements,0,1
 348,Design Tic-Tac-Toe,2,design-tic-tac-toe,1,0
