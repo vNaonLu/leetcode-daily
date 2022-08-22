@@ -240,7 +240,7 @@ My daily challenge on leetcode since 2021/09/06.
 |[📎](src/q_201_250/q0226.cc)|226|[Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree/)|Easy|
 |[📎](src/q_201_250/q0227.cc)|227|[Basic Calculator II](https://leetcode.com/problems/basic-calculator-ii/)|Medium|
 |[📎](src/q_201_250/q0228.cc)|228|[Summary Ranges](https://leetcode.com/problems/summary-ranges/)|Easy|
-||229|[Majority Element II](https://leetcode.com/problems/majority-element-ii/)|Medium|
+|[📎](src/q_201_250/q0229.cc)|229|[Majority Element II](https://leetcode.com/problems/majority-element-ii/)|Medium|
 |[📎](src/q_201_250/q0230.cc)|230|[Kth Smallest Element in a BST](https://leetcode.com/problems/kth-smallest-element-in-a-bst/)|Medium|
 |[📎](src/q_201_250/q0231.cc)|231|[Power of Two](https://leetcode.com/problems/power-of-two/)|Easy|
 ||232|[Implement Queue using Stacks](https://leetcode.com/problems/implement-queue-using-stacks/)|Easy|
@@ -2459,6 +2459,7 @@ My daily challenge on leetcode since 2021/09/06.
 
 |Time|#|</>|Question Title|Difficulty|
 |:--|--:|:-:|:--|:--|
+|2022-08-22 23:47|229|[📎](src/q_201_250/q0229.cc)|[Majority Element II](https://leetcode.com/problems/majority-element-ii/)|Medium|
 |2022-08-22 16:45|223|[📎](src/q_201_250/q0223.cc)|[Rectangle Area](https://leetcode.com/problems/rectangle-area/)|Medium|
 |2022-08-22 16:34|220|[📎](src/q_201_250/q0220.cc)|[Contains Duplicate III](https://leetcode.com/problems/contains-duplicate-iii/)|Medium|
 |2022-08-22 16:23|207|[📎](src/q_201_250/q0207.cc)|[Course Schedule](https://leetcode.com/problems/course-schedule/)|Medium|
@@ -2483,13 +2484,12 @@ My daily challenge on leetcode since 2021/09/06.
 |2022-08-08 18:22|1266|[📎](src/q_1251_1300/q1266.cc)|[Minimum Time Visiting All Points](https://leetcode.com/problems/minimum-time-visiting-all-points/)|Easy|
 |2022-08-07 13:07|1220|[📎](src/q_1201_1250/q1220.cc)|[Count Vowels Permutation](https://leetcode.com/problems/count-vowels-permutation/)|Hard|
 |2022-08-06 15:12|458|[📎](src/q_451_500/q0458.cc)|[Poor Pigs](https://leetcode.com/problems/poor-pigs/)|Hard|
-|2022-08-05 18:28|1089|[📎](src/q_1051_1100/q1089.cc)|[Duplicate Zeros](https://leetcode.com/problems/duplicate-zeros/)|Easy|
 
 ## Previous Logs
 
 |Month|Submissions|Easy|Medium|Hard|
 |:--|:--|:--|:--|:--|
-|[August_2022](./assets/August_2022.md)|32|8|19|5|
+|[August_2022](./assets/August_2022.md)|33|8|20|5|
 |[July_2022](./assets/July_2022.md)|47|6|37|4|
 |[June_2022](./assets/June_2022.md)|30|8|19|3|
 |[May_2022](./assets/May_2022.md)|42|12|26|4|
