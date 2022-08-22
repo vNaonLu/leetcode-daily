@@ -205,7 +205,7 @@ id,title,level,slug,paid,done
 204,Count Primes,2,count-primes,0,0
 205,Isomorphic Strings,1,isomorphic-strings,0,0
 206,Reverse Linked List,1,reverse-linked-list,0,1
-207,Course Schedule,2,course-schedule,0,0
+207,Course Schedule,2,course-schedule,0,1
 208,Implement Trie (Prefix Tree),2,implement-trie-prefix-tree,0,1
 209,Minimum Size Subarray Sum,2,minimum-size-subarray-sum,0,1
 210,Course Schedule II,2,course-schedule-ii,0,1
