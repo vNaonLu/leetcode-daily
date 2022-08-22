@@ -231,7 +231,7 @@ My daily challenge on leetcode since 2021/09/06.
 ||217|[Contains Duplicate](https://leetcode.com/problems/contains-duplicate/)|Easy|
 ||218|[The Skyline Problem](https://leetcode.com/problems/the-skyline-problem/)|Hard|
 |[📎](src/q_201_250/q0219.cc)|219|[Contains Duplicate II](https://leetcode.com/problems/contains-duplicate-ii/)|Easy|
-||220|[Contains Duplicate III](https://leetcode.com/problems/contains-duplicate-iii/)|Medium|
+|[📎](src/q_201_250/q0220.cc)|220|[Contains Duplicate III](https://leetcode.com/problems/contains-duplicate-iii/)|Medium|
 |[📎](src/q_201_250/q0221.cc)|221|[Maximal Square](https://leetcode.com/problems/maximal-square/)|Medium|
 |[📎](src/q_201_250/q0222.cc)|222|[Count Complete Tree Nodes](https://leetcode.com/problems/count-complete-tree-nodes/)|Medium|
 ||223|[Rectangle Area](https://leetcode.com/problems/rectangle-area/)|Medium|
@@ -2459,6 +2459,7 @@ My daily challenge on leetcode since 2021/09/06.
 
 |Time|#|</>|Question Title|Difficulty|
 |:--|--:|:-:|:--|:--|
+|2022-08-22 16:34|220|[📎](src/q_201_250/q0220.cc)|[Contains Duplicate III](https://leetcode.com/problems/contains-duplicate-iii/)|Medium|
 |2022-08-22 16:23|207|[📎](src/q_201_250/q0207.cc)|[Course Schedule](https://leetcode.com/problems/course-schedule/)|Medium|
 |2022-08-22 00:40|345|[📎](src/q_301_350/q0345.cc)|[Reverse Vowels of a String](https://leetcode.com/problems/reverse-vowels-of-a-string/)|Easy|
 |2022-08-22 00:21|179|[📎](src/q_151_200/q0179.cc)|[Largest Number](https://leetcode.com/problems/largest-number/)|Medium|
@@ -2483,13 +2484,12 @@ My daily challenge on leetcode since 2021/09/06.
 |2022-08-06 15:12|458|[📎](src/q_451_500/q0458.cc)|[Poor Pigs](https://leetcode.com/problems/poor-pigs/)|Hard|
 |2022-08-05 18:28|1089|[📎](src/q_1051_1100/q1089.cc)|[Duplicate Zeros](https://leetcode.com/problems/duplicate-zeros/)|Easy|
 |2022-08-04 18:31|858|[📎](src/q_851_900/q0858.cc)|[Mirror Reflection](https://leetcode.com/problems/mirror-reflection/)|Medium|
-|2022-08-03 18:50|2311|[📎](src/q_2301_2350/q2311.cc)|[Longest Binary Subsequence Less Than or Equal to K](https://leetcode.com/problems/longest-binary-subsequence-less-than-or-equal-to-k/)|Medium|
 
 ## Previous Logs
 
 |Month|Submissions|Easy|Medium|Hard|
 |:--|:--|:--|:--|:--|
-|[August_2022](./assets/August_2022.md)|30|8|17|5|
+|[August_2022](./assets/August_2022.md)|31|8|18|5|
 |[July_2022](./assets/July_2022.md)|47|6|37|4|
 |[June_2022](./assets/June_2022.md)|30|8|19|3|
 |[May_2022](./assets/May_2022.md)|42|12|26|4|
