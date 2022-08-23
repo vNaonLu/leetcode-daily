@@ -232,7 +232,7 @@ id,title,level,slug,paid,done
 231,Power of Two,1,power-of-two,0,1
 232,Implement Queue using Stacks,1,implement-queue-using-stacks,0,0
 233,Number of Digit One,3,number-of-digit-one,0,0
-234,Palindrome Linked List,1,palindrome-linked-list,0,0
+234,Palindrome Linked List,1,palindrome-linked-list,0,1
 235,Lowest Common Ancestor of a Binary Search Tree,1,lowest-common-ancestor-of-a-binary-search-tree,0,1
 236,Lowest Common Ancestor of a Binary Tree,2,lowest-common-ancestor-of-a-binary-tree,0,1
 237,Delete Node in a Linked List,1,delete-node-in-a-linked-list,0,0

@@ -245,7 +245,7 @@ My daily challenge on leetcode since 2021/09/06.
 |[📎](src/q_201_250/q0231.cc)|231|[Power of Two](https://leetcode.com/problems/power-of-two/)|Easy|
 ||232|[Implement Queue using Stacks](https://leetcode.com/problems/implement-queue-using-stacks/)|Easy|
 ||233|[Number of Digit One](https://leetcode.com/problems/number-of-digit-one/)|Hard|
-||234|[Palindrome Linked List](https://leetcode.com/problems/palindrome-linked-list/)|Easy|
+|[📎](src/q_201_250/q0234.cc)|234|[Palindrome Linked List](https://leetcode.com/problems/palindrome-linked-list/)|Easy|
 |[📎](src/q_201_250/q0235.cc)|235|[Lowest Common Ancestor of a Binary Search Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/)|Easy|
 |[📎](src/q_201_250/q0236.cc)|236|[Lowest Common Ancestor of a Binary Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/)|Medium|
 ||237|[Delete Node in a Linked List](https://leetcode.com/problems/delete-node-in-a-linked-list/)|Easy|
@@ -2459,6 +2459,7 @@ My daily challenge on leetcode since 2021/09/06.
 
 |Time|#|</>|Question Title|Difficulty|
 |:--|--:|:-:|:--|:--|
+|2022-08-23 18:07|234|[📎](src/q_201_250/q0234.cc)|[Palindrome Linked List](https://leetcode.com/problems/palindrome-linked-list/)|Easy|
 |2022-08-22 23:47|229|[📎](src/q_201_250/q0229.cc)|[Majority Element II](https://leetcode.com/problems/majority-element-ii/)|Medium|
 |2022-08-22 16:45|223|[📎](src/q_201_250/q0223.cc)|[Rectangle Area](https://leetcode.com/problems/rectangle-area/)|Medium|
 |2022-08-22 16:34|220|[📎](src/q_201_250/q0220.cc)|[Contains Duplicate III](https://leetcode.com/problems/contains-duplicate-iii/)|Medium|
@@ -2483,13 +2484,12 @@ My daily challenge on leetcode since 2021/09/06.
 |2022-08-09 18:19|823|[📎](src/q_801_850/q0823.cc)|[Binary Trees With Factors](https://leetcode.com/problems/binary-trees-with-factors/)|Medium|
 |2022-08-08 18:22|1266|[📎](src/q_1251_1300/q1266.cc)|[Minimum Time Visiting All Points](https://leetcode.com/problems/minimum-time-visiting-all-points/)|Easy|
 |2022-08-07 13:07|1220|[📎](src/q_1201_1250/q1220.cc)|[Count Vowels Permutation](https://leetcode.com/problems/count-vowels-permutation/)|Hard|
-|2022-08-06 15:12|458|[📎](src/q_451_500/q0458.cc)|[Poor Pigs](https://leetcode.com/problems/poor-pigs/)|Hard|
 
 ## Previous Logs
 
 |Month|Submissions|Easy|Medium|Hard|
 |:--|:--|:--|:--|:--|
-|[August_2022](./assets/August_2022.md)|33|8|20|5|
+|[August_2022](./assets/August_2022.md)|34|9|20|5|
 |[July_2022](./assets/July_2022.md)|47|6|37|4|
 |[June_2022](./assets/June_2022.md)|30|8|19|3|
 |[May_2022](./assets/May_2022.md)|42|12|26|4|
