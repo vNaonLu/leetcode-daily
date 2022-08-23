@@ -372,7 +372,7 @@ My daily challenge on leetcode since 2021/09/06.
 |[📎](src/q_351_400/q0352.cc)|352|[Data Stream as Disjoint Intervals](https://leetcode.com/problems/data-stream-as-disjoint-intervals/)|Hard|
 |🔒|353|[Design Snake Game](https://leetcode.com/problems/design-snake-game/)|Medium|
 |[📎](src/q_351_400/q0354.cc)|354|[Russian Doll Envelopes](https://leetcode.com/problems/russian-doll-envelopes/)|Hard|
-||355|[Design Twitter](https://leetcode.com/problems/design-twitter/)|Medium|
+|[📎](src/q_351_400/q0355.cc)|355|[Design Twitter](https://leetcode.com/problems/design-twitter/)|Medium|
 |🔒|356|[Line Reflection](https://leetcode.com/problems/line-reflection/)|Medium|
 ||357|[Count Numbers with Unique Digits](https://leetcode.com/problems/count-numbers-with-unique-digits/)|Medium|
 |🔒|358|[Rearrange String k Distance Apart](https://leetcode.com/problems/rearrange-string-k-distance-apart/)|Hard|
@@ -2459,6 +2459,7 @@ My daily challenge on leetcode since 2021/09/06.
 
 |Time|#|</>|Question Title|Difficulty|
 |:--|--:|:-:|:--|:--|
+|2022-08-23 19:17|355|[📎](src/q_351_400/q0355.cc)|[Design Twitter](https://leetcode.com/problems/design-twitter/)|Medium|
 |2022-08-23 18:07|234|[📎](src/q_201_250/q0234.cc)|[Palindrome Linked List](https://leetcode.com/problems/palindrome-linked-list/)|Easy|
 |2022-08-22 23:47|229|[📎](src/q_201_250/q0229.cc)|[Majority Element II](https://leetcode.com/problems/majority-element-ii/)|Medium|
 |2022-08-22 16:45|223|[📎](src/q_201_250/q0223.cc)|[Rectangle Area](https://leetcode.com/problems/rectangle-area/)|Medium|
@@ -2483,13 +2484,12 @@ My daily challenge on leetcode since 2021/09/06.
 |2022-08-10 20:36|958|[📎](src/q_951_1000/q0958.cc)|[Check Completeness of a Binary Tree](https://leetcode.com/problems/check-completeness-of-a-binary-tree/)|Medium|
 |2022-08-09 18:19|823|[📎](src/q_801_850/q0823.cc)|[Binary Trees With Factors](https://leetcode.com/problems/binary-trees-with-factors/)|Medium|
 |2022-08-08 18:22|1266|[📎](src/q_1251_1300/q1266.cc)|[Minimum Time Visiting All Points](https://leetcode.com/problems/minimum-time-visiting-all-points/)|Easy|
-|2022-08-07 13:07|1220|[📎](src/q_1201_1250/q1220.cc)|[Count Vowels Permutation](https://leetcode.com/problems/count-vowels-permutation/)|Hard|
 
 ## Previous Logs
 
 |Month|Submissions|Easy|Medium|Hard|
 |:--|:--|:--|:--|:--|
-|[August_2022](./assets/August_2022.md)|34|9|20|5|
+|[August_2022](./assets/August_2022.md)|35|9|21|5|
 |[July_2022](./assets/July_2022.md)|47|6|37|4|
 |[June_2022](./assets/June_2022.md)|30|8|19|3|
 |[May_2022](./assets/May_2022.md)|42|12|26|4|
