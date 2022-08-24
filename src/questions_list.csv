@@ -466,7 +466,7 @@ id,title,level,slug,paid,done
 465,Optimal Account Balancing,3,optimal-account-balancing,1,0
 466,Count The Repetitions,3,count-the-repetitions,0,0
 467,Unique Substrings in Wraparound String,2,unique-substrings-in-wraparound-string,0,0
-468,Validate IP Address,2,validate-ip-address,0,0
+468,Validate IP Address,2,validate-ip-address,0,1
 469,Convex Polygon,2,convex-polygon,1,0
 470,Implement Rand10() Using Rand7(),2,implement-rand10-using-rand7,0,0
 471,Encode String with Shortest Length,3,encode-string-with-shortest-length,1,0
