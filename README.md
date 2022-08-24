@@ -747,7 +747,7 @@ My daily challenge on leetcode since 2021/09/06.
 |[📎](src/q_701_750/q0721.cc)|721|[Accounts Merge](https://leetcode.com/problems/accounts-merge/)|Medium|
 ||722|[Remove Comments](https://leetcode.com/problems/remove-comments/)|Medium|
 |🔒|723|[Candy Crush](https://leetcode.com/problems/candy-crush/)|Medium|
-||724|[Find Pivot Index](https://leetcode.com/problems/find-pivot-index/)|Easy|
+|[📎](src/q_701_750/q0724.cc)|724|[Find Pivot Index](https://leetcode.com/problems/find-pivot-index/)|Easy|
 |[📎](src/q_701_750/q0725.cc)|725|[Split Linked List in Parts](https://leetcode.com/problems/split-linked-list-in-parts/)|Medium|
 ||726|[Number of Atoms](https://leetcode.com/problems/number-of-atoms/)|Hard|
 |🔒|727|[Minimum Window Subsequence](https://leetcode.com/problems/minimum-window-subsequence/)|Hard|
@@ -2459,6 +2459,7 @@ My daily challenge on leetcode since 2021/09/06.
 
 |Time|#|</>|Question Title|Difficulty|
 |:--|--:|:-:|:--|:--|
+|2022-08-24 21:08|724|[📎](src/q_701_750/q0724.cc)|[Find Pivot Index](https://leetcode.com/problems/find-pivot-index/)|Easy|
 |2022-08-24 18:50|468|[📎](src/q_451_500/q0468.cc)|[Validate IP Address](https://leetcode.com/problems/validate-ip-address/)|Medium|
 |2022-08-24 18:00|317|[📎](src/q_301_350/q0317.cc)|[Shortest Distance from All Buildings](https://leetcode.com/problems/shortest-distance-from-all-buildings/)|Hard|
 |2022-08-23 19:17|355|[📎](src/q_351_400/q0355.cc)|[Design Twitter](https://leetcode.com/problems/design-twitter/)|Medium|
@@ -2483,13 +2484,12 @@ My daily challenge on leetcode since 2021/09/06.
 |2022-08-13 12:42|292|[📎](src/q_251_300/q0292.cc)|[Nim Game](https://leetcode.com/problems/nim-game/)|Easy|
 |2022-08-12 21:19|2221|[📎](src/q_2201_2250/q2221.cc)|[Find Triangular Sum of an Array](https://leetcode.com/problems/find-triangular-sum-of-an-array/)|Medium|
 |2022-08-11 12:04|1920|[📎](src/q_1901_1950/q1920.cc)|[Build Array from Permutation](https://leetcode.com/problems/build-array-from-permutation/)|Easy|
-|2022-08-10 20:36|958|[📎](src/q_951_1000/q0958.cc)|[Check Completeness of a Binary Tree](https://leetcode.com/problems/check-completeness-of-a-binary-tree/)|Medium|
 
 ## Previous Logs
 
 |Month|Submissions|Easy|Medium|Hard|
 |:--|:--|:--|:--|:--|
-|[August_2022](./assets/August_2022.md)|37|9|22|6|
+|[August_2022](./assets/August_2022.md)|38|10|22|6|
 |[July_2022](./assets/July_2022.md)|47|6|37|4|
 |[June_2022](./assets/June_2022.md)|30|8|19|3|
 |[May_2022](./assets/May_2022.md)|42|12|26|4|
