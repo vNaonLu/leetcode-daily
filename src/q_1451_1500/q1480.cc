@@ -15,7 +15,7 @@ using namespace std;
  *   Given an array ‘nums’ . We define a running sum of an array as
  *   ‘runningSum[i] = sum(nums[0]&hellip;nums[i])’
  *   Return the running sum of ‘nums’
- *   
+ *
  *
  * ––––––––––––––––––––––––––––– Constraints –––––––––––––––––––––––––––––
  *
@@ -27,13 +27,13 @@ using namespace std;
 struct q1480 : public ::testing::Test {
   // Leetcode answer here
   class Solution {
-   public:
-    vector<int> runningSum(vector<int>& nums) {
-      vector<int> res(nums.size(), 0);
-      res[0] = nums[0];
-      for (int i = 1; i < nums.size(); ++i) {
-        res[i] = res[i - 1] + nums[i];
+  public:
+    vector<int> runningSum(vector<int> &nums) {
+      auto res = vector<int>(nums.begin(), nums.end());
+      for (auto it = res.begin() + 1; it != res.end(); ++it) {
+        *it += *(it - 1);
       }
+
       return res;
     }
   };
@@ -42,25 +42,25 @@ struct q1480 : public ::testing::Test {
 };
 
 TEST_F(q1480, sample_input01) {
-  solution = new Solution();
+  solution         = new Solution();
   vector<int> nums = {1, 2, 3, 4};
-  vector<int> exp = {1, 3, 6, 10};
+  vector<int> exp  = {1, 3, 6, 10};
   EXPECT_EQ(solution->runningSum(nums), exp);
   delete solution;
 }
 
 TEST_F(q1480, sample_input02) {
-  solution = new Solution();
+  solution         = new Solution();
   vector<int> nums = {1, 1, 1, 1, 1};
-  vector<int> exp = {1, 2, 3, 4, 5};
+  vector<int> exp  = {1, 2, 3, 4, 5};
   EXPECT_EQ(solution->runningSum(nums), exp);
   delete solution;
 }
 
 TEST_F(q1480, sample_input03) {
-  solution = new Solution();
+  solution         = new Solution();
   vector<int> nums = {3, 1, 2, 10, 1};
-  vector<int> exp = {3, 4, 6, 16, 17};
+  vector<int> exp  = {3, 4, 6, 16, 17};
   EXPECT_EQ(solution->runningSum(nums), exp);
   delete solution;
 }
