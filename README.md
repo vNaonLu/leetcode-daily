@@ -334,7 +334,7 @@ My daily challenge on leetcode since 2021/09/06.
 |🔒|314|[Binary Tree Vertical Order Traversal](https://leetcode.com/problems/binary-tree-vertical-order-traversal/)|Medium|
 |[📎](src/q_301_350/q0315.cc)|315|[Count of Smaller Numbers After Self](https://leetcode.com/problems/count-of-smaller-numbers-after-self/)|Hard|
 |[📎](src/q_301_350/q0316.cc)|316|[Remove Duplicate Letters](https://leetcode.com/problems/remove-duplicate-letters/)|Medium|
-|🔒|317|[Shortest Distance from All Buildings](https://leetcode.com/problems/shortest-distance-from-all-buildings/)|Hard|
+|[📎](src/q_301_350/q0317.cc)|317|[Shortest Distance from All Buildings](https://leetcode.com/problems/shortest-distance-from-all-buildings/)|Hard|
 |[📎](src/q_301_350/q0318.cc)|318|[Maximum Product of Word Lengths](https://leetcode.com/problems/maximum-product-of-word-lengths/)|Medium|
 ||319|[Bulb Switcher](https://leetcode.com/problems/bulb-switcher/)|Medium|
 |🔒|320|[Generalized Abbreviation](https://leetcode.com/problems/generalized-abbreviation/)|Medium|
@@ -2459,6 +2459,7 @@ My daily challenge on leetcode since 2021/09/06.
 
 |Time|#|</>|Question Title|Difficulty|
 |:--|--:|:-:|:--|:--|
+|2022-08-24 18:00|317|[📎](src/q_301_350/q0317.cc)|[Shortest Distance from All Buildings](https://leetcode.com/problems/shortest-distance-from-all-buildings/)|Hard|
 |2022-08-23 19:17|355|[📎](src/q_351_400/q0355.cc)|[Design Twitter](https://leetcode.com/problems/design-twitter/)|Medium|
 |2022-08-23 18:07|234|[📎](src/q_201_250/q0234.cc)|[Palindrome Linked List](https://leetcode.com/problems/palindrome-linked-list/)|Easy|
 |2022-08-22 23:47|229|[📎](src/q_201_250/q0229.cc)|[Majority Element II](https://leetcode.com/problems/majority-element-ii/)|Medium|
@@ -2483,13 +2484,12 @@ My daily challenge on leetcode since 2021/09/06.
 |2022-08-11 12:04|1920|[📎](src/q_1901_1950/q1920.cc)|[Build Array from Permutation](https://leetcode.com/problems/build-array-from-permutation/)|Easy|
 |2022-08-10 20:36|958|[📎](src/q_951_1000/q0958.cc)|[Check Completeness of a Binary Tree](https://leetcode.com/problems/check-completeness-of-a-binary-tree/)|Medium|
 |2022-08-09 18:19|823|[📎](src/q_801_850/q0823.cc)|[Binary Trees With Factors](https://leetcode.com/problems/binary-trees-with-factors/)|Medium|
-|2022-08-08 18:22|1266|[📎](src/q_1251_1300/q1266.cc)|[Minimum Time Visiting All Points](https://leetcode.com/problems/minimum-time-visiting-all-points/)|Easy|
 
 ## Previous Logs
 
 |Month|Submissions|Easy|Medium|Hard|
 |:--|:--|:--|:--|:--|
-|[August_2022](./assets/August_2022.md)|35|9|21|5|
+|[August_2022](./assets/August_2022.md)|36|9|21|6|
 |[July_2022](./assets/July_2022.md)|47|6|37|4|
 |[June_2022](./assets/June_2022.md)|30|8|19|3|
 |[May_2022](./assets/May_2022.md)|42|12|26|4|
