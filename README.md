@@ -216,7 +216,7 @@ My daily challenge on leetcode since 2021/09/06.
 |[📎](src/q_201_250/q0202.cc)|202|[Happy Number](https://leetcode.com/problems/happy-number/)|Easy|
 |[📎](src/q_201_250/q0203.cc)|203|[Remove Linked List Elements](https://leetcode.com/problems/remove-linked-list-elements/)|Easy|
 ||204|[Count Primes](https://leetcode.com/problems/count-primes/)|Medium|
-||205|[Isomorphic Strings](https://leetcode.com/problems/isomorphic-strings/)|Easy|
+|[📎](src/q_201_250/q0205.cc)|205|[Isomorphic Strings](https://leetcode.com/problems/isomorphic-strings/)|Easy|
 |[📎](src/q_201_250/q0206.cc)|206|[Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/)|Easy|
 |[📎](src/q_201_250/q0207.cc)|207|[Course Schedule](https://leetcode.com/problems/course-schedule/)|Medium|
 |[📎](src/q_201_250/q0208.cc)|208|[Implement Trie (Prefix Tree)](https://leetcode.com/problems/implement-trie-prefix-tree/)|Medium|
@@ -2312,7 +2312,7 @@ My daily challenge on leetcode since 2021/09/06.
 ||2250|[Count Number of Rectangles Containing Each Point](https://leetcode.com/problems/count-number-of-rectangles-containing-each-point/)|Medium|
 </details>
 <details>
-  <summary>### 2251 ~ 2386</summary>
+  <summary>### 2251 ~ 2387</summary>
 
 |</>|#|Solution Title|Difficulty|
 |:-:|--:|:--|:--|
@@ -2452,6 +2452,7 @@ My daily challenge on leetcode since 2021/09/06.
 ||2384|[Largest Palindromic Number](https://leetcode.com/problems/largest-palindromic-number/)|Medium|
 ||2385|[Amount of Time for Binary Tree to Be Infected](https://leetcode.com/problems/amount-of-time-for-binary-tree-to-be-infected/)|Medium|
 ||2386|[Find the K-Sum of an Array](https://leetcode.com/problems/find-the-k-sum-of-an-array/)|Hard|
+|🔒|2387|[Median of a Row Wise Sorted Matrix](https://leetcode.com/problems/median-of-a-row-wise-sorted-matrix/)|Medium|
 </details>
 
 ---
@@ -2459,6 +2460,7 @@ My daily challenge on leetcode since 2021/09/06.
 
 |Time|#|</>|Question Title|Difficulty|
 |:--|--:|:-:|:--|:--|
+|2022-08-25 18:23|205|[📎](src/q_201_250/q0205.cc)|[Isomorphic Strings](https://leetcode.com/problems/isomorphic-strings/)|Easy|
 |2022-08-24 21:08|724|[📎](src/q_701_750/q0724.cc)|[Find Pivot Index](https://leetcode.com/problems/find-pivot-index/)|Easy|
 |2022-08-24 18:50|468|[📎](src/q_451_500/q0468.cc)|[Validate IP Address](https://leetcode.com/problems/validate-ip-address/)|Medium|
 |2022-08-24 18:00|317|[📎](src/q_301_350/q0317.cc)|[Shortest Distance from All Buildings](https://leetcode.com/problems/shortest-distance-from-all-buildings/)|Hard|
@@ -2483,13 +2485,12 @@ My daily challenge on leetcode since 2021/09/06.
 |2022-08-14 14:35|126|[📎](src/q_101_150/q0126.cc)|[Word Ladder II](https://leetcode.com/problems/word-ladder-ii/)|Hard|
 |2022-08-13 12:42|292|[📎](src/q_251_300/q0292.cc)|[Nim Game](https://leetcode.com/problems/nim-game/)|Easy|
 |2022-08-12 21:19|2221|[📎](src/q_2201_2250/q2221.cc)|[Find Triangular Sum of an Array](https://leetcode.com/problems/find-triangular-sum-of-an-array/)|Medium|
-|2022-08-11 12:04|1920|[📎](src/q_1901_1950/q1920.cc)|[Build Array from Permutation](https://leetcode.com/problems/build-array-from-permutation/)|Easy|
 
 ## Previous Logs
 
 |Month|Submissions|Easy|Medium|Hard|
 |:--|:--|:--|:--|:--|
-|[August_2022](./assets/August_2022.md)|38|10|22|6|
+|[August_2022](./assets/August_2022.md)|39|11|22|6|
 |[July_2022](./assets/July_2022.md)|47|6|37|4|
 |[June_2022](./assets/June_2022.md)|30|8|19|3|
 |[May_2022](./assets/May_2022.md)|42|12|26|4|

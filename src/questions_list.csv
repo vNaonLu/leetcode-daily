@@ -203,7 +203,7 @@ id,title,level,slug,paid,done
 202,Happy Number,1,happy-number,0,1
 203,Remove Linked List Elements,1,remove-linked-list-elements,0,1
 204,Count Primes,2,count-primes,0,0
-205,Isomorphic Strings,1,isomorphic-strings,0,0
+205,Isomorphic Strings,1,isomorphic-strings,0,1
 206,Reverse Linked List,1,reverse-linked-list,0,1
 207,Course Schedule,2,course-schedule,0,1
 208,Implement Trie (Prefix Tree),2,implement-trie-prefix-tree,0,1
@@ -2385,3 +2385,4 @@ id,title,level,slug,paid,done
 2384,Largest Palindromic Number,2,largest-palindromic-number,0,0
 2385,Amount of Time for Binary Tree to Be Infected,2,amount-of-time-for-binary-tree-to-be-infected,0,0
 2386,Find the K-Sum of an Array,3,find-the-k-sum-of-an-array,0,0
+2387,Median of a Row Wise Sorted Matrix,2,median-of-a-row-wise-sorted-matrix,1,0
