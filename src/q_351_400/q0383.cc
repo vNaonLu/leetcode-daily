@@ -27,15 +27,27 @@ using namespace std;
 struct q383 : public ::testing::Test {
   // Leetcode answer here
   class Solution {
-   public:
+  private:
+    template <typename Iterator>
+    auto getDictionary(Iterator beg, Iterator end) {
+      auto res = unordered_map<typename Iterator::value_type, uint32_t>();
+      while (beg != end) {
+        ++res[*beg++];
+      }
+      return res;
+    }
+
+  public:
     bool canConstruct(string ransomNote, string magazine) {
-      unordered_map<char, int> hash;
-      for (const auto &c : ransomNote) ++hash[c];
-      for (const auto &c : magazine)
-        if (hash[c] > 0)
-          --hash[c];
-      for (const auto c : hash)
-        if (c.second > 0) return false;
+      auto dict = getDictionary(magazine.begin(), magazine.end());
+      auto beg  = ransomNote.begin();
+      while (beg != ransomNote.end()) {
+        auto find = dict.find(*beg++);
+        if (find == dict.end() || find->second == 0) {
+          return false;
+        }
+        --find->second;
+      }
       return true;
     }
   };
@@ -44,28 +56,28 @@ struct q383 : public ::testing::Test {
 };
 
 TEST_F(q383, sample_input01) {
-  solution = new Solution();
+  solution          = new Solution();
   string ransomNote = "a";
-  string magazine = "b";
-  bool exp = false;
+  string magazine   = "b";
+  bool   exp        = false;
   EXPECT_EQ(solution->canConstruct(ransomNote, magazine), exp);
   delete solution;
 }
 
 TEST_F(q383, sample_input02) {
-  solution = new Solution();
+  solution          = new Solution();
   string ransomNote = "aa";
-  string magazine = "ab";
-  bool exp = false;
+  string magazine   = "ab";
+  bool   exp        = false;
   EXPECT_EQ(solution->canConstruct(ransomNote, magazine), exp);
   delete solution;
 }
 
 TEST_F(q383, sample_input03) {
-  solution = new Solution();
+  solution          = new Solution();
   string ransomNote = "aa";
-  string magazine = "aab";
-  bool exp = true;
+  string magazine   = "aab";
+  bool   exp        = true;
   EXPECT_EQ(solution->canConstruct(ransomNote, magazine), exp);
   delete solution;
 }
