@@ -31,16 +31,16 @@ using namespace std;
 struct q392 : public ::testing::Test {
   // Leetcode answer here
   class Solution {
-   public:
+  public:
     bool isSubsequence(string s, string t) {
-      int res = 0;
-      int i = 0;
-      while (res < s.size() && i < t.size()) {
-        if (t[i++] == s[res]) {
-          ++res;
+      auto sbeg = s.begin();
+      auto tbeg = t.begin();
+      while (tbeg != t.end() && sbeg != s.end()) {
+        if (*sbeg == *tbeg++) {
+          ++sbeg;
         }
       }
-      return res == s.size();
+      return sbeg == s.end();
     }
   };
 
@@ -48,19 +48,19 @@ struct q392 : public ::testing::Test {
 };
 
 TEST_F(q392, sample_input01) {
-  solution = new Solution();
-  string s = "abc";
-  string t = "ahbgdc";
-  bool exp = true;
+  solution   = new Solution();
+  string s   = "abc";
+  string t   = "ahbgdc";
+  bool   exp = true;
   EXPECT_EQ(solution->isSubsequence(s, t), exp);
   delete solution;
 }
 
 TEST_F(q392, sample_input02) {
-  solution = new Solution();
-  string s = "axc";
-  string t = "ahbgdc";
-  bool exp = false;
+  solution   = new Solution();
+  string s   = "axc";
+  string t   = "ahbgdc";
+  bool   exp = false;
   EXPECT_EQ(solution->isSubsequence(s, t), exp);
   delete solution;
 }
