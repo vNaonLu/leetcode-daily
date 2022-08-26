@@ -867,7 +867,7 @@ id,title,level,slug,paid,done
 866,Prime Palindrome,2,prime-palindrome,0,0
 867,Transpose Matrix,1,transpose-matrix,0,1
 868,Binary Gap,1,binary-gap,0,0
-869,Reordered Power of 2,2,reordered-power-of-2,0,0
+869,Reordered Power of 2,2,reordered-power-of-2,0,1
 870,Advantage Shuffle,2,advantage-shuffle,0,0
 871,Minimum Number of Refueling Stops,3,minimum-number-of-refueling-stops,0,1
 872,Leaf-Similar Trees,1,leaf-similar-trees,0,0
@@ -2386,3 +2386,4 @@ id,title,level,slug,paid,done
 2385,Amount of Time for Binary Tree to Be Infected,2,amount-of-time-for-binary-tree-to-be-infected,0,0
 2386,Find the K-Sum of an Array,3,find-the-k-sum-of-an-array,0,0
 2387,Median of a Row Wise Sorted Matrix,2,median-of-a-row-wise-sorted-matrix,1,0
+2388,Change Null Values in a Table to the Previous Value,2,change-null-values-in-a-table-to-the-previous-value,1,0

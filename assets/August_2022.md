@@ -2,6 +2,7 @@
 
 ||#|</>|Question Title|Difficulty|
 |:--|--:|:-:|:--|:--|
+|Day 26|869|[📎](../src/q_851_900/q0869.cc)|[Reordered Power of 2](https://leetcode.com/problems/reordered-power-of-2/)|Medium|
 |Day 25|205|[📎](../src/q_201_250/q0205.cc)|[Isomorphic Strings](https://leetcode.com/problems/isomorphic-strings/)|Easy|
 |Day 24|317<br>468<br>724|[📎](../src/q_301_350/q0317.cc)<br>[📎](../src/q_451_500/q0468.cc)<br>[📎](../src/q_701_750/q0724.cc)|[Shortest Distance from All Buildings](https://leetcode.com/problems/shortest-distance-from-all-buildings/)<br>[Validate IP Address](https://leetcode.com/problems/validate-ip-address/)<br>[Find Pivot Index](https://leetcode.com/problems/find-pivot-index/)|Hard<br>Medium<br>Easy|
 |Day 23|234<br>355|[📎](../src/q_201_250/q0234.cc)<br>[📎](../src/q_351_400/q0355.cc)|[Palindrome Linked List](https://leetcode.com/problems/palindrome-linked-list/)<br>[Design Twitter](https://leetcode.com/problems/design-twitter/)|Easy<br>Medium|
