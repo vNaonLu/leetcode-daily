@@ -25,14 +25,15 @@ using namespace std;
 struct q206 : public ::testing::Test {
   // Leetcode answer here
   class Solution {
-   public:
-    ListNode* reverseList(ListNode* head) {
-      ListNode *p = head, *prev = nullptr;
-      while (p) {
-        ListNode* q = p->next;
-        p->next = prev;
-        prev = p;
-        p = q;
+  public:
+    ListNode *reverseList(ListNode *head) {
+      auto prev = (ListNode *)nullptr;
+      auto tmp  = (ListNode *)nullptr;
+      while (nullptr != head) {
+        tmp        = head->next;
+        head->next = prev;
+        prev       = head;
+        head       = tmp;
       }
       return prev;
     }
@@ -42,30 +43,30 @@ struct q206 : public ::testing::Test {
 };
 
 TEST_F(q206, sample_input01) {
-  solution = new Solution();
-  ListNode* head = ListNode::generate({1, 2, 3, 4, 5});
-  ListNode* exp = ListNode::generate({5, 4, 3, 2, 1});
-  ListNode* act = solution->reverseList(head);
+  solution       = new Solution();
+  ListNode *head = ListNode::generate({1, 2, 3, 4, 5});
+  ListNode *exp  = ListNode::generate({5, 4, 3, 2, 1});
+  ListNode *act  = solution->reverseList(head);
   EXPECT_LISTNODE_EQ(act, exp);
   ListNode::release(head, exp, act);
   delete solution;
 }
 
 TEST_F(q206, sample_input02) {
-  solution = new Solution();
-  ListNode* head = ListNode::generate({1, 2});
-  ListNode* exp = ListNode::generate({2, 1});
-  ListNode* act = solution->reverseList(head);
+  solution       = new Solution();
+  ListNode *head = ListNode::generate({1, 2});
+  ListNode *exp  = ListNode::generate({2, 1});
+  ListNode *act  = solution->reverseList(head);
   EXPECT_LISTNODE_EQ(act, exp);
   ListNode::release(head, exp, act);
   delete solution;
 }
 
 TEST_F(q206, sample_input03) {
-  solution = new Solution();
-  ListNode* head = ListNode::generate({});
-  ListNode* exp = ListNode::generate({});
-  ListNode* act = solution->reverseList(head);
+  solution       = new Solution();
+  ListNode *head = ListNode::generate({});
+  ListNode *exp  = ListNode::generate({});
+  ListNode *act  = solution->reverseList(head);
   EXPECT_LISTNODE_EQ(act, exp);
   ListNode::release(head, exp, act);
   delete solution;
