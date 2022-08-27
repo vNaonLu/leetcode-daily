@@ -361,7 +361,7 @@ id,title,level,slug,paid,done
 360,Sort Transformed Array,2,sort-transformed-array,1,0
 361,Bomb Enemy,2,bomb-enemy,1,0
 362,Design Hit Counter,2,design-hit-counter,1,0
-363,Max Sum of Rectangle No Larger Than K,3,max-sum-of-rectangle-no-larger-than-k,0,0
+363,Max Sum of Rectangle No Larger Than K,3,max-sum-of-rectangle-no-larger-than-k,0,1
 364,Nested List Weight Sum II,2,nested-list-weight-sum-ii,1,0
 365,Water and Jug Problem,2,water-and-jug-problem,0,1
 366,Find Leaves of Binary Tree,2,find-leaves-of-binary-tree,1,0

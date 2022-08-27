@@ -380,7 +380,7 @@ My daily challenge on leetcode since 2021/09/06.
 |🔒|360|[Sort Transformed Array](https://leetcode.com/problems/sort-transformed-array/)|Medium|
 |🔒|361|[Bomb Enemy](https://leetcode.com/problems/bomb-enemy/)|Medium|
 |🔒|362|[Design Hit Counter](https://leetcode.com/problems/design-hit-counter/)|Medium|
-||363|[Max Sum of Rectangle No Larger Than K](https://leetcode.com/problems/max-sum-of-rectangle-no-larger-than-k/)|Hard|
+|[📎](src/q_351_400/q0363.cc)|363|[Max Sum of Rectangle No Larger Than K](https://leetcode.com/problems/max-sum-of-rectangle-no-larger-than-k/)|Hard|
 |🔒|364|[Nested List Weight Sum II](https://leetcode.com/problems/nested-list-weight-sum-ii/)|Medium|
 |[📎](src/q_351_400/q0365.cc)|365|[Water and Jug Problem](https://leetcode.com/problems/water-and-jug-problem/)|Medium|
 |🔒|366|[Find Leaves of Binary Tree](https://leetcode.com/problems/find-leaves-of-binary-tree/)|Medium|
@@ -2461,6 +2461,7 @@ My daily challenge on leetcode since 2021/09/06.
 
 |Time|#|</>|Question Title|Difficulty|
 |:--|--:|:-:|:--|:--|
+|2022-08-27 13:41|363|[📎](src/q_351_400/q0363.cc)|[Max Sum of Rectangle No Larger Than K](https://leetcode.com/problems/max-sum-of-rectangle-no-larger-than-k/)|Hard|
 |2022-08-26 13:11|869|[📎](src/q_851_900/q0869.cc)|[Reordered Power of 2](https://leetcode.com/problems/reordered-power-of-2/)|Medium|
 |2022-08-25 18:23|205|[📎](src/q_201_250/q0205.cc)|[Isomorphic Strings](https://leetcode.com/problems/isomorphic-strings/)|Easy|
 |2022-08-24 21:08|724|[📎](src/q_701_750/q0724.cc)|[Find Pivot Index](https://leetcode.com/problems/find-pivot-index/)|Easy|
@@ -2485,13 +2486,12 @@ My daily challenge on leetcode since 2021/09/06.
 |2022-08-16 18:33|804|[📎](src/q_801_850/q0804.cc)|[Unique Morse Code Words](https://leetcode.com/problems/unique-morse-code-words/)|Easy|
 |2022-08-15 18:05|401|[📎](src/q_401_450/q0401.cc)|[Binary Watch](https://leetcode.com/problems/binary-watch/)|Easy|
 |2022-08-14 14:35|126|[📎](src/q_101_150/q0126.cc)|[Word Ladder II](https://leetcode.com/problems/word-ladder-ii/)|Hard|
-|2022-08-13 12:42|292|[📎](src/q_251_300/q0292.cc)|[Nim Game](https://leetcode.com/problems/nim-game/)|Easy|
 
 ## Previous Logs
 
 |Month|Submissions|Easy|Medium|Hard|
 |:--|:--|:--|:--|:--|
-|[August_2022](./assets/August_2022.md)|40|11|23|6|
+|[August_2022](./assets/August_2022.md)|41|11|23|7|
 |[July_2022](./assets/July_2022.md)|47|6|37|4|
 |[June_2022](./assets/June_2022.md)|30|8|19|3|
 |[May_2022](./assets/May_2022.md)|42|12|26|4|
