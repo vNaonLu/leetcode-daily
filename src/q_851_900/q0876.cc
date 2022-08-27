@@ -26,14 +26,16 @@ using namespace std;
 struct q876 : public ::testing::Test {
   // Leetcode answer here
   class Solution {
-   public:
-    ListNode* middleNode(ListNode* head) {
-      ListNode *fast = head, *slow = head;
-      while (fast != nullptr && fast->next != nullptr) {
-        slow = slow->next;
-        fast = fast->next->next;
+  public:
+    ListNode *middleNode(ListNode *head) {
+      auto faster = head;
+
+      while (faster != nullptr && faster->next != nullptr) {
+        faster = faster->next->next;
+        head   = head->next;
       }
-      return slow;
+
+      return head;
     }
   };
 
@@ -41,20 +43,20 @@ struct q876 : public ::testing::Test {
 };
 
 TEST_F(q876, sample_input01) {
-  solution = new Solution();
-  ListNode* head = ListNode::generate({1, 2, 3, 4, 5});
-  ListNode* exp = ListNode::generate({3, 4, 5});
-  ListNode* act = solution->middleNode(head);
+  solution       = new Solution();
+  ListNode *head = ListNode::generate({1, 2, 3, 4, 5});
+  ListNode *exp  = ListNode::generate({3, 4, 5});
+  ListNode *act  = solution->middleNode(head);
   EXPECT_LISTNODE_EQ(act, exp);
   ListNode::release(head, exp, act);
   delete solution;
 }
 
 TEST_F(q876, sample_input02) {
-  solution = new Solution();
-  ListNode* head = ListNode::generate({1, 2, 3, 4, 5, 6});
-  ListNode* exp = ListNode::generate({4, 5, 6});
-  ListNode* act = solution->middleNode(head);
+  solution       = new Solution();
+  ListNode *head = ListNode::generate({1, 2, 3, 4, 5, 6});
+  ListNode *exp  = ListNode::generate({4, 5, 6});
+  ListNode *act  = solution->middleNode(head);
   EXPECT_LISTNODE_EQ(act, exp);
   ListNode::release(head, exp, act);
   delete solution;

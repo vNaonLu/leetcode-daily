@@ -87,7 +87,7 @@ id,title,level,slug,paid,done
 86,Partition List,2,partition-list,0,1
 87,Scramble String,3,scramble-string,0,0
 88,Merge Sorted Array,1,merge-sorted-array,0,1
-89,Gray Code,2,gray-code,0,0
+89,Gray Code,2,gray-code,0,1
 90,Subsets II,2,subsets-ii,0,1
 91,Decode Ways,2,decode-ways,0,1
 92,Reverse Linked List II,2,reverse-linked-list-ii,0,1
@@ -135,7 +135,7 @@ id,title,level,slug,paid,done
 134,Gas Station,2,gas-station,0,1
 135,Candy,3,candy,0,1
 136,Single Number,1,single-number,0,1
-137,Single Number II,2,single-number-ii,0,0
+137,Single Number II,2,single-number-ii,0,1
 138,Copy List with Random Pointer,2,copy-list-with-random-pointer,0,1
 139,Word Break,2,word-break,0,1
 140,Word Break II,3,word-break-ii,0,1
@@ -164,7 +164,7 @@ id,title,level,slug,paid,done
 163,Missing Ranges,1,missing-ranges,1,0
 164,Maximum Gap,3,maximum-gap,0,0
 165,Compare Version Numbers,2,compare-version-numbers,0,1
-166,Fraction to Recurring Decimal,2,fraction-to-recurring-decimal,0,0
+166,Fraction to Recurring Decimal,2,fraction-to-recurring-decimal,0,1
 167,Two Sum II - Input Array Is Sorted,2,two-sum-ii-input-array-is-sorted,0,1
 168,Excel Sheet Column Title,1,excel-sheet-column-title,0,0
 169,Majority Element,1,majority-element,0,1
@@ -177,7 +177,7 @@ id,title,level,slug,paid,done
 176,Second Highest Salary,2,second-highest-salary,0,0
 177,Nth Highest Salary,2,nth-highest-salary,0,0
 178,Rank Scores,2,rank-scores,0,0
-179,Largest Number,2,largest-number,0,0
+179,Largest Number,2,largest-number,0,1
 180,Consecutive Numbers,2,consecutive-numbers,0,0
 181,Employees Earning More Than Their Managers,1,employees-earning-more-than-their-managers,0,0
 182,Duplicate Emails,1,duplicate-emails,0,0
@@ -203,9 +203,9 @@ id,title,level,slug,paid,done
 202,Happy Number,1,happy-number,0,1
 203,Remove Linked List Elements,1,remove-linked-list-elements,0,1
 204,Count Primes,2,count-primes,0,0
-205,Isomorphic Strings,1,isomorphic-strings,0,0
+205,Isomorphic Strings,1,isomorphic-strings,0,1
 206,Reverse Linked List,1,reverse-linked-list,0,1
-207,Course Schedule,2,course-schedule,0,0
+207,Course Schedule,2,course-schedule,0,1
 208,Implement Trie (Prefix Tree),2,implement-trie-prefix-tree,0,1
 209,Minimum Size Subarray Sum,2,minimum-size-subarray-sum,0,1
 210,Course Schedule II,2,course-schedule-ii,0,1
@@ -218,21 +218,21 @@ id,title,level,slug,paid,done
 217,Contains Duplicate,1,contains-duplicate,0,0
 218,The Skyline Problem,3,the-skyline-problem,0,0
 219,Contains Duplicate II,1,contains-duplicate-ii,0,1
-220,Contains Duplicate III,2,contains-duplicate-iii,0,0
+220,Contains Duplicate III,2,contains-duplicate-iii,0,1
 221,Maximal Square,2,maximal-square,0,1
 222,Count Complete Tree Nodes,2,count-complete-tree-nodes,0,1
-223,Rectangle Area,2,rectangle-area,0,0
+223,Rectangle Area,2,rectangle-area,0,1
 224,Basic Calculator,3,basic-calculator,0,1
 225,Implement Stack using Queues,1,implement-stack-using-queues,0,1
 226,Invert Binary Tree,1,invert-binary-tree,0,1
 227,Basic Calculator II,2,basic-calculator-ii,0,1
 228,Summary Ranges,1,summary-ranges,0,1
-229,Majority Element II,2,majority-element-ii,0,0
+229,Majority Element II,2,majority-element-ii,0,1
 230,Kth Smallest Element in a BST,2,kth-smallest-element-in-a-bst,0,1
 231,Power of Two,1,power-of-two,0,1
 232,Implement Queue using Stacks,1,implement-queue-using-stacks,0,0
 233,Number of Digit One,3,number-of-digit-one,0,0
-234,Palindrome Linked List,1,palindrome-linked-list,0,0
+234,Palindrome Linked List,1,palindrome-linked-list,0,1
 235,Lowest Common Ancestor of a Binary Search Tree,1,lowest-common-ancestor-of-a-binary-search-tree,0,1
 236,Lowest Common Ancestor of a Binary Tree,2,lowest-common-ancestor-of-a-binary-tree,0,1
 237,Delete Node in a Linked List,1,delete-node-in-a-linked-list,0,0
@@ -315,7 +315,7 @@ id,title,level,slug,paid,done
 314,Binary Tree Vertical Order Traversal,2,binary-tree-vertical-order-traversal,1,0
 315,Count of Smaller Numbers After Self,3,count-of-smaller-numbers-after-self,0,1
 316,Remove Duplicate Letters,2,remove-duplicate-letters,0,1
-317,Shortest Distance from All Buildings,3,shortest-distance-from-all-buildings,1,0
+317,Shortest Distance from All Buildings,3,shortest-distance-from-all-buildings,1,1
 318,Maximum Product of Word Lengths,2,maximum-product-of-word-lengths,0,1
 319,Bulb Switcher,2,bulb-switcher,0,0
 320,Generalized Abbreviation,2,generalized-abbreviation,1,0
@@ -343,7 +343,7 @@ id,title,level,slug,paid,done
 342,Power of Four,1,power-of-four,0,1
 343,Integer Break,2,integer-break,0,1
 344,Reverse String,1,reverse-string,0,1
-345,Reverse Vowels of a String,1,reverse-vowels-of-a-string,0,0
+345,Reverse Vowels of a String,1,reverse-vowels-of-a-string,0,1
 346,Moving Average from Data Stream,1,moving-average-from-data-stream,1,0
 347,Top K Frequent Elements,2,top-k-frequent-elements,0,1
 348,Design Tic-Tac-Toe,2,design-tic-tac-toe,1,0
@@ -353,7 +353,7 @@ id,title,level,slug,paid,done
 352,Data Stream as Disjoint Intervals,3,data-stream-as-disjoint-intervals,0,1
 353,Design Snake Game,2,design-snake-game,1,0
 354,Russian Doll Envelopes,3,russian-doll-envelopes,0,1
-355,Design Twitter,2,design-twitter,0,0
+355,Design Twitter,2,design-twitter,0,1
 356,Line Reflection,2,line-reflection,1,0
 357,Count Numbers with Unique Digits,2,count-numbers-with-unique-digits,0,0
 358,Rearrange String k Distance Apart,3,rearrange-string-k-distance-apart,1,0
@@ -361,7 +361,7 @@ id,title,level,slug,paid,done
 360,Sort Transformed Array,2,sort-transformed-array,1,0
 361,Bomb Enemy,2,bomb-enemy,1,0
 362,Design Hit Counter,2,design-hit-counter,1,0
-363,Max Sum of Rectangle No Larger Than K,3,max-sum-of-rectangle-no-larger-than-k,0,0
+363,Max Sum of Rectangle No Larger Than K,3,max-sum-of-rectangle-no-larger-than-k,0,1
 364,Nested List Weight Sum II,2,nested-list-weight-sum-ii,1,0
 365,Water and Jug Problem,2,water-and-jug-problem,0,1
 366,Find Leaves of Binary Tree,2,find-leaves-of-binary-tree,1,0
@@ -466,7 +466,7 @@ id,title,level,slug,paid,done
 465,Optimal Account Balancing,3,optimal-account-balancing,1,0
 466,Count The Repetitions,3,count-the-repetitions,0,0
 467,Unique Substrings in Wraparound String,2,unique-substrings-in-wraparound-string,0,0
-468,Validate IP Address,2,validate-ip-address,0,0
+468,Validate IP Address,2,validate-ip-address,0,1
 469,Convex Polygon,2,convex-polygon,1,0
 470,Implement Rand10() Using Rand7(),2,implement-rand10-using-rand7,0,0
 471,Encode String with Shortest Length,3,encode-string-with-shortest-length,1,0
@@ -722,7 +722,7 @@ id,title,level,slug,paid,done
 721,Accounts Merge,2,accounts-merge,0,1
 722,Remove Comments,2,remove-comments,0,0
 723,Candy Crush,2,candy-crush,1,0
-724,Find Pivot Index,1,find-pivot-index,0,0
+724,Find Pivot Index,1,find-pivot-index,0,1
 725,Split Linked List in Parts,2,split-linked-list-in-parts,0,1
 726,Number of Atoms,3,number-of-atoms,0,0
 727,Minimum Window Subsequence,3,minimum-window-subsequence,1,0
@@ -867,7 +867,7 @@ id,title,level,slug,paid,done
 866,Prime Palindrome,2,prime-palindrome,0,0
 867,Transpose Matrix,1,transpose-matrix,0,1
 868,Binary Gap,1,binary-gap,0,0
-869,Reordered Power of 2,2,reordered-power-of-2,0,0
+869,Reordered Power of 2,2,reordered-power-of-2,0,1
 870,Advantage Shuffle,2,advantage-shuffle,0,0
 871,Minimum Number of Refueling Stops,3,minimum-number-of-refueling-stops,0,1
 872,Leaf-Similar Trees,1,leaf-similar-trees,0,0
@@ -934,7 +934,7 @@ id,title,level,slug,paid,done
 933,Number of Recent Calls,1,number-of-recent-calls,0,0
 934,Shortest Bridge,2,shortest-bridge,0,1
 935,Knight Dialer,2,knight-dialer,0,0
-936,Stamping The Sequence,3,stamping-the-sequence,0,0
+936,Stamping The Sequence,3,stamping-the-sequence,0,1
 937,Reorder Data in Log Files,2,reorder-data-in-log-files,0,0
 938,Range Sum of BST,1,range-sum-of-bst,0,1
 939,Minimum Area Rectangle,2,minimum-area-rectangle,0,0
@@ -1439,7 +1439,7 @@ id,title,level,slug,paid,done
 1438,Longest Continuous Subarray With Absolute Diff Less Than or Equal to Limit,2,longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit,0,0
 1439,Find the Kth Smallest Sum of a Matrix With Sorted Rows,3,find-the-kth-smallest-sum-of-a-matrix-with-sorted-rows,0,0
 1440,Evaluate Boolean Expression,2,evaluate-boolean-expression,1,0
-1441,Build an Array With Stack Operations,1,build-an-array-with-stack-operations,0,0
+1441,Build an Array With Stack Operations,2,build-an-array-with-stack-operations,0,0
 1442,Count Triplets That Can Form Two Arrays of Equal XOR,2,count-triplets-that-can-form-two-arrays-of-equal-xor,0,0
 1443,Minimum Time to Collect All Apples in a Tree,2,minimum-time-to-collect-all-apples-in-a-tree,0,0
 1444,Number of Ways of Cutting a Pizza,3,number-of-ways-of-cutting-a-pizza,0,0
@@ -2377,3 +2377,13 @@ id,title,level,slug,paid,done
 2376,Count Special Integers,3,count-special-integers,0,0
 2377,Sort the Olympic Table,1,sort-the-olympic-table,1,0
 2378,Choose Edges to Maximize Score in a Tree,2,choose-edges-to-maximize-score-in-a-tree,1,0
+2379,Minimum Recolors to Get K Consecutive Black Blocks,1,minimum-recolors-to-get-k-consecutive-black-blocks,0,0
+2380,Time Needed to Rearrange a Binary String,2,time-needed-to-rearrange-a-binary-string,0,0
+2381,Shifting Letters II,2,shifting-letters-ii,0,0
+2382,Maximum Segment Sum After Removals,3,maximum-segment-sum-after-removals,0,0
+2383,Minimum Hours of Training to Win a Competition,1,minimum-hours-of-training-to-win-a-competition,0,0
+2384,Largest Palindromic Number,2,largest-palindromic-number,0,0
+2385,Amount of Time for Binary Tree to Be Infected,2,amount-of-time-for-binary-tree-to-be-infected,0,0
+2386,Find the K-Sum of an Array,3,find-the-k-sum-of-an-array,0,0
+2387,Median of a Row Wise Sorted Matrix,2,median-of-a-row-wise-sorted-matrix,1,0
+2388,Change Null Values in a Table to the Previous Value,2,change-null-values-in-a-table-to-the-previous-value,1,0

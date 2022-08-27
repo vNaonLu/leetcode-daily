@@ -28,24 +28,25 @@ using namespace std;
 struct q21 : public ::testing::Test {
   // Leetcode answer here
   class Solution {
-   public:
-    ListNode* mergeTwoLists(ListNode* l1, ListNode* l2) {
-      if (l1 == nullptr) return l2;
-      if (l2 == nullptr) return l1;
-      ListNode dummy;
-      ListNode* p = &dummy;
-      while (l1 != nullptr && l2 != nullptr) {
-        if (l1->val <= l2->val) {
-          p->next = l1;
-          l1 = l1->next;
-        } else {
-          p->next = l2;
-          l2 = l2->next;
-        }
-        p = p->next;
+  public:
+    ListNode *mergeTwoLists(ListNode *list1, ListNode *list2) {
+      auto dummy = ListNode{};
+      auto p     = &dummy;
+
+      while (nullptr != list1 && nullptr != list2) {
+        auto &smaller = list1->val > list2->val ? list2 : list1;
+        p->next       = smaller;
+        p             = p->next;
+        smaller       = smaller->next;
       }
-      if (l1 != nullptr) p->next = l1;
-      if (l2 != nullptr) p->next = l2;
+
+      if (nullptr != list1) {
+        p->next = list1;
+      }
+      if (nullptr != list2) {
+        p->next = list2;
+      }
+
       return dummy.next;
     }
   };
@@ -54,33 +55,33 @@ struct q21 : public ::testing::Test {
 };
 
 TEST_F(q21, sample_input01) {
-  solution = new Solution();
-  ListNode* list1 = ListNode::generate({1, 2, 4});
-  ListNode* list2 = ListNode::generate({1, 3, 4});
-  ListNode* exp = ListNode::generate({1, 1, 2, 3, 4, 4});
-  ListNode* act = solution->mergeTwoLists(list1, list2);
+  solution        = new Solution();
+  ListNode *list1 = ListNode::generate({1, 2, 4});
+  ListNode *list2 = ListNode::generate({1, 3, 4});
+  ListNode *exp   = ListNode::generate({1, 1, 2, 3, 4, 4});
+  ListNode *act   = solution->mergeTwoLists(list1, list2);
   EXPECT_LISTNODE_EQ(act, exp);
   ListNode::release(list1, list2, exp, act);
   delete solution;
 }
 
 TEST_F(q21, sample_input02) {
-  solution = new Solution();
-  ListNode* list1 = ListNode::generate({});
-  ListNode* list2 = ListNode::generate({});
-  ListNode* exp = ListNode::generate({});
-  ListNode* act = solution->mergeTwoLists(list1, list2);
+  solution        = new Solution();
+  ListNode *list1 = ListNode::generate({});
+  ListNode *list2 = ListNode::generate({});
+  ListNode *exp   = ListNode::generate({});
+  ListNode *act   = solution->mergeTwoLists(list1, list2);
   EXPECT_LISTNODE_EQ(act, exp);
   ListNode::release(list1, list2, exp, act);
   delete solution;
 }
 
 TEST_F(q21, sample_input03) {
-  solution = new Solution();
-  ListNode* list1 = ListNode::generate({});
-  ListNode* list2 = ListNode::generate({0});
-  ListNode* exp = ListNode::generate({0});
-  ListNode* act = solution->mergeTwoLists(list1, list2);
+  solution        = new Solution();
+  ListNode *list1 = ListNode::generate({});
+  ListNode *list2 = ListNode::generate({0});
+  ListNode *exp   = ListNode::generate({0});
+  ListNode *act   = solution->mergeTwoLists(list1, list2);
   EXPECT_LISTNODE_EQ(act, exp);
   ListNode::release(list1, list2, exp, act);
   delete solution;
