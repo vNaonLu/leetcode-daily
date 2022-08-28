@@ -1327,7 +1327,7 @@ id,title,level,slug,paid,done
 1326,Minimum Number of Taps to Open to Water a Garden,3,minimum-number-of-taps-to-open-to-water-a-garden,0,0
 1327,List the Products Ordered in a Period,1,list-the-products-ordered-in-a-period,1,0
 1328,Break a Palindrome,2,break-a-palindrome,0,1
-1329,Sort the Matrix Diagonally,2,sort-the-matrix-diagonally,0,0
+1329,Sort the Matrix Diagonally,2,sort-the-matrix-diagonally,0,1
 1330,Reverse Subarray To Maximize Array Value,3,reverse-subarray-to-maximize-array-value,0,0
 1331,Rank Transform of an Array,1,rank-transform-of-an-array,0,0
 1332,Remove Palindromic Subsequences,1,remove-palindromic-subsequences,0,1
@@ -2387,3 +2387,7 @@ id,title,level,slug,paid,done
 2386,Find the K-Sum of an Array,3,find-the-k-sum-of-an-array,0,0
 2387,Median of a Row Wise Sorted Matrix,2,median-of-a-row-wise-sorted-matrix,1,0
 2388,Change Null Values in a Table to the Previous Value,2,change-null-values-in-a-table-to-the-previous-value,1,0
+2389,Longest Subsequence With Limited Sum,1,longest-subsequence-with-limited-sum,0,0
+2390,Removing Stars From a String,2,removing-stars-from-a-string,0,0
+2391,Minimum Amount of Time to Collect Garbage,2,minimum-amount-of-time-to-collect-garbage,0,0
+2392,Build a Matrix With Conditions,3,build-a-matrix-with-conditions,0,0
