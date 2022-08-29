@@ -1,5 +1,6 @@
 #include <gtest/gtest.h>
 #include <iostream>
+#include <stack>
 #include <vector>
 
 using namespace std;
@@ -30,38 +31,39 @@ struct q589 : public ::testing::Test {
   // Leetcode answer here
   // Definition for a Node.
   class Node {
-   public:
-    int val;
+  public:
+    int            val;
     vector<Node *> children;
 
     Node() {}
 
-    Node(int _val) {
-      val = _val;
-    }
+    Node(int _val) { val = _val; }
 
     Node(int _val, vector<Node *> _children) {
-      val = _val;
+      val      = _val;
       children = _children;
     }
   };
 
   class Solution {
-   private:
-    inline void helper(Node *p, vector<int> &r) {
-      if (nullptr != p) {
-        r.emplace_back(p->val);
-        for (auto &c : p->children) {
-          helper(c, r);
+  public:
+    vector<int> preorder(Node *root) {
+      auto res = vector<int>();
+      auto stk = stack<Node *>();
+      stk.emplace(root);
+      while (!stk.empty()) {
+        auto p = stk.top();
+        stk.pop();
+
+        if (p == nullptr) {
+          continue;
+        }
+
+        res.emplace_back(p->val);
+        for (auto it = p->children.rbegin(); it != p->children.rend(); ++it) {
+          stk.emplace(*it);
         }
       }
-    }
-
-   public:
-    vector<int> preorder(Node *root) {
-      vector<int> res;
-      helper(root, res);
-
       return res;
     }
   };
@@ -69,6 +71,4 @@ struct q589 : public ::testing::Test {
   class Solution *solution;
 };
 
-TEST_F(q589, NOT_IMPLEMENT) {
-   EXPECT_TRUE("NOT IMPLEMENT");
-}
+TEST_F(q589, NOT_IMPLEMENT) { EXPECT_TRUE("NOT IMPLEMENT"); }
