@@ -71,7 +71,7 @@ id,title,level,slug,paid,done
 70,Climbing Stairs,1,climbing-stairs,0,1
 71,Simplify Path,2,simplify-path,0,1
 72,Edit Distance,3,edit-distance,0,1
-73,Set Matrix Zeroes,2,set-matrix-zeroes,0,0
+73,Set Matrix Zeroes,2,set-matrix-zeroes,0,1
 74,Search a 2D Matrix,2,search-a-2d-matrix,0,1
 75,Sort Colors,2,sort-colors,0,1
 76,Minimum Window Substring,3,minimum-window-substring,0,0
