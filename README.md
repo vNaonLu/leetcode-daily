@@ -366,7 +366,7 @@ My daily challenge on leetcode since 2021/09/06.
 |🔒|346|[Moving Average from Data Stream](https://leetcode.com/problems/moving-average-from-data-stream/)|Easy|
 |[📎](src/q_301_350/q0347.cc)|347|[Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/)|Medium|
 |🔒|348|[Design Tic-Tac-Toe](https://leetcode.com/problems/design-tic-tac-toe/)|Medium|
-||349|[Intersection of Two Arrays](https://leetcode.com/problems/intersection-of-two-arrays/)|Easy|
+|[📎](src/q_301_350/q0349.cc)|349|[Intersection of Two Arrays](https://leetcode.com/problems/intersection-of-two-arrays/)|Easy|
 |[📎](src/q_301_350/q0350.cc)|350|[Intersection of Two Arrays II](https://leetcode.com/problems/intersection-of-two-arrays-ii/)|Easy|
 |🔒|351|[Android Unlock Patterns](https://leetcode.com/problems/android-unlock-patterns/)|Medium|
 |[📎](src/q_351_400/q0352.cc)|352|[Data Stream as Disjoint Intervals](https://leetcode.com/problems/data-stream-as-disjoint-intervals/)|Hard|
@@ -2465,6 +2465,7 @@ My daily challenge on leetcode since 2021/09/06.
 
 |Time|#|</>|Question Title|Difficulty|
 |:--|--:|:-:|:--|:--|
+|2022-08-29 17:47|349|[📎](src/q_301_350/q0349.cc)|[Intersection of Two Arrays](https://leetcode.com/problems/intersection-of-two-arrays/)|Easy|
 |2022-08-28 15:01|1329|[📎](src/q_1301_1350/q1329.cc)|[Sort the Matrix Diagonally](https://leetcode.com/problems/sort-the-matrix-diagonally/)|Medium|
 |2022-08-27 13:41|363|[📎](src/q_351_400/q0363.cc)|[Max Sum of Rectangle No Larger Than K](https://leetcode.com/problems/max-sum-of-rectangle-no-larger-than-k/)|Hard|
 |2022-08-26 13:11|869|[📎](src/q_851_900/q0869.cc)|[Reordered Power of 2](https://leetcode.com/problems/reordered-power-of-2/)|Medium|
@@ -2489,13 +2490,12 @@ My daily challenge on leetcode since 2021/09/06.
 |2022-08-18 18:23|1338|[📎](src/q_1301_1350/q1338.cc)|[Reduce Array Size to The Half](https://leetcode.com/problems/reduce-array-size-to-the-half/)|Medium|
 |2022-08-17 18:25|326|[📎](src/q_301_350/q0326.cc)|[Power of Three](https://leetcode.com/problems/power-of-three/)|Easy|
 |2022-08-16 18:33|804|[📎](src/q_801_850/q0804.cc)|[Unique Morse Code Words](https://leetcode.com/problems/unique-morse-code-words/)|Easy|
-|2022-08-15 18:05|401|[📎](src/q_401_450/q0401.cc)|[Binary Watch](https://leetcode.com/problems/binary-watch/)|Easy|
 
 ## Previous Logs
 
 |Month|Submissions|Easy|Medium|Hard|
 |:--|:--|:--|:--|:--|
-|[August_2022](./assets/August_2022.md)|42|11|24|7|
+|[August_2022](./assets/August_2022.md)|43|12|24|7|
 |[July_2022](./assets/July_2022.md)|47|6|37|4|
 |[June_2022](./assets/June_2022.md)|30|8|19|3|
 |[May_2022](./assets/May_2022.md)|42|12|26|4|

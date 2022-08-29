@@ -2,6 +2,7 @@
 
 ||#|</>|Question Title|Difficulty|
 |:--|--:|:-:|:--|:--|
+|Day 29|349|[📎](../src/q_301_350/q0349.cc)|[Intersection of Two Arrays](https://leetcode.com/problems/intersection-of-two-arrays/)|Easy|
 |Day 28|1329|[📎](../src/q_1301_1350/q1329.cc)|[Sort the Matrix Diagonally](https://leetcode.com/problems/sort-the-matrix-diagonally/)|Medium|
 |Day 27|363|[📎](../src/q_351_400/q0363.cc)|[Max Sum of Rectangle No Larger Than K](https://leetcode.com/problems/max-sum-of-rectangle-no-larger-than-k/)|Hard|
 |Day 26|869|[📎](../src/q_851_900/q0869.cc)|[Reordered Power of 2](https://leetcode.com/problems/reordered-power-of-2/)|Medium|

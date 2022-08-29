@@ -347,7 +347,7 @@ id,title,level,slug,paid,done
 346,Moving Average from Data Stream,1,moving-average-from-data-stream,1,0
 347,Top K Frequent Elements,2,top-k-frequent-elements,0,1
 348,Design Tic-Tac-Toe,2,design-tic-tac-toe,1,0
-349,Intersection of Two Arrays,1,intersection-of-two-arrays,0,0
+349,Intersection of Two Arrays,1,intersection-of-two-arrays,0,1
 350,Intersection of Two Arrays II,1,intersection-of-two-arrays-ii,0,1
 351,Android Unlock Patterns,2,android-unlock-patterns,1,0
 352,Data Stream as Disjoint Intervals,3,data-stream-as-disjoint-intervals,0,1
