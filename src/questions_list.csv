@@ -74,7 +74,7 @@ id,title,level,slug,paid,done
 73,Set Matrix Zeroes,2,set-matrix-zeroes,0,1
 74,Search a 2D Matrix,2,search-a-2d-matrix,0,1
 75,Sort Colors,2,sort-colors,0,1
-76,Minimum Window Substring,3,minimum-window-substring,0,0
+76,Minimum Window Substring,3,minimum-window-substring,0,1
 77,Combinations,2,combinations,0,1
 78,Subsets,2,subsets,0,1
 79,Word Search,2,word-search,0,1

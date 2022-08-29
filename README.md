@@ -87,7 +87,7 @@ My daily challenge on leetcode since 2021/09/06.
 |[📎](src/q_51_100/q0073.cc)|73|[Set Matrix Zeroes](https://leetcode.com/problems/set-matrix-zeroes/)|Medium|
 |[📎](src/q_51_100/q0074.cc)|74|[Search a 2D Matrix](https://leetcode.com/problems/search-a-2d-matrix/)|Medium|
 |[📎](src/q_51_100/q0075.cc)|75|[Sort Colors](https://leetcode.com/problems/sort-colors/)|Medium|
-||76|[Minimum Window Substring](https://leetcode.com/problems/minimum-window-substring/)|Hard|
+|[📎](src/q_51_100/q0076.cc)|76|[Minimum Window Substring](https://leetcode.com/problems/minimum-window-substring/)|Hard|
 |[📎](src/q_51_100/q0077.cc)|77|[Combinations](https://leetcode.com/problems/combinations/)|Medium|
 |[📎](src/q_51_100/q0078.cc)|78|[Subsets](https://leetcode.com/problems/subsets/)|Medium|
 |[📎](src/q_51_100/q0079.cc)|79|[Word Search](https://leetcode.com/problems/word-search/)|Medium|
@@ -2465,6 +2465,7 @@ My daily challenge on leetcode since 2021/09/06.
 
 |Time|#|</>|Question Title|Difficulty|
 |:--|--:|:-:|:--|:--|
+|2022-08-29 22:17|76|[📎](src/q_51_100/q0076.cc)|[Minimum Window Substring](https://leetcode.com/problems/minimum-window-substring/)|Hard|
 |2022-08-29 22:06|73|[📎](src/q_51_100/q0073.cc)|[Set Matrix Zeroes](https://leetcode.com/problems/set-matrix-zeroes/)|Medium|
 |2022-08-29 17:47|349|[📎](src/q_301_350/q0349.cc)|[Intersection of Two Arrays](https://leetcode.com/problems/intersection-of-two-arrays/)|Easy|
 |2022-08-28 15:01|1329|[📎](src/q_1301_1350/q1329.cc)|[Sort the Matrix Diagonally](https://leetcode.com/problems/sort-the-matrix-diagonally/)|Medium|
@@ -2489,13 +2490,12 @@ My daily challenge on leetcode since 2021/09/06.
 |2022-08-20 14:10|871|[📎](src/q_851_900/q0871.cc)|[Minimum Number of Refueling Stops](https://leetcode.com/problems/minimum-number-of-refueling-stops/)|Hard|
 |2022-08-19 18:17|659|[📎](src/q_651_700/q0659.cc)|[Split Array into Consecutive Subsequences](https://leetcode.com/problems/split-array-into-consecutive-subsequences/)|Medium|
 |2022-08-18 18:23|1338|[📎](src/q_1301_1350/q1338.cc)|[Reduce Array Size to The Half](https://leetcode.com/problems/reduce-array-size-to-the-half/)|Medium|
-|2022-08-17 18:25|326|[📎](src/q_301_350/q0326.cc)|[Power of Three](https://leetcode.com/problems/power-of-three/)|Easy|
 
 ## Previous Logs
 
 |Month|Submissions|Easy|Medium|Hard|
 |:--|:--|:--|:--|:--|
-|[August_2022](./assets/August_2022.md)|44|12|25|7|
+|[August_2022](./assets/August_2022.md)|45|12|25|8|
 |[July_2022](./assets/July_2022.md)|47|6|37|4|
 |[June_2022](./assets/June_2022.md)|30|8|19|3|
 |[May_2022](./assets/May_2022.md)|42|12|26|4|
