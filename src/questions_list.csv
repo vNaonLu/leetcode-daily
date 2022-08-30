@@ -432,7 +432,7 @@ id,title,level,slug,paid,done
 431,Encode N-ary Tree to Binary Tree,3,encode-n-ary-tree-to-binary-tree,1,0
 432,All O`one Data Structure,3,all-oone-data-structure,0,0
 433,Minimum Genetic Mutation,2,minimum-genetic-mutation,0,1
-434,Number of Segments in a String,1,number-of-segments-in-a-string,0,0
+434,Number of Segments in a String,1,number-of-segments-in-a-string,0,1
 435,Non-overlapping Intervals,2,non-overlapping-intervals,0,1
 436,Find Right Interval,2,find-right-interval,0,1
 437,Path Sum III,2,path-sum-iii,0,1

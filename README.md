@@ -451,7 +451,7 @@ My daily challenge on leetcode since 2021/09/06.
 |🔒|431|[Encode N-ary Tree to Binary Tree](https://leetcode.com/problems/encode-n-ary-tree-to-binary-tree/)|Hard|
 ||432|[All O`one Data Structure](https://leetcode.com/problems/all-oone-data-structure/)|Hard|
 |[📎](src/q_401_450/q0433.cc)|433|[Minimum Genetic Mutation](https://leetcode.com/problems/minimum-genetic-mutation/)|Medium|
-||434|[Number of Segments in a String](https://leetcode.com/problems/number-of-segments-in-a-string/)|Easy|
+|[📎](src/q_401_450/q0434.cc)|434|[Number of Segments in a String](https://leetcode.com/problems/number-of-segments-in-a-string/)|Easy|
 |[📎](src/q_401_450/q0435.cc)|435|[Non-overlapping Intervals](https://leetcode.com/problems/non-overlapping-intervals/)|Medium|
 |[📎](src/q_401_450/q0436.cc)|436|[Find Right Interval](https://leetcode.com/problems/find-right-interval/)|Medium|
 |[📎](src/q_401_450/q0437.cc)|437|[Path Sum III](https://leetcode.com/problems/path-sum-iii/)|Medium|
@@ -2465,6 +2465,7 @@ My daily challenge on leetcode since 2021/09/06.
 
 |Time|#|</>|Question Title|Difficulty|
 |:--|--:|:-:|:--|:--|
+|2022-08-30 18:15|434|[📎](src/q_401_450/q0434.cc)|[Number of Segments in a String](https://leetcode.com/problems/number-of-segments-in-a-string/)|Easy|
 |2022-08-29 22:17|76|[📎](src/q_51_100/q0076.cc)|[Minimum Window Substring](https://leetcode.com/problems/minimum-window-substring/)|Hard|
 |2022-08-29 22:06|73|[📎](src/q_51_100/q0073.cc)|[Set Matrix Zeroes](https://leetcode.com/problems/set-matrix-zeroes/)|Medium|
 |2022-08-29 17:47|349|[📎](src/q_301_350/q0349.cc)|[Intersection of Two Arrays](https://leetcode.com/problems/intersection-of-two-arrays/)|Easy|
@@ -2489,13 +2490,12 @@ My daily challenge on leetcode since 2021/09/06.
 |2022-08-21 14:48|936|[📎](src/q_901_950/q0936.cc)|[Stamping The Sequence](https://leetcode.com/problems/stamping-the-sequence/)|Hard|
 |2022-08-20 14:10|871|[📎](src/q_851_900/q0871.cc)|[Minimum Number of Refueling Stops](https://leetcode.com/problems/minimum-number-of-refueling-stops/)|Hard|
 |2022-08-19 18:17|659|[📎](src/q_651_700/q0659.cc)|[Split Array into Consecutive Subsequences](https://leetcode.com/problems/split-array-into-consecutive-subsequences/)|Medium|
-|2022-08-18 18:23|1338|[📎](src/q_1301_1350/q1338.cc)|[Reduce Array Size to The Half](https://leetcode.com/problems/reduce-array-size-to-the-half/)|Medium|
 
 ## Previous Logs
 
 |Month|Submissions|Easy|Medium|Hard|
 |:--|:--|:--|:--|:--|
-|[August_2022](./assets/August_2022.md)|45|12|25|8|
+|[August_2022](./assets/August_2022.md)|46|13|25|8|
 |[July_2022](./assets/July_2022.md)|47|6|37|4|
 |[June_2022](./assets/June_2022.md)|30|8|19|3|
 |[May_2022](./assets/May_2022.md)|42|12|26|4|
