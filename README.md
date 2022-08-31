@@ -431,7 +431,7 @@ My daily challenge on leetcode since 2021/09/06.
 |🔒|411|[Minimum Unique Word Abbreviation](https://leetcode.com/problems/minimum-unique-word-abbreviation/)|Hard|
 |[📎](src/q_401_450/q0412.cc)|412|[Fizz Buzz](https://leetcode.com/problems/fizz-buzz/)|Easy|
 |[📎](src/q_401_450/q0413.cc)|413|[Arithmetic Slices](https://leetcode.com/problems/arithmetic-slices/)|Medium|
-||414|[Third Maximum Number](https://leetcode.com/problems/third-maximum-number/)|Easy|
+|[📎](src/q_401_450/q0414.cc)|414|[Third Maximum Number](https://leetcode.com/problems/third-maximum-number/)|Easy|
 |[📎](src/q_401_450/q0415.cc)|415|[Add Strings](https://leetcode.com/problems/add-strings/)|Easy|
 |[📎](src/q_401_450/q0416.cc)|416|[Partition Equal Subset Sum](https://leetcode.com/problems/partition-equal-subset-sum/)|Medium|
 |[📎](src/q_401_450/q0417.cc)|417|[Pacific Atlantic Water Flow](https://leetcode.com/problems/pacific-atlantic-water-flow/)|Medium|
@@ -2465,6 +2465,7 @@ My daily challenge on leetcode since 2021/09/06.
 
 |Time|#|</>|Question Title|Difficulty|
 |:--|--:|:-:|:--|:--|
+|2022-08-31 18:23|414|[📎](src/q_401_450/q0414.cc)|[Third Maximum Number](https://leetcode.com/problems/third-maximum-number/)|Easy|
 |2022-08-31 18:11|412|[📎](src/q_401_450/q0412.cc)|[Fizz Buzz](https://leetcode.com/problems/fizz-buzz/)|Easy|
 |2022-08-30 18:15|434|[📎](src/q_401_450/q0434.cc)|[Number of Segments in a String](https://leetcode.com/problems/number-of-segments-in-a-string/)|Easy|
 |2022-08-29 22:17|76|[📎](src/q_51_100/q0076.cc)|[Minimum Window Substring](https://leetcode.com/problems/minimum-window-substring/)|Hard|
@@ -2489,13 +2490,12 @@ My daily challenge on leetcode since 2021/09/06.
 |2022-08-21 23:55|137|[📎](src/q_101_150/q0137.cc)|[Single Number II](https://leetcode.com/problems/single-number-ii/)|Medium|
 |2022-08-21 23:46|89|[📎](src/q_51_100/q0089.cc)|[Gray Code](https://leetcode.com/problems/gray-code/)|Medium|
 |2022-08-21 14:48|936|[📎](src/q_901_950/q0936.cc)|[Stamping The Sequence](https://leetcode.com/problems/stamping-the-sequence/)|Hard|
-|2022-08-20 14:10|871|[📎](src/q_851_900/q0871.cc)|[Minimum Number of Refueling Stops](https://leetcode.com/problems/minimum-number-of-refueling-stops/)|Hard|
 
 ## Previous Logs
 
 |Month|Submissions|Easy|Medium|Hard|
 |:--|:--|:--|:--|:--|
-|[August_2022](./assets/August_2022.md)|47|14|25|8|
+|[August_2022](./assets/August_2022.md)|48|15|25|8|
 |[July_2022](./assets/July_2022.md)|47|6|37|4|
 |[June_2022](./assets/June_2022.md)|30|8|19|3|
 |[May_2022](./assets/May_2022.md)|42|12|26|4|
