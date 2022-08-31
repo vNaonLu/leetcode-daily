@@ -685,7 +685,7 @@ id,title,level,slug,paid,done
 684,Redundant Connection,2,redundant-connection,0,1
 685,Redundant Connection II,3,redundant-connection-ii,0,0
 686,Repeated String Match,2,repeated-string-match,0,0
-687,Longest Univalue Path,2,longest-univalue-path,0,0
+687,Longest Univalue Path,2,longest-univalue-path,0,1
 688,Knight Probability in Chessboard,2,knight-probability-in-chessboard,0,0
 689,Maximum Sum of 3 Non-Overlapping Subarrays,3,maximum-sum-of-3-non-overlapping-subarrays,0,0
 690,Employee Importance,2,employee-importance,0,0

@@ -710,7 +710,7 @@ My daily challenge on leetcode since 2021/09/06.
 |[📎](src/q_651_700/q0684.cc)|684|[Redundant Connection](https://leetcode.com/problems/redundant-connection/)|Medium|
 ||685|[Redundant Connection II](https://leetcode.com/problems/redundant-connection-ii/)|Hard|
 ||686|[Repeated String Match](https://leetcode.com/problems/repeated-string-match/)|Medium|
-||687|[Longest Univalue Path](https://leetcode.com/problems/longest-univalue-path/)|Medium|
+|[📎](src/q_651_700/q0687.cc)|687|[Longest Univalue Path](https://leetcode.com/problems/longest-univalue-path/)|Medium|
 ||688|[Knight Probability in Chessboard](https://leetcode.com/problems/knight-probability-in-chessboard/)|Medium|
 ||689|[Maximum Sum of 3 Non-Overlapping Subarrays](https://leetcode.com/problems/maximum-sum-of-3-non-overlapping-subarrays/)|Hard|
 ||690|[Employee Importance](https://leetcode.com/problems/employee-importance/)|Medium|
@@ -2465,6 +2465,7 @@ My daily challenge on leetcode since 2021/09/06.
 
 |Time|#|</>|Question Title|Difficulty|
 |:--|--:|:-:|:--|:--|
+|2022-09-01 00:35|687|[📎](src/q_651_700/q0687.cc)|[Longest Univalue Path](https://leetcode.com/problems/longest-univalue-path/)|Medium|
 |2022-08-31 18:23|414|[📎](src/q_401_450/q0414.cc)|[Third Maximum Number](https://leetcode.com/problems/third-maximum-number/)|Easy|
 |2022-08-31 18:11|412|[📎](src/q_401_450/q0412.cc)|[Fizz Buzz](https://leetcode.com/problems/fizz-buzz/)|Easy|
 |2022-08-30 18:15|434|[📎](src/q_401_450/q0434.cc)|[Number of Segments in a String](https://leetcode.com/problems/number-of-segments-in-a-string/)|Easy|
@@ -2489,12 +2490,12 @@ My daily challenge on leetcode since 2021/09/06.
 |2022-08-22 00:04|166|[📎](src/q_151_200/q0166.cc)|[Fraction to Recurring Decimal](https://leetcode.com/problems/fraction-to-recurring-decimal/)|Medium|
 |2022-08-21 23:55|137|[📎](src/q_101_150/q0137.cc)|[Single Number II](https://leetcode.com/problems/single-number-ii/)|Medium|
 |2022-08-21 23:46|89|[📎](src/q_51_100/q0089.cc)|[Gray Code](https://leetcode.com/problems/gray-code/)|Medium|
-|2022-08-21 14:48|936|[📎](src/q_901_950/q0936.cc)|[Stamping The Sequence](https://leetcode.com/problems/stamping-the-sequence/)|Hard|
 
 ## Previous Logs
 
 |Month|Submissions|Easy|Medium|Hard|
 |:--|:--|:--|:--|:--|
+|[September_2022](./assets/September_2022.md)|1|0|1|0|
 |[August_2022](./assets/August_2022.md)|48|15|25|8|
 |[July_2022](./assets/July_2022.md)|47|6|37|4|
 |[June_2022](./assets/June_2022.md)|30|8|19|3|
