@@ -235,7 +235,7 @@ id,title,level,slug,paid,done
 234,Palindrome Linked List,1,palindrome-linked-list,0,1
 235,Lowest Common Ancestor of a Binary Search Tree,1,lowest-common-ancestor-of-a-binary-search-tree,0,1
 236,Lowest Common Ancestor of a Binary Tree,2,lowest-common-ancestor-of-a-binary-tree,0,1
-237,Delete Node in a Linked List,1,delete-node-in-a-linked-list,0,0
+237,Delete Node in a Linked List,2,delete-node-in-a-linked-list,0,0
 238,Product of Array Except Self,2,product-of-array-except-self,0,1
 239,Sliding Window Maximum,3,sliding-window-maximum,0,0
 240,Search a 2D Matrix II,2,search-a-2d-matrix-ii,0,1
@@ -1446,7 +1446,7 @@ id,title,level,slug,paid,done
 1445,Apples & Oranges,2,apples-oranges,1,0
 1446,Consecutive Characters,1,consecutive-characters,0,1
 1447,Simplified Fractions,2,simplified-fractions,0,0
-1448,Count Good Nodes in Binary Tree,2,count-good-nodes-in-binary-tree,0,0
+1448,Count Good Nodes in Binary Tree,2,count-good-nodes-in-binary-tree,0,1
 1449,Form Largest Integer With Digits That Add up to Target,3,form-largest-integer-with-digits-that-add-up-to-target,0,0
 1450,Number of Students Doing Homework at a Given Time,1,number-of-students-doing-homework-at-a-given-time,0,0
 1451,Rearrange Words in a Sentence,2,rearrange-words-in-a-sentence,0,0
@@ -2391,3 +2391,4 @@ id,title,level,slug,paid,done
 2390,Removing Stars From a String,2,removing-stars-from-a-string,0,0
 2391,Minimum Amount of Time to Collect Garbage,2,minimum-amount-of-time-to-collect-garbage,0,0
 2392,Build a Matrix With Conditions,3,build-a-matrix-with-conditions,0,0
+2393,Count Strictly Increasing Subarrays,2,count-strictly-increasing-subarrays,1,0
