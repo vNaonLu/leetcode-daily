@@ -24,12 +24,12 @@ using namespace std;
 struct q70 : public ::testing::Test {
   // Leetcode answer here
   class Solution {
-   public:
+  public:
     int climbStairs(int n) {
       int first = 0, second = 1, res;
       for (int i = 0; i < n; ++i) {
-              res = first + second;
-        first = second;
+        res    = first + second;
+        first  = second;
         second = res;
       }
       return res;
@@ -41,16 +41,16 @@ struct q70 : public ::testing::Test {
 
 TEST_F(q70, sample_input01) {
   solution = new Solution();
-  int n = 2;
-  int exp = 2;
+  int n    = 2;
+  int exp  = 2;
   EXPECT_EQ(solution->climbStairs(n), exp);
   delete solution;
 }
 
 TEST_F(q70, sample_input02) {
   solution = new Solution();
-  int n = 3;
-  int exp = 3;
+  int n    = 3;
+  int exp  = 3;
   EXPECT_EQ(solution->climbStairs(n), exp);
   delete solution;
 }
