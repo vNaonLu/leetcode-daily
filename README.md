@@ -660,7 +660,7 @@ My daily challenge on leetcode since 2021/09/06.
 |🔒|634|[Find the Derangement of An Array](https://leetcode.com/problems/find-the-derangement-of-an-array/)|Medium|
 |🔒|635|[Design Log Storage System](https://leetcode.com/problems/design-log-storage-system/)|Medium|
 ||636|[Exclusive Time of Functions](https://leetcode.com/problems/exclusive-time-of-functions/)|Medium|
-||637|[Average of Levels in Binary Tree](https://leetcode.com/problems/average-of-levels-in-binary-tree/)|Easy|
+|[📎](src/q_601_650/q0637.cc)|637|[Average of Levels in Binary Tree](https://leetcode.com/problems/average-of-levels-in-binary-tree/)|Easy|
 ||638|[Shopping Offers](https://leetcode.com/problems/shopping-offers/)|Medium|
 ||639|[Decode Ways II](https://leetcode.com/problems/decode-ways-ii/)|Hard|
 |[📎](src/q_601_650/q0640.cc)|640|[Solve the Equation](https://leetcode.com/problems/solve-the-equation/)|Medium|
@@ -2466,6 +2466,7 @@ My daily challenge on leetcode since 2021/09/06.
 
 |Time|#|</>|Question Title|Difficulty|
 |:--|--:|:-:|:--|:--|
+|2022-09-02 20:17|637|[📎](src/q_601_650/q0637.cc)|[Average of Levels in Binary Tree](https://leetcode.com/problems/average-of-levels-in-binary-tree/)|Easy|
 |2022-09-01 17:43|1448|[📎](src/q_1401_1450/q1448.cc)|[Count Good Nodes in Binary Tree](https://leetcode.com/problems/count-good-nodes-in-binary-tree/)|Medium|
 |2022-09-01 00:35|687|[📎](src/q_651_700/q0687.cc)|[Longest Univalue Path](https://leetcode.com/problems/longest-univalue-path/)|Medium|
 |2022-08-31 18:23|414|[📎](src/q_401_450/q0414.cc)|[Third Maximum Number](https://leetcode.com/problems/third-maximum-number/)|Easy|
@@ -2490,13 +2491,12 @@ My daily challenge on leetcode since 2021/09/06.
 |2022-08-22 00:40|345|[📎](src/q_301_350/q0345.cc)|[Reverse Vowels of a String](https://leetcode.com/problems/reverse-vowels-of-a-string/)|Easy|
 |2022-08-22 00:21|179|[📎](src/q_151_200/q0179.cc)|[Largest Number](https://leetcode.com/problems/largest-number/)|Medium|
 |2022-08-22 00:04|166|[📎](src/q_151_200/q0166.cc)|[Fraction to Recurring Decimal](https://leetcode.com/problems/fraction-to-recurring-decimal/)|Medium|
-|2022-08-21 23:55|137|[📎](src/q_101_150/q0137.cc)|[Single Number II](https://leetcode.com/problems/single-number-ii/)|Medium|
 
 ## Previous Logs
 
 |Month|Submissions|Easy|Medium|Hard|
 |:--|:--|:--|:--|:--|
-|[September_2022](./assets/September_2022.md)|2|0|2|0|
+|[September_2022](./assets/September_2022.md)|3|1|2|0|
 |[August_2022](./assets/August_2022.md)|48|15|25|8|
 |[July_2022](./assets/July_2022.md)|47|6|37|4|
 |[June_2022](./assets/June_2022.md)|30|8|19|3|
