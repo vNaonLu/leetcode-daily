@@ -32,16 +32,16 @@ using namespace std;
 struct q48 : public ::testing::Test {
   // Leetcode answer here
   class Solution {
-   public:
-    void rotate(vector<vector<int>>& matrix) {
-      int n = matrix.size();
-      vector<vector<int>> res(n, vector<int>(n, 1));
-      for (int i = n - 1; i >= 0; --i) {
+  public:
+    void rotate(vector<vector<int>> &matrix) {
+      auto n   = (int)matrix.size();
+      auto res = vector<vector<int>>(n, vector<int>(n));
+      for (int i = 0; i < n; ++i) {
         for (int j = 0; j < n; ++j) {
           res[j][n - i - 1] = matrix[i][j];
         }
       }
-      matrix = res;
+      matrix = move(res);
     }
   };
 
@@ -49,9 +49,17 @@ struct q48 : public ::testing::Test {
 };
 
 TEST_F(q48, sample_input01) {
-  solution = new Solution();
-  vector<vector<int>> matrix = {{1, 2, 3}, {4, 5, 6}, {7, 8, 9}};
-  vector<vector<int>> exp = {{7, 4, 1}, {8, 5, 2}, {9, 6, 3}};
+  solution                   = new Solution();
+  vector<vector<int>> matrix = {
+      {1, 2, 3},
+      {4, 5, 6},
+      {7, 8, 9}
+  };
+  vector<vector<int>> exp = {
+      {7, 4, 1},
+      {8, 5, 2},
+      {9, 6, 3}
+  };
   solution->rotate(matrix);
   // Assume the first argument is answer.
   EXPECT_EQ(matrix, exp);
@@ -59,9 +67,19 @@ TEST_F(q48, sample_input01) {
 }
 
 TEST_F(q48, sample_input02) {
-  solution = new Solution();
-  vector<vector<int>> matrix = {{5, 1, 9, 11}, {2, 4, 8, 10}, {13, 3, 6, 7}, {15, 14, 12, 16}};
-  vector<vector<int>> exp = {{15, 13, 2, 5}, {14, 3, 4, 1}, {12, 6, 8, 9}, {16, 7, 10, 11}};
+  solution                   = new Solution();
+  vector<vector<int>> matrix = {
+      { 5,  1,  9, 11},
+      { 2,  4,  8, 10},
+      {13,  3,  6,  7},
+      {15, 14, 12, 16}
+  };
+  vector<vector<int>> exp = {
+      {15, 13,  2,  5},
+      {14,  3,  4,  1},
+      {12,  6,  8,  9},
+      {16,  7, 10, 11}
+  };
   solution->rotate(matrix);
   // Assume the first argument is answer.
   EXPECT_EQ(matrix, exp);
@@ -69,9 +87,9 @@ TEST_F(q48, sample_input02) {
 }
 
 TEST_F(q48, sample_input03) {
-  solution = new Solution();
+  solution                   = new Solution();
   vector<vector<int>> matrix = {{1}};
-  vector<vector<int>> exp = {{1}};
+  vector<vector<int>> exp    = {{1}};
   solution->rotate(matrix);
   // Assume the first argument is answer.
   EXPECT_EQ(matrix, exp);
@@ -79,9 +97,15 @@ TEST_F(q48, sample_input03) {
 }
 
 TEST_F(q48, sample_input04) {
-  solution = new Solution();
-  vector<vector<int>> matrix = {{1, 2}, {3, 4}};
-  vector<vector<int>> exp = {{3, 1}, {4, 2}};
+  solution                   = new Solution();
+  vector<vector<int>> matrix = {
+      {1, 2},
+      {3, 4}
+  };
+  vector<vector<int>> exp = {
+      {3, 1},
+      {4, 2}
+  };
   solution->rotate(matrix);
   // Assume the first argument is answer.
   EXPECT_EQ(matrix, exp);

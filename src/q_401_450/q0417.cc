@@ -42,17 +42,20 @@ using namespace std;
 struct q417 : public ::testing::Test {
   // Leetcode answer here
   class Solution {
-   private:
-    int m, n;
+  private:
+    int                 m, n;
     vector<vector<int>> terrain;
 
-    inline void helper(int i, int j, unordered_set<int> &ocean, int prev_alt = numeric_limits<int>::min()) {
-      int pos = i * n + j;
-      auto it = ocean.find(pos);
-      if (i < 0 || i >= m || j < 0 || j >= n) return;
+    inline void helper(int i, int j, unordered_set<int> &ocean,
+                       int prev_alt = numeric_limits<int>::min()) {
+      int  pos = i * n + j;
+      auto it  = ocean.find(pos);
+      if (i < 0 || i >= m || j < 0 || j >= n)
+        return;
 
       int curr = terrain[i][j];
-      if (curr < prev_alt || it != ocean.end()) return;
+      if (curr < prev_alt || it != ocean.end())
+        return;
 
       ocean.insert(pos);
       helper(i + 1, j, ocean, curr);
@@ -61,10 +64,10 @@ struct q417 : public ::testing::Test {
       helper(i, j - 1, ocean, curr);
     }
 
-   public:
+  public:
     vector<vector<int>> pacificAtlantic(vector<vector<int>> &heights) {
-      m = heights.size();
-      n = heights[0].size();
+      m       = heights.size();
+      n       = heights[0].size();
       terrain = move(heights);
       unordered_set<int> pacific, atlantic;
       for (int i = 0; i < max(m, n); ++i) {
@@ -77,7 +80,7 @@ struct q417 : public ::testing::Test {
       }
 
       vector<vector<int>> res;
-      heights = move(heights);
+      heights = move(terrain);
       for (auto it = pacific.begin(); it != pacific.end(); ++it) {
         if (atlantic.count(*it)) {
           res.emplace_back(vector<int>{*it / n, *it % n});
@@ -92,18 +95,40 @@ struct q417 : public ::testing::Test {
 };
 
 TEST_F(q417, sample_input01) {
-  solution = new Solution();
-  vector<vector<int>> heights = {{1, 2, 2, 3, 5}, {3, 2, 3, 4, 4}, {2, 4, 5, 3, 1}, {6, 7, 1, 4, 5}, {5, 1, 1, 2, 4}};
-  vector<vector<int>> exp = {{0, 4}, {1, 3}, {1, 4}, {2, 2}, {3, 0}, {3, 1}, {4, 0}};
+  solution                    = new Solution();
+  vector<vector<int>> heights = {
+      {1, 2, 2, 3, 5},
+      {3, 2, 3, 4, 4},
+      {2, 4, 5, 3, 1},
+      {6, 7, 1, 4, 5},
+      {5, 1, 1, 2, 4}
+  };
+  vector<vector<int>> exp = {
+      {0, 4},
+      {1, 3},
+      {1, 4},
+      {2, 2},
+      {3, 0},
+      {3, 1},
+      {4, 0}
+  };
   vector<vector<int>> act = solution->pacificAtlantic(heights);
   EXPECT_EQ_ANY_ORDER(act, exp);
   delete solution;
 }
 
 TEST_F(q417, sample_input02) {
-  solution = new Solution();
-  vector<vector<int>> heights = {{2, 1}, {1, 2}};
-  vector<vector<int>> exp = {{0, 0}, {0, 1}, {1, 0}, {1, 1}};
+  solution                    = new Solution();
+  vector<vector<int>> heights = {
+      {2, 1},
+      {1, 2}
+  };
+  vector<vector<int>> exp = {
+      {0, 0},
+      {0, 1},
+      {1, 0},
+      {1, 1}
+  };
   vector<vector<int>> act = solution->pacificAtlantic(heights);
   EXPECT_EQ_ANY_ORDER(act, exp);
   delete solution;

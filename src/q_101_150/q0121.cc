@@ -29,14 +29,13 @@ using namespace std;
 struct q121 : public ::testing::Test {
   // Leetcode answer here
   class Solution {
-   public:
-    int maxProfit(vector<int>& prices) {
-      int res = 0;
-      if (prices.empty()) return 0;
-      int current_profit = prices[0];
-      for (int i = 1; i < prices.size(); i++) {
-        if (current_profit > prices[i]) current_profit = prices[i];
-        res = max(res, prices[i] - current_profit);
+  public:
+    int maxProfit(vector<int> &prices) {
+      int res    = 0;
+      int lowest = numeric_limits<int>::max();
+      for (auto p : prices) {
+        lowest = min(lowest, p);
+        res    = max(res, p - lowest);
       }
       return res;
     }
@@ -46,17 +45,17 @@ struct q121 : public ::testing::Test {
 };
 
 TEST_F(q121, sample_input01) {
-  solution = new Solution();
+  solution           = new Solution();
   vector<int> prices = {7, 1, 5, 3, 6, 4};
-  int exp = 5;
+  int         exp    = 5;
   EXPECT_EQ(solution->maxProfit(prices), exp);
   delete solution;
 }
 
 TEST_F(q121, sample_input02) {
-  solution = new Solution();
+  solution           = new Solution();
   vector<int> prices = {7, 6, 4, 3, 1};
-  int exp = 0;
+  int         exp    = 0;
   EXPECT_EQ(solution->maxProfit(prices), exp);
   delete solution;
 }

@@ -26,7 +26,7 @@ id,title,level,slug,paid,done
 25,Reverse Nodes in k-Group,3,reverse-nodes-in-k-group,0,1
 26,Remove Duplicates from Sorted Array,1,remove-duplicates-from-sorted-array,0,1
 27,Remove Element,1,remove-element,0,1
-28,Implement strStr(),1,implement-strstr,0,1
+28,Find the Index of the First Occurrence in a String,2,find-the-index-of-the-first-occurrence-in-a-string,0,1
 29,Divide Two Integers,2,divide-two-integers,0,1
 30,Substring with Concatenation of All Words,3,substring-with-concatenation-of-all-words,0,1
 31,Next Permutation,2,next-permutation,0,1
@@ -71,10 +71,10 @@ id,title,level,slug,paid,done
 70,Climbing Stairs,1,climbing-stairs,0,1
 71,Simplify Path,2,simplify-path,0,1
 72,Edit Distance,3,edit-distance,0,1
-73,Set Matrix Zeroes,2,set-matrix-zeroes,0,0
+73,Set Matrix Zeroes,2,set-matrix-zeroes,0,1
 74,Search a 2D Matrix,2,search-a-2d-matrix,0,1
 75,Sort Colors,2,sort-colors,0,1
-76,Minimum Window Substring,3,minimum-window-substring,0,0
+76,Minimum Window Substring,3,minimum-window-substring,0,1
 77,Combinations,2,combinations,0,1
 78,Subsets,2,subsets,0,1
 79,Word Search,2,word-search,0,1
@@ -235,7 +235,7 @@ id,title,level,slug,paid,done
 234,Palindrome Linked List,1,palindrome-linked-list,0,1
 235,Lowest Common Ancestor of a Binary Search Tree,1,lowest-common-ancestor-of-a-binary-search-tree,0,1
 236,Lowest Common Ancestor of a Binary Tree,2,lowest-common-ancestor-of-a-binary-tree,0,1
-237,Delete Node in a Linked List,1,delete-node-in-a-linked-list,0,0
+237,Delete Node in a Linked List,2,delete-node-in-a-linked-list,0,0
 238,Product of Array Except Self,2,product-of-array-except-self,0,1
 239,Sliding Window Maximum,3,sliding-window-maximum,0,0
 240,Search a 2D Matrix II,2,search-a-2d-matrix-ii,0,1
@@ -347,7 +347,7 @@ id,title,level,slug,paid,done
 346,Moving Average from Data Stream,1,moving-average-from-data-stream,1,0
 347,Top K Frequent Elements,2,top-k-frequent-elements,0,1
 348,Design Tic-Tac-Toe,2,design-tic-tac-toe,1,0
-349,Intersection of Two Arrays,1,intersection-of-two-arrays,0,0
+349,Intersection of Two Arrays,1,intersection-of-two-arrays,0,1
 350,Intersection of Two Arrays II,1,intersection-of-two-arrays-ii,0,1
 351,Android Unlock Patterns,2,android-unlock-patterns,1,0
 352,Data Stream as Disjoint Intervals,3,data-stream-as-disjoint-intervals,0,1
@@ -410,9 +410,9 @@ id,title,level,slug,paid,done
 409,Longest Palindrome,1,longest-palindrome,0,1
 410,Split Array Largest Sum,3,split-array-largest-sum,0,1
 411,Minimum Unique Word Abbreviation,3,minimum-unique-word-abbreviation,1,0
-412,Fizz Buzz,1,fizz-buzz,0,0
+412,Fizz Buzz,1,fizz-buzz,0,1
 413,Arithmetic Slices,2,arithmetic-slices,0,1
-414,Third Maximum Number,1,third-maximum-number,0,0
+414,Third Maximum Number,1,third-maximum-number,0,1
 415,Add Strings,1,add-strings,0,1
 416,Partition Equal Subset Sum,2,partition-equal-subset-sum,0,1
 417,Pacific Atlantic Water Flow,2,pacific-atlantic-water-flow,0,1
@@ -432,7 +432,7 @@ id,title,level,slug,paid,done
 431,Encode N-ary Tree to Binary Tree,3,encode-n-ary-tree-to-binary-tree,1,0
 432,All O`one Data Structure,3,all-oone-data-structure,0,0
 433,Minimum Genetic Mutation,2,minimum-genetic-mutation,0,1
-434,Number of Segments in a String,1,number-of-segments-in-a-string,0,0
+434,Number of Segments in a String,1,number-of-segments-in-a-string,0,1
 435,Non-overlapping Intervals,2,non-overlapping-intervals,0,1
 436,Find Right Interval,2,find-right-interval,0,1
 437,Path Sum III,2,path-sum-iii,0,1
@@ -635,7 +635,7 @@ id,title,level,slug,paid,done
 634,Find the Derangement of An Array,2,find-the-derangement-of-an-array,1,0
 635,Design Log Storage System,2,design-log-storage-system,1,0
 636,Exclusive Time of Functions,2,exclusive-time-of-functions,0,0
-637,Average of Levels in Binary Tree,1,average-of-levels-in-binary-tree,0,0
+637,Average of Levels in Binary Tree,1,average-of-levels-in-binary-tree,0,1
 638,Shopping Offers,2,shopping-offers,0,0
 639,Decode Ways II,3,decode-ways-ii,0,0
 640,Solve the Equation,2,solve-the-equation,0,1
@@ -685,7 +685,7 @@ id,title,level,slug,paid,done
 684,Redundant Connection,2,redundant-connection,0,1
 685,Redundant Connection II,3,redundant-connection-ii,0,0
 686,Repeated String Match,2,repeated-string-match,0,0
-687,Longest Univalue Path,2,longest-univalue-path,0,0
+687,Longest Univalue Path,2,longest-univalue-path,0,1
 688,Knight Probability in Chessboard,2,knight-probability-in-chessboard,0,0
 689,Maximum Sum of 3 Non-Overlapping Subarrays,3,maximum-sum-of-3-non-overlapping-subarrays,0,0
 690,Employee Importance,2,employee-importance,0,0
@@ -965,7 +965,7 @@ id,title,level,slug,paid,done
 964,Least Operators to Express Number,3,least-operators-to-express-number,0,0
 965,Univalued Binary Tree,1,univalued-binary-tree,0,0
 966,Vowel Spellchecker,2,vowel-spellchecker,0,0
-967,Numbers With Same Consecutive Differences,2,numbers-with-same-consecutive-differences,0,0
+967,Numbers With Same Consecutive Differences,2,numbers-with-same-consecutive-differences,0,1
 968,Binary Tree Cameras,3,binary-tree-cameras,0,1
 969,Pancake Sorting,2,pancake-sorting,0,0
 970,Powerful Integers,2,powerful-integers,0,0
@@ -1327,7 +1327,7 @@ id,title,level,slug,paid,done
 1326,Minimum Number of Taps to Open to Water a Garden,3,minimum-number-of-taps-to-open-to-water-a-garden,0,0
 1327,List the Products Ordered in a Period,1,list-the-products-ordered-in-a-period,1,0
 1328,Break a Palindrome,2,break-a-palindrome,0,1
-1329,Sort the Matrix Diagonally,2,sort-the-matrix-diagonally,0,0
+1329,Sort the Matrix Diagonally,2,sort-the-matrix-diagonally,0,1
 1330,Reverse Subarray To Maximize Array Value,3,reverse-subarray-to-maximize-array-value,0,0
 1331,Rank Transform of an Array,1,rank-transform-of-an-array,0,0
 1332,Remove Palindromic Subsequences,1,remove-palindromic-subsequences,0,1
@@ -1446,7 +1446,7 @@ id,title,level,slug,paid,done
 1445,Apples & Oranges,2,apples-oranges,1,0
 1446,Consecutive Characters,1,consecutive-characters,0,1
 1447,Simplified Fractions,2,simplified-fractions,0,0
-1448,Count Good Nodes in Binary Tree,2,count-good-nodes-in-binary-tree,0,0
+1448,Count Good Nodes in Binary Tree,2,count-good-nodes-in-binary-tree,0,1
 1449,Form Largest Integer With Digits That Add up to Target,3,form-largest-integer-with-digits-that-add-up-to-target,0,0
 1450,Number of Students Doing Homework at a Given Time,1,number-of-students-doing-homework-at-a-given-time,0,0
 1451,Rearrange Words in a Sentence,2,rearrange-words-in-a-sentence,0,0
@@ -2387,3 +2387,9 @@ id,title,level,slug,paid,done
 2386,Find the K-Sum of an Array,3,find-the-k-sum-of-an-array,0,0
 2387,Median of a Row Wise Sorted Matrix,2,median-of-a-row-wise-sorted-matrix,1,0
 2388,Change Null Values in a Table to the Previous Value,2,change-null-values-in-a-table-to-the-previous-value,1,0
+2389,Longest Subsequence With Limited Sum,1,longest-subsequence-with-limited-sum,0,0
+2390,Removing Stars From a String,2,removing-stars-from-a-string,0,0
+2391,Minimum Amount of Time to Collect Garbage,2,minimum-amount-of-time-to-collect-garbage,0,0
+2392,Build a Matrix With Conditions,3,build-a-matrix-with-conditions,0,0
+2393,Count Strictly Increasing Subarrays,2,count-strictly-increasing-subarrays,1,0
+2394,Employees With Deductions,2,employees-with-deductions,1,0

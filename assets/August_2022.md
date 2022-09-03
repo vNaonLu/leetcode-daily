@@ -2,6 +2,10 @@
 
 ||#|</>|Question Title|Difficulty|
 |:--|--:|:-:|:--|:--|
+|Day 31|412<br>414|[📎](../src/q_401_450/q0412.cc)<br>[📎](../src/q_401_450/q0414.cc)|[Fizz Buzz](https://leetcode.com/problems/fizz-buzz/)<br>[Third Maximum Number](https://leetcode.com/problems/third-maximum-number/)|Easy<br>Easy|
+|Day 30|434|[📎](../src/q_401_450/q0434.cc)|[Number of Segments in a String](https://leetcode.com/problems/number-of-segments-in-a-string/)|Easy|
+|Day 29|73<br>76<br>349|[📎](../src/q_51_100/q0073.cc)<br>[📎](../src/q_51_100/q0076.cc)<br>[📎](../src/q_301_350/q0349.cc)|[Set Matrix Zeroes](https://leetcode.com/problems/set-matrix-zeroes/)<br>[Minimum Window Substring](https://leetcode.com/problems/minimum-window-substring/)<br>[Intersection of Two Arrays](https://leetcode.com/problems/intersection-of-two-arrays/)|Medium<br>Hard<br>Easy|
+|Day 28|1329|[📎](../src/q_1301_1350/q1329.cc)|[Sort the Matrix Diagonally](https://leetcode.com/problems/sort-the-matrix-diagonally/)|Medium|
 |Day 27|363|[📎](../src/q_351_400/q0363.cc)|[Max Sum of Rectangle No Larger Than K](https://leetcode.com/problems/max-sum-of-rectangle-no-larger-than-k/)|Hard|
 |Day 26|869|[📎](../src/q_851_900/q0869.cc)|[Reordered Power of 2](https://leetcode.com/problems/reordered-power-of-2/)|Medium|
 |Day 25|205|[📎](../src/q_201_250/q0205.cc)|[Isomorphic Strings](https://leetcode.com/problems/isomorphic-strings/)|Easy|
