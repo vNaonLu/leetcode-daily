@@ -39,7 +39,7 @@ My daily challenge on leetcode since 2021/09/06.
 |[📎](src/q_1_50/q0025.cc)|25|[Reverse Nodes in k-Group](https://leetcode.com/problems/reverse-nodes-in-k-group/)|Hard|
 |[📎](src/q_1_50/q0026.cc)|26|[Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/)|Easy|
 |[📎](src/q_1_50/q0027.cc)|27|[Remove Element](https://leetcode.com/problems/remove-element/)|Easy|
-|[📎](src/q_1_50/q0028.cc)|28|[Implement strStr()](https://leetcode.com/problems/implement-strstr/)|Easy|
+|[📎](src/q_1_50/q0028.cc)|28|[Find the Index of the First Occurrence in a String](https://leetcode.com/problems/find-the-index-of-the-first-occurrence-in-a-string/)|Medium|
 |[📎](src/q_1_50/q0029.cc)|29|[Divide Two Integers](https://leetcode.com/problems/divide-two-integers/)|Medium|
 |[📎](src/q_1_50/q0030.cc)|30|[Substring with Concatenation of All Words](https://leetcode.com/problems/substring-with-concatenation-of-all-words/)|Hard|
 |[📎](src/q_1_50/q0031.cc)|31|[Next Permutation](https://leetcode.com/problems/next-permutation/)|Medium|
@@ -996,7 +996,7 @@ My daily challenge on leetcode since 2021/09/06.
 ||964|[Least Operators to Express Number](https://leetcode.com/problems/least-operators-to-express-number/)|Hard|
 ||965|[Univalued Binary Tree](https://leetcode.com/problems/univalued-binary-tree/)|Easy|
 ||966|[Vowel Spellchecker](https://leetcode.com/problems/vowel-spellchecker/)|Medium|
-||967|[Numbers With Same Consecutive Differences](https://leetcode.com/problems/numbers-with-same-consecutive-differences/)|Medium|
+|[📎](src/q_951_1000/q0967.cc)|967|[Numbers With Same Consecutive Differences](https://leetcode.com/problems/numbers-with-same-consecutive-differences/)|Medium|
 |[📎](src/q_951_1000/q0968.cc)|968|[Binary Tree Cameras](https://leetcode.com/problems/binary-tree-cameras/)|Hard|
 ||969|[Pancake Sorting](https://leetcode.com/problems/pancake-sorting/)|Medium|
 ||970|[Powerful Integers](https://leetcode.com/problems/powerful-integers/)|Medium|
@@ -2312,7 +2312,7 @@ My daily challenge on leetcode since 2021/09/06.
 ||2250|[Count Number of Rectangles Containing Each Point](https://leetcode.com/problems/count-number-of-rectangles-containing-each-point/)|Medium|
 </details>
 <details>
-  <summary>### 2251 ~ 2393</summary>
+  <summary>### 2251 ~ 2394</summary>
 
 |</>|#|Solution Title|Difficulty|
 |:-:|--:|:--|:--|
@@ -2459,6 +2459,7 @@ My daily challenge on leetcode since 2021/09/06.
 ||2391|[Minimum Amount of Time to Collect Garbage](https://leetcode.com/problems/minimum-amount-of-time-to-collect-garbage/)|Medium|
 ||2392|[Build a Matrix With Conditions](https://leetcode.com/problems/build-a-matrix-with-conditions/)|Hard|
 |🔒|2393|[Count Strictly Increasing Subarrays](https://leetcode.com/problems/count-strictly-increasing-subarrays/)|Medium|
+|🔒|2394|[Employees With Deductions](https://leetcode.com/problems/employees-with-deductions/)|Medium|
 </details>
 
 ---
@@ -2466,6 +2467,7 @@ My daily challenge on leetcode since 2021/09/06.
 
 |Time|#|</>|Question Title|Difficulty|
 |:--|--:|:-:|:--|:--|
+|2022-09-03 13:20|967|[📎](src/q_951_1000/q0967.cc)|[Numbers With Same Consecutive Differences](https://leetcode.com/problems/numbers-with-same-consecutive-differences/)|Medium|
 |2022-09-02 20:17|637|[📎](src/q_601_650/q0637.cc)|[Average of Levels in Binary Tree](https://leetcode.com/problems/average-of-levels-in-binary-tree/)|Easy|
 |2022-09-01 17:43|1448|[📎](src/q_1401_1450/q1448.cc)|[Count Good Nodes in Binary Tree](https://leetcode.com/problems/count-good-nodes-in-binary-tree/)|Medium|
 |2022-09-01 00:35|687|[📎](src/q_651_700/q0687.cc)|[Longest Univalue Path](https://leetcode.com/problems/longest-univalue-path/)|Medium|
@@ -2490,13 +2492,12 @@ My daily challenge on leetcode since 2021/09/06.
 |2022-08-22 16:23|207|[📎](src/q_201_250/q0207.cc)|[Course Schedule](https://leetcode.com/problems/course-schedule/)|Medium|
 |2022-08-22 00:40|345|[📎](src/q_301_350/q0345.cc)|[Reverse Vowels of a String](https://leetcode.com/problems/reverse-vowels-of-a-string/)|Easy|
 |2022-08-22 00:21|179|[📎](src/q_151_200/q0179.cc)|[Largest Number](https://leetcode.com/problems/largest-number/)|Medium|
-|2022-08-22 00:04|166|[📎](src/q_151_200/q0166.cc)|[Fraction to Recurring Decimal](https://leetcode.com/problems/fraction-to-recurring-decimal/)|Medium|
 
 ## Previous Logs
 
 |Month|Submissions|Easy|Medium|Hard|
 |:--|:--|:--|:--|:--|
-|[September_2022](./assets/September_2022.md)|3|1|2|0|
+|[September_2022](./assets/September_2022.md)|4|1|3|0|
 |[August_2022](./assets/August_2022.md)|48|15|25|8|
 |[July_2022](./assets/July_2022.md)|47|6|37|4|
 |[June_2022](./assets/June_2022.md)|30|8|19|3|
@@ -2506,6 +2507,6 @@ My daily challenge on leetcode since 2021/09/06.
 |[February_2022](./assets/February_2022.md)|69|15|43|11|
 |[January_2022](./assets/January_2022.md)|32|8|18|6|
 |[December_2021](./assets/December_2021.md)|33|11|15|7|
-|[November_2021](./assets/November_2021.md)|41|19|16|6|
+|[November_2021](./assets/November_2021.md)|41|18|17|6|
 |[October_2021](./assets/October_2021.md)|115|24|78|13|
 |[September_2021](./assets/September_2021.md)|133|54|72|7|
