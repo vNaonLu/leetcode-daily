@@ -422,7 +422,7 @@ id,title,level,slug,paid,done
 421,Maximum XOR of Two Numbers in an Array,2,maximum-xor-of-two-numbers-in-an-array,0,1
 422,Valid Word Square,1,valid-word-square,1,0
 423,Reconstruct Original Digits from English,2,reconstruct-original-digits-from-english,0,0
-424,Longest Repeating Character Replacement,2,longest-repeating-character-replacement,0,0
+424,Longest Repeating Character Replacement,2,longest-repeating-character-replacement,0,1
 425,Word Squares,3,word-squares,1,0
 426,Convert Binary Search Tree to Sorted Doubly Linked List,2,convert-binary-search-tree-to-sorted-doubly-linked-list,1,0
 427,Construct Quad Tree,2,construct-quad-tree,0,0
@@ -2393,3 +2393,11 @@ id,title,level,slug,paid,done
 2392,Build a Matrix With Conditions,3,build-a-matrix-with-conditions,0,0
 2393,Count Strictly Increasing Subarrays,2,count-strictly-increasing-subarrays,1,0
 2394,Employees With Deductions,2,employees-with-deductions,1,0
+2395,Find Subarrays With Equal Sum,1,find-subarrays-with-equal-sum,0,0
+2396,Strictly Palindromic Number,2,strictly-palindromic-number,0,0
+2397,Maximum Rows Covered by Columns,2,maximum-rows-covered-by-columns,0,0
+2398,Maximum Number of Robots Within Budget,3,maximum-number-of-robots-within-budget,0,0
+2399,Check Distances Between Same Letters,1,check-distances-between-same-letters,0,0
+2400,Number of Ways to Reach a Position After Exactly k Steps,2,number-of-ways-to-reach-a-position-after-exactly-k-steps,0,0
+2401,Longest Nice Subarray,2,longest-nice-subarray,0,0
+2402,Meeting Rooms III,3,meeting-rooms-iii,0,0
