@@ -1016,7 +1016,7 @@ My daily challenge on leetcode since 2021/09/06.
 ||984|[String Without AAA or BBB](https://leetcode.com/problems/string-without-aaa-or-bbb/)|Medium|
 ||985|[Sum of Even Numbers After Queries](https://leetcode.com/problems/sum-of-even-numbers-after-queries/)|Medium|
 |[📎](src/q_951_1000/q0986.cc)|986|[Interval List Intersections](https://leetcode.com/problems/interval-list-intersections/)|Medium|
-||987|[Vertical Order Traversal of a Binary Tree](https://leetcode.com/problems/vertical-order-traversal-of-a-binary-tree/)|Hard|
+|[📎](src/q_951_1000/q0987.cc)|987|[Vertical Order Traversal of a Binary Tree](https://leetcode.com/problems/vertical-order-traversal-of-a-binary-tree/)|Hard|
 ||988|[Smallest String Starting From Leaf](https://leetcode.com/problems/smallest-string-starting-from-leaf/)|Medium|
 |[📎](src/q_951_1000/q0989.cc)|989|[Add to Array-Form of Integer](https://leetcode.com/problems/add-to-array-form-of-integer/)|Easy|
 ||990|[Satisfiability of Equality Equations](https://leetcode.com/problems/satisfiability-of-equality-equations/)|Medium|
@@ -2475,6 +2475,7 @@ My daily challenge on leetcode since 2021/09/06.
 
 |Time|#|</>|Question Title|Difficulty|
 |:--|--:|:-:|:--|:--|
+|2022-09-04 15:59|987|[📎](src/q_951_1000/q0987.cc)|[Vertical Order Traversal of a Binary Tree](https://leetcode.com/problems/vertical-order-traversal-of-a-binary-tree/)|Hard|
 |2022-09-04 15:37|424|[📎](src/q_401_450/q0424.cc)|[Longest Repeating Character Replacement](https://leetcode.com/problems/longest-repeating-character-replacement/)|Medium|
 |2022-09-03 13:20|967|[📎](src/q_951_1000/q0967.cc)|[Numbers With Same Consecutive Differences](https://leetcode.com/problems/numbers-with-same-consecutive-differences/)|Medium|
 |2022-09-02 20:17|637|[📎](src/q_601_650/q0637.cc)|[Average of Levels in Binary Tree](https://leetcode.com/problems/average-of-levels-in-binary-tree/)|Easy|
@@ -2499,13 +2500,12 @@ My daily challenge on leetcode since 2021/09/06.
 |2022-08-22 16:45|223|[📎](src/q_201_250/q0223.cc)|[Rectangle Area](https://leetcode.com/problems/rectangle-area/)|Medium|
 |2022-08-22 16:34|220|[📎](src/q_201_250/q0220.cc)|[Contains Duplicate III](https://leetcode.com/problems/contains-duplicate-iii/)|Medium|
 |2022-08-22 16:23|207|[📎](src/q_201_250/q0207.cc)|[Course Schedule](https://leetcode.com/problems/course-schedule/)|Medium|
-|2022-08-22 00:40|345|[📎](src/q_301_350/q0345.cc)|[Reverse Vowels of a String](https://leetcode.com/problems/reverse-vowels-of-a-string/)|Easy|
 
 ## Previous Logs
 
 |Month|Submissions|Easy|Medium|Hard|
 |:--|:--|:--|:--|:--|
-|[September_2022](./assets/September_2022.md)|5|1|4|0|
+|[September_2022](./assets/September_2022.md)|6|1|4|1|
 |[August_2022](./assets/August_2022.md)|48|15|25|8|
 |[July_2022](./assets/July_2022.md)|47|6|37|4|
 |[June_2022](./assets/June_2022.md)|30|8|19|3|
