@@ -316,7 +316,7 @@ My daily challenge on leetcode since 2021/09/06.
 |🔒|296|[Best Meeting Point](https://leetcode.com/problems/best-meeting-point/)|Hard|
 |[📎](src/q_251_300/q0297.cc)|297|[Serialize and Deserialize Binary Tree](https://leetcode.com/problems/serialize-and-deserialize-binary-tree/)|Hard|
 |🔒|298|[Binary Tree Longest Consecutive Sequence](https://leetcode.com/problems/binary-tree-longest-consecutive-sequence/)|Medium|
-||299|[Bulls and Cows](https://leetcode.com/problems/bulls-and-cows/)|Medium|
+|[📎](src/q_251_300/q0299.cc)|299|[Bulls and Cows](https://leetcode.com/problems/bulls-and-cows/)|Medium|
 |[📎](src/q_251_300/q0300.cc)|300|[Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence/)|Medium|
 ||301|[Remove Invalid Parentheses](https://leetcode.com/problems/remove-invalid-parentheses/)|Hard|
 |🔒|302|[Smallest Rectangle Enclosing Black Pixels](https://leetcode.com/problems/smallest-rectangle-enclosing-black-pixels/)|Hard|
@@ -2475,6 +2475,7 @@ My daily challenge on leetcode since 2021/09/06.
 
 |Time|#|</>|Question Title|Difficulty|
 |:--|--:|:-:|:--|:--|
+|2022-09-05 17:32|299|[📎](src/q_251_300/q0299.cc)|[Bulls and Cows](https://leetcode.com/problems/bulls-and-cows/)|Medium|
 |2022-09-04 15:59|987|[📎](src/q_951_1000/q0987.cc)|[Vertical Order Traversal of a Binary Tree](https://leetcode.com/problems/vertical-order-traversal-of-a-binary-tree/)|Hard|
 |2022-09-04 15:37|424|[📎](src/q_401_450/q0424.cc)|[Longest Repeating Character Replacement](https://leetcode.com/problems/longest-repeating-character-replacement/)|Medium|
 |2022-09-03 13:20|967|[📎](src/q_951_1000/q0967.cc)|[Numbers With Same Consecutive Differences](https://leetcode.com/problems/numbers-with-same-consecutive-differences/)|Medium|
@@ -2499,13 +2500,12 @@ My daily challenge on leetcode since 2021/09/06.
 |2022-08-22 23:47|229|[📎](src/q_201_250/q0229.cc)|[Majority Element II](https://leetcode.com/problems/majority-element-ii/)|Medium|
 |2022-08-22 16:45|223|[📎](src/q_201_250/q0223.cc)|[Rectangle Area](https://leetcode.com/problems/rectangle-area/)|Medium|
 |2022-08-22 16:34|220|[📎](src/q_201_250/q0220.cc)|[Contains Duplicate III](https://leetcode.com/problems/contains-duplicate-iii/)|Medium|
-|2022-08-22 16:23|207|[📎](src/q_201_250/q0207.cc)|[Course Schedule](https://leetcode.com/problems/course-schedule/)|Medium|
 
 ## Previous Logs
 
 |Month|Submissions|Easy|Medium|Hard|
 |:--|:--|:--|:--|:--|
-|[September_2022](./assets/September_2022.md)|6|1|4|1|
+|[September_2022](./assets/September_2022.md)|7|1|5|1|
 |[August_2022](./assets/August_2022.md)|48|15|25|8|
 |[July_2022](./assets/July_2022.md)|47|6|37|4|
 |[June_2022](./assets/June_2022.md)|30|8|19|3|
