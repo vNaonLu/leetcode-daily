@@ -32,18 +32,18 @@ using namespace std;
 struct q1 : public ::testing::Test {
   // Leetcode answer here
   class Solution {
-   public:
+  public:
     vector<int> twoSum(vector<int> &nums, int target) {
-      int i = 0;
-      unordered_map<int, int> memos;
-      for (const auto &x : nums) {
-        auto it = memos.find(target - x);
-        if (it != memos.end()) {
-          return {it->second, i};
+      auto memo = unordered_map<int, int>();
+      auto i    = (int)0;
+      for (int i = 0; i < nums.size(); ++i) {
+        auto find = memo.find(target - nums[i]);
+        if (find != memo.end()) {
+          return vector<int>{find->second, i};
         }
-        memos.emplace(x, i++);
+        memo.emplace(nums[i], i);
       }
-      return {-1, -1};
+      return vector<int>{-1, -1};
     }
   };
 
@@ -51,10 +51,10 @@ struct q1 : public ::testing::Test {
 };
 
 TEST_F(q1, sample_input01) {
-  solution = new Solution();
-  vector<int> nums = {2, 7, 11, 15};
-  int target = 9;
-  vector<int> exp = {0, 1};
+  solution           = new Solution();
+  vector<int> nums   = {2, 7, 11, 15};
+  int         target = 9;
+  vector<int> exp    = {0, 1};
   // Try EXPECT_EQ_ANY_ORDER_RECURSIVE
   // if the element is also matched in any order.
   EXPECT_EQ_ANY_ORDER(solution->twoSum(nums, target), exp);
@@ -62,10 +62,10 @@ TEST_F(q1, sample_input01) {
 }
 
 TEST_F(q1, sample_input02) {
-  solution = new Solution();
-  vector<int> nums = {3, 2, 4};
-  int target = 6;
-  vector<int> exp = {1, 2};
+  solution           = new Solution();
+  vector<int> nums   = {3, 2, 4};
+  int         target = 6;
+  vector<int> exp    = {1, 2};
   // Try EXPECT_EQ_ANY_ORDER_RECURSIVE
   // if the element is also matched in any order.
   EXPECT_EQ_ANY_ORDER(solution->twoSum(nums, target), exp);
@@ -73,10 +73,10 @@ TEST_F(q1, sample_input02) {
 }
 
 TEST_F(q1, sample_input03) {
-  solution = new Solution();
-  vector<int> nums = {3, 3};
-  int target = 6;
-  vector<int> exp = {0, 1};
+  solution           = new Solution();
+  vector<int> nums   = {3, 3};
+  int         target = 6;
+  vector<int> exp    = {0, 1};
   // Try EXPECT_EQ_ANY_ORDER_RECURSIVE
   // if the element is also matched in any order.
   EXPECT_EQ_ANY_ORDER(solution->twoSum(nums, target), exp);
