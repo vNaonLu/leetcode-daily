@@ -812,7 +812,7 @@ id,title,level,slug,paid,done
 811,Subdomain Visit Count,2,subdomain-visit-count,0,0
 812,Largest Triangle Area,1,largest-triangle-area,0,0
 813,Largest Sum of Averages,2,largest-sum-of-averages,0,0
-814,Binary Tree Pruning,2,binary-tree-pruning,0,0
+814,Binary Tree Pruning,2,binary-tree-pruning,0,1
 815,Bus Routes,3,bus-routes,0,0
 816,Ambiguous Coordinates,2,ambiguous-coordinates,0,0
 817,Linked List Components,2,linked-list-components,0,0
