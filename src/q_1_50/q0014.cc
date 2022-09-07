@@ -28,19 +28,23 @@ using namespace std;
 struct q14 : public ::testing::Test {
   // Leetcode answer here
   class Solution {
-   public:
-    string longestCommonPrefix(vector<string>& strs) {
-      string res = "";
-      for (int i = 0; i < strs.front().size(); ++i) {
-        char c = strs.front()[i];
-        bool common = true;
-        for (int j = 1; j < strs.size() && common; ++j)
-          common &= strs[j][i] == c;
-          
-        if (common) res.push_back(c);
-        else break;
+  public:
+    string longestCommonPrefix(vector<string> &strs) {
+      auto &fst = strs.front();
+      auto  end = fst.end();
+      for (auto it = strs.begin() + 1; it != strs.end(); ++it) {
+        auto local  = fst.begin();
+        auto it_beg = (*it).begin();
+        while (local != end && it_beg != (*it).end()) {
+          if (*local != *it_beg) {
+            break;
+          }
+          ++local;
+          ++it_beg;
+        }
+        end = local;
       }
-      return res;
+      return string(fst.begin(), end);
     }
   };
 
@@ -48,17 +52,17 @@ struct q14 : public ::testing::Test {
 };
 
 TEST_F(q14, sample_input01) {
-  solution = new Solution();
+  solution            = new Solution();
   vector<string> strs = {"flower", "flow", "flight"};
-  string exp = "fl";
+  string         exp  = "fl";
   EXPECT_EQ(solution->longestCommonPrefix(strs), exp);
   delete solution;
 }
 
 TEST_F(q14, sample_input02) {
-  solution = new Solution();
+  solution            = new Solution();
   vector<string> strs = {"dog", "racecar", "car"};
-  string exp = "";
+  string         exp  = "";
   EXPECT_EQ(solution->longestCommonPrefix(strs), exp);
   delete solution;
 }
