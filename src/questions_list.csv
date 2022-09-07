@@ -604,7 +604,7 @@ id,title,level,slug,paid,done
 603,Consecutive Available Seats,1,consecutive-available-seats,1,0
 604,Design Compressed String Iterator,1,design-compressed-string-iterator,1,0
 605,Can Place Flowers,1,can-place-flowers,0,1
-606,Construct String from Binary Tree,1,construct-string-from-binary-tree,0,0
+606,Construct String from Binary Tree,1,construct-string-from-binary-tree,0,1
 607,Sales Person,1,sales-person,0,0
 608,Tree Node,2,tree-node,0,0
 609,Find Duplicate File in System,2,find-duplicate-file-in-system,0,0
