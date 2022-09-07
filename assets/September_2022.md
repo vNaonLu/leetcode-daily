@@ -2,7 +2,7 @@
 
 ||#|</>|Question Title|Difficulty|
 |:--|--:|:-:|:--|:--|
-|Day 8|500|[📎](../src/q_451_500/q0500.cc)|[Keyboard Row](https://leetcode.com/problems/keyboard-row/)|Easy|
+|Day 8|495<br>500|[📎](../src/q_451_500/q0495.cc)<br>[📎](../src/q_451_500/q0500.cc)|[Teemo Attacking](https://leetcode.com/problems/teemo-attacking/)<br>[Keyboard Row](https://leetcode.com/problems/keyboard-row/)|Easy<br>Easy|
 |Day 7|217<br>606|[📎](../src/q_201_250/q0217.cc)<br>[📎](../src/q_601_650/q0606.cc)|[Contains Duplicate](https://leetcode.com/problems/contains-duplicate/)<br>[Construct String from Binary Tree](https://leetcode.com/problems/construct-string-from-binary-tree/)|Easy<br>Easy|
 |Day 6|814|[📎](../src/q_801_850/q0814.cc)|[Binary Tree Pruning](https://leetcode.com/problems/binary-tree-pruning/)|Medium|
 |Day 5|299|[📎](../src/q_251_300/q0299.cc)|[Bulls and Cows](https://leetcode.com/problems/bulls-and-cows/)|Medium|

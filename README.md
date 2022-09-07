@@ -512,7 +512,7 @@ My daily challenge on leetcode since 2021/09/06.
 |[📎](src/q_451_500/q0492.cc)|492|[Construct the Rectangle](https://leetcode.com/problems/construct-the-rectangle/)|Easy|
 ||493|[Reverse Pairs](https://leetcode.com/problems/reverse-pairs/)|Hard|
 ||494|[Target Sum](https://leetcode.com/problems/target-sum/)|Medium|
-||495|[Teemo Attacking](https://leetcode.com/problems/teemo-attacking/)|Easy|
+|[📎](src/q_451_500/q0495.cc)|495|[Teemo Attacking](https://leetcode.com/problems/teemo-attacking/)|Easy|
 |[📎](src/q_451_500/q0496.cc)|496|[Next Greater Element I](https://leetcode.com/problems/next-greater-element-i/)|Easy|
 ||497|[Random Point in Non-overlapping Rectangles](https://leetcode.com/problems/random-point-in-non-overlapping-rectangles/)|Medium|
 ||498|[Diagonal Traverse](https://leetcode.com/problems/diagonal-traverse/)|Medium|
@@ -2475,6 +2475,7 @@ My daily challenge on leetcode since 2021/09/06.
 
 |Time|#|</>|Question Title|Difficulty|
 |:--|--:|:-:|:--|:--|
+|2022-09-08 01:18|495|[📎](src/q_451_500/q0495.cc)|[Teemo Attacking](https://leetcode.com/problems/teemo-attacking/)|Easy|
 |2022-09-08 01:06|500|[📎](src/q_451_500/q0500.cc)|[Keyboard Row](https://leetcode.com/problems/keyboard-row/)|Easy|
 |2022-09-07 22:07|217|[📎](src/q_201_250/q0217.cc)|[Contains Duplicate](https://leetcode.com/problems/contains-duplicate/)|Easy|
 |2022-09-07 17:52|606|[📎](src/q_601_650/q0606.cc)|[Construct String from Binary Tree](https://leetcode.com/problems/construct-string-from-binary-tree/)|Easy|
@@ -2499,13 +2500,12 @@ My daily challenge on leetcode since 2021/09/06.
 |2022-08-24 21:08|724|[📎](src/q_701_750/q0724.cc)|[Find Pivot Index](https://leetcode.com/problems/find-pivot-index/)|Easy|
 |2022-08-24 18:50|468|[📎](src/q_451_500/q0468.cc)|[Validate IP Address](https://leetcode.com/problems/validate-ip-address/)|Medium|
 |2022-08-24 18:00|317|[📎](src/q_301_350/q0317.cc)|[Shortest Distance from All Buildings](https://leetcode.com/problems/shortest-distance-from-all-buildings/)|Hard|
-|2022-08-23 19:17|355|[📎](src/q_351_400/q0355.cc)|[Design Twitter](https://leetcode.com/problems/design-twitter/)|Medium|
 
 ## Previous Logs
 
 |Month|Submissions|Easy|Medium|Hard|
 |:--|:--|:--|:--|:--|
-|[September_2022](./assets/September_2022.md)|11|4|6|1|
+|[September_2022](./assets/September_2022.md)|12|5|6|1|
 |[August_2022](./assets/August_2022.md)|48|15|25|8|
 |[July_2022](./assets/July_2022.md)|47|6|37|4|
 |[June_2022](./assets/June_2022.md)|30|8|19|3|

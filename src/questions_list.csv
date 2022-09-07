@@ -493,7 +493,7 @@ id,title,level,slug,paid,done
 492,Construct the Rectangle,1,construct-the-rectangle,0,1
 493,Reverse Pairs,3,reverse-pairs,0,0
 494,Target Sum,2,target-sum,0,0
-495,Teemo Attacking,1,teemo-attacking,0,0
+495,Teemo Attacking,1,teemo-attacking,0,1
 496,Next Greater Element I,1,next-greater-element-i,0,1
 497,Random Point in Non-overlapping Rectangles,2,random-point-in-non-overlapping-rectangles,0,0
 498,Diagonal Traverse,2,diagonal-traverse,0,0
