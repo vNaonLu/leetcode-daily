@@ -498,7 +498,7 @@ id,title,level,slug,paid,done
 497,Random Point in Non-overlapping Rectangles,2,random-point-in-non-overlapping-rectangles,0,0
 498,Diagonal Traverse,2,diagonal-traverse,0,0
 499,The Maze III,3,the-maze-iii,1,0
-500,Keyboard Row,1,keyboard-row,0,0
+500,Keyboard Row,1,keyboard-row,0,1
 501,Find Mode in Binary Search Tree,1,find-mode-in-binary-search-tree,0,1
 502,IPO,3,ipo,0,0
 503,Next Greater Element II,2,next-greater-element-ii,0,1

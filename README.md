@@ -517,7 +517,7 @@ My daily challenge on leetcode since 2021/09/06.
 ||497|[Random Point in Non-overlapping Rectangles](https://leetcode.com/problems/random-point-in-non-overlapping-rectangles/)|Medium|
 ||498|[Diagonal Traverse](https://leetcode.com/problems/diagonal-traverse/)|Medium|
 |🔒|499|[The Maze III](https://leetcode.com/problems/the-maze-iii/)|Hard|
-||500|[Keyboard Row](https://leetcode.com/problems/keyboard-row/)|Easy|
+|[📎](src/q_451_500/q0500.cc)|500|[Keyboard Row](https://leetcode.com/problems/keyboard-row/)|Easy|
 </details>
 <details>
   <summary>### 501 ~ 750</summary>
@@ -2475,6 +2475,7 @@ My daily challenge on leetcode since 2021/09/06.
 
 |Time|#|</>|Question Title|Difficulty|
 |:--|--:|:-:|:--|:--|
+|2022-09-08 01:06|500|[📎](src/q_451_500/q0500.cc)|[Keyboard Row](https://leetcode.com/problems/keyboard-row/)|Easy|
 |2022-09-07 22:07|217|[📎](src/q_201_250/q0217.cc)|[Contains Duplicate](https://leetcode.com/problems/contains-duplicate/)|Easy|
 |2022-09-07 17:52|606|[📎](src/q_601_650/q0606.cc)|[Construct String from Binary Tree](https://leetcode.com/problems/construct-string-from-binary-tree/)|Easy|
 |2022-09-06 18:11|814|[📎](src/q_801_850/q0814.cc)|[Binary Tree Pruning](https://leetcode.com/problems/binary-tree-pruning/)|Medium|
@@ -2499,13 +2500,12 @@ My daily challenge on leetcode since 2021/09/06.
 |2022-08-24 18:50|468|[📎](src/q_451_500/q0468.cc)|[Validate IP Address](https://leetcode.com/problems/validate-ip-address/)|Medium|
 |2022-08-24 18:00|317|[📎](src/q_301_350/q0317.cc)|[Shortest Distance from All Buildings](https://leetcode.com/problems/shortest-distance-from-all-buildings/)|Hard|
 |2022-08-23 19:17|355|[📎](src/q_351_400/q0355.cc)|[Design Twitter](https://leetcode.com/problems/design-twitter/)|Medium|
-|2022-08-23 18:07|234|[📎](src/q_201_250/q0234.cc)|[Palindrome Linked List](https://leetcode.com/problems/palindrome-linked-list/)|Easy|
 
 ## Previous Logs
 
 |Month|Submissions|Easy|Medium|Hard|
 |:--|:--|:--|:--|:--|
-|[September_2022](./assets/September_2022.md)|10|3|6|1|
+|[September_2022](./assets/September_2022.md)|11|4|6|1|
 |[August_2022](./assets/August_2022.md)|48|15|25|8|
 |[July_2022](./assets/July_2022.md)|47|6|37|4|
 |[June_2022](./assets/June_2022.md)|30|8|19|3|
