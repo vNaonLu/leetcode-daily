@@ -30,19 +30,19 @@ using namespace std;
 struct q202 : public ::testing::Test {
   // Leetcode answer here
   class Solution {
-   public:
+  public:
     bool isHappy(int n) {
-      unordered_set<int> appeared;
+      auto memo = unordered_set<int>{n};
       while (n != 1) {
-        if (appeared.count(n)) return false;
-        appeared.insert(n);
-        int next = 0;
-        while (n != 0) {
-          int digit = n % 10;
-          next += digit * digit;
-          n /= 10;
+        auto x = n;
+        n      = 0;
+        while (x != 0) {
+          n += (x % 10) * (x % 10);
+          x /= 10;
         }
-        n = next;
+        if (!memo.emplace(n).second) {
+          return false;
+        }
       }
       return true;
     }
@@ -53,7 +53,7 @@ struct q202 : public ::testing::Test {
 
 TEST_F(q202, sample_input01) {
   solution = new Solution();
-  int n = 19;
+  int  n   = 19;
   bool exp = true;
   EXPECT_EQ(solution->isHappy(n), exp);
   delete solution;
@@ -61,7 +61,7 @@ TEST_F(q202, sample_input01) {
 
 TEST_F(q202, sample_input02) {
   solution = new Solution();
-  int n = 2;
+  int  n   = 2;
   bool exp = false;
   EXPECT_EQ(solution->isHappy(n), exp);
   delete solution;
