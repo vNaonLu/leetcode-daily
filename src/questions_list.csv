@@ -218,7 +218,7 @@ id,title,level,slug,paid,done
 217,Contains Duplicate,1,contains-duplicate,0,1
 218,The Skyline Problem,3,the-skyline-problem,0,0
 219,Contains Duplicate II,1,contains-duplicate-ii,0,1
-220,Contains Duplicate III,2,contains-duplicate-iii,0,1
+220,Contains Duplicate III,3,contains-duplicate-iii,0,1
 221,Maximal Square,2,maximal-square,0,1
 222,Count Complete Tree Nodes,2,count-complete-tree-nodes,0,1
 223,Rectangle Area,2,rectangle-area,0,1
@@ -233,7 +233,7 @@ id,title,level,slug,paid,done
 232,Implement Queue using Stacks,1,implement-queue-using-stacks,0,0
 233,Number of Digit One,3,number-of-digit-one,0,0
 234,Palindrome Linked List,1,palindrome-linked-list,0,1
-235,Lowest Common Ancestor of a Binary Search Tree,1,lowest-common-ancestor-of-a-binary-search-tree,0,1
+235,Lowest Common Ancestor of a Binary Search Tree,2,lowest-common-ancestor-of-a-binary-search-tree,0,1
 236,Lowest Common Ancestor of a Binary Tree,2,lowest-common-ancestor-of-a-binary-tree,0,1
 237,Delete Node in a Linked List,2,delete-node-in-a-linked-list,0,0
 238,Product of Array Except Self,2,product-of-array-except-self,0,1
@@ -516,7 +516,7 @@ id,title,level,slug,paid,done
 515,Find Largest Value in Each Tree Row,2,find-largest-value-in-each-tree-row,0,1
 516,Longest Palindromic Subsequence,2,longest-palindromic-subsequence,0,1
 517,Super Washing Machines,3,super-washing-machines,0,0
-518,Coin Change 2,2,coin-change-2,0,1
+518,Coin Change II,2,coin-change-ii,0,1
 519,Random Flip Matrix,2,random-flip-matrix,0,0
 520,Detect Capital,1,detect-capital,0,1
 521,Longest Uncommon Subsequence I,1,longest-uncommon-subsequence-i,0,0
@@ -1704,7 +1704,7 @@ id,title,level,slug,paid,done
 1703,Minimum Adjacent Swaps for K Consecutive Ones,3,minimum-adjacent-swaps-for-k-consecutive-ones,0,0
 1704,Determine if String Halves Are Alike,1,determine-if-string-halves-are-alike,0,0
 1705,Maximum Number of Eaten Apples,2,maximum-number-of-eaten-apples,0,1
-1706,Where Will the Ball Fall,2,where-will-the-ball-fall,0,0
+1706,Where Will the Ball Fall,2,where-will-the-ball-fall,0,1
 1707,Maximum XOR With an Element From Array,3,maximum-xor-with-an-element-from-array,0,0
 1708,Largest Subarray Length K,1,largest-subarray-length-k,1,0
 1709,Biggest Window Between Visits,2,biggest-window-between-visits,1,0
@@ -2401,3 +2401,4 @@ id,title,level,slug,paid,done
 2400,Number of Ways to Reach a Position After Exactly k Steps,2,number-of-ways-to-reach-a-position-after-exactly-k-steps,0,0
 2401,Longest Nice Subarray,2,longest-nice-subarray,0,0
 2402,Meeting Rooms III,3,meeting-rooms-iii,0,0
+2403,Minimum Time to Kill All Monsters,3,minimum-time-to-kill-all-monsters,1,0

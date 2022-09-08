@@ -231,7 +231,7 @@ My daily challenge on leetcode since 2021/09/06.
 |[📎](src/q_201_250/q0217.cc)|217|[Contains Duplicate](https://leetcode.com/problems/contains-duplicate/)|Easy|
 ||218|[The Skyline Problem](https://leetcode.com/problems/the-skyline-problem/)|Hard|
 |[📎](src/q_201_250/q0219.cc)|219|[Contains Duplicate II](https://leetcode.com/problems/contains-duplicate-ii/)|Easy|
-|[📎](src/q_201_250/q0220.cc)|220|[Contains Duplicate III](https://leetcode.com/problems/contains-duplicate-iii/)|Medium|
+|[📎](src/q_201_250/q0220.cc)|220|[Contains Duplicate III](https://leetcode.com/problems/contains-duplicate-iii/)|Hard|
 |[📎](src/q_201_250/q0221.cc)|221|[Maximal Square](https://leetcode.com/problems/maximal-square/)|Medium|
 |[📎](src/q_201_250/q0222.cc)|222|[Count Complete Tree Nodes](https://leetcode.com/problems/count-complete-tree-nodes/)|Medium|
 |[📎](src/q_201_250/q0223.cc)|223|[Rectangle Area](https://leetcode.com/problems/rectangle-area/)|Medium|
@@ -246,7 +246,7 @@ My daily challenge on leetcode since 2021/09/06.
 ||232|[Implement Queue using Stacks](https://leetcode.com/problems/implement-queue-using-stacks/)|Easy|
 ||233|[Number of Digit One](https://leetcode.com/problems/number-of-digit-one/)|Hard|
 |[📎](src/q_201_250/q0234.cc)|234|[Palindrome Linked List](https://leetcode.com/problems/palindrome-linked-list/)|Easy|
-|[📎](src/q_201_250/q0235.cc)|235|[Lowest Common Ancestor of a Binary Search Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/)|Easy|
+|[📎](src/q_201_250/q0235.cc)|235|[Lowest Common Ancestor of a Binary Search Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/)|Medium|
 |[📎](src/q_201_250/q0236.cc)|236|[Lowest Common Ancestor of a Binary Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/)|Medium|
 ||237|[Delete Node in a Linked List](https://leetcode.com/problems/delete-node-in-a-linked-list/)|Medium|
 |[📎](src/q_201_250/q0238.cc)|238|[Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/)|Medium|
@@ -541,7 +541,7 @@ My daily challenge on leetcode since 2021/09/06.
 |[📎](src/q_501_550/q0515.cc)|515|[Find Largest Value in Each Tree Row](https://leetcode.com/problems/find-largest-value-in-each-tree-row/)|Medium|
 |[📎](src/q_501_550/q0516.cc)|516|[Longest Palindromic Subsequence](https://leetcode.com/problems/longest-palindromic-subsequence/)|Medium|
 ||517|[Super Washing Machines](https://leetcode.com/problems/super-washing-machines/)|Hard|
-|[📎](src/q_501_550/q0518.cc)|518|[Coin Change 2](https://leetcode.com/problems/coin-change-2/)|Medium|
+|[📎](src/q_501_550/q0518.cc)|518|[Coin Change II](https://leetcode.com/problems/coin-change-ii/)|Medium|
 ||519|[Random Flip Matrix](https://leetcode.com/problems/random-flip-matrix/)|Medium|
 |[📎](src/q_501_550/q0520.cc)|520|[Detect Capital](https://leetcode.com/problems/detect-capital/)|Easy|
 ||521|[Longest Uncommon Subsequence I](https://leetcode.com/problems/longest-uncommon-subsequence-i/)|Easy|
@@ -1753,7 +1753,7 @@ My daily challenge on leetcode since 2021/09/06.
 ||1703|[Minimum Adjacent Swaps for K Consecutive Ones](https://leetcode.com/problems/minimum-adjacent-swaps-for-k-consecutive-ones/)|Hard|
 ||1704|[Determine if String Halves Are Alike](https://leetcode.com/problems/determine-if-string-halves-are-alike/)|Easy|
 |[📎](src/q_1701_1750/q1705.cc)|1705|[Maximum Number of Eaten Apples](https://leetcode.com/problems/maximum-number-of-eaten-apples/)|Medium|
-||1706|[Where Will the Ball Fall](https://leetcode.com/problems/where-will-the-ball-fall/)|Medium|
+|[📎](src/q_1701_1750/q1706.cc)|1706|[Where Will the Ball Fall](https://leetcode.com/problems/where-will-the-ball-fall/)|Medium|
 ||1707|[Maximum XOR With an Element From Array](https://leetcode.com/problems/maximum-xor-with-an-element-from-array/)|Hard|
 |🔒|1708|[Largest Subarray Length K](https://leetcode.com/problems/largest-subarray-length-k/)|Easy|
 |🔒|1709|[Biggest Window Between Visits](https://leetcode.com/problems/biggest-window-between-visits/)|Medium|
@@ -2312,7 +2312,7 @@ My daily challenge on leetcode since 2021/09/06.
 ||2250|[Count Number of Rectangles Containing Each Point](https://leetcode.com/problems/count-number-of-rectangles-containing-each-point/)|Medium|
 </details>
 <details>
-  <summary>### 2251 ~ 2402</summary>
+  <summary>### 2251 ~ 2403</summary>
 
 |</>|#|Solution Title|Difficulty|
 |:-:|--:|:--|:--|
@@ -2468,6 +2468,7 @@ My daily challenge on leetcode since 2021/09/06.
 ||2400|[Number of Ways to Reach a Position After Exactly k Steps](https://leetcode.com/problems/number-of-ways-to-reach-a-position-after-exactly-k-steps/)|Medium|
 ||2401|[Longest Nice Subarray](https://leetcode.com/problems/longest-nice-subarray/)|Medium|
 ||2402|[Meeting Rooms III](https://leetcode.com/problems/meeting-rooms-iii/)|Hard|
+|🔒|2403|[Minimum Time to Kill All Monsters](https://leetcode.com/problems/minimum-time-to-kill-all-monsters/)|Hard|
 </details>
 
 ---
@@ -2475,6 +2476,7 @@ My daily challenge on leetcode since 2021/09/06.
 
 |Time|#|</>|Question Title|Difficulty|
 |:--|--:|:-:|:--|:--|
+|2022-09-08 17:53|1706|[📎](src/q_1701_1750/q1706.cc)|[Where Will the Ball Fall](https://leetcode.com/problems/where-will-the-ball-fall/)|Medium|
 |2022-09-08 01:18|495|[📎](src/q_451_500/q0495.cc)|[Teemo Attacking](https://leetcode.com/problems/teemo-attacking/)|Easy|
 |2022-09-08 01:06|500|[📎](src/q_451_500/q0500.cc)|[Keyboard Row](https://leetcode.com/problems/keyboard-row/)|Easy|
 |2022-09-07 22:07|217|[📎](src/q_201_250/q0217.cc)|[Contains Duplicate](https://leetcode.com/problems/contains-duplicate/)|Easy|
@@ -2499,14 +2501,13 @@ My daily challenge on leetcode since 2021/09/06.
 |2022-08-25 18:23|205|[📎](src/q_201_250/q0205.cc)|[Isomorphic Strings](https://leetcode.com/problems/isomorphic-strings/)|Easy|
 |2022-08-24 21:08|724|[📎](src/q_701_750/q0724.cc)|[Find Pivot Index](https://leetcode.com/problems/find-pivot-index/)|Easy|
 |2022-08-24 18:50|468|[📎](src/q_451_500/q0468.cc)|[Validate IP Address](https://leetcode.com/problems/validate-ip-address/)|Medium|
-|2022-08-24 18:00|317|[📎](src/q_301_350/q0317.cc)|[Shortest Distance from All Buildings](https://leetcode.com/problems/shortest-distance-from-all-buildings/)|Hard|
 
 ## Previous Logs
 
 |Month|Submissions|Easy|Medium|Hard|
 |:--|:--|:--|:--|:--|
-|[September_2022](./assets/September_2022.md)|12|5|6|1|
-|[August_2022](./assets/August_2022.md)|48|15|25|8|
+|[September_2022](./assets/September_2022.md)|13|5|7|1|
+|[August_2022](./assets/August_2022.md)|48|15|24|9|
 |[July_2022](./assets/July_2022.md)|47|6|37|4|
 |[June_2022](./assets/June_2022.md)|30|8|19|3|
 |[May_2022](./assets/May_2022.md)|42|12|26|4|
@@ -2517,4 +2518,4 @@ My daily challenge on leetcode since 2021/09/06.
 |[December_2021](./assets/December_2021.md)|33|11|15|7|
 |[November_2021](./assets/November_2021.md)|41|18|17|6|
 |[October_2021](./assets/October_2021.md)|115|24|78|13|
-|[September_2021](./assets/September_2021.md)|133|54|72|7|
+|[September_2021](./assets/September_2021.md)|133|53|73|7|
