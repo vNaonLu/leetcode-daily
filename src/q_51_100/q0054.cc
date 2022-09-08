@@ -1,3 +1,4 @@
+#include <array>
 #include <gtest/gtest.h>
 #include <iostream>
 #include <vector>
@@ -27,29 +28,32 @@ using namespace std;
 struct q54 : public ::testing::Test {
   // Leetcode answer here
   class Solution {
-   private:
-    typedef pair<int, int> coord;
-    vector<coord> dir = {{0, 1}, {1, 0}, {0, -1}, {-1, 0}};
-    int null = -100;
-   public:
-    vector<int> spiralOrder(vector<vector<int>>& matrix) {
-      int cur_dir = 0;
-      int m = matrix.size(), n = matrix[0].size();
-      int i = -1;
-      coord p = {0, -1};
-      vector<int> res(m * n, 0);
-      while (i < m * n - 1) {
-        coord np = p;
-        np.first += dir[cur_dir].first;
-        np.second += dir[cur_dir].second;
-        if (np.first >= 0 && np.first < m &&
-            np.second >= 0 && np.second < n &&
-            matrix[np.first][np.second] > null) {
-          res[++i] = matrix[np.first][np.second];
-          matrix[np.first][np.second] = null;
-          p = np;
+  private:
+    inline constexpr static array<pair<int, int>, 4> dir = {
+        make_pair(0, 1), make_pair(-1, 0), make_pair(0, -1), make_pair(1, 0)};
+
+  public:
+    vector<int> spiralOrder(vector<vector<int>> &matrix) {
+      auto m       = matrix.size();
+      auto n       = matrix.front().size();
+      auto res     = vector<int>(m * n, 0);
+      auto step    = 0;
+      auto curr    = make_pair(0, 0);
+      auto beg     = res.begin();
+      *beg++       = matrix[0][0];
+      matrix[0][0] = -101;
+      while (beg != res.end()) {
+        auto &[x, y]   = curr;
+        auto &[dx, dy] = dir[step & 3];
+
+        if (x + dx >= 0 && x + dx < m && y + dy >= 0 && y + dy < n &&
+            matrix[x + dx][y + dy] != -101) {
+          x += dx;
+          y += dy;
+          *beg++       = matrix[x][y];
+          matrix[x][y] = -101;
         } else {
-          cur_dir = (cur_dir + 1) % 4;
+          ++step;
         }
       }
       return res;
@@ -60,16 +64,24 @@ struct q54 : public ::testing::Test {
 };
 
 TEST_F(q54, sample_input01) {
-  solution = new Solution();
-  vector<vector<int>> matrix = {{1, 2, 3}, {4, 5, 6}, {7, 8, 9}};
+  solution                   = new Solution();
+  vector<vector<int>> matrix = {
+      {1, 2, 3},
+      {4, 5, 6},
+      {7, 8, 9}
+  };
   vector<int> exp = {1, 2, 3, 6, 9, 8, 7, 4, 5};
   EXPECT_EQ(solution->spiralOrder(matrix), exp);
   delete solution;
 }
 
 TEST_F(q54, sample_input02) {
-  solution = new Solution();
-  vector<vector<int>> matrix = {{1, 2, 3, 4}, {5, 6, 7, 8}, {9, 10, 11, 12}};
+  solution                   = new Solution();
+  vector<vector<int>> matrix = {
+      {1,  2,  3,  4},
+      {5,  6,  7,  8},
+      {9, 10, 11, 12}
+  };
   vector<int> exp = {1, 2, 3, 4, 8, 12, 11, 10, 9, 5, 6, 7};
   EXPECT_EQ(solution->spiralOrder(matrix), exp);
   delete solution;
