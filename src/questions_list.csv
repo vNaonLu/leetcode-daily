@@ -1994,7 +1994,7 @@ id,title,level,slug,paid,done
 1993,Operations on Tree,2,operations-on-tree,0,0
 1994,The Number of Good Subsets,3,the-number-of-good-subsets,0,0
 1995,Count Special Quadruplets,1,count-special-quadruplets,0,0
-1996,The Number of Weak Characters in the Game,2,the-number-of-weak-characters-in-the-game,0,0
+1996,The Number of Weak Characters in the Game,2,the-number-of-weak-characters-in-the-game,0,1
 1997,First Day Where You Have Been in All the Rooms,2,first-day-where-you-have-been-in-all-the-rooms,0,0
 1998,GCD Sort of an Array,3,gcd-sort-of-an-array,0,0
 1999,Smallest Greater Multiple Made of Two Digits,2,smallest-greater-multiple-made-of-two-digits,1,0

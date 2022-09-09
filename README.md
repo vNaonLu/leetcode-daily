@@ -2049,7 +2049,7 @@ My daily challenge on leetcode since 2021/09/06.
 ||1993|[Operations on Tree](https://leetcode.com/problems/operations-on-tree/)|Medium|
 ||1994|[The Number of Good Subsets](https://leetcode.com/problems/the-number-of-good-subsets/)|Hard|
 ||1995|[Count Special Quadruplets](https://leetcode.com/problems/count-special-quadruplets/)|Easy|
-||1996|[The Number of Weak Characters in the Game](https://leetcode.com/problems/the-number-of-weak-characters-in-the-game/)|Medium|
+|[📎](src/q_1951_2000/q1996.cc)|1996|[The Number of Weak Characters in the Game](https://leetcode.com/problems/the-number-of-weak-characters-in-the-game/)|Medium|
 ||1997|[First Day Where You Have Been in All the Rooms](https://leetcode.com/problems/first-day-where-you-have-been-in-all-the-rooms/)|Medium|
 ||1998|[GCD Sort of an Array](https://leetcode.com/problems/gcd-sort-of-an-array/)|Hard|
 |🔒|1999|[Smallest Greater Multiple Made of Two Digits](https://leetcode.com/problems/smallest-greater-multiple-made-of-two-digits/)|Medium|
@@ -2476,6 +2476,7 @@ My daily challenge on leetcode since 2021/09/06.
 
 |Time|#|</>|Question Title|Difficulty|
 |:--|--:|:-:|:--|:--|
+|2022-09-09 15:43|1996|[📎](src/q_1951_2000/q1996.cc)|[The Number of Weak Characters in the Game](https://leetcode.com/problems/the-number-of-weak-characters-in-the-game/)|Medium|
 |2022-09-08 17:53|1706|[📎](src/q_1701_1750/q1706.cc)|[Where Will the Ball Fall](https://leetcode.com/problems/where-will-the-ball-fall/)|Medium|
 |2022-09-08 01:18|495|[📎](src/q_451_500/q0495.cc)|[Teemo Attacking](https://leetcode.com/problems/teemo-attacking/)|Easy|
 |2022-09-08 01:06|500|[📎](src/q_451_500/q0500.cc)|[Keyboard Row](https://leetcode.com/problems/keyboard-row/)|Easy|
@@ -2500,13 +2501,12 @@ My daily challenge on leetcode since 2021/09/06.
 |2022-08-26 13:11|869|[📎](src/q_851_900/q0869.cc)|[Reordered Power of 2](https://leetcode.com/problems/reordered-power-of-2/)|Medium|
 |2022-08-25 18:23|205|[📎](src/q_201_250/q0205.cc)|[Isomorphic Strings](https://leetcode.com/problems/isomorphic-strings/)|Easy|
 |2022-08-24 21:08|724|[📎](src/q_701_750/q0724.cc)|[Find Pivot Index](https://leetcode.com/problems/find-pivot-index/)|Easy|
-|2022-08-24 18:50|468|[📎](src/q_451_500/q0468.cc)|[Validate IP Address](https://leetcode.com/problems/validate-ip-address/)|Medium|
 
 ## Previous Logs
 
 |Month|Submissions|Easy|Medium|Hard|
 |:--|:--|:--|:--|:--|
-|[September_2022](./assets/September_2022.md)|13|5|7|1|
+|[September_2022](./assets/September_2022.md)|14|5|8|1|
 |[August_2022](./assets/August_2022.md)|48|15|24|9|
 |[July_2022](./assets/July_2022.md)|47|6|37|4|
 |[June_2022](./assets/June_2022.md)|30|8|19|3|
