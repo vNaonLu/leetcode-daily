@@ -27,19 +27,19 @@ using namespace std;
 struct q19 : public ::testing::Test {
   // Leetcode answer here
   class Solution {
-   public:
+  public:
     ListNode *removeNthFromEnd(ListNode *head, int n) {
-      ListNode dummy(0, head);
-      ListNode *p = &dummy;
-      ListNode *fast = &dummy;
+      auto dummy = ListNode{0, head};
+      auto slow  = &dummy;
+      auto fast  = &dummy;
       while (n--) {
         fast = fast->next;
       }
-      while (fast != nullptr && fast->next != nullptr) {
+      while (nullptr != fast && nullptr != fast->next) {
         fast = fast->next;
-        p = p->next;
+        slow = slow->next;
       }
-      p->next = p->next->next;
+      slow->next = slow->next->next;
       return dummy.next;
     }
   };
@@ -48,33 +48,33 @@ struct q19 : public ::testing::Test {
 };
 
 TEST_F(q19, sample_input01) {
-  solution = new Solution();
-  ListNode* head = ListNode::generate({1, 2, 3, 4, 5});
-  int n = 2;
-  ListNode* exp = ListNode::generate({1, 2, 3, 5});
-  ListNode* act = solution->removeNthFromEnd(head, n);
+  solution       = new Solution();
+  ListNode *head = ListNode::generate({1, 2, 3, 4, 5});
+  int       n    = 2;
+  ListNode *exp  = ListNode::generate({1, 2, 3, 5});
+  ListNode *act  = solution->removeNthFromEnd(head, n);
   EXPECT_LISTNODE_EQ(act, exp);
   ListNode::release(head, exp, act);
   delete solution;
 }
 
 TEST_F(q19, sample_input02) {
-  solution = new Solution();
-  ListNode* head = ListNode::generate({1});
-  int n = 1;
-  ListNode* exp = ListNode::generate({});
-  ListNode* act = solution->removeNthFromEnd(head, n);
+  solution       = new Solution();
+  ListNode *head = ListNode::generate({1});
+  int       n    = 1;
+  ListNode *exp  = ListNode::generate({});
+  ListNode *act  = solution->removeNthFromEnd(head, n);
   EXPECT_LISTNODE_EQ(act, exp);
   ListNode::release(head, exp, act);
   delete solution;
 }
 
 TEST_F(q19, sample_input03) {
-  solution = new Solution();
-  ListNode* head = ListNode::generate({1, 2});
-  int n = 1;
-  ListNode* exp = ListNode::generate({1});
-  ListNode* act = solution->removeNthFromEnd(head, n);
+  solution       = new Solution();
+  ListNode *head = ListNode::generate({1, 2});
+  int       n    = 1;
+  ListNode *exp  = ListNode::generate({1});
+  ListNode *act  = solution->removeNthFromEnd(head, n);
   EXPECT_LISTNODE_EQ(act, exp);
   ListNode::release(head, exp, act);
   delete solution;

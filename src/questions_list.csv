@@ -186,7 +186,7 @@ id,title,level,slug,paid,done
 185,Department Top Three Salaries,3,department-top-three-salaries,0,0
 186,Reverse Words in a String II,2,reverse-words-in-a-string-ii,1,0
 187,Repeated DNA Sequences,2,repeated-dna-sequences,0,1
-188,Best Time to Buy and Sell Stock IV,3,best-time-to-buy-and-sell-stock-iv,0,0
+188,Best Time to Buy and Sell Stock IV,3,best-time-to-buy-and-sell-stock-iv,0,1
 189,Rotate Array,2,rotate-array,0,1
 190,Reverse Bits,1,reverse-bits,0,1
 191,Number of 1 Bits,1,number-of-1-bits,0,1
@@ -215,10 +215,10 @@ id,title,level,slug,paid,done
 214,Shortest Palindrome,3,shortest-palindrome,0,0
 215,Kth Largest Element in an Array,2,kth-largest-element-in-an-array,0,1
 216,Combination Sum III,2,combination-sum-iii,0,1
-217,Contains Duplicate,1,contains-duplicate,0,0
+217,Contains Duplicate,1,contains-duplicate,0,1
 218,The Skyline Problem,3,the-skyline-problem,0,0
 219,Contains Duplicate II,1,contains-duplicate-ii,0,1
-220,Contains Duplicate III,2,contains-duplicate-iii,0,1
+220,Contains Duplicate III,3,contains-duplicate-iii,0,1
 221,Maximal Square,2,maximal-square,0,1
 222,Count Complete Tree Nodes,2,count-complete-tree-nodes,0,1
 223,Rectangle Area,2,rectangle-area,0,1
@@ -233,7 +233,7 @@ id,title,level,slug,paid,done
 232,Implement Queue using Stacks,1,implement-queue-using-stacks,0,0
 233,Number of Digit One,3,number-of-digit-one,0,0
 234,Palindrome Linked List,1,palindrome-linked-list,0,1
-235,Lowest Common Ancestor of a Binary Search Tree,1,lowest-common-ancestor-of-a-binary-search-tree,0,1
+235,Lowest Common Ancestor of a Binary Search Tree,2,lowest-common-ancestor-of-a-binary-search-tree,0,1
 236,Lowest Common Ancestor of a Binary Tree,2,lowest-common-ancestor-of-a-binary-tree,0,1
 237,Delete Node in a Linked List,2,delete-node-in-a-linked-list,0,0
 238,Product of Array Except Self,2,product-of-array-except-self,0,1
@@ -297,7 +297,7 @@ id,title,level,slug,paid,done
 296,Best Meeting Point,3,best-meeting-point,1,0
 297,Serialize and Deserialize Binary Tree,3,serialize-and-deserialize-binary-tree,0,1
 298,Binary Tree Longest Consecutive Sequence,2,binary-tree-longest-consecutive-sequence,1,0
-299,Bulls and Cows,2,bulls-and-cows,0,0
+299,Bulls and Cows,2,bulls-and-cows,0,1
 300,Longest Increasing Subsequence,2,longest-increasing-subsequence,0,1
 301,Remove Invalid Parentheses,3,remove-invalid-parentheses,0,0
 302,Smallest Rectangle Enclosing Black Pixels,3,smallest-rectangle-enclosing-black-pixels,1,0
@@ -422,7 +422,7 @@ id,title,level,slug,paid,done
 421,Maximum XOR of Two Numbers in an Array,2,maximum-xor-of-two-numbers-in-an-array,0,1
 422,Valid Word Square,1,valid-word-square,1,0
 423,Reconstruct Original Digits from English,2,reconstruct-original-digits-from-english,0,0
-424,Longest Repeating Character Replacement,2,longest-repeating-character-replacement,0,0
+424,Longest Repeating Character Replacement,2,longest-repeating-character-replacement,0,1
 425,Word Squares,3,word-squares,1,0
 426,Convert Binary Search Tree to Sorted Doubly Linked List,2,convert-binary-search-tree-to-sorted-doubly-linked-list,1,0
 427,Construct Quad Tree,2,construct-quad-tree,0,0
@@ -493,12 +493,12 @@ id,title,level,slug,paid,done
 492,Construct the Rectangle,1,construct-the-rectangle,0,1
 493,Reverse Pairs,3,reverse-pairs,0,0
 494,Target Sum,2,target-sum,0,0
-495,Teemo Attacking,1,teemo-attacking,0,0
+495,Teemo Attacking,1,teemo-attacking,0,1
 496,Next Greater Element I,1,next-greater-element-i,0,1
 497,Random Point in Non-overlapping Rectangles,2,random-point-in-non-overlapping-rectangles,0,0
 498,Diagonal Traverse,2,diagonal-traverse,0,0
 499,The Maze III,3,the-maze-iii,1,0
-500,Keyboard Row,1,keyboard-row,0,0
+500,Keyboard Row,1,keyboard-row,0,1
 501,Find Mode in Binary Search Tree,1,find-mode-in-binary-search-tree,0,1
 502,IPO,3,ipo,0,0
 503,Next Greater Element II,2,next-greater-element-ii,0,1
@@ -516,7 +516,7 @@ id,title,level,slug,paid,done
 515,Find Largest Value in Each Tree Row,2,find-largest-value-in-each-tree-row,0,1
 516,Longest Palindromic Subsequence,2,longest-palindromic-subsequence,0,1
 517,Super Washing Machines,3,super-washing-machines,0,0
-518,Coin Change 2,2,coin-change-2,0,1
+518,Coin Change II,2,coin-change-ii,0,1
 519,Random Flip Matrix,2,random-flip-matrix,0,0
 520,Detect Capital,1,detect-capital,0,1
 521,Longest Uncommon Subsequence I,1,longest-uncommon-subsequence-i,0,0
@@ -604,7 +604,7 @@ id,title,level,slug,paid,done
 603,Consecutive Available Seats,1,consecutive-available-seats,1,0
 604,Design Compressed String Iterator,1,design-compressed-string-iterator,1,0
 605,Can Place Flowers,1,can-place-flowers,0,1
-606,Construct String from Binary Tree,1,construct-string-from-binary-tree,0,0
+606,Construct String from Binary Tree,1,construct-string-from-binary-tree,0,1
 607,Sales Person,1,sales-person,0,0
 608,Tree Node,2,tree-node,0,0
 609,Find Duplicate File in System,2,find-duplicate-file-in-system,0,0
@@ -812,7 +812,7 @@ id,title,level,slug,paid,done
 811,Subdomain Visit Count,2,subdomain-visit-count,0,0
 812,Largest Triangle Area,1,largest-triangle-area,0,0
 813,Largest Sum of Averages,2,largest-sum-of-averages,0,0
-814,Binary Tree Pruning,2,binary-tree-pruning,0,0
+814,Binary Tree Pruning,2,binary-tree-pruning,0,1
 815,Bus Routes,3,bus-routes,0,0
 816,Ambiguous Coordinates,2,ambiguous-coordinates,0,0
 817,Linked List Components,2,linked-list-components,0,0
@@ -985,7 +985,7 @@ id,title,level,slug,paid,done
 984,String Without AAA or BBB,2,string-without-aaa-or-bbb,0,0
 985,Sum of Even Numbers After Queries,2,sum-of-even-numbers-after-queries,0,0
 986,Interval List Intersections,2,interval-list-intersections,0,1
-987,Vertical Order Traversal of a Binary Tree,3,vertical-order-traversal-of-a-binary-tree,0,0
+987,Vertical Order Traversal of a Binary Tree,3,vertical-order-traversal-of-a-binary-tree,0,1
 988,Smallest String Starting From Leaf,2,smallest-string-starting-from-leaf,0,0
 989,Add to Array-Form of Integer,1,add-to-array-form-of-integer,0,1
 990,Satisfiability of Equality Equations,2,satisfiability-of-equality-equations,0,0
@@ -1704,7 +1704,7 @@ id,title,level,slug,paid,done
 1703,Minimum Adjacent Swaps for K Consecutive Ones,3,minimum-adjacent-swaps-for-k-consecutive-ones,0,0
 1704,Determine if String Halves Are Alike,1,determine-if-string-halves-are-alike,0,0
 1705,Maximum Number of Eaten Apples,2,maximum-number-of-eaten-apples,0,1
-1706,Where Will the Ball Fall,2,where-will-the-ball-fall,0,0
+1706,Where Will the Ball Fall,2,where-will-the-ball-fall,0,1
 1707,Maximum XOR With an Element From Array,3,maximum-xor-with-an-element-from-array,0,0
 1708,Largest Subarray Length K,1,largest-subarray-length-k,1,0
 1709,Biggest Window Between Visits,2,biggest-window-between-visits,1,0
@@ -1994,7 +1994,7 @@ id,title,level,slug,paid,done
 1993,Operations on Tree,2,operations-on-tree,0,0
 1994,The Number of Good Subsets,3,the-number-of-good-subsets,0,0
 1995,Count Special Quadruplets,1,count-special-quadruplets,0,0
-1996,The Number of Weak Characters in the Game,2,the-number-of-weak-characters-in-the-game,0,0
+1996,The Number of Weak Characters in the Game,2,the-number-of-weak-characters-in-the-game,0,1
 1997,First Day Where You Have Been in All the Rooms,2,first-day-where-you-have-been-in-all-the-rooms,0,0
 1998,GCD Sort of an Array,3,gcd-sort-of-an-array,0,0
 1999,Smallest Greater Multiple Made of Two Digits,2,smallest-greater-multiple-made-of-two-digits,1,0
@@ -2393,3 +2393,12 @@ id,title,level,slug,paid,done
 2392,Build a Matrix With Conditions,3,build-a-matrix-with-conditions,0,0
 2393,Count Strictly Increasing Subarrays,2,count-strictly-increasing-subarrays,1,0
 2394,Employees With Deductions,2,employees-with-deductions,1,0
+2395,Find Subarrays With Equal Sum,1,find-subarrays-with-equal-sum,0,0
+2396,Strictly Palindromic Number,2,strictly-palindromic-number,0,0
+2397,Maximum Rows Covered by Columns,2,maximum-rows-covered-by-columns,0,0
+2398,Maximum Number of Robots Within Budget,3,maximum-number-of-robots-within-budget,0,0
+2399,Check Distances Between Same Letters,1,check-distances-between-same-letters,0,0
+2400,Number of Ways to Reach a Position After Exactly k Steps,2,number-of-ways-to-reach-a-position-after-exactly-k-steps,0,0
+2401,Longest Nice Subarray,2,longest-nice-subarray,0,0
+2402,Meeting Rooms III,3,meeting-rooms-iii,0,0
+2403,Minimum Time to Kill All Monsters,3,minimum-time-to-kill-all-monsters,1,0

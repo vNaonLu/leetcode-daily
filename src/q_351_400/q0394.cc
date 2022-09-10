@@ -25,50 +25,86 @@ using namespace std;
  * ––––––––––––––––––––––––––––– Constraints –––––––––––––––––––––––––––––
  *
  *   • ‘1 ≤ s.length ≤ 30’
- *   • ‘s’ consists of lowercase English letters, digits, and square brackets ‘'[]'’ .
- *   • ‘s’ is guaranteed to be “a valid” input.
- *   • All the integers in ‘s’ are in the range ‘[1, 300]’ .
+ *   • ‘s’ consists of lowercase English letters, digits, and square brackets
+ * ‘'[]'’ . • ‘s’ is guaranteed to be “a valid” input. • All the integers in ‘s’
+ * are in the range ‘[1, 300]’ .
  *
  */
 
 struct q394 : public ::testing::Test {
   // Leetcode answer here
   class Solution {
-   private:
-    string helper(string str, int times) {
-      string result = "";
-      for (int i = 0; i < times; i++) result += str;
-      return result;
+  private:
+    template <typename Iterator> int toInteger(Iterator beg, Iterator end) {
+      auto res = 0;
+      while (beg != end) {
+        res = res * 10 + (*beg++ - '0');
+      }
+      return res;
     }
 
-   public:
-    string decodeString(string s) {
-      int i = 0;
-      while (i < s.size()) {
-        if (s[i] != ']') {
-          i++; continue;
+    template <typename Iterator>
+    Iterator findDigit(Iterator beg, Iterator end) {
+      while (beg != end) {
+        if (!isdigit(*beg)) {
+          return beg;
         }
-        int j = i;
-        while (s[j] != '[') j--;
-        string repeatLetters = s.substr(j + 1, i - j - 1);
-        int k = j;
-        j--;
-        while ((j > 0) && (isdigit(s[j]))) j--;
-        if (j != 0) j++;
-        int repeatTimes = stoi(s.substr(j, k - j));
-        s.replace(j, i - j + 1, helper(repeatLetters, repeatTimes));
-        i = j + repeatLetters.size() * repeatTimes;
+        ++beg;
       }
-      return s;
+      return end;
     }
+
+    template <typename Iterator> Iterator findPair(Iterator beg, Iterator end) {
+      /// the first must be '['
+      assert(*beg == '[');
+      auto cnt = (int)1;
+      while (++beg != end) {
+        if (*beg == '[') {
+          ++cnt;
+        } else if (*beg == ']') {
+          if (--cnt == 0) {
+            return beg;
+          }
+        }
+      }
+      return end;
+    }
+
+    template <typename Iterator> string solve(Iterator beg, Iterator end) {
+      auto res   = string("");
+      auto it    = beg;
+      auto times = (int)1;
+      while (it != end) {
+        if (*it == '[') {
+          auto next = findPair(it, end);
+          auto sub  = solve(++it, next);
+          auto cnt  = (int)0;
+          while (++cnt <= times) {
+            res += sub;
+          }
+          times = (int)1;
+          it    = ++next; /// *next == ']'
+        } else if (isdigit(*it)) {
+          auto next = findDigit(it, end);
+          times     = toInteger(it, next);
+          it        = next;
+        } else {
+          res += *it++;
+        }
+      }
+      return res;
+    }
+
+  public:
+    string decodeString(string s) { return solve(s.begin(), s.end()); }
   };
 
   class Solution *solution;
 };
 
 TEST_F(q394, sample_input01) {
-  solution = new Solution();
-  string s = "3[a]2[bc]";
+  solution   = new Solution();
+  string s   = "3[a]2[bc]";
   string exp = "aaabcbc";
   string act = solution->decodeString(s);
   EXPECT_EQ(act, exp);
@@ -76,8 +112,8 @@ TEST_F(q394, sample_input01) {
 }
 
 TEST_F(q394, sample_input02) {
-  solution = new Solution();
-  string s = "3[a2[c]]";
+  solution   = new Solution();
+  string s   = "3[a2[c]]";
   string exp = "accaccacc";
   string act = solution->decodeString(s);
   EXPECT_EQ(act, exp);
@@ -85,8 +121,8 @@ TEST_F(q394, sample_input02) {
 }
 
 TEST_F(q394, sample_input03) {
-  solution = new Solution();
-  string s = "2[abc]3[cd]ef";
+  solution   = new Solution();
+  string s   = "2[abc]3[cd]ef";
   string exp = "abcabccdcdcdef";
   string act = solution->decodeString(s);
   EXPECT_EQ(act, exp);
@@ -94,8 +130,8 @@ TEST_F(q394, sample_input03) {
 }
 
 TEST_F(q394, sample_input04) {
-  solution = new Solution();
-  string s = "abc3[cd]xyz";
+  solution   = new Solution();
+  string s   = "abc3[cd]xyz";
   string exp = "abccdcdcdxyz";
   string act = solution->decodeString(s);
   EXPECT_EQ(act, exp);

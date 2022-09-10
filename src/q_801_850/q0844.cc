@@ -28,28 +28,25 @@ using namespace std;
 struct q844 : public ::testing::Test {
   // Leetcode answer here
   class Solution {
-   public:
+  private:
+    template <typename Iterator> stack<char> solve(Iterator beg, Iterator end) {
+      auto res = stack<char>();
+      while (beg != end) {
+        if (*beg == '#') {
+          if (!res.empty()) {
+            res.pop();
+          }
+        } else {
+          res.emplace(*beg);
+        }
+        ++beg;
+      }
+      return res;
+    }
+
+  public:
     bool backspaceCompare(string s, string t) {
-      stack<char> ss, ts;
-      for (const auto &c : s) {
-        if (c == '#') {
-          if (!ss.empty()) {
-            ss.pop();
-          }
-        } else {
-          ss.push(c);
-        }
-      }
-      for (const auto &c : t) {
-        if (c == '#') {
-          if (!ts.empty()) {
-            ts.pop();
-          }
-        } else {
-          ts.push(c);
-        }
-      }
-      return ts == ss;
+      return solve(s.begin(), s.end()) == solve(t.begin(), t.end());
     }
   };
 
@@ -57,37 +54,37 @@ struct q844 : public ::testing::Test {
 };
 
 TEST_F(q844, sample_input01) {
-  solution = new Solution();
-  string s = "ab#c";
-  string t = "ad#c";
-  bool exp = true;
+  solution   = new Solution();
+  string s   = "ab#c";
+  string t   = "ad#c";
+  bool   exp = true;
   EXPECT_EQ(solution->backspaceCompare(s, t), exp);
   delete solution;
 }
 
 TEST_F(q844, sample_input02) {
-  solution = new Solution();
-  string s = "ab##";
-  string t = "c#d#";
-  bool exp = true;
+  solution   = new Solution();
+  string s   = "ab##";
+  string t   = "c#d#";
+  bool   exp = true;
   EXPECT_EQ(solution->backspaceCompare(s, t), exp);
   delete solution;
 }
 
 TEST_F(q844, sample_input03) {
-  solution = new Solution();
-  string s = "a##c";
-  string t = "#a#c";
-  bool exp = true;
+  solution   = new Solution();
+  string s   = "a##c";
+  string t   = "#a#c";
+  bool   exp = true;
   EXPECT_EQ(solution->backspaceCompare(s, t), exp);
   delete solution;
 }
 
 TEST_F(q844, sample_input04) {
-  solution = new Solution();
-  string s = "a#c";
-  string t = "b";
-  bool exp = false;
+  solution   = new Solution();
+  string s   = "a#c";
+  string t   = "b";
+  bool   exp = false;
   EXPECT_EQ(solution->backspaceCompare(s, t), exp);
   delete solution;
 }

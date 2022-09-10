@@ -4,7 +4,7 @@
 |:--|--:|:-:|:--|:--|
 |Day 31|430|[📎](../src/q_401_450/q0430.cc)|[Flatten a Multilevel Doubly Linked List](https://leetcode.com/problems/flatten-a-multilevel-doubly-linked-list/)|Medium|
 |Day 30|377<br>1044|[📎](../src/q_351_400/q0377.cc)<br>[📎](../src/q_1001_1050/q1044.cc)|[Combination Sum IV](https://leetcode.com/problems/combination-sum-iv/)<br>[Longest Duplicate Substring](https://leetcode.com/problems/longest-duplicate-substring/)|Medium<br>Hard|
-|Day 29|518|[📎](../src/q_501_550/q0518.cc)|[Coin Change 2](https://leetcode.com/problems/coin-change-2/)|Medium|
+|Day 29|518|[📎](../src/q_501_550/q0518.cc)|[Coin Change II](https://leetcode.com/problems/coin-change-ii/)|Medium|
 |Day 28|392|[📎](../src/q_351_400/q0392.cc)|[Is Subsequence](https://leetcode.com/problems/is-subsequence/)|Easy|
 |Day 27|376|[📎](../src/q_351_400/q0376.cc)|[Wiggle Subsequence](https://leetcode.com/problems/wiggle-subsequence/)|Medium|
 |Day 26|516<br>561|[📎](../src/q_501_550/q0516.cc)<br>[📎](../src/q_551_600/q0561.cc)|[Longest Palindromic Subsequence](https://leetcode.com/problems/longest-palindromic-subsequence/)<br>[Array Partition](https://leetcode.com/problems/array-partition/)|Medium<br>Easy|

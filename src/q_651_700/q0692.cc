@@ -32,27 +32,23 @@ using namespace std;
 struct q692 : public ::testing::Test {
   // Leetcode answer here
   class Solution {
-   public:
+  public:
     vector<string> topKFrequent(vector<string> &words, int k) {
-      unordered_map<string_view, int> cnt;
-      vector<string> res;
-
+      auto memo = unordered_map<string, int>();
+      auto res  = vector<string>();
       for (auto &s : words) {
-        auto find = cnt.find(s);
-        if (find == cnt.end()) {
-          find = cnt.emplace(s, 1).first;
+        auto find = memo.find(s);
+        if (find == memo.end()) {
           res.emplace_back(s);
+          memo[s] = 1;
         } else {
           ++find->second;
         }
       }
-
       sort(res.begin(), res.end(), [&](auto &x, auto &y) {
-        return cnt[x] > cnt[y] || (cnt[x] == cnt[y] && x < y);
+        return memo[x] == memo[y] ? x < y : memo[x] > memo[y];
       });
-
-      res.resize(k);
-
+      res.erase(res.begin() + k, res.end());
       return res;
     }
   };
@@ -61,21 +57,22 @@ struct q692 : public ::testing::Test {
 };
 
 TEST_F(q692, sample_input01) {
-  solution = new Solution();
+  solution             = new Solution();
   vector<string> words = {"i", "love", "leetcode", "i", "love", "coding"};
-  int k = 2;
-  vector<string> exp = {"i", "love"};
-  vector<string> act = solution->topKFrequent(words, k);
+  int            k     = 2;
+  vector<string> exp   = {"i", "love"};
+  vector<string> act   = solution->topKFrequent(words, k);
   EXPECT_EQ(act, exp);
   delete solution;
 }
 
 TEST_F(q692, sample_input02) {
-  solution = new Solution();
-  vector<string> words = {"the", "day", "is", "sunny", "the", "the", "the", "sunny", "is", "is"};
-  int k = 4;
-  vector<string> exp = {"the", "is", "sunny", "day"};
-  vector<string> act = solution->topKFrequent(words, k);
+  solution             = new Solution();
+  vector<string> words = {"the", "day", "is",    "sunny", "the",
+                          "the", "the", "sunny", "is",    "is"};
+  int            k     = 4;
+  vector<string> exp   = {"the", "is", "sunny", "day"};
+  vector<string> act   = solution->topKFrequent(words, k);
   EXPECT_EQ(act, exp);
   delete solution;
 }
