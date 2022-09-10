@@ -186,7 +186,7 @@ id,title,level,slug,paid,done
 185,Department Top Three Salaries,3,department-top-three-salaries,0,0
 186,Reverse Words in a String II,2,reverse-words-in-a-string-ii,1,0
 187,Repeated DNA Sequences,2,repeated-dna-sequences,0,1
-188,Best Time to Buy and Sell Stock IV,3,best-time-to-buy-and-sell-stock-iv,0,0
+188,Best Time to Buy and Sell Stock IV,3,best-time-to-buy-and-sell-stock-iv,0,1
 189,Rotate Array,2,rotate-array,0,1
 190,Reverse Bits,1,reverse-bits,0,1
 191,Number of 1 Bits,1,number-of-1-bits,0,1
