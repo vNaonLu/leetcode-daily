@@ -1381,7 +1381,7 @@ id,title,level,slug,paid,done
 1380,Lucky Numbers in a Matrix,1,lucky-numbers-in-a-matrix,0,0
 1381,Design a Stack With Increment Operation,2,design-a-stack-with-increment-operation,0,0
 1382,Balance a Binary Search Tree,2,balance-a-binary-search-tree,0,1
-1383,Maximum Performance of a Team,3,maximum-performance-of-a-team,0,0
+1383,Maximum Performance of a Team,3,maximum-performance-of-a-team,0,1
 1384,Total Sales Amount by Year,3,total-sales-amount-by-year,1,0
 1385,Find the Distance Value Between Two Arrays,1,find-the-distance-value-between-two-arrays,0,1
 1386,Cinema Seat Allocation,2,cinema-seat-allocation,0,0
@@ -2402,3 +2402,7 @@ id,title,level,slug,paid,done
 2401,Longest Nice Subarray,2,longest-nice-subarray,0,0
 2402,Meeting Rooms III,3,meeting-rooms-iii,0,0
 2403,Minimum Time to Kill All Monsters,3,minimum-time-to-kill-all-monsters,1,0
+2404,Most Frequent Even Element,1,most-frequent-even-element,0,0
+2405,Optimal Partition of String,2,optimal-partition-of-string,0,0
+2406,Divide Intervals Into Minimum Number of Groups,2,divide-intervals-into-minimum-number-of-groups,0,0
+2407,Longest Increasing Subsequence II,3,longest-increasing-subsequence-ii,0,0

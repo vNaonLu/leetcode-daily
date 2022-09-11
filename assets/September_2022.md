@@ -2,6 +2,7 @@
 
 ||#|</>|Question Title|Difficulty|
 |:--|--:|:-:|:--|:--|
+|Day 11|1383|[📎](../src/q_1351_1400/q1383.cc)|[Maximum Performance of a Team](https://leetcode.com/problems/maximum-performance-of-a-team/)|Hard|
 |Day 10|188|[📎](../src/q_151_200/q0188.cc)|[Best Time to Buy and Sell Stock IV](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iv/)|Hard|
 |Day 9|1996|[📎](../src/q_1951_2000/q1996.cc)|[The Number of Weak Characters in the Game](https://leetcode.com/problems/the-number-of-weak-characters-in-the-game/)|Medium|
 |Day 8|495<br>500<br>1706|[📎](../src/q_451_500/q0495.cc)<br>[📎](../src/q_451_500/q0500.cc)<br>[📎](../src/q_1701_1750/q1706.cc)|[Teemo Attacking](https://leetcode.com/problems/teemo-attacking/)<br>[Keyboard Row](https://leetcode.com/problems/keyboard-row/)<br>[Where Will the Ball Fall](https://leetcode.com/problems/where-will-the-ball-fall/)|Easy<br>Easy<br>Medium|
