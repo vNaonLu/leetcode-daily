@@ -977,7 +977,7 @@ My daily challenge on leetcode since 2021/09/06.
 ||945|[Minimum Increment to Make Array Unique](https://leetcode.com/problems/minimum-increment-to-make-array-unique/)|Medium|
 |[📎](src/q_901_950/q0946.cc)|946|[Validate Stack Sequences](https://leetcode.com/problems/validate-stack-sequences/)|Medium|
 ||947|[Most Stones Removed with Same Row or Column](https://leetcode.com/problems/most-stones-removed-with-same-row-or-column/)|Medium|
-||948|[Bag of Tokens](https://leetcode.com/problems/bag-of-tokens/)|Medium|
+|[📎](src/q_901_950/q0948.cc)|948|[Bag of Tokens](https://leetcode.com/problems/bag-of-tokens/)|Medium|
 ||949|[Largest Time for Given Digits](https://leetcode.com/problems/largest-time-for-given-digits/)|Medium|
 ||950|[Reveal Cards In Increasing Order](https://leetcode.com/problems/reveal-cards-in-increasing-order/)|Medium|
 |[📎](src/q_951_1000/q0951.cc)|951|[Flip Equivalent Binary Trees](https://leetcode.com/problems/flip-equivalent-binary-trees/)|Medium|
@@ -2480,6 +2480,7 @@ My daily challenge on leetcode since 2021/09/06.
 
 |Time|#|</>|Question Title|Difficulty|
 |:--|--:|:-:|:--|:--|
+|2022-09-12 17:51|948|[📎](src/q_901_950/q0948.cc)|[Bag of Tokens](https://leetcode.com/problems/bag-of-tokens/)|Medium|
 |2022-09-11 14:17|1383|[📎](src/q_1351_1400/q1383.cc)|[Maximum Performance of a Team](https://leetcode.com/problems/maximum-performance-of-a-team/)|Hard|
 |2022-09-10 20:38|188|[📎](src/q_151_200/q0188.cc)|[Best Time to Buy and Sell Stock IV](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iv/)|Hard|
 |2022-09-09 15:43|1996|[📎](src/q_1951_2000/q1996.cc)|[The Number of Weak Characters in the Game](https://leetcode.com/problems/the-number-of-weak-characters-in-the-game/)|Medium|
@@ -2504,13 +2505,12 @@ My daily challenge on leetcode since 2021/09/06.
 |2022-08-29 17:47|349|[📎](src/q_301_350/q0349.cc)|[Intersection of Two Arrays](https://leetcode.com/problems/intersection-of-two-arrays/)|Easy|
 |2022-08-28 15:01|1329|[📎](src/q_1301_1350/q1329.cc)|[Sort the Matrix Diagonally](https://leetcode.com/problems/sort-the-matrix-diagonally/)|Medium|
 |2022-08-27 13:41|363|[📎](src/q_351_400/q0363.cc)|[Max Sum of Rectangle No Larger Than K](https://leetcode.com/problems/max-sum-of-rectangle-no-larger-than-k/)|Hard|
-|2022-08-26 13:11|869|[📎](src/q_851_900/q0869.cc)|[Reordered Power of 2](https://leetcode.com/problems/reordered-power-of-2/)|Medium|
 
 ## Previous Logs
 
 |Month|Submissions|Easy|Medium|Hard|
 |:--|:--|:--|:--|:--|
-|[September_2022](./assets/September_2022.md)|16|5|8|3|
+|[September_2022](./assets/September_2022.md)|17|5|9|3|
 |[August_2022](./assets/August_2022.md)|48|15|24|9|
 |[July_2022](./assets/July_2022.md)|47|6|37|4|
 |[June_2022](./assets/June_2022.md)|30|8|19|3|

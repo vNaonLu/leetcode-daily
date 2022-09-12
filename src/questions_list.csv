@@ -946,7 +946,7 @@ id,title,level,slug,paid,done
 945,Minimum Increment to Make Array Unique,2,minimum-increment-to-make-array-unique,0,0
 946,Validate Stack Sequences,2,validate-stack-sequences,0,1
 947,Most Stones Removed with Same Row or Column,2,most-stones-removed-with-same-row-or-column,0,0
-948,Bag of Tokens,2,bag-of-tokens,0,0
+948,Bag of Tokens,2,bag-of-tokens,0,1
 949,Largest Time for Given Digits,2,largest-time-for-given-digits,0,0
 950,Reveal Cards In Increasing Order,2,reveal-cards-in-increasing-order,0,0
 951,Flip Equivalent Binary Trees,2,flip-equivalent-binary-trees,0,1
