@@ -2129,7 +2129,7 @@ id,title,level,slug,paid,done
 2128,Remove All Ones With Row and Column Flips,2,remove-all-ones-with-row-and-column-flips,1,0
 2129,Capitalize the Title,1,capitalize-the-title,0,0
 2130,Maximum Twin Sum of a Linked List,2,maximum-twin-sum-of-a-linked-list,0,0
-2131,Longest Palindrome by Concatenating Two Letter Words,2,longest-palindrome-by-concatenating-two-letter-words,0,0
+2131,Longest Palindrome by Concatenating Two Letter Words,2,longest-palindrome-by-concatenating-two-letter-words,0,1
 2132,Stamping the Grid,3,stamping-the-grid,0,0
 2133,Check if Every Row and Column Contains All Numbers,1,check-if-every-row-and-column-contains-all-numbers,0,0
 2134,Minimum Swaps to Group All 1's Together II,2,minimum-swaps-to-group-all-1s-together-ii,0,1

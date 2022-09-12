@@ -2190,7 +2190,7 @@ My daily challenge on leetcode since 2021/09/06.
 |🔒|2128|[Remove All Ones With Row and Column Flips](https://leetcode.com/problems/remove-all-ones-with-row-and-column-flips/)|Medium|
 ||2129|[Capitalize the Title](https://leetcode.com/problems/capitalize-the-title/)|Easy|
 ||2130|[Maximum Twin Sum of a Linked List](https://leetcode.com/problems/maximum-twin-sum-of-a-linked-list/)|Medium|
-||2131|[Longest Palindrome by Concatenating Two Letter Words](https://leetcode.com/problems/longest-palindrome-by-concatenating-two-letter-words/)|Medium|
+|[📎](src/q_2101_2150/q2131.cc)|2131|[Longest Palindrome by Concatenating Two Letter Words](https://leetcode.com/problems/longest-palindrome-by-concatenating-two-letter-words/)|Medium|
 ||2132|[Stamping the Grid](https://leetcode.com/problems/stamping-the-grid/)|Hard|
 ||2133|[Check if Every Row and Column Contains All Numbers](https://leetcode.com/problems/check-if-every-row-and-column-contains-all-numbers/)|Easy|
 |[📎](src/q_2101_2150/q2134.cc)|2134|[Minimum Swaps to Group All 1's Together II](https://leetcode.com/problems/minimum-swaps-to-group-all-1s-together-ii/)|Medium|
@@ -2480,6 +2480,7 @@ My daily challenge on leetcode since 2021/09/06.
 
 |Time|#|</>|Question Title|Difficulty|
 |:--|--:|:-:|:--|:--|
+|2022-09-12 18:25|2131|[📎](src/q_2101_2150/q2131.cc)|[Longest Palindrome by Concatenating Two Letter Words](https://leetcode.com/problems/longest-palindrome-by-concatenating-two-letter-words/)|Medium|
 |2022-09-12 17:51|948|[📎](src/q_901_950/q0948.cc)|[Bag of Tokens](https://leetcode.com/problems/bag-of-tokens/)|Medium|
 |2022-09-11 14:17|1383|[📎](src/q_1351_1400/q1383.cc)|[Maximum Performance of a Team](https://leetcode.com/problems/maximum-performance-of-a-team/)|Hard|
 |2022-09-10 20:38|188|[📎](src/q_151_200/q0188.cc)|[Best Time to Buy and Sell Stock IV](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iv/)|Hard|
@@ -2504,13 +2505,12 @@ My daily challenge on leetcode since 2021/09/06.
 |2022-08-29 22:06|73|[📎](src/q_51_100/q0073.cc)|[Set Matrix Zeroes](https://leetcode.com/problems/set-matrix-zeroes/)|Medium|
 |2022-08-29 17:47|349|[📎](src/q_301_350/q0349.cc)|[Intersection of Two Arrays](https://leetcode.com/problems/intersection-of-two-arrays/)|Easy|
 |2022-08-28 15:01|1329|[📎](src/q_1301_1350/q1329.cc)|[Sort the Matrix Diagonally](https://leetcode.com/problems/sort-the-matrix-diagonally/)|Medium|
-|2022-08-27 13:41|363|[📎](src/q_351_400/q0363.cc)|[Max Sum of Rectangle No Larger Than K](https://leetcode.com/problems/max-sum-of-rectangle-no-larger-than-k/)|Hard|
 
 ## Previous Logs
 
 |Month|Submissions|Easy|Medium|Hard|
 |:--|:--|:--|:--|:--|
-|[September_2022](./assets/September_2022.md)|17|5|9|3|
+|[September_2022](./assets/September_2022.md)|18|5|10|3|
 |[August_2022](./assets/August_2022.md)|48|15|24|9|
 |[July_2022](./assets/July_2022.md)|47|6|37|4|
 |[June_2022](./assets/June_2022.md)|30|8|19|3|
