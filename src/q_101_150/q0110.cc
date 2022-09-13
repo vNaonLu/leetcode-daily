@@ -27,26 +27,49 @@ using namespace std;
 
 struct q110 : public ::testing::Test {
   // Leetcode answer here
+  /**
+   * Definition for a binary tree node.
+   * struct TreeNode {
+   *     int val;
+   *     TreeNode *left;
+   *     TreeNode *right;
+   *     TreeNode() : val(0), left(nullptr), right(nullptr) {}
+   *     TreeNode(int x) : val(x), left(nullptr), right(nullptr) {}
+   *     TreeNode(int x, TreeNode *left, TreeNode *right) : val(x), left(left),
+   * right(right) {}
+   * };
+   */
   class Solution {
-   private:
-    unordered_map<unsigned long, int> H;
-    int height(TreeNode* root) {
-      if (root == nullptr) return 0;
-      if (!H.count((unsigned long)root))
-        H[(unsigned long)root] = max(height(root->left), height(root->right)) + 1;
-      return H[(unsigned long)root];
-    }
-   public:
-    bool isBalanced(TreeNode* root) {
-      if (root == nullptr) return true;
-      if (root->left == nullptr) {
-        return height(root->right) <= 1;
-      } else if (root->right == nullptr) {
-        return height(root->left) <= 1;
+  private:
+    unordered_map<TreeNode *, int> memo;
+
+    int height(TreeNode *p) {
+      if (nullptr == p) {
+        return 0;
       }
-      if (!isBalanced(root->left)) return false;
-      if (!isBalanced(root->right)) return false;
-      return abs(height(root->left) - height(root->right)) <= 1;
+      auto find = memo.find(p);
+      if (find == memo.end()) {
+        return memo[p] = max(height(p->left), height(p->right)) + 1;
+      }
+      return find->second;
+    }
+
+    bool solve(TreeNode *p) {
+      if (nullptr == p) {
+        return true;
+      }
+      if (!solve(p->left) || !solve(p->right)) {
+        return false;
+      }
+      auto l_h = height(p->left);
+      auto r_h = height(p->right);
+      return abs(l_h - r_h) <= 1;
+    }
+
+  public:
+    bool isBalanced(TreeNode *root) {
+      memo.clear();
+      return solve(root);
     }
   };
 
@@ -55,7 +78,8 @@ struct q110 : public ::testing::Test {
 
 TEST_F(q110, sample_input01) {
   solution = new Solution();
-  TreeNode* root = TreeNode::generate({3, 9, 20, NULL_TREENODE, NULL_TREENODE, 15, 7});
+  TreeNode *root =
+      TreeNode::generate({3, 9, 20, NULL_TREENODE, NULL_TREENODE, 15, 7});
   bool exp = true;
   EXPECT_EQ(solution->isBalanced(root), exp);
   delete solution;
@@ -63,16 +87,17 @@ TEST_F(q110, sample_input01) {
 
 TEST_F(q110, sample_input02) {
   solution = new Solution();
-  TreeNode* root = TreeNode::generate({1, 2, 2, 3, 3, NULL_TREENODE, NULL_TREENODE, 4, 4});
+  TreeNode *root =
+      TreeNode::generate({1, 2, 2, 3, 3, NULL_TREENODE, NULL_TREENODE, 4, 4});
   bool exp = false;
   EXPECT_EQ(solution->isBalanced(root), exp);
   delete solution;
 }
 
 TEST_F(q110, sample_input03) {
-  solution = new Solution();
-  TreeNode* root = TreeNode::generate({});
-  bool exp = true;
+  solution       = new Solution();
+  TreeNode *root = TreeNode::generate({});
+  bool      exp  = true;
   EXPECT_EQ(solution->isBalanced(root), exp);
   delete solution;
 }
