@@ -564,7 +564,7 @@ My daily challenge on leetcode since 2021/09/06.
 |[📎](src/q_501_550/q0538.cc)|538|[Convert BST to Greater Tree](https://leetcode.com/problems/convert-bst-to-greater-tree/)|Medium|
 |[📎](src/q_501_550/q0539.cc)|539|[Minimum Time Difference](https://leetcode.com/problems/minimum-time-difference/)|Medium|
 |[📎](src/q_501_550/q0540.cc)|540|[Single Element in a Sorted Array](https://leetcode.com/problems/single-element-in-a-sorted-array/)|Medium|
-||541|[Reverse String II](https://leetcode.com/problems/reverse-string-ii/)|Easy|
+|[📎](src/q_501_550/q0541.cc)|541|[Reverse String II](https://leetcode.com/problems/reverse-string-ii/)|Easy|
 |[📎](src/q_501_550/q0542.cc)|542|[01 Matrix](https://leetcode.com/problems/01-matrix/)|Medium|
 |[📎](src/q_501_550/q0543.cc)|543|[Diameter of Binary Tree](https://leetcode.com/problems/diameter-of-binary-tree/)|Easy|
 |🔒|544|[Output Contest Matches](https://leetcode.com/problems/output-contest-matches/)|Medium|
@@ -2480,6 +2480,7 @@ My daily challenge on leetcode since 2021/09/06.
 
 |Time|#|</>|Question Title|Difficulty|
 |:--|--:|:-:|:--|:--|
+|2022-09-13 18:08|541|[📎](src/q_501_550/q0541.cc)|[Reverse String II](https://leetcode.com/problems/reverse-string-ii/)|Easy|
 |2022-09-12 18:25|2131|[📎](src/q_2101_2150/q2131.cc)|[Longest Palindrome by Concatenating Two Letter Words](https://leetcode.com/problems/longest-palindrome-by-concatenating-two-letter-words/)|Medium|
 |2022-09-12 17:51|948|[📎](src/q_901_950/q0948.cc)|[Bag of Tokens](https://leetcode.com/problems/bag-of-tokens/)|Medium|
 |2022-09-11 14:17|1383|[📎](src/q_1351_1400/q1383.cc)|[Maximum Performance of a Team](https://leetcode.com/problems/maximum-performance-of-a-team/)|Hard|
@@ -2504,13 +2505,12 @@ My daily challenge on leetcode since 2021/09/06.
 |2022-08-29 22:17|76|[📎](src/q_51_100/q0076.cc)|[Minimum Window Substring](https://leetcode.com/problems/minimum-window-substring/)|Hard|
 |2022-08-29 22:06|73|[📎](src/q_51_100/q0073.cc)|[Set Matrix Zeroes](https://leetcode.com/problems/set-matrix-zeroes/)|Medium|
 |2022-08-29 17:47|349|[📎](src/q_301_350/q0349.cc)|[Intersection of Two Arrays](https://leetcode.com/problems/intersection-of-two-arrays/)|Easy|
-|2022-08-28 15:01|1329|[📎](src/q_1301_1350/q1329.cc)|[Sort the Matrix Diagonally](https://leetcode.com/problems/sort-the-matrix-diagonally/)|Medium|
 
 ## Previous Logs
 
 |Month|Submissions|Easy|Medium|Hard|
 |:--|:--|:--|:--|:--|
-|[September_2022](./assets/September_2022.md)|18|5|10|3|
+|[September_2022](./assets/September_2022.md)|19|6|10|3|
 |[August_2022](./assets/August_2022.md)|48|15|24|9|
 |[July_2022](./assets/July_2022.md)|47|6|37|4|
 |[June_2022](./assets/June_2022.md)|30|8|19|3|
