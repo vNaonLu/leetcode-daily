@@ -1455,7 +1455,7 @@ id,title,level,slug,paid,done
 1454,Active Users,2,active-users,1,0
 1455,Check If a Word Occurs As a Prefix of Any Word in a Sentence,1,check-if-a-word-occurs-as-a-prefix-of-any-word-in-a-sentence,0,0
 1456,Maximum Number of Vowels in a Substring of Given Length,2,maximum-number-of-vowels-in-a-substring-of-given-length,0,0
-1457,Pseudo-Palindromic Paths in a Binary Tree,2,pseudo-palindromic-paths-in-a-binary-tree,0,0
+1457,Pseudo-Palindromic Paths in a Binary Tree,2,pseudo-palindromic-paths-in-a-binary-tree,0,1
 1458,Max Dot Product of Two Subsequences,3,max-dot-product-of-two-subsequences,0,0
 1459,Rectangles Area,2,rectangles-area,1,0
 1460,Make Two Arrays Equal by Reversing Sub-arrays,1,make-two-arrays-equal-by-reversing-sub-arrays,0,0
