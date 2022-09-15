@@ -2066,7 +2066,7 @@ My daily challenge on leetcode since 2021/09/06.
 |🔒|2004|[The Number of Seniors and Juniors to Join the Company](https://leetcode.com/problems/the-number-of-seniors-and-juniors-to-join-the-company/)|Hard|
 |🔒|2005|[Subtree Removal Game with Fibonacci Tree](https://leetcode.com/problems/subtree-removal-game-with-fibonacci-tree/)|Hard|
 |[📎](src/q_2001_2050/q2006.cc)|2006|[Count Number of Pairs With Absolute Difference K](https://leetcode.com/problems/count-number-of-pairs-with-absolute-difference-k/)|Easy|
-||2007|[Find Original Array From Doubled Array](https://leetcode.com/problems/find-original-array-from-doubled-array/)|Medium|
+|[📎](src/q_2001_2050/q2007.cc)|2007|[Find Original Array From Doubled Array](https://leetcode.com/problems/find-original-array-from-doubled-array/)|Medium|
 ||2008|[Maximum Earnings From Taxi](https://leetcode.com/problems/maximum-earnings-from-taxi/)|Medium|
 ||2009|[Minimum Number of Operations to Make Array Continuous](https://leetcode.com/problems/minimum-number-of-operations-to-make-array-continuous/)|Hard|
 |🔒|2010|[The Number of Seniors and Juniors to Join the Company II](https://leetcode.com/problems/the-number-of-seniors-and-juniors-to-join-the-company-ii/)|Hard|
@@ -2312,7 +2312,7 @@ My daily challenge on leetcode since 2021/09/06.
 ||2250|[Count Number of Rectangles Containing Each Point](https://leetcode.com/problems/count-number-of-rectangles-containing-each-point/)|Medium|
 </details>
 <details>
-  <summary>### 2251 ~ 2407</summary>
+  <summary>### 2251 ~ 2408</summary>
 
 |</>|#|Solution Title|Difficulty|
 |:-:|--:|:--|:--|
@@ -2473,6 +2473,7 @@ My daily challenge on leetcode since 2021/09/06.
 ||2405|[Optimal Partition of String](https://leetcode.com/problems/optimal-partition-of-string/)|Medium|
 ||2406|[Divide Intervals Into Minimum Number of Groups](https://leetcode.com/problems/divide-intervals-into-minimum-number-of-groups/)|Medium|
 ||2407|[Longest Increasing Subsequence II](https://leetcode.com/problems/longest-increasing-subsequence-ii/)|Hard|
+|🔒|2408|[Design SQL](https://leetcode.com/problems/design-sql/)|Medium|
 </details>
 
 ---
@@ -2480,6 +2481,7 @@ My daily challenge on leetcode since 2021/09/06.
 
 |Time|#|</>|Question Title|Difficulty|
 |:--|--:|:-:|:--|:--|
+|2022-09-15 20:09|2007|[📎](src/q_2001_2050/q2007.cc)|[Find Original Array From Doubled Array](https://leetcode.com/problems/find-original-array-from-doubled-array/)|Medium|
 |2022-09-14 15:01|1457|[📎](src/q_1451_1500/q1457.cc)|[Pseudo-Palindromic Paths in a Binary Tree](https://leetcode.com/problems/pseudo-palindromic-paths-in-a-binary-tree/)|Medium|
 |2022-09-13 18:08|541|[📎](src/q_501_550/q0541.cc)|[Reverse String II](https://leetcode.com/problems/reverse-string-ii/)|Easy|
 |2022-09-12 18:25|2131|[📎](src/q_2101_2150/q2131.cc)|[Longest Palindrome by Concatenating Two Letter Words](https://leetcode.com/problems/longest-palindrome-by-concatenating-two-letter-words/)|Medium|
@@ -2504,13 +2506,12 @@ My daily challenge on leetcode since 2021/09/06.
 |2022-08-31 18:11|412|[📎](src/q_401_450/q0412.cc)|[Fizz Buzz](https://leetcode.com/problems/fizz-buzz/)|Easy|
 |2022-08-30 18:15|434|[📎](src/q_401_450/q0434.cc)|[Number of Segments in a String](https://leetcode.com/problems/number-of-segments-in-a-string/)|Easy|
 |2022-08-29 22:17|76|[📎](src/q_51_100/q0076.cc)|[Minimum Window Substring](https://leetcode.com/problems/minimum-window-substring/)|Hard|
-|2022-08-29 22:06|73|[📎](src/q_51_100/q0073.cc)|[Set Matrix Zeroes](https://leetcode.com/problems/set-matrix-zeroes/)|Medium|
 
 ## Previous Logs
 
 |Month|Submissions|Easy|Medium|Hard|
 |:--|:--|:--|:--|:--|
-|[September_2022](./assets/September_2022.md)|20|6|11|3|
+|[September_2022](./assets/September_2022.md)|21|6|12|3|
 |[August_2022](./assets/August_2022.md)|48|15|24|9|
 |[July_2022](./assets/July_2022.md)|47|6|37|4|
 |[June_2022](./assets/June_2022.md)|30|8|19|3|
