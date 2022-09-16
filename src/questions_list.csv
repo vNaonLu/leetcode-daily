@@ -1768,7 +1768,7 @@ id,title,level,slug,paid,done
 1767,Find the Subtasks That Did Not Execute,3,find-the-subtasks-that-did-not-execute,1,0
 1768,Merge Strings Alternately,1,merge-strings-alternately,0,1
 1769,Minimum Number of Operations to Move All Balls to Each Box,2,minimum-number-of-operations-to-move-all-balls-to-each-box,0,0
-1770,Maximum Score from Performing Multiplication Operations,2,maximum-score-from-performing-multiplication-operations,0,0
+1770,Maximum Score from Performing Multiplication Operations,2,maximum-score-from-performing-multiplication-operations,0,1
 1771,Maximize Palindrome Length From Subsequences,3,maximize-palindrome-length-from-subsequences,0,0
 1772,Sort Features by Popularity,2,sort-features-by-popularity,1,0
 1773,Count Items Matching a Rule,1,count-items-matching-a-rule,0,0
