@@ -353,7 +353,7 @@ My daily challenge on leetcode since 2021/09/06.
 |🔒|333|[Largest BST Subtree](https://leetcode.com/problems/largest-bst-subtree/)|Medium|
 |[📎](src/q_301_350/q0334.cc)|334|[Increasing Triplet Subsequence](https://leetcode.com/problems/increasing-triplet-subsequence/)|Medium|
 ||335|[Self Crossing](https://leetcode.com/problems/self-crossing/)|Hard|
-||336|[Palindrome Pairs](https://leetcode.com/problems/palindrome-pairs/)|Hard|
+|[📎](src/q_301_350/q0336.cc)|336|[Palindrome Pairs](https://leetcode.com/problems/palindrome-pairs/)|Hard|
 |[📎](src/q_301_350/q0337.cc)|337|[House Robber III](https://leetcode.com/problems/house-robber-iii/)|Medium|
 |[📎](src/q_301_350/q0338.cc)|338|[Counting Bits](https://leetcode.com/problems/counting-bits/)|Easy|
 |🔒|339|[Nested List Weight Sum](https://leetcode.com/problems/nested-list-weight-sum/)|Medium|
@@ -2481,6 +2481,7 @@ My daily challenge on leetcode since 2021/09/06.
 
 |Time|#|</>|Question Title|Difficulty|
 |:--|--:|:-:|:--|:--|
+|2022-09-17 13:41|336|[📎](src/q_301_350/q0336.cc)|[Palindrome Pairs](https://leetcode.com/problems/palindrome-pairs/)|Hard|
 |2022-09-16 17:52|1770|[📎](src/q_1751_1800/q1770.cc)|[Maximum Score from Performing Multiplication Operations](https://leetcode.com/problems/maximum-score-from-performing-multiplication-operations/)|Medium|
 |2022-09-15 20:09|2007|[📎](src/q_2001_2050/q2007.cc)|[Find Original Array From Doubled Array](https://leetcode.com/problems/find-original-array-from-doubled-array/)|Medium|
 |2022-09-14 15:01|1457|[📎](src/q_1451_1500/q1457.cc)|[Pseudo-Palindromic Paths in a Binary Tree](https://leetcode.com/problems/pseudo-palindromic-paths-in-a-binary-tree/)|Medium|
@@ -2505,13 +2506,12 @@ My daily challenge on leetcode since 2021/09/06.
 |2022-09-01 00:35|687|[📎](src/q_651_700/q0687.cc)|[Longest Univalue Path](https://leetcode.com/problems/longest-univalue-path/)|Medium|
 |2022-08-31 18:23|414|[📎](src/q_401_450/q0414.cc)|[Third Maximum Number](https://leetcode.com/problems/third-maximum-number/)|Easy|
 |2022-08-31 18:11|412|[📎](src/q_401_450/q0412.cc)|[Fizz Buzz](https://leetcode.com/problems/fizz-buzz/)|Easy|
-|2022-08-30 18:15|434|[📎](src/q_401_450/q0434.cc)|[Number of Segments in a String](https://leetcode.com/problems/number-of-segments-in-a-string/)|Easy|
 
 ## Previous Logs
 
 |Month|Submissions|Easy|Medium|Hard|
 |:--|:--|:--|:--|:--|
-|[September_2022](./assets/September_2022.md)|22|6|13|3|
+|[September_2022](./assets/September_2022.md)|23|6|13|4|
 |[August_2022](./assets/August_2022.md)|48|15|24|9|
 |[July_2022](./assets/July_2022.md)|47|6|37|4|
 |[June_2022](./assets/June_2022.md)|30|8|19|3|
