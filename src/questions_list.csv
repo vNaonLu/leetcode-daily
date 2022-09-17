@@ -334,7 +334,7 @@ id,title,level,slug,paid,done
 333,Largest BST Subtree,2,largest-bst-subtree,1,0
 334,Increasing Triplet Subsequence,2,increasing-triplet-subsequence,0,1
 335,Self Crossing,3,self-crossing,0,0
-336,Palindrome Pairs,3,palindrome-pairs,0,0
+336,Palindrome Pairs,3,palindrome-pairs,0,1
 337,House Robber III,2,house-robber-iii,0,1
 338,Counting Bits,1,counting-bits,0,1
 339,Nested List Weight Sum,2,nested-list-weight-sum,1,0
@@ -539,7 +539,7 @@ id,title,level,slug,paid,done
 538,Convert BST to Greater Tree,2,convert-bst-to-greater-tree,0,1
 539,Minimum Time Difference,2,minimum-time-difference,0,1
 540,Single Element in a Sorted Array,2,single-element-in-a-sorted-array,0,1
-541,Reverse String II,1,reverse-string-ii,0,0
+541,Reverse String II,1,reverse-string-ii,0,1
 542,01 Matrix,2,01-matrix,0,1
 543,Diameter of Binary Tree,1,diameter-of-binary-tree,0,1
 544,Output Contest Matches,2,output-contest-matches,1,0
@@ -946,7 +946,7 @@ id,title,level,slug,paid,done
 945,Minimum Increment to Make Array Unique,2,minimum-increment-to-make-array-unique,0,0
 946,Validate Stack Sequences,2,validate-stack-sequences,0,1
 947,Most Stones Removed with Same Row or Column,2,most-stones-removed-with-same-row-or-column,0,0
-948,Bag of Tokens,2,bag-of-tokens,0,0
+948,Bag of Tokens,2,bag-of-tokens,0,1
 949,Largest Time for Given Digits,2,largest-time-for-given-digits,0,0
 950,Reveal Cards In Increasing Order,2,reveal-cards-in-increasing-order,0,0
 951,Flip Equivalent Binary Trees,2,flip-equivalent-binary-trees,0,1
@@ -1381,7 +1381,7 @@ id,title,level,slug,paid,done
 1380,Lucky Numbers in a Matrix,1,lucky-numbers-in-a-matrix,0,0
 1381,Design a Stack With Increment Operation,2,design-a-stack-with-increment-operation,0,0
 1382,Balance a Binary Search Tree,2,balance-a-binary-search-tree,0,1
-1383,Maximum Performance of a Team,3,maximum-performance-of-a-team,0,0
+1383,Maximum Performance of a Team,3,maximum-performance-of-a-team,0,1
 1384,Total Sales Amount by Year,3,total-sales-amount-by-year,1,0
 1385,Find the Distance Value Between Two Arrays,1,find-the-distance-value-between-two-arrays,0,1
 1386,Cinema Seat Allocation,2,cinema-seat-allocation,0,0
@@ -1455,7 +1455,7 @@ id,title,level,slug,paid,done
 1454,Active Users,2,active-users,1,0
 1455,Check If a Word Occurs As a Prefix of Any Word in a Sentence,1,check-if-a-word-occurs-as-a-prefix-of-any-word-in-a-sentence,0,0
 1456,Maximum Number of Vowels in a Substring of Given Length,2,maximum-number-of-vowels-in-a-substring-of-given-length,0,0
-1457,Pseudo-Palindromic Paths in a Binary Tree,2,pseudo-palindromic-paths-in-a-binary-tree,0,0
+1457,Pseudo-Palindromic Paths in a Binary Tree,2,pseudo-palindromic-paths-in-a-binary-tree,0,1
 1458,Max Dot Product of Two Subsequences,3,max-dot-product-of-two-subsequences,0,0
 1459,Rectangles Area,2,rectangles-area,1,0
 1460,Make Two Arrays Equal by Reversing Sub-arrays,1,make-two-arrays-equal-by-reversing-sub-arrays,0,0
@@ -1768,7 +1768,7 @@ id,title,level,slug,paid,done
 1767,Find the Subtasks That Did Not Execute,3,find-the-subtasks-that-did-not-execute,1,0
 1768,Merge Strings Alternately,1,merge-strings-alternately,0,1
 1769,Minimum Number of Operations to Move All Balls to Each Box,2,minimum-number-of-operations-to-move-all-balls-to-each-box,0,0
-1770,Maximum Score from Performing Multiplication Operations,2,maximum-score-from-performing-multiplication-operations,0,0
+1770,Maximum Score from Performing Multiplication Operations,2,maximum-score-from-performing-multiplication-operations,0,1
 1771,Maximize Palindrome Length From Subsequences,3,maximize-palindrome-length-from-subsequences,0,0
 1772,Sort Features by Popularity,2,sort-features-by-popularity,1,0
 1773,Count Items Matching a Rule,1,count-items-matching-a-rule,0,0
@@ -2005,7 +2005,7 @@ id,title,level,slug,paid,done
 2004,The Number of Seniors and Juniors to Join the Company,3,the-number-of-seniors-and-juniors-to-join-the-company,1,0
 2005,Subtree Removal Game with Fibonacci Tree,3,subtree-removal-game-with-fibonacci-tree,1,0
 2006,Count Number of Pairs With Absolute Difference K,1,count-number-of-pairs-with-absolute-difference-k,0,1
-2007,Find Original Array From Doubled Array,2,find-original-array-from-doubled-array,0,0
+2007,Find Original Array From Doubled Array,2,find-original-array-from-doubled-array,0,1
 2008,Maximum Earnings From Taxi,2,maximum-earnings-from-taxi,0,0
 2009,Minimum Number of Operations to Make Array Continuous,3,minimum-number-of-operations-to-make-array-continuous,0,0
 2010,The Number of Seniors and Juniors to Join the Company II,3,the-number-of-seniors-and-juniors-to-join-the-company-ii,1,0
@@ -2129,7 +2129,7 @@ id,title,level,slug,paid,done
 2128,Remove All Ones With Row and Column Flips,2,remove-all-ones-with-row-and-column-flips,1,0
 2129,Capitalize the Title,1,capitalize-the-title,0,0
 2130,Maximum Twin Sum of a Linked List,2,maximum-twin-sum-of-a-linked-list,0,0
-2131,Longest Palindrome by Concatenating Two Letter Words,2,longest-palindrome-by-concatenating-two-letter-words,0,0
+2131,Longest Palindrome by Concatenating Two Letter Words,2,longest-palindrome-by-concatenating-two-letter-words,0,1
 2132,Stamping the Grid,3,stamping-the-grid,0,0
 2133,Check if Every Row and Column Contains All Numbers,1,check-if-every-row-and-column-contains-all-numbers,0,0
 2134,Minimum Swaps to Group All 1's Together II,2,minimum-swaps-to-group-all-1s-together-ii,0,1
@@ -2402,3 +2402,8 @@ id,title,level,slug,paid,done
 2401,Longest Nice Subarray,2,longest-nice-subarray,0,0
 2402,Meeting Rooms III,3,meeting-rooms-iii,0,0
 2403,Minimum Time to Kill All Monsters,3,minimum-time-to-kill-all-monsters,1,0
+2404,Most Frequent Even Element,1,most-frequent-even-element,0,0
+2405,Optimal Partition of String,2,optimal-partition-of-string,0,0
+2406,Divide Intervals Into Minimum Number of Groups,2,divide-intervals-into-minimum-number-of-groups,0,0
+2407,Longest Increasing Subsequence II,3,longest-increasing-subsequence-ii,0,0
+2408,Design SQL,2,design-sql,1,0

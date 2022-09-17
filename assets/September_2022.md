@@ -2,6 +2,13 @@
 
 ||#|</>|Question Title|Difficulty|
 |:--|--:|:-:|:--|:--|
+|Day 17|336|[📎](../src/q_301_350/q0336.cc)|[Palindrome Pairs](https://leetcode.com/problems/palindrome-pairs/)|Hard|
+|Day 16|1770|[📎](../src/q_1751_1800/q1770.cc)|[Maximum Score from Performing Multiplication Operations](https://leetcode.com/problems/maximum-score-from-performing-multiplication-operations/)|Medium|
+|Day 15|2007|[📎](../src/q_2001_2050/q2007.cc)|[Find Original Array From Doubled Array](https://leetcode.com/problems/find-original-array-from-doubled-array/)|Medium|
+|Day 14|1457|[📎](../src/q_1451_1500/q1457.cc)|[Pseudo-Palindromic Paths in a Binary Tree](https://leetcode.com/problems/pseudo-palindromic-paths-in-a-binary-tree/)|Medium|
+|Day 13|541|[📎](../src/q_501_550/q0541.cc)|[Reverse String II](https://leetcode.com/problems/reverse-string-ii/)|Easy|
+|Day 12|948<br>2131|[📎](../src/q_901_950/q0948.cc)<br>[📎](../src/q_2101_2150/q2131.cc)|[Bag of Tokens](https://leetcode.com/problems/bag-of-tokens/)<br>[Longest Palindrome by Concatenating Two Letter Words](https://leetcode.com/problems/longest-palindrome-by-concatenating-two-letter-words/)|Medium<br>Medium|
+|Day 11|1383|[📎](../src/q_1351_1400/q1383.cc)|[Maximum Performance of a Team](https://leetcode.com/problems/maximum-performance-of-a-team/)|Hard|
 |Day 10|188|[📎](../src/q_151_200/q0188.cc)|[Best Time to Buy and Sell Stock IV](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iv/)|Hard|
 |Day 9|1996|[📎](../src/q_1951_2000/q1996.cc)|[The Number of Weak Characters in the Game](https://leetcode.com/problems/the-number-of-weak-characters-in-the-game/)|Medium|
 |Day 8|495<br>500<br>1706|[📎](../src/q_451_500/q0495.cc)<br>[📎](../src/q_451_500/q0500.cc)<br>[📎](../src/q_1701_1750/q1706.cc)|[Teemo Attacking](https://leetcode.com/problems/teemo-attacking/)<br>[Keyboard Row](https://leetcode.com/problems/keyboard-row/)<br>[Where Will the Ball Fall](https://leetcode.com/problems/where-will-the-ball-fall/)|Easy<br>Easy<br>Medium|

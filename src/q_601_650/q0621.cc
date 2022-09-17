@@ -37,30 +37,45 @@ using namespace std;
 struct q621 : public ::testing::Test {
   // Leetcode answer here
   class Solution {
-   public:
+  private:
+    template <typename Iterator>
+    priority_queue<int> toFreqPriorityQueue(Iterator beg, Iterator end) {
+      auto freq = unordered_map<char, int>();
+      auto pq   = priority_queue<int>();
+      while (beg != end) {
+        ++freq[*beg++];
+      }
+      for (auto &p : freq) {
+        pq.emplace(p.second);
+      }
+      return pq;
+    }
+
+  public:
     int leastInterval(vector<char> &tasks, int n) {
-      unordered_map<char, int> cnt;
-      priority_queue<int> pq;
-      for (const auto &x : tasks) ++cnt[x];
-      for (const auto &x : cnt) pq.push(x.second);
-      int res = 0;
+      auto pq  = toFreqPriorityQueue(tasks.begin(), tasks.end());
+      auto res = (int)0;
       while (!pq.empty()) {
-        ++res;
-        int top = pq.top();
-        pq.pop();
-        top -= 1;
-        vector<int> v;
-        if (top > 0) v.emplace_back(top);
-        int i = 0;
-        while (i < n && !pq.empty()) {
-          if (pq.top() > 1)
-            v.emplace_back(pq.top() - 1);
+        auto tmp = vector<int>();
+        auto cnt = (int)n + 1;
+        /// at most (n + 1) loop for 1 circle
+        while (!pq.empty() && cnt > 0) {
+          if (pq.top() > 1) {
+            tmp.emplace_back(pq.top() - 1);
+          }
           pq.pop();
           ++res;
-          ++i;
+          --cnt;
         }
-        if (i < n && v.size() > 0) res += n - i;
-        for (int i = 0; i < v.size(); ++i) pq.push(v[i]);
+
+        if (cnt > 0 && tmp.size() > 0) {
+          /// idle
+          res += cnt;
+        }
+
+        for (auto x : tmp) {
+          pq.emplace(x);
+        }
       }
       return res;
     }
@@ -70,28 +85,29 @@ struct q621 : public ::testing::Test {
 };
 
 TEST_F(q621, sample_input01) {
-  solution = new Solution();
+  solution           = new Solution();
   vector<char> tasks = {'A', 'A', 'A', 'B', 'B', 'B'};
-  int n = 2;
-  int exp = 8;
+  int          n     = 2;
+  int          exp   = 8;
   EXPECT_EQ(solution->leastInterval(tasks, n), exp);
   delete solution;
 }
 
 TEST_F(q621, sample_input02) {
-  solution = new Solution();
+  solution           = new Solution();
   vector<char> tasks = {'A', 'A', 'A', 'B', 'B', 'B'};
-  int n = 0;
-  int exp = 6;
+  int          n     = 0;
+  int          exp   = 6;
   EXPECT_EQ(solution->leastInterval(tasks, n), exp);
   delete solution;
 }
 
 TEST_F(q621, sample_input03) {
-  solution = new Solution();
-  vector<char> tasks = {'A', 'A', 'A', 'A', 'A', 'A', 'B', 'C', 'D', 'E', 'F', 'G'};
-  int n = 2;
-  int exp = 16;
+  solution           = new Solution();
+  vector<char> tasks = {'A', 'A', 'A', 'A', 'A', 'A',
+                        'B', 'C', 'D', 'E', 'F', 'G'};
+  int          n     = 2;
+  int          exp   = 16;
   EXPECT_EQ(solution->leastInterval(tasks, n), exp);
   delete solution;
 }
