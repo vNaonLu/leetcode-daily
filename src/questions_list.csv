@@ -813,7 +813,7 @@ id,title,level,slug,paid,done
 812,Largest Triangle Area,1,largest-triangle-area,0,0
 813,Largest Sum of Averages,2,largest-sum-of-averages,0,0
 814,Binary Tree Pruning,2,binary-tree-pruning,0,1
-815,Bus Routes,3,bus-routes,0,0
+815,Bus Routes,3,bus-routes,0,1
 816,Ambiguous Coordinates,2,ambiguous-coordinates,0,0
 817,Linked List Components,2,linked-list-components,0,0
 818,Race Car,3,race-car,0,0
@@ -1458,7 +1458,7 @@ id,title,level,slug,paid,done
 1457,Pseudo-Palindromic Paths in a Binary Tree,2,pseudo-palindromic-paths-in-a-binary-tree,0,1
 1458,Max Dot Product of Two Subsequences,3,max-dot-product-of-two-subsequences,0,0
 1459,Rectangles Area,2,rectangles-area,1,0
-1460,Make Two Arrays Equal by Reversing Sub-arrays,1,make-two-arrays-equal-by-reversing-sub-arrays,0,0
+1460,Make Two Arrays Equal by Reversing Subarrays,1,make-two-arrays-equal-by-reversing-subarrays,0,0
 1461,Check If a String Contains All Binary Codes of Size K,2,check-if-a-string-contains-all-binary-codes-of-size-k,0,1
 1462,Course Schedule IV,2,course-schedule-iv,0,1
 1463,Cherry Pickup II,3,cherry-pickup-ii,0,1
@@ -2407,3 +2407,7 @@ id,title,level,slug,paid,done
 2406,Divide Intervals Into Minimum Number of Groups,2,divide-intervals-into-minimum-number-of-groups,0,0
 2407,Longest Increasing Subsequence II,3,longest-increasing-subsequence-ii,0,0
 2408,Design SQL,2,design-sql,1,0
+2409,Count Days Spent Together,1,count-days-spent-together,0,0
+2410,Maximum Matching of Players With Trainers,2,maximum-matching-of-players-with-trainers,0,0
+2411,Smallest Subarrays With Maximum Bitwise OR,2,smallest-subarrays-with-maximum-bitwise-or,0,0
+2412,Minimum Money Required Before Transactions,3,minimum-money-required-before-transactions,0,0
