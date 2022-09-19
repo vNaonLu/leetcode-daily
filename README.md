@@ -632,7 +632,7 @@ My daily challenge on leetcode since 2021/09/06.
 |[📎](src/q_601_650/q0606.cc)|606|[Construct String from Binary Tree](https://leetcode.com/problems/construct-string-from-binary-tree/)|Easy|
 ||607|[Sales Person](https://leetcode.com/problems/sales-person/)|Easy|
 ||608|[Tree Node](https://leetcode.com/problems/tree-node/)|Medium|
-||609|[Find Duplicate File in System](https://leetcode.com/problems/find-duplicate-file-in-system/)|Medium|
+|[📎](src/q_601_650/q0609.cc)|609|[Find Duplicate File in System](https://leetcode.com/problems/find-duplicate-file-in-system/)|Medium|
 |🔒|610|[Triangle Judgement](https://leetcode.com/problems/triangle-judgement/)|Easy|
 |[📎](src/q_601_650/q0611.cc)|611|[Valid Triangle Number](https://leetcode.com/problems/valid-triangle-number/)|Medium|
 |🔒|612|[Shortest Distance in a Plane](https://leetcode.com/problems/shortest-distance-in-a-plane/)|Medium|
@@ -2312,7 +2312,7 @@ My daily challenge on leetcode since 2021/09/06.
 ||2250|[Count Number of Rectangles Containing Each Point](https://leetcode.com/problems/count-number-of-rectangles-containing-each-point/)|Medium|
 </details>
 <details>
-  <summary>### 2251 ~ 2412</summary>
+  <summary>### 2251 ~ 2416</summary>
 
 |</>|#|Solution Title|Difficulty|
 |:-:|--:|:--|:--|
@@ -2478,6 +2478,10 @@ My daily challenge on leetcode since 2021/09/06.
 ||2410|[Maximum Matching of Players With Trainers](https://leetcode.com/problems/maximum-matching-of-players-with-trainers/)|Medium|
 ||2411|[Smallest Subarrays With Maximum Bitwise OR](https://leetcode.com/problems/smallest-subarrays-with-maximum-bitwise-or/)|Medium|
 ||2412|[Minimum Money Required Before Transactions](https://leetcode.com/problems/minimum-money-required-before-transactions/)|Hard|
+||2413|[Smallest Even Multiple](https://leetcode.com/problems/smallest-even-multiple/)|Easy|
+||2414|[Length of the Longest Alphabetical Continuous Substring](https://leetcode.com/problems/length-of-the-longest-alphabetical-continuous-substring/)|Medium|
+||2415|[Reverse Odd Levels of Binary Tree](https://leetcode.com/problems/reverse-odd-levels-of-binary-tree/)|Medium|
+||2416|[Sum of Prefix Scores of Strings](https://leetcode.com/problems/sum-of-prefix-scores-of-strings/)|Hard|
 </details>
 
 ---
@@ -2485,6 +2489,7 @@ My daily challenge on leetcode since 2021/09/06.
 
 |Time|#|</>|Question Title|Difficulty|
 |:--|--:|:-:|:--|:--|
+|2022-09-19 17:46|609|[📎](src/q_601_650/q0609.cc)|[Find Duplicate File in System](https://leetcode.com/problems/find-duplicate-file-in-system/)|Medium|
 |2022-09-18 14:27|815|[📎](src/q_801_850/q0815.cc)|[Bus Routes](https://leetcode.com/problems/bus-routes/)|Hard|
 |2022-09-17 13:41|336|[📎](src/q_301_350/q0336.cc)|[Palindrome Pairs](https://leetcode.com/problems/palindrome-pairs/)|Hard|
 |2022-09-16 17:52|1770|[📎](src/q_1751_1800/q1770.cc)|[Maximum Score from Performing Multiplication Operations](https://leetcode.com/problems/maximum-score-from-performing-multiplication-operations/)|Medium|
@@ -2509,13 +2514,12 @@ My daily challenge on leetcode since 2021/09/06.
 |2022-09-02 20:17|637|[📎](src/q_601_650/q0637.cc)|[Average of Levels in Binary Tree](https://leetcode.com/problems/average-of-levels-in-binary-tree/)|Easy|
 |2022-09-01 17:43|1448|[📎](src/q_1401_1450/q1448.cc)|[Count Good Nodes in Binary Tree](https://leetcode.com/problems/count-good-nodes-in-binary-tree/)|Medium|
 |2022-09-01 00:35|687|[📎](src/q_651_700/q0687.cc)|[Longest Univalue Path](https://leetcode.com/problems/longest-univalue-path/)|Medium|
-|2022-08-31 18:23|414|[📎](src/q_401_450/q0414.cc)|[Third Maximum Number](https://leetcode.com/problems/third-maximum-number/)|Easy|
 
 ## Previous Logs
 
 |Month|Submissions|Easy|Medium|Hard|
 |:--|:--|:--|:--|:--|
-|[September_2022](./assets/September_2022.md)|24|6|13|5|
+|[September_2022](./assets/September_2022.md)|25|6|14|5|
 |[August_2022](./assets/August_2022.md)|48|15|24|9|
 |[July_2022](./assets/July_2022.md)|47|6|37|4|
 |[June_2022](./assets/June_2022.md)|30|8|19|3|
