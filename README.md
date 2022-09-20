@@ -741,7 +741,7 @@ My daily challenge on leetcode since 2021/09/06.
 ||715|[Range Module](https://leetcode.com/problems/range-module/)|Hard|
 |🔒|716|[Max Stack](https://leetcode.com/problems/max-stack/)|Hard|
 |[📎](src/q_701_750/q0717.cc)|717|[1-bit and 2-bit Characters](https://leetcode.com/problems/1-bit-and-2-bit-characters/)|Easy|
-||718|[Maximum Length of Repeated Subarray](https://leetcode.com/problems/maximum-length-of-repeated-subarray/)|Medium|
+|[📎](src/q_701_750/q0718.cc)|718|[Maximum Length of Repeated Subarray](https://leetcode.com/problems/maximum-length-of-repeated-subarray/)|Medium|
 ||719|[Find K-th Smallest Pair Distance](https://leetcode.com/problems/find-k-th-smallest-pair-distance/)|Hard|
 ||720|[Longest Word in Dictionary](https://leetcode.com/problems/longest-word-in-dictionary/)|Medium|
 |[📎](src/q_701_750/q0721.cc)|721|[Accounts Merge](https://leetcode.com/problems/accounts-merge/)|Medium|
@@ -2489,6 +2489,7 @@ My daily challenge on leetcode since 2021/09/06.
 
 |Time|#|</>|Question Title|Difficulty|
 |:--|--:|:-:|:--|:--|
+|2022-09-20 17:12|718|[📎](src/q_701_750/q0718.cc)|[Maximum Length of Repeated Subarray](https://leetcode.com/problems/maximum-length-of-repeated-subarray/)|Medium|
 |2022-09-19 17:46|609|[📎](src/q_601_650/q0609.cc)|[Find Duplicate File in System](https://leetcode.com/problems/find-duplicate-file-in-system/)|Medium|
 |2022-09-18 14:27|815|[📎](src/q_801_850/q0815.cc)|[Bus Routes](https://leetcode.com/problems/bus-routes/)|Hard|
 |2022-09-17 13:41|336|[📎](src/q_301_350/q0336.cc)|[Palindrome Pairs](https://leetcode.com/problems/palindrome-pairs/)|Hard|
@@ -2513,13 +2514,12 @@ My daily challenge on leetcode since 2021/09/06.
 |2022-09-03 13:20|967|[📎](src/q_951_1000/q0967.cc)|[Numbers With Same Consecutive Differences](https://leetcode.com/problems/numbers-with-same-consecutive-differences/)|Medium|
 |2022-09-02 20:17|637|[📎](src/q_601_650/q0637.cc)|[Average of Levels in Binary Tree](https://leetcode.com/problems/average-of-levels-in-binary-tree/)|Easy|
 |2022-09-01 17:43|1448|[📎](src/q_1401_1450/q1448.cc)|[Count Good Nodes in Binary Tree](https://leetcode.com/problems/count-good-nodes-in-binary-tree/)|Medium|
-|2022-09-01 00:35|687|[📎](src/q_651_700/q0687.cc)|[Longest Univalue Path](https://leetcode.com/problems/longest-univalue-path/)|Medium|
 
 ## Previous Logs
 
 |Month|Submissions|Easy|Medium|Hard|
 |:--|:--|:--|:--|:--|
-|[September_2022](./assets/September_2022.md)|25|6|14|5|
+|[September_2022](./assets/September_2022.md)|26|6|15|5|
 |[August_2022](./assets/August_2022.md)|48|15|24|9|
 |[July_2022](./assets/July_2022.md)|47|6|37|4|
 |[June_2022](./assets/June_2022.md)|30|8|19|3|
