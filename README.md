@@ -1014,7 +1014,7 @@ My daily challenge on leetcode since 2021/09/06.
 ||982|[Triples with Bitwise AND Equal To Zero](https://leetcode.com/problems/triples-with-bitwise-and-equal-to-zero/)|Hard|
 |[📎](src/q_951_1000/q0983.cc)|983|[Minimum Cost For Tickets](https://leetcode.com/problems/minimum-cost-for-tickets/)|Medium|
 ||984|[String Without AAA or BBB](https://leetcode.com/problems/string-without-aaa-or-bbb/)|Medium|
-||985|[Sum of Even Numbers After Queries](https://leetcode.com/problems/sum-of-even-numbers-after-queries/)|Medium|
+|[📎](src/q_951_1000/q0985.cc)|985|[Sum of Even Numbers After Queries](https://leetcode.com/problems/sum-of-even-numbers-after-queries/)|Medium|
 |[📎](src/q_951_1000/q0986.cc)|986|[Interval List Intersections](https://leetcode.com/problems/interval-list-intersections/)|Medium|
 |[📎](src/q_951_1000/q0987.cc)|987|[Vertical Order Traversal of a Binary Tree](https://leetcode.com/problems/vertical-order-traversal-of-a-binary-tree/)|Hard|
 ||988|[Smallest String Starting From Leaf](https://leetcode.com/problems/smallest-string-starting-from-leaf/)|Medium|
@@ -2489,6 +2489,7 @@ My daily challenge on leetcode since 2021/09/06.
 
 |Time|#|</>|Question Title|Difficulty|
 |:--|--:|:-:|:--|:--|
+|2022-09-21 22:10|985|[📎](src/q_951_1000/q0985.cc)|[Sum of Even Numbers After Queries](https://leetcode.com/problems/sum-of-even-numbers-after-queries/)|Medium|
 |2022-09-20 17:12|718|[📎](src/q_701_750/q0718.cc)|[Maximum Length of Repeated Subarray](https://leetcode.com/problems/maximum-length-of-repeated-subarray/)|Medium|
 |2022-09-19 17:46|609|[📎](src/q_601_650/q0609.cc)|[Find Duplicate File in System](https://leetcode.com/problems/find-duplicate-file-in-system/)|Medium|
 |2022-09-18 14:27|815|[📎](src/q_801_850/q0815.cc)|[Bus Routes](https://leetcode.com/problems/bus-routes/)|Hard|
@@ -2513,13 +2514,12 @@ My daily challenge on leetcode since 2021/09/06.
 |2022-09-04 15:37|424|[📎](src/q_401_450/q0424.cc)|[Longest Repeating Character Replacement](https://leetcode.com/problems/longest-repeating-character-replacement/)|Medium|
 |2022-09-03 13:20|967|[📎](src/q_951_1000/q0967.cc)|[Numbers With Same Consecutive Differences](https://leetcode.com/problems/numbers-with-same-consecutive-differences/)|Medium|
 |2022-09-02 20:17|637|[📎](src/q_601_650/q0637.cc)|[Average of Levels in Binary Tree](https://leetcode.com/problems/average-of-levels-in-binary-tree/)|Easy|
-|2022-09-01 17:43|1448|[📎](src/q_1401_1450/q1448.cc)|[Count Good Nodes in Binary Tree](https://leetcode.com/problems/count-good-nodes-in-binary-tree/)|Medium|
 
 ## Previous Logs
 
 |Month|Submissions|Easy|Medium|Hard|
 |:--|:--|:--|:--|:--|
-|[September_2022](./assets/September_2022.md)|26|6|15|5|
+|[September_2022](./assets/September_2022.md)|27|6|16|5|
 |[August_2022](./assets/August_2022.md)|48|15|24|9|
 |[July_2022](./assets/July_2022.md)|47|6|37|4|
 |[June_2022](./assets/June_2022.md)|30|8|19|3|

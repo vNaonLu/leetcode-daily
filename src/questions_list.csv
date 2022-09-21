@@ -983,7 +983,7 @@ id,title,level,slug,paid,done
 982,Triples with Bitwise AND Equal To Zero,3,triples-with-bitwise-and-equal-to-zero,0,0
 983,Minimum Cost For Tickets,2,minimum-cost-for-tickets,0,1
 984,String Without AAA or BBB,2,string-without-aaa-or-bbb,0,0
-985,Sum of Even Numbers After Queries,2,sum-of-even-numbers-after-queries,0,0
+985,Sum of Even Numbers After Queries,2,sum-of-even-numbers-after-queries,0,1
 986,Interval List Intersections,2,interval-list-intersections,0,1
 987,Vertical Order Traversal of a Binary Tree,3,vertical-order-traversal-of-a-binary-tree,0,1
 988,Smallest String Starting From Leaf,2,smallest-string-starting-from-leaf,0,0
