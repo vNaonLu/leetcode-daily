@@ -1,7 +1,7 @@
+#include <array>
 #include <gtest/gtest.h>
 #include <iostream>
 #include <string>
-#include <unordered_map>
 
 using namespace std;
 
@@ -26,16 +26,23 @@ using namespace std;
 struct q3 : public ::testing::Test {
   // Leetcode answer here
   class Solution {
-   public:
+  public:
     int lengthOfLongestSubstring(string s) {
-      int res = 0;
-      unordered_map<char, int> last_idx;      int j = 0;
-      for (int i = 0; i < s.size(); i++) {
-        if (last_idx.count(s[i])) {
-          j = max(j, last_idx[s[i]] + 1);
+      auto cnt = array<int, 128>();
+      auto res = (int)0;
+      auto beg = s.begin();
+      auto it  = s.begin();
+      while (it != s.end()) {
+        if (++cnt[*it] > 1) {
+          while (beg != it) {
+            --cnt[*beg];
+            if (*beg++ == *it) {
+              break;
+            }
+          }
         }
-        res = max(res, i - j + 1);
-        last_idx[s[i]] = i;
+        ++it;
+        res = max<int>(res, distance(beg, it));
       }
       return res;
     }
@@ -45,33 +52,33 @@ struct q3 : public ::testing::Test {
 };
 
 TEST_F(q3, sample_input01) {
-  solution = new Solution();
-  string s = "abcabcbb";
-  int exp = 3;
+  solution   = new Solution();
+  string s   = "abcabcbb";
+  int    exp = 3;
   EXPECT_EQ(solution->lengthOfLongestSubstring(s), exp);
   delete solution;
 }
 
 TEST_F(q3, sample_input02) {
-  solution = new Solution();
-  string s = "bbbbb";
-  int exp = 1;
+  solution   = new Solution();
+  string s   = "bbbbb";
+  int    exp = 1;
   EXPECT_EQ(solution->lengthOfLongestSubstring(s), exp);
   delete solution;
 }
 
 TEST_F(q3, sample_input03) {
-  solution = new Solution();
-  string s = "pwwkew";
-  int exp = 3;
+  solution   = new Solution();
+  string s   = "pwwkew";
+  int    exp = 3;
   EXPECT_EQ(solution->lengthOfLongestSubstring(s), exp);
   delete solution;
 }
 
 TEST_F(q3, sample_input04) {
-  solution = new Solution();
-  string s = "";
-  int exp = 0;
+  solution   = new Solution();
+  string s   = "";
+  int    exp = 0;
   EXPECT_EQ(solution->lengthOfLongestSubstring(s), exp);
   delete solution;
 }
