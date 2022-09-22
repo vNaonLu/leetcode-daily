@@ -111,7 +111,7 @@ My daily challenge on leetcode since 2021/09/06.
 |[📎](src/q_51_100/q0097.cc)|97|[Interleaving String](https://leetcode.com/problems/interleaving-string/)|Medium|
 |[📎](src/q_51_100/q0098.cc)|98|[Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree/)|Medium|
 |[📎](src/q_51_100/q0099.cc)|99|[Recover Binary Search Tree](https://leetcode.com/problems/recover-binary-search-tree/)|Medium|
-||100|[Same Tree](https://leetcode.com/problems/same-tree/)|Easy|
+|[📎](src/q_51_100/q0100.cc)|100|[Same Tree](https://leetcode.com/problems/same-tree/)|Easy|
 |[📎](src/q_101_150/q0101.cc)|101|[Symmetric Tree](https://leetcode.com/problems/symmetric-tree/)|Easy|
 |[📎](src/q_101_150/q0102.cc)|102|[Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal/)|Medium|
 |[📎](src/q_101_150/q0103.cc)|103|[Binary Tree Zigzag Level Order Traversal](https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal/)|Medium|
@@ -2489,6 +2489,7 @@ My daily challenge on leetcode since 2021/09/06.
 
 |Time|#|</>|Question Title|Difficulty|
 |:--|--:|:-:|:--|:--|
+|2022-09-22 13:14|100|[📎](src/q_51_100/q0100.cc)|[Same Tree](https://leetcode.com/problems/same-tree/)|Easy|
 |2022-09-21 22:10|985|[📎](src/q_951_1000/q0985.cc)|[Sum of Even Numbers After Queries](https://leetcode.com/problems/sum-of-even-numbers-after-queries/)|Medium|
 |2022-09-20 17:12|718|[📎](src/q_701_750/q0718.cc)|[Maximum Length of Repeated Subarray](https://leetcode.com/problems/maximum-length-of-repeated-subarray/)|Medium|
 |2022-09-19 17:46|609|[📎](src/q_601_650/q0609.cc)|[Find Duplicate File in System](https://leetcode.com/problems/find-duplicate-file-in-system/)|Medium|
@@ -2513,13 +2514,12 @@ My daily challenge on leetcode since 2021/09/06.
 |2022-09-04 15:59|987|[📎](src/q_951_1000/q0987.cc)|[Vertical Order Traversal of a Binary Tree](https://leetcode.com/problems/vertical-order-traversal-of-a-binary-tree/)|Hard|
 |2022-09-04 15:37|424|[📎](src/q_401_450/q0424.cc)|[Longest Repeating Character Replacement](https://leetcode.com/problems/longest-repeating-character-replacement/)|Medium|
 |2022-09-03 13:20|967|[📎](src/q_951_1000/q0967.cc)|[Numbers With Same Consecutive Differences](https://leetcode.com/problems/numbers-with-same-consecutive-differences/)|Medium|
-|2022-09-02 20:17|637|[📎](src/q_601_650/q0637.cc)|[Average of Levels in Binary Tree](https://leetcode.com/problems/average-of-levels-in-binary-tree/)|Easy|
 
 ## Previous Logs
 
 |Month|Submissions|Easy|Medium|Hard|
 |:--|:--|:--|:--|:--|
-|[September_2022](./assets/September_2022.md)|27|6|16|5|
+|[September_2022](./assets/September_2022.md)|28|7|16|5|
 |[August_2022](./assets/August_2022.md)|48|15|24|9|
 |[July_2022](./assets/July_2022.md)|47|6|37|4|
 |[June_2022](./assets/June_2022.md)|30|8|19|3|

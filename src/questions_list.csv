@@ -98,7 +98,7 @@ id,title,level,slug,paid,done
 97,Interleaving String,2,interleaving-string,0,1
 98,Validate Binary Search Tree,2,validate-binary-search-tree,0,1
 99,Recover Binary Search Tree,2,recover-binary-search-tree,0,1
-100,Same Tree,1,same-tree,0,0
+100,Same Tree,1,same-tree,0,1
 101,Symmetric Tree,1,symmetric-tree,0,1
 102,Binary Tree Level Order Traversal,2,binary-tree-level-order-traversal,0,1
 103,Binary Tree Zigzag Level Order Traversal,2,binary-tree-zigzag-level-order-traversal,0,1
