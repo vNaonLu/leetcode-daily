@@ -25,24 +25,19 @@ using namespace std;
 struct q101 : public ::testing::Test {
   // Leetcode answer here
   class Solution {
-   private:
-    bool isSymmetric(TreeNode *l, TreeNode *r) {
-      if (l == nullptr && r == nullptr)
-        return true;
-      else if (l == nullptr)
-        return false;
-      else if (r == nullptr)
-        return false;
-      else {
-        return l->val == r->val &&
-               isSymmetric(l->left, r->right) &&
-               isSymmetric(l->right, r->left);
+  private:
+    bool solve(TreeNode *p, TreeNode *q) {
+      if (nullptr != p && nullptr != q) {
+        return p->val == q->val && solve(p->left, q->right) &&
+               solve(p->right, q->left);
+      } else {
+        return nullptr == p && nullptr == q;
       }
     }
-   public:
+
+  public:
     bool isSymmetric(TreeNode *root) {
-      if (root == nullptr) return true;
-      return isSymmetric(root->left, root->right);
+      return nullptr == root || solve(root->left, root->right);
     }
   };
 
@@ -50,16 +45,17 @@ struct q101 : public ::testing::Test {
 };
 
 TEST_F(q101, sample_input01) {
-  solution = new Solution();
-  TreeNode* root = TreeNode::generate({1, 2, 2, 3, 4, 4, 3});
-  bool exp = true;
+  solution       = new Solution();
+  TreeNode *root = TreeNode::generate({1, 2, 2, 3, 4, 4, 3});
+  bool      exp  = true;
   EXPECT_EQ(solution->isSymmetric(root), exp);
   delete solution;
 }
 
 TEST_F(q101, sample_input02) {
   solution = new Solution();
-  TreeNode* root = TreeNode::generate({1, 2, 2, NULL_TREENODE, 3, NULL_TREENODE, 3});
+  TreeNode *root =
+      TreeNode::generate({1, 2, 2, NULL_TREENODE, 3, NULL_TREENODE, 3});
   bool exp = false;
   EXPECT_EQ(solution->isSymmetric(root), exp);
   delete solution;
