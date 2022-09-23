@@ -230,7 +230,7 @@ id,title,level,slug,paid,done
 229,Majority Element II,2,majority-element-ii,0,1
 230,Kth Smallest Element in a BST,2,kth-smallest-element-in-a-bst,0,1
 231,Power of Two,1,power-of-two,0,1
-232,Implement Queue using Stacks,1,implement-queue-using-stacks,0,0
+232,Implement Queue using Stacks,1,implement-queue-using-stacks,0,1
 233,Number of Digit One,3,number-of-digit-one,0,0
 234,Palindrome Linked List,1,palindrome-linked-list,0,1
 235,Lowest Common Ancestor of a Binary Search Tree,2,lowest-common-ancestor-of-a-binary-search-tree,0,1
@@ -1768,7 +1768,7 @@ id,title,level,slug,paid,done
 1767,Find the Subtasks That Did Not Execute,3,find-the-subtasks-that-did-not-execute,1,0
 1768,Merge Strings Alternately,1,merge-strings-alternately,0,1
 1769,Minimum Number of Operations to Move All Balls to Each Box,2,minimum-number-of-operations-to-move-all-balls-to-each-box,0,0
-1770,Maximum Score from Performing Multiplication Operations,2,maximum-score-from-performing-multiplication-operations,0,1
+1770,Maximum Score from Performing Multiplication Operations,3,maximum-score-from-performing-multiplication-operations,0,1
 1771,Maximize Palindrome Length From Subsequences,3,maximize-palindrome-length-from-subsequences,0,0
 1772,Sort Features by Popularity,2,sort-features-by-popularity,1,0
 1773,Count Items Matching a Rule,1,count-items-matching-a-rule,0,0
@@ -2415,3 +2415,4 @@ id,title,level,slug,paid,done
 2414,Length of the Longest Alphabetical Continuous Substring,2,length-of-the-longest-alphabetical-continuous-substring,0,0
 2415,Reverse Odd Levels of Binary Tree,2,reverse-odd-levels-of-binary-tree,0,0
 2416,Sum of Prefix Scores of Strings,3,sum-of-prefix-scores-of-strings,0,0
+2417,Closest Fair Integer,2,closest-fair-integer,1,0
