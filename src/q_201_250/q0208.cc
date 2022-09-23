@@ -1,6 +1,7 @@
+#include <array>
 #include <gtest/gtest.h>
 #include <iostream>
-#include <unordered_map>
+#include <memory>
 
 using namespace std;
 
@@ -30,69 +31,67 @@ using namespace std;
  *
  *   • ‘1 ≤ word.length, prefix.length ≤ 2000’
  *   • ‘word’ and ‘prefix’ consist only of lowercase English letters.
- *   • At most ‘3 × 10⁴’ calls “in total” will be made to ‘insert’ , ‘search’ , and ‘startsWith’ .
+ *   • At most ‘3 × 10⁴’ calls “in total” will be made to ‘insert’ , ‘search’ ,
+ * and ‘startsWith’ .
  *
  */
 
 struct q208 : public ::testing::Test {
   // Leetcode answer here
   class Trie {
-   private:
-    class TrieNode {
-   private:
-      unordered_map<char, shared_ptr<TrieNode>> links;
-      bool is_end;
-   public:
-      TrieNode() {
-        is_end = false;
-      }
-      inline bool has(const char &c) const {
-        return links.count(c);
-      }
-      inline shared_ptr<TrieNode> at(const char &c) const {
-        return links.at(c);
-      }
-      inline void put(const char &c, unique_ptr<TrieNode> &&node) {
-        links[c] = move(node);
-      }
-      inline void setEnd() {
-        is_end = true;
-      }
-      inline bool end() const {
-        return is_end;
-      }
-    };
-    shared_ptr<TrieNode> m_root;
-   public:
-    Trie() {
-      m_root = make_shared<TrieNode>();
-    }
+    array<unique_ptr<Trie>, 127> next;
+    bool                         end;
+
+  public:
+    Trie() : end{false} {}
+
     void insert(string word) {
-      auto node = m_root;
-      for(const char &c : word){
-        if(!node->has(c))
-          node->put(c, make_unique<TrieNode>());
-        node = node->at(c);
+      auto p   = this;
+      auto beg = word.begin();
+      while (beg != word.end()) {
+        auto &nxt = p->next[*beg++];
+        if (nullptr == nxt) {
+          nxt = make_unique<Trie>();
+        }
+        p = nxt.get();
       }
-      node->setEnd();
+      p->end = true;
     }
+
     bool search(string word) {
-      auto node = m_root;
-      for(const char &c : word){
-        if (!node->has(c)) return false;
-        node = node->at(c);
+      auto p   = this;
+      auto beg = word.begin();
+      while (beg != word.end()) {
+        auto &nxt = p->next[*beg++];
+        if (nullptr == nxt) {
+          return false;
+        }
+        p = nxt.get();
       }
-      return node->end();
+      return p != nullptr && p->end;
     }
+
     bool startsWith(string prefix) {
-      auto node = m_root;
-      for (const char &c : prefix) {
-        if (!node->has(c)) return false;
-        node = node->at(c);
+      auto p   = this;
+      auto beg = prefix.begin();
+      while (beg != prefix.end()) {
+        auto &nxt = p->next[*beg++];
+        if (nullptr == nxt) {
+          return false;
+        }
+        p = nxt.get();
       }
-      return true;
+      return p != nullptr;
     }
   };
+
+  /**
+   * Your Trie object will be instantiated and called as such:
+   * Trie* obj = new Trie();
+   * obj->insert(word);
+   * bool param_2 = obj->search(word);
+   * bool param_3 = obj->startsWith(prefix);
+   */
 
   class Trie *trie;
 };
