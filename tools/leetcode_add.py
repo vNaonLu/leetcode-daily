@@ -39,7 +39,7 @@ def __add_question(qfile: local.QuestionSource, testcase: bool):
         pmt.show(pmt.succ(pmt.hi("The directory has been created: ") + str(qfile.path()),"+"))
 
     generate.file(qfile.src().resolve(), src)
-    subprocess.run(["open", qfile.src()])
+    # subprocess.run(["open", qfile.src()])
 
     return True
 

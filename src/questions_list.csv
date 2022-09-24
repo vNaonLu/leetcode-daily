@@ -98,7 +98,7 @@ id,title,level,slug,paid,done
 97,Interleaving String,2,interleaving-string,0,1
 98,Validate Binary Search Tree,2,validate-binary-search-tree,0,1
 99,Recover Binary Search Tree,2,recover-binary-search-tree,0,1
-100,Same Tree,1,same-tree,0,0
+100,Same Tree,1,same-tree,0,1
 101,Symmetric Tree,1,symmetric-tree,0,1
 102,Binary Tree Level Order Traversal,2,binary-tree-level-order-traversal,0,1
 103,Binary Tree Zigzag Level Order Traversal,2,binary-tree-zigzag-level-order-traversal,0,1
@@ -230,7 +230,7 @@ id,title,level,slug,paid,done
 229,Majority Element II,2,majority-element-ii,0,1
 230,Kth Smallest Element in a BST,2,kth-smallest-element-in-a-bst,0,1
 231,Power of Two,1,power-of-two,0,1
-232,Implement Queue using Stacks,1,implement-queue-using-stacks,0,0
+232,Implement Queue using Stacks,1,implement-queue-using-stacks,0,1
 233,Number of Digit One,3,number-of-digit-one,0,0
 234,Palindrome Linked List,1,palindrome-linked-list,0,1
 235,Lowest Common Ancestor of a Binary Search Tree,2,lowest-common-ancestor-of-a-binary-search-tree,0,1
@@ -588,7 +588,7 @@ id,title,level,slug,paid,done
 587,Erect the Fence,3,erect-the-fence,0,0
 588,Design In-Memory File System,3,design-in-memory-file-system,1,0
 589,N-ary Tree Preorder Traversal,1,n-ary-tree-preorder-traversal,0,1
-590,N-ary Tree Postorder Traversal,1,n-ary-tree-postorder-traversal,0,0
+590,N-ary Tree Postorder Traversal,1,n-ary-tree-postorder-traversal,0,1
 591,Tag Validator,3,tag-validator,0,0
 592,Fraction Addition and Subtraction,2,fraction-addition-and-subtraction,0,0
 593,Valid Square,2,valid-square,0,0
@@ -607,7 +607,7 @@ id,title,level,slug,paid,done
 606,Construct String from Binary Tree,1,construct-string-from-binary-tree,0,1
 607,Sales Person,1,sales-person,0,0
 608,Tree Node,2,tree-node,0,0
-609,Find Duplicate File in System,2,find-duplicate-file-in-system,0,0
+609,Find Duplicate File in System,2,find-duplicate-file-in-system,0,1
 610,Triangle Judgement,1,triangle-judgement,1,0
 611,Valid Triangle Number,2,valid-triangle-number,0,1
 612,Shortest Distance in a Plane,2,shortest-distance-in-a-plane,1,0
@@ -716,7 +716,7 @@ id,title,level,slug,paid,done
 715,Range Module,3,range-module,0,0
 716,Max Stack,3,max-stack,1,0
 717,1-bit and 2-bit Characters,1,1-bit-and-2-bit-characters,0,1
-718,Maximum Length of Repeated Subarray,2,maximum-length-of-repeated-subarray,0,0
+718,Maximum Length of Repeated Subarray,2,maximum-length-of-repeated-subarray,0,1
 719,Find K-th Smallest Pair Distance,3,find-k-th-smallest-pair-distance,0,0
 720,Longest Word in Dictionary,2,longest-word-in-dictionary,0,0
 721,Accounts Merge,2,accounts-merge,0,1
@@ -813,7 +813,7 @@ id,title,level,slug,paid,done
 812,Largest Triangle Area,1,largest-triangle-area,0,0
 813,Largest Sum of Averages,2,largest-sum-of-averages,0,0
 814,Binary Tree Pruning,2,binary-tree-pruning,0,1
-815,Bus Routes,3,bus-routes,0,0
+815,Bus Routes,3,bus-routes,0,1
 816,Ambiguous Coordinates,2,ambiguous-coordinates,0,0
 817,Linked List Components,2,linked-list-components,0,0
 818,Race Car,3,race-car,0,0
@@ -983,7 +983,7 @@ id,title,level,slug,paid,done
 982,Triples with Bitwise AND Equal To Zero,3,triples-with-bitwise-and-equal-to-zero,0,0
 983,Minimum Cost For Tickets,2,minimum-cost-for-tickets,0,1
 984,String Without AAA or BBB,2,string-without-aaa-or-bbb,0,0
-985,Sum of Even Numbers After Queries,2,sum-of-even-numbers-after-queries,0,0
+985,Sum of Even Numbers After Queries,2,sum-of-even-numbers-after-queries,0,1
 986,Interval List Intersections,2,interval-list-intersections,0,1
 987,Vertical Order Traversal of a Binary Tree,3,vertical-order-traversal-of-a-binary-tree,0,1
 988,Smallest String Starting From Leaf,2,smallest-string-starting-from-leaf,0,0
@@ -1458,7 +1458,7 @@ id,title,level,slug,paid,done
 1457,Pseudo-Palindromic Paths in a Binary Tree,2,pseudo-palindromic-paths-in-a-binary-tree,0,1
 1458,Max Dot Product of Two Subsequences,3,max-dot-product-of-two-subsequences,0,0
 1459,Rectangles Area,2,rectangles-area,1,0
-1460,Make Two Arrays Equal by Reversing Sub-arrays,1,make-two-arrays-equal-by-reversing-sub-arrays,0,0
+1460,Make Two Arrays Equal by Reversing Subarrays,1,make-two-arrays-equal-by-reversing-subarrays,0,0
 1461,Check If a String Contains All Binary Codes of Size K,2,check-if-a-string-contains-all-binary-codes-of-size-k,0,1
 1462,Course Schedule IV,2,course-schedule-iv,0,1
 1463,Cherry Pickup II,3,cherry-pickup-ii,0,1
@@ -1768,7 +1768,7 @@ id,title,level,slug,paid,done
 1767,Find the Subtasks That Did Not Execute,3,find-the-subtasks-that-did-not-execute,1,0
 1768,Merge Strings Alternately,1,merge-strings-alternately,0,1
 1769,Minimum Number of Operations to Move All Balls to Each Box,2,minimum-number-of-operations-to-move-all-balls-to-each-box,0,0
-1770,Maximum Score from Performing Multiplication Operations,2,maximum-score-from-performing-multiplication-operations,0,1
+1770,Maximum Score from Performing Multiplication Operations,3,maximum-score-from-performing-multiplication-operations,0,1
 1771,Maximize Palindrome Length From Subsequences,3,maximize-palindrome-length-from-subsequences,0,0
 1772,Sort Features by Popularity,2,sort-features-by-popularity,1,0
 1773,Count Items Matching a Rule,1,count-items-matching-a-rule,0,0
@@ -2407,3 +2407,12 @@ id,title,level,slug,paid,done
 2406,Divide Intervals Into Minimum Number of Groups,2,divide-intervals-into-minimum-number-of-groups,0,0
 2407,Longest Increasing Subsequence II,3,longest-increasing-subsequence-ii,0,0
 2408,Design SQL,2,design-sql,1,0
+2409,Count Days Spent Together,1,count-days-spent-together,0,0
+2410,Maximum Matching of Players With Trainers,2,maximum-matching-of-players-with-trainers,0,0
+2411,Smallest Subarrays With Maximum Bitwise OR,2,smallest-subarrays-with-maximum-bitwise-or,0,0
+2412,Minimum Money Required Before Transactions,3,minimum-money-required-before-transactions,0,0
+2413,Smallest Even Multiple,1,smallest-even-multiple,0,0
+2414,Length of the Longest Alphabetical Continuous Substring,2,length-of-the-longest-alphabetical-continuous-substring,0,0
+2415,Reverse Odd Levels of Binary Tree,2,reverse-odd-levels-of-binary-tree,0,0
+2416,Sum of Prefix Scores of Strings,3,sum-of-prefix-scores-of-strings,0,0
+2417,Closest Fair Integer,2,closest-fair-integer,1,0
