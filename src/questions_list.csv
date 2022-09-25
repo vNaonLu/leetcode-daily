@@ -733,7 +733,7 @@ id,title,level,slug,paid,done
 732,My Calendar III,3,my-calendar-iii,0,0
 733,Flood Fill,1,flood-fill,0,1
 734,Sentence Similarity,1,sentence-similarity,1,0
-735,Asteroid Collision,2,asteroid-collision,0,0
+735,Asteroid Collision,2,asteroid-collision,0,1
 736,Parse Lisp Expression,3,parse-lisp-expression,0,0
 737,Sentence Similarity II,2,sentence-similarity-ii,1,0
 738,Monotone Increasing Digits,2,monotone-increasing-digits,0,0

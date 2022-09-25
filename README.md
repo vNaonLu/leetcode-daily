@@ -758,7 +758,7 @@ My daily challenge on leetcode since 2021/09/06.
 ||732|[My Calendar III](https://leetcode.com/problems/my-calendar-iii/)|Hard|
 |[📎](src/q_701_750/q0733.cc)|733|[Flood Fill](https://leetcode.com/problems/flood-fill/)|Easy|
 |🔒|734|[Sentence Similarity](https://leetcode.com/problems/sentence-similarity/)|Easy|
-||735|[Asteroid Collision](https://leetcode.com/problems/asteroid-collision/)|Medium|
+|[📎](src/q_701_750/q0735.cc)|735|[Asteroid Collision](https://leetcode.com/problems/asteroid-collision/)|Medium|
 ||736|[Parse Lisp Expression](https://leetcode.com/problems/parse-lisp-expression/)|Hard|
 |🔒|737|[Sentence Similarity II](https://leetcode.com/problems/sentence-similarity-ii/)|Medium|
 ||738|[Monotone Increasing Digits](https://leetcode.com/problems/monotone-increasing-digits/)|Medium|
@@ -2490,6 +2490,7 @@ My daily challenge on leetcode since 2021/09/06.
 
 |Time|#|</>|Question Title|Difficulty|
 |:--|--:|:-:|:--|:--|
+|2022-09-25 18:35|735|[📎](src/q_701_750/q0735.cc)|[Asteroid Collision](https://leetcode.com/problems/asteroid-collision/)|Medium|
 |2022-09-24 12:55|590|[📎](src/q_551_600/q0590.cc)|[N-ary Tree Postorder Traversal](https://leetcode.com/problems/n-ary-tree-postorder-traversal/)|Easy|
 |2022-09-23 17:38|232|[📎](src/q_201_250/q0232.cc)|[Implement Queue using Stacks](https://leetcode.com/problems/implement-queue-using-stacks/)|Easy|
 |2022-09-22 13:14|100|[📎](src/q_51_100/q0100.cc)|[Same Tree](https://leetcode.com/problems/same-tree/)|Easy|
@@ -2514,13 +2515,12 @@ My daily challenge on leetcode since 2021/09/06.
 |2022-09-07 17:52|606|[📎](src/q_601_650/q0606.cc)|[Construct String from Binary Tree](https://leetcode.com/problems/construct-string-from-binary-tree/)|Easy|
 |2022-09-06 18:11|814|[📎](src/q_801_850/q0814.cc)|[Binary Tree Pruning](https://leetcode.com/problems/binary-tree-pruning/)|Medium|
 |2022-09-05 17:32|299|[📎](src/q_251_300/q0299.cc)|[Bulls and Cows](https://leetcode.com/problems/bulls-and-cows/)|Medium|
-|2022-09-04 15:59|987|[📎](src/q_951_1000/q0987.cc)|[Vertical Order Traversal of a Binary Tree](https://leetcode.com/problems/vertical-order-traversal-of-a-binary-tree/)|Hard|
 
 ## Previous Logs
 
 |Month|Submissions|Easy|Medium|Hard|
 |:--|:--|:--|:--|:--|
-|[September_2022](./assets/September_2022.md)|30|9|15|6|
+|[September_2022](./assets/September_2022.md)|31|9|16|6|
 |[August_2022](./assets/August_2022.md)|48|15|24|9|
 |[July_2022](./assets/July_2022.md)|47|6|37|4|
 |[June_2022](./assets/June_2022.md)|30|8|19|3|
