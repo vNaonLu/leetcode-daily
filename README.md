@@ -976,7 +976,7 @@ My daily challenge on leetcode since 2021/09/06.
 ||944|[Delete Columns to Make Sorted](https://leetcode.com/problems/delete-columns-to-make-sorted/)|Easy|
 ||945|[Minimum Increment to Make Array Unique](https://leetcode.com/problems/minimum-increment-to-make-array-unique/)|Medium|
 |[📎](src/q_901_950/q0946.cc)|946|[Validate Stack Sequences](https://leetcode.com/problems/validate-stack-sequences/)|Medium|
-||947|[Most Stones Removed with Same Row or Column](https://leetcode.com/problems/most-stones-removed-with-same-row-or-column/)|Medium|
+|[📎](src/q_901_950/q0947.cc)|947|[Most Stones Removed with Same Row or Column](https://leetcode.com/problems/most-stones-removed-with-same-row-or-column/)|Medium|
 |[📎](src/q_901_950/q0948.cc)|948|[Bag of Tokens](https://leetcode.com/problems/bag-of-tokens/)|Medium|
 ||949|[Largest Time for Given Digits](https://leetcode.com/problems/largest-time-for-given-digits/)|Medium|
 ||950|[Reveal Cards In Increasing Order](https://leetcode.com/problems/reveal-cards-in-increasing-order/)|Medium|
@@ -2494,6 +2494,7 @@ My daily challenge on leetcode since 2021/09/06.
 
 |Time|#|</>|Question Title|Difficulty|
 |:--|--:|:-:|:--|:--|
+|2022-09-26 17:46|947|[📎](src/q_901_950/q0947.cc)|[Most Stones Removed with Same Row or Column](https://leetcode.com/problems/most-stones-removed-with-same-row-or-column/)|Medium|
 |2022-09-26 17:37|990|[📎](src/q_951_1000/q0990.cc)|[Satisfiability of Equality Equations](https://leetcode.com/problems/satisfiability-of-equality-equations/)|Medium|
 |2022-09-25 18:35|735|[📎](src/q_701_750/q0735.cc)|[Asteroid Collision](https://leetcode.com/problems/asteroid-collision/)|Medium|
 |2022-09-24 12:55|590|[📎](src/q_551_600/q0590.cc)|[N-ary Tree Postorder Traversal](https://leetcode.com/problems/n-ary-tree-postorder-traversal/)|Easy|
@@ -2518,13 +2519,12 @@ My daily challenge on leetcode since 2021/09/06.
 |2022-09-08 01:06|500|[📎](src/q_451_500/q0500.cc)|[Keyboard Row](https://leetcode.com/problems/keyboard-row/)|Easy|
 |2022-09-07 22:07|217|[📎](src/q_201_250/q0217.cc)|[Contains Duplicate](https://leetcode.com/problems/contains-duplicate/)|Easy|
 |2022-09-07 17:52|606|[📎](src/q_601_650/q0606.cc)|[Construct String from Binary Tree](https://leetcode.com/problems/construct-string-from-binary-tree/)|Easy|
-|2022-09-06 18:11|814|[📎](src/q_801_850/q0814.cc)|[Binary Tree Pruning](https://leetcode.com/problems/binary-tree-pruning/)|Medium|
 
 ## Previous Logs
 
 |Month|Submissions|Easy|Medium|Hard|
 |:--|:--|:--|:--|:--|
-|[September_2022](./assets/September_2022.md)|32|9|17|6|
+|[September_2022](./assets/September_2022.md)|33|9|18|6|
 |[August_2022](./assets/August_2022.md)|48|15|24|9|
 |[July_2022](./assets/July_2022.md)|47|6|37|4|
 |[June_2022](./assets/June_2022.md)|30|8|19|3|
