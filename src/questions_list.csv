@@ -836,7 +836,7 @@ id,title,level,slug,paid,done
 835,Image Overlap,2,image-overlap,0,0
 836,Rectangle Overlap,1,rectangle-overlap,0,0
 837,New 21 Game,2,new-21-game,0,0
-838,Push Dominoes,2,push-dominoes,0,0
+838,Push Dominoes,2,push-dominoes,0,1
 839,Similar String Groups,3,similar-string-groups,0,0
 840,Magic Squares In Grid,2,magic-squares-in-grid,0,1
 841,Keys and Rooms,2,keys-and-rooms,0,1

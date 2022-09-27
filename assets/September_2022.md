@@ -2,6 +2,7 @@
 
 ||#|</>|Question Title|Difficulty|
 |:--|--:|:-:|:--|:--|
+|Day 27|838|[📎](../src/q_801_850/q0838.cc)|[Push Dominoes](https://leetcode.com/problems/push-dominoes/)|Medium|
 |Day 26|947<br>990|[📎](../src/q_901_950/q0947.cc)<br>[📎](../src/q_951_1000/q0990.cc)|[Most Stones Removed with Same Row or Column](https://leetcode.com/problems/most-stones-removed-with-same-row-or-column/)<br>[Satisfiability of Equality Equations](https://leetcode.com/problems/satisfiability-of-equality-equations/)|Medium<br>Medium|
 |Day 25|735|[📎](../src/q_701_750/q0735.cc)|[Asteroid Collision](https://leetcode.com/problems/asteroid-collision/)|Medium|
 |Day 24|590|[📎](../src/q_551_600/q0590.cc)|[N-ary Tree Postorder Traversal](https://leetcode.com/problems/n-ary-tree-postorder-traversal/)|Easy|

@@ -867,7 +867,7 @@ My daily challenge on leetcode since 2021/09/06.
 ||835|[Image Overlap](https://leetcode.com/problems/image-overlap/)|Medium|
 ||836|[Rectangle Overlap](https://leetcode.com/problems/rectangle-overlap/)|Easy|
 ||837|[New 21 Game](https://leetcode.com/problems/new-21-game/)|Medium|
-||838|[Push Dominoes](https://leetcode.com/problems/push-dominoes/)|Medium|
+|[📎](src/q_801_850/q0838.cc)|838|[Push Dominoes](https://leetcode.com/problems/push-dominoes/)|Medium|
 ||839|[Similar String Groups](https://leetcode.com/problems/similar-string-groups/)|Hard|
 |[📎](src/q_801_850/q0840.cc)|840|[Magic Squares In Grid](https://leetcode.com/problems/magic-squares-in-grid/)|Medium|
 |[📎](src/q_801_850/q0841.cc)|841|[Keys and Rooms](https://leetcode.com/problems/keys-and-rooms/)|Medium|
@@ -2494,6 +2494,7 @@ My daily challenge on leetcode since 2021/09/06.
 
 |Time|#|</>|Question Title|Difficulty|
 |:--|--:|:-:|:--|:--|
+|2022-09-27 18:43|838|[📎](src/q_801_850/q0838.cc)|[Push Dominoes](https://leetcode.com/problems/push-dominoes/)|Medium|
 |2022-09-26 17:46|947|[📎](src/q_901_950/q0947.cc)|[Most Stones Removed with Same Row or Column](https://leetcode.com/problems/most-stones-removed-with-same-row-or-column/)|Medium|
 |2022-09-26 17:37|990|[📎](src/q_951_1000/q0990.cc)|[Satisfiability of Equality Equations](https://leetcode.com/problems/satisfiability-of-equality-equations/)|Medium|
 |2022-09-25 18:35|735|[📎](src/q_701_750/q0735.cc)|[Asteroid Collision](https://leetcode.com/problems/asteroid-collision/)|Medium|
@@ -2518,13 +2519,12 @@ My daily challenge on leetcode since 2021/09/06.
 |2022-09-08 01:18|495|[📎](src/q_451_500/q0495.cc)|[Teemo Attacking](https://leetcode.com/problems/teemo-attacking/)|Easy|
 |2022-09-08 01:06|500|[📎](src/q_451_500/q0500.cc)|[Keyboard Row](https://leetcode.com/problems/keyboard-row/)|Easy|
 |2022-09-07 22:07|217|[📎](src/q_201_250/q0217.cc)|[Contains Duplicate](https://leetcode.com/problems/contains-duplicate/)|Easy|
-|2022-09-07 17:52|606|[📎](src/q_601_650/q0606.cc)|[Construct String from Binary Tree](https://leetcode.com/problems/construct-string-from-binary-tree/)|Easy|
 
 ## Previous Logs
 
 |Month|Submissions|Easy|Medium|Hard|
 |:--|:--|:--|:--|:--|
-|[September_2022](./assets/September_2022.md)|33|9|18|6|
+|[September_2022](./assets/September_2022.md)|34|9|19|6|
 |[August_2022](./assets/August_2022.md)|48|15|24|9|
 |[July_2022](./assets/July_2022.md)|47|6|37|4|
 |[June_2022](./assets/June_2022.md)|30|8|19|3|
