@@ -1,6 +1,6 @@
+#include <algorithm>
 #include <gtest/gtest.h>
 #include <iostream>
-#include <queue>
 #include <vector>
 
 using namespace std;
@@ -18,7 +18,7 @@ using namespace std;
  *   also be sorted in ascending
  *   An integer ‘a’ is closer to ‘x’ than an integer ‘b’
  *       -  ‘|a - x| < |b - x|’ ,
- *       -  ‘|a - x| = |b - x|’ and ‘a < b’ 
+ *       -  ‘|a - x| = |b - x|’ and ‘a < b’
  *
  * ––––––––––––––––––––––––––––– Constraints –––––––––––––––––––––––––––––
  *
@@ -31,34 +31,36 @@ using namespace std;
 
 struct q658 : public ::testing::Test {
   // Leetcode answer here
-class Solution {
-public:
-    vector<int> findClosestElements(vector<int>& arr, int k, int x) {
-        priority_queue<pair<int, int>, vector<pair<int, int>>, greater<pair<int, int>>> pq;
-        for (auto &z : arr) {
-            pq.emplace(abs(z-x), z);
+  class Solution {
+  public:
+    vector<int> findClosestElements(vector<int> &arr, int k, int x) {
+      auto lo = lower_bound(arr.begin(), arr.end(), x);
+      auto hi = lo;
+      while (distance(lo, hi) != k) {
+        if (lo == arr.begin()) {
+          ++hi;
+        } else if (hi == arr.end()) {
+          --lo;
+        } else {
+          if (x - *(lo - 1) <= *hi - x) {
+            --lo;
+          } else {
+            ++hi;
+          }
         }
-        
-        vector<int> res;
-        while (k--) {
-            res.emplace_back(pq.top().second);
-            pq.pop();
-        }
-        
-        sort(res.begin(), res.end());
-        
-        return res;
+      }
+      return vector<int>(lo, hi);
     }
-};
+  };
 
   class Solution *solution;
 };
 
 TEST_F(q658, sample_input01) {
-  solution = new Solution();
+  solution        = new Solution();
   vector<int> arr = {1, 2, 3, 4, 5};
-  int k = 4;
-  int x = 3;
+  int         k   = 4;
+  int         x   = 3;
   vector<int> exp = {1, 2, 3, 4};
   vector<int> act = solution->findClosestElements(arr, k, x);
   EXPECT_EQ(act, exp);
@@ -66,10 +68,10 @@ TEST_F(q658, sample_input01) {
 }
 
 TEST_F(q658, sample_input02) {
-  solution = new Solution();
+  solution        = new Solution();
   vector<int> arr = {1, 2, 3, 4, 5};
-  int k = 4;
-  int x = -1;
+  int         k   = 4;
+  int         x   = -1;
   vector<int> exp = {1, 2, 3, 4};
   vector<int> act = solution->findClosestElements(arr, k, x);
   EXPECT_EQ(act, exp);
