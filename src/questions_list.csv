@@ -85,7 +85,7 @@ id,title,level,slug,paid,done
 84,Largest Rectangle in Histogram,3,largest-rectangle-in-histogram,0,1
 85,Maximal Rectangle,3,maximal-rectangle,0,1
 86,Partition List,2,partition-list,0,1
-87,Scramble String,3,scramble-string,0,0
+87,Scramble String,3,scramble-string,0,1
 88,Merge Sorted Array,1,merge-sorted-array,0,1
 89,Gray Code,2,gray-code,0,1
 90,Subsets II,2,subsets-ii,0,1
@@ -2420,3 +2420,4 @@ id,title,level,slug,paid,done
 2419,Longest Subarray With Maximum Bitwise AND,2,longest-subarray-with-maximum-bitwise-and,0,0
 2420,Find All Good Indices,2,find-all-good-indices,0,0
 2421,Number of Good Paths,3,number-of-good-paths,0,0
+2422,Merge Operations to Turn Array Into a Palindrome,2,merge-operations-to-turn-array-into-a-palindrome,1,0
