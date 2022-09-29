@@ -2,7 +2,7 @@
 
 ||#|</>|Question Title|Difficulty|
 |:--|--:|:-:|:--|:--|
-|Day 29|87|[📎](../src/q_51_100/q0087.cc)|[Scramble String](https://leetcode.com/problems/scramble-string/)|Hard|
+|Day 29|87<br>214|[📎](../src/q_51_100/q0087.cc)<br>[📎](../src/q_201_250/q0214.cc)|[Scramble String](https://leetcode.com/problems/scramble-string/)<br>[Shortest Palindrome](https://leetcode.com/problems/shortest-palindrome/)|Hard<br>Hard|
 |Day 28|661|[📎](../src/q_651_700/q0661.cc)|[Image Smoother](https://leetcode.com/problems/image-smoother/)|Easy|
 |Day 27|838|[📎](../src/q_801_850/q0838.cc)|[Push Dominoes](https://leetcode.com/problems/push-dominoes/)|Medium|
 |Day 26|947<br>990|[📎](../src/q_901_950/q0947.cc)<br>[📎](../src/q_951_1000/q0990.cc)|[Most Stones Removed with Same Row or Column](https://leetcode.com/problems/most-stones-removed-with-same-row-or-column/)<br>[Satisfiability of Equality Equations](https://leetcode.com/problems/satisfiability-of-equality-equations/)|Medium<br>Medium|
