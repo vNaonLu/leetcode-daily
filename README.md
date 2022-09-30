@@ -229,7 +229,7 @@ My daily challenge on leetcode since 2021/09/06.
 |[📎](src/q_201_250/q0215.cc)|215|[Kth Largest Element in an Array](https://leetcode.com/problems/kth-largest-element-in-an-array/)|Medium|
 |[📎](src/q_201_250/q0216.cc)|216|[Combination Sum III](https://leetcode.com/problems/combination-sum-iii/)|Medium|
 |[📎](src/q_201_250/q0217.cc)|217|[Contains Duplicate](https://leetcode.com/problems/contains-duplicate/)|Easy|
-||218|[The Skyline Problem](https://leetcode.com/problems/the-skyline-problem/)|Hard|
+|[📎](src/q_201_250/q0218.cc)|218|[The Skyline Problem](https://leetcode.com/problems/the-skyline-problem/)|Hard|
 |[📎](src/q_201_250/q0219.cc)|219|[Contains Duplicate II](https://leetcode.com/problems/contains-duplicate-ii/)|Easy|
 |[📎](src/q_201_250/q0220.cc)|220|[Contains Duplicate III](https://leetcode.com/problems/contains-duplicate-iii/)|Hard|
 |[📎](src/q_201_250/q0221.cc)|221|[Maximal Square](https://leetcode.com/problems/maximal-square/)|Medium|
@@ -2495,6 +2495,7 @@ My daily challenge on leetcode since 2021/09/06.
 
 |Time|#|</>|Question Title|Difficulty|
 |:--|--:|:-:|:--|:--|
+|2022-09-30 20:58|218|[📎](src/q_201_250/q0218.cc)|[The Skyline Problem](https://leetcode.com/problems/the-skyline-problem/)|Hard|
 |2022-09-29 17:28|214|[📎](src/q_201_250/q0214.cc)|[Shortest Palindrome](https://leetcode.com/problems/shortest-palindrome/)|Hard|
 |2022-09-29 17:22|87|[📎](src/q_51_100/q0087.cc)|[Scramble String](https://leetcode.com/problems/scramble-string/)|Hard|
 |2022-09-28 17:49|661|[📎](src/q_651_700/q0661.cc)|[Image Smoother](https://leetcode.com/problems/image-smoother/)|Easy|
@@ -2519,13 +2520,12 @@ My daily challenge on leetcode since 2021/09/06.
 |2022-09-11 14:17|1383|[📎](src/q_1351_1400/q1383.cc)|[Maximum Performance of a Team](https://leetcode.com/problems/maximum-performance-of-a-team/)|Hard|
 |2022-09-10 20:38|188|[📎](src/q_151_200/q0188.cc)|[Best Time to Buy and Sell Stock IV](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iv/)|Hard|
 |2022-09-09 15:43|1996|[📎](src/q_1951_2000/q1996.cc)|[The Number of Weak Characters in the Game](https://leetcode.com/problems/the-number-of-weak-characters-in-the-game/)|Medium|
-|2022-09-08 17:53|1706|[📎](src/q_1701_1750/q1706.cc)|[Where Will the Ball Fall](https://leetcode.com/problems/where-will-the-ball-fall/)|Medium|
 
 ## Previous Logs
 
 |Month|Submissions|Easy|Medium|Hard|
 |:--|:--|:--|:--|:--|
-|[September_2022](./assets/September_2022.md)|37|10|19|8|
+|[September_2022](./assets/September_2022.md)|38|10|19|9|
 |[August_2022](./assets/August_2022.md)|48|15|24|9|
 |[July_2022](./assets/July_2022.md)|47|6|37|4|
 |[June_2022](./assets/June_2022.md)|30|8|19|3|
