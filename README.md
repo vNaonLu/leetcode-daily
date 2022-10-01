@@ -472,7 +472,7 @@ My daily challenge on leetcode since 2021/09/06.
 |[📎](src/q_451_500/q0452.cc)|452|[Minimum Number of Arrows to Burst Balloons](https://leetcode.com/problems/minimum-number-of-arrows-to-burst-balloons/)|Medium|
 ||453|[Minimum Moves to Equal Array Elements](https://leetcode.com/problems/minimum-moves-to-equal-array-elements/)|Medium|
 |[📎](src/q_451_500/q0454.cc)|454|[4Sum II](https://leetcode.com/problems/4sum-ii/)|Medium|
-||455|[Assign Cookies](https://leetcode.com/problems/assign-cookies/)|Easy|
+|[📎](src/q_451_500/q0455.cc)|455|[Assign Cookies](https://leetcode.com/problems/assign-cookies/)|Easy|
 |[📎](src/q_451_500/q0456.cc)|456|[132 Pattern](https://leetcode.com/problems/132-pattern/)|Medium|
 ||457|[Circular Array Loop](https://leetcode.com/problems/circular-array-loop/)|Medium|
 |[📎](src/q_451_500/q0458.cc)|458|[Poor Pigs](https://leetcode.com/problems/poor-pigs/)|Hard|
@@ -2495,6 +2495,7 @@ My daily challenge on leetcode since 2021/09/06.
 
 |Time|#|</>|Question Title|Difficulty|
 |:--|--:|:-:|:--|:--|
+|2022-10-01 12:12|455|[📎](src/q_451_500/q0455.cc)|[Assign Cookies](https://leetcode.com/problems/assign-cookies/)|Easy|
 |2022-09-30 20:58|218|[📎](src/q_201_250/q0218.cc)|[The Skyline Problem](https://leetcode.com/problems/the-skyline-problem/)|Hard|
 |2022-09-29 17:28|214|[📎](src/q_201_250/q0214.cc)|[Shortest Palindrome](https://leetcode.com/problems/shortest-palindrome/)|Hard|
 |2022-09-29 17:22|87|[📎](src/q_51_100/q0087.cc)|[Scramble String](https://leetcode.com/problems/scramble-string/)|Hard|
@@ -2519,12 +2520,12 @@ My daily challenge on leetcode since 2021/09/06.
 |2022-09-12 17:51|948|[📎](src/q_901_950/q0948.cc)|[Bag of Tokens](https://leetcode.com/problems/bag-of-tokens/)|Medium|
 |2022-09-11 14:17|1383|[📎](src/q_1351_1400/q1383.cc)|[Maximum Performance of a Team](https://leetcode.com/problems/maximum-performance-of-a-team/)|Hard|
 |2022-09-10 20:38|188|[📎](src/q_151_200/q0188.cc)|[Best Time to Buy and Sell Stock IV](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iv/)|Hard|
-|2022-09-09 15:43|1996|[📎](src/q_1951_2000/q1996.cc)|[The Number of Weak Characters in the Game](https://leetcode.com/problems/the-number-of-weak-characters-in-the-game/)|Medium|
 
 ## Previous Logs
 
 |Month|Submissions|Easy|Medium|Hard|
 |:--|:--|:--|:--|:--|
+|[October_2022](./assets/October_2022.md)|1|1|0|0|
 |[September_2022](./assets/September_2022.md)|38|10|19|9|
 |[August_2022](./assets/August_2022.md)|48|15|24|9|
 |[July_2022](./assets/July_2022.md)|47|6|37|4|
