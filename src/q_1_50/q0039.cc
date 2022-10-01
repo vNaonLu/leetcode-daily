@@ -35,32 +35,29 @@ using namespace std;
 struct q39 : public ::testing::Test {
   // Leetcode answer here
   class Solution {
-   private:
-    void helper(vector<int> &cand, const int &t, vector<vector<int>> &r, vector<int> &c, int sum = 0, int beg = 0) {
-      if (beg >= cand.size()) return;
-      if (sum == t) {
-        r.push_back(c);
+  private:
+    template <typename Iterator>
+    void solve(Iterator beg, Iterator end, vector<vector<int>> &res,
+               vector<int> &curr, int curr_sum, int target) {
+      if (curr_sum > target) {
+        return;
+      } else if (curr_sum == target) {
+        res.emplace_back(curr.begin(), curr.end());
       } else {
-        for (int i = beg; i < cand.size(); ++i) {
-          sum += cand[i];
-          if (sum <= t) {
-            c.push_back(cand[i]);
-            helper(cand, t, r, c, sum, i);
-            c.pop_back();
-            sum -= cand[i];
-          } else {
-            sum -= cand[i];
-            break;
-          }
+        while (beg != end) {
+          curr.emplace_back(*beg);
+          solve(beg, end, res, curr, curr_sum + *beg, target);
+          curr.pop_back();
+          ++beg;
         }
       }
     }
-   public:
+
+  public:
     vector<vector<int>> combinationSum(vector<int> &candidates, int target) {
-      vector<vector<int>> res;
-      vector<int> tmp;
-      sort(candidates.begin(), candidates.end());
-      helper(candidates, target, res, tmp);
+      auto res = vector<vector<int>>();
+      auto tmp = vector<int>();
+      solve(candidates.begin(), candidates.end(), res, tmp, 0, target);
       return res;
     }
   };
@@ -69,10 +66,13 @@ struct q39 : public ::testing::Test {
 };
 
 TEST_F(q39, sample_input01) {
-  solution = new Solution();
-  vector<int> candidates = {2, 3, 6, 7};
-  int target = 7;
-  vector<vector<int>> exp = {{2, 2, 3}, {7}};
+  solution                       = new Solution();
+  vector<int>         candidates = {2, 3, 6, 7};
+  int                 target     = 7;
+  vector<vector<int>> exp        = {
+             {2, 2, 3},
+             {7  }
+  };
   // Try EXPECT_EQ_ANY_ORDER_RECURSIVE
   // if the element is also matched in any order.
   EXPECT_EQ_ANY_ORDER(solution->combinationSum(candidates, target), exp);
@@ -80,10 +80,14 @@ TEST_F(q39, sample_input01) {
 }
 
 TEST_F(q39, sample_input02) {
-  solution = new Solution();
-  vector<int> candidates = {2, 3, 5};
-  int target = 8;
-  vector<vector<int>> exp = {{2, 2, 2, 2}, {2, 3, 3}, {3, 5}};
+  solution                       = new Solution();
+  vector<int>         candidates = {2, 3, 5};
+  int                 target     = 8;
+  vector<vector<int>> exp        = {
+             {2, 2, 2, 2},
+             {2, 3, 3},
+             {3, 5  }
+  };
   // Try EXPECT_EQ_ANY_ORDER_RECURSIVE
   // if the element is also matched in any order.
   EXPECT_EQ_ANY_ORDER(solution->combinationSum(candidates, target), exp);
@@ -91,10 +95,10 @@ TEST_F(q39, sample_input02) {
 }
 
 TEST_F(q39, sample_input03) {
-  solution = new Solution();
-  vector<int> candidates = {2};
-  int target = 1;
-  vector<vector<int>> exp = {};
+  solution                       = new Solution();
+  vector<int>         candidates = {2};
+  int                 target     = 1;
+  vector<vector<int>> exp        = {};
   // Try EXPECT_EQ_ANY_ORDER_RECURSIVE
   // if the element is also matched in any order.
   EXPECT_EQ_ANY_ORDER(solution->combinationSum(candidates, target), exp);
@@ -102,10 +106,10 @@ TEST_F(q39, sample_input03) {
 }
 
 TEST_F(q39, sample_input04) {
-  solution = new Solution();
-  vector<int> candidates = {1};
-  int target = 1;
-  vector<vector<int>> exp = {{1}};
+  solution                       = new Solution();
+  vector<int>         candidates = {1};
+  int                 target     = 1;
+  vector<vector<int>> exp        = {{1}};
   // Try EXPECT_EQ_ANY_ORDER_RECURSIVE
   // if the element is also matched in any order.
   EXPECT_EQ_ANY_ORDER(solution->combinationSum(candidates, target), exp);
@@ -113,10 +117,12 @@ TEST_F(q39, sample_input04) {
 }
 
 TEST_F(q39, sample_input05) {
-  solution = new Solution();
-  vector<int> candidates = {1};
-  int target = 2;
-  vector<vector<int>> exp = {{1, 1}};
+  solution                       = new Solution();
+  vector<int>         candidates = {1};
+  int                 target     = 2;
+  vector<vector<int>> exp        = {
+             {1, 1}
+  };
   // Try EXPECT_EQ_ANY_ORDER_RECURSIVE
   // if the element is also matched in any order.
   EXPECT_EQ_ANY_ORDER(solution->combinationSum(candidates, target), exp);

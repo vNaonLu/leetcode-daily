@@ -85,7 +85,7 @@ id,title,level,slug,paid,done
 84,Largest Rectangle in Histogram,3,largest-rectangle-in-histogram,0,1
 85,Maximal Rectangle,3,maximal-rectangle,0,1
 86,Partition List,2,partition-list,0,1
-87,Scramble String,3,scramble-string,0,0
+87,Scramble String,3,scramble-string,0,1
 88,Merge Sorted Array,1,merge-sorted-array,0,1
 89,Gray Code,2,gray-code,0,1
 90,Subsets II,2,subsets-ii,0,1
@@ -212,11 +212,11 @@ id,title,level,slug,paid,done
 211,Design Add and Search Words Data Structure,2,design-add-and-search-words-data-structure,0,1
 212,Word Search II,3,word-search-ii,0,1
 213,House Robber II,2,house-robber-ii,0,1
-214,Shortest Palindrome,3,shortest-palindrome,0,0
+214,Shortest Palindrome,3,shortest-palindrome,0,1
 215,Kth Largest Element in an Array,2,kth-largest-element-in-an-array,0,1
 216,Combination Sum III,2,combination-sum-iii,0,1
 217,Contains Duplicate,1,contains-duplicate,0,1
-218,The Skyline Problem,3,the-skyline-problem,0,0
+218,The Skyline Problem,3,the-skyline-problem,0,1
 219,Contains Duplicate II,1,contains-duplicate-ii,0,1
 220,Contains Duplicate III,3,contains-duplicate-iii,0,1
 221,Maximal Square,2,maximal-square,0,1
@@ -453,7 +453,7 @@ id,title,level,slug,paid,done
 452,Minimum Number of Arrows to Burst Balloons,2,minimum-number-of-arrows-to-burst-balloons,0,1
 453,Minimum Moves to Equal Array Elements,2,minimum-moves-to-equal-array-elements,0,0
 454,4Sum II,2,4sum-ii,0,1
-455,Assign Cookies,1,assign-cookies,0,0
+455,Assign Cookies,1,assign-cookies,0,1
 456,132 Pattern,2,132-pattern,0,1
 457,Circular Array Loop,2,circular-array-loop,0,0
 458,Poor Pigs,3,poor-pigs,0,1
@@ -659,7 +659,7 @@ id,title,level,slug,paid,done
 658,Find K Closest Elements,2,find-k-closest-elements,0,1
 659,Split Array into Consecutive Subsequences,2,split-array-into-consecutive-subsequences,0,1
 660,Remove 9,3,remove-9,1,0
-661,Image Smoother,1,image-smoother,0,0
+661,Image Smoother,1,image-smoother,0,1
 662,Maximum Width of Binary Tree,2,maximum-width-of-binary-tree,0,1
 663,Equal Tree Partition,2,equal-tree-partition,1,0
 664,Strange Printer,3,strange-printer,0,0
@@ -733,7 +733,7 @@ id,title,level,slug,paid,done
 732,My Calendar III,3,my-calendar-iii,0,0
 733,Flood Fill,1,flood-fill,0,1
 734,Sentence Similarity,1,sentence-similarity,1,0
-735,Asteroid Collision,2,asteroid-collision,0,0
+735,Asteroid Collision,2,asteroid-collision,0,1
 736,Parse Lisp Expression,3,parse-lisp-expression,0,0
 737,Sentence Similarity II,2,sentence-similarity-ii,1,0
 738,Monotone Increasing Digits,2,monotone-increasing-digits,0,0
@@ -836,7 +836,7 @@ id,title,level,slug,paid,done
 835,Image Overlap,2,image-overlap,0,0
 836,Rectangle Overlap,1,rectangle-overlap,0,0
 837,New 21 Game,2,new-21-game,0,0
-838,Push Dominoes,2,push-dominoes,0,0
+838,Push Dominoes,2,push-dominoes,0,1
 839,Similar String Groups,3,similar-string-groups,0,0
 840,Magic Squares In Grid,2,magic-squares-in-grid,0,1
 841,Keys and Rooms,2,keys-and-rooms,0,1
@@ -945,7 +945,7 @@ id,title,level,slug,paid,done
 944,Delete Columns to Make Sorted,1,delete-columns-to-make-sorted,0,0
 945,Minimum Increment to Make Array Unique,2,minimum-increment-to-make-array-unique,0,0
 946,Validate Stack Sequences,2,validate-stack-sequences,0,1
-947,Most Stones Removed with Same Row or Column,2,most-stones-removed-with-same-row-or-column,0,0
+947,Most Stones Removed with Same Row or Column,2,most-stones-removed-with-same-row-or-column,0,1
 948,Bag of Tokens,2,bag-of-tokens,0,1
 949,Largest Time for Given Digits,2,largest-time-for-given-digits,0,0
 950,Reveal Cards In Increasing Order,2,reveal-cards-in-increasing-order,0,0
@@ -988,7 +988,7 @@ id,title,level,slug,paid,done
 987,Vertical Order Traversal of a Binary Tree,3,vertical-order-traversal-of-a-binary-tree,0,1
 988,Smallest String Starting From Leaf,2,smallest-string-starting-from-leaf,0,0
 989,Add to Array-Form of Integer,1,add-to-array-form-of-integer,0,1
-990,Satisfiability of Equality Equations,2,satisfiability-of-equality-equations,0,0
+990,Satisfiability of Equality Equations,2,satisfiability-of-equality-equations,0,1
 991,Broken Calculator,2,broken-calculator,0,1
 992,Subarrays with K Different Integers,3,subarrays-with-k-different-integers,0,0
 993,Cousins in Binary Tree,1,cousins-in-binary-tree,0,1
@@ -2416,3 +2416,8 @@ id,title,level,slug,paid,done
 2415,Reverse Odd Levels of Binary Tree,2,reverse-odd-levels-of-binary-tree,0,0
 2416,Sum of Prefix Scores of Strings,3,sum-of-prefix-scores-of-strings,0,0
 2417,Closest Fair Integer,2,closest-fair-integer,1,0
+2418,Sort the People,1,sort-the-people,0,0
+2419,Longest Subarray With Maximum Bitwise AND,2,longest-subarray-with-maximum-bitwise-and,0,0
+2420,Find All Good Indices,2,find-all-good-indices,0,0
+2421,Number of Good Paths,3,number-of-good-paths,0,0
+2422,Merge Operations to Turn Array Into a Palindrome,2,merge-operations-to-turn-array-into-a-palindrome,1,0
