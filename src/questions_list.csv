@@ -643,7 +643,7 @@ id,title,level,slug,paid,done
 642,Design Search Autocomplete System,3,design-search-autocomplete-system,1,0
 643,Maximum Average Subarray I,1,maximum-average-subarray-i,0,1
 644,Maximum Average Subarray II,3,maximum-average-subarray-ii,1,0
-645,Set Mismatch,1,set-mismatch,0,0
+645,Set Mismatch,1,set-mismatch,0,1
 646,Maximum Length of Pair Chain,2,maximum-length-of-pair-chain,0,0
 647,Palindromic Substrings,2,palindromic-substrings,0,1
 648,Replace Words,2,replace-words,0,0
@@ -2421,3 +2421,11 @@ id,title,level,slug,paid,done
 2420,Find All Good Indices,2,find-all-good-indices,0,0
 2421,Number of Good Paths,3,number-of-good-paths,0,0
 2422,Merge Operations to Turn Array Into a Palindrome,2,merge-operations-to-turn-array-into-a-palindrome,1,0
+2423,Remove Letter To Equalize Frequency,1,remove-letter-to-equalize-frequency,0,0
+2424,Longest Uploaded Prefix,2,longest-uploaded-prefix,0,0
+2425,Bitwise XOR of All Pairings,2,bitwise-xor-of-all-pairings,0,0
+2426,Number of Pairs Satisfying Inequality,3,number-of-pairs-satisfying-inequality,0,0
+2427,Number of Common Factors,1,number-of-common-factors,0,0
+2428,Maximum Sum of an Hourglass,2,maximum-sum-of-an-hourglass,0,0
+2429,Minimize XOR,2,minimize-xor,0,0
+2430,Maximum Deletions on a String,3,maximum-deletions-on-a-string,0,0

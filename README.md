@@ -668,7 +668,7 @@ My daily challenge on leetcode since 2021/09/06.
 |🔒|642|[Design Search Autocomplete System](https://leetcode.com/problems/design-search-autocomplete-system/)|Hard|
 |[📎](src/q_601_650/q0643.cc)|643|[Maximum Average Subarray I](https://leetcode.com/problems/maximum-average-subarray-i/)|Easy|
 |🔒|644|[Maximum Average Subarray II](https://leetcode.com/problems/maximum-average-subarray-ii/)|Hard|
-||645|[Set Mismatch](https://leetcode.com/problems/set-mismatch/)|Easy|
+|[📎](src/q_601_650/q0645.cc)|645|[Set Mismatch](https://leetcode.com/problems/set-mismatch/)|Easy|
 ||646|[Maximum Length of Pair Chain](https://leetcode.com/problems/maximum-length-of-pair-chain/)|Medium|
 |[📎](src/q_601_650/q0647.cc)|647|[Palindromic Substrings](https://leetcode.com/problems/palindromic-substrings/)|Medium|
 ||648|[Replace Words](https://leetcode.com/problems/replace-words/)|Medium|
@@ -2312,7 +2312,7 @@ My daily challenge on leetcode since 2021/09/06.
 ||2250|[Count Number of Rectangles Containing Each Point](https://leetcode.com/problems/count-number-of-rectangles-containing-each-point/)|Medium|
 </details>
 <details>
-  <summary>### 2251 ~ 2422</summary>
+  <summary>### 2251 ~ 2430</summary>
 
 |</>|#|Solution Title|Difficulty|
 |:-:|--:|:--|:--|
@@ -2488,6 +2488,14 @@ My daily challenge on leetcode since 2021/09/06.
 ||2420|[Find All Good Indices](https://leetcode.com/problems/find-all-good-indices/)|Medium|
 ||2421|[Number of Good Paths](https://leetcode.com/problems/number-of-good-paths/)|Hard|
 |🔒|2422|[Merge Operations to Turn Array Into a Palindrome](https://leetcode.com/problems/merge-operations-to-turn-array-into-a-palindrome/)|Medium|
+||2423|[Remove Letter To Equalize Frequency](https://leetcode.com/problems/remove-letter-to-equalize-frequency/)|Easy|
+||2424|[Longest Uploaded Prefix](https://leetcode.com/problems/longest-uploaded-prefix/)|Medium|
+||2425|[Bitwise XOR of All Pairings](https://leetcode.com/problems/bitwise-xor-of-all-pairings/)|Medium|
+||2426|[Number of Pairs Satisfying Inequality](https://leetcode.com/problems/number-of-pairs-satisfying-inequality/)|Hard|
+||2427|[Number of Common Factors](https://leetcode.com/problems/number-of-common-factors/)|Easy|
+||2428|[Maximum Sum of an Hourglass](https://leetcode.com/problems/maximum-sum-of-an-hourglass/)|Medium|
+||2429|[Minimize XOR](https://leetcode.com/problems/minimize-xor/)|Medium|
+||2430|[Maximum Deletions on a String](https://leetcode.com/problems/maximum-deletions-on-a-string/)|Hard|
 </details>
 
 ---
@@ -2495,6 +2503,7 @@ My daily challenge on leetcode since 2021/09/06.
 
 |Time|#|</>|Question Title|Difficulty|
 |:--|--:|:-:|:--|:--|
+|2022-10-02 12:30|645|[📎](src/q_601_650/q0645.cc)|[Set Mismatch](https://leetcode.com/problems/set-mismatch/)|Easy|
 |2022-10-01 12:12|455|[📎](src/q_451_500/q0455.cc)|[Assign Cookies](https://leetcode.com/problems/assign-cookies/)|Easy|
 |2022-09-30 20:58|218|[📎](src/q_201_250/q0218.cc)|[The Skyline Problem](https://leetcode.com/problems/the-skyline-problem/)|Hard|
 |2022-09-29 17:28|214|[📎](src/q_201_250/q0214.cc)|[Shortest Palindrome](https://leetcode.com/problems/shortest-palindrome/)|Hard|
@@ -2519,13 +2528,12 @@ My daily challenge on leetcode since 2021/09/06.
 |2022-09-12 18:25|2131|[📎](src/q_2101_2150/q2131.cc)|[Longest Palindrome by Concatenating Two Letter Words](https://leetcode.com/problems/longest-palindrome-by-concatenating-two-letter-words/)|Medium|
 |2022-09-12 17:51|948|[📎](src/q_901_950/q0948.cc)|[Bag of Tokens](https://leetcode.com/problems/bag-of-tokens/)|Medium|
 |2022-09-11 14:17|1383|[📎](src/q_1351_1400/q1383.cc)|[Maximum Performance of a Team](https://leetcode.com/problems/maximum-performance-of-a-team/)|Hard|
-|2022-09-10 20:38|188|[📎](src/q_151_200/q0188.cc)|[Best Time to Buy and Sell Stock IV](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iv/)|Hard|
 
 ## Previous Logs
 
 |Month|Submissions|Easy|Medium|Hard|
 |:--|:--|:--|:--|:--|
-|[October_2022](./assets/October_2022.md)|1|1|0|0|
+|[October_2022](./assets/October_2022.md)|2|2|0|0|
 |[September_2022](./assets/September_2022.md)|38|10|19|9|
 |[August_2022](./assets/August_2022.md)|48|15|24|9|
 |[July_2022](./assets/July_2022.md)|47|6|37|4|
