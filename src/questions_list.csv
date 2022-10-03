@@ -1576,7 +1576,7 @@ id,title,level,slug,paid,done
 1575,Count All Possible Routes,3,count-all-possible-routes,0,0
 1576,Replace All ?'s to Avoid Consecutive Repeating Characters,1,replace-all-s-to-avoid-consecutive-repeating-characters,0,1
 1577,Number of Ways Where Square of Number Is Equal to Product of Two Numbers,2,number-of-ways-where-square-of-number-is-equal-to-product-of-two-numbers,0,0
-1578,Minimum Time to Make Rope Colorful,2,minimum-time-to-make-rope-colorful,0,0
+1578,Minimum Time to Make Rope Colorful,2,minimum-time-to-make-rope-colorful,0,1
 1579,Remove Max Number of Edges to Keep Graph Fully Traversable,3,remove-max-number-of-edges-to-keep-graph-fully-traversable,0,0
 1580,Put Boxes Into the Warehouse II,2,put-boxes-into-the-warehouse-ii,1,0
 1581,Customer Who Visited but Did Not Make Any Transactions,1,customer-who-visited-but-did-not-make-any-transactions,0,0
