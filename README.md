@@ -848,7 +848,7 @@ My daily challenge on leetcode since 2021/09/06.
 ||816|[Ambiguous Coordinates](https://leetcode.com/problems/ambiguous-coordinates/)|Medium|
 ||817|[Linked List Components](https://leetcode.com/problems/linked-list-components/)|Medium|
 ||818|[Race Car](https://leetcode.com/problems/race-car/)|Hard|
-||819|[Most Common Word](https://leetcode.com/problems/most-common-word/)|Easy|
+|[📎](src/q_801_850/q0819.cc)|819|[Most Common Word](https://leetcode.com/problems/most-common-word/)|Easy|
 |[📎](src/q_801_850/q0820.cc)|820|[Short Encoding of Words](https://leetcode.com/problems/short-encoding-of-words/)|Medium|
 ||821|[Shortest Distance to a Character](https://leetcode.com/problems/shortest-distance-to-a-character/)|Easy|
 ||822|[Card Flipping Game](https://leetcode.com/problems/card-flipping-game/)|Medium|
@@ -2503,6 +2503,7 @@ My daily challenge on leetcode since 2021/09/06.
 
 |Time|#|</>|Question Title|Difficulty|
 |:--|--:|:-:|:--|:--|
+|2022-10-04 12:48|819|[📎](src/q_801_850/q0819.cc)|[Most Common Word](https://leetcode.com/problems/most-common-word/)|Easy|
 |2022-10-03 14:16|747|[📎](src/q_701_750/q0747.cc)|[Largest Number At Least Twice of Others](https://leetcode.com/problems/largest-number-at-least-twice-of-others/)|Easy|
 |2022-10-03 12:31|1578|[📎](src/q_1551_1600/q1578.cc)|[Minimum Time to Make Rope Colorful](https://leetcode.com/problems/minimum-time-to-make-rope-colorful/)|Medium|
 |2022-10-02 12:30|645|[📎](src/q_601_650/q0645.cc)|[Set Mismatch](https://leetcode.com/problems/set-mismatch/)|Easy|
@@ -2527,13 +2528,12 @@ My daily challenge on leetcode since 2021/09/06.
 |2022-09-15 20:09|2007|[📎](src/q_2001_2050/q2007.cc)|[Find Original Array From Doubled Array](https://leetcode.com/problems/find-original-array-from-doubled-array/)|Medium|
 |2022-09-14 15:01|1457|[📎](src/q_1451_1500/q1457.cc)|[Pseudo-Palindromic Paths in a Binary Tree](https://leetcode.com/problems/pseudo-palindromic-paths-in-a-binary-tree/)|Medium|
 |2022-09-13 18:08|541|[📎](src/q_501_550/q0541.cc)|[Reverse String II](https://leetcode.com/problems/reverse-string-ii/)|Easy|
-|2022-09-12 18:25|2131|[📎](src/q_2101_2150/q2131.cc)|[Longest Palindrome by Concatenating Two Letter Words](https://leetcode.com/problems/longest-palindrome-by-concatenating-two-letter-words/)|Medium|
 
 ## Previous Logs
 
 |Month|Submissions|Easy|Medium|Hard|
 |:--|:--|:--|:--|:--|
-|[October_2022](./assets/October_2022.md)|4|3|1|0|
+|[October_2022](./assets/October_2022.md)|5|4|1|0|
 |[September_2022](./assets/September_2022.md)|38|10|19|9|
 |[August_2022](./assets/August_2022.md)|48|15|24|9|
 |[July_2022](./assets/July_2022.md)|47|6|37|4|
