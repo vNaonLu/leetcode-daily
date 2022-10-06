@@ -2,6 +2,7 @@
 
 ||#|</>|Question Title|Difficulty|
 |:--|--:|:-:|:--|:--|
+|Day 6|933|[📎](../src/q_901_950/q0933.cc)|[Number of Recent Calls](https://leetcode.com/problems/number-of-recent-calls/)|Easy|
 |Day 5|868|[📎](../src/q_851_900/q0868.cc)|[Binary Gap](https://leetcode.com/problems/binary-gap/)|Easy|
 |Day 4|819|[📎](../src/q_801_850/q0819.cc)|[Most Common Word](https://leetcode.com/problems/most-common-word/)|Easy|
 |Day 3|747<br>1578|[📎](../src/q_701_750/q0747.cc)<br>[📎](../src/q_1551_1600/q1578.cc)|[Largest Number At Least Twice of Others](https://leetcode.com/problems/largest-number-at-least-twice-of-others/)<br>[Minimum Time to Make Rope Colorful](https://leetcode.com/problems/minimum-time-to-make-rope-colorful/)|Easy<br>Medium|
