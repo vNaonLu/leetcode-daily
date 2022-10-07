@@ -730,7 +730,7 @@ id,title,level,slug,paid,done
 729,My Calendar I,2,my-calendar-i,0,1
 730,Count Different Palindromic Subsequences,3,count-different-palindromic-subsequences,0,0
 731,My Calendar II,2,my-calendar-ii,0,0
-732,My Calendar III,3,my-calendar-iii,0,0
+732,My Calendar III,3,my-calendar-iii,0,1
 733,Flood Fill,1,flood-fill,0,1
 734,Sentence Similarity,1,sentence-similarity,1,0
 735,Asteroid Collision,2,asteroid-collision,0,1
@@ -2429,3 +2429,4 @@ id,title,level,slug,paid,done
 2428,Maximum Sum of an Hourglass,2,maximum-sum-of-an-hourglass,0,0
 2429,Minimize XOR,2,minimize-xor,0,0
 2430,Maximum Deletions on a String,3,maximum-deletions-on-a-string,0,0
+2431,Maximize Total Tastiness of Purchased Fruits,2,maximize-total-tastiness-of-purchased-fruits,1,0
