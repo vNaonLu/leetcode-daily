@@ -2,7 +2,7 @@
 
 ||#|</>|Question Title|Difficulty|
 |:--|--:|:-:|:--|:--|
-|Day 8|783|[📎](../src/q_751_800/q0783.cc)|[Minimum Distance Between BST Nodes](https://leetcode.com/problems/minimum-distance-between-bst-nodes/)|Easy|
+|Day 8|783<br>821|[📎](../src/q_751_800/q0783.cc)<br>[📎](../src/q_801_850/q0821.cc)|[Minimum Distance Between BST Nodes](https://leetcode.com/problems/minimum-distance-between-bst-nodes/)<br>[Shortest Distance to a Character](https://leetcode.com/problems/shortest-distance-to-a-character/)|Easy<br>Easy|
 |Day 7|732|[📎](../src/q_701_750/q0732.cc)|[My Calendar III](https://leetcode.com/problems/my-calendar-iii/)|Hard|
 |Day 6|933|[📎](../src/q_901_950/q0933.cc)|[Number of Recent Calls](https://leetcode.com/problems/number-of-recent-calls/)|Easy|
 |Day 5|868|[📎](../src/q_851_900/q0868.cc)|[Binary Gap](https://leetcode.com/problems/binary-gap/)|Easy|
