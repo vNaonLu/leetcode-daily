@@ -643,7 +643,7 @@ id,title,level,slug,paid,done
 642,Design Search Autocomplete System,3,design-search-autocomplete-system,1,0
 643,Maximum Average Subarray I,1,maximum-average-subarray-i,0,1
 644,Maximum Average Subarray II,3,maximum-average-subarray-ii,1,0
-645,Set Mismatch,1,set-mismatch,0,0
+645,Set Mismatch,1,set-mismatch,0,1
 646,Maximum Length of Pair Chain,2,maximum-length-of-pair-chain,0,0
 647,Palindromic Substrings,2,palindromic-substrings,0,1
 648,Replace Words,2,replace-words,0,0
@@ -730,7 +730,7 @@ id,title,level,slug,paid,done
 729,My Calendar I,2,my-calendar-i,0,1
 730,Count Different Palindromic Subsequences,3,count-different-palindromic-subsequences,0,0
 731,My Calendar II,2,my-calendar-ii,0,0
-732,My Calendar III,3,my-calendar-iii,0,0
+732,My Calendar III,3,my-calendar-iii,0,1
 733,Flood Fill,1,flood-fill,0,1
 734,Sentence Similarity,1,sentence-similarity,1,0
 735,Asteroid Collision,2,asteroid-collision,0,1
@@ -745,7 +745,7 @@ id,title,level,slug,paid,done
 744,Find Smallest Letter Greater Than Target,1,find-smallest-letter-greater-than-target,0,1
 745,Prefix and Suffix Search,3,prefix-and-suffix-search,0,1
 746,Min Cost Climbing Stairs,1,min-cost-climbing-stairs,0,1
-747,Largest Number At Least Twice of Others,1,largest-number-at-least-twice-of-others,0,0
+747,Largest Number At Least Twice of Others,1,largest-number-at-least-twice-of-others,0,1
 748,Shortest Completing Word,1,shortest-completing-word,0,0
 749,Contain Virus,3,contain-virus,0,0
 750,Number Of Corner Rectangles,2,number-of-corner-rectangles,1,0
@@ -781,7 +781,7 @@ id,title,level,slug,paid,done
 780,Reaching Points,3,reaching-points,0,0
 781,Rabbits in Forest,2,rabbits-in-forest,0,0
 782,Transform to Chessboard,3,transform-to-chessboard,0,1
-783,Minimum Distance Between BST Nodes,1,minimum-distance-between-bst-nodes,0,0
+783,Minimum Distance Between BST Nodes,1,minimum-distance-between-bst-nodes,0,1
 784,Letter Case Permutation,2,letter-case-permutation,0,1
 785,Is Graph Bipartite?,2,is-graph-bipartite,0,1
 786,K-th Smallest Prime Fraction,2,k-th-smallest-prime-fraction,0,0
@@ -817,9 +817,9 @@ id,title,level,slug,paid,done
 816,Ambiguous Coordinates,2,ambiguous-coordinates,0,0
 817,Linked List Components,2,linked-list-components,0,0
 818,Race Car,3,race-car,0,0
-819,Most Common Word,1,most-common-word,0,0
+819,Most Common Word,1,most-common-word,0,1
 820,Short Encoding of Words,2,short-encoding-of-words,0,1
-821,Shortest Distance to a Character,1,shortest-distance-to-a-character,0,0
+821,Shortest Distance to a Character,1,shortest-distance-to-a-character,0,1
 822,Card Flipping Game,2,card-flipping-game,0,0
 823,Binary Trees With Factors,2,binary-trees-with-factors,0,1
 824,Goat Latin,1,goat-latin,0,0
@@ -866,7 +866,7 @@ id,title,level,slug,paid,done
 865,Smallest Subtree with all the Deepest Nodes,2,smallest-subtree-with-all-the-deepest-nodes,0,0
 866,Prime Palindrome,2,prime-palindrome,0,0
 867,Transpose Matrix,1,transpose-matrix,0,1
-868,Binary Gap,1,binary-gap,0,0
+868,Binary Gap,1,binary-gap,0,1
 869,Reordered Power of 2,2,reordered-power-of-2,0,1
 870,Advantage Shuffle,2,advantage-shuffle,0,0
 871,Minimum Number of Refueling Stops,3,minimum-number-of-refueling-stops,0,1
@@ -931,7 +931,7 @@ id,title,level,slug,paid,done
 930,Binary Subarrays With Sum,2,binary-subarrays-with-sum,0,0
 931,Minimum Falling Path Sum,2,minimum-falling-path-sum,0,1
 932,Beautiful Array,2,beautiful-array,0,0
-933,Number of Recent Calls,1,number-of-recent-calls,0,0
+933,Number of Recent Calls,1,number-of-recent-calls,0,1
 934,Shortest Bridge,2,shortest-bridge,0,1
 935,Knight Dialer,2,knight-dialer,0,0
 936,Stamping The Sequence,3,stamping-the-sequence,0,1
@@ -1576,7 +1576,7 @@ id,title,level,slug,paid,done
 1575,Count All Possible Routes,3,count-all-possible-routes,0,0
 1576,Replace All ?'s to Avoid Consecutive Repeating Characters,1,replace-all-s-to-avoid-consecutive-repeating-characters,0,1
 1577,Number of Ways Where Square of Number Is Equal to Product of Two Numbers,2,number-of-ways-where-square-of-number-is-equal-to-product-of-two-numbers,0,0
-1578,Minimum Time to Make Rope Colorful,2,minimum-time-to-make-rope-colorful,0,0
+1578,Minimum Time to Make Rope Colorful,2,minimum-time-to-make-rope-colorful,0,1
 1579,Remove Max Number of Edges to Keep Graph Fully Traversable,3,remove-max-number-of-edges-to-keep-graph-fully-traversable,0,0
 1580,Put Boxes Into the Warehouse II,2,put-boxes-into-the-warehouse-ii,1,0
 1581,Customer Who Visited but Did Not Make Any Transactions,1,customer-who-visited-but-did-not-make-any-transactions,0,0
@@ -2421,3 +2421,12 @@ id,title,level,slug,paid,done
 2420,Find All Good Indices,2,find-all-good-indices,0,0
 2421,Number of Good Paths,3,number-of-good-paths,0,0
 2422,Merge Operations to Turn Array Into a Palindrome,2,merge-operations-to-turn-array-into-a-palindrome,1,0
+2423,Remove Letter To Equalize Frequency,1,remove-letter-to-equalize-frequency,0,0
+2424,Longest Uploaded Prefix,2,longest-uploaded-prefix,0,0
+2425,Bitwise XOR of All Pairings,2,bitwise-xor-of-all-pairings,0,0
+2426,Number of Pairs Satisfying Inequality,3,number-of-pairs-satisfying-inequality,0,0
+2427,Number of Common Factors,1,number-of-common-factors,0,0
+2428,Maximum Sum of an Hourglass,2,maximum-sum-of-an-hourglass,0,0
+2429,Minimize XOR,2,minimize-xor,0,0
+2430,Maximum Deletions on a String,3,maximum-deletions-on-a-string,0,0
+2431,Maximize Total Tastiness of Purchased Fruits,2,maximize-total-tastiness-of-purchased-fruits,1,0
