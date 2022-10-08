@@ -781,7 +781,7 @@ id,title,level,slug,paid,done
 780,Reaching Points,3,reaching-points,0,0
 781,Rabbits in Forest,2,rabbits-in-forest,0,0
 782,Transform to Chessboard,3,transform-to-chessboard,0,1
-783,Minimum Distance Between BST Nodes,1,minimum-distance-between-bst-nodes,0,0
+783,Minimum Distance Between BST Nodes,1,minimum-distance-between-bst-nodes,0,1
 784,Letter Case Permutation,2,letter-case-permutation,0,1
 785,Is Graph Bipartite?,2,is-graph-bipartite,0,1
 786,K-th Smallest Prime Fraction,2,k-th-smallest-prime-fraction,0,0
