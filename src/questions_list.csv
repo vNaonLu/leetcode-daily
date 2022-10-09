@@ -511,7 +511,7 @@ id,title,level,slug,paid,done
 510,Inorder Successor in BST II,2,inorder-successor-in-bst-ii,1,0
 511,Game Play Analysis I,1,game-play-analysis-i,0,0
 512,Game Play Analysis II,1,game-play-analysis-ii,1,0
-513,Find Bottom Left Tree Value,2,find-bottom-left-tree-value,0,0
+513,Find Bottom Left Tree Value,2,find-bottom-left-tree-value,0,1
 514,Freedom Trail,3,freedom-trail,0,0
 515,Find Largest Value in Each Tree Row,2,find-largest-value-in-each-tree-row,0,1
 516,Longest Palindromic Subsequence,2,longest-palindromic-subsequence,0,1

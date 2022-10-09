@@ -536,7 +536,7 @@ My daily challenge on leetcode since 2021/09/06.
 |🔒|510|[Inorder Successor in BST II](https://leetcode.com/problems/inorder-successor-in-bst-ii/)|Medium|
 ||511|[Game Play Analysis I](https://leetcode.com/problems/game-play-analysis-i/)|Easy|
 |🔒|512|[Game Play Analysis II](https://leetcode.com/problems/game-play-analysis-ii/)|Easy|
-||513|[Find Bottom Left Tree Value](https://leetcode.com/problems/find-bottom-left-tree-value/)|Medium|
+|[📎](src/q_501_550/q0513.cc)|513|[Find Bottom Left Tree Value](https://leetcode.com/problems/find-bottom-left-tree-value/)|Medium|
 ||514|[Freedom Trail](https://leetcode.com/problems/freedom-trail/)|Hard|
 |[📎](src/q_501_550/q0515.cc)|515|[Find Largest Value in Each Tree Row](https://leetcode.com/problems/find-largest-value-in-each-tree-row/)|Medium|
 |[📎](src/q_501_550/q0516.cc)|516|[Longest Palindromic Subsequence](https://leetcode.com/problems/longest-palindromic-subsequence/)|Medium|
@@ -2504,6 +2504,7 @@ My daily challenge on leetcode since 2021/09/06.
 
 |Time|#|</>|Question Title|Difficulty|
 |:--|--:|:-:|:--|:--|
+|2022-10-09 13:12|513|[📎](src/q_501_550/q0513.cc)|[Find Bottom Left Tree Value](https://leetcode.com/problems/find-bottom-left-tree-value/)|Medium|
 |2022-10-08 14:21|821|[📎](src/q_801_850/q0821.cc)|[Shortest Distance to a Character](https://leetcode.com/problems/shortest-distance-to-a-character/)|Easy|
 |2022-10-08 14:05|783|[📎](src/q_751_800/q0783.cc)|[Minimum Distance Between BST Nodes](https://leetcode.com/problems/minimum-distance-between-bst-nodes/)|Easy|
 |2022-10-07 10:11|732|[📎](src/q_701_750/q0732.cc)|[My Calendar III](https://leetcode.com/problems/my-calendar-iii/)|Hard|
@@ -2528,13 +2529,12 @@ My daily challenge on leetcode since 2021/09/06.
 |2022-09-21 22:10|985|[📎](src/q_951_1000/q0985.cc)|[Sum of Even Numbers After Queries](https://leetcode.com/problems/sum-of-even-numbers-after-queries/)|Medium|
 |2022-09-20 17:12|718|[📎](src/q_701_750/q0718.cc)|[Maximum Length of Repeated Subarray](https://leetcode.com/problems/maximum-length-of-repeated-subarray/)|Medium|
 |2022-09-19 17:46|609|[📎](src/q_601_650/q0609.cc)|[Find Duplicate File in System](https://leetcode.com/problems/find-duplicate-file-in-system/)|Medium|
-|2022-09-18 14:27|815|[📎](src/q_801_850/q0815.cc)|[Bus Routes](https://leetcode.com/problems/bus-routes/)|Hard|
 
 ## Previous Logs
 
 |Month|Submissions|Easy|Medium|Hard|
 |:--|:--|:--|:--|:--|
-|[October_2022](./assets/October_2022.md)|10|8|1|1|
+|[October_2022](./assets/October_2022.md)|11|8|2|1|
 |[September_2022](./assets/September_2022.md)|38|10|19|9|
 |[August_2022](./assets/August_2022.md)|48|15|24|9|
 |[July_2022](./assets/July_2022.md)|47|6|37|4|
