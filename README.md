@@ -678,7 +678,7 @@ My daily challenge on leetcode since 2021/09/06.
 ||652|[Find Duplicate Subtrees](https://leetcode.com/problems/find-duplicate-subtrees/)|Medium|
 |[📎](src/q_651_700/q0653.cc)|653|[Two Sum IV - Input is a BST](https://leetcode.com/problems/two-sum-iv-input-is-a-bst/)|Easy|
 |[📎](src/q_651_700/q0654.cc)|654|[Maximum Binary Tree](https://leetcode.com/problems/maximum-binary-tree/)|Medium|
-||655|[Print Binary Tree](https://leetcode.com/problems/print-binary-tree/)|Medium|
+|[📎](src/q_651_700/q0655.cc)|655|[Print Binary Tree](https://leetcode.com/problems/print-binary-tree/)|Medium|
 |🔒|656|[Coin Path](https://leetcode.com/problems/coin-path/)|Hard|
 ||657|[Robot Return to Origin](https://leetcode.com/problems/robot-return-to-origin/)|Easy|
 |[📎](src/q_651_700/q0658.cc)|658|[Find K Closest Elements](https://leetcode.com/problems/find-k-closest-elements/)|Medium|
@@ -2312,7 +2312,7 @@ My daily challenge on leetcode since 2021/09/06.
 ||2250|[Count Number of Rectangles Containing Each Point](https://leetcode.com/problems/count-number-of-rectangles-containing-each-point/)|Medium|
 </details>
 <details>
-  <summary>### 2251 ~ 2431</summary>
+  <summary>### 2251 ~ 2435</summary>
 
 |</>|#|Solution Title|Difficulty|
 |:-:|--:|:--|:--|
@@ -2497,6 +2497,10 @@ My daily challenge on leetcode since 2021/09/06.
 ||2429|[Minimize XOR](https://leetcode.com/problems/minimize-xor/)|Medium|
 ||2430|[Maximum Deletions on a String](https://leetcode.com/problems/maximum-deletions-on-a-string/)|Hard|
 |🔒|2431|[Maximize Total Tastiness of Purchased Fruits](https://leetcode.com/problems/maximize-total-tastiness-of-purchased-fruits/)|Medium|
+||2432|[The Employee That Worked on the Longest Task](https://leetcode.com/problems/the-employee-that-worked-on-the-longest-task/)|Easy|
+||2433|[Find The Original Array of Prefix Xor](https://leetcode.com/problems/find-the-original-array-of-prefix-xor/)|Medium|
+||2434|[Using a Robot to Print the Lexicographically Smallest String](https://leetcode.com/problems/using-a-robot-to-print-the-lexicographically-smallest-string/)|Medium|
+||2435|[Paths in Matrix Whose Sum Is Divisible by K](https://leetcode.com/problems/paths-in-matrix-whose-sum-is-divisible-by-k/)|Hard|
 </details>
 
 ---
@@ -2504,6 +2508,7 @@ My daily challenge on leetcode since 2021/09/06.
 
 |Time|#|</>|Question Title|Difficulty|
 |:--|--:|:-:|:--|:--|
+|2022-10-10 13:39|655|[📎](src/q_651_700/q0655.cc)|[Print Binary Tree](https://leetcode.com/problems/print-binary-tree/)|Medium|
 |2022-10-09 13:12|513|[📎](src/q_501_550/q0513.cc)|[Find Bottom Left Tree Value](https://leetcode.com/problems/find-bottom-left-tree-value/)|Medium|
 |2022-10-08 14:21|821|[📎](src/q_801_850/q0821.cc)|[Shortest Distance to a Character](https://leetcode.com/problems/shortest-distance-to-a-character/)|Easy|
 |2022-10-08 14:05|783|[📎](src/q_751_800/q0783.cc)|[Minimum Distance Between BST Nodes](https://leetcode.com/problems/minimum-distance-between-bst-nodes/)|Easy|
@@ -2528,13 +2533,12 @@ My daily challenge on leetcode since 2021/09/06.
 |2022-09-22 13:14|100|[📎](src/q_51_100/q0100.cc)|[Same Tree](https://leetcode.com/problems/same-tree/)|Easy|
 |2022-09-21 22:10|985|[📎](src/q_951_1000/q0985.cc)|[Sum of Even Numbers After Queries](https://leetcode.com/problems/sum-of-even-numbers-after-queries/)|Medium|
 |2022-09-20 17:12|718|[📎](src/q_701_750/q0718.cc)|[Maximum Length of Repeated Subarray](https://leetcode.com/problems/maximum-length-of-repeated-subarray/)|Medium|
-|2022-09-19 17:46|609|[📎](src/q_601_650/q0609.cc)|[Find Duplicate File in System](https://leetcode.com/problems/find-duplicate-file-in-system/)|Medium|
 
 ## Previous Logs
 
 |Month|Submissions|Easy|Medium|Hard|
 |:--|:--|:--|:--|:--|
-|[October_2022](./assets/October_2022.md)|11|8|2|1|
+|[October_2022](./assets/October_2022.md)|12|8|3|1|
 |[September_2022](./assets/September_2022.md)|38|10|19|9|
 |[August_2022](./assets/August_2022.md)|48|15|24|9|
 |[July_2022](./assets/July_2022.md)|47|6|37|4|
