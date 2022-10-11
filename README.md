@@ -582,7 +582,7 @@ My daily challenge on leetcode since 2021/09/06.
 |[📎](src/q_551_600/q0556.cc)|556|[Next Greater Element III](https://leetcode.com/problems/next-greater-element-iii/)|Medium|
 |[📎](src/q_551_600/q0557.cc)|557|[Reverse Words in a String III](https://leetcode.com/problems/reverse-words-in-a-string-iii/)|Easy|
 ||558|[Logical OR of Two Binary Grids Represented as Quad-Trees](https://leetcode.com/problems/logical-or-of-two-binary-grids-represented-as-quad-trees/)|Medium|
-||559|[Maximum Depth of N-ary Tree](https://leetcode.com/problems/maximum-depth-of-n-ary-tree/)|Easy|
+|[📎](src/q_551_600/q0559.cc)|559|[Maximum Depth of N-ary Tree](https://leetcode.com/problems/maximum-depth-of-n-ary-tree/)|Easy|
 |[📎](src/q_551_600/q0560.cc)|560|[Subarray Sum Equals K](https://leetcode.com/problems/subarray-sum-equals-k/)|Medium|
 |[📎](src/q_551_600/q0561.cc)|561|[Array Partition](https://leetcode.com/problems/array-partition/)|Easy|
 |🔒|562|[Longest Line of Consecutive One in Matrix](https://leetcode.com/problems/longest-line-of-consecutive-one-in-matrix/)|Medium|
@@ -2508,6 +2508,7 @@ My daily challenge on leetcode since 2021/09/06.
 
 |Time|#|</>|Question Title|Difficulty|
 |:--|--:|:-:|:--|:--|
+|2022-10-11 13:28|559|[📎](src/q_551_600/q0559.cc)|[Maximum Depth of N-ary Tree](https://leetcode.com/problems/maximum-depth-of-n-ary-tree/)|Easy|
 |2022-10-10 13:39|655|[📎](src/q_651_700/q0655.cc)|[Print Binary Tree](https://leetcode.com/problems/print-binary-tree/)|Medium|
 |2022-10-09 13:12|513|[📎](src/q_501_550/q0513.cc)|[Find Bottom Left Tree Value](https://leetcode.com/problems/find-bottom-left-tree-value/)|Medium|
 |2022-10-08 14:21|821|[📎](src/q_801_850/q0821.cc)|[Shortest Distance to a Character](https://leetcode.com/problems/shortest-distance-to-a-character/)|Easy|
@@ -2532,13 +2533,12 @@ My daily challenge on leetcode since 2021/09/06.
 |2022-09-23 17:38|232|[📎](src/q_201_250/q0232.cc)|[Implement Queue using Stacks](https://leetcode.com/problems/implement-queue-using-stacks/)|Easy|
 |2022-09-22 13:14|100|[📎](src/q_51_100/q0100.cc)|[Same Tree](https://leetcode.com/problems/same-tree/)|Easy|
 |2022-09-21 22:10|985|[📎](src/q_951_1000/q0985.cc)|[Sum of Even Numbers After Queries](https://leetcode.com/problems/sum-of-even-numbers-after-queries/)|Medium|
-|2022-09-20 17:12|718|[📎](src/q_701_750/q0718.cc)|[Maximum Length of Repeated Subarray](https://leetcode.com/problems/maximum-length-of-repeated-subarray/)|Medium|
 
 ## Previous Logs
 
 |Month|Submissions|Easy|Medium|Hard|
 |:--|:--|:--|:--|:--|
-|[October_2022](./assets/October_2022.md)|12|8|3|1|
+|[October_2022](./assets/October_2022.md)|13|9|3|1|
 |[September_2022](./assets/September_2022.md)|38|10|19|9|
 |[August_2022](./assets/August_2022.md)|48|15|24|9|
 |[July_2022](./assets/July_2022.md)|47|6|37|4|
