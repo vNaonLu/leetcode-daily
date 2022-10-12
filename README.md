@@ -994,7 +994,7 @@ My daily challenge on leetcode since 2021/09/06.
 ||962|[Maximum Width Ramp](https://leetcode.com/problems/maximum-width-ramp/)|Medium|
 ||963|[Minimum Area Rectangle II](https://leetcode.com/problems/minimum-area-rectangle-ii/)|Medium|
 ||964|[Least Operators to Express Number](https://leetcode.com/problems/least-operators-to-express-number/)|Hard|
-||965|[Univalued Binary Tree](https://leetcode.com/problems/univalued-binary-tree/)|Easy|
+|[📎](src/q_951_1000/q0965.cc)|965|[Univalued Binary Tree](https://leetcode.com/problems/univalued-binary-tree/)|Easy|
 ||966|[Vowel Spellchecker](https://leetcode.com/problems/vowel-spellchecker/)|Medium|
 |[📎](src/q_951_1000/q0967.cc)|967|[Numbers With Same Consecutive Differences](https://leetcode.com/problems/numbers-with-same-consecutive-differences/)|Medium|
 |[📎](src/q_951_1000/q0968.cc)|968|[Binary Tree Cameras](https://leetcode.com/problems/binary-tree-cameras/)|Hard|
@@ -2508,6 +2508,7 @@ My daily challenge on leetcode since 2021/09/06.
 
 |Time|#|</>|Question Title|Difficulty|
 |:--|--:|:-:|:--|:--|
+|2022-10-12 13:54|965|[📎](src/q_951_1000/q0965.cc)|[Univalued Binary Tree](https://leetcode.com/problems/univalued-binary-tree/)|Easy|
 |2022-10-11 13:28|559|[📎](src/q_551_600/q0559.cc)|[Maximum Depth of N-ary Tree](https://leetcode.com/problems/maximum-depth-of-n-ary-tree/)|Easy|
 |2022-10-10 13:39|655|[📎](src/q_651_700/q0655.cc)|[Print Binary Tree](https://leetcode.com/problems/print-binary-tree/)|Medium|
 |2022-10-09 13:12|513|[📎](src/q_501_550/q0513.cc)|[Find Bottom Left Tree Value](https://leetcode.com/problems/find-bottom-left-tree-value/)|Medium|
@@ -2532,13 +2533,12 @@ My daily challenge on leetcode since 2021/09/06.
 |2022-09-24 12:55|590|[📎](src/q_551_600/q0590.cc)|[N-ary Tree Postorder Traversal](https://leetcode.com/problems/n-ary-tree-postorder-traversal/)|Easy|
 |2022-09-23 17:38|232|[📎](src/q_201_250/q0232.cc)|[Implement Queue using Stacks](https://leetcode.com/problems/implement-queue-using-stacks/)|Easy|
 |2022-09-22 13:14|100|[📎](src/q_51_100/q0100.cc)|[Same Tree](https://leetcode.com/problems/same-tree/)|Easy|
-|2022-09-21 22:10|985|[📎](src/q_951_1000/q0985.cc)|[Sum of Even Numbers After Queries](https://leetcode.com/problems/sum-of-even-numbers-after-queries/)|Medium|
 
 ## Previous Logs
 
 |Month|Submissions|Easy|Medium|Hard|
 |:--|:--|:--|:--|:--|
-|[October_2022](./assets/October_2022.md)|13|9|3|1|
+|[October_2022](./assets/October_2022.md)|14|10|3|1|
 |[September_2022](./assets/September_2022.md)|38|10|19|9|
 |[August_2022](./assets/August_2022.md)|48|15|24|9|
 |[July_2022](./assets/July_2022.md)|47|6|37|4|

@@ -963,7 +963,7 @@ id,title,level,slug,paid,done
 962,Maximum Width Ramp,2,maximum-width-ramp,0,0
 963,Minimum Area Rectangle II,2,minimum-area-rectangle-ii,0,0
 964,Least Operators to Express Number,3,least-operators-to-express-number,0,0
-965,Univalued Binary Tree,1,univalued-binary-tree,0,0
+965,Univalued Binary Tree,1,univalued-binary-tree,0,1
 966,Vowel Spellchecker,2,vowel-spellchecker,0,0
 967,Numbers With Same Consecutive Differences,2,numbers-with-same-consecutive-differences,0,1
 968,Binary Tree Cameras,3,binary-tree-cameras,0,1
