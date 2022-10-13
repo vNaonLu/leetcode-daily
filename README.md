@@ -2295,7 +2295,7 @@ My daily challenge on leetcode since 2021/09/06.
 ||2233|[Maximum Product After K Increments](https://leetcode.com/problems/maximum-product-after-k-increments/)|Medium|
 ||2234|[Maximum Total Beauty of the Gardens](https://leetcode.com/problems/maximum-total-beauty-of-the-gardens/)|Hard|
 ||2235|[Add Two Integers](https://leetcode.com/problems/add-two-integers/)|Easy|
-||2236|[Root Equals Sum of Children](https://leetcode.com/problems/root-equals-sum-of-children/)|Easy|
+|[📎](src/q_2201_2250/q2236.cc)|2236|[Root Equals Sum of Children](https://leetcode.com/problems/root-equals-sum-of-children/)|Easy|
 |🔒|2237|[Count Positions on Street With Required Brightness](https://leetcode.com/problems/count-positions-on-street-with-required-brightness/)|Medium|
 |🔒|2238|[Number of Times a Driver Was a Passenger](https://leetcode.com/problems/number-of-times-a-driver-was-a-passenger/)|Medium|
 ||2239|[Find Closest Number to Zero](https://leetcode.com/problems/find-closest-number-to-zero/)|Easy|
@@ -2312,7 +2312,7 @@ My daily challenge on leetcode since 2021/09/06.
 ||2250|[Count Number of Rectangles Containing Each Point](https://leetcode.com/problems/count-number-of-rectangles-containing-each-point/)|Medium|
 </details>
 <details>
-  <summary>### 2251 ~ 2435</summary>
+  <summary>### 2251 ~ 2436</summary>
 
 |</>|#|Solution Title|Difficulty|
 |:-:|--:|:--|:--|
@@ -2501,6 +2501,7 @@ My daily challenge on leetcode since 2021/09/06.
 ||2433|[Find The Original Array of Prefix Xor](https://leetcode.com/problems/find-the-original-array-of-prefix-xor/)|Medium|
 ||2434|[Using a Robot to Print the Lexicographically Smallest String](https://leetcode.com/problems/using-a-robot-to-print-the-lexicographically-smallest-string/)|Medium|
 ||2435|[Paths in Matrix Whose Sum Is Divisible by K](https://leetcode.com/problems/paths-in-matrix-whose-sum-is-divisible-by-k/)|Hard|
+|🔒|2436|[Minimum Split Into Subarrays With GCD Greater Than One](https://leetcode.com/problems/minimum-split-into-subarrays-with-gcd-greater-than-one/)|Medium|
 </details>
 
 ---
@@ -2508,6 +2509,7 @@ My daily challenge on leetcode since 2021/09/06.
 
 |Time|#|</>|Question Title|Difficulty|
 |:--|--:|:-:|:--|:--|
+|2022-10-13 13:19|2236|[📎](src/q_2201_2250/q2236.cc)|[Root Equals Sum of Children](https://leetcode.com/problems/root-equals-sum-of-children/)|Easy|
 |2022-10-12 13:54|965|[📎](src/q_951_1000/q0965.cc)|[Univalued Binary Tree](https://leetcode.com/problems/univalued-binary-tree/)|Easy|
 |2022-10-11 13:28|559|[📎](src/q_551_600/q0559.cc)|[Maximum Depth of N-ary Tree](https://leetcode.com/problems/maximum-depth-of-n-ary-tree/)|Easy|
 |2022-10-10 13:39|655|[📎](src/q_651_700/q0655.cc)|[Print Binary Tree](https://leetcode.com/problems/print-binary-tree/)|Medium|
@@ -2532,13 +2534,12 @@ My daily challenge on leetcode since 2021/09/06.
 |2022-09-25 18:35|735|[📎](src/q_701_750/q0735.cc)|[Asteroid Collision](https://leetcode.com/problems/asteroid-collision/)|Medium|
 |2022-09-24 12:55|590|[📎](src/q_551_600/q0590.cc)|[N-ary Tree Postorder Traversal](https://leetcode.com/problems/n-ary-tree-postorder-traversal/)|Easy|
 |2022-09-23 17:38|232|[📎](src/q_201_250/q0232.cc)|[Implement Queue using Stacks](https://leetcode.com/problems/implement-queue-using-stacks/)|Easy|
-|2022-09-22 13:14|100|[📎](src/q_51_100/q0100.cc)|[Same Tree](https://leetcode.com/problems/same-tree/)|Easy|
 
 ## Previous Logs
 
 |Month|Submissions|Easy|Medium|Hard|
 |:--|:--|:--|:--|:--|
-|[October_2022](./assets/October_2022.md)|14|10|3|1|
+|[October_2022](./assets/October_2022.md)|15|11|3|1|
 |[September_2022](./assets/September_2022.md)|38|10|19|9|
 |[August_2022](./assets/August_2022.md)|48|15|24|9|
 |[July_2022](./assets/July_2022.md)|47|6|37|4|

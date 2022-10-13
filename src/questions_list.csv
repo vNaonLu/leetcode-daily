@@ -2234,7 +2234,7 @@ id,title,level,slug,paid,done
 2233,Maximum Product After K Increments,2,maximum-product-after-k-increments,0,0
 2234,Maximum Total Beauty of the Gardens,3,maximum-total-beauty-of-the-gardens,0,0
 2235,Add Two Integers,1,add-two-integers,0,0
-2236,Root Equals Sum of Children,1,root-equals-sum-of-children,0,0
+2236,Root Equals Sum of Children,1,root-equals-sum-of-children,0,1
 2237,Count Positions on Street With Required Brightness,2,count-positions-on-street-with-required-brightness,1,0
 2238,Number of Times a Driver Was a Passenger,2,number-of-times-a-driver-was-a-passenger,1,0
 2239,Find Closest Number to Zero,1,find-closest-number-to-zero,0,0
@@ -2434,3 +2434,4 @@ id,title,level,slug,paid,done
 2433,Find The Original Array of Prefix Xor,2,find-the-original-array-of-prefix-xor,0,0
 2434,Using a Robot to Print the Lexicographically Smallest String,2,using-a-robot-to-print-the-lexicographically-smallest-string,0,0
 2435,Paths in Matrix Whose Sum Is Divisible by K,3,paths-in-matrix-whose-sum-is-divisible-by-k,0,0
+2436,Minimum Split Into Subarrays With GCD Greater Than One,2,minimum-split-into-subarrays-with-gcd-greater-than-one,1,0

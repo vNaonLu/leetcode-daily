@@ -2,6 +2,7 @@
 
 ||#|</>|Question Title|Difficulty|
 |:--|--:|:-:|:--|:--|
+|Day 13|2236|[📎](../src/q_2201_2250/q2236.cc)|[Root Equals Sum of Children](https://leetcode.com/problems/root-equals-sum-of-children/)|Easy|
 |Day 12|965|[📎](../src/q_951_1000/q0965.cc)|[Univalued Binary Tree](https://leetcode.com/problems/univalued-binary-tree/)|Easy|
 |Day 11|559|[📎](../src/q_551_600/q0559.cc)|[Maximum Depth of N-ary Tree](https://leetcode.com/problems/maximum-depth-of-n-ary-tree/)|Easy|
 |Day 10|655|[📎](../src/q_651_700/q0655.cc)|[Print Binary Tree](https://leetcode.com/problems/print-binary-tree/)|Medium|
