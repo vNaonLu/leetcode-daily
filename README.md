@@ -1578,7 +1578,7 @@ My daily challenge on leetcode since 2021/09/06.
 ||1528|[Shuffle String](https://leetcode.com/problems/shuffle-string/)|Easy|
 |[📎](src/q_1501_1550/q1529.cc)|1529|[Minimum Suffix Flips](https://leetcode.com/problems/minimum-suffix-flips/)|Medium|
 ||1530|[Number of Good Leaf Nodes Pairs](https://leetcode.com/problems/number-of-good-leaf-nodes-pairs/)|Medium|
-||1531|[String Compression II](https://leetcode.com/problems/string-compression-ii/)|Hard|
+|[📎](src/q_1501_1550/q1531.cc)|1531|[String Compression II](https://leetcode.com/problems/string-compression-ii/)|Hard|
 |🔒|1532|[The Most Recent Three Orders](https://leetcode.com/problems/the-most-recent-three-orders/)|Medium|
 |🔒|1533|[Find the Index of the Large Integer](https://leetcode.com/problems/find-the-index-of-the-large-integer/)|Medium|
 |[📎](src/q_1501_1550/q1534.cc)|1534|[Count Good Triplets](https://leetcode.com/problems/count-good-triplets/)|Easy|
@@ -2509,6 +2509,7 @@ My daily challenge on leetcode since 2021/09/06.
 
 |Time|#|</>|Question Title|Difficulty|
 |:--|--:|:-:|:--|:--|
+|2022-10-15 13:26|1531|[📎](src/q_1501_1550/q1531.cc)|[String Compression II](https://leetcode.com/problems/string-compression-ii/)|Hard|
 |2022-10-14 10:08|2095|[📎](src/q_2051_2100/q2095.cc)|[Delete the Middle Node of a Linked List](https://leetcode.com/problems/delete-the-middle-node-of-a-linked-list/)|Medium|
 |2022-10-13 13:19|2236|[📎](src/q_2201_2250/q2236.cc)|[Root Equals Sum of Children](https://leetcode.com/problems/root-equals-sum-of-children/)|Easy|
 |2022-10-12 13:54|965|[📎](src/q_951_1000/q0965.cc)|[Univalued Binary Tree](https://leetcode.com/problems/univalued-binary-tree/)|Easy|
@@ -2533,13 +2534,12 @@ My daily challenge on leetcode since 2021/09/06.
 |2022-09-26 17:46|947|[📎](src/q_901_950/q0947.cc)|[Most Stones Removed with Same Row or Column](https://leetcode.com/problems/most-stones-removed-with-same-row-or-column/)|Medium|
 |2022-09-26 17:37|990|[📎](src/q_951_1000/q0990.cc)|[Satisfiability of Equality Equations](https://leetcode.com/problems/satisfiability-of-equality-equations/)|Medium|
 |2022-09-25 18:35|735|[📎](src/q_701_750/q0735.cc)|[Asteroid Collision](https://leetcode.com/problems/asteroid-collision/)|Medium|
-|2022-09-24 12:55|590|[📎](src/q_551_600/q0590.cc)|[N-ary Tree Postorder Traversal](https://leetcode.com/problems/n-ary-tree-postorder-traversal/)|Easy|
 
 ## Previous Logs
 
 |Month|Submissions|Easy|Medium|Hard|
 |:--|:--|:--|:--|:--|
-|[October_2022](./assets/October_2022.md)|16|11|4|1|
+|[October_2022](./assets/October_2022.md)|17|11|4|2|
 |[September_2022](./assets/September_2022.md)|38|10|19|9|
 |[August_2022](./assets/August_2022.md)|48|15|24|9|
 |[July_2022](./assets/July_2022.md)|47|6|37|4|
