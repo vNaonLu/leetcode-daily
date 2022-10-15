@@ -511,7 +511,7 @@ id,title,level,slug,paid,done
 510,Inorder Successor in BST II,2,inorder-successor-in-bst-ii,1,0
 511,Game Play Analysis I,1,game-play-analysis-i,0,0
 512,Game Play Analysis II,1,game-play-analysis-ii,1,0
-513,Find Bottom Left Tree Value,2,find-bottom-left-tree-value,0,0
+513,Find Bottom Left Tree Value,2,find-bottom-left-tree-value,0,1
 514,Freedom Trail,3,freedom-trail,0,0
 515,Find Largest Value in Each Tree Row,2,find-largest-value-in-each-tree-row,0,1
 516,Longest Palindromic Subsequence,2,longest-palindromic-subsequence,0,1
@@ -557,7 +557,7 @@ id,title,level,slug,paid,done
 556,Next Greater Element III,2,next-greater-element-iii,0,1
 557,Reverse Words in a String III,1,reverse-words-in-a-string-iii,0,1
 558,Logical OR of Two Binary Grids Represented as Quad-Trees,2,logical-or-of-two-binary-grids-represented-as-quad-trees,0,0
-559,Maximum Depth of N-ary Tree,1,maximum-depth-of-n-ary-tree,0,0
+559,Maximum Depth of N-ary Tree,1,maximum-depth-of-n-ary-tree,0,1
 560,Subarray Sum Equals K,2,subarray-sum-equals-k,0,1
 561,Array Partition,1,array-partition,0,1
 562,Longest Line of Consecutive One in Matrix,2,longest-line-of-consecutive-one-in-matrix,1,0
@@ -653,7 +653,7 @@ id,title,level,slug,paid,done
 652,Find Duplicate Subtrees,2,find-duplicate-subtrees,0,0
 653,Two Sum IV - Input is a BST,1,two-sum-iv-input-is-a-bst,0,1
 654,Maximum Binary Tree,2,maximum-binary-tree,0,1
-655,Print Binary Tree,2,print-binary-tree,0,0
+655,Print Binary Tree,2,print-binary-tree,0,1
 656,Coin Path,3,coin-path,1,0
 657,Robot Return to Origin,1,robot-return-to-origin,0,0
 658,Find K Closest Elements,2,find-k-closest-elements,0,1
@@ -963,7 +963,7 @@ id,title,level,slug,paid,done
 962,Maximum Width Ramp,2,maximum-width-ramp,0,0
 963,Minimum Area Rectangle II,2,minimum-area-rectangle-ii,0,0
 964,Least Operators to Express Number,3,least-operators-to-express-number,0,0
-965,Univalued Binary Tree,1,univalued-binary-tree,0,0
+965,Univalued Binary Tree,1,univalued-binary-tree,0,1
 966,Vowel Spellchecker,2,vowel-spellchecker,0,0
 967,Numbers With Same Consecutive Differences,2,numbers-with-same-consecutive-differences,0,1
 968,Binary Tree Cameras,3,binary-tree-cameras,0,1
@@ -1529,7 +1529,7 @@ id,title,level,slug,paid,done
 1528,Shuffle String,1,shuffle-string,0,0
 1529,Minimum Suffix Flips,2,minimum-suffix-flips,0,1
 1530,Number of Good Leaf Nodes Pairs,2,number-of-good-leaf-nodes-pairs,0,0
-1531,String Compression II,3,string-compression-ii,0,0
+1531,String Compression II,3,string-compression-ii,0,1
 1532,The Most Recent Three Orders,2,the-most-recent-three-orders,1,0
 1533,Find the Index of the Large Integer,2,find-the-index-of-the-large-integer,1,0
 1534,Count Good Triplets,1,count-good-triplets,0,1
@@ -2093,7 +2093,7 @@ id,title,level,slug,paid,done
 2092,Find All People With Secret,3,find-all-people-with-secret,0,0
 2093,Minimum Cost to Reach City With Discounts,2,minimum-cost-to-reach-city-with-discounts,1,0
 2094,Finding 3-Digit Even Numbers,1,finding-3-digit-even-numbers,0,0
-2095,Delete the Middle Node of a Linked List,2,delete-the-middle-node-of-a-linked-list,0,0
+2095,Delete the Middle Node of a Linked List,2,delete-the-middle-node-of-a-linked-list,0,1
 2096,Step-By-Step Directions From a Binary Tree Node to Another,2,step-by-step-directions-from-a-binary-tree-node-to-another,0,0
 2097,Valid Arrangement of Pairs,3,valid-arrangement-of-pairs,0,0
 2098,Subsequence of Size K With the Largest Even Sum,2,subsequence-of-size-k-with-the-largest-even-sum,1,0
@@ -2234,7 +2234,7 @@ id,title,level,slug,paid,done
 2233,Maximum Product After K Increments,2,maximum-product-after-k-increments,0,0
 2234,Maximum Total Beauty of the Gardens,3,maximum-total-beauty-of-the-gardens,0,0
 2235,Add Two Integers,1,add-two-integers,0,0
-2236,Root Equals Sum of Children,1,root-equals-sum-of-children,0,0
+2236,Root Equals Sum of Children,1,root-equals-sum-of-children,0,1
 2237,Count Positions on Street With Required Brightness,2,count-positions-on-street-with-required-brightness,1,0
 2238,Number of Times a Driver Was a Passenger,2,number-of-times-a-driver-was-a-passenger,1,0
 2239,Find Closest Number to Zero,1,find-closest-number-to-zero,0,0
@@ -2430,3 +2430,8 @@ id,title,level,slug,paid,done
 2429,Minimize XOR,2,minimize-xor,0,0
 2430,Maximum Deletions on a String,3,maximum-deletions-on-a-string,0,0
 2431,Maximize Total Tastiness of Purchased Fruits,2,maximize-total-tastiness-of-purchased-fruits,1,0
+2432,The Employee That Worked on the Longest Task,1,the-employee-that-worked-on-the-longest-task,0,0
+2433,Find The Original Array of Prefix Xor,2,find-the-original-array-of-prefix-xor,0,0
+2434,Using a Robot to Print the Lexicographically Smallest String,2,using-a-robot-to-print-the-lexicographically-smallest-string,0,0
+2435,Paths in Matrix Whose Sum Is Divisible by K,3,paths-in-matrix-whose-sum-is-divisible-by-k,0,0
+2436,Minimum Split Into Subarrays With GCD Greater Than One,2,minimum-split-into-subarrays-with-gcd-greater-than-one,1,0
