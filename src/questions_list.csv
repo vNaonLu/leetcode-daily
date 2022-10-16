@@ -1333,7 +1333,7 @@ id,title,level,slug,paid,done
 1332,Remove Palindromic Subsequences,1,remove-palindromic-subsequences,0,1
 1333,"Filter Restaurants by Vegan-Friendly, Price and Distance",2,filter-restaurants-by-vegan-friendly-price-and-distance,0,0
 1334,Find the City With the Smallest Number of Neighbors at a Threshold Distance,2,find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance,0,0
-1335,Minimum Difficulty of a Job Schedule,3,minimum-difficulty-of-a-job-schedule,0,0
+1335,Minimum Difficulty of a Job Schedule,3,minimum-difficulty-of-a-job-schedule,0,1
 1336,Number of Transactions per Visit,3,number-of-transactions-per-visit,1,0
 1337,The K Weakest Rows in a Matrix,1,the-k-weakest-rows-in-a-matrix,0,1
 1338,Reduce Array Size to The Half,2,reduce-array-size-to-the-half,0,1
@@ -2435,3 +2435,11 @@ id,title,level,slug,paid,done
 2434,Using a Robot to Print the Lexicographically Smallest String,2,using-a-robot-to-print-the-lexicographically-smallest-string,0,0
 2435,Paths in Matrix Whose Sum Is Divisible by K,3,paths-in-matrix-whose-sum-is-divisible-by-k,0,0
 2436,Minimum Split Into Subarrays With GCD Greater Than One,2,minimum-split-into-subarrays-with-gcd-greater-than-one,1,0
+2437,Number of Valid Clock Times,1,number-of-valid-clock-times,0,0
+2438,Range Product Queries of Powers,2,range-product-queries-of-powers,0,0
+2439,Minimize Maximum of Array,2,minimize-maximum-of-array,0,0
+2440,Create Components With Same Value,3,create-components-with-same-value,0,0
+2441,Largest Positive Integer That Exists With Its Negative,1,largest-positive-integer-that-exists-with-its-negative,0,0
+2442,Count Number of Distinct Integers After Reverse Operations,2,count-number-of-distinct-integers-after-reverse-operations,0,0
+2443,Sum of Number and Its Reverse,2,sum-of-number-and-its-reverse,0,0
+2444,Count Subarrays With Fixed Bounds,3,count-subarrays-with-fixed-bounds,0,0
