@@ -1885,7 +1885,7 @@ My daily challenge on leetcode since 2021/09/06.
 |[📎](src/q_1801_1850/q1829.cc)|1829|[Maximum XOR for Each Query](https://leetcode.com/problems/maximum-xor-for-each-query/)|Medium|
 ||1830|[Minimum Number of Operations to Make String Sorted](https://leetcode.com/problems/minimum-number-of-operations-to-make-string-sorted/)|Hard|
 |🔒|1831|[Maximum Transaction Each Day](https://leetcode.com/problems/maximum-transaction-each-day/)|Medium|
-||1832|[Check if the Sentence Is Pangram](https://leetcode.com/problems/check-if-the-sentence-is-pangram/)|Easy|
+|[📎](src/q_1801_1850/q1832.cc)|1832|[Check if the Sentence Is Pangram](https://leetcode.com/problems/check-if-the-sentence-is-pangram/)|Easy|
 ||1833|[Maximum Ice Cream Bars](https://leetcode.com/problems/maximum-ice-cream-bars/)|Medium|
 ||1834|[Single-Threaded CPU](https://leetcode.com/problems/single-threaded-cpu/)|Medium|
 ||1835|[Find XOR Sum of All Pairs Bitwise AND](https://leetcode.com/problems/find-xor-sum-of-all-pairs-bitwise-and/)|Hard|
@@ -2517,6 +2517,7 @@ My daily challenge on leetcode since 2021/09/06.
 
 |Time|#|</>|Question Title|Difficulty|
 |:--|--:|:-:|:--|:--|
+|2022-10-17 15:18|1832|[📎](src/q_1801_1850/q1832.cc)|[Check if the Sentence Is Pangram](https://leetcode.com/problems/check-if-the-sentence-is-pangram/)|Easy|
 |2022-10-16 14:40|1335|[📎](src/q_1301_1350/q1335.cc)|[Minimum Difficulty of a Job Schedule](https://leetcode.com/problems/minimum-difficulty-of-a-job-schedule/)|Hard|
 |2022-10-15 13:26|1531|[📎](src/q_1501_1550/q1531.cc)|[String Compression II](https://leetcode.com/problems/string-compression-ii/)|Hard|
 |2022-10-14 10:08|2095|[📎](src/q_2051_2100/q2095.cc)|[Delete the Middle Node of a Linked List](https://leetcode.com/problems/delete-the-middle-node-of-a-linked-list/)|Medium|
@@ -2541,13 +2542,12 @@ My daily challenge on leetcode since 2021/09/06.
 |2022-09-28 17:49|661|[📎](src/q_651_700/q0661.cc)|[Image Smoother](https://leetcode.com/problems/image-smoother/)|Easy|
 |2022-09-27 18:43|838|[📎](src/q_801_850/q0838.cc)|[Push Dominoes](https://leetcode.com/problems/push-dominoes/)|Medium|
 |2022-09-26 17:46|947|[📎](src/q_901_950/q0947.cc)|[Most Stones Removed with Same Row or Column](https://leetcode.com/problems/most-stones-removed-with-same-row-or-column/)|Medium|
-|2022-09-26 17:37|990|[📎](src/q_951_1000/q0990.cc)|[Satisfiability of Equality Equations](https://leetcode.com/problems/satisfiability-of-equality-equations/)|Medium|
 
 ## Previous Logs
 
 |Month|Submissions|Easy|Medium|Hard|
 |:--|:--|:--|:--|:--|
-|[October_2022](./assets/October_2022.md)|18|11|4|3|
+|[October_2022](./assets/October_2022.md)|19|12|4|3|
 |[September_2022](./assets/September_2022.md)|38|10|19|9|
 |[August_2022](./assets/August_2022.md)|48|15|24|9|
 |[July_2022](./assets/July_2022.md)|47|6|37|4|
