@@ -2396,7 +2396,7 @@ My daily challenge on leetcode since 2021/09/06.
 ||2328|[Number of Increasing Paths in a Grid](https://leetcode.com/problems/number-of-increasing-paths-in-a-grid/)|Hard|
 |🔒|2329|[Product Sales Analysis V](https://leetcode.com/problems/product-sales-analysis-v/)|Easy|
 |🔒|2330|[Valid Palindrome IV](https://leetcode.com/problems/valid-palindrome-iv/)|Medium|
-||2331|[Evaluate Boolean Binary Tree](https://leetcode.com/problems/evaluate-boolean-binary-tree/)|Easy|
+|[📎](src/q_2301_2350/q2331.cc)|2331|[Evaluate Boolean Binary Tree](https://leetcode.com/problems/evaluate-boolean-binary-tree/)|Easy|
 ||2332|[The Latest Time to Catch a Bus](https://leetcode.com/problems/the-latest-time-to-catch-a-bus/)|Medium|
 ||2333|[Minimum Sum of Squared Difference](https://leetcode.com/problems/minimum-sum-of-squared-difference/)|Medium|
 ||2334|[Subarray With Elements Greater Than Varying Threshold](https://leetcode.com/problems/subarray-with-elements-greater-than-varying-threshold/)|Hard|
@@ -2517,6 +2517,7 @@ My daily challenge on leetcode since 2021/09/06.
 
 |Time|#|</>|Question Title|Difficulty|
 |:--|--:|:-:|:--|:--|
+|2022-10-18 14:13|2331|[📎](src/q_2301_2350/q2331.cc)|[Evaluate Boolean Binary Tree](https://leetcode.com/problems/evaluate-boolean-binary-tree/)|Easy|
 |2022-10-17 15:18|1832|[📎](src/q_1801_1850/q1832.cc)|[Check if the Sentence Is Pangram](https://leetcode.com/problems/check-if-the-sentence-is-pangram/)|Easy|
 |2022-10-16 14:40|1335|[📎](src/q_1301_1350/q1335.cc)|[Minimum Difficulty of a Job Schedule](https://leetcode.com/problems/minimum-difficulty-of-a-job-schedule/)|Hard|
 |2022-10-15 13:26|1531|[📎](src/q_1501_1550/q1531.cc)|[String Compression II](https://leetcode.com/problems/string-compression-ii/)|Hard|
@@ -2541,13 +2542,12 @@ My daily challenge on leetcode since 2021/09/06.
 |2022-09-29 17:22|87|[📎](src/q_51_100/q0087.cc)|[Scramble String](https://leetcode.com/problems/scramble-string/)|Hard|
 |2022-09-28 17:49|661|[📎](src/q_651_700/q0661.cc)|[Image Smoother](https://leetcode.com/problems/image-smoother/)|Easy|
 |2022-09-27 18:43|838|[📎](src/q_801_850/q0838.cc)|[Push Dominoes](https://leetcode.com/problems/push-dominoes/)|Medium|
-|2022-09-26 17:46|947|[📎](src/q_901_950/q0947.cc)|[Most Stones Removed with Same Row or Column](https://leetcode.com/problems/most-stones-removed-with-same-row-or-column/)|Medium|
 
 ## Previous Logs
 
 |Month|Submissions|Easy|Medium|Hard|
 |:--|:--|:--|:--|:--|
-|[October_2022](./assets/October_2022.md)|19|12|4|3|
+|[October_2022](./assets/October_2022.md)|20|13|4|3|
 |[September_2022](./assets/September_2022.md)|38|10|19|9|
 |[August_2022](./assets/August_2022.md)|48|15|24|9|
 |[July_2022](./assets/July_2022.md)|47|6|37|4|

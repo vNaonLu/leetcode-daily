@@ -2329,7 +2329,7 @@ id,title,level,slug,paid,done
 2328,Number of Increasing Paths in a Grid,3,number-of-increasing-paths-in-a-grid,0,0
 2329,Product Sales Analysis V,1,product-sales-analysis-v,1,0
 2330,Valid Palindrome IV,2,valid-palindrome-iv,1,0
-2331,Evaluate Boolean Binary Tree,1,evaluate-boolean-binary-tree,0,0
+2331,Evaluate Boolean Binary Tree,1,evaluate-boolean-binary-tree,0,1
 2332,The Latest Time to Catch a Bus,2,the-latest-time-to-catch-a-bus,0,0
 2333,Minimum Sum of Squared Difference,2,minimum-sum-of-squared-difference,0,0
 2334,Subarray With Elements Greater Than Varying Threshold,3,subarray-with-elements-greater-than-varying-threshold,0,0
