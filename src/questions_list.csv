@@ -870,7 +870,7 @@ id,title,level,slug,paid,done
 869,Reordered Power of 2,2,reordered-power-of-2,0,1
 870,Advantage Shuffle,2,advantage-shuffle,0,0
 871,Minimum Number of Refueling Stops,3,minimum-number-of-refueling-stops,0,1
-872,Leaf-Similar Trees,1,leaf-similar-trees,0,0
+872,Leaf-Similar Trees,1,leaf-similar-trees,0,1
 873,Length of Longest Fibonacci Subsequence,2,length-of-longest-fibonacci-subsequence,0,0
 874,Walking Robot Simulation,2,walking-robot-simulation,0,0
 875,Koko Eating Bananas,2,koko-eating-bananas,0,1
@@ -2443,3 +2443,4 @@ id,title,level,slug,paid,done
 2442,Count Number of Distinct Integers After Reverse Operations,2,count-number-of-distinct-integers-after-reverse-operations,0,0
 2443,Sum of Number and Its Reverse,2,sum-of-number-and-its-reverse,0,0
 2444,Count Subarrays With Fixed Bounds,3,count-subarrays-with-fixed-bounds,0,0
+2445,Number of Nodes With Value One,2,number-of-nodes-with-value-one,1,0

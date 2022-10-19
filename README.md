@@ -901,7 +901,7 @@ My daily challenge on leetcode since 2021/09/06.
 |[📎](src/q_851_900/q0869.cc)|869|[Reordered Power of 2](https://leetcode.com/problems/reordered-power-of-2/)|Medium|
 ||870|[Advantage Shuffle](https://leetcode.com/problems/advantage-shuffle/)|Medium|
 |[📎](src/q_851_900/q0871.cc)|871|[Minimum Number of Refueling Stops](https://leetcode.com/problems/minimum-number-of-refueling-stops/)|Hard|
-||872|[Leaf-Similar Trees](https://leetcode.com/problems/leaf-similar-trees/)|Easy|
+|[📎](src/q_851_900/q0872.cc)|872|[Leaf-Similar Trees](https://leetcode.com/problems/leaf-similar-trees/)|Easy|
 ||873|[Length of Longest Fibonacci Subsequence](https://leetcode.com/problems/length-of-longest-fibonacci-subsequence/)|Medium|
 ||874|[Walking Robot Simulation](https://leetcode.com/problems/walking-robot-simulation/)|Medium|
 |[📎](src/q_851_900/q0875.cc)|875|[Koko Eating Bananas](https://leetcode.com/problems/koko-eating-bananas/)|Medium|
@@ -2312,7 +2312,7 @@ My daily challenge on leetcode since 2021/09/06.
 ||2250|[Count Number of Rectangles Containing Each Point](https://leetcode.com/problems/count-number-of-rectangles-containing-each-point/)|Medium|
 </details>
 <details>
-  <summary>### 2251 ~ 2444</summary>
+  <summary>### 2251 ~ 2445</summary>
 
 |</>|#|Solution Title|Difficulty|
 |:-:|--:|:--|:--|
@@ -2510,6 +2510,7 @@ My daily challenge on leetcode since 2021/09/06.
 ||2442|[Count Number of Distinct Integers After Reverse Operations](https://leetcode.com/problems/count-number-of-distinct-integers-after-reverse-operations/)|Medium|
 ||2443|[Sum of Number and Its Reverse](https://leetcode.com/problems/sum-of-number-and-its-reverse/)|Medium|
 ||2444|[Count Subarrays With Fixed Bounds](https://leetcode.com/problems/count-subarrays-with-fixed-bounds/)|Hard|
+|🔒|2445|[Number of Nodes With Value One](https://leetcode.com/problems/number-of-nodes-with-value-one/)|Medium|
 </details>
 
 ---
@@ -2517,6 +2518,7 @@ My daily challenge on leetcode since 2021/09/06.
 
 |Time|#|</>|Question Title|Difficulty|
 |:--|--:|:-:|:--|:--|
+|2022-10-20 07:19|872|[📎](src/q_851_900/q0872.cc)|[Leaf-Similar Trees](https://leetcode.com/problems/leaf-similar-trees/)|Easy|
 |2022-10-19 09:00|671|[📎](src/q_651_700/q0671.cc)|[Second Minimum Node In a Binary Tree](https://leetcode.com/problems/second-minimum-node-in-a-binary-tree/)|Easy|
 |2022-10-18 14:13|2331|[📎](src/q_2301_2350/q2331.cc)|[Evaluate Boolean Binary Tree](https://leetcode.com/problems/evaluate-boolean-binary-tree/)|Easy|
 |2022-10-17 15:18|1832|[📎](src/q_1801_1850/q1832.cc)|[Check if the Sentence Is Pangram](https://leetcode.com/problems/check-if-the-sentence-is-pangram/)|Easy|
@@ -2541,13 +2543,12 @@ My daily challenge on leetcode since 2021/09/06.
 |2022-09-30 20:58|218|[📎](src/q_201_250/q0218.cc)|[The Skyline Problem](https://leetcode.com/problems/the-skyline-problem/)|Hard|
 |2022-09-29 17:28|214|[📎](src/q_201_250/q0214.cc)|[Shortest Palindrome](https://leetcode.com/problems/shortest-palindrome/)|Hard|
 |2022-09-29 17:22|87|[📎](src/q_51_100/q0087.cc)|[Scramble String](https://leetcode.com/problems/scramble-string/)|Hard|
-|2022-09-28 17:49|661|[📎](src/q_651_700/q0661.cc)|[Image Smoother](https://leetcode.com/problems/image-smoother/)|Easy|
 
 ## Previous Logs
 
 |Month|Submissions|Easy|Medium|Hard|
 |:--|:--|:--|:--|:--|
-|[October_2022](./assets/October_2022.md)|21|14|4|3|
+|[October_2022](./assets/October_2022.md)|22|15|4|3|
 |[September_2022](./assets/September_2022.md)|38|10|19|9|
 |[August_2022](./assets/August_2022.md)|48|15|24|9|
 |[July_2022](./assets/July_2022.md)|47|6|37|4|
