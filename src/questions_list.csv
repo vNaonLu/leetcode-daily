@@ -669,7 +669,7 @@ id,title,level,slug,paid,done
 668,Kth Smallest Number in Multiplication Table,3,kth-smallest-number-in-multiplication-table,0,1
 669,Trim a Binary Search Tree,2,trim-a-binary-search-tree,0,1
 670,Maximum Swap,2,maximum-swap,0,0
-671,Second Minimum Node In a Binary Tree,1,second-minimum-node-in-a-binary-tree,0,0
+671,Second Minimum Node In a Binary Tree,1,second-minimum-node-in-a-binary-tree,0,1
 672,Bulb Switcher II,2,bulb-switcher-ii,0,0
 673,Number of Longest Increasing Subsequence,2,number-of-longest-increasing-subsequence,0,1
 674,Longest Continuous Increasing Subsequence,1,longest-continuous-increasing-subsequence,0,0
