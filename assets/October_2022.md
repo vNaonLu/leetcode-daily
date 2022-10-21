@@ -2,6 +2,7 @@
 
 ||#|</>|Question Title|Difficulty|
 |:--|--:|:-:|:--|:--|
+|Day 21|2368|[📎](../src/q_2351_2400/q2368.cc)|[Reachable Nodes With Restrictions](https://leetcode.com/problems/reachable-nodes-with-restrictions/)|Medium|
 |Day 20|872|[📎](../src/q_851_900/q0872.cc)|[Leaf-Similar Trees](https://leetcode.com/problems/leaf-similar-trees/)|Easy|
 |Day 19|671|[📎](../src/q_651_700/q0671.cc)|[Second Minimum Node In a Binary Tree](https://leetcode.com/problems/second-minimum-node-in-a-binary-tree/)|Easy|
 |Day 18|2331|[📎](../src/q_2301_2350/q2331.cc)|[Evaluate Boolean Binary Tree](https://leetcode.com/problems/evaluate-boolean-binary-tree/)|Easy|

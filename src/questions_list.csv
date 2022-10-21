@@ -2366,7 +2366,7 @@ id,title,level,slug,paid,done
 2365,Task Scheduler II,2,task-scheduler-ii,0,0
 2366,Minimum Replacements to Sort the Array,3,minimum-replacements-to-sort-the-array,0,0
 2367,Number of Arithmetic Triplets,1,number-of-arithmetic-triplets,0,0
-2368,Reachable Nodes With Restrictions,2,reachable-nodes-with-restrictions,0,0
+2368,Reachable Nodes With Restrictions,2,reachable-nodes-with-restrictions,0,1
 2369,Check if There is a Valid Partition For The Array,2,check-if-there-is-a-valid-partition-for-the-array,0,0
 2370,Longest Ideal Subsequence,2,longest-ideal-subsequence,0,0
 2371,Minimize Maximum Value in a Grid,3,minimize-maximum-value-in-a-grid,1,0

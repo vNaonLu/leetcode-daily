@@ -15,10 +15,9 @@
 |Day 21|61|[📎](../src/q_51_100/q0061.cc)|[Rotate List](https://leetcode.com/problems/rotate-list/)|Medium|
 |Day 20|1200|[📎](../src/q_1151_1200/q1200.cc)|[Minimum Absolute Difference](https://leetcode.com/problems/minimum-absolute-difference/)|Easy|
 |Day 19|394|[📎](../src/q_351_400/q0394.cc)|[Decode String](https://leetcode.com/problems/decode-string/)|Medium|
-|Day 18|902|[📎](../src/q_901_950/q0902.cc)|[Numbers At Most N Given Digit Set](https://leetcode.com/problems/numbers-at-most-n-given-digit-set/)|Hard|
-|Day 17|57|[📎](../src/q_51_100/q0057.cc)|[Insert Interval](https://leetcode.com/problems/insert-interval/)|Medium|
-|Day 16|310|[📎](../src/q_301_350/q0310.cc)|[Minimum Height Trees](https://leetcode.com/problems/minimum-height-trees/)|Medium|
-|Day 15|30<br>147|[📎](../src/q_1_50/q0030.cc)<br>[📎](../src/q_101_150/q0147.cc)|[Substring with Concatenation of All Words](https://leetcode.com/problems/substring-with-concatenation-of-all-words/)<br>[Insertion Sort List](https://leetcode.com/problems/insertion-sort-list/)|Hard<br>Medium|
+|Day 18|57<br>902|[📎](../src/q_51_100/q0057.cc)<br>[📎](../src/q_901_950/q0902.cc)|[Insert Interval](https://leetcode.com/problems/insert-interval/)<br>[Numbers At Most N Given Digit Set](https://leetcode.com/problems/numbers-at-most-n-given-digit-set/)|Medium<br>Hard|
+|Day 16|30<br>310|[📎](../src/q_1_50/q0030.cc)<br>[📎](../src/q_301_350/q0310.cc)|[Substring with Concatenation of All Words](https://leetcode.com/problems/substring-with-concatenation-of-all-words/)<br>[Minimum Height Trees](https://leetcode.com/problems/minimum-height-trees/)|Hard<br>Medium|
+|Day 15|147|[📎](../src/q_101_150/q0147.cc)|[Insertion Sort List](https://leetcode.com/problems/insertion-sort-list/)|Medium|
 |Day 14|938|[📎](../src/q_901_950/q0938.cc)|[Range Sum of BST](https://leetcode.com/problems/range-sum-of-bst/)|Easy|
 |Day 13|1446|[📎](../src/q_1401_1450/q1446.cc)|[Consecutive Characters](https://leetcode.com/problems/consecutive-characters/)|Easy|
 |Day 12|416|[📎](../src/q_401_450/q0416.cc)|[Partition Equal Subset Sum](https://leetcode.com/problems/partition-equal-subset-sum/)|Medium|
