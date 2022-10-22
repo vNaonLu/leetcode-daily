@@ -746,7 +746,7 @@ id,title,level,slug,paid,done
 745,Prefix and Suffix Search,3,prefix-and-suffix-search,0,1
 746,Min Cost Climbing Stairs,1,min-cost-climbing-stairs,0,1
 747,Largest Number At Least Twice of Others,1,largest-number-at-least-twice-of-others,0,1
-748,Shortest Completing Word,1,shortest-completing-word,0,0
+748,Shortest Completing Word,1,shortest-completing-word,0,1
 749,Contain Virus,3,contain-virus,0,0
 750,Number Of Corner Rectangles,2,number-of-corner-rectangles,1,0
 751,IP to CIDR,2,ip-to-cidr,1,0
