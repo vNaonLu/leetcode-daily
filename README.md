@@ -853,7 +853,7 @@ My daily challenge on leetcode since 2021/09/06.
 |[📎](src/q_801_850/q0821.cc)|821|[Shortest Distance to a Character](https://leetcode.com/problems/shortest-distance-to-a-character/)|Easy|
 ||822|[Card Flipping Game](https://leetcode.com/problems/card-flipping-game/)|Medium|
 |[📎](src/q_801_850/q0823.cc)|823|[Binary Trees With Factors](https://leetcode.com/problems/binary-trees-with-factors/)|Medium|
-||824|[Goat Latin](https://leetcode.com/problems/goat-latin/)|Easy|
+|[📎](src/q_801_850/q0824.cc)|824|[Goat Latin](https://leetcode.com/problems/goat-latin/)|Easy|
 ||825|[Friends Of Appropriate Ages](https://leetcode.com/problems/friends-of-appropriate-ages/)|Medium|
 |[📎](src/q_801_850/q0826.cc)|826|[Most Profit Assigning Work](https://leetcode.com/problems/most-profit-assigning-work/)|Medium|
 ||827|[Making A Large Island](https://leetcode.com/problems/making-a-large-island/)|Hard|
@@ -2312,7 +2312,7 @@ My daily challenge on leetcode since 2021/09/06.
 ||2250|[Count Number of Rectangles Containing Each Point](https://leetcode.com/problems/count-number-of-rectangles-containing-each-point/)|Medium|
 </details>
 <details>
-  <summary>### 2251 ~ 2445</summary>
+  <summary>### 2251 ~ 2449</summary>
 
 |</>|#|Solution Title|Difficulty|
 |:-:|--:|:--|:--|
@@ -2511,6 +2511,10 @@ My daily challenge on leetcode since 2021/09/06.
 ||2443|[Sum of Number and Its Reverse](https://leetcode.com/problems/sum-of-number-and-its-reverse/)|Medium|
 ||2444|[Count Subarrays With Fixed Bounds](https://leetcode.com/problems/count-subarrays-with-fixed-bounds/)|Hard|
 |🔒|2445|[Number of Nodes With Value One](https://leetcode.com/problems/number-of-nodes-with-value-one/)|Medium|
+||2446|[Determine if Two Events Have Conflict](https://leetcode.com/problems/determine-if-two-events-have-conflict/)|Easy|
+||2447|[Number of Subarrays With GCD Equal to K](https://leetcode.com/problems/number-of-subarrays-with-gcd-equal-to-k/)|Medium|
+||2448|[Minimum Cost to Make Array Equal](https://leetcode.com/problems/minimum-cost-to-make-array-equal/)|Hard|
+||2449|[Minimum Number of Operations to Make Arrays Similar](https://leetcode.com/problems/minimum-number-of-operations-to-make-arrays-similar/)|Hard|
 </details>
 
 ---
@@ -2518,6 +2522,7 @@ My daily challenge on leetcode since 2021/09/06.
 
 |Time|#|</>|Question Title|Difficulty|
 |:--|--:|:-:|:--|:--|
+|2022-10-23 21:54|824|[📎](src/q_801_850/q0824.cc)|[Goat Latin](https://leetcode.com/problems/goat-latin/)|Easy|
 |2022-10-22 20:02|748|[📎](src/q_701_750/q0748.cc)|[Shortest Completing Word](https://leetcode.com/problems/shortest-completing-word/)|Easy|
 |2022-10-21 22:32|2368|[📎](src/q_2351_2400/q2368.cc)|[Reachable Nodes With Restrictions](https://leetcode.com/problems/reachable-nodes-with-restrictions/)|Medium|
 |2022-10-20 08:19|872|[📎](src/q_851_900/q0872.cc)|[Leaf-Similar Trees](https://leetcode.com/problems/leaf-similar-trees/)|Easy|
@@ -2542,13 +2547,12 @@ My daily challenge on leetcode since 2021/09/06.
 |2022-10-03 13:31|1578|[📎](src/q_1551_1600/q1578.cc)|[Minimum Time to Make Rope Colorful](https://leetcode.com/problems/minimum-time-to-make-rope-colorful/)|Medium|
 |2022-10-02 13:30|645|[📎](src/q_601_650/q0645.cc)|[Set Mismatch](https://leetcode.com/problems/set-mismatch/)|Easy|
 |2022-10-01 13:12|455|[📎](src/q_451_500/q0455.cc)|[Assign Cookies](https://leetcode.com/problems/assign-cookies/)|Easy|
-|2022-09-30 21:58|218|[📎](src/q_201_250/q0218.cc)|[The Skyline Problem](https://leetcode.com/problems/the-skyline-problem/)|Hard|
 
 ## Previous Logs
 
 |Month|Submissions|Easy|Medium|Hard|
 |:--|:--|:--|:--|:--|
-|[October_2022](./assets/October_2022.md)|24|16|5|3|
+|[October_2022](./assets/October_2022.md)|25|17|5|3|
 |[September_2022](./assets/September_2022.md)|38|10|19|9|
 |[August_2022](./assets/August_2022.md)|48|15|24|9|
 |[July_2022](./assets/July_2022.md)|47|6|37|4|

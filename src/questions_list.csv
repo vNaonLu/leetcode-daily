@@ -822,7 +822,7 @@ id,title,level,slug,paid,done
 821,Shortest Distance to a Character,1,shortest-distance-to-a-character,0,1
 822,Card Flipping Game,2,card-flipping-game,0,0
 823,Binary Trees With Factors,2,binary-trees-with-factors,0,1
-824,Goat Latin,1,goat-latin,0,0
+824,Goat Latin,1,goat-latin,0,1
 825,Friends Of Appropriate Ages,2,friends-of-appropriate-ages,0,0
 826,Most Profit Assigning Work,2,most-profit-assigning-work,0,1
 827,Making A Large Island,3,making-a-large-island,0,0
@@ -2444,3 +2444,7 @@ id,title,level,slug,paid,done
 2443,Sum of Number and Its Reverse,2,sum-of-number-and-its-reverse,0,0
 2444,Count Subarrays With Fixed Bounds,3,count-subarrays-with-fixed-bounds,0,0
 2445,Number of Nodes With Value One,2,number-of-nodes-with-value-one,1,0
+2446,Determine if Two Events Have Conflict,1,determine-if-two-events-have-conflict,0,0
+2447,Number of Subarrays With GCD Equal to K,2,number-of-subarrays-with-gcd-equal-to-k,0,0
+2448,Minimum Cost to Make Array Equal,3,minimum-cost-to-make-array-equal,0,0
+2449,Minimum Number of Operations to Make Arrays Similar,3,minimum-number-of-operations-to-make-arrays-similar,0,0

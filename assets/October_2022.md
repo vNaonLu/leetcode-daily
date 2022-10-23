@@ -2,6 +2,7 @@
 
 ||#|</>|Question Title|Difficulty|
 |:--|--:|:-:|:--|:--|
+|Day 23|824|[📎](../src/q_801_850/q0824.cc)|[Goat Latin](https://leetcode.com/problems/goat-latin/)|Easy|
 |Day 22|748|[📎](../src/q_701_750/q0748.cc)|[Shortest Completing Word](https://leetcode.com/problems/shortest-completing-word/)|Easy|
 |Day 21|2368|[📎](../src/q_2351_2400/q2368.cc)|[Reachable Nodes With Restrictions](https://leetcode.com/problems/reachable-nodes-with-restrictions/)|Medium|
 |Day 20|872|[📎](../src/q_851_900/q0872.cc)|[Leaf-Similar Trees](https://leetcode.com/problems/leaf-similar-trees/)|Easy|
