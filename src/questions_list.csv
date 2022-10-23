@@ -669,7 +669,7 @@ id,title,level,slug,paid,done
 668,Kth Smallest Number in Multiplication Table,3,kth-smallest-number-in-multiplication-table,0,1
 669,Trim a Binary Search Tree,2,trim-a-binary-search-tree,0,1
 670,Maximum Swap,2,maximum-swap,0,0
-671,Second Minimum Node In a Binary Tree,1,second-minimum-node-in-a-binary-tree,0,0
+671,Second Minimum Node In a Binary Tree,1,second-minimum-node-in-a-binary-tree,0,1
 672,Bulb Switcher II,2,bulb-switcher-ii,0,0
 673,Number of Longest Increasing Subsequence,2,number-of-longest-increasing-subsequence,0,1
 674,Longest Continuous Increasing Subsequence,1,longest-continuous-increasing-subsequence,0,0
@@ -746,7 +746,7 @@ id,title,level,slug,paid,done
 745,Prefix and Suffix Search,3,prefix-and-suffix-search,0,1
 746,Min Cost Climbing Stairs,1,min-cost-climbing-stairs,0,1
 747,Largest Number At Least Twice of Others,1,largest-number-at-least-twice-of-others,0,1
-748,Shortest Completing Word,1,shortest-completing-word,0,0
+748,Shortest Completing Word,1,shortest-completing-word,0,1
 749,Contain Virus,3,contain-virus,0,0
 750,Number Of Corner Rectangles,2,number-of-corner-rectangles,1,0
 751,IP to CIDR,2,ip-to-cidr,1,0
@@ -870,7 +870,7 @@ id,title,level,slug,paid,done
 869,Reordered Power of 2,2,reordered-power-of-2,0,1
 870,Advantage Shuffle,2,advantage-shuffle,0,0
 871,Minimum Number of Refueling Stops,3,minimum-number-of-refueling-stops,0,1
-872,Leaf-Similar Trees,1,leaf-similar-trees,0,0
+872,Leaf-Similar Trees,1,leaf-similar-trees,0,1
 873,Length of Longest Fibonacci Subsequence,2,length-of-longest-fibonacci-subsequence,0,0
 874,Walking Robot Simulation,2,walking-robot-simulation,0,0
 875,Koko Eating Bananas,2,koko-eating-bananas,0,1
@@ -1333,7 +1333,7 @@ id,title,level,slug,paid,done
 1332,Remove Palindromic Subsequences,1,remove-palindromic-subsequences,0,1
 1333,"Filter Restaurants by Vegan-Friendly, Price and Distance",2,filter-restaurants-by-vegan-friendly-price-and-distance,0,0
 1334,Find the City With the Smallest Number of Neighbors at a Threshold Distance,2,find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance,0,0
-1335,Minimum Difficulty of a Job Schedule,3,minimum-difficulty-of-a-job-schedule,0,0
+1335,Minimum Difficulty of a Job Schedule,3,minimum-difficulty-of-a-job-schedule,0,1
 1336,Number of Transactions per Visit,3,number-of-transactions-per-visit,1,0
 1337,The K Weakest Rows in a Matrix,1,the-k-weakest-rows-in-a-matrix,0,1
 1338,Reduce Array Size to The Half,2,reduce-array-size-to-the-half,0,1
@@ -1830,7 +1830,7 @@ id,title,level,slug,paid,done
 1829,Maximum XOR for Each Query,2,maximum-xor-for-each-query,0,1
 1830,Minimum Number of Operations to Make String Sorted,3,minimum-number-of-operations-to-make-string-sorted,0,0
 1831,Maximum Transaction Each Day,2,maximum-transaction-each-day,1,0
-1832,Check if the Sentence Is Pangram,1,check-if-the-sentence-is-pangram,0,0
+1832,Check if the Sentence Is Pangram,1,check-if-the-sentence-is-pangram,0,1
 1833,Maximum Ice Cream Bars,2,maximum-ice-cream-bars,0,0
 1834,Single-Threaded CPU,2,single-threaded-cpu,0,0
 1835,Find XOR Sum of All Pairs Bitwise AND,3,find-xor-sum-of-all-pairs-bitwise-and,0,0
@@ -2329,7 +2329,7 @@ id,title,level,slug,paid,done
 2328,Number of Increasing Paths in a Grid,3,number-of-increasing-paths-in-a-grid,0,0
 2329,Product Sales Analysis V,1,product-sales-analysis-v,1,0
 2330,Valid Palindrome IV,2,valid-palindrome-iv,1,0
-2331,Evaluate Boolean Binary Tree,1,evaluate-boolean-binary-tree,0,0
+2331,Evaluate Boolean Binary Tree,1,evaluate-boolean-binary-tree,0,1
 2332,The Latest Time to Catch a Bus,2,the-latest-time-to-catch-a-bus,0,0
 2333,Minimum Sum of Squared Difference,2,minimum-sum-of-squared-difference,0,0
 2334,Subarray With Elements Greater Than Varying Threshold,3,subarray-with-elements-greater-than-varying-threshold,0,0
@@ -2366,7 +2366,7 @@ id,title,level,slug,paid,done
 2365,Task Scheduler II,2,task-scheduler-ii,0,0
 2366,Minimum Replacements to Sort the Array,3,minimum-replacements-to-sort-the-array,0,0
 2367,Number of Arithmetic Triplets,1,number-of-arithmetic-triplets,0,0
-2368,Reachable Nodes With Restrictions,2,reachable-nodes-with-restrictions,0,0
+2368,Reachable Nodes With Restrictions,2,reachable-nodes-with-restrictions,0,1
 2369,Check if There is a Valid Partition For The Array,2,check-if-there-is-a-valid-partition-for-the-array,0,0
 2370,Longest Ideal Subsequence,2,longest-ideal-subsequence,0,0
 2371,Minimize Maximum Value in a Grid,3,minimize-maximum-value-in-a-grid,1,0
@@ -2435,3 +2435,12 @@ id,title,level,slug,paid,done
 2434,Using a Robot to Print the Lexicographically Smallest String,2,using-a-robot-to-print-the-lexicographically-smallest-string,0,0
 2435,Paths in Matrix Whose Sum Is Divisible by K,3,paths-in-matrix-whose-sum-is-divisible-by-k,0,0
 2436,Minimum Split Into Subarrays With GCD Greater Than One,2,minimum-split-into-subarrays-with-gcd-greater-than-one,1,0
+2437,Number of Valid Clock Times,1,number-of-valid-clock-times,0,0
+2438,Range Product Queries of Powers,2,range-product-queries-of-powers,0,0
+2439,Minimize Maximum of Array,2,minimize-maximum-of-array,0,0
+2440,Create Components With Same Value,3,create-components-with-same-value,0,0
+2441,Largest Positive Integer That Exists With Its Negative,1,largest-positive-integer-that-exists-with-its-negative,0,0
+2442,Count Number of Distinct Integers After Reverse Operations,2,count-number-of-distinct-integers-after-reverse-operations,0,0
+2443,Sum of Number and Its Reverse,2,sum-of-number-and-its-reverse,0,0
+2444,Count Subarrays With Fixed Bounds,3,count-subarrays-with-fixed-bounds,0,0
+2445,Number of Nodes With Value One,2,number-of-nodes-with-value-one,1,0
