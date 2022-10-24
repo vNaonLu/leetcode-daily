@@ -1336,7 +1336,7 @@ My daily challenge on leetcode since 2021/09/06.
 |[📎](src/q_1251_1300/q1292.cc)|1292|[Maximum Side Length of a Square with Sum Less than or Equal to Threshold](https://leetcode.com/problems/maximum-side-length-of-a-square-with-sum-less-than-or-equal-to-threshold/)|Medium|
 |[📎](src/q_1251_1300/q1293.cc)|1293|[Shortest Path in a Grid with Obstacles Elimination](https://leetcode.com/problems/shortest-path-in-a-grid-with-obstacles-elimination/)|Hard|
 |🔒|1294|[Weather Type in Each Country](https://leetcode.com/problems/weather-type-in-each-country/)|Easy|
-||1295|[Find Numbers with Even Number of Digits](https://leetcode.com/problems/find-numbers-with-even-number-of-digits/)|Easy|
+|[📎](src/q_1251_1300/q1295.cc)|1295|[Find Numbers with Even Number of Digits](https://leetcode.com/problems/find-numbers-with-even-number-of-digits/)|Easy|
 ||1296|[Divide Array in Sets of K Consecutive Numbers](https://leetcode.com/problems/divide-array-in-sets-of-k-consecutive-numbers/)|Medium|
 ||1297|[Maximum Number of Occurrences of a Substring](https://leetcode.com/problems/maximum-number-of-occurrences-of-a-substring/)|Medium|
 ||1298|[Maximum Candies You Can Get from Boxes](https://leetcode.com/problems/maximum-candies-you-can-get-from-boxes/)|Hard|
@@ -2522,6 +2522,7 @@ My daily challenge on leetcode since 2021/09/06.
 
 |Time|#|</>|Question Title|Difficulty|
 |:--|--:|:-:|:--|:--|
+|2022-10-24 22:19|1295|[📎](src/q_1251_1300/q1295.cc)|[Find Numbers with Even Number of Digits](https://leetcode.com/problems/find-numbers-with-even-number-of-digits/)|Easy|
 |2022-10-23 21:54|824|[📎](src/q_801_850/q0824.cc)|[Goat Latin](https://leetcode.com/problems/goat-latin/)|Easy|
 |2022-10-22 20:02|748|[📎](src/q_701_750/q0748.cc)|[Shortest Completing Word](https://leetcode.com/problems/shortest-completing-word/)|Easy|
 |2022-10-21 22:32|2368|[📎](src/q_2351_2400/q2368.cc)|[Reachable Nodes With Restrictions](https://leetcode.com/problems/reachable-nodes-with-restrictions/)|Medium|
@@ -2546,13 +2547,12 @@ My daily challenge on leetcode since 2021/09/06.
 |2022-10-03 15:16|747|[📎](src/q_701_750/q0747.cc)|[Largest Number At Least Twice of Others](https://leetcode.com/problems/largest-number-at-least-twice-of-others/)|Easy|
 |2022-10-03 13:31|1578|[📎](src/q_1551_1600/q1578.cc)|[Minimum Time to Make Rope Colorful](https://leetcode.com/problems/minimum-time-to-make-rope-colorful/)|Medium|
 |2022-10-02 13:30|645|[📎](src/q_601_650/q0645.cc)|[Set Mismatch](https://leetcode.com/problems/set-mismatch/)|Easy|
-|2022-10-01 13:12|455|[📎](src/q_451_500/q0455.cc)|[Assign Cookies](https://leetcode.com/problems/assign-cookies/)|Easy|
 
 ## Previous Logs
 
 |Month|Submissions|Easy|Medium|Hard|
 |:--|:--|:--|:--|:--|
-|[October_2022](./assets/October_2022.md)|25|17|5|3|
+|[October_2022](./assets/October_2022.md)|26|18|5|3|
 |[September_2022](./assets/September_2022.md)|38|10|19|9|
 |[August_2022](./assets/August_2022.md)|48|15|24|9|
 |[July_2022](./assets/July_2022.md)|47|6|37|4|
