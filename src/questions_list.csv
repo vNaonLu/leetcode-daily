@@ -1660,7 +1660,7 @@ id,title,level,slug,paid,done
 1659,Maximize Grid Happiness,3,maximize-grid-happiness,0,0
 1660,Correct a Binary Tree,2,correct-a-binary-tree,1,0
 1661,Average Time of Process per Machine,1,average-time-of-process-per-machine,1,0
-1662,Check If Two String Arrays are Equivalent,1,check-if-two-string-arrays-are-equivalent,0,0
+1662,Check If Two String Arrays are Equivalent,1,check-if-two-string-arrays-are-equivalent,0,1
 1663,Smallest String With A Given Numeric Value,2,smallest-string-with-a-given-numeric-value,0,1
 1664,Ways to Make a Fair Array,2,ways-to-make-a-fair-array,0,0
 1665,Minimum Initial Energy to Finish Tasks,3,minimum-initial-energy-to-finish-tasks,0,0
