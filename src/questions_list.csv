@@ -521,7 +521,7 @@ id,title,level,slug,paid,done
 520,Detect Capital,1,detect-capital,0,1
 521,Longest Uncommon Subsequence I,1,longest-uncommon-subsequence-i,0,0
 522,Longest Uncommon Subsequence II,2,longest-uncommon-subsequence-ii,0,0
-523,Continuous Subarray Sum,2,continuous-subarray-sum,0,0
+523,Continuous Subarray Sum,2,continuous-subarray-sum,0,1
 524,Longest Word in Dictionary through Deleting,2,longest-word-in-dictionary-through-deleting,0,0
 525,Contiguous Array,2,contiguous-array,0,1
 526,Beautiful Arrangement,2,beautiful-arrangement,0,0
