@@ -833,7 +833,7 @@ id,title,level,slug,paid,done
 832,Flipping an Image,1,flipping-an-image,0,0
 833,Find And Replace in String,2,find-and-replace-in-string,0,0
 834,Sum of Distances in Tree,3,sum-of-distances-in-tree,0,0
-835,Image Overlap,2,image-overlap,0,0
+835,Image Overlap,2,image-overlap,0,1
 836,Rectangle Overlap,1,rectangle-overlap,0,0
 837,New 21 Game,2,new-21-game,0,0
 838,Push Dominoes,2,push-dominoes,0,1
@@ -2448,3 +2448,4 @@ id,title,level,slug,paid,done
 2447,Number of Subarrays With GCD Equal to K,2,number-of-subarrays-with-gcd-equal-to-k,0,0
 2448,Minimum Cost to Make Array Equal,3,minimum-cost-to-make-array-equal,0,0
 2449,Minimum Number of Operations to Make Arrays Similar,3,minimum-number-of-operations-to-make-arrays-similar,0,0
+2450,Number of Distinct Binary Strings After Applying Operations,2,number-of-distinct-binary-strings-after-applying-operations,1,0

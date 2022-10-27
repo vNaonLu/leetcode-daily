@@ -864,7 +864,7 @@ My daily challenge on leetcode since 2021/09/06.
 ||832|[Flipping an Image](https://leetcode.com/problems/flipping-an-image/)|Easy|
 ||833|[Find And Replace in String](https://leetcode.com/problems/find-and-replace-in-string/)|Medium|
 ||834|[Sum of Distances in Tree](https://leetcode.com/problems/sum-of-distances-in-tree/)|Hard|
-||835|[Image Overlap](https://leetcode.com/problems/image-overlap/)|Medium|
+|[📎](src/q_801_850/q0835.cc)|835|[Image Overlap](https://leetcode.com/problems/image-overlap/)|Medium|
 ||836|[Rectangle Overlap](https://leetcode.com/problems/rectangle-overlap/)|Easy|
 ||837|[New 21 Game](https://leetcode.com/problems/new-21-game/)|Medium|
 |[📎](src/q_801_850/q0838.cc)|838|[Push Dominoes](https://leetcode.com/problems/push-dominoes/)|Medium|
@@ -2312,7 +2312,7 @@ My daily challenge on leetcode since 2021/09/06.
 ||2250|[Count Number of Rectangles Containing Each Point](https://leetcode.com/problems/count-number-of-rectangles-containing-each-point/)|Medium|
 </details>
 <details>
-  <summary>### 2251 ~ 2449</summary>
+  <summary>### 2251 ~ 2450</summary>
 
 |</>|#|Solution Title|Difficulty|
 |:-:|--:|:--|:--|
@@ -2515,6 +2515,7 @@ My daily challenge on leetcode since 2021/09/06.
 ||2447|[Number of Subarrays With GCD Equal to K](https://leetcode.com/problems/number-of-subarrays-with-gcd-equal-to-k/)|Medium|
 ||2448|[Minimum Cost to Make Array Equal](https://leetcode.com/problems/minimum-cost-to-make-array-equal/)|Hard|
 ||2449|[Minimum Number of Operations to Make Arrays Similar](https://leetcode.com/problems/minimum-number-of-operations-to-make-arrays-similar/)|Hard|
+|🔒|2450|[Number of Distinct Binary Strings After Applying Operations](https://leetcode.com/problems/number-of-distinct-binary-strings-after-applying-operations/)|Medium|
 </details>
 
 ---
@@ -2522,6 +2523,7 @@ My daily challenge on leetcode since 2021/09/06.
 
 |Time|#|</>|Question Title|Difficulty|
 |:--|--:|:-:|:--|:--|
+|2022-10-27 14:32|835|[📎](src/q_801_850/q0835.cc)|[Image Overlap](https://leetcode.com/problems/image-overlap/)|Medium|
 |2022-10-26 11:03|523|[📎](src/q_501_550/q0523.cc)|[Continuous Subarray Sum](https://leetcode.com/problems/continuous-subarray-sum/)|Medium|
 |2022-10-25 10:52|1662|[📎](src/q_1651_1700/q1662.cc)|[Check If Two String Arrays are Equivalent](https://leetcode.com/problems/check-if-two-string-arrays-are-equivalent/)|Easy|
 |2022-10-24 21:19|1295|[📎](src/q_1251_1300/q1295.cc)|[Find Numbers with Even Number of Digits](https://leetcode.com/problems/find-numbers-with-even-number-of-digits/)|Easy|
@@ -2546,13 +2548,12 @@ My daily challenge on leetcode since 2021/09/06.
 |2022-10-06 10:20|933|[📎](src/q_901_950/q0933.cc)|[Number of Recent Calls](https://leetcode.com/problems/number-of-recent-calls/)|Easy|
 |2022-10-05 10:43|868|[📎](src/q_851_900/q0868.cc)|[Binary Gap](https://leetcode.com/problems/binary-gap/)|Easy|
 |2022-10-04 12:48|819|[📎](src/q_801_850/q0819.cc)|[Most Common Word](https://leetcode.com/problems/most-common-word/)|Easy|
-|2022-10-03 14:16|747|[📎](src/q_701_750/q0747.cc)|[Largest Number At Least Twice of Others](https://leetcode.com/problems/largest-number-at-least-twice-of-others/)|Easy|
 
 ## Previous Logs
 
 |Month|Submissions|Easy|Medium|Hard|
 |:--|:--|:--|:--|:--|
-|[October_2022](./assets/October_2022.md)|28|19|6|3|
+|[October_2022](./assets/October_2022.md)|29|19|7|3|
 |[September_2022](./assets/September_2022.md)|38|10|19|9|
 |[August_2022](./assets/August_2022.md)|48|15|24|9|
 |[July_2022](./assets/July_2022.md)|47|6|37|4|
