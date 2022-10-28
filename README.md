@@ -1053,7 +1053,7 @@ My daily challenge on leetcode since 2021/09/06.
 |[📎](src/q_1001_1050/q1015.cc)|1015|[Smallest Integer Divisible by K](https://leetcode.com/problems/smallest-integer-divisible-by-k/)|Medium|
 ||1016|[Binary String With Substrings Representing 1 To N](https://leetcode.com/problems/binary-string-with-substrings-representing-1-to-n/)|Medium|
 |[📎](src/q_1001_1050/q1017.cc)|1017|[Convert to Base -2](https://leetcode.com/problems/convert-to-base-2/)|Medium|
-||1018|[Binary Prefix Divisible By 5](https://leetcode.com/problems/binary-prefix-divisible-by-5/)|Easy|
+|[📎](src/q_1001_1050/q1018.cc)|1018|[Binary Prefix Divisible By 5](https://leetcode.com/problems/binary-prefix-divisible-by-5/)|Easy|
 |[📎](src/q_1001_1050/q1019.cc)|1019|[Next Greater Node In Linked List](https://leetcode.com/problems/next-greater-node-in-linked-list/)|Medium|
 |[📎](src/q_1001_1050/q1020.cc)|1020|[Number of Enclaves](https://leetcode.com/problems/number-of-enclaves/)|Medium|
 ||1021|[Remove Outermost Parentheses](https://leetcode.com/problems/remove-outermost-parentheses/)|Easy|
@@ -2523,6 +2523,7 @@ My daily challenge on leetcode since 2021/09/06.
 
 |Time|#|</>|Question Title|Difficulty|
 |:--|--:|:-:|:--|:--|
+|2022-10-28 12:14|1018|[📎](src/q_1001_1050/q1018.cc)|[Binary Prefix Divisible By 5](https://leetcode.com/problems/binary-prefix-divisible-by-5/)|Easy|
 |2022-10-27 14:32|835|[📎](src/q_801_850/q0835.cc)|[Image Overlap](https://leetcode.com/problems/image-overlap/)|Medium|
 |2022-10-26 11:03|523|[📎](src/q_501_550/q0523.cc)|[Continuous Subarray Sum](https://leetcode.com/problems/continuous-subarray-sum/)|Medium|
 |2022-10-25 10:52|1662|[📎](src/q_1651_1700/q1662.cc)|[Check If Two String Arrays are Equivalent](https://leetcode.com/problems/check-if-two-string-arrays-are-equivalent/)|Easy|
@@ -2547,13 +2548,12 @@ My daily challenge on leetcode since 2021/09/06.
 |2022-10-07 10:11|732|[📎](src/q_701_750/q0732.cc)|[My Calendar III](https://leetcode.com/problems/my-calendar-iii/)|Hard|
 |2022-10-06 10:20|933|[📎](src/q_901_950/q0933.cc)|[Number of Recent Calls](https://leetcode.com/problems/number-of-recent-calls/)|Easy|
 |2022-10-05 10:43|868|[📎](src/q_851_900/q0868.cc)|[Binary Gap](https://leetcode.com/problems/binary-gap/)|Easy|
-|2022-10-04 12:48|819|[📎](src/q_801_850/q0819.cc)|[Most Common Word](https://leetcode.com/problems/most-common-word/)|Easy|
 
 ## Previous Logs
 
 |Month|Submissions|Easy|Medium|Hard|
 |:--|:--|:--|:--|:--|
-|[October_2022](./assets/October_2022.md)|29|19|7|3|
+|[October_2022](./assets/October_2022.md)|30|20|7|3|
 |[September_2022](./assets/September_2022.md)|38|10|19|9|
 |[August_2022](./assets/August_2022.md)|48|15|24|9|
 |[July_2022](./assets/July_2022.md)|47|6|37|4|

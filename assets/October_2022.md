@@ -2,6 +2,7 @@
 
 ||#|</>|Question Title|Difficulty|
 |:--|--:|:-:|:--|:--|
+|Day 28|1018|[📎](../src/q_1001_1050/q1018.cc)|[Binary Prefix Divisible By 5](https://leetcode.com/problems/binary-prefix-divisible-by-5/)|Easy|
 |Day 27|835|[📎](../src/q_801_850/q0835.cc)|[Image Overlap](https://leetcode.com/problems/image-overlap/)|Medium|
 |Day 26|523|[📎](../src/q_501_550/q0523.cc)|[Continuous Subarray Sum](https://leetcode.com/problems/continuous-subarray-sum/)|Medium|
 |Day 25|1662|[📎](../src/q_1651_1700/q1662.cc)|[Check If Two String Arrays are Equivalent](https://leetcode.com/problems/check-if-two-string-arrays-are-equivalent/)|Easy|
