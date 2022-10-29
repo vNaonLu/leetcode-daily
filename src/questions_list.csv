@@ -2134,7 +2134,7 @@ id,title,level,slug,paid,done
 2133,Check if Every Row and Column Contains All Numbers,1,check-if-every-row-and-column-contains-all-numbers,0,0
 2134,Minimum Swaps to Group All 1's Together II,2,minimum-swaps-to-group-all-1s-together-ii,0,1
 2135,Count Words Obtained After Adding a Letter,2,count-words-obtained-after-adding-a-letter,0,0
-2136,Earliest Possible Day of Full Bloom,3,earliest-possible-day-of-full-bloom,0,0
+2136,Earliest Possible Day of Full Bloom,3,earliest-possible-day-of-full-bloom,0,1
 2137,Pour Water Between Buckets to Make Water Levels Equal,2,pour-water-between-buckets-to-make-water-levels-equal,1,0
 2138,Divide a String Into Groups of Size k,1,divide-a-string-into-groups-of-size-k,0,0
 2139,Minimum Moves to Reach Target Score,2,minimum-moves-to-reach-target-score,0,0
