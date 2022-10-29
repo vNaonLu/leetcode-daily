@@ -521,7 +521,7 @@ id,title,level,slug,paid,done
 520,Detect Capital,1,detect-capital,0,1
 521,Longest Uncommon Subsequence I,1,longest-uncommon-subsequence-i,0,0
 522,Longest Uncommon Subsequence II,2,longest-uncommon-subsequence-ii,0,0
-523,Continuous Subarray Sum,2,continuous-subarray-sum,0,0
+523,Continuous Subarray Sum,2,continuous-subarray-sum,0,1
 524,Longest Word in Dictionary through Deleting,2,longest-word-in-dictionary-through-deleting,0,0
 525,Contiguous Array,2,contiguous-array,0,1
 526,Beautiful Arrangement,2,beautiful-arrangement,0,0
@@ -822,7 +822,7 @@ id,title,level,slug,paid,done
 821,Shortest Distance to a Character,1,shortest-distance-to-a-character,0,1
 822,Card Flipping Game,2,card-flipping-game,0,0
 823,Binary Trees With Factors,2,binary-trees-with-factors,0,1
-824,Goat Latin,1,goat-latin,0,0
+824,Goat Latin,1,goat-latin,0,1
 825,Friends Of Appropriate Ages,2,friends-of-appropriate-ages,0,0
 826,Most Profit Assigning Work,2,most-profit-assigning-work,0,1
 827,Making A Large Island,3,making-a-large-island,0,0
@@ -833,7 +833,7 @@ id,title,level,slug,paid,done
 832,Flipping an Image,1,flipping-an-image,0,0
 833,Find And Replace in String,2,find-and-replace-in-string,0,0
 834,Sum of Distances in Tree,3,sum-of-distances-in-tree,0,0
-835,Image Overlap,2,image-overlap,0,0
+835,Image Overlap,2,image-overlap,0,1
 836,Rectangle Overlap,1,rectangle-overlap,0,0
 837,New 21 Game,2,new-21-game,0,0
 838,Push Dominoes,2,push-dominoes,0,1
@@ -1016,7 +1016,7 @@ id,title,level,slug,paid,done
 1015,Smallest Integer Divisible by K,2,smallest-integer-divisible-by-k,0,1
 1016,Binary String With Substrings Representing 1 To N,2,binary-string-with-substrings-representing-1-to-n,0,0
 1017,Convert to Base -2,2,convert-to-base-2,0,1
-1018,Binary Prefix Divisible By 5,1,binary-prefix-divisible-by-5,0,0
+1018,Binary Prefix Divisible By 5,1,binary-prefix-divisible-by-5,0,1
 1019,Next Greater Node In Linked List,2,next-greater-node-in-linked-list,0,1
 1020,Number of Enclaves,2,number-of-enclaves,0,1
 1021,Remove Outermost Parentheses,1,remove-outermost-parentheses,0,0
@@ -1293,7 +1293,7 @@ id,title,level,slug,paid,done
 1292,Maximum Side Length of a Square with Sum Less than or Equal to Threshold,2,maximum-side-length-of-a-square-with-sum-less-than-or-equal-to-threshold,0,1
 1293,Shortest Path in a Grid with Obstacles Elimination,3,shortest-path-in-a-grid-with-obstacles-elimination,0,1
 1294,Weather Type in Each Country,1,weather-type-in-each-country,1,0
-1295,Find Numbers with Even Number of Digits,1,find-numbers-with-even-number-of-digits,0,0
+1295,Find Numbers with Even Number of Digits,1,find-numbers-with-even-number-of-digits,0,1
 1296,Divide Array in Sets of K Consecutive Numbers,2,divide-array-in-sets-of-k-consecutive-numbers,0,0
 1297,Maximum Number of Occurrences of a Substring,2,maximum-number-of-occurrences-of-a-substring,0,0
 1298,Maximum Candies You Can Get from Boxes,3,maximum-candies-you-can-get-from-boxes,0,0
@@ -1660,7 +1660,7 @@ id,title,level,slug,paid,done
 1659,Maximize Grid Happiness,3,maximize-grid-happiness,0,0
 1660,Correct a Binary Tree,2,correct-a-binary-tree,1,0
 1661,Average Time of Process per Machine,1,average-time-of-process-per-machine,1,0
-1662,Check If Two String Arrays are Equivalent,1,check-if-two-string-arrays-are-equivalent,0,0
+1662,Check If Two String Arrays are Equivalent,1,check-if-two-string-arrays-are-equivalent,0,1
 1663,Smallest String With A Given Numeric Value,2,smallest-string-with-a-given-numeric-value,0,1
 1664,Ways to Make a Fair Array,2,ways-to-make-a-fair-array,0,0
 1665,Minimum Initial Energy to Finish Tasks,3,minimum-initial-energy-to-finish-tasks,0,0
@@ -2134,7 +2134,7 @@ id,title,level,slug,paid,done
 2133,Check if Every Row and Column Contains All Numbers,1,check-if-every-row-and-column-contains-all-numbers,0,0
 2134,Minimum Swaps to Group All 1's Together II,2,minimum-swaps-to-group-all-1s-together-ii,0,1
 2135,Count Words Obtained After Adding a Letter,2,count-words-obtained-after-adding-a-letter,0,0
-2136,Earliest Possible Day of Full Bloom,3,earliest-possible-day-of-full-bloom,0,0
+2136,Earliest Possible Day of Full Bloom,3,earliest-possible-day-of-full-bloom,0,1
 2137,Pour Water Between Buckets to Make Water Levels Equal,2,pour-water-between-buckets-to-make-water-levels-equal,1,0
 2138,Divide a String Into Groups of Size k,1,divide-a-string-into-groups-of-size-k,0,0
 2139,Minimum Moves to Reach Target Score,2,minimum-moves-to-reach-target-score,0,0
@@ -2444,3 +2444,8 @@ id,title,level,slug,paid,done
 2443,Sum of Number and Its Reverse,2,sum-of-number-and-its-reverse,0,0
 2444,Count Subarrays With Fixed Bounds,3,count-subarrays-with-fixed-bounds,0,0
 2445,Number of Nodes With Value One,2,number-of-nodes-with-value-one,1,0
+2446,Determine if Two Events Have Conflict,1,determine-if-two-events-have-conflict,0,0
+2447,Number of Subarrays With GCD Equal to K,2,number-of-subarrays-with-gcd-equal-to-k,0,0
+2448,Minimum Cost to Make Array Equal,3,minimum-cost-to-make-array-equal,0,0
+2449,Minimum Number of Operations to Make Arrays Similar,3,minimum-number-of-operations-to-make-arrays-similar,0,0
+2450,Number of Distinct Binary Strings After Applying Operations,2,number-of-distinct-binary-strings-after-applying-operations,1,0
