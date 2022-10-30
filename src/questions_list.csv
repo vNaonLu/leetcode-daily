@@ -794,7 +794,7 @@ id,title,level,slug,paid,done
 793,Preimage Size of Factorial Zeroes Function,3,preimage-size-of-factorial-zeroes-function,0,0
 794,Valid Tic-Tac-Toe State,2,valid-tic-tac-toe-state,0,1
 795,Number of Subarrays with Bounded Maximum,2,number-of-subarrays-with-bounded-maximum,0,0
-796,Rotate String,1,rotate-string,0,0
+796,Rotate String,1,rotate-string,0,1
 797,All Paths From Source to Target,2,all-paths-from-source-to-target,0,1
 798,Smallest Rotation with Highest Score,3,smallest-rotation-with-highest-score,0,0
 799,Champagne Tower,2,champagne-tower,0,1
@@ -2449,3 +2449,7 @@ id,title,level,slug,paid,done
 2448,Minimum Cost to Make Array Equal,3,minimum-cost-to-make-array-equal,0,0
 2449,Minimum Number of Operations to Make Arrays Similar,3,minimum-number-of-operations-to-make-arrays-similar,0,0
 2450,Number of Distinct Binary Strings After Applying Operations,2,number-of-distinct-binary-strings-after-applying-operations,1,0
+2451,Odd String Difference,1,odd-string-difference,0,0
+2452,Words Within Two Edits of Dictionary,2,words-within-two-edits-of-dictionary,0,0
+2453,Destroy Sequential Targets,2,destroy-sequential-targets,0,0
+2454,Next Greater Element IV,3,next-greater-element-iv,0,0
