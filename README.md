@@ -795,7 +795,7 @@ My daily challenge on leetcode since 2021/09/06.
 |[📎](src/q_751_800/q0763.cc)|763|[Partition Labels](https://leetcode.com/problems/partition-labels/)|Medium|
 |[📎](src/q_751_800/q0764.cc)|764|[Largest Plus Sign](https://leetcode.com/problems/largest-plus-sign/)|Medium|
 ||765|[Couples Holding Hands](https://leetcode.com/problems/couples-holding-hands/)|Hard|
-||766|[Toeplitz Matrix](https://leetcode.com/problems/toeplitz-matrix/)|Easy|
+|[📎](src/q_751_800/q0766.cc)|766|[Toeplitz Matrix](https://leetcode.com/problems/toeplitz-matrix/)|Easy|
 |[📎](src/q_751_800/q0767.cc)|767|[Reorganize String](https://leetcode.com/problems/reorganize-string/)|Medium|
 ||768|[Max Chunks To Make Sorted II](https://leetcode.com/problems/max-chunks-to-make-sorted-ii/)|Hard|
 |[📎](src/q_751_800/q0769.cc)|769|[Max Chunks To Make Sorted](https://leetcode.com/problems/max-chunks-to-make-sorted/)|Medium|
@@ -2312,7 +2312,7 @@ My daily challenge on leetcode since 2021/09/06.
 ||2250|[Count Number of Rectangles Containing Each Point](https://leetcode.com/problems/count-number-of-rectangles-containing-each-point/)|Medium|
 </details>
 <details>
-  <summary>### 2251 ~ 2454</summary>
+  <summary>### 2251 ~ 2458</summary>
 
 |</>|#|Solution Title|Difficulty|
 |:-:|--:|:--|:--|
@@ -2520,6 +2520,10 @@ My daily challenge on leetcode since 2021/09/06.
 ||2452|[Words Within Two Edits of Dictionary](https://leetcode.com/problems/words-within-two-edits-of-dictionary/)|Medium|
 ||2453|[Destroy Sequential Targets](https://leetcode.com/problems/destroy-sequential-targets/)|Medium|
 ||2454|[Next Greater Element IV](https://leetcode.com/problems/next-greater-element-iv/)|Hard|
+||2455|[Average Value of Even Numbers That Are Divisible by Three](https://leetcode.com/problems/average-value-of-even-numbers-that-are-divisible-by-three/)|Easy|
+||2456|[Most Popular Video Creator](https://leetcode.com/problems/most-popular-video-creator/)|Medium|
+||2457|[Minimum Addition to Make Integer Beautiful](https://leetcode.com/problems/minimum-addition-to-make-integer-beautiful/)|Medium|
+||2458|[Height of Binary Tree After Subtree Removal Queries](https://leetcode.com/problems/height-of-binary-tree-after-subtree-removal-queries/)|Hard|
 </details>
 
 ---
@@ -2527,6 +2531,7 @@ My daily challenge on leetcode since 2021/09/06.
 
 |Time|#|</>|Question Title|Difficulty|
 |:--|--:|:-:|:--|:--|
+|2022-10-31 12:37|766|[📎](src/q_751_800/q0766.cc)|[Toeplitz Matrix](https://leetcode.com/problems/toeplitz-matrix/)|Easy|
 |2022-10-30 12:26|796|[📎](src/q_751_800/q0796.cc)|[Rotate String](https://leetcode.com/problems/rotate-string/)|Easy|
 |2022-10-29 11:47|2136|[📎](src/q_2101_2150/q2136.cc)|[Earliest Possible Day of Full Bloom](https://leetcode.com/problems/earliest-possible-day-of-full-bloom/)|Hard|
 |2022-10-28 12:14|1018|[📎](src/q_1001_1050/q1018.cc)|[Binary Prefix Divisible By 5](https://leetcode.com/problems/binary-prefix-divisible-by-5/)|Easy|
@@ -2551,13 +2556,12 @@ My daily challenge on leetcode since 2021/09/06.
 |2022-10-09 13:12|513|[📎](src/q_501_550/q0513.cc)|[Find Bottom Left Tree Value](https://leetcode.com/problems/find-bottom-left-tree-value/)|Medium|
 |2022-10-08 14:21|821|[📎](src/q_801_850/q0821.cc)|[Shortest Distance to a Character](https://leetcode.com/problems/shortest-distance-to-a-character/)|Easy|
 |2022-10-08 14:05|783|[📎](src/q_751_800/q0783.cc)|[Minimum Distance Between BST Nodes](https://leetcode.com/problems/minimum-distance-between-bst-nodes/)|Easy|
-|2022-10-07 10:11|732|[📎](src/q_701_750/q0732.cc)|[My Calendar III](https://leetcode.com/problems/my-calendar-iii/)|Hard|
 
 ## Previous Logs
 
 |Month|Submissions|Easy|Medium|Hard|
 |:--|:--|:--|:--|:--|
-|[October_2022](./assets/October_2022.md)|32|21|7|4|
+|[October_2022](./assets/October_2022.md)|33|22|7|4|
 |[September_2022](./assets/September_2022.md)|38|10|19|9|
 |[August_2022](./assets/August_2022.md)|48|15|24|9|
 |[July_2022](./assets/July_2022.md)|47|6|37|4|

@@ -764,7 +764,7 @@ id,title,level,slug,paid,done
 763,Partition Labels,2,partition-labels,0,1
 764,Largest Plus Sign,2,largest-plus-sign,0,1
 765,Couples Holding Hands,3,couples-holding-hands,0,0
-766,Toeplitz Matrix,1,toeplitz-matrix,0,0
+766,Toeplitz Matrix,1,toeplitz-matrix,0,1
 767,Reorganize String,2,reorganize-string,0,1
 768,Max Chunks To Make Sorted II,3,max-chunks-to-make-sorted-ii,0,0
 769,Max Chunks To Make Sorted,2,max-chunks-to-make-sorted,0,1
@@ -2453,3 +2453,7 @@ id,title,level,slug,paid,done
 2452,Words Within Two Edits of Dictionary,2,words-within-two-edits-of-dictionary,0,0
 2453,Destroy Sequential Targets,2,destroy-sequential-targets,0,0
 2454,Next Greater Element IV,3,next-greater-element-iv,0,0
+2455,Average Value of Even Numbers That Are Divisible by Three,1,average-value-of-even-numbers-that-are-divisible-by-three,0,0
+2456,Most Popular Video Creator,2,most-popular-video-creator,0,0
+2457,Minimum Addition to Make Integer Beautiful,2,minimum-addition-to-make-integer-beautiful,0,0
+2458,Height of Binary Tree After Subtree Removal Queries,3,height-of-binary-tree-after-subtree-removal-queries,0,0
