@@ -695,7 +695,7 @@ id,title,level,slug,paid,done
 694,Number of Distinct Islands,2,number-of-distinct-islands,1,0
 695,Max Area of Island,2,max-area-of-island,0,1
 696,Count Binary Substrings,1,count-binary-substrings,0,0
-697,Degree of an Array,1,degree-of-an-array,0,0
+697,Degree of an Array,1,degree-of-an-array,0,1
 698,Partition to K Equal Sum Subsets,2,partition-to-k-equal-sum-subsets,0,1
 699,Falling Squares,3,falling-squares,0,0
 700,Search in a Binary Search Tree,1,search-in-a-binary-search-tree,0,1
@@ -726,7 +726,7 @@ id,title,level,slug,paid,done
 725,Split Linked List in Parts,2,split-linked-list-in-parts,0,1
 726,Number of Atoms,3,number-of-atoms,0,0
 727,Minimum Window Subsequence,3,minimum-window-subsequence,1,0
-728,Self Dividing Numbers,1,self-dividing-numbers,0,0
+728,Self Dividing Numbers,1,self-dividing-numbers,0,1
 729,My Calendar I,2,my-calendar-i,0,1
 730,Count Different Palindromic Subsequences,3,count-different-palindromic-subsequences,0,0
 731,My Calendar II,2,my-calendar-ii,0,0
@@ -2457,3 +2457,4 @@ id,title,level,slug,paid,done
 2456,Most Popular Video Creator,2,most-popular-video-creator,0,0
 2457,Minimum Addition to Make Integer Beautiful,2,minimum-addition-to-make-integer-beautiful,0,0
 2458,Height of Binary Tree After Subtree Removal Queries,3,height-of-binary-tree-after-subtree-removal-queries,0,0
+2459,Sort Array by Moving Items to Empty Space,3,sort-array-by-moving-items-to-empty-space,1,0
