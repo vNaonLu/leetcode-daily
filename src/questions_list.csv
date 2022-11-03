@@ -923,7 +923,7 @@ id,title,level,slug,paid,done
 922,Sort Array By Parity II,1,sort-array-by-parity-ii,0,1
 923,3Sum With Multiplicity,2,3sum-with-multiplicity,0,1
 924,Minimize Malware Spread,3,minimize-malware-spread,0,0
-925,Long Pressed Name,1,long-pressed-name,0,0
+925,Long Pressed Name,1,long-pressed-name,0,1
 926,Flip String to Monotone Increasing,2,flip-string-to-monotone-increasing,0,0
 927,Three Equal Parts,3,three-equal-parts,0,0
 928,Minimize Malware Spread II,3,minimize-malware-spread-ii,0,0
