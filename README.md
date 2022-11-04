@@ -719,7 +719,7 @@ My daily challenge on leetcode since 2021/09/06.
 |[📎](src/q_651_700/q0693.cc)|693|[Binary Number with Alternating Bits](https://leetcode.com/problems/binary-number-with-alternating-bits/)|Easy|
 |🔒|694|[Number of Distinct Islands](https://leetcode.com/problems/number-of-distinct-islands/)|Medium|
 |[📎](src/q_651_700/q0695.cc)|695|[Max Area of Island](https://leetcode.com/problems/max-area-of-island/)|Medium|
-||696|[Count Binary Substrings](https://leetcode.com/problems/count-binary-substrings/)|Easy|
+|[📎](src/q_651_700/q0696.cc)|696|[Count Binary Substrings](https://leetcode.com/problems/count-binary-substrings/)|Easy|
 |[📎](src/q_651_700/q0697.cc)|697|[Degree of an Array](https://leetcode.com/problems/degree-of-an-array/)|Easy|
 |[📎](src/q_651_700/q0698.cc)|698|[Partition to K Equal Sum Subsets](https://leetcode.com/problems/partition-to-k-equal-sum-subsets/)|Medium|
 ||699|[Falling Squares](https://leetcode.com/problems/falling-squares/)|Hard|
@@ -2532,6 +2532,7 @@ My daily challenge on leetcode since 2021/09/06.
 
 |Time|#|</>|Question Title|Difficulty|
 |:--|--:|:-:|:--|:--|
+|2022-11-04 18:27|696|[📎](src/q_651_700/q0696.cc)|[Count Binary Substrings](https://leetcode.com/problems/count-binary-substrings/)|Easy|
 |2022-11-03 23:25|925|[📎](src/q_901_950/q0925.cc)|[Long Pressed Name](https://leetcode.com/problems/long-pressed-name/)|Easy|
 |2022-11-02 22:03|697|[📎](src/q_651_700/q0697.cc)|[Degree of an Array](https://leetcode.com/problems/degree-of-an-array/)|Easy|
 |2022-11-01 18:55|728|[📎](src/q_701_750/q0728.cc)|[Self Dividing Numbers](https://leetcode.com/problems/self-dividing-numbers/)|Easy|
@@ -2556,13 +2557,12 @@ My daily challenge on leetcode since 2021/09/06.
 |2022-10-13 13:19|2236|[📎](src/q_2201_2250/q2236.cc)|[Root Equals Sum of Children](https://leetcode.com/problems/root-equals-sum-of-children/)|Easy|
 |2022-10-12 13:54|965|[📎](src/q_951_1000/q0965.cc)|[Univalued Binary Tree](https://leetcode.com/problems/univalued-binary-tree/)|Easy|
 |2022-10-11 13:28|559|[📎](src/q_551_600/q0559.cc)|[Maximum Depth of N-ary Tree](https://leetcode.com/problems/maximum-depth-of-n-ary-tree/)|Easy|
-|2022-10-10 13:39|655|[📎](src/q_651_700/q0655.cc)|[Print Binary Tree](https://leetcode.com/problems/print-binary-tree/)|Medium|
 
 ## Previous Logs
 
 |Month|Submissions|Easy|Medium|Hard|
 |:--|:--|:--|:--|:--|
-|[November_2022](./assets/November_2022.md)|3|3|0|0|
+|[November_2022](./assets/November_2022.md)|4|4|0|0|
 |[October_2022](./assets/October_2022.md)|33|22|7|4|
 |[September_2022](./assets/September_2022.md)|38|10|19|9|
 |[August_2022](./assets/August_2022.md)|48|15|24|9|
