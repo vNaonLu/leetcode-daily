@@ -1086,7 +1086,7 @@ My daily challenge on leetcode since 2021/09/06.
 |[📎](src/q_1001_1050/q1048.cc)|1048|[Longest String Chain](https://leetcode.com/problems/longest-string-chain/)|Medium|
 |[📎](src/q_1001_1050/q1049.cc)|1049|[Last Stone Weight II](https://leetcode.com/problems/last-stone-weight-ii/)|Medium|
 ||1050|[Actors and Directors Who Cooperated At Least Three Times](https://leetcode.com/problems/actors-and-directors-who-cooperated-at-least-three-times/)|Easy|
-||1051|[Height Checker](https://leetcode.com/problems/height-checker/)|Easy|
+|[📎](src/q_1051_1100/q1051.cc)|1051|[Height Checker](https://leetcode.com/problems/height-checker/)|Easy|
 ||1052|[Grumpy Bookstore Owner](https://leetcode.com/problems/grumpy-bookstore-owner/)|Medium|
 |[📎](src/q_1051_1100/q1053.cc)|1053|[Previous Permutation With One Swap](https://leetcode.com/problems/previous-permutation-with-one-swap/)|Medium|
 ||1054|[Distant Barcodes](https://leetcode.com/problems/distant-barcodes/)|Medium|
@@ -2532,6 +2532,7 @@ My daily challenge on leetcode since 2021/09/06.
 
 |Time|#|</>|Question Title|Difficulty|
 |:--|--:|:-:|:--|:--|
+|2022-11-05 12:20|1051|[📎](src/q_1051_1100/q1051.cc)|[Height Checker](https://leetcode.com/problems/height-checker/)|Easy|
 |2022-11-04 18:27|696|[📎](src/q_651_700/q0696.cc)|[Count Binary Substrings](https://leetcode.com/problems/count-binary-substrings/)|Easy|
 |2022-11-03 23:25|925|[📎](src/q_901_950/q0925.cc)|[Long Pressed Name](https://leetcode.com/problems/long-pressed-name/)|Easy|
 |2022-11-02 22:03|697|[📎](src/q_651_700/q0697.cc)|[Degree of an Array](https://leetcode.com/problems/degree-of-an-array/)|Easy|
@@ -2556,13 +2557,12 @@ My daily challenge on leetcode since 2021/09/06.
 |2022-10-14 10:08|2095|[📎](src/q_2051_2100/q2095.cc)|[Delete the Middle Node of a Linked List](https://leetcode.com/problems/delete-the-middle-node-of-a-linked-list/)|Medium|
 |2022-10-13 13:19|2236|[📎](src/q_2201_2250/q2236.cc)|[Root Equals Sum of Children](https://leetcode.com/problems/root-equals-sum-of-children/)|Easy|
 |2022-10-12 13:54|965|[📎](src/q_951_1000/q0965.cc)|[Univalued Binary Tree](https://leetcode.com/problems/univalued-binary-tree/)|Easy|
-|2022-10-11 13:28|559|[📎](src/q_551_600/q0559.cc)|[Maximum Depth of N-ary Tree](https://leetcode.com/problems/maximum-depth-of-n-ary-tree/)|Easy|
 
 ## Previous Logs
 
 |Month|Submissions|Easy|Medium|Hard|
 |:--|:--|:--|:--|:--|
-|[November_2022](./assets/November_2022.md)|4|4|0|0|
+|[November_2022](./assets/November_2022.md)|5|5|0|0|
 |[October_2022](./assets/October_2022.md)|33|22|7|4|
 |[September_2022](./assets/September_2022.md)|38|10|19|9|
 |[August_2022](./assets/August_2022.md)|48|15|24|9|
