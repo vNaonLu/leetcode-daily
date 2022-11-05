@@ -2,6 +2,8 @@
 
 ||#|</>|Question Title|Difficulty|
 |:--|--:|:-:|:--|:--|
+|Day 31|766|[📎](../src/q_751_800/q0766.cc)|[Toeplitz Matrix](https://leetcode.com/problems/toeplitz-matrix/)|Easy|
+|Day 30|796|[📎](../src/q_751_800/q0796.cc)|[Rotate String](https://leetcode.com/problems/rotate-string/)|Easy|
 |Day 29|2136|[📎](../src/q_2101_2150/q2136.cc)|[Earliest Possible Day of Full Bloom](https://leetcode.com/problems/earliest-possible-day-of-full-bloom/)|Hard|
 |Day 28|1018|[📎](../src/q_1001_1050/q1018.cc)|[Binary Prefix Divisible By 5](https://leetcode.com/problems/binary-prefix-divisible-by-5/)|Easy|
 |Day 27|835|[📎](../src/q_801_850/q0835.cc)|[Image Overlap](https://leetcode.com/problems/image-overlap/)|Medium|
