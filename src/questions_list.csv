@@ -897,7 +897,7 @@ id,title,level,slug,paid,done
 896,Monotonic Array,1,monotonic-array,0,1
 897,Increasing Order Search Tree,1,increasing-order-search-tree,0,1
 898,Bitwise ORs of Subarrays,2,bitwise-ors-of-subarrays,0,1
-899,Orderly Queue,3,orderly-queue,0,0
+899,Orderly Queue,3,orderly-queue,0,1
 900,RLE Iterator,2,rle-iterator,0,0
 901,Online Stock Span,2,online-stock-span,0,0
 902,Numbers At Most N Given Digit Set,3,numbers-at-most-n-given-digit-set,0,1
@@ -2084,7 +2084,7 @@ id,title,level,slug,paid,done
 2083,Substrings That Begin and End With the Same Letter,2,substrings-that-begin-and-end-with-the-same-letter,1,0
 2084,Drop Type 1 Orders for Customers With Type 0 Orders,2,drop-type-1-orders-for-customers-with-type-0-orders,1,0
 2085,Count Common Words With One Occurrence,1,count-common-words-with-one-occurrence,0,0
-2086,Minimum Number of Buckets Required to Collect Rainwater from Houses,2,minimum-number-of-buckets-required-to-collect-rainwater-from-houses,0,0
+2086,Minimum Number of Food Buckets to Feed the Hamsters,2,minimum-number-of-food-buckets-to-feed-the-hamsters,0,0
 2087,Minimum Cost Homecoming of a Robot in a Grid,2,minimum-cost-homecoming-of-a-robot-in-a-grid,0,0
 2088,Count Fertile Pyramids in a Land,3,count-fertile-pyramids-in-a-land,0,0
 2089,Find Target Indices After Sorting Array,1,find-target-indices-after-sorting-array,0,0
@@ -2458,3 +2458,7 @@ id,title,level,slug,paid,done
 2457,Minimum Addition to Make Integer Beautiful,2,minimum-addition-to-make-integer-beautiful,0,0
 2458,Height of Binary Tree After Subtree Removal Queries,3,height-of-binary-tree-after-subtree-removal-queries,0,0
 2459,Sort Array by Moving Items to Empty Space,3,sort-array-by-moving-items-to-empty-space,1,0
+2460,Apply Operations to an Array,1,apply-operations-to-an-array,0,0
+2461,Maximum Sum of Distinct Subarrays With Length K,2,maximum-sum-of-distinct-subarrays-with-length-k,0,0
+2462,Total Cost to Hire K Workers,2,total-cost-to-hire-k-workers,0,0
+2463,Minimum Total Distance Traveled,3,minimum-total-distance-traveled,0,0
