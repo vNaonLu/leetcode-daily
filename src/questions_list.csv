@@ -1069,7 +1069,7 @@ id,title,level,slug,paid,done
 1068,Product Sales Analysis I,1,product-sales-analysis-i,1,0
 1069,Product Sales Analysis II,1,product-sales-analysis-ii,1,0
 1070,Product Sales Analysis III,2,product-sales-analysis-iii,1,0
-1071,Greatest Common Divisor of Strings,1,greatest-common-divisor-of-strings,0,0
+1071,Greatest Common Divisor of Strings,1,greatest-common-divisor-of-strings,0,1
 1072,Flip Columns For Maximum Number of Equal Rows,2,flip-columns-for-maximum-number-of-equal-rows,0,0
 1073,Adding Two Negabinary Numbers,2,adding-two-negabinary-numbers,0,0
 1074,Number of Submatrices That Sum to Target,3,number-of-submatrices-that-sum-to-target,0,1

@@ -2,6 +2,7 @@
 
 ||#|</>|Question Title|Difficulty|
 |:--|--:|:-:|:--|:--|
+|Day 7|1071|[📎](../src/q_1051_1100/q1071.cc)|[Greatest Common Divisor of Strings](https://leetcode.com/problems/greatest-common-divisor-of-strings/)|Easy|
 |Day 6|899|[📎](../src/q_851_900/q0899.cc)|[Orderly Queue](https://leetcode.com/problems/orderly-queue/)|Hard|
 |Day 5|1051|[📎](../src/q_1051_1100/q1051.cc)|[Height Checker](https://leetcode.com/problems/height-checker/)|Easy|
 |Day 4|696|[📎](../src/q_651_700/q0696.cc)|[Count Binary Substrings](https://leetcode.com/problems/count-binary-substrings/)|Easy|
