@@ -1591,7 +1591,7 @@ My daily challenge on leetcode since 2021/09/06.
 ||1541|[Minimum Insertions to Balance a Parentheses String](https://leetcode.com/problems/minimum-insertions-to-balance-a-parentheses-string/)|Medium|
 ||1542|[Find Longest Awesome Substring](https://leetcode.com/problems/find-longest-awesome-substring/)|Hard|
 |🔒|1543|[Fix Product Name Format](https://leetcode.com/problems/fix-product-name-format/)|Easy|
-||1544|[Make The String Great](https://leetcode.com/problems/make-the-string-great/)|Easy|
+|[📎](src/q_1501_1550/q1544.cc)|1544|[Make The String Great](https://leetcode.com/problems/make-the-string-great/)|Easy|
 |[📎](src/q_1501_1550/q1545.cc)|1545|[Find Kth Bit in Nth Binary String](https://leetcode.com/problems/find-kth-bit-in-nth-binary-string/)|Medium|
 ||1546|[Maximum Number of Non-Overlapping Subarrays With Sum Equals Target](https://leetcode.com/problems/maximum-number-of-non-overlapping-subarrays-with-sum-equals-target/)|Medium|
 ||1547|[Minimum Cost to Cut a Stick](https://leetcode.com/problems/minimum-cost-to-cut-a-stick/)|Hard|
@@ -2536,6 +2536,7 @@ My daily challenge on leetcode since 2021/09/06.
 
 |Time|#|</>|Question Title|Difficulty|
 |:--|--:|:-:|:--|:--|
+|2022-11-08 18:21|1544|[📎](src/q_1501_1550/q1544.cc)|[Make The String Great](https://leetcode.com/problems/make-the-string-great/)|Easy|
 |2022-11-07 18:48|1071|[📎](src/q_1051_1100/q1071.cc)|[Greatest Common Divisor of Strings](https://leetcode.com/problems/greatest-common-divisor-of-strings/)|Easy|
 |2022-11-06 14:21|899|[📎](src/q_851_900/q0899.cc)|[Orderly Queue](https://leetcode.com/problems/orderly-queue/)|Hard|
 |2022-11-05 12:20|1051|[📎](src/q_1051_1100/q1051.cc)|[Height Checker](https://leetcode.com/problems/height-checker/)|Easy|
@@ -2560,13 +2561,12 @@ My daily challenge on leetcode since 2021/09/06.
 |2022-10-17 15:18|1832|[📎](src/q_1801_1850/q1832.cc)|[Check if the Sentence Is Pangram](https://leetcode.com/problems/check-if-the-sentence-is-pangram/)|Easy|
 |2022-10-16 14:40|1335|[📎](src/q_1301_1350/q1335.cc)|[Minimum Difficulty of a Job Schedule](https://leetcode.com/problems/minimum-difficulty-of-a-job-schedule/)|Hard|
 |2022-10-15 13:26|1531|[📎](src/q_1501_1550/q1531.cc)|[String Compression II](https://leetcode.com/problems/string-compression-ii/)|Hard|
-|2022-10-14 10:08|2095|[📎](src/q_2051_2100/q2095.cc)|[Delete the Middle Node of a Linked List](https://leetcode.com/problems/delete-the-middle-node-of-a-linked-list/)|Medium|
 
 ## Previous Logs
 
 |Month|Submissions|Easy|Medium|Hard|
 |:--|:--|:--|:--|:--|
-|[November_2022](./assets/November_2022.md)|7|6|0|1|
+|[November_2022](./assets/November_2022.md)|8|7|0|1|
 |[October_2022](./assets/October_2022.md)|33|22|7|4|
 |[September_2022](./assets/September_2022.md)|38|10|19|9|
 |[August_2022](./assets/August_2022.md)|48|15|24|9|
