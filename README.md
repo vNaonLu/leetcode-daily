@@ -930,7 +930,7 @@ My daily challenge on leetcode since 2021/09/06.
 |[📎](src/q_851_900/q0898.cc)|898|[Bitwise ORs of Subarrays](https://leetcode.com/problems/bitwise-ors-of-subarrays/)|Medium|
 |[📎](src/q_851_900/q0899.cc)|899|[Orderly Queue](https://leetcode.com/problems/orderly-queue/)|Hard|
 ||900|[RLE Iterator](https://leetcode.com/problems/rle-iterator/)|Medium|
-||901|[Online Stock Span](https://leetcode.com/problems/online-stock-span/)|Medium|
+|[📎](src/q_901_950/q0901.cc)|901|[Online Stock Span](https://leetcode.com/problems/online-stock-span/)|Medium|
 |[📎](src/q_901_950/q0902.cc)|902|[Numbers At Most N Given Digit Set](https://leetcode.com/problems/numbers-at-most-n-given-digit-set/)|Hard|
 ||903|[Valid Permutations for DI Sequence](https://leetcode.com/problems/valid-permutations-for-di-sequence/)|Hard|
 ||904|[Fruit Into Baskets](https://leetcode.com/problems/fruit-into-baskets/)|Medium|
@@ -2536,6 +2536,7 @@ My daily challenge on leetcode since 2021/09/06.
 
 |Time|#|</>|Question Title|Difficulty|
 |:--|--:|:-:|:--|:--|
+|2022-11-09 18:41|901|[📎](src/q_901_950/q0901.cc)|[Online Stock Span](https://leetcode.com/problems/online-stock-span/)|Medium|
 |2022-11-08 18:21|1544|[📎](src/q_1501_1550/q1544.cc)|[Make The String Great](https://leetcode.com/problems/make-the-string-great/)|Easy|
 |2022-11-07 18:48|1071|[📎](src/q_1051_1100/q1071.cc)|[Greatest Common Divisor of Strings](https://leetcode.com/problems/greatest-common-divisor-of-strings/)|Easy|
 |2022-11-06 14:21|899|[📎](src/q_851_900/q0899.cc)|[Orderly Queue](https://leetcode.com/problems/orderly-queue/)|Hard|
@@ -2560,13 +2561,12 @@ My daily challenge on leetcode since 2021/09/06.
 |2022-10-18 14:13|2331|[📎](src/q_2301_2350/q2331.cc)|[Evaluate Boolean Binary Tree](https://leetcode.com/problems/evaluate-boolean-binary-tree/)|Easy|
 |2022-10-17 15:18|1832|[📎](src/q_1801_1850/q1832.cc)|[Check if the Sentence Is Pangram](https://leetcode.com/problems/check-if-the-sentence-is-pangram/)|Easy|
 |2022-10-16 14:40|1335|[📎](src/q_1301_1350/q1335.cc)|[Minimum Difficulty of a Job Schedule](https://leetcode.com/problems/minimum-difficulty-of-a-job-schedule/)|Hard|
-|2022-10-15 13:26|1531|[📎](src/q_1501_1550/q1531.cc)|[String Compression II](https://leetcode.com/problems/string-compression-ii/)|Hard|
 
 ## Previous Logs
 
 |Month|Submissions|Easy|Medium|Hard|
 |:--|:--|:--|:--|:--|
-|[November_2022](./assets/November_2022.md)|8|7|0|1|
+|[November_2022](./assets/November_2022.md)|9|7|1|1|
 |[October_2022](./assets/October_2022.md)|33|22|7|4|
 |[September_2022](./assets/September_2022.md)|38|10|19|9|
 |[August_2022](./assets/August_2022.md)|48|15|24|9|
