@@ -1076,7 +1076,7 @@ id,title,level,slug,paid,done
 1075,Project Employees I,1,project-employees-i,1,0
 1076,Project Employees II,1,project-employees-ii,1,0
 1077,Project Employees III,2,project-employees-iii,1,0
-1078,Occurrences After Bigram,1,occurrences-after-bigram,0,0
+1078,Occurrences After Bigram,1,occurrences-after-bigram,0,1
 1079,Letter Tile Possibilities,2,letter-tile-possibilities,0,0
 1080,Insufficient Nodes in Root to Leaf Paths,2,insufficient-nodes-in-root-to-leaf-paths,0,0
 1081,Smallest Subsequence of Distinct Characters,2,smallest-subsequence-of-distinct-characters,0,1

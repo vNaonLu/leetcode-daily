@@ -1113,7 +1113,7 @@ My daily challenge on leetcode since 2021/09/06.
 |🔒|1075|[Project Employees I](https://leetcode.com/problems/project-employees-i/)|Easy|
 |🔒|1076|[Project Employees II](https://leetcode.com/problems/project-employees-ii/)|Easy|
 |🔒|1077|[Project Employees III](https://leetcode.com/problems/project-employees-iii/)|Medium|
-||1078|[Occurrences After Bigram](https://leetcode.com/problems/occurrences-after-bigram/)|Easy|
+|[📎](src/q_1051_1100/q1078.cc)|1078|[Occurrences After Bigram](https://leetcode.com/problems/occurrences-after-bigram/)|Easy|
 ||1079|[Letter Tile Possibilities](https://leetcode.com/problems/letter-tile-possibilities/)|Medium|
 ||1080|[Insufficient Nodes in Root to Leaf Paths](https://leetcode.com/problems/insufficient-nodes-in-root-to-leaf-paths/)|Medium|
 |[📎](src/q_1051_1100/q1081.cc)|1081|[Smallest Subsequence of Distinct Characters](https://leetcode.com/problems/smallest-subsequence-of-distinct-characters/)|Medium|
@@ -2537,6 +2537,7 @@ My daily challenge on leetcode since 2021/09/06.
 
 |Time|#|</>|Question Title|Difficulty|
 |:--|--:|:-:|:--|:--|
+|2022-11-11 19:44|1078|[📎](src/q_1051_1100/q1078.cc)|[Occurrences After Bigram](https://leetcode.com/problems/occurrences-after-bigram/)|Easy|
 |2022-11-10 18:12|1047|[📎](src/q_1001_1050/q1047.cc)|[Remove All Adjacent Duplicates In String](https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string/)|Easy|
 |2022-11-09 18:41|901|[📎](src/q_901_950/q0901.cc)|[Online Stock Span](https://leetcode.com/problems/online-stock-span/)|Medium|
 |2022-11-08 18:21|1544|[📎](src/q_1501_1550/q1544.cc)|[Make The String Great](https://leetcode.com/problems/make-the-string-great/)|Easy|
@@ -2561,13 +2562,12 @@ My daily challenge on leetcode since 2021/09/06.
 |2022-10-20 07:19|872|[📎](src/q_851_900/q0872.cc)|[Leaf-Similar Trees](https://leetcode.com/problems/leaf-similar-trees/)|Easy|
 |2022-10-19 09:00|671|[📎](src/q_651_700/q0671.cc)|[Second Minimum Node In a Binary Tree](https://leetcode.com/problems/second-minimum-node-in-a-binary-tree/)|Easy|
 |2022-10-18 14:13|2331|[📎](src/q_2301_2350/q2331.cc)|[Evaluate Boolean Binary Tree](https://leetcode.com/problems/evaluate-boolean-binary-tree/)|Easy|
-|2022-10-17 15:18|1832|[📎](src/q_1801_1850/q1832.cc)|[Check if the Sentence Is Pangram](https://leetcode.com/problems/check-if-the-sentence-is-pangram/)|Easy|
 
 ## Previous Logs
 
 |Month|Submissions|Easy|Medium|Hard|
 |:--|:--|:--|:--|:--|
-|[November_2022](./assets/November_2022.md)|10|8|1|1|
+|[November_2022](./assets/November_2022.md)|11|9|1|1|
 |[October_2022](./assets/October_2022.md)|33|22|7|4|
 |[September_2022](./assets/September_2022.md)|38|10|19|9|
 |[August_2022](./assets/August_2022.md)|48|15|24|9|
