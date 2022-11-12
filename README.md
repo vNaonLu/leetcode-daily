@@ -312,7 +312,7 @@ My daily challenge on leetcode since 2021/09/06.
 |[📎](src/q_251_300/q0292.cc)|292|[Nim Game](https://leetcode.com/problems/nim-game/)|Easy|
 |🔒|293|[Flip Game](https://leetcode.com/problems/flip-game/)|Easy|
 |🔒|294|[Flip Game II](https://leetcode.com/problems/flip-game-ii/)|Medium|
-||295|[Find Median from Data Stream](https://leetcode.com/problems/find-median-from-data-stream/)|Hard|
+|[📎](src/q_251_300/q0295.cc)|295|[Find Median from Data Stream](https://leetcode.com/problems/find-median-from-data-stream/)|Hard|
 |🔒|296|[Best Meeting Point](https://leetcode.com/problems/best-meeting-point/)|Hard|
 |[📎](src/q_251_300/q0297.cc)|297|[Serialize and Deserialize Binary Tree](https://leetcode.com/problems/serialize-and-deserialize-binary-tree/)|Hard|
 |🔒|298|[Binary Tree Longest Consecutive Sequence](https://leetcode.com/problems/binary-tree-longest-consecutive-sequence/)|Medium|
@@ -2537,6 +2537,7 @@ My daily challenge on leetcode since 2021/09/06.
 
 |Time|#|</>|Question Title|Difficulty|
 |:--|--:|:-:|:--|:--|
+|2022-11-12 21:03|295|[📎](src/q_251_300/q0295.cc)|[Find Median from Data Stream](https://leetcode.com/problems/find-median-from-data-stream/)|Hard|
 |2022-11-11 19:44|1078|[📎](src/q_1051_1100/q1078.cc)|[Occurrences After Bigram](https://leetcode.com/problems/occurrences-after-bigram/)|Easy|
 |2022-11-10 18:12|1047|[📎](src/q_1001_1050/q1047.cc)|[Remove All Adjacent Duplicates In String](https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string/)|Easy|
 |2022-11-09 18:41|901|[📎](src/q_901_950/q0901.cc)|[Online Stock Span](https://leetcode.com/problems/online-stock-span/)|Medium|
@@ -2561,13 +2562,12 @@ My daily challenge on leetcode since 2021/09/06.
 |2022-10-21 21:32|2368|[📎](src/q_2351_2400/q2368.cc)|[Reachable Nodes With Restrictions](https://leetcode.com/problems/reachable-nodes-with-restrictions/)|Medium|
 |2022-10-20 07:19|872|[📎](src/q_851_900/q0872.cc)|[Leaf-Similar Trees](https://leetcode.com/problems/leaf-similar-trees/)|Easy|
 |2022-10-19 09:00|671|[📎](src/q_651_700/q0671.cc)|[Second Minimum Node In a Binary Tree](https://leetcode.com/problems/second-minimum-node-in-a-binary-tree/)|Easy|
-|2022-10-18 14:13|2331|[📎](src/q_2301_2350/q2331.cc)|[Evaluate Boolean Binary Tree](https://leetcode.com/problems/evaluate-boolean-binary-tree/)|Easy|
 
 ## Previous Logs
 
 |Month|Submissions|Easy|Medium|Hard|
 |:--|:--|:--|:--|:--|
-|[November_2022](./assets/November_2022.md)|11|9|1|1|
+|[November_2022](./assets/November_2022.md)|12|9|1|2|
 |[October_2022](./assets/October_2022.md)|33|22|7|4|
 |[September_2022](./assets/September_2022.md)|38|10|19|9|
 |[August_2022](./assets/August_2022.md)|48|15|24|9|
