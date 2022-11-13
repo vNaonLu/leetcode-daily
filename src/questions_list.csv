@@ -1152,7 +1152,7 @@ id,title,level,slug,paid,done
 1151,Minimum Swaps to Group All 1's Together,2,minimum-swaps-to-group-all-1s-together,1,0
 1152,Analyze User Website Visit Pattern,2,analyze-user-website-visit-pattern,1,0
 1153,String Transforms Into Another String,3,string-transforms-into-another-string,1,0
-1154,Day of the Year,1,day-of-the-year,0,0
+1154,Day of the Year,1,day-of-the-year,0,1
 1155,Number of Dice Rolls With Target Sum,2,number-of-dice-rolls-with-target-sum,0,1
 1156,Swap For Longest Repeated Character Substring,2,swap-for-longest-repeated-character-substring,0,0
 1157,Online Majority Element In Subarray,3,online-majority-element-in-subarray,0,0
@@ -2463,3 +2463,11 @@ id,title,level,slug,paid,done
 2462,Total Cost to Hire K Workers,2,total-cost-to-hire-k-workers,0,0
 2463,Minimum Total Distance Traveled,3,minimum-total-distance-traveled,0,0
 2464,Minimum Subarrays in a Valid Split,2,minimum-subarrays-in-a-valid-split,1,0
+2465,Number of Distinct Averages,1,number-of-distinct-averages,0,0
+2466,Count Ways To Build Good Strings,2,count-ways-to-build-good-strings,0,0
+2467,Most Profitable Path in a Tree,2,most-profitable-path-in-a-tree,0,0
+2468,Split Message Based on Limit,3,split-message-based-on-limit,0,0
+2469,Convert the Temperature,1,convert-the-temperature,0,0
+2470,Number of Subarrays With LCM Equal to K,2,number-of-subarrays-with-lcm-equal-to-k,0,0
+2471,Minimum Number of Operations to Sort a Binary Tree by Level,2,minimum-number-of-operations-to-sort-a-binary-tree-by-level,0,0
+2472,Maximum Number of Non-overlapping Palindrome Substrings,3,maximum-number-of-non-overlapping-palindrome-substrings,0,0
