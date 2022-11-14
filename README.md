@@ -252,7 +252,7 @@ My daily challenge on leetcode since 2021/09/06.
 |[📎](src/q_201_250/q0238.cc)|238|[Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/)|Medium|
 ||239|[Sliding Window Maximum](https://leetcode.com/problems/sliding-window-maximum/)|Hard|
 |[📎](src/q_201_250/q0240.cc)|240|[Search a 2D Matrix II](https://leetcode.com/problems/search-a-2d-matrix-ii/)|Medium|
-||241|[Different Ways to Add Parentheses](https://leetcode.com/problems/different-ways-to-add-parentheses/)|Medium|
+|[📎](src/q_201_250/q0241.cc)|241|[Different Ways to Add Parentheses](https://leetcode.com/problems/different-ways-to-add-parentheses/)|Medium|
 |[📎](src/q_201_250/q0242.cc)|242|[Valid Anagram](https://leetcode.com/problems/valid-anagram/)|Easy|
 |🔒|243|[Shortest Word Distance](https://leetcode.com/problems/shortest-word-distance/)|Easy|
 |🔒|244|[Shortest Word Distance II](https://leetcode.com/problems/shortest-word-distance-ii/)|Medium|
@@ -2545,6 +2545,7 @@ My daily challenge on leetcode since 2021/09/06.
 
 |Time|#|</>|Question Title|Difficulty|
 |:--|--:|:-:|:--|:--|
+|2022-11-14 20:47|241|[📎](src/q_201_250/q0241.cc)|[Different Ways to Add Parentheses](https://leetcode.com/problems/different-ways-to-add-parentheses/)|Medium|
 |2022-11-13 13:49|1154|[📎](src/q_1151_1200/q1154.cc)|[Day of the Year](https://leetcode.com/problems/day-of-the-year/)|Easy|
 |2022-11-12 21:03|295|[📎](src/q_251_300/q0295.cc)|[Find Median from Data Stream](https://leetcode.com/problems/find-median-from-data-stream/)|Hard|
 |2022-11-11 19:44|1078|[📎](src/q_1051_1100/q1078.cc)|[Occurrences After Bigram](https://leetcode.com/problems/occurrences-after-bigram/)|Easy|
@@ -2569,13 +2570,12 @@ My daily challenge on leetcode since 2021/09/06.
 |2022-10-23 20:54|824|[📎](src/q_801_850/q0824.cc)|[Goat Latin](https://leetcode.com/problems/goat-latin/)|Easy|
 |2022-10-22 19:02|748|[📎](src/q_701_750/q0748.cc)|[Shortest Completing Word](https://leetcode.com/problems/shortest-completing-word/)|Easy|
 |2022-10-21 21:32|2368|[📎](src/q_2351_2400/q2368.cc)|[Reachable Nodes With Restrictions](https://leetcode.com/problems/reachable-nodes-with-restrictions/)|Medium|
-|2022-10-20 07:19|872|[📎](src/q_851_900/q0872.cc)|[Leaf-Similar Trees](https://leetcode.com/problems/leaf-similar-trees/)|Easy|
 
 ## Previous Logs
 
 |Month|Submissions|Easy|Medium|Hard|
 |:--|:--|:--|:--|:--|
-|[November_2022](./assets/November_2022.md)|13|10|1|2|
+|[November_2022](./assets/November_2022.md)|14|10|2|2|
 |[October_2022](./assets/October_2022.md)|33|22|7|4|
 |[September_2022](./assets/September_2022.md)|38|10|19|9|
 |[August_2022](./assets/August_2022.md)|48|15|24|9|

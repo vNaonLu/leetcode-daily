@@ -239,7 +239,7 @@ id,title,level,slug,paid,done
 238,Product of Array Except Self,2,product-of-array-except-self,0,1
 239,Sliding Window Maximum,3,sliding-window-maximum,0,0
 240,Search a 2D Matrix II,2,search-a-2d-matrix-ii,0,1
-241,Different Ways to Add Parentheses,2,different-ways-to-add-parentheses,0,0
+241,Different Ways to Add Parentheses,2,different-ways-to-add-parentheses,0,1
 242,Valid Anagram,1,valid-anagram,0,1
 243,Shortest Word Distance,1,shortest-word-distance,1,0
 244,Shortest Word Distance II,2,shortest-word-distance-ii,1,0
