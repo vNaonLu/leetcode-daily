@@ -47,18 +47,18 @@ struct q357 : public ::testing::Test {
 
 TEST_F(q357, sample_input01) {
   solution = new Solution();
-  int n = 2;
-  int exp = 91;
-  int act = solution->countNumbersWithUniqueDigits(n);
+  int n    = 2;
+  int exp  = 91;
+  int act  = solution->countNumbersWithUniqueDigits(n);
   EXPECT_EQ(act, exp);
   delete solution;
 }
 
 TEST_F(q357, sample_input02) {
   solution = new Solution();
-  int n = 0;
-  int exp = 1;
-  int act = solution->countNumbersWithUniqueDigits(n);
+  int n    = 0;
+  int exp  = 1;
+  int act  = solution->countNumbersWithUniqueDigits(n);
   EXPECT_EQ(act, exp);
   delete solution;
 }
