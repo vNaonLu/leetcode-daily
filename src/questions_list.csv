@@ -370,7 +370,7 @@ id,title,level,slug,paid,done
 369,Plus One Linked List,2,plus-one-linked-list,1,0
 370,Range Addition,2,range-addition,1,0
 371,Sum of Two Integers,2,sum-of-two-integers,0,0
-372,Super Pow,2,super-pow,0,0
+372,Super Pow,2,super-pow,0,1
 373,Find K Pairs with Smallest Sums,2,find-k-pairs-with-smallest-sums,0,0
 374,Guess Number Higher or Lower,1,guess-number-higher-or-lower,0,1
 375,Guess Number Higher or Lower II,2,guess-number-higher-or-lower-ii,0,1

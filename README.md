@@ -389,7 +389,7 @@ My daily challenge on leetcode since 2021/09/06.
 |🔒|369|[Plus One Linked List](https://leetcode.com/problems/plus-one-linked-list/)|Medium|
 |🔒|370|[Range Addition](https://leetcode.com/problems/range-addition/)|Medium|
 ||371|[Sum of Two Integers](https://leetcode.com/problems/sum-of-two-integers/)|Medium|
-||372|[Super Pow](https://leetcode.com/problems/super-pow/)|Medium|
+|[📎](src/q_351_400/q0372.cc)|372|[Super Pow](https://leetcode.com/problems/super-pow/)|Medium|
 ||373|[Find K Pairs with Smallest Sums](https://leetcode.com/problems/find-k-pairs-with-smallest-sums/)|Medium|
 |[📎](src/q_351_400/q0374.cc)|374|[Guess Number Higher or Lower](https://leetcode.com/problems/guess-number-higher-or-lower/)|Easy|
 |[📎](src/q_351_400/q0375.cc)|375|[Guess Number Higher or Lower II](https://leetcode.com/problems/guess-number-higher-or-lower-ii/)|Medium|
@@ -2545,6 +2545,7 @@ My daily challenge on leetcode since 2021/09/06.
 
 |Time|#|</>|Question Title|Difficulty|
 |:--|--:|:-:|:--|:--|
+|2022-11-16 19:06|372|[📎](src/q_351_400/q0372.cc)|[Super Pow](https://leetcode.com/problems/super-pow/)|Medium|
 |2022-11-15 18:58|357|[📎](src/q_351_400/q0357.cc)|[Count Numbers with Unique Digits](https://leetcode.com/problems/count-numbers-with-unique-digits/)|Medium|
 |2022-11-14 20:47|241|[📎](src/q_201_250/q0241.cc)|[Different Ways to Add Parentheses](https://leetcode.com/problems/different-ways-to-add-parentheses/)|Medium|
 |2022-11-13 13:49|1154|[📎](src/q_1151_1200/q1154.cc)|[Day of the Year](https://leetcode.com/problems/day-of-the-year/)|Easy|
@@ -2569,13 +2570,12 @@ My daily challenge on leetcode since 2021/09/06.
 |2022-10-25 10:52|1662|[📎](src/q_1651_1700/q1662.cc)|[Check If Two String Arrays are Equivalent](https://leetcode.com/problems/check-if-two-string-arrays-are-equivalent/)|Easy|
 |2022-10-24 21:19|1295|[📎](src/q_1251_1300/q1295.cc)|[Find Numbers with Even Number of Digits](https://leetcode.com/problems/find-numbers-with-even-number-of-digits/)|Easy|
 |2022-10-23 20:54|824|[📎](src/q_801_850/q0824.cc)|[Goat Latin](https://leetcode.com/problems/goat-latin/)|Easy|
-|2022-10-22 19:02|748|[📎](src/q_701_750/q0748.cc)|[Shortest Completing Word](https://leetcode.com/problems/shortest-completing-word/)|Easy|
 
 ## Previous Logs
 
 |Month|Submissions|Easy|Medium|Hard|
 |:--|:--|:--|:--|:--|
-|[November_2022](./assets/November_2022.md)|15|10|3|2|
+|[November_2022](./assets/November_2022.md)|16|10|4|2|
 |[October_2022](./assets/October_2022.md)|33|22|7|4|
 |[September_2022](./assets/September_2022.md)|38|10|19|9|
 |[August_2022](./assets/August_2022.md)|48|15|24|9|
