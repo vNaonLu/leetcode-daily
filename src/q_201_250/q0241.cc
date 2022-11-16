@@ -38,7 +38,7 @@ struct q241 : public ::testing::Test {
   private:
     vector<int> helper(string exp, unordered_map<string, vector<int>> &dp) {
       auto res = vector<int>();
-      auto n = exp.size();
+      auto n   = exp.size();
       for (int i = 0; i < n; ++i) {
         auto c = exp[i];
         if (c == '+' || c == '-' || c == '*') {
@@ -91,9 +91,9 @@ struct q241 : public ::testing::Test {
 };
 
 TEST_F(q241, sample_input01) {
-  solution = new Solution();
-  string expression = "2-1-1";
-  vector<int> exp = {0, 2};
+  solution               = new Solution();
+  string      expression = "2-1-1";
+  vector<int> exp        = {0, 2};
   // Try EXPECT_EQ_ANY_ORDER_RECURSIVE
   // if the element is also matched in any order.
   EXPECT_EQ_ANY_ORDER(solution->diffWaysToCompute(expression), exp);
@@ -101,9 +101,9 @@ TEST_F(q241, sample_input01) {
 }
 
 TEST_F(q241, sample_input02) {
-  solution = new Solution();
-  string expression = "2*3-4*5";
-  vector<int> exp = {-34, -14, -10, -10, 10};
+  solution               = new Solution();
+  string      expression = "2*3-4*5";
+  vector<int> exp        = {-34, -14, -10, -10, 10};
   // Try EXPECT_EQ_ANY_ORDER_RECURSIVE
   // if the element is also matched in any order.
   EXPECT_EQ_ANY_ORDER(solution->diffWaysToCompute(expression), exp);
