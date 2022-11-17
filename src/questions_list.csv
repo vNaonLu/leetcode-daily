@@ -720,7 +720,7 @@ id,title,level,slug,paid,done
 719,Find K-th Smallest Pair Distance,3,find-k-th-smallest-pair-distance,0,0
 720,Longest Word in Dictionary,2,longest-word-in-dictionary,0,0
 721,Accounts Merge,2,accounts-merge,0,1
-722,Remove Comments,2,remove-comments,0,0
+722,Remove Comments,2,remove-comments,0,1
 723,Candy Crush,2,candy-crush,1,0
 724,Find Pivot Index,1,find-pivot-index,0,1
 725,Split Linked List in Parts,2,split-linked-list-in-parts,0,1
@@ -2471,3 +2471,4 @@ id,title,level,slug,paid,done
 2470,Number of Subarrays With LCM Equal to K,2,number-of-subarrays-with-lcm-equal-to-k,0,0
 2471,Minimum Number of Operations to Sort a Binary Tree by Level,2,minimum-number-of-operations-to-sort-a-binary-tree-by-level,0,0
 2472,Maximum Number of Non-overlapping Palindrome Substrings,3,maximum-number-of-non-overlapping-palindrome-substrings,0,0
+2473,Minimum Cost to Buy Apples,2,minimum-cost-to-buy-apples,1,0
