@@ -937,7 +937,7 @@ My daily challenge on leetcode since 2021/09/06.
 |[📎](src/q_901_950/q0905.cc)|905|[Sort Array By Parity](https://leetcode.com/problems/sort-array-by-parity/)|Easy|
 ||906|[Super Palindromes](https://leetcode.com/problems/super-palindromes/)|Hard|
 |[📎](src/q_901_950/q0907.cc)|907|[Sum of Subarray Minimums](https://leetcode.com/problems/sum-of-subarray-minimums/)|Medium|
-||908|[Smallest Range I](https://leetcode.com/problems/smallest-range-i/)|Easy|
+|[📎](src/q_901_950/q0908.cc)|908|[Smallest Range I](https://leetcode.com/problems/smallest-range-i/)|Easy|
 ||909|[Snakes and Ladders](https://leetcode.com/problems/snakes-and-ladders/)|Medium|
 |[📎](src/q_901_950/q0910.cc)|910|[Smallest Range II](https://leetcode.com/problems/smallest-range-ii/)|Medium|
 |[📎](src/q_901_950/q0911.cc)|911|[Online Election](https://leetcode.com/problems/online-election/)|Medium|
@@ -2546,6 +2546,7 @@ My daily challenge on leetcode since 2021/09/06.
 
 |Time|#|</>|Question Title|Difficulty|
 |:--|--:|:-:|:--|:--|
+|2022-11-18 10:09|908|[📎](src/q_901_950/q0908.cc)|[Smallest Range I](https://leetcode.com/problems/smallest-range-i/)|Easy|
 |2022-11-17 17:46|722|[📎](src/q_701_750/q0722.cc)|[Remove Comments](https://leetcode.com/problems/remove-comments/)|Medium|
 |2022-11-16 19:06|372|[📎](src/q_351_400/q0372.cc)|[Super Pow](https://leetcode.com/problems/super-pow/)|Medium|
 |2022-11-15 18:58|357|[📎](src/q_351_400/q0357.cc)|[Count Numbers with Unique Digits](https://leetcode.com/problems/count-numbers-with-unique-digits/)|Medium|
@@ -2570,13 +2571,12 @@ My daily challenge on leetcode since 2021/09/06.
 |2022-10-27 14:32|835|[📎](src/q_801_850/q0835.cc)|[Image Overlap](https://leetcode.com/problems/image-overlap/)|Medium|
 |2022-10-26 11:03|523|[📎](src/q_501_550/q0523.cc)|[Continuous Subarray Sum](https://leetcode.com/problems/continuous-subarray-sum/)|Medium|
 |2022-10-25 10:52|1662|[📎](src/q_1651_1700/q1662.cc)|[Check If Two String Arrays are Equivalent](https://leetcode.com/problems/check-if-two-string-arrays-are-equivalent/)|Easy|
-|2022-10-24 21:19|1295|[📎](src/q_1251_1300/q1295.cc)|[Find Numbers with Even Number of Digits](https://leetcode.com/problems/find-numbers-with-even-number-of-digits/)|Easy|
 
 ## Previous Logs
 
 |Month|Submissions|Easy|Medium|Hard|
 |:--|:--|:--|:--|:--|
-|[November_2022](./assets/November_2022.md)|17|10|5|2|
+|[November_2022](./assets/November_2022.md)|18|11|5|2|
 |[October_2022](./assets/October_2022.md)|33|22|7|4|
 |[September_2022](./assets/September_2022.md)|38|10|19|9|
 |[August_2022](./assets/August_2022.md)|48|15|24|9|
