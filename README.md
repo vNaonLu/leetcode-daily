@@ -252,7 +252,7 @@ My daily challenge on leetcode since 2021/09/06.
 |[📎](src/q_201_250/q0238.cc)|238|[Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/)|Medium|
 ||239|[Sliding Window Maximum](https://leetcode.com/problems/sliding-window-maximum/)|Hard|
 |[📎](src/q_201_250/q0240.cc)|240|[Search a 2D Matrix II](https://leetcode.com/problems/search-a-2d-matrix-ii/)|Medium|
-||241|[Different Ways to Add Parentheses](https://leetcode.com/problems/different-ways-to-add-parentheses/)|Medium|
+|[📎](src/q_201_250/q0241.cc)|241|[Different Ways to Add Parentheses](https://leetcode.com/problems/different-ways-to-add-parentheses/)|Medium|
 |[📎](src/q_201_250/q0242.cc)|242|[Valid Anagram](https://leetcode.com/problems/valid-anagram/)|Easy|
 |🔒|243|[Shortest Word Distance](https://leetcode.com/problems/shortest-word-distance/)|Easy|
 |🔒|244|[Shortest Word Distance II](https://leetcode.com/problems/shortest-word-distance-ii/)|Medium|
@@ -374,7 +374,7 @@ My daily challenge on leetcode since 2021/09/06.
 |[📎](src/q_351_400/q0354.cc)|354|[Russian Doll Envelopes](https://leetcode.com/problems/russian-doll-envelopes/)|Hard|
 |[📎](src/q_351_400/q0355.cc)|355|[Design Twitter](https://leetcode.com/problems/design-twitter/)|Medium|
 |🔒|356|[Line Reflection](https://leetcode.com/problems/line-reflection/)|Medium|
-||357|[Count Numbers with Unique Digits](https://leetcode.com/problems/count-numbers-with-unique-digits/)|Medium|
+|[📎](src/q_351_400/q0357.cc)|357|[Count Numbers with Unique Digits](https://leetcode.com/problems/count-numbers-with-unique-digits/)|Medium|
 |🔒|358|[Rearrange String k Distance Apart](https://leetcode.com/problems/rearrange-string-k-distance-apart/)|Hard|
 |🔒|359|[Logger Rate Limiter](https://leetcode.com/problems/logger-rate-limiter/)|Easy|
 |🔒|360|[Sort Transformed Array](https://leetcode.com/problems/sort-transformed-array/)|Medium|
@@ -389,7 +389,7 @@ My daily challenge on leetcode since 2021/09/06.
 |🔒|369|[Plus One Linked List](https://leetcode.com/problems/plus-one-linked-list/)|Medium|
 |🔒|370|[Range Addition](https://leetcode.com/problems/range-addition/)|Medium|
 ||371|[Sum of Two Integers](https://leetcode.com/problems/sum-of-two-integers/)|Medium|
-||372|[Super Pow](https://leetcode.com/problems/super-pow/)|Medium|
+|[📎](src/q_351_400/q0372.cc)|372|[Super Pow](https://leetcode.com/problems/super-pow/)|Medium|
 ||373|[Find K Pairs with Smallest Sums](https://leetcode.com/problems/find-k-pairs-with-smallest-sums/)|Medium|
 |[📎](src/q_351_400/q0374.cc)|374|[Guess Number Higher or Lower](https://leetcode.com/problems/guess-number-higher-or-lower/)|Easy|
 |[📎](src/q_351_400/q0375.cc)|375|[Guess Number Higher or Lower II](https://leetcode.com/problems/guess-number-higher-or-lower-ii/)|Medium|
@@ -610,7 +610,7 @@ My daily challenge on leetcode since 2021/09/06.
 ||584|[Find Customer Referee](https://leetcode.com/problems/find-customer-referee/)|Easy|
 |🔒|585|[Investments in 2016](https://leetcode.com/problems/investments-in-2016/)|Medium|
 ||586|[Customer Placing the Largest Number of Orders](https://leetcode.com/problems/customer-placing-the-largest-number-of-orders/)|Easy|
-||587|[Erect the Fence](https://leetcode.com/problems/erect-the-fence/)|Hard|
+|[📎](src/q_551_600/q0587.cc)|587|[Erect the Fence](https://leetcode.com/problems/erect-the-fence/)|Hard|
 |🔒|588|[Design In-Memory File System](https://leetcode.com/problems/design-in-memory-file-system/)|Hard|
 |[📎](src/q_551_600/q0589.cc)|589|[N-ary Tree Preorder Traversal](https://leetcode.com/problems/n-ary-tree-preorder-traversal/)|Easy|
 |[📎](src/q_551_600/q0590.cc)|590|[N-ary Tree Postorder Traversal](https://leetcode.com/problems/n-ary-tree-postorder-traversal/)|Easy|
@@ -745,7 +745,7 @@ My daily challenge on leetcode since 2021/09/06.
 ||719|[Find K-th Smallest Pair Distance](https://leetcode.com/problems/find-k-th-smallest-pair-distance/)|Hard|
 ||720|[Longest Word in Dictionary](https://leetcode.com/problems/longest-word-in-dictionary/)|Medium|
 |[📎](src/q_701_750/q0721.cc)|721|[Accounts Merge](https://leetcode.com/problems/accounts-merge/)|Medium|
-||722|[Remove Comments](https://leetcode.com/problems/remove-comments/)|Medium|
+|[📎](src/q_701_750/q0722.cc)|722|[Remove Comments](https://leetcode.com/problems/remove-comments/)|Medium|
 |🔒|723|[Candy Crush](https://leetcode.com/problems/candy-crush/)|Medium|
 |[📎](src/q_701_750/q0724.cc)|724|[Find Pivot Index](https://leetcode.com/problems/find-pivot-index/)|Easy|
 |[📎](src/q_701_750/q0725.cc)|725|[Split Linked List in Parts](https://leetcode.com/problems/split-linked-list-in-parts/)|Medium|
@@ -937,7 +937,7 @@ My daily challenge on leetcode since 2021/09/06.
 |[📎](src/q_901_950/q0905.cc)|905|[Sort Array By Parity](https://leetcode.com/problems/sort-array-by-parity/)|Easy|
 ||906|[Super Palindromes](https://leetcode.com/problems/super-palindromes/)|Hard|
 |[📎](src/q_901_950/q0907.cc)|907|[Sum of Subarray Minimums](https://leetcode.com/problems/sum-of-subarray-minimums/)|Medium|
-||908|[Smallest Range I](https://leetcode.com/problems/smallest-range-i/)|Easy|
+|[📎](src/q_901_950/q0908.cc)|908|[Smallest Range I](https://leetcode.com/problems/smallest-range-i/)|Easy|
 ||909|[Snakes and Ladders](https://leetcode.com/problems/snakes-and-ladders/)|Medium|
 |[📎](src/q_901_950/q0910.cc)|910|[Smallest Range II](https://leetcode.com/problems/smallest-range-ii/)|Medium|
 |[📎](src/q_901_950/q0911.cc)|911|[Online Election](https://leetcode.com/problems/online-election/)|Medium|
@@ -1189,7 +1189,7 @@ My daily challenge on leetcode since 2021/09/06.
 |🔒|1151|[Minimum Swaps to Group All 1's Together](https://leetcode.com/problems/minimum-swaps-to-group-all-1s-together/)|Medium|
 |🔒|1152|[Analyze User Website Visit Pattern](https://leetcode.com/problems/analyze-user-website-visit-pattern/)|Medium|
 |🔒|1153|[String Transforms Into Another String](https://leetcode.com/problems/string-transforms-into-another-string/)|Hard|
-||1154|[Day of the Year](https://leetcode.com/problems/day-of-the-year/)|Easy|
+|[📎](src/q_1151_1200/q1154.cc)|1154|[Day of the Year](https://leetcode.com/problems/day-of-the-year/)|Easy|
 |[📎](src/q_1151_1200/q1155.cc)|1155|[Number of Dice Rolls With Target Sum](https://leetcode.com/problems/number-of-dice-rolls-with-target-sum/)|Medium|
 ||1156|[Swap For Longest Repeated Character Substring](https://leetcode.com/problems/swap-for-longest-repeated-character-substring/)|Medium|
 ||1157|[Online Majority Element In Subarray](https://leetcode.com/problems/online-majority-element-in-subarray/)|Hard|
@@ -2312,7 +2312,7 @@ My daily challenge on leetcode since 2021/09/06.
 ||2250|[Count Number of Rectangles Containing Each Point](https://leetcode.com/problems/count-number-of-rectangles-containing-each-point/)|Medium|
 </details>
 <details>
-  <summary>### 2251 ~ 2464</summary>
+  <summary>### 2251 ~ 2474</summary>
 
 |</>|#|Solution Title|Difficulty|
 |:-:|--:|:--|:--|
@@ -2530,6 +2530,16 @@ My daily challenge on leetcode since 2021/09/06.
 ||2462|[Total Cost to Hire K Workers](https://leetcode.com/problems/total-cost-to-hire-k-workers/)|Medium|
 ||2463|[Minimum Total Distance Traveled](https://leetcode.com/problems/minimum-total-distance-traveled/)|Hard|
 |🔒|2464|[Minimum Subarrays in a Valid Split](https://leetcode.com/problems/minimum-subarrays-in-a-valid-split/)|Medium|
+||2465|[Number of Distinct Averages](https://leetcode.com/problems/number-of-distinct-averages/)|Easy|
+||2466|[Count Ways To Build Good Strings](https://leetcode.com/problems/count-ways-to-build-good-strings/)|Medium|
+||2467|[Most Profitable Path in a Tree](https://leetcode.com/problems/most-profitable-path-in-a-tree/)|Medium|
+||2468|[Split Message Based on Limit](https://leetcode.com/problems/split-message-based-on-limit/)|Hard|
+||2469|[Convert the Temperature](https://leetcode.com/problems/convert-the-temperature/)|Easy|
+||2470|[Number of Subarrays With LCM Equal to K](https://leetcode.com/problems/number-of-subarrays-with-lcm-equal-to-k/)|Medium|
+||2471|[Minimum Number of Operations to Sort a Binary Tree by Level](https://leetcode.com/problems/minimum-number-of-operations-to-sort-a-binary-tree-by-level/)|Medium|
+||2472|[Maximum Number of Non-overlapping Palindrome Substrings](https://leetcode.com/problems/maximum-number-of-non-overlapping-palindrome-substrings/)|Hard|
+|🔒|2473|[Minimum Cost to Buy Apples](https://leetcode.com/problems/minimum-cost-to-buy-apples/)|Medium|
+|🔒|2474|[Customers With Strictly Increasing Purchases](https://leetcode.com/problems/customers-with-strictly-increasing-purchases/)|Medium|
 </details>
 
 ---
@@ -2537,6 +2547,13 @@ My daily challenge on leetcode since 2021/09/06.
 
 |Time|#|</>|Question Title|Difficulty|
 |:--|--:|:-:|:--|:--|
+|2022-11-19 14:27|587|[📎](src/q_551_600/q0587.cc)|[Erect the Fence](https://leetcode.com/problems/erect-the-fence/)|Hard|
+|2022-11-18 10:09|908|[📎](src/q_901_950/q0908.cc)|[Smallest Range I](https://leetcode.com/problems/smallest-range-i/)|Easy|
+|2022-11-17 17:46|722|[📎](src/q_701_750/q0722.cc)|[Remove Comments](https://leetcode.com/problems/remove-comments/)|Medium|
+|2022-11-16 19:06|372|[📎](src/q_351_400/q0372.cc)|[Super Pow](https://leetcode.com/problems/super-pow/)|Medium|
+|2022-11-15 18:58|357|[📎](src/q_351_400/q0357.cc)|[Count Numbers with Unique Digits](https://leetcode.com/problems/count-numbers-with-unique-digits/)|Medium|
+|2022-11-14 20:47|241|[📎](src/q_201_250/q0241.cc)|[Different Ways to Add Parentheses](https://leetcode.com/problems/different-ways-to-add-parentheses/)|Medium|
+|2022-11-13 13:49|1154|[📎](src/q_1151_1200/q1154.cc)|[Day of the Year](https://leetcode.com/problems/day-of-the-year/)|Easy|
 |2022-11-12 21:03|295|[📎](src/q_251_300/q0295.cc)|[Find Median from Data Stream](https://leetcode.com/problems/find-median-from-data-stream/)|Hard|
 |2022-11-11 19:44|1078|[📎](src/q_1051_1100/q1078.cc)|[Occurrences After Bigram](https://leetcode.com/problems/occurrences-after-bigram/)|Easy|
 |2022-11-10 18:12|1047|[📎](src/q_1001_1050/q1047.cc)|[Remove All Adjacent Duplicates In String](https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string/)|Easy|
@@ -2555,19 +2572,12 @@ My daily challenge on leetcode since 2021/09/06.
 |2022-10-28 12:14|1018|[📎](src/q_1001_1050/q1018.cc)|[Binary Prefix Divisible By 5](https://leetcode.com/problems/binary-prefix-divisible-by-5/)|Easy|
 |2022-10-27 14:32|835|[📎](src/q_801_850/q0835.cc)|[Image Overlap](https://leetcode.com/problems/image-overlap/)|Medium|
 |2022-10-26 11:03|523|[📎](src/q_501_550/q0523.cc)|[Continuous Subarray Sum](https://leetcode.com/problems/continuous-subarray-sum/)|Medium|
-|2022-10-25 10:52|1662|[📎](src/q_1651_1700/q1662.cc)|[Check If Two String Arrays are Equivalent](https://leetcode.com/problems/check-if-two-string-arrays-are-equivalent/)|Easy|
-|2022-10-24 21:19|1295|[📎](src/q_1251_1300/q1295.cc)|[Find Numbers with Even Number of Digits](https://leetcode.com/problems/find-numbers-with-even-number-of-digits/)|Easy|
-|2022-10-23 20:54|824|[📎](src/q_801_850/q0824.cc)|[Goat Latin](https://leetcode.com/problems/goat-latin/)|Easy|
-|2022-10-22 19:02|748|[📎](src/q_701_750/q0748.cc)|[Shortest Completing Word](https://leetcode.com/problems/shortest-completing-word/)|Easy|
-|2022-10-21 21:32|2368|[📎](src/q_2351_2400/q2368.cc)|[Reachable Nodes With Restrictions](https://leetcode.com/problems/reachable-nodes-with-restrictions/)|Medium|
-|2022-10-20 07:19|872|[📎](src/q_851_900/q0872.cc)|[Leaf-Similar Trees](https://leetcode.com/problems/leaf-similar-trees/)|Easy|
-|2022-10-19 09:00|671|[📎](src/q_651_700/q0671.cc)|[Second Minimum Node In a Binary Tree](https://leetcode.com/problems/second-minimum-node-in-a-binary-tree/)|Easy|
 
 ## Previous Logs
 
 |Month|Submissions|Easy|Medium|Hard|
 |:--|:--|:--|:--|:--|
-|[November_2022](./assets/November_2022.md)|12|9|1|2|
+|[November_2022](./assets/November_2022.md)|19|11|5|3|
 |[October_2022](./assets/October_2022.md)|33|22|7|4|
 |[September_2022](./assets/September_2022.md)|38|10|19|9|
 |[August_2022](./assets/August_2022.md)|48|15|24|9|

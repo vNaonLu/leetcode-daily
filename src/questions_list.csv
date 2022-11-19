@@ -239,7 +239,7 @@ id,title,level,slug,paid,done
 238,Product of Array Except Self,2,product-of-array-except-self,0,1
 239,Sliding Window Maximum,3,sliding-window-maximum,0,0
 240,Search a 2D Matrix II,2,search-a-2d-matrix-ii,0,1
-241,Different Ways to Add Parentheses,2,different-ways-to-add-parentheses,0,0
+241,Different Ways to Add Parentheses,2,different-ways-to-add-parentheses,0,1
 242,Valid Anagram,1,valid-anagram,0,1
 243,Shortest Word Distance,1,shortest-word-distance,1,0
 244,Shortest Word Distance II,2,shortest-word-distance-ii,1,0
@@ -355,7 +355,7 @@ id,title,level,slug,paid,done
 354,Russian Doll Envelopes,3,russian-doll-envelopes,0,1
 355,Design Twitter,2,design-twitter,0,1
 356,Line Reflection,2,line-reflection,1,0
-357,Count Numbers with Unique Digits,2,count-numbers-with-unique-digits,0,0
+357,Count Numbers with Unique Digits,2,count-numbers-with-unique-digits,0,1
 358,Rearrange String k Distance Apart,3,rearrange-string-k-distance-apart,1,0
 359,Logger Rate Limiter,1,logger-rate-limiter,1,0
 360,Sort Transformed Array,2,sort-transformed-array,1,0
@@ -370,7 +370,7 @@ id,title,level,slug,paid,done
 369,Plus One Linked List,2,plus-one-linked-list,1,0
 370,Range Addition,2,range-addition,1,0
 371,Sum of Two Integers,2,sum-of-two-integers,0,0
-372,Super Pow,2,super-pow,0,0
+372,Super Pow,2,super-pow,0,1
 373,Find K Pairs with Smallest Sums,2,find-k-pairs-with-smallest-sums,0,0
 374,Guess Number Higher or Lower,1,guess-number-higher-or-lower,0,1
 375,Guess Number Higher or Lower II,2,guess-number-higher-or-lower-ii,0,1
@@ -585,7 +585,7 @@ id,title,level,slug,paid,done
 584,Find Customer Referee,1,find-customer-referee,0,0
 585,Investments in 2016,2,investments-in-2016,1,0
 586,Customer Placing the Largest Number of Orders,1,customer-placing-the-largest-number-of-orders,0,0
-587,Erect the Fence,3,erect-the-fence,0,0
+587,Erect the Fence,3,erect-the-fence,0,1
 588,Design In-Memory File System,3,design-in-memory-file-system,1,0
 589,N-ary Tree Preorder Traversal,1,n-ary-tree-preorder-traversal,0,1
 590,N-ary Tree Postorder Traversal,1,n-ary-tree-postorder-traversal,0,1
@@ -720,7 +720,7 @@ id,title,level,slug,paid,done
 719,Find K-th Smallest Pair Distance,3,find-k-th-smallest-pair-distance,0,0
 720,Longest Word in Dictionary,2,longest-word-in-dictionary,0,0
 721,Accounts Merge,2,accounts-merge,0,1
-722,Remove Comments,2,remove-comments,0,0
+722,Remove Comments,2,remove-comments,0,1
 723,Candy Crush,2,candy-crush,1,0
 724,Find Pivot Index,1,find-pivot-index,0,1
 725,Split Linked List in Parts,2,split-linked-list-in-parts,0,1
@@ -906,7 +906,7 @@ id,title,level,slug,paid,done
 905,Sort Array By Parity,1,sort-array-by-parity,0,1
 906,Super Palindromes,3,super-palindromes,0,0
 907,Sum of Subarray Minimums,2,sum-of-subarray-minimums,0,1
-908,Smallest Range I,1,smallest-range-i,0,0
+908,Smallest Range I,1,smallest-range-i,0,1
 909,Snakes and Ladders,2,snakes-and-ladders,0,0
 910,Smallest Range II,2,smallest-range-ii,0,1
 911,Online Election,2,online-election,0,1
@@ -1152,7 +1152,7 @@ id,title,level,slug,paid,done
 1151,Minimum Swaps to Group All 1's Together,2,minimum-swaps-to-group-all-1s-together,1,0
 1152,Analyze User Website Visit Pattern,2,analyze-user-website-visit-pattern,1,0
 1153,String Transforms Into Another String,3,string-transforms-into-another-string,1,0
-1154,Day of the Year,1,day-of-the-year,0,0
+1154,Day of the Year,1,day-of-the-year,0,1
 1155,Number of Dice Rolls With Target Sum,2,number-of-dice-rolls-with-target-sum,0,1
 1156,Swap For Longest Repeated Character Substring,2,swap-for-longest-repeated-character-substring,0,0
 1157,Online Majority Element In Subarray,3,online-majority-element-in-subarray,0,0
@@ -2463,3 +2463,13 @@ id,title,level,slug,paid,done
 2462,Total Cost to Hire K Workers,2,total-cost-to-hire-k-workers,0,0
 2463,Minimum Total Distance Traveled,3,minimum-total-distance-traveled,0,0
 2464,Minimum Subarrays in a Valid Split,2,minimum-subarrays-in-a-valid-split,1,0
+2465,Number of Distinct Averages,1,number-of-distinct-averages,0,0
+2466,Count Ways To Build Good Strings,2,count-ways-to-build-good-strings,0,0
+2467,Most Profitable Path in a Tree,2,most-profitable-path-in-a-tree,0,0
+2468,Split Message Based on Limit,3,split-message-based-on-limit,0,0
+2469,Convert the Temperature,1,convert-the-temperature,0,0
+2470,Number of Subarrays With LCM Equal to K,2,number-of-subarrays-with-lcm-equal-to-k,0,0
+2471,Minimum Number of Operations to Sort a Binary Tree by Level,2,minimum-number-of-operations-to-sort-a-binary-tree-by-level,0,0
+2472,Maximum Number of Non-overlapping Palindrome Substrings,3,maximum-number-of-non-overlapping-palindrome-substrings,0,0
+2473,Minimum Cost to Buy Apples,2,minimum-cost-to-buy-apples,1,0
+2474,Customers With Strictly Increasing Purchases,2,customers-with-strictly-increasing-purchases,1,0
