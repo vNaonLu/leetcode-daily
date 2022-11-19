@@ -610,7 +610,7 @@ My daily challenge on leetcode since 2021/09/06.
 ||584|[Find Customer Referee](https://leetcode.com/problems/find-customer-referee/)|Easy|
 |🔒|585|[Investments in 2016](https://leetcode.com/problems/investments-in-2016/)|Medium|
 ||586|[Customer Placing the Largest Number of Orders](https://leetcode.com/problems/customer-placing-the-largest-number-of-orders/)|Easy|
-||587|[Erect the Fence](https://leetcode.com/problems/erect-the-fence/)|Hard|
+|[📎](src/q_551_600/q0587.cc)|587|[Erect the Fence](https://leetcode.com/problems/erect-the-fence/)|Hard|
 |🔒|588|[Design In-Memory File System](https://leetcode.com/problems/design-in-memory-file-system/)|Hard|
 |[📎](src/q_551_600/q0589.cc)|589|[N-ary Tree Preorder Traversal](https://leetcode.com/problems/n-ary-tree-preorder-traversal/)|Easy|
 |[📎](src/q_551_600/q0590.cc)|590|[N-ary Tree Postorder Traversal](https://leetcode.com/problems/n-ary-tree-postorder-traversal/)|Easy|
@@ -2312,7 +2312,7 @@ My daily challenge on leetcode since 2021/09/06.
 ||2250|[Count Number of Rectangles Containing Each Point](https://leetcode.com/problems/count-number-of-rectangles-containing-each-point/)|Medium|
 </details>
 <details>
-  <summary>### 2251 ~ 2473</summary>
+  <summary>### 2251 ~ 2474</summary>
 
 |</>|#|Solution Title|Difficulty|
 |:-:|--:|:--|:--|
@@ -2539,6 +2539,7 @@ My daily challenge on leetcode since 2021/09/06.
 ||2471|[Minimum Number of Operations to Sort a Binary Tree by Level](https://leetcode.com/problems/minimum-number-of-operations-to-sort-a-binary-tree-by-level/)|Medium|
 ||2472|[Maximum Number of Non-overlapping Palindrome Substrings](https://leetcode.com/problems/maximum-number-of-non-overlapping-palindrome-substrings/)|Hard|
 |🔒|2473|[Minimum Cost to Buy Apples](https://leetcode.com/problems/minimum-cost-to-buy-apples/)|Medium|
+|🔒|2474|[Customers With Strictly Increasing Purchases](https://leetcode.com/problems/customers-with-strictly-increasing-purchases/)|Medium|
 </details>
 
 ---
@@ -2546,6 +2547,7 @@ My daily challenge on leetcode since 2021/09/06.
 
 |Time|#|</>|Question Title|Difficulty|
 |:--|--:|:-:|:--|:--|
+|2022-11-19 14:27|587|[📎](src/q_551_600/q0587.cc)|[Erect the Fence](https://leetcode.com/problems/erect-the-fence/)|Hard|
 |2022-11-18 10:09|908|[📎](src/q_901_950/q0908.cc)|[Smallest Range I](https://leetcode.com/problems/smallest-range-i/)|Easy|
 |2022-11-17 17:46|722|[📎](src/q_701_750/q0722.cc)|[Remove Comments](https://leetcode.com/problems/remove-comments/)|Medium|
 |2022-11-16 19:06|372|[📎](src/q_351_400/q0372.cc)|[Super Pow](https://leetcode.com/problems/super-pow/)|Medium|
@@ -2570,13 +2572,12 @@ My daily challenge on leetcode since 2021/09/06.
 |2022-10-28 12:14|1018|[📎](src/q_1001_1050/q1018.cc)|[Binary Prefix Divisible By 5](https://leetcode.com/problems/binary-prefix-divisible-by-5/)|Easy|
 |2022-10-27 14:32|835|[📎](src/q_801_850/q0835.cc)|[Image Overlap](https://leetcode.com/problems/image-overlap/)|Medium|
 |2022-10-26 11:03|523|[📎](src/q_501_550/q0523.cc)|[Continuous Subarray Sum](https://leetcode.com/problems/continuous-subarray-sum/)|Medium|
-|2022-10-25 10:52|1662|[📎](src/q_1651_1700/q1662.cc)|[Check If Two String Arrays are Equivalent](https://leetcode.com/problems/check-if-two-string-arrays-are-equivalent/)|Easy|
 
 ## Previous Logs
 
 |Month|Submissions|Easy|Medium|Hard|
 |:--|:--|:--|:--|:--|
-|[November_2022](./assets/November_2022.md)|18|11|5|2|
+|[November_2022](./assets/November_2022.md)|19|11|5|3|
 |[October_2022](./assets/October_2022.md)|33|22|7|4|
 |[September_2022](./assets/September_2022.md)|38|10|19|9|
 |[August_2022](./assets/August_2022.md)|48|15|24|9|

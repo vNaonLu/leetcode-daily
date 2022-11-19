@@ -585,7 +585,7 @@ id,title,level,slug,paid,done
 584,Find Customer Referee,1,find-customer-referee,0,0
 585,Investments in 2016,2,investments-in-2016,1,0
 586,Customer Placing the Largest Number of Orders,1,customer-placing-the-largest-number-of-orders,0,0
-587,Erect the Fence,3,erect-the-fence,0,0
+587,Erect the Fence,3,erect-the-fence,0,1
 588,Design In-Memory File System,3,design-in-memory-file-system,1,0
 589,N-ary Tree Preorder Traversal,1,n-ary-tree-preorder-traversal,0,1
 590,N-ary Tree Postorder Traversal,1,n-ary-tree-postorder-traversal,0,1
@@ -2472,3 +2472,4 @@ id,title,level,slug,paid,done
 2471,Minimum Number of Operations to Sort a Binary Tree by Level,2,minimum-number-of-operations-to-sort-a-binary-tree-by-level,0,0
 2472,Maximum Number of Non-overlapping Palindrome Substrings,3,maximum-number-of-non-overlapping-palindrome-substrings,0,0
 2473,Minimum Cost to Buy Apples,2,minimum-cost-to-buy-apples,1,0
+2474,Customers With Strictly Increasing Purchases,2,customers-with-strictly-increasing-purchases,1,0

@@ -2,6 +2,7 @@
 
 ||#|</>|Question Title|Difficulty|
 |:--|--:|:-:|:--|:--|
+|Day 19|587|[📎](../src/q_551_600/q0587.cc)|[Erect the Fence](https://leetcode.com/problems/erect-the-fence/)|Hard|
 |Day 18|908|[📎](../src/q_901_950/q0908.cc)|[Smallest Range I](https://leetcode.com/problems/smallest-range-i/)|Easy|
 |Day 17|722|[📎](../src/q_701_750/q0722.cc)|[Remove Comments](https://leetcode.com/problems/remove-comments/)|Medium|
 |Day 16|372|[📎](../src/q_351_400/q0372.cc)|[Super Pow](https://leetcode.com/problems/super-pow/)|Medium|
