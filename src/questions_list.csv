@@ -1035,7 +1035,7 @@ id,title,level,slug,paid,done
 1034,Coloring A Border,2,coloring-a-border,0,0
 1035,Uncrossed Lines,2,uncrossed-lines,0,1
 1036,Escape a Large Maze,3,escape-a-large-maze,0,0
-1037,Valid Boomerang,1,valid-boomerang,0,0
+1037,Valid Boomerang,1,valid-boomerang,0,1
 1038,Binary Search Tree to Greater Sum Tree,2,binary-search-tree-to-greater-sum-tree,0,0
 1039,Minimum Score Triangulation of Polygon,2,minimum-score-triangulation-of-polygon,0,1
 1040,Moving Stones Until Consecutive II,2,moving-stones-until-consecutive-ii,0,0
@@ -2472,4 +2472,8 @@ id,title,level,slug,paid,done
 2471,Minimum Number of Operations to Sort a Binary Tree by Level,2,minimum-number-of-operations-to-sort-a-binary-tree-by-level,0,0
 2472,Maximum Number of Non-overlapping Palindrome Substrings,3,maximum-number-of-non-overlapping-palindrome-substrings,0,0
 2473,Minimum Cost to Buy Apples,2,minimum-cost-to-buy-apples,1,0
-2474,Customers With Strictly Increasing Purchases,2,customers-with-strictly-increasing-purchases,1,0
+2474,Customers With Strictly Increasing Purchases,3,customers-with-strictly-increasing-purchases,1,0
+2475,Number of Unequal Triplets in Array,1,number-of-unequal-triplets-in-array,0,0
+2476,Closest Nodes Queries in a Binary Search Tree,2,closest-nodes-queries-in-a-binary-search-tree,0,0
+2477,Minimum Fuel Cost to Report to the Capital,2,minimum-fuel-cost-to-report-to-the-capital,0,0
+2478,Number of Beautiful Partitions,3,number-of-beautiful-partitions,0,0
