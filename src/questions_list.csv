@@ -857,7 +857,7 @@ id,title,level,slug,paid,done
 856,Score of Parentheses,2,score-of-parentheses,0,1
 857,Minimum Cost to Hire K Workers,3,minimum-cost-to-hire-k-workers,0,0
 858,Mirror Reflection,2,mirror-reflection,0,1
-859,Buddy Strings,1,buddy-strings,0,0
+859,Buddy Strings,1,buddy-strings,0,1
 860,Lemonade Change,1,lemonade-change,0,1
 861,Score After Flipping Matrix,2,score-after-flipping-matrix,0,0
 862,Shortest Subarray with Sum at Least K,3,shortest-subarray-with-sum-at-least-k,0,1
