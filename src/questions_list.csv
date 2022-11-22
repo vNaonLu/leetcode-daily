@@ -810,7 +810,7 @@ id,title,level,slug,paid,done
 809,Expressive Words,2,expressive-words,0,0
 810,Chalkboard XOR Game,3,chalkboard-xor-game,0,0
 811,Subdomain Visit Count,2,subdomain-visit-count,0,0
-812,Largest Triangle Area,1,largest-triangle-area,0,0
+812,Largest Triangle Area,1,largest-triangle-area,0,1
 813,Largest Sum of Averages,2,largest-sum-of-averages,0,0
 814,Binary Tree Pruning,2,binary-tree-pruning,0,1
 815,Bus Routes,3,bus-routes,0,1

@@ -841,7 +841,7 @@ My daily challenge on leetcode since 2021/09/06.
 ||809|[Expressive Words](https://leetcode.com/problems/expressive-words/)|Medium|
 ||810|[Chalkboard XOR Game](https://leetcode.com/problems/chalkboard-xor-game/)|Hard|
 ||811|[Subdomain Visit Count](https://leetcode.com/problems/subdomain-visit-count/)|Medium|
-||812|[Largest Triangle Area](https://leetcode.com/problems/largest-triangle-area/)|Easy|
+|[📎](src/q_801_850/q0812.cc)|812|[Largest Triangle Area](https://leetcode.com/problems/largest-triangle-area/)|Easy|
 ||813|[Largest Sum of Averages](https://leetcode.com/problems/largest-sum-of-averages/)|Medium|
 |[📎](src/q_801_850/q0814.cc)|814|[Binary Tree Pruning](https://leetcode.com/problems/binary-tree-pruning/)|Medium|
 |[📎](src/q_801_850/q0815.cc)|815|[Bus Routes](https://leetcode.com/problems/bus-routes/)|Hard|
@@ -2551,6 +2551,7 @@ My daily challenge on leetcode since 2021/09/06.
 
 |Time|#|</>|Question Title|Difficulty|
 |:--|--:|:-:|:--|:--|
+|2022-11-22 18:04|812|[📎](src/q_801_850/q0812.cc)|[Largest Triangle Area](https://leetcode.com/problems/largest-triangle-area/)|Easy|
 |2022-11-21 20:19|859|[📎](src/q_851_900/q0859.cc)|[Buddy Strings](https://leetcode.com/problems/buddy-strings/)|Easy|
 |2022-11-20 15:06|1037|[📎](src/q_1001_1050/q1037.cc)|[Valid Boomerang](https://leetcode.com/problems/valid-boomerang/)|Easy|
 |2022-11-19 14:27|587|[📎](src/q_551_600/q0587.cc)|[Erect the Fence](https://leetcode.com/problems/erect-the-fence/)|Hard|
@@ -2575,13 +2576,12 @@ My daily challenge on leetcode since 2021/09/06.
 |2022-10-31 12:37|766|[📎](src/q_751_800/q0766.cc)|[Toeplitz Matrix](https://leetcode.com/problems/toeplitz-matrix/)|Easy|
 |2022-10-30 12:26|796|[📎](src/q_751_800/q0796.cc)|[Rotate String](https://leetcode.com/problems/rotate-string/)|Easy|
 |2022-10-29 11:47|2136|[📎](src/q_2101_2150/q2136.cc)|[Earliest Possible Day of Full Bloom](https://leetcode.com/problems/earliest-possible-day-of-full-bloom/)|Hard|
-|2022-10-28 12:14|1018|[📎](src/q_1001_1050/q1018.cc)|[Binary Prefix Divisible By 5](https://leetcode.com/problems/binary-prefix-divisible-by-5/)|Easy|
 
 ## Previous Logs
 
 |Month|Submissions|Easy|Medium|Hard|
 |:--|:--|:--|:--|:--|
-|[November_2022](./assets/November_2022.md)|21|13|5|3|
+|[November_2022](./assets/November_2022.md)|22|14|5|3|
 |[October_2022](./assets/October_2022.md)|33|22|7|4|
 |[September_2022](./assets/September_2022.md)|38|10|19|9|
 |[August_2022](./assets/August_2022.md)|48|15|24|9|
