@@ -912,7 +912,7 @@ id,title,level,slug,paid,done
 911,Online Election,2,online-election,0,1
 912,Sort an Array,2,sort-an-array,0,1
 913,Cat and Mouse,3,cat-and-mouse,0,0
-914,X of a Kind in a Deck of Cards,1,x-of-a-kind-in-a-deck-of-cards,0,0
+914,X of a Kind in a Deck of Cards,1,x-of-a-kind-in-a-deck-of-cards,0,1
 915,Partition Array into Disjoint Intervals,2,partition-array-into-disjoint-intervals,0,0
 916,Word Subsets,2,word-subsets,0,1
 917,Reverse Only Letters,1,reverse-only-letters,0,1

@@ -943,7 +943,7 @@ My daily challenge on leetcode since 2021/09/06.
 |[📎](src/q_901_950/q0911.cc)|911|[Online Election](https://leetcode.com/problems/online-election/)|Medium|
 |[📎](src/q_901_950/q0912.cc)|912|[Sort an Array](https://leetcode.com/problems/sort-an-array/)|Medium|
 ||913|[Cat and Mouse](https://leetcode.com/problems/cat-and-mouse/)|Hard|
-||914|[X of a Kind in a Deck of Cards](https://leetcode.com/problems/x-of-a-kind-in-a-deck-of-cards/)|Easy|
+|[📎](src/q_901_950/q0914.cc)|914|[X of a Kind in a Deck of Cards](https://leetcode.com/problems/x-of-a-kind-in-a-deck-of-cards/)|Easy|
 ||915|[Partition Array into Disjoint Intervals](https://leetcode.com/problems/partition-array-into-disjoint-intervals/)|Medium|
 |[📎](src/q_901_950/q0916.cc)|916|[Word Subsets](https://leetcode.com/problems/word-subsets/)|Medium|
 |[📎](src/q_901_950/q0917.cc)|917|[Reverse Only Letters](https://leetcode.com/problems/reverse-only-letters/)|Easy|
@@ -2551,6 +2551,7 @@ My daily challenge on leetcode since 2021/09/06.
 
 |Time|#|</>|Question Title|Difficulty|
 |:--|--:|:-:|:--|:--|
+|2022-11-23 19:15|914|[📎](src/q_901_950/q0914.cc)|[X of a Kind in a Deck of Cards](https://leetcode.com/problems/x-of-a-kind-in-a-deck-of-cards/)|Easy|
 |2022-11-22 18:04|812|[📎](src/q_801_850/q0812.cc)|[Largest Triangle Area](https://leetcode.com/problems/largest-triangle-area/)|Easy|
 |2022-11-21 20:19|859|[📎](src/q_851_900/q0859.cc)|[Buddy Strings](https://leetcode.com/problems/buddy-strings/)|Easy|
 |2022-11-20 15:06|1037|[📎](src/q_1001_1050/q1037.cc)|[Valid Boomerang](https://leetcode.com/problems/valid-boomerang/)|Easy|
@@ -2575,13 +2576,12 @@ My daily challenge on leetcode since 2021/09/06.
 |2022-11-01 18:55|728|[📎](src/q_701_750/q0728.cc)|[Self Dividing Numbers](https://leetcode.com/problems/self-dividing-numbers/)|Easy|
 |2022-10-31 12:37|766|[📎](src/q_751_800/q0766.cc)|[Toeplitz Matrix](https://leetcode.com/problems/toeplitz-matrix/)|Easy|
 |2022-10-30 12:26|796|[📎](src/q_751_800/q0796.cc)|[Rotate String](https://leetcode.com/problems/rotate-string/)|Easy|
-|2022-10-29 11:47|2136|[📎](src/q_2101_2150/q2136.cc)|[Earliest Possible Day of Full Bloom](https://leetcode.com/problems/earliest-possible-day-of-full-bloom/)|Hard|
 
 ## Previous Logs
 
 |Month|Submissions|Easy|Medium|Hard|
 |:--|:--|:--|:--|:--|
-|[November_2022](./assets/November_2022.md)|22|14|5|3|
+|[November_2022](./assets/November_2022.md)|23|15|5|3|
 |[October_2022](./assets/October_2022.md)|33|22|7|4|
 |[September_2022](./assets/September_2022.md)|38|10|19|9|
 |[August_2022](./assets/August_2022.md)|48|15|24|9|

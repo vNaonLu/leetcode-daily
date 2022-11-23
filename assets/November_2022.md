@@ -2,6 +2,7 @@
 
 ||#|</>|Question Title|Difficulty|
 |:--|--:|:-:|:--|:--|
+|Day 23|914|[📎](../src/q_901_950/q0914.cc)|[X of a Kind in a Deck of Cards](https://leetcode.com/problems/x-of-a-kind-in-a-deck-of-cards/)|Easy|
 |Day 22|812|[📎](../src/q_801_850/q0812.cc)|[Largest Triangle Area](https://leetcode.com/problems/largest-triangle-area/)|Easy|
 |Day 21|859|[📎](../src/q_851_900/q0859.cc)|[Buddy Strings](https://leetcode.com/problems/buddy-strings/)|Easy|
 |Day 20|1037|[📎](../src/q_1001_1050/q1037.cc)|[Valid Boomerang](https://leetcode.com/problems/valid-boomerang/)|Easy|
