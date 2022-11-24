@@ -680,7 +680,7 @@ My daily challenge on leetcode since 2021/09/06.
 |[📎](src/q_651_700/q0654.cc)|654|[Maximum Binary Tree](https://leetcode.com/problems/maximum-binary-tree/)|Medium|
 |[📎](src/q_651_700/q0655.cc)|655|[Print Binary Tree](https://leetcode.com/problems/print-binary-tree/)|Medium|
 |🔒|656|[Coin Path](https://leetcode.com/problems/coin-path/)|Hard|
-||657|[Robot Return to Origin](https://leetcode.com/problems/robot-return-to-origin/)|Easy|
+|[📎](src/q_651_700/q0657.cc)|657|[Robot Return to Origin](https://leetcode.com/problems/robot-return-to-origin/)|Easy|
 |[📎](src/q_651_700/q0658.cc)|658|[Find K Closest Elements](https://leetcode.com/problems/find-k-closest-elements/)|Medium|
 |[📎](src/q_651_700/q0659.cc)|659|[Split Array into Consecutive Subsequences](https://leetcode.com/problems/split-array-into-consecutive-subsequences/)|Medium|
 |🔒|660|[Remove 9](https://leetcode.com/problems/remove-9/)|Hard|
@@ -2312,7 +2312,7 @@ My daily challenge on leetcode since 2021/09/06.
 ||2250|[Count Number of Rectangles Containing Each Point](https://leetcode.com/problems/count-number-of-rectangles-containing-each-point/)|Medium|
 </details>
 <details>
-  <summary>### 2251 ~ 2478</summary>
+  <summary>### 2251 ~ 2480</summary>
 
 |</>|#|Solution Title|Difficulty|
 |:-:|--:|:--|:--|
@@ -2544,6 +2544,8 @@ My daily challenge on leetcode since 2021/09/06.
 ||2476|[Closest Nodes Queries in a Binary Search Tree](https://leetcode.com/problems/closest-nodes-queries-in-a-binary-search-tree/)|Medium|
 ||2477|[Minimum Fuel Cost to Report to the Capital](https://leetcode.com/problems/minimum-fuel-cost-to-report-to-the-capital/)|Medium|
 ||2478|[Number of Beautiful Partitions](https://leetcode.com/problems/number-of-beautiful-partitions/)|Hard|
+|🔒|2479|[Maximum XOR of Two Non-Overlapping Subtrees](https://leetcode.com/problems/maximum-xor-of-two-non-overlapping-subtrees/)|Hard|
+|🔒|2480|[Form a Chemical Bond](https://leetcode.com/problems/form-a-chemical-bond/)|Easy|
 </details>
 
 ---
@@ -2551,6 +2553,7 @@ My daily challenge on leetcode since 2021/09/06.
 
 |Time|#|</>|Question Title|Difficulty|
 |:--|--:|:-:|:--|:--|
+|2022-11-24 10:40|657|[📎](src/q_651_700/q0657.cc)|[Robot Return to Origin](https://leetcode.com/problems/robot-return-to-origin/)|Easy|
 |2022-11-23 19:15|914|[📎](src/q_901_950/q0914.cc)|[X of a Kind in a Deck of Cards](https://leetcode.com/problems/x-of-a-kind-in-a-deck-of-cards/)|Easy|
 |2022-11-22 18:04|812|[📎](src/q_801_850/q0812.cc)|[Largest Triangle Area](https://leetcode.com/problems/largest-triangle-area/)|Easy|
 |2022-11-21 20:19|859|[📎](src/q_851_900/q0859.cc)|[Buddy Strings](https://leetcode.com/problems/buddy-strings/)|Easy|
@@ -2575,13 +2578,12 @@ My daily challenge on leetcode since 2021/09/06.
 |2022-11-02 22:03|697|[📎](src/q_651_700/q0697.cc)|[Degree of an Array](https://leetcode.com/problems/degree-of-an-array/)|Easy|
 |2022-11-01 18:55|728|[📎](src/q_701_750/q0728.cc)|[Self Dividing Numbers](https://leetcode.com/problems/self-dividing-numbers/)|Easy|
 |2022-10-31 12:37|766|[📎](src/q_751_800/q0766.cc)|[Toeplitz Matrix](https://leetcode.com/problems/toeplitz-matrix/)|Easy|
-|2022-10-30 12:26|796|[📎](src/q_751_800/q0796.cc)|[Rotate String](https://leetcode.com/problems/rotate-string/)|Easy|
 
 ## Previous Logs
 
 |Month|Submissions|Easy|Medium|Hard|
 |:--|:--|:--|:--|:--|
-|[November_2022](./assets/November_2022.md)|23|15|5|3|
+|[November_2022](./assets/November_2022.md)|24|16|5|3|
 |[October_2022](./assets/October_2022.md)|33|22|7|4|
 |[September_2022](./assets/September_2022.md)|38|10|19|9|
 |[August_2022](./assets/August_2022.md)|48|15|24|9|

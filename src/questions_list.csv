@@ -655,7 +655,7 @@ id,title,level,slug,paid,done
 654,Maximum Binary Tree,2,maximum-binary-tree,0,1
 655,Print Binary Tree,2,print-binary-tree,0,1
 656,Coin Path,3,coin-path,1,0
-657,Robot Return to Origin,1,robot-return-to-origin,0,0
+657,Robot Return to Origin,1,robot-return-to-origin,0,1
 658,Find K Closest Elements,2,find-k-closest-elements,0,1
 659,Split Array into Consecutive Subsequences,2,split-array-into-consecutive-subsequences,0,1
 660,Remove 9,3,remove-9,1,0
@@ -2477,3 +2477,5 @@ id,title,level,slug,paid,done
 2476,Closest Nodes Queries in a Binary Search Tree,2,closest-nodes-queries-in-a-binary-search-tree,0,0
 2477,Minimum Fuel Cost to Report to the Capital,2,minimum-fuel-cost-to-report-to-the-capital,0,0
 2478,Number of Beautiful Partitions,3,number-of-beautiful-partitions,0,0
+2479,Maximum XOR of Two Non-Overlapping Subtrees,3,maximum-xor-of-two-non-overlapping-subtrees,1,0
+2480,Form a Chemical Bond,1,form-a-chemical-bond,1,0
