@@ -528,7 +528,7 @@ id,title,level,slug,paid,done
 527,Word Abbreviation,3,word-abbreviation,1,0
 528,Random Pick with Weight,2,random-pick-with-weight,0,1
 529,Minesweeper,2,minesweeper,0,0
-530,Minimum Absolute Difference in BST,1,minimum-absolute-difference-in-bst,0,0
+530,Minimum Absolute Difference in BST,1,minimum-absolute-difference-in-bst,0,1
 531,Lonely Pixel I,2,lonely-pixel-i,1,0
 532,K-diff Pairs in an Array,2,k-diff-pairs-in-an-array,0,1
 533,Lonely Pixel II,2,lonely-pixel-ii,1,0

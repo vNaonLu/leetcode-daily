@@ -553,7 +553,7 @@ My daily challenge on leetcode since 2021/09/06.
 |🔒|527|[Word Abbreviation](https://leetcode.com/problems/word-abbreviation/)|Hard|
 |[📎](src/q_501_550/q0528.cc)|528|[Random Pick with Weight](https://leetcode.com/problems/random-pick-with-weight/)|Medium|
 ||529|[Minesweeper](https://leetcode.com/problems/minesweeper/)|Medium|
-||530|[Minimum Absolute Difference in BST](https://leetcode.com/problems/minimum-absolute-difference-in-bst/)|Easy|
+|[📎](src/q_501_550/q0530.cc)|530|[Minimum Absolute Difference in BST](https://leetcode.com/problems/minimum-absolute-difference-in-bst/)|Easy|
 |🔒|531|[Lonely Pixel I](https://leetcode.com/problems/lonely-pixel-i/)|Medium|
 |[📎](src/q_501_550/q0532.cc)|532|[K-diff Pairs in an Array](https://leetcode.com/problems/k-diff-pairs-in-an-array/)|Medium|
 |🔒|533|[Lonely Pixel II](https://leetcode.com/problems/lonely-pixel-ii/)|Medium|
@@ -2553,6 +2553,7 @@ My daily challenge on leetcode since 2021/09/06.
 
 |Time|#|</>|Question Title|Difficulty|
 |:--|--:|:-:|:--|:--|
+|2022-11-25 10:52|530|[📎](src/q_501_550/q0530.cc)|[Minimum Absolute Difference in BST](https://leetcode.com/problems/minimum-absolute-difference-in-bst/)|Easy|
 |2022-11-24 10:40|657|[📎](src/q_651_700/q0657.cc)|[Robot Return to Origin](https://leetcode.com/problems/robot-return-to-origin/)|Easy|
 |2022-11-23 19:15|914|[📎](src/q_901_950/q0914.cc)|[X of a Kind in a Deck of Cards](https://leetcode.com/problems/x-of-a-kind-in-a-deck-of-cards/)|Easy|
 |2022-11-22 18:04|812|[📎](src/q_801_850/q0812.cc)|[Largest Triangle Area](https://leetcode.com/problems/largest-triangle-area/)|Easy|
@@ -2577,13 +2578,12 @@ My daily challenge on leetcode since 2021/09/06.
 |2022-11-03 23:25|925|[📎](src/q_901_950/q0925.cc)|[Long Pressed Name](https://leetcode.com/problems/long-pressed-name/)|Easy|
 |2022-11-02 22:03|697|[📎](src/q_651_700/q0697.cc)|[Degree of an Array](https://leetcode.com/problems/degree-of-an-array/)|Easy|
 |2022-11-01 18:55|728|[📎](src/q_701_750/q0728.cc)|[Self Dividing Numbers](https://leetcode.com/problems/self-dividing-numbers/)|Easy|
-|2022-10-31 12:37|766|[📎](src/q_751_800/q0766.cc)|[Toeplitz Matrix](https://leetcode.com/problems/toeplitz-matrix/)|Easy|
 
 ## Previous Logs
 
 |Month|Submissions|Easy|Medium|Hard|
 |:--|:--|:--|:--|:--|
-|[November_2022](./assets/November_2022.md)|24|16|5|3|
+|[November_2022](./assets/November_2022.md)|25|17|5|3|
 |[October_2022](./assets/October_2022.md)|33|22|7|4|
 |[September_2022](./assets/September_2022.md)|38|10|19|9|
 |[August_2022](./assets/August_2022.md)|48|15|24|9|
