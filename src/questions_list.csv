@@ -1468,7 +1468,7 @@ id,title,level,slug,paid,done
 1467,Probability of a Two Boxes Having The Same Number of Distinct Balls,3,probability-of-a-two-boxes-having-the-same-number-of-distinct-balls,0,0
 1468,Calculate Salaries,2,calculate-salaries,1,0
 1469,Find All The Lonely Nodes,1,find-all-the-lonely-nodes,1,0
-1470,Shuffle the Array,1,shuffle-the-array,0,0
+1470,Shuffle the Array,1,shuffle-the-array,0,1
 1471,The k Strongest Values in an Array,2,the-k-strongest-values-in-an-array,0,1
 1472,Design Browser History,2,design-browser-history,0,0
 1473,Paint House III,3,paint-house-iii,0,1
