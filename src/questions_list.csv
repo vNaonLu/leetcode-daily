@@ -528,7 +528,7 @@ id,title,level,slug,paid,done
 527,Word Abbreviation,3,word-abbreviation,1,0
 528,Random Pick with Weight,2,random-pick-with-weight,0,1
 529,Minesweeper,2,minesweeper,0,0
-530,Minimum Absolute Difference in BST,1,minimum-absolute-difference-in-bst,0,0
+530,Minimum Absolute Difference in BST,1,minimum-absolute-difference-in-bst,0,1
 531,Lonely Pixel I,2,lonely-pixel-i,1,0
 532,K-diff Pairs in an Array,2,k-diff-pairs-in-an-array,0,1
 533,Lonely Pixel II,2,lonely-pixel-ii,1,0
@@ -655,7 +655,7 @@ id,title,level,slug,paid,done
 654,Maximum Binary Tree,2,maximum-binary-tree,0,1
 655,Print Binary Tree,2,print-binary-tree,0,1
 656,Coin Path,3,coin-path,1,0
-657,Robot Return to Origin,1,robot-return-to-origin,0,0
+657,Robot Return to Origin,1,robot-return-to-origin,0,1
 658,Find K Closest Elements,2,find-k-closest-elements,0,1
 659,Split Array into Consecutive Subsequences,2,split-array-into-consecutive-subsequences,0,1
 660,Remove 9,3,remove-9,1,0
@@ -810,7 +810,7 @@ id,title,level,slug,paid,done
 809,Expressive Words,2,expressive-words,0,0
 810,Chalkboard XOR Game,3,chalkboard-xor-game,0,0
 811,Subdomain Visit Count,2,subdomain-visit-count,0,0
-812,Largest Triangle Area,1,largest-triangle-area,0,0
+812,Largest Triangle Area,1,largest-triangle-area,0,1
 813,Largest Sum of Averages,2,largest-sum-of-averages,0,0
 814,Binary Tree Pruning,2,binary-tree-pruning,0,1
 815,Bus Routes,3,bus-routes,0,1
@@ -857,7 +857,7 @@ id,title,level,slug,paid,done
 856,Score of Parentheses,2,score-of-parentheses,0,1
 857,Minimum Cost to Hire K Workers,3,minimum-cost-to-hire-k-workers,0,0
 858,Mirror Reflection,2,mirror-reflection,0,1
-859,Buddy Strings,1,buddy-strings,0,0
+859,Buddy Strings,1,buddy-strings,0,1
 860,Lemonade Change,1,lemonade-change,0,1
 861,Score After Flipping Matrix,2,score-after-flipping-matrix,0,0
 862,Shortest Subarray with Sum at Least K,3,shortest-subarray-with-sum-at-least-k,0,1
@@ -912,7 +912,7 @@ id,title,level,slug,paid,done
 911,Online Election,2,online-election,0,1
 912,Sort an Array,2,sort-an-array,0,1
 913,Cat and Mouse,3,cat-and-mouse,0,0
-914,X of a Kind in a Deck of Cards,1,x-of-a-kind-in-a-deck-of-cards,0,0
+914,X of a Kind in a Deck of Cards,1,x-of-a-kind-in-a-deck-of-cards,0,1
 915,Partition Array into Disjoint Intervals,2,partition-array-into-disjoint-intervals,0,0
 916,Word Subsets,2,word-subsets,0,1
 917,Reverse Only Letters,1,reverse-only-letters,0,1
@@ -1035,7 +1035,7 @@ id,title,level,slug,paid,done
 1034,Coloring A Border,2,coloring-a-border,0,0
 1035,Uncrossed Lines,2,uncrossed-lines,0,1
 1036,Escape a Large Maze,3,escape-a-large-maze,0,0
-1037,Valid Boomerang,1,valid-boomerang,0,0
+1037,Valid Boomerang,1,valid-boomerang,0,1
 1038,Binary Search Tree to Greater Sum Tree,2,binary-search-tree-to-greater-sum-tree,0,0
 1039,Minimum Score Triangulation of Polygon,2,minimum-score-triangulation-of-polygon,0,1
 1040,Moving Stones Until Consecutive II,2,moving-stones-until-consecutive-ii,0,0
@@ -1468,7 +1468,7 @@ id,title,level,slug,paid,done
 1467,Probability of a Two Boxes Having The Same Number of Distinct Balls,3,probability-of-a-two-boxes-having-the-same-number-of-distinct-balls,0,0
 1468,Calculate Salaries,2,calculate-salaries,1,0
 1469,Find All The Lonely Nodes,1,find-all-the-lonely-nodes,1,0
-1470,Shuffle the Array,1,shuffle-the-array,0,0
+1470,Shuffle the Array,1,shuffle-the-array,0,1
 1471,The k Strongest Values in an Array,2,the-k-strongest-values-in-an-array,0,1
 1472,Design Browser History,2,design-browser-history,0,0
 1473,Paint House III,3,paint-house-iii,0,1
@@ -2472,4 +2472,10 @@ id,title,level,slug,paid,done
 2471,Minimum Number of Operations to Sort a Binary Tree by Level,2,minimum-number-of-operations-to-sort-a-binary-tree-by-level,0,0
 2472,Maximum Number of Non-overlapping Palindrome Substrings,3,maximum-number-of-non-overlapping-palindrome-substrings,0,0
 2473,Minimum Cost to Buy Apples,2,minimum-cost-to-buy-apples,1,0
-2474,Customers With Strictly Increasing Purchases,2,customers-with-strictly-increasing-purchases,1,0
+2474,Customers With Strictly Increasing Purchases,3,customers-with-strictly-increasing-purchases,1,0
+2475,Number of Unequal Triplets in Array,1,number-of-unequal-triplets-in-array,0,0
+2476,Closest Nodes Queries in a Binary Search Tree,2,closest-nodes-queries-in-a-binary-search-tree,0,0
+2477,Minimum Fuel Cost to Report to the Capital,2,minimum-fuel-cost-to-report-to-the-capital,0,0
+2478,Number of Beautiful Partitions,3,number-of-beautiful-partitions,0,0
+2479,Maximum XOR of Two Non-Overlapping Subtrees,3,maximum-xor-of-two-non-overlapping-subtrees,1,0
+2480,Form a Chemical Bond,1,form-a-chemical-bond,1,0
