@@ -2,6 +2,7 @@
 
 ||#|</>|Question Title|Difficulty|
 |:--|--:|:-:|:--|:--|
+|Day 27|1287|[📎](../src/q_1251_1300/q1287.cc)|[Element Appearing More Than 25% In Sorted Array](https://leetcode.com/problems/element-appearing-more-than-25-in-sorted-array/)|Easy|
 |Day 26|1470|[📎](../src/q_1451_1500/q1470.cc)|[Shuffle the Array](https://leetcode.com/problems/shuffle-the-array/)|Easy|
 |Day 25|530|[📎](../src/q_501_550/q0530.cc)|[Minimum Absolute Difference in BST](https://leetcode.com/problems/minimum-absolute-difference-in-bst/)|Easy|
 |Day 24|657|[📎](../src/q_651_700/q0657.cc)|[Robot Return to Origin](https://leetcode.com/problems/robot-return-to-origin/)|Easy|

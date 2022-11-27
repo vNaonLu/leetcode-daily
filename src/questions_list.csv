@@ -1285,7 +1285,7 @@ id,title,level,slug,paid,done
 1284,Minimum Number of Flips to Convert Binary Matrix to Zero Matrix,3,minimum-number-of-flips-to-convert-binary-matrix-to-zero-matrix,0,0
 1285,Find the Start and End Number of Continuous Ranges,2,find-the-start-and-end-number-of-continuous-ranges,1,0
 1286,Iterator for Combination,2,iterator-for-combination,0,1
-1287,Element Appearing More Than 25% In Sorted Array,1,element-appearing-more-than-25-in-sorted-array,0,0
+1287,Element Appearing More Than 25% In Sorted Array,1,element-appearing-more-than-25-in-sorted-array,0,1
 1288,Remove Covered Intervals,2,remove-covered-intervals,0,1
 1289,Minimum Falling Path Sum II,3,minimum-falling-path-sum-ii,0,0
 1290,Convert Binary Number in a Linked List to Integer,1,convert-binary-number-in-a-linked-list-to-integer,0,1
@@ -2479,3 +2479,11 @@ id,title,level,slug,paid,done
 2478,Number of Beautiful Partitions,3,number-of-beautiful-partitions,0,0
 2479,Maximum XOR of Two Non-Overlapping Subtrees,3,maximum-xor-of-two-non-overlapping-subtrees,1,0
 2480,Form a Chemical Bond,1,form-a-chemical-bond,1,0
+2481,Minimum Cuts to Divide a Circle,1,minimum-cuts-to-divide-a-circle,0,0
+2482,Difference Between Ones and Zeros in Row and Column,2,difference-between-ones-and-zeros-in-row-and-column,0,0
+2483,Minimum Penalty for a Shop,2,minimum-penalty-for-a-shop,0,0
+2484,Count Palindromic Subsequences,3,count-palindromic-subsequences,0,0
+2485,Find the Pivot Integer,1,find-the-pivot-integer,0,0
+2486,Append Characters to String to Make Subsequence,2,append-characters-to-string-to-make-subsequence,0,0
+2487,Remove Nodes From Linked List,2,remove-nodes-from-linked-list,0,0
+2488,Count Subarrays With Median K,3,count-subarrays-with-median-k,0,0

@@ -1328,7 +1328,7 @@ My daily challenge on leetcode since 2021/09/06.
 ||1284|[Minimum Number of Flips to Convert Binary Matrix to Zero Matrix](https://leetcode.com/problems/minimum-number-of-flips-to-convert-binary-matrix-to-zero-matrix/)|Hard|
 |🔒|1285|[Find the Start and End Number of Continuous Ranges](https://leetcode.com/problems/find-the-start-and-end-number-of-continuous-ranges/)|Medium|
 |[📎](src/q_1251_1300/q1286.cc)|1286|[Iterator for Combination](https://leetcode.com/problems/iterator-for-combination/)|Medium|
-||1287|[Element Appearing More Than 25% In Sorted Array](https://leetcode.com/problems/element-appearing-more-than-25-in-sorted-array/)|Easy|
+|[📎](src/q_1251_1300/q1287.cc)|1287|[Element Appearing More Than 25% In Sorted Array](https://leetcode.com/problems/element-appearing-more-than-25-in-sorted-array/)|Easy|
 |[📎](src/q_1251_1300/q1288.cc)|1288|[Remove Covered Intervals](https://leetcode.com/problems/remove-covered-intervals/)|Medium|
 ||1289|[Minimum Falling Path Sum II](https://leetcode.com/problems/minimum-falling-path-sum-ii/)|Hard|
 |[📎](src/q_1251_1300/q1290.cc)|1290|[Convert Binary Number in a Linked List to Integer](https://leetcode.com/problems/convert-binary-number-in-a-linked-list-to-integer/)|Easy|
@@ -2312,7 +2312,7 @@ My daily challenge on leetcode since 2021/09/06.
 ||2250|[Count Number of Rectangles Containing Each Point](https://leetcode.com/problems/count-number-of-rectangles-containing-each-point/)|Medium|
 </details>
 <details>
-  <summary>### 2251 ~ 2480</summary>
+  <summary>### 2251 ~ 2488</summary>
 
 |</>|#|Solution Title|Difficulty|
 |:-:|--:|:--|:--|
@@ -2546,6 +2546,14 @@ My daily challenge on leetcode since 2021/09/06.
 ||2478|[Number of Beautiful Partitions](https://leetcode.com/problems/number-of-beautiful-partitions/)|Hard|
 |🔒|2479|[Maximum XOR of Two Non-Overlapping Subtrees](https://leetcode.com/problems/maximum-xor-of-two-non-overlapping-subtrees/)|Hard|
 |🔒|2480|[Form a Chemical Bond](https://leetcode.com/problems/form-a-chemical-bond/)|Easy|
+||2481|[Minimum Cuts to Divide a Circle](https://leetcode.com/problems/minimum-cuts-to-divide-a-circle/)|Easy|
+||2482|[Difference Between Ones and Zeros in Row and Column](https://leetcode.com/problems/difference-between-ones-and-zeros-in-row-and-column/)|Medium|
+||2483|[Minimum Penalty for a Shop](https://leetcode.com/problems/minimum-penalty-for-a-shop/)|Medium|
+||2484|[Count Palindromic Subsequences](https://leetcode.com/problems/count-palindromic-subsequences/)|Hard|
+||2485|[Find the Pivot Integer](https://leetcode.com/problems/find-the-pivot-integer/)|Easy|
+||2486|[Append Characters to String to Make Subsequence](https://leetcode.com/problems/append-characters-to-string-to-make-subsequence/)|Medium|
+||2487|[Remove Nodes From Linked List](https://leetcode.com/problems/remove-nodes-from-linked-list/)|Medium|
+||2488|[Count Subarrays With Median K](https://leetcode.com/problems/count-subarrays-with-median-k/)|Hard|
 </details>
 
 ---
@@ -2553,6 +2561,7 @@ My daily challenge on leetcode since 2021/09/06.
 
 |Time|#|</>|Question Title|Difficulty|
 |:--|--:|:-:|:--|:--|
+|2022-11-27 16:24|1287|[📎](src/q_1251_1300/q1287.cc)|[Element Appearing More Than 25% In Sorted Array](https://leetcode.com/problems/element-appearing-more-than-25-in-sorted-array/)|Easy|
 |2022-11-26 16:08|1470|[📎](src/q_1451_1500/q1470.cc)|[Shuffle the Array](https://leetcode.com/problems/shuffle-the-array/)|Easy|
 |2022-11-25 10:52|530|[📎](src/q_501_550/q0530.cc)|[Minimum Absolute Difference in BST](https://leetcode.com/problems/minimum-absolute-difference-in-bst/)|Easy|
 |2022-11-24 10:40|657|[📎](src/q_651_700/q0657.cc)|[Robot Return to Origin](https://leetcode.com/problems/robot-return-to-origin/)|Easy|
@@ -2577,13 +2586,12 @@ My daily challenge on leetcode since 2021/09/06.
 |2022-11-05 12:20|1051|[📎](src/q_1051_1100/q1051.cc)|[Height Checker](https://leetcode.com/problems/height-checker/)|Easy|
 |2022-11-04 18:27|696|[📎](src/q_651_700/q0696.cc)|[Count Binary Substrings](https://leetcode.com/problems/count-binary-substrings/)|Easy|
 |2022-11-03 23:25|925|[📎](src/q_901_950/q0925.cc)|[Long Pressed Name](https://leetcode.com/problems/long-pressed-name/)|Easy|
-|2022-11-02 22:03|697|[📎](src/q_651_700/q0697.cc)|[Degree of an Array](https://leetcode.com/problems/degree-of-an-array/)|Easy|
 
 ## Previous Logs
 
 |Month|Submissions|Easy|Medium|Hard|
 |:--|:--|:--|:--|:--|
-|[November_2022](./assets/November_2022.md)|26|18|5|3|
+|[November_2022](./assets/November_2022.md)|27|19|5|3|
 |[October_2022](./assets/October_2022.md)|33|22|7|4|
 |[September_2022](./assets/September_2022.md)|38|10|19|9|
 |[August_2022](./assets/August_2022.md)|48|15|24|9|
