@@ -2223,7 +2223,7 @@ id,title,level,slug,paid,done
 2222,Number of Ways to Select Buildings,2,number-of-ways-to-select-buildings,0,0
 2223,Sum of Scores of Built Strings,3,sum-of-scores-of-built-strings,0,0
 2224,Minimum Number of Operations to Convert Time,1,minimum-number-of-operations-to-convert-time,0,0
-2225,Find Players With Zero or One Losses,2,find-players-with-zero-or-one-losses,0,0
+2225,Find Players With Zero or One Losses,2,find-players-with-zero-or-one-losses,0,1
 2226,Maximum Candies Allocated to K Children,2,maximum-candies-allocated-to-k-children,0,0
 2227,Encrypt and Decrypt Strings,3,encrypt-and-decrypt-strings,0,0
 2228,Users With Two Purchases Within Seven Days,2,users-with-two-purchases-within-seven-days,1,0
