@@ -1205,7 +1205,7 @@ id,title,level,slug,paid,done
 1204,Last Person to Fit in the Bus,2,last-person-to-fit-in-the-bus,1,0
 1205,Monthly Transactions II,2,monthly-transactions-ii,1,0
 1206,Design Skiplist,3,design-skiplist,0,0
-1207,Unique Number of Occurrences,1,unique-number-of-occurrences,0,0
+1207,Unique Number of Occurrences,1,unique-number-of-occurrences,0,1
 1208,Get Equal Substrings Within Budget,2,get-equal-substrings-within-budget,0,0
 1209,Remove All Adjacent Duplicates in String II,2,remove-all-adjacent-duplicates-in-string-ii,0,1
 1210,Minimum Moves to Reach Target with Rotations,3,minimum-moves-to-reach-target-with-rotations,0,0
@@ -2487,3 +2487,4 @@ id,title,level,slug,paid,done
 2486,Append Characters to String to Make Subsequence,2,append-characters-to-string-to-make-subsequence,0,0
 2487,Remove Nodes From Linked List,2,remove-nodes-from-linked-list,0,0
 2488,Count Subarrays With Median K,3,count-subarrays-with-median-k,0,0
+2489,Number of Substrings With Fixed Ratio,2,number-of-substrings-with-fixed-ratio,1,0

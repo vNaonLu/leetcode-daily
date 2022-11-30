@@ -1242,7 +1242,7 @@ My daily challenge on leetcode since 2021/09/06.
 |🔒|1204|[Last Person to Fit in the Bus](https://leetcode.com/problems/last-person-to-fit-in-the-bus/)|Medium|
 |🔒|1205|[Monthly Transactions II](https://leetcode.com/problems/monthly-transactions-ii/)|Medium|
 ||1206|[Design Skiplist](https://leetcode.com/problems/design-skiplist/)|Hard|
-||1207|[Unique Number of Occurrences](https://leetcode.com/problems/unique-number-of-occurrences/)|Easy|
+|[📎](src/q_1201_1250/q1207.cc)|1207|[Unique Number of Occurrences](https://leetcode.com/problems/unique-number-of-occurrences/)|Easy|
 ||1208|[Get Equal Substrings Within Budget](https://leetcode.com/problems/get-equal-substrings-within-budget/)|Medium|
 |[📎](src/q_1201_1250/q1209.cc)|1209|[Remove All Adjacent Duplicates in String II](https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string-ii/)|Medium|
 ||1210|[Minimum Moves to Reach Target with Rotations](https://leetcode.com/problems/minimum-moves-to-reach-target-with-rotations/)|Hard|
@@ -2312,7 +2312,7 @@ My daily challenge on leetcode since 2021/09/06.
 ||2250|[Count Number of Rectangles Containing Each Point](https://leetcode.com/problems/count-number-of-rectangles-containing-each-point/)|Medium|
 </details>
 <details>
-  <summary>### 2251 ~ 2488</summary>
+  <summary>### 2251 ~ 2489</summary>
 
 |</>|#|Solution Title|Difficulty|
 |:-:|--:|:--|:--|
@@ -2554,6 +2554,7 @@ My daily challenge on leetcode since 2021/09/06.
 ||2486|[Append Characters to String to Make Subsequence](https://leetcode.com/problems/append-characters-to-string-to-make-subsequence/)|Medium|
 ||2487|[Remove Nodes From Linked List](https://leetcode.com/problems/remove-nodes-from-linked-list/)|Medium|
 ||2488|[Count Subarrays With Median K](https://leetcode.com/problems/count-subarrays-with-median-k/)|Hard|
+|🔒|2489|[Number of Substrings With Fixed Ratio](https://leetcode.com/problems/number-of-substrings-with-fixed-ratio/)|Medium|
 </details>
 
 ---
@@ -2561,6 +2562,7 @@ My daily challenge on leetcode since 2021/09/06.
 
 |Time|#|</>|Question Title|Difficulty|
 |:--|--:|:-:|:--|:--|
+|2022-11-30 12:55|1207|[📎](src/q_1201_1250/q1207.cc)|[Unique Number of Occurrences](https://leetcode.com/problems/unique-number-of-occurrences/)|Easy|
 |2022-11-29 18:27|1252|[📎](src/q_1251_1300/q1252.cc)|[Cells with Odd Values in a Matrix](https://leetcode.com/problems/cells-with-odd-values-in-a-matrix/)|Easy|
 |2022-11-29 18:03|2225|[📎](src/q_2201_2250/q2225.cc)|[Find Players With Zero or One Losses](https://leetcode.com/problems/find-players-with-zero-or-one-losses/)|Medium|
 |2022-11-27 16:24|1287|[📎](src/q_1251_1300/q1287.cc)|[Element Appearing More Than 25% In Sorted Array](https://leetcode.com/problems/element-appearing-more-than-25-in-sorted-array/)|Easy|
@@ -2585,13 +2587,12 @@ My daily challenge on leetcode since 2021/09/06.
 |2022-11-08 18:21|1544|[📎](src/q_1501_1550/q1544.cc)|[Make The String Great](https://leetcode.com/problems/make-the-string-great/)|Easy|
 |2022-11-07 18:48|1071|[📎](src/q_1051_1100/q1071.cc)|[Greatest Common Divisor of Strings](https://leetcode.com/problems/greatest-common-divisor-of-strings/)|Easy|
 |2022-11-06 14:21|899|[📎](src/q_851_900/q0899.cc)|[Orderly Queue](https://leetcode.com/problems/orderly-queue/)|Hard|
-|2022-11-05 12:20|1051|[📎](src/q_1051_1100/q1051.cc)|[Height Checker](https://leetcode.com/problems/height-checker/)|Easy|
 
 ## Previous Logs
 
 |Month|Submissions|Easy|Medium|Hard|
 |:--|:--|:--|:--|:--|
-|[November_2022](./assets/November_2022.md)|29|20|6|3|
+|[November_2022](./assets/November_2022.md)|30|21|6|3|
 |[October_2022](./assets/October_2022.md)|33|22|7|4|
 |[September_2022](./assets/September_2022.md)|38|10|19|9|
 |[August_2022](./assets/August_2022.md)|48|15|24|9|
