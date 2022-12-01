@@ -1702,7 +1702,7 @@ id,title,level,slug,paid,done
 1701,Average Waiting Time,2,average-waiting-time,0,0
 1702,Maximum Binary String After Change,2,maximum-binary-string-after-change,0,0
 1703,Minimum Adjacent Swaps for K Consecutive Ones,3,minimum-adjacent-swaps-for-k-consecutive-ones,0,0
-1704,Determine if String Halves Are Alike,1,determine-if-string-halves-are-alike,0,0
+1704,Determine if String Halves Are Alike,1,determine-if-string-halves-are-alike,0,1
 1705,Maximum Number of Eaten Apples,2,maximum-number-of-eaten-apples,0,1
 1706,Where Will the Ball Fall,2,where-will-the-ball-fall,0,1
 1707,Maximum XOR With an Element From Array,3,maximum-xor-with-an-element-from-array,0,0
