@@ -1158,7 +1158,7 @@ id,title,level,slug,paid,done
 1157,Online Majority Element In Subarray,3,online-majority-element-in-subarray,0,0
 1158,Market Analysis I,2,market-analysis-i,0,0
 1159,Market Analysis II,3,market-analysis-ii,1,0
-1160,Find Words That Can Be Formed by Characters,1,find-words-that-can-be-formed-by-characters,0,0
+1160,Find Words That Can Be Formed by Characters,1,find-words-that-can-be-formed-by-characters,0,1
 1161,Maximum Level Sum of a Binary Tree,2,maximum-level-sum-of-a-binary-tree,0,0
 1162,As Far from Land as Possible,2,as-far-from-land-as-possible,0,1
 1163,Last Substring in Lexicographical Order,3,last-substring-in-lexicographical-order,0,0
@@ -1205,7 +1205,7 @@ id,title,level,slug,paid,done
 1204,Last Person to Fit in the Bus,2,last-person-to-fit-in-the-bus,1,0
 1205,Monthly Transactions II,2,monthly-transactions-ii,1,0
 1206,Design Skiplist,3,design-skiplist,0,0
-1207,Unique Number of Occurrences,1,unique-number-of-occurrences,0,0
+1207,Unique Number of Occurrences,1,unique-number-of-occurrences,0,1
 1208,Get Equal Substrings Within Budget,2,get-equal-substrings-within-budget,0,0
 1209,Remove All Adjacent Duplicates in String II,2,remove-all-adjacent-duplicates-in-string-ii,0,1
 1210,Minimum Moves to Reach Target with Rotations,3,minimum-moves-to-reach-target-with-rotations,0,0
@@ -1250,7 +1250,7 @@ id,title,level,slug,paid,done
 1249,Minimum Remove to Make Valid Parentheses,2,minimum-remove-to-make-valid-parentheses,0,1
 1250,Check If It Is a Good Array,3,check-if-it-is-a-good-array,0,0
 1251,Average Selling Price,1,average-selling-price,1,0
-1252,Cells with Odd Values in a Matrix,1,cells-with-odd-values-in-a-matrix,0,0
+1252,Cells with Odd Values in a Matrix,1,cells-with-odd-values-in-a-matrix,0,1
 1253,Reconstruct a 2-Row Binary Matrix,2,reconstruct-a-2-row-binary-matrix,0,0
 1254,Number of Closed Islands,2,number-of-closed-islands,0,1
 1255,Maximum Score Words Formed by Letters,3,maximum-score-words-formed-by-letters,0,0
@@ -1285,7 +1285,7 @@ id,title,level,slug,paid,done
 1284,Minimum Number of Flips to Convert Binary Matrix to Zero Matrix,3,minimum-number-of-flips-to-convert-binary-matrix-to-zero-matrix,0,0
 1285,Find the Start and End Number of Continuous Ranges,2,find-the-start-and-end-number-of-continuous-ranges,1,0
 1286,Iterator for Combination,2,iterator-for-combination,0,1
-1287,Element Appearing More Than 25% In Sorted Array,1,element-appearing-more-than-25-in-sorted-array,0,0
+1287,Element Appearing More Than 25% In Sorted Array,1,element-appearing-more-than-25-in-sorted-array,0,1
 1288,Remove Covered Intervals,2,remove-covered-intervals,0,1
 1289,Minimum Falling Path Sum II,3,minimum-falling-path-sum-ii,0,0
 1290,Convert Binary Number in a Linked List to Integer,1,convert-binary-number-in-a-linked-list-to-integer,0,1
@@ -1655,7 +1655,7 @@ id,title,level,slug,paid,done
 1654,Minimum Jumps to Reach Home,2,minimum-jumps-to-reach-home,0,1
 1655,Distribute Repeating Integers,3,distribute-repeating-integers,0,0
 1656,Design an Ordered Stream,1,design-an-ordered-stream,0,0
-1657,Determine if Two Strings Are Close,2,determine-if-two-strings-are-close,0,0
+1657,Determine if Two Strings Are Close,2,determine-if-two-strings-are-close,0,1
 1658,Minimum Operations to Reduce X to Zero,2,minimum-operations-to-reduce-x-to-zero,0,1
 1659,Maximize Grid Happiness,3,maximize-grid-happiness,0,0
 1660,Correct a Binary Tree,2,correct-a-binary-tree,1,0
@@ -1702,7 +1702,7 @@ id,title,level,slug,paid,done
 1701,Average Waiting Time,2,average-waiting-time,0,0
 1702,Maximum Binary String After Change,2,maximum-binary-string-after-change,0,0
 1703,Minimum Adjacent Swaps for K Consecutive Ones,3,minimum-adjacent-swaps-for-k-consecutive-ones,0,0
-1704,Determine if String Halves Are Alike,1,determine-if-string-halves-are-alike,0,0
+1704,Determine if String Halves Are Alike,1,determine-if-string-halves-are-alike,0,1
 1705,Maximum Number of Eaten Apples,2,maximum-number-of-eaten-apples,0,1
 1706,Where Will the Ball Fall,2,where-will-the-ball-fall,0,1
 1707,Maximum XOR With an Element From Array,3,maximum-xor-with-an-element-from-array,0,0
@@ -2223,7 +2223,7 @@ id,title,level,slug,paid,done
 2222,Number of Ways to Select Buildings,2,number-of-ways-to-select-buildings,0,0
 2223,Sum of Scores of Built Strings,3,sum-of-scores-of-built-strings,0,0
 2224,Minimum Number of Operations to Convert Time,1,minimum-number-of-operations-to-convert-time,0,0
-2225,Find Players With Zero or One Losses,2,find-players-with-zero-or-one-losses,0,0
+2225,Find Players With Zero or One Losses,2,find-players-with-zero-or-one-losses,0,1
 2226,Maximum Candies Allocated to K Children,2,maximum-candies-allocated-to-k-children,0,0
 2227,Encrypt and Decrypt Strings,3,encrypt-and-decrypt-strings,0,0
 2228,Users With Two Purchases Within Seven Days,2,users-with-two-purchases-within-seven-days,1,0
@@ -2479,3 +2479,12 @@ id,title,level,slug,paid,done
 2478,Number of Beautiful Partitions,3,number-of-beautiful-partitions,0,0
 2479,Maximum XOR of Two Non-Overlapping Subtrees,3,maximum-xor-of-two-non-overlapping-subtrees,1,0
 2480,Form a Chemical Bond,1,form-a-chemical-bond,1,0
+2481,Minimum Cuts to Divide a Circle,1,minimum-cuts-to-divide-a-circle,0,0
+2482,Difference Between Ones and Zeros in Row and Column,2,difference-between-ones-and-zeros-in-row-and-column,0,0
+2483,Minimum Penalty for a Shop,2,minimum-penalty-for-a-shop,0,0
+2484,Count Palindromic Subsequences,3,count-palindromic-subsequences,0,0
+2485,Find the Pivot Integer,1,find-the-pivot-integer,0,0
+2486,Append Characters to String to Make Subsequence,2,append-characters-to-string-to-make-subsequence,0,0
+2487,Remove Nodes From Linked List,2,remove-nodes-from-linked-list,0,0
+2488,Count Subarrays With Median K,3,count-subarrays-with-median-k,0,0
+2489,Number of Substrings With Fixed Ratio,2,number-of-substrings-with-fixed-ratio,1,0
