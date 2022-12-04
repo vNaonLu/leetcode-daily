@@ -2312,7 +2312,7 @@ My daily challenge on leetcode since 2021/09/06.
 ||2250|[Count Number of Rectangles Containing Each Point](https://leetcode.com/problems/count-number-of-rectangles-containing-each-point/)|Medium|
 </details>
 <details>
-  <summary>### 2251 ~ 2489</summary>
+  <summary>### 2251 ~ 2493</summary>
 
 |</>|#|Solution Title|Difficulty|
 |:-:|--:|:--|:--|
@@ -2321,7 +2321,7 @@ My daily challenge on leetcode since 2021/09/06.
 |🔒|2253|[Dynamic Unpivoting of a Table](https://leetcode.com/problems/dynamic-unpivoting-of-a-table/)|Hard|
 |🔒|2254|[Design Video Sharing Platform](https://leetcode.com/problems/design-video-sharing-platform/)|Hard|
 ||2255|[Count Prefixes of a Given String](https://leetcode.com/problems/count-prefixes-of-a-given-string/)|Easy|
-||2256|[Minimum Average Difference](https://leetcode.com/problems/minimum-average-difference/)|Medium|
+|[📎](src/q_2251_2300/q2256.cc)|2256|[Minimum Average Difference](https://leetcode.com/problems/minimum-average-difference/)|Medium|
 ||2257|[Count Unguarded Cells in the Grid](https://leetcode.com/problems/count-unguarded-cells-in-the-grid/)|Medium|
 ||2258|[Escape the Spreading Fire](https://leetcode.com/problems/escape-the-spreading-fire/)|Hard|
 ||2259|[Remove Digit From Number to Maximize Result](https://leetcode.com/problems/remove-digit-from-number-to-maximize-result/)|Easy|
@@ -2555,6 +2555,10 @@ My daily challenge on leetcode since 2021/09/06.
 ||2487|[Remove Nodes From Linked List](https://leetcode.com/problems/remove-nodes-from-linked-list/)|Medium|
 ||2488|[Count Subarrays With Median K](https://leetcode.com/problems/count-subarrays-with-median-k/)|Hard|
 |🔒|2489|[Number of Substrings With Fixed Ratio](https://leetcode.com/problems/number-of-substrings-with-fixed-ratio/)|Medium|
+||2490|[Circular Sentence](https://leetcode.com/problems/circular-sentence/)|Easy|
+||2491|[Divide Players Into Teams of Equal Skill](https://leetcode.com/problems/divide-players-into-teams-of-equal-skill/)|Medium|
+||2492|[Minimum Score of a Path Between Two Cities](https://leetcode.com/problems/minimum-score-of-a-path-between-two-cities/)|Medium|
+||2493|[Divide Nodes Into the Maximum Number of Groups](https://leetcode.com/problems/divide-nodes-into-the-maximum-number-of-groups/)|Hard|
 </details>
 
 ---
@@ -2562,6 +2566,7 @@ My daily challenge on leetcode since 2021/09/06.
 
 |Time|#|</>|Question Title|Difficulty|
 |:--|--:|:-:|:--|:--|
+|2022-12-04 13:55|2256|[📎](src/q_2251_2300/q2256.cc)|[Minimum Average Difference](https://leetcode.com/problems/minimum-average-difference/)|Medium|
 |2022-12-03 17:23|1160|[📎](src/q_1151_1200/q1160.cc)|[Find Words That Can Be Formed by Characters](https://leetcode.com/problems/find-words-that-can-be-formed-by-characters/)|Easy|
 |2022-12-02 18:06|1657|[📎](src/q_1651_1700/q1657.cc)|[Determine if Two Strings Are Close](https://leetcode.com/problems/determine-if-two-strings-are-close/)|Medium|
 |2022-12-01 20:19|1704|[📎](src/q_1701_1750/q1704.cc)|[Determine if String Halves Are Alike](https://leetcode.com/problems/determine-if-string-halves-are-alike/)|Easy|
@@ -2586,13 +2591,12 @@ My daily challenge on leetcode since 2021/09/06.
 |2022-11-12 21:03|295|[📎](src/q_251_300/q0295.cc)|[Find Median from Data Stream](https://leetcode.com/problems/find-median-from-data-stream/)|Hard|
 |2022-11-11 19:44|1078|[📎](src/q_1051_1100/q1078.cc)|[Occurrences After Bigram](https://leetcode.com/problems/occurrences-after-bigram/)|Easy|
 |2022-11-10 18:12|1047|[📎](src/q_1001_1050/q1047.cc)|[Remove All Adjacent Duplicates In String](https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string/)|Easy|
-|2022-11-09 18:41|901|[📎](src/q_901_950/q0901.cc)|[Online Stock Span](https://leetcode.com/problems/online-stock-span/)|Medium|
 
 ## Previous Logs
 
 |Month|Submissions|Easy|Medium|Hard|
 |:--|:--|:--|:--|:--|
-|[December_2022](./assets/December_2022.md)|3|2|1|0|
+|[December_2022](./assets/December_2022.md)|4|2|2|0|
 |[November_2022](./assets/November_2022.md)|30|21|6|3|
 |[October_2022](./assets/October_2022.md)|33|22|7|4|
 |[September_2022](./assets/September_2022.md)|38|10|19|9|

@@ -2254,7 +2254,7 @@ id,title,level,slug,paid,done
 2253,Dynamic Unpivoting of a Table,3,dynamic-unpivoting-of-a-table,1,0
 2254,Design Video Sharing Platform,3,design-video-sharing-platform,1,0
 2255,Count Prefixes of a Given String,1,count-prefixes-of-a-given-string,0,0
-2256,Minimum Average Difference,2,minimum-average-difference,0,0
+2256,Minimum Average Difference,2,minimum-average-difference,0,1
 2257,Count Unguarded Cells in the Grid,2,count-unguarded-cells-in-the-grid,0,0
 2258,Escape the Spreading Fire,3,escape-the-spreading-fire,0,0
 2259,Remove Digit From Number to Maximize Result,1,remove-digit-from-number-to-maximize-result,0,0
@@ -2488,3 +2488,7 @@ id,title,level,slug,paid,done
 2487,Remove Nodes From Linked List,2,remove-nodes-from-linked-list,0,0
 2488,Count Subarrays With Median K,3,count-subarrays-with-median-k,0,0
 2489,Number of Substrings With Fixed Ratio,2,number-of-substrings-with-fixed-ratio,1,0
+2490,Circular Sentence,1,circular-sentence,0,0
+2491,Divide Players Into Teams of Equal Skill,2,divide-players-into-teams-of-equal-skill,0,0
+2492,Minimum Score of a Path Between Two Cities,2,minimum-score-of-a-path-between-two-cities,0,0
+2493,Divide Nodes Into the Maximum Number of Groups,3,divide-nodes-into-the-maximum-number-of-groups,0,0
