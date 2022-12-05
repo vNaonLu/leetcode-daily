@@ -1453,7 +1453,7 @@ id,title,level,slug,paid,done
 1452,People Whose List of Favorite Companies Is Not a Subset of Another List,2,people-whose-list-of-favorite-companies-is-not-a-subset-of-another-list,0,0
 1453,Maximum Number of Darts Inside of a Circular Dartboard,3,maximum-number-of-darts-inside-of-a-circular-dartboard,0,0
 1454,Active Users,2,active-users,1,0
-1455,Check If a Word Occurs As a Prefix of Any Word in a Sentence,1,check-if-a-word-occurs-as-a-prefix-of-any-word-in-a-sentence,0,0
+1455,Check If a Word Occurs As a Prefix of Any Word in a Sentence,1,check-if-a-word-occurs-as-a-prefix-of-any-word-in-a-sentence,0,1
 1456,Maximum Number of Vowels in a Substring of Given Length,2,maximum-number-of-vowels-in-a-substring-of-given-length,0,0
 1457,Pseudo-Palindromic Paths in a Binary Tree,2,pseudo-palindromic-paths-in-a-binary-tree,0,1
 1458,Max Dot Product of Two Subsequences,3,max-dot-product-of-two-subsequences,0,0
@@ -2492,3 +2492,4 @@ id,title,level,slug,paid,done
 2491,Divide Players Into Teams of Equal Skill,2,divide-players-into-teams-of-equal-skill,0,0
 2492,Minimum Score of a Path Between Two Cities,2,minimum-score-of-a-path-between-two-cities,0,0
 2493,Divide Nodes Into the Maximum Number of Groups,3,divide-nodes-into-the-maximum-number-of-groups,0,0
+2494,Merge Overlapping Events in the Same Hall,3,merge-overlapping-events-in-the-same-hall,1,0

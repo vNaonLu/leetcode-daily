@@ -1496,7 +1496,7 @@ My daily challenge on leetcode since 2021/09/06.
 ||1452|[People Whose List of Favorite Companies Is Not a Subset of Another List](https://leetcode.com/problems/people-whose-list-of-favorite-companies-is-not-a-subset-of-another-list/)|Medium|
 ||1453|[Maximum Number of Darts Inside of a Circular Dartboard](https://leetcode.com/problems/maximum-number-of-darts-inside-of-a-circular-dartboard/)|Hard|
 |🔒|1454|[Active Users](https://leetcode.com/problems/active-users/)|Medium|
-||1455|[Check If a Word Occurs As a Prefix of Any Word in a Sentence](https://leetcode.com/problems/check-if-a-word-occurs-as-a-prefix-of-any-word-in-a-sentence/)|Easy|
+|[📎](src/q_1451_1500/q1455.cc)|1455|[Check If a Word Occurs As a Prefix of Any Word in a Sentence](https://leetcode.com/problems/check-if-a-word-occurs-as-a-prefix-of-any-word-in-a-sentence/)|Easy|
 ||1456|[Maximum Number of Vowels in a Substring of Given Length](https://leetcode.com/problems/maximum-number-of-vowels-in-a-substring-of-given-length/)|Medium|
 |[📎](src/q_1451_1500/q1457.cc)|1457|[Pseudo-Palindromic Paths in a Binary Tree](https://leetcode.com/problems/pseudo-palindromic-paths-in-a-binary-tree/)|Medium|
 ||1458|[Max Dot Product of Two Subsequences](https://leetcode.com/problems/max-dot-product-of-two-subsequences/)|Hard|
@@ -2312,7 +2312,7 @@ My daily challenge on leetcode since 2021/09/06.
 ||2250|[Count Number of Rectangles Containing Each Point](https://leetcode.com/problems/count-number-of-rectangles-containing-each-point/)|Medium|
 </details>
 <details>
-  <summary>### 2251 ~ 2493</summary>
+  <summary>### 2251 ~ 2494</summary>
 
 |</>|#|Solution Title|Difficulty|
 |:-:|--:|:--|:--|
@@ -2559,6 +2559,7 @@ My daily challenge on leetcode since 2021/09/06.
 ||2491|[Divide Players Into Teams of Equal Skill](https://leetcode.com/problems/divide-players-into-teams-of-equal-skill/)|Medium|
 ||2492|[Minimum Score of a Path Between Two Cities](https://leetcode.com/problems/minimum-score-of-a-path-between-two-cities/)|Medium|
 ||2493|[Divide Nodes Into the Maximum Number of Groups](https://leetcode.com/problems/divide-nodes-into-the-maximum-number-of-groups/)|Hard|
+|🔒|2494|[Merge Overlapping Events in the Same Hall](https://leetcode.com/problems/merge-overlapping-events-in-the-same-hall/)|Hard|
 </details>
 
 ---
@@ -2566,6 +2567,7 @@ My daily challenge on leetcode since 2021/09/06.
 
 |Time|#|</>|Question Title|Difficulty|
 |:--|--:|:-:|:--|:--|
+|2022-12-05 16:10|1455|[📎](src/q_1451_1500/q1455.cc)|[Check If a Word Occurs As a Prefix of Any Word in a Sentence](https://leetcode.com/problems/check-if-a-word-occurs-as-a-prefix-of-any-word-in-a-sentence/)|Easy|
 |2022-12-04 13:55|2256|[📎](src/q_2251_2300/q2256.cc)|[Minimum Average Difference](https://leetcode.com/problems/minimum-average-difference/)|Medium|
 |2022-12-03 17:23|1160|[📎](src/q_1151_1200/q1160.cc)|[Find Words That Can Be Formed by Characters](https://leetcode.com/problems/find-words-that-can-be-formed-by-characters/)|Easy|
 |2022-12-02 18:06|1657|[📎](src/q_1651_1700/q1657.cc)|[Determine if Two Strings Are Close](https://leetcode.com/problems/determine-if-two-strings-are-close/)|Medium|
@@ -2590,13 +2592,12 @@ My daily challenge on leetcode since 2021/09/06.
 |2022-11-13 13:49|1154|[📎](src/q_1151_1200/q1154.cc)|[Day of the Year](https://leetcode.com/problems/day-of-the-year/)|Easy|
 |2022-11-12 21:03|295|[📎](src/q_251_300/q0295.cc)|[Find Median from Data Stream](https://leetcode.com/problems/find-median-from-data-stream/)|Hard|
 |2022-11-11 19:44|1078|[📎](src/q_1051_1100/q1078.cc)|[Occurrences After Bigram](https://leetcode.com/problems/occurrences-after-bigram/)|Easy|
-|2022-11-10 18:12|1047|[📎](src/q_1001_1050/q1047.cc)|[Remove All Adjacent Duplicates In String](https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string/)|Easy|
 
 ## Previous Logs
 
 |Month|Submissions|Easy|Medium|Hard|
 |:--|:--|:--|:--|:--|
-|[December_2022](./assets/December_2022.md)|4|2|2|0|
+|[December_2022](./assets/December_2022.md)|5|3|2|0|
 |[November_2022](./assets/November_2022.md)|30|21|6|3|
 |[October_2022](./assets/October_2022.md)|33|22|7|4|
 |[September_2022](./assets/September_2022.md)|38|10|19|9|
