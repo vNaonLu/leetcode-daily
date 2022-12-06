@@ -1527,7 +1527,7 @@ My daily challenge on leetcode since 2021/09/06.
 ||1483|[Kth Ancestor of a Tree Node](https://leetcode.com/problems/kth-ancestor-of-a-tree-node/)|Hard|
 ||1484|[Group Sold Products By The Date](https://leetcode.com/problems/group-sold-products-by-the-date/)|Easy|
 |🔒|1485|[Clone Binary Tree With Random Pointer](https://leetcode.com/problems/clone-binary-tree-with-random-pointer/)|Medium|
-||1486|[XOR Operation in an Array](https://leetcode.com/problems/xor-operation-in-an-array/)|Easy|
+|[📎](src/q_1451_1500/q1486.cc)|1486|[XOR Operation in an Array](https://leetcode.com/problems/xor-operation-in-an-array/)|Easy|
 ||1487|[Making File Names Unique](https://leetcode.com/problems/making-file-names-unique/)|Medium|
 |[📎](src/q_1451_1500/q1488.cc)|1488|[Avoid Flood in The City](https://leetcode.com/problems/avoid-flood-in-the-city/)|Medium|
 ||1489|[Find Critical and Pseudo-Critical Edges in Minimum Spanning Tree](https://leetcode.com/problems/find-critical-and-pseudo-critical-edges-in-minimum-spanning-tree/)|Hard|
@@ -2312,7 +2312,7 @@ My daily challenge on leetcode since 2021/09/06.
 ||2250|[Count Number of Rectangles Containing Each Point](https://leetcode.com/problems/count-number-of-rectangles-containing-each-point/)|Medium|
 </details>
 <details>
-  <summary>### 2251 ~ 2494</summary>
+  <summary>### 2251 ~ 2495</summary>
 
 |</>|#|Solution Title|Difficulty|
 |:-:|--:|:--|:--|
@@ -2560,6 +2560,7 @@ My daily challenge on leetcode since 2021/09/06.
 ||2492|[Minimum Score of a Path Between Two Cities](https://leetcode.com/problems/minimum-score-of-a-path-between-two-cities/)|Medium|
 ||2493|[Divide Nodes Into the Maximum Number of Groups](https://leetcode.com/problems/divide-nodes-into-the-maximum-number-of-groups/)|Hard|
 |🔒|2494|[Merge Overlapping Events in the Same Hall](https://leetcode.com/problems/merge-overlapping-events-in-the-same-hall/)|Hard|
+|🔒|2495|[Number of Subarrays Having Even Product](https://leetcode.com/problems/number-of-subarrays-having-even-product/)|Medium|
 </details>
 
 ---
@@ -2567,6 +2568,7 @@ My daily challenge on leetcode since 2021/09/06.
 
 |Time|#|</>|Question Title|Difficulty|
 |:--|--:|:-:|:--|:--|
+|2022-12-06 18:51|1486|[📎](src/q_1451_1500/q1486.cc)|[XOR Operation in an Array](https://leetcode.com/problems/xor-operation-in-an-array/)|Easy|
 |2022-12-05 16:10|1455|[📎](src/q_1451_1500/q1455.cc)|[Check If a Word Occurs As a Prefix of Any Word in a Sentence](https://leetcode.com/problems/check-if-a-word-occurs-as-a-prefix-of-any-word-in-a-sentence/)|Easy|
 |2022-12-04 13:55|2256|[📎](src/q_2251_2300/q2256.cc)|[Minimum Average Difference](https://leetcode.com/problems/minimum-average-difference/)|Medium|
 |2022-12-03 17:23|1160|[📎](src/q_1151_1200/q1160.cc)|[Find Words That Can Be Formed by Characters](https://leetcode.com/problems/find-words-that-can-be-formed-by-characters/)|Easy|
@@ -2591,13 +2593,12 @@ My daily challenge on leetcode since 2021/09/06.
 |2022-11-14 20:47|241|[📎](src/q_201_250/q0241.cc)|[Different Ways to Add Parentheses](https://leetcode.com/problems/different-ways-to-add-parentheses/)|Medium|
 |2022-11-13 13:49|1154|[📎](src/q_1151_1200/q1154.cc)|[Day of the Year](https://leetcode.com/problems/day-of-the-year/)|Easy|
 |2022-11-12 21:03|295|[📎](src/q_251_300/q0295.cc)|[Find Median from Data Stream](https://leetcode.com/problems/find-median-from-data-stream/)|Hard|
-|2022-11-11 19:44|1078|[📎](src/q_1051_1100/q1078.cc)|[Occurrences After Bigram](https://leetcode.com/problems/occurrences-after-bigram/)|Easy|
 
 ## Previous Logs
 
 |Month|Submissions|Easy|Medium|Hard|
 |:--|:--|:--|:--|:--|
-|[December_2022](./assets/December_2022.md)|5|3|2|0|
+|[December_2022](./assets/December_2022.md)|6|4|2|0|
 |[November_2022](./assets/November_2022.md)|30|21|6|3|
 |[October_2022](./assets/October_2022.md)|33|22|7|4|
 |[September_2022](./assets/September_2022.md)|38|10|19|9|
