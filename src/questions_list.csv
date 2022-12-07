@@ -1510,7 +1510,7 @@ id,title,level,slug,paid,done
 1509,Minimum Difference Between Largest and Smallest Value in Three Moves,2,minimum-difference-between-largest-and-smallest-value-in-three-moves,0,1
 1510,Stone Game IV,3,stone-game-iv,0,1
 1511,Customer Order Frequency,1,customer-order-frequency,1,0
-1512,Number of Good Pairs,1,number-of-good-pairs,0,0
+1512,Number of Good Pairs,1,number-of-good-pairs,0,1
 1513,Number of Substrings With Only 1s,2,number-of-substrings-with-only-1s,0,0
 1514,Path with Maximum Probability,2,path-with-maximum-probability,0,0
 1515,Best Position for a Service Centre,3,best-position-for-a-service-centre,0,0
