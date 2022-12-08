@@ -2,6 +2,7 @@
 
 ||#|</>|Question Title|Difficulty|
 |:--|--:|:-:|:--|:--|
+|Day 8|1556|[📎](../src/q_1551_1600/q1556.cc)|[Thousand Separator](https://leetcode.com/problems/thousand-separator/)|Easy|
 |Day 7|1512<br>1614|[📎](../src/q_1501_1550/q1512.cc)<br>[📎](../src/q_1601_1650/q1614.cc)|[Number of Good Pairs](https://leetcode.com/problems/number-of-good-pairs/)<br>[Maximum Nesting Depth of the Parentheses](https://leetcode.com/problems/maximum-nesting-depth-of-the-parentheses/)|Easy<br>Easy|
 |Day 6|1486|[📎](../src/q_1451_1500/q1486.cc)|[XOR Operation in an Array](https://leetcode.com/problems/xor-operation-in-an-array/)|Easy|
 |Day 5|1455|[📎](../src/q_1451_1500/q1455.cc)|[Check If a Word Occurs As a Prefix of Any Word in a Sentence](https://leetcode.com/problems/check-if-a-word-occurs-as-a-prefix-of-any-word-in-a-sentence/)|Easy|

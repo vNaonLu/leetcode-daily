@@ -1603,7 +1603,7 @@ My daily challenge on leetcode since 2021/09/06.
 ||1553|[Minimum Number of Days to Eat N Oranges](https://leetcode.com/problems/minimum-number-of-days-to-eat-n-oranges/)|Hard|
 |🔒|1554|[Strings Differ by One Character](https://leetcode.com/problems/strings-differ-by-one-character/)|Medium|
 |🔒|1555|[Bank Account Summary](https://leetcode.com/problems/bank-account-summary/)|Medium|
-||1556|[Thousand Separator](https://leetcode.com/problems/thousand-separator/)|Easy|
+|[📎](src/q_1551_1600/q1556.cc)|1556|[Thousand Separator](https://leetcode.com/problems/thousand-separator/)|Easy|
 |[📎](src/q_1551_1600/q1557.cc)|1557|[Minimum Number of Vertices to Reach All Nodes](https://leetcode.com/problems/minimum-number-of-vertices-to-reach-all-nodes/)|Medium|
 ||1558|[Minimum Numbers of Function Calls to Make Target Array](https://leetcode.com/problems/minimum-numbers-of-function-calls-to-make-target-array/)|Medium|
 |[📎](src/q_1551_1600/q1559.cc)|1559|[Detect Cycles in 2D Grid](https://leetcode.com/problems/detect-cycles-in-2d-grid/)|Medium|
@@ -2568,6 +2568,7 @@ My daily challenge on leetcode since 2021/09/06.
 
 |Time|#|</>|Question Title|Difficulty|
 |:--|--:|:-:|:--|:--|
+|2022-12-08 18:32|1556|[📎](src/q_1551_1600/q1556.cc)|[Thousand Separator](https://leetcode.com/problems/thousand-separator/)|Easy|
 |2022-12-07 19:34|1512|[📎](src/q_1501_1550/q1512.cc)|[Number of Good Pairs](https://leetcode.com/problems/number-of-good-pairs/)|Easy|
 |2022-12-07 00:17|1614|[📎](src/q_1601_1650/q1614.cc)|[Maximum Nesting Depth of the Parentheses](https://leetcode.com/problems/maximum-nesting-depth-of-the-parentheses/)|Easy|
 |2022-12-06 18:51|1486|[📎](src/q_1451_1500/q1486.cc)|[XOR Operation in an Array](https://leetcode.com/problems/xor-operation-in-an-array/)|Easy|
@@ -2592,13 +2593,12 @@ My daily challenge on leetcode since 2021/09/06.
 |2022-11-17 17:46|722|[📎](src/q_701_750/q0722.cc)|[Remove Comments](https://leetcode.com/problems/remove-comments/)|Medium|
 |2022-11-16 19:06|372|[📎](src/q_351_400/q0372.cc)|[Super Pow](https://leetcode.com/problems/super-pow/)|Medium|
 |2022-11-15 18:58|357|[📎](src/q_351_400/q0357.cc)|[Count Numbers with Unique Digits](https://leetcode.com/problems/count-numbers-with-unique-digits/)|Medium|
-|2022-11-14 20:47|241|[📎](src/q_201_250/q0241.cc)|[Different Ways to Add Parentheses](https://leetcode.com/problems/different-ways-to-add-parentheses/)|Medium|
 
 ## Previous Logs
 
 |Month|Submissions|Easy|Medium|Hard|
 |:--|:--|:--|:--|:--|
-|[December_2022](./assets/December_2022.md)|8|6|2|0|
+|[December_2022](./assets/December_2022.md)|9|7|2|0|
 |[November_2022](./assets/November_2022.md)|30|21|6|3|
 |[October_2022](./assets/October_2022.md)|33|22|7|4|
 |[September_2022](./assets/September_2022.md)|38|10|19|9|
