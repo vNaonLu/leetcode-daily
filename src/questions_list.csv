@@ -1969,7 +1969,7 @@ id,title,level,slug,paid,done
 1968,Array With Elements Not Equal to Average of Neighbors,2,array-with-elements-not-equal-to-average-of-neighbors,0,1
 1969,Minimum Non-Zero Product of the Array Elements,2,minimum-non-zero-product-of-the-array-elements,0,0
 1970,Last Day Where You Can Still Cross,3,last-day-where-you-can-still-cross,0,0
-1971,Find if Path Exists in Graph,1,find-if-path-exists-in-graph,0,0
+1971,Find if Path Exists in Graph,1,find-if-path-exists-in-graph,0,1
 1972,First and Last Call On the Same Day,3,first-and-last-call-on-the-same-day,1,0
 1973,Count Nodes Equal to Sum of Descendants,2,count-nodes-equal-to-sum-of-descendants,1,0
 1974,Minimum Time to Type Word Using Special Typewriter,1,minimum-time-to-type-word-using-special-typewriter,0,0
