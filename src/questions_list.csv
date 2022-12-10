@@ -1998,7 +1998,7 @@ id,title,level,slug,paid,done
 1997,First Day Where You Have Been in All the Rooms,2,first-day-where-you-have-been-in-all-the-rooms,0,0
 1998,GCD Sort of an Array,3,gcd-sort-of-an-array,0,0
 1999,Smallest Greater Multiple Made of Two Digits,2,smallest-greater-multiple-made-of-two-digits,1,0
-2000,Reverse Prefix of Word,1,reverse-prefix-of-word,0,0
+2000,Reverse Prefix of Word,1,reverse-prefix-of-word,0,1
 2001,Number of Pairs of Interchangeable Rectangles,2,number-of-pairs-of-interchangeable-rectangles,0,0
 2002,Maximum Product of the Length of Two Palindromic Subsequences,2,maximum-product-of-the-length-of-two-palindromic-subsequences,0,0
 2003,Smallest Missing Genetic Value in Each Subtree,3,smallest-missing-genetic-value-in-each-subtree,0,0

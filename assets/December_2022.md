@@ -2,6 +2,7 @@
 
 ||#|</>|Question Title|Difficulty|
 |:--|--:|:-:|:--|:--|
+|Day 10|2000|[📎](../src/q_1951_2000/q2000.cc)|[Reverse Prefix of Word](https://leetcode.com/problems/reverse-prefix-of-word/)|Easy|
 |Day 9|1971|[📎](../src/q_1951_2000/q1971.cc)|[Find if Path Exists in Graph](https://leetcode.com/problems/find-if-path-exists-in-graph/)|Easy|
 |Day 8|1556|[📎](../src/q_1551_1600/q1556.cc)|[Thousand Separator](https://leetcode.com/problems/thousand-separator/)|Easy|
 |Day 7|1512<br>1614|[📎](../src/q_1501_1550/q1512.cc)<br>[📎](../src/q_1601_1650/q1614.cc)|[Number of Good Pairs](https://leetcode.com/problems/number-of-good-pairs/)<br>[Maximum Nesting Depth of the Parentheses](https://leetcode.com/problems/maximum-nesting-depth-of-the-parentheses/)|Easy<br>Easy|
