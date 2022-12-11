@@ -2020,7 +2020,7 @@ id,title,level,slug,paid,done
 2019,The Score of Students Solving Math Expression,3,the-score-of-students-solving-math-expression,0,0
 2020,Number of Accounts That Did Not Stream,2,number-of-accounts-that-did-not-stream,1,0
 2021,Brightest Position on Street,2,brightest-position-on-street,1,0
-2022,Convert 1D Array Into 2D Array,1,convert-1d-array-into-2d-array,0,0
+2022,Convert 1D Array Into 2D Array,1,convert-1d-array-into-2d-array,0,1
 2023,Number of Pairs of Strings With Concatenation Equal to Target,2,number-of-pairs-of-strings-with-concatenation-equal-to-target,0,0
 2024,Maximize the Confusion of an Exam,2,maximize-the-confusion-of-an-exam,0,0
 2025,Maximum Number of Ways to Partition an Array,3,maximum-number-of-ways-to-partition-an-array,0,0
@@ -2494,3 +2494,11 @@ id,title,level,slug,paid,done
 2493,Divide Nodes Into the Maximum Number of Groups,3,divide-nodes-into-the-maximum-number-of-groups,0,0
 2494,Merge Overlapping Events in the Same Hall,3,merge-overlapping-events-in-the-same-hall,1,0
 2495,Number of Subarrays Having Even Product,2,number-of-subarrays-having-even-product,1,0
+2496,Maximum Value of a String in an Array,1,maximum-value-of-a-string-in-an-array,0,0
+2497,Maximum Star Sum of a Graph,2,maximum-star-sum-of-a-graph,0,0
+2498,Frog Jump II,2,frog-jump-ii,0,0
+2499,Minimum Total Cost to Make Arrays Unequal,3,minimum-total-cost-to-make-arrays-unequal,0,0
+2500,Delete Greatest Value in Each Row,1,delete-greatest-value-in-each-row,0,0
+2501,Longest Square Streak in an Array,2,longest-square-streak-in-an-array,0,0
+2502,Design Memory Allocator,2,design-memory-allocator,0,0
+2503,Maximum Number of Points From Grid Queries,3,maximum-number-of-points-from-grid-queries,0,0
