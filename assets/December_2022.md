@@ -2,6 +2,7 @@
 
 ||#|</>|Question Title|Difficulty|
 |:--|--:|:-:|:--|:--|
+|Day 12|2032|[📎](../src/q_2001_2050/q2032.cc)|[Two Out of Three](https://leetcode.com/problems/two-out-of-three/)|Easy|
 |Day 11|2022|[📎](../src/q_2001_2050/q2022.cc)|[Convert 1D Array Into 2D Array](https://leetcode.com/problems/convert-1d-array-into-2d-array/)|Easy|
 |Day 10|2000|[📎](../src/q_1951_2000/q2000.cc)|[Reverse Prefix of Word](https://leetcode.com/problems/reverse-prefix-of-word/)|Easy|
 |Day 9|1971|[📎](../src/q_1951_2000/q1971.cc)|[Find if Path Exists in Graph](https://leetcode.com/problems/find-if-path-exists-in-graph/)|Easy|

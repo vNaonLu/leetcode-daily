@@ -2030,7 +2030,7 @@ id,title,level,slug,paid,done
 2029,Stone Game IX,2,stone-game-ix,0,0
 2030,Smallest K-Length Subsequence With Occurrences of a Letter,3,smallest-k-length-subsequence-with-occurrences-of-a-letter,0,0
 2031,Count Subarrays With More Ones Than Zeros,2,count-subarrays-with-more-ones-than-zeros,1,0
-2032,Two Out of Three,1,two-out-of-three,0,0
+2032,Two Out of Three,1,two-out-of-three,0,1
 2033,Minimum Operations to Make a Uni-Value Grid,2,minimum-operations-to-make-a-uni-value-grid,0,0
 2034,Stock Price Fluctuation ,2,stock-price-fluctuation,0,0
 2035,Partition Array Into Two Arrays to Minimize Sum Difference,3,partition-array-into-two-arrays-to-minimize-sum-difference,0,0
@@ -2502,3 +2502,4 @@ id,title,level,slug,paid,done
 2501,Longest Square Streak in an Array,2,longest-square-streak-in-an-array,0,0
 2502,Design Memory Allocator,2,design-memory-allocator,0,0
 2503,Maximum Number of Points From Grid Queries,3,maximum-number-of-points-from-grid-queries,0,0
+2504,Concatenate the Name and the Profession,1,concatenate-the-name-and-the-profession,1,0

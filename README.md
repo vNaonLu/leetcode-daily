@@ -2091,7 +2091,7 @@ My daily challenge on leetcode since 2021/09/06.
 ||2029|[Stone Game IX](https://leetcode.com/problems/stone-game-ix/)|Medium|
 ||2030|[Smallest K-Length Subsequence With Occurrences of a Letter](https://leetcode.com/problems/smallest-k-length-subsequence-with-occurrences-of-a-letter/)|Hard|
 |🔒|2031|[Count Subarrays With More Ones Than Zeros](https://leetcode.com/problems/count-subarrays-with-more-ones-than-zeros/)|Medium|
-||2032|[Two Out of Three](https://leetcode.com/problems/two-out-of-three/)|Easy|
+|[📎](src/q_2001_2050/q2032.cc)|2032|[Two Out of Three](https://leetcode.com/problems/two-out-of-three/)|Easy|
 ||2033|[Minimum Operations to Make a Uni-Value Grid](https://leetcode.com/problems/minimum-operations-to-make-a-uni-value-grid/)|Medium|
 ||2034|[Stock Price Fluctuation ](https://leetcode.com/problems/stock-price-fluctuation/)|Medium|
 ||2035|[Partition Array Into Two Arrays to Minimize Sum Difference](https://leetcode.com/problems/partition-array-into-two-arrays-to-minimize-sum-difference/)|Hard|
@@ -2568,13 +2568,14 @@ My daily challenge on leetcode since 2021/09/06.
 ||2500|[Delete Greatest Value in Each Row](https://leetcode.com/problems/delete-greatest-value-in-each-row/)|Easy|
 </details>
 <details>
-  <summary>### 2501 ~ 2503</summary>
+  <summary>### 2501 ~ 2504</summary>
 
 |</>|#|Solution Title|Difficulty|
 |:-:|--:|:--|:--|
 ||2501|[Longest Square Streak in an Array](https://leetcode.com/problems/longest-square-streak-in-an-array/)|Medium|
 ||2502|[Design Memory Allocator](https://leetcode.com/problems/design-memory-allocator/)|Medium|
 ||2503|[Maximum Number of Points From Grid Queries](https://leetcode.com/problems/maximum-number-of-points-from-grid-queries/)|Hard|
+|🔒|2504|[Concatenate the Name and the Profession](https://leetcode.com/problems/concatenate-the-name-and-the-profession/)|Easy|
 </details>
 
 ---
@@ -2582,6 +2583,7 @@ My daily challenge on leetcode since 2021/09/06.
 
 |Time|#|</>|Question Title|Difficulty|
 |:--|--:|:-:|:--|:--|
+|2022-12-12 19:51|2032|[📎](src/q_2001_2050/q2032.cc)|[Two Out of Three](https://leetcode.com/problems/two-out-of-three/)|Easy|
 |2022-12-11 18:54|2022|[📎](src/q_2001_2050/q2022.cc)|[Convert 1D Array Into 2D Array](https://leetcode.com/problems/convert-1d-array-into-2d-array/)|Easy|
 |2022-12-10 13:30|2000|[📎](src/q_1951_2000/q2000.cc)|[Reverse Prefix of Word](https://leetcode.com/problems/reverse-prefix-of-word/)|Easy|
 |2022-12-09 11:43|1971|[📎](src/q_1951_2000/q1971.cc)|[Find if Path Exists in Graph](https://leetcode.com/problems/find-if-path-exists-in-graph/)|Easy|
@@ -2606,13 +2608,12 @@ My daily challenge on leetcode since 2021/09/06.
 |2022-11-21 20:19|859|[📎](src/q_851_900/q0859.cc)|[Buddy Strings](https://leetcode.com/problems/buddy-strings/)|Easy|
 |2022-11-20 15:06|1037|[📎](src/q_1001_1050/q1037.cc)|[Valid Boomerang](https://leetcode.com/problems/valid-boomerang/)|Easy|
 |2022-11-19 14:27|587|[📎](src/q_551_600/q0587.cc)|[Erect the Fence](https://leetcode.com/problems/erect-the-fence/)|Hard|
-|2022-11-18 10:09|908|[📎](src/q_901_950/q0908.cc)|[Smallest Range I](https://leetcode.com/problems/smallest-range-i/)|Easy|
 
 ## Previous Logs
 
 |Month|Submissions|Easy|Medium|Hard|
 |:--|:--|:--|:--|:--|
-|[December_2022](./assets/December_2022.md)|12|10|2|0|
+|[December_2022](./assets/December_2022.md)|13|11|2|0|
 |[November_2022](./assets/November_2022.md)|30|21|6|3|
 |[October_2022](./assets/October_2022.md)|33|22|7|4|
 |[September_2022](./assets/September_2022.md)|38|10|19|9|
