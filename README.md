@@ -1978,7 +1978,7 @@ My daily challenge on leetcode since 2021/09/06.
 ||1922|[Count Good Numbers](https://leetcode.com/problems/count-good-numbers/)|Medium|
 ||1923|[Longest Common Subpath](https://leetcode.com/problems/longest-common-subpath/)|Hard|
 |🔒|1924|[Erect the Fence II](https://leetcode.com/problems/erect-the-fence-ii/)|Hard|
-||1925|[Count Square Sum Triples](https://leetcode.com/problems/count-square-sum-triples/)|Easy|
+|[📎](src/q_1901_1950/q1925.cc)|1925|[Count Square Sum Triples](https://leetcode.com/problems/count-square-sum-triples/)|Easy|
 |[📎](src/q_1901_1950/q1926.cc)|1926|[Nearest Exit from Entrance in Maze](https://leetcode.com/problems/nearest-exit-from-entrance-in-maze/)|Medium|
 ||1927|[Sum Game](https://leetcode.com/problems/sum-game/)|Medium|
 ||1928|[Minimum Cost to Reach Destination in Time](https://leetcode.com/problems/minimum-cost-to-reach-destination-in-time/)|Hard|
@@ -2583,6 +2583,7 @@ My daily challenge on leetcode since 2021/09/06.
 
 |Time|#|</>|Question Title|Difficulty|
 |:--|--:|:-:|:--|:--|
+|2022-12-13 19:38|1925|[📎](src/q_1901_1950/q1925.cc)|[Count Square Sum Triples](https://leetcode.com/problems/count-square-sum-triples/)|Easy|
 |2022-12-12 19:51|2032|[📎](src/q_2001_2050/q2032.cc)|[Two Out of Three](https://leetcode.com/problems/two-out-of-three/)|Easy|
 |2022-12-11 18:54|2022|[📎](src/q_2001_2050/q2022.cc)|[Convert 1D Array Into 2D Array](https://leetcode.com/problems/convert-1d-array-into-2d-array/)|Easy|
 |2022-12-10 13:30|2000|[📎](src/q_1951_2000/q2000.cc)|[Reverse Prefix of Word](https://leetcode.com/problems/reverse-prefix-of-word/)|Easy|
@@ -2607,13 +2608,12 @@ My daily challenge on leetcode since 2021/09/06.
 |2022-11-22 18:04|812|[📎](src/q_801_850/q0812.cc)|[Largest Triangle Area](https://leetcode.com/problems/largest-triangle-area/)|Easy|
 |2022-11-21 20:19|859|[📎](src/q_851_900/q0859.cc)|[Buddy Strings](https://leetcode.com/problems/buddy-strings/)|Easy|
 |2022-11-20 15:06|1037|[📎](src/q_1001_1050/q1037.cc)|[Valid Boomerang](https://leetcode.com/problems/valid-boomerang/)|Easy|
-|2022-11-19 14:27|587|[📎](src/q_551_600/q0587.cc)|[Erect the Fence](https://leetcode.com/problems/erect-the-fence/)|Hard|
 
 ## Previous Logs
 
 |Month|Submissions|Easy|Medium|Hard|
 |:--|:--|:--|:--|:--|
-|[December_2022](./assets/December_2022.md)|13|11|2|0|
+|[December_2022](./assets/December_2022.md)|14|12|2|0|
 |[November_2022](./assets/November_2022.md)|30|21|6|3|
 |[October_2022](./assets/October_2022.md)|33|22|7|4|
 |[September_2022](./assets/September_2022.md)|38|10|19|9|

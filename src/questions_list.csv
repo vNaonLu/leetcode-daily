@@ -1923,7 +1923,7 @@ id,title,level,slug,paid,done
 1922,Count Good Numbers,2,count-good-numbers,0,0
 1923,Longest Common Subpath,3,longest-common-subpath,0,0
 1924,Erect the Fence II,3,erect-the-fence-ii,1,0
-1925,Count Square Sum Triples,1,count-square-sum-triples,0,0
+1925,Count Square Sum Triples,1,count-square-sum-triples,0,1
 1926,Nearest Exit from Entrance in Maze,2,nearest-exit-from-entrance-in-maze,0,1
 1927,Sum Game,2,sum-game,0,0
 1928,Minimum Cost to Reach Destination in Time,3,minimum-cost-to-reach-destination-in-time,0,0
