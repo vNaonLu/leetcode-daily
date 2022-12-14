@@ -1782,7 +1782,7 @@ id,title,level,slug,paid,done
 1781,Sum of Beauty of All Substrings,2,sum-of-beauty-of-all-substrings,0,0
 1782,Count Pairs Of Nodes,3,count-pairs-of-nodes,0,0
 1783,Grand Slam Titles,2,grand-slam-titles,1,0
-1784,Check if Binary String Has at Most One Segment of Ones,1,check-if-binary-string-has-at-most-one-segment-of-ones,0,0
+1784,Check if Binary String Has at Most One Segment of Ones,1,check-if-binary-string-has-at-most-one-segment-of-ones,0,1
 1785,Minimum Elements to Add to Form a Given Sum,2,minimum-elements-to-add-to-form-a-given-sum,0,0
 1786,Number of Restricted Paths From First to Last Node,2,number-of-restricted-paths-from-first-to-last-node,0,1
 1787,Make the XOR of All Segments Equal to Zero,3,make-the-xor-of-all-segments-equal-to-zero,0,0
