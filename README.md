@@ -1869,7 +1869,7 @@ My daily challenge on leetcode since 2021/09/06.
 ||1813|[Sentence Similarity III](https://leetcode.com/problems/sentence-similarity-iii/)|Medium|
 ||1814|[Count Nice Pairs in an Array](https://leetcode.com/problems/count-nice-pairs-in-an-array/)|Medium|
 ||1815|[Maximum Number of Groups Getting Fresh Donuts](https://leetcode.com/problems/maximum-number-of-groups-getting-fresh-donuts/)|Hard|
-||1816|[Truncate Sentence](https://leetcode.com/problems/truncate-sentence/)|Easy|
+|[📎](src/q_1801_1850/q1816.cc)|1816|[Truncate Sentence](https://leetcode.com/problems/truncate-sentence/)|Easy|
 ||1817|[Finding the Users Active Minutes](https://leetcode.com/problems/finding-the-users-active-minutes/)|Medium|
 |[📎](src/q_1801_1850/q1818.cc)|1818|[Minimum Absolute Sum Difference](https://leetcode.com/problems/minimum-absolute-sum-difference/)|Medium|
 ||1819|[Number of Different Subsequences GCDs](https://leetcode.com/problems/number-of-different-subsequences-gcds/)|Hard|
@@ -2568,7 +2568,7 @@ My daily challenge on leetcode since 2021/09/06.
 ||2500|[Delete Greatest Value in Each Row](https://leetcode.com/problems/delete-greatest-value-in-each-row/)|Easy|
 </details>
 <details>
-  <summary>### 2501 ~ 2504</summary>
+  <summary>### 2501 ~ 2505</summary>
 
 |</>|#|Solution Title|Difficulty|
 |:-:|--:|:--|:--|
@@ -2576,6 +2576,7 @@ My daily challenge on leetcode since 2021/09/06.
 ||2502|[Design Memory Allocator](https://leetcode.com/problems/design-memory-allocator/)|Medium|
 ||2503|[Maximum Number of Points From Grid Queries](https://leetcode.com/problems/maximum-number-of-points-from-grid-queries/)|Hard|
 |🔒|2504|[Concatenate the Name and the Profession](https://leetcode.com/problems/concatenate-the-name-and-the-profession/)|Easy|
+|🔒|2505|[Bitwise OR of All Subsequence Sums](https://leetcode.com/problems/bitwise-or-of-all-subsequence-sums/)|Medium|
 </details>
 
 ---
@@ -2583,6 +2584,7 @@ My daily challenge on leetcode since 2021/09/06.
 
 |Time|#|</>|Question Title|Difficulty|
 |:--|--:|:-:|:--|:--|
+|2022-12-15 10:20|1816|[📎](src/q_1801_1850/q1816.cc)|[Truncate Sentence](https://leetcode.com/problems/truncate-sentence/)|Easy|
 |2022-12-14 17:37|1784|[📎](src/q_1751_1800/q1784.cc)|[Check if Binary String Has at Most One Segment of Ones](https://leetcode.com/problems/check-if-binary-string-has-at-most-one-segment-of-ones/)|Easy|
 |2022-12-13 19:38|1925|[📎](src/q_1901_1950/q1925.cc)|[Count Square Sum Triples](https://leetcode.com/problems/count-square-sum-triples/)|Easy|
 |2022-12-12 19:51|2032|[📎](src/q_2001_2050/q2032.cc)|[Two Out of Three](https://leetcode.com/problems/two-out-of-three/)|Easy|
@@ -2607,13 +2609,12 @@ My daily challenge on leetcode since 2021/09/06.
 |2022-11-24 10:40|657|[📎](src/q_651_700/q0657.cc)|[Robot Return to Origin](https://leetcode.com/problems/robot-return-to-origin/)|Easy|
 |2022-11-23 19:15|914|[📎](src/q_901_950/q0914.cc)|[X of a Kind in a Deck of Cards](https://leetcode.com/problems/x-of-a-kind-in-a-deck-of-cards/)|Easy|
 |2022-11-22 18:04|812|[📎](src/q_801_850/q0812.cc)|[Largest Triangle Area](https://leetcode.com/problems/largest-triangle-area/)|Easy|
-|2022-11-21 20:19|859|[📎](src/q_851_900/q0859.cc)|[Buddy Strings](https://leetcode.com/problems/buddy-strings/)|Easy|
 
 ## Previous Logs
 
 |Month|Submissions|Easy|Medium|Hard|
 |:--|:--|:--|:--|:--|
-|[December_2022](./assets/December_2022.md)|15|13|2|0|
+|[December_2022](./assets/December_2022.md)|16|14|2|0|
 |[November_2022](./assets/November_2022.md)|30|21|6|3|
 |[October_2022](./assets/October_2022.md)|33|22|7|4|
 |[September_2022](./assets/September_2022.md)|38|10|19|9|

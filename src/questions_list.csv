@@ -1814,7 +1814,7 @@ id,title,level,slug,paid,done
 1813,Sentence Similarity III,2,sentence-similarity-iii,0,0
 1814,Count Nice Pairs in an Array,2,count-nice-pairs-in-an-array,0,0
 1815,Maximum Number of Groups Getting Fresh Donuts,3,maximum-number-of-groups-getting-fresh-donuts,0,0
-1816,Truncate Sentence,1,truncate-sentence,0,0
+1816,Truncate Sentence,1,truncate-sentence,0,1
 1817,Finding the Users Active Minutes,2,finding-the-users-active-minutes,0,0
 1818,Minimum Absolute Sum Difference,2,minimum-absolute-sum-difference,0,1
 1819,Number of Different Subsequences GCDs,3,number-of-different-subsequences-gcds,0,0
@@ -2503,3 +2503,4 @@ id,title,level,slug,paid,done
 2502,Design Memory Allocator,2,design-memory-allocator,0,0
 2503,Maximum Number of Points From Grid Queries,3,maximum-number-of-points-from-grid-queries,0,0
 2504,Concatenate the Name and the Profession,1,concatenate-the-name-and-the-profession,1,0
+2505,Bitwise OR of All Subsequence Sums,2,bitwise-or-of-all-subsequence-sums,1,0
