@@ -1763,7 +1763,7 @@ My daily challenge on leetcode since 2021/09/06.
 ||1713|[Minimum Operations to Make a Subsequence](https://leetcode.com/problems/minimum-operations-to-make-a-subsequence/)|Hard|
 |🔒|1714|[Sum Of Special Evenly-Spaced Elements In Array](https://leetcode.com/problems/sum-of-special-evenly-spaced-elements-in-array/)|Hard|
 |🔒|1715|[Count Apples and Oranges](https://leetcode.com/problems/count-apples-and-oranges/)|Medium|
-||1716|[Calculate Money in Leetcode Bank](https://leetcode.com/problems/calculate-money-in-leetcode-bank/)|Easy|
+|[📎](src/q_1701_1750/q1716.cc)|1716|[Calculate Money in Leetcode Bank](https://leetcode.com/problems/calculate-money-in-leetcode-bank/)|Easy|
 ||1717|[Maximum Score From Removing Substrings](https://leetcode.com/problems/maximum-score-from-removing-substrings/)|Medium|
 ||1718|[Construct the Lexicographically Largest Valid Sequence](https://leetcode.com/problems/construct-the-lexicographically-largest-valid-sequence/)|Medium|
 ||1719|[Number Of Ways To Reconstruct A Tree](https://leetcode.com/problems/number-of-ways-to-reconstruct-a-tree/)|Hard|
@@ -2584,6 +2584,7 @@ My daily challenge on leetcode since 2021/09/06.
 
 |Time|#|</>|Question Title|Difficulty|
 |:--|--:|:-:|:--|:--|
+|2022-12-17 13:03|1716|[📎](src/q_1701_1750/q1716.cc)|[Calculate Money in Leetcode Bank](https://leetcode.com/problems/calculate-money-in-leetcode-bank/)|Easy|
 |2022-12-16 18:30|1748|[📎](src/q_1701_1750/q1748.cc)|[Sum of Unique Elements](https://leetcode.com/problems/sum-of-unique-elements/)|Easy|
 |2022-12-15 10:20|1816|[📎](src/q_1801_1850/q1816.cc)|[Truncate Sentence](https://leetcode.com/problems/truncate-sentence/)|Easy|
 |2022-12-14 17:37|1784|[📎](src/q_1751_1800/q1784.cc)|[Check if Binary String Has at Most One Segment of Ones](https://leetcode.com/problems/check-if-binary-string-has-at-most-one-segment-of-ones/)|Easy|
@@ -2608,13 +2609,12 @@ My daily challenge on leetcode since 2021/09/06.
 |2022-11-26 16:08|1470|[📎](src/q_1451_1500/q1470.cc)|[Shuffle the Array](https://leetcode.com/problems/shuffle-the-array/)|Easy|
 |2022-11-25 10:52|530|[📎](src/q_501_550/q0530.cc)|[Minimum Absolute Difference in BST](https://leetcode.com/problems/minimum-absolute-difference-in-bst/)|Easy|
 |2022-11-24 10:40|657|[📎](src/q_651_700/q0657.cc)|[Robot Return to Origin](https://leetcode.com/problems/robot-return-to-origin/)|Easy|
-|2022-11-23 19:15|914|[📎](src/q_901_950/q0914.cc)|[X of a Kind in a Deck of Cards](https://leetcode.com/problems/x-of-a-kind-in-a-deck-of-cards/)|Easy|
 
 ## Previous Logs
 
 |Month|Submissions|Easy|Medium|Hard|
 |:--|:--|:--|:--|:--|
-|[December_2022](./assets/December_2022.md)|17|15|2|0|
+|[December_2022](./assets/December_2022.md)|18|16|2|0|
 |[November_2022](./assets/November_2022.md)|30|21|6|3|
 |[October_2022](./assets/October_2022.md)|33|22|7|4|
 |[September_2022](./assets/September_2022.md)|38|10|19|9|

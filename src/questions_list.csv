@@ -1714,7 +1714,7 @@ id,title,level,slug,paid,done
 1713,Minimum Operations to Make a Subsequence,3,minimum-operations-to-make-a-subsequence,0,0
 1714,Sum Of Special Evenly-Spaced Elements In Array,3,sum-of-special-evenly-spaced-elements-in-array,1,0
 1715,Count Apples and Oranges,2,count-apples-and-oranges,1,0
-1716,Calculate Money in Leetcode Bank,1,calculate-money-in-leetcode-bank,0,0
+1716,Calculate Money in Leetcode Bank,1,calculate-money-in-leetcode-bank,0,1
 1717,Maximum Score From Removing Substrings,2,maximum-score-from-removing-substrings,0,0
 1718,Construct the Lexicographically Largest Valid Sequence,2,construct-the-lexicographically-largest-valid-sequence,0,0
 1719,Number Of Ways To Reconstruct A Tree,3,number-of-ways-to-reconstruct-a-tree,0,0
