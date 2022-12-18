@@ -1666,7 +1666,7 @@ id,title,level,slug,paid,done
 1665,Minimum Initial Energy to Finish Tasks,3,minimum-initial-energy-to-finish-tasks,0,0
 1666,Change the Root of a Binary Tree,2,change-the-root-of-a-binary-tree,1,0
 1667,Fix Names in a Table,1,fix-names-in-a-table,0,0
-1668,Maximum Repeating Substring,1,maximum-repeating-substring,0,0
+1668,Maximum Repeating Substring,1,maximum-repeating-substring,0,1
 1669,Merge In Between Linked Lists,2,merge-in-between-linked-lists,0,0
 1670,Design Front Middle Back Queue,2,design-front-middle-back-queue,0,0
 1671,Minimum Number of Removals to Make Mountain Array,3,minimum-number-of-removals-to-make-mountain-array,0,0
@@ -2504,3 +2504,7 @@ id,title,level,slug,paid,done
 2503,Maximum Number of Points From Grid Queries,3,maximum-number-of-points-from-grid-queries,0,0
 2504,Concatenate the Name and the Profession,1,concatenate-the-name-and-the-profession,1,0
 2505,Bitwise OR of All Subsequence Sums,2,bitwise-or-of-all-subsequence-sums,1,0
+2506,Count Pairs Of Similar Strings,1,count-pairs-of-similar-strings,0,0
+2507,Smallest Value After Replacing With Sum of Prime Factors,2,smallest-value-after-replacing-with-sum-of-prime-factors,0,0
+2508,Add Edges to Make Degrees of All Nodes Even,3,add-edges-to-make-degrees-of-all-nodes-even,0,0
+2509,Cycle Length Queries in a Tree,3,cycle-length-queries-in-a-tree,0,0

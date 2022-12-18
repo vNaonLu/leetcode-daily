@@ -1715,7 +1715,7 @@ My daily challenge on leetcode since 2021/09/06.
 ||1665|[Minimum Initial Energy to Finish Tasks](https://leetcode.com/problems/minimum-initial-energy-to-finish-tasks/)|Hard|
 |🔒|1666|[Change the Root of a Binary Tree](https://leetcode.com/problems/change-the-root-of-a-binary-tree/)|Medium|
 ||1667|[Fix Names in a Table](https://leetcode.com/problems/fix-names-in-a-table/)|Easy|
-||1668|[Maximum Repeating Substring](https://leetcode.com/problems/maximum-repeating-substring/)|Easy|
+|[📎](src/q_1651_1700/q1668.cc)|1668|[Maximum Repeating Substring](https://leetcode.com/problems/maximum-repeating-substring/)|Easy|
 ||1669|[Merge In Between Linked Lists](https://leetcode.com/problems/merge-in-between-linked-lists/)|Medium|
 ||1670|[Design Front Middle Back Queue](https://leetcode.com/problems/design-front-middle-back-queue/)|Medium|
 ||1671|[Minimum Number of Removals to Make Mountain Array](https://leetcode.com/problems/minimum-number-of-removals-to-make-mountain-array/)|Hard|
@@ -2568,7 +2568,7 @@ My daily challenge on leetcode since 2021/09/06.
 ||2500|[Delete Greatest Value in Each Row](https://leetcode.com/problems/delete-greatest-value-in-each-row/)|Easy|
 </details>
 <details>
-  <summary>### 2501 ~ 2505</summary>
+  <summary>### 2501 ~ 2509</summary>
 
 |</>|#|Solution Title|Difficulty|
 |:-:|--:|:--|:--|
@@ -2577,6 +2577,10 @@ My daily challenge on leetcode since 2021/09/06.
 ||2503|[Maximum Number of Points From Grid Queries](https://leetcode.com/problems/maximum-number-of-points-from-grid-queries/)|Hard|
 |🔒|2504|[Concatenate the Name and the Profession](https://leetcode.com/problems/concatenate-the-name-and-the-profession/)|Easy|
 |🔒|2505|[Bitwise OR of All Subsequence Sums](https://leetcode.com/problems/bitwise-or-of-all-subsequence-sums/)|Medium|
+||2506|[Count Pairs Of Similar Strings](https://leetcode.com/problems/count-pairs-of-similar-strings/)|Easy|
+||2507|[Smallest Value After Replacing With Sum of Prime Factors](https://leetcode.com/problems/smallest-value-after-replacing-with-sum-of-prime-factors/)|Medium|
+||2508|[Add Edges to Make Degrees of All Nodes Even](https://leetcode.com/problems/add-edges-to-make-degrees-of-all-nodes-even/)|Hard|
+||2509|[Cycle Length Queries in a Tree](https://leetcode.com/problems/cycle-length-queries-in-a-tree/)|Hard|
 </details>
 
 ---
@@ -2584,6 +2588,7 @@ My daily challenge on leetcode since 2021/09/06.
 
 |Time|#|</>|Question Title|Difficulty|
 |:--|--:|:-:|:--|:--|
+|2022-12-18 13:45|1668|[📎](src/q_1651_1700/q1668.cc)|[Maximum Repeating Substring](https://leetcode.com/problems/maximum-repeating-substring/)|Easy|
 |2022-12-17 13:03|1716|[📎](src/q_1701_1750/q1716.cc)|[Calculate Money in Leetcode Bank](https://leetcode.com/problems/calculate-money-in-leetcode-bank/)|Easy|
 |2022-12-16 18:30|1748|[📎](src/q_1701_1750/q1748.cc)|[Sum of Unique Elements](https://leetcode.com/problems/sum-of-unique-elements/)|Easy|
 |2022-12-15 10:20|1816|[📎](src/q_1801_1850/q1816.cc)|[Truncate Sentence](https://leetcode.com/problems/truncate-sentence/)|Easy|
@@ -2608,13 +2613,12 @@ My daily challenge on leetcode since 2021/09/06.
 |2022-11-27 16:24|1287|[📎](src/q_1251_1300/q1287.cc)|[Element Appearing More Than 25% In Sorted Array](https://leetcode.com/problems/element-appearing-more-than-25-in-sorted-array/)|Easy|
 |2022-11-26 16:08|1470|[📎](src/q_1451_1500/q1470.cc)|[Shuffle the Array](https://leetcode.com/problems/shuffle-the-array/)|Easy|
 |2022-11-25 10:52|530|[📎](src/q_501_550/q0530.cc)|[Minimum Absolute Difference in BST](https://leetcode.com/problems/minimum-absolute-difference-in-bst/)|Easy|
-|2022-11-24 10:40|657|[📎](src/q_651_700/q0657.cc)|[Robot Return to Origin](https://leetcode.com/problems/robot-return-to-origin/)|Easy|
 
 ## Previous Logs
 
 |Month|Submissions|Easy|Medium|Hard|
 |:--|:--|:--|:--|:--|
-|[December_2022](./assets/December_2022.md)|18|16|2|0|
+|[December_2022](./assets/December_2022.md)|19|17|2|0|
 |[November_2022](./assets/November_2022.md)|30|21|6|3|
 |[October_2022](./assets/October_2022.md)|33|22|7|4|
 |[September_2022](./assets/September_2022.md)|38|10|19|9|
