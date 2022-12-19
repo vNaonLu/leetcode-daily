@@ -1650,7 +1650,7 @@ id,title,level,slug,paid,done
 1649,Create Sorted Array through Instructions,3,create-sorted-array-through-instructions,0,0
 1650,Lowest Common Ancestor of a Binary Tree III,2,lowest-common-ancestor-of-a-binary-tree-iii,1,0
 1651,Hopper Company Queries III,3,hopper-company-queries-iii,1,0
-1652,Defuse the Bomb,1,defuse-the-bomb,0,0
+1652,Defuse the Bomb,1,defuse-the-bomb,0,1
 1653,Minimum Deletions to Make String Balanced,2,minimum-deletions-to-make-string-balanced,0,0
 1654,Minimum Jumps to Reach Home,2,minimum-jumps-to-reach-home,0,1
 1655,Distribute Repeating Integers,3,distribute-repeating-integers,0,0
