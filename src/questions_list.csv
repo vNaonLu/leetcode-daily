@@ -1835,7 +1835,7 @@ id,title,level,slug,paid,done
 1834,Single-Threaded CPU,2,single-threaded-cpu,0,0
 1835,Find XOR Sum of All Pairs Bitwise AND,3,find-xor-sum-of-all-pairs-bitwise-and,0,0
 1836,Remove Duplicates From an Unsorted Linked List,2,remove-duplicates-from-an-unsorted-linked-list,1,0
-1837,Sum of Digits in Base K,1,sum-of-digits-in-base-k,0,0
+1837,Sum of Digits in Base K,1,sum-of-digits-in-base-k,0,1
 1838,Frequency of the Most Frequent Element,2,frequency-of-the-most-frequent-element,0,1
 1839,Longest Substring Of All Vowels in Order,2,longest-substring-of-all-vowels-in-order,0,0
 1840,Maximum Building Height,3,maximum-building-height,0,0

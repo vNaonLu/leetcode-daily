@@ -2,6 +2,7 @@
 
 ||#|</>|Question Title|Difficulty|
 |:--|--:|:-:|:--|:--|
+|Day 20|1837|[📎](../src/q_1801_1850/q1837.cc)|[Sum of Digits in Base K](https://leetcode.com/problems/sum-of-digits-in-base-k/)|Easy|
 |Day 19|1652|[📎](../src/q_1651_1700/q1652.cc)|[Defuse the Bomb](https://leetcode.com/problems/defuse-the-bomb/)|Easy|
 |Day 18|1668|[📎](../src/q_1651_1700/q1668.cc)|[Maximum Repeating Substring](https://leetcode.com/problems/maximum-repeating-substring/)|Easy|
 |Day 17|1716|[📎](../src/q_1701_1750/q1716.cc)|[Calculate Money in Leetcode Bank](https://leetcode.com/problems/calculate-money-in-leetcode-bank/)|Easy|
