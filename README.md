@@ -1731,7 +1731,7 @@ My daily challenge on leetcode since 2021/09/06.
 ||1681|[Minimum Incompatibility](https://leetcode.com/problems/minimum-incompatibility/)|Hard|
 |🔒|1682|[Longest Palindromic Subsequence II](https://leetcode.com/problems/longest-palindromic-subsequence-ii/)|Medium|
 |🔒|1683|[Invalid Tweets](https://leetcode.com/problems/invalid-tweets/)|Easy|
-||1684|[Count the Number of Consistent Strings](https://leetcode.com/problems/count-the-number-of-consistent-strings/)|Easy|
+|[📎](src/q_1651_1700/q1684.cc)|1684|[Count the Number of Consistent Strings](https://leetcode.com/problems/count-the-number-of-consistent-strings/)|Easy|
 ||1685|[Sum of Absolute Differences in a Sorted Array](https://leetcode.com/problems/sum-of-absolute-differences-in-a-sorted-array/)|Medium|
 ||1686|[Stone Game VI](https://leetcode.com/problems/stone-game-vi/)|Medium|
 ||1687|[Delivering Boxes from Storage to Ports](https://leetcode.com/problems/delivering-boxes-from-storage-to-ports/)|Hard|
@@ -2588,6 +2588,7 @@ My daily challenge on leetcode since 2021/09/06.
 
 |Time|#|</>|Question Title|Difficulty|
 |:--|--:|:-:|:--|:--|
+|2022-12-21 20:29|1684|[📎](src/q_1651_1700/q1684.cc)|[Count the Number of Consistent Strings](https://leetcode.com/problems/count-the-number-of-consistent-strings/)|Easy|
 |2022-12-20 18:35|1837|[📎](src/q_1801_1850/q1837.cc)|[Sum of Digits in Base K](https://leetcode.com/problems/sum-of-digits-in-base-k/)|Easy|
 |2022-12-19 21:04|1652|[📎](src/q_1651_1700/q1652.cc)|[Defuse the Bomb](https://leetcode.com/problems/defuse-the-bomb/)|Easy|
 |2022-12-18 13:45|1668|[📎](src/q_1651_1700/q1668.cc)|[Maximum Repeating Substring](https://leetcode.com/problems/maximum-repeating-substring/)|Easy|
@@ -2612,13 +2613,12 @@ My daily challenge on leetcode since 2021/09/06.
 |2022-11-30 12:55|1207|[📎](src/q_1201_1250/q1207.cc)|[Unique Number of Occurrences](https://leetcode.com/problems/unique-number-of-occurrences/)|Easy|
 |2022-11-29 18:27|1252|[📎](src/q_1251_1300/q1252.cc)|[Cells with Odd Values in a Matrix](https://leetcode.com/problems/cells-with-odd-values-in-a-matrix/)|Easy|
 |2022-11-29 18:03|2225|[📎](src/q_2201_2250/q2225.cc)|[Find Players With Zero or One Losses](https://leetcode.com/problems/find-players-with-zero-or-one-losses/)|Medium|
-|2022-11-27 16:24|1287|[📎](src/q_1251_1300/q1287.cc)|[Element Appearing More Than 25% In Sorted Array](https://leetcode.com/problems/element-appearing-more-than-25-in-sorted-array/)|Easy|
 
 ## Previous Logs
 
 |Month|Submissions|Easy|Medium|Hard|
 |:--|:--|:--|:--|:--|
-|[December_2022](./assets/December_2022.md)|21|19|2|0|
+|[December_2022](./assets/December_2022.md)|22|20|2|0|
 |[November_2022](./assets/November_2022.md)|30|21|6|3|
 |[October_2022](./assets/October_2022.md)|33|22|7|4|
 |[September_2022](./assets/September_2022.md)|38|10|19|9|

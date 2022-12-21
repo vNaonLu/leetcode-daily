@@ -1682,7 +1682,7 @@ id,title,level,slug,paid,done
 1681,Minimum Incompatibility,3,minimum-incompatibility,0,0
 1682,Longest Palindromic Subsequence II,2,longest-palindromic-subsequence-ii,1,0
 1683,Invalid Tweets,1,invalid-tweets,1,0
-1684,Count the Number of Consistent Strings,1,count-the-number-of-consistent-strings,0,0
+1684,Count the Number of Consistent Strings,1,count-the-number-of-consistent-strings,0,1
 1685,Sum of Absolute Differences in a Sorted Array,2,sum-of-absolute-differences-in-a-sorted-array,0,0
 1686,Stone Game VI,2,stone-game-vi,0,0
 1687,Delivering Boxes from Storage to Ports,3,delivering-boxes-from-storage-to-ports,0,0
