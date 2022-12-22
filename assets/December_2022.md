@@ -2,6 +2,7 @@
 
 ||#|</>|Question Title|Difficulty|
 |:--|--:|:-:|:--|:--|
+|Day 22|1859|[📎](../src/q_1851_1900/q1859.cc)|[Sorting the Sentence](https://leetcode.com/problems/sorting-the-sentence/)|Easy|
 |Day 21|1684|[📎](../src/q_1651_1700/q1684.cc)|[Count the Number of Consistent Strings](https://leetcode.com/problems/count-the-number-of-consistent-strings/)|Easy|
 |Day 20|1837|[📎](../src/q_1801_1850/q1837.cc)|[Sum of Digits in Base K](https://leetcode.com/problems/sum-of-digits-in-base-k/)|Easy|
 |Day 19|1652|[📎](../src/q_1651_1700/q1652.cc)|[Defuse the Bomb](https://leetcode.com/problems/defuse-the-bomb/)|Easy|

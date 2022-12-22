@@ -489,7 +489,7 @@ id,title,level,slug,paid,done
 488,Zuma Game,3,zuma-game,0,0
 489,Robot Room Cleaner,3,robot-room-cleaner,1,0
 490,The Maze,2,the-maze,1,0
-491,Increasing Subsequences,2,increasing-subsequences,0,0
+491,Non-decreasing Subsequences,2,non-decreasing-subsequences,0,0
 492,Construct the Rectangle,1,construct-the-rectangle,0,1
 493,Reverse Pairs,3,reverse-pairs,0,0
 494,Target Sum,2,target-sum,0,0
@@ -1857,7 +1857,7 @@ id,title,level,slug,paid,done
 1856,Maximum Subarray Min-Product,2,maximum-subarray-min-product,0,0
 1857,Largest Color Value in a Directed Graph,3,largest-color-value-in-a-directed-graph,0,0
 1858,Longest Word With All Prefixes,2,longest-word-with-all-prefixes,1,0
-1859,Sorting the Sentence,1,sorting-the-sentence,0,0
+1859,Sorting the Sentence,1,sorting-the-sentence,0,1
 1860,Incremental Memory Leak,2,incremental-memory-leak,0,0
 1861,Rotating the Box,2,rotating-the-box,0,0
 1862,Sum of Floored Pairs,3,sum-of-floored-pairs,0,0
@@ -2508,3 +2508,4 @@ id,title,level,slug,paid,done
 2507,Smallest Value After Replacing With Sum of Prime Factors,2,smallest-value-after-replacing-with-sum-of-prime-factors,0,0
 2508,Add Edges to Make Degrees of All Nodes Even,3,add-edges-to-make-degrees-of-all-nodes-even,0,0
 2509,Cycle Length Queries in a Tree,3,cycle-length-queries-in-a-tree,0,0
+2510,Check if There is a Path With Equal Number of 0's And 1's,2,check-if-there-is-a-path-with-equal-number-of-0s-and-1s,1,0
