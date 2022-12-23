@@ -1730,7 +1730,7 @@ id,title,level,slug,paid,done
 1729,Find Followers Count,1,find-followers-count,0,0
 1730,Shortest Path to Get Food,2,shortest-path-to-get-food,1,0
 1731,The Number of Employees Which Report to Each Employee,1,the-number-of-employees-which-report-to-each-employee,1,0
-1732,Find the Highest Altitude,1,find-the-highest-altitude,0,0
+1732,Find the Highest Altitude,1,find-the-highest-altitude,0,1
 1733,Minimum Number of People to Teach,2,minimum-number-of-people-to-teach,0,0
 1734,Decode XORed Permutation,2,decode-xored-permutation,0,0
 1735,Count Ways to Make Array With Product,3,count-ways-to-make-array-with-product,0,0
