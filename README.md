@@ -2005,7 +2005,7 @@ My daily challenge on leetcode since 2021/09/06.
 |🔒|1949|[Strong Friendship](https://leetcode.com/problems/strong-friendship/)|Medium|
 |🔒|1950|[Maximum of Minimum Values in All Subarrays](https://leetcode.com/problems/maximum-of-minimum-values-in-all-subarrays/)|Medium|
 |🔒|1951|[All the Pairs With the Maximum Number of Common Followers](https://leetcode.com/problems/all-the-pairs-with-the-maximum-number-of-common-followers/)|Medium|
-||1952|[Three Divisors](https://leetcode.com/problems/three-divisors/)|Easy|
+|[📎](src/q_1951_2000/q1952.cc)|1952|[Three Divisors](https://leetcode.com/problems/three-divisors/)|Easy|
 ||1953|[Maximum Number of Weeks for Which You Can Work](https://leetcode.com/problems/maximum-number-of-weeks-for-which-you-can-work/)|Medium|
 ||1954|[Minimum Garden Perimeter to Collect Enough Apples](https://leetcode.com/problems/minimum-garden-perimeter-to-collect-enough-apples/)|Medium|
 ||1955|[Count Number of Special Subsequences](https://leetcode.com/problems/count-number-of-special-subsequences/)|Hard|
@@ -2589,6 +2589,7 @@ My daily challenge on leetcode since 2021/09/06.
 
 |Time|#|</>|Question Title|Difficulty|
 |:--|--:|:-:|:--|:--|
+|2022-12-24 14:41|1952|[📎](src/q_1951_2000/q1952.cc)|[Three Divisors](https://leetcode.com/problems/three-divisors/)|Easy|
 |2022-12-23 12:01|1732|[📎](src/q_1701_1750/q1732.cc)|[Find the Highest Altitude](https://leetcode.com/problems/find-the-highest-altitude/)|Easy|
 |2022-12-22 19:32|1859|[📎](src/q_1851_1900/q1859.cc)|[Sorting the Sentence](https://leetcode.com/problems/sorting-the-sentence/)|Easy|
 |2022-12-21 20:29|1684|[📎](src/q_1651_1700/q1684.cc)|[Count the Number of Consistent Strings](https://leetcode.com/problems/count-the-number-of-consistent-strings/)|Easy|
@@ -2613,13 +2614,12 @@ My daily challenge on leetcode since 2021/09/06.
 |2022-12-03 17:23|1160|[📎](src/q_1151_1200/q1160.cc)|[Find Words That Can Be Formed by Characters](https://leetcode.com/problems/find-words-that-can-be-formed-by-characters/)|Easy|
 |2022-12-02 18:06|1657|[📎](src/q_1651_1700/q1657.cc)|[Determine if Two Strings Are Close](https://leetcode.com/problems/determine-if-two-strings-are-close/)|Medium|
 |2022-12-01 20:19|1704|[📎](src/q_1701_1750/q1704.cc)|[Determine if String Halves Are Alike](https://leetcode.com/problems/determine-if-string-halves-are-alike/)|Easy|
-|2022-11-30 12:55|1207|[📎](src/q_1201_1250/q1207.cc)|[Unique Number of Occurrences](https://leetcode.com/problems/unique-number-of-occurrences/)|Easy|
 
 ## Previous Logs
 
 |Month|Submissions|Easy|Medium|Hard|
 |:--|:--|:--|:--|:--|
-|[December_2022](./assets/December_2022.md)|24|22|2|0|
+|[December_2022](./assets/December_2022.md)|25|23|2|0|
 |[November_2022](./assets/November_2022.md)|30|21|6|3|
 |[October_2022](./assets/October_2022.md)|33|22|7|4|
 |[September_2022](./assets/September_2022.md)|38|10|19|9|
