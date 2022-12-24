@@ -489,7 +489,7 @@ id,title,level,slug,paid,done
 488,Zuma Game,3,zuma-game,0,0
 489,Robot Room Cleaner,3,robot-room-cleaner,1,0
 490,The Maze,2,the-maze,1,0
-491,Increasing Subsequences,2,increasing-subsequences,0,0
+491,Non-decreasing Subsequences,2,non-decreasing-subsequences,0,0
 492,Construct the Rectangle,1,construct-the-rectangle,0,1
 493,Reverse Pairs,3,reverse-pairs,0,0
 494,Target Sum,2,target-sum,0,0
@@ -1650,7 +1650,7 @@ id,title,level,slug,paid,done
 1649,Create Sorted Array through Instructions,3,create-sorted-array-through-instructions,0,0
 1650,Lowest Common Ancestor of a Binary Tree III,2,lowest-common-ancestor-of-a-binary-tree-iii,1,0
 1651,Hopper Company Queries III,3,hopper-company-queries-iii,1,0
-1652,Defuse the Bomb,1,defuse-the-bomb,0,0
+1652,Defuse the Bomb,1,defuse-the-bomb,0,1
 1653,Minimum Deletions to Make String Balanced,2,minimum-deletions-to-make-string-balanced,0,0
 1654,Minimum Jumps to Reach Home,2,minimum-jumps-to-reach-home,0,1
 1655,Distribute Repeating Integers,3,distribute-repeating-integers,0,0
@@ -1666,7 +1666,7 @@ id,title,level,slug,paid,done
 1665,Minimum Initial Energy to Finish Tasks,3,minimum-initial-energy-to-finish-tasks,0,0
 1666,Change the Root of a Binary Tree,2,change-the-root-of-a-binary-tree,1,0
 1667,Fix Names in a Table,1,fix-names-in-a-table,0,0
-1668,Maximum Repeating Substring,1,maximum-repeating-substring,0,0
+1668,Maximum Repeating Substring,1,maximum-repeating-substring,0,1
 1669,Merge In Between Linked Lists,2,merge-in-between-linked-lists,0,0
 1670,Design Front Middle Back Queue,2,design-front-middle-back-queue,0,0
 1671,Minimum Number of Removals to Make Mountain Array,3,minimum-number-of-removals-to-make-mountain-array,0,0
@@ -1682,7 +1682,7 @@ id,title,level,slug,paid,done
 1681,Minimum Incompatibility,3,minimum-incompatibility,0,0
 1682,Longest Palindromic Subsequence II,2,longest-palindromic-subsequence-ii,1,0
 1683,Invalid Tweets,1,invalid-tweets,1,0
-1684,Count the Number of Consistent Strings,1,count-the-number-of-consistent-strings,0,0
+1684,Count the Number of Consistent Strings,1,count-the-number-of-consistent-strings,0,1
 1685,Sum of Absolute Differences in a Sorted Array,2,sum-of-absolute-differences-in-a-sorted-array,0,0
 1686,Stone Game VI,2,stone-game-vi,0,0
 1687,Delivering Boxes from Storage to Ports,3,delivering-boxes-from-storage-to-ports,0,0
@@ -1730,7 +1730,7 @@ id,title,level,slug,paid,done
 1729,Find Followers Count,1,find-followers-count,0,0
 1730,Shortest Path to Get Food,2,shortest-path-to-get-food,1,0
 1731,The Number of Employees Which Report to Each Employee,1,the-number-of-employees-which-report-to-each-employee,1,0
-1732,Find the Highest Altitude,1,find-the-highest-altitude,0,0
+1732,Find the Highest Altitude,1,find-the-highest-altitude,0,1
 1733,Minimum Number of People to Teach,2,minimum-number-of-people-to-teach,0,0
 1734,Decode XORed Permutation,2,decode-xored-permutation,0,0
 1735,Count Ways to Make Array With Product,3,count-ways-to-make-array-with-product,0,0
@@ -1835,7 +1835,7 @@ id,title,level,slug,paid,done
 1834,Single-Threaded CPU,2,single-threaded-cpu,0,0
 1835,Find XOR Sum of All Pairs Bitwise AND,3,find-xor-sum-of-all-pairs-bitwise-and,0,0
 1836,Remove Duplicates From an Unsorted Linked List,2,remove-duplicates-from-an-unsorted-linked-list,1,0
-1837,Sum of Digits in Base K,1,sum-of-digits-in-base-k,0,0
+1837,Sum of Digits in Base K,1,sum-of-digits-in-base-k,0,1
 1838,Frequency of the Most Frequent Element,2,frequency-of-the-most-frequent-element,0,1
 1839,Longest Substring Of All Vowels in Order,2,longest-substring-of-all-vowels-in-order,0,0
 1840,Maximum Building Height,3,maximum-building-height,0,0
@@ -1857,7 +1857,7 @@ id,title,level,slug,paid,done
 1856,Maximum Subarray Min-Product,2,maximum-subarray-min-product,0,0
 1857,Largest Color Value in a Directed Graph,3,largest-color-value-in-a-directed-graph,0,0
 1858,Longest Word With All Prefixes,2,longest-word-with-all-prefixes,1,0
-1859,Sorting the Sentence,1,sorting-the-sentence,0,0
+1859,Sorting the Sentence,1,sorting-the-sentence,0,1
 1860,Incremental Memory Leak,2,incremental-memory-leak,0,0
 1861,Rotating the Box,2,rotating-the-box,0,0
 1862,Sum of Floored Pairs,3,sum-of-floored-pairs,0,0
@@ -1950,7 +1950,7 @@ id,title,level,slug,paid,done
 1949,Strong Friendship,2,strong-friendship,1,0
 1950,Maximum of Minimum Values in All Subarrays,2,maximum-of-minimum-values-in-all-subarrays,1,0
 1951,All the Pairs With the Maximum Number of Common Followers,2,all-the-pairs-with-the-maximum-number-of-common-followers,1,0
-1952,Three Divisors,1,three-divisors,0,0
+1952,Three Divisors,1,three-divisors,0,1
 1953,Maximum Number of Weeks for Which You Can Work,2,maximum-number-of-weeks-for-which-you-can-work,0,0
 1954,Minimum Garden Perimeter to Collect Enough Apples,2,minimum-garden-perimeter-to-collect-enough-apples,0,0
 1955,Count Number of Special Subsequences,3,count-number-of-special-subsequences,0,0
@@ -2504,3 +2504,8 @@ id,title,level,slug,paid,done
 2503,Maximum Number of Points From Grid Queries,3,maximum-number-of-points-from-grid-queries,0,0
 2504,Concatenate the Name and the Profession,1,concatenate-the-name-and-the-profession,1,0
 2505,Bitwise OR of All Subsequence Sums,2,bitwise-or-of-all-subsequence-sums,1,0
+2506,Count Pairs Of Similar Strings,1,count-pairs-of-similar-strings,0,0
+2507,Smallest Value After Replacing With Sum of Prime Factors,2,smallest-value-after-replacing-with-sum-of-prime-factors,0,0
+2508,Add Edges to Make Degrees of All Nodes Even,3,add-edges-to-make-degrees-of-all-nodes-even,0,0
+2509,Cycle Length Queries in a Tree,3,cycle-length-queries-in-a-tree,0,0
+2510,Check if There is a Path With Equal Number of 0's And 1's,2,check-if-there-is-a-path-with-equal-number-of-0s-and-1s,1,0
