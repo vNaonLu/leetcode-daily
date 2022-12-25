@@ -2387,7 +2387,7 @@ id,title,level,slug,paid,done
 2386,Find the K-Sum of an Array,3,find-the-k-sum-of-an-array,0,0
 2387,Median of a Row Wise Sorted Matrix,2,median-of-a-row-wise-sorted-matrix,1,0
 2388,Change Null Values in a Table to the Previous Value,2,change-null-values-in-a-table-to-the-previous-value,1,0
-2389,Longest Subsequence With Limited Sum,1,longest-subsequence-with-limited-sum,0,0
+2389,Longest Subsequence With Limited Sum,1,longest-subsequence-with-limited-sum,0,1
 2390,Removing Stars From a String,2,removing-stars-from-a-string,0,0
 2391,Minimum Amount of Time to Collect Garbage,2,minimum-amount-of-time-to-collect-garbage,0,0
 2392,Build a Matrix With Conditions,3,build-a-matrix-with-conditions,0,0
@@ -2509,3 +2509,11 @@ id,title,level,slug,paid,done
 2508,Add Edges to Make Degrees of All Nodes Even,3,add-edges-to-make-degrees-of-all-nodes-even,0,0
 2509,Cycle Length Queries in a Tree,3,cycle-length-queries-in-a-tree,0,0
 2510,Check if There is a Path With Equal Number of 0's And 1's,2,check-if-there-is-a-path-with-equal-number-of-0s-and-1s,1,0
+2511,Maximum Enemy Forts That Can Be Captured,1,maximum-enemy-forts-that-can-be-captured,0,0
+2512,Reward Top K Students,2,reward-top-k-students,0,0
+2513,Minimize the Maximum of Two Arrays,2,minimize-the-maximum-of-two-arrays,0,0
+2514,Count Anagrams,3,count-anagrams,0,0
+2515,Shortest Distance to Target String in a Circular Array,1,shortest-distance-to-target-string-in-a-circular-array,0,0
+2516,Take K of Each Character From Left and Right,2,take-k-of-each-character-from-left-and-right,0,0
+2517,Maximum Tastiness of Candy Basket,2,maximum-tastiness-of-candy-basket,0,0
+2518,Number of Great Partitions,3,number-of-great-partitions,0,0
