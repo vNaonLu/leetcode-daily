@@ -2277,7 +2277,7 @@ id,title,level,slug,paid,done
 2276,Count Integers in Intervals,3,count-integers-in-intervals,0,0
 2277,Closest Node to Path in Tree,3,closest-node-to-path-in-tree,1,0
 2278,Percentage of Letter in String,1,percentage-of-letter-in-string,0,0
-2279,Maximum Bags With Full Capacity of Rocks,2,maximum-bags-with-full-capacity-of-rocks,0,0
+2279,Maximum Bags With Full Capacity of Rocks,2,maximum-bags-with-full-capacity-of-rocks,0,1
 2280,Minimum Lines to Represent a Line Chart,2,minimum-lines-to-represent-a-line-chart,0,0
 2281,Sum of Total Strength of Wizards,3,sum-of-total-strength-of-wizards,0,0
 2282,Number of People That Can Be Seen in a Grid,2,number-of-people-that-can-be-seen-in-a-grid,1,0
