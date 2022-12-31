@@ -1897,7 +1897,7 @@ My daily challenge on leetcode since 2021/09/06.
 |🔒|1841|[League Statistics](https://leetcode.com/problems/league-statistics/)|Medium|
 |🔒|1842|[Next Palindrome Using Same Digits](https://leetcode.com/problems/next-palindrome-using-same-digits/)|Hard|
 |🔒|1843|[Suspicious Bank Accounts](https://leetcode.com/problems/suspicious-bank-accounts/)|Medium|
-||1844|[Replace All Digits with Characters](https://leetcode.com/problems/replace-all-digits-with-characters/)|Easy|
+|[📎](src/q_1801_1850/q1844.cc)|1844|[Replace All Digits with Characters](https://leetcode.com/problems/replace-all-digits-with-characters/)|Easy|
 |[📎](src/q_1801_1850/q1845.cc)|1845|[Seat Reservation Manager](https://leetcode.com/problems/seat-reservation-manager/)|Medium|
 ||1846|[Maximum Element After Decreasing and Rearranging](https://leetcode.com/problems/maximum-element-after-decreasing-and-rearranging/)|Medium|
 ||1847|[Closest Room](https://leetcode.com/problems/closest-room/)|Hard|
@@ -2598,6 +2598,7 @@ My daily challenge on leetcode since 2021/09/06.
 
 |Time|#|</>|Question Title|Difficulty|
 |:--|--:|:-:|:--|:--|
+|2022-12-31 13:18|1844|[📎](src/q_1801_1850/q1844.cc)|[Replace All Digits with Characters](https://leetcode.com/problems/replace-all-digits-with-characters/)|Easy|
 |2022-12-30 18:14|1961|[📎](src/q_1951_2000/q1961.cc)|[Check If String Is a Prefix of Array](https://leetcode.com/problems/check-if-string-is-a-prefix-of-array/)|Easy|
 |2022-12-29 18:57|1834|[📎](src/q_1801_1850/q1834.cc)|[Single-Threaded CPU](https://leetcode.com/problems/single-threaded-cpu/)|Medium|
 |2022-12-28 10:47|1962|[📎](src/q_1951_2000/q1962.cc)|[Remove Stones to Minimize the Total](https://leetcode.com/problems/remove-stones-to-minimize-the-total/)|Medium|
@@ -2622,13 +2623,12 @@ My daily challenge on leetcode since 2021/09/06.
 |2022-12-09 11:43|1971|[📎](src/q_1951_2000/q1971.cc)|[Find if Path Exists in Graph](https://leetcode.com/problems/find-if-path-exists-in-graph/)|Easy|
 |2022-12-08 18:32|1556|[📎](src/q_1551_1600/q1556.cc)|[Thousand Separator](https://leetcode.com/problems/thousand-separator/)|Easy|
 |2022-12-07 19:34|1512|[📎](src/q_1501_1550/q1512.cc)|[Number of Good Pairs](https://leetcode.com/problems/number-of-good-pairs/)|Easy|
-|2022-12-07 00:17|1614|[📎](src/q_1601_1650/q1614.cc)|[Maximum Nesting Depth of the Parentheses](https://leetcode.com/problems/maximum-nesting-depth-of-the-parentheses/)|Easy|
 
 ## Previous Logs
 
 |Month|Submissions|Easy|Medium|Hard|
 |:--|:--|:--|:--|:--|
-|[December_2022](./assets/December_2022.md)|31|26|5|0|
+|[December_2022](./assets/December_2022.md)|32|27|5|0|
 |[November_2022](./assets/November_2022.md)|30|21|6|3|
 |[October_2022](./assets/October_2022.md)|33|22|7|4|
 |[September_2022](./assets/September_2022.md)|38|10|19|9|
