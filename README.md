@@ -1703,7 +1703,7 @@ My daily challenge on leetcode since 2021/09/06.
 ||1653|[Minimum Deletions to Make String Balanced](https://leetcode.com/problems/minimum-deletions-to-make-string-balanced/)|Medium|
 |[📎](src/q_1651_1700/q1654.cc)|1654|[Minimum Jumps to Reach Home](https://leetcode.com/problems/minimum-jumps-to-reach-home/)|Medium|
 ||1655|[Distribute Repeating Integers](https://leetcode.com/problems/distribute-repeating-integers/)|Hard|
-||1656|[Design an Ordered Stream](https://leetcode.com/problems/design-an-ordered-stream/)|Easy|
+|[📎](src/q_1651_1700/q1656.cc)|1656|[Design an Ordered Stream](https://leetcode.com/problems/design-an-ordered-stream/)|Easy|
 |[📎](src/q_1651_1700/q1657.cc)|1657|[Determine if Two Strings Are Close](https://leetcode.com/problems/determine-if-two-strings-are-close/)|Medium|
 |[📎](src/q_1651_1700/q1658.cc)|1658|[Minimum Operations to Reduce X to Zero](https://leetcode.com/problems/minimum-operations-to-reduce-x-to-zero/)|Medium|
 ||1659|[Maximize Grid Happiness](https://leetcode.com/problems/maximize-grid-happiness/)|Hard|
@@ -1887,7 +1887,7 @@ My daily challenge on leetcode since 2021/09/06.
 |🔒|1831|[Maximum Transaction Each Day](https://leetcode.com/problems/maximum-transaction-each-day/)|Medium|
 |[📎](src/q_1801_1850/q1832.cc)|1832|[Check if the Sentence Is Pangram](https://leetcode.com/problems/check-if-the-sentence-is-pangram/)|Easy|
 ||1833|[Maximum Ice Cream Bars](https://leetcode.com/problems/maximum-ice-cream-bars/)|Medium|
-||1834|[Single-Threaded CPU](https://leetcode.com/problems/single-threaded-cpu/)|Medium|
+|[📎](src/q_1801_1850/q1834.cc)|1834|[Single-Threaded CPU](https://leetcode.com/problems/single-threaded-cpu/)|Medium|
 ||1835|[Find XOR Sum of All Pairs Bitwise AND](https://leetcode.com/problems/find-xor-sum-of-all-pairs-bitwise-and/)|Hard|
 |🔒|1836|[Remove Duplicates From an Unsorted Linked List](https://leetcode.com/problems/remove-duplicates-from-an-unsorted-linked-list/)|Medium|
 |[📎](src/q_1801_1850/q1837.cc)|1837|[Sum of Digits in Base K](https://leetcode.com/problems/sum-of-digits-in-base-k/)|Easy|
@@ -1897,7 +1897,7 @@ My daily challenge on leetcode since 2021/09/06.
 |🔒|1841|[League Statistics](https://leetcode.com/problems/league-statistics/)|Medium|
 |🔒|1842|[Next Palindrome Using Same Digits](https://leetcode.com/problems/next-palindrome-using-same-digits/)|Hard|
 |🔒|1843|[Suspicious Bank Accounts](https://leetcode.com/problems/suspicious-bank-accounts/)|Medium|
-||1844|[Replace All Digits with Characters](https://leetcode.com/problems/replace-all-digits-with-characters/)|Easy|
+|[📎](src/q_1801_1850/q1844.cc)|1844|[Replace All Digits with Characters](https://leetcode.com/problems/replace-all-digits-with-characters/)|Easy|
 |[📎](src/q_1801_1850/q1845.cc)|1845|[Seat Reservation Manager](https://leetcode.com/problems/seat-reservation-manager/)|Medium|
 ||1846|[Maximum Element After Decreasing and Rearranging](https://leetcode.com/problems/maximum-element-after-decreasing-and-rearranging/)|Medium|
 ||1847|[Closest Room](https://leetcode.com/problems/closest-room/)|Hard|
@@ -2014,8 +2014,8 @@ My daily challenge on leetcode since 2021/09/06.
 ||1958|[Check if Move is Legal](https://leetcode.com/problems/check-if-move-is-legal/)|Medium|
 ||1959|[Minimum Total Space Wasted With K Resizing Operations](https://leetcode.com/problems/minimum-total-space-wasted-with-k-resizing-operations/)|Medium|
 ||1960|[Maximum Product of the Length of Two Palindromic Substrings](https://leetcode.com/problems/maximum-product-of-the-length-of-two-palindromic-substrings/)|Hard|
-||1961|[Check If String Is a Prefix of Array](https://leetcode.com/problems/check-if-string-is-a-prefix-of-array/)|Easy|
-||1962|[Remove Stones to Minimize the Total](https://leetcode.com/problems/remove-stones-to-minimize-the-total/)|Medium|
+|[📎](src/q_1951_2000/q1961.cc)|1961|[Check If String Is a Prefix of Array](https://leetcode.com/problems/check-if-string-is-a-prefix-of-array/)|Easy|
+|[📎](src/q_1951_2000/q1962.cc)|1962|[Remove Stones to Minimize the Total](https://leetcode.com/problems/remove-stones-to-minimize-the-total/)|Medium|
 |[📎](src/q_1951_2000/q1963.cc)|1963|[Minimum Number of Swaps to Make the String Balanced](https://leetcode.com/problems/minimum-number-of-swaps-to-make-the-string-balanced/)|Medium|
 ||1964|[Find the Longest Valid Obstacle Course at Each Position](https://leetcode.com/problems/find-the-longest-valid-obstacle-course-at-each-position/)|Hard|
 ||1965|[Employees With Missing Information](https://leetcode.com/problems/employees-with-missing-information/)|Easy|
@@ -2344,7 +2344,7 @@ My daily challenge on leetcode since 2021/09/06.
 ||2276|[Count Integers in Intervals](https://leetcode.com/problems/count-integers-in-intervals/)|Hard|
 |🔒|2277|[Closest Node to Path in Tree](https://leetcode.com/problems/closest-node-to-path-in-tree/)|Hard|
 ||2278|[Percentage of Letter in String](https://leetcode.com/problems/percentage-of-letter-in-string/)|Easy|
-||2279|[Maximum Bags With Full Capacity of Rocks](https://leetcode.com/problems/maximum-bags-with-full-capacity-of-rocks/)|Medium|
+|[📎](src/q_2251_2300/q2279.cc)|2279|[Maximum Bags With Full Capacity of Rocks](https://leetcode.com/problems/maximum-bags-with-full-capacity-of-rocks/)|Medium|
 ||2280|[Minimum Lines to Represent a Line Chart](https://leetcode.com/problems/minimum-lines-to-represent-a-line-chart/)|Medium|
 ||2281|[Sum of Total Strength of Wizards](https://leetcode.com/problems/sum-of-total-strength-of-wizards/)|Hard|
 |🔒|2282|[Number of People That Can Be Seen in a Grid](https://leetcode.com/problems/number-of-people-that-can-be-seen-in-a-grid/)|Medium|
@@ -2454,7 +2454,7 @@ My daily challenge on leetcode since 2021/09/06.
 ||2386|[Find the K-Sum of an Array](https://leetcode.com/problems/find-the-k-sum-of-an-array/)|Hard|
 |🔒|2387|[Median of a Row Wise Sorted Matrix](https://leetcode.com/problems/median-of-a-row-wise-sorted-matrix/)|Medium|
 |🔒|2388|[Change Null Values in a Table to the Previous Value](https://leetcode.com/problems/change-null-values-in-a-table-to-the-previous-value/)|Medium|
-||2389|[Longest Subsequence With Limited Sum](https://leetcode.com/problems/longest-subsequence-with-limited-sum/)|Easy|
+|[📎](src/q_2351_2400/q2389.cc)|2389|[Longest Subsequence With Limited Sum](https://leetcode.com/problems/longest-subsequence-with-limited-sum/)|Easy|
 ||2390|[Removing Stars From a String](https://leetcode.com/problems/removing-stars-from-a-string/)|Medium|
 ||2391|[Minimum Amount of Time to Collect Garbage](https://leetcode.com/problems/minimum-amount-of-time-to-collect-garbage/)|Medium|
 ||2392|[Build a Matrix With Conditions](https://leetcode.com/problems/build-a-matrix-with-conditions/)|Hard|
@@ -2568,7 +2568,7 @@ My daily challenge on leetcode since 2021/09/06.
 ||2500|[Delete Greatest Value in Each Row](https://leetcode.com/problems/delete-greatest-value-in-each-row/)|Easy|
 </details>
 <details>
-  <summary>### 2501 ~ 2510</summary>
+  <summary>### 2501 ~ 2519</summary>
 
 |</>|#|Solution Title|Difficulty|
 |:-:|--:|:--|:--|
@@ -2582,6 +2582,15 @@ My daily challenge on leetcode since 2021/09/06.
 ||2508|[Add Edges to Make Degrees of All Nodes Even](https://leetcode.com/problems/add-edges-to-make-degrees-of-all-nodes-even/)|Hard|
 ||2509|[Cycle Length Queries in a Tree](https://leetcode.com/problems/cycle-length-queries-in-a-tree/)|Hard|
 |🔒|2510|[Check if There is a Path With Equal Number of 0's And 1's](https://leetcode.com/problems/check-if-there-is-a-path-with-equal-number-of-0s-and-1s/)|Medium|
+||2511|[Maximum Enemy Forts That Can Be Captured](https://leetcode.com/problems/maximum-enemy-forts-that-can-be-captured/)|Easy|
+||2512|[Reward Top K Students](https://leetcode.com/problems/reward-top-k-students/)|Medium|
+||2513|[Minimize the Maximum of Two Arrays](https://leetcode.com/problems/minimize-the-maximum-of-two-arrays/)|Medium|
+||2514|[Count Anagrams](https://leetcode.com/problems/count-anagrams/)|Hard|
+||2515|[Shortest Distance to Target String in a Circular Array](https://leetcode.com/problems/shortest-distance-to-target-string-in-a-circular-array/)|Easy|
+||2516|[Take K of Each Character From Left and Right](https://leetcode.com/problems/take-k-of-each-character-from-left-and-right/)|Medium|
+||2517|[Maximum Tastiness of Candy Basket](https://leetcode.com/problems/maximum-tastiness-of-candy-basket/)|Medium|
+||2518|[Number of Great Partitions](https://leetcode.com/problems/number-of-great-partitions/)|Hard|
+|🔒|2519|[Count the Number of K-Big Indices](https://leetcode.com/problems/count-the-number-of-k-big-indices/)|Hard|
 </details>
 
 ---
@@ -2589,6 +2598,13 @@ My daily challenge on leetcode since 2021/09/06.
 
 |Time|#|</>|Question Title|Difficulty|
 |:--|--:|:-:|:--|:--|
+|2022-12-31 13:18|1844|[📎](src/q_1801_1850/q1844.cc)|[Replace All Digits with Characters](https://leetcode.com/problems/replace-all-digits-with-characters/)|Easy|
+|2022-12-30 18:14|1961|[📎](src/q_1951_2000/q1961.cc)|[Check If String Is a Prefix of Array](https://leetcode.com/problems/check-if-string-is-a-prefix-of-array/)|Easy|
+|2022-12-29 18:57|1834|[📎](src/q_1801_1850/q1834.cc)|[Single-Threaded CPU](https://leetcode.com/problems/single-threaded-cpu/)|Medium|
+|2022-12-28 10:47|1962|[📎](src/q_1951_2000/q1962.cc)|[Remove Stones to Minimize the Total](https://leetcode.com/problems/remove-stones-to-minimize-the-total/)|Medium|
+|2022-12-27 20:59|2279|[📎](src/q_2251_2300/q2279.cc)|[Maximum Bags With Full Capacity of Rocks](https://leetcode.com/problems/maximum-bags-with-full-capacity-of-rocks/)|Medium|
+|2022-12-26 14:39|1656|[📎](src/q_1651_1700/q1656.cc)|[Design an Ordered Stream](https://leetcode.com/problems/design-an-ordered-stream/)|Easy|
+|2022-12-25 14:43|2389|[📎](src/q_2351_2400/q2389.cc)|[Longest Subsequence With Limited Sum](https://leetcode.com/problems/longest-subsequence-with-limited-sum/)|Easy|
 |2022-12-24 14:41|1952|[📎](src/q_1951_2000/q1952.cc)|[Three Divisors](https://leetcode.com/problems/three-divisors/)|Easy|
 |2022-12-23 12:01|1732|[📎](src/q_1701_1750/q1732.cc)|[Find the Highest Altitude](https://leetcode.com/problems/find-the-highest-altitude/)|Easy|
 |2022-12-22 19:32|1859|[📎](src/q_1851_1900/q1859.cc)|[Sorting the Sentence](https://leetcode.com/problems/sorting-the-sentence/)|Easy|
@@ -2607,19 +2623,12 @@ My daily challenge on leetcode since 2021/09/06.
 |2022-12-09 11:43|1971|[📎](src/q_1951_2000/q1971.cc)|[Find if Path Exists in Graph](https://leetcode.com/problems/find-if-path-exists-in-graph/)|Easy|
 |2022-12-08 18:32|1556|[📎](src/q_1551_1600/q1556.cc)|[Thousand Separator](https://leetcode.com/problems/thousand-separator/)|Easy|
 |2022-12-07 19:34|1512|[📎](src/q_1501_1550/q1512.cc)|[Number of Good Pairs](https://leetcode.com/problems/number-of-good-pairs/)|Easy|
-|2022-12-07 00:17|1614|[📎](src/q_1601_1650/q1614.cc)|[Maximum Nesting Depth of the Parentheses](https://leetcode.com/problems/maximum-nesting-depth-of-the-parentheses/)|Easy|
-|2022-12-06 18:51|1486|[📎](src/q_1451_1500/q1486.cc)|[XOR Operation in an Array](https://leetcode.com/problems/xor-operation-in-an-array/)|Easy|
-|2022-12-05 16:10|1455|[📎](src/q_1451_1500/q1455.cc)|[Check If a Word Occurs As a Prefix of Any Word in a Sentence](https://leetcode.com/problems/check-if-a-word-occurs-as-a-prefix-of-any-word-in-a-sentence/)|Easy|
-|2022-12-04 13:55|2256|[📎](src/q_2251_2300/q2256.cc)|[Minimum Average Difference](https://leetcode.com/problems/minimum-average-difference/)|Medium|
-|2022-12-03 17:23|1160|[📎](src/q_1151_1200/q1160.cc)|[Find Words That Can Be Formed by Characters](https://leetcode.com/problems/find-words-that-can-be-formed-by-characters/)|Easy|
-|2022-12-02 18:06|1657|[📎](src/q_1651_1700/q1657.cc)|[Determine if Two Strings Are Close](https://leetcode.com/problems/determine-if-two-strings-are-close/)|Medium|
-|2022-12-01 20:19|1704|[📎](src/q_1701_1750/q1704.cc)|[Determine if String Halves Are Alike](https://leetcode.com/problems/determine-if-string-halves-are-alike/)|Easy|
 
 ## Previous Logs
 
 |Month|Submissions|Easy|Medium|Hard|
 |:--|:--|:--|:--|:--|
-|[December_2022](./assets/December_2022.md)|25|23|2|0|
+|[December_2022](./assets/December_2022.md)|32|27|5|0|
 |[November_2022](./assets/November_2022.md)|30|21|6|3|
 |[October_2022](./assets/October_2022.md)|33|22|7|4|
 |[September_2022](./assets/September_2022.md)|38|10|19|9|

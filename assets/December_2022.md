@@ -2,6 +2,13 @@
 
 ||#|</>|Question Title|Difficulty|
 |:--|--:|:-:|:--|:--|
+|Day 31|1844|[📎](../src/q_1801_1850/q1844.cc)|[Replace All Digits with Characters](https://leetcode.com/problems/replace-all-digits-with-characters/)|Easy|
+|Day 30|1961|[📎](../src/q_1951_2000/q1961.cc)|[Check If String Is a Prefix of Array](https://leetcode.com/problems/check-if-string-is-a-prefix-of-array/)|Easy|
+|Day 29|1834|[📎](../src/q_1801_1850/q1834.cc)|[Single-Threaded CPU](https://leetcode.com/problems/single-threaded-cpu/)|Medium|
+|Day 28|1962|[📎](../src/q_1951_2000/q1962.cc)|[Remove Stones to Minimize the Total](https://leetcode.com/problems/remove-stones-to-minimize-the-total/)|Medium|
+|Day 27|2279|[📎](../src/q_2251_2300/q2279.cc)|[Maximum Bags With Full Capacity of Rocks](https://leetcode.com/problems/maximum-bags-with-full-capacity-of-rocks/)|Medium|
+|Day 26|1656|[📎](../src/q_1651_1700/q1656.cc)|[Design an Ordered Stream](https://leetcode.com/problems/design-an-ordered-stream/)|Easy|
+|Day 25|2389|[📎](../src/q_2351_2400/q2389.cc)|[Longest Subsequence With Limited Sum](https://leetcode.com/problems/longest-subsequence-with-limited-sum/)|Easy|
 |Day 24|1952|[📎](../src/q_1951_2000/q1952.cc)|[Three Divisors](https://leetcode.com/problems/three-divisors/)|Easy|
 |Day 23|1732|[📎](../src/q_1701_1750/q1732.cc)|[Find the Highest Altitude](https://leetcode.com/problems/find-the-highest-altitude/)|Easy|
 |Day 22|1859|[📎](../src/q_1851_1900/q1859.cc)|[Sorting the Sentence](https://leetcode.com/problems/sorting-the-sentence/)|Easy|

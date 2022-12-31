@@ -1654,7 +1654,7 @@ id,title,level,slug,paid,done
 1653,Minimum Deletions to Make String Balanced,2,minimum-deletions-to-make-string-balanced,0,0
 1654,Minimum Jumps to Reach Home,2,minimum-jumps-to-reach-home,0,1
 1655,Distribute Repeating Integers,3,distribute-repeating-integers,0,0
-1656,Design an Ordered Stream,1,design-an-ordered-stream,0,0
+1656,Design an Ordered Stream,1,design-an-ordered-stream,0,1
 1657,Determine if Two Strings Are Close,2,determine-if-two-strings-are-close,0,1
 1658,Minimum Operations to Reduce X to Zero,2,minimum-operations-to-reduce-x-to-zero,0,1
 1659,Maximize Grid Happiness,3,maximize-grid-happiness,0,0
@@ -1832,7 +1832,7 @@ id,title,level,slug,paid,done
 1831,Maximum Transaction Each Day,2,maximum-transaction-each-day,1,0
 1832,Check if the Sentence Is Pangram,1,check-if-the-sentence-is-pangram,0,1
 1833,Maximum Ice Cream Bars,2,maximum-ice-cream-bars,0,0
-1834,Single-Threaded CPU,2,single-threaded-cpu,0,0
+1834,Single-Threaded CPU,2,single-threaded-cpu,0,1
 1835,Find XOR Sum of All Pairs Bitwise AND,3,find-xor-sum-of-all-pairs-bitwise-and,0,0
 1836,Remove Duplicates From an Unsorted Linked List,2,remove-duplicates-from-an-unsorted-linked-list,1,0
 1837,Sum of Digits in Base K,1,sum-of-digits-in-base-k,0,1
@@ -1842,7 +1842,7 @@ id,title,level,slug,paid,done
 1841,League Statistics,2,league-statistics,1,0
 1842,Next Palindrome Using Same Digits,3,next-palindrome-using-same-digits,1,0
 1843,Suspicious Bank Accounts,2,suspicious-bank-accounts,1,0
-1844,Replace All Digits with Characters,1,replace-all-digits-with-characters,0,0
+1844,Replace All Digits with Characters,1,replace-all-digits-with-characters,0,1
 1845,Seat Reservation Manager,2,seat-reservation-manager,0,1
 1846,Maximum Element After Decreasing and Rearranging,2,maximum-element-after-decreasing-and-rearranging,0,0
 1847,Closest Room,3,closest-room,0,0
@@ -1959,8 +1959,8 @@ id,title,level,slug,paid,done
 1958,Check if Move is Legal,2,check-if-move-is-legal,0,0
 1959,Minimum Total Space Wasted With K Resizing Operations,2,minimum-total-space-wasted-with-k-resizing-operations,0,0
 1960,Maximum Product of the Length of Two Palindromic Substrings,3,maximum-product-of-the-length-of-two-palindromic-substrings,0,0
-1961,Check If String Is a Prefix of Array,1,check-if-string-is-a-prefix-of-array,0,0
-1962,Remove Stones to Minimize the Total,2,remove-stones-to-minimize-the-total,0,0
+1961,Check If String Is a Prefix of Array,1,check-if-string-is-a-prefix-of-array,0,1
+1962,Remove Stones to Minimize the Total,2,remove-stones-to-minimize-the-total,0,1
 1963,Minimum Number of Swaps to Make the String Balanced,2,minimum-number-of-swaps-to-make-the-string-balanced,0,1
 1964,Find the Longest Valid Obstacle Course at Each Position,3,find-the-longest-valid-obstacle-course-at-each-position,0,0
 1965,Employees With Missing Information,1,employees-with-missing-information,0,0
@@ -2277,7 +2277,7 @@ id,title,level,slug,paid,done
 2276,Count Integers in Intervals,3,count-integers-in-intervals,0,0
 2277,Closest Node to Path in Tree,3,closest-node-to-path-in-tree,1,0
 2278,Percentage of Letter in String,1,percentage-of-letter-in-string,0,0
-2279,Maximum Bags With Full Capacity of Rocks,2,maximum-bags-with-full-capacity-of-rocks,0,0
+2279,Maximum Bags With Full Capacity of Rocks,2,maximum-bags-with-full-capacity-of-rocks,0,1
 2280,Minimum Lines to Represent a Line Chart,2,minimum-lines-to-represent-a-line-chart,0,0
 2281,Sum of Total Strength of Wizards,3,sum-of-total-strength-of-wizards,0,0
 2282,Number of People That Can Be Seen in a Grid,2,number-of-people-that-can-be-seen-in-a-grid,1,0
@@ -2387,7 +2387,7 @@ id,title,level,slug,paid,done
 2386,Find the K-Sum of an Array,3,find-the-k-sum-of-an-array,0,0
 2387,Median of a Row Wise Sorted Matrix,2,median-of-a-row-wise-sorted-matrix,1,0
 2388,Change Null Values in a Table to the Previous Value,2,change-null-values-in-a-table-to-the-previous-value,1,0
-2389,Longest Subsequence With Limited Sum,1,longest-subsequence-with-limited-sum,0,0
+2389,Longest Subsequence With Limited Sum,1,longest-subsequence-with-limited-sum,0,1
 2390,Removing Stars From a String,2,removing-stars-from-a-string,0,0
 2391,Minimum Amount of Time to Collect Garbage,2,minimum-amount-of-time-to-collect-garbage,0,0
 2392,Build a Matrix With Conditions,3,build-a-matrix-with-conditions,0,0
@@ -2509,3 +2509,12 @@ id,title,level,slug,paid,done
 2508,Add Edges to Make Degrees of All Nodes Even,3,add-edges-to-make-degrees-of-all-nodes-even,0,0
 2509,Cycle Length Queries in a Tree,3,cycle-length-queries-in-a-tree,0,0
 2510,Check if There is a Path With Equal Number of 0's And 1's,2,check-if-there-is-a-path-with-equal-number-of-0s-and-1s,1,0
+2511,Maximum Enemy Forts That Can Be Captured,1,maximum-enemy-forts-that-can-be-captured,0,0
+2512,Reward Top K Students,2,reward-top-k-students,0,0
+2513,Minimize the Maximum of Two Arrays,2,minimize-the-maximum-of-two-arrays,0,0
+2514,Count Anagrams,3,count-anagrams,0,0
+2515,Shortest Distance to Target String in a Circular Array,1,shortest-distance-to-target-string-in-a-circular-array,0,0
+2516,Take K of Each Character From Left and Right,2,take-k-of-each-character-from-left-and-right,0,0
+2517,Maximum Tastiness of Candy Basket,2,maximum-tastiness-of-candy-basket,0,0
+2518,Number of Great Partitions,3,number-of-great-partitions,0,0
+2519,Count the Number of K-Big Indices,3,count-the-number-of-k-big-indices,1,0
