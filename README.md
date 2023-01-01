@@ -2116,7 +2116,7 @@ My daily challenge on leetcode since 2021/09/06.
 ||2054|[Two Best Non-Overlapping Events](https://leetcode.com/problems/two-best-non-overlapping-events/)|Medium|
 ||2055|[Plates Between Candles](https://leetcode.com/problems/plates-between-candles/)|Medium|
 ||2056|[Number of Valid Move Combinations On Chessboard](https://leetcode.com/problems/number-of-valid-move-combinations-on-chessboard/)|Hard|
-||2057|[Smallest Index With Equal Value](https://leetcode.com/problems/smallest-index-with-equal-value/)|Easy|
+|[📎](src/q_2051_2100/q2057.cc)|2057|[Smallest Index With Equal Value](https://leetcode.com/problems/smallest-index-with-equal-value/)|Easy|
 ||2058|[Find the Minimum and Maximum Number of Nodes Between Critical Points](https://leetcode.com/problems/find-the-minimum-and-maximum-number-of-nodes-between-critical-points/)|Medium|
 ||2059|[Minimum Operations to Convert Number](https://leetcode.com/problems/minimum-operations-to-convert-number/)|Medium|
 ||2060|[Check if an Original String Exists Given Two Encoded Strings](https://leetcode.com/problems/check-if-an-original-string-exists-given-two-encoded-strings/)|Hard|
@@ -2568,7 +2568,7 @@ My daily challenge on leetcode since 2021/09/06.
 ||2500|[Delete Greatest Value in Each Row](https://leetcode.com/problems/delete-greatest-value-in-each-row/)|Easy|
 </details>
 <details>
-  <summary>### 2501 ~ 2519</summary>
+  <summary>### 2501 ~ 2523</summary>
 
 |</>|#|Solution Title|Difficulty|
 |:-:|--:|:--|:--|
@@ -2591,6 +2591,10 @@ My daily challenge on leetcode since 2021/09/06.
 ||2517|[Maximum Tastiness of Candy Basket](https://leetcode.com/problems/maximum-tastiness-of-candy-basket/)|Medium|
 ||2518|[Number of Great Partitions](https://leetcode.com/problems/number-of-great-partitions/)|Hard|
 |🔒|2519|[Count the Number of K-Big Indices](https://leetcode.com/problems/count-the-number-of-k-big-indices/)|Hard|
+||2520|[Count the Digits That Divide a Number](https://leetcode.com/problems/count-the-digits-that-divide-a-number/)|Easy|
+||2521|[Distinct Prime Factors of Product of Array](https://leetcode.com/problems/distinct-prime-factors-of-product-of-array/)|Medium|
+||2522|[Partition String Into Substrings With Values at Most K](https://leetcode.com/problems/partition-string-into-substrings-with-values-at-most-k/)|Medium|
+||2523|[Closest Prime Numbers in Range](https://leetcode.com/problems/closest-prime-numbers-in-range/)|Medium|
 </details>
 
 ---
@@ -2598,6 +2602,7 @@ My daily challenge on leetcode since 2021/09/06.
 
 |Time|#|</>|Question Title|Difficulty|
 |:--|--:|:-:|:--|:--|
+|2023-01-01 14:48|2057|[📎](src/q_2051_2100/q2057.cc)|[Smallest Index With Equal Value](https://leetcode.com/problems/smallest-index-with-equal-value/)|Easy|
 |2022-12-31 13:18|1844|[📎](src/q_1801_1850/q1844.cc)|[Replace All Digits with Characters](https://leetcode.com/problems/replace-all-digits-with-characters/)|Easy|
 |2022-12-30 18:14|1961|[📎](src/q_1951_2000/q1961.cc)|[Check If String Is a Prefix of Array](https://leetcode.com/problems/check-if-string-is-a-prefix-of-array/)|Easy|
 |2022-12-29 18:57|1834|[📎](src/q_1801_1850/q1834.cc)|[Single-Threaded CPU](https://leetcode.com/problems/single-threaded-cpu/)|Medium|
@@ -2622,12 +2627,12 @@ My daily challenge on leetcode since 2021/09/06.
 |2022-12-10 13:30|2000|[📎](src/q_1951_2000/q2000.cc)|[Reverse Prefix of Word](https://leetcode.com/problems/reverse-prefix-of-word/)|Easy|
 |2022-12-09 11:43|1971|[📎](src/q_1951_2000/q1971.cc)|[Find if Path Exists in Graph](https://leetcode.com/problems/find-if-path-exists-in-graph/)|Easy|
 |2022-12-08 18:32|1556|[📎](src/q_1551_1600/q1556.cc)|[Thousand Separator](https://leetcode.com/problems/thousand-separator/)|Easy|
-|2022-12-07 19:34|1512|[📎](src/q_1501_1550/q1512.cc)|[Number of Good Pairs](https://leetcode.com/problems/number-of-good-pairs/)|Easy|
 
 ## Previous Logs
 
 |Month|Submissions|Easy|Medium|Hard|
 |:--|:--|:--|:--|:--|
+|[January_2023](./assets/January_2023.md)|1|1|0|0|
 |[December_2022](./assets/December_2022.md)|32|27|5|0|
 |[November_2022](./assets/November_2022.md)|30|21|6|3|
 |[October_2022](./assets/October_2022.md)|33|22|7|4|

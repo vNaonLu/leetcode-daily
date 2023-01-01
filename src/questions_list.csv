@@ -2055,7 +2055,7 @@ id,title,level,slug,paid,done
 2054,Two Best Non-Overlapping Events,2,two-best-non-overlapping-events,0,0
 2055,Plates Between Candles,2,plates-between-candles,0,0
 2056,Number of Valid Move Combinations On Chessboard,3,number-of-valid-move-combinations-on-chessboard,0,0
-2057,Smallest Index With Equal Value,1,smallest-index-with-equal-value,0,0
+2057,Smallest Index With Equal Value,1,smallest-index-with-equal-value,0,1
 2058,Find the Minimum and Maximum Number of Nodes Between Critical Points,2,find-the-minimum-and-maximum-number-of-nodes-between-critical-points,0,0
 2059,Minimum Operations to Convert Number,2,minimum-operations-to-convert-number,0,0
 2060,Check if an Original String Exists Given Two Encoded Strings,3,check-if-an-original-string-exists-given-two-encoded-strings,0,0
@@ -2518,3 +2518,7 @@ id,title,level,slug,paid,done
 2517,Maximum Tastiness of Candy Basket,2,maximum-tastiness-of-candy-basket,0,0
 2518,Number of Great Partitions,3,number-of-great-partitions,0,0
 2519,Count the Number of K-Big Indices,3,count-the-number-of-k-big-indices,1,0
+2520,Count the Digits That Divide a Number,1,count-the-digits-that-divide-a-number,0,0
+2521,Distinct Prime Factors of Product of Array,2,distinct-prime-factors-of-product-of-array,0,0
+2522,Partition String Into Substrings With Values at Most K,2,partition-string-into-substrings-with-values-at-most-k,0,0
+2523,Closest Prime Numbers in Range,2,closest-prime-numbers-in-range,0,0
