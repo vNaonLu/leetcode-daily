@@ -1939,7 +1939,7 @@ id,title,level,slug,paid,done
 1938,Maximum Genetic Difference Query,3,maximum-genetic-difference-query,0,0
 1939,Users That Actively Request Confirmation Messages,1,users-that-actively-request-confirmation-messages,1,0
 1940,Longest Common Subsequence Between Sorted Arrays,2,longest-common-subsequence-between-sorted-arrays,1,0
-1941,Check if All Characters Have Equal Number of Occurrences,1,check-if-all-characters-have-equal-number-of-occurrences,0,0
+1941,Check if All Characters Have Equal Number of Occurrences,1,check-if-all-characters-have-equal-number-of-occurrences,0,1
 1942,The Number of the Smallest Unoccupied Chair,2,the-number-of-the-smallest-unoccupied-chair,0,0
 1943,Describe the Painting,2,describe-the-painting,0,0
 1944,Number of Visible People in a Queue,3,number-of-visible-people-in-a-queue,0,0
