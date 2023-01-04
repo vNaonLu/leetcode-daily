@@ -2242,7 +2242,7 @@ id,title,level,slug,paid,done
 2241,Design an ATM Machine,2,design-an-atm-machine,0,0
 2242,Maximum Score of a Node Sequence,3,maximum-score-of-a-node-sequence,0,0
 2243,Calculate Digit Sum of a String,1,calculate-digit-sum-of-a-string,0,0
-2244,Minimum Rounds to Complete All Tasks,2,minimum-rounds-to-complete-all-tasks,0,0
+2244,Minimum Rounds to Complete All Tasks,2,minimum-rounds-to-complete-all-tasks,0,1
 2245,Maximum Trailing Zeros in a Cornered Path,2,maximum-trailing-zeros-in-a-cornered-path,0,0
 2246,Longest Path With Different Adjacent Characters,3,longest-path-with-different-adjacent-characters,0,0
 2247,Maximum Cost of Trip With K Highways,3,maximum-cost-of-trip-with-k-highways,1,0
@@ -2522,3 +2522,4 @@ id,title,level,slug,paid,done
 2521,Distinct Prime Factors of Product of Array,2,distinct-prime-factors-of-product-of-array,0,0
 2522,Partition String Into Substrings With Values at Most K,2,partition-string-into-substrings-with-values-at-most-k,0,0
 2523,Closest Prime Numbers in Range,2,closest-prime-numbers-in-range,0,0
+2524,Maximum Frequency Score of a Subarray,3,maximum-frequency-score-of-a-subarray,1,0

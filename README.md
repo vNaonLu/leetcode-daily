@@ -2303,7 +2303,7 @@ My daily challenge on leetcode since 2021/09/06.
 ||2241|[Design an ATM Machine](https://leetcode.com/problems/design-an-atm-machine/)|Medium|
 ||2242|[Maximum Score of a Node Sequence](https://leetcode.com/problems/maximum-score-of-a-node-sequence/)|Hard|
 ||2243|[Calculate Digit Sum of a String](https://leetcode.com/problems/calculate-digit-sum-of-a-string/)|Easy|
-||2244|[Minimum Rounds to Complete All Tasks](https://leetcode.com/problems/minimum-rounds-to-complete-all-tasks/)|Medium|
+|[📎](src/q_2201_2250/q2244.cc)|2244|[Minimum Rounds to Complete All Tasks](https://leetcode.com/problems/minimum-rounds-to-complete-all-tasks/)|Medium|
 ||2245|[Maximum Trailing Zeros in a Cornered Path](https://leetcode.com/problems/maximum-trailing-zeros-in-a-cornered-path/)|Medium|
 ||2246|[Longest Path With Different Adjacent Characters](https://leetcode.com/problems/longest-path-with-different-adjacent-characters/)|Hard|
 |🔒|2247|[Maximum Cost of Trip With K Highways](https://leetcode.com/problems/maximum-cost-of-trip-with-k-highways/)|Hard|
@@ -2568,7 +2568,7 @@ My daily challenge on leetcode since 2021/09/06.
 ||2500|[Delete Greatest Value in Each Row](https://leetcode.com/problems/delete-greatest-value-in-each-row/)|Easy|
 </details>
 <details>
-  <summary>### 2501 ~ 2523</summary>
+  <summary>### 2501 ~ 2524</summary>
 
 |</>|#|Solution Title|Difficulty|
 |:-:|--:|:--|:--|
@@ -2595,6 +2595,7 @@ My daily challenge on leetcode since 2021/09/06.
 ||2521|[Distinct Prime Factors of Product of Array](https://leetcode.com/problems/distinct-prime-factors-of-product-of-array/)|Medium|
 ||2522|[Partition String Into Substrings With Values at Most K](https://leetcode.com/problems/partition-string-into-substrings-with-values-at-most-k/)|Medium|
 ||2523|[Closest Prime Numbers in Range](https://leetcode.com/problems/closest-prime-numbers-in-range/)|Medium|
+|🔒|2524|[Maximum Frequency Score of a Subarray](https://leetcode.com/problems/maximum-frequency-score-of-a-subarray/)|Hard|
 </details>
 
 ---
@@ -2602,6 +2603,7 @@ My daily challenge on leetcode since 2021/09/06.
 
 |Time|#|</>|Question Title|Difficulty|
 |:--|--:|:-:|:--|:--|
+|2023-01-04 20:33|2244|[📎](src/q_2201_2250/q2244.cc)|[Minimum Rounds to Complete All Tasks](https://leetcode.com/problems/minimum-rounds-to-complete-all-tasks/)|Medium|
 |2023-01-03 18:51|944|[📎](src/q_901_950/q0944.cc)|[Delete Columns to Make Sorted](https://leetcode.com/problems/delete-columns-to-make-sorted/)|Easy|
 |2023-01-02 14:54|1941|[📎](src/q_1901_1950/q1941.cc)|[Check if All Characters Have Equal Number of Occurrences](https://leetcode.com/problems/check-if-all-characters-have-equal-number-of-occurrences/)|Easy|
 |2023-01-01 14:48|2057|[📎](src/q_2051_2100/q2057.cc)|[Smallest Index With Equal Value](https://leetcode.com/problems/smallest-index-with-equal-value/)|Easy|
@@ -2626,13 +2628,12 @@ My daily challenge on leetcode since 2021/09/06.
 |2022-12-13 19:38|1925|[📎](src/q_1901_1950/q1925.cc)|[Count Square Sum Triples](https://leetcode.com/problems/count-square-sum-triples/)|Easy|
 |2022-12-12 19:51|2032|[📎](src/q_2001_2050/q2032.cc)|[Two Out of Three](https://leetcode.com/problems/two-out-of-three/)|Easy|
 |2022-12-11 18:54|2022|[📎](src/q_2001_2050/q2022.cc)|[Convert 1D Array Into 2D Array](https://leetcode.com/problems/convert-1d-array-into-2d-array/)|Easy|
-|2022-12-10 13:30|2000|[📎](src/q_1951_2000/q2000.cc)|[Reverse Prefix of Word](https://leetcode.com/problems/reverse-prefix-of-word/)|Easy|
 
 ## Previous Logs
 
 |Month|Submissions|Easy|Medium|Hard|
 |:--|:--|:--|:--|:--|
-|[January_2023](./assets/January_2023.md)|3|3|0|0|
+|[January_2023](./assets/January_2023.md)|4|3|1|0|
 |[December_2022](./assets/December_2022.md)|32|27|5|0|
 |[November_2022](./assets/November_2022.md)|30|21|6|3|
 |[October_2022](./assets/October_2022.md)|33|22|7|4|
