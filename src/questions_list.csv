@@ -2051,7 +2051,7 @@ id,title,level,slug,paid,done
 2050,Parallel Courses III,3,parallel-courses-iii,0,0
 2051,The Category of Each Member in the Store,2,the-category-of-each-member-in-the-store,1,0
 2052,Minimum Cost to Separate Sentence Into Rows,2,minimum-cost-to-separate-sentence-into-rows,1,0
-2053,Kth Distinct String in an Array,1,kth-distinct-string-in-an-array,0,0
+2053,Kth Distinct String in an Array,1,kth-distinct-string-in-an-array,0,1
 2054,Two Best Non-Overlapping Events,2,two-best-non-overlapping-events,0,0
 2055,Plates Between Candles,2,plates-between-candles,0,0
 2056,Number of Valid Move Combinations On Chessboard,3,number-of-valid-move-combinations-on-chessboard,0,0
