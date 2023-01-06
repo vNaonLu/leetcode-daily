@@ -1886,7 +1886,7 @@ My daily challenge on leetcode since 2021/09/06.
 ||1830|[Minimum Number of Operations to Make String Sorted](https://leetcode.com/problems/minimum-number-of-operations-to-make-string-sorted/)|Hard|
 |🔒|1831|[Maximum Transaction Each Day](https://leetcode.com/problems/maximum-transaction-each-day/)|Medium|
 |[📎](src/q_1801_1850/q1832.cc)|1832|[Check if the Sentence Is Pangram](https://leetcode.com/problems/check-if-the-sentence-is-pangram/)|Easy|
-||1833|[Maximum Ice Cream Bars](https://leetcode.com/problems/maximum-ice-cream-bars/)|Medium|
+|[📎](src/q_1801_1850/q1833.cc)|1833|[Maximum Ice Cream Bars](https://leetcode.com/problems/maximum-ice-cream-bars/)|Medium|
 |[📎](src/q_1801_1850/q1834.cc)|1834|[Single-Threaded CPU](https://leetcode.com/problems/single-threaded-cpu/)|Medium|
 ||1835|[Find XOR Sum of All Pairs Bitwise AND](https://leetcode.com/problems/find-xor-sum-of-all-pairs-bitwise-and/)|Hard|
 |🔒|1836|[Remove Duplicates From an Unsorted Linked List](https://leetcode.com/problems/remove-duplicates-from-an-unsorted-linked-list/)|Medium|
@@ -2603,6 +2603,7 @@ My daily challenge on leetcode since 2021/09/06.
 
 |Time|#|</>|Question Title|Difficulty|
 |:--|--:|:-:|:--|:--|
+|2023-01-06 16:15|1833|[📎](src/q_1801_1850/q1833.cc)|[Maximum Ice Cream Bars](https://leetcode.com/problems/maximum-ice-cream-bars/)|Medium|
 |2023-01-05 16:23|2053|[📎](src/q_2051_2100/q2053.cc)|[Kth Distinct String in an Array](https://leetcode.com/problems/kth-distinct-string-in-an-array/)|Easy|
 |2023-01-04 20:33|2244|[📎](src/q_2201_2250/q2244.cc)|[Minimum Rounds to Complete All Tasks](https://leetcode.com/problems/minimum-rounds-to-complete-all-tasks/)|Medium|
 |2023-01-03 18:51|944|[📎](src/q_901_950/q0944.cc)|[Delete Columns to Make Sorted](https://leetcode.com/problems/delete-columns-to-make-sorted/)|Easy|
@@ -2627,13 +2628,12 @@ My daily challenge on leetcode since 2021/09/06.
 |2022-12-15 10:20|1816|[📎](src/q_1801_1850/q1816.cc)|[Truncate Sentence](https://leetcode.com/problems/truncate-sentence/)|Easy|
 |2022-12-14 17:37|1784|[📎](src/q_1751_1800/q1784.cc)|[Check if Binary String Has at Most One Segment of Ones](https://leetcode.com/problems/check-if-binary-string-has-at-most-one-segment-of-ones/)|Easy|
 |2022-12-13 19:38|1925|[📎](src/q_1901_1950/q1925.cc)|[Count Square Sum Triples](https://leetcode.com/problems/count-square-sum-triples/)|Easy|
-|2022-12-12 19:51|2032|[📎](src/q_2001_2050/q2032.cc)|[Two Out of Three](https://leetcode.com/problems/two-out-of-three/)|Easy|
 
 ## Previous Logs
 
 |Month|Submissions|Easy|Medium|Hard|
 |:--|:--|:--|:--|:--|
-|[January_2023](./assets/January_2023.md)|5|4|1|0|
+|[January_2023](./assets/January_2023.md)|6|4|2|0|
 |[December_2022](./assets/December_2022.md)|32|27|5|0|
 |[November_2022](./assets/November_2022.md)|30|21|6|3|
 |[October_2022](./assets/October_2022.md)|33|22|7|4|

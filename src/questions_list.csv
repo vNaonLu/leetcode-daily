@@ -1831,7 +1831,7 @@ id,title,level,slug,paid,done
 1830,Minimum Number of Operations to Make String Sorted,3,minimum-number-of-operations-to-make-string-sorted,0,0
 1831,Maximum Transaction Each Day,2,maximum-transaction-each-day,1,0
 1832,Check if the Sentence Is Pangram,1,check-if-the-sentence-is-pangram,0,1
-1833,Maximum Ice Cream Bars,2,maximum-ice-cream-bars,0,0
+1833,Maximum Ice Cream Bars,2,maximum-ice-cream-bars,0,1
 1834,Single-Threaded CPU,2,single-threaded-cpu,0,1
 1835,Find XOR Sum of All Pairs Bitwise AND,3,find-xor-sum-of-all-pairs-bitwise-and,0,0
 1836,Remove Duplicates From an Unsorted Linked List,2,remove-duplicates-from-an-unsorted-linked-list,1,0
