@@ -942,7 +942,7 @@ id,title,level,slug,paid,done
 941,Valid Mountain Array,1,valid-mountain-array,0,1
 942,DI String Match,1,di-string-match,0,0
 943,Find the Shortest Superstring,3,find-the-shortest-superstring,0,0
-944,Delete Columns to Make Sorted,1,delete-columns-to-make-sorted,0,0
+944,Delete Columns to Make Sorted,1,delete-columns-to-make-sorted,0,1
 945,Minimum Increment to Make Array Unique,2,minimum-increment-to-make-array-unique,0,0
 946,Validate Stack Sequences,2,validate-stack-sequences,0,1
 947,Most Stones Removed with Same Row or Column,2,most-stones-removed-with-same-row-or-column,0,1
@@ -1831,7 +1831,7 @@ id,title,level,slug,paid,done
 1830,Minimum Number of Operations to Make String Sorted,3,minimum-number-of-operations-to-make-string-sorted,0,0
 1831,Maximum Transaction Each Day,2,maximum-transaction-each-day,1,0
 1832,Check if the Sentence Is Pangram,1,check-if-the-sentence-is-pangram,0,1
-1833,Maximum Ice Cream Bars,2,maximum-ice-cream-bars,0,0
+1833,Maximum Ice Cream Bars,2,maximum-ice-cream-bars,0,1
 1834,Single-Threaded CPU,2,single-threaded-cpu,0,1
 1835,Find XOR Sum of All Pairs Bitwise AND,3,find-xor-sum-of-all-pairs-bitwise-and,0,0
 1836,Remove Duplicates From an Unsorted Linked List,2,remove-duplicates-from-an-unsorted-linked-list,1,0
@@ -1939,7 +1939,7 @@ id,title,level,slug,paid,done
 1938,Maximum Genetic Difference Query,3,maximum-genetic-difference-query,0,0
 1939,Users That Actively Request Confirmation Messages,1,users-that-actively-request-confirmation-messages,1,0
 1940,Longest Common Subsequence Between Sorted Arrays,2,longest-common-subsequence-between-sorted-arrays,1,0
-1941,Check if All Characters Have Equal Number of Occurrences,1,check-if-all-characters-have-equal-number-of-occurrences,0,0
+1941,Check if All Characters Have Equal Number of Occurrences,1,check-if-all-characters-have-equal-number-of-occurrences,0,1
 1942,The Number of the Smallest Unoccupied Chair,2,the-number-of-the-smallest-unoccupied-chair,0,0
 1943,Describe the Painting,2,describe-the-painting,0,0
 1944,Number of Visible People in a Queue,3,number-of-visible-people-in-a-queue,0,0
@@ -2051,11 +2051,11 @@ id,title,level,slug,paid,done
 2050,Parallel Courses III,3,parallel-courses-iii,0,0
 2051,The Category of Each Member in the Store,2,the-category-of-each-member-in-the-store,1,0
 2052,Minimum Cost to Separate Sentence Into Rows,2,minimum-cost-to-separate-sentence-into-rows,1,0
-2053,Kth Distinct String in an Array,1,kth-distinct-string-in-an-array,0,0
+2053,Kth Distinct String in an Array,1,kth-distinct-string-in-an-array,0,1
 2054,Two Best Non-Overlapping Events,2,two-best-non-overlapping-events,0,0
 2055,Plates Between Candles,2,plates-between-candles,0,0
 2056,Number of Valid Move Combinations On Chessboard,3,number-of-valid-move-combinations-on-chessboard,0,0
-2057,Smallest Index With Equal Value,1,smallest-index-with-equal-value,0,0
+2057,Smallest Index With Equal Value,1,smallest-index-with-equal-value,0,1
 2058,Find the Minimum and Maximum Number of Nodes Between Critical Points,2,find-the-minimum-and-maximum-number-of-nodes-between-critical-points,0,0
 2059,Minimum Operations to Convert Number,2,minimum-operations-to-convert-number,0,0
 2060,Check if an Original String Exists Given Two Encoded Strings,3,check-if-an-original-string-exists-given-two-encoded-strings,0,0
@@ -2152,7 +2152,7 @@ id,title,level,slug,paid,done
 2151,Maximum Good People Based on Statements,3,maximum-good-people-based-on-statements,0,0
 2152,Minimum Number of Lines to Cover Points,2,minimum-number-of-lines-to-cover-points,1,0
 2153,The Number of Passengers in Each Bus II,3,the-number-of-passengers-in-each-bus-ii,1,0
-2154,Keep Multiplying Found Values by Two,1,keep-multiplying-found-values-by-two,0,0
+2154,Keep Multiplying Found Values by Two,1,keep-multiplying-found-values-by-two,0,1
 2155,All Divisions With the Highest Score of a Binary Array,2,all-divisions-with-the-highest-score-of-a-binary-array,0,0
 2156,Find Substring With Given Hash Value,3,find-substring-with-given-hash-value,0,0
 2157,Groups of Strings,3,groups-of-strings,0,0
@@ -2242,7 +2242,7 @@ id,title,level,slug,paid,done
 2241,Design an ATM Machine,2,design-an-atm-machine,0,0
 2242,Maximum Score of a Node Sequence,3,maximum-score-of-a-node-sequence,0,0
 2243,Calculate Digit Sum of a String,1,calculate-digit-sum-of-a-string,0,0
-2244,Minimum Rounds to Complete All Tasks,2,minimum-rounds-to-complete-all-tasks,0,0
+2244,Minimum Rounds to Complete All Tasks,2,minimum-rounds-to-complete-all-tasks,0,1
 2245,Maximum Trailing Zeros in a Cornered Path,2,maximum-trailing-zeros-in-a-cornered-path,0,0
 2246,Longest Path With Different Adjacent Characters,3,longest-path-with-different-adjacent-characters,0,0
 2247,Maximum Cost of Trip With K Highways,3,maximum-cost-of-trip-with-k-highways,1,0
@@ -2518,3 +2518,8 @@ id,title,level,slug,paid,done
 2517,Maximum Tastiness of Candy Basket,2,maximum-tastiness-of-candy-basket,0,0
 2518,Number of Great Partitions,3,number-of-great-partitions,0,0
 2519,Count the Number of K-Big Indices,3,count-the-number-of-k-big-indices,1,0
+2520,Count the Digits That Divide a Number,1,count-the-digits-that-divide-a-number,0,0
+2521,Distinct Prime Factors of Product of Array,2,distinct-prime-factors-of-product-of-array,0,0
+2522,Partition String Into Substrings With Values at Most K,2,partition-string-into-substrings-with-values-at-most-k,0,0
+2523,Closest Prime Numbers in Range,2,closest-prime-numbers-in-range,0,0
+2524,Maximum Frequency Score of a Subarray,3,maximum-frequency-score-of-a-subarray,1,0
