@@ -2152,7 +2152,7 @@ id,title,level,slug,paid,done
 2151,Maximum Good People Based on Statements,3,maximum-good-people-based-on-statements,0,0
 2152,Minimum Number of Lines to Cover Points,2,minimum-number-of-lines-to-cover-points,1,0
 2153,The Number of Passengers in Each Bus II,3,the-number-of-passengers-in-each-bus-ii,1,0
-2154,Keep Multiplying Found Values by Two,1,keep-multiplying-found-values-by-two,0,0
+2154,Keep Multiplying Found Values by Two,1,keep-multiplying-found-values-by-two,0,1
 2155,All Divisions With the Highest Score of a Binary Array,2,all-divisions-with-the-highest-score-of-a-binary-array,0,0
 2156,Find Substring With Given Hash Value,3,find-substring-with-given-hash-value,0,0
 2157,Groups of Strings,3,groups-of-strings,0,0
