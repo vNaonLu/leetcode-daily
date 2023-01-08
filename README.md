@@ -2320,7 +2320,7 @@ My daily challenge on leetcode since 2021/09/06.
 |🔒|2252|[Dynamic Pivoting of a Table](https://leetcode.com/problems/dynamic-pivoting-of-a-table/)|Hard|
 |🔒|2253|[Dynamic Unpivoting of a Table](https://leetcode.com/problems/dynamic-unpivoting-of-a-table/)|Hard|
 |🔒|2254|[Design Video Sharing Platform](https://leetcode.com/problems/design-video-sharing-platform/)|Hard|
-||2255|[Count Prefixes of a Given String](https://leetcode.com/problems/count-prefixes-of-a-given-string/)|Easy|
+|[📎](src/q_2251_2300/q2255.cc)|2255|[Count Prefixes of a Given String](https://leetcode.com/problems/count-prefixes-of-a-given-string/)|Easy|
 |[📎](src/q_2251_2300/q2256.cc)|2256|[Minimum Average Difference](https://leetcode.com/problems/minimum-average-difference/)|Medium|
 ||2257|[Count Unguarded Cells in the Grid](https://leetcode.com/problems/count-unguarded-cells-in-the-grid/)|Medium|
 ||2258|[Escape the Spreading Fire](https://leetcode.com/problems/escape-the-spreading-fire/)|Hard|
@@ -2568,7 +2568,7 @@ My daily challenge on leetcode since 2021/09/06.
 ||2500|[Delete Greatest Value in Each Row](https://leetcode.com/problems/delete-greatest-value-in-each-row/)|Easy|
 </details>
 <details>
-  <summary>### 2501 ~ 2524</summary>
+  <summary>### 2501 ~ 2532</summary>
 
 |</>|#|Solution Title|Difficulty|
 |:-:|--:|:--|:--|
@@ -2596,6 +2596,14 @@ My daily challenge on leetcode since 2021/09/06.
 ||2522|[Partition String Into Substrings With Values at Most K](https://leetcode.com/problems/partition-string-into-substrings-with-values-at-most-k/)|Medium|
 ||2523|[Closest Prime Numbers in Range](https://leetcode.com/problems/closest-prime-numbers-in-range/)|Medium|
 |🔒|2524|[Maximum Frequency Score of a Subarray](https://leetcode.com/problems/maximum-frequency-score-of-a-subarray/)|Hard|
+||2525|[Categorize Box According to Criteria](https://leetcode.com/problems/categorize-box-according-to-criteria/)|Easy|
+||2526|[Find Consecutive Integers from a Data Stream](https://leetcode.com/problems/find-consecutive-integers-from-a-data-stream/)|Medium|
+||2527|[Find Xor-Beauty of Array](https://leetcode.com/problems/find-xor-beauty-of-array/)|Medium|
+||2528|[Maximize the Minimum Powered City](https://leetcode.com/problems/maximize-the-minimum-powered-city/)|Hard|
+||2529|[Maximum Count of Positive Integer and Negative Integer](https://leetcode.com/problems/maximum-count-of-positive-integer-and-negative-integer/)|Easy|
+||2530|[Maximal Score After Applying K Operations](https://leetcode.com/problems/maximal-score-after-applying-k-operations/)|Medium|
+||2531|[Make Number of Distinct Characters Equal](https://leetcode.com/problems/make-number-of-distinct-characters-equal/)|Medium|
+||2532|[Time to Cross a Bridge](https://leetcode.com/problems/time-to-cross-a-bridge/)|Hard|
 </details>
 
 ---
@@ -2603,6 +2611,7 @@ My daily challenge on leetcode since 2021/09/06.
 
 |Time|#|</>|Question Title|Difficulty|
 |:--|--:|:-:|:--|:--|
+|2023-01-08 21:09|2255|[📎](src/q_2251_2300/q2255.cc)|[Count Prefixes of a Given String](https://leetcode.com/problems/count-prefixes-of-a-given-string/)|Easy|
 |2023-01-07 14:40|2154|[📎](src/q_2151_2200/q2154.cc)|[Keep Multiplying Found Values by Two](https://leetcode.com/problems/keep-multiplying-found-values-by-two/)|Easy|
 |2023-01-06 16:15|1833|[📎](src/q_1801_1850/q1833.cc)|[Maximum Ice Cream Bars](https://leetcode.com/problems/maximum-ice-cream-bars/)|Medium|
 |2023-01-05 16:23|2053|[📎](src/q_2051_2100/q2053.cc)|[Kth Distinct String in an Array](https://leetcode.com/problems/kth-distinct-string-in-an-array/)|Easy|
@@ -2627,13 +2636,12 @@ My daily challenge on leetcode since 2021/09/06.
 |2022-12-17 13:03|1716|[📎](src/q_1701_1750/q1716.cc)|[Calculate Money in Leetcode Bank](https://leetcode.com/problems/calculate-money-in-leetcode-bank/)|Easy|
 |2022-12-16 18:30|1748|[📎](src/q_1701_1750/q1748.cc)|[Sum of Unique Elements](https://leetcode.com/problems/sum-of-unique-elements/)|Easy|
 |2022-12-15 10:20|1816|[📎](src/q_1801_1850/q1816.cc)|[Truncate Sentence](https://leetcode.com/problems/truncate-sentence/)|Easy|
-|2022-12-14 17:37|1784|[📎](src/q_1751_1800/q1784.cc)|[Check if Binary String Has at Most One Segment of Ones](https://leetcode.com/problems/check-if-binary-string-has-at-most-one-segment-of-ones/)|Easy|
 
 ## Previous Logs
 
 |Month|Submissions|Easy|Medium|Hard|
 |:--|:--|:--|:--|:--|
-|[January_2023](./assets/January_2023.md)|7|5|2|0|
+|[January_2023](./assets/January_2023.md)|8|6|2|0|
 |[December_2022](./assets/December_2022.md)|32|27|5|0|
 |[November_2022](./assets/November_2022.md)|30|21|6|3|
 |[October_2022](./assets/October_2022.md)|33|22|7|4|

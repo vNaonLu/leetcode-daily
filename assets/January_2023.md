@@ -2,6 +2,7 @@
 
 ||#|</>|Question Title|Difficulty|
 |:--|--:|:-:|:--|:--|
+|Day 8|2255|[📎](../src/q_2251_2300/q2255.cc)|[Count Prefixes of a Given String](https://leetcode.com/problems/count-prefixes-of-a-given-string/)|Easy|
 |Day 7|2154|[📎](../src/q_2151_2200/q2154.cc)|[Keep Multiplying Found Values by Two](https://leetcode.com/problems/keep-multiplying-found-values-by-two/)|Easy|
 |Day 6|1833|[📎](../src/q_1801_1850/q1833.cc)|[Maximum Ice Cream Bars](https://leetcode.com/problems/maximum-ice-cream-bars/)|Medium|
 |Day 5|2053|[📎](../src/q_2051_2100/q2053.cc)|[Kth Distinct String in an Array](https://leetcode.com/problems/kth-distinct-string-in-an-array/)|Easy|

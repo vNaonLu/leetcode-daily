@@ -2253,7 +2253,7 @@ id,title,level,slug,paid,done
 2252,Dynamic Pivoting of a Table,3,dynamic-pivoting-of-a-table,1,0
 2253,Dynamic Unpivoting of a Table,3,dynamic-unpivoting-of-a-table,1,0
 2254,Design Video Sharing Platform,3,design-video-sharing-platform,1,0
-2255,Count Prefixes of a Given String,1,count-prefixes-of-a-given-string,0,0
+2255,Count Prefixes of a Given String,1,count-prefixes-of-a-given-string,0,1
 2256,Minimum Average Difference,2,minimum-average-difference,0,1
 2257,Count Unguarded Cells in the Grid,2,count-unguarded-cells-in-the-grid,0,0
 2258,Escape the Spreading Fire,3,escape-the-spreading-fire,0,0
@@ -2523,3 +2523,11 @@ id,title,level,slug,paid,done
 2522,Partition String Into Substrings With Values at Most K,2,partition-string-into-substrings-with-values-at-most-k,0,0
 2523,Closest Prime Numbers in Range,2,closest-prime-numbers-in-range,0,0
 2524,Maximum Frequency Score of a Subarray,3,maximum-frequency-score-of-a-subarray,1,0
+2525,Categorize Box According to Criteria,1,categorize-box-according-to-criteria,0,0
+2526,Find Consecutive Integers from a Data Stream,2,find-consecutive-integers-from-a-data-stream,0,0
+2527,Find Xor-Beauty of Array,2,find-xor-beauty-of-array,0,0
+2528,Maximize the Minimum Powered City,3,maximize-the-minimum-powered-city,0,0
+2529,Maximum Count of Positive Integer and Negative Integer,1,maximum-count-of-positive-integer-and-negative-integer,0,0
+2530,Maximal Score After Applying K Operations,2,maximal-score-after-applying-k-operations,0,0
+2531,Make Number of Distinct Characters Equal,2,make-number-of-distinct-characters-equal,0,0
+2532,Time to Cross a Bridge,3,time-to-cross-a-bridge,0,0
