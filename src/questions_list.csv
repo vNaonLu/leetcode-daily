@@ -1517,7 +1517,7 @@ id,title,level,slug,paid,done
 1516,Move Sub-Tree of N-Ary Tree,3,move-sub-tree-of-n-ary-tree,1,0
 1517,Find Users With Valid E-Mails,1,find-users-with-valid-e-mails,1,0
 1518,Water Bottles,1,water-bottles,0,0
-1519,Number of Nodes in the Sub-Tree With the Same Label,2,number-of-nodes-in-the-sub-tree-with-the-same-label,0,0
+1519,Number of Nodes in the Sub-Tree With the Same Label,2,number-of-nodes-in-the-sub-tree-with-the-same-label,0,1
 1520,Maximum Number of Non-Overlapping Substrings,3,maximum-number-of-non-overlapping-substrings,0,0
 1521,Find a Value of a Mysterious Function Closest to Target,3,find-a-value-of-a-mysterious-function-closest-to-target,0,0
 1522,Diameter of N-Ary Tree,2,diameter-of-n-ary-tree,1,0
@@ -2531,3 +2531,4 @@ id,title,level,slug,paid,done
 2530,Maximal Score After Applying K Operations,2,maximal-score-after-applying-k-operations,0,0
 2531,Make Number of Distinct Characters Equal,2,make-number-of-distinct-characters-equal,0,0
 2532,Time to Cross a Bridge,3,time-to-cross-a-bridge,0,0
+2533,Number of Good Binary Strings,2,number-of-good-binary-strings,1,0

@@ -1566,7 +1566,7 @@ My daily challenge on leetcode since 2021/09/06.
 |🔒|1516|[Move Sub-Tree of N-Ary Tree](https://leetcode.com/problems/move-sub-tree-of-n-ary-tree/)|Hard|
 |🔒|1517|[Find Users With Valid E-Mails](https://leetcode.com/problems/find-users-with-valid-e-mails/)|Easy|
 ||1518|[Water Bottles](https://leetcode.com/problems/water-bottles/)|Easy|
-||1519|[Number of Nodes in the Sub-Tree With the Same Label](https://leetcode.com/problems/number-of-nodes-in-the-sub-tree-with-the-same-label/)|Medium|
+|[📎](src/q_1501_1550/q1519.cc)|1519|[Number of Nodes in the Sub-Tree With the Same Label](https://leetcode.com/problems/number-of-nodes-in-the-sub-tree-with-the-same-label/)|Medium|
 ||1520|[Maximum Number of Non-Overlapping Substrings](https://leetcode.com/problems/maximum-number-of-non-overlapping-substrings/)|Hard|
 ||1521|[Find a Value of a Mysterious Function Closest to Target](https://leetcode.com/problems/find-a-value-of-a-mysterious-function-closest-to-target/)|Hard|
 |🔒|1522|[Diameter of N-Ary Tree](https://leetcode.com/problems/diameter-of-n-ary-tree/)|Medium|
@@ -2568,7 +2568,7 @@ My daily challenge on leetcode since 2021/09/06.
 ||2500|[Delete Greatest Value in Each Row](https://leetcode.com/problems/delete-greatest-value-in-each-row/)|Easy|
 </details>
 <details>
-  <summary>### 2501 ~ 2532</summary>
+  <summary>### 2501 ~ 2533</summary>
 
 |</>|#|Solution Title|Difficulty|
 |:-:|--:|:--|:--|
@@ -2604,6 +2604,7 @@ My daily challenge on leetcode since 2021/09/06.
 ||2530|[Maximal Score After Applying K Operations](https://leetcode.com/problems/maximal-score-after-applying-k-operations/)|Medium|
 ||2531|[Make Number of Distinct Characters Equal](https://leetcode.com/problems/make-number-of-distinct-characters-equal/)|Medium|
 ||2532|[Time to Cross a Bridge](https://leetcode.com/problems/time-to-cross-a-bridge/)|Hard|
+|🔒|2533|[Number of Good Binary Strings](https://leetcode.com/problems/number-of-good-binary-strings/)|Medium|
 </details>
 
 ---
@@ -2611,6 +2612,7 @@ My daily challenge on leetcode since 2021/09/06.
 
 |Time|#|</>|Question Title|Difficulty|
 |:--|--:|:-:|:--|:--|
+|2023-01-12 16:04|1519|[📎](src/q_1501_1550/q1519.cc)|[Number of Nodes in the Sub-Tree With the Same Label](https://leetcode.com/problems/number-of-nodes-in-the-sub-tree-with-the-same-label/)|Medium|
 |2023-01-11 18:59|1443|[📎](src/q_1401_1450/q1443.cc)|[Minimum Time to Collect All Apples in a Tree](https://leetcode.com/problems/minimum-time-to-collect-all-apples-in-a-tree/)|Medium|
 |2023-01-10 14:06|2248|[📎](src/q_2201_2250/q2248.cc)|[Intersection of Multiple Arrays](https://leetcode.com/problems/intersection-of-multiple-arrays/)|Easy|
 |2023-01-09 18:53|2293|[📎](src/q_2251_2300/q2293.cc)|[Min Max Game](https://leetcode.com/problems/min-max-game/)|Easy|
@@ -2635,13 +2637,12 @@ My daily challenge on leetcode since 2021/09/06.
 |2022-12-21 20:29|1684|[📎](src/q_1651_1700/q1684.cc)|[Count the Number of Consistent Strings](https://leetcode.com/problems/count-the-number-of-consistent-strings/)|Easy|
 |2022-12-20 18:35|1837|[📎](src/q_1801_1850/q1837.cc)|[Sum of Digits in Base K](https://leetcode.com/problems/sum-of-digits-in-base-k/)|Easy|
 |2022-12-19 21:04|1652|[📎](src/q_1651_1700/q1652.cc)|[Defuse the Bomb](https://leetcode.com/problems/defuse-the-bomb/)|Easy|
-|2022-12-18 13:45|1668|[📎](src/q_1651_1700/q1668.cc)|[Maximum Repeating Substring](https://leetcode.com/problems/maximum-repeating-substring/)|Easy|
 
 ## Previous Logs
 
 |Month|Submissions|Easy|Medium|Hard|
 |:--|:--|:--|:--|:--|
-|[January_2023](./assets/January_2023.md)|11|8|3|0|
+|[January_2023](./assets/January_2023.md)|12|8|4|0|
 |[December_2022](./assets/December_2022.md)|32|27|5|0|
 |[November_2022](./assets/November_2022.md)|30|21|6|3|
 |[October_2022](./assets/October_2022.md)|33|22|7|4|
