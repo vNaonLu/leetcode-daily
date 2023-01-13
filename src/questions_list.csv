@@ -2244,7 +2244,7 @@ id,title,level,slug,paid,done
 2243,Calculate Digit Sum of a String,1,calculate-digit-sum-of-a-string,0,0
 2244,Minimum Rounds to Complete All Tasks,2,minimum-rounds-to-complete-all-tasks,0,1
 2245,Maximum Trailing Zeros in a Cornered Path,2,maximum-trailing-zeros-in-a-cornered-path,0,0
-2246,Longest Path With Different Adjacent Characters,3,longest-path-with-different-adjacent-characters,0,0
+2246,Longest Path With Different Adjacent Characters,3,longest-path-with-different-adjacent-characters,0,1
 2247,Maximum Cost of Trip With K Highways,3,maximum-cost-of-trip-with-k-highways,1,0
 2248,Intersection of Multiple Arrays,1,intersection-of-multiple-arrays,0,1
 2249,Count Lattice Points Inside a Circle,2,count-lattice-points-inside-a-circle,0,0
