@@ -2,6 +2,13 @@
 
 ||#|</>|Question Title|Difficulty|
 |:--|--:|:-:|:--|:--|
+|Day 14|1061|[📎](../src/q_1051_1100/q1061.cc)|[Lexicographically Smallest Equivalent String](https://leetcode.com/problems/lexicographically-smallest-equivalent-string/)|Medium|
+|Day 13|2246|[📎](../src/q_2201_2250/q2246.cc)|[Longest Path With Different Adjacent Characters](https://leetcode.com/problems/longest-path-with-different-adjacent-characters/)|Hard|
+|Day 12|1519|[📎](../src/q_1501_1550/q1519.cc)|[Number of Nodes in the Sub-Tree With the Same Label](https://leetcode.com/problems/number-of-nodes-in-the-sub-tree-with-the-same-label/)|Medium|
+|Day 11|1443|[📎](../src/q_1401_1450/q1443.cc)|[Minimum Time to Collect All Apples in a Tree](https://leetcode.com/problems/minimum-time-to-collect-all-apples-in-a-tree/)|Medium|
+|Day 10|2248|[📎](../src/q_2201_2250/q2248.cc)|[Intersection of Multiple Arrays](https://leetcode.com/problems/intersection-of-multiple-arrays/)|Easy|
+|Day 9|2293|[📎](../src/q_2251_2300/q2293.cc)|[Min Max Game](https://leetcode.com/problems/min-max-game/)|Easy|
+|Day 8|2255|[📎](../src/q_2251_2300/q2255.cc)|[Count Prefixes of a Given String](https://leetcode.com/problems/count-prefixes-of-a-given-string/)|Easy|
 |Day 7|2154|[📎](../src/q_2151_2200/q2154.cc)|[Keep Multiplying Found Values by Two](https://leetcode.com/problems/keep-multiplying-found-values-by-two/)|Easy|
 |Day 6|1833|[📎](../src/q_1801_1850/q1833.cc)|[Maximum Ice Cream Bars](https://leetcode.com/problems/maximum-ice-cream-bars/)|Medium|
 |Day 5|2053|[📎](../src/q_2051_2100/q2053.cc)|[Kth Distinct String in an Array](https://leetcode.com/problems/kth-distinct-string-in-an-array/)|Easy|

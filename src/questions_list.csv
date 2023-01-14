@@ -1059,7 +1059,7 @@ id,title,level,slug,paid,done
 1058,Minimize Rounding Error to Meet Target,2,minimize-rounding-error-to-meet-target,1,0
 1059,All Paths from Source Lead to Destination,2,all-paths-from-source-lead-to-destination,1,0
 1060,Missing Element in Sorted Array,2,missing-element-in-sorted-array,1,0
-1061,Lexicographically Smallest Equivalent String,2,lexicographically-smallest-equivalent-string,1,0
+1061,Lexicographically Smallest Equivalent String,2,lexicographically-smallest-equivalent-string,0,1
 1062,Longest Repeating Substring,2,longest-repeating-substring,1,0
 1063,Number of Valid Subarrays,3,number-of-valid-subarrays,1,0
 1064,Fixed Point,1,fixed-point,1,0
@@ -1441,7 +1441,7 @@ id,title,level,slug,paid,done
 1440,Evaluate Boolean Expression,2,evaluate-boolean-expression,1,0
 1441,Build an Array With Stack Operations,2,build-an-array-with-stack-operations,0,0
 1442,Count Triplets That Can Form Two Arrays of Equal XOR,2,count-triplets-that-can-form-two-arrays-of-equal-xor,0,0
-1443,Minimum Time to Collect All Apples in a Tree,2,minimum-time-to-collect-all-apples-in-a-tree,0,0
+1443,Minimum Time to Collect All Apples in a Tree,2,minimum-time-to-collect-all-apples-in-a-tree,0,1
 1444,Number of Ways of Cutting a Pizza,3,number-of-ways-of-cutting-a-pizza,0,0
 1445,Apples & Oranges,2,apples-oranges,1,0
 1446,Consecutive Characters,1,consecutive-characters,0,1
@@ -1517,7 +1517,7 @@ id,title,level,slug,paid,done
 1516,Move Sub-Tree of N-Ary Tree,3,move-sub-tree-of-n-ary-tree,1,0
 1517,Find Users With Valid E-Mails,1,find-users-with-valid-e-mails,1,0
 1518,Water Bottles,1,water-bottles,0,0
-1519,Number of Nodes in the Sub-Tree With the Same Label,2,number-of-nodes-in-the-sub-tree-with-the-same-label,0,0
+1519,Number of Nodes in the Sub-Tree With the Same Label,2,number-of-nodes-in-the-sub-tree-with-the-same-label,0,1
 1520,Maximum Number of Non-Overlapping Substrings,3,maximum-number-of-non-overlapping-substrings,0,0
 1521,Find a Value of a Mysterious Function Closest to Target,3,find-a-value-of-a-mysterious-function-closest-to-target,0,0
 1522,Diameter of N-Ary Tree,2,diameter-of-n-ary-tree,1,0
@@ -2244,16 +2244,16 @@ id,title,level,slug,paid,done
 2243,Calculate Digit Sum of a String,1,calculate-digit-sum-of-a-string,0,0
 2244,Minimum Rounds to Complete All Tasks,2,minimum-rounds-to-complete-all-tasks,0,1
 2245,Maximum Trailing Zeros in a Cornered Path,2,maximum-trailing-zeros-in-a-cornered-path,0,0
-2246,Longest Path With Different Adjacent Characters,3,longest-path-with-different-adjacent-characters,0,0
+2246,Longest Path With Different Adjacent Characters,3,longest-path-with-different-adjacent-characters,0,1
 2247,Maximum Cost of Trip With K Highways,3,maximum-cost-of-trip-with-k-highways,1,0
-2248,Intersection of Multiple Arrays,1,intersection-of-multiple-arrays,0,0
+2248,Intersection of Multiple Arrays,1,intersection-of-multiple-arrays,0,1
 2249,Count Lattice Points Inside a Circle,2,count-lattice-points-inside-a-circle,0,0
 2250,Count Number of Rectangles Containing Each Point,2,count-number-of-rectangles-containing-each-point,0,0
 2251,Number of Flowers in Full Bloom,3,number-of-flowers-in-full-bloom,0,0
 2252,Dynamic Pivoting of a Table,3,dynamic-pivoting-of-a-table,1,0
 2253,Dynamic Unpivoting of a Table,3,dynamic-unpivoting-of-a-table,1,0
 2254,Design Video Sharing Platform,3,design-video-sharing-platform,1,0
-2255,Count Prefixes of a Given String,1,count-prefixes-of-a-given-string,0,0
+2255,Count Prefixes of a Given String,1,count-prefixes-of-a-given-string,0,1
 2256,Minimum Average Difference,2,minimum-average-difference,0,1
 2257,Count Unguarded Cells in the Grid,2,count-unguarded-cells-in-the-grid,0,0
 2258,Escape the Spreading Fire,3,escape-the-spreading-fire,0,0
@@ -2291,7 +2291,7 @@ id,title,level,slug,paid,done
 2290,Minimum Obstacle Removal to Reach Corner,3,minimum-obstacle-removal-to-reach-corner,0,0
 2291,Maximum Profit From Trading Stocks,2,maximum-profit-from-trading-stocks,1,0
 2292,Products With Three or More Orders in Two Consecutive Years,2,products-with-three-or-more-orders-in-two-consecutive-years,1,0
-2293,Min Max Game,1,min-max-game,0,0
+2293,Min Max Game,1,min-max-game,0,1
 2294,Partition Array Such That Maximum Difference Is K,2,partition-array-such-that-maximum-difference-is-k,0,0
 2295,Replace Elements in an Array,2,replace-elements-in-an-array,0,0
 2296,Design a Text Editor,3,design-a-text-editor,0,0
@@ -2523,3 +2523,13 @@ id,title,level,slug,paid,done
 2522,Partition String Into Substrings With Values at Most K,2,partition-string-into-substrings-with-values-at-most-k,0,0
 2523,Closest Prime Numbers in Range,2,closest-prime-numbers-in-range,0,0
 2524,Maximum Frequency Score of a Subarray,3,maximum-frequency-score-of-a-subarray,1,0
+2525,Categorize Box According to Criteria,1,categorize-box-according-to-criteria,0,0
+2526,Find Consecutive Integers from a Data Stream,2,find-consecutive-integers-from-a-data-stream,0,0
+2527,Find Xor-Beauty of Array,2,find-xor-beauty-of-array,0,0
+2528,Maximize the Minimum Powered City,3,maximize-the-minimum-powered-city,0,0
+2529,Maximum Count of Positive Integer and Negative Integer,1,maximum-count-of-positive-integer-and-negative-integer,0,0
+2530,Maximal Score After Applying K Operations,2,maximal-score-after-applying-k-operations,0,0
+2531,Make Number of Distinct Characters Equal,2,make-number-of-distinct-characters-equal,0,0
+2532,Time to Cross a Bridge,3,time-to-cross-a-bridge,0,0
+2533,Number of Good Binary Strings,2,number-of-good-binary-strings,1,0
+2534,Time Taken to Cross the Door,3,time-taken-to-cross-the-door,1,0
