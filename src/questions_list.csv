@@ -1059,7 +1059,7 @@ id,title,level,slug,paid,done
 1058,Minimize Rounding Error to Meet Target,2,minimize-rounding-error-to-meet-target,1,0
 1059,All Paths from Source Lead to Destination,2,all-paths-from-source-lead-to-destination,1,0
 1060,Missing Element in Sorted Array,2,missing-element-in-sorted-array,1,0
-1061,Lexicographically Smallest Equivalent String,2,lexicographically-smallest-equivalent-string,1,0
+1061,Lexicographically Smallest Equivalent String,2,lexicographically-smallest-equivalent-string,0,1
 1062,Longest Repeating Substring,2,longest-repeating-substring,1,0
 1063,Number of Valid Subarrays,3,number-of-valid-subarrays,1,0
 1064,Fixed Point,1,fixed-point,1,0
@@ -2532,3 +2532,4 @@ id,title,level,slug,paid,done
 2531,Make Number of Distinct Characters Equal,2,make-number-of-distinct-characters-equal,0,0
 2532,Time to Cross a Bridge,3,time-to-cross-a-bridge,0,0
 2533,Number of Good Binary Strings,2,number-of-good-binary-strings,1,0
+2534,Time Taken to Cross the Door,3,time-taken-to-cross-the-door,1,0
