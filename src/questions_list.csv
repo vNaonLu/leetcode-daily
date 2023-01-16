@@ -2233,7 +2233,7 @@ id,title,level,slug,paid,done
 2232,Minimize Result by Adding Parentheses to Expression,2,minimize-result-by-adding-parentheses-to-expression,0,0
 2233,Maximum Product After K Increments,2,maximum-product-after-k-increments,0,0
 2234,Maximum Total Beauty of the Gardens,3,maximum-total-beauty-of-the-gardens,0,0
-2235,Add Two Integers,1,add-two-integers,0,0
+2235,Add Two Integers,1,add-two-integers,0,1
 2236,Root Equals Sum of Children,1,root-equals-sum-of-children,0,1
 2237,Count Positions on Street With Required Brightness,2,count-positions-on-street-with-required-brightness,1,0
 2238,Number of Times a Driver Was a Passenger,2,number-of-times-a-driver-was-a-passenger,1,0
