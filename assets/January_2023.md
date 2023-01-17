@@ -2,6 +2,7 @@
 
 ||#|</>|Question Title|Difficulty|
 |:--|--:|:-:|:--|:--|
+|Day 17|2319|[📎](../src/q_2301_2350/q2319.cc)|[Check if Matrix Is X-Matrix](https://leetcode.com/problems/check-if-matrix-is-x-matrix/)|Easy|
 |Day 16|2235<br>2239|[📎](../src/q_2201_2250/q2235.cc)<br>[📎](../src/q_2201_2250/q2239.cc)|[Add Two Integers](https://leetcode.com/problems/add-two-integers/)<br>[Find Closest Number to Zero](https://leetcode.com/problems/find-closest-number-to-zero/)|Easy<br>Easy|
 |Day 15|2421|[📎](../src/q_2401_2450/q2421.cc)|[Number of Good Paths](https://leetcode.com/problems/number-of-good-paths/)|Hard|
 |Day 14|1061|[📎](../src/q_1051_1100/q1061.cc)|[Lexicographically Smallest Equivalent String](https://leetcode.com/problems/lexicographically-smallest-equivalent-string/)|Medium|

@@ -2384,7 +2384,7 @@ My daily challenge on leetcode since 2021/09/06.
 ||2316|[Count Unreachable Pairs of Nodes in an Undirected Graph](https://leetcode.com/problems/count-unreachable-pairs-of-nodes-in-an-undirected-graph/)|Medium|
 ||2317|[Maximum XOR After Operations ](https://leetcode.com/problems/maximum-xor-after-operations/)|Medium|
 ||2318|[Number of Distinct Roll Sequences](https://leetcode.com/problems/number-of-distinct-roll-sequences/)|Hard|
-||2319|[Check if Matrix Is X-Matrix](https://leetcode.com/problems/check-if-matrix-is-x-matrix/)|Easy|
+|[📎](src/q_2301_2350/q2319.cc)|2319|[Check if Matrix Is X-Matrix](https://leetcode.com/problems/check-if-matrix-is-x-matrix/)|Easy|
 ||2320|[Count Number of Ways to Place Houses](https://leetcode.com/problems/count-number-of-ways-to-place-houses/)|Medium|
 ||2321|[Maximum Score Of Spliced Array](https://leetcode.com/problems/maximum-score-of-spliced-array/)|Hard|
 ||2322|[Minimum Score After Removals on a Tree](https://leetcode.com/problems/minimum-score-after-removals-on-a-tree/)|Hard|
@@ -2617,6 +2617,7 @@ My daily challenge on leetcode since 2021/09/06.
 
 |Time|#|</>|Question Title|Difficulty|
 |:--|--:|:-:|:--|:--|
+|2023-01-17 21:30|2319|[📎](src/q_2301_2350/q2319.cc)|[Check if Matrix Is X-Matrix](https://leetcode.com/problems/check-if-matrix-is-x-matrix/)|Easy|
 |2023-01-16 16:08|2239|[📎](src/q_2201_2250/q2239.cc)|[Find Closest Number to Zero](https://leetcode.com/problems/find-closest-number-to-zero/)|Easy|
 |2023-01-16 16:02|2235|[📎](src/q_2201_2250/q2235.cc)|[Add Two Integers](https://leetcode.com/problems/add-two-integers/)|Easy|
 |2023-01-15 17:33|2421|[📎](src/q_2401_2450/q2421.cc)|[Number of Good Paths](https://leetcode.com/problems/number-of-good-paths/)|Hard|
@@ -2641,13 +2642,12 @@ My daily challenge on leetcode since 2021/09/06.
 |2022-12-27 20:59|2279|[📎](src/q_2251_2300/q2279.cc)|[Maximum Bags With Full Capacity of Rocks](https://leetcode.com/problems/maximum-bags-with-full-capacity-of-rocks/)|Medium|
 |2022-12-26 14:39|1656|[📎](src/q_1651_1700/q1656.cc)|[Design an Ordered Stream](https://leetcode.com/problems/design-an-ordered-stream/)|Easy|
 |2022-12-25 14:43|2389|[📎](src/q_2351_2400/q2389.cc)|[Longest Subsequence With Limited Sum](https://leetcode.com/problems/longest-subsequence-with-limited-sum/)|Easy|
-|2022-12-24 14:41|1952|[📎](src/q_1951_2000/q1952.cc)|[Three Divisors](https://leetcode.com/problems/three-divisors/)|Easy|
 
 ## Previous Logs
 
 |Month|Submissions|Easy|Medium|Hard|
 |:--|:--|:--|:--|:--|
-|[January_2023](./assets/January_2023.md)|17|10|5|2|
+|[January_2023](./assets/January_2023.md)|18|11|5|2|
 |[December_2022](./assets/December_2022.md)|32|27|5|0|
 |[November_2022](./assets/November_2022.md)|30|21|6|3|
 |[October_2022](./assets/October_2022.md)|33|22|7|4|

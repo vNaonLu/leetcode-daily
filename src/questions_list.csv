@@ -2317,7 +2317,7 @@ id,title,level,slug,paid,done
 2316,Count Unreachable Pairs of Nodes in an Undirected Graph,2,count-unreachable-pairs-of-nodes-in-an-undirected-graph,0,0
 2317,Maximum XOR After Operations ,2,maximum-xor-after-operations,0,0
 2318,Number of Distinct Roll Sequences,3,number-of-distinct-roll-sequences,0,0
-2319,Check if Matrix Is X-Matrix,1,check-if-matrix-is-x-matrix,0,0
+2319,Check if Matrix Is X-Matrix,1,check-if-matrix-is-x-matrix,0,1
 2320,Count Number of Ways to Place Houses,2,count-number-of-ways-to-place-houses,0,0
 2321,Maximum Score Of Spliced Array,3,maximum-score-of-spliced-array,0,0
 2322,Minimum Score After Removals on a Tree,3,minimum-score-after-removals-on-a-tree,0,0
