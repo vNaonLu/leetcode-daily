@@ -2416,7 +2416,7 @@ id,title,level,slug,paid,done
 2415,Reverse Odd Levels of Binary Tree,2,reverse-odd-levels-of-binary-tree,0,0
 2416,Sum of Prefix Scores of Strings,3,sum-of-prefix-scores-of-strings,0,0
 2417,Closest Fair Integer,2,closest-fair-integer,1,0
-2418,Sort the People,1,sort-the-people,0,0
+2418,Sort the People,1,sort-the-people,0,1
 2419,Longest Subarray With Maximum Bitwise AND,2,longest-subarray-with-maximum-bitwise-and,0,0
 2420,Find All Good Indices,2,find-all-good-indices,0,0
 2421,Number of Good Paths,3,number-of-good-paths,0,1
