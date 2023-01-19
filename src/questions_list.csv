@@ -972,7 +972,7 @@ id,title,level,slug,paid,done
 971,Flip Binary Tree To Match Preorder Traversal,2,flip-binary-tree-to-match-preorder-traversal,0,0
 972,Equal Rational Numbers,3,equal-rational-numbers,0,0
 973,K Closest Points to Origin,2,k-closest-points-to-origin,0,1
-974,Subarray Sums Divisible by K,2,subarray-sums-divisible-by-k,0,0
+974,Subarray Sums Divisible by K,2,subarray-sums-divisible-by-k,0,1
 975,Odd Even Jump,3,odd-even-jump,0,0
 976,Largest Perimeter Triangle,1,largest-perimeter-triangle,0,1
 977,Squares of a Sorted Array,1,squares-of-a-sorted-array,0,1
@@ -2537,3 +2537,4 @@ id,title,level,slug,paid,done
 2536,Increment Submatrices by One,2,increment-submatrices-by-one,0,0
 2537,Count the Number of Good Subarrays,2,count-the-number-of-good-subarrays,0,0
 2538,Difference Between Maximum and Minimum Price Sum,3,difference-between-maximum-and-minimum-price-sum,0,0
+2539,Count the Number of Good Subsequences,2,count-the-number-of-good-subsequences,1,0

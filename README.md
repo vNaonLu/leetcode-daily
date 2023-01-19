@@ -1003,7 +1003,7 @@ My daily challenge on leetcode since 2021/09/06.
 ||971|[Flip Binary Tree To Match Preorder Traversal](https://leetcode.com/problems/flip-binary-tree-to-match-preorder-traversal/)|Medium|
 ||972|[Equal Rational Numbers](https://leetcode.com/problems/equal-rational-numbers/)|Hard|
 |[📎](src/q_951_1000/q0973.cc)|973|[K Closest Points to Origin](https://leetcode.com/problems/k-closest-points-to-origin/)|Medium|
-||974|[Subarray Sums Divisible by K](https://leetcode.com/problems/subarray-sums-divisible-by-k/)|Medium|
+|[📎](src/q_951_1000/q0974.cc)|974|[Subarray Sums Divisible by K](https://leetcode.com/problems/subarray-sums-divisible-by-k/)|Medium|
 ||975|[Odd Even Jump](https://leetcode.com/problems/odd-even-jump/)|Hard|
 |[📎](src/q_951_1000/q0976.cc)|976|[Largest Perimeter Triangle](https://leetcode.com/problems/largest-perimeter-triangle/)|Easy|
 |[📎](src/q_951_1000/q0977.cc)|977|[Squares of a Sorted Array](https://leetcode.com/problems/squares-of-a-sorted-array/)|Easy|
@@ -2568,7 +2568,7 @@ My daily challenge on leetcode since 2021/09/06.
 ||2500|[Delete Greatest Value in Each Row](https://leetcode.com/problems/delete-greatest-value-in-each-row/)|Easy|
 </details>
 <details>
-  <summary>### 2501 ~ 2538</summary>
+  <summary>### 2501 ~ 2539</summary>
 
 |</>|#|Solution Title|Difficulty|
 |:-:|--:|:--|:--|
@@ -2610,6 +2610,7 @@ My daily challenge on leetcode since 2021/09/06.
 ||2536|[Increment Submatrices by One](https://leetcode.com/problems/increment-submatrices-by-one/)|Medium|
 ||2537|[Count the Number of Good Subarrays](https://leetcode.com/problems/count-the-number-of-good-subarrays/)|Medium|
 ||2538|[Difference Between Maximum and Minimum Price Sum](https://leetcode.com/problems/difference-between-maximum-and-minimum-price-sum/)|Hard|
+|🔒|2539|[Count the Number of Good Subsequences](https://leetcode.com/problems/count-the-number-of-good-subsequences/)|Medium|
 </details>
 
 ---
@@ -2617,6 +2618,7 @@ My daily challenge on leetcode since 2021/09/06.
 
 |Time|#|</>|Question Title|Difficulty|
 |:--|--:|:-:|:--|:--|
+|2023-01-19 12:04|974|[📎](src/q_951_1000/q0974.cc)|[Subarray Sums Divisible by K](https://leetcode.com/problems/subarray-sums-divisible-by-k/)|Medium|
 |2023-01-18 17:53|2418|[📎](src/q_2401_2450/q2418.cc)|[Sort the People](https://leetcode.com/problems/sort-the-people/)|Easy|
 |2023-01-17 21:30|2319|[📎](src/q_2301_2350/q2319.cc)|[Check if Matrix Is X-Matrix](https://leetcode.com/problems/check-if-matrix-is-x-matrix/)|Easy|
 |2023-01-16 16:08|2239|[📎](src/q_2201_2250/q2239.cc)|[Find Closest Number to Zero](https://leetcode.com/problems/find-closest-number-to-zero/)|Easy|
@@ -2641,13 +2643,12 @@ My daily challenge on leetcode since 2021/09/06.
 |2022-12-29 18:57|1834|[📎](src/q_1801_1850/q1834.cc)|[Single-Threaded CPU](https://leetcode.com/problems/single-threaded-cpu/)|Medium|
 |2022-12-28 10:47|1962|[📎](src/q_1951_2000/q1962.cc)|[Remove Stones to Minimize the Total](https://leetcode.com/problems/remove-stones-to-minimize-the-total/)|Medium|
 |2022-12-27 20:59|2279|[📎](src/q_2251_2300/q2279.cc)|[Maximum Bags With Full Capacity of Rocks](https://leetcode.com/problems/maximum-bags-with-full-capacity-of-rocks/)|Medium|
-|2022-12-26 14:39|1656|[📎](src/q_1651_1700/q1656.cc)|[Design an Ordered Stream](https://leetcode.com/problems/design-an-ordered-stream/)|Easy|
 
 ## Previous Logs
 
 |Month|Submissions|Easy|Medium|Hard|
 |:--|:--|:--|:--|:--|
-|[January_2023](./assets/January_2023.md)|19|12|5|2|
+|[January_2023](./assets/January_2023.md)|20|12|6|2|
 |[December_2022](./assets/December_2022.md)|32|27|5|0|
 |[November_2022](./assets/November_2022.md)|30|21|6|3|
 |[October_2022](./assets/October_2022.md)|33|22|7|4|

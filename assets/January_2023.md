@@ -2,6 +2,7 @@
 
 ||#|</>|Question Title|Difficulty|
 |:--|--:|:-:|:--|:--|
+|Day 19|974|[📎](../src/q_951_1000/q0974.cc)|[Subarray Sums Divisible by K](https://leetcode.com/problems/subarray-sums-divisible-by-k/)|Medium|
 |Day 18|2418|[📎](../src/q_2401_2450/q2418.cc)|[Sort the People](https://leetcode.com/problems/sort-the-people/)|Easy|
 |Day 17|2319|[📎](../src/q_2301_2350/q2319.cc)|[Check if Matrix Is X-Matrix](https://leetcode.com/problems/check-if-matrix-is-x-matrix/)|Easy|
 |Day 16|2235<br>2239|[📎](../src/q_2201_2250/q2235.cc)<br>[📎](../src/q_2201_2250/q2239.cc)|[Add Two Integers](https://leetcode.com/problems/add-two-integers/)<br>[Find Closest Number to Zero](https://leetcode.com/problems/find-closest-number-to-zero/)|Easy<br>Easy|
