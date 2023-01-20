@@ -489,7 +489,7 @@ id,title,level,slug,paid,done
 488,Zuma Game,3,zuma-game,0,0
 489,Robot Room Cleaner,3,robot-room-cleaner,1,0
 490,The Maze,2,the-maze,1,0
-491,Non-decreasing Subsequences,2,non-decreasing-subsequences,0,0
+491,Non-decreasing Subsequences,2,non-decreasing-subsequences,0,1
 492,Construct the Rectangle,1,construct-the-rectangle,0,1
 493,Reverse Pairs,3,reverse-pairs,0,0
 494,Target Sum,2,target-sum,0,0

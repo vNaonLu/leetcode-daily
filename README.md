@@ -508,7 +508,7 @@ My daily challenge on leetcode since 2021/09/06.
 ||488|[Zuma Game](https://leetcode.com/problems/zuma-game/)|Hard|
 |🔒|489|[Robot Room Cleaner](https://leetcode.com/problems/robot-room-cleaner/)|Hard|
 |🔒|490|[The Maze](https://leetcode.com/problems/the-maze/)|Medium|
-||491|[Non-decreasing Subsequences](https://leetcode.com/problems/non-decreasing-subsequences/)|Medium|
+|[📎](src/q_451_500/q0491.cc)|491|[Non-decreasing Subsequences](https://leetcode.com/problems/non-decreasing-subsequences/)|Medium|
 |[📎](src/q_451_500/q0492.cc)|492|[Construct the Rectangle](https://leetcode.com/problems/construct-the-rectangle/)|Easy|
 ||493|[Reverse Pairs](https://leetcode.com/problems/reverse-pairs/)|Hard|
 ||494|[Target Sum](https://leetcode.com/problems/target-sum/)|Medium|
@@ -2618,6 +2618,7 @@ My daily challenge on leetcode since 2021/09/06.
 
 |Time|#|</>|Question Title|Difficulty|
 |:--|--:|:-:|:--|:--|
+|2023-01-20 10:23|491|[📎](src/q_451_500/q0491.cc)|[Non-decreasing Subsequences](https://leetcode.com/problems/non-decreasing-subsequences/)|Medium|
 |2023-01-19 12:04|974|[📎](src/q_951_1000/q0974.cc)|[Subarray Sums Divisible by K](https://leetcode.com/problems/subarray-sums-divisible-by-k/)|Medium|
 |2023-01-18 17:53|2418|[📎](src/q_2401_2450/q2418.cc)|[Sort the People](https://leetcode.com/problems/sort-the-people/)|Easy|
 |2023-01-17 21:30|2319|[📎](src/q_2301_2350/q2319.cc)|[Check if Matrix Is X-Matrix](https://leetcode.com/problems/check-if-matrix-is-x-matrix/)|Easy|
@@ -2642,13 +2643,12 @@ My daily challenge on leetcode since 2021/09/06.
 |2022-12-30 18:14|1961|[📎](src/q_1951_2000/q1961.cc)|[Check If String Is a Prefix of Array](https://leetcode.com/problems/check-if-string-is-a-prefix-of-array/)|Easy|
 |2022-12-29 18:57|1834|[📎](src/q_1801_1850/q1834.cc)|[Single-Threaded CPU](https://leetcode.com/problems/single-threaded-cpu/)|Medium|
 |2022-12-28 10:47|1962|[📎](src/q_1951_2000/q1962.cc)|[Remove Stones to Minimize the Total](https://leetcode.com/problems/remove-stones-to-minimize-the-total/)|Medium|
-|2022-12-27 20:59|2279|[📎](src/q_2251_2300/q2279.cc)|[Maximum Bags With Full Capacity of Rocks](https://leetcode.com/problems/maximum-bags-with-full-capacity-of-rocks/)|Medium|
 
 ## Previous Logs
 
 |Month|Submissions|Easy|Medium|Hard|
 |:--|:--|:--|:--|:--|
-|[January_2023](./assets/January_2023.md)|20|12|6|2|
+|[January_2023](./assets/January_2023.md)|21|12|7|2|
 |[December_2022](./assets/December_2022.md)|32|27|5|0|
 |[November_2022](./assets/November_2022.md)|30|21|6|3|
 |[October_2022](./assets/October_2022.md)|33|22|7|4|
