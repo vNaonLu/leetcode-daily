@@ -489,7 +489,7 @@ id,title,level,slug,paid,done
 488,Zuma Game,3,zuma-game,0,0
 489,Robot Room Cleaner,3,robot-room-cleaner,1,0
 490,The Maze,2,the-maze,1,0
-491,Non-decreasing Subsequences,2,non-decreasing-subsequences,0,0
+491,Non-decreasing Subsequences,2,non-decreasing-subsequences,0,1
 492,Construct the Rectangle,1,construct-the-rectangle,0,1
 493,Reverse Pairs,3,reverse-pairs,0,0
 494,Target Sum,2,target-sum,0,0
@@ -972,7 +972,7 @@ id,title,level,slug,paid,done
 971,Flip Binary Tree To Match Preorder Traversal,2,flip-binary-tree-to-match-preorder-traversal,0,0
 972,Equal Rational Numbers,3,equal-rational-numbers,0,0
 973,K Closest Points to Origin,2,k-closest-points-to-origin,0,1
-974,Subarray Sums Divisible by K,2,subarray-sums-divisible-by-k,0,0
+974,Subarray Sums Divisible by K,2,subarray-sums-divisible-by-k,0,1
 975,Odd Even Jump,3,odd-even-jump,0,0
 976,Largest Perimeter Triangle,1,largest-perimeter-triangle,0,1
 977,Squares of a Sorted Array,1,squares-of-a-sorted-array,0,1
@@ -2233,11 +2233,11 @@ id,title,level,slug,paid,done
 2232,Minimize Result by Adding Parentheses to Expression,2,minimize-result-by-adding-parentheses-to-expression,0,0
 2233,Maximum Product After K Increments,2,maximum-product-after-k-increments,0,0
 2234,Maximum Total Beauty of the Gardens,3,maximum-total-beauty-of-the-gardens,0,0
-2235,Add Two Integers,1,add-two-integers,0,0
+2235,Add Two Integers,1,add-two-integers,0,1
 2236,Root Equals Sum of Children,1,root-equals-sum-of-children,0,1
 2237,Count Positions on Street With Required Brightness,2,count-positions-on-street-with-required-brightness,1,0
 2238,Number of Times a Driver Was a Passenger,2,number-of-times-a-driver-was-a-passenger,1,0
-2239,Find Closest Number to Zero,1,find-closest-number-to-zero,0,0
+2239,Find Closest Number to Zero,1,find-closest-number-to-zero,0,1
 2240,Number of Ways to Buy Pens and Pencils,2,number-of-ways-to-buy-pens-and-pencils,0,0
 2241,Design an ATM Machine,2,design-an-atm-machine,0,0
 2242,Maximum Score of a Node Sequence,3,maximum-score-of-a-node-sequence,0,0
@@ -2317,7 +2317,7 @@ id,title,level,slug,paid,done
 2316,Count Unreachable Pairs of Nodes in an Undirected Graph,2,count-unreachable-pairs-of-nodes-in-an-undirected-graph,0,0
 2317,Maximum XOR After Operations ,2,maximum-xor-after-operations,0,0
 2318,Number of Distinct Roll Sequences,3,number-of-distinct-roll-sequences,0,0
-2319,Check if Matrix Is X-Matrix,1,check-if-matrix-is-x-matrix,0,0
+2319,Check if Matrix Is X-Matrix,1,check-if-matrix-is-x-matrix,0,1
 2320,Count Number of Ways to Place Houses,2,count-number-of-ways-to-place-houses,0,0
 2321,Maximum Score Of Spliced Array,3,maximum-score-of-spliced-array,0,0
 2322,Minimum Score After Removals on a Tree,3,minimum-score-after-removals-on-a-tree,0,0
@@ -2416,12 +2416,12 @@ id,title,level,slug,paid,done
 2415,Reverse Odd Levels of Binary Tree,2,reverse-odd-levels-of-binary-tree,0,0
 2416,Sum of Prefix Scores of Strings,3,sum-of-prefix-scores-of-strings,0,0
 2417,Closest Fair Integer,2,closest-fair-integer,1,0
-2418,Sort the People,1,sort-the-people,0,0
+2418,Sort the People,1,sort-the-people,0,1
 2419,Longest Subarray With Maximum Bitwise AND,2,longest-subarray-with-maximum-bitwise-and,0,0
 2420,Find All Good Indices,2,find-all-good-indices,0,0
-2421,Number of Good Paths,3,number-of-good-paths,0,0
+2421,Number of Good Paths,3,number-of-good-paths,0,1
 2422,Merge Operations to Turn Array Into a Palindrome,2,merge-operations-to-turn-array-into-a-palindrome,1,0
-2423,Remove Letter To Equalize Frequency,1,remove-letter-to-equalize-frequency,0,0
+2423,Remove Letter To Equalize Frequency,1,remove-letter-to-equalize-frequency,0,1
 2424,Longest Uploaded Prefix,2,longest-uploaded-prefix,0,0
 2425,Bitwise XOR of All Pairings,2,bitwise-xor-of-all-pairings,0,0
 2426,Number of Pairs Satisfying Inequality,3,number-of-pairs-satisfying-inequality,0,0
@@ -2533,3 +2533,8 @@ id,title,level,slug,paid,done
 2532,Time to Cross a Bridge,3,time-to-cross-a-bridge,0,0
 2533,Number of Good Binary Strings,2,number-of-good-binary-strings,1,0
 2534,Time Taken to Cross the Door,3,time-taken-to-cross-the-door,1,0
+2535,Difference Between Element Sum and Digit Sum of an Array,1,difference-between-element-sum-and-digit-sum-of-an-array,0,0
+2536,Increment Submatrices by One,2,increment-submatrices-by-one,0,0
+2537,Count the Number of Good Subarrays,2,count-the-number-of-good-subarrays,0,0
+2538,Difference Between Maximum and Minimum Price Sum,3,difference-between-maximum-and-minimum-price-sum,0,0
+2539,Count the Number of Good Subsequences,2,count-the-number-of-good-subsequences,1,0
