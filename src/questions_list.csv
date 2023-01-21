@@ -2421,7 +2421,7 @@ id,title,level,slug,paid,done
 2420,Find All Good Indices,2,find-all-good-indices,0,0
 2421,Number of Good Paths,3,number-of-good-paths,0,1
 2422,Merge Operations to Turn Array Into a Palindrome,2,merge-operations-to-turn-array-into-a-palindrome,1,0
-2423,Remove Letter To Equalize Frequency,1,remove-letter-to-equalize-frequency,0,0
+2423,Remove Letter To Equalize Frequency,1,remove-letter-to-equalize-frequency,0,1
 2424,Longest Uploaded Prefix,2,longest-uploaded-prefix,0,0
 2425,Bitwise XOR of All Pairings,2,bitwise-xor-of-all-pairings,0,0
 2426,Number of Pairs Satisfying Inequality,3,number-of-pairs-satisfying-inequality,0,0
