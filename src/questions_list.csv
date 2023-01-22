@@ -2393,7 +2393,7 @@ id,title,level,slug,paid,done
 2392,Build a Matrix With Conditions,3,build-a-matrix-with-conditions,0,0
 2393,Count Strictly Increasing Subarrays,2,count-strictly-increasing-subarrays,1,0
 2394,Employees With Deductions,2,employees-with-deductions,1,0
-2395,Find Subarrays With Equal Sum,1,find-subarrays-with-equal-sum,0,0
+2395,Find Subarrays With Equal Sum,1,find-subarrays-with-equal-sum,0,1
 2396,Strictly Palindromic Number,2,strictly-palindromic-number,0,0
 2397,Maximum Rows Covered by Columns,2,maximum-rows-covered-by-columns,0,0
 2398,Maximum Number of Robots Within Budget,3,maximum-number-of-robots-within-budget,0,0
@@ -2538,3 +2538,11 @@ id,title,level,slug,paid,done
 2537,Count the Number of Good Subarrays,2,count-the-number-of-good-subarrays,0,0
 2538,Difference Between Maximum and Minimum Price Sum,3,difference-between-maximum-and-minimum-price-sum,0,0
 2539,Count the Number of Good Subsequences,2,count-the-number-of-good-subsequences,1,0
+2540,Minimum Common Value,1,minimum-common-value,0,0
+2541,Minimum Operations to Make Array Equal II,2,minimum-operations-to-make-array-equal-ii,0,0
+2542,Maximum Subsequence Score,2,maximum-subsequence-score,0,0
+2543,Check if Point Is Reachable,3,check-if-point-is-reachable,0,0
+2544,Alternating Digit Sum,1,alternating-digit-sum,0,0
+2545,Sort the Students by Their Kth Score,2,sort-the-students-by-their-kth-score,0,0
+2546,Apply Bitwise Operations to Make Strings Equal,2,apply-bitwise-operations-to-make-strings-equal,0,0
+2547,Minimum Cost to Split an Array,3,minimum-cost-to-split-an-array,0,0
