@@ -2162,7 +2162,7 @@ id,title,level,slug,paid,done
 2161,Partition Array According to Given Pivot,2,partition-array-according-to-given-pivot,0,0
 2162,Minimum Cost to Set Cooking Time,2,minimum-cost-to-set-cooking-time,0,0
 2163,Minimum Difference in Sums After Removal of Elements,3,minimum-difference-in-sums-after-removal-of-elements,0,0
-2164,Sort Even and Odd Indices Independently,1,sort-even-and-odd-indices-independently,0,0
+2164,Sort Even and Odd Indices Independently,1,sort-even-and-odd-indices-independently,0,1
 2165,Smallest Value of the Rearranged Number,2,smallest-value-of-the-rearranged-number,0,0
 2166,Design Bitset,2,design-bitset,0,0
 2167,Minimum Time to Remove All Cars Containing Illegal Goods,3,minimum-time-to-remove-all-cars-containing-illegal-goods,0,0

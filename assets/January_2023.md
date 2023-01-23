@@ -2,6 +2,7 @@
 
 ||#|</>|Question Title|Difficulty|
 |:--|--:|:-:|:--|:--|
+|Day 23|2164|[📎](../src/q_2151_2200/q2164.cc)|[Sort Even and Odd Indices Independently](https://leetcode.com/problems/sort-even-and-odd-indices-independently/)|Easy|
 |Day 22|2395|[📎](../src/q_2351_2400/q2395.cc)|[Find Subarrays With Equal Sum](https://leetcode.com/problems/find-subarrays-with-equal-sum/)|Easy|
 |Day 21|2423|[📎](../src/q_2401_2450/q2423.cc)|[Remove Letter To Equalize Frequency](https://leetcode.com/problems/remove-letter-to-equalize-frequency/)|Easy|
 |Day 20|491|[📎](../src/q_451_500/q0491.cc)|[Non-decreasing Subsequences](https://leetcode.com/problems/non-decreasing-subsequences/)|Medium|

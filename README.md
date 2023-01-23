@@ -2223,7 +2223,7 @@ My daily challenge on leetcode since 2021/09/06.
 ||2161|[Partition Array According to Given Pivot](https://leetcode.com/problems/partition-array-according-to-given-pivot/)|Medium|
 ||2162|[Minimum Cost to Set Cooking Time](https://leetcode.com/problems/minimum-cost-to-set-cooking-time/)|Medium|
 ||2163|[Minimum Difference in Sums After Removal of Elements](https://leetcode.com/problems/minimum-difference-in-sums-after-removal-of-elements/)|Hard|
-||2164|[Sort Even and Odd Indices Independently](https://leetcode.com/problems/sort-even-and-odd-indices-independently/)|Easy|
+|[📎](src/q_2151_2200/q2164.cc)|2164|[Sort Even and Odd Indices Independently](https://leetcode.com/problems/sort-even-and-odd-indices-independently/)|Easy|
 ||2165|[Smallest Value of the Rearranged Number](https://leetcode.com/problems/smallest-value-of-the-rearranged-number/)|Medium|
 ||2166|[Design Bitset](https://leetcode.com/problems/design-bitset/)|Medium|
 ||2167|[Minimum Time to Remove All Cars Containing Illegal Goods](https://leetcode.com/problems/minimum-time-to-remove-all-cars-containing-illegal-goods/)|Hard|
@@ -2626,6 +2626,7 @@ My daily challenge on leetcode since 2021/09/06.
 
 |Time|#|</>|Question Title|Difficulty|
 |:--|--:|:-:|:--|:--|
+|2023-01-23 14:30|2164|[📎](src/q_2151_2200/q2164.cc)|[Sort Even and Odd Indices Independently](https://leetcode.com/problems/sort-even-and-odd-indices-independently/)|Easy|
 |2023-01-22 12:29|2395|[📎](src/q_2351_2400/q2395.cc)|[Find Subarrays With Equal Sum](https://leetcode.com/problems/find-subarrays-with-equal-sum/)|Easy|
 |2023-01-21 09:29|2423|[📎](src/q_2401_2450/q2423.cc)|[Remove Letter To Equalize Frequency](https://leetcode.com/problems/remove-letter-to-equalize-frequency/)|Easy|
 |2023-01-20 10:23|491|[📎](src/q_451_500/q0491.cc)|[Non-decreasing Subsequences](https://leetcode.com/problems/non-decreasing-subsequences/)|Medium|
@@ -2650,13 +2651,12 @@ My daily challenge on leetcode since 2021/09/06.
 |2023-01-02 14:54|1941|[📎](src/q_1901_1950/q1941.cc)|[Check if All Characters Have Equal Number of Occurrences](https://leetcode.com/problems/check-if-all-characters-have-equal-number-of-occurrences/)|Easy|
 |2023-01-01 14:48|2057|[📎](src/q_2051_2100/q2057.cc)|[Smallest Index With Equal Value](https://leetcode.com/problems/smallest-index-with-equal-value/)|Easy|
 |2022-12-31 13:18|1844|[📎](src/q_1801_1850/q1844.cc)|[Replace All Digits with Characters](https://leetcode.com/problems/replace-all-digits-with-characters/)|Easy|
-|2022-12-30 18:14|1961|[📎](src/q_1951_2000/q1961.cc)|[Check If String Is a Prefix of Array](https://leetcode.com/problems/check-if-string-is-a-prefix-of-array/)|Easy|
 
 ## Previous Logs
 
 |Month|Submissions|Easy|Medium|Hard|
 |:--|:--|:--|:--|:--|
-|[January_2023](./assets/January_2023.md)|23|14|7|2|
+|[January_2023](./assets/January_2023.md)|24|15|7|2|
 |[December_2022](./assets/December_2022.md)|32|27|5|0|
 |[November_2022](./assets/November_2022.md)|30|21|6|3|
 |[October_2022](./assets/October_2022.md)|33|22|7|4|
