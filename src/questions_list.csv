@@ -907,7 +907,7 @@ id,title,level,slug,paid,done
 906,Super Palindromes,3,super-palindromes,0,0
 907,Sum of Subarray Minimums,2,sum-of-subarray-minimums,0,1
 908,Smallest Range I,1,smallest-range-i,0,1
-909,Snakes and Ladders,2,snakes-and-ladders,0,0
+909,Snakes and Ladders,2,snakes-and-ladders,0,1
 910,Smallest Range II,2,smallest-range-ii,0,1
 911,Online Election,2,online-election,0,1
 912,Sort an Array,2,sort-an-array,0,1
