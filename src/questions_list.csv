@@ -2357,7 +2357,7 @@ id,title,level,slug,paid,done
 2356,Number of Unique Subjects Taught by Each Teacher,1,number-of-unique-subjects-taught-by-each-teacher,1,0
 2357,Make Array Zero by Subtracting Equal Amounts,1,make-array-zero-by-subtracting-equal-amounts,0,0
 2358,Maximum Number of Groups Entering a Competition,2,maximum-number-of-groups-entering-a-competition,0,0
-2359,Find Closest Node to Given Two Nodes,2,find-closest-node-to-given-two-nodes,0,0
+2359,Find Closest Node to Given Two Nodes,2,find-closest-node-to-given-two-nodes,0,1
 2360,Longest Cycle in a Graph,3,longest-cycle-in-a-graph,0,0
 2361,Minimum Costs Using the Train Line,3,minimum-costs-using-the-train-line,1,0
 2362,Generate the Invoice,3,generate-the-invoice,1,0
