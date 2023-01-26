@@ -816,7 +816,7 @@ My daily challenge on leetcode since 2021/09/06.
 |[📎](src/q_751_800/q0784.cc)|784|[Letter Case Permutation](https://leetcode.com/problems/letter-case-permutation/)|Medium|
 |[📎](src/q_751_800/q0785.cc)|785|[Is Graph Bipartite?](https://leetcode.com/problems/is-graph-bipartite/)|Medium|
 ||786|[K-th Smallest Prime Fraction](https://leetcode.com/problems/k-th-smallest-prime-fraction/)|Medium|
-||787|[Cheapest Flights Within K Stops](https://leetcode.com/problems/cheapest-flights-within-k-stops/)|Medium|
+|[📎](src/q_751_800/q0787.cc)|787|[Cheapest Flights Within K Stops](https://leetcode.com/problems/cheapest-flights-within-k-stops/)|Medium|
 ||788|[Rotated Digits](https://leetcode.com/problems/rotated-digits/)|Medium|
 ||789|[Escape The Ghosts](https://leetcode.com/problems/escape-the-ghosts/)|Medium|
 |[📎](src/q_751_800/q0790.cc)|790|[Domino and Tromino Tiling](https://leetcode.com/problems/domino-and-tromino-tiling/)|Medium|
@@ -2626,6 +2626,7 @@ My daily challenge on leetcode since 2021/09/06.
 
 |Time|#|</>|Question Title|Difficulty|
 |:--|--:|:-:|:--|:--|
+|2023-01-26 13:37|787|[📎](src/q_751_800/q0787.cc)|[Cheapest Flights Within K Stops](https://leetcode.com/problems/cheapest-flights-within-k-stops/)|Medium|
 |2023-01-25 15:48|2359|[📎](src/q_2351_2400/q2359.cc)|[Find Closest Node to Given Two Nodes](https://leetcode.com/problems/find-closest-node-to-given-two-nodes/)|Medium|
 |2023-01-24 15:56|909|[📎](src/q_901_950/q0909.cc)|[Snakes and Ladders](https://leetcode.com/problems/snakes-and-ladders/)|Medium|
 |2023-01-23 14:30|2164|[📎](src/q_2151_2200/q2164.cc)|[Sort Even and Odd Indices Independently](https://leetcode.com/problems/sort-even-and-odd-indices-independently/)|Easy|
@@ -2650,13 +2651,12 @@ My daily challenge on leetcode since 2021/09/06.
 |2023-01-05 16:23|2053|[📎](src/q_2051_2100/q2053.cc)|[Kth Distinct String in an Array](https://leetcode.com/problems/kth-distinct-string-in-an-array/)|Easy|
 |2023-01-04 20:33|2244|[📎](src/q_2201_2250/q2244.cc)|[Minimum Rounds to Complete All Tasks](https://leetcode.com/problems/minimum-rounds-to-complete-all-tasks/)|Medium|
 |2023-01-03 18:51|944|[📎](src/q_901_950/q0944.cc)|[Delete Columns to Make Sorted](https://leetcode.com/problems/delete-columns-to-make-sorted/)|Easy|
-|2023-01-02 14:54|1941|[📎](src/q_1901_1950/q1941.cc)|[Check if All Characters Have Equal Number of Occurrences](https://leetcode.com/problems/check-if-all-characters-have-equal-number-of-occurrences/)|Easy|
 
 ## Previous Logs
 
 |Month|Submissions|Easy|Medium|Hard|
 |:--|:--|:--|:--|:--|
-|[January_2023](./assets/January_2023.md)|26|15|9|2|
+|[January_2023](./assets/January_2023.md)|27|15|10|2|
 |[December_2022](./assets/December_2022.md)|32|27|5|0|
 |[November_2022](./assets/November_2022.md)|30|21|6|3|
 |[October_2022](./assets/October_2022.md)|33|22|7|4|

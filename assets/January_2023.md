@@ -2,6 +2,7 @@
 
 ||#|</>|Question Title|Difficulty|
 |:--|--:|:-:|:--|:--|
+|Day 26|787|[📎](../src/q_751_800/q0787.cc)|[Cheapest Flights Within K Stops](https://leetcode.com/problems/cheapest-flights-within-k-stops/)|Medium|
 |Day 25|2359|[📎](../src/q_2351_2400/q2359.cc)|[Find Closest Node to Given Two Nodes](https://leetcode.com/problems/find-closest-node-to-given-two-nodes/)|Medium|
 |Day 24|909|[📎](../src/q_901_950/q0909.cc)|[Snakes and Ladders](https://leetcode.com/problems/snakes-and-ladders/)|Medium|
 |Day 23|2164|[📎](../src/q_2151_2200/q2164.cc)|[Sort Even and Odd Indices Independently](https://leetcode.com/problems/sort-even-and-odd-indices-independently/)|Easy|
