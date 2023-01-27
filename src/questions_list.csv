@@ -470,7 +470,7 @@ id,title,level,slug,paid,done
 469,Convex Polygon,2,convex-polygon,1,0
 470,Implement Rand10() Using Rand7(),2,implement-rand10-using-rand7,0,0
 471,Encode String with Shortest Length,3,encode-string-with-shortest-length,1,0
-472,Concatenated Words,3,concatenated-words,0,0
+472,Concatenated Words,3,concatenated-words,0,1
 473,Matchsticks to Square,2,matchsticks-to-square,0,1
 474,Ones and Zeroes,2,ones-and-zeroes,0,1
 475,Heaters,2,heaters,0,0
@@ -2546,3 +2546,4 @@ id,title,level,slug,paid,done
 2545,Sort the Students by Their Kth Score,2,sort-the-students-by-their-kth-score,0,0
 2546,Apply Bitwise Operations to Make Strings Equal,2,apply-bitwise-operations-to-make-strings-equal,0,0
 2547,Minimum Cost to Split an Array,3,minimum-cost-to-split-an-array,0,0
+2548,Maximum Price to Fill a Bag,2,maximum-price-to-fill-a-bag,1,0

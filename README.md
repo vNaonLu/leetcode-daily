@@ -489,7 +489,7 @@ My daily challenge on leetcode since 2021/09/06.
 |🔒|469|[Convex Polygon](https://leetcode.com/problems/convex-polygon/)|Medium|
 ||470|[Implement Rand10() Using Rand7()](https://leetcode.com/problems/implement-rand10-using-rand7/)|Medium|
 |🔒|471|[Encode String with Shortest Length](https://leetcode.com/problems/encode-string-with-shortest-length/)|Hard|
-||472|[Concatenated Words](https://leetcode.com/problems/concatenated-words/)|Hard|
+|[📎](src/q_451_500/q0472.cc)|472|[Concatenated Words](https://leetcode.com/problems/concatenated-words/)|Hard|
 |[📎](src/q_451_500/q0473.cc)|473|[Matchsticks to Square](https://leetcode.com/problems/matchsticks-to-square/)|Medium|
 |[📎](src/q_451_500/q0474.cc)|474|[Ones and Zeroes](https://leetcode.com/problems/ones-and-zeroes/)|Medium|
 ||475|[Heaters](https://leetcode.com/problems/heaters/)|Medium|
@@ -2568,7 +2568,7 @@ My daily challenge on leetcode since 2021/09/06.
 ||2500|[Delete Greatest Value in Each Row](https://leetcode.com/problems/delete-greatest-value-in-each-row/)|Easy|
 </details>
 <details>
-  <summary>### 2501 ~ 2547</summary>
+  <summary>### 2501 ~ 2548</summary>
 
 |</>|#|Solution Title|Difficulty|
 |:-:|--:|:--|:--|
@@ -2619,6 +2619,7 @@ My daily challenge on leetcode since 2021/09/06.
 ||2545|[Sort the Students by Their Kth Score](https://leetcode.com/problems/sort-the-students-by-their-kth-score/)|Medium|
 ||2546|[Apply Bitwise Operations to Make Strings Equal](https://leetcode.com/problems/apply-bitwise-operations-to-make-strings-equal/)|Medium|
 ||2547|[Minimum Cost to Split an Array](https://leetcode.com/problems/minimum-cost-to-split-an-array/)|Hard|
+|🔒|2548|[Maximum Price to Fill a Bag](https://leetcode.com/problems/maximum-price-to-fill-a-bag/)|Medium|
 </details>
 
 ---
@@ -2626,6 +2627,7 @@ My daily challenge on leetcode since 2021/09/06.
 
 |Time|#|</>|Question Title|Difficulty|
 |:--|--:|:-:|:--|:--|
+|2023-01-27 14:33|472|[📎](src/q_451_500/q0472.cc)|[Concatenated Words](https://leetcode.com/problems/concatenated-words/)|Hard|
 |2023-01-26 13:37|787|[📎](src/q_751_800/q0787.cc)|[Cheapest Flights Within K Stops](https://leetcode.com/problems/cheapest-flights-within-k-stops/)|Medium|
 |2023-01-25 15:48|2359|[📎](src/q_2351_2400/q2359.cc)|[Find Closest Node to Given Two Nodes](https://leetcode.com/problems/find-closest-node-to-given-two-nodes/)|Medium|
 |2023-01-24 15:56|909|[📎](src/q_901_950/q0909.cc)|[Snakes and Ladders](https://leetcode.com/problems/snakes-and-ladders/)|Medium|
@@ -2650,13 +2652,12 @@ My daily challenge on leetcode since 2021/09/06.
 |2023-01-06 16:15|1833|[📎](src/q_1801_1850/q1833.cc)|[Maximum Ice Cream Bars](https://leetcode.com/problems/maximum-ice-cream-bars/)|Medium|
 |2023-01-05 16:23|2053|[📎](src/q_2051_2100/q2053.cc)|[Kth Distinct String in an Array](https://leetcode.com/problems/kth-distinct-string-in-an-array/)|Easy|
 |2023-01-04 20:33|2244|[📎](src/q_2201_2250/q2244.cc)|[Minimum Rounds to Complete All Tasks](https://leetcode.com/problems/minimum-rounds-to-complete-all-tasks/)|Medium|
-|2023-01-03 18:51|944|[📎](src/q_901_950/q0944.cc)|[Delete Columns to Make Sorted](https://leetcode.com/problems/delete-columns-to-make-sorted/)|Easy|
 
 ## Previous Logs
 
 |Month|Submissions|Easy|Medium|Hard|
 |:--|:--|:--|:--|:--|
-|[January_2023](./assets/January_2023.md)|27|15|10|2|
+|[January_2023](./assets/January_2023.md)|28|15|10|3|
 |[December_2022](./assets/December_2022.md)|32|27|5|0|
 |[November_2022](./assets/November_2022.md)|30|21|6|3|
 |[October_2022](./assets/October_2022.md)|33|22|7|4|
