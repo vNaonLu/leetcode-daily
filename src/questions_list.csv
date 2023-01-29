@@ -458,7 +458,7 @@ id,title,level,slug,paid,done
 457,Circular Array Loop,2,circular-array-loop,0,0
 458,Poor Pigs,3,poor-pigs,0,1
 459,Repeated Substring Pattern,1,repeated-substring-pattern,0,1
-460,LFU Cache,3,lfu-cache,0,0
+460,LFU Cache,3,lfu-cache,0,1
 461,Hamming Distance,1,hamming-distance,0,1
 462,Minimum Moves to Equal Array Elements II,2,minimum-moves-to-equal-array-elements-ii,0,1
 463,Island Perimeter,1,island-perimeter,0,1

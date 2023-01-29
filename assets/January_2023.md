@@ -2,6 +2,7 @@
 
 ||#|</>|Question Title|Difficulty|
 |:--|--:|:-:|:--|:--|
+|Day 29|460|[📎](../src/q_451_500/q0460.cc)|[LFU Cache](https://leetcode.com/problems/lfu-cache/)|Hard|
 |Day 27|472|[📎](../src/q_451_500/q0472.cc)|[Concatenated Words](https://leetcode.com/problems/concatenated-words/)|Hard|
 |Day 26|787|[📎](../src/q_751_800/q0787.cc)|[Cheapest Flights Within K Stops](https://leetcode.com/problems/cheapest-flights-within-k-stops/)|Medium|
 |Day 25|2359|[📎](../src/q_2351_2400/q2359.cc)|[Find Closest Node to Given Two Nodes](https://leetcode.com/problems/find-closest-node-to-given-two-nodes/)|Medium|

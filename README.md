@@ -477,7 +477,7 @@ My daily challenge on leetcode since 2021/09/06.
 ||457|[Circular Array Loop](https://leetcode.com/problems/circular-array-loop/)|Medium|
 |[📎](src/q_451_500/q0458.cc)|458|[Poor Pigs](https://leetcode.com/problems/poor-pigs/)|Hard|
 |[📎](src/q_451_500/q0459.cc)|459|[Repeated Substring Pattern](https://leetcode.com/problems/repeated-substring-pattern/)|Easy|
-||460|[LFU Cache](https://leetcode.com/problems/lfu-cache/)|Hard|
+|[📎](src/q_451_500/q0460.cc)|460|[LFU Cache](https://leetcode.com/problems/lfu-cache/)|Hard|
 |[📎](src/q_451_500/q0461.cc)|461|[Hamming Distance](https://leetcode.com/problems/hamming-distance/)|Easy|
 |[📎](src/q_451_500/q0462.cc)|462|[Minimum Moves to Equal Array Elements II](https://leetcode.com/problems/minimum-moves-to-equal-array-elements-ii/)|Medium|
 |[📎](src/q_451_500/q0463.cc)|463|[Island Perimeter](https://leetcode.com/problems/island-perimeter/)|Easy|
@@ -2627,6 +2627,7 @@ My daily challenge on leetcode since 2021/09/06.
 
 |Time|#|</>|Question Title|Difficulty|
 |:--|--:|:-:|:--|:--|
+|2023-01-29 11:28|460|[📎](src/q_451_500/q0460.cc)|[LFU Cache](https://leetcode.com/problems/lfu-cache/)|Hard|
 |2023-01-27 14:33|472|[📎](src/q_451_500/q0472.cc)|[Concatenated Words](https://leetcode.com/problems/concatenated-words/)|Hard|
 |2023-01-26 13:37|787|[📎](src/q_751_800/q0787.cc)|[Cheapest Flights Within K Stops](https://leetcode.com/problems/cheapest-flights-within-k-stops/)|Medium|
 |2023-01-25 15:48|2359|[📎](src/q_2351_2400/q2359.cc)|[Find Closest Node to Given Two Nodes](https://leetcode.com/problems/find-closest-node-to-given-two-nodes/)|Medium|
@@ -2651,13 +2652,12 @@ My daily challenge on leetcode since 2021/09/06.
 |2023-01-07 14:40|2154|[📎](src/q_2151_2200/q2154.cc)|[Keep Multiplying Found Values by Two](https://leetcode.com/problems/keep-multiplying-found-values-by-two/)|Easy|
 |2023-01-06 16:15|1833|[📎](src/q_1801_1850/q1833.cc)|[Maximum Ice Cream Bars](https://leetcode.com/problems/maximum-ice-cream-bars/)|Medium|
 |2023-01-05 16:23|2053|[📎](src/q_2051_2100/q2053.cc)|[Kth Distinct String in an Array](https://leetcode.com/problems/kth-distinct-string-in-an-array/)|Easy|
-|2023-01-04 20:33|2244|[📎](src/q_2201_2250/q2244.cc)|[Minimum Rounds to Complete All Tasks](https://leetcode.com/problems/minimum-rounds-to-complete-all-tasks/)|Medium|
 
 ## Previous Logs
 
 |Month|Submissions|Easy|Medium|Hard|
 |:--|:--|:--|:--|:--|
-|[January_2023](./assets/January_2023.md)|28|15|10|3|
+|[January_2023](./assets/January_2023.md)|29|15|10|4|
 |[December_2022](./assets/December_2022.md)|32|27|5|0|
 |[November_2022](./assets/November_2022.md)|30|21|6|3|
 |[October_2022](./assets/October_2022.md)|33|22|7|4|
