@@ -2,6 +2,13 @@
 
 ||#|</>|Question Title|Difficulty|
 |:--|--:|:-:|:--|:--|
+|Day 29|460|[📎](../src/q_451_500/q0460.cc)|[LFU Cache](https://leetcode.com/problems/lfu-cache/)|Hard|
+|Day 27|472|[📎](../src/q_451_500/q0472.cc)|[Concatenated Words](https://leetcode.com/problems/concatenated-words/)|Hard|
+|Day 26|787|[📎](../src/q_751_800/q0787.cc)|[Cheapest Flights Within K Stops](https://leetcode.com/problems/cheapest-flights-within-k-stops/)|Medium|
+|Day 25|2359|[📎](../src/q_2351_2400/q2359.cc)|[Find Closest Node to Given Two Nodes](https://leetcode.com/problems/find-closest-node-to-given-two-nodes/)|Medium|
+|Day 24|909|[📎](../src/q_901_950/q0909.cc)|[Snakes and Ladders](https://leetcode.com/problems/snakes-and-ladders/)|Medium|
+|Day 23|2164|[📎](../src/q_2151_2200/q2164.cc)|[Sort Even and Odd Indices Independently](https://leetcode.com/problems/sort-even-and-odd-indices-independently/)|Easy|
+|Day 22|2395|[📎](../src/q_2351_2400/q2395.cc)|[Find Subarrays With Equal Sum](https://leetcode.com/problems/find-subarrays-with-equal-sum/)|Easy|
 |Day 21|2423|[📎](../src/q_2401_2450/q2423.cc)|[Remove Letter To Equalize Frequency](https://leetcode.com/problems/remove-letter-to-equalize-frequency/)|Easy|
 |Day 20|491|[📎](../src/q_451_500/q0491.cc)|[Non-decreasing Subsequences](https://leetcode.com/problems/non-decreasing-subsequences/)|Medium|
 |Day 19|974|[📎](../src/q_951_1000/q0974.cc)|[Subarray Sums Divisible by K](https://leetcode.com/problems/subarray-sums-divisible-by-k/)|Medium|

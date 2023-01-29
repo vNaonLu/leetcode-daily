@@ -458,7 +458,7 @@ id,title,level,slug,paid,done
 457,Circular Array Loop,2,circular-array-loop,0,0
 458,Poor Pigs,3,poor-pigs,0,1
 459,Repeated Substring Pattern,1,repeated-substring-pattern,0,1
-460,LFU Cache,3,lfu-cache,0,0
+460,LFU Cache,3,lfu-cache,0,1
 461,Hamming Distance,1,hamming-distance,0,1
 462,Minimum Moves to Equal Array Elements II,2,minimum-moves-to-equal-array-elements-ii,0,1
 463,Island Perimeter,1,island-perimeter,0,1
@@ -470,7 +470,7 @@ id,title,level,slug,paid,done
 469,Convex Polygon,2,convex-polygon,1,0
 470,Implement Rand10() Using Rand7(),2,implement-rand10-using-rand7,0,0
 471,Encode String with Shortest Length,3,encode-string-with-shortest-length,1,0
-472,Concatenated Words,3,concatenated-words,0,0
+472,Concatenated Words,3,concatenated-words,0,1
 473,Matchsticks to Square,2,matchsticks-to-square,0,1
 474,Ones and Zeroes,2,ones-and-zeroes,0,1
 475,Heaters,2,heaters,0,0
@@ -785,7 +785,7 @@ id,title,level,slug,paid,done
 784,Letter Case Permutation,2,letter-case-permutation,0,1
 785,Is Graph Bipartite?,2,is-graph-bipartite,0,1
 786,K-th Smallest Prime Fraction,2,k-th-smallest-prime-fraction,0,0
-787,Cheapest Flights Within K Stops,2,cheapest-flights-within-k-stops,0,0
+787,Cheapest Flights Within K Stops,2,cheapest-flights-within-k-stops,0,1
 788,Rotated Digits,2,rotated-digits,0,0
 789,Escape The Ghosts,2,escape-the-ghosts,0,0
 790,Domino and Tromino Tiling,2,domino-and-tromino-tiling,0,1
@@ -907,7 +907,7 @@ id,title,level,slug,paid,done
 906,Super Palindromes,3,super-palindromes,0,0
 907,Sum of Subarray Minimums,2,sum-of-subarray-minimums,0,1
 908,Smallest Range I,1,smallest-range-i,0,1
-909,Snakes and Ladders,2,snakes-and-ladders,0,0
+909,Snakes and Ladders,2,snakes-and-ladders,0,1
 910,Smallest Range II,2,smallest-range-ii,0,1
 911,Online Election,2,online-election,0,1
 912,Sort an Array,2,sort-an-array,0,1
@@ -2162,7 +2162,7 @@ id,title,level,slug,paid,done
 2161,Partition Array According to Given Pivot,2,partition-array-according-to-given-pivot,0,0
 2162,Minimum Cost to Set Cooking Time,2,minimum-cost-to-set-cooking-time,0,0
 2163,Minimum Difference in Sums After Removal of Elements,3,minimum-difference-in-sums-after-removal-of-elements,0,0
-2164,Sort Even and Odd Indices Independently,1,sort-even-and-odd-indices-independently,0,0
+2164,Sort Even and Odd Indices Independently,1,sort-even-and-odd-indices-independently,0,1
 2165,Smallest Value of the Rearranged Number,2,smallest-value-of-the-rearranged-number,0,0
 2166,Design Bitset,2,design-bitset,0,0
 2167,Minimum Time to Remove All Cars Containing Illegal Goods,3,minimum-time-to-remove-all-cars-containing-illegal-goods,0,0
@@ -2357,7 +2357,7 @@ id,title,level,slug,paid,done
 2356,Number of Unique Subjects Taught by Each Teacher,1,number-of-unique-subjects-taught-by-each-teacher,1,0
 2357,Make Array Zero by Subtracting Equal Amounts,1,make-array-zero-by-subtracting-equal-amounts,0,0
 2358,Maximum Number of Groups Entering a Competition,2,maximum-number-of-groups-entering-a-competition,0,0
-2359,Find Closest Node to Given Two Nodes,2,find-closest-node-to-given-two-nodes,0,0
+2359,Find Closest Node to Given Two Nodes,2,find-closest-node-to-given-two-nodes,0,1
 2360,Longest Cycle in a Graph,3,longest-cycle-in-a-graph,0,0
 2361,Minimum Costs Using the Train Line,3,minimum-costs-using-the-train-line,1,0
 2362,Generate the Invoice,3,generate-the-invoice,1,0
@@ -2393,7 +2393,7 @@ id,title,level,slug,paid,done
 2392,Build a Matrix With Conditions,3,build-a-matrix-with-conditions,0,0
 2393,Count Strictly Increasing Subarrays,2,count-strictly-increasing-subarrays,1,0
 2394,Employees With Deductions,2,employees-with-deductions,1,0
-2395,Find Subarrays With Equal Sum,1,find-subarrays-with-equal-sum,0,0
+2395,Find Subarrays With Equal Sum,1,find-subarrays-with-equal-sum,0,1
 2396,Strictly Palindromic Number,2,strictly-palindromic-number,0,0
 2397,Maximum Rows Covered by Columns,2,maximum-rows-covered-by-columns,0,0
 2398,Maximum Number of Robots Within Budget,3,maximum-number-of-robots-within-budget,0,0
@@ -2538,3 +2538,12 @@ id,title,level,slug,paid,done
 2537,Count the Number of Good Subarrays,2,count-the-number-of-good-subarrays,0,0
 2538,Difference Between Maximum and Minimum Price Sum,3,difference-between-maximum-and-minimum-price-sum,0,0
 2539,Count the Number of Good Subsequences,2,count-the-number-of-good-subsequences,1,0
+2540,Minimum Common Value,1,minimum-common-value,0,0
+2541,Minimum Operations to Make Array Equal II,2,minimum-operations-to-make-array-equal-ii,0,0
+2542,Maximum Subsequence Score,2,maximum-subsequence-score,0,0
+2543,Check if Point Is Reachable,3,check-if-point-is-reachable,0,0
+2544,Alternating Digit Sum,1,alternating-digit-sum,0,0
+2545,Sort the Students by Their Kth Score,2,sort-the-students-by-their-kth-score,0,0
+2546,Apply Bitwise Operations to Make Strings Equal,2,apply-bitwise-operations-to-make-strings-equal,0,0
+2547,Minimum Cost to Split an Array,3,minimum-cost-to-split-an-array,0,0
+2548,Maximum Price to Fill a Bag,2,maximum-price-to-fill-a-bag,1,0
