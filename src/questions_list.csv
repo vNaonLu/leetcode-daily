@@ -2345,7 +2345,7 @@ id,title,level,slug,paid,done
 2344,Minimum Deletions to Make Array Divisible,3,minimum-deletions-to-make-array-divisible,0,0
 2345,Finding the Number of Visible Mountains,2,finding-the-number-of-visible-mountains,1,0
 2346,Compute the Rank as a Percentage,2,compute-the-rank-as-a-percentage,1,0
-2347,Best Poker Hand,1,best-poker-hand,0,0
+2347,Best Poker Hand,1,best-poker-hand,0,1
 2348,Number of Zero-Filled Subarrays,2,number-of-zero-filled-subarrays,0,0
 2349,Design a Number Container System,2,design-a-number-container-system,0,0
 2350,Shortest Impossible Sequence of Rolls,3,shortest-impossible-sequence-of-rolls,0,0
@@ -2547,3 +2547,7 @@ id,title,level,slug,paid,done
 2546,Apply Bitwise Operations to Make Strings Equal,2,apply-bitwise-operations-to-make-strings-equal,0,0
 2547,Minimum Cost to Split an Array,3,minimum-cost-to-split-an-array,0,0
 2548,Maximum Price to Fill a Bag,2,maximum-price-to-fill-a-bag,1,0
+2549,Count Distinct Numbers on Board,1,count-distinct-numbers-on-board,0,0
+2550,Count Collisions of Monkeys on a Polygon,2,count-collisions-of-monkeys-on-a-polygon,0,0
+2551,Put Marbles in Bags,3,put-marbles-in-bags,0,0
+2552,Count Increasing Quadruplets,3,count-increasing-quadruplets,0,0

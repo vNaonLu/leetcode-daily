@@ -2412,7 +2412,7 @@ My daily challenge on leetcode since 2021/09/06.
 ||2344|[Minimum Deletions to Make Array Divisible](https://leetcode.com/problems/minimum-deletions-to-make-array-divisible/)|Hard|
 |🔒|2345|[Finding the Number of Visible Mountains](https://leetcode.com/problems/finding-the-number-of-visible-mountains/)|Medium|
 |🔒|2346|[Compute the Rank as a Percentage](https://leetcode.com/problems/compute-the-rank-as-a-percentage/)|Medium|
-||2347|[Best Poker Hand](https://leetcode.com/problems/best-poker-hand/)|Easy|
+|[📎](src/q_2301_2350/q2347.cc)|2347|[Best Poker Hand](https://leetcode.com/problems/best-poker-hand/)|Easy|
 ||2348|[Number of Zero-Filled Subarrays](https://leetcode.com/problems/number-of-zero-filled-subarrays/)|Medium|
 ||2349|[Design a Number Container System](https://leetcode.com/problems/design-a-number-container-system/)|Medium|
 ||2350|[Shortest Impossible Sequence of Rolls](https://leetcode.com/problems/shortest-impossible-sequence-of-rolls/)|Hard|
@@ -2568,7 +2568,7 @@ My daily challenge on leetcode since 2021/09/06.
 ||2500|[Delete Greatest Value in Each Row](https://leetcode.com/problems/delete-greatest-value-in-each-row/)|Easy|
 </details>
 <details>
-  <summary>### 2501 ~ 2548</summary>
+  <summary>### 2501 ~ 2552</summary>
 
 |</>|#|Solution Title|Difficulty|
 |:-:|--:|:--|:--|
@@ -2620,6 +2620,10 @@ My daily challenge on leetcode since 2021/09/06.
 ||2546|[Apply Bitwise Operations to Make Strings Equal](https://leetcode.com/problems/apply-bitwise-operations-to-make-strings-equal/)|Medium|
 ||2547|[Minimum Cost to Split an Array](https://leetcode.com/problems/minimum-cost-to-split-an-array/)|Hard|
 |🔒|2548|[Maximum Price to Fill a Bag](https://leetcode.com/problems/maximum-price-to-fill-a-bag/)|Medium|
+||2549|[Count Distinct Numbers on Board](https://leetcode.com/problems/count-distinct-numbers-on-board/)|Easy|
+||2550|[Count Collisions of Monkeys on a Polygon](https://leetcode.com/problems/count-collisions-of-monkeys-on-a-polygon/)|Medium|
+||2551|[Put Marbles in Bags](https://leetcode.com/problems/put-marbles-in-bags/)|Hard|
+||2552|[Count Increasing Quadruplets](https://leetcode.com/problems/count-increasing-quadruplets/)|Hard|
 </details>
 
 ---
@@ -2627,6 +2631,7 @@ My daily challenge on leetcode since 2021/09/06.
 
 |Time|#|</>|Question Title|Difficulty|
 |:--|--:|:-:|:--|:--|
+|2023-01-30 15:42|2347|[📎](src/q_2301_2350/q2347.cc)|[Best Poker Hand](https://leetcode.com/problems/best-poker-hand/)|Easy|
 |2023-01-29 11:28|460|[📎](src/q_451_500/q0460.cc)|[LFU Cache](https://leetcode.com/problems/lfu-cache/)|Hard|
 |2023-01-27 14:33|472|[📎](src/q_451_500/q0472.cc)|[Concatenated Words](https://leetcode.com/problems/concatenated-words/)|Hard|
 |2023-01-26 13:37|787|[📎](src/q_751_800/q0787.cc)|[Cheapest Flights Within K Stops](https://leetcode.com/problems/cheapest-flights-within-k-stops/)|Medium|
@@ -2651,13 +2656,12 @@ My daily challenge on leetcode since 2021/09/06.
 |2023-01-08 21:09|2255|[📎](src/q_2251_2300/q2255.cc)|[Count Prefixes of a Given String](https://leetcode.com/problems/count-prefixes-of-a-given-string/)|Easy|
 |2023-01-07 14:40|2154|[📎](src/q_2151_2200/q2154.cc)|[Keep Multiplying Found Values by Two](https://leetcode.com/problems/keep-multiplying-found-values-by-two/)|Easy|
 |2023-01-06 16:15|1833|[📎](src/q_1801_1850/q1833.cc)|[Maximum Ice Cream Bars](https://leetcode.com/problems/maximum-ice-cream-bars/)|Medium|
-|2023-01-05 16:23|2053|[📎](src/q_2051_2100/q2053.cc)|[Kth Distinct String in an Array](https://leetcode.com/problems/kth-distinct-string-in-an-array/)|Easy|
 
 ## Previous Logs
 
 |Month|Submissions|Easy|Medium|Hard|
 |:--|:--|:--|:--|:--|
-|[January_2023](./assets/January_2023.md)|29|15|10|4|
+|[January_2023](./assets/January_2023.md)|30|16|10|4|
 |[December_2022](./assets/December_2022.md)|32|27|5|0|
 |[November_2022](./assets/November_2022.md)|30|21|6|3|
 |[October_2022](./assets/October_2022.md)|33|22|7|4|
