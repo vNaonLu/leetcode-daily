@@ -1673,7 +1673,7 @@ My daily challenge on leetcode since 2021/09/06.
 |🔒|1623|[All Valid Triplets That Can Represent a Country](https://leetcode.com/problems/all-valid-triplets-that-can-represent-a-country/)|Easy|
 ||1624|[Largest Substring Between Two Equal Characters](https://leetcode.com/problems/largest-substring-between-two-equal-characters/)|Easy|
 ||1625|[Lexicographically Smallest String After Applying Operations](https://leetcode.com/problems/lexicographically-smallest-string-after-applying-operations/)|Medium|
-||1626|[Best Team With No Conflicts](https://leetcode.com/problems/best-team-with-no-conflicts/)|Medium|
+|[📎](src/q_1601_1650/q1626.cc)|1626|[Best Team With No Conflicts](https://leetcode.com/problems/best-team-with-no-conflicts/)|Medium|
 ||1627|[Graph Connectivity With Threshold](https://leetcode.com/problems/graph-connectivity-with-threshold/)|Hard|
 |🔒|1628|[Design an Expression Tree With Evaluate Function](https://leetcode.com/problems/design-an-expression-tree-with-evaluate-function/)|Medium|
 |[📎](src/q_1601_1650/q1629.cc)|1629|[Slowest Key](https://leetcode.com/problems/slowest-key/)|Easy|
@@ -2631,6 +2631,7 @@ My daily challenge on leetcode since 2021/09/06.
 
 |Time|#|</>|Question Title|Difficulty|
 |:--|--:|:-:|:--|:--|
+|2023-01-31 20:56|1626|[📎](src/q_1601_1650/q1626.cc)|[Best Team With No Conflicts](https://leetcode.com/problems/best-team-with-no-conflicts/)|Medium|
 |2023-01-30 15:42|2347|[📎](src/q_2301_2350/q2347.cc)|[Best Poker Hand](https://leetcode.com/problems/best-poker-hand/)|Easy|
 |2023-01-29 11:28|460|[📎](src/q_451_500/q0460.cc)|[LFU Cache](https://leetcode.com/problems/lfu-cache/)|Hard|
 |2023-01-27 14:33|472|[📎](src/q_451_500/q0472.cc)|[Concatenated Words](https://leetcode.com/problems/concatenated-words/)|Hard|
@@ -2655,13 +2656,12 @@ My daily challenge on leetcode since 2021/09/06.
 |2023-01-09 18:53|2293|[📎](src/q_2251_2300/q2293.cc)|[Min Max Game](https://leetcode.com/problems/min-max-game/)|Easy|
 |2023-01-08 21:09|2255|[📎](src/q_2251_2300/q2255.cc)|[Count Prefixes of a Given String](https://leetcode.com/problems/count-prefixes-of-a-given-string/)|Easy|
 |2023-01-07 14:40|2154|[📎](src/q_2151_2200/q2154.cc)|[Keep Multiplying Found Values by Two](https://leetcode.com/problems/keep-multiplying-found-values-by-two/)|Easy|
-|2023-01-06 16:15|1833|[📎](src/q_1801_1850/q1833.cc)|[Maximum Ice Cream Bars](https://leetcode.com/problems/maximum-ice-cream-bars/)|Medium|
 
 ## Previous Logs
 
 |Month|Submissions|Easy|Medium|Hard|
 |:--|:--|:--|:--|:--|
-|[January_2023](./assets/January_2023.md)|30|16|10|4|
+|[January_2023](./assets/January_2023.md)|31|16|11|4|
 |[December_2022](./assets/December_2022.md)|32|27|5|0|
 |[November_2022](./assets/November_2022.md)|30|21|6|3|
 |[October_2022](./assets/October_2022.md)|33|22|7|4|

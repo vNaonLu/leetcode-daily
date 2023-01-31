@@ -1624,7 +1624,7 @@ id,title,level,slug,paid,done
 1623,All Valid Triplets That Can Represent a Country,1,all-valid-triplets-that-can-represent-a-country,1,0
 1624,Largest Substring Between Two Equal Characters,1,largest-substring-between-two-equal-characters,0,0
 1625,Lexicographically Smallest String After Applying Operations,2,lexicographically-smallest-string-after-applying-operations,0,0
-1626,Best Team With No Conflicts,2,best-team-with-no-conflicts,0,0
+1626,Best Team With No Conflicts,2,best-team-with-no-conflicts,0,1
 1627,Graph Connectivity With Threshold,3,graph-connectivity-with-threshold,0,0
 1628,Design an Expression Tree With Evaluate Function,2,design-an-expression-tree-with-evaluate-function,1,0
 1629,Slowest Key,1,slowest-key,0,1
