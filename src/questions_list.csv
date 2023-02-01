@@ -2204,7 +2204,7 @@ id,title,level,slug,paid,done
 2203,Minimum Weighted Subgraph With the Required Paths,3,minimum-weighted-subgraph-with-the-required-paths,0,0
 2204,Distance to a Cycle in Undirected Graph,3,distance-to-a-cycle-in-undirected-graph,1,0
 2205,The Number of Users That Are Eligible for Discount,1,the-number-of-users-that-are-eligible-for-discount,1,0
-2206,Divide Array Into Equal Pairs,1,divide-array-into-equal-pairs,0,0
+2206,Divide Array Into Equal Pairs,1,divide-array-into-equal-pairs,0,1
 2207,Maximize Number of Subsequences in a String,2,maximize-number-of-subsequences-in-a-string,0,0
 2208,Minimum Operations to Halve Array Sum,2,minimum-operations-to-halve-array-sum,0,0
 2209,Minimum White Tiles After Covering With Carpets,3,minimum-white-tiles-after-covering-with-carpets,0,0
