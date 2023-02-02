@@ -2425,7 +2425,7 @@ id,title,level,slug,paid,done
 2424,Longest Uploaded Prefix,2,longest-uploaded-prefix,0,0
 2425,Bitwise XOR of All Pairings,2,bitwise-xor-of-all-pairings,0,0
 2426,Number of Pairs Satisfying Inequality,3,number-of-pairs-satisfying-inequality,0,0
-2427,Number of Common Factors,1,number-of-common-factors,0,0
+2427,Number of Common Factors,1,number-of-common-factors,0,1
 2428,Maximum Sum of an Hourglass,2,maximum-sum-of-an-hourglass,0,0
 2429,Minimize XOR,2,minimize-xor,0,0
 2430,Maximum Deletions on a String,3,maximum-deletions-on-a-string,0,0
