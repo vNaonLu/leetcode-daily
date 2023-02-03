@@ -2411,7 +2411,7 @@ id,title,level,slug,paid,done
 2410,Maximum Matching of Players With Trainers,2,maximum-matching-of-players-with-trainers,0,0
 2411,Smallest Subarrays With Maximum Bitwise OR,2,smallest-subarrays-with-maximum-bitwise-or,0,0
 2412,Minimum Money Required Before Transactions,3,minimum-money-required-before-transactions,0,0
-2413,Smallest Even Multiple,1,smallest-even-multiple,0,0
+2413,Smallest Even Multiple,1,smallest-even-multiple,0,1
 2414,Length of the Longest Alphabetical Continuous Substring,2,length-of-the-longest-alphabetical-continuous-substring,0,0
 2415,Reverse Odd Levels of Binary Tree,2,reverse-odd-levels-of-binary-tree,0,0
 2416,Sum of Prefix Scores of Strings,3,sum-of-prefix-scores-of-strings,0,0

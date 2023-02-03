@@ -2478,7 +2478,7 @@ My daily challenge on leetcode since 2021/09/06.
 ||2410|[Maximum Matching of Players With Trainers](https://leetcode.com/problems/maximum-matching-of-players-with-trainers/)|Medium|
 ||2411|[Smallest Subarrays With Maximum Bitwise OR](https://leetcode.com/problems/smallest-subarrays-with-maximum-bitwise-or/)|Medium|
 ||2412|[Minimum Money Required Before Transactions](https://leetcode.com/problems/minimum-money-required-before-transactions/)|Hard|
-||2413|[Smallest Even Multiple](https://leetcode.com/problems/smallest-even-multiple/)|Easy|
+|[📎](src/q_2401_2450/q2413.cc)|2413|[Smallest Even Multiple](https://leetcode.com/problems/smallest-even-multiple/)|Easy|
 ||2414|[Length of the Longest Alphabetical Continuous Substring](https://leetcode.com/problems/length-of-the-longest-alphabetical-continuous-substring/)|Medium|
 ||2415|[Reverse Odd Levels of Binary Tree](https://leetcode.com/problems/reverse-odd-levels-of-binary-tree/)|Medium|
 ||2416|[Sum of Prefix Scores of Strings](https://leetcode.com/problems/sum-of-prefix-scores-of-strings/)|Hard|
@@ -2631,6 +2631,7 @@ My daily challenge on leetcode since 2021/09/06.
 
 |Time|#|</>|Question Title|Difficulty|
 |:--|--:|:-:|:--|:--|
+|2023-02-03 13:19|2413|[📎](src/q_2401_2450/q2413.cc)|[Smallest Even Multiple](https://leetcode.com/problems/smallest-even-multiple/)|Easy|
 |2023-02-02 19:03|2427|[📎](src/q_2401_2450/q2427.cc)|[Number of Common Factors](https://leetcode.com/problems/number-of-common-factors/)|Easy|
 |2023-02-01 20:07|2206|[📎](src/q_2201_2250/q2206.cc)|[Divide Array Into Equal Pairs](https://leetcode.com/problems/divide-array-into-equal-pairs/)|Easy|
 |2023-01-31 20:56|1626|[📎](src/q_1601_1650/q1626.cc)|[Best Team With No Conflicts](https://leetcode.com/problems/best-team-with-no-conflicts/)|Medium|
@@ -2655,13 +2656,12 @@ My daily challenge on leetcode since 2021/09/06.
 |2023-01-12 16:04|1519|[📎](src/q_1501_1550/q1519.cc)|[Number of Nodes in the Sub-Tree With the Same Label](https://leetcode.com/problems/number-of-nodes-in-the-sub-tree-with-the-same-label/)|Medium|
 |2023-01-11 18:59|1443|[📎](src/q_1401_1450/q1443.cc)|[Minimum Time to Collect All Apples in a Tree](https://leetcode.com/problems/minimum-time-to-collect-all-apples-in-a-tree/)|Medium|
 |2023-01-10 14:06|2248|[📎](src/q_2201_2250/q2248.cc)|[Intersection of Multiple Arrays](https://leetcode.com/problems/intersection-of-multiple-arrays/)|Easy|
-|2023-01-09 18:53|2293|[📎](src/q_2251_2300/q2293.cc)|[Min Max Game](https://leetcode.com/problems/min-max-game/)|Easy|
 
 ## Previous Logs
 
 |Month|Submissions|Easy|Medium|Hard|
 |:--|:--|:--|:--|:--|
-|[February_2023](./assets/February_2023.md)|2|2|0|0|
+|[February_2023](./assets/February_2023.md)|3|3|0|0|
 |[January_2023](./assets/January_2023.md)|31|16|11|4|
 |[December_2022](./assets/December_2022.md)|32|27|5|0|
 |[November_2022](./assets/November_2022.md)|30|21|6|3|
