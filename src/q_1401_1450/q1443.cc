@@ -38,30 +38,25 @@ struct q1443 : public ::testing::Test {
   // Leetcode answer here
   class Solution {
   private:
-    int solve(vector<vector<int>> &adj, vector<bool> &hasApple, int cur,
-              int prev) {
+    int dfs(int node, int parent, vector<vector<int>> &tree,
+            vector<bool> &has_apple) {
       int time = 0;
-      for (auto x : adj[cur]) {
-        if (x != prev) {
-          time += solve(adj, hasApple, x, cur);
+      for (auto x : tree[node]) {
+        if (x != parent) {
+          time += dfs(x, node, tree, has_apple);
         }
       }
-
-      if (cur == 0) {
-        return time;
-      }
-
-      return time == 0 && !hasApple[cur] ? 0 : time + 2;
+      return (time > 0 || has_apple[node] ? time + 2 : 0);
     }
 
   public:
     int minTime(int n, vector<vector<int>> &edges, vector<bool> &hasApple) {
-      vector<vector<int>> adj(n + 1);
+      vector<vector<int>> tree(n + 1);
       for (auto &x : edges) {
-        adj[x[1]].emplace_back(x[0]);
-        adj[x[0]].emplace_back(x[1]);
+        tree[x[1]].emplace_back(x[0]);
+        tree[x[0]].emplace_back(x[1]);
       }
-      return solve(adj, hasApple, 0, -1);
+      return max(0, dfs(0, -1, tree, hasApple) - 2);
     }
   };
 
