@@ -2,6 +2,8 @@
 
 ||#|</>|Question Title|Difficulty|
 |:--|--:|:-:|:--|:--|
+|Day 31|1626|[📎](../src/q_1601_1650/q1626.cc)|[Best Team With No Conflicts](https://leetcode.com/problems/best-team-with-no-conflicts/)|Medium|
+|Day 30|2347|[📎](../src/q_2301_2350/q2347.cc)|[Best Poker Hand](https://leetcode.com/problems/best-poker-hand/)|Easy|
 |Day 29|460|[📎](../src/q_451_500/q0460.cc)|[LFU Cache](https://leetcode.com/problems/lfu-cache/)|Hard|
 |Day 27|472|[📎](../src/q_451_500/q0472.cc)|[Concatenated Words](https://leetcode.com/problems/concatenated-words/)|Hard|
 |Day 26|787|[📎](../src/q_751_800/q0787.cc)|[Cheapest Flights Within K Stops](https://leetcode.com/problems/cheapest-flights-within-k-stops/)|Medium|

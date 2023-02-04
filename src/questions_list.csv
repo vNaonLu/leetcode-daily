@@ -1624,7 +1624,7 @@ id,title,level,slug,paid,done
 1623,All Valid Triplets That Can Represent a Country,1,all-valid-triplets-that-can-represent-a-country,1,0
 1624,Largest Substring Between Two Equal Characters,1,largest-substring-between-two-equal-characters,0,0
 1625,Lexicographically Smallest String After Applying Operations,2,lexicographically-smallest-string-after-applying-operations,0,0
-1626,Best Team With No Conflicts,2,best-team-with-no-conflicts,0,0
+1626,Best Team With No Conflicts,2,best-team-with-no-conflicts,0,1
 1627,Graph Connectivity With Threshold,3,graph-connectivity-with-threshold,0,0
 1628,Design an Expression Tree With Evaluate Function,2,design-an-expression-tree-with-evaluate-function,1,0
 1629,Slowest Key,1,slowest-key,0,1
@@ -2204,7 +2204,7 @@ id,title,level,slug,paid,done
 2203,Minimum Weighted Subgraph With the Required Paths,3,minimum-weighted-subgraph-with-the-required-paths,0,0
 2204,Distance to a Cycle in Undirected Graph,3,distance-to-a-cycle-in-undirected-graph,1,0
 2205,The Number of Users That Are Eligible for Discount,1,the-number-of-users-that-are-eligible-for-discount,1,0
-2206,Divide Array Into Equal Pairs,1,divide-array-into-equal-pairs,0,0
+2206,Divide Array Into Equal Pairs,1,divide-array-into-equal-pairs,0,1
 2207,Maximize Number of Subsequences in a String,2,maximize-number-of-subsequences-in-a-string,0,0
 2208,Minimum Operations to Halve Array Sum,2,minimum-operations-to-halve-array-sum,0,0
 2209,Minimum White Tiles After Covering With Carpets,3,minimum-white-tiles-after-covering-with-carpets,0,0
@@ -2345,7 +2345,7 @@ id,title,level,slug,paid,done
 2344,Minimum Deletions to Make Array Divisible,3,minimum-deletions-to-make-array-divisible,0,0
 2345,Finding the Number of Visible Mountains,2,finding-the-number-of-visible-mountains,1,0
 2346,Compute the Rank as a Percentage,2,compute-the-rank-as-a-percentage,1,0
-2347,Best Poker Hand,1,best-poker-hand,0,0
+2347,Best Poker Hand,1,best-poker-hand,0,1
 2348,Number of Zero-Filled Subarrays,2,number-of-zero-filled-subarrays,0,0
 2349,Design a Number Container System,2,design-a-number-container-system,0,0
 2350,Shortest Impossible Sequence of Rolls,3,shortest-impossible-sequence-of-rolls,0,0
@@ -2397,7 +2397,7 @@ id,title,level,slug,paid,done
 2396,Strictly Palindromic Number,2,strictly-palindromic-number,0,0
 2397,Maximum Rows Covered by Columns,2,maximum-rows-covered-by-columns,0,0
 2398,Maximum Number of Robots Within Budget,3,maximum-number-of-robots-within-budget,0,0
-2399,Check Distances Between Same Letters,1,check-distances-between-same-letters,0,0
+2399,Check Distances Between Same Letters,1,check-distances-between-same-letters,0,1
 2400,Number of Ways to Reach a Position After Exactly k Steps,2,number-of-ways-to-reach-a-position-after-exactly-k-steps,0,0
 2401,Longest Nice Subarray,2,longest-nice-subarray,0,0
 2402,Meeting Rooms III,3,meeting-rooms-iii,0,0
@@ -2411,7 +2411,7 @@ id,title,level,slug,paid,done
 2410,Maximum Matching of Players With Trainers,2,maximum-matching-of-players-with-trainers,0,0
 2411,Smallest Subarrays With Maximum Bitwise OR,2,smallest-subarrays-with-maximum-bitwise-or,0,0
 2412,Minimum Money Required Before Transactions,3,minimum-money-required-before-transactions,0,0
-2413,Smallest Even Multiple,1,smallest-even-multiple,0,0
+2413,Smallest Even Multiple,1,smallest-even-multiple,0,1
 2414,Length of the Longest Alphabetical Continuous Substring,2,length-of-the-longest-alphabetical-continuous-substring,0,0
 2415,Reverse Odd Levels of Binary Tree,2,reverse-odd-levels-of-binary-tree,0,0
 2416,Sum of Prefix Scores of Strings,3,sum-of-prefix-scores-of-strings,0,0
@@ -2425,7 +2425,7 @@ id,title,level,slug,paid,done
 2424,Longest Uploaded Prefix,2,longest-uploaded-prefix,0,0
 2425,Bitwise XOR of All Pairings,2,bitwise-xor-of-all-pairings,0,0
 2426,Number of Pairs Satisfying Inequality,3,number-of-pairs-satisfying-inequality,0,0
-2427,Number of Common Factors,1,number-of-common-factors,0,0
+2427,Number of Common Factors,1,number-of-common-factors,0,1
 2428,Maximum Sum of an Hourglass,2,maximum-sum-of-an-hourglass,0,0
 2429,Minimize XOR,2,minimize-xor,0,0
 2430,Maximum Deletions on a String,3,maximum-deletions-on-a-string,0,0
@@ -2547,3 +2547,7 @@ id,title,level,slug,paid,done
 2546,Apply Bitwise Operations to Make Strings Equal,2,apply-bitwise-operations-to-make-strings-equal,0,0
 2547,Minimum Cost to Split an Array,3,minimum-cost-to-split-an-array,0,0
 2548,Maximum Price to Fill a Bag,2,maximum-price-to-fill-a-bag,1,0
+2549,Count Distinct Numbers on Board,1,count-distinct-numbers-on-board,0,0
+2550,Count Collisions of Monkeys on a Polygon,2,count-collisions-of-monkeys-on-a-polygon,0,0
+2551,Put Marbles in Bags,3,put-marbles-in-bags,0,0
+2552,Count Increasing Quadruplets,3,count-increasing-quadruplets,0,0
