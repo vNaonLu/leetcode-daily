@@ -2397,7 +2397,7 @@ id,title,level,slug,paid,done
 2396,Strictly Palindromic Number,2,strictly-palindromic-number,0,0
 2397,Maximum Rows Covered by Columns,2,maximum-rows-covered-by-columns,0,0
 2398,Maximum Number of Robots Within Budget,3,maximum-number-of-robots-within-budget,0,0
-2399,Check Distances Between Same Letters,1,check-distances-between-same-letters,0,0
+2399,Check Distances Between Same Letters,1,check-distances-between-same-letters,0,1
 2400,Number of Ways to Reach a Position After Exactly k Steps,2,number-of-ways-to-reach-a-position-after-exactly-k-steps,0,0
 2401,Longest Nice Subarray,2,longest-nice-subarray,0,0
 2402,Meeting Rooms III,3,meeting-rooms-iii,0,0

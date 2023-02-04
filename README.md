@@ -2464,7 +2464,7 @@ My daily challenge on leetcode since 2021/09/06.
 ||2396|[Strictly Palindromic Number](https://leetcode.com/problems/strictly-palindromic-number/)|Medium|
 ||2397|[Maximum Rows Covered by Columns](https://leetcode.com/problems/maximum-rows-covered-by-columns/)|Medium|
 ||2398|[Maximum Number of Robots Within Budget](https://leetcode.com/problems/maximum-number-of-robots-within-budget/)|Hard|
-||2399|[Check Distances Between Same Letters](https://leetcode.com/problems/check-distances-between-same-letters/)|Easy|
+|[📎](src/q_2351_2400/q2399.cc)|2399|[Check Distances Between Same Letters](https://leetcode.com/problems/check-distances-between-same-letters/)|Easy|
 ||2400|[Number of Ways to Reach a Position After Exactly k Steps](https://leetcode.com/problems/number-of-ways-to-reach-a-position-after-exactly-k-steps/)|Medium|
 ||2401|[Longest Nice Subarray](https://leetcode.com/problems/longest-nice-subarray/)|Medium|
 ||2402|[Meeting Rooms III](https://leetcode.com/problems/meeting-rooms-iii/)|Hard|
@@ -2631,6 +2631,7 @@ My daily challenge on leetcode since 2021/09/06.
 
 |Time|#|</>|Question Title|Difficulty|
 |:--|--:|:-:|:--|:--|
+|2023-02-04 14:33|2399|[📎](src/q_2351_2400/q2399.cc)|[Check Distances Between Same Letters](https://leetcode.com/problems/check-distances-between-same-letters/)|Easy|
 |2023-02-03 13:19|2413|[📎](src/q_2401_2450/q2413.cc)|[Smallest Even Multiple](https://leetcode.com/problems/smallest-even-multiple/)|Easy|
 |2023-02-02 19:03|2427|[📎](src/q_2401_2450/q2427.cc)|[Number of Common Factors](https://leetcode.com/problems/number-of-common-factors/)|Easy|
 |2023-02-01 20:07|2206|[📎](src/q_2201_2250/q2206.cc)|[Divide Array Into Equal Pairs](https://leetcode.com/problems/divide-array-into-equal-pairs/)|Easy|
@@ -2655,13 +2656,12 @@ My daily challenge on leetcode since 2021/09/06.
 |2023-01-13 19:09|2246|[📎](src/q_2201_2250/q2246.cc)|[Longest Path With Different Adjacent Characters](https://leetcode.com/problems/longest-path-with-different-adjacent-characters/)|Hard|
 |2023-01-12 16:04|1519|[📎](src/q_1501_1550/q1519.cc)|[Number of Nodes in the Sub-Tree With the Same Label](https://leetcode.com/problems/number-of-nodes-in-the-sub-tree-with-the-same-label/)|Medium|
 |2023-01-11 18:59|1443|[📎](src/q_1401_1450/q1443.cc)|[Minimum Time to Collect All Apples in a Tree](https://leetcode.com/problems/minimum-time-to-collect-all-apples-in-a-tree/)|Medium|
-|2023-01-10 14:06|2248|[📎](src/q_2201_2250/q2248.cc)|[Intersection of Multiple Arrays](https://leetcode.com/problems/intersection-of-multiple-arrays/)|Easy|
 
 ## Previous Logs
 
 |Month|Submissions|Easy|Medium|Hard|
 |:--|:--|:--|:--|:--|
-|[February_2023](./assets/February_2023.md)|3|3|0|0|
+|[February_2023](./assets/February_2023.md)|4|4|0|0|
 |[January_2023](./assets/January_2023.md)|31|16|11|4|
 |[December_2022](./assets/December_2022.md)|32|27|5|0|
 |[November_2022](./assets/November_2022.md)|30|21|6|3|
