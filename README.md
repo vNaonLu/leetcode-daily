@@ -2568,7 +2568,7 @@ My daily challenge on leetcode since 2021/09/06.
 ||2500|[Delete Greatest Value in Each Row](https://leetcode.com/problems/delete-greatest-value-in-each-row/)|Easy|
 </details>
 <details>
-  <summary>### 2501 ~ 2552</summary>
+  <summary>### 2501 ~ 2561</summary>
 
 |</>|#|Solution Title|Difficulty|
 |:-:|--:|:--|:--|
@@ -2611,7 +2611,7 @@ My daily challenge on leetcode since 2021/09/06.
 ||2537|[Count the Number of Good Subarrays](https://leetcode.com/problems/count-the-number-of-good-subarrays/)|Medium|
 ||2538|[Difference Between Maximum and Minimum Price Sum](https://leetcode.com/problems/difference-between-maximum-and-minimum-price-sum/)|Hard|
 |🔒|2539|[Count the Number of Good Subsequences](https://leetcode.com/problems/count-the-number-of-good-subsequences/)|Medium|
-||2540|[Minimum Common Value](https://leetcode.com/problems/minimum-common-value/)|Easy|
+|[📎](src/q_2501_2550/q2540.cc)|2540|[Minimum Common Value](https://leetcode.com/problems/minimum-common-value/)|Easy|
 ||2541|[Minimum Operations to Make Array Equal II](https://leetcode.com/problems/minimum-operations-to-make-array-equal-ii/)|Medium|
 ||2542|[Maximum Subsequence Score](https://leetcode.com/problems/maximum-subsequence-score/)|Medium|
 ||2543|[Check if Point Is Reachable](https://leetcode.com/problems/check-if-point-is-reachable/)|Hard|
@@ -2624,6 +2624,15 @@ My daily challenge on leetcode since 2021/09/06.
 ||2550|[Count Collisions of Monkeys on a Polygon](https://leetcode.com/problems/count-collisions-of-monkeys-on-a-polygon/)|Medium|
 ||2551|[Put Marbles in Bags](https://leetcode.com/problems/put-marbles-in-bags/)|Hard|
 ||2552|[Count Increasing Quadruplets](https://leetcode.com/problems/count-increasing-quadruplets/)|Hard|
+||2553|[Separate the Digits in an Array](https://leetcode.com/problems/separate-the-digits-in-an-array/)|Easy|
+||2554|[Maximum Number of Integers to Choose From a Range I](https://leetcode.com/problems/maximum-number-of-integers-to-choose-from-a-range-i/)|Medium|
+||2555|[Maximize Win From Two Segments](https://leetcode.com/problems/maximize-win-from-two-segments/)|Medium|
+||2556|[Disconnect Path in a Binary Matrix by at Most One Flip](https://leetcode.com/problems/disconnect-path-in-a-binary-matrix-by-at-most-one-flip/)|Medium|
+|🔒|2557|[Maximum Number of Integers to Choose From a Range II](https://leetcode.com/problems/maximum-number-of-integers-to-choose-from-a-range-ii/)|Medium|
+||2558|[Take Gifts From the Richest Pile](https://leetcode.com/problems/take-gifts-from-the-richest-pile/)|Easy|
+||2559|[Count Vowel Strings in Ranges](https://leetcode.com/problems/count-vowel-strings-in-ranges/)|Medium|
+||2560|[House Robber IV](https://leetcode.com/problems/house-robber-iv/)|Medium|
+||2561|[Rearranging Fruits](https://leetcode.com/problems/rearranging-fruits/)|Hard|
 </details>
 
 ---
@@ -2631,6 +2640,7 @@ My daily challenge on leetcode since 2021/09/06.
 
 |Time|#|</>|Question Title|Difficulty|
 |:--|--:|:-:|:--|:--|
+|2023-02-05 21:53|2540|[📎](src/q_2501_2550/q2540.cc)|[Minimum Common Value](https://leetcode.com/problems/minimum-common-value/)|Easy|
 |2023-02-04 14:33|2399|[📎](src/q_2351_2400/q2399.cc)|[Check Distances Between Same Letters](https://leetcode.com/problems/check-distances-between-same-letters/)|Easy|
 |2023-02-03 13:19|2413|[📎](src/q_2401_2450/q2413.cc)|[Smallest Even Multiple](https://leetcode.com/problems/smallest-even-multiple/)|Easy|
 |2023-02-02 19:03|2427|[📎](src/q_2401_2450/q2427.cc)|[Number of Common Factors](https://leetcode.com/problems/number-of-common-factors/)|Easy|
@@ -2655,13 +2665,12 @@ My daily challenge on leetcode since 2021/09/06.
 |2023-01-14 13:54|1061|[📎](src/q_1051_1100/q1061.cc)|[Lexicographically Smallest Equivalent String](https://leetcode.com/problems/lexicographically-smallest-equivalent-string/)|Medium|
 |2023-01-13 19:09|2246|[📎](src/q_2201_2250/q2246.cc)|[Longest Path With Different Adjacent Characters](https://leetcode.com/problems/longest-path-with-different-adjacent-characters/)|Hard|
 |2023-01-12 16:04|1519|[📎](src/q_1501_1550/q1519.cc)|[Number of Nodes in the Sub-Tree With the Same Label](https://leetcode.com/problems/number-of-nodes-in-the-sub-tree-with-the-same-label/)|Medium|
-|2023-01-11 18:59|1443|[📎](src/q_1401_1450/q1443.cc)|[Minimum Time to Collect All Apples in a Tree](https://leetcode.com/problems/minimum-time-to-collect-all-apples-in-a-tree/)|Medium|
 
 ## Previous Logs
 
 |Month|Submissions|Easy|Medium|Hard|
 |:--|:--|:--|:--|:--|
-|[February_2023](./assets/February_2023.md)|4|4|0|0|
+|[February_2023](./assets/February_2023.md)|5|5|0|0|
 |[January_2023](./assets/January_2023.md)|31|16|11|4|
 |[December_2022](./assets/December_2022.md)|32|27|5|0|
 |[November_2022](./assets/November_2022.md)|30|21|6|3|
