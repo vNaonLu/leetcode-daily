@@ -2542,7 +2542,7 @@ id,title,level,slug,paid,done
 2541,Minimum Operations to Make Array Equal II,2,minimum-operations-to-make-array-equal-ii,0,0
 2542,Maximum Subsequence Score,2,maximum-subsequence-score,0,0
 2543,Check if Point Is Reachable,3,check-if-point-is-reachable,0,0
-2544,Alternating Digit Sum,1,alternating-digit-sum,0,0
+2544,Alternating Digit Sum,1,alternating-digit-sum,0,1
 2545,Sort the Students by Their Kth Score,2,sort-the-students-by-their-kth-score,0,0
 2546,Apply Bitwise Operations to Make Strings Equal,2,apply-bitwise-operations-to-make-strings-equal,0,0
 2547,Minimum Cost to Split an Array,3,minimum-cost-to-split-an-array,0,0
