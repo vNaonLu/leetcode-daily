@@ -933,7 +933,7 @@ My daily challenge on leetcode since 2021/09/06.
 |[📎](src/q_901_950/q0901.cc)|901|[Online Stock Span](https://leetcode.com/problems/online-stock-span/)|Medium|
 |[📎](src/q_901_950/q0902.cc)|902|[Numbers At Most N Given Digit Set](https://leetcode.com/problems/numbers-at-most-n-given-digit-set/)|Hard|
 ||903|[Valid Permutations for DI Sequence](https://leetcode.com/problems/valid-permutations-for-di-sequence/)|Hard|
-||904|[Fruit Into Baskets](https://leetcode.com/problems/fruit-into-baskets/)|Medium|
+|[📎](src/q_901_950/q0904.cc)|904|[Fruit Into Baskets](https://leetcode.com/problems/fruit-into-baskets/)|Medium|
 |[📎](src/q_901_950/q0905.cc)|905|[Sort Array By Parity](https://leetcode.com/problems/sort-array-by-parity/)|Easy|
 ||906|[Super Palindromes](https://leetcode.com/problems/super-palindromes/)|Hard|
 |[📎](src/q_901_950/q0907.cc)|907|[Sum of Subarray Minimums](https://leetcode.com/problems/sum-of-subarray-minimums/)|Medium|
@@ -2640,6 +2640,7 @@ My daily challenge on leetcode since 2021/09/06.
 
 |Time|#|</>|Question Title|Difficulty|
 |:--|--:|:-:|:--|:--|
+|2023-02-07 21:56|904|[📎](src/q_901_950/q0904.cc)|[Fruit Into Baskets](https://leetcode.com/problems/fruit-into-baskets/)|Medium|
 |2023-02-06 16:42|2544|[📎](src/q_2501_2550/q2544.cc)|[Alternating Digit Sum](https://leetcode.com/problems/alternating-digit-sum/)|Easy|
 |2023-02-05 21:53|2540|[📎](src/q_2501_2550/q2540.cc)|[Minimum Common Value](https://leetcode.com/problems/minimum-common-value/)|Easy|
 |2023-02-04 14:33|2399|[📎](src/q_2351_2400/q2399.cc)|[Check Distances Between Same Letters](https://leetcode.com/problems/check-distances-between-same-letters/)|Easy|
@@ -2664,13 +2665,12 @@ My daily challenge on leetcode since 2021/09/06.
 |2023-01-16 16:02|2235|[📎](src/q_2201_2250/q2235.cc)|[Add Two Integers](https://leetcode.com/problems/add-two-integers/)|Easy|
 |2023-01-15 17:33|2421|[📎](src/q_2401_2450/q2421.cc)|[Number of Good Paths](https://leetcode.com/problems/number-of-good-paths/)|Hard|
 |2023-01-14 13:54|1061|[📎](src/q_1051_1100/q1061.cc)|[Lexicographically Smallest Equivalent String](https://leetcode.com/problems/lexicographically-smallest-equivalent-string/)|Medium|
-|2023-01-13 19:09|2246|[📎](src/q_2201_2250/q2246.cc)|[Longest Path With Different Adjacent Characters](https://leetcode.com/problems/longest-path-with-different-adjacent-characters/)|Hard|
 
 ## Previous Logs
 
 |Month|Submissions|Easy|Medium|Hard|
 |:--|:--|:--|:--|:--|
-|[February_2023](./assets/February_2023.md)|6|6|0|0|
+|[February_2023](./assets/February_2023.md)|7|6|1|0|
 |[January_2023](./assets/January_2023.md)|31|16|11|4|
 |[December_2022](./assets/December_2022.md)|32|27|5|0|
 |[November_2022](./assets/November_2022.md)|30|21|6|3|

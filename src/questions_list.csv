@@ -902,7 +902,7 @@ id,title,level,slug,paid,done
 901,Online Stock Span,2,online-stock-span,0,1
 902,Numbers At Most N Given Digit Set,3,numbers-at-most-n-given-digit-set,0,1
 903,Valid Permutations for DI Sequence,3,valid-permutations-for-di-sequence,0,0
-904,Fruit Into Baskets,2,fruit-into-baskets,0,0
+904,Fruit Into Baskets,2,fruit-into-baskets,0,1
 905,Sort Array By Parity,1,sort-array-by-parity,0,1
 906,Super Palindromes,3,super-palindromes,0,0
 907,Sum of Subarray Minimums,2,sum-of-subarray-minimums,0,1
