@@ -2213,7 +2213,7 @@ id,title,level,slug,paid,done
 2212,Maximum Points in an Archery Competition,2,maximum-points-in-an-archery-competition,0,0
 2213,Longest Substring of One Repeating Character,3,longest-substring-of-one-repeating-character,0,0
 2214,Minimum Health to Beat Game,2,minimum-health-to-beat-game,1,0
-2215,Find the Difference of Two Arrays,1,find-the-difference-of-two-arrays,0,0
+2215,Find the Difference of Two Arrays,1,find-the-difference-of-two-arrays,0,1
 2216,Minimum Deletions to Make Array Beautiful,2,minimum-deletions-to-make-array-beautiful,0,0
 2217,Find Palindrome With Fixed Length,2,find-palindrome-with-fixed-length,0,0
 2218,Maximum Value of K Coins From Piles,3,maximum-value-of-k-coins-from-piles,0,0

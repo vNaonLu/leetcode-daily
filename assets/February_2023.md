@@ -2,6 +2,7 @@
 
 ||#|</>|Question Title|Difficulty|
 |:--|--:|:-:|:--|:--|
+|Day 8|2215|[📎](../src/q_2201_2250/q2215.cc)|[Find the Difference of Two Arrays](https://leetcode.com/problems/find-the-difference-of-two-arrays/)|Easy|
 |Day 7|904|[📎](../src/q_901_950/q0904.cc)|[Fruit Into Baskets](https://leetcode.com/problems/fruit-into-baskets/)|Medium|
 |Day 6|2544|[📎](../src/q_2501_2550/q2544.cc)|[Alternating Digit Sum](https://leetcode.com/problems/alternating-digit-sum/)|Easy|
 |Day 5|2540|[📎](../src/q_2501_2550/q2540.cc)|[Minimum Common Value](https://leetcode.com/problems/minimum-common-value/)|Easy|
