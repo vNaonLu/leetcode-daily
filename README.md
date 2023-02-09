@@ -2371,7 +2371,7 @@ My daily challenge on leetcode since 2021/09/06.
 ||2303|[Calculate Amount Paid in Taxes](https://leetcode.com/problems/calculate-amount-paid-in-taxes/)|Easy|
 ||2304|[Minimum Path Cost in a Grid](https://leetcode.com/problems/minimum-path-cost-in-a-grid/)|Medium|
 ||2305|[Fair Distribution of Cookies](https://leetcode.com/problems/fair-distribution-of-cookies/)|Medium|
-||2306|[Naming a Company](https://leetcode.com/problems/naming-a-company/)|Hard|
+|[📎](src/q_2301_2350/q2306.cc)|2306|[Naming a Company](https://leetcode.com/problems/naming-a-company/)|Hard|
 |🔒|2307|[Check for Contradictions in Equations](https://leetcode.com/problems/check-for-contradictions-in-equations/)|Hard|
 |🔒|2308|[Arrange Table by Gender](https://leetcode.com/problems/arrange-table-by-gender/)|Medium|
 ||2309|[Greatest English Letter in Upper and Lower Case](https://leetcode.com/problems/greatest-english-letter-in-upper-and-lower-case/)|Easy|
@@ -2640,6 +2640,7 @@ My daily challenge on leetcode since 2021/09/06.
 
 |Time|#|</>|Question Title|Difficulty|
 |:--|--:|:-:|:--|:--|
+|2023-02-09 14:55|2306|[📎](src/q_2301_2350/q2306.cc)|[Naming a Company](https://leetcode.com/problems/naming-a-company/)|Hard|
 |2023-02-08 18:17|2215|[📎](src/q_2201_2250/q2215.cc)|[Find the Difference of Two Arrays](https://leetcode.com/problems/find-the-difference-of-two-arrays/)|Easy|
 |2023-02-07 21:56|904|[📎](src/q_901_950/q0904.cc)|[Fruit Into Baskets](https://leetcode.com/problems/fruit-into-baskets/)|Medium|
 |2023-02-06 16:42|2544|[📎](src/q_2501_2550/q2544.cc)|[Alternating Digit Sum](https://leetcode.com/problems/alternating-digit-sum/)|Easy|
@@ -2664,13 +2665,12 @@ My daily challenge on leetcode since 2021/09/06.
 |2023-01-17 21:30|2319|[📎](src/q_2301_2350/q2319.cc)|[Check if Matrix Is X-Matrix](https://leetcode.com/problems/check-if-matrix-is-x-matrix/)|Easy|
 |2023-01-16 16:08|2239|[📎](src/q_2201_2250/q2239.cc)|[Find Closest Number to Zero](https://leetcode.com/problems/find-closest-number-to-zero/)|Easy|
 |2023-01-16 16:02|2235|[📎](src/q_2201_2250/q2235.cc)|[Add Two Integers](https://leetcode.com/problems/add-two-integers/)|Easy|
-|2023-01-15 17:33|2421|[📎](src/q_2401_2450/q2421.cc)|[Number of Good Paths](https://leetcode.com/problems/number-of-good-paths/)|Hard|
 
 ## Previous Logs
 
 |Month|Submissions|Easy|Medium|Hard|
 |:--|:--|:--|:--|:--|
-|[February_2023](./assets/February_2023.md)|8|7|1|0|
+|[February_2023](./assets/February_2023.md)|9|7|1|1|
 |[January_2023](./assets/January_2023.md)|31|16|11|4|
 |[December_2022](./assets/December_2022.md)|32|27|5|0|
 |[November_2022](./assets/November_2022.md)|30|21|6|3|

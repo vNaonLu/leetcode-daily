@@ -2304,7 +2304,7 @@ id,title,level,slug,paid,done
 2303,Calculate Amount Paid in Taxes,1,calculate-amount-paid-in-taxes,0,0
 2304,Minimum Path Cost in a Grid,2,minimum-path-cost-in-a-grid,0,0
 2305,Fair Distribution of Cookies,2,fair-distribution-of-cookies,0,0
-2306,Naming a Company,3,naming-a-company,0,0
+2306,Naming a Company,3,naming-a-company,0,1
 2307,Check for Contradictions in Equations,3,check-for-contradictions-in-equations,1,0
 2308,Arrange Table by Gender,2,arrange-table-by-gender,1,0
 2309,Greatest English Letter in Upper and Lower Case,1,greatest-english-letter-in-upper-and-lower-case,0,0
