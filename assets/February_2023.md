@@ -2,6 +2,7 @@
 
 ||#|</>|Question Title|Difficulty|
 |:--|--:|:-:|:--|:--|
+|Day 10|2243|[📎](../src/q_2201_2250/q2243.cc)|[Calculate Digit Sum of a String](https://leetcode.com/problems/calculate-digit-sum-of-a-string/)|Easy|
 |Day 9|2306|[📎](../src/q_2301_2350/q2306.cc)|[Naming a Company](https://leetcode.com/problems/naming-a-company/)|Hard|
 |Day 8|2215|[📎](../src/q_2201_2250/q2215.cc)|[Find the Difference of Two Arrays](https://leetcode.com/problems/find-the-difference-of-two-arrays/)|Easy|
 |Day 7|904|[📎](../src/q_901_950/q0904.cc)|[Fruit Into Baskets](https://leetcode.com/problems/fruit-into-baskets/)|Medium|

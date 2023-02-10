@@ -2302,7 +2302,7 @@ My daily challenge on leetcode since 2021/09/06.
 ||2240|[Number of Ways to Buy Pens and Pencils](https://leetcode.com/problems/number-of-ways-to-buy-pens-and-pencils/)|Medium|
 ||2241|[Design an ATM Machine](https://leetcode.com/problems/design-an-atm-machine/)|Medium|
 ||2242|[Maximum Score of a Node Sequence](https://leetcode.com/problems/maximum-score-of-a-node-sequence/)|Hard|
-||2243|[Calculate Digit Sum of a String](https://leetcode.com/problems/calculate-digit-sum-of-a-string/)|Easy|
+|[📎](src/q_2201_2250/q2243.cc)|2243|[Calculate Digit Sum of a String](https://leetcode.com/problems/calculate-digit-sum-of-a-string/)|Easy|
 |[📎](src/q_2201_2250/q2244.cc)|2244|[Minimum Rounds to Complete All Tasks](https://leetcode.com/problems/minimum-rounds-to-complete-all-tasks/)|Medium|
 ||2245|[Maximum Trailing Zeros in a Cornered Path](https://leetcode.com/problems/maximum-trailing-zeros-in-a-cornered-path/)|Medium|
 |[📎](src/q_2201_2250/q2246.cc)|2246|[Longest Path With Different Adjacent Characters](https://leetcode.com/problems/longest-path-with-different-adjacent-characters/)|Hard|
@@ -2640,6 +2640,7 @@ My daily challenge on leetcode since 2021/09/06.
 
 |Time|#|</>|Question Title|Difficulty|
 |:--|--:|:-:|:--|:--|
+|2023-02-10 15:47|2243|[📎](src/q_2201_2250/q2243.cc)|[Calculate Digit Sum of a String](https://leetcode.com/problems/calculate-digit-sum-of-a-string/)|Easy|
 |2023-02-09 14:55|2306|[📎](src/q_2301_2350/q2306.cc)|[Naming a Company](https://leetcode.com/problems/naming-a-company/)|Hard|
 |2023-02-08 18:17|2215|[📎](src/q_2201_2250/q2215.cc)|[Find the Difference of Two Arrays](https://leetcode.com/problems/find-the-difference-of-two-arrays/)|Easy|
 |2023-02-07 21:56|904|[📎](src/q_901_950/q0904.cc)|[Fruit Into Baskets](https://leetcode.com/problems/fruit-into-baskets/)|Medium|
@@ -2664,13 +2665,12 @@ My daily challenge on leetcode since 2021/09/06.
 |2023-01-18 17:53|2418|[📎](src/q_2401_2450/q2418.cc)|[Sort the People](https://leetcode.com/problems/sort-the-people/)|Easy|
 |2023-01-17 21:30|2319|[📎](src/q_2301_2350/q2319.cc)|[Check if Matrix Is X-Matrix](https://leetcode.com/problems/check-if-matrix-is-x-matrix/)|Easy|
 |2023-01-16 16:08|2239|[📎](src/q_2201_2250/q2239.cc)|[Find Closest Number to Zero](https://leetcode.com/problems/find-closest-number-to-zero/)|Easy|
-|2023-01-16 16:02|2235|[📎](src/q_2201_2250/q2235.cc)|[Add Two Integers](https://leetcode.com/problems/add-two-integers/)|Easy|
 
 ## Previous Logs
 
 |Month|Submissions|Easy|Medium|Hard|
 |:--|:--|:--|:--|:--|
-|[February_2023](./assets/February_2023.md)|9|7|1|1|
+|[February_2023](./assets/February_2023.md)|10|8|1|1|
 |[January_2023](./assets/January_2023.md)|31|16|11|4|
 |[December_2022](./assets/December_2022.md)|32|27|5|0|
 |[November_2022](./assets/November_2022.md)|30|21|6|3|
