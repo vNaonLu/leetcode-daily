@@ -108,11 +108,12 @@ def readme(path: str, question_list: local.QuestionList,
            solved: list[local.Log], sub_md: list[str]):
     with open(path, "w") as f:
         f.write("\n".join([
-            "# Daily Leetcode in C++",
+            "# Daily LeetCode in C++",
             "",
             "[![githubbuild](https://github.com/vNaonLu/Daily_LeetCode/actions/workflows/test.yml/badge.svg)](https://github.com/vNaonLu/Daily_LeetCode/actions)",
             "",
-            "My daily challenge on leetcode since 2021/09/06.",
+            "This repository collects some of my LeetCode solutions since 2021/09/06.",
+            "Here is my [LeetCode account](https://leetcode.com/naon/) if you are interested.",
             "",
             "## Questions List",
             "",
