@@ -12,7 +12,8 @@ class QuestionSource:
         self.__id: str = str(id).zfill(4)
         self.__intv: str = id_folder(id)
         self.__dir: pathlib.Path = base_path.joinpath(self.__intv)
-        self.__src: pathlib.Path = self.__dir.joinpath("q{}.cc".format(self.__id))
+        self.__src: pathlib.Path = self.__dir.joinpath(
+            "q{}.cc".format(self.__id))
 
     def interval(self):
         return self.__intv
@@ -35,6 +36,8 @@ class QuestionDetails:
         self._slug = csv_data["slug"]
         self._paid = csv_data["paid"] == "1"
         self._done = csv_data["done"] == "1"
+        self._tc = csv_data["tc"]
+        self._sc = csv_data["sc"]
 
     def id(self):
         return self._id
@@ -53,6 +56,12 @@ class QuestionDetails:
 
     def done(self):
         return self._done
+
+    def tc(self):
+        return self._tc
+
+    def sc(self):
+        return self._sc
 
 
 class QuestionList:

@@ -62,7 +62,7 @@ def done_question(path: str, ids: list[int]):
         rows = csv.DictReader(f, delimiter=',')
         writer = csv.DictWriter(
             f,
-            fieldnames=['id', 'title', 'level', 'slug', "paid", 'done'],
+            fieldnames=['id', 'title', 'level', 'slug', "paid", 'done', "tc", "sc"],
             delimiter=',')
         for row in rows:
             id_map[int(row["id"])] = row
