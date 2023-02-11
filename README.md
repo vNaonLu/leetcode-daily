@@ -14,6 +14,7 @@ See [Installation](#installation) if you are interested in how to build the proj
 
 ## Activity
 ![progress](./assets/progress.svg)
+
 More information about full activity can be found at:
 
 - Submissions in 2023: [docs/2023.md](./docs/2023.md)

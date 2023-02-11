@@ -151,7 +151,7 @@ def __activity(solved_count: list[int], total_count: list[int], sub_activity: li
     return "\n".join([
         "## Activity",
         ""
-        "![progress](./assets/progress.svg)"
+        "![progress](./assets/progress.svg)",
         "",
         "More information about full activity can be found at:",
         "",
