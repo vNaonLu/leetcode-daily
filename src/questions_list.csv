@@ -902,7 +902,7 @@ id,title,level,slug,paid,done
 901,Online Stock Span,2,online-stock-span,0,1
 902,Numbers At Most N Given Digit Set,3,numbers-at-most-n-given-digit-set,0,1
 903,Valid Permutations for DI Sequence,3,valid-permutations-for-di-sequence,0,0
-904,Fruit Into Baskets,2,fruit-into-baskets,0,0
+904,Fruit Into Baskets,2,fruit-into-baskets,0,1
 905,Sort Array By Parity,1,sort-array-by-parity,0,1
 906,Super Palindromes,3,super-palindromes,0,0
 907,Sum of Subarray Minimums,2,sum-of-subarray-minimums,0,1
@@ -2213,7 +2213,7 @@ id,title,level,slug,paid,done
 2212,Maximum Points in an Archery Competition,2,maximum-points-in-an-archery-competition,0,0
 2213,Longest Substring of One Repeating Character,3,longest-substring-of-one-repeating-character,0,0
 2214,Minimum Health to Beat Game,2,minimum-health-to-beat-game,1,0
-2215,Find the Difference of Two Arrays,1,find-the-difference-of-two-arrays,0,0
+2215,Find the Difference of Two Arrays,1,find-the-difference-of-two-arrays,0,1
 2216,Minimum Deletions to Make Array Beautiful,2,minimum-deletions-to-make-array-beautiful,0,0
 2217,Find Palindrome With Fixed Length,2,find-palindrome-with-fixed-length,0,0
 2218,Maximum Value of K Coins From Piles,3,maximum-value-of-k-coins-from-piles,0,0
@@ -2241,7 +2241,7 @@ id,title,level,slug,paid,done
 2240,Number of Ways to Buy Pens and Pencils,2,number-of-ways-to-buy-pens-and-pencils,0,0
 2241,Design an ATM Machine,2,design-an-atm-machine,0,0
 2242,Maximum Score of a Node Sequence,3,maximum-score-of-a-node-sequence,0,0
-2243,Calculate Digit Sum of a String,1,calculate-digit-sum-of-a-string,0,0
+2243,Calculate Digit Sum of a String,1,calculate-digit-sum-of-a-string,0,1
 2244,Minimum Rounds to Complete All Tasks,2,minimum-rounds-to-complete-all-tasks,0,1
 2245,Maximum Trailing Zeros in a Cornered Path,2,maximum-trailing-zeros-in-a-cornered-path,0,0
 2246,Longest Path With Different Adjacent Characters,3,longest-path-with-different-adjacent-characters,0,1
@@ -2304,7 +2304,7 @@ id,title,level,slug,paid,done
 2303,Calculate Amount Paid in Taxes,1,calculate-amount-paid-in-taxes,0,0
 2304,Minimum Path Cost in a Grid,2,minimum-path-cost-in-a-grid,0,0
 2305,Fair Distribution of Cookies,2,fair-distribution-of-cookies,0,0
-2306,Naming a Company,3,naming-a-company,0,0
+2306,Naming a Company,3,naming-a-company,0,1
 2307,Check for Contradictions in Equations,3,check-for-contradictions-in-equations,1,0
 2308,Arrange Table by Gender,2,arrange-table-by-gender,1,0
 2309,Greatest English Letter in Upper and Lower Case,1,greatest-english-letter-in-upper-and-lower-case,0,0
@@ -2323,7 +2323,7 @@ id,title,level,slug,paid,done
 2322,Minimum Score After Removals on a Tree,3,minimum-score-after-removals-on-a-tree,0,0
 2323,Find Minimum Time to Finish All Jobs II,2,find-minimum-time-to-finish-all-jobs-ii,1,0
 2324,Product Sales Analysis IV,2,product-sales-analysis-iv,1,0
-2325,Decode the Message,1,decode-the-message,0,0
+2325,Decode the Message,1,decode-the-message,0,1
 2326,Spiral Matrix IV,2,spiral-matrix-iv,0,0
 2327,Number of People Aware of a Secret,2,number-of-people-aware-of-a-secret,0,0
 2328,Number of Increasing Paths in a Grid,3,number-of-increasing-paths-in-a-grid,0,0
@@ -2538,11 +2538,11 @@ id,title,level,slug,paid,done
 2537,Count the Number of Good Subarrays,2,count-the-number-of-good-subarrays,0,0
 2538,Difference Between Maximum and Minimum Price Sum,3,difference-between-maximum-and-minimum-price-sum,0,0
 2539,Count the Number of Good Subsequences,2,count-the-number-of-good-subsequences,1,0
-2540,Minimum Common Value,1,minimum-common-value,0,0
+2540,Minimum Common Value,1,minimum-common-value,0,1
 2541,Minimum Operations to Make Array Equal II,2,minimum-operations-to-make-array-equal-ii,0,0
 2542,Maximum Subsequence Score,2,maximum-subsequence-score,0,0
 2543,Check if Point Is Reachable,3,check-if-point-is-reachable,0,0
-2544,Alternating Digit Sum,1,alternating-digit-sum,0,0
+2544,Alternating Digit Sum,1,alternating-digit-sum,0,1
 2545,Sort the Students by Their Kth Score,2,sort-the-students-by-their-kth-score,0,0
 2546,Apply Bitwise Operations to Make Strings Equal,2,apply-bitwise-operations-to-make-strings-equal,0,0
 2547,Minimum Cost to Split an Array,3,minimum-cost-to-split-an-array,0,0
@@ -2551,3 +2551,12 @@ id,title,level,slug,paid,done
 2550,Count Collisions of Monkeys on a Polygon,2,count-collisions-of-monkeys-on-a-polygon,0,0
 2551,Put Marbles in Bags,3,put-marbles-in-bags,0,0
 2552,Count Increasing Quadruplets,3,count-increasing-quadruplets,0,0
+2553,Separate the Digits in an Array,1,separate-the-digits-in-an-array,0,0
+2554,Maximum Number of Integers to Choose From a Range I,2,maximum-number-of-integers-to-choose-from-a-range-i,0,0
+2555,Maximize Win From Two Segments,2,maximize-win-from-two-segments,0,0
+2556,Disconnect Path in a Binary Matrix by at Most One Flip,2,disconnect-path-in-a-binary-matrix-by-at-most-one-flip,0,0
+2557,Maximum Number of Integers to Choose From a Range II,2,maximum-number-of-integers-to-choose-from-a-range-ii,1,0
+2558,Take Gifts From the Richest Pile,1,take-gifts-from-the-richest-pile,0,0
+2559,Count Vowel Strings in Ranges,2,count-vowel-strings-in-ranges,0,0
+2560,House Robber IV,2,house-robber-iv,0,0
+2561,Rearranging Fruits,3,rearranging-fruits,0,0
