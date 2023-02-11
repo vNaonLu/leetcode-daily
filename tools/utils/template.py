@@ -177,8 +177,8 @@ def problems_solves_panel(easy: int, medium: int, hard: int, total_easy: int, to
     return "\n".join([
         '<div style="{}">'.format(kPanelCss),
         '   <div style="diplay: flex; flex-direction: row; font-weight: 500; padding-left: 13px; padding-right: 13px">',
+        '       <span style="color: {};">Solved </span>'.format(__kLeetCodeLightGray),
         '       <span style="color: {};">Free Problems</span>'.format(__kLeetCodeOrange),
-        '       <span style="color: {};">Solved Status</span>'.format(__kLeetCodeLightGray),
         '   </div>',
         '   <div style="{}">'.format(kStatPanelCss),
         '      <div style="{}">'.format(kCirclePanelCss),

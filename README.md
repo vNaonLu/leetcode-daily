@@ -2,33 +2,17 @@
 
 [![githubbuild](https://github.com/vNaonLu/Daily_LeetCode/actions/workflows/test.yml/badge.svg)](https://github.com/vNaonLu/Daily_LeetCode/actions)
 
-This repository collects some of my LeetCode solutions since 2021/09/06.
+This repository collects some of my LeetCode solutions for **free** questions since 2021/09/06.
 Here is my [LeetCode account](https://leetcode.com/naon/) if you are interested.
 
-## Installation
-It is not necessary to build or install this project if you just want specific solutions, but you can still build and run this project. 
-Before running to build project, please check below dependencies exist in the build environment:
- - Compiler supports `C++17`.
- - CMake above `3.11`.
- - Unix-like OS.
 
-Then you can build the project easily by
+## Getting Started
 
-``` sh
-# Clone this project and change workspace to the project root.
-$ git clone https://github.com/vNaonLu/daily-leetcode
-$ cd daily-leetcode
-# Configure the cmake build files and build it.
-$ cmake -S . -B build -DENABLE_LEETCODE_TEST=ON
-$ cmake --build build
-# Run the leetcode test by GTest interface.
-$ ./build/leetcode_test
-```
-
+## Status
 <div style="min-height: 186px;height: 186px;width: min-content;padding-top: 1rem;padding-bottom: 0.75rem;background-color: #404040;border-radius: 0.5rem">
    <div style="diplay: flex; flex-direction: row; font-weight: 500; padding-left: 13px; padding-right: 13px">
+       <span style="color: #eff2f699;">Solved </span>
        <span style="color: #ffa116;">Free Problems</span>
-       <span style="color: #eff2f699;">Solved Status</span>
    </div>
    <div style="margin-left: 2rem;margin-right: 2rem;align-items: center;display: flex;">
       <div style="min-width: 100px;justify-content: center;display: flex;margin-right: 2rem;margin-top: 1.5rem;">
@@ -103,3 +87,23 @@ $ ./build/leetcode_test
       </div>
    </div>
 </div>
+
+## Installation
+It is not necessary to build or install this project if you just want specific solutions, but you can still build and run this project. There has a python scripts named `repo_manager.py` in the root, which is a tool to automatically add/delete the solution in this project, generate the solution template or update the readme or log. However the script may too rough to use since I haven't tested it in other environment.
+Before running to build project, please check below dependencies exist in the build environment:
+ - Compiler supports `C++17`.
+ - CMake above `3.11`.
+ - Unix-like OS.
+
+Then you can build the project easily by
+
+``` sh
+# Clone this project and change workspace to the project root.
+$ git clone https://github.com/vNaonLu/daily-leetcode
+$ cd daily-leetcode
+# Configure the cmake build files and build it.
+$ cmake -S . -B build -DENABLE_LEETCODE_TEST=ON
+$ cmake --build build
+# Run the leetcode test by GTest interface.
+$ ./build/leetcode_test
+```

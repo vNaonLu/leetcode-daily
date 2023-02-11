@@ -75,7 +75,8 @@ def done_question(path: str, ids: list[int], src_path: str):
                 id_map[id]['done'] = '1'
 
                 if id_map[id]["tc"] == "" and id_map[id]["sc"] == "":
-                    cp = local.get_commit_log(local.QuestionSource(id, src_path))
+                    cp = local.get_commit_log(
+                        local.QuestionSource(id, src_path))
                     if cp.returncode == 0:
                         com = local.get_complexity_infomation(
                             cp.stdout.decode("utf-8"))
@@ -119,39 +120,69 @@ def dellog(path: str, id: int):
             __modify_prompt(path)
 
 
+def __introduce():
+    return "\n".join([
+        "# Daily LeetCode in C++",
+        "",
+        "[![githubbuild](https://github.com/vNaonLu/Daily_LeetCode/actions/workflows/test.yml/badge.svg)](https://github.com/vNaonLu/Daily_LeetCode/actions)",
+        "",
+        "This repository collects some of my LeetCode solutions for **free** questions since 2021/09/06.",
+        "Here is my [LeetCode account](https://leetcode.com/naon/) if you are interested.",
+        "",
+    ])
+
+
+def __get_started():
+    return "\n".join([
+        "## Getting Started",
+    ])
+
+
+def __status(solved_count: list[int], total_count: list[int]):
+    return "\n".join([
+        "## Status",
+        "{}".format(template.problems_solves_panel(
+            solved_count[0], solved_count[1], solved_count[2], total_count[0], total_count[1], total_count[2])),
+    ])
+
+def __installation():
+    return "\n".join([
+        "## Installation",
+        "It is not necessary to build or install this project if you just want specific solutions, but you can still build and run this project. "
+        "There has a python scripts named `repo_manager.py` in the root, which is a tool to automatically add/delete the solution in this project, generate the solution template or update the readme or log. "
+        "However the script may too rough to use since I haven't tested it in other environment.",
+        "Before running to build project, please check below dependencies exist in the build environment:",
+        " - Compiler supports `C++17`.",
+        " - CMake above `3.11`.",
+        " - Unix-like OS.",
+        "",
+        "Then you can build the project easily by",
+        "",
+        "``` sh",
+        "# Clone this project and change workspace to the project root.",
+        "$ git clone https://github.com/vNaonLu/daily-leetcode",
+        "$ cd daily-leetcode",
+        "# Configure the cmake build files and build it.",
+        "$ cmake -S . -B build -DENABLE_LEETCODE_TEST=ON",
+        "$ cmake --build build",
+        "# Run the leetcode test by GTest interface.",
+        "$ ./build/leetcode_test",
+        "```",
+    ])
+
+
 def readme(path: str, question_list: local.QuestionList,
            solved: list[local.Log], sub_md: list[str], solved_count: list[int], total_count: list[int]):
     with open(path, "w") as f:
         f.write("\n".join([
-            "# Daily LeetCode in C++",
+            __introduce(),
             "",
-            "[![githubbuild](https://github.com/vNaonLu/Daily_LeetCode/actions/workflows/test.yml/badge.svg)](https://github.com/vNaonLu/Daily_LeetCode/actions)",
+            __get_started(),
             "",
-            "This repository collects some of my LeetCode solutions since 2021/09/06.",
-            "Here is my [LeetCode account](https://leetcode.com/naon/) if you are interested.",
+            __status(solved_count, total_count),
             "",
-            "## Installation",
-            "It is not necessary to build or install this project if you just want specific solutions, but you can still build and run this project. ",
-            "Before running to build project, please check below dependencies exist in the build environment:",
-            " - Compiler supports `C++17`.",
-            " - CMake above `3.11`.",
-            " - Unix-like OS.",
+            __installation(),
             "",
-            "Then you can build the project easily by",
-            "",
-            "``` sh",
-            "# Clone this project and change workspace to the project root.",
-            "$ git clone https://github.com/vNaonLu/daily-leetcode",
-            "$ cd daily-leetcode",
-            "# Configure the cmake build files and build it.",
-            "$ cmake -S . -B build -DENABLE_LEETCODE_TEST=ON",
-            "$ cmake --build build",
-            "# Run the leetcode test by GTest interface.",
-            "$ ./build/leetcode_test",
-            "```",
-            "",
-            "{}".format(template.problems_solves_panel(
-                solved_count[0], solved_count[1], solved_count[2], total_count[0], total_count[1], total_count[2])),
         ]))
         return
 
