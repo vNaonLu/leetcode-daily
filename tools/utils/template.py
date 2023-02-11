@@ -3,6 +3,14 @@ import math
 from . import local
 
 
+__kLeetCodeLightGray = "#eff2f699"
+__kLeetCodeDarkGray = "#ebebf54d"
+__kLeetCodeWhite = "#ffffff"
+__kLeetCodeOrange = "#ffa116"
+__kLeetCodeGray = "#747474"
+__kPanelBackground = "#404040"
+
+
 def question_detail(question: local.QuestionDetails):
     qfile = local.QuestionSource(question.id(), "./src")
     src = "" if not question.paid_only() else "🔒"
@@ -14,194 +22,83 @@ def question_detail(question: local.QuestionDetails):
                                   "Hard" if question.level() == 3 else ("Medium" if question.level() == 2 else "Easy"))
 
 
-def problem_solves_process_svg(solve: int, total: int):
+def __combine_style(list: list[str]):
+    return ";".join(list + [""])
+
+
+def __solved_progress_line(title: str, cnt: int, total: int, y: int):
+    percent = cnt / total
+    total_length = 390 - 160
+    fix_y = y + 10
+    return "".join([
+      '<g>',
+      '   <text x="160" y="{}" class="light-gray">{}</text>'.format(y, title),
+      '   <text x="225" y="{}" class="light">{}</text>'.format(y, cnt),
+      '   <text x="250" y="{}" class="dark-gray">/{}</text>'.format(y, total),
+      '   <text x="290" y="{}" class="light-gray">Complete</text>'.format(y),
+      '   <text x="350" y="{}" class="light">{:.2f}%</text>'.format(y, percent * 100.0),
+      '   <path d="M 160 {} L 390 {}" stroke-linecap="round" stroke-linejoin="round" stroke="#ebebf54d" stroke-width="3"/>'.format(fix_y, fix_y),
+      '   <path d="M 160 {} L {} {}" stroke-linecap="round" stroke-linejoin="round" stroke="#ffa116" stroke-width="5"/>'.format(fix_y, percent * total_length + 160, fix_y),
+      '</g>',
+    ])
+
+
+def problem_solves_svg(easy: int, medium: int, hard: int, t_easy: int, t_medium: int, t_hard: int):
+    assert t_easy > 0 and t_medium > 0 and t_hard > 0, "invalid total count"
+    assert easy <= t_easy and medium <= t_medium and hard <= t_hard, "invalid count"
+
+    kTitleStyle = __combine_style(["font-weight: 500",
+                                   "font-size: 1rem"])
+    kRotate90Style = __combine_style(["transform: rotate(-90deg)",
+                                     "transform-origin: center",
+                                      "transform-box: fill-box"])
+    kStateStyle = __combine_style(["font-size: .75rem"])
+    kLightStyle = __combine_style(["color: {}".format(__kLeetCodeWhite),
+                                   "fill: {}".format(__kLeetCodeWhite)])
+    kLightGrayStyle = __combine_style(["color: {}".format(__kLeetCodeLightGray),
+                                       "fill: {}".format(__kLeetCodeLightGray)])
+    kDarkGrayStyle = __combine_style(["color: {}".format(__kLeetCodeDarkGray),
+                                      "fill: {}".format(__kLeetCodeDarkGray)])
+    kGrayStyle = __combine_style(["color: {}".format(__kLeetCodeGray),
+                                  "fill: {}".format(__kLeetCodeGray)])
+    kOrangeStyle = __combine_style(["color: {}".format(__kLeetCodeOrange),
+                                    "fill: {}".format(__kLeetCodeOrange)])
+    kBackgroundStyle = __combine_style(["color: {}".format(__kPanelBackground),
+                                        "fill: {}".format(__kPanelBackground)])
     circle_len = 46 * 2 * math.pi
-    solve_len = circle_len * solve / total
+    solve_len = circle_len * (easy + medium + hard) / (t_easy + t_medium + t_hard)
 
-    return "\n".join([
-        '<?xml version="1.0" encoding="UTF-8" standalone="no"?>',
-        '<svg height="100" width="100" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="transform: rotate(-90deg);">',
-        '   <circle fill="none" cx="50px" cy="50px" r="46" stroke="#747474" stroke-width="3" stroke-linecap="round"/>',
-        '   <circle fill="none" cx="50px" cy="50px" r="46" stroke="#ffa116" stroke-width="5" stroke-linecap="round" stroke-dasharray="{} {}" stroke-dashoffset="0" data-difficult="ALL" />'.format(
-            solve_len, circle_len - solve_len),
-        '</svg>',
-    ])
-
-
-__kLeetCodeLightGray = "#eff2f699"
-__kLeetCodeDarkGray = "#ebebf54d"
-__kLeetCodeWhite = "#ffffff"
-__kLeetCodeOrange = "#ffa116"
-__kLeetCodeGray = "#747474"
-__kPanelBackground = "#404040"
-
-
-def __problem_solves_state(title: str, solve: int, total: int, margin_top: str = "0rem"):
-    kStatePanelCss = "".join([
-        "font-size: .75rem;",
-        "line-height: 1rem;",
-        "align-items: flex-end;",
-        "width: 100%;",
-        "display: flex;",
-    ])
-    kStateTitleCss = "".join([
-        "width: 53px;",
-        "color: {};".format(__kLeetCodeLightGray),
-    ])
-    kStateCenterCss = "".join([
-        "display: flex;",
-        "flex: 1 1 0%;",
-        "align-items: center;"
-    ])
-    kStateCenterSolvedCss = "".join([
-        "line-height: 20px",
-        "font-weight: 500",
-        "font-size: 1rem;",
-        "margin-right: 5px;",
-        "color: {};".format(__kLeetCodeWhite),
-    ])
-    kStateCenterTotalCss = "".join([
-        "color: {};".format(__kLeetCodeGray),
-        "font-weight: 500",
-        "font-size: .75rem",
-        "font-height: 1rem;",
-        "color: {};".format(__kLeetCodeDarkGray),
-    ])
-    kStateTailCss = "".join([
-        "display: inline;"
-    ])
-    kStateCompleteCss = "".join([
-        "margin-left: 0.375rem;",
-        "color: {};".format(__kLeetCodeWhite),
-    ])
-    kStateProgressPanelCss = "".join([
-        "border-radius: 9999px;",
-        "width: 228px;",
-        "height: 0.25rem;",
-        "position: relative;"
-    ])
-    kProgressBackgroundCss = "".join([
-        "background-color: {};".format(__kLeetCodeGray),
-        "width: 100%;",
-        "height: 100%;",
-        "position: absolute;"
-    ])
-    kProgressForeCss = "".join([
-        "background-color: {};".format(__kLeetCodeOrange),
-        "width: {:.4f}%;".format(solve / total * 100.0),
-        "height: 100%;",
-        "position: absolute;",
-        "border-radius: 9999px;",
-    ])
-
-    return "\n           ".join([
-        '<div style="margin-top: {};">'.format(margin_top),
-        '   <div style="{}">'.format(kStatePanelCss),
-        '       <div style="{}">{}</div>'.format(kStateTitleCss, title),
-        '       <div style="{}">'.format(kStateCenterCss),
-        '           <span style="{}">{}</span>'.format(
-            kStateCenterSolvedCss, solve),
-        '           <span style="{}">/{}</span>'.format(
-            kStateCenterTotalCss, total),
-        '       </div>',
-        '       <div style="{}">'.format(kStateTailCss),
-        '           <span>',
-        '               <span style="color: {};">Complete</span>'.format(
-            __kLeetCodeLightGray),
-        '               <span style="{}">{:.2f}%</span>'.format(
-            kStateCompleteCss, solve / total * 100.0),
-        '           </span>',
-        '       </div>',
-        '   </div>',
-        '   <div style="{}">'.format(kStateProgressPanelCss),
-        '       <div style="{}"></div>'.format(kProgressBackgroundCss),
-        '       <div style="{}"></div>'.format(kProgressForeCss),
-        '   </div>',
-        '</div>',
-    ])
-
-
-def problems_solves_panel(easy: int, medium: int, hard: int, total_easy: int, total_medium: int, total_hard: int):
-    kPanelCss = "".join([
-        "min-height: 186px;",
-        "height: 186px;",
-        "width: min-content;",
-        "padding-top: 1rem;",
-        "padding-bottom: 0.75rem;",
-        "background-color: {};".format(__kPanelBackground),
-        "border-radius: 0.5rem"
-    ])
-    kStatPanelCss = "".join([
-        "margin-left: 2rem;",
-        "margin-right: 2rem;",
-        "align-items: center;",
-        "display: flex;"
-    ])
-    kCirclePanelCss = "".join([
-        "min-width: 100px;",
-        "justify-content: center;",
-        "display: flex;",
-        "margin-right: 2rem;",
-        "margin-top: 1.5rem;"
-    ])
-    kCircleCss = "".join([
-        "z-index: 0;",
-        "max-width: 100px",
-        "max-height: 100px;",
-        "position: relative;"
-    ])
-    kCircleDetailCss = "".join([
-        "text-align: center;",
-        "position: absolute;",
-        "transform: translate(-50%, -50%);"
-        "top: 50%;",
-        "left: 50%;",
-    ])
-    kCircleDetailNumberCss = "".join([
-        "font-size: 24px;",
-        "font-weight: 500;",
-        "color: {};".format(__kLeetCodeWhite)
-    ])
-    kCircleDetailFontCss = "".join([
-        "font-size: .75rem;",
-        "line-height: 1rem;",
-        "color: {};".format(__kLeetCodeLightGray)
-    ])
-    kStatePanelCss = "".join([
-        "max-width: 228px;",
-        "flex-direction: column;",
-        "display: flex;",
-        "width: 100%;",
-    ])
-
-    return "\n".join([
-        '<div style="{}">'.format(kPanelCss),
-        '   <div style="diplay: flex; flex-direction: row; font-weight: 500; padding-left: 13px; padding-right: 13px">',
-        '       <span style="color: {};">Solved </span>'.format(__kLeetCodeLightGray),
-        '       <span style="color: {};">Free Problems</span>'.format(__kLeetCodeOrange),
-        '   </div>',
-        '   <div style="{}">'.format(kStatPanelCss),
-        '      <div style="{}">'.format(kCirclePanelCss),
-        '           <div style="{}">'.format(kCircleCss),
-        '               <img src="/vNaonLu/daily-leetcode/raw/master/assets/progress.svg">',
-        '               <div style="{}">'.format(kCircleDetailCss),
-        '                   <div>',
-        '                       <div style="{}">{}</div>'.format(kCircleDetailNumberCss, easy + medium + hard),
-        '                       <div style="{}">Solved</div>'.format(kCircleDetailFontCss),
-        '                   </div>',
-        '               </div>',
-        '           </div>',
-        '      </div>',
-        '      <div style="{}">'.format(kStatePanelCss),
-        '           {}'.format(
-            __problem_solves_state("Easy", easy, total_easy)),
-        '           {}'.format(__problem_solves_state(
-            "Medium", medium, total_medium, margin_top="1rem")),
-        '           {}'.format(__problem_solves_state(
-            "Hard", hard, total_hard, margin_top="1rem")),
-        '      </div>',
-        '   </div>',
-        '</div>',
+    return "".join([
+        '<svg version="1.1" height="200" width="410" viewBox="0 0 410 200" xmlns="http://www.w3.org/2000/svg">',
+        '   <style>*{font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;}</style>',
+        '   <style>.title{{{}}}</style>'.format(kTitleStyle),
+        '   <style>.rotate-90{{{}}}</style>'.format(kRotate90Style),
+        '   <style>.state{{{}}}</style>'.format(kStateStyle),
+        '   <style>.light{{{}}}</style>'.format(kLightStyle),
+        '   <style>.light-gray{{{}}}</style>'.format(kLightGrayStyle),
+        '   <style>.dark-gray{{{}}}</style>'.format(kDarkGrayStyle),
+        '   <style>.gray{{{}}}</style>'.format(kGrayStyle),
+        '   <style>.orange{{{}}}</style>'.format(kOrangeStyle),
+        '   <style>.background{{{}}}</style>'.format(kBackgroundStyle),
+        '   <rect fill="#404040" x="0" y="0" width="410" height="200" rx="0.5rem"/>', # bg
+        '   <g text-anchor="start" text-decoration="1" class="title">',               # title
+        '       <text x="20" y="30" class="light">Solved</text>',
+        '       <text x="72" y="30" class="orange">Free Problems</text>',
+        '   </g>',
+        '   <g class="rotate-90">',
+        '       <circle fill="none" cx="70" cy="110" r="46" stroke="{}" stroke-width="3" stroke-linecap="round" />'.format(__kLeetCodeGray),
+        '       <circle fill="none" cx="70" cy="110" r="46" stroke="{}" stroke-width="5" stroke-linecap="round" stroke-dasharray="{} {}" stroke-dashoffset="0" data-difficult="ALL" />'.format(__kLeetCodeOrange,  solve_len, circle_len - solve_len),
+        '   </g>',
+        '   <g class="state">',
+        '       <g text-anchor="middle">',
+        '          <text x="70" y="110" class="light" font-size="1.2rem">{}</text>'.format(easy + medium + hard),
+        '          <text x="70" y="130" class="light-gray">Solved</text>',
+        '       </g>',
+        __solved_progress_line("Easy", easy, t_easy, 65),
+        __solved_progress_line("Medium", medium, t_medium, 105),
+        __solved_progress_line("Hard", hard, t_hard, 145),
+        '   </g>',
+        '</svg>'
     ])
 
 

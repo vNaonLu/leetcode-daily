@@ -114,9 +114,9 @@ def __main():
     solved_question.sort(key=lambda log: log.timestamp(),
                          reverse=True)
 
-    generate.file(assets_path.joinpath("process.svg").resolve(),
-                  template.problem_solves_process_svg(total_submit[0] + total_submit[1] + total_submit[2],
-                                                      free_questions[0] + free_questions[1] + free_questions[2]))
+    generate.file(assets_path.joinpath("progress.svg").resolve(),
+                  template.problem_solves_svg(total_submit[0], total_submit[1], total_submit[2],
+                                              free_questions[0], free_questions[1], free_questions[2]))
 
     modify.readme(readme_path.resolve(), total_submit, free_questions, sub_md)
 

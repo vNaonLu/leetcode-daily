@@ -150,8 +150,8 @@ def __activity(solved_count: list[int], total_count: list[int], sub_activity: li
         docs.append("- Submissions in {}: [docs/{}.md](./docs/{}.md)".format(name, name, name))
     return "\n".join([
         "## Activity",
-        "{}".format(template.problems_solves_panel(
-            solved_count[0], solved_count[1], solved_count[2], total_count[0], total_count[1], total_count[2])),
+        ""
+        "![progress](./assets/progress.svg)"
         "",
         "More information about full activity can be found at:",
         "",
