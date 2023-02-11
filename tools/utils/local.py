@@ -5,6 +5,7 @@ import pathlib
 import csv
 import time
 import subprocess
+import regex
 
 
 class Complexity:
@@ -17,6 +18,7 @@ class Complexity:
 
     def space_complexity(self):
         return self.__sc
+
 
 class QuestionSource:
     def __init__(self, id: int, base: str):
@@ -214,4 +216,18 @@ def get_complexity_infomation(log_info: str):
             return Complexity(m.group("tc_and_sc"), m.group("tc_and_sc"))
         elif m.group("tc") and m.group("sc"):
             return Complexity(m.group("tc"), m.group("sc"))
+    return None
+
+
+def get_solution(src: pathlib.Path):
+    with open(src, "r") as f:
+        buf = f.read()
+        slt_match = regex.search(
+            "(?P<solution>class Solution *({(?:(?:[^{}]|(?2))*)});)", buf)
+        if slt_match:
+            return slt_match.group("solution")
+        special_match = regex.search(
+            "(?P<solution>class \w+ *({(?:(?:[^{}]|(?2))*)});)", buf)
+        if special_match:
+            return special_match.group("solution")
     return None

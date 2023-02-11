@@ -6,6 +6,7 @@ import os
 import shutil
 from tools.utils import prompt as pmt
 from tools.utils.subprocess_runner import subprocess_runner
+import tools.utils.local as local
 
 _file_path  = pathlib.Path(__file__).parent
 _add_script = _file_path.joinpath("./tools/leetcode_add.py")
@@ -77,6 +78,12 @@ def _build_option(options: optparse, args: list[str]):
 def __parser():
     parser = optparse.OptionParser(usage="%prog [options] id1 id2 ...")
     proj_group = optparse.OptionGroup(parser, "Project")
+    proj_group.add_option("-c", "--cat",
+                          dest="cat",
+                          action="store",
+                          default=None,
+                          help="feature to get a solution for specific question by the id. It terminates other commands if supplied.",
+                          metavar="question_id")
     proj_group.add_option("-a", "--add",
                           dest="add_identifier",
                           action="store_true",
@@ -109,7 +116,7 @@ def __parser():
                            action="store_true",
                            default=False,
                            help="feature to build project.")
-    build_group.add_option("-c", "--clean",
+    build_group.add_option("--clean",
                            dest="cln_identifier",
                            action="store_true",
                            default=False,
@@ -134,18 +141,6 @@ def __parser():
     parser.add_option_group(build_group)
     return parser
 
-def __test_code(options, args):
-    from tools.leetcode.question import LeetCodeQuestion
-    from tools.leetcode import request as Rq
-    slug = Rq.question_slug(int(args[0]))
-    if slug:
-        q = LeetCodeQuestion(slug, not options.no_testcase)
-        s = q.template("prompt test", 70)
-        print()
-        print("=====================================================")
-        print()
-        print(s)
-
 def __main():
     parser = __parser()
     options, args = parser.parse_args()
@@ -166,6 +161,26 @@ def __main():
             _add_question_cmd.append("--no-testcase")
         operation = subprocess_runner("add questions", False)\
                     .invoke(_add_question_cmd + args)
+
+    if options.cat:
+        q = local.QuestionSource(int(options.cat), _source_path.resolve())
+        if not q.src().exists():
+            pmt.show(
+                pmt.fail("The solution for question #{} has not solved.".format(q.id()), "x"))
+            return
+
+        solution = local.get_solution(q.src())
+        if solution is None:
+            pmt.show(
+                pmt.fail("Failed to parse the solution for question #{}.".format(q.id()), "x"))
+            return
+
+        pmt.show(pmt.succ("Find the solution for question #{}:".format(q.id())))
+        pmt.show("")
+        pmt.show(solution.replace("\n  ", "\n", -1))
+
+        # terminate the script
+        return
 
     if options.del_identifier:
         if len(args) == 0:
