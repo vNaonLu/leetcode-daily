@@ -8,11 +8,11 @@ Here is my [LeetCode account](https://leetcode.com/naon/) if you are interested.
 
 
 ## Getting Started
-See [Status](#status) to check the recent solution resolution status, including the historical statistics and the recent submissions.
+See [Activity](#activity) to check the recent solution resolution status, including the historical statistics and the recent submissions.
 All solutions are stored in `src` and more information can be found at [Find Solution](#finding-solution).
 See [Installation](#installation) if you are interested in how to build the project or want to add some testcases for some solutions.
 
-## Status
+## Activity
 <div style="min-height: 186px;height: 186px;width: min-content;padding-top: 1rem;padding-bottom: 0.75rem;background-color: #404040;border-radius: 0.5rem">
    <div style="diplay: flex; flex-direction: row; font-weight: 500; padding-left: 13px; padding-right: 13px">
        <span style="color: #eff2f699;">Solved </span>
@@ -91,6 +91,12 @@ See [Installation](#installation) if you are interested in how to build the proj
       </div>
    </div>
 </div>
+
+More information about full activity can be found at:
+
+- Submissions in 2023: [docs/2023.md](./docs/2023.md)
+- Submissions in 2022: [docs/2022.md](./docs/2022.md)
+- Submissions in 2021: [docs/2021.md](./docs/2021.md)
 
 ## Finding Solution
 Solutions can be found in the directories in `./src` by its question identifier. For instance, the solution for [1. Two Sum](https://leetcode.com/problems/two-sum/) is stored in [`./src/q1_50/q0001.cc`](./src/q1_50/q0001.cc). The source usually contains a structure which is named by question identifier and inherits from the google test structure `testing::Test` and several testcases:

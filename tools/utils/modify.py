@@ -138,17 +138,24 @@ def __introduce():
 def __get_started():
     return "\n".join([
         "## Getting Started",
-        "See [Status](#status) to check the recent solution resolution status, including the historical statistics and the recent submissions.",
+        "See [Activity](#activity) to check the recent solution resolution status, including the historical statistics and the recent submissions.",
         "All solutions are stored in `src` and more information can be found at [Find Solution](#finding-solution).",
         "See [Installation](#installation) if you are interested in how to build the project or want to add some testcases for some solutions.",
     ])
 
 
-def __status(solved_count: list[int], total_count: list[int]):
+def __activity(solved_count: list[int], total_count: list[int], sub_activity: list[str]):
+    docs = []
+    for name in sub_activity:
+        docs.append("- Submissions in {}: [docs/{}.md](./docs/{}.md)".format(name, name, name))
     return "\n".join([
-        "## Status",
+        "## Activity",
         "{}".format(template.problems_solves_panel(
             solved_count[0], solved_count[1], solved_count[2], total_count[0], total_count[1], total_count[2])),
+        "",
+        "More information about full activity can be found at:",
+        "",
+        "\n".join(docs)
     ])
 
 def __finding_solution():
@@ -212,21 +219,22 @@ def __installation():
     ])
 
 
-def readme(path: str, question_list: local.QuestionList,
-           solved: list[local.Log], sub_md: list[str], solved_count: list[int], total_count: list[int]):
+def readme(path: str, solved_count: list[int], total_count: list[int], sub_activity: list[str]):
     with open(path, "w") as f:
         f.write("\n".join([
             __introduce(),
             "",
             __get_started(),
             "",
-            __status(solved_count, total_count),
+            __activity(solved_count, total_count, sub_activity),
             "",
             __finding_solution(),
             "",
             __installation(),
             "",
         ]))
+        f.truncate()
+        __modify_prompt(path)
         return
 
         ids = question_list.ids()
@@ -268,10 +276,3 @@ def readme(path: str, question_list: local.QuestionList,
             ""
         ]))
 
-        for md in sub_md:
-            row = ["[{}](./assets/{}.md)".format(md[0], md[0]),
-                   str(md[1][0] + md[1][1] + md[1][2]),
-                   str(md[1][0]), str(md[1][1]), str(md[1][2])]
-            f.write("|{}|\n".format("|".join(row)))
-        f.truncate()
-        __modify_prompt(path)

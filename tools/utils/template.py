@@ -242,7 +242,7 @@ def log_readme(title: str, solved_logs: list[local.Log], ques_data: local.Questi
                                        details_list, "../src"))
 
     return "\n".join([
-        "## {}".format(title),
+        "## Submissions in {}".format(title),
         "",
         "||Question Title|Difficulty|Solution|",
         "|:--|:--|:--|:-:|",

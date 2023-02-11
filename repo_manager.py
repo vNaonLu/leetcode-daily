@@ -15,6 +15,7 @@ _rdm_script = _file_path.joinpath("./tools/leetcode_rdm.py")
 
 _readme_path = _file_path.joinpath("./README.md")
 _assets_path = _file_path.joinpath("./assets/")
+_docs_path = _file_path.joinpath("./docs/")
 _source_path = _file_path.joinpath("./src")
 _qlist_path  = _file_path.joinpath("./src/questions_list.csv")
 _qlog_path   = _file_path.joinpath("./src/logs.csv")
@@ -199,6 +200,7 @@ def __main():
                     "--out",           _readme_path.resolve(),
                     "--source",        _source_path.resolve(),
                     "--assets",        _assets_path.resolve(),
+                    "--docs",          _docs_path.resolve(),
                     "--question-list", _qlist_path.resolve(),
                     "--question-log",  _qlog_path.resolve()]
         if options.update_list:

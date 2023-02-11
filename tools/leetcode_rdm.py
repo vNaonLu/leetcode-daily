@@ -21,6 +21,11 @@ def __parser():
                       action="store",
                       default=".",
                       metavar=" Assets_Destination")
+    parser.add_option("-d", "--docs",
+                      dest="docs",
+                      action="store",
+                      default=".",
+                      metavar=" Documents_Destination")
     parser.add_option("-s", "--source",
                       dest="source_path",
                       action="store",
@@ -49,6 +54,7 @@ def __main():
 
     readme_path = pathlib.Path(options.readme).resolve()
     assets_path = pathlib.Path(options.assets).resolve()
+    docs_path = pathlib.Path(options.docs).resolve()
     source_path = pathlib.Path(options.source_path).resolve()
     list_csv = pathlib.Path(options.list).resolve()
     log_csv = pathlib.Path(options.log).resolve()
@@ -100,10 +106,10 @@ def __main():
             for l in logs:
                 year_subs[questions.get(l.id()).level() - 1] += 1
                 total_submit[questions.get(l.id()).level() - 1] += 1
-        generate.file(assets_path.joinpath(file_name + ".md").resolve(),
+        generate.file(docs_path.joinpath(file_name + ".md").resolve(),
                         template.log_readme(md_title, year_log,
                                             questions))
-        sub_md.append((file_name, year_subs))
+        sub_md.append(file_name)
     sub_md.reverse()
     solved_question.sort(key=lambda log: log.timestamp(),
                          reverse=True)
@@ -112,8 +118,7 @@ def __main():
                   template.problem_solves_process_svg(total_submit[0] + total_submit[1] + total_submit[2],
                                                       free_questions[0] + free_questions[1] + free_questions[2]))
 
-    modify.readme(readme_path.resolve(), questions,
-                  solved_question, sub_md, total_submit, free_questions)
+    modify.readme(readme_path.resolve(), total_submit, free_questions, sub_md)
 
 
 if __name__ == "__main__":
