@@ -4,7 +4,19 @@ import math
 import pathlib
 import csv
 import time
+import subprocess
 
+
+class Complexity:
+    def __init__(self, time: str, space: str):
+        self.__tc = time
+        self.__sc = space
+
+    def time_complexity(self):
+        return self.__tc
+
+    def space_complexity(self):
+        return self.__sc
 
 class QuestionSource:
     def __init__(self, id: int, base: str):
@@ -185,3 +197,21 @@ def id_interval(id: int):
 def id_folder(id: int):
     intv = id_interval(id)
     return "q_{}_{}".format(intv[0], intv[1])
+
+
+def get_commit_log(file: QuestionSource):
+    cmd = ["git", "log", "--oneline", file.src()]
+    cp = subprocess.run(cmd, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
+    return cp if cp.returncode == 0 else None
+
+
+def get_complexity_infomation(log_info: str):
+    kLogRegex = re.compile(
+        "(?:.*tc *O\((?P<tc>.+)\) +.*sc *O\((?P<sc>.+)\))|(?:(.*tc +and +sc O\((?P<tc_and_sc>.+)\)))", re.IGNORECASE)
+    m = kLogRegex.match(log_info)
+    if m is not None:
+        if m.group("tc_and_sc"):
+            return Complexity(m.group("tc_and_sc"), m.group("tc_and_sc"))
+        elif m.group("tc") and m.group("sc"):
+            return Complexity(m.group("tc"), m.group("sc"))
+    return None

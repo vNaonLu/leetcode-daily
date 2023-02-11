@@ -55,14 +55,16 @@ def subunittest(path: str, file_name: str):
         f.truncate()
         __modify_prompt(path)
 
-def done_question(path: str, ids: list[int]):
+
+def done_question(path: str, ids: list[int], src_path: str):
     id_map: dict[int, dict[str, any]] = {}
 
     with open(path, "r+") as f:
         rows = csv.DictReader(f, delimiter=',')
         writer = csv.DictWriter(
             f,
-            fieldnames=['id', 'title', 'level', 'slug', "paid", 'done', "tc", "sc"],
+            fieldnames=['id', 'title', 'level',
+                        'slug', "paid", 'done', "tc", "sc"],
             delimiter=',')
         for row in rows:
             id_map[int(row["id"])] = row
@@ -71,6 +73,19 @@ def done_question(path: str, ids: list[int]):
         if len(ids) > 0:
             for id in ids:
                 id_map[id]['done'] = '1'
+
+                if id_map[id]["tc"] == "" and id_map[id]["sc"] == "":
+                    cp = local.get_commit_log(local.QuestionSource(id, src_path))
+                    if cp.returncode == 0:
+                        com = local.get_complexity_infomation(
+                            cp.stdout.decode("utf-8"))
+                        if com:
+                            id_map[id]["tc"] = com.time_complexity()
+                            id_map[id]["sc"] = com.space_complexity()
+                        else:
+                            id_map[id]["tc"] = "-"
+                            id_map[id]["sc"] = "-"
+
             f.seek(0)
             writer.writeheader()
             writer.writerows([v for _, v in sorted(

@@ -92,6 +92,11 @@ def __parser():
                           action="store_true",
                           default=False,
                           help="update README.md.")
+    proj_group.add_option("--update-list",
+                          dest="update_list",
+                          action="store_true",
+                          default=False,
+                          help="force to update questions list while updating readme.")
     proj_group.add_option("--no-testcase",
                           dest="no_testcase",
                           action="store_true",
@@ -181,6 +186,8 @@ def __main():
                     "--assets",        _assets_path.resolve(),
                     "--question-list", _qlist_path.resolve(),
                     "--question-log",  _qlog_path.resolve()]
+        if options.update_list:
+            _rdm_cmd.append("--force")
         operation = subprocess_runner("rdm modifies", False)\
                     .invoke(_rdm_cmd + args)
 

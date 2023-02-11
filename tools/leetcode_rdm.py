@@ -36,6 +36,10 @@ def __parser():
                       action="store",
                       default="./logs.csv",
                       metavar=" Question_Logs_File")
+    parser.add_option("-f", "--force",
+                      dest="force",
+                      action="store_true",
+                      default=False)
     return parser
 
 
@@ -48,18 +52,20 @@ def __main():
     source_path = pathlib.Path(options.source_path).resolve()
     list_csv = pathlib.Path(options.list).resolve()
     log_csv = pathlib.Path(options.log).resolve()
+    force_update = options.force
 
     pmt.pending(pmt.hi("Requesting the question list"))
     question_list = LeetCodeRequest.questions()
-    pmt.recieve(pmt.succ(pmt.hi("Successfully received the question list."), "v"))
+    pmt.recieve(
+        pmt.succ(pmt.hi("Successfully received the question list."), "v"))
 
     if not os.path.exists(list_csv):
         pmt.show(pmt.fail("The question list not found: {}".format(list_csv),
                           "x"))
-        if(pmt.ask("Create a question list")):
+        if (pmt.ask("Create a question list")):
             generate.question_list(list_csv.resolve(), question_list)
             solved = local.solved_question_ids(source_path)
-            modify.done_question(list_csv.resolve(), solved)
+            modify.done_question(list_csv.resolve(), solved, source_path.resolve())
 
     if not os.path.exists(log_csv):
         pmt.show(pmt.fail("The log file not found: {}".format(log_csv),
@@ -68,11 +74,11 @@ def __main():
     total_submit = [0, 0, 0]
     log = local.SolvedLog(log_csv)
     questions = local.QuestionList(list_csv)
-    if len(questions.ids()) != len(question_list) and \
-            pmt.ask("New questions found, do you want to update the question list"):
+    if (len(questions.ids()) != len(question_list) and \
+            pmt.ask("New questions found, do you want to update the question list")) or force_update:
         generate.question_list(list_csv.resolve(), question_list)
         solved = local.solved_question_ids(source_path)
-        modify.done_question(list_csv.resolve(), solved)
+        modify.done_question(list_csv.resolve(), solved, source_path.resolve())
         questions = local.QuestionList(list_csv)
 
     sub_md: list[str, list[int]] = []
