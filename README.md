@@ -1,8 +1,9 @@
-# Daily Leetcode in C++
+# Daily LeetCode in C++
 
 [![githubbuild](https://github.com/vNaonLu/Daily_LeetCode/actions/workflows/test.yml/badge.svg)](https://github.com/vNaonLu/Daily_LeetCode/actions)
 
-My daily challenge on leetcode since 2021/09/06.
+This repository collects some of my LeetCode solutions since 2021/09/06.
+Here is my [LeetCode account](https://leetcode.com/naon/) if you are interested.
 
 ## Questions List
 
@@ -2638,53 +2639,38 @@ My daily challenge on leetcode since 2021/09/06.
 ---
 ## Last 25 Submissions
 
-|Time|#|</>|Question Title|Difficulty|
-|:--|--:|:-:|:--|:--|
-|2023-02-10 15:47|2243|[📎](src/q_2201_2250/q2243.cc)|[Calculate Digit Sum of a String](https://leetcode.com/problems/calculate-digit-sum-of-a-string/)|Easy|
-|2023-02-09 14:55|2306|[📎](src/q_2301_2350/q2306.cc)|[Naming a Company](https://leetcode.com/problems/naming-a-company/)|Hard|
-|2023-02-08 18:17|2215|[📎](src/q_2201_2250/q2215.cc)|[Find the Difference of Two Arrays](https://leetcode.com/problems/find-the-difference-of-two-arrays/)|Easy|
-|2023-02-07 21:56|904|[📎](src/q_901_950/q0904.cc)|[Fruit Into Baskets](https://leetcode.com/problems/fruit-into-baskets/)|Medium|
-|2023-02-06 16:42|2544|[📎](src/q_2501_2550/q2544.cc)|[Alternating Digit Sum](https://leetcode.com/problems/alternating-digit-sum/)|Easy|
-|2023-02-05 21:53|2540|[📎](src/q_2501_2550/q2540.cc)|[Minimum Common Value](https://leetcode.com/problems/minimum-common-value/)|Easy|
-|2023-02-04 14:33|2399|[📎](src/q_2351_2400/q2399.cc)|[Check Distances Between Same Letters](https://leetcode.com/problems/check-distances-between-same-letters/)|Easy|
-|2023-02-03 13:19|2413|[📎](src/q_2401_2450/q2413.cc)|[Smallest Even Multiple](https://leetcode.com/problems/smallest-even-multiple/)|Easy|
-|2023-02-02 19:03|2427|[📎](src/q_2401_2450/q2427.cc)|[Number of Common Factors](https://leetcode.com/problems/number-of-common-factors/)|Easy|
-|2023-02-01 20:07|2206|[📎](src/q_2201_2250/q2206.cc)|[Divide Array Into Equal Pairs](https://leetcode.com/problems/divide-array-into-equal-pairs/)|Easy|
-|2023-01-31 20:56|1626|[📎](src/q_1601_1650/q1626.cc)|[Best Team With No Conflicts](https://leetcode.com/problems/best-team-with-no-conflicts/)|Medium|
-|2023-01-30 15:42|2347|[📎](src/q_2301_2350/q2347.cc)|[Best Poker Hand](https://leetcode.com/problems/best-poker-hand/)|Easy|
-|2023-01-29 11:28|460|[📎](src/q_451_500/q0460.cc)|[LFU Cache](https://leetcode.com/problems/lfu-cache/)|Hard|
-|2023-01-27 14:33|472|[📎](src/q_451_500/q0472.cc)|[Concatenated Words](https://leetcode.com/problems/concatenated-words/)|Hard|
-|2023-01-26 13:37|787|[📎](src/q_751_800/q0787.cc)|[Cheapest Flights Within K Stops](https://leetcode.com/problems/cheapest-flights-within-k-stops/)|Medium|
-|2023-01-25 15:48|2359|[📎](src/q_2351_2400/q2359.cc)|[Find Closest Node to Given Two Nodes](https://leetcode.com/problems/find-closest-node-to-given-two-nodes/)|Medium|
-|2023-01-24 15:56|909|[📎](src/q_901_950/q0909.cc)|[Snakes and Ladders](https://leetcode.com/problems/snakes-and-ladders/)|Medium|
-|2023-01-23 14:30|2164|[📎](src/q_2151_2200/q2164.cc)|[Sort Even and Odd Indices Independently](https://leetcode.com/problems/sort-even-and-odd-indices-independently/)|Easy|
-|2023-01-22 12:29|2395|[📎](src/q_2351_2400/q2395.cc)|[Find Subarrays With Equal Sum](https://leetcode.com/problems/find-subarrays-with-equal-sum/)|Easy|
-|2023-01-21 09:29|2423|[📎](src/q_2401_2450/q2423.cc)|[Remove Letter To Equalize Frequency](https://leetcode.com/problems/remove-letter-to-equalize-frequency/)|Easy|
-|2023-01-20 10:23|491|[📎](src/q_451_500/q0491.cc)|[Non-decreasing Subsequences](https://leetcode.com/problems/non-decreasing-subsequences/)|Medium|
-|2023-01-19 12:04|974|[📎](src/q_951_1000/q0974.cc)|[Subarray Sums Divisible by K](https://leetcode.com/problems/subarray-sums-divisible-by-k/)|Medium|
-|2023-01-18 17:53|2418|[📎](src/q_2401_2450/q2418.cc)|[Sort the People](https://leetcode.com/problems/sort-the-people/)|Easy|
-|2023-01-17 21:30|2319|[📎](src/q_2301_2350/q2319.cc)|[Check if Matrix Is X-Matrix](https://leetcode.com/problems/check-if-matrix-is-x-matrix/)|Easy|
-|2023-01-16 16:08|2239|[📎](src/q_2201_2250/q2239.cc)|[Find Closest Number to Zero](https://leetcode.com/problems/find-closest-number-to-zero/)|Easy|
+|Time|Question Title|Difficulty|Solution|
+|:--|:--|:-:|:--|
+|2023-02-10 15:47|[#2243. Calculate Digit Sum of a String](https://leetcode.com/problems/calculate-digit-sum-of-a-string/)|Easy|[q2243.cc](src/q_2201_2250/q2243.cc)||
+|2023-02-09 14:55|[#2306. Naming a Company](https://leetcode.com/problems/naming-a-company/)|Hard|[q2306.cc](src/q_2301_2350/q2306.cc)||
+|2023-02-08 18:17|[#2215. Find the Difference of Two Arrays](https://leetcode.com/problems/find-the-difference-of-two-arrays/)|Easy|[q2215.cc](src/q_2201_2250/q2215.cc)||
+|2023-02-07 21:56|[#904. Fruit Into Baskets](https://leetcode.com/problems/fruit-into-baskets/)|Medium|[q904.cc](src/q_901_950/q0904.cc)||
+|2023-02-06 16:42|[#2544. Alternating Digit Sum](https://leetcode.com/problems/alternating-digit-sum/)|Easy|[q2544.cc](src/q_2501_2550/q2544.cc)||
+|2023-02-05 21:53|[#2540. Minimum Common Value](https://leetcode.com/problems/minimum-common-value/)|Easy|[q2540.cc](src/q_2501_2550/q2540.cc)||
+|2023-02-04 14:33|[#2399. Check Distances Between Same Letters](https://leetcode.com/problems/check-distances-between-same-letters/)|Easy|[q2399.cc](src/q_2351_2400/q2399.cc)||
+|2023-02-03 13:19|[#2413. Smallest Even Multiple](https://leetcode.com/problems/smallest-even-multiple/)|Easy|[q2413.cc](src/q_2401_2450/q2413.cc)||
+|2023-02-02 19:03|[#2427. Number of Common Factors](https://leetcode.com/problems/number-of-common-factors/)|Easy|[q2427.cc](src/q_2401_2450/q2427.cc)||
+|2023-02-01 20:07|[#2206. Divide Array Into Equal Pairs](https://leetcode.com/problems/divide-array-into-equal-pairs/)|Easy|[q2206.cc](src/q_2201_2250/q2206.cc)||
+|2023-01-31 20:56|[#1626. Best Team With No Conflicts](https://leetcode.com/problems/best-team-with-no-conflicts/)|Medium|[q1626.cc](src/q_1601_1650/q1626.cc)||
+|2023-01-30 15:42|[#2347. Best Poker Hand](https://leetcode.com/problems/best-poker-hand/)|Easy|[q2347.cc](src/q_2301_2350/q2347.cc)||
+|2023-01-29 11:28|[#460. LFU Cache](https://leetcode.com/problems/lfu-cache/)|Hard|[q460.cc](src/q_451_500/q0460.cc)||
+|2023-01-27 14:33|[#472. Concatenated Words](https://leetcode.com/problems/concatenated-words/)|Hard|[q472.cc](src/q_451_500/q0472.cc)||
+|2023-01-26 13:37|[#787. Cheapest Flights Within K Stops](https://leetcode.com/problems/cheapest-flights-within-k-stops/)|Medium|[q787.cc](src/q_751_800/q0787.cc)||
+|2023-01-25 15:48|[#2359. Find Closest Node to Given Two Nodes](https://leetcode.com/problems/find-closest-node-to-given-two-nodes/)|Medium|[q2359.cc](src/q_2351_2400/q2359.cc)||
+|2023-01-24 15:56|[#909. Snakes and Ladders](https://leetcode.com/problems/snakes-and-ladders/)|Medium|[q909.cc](src/q_901_950/q0909.cc)||
+|2023-01-23 14:30|[#2164. Sort Even and Odd Indices Independently](https://leetcode.com/problems/sort-even-and-odd-indices-independently/)|Easy|[q2164.cc](src/q_2151_2200/q2164.cc)||
+|2023-01-22 12:29|[#2395. Find Subarrays With Equal Sum](https://leetcode.com/problems/find-subarrays-with-equal-sum/)|Easy|[q2395.cc](src/q_2351_2400/q2395.cc)||
+|2023-01-21 09:29|[#2423. Remove Letter To Equalize Frequency](https://leetcode.com/problems/remove-letter-to-equalize-frequency/)|Easy|[q2423.cc](src/q_2401_2450/q2423.cc)||
+|2023-01-20 10:23|[#491. Non-decreasing Subsequences](https://leetcode.com/problems/non-decreasing-subsequences/)|Medium|[q491.cc](src/q_451_500/q0491.cc)||
+|2023-01-19 12:04|[#974. Subarray Sums Divisible by K](https://leetcode.com/problems/subarray-sums-divisible-by-k/)|Medium|[q974.cc](src/q_951_1000/q0974.cc)||
+|2023-01-18 17:53|[#2418. Sort the People](https://leetcode.com/problems/sort-the-people/)|Easy|[q2418.cc](src/q_2401_2450/q2418.cc)||
+|2023-01-17 21:30|[#2319. Check if Matrix Is X-Matrix](https://leetcode.com/problems/check-if-matrix-is-x-matrix/)|Easy|[q2319.cc](src/q_2301_2350/q2319.cc)||
+|2023-01-16 16:08|[#2239. Find Closest Number to Zero](https://leetcode.com/problems/find-closest-number-to-zero/)|Easy|[q2239.cc](src/q_2201_2250/q2239.cc)||
 
 ## Previous Logs
 
-|Month|Submissions|Easy|Medium|Hard|
+|Year|Submissions|Easy|Medium|Hard|
 |:--|:--|:--|:--|:--|
-|[February_2023](./assets/February_2023.md)|10|8|1|1|
-|[January_2023](./assets/January_2023.md)|31|16|11|4|
-|[December_2022](./assets/December_2022.md)|32|27|5|0|
-|[November_2022](./assets/November_2022.md)|30|21|6|3|
-|[October_2022](./assets/October_2022.md)|33|22|7|4|
-|[September_2022](./assets/September_2022.md)|38|10|19|9|
-|[August_2022](./assets/August_2022.md)|48|15|24|9|
-|[July_2022](./assets/July_2022.md)|47|6|37|4|
-|[June_2022](./assets/June_2022.md)|30|8|19|3|
-|[May_2022](./assets/May_2022.md)|42|12|26|4|
-|[April_2022](./assets/April_2022.md)|56|37|19|0|
-|[March_2022](./assets/March_2022.md)|49|6|39|4|
-|[February_2022](./assets/February_2022.md)|69|15|43|11|
-|[January_2022](./assets/January_2022.md)|32|8|18|6|
-|[December_2021](./assets/December_2021.md)|33|11|15|7|
-|[November_2021](./assets/November_2021.md)|41|18|17|6|
-|[October_2021](./assets/October_2021.md)|115|24|78|13|
-|[September_2021](./assets/September_2021.md)|133|53|73|7|
+|[2023](./assets/2023.md)|41|24|12|5|
+|[2022](./assets/2022.md)|506|187|262|57|
+|[2021](./assets/2021.md)|322|106|183|33|

@@ -88,20 +88,21 @@ def __main():
         if not questions.get(id).paid_only():
             free += 1
     for year in log.years():
+        md_title = "{}".format(year)
+        file_name = "{}".format(year)
+        year_subs = [0, 0, 0]
+        year_log = []
         for month in log.months(year):
-            timetuple = datetime.datetime(year, month, 1).timetuple()
-            md_title = time.strftime("%B %Y", timetuple)
-            file_name = time.strftime("%B_%Y", timetuple)
             logs = log.get_by_month(year, month)
-            submissions = [0, 0, 0]
+            year_log += logs
             solved_question += logs
             for l in logs:
-                submissions[questions.get(l.id()).level() - 1] += 1
+                year_subs[questions.get(l.id()).level() - 1] += 1
                 total_submit[questions.get(l.id()).level() - 1] += 1
-            generate.file(assets_path.joinpath(file_name + ".md").resolve(),
-                          template.log_readme(md_title, logs,
-                                              questions))
-            sub_md.append((file_name, submissions))
+        generate.file(assets_path.joinpath(file_name + ".md").resolve(),
+                        template.log_readme(md_title, year_log,
+                                            questions))
+        sub_md.append((file_name, year_subs))
     sub_md.reverse()
     solved_question.sort(key=lambda log: log.timestamp(),
                          reverse=True)

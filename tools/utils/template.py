@@ -67,12 +67,11 @@ def accepted_svg(e: int, m: int, h: int, total: int):
 
 def __table_row(line: list[str], details: local.QuestionDetails, base: str):
     qfile = local.QuestionSource(details.id(), base)
-    line[2] += str(details.id())
-    line[3] += "[📎]({})".format(qfile.src())
-    line[4] += "[{}](https://leetcode.com/problems/{}/)".format(details.title(),
+    line[2] += "[{}](https://leetcode.com/problems/{}/)".format("#{}. {}".format(details.id(), details.title()),
                                                                 details.slug())
-    line[5] += "{}".format("Hard" if details.level() == 3 else (
+    line[3] += "{}".format("Hard" if details.level() == 3 else (
         "Medium" if details.level() == 2 else "Easy"))
+    line[4] += "[q{}.cc]({})".format(qfile.id(), qfile.src())
     return line
 
 
@@ -86,10 +85,10 @@ def table_row(date: str, details: list[local.QuestionDetails], base: str = "./sr
     return "|".join(line)
 
 
-def log_readme(month: str, solved_logs: list[local.Log], ques_data: local.QuestionList):
+def log_readme(title: str, solved_logs: list[local.Log], ques_data: local.QuestionList):
     day_map: dict[int, list[local.QuestionDetails]] = {}
     for log in solved_logs:
-        d = int(time.strftime("%d",
+        d = int(time.strftime("%j",
                               time.localtime(log.timestamp())))
         if d not in day_map:
             day_map[d] = []
@@ -103,10 +102,10 @@ def log_readme(month: str, solved_logs: list[local.Log], ques_data: local.Questi
                                        details_list, "../src"))
 
     return "\n".join([
-        "## {}".format(month),
+        "## {}".format(title),
         "",
-        "||#|</>|Question Title|Difficulty|",
-        "|:--|--:|:-:|:--|:--|",
+        "||Question Title|Difficulty|Solution|",
+        "|:--|:--|:--|:-:|",
         "\n".join(table_content),
         "",
         ""])

@@ -157,8 +157,8 @@ def readme(path: str, question_list: local.QuestionList,
             "",
             "## Last 25 Submissions",
             "",
-            "|Time|#|</>|Question Title|Difficulty|",
-            "|:--|--:|:-:|:--|:--|",
+            "|Time|Question Title|Difficulty|Solution|",
+            "|:--|:--|:-:|:--|",
             ""
         ]))
         for log in solved[0:25]:
@@ -171,7 +171,7 @@ def readme(path: str, question_list: local.QuestionList,
             "",
             "## Previous Logs",
             "",
-            "|Month|Submissions|Easy|Medium|Hard|",
+            "|Year|Submissions|Easy|Medium|Hard|",
             "|:--|:--|:--|:--|:--|",
             ""
         ]))
