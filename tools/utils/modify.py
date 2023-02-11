@@ -120,7 +120,7 @@ def dellog(path: str, id: int):
 
 
 def readme(path: str, question_list: local.QuestionList,
-           solved: list[local.Log], sub_md: list[str]):
+           solved: list[local.Log], sub_md: list[str], solved_count: list[int], total_count: list[int]):
     with open(path, "w") as f:
         f.write("\n".join([
             "# Daily LeetCode in C++",
@@ -130,12 +130,30 @@ def readme(path: str, question_list: local.QuestionList,
             "This repository collects some of my LeetCode solutions since 2021/09/06.",
             "Here is my [LeetCode account](https://leetcode.com/naon/) if you are interested.",
             "",
-            "## Questions List",
+            "## Installation",
+            "It is not necessary to build or install this project if you just want specific solutions, but you can still build and run this project. ",
+            "Before running to build project, please check below dependencies exist in the build environment:",
+            " - Compiler supports `C++17`.",
+            " - CMake above `3.11`.",
+            " - Unix-like OS.",
             "",
-            "![free questions progress](./assets/submission.svg)"
+            "Then you can build the project easily by",
             "",
-            ""
+            "``` sh",
+            "# Clone this project and change workspace to the project root.",
+            "$ git clone https://github.com/vNaonLu/daily-leetcode",
+            "$ cd daily-leetcode",
+            "# Configure the cmake build files and build it.",
+            "$ cmake -S . -B build -DENABLE_LEETCODE_TEST=ON",
+            "$ cmake --build build",
+            "# Run the leetcode test by GTest interface.",
+            "$ ./build/leetcode_test",
+            "```",
+            "",
+            "{}".format(template.problems_solves_panel(
+                solved_count[0], solved_count[1], solved_count[2], total_count[0], total_count[1], total_count[2])),
         ]))
+        return
 
         ids = question_list.ids()
         for i in range(0, len(ids), 250):

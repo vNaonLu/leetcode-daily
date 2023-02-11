@@ -72,6 +72,7 @@ def __main():
                           "x"))
 
     total_submit = [0, 0, 0]
+    free_questions = [0, 0, 0]
     log = local.SolvedLog(log_csv)
     questions = local.QuestionList(list_csv)
     if (len(questions.ids()) != len(question_list) and \
@@ -83,10 +84,10 @@ def __main():
 
     sub_md: list[str, list[int]] = []
     solved_question: list[local.Log] = []
-    free = 0
     for id in questions.ids():
         if not questions.get(id).paid_only():
-            free += 1
+            free_questions[questions.get(id).level() - 1] += 1
+
     for year in log.years():
         md_title = "{}".format(year)
         file_name = "{}".format(year)
@@ -106,11 +107,13 @@ def __main():
     sub_md.reverse()
     solved_question.sort(key=lambda log: log.timestamp(),
                          reverse=True)
-    generate.file(assets_path.joinpath("submission.svg").resolve(),
-                  template.accepted_svg(total_submit[0], total_submit[1],
-                                        total_submit[2], free))
+
+    generate.file(assets_path.joinpath("process.svg").resolve(),
+                  template.problem_solves_process_svg(total_submit[0] + total_submit[1] + total_submit[2],
+                                                      free_questions[0] + free_questions[1] + free_questions[2]))
+
     modify.readme(readme_path.resolve(), questions,
-                  solved_question, sub_md)
+                  solved_question, sub_md, total_submit, free_questions)
 
 
 if __name__ == "__main__":

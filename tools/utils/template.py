@@ -14,55 +14,195 @@ def question_detail(question: local.QuestionDetails):
                                   "Hard" if question.level() == 3 else ("Medium" if question.level() == 2 else "Easy"))
 
 
-def accepted_svg(e: int, m: int, h: int, total: int):
-    radius: float = 30.0
-    text = ["Easy Solved",
-            "Medium Solved",
-            "Hard Solved",
-            "Total Solved"]
-    text_pos = [50 + radius * 2, 50 - radius - 10]
-    e_fm = [50 + radius, 50]
-    e_to = [50 + radius * math.cos(math.radians(360 * e / total)),
-            50 + radius * math.sin(math.radians(360 * e / total))]
-    m_to = [50 + radius * math.cos(math.radians(360 * (e+m) / total)),
-            50 + radius * math.sin(math.radians(360 * (e+m) / total))]
-    h_to = [50 + radius * math.cos(math.radians(360 * (e+m+h) / total)),
-            50 + radius * math.sin(math.radians(360 * (e+m+h) / total))]
+def problem_solves_process_svg(solve: int, total: int):
+    circle_len = 46 * 2 * math.pi
+    solve_len = circle_len * solve / total
+
     return "\n".join([
         '<?xml version="1.0" encoding="UTF-8" standalone="no"?>',
-        '<svg width="200" height="100" viewBox="0 0 200 100" xmlns="http://www.w3.org/2000/svg"', 'xmlns:xlink="http://www.w3.org/1999/xlink" stroke-width="40" fill="none">',
-        '<style>.small {font: bold 10px sans-serif; fill: #d0d0d0; stroke: black; stroke-width: 0.5px;}</style>',
-        '<style>.esy {font: bold 10px sans-serif; fill: green;}</style>',
-        '<style>.mdm {font: bold 10px sans-serif; fill: orange;}</style>',
-        '<style>.hrd {font: bold 10px sans-serif; fill: red;}</style>',
-        '<circle cx="50" cy="50" r="{}" stroke="gray" />'.format(
-            radius, radius),
-        '<path d="M{} {} A {} {}, 0, {}, 1, {} {}" stroke="green" />'.format(e_fm[0], e_fm[1],
-                                                                             radius, radius, 0 if e / total < 0.5 else 1,
-                                                                             e_to[0], e_to[1]),
-        '<path d="M{} {} A {} {}, 0, {}, 1, {} {}" stroke="orange" />'.format(e_to[0], e_to[1],
-                                                                              radius, radius, 0 if m / total < 0.5 else 1,
-                                                                              m_to[0], m_to[1]),
-        '<path d="M{} {} A {} {}, 0, {}, 1, {} {}" stroke="red" />'.format(m_to[0], m_to[1],
-                                                                           radius, radius, 0 if h / total < 0.5 else 1,
-                                                                           h_to[0], h_to[1]),
-        '<text x="{}" y="{}" class="small">{}</text>'.format(text_pos[0], text_pos[1],
-                                                             text[0]),
-        '<text x="{}" y="{}" class="esy">{}</text>'.format(text_pos[0], text_pos[1] + 10,
-                                                           e),
-        '<text x="{}" y="{}" class="small">{}</text>'.format(text_pos[0], text_pos[1] + 25,
-                                                             text[1]),
-        '<text x="{}" y="{}" class="mdm">{}</text>'.format(text_pos[0], text_pos[1] + 35,
-                                                           m),
-        '<text x="{}" y="{}" class="small">{}</text>'.format(text_pos[0], text_pos[1] + 50,
-                                                             text[2]),
-        '<text x="{}" y="{}" class="hrd">{}</text>'.format(text_pos[0], text_pos[1] + 60,
-                                                           h),
-        '<text x="{}" y="{}" class="small">{}</text>'.format(text_pos[0], text_pos[1] + 75,
-                                                             text[3]),
-        '<text x="{}" y="{}" class="small">{}</text>'.format(text_pos[0], text_pos[1] + 85,
-                                                             e+m+h),
-        '</svg>'])
+        '<svg height="100" width="100" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="transform: rotate(-90deg);">',
+        '   <circle fill="none" cx="50px" cy="50px" r="46" stroke="#747474" stroke-width="3" stroke-linecap="round"/>',
+        '   <circle fill="none" cx="50px" cy="50px" r="46" stroke="#ffa116" stroke-width="5" stroke-linecap="round" stroke-dasharray="{} {}" stroke-dashoffset="0" data-difficult="ALL" />'.format(
+            solve_len, circle_len - solve_len),
+        '</svg>',
+    ])
+
+
+__kLeetCodeLightGray = "#eff2f699"
+__kLeetCodeDarkGray = "#ebebf54d"
+__kLeetCodeWhite = "#ffffff"
+__kLeetCodeOrange = "#ffa116"
+__kLeetCodeGray = "#747474"
+__kPanelBackground = "#404040"
+
+
+def __problem_solves_state(title: str, solve: int, total: int, margin_top: str = "0rem"):
+    kStatePanelCss = "".join([
+        "font-size: .75rem;",
+        "line-height: 1rem;",
+        "align-items: flex-end;",
+        "width: 100%;",
+        "display: flex;",
+    ])
+    kStateTitleCss = "".join([
+        "width: 53px;",
+        "color: {};".format(__kLeetCodeLightGray),
+    ])
+    kStateCenterCss = "".join([
+        "display: flex;",
+        "flex: 1 1 0%;",
+        "align-items: center;"
+    ])
+    kStateCenterSolvedCss = "".join([
+        "line-height: 20px",
+        "font-weight: 500",
+        "font-size: 1rem;",
+        "margin-right: 5px;",
+        "color: {};".format(__kLeetCodeWhite),
+    ])
+    kStateCenterTotalCss = "".join([
+        "color: {};".format(__kLeetCodeGray),
+        "font-weight: 500",
+        "font-size: .75rem",
+        "font-height: 1rem;",
+        "color: {};".format(__kLeetCodeDarkGray),
+    ])
+    kStateTailCss = "".join([
+        "display: inline;"
+    ])
+    kStateCompleteCss = "".join([
+        "margin-left: 0.375rem;",
+        "color: {};".format(__kLeetCodeWhite),
+    ])
+    kStateProgressPanelCss = "".join([
+        "border-radius: 9999px;",
+        "width: 228px;",
+        "height: 0.25rem;",
+        "position: relative;"
+    ])
+    kProgressBackgroundCss = "".join([
+        "background-color: {};".format(__kLeetCodeGray),
+        "width: 100%;",
+        "height: 100%;",
+        "position: absolute;"
+    ])
+    kProgressForeCss = "".join([
+        "background-color: {};".format(__kLeetCodeOrange),
+        "width: {:.4f}%;".format(solve / total * 100.0),
+        "height: 100%;",
+        "position: absolute;",
+        "border-radius: 9999px;",
+    ])
+
+    return "\n           ".join([
+        '<div style="margin-top: {};">'.format(margin_top),
+        '   <div style="{}">'.format(kStatePanelCss),
+        '       <div style="{}">{}</div>'.format(kStateTitleCss, title),
+        '       <div style="{}">'.format(kStateCenterCss),
+        '           <span style="{}">{}</span>'.format(
+            kStateCenterSolvedCss, solve),
+        '           <span style="{}">/{}</span>'.format(
+            kStateCenterTotalCss, total),
+        '       </div>',
+        '       <div style="{}">'.format(kStateTailCss),
+        '           <span>',
+        '               <span style="color: {};">Complete</span>'.format(
+            __kLeetCodeLightGray),
+        '               <span style="{}">{:.2f}%</span>'.format(
+            kStateCompleteCss, solve / total * 100.0),
+        '           </span>',
+        '       </div>',
+        '   </div>',
+        '   <div style="{}">'.format(kStateProgressPanelCss),
+        '       <div style="{}"></div>'.format(kProgressBackgroundCss),
+        '       <div style="{}"></div>'.format(kProgressForeCss),
+        '   </div>',
+        '</div>',
+    ])
+
+
+def problems_solves_panel(easy: int, medium: int, hard: int, total_easy: int, total_medium: int, total_hard: int):
+    kPanelCss = "".join([
+        "min-height: 186px;",
+        "height: 186px;",
+        "width: min-content;",
+        "padding-top: 1rem;",
+        "padding-bottom: 0.75rem;",
+        "background-color: {};".format(__kPanelBackground),
+        "border-radius: 0.5rem"
+    ])
+    kStatPanelCss = "".join([
+        "margin-left: 2rem;",
+        "margin-right: 2rem;",
+        "align-items: center;",
+        "display: flex;"
+    ])
+    kCirclePanelCss = "".join([
+        "min-width: 100px;",
+        "justify-content: center;",
+        "display: flex;",
+        "margin-right: 2rem;",
+        "margin-top: 1.5rem;"
+    ])
+    kCircleCss = "".join([
+        "z-index: 0;",
+        "max-width: 100px",
+        "max-height: 100px;",
+        "position: relative;"
+    ])
+    kCircleDetailCss = "".join([
+        "text-align: center;",
+        "position: absolute;",
+        "transform: translate(-50%, -50%);"
+        "top: 50%;",
+        "left: 50%;",
+    ])
+    kCircleDetailNumberCss = "".join([
+        "font-size: 24px;",
+        "font-weight: 500;",
+        "color: {};".format(__kLeetCodeWhite)
+    ])
+    kCircleDetailFontCss = "".join([
+        "font-size: .75rem;",
+        "line-height: 1rem;",
+        "color: {};".format(__kLeetCodeLightGray)
+    ])
+    kStatePanelCss = "".join([
+        "max-width: 228px;",
+        "flex-direction: column;",
+        "display: flex;",
+        "width: 100%;",
+    ])
+
+    return "\n".join([
+        '<div style="{}">'.format(kPanelCss),
+        '   <div style="diplay: flex; flex-direction: row; font-weight: 500; padding-left: 13px; padding-right: 13px">',
+        '       <span style="color: {};">Free Problems</span>'.format(__kLeetCodeOrange),
+        '       <span style="color: {};">Solved Status</span>'.format(__kLeetCodeLightGray),
+        '   </div>',
+        '   <div style="{}">'.format(kStatPanelCss),
+        '      <div style="{}">'.format(kCirclePanelCss),
+        '           <div style="{}">'.format(kCircleCss),
+        '               <img src="/vNaonLu/daily-leetcode/raw/master/assets/progress.svg">',
+        '               <div style="{}">'.format(kCircleDetailCss),
+        '                   <div>',
+        '                       <div style="{}">{}</div>'.format(kCircleDetailNumberCss, easy + medium + hard),
+        '                       <div style="{}">Solved</div>'.format(kCircleDetailFontCss),
+        '                   </div>',
+        '               </div>',
+        '           </div>',
+        '      </div>',
+        '      <div style="{}">'.format(kStatePanelCss),
+        '           {}'.format(
+            __problem_solves_state("Easy", easy, total_easy)),
+        '           {}'.format(__problem_solves_state(
+            "Medium", medium, total_medium, margin_top="1rem")),
+        '           {}'.format(__problem_solves_state(
+            "Hard", hard, total_hard, margin_top="1rem")),
+        '      </div>',
+        '   </div>',
+        '</div>',
+    ])
 
 
 def __table_row(line: list[str], details: local.QuestionDetails, base: str):
