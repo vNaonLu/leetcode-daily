@@ -2390,7 +2390,7 @@ My daily challenge on leetcode since 2021/09/06.
 ||2322|[Minimum Score After Removals on a Tree](https://leetcode.com/problems/minimum-score-after-removals-on-a-tree/)|Hard|
 |🔒|2323|[Find Minimum Time to Finish All Jobs II](https://leetcode.com/problems/find-minimum-time-to-finish-all-jobs-ii/)|Medium|
 |🔒|2324|[Product Sales Analysis IV](https://leetcode.com/problems/product-sales-analysis-iv/)|Medium|
-||2325|[Decode the Message](https://leetcode.com/problems/decode-the-message/)|Easy|
+|[📎](src/q_2301_2350/q2325.cc)|2325|[Decode the Message](https://leetcode.com/problems/decode-the-message/)|Easy|
 ||2326|[Spiral Matrix IV](https://leetcode.com/problems/spiral-matrix-iv/)|Medium|
 ||2327|[Number of People Aware of a Secret](https://leetcode.com/problems/number-of-people-aware-of-a-secret/)|Medium|
 ||2328|[Number of Increasing Paths in a Grid](https://leetcode.com/problems/number-of-increasing-paths-in-a-grid/)|Hard|
@@ -2640,6 +2640,7 @@ My daily challenge on leetcode since 2021/09/06.
 
 |Time|#|</>|Question Title|Difficulty|
 |:--|--:|:-:|:--|:--|
+|2023-02-11 14:52|2325|[📎](src/q_2301_2350/q2325.cc)|[Decode the Message](https://leetcode.com/problems/decode-the-message/)|Easy|
 |2023-02-10 15:47|2243|[📎](src/q_2201_2250/q2243.cc)|[Calculate Digit Sum of a String](https://leetcode.com/problems/calculate-digit-sum-of-a-string/)|Easy|
 |2023-02-09 14:55|2306|[📎](src/q_2301_2350/q2306.cc)|[Naming a Company](https://leetcode.com/problems/naming-a-company/)|Hard|
 |2023-02-08 18:17|2215|[📎](src/q_2201_2250/q2215.cc)|[Find the Difference of Two Arrays](https://leetcode.com/problems/find-the-difference-of-two-arrays/)|Easy|
@@ -2664,13 +2665,12 @@ My daily challenge on leetcode since 2021/09/06.
 |2023-01-19 12:04|974|[📎](src/q_951_1000/q0974.cc)|[Subarray Sums Divisible by K](https://leetcode.com/problems/subarray-sums-divisible-by-k/)|Medium|
 |2023-01-18 17:53|2418|[📎](src/q_2401_2450/q2418.cc)|[Sort the People](https://leetcode.com/problems/sort-the-people/)|Easy|
 |2023-01-17 21:30|2319|[📎](src/q_2301_2350/q2319.cc)|[Check if Matrix Is X-Matrix](https://leetcode.com/problems/check-if-matrix-is-x-matrix/)|Easy|
-|2023-01-16 16:08|2239|[📎](src/q_2201_2250/q2239.cc)|[Find Closest Number to Zero](https://leetcode.com/problems/find-closest-number-to-zero/)|Easy|
 
 ## Previous Logs
 
 |Month|Submissions|Easy|Medium|Hard|
 |:--|:--|:--|:--|:--|
-|[February_2023](./assets/February_2023.md)|10|8|1|1|
+|[February_2023](./assets/February_2023.md)|11|9|1|1|
 |[January_2023](./assets/January_2023.md)|31|16|11|4|
 |[December_2022](./assets/December_2022.md)|32|27|5|0|
 |[November_2022](./assets/November_2022.md)|30|21|6|3|
