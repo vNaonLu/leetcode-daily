@@ -126,7 +126,10 @@ def __introduce():
         "",
         "[![githubbuild](https://github.com/vNaonLu/Daily_LeetCode/actions/workflows/test.yml/badge.svg)](https://github.com/vNaonLu/Daily_LeetCode/actions)",
         "",
-        "This repository collects some of my LeetCode solutions for **free** questions since 2021/09/06.",
+        "This repository collects some of my LeetCode solutions for **free** questions since 2021/09/06."
+        "The remain questions is still being solved so the current project may not contain the solutions you are looking for. "
+        "Please check the chapter [Getting Started](#getting-started) for more details.",
+        "",
         "Here is my [LeetCode account](https://leetcode.com/naon/) if you are interested.",
         "",
     ])
@@ -135,6 +138,9 @@ def __introduce():
 def __get_started():
     return "\n".join([
         "## Getting Started",
+        "See [Status](#status) to check the recent solution resolution status, including the historical statistics and the recent submissions.",
+        "All solutions are stored in `src` and more information can be found at [Find Solution](#finding-solution).",
+        "See [Installation](#installation) if you are interested in how to build the project or want to add some testcases for some solutions.",
     ])
 
 
@@ -143,6 +149,41 @@ def __status(solved_count: list[int], total_count: list[int]):
         "## Status",
         "{}".format(template.problems_solves_panel(
             solved_count[0], solved_count[1], solved_count[2], total_count[0], total_count[1], total_count[2])),
+    ])
+
+def __finding_solution():
+    return "\n".join([
+        "## Finding Solution",
+        "Solutions can be found in the directories in `./src` by its question identifier. "
+        "For instance, the solution for [1. Two Sum](https://leetcode.com/problems/two-sum/) is stored in [`./src/q1_50/q0001.cc`](./src/q1_50/q0001.cc). "
+        "The source usually contains a structure which is named by question identifier and inherits from the google test structure `testing::Test` and several testcases:",
+        "```cpp",
+        "#include <gtest/gtest.h>",
+        "#include <iostream>",
+        "",
+        "// ...",
+        "",
+        "struct q1 : public ::testing::Test {",
+        "  class Solution {",
+        "  public:",
+        "    vector<int> twoSum(vector<int> &nums, int target) {",
+        "      // some solution...",
+        "    }",
+        "  };",
+        "// ...",
+        "};",
+        "",
+        "TEST_F(q1, sample_input01) {",
+        "// some test input...",
+        "}",
+        "// ...",
+        "```",
+        "The approach is always appeared in the `struct` block."
+        " Or you can simply use the script `repo_manager.py` to cat the exist solution via:",
+        "```sh",
+        "$ repo_manager.py -c <question id>",
+        "```",
+        "But the script probably won't work as it is very rough currently.",
     ])
 
 def __installation():
@@ -180,6 +221,8 @@ def readme(path: str, question_list: local.QuestionList,
             __get_started(),
             "",
             __status(solved_count, total_count),
+            "",
+            __finding_solution(),
             "",
             __installation(),
             "",
