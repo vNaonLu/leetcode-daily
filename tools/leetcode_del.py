@@ -38,23 +38,13 @@ def __main():
     list_csv = pathlib.Path(options.list).resolve()
     log_csv = pathlib.Path(options.log).resolve()
 
-    question_deleted = False
-
     for id in [int(arg) for arg in args]:
         remove_success = False
         qfile = local.QuestionSource(int(id), sour_path)
         remove_success |= modify.remove(sour_path.joinpath(qfile.src()).resolve())
 
         if remove_success:
-            question_deleted = True
             modify.dellog(log_csv.resolve(), id)
-
-    if question_deleted:
-        if not os.path.exists(list_csv):
-            question_list = LeetCodeRequest.questions()
-            generate.question_list(list_csv.resolve(), question_list)
-        solved = local.solved_question_ids(sour_path)
-        modify.done_question(list_csv.resolve(), solved, sour_path.resolve())
 
 
 if __name__ == "__main__":

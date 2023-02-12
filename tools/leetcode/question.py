@@ -436,7 +436,8 @@ class LeetCodeQuestion:
                     " *",
                     " *   • " +
                     "\n *   • ".join(cons_lines),
-                    " *", ])
+                    " *",
+                    " * see more details: https://leetcode.com/problems/{}/".format(self.slug()), ])
             desc += "\n".join([
                 "",
                 " */"])

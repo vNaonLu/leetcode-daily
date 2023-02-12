@@ -91,7 +91,6 @@ def __main():
     testcase = not options.testcase
 
     modify_subunittest: set = set()
-    question_added = False
 
     for id in args:
         qfile = local.QuestionSource(int(id), sour_path)
@@ -99,18 +98,8 @@ def __main():
         if __add_question(qfile, testcase):
             modify.log(log_csv.resolve(), qfile.id(), timestamp)
             modify_subunittest.add(qfile.interval())
-            question_added = True
         else:
             pmt.show(pmt.fail(pmt.hi("Failed to generate question #{}!".format(qfile.id())), "x"))
-
-    if question_added:
-        if not os.path.exists(list_csv):
-            pmt.pending(pmt.hi("Requesting the question list"))
-            question_list = LeetCodeRequest.questions()
-            pmt.recieve(pmt.succ(pmt.hi("Successfully received the question list."), "v"))
-            generate.question_list(list_csv.resolve(), question_list)
-        solved = local.solved_question_ids(sour_path)
-        modify.done_question(list_csv.resolve(), solved, sour_path.resolve())
 
 
 if __name__ == "__main__":

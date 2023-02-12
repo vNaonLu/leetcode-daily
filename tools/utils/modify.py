@@ -56,8 +56,9 @@ def subunittest(path: str, file_name: str):
         __modify_prompt(path)
 
 
-def done_question(path: str, ids: list[int], src_path: str, old_questions: local.QuestionList):
+def done_question(path: str, ids: list[int], src_path: str, old_questions: local.QuestionList = None):
     id_map: dict[int, dict[str, any]] = {}
+    id_set = set(ids)
 
     with open(path, "r+") as f:
         rows = csv.DictReader(f, delimiter=',')
@@ -73,8 +74,8 @@ def done_question(path: str, ids: list[int], src_path: str, old_questions: local
         if len(ids) > 0:
             for id in ids:
                 id_map[id]['done'] = '1'
-                detail = old_questions.get(id)
-                if detail:
+                if old_questions and old_questions.get(id):
+                    detail = old_questions.get(id)
                     id_map[id]['tc'] = detail.tc()
                     id_map[id]['sc'] = detail.sc()
 
