@@ -266,32 +266,37 @@ def yearly_log(year: int, solved_logs: list[local.Log], ques_data: local.Questio
         "",
         "### Overview",
         "",
-        "There are **{}** questions have been solved in {}, "
-        "including **{}** in Easy ones, **{}** in Medium ones and **{}** in Hard ones.".format(len(
+        "There are totally **{}** questions have been solved in {}, "
+        "including **{}** questions in easy, **{}** questions in medium and **{}** questions in hard.".format(len(
             solved_logs), year, total_level_count[0], total_level_count[1], total_level_count[2]),
-        "Here indexes the monthly status:",
         "",
+        "",
+        "Please click on the sections below to see more details for a specific month.",
     ]
 
-    for month, cnts in sorted(month_level_count.items(), key=lambda t: t[0], reverse=True):
+    for month, _ in sorted(month_level_count.items(), key=lambda t: t[0], reverse=True):
         month_str = time.strftime("%B", date(year, month, 1).timetuple())
         res += ["\n".join([
             "- [{}](#{}-submissions)".format(month_str, month_str.lower()),
-            "\t- **{}** easy questions.".format(cnts[0]),
-            "\t- **{}** medium questions.".format(cnts[1]),
-            "\t- **{}** hard questions.".format(cnts[2]),
         ])]
         res += [""]
 
 
     for month, day_map in sorted(month_day_map.items(), key=lambda t: t[0], reverse=True):
+        month_str = time.strftime("%B", date(year, month, 1).timetuple())
         table_content: list[str] = []
+        cnts = month_level_count[month]
         for day, details_list in sorted(day_map.items(), key=lambda t: t[0], reverse=True):
             details_list.sort(key=lambda e: e.id())
             table_content.append(__table_row(
                 "Day {}".format(day), details_list, "../src"))
         res += [
-            "### {} Submissions".format(time.strftime("%B", date(year, month, 1).timetuple())),
+            "### {} Submissions".format(month_str),
+            "",
+            "Solved **{}** questions in {}:".format(sum(cnts), month_str.lower()),
+            "- **{}** questions in easy.".format(cnts[0]),
+            "- **{}** questions in medium.".format(cnts[1]),
+            "- **{}** questions in hard.".format(cnts[2]),
             "",
             "|   |Question Title|Difficulty|Source|",
             "|:--|:-------------|:---------|:----:|",
