@@ -92,7 +92,7 @@ TEST_F(q1443, sample_input02) {
       {2, 3},
       {2, 6}
   };
-  vector<bool> hasApple = {false, false, true, false, true, false};
+  vector<bool> hasApple = {false, false, true, false, false, true, false};
   int          exp      = 6;
   int          act      = solution->minTime(n, edges, hasApple);
   EXPECT_EQ(act, exp);
