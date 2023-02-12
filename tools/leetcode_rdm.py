@@ -84,6 +84,9 @@ def __main():
     free_questions = [0, 0, 0]
     log = local.SolvedLog(log_csv)
     questions = local.QuestionList(list_csv)
+    solved_log_detail: list[tuple[local.Log, local.QuestionDetails]] = []
+    unsolved_log_detail: list[local.QuestionDetails] = []
+
     if (len(questions.ids()) != len(question_list) and \
             pmt.ask("New questions found, do you want to update the question list")) or force_update:
         generate.question_list(list_csv.resolve(), question_list)
@@ -94,8 +97,11 @@ def __main():
     sub_md: list[str, list[int]] = []
     solved_time_info: list[list[list[local.Log]]] = []
     for id in questions.ids():
-        if not questions.get(id).paid_only():
-            free_questions[questions.get(id).level() - 1] += 1
+        q = questions.get(id)
+        if not q.paid_only():
+            free_questions[q.level() - 1] += 1
+        if not q.done():
+            unsolved_log_detail.append(q)
 
 
     def dump_front_elements(v: list[list[list[local.Log]]], max_day: int = sys.maxsize):
@@ -140,6 +146,7 @@ def __main():
                 for l in logs:
                     year_subs[questions.get(l.id()).level() - 1] += 1
                     total_submit[questions.get(l.id()).level() - 1] += 1
+                    solved_log_detail.append((l, questions.get(l.id())))
         
         (begin_time, solved_count) = dump_front_elements(year_solved)
         generate.file(assets_path.joinpath("{}_activity.svg".format(file_name)).resolve(),
@@ -153,13 +160,16 @@ def __main():
                   template.problem_solves_svg(total_submit[0], total_submit[1], total_submit[2],
                                               free_questions[0], free_questions[1], free_questions[2]))
 
-
     solved_time_info.reverse()
     (begin_time, solved_count) = dump_front_elements(solved_time_info, 365)
     solved_count.reverse()
 
     generate.file(assets_path.joinpath("recent_activity.svg").resolve(),
                   template.activities_chart("Recent Activity within", "365 Days", begin_time, solved_count))
+
+    solved_log_detail.sort(key=lambda t : t[1].id())
+    generate.file(docs_path.joinpath("solved_solutions.md").resolve(),
+                  template.solved_solutions_list_doc(solved_log_detail, "../src"))
 
     modify.readme(readme_path.resolve(), sub_md)
 

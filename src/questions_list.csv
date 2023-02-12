@@ -28,7 +28,7 @@ id,title,level,slug,paid,done,tc,sc
 27,Remove Element,1,remove-element,0,1,-,-
 28,Find the Index of the First Occurrence in a String,2,find-the-index-of-the-first-occurrence-in-a-string,0,1,-,-
 29,Divide Two Integers,2,divide-two-integers,0,1,-,-
-30,Substring with Concatenation of All Words,3,substring-with-concatenation-of-all-words,0,1,n*m,n+m) where n is s.size() and m is words.size(
+30,Substring with Concatenation of All Words,3,substring-with-concatenation-of-all-words,0,1,n*m,n+m
 31,Next Permutation,2,next-permutation,0,1,-,-
 32,Longest Valid Parentheses,3,longest-valid-parentheses,0,1,-,-
 33,Search in Rotated Sorted Array,2,search-in-rotated-sorted-array,0,1,-,-
@@ -645,7 +645,7 @@ id,title,level,slug,paid,done,tc,sc
 644,Maximum Average Subarray II,3,maximum-average-subarray-ii,1,0,,
 645,Set Mismatch,1,set-mismatch,0,1,n,1
 646,Maximum Length of Pair Chain,2,maximum-length-of-pair-chain,0,0,,
-647,Palindromic Substrings,2,palindromic-substrings,0,1,n^3) to O(n^2,1) to O(n^2
+647,Palindromic Substrings,2,palindromic-substrings,0,1,n^2,n^2
 648,Replace Words,2,replace-words,0,0,,
 649,Dota2 Senate,2,dota2-senate,0,0,,
 650,2 Keys Keyboard,2,2-keys-keyboard,0,0,,
@@ -884,7 +884,7 @@ id,title,level,slug,paid,done,tc,sc
 883,Projection Area of 3D Shapes,1,projection-area-of-3d-shapes,0,0,,
 884,Uncommon Words from Two Sentences,1,uncommon-words-from-two-sentences,0,1,-,-
 885,Spiral Matrix III,2,spiral-matrix-iii,0,0,,
-886,Possible Bipartition,2,possible-bipartition,0,1,n,size_of(dislikes)
+886,Possible Bipartition,2,possible-bipartition,0,1,n,dislikes.size()
 887,Super Egg Drop,3,super-egg-drop,0,0,,
 888,Fair Candy Swap,1,fair-candy-swap,0,1,-,-
 889,Construct Binary Tree from Preorder and Postorder Traversal,2,construct-binary-tree-from-preorder-and-postorder-traversal,0,0,,
@@ -997,7 +997,7 @@ id,title,level,slug,paid,done,tc,sc
 996,Number of Squareful Arrays,3,number-of-squareful-arrays,0,0,,
 997,Find the Town Judge,1,find-the-town-judge,0,1,-,-
 998,Maximum Binary Tree II,2,maximum-binary-tree-ii,0,0,,
-999,Available Captures for Rook,1,available-captures-for-rook,0,1,n^2,1) where n is board size(8
+999,Available Captures for Rook,1,available-captures-for-rook,0,1,n^2,1
 1000,Minimum Cost to Merge Stones,3,minimum-cost-to-merge-stones,0,0,,
 1001,Grid Illumination,3,grid-illumination,0,0,,
 1002,Find Common Characters,1,find-common-characters,0,1,-,-
@@ -1044,7 +1044,7 @@ id,title,level,slug,paid,done,tc,sc
 1043,Partition Array for Maximum Sum,2,partition-array-for-maximum-sum,0,1,-,-
 1044,Longest Duplicate Substring,3,longest-duplicate-substring,0,1,-,-
 1045,Customers Who Bought All Products,2,customers-who-bought-all-products,1,0,,
-1046,Last Stone Weight,1,last-stone-weight,0,1,length_of(stones),length_of(stones)
+1046,Last Stone Weight,1,last-stone-weight,0,1,stones.size(),stones.size()
 1047,Remove All Adjacent Duplicates In String,1,remove-all-adjacent-duplicates-in-string,0,1,n,1
 1048,Longest String Chain,2,longest-string-chain,0,1,-,-
 1049,Last Stone Weight II,2,last-stone-weight-ii,0,1,-,-
@@ -1286,10 +1286,10 @@ id,title,level,slug,paid,done,tc,sc
 1285,Find the Start and End Number of Continuous Ranges,2,find-the-start-and-end-number-of-continuous-ranges,1,0,,
 1286,Iterator for Combination,2,iterator-for-combination,0,1,-,-
 1287,Element Appearing More Than 25% In Sorted Array,1,element-appearing-more-than-25-in-sorted-array,0,1,log(n),1
-1288,Remove Covered Intervals,2,remove-covered-intervals,0,1,n*log(n,1) where n is size of intervals
+1288,Remove Covered Intervals,2,remove-covered-intervals,0,1,n*log(n),1
 1289,Minimum Falling Path Sum II,3,minimum-falling-path-sum-ii,0,0,,
 1290,Convert Binary Number in a Linked List to Integer,1,convert-binary-number-in-a-linked-list-to-integer,0,1,-,-
-1291,Sequential Digits,2,sequential-digits,0,1,nlog(n),n
+1291,Sequential Digits,2,sequential-digits,0,1,n*log(n),n
 1292,Maximum Side Length of a Square with Sum Less than or Equal to Threshold,2,maximum-side-length-of-a-square-with-sum-less-than-or-equal-to-threshold,0,1,-,-
 1293,Shortest Path in a Grid with Obstacles Elimination,3,shortest-path-in-a-grid-with-obstacles-elimination,0,1,-,-
 1294,Weather Type in Each Country,1,weather-type-in-each-country,1,0,,
@@ -1453,7 +1453,7 @@ id,title,level,slug,paid,done,tc,sc
 1452,People Whose List of Favorite Companies Is Not a Subset of Another List,2,people-whose-list-of-favorite-companies-is-not-a-subset-of-another-list,0,0,,
 1453,Maximum Number of Darts Inside of a Circular Dartboard,3,maximum-number-of-darts-inside-of-a-circular-dartboard,0,0,,
 1454,Active Users,2,active-users,1,0,,
-1455,Check If a Word Occurs As a Prefix of Any Word in a Sentence,1,check-if-a-word-occurs-as-a-prefix-of-any-word-in-a-sentence,0,1,sentence.size() + searchWord.size() * words count in sentence,sentence.size()
+1455,Check If a Word Occurs As a Prefix of Any Word in a Sentence,1,check-if-a-word-occurs-as-a-prefix-of-any-word-in-a-sentence,0,1,sentence.size() + searchWord.size() * WordsIn(searchWord),sentence.size()
 1456,Maximum Number of Vowels in a Substring of Given Length,2,maximum-number-of-vowels-in-a-substring-of-given-length,0,0,,
 1457,Pseudo-Palindromic Paths in a Binary Tree,2,pseudo-palindromic-paths-in-a-binary-tree,0,1,n,log(n)
 1458,Max Dot Product of Two Subsequences,3,max-dot-product-of-two-subsequences,0,0,,
@@ -1682,7 +1682,7 @@ id,title,level,slug,paid,done,tc,sc
 1681,Minimum Incompatibility,3,minimum-incompatibility,0,0,,
 1682,Longest Palindromic Subsequence II,2,longest-palindromic-subsequence-ii,1,0,,
 1683,Invalid Tweets,1,invalid-tweets,1,0,,
-1684,Count the Number of Consistent Strings,1,count-the-number-of-consistent-strings,0,1,allowed.size() + words.size() * elem length in words,allowed.size
+1684,Count the Number of Consistent Strings,1,count-the-number-of-consistent-strings,0,1,allowed.size() + words.size() * TotalStringLength(words),allowed.size
 1685,Sum of Absolute Differences in a Sorted Array,2,sum-of-absolute-differences-in-a-sorted-array,0,0,,
 1686,Stone Game VI,2,stone-game-vi,0,0,,
 1687,Delivering Boxes from Storage to Ports,3,delivering-boxes-from-storage-to-ports,0,0,,
@@ -1959,7 +1959,7 @@ id,title,level,slug,paid,done,tc,sc
 1958,Check if Move is Legal,2,check-if-move-is-legal,0,0,,
 1959,Minimum Total Space Wasted With K Resizing Operations,2,minimum-total-space-wasted-with-k-resizing-operations,0,0,,
 1960,Maximum Product of the Length of Two Palindromic Substrings,3,maximum-product-of-the-length-of-two-palindromic-substrings,0,0,,
-1961,Check If String Is a Prefix of Array,1,check-if-string-is-a-prefix-of-array,0,1,"max(s.size(), total length in words)",total length of words
+1961,Check If String Is a Prefix of Array,1,check-if-string-is-a-prefix-of-array,0,1,"max(s.size(), TotalStringLength(words))",TotalStringLength(words)
 1962,Remove Stones to Minimize the Total,2,remove-stones-to-minimize-the-total,0,1,piles.size() * log(piles.size*(),piles.size()
 1963,Minimum Number of Swaps to Make the String Balanced,2,minimum-number-of-swaps-to-make-the-string-balanced,0,1,n,1
 1964,Find the Longest Valid Obstacle Course at Each Position,3,find-the-longest-valid-obstacle-course-at-each-position,0,0,,
@@ -2051,7 +2051,7 @@ id,title,level,slug,paid,done,tc,sc
 2050,Parallel Courses III,3,parallel-courses-iii,0,0,,
 2051,The Category of Each Member in the Store,2,the-category-of-each-member-in-the-store,1,0,,
 2052,Minimum Cost to Separate Sentence Into Rows,2,minimum-cost-to-separate-sentence-into-rows,1,0,,
-2053,Kth Distinct String in an Array,1,kth-distinct-string-in-an-array,0,1,total string length of arr,total string length of arr
+2053,Kth Distinct String in an Array,1,kth-distinct-string-in-an-array,0,1,TotalStringLength(arr),TotalStringLength(arr)
 2054,Two Best Non-Overlapping Events,2,two-best-non-overlapping-events,0,0,,
 2055,Plates Between Candles,2,plates-between-candles,0,0,,
 2056,Number of Valid Move Combinations On Chessboard,3,number-of-valid-move-combinations-on-chessboard,0,0,,
@@ -2246,7 +2246,7 @@ id,title,level,slug,paid,done,tc,sc
 2245,Maximum Trailing Zeros in a Cornered Path,2,maximum-trailing-zeros-in-a-cornered-path,0,0,,
 2246,Longest Path With Different Adjacent Characters,3,longest-path-with-different-adjacent-characters,0,1,parent.szie(),parent.size()
 2247,Maximum Cost of Trip With K Highways,3,maximum-cost-of-trip-with-k-highways,1,0,,
-2248,Intersection of Multiple Arrays,1,intersection-of-multiple-arrays,0,1,total elemnents of nums,total elements of nums.
+2248,Intersection of Multiple Arrays,1,intersection-of-multiple-arrays,0,1,TotalElemnents(nums),TotalElemnents(nums).
 2249,Count Lattice Points Inside a Circle,2,count-lattice-points-inside-a-circle,0,0,,
 2250,Count Number of Rectangles Containing Each Point,2,count-number-of-rectangles-containing-each-point,0,0,,
 2251,Number of Flowers in Full Bloom,3,number-of-flowers-in-full-bloom,0,0,,

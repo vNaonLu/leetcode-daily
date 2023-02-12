@@ -1,6 +1,6 @@
 import time
 import math
-import calendar
+import pathlib
 from datetime import date
 from . import local
 
@@ -306,8 +306,37 @@ def yearly_log(year: int, solved_logs: list[local.Log], ques_data: local.Questio
     return "\n".join(res)
 
 
-def solved_solutions_list(questions: local.QuestionList):
+def solved_solutions_list_doc(solved: list[tuple[local.Log, local.QuestionDetails]], src_path: pathlib.Path):
     res = [
+        '# Solved Solutions List',
         '',
+        'This document contains **{}** solved questions. '
+        'To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. '.format(len(solved)),
+        '',
+        'Note that some questions have incomplete complexity information and I will finish it one after antoher. '
+        'Some questions which are still being resolved are not shown in this page, more information about unsolved questions can be found at Unsolved Question List.',
+        '',
+        '',
+        '|Id |Question Title|Source|Time Complexity|Space Complexity|Added Time(UTC+8)|',
+        '|--:|:-------------|:-----|:-------------:|:--------------:|:----------------|',
     ]
+
+    for log, detail in solved:
+        file = local.QuestionSource(detail.id(), src_path)
+        row = "|"
+        row += "{}|".format(detail.id())
+        row += "[{}](https://leetcode.com/problems/{}/)|".format(detail.title(), detail.slug())
+        row += "[src/{}/q{}.cc]({})|".format(local.id_folder(file.id()), str(file.id()).zfill(4), file.src())
+        if detail.tc() != "-":
+            row += "$O({})$|".format(detail.tc())
+        else:
+            row += "|"
+
+        if detail.sc() != "-":
+            row += "$O({})$|".format(detail.sc())
+        else:
+            row += "|"
+        row += "{}|".format(time.strftime("%Y/%m/%d %H:%M", time.localtime(log.timestamp())))
+        res.append(row)
+
     return "\n".join(res)

@@ -2,7 +2,7 @@
 
 [![githubbuild](https://github.com/vNaonLu/Daily_LeetCode/actions/workflows/test.yml/badge.svg)](https://github.com/vNaonLu/Daily_LeetCode/actions)
 
-This repository collects some of my LeetCode solutions for **free** questions since 2021/09/06.The remain questions is still being solved so the current project may not contain the solutions you are looking for. Please check the chapter [Getting Started](#getting-started) for more details.
+This repository collects some of my LeetCode solutions for **free** questions since 2021/09/06. The remain questions is still being solved so the current project may not contain the solutions you are looking for. Please check the chapter [Getting Started](#getting-started) for more details.
 
 Here is my [LeetCode account](https://leetcode.com/naon/) if you are interested.
 
