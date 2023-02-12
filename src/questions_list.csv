@@ -1286,7 +1286,7 @@ id,title,level,slug,paid,done,tc,sc
 1285,Find the Start and End Number of Continuous Ranges,2,find-the-start-and-end-number-of-continuous-ranges,1,0,,
 1286,Iterator for Combination,2,iterator-for-combination,0,1,-,-
 1287,Element Appearing More Than 25% In Sorted Array,1,element-appearing-more-than-25-in-sorted-array,0,1,log(n),1
-1288,Remove Covered Intervals,2,remove-covered-intervals,0,1,n*log(n,1
+1288,Remove Covered Intervals,2,remove-covered-intervals,0,1,n*log(n),1
 1289,Minimum Falling Path Sum II,3,minimum-falling-path-sum-ii,0,0,,
 1290,Convert Binary Number in a Linked List to Integer,1,convert-binary-number-in-a-linked-list-to-integer,0,1,-,-
 1291,Sequential Digits,2,sequential-digits,0,1,nlog(n),n
@@ -2475,7 +2475,7 @@ id,title,level,slug,paid,done,tc,sc
 2474,Customers With Strictly Increasing Purchases,3,customers-with-strictly-increasing-purchases,1,0,,
 2475,Number of Unequal Triplets in Array,1,number-of-unequal-triplets-in-array,0,0,,
 2476,Closest Nodes Queries in a Binary Search Tree,2,closest-nodes-queries-in-a-binary-search-tree,0,0,,
-2477,Minimum Fuel Cost to Report to the Capital,2,minimum-fuel-cost-to-report-to-the-capital,0,0,,
+2477,Minimum Fuel Cost to Report to the Capital,2,minimum-fuel-cost-to-report-to-the-capital,0,1,n,n
 2478,Number of Beautiful Partitions,3,number-of-beautiful-partitions,0,0,,
 2479,Maximum XOR of Two Non-Overlapping Subtrees,3,maximum-xor-of-two-non-overlapping-subtrees,1,0,,
 2480,Form a Chemical Bond,1,form-a-chemical-bond,1,0,,
