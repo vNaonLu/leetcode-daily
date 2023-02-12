@@ -27,7 +27,8 @@ More information about full activities can be found at:
 - All submissions in 2021: [docs/2021.md](./docs/2021.md)
 
 ## Finding Solution
-Solutions can be found in the directories in `./src` by its question identifier. For instance, the solution for [1. Two Sum](https://leetcode.com/problems/two-sum/) is stored in [src/q_1_50/q0001.cc](./src/q_1_50/q0001.cc). The source usually contains a structure which is named by question identifier and inherits from the google test structure `testing::Test` and several testcases:
+
+All solved solution information can be found at [docs/solved_solutions.md](./docs/solved_solutions.md) and their source store in the directories in `./src` by their question identifier. For instance, the solution for [1. Two Sum](https://leetcode.com/problems/two-sum/) is stored in [src/q_1_50/q0001.cc](./src/q_1_50/q0001.cc). The source usually contains a structure which is named by question identifier and inherits from the google test structure `testing::Test` and several testcases:
 ```cpp
 #include <gtest/gtest.h>
 #include <iostream>

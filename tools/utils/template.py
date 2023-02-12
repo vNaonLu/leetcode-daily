@@ -352,12 +352,12 @@ def solved_solutions_list_doc(solved: list[tuple[local.Log, local.QuestionDetail
         row += "[{}](https://leetcode.com/problems/{}/)|".format(detail.title(), detail.slug())
         row += "[src/{}/q{}.cc]({})|".format(local.id_folder(file.id()), str(file.id()).zfill(4), file.src())
         if detail.tc() != "-":
-            row += "$O({})$|".format(detail.tc())
+            row += "$$\\tiny O({})$$|".format(detail.tc())
         else:
             row += "|"
 
         if detail.sc() != "-":
-            row += "$O({})$|".format(detail.sc())
+            row += "$$\\tiny O({})$$|".format(detail.sc())
         else:
             row += "|"
         row += "{}|".format(time.strftime("%Y/%m/%d %H:%M", time.localtime(log.timestamp())))
