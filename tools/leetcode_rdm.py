@@ -104,13 +104,14 @@ def __main():
         res: list[list[int]] = []
         for monthes in v:
             month = []
-            for days in monthes:
+            for days in reversed(monthes):
                 earliest = min([earliest] + [q.timestamp() for q in days])
                 month += [len(days)]
                 remain -= 1
                 if remain == 0:
                     break
 
+            month.reverse()
             res += [month]
             if remain == 0:
                 break
