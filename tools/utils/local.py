@@ -156,11 +156,15 @@ class SolvedLog:
         return log
 
     def years(self):
-        return [y for y in self._log]
+        res = [y for y in self._log]
+        res.sort()
+        return res
 
     def months(self, year: int):
         if year in self._log:
-            return [m for m in self._log[year]]
+            res = [m for m in self._log[year]]
+            res.sort()
+            return res
         return []
 
     def days(self, year: int, month: int):

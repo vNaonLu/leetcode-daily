@@ -144,14 +144,15 @@ def __get_started():
     ])
 
 
-def __activity(solved_count: list[int], total_count: list[int], sub_activity: list[str]):
+def __activity(sub_activity: list[str]):
     docs = []
     for name in sub_activity:
-        docs.append("- Submissions in {}: [docs/{}.md](./docs/{}.md)".format(name, name, name))
+        docs.append("- All submissions in {}: [docs/{}.md](./docs/{}.md)".format(name, name, name))
     return "\n".join([
         "## Activity",
-        ""
+        "",
         "![progress](./assets/progress.svg)",
+        "![activity](./assets/recent_activity.svg)",
         "",
         "More information about full activities can be found at:",
         "",
@@ -220,14 +221,14 @@ def __installation():
     ])
 
 
-def readme(path: str, solved_count: list[int], total_count: list[int], sub_activity: list[str]):
+def readme(path: str, sub_activity: list[str]):
     with open(path, "w") as f:
         f.write("\n".join([
             __introduce(),
             "",
             __get_started(),
             "",
-            __activity(solved_count, total_count, sub_activity),
+            __activity(sub_activity),
             "",
             __finding_solution(),
             "",

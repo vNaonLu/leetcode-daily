@@ -13,13 +13,15 @@ All solutions are stored in `src` and more information can be found at [Find Sol
 See [Installation](#installation) if you are interested in how to build the project or want to add some testcases for some solutions.
 
 ## Activity
+
 ![progress](./assets/progress.svg)
+![activity](./assets/recent_activity.svg)
 
 More information about full activities can be found at:
 
-- Submissions in 2023: [docs/2023.md](./docs/2023.md)
-- Submissions in 2022: [docs/2022.md](./docs/2022.md)
-- Submissions in 2021: [docs/2021.md](./docs/2021.md)
+- All submissions in 2023: [docs/2023.md](./docs/2023.md)
+- All submissions in 2022: [docs/2022.md](./docs/2022.md)
+- All submissions in 2021: [docs/2021.md](./docs/2021.md)
 
 ## Finding Solution
 Solutions can be found in the directories in `./src` by its question identifier. For instance, the solution for [1. Two Sum](https://leetcode.com/problems/two-sum/) is stored in [`./src/q1_50/q0001.cc`](./src/q1_50/q0001.cc). The source usually contains a structure which is named by question identifier and inherits from the google test structure `testing::Test` and several testcases:

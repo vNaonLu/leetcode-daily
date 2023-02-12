@@ -3,7 +3,9 @@ import os
 import optparse
 import pathlib
 import time
-import datetime
+import sys
+import calendar
+from datetime import date
 from utils import modify, local, template, prompt as pmt
 from utils import generate
 from leetcode import request as LeetCodeRequest
@@ -59,6 +61,7 @@ def __main():
     list_csv = pathlib.Path(options.list).resolve()
     log_csv = pathlib.Path(options.log).resolve()
     force_update = options.force
+    kToday = date.today()
 
     pmt.pending(pmt.hi("Requesting the question list"))
     question_list = LeetCodeRequest.questions()
@@ -89,36 +92,76 @@ def __main():
         questions = local.QuestionList(list_csv)
 
     sub_md: list[str, list[int]] = []
-    solved_question: list[local.Log] = []
+    solved_time_info: list[list[list[local.Log]]] = []
     for id in questions.ids():
         if not questions.get(id).paid_only():
             free_questions[questions.get(id).level() - 1] += 1
+
+
+    def dump_front_elements(v: list[list[list[local.Log]]], max_day: int = sys.maxsize):
+        remain = max_day
+        earliest = sys.maxsize
+        res: list[list[int]] = []
+        for monthes in v:
+            month = []
+            for days in monthes:
+                earliest = min([earliest] + [q.timestamp() for q in days])
+                month += [len(days)]
+                remain -= 1
+                if remain == 0:
+                    break
+
+            res += [month]
+            if remain == 0:
+                break
+        return (earliest, res)
+
 
     for year in log.years():
         md_title = "{}".format(year)
         file_name = "{}".format(year)
         year_subs = [0, 0, 0]
         year_log = []
-        for month in log.months(year):
+        year_solved: list[list[list[local.Log]]] = []
+
+        for month in range(1, 13 if year != kToday.year else (kToday.month + 1)):
             logs = log.get_by_month(year, month)
-            year_log += logs
-            solved_question += logs
-            for l in logs:
-                year_subs[questions.get(l.id()).level() - 1] += 1
-                total_submit[questions.get(l.id()).level() - 1] += 1
+
+            days_in_month = calendar.monthrange(year, month)[1] if (
+                year != kToday.year or month != kToday.month) else kToday.day
+            month_solved = [[]] * (days_in_month)
+            for i in range(1, days_in_month + 1):
+                month_solved[i-1] = log.get_by_day(year, month, i)
+            solved_time_info.append(month_solved)
+            year_solved.append(month_solved)
+            
+            if len(logs) > 0:
+                year_log += logs
+                for l in logs:
+                    year_subs[questions.get(l.id()).level() - 1] += 1
+                    total_submit[questions.get(l.id()).level() - 1] += 1
+        
+        (begin_time, solved_count) = dump_front_elements(year_solved)
+        generate.file(assets_path.joinpath("{}_activity.svg".format(file_name)).resolve(),
+                      template.activities_chart("Activity in", file_name, calendar.timegm(date(year, 1, 1).timetuple()), solved_count))
         generate.file(docs_path.joinpath(file_name + ".md").resolve(),
-                        template.log_readme(md_title, year_log,
-                                            questions))
+                        template.log_readme(md_title, year_log, questions))
         sub_md.append(file_name)
     sub_md.reverse()
-    solved_question.sort(key=lambda log: log.timestamp(),
-                         reverse=True)
 
     generate.file(assets_path.joinpath("progress.svg").resolve(),
                   template.problem_solves_svg(total_submit[0], total_submit[1], total_submit[2],
                                               free_questions[0], free_questions[1], free_questions[2]))
 
-    modify.readme(readme_path.resolve(), total_submit, free_questions, sub_md)
+
+    solved_time_info.reverse()
+    (begin_time, solved_count) = dump_front_elements(solved_time_info, 365)
+    solved_count.reverse()
+
+    generate.file(assets_path.joinpath("recent_activity.svg").resolve(),
+                  template.activities_chart("Recent Activity within", "365 Days", begin_time, solved_count))
+
+    modify.readme(readme_path.resolve(), sub_md)
 
 
 if __name__ == "__main__":

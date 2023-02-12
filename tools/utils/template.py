@@ -3,12 +3,39 @@ import math
 from . import local
 
 
+def __combine_style(list: list[str]):
+    return ";".join(list + [""])
+
+
 __kLeetCodeLightGray = "#eff2f699"
 __kLeetCodeDarkGray = "#ebebf54d"
 __kLeetCodeWhite = "#ffffff"
 __kLeetCodeOrange = "#ffa116"
 __kLeetCodeGray = "#747474"
 __kPanelBackground = "#404040"
+__kBlockSize = 8.86
+__kBlockStep = 11.52
+__kBlockStride = 2
+
+__kTitleStyle = __combine_style(["font-weight: 500",
+                                "font-size: 1rem"])
+__kRotate90Style = __combine_style(["transform: rotate(-90deg)",
+                                    "transform-origin: center",
+                                    "transform-box: fill-box"])
+__kStateStyle = __combine_style(["font-size: .75rem"])
+__kLightStyle = __combine_style(["color: {}".format(__kLeetCodeWhite),
+                                "fill: {}".format(__kLeetCodeWhite)])
+__kLightGrayStyle = __combine_style(["color: {}".format(__kLeetCodeLightGray),
+                                    "fill: {}".format(__kLeetCodeLightGray)])
+__kDarkGrayStyle = __combine_style(["color: {}".format(__kLeetCodeDarkGray),
+                                    "fill: {}".format(__kLeetCodeDarkGray)])
+__kGrayStyle = __combine_style(["color: {}".format(__kLeetCodeGray),
+                                "fill: {}".format(__kLeetCodeGray)])
+__kOrangeStyle = __combine_style(["color: {}".format(__kLeetCodeOrange),
+                                  "fill: {}".format(__kLeetCodeOrange)])
+__kBackgroundStyle = __combine_style(["color: {}".format(__kPanelBackground),
+                                      "fill: {}".format(__kPanelBackground)])
+
 
 
 def question_detail(question: local.QuestionDetails):
@@ -22,8 +49,113 @@ def question_detail(question: local.QuestionDetails):
                                   "Hard" if question.level() == 3 else ("Medium" if question.level() == 2 else "Easy"))
 
 
-def __combine_style(list: list[str]):
-    return ";".join(list + [""])
+def __activaties_month(begin_time: time.struct_time, x: int, y: int, solved_array: list[int], color_callback):
+
+    week_x = [x + i * __kBlockStep for i in range(6)]
+    day_y  = [y + i * __kBlockStep for i in range(7)]
+
+    start_day = int(time.strftime("%w", begin_time))
+
+    res = [
+        '<g x="{}" y="{}">'.format(x, y),
+    ]
+
+    curr_week = 0
+    curr_idx = 0
+    while curr_idx < len(solved_array):
+        curr_x = week_x[curr_week]
+        week_svg = ['<g x="{}" y="{}">'.format(curr_x, y)]
+        start_in_week = int((start_day + curr_idx) % 7)
+        for d in range(start_in_week, 7):
+            week_svg += [
+                '<rect x="{0}" y="{1}" width="{2}" height="{2}" rx="2" ry="2" class="{3}" />'.format(
+                    curr_x, day_y[d], __kBlockSize, color_callback(solved_array[curr_idx]))
+            ]
+            curr_idx += 1
+            if curr_idx >= len(solved_array):
+                break
+        curr_week += 1
+        week_svg += ["</g>"]
+        res += week_svg
+
+    res += [
+        '   <text x="{}" y="155" class="light-gray state">{}</text>'.format(
+            week_x[0], time.strftime("%b", begin_time)),
+        '</g>'
+    ]
+    return ("\n".join(res), curr_week, (start_day + curr_idx) % 7)
+
+
+def activities_chart(light_title: str, orange_title: str, begin_time: int, solved_array: list[list[int]]):
+    kDaySeconds = int(24 * 60 * 60)
+
+    kLevelStyles = [
+        ("level-1-block", __combine_style(["fill: #ffffff1a"])),
+        ("level-2-block", __combine_style(["fill: #2cb55d80"])),
+        ("level-3-block", __combine_style(["fill: #2cbb5dff"])),
+        ("level-4-block", __combine_style(["fill: #4cc575ff"])),
+        ("level-5-block", __combine_style(["fill: #6bcf8eff"])),
+    ]
+
+    flat = [x for v in solved_array for x in v]
+
+    res = [
+        '<svg version="1.1" height="200" width="830" viewBox="0 0 830 200" xmlns="http://www.w3.org/2000/svg">',
+        '   <style>*{font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;}</style>',
+        '   <style>.title{{{}}}</style>'.format(__kTitleStyle),
+        '   <style>.rotate-90{{{}}}</style>'.format(__kRotate90Style),
+        '   <style>.state{{{}}}</style>'.format(__kStateStyle),
+        '   <style>.light{{{}}}</style>'.format(__kLightStyle),
+        '   <style>.light-gray{{{}}}</style>'.format(__kLightGrayStyle),
+        '   <style>.dark-gray{{{}}}</style>'.format(__kDarkGrayStyle),
+        '   <style>.gray{{{}}}</style>'.format(__kGrayStyle),
+        '   <style>.orange{{{}}}</style>'.format(__kOrangeStyle),
+        '   <style>.background{{{}}}</style>'.format(__kBackgroundStyle),
+        '\n'.join(['<style>.{}{{{}}}</style>'.format(*l) for l in kLevelStyles]),
+        '   <rect fill="#404040" x="0" y="0" width="830" height="200" rx="0.5rem"/>', # bg
+        '   <g text-anchor="start" text-decoration="1" class="title">',               # title
+        '       <text x="20" y="35">',
+        '           <tspan class="light">{}</tspan>'.format(light_title),
+        '           <tspan class="orange">{}</tspan>'.format(orange_title),
+        '       </text>',
+        '   </g>',
+        '<g class="state">',
+        '   <text x="670" y="35" class="light-gray"> Total solution: </text>',
+        '   <text x="750" y="35" class="light"> {} </text>'.format(sum(flat)),
+        '   <text x="{}" y="180" class="light-gray" text-anchor="end">Less</text>'.format(750 - __kBlockStep * (len(kLevelStyles) + 1) - __kBlockStride),
+        '\n'.join(['<rect x="{0}" y="171" width="{1}" height="{1}" rx="2" ry="2" class="{2}"/>'.format(
+            750 - __kBlockStep * (len(kLevelStyles) - i + 0.5), __kBlockSize, kLevelStyles[i][0]) for i in range(len(kLevelStyles))]),
+        '   <text x="750" y="180" class="light-gray">More</text>',
+        '</g>',
+    ]
+
+    mx = max(flat)
+    stride = mx / len(kLevelStyles)
+    std = [0, 1] + [max(2, math.ceil(stride * (i + 1))) for i in range(len(kLevelStyles) - 1)]
+    del flat
+    assert len(std) == len(kLevelStyles) + 1
+    
+    def level_defined(cnt: int):
+        for i in range(1, len(std)):
+            if cnt < std[i]:
+                return kLevelStyles[i - 1][0]
+        return kLevelStyles[-1][0]
+
+
+    curr_x = 20
+    curr_y = 60
+    curr_time = begin_time
+    for i in range(len(solved_array)):
+        month = ['<g x="{}" y="{}">'.format(curr_x, curr_y)]
+        (svg, cross_weeks, last_day_in_week) = __activaties_month(time.localtime(curr_time), curr_x, curr_y, solved_array[i], level_defined)
+        month += [svg]
+        curr_x += (cross_weeks + (1 if last_day_in_week == 0 else 0)) * __kBlockStep + __kBlockStride
+        curr_time += kDaySeconds * len(solved_array[i])
+        month += ['</g>']
+        res += month
+
+    res += ['</svg>']
+    return "\n".join(res)
 
 
 def __solved_progress_line(title: str, cnt: int, total: int, y: int):
@@ -46,40 +178,21 @@ def __solved_progress_line(title: str, cnt: int, total: int, y: int):
 def problem_solves_svg(easy: int, medium: int, hard: int, t_easy: int, t_medium: int, t_hard: int):
     assert t_easy > 0 and t_medium > 0 and t_hard > 0, "invalid total count"
     assert easy <= t_easy and medium <= t_medium and hard <= t_hard, "invalid count"
-
-    kTitleStyle = __combine_style(["font-weight: 500",
-                                   "font-size: 1rem"])
-    kRotate90Style = __combine_style(["transform: rotate(-90deg)",
-                                     "transform-origin: center",
-                                      "transform-box: fill-box"])
-    kStateStyle = __combine_style(["font-size: .75rem"])
-    kLightStyle = __combine_style(["color: {}".format(__kLeetCodeWhite),
-                                   "fill: {}".format(__kLeetCodeWhite)])
-    kLightGrayStyle = __combine_style(["color: {}".format(__kLeetCodeLightGray),
-                                       "fill: {}".format(__kLeetCodeLightGray)])
-    kDarkGrayStyle = __combine_style(["color: {}".format(__kLeetCodeDarkGray),
-                                      "fill: {}".format(__kLeetCodeDarkGray)])
-    kGrayStyle = __combine_style(["color: {}".format(__kLeetCodeGray),
-                                  "fill: {}".format(__kLeetCodeGray)])
-    kOrangeStyle = __combine_style(["color: {}".format(__kLeetCodeOrange),
-                                    "fill: {}".format(__kLeetCodeOrange)])
-    kBackgroundStyle = __combine_style(["color: {}".format(__kPanelBackground),
-                                        "fill: {}".format(__kPanelBackground)])
     circle_len = 46 * 2 * math.pi
     solve_len = circle_len * (easy + medium + hard) / (t_easy + t_medium + t_hard)
 
-    return "".join([
+    return "\n".join([
         '<svg version="1.1" height="200" width="410" viewBox="0 0 410 200" xmlns="http://www.w3.org/2000/svg">',
         '   <style>*{font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;}</style>',
-        '   <style>.title{{{}}}</style>'.format(kTitleStyle),
-        '   <style>.rotate-90{{{}}}</style>'.format(kRotate90Style),
-        '   <style>.state{{{}}}</style>'.format(kStateStyle),
-        '   <style>.light{{{}}}</style>'.format(kLightStyle),
-        '   <style>.light-gray{{{}}}</style>'.format(kLightGrayStyle),
-        '   <style>.dark-gray{{{}}}</style>'.format(kDarkGrayStyle),
-        '   <style>.gray{{{}}}</style>'.format(kGrayStyle),
-        '   <style>.orange{{{}}}</style>'.format(kOrangeStyle),
-        '   <style>.background{{{}}}</style>'.format(kBackgroundStyle),
+        '   <style>.title{{{}}}</style>'.format(__kTitleStyle),
+        '   <style>.rotate-90{{{}}}</style>'.format(__kRotate90Style),
+        '   <style>.state{{{}}}</style>'.format(__kStateStyle),
+        '   <style>.light{{{}}}</style>'.format(__kLightStyle),
+        '   <style>.light-gray{{{}}}</style>'.format(__kLightGrayStyle),
+        '   <style>.dark-gray{{{}}}</style>'.format(__kDarkGrayStyle),
+        '   <style>.gray{{{}}}</style>'.format(__kGrayStyle),
+        '   <style>.orange{{{}}}</style>'.format(__kOrangeStyle),
+        '   <style>.background{{{}}}</style>'.format(__kBackgroundStyle),
         '   <rect fill="#404040" x="0" y="0" width="410" height="200" rx="0.5rem"/>', # bg
         '   <g text-anchor="start" text-decoration="1" class="title">',               # title
         '       <text x="20" y="30" class="light">Solved</text>',
@@ -140,6 +253,8 @@ def log_readme(title: str, solved_logs: list[local.Log], ques_data: local.Questi
 
     return "\n".join([
         "## Submissions in {}".format(title),
+        "",
+        "![activity](../assets/{}_activity.svg)".format(title),
         "",
         "||Question Title|Difficulty|Solution|",
         "|:--|:--|:--|:-:|",
