@@ -1,5 +1,7 @@
 import time
 import math
+import calendar
+from datetime import date
 from . import local
 
 
@@ -217,7 +219,7 @@ def problem_solves_svg(easy: int, medium: int, hard: int, t_easy: int, t_medium:
     ])
 
 
-def __table_row(line: list[str], details: local.QuestionDetails, base: str):
+def __table_row_impl(line: list[str], details: local.QuestionDetails, base: str):
     qfile = local.QuestionSource(details.id(), base)
     line[2] += "[{}](https://leetcode.com/problems/{}/)".format("#{}. {}".format(details.id(), details.title()),
                                                                 details.slug())
@@ -227,39 +229,73 @@ def __table_row(line: list[str], details: local.QuestionDetails, base: str):
     return line
 
 
-def table_row(date: str, details: list[local.QuestionDetails], base: str = "./src"):
+def __table_row(date: str, details: list[local.QuestionDetails], base: str = "./src"):
     line: list[str] = ["", date, "", "", "", "", ""]
-    line = __table_row(line, details[0], base)
+    line = __table_row_impl(line, details[0], base)
     for i in range(1, len(details)):
         for j in range(2, 6):
             line[j] += "<br>"
-        line = __table_row(line, details[i], base)
+        line = __table_row_impl(line, details[i], base)
     return "|".join(line)
 
 
-def log_readme(title: str, solved_logs: list[local.Log], ques_data: local.QuestionList):
-    day_map: dict[int, list[local.QuestionDetails]] = {}
+def yearly_log(year: int, solved_logs: list[local.Log], ques_data: local.QuestionList):
+    month_day_map: dict[int, dict[int, list[local.QuestionDetails]]] = {}
+    month_level_count: dict[int, list[int]] = {}
+    total_level_count = [0, 0, 0]
+
     for log in solved_logs:
-        d = int(time.strftime("%j",
-                              time.localtime(log.timestamp())))
-        if d not in day_map:
-            day_map[d] = []
+        timestruct = time.localtime(log.timestamp())
+        m = int(time.strftime("%m", timestruct))
+        d = int(time.strftime("%d", timestruct))
+        if m not in month_level_count:
+            month_level_count[m] = [0, 0, 0]
+        if m not in month_day_map:
+            month_day_map[m] = {}
+        if d not in month_day_map[m]:
+            month_day_map[m][d] = []
         details = ques_data.get(log.id())
-        day_map[d].append(details)
+        total_level_count[details.level() - 1] += 1
+        month_level_count[m][details.level() - 1] += 1
+        month_day_map[m][d].append(details)
 
-    table_content: list[str] = []
-    for date, details_list in sorted(day_map.items(), key=lambda t: t[0], reverse=True):
-        details_list.sort(key=lambda e: e.id())
-        table_content.append(table_row("Day {}".format(date),
-                                       details_list, "../src"))
+    res = [
+        "## All Submissions in {}".format(year),
+        "",
+        "![activity](../assets/{}_activity.svg)".format(year),
+        "",
+        "### Overview",
+        "",
+        "There are **{}** questions have been solved in {}, "
+        "including **{}** in Easy ones, **{}** in Medium ones and **{}** in Hard ones.".format(len(
+            solved_logs), year, total_level_count[0], total_level_count[1], total_level_count[2]),
+        "Here indexes the monthly status:",
+        "",
+    ]
 
-    return "\n".join([
-        "## Submissions in {}".format(title),
-        "",
-        "![activity](../assets/{}_activity.svg)".format(title),
-        "",
-        "||Question Title|Difficulty|Solution|",
-        "|:--|:--|:--|:-:|",
-        "\n".join(table_content),
-        "",
-        ""])
+    for month, cnts in sorted(month_level_count.items(), key=lambda t: t[0], reverse=True):
+        month_str = time.strftime("%B", date(year, month, 1).timetuple())
+        res += ["\n".join([
+            "- [{}](#{}-submissions)".format(month_str, month_str.lower()),
+            "\t- **{}** easy questions.".format(cnts[0]),
+            "\t- **{}** medium questions.".format(cnts[1]),
+            "\t- **{}** hard questions.".format(cnts[2]),
+        ])]
+        res += [""]
+
+
+    for month, day_map in sorted(month_day_map.items(), key=lambda t: t[0], reverse=True):
+        table_content: list[str] = []
+        for day, details_list in sorted(day_map.items(), key=lambda t: t[0], reverse=True):
+            details_list.sort(key=lambda e: e.id())
+            table_content.append(__table_row(
+                "Day {}".format(day), details_list, "../src"))
+        res += [
+            "### {} Submissions".format(time.strftime("%B", date(year, month, 1).timetuple())),
+            "",
+            "|   |Question Title|Difficulty|Source|",
+            "|:--|:-------------|:---------|:----:|",
+            "\n".join(table_content),
+        ]
+
+    return "\n".join(res)

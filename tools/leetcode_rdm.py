@@ -119,7 +119,6 @@ def __main():
 
 
     for year in log.years():
-        md_title = "{}".format(year)
         file_name = "{}".format(year)
         year_subs = [0, 0, 0]
         year_log = []
@@ -144,9 +143,9 @@ def __main():
         
         (begin_time, solved_count) = dump_front_elements(year_solved)
         generate.file(assets_path.joinpath("{}_activity.svg".format(file_name)).resolve(),
-                      template.activities_chart("Activity in", file_name, calendar.timegm(date(year, 1, 1).timetuple()), solved_count))
+                      template.activities_chart("Activity", "", calendar.timegm(date(year, 1, 1).timetuple()), solved_count))
         generate.file(docs_path.joinpath(file_name + ".md").resolve(),
-                        template.log_readme(md_title, year_log, questions))
+                        template.yearly_log(year, year_log, questions))
         sub_md.append(file_name)
     sub_md.reverse()
 

@@ -17,8 +17,8 @@
    <rect fill="#404040" x="0" y="0" width="830" height="200" rx="0.5rem"/>
    <g text-anchor="start" text-decoration="1" class="title">
        <text x="20" y="35">
-           <tspan class="light">Activity in</tspan>
-           <tspan class="orange">2022</tspan>
+           <tspan class="light">Activity</tspan>
+           <tspan class="orange"></tspan>
        </text>
    </g>
 <g class="state">
