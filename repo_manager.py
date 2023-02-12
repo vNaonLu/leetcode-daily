@@ -150,19 +150,6 @@ def __main():
     if options.add_identifier and options.del_identifier:
         parser.error("options --add and --del are mutually exclusive.")
 
-    if options.add_identifier:
-        if len(args) == 0:
-            pmt.show("Usage: {} -a id1 id2 ...".format(os.path.basename(__file__)))
-            return
-        _add_question_cmd = ["python3",         _add_script.resolve(),
-                             "--out",           _source_path.resolve(),
-                             "--question-list", _qlist_path.resolve(),
-                             "--question-log",  _qlog_path.resolve()]
-        if options.no_testcase:
-            _add_question_cmd.append("--no-testcase")
-        operation = subprocess_runner("add questions", False)\
-                    .invoke(_add_question_cmd + args)
-
     if options.cat:
         q = local.QuestionSource(int(options.cat), _source_path.resolve())
         if not q.src().exists():
@@ -182,6 +169,19 @@ def __main():
 
         # terminate the script
         return
+
+    if options.add_identifier:
+        if len(args) == 0:
+            pmt.show("Usage: {} -a id1 id2 ...".format(os.path.basename(__file__)))
+            return
+        _add_question_cmd = ["python3",         _add_script.resolve(),
+                             "--out",           _source_path.resolve(),
+                             "--question-list", _qlist_path.resolve(),
+                             "--question-log",  _qlog_path.resolve()]
+        if options.no_testcase:
+            _add_question_cmd.append("--no-testcase")
+        operation = subprocess_runner("add questions", False)\
+                    .invoke(_add_question_cmd + args)
 
     if options.del_identifier:
         if len(args) == 0:
