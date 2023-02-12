@@ -11,8 +11,10 @@
    <style>.background{color: #404040;fill: #404040;}</style>
    <rect fill="#404040" x="0" y="0" width="410" height="200" rx="0.5rem"/>
    <g text-anchor="start" text-decoration="1" class="title">
-       <text x="20" y="30" class="light">Solved</text>
-       <text x="72" y="30" class="orange">Free Problems</text>
+       <text x="20" y="30">
+           <tspan class="light">Solved</tspan>
+           <tspan class="orange">Free Problems</tspan>
+       </text>
    </g>
    <g class="rotate-90">
        <circle fill="none" cx="70" cy="110" r="46" stroke="#747474" stroke-width="3" stroke-linecap="round" />

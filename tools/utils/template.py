@@ -195,8 +195,10 @@ def problem_solves_svg(easy: int, medium: int, hard: int, t_easy: int, t_medium:
         '   <style>.background{{{}}}</style>'.format(__kBackgroundStyle),
         '   <rect fill="#404040" x="0" y="0" width="410" height="200" rx="0.5rem"/>', # bg
         '   <g text-anchor="start" text-decoration="1" class="title">',               # title
-        '       <text x="20" y="30" class="light">Solved</text>',
-        '       <text x="72" y="30" class="orange">Free Problems</text>',
+        '       <text x="20" y="30">',
+        '           <tspan class="light">Solved</tspan>',
+        '           <tspan class="orange">Free Problems</tspan>',
+        '       </text>',
         '   </g>',
         '   <g class="rotate-90">',
         '       <circle fill="none" cx="70" cy="110" r="46" stroke="{}" stroke-width="3" stroke-linecap="round" />'.format(__kLeetCodeGray),
