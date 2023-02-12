@@ -153,7 +153,7 @@ def __activity(solved_count: list[int], total_count: list[int], sub_activity: li
         ""
         "![progress](./assets/progress.svg)",
         "",
-        "More information about full activity can be found at:",
+        "More information about full activities can be found at:",
         "",
         "\n".join(docs)
     ])
@@ -196,9 +196,10 @@ def __finding_solution():
 def __installation():
     return "\n".join([
         "## Installation",
-        "It is not necessary to build or install this project if you just want specific solutions, but you can still build and run this project. "
+        "It is not necessary to build or install this project if you just want specific solutions, but you can still build and run this project. ",
         "There has a python scripts named `repo_manager.py` in the root, which is a tool to automatically add/delete the solution in this project, generate the solution template or update the readme or log. "
         "However the script may too rough to use since I haven't tested it in other environment.",
+        "",
         "Before running to build project, please check below dependencies exist in the build environment:",
         " - Compiler supports `C++17`.",
         " - CMake above `3.11`.",

@@ -15,7 +15,7 @@ See [Installation](#installation) if you are interested in how to build the proj
 ## Activity
 ![progress](./assets/progress.svg)
 
-More information about full activity can be found at:
+More information about full activities can be found at:
 
 - Submissions in 2023: [docs/2023.md](./docs/2023.md)
 - Submissions in 2022: [docs/2022.md](./docs/2022.md)
@@ -51,7 +51,9 @@ $ repo_manager.py -c <question id>
 But the script probably won't work as it is very rough currently.
 
 ## Installation
-It is not necessary to build or install this project if you just want specific solutions, but you can still build and run this project. There has a python scripts named `repo_manager.py` in the root, which is a tool to automatically add/delete the solution in this project, generate the solution template or update the readme or log. However the script may too rough to use since I haven't tested it in other environment.
+It is not necessary to build or install this project if you just want specific solutions, but you can still build and run this project. 
+There has a python scripts named `repo_manager.py` in the root, which is a tool to automatically add/delete the solution in this project, generate the solution template or update the readme or log. However the script may too rough to use since I haven't tested it in other environment.
+
 Before running to build project, please check below dependencies exist in the build environment:
  - Compiler supports `C++17`.
  - CMake above `3.11`.
