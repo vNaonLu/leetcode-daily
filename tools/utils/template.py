@@ -260,11 +260,11 @@ def yearly_log(year: int, solved_logs: list[local.Log], ques_data: local.Questio
         month_day_map[m][d].append(details)
 
     res = [
-        "## All Submissions in {}".format(year),
+        "# All Submissions in {}".format(year),
         "",
         "![activity](../assets/{}_activity.svg)".format(year),
         "",
-        "### Overview",
+        "## Overview",
         "",
         "There are totally **{}** questions have been solved in {}, "
         "including **{}** questions in easy, **{}** questions in medium and **{}** questions in hard.".format(len(
@@ -291,7 +291,7 @@ def yearly_log(year: int, solved_logs: list[local.Log], ques_data: local.Questio
             table_content.append(__table_row(
                 "Day {}".format(day), details_list, "../src"))
         res += [
-            "### {} Submissions".format(month_str),
+            "## {} Submissions".format(month_str),
             "",
             "Solved **{}** questions in {}:".format(sum(cnts), month_str.lower()),
             "- **{}** questions in easy.".format(cnts[0]),
@@ -303,4 +303,11 @@ def yearly_log(year: int, solved_logs: list[local.Log], ques_data: local.Questio
             "\n".join(table_content),
         ]
 
+    return "\n".join(res)
+
+
+def solved_solutions_list(questions: local.QuestionList):
+    res = [
+        '',
+    ]
     return "\n".join(res)
