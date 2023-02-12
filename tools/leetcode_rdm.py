@@ -91,7 +91,7 @@ def __main():
             pmt.ask("New questions found, do you want to update the question list")) or force_update:
         generate.question_list(list_csv.resolve(), question_list)
         solved = local.solved_question_ids(source_path)
-        modify.done_question(list_csv.resolve(), solved, source_path.resolve())
+        modify.done_question(list_csv.resolve(), solved, source_path.resolve(), questions)
         questions = local.QuestionList(list_csv)
 
     sub_md: list[str, list[int]] = []

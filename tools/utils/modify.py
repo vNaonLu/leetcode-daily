@@ -56,7 +56,7 @@ def subunittest(path: str, file_name: str):
         __modify_prompt(path)
 
 
-def done_question(path: str, ids: list[int], src_path: str):
+def done_question(path: str, ids: list[int], src_path: str, old_questions: local.QuestionList):
     id_map: dict[int, dict[str, any]] = {}
 
     with open(path, "r+") as f:
@@ -73,6 +73,10 @@ def done_question(path: str, ids: list[int], src_path: str):
         if len(ids) > 0:
             for id in ids:
                 id_map[id]['done'] = '1'
+                detail = old_questions.get(id)
+                if detail:
+                    id_map[id]['tc'] = detail.tc()
+                    id_map[id]['sc'] = detail.sc()
 
                 if id_map[id]["tc"] == "" and id_map[id]["sc"] == "":
                     cp = local.get_commit_log(
