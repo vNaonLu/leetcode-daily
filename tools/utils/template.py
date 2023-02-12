@@ -225,7 +225,7 @@ def __table_row_impl(line: list[str], details: local.QuestionDetails, base: str)
                                                                 details.slug())
     line[3] += "{}".format("Hard" if details.level() == 3 else (
         "Medium" if details.level() == 2 else "Easy"))
-    line[4] += "[q{}.cc]({})".format(qfile.id(), qfile.src())
+    line[4] += "[src/{}/q{}.cc]({})".format(local.id_folder(qfile.id()), str(qfile.id()).zfill(4), qfile.src())
     return line
 
 
@@ -299,7 +299,7 @@ def yearly_log(year: int, solved_logs: list[local.Log], ques_data: local.Questio
             "- **{}** questions in hard.".format(cnts[2]),
             "",
             "|   |Question Title|Difficulty|Source|",
-            "|:--|:-------------|:---------|:----:|",
+            "|:--|:-------------|:--------:|:-----|",
             "\n".join(table_content),
         ]
 
@@ -339,12 +339,12 @@ def solved_solutions_list_doc(solved: list[tuple[local.Log, local.QuestionDetail
         'This document contains **{}** solved questions. '
         'To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. '.format(len(solved)),
         '',
-        'Note that some questions have incomplete complexity information and I will finish it one after antoher. '
+        # 'Note that some questions have incomplete complexity information and I will finish it one after antoher. '
         'Some questions which are still being resolved are not shown in this page, more information about unsolved questions can be found at [docs/unsolved_solutions.md](./unsolved_solutions.md).',
         '',
         '',
-        '|Id |Question Title|Source|Time Complexity|Space Complexity|Added Time(UTC+8)|',
-        '|--:|:-------------|:-----|:-------------:|:--------------:|:----------------|',
+        '|Id |Question Title|Source|Added Time (UTC+8)|',
+        '|--:|:-------------|:-----|:-----------------|',
     ]
 
     for log, detail in solved:
@@ -352,16 +352,16 @@ def solved_solutions_list_doc(solved: list[tuple[local.Log, local.QuestionDetail
         row = "|"
         row += "{}|".format(detail.id())
         row += "[{}](https://leetcode.com/problems/{}/)|".format(detail.title(), detail.slug())
-        row += "[q{}.cc]({})|".format(str(file.id()).zfill(4), file.src())
-        if detail.tc() != "-":
-            row += "$$\\tiny O({})$$|".format(detail.tc())
-        else:
-            row += "|"
+        row += "[src/{}/q{}.cc]({})|".format(local.id_folder(file.id()), str(file.id()).zfill(4), file.src())
+        # if detail.tc() != "-":
+        #     row += "$$\\tiny O({})$$|".format(detail.tc())
+        # else:
+        #     row += "|"
 
-        if detail.sc() != "-":
-            row += "$$\\tiny O({})$$|".format(detail.sc())
-        else:
-            row += "|"
+        # if detail.sc() != "-":
+        #     row += "$$\\tiny O({})$$|".format(detail.sc())
+        # else:
+        #     row += "|"
         row += "{}|".format(time.strftime("%Y/%m/%d %H:%M", time.localtime(log.timestamp())))
         res.append(row)
 
