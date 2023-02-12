@@ -144,7 +144,7 @@ def __get_started():
         "See [Installation](#installation) if you are interested in how to build the project or want to add some testcases for some solutions.",
         "",
         "More information about solved solution can be found at [docs/solved_solutions.md](./docs/solved_solutions.md) and "
-        "unsolved questions can be found at [docs/unsolved_solutions.md](.docs/unsolved_solutions.md)."
+        "unsolved questions can be found at [docs/unsolved_solutions.md](./docs/unsolved_solutions.md)."
     ])
 
 

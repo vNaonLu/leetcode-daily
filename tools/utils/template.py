@@ -316,14 +316,16 @@ def unsolved_solutions_list_doc(unsolved: list[local.QuestionDetails]):
         'The questions which have been solved are not shown in this page, more information about solved questions can be found at [docs/solved_solutions.md](./solved_solutions.md).',
         '',
         '',
-        '|Id |Question Title|Paid Only|',
-        '|--:|:-------------|:-------:|',
+        '|Id |Question Title|Difficult|Paid Only|',
+        '|--:|:-------------|:-------:|:-------:|',
     ]
 
     for detail in unsolved:
         row = "|"
         row += "{}|".format(detail.id())
         row += "[{}](https://leetcode.com/problems/{}/)|".format(detail.title(), detail.slug())
+        row += "{}|".format("Hard" if detail.level() ==
+                            3 else ("Medium" if detail.level() == 2 else "Easy"))
         row += "{}|".format("🔒" if detail.paid_only() else "")
         res.append(row)
 
@@ -350,7 +352,7 @@ def solved_solutions_list_doc(solved: list[tuple[local.Log, local.QuestionDetail
         row = "|"
         row += "{}|".format(detail.id())
         row += "[{}](https://leetcode.com/problems/{}/)|".format(detail.title(), detail.slug())
-        row += "[src/{}/q{}.cc]({})|".format(local.id_folder(file.id()), str(file.id()).zfill(4), file.src())
+        row += "[q{}.cc]({})|".format(str(file.id()).zfill(4), file.src())
         if detail.tc() != "-":
             row += "$$\\tiny O({})$$|".format(detail.tc())
         else:
