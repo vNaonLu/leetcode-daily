@@ -21,7 +21,7 @@ jobs:
 
       - name: Build Source
         run: |
-          cmake --build .
+          cmake --build . -j
 
       - name: Run Infra Test
         run: |
