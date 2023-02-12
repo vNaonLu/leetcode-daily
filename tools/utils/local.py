@@ -4,6 +4,20 @@ import math
 import pathlib
 import csv
 import time
+import subprocess
+import regex
+
+
+class Complexity:
+    def __init__(self, time: str, space: str):
+        self.__tc = time
+        self.__sc = space
+
+    def time_complexity(self):
+        return self.__tc
+
+    def space_complexity(self):
+        return self.__sc
 
 
 class QuestionSource:
@@ -12,7 +26,8 @@ class QuestionSource:
         self.__id: str = str(id).zfill(4)
         self.__intv: str = id_folder(id)
         self.__dir: pathlib.Path = base_path.joinpath(self.__intv)
-        self.__src: pathlib.Path = self.__dir.joinpath("q{}.cc".format(self.__id))
+        self.__src: pathlib.Path = self.__dir.joinpath(
+            "q{}.cc".format(self.__id))
 
     def interval(self):
         return self.__intv
@@ -35,6 +50,8 @@ class QuestionDetails:
         self._slug = csv_data["slug"]
         self._paid = csv_data["paid"] == "1"
         self._done = csv_data["done"] == "1"
+        self._tc = csv_data["tc"]
+        self._sc = csv_data["sc"]
 
     def id(self):
         return self._id
@@ -53,6 +70,12 @@ class QuestionDetails:
 
     def done(self):
         return self._done
+
+    def tc(self):
+        return self._tc
+
+    def sc(self):
+        return self._sc
 
 
 class QuestionList:
@@ -133,11 +156,15 @@ class SolvedLog:
         return log
 
     def years(self):
-        return [y for y in self._log]
+        res = [y for y in self._log]
+        res.sort()
+        return res
 
     def months(self, year: int):
         if year in self._log:
-            return [m for m in self._log[year]]
+            res = [m for m in self._log[year]]
+            res.sort()
+            return res
         return []
 
     def days(self, year: int, month: int):
@@ -176,3 +203,35 @@ def id_interval(id: int):
 def id_folder(id: int):
     intv = id_interval(id)
     return "q_{}_{}".format(intv[0], intv[1])
+
+
+def get_commit_log(file: QuestionSource):
+    cmd = ["git", "log", "--oneline", file.src()]
+    cp = subprocess.run(cmd, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
+    return cp if cp.returncode == 0 else None
+
+
+def get_complexity_infomation(log_info: str):
+    kLogRegex = re.compile(
+        "(?:.*tc *O\((?P<tc>.+)\) +.*sc *O\((?P<sc>.+)\))|(?:(.*tc +and +sc O\((?P<tc_and_sc>.+)\)))", re.IGNORECASE)
+    m = kLogRegex.match(log_info)
+    if m is not None:
+        if m.group("tc_and_sc"):
+            return Complexity(m.group("tc_and_sc"), m.group("tc_and_sc"))
+        elif m.group("tc") and m.group("sc"):
+            return Complexity(m.group("tc"), m.group("sc"))
+    return None
+
+
+def get_solution(src: pathlib.Path):
+    with open(src, "r") as f:
+        buf = f.read()
+        slt_match = regex.search(
+            "(?P<solution>class Solution *({(?:(?:[^{}]|(?2))*)});)", buf)
+        if slt_match:
+            return slt_match.group("solution")
+        special_match = regex.search(
+            "(?P<solution>class \w+ *({(?:(?:[^{}]|(?2))*)});)", buf)
+        if special_match:
+            return special_match.group("solution")
+    return None

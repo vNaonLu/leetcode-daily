@@ -54,7 +54,7 @@ def __main():
             question_list = LeetCodeRequest.questions()
             generate.question_list(list_csv.resolve(), question_list)
         solved = local.solved_question_ids(sour_path)
-        modify.done_question(list_csv.resolve(), solved)
+        modify.done_question(list_csv.resolve(), solved, sour_path.resolve())
 
 
 if __name__ == "__main__":

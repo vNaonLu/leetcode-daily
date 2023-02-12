@@ -6,6 +6,7 @@ import os
 import shutil
 from tools.utils import prompt as pmt
 from tools.utils.subprocess_runner import subprocess_runner
+import tools.utils.local as local
 
 _file_path  = pathlib.Path(__file__).parent
 _add_script = _file_path.joinpath("./tools/leetcode_add.py")
@@ -14,6 +15,7 @@ _rdm_script = _file_path.joinpath("./tools/leetcode_rdm.py")
 
 _readme_path = _file_path.joinpath("./README.md")
 _assets_path = _file_path.joinpath("./assets/")
+_docs_path = _file_path.joinpath("./docs/")
 _source_path = _file_path.joinpath("./src")
 _qlist_path  = _file_path.joinpath("./src/questions_list.csv")
 _qlog_path   = _file_path.joinpath("./src/logs.csv")
@@ -77,6 +79,12 @@ def _build_option(options: optparse, args: list[str]):
 def __parser():
     parser = optparse.OptionParser(usage="%prog [options] id1 id2 ...")
     proj_group = optparse.OptionGroup(parser, "Project")
+    proj_group.add_option("-c", "--cat",
+                          dest="cat",
+                          action="store",
+                          default=None,
+                          help="feature to get a solution for specific question by the id. It terminates other commands if supplied.",
+                          metavar="question_id")
     proj_group.add_option("-a", "--add",
                           dest="add_identifier",
                           action="store_true",
@@ -92,6 +100,11 @@ def __parser():
                           action="store_true",
                           default=False,
                           help="update README.md.")
+    proj_group.add_option("--update-list",
+                          dest="update_list",
+                          action="store_true",
+                          default=False,
+                          help="force to update questions list while updating readme.")
     proj_group.add_option("--no-testcase",
                           dest="no_testcase",
                           action="store_true",
@@ -104,7 +117,7 @@ def __parser():
                            action="store_true",
                            default=False,
                            help="feature to build project.")
-    build_group.add_option("-c", "--clean",
+    build_group.add_option("--clean",
                            dest="cln_identifier",
                            action="store_true",
                            default=False,
@@ -129,18 +142,6 @@ def __parser():
     parser.add_option_group(build_group)
     return parser
 
-def __test_code(options, args):
-    from tools.leetcode.question import LeetCodeQuestion
-    from tools.leetcode import request as Rq
-    slug = Rq.question_slug(int(args[0]))
-    if slug:
-        q = LeetCodeQuestion(slug, not options.no_testcase)
-        s = q.template("prompt test", 70)
-        print()
-        print("=====================================================")
-        print()
-        print(s)
-
 def __main():
     parser = __parser()
     options, args = parser.parse_args()
@@ -162,6 +163,26 @@ def __main():
         operation = subprocess_runner("add questions", False)\
                     .invoke(_add_question_cmd + args)
 
+    if options.cat:
+        q = local.QuestionSource(int(options.cat), _source_path.resolve())
+        if not q.src().exists():
+            pmt.show(
+                pmt.fail("The solution for question #{} has not solved.".format(q.id()), "x"))
+            return
+
+        solution = local.get_solution(q.src())
+        if solution is None:
+            pmt.show(
+                pmt.fail("Failed to parse the solution for question #{}.".format(q.id()), "x"))
+            return
+
+        pmt.show(pmt.succ("Find the solution for question #{}:".format(q.id())))
+        pmt.show("")
+        pmt.show(solution.replace("\n  ", "\n", -1))
+
+        # terminate the script
+        return
+
     if options.del_identifier:
         if len(args) == 0:
             pmt.show("Usage: {} -d id1 id2 ...".format(os.path.basename(__file__)))
@@ -179,8 +200,11 @@ def __main():
                     "--out",           _readme_path.resolve(),
                     "--source",        _source_path.resolve(),
                     "--assets",        _assets_path.resolve(),
+                    "--docs",          _docs_path.resolve(),
                     "--question-list", _qlist_path.resolve(),
                     "--question-log",  _qlog_path.resolve()]
+        if options.update_list:
+            _rdm_cmd.append("--force")
         operation = subprocess_runner("rdm modifies", False)\
                     .invoke(_rdm_cmd + args)
 
