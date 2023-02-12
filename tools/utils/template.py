@@ -306,6 +306,30 @@ def yearly_log(year: int, solved_logs: list[local.Log], ques_data: local.Questio
     return "\n".join(res)
 
 
+def unsolved_solutions_list_doc(unsolved: list[local.QuestionDetails]):
+    res = [
+        '# Unsolved Solutions List',
+        '',
+        'There are **{}** questions which have not been solved yet. '
+        'To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.'.format(len(unsolved)),
+        '',
+        'The questions which have been solved are not shown in this page, more information about solved questions can be found at [docs/solved_solutions.md](./solved_solutions.md).',
+        '',
+        '',
+        '|Id |Question Title|Paid Only|',
+        '|--:|:-------------|:-------:|',
+    ]
+
+    for detail in unsolved:
+        row = "|"
+        row += "{}|".format(detail.id())
+        row += "[{}](https://leetcode.com/problems/{}/)|".format(detail.title(), detail.slug())
+        row += "{}|".format("🔒" if detail.paid_only() else "")
+        res.append(row)
+
+    return "\n".join(res)
+
+
 def solved_solutions_list_doc(solved: list[tuple[local.Log, local.QuestionDetails]], src_path: pathlib.Path):
     res = [
         '# Solved Solutions List',
@@ -314,7 +338,7 @@ def solved_solutions_list_doc(solved: list[tuple[local.Log, local.QuestionDetail
         'To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. '.format(len(solved)),
         '',
         'Note that some questions have incomplete complexity information and I will finish it one after antoher. '
-        'Some questions which are still being resolved are not shown in this page, more information about unsolved questions can be found at Unsolved Question List.',
+        'Some questions which are still being resolved are not shown in this page, more information about unsolved questions can be found at [docs/unsolved_solutions.md](./unsolved_solutions.md).',
         '',
         '',
         '|Id |Question Title|Source|Time Complexity|Space Complexity|Added Time(UTC+8)|',

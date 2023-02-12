@@ -138,9 +138,13 @@ def __introduce():
 def __get_started():
     return "\n".join([
         "## Getting Started",
+        "",
         "See [Activity](#activity) to check the recent solution resolution status, including the historical statistics and the recent submissions.",
-        "All solutions are stored in `src` and more information can be found at [Find Solution](#finding-solution).",
+        "All solved ssolutions are stored in `src` and more information can be found at [Find Solution](#finding-solution).",
         "See [Installation](#installation) if you are interested in how to build the project or want to add some testcases for some solutions.",
+        "",
+        "More information about solved solution can be found at [docs/solved_solutions.md](./docs/solved_solutions.md) and "
+        "unsolved questions can be found at [docs/unsolved_solutions.md](.docs/unsolved_solutions.md)."
     ])
 
 
@@ -237,44 +241,4 @@ def readme(path: str, sub_activity: list[str]):
         ]))
         f.truncate()
         __modify_prompt(path)
-        return
-
-        ids = question_list.ids()
-        for i in range(0, len(ids), 250):
-            lines = ["<details>",
-                     "  <summary>### {} ~ {}</summary>".format(
-                         i+1, min(i+250, len(ids))),
-                     "",
-                     "|</>|#|Solution Title|Difficulty|",
-                     "|:-:|--:|:--|:--|"]
-            lines += [template.question_detail(question_list.get(id))
-                      for id in ids[i:min(i+250, len(ids))]]
-            lines.append("</details>")
-            lines.append("")
-            f.write("\n".join(lines))
-
-        f.write("\n".join([
-            "",
-            "---"
-            "",
-            "## Last 25 Submissions",
-            "",
-            "|Time|Question Title|Difficulty|Solution|",
-            "|:--|:--|:-:|:--|",
-            ""
-        ]))
-        for log in solved[0:25]:
-            date = time.strftime("%Y-%m-%d %H:%M",
-                                 time.localtime(log.timestamp()))
-            row = template.table_row(date, [question_list.get(log.id())])
-            f.write("{}\n".format(row))
-
-        f.write("\n".join([
-            "",
-            "## Previous Logs",
-            "",
-            "|Year|Submissions|Easy|Medium|Hard|",
-            "|:--|:--|:--|:--|:--|",
-            ""
-        ]))
 

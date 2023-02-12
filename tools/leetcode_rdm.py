@@ -85,7 +85,7 @@ def __main():
     log = local.SolvedLog(log_csv)
     questions = local.QuestionList(list_csv)
     solved_log_detail: list[tuple[local.Log, local.QuestionDetails]] = []
-    unsolved_log_detail: list[local.QuestionDetails] = []
+    unsolved_details: list[local.QuestionDetails] = []
 
     if (len(questions.ids()) != len(question_list) and \
             pmt.ask("New questions found, do you want to update the question list")) or force_update:
@@ -101,7 +101,7 @@ def __main():
         if not q.paid_only():
             free_questions[q.level() - 1] += 1
         if not q.done():
-            unsolved_log_detail.append(q)
+            unsolved_details.append(q)
 
 
     def dump_front_elements(v: list[list[list[local.Log]]], max_day: int = sys.maxsize):
@@ -170,6 +170,8 @@ def __main():
     solved_log_detail.sort(key=lambda t : t[1].id())
     generate.file(docs_path.joinpath("solved_solutions.md").resolve(),
                   template.solved_solutions_list_doc(solved_log_detail, "../src"))
+    generate.file(docs_path.joinpath("unsolved_solutions.md").resolve(),
+                  template.unsolved_solutions_list_doc(unsolved_details))
 
     modify.readme(readme_path.resolve(), sub_md)
 

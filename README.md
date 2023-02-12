@@ -8,9 +8,12 @@ Here is my [LeetCode account](https://leetcode.com/naon/) if you are interested.
 
 
 ## Getting Started
+
 See [Activity](#activity) to check the recent solution resolution status, including the historical statistics and the recent submissions.
-All solutions are stored in `src` and more information can be found at [Find Solution](#finding-solution).
+All solved ssolutions are stored in `src` and more information can be found at [Find Solution](#finding-solution).
 See [Installation](#installation) if you are interested in how to build the project or want to add some testcases for some solutions.
+
+More information about solved solution can be found at [docs/solved_solutions.md](./docs/solved_solutions.md) and unsolved questions can be found at [docs/unsolved_solutions.md](.docs/unsolved_solutions.md).
 
 ## Activity
 

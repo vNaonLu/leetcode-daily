@@ -2,7 +2,7 @@
 
 This document contains **869** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
 
-Note that some questions have incomplete complexity information and I will finish it one after antoher. Some questions which are still being resolved are not shown in this page, more information about unsolved questions can be found at Unsolved Question List.
+Note that some questions have incomplete complexity information and I will finish it one after antoher. Some questions which are still being resolved are not shown in this page, more information about unsolved questions can be found at [docs/unsolved_solutions.md](./unsolved_solutions.md).
 
 
 |Id |Question Title|Source|Time Complexity|Space Complexity|Added Time(UTC+8)|
