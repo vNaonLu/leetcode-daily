@@ -93,6 +93,9 @@ def __main():
         solved = local.solved_question_ids(source_path)
         modify.done_question(list_csv.resolve(), solved, source_path.resolve(), questions)
         questions = local.QuestionList(list_csv)
+    else:
+        solved = local.solved_question_ids(source_path)
+        modify.done_question(list_csv.resolve(), solved, source_path.resolve(), questions)
 
     sub_md: list[str, list[int]] = []
     solved_time_info: list[list[list[local.Log]]] = []
