@@ -1,6 +1,6 @@
 # Unsolved Solutions List
 
-There are **1694** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
+There are **1693** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
 
 The questions which have been solved are not shown in this page, more information about solved questions can be found at [docs/solved_solutions.md](./solved_solutions.md).
 
@@ -1467,7 +1467,6 @@ The questions which have been solved are not shown in this page, more informatio
 |2312|[Selling Pieces of Wood](https://leetcode.com/problems/selling-pieces-of-wood/)|Hard||
 |2313|[Minimum Flips in Binary Tree to Get Result](https://leetcode.com/problems/minimum-flips-in-binary-tree-to-get-result/)|Hard|🔒|
 |2314|[The First Day of the Maximum Recorded Degree in Each City](https://leetcode.com/problems/the-first-day-of-the-maximum-recorded-degree-in-each-city/)|Medium|🔒|
-|2315|[Count Asterisks](https://leetcode.com/problems/count-asterisks/)|Easy||
 |2316|[Count Unreachable Pairs of Nodes in an Undirected Graph](https://leetcode.com/problems/count-unreachable-pairs-of-nodes-in-an-undirected-graph/)|Medium||
 |2317|[Maximum XOR After Operations ](https://leetcode.com/problems/maximum-xor-after-operations/)|Medium||
 |2318|[Number of Distinct Roll Sequences](https://leetcode.com/problems/number-of-distinct-roll-sequences/)|Hard||

@@ -23,7 +23,7 @@
    </g>
 <g class="state">
    <text x="670" y="35" class="light-gray"> Total solution: </text>
-   <text x="750" y="35" class="light"> 490 </text>
+   <text x="750" y="35" class="light"> 491 </text>
    <text x="678.88" y="180" class="light-gray" text-anchor="end">Less</text>
 <rect x="686.64" y="171" width="8.86" height="8.86" rx="2" ry="2" class="level-1-block"/>
 <rect x="698.16" y="171" width="8.86" height="8.86" rx="2" ry="2" class="level-2-block"/>
@@ -583,7 +583,7 @@
 </g>
 <g x="781.2800000000001" y="60">
 <rect x="781.2800000000001" y="60.0" width="8.86" height="8.86" rx="2" ry="2" class="level-2-block" />
-<rect x="781.2800000000001" y="71.52" width="8.86" height="8.86" rx="2" ry="2" class="level-1-block" />
+<rect x="781.2800000000001" y="71.52" width="8.86" height="8.86" rx="2" ry="2" class="level-2-block" />
 </g>
    <text x="758.2400000000001" y="155" class="light-gray state">Feb</text>
 </g>
