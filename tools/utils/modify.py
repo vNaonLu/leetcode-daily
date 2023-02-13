@@ -127,9 +127,9 @@ def dellog(path: str, id: int):
 
 def __introduce():
     return "\n".join([
-        "# Daily LeetCode in C++",
+        "# LeetCode Daily in C++",
         "",
-        "[![githubbuild](https://github.com/vNaonLu/Daily_LeetCode/actions/workflows/test.yml/badge.svg)](https://github.com/vNaonLu/Daily_LeetCode/actions)",
+        "[![githubbuild](https://github.com/vNaonLu/Daily_LeetCode/actions/workflows/test.yml/badge.svg)](https://github.com/vNaonLu/leetcode-daily/actions)",
         "",
         "This repository collects some of my LeetCode solutions for **free** questions since 2021/09/06. "
         "The remain questions is still being solved so the current project may not contain the solutions you are looking for. "
@@ -221,8 +221,8 @@ def __installation():
         "",
         "``` sh",
         "# Clone this project and change workspace to the project root.",
-        "$ git clone https://github.com/vNaonLu/daily-leetcode",
-        "$ cd daily-leetcode",
+        "$ git clone https://github.com/vNaonLu/leetcode-daily.git",
+        "$ cd leetcode-daily",
         "# Configure the cmake build files and build it.",
         "$ cmake -S . -B build -DENABLE_LEETCODE_TEST=ON",
         "$ cmake --build build",
