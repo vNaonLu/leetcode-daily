@@ -2361,7 +2361,7 @@ id,title,level,slug,paid,done,tc,sc
 2360,Longest Cycle in a Graph,3,longest-cycle-in-a-graph,0,0,,
 2361,Minimum Costs Using the Train Line,3,minimum-costs-using-the-train-line,1,0,,
 2362,Generate the Invoice,3,generate-the-invoice,1,0,,
-2363,Merge Similar Items,1,merge-similar-items,0,0,,
+2363,Merge Similar Items,1,merge-similar-items,0,1,items1.size()+items2.size(),items1.size()+items2.size()
 2364,Count Number of Bad Pairs,2,count-number-of-bad-pairs,0,0,,
 2365,Task Scheduler II,2,task-scheduler-ii,0,0,,
 2366,Minimum Replacements to Sort the Array,3,minimum-replacements-to-sort-the-array,0,0,,

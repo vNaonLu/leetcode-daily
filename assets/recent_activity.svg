@@ -35,7 +35,6 @@
 <g x="20" y="60">
 <g x="20" y="60">
 <g x="20.0" y="60">
-<rect x="20.0" y="71.52" width="8.86" height="8.86" rx="2" ry="2" class="level-2-block" />
 <rect x="20.0" y="83.03999999999999" width="8.86" height="8.86" rx="2" ry="2" class="level-4-block" />
 <rect x="20.0" y="94.56" width="8.86" height="8.86" rx="2" ry="2" class="level-4-block" />
 <rect x="20.0" y="106.08" width="8.86" height="8.86" rx="2" ry="2" class="level-5-block" />
@@ -584,6 +583,7 @@
 <g x="781.2800000000001" y="60">
 <rect x="781.2800000000001" y="60.0" width="8.86" height="8.86" rx="2" ry="2" class="level-2-block" />
 <rect x="781.2800000000001" y="71.52" width="8.86" height="8.86" rx="2" ry="2" class="level-2-block" />
+<rect x="781.2800000000001" y="83.03999999999999" width="8.86" height="8.86" rx="2" ry="2" class="level-2-block" />
 </g>
    <text x="758.2400000000001" y="155" class="light-gray state">Feb</text>
 </g>
