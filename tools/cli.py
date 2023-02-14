@@ -1,9 +1,6 @@
 from argparse import ArgumentParser
 from typing import Callable
 
-__ROOT_PARSER = ArgumentParser()
-__ROOT_FUNCTION = None
-
 
 class ParserWrapper():
     def __init__(self, func: Callable, parser: ArgumentParser, parent):
@@ -31,7 +28,7 @@ class ParserWrapper():
         return self.__parser
 
 
-class Arg:
+class ArgWrapper:
     def __init__(self, *args, **kwargs):
         self.__args = args
         self.__kwargs = kwargs
@@ -39,9 +36,17 @@ class Arg:
     def __call__(self, wrapper: ParserWrapper):
         wrapper.getParser().add_argument(*self.__args, **self.__kwargs)
 
+__ROOT_PARSER: ArgumentParser = None
+__ROOT_WRAPPER: ParserWrapper = None
+
+
+def arg(*args, **kwargs):
+    return ArgWrapper(*args, **kwargs)
+
 
 def command(*args, **kwargs):
-    parent: ParserWrapper = None
+    # when |parent| not set, the node will automatically bind parent if the root exists.
+    parent: ParserWrapper = __ROOT_WRAPPER
     cmd_name: str = None
     new_kwargs = {}
 
@@ -57,14 +62,15 @@ def command(*args, **kwargs):
     kwargs = new_kwargs
 
     def __decorate(func):
-        global __ROOT_FUNCTION
+        global __ROOT_PARSER, __ROOT_WRAPPER
         nonlocal parent, cmd_name, kwargs
         wrapper: ParserWrapper = None
+
         if parent is None:
-            assert __ROOT_FUNCTION == None, "Duplicate Root Command."
+            assert __ROOT_PARSER == None, "Duplicate Root Command."
+            __ROOT_PARSER = ArgumentParser(**kwargs)
             wrapper = ParserWrapper(func, __ROOT_PARSER, None)
-            wrapper.getSubparsers().required = True
-            __ROOT_FUNCTION = wrapper
+            __ROOT_WRAPPER = wrapper
         else:
             name = cmd_name or func.__name__
             parent.getSubparsers().required = True
@@ -73,7 +79,7 @@ def command(*args, **kwargs):
             subparser.set_defaults(__subfunc=wrapper)
 
         for arg in args:
-            if isinstance(arg, Arg):
+            if isinstance(arg, ArgWrapper):
                 arg(wrapper)
 
         return wrapper
@@ -82,23 +88,38 @@ def command(*args, **kwargs):
 
 if __name__ == "__main__":
     # Just test
-    @command(Arg('-b', "--foo", help="foo help.", action="store", default="default"))
+    @command(
+        ArgWrapper('-b', "--foo", help="foo help.", action="store", default="default"),
+        ArgWrapper('-z', "--foo1", help="foo help.", action="store", default="default"),
+    )
     def main(args):
         print("main", args)
 
-    @command(Arg('-b', "--bar", help="foo help.", action="store", default="default"),
-             parent=main, name="foo1")
+    @command(
+        ArgWrapper('-b', "--bar", help="foo help.", action="store", default="default"),
+        parent=main, name="foo1"
+    )
     def subCmd1(args):
         print("subCmd1", args)
 
-    @command(Arg('-b', "--bar", help="foo help.", action="store", default="default"),
-             parent=subCmd1, name="bar1")
+    @command(
+        ArgWrapper('-b', "--bar", help="foo help.", action="store", default="default"),
+        parent=subCmd1, name="bar1"
+    )
     def subSubCmd1(args):
         print("subSubCmd1", args)
 
-    @command(Arg('-b', "--bar", help="foo help.", action="store", default="default"),
-             parent=main, name="foo2")
+    @command(
+        ArgWrapper('-b', "--bar", help="foo help.", action="store", default="default"),
+        parent=main, name="foo2"
+    )
     def subSubCmd1(args):
         print("subSubCmd1", args)
+
+    @command(
+        ArgWrapper('-b', "--foo", help="foo help.", action="store", default="default")
+    )
+    def main2(args):
+        print("main2", args)
 
     main()
