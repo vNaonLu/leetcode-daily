@@ -1,6 +1,8 @@
 from threading import Thread, Lock
 from typing import Callable
+from functools import partial
 import sys
+import time
 # prevent generating __pycache__
 sys.dont_write_bytecode = True
 
@@ -36,12 +38,12 @@ class _PrintTool:
     def __init__(self, *args):
         self.reset()
         self.__lock = Lock()
-        self.__show_cursor = True
+        self.__show_cursor = False
 
     def format(self, s: str, *args, flag: int = 0):
         modified = False
         s = f'{s}'.format(*args)
-        if flag != 0:
+        if flag & (self.BOLD - 1):
             modified = True
             s = f'\033[{flag & (~self.BOLD)}m{s}'
         if flag & self.BOLD:
@@ -55,37 +57,35 @@ class _PrintTool:
         return self.__CMD_YPOS
 
     def _incYPos(self, inc: int):
-        if self.__show_cursor and inc > 0:
+        assert inc >= 0
+        if self.__show_cursor and inc != 0:
             print(f'[{self.__CMD_YPOS}] ', end="")
         _PrintTool.__CMD_YPOS += inc
 
     def clear(self):
         with self.__lock:
-            print("\r\033[K", end="")
+            print("\033[F\033[E\033[K", end="")
 
     def print(self, *args):
         with self.__lock:
-            print(*args, end="")
             self._incYPos(sum((x.count('\n') if isinstance(
                 x, str) else 0 for x in args)))
+            print(*args, end="")
 
     def oneline(self, *args):
         with self.__lock:
-            print(*args, end="\n")
             self._incYPos(sum((x.count('\n') if isinstance(
                 x, str) else 0 for x in args)) + 1)
+            print(*args, end="\n")
 
-    def _printBefore(self, *args, cnt: int):
+    def _printAt(self, pmt: str, y: int):
         with self.__lock:
-            print(f'\033[{cnt}A', end="")
-            print("\r\033[K", end="")
-            print(*args, end="")
-            down = sum((x.count('\n') if isinstance(
-                x, str) else 0 for x in args))
-            print(cnt, down, end='')
-            if down < cnt:
-                print(f'\r\033[{cnt-down}B', end="")
-
+            up = int(self._getYPos() - y)
+            assert up >= 0
+            print('\033[s', end='')
+            if up > 0:
+                print(f'\033[{up}A', end='')
+            print(f"\r\033[K{pmt}\033[u", end="")
 
     def formatPrint(self, s: str, *args, flag: int = 0):
         self.print(self.format(s, *args, flag=flag))
@@ -93,13 +93,18 @@ class _PrintTool:
     def formatOneline(self, s: str, *args, flag: int = 0):
         self.oneline(self.format(s, *args, flag=flag))
 
-    def withSymbol(self, symbol: str, s: str, *args, flag: int = 0, symbol_flag: int = 0):
+    def printWithSymbol(self, symbol: str, s: str, *args, flag: int = 0, symbol_flag: int = 0):
         self.formatPrint(f'{symbol} ', flag=symbol_flag)
         self.formatPrint(s, *args, flag=flag)
 
-    def _input(self):
+    def formatWithSymbol(self, symbol: str, s: str, *args, flag: int = 0, symbol_flag: int = 0):
+        res = self.format(f'{symbol} ', flag=symbol_flag)
+        res += self.format(s, *args, flag=flag)
+        return res
+
+    def _input(self, pmt: str):
         with self.__lock:
-            res = input()
+            res = input(pmt)
             self._incYPos(1)
             return res
 
@@ -119,9 +124,9 @@ class _PromptImpl(_PrintTool):
         opts_prompt = self.format("[{}]", ", ".join(opts), flag=self.VERBOSE)
         question = self.format(s, *args, flag=flag)
         while True:
-          self.withSymbol("[?]", f'{question}? {opts_prompt} ',
-                          symbol_flag=self.DARK_YELLOW)
-          ans = self._input()
+          pmt = self.formatWithSymbol("[?]", f'{question} {opts_prompt} ',
+                                      symbol_flag=self.DARK_YELLOW)
+          ans = self._input(pmt)
 
           for kw, action in dispatcher.items():
               if kw == ans or (not (flag & self.CASESENSITIVE) and kw.lower() == ans.lower()):
@@ -129,39 +134,93 @@ class _PromptImpl(_PrintTool):
 
 
 class _LogImpl(_PrintTool):
-    _DYNAMIC_DOT = ["⠇", "⠏", "⠋", "⠛", "⠙", "⠹", "⠸", "⠼", "⠴", "⠶", "⠦", "⠧"]
+    _DYNAMIC_DOT = [" ⠇ ", " ⠏ ", " ⠋ ", " ⠛ ", " ⠙ ", " ⠹ ", " ⠸ ", " ⠼ ", " ⠴ ", " ⠶ ", " ⠦ ", " ⠧ "]
 
-    TASK_FAILED = 1 << 9
+    class ThreadArgs:
+        def __init__(self) -> None:
+            self.ypos = 0
+            self.is_running = True
+            self.begin = 0.0
+            self.elapsed = 0.0
+            self.msg = ""
+            self.lock = Lock()
 
     def __init__(self, *args, verbose = False, **kwargs):
         super().__init__(*args, **kwargs)
         self.__verbose = verbose
-        self._working_thread: dict[str, tuple[int, bool, Thread]] = None
+        self._working_thread: dict[str, Thread] = {}
+        self._threading_args: dict[str, _LogImpl.ThreadArgs] = {}
 
     def verbose(self, s: str, *args):
         if self.__verbose:
-            self.withSymbol('   ', f'{s}\n', *args, flag=self.VERBOSE,
-                            symbol_flag=self.VERBOSE)
+            self.printWithSymbol('   ', f'{s}\n', *args, flag=self.VERBOSE,
+                                 symbol_flag=self.VERBOSE)
+
+    def __successForm(self, s: str, *args, flag: int = 0):
+        return self.formatWithSymbol('[+]', f'{s}', *args, flag=flag,
+                                     symbol_flag=self.DARK_GREEN)
+
+    def __failureForm(self, s: str, *args, flag: int = 0):
+        return self.formatWithSymbol('[x]', f'{s}', *args, flag=flag,
+                                     symbol_flag=self.DARK_RED)
 
     def success(self, s: str, *args, flag: int = 0):
-        self.withSymbol('[+]', f'{s}\n', *args, flag=flag,
-                        symbol_flag=self.DARK_GREEN)
+        self.oneline(self.__successForm(s, *args, flag=flag))
 
     def failure(self, s: str, *args, flag: int = 0):
-        self.withSymbol('[-]', f'{s}\n', *args, flag=flag,
-                        symbol_flag=self.DARK_RED)
+        self.oneline(self.__failureForm(s, *args, flag=flag))
 
-    def __taskLogging(self, task_name: str, pending_msg: str, *args, thread_tuple:tuple[int, bool, Thread], flag: int = 0):
-        pass
+    def __taskLogging(self, task_name: str, arg):
+        it = 0
+        if not isinstance(arg, _LogImpl.ThreadArgs):
+            return
 
-    def logTask(self, task_name: str, pending_msg: str, *args, flag: int = 0):
+        # placeholder
+        self.oneline()
+        while arg.is_running:
+            with arg.lock:
+                msg = arg.msg
+            arg.elapsed = time.time() - arg.begin
+            cur_dot = self._DYNAMIC_DOT[it % len(self._DYNAMIC_DOT)]
+            it += 1
+            msg = ""
+            timing = self.format(f'({arg.elapsed:.1f} s)', flag=self.VERBOSE)
+            pmt = self.__taskMsgForm(task_name, msg)
+            pmt = self.formatWithSymbol(cur_dot, f'{pmt} {timing}', symbol_flag=self.BRIGHT_BLUE)
+            self._printAt(pmt, y=arg.ypos)
+            time.sleep(1/30)
+
+    def __taskMsgForm(self, task_name: str, msg: str, *args):
+        return self.format(f'{task_name}: {msg}', *args)
+
+    def beginTask(self, task_name: str):
         assert task_name not in self._working_thread
+        assert task_name not in self._threading_args
+        thread_args = _LogImpl.ThreadArgs()
+        thread_args.ypos = self._getYPos()
+        thread_args.begin = time.time()
+        self._threading_args[task_name] = thread_args
+        self._working_thread[task_name] = Thread(
+            target=partial(self.__taskLogging, task_name, thread_args))
+        self._working_thread[task_name].start()
+        # sleep for not update prompt too fast
+        time.sleep(0.1)
 
-    def endTask(self, task_name: str, receive_msg: str, *args, flag: int = 0):
+    def endTask(self, task_name: str, receive_msg: str, *args, is_success: bool):
         assert task_name in self._working_thread
+        assert task_name in self._threading_args
+        thread_args = self._threading_args[task_name]
+        thread = self._working_thread[task_name]
+        thread_args.is_running = False
+        thread.join()
+        timing = self.format('({:.1f} s)', thread_args.elapsed, flag=self.VERBOSE)
+        pmt = self.__taskMsgForm(task_name, receive_msg, *args)
 
-    def TEST(self, s, cnt: int):
-        self._printBefore(s, cnt=cnt)
+        if is_success:
+            self._printAt(self.__successForm(f'{pmt} {timing}'), y=thread_args.ypos)
+        else:
+            self._printAt(self.__failureForm(f'{pmt} {timing}'), y=thread_args.ypos)
+
 
 
 class Log:
@@ -185,7 +244,7 @@ class Prompt:
 
 
 if __name__ == "__main__":
-    LOG = Log.getInstance(verbose=False)
+    LOG = Log.getInstance(verbose=True)
     PMT = Prompt.getInstance()
     LOG.print("this is \n")
     LOG.formatOneline("{}", "hightlight", flag=LOG.HIGHTLIGHT)
@@ -202,20 +261,19 @@ if __name__ == "__main__":
     LOG.failure("Failure Message!")
     LOG.failure("Failure With {} Message!", LOG.format(
         "Important", flag=LOG.IMPORTANT))
-    LOG.TEST("I rebase success message", 3)
+    
+    task1 = "Test Task1"
+    task2 = "Test Task2"
+    LOG.beginTask(task1)
+    LOG.beginTask(task2)
+    
+    while not PMT.ask("Stop task1?"):
+        LOG.verbose("keep task1")
+        pass
+    
+    LOG.endTask(task1, "end of {}", task1, is_success=True)
 
-    LOG.formatOneline(PMT.ask("Default Dispatcher"))
-    LOG.formatOneline(PMT.ask("Default Dispatcher With Case Sensitive",
-                              flag=PMT.CASESENSITIVE))
-
-    def fun1():
-      LOG.print("fun1")
-
-    def fun2():
-      LOG.print("fun2")
-
-    def fun3():
-      LOG.print("fun3")
-
-    # PMT.ask('Which function you want to call', dispatcher={
-    #         "fun1": fun1, "fun2": fun2, "fun3": fun3})
+    while not PMT.ask("Stop task2?"):
+        LOG.verbose("keep task2")
+        pass
+    LOG.endTask(task2, "end of {}", task2, is_success=False)
