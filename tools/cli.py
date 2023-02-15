@@ -6,7 +6,7 @@ class ParserWrapper():
     def __init__(self, func: Callable, parser: ArgumentParser, parent):
         self.__func = func
         self.__parser = parser
-        self.__subparsers = parser.add_subparsers()
+        self.__subparsers = None
         self.__parent: ParserWrapper = parent
 
     def __call__(self):
@@ -22,6 +22,8 @@ class ParserWrapper():
         self.__func(args)
 
     def getSubparsers(self):
+        if self.__subparsers is None:
+            self.__subparsers = self.getParser().add_subparsers()
         return self.__subparsers
 
     def getParser(self):
@@ -59,6 +61,9 @@ def command(*args, **kwargs):
             cmd_name = val
         else:
             new_kwargs[key] = val
+    if parent == __ROOT_WRAPPER and __ROOT_WRAPPER == None:
+        if "help" in new_kwargs:
+            del new_kwargs["help"]
     kwargs = new_kwargs
 
     def __decorate(func):
@@ -89,35 +94,35 @@ def command(*args, **kwargs):
 if __name__ == "__main__":
     # Just test
     @command(
-        ArgWrapper('-b', "--foo", help="foo help.", action="store", default="default"),
-        ArgWrapper('-z', "--foo1", help="foo help.", action="store", default="default"),
+        arg('-b', "--foo", help="foo help.", action="store", default="default"),
+        arg('-z', "--foo1", help="foo help.", action="store", default="default"),
     )
     def main(args):
         print("main", args)
 
     @command(
-        ArgWrapper('-b', "--bar", help="foo help.", action="store", default="default"),
+        arg('-b', "--bar", help="foo help.", action="store", default="default"),
         parent=main, name="foo1"
     )
     def subCmd1(args):
         print("subCmd1", args)
 
     @command(
-        ArgWrapper('-b', "--bar", help="foo help.", action="store", default="default"),
+        arg('-b', "--bar", help="foo help.", action="store", default="default"),
         parent=subCmd1, name="bar1"
     )
     def subSubCmd1(args):
         print("subSubCmd1", args)
 
     @command(
-        ArgWrapper('-b', "--bar", help="foo help.", action="store", default="default"),
+        arg('-b', "--bar", help="foo help.", action="store", default="default"),
         parent=main, name="foo2"
     )
     def subSubCmd1(args):
         print("subSubCmd1", args)
 
     @command(
-        ArgWrapper('-b', "--foo", help="foo help.", action="store", default="default")
+        arg('-b', "--foo", help="foo help.", action="store", default="default")
     )
     def main2(args):
         print("main2", args)
