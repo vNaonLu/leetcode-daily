@@ -6,6 +6,7 @@ sys.dont_write_bytecode = True
 from utils import *
 import cli
 
+
 @cli.command(
     cli.arg("-v", "--verbose", dest="verbose", default=False, action="store_true",
             help="enable verbose logging."),
