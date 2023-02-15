@@ -59,6 +59,10 @@ def getSubdirectoryName(id: int):
     return f"q_{lo}_{hi}"
 
 
+def getSolutionFileName(id: int):
+    return f'q{str(id).zfill(4)}.cc'
+
+
 __REGULAR_SOLUTION_FORMAT = regex.compile(
     "(?P<solution>class Solution *({(?:(?:[^{}]|(?2))*)});)")
 
@@ -74,12 +78,14 @@ def parseSolution(src: str):
         LOG.funcVerbose("the regular solution format found.")
         return regular.group("solution")
     LOG.funcVerbose("failed to search with the regular solution format.")
+
     LOG.funcVerbose("trying to parse with structured type.")
     structured = __STRUCTURED_SOLUTION_FORMAT.search(src)
     if structured:
         LOG.funcVerbose("the structured solution format found.")
         return structured.group("solution")
     LOG.funcVerbose("failed to search with the structured solution format.")
+
     LOG.funcVerbose("failed to search all possible solution format.")
     return None
 
@@ -110,7 +116,6 @@ def clangFormat(src: str):
             LOG.funcVerbose("command ran failed: {}", res)
             return src
         LOG.funcVerbose("command ran successfully.")
-        tmp.seek(0)
         after = res.stdout.decode('utf-8')
         return after
 

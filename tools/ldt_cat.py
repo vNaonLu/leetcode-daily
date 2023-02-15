@@ -34,28 +34,26 @@ def ldtCat(args):
 
     LOG.log("collecting the details for the solution of question #{}.",
               LOG.format(ARG_ID, flag=LOG.HIGHTLIGHT))
-    qf = SolutionFile(ARG_ID)
-    qpath = qf.path(ARG_SRC_PATH)
+    qf = SolutionFile(ARG_ID, ARG_SRC_PATH)
 
     LOG.verbose("cat LeetCode solution...")
     LOG.verbose("[source detail beg]")
     LOG.verbose(" - id     : {}", qf.id())
-    LOG.verbose(" - target : {}", qpath)
+    LOG.verbose(" - target : {}", qf)
     LOG.verbose("[source detail end]")
     LOG.verbose("checking whether the solution exists...")
 
-    if not qpath.exists():
+    if not qf.exists():
 
-        LOG.verbose("target not found: {}", qpath)
+        LOG.verbose("target not found: {}", qf)
 
         LOG.failure("questions #{} is not resolved yet.",
                     LOG.format(ARG_ID, flag=LOG.HIGHTLIGHT))
         return 1
 
     LOG.verbose("target found and trying to get solution snippet.")
-    LOG.verbose("opening the file: {}", qpath)
 
-    with qpath.open('r') as f:
+    with qf.open('r') as f:
 
         LOG.verbose("solution file opened.")
 
@@ -63,12 +61,14 @@ def ldtCat(args):
         snippet = parseSolution(code_buf)
 
         if not snippet:
-            LOG.failure("failed to parse the solution from file: {}", qpath)
+            LOG.failure("failed to parse the solution from file: {}", qf)
             return 1
 
+        solution = clangFormat(snippet)
         LOG.success("the solution for question #{} found:",
                     LOG.format(ARG_ID, flag=LOG.HIGHTLIGHT))
-        LOG.print(clangFormat(snippet))
+        LOG.print('')
+        LOG.print(solution, flag=LOG.DARK_GREEN)
 
     return 0
 
