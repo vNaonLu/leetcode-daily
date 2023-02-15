@@ -2349,7 +2349,7 @@ id,title,level,slug,paid,done,tc,sc
 2348,Number of Zero-Filled Subarrays,2,number-of-zero-filled-subarrays,0,0,,
 2349,Design a Number Container System,2,design-a-number-container-system,0,0,,
 2350,Shortest Impossible Sequence of Rolls,3,shortest-impossible-sequence-of-rolls,0,0,,
-2351,First Letter to Appear Twice,1,first-letter-to-appear-twice,0,0,,
+2351,First Letter to Appear Twice,1,first-letter-to-appear-twice,0,1,s.size(),s.size()
 2352,Equal Row and Column Pairs,2,equal-row-and-column-pairs,0,0,,
 2353,Design a Food Rating System,2,design-a-food-rating-system,0,0,,
 2354,Number of Excellent Pairs,3,number-of-excellent-pairs,0,0,,
