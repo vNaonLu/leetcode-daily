@@ -1,3 +1,4 @@
+#!/usr/bin/env python3
 import sys
 from argparse import RawTextHelpFormatter
 # prevent generating __pycache__

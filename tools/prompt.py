@@ -1,7 +1,9 @@
+#!/usr/bin/env python3
 from threading import Thread, Lock
 from typing import Callable
 from functools import partial
 import sys
+import inspect
 import time
 # prevent generating __pycache__
 sys.dont_write_bytecode = True
@@ -29,7 +31,7 @@ class _PrintTool:
 
     BOLD = 1 << 8
     VERBOSE = BRIGHT_BLACK
-    HIGHTLIGHT = DARK_WHITE
+    HIGHTLIGHT = DARK_CYAN
     IMPORTANT = DARK_YELLOW | BOLD
 
     def reset(self):
@@ -42,7 +44,9 @@ class _PrintTool:
 
     def format(self, s: str, *args, flag: int = 0):
         modified = False
-        s = f'{s}'.format(*args)
+        if len(args) > 0:
+            if len(args) > 0:
+                s = f'{s}'.format(*args)
         if flag & (self.BOLD - 1):
             modified = True
             s = f'\033[{flag & (~self.BOLD)}m{s}'
@@ -62,17 +66,17 @@ class _PrintTool:
             print(f'[{self.__CMD_YPOS}] ', end="")
         _PrintTool.__CMD_YPOS += inc
 
-    def clear(self):
+    def _clear(self):
         with self.__lock:
             print("\033[F\033[E\033[K", end="")
 
-    def print(self, *args):
+    def _print(self, *args):
         with self.__lock:
             self._incYPos(sum((x.count('\n') if isinstance(
                 x, str) else 0 for x in args)))
             print(*args, end="")
 
-    def oneline(self, *args):
+    def _oneline(self, *args):
         with self.__lock:
             self._incYPos(sum((x.count('\n') if isinstance(
                 x, str) else 0 for x in args)) + 1)
@@ -87,17 +91,17 @@ class _PrintTool:
                 print(f'\033[{up}A', end='')
             print(f"\r\033[K{pmt}\033[u", end="")
 
-    def formatPrint(self, s: str, *args, flag: int = 0):
-        self.print(self.format(s, *args, flag=flag))
+    def _formatPrint(self, s: str, *args, flag: int = 0):
+        self._print(self.format(s, *args, flag=flag))
 
-    def formatOneline(self, s: str, *args, flag: int = 0):
-        self.oneline(self.format(s, *args, flag=flag))
+    def _formatOneline(self, s: str, *args, flag: int = 0):
+        self._oneline(self.format(s, *args, flag=flag))
 
-    def printWithSymbol(self, symbol: str, s: str, *args, flag: int = 0, symbol_flag: int = 0):
-        self.formatPrint(f'{symbol} ', flag=symbol_flag)
-        self.formatPrint(s, *args, flag=flag)
+    def _printWithSymbol(self, symbol: str, s: str, *args, flag: int = 0, symbol_flag: int = 0):
+        self._formatPrint(f'{symbol} ', flag=symbol_flag)
+        self._formatPrint(s, *args, flag=flag)
 
-    def formatWithSymbol(self, symbol: str, s: str, *args, flag: int = 0, symbol_flag: int = 0):
+    def _formatWithSymbol(self, symbol: str, s: str, *args, flag: int = 0, symbol_flag: int = 0):
         res = self.format(f'{symbol} ', flag=symbol_flag)
         res += self.format(s, *args, flag=flag)
         return res
@@ -107,6 +111,7 @@ class _PrintTool:
             res = input(pmt)
             self._incYPos(1)
             return res
+
 
 class _PromptImpl(_PrintTool):
     __DEFAULT_DISPATCHER = {
@@ -124,8 +129,8 @@ class _PromptImpl(_PrintTool):
         opts_prompt = self.format("[{}]", ", ".join(opts), flag=self.VERBOSE)
         question = self.format(s, *args, flag=flag)
         while True:
-          pmt = self.formatWithSymbol("[?]", f'{question} {opts_prompt} ',
-                                      symbol_flag=self.DARK_YELLOW)
+          pmt = self._formatWithSymbol("[?]", f'{question} {opts_prompt} ',
+                                       symbol_flag=self.DARK_YELLOW)
           ans = self._input(pmt)
 
           for kw, action in dispatcher.items():
@@ -134,7 +139,8 @@ class _PromptImpl(_PrintTool):
 
 
 class _LogImpl(_PrintTool):
-    _DYNAMIC_DOT = [" ⠇ ", " ⠏ ", " ⠋ ", " ⠛ ", " ⠙ ", " ⠹ ", " ⠸ ", " ⠼ ", " ⠴ ", " ⠶ ", " ⠦ ", " ⠧ "]
+    _DYNAMIC_DOT = [" ⠇ ", " ⠏ ", " ⠋ ", " ⠛ ", " ⠙ ",
+                    " ⠹ ", " ⠸ ", " ⠼ ", " ⠴ ", " ⠶ ", " ⠦ ", " ⠧ "]
 
     class ThreadArgs:
         def __init__(self) -> None:
@@ -145,7 +151,7 @@ class _LogImpl(_PrintTool):
             self.msg = ""
             self.lock = Lock()
 
-    def __init__(self, *args, verbose = False, **kwargs):
+    def __init__(self, *args, verbose=False, **kwargs):
         super().__init__(*args, **kwargs)
         self.__verbose = verbose
         self._working_thread: dict[str, Thread] = {}
@@ -153,22 +159,35 @@ class _LogImpl(_PrintTool):
 
     def verbose(self, s: str, *args):
         if self.__verbose:
-            self.printWithSymbol('   ', f'{s}\n', *args, flag=self.VERBOSE,
-                                 symbol_flag=self.VERBOSE)
+            self._printWithSymbol('   ', f'{s}\n', *args, flag=self.VERBOSE,
+                                  symbol_flag=self.VERBOSE)
+
+    def funcVerbose(self, s: str, *args):
+        self.verbose(f'[{inspect.stack()[1][3]}] {s}', *args)
 
     def __successForm(self, s: str, *args, flag: int = 0):
-        return self.formatWithSymbol('[+]', f'{s}', *args, flag=flag,
-                                     symbol_flag=self.DARK_GREEN)
+        return self._formatWithSymbol('[+]', f'{s}', *args, flag=flag,
+                                      symbol_flag=self.DARK_GREEN)
 
     def __failureForm(self, s: str, *args, flag: int = 0):
-        return self.formatWithSymbol('[x]', f'{s}', *args, flag=flag,
-                                     symbol_flag=self.DARK_RED)
+        return self._formatWithSymbol('[x]', f'{s}', *args, flag=flag,
+                                      symbol_flag=self.DARK_RED)
+
+    def __logFrom(self, s: str, *args, flag: int = 0):
+        return self._formatWithSymbol('[ ]', f'{s}', *args, flag=flag,
+                                      symbol_flag=self.VERBOSE)
+
+    def print(self, s: str, *args, flag: int = 0):
+        self._formatOneline(s, *args, flag=flag)
+
+    def log(self, s: str, *args, flag: int = 0):
+        self._oneline(self.__logFrom(s, *args, flag=flag))
 
     def success(self, s: str, *args, flag: int = 0):
-        self.oneline(self.__successForm(s, *args, flag=flag))
+        self._oneline(self.__successForm(s, *args, flag=flag))
 
     def failure(self, s: str, *args, flag: int = 0):
-        self.oneline(self.__failureForm(s, *args, flag=flag))
+        self._oneline(self.__failureForm(s, *args, flag=flag))
 
     def __taskLogging(self, task_name: str, arg):
         it = 0
@@ -176,7 +195,7 @@ class _LogImpl(_PrintTool):
             return
 
         # placeholder
-        self.oneline()
+        self._oneline()
         while arg.is_running:
             with arg.lock:
                 msg = arg.msg
@@ -186,7 +205,8 @@ class _LogImpl(_PrintTool):
             msg = ""
             timing = self.format(f'({arg.elapsed:.1f} s)', flag=self.VERBOSE)
             pmt = self.__taskMsgForm(task_name, msg)
-            pmt = self.formatWithSymbol(cur_dot, f'{pmt} {timing}', symbol_flag=self.BRIGHT_BLUE)
+            pmt = self._formatWithSymbol(
+                cur_dot, f'{pmt} {timing}', symbol_flag=self.BRIGHT_BLUE)
             self._printAt(pmt, y=arg.ypos)
             time.sleep(1/30)
 
@@ -213,21 +233,23 @@ class _LogImpl(_PrintTool):
         thread = self._working_thread[task_name]
         thread_args.is_running = False
         thread.join()
-        timing = self.format('({:.1f} s)', thread_args.elapsed, flag=self.VERBOSE)
+        timing = self.format(
+            '({:.1f} s)', thread_args.elapsed, flag=self.VERBOSE)
         pmt = self.__taskMsgForm(task_name, receive_msg, *args)
 
         if is_success:
-            self._printAt(self.__successForm(f'{pmt} {timing}'), y=thread_args.ypos)
+            self._printAt(self.__successForm(
+                f'{pmt} {timing}'), y=thread_args.ypos)
         else:
-            self._printAt(self.__failureForm(f'{pmt} {timing}'), y=thread_args.ypos)
-
+            self._printAt(self.__failureForm(
+                f'{pmt} {timing}'), y=thread_args.ypos)
 
 
 class Log:
     __impl: _LogImpl = None
 
     @staticmethod
-    def getInstance(*args, verbose = False, **kwargs):
+    def getInstance(*args, verbose=False, **kwargs):
         if Log.__impl is None:
             Log.__impl = _LogImpl(*args, verbose=verbose, **kwargs)
         return Log.__impl
@@ -246,31 +268,62 @@ class Prompt:
 if __name__ == "__main__":
     LOG = Log.getInstance(verbose=True)
     PMT = Prompt.getInstance()
-    LOG.print("this is \n")
-    LOG.formatOneline("{}", "hightlight", flag=LOG.HIGHTLIGHT)
 
-    LOG.print("this is ")
-    LOG.formatOneline("{}", "red", flag=LOG.DARK_RED)
+    def IAmFunc1():
+        LOG.funcVerbose("Hello")
+
+    def IAmFunc2():
+        LOG.funcVerbose("Hello")
+
+    IAmFunc1()
+    IAmFunc2()
+
+    sys.exit()
+
+    LOG.failure("this is {}", LOG.format("hightlight", flag=LOG.HIGHTLIGHT))
+    LOG.failure("this is {}", LOG.format("dark red", flag=LOG.DARK_RED))
+    LOG.failure("this is {}", LOG.format("verbose", flag=LOG.VERBOSE))
+    LOG.failure("this is {}", LOG.format("important", flag=LOG.IMPORTANT))
+
+    LOG.print("this is {}", LOG.format("hightlight", flag=LOG.HIGHTLIGHT))
+    LOG.print("this is {}", LOG.format("black", flag=LOG.BLACK))
+    LOG.print("this is {}", LOG.format("dark red", flag=LOG.DARK_RED))
+    LOG.print("this is {}", LOG.format("dark green", flag=LOG.DARK_GREEN))
+    LOG.print("this is {}", LOG.format("dark yello", flag=LOG.DARK_YELLOW))
+    LOG.print("this is {}", LOG.format("dark blue", flag=LOG.DARK_BLUE))
+    LOG.print("this is {}", LOG.format("dark magenta", flag=LOG.DARK_MAGENTA))
+    LOG.print("this is {}", LOG.format("dark cyan", flag=LOG.DARK_CYAN))
+    LOG.print("this is {}", LOG.format("dark white", flag=LOG.DARK_WHITE))
+    LOG.print("this is {}", LOG.format("bright black", flag=LOG.BRIGHT_BLACK))
+    LOG.print("this is {}", LOG.format("bright red", flag=LOG.BRIGHT_RED))
+    LOG.print("this is {}", LOG.format("bright green", flag=LOG.BRIGHT_GREEN))
+    LOG.print("this is {}", LOG.format("bright yello", flag=LOG.BRIGHT_YELLOW))
+    LOG.print("this is {}", LOG.format("bright blue", flag=LOG.BRIGHT_BLUE))
+    LOG.print("this is {}", LOG.format(
+        "bright magenta", flag=LOG.BRIGHT_MAGENTA))
+    LOG.print("this is {}", LOG.format("bright cyan", flag=LOG.BRIGHT_CYAN))
+    LOG.print("this is {}", LOG.format("bright white", flag=LOG.WHITE))
     LOG.verbose("this is verbose1")
     LOG.verbose("this is verbose2")
     LOG.verbose("this is verbose3")
+    sys.exit()
 
-    LOG.print("this should not appear")
-    LOG.clear()
+    LOG._print("this should not appear")
+    LOG._clear()
     LOG.success("Success Message!")
     LOG.failure("Failure Message!")
     LOG.failure("Failure With {} Message!", LOG.format(
         "Important", flag=LOG.IMPORTANT))
-    
+
     task1 = "Test Task1"
     task2 = "Test Task2"
     LOG.beginTask(task1)
     LOG.beginTask(task2)
-    
+
     while not PMT.ask("Stop task1?"):
         LOG.verbose("keep task1")
         pass
-    
+
     LOG.endTask(task1, "end of {}", task1, is_success=True)
 
     while not PMT.ask("Stop task2?"):

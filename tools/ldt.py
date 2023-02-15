@@ -1,10 +1,10 @@
+#!/usr/bin/env python3
 import sys
 from argparse import RawTextHelpFormatter
 # prevent generating __pycache__
 sys.dont_write_bytecode = True
 
 import cli
-from prompt import *
 from utils import *
 
 
@@ -18,16 +18,17 @@ from utils import *
     )
 )
 def ldtMain(args: object):
-    LOG = Log.getInstance(verbose=getattr(args, "verbose"))
+    LOG = prompt.Log.getInstance(verbose=getattr(args, "verbose"))
     length = 0
     args_list: list[str] = []
-    LOG.verbose("[Arguments]")
+    LOG.verbose("[arguments beg]")
     for arg in vars(args):
         if arg != "__subfunc":
             length = max(length, len(arg))
             args_list.append(arg)
     for arg in args_list:
         LOG.verbose("{} : {}", arg.ljust(length), getattr(args, arg))
+    LOG.verbose("[arguments end]")
 
 from ldt_cat import *
 from ldt_add import *
