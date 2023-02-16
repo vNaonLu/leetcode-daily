@@ -216,6 +216,10 @@ class _LogImpl(_PrintTool):
         return self._formatWithSymbol('[x]', f'{s}', *args, flag=flag,
                                       symbol_flag=self.DARK_RED)
 
+    def __warnForm(self, s: str, *args, flag: int = 0):
+        return self._formatWithSymbol('[!]', f'{s}', *args, flag=flag,
+                                      symbol_flag=self.DARK_YELLOW)
+
     def __logFrom(self, s: str, *args, flag: int = 0):
         return self._formatWithSymbol('[ ]', f'{s}', *args, flag=flag,
                                       symbol_flag=self.VERBOSE)
@@ -231,6 +235,9 @@ class _LogImpl(_PrintTool):
 
     def failure(self, s: str, *args, flag: int = 0):
         self._oneline(self.__failureForm(s, *args, flag=flag))
+
+    def warn(self, s: str, *args, flag: int = 0):
+        self._oneline(self.__warnForm(s, *args, flag=flag))
 
     def _taskMsgForm(self, task_name: str, msg: str, *args):
         msg = self.format(msg, *args)

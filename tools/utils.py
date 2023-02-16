@@ -10,6 +10,7 @@ SCRIPT_NAME = "LeetCodeDailyTools"
 CAT_SCRIPT_NAME = f"{SCRIPT_NAME}_Cat"
 ADD_SCRIPT_NAME = f"{SCRIPT_NAME}_Add"
 GEN_SCRIPT_NAME = f"{SCRIPT_NAME}_Gen"
+RUN_SCRIPT_NAME = f"{SCRIPT_NAME}_Run"
 BUILD_SCRIPT_NAME = f"{SCRIPT_NAME}_Build"
 REMOVE_SCRIPT_NAME = f"{SCRIPT_NAME}_Remove"
 UPDATE_SCRIPT_NAME = f"{SCRIPT_NAME}_Update"
@@ -151,7 +152,7 @@ class _ChDir:
     def __exit__(self, type, value, traceback):
         import os
         LOG = prompt.Log.getInstance()
-        LOG.log("change directory to: {}", self._origin)
+        LOG.log("change directory back to: {}", self._origin)
         os.chdir(self._origin)
 
 
