@@ -1,6 +1,6 @@
 # Unsolved Solutions List
 
-There are **1692** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
+There are **1690** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
 
 The questions which have been solved are not shown in this page, more information about solved questions can be found at [docs/solved_solutions.md](./solved_solutions.md).
 
@@ -1342,7 +1342,6 @@ The questions which have been solved are not shown in this page, more informatio
 |2166|[Design Bitset](https://leetcode.com/problems/design-bitset/)|Medium||
 |2167|[Minimum Time to Remove All Cars Containing Illegal Goods](https://leetcode.com/problems/minimum-time-to-remove-all-cars-containing-illegal-goods/)|Hard||
 |2168|[Unique Substrings With Equal Digit Frequency](https://leetcode.com/problems/unique-substrings-with-equal-digit-frequency/)|Medium|🔒|
-|2169|[Count Operations to Obtain Zero](https://leetcode.com/problems/count-operations-to-obtain-zero/)|Easy||
 |2170|[Minimum Operations to Make the Array Alternating](https://leetcode.com/problems/minimum-operations-to-make-the-array-alternating/)|Medium||
 |2171|[Removing Minimum Number of Magic Beans](https://leetcode.com/problems/removing-minimum-number-of-magic-beans/)|Medium||
 |2172|[Maximum AND Sum of Array](https://leetcode.com/problems/maximum-and-sum-of-array/)|Hard||
@@ -1498,7 +1497,6 @@ The questions which have been solved are not shown in this page, more informatio
 |2348|[Number of Zero-Filled Subarrays](https://leetcode.com/problems/number-of-zero-filled-subarrays/)|Medium||
 |2349|[Design a Number Container System](https://leetcode.com/problems/design-a-number-container-system/)|Medium||
 |2350|[Shortest Impossible Sequence of Rolls](https://leetcode.com/problems/shortest-impossible-sequence-of-rolls/)|Hard||
-|2351|[First Letter to Appear Twice](https://leetcode.com/problems/first-letter-to-appear-twice/)|Easy||
 |2352|[Equal Row and Column Pairs](https://leetcode.com/problems/equal-row-and-column-pairs/)|Medium||
 |2353|[Design a Food Rating System](https://leetcode.com/problems/design-a-food-rating-system/)|Medium||
 |2354|[Number of Excellent Pairs](https://leetcode.com/problems/number-of-excellent-pairs/)|Hard||
