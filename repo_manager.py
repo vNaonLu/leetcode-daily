@@ -4,9 +4,9 @@ import pathlib
 import subprocess
 import os
 import shutil
-from tools.utils import prompt as pmt
-from tools.utils.subprocess_runner import subprocess_runner
-import tools.utils.local as local
+from tools_old.utils import prompt as pmt
+from tools_old.utils.subprocess_runner import subprocess_runner
+import tools_old.utils.local as local
 
 _file_path  = pathlib.Path(__file__).parent
 _add_script = _file_path.joinpath("./tools/leetcode_add.py")
@@ -143,6 +143,9 @@ def __parser():
     return parser
 
 def __main():
+    from tools_old.leetcode.request import questions
+    print(questions())
+    return
     parser = __parser()
     options, args = parser.parse_args()
     operation: subprocess.CompletedProcess = None

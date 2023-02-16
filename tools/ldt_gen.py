@@ -67,18 +67,17 @@ def ldtGen(args):
     ]
     LOG.verbose("run a command: {}", CMD)
 
-    task_name = "Generating Build Files"
-    LOG.beginTask(task_name)
+    task = LOG.createTaskLog("Generate Build Files")
+    task.begin("")
     res = subprocess.run(CMD, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
 
     if res.returncode != 0:
-        LOG.endTask(task_name, "failed to generate the build files.",
-                    is_success=False)
+        task.end("failed to generate the build files.", is_success=False)
         LOG.print(res.stderr.decode('utf-8'), flag=LOG.VERBOSE)
         return 1
 
-    LOG.endTask(task_name, "generated the build files in {}.",
-                BUILD_ABSOLUTE, is_success=True)
+    task.end("generated the build files in {}.",
+             BUILD_ABSOLUTE, is_success=True)
 
     return 0
 

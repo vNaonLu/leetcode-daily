@@ -142,20 +142,63 @@ class _LogImpl(_PrintTool):
     _DYNAMIC_DOT = [" ⠇ ", " ⠏ ", " ⠋ ", " ⠛ ", " ⠙ ",
                     " ⠹ ", " ⠸ ", " ⠼ ", " ⠴ ", " ⠶ ", " ⠦ ", " ⠧ "]
 
-    class ThreadArgs:
-        def __init__(self) -> None:
-            self.ypos = 0
-            self.is_running = True
-            self.begin = 0.0
-            self.elapsed = 0.0
-            self.msg = ""
-            self.lock = Lock()
+    class Task:
+        def __init__(self, log, task_name: str) -> None:
+            self.__log: _LogImpl = log
+            self._ypos = 0
+            self._is_running = False
+            self._begin = 0.0
+            self._elapsed = 0.0
+            self._name = task_name
+            self._msg = ""
+            self._lock = Lock()
+            self._thread = Thread(target=self.__taskLogging)
+
+        def __taskLogging(self):
+            it = 0
+            LOG = self.__log
+            while self._is_running:
+                with self._lock:
+                    msg = self._msg
+                self._elapsed = time.time() - self._begin
+                cur_dot = LOG._DYNAMIC_DOT[it % len(LOG._DYNAMIC_DOT)]
+                it += 1
+                timing = LOG.format(f'({self._elapsed:.1f} s)', flag=LOG.VERBOSE)
+                pmt = LOG._taskMsgForm(self._name, msg)
+                pmt = LOG._formatWithSymbol(cur_dot, f'{pmt} {timing}', symbol_flag=LOG.BRIGHT_BLUE)
+                LOG._printAt(pmt, y=self._ypos)
+                time.sleep(1/30)
+
+        def log(self, msg: str, *arg):
+            assert self._is_running
+            with self._lock:
+                self._msg = self.__log.format(msg, *arg)
+
+        def begin(self, msg: str, *arg):
+            assert not self._is_running
+            with self._lock:
+                self._msg = self.__log.format(msg, *arg)
+            self._ypos = self.__log._getYPos()
+            self._is_running = True
+            self._begin = time.time()
+            # placeholder
+            self.__log._oneline()
+            self._thread.start()
+            # sleep for not update prompt too fast
+            time.sleep(0.1)
+
+        def end(self, msg: str, *arg, is_success: bool):
+            assert self._is_running
+            with self._lock:
+                self._msg = self.__log.format(msg, *arg)
+            self._is_running = False
+            self._thread.join()
+            self.__log._endTask(self._name, msg, *arg, is_success=is_success)
 
     def __init__(self, *args, verbose=False, **kwargs):
         super().__init__(*args, **kwargs)
         self.__verbose = verbose
-        self._working_thread: dict[str, Thread] = {}
-        self._threading_args: dict[str, _LogImpl.ThreadArgs] = {}
+        self._tasks_map: dict[str, _LogImpl.Task] = {}
 
     def verbose(self, s: str, *args):
         if self.__verbose:
@@ -189,60 +232,30 @@ class _LogImpl(_PrintTool):
     def failure(self, s: str, *args, flag: int = 0):
         self._oneline(self.__failureForm(s, *args, flag=flag))
 
-    def __taskLogging(self, task_name: str, arg):
-        it = 0
-        if not isinstance(arg, _LogImpl.ThreadArgs):
-            return
+    def _taskMsgForm(self, task_name: str, msg: str, *args):
+        msg = self.format(msg, *args)
+        if msg == "":
+            return task_name
+        return self.format(f'{task_name}: {msg}')
 
-        # placeholder
-        self._oneline()
-        while arg.is_running:
-            with arg.lock:
-                msg = arg.msg
-            arg.elapsed = time.time() - arg.begin
-            cur_dot = self._DYNAMIC_DOT[it % len(self._DYNAMIC_DOT)]
-            it += 1
-            msg = ""
-            timing = self.format(f'({arg.elapsed:.1f} s)', flag=self.VERBOSE)
-            pmt = self.__taskMsgForm(task_name, msg)
-            pmt = self._formatWithSymbol(
-                cur_dot, f'{pmt} {timing}', symbol_flag=self.BRIGHT_BLUE)
-            self._printAt(pmt, y=arg.ypos)
-            time.sleep(1/30)
+    def createTaskLog(self, task_name: str):
+        assert task_name not in self._tasks_map
+        task = _LogImpl.Task(self, task_name)
+        self._tasks_map[task_name] = task
+        return task
 
-    def __taskMsgForm(self, task_name: str, msg: str, *args):
-        return self.format(f'{task_name}: {msg}', *args)
-
-    def beginTask(self, task_name: str):
-        assert task_name not in self._working_thread
-        assert task_name not in self._threading_args
-        thread_args = _LogImpl.ThreadArgs()
-        thread_args.ypos = self._getYPos()
-        thread_args.begin = time.time()
-        self._threading_args[task_name] = thread_args
-        self._working_thread[task_name] = Thread(
-            target=partial(self.__taskLogging, task_name, thread_args))
-        self._working_thread[task_name].start()
-        # sleep for not update prompt too fast
-        time.sleep(0.1)
-
-    def endTask(self, task_name: str, receive_msg: str, *args, is_success: bool):
-        assert task_name in self._working_thread
-        assert task_name in self._threading_args
-        thread_args = self._threading_args[task_name]
-        thread = self._working_thread[task_name]
-        thread_args.is_running = False
-        thread.join()
-        timing = self.format(
-            '({:.1f} s)', thread_args.elapsed, flag=self.VERBOSE)
-        pmt = self.__taskMsgForm(task_name, receive_msg, *args)
-
+    def _endTask(self, task_name: str, receive_msg: str, *args, is_success: bool):
+        assert task_name in self._tasks_map
+        thread_args = self._tasks_map[task_name]
+        timing = self.format('({:.1f} s)', thread_args._elapsed, flag=self.VERBOSE)
+        pmt = self._taskMsgForm(task_name, receive_msg, *args)
         if is_success:
             self._printAt(self.__successForm(
-                f'{pmt} {timing}'), y=thread_args.ypos)
+                f'{pmt} {timing}'), y=thread_args._ypos)
         else:
             self._printAt(self.__failureForm(
-                f'{pmt} {timing}'), y=thread_args.ypos)
+                f'{pmt} {timing}'), y=thread_args._ypos)
+        del self._tasks_map[task_name]
 
 
 class Log:
@@ -278,8 +291,6 @@ if __name__ == "__main__":
     IAmFunc1()
     IAmFunc2()
 
-    sys.exit()
-
     LOG.failure("this is {}", LOG.format("hightlight", flag=LOG.HIGHTLIGHT))
     LOG.failure("this is {}", LOG.format("dark red", flag=LOG.DARK_RED))
     LOG.failure("this is {}", LOG.format("verbose", flag=LOG.VERBOSE))
@@ -306,7 +317,6 @@ if __name__ == "__main__":
     LOG.verbose("this is verbose1")
     LOG.verbose("this is verbose2")
     LOG.verbose("this is verbose3")
-    sys.exit()
 
     LOG._print("this should not appear")
     LOG._clear()
@@ -315,18 +325,21 @@ if __name__ == "__main__":
     LOG.failure("Failure With {} Message!", LOG.format(
         "Important", flag=LOG.IMPORTANT))
 
-    task1 = "Test Task1"
-    task2 = "Test Task2"
-    LOG.beginTask(task1)
-    LOG.beginTask(task2)
+    task1 = LOG.createTaskLog("Success Task")
+    task2 = LOG.createTaskLog("Failure Task")
 
+    cnt1 = 0
+    cnt2 = 0
+    task1.begin("Running... ({})", cnt1)
+    task2.begin("Running... ({})", cnt2)
     while not PMT.ask("Stop task1?"):
+        cnt1 += 1
+        task1.log("Running... ({})", cnt1)
         LOG.verbose("keep task1")
-        pass
-
-    LOG.endTask(task1, "end of {}", task1, is_success=True)
+    task1.end("Stopped", is_success=True)
 
     while not PMT.ask("Stop task2?"):
+        cnt2 += 1
+        task2.log("Running... ({})", cnt2)
         LOG.verbose("keep task2")
-        pass
-    LOG.endTask(task2, "end of {}", task2, is_success=False)
+    task2.end("Stopped", is_success=False)
