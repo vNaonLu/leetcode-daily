@@ -1,6 +1,5 @@
 #!/usr/bin/env python3
 import sys
-from shutil import which
 from argparse import RawTextHelpFormatter
 # prevent generating __pycache__
 sys.dont_write_bytecode = True
