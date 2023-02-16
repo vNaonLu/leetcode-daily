@@ -74,7 +74,7 @@ def ldtGen(args):
         return 1
 
     task.end("generated the build files in {}.",
-             BUILD_ABSOLUTE, is_success=True)
+             BUILD_PATH, is_success=True)
 
     return 0
 
