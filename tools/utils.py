@@ -9,6 +9,7 @@ from pathlib import Path
 SCRIPT_NAME = "LeetCodeDailyTools"
 CAT_SCRIPT_NAME = f"{SCRIPT_NAME}_Cat"
 ADD_SCRIPT_NAME = f"{SCRIPT_NAME}_Add"
+GEN_SCRIPT_NAME = f"{SCRIPT_NAME}_Gen"
 REMOVE_SCRIPT_NAME = f"{SCRIPT_NAME}_Remove"
 UPDATE_SCRIPT_NAME = f"{SCRIPT_NAME}_Update"
 UPDATE_ALL_SCRIPT_NAME = f"{UPDATE_SCRIPT_NAME}_All"
@@ -19,9 +20,11 @@ PROJECT_ROOT = Path(__file__).parent.parent.resolve()
 SRC_RELATIVE = Path('./src')
 DOCS_RELATIVE = Path('./docs')
 ASSETS_RELATIVE = Path('./assets')
+BUILD_RELATIVE = Path('./build')
 SRC_ABSOLUTE = PROJECT_ROOT.joinpath(SRC_RELATIVE).resolve()
 DOCS_ABSOLUTE = PROJECT_ROOT.joinpath(DOCS_RELATIVE).resolve()
 ASSETS_ABSOLUTE = PROJECT_ROOT.joinpath(ASSETS_RELATIVE).resolve()
+BUILD_ABSOLUTE = PROJECT_ROOT.joinpath(BUILD_RELATIVE).resolve()
 QUESTIONS_LOG_ABSOLUTE = SRC_ABSOLUTE.joinpath("logs.csv")
 QUESTIONS_LIST_ABSOLUTE = SRC_ABSOLUTE.joinpath("questions_list.csv")
 

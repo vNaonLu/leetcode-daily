@@ -31,6 +31,7 @@ def ldtMain(args: object):
     LOG.verbose("[arguments end]")
 
 from ldt_cat import *
+from ldt_gen import *
 from ldt_add import *
 from ldt_remove import *
 from ldt_update import *

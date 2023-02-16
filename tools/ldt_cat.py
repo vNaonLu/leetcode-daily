@@ -16,7 +16,7 @@ import cli
             metavar="[Source_Root]", help="specify the source root."),
     cli.arg("id", metavar="id", nargs=1, type=int, help="question identifier to cat."),
     formatter_class=RawTextHelpFormatter,
-    name="cat", prog=ADD_SCRIPT_NAME,
+    name="cat", prog=CAT_SCRIPT_NAME,
     help=fixedWidth(
         "concatenate and print the solution for specific question.",
         width=60
@@ -41,11 +41,9 @@ def ldtCat(args):
     LOG.verbose(" - id     : {}", qf.id())
     LOG.verbose(" - target : {}", qf)
     LOG.verbose("[source detail end]")
-    LOG.verbose("checking whether the solution exists...")
+    LOG.verbose("checking whether the solution exists: {}", qf)
 
     if not qf.exists():
-
-        LOG.verbose("target not found: {}", qf)
 
         LOG.failure("questions #{} is not resolved yet.",
                     LOG.format(ARG_ID, flag=LOG.HIGHTLIGHT))
