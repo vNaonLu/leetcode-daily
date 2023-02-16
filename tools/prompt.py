@@ -174,7 +174,7 @@ class _LogImpl(_PrintTool):
             with self._lock:
                 self._msg = self.__log.format(msg, *arg)
 
-        def begin(self, msg: str, *arg):
+        def begin(self, msg: str = "", *arg):
             assert not self._is_running
             with self._lock:
                 self._msg = self.__log.format(msg, *arg)
@@ -187,7 +187,7 @@ class _LogImpl(_PrintTool):
             # sleep for not update prompt too fast
             time.sleep(0.1)
 
-        def end(self, msg: str, *arg, is_success: bool):
+        def end(self, msg: str = "", *arg, is_success: bool):
             assert self._is_running
             with self._lock:
                 self._msg = self.__log.format(msg, *arg)

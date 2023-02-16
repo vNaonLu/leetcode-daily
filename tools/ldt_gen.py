@@ -49,14 +49,11 @@ def ldtGen(args):
         LOG.failure("there is no |CMakeLists.txt| exists in the directory: {}", SRC_PATH)
         return 1
 
-    LOG.verbose("trying to find |cmake| executable.")
-    cmake = which("cmake")
+    cmake = FindExecutable("cmake")
 
     if not cmake:
         LOG.failure("cmake not found.")
         return 1
-
-    LOG.verbose("|cmake| found: {}", cmake)
 
     CMD = [
         cmake, "-S", SRC_PATH, "-B", BUILD_PATH,
@@ -68,7 +65,7 @@ def ldtGen(args):
     LOG.verbose("run a command: {}", CMD)
 
     task = LOG.createTaskLog("Generate Build Files")
-    task.begin("")
+    task.begin()
     res = subprocess.run(CMD, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
 
     if res.returncode != 0:

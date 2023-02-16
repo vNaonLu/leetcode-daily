@@ -10,6 +10,7 @@ SCRIPT_NAME = "LeetCodeDailyTools"
 CAT_SCRIPT_NAME = f"{SCRIPT_NAME}_Cat"
 ADD_SCRIPT_NAME = f"{SCRIPT_NAME}_Add"
 GEN_SCRIPT_NAME = f"{SCRIPT_NAME}_Gen"
+BUILD_SCRIPT_NAME = f"{SCRIPT_NAME}_Build"
 REMOVE_SCRIPT_NAME = f"{SCRIPT_NAME}_Remove"
 UPDATE_SCRIPT_NAME = f"{SCRIPT_NAME}_Update"
 UPDATE_ALL_SCRIPT_NAME = f"{UPDATE_SCRIPT_NAME}_All"
@@ -93,18 +94,26 @@ def parseSolution(src: str):
     return None
 
 
-def clangFormat(src: str):
+def FindExecutable(name: str):
     from shutil import which
+    LOG = prompt.Log.getInstance()
+    LOG.funcVerbose(f"trying to find |{name}| executable.")
+    res = which(name)
+
+    if not res:
+        LOG.funcVerbose(f"there is no |{name}| exists.")
+        return None
+    LOG.funcVerbose(f"|{name}| found: {res}")
+    return res
+
+
+def clangFormat(src: str):
     import tempfile
     LOG = prompt.Log.getInstance()
     LOG.funcVerbose("trying to search |clang-format| executable.")
-    clang_format = which("clang-format")
-
+    clang_format = FindExecutable("clang-format")
     if not clang_format:
-        LOG.funcVerbose("there is no |clang-format| exists.")
         return src
-    LOG.funcVerbose("|clang-format| found: {}", clang_format)
-
     with tempfile.NamedTemporaryFile(suffix=".tmp") as tmp:
         LOG.funcVerbose("opened a temporary file and writing source in: {}", tmp.name)
         tmp.write(src.encode('utf-8'))
@@ -123,6 +132,33 @@ def clangFormat(src: str):
         return after
 
 
+class _ChDir:
+    def __init__(self, path) -> None:
+        self._path = Path(path).resolve()
+        self._origin: Path = None
+
+    def path(self):
+        return self._path
+
+    def __enter__(self):
+        import os
+        assert self._path.exists()
+        LOG = prompt.Log.getInstance()
+        LOG.log("change directory to: {}", self._path)
+        self._origin = os.getcwd()
+        os.chdir(self._path)
+
+    def __exit__(self, type, value, traceback):
+        import os
+        LOG = prompt.Log.getInstance()
+        LOG.log("change directory to: {}", self._origin)
+        os.chdir(self._origin)
+
+
+def chDir(path: Path):
+    return _ChDir(path)
+
+
 if __name__ == "__main__":
     print("PROJECT_ROOT", str(PROJECT_ROOT))
     print("SRC_ABSOLUTE", str(SRC_ABSOLUTE))
@@ -137,3 +173,6 @@ if __name__ == "__main__":
         ' practical problems.'
     )
     print(a)
+
+    with chDir("..") as p:
+        print("i am in ", p)
