@@ -71,4 +71,4 @@ def ldtCat(args):
     return 0
 
 if __name__ == "__main__":
-    sys.exit(ldtCat())
+    sys.exit(safeRun(ldtCat))

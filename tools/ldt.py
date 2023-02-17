@@ -38,4 +38,4 @@ from ldt_add import *
 from ldt_remove import *
 from ldt_update import *
 
-ldtMain()
+safeRun(ldtMain)

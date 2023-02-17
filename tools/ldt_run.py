@@ -31,7 +31,7 @@ import cli
 )
 def ldtRun(args):
     LOG = prompt.Log.getInstance(verbose=getattr(args, "verbose"))
-    BUILD_PATH = Path(getattr(args, "build_path"))
+    BUILD_PATH = Path(getattr(args, "build_path")).resolve()
     INFRA_TEST = getattr(args, "infra_test")
     IDS = getattr(args, "ids")
 
@@ -69,11 +69,27 @@ def ldtRun(args):
                 filter = "--gtest_filter={}".format(":".join(solutions))
                 CMD.append(filter)
 
-        LOG.verbose("run a command: {}", CMD)
-        LOG.log("run the executable: {}", executable)
+        TASK = LOG.createTaskLog("Run Tests")
 
-        subprocess.run(CMD)
+        with launchSubprocess(CMD) as proc:
+            TASK.begin("running the executable: {}", executable)
+            result = proc.stdout.read()
+            TASK.log("parsing the test logs.")
+            LOG.verbose(result)
+            failed = parseFailedTests(result)
 
+            if len(failed) == 0:
+                TASK.done("passed all test.", is_success=True)
+                return 0
+            else:
+                TASK.done("failed on test(s): {}", list(failed), is_success=False)
+
+                for test in failed:
+                    LOG.failure("{} failed to pass:", LOG.format(test, flag=LOG.HIGHTLIGHT))
+                    block = parseTestBlock(result, test)
+                    LOG.print(block, flag=LOG.VERBOSE)
+
+                return 1
 
 if __name__ == "__main__":
-    sys.exit(ldtRun())
+    sys.exit(safeRun(ldtRun))

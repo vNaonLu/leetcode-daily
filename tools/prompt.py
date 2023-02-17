@@ -86,10 +86,14 @@ class _PrintTool:
         with self.__lock:
             up = int(self._getYPos() - y)
             assert up >= 0
-            print('\033[s', end='')
             if up > 0:
                 print(f'\033[{up}A', end='')
-            print(f"\r\033[K{pmt}\033[u", end="")
+            if self.__show_cursor:
+                print(f'[{up}] ', end="")
+            print(f"\r\033[K{pmt}", end='')
+            if up > 0:
+                # move back
+                print(f'\033[{up}B\r', end='')
 
     def _formatPrint(self, s: str, *args, flag: int = 0):
         self._print(self.format(s, *args, flag=flag))
@@ -108,6 +112,7 @@ class _PrintTool:
 
     def _input(self, pmt: str):
         with self.__lock:
+            self._incYPos(pmt.count('\n'))
             res = input(pmt)
             self._incYPos(1)
             return res
@@ -129,7 +134,7 @@ class _PromptImpl(_PrintTool):
         opts_prompt = self.format("[{}]", ", ".join(opts), flag=self.VERBOSE)
         question = self.format(s, *args, flag=flag)
         while True:
-          pmt = self._formatWithSymbol("[?]", f'{question} {opts_prompt} ',
+          pmt = self._formatWithSymbol("[?]", f'{question} {opts_prompt} \n',
                                        symbol_flag=self.DARK_YELLOW)
           ans = self._input(pmt)
 
@@ -143,8 +148,9 @@ class _LogImpl(_PrintTool):
                     " ⠹ ", " ⠸ ", " ⠼ ", " ⠴ ", " ⠶ ", " ⠦ ", " ⠧ "]
 
     class Task:
-        def __init__(self, log, task_name: str) -> None:
+        def __init__(self, log, task_name: str, *args, percent: int = None) -> None:
             self.__log: _LogImpl = log
+            self._percent: int = percent
             self._ypos = 0
             self._is_running = False
             self._begin = 0.0
@@ -158,20 +164,23 @@ class _LogImpl(_PrintTool):
             it = 0
             LOG = self.__log
             while self._is_running:
+                percent = None
+                msg = ""
                 with self._lock:
+                    percent = self._percent
                     msg = self._msg
                 self._elapsed = time.time() - self._begin
                 cur_dot = LOG._DYNAMIC_DOT[it % len(LOG._DYNAMIC_DOT)]
                 it += 1
-                timing = LOG.format(f'({self._elapsed:.1f} s)', flag=LOG.VERBOSE)
-                pmt = LOG._taskMsgForm(self._name, msg)
-                pmt = LOG._formatWithSymbol(cur_dot, f'{pmt} {timing}', symbol_flag=LOG.BRIGHT_BLUE)
+                pmt = LOG._taskMsgForm(self._name, self._elapsed, percent, msg)
+                pmt = LOG._formatWithSymbol(cur_dot, pmt, symbol_flag=LOG.BRIGHT_BLUE)
                 LOG._printAt(pmt, y=self._ypos)
                 time.sleep(1/30)
 
-        def log(self, msg: str, *arg):
+        def log(self, msg: str, *arg, percent: int = None):
             assert self._is_running
             with self._lock:
+                self._percent = percent
                 self._msg = self.__log.format(msg, *arg)
 
         def begin(self, msg: str = "", *arg):
@@ -187,13 +196,15 @@ class _LogImpl(_PrintTool):
             # sleep for not update prompt too fast
             time.sleep(0.1)
 
-        def end(self, msg: str = "", *arg, is_success: bool):
+        def done(self, msg: str = "", *arg, is_success: bool):
             assert self._is_running
-            with self._lock:
-                self._msg = self.__log.format(msg, *arg)
+            msg = self.__log.format(msg, *arg)
+            if msg != "":
+                with self._lock:
+                    self._msg = msg
             self._is_running = False
             self._thread.join()
-            self.__log._endTask(self._name, msg, *arg, is_success=is_success)
+            self.__log._endTask(self._name, self._msg, is_success=is_success)
 
     def __init__(self, *args, verbose=False, **kwargs):
         super().__init__(*args, **kwargs)
@@ -239,11 +250,14 @@ class _LogImpl(_PrintTool):
     def warn(self, s: str, *args, flag: int = 0):
         self._oneline(self.__warnForm(s, *args, flag=flag))
 
-    def _taskMsgForm(self, task_name: str, msg: str, *args):
+    def _taskMsgForm(self, task_name: str, timing: float, percent: int, msg: str, *args):
+        percent_str = None if percent == None else self.format(f'{percent:3}%', flag=self.HIGHTLIGHT)
+        timing = self.format('({:.1f} s)', timing, flag=self.VERBOSE)
+        task_name = self.format(task_name, flag=self.IMPORTANT)
         msg = self.format(msg, *args)
-        if msg == "":
-            return task_name
-        return self.format(f'{task_name}: {msg}')
+        if percent_str is None:
+            return self.format(f'{timing} {task_name} | {msg}')
+        return self.format(f'{timing} {percent_str} {task_name} | {msg}')
 
     def createTaskLog(self, task_name: str):
         assert task_name not in self._tasks_map
@@ -253,15 +267,12 @@ class _LogImpl(_PrintTool):
 
     def _endTask(self, task_name: str, receive_msg: str, *args, is_success: bool):
         assert task_name in self._tasks_map
-        thread_args = self._tasks_map[task_name]
-        timing = self.format('({:.1f} s)', thread_args._elapsed, flag=self.VERBOSE)
-        pmt = self._taskMsgForm(task_name, receive_msg, *args)
+        task = self._tasks_map[task_name]
+        pmt = self._taskMsgForm(task_name, task._elapsed, task._percent, receive_msg, *args)
         if is_success:
-            self._printAt(self.__successForm(
-                f'{pmt} {timing}'), y=thread_args._ypos)
+            self._printAt(self.__successForm(pmt), y=task._ypos)
         else:
-            self._printAt(self.__failureForm(
-                f'{pmt} {timing}'), y=thread_args._ypos)
+            self._printAt(self.__failureForm(pmt), y=task._ypos)
         del self._tasks_map[task_name]
 
 
@@ -338,15 +349,15 @@ if __name__ == "__main__":
     cnt1 = 0
     cnt2 = 0
     task1.begin("Running... ({})", cnt1)
-    task2.begin("Running... ({})", cnt2)
+    # task2.begin("Running... ({})", cnt2)
     while not PMT.ask("Stop task1?"):
         cnt1 += 1
         task1.log("Running... ({})", cnt1)
         LOG.verbose("keep task1")
-    task1.end("Stopped", is_success=True)
+    task1.done("Stopped", is_success=True)
 
-    while not PMT.ask("Stop task2?"):
-        cnt2 += 1
-        task2.log("Running... ({})", cnt2)
-        LOG.verbose("keep task2")
-    task2.end("Stopped", is_success=False)
+    # while not PMT.ask("Stop task2?"):
+    #     cnt2 += 1
+    #     task2.log("Running... ({})", cnt2)
+    #     LOG.verbose("keep task2")
+    # task2.end("Stopped", is_success=False)

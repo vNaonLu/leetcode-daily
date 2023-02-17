@@ -3,8 +3,10 @@ import textwrap
 import math
 import regex
 import prompt
+import time
 import subprocess
 from pathlib import Path
+from typing import Callable
 
 SCRIPT_NAME = "LeetCodeDailyTools"
 CAT_SCRIPT_NAME = f"{SCRIPT_NAME}_Cat"
@@ -133,6 +135,66 @@ def clangFormat(src: str):
         return after
 
 
+def readlineFromPipe(proc: subprocess.Popen[str]):
+    out = proc.stdout.readline()
+    return out.replace('\n', '')
+
+
+def parseCMakeGenarateLog(oneline: str):
+    res = oneline.replace('\n', '')[3:]
+    return res[0].lower() + res[1:]
+
+
+def parseBuildLog(oneline: str):
+    # [  0%] Built target gtest
+    res = oneline.replace('\n', '')
+    percent = int(res[1:4].strip())
+    res = res[7:]
+    return percent, res[0].lower() + res[1:]
+
+
+__TEST_FAILED = regex.compile("^\[  FAILED  \] (?P<solution>[\w.]+)$", regex.MULTILINE)
+
+
+def parseFailedTests(text: str):
+    find = __TEST_FAILED.findall(text)
+
+    if find:
+        return set(find)
+    return set([])
+
+
+def parseTestBlock(text: str, target: str):
+    LOG = prompt.Log.getInstance()
+    target = target.replace('.', r'\.')
+    r = regex.compile(f"(?P<block>\[ RUN      \] {target}[\w\W]+\[  FAILED  \] {target} \(\d+ ms\))")
+    LOG.funcVerbose("trying to search with regex: {}", r)
+    m = r.search(text)
+    if m:
+        return m.group("block")
+    LOG.funcVerbose("no target found.")
+    return None
+
+
+def launchSubprocess(cmd: list[str]):
+    LOG = prompt.Log.getInstance()
+    LOG.verbose("run a command: {}", cmd)
+    return subprocess.Popen(cmd, stdout=subprocess.PIPE, stderr=subprocess.PIPE, encoding='utf-8')
+
+
+def asyncStdout(proc: subprocess.Popen[str], callback: Callable):
+    while proc.poll() is None:
+        out = readlineFromPipe(proc)
+        if out != "":
+            callback(out)
+        time.sleep(1/30)
+
+    out = readlineFromPipe(proc)
+    while out != "":
+        callback(out)
+        out = readlineFromPipe(proc)
+
+
 class _ChDir:
     def __init__(self, path) -> None:
         self._path = Path(path).resolve()
@@ -160,7 +222,37 @@ def chDir(path: Path):
     return _ChDir(path)
 
 
+def safeRun(func: Callable, *args, **kwargs):
+    try:
+        func(*args, **kwargs)
+
+    except KeyboardInterrupt:
+        LOG = prompt.Log.getInstance()
+        LOG._clear()
+        LOG.failure("interrupted by user.")
+        import sys
+        import os
+        try:
+            sys.exit(130)
+        except SystemExit:
+            os._exit(130)
+
+
 if __name__ == "__main__":
+
+    import sys, time
+
+    with subprocess.Popen(["cmake", "--build", "build.test"],
+                          stdin=subprocess.PIPE,
+                          stdout=subprocess.PIPE,
+                          stderr=subprocess.PIPE) as proc:
+        while not proc.poll():
+            print(proc.stdout.readline())
+            time.sleep(1)
+        print("out")
+
+
+    sys.exit()
     print("PROJECT_ROOT", str(PROJECT_ROOT))
     print("SRC_ABSOLUTE", str(SRC_ABSOLUTE))
     print("DOCS_ABSOLUTE", str(DOCS_ABSOLUTE))

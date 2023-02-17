@@ -13,8 +13,8 @@ import cli
             help="enable verbose logging."),
     cli.arg("-C", dest="build_path", default=str(BUILD_ABSOLUTE), action="store",
             metavar="[Build_Path]", help="specify the directory to build. Default: './build'."),
-    cli.arg("--args", dest="build_args", default="-j", action="store",
-            metavar="[Build_Args]", type=str, help="specify arguments to build project. Default: '-j'"),
+    cli.arg("--args", dest="build_args", default="-j8", action="store",
+            metavar="[Build_Args]", type=str, help="specify arguments to build project. Default: '-j8'"),
     formatter_class=RawTextHelpFormatter,
     name="build", prog=BUILD_SCRIPT_NAME,
     help=fixedWidth(
@@ -27,7 +27,7 @@ import cli
 )
 def ldtBuild(args):
     LOG = prompt.Log.getInstance(verbose=getattr(args, "verbose"))
-    BUILD_PATH = Path(getattr(args, "build_path"))
+    BUILD_PATH = Path(getattr(args, "build_path")).resolve()
     BUILD_ARGS = str(getattr(args, "build_args"))
 
     LOG.verbose("check whether the directory exists: {}", BUILD_PATH)
@@ -46,28 +46,33 @@ def ldtBuild(args):
         LOG.failure("no sutable build tool found.")
         return 1
 
-    with chDir(BUILD_PATH):
-        CMD = [exec, "--build", "."]
-        build_args = BUILD_ARGS.split()
+    CMD = [exec, "--build", BUILD_PATH]
+    build_args = BUILD_ARGS.split()
 
-        if len(build_args) > 0:
-            CMD += build_args
+    if len(build_args) > 0:
+        CMD += build_args
 
-        LOG.verbose("run a command: {}", CMD)
+    TASK = LOG.createTaskLog("Build Project")
 
-        task = LOG.createTaskLog("Build")
-        task.begin()
-        res = subprocess.run(CMD, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
+    def stdoutCallback(out: str):
+        percent, msg = parseBuildLog(out)
+        TASK.log(msg, percent=percent)
+        LOG.verbose(out)
 
-        if res.returncode != 0:
-            task.end("failed to build in {}.", BUILD_PATH, is_success=False)
-            LOG.print(res.stderr.decode('utf-8'), flag=LOG.VERBOSE)
+    with launchSubprocess(CMD) as proc:
+        TASK.begin()
+        asyncStdout(proc, stdoutCallback)
+
+        if proc.poll() != 0:
+            TASK.done("failed to build in {}.", BUILD_PATH, is_success=False)
+            LOG.print(proc.stderr.read(), flag=LOG.VERBOSE)
             return 1
 
-        task.end("successfully built in {}.",
-                BUILD_PATH, is_success=True)
+        TASK.done("successfully built in {}.", BUILD_PATH, is_success=True)
+
+    return 0
 
 
 
 if __name__ == "__main__":
-    sys.exit(ldtBuild())
+    sys.exit(safeRun(ldtBuild))

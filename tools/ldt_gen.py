@@ -19,9 +19,9 @@ import cli
             help="generate the build file with debug flags."),
     cli.arg("--compile-commands", dest="compile_command", default=False, action="store_true",
             help="generate the compile_commands.json in the build directory."),
-    cli.arg("--disable-leetcode-test", dest="disable_leetcode_test", default=True, action="store_false",
+    cli.arg("--disable-leetcode-test", dest="disable_leetcode_test", default=False, action="store_true",
             help="disable generate the build files for the solutions tests."),
-    cli.arg("--disable-infra-test", dest="disable_infra_test", default=True, action="store_false",
+    cli.arg("--disable-infra-test", dest="disable_infra_test", default=False, action="store_true",
             help="disable generate the build files for the LeetCode structures tests."),
     formatter_class=RawTextHelpFormatter,
     name="gen", prog=GEN_SCRIPT_NAME,
@@ -35,8 +35,8 @@ import cli
 )
 def ldtGen(args):
     LOG = prompt.Log.getInstance(verbose=getattr(args, "verbose"))
-    SRC_PATH = Path(getattr(args, "src_path"))
-    BUILD_PATH = Path(getattr(args, "build_path"))
+    SRC_PATH = Path(getattr(args, "src_path")).resolve()
+    BUILD_PATH = Path(getattr(args, "build_path")).resolve()
     BUILD_FLAG = "Debug" if getattr(args, "debug_mode") else "Release"
     COMPILE_COMMAND_FLAG = "ON" if getattr(args, "compile_command") else "OFF"
     LEETCODE_TEST_FLAG = "OFF" if getattr(args, "disable_leetcode_test") else "ON"
@@ -61,22 +61,27 @@ def ldtGen(args):
         f"-DENABLE_LEETCODE_TEST={LEETCODE_TEST_FLAG}",
         f"-DENABLE_INFRA_TEST={INFRA_TEST_FLAG}",
     ]
-    LOG.verbose("run a command: {}", CMD)
 
-    task = LOG.createTaskLog("Generate Build Files")
-    task.begin()
-    res = subprocess.run(CMD, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
+    TASK = LOG.createTaskLog("Generate Build Files")
 
-    if res.returncode != 0:
-        task.end("failed to generate the build files.", is_success=False)
-        LOG.print(res.stderr.decode('utf-8'), flag=LOG.VERBOSE)
-        return 1
+    def stdoutCallback(out: str):
+        TASK.log(parseCMakeGenarateLog(out))
+        LOG.verbose(out)
 
-    task.end("generated the build files in {}.",
-             BUILD_PATH, is_success=True)
+    with launchSubprocess(CMD) as proc:
+        TASK.begin()
+        asyncStdout(proc, stdoutCallback)
+
+        if proc.poll() != 0:
+            TASK.done("failed to generate the build files.", is_success=False)
+            proc.stderr.seek(0)
+            LOG.print(proc.stderr.read(), flag=LOG.VERBOSE)
+            return 1
+
+        TASK.done(is_success=True)
 
     return 0
 
 
 if __name__ == "__main__":
-    sys.exit(ldtGen())
+    sys.exit(safeRun(ldtGen))
