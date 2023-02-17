@@ -2467,7 +2467,7 @@ id,title,level,slug,paid,done,tc,sc
 2466,Count Ways To Build Good Strings,2,count-ways-to-build-good-strings,0,0,,
 2467,Most Profitable Path in a Tree,2,most-profitable-path-in-a-tree,0,0,,
 2468,Split Message Based on Limit,3,split-message-based-on-limit,0,0,,
-2469,Convert the Temperature,1,convert-the-temperature,0,0,,
+2469,Convert the Temperature,1,convert-the-temperature,0,1,1,1
 2470,Number of Subarrays With LCM Equal to K,2,number-of-subarrays-with-lcm-equal-to-k,0,0,,
 2471,Minimum Number of Operations to Sort a Binary Tree by Level,2,minimum-number-of-operations-to-sort-a-binary-tree-by-level,0,0,,
 2472,Maximum Number of Non-overlapping Palindrome Substrings,3,maximum-number-of-non-overlapping-palindrome-substrings,0,0,,
