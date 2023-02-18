@@ -2533,7 +2533,7 @@ id,title,level,slug,paid,done,tc,sc
 2532,Time to Cross a Bridge,3,time-to-cross-a-bridge,0,0,,
 2533,Number of Good Binary Strings,2,number-of-good-binary-strings,1,0,,
 2534,Time Taken to Cross the Door,3,time-taken-to-cross-the-door,1,0,,
-2535,Difference Between Element Sum and Digit Sum of an Array,1,difference-between-element-sum-and-digit-sum-of-an-array,0,0,,
+2535,Difference Between Element Sum and Digit Sum of an Array,1,difference-between-element-sum-and-digit-sum-of-an-array,0,1,maxDigitCount(nums),1
 2536,Increment Submatrices by One,2,increment-submatrices-by-one,0,0,,
 2537,Count the Number of Good Subarrays,2,count-the-number-of-good-subarrays,0,0,,
 2538,Difference Between Maximum and Minimum Price Sum,3,difference-between-maximum-and-minimum-price-sum,0,0,,
