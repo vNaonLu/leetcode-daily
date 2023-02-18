@@ -9,8 +9,6 @@ import cli
 
 
 @cli.command(
-    cli.arg("-v", "--verbose", dest="verbose", default=False, action="store_true",
-            help="enable verbose logging."),
     cli.arg("-C", dest="build_path", default=str(BUILD_ABSOLUTE), action="store",
             metavar="[Build_Path]",
             help="specify the directory to run executables. Default: './build'."),
@@ -18,6 +16,8 @@ import cli
             help="identifier to build infrastructures instead of solutions."),
     cli.arg("ids", metavar="id", nargs="*", type=int,
             help="question identifiers to run test. run all tests if not specified."),
+    cli.arg("-v", "--verbose", dest="verbose", default=False, action="store_true",
+            help="enable verbose logging."),
     formatter_class=RawTextHelpFormatter,
     name="run", prog=RUN_SCRIPT_NAME,
     help=fixedWidth(
@@ -31,21 +31,21 @@ import cli
 )
 def ldtRun(args):
     LOG = prompt.Log.getInstance(verbose=getattr(args, "verbose"))
-    BUILD_PATH = Path(getattr(args, "build_path")).resolve()
-    INFRA_TEST = getattr(args, "infra_test")
-    IDS = getattr(args, "ids")
+    ARG_BUILD_PATH = Path(getattr(args, "build_path")).resolve()
+    ARG_INFRA_TEST = getattr(args, "infra_test")
+    ARG_IDS = getattr(args, "ids")
 
-    LOG.verbose("check whether the directory exists: {}", BUILD_PATH)
+    LOG.verbose("check whether the directory exists: {}", ARG_BUILD_PATH)
 
-    if not BUILD_PATH.exists():
-        LOG.failure("the directory not found: {}", BUILD_PATH)
+    if not ARG_BUILD_PATH.exists():
+        LOG.failure("the directory not found: {}", ARG_BUILD_PATH)
         return 1
 
-    with chDir(BUILD_PATH):
+    with chDir(ARG_BUILD_PATH):
 
-        executable = BUILD_PATH
+        executable = ARG_BUILD_PATH
 
-        if INFRA_TEST:
+        if ARG_INFRA_TEST:
             LOG.log("run the infrastructure unit tests.")
             executable = executable.joinpath("infra_test")
         else:
@@ -61,11 +61,11 @@ def ldtRun(args):
 
         CMD = [executable]
 
-        if len(IDS) > 0:
-            if INFRA_TEST:
-                LOG.warn("discard the ids specified due to |--infra| enabled: {}", IDS)
+        if len(ARG_IDS) > 0:
+            if ARG_INFRA_TEST:
+                LOG.warn("discard the ids specified due to |--infra| enabled: {}", ARG_IDS)
             else:
-                solutions = [f'q{id}.*' for id in IDS]
+                solutions = [f'q{id}.*' for id in ARG_IDS]
                 filter = "--gtest_filter={}".format(":".join(solutions))
                 CMD.append(filter)
 

@@ -10,11 +10,11 @@ import cli
 
 
 @cli.command(
-    cli.arg("-v", "--verbose", dest="verbose", default=False, action="store_true",
-            help="enable verbose logging."),
     cli.arg("--src", dest="src_path", default=str(SRC_ABSOLUTE), action="store",
             metavar="[Source_Root]", help="specify the source root."),
     cli.arg("id", metavar="id", nargs=1, type=int, help="question identifier to cat."),
+    cli.arg("-v", "--verbose", dest="verbose", default=False, action="store_true",
+            help="enable verbose logging."),
     formatter_class=RawTextHelpFormatter,
     name="cat", prog=CAT_SCRIPT_NAME,
     help=fixedWidth(

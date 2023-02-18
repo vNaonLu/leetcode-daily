@@ -40,6 +40,9 @@ class QuestionDetails:
     def isGood(self):
         return self.id > 0 and self.level > 0 and self.level < 4 and self.title != "" and self.slug != 0
 
+    def levelString(self):
+        return "Hard" if self.level == 3 else ("Medium" if self.level == 2 else "Easy")
+
 
 class QuestionsList:
 
@@ -67,6 +70,9 @@ class QuestionsList:
         if id not in self._id_to_question:
             raise IndexError
         return self._id_to_question[id]
+
+    def __iter__(self):
+        return iter(self._id_to_question.values())
 
     def __len__(self):
         return len(self._id_to_question)

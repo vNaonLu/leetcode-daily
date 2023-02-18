@@ -5,6 +5,7 @@ import os
 sys.dont_write_bytecode = True
 
 from utils import *
+from logs import *
 
 
 class _UnjoinablePath(Path):
@@ -19,6 +20,38 @@ class _UnjoinablePath(Path):
 
     def joinpath(self, *other):
         assert False, f"{self.__class__} should not join path."
+
+
+class ResolvedLogsFile(_UnjoinablePath, ResolveLogsList):
+    def __init__(self, *args):
+        pass
+
+    def __new__(cls, path: Path):
+        obj = _UnjoinablePath.__new__(cls, path)
+        ResolveLogsList.__init__(obj, path)
+        return obj
+
+    def save(self, dest: Path = None):
+        LOG = prompt.Log.getInstance()
+
+        store_path = self._path if dest is None else dest
+
+        if store_path is None:
+            LOG.funcVerbose("refused to save the questions list due to no destination supplied.")
+            return False
+
+        LOG.funcVerbose("start to save {} resolved logs to: {}", len(self),
+                        store_path)
+        with Path(store_path).resolve().open("w") as f:
+            writer = csv.writer(f, delimiter=',')
+            for year, year_logs in self:
+                for month, month_logs in year_logs:
+                    LOG.funcVerbose("saving {} resolved logs in month {}, {}.", len(
+                        month_logs), month, year)
+                    for _, day_logs in month_logs:
+                        writer.writerows(day_logs)
+            LOG.funcVerbose("saved the resolved logs to: {}", store_path)
+            return True
 
 
 class SolutionFile(_UnjoinablePath):
@@ -68,9 +101,17 @@ def getSolutionsList(base: Path):
 
 
 if __name__ == "__main__":
-    qf = SolutionFile(123, SRC_ABSOLUTE)
-    print("id          : ", qf.id())
-    print("source name : ", qf.fileName())
-    print("subdirectory: ", qf.subdirectory())
-    print("path        : ", qf)
-    qf.joinpath()
+    LOG = prompt.Log.getInstance(verbose=True)
+    # qf = SolutionFile(123, SRC_ABSOLUTE)
+    # print("id          : ", qf.id())
+    # print("source name : ", qf.fileName())
+    # print("subdirectory: ", qf.subdirectory())
+    # print("path        : ", qf)
+    rlf = ResolvedLogsFile(path=Path("../src/logs.csv"))
+    for y, yl in rlf:
+        for m, ml in yl:
+            for d, l in ml:
+                print(y, m, d, l)
+    print(len(rlf))
+    rlf.save("./test.csv")
+

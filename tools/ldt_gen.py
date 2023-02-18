@@ -9,8 +9,6 @@ import cli
 
 
 @cli.command(
-    cli.arg("-v", "--verbose", dest="verbose", default=False, action="store_true",
-            help="enable verbose logging."),
     cli.arg("-S", "--src", dest="src_path", default=str(PROJECT_ROOT), action="store",
             metavar="[Project_Root]", help="specify the source directory which contains CMakeLists.txt."),
     cli.arg("-B", "--build", dest="build_path", default=str(BUILD_ABSOLUTE), action="store",
@@ -23,6 +21,8 @@ import cli
             help="disable generate the build files for the solutions tests."),
     cli.arg("--disable-infra-test", dest="disable_infra_test", default=False, action="store_true",
             help="disable generate the build files for the LeetCode structures tests."),
+    cli.arg("-v", "--verbose", dest="verbose", default=False, action="store_true",
+            help="enable verbose logging."),
     formatter_class=RawTextHelpFormatter,
     name="gen", prog=GEN_SCRIPT_NAME,
     help=fixedWidth(
@@ -35,17 +35,17 @@ import cli
 )
 def ldtGen(args):
     LOG = prompt.Log.getInstance(verbose=getattr(args, "verbose"))
-    SRC_PATH = Path(getattr(args, "src_path")).resolve()
-    BUILD_PATH = Path(getattr(args, "build_path")).resolve()
-    BUILD_FLAG = "Debug" if getattr(args, "debug_mode") else "Release"
-    COMPILE_COMMAND_FLAG = "ON" if getattr(args, "compile_command") else "OFF"
-    LEETCODE_TEST_FLAG = "OFF" if getattr(args, "disable_leetcode_test") else "ON"
-    INFRA_TEST_FLAG = "OFF" if getattr(args, "disable_infra_test") else "ON"
+    ARG_SRC_PATH = Path(getattr(args, "src_path")).resolve()
+    ARG_BUILD_PATH = Path(getattr(args, "build_path")).resolve()
+    ARG_BUILD_FLAG = "Debug" if getattr(args, "debug_mode") else "Release"
+    ARG_COMPILE_COMMAND_FLAG = "ON" if getattr(args, "compile_command") else "OFF"
+    ARG_LEETCODE_TEST_FLAG = "OFF" if getattr(args, "disable_leetcode_test") else "ON"
+    ARG_INFRA_TEST_FLAG = "OFF" if getattr(args, "disable_infra_test") else "ON"
     
-    LOG.verbose("checking whether the CMakeLists.txt exists in the directory: {}", SRC_PATH)
+    LOG.verbose("checking whether the CMakeLists.txt exists in the directory: {}", ARG_SRC_PATH)
 
-    if not SRC_PATH.joinpath("CMakeLists.txt").exists():
-        LOG.failure("there is no |CMakeLists.txt| exists in the directory: {}", SRC_PATH)
+    if not ARG_SRC_PATH.joinpath("CMakeLists.txt").exists():
+        LOG.failure("there is no |CMakeLists.txt| exists in the directory: {}", ARG_SRC_PATH)
         return 1
 
     cmake = FindExecutable("cmake")
@@ -55,11 +55,11 @@ def ldtGen(args):
         return 1
 
     CMD = [
-        cmake, "-S", SRC_PATH, "-B", BUILD_PATH,
-        f"-DCMAKE_EXPORT_COMPILE_COMMANDS={COMPILE_COMMAND_FLAG}",
-        f"-DCMAKE_BUILD_TYPE={BUILD_FLAG}",
-        f"-DENABLE_LEETCODE_TEST={LEETCODE_TEST_FLAG}",
-        f"-DENABLE_INFRA_TEST={INFRA_TEST_FLAG}",
+        cmake, "-S", ARG_SRC_PATH, "-B", ARG_BUILD_PATH,
+        f"-DCMAKE_EXPORT_COMPILE_COMMANDS={ARG_COMPILE_COMMAND_FLAG}",
+        f"-DCMAKE_BUILD_TYPE={ARG_BUILD_FLAG}",
+        f"-DENABLE_LEETCODE_TEST={ARG_LEETCODE_TEST_FLAG}",
+        f"-DENABLE_INFRA_TEST={ARG_INFRA_TEST_FLAG}",
     ]
 
     TASK = LOG.createTaskLog("Generate Build Files")

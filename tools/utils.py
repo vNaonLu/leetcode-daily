@@ -7,6 +7,7 @@ import time
 import subprocess
 from pathlib import Path
 from typing import Callable
+from datetime import date
 
 SCRIPT_NAME = "LeetCodeDailyTools"
 CAT_SCRIPT_NAME = f"{SCRIPT_NAME}_Cat"
@@ -19,7 +20,7 @@ UPDATE_SCRIPT_NAME = f"{SCRIPT_NAME}_Update"
 UPDATE_ALL_SCRIPT_NAME = f"{UPDATE_SCRIPT_NAME}_All"
 UPDATE_README_SCRIPT_NAME = f"{UPDATE_SCRIPT_NAME}_Readme"
 UPDATE_QUESTIONS_LIST_SCRIPT_NAME = f"{UPDATE_SCRIPT_NAME}_QuestionsList"
-UPDATE_RESOLVE_DIAGRAMS_SCRIPT_NAME = f"{UPDATE_SCRIPT_NAME}_ResolveStatus"
+UPDATE_RESOLVE_REFERENCE_SCRIPT_NAME = f"{UPDATE_SCRIPT_NAME}_ResolveReference"
 PROJECT_ROOT = Path(__file__).parent.parent.resolve()
 SRC_RELATIVE = Path('./src')
 DOCS_RELATIVE = Path('./docs')
@@ -31,6 +32,8 @@ ASSETS_ABSOLUTE = PROJECT_ROOT.joinpath(ASSETS_RELATIVE).resolve()
 BUILD_ABSOLUTE = PROJECT_ROOT.joinpath(BUILD_RELATIVE).resolve()
 QUESTIONS_LOG_ABSOLUTE = SRC_ABSOLUTE.joinpath("logs.csv")
 QUESTIONS_LIST_ABSOLUTE = SRC_ABSOLUTE.joinpath("questions_list.csv")
+
+TODAY = date.today()
 
 
 def concat(*args, delimiter: str = '\n'):

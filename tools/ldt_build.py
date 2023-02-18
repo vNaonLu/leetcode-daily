@@ -9,12 +9,12 @@ import cli
 
 
 @cli.command(
-    cli.arg("-v", "--verbose", dest="verbose", default=False, action="store_true",
-            help="enable verbose logging."),
     cli.arg("-C", dest="build_path", default=str(BUILD_ABSOLUTE), action="store",
             metavar="[Build_Path]", help="specify the directory to build. Default: './build'."),
     cli.arg("--args", dest="build_args", default="-j8", action="store",
             metavar="[Build_Args]", type=str, help="specify arguments to build project. Default: '-j8'"),
+    cli.arg("-v", "--verbose", dest="verbose", default=False, action="store_true",
+            help="enable verbose logging."),
     formatter_class=RawTextHelpFormatter,
     name="build", prog=BUILD_SCRIPT_NAME,
     help=fixedWidth(
@@ -27,13 +27,13 @@ import cli
 )
 def ldtBuild(args):
     LOG = prompt.Log.getInstance(verbose=getattr(args, "verbose"))
-    BUILD_PATH = Path(getattr(args, "build_path")).resolve()
-    BUILD_ARGS = str(getattr(args, "build_args"))
+    ARG_BUILD_PATH = Path(getattr(args, "build_path")).resolve()
+    ARG_BUILD_ARGS = str(getattr(args, "build_args"))
 
-    LOG.verbose("check whether the directory exists: {}", BUILD_PATH)
+    LOG.verbose("check whether the directory exists: {}", ARG_BUILD_PATH)
 
-    if not BUILD_PATH.exists():
-        LOG.failure("the directory not found: {}", BUILD_PATH)
+    if not ARG_BUILD_PATH.exists():
+        LOG.failure("the directory not found: {}", ARG_BUILD_PATH)
         return 1
 
     exec = FindExecutable("cmake")
@@ -46,8 +46,8 @@ def ldtBuild(args):
         LOG.failure("no sutable build tool found.")
         return 1
 
-    CMD = [exec, "--build", BUILD_PATH]
-    build_args = BUILD_ARGS.split()
+    CMD = [exec, "--build", ARG_BUILD_PATH]
+    build_args = ARG_BUILD_ARGS.split()
 
     if len(build_args) > 0:
         CMD += build_args
@@ -64,11 +64,11 @@ def ldtBuild(args):
         asyncStdout(proc, stdoutCallback)
 
         if proc.poll() != 0:
-            TASK.done("failed to build in {}.", BUILD_PATH, is_success=False)
+            TASK.done("failed to build in {}.", ARG_BUILD_PATH, is_success=False)
             LOG.print(proc.stderr.read(), flag=LOG.VERBOSE)
             return 1
 
-        TASK.done("successfully built in {}.", BUILD_PATH, is_success=True)
+        TASK.done("successfully built in {}.", ARG_BUILD_PATH, is_success=True)
 
     return 0
 
