@@ -1,7 +1,6 @@
 #!/usr/bin/env python3
 from threading import Thread, Lock
 from typing import Callable
-from functools import partial
 import sys
 import inspect
 import time

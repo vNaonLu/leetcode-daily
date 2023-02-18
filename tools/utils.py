@@ -224,7 +224,7 @@ def chDir(path: Path):
 
 def safeRun(func: Callable, *args, **kwargs):
     try:
-        func(*args, **kwargs)
+        return func(*args, **kwargs)
 
     except KeyboardInterrupt:
         LOG = prompt.Log.getInstance()
