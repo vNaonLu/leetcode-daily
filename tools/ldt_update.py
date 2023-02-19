@@ -14,7 +14,7 @@ import cli
 
 
 __CACHED_QUESTIONS_LIST: QuestionsList =  None
-__CACHED_SOLUTIONS_LIST: list[SolutionFile] = None
+__CACHED_SOLUTIONS_LIST: dict[int, SolutionFile] = None
 __CACHED_RESOLVED_LOGS: ResolvedLogsFile = None
 __QUESITONS_LIST_PATH: Path = None
 __SOLUTIONS_LIST_PATH: Path = None
@@ -195,12 +195,14 @@ def __updateQuestionsListImpl(*args, list_path: Path, src_path: Path):
         LOG.failure("refused to update due to invalid questions list.")
         return False
 
-    LOG.log("try to update solved information.")
-    for solution in solutions:
-        detail = questions_list[solution.id()]
-        if not detail.done:
+    LOG.log("try to update question list information.")
+    for detail in questions_list:
+        if detail.done and detail.id not in solutions:
+            detail.done = False
+            LOG.log("updated question id: {}", detail.id)
+        elif not detail.done and detail.id in solutions:
             detail.done = True
-            LOG.log("updated question id: {}", solution.id())
+            LOG.log("updated question id: {}", detail.id)
 
     LOG.verbose("saving the questions list to: ", list_path)
     if not questions_list.save(list_path):

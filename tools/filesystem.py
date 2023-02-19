@@ -88,14 +88,15 @@ class SolutionFile(_UnjoinablePath):
 _FILE_TEMPLATE = regex.compile("q(\d*).cc")
 def getSolutionsList(base: Path):
     LOG = prompt.Log.getInstance()
-    solutions: list[SolutionFile] = []
+    solutions: dict[int, SolutionFile] = {}
     LOG.funcVerbose("start searching the solution files in: {}", base)
     for _, _, files in os.walk(base):
         for f in files:
             find = _FILE_TEMPLATE.match(f)
             if find:
                 LOG.funcVerbose("solution found: {}", f)
-                solutions.append(SolutionFile(int(find.group(1)), base))
+                solution = SolutionFile(int(find.group(1)), base)
+                solutions[solution.id()] = solution
     LOG.funcVerbose("{} solutions found.", len(solutions))
     return solutions
 
