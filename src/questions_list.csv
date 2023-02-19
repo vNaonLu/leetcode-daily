@@ -2483,8 +2483,8 @@ id,title,level,slug,paid,done,tc,sc
 2482,Difference Between Ones and Zeros in Row and Column,2,difference-between-ones-and-zeros-in-row-and-column,0,0,,
 2483,Minimum Penalty for a Shop,2,minimum-penalty-for-a-shop,0,0,,
 2484,Count Palindromic Subsequences,3,count-palindromic-subsequences,0,0,,
-2485,Find the Pivot Integer,1,find-the-pivot-integer,0,0,,
-2486,Append Characters to String to Make Subsequence,2,append-characters-to-string-to-make-subsequence,0,0,,
+2485,Find the Pivot Integer,1,find-the-pivot-integer,0,1,,
+2486,Append Characters to String to Make Subsequence,2,append-characters-to-string-to-make-subsequence,0,0,n,1
 2487,Remove Nodes From Linked List,2,remove-nodes-from-linked-list,0,0,,
 2488,Count Subarrays With Median K,3,count-subarrays-with-median-k,0,0,,
 2489,Number of Substrings With Fixed Ratio,2,number-of-substrings-with-fixed-ratio,1,0,,
