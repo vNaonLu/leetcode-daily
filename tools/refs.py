@@ -544,9 +544,10 @@ class Readme:
             "// ...",
             "```",
             "The approach is always appeared in the `struct` block."
-            " Or you can simply use the script `repo_manager.py` to cat the exist solution via:",
+            " Or you can simply use the script `ldt` to cat the exist solution via:",
             "```sh",
-            "$ repo_manager.py -c <question id>",
+            "# in the project root",
+            "$ ./ldt cat <question id>",
             "```",
             "But the script probably won't work as it is very rough currently.",
         ]
@@ -556,7 +557,7 @@ class Readme:
         res = [
             "## Installation",
             "It is not necessary to build or install this project if you just want specific solutions, but you can still build and run this project. ",
-            "There has a python scripts named `repo_manager.py` in the root, which is a tool to automatically add/delete the solution in this project, generate the solution template or update the readme or log. "
+            "There has a script named `ldt` in the root, which is a tool to automatically add/delete the solution in this project, generate the solution template or update the readme or log. "
             "However the script may too rough to use since I haven't tested it in other environment.",
             "",
             "Before running to build project, please check below dependencies exist in the build environment:",
