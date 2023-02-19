@@ -75,11 +75,11 @@ def ldtRun(args):
             TASK.begin("running the executable: {}", executable)
             result = proc.stdout.read()
             TASK.log("parsing the test logs.")
-            LOG.verbose(result)
+            LOG.verbose(result.replace('\n', '\n    '))
             failed = parseFailedTests(result)
 
             if len(failed) == 0:
-                TASK.done("passed all test.", is_success=True)
+                TASK.done("passed all tests.", is_success=True)
                 return 0
             else:
                 TASK.done("failed on test(s): {}", list(failed), is_success=False)

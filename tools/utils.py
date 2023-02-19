@@ -211,14 +211,14 @@ class _ChDir:
         import os
         assert self._path.exists()
         LOG = prompt.Log.getInstance()
-        LOG.log("change directory to: {}", self._path)
+        LOG.funcVerbose("change directory to: {}", self._path)
         self._origin = os.getcwd()
         os.chdir(self._path)
 
     def __exit__(self, type, value, traceback):
         import os
         LOG = prompt.Log.getInstance()
-        LOG.log("change directory back to: {}", self._origin)
+        LOG.funcVerbose("change directory back to: {}", self._origin)
         os.chdir(self._origin)
 
 
