@@ -1,4 +1,8 @@
 #!/usr/bin/env python3
+import sys
+# prevent generating __pycache__
+sys.dont_write_bytecode = True
+
 import textwrap
 import math
 import regex
@@ -126,7 +130,9 @@ def clangFormat(src: str):
         tmp.write(src.encode('utf-8'))
         tmp.flush()
 
-        CMD = [clang_format, tmp.name]
+        CMD = [clang_format,
+               f"--style=file:{PROJECT_ROOT.joinpath('.clang-format')}",
+               tmp.name]
         LOG.funcVerbose("run a command: {}", CMD)
 
         res = subprocess.run(CMD, stdout=subprocess.PIPE,
@@ -240,36 +246,3 @@ def safeRun(func: Callable, *args, **kwargs):
             sys.exit(130)
         except SystemExit:
             os._exit(130)
-
-
-if __name__ == "__main__":
-
-    import sys, time
-
-    with subprocess.Popen(["cmake", "--build", "build.test"],
-                          stdin=subprocess.PIPE,
-                          stdout=subprocess.PIPE,
-                          stderr=subprocess.PIPE) as proc:
-        while not proc.poll():
-            print(proc.stdout.readline())
-            time.sleep(1)
-        print("out")
-
-
-    sys.exit()
-    print("PROJECT_ROOT", str(PROJECT_ROOT))
-    print("SRC_ABSOLUTE", str(SRC_ABSOLUTE))
-    print("DOCS_ABSOLUTE", str(DOCS_ABSOLUTE))
-    print("ASSETS_ABSOLUTE", str(ASSETS_ABSOLUTE))
-    print()
-    a = fixedWidth(
-        'This page shares my best articles to read on topics like health'
-        ', happiness, creativity, productivity and more. The central question'
-        ' that drives my work is, “How can we live better?” To answer that'
-        ' question, I like to write about science-based ways to solve'
-        ' practical problems.'
-    )
-    print(a)
-
-    with chDir("..") as p:
-        print("i am in ", p)

@@ -590,12 +590,3 @@ class Readme:
             f.write(self._activity() + '\n')
             f.write(self._findSolutions() + '\n')
             f.write(self._installation() + '\n')
-
-if __name__ == "__main__":
-    LOG = prompt.Log.getInstance(verbose=True)
-    qf = QuestionsList("../src/questions_list.csv")
-    log = logs.ResolveLogsList("../src/logs.csv")
-    doc = AnnualResolveDocument(
-        year=2023, year_log=log[2023], questions_list=qf, src_path=Path("../src").resolve())
-    doc.save("test.md")
-    

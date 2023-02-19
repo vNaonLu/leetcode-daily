@@ -73,6 +73,5 @@ def ldtBuild(args):
     return 0
 
 
-
 if __name__ == "__main__":
     sys.exit(safeRun(ldtBuild))

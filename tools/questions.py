@@ -135,9 +135,3 @@ class QuestionsList:
             for d in details:
                 writer.writerow(d.dump())
             return True
-
-
-if __name__ == "__main__":
-    LOG = prompt.Log.getInstance(verbose=True)
-    qf = QuestionsList("../src/questions_list.csv")
-    qf.save("./test.csv")

@@ -130,9 +130,3 @@ def requestQuestionInformation(slug: int, *, timeout: int = 5):
     TASK.done("failed to request ({}): {}",
               __toString(state), URL, is_success=False)
     return state, None
-
-
-if __name__ == "__main__":
-    LOG = prompt.Log.getInstance(verbose=True)
-    print(requestQuestionsList())
-    print(requestQuestionInformation("add-two-numbers"))

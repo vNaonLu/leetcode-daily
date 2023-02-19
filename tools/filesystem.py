@@ -99,20 +99,3 @@ def getSolutionsList(base: Path):
                 solutions[solution.id()] = solution
     LOG.funcVerbose("{} solutions found.", len(solutions))
     return solutions
-
-
-if __name__ == "__main__":
-    LOG = prompt.Log.getInstance(verbose=True)
-    # qf = SolutionFile(123, SRC_ABSOLUTE)
-    # print("id          : ", qf.id())
-    # print("source name : ", qf.fileName())
-    # print("subdirectory: ", qf.subdirectory())
-    # print("path        : ", qf)
-    rlf = ResolveLogsFile(path=Path("../src/logs.csv"))
-    for y, yl in rlf:
-        for m, ml in yl:
-            for d, l in ml:
-                print(y, m, d, l)
-    print(len(rlf))
-    rlf.save("./test.csv")
-

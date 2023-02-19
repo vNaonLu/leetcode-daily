@@ -157,17 +157,3 @@ class ResolveLogsList:
 
     def __len__(self):
         return sum(len(self._logs[y]) for y in self._logs)
-
-if __name__ == "__main__":
-    LOG = prompt.Log.getInstance(verbose=True)
-    lg = ResolveLogsList("../src/logs.csv")
-    d = {'a' : 213, 'b': 12313}
-    for k, v in reversed(d.items()):
-        print (k, v)
-
-    for y, yl in reversed(lg):
-        for m, ml in reversed(yl):
-            for d, l in reversed(ml):
-                print(y, m, d, l)
-    print(len(lg))
-
