@@ -356,22 +356,6 @@ def __checkFile(path: Path):
 
 
 @cli.command(
-    formatter_class=RawTextHelpFormatter,
-    name="update", prog=UPDATE_SCRIPT_NAME,
-    help=fixedWidth(
-        f"update the project documents and diagrams.",
-        width=60
-    ),
-    description=fixedWidth(
-        f'A nested script to request and update the questions list and update the readme and '
-        f'resolve diagrams including activities and progress SVG.'
-    )
-)
-def ldtUpdate(args: object):
-    pass
-
-
-@cli.command(
     cli.arg("--src", dest="src_path", default=str(SRC_ABSOLUTE), action="store",
             metavar="[Source_Root]", help="specify the source root."),
     cli.arg("--list", dest="questions_list_file", default=str(QUESTIONS_LIST_ABSOLUTE), action="store",
@@ -387,17 +371,20 @@ def ldtUpdate(args: object):
     cli.arg("-v", "--verbose", dest="verbose", default=False, action="store_true",
             help="enable verbose logging."),
     formatter_class=RawTextHelpFormatter,
-    parent=ldtUpdate, name="all", prog=UPDATE_ALL_SCRIPT_NAME,
+    required_subcmd=False,
+    name="update", prog=UPDATE_SCRIPT_NAME,
     help=fixedWidth(
-        f"update all things which the project has changed.",
+        f"update the project documents and diagrams.",
         width=60
     ),
     description=fixedWidth(
-        f'A simple script to combine the features |{UPDATE_README_SCRIPT_NAME}|, '
-        f'|{UPDATE_QUESTIONS_LIST_SCRIPT_NAME}| and |{UPDATE_RESOLVE_REFERENCE_SCRIPT_NAME}|.'
+        f'A nested script to request and update the questions list and update the readme and '
+        f'resolve diagrams including activities and progress SVG. Run without subcommand works '
+        f'same as combination of the features |{UPDATE_QUESTIONS_LIST_SCRIPT_NAME}|, '
+        f'|{UPDATE_RESOLVE_REFERENCE_SCRIPT_NAME}| and |{UPDATE_README_SCRIPT_NAME}|.'
     )
 )
-def updateAll(args: object):
+def ldtUpdate(args: object):
     prompt.Log.getInstance(verbose=getattr(args, "verbose"))
     ARG_SRC_PATH = Path(getattr(args, "src_path")).resolve()
     ARG_QUESTIONS_LIST = Path(getattr(args, "questions_list_file")).resolve()
@@ -407,7 +394,7 @@ def updateAll(args: object):
     ARG_README = Path(getattr(args, "readme_path")).resolve()
     if not __checkPath(ARG_ASSETS_PATH) or not __checkPath(ARG_DOCS_PATH) or not __checkPath(ARG_SRC_PATH):
         return 1
-    if not __checkFile(ARG_QUESTIONS_LIST) or not __checkFile(ARG_RESOLVE_LOGS) or not __checkFile(ARG_README):
+    if not __checkFile(ARG_RESOLVE_LOGS) or not __checkFile(ARG_README):
         return 1
     if not __updateQuestionsListImpl(list_path=ARG_QUESTIONS_LIST,
                                      src_path=ARG_SRC_PATH):
