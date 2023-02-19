@@ -47,6 +47,15 @@ class _MonthlyResolvedLogLists:
     def __len__(self):
         return sum(len(self._logs[day]) for day in self._logs)
 
+    def removeById(self, id: int):
+        assert isinstance(id, int)
+        for lgs in self._logs.values():
+            for i in range(len(lgs)):
+                if lgs[i].id == id:
+                    del lgs[i]
+                    return True
+        return False
+
 
 class _YearlyResolvedLogList:
     def __init__(self, year: int) -> None:
@@ -82,6 +91,12 @@ class _YearlyResolvedLogList:
     def __len__(self):
         return sum(len(self._logs[m]) for m in self._logs)
 
+    def removeById(self, id: int):
+        for lgs in self._logs.values():
+            if lgs.removeById(id):
+                return True
+        return False
+
 
 class ResolveLogsList:
     def __init__(self, path: Path) -> None:
@@ -106,6 +121,12 @@ class ResolveLogsList:
                 for d, dl in ml:
                     res += dl
         return res
+
+    def removeById(self, id: int):
+        for lgs in self._logs.values():
+            if lgs.removeById(id):
+                return True
+        return False
 
     def __reversed__(self):
         return reversed(self._logs.items())
