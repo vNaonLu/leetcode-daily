@@ -1,6 +1,6 @@
 # Unsolved Solutions List
 
-There are **1689** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
+There are **1695** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
 
 The questions which have been solved are not shown in this page, more information about solved questions can be found at [docs/solved_solutions.md](./solved_solutions.md).
 
@@ -1515,7 +1515,6 @@ The questions which have been solved are not shown in this page, more informatio
 |2370|[Longest Ideal Subsequence](https://leetcode.com/problems/longest-ideal-subsequence/)|Medium||
 |2371|[Minimize Maximum Value in a Grid](https://leetcode.com/problems/minimize-maximum-value-in-a-grid/)|Hard|🔒|
 |2372|[Calculate the Influence of Each Salesperson](https://leetcode.com/problems/calculate-the-influence-of-each-salesperson/)|Medium|🔒|
-|2373|[Largest Local Values in a Matrix](https://leetcode.com/problems/largest-local-values-in-a-matrix/)|Easy||
 |2374|[Node With Highest Edge Score](https://leetcode.com/problems/node-with-highest-edge-score/)|Medium||
 |2375|[Construct Smallest Number From DI String](https://leetcode.com/problems/construct-smallest-number-from-di-string/)|Medium||
 |2376|[Count Special Integers](https://leetcode.com/problems/count-special-integers/)|Hard||
@@ -1667,7 +1666,6 @@ The questions which have been solved are not shown in this page, more informatio
 |2532|[Time to Cross a Bridge](https://leetcode.com/problems/time-to-cross-a-bridge/)|Hard||
 |2533|[Number of Good Binary Strings](https://leetcode.com/problems/number-of-good-binary-strings/)|Medium|🔒|
 |2534|[Time Taken to Cross the Door](https://leetcode.com/problems/time-taken-to-cross-the-door/)|Hard|🔒|
-|2535|[Difference Between Element Sum and Digit Sum of an Array](https://leetcode.com/problems/difference-between-element-sum-and-digit-sum-of-an-array/)|Easy||
 |2536|[Increment Submatrices by One](https://leetcode.com/problems/increment-submatrices-by-one/)|Medium||
 |2537|[Count the Number of Good Subarrays](https://leetcode.com/problems/count-the-number-of-good-subarrays/)|Medium||
 |2538|[Difference Between Maximum and Minimum Price Sum](https://leetcode.com/problems/difference-between-maximum-and-minimum-price-sum/)|Hard||
@@ -1696,3 +1694,11 @@ The questions which have been solved are not shown in this page, more informatio
 |2563|[Count the Number of Fair Pairs](https://leetcode.com/problems/count-the-number-of-fair-pairs/)|Medium||
 |2564|[Substring XOR Queries](https://leetcode.com/problems/substring-xor-queries/)|Medium||
 |2565|[Subsequence With the Minimum Score](https://leetcode.com/problems/subsequence-with-the-minimum-score/)|Hard||
+|2566|[Maximum Difference by Remapping a Digit](https://leetcode.com/problems/maximum-difference-by-remapping-a-digit/)|Easy||
+|2567|[Minimum Score by Changing Two Elements](https://leetcode.com/problems/minimum-score-by-changing-two-elements/)|Medium||
+|2568|[Minimum Impossible OR](https://leetcode.com/problems/minimum-impossible-or/)|Medium||
+|2569|[Handling Sum Queries After Update](https://leetcode.com/problems/handling-sum-queries-after-update/)|Hard||
+|2570|[Merge Two 2D Arrays by Summing Values](https://leetcode.com/problems/merge-two-2d-arrays-by-summing-values/)|Easy||
+|2571|[Minimum Operations to Reduce an Integer to 0](https://leetcode.com/problems/minimum-operations-to-reduce-an-integer-to-0/)|Easy||
+|2572|[Count the Number of Square-Free Subsets](https://leetcode.com/problems/count-the-number-of-square-free-subsets/)|Medium||
+|2573|[Find the String with LCP](https://leetcode.com/problems/find-the-string-with-lcp/)|Hard||
