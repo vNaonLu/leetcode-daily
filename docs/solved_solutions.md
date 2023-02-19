@@ -1,6 +1,6 @@
 # Solved Solutions List
 
-This document contains **879** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
+This document contains **880** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
 
 Some questions which are still being resolved are not shown in this page, more information about unsolved questions can be found at [docs/unsolved_solutions.md](./unsolved_solutions.md).
 
@@ -130,6 +130,7 @@ Some questions which are still being resolved are not shown in this page, more i
 |122|[Best Time to Buy and Sell Stock II](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/)|[src/q_101_150/q0122.cc](../src/q_101_150/q0122.cc)|2021/10/16 13:35|
 |123|[Best Time to Buy and Sell Stock III](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iii/)|[src/q_101_150/q0123.cc](../src/q_101_150/q0123.cc)|2021/10/16 13:13|
 |124|[Binary Tree Maximum Path Sum](https://leetcode.com/problems/binary-tree-maximum-path-sum/)|[src/q_101_150/q0124.cc](../src/q_101_150/q0124.cc)|2022/02/10 21:05|
+|125|[Valid Palindrome](https://leetcode.com/problems/valid-palindrome/)|[src/q_101_150/q0125.cc](../src/q_101_150/q0125.cc)|2023/02/19 22:53|
 |126|[Word Ladder II](https://leetcode.com/problems/word-ladder-ii/)|[src/q_101_150/q0126.cc](../src/q_101_150/q0126.cc)|2022/08/14 14:35|
 |127|[Word Ladder](https://leetcode.com/problems/word-ladder/)|[src/q_101_150/q0127.cc](../src/q_101_150/q0127.cc)|2022/02/12 16:27|
 |128|[Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence/)|[src/q_101_150/q0128.cc](../src/q_101_150/q0128.cc)|2022/07/05 18:24|
