@@ -9,7 +9,7 @@ from utils import *
 
 class QuestionDetails:
 
-    COL_NAMES = ["id", "title", "level", "slug", "paid", "done", "tc", "sc"]
+    COL_NAMES = ["id", "title", "level", "slug", "paid"]
 
     @staticmethod
     def __parse(csv_row: dict[str, str], name: str, default):
@@ -21,9 +21,6 @@ class QuestionDetails:
         self.level = int(self.__parse(csv_row, "level", -1))
         self.slug = self.__parse(csv_row, "slug", "")
         self.paid = self.__parse(csv_row, "paid", "0") == "1"
-        self.done = self.__parse(csv_row, "done", "0") == "1"
-        self.tc = self.__parse(csv_row, "tc", "")
-        self.sc = self.__parse(csv_row, "sc", "")
 
     def dump(self):
         return {
@@ -32,9 +29,6 @@ class QuestionDetails:
             "level": self.level,
             "slug": self.slug,
             "paid": 1 if self.paid else 0,
-            "done": 1 if self.done else 0,
-            "tc": self.tc,
-            "sc": self.sc
         }
 
     def isGood(self):

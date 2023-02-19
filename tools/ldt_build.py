@@ -51,7 +51,7 @@ def ldtBuild(args):
         LOG.failure("there is no |CMakeLists.txt| exists in the directory: {}", ARG_SRC_PATH)
         return 1
 
-    cmake = FindExecutable("cmake")
+    cmake = findExecutable("cmake")
 
     if not cmake:
         LOG.failure("cmake not found.")

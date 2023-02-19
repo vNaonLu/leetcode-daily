@@ -554,8 +554,8 @@ Some questions which are still being resolved are not shown in this page, more i
 |980|[Unique Paths III](https://leetcode.com/problems/unique-paths-iii/)|[src/q_951_1000/q0980.cc](../src/q_951_1000/q0980.cc)|2021/11/02 18:23|
 |981|[Time Based Key-Value Store](https://leetcode.com/problems/time-based-key-value-store/)|[src/q_951_1000/q0981.cc](../src/q_951_1000/q0981.cc)|2022/07/29 18:41|
 |983|[Minimum Cost For Tickets](https://leetcode.com/problems/minimum-cost-for-tickets/)|[src/q_951_1000/q0983.cc](../src/q_951_1000/q0983.cc)|2022/03/11 18:27|
-|985|[Sum of Even Numbers After Queries](https://leetcode.com/problems/sum-of-even-numbers-after-queries/)|[src/q_951_1000/q0985.cc](../src/q_951_1000/q0985.cc)|2021/09/22 08:00|
 |985|[Sum of Even Numbers After Queries](https://leetcode.com/problems/sum-of-even-numbers-after-queries/)|[src/q_951_1000/q0985.cc](../src/q_951_1000/q0985.cc)|2022/09/21 22:10|
+|986|[Interval List Intersections](https://leetcode.com/problems/interval-list-intersections/)|[src/q_951_1000/q0986.cc](../src/q_951_1000/q0986.cc)|2021/09/22 08:00|
 |987|[Vertical Order Traversal of a Binary Tree](https://leetcode.com/problems/vertical-order-traversal-of-a-binary-tree/)|[src/q_951_1000/q0987.cc](../src/q_951_1000/q0987.cc)|2022/09/04 15:59|
 |989|[Add to Array-Form of Integer](https://leetcode.com/problems/add-to-array-form-of-integer/)|[src/q_951_1000/q0989.cc](../src/q_951_1000/q0989.cc)|2022/04/30 10:30|
 |990|[Satisfiability of Equality Equations](https://leetcode.com/problems/satisfiability-of-equality-equations/)|[src/q_951_1000/q0990.cc](../src/q_951_1000/q0990.cc)|2022/09/26 17:37|

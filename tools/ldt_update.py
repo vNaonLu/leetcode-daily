@@ -174,6 +174,7 @@ def __updateQuestionsListImpl(*args, list_path: Path, src_path: Path):
         try_cnt += 1
 
     if raw_list == None or len(questions_list) == len(raw_list):
+        # TODO: update new questions list from LeetCode since the details change is possible.
         LOG.log("no new question found, skipped updating question list.")
     else:
         raw_list.sort(key=lambda q: q['stat']['frontend_question_id'])
@@ -194,15 +195,6 @@ def __updateQuestionsListImpl(*args, list_path: Path, src_path: Path):
     if not questions_list.isGood():
         LOG.failure("refused to update due to invalid questions list.")
         return False
-
-    LOG.log("try to update question list information.")
-    for detail in questions_list:
-        if detail.done and detail.id not in solutions:
-            detail.done = False
-            LOG.log("updated question id: {}", detail.id)
-        elif not detail.done and detail.id in solutions:
-            detail.done = True
-            LOG.log("updated question id: {}", detail.id)
 
     LOG.verbose("saving the questions list to: ", list_path)
     if not questions_list.save(list_path):
@@ -228,24 +220,28 @@ def __updateResolveReferenceImpl(*args, docs_path: Path, assets_path: Path, src_
 
     cnt_by_level = [0, 0, 0]
     cnt_solved_by_level = [0, 0, 0]
-    unsolved_list = []
-    for detail in questions_list:
-        if not detail.paid:
-            cnt_by_level[detail.level - 1] += 1
-        if detail.done:
-            cnt_solved_by_level[detail.level - 1] += 1
-        else:
-            unsolved_list.append(detail)
-    LOG.log("loaded {} free questions with {} easy, {} medium and {} hard.",
-            LOG.format(sum(cnt_by_level), flag=LOG.HIGHTLIGHT),
-            LOG.format(cnt_by_level[0], flag=LOG.HIGHTLIGHT),
-            LOG.format(cnt_by_level[1], flag=LOG.HIGHTLIGHT),
-            LOG.format(cnt_by_level[2], flag=LOG.HIGHTLIGHT))
+    unsolved_details: dict[int, QuestionDetails] = {}
 
     resolve_logs = __getResolvedLogsList(log_path)
     LOG.log("loaded {} resolved logs from: {}",
             LOG.format(len(resolve_logs), flag=LOG.HIGHTLIGHT),
             LOG.format(log_path, flag=LOG.HIGHTLIGHT))
+
+    for detail in questions_list:
+        unsolved_details[detail.id] = detail
+        if not detail.paid:
+            cnt_by_level[detail.level - 1] += 1
+
+    for resolve_log in resolve_logs.data():
+        detail = questions_list[resolve_log.id]
+        cnt_solved_by_level[detail.level - 1] += 1
+        del unsolved_details[detail.id]
+
+    LOG.log("loaded {} free questions with {} easy, {} medium and {} hard.",
+            LOG.format(sum(cnt_by_level), flag=LOG.HIGHTLIGHT),
+            LOG.format(cnt_by_level[0], flag=LOG.HIGHTLIGHT),
+            LOG.format(cnt_by_level[1], flag=LOG.HIGHTLIGHT),
+            LOG.format(cnt_by_level[2], flag=LOG.HIGHTLIGHT))
 
     LOG.verbose("update annual resolved references.")
     for y, year_logs in resolve_logs:
@@ -295,7 +291,7 @@ def __updateResolveReferenceImpl(*args, docs_path: Path, assets_path: Path, src_
         questions_list=questions_list,
         resolve_logs=resolve_logs.data(),
         src_path="../src")
-    unsolved_doc = UnsolvedDocument(unsolved_details=unsolved_list)
+    unsolved_doc = UnsolvedDocument(unsolved_details=unsolved_details.values())
 
     problem_resolve_progress.save(problem_resolve_progress_name)
     LOG.success("saved the problems resolve progress: {}",

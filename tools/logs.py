@@ -11,15 +11,18 @@ from utils import *
 
 
 class ResolveLog:
-    def __init__(self, csv_row: dict[str, str]) -> None:
+    def __init__(self, csv_row: list[str]) -> None:
+        assert len(csv_row) == 4
         self.timestamp = int(csv_row[0])
         self.id = int(csv_row[1])
+        self.tc = csv_row[2]
+        self.sc = csv_row[3]
         self.year = int(time.strftime("%Y", time.localtime(self.timestamp)))
         self.month = int(time.strftime("%m", time.localtime(self.timestamp)))
         self.day = int(time.strftime("%d", time.localtime(self.timestamp)))
 
     def __iter__(self):
-        return iter([self.timestamp, self.id])
+        return iter([self.timestamp, self.id, self.tc, self.sc])
 
 
 class _MonthlyResolvedLogLists:

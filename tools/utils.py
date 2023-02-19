@@ -1,17 +1,18 @@
 #!/usr/bin/env python3
 import sys
-# prevent generating __pycache__
-sys.dont_write_bytecode = True
-
+import os
 import textwrap
 import math
 import regex
-import prompt
 import time
 import subprocess
 from pathlib import Path
 from typing import Callable
 from datetime import date
+# prevent generating __pycache__
+sys.dont_write_bytecode = True
+
+import prompt
 
 SCRIPT_NAME = "LeetCodeDailyTools"
 CAT_SCRIPT_NAME = f"{SCRIPT_NAME}_Cat"
@@ -105,7 +106,7 @@ def parseSolution(src: str):
     return None
 
 
-def FindExecutable(name: str):
+def findExecutable(name: str):
     from shutil import which
     LOG = prompt.Log.getInstance()
     LOG.funcVerbose(f"trying to find |{name}| executable.")
@@ -122,7 +123,7 @@ def clangFormat(src: str):
     import tempfile
     LOG = prompt.Log.getInstance()
     LOG.funcVerbose("trying to search |clang-format| executable.")
-    clang_format = FindExecutable("clang-format")
+    clang_format = findExecutable("clang-format")
     if not clang_format:
         return src
     with tempfile.NamedTemporaryFile(suffix=".tmp") as tmp:
@@ -143,6 +144,26 @@ def clangFormat(src: str):
         LOG.funcVerbose("command ran successfully.")
         after = res.stdout.decode('utf-8')
         return after
+
+
+def inputByEditor(init_msg: str):
+    import tempfile
+    LOG = prompt.Log.getInstance()
+    EDITOR = os.environ.get("EDITOR", findExecutable("vim"))
+
+    with tempfile.NamedTemporaryFile(suffix=".tmp") as tmp:
+        LOG.funcVerbose("opened a temporary file and writing source in: {}", tmp.name)
+        tmp.write(init_msg.encode('utf-8'))
+        tmp.flush()
+
+        CMD = [EDITOR, "+set backupcopy=yes", tmp.name]
+        LOG.funcVerbose("run a command: {}", CMD)
+        subprocess.call(CMD)
+
+        tmp.seek(0)
+        msg = tmp.read().decode('utf-8')
+        LOG.funcVerbose("got message: {}", msg)
+        return msg
 
 
 def readlineFromPipe(proc: subprocess.Popen[str]):
