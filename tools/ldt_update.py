@@ -221,7 +221,8 @@ def __updateResolveReferenceImpl(*args, docs_path: Path, assets_path: Path, src_
     questions_list = __getQuestionsList(list_path)
     if not questions_list:
         return 1
-    LOG.log("loaded questions list from: {}", LOG.format(list_path, flag=LOG.HIGHTLIGHT))
+    LOG.log("loaded questions list from: {}",
+            LOG.format(list_path, flag=LOG.HIGHTLIGHT))
 
     cnt_by_level = [0, 0, 0]
     cnt_solved_by_level = [0, 0, 0]
@@ -253,7 +254,8 @@ def __updateResolveReferenceImpl(*args, docs_path: Path, assets_path: Path, src_
         annual_logs = __flatAnnualLogs(year_logs)
         chart = ActivityChart(light_title="Activity",
                               orange_title="",
-                              begin_time=calendar.timegm(date(y, 1, 1).timetuple()),
+                              begin_time=calendar.timegm(
+                                  date(y, 1, 1).timetuple()),
                               solved_array=__logListToCntList(annual_logs))
         chart.save(chart_file)
         LOG.success("saved {} annual activity chart: {}",
@@ -285,7 +287,8 @@ def __updateResolveReferenceImpl(*args, docs_path: Path, assets_path: Path, src_
     problem_resolve_progress_name = assets_path.joinpath("progress.svg")
     solved_doc_name = docs_path.joinpath("solved_solutions.md")
     unsolved_doc_name = docs_path.joinpath("unsolved_solutions.md")
-    problem_resolve_progress = ProblemResolveProgress(cnt_solved_by_level, cnt_by_level)
+    problem_resolve_progress = ProblemResolveProgress(
+        cnt_solved_by_level, cnt_by_level)
     solved_doc = SolvedDocument(
         questions_list=questions_list,
         resolve_logs=resolve_logs.data(),
@@ -302,6 +305,24 @@ def __updateResolveReferenceImpl(*args, docs_path: Path, assets_path: Path, src_
     LOG.success("saved the unsolved document: {}",
                 LOG.format(unsolved_doc_name, flag=LOG.HIGHTLIGHT))
 
+
+def __updateReadmeDocument(*, questions_list: Path, logs_path: Path, assets_path: Path, docs_path: Path, readme_path: Path):
+    assert docs_path.exists() and docs_path.is_dir()
+    assert assets_path.exists() and assets_path.is_dir()
+    assert questions_list.exists() and questions_list.is_file()
+    assert logs_path.exists() and logs_path.is_file()
+    LOG = prompt.Log.getInstance()
+
+    resolve_logs = __getResolvedLogsList(logs_path)
+    LOG.log("loaded {} resolved logs from: {}",
+            LOG.format(len(resolve_logs), flag=LOG.HIGHTLIGHT),
+            LOG.format(logs_path, flag=LOG.HIGHTLIGHT))
+
+    README = Readme(docs_path=docs_path, assets_path=assets_path,
+                    resolve_logs=resolve_logs)
+    README.save(readme_path)
+    LOG.success("saved the readme: {}",
+                LOG.format(readme_path, flag=LOG.HIGHTLIGHT))
 
 
 def __checkPath(path: Path):
@@ -383,7 +404,8 @@ def updateAll(args: object):
             nargs=1, metavar="[Assets_path]", help="specify the directory to load resolve status."),
     cli.arg("--docs", dest="docs_path", default=str(DOCS_ABSOLUTE), action="store",
             nargs=1, metavar="[Docs_path]", help="specify the directory to load documents."),
-    cli.arg("readme_path", metavar="Target", nargs=1, type=str, help="target file to update."),
+    cli.arg("readme_path", metavar="Target", nargs="?", default=[str(README_ABSOLUTE)],
+            type=str, help="target file to update."),
     cli.arg("-v", "--verbose", dest="verbose", default=False, action="store_true",
             help="enable verbose logging."),
     formatter_class=RawTextHelpFormatter,
@@ -392,7 +414,23 @@ def updateAll(args: object):
     description=fixedWidth('Update the readme document.')
 )
 def updateReadme(args: object):
-    pass
+    prompt.Log.getInstance(verbose=getattr(args, "verbose"))
+    ARG_QUESTIONS_LIST = Path(getattr(args, "questions_list_file")).resolve()
+    ARG_RESOLVE_LOGS = Path(getattr(args, "questions_log_file")).resolve()
+    ARG_ASSETS_PATH = Path(getattr(args, "assets_path")).resolve()
+    ARG_DOCS_PATH = Path(getattr(args, "docs_path")).resolve()
+    ARG_README = Path(getattr(args, "readme_path")[0]).resolve()
+    if not __checkPath(ARG_ASSETS_PATH) or not __checkPath(ARG_DOCS_PATH):
+        return 1
+    if not __checkFile(ARG_QUESTIONS_LIST) or not __checkFile(ARG_RESOLVE_LOGS):
+        return 1
+    return __updateReadmeDocument(
+        questions_list=ARG_QUESTIONS_LIST,
+        logs_path=ARG_RESOLVE_LOGS,
+        assets_path=ARG_ASSETS_PATH,
+        docs_path=ARG_DOCS_PATH,
+        readme_path=ARG_README
+    )
 
 
 @cli.command(
@@ -415,7 +453,7 @@ def updateQuestionsList(args: object):
     ARG_SRC_PATH = Path(getattr(args, "src_path")).resolve()
     ARG_QUESTIONS_LIST = Path(getattr(args, "questions_list")[0]).resolve()
     if not __checkPath(ARG_SRC_PATH):
-        return False
+        return 1
     return __updateQuestionsListImpl(list_path=ARG_QUESTIONS_LIST,
                                      src_path=ARG_SRC_PATH)
 
