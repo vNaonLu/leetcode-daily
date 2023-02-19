@@ -1,6 +1,10 @@
 # Unsolved Solutions List
 
+<<<<<<< HEAD
 There are **1695** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
+=======
+There are **1699** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
+>>>>>>> 2031cb1 (implments update all feature.)
 
 The questions which have been solved are not shown in this page, more information about solved questions can be found at [docs/solved_solutions.md](./solved_solutions.md).
 
@@ -1699,6 +1703,6 @@ The questions which have been solved are not shown in this page, more informatio
 |2568|[Minimum Impossible OR](https://leetcode.com/problems/minimum-impossible-or/)|Medium||
 |2569|[Handling Sum Queries After Update](https://leetcode.com/problems/handling-sum-queries-after-update/)|Hard||
 |2570|[Merge Two 2D Arrays by Summing Values](https://leetcode.com/problems/merge-two-2d-arrays-by-summing-values/)|Easy||
-|2571|[Minimum Operations to Reduce an Integer to 0](https://leetcode.com/problems/minimum-operations-to-reduce-an-integer-to-0/)|Easy||
+|2571|[Minimum Operations to Reduce an Integer to 0](https://leetcode.com/problems/minimum-operations-to-reduce-an-integer-to-0/)|Medium||
 |2572|[Count the Number of Square-Free Subsets](https://leetcode.com/problems/count-the-number-of-square-free-subsets/)|Medium||
 |2573|[Find the String with LCP](https://leetcode.com/problems/find-the-string-with-lcp/)|Hard||

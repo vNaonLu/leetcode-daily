@@ -148,7 +148,7 @@ def __updateQuestionsListImpl(*args, list_path: Path, src_path: Path):
     else:
         questions_list = __getQuestionsList(list_path)
         if not questions_list:
-            return 1
+            return False
         LOG.log("loaded questions list from: {}", LOG.format(list_path, flag=LOG.HIGHTLIGHT))
 
     raw_list: list[object] = None
@@ -193,7 +193,7 @@ def __updateQuestionsListImpl(*args, list_path: Path, src_path: Path):
 
     if not questions_list.isGood():
         LOG.failure("refused to update due to invalid questions list.")
-        return 1
+        return False
 
     LOG.log("try to update solved information.")
     for solution in solutions:
@@ -205,9 +205,9 @@ def __updateQuestionsListImpl(*args, list_path: Path, src_path: Path):
     LOG.verbose("saving the questions list to: ", list_path)
     if not questions_list.save(list_path):
         LOG.failure("failed to save the question list.")
-        return 1
+        return False
     LOG.success("saved the question list: {}", LOG.format(list_path, flag=LOG.HIGHTLIGHT))
-    return 0
+    return True
 
 
 def __updateResolveReferenceImpl(*args, docs_path: Path, assets_path: Path, src_path: Path, list_path: Path, log_path: Path):
@@ -220,7 +220,7 @@ def __updateResolveReferenceImpl(*args, docs_path: Path, assets_path: Path, src_
 
     questions_list = __getQuestionsList(list_path)
     if not questions_list:
-        return 1
+        return False
     LOG.log("loaded questions list from: {}",
             LOG.format(list_path, flag=LOG.HIGHTLIGHT))
 
@@ -304,6 +304,7 @@ def __updateResolveReferenceImpl(*args, docs_path: Path, assets_path: Path, src_
     unsolved_doc.save(unsolved_doc_name)
     LOG.success("saved the unsolved document: {}",
                 LOG.format(unsolved_doc_name, flag=LOG.HIGHTLIGHT))
+    return True
 
 
 def __updateReadmeDocument(*, questions_list: Path, logs_path: Path, assets_path: Path, docs_path: Path, readme_path: Path):
@@ -323,6 +324,7 @@ def __updateReadmeDocument(*, questions_list: Path, logs_path: Path, assets_path
     README.save(readme_path)
     LOG.success("saved the readme: {}",
                 LOG.format(readme_path, flag=LOG.HIGHTLIGHT))
+    return True
 
 
 def __checkPath(path: Path):
@@ -377,7 +379,9 @@ def ldtUpdate(args: object):
     cli.arg("--assets", dest="assets_path", default=str(ASSETS_ABSOLUTE), action="store",
             nargs=1, metavar="[Assets_path]", help="specify the directory to save created assets."),
     cli.arg("--docs", dest="docs_path", default=str(DOCS_ABSOLUTE), action="store",
-            nargs=1, metavar="[Docs_path]", help="specify the directory to save created documents."),
+            metavar="[Docs_path]", help="specify the directory to save created documents."),
+    cli.arg("--readme", dest="readme_path", default=str(README_ABSOLUTE), action="store",
+            metavar="[Docs_path]", help="specify the file to save readme."),
     cli.arg("-v", "--verbose", dest="verbose", default=False, action="store_true",
             help="enable verbose logging."),
     formatter_class=RawTextHelpFormatter,
@@ -392,7 +396,33 @@ def ldtUpdate(args: object):
     )
 )
 def updateAll(args: object):
-    pass
+    prompt.Log.getInstance(verbose=getattr(args, "verbose"))
+    ARG_SRC_PATH = Path(getattr(args, "src_path")).resolve()
+    ARG_QUESTIONS_LIST = Path(getattr(args, "questions_list_file")).resolve()
+    ARG_RESOLVE_LOGS = Path(getattr(args, "questions_log_file")).resolve()
+    ARG_ASSETS_PATH = Path(getattr(args, "assets_path")).resolve()
+    ARG_DOCS_PATH = Path(getattr(args, "docs_path")).resolve()
+    ARG_README = Path(getattr(args, "readme_path")).resolve()
+    if not __checkPath(ARG_ASSETS_PATH) or not __checkPath(ARG_DOCS_PATH) or not __checkPath(ARG_SRC_PATH):
+        return 1
+    if not __checkFile(ARG_QUESTIONS_LIST) or not __checkFile(ARG_RESOLVE_LOGS) or not __checkFile(ARG_README):
+        return 1
+    if not __updateQuestionsListImpl(list_path=ARG_QUESTIONS_LIST,
+                                     src_path=ARG_SRC_PATH):
+        return 1
+    if not __updateResolveReferenceImpl(list_path=ARG_QUESTIONS_LIST,
+                                        log_path=ARG_RESOLVE_LOGS,
+                                        docs_path=ARG_DOCS_PATH,
+                                        assets_path=ARG_ASSETS_PATH,
+                                        src_path=ARG_SRC_PATH):
+        return 1
+    if not __updateReadmeDocument(questions_list=ARG_QUESTIONS_LIST,
+                                  logs_path=ARG_RESOLVE_LOGS,
+                                  assets_path=ARG_ASSETS_PATH,
+                                  docs_path=ARG_DOCS_PATH,
+                                  readme_path=ARG_README):
+        return 1
+    return 0
 
 
 @cli.command(
@@ -424,13 +454,12 @@ def updateReadme(args: object):
         return 1
     if not __checkFile(ARG_QUESTIONS_LIST) or not __checkFile(ARG_RESOLVE_LOGS):
         return 1
-    return __updateReadmeDocument(
-        questions_list=ARG_QUESTIONS_LIST,
-        logs_path=ARG_RESOLVE_LOGS,
-        assets_path=ARG_ASSETS_PATH,
-        docs_path=ARG_DOCS_PATH,
-        readme_path=ARG_README
-    )
+    return 0 if __updateReadmeDocument(questions_list=ARG_QUESTIONS_LIST,
+                                       logs_path=ARG_RESOLVE_LOGS,
+                                       assets_path=ARG_ASSETS_PATH,
+                                       docs_path=ARG_DOCS_PATH,
+                                       readme_path=ARG_README
+                                       ) else 1
 
 
 @cli.command(
@@ -454,8 +483,9 @@ def updateQuestionsList(args: object):
     ARG_QUESTIONS_LIST = Path(getattr(args, "questions_list")[0]).resolve()
     if not __checkPath(ARG_SRC_PATH):
         return 1
-    return __updateQuestionsListImpl(list_path=ARG_QUESTIONS_LIST,
-                                     src_path=ARG_SRC_PATH)
+    return 0 if __updateQuestionsListImpl(list_path=ARG_QUESTIONS_LIST,
+                                          src_path=ARG_SRC_PATH
+                                          ) else 1
 
 
 @cli.command(
@@ -487,11 +517,12 @@ def updateResolveReference(args: object):
         return False
     if not __checkPath(ARG_DOCS_PATH) or not __checkPath(ARG_ASSETS_PATH) or not __checkPath(ARG_SRC_PATH):
         return False
-    return __updateResolveReferenceImpl(list_path=ARG_QUESTIONS_LIST_PATH,
-                                        log_path=ARG_RESOLVE_LOGS_PATH,
-                                        docs_path=ARG_DOCS_PATH,
-                                        assets_path=ARG_ASSETS_PATH,
-                                        src_path=ARG_SRC_PATH)
+    return 0 if __updateResolveReferenceImpl(list_path=ARG_QUESTIONS_LIST_PATH,
+                                             log_path=ARG_RESOLVE_LOGS_PATH,
+                                             docs_path=ARG_DOCS_PATH,
+                                             assets_path=ARG_ASSETS_PATH,
+                                             src_path=ARG_SRC_PATH
+                                             ) else 1
 
 
 if __name__ == "__main__":

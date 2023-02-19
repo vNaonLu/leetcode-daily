@@ -6,7 +6,6 @@ This repository collects some of my LeetCode solutions for **free** questions si
 
 Here is my [LeetCode account](https://leetcode.com/naon/) if you are interested.
 
-
 ## Getting Started
 
 See [Activity](#activity) to check the recent solution resolution status, including the historical statistics and the recent submissions.
@@ -77,3 +76,4 @@ $ cmake --build build
 # Run the leetcode test by GTest interface.
 $ ./build/leetcode_test
 ```
+
