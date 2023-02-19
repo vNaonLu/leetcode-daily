@@ -43,13 +43,15 @@ class ResolveLogsFile(_UnjoinablePath, ResolveLogsList):
         LOG.funcVerbose("start to save {} resolved logs to: {}", len(self),
                         store_path)
         with Path(store_path).resolve().open("w") as f:
-            writer = csv.writer(f, delimiter=',')
+            writer = csv.DictWriter(
+                f, fieldnames=ResolveLog.COL_NAMES, delimiter=',')
+            writer.writeheader()
             for year, year_logs in self:
                 for month, month_logs in year_logs:
-                    LOG.funcVerbose("saving {} resolved logs in month {}, {}.", len(
-                        month_logs), month, year)
+                    LOG.funcVerbose("saving {} resolved logs in month {}, {}.",
+                                    len(month_logs), month, year)
                     for _, day_logs in month_logs:
-                        writer.writerows(day_logs)
+                        writer.writerows([lg.toObject() for lg in day_logs])
             LOG.funcVerbose("saved the resolved logs to: {}", store_path)
             return True
 
@@ -84,8 +86,9 @@ class SolutionFile(_UnjoinablePath):
         return self._id
 
 
-
 _FILE_TEMPLATE = regex.compile("q(\d*).cc")
+
+
 def getSolutionsList(base: Path):
     LOG = prompt.Log.getInstance()
     solutions: dict[int, SolutionFile] = {}

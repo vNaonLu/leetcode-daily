@@ -11,18 +11,26 @@ from utils import *
 
 
 class ResolveLog:
+
+    COL_NAMES = ["timestamp", "id", "tc", "sc", "notes"]
+
     def __init__(self, csv_row: list[str]) -> None:
-        assert len(csv_row) == 4
-        self.timestamp = int(csv_row[0])
-        self.id = int(csv_row[1])
-        self.tc = csv_row[2]
-        self.sc = csv_row[3]
+        assert len(csv_row) == 5
+        self.timestamp = int(csv_row["timestamp"])
+        self.id = int(csv_row["id"])
+        self.tc = csv_row["tc"]
+        self.sc = csv_row["sc"]
+        self.notes = csv_row["notes"]
         self.year = int(time.strftime("%Y", time.localtime(self.timestamp)))
         self.month = int(time.strftime("%m", time.localtime(self.timestamp)))
         self.day = int(time.strftime("%d", time.localtime(self.timestamp)))
 
-    def __iter__(self):
-        return iter([self.timestamp, self.id, self.tc, self.sc])
+    def toObject(self):
+        return {"timestamp": str(self.timestamp),
+                "id": str(self.id),
+                "tc": self.tc,
+                "sc": self.sc,
+                "notes": self.notes}
 
 
 class _MonthlyResolvedLogLists:
@@ -117,7 +125,7 @@ class ResolveLogsList:
         LOG = prompt.Log.getInstance()
         LOG.funcVerbose("trying to parse log file: {}", self._path)
         with self._path.open("r") as f:
-            for row in csv.reader(f, delimiter=','):
+            for row in csv.DictReader(f, delimiter=','):
                 log = ResolveLog(row)
                 if  log.year not in self._logs:
                     LOG.funcVerbose("create yearly resolved logs for year {}", log.year)
