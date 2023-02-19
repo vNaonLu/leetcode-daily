@@ -31,11 +31,10 @@ def ldtMain(args: object):
     LOG.verbose("[arguments end]")
 
 from ldt_cat import *
-from ldt_gen import *
 from ldt_run import *
 from ldt_build import *
 from ldt_add import *
 from ldt_remove import *
 from ldt_update import *
 
-safeRun(ldtMain)
+sys.exit(safeRun(ldtMain))
