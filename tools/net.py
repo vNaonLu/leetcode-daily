@@ -81,7 +81,58 @@ def requestQuestionsList(timeout: int = 5):
     return state, None
 
 
+def requestQuestionInformation(slug: int, *, timeout: int = 5):
+    import json
+    LOG = prompt.Log.getInstance()
+    param = {
+        'operationName': "getQuestionDetail",
+        'variables': {'titleSlug': slug},
+        'query': '''query getQuestionDetail($titleSlug: String!) {
+            question(titleSlug: $titleSlug) {
+                questionFrontendId
+                questionTitle
+                content
+                difficulty
+                titleSlug
+                codeSnippets {
+                    lang
+                    langSlug
+                    code
+                    __typename
+                }
+            }
+        }'''}
+
+    URL = _LEETCODE_GRAPHQL_API_URL
+    HEADERS = {
+        'User-Agent': _USER_AGENT,
+        'Connection': 'keep-alive',
+        'Content-Type': 'application/json',
+        'Referer': 'https://leetcode.com/problems/' + slug
+    }
+
+    LOG.funcVerbose("request URL    : {}", URL)
+    LOG.funcVerbose("request headers: {}", HEADERS)
+    LOG.funcVerbose("timeout        : {}", timeout)
+
+    TASK = LOG.createTaskLog("Request Questions Infomation")
+    TASK.begin("requesting to: {}", URL)
+    state, resp = _safeRequest(
+        partial(requests.Session().post,
+                URL,
+                headers=HEADERS, timeout=timeout, data=json.dumps(param).encode('utf-8')))
+    LOG.funcVerbose("request finished: {}", state)
+
+    if state == REQUEST_OK:
+        TASK.done("successfully requested from: {}", URL, is_success=True)
+        return state, resp
+
+    TASK.done("failed to request ({}): {}",
+              __toString(state), URL, is_success=False)
+    return state, None
+
+
 if __name__ == "__main__":
     LOG = prompt.Log.getInstance(verbose=True)
     print(requestQuestionsList())
-    print(requestQuestionsList())
+    print(requestQuestionInformation("add-two-numbers"))

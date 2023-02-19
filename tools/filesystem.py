@@ -22,7 +22,7 @@ class _UnjoinablePath(Path):
         assert False, f"{self.__class__} should not join path."
 
 
-class ResolvedLogsFile(_UnjoinablePath, ResolveLogsList):
+class ResolveLogsFile(_UnjoinablePath, ResolveLogsList):
     def __init__(self, *args):
         pass
 
@@ -108,7 +108,7 @@ if __name__ == "__main__":
     # print("source name : ", qf.fileName())
     # print("subdirectory: ", qf.subdirectory())
     # print("path        : ", qf)
-    rlf = ResolvedLogsFile(path=Path("../src/logs.csv"))
+    rlf = ResolveLogsFile(path=Path("../src/logs.csv"))
     for y, yl in rlf:
         for m, ml in yl:
             for d, l in ml:

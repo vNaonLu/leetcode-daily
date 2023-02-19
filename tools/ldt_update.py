@@ -14,8 +14,8 @@ import cli
 
 
 __CACHED_QUESTIONS_LIST: QuestionsList =  None
-__CACHED_SOLUTIONS_LIST: dict[int, SolutionFile] = None
-__CACHED_RESOLVED_LOGS: ResolvedLogsFile = None
+__CACHED_SOLUTIONS_LIST: dict[SolutionFile] = None
+__CACHED_RESOLVED_LOGS: ResolveLogsFile = None
 __QUESITONS_LIST_PATH: Path = None
 __SOLUTIONS_LIST_PATH: Path = None
 __RESOLVED_LOGS_PATH: Path = None
@@ -89,7 +89,7 @@ def __getResolvedLogsList(path: Path):
 
     LOGS_PARSE_TASK = LOG.createTaskLog("Parse Resolving Logs")
     LOGS_PARSE_TASK.begin("parsing the resolved logs: {}", __RESOLVED_LOGS_PATH)
-    __CACHED_RESOLVED_LOGS = ResolvedLogsFile(__RESOLVED_LOGS_PATH)
+    __CACHED_RESOLVED_LOGS = ResolveLogsFile(__RESOLVED_LOGS_PATH)
     LOGS_PARSE_TASK.done("finished the parse: {}", __RESOLVED_LOGS_PATH, is_success=True)
 
     LOG.funcVerbose("cached the resolved logs.")
@@ -168,7 +168,7 @@ def __updateQuestionsListImpl(*args, list_path: Path, src_path: Path):
             break
         else:
             PMT = prompt.Prompt.getInstance()
-            if not PMT.ask("failed to get questions list, try again{}?", "" if try_cnt == 0 else f"{try_cnt}"):
+            if not PMT.ask("failed to get questions list, try again{}?", "" if try_cnt == 0 else f" ({try_cnt})"):
                 LOG.log("skipped getting questions list.")
                 break
         try_cnt += 1

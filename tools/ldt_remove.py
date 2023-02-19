@@ -74,7 +74,7 @@ def ldtRemove(args: object):
 
     LOGS_PARSE_TASK = LOG.createTaskLog("Parse Resolving Logs")
     LOGS_PARSE_TASK.begin("parsing the resolved logs: {}", ARG_RESOLVE_LOGS)
-    resolve_logs = ResolvedLogsFile(ARG_RESOLVE_LOGS)
+    resolve_logs = ResolveLogsFile(ARG_RESOLVE_LOGS)
     LOGS_PARSE_TASK.done("loaded {} resolved logs from: {}",
                          LOG.format(len(resolve_logs), flag=LOG.HIGHTLIGHT),
                          LOG.format(ARG_RESOLVE_LOGS, flag=LOG.HIGHTLIGHT),

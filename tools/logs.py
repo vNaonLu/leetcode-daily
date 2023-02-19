@@ -28,6 +28,10 @@ class _MonthlyResolvedLogLists:
         for day in range(1, day_cnt + 1):
             self._logs[day] = []
 
+    def addLog(self, resolve_log: ResolveLog):
+        assert resolve_log.day in self._logs
+        self._logs[resolve_log.day].append(resolve_log)
+
     def __getitem__(self, key: int):
         assert isinstance(key, int)
 
@@ -64,13 +68,16 @@ class _YearlyResolvedLogList:
         self._logs: dict[int, _MonthlyResolvedLogLists] = {}
 
         max_month = 12 if year != TODAY.year else TODAY.month
-        LOG.funcVerbose(
-            "initialized with months in {}: [1, {}]", year, max_month)
+        LOG.funcVerbose("initialized with months in {}: [1, {}]", year, max_month)
         for month in range(1, max_month + 1):
             assert year != TODAY.year or month <= TODAY.month, "refused to store the future log."
             max_days = calendar.monthrange(year, month)[1] if year != TODAY.year or (
                 month != TODAY.month) else TODAY.day
             self._logs[month] = _MonthlyResolvedLogLists(max_days)
+
+    def addLog(self, resolve_log: ResolveLog):
+        assert resolve_log.month in self._logs
+        self._logs[resolve_log.month].addLog(resolve_log)
 
     def months(self):
         return sorted(list(self._logs.keys()))
@@ -121,6 +128,13 @@ class ResolveLogsList:
                 for d, dl in ml:
                     res += dl
         return res
+
+    def addLog(self, resolve_log: ResolveLog):
+        LOG = prompt.Log.getInstance()
+        if resolve_log.year not in self._logs:
+            LOG.funcVerbose("create yearly resolved logs for year {}", resolve_log.year)
+            self._logs[resolve_log.year] = _YearlyResolvedLogList(resolve_log.year)
+        self._logs[resolve_log.year].addLog(resolve_log)
 
     def removeById(self, id: int):
         for lgs in self._logs.values():
