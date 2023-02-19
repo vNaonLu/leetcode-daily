@@ -32,11 +32,11 @@ using namespace std;
 struct q142 : public ::testing::Test {
   // Leetcode answer here
   class Solution {
-   public:
+  public:
     ListNode *detectCycle(ListNode *head) {
       auto p = head, tmp = head;
       while (p != nullptr) {
-        p = p->next;
+        p   = p->next;
         tmp = tmp->next;
         if (p) {
           p = p->next;
@@ -47,7 +47,7 @@ struct q142 : public ::testing::Test {
         }
       }
       while (p != nullptr && p != tmp) {
-        p = p->next;
+        p   = p->next;
         tmp = tmp->next;
       }
       return p;
@@ -56,3 +56,5 @@ struct q142 : public ::testing::Test {
 
   class Solution *solution;
 };
+
+TEST_F(q142, NOT_IMPLEMENT) { EXPECT_TRUE("NOT IMPLEMENT"); }

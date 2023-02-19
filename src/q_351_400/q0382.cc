@@ -56,3 +56,7 @@ struct q382 : public ::testing::Test {
 
   class Solution *solution;
 };
+
+TEST_F(q382, NOT_IMPLEMENT) {
+   EXPECT_TRUE("NOT IMPLEMENT");
+}

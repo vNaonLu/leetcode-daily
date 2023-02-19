@@ -76,11 +76,23 @@ def ldtRun(args):
             result = proc.stdout.read()
             TASK.log("parsing the test logs.")
             LOG.verbose(result.replace('\n', '\n    '))
+            passed = parsePassedIds(result)
             failed = parseFailedTests(result)
 
-            if len(failed) == 0:
-                TASK.done("passed all tests.", is_success=True)
+            missing_ids = []
+            for id in ARG_IDS:
+                if id not in passed and id not in failed:
+                    missing_ids.append(id)
+
+            if len(failed) == 0 and len(missing_ids) == 0:
+                TASK.done("passed all tests for {} solutions.",
+                          LOG.format(len(passed), flag=LOG.HIGHTLIGHT), is_success=True)
                 return 0
+
+            elif len(failed) == 0 and len(missing_ids) > 0:
+                TASK.done("solutions without any tests: {}", list(missing_ids), is_success=False)
+                return 1
+
             else:
                 TASK.done("failed on test(s): {}", list(failed), is_success=False)
 
@@ -88,6 +100,9 @@ def ldtRun(args):
                     LOG.failure("{} failed to pass:", LOG.format(test, flag=LOG.HIGHTLIGHT))
                     block = parseTestBlock(result, test)
                     LOG.print(block, flag=LOG.VERBOSE)
+
+                if len(missing_ids) > 1:
+                    LOG.failure("there is no tests for the solution: {}", list(missing_ids))
 
                 return 1
 

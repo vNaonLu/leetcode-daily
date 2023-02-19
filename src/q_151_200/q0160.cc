@@ -46,24 +46,26 @@ using namespace std;
  *   • ‘0 ≤ skipA <m’
  *   • ‘0 ≤ skipB <n’
  *   • ‘intersectVal’ is ‘0’ if ‘listA’ and ‘listB’ do not intersect.
- *   • ‘intersectVal = listA[skipA] = listB[skipB]’ if ‘listA’ and ‘listB’ intersect.
+ *   • ‘intersectVal = listA[skipA] = listB[skipB]’ if ‘listA’ and ‘listB’
+ * intersect.
  *
  */
 
 struct q160 : public ::testing::Test {
   // Leetcode answer here
   class Solution {
-   public:
+  public:
     ListNode *getIntersectionNode(ListNode *headA, ListNode *headB) {
       unordered_set<ListNode *> setA;
-      ListNode *p = headA;
+      ListNode                 *p = headA;
       while (p != nullptr) {
         setA.insert(p);
         p = p->next;
       }
       p = headB;
       while (p != nullptr) {
-        if (setA.count(p)) return p;
+        if (setA.count(p))
+          return p;
         p = p->next;
       }
       return nullptr;
@@ -72,3 +74,5 @@ struct q160 : public ::testing::Test {
 
   class Solution *solution;
 };
+
+TEST_F(q160, NOT_IMPLEMENT) { EXPECT_TRUE("NOT IMPLEMENT"); }

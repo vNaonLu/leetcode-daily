@@ -146,19 +146,24 @@ def clangFormat(src: str):
         return after
 
 
+def openEditor(file: Path):
+    LOG = prompt.Log.getInstance()
+    EDITOR = os.environ.get("EDITOR", findExecutable("vim"))
+    CMD = [EDITOR, "+set backupcopy=yes", file]
+    LOG.funcVerbose("run a command: {}", CMD)
+    subprocess.call(CMD)
+
+
 def inputByEditor(init_msg: str):
     import tempfile
     LOG = prompt.Log.getInstance()
-    EDITOR = os.environ.get("EDITOR", findExecutable("vim"))
 
     with tempfile.NamedTemporaryFile(suffix=".tmp") as tmp:
         LOG.funcVerbose("opened a temporary file and writing source in: {}", tmp.name)
         tmp.write(init_msg.encode('utf-8'))
         tmp.flush()
 
-        CMD = [EDITOR, "+set backupcopy=yes", tmp.name]
-        LOG.funcVerbose("run a command: {}", CMD)
-        subprocess.call(CMD)
+        openEditor(tmp.name)
 
         tmp.seek(0)
         msg = tmp.read().decode('utf-8')
@@ -185,6 +190,14 @@ def parseBuildLog(oneline: str):
 
 
 __TEST_FAILED = regex.compile("^\[  FAILED  \] (?P<solution>[\w.]+)$", regex.MULTILINE)
+__TEST_PASSED = regex.compile("^\[       OK \] q(?P<solution_id>\d+)\.\w+ \(\d+ ms\)$", regex.MULTILINE)
+
+def parsePassedIds(text: str):
+    find = __TEST_PASSED.findall(text)
+
+    if find:
+        return set(int(id) for id in find)
+    return set([])
 
 
 def parseFailedTests(text: str):

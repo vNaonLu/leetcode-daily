@@ -27,22 +27,20 @@ using namespace std;
  *   • ‘1 ≤ nums.length ≤ 200’
  *   • ‘-10⁶ ≤ nums[i] ≤ 10⁶’
  *   • All the elements of ‘nums’ are “unique” .
- *   • At most ‘5 × 10⁴’ calls “in total” will be made to ‘reset’ and ‘shuffle’ .
+ *   • At most ‘5 × 10⁴’ calls “in total” will be made to ‘reset’ and ‘shuffle’
+ * .
  *
  */
 
 struct q384 : public ::testing::Test {
   // Leetcode answer here
   class Solution {
-   private:
+  private:
     vector<int> m_set;
-   public:
-    Solution(vector<int>& nums) {
-      m_set = nums;
-    }
-    vector<int> reset() {
-      return m_set;
-    }
+
+  public:
+    Solution(vector<int> &nums) { m_set = nums; }
+    vector<int> reset() { return m_set; }
     vector<int> shuffle() {
       vector<int> res = m_set;
       for (int i = 0; i < res.size(); ++i) {
@@ -55,3 +53,5 @@ struct q384 : public ::testing::Test {
 
   class Solution *solution;
 };
+
+TEST_F(q384, NOT_IMPLEMENT) { EXPECT_TRUE("NOT IMPLEMENT"); }

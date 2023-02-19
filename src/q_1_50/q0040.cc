@@ -1,5 +1,6 @@
 #include <gtest/gtest.h>
 #include <iostream>
+#include <leetcode/anyorder.hpp>
 #include <vector>
 
 using namespace std;
@@ -29,13 +30,15 @@ using namespace std;
 struct q40 : public ::testing::Test {
   // Leetcode answer here
   class Solution {
-    void helper(vector<int> &cand, vector<vector<int>> &r, const int &t, vector<int> &c, int &sum, int beg = 0) {
+    void helper(vector<int> &cand, vector<vector<int>> &r, const int &t,
+                vector<int> &c, int &sum, int beg = 0) {
       if (sum == t) {
         r.push_back(c);
       } else if (sum <= t && beg < cand.size()) {
-        int i = beg;
+        int i   = beg;
         int num = cand[i];
-        while (i < cand.size() && num == cand[i]) ++i;
+        while (i < cand.size() && num == cand[i])
+          ++i;
         int same = i - beg;
         helper(cand, r, t, c, sum, i);
         for (int j = 0; j < same; ++j) {
@@ -49,12 +52,13 @@ struct q40 : public ::testing::Test {
         }
       }
     }
-   public:
+
+  public:
     vector<vector<int>> combinationSum2(vector<int> &candidates, int target) {
       sort(candidates.begin(), candidates.end());
       vector<vector<int>> res;
-      vector<int> tmp;
-      int sum = 0;
+      vector<int>         tmp;
+      int                 sum = 0;
       helper(candidates, res, target, tmp, sum, 0);
       return res;
     }
@@ -62,3 +66,31 @@ struct q40 : public ::testing::Test {
 
   class Solution *solution;
 };
+
+TEST_F(q40, sample_input01) {
+  solution                       = new Solution();
+  vector<int>         candidates = {10, 1, 2, 7, 6, 1, 5};
+  int                 target     = 8;
+  vector<vector<int>> exp        = {
+      {1, 1, 6},
+      {1, 2, 5},
+      {1, 7},
+      {2, 6}
+  };
+  vector<vector<int>> act = solution->combinationSum2(candidates, target);
+  EXPECT_EQ_ANY_ORDER(act, exp);
+  delete solution;
+}
+
+TEST_F(q40, sample_input02) {
+  solution                       = new Solution();
+  vector<int>         candidates = {2,5,2,1,2};
+  int                 target     = 5;
+  vector<vector<int>> exp        = {
+      {1, 2, 2},
+      {5},
+  };
+  vector<vector<int>> act = solution->combinationSum2(candidates, target);
+  EXPECT_EQ_ANY_ORDER(act, exp);
+  delete solution;
+}

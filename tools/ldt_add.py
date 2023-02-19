@@ -87,14 +87,38 @@ def _addSolutionImpl(*, questions_list: QuestionsList, solution_file: SolutionFi
     gen_task.done("generated the solution template: {}",
                   LOG.format(slug, flag=LOG.HIGHTLIGHT),
                   is_success=True)
-    
+
     with solution_file.open("w") as f:
         f.write(clangFormat(content))
-        LOG.success("added the solution file for question #{}: {}",
-                    LOG.format(id, flag=LOG.HIGHTLIGHT),
-                    LOG.format(solution_file, flag=LOG.HIGHTLIGHT))
+        f.flush()
+        openEditor(solution_file)
 
+    LOG.success("saved the solution file for question #{}: {}",
+                LOG.format(id, flag=LOG.HIGHTLIGHT),
+                LOG.format(solution_file, flag=LOG.HIGHTLIGHT))
     return True
+
+
+def _getComplexityInformation(id: int):
+    init_msg = [
+        f'# Require for the Complexities Information for Solution #{id}.',
+        f'# Time Complexity in First Line:',
+        f'',
+        f'# Space Complexity in Second Line:',
+        f'',
+        f''
+    ]
+    user_input = inputByEditor('\n'.join(init_msg))
+    input_lines = user_input.splitlines()
+    if len(input_lines) > 2:
+        complexities = []
+        for line in input_lines:
+            line = line.strip()
+            if len(line) > 0 and line[0] != "#":
+                complexities.append(line)
+        if len(complexities) == 2:
+            return complexities[0], complexities[1]
+    return "-", "-"
 
 
 @cli.command(
@@ -161,9 +185,11 @@ def ldtAdd(args: object):
                     LOG.format(id, flag=LOG.HIGHTLIGHT))
             continue
 
-        log = ResolveLog([int(time.time()), id])
+        tc, sc = _getComplexityInformation(id)
+        log = ResolveLog([int(time.time()), id, tc, sc])
         resolve_logs.addLog(log)
-        LOG.verbose("added new resolve log for solution #{}: {}", log.id, log.timestamp)
+        LOG.verbose(f"added new resolve log for solution #{log.id} with TC "
+                    f"O({log.tc}) and SC O({log.sc}): {log.timestamp}")
         add_cnt += 1
 
     if add_cnt > 0:
