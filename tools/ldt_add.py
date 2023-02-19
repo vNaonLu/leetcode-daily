@@ -78,7 +78,7 @@ def _addSolutionImpl(*, questions_list: QuestionsList, solution_file: SolutionFi
         try_cnt += 1
 
     LOG.verbose("generate the code template")
-    code_template = LeetCodeSolutionTemplate(no_testcases, code_obj=raw_content)
+    code_template = LeetCodeSolutionTemplate(not no_testcases, code_obj=raw_content)
 
     gen_task = LOG.createTaskLog("Generate Solution Template")
     gen_task.begin("generating the solution for #{}. {}.", id, slug)

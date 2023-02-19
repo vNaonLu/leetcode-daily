@@ -157,7 +157,6 @@ class SolutionFunction(SolutionAbstract):
     def unittest_desc(self, content: str):
         res: list[list[str]] = []
         cases = re.findall("(?P<case>Input[\w\W]+?)([^\n]+Example|$)", content)
-        print(self._type)
 
         if self._type.is_valid():
             for case, _ in cases:
