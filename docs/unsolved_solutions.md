@@ -1,10 +1,6 @@
 # Unsolved Solutions List
 
-<<<<<<< HEAD
 There are **1695** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
-=======
-There are **1699** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
->>>>>>> 2031cb1 (implments update all feature.)
 
 The questions which have been solved are not shown in this page, more information about solved questions can be found at [docs/solved_solutions.md](./solved_solutions.md).
 
