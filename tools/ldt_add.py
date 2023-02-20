@@ -1,4 +1,5 @@
 #!/usr/bin/env python3
+from impl import *
 import sys
 import json
 from argparse import RawTextHelpFormatter
@@ -11,31 +12,6 @@ from filesystem import *
 from code_gen import *
 import net
 import cli
-
-def __checkPath(path: Path):
-    assert isinstance(path, Path)
-    LOG = prompt.Log.getInstance()
-    LOG.funcVerbose("check whether the destination is directory: {}", path)
-    if not path.exists():
-        LOG.failure("the directory not found: {}", path)
-        return False
-    elif not path.is_dir():
-        LOG.failure("the path is not a directory: {}", path)
-        return False
-    return True
-
-
-def __checkFile(path: Path):
-    assert isinstance(path, Path)
-    LOG = prompt.Log.getInstance()
-    LOG.funcVerbose("check whether the destination is file: {}", path)
-    if not path.exists():
-        LOG.failure("the file not found: {}", path)
-        return False
-    elif not path.is_file():
-        LOG.failure("the path is not a file: {}", path)
-        return False
-    return True
 
 
 def _addSolutionImpl(*, questions_list: QuestionsList, solution_file: SolutionFile, no_testcases: bool):
@@ -88,27 +64,162 @@ def _addSolutionImpl(*, questions_list: QuestionsList, solution_file: SolutionFi
                   LOG.format(slug, flag=LOG.HIGHTLIGHT),
                   is_success=True)
 
-    with solution_file.open("w") as f:
-        f.write(clangFormat(content))
-        f.flush()
-        openEditor(solution_file)
-
+    solution_file.write_text(clangFormat(content))
     LOG.success("saved the solution file for question #{}: {}",
                 LOG.format(id, flag=LOG.HIGHTLIGHT),
                 LOG.format(solution_file, flag=LOG.HIGHTLIGHT))
     return True
 
 
-def _getComplexityInformation(id: int):
+def _addResolveLogs(*, solution_file: SolutionFile, resolve_logs: ResolveLogsFile, id: int, timestamp: int):
+    LOG = prompt.Log.getInstance()
+
+    tc, sc, notes = _getComplexityInformation(id,
+                                              clangFormat(parseSolution(solution_file.read_text())))
+    log = ResolveLog({"timestamp": timestamp,
+                      "id": id,
+                      "tc": tc,
+                      "sc": sc,
+                      "notes": notes})
+    resolve_logs.addLog(log)
+    LOG.verbose(f"added new resolve log for solution #{log.id} with TC "
+                f"O({log.tc}) and SC O({log.sc}): {log.timestamp}")
+    
+    resolve_logs.save()
+    LOG.success("the resolve log has been saved: {}",
+                LOG.format(resolve_logs, flag=LOG.HIGHTLIGHT))
+    return log
+
+
+def _addProcess(*,
+                src_path: Path,
+                build_path: Path,
+                docs_path: Path,
+                assets_path: Path,
+                readme_path: Path,
+                questions_list: QuestionsList,
+                resolve_logs: ResolveLogsFile,
+                solution_file: SolutionFile,
+                without_testcase: bool,
+                without_test: bool,
+                without_update: bool,
+                without_commit: bool):
+    PMT = prompt.Prompt.getInstance()
+    LOG = prompt.Log.getInstance()
+    ADD_TIME = int(time.time())
+    ID = solution_file.id()
+
+    if not _addSolutionImpl(questions_list=questions_list,
+                            solution_file=solution_file,
+                            no_testcases=without_testcase):
+        LOG.log("skipped adding solution for question #{}.",
+                LOG.format(ID, flag=LOG.HIGHTLIGHT))
+        return False
+
+    openEditor(solution_file)
+
+    if without_test:
+        LOG.log("skipped running testcase due to enabling flag: {}",
+                LOG.format("--without-test", flag=LOG.HIGHTLIGHT))
+        _addResolveLogs(solution_file=solution_file,
+                        resolve_logs=resolve_logs,
+                        id=ID, timestamp=ADD_TIME)
+        return True
+
+    ldtGenImpl(src_path=PROJECT_ROOT,
+               build_path=build_path,
+               build_flag="Debug",
+               compile_commands_flag="OFF",
+               leetcode_test_flag="ON",
+               infra_test_flag="ON")
+
+    first = True
+    test_passed = False
+
+    while not test_passed:
+        if not first and not PMT.ask("the solution #{} failed to pass the testcases, continue to solve?",
+                       LOG.format(ID, flag=LOG.HIGHTLIGHT)):
+            return False
+
+        first = False
+        try:
+            test_passed = ldtBuildImpl(build_path=build_path) == 0 and \
+                ldtRunImpl(build_path=build_path, infra_test=False, ids=[ID]) == 0
+        except InterruptedError:
+            pass
+
+        if test_passed:
+            LOG.log("while passed all local test cases, "
+                    "please try submitting to LeetCode to see whether the solution is correct:")
+            LOG.print(clangFormat(parseSolution(solution_file.read_text())),
+                      flag=LOG.DARK_GREEN)
+            if not PMT.ask("was the solution accepted by LeetCode?"):
+                test_passed = False
+        else:
+            openEditor(solution_file)
+
+    resolve = _addResolveLogs(solution_file=solution_file,
+                              resolve_logs=resolve_logs,
+                              id=ID, timestamp=ADD_TIME)
+
+    if without_update:
+        LOG.log("skipped updating documents due to enabling flag: {}",
+                LOG.format("--without-update", flag=LOG.HIGHTLIGHT))
+        return True
+
+    if not updateResolveReferenceImpl(questions_list=questions_list,
+                                      resolve_logs=resolve_logs,
+                                      docs_path=docs_path,
+                                      assets_path=assets_path,
+                                      src_path=src_path):
+        LOG.failure("failed to update references.")
+        return False
+
+    if not updateReadmeDocument(resolve_logs=resolve_logs,
+                                assets_path=assets_path,
+                                docs_path=docs_path,
+                                readme_path=readme_path):
+        LOG.failure("failed to update readme.")
+        return False
+
+    if not without_commit:
+        CMD = ["git", "-C", PROJECT_ROOT, "add",
+               solution_file, readme_path, docs_path, assets_path, resolve_logs]
+        launchSubprocess(CMD).communicate()
+
+        commit_msg = f"adds q{ID}"
+        if resolve.tc != "-" and resolve.sc != "-":
+            commit_msg += f" with TC O({resolve.tc}) and SC O({resolve.sc})"
+            if resolve.notes != "":
+                commit_msg += f", {resolve.notes}"
+        commit_msg += "."
+
+        CMD = ["git", "-C", PROJECT_ROOT, "commit", "-m", commit_msg]
+        launchSubprocess(CMD).communicate()
+        LOG.success("committed with message: {}",
+                    LOG.format(commit_msg, flag=LOG.IMPORTANT))
+
+    return True
+
+
+def _getComplexityInformation(id: int, snippets: str):
     init_msg = [
-        f'# Require for the Complexities Information for Solution #{id}.',
-        f'# Time Complexity in First Line:',
+        f'# The Solution #{id} requires complexities information.',
+        f'# Time complexity in the first line:',
+        f'# O(',
         f'',
-        f'# Space Complexity in Second Line:',
+        f'# )',
         f'',
-        f'# Notes in Third Line:',
+        f'# Space complexity in the second line:',
+        f'# O(',
+        f'',
+        f'# )',
+        f'',
+        f'# Notes in third line if necessary:',
         f'',
         f'',
+        f'# The solution is as follows',
+        '# {}'.format(snippets.replace('\n', '\n# '))
     ]
     user_input = inputByEditor('\n'.join(init_msg))
     input_lines = user_input.splitlines()
@@ -128,12 +239,26 @@ def _getComplexityInformation(id: int):
 @cli.command(
     cli.arg("-C", dest="src_path", default=str(SRC_ABSOLUTE), action="store",
             metavar="[Source_Root]", help="specify the source root."),
-    cli.arg("--no-case", dest="no_testcase", default=False, action="store_true",
-            help="disable test cases generation."),
+    cli.arg("-B", dest="build_path", default=str(BUILD_ABSOLUTE), action="store",
+            metavar="[Build_Path]", help="specify the directory to build. Default: './build'."),
     cli.arg("--list", dest="questions_list_file", default=str(QUESTIONS_LIST_ABSOLUTE), action="store",
             nargs=1, metavar="[Ques_List]", help="specify the questions list in CSV format."),
     cli.arg("--resolve", dest="questions_log_file", default=str(QUESTIONS_LOG_ABSOLUTE), action="store",
             nargs=1, metavar="[Solve_Log]", help="specify the resolve log in CSV format."),
+    cli.arg("--assets", dest="assets_path", default=str(ASSETS_ABSOLUTE), action="store",
+            nargs=1, metavar="[Assets_path]", help="specify the directory to save created assets."),
+    cli.arg("--docs", dest="docs_path", default=str(DOCS_ABSOLUTE), action="store",
+            metavar="[Docs_path]", help="specify the directory to save created documents."),
+    cli.arg("--readme", dest="readme_path", default=str(README_ABSOLUTE), action="store",
+            metavar="[Docs_path]", help="specify the file to save readme."),
+    cli.arg("--without-testcase", dest="without_testcase", default=False, action="store_true",
+            help="disable test cases generation."),
+    cli.arg("--without-test", dest="without_test", default=False, action="store_true",
+            help="disable run test after each problem solving."),
+    cli.arg("--without-update", dest="without_update", default=False, action="store_true",
+            help="disable update references after running tests."),
+    cli.arg("--no-commit", dest="without_commit", default=False, action="store_true",
+            help="disable automatic commit after references updating."),
     cli.arg("-v", "--verbose", dest="verbose", default=False, action="store_true",
             help="enable verbose logging."),
     cli.arg("ids", metavar="id", nargs="+", type=int, help="question identifiers to add."),
@@ -147,20 +272,31 @@ def _getComplexityInformation(id: int):
         'A script to add multiple unsolve questions by their LeetCode question number, '
         'and generate a C++ solution template, which is based on the code snippet queied'
         'from LeetCode, with GoogleTest interface and several test cases based on'
-        'examples on the LeetCode website. This script will not update the questions lists.'
+        'examples on the LeetCode website. This script will do the process:',
+        '  - Generate the C++ template, and open an editor to solve.',
+        '  - Run the testcases.',
+        '  - Updates all references such as documents and diagrams.',
+        '  - Run `git commit` if all the previous stages passes.'
     )
 )
 def ldtAdd(args: object):
     LOG = prompt.Log.getInstance(verbose=getattr(args, "verbose"))
-    ARG_NOTESTCASE_FLAG = getattr(args, "no_testcase")
     ARG_SRC_PATH = Path(getattr(args, "src_path")).resolve()
+    ARG_BUILD_PATH = Path(getattr(args, "build_path")).resolve()
     ARG_QUESTIONS_LIST = Path(getattr(args, "questions_list_file")).resolve()
     ARG_RESOLVE_LOGS = Path(getattr(args, "questions_log_file")).resolve()
+    ARG_ASSETS_PATH = Path(getattr(args, "assets_path")).resolve()
+    ARG_DOCS_PATH = Path(getattr(args, "docs_path")).resolve()
+    ARG_README = Path(getattr(args, "readme_path")).resolve()
+    ARG_NOTESTCASE_FLAG = getattr(args, "without_testcase")
+    ARG_WITHOUT_TEST_FLAG = getattr(args, "without_test")
+    ARG_WITHOUT_UPDATE_FLAG = getattr(args, "without_update")
+    ARG_WITHOUT_COMMIT_FLAG = getattr(args, "without_commit")
     ARG_IDS = getattr(args, "ids")
 
-    if not __checkFile(ARG_QUESTIONS_LIST) or not __checkFile(ARG_RESOLVE_LOGS):
+    if not checkFile(ARG_QUESTIONS_LIST) or not checkFile(ARG_RESOLVE_LOGS):
         return 1
-    if not __checkPath(ARG_SRC_PATH):
+    if not checkPath(ARG_ASSETS_PATH) or not checkPath(ARG_DOCS_PATH) or not checkPath(ARG_SRC_PATH):
         return 1
     
     LOGS_PARSE_TASK = LOG.createTaskLog("Parse Resolving Logs")
@@ -179,31 +315,26 @@ def ldtAdd(args: object):
                           LOG.format(ARG_QUESTIONS_LIST, flag=LOG.HIGHTLIGHT),
                           is_success=True)
 
-    add_cnt = 0
     for id in ARG_IDS:
         solution_file = SolutionFile(id, ARG_SRC_PATH)
-        if not _addSolutionImpl(questions_list=questions_list,
-                                solution_file=solution_file,
-                                no_testcases=ARG_NOTESTCASE_FLAG):
-            LOG.log("skipped adding solution for question #{}.",
-                    LOG.format(id, flag=LOG.HIGHTLIGHT))
+        if not _addProcess(src_path=ARG_SRC_PATH,
+                           build_path=ARG_BUILD_PATH,
+                           docs_path=ARG_DOCS_PATH,
+                           assets_path=ARG_ASSETS_PATH,
+                           readme_path=ARG_README,
+                           questions_list=questions_list,
+                           resolve_logs=resolve_logs,
+                           solution_file=solution_file,
+                           without_testcase=ARG_NOTESTCASE_FLAG,
+                           without_test=ARG_WITHOUT_TEST_FLAG,
+                           without_update=ARG_WITHOUT_UPDATE_FLAG,
+                           without_commit=ARG_WITHOUT_COMMIT_FLAG):
+
+            LOG.failure("cancelled add the solution #{}.",
+                        LOG.format(id, flag=LOG.HIGHTLIGHT))
             continue
-
-        tc, sc, notes = _getComplexityInformation(id)
-        log = ResolveLog({"timestamp": int(time.time()),
-                          "id": id,
-                          "tc": tc,
-                          "sc": sc,
-                          "notes": notes})
-        resolve_logs.addLog(log)
-        LOG.verbose(f"added new resolve log for solution #{log.id} with TC "
-                    f"O({log.tc}) and SC O({log.sc}): {log.timestamp}")
-        add_cnt += 1
-
-    if add_cnt > 0:
-        resolve_logs.save(ARG_RESOLVE_LOGS)
-        LOG.success("the resolve log has been saved: {}",
-                    LOG.format(ARG_RESOLVE_LOGS, flag=LOG.HIGHTLIGHT))
+        LOG.success("the solution #{} added successfully.",
+                    LOG.format(id, flag=LOG.HIGHTLIGHT))
 
 if __name__ == "__main__":
     sys.exit(ldtAdd())

@@ -115,7 +115,7 @@ def requestQuestionInformation(slug: int, *, timeout: int = 5):
     LOG.funcVerbose("request headers: {}", HEADERS)
     LOG.funcVerbose("timeout        : {}", timeout)
 
-    TASK = LOG.createTaskLog("Request Questions Infomation")
+    TASK = LOG.createTaskLog("Request Questions Information")
     TASK.begin("requesting to: {}", URL)
     state, resp = _safeRequest(
         partial(requests.Session().post,
