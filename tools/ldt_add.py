@@ -106,7 +106,9 @@ def _getComplexityInformation(id: int):
         f'',
         f'# Space Complexity in Second Line:',
         f'',
-        f''
+        f'# Notes in Third Line:',
+        f'',
+        f'',
     ]
     user_input = inputByEditor('\n'.join(init_msg))
     input_lines = user_input.splitlines()
@@ -116,9 +118,9 @@ def _getComplexityInformation(id: int):
             line = line.strip()
             if len(line) > 0 and line[0] != "#":
                 complexities.append(line)
-        if len(complexities) == 2:
-            return complexities[0], complexities[1]
-    return "-", "-"
+        if len(complexities) == 3:
+            return complexities[0], complexities[1], complexities[2]
+    return "-", "-", ""
 
 
 @cli.command(
@@ -185,8 +187,12 @@ def ldtAdd(args: object):
                     LOG.format(id, flag=LOG.HIGHTLIGHT))
             continue
 
-        tc, sc = _getComplexityInformation(id)
-        log = ResolveLog([int(time.time()), id, tc, sc])
+        tc, sc, notes = _getComplexityInformation(id)
+        log = ResolveLog({"timestamp": int(time.time()),
+                          "id": id,
+                          "tc": tc,
+                          "sc": sc,
+                          "notes": notes})
         resolve_logs.addLog(log)
         LOG.verbose(f"added new resolve log for solution #{log.id} with TC "
                     f"O({log.tc}) and SC O({log.sc}): {log.timestamp}")
