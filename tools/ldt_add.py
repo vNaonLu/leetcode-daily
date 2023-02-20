@@ -54,7 +54,15 @@ def _addSolutionImpl(*, questions_list: QuestionsList, solution_file: SolutionFi
         try_cnt += 1
 
     LOG.verbose("generate the code template")
-    code_template = LeetCodeSolutionTemplate(not no_testcases, code_obj=raw_content)
+    try:
+        code_template = LeetCodeSolutionTemplate(not no_testcases, code_obj=raw_content)
+    except Exception as _:
+        LOG.warn("caught exception when generating the C++ template, try without testcases.")
+        try:
+            code_template = LeetCodeSolutionTemplate(False, code_obj=raw_content)
+        except Exception as _:
+            LOG.failure("failed to generate C++ template.")
+            return False
 
     gen_task = LOG.createTaskLog(f"Generate Template for Solution #{id}")
     gen_task.begin("generating the solution template: {}",
@@ -133,15 +141,8 @@ def _addProcess(*,
                leetcode_test_flag="ON",
                infra_test_flag="ON")
 
-    first = True
     test_passed = False
-
     while not test_passed:
-        if not first and not PMT.ask("the solution #{} failed to pass the testcases, continue to solve?",
-                       LOG.format(ID, flag=LOG.HIGHTLIGHT)):
-            return False
-
-        first = False
         try:
             test_passed = ldtBuildImpl(build_path=build_path) == 0 and \
                 ldtRunImpl(build_path=build_path, infra_test=False, ids=[ID]) == 0
@@ -156,6 +157,9 @@ def _addProcess(*,
             if not PMT.ask("was the solution accepted by LeetCode?"):
                 test_passed = False
         else:
+            if not PMT.ask("the solution #{} failed to pass the testcases, continue to solve?",
+                       LOG.format(ID, flag=LOG.HIGHTLIGHT)):
+                return False
             openEditor(solution_file)
 
     resolve = _addResolveLogs(solution_file=solution_file,
