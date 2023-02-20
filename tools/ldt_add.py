@@ -337,4 +337,4 @@ def ldtAdd(args: object):
                     LOG.format(id, flag=LOG.HIGHTLIGHT))
 
 if __name__ == "__main__":
-    sys.exit(ldtAdd())
+    sys.exit(safeRun(ldtAdd))
