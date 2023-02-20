@@ -118,6 +118,8 @@ def _getComplexityInformation(id: int):
             line = line.strip()
             if len(line) > 0 and line[0] != "#":
                 complexities.append(line)
+        if len(complexities) == 2:
+            return complexities[0], complexities[1], ""
         if len(complexities) == 3:
             return complexities[0], complexities[1], complexities[2]
     return "-", "-", ""

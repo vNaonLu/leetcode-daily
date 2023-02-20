@@ -879,3 +879,4 @@ timestamp,id,tc,sc,notes
 1676788969,2373,grid.size()*grid.size(),1,
 1676818080,2485,,,
 1676818394,125,s.size(),1,
+1676861926,107,countOf(root),depthOf(root),
