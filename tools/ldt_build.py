@@ -14,8 +14,8 @@ import cli
             metavar="[Project_Root]", help="specify the source directory which contains CMakeLists.txt."),
     cli.arg("-C", dest="build_path", default=str(BUILD_ABSOLUTE), action="store",
             metavar="[Build_Path]", help="specify the directory to build. Default: './build'."),
-    cli.arg("--debug", dest="debug_mode", default=False, action="store_true",
-            help="generate the build file with debug flags."),
+    cli.arg("--release", dest="release_mode", default=False, action="store_true",
+            help="generate the build file with release flags."),
     cli.arg("--compile-commands", dest="compile_command", default=False, action="store_true",
             help="generate the compile_commands.json in the build directory."),
     cli.arg("--disable-leetcode-test", dest="disable_leetcode_test", default=False, action="store_true",
@@ -43,7 +43,7 @@ def ldtBuild(args):
     ARG_SRC_PATH = Path(getattr(args, "src_path")).resolve()
     ARG_BUILD_PATH = Path(getattr(args, "build_path")).resolve()
     ARG_BUILD_ARGS = str(getattr(args, "build_args"))
-    ARG_BUILD_FLAG = "Debug" if getattr(args, "debug_mode") else "Release"
+    ARG_BUILD_FLAG = "Release" if getattr(args, "release_mode") else "Debug"
     ARG_COMPILE_COMMAND_FLAG = "ON" if getattr(args, "compile_command") else "OFF"
     ARG_LEETCODE_TEST_FLAG = "OFF" if getattr(args, "disable_leetcode_test") else "ON"
     ARG_INFRA_TEST_FLAG = "OFF" if getattr(args, "disable_infra_test") else "ON"
