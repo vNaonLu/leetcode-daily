@@ -4,6 +4,9 @@ import sys
 sys.dont_write_bytecode = True
 
 from utils import *
+from logs import *
+from filesystem import *
+from questions import *
 
 
 def ldtGenImpl(*, src_path: Path, build_path: Path, build_flag: str, compile_commands_flag: str, leetcode_test_flag: str, infra_test_flag: str):
@@ -189,3 +192,41 @@ def ldtRunImpl(*, build_path: Path, infra_test: bool, ids: list[int] = []):
                     LOG.failure("there is no tests for the solution: {}", list(missing_ids))
 
                 return 1
+
+
+def ldtRemoveImpl(*, src_path: Path, resolve_logs: ResolveLogsFile, ids: list[int]):
+    LOG = prompt.Log.getInstance()
+    ARG_SRC_PATH = src_path
+    ARG_IDS = ids
+
+    logs_remove_cnt = 0
+    for id in ARG_IDS:
+        LOG.verbose("check whether the solution with id {} exists.", id)
+        rm_file = LOG.createTaskLog(f"Remove Solution #{id}")
+        rm_file.begin("searching in: {}", ARG_SRC_PATH)
+        target_file = SolutionFile(id, ARG_SRC_PATH)
+        if not target_file.exists():
+            rm_file.done("the solution #{} not found: {}",
+                         LOG.format(id, flag=LOG.HIGHTLIGHT),
+                         LOG.format(target_file, flag=LOG.HIGHTLIGHT), is_success=False)
+        else:
+            target_file.unlink(missing_ok=True)
+            rm_file.done("the solution #{} has been removed: {}",
+                         LOG.format(id, flag=LOG.HIGHTLIGHT),
+                         LOG.format(target_file, flag=LOG.HIGHTLIGHT), is_success=True)
+
+        rm_logs = LOG.createTaskLog(f"Remove Resolve Logs #{id}")
+        rm_logs.begin("searching in resolve logs: {}", resolve_logs)
+        if not resolve_logs.removeById(id):
+            rm_logs.done("the resolve log for solution #{} not found.",
+                         LOG.format(id, flag=LOG.HIGHTLIGHT), is_success=False)
+        else:
+            rm_logs.done("the resolve log for solution #{} has been removed.",
+                         LOG.format(id, flag=LOG.HIGHTLIGHT), is_success=True)
+            logs_remove_cnt += 1
+
+    if logs_remove_cnt > 0:
+        resolve_logs.save()
+        LOG.success("the resolve log has been saved: {}",
+                    LOG.format(resolve_logs, flag=LOG.HIGHTLIGHT))
+    return 0

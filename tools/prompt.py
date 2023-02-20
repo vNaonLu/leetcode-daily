@@ -128,6 +128,10 @@ class _PromptImpl(_PrintTool):
     def __init__(self, *args, **kwargs):
         super().__init__(*args, **kwargs)
 
+    def pause(self):
+        pmt = self._formatWithSymbol("[ ]", f'press any key to continue.\n',)
+        self._input(pmt)
+
     def ask(self, s: str, *args, dispatcher: dict[str, Callable] = __DEFAULT_DISPATCHER, flag: int = 0):
         opts = [k[0] for k in dispatcher.items()]
         opts_prompt = self.format("[{}]", ", ".join(opts), flag=self.VERBOSE)

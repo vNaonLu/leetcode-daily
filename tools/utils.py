@@ -171,6 +171,32 @@ def inputByEditor(init_msg: str):
         return msg
 
 
+def checkPath(path: Path):
+    assert isinstance(path, Path)
+    LOG = prompt.Log.getInstance()
+    LOG.funcVerbose("check whether the destination is directory: {}", path)
+    if not path.exists():
+        LOG.failure("the directory not found: {}", path)
+        return False
+    elif not path.is_dir():
+        LOG.failure("the path is not a directory: {}", path)
+        return False
+    return True
+
+
+def checkFile(path: Path):
+    assert isinstance(path, Path)
+    LOG = prompt.Log.getInstance()
+    LOG.funcVerbose("check whether the destination is file: {}", path)
+    if not path.exists():
+        LOG.failure("the file not found: {}", path)
+        return False
+    elif not path.is_file():
+        LOG.failure("the path is not a file: {}", path)
+        return False
+    return True
+
+
 def readlineFromPipe(proc: subprocess.Popen[str]):
     out = proc.stdout.readline()
     return out.replace('\n', '')
@@ -220,7 +246,7 @@ def parseTestBlock(text: str, target: str):
     return None
 
 
-def launchSubprocess(cmd: list[str]):
+def launchSubprocess(cmd: list[str], *, timeout: int=None):
     LOG = prompt.Log.getInstance()
     LOG.verbose("run a command: {}", cmd)
     return subprocess.Popen(cmd, stdout=subprocess.PIPE, stderr=subprocess.PIPE, encoding='utf-8')
