@@ -204,6 +204,49 @@ def updateReadmeDocument(*, resolve_logs: ResolveLogsList, assets_path: Path, do
     return True
 
 
+def ldtCatImpl(*, id: int, src_path: Path):
+    LOG = prompt.Log.getInstance()
+    ARG_ID = id
+    ARG_SRC_PATH = src_path
+
+    LOG.log("collecting the details for the solution of question #{}.",
+              LOG.format(ARG_ID, flag=LOG.HIGHTLIGHT))
+    qf = SolutionFile(ARG_ID, ARG_SRC_PATH)
+
+    LOG.verbose("cat LeetCode solution...")
+    LOG.verbose("[source detail beg]")
+    LOG.verbose(" - id     : {}", qf.id())
+    LOG.verbose(" - target : {}", qf)
+    LOG.verbose("[source detail end]")
+    LOG.verbose("checking whether the solution exists: {}", qf)
+
+    if not qf.exists():
+
+        LOG.failure("questions #{} is not resolved yet.",
+                    LOG.format(ARG_ID, flag=LOG.HIGHTLIGHT))
+        return 1
+
+    LOG.verbose("target found and trying to get solution snippet.")
+
+    with qf.open('r') as f:
+
+        LOG.verbose("solution file opened.")
+
+        code_buf = f.read()
+        snippet = parseSolution(code_buf)
+
+        if not snippet:
+            LOG.failure("failed to parse the solution from file: {}", qf)
+            return 1
+
+        solution = clangFormat(snippet)
+        LOG.success("the solution for question #{} found:",
+                    LOG.format(ARG_ID, flag=LOG.HIGHTLIGHT))
+        LOG.print('')
+        LOG.print(solution, flag=LOG.DARK_GREEN)
+
+    return 0
+
 def ldtGenImpl(*, src_path: Path, build_path: Path, build_flag: str, compile_commands_flag: str, leetcode_test_flag: str, infra_test_flag: str):
     LOG = prompt.Log.getInstance()
     ARG_SRC_PATH = src_path
@@ -258,7 +301,6 @@ def ldtGenImpl(*, src_path: Path, build_path: Path, build_flag: str, compile_com
 
         if proc.poll() != 0:
             TASK.done("failed to generate the build files.", is_success=False)
-            proc.stderr.seek(0)
             LOG.print(proc.stderr.read(), flag=LOG.VERBOSE)
             return 1
 

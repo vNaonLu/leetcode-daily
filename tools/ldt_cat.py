@@ -4,8 +4,7 @@ from argparse import RawTextHelpFormatter
 # prevent generating __pycache__
 sys.dont_write_bytecode = True
 
-from utils import *
-from filesystem import *
+from impl import *
 import cli
 
 
@@ -26,49 +25,12 @@ import cli
     )
 )
 def ldtCat(args):
-    LOG = prompt.Log.getInstance(verbose=getattr(args, "verbose"))
+    prompt.Log.getInstance(verbose=getattr(args, "verbose"))
     assert len(getattr(args, "id")) == 1
     ARG_ID = getattr(args, "id")[0]
     assert hasattr(args, "src_path")
     ARG_SRC_PATH = Path(getattr(args, "src_path")).resolve()
-
-    LOG.log("collecting the details for the solution of question #{}.",
-              LOG.format(ARG_ID, flag=LOG.HIGHTLIGHT))
-    qf = SolutionFile(ARG_ID, ARG_SRC_PATH)
-
-    LOG.verbose("cat LeetCode solution...")
-    LOG.verbose("[source detail beg]")
-    LOG.verbose(" - id     : {}", qf.id())
-    LOG.verbose(" - target : {}", qf)
-    LOG.verbose("[source detail end]")
-    LOG.verbose("checking whether the solution exists: {}", qf)
-
-    if not qf.exists():
-
-        LOG.failure("questions #{} is not resolved yet.",
-                    LOG.format(ARG_ID, flag=LOG.HIGHTLIGHT))
-        return 1
-
-    LOG.verbose("target found and trying to get solution snippet.")
-
-    with qf.open('r') as f:
-
-        LOG.verbose("solution file opened.")
-
-        code_buf = f.read()
-        snippet = parseSolution(code_buf)
-
-        if not snippet:
-            LOG.failure("failed to parse the solution from file: {}", qf)
-            return 1
-
-        solution = clangFormat(snippet)
-        LOG.success("the solution for question #{} found:",
-                    LOG.format(ARG_ID, flag=LOG.HIGHTLIGHT))
-        LOG.print('')
-        LOG.print(solution, flag=LOG.DARK_GREEN)
-
-    return 0
+    return 0 if ldtCatImpl(id=ARG_ID, src_path=ARG_SRC_PATH) == 0 else 1
 
 if __name__ == "__main__":
     sys.exit(safeRun(ldtCat))
