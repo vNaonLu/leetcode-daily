@@ -120,8 +120,6 @@ def _addProcess(*,
     if not _addSolutionImpl(questions_list=questions_list,
                             solution_file=solution_file,
                             no_testcases=without_testcase):
-        LOG.log("skipped adding solution for question #{}.",
-                LOG.format(ID, flag=LOG.HIGHTLIGHT))
         return False
 
     openEditor(solution_file)
@@ -160,6 +158,8 @@ def _addProcess(*,
             if not PMT.ask("the solution #{} failed to pass the testcases, continue to solve?",
                        LOG.format(ID, flag=LOG.HIGHTLIGHT)):
                 return False
+
+        if not test_passed:
             openEditor(solution_file)
 
     resolve = _addResolveLogs(solution_file=solution_file,
@@ -334,7 +334,7 @@ def ldtAdd(args: object):
                            without_update=ARG_WITHOUT_UPDATE_FLAG,
                            without_commit=ARG_WITHOUT_COMMIT_FLAG):
 
-            LOG.failure("cancelled add the solution #{}.",
+            LOG.failure("abort adding the solution #{}.",
                         LOG.format(id, flag=LOG.HIGHTLIGHT))
             continue
         LOG.success("the solution #{} added successfully.",
