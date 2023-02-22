@@ -4,8 +4,6 @@
 #include "leetcode/leetcode_helper.h"
 #include <cstdint>
 #include <ostream>
-#include <unordered_set>
-#include <utility>
 #include <vector>
 
 namespace lcd {
