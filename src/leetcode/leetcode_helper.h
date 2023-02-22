@@ -3,6 +3,7 @@
 
 #include <cassert>
 #include <concepts>
+#include <cstddef>
 #include <cstdint>
 #include <optional>
 #include <unordered_set>
@@ -12,7 +13,7 @@
 namespace lcd {
 
 template <typename T>
-class MemoryChecker;
+class AllocationCounted;
 
 } // namespace lcd
 
@@ -23,18 +24,20 @@ using Optional = std::optional<T>;
 
 LCD_INLINE_VARIABLE constexpr Optional<int32_t> null = std::nullopt;
 
-
 template <typename T>
-class MemoryChecker {
+class AllocationCounted {
 public:
-  MemoryChecker() noexcept;
+  AllocationCounted() noexcept;
 
-  virtual ~MemoryChecker() noexcept;
+  virtual ~AllocationCounted() noexcept;
 
-  static bool CheckLeak() noexcept;
+  static size_t CheckRemainRefs() noexcept;
+
+  template <typename S>
+  static bool CheckValid(S *node) noexcept;
 
   template <typename S, typename... Ss>
-  requires std::derived_from<S, MemoryChecker<S>>
+  requires std::derived_from<S, AllocationCounted<S>>
   static void Release(S *node, Ss... nodes) noexcept;
 
   static void Release() noexcept;
@@ -44,34 +47,40 @@ private:
 };
 
 template <typename T>
-inline MemoryChecker<T>::MemoryChecker() noexcept {
+inline AllocationCounted<T>::AllocationCounted() noexcept {
   if (!static_record_.emplace(reinterpret_cast<void *>(this)).second) {
     assert(false);
   }
 }
 
 template <typename T>
-inline MemoryChecker<T>::~MemoryChecker() noexcept {
+inline AllocationCounted<T>::~AllocationCounted() noexcept {
   if (static_record_.erase(reinterpret_cast<void *>(this)) == 0) {
     assert(false);
   }
 }
 
 template <typename T>
-inline bool MemoryChecker<T>::CheckLeak() noexcept {
-  return !static_record_.empty();
+inline size_t AllocationCounted<T>::CheckRemainRefs() noexcept {
+  return static_record_.size();
+}
+
+template <typename T>
+template <typename S>
+inline bool AllocationCounted<T>::CheckValid(S *node) noexcept {
+  return static_record_.count(reinterpret_cast<void *>(node));
 }
 
 template <typename T>
 template <typename S, typename... Ss>
-requires std::derived_from<S, MemoryChecker<S>>
-inline void MemoryChecker<T>::Release(S *node, Ss... nodes) noexcept {
+requires std::derived_from<S, AllocationCounted<S>>
+inline void AllocationCounted<T>::Release(S *node, Ss... nodes) noexcept {
   std::vector<S *> children = static_cast<S *>(node)->GetChildren();
-  if (static_record_.erase(reinterpret_cast<void *>(node))) {
+  if (static_record_.count(reinterpret_cast<void *>(node))) {
     delete node;
   }
   for (auto *ptr : children) {
-    if (static_record_.erase(reinterpret_cast<void *>(ptr))) {
+    if (static_record_.count(reinterpret_cast<void *>(ptr))) {
       delete ptr;
     }
   }
@@ -79,7 +88,7 @@ inline void MemoryChecker<T>::Release(S *node, Ss... nodes) noexcept {
 }
 
 template <typename T>
-inline void MemoryChecker<T>::Release() noexcept {
+inline void AllocationCounted<T>::Release() noexcept {
   // just do nothing
 }
 
