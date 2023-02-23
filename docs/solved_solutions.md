@@ -1,6 +1,6 @@
 # Solved Solutions List
 
-This document contains **885** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
+This document contains **886** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
 
 Some questions which are still being resolved are not shown in this page, more information about unsolved questions can be found at [docs/unsolved_solutions.md](./unsolved_solutions.md).
 
@@ -342,6 +342,7 @@ Some questions which are still being resolved are not shown in this page, more i
 |496|[Next Greater Element I](https://leetcode.com/problems/next-greater-element-i/)|[src/q_451_500/q0496.cc](../src/q_451_500/q0496.cc)|2021/10/19 10:51|
 |500|[Keyboard Row](https://leetcode.com/problems/keyboard-row/)|[src/q_451_500/q0500.cc](../src/q_451_500/q0500.cc)|2022/09/08 01:06|
 |501|[Find Mode in Binary Search Tree](https://leetcode.com/problems/find-mode-in-binary-search-tree/)|[src/q_501_550/q0501.cc](../src/q_501_550/q0501.cc)|2021/10/05 12:58|
+|502|[IPO](https://leetcode.com/problems/ipo/)|[src/q_501_550/q0502.cc](../src/q_501_550/q0502.cc)|2023/02/23 20:02|
 |503|[Next Greater Element II](https://leetcode.com/problems/next-greater-element-ii/)|[src/q_501_550/q0503.cc](../src/q_501_550/q0503.cc)|2022/05/05 18:41|
 |504|[Base 7](https://leetcode.com/problems/base-7/)|[src/q_501_550/q0504.cc](../src/q_501_550/q0504.cc)|2022/02/11 18:34|
 |507|[Perfect Number](https://leetcode.com/problems/perfect-number/)|[src/q_501_550/q0507.cc](../src/q_501_550/q0507.cc)|2021/12/22 21:58|
