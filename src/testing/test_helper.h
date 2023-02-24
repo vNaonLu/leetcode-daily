@@ -22,26 +22,32 @@ concept Sortable = requires(T item, typename T::value_type val) {
                    };
 } // namespace detail
 
-void CompareTreeNodePtr(TreeNode const *tree_node_1,
-                        TreeNode const *tree_node_2, bool result) noexcept;
-
-void CompareLiseNodePtr(ListNode const *list_node_1,
-                        ListNode const *list_node_2, bool result) noexcept;
-
 template <size_t kDepth, detail::Sortable T>
 void CompareInAnyOrder(T expect, T actual) noexcept;
 
+template <typename T>
+bool LCDNodeCheck(T const *node_1, T const *node_2) noexcept;
+
+template <typename T, bool Equal>
+testing::AssertionResult AssertLCDNodeCheck(const char *m_expr,
+                                            const char *n_expr, T const *m,
+                                            T const *n) noexcept;
+
 } // namespace lcd
 
-#define EXPECT_TREENODE_EQ(tree_node_1, tree_node_2)                           \
-  ::lcd::CompareTreeNodePtr(tree_node_1, tree_node_2, true)
-#define EXPECT_TREENODE_NE(tree_node_1, tree_node_2)                           \
-  ::lcd::CompareTreeNodePtr(tree_node_1, tree_node_2, false)
+#define EXPECT_TREENODE_EQ(node_1, node_2)                                     \
+  EXPECT_PRED_FORMAT2((AssertLCDNodeCheck<::lcd::TreeNode, true>), node_1,     \
+                      node_2)
+#define EXPECT_TREENODE_NE(node_1, node_2)                                     \
+  EXPECT_PRED_FORMAT2((AssertLCDNodeCheck<::lcd::TreeNode, false>), node_1,    \
+                      node_2)
 
-#define EXPECT_LISTNODE_EQ(list_node_1, list_node_2)                           \
-  ::lcd::CompareLiseNodePtr(list_node_1, list_node_2, true)
-#define EXPECT_LISTNODE_NE(list_node_1, list_node_2)                           \
-  ::lcd::CompareLiseNodePtr(list_node_1, list_node_2, false)
+#define EXPECT_LISTNODE_EQ(node_1, node_2)                                     \
+  EXPECT_PRED_FORMAT2((AssertLCDNodeCheck<::lcd::ListNode, true>), node_1,     \
+                      node_2)
+#define EXPECT_LISTNODE_NE(node_1, node_2)                                     \
+  EXPECT_PRED_FORMAT2((AssertLCDNodeCheck<::lcd::ListNode, false>), node_1,    \
+                      node_2)
 
 #define EXPECT_ANYORDER_EQ(expect, actual) CompareInAnyOrder<0>(expect, actual)
 #define EXPECT_ANYORDER_WITH_DEPTH_EQ(depth, expect, actual)                   \
@@ -52,7 +58,7 @@ namespace lcd {
 namespace detail {
 
 template <size_t kDepth, Sortable T>
-void SortItem(T *item) {
+inline void SortItem(T *item) {
   if constexpr (kDepth > 0) {
     for (typename T::value_type &item_in_item : *item) {
       SortItem<kDepth - 1>(&item_in_item);
@@ -64,10 +70,51 @@ void SortItem(T *item) {
 } // namespace detail
 
 template <size_t kDepth, detail::Sortable T>
-void CompareInAnyOrder(T expect, T actual) noexcept {
+inline void CompareInAnyOrder(T expect, T actual) noexcept {
   detail::SortItem<kDepth>(&expect);
   detail::SortItem<kDepth>(&actual);
   EXPECT_EQ(expect, actual);
+}
+
+template <typename T>
+inline bool LCDNodeCheck(T const *node_1, T const *node_2) noexcept {
+  if (node_1 && node_2) {
+    return *node_1 == *node_2;
+  } else {
+    return !node_1 && !node_2;
+  }
+}
+
+template <typename T, bool Equal>
+inline testing::AssertionResult
+AssertLCDNodeCheck(const char *m_expr, const char *n_expr, T const *m,
+                   T const *n) noexcept {
+  if constexpr (Equal) {
+    if (LCDNodeCheck<T>(m, n))
+      return testing::AssertionSuccess();
+  } else {
+    if (!LCDNodeCheck<T>(m, n))
+      return testing::AssertionSuccess();
+  }
+
+  auto result = testing::AssertionFailure();
+
+  if (m && n) {
+    result = result << "neither " << m_expr << " nor " << n_expr
+                    << " is |nullptr| where" << std::endl;
+    result = result << m_expr << " = " << *m << std::endl;
+    result = result << n_expr << " = " << *n;
+  } else {
+    if (!m) {
+      result = result << m_expr << " is |nullptr| while " << n_expr
+                      << " is not.";
+    } else {
+      result = result << n_expr << " is |nullptr| while " << m_expr
+                      << " is not.";
+    }
+  }
+
+  return result;
 }
 
 } // namespace lcd

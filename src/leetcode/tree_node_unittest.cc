@@ -155,11 +155,15 @@ TEST(TreeNode, MacroExpectComparison) {
   auto *l3 =
       new TreeNode(1, new TreeNode(2, new TreeNode(4), nullptr), nullptr);
   auto *l4 = TreeNode::FromVector({1, 2, null, 3});
+  TreeNode *l5 = nullptr;
 
   EXPECT_TREENODE_EQ(l1, l2);
   EXPECT_TREENODE_NE(l2, l3);
   EXPECT_TREENODE_NE(l1, l3);
   EXPECT_TREENODE_EQ(l1, l4);
+  EXPECT_TREENODE_NE(l1, l5);
+  EXPECT_TREENODE_NE(l2, l5);
+  EXPECT_TREENODE_NE(l3, l5);
   TreeNode::Release(l1, l2, l3, l4);
 }
 

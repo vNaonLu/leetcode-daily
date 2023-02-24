@@ -205,6 +205,7 @@ TEST(ListNode, MacroExpectComparison) {
   auto *l3 = new ListNode(1, new ListNode(2, l3_loop));
   l3_loop->next = l3;
   auto *l4 = ListNode::FromVector({1, 2, 3}, 0);
+  ListNode *l5 = nullptr;
 
   EXPECT_LISTNODE_EQ(l1, l2);
   EXPECT_LISTNODE_NE(l1, l3);
@@ -212,6 +213,9 @@ TEST(ListNode, MacroExpectComparison) {
   EXPECT_LISTNODE_NE(l2, l3);
   EXPECT_LISTNODE_EQ(l2, l4);
   EXPECT_LISTNODE_NE(l3, l4);
+  EXPECT_LISTNODE_NE(l1, l5);
+  EXPECT_LISTNODE_NE(l2, l5);
+  EXPECT_LISTNODE_NE(l3, l5);
   ListNode::Release(l1, l2, l3, l4);
 }
 
