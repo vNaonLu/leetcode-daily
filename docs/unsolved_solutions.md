@@ -1,6 +1,6 @@
 # Unsolved Solutions List
 
-There are **1687** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
+There are **1686** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
 
 The questions which have been solved are not shown in this page, more information about solved questions can be found at [docs/solved_solutions.md](./solved_solutions.md).
 
@@ -1411,7 +1411,6 @@ The questions which have been solved are not shown in this page, more informatio
 |2254|[Design Video Sharing Platform](https://leetcode.com/problems/design-video-sharing-platform/)|Hard|🔒|
 |2257|[Count Unguarded Cells in the Grid](https://leetcode.com/problems/count-unguarded-cells-in-the-grid/)|Medium||
 |2258|[Escape the Spreading Fire](https://leetcode.com/problems/escape-the-spreading-fire/)|Hard||
-|2259|[Remove Digit From Number to Maximize Result](https://leetcode.com/problems/remove-digit-from-number-to-maximize-result/)|Easy||
 |2260|[Minimum Consecutive Cards to Pick Up](https://leetcode.com/problems/minimum-consecutive-cards-to-pick-up/)|Medium||
 |2261|[K Divisible Elements Subarrays](https://leetcode.com/problems/k-divisible-elements-subarrays/)|Medium||
 |2262|[Total Appeal of A String](https://leetcode.com/problems/total-appeal-of-a-string/)|Hard||

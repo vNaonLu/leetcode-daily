@@ -1,6 +1,6 @@
 # Solved Solutions List
 
-This document contains **886** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
+This document contains **887** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
 
 Some questions which are still being resolved are not shown in this page, more information about unsolved questions can be found at [docs/unsolved_solutions.md](./unsolved_solutions.md).
 
@@ -861,6 +861,7 @@ Some questions which are still being resolved are not shown in this page, more i
 |2248|[Intersection of Multiple Arrays](https://leetcode.com/problems/intersection-of-multiple-arrays/)|[src/q_2201_2250/q2248.cc](../src/q_2201_2250/q2248.cc)|2023/01/10 14:06|
 |2255|[Count Prefixes of a Given String](https://leetcode.com/problems/count-prefixes-of-a-given-string/)|[src/q_2251_2300/q2255.cc](../src/q_2251_2300/q2255.cc)|2023/01/08 21:09|
 |2256|[Minimum Average Difference](https://leetcode.com/problems/minimum-average-difference/)|[src/q_2251_2300/q2256.cc](../src/q_2251_2300/q2256.cc)|2022/12/04 13:55|
+|2259|[Remove Digit From Number to Maximize Result](https://leetcode.com/problems/remove-digit-from-number-to-maximize-result/)|[src/q_2251_2300/q2259.cc](../src/q_2251_2300/q2259.cc)|2023/02/24 15:26|
 |2264|[Largest 3-Same-Digit Number in String](https://leetcode.com/problems/largest-3-same-digit-number-in-string/)|[src/q_2251_2300/q2264.cc](../src/q_2251_2300/q2264.cc)|2023/02/21 01:17|
 |2266|[Count Number of Texts](https://leetcode.com/problems/count-number-of-texts/)|[src/q_2251_2300/q2266.cc](../src/q_2251_2300/q2266.cc)|2022/06/01 18:04|
 |2274|[Maximum Consecutive Floors Without Special Floors](https://leetcode.com/problems/maximum-consecutive-floors-without-special-floors/)|[src/q_2251_2300/q2274.cc](../src/q_2251_2300/q2274.cc)|2022/07/11 18:21|
