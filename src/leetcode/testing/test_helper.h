@@ -1,5 +1,5 @@
-#ifndef TESTING_TEST_HELPER_H_
-#define TESTING_TEST_HELPER_H_
+#ifndef LEETCODE_TESTING_TEST_HELPER_H_
+#define LEETCODE_TESTING_TEST_HELPER_H_
 
 #include "gtest/gtest-printers.h"
 #include "gtest/gtest.h"

@@ -1,6 +1,10 @@
 #ifndef LEETCODE_LIST_NODE_H_
 #define LEETCODE_LIST_NODE_H_
 
+#ifdef TESTING_SOLUTION_HELPER_H_
+#error list_node.h must be included before solution_test_helper.h
+#endif
+
 #include "leetcode/leetcode_helper.h"
 #include <cstdint>
 #include <ostream>
