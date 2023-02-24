@@ -5,7 +5,20 @@
 using namespace std;
 using namespace lcd;
 
-TEST(TreeNode, Construct) {
+class TreeNodeTest : public ::testing::Test {
+protected:
+  void SetUp() override {
+    TreeNode::ReleaseAll();
+    ASSERT_EQ(TreeNode::CheckRemainRefs(), 0);
+  }
+
+  void TearDown() override {
+    TreeNode::ReleaseAll();
+    ASSERT_EQ(TreeNode::CheckRemainRefs(), 0);
+  }
+};
+
+TEST_F(TreeNodeTest, Construct) {
   TreeNode node1;
   TreeNode node2(10);
   TreeNode node3(20, &node1, &node2);
@@ -33,7 +46,7 @@ TEST(TreeNode, Construct) {
   EXPECT_EQ(node5.right, nullptr);
 }
 
-TEST(TreeNode, GetChild) {
+TEST_F(TreeNodeTest, GetChild) {
   TreeNode node7;
   TreeNode node6;
   TreeNode node5(0, &node6, &node7);
@@ -53,14 +66,14 @@ TEST(TreeNode, GetChild) {
   EXPECT_EQ(node1.GetChild(8), nullptr);
 }
 
-TEST(TreeNode, ReleaseManual) {
+TEST_F(TreeNodeTest, ReleaseManual) {
   auto *node = new TreeNode();
   EXPECT_EQ(TreeNode::CheckRemainRefs(), 1);
   delete node;
   EXPECT_EQ(TreeNode::CheckRemainRefs(), 0);
 }
 
-TEST(TreeNode, ReleaseChain) {
+TEST_F(TreeNodeTest, ReleaseChain) {
   auto *node7 = new TreeNode();
   auto *node6 = new TreeNode();
   auto *node5 = new TreeNode(0, node6, node7);
@@ -74,7 +87,7 @@ TEST(TreeNode, ReleaseChain) {
   EXPECT_EQ(TreeNode::CheckRemainRefs(), 0);
 }
 
-TEST(TreeNode, ReleaseMultiple) {
+TEST_F(TreeNodeTest, ReleaseMultiple) {
   auto *l1 = new TreeNode();
   auto *l2 = new TreeNode();
   EXPECT_EQ(TreeNode::CheckRemainRefs(), 2);
@@ -83,7 +96,7 @@ TEST(TreeNode, ReleaseMultiple) {
   EXPECT_EQ(TreeNode::CheckRemainRefs(), 0);
 }
 
-TEST(TreeNode, ReleaseMultipleChain) {
+TEST_F(TreeNodeTest, ReleaseMultipleChain) {
   auto *l1 = new TreeNode(0, new TreeNode(0, new TreeNode(), nullptr), nullptr);
   auto *l2 = new TreeNode(0, nullptr, new TreeNode(0, nullptr, new TreeNode()));
   EXPECT_EQ(TreeNode::CheckRemainRefs(), 6);
@@ -92,7 +105,7 @@ TEST(TreeNode, ReleaseMultipleChain) {
   EXPECT_EQ(TreeNode::CheckRemainRefs(), 0);
 }
 
-TEST(TreeNode, ReleaseWithModified) {
+TEST_F(TreeNodeTest, ReleaseWithModified) {
   auto *l1 = new TreeNode(0, new TreeNode(0, new TreeNode(), nullptr), nullptr);
   auto *replace = new TreeNode();
   replace->left = l1->left->left;
@@ -107,7 +120,7 @@ TEST(TreeNode, ReleaseWithModified) {
   EXPECT_EQ(TreeNode::CheckRemainRefs(), 0);
 }
 
-TEST(TreeNode, FromVector) {
+TEST_F(TreeNodeTest, FromVector) {
   auto *node = TreeNode::FromVector({1, 2, 3, null, 5, 6});
   EXPECT_EQ(TreeNode::CheckRemainRefs(), 5);
 
@@ -131,7 +144,7 @@ TEST(TreeNode, FromVector) {
   EXPECT_EQ(TreeNode::CheckRemainRefs(), 0);
 }
 
-TEST(TreeNode, ExpectComparison) {
+TEST_F(TreeNodeTest, ExpectComparison) {
   auto *l1 =
       new TreeNode(1, new TreeNode(2, new TreeNode(3), nullptr), nullptr);
   auto *l2 =
@@ -147,7 +160,7 @@ TEST(TreeNode, ExpectComparison) {
   TreeNode::Release(l1, l2, l3, l4);
 }
 
-TEST(TreeNode, MacroExpectComparison) {
+TEST_F(TreeNodeTest, MacroExpectComparison) {
   auto *l1 =
       new TreeNode(1, new TreeNode(2, new TreeNode(3), nullptr), nullptr);
   auto *l2 =
@@ -167,7 +180,7 @@ TEST(TreeNode, MacroExpectComparison) {
   TreeNode::Release(l1, l2, l3, l4);
 }
 
-TEST(TreeNode, LiteralSerialization) {
+TEST_F(TreeNodeTest, LiteralSerialization) {
   auto *node1 = TreeNode::FromVector({1, 2, null, 3, 4, null, 5});
   std::ostringstream ss;
 
@@ -179,7 +192,7 @@ TEST(TreeNode, LiteralSerialization) {
   TreeNode::Release(node1);
 }
 
-TEST(TreeNode, ReleaseAll) {
+TEST_F(TreeNodeTest, ReleaseAll) {
   auto *l1 =
       new TreeNode(1, new TreeNode(2, new TreeNode(3), nullptr), nullptr);
   auto *l2 =

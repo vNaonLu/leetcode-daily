@@ -4,7 +4,20 @@
 using namespace std;
 using namespace lcd;
 
-TEST(ListNode, Construct) {
+class ListNodeTest : public ::testing::Test {
+protected:
+  void SetUp() override {
+    ListNode::ReleaseAll();
+    ASSERT_EQ(ListNode::CheckRemainRefs(), 0);
+  }
+
+  void TearDown() override {
+    ListNode::ReleaseAll();
+    ASSERT_EQ(ListNode::CheckRemainRefs(), 0);
+  }
+};
+
+TEST_F(ListNodeTest, Construct) {
   ListNode node1;
   ListNode node2(10);
   ListNode node3(20, &node1);
@@ -19,7 +32,7 @@ TEST(ListNode, Construct) {
   EXPECT_EQ(node3.next, &node1);
 }
 
-TEST(ListNode, GetChild) {
+TEST_F(ListNodeTest, GetChild) {
   ListNode node3;
   ListNode node2(10, &node3);
   ListNode node1(20, &node2);
@@ -31,7 +44,7 @@ TEST(ListNode, GetChild) {
   EXPECT_EQ(node1.GetChild(4), nullptr);
 }
 
-TEST(ListNode, GetChildLooped) {
+TEST_F(ListNodeTest, GetChildLooped) {
   ListNode node3;
   ListNode node2(10, &node3);
   ListNode node1(20, &node2);
@@ -43,14 +56,14 @@ TEST(ListNode, GetChildLooped) {
   EXPECT_EQ(node1.GetChild(3), nullptr);
 }
 
-TEST(ListNode, ReleaseManual) {
+TEST_F(ListNodeTest, ReleaseManual) {
   auto *p = new ListNode();
   EXPECT_EQ(ListNode::CheckRemainRefs(), 1);
   delete p;
   EXPECT_EQ(ListNode::CheckRemainRefs(), 0);
 }
 
-TEST(ListNode, ReleaseChain) {
+TEST_F(ListNodeTest, ReleaseChain) {
   auto *p = new ListNode(0, new ListNode(0, new ListNode()));
   EXPECT_EQ(ListNode::CheckRemainRefs(), 3);
 
@@ -58,7 +71,7 @@ TEST(ListNode, ReleaseChain) {
   EXPECT_EQ(ListNode::CheckRemainRefs(), 0);
 }
 
-TEST(ListNode, ReleaseLooped) {
+TEST_F(ListNodeTest, ReleaseLooped) {
   auto *loop = new ListNode();
   auto *p = new ListNode(0, new ListNode(0, loop));
   loop->next = p;
@@ -68,7 +81,7 @@ TEST(ListNode, ReleaseLooped) {
   EXPECT_EQ(ListNode::CheckRemainRefs(), 0);
 }
 
-TEST(ListNode, ReleaseMultiple) {
+TEST_F(ListNodeTest, ReleaseMultiple) {
   auto *l1 = new ListNode();
   auto *l2 = new ListNode();
   EXPECT_EQ(ListNode::CheckRemainRefs(), 2);
@@ -77,7 +90,7 @@ TEST(ListNode, ReleaseMultiple) {
   EXPECT_EQ(ListNode::CheckRemainRefs(), 0);
 }
 
-TEST(ListNode, ReleaseMultipleChain) {
+TEST_F(ListNodeTest, ReleaseMultipleChain) {
   auto *l1 = new ListNode(0, new ListNode(0, new ListNode()));
   auto *l2 = new ListNode(0, new ListNode(0, new ListNode()));
   EXPECT_EQ(ListNode::CheckRemainRefs(), 6);
@@ -86,7 +99,7 @@ TEST(ListNode, ReleaseMultipleChain) {
   EXPECT_EQ(ListNode::CheckRemainRefs(), 0);
 }
 
-TEST(ListNode, ReleaseWithModified) {
+TEST_F(ListNodeTest, ReleaseWithModified) {
   auto *l1 = new ListNode(0, new ListNode(0, new ListNode()));
   auto *replace = new ListNode();
   replace->next = l1->next->next;
@@ -101,7 +114,7 @@ TEST(ListNode, ReleaseWithModified) {
   EXPECT_EQ(ListNode::CheckRemainRefs(), 0);
 }
 
-TEST(ListNode, FromVector) {
+TEST_F(ListNodeTest, FromVector) {
   auto *node = ListNode::FromVector({1, 2, 3, 4, 5});
   EXPECT_EQ(ListNode::CheckRemainRefs(), 5);
 
@@ -125,7 +138,7 @@ TEST(ListNode, FromVector) {
   EXPECT_EQ(ListNode::CheckRemainRefs(), 0);
 }
 
-TEST(ListNode, FromVectorLooped) {
+TEST_F(ListNodeTest, FromVectorLooped) {
   auto *node = ListNode::FromVector({1, 2, 3, 4, 5}, 0);
   EXPECT_EQ(ListNode::CheckRemainRefs(), 5);
 
@@ -150,7 +163,7 @@ TEST(ListNode, FromVectorLooped) {
   EXPECT_EQ(ListNode::CheckRemainRefs(), 0);
 }
 
-TEST(ListNode, ExpectComparison) {
+TEST_F(ListNodeTest, ExpectComparison) {
   auto *l1 = new ListNode(1, new ListNode(2, new ListNode(3)));
   auto *l2 = new ListNode(1, new ListNode(2, new ListNode(3)));
   auto *l3 = new ListNode(1, new ListNode(2, new ListNode(4)));
@@ -163,7 +176,7 @@ TEST(ListNode, ExpectComparison) {
   ListNode::Release(l1, l2, l3, l4);
 }
 
-TEST(ListNode, ExpectComparisonLooped) {
+TEST_F(ListNodeTest, ExpectComparisonLooped) {
   auto *l1_loop = new ListNode(3);
   auto *l2_loop = new ListNode(3);
   auto *l3_loop = new ListNode(4);
@@ -184,7 +197,7 @@ TEST(ListNode, ExpectComparisonLooped) {
   ListNode::Release(l1, l2, l3, l4);
 }
 
-TEST(ListNode, ExpectComparisonStaggerd) {
+TEST_F(ListNodeTest, ExpectComparisonStaggerd) {
   auto *l1_loop = new ListNode(3);
   auto *l1 = new ListNode(1, new ListNode(2, l1_loop));
   l1_loop->next = l1;
@@ -194,7 +207,7 @@ TEST(ListNode, ExpectComparisonStaggerd) {
   ListNode::Release(l1, l2);
 }
 
-TEST(ListNode, MacroExpectComparison) {
+TEST_F(ListNodeTest, MacroExpectComparison) {
   auto *l1_loop = new ListNode(3);
   auto *l2_loop = new ListNode(3);
   auto *l3_loop = new ListNode(4);
@@ -219,7 +232,7 @@ TEST(ListNode, MacroExpectComparison) {
   ListNode::Release(l1, l2, l3, l4);
 }
 
-TEST(ListNode, LiteralSerialization) {
+TEST_F(ListNodeTest, LiteralSerialization) {
   auto *node1 = ListNode::FromVector({1, 2, 3, 4, 5});
   auto *looped = ListNode::FromVector({1, 2, 3, 4, 5}, 2);
   std::ostringstream ss;
@@ -238,7 +251,7 @@ TEST(ListNode, LiteralSerialization) {
   ListNode::Release(node1);
 }
 
-TEST(ListNode, ReleaseAll) {
+TEST_F(ListNodeTest, ReleaseAll) {
   auto *l1_loop = new ListNode(3);
   auto *l2_loop = new ListNode(3);
   auto *l3_loop = new ListNode(4);
