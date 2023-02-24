@@ -141,11 +141,8 @@ def _addProcess(*,
 
     test_passed = False
     while not test_passed:
-        try:
-            test_passed = ldtBuildImpl(build_path=build_path) == 0 and \
-                ldtRunImpl(build_path=build_path, infra_test=False, ids=[ID]) == 0
-        except InterruptedError:
-            pass
+        test_passed = ldtBuildImpl(build_path=build_path) == 0 and \
+            ldtRunImpl(build_path=build_path, infra_test=False, ids=[ID]) == 0
 
         if test_passed:
             LOG.log("while passed all local test cases, "

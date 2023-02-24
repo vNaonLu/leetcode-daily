@@ -333,23 +333,28 @@ def ldtBuildImpl(*, build_path: Path, build_args: str = ""):
 
     TASK = LOG.createTaskLog("Build Project")
 
+
     def stdoutCallback(out: str):
         percent, msg = parseBuildLog(out)
         TASK.log(msg, percent=percent)
         LOG.verbose(out)
 
-    with launchSubprocess(CMD) as proc:
-        TASK.begin()
-        asyncStdout(proc, stdoutCallback)
+    try:
+        with launchSubprocess(CMD) as proc:
+            TASK.begin()
+            asyncStdout(proc, stdoutCallback)
 
-        if proc.poll() != 0:
-            TASK.done("failed to build in {}.", ARG_BUILD_PATH, is_success=False)
-            LOG.print(proc.stderr.read(), flag=LOG.VERBOSE)
-            return 1
+            if proc.poll() != 0:
+                TASK.done("failed to build in {}.", ARG_BUILD_PATH, is_success=False)
+                LOG.print(proc.stderr.read(), flag=LOG.VERBOSE)
+                return 1
 
-        TASK.done("successfully built in {}.", ARG_BUILD_PATH, is_success=True)
-
-    return 0
+            TASK.done("successfully built in {}.", ARG_BUILD_PATH, is_success=True)
+            return 0
+    except KeyboardInterrupt:
+        if TASK.isActive():
+            TASK.done("interrupted by user.", is_success=False)
+        return 1
 
 
 def ldtRunImpl(*, build_path: Path, infra_test: bool, ids: list[int] = []):
@@ -395,40 +400,45 @@ def ldtRunImpl(*, build_path: Path, infra_test: bool, ids: list[int] = []):
 
         TASK = LOG.createTaskLog("Run Tests")
 
-        with launchSubprocess(CMD) as proc:
-            TASK.begin("running the executable: {}", executable)
-            result = proc.stdout.read()
-            TASK.log("parsing the test logs.")
-            LOG.verbose(result.replace('\n', '\n    '))
-            passed = parsePassedIds(result)
-            failed = parseFailedTests(result)
+        try:
+            with launchSubprocess(CMD) as proc:
+                TASK.begin("running the executable: {}", executable)
+                result = proc.stdout.read()
+                TASK.log("parsing the test logs.")
+                LOG.verbose(result.replace('\n', '\n    '))
+                passed = parsePassedIds(result)
+                failed = parseFailedTests(result)
 
-            missing_ids = []
-            for id in ARG_IDS:
-                if id not in passed and id not in failed:
-                    missing_ids.append(id)
+                missing_ids = []
+                for id in ARG_IDS:
+                    if id not in passed and id not in failed:
+                        missing_ids.append(id)
 
-            if len(failed) == 0 and len(missing_ids) == 0:
-                TASK.done("passed all tests.",
-                          LOG.format(len(passed), flag=LOG.HIGHTLIGHT), is_success=True)
-                return 0
+                if len(failed) == 0 and len(missing_ids) == 0:
+                    TASK.done("passed all tests.",
+                            LOG.format(len(passed), flag=LOG.HIGHTLIGHT), is_success=True)
+                    return 0
 
-            elif len(failed) == 0 and len(missing_ids) > 0:
-                TASK.done("solutions without any tests: {}", list(missing_ids), is_success=False)
-                return 1
+                elif len(failed) == 0 and len(missing_ids) > 0:
+                    TASK.done("solutions without any tests: {}", list(missing_ids), is_success=False)
+                    return 1
 
-            else:
-                TASK.done("failed on test(s): {}", list(failed), is_success=False)
+                else:
+                    TASK.done("failed on test(s): {}", list(failed), is_success=False)
 
-                for test in failed:
-                    LOG.failure("{} failed to pass:", LOG.format(test, flag=LOG.HIGHTLIGHT))
-                    block = parseTestBlock(result, test)
-                    LOG.print(block, flag=LOG.VERBOSE)
+                    for test in failed:
+                        LOG.failure("{} failed to pass:", LOG.format(test, flag=LOG.HIGHTLIGHT))
+                        block = parseTestBlock(result, test)
+                        LOG.print(block, flag=LOG.VERBOSE)
 
-                if len(missing_ids) > 1:
-                    LOG.failure("there is no tests for the solution: {}", list(missing_ids))
+                    if len(missing_ids) > 1:
+                        LOG.failure("there is no tests for the solution: {}", list(missing_ids))
 
-                return 1
+                    return 1
+        except KeyboardInterrupt:
+            if TASK.isActive():
+                TASK.done("interrupted by user.", is_success=False)
+            return 1
 
 
 def ldtRemoveImpl(*, src_path: Path, resolve_logs: ResolveLogsFile, ids: list[int]):

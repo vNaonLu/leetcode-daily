@@ -185,6 +185,9 @@ class _LogImpl(_PrintTool):
             with self._lock:
                 self._percent = percent
                 self._msg = self.__log.format(msg, *arg)
+        
+        def isActive(self):
+            return self._is_running
 
         def begin(self, msg: str = "", *arg):
             assert not self._is_running
