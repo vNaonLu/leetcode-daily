@@ -15,7 +15,7 @@ TEST(ExpectAnyOrder, Depth0) {
 TEST(ExpectAnyOrder, Depth1) {
   vector<vector<int>> expect_int{
       {1, 2, 3, 4, 5},
-      {6, 7, 8, 9, 0}
+      {6, 7, 8, 9, 1}
   };
   vector<vector<int>> actual_int{
       {5, 4, 3, 2, 1},

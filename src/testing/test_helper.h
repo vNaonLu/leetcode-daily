@@ -3,6 +3,8 @@
 
 #include "gtest/gtest.h"
 #include <concepts>
+#include <gtest/gtest-printers.h>
+#include <gtest/internal/gtest-internal.h>
 #include <type_traits>
 
 namespace lcd {
@@ -23,7 +25,12 @@ concept Sortable = requires(T item, typename T::value_type val) {
 } // namespace detail
 
 template <size_t kDepth, detail::Sortable T>
-void CompareInAnyOrder(T expect, T actual) noexcept;
+bool CompareInAnyOrder(T expect, T actual) noexcept;
+
+template <size_t kDepth, detail::Sortable T, bool Equal>
+testing::AssertionResult AssertCompareInAnyOrder(const char *m_expr,
+                                                 const char *n_expr, T const &m,
+                                                 T const &n) noexcept;
 
 template <typename T>
 bool LCDNodeCheck(T const *node_1, T const *node_2) noexcept;
@@ -49,9 +56,13 @@ testing::AssertionResult AssertLCDNodeCheck(const char *m_expr,
   EXPECT_PRED_FORMAT2((AssertLCDNodeCheck<::lcd::ListNode, false>), node_1,    \
                       node_2)
 
-#define EXPECT_ANYORDER_EQ(expect, actual) CompareInAnyOrder<0>(expect, actual)
+#define EXPECT_ANYORDER_EQ(expect, actual)                                     \
+  EXPECT_PRED_FORMAT2((AssertCompareInAnyOrder<0, decltype(expect), true>),    \
+                      expect, actual)
 #define EXPECT_ANYORDER_WITH_DEPTH_EQ(depth, expect, actual)                   \
-  CompareInAnyOrder<depth>(expect, actual)
+  EXPECT_PRED_FORMAT2(                                                         \
+      (AssertCompareInAnyOrder<depth, decltype(expect), true>), expect,        \
+      actual)
 
 namespace lcd {
 
@@ -70,10 +81,30 @@ inline void SortItem(T *item) {
 } // namespace detail
 
 template <size_t kDepth, detail::Sortable T>
-inline void CompareInAnyOrder(T expect, T actual) noexcept {
+inline bool CompareInAnyOrder(T expect, T actual) noexcept {
   detail::SortItem<kDepth>(&expect);
   detail::SortItem<kDepth>(&actual);
-  EXPECT_EQ(expect, actual);
+  return expect == actual;
+}
+
+template <size_t kDepth, detail::Sortable T, bool Equal>
+testing::AssertionResult AssertCompareInAnyOrder(const char *m_expr,
+                                                 const char *n_expr, T const &m,
+                                                 T const &n) noexcept {
+  if constexpr (Equal) {
+    if (CompareInAnyOrder<kDepth>(m, n)) {
+      return testing::AssertionSuccess();
+    }
+  } else {
+    if (!CompareInAnyOrder<kDepth>(m, n)) {
+      return testing::AssertionSuccess();
+    }
+  }
+
+  auto res = testing::AssertionFailure();
+  res      = res << m_expr << " = " << testing::PrintToString(m) << std::endl;
+  res      = res << n_expr << " = " << testing::PrintToString(n);
+  return res;
 }
 
 template <typename T>
