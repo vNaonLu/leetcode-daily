@@ -131,7 +131,7 @@ TEST(TreeNode, FromVector) {
   EXPECT_EQ(TreeNode::CheckRemainRefs(), 0);
 }
 
-TEST(TreeNode, Equal) {
+TEST(TreeNode, ExpectComparison) {
   auto *l1 =
       new TreeNode(1, new TreeNode(2, new TreeNode(3), nullptr), nullptr);
   auto *l2 =
@@ -147,16 +147,20 @@ TEST(TreeNode, Equal) {
   TreeNode::Release(l1, l2, l3, l4);
 }
 
-TEST(TreeNode, MacroEqual) {
+TEST(TreeNode, MacroExpectComparison) {
   auto *l1 =
       new TreeNode(1, new TreeNode(2, new TreeNode(3), nullptr), nullptr);
   auto *l2 =
       new TreeNode(1, new TreeNode(2, new TreeNode(3), nullptr), nullptr);
-  auto *l3 = TreeNode::FromVector({1, 2, null, 3});
+  auto *l3 =
+      new TreeNode(1, new TreeNode(2, new TreeNode(4), nullptr), nullptr);
+  auto *l4 = TreeNode::FromVector({1, 2, null, 3});
 
   EXPECT_TREENODE_EQ(l1, l2);
-  EXPECT_TREENODE_EQ(l1, l3);
-  TreeNode::Release(l1, l2, l3);
+  EXPECT_TREENODE_NE(l2, l3);
+  EXPECT_TREENODE_NE(l1, l3);
+  EXPECT_TREENODE_EQ(l1, l4);
+  TreeNode::Release(l1, l2, l3, l4);
 }
 
 TEST(TreeNode, LiteralSerialization) {

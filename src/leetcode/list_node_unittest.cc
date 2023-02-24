@@ -150,7 +150,7 @@ TEST(ListNode, FromVectorLooped) {
   EXPECT_EQ(ListNode::CheckRemainRefs(), 0);
 }
 
-TEST(ListNode, Equal) {
+TEST(ListNode, ExpectComparison) {
   auto *l1 = new ListNode(1, new ListNode(2, new ListNode(3)));
   auto *l2 = new ListNode(1, new ListNode(2, new ListNode(3)));
   auto *l3 = new ListNode(1, new ListNode(2, new ListNode(4)));
@@ -163,7 +163,7 @@ TEST(ListNode, Equal) {
   ListNode::Release(l1, l2, l3, l4);
 }
 
-TEST(ListNode, EqualLooped) {
+TEST(ListNode, ExpectComparisonLooped) {
   auto *l1_loop = new ListNode(3);
   auto *l2_loop = new ListNode(3);
   auto *l3_loop = new ListNode(4);
@@ -184,7 +184,7 @@ TEST(ListNode, EqualLooped) {
   ListNode::Release(l1, l2, l3, l4);
 }
 
-TEST(ListNode, EqualStaggerd) {
+TEST(ListNode, ExpectComparisonStaggerd) {
   auto *l1_loop = new ListNode(3);
   auto *l1 = new ListNode(1, new ListNode(2, l1_loop));
   l1_loop->next = l1;
@@ -194,19 +194,25 @@ TEST(ListNode, EqualStaggerd) {
   ListNode::Release(l1, l2);
 }
 
-TEST(ListNode, MacroEquel) {
+TEST(ListNode, MacroExpectComparison) {
   auto *l1_loop = new ListNode(3);
   auto *l2_loop = new ListNode(3);
+  auto *l3_loop = new ListNode(4);
   auto *l1 = new ListNode(1, new ListNode(2, l1_loop));
   l1_loop->next = l1;
   auto *l2 = new ListNode(1, new ListNode(2, l2_loop));
   l2_loop->next = l2;
-  auto *l3 = ListNode::FromVector({1, 2, 3}, 0);
+  auto *l3 = new ListNode(1, new ListNode(2, l3_loop));
+  l3_loop->next = l3;
+  auto *l4 = ListNode::FromVector({1, 2, 3}, 0);
 
   EXPECT_LISTNODE_EQ(l1, l2);
-  EXPECT_LISTNODE_EQ(l1, l3);
-  EXPECT_LISTNODE_EQ(l2, l3);
-  ListNode::Release(l1, l2, l3);
+  EXPECT_LISTNODE_NE(l1, l3);
+  EXPECT_LISTNODE_EQ(l1, l4);
+  EXPECT_LISTNODE_NE(l2, l3);
+  EXPECT_LISTNODE_EQ(l2, l4);
+  EXPECT_LISTNODE_NE(l3, l4);
+  ListNode::Release(l1, l2, l3, l4);
 }
 
 TEST(ListNode, LiteralSerialization) {

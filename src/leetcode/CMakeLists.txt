@@ -12,6 +12,7 @@ message(STATUS "ENABLE_INFRA_TEST = ${ENABLE_INFRA_TEST}")
 
 if(${ENABLE_INFRA_TEST})
   set(LEETCODE_HELPER_TEST_SOURCES
+    "expect_anyorder_unittest.cc"
     "list_node_unittest.cc"
     "tree_node_unittest.cc")
 

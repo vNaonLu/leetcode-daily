@@ -4,23 +4,43 @@
 
 namespace lcd {
 
-void CompareTreeNodePtr(TreeNode const *tree_node_1,
-                        TreeNode const *tree_node_2) noexcept {
+namespace detail {
+
+template <typename T>
+void ExpectNodesEqual(T const *expect, T const *actual) {
   // check whether nodes are both nullptr or not.
-  ASSERT_EQ(!tree_node_1, !tree_node_2);
+  ASSERT_EQ(!expect, !actual);
   // if passed the pointer check, check their value.
-  if (tree_node_1 && tree_node_2) {
-    EXPECT_EQ(*tree_node_1, *tree_node_2);
+  if (expect && actual) {
+    EXPECT_EQ(*expect, *actual);
   }
 }
 
-void CompareLiseNodePtr(ListNode const *list_node_1,
-                        ListNode const *list_node_2) noexcept {
-  // check whether nodes are both nullptr or not.
-  ASSERT_EQ(!list_node_1, !list_node_2);
+template <typename T>
+void ExpectNodesNotEqual(T const *expect, T const *actual) {
   // if passed the pointer check, check their value.
-  if (list_node_1 && list_node_2) {
-    EXPECT_EQ(*list_node_1, *list_node_2);
+  if (expect && actual) {
+    EXPECT_NE(*expect, *actual);
+  }
+}
+
+} // namespace detail
+
+void CompareTreeNodePtr(TreeNode const *expect, TreeNode const *actual,
+                        bool result) noexcept {
+  if (result) {
+    detail::ExpectNodesEqual(expect, actual);
+  } else {
+    detail::ExpectNodesNotEqual(expect, actual);
+  }
+}
+
+void CompareLiseNodePtr(ListNode const *expect, ListNode const *actual,
+                        bool result) noexcept {
+  if (result) {
+    detail::ExpectNodesEqual(expect, actual);
+  } else {
+    detail::ExpectNodesNotEqual(expect, actual);
   }
 }
 
