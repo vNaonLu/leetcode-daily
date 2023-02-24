@@ -18,7 +18,7 @@ if(${ENABLE_INFRA_TEST})
   add_executable(leetcode_helper_test ${LEETCODE_HELPER_TEST_SOURCES})
   target_link_libraries(
     leetcode_helper_test
+    PRIVATE gtest_helper
     PRIVATE leetcode_helper
-    PRIVATE gtest_main
   )
 endif(${ENABLE_INFRA_TEST})

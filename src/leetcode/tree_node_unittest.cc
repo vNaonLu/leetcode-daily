@@ -1,5 +1,5 @@
 #include "leetcode/tree_node.h"
-#include "gtest/gtest.h"
+#include "testing/test_helper.h"
 
 using namespace std;
 using namespace lcd;
