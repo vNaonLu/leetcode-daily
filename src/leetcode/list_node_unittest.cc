@@ -237,3 +237,20 @@ TEST(ListNode, LiteralSerialization) {
 
   ListNode::Release(node1);
 }
+
+TEST(ListNode, ReleaseAll) {
+  auto *l1_loop = new ListNode(3);
+  auto *l2_loop = new ListNode(3);
+  auto *l3_loop = new ListNode(4);
+  auto *l1 = new ListNode(1, new ListNode(2, l1_loop));
+  l1_loop->next = l1;
+  auto *l2 = new ListNode(1, new ListNode(2, l2_loop));
+  l2_loop->next = l2;
+  auto *l3 = new ListNode(1, new ListNode(2, l3_loop));
+  l3_loop->next = l3;
+  auto *l4 = ListNode::FromVector({1, 2, 3}, 0);
+  ListNode *l5 = nullptr;
+
+  ListNode::ReleaseAll();
+  EXPECT_EQ(ListNode::CheckRemainRefs(), 0);
+}

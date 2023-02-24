@@ -178,3 +178,16 @@ TEST(TreeNode, LiteralSerialization) {
 
   TreeNode::Release(node1);
 }
+
+TEST(TreeNode, ReleaseAll) {
+  auto *l1 =
+      new TreeNode(1, new TreeNode(2, new TreeNode(3), nullptr), nullptr);
+  auto *l2 =
+      new TreeNode(1, new TreeNode(2, new TreeNode(3), nullptr), nullptr);
+  auto *l3 =
+      new TreeNode(1, new TreeNode(2, new TreeNode(4), nullptr), nullptr);
+  auto *l4 = TreeNode::FromVector({1, 2, null, 3});
+
+  TreeNode::ReleaseAll();
+  EXPECT_EQ(TreeNode::CheckRemainRefs(), 0);
+}

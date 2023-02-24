@@ -7,6 +7,7 @@
 #include <cstdint>
 #include <optional>
 #include <unordered_set>
+#include <vector>
 
 #define LCD_INLINE_VARIABLE inline static
 
@@ -35,6 +36,8 @@ public:
 
   template <typename S>
   static bool CheckValid(S *node) noexcept;
+
+  static void ReleaseAll() noexcept;
 
   template <typename S, typename... Ss>
   requires std::derived_from<S, AllocationCounted<S>>
@@ -72,6 +75,15 @@ template <typename T>
 template <typename S>
 inline bool AllocationCounted<T>::CheckValid(S *node) noexcept {
   return static_record_.count(reinterpret_cast<void *>(node));
+}
+
+template <typename T>
+inline void AllocationCounted<T>::ReleaseAll() noexcept {
+  std::vector<T *> all_refs;
+  for (auto ptr : static_record_) {
+    all_refs.emplace_back(reinterpret_cast<T*>(ptr));
+  }
+  Release(all_refs.begin(), all_refs.end());
 }
 
 template <typename T>
