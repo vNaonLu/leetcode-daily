@@ -1,3 +1,5 @@
+add_subdirectory(testing)
+
 set(LEETCODE_HELPER_SOURCES
   "list_node.cc"
   "tree_node.cc")

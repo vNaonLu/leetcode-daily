@@ -1,5 +1,5 @@
 #include "leetcode/tree_node.h"
-#include "testing/test_helper.h"
+#include "leetcode/testing/test_helper.h"
 #include <sstream>
 
 using namespace std;

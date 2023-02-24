@@ -1,5 +1,4 @@
 #include "leetcode/tree_node.h"
-#include <__algorithm/remove_if.h>
 #include <ostream>
 #include <queue>
 #include <string>
