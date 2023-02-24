@@ -1,10 +1,10 @@
 #ifndef TESTING_TEST_HELPER_H_
 #define TESTING_TEST_HELPER_H_
 
+#include "gtest/gtest-printers.h"
 #include "gtest/gtest.h"
+#include "gtest/internal/gtest-internal.h"
 #include <concepts>
-#include <gtest/gtest-printers.h>
-#include <gtest/internal/gtest-internal.h>
 #include <type_traits>
 
 namespace lcd {
@@ -22,38 +22,50 @@ concept Sortable = requires(T item, typename T::value_type val) {
                      item.end();
                      { val < val } -> IsSameAs<bool>;
                    };
+
+template <typename T>
+concept LCDNodeType = requires(T object, size_t idx) {
+                        { object->GetChild(idx) } -> IsSameAs<T>;
+                        { object->GetChildren() } -> IsSameAs<std::vector<T>>;
+                      };
+
+template <typename T>
+class CompareLTHelper;
+
+template <typename T>
+class CompareHelper;
+
 } // namespace detail
 
 template <size_t kDepth, detail::Sortable T>
-bool CompareInAnyOrder(T expect, T actual) noexcept;
+bool CompareInAnyOrder(T lhs, T rhs) noexcept;
 
 template <size_t kDepth, detail::Sortable T, bool Equal>
 testing::AssertionResult AssertCompareInAnyOrder(const char *m_expr,
                                                  const char *n_expr, T const &m,
                                                  T const &n) noexcept;
 
-template <typename T>
+template <detail::LCDNodeType T>
 bool LCDNodeCheck(T const *node_1, T const *node_2) noexcept;
 
-template <typename T, bool Equal>
-testing::AssertionResult AssertLCDNodeCheck(const char *m_expr,
-                                            const char *n_expr, T const *m,
-                                            T const *n) noexcept;
+template <detail::LCDNodeType T, bool Equal>
+testing::AssertionResult
+AssertLCDNodeCheck(const char *m_expr, const char *n_expr, T m, T n) noexcept;
 
 } // namespace lcd
 
 #define EXPECT_TREENODE_EQ(node_1, node_2)                                     \
-  EXPECT_PRED_FORMAT2((AssertLCDNodeCheck<::lcd::TreeNode, true>), node_1,     \
+  EXPECT_PRED_FORMAT2((AssertLCDNodeCheck<::lcd::TreeNode *, true>), node_1,   \
                       node_2)
 #define EXPECT_TREENODE_NE(node_1, node_2)                                     \
-  EXPECT_PRED_FORMAT2((AssertLCDNodeCheck<::lcd::TreeNode, false>), node_1,    \
+  EXPECT_PRED_FORMAT2((AssertLCDNodeCheck<::lcd::TreeNode *, false>), node_1,  \
                       node_2)
 
 #define EXPECT_LISTNODE_EQ(node_1, node_2)                                     \
-  EXPECT_PRED_FORMAT2((AssertLCDNodeCheck<::lcd::ListNode, true>), node_1,     \
+  EXPECT_PRED_FORMAT2((AssertLCDNodeCheck<::lcd::ListNode *, true>), node_1,   \
                       node_2)
 #define EXPECT_LISTNODE_NE(node_1, node_2)                                     \
-  EXPECT_PRED_FORMAT2((AssertLCDNodeCheck<::lcd::ListNode, false>), node_1,    \
+  EXPECT_PRED_FORMAT2((AssertLCDNodeCheck<::lcd::ListNode *, false>), node_1,  \
                       node_2)
 
 #define EXPECT_ANYORDER_EQ(expect, actual)                                     \
@@ -70,21 +82,87 @@ namespace detail {
 
 template <size_t kDepth, Sortable T>
 inline void SortItem(T *item) {
+  static const CompareLTHelper<typename T::value_type> content_cmp_lt{};
   if constexpr (kDepth > 0) {
     for (typename T::value_type &item_in_item : *item) {
       SortItem<kDepth - 1>(&item_in_item);
     }
   }
-  std::sort(item->begin(), item->end());
+
+  std::sort(item->begin(), item->end(), content_cmp_lt);
 }
+
+template <typename T>
+class CompareLTHelper {
+public:
+  inline bool operator()(T const &a, T const &b) const { return a < b; }
+};
+
+template <typename T>
+requires LCDNodeType<T>
+class CompareLTHelper<T> {
+public:
+  inline bool operator()(T a, T b) const { return *a < *b; }
+};
+
+template <typename T>
+class CompareHelper {
+public:
+  inline bool operator()(T const &a, T const &b) const { return a == b; }
+};
+
+template <typename T>
+requires LCDNodeType<T>
+class CompareHelper<T> {
+public:
+  inline bool operator()(T a, T b) const {
+    if (a && b) {
+      return *a == *b;
+    } else {
+      return !a && !b;
+    }
+  }
+};
+
+template <typename T>
+requires IsSameAs<T, float> || IsSameAs<T, double>
+class CompareHelper<T> {
+public:
+  inline bool operator()(T const &a, T const &b) const {
+    const ::testing::internal::FloatingPoint<T> lhs(a);
+    const ::testing::internal::FloatingPoint<T> rhs(b);
+    return lhs.AlmostEquals(rhs);
+  }
+};
+
+template <typename T>
+class CompareHelper<std::vector<T>> {
+public:
+  inline bool operator()(std::vector<T> const &a,
+                         std::vector<T> const &b) const {
+    static const CompareHelper<T> content_cmp{};
+    if (a.size() != b.size()) {
+      return false;
+    }
+
+    for (size_t i = 0; i < a.size(); ++i) {
+      if (!content_cmp(a[i], b[i])) {
+        return false;
+      }
+    }
+
+    return true;
+  }
+};
 
 } // namespace detail
 
 template <size_t kDepth, detail::Sortable T>
-inline bool CompareInAnyOrder(T expect, T actual) noexcept {
-  detail::SortItem<kDepth>(&expect);
-  detail::SortItem<kDepth>(&actual);
-  return expect == actual;
+inline bool CompareInAnyOrder(T lhs, T rhs) noexcept {
+  static const detail::CompareHelper<T> cmp_helper{};
+  detail::SortItem<kDepth>(&lhs);
+  detail::SortItem<kDepth>(&rhs);
+  return cmp_helper(lhs, rhs);
 }
 
 template <size_t kDepth, detail::Sortable T, bool Equal>
@@ -107,19 +185,15 @@ testing::AssertionResult AssertCompareInAnyOrder(const char *m_expr,
   return res;
 }
 
-template <typename T>
-inline bool LCDNodeCheck(T const *node_1, T const *node_2) noexcept {
-  if (node_1 && node_2) {
-    return *node_1 == *node_2;
-  } else {
-    return !node_1 && !node_2;
-  }
+template <detail::LCDNodeType T>
+inline bool LCDNodeCheck(T node_1, T node_2) noexcept {
+  static detail::CompareHelper<T> lcd_compare{};
+  return lcd_compare(node_1, node_2);
 }
 
-template <typename T, bool Equal>
+template <detail::LCDNodeType T, bool Equal>
 inline testing::AssertionResult
-AssertLCDNodeCheck(const char *m_expr, const char *n_expr, T const *m,
-                   T const *n) noexcept {
+AssertLCDNodeCheck(const char *m_expr, const char *n_expr, T m, T n) noexcept {
   if constexpr (Equal) {
     if (LCDNodeCheck<T>(m, n))
       return testing::AssertionSuccess();

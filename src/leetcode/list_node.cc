@@ -97,8 +97,55 @@ bool ListNode::operator==(ListNode const &rhs) const noexcept {
   return true;
 }
 
+bool ListNode::operator<(ListNode const &rhs) const noexcept {
+  auto lhs_vec = ToVector(this);
+  auto rhs_vec = ToVector(&rhs);
+
+  if (lhs_vec.size() != rhs_vec.size()) {
+    return lhs_vec.size() < rhs_vec.size();
+  }
+
+  auto lb = lhs_vec.begin();
+  auto rb = rhs_vec.begin();
+  while (lb != lhs_vec.end() && rb != rhs_vec.end()) {
+    if (lb->first->val != rb->first->val) {
+      return lb->first->val < rb->first->val;
+    }
+    ++lb;
+    ++rb;
+  }
+  return true;
+}
+
+void PrintTo(ListNode *node, ::std::ostream *os) {
+  if (!node) {
+    *os << "nullptr";
+  } else {
+    auto vec        = ToVector(node);
+    bool first_elem = true;
+
+    *os << "{";
+    for (auto [node, idx] : vec) {
+      if (!first_elem) {
+        *os << ", ";
+      }
+      first_elem = false;
+      *os << node->val;
+    }
+
+    if (!vec.empty()) {
+      if (vec.back().second != vec.size() - 1) {
+        // Loop List
+        *os << "(Loop to index-" << vec.back().second << ")";
+      }
+    }
+
+    *os << "}";
+  }
+}
+
 std::ostream &operator<<(std::ostream &stream, ListNode const &node) noexcept {
-  auto vec = ToVector(&node);
+  auto vec        = ToVector(&node);
   bool first_elem = true;
 
   stream << "{";

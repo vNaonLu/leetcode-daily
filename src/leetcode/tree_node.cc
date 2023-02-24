@@ -98,6 +98,65 @@ bool TreeNode::operator==(TreeNode const &rhs) const noexcept {
   return true;
 }
 
+bool TreeNode::operator<(TreeNode const &rhs) const noexcept {
+  auto lhs_vec = PreOrder(this);
+  auto rhs_vec = PreOrder(&rhs);
+
+  if (lhs_vec.size() != rhs_vec.size()) {
+    return lhs_vec.size() < rhs_vec.size();
+  }
+
+  auto lb = lhs_vec.begin();
+  auto rb = rhs_vec.begin();
+  while (lb != lhs_vec.end() && rb != rhs_vec.end()) {
+    if ((*lb)->val != (*rb)->val) {
+      return (*lb)->val < (*rb)->val;
+    }
+    ++lb;
+    ++rb;
+  }
+
+  return true;
+}
+
+void PrintTo(TreeNode *value, ::std::ostream *os) {
+  if (!value) {
+    *os << "nullptr";
+  } else {
+    std::queue<TreeNode const *> que;
+    std::vector<std::string>     text;
+
+    que.emplace(value);
+    while (!que.empty()) {
+      auto *current = que.front();
+      que.pop();
+      if (current) {
+        que.emplace(current->left);
+        que.emplace(current->right);
+        text.emplace_back(std::to_string(current->val));
+      } else {
+        text.emplace_back("null");
+      }
+    }
+
+    // Slice the tail null
+    while (!text.empty() && text.back() == "null") {
+      text.pop_back();
+    }
+
+    bool is_first = true;
+    *os << "{";
+    for (auto &s : text) {
+      if (!is_first) {
+        *os << ", ";
+      }
+      is_first = false;
+      *os << std::move(s);
+    }
+    *os << "}";
+  }
+}
+
 std::ostream &operator<<(std::ostream        &stream,
                          lcd::TreeNode const &node) noexcept {
   std::queue<TreeNode const *> que;

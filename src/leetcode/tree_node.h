@@ -28,9 +28,11 @@ public:
   TreeNode *GetChild(size_t preorder_idx) noexcept;
   std::vector<TreeNode *> GetChildren() noexcept;
   bool                    operator==(TreeNode const &rhs) const noexcept;
+  bool                    operator<(TreeNode const &rhs) const noexcept;
 };
 
 // Google test print
+void          PrintTo(TreeNode *value, ::std::ostream *os);
 std::ostream &operator<<(std::ostream        &stream,
                          lcd::TreeNode const &node) noexcept;
 

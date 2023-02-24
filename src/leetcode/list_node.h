@@ -27,9 +27,12 @@ public:
   ListNode               *GetChild(size_t idx) noexcept;
   std::vector<ListNode *> GetChildren() const;
   bool                    operator==(ListNode const &rhs) const noexcept;
+  bool                    operator<(ListNode const &rhs) const noexcept;
 };
 
+
 // Google test print
+void          PrintTo(ListNode *value, ::std::ostream *os);
 std::ostream &operator<<(std::ostream        &stream,
                          lcd::ListNode const &node) noexcept;
 

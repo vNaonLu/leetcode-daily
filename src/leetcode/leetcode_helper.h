@@ -42,6 +42,9 @@ public:
 
   static void Release() noexcept;
 
+  template <typename It>
+  static void Release(It beg, It end) noexcept;
+
 private:
   LCD_INLINE_VARIABLE std::unordered_set<void *> static_record_;
 };
@@ -90,6 +93,14 @@ inline void AllocationCounted<T>::Release(S *node, Ss... nodes) noexcept {
 template <typename T>
 inline void AllocationCounted<T>::Release() noexcept {
   // just do nothing
+}
+
+template <typename T>
+template <typename It>
+inline void AllocationCounted<T>::Release(It beg, It end) noexcept {
+  while (beg != end) {
+    Release(*beg++);
+  }
 }
 
 } // namespace lcd
