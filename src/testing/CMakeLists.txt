@@ -1,9 +1,12 @@
-add_library(gtest_helper INTERFACE)
+set(TESTING_HELPER_SOURCES
+  "test_helper.cc")
+
+add_library(gtest_helper STATIC ${TESTING_HELPER_SOURCES})
 target_include_directories(
   gtest_helper
-  INTERFACE ${CMAKE_CURRENT_SOURCE_DIR}
+  PUBLIC ${SOURCE_INCLUDES}
 )
 target_link_libraries(
   gtest_helper
-  INTERFACE gtest_main
+  PUBLIC gtest_main
 )

@@ -1,5 +1,6 @@
 #include "leetcode/tree_node.h"
 #include "testing/test_helper.h"
+#include <sstream>
 
 using namespace std;
 using namespace lcd;
@@ -95,8 +96,8 @@ TEST(TreeNode, ReleaseWithModified) {
   auto *l1 = new TreeNode(0, new TreeNode(0, new TreeNode(), nullptr), nullptr);
   auto *replace = new TreeNode();
   replace->left = l1->left->left;
-  auto *dangle = l1->left;
-  l1->left = replace;
+  auto *dangle  = l1->left;
+  l1->left      = replace;
 
   EXPECT_EQ(TreeNode::CheckRemainRefs(), 4);
 
@@ -131,9 +132,12 @@ TEST(TreeNode, FromVector) {
 }
 
 TEST(TreeNode, Equal) {
-  auto *l1 = new TreeNode(1, new TreeNode(2, new TreeNode(3), nullptr), nullptr);
-  auto *l2 = new TreeNode(1, new TreeNode(2, new TreeNode(3), nullptr), nullptr);
-  auto *l3 = new TreeNode(1, new TreeNode(2, new TreeNode(4), nullptr), nullptr);
+  auto *l1 =
+      new TreeNode(1, new TreeNode(2, new TreeNode(3), nullptr), nullptr);
+  auto *l2 =
+      new TreeNode(1, new TreeNode(2, new TreeNode(3), nullptr), nullptr);
+  auto *l3 =
+      new TreeNode(1, new TreeNode(2, new TreeNode(4), nullptr), nullptr);
   auto *l4 = TreeNode::FromVector({1, 2, null, 3});
 
   EXPECT_EQ(*l1, *l2);
@@ -141,4 +145,28 @@ TEST(TreeNode, Equal) {
   EXPECT_NE(*l1, *l3);
   EXPECT_EQ(*l1, *l4);
   TreeNode::Release(l1, l2, l3, l4);
+}
+
+TEST(TreeNode, MacroEqual) {
+  auto *l1 =
+      new TreeNode(1, new TreeNode(2, new TreeNode(3), nullptr), nullptr);
+  auto *l2 =
+      new TreeNode(1, new TreeNode(2, new TreeNode(3), nullptr), nullptr);
+  auto *l3 = TreeNode::FromVector({1, 2, null, 3});
+
+  EXPECT_TREENODE_EQ(l1, l2);
+  EXPECT_TREENODE_EQ(l1, l3);
+  TreeNode::Release(l1, l2, l3);
+}
+
+TEST(TreeNode, LiteralSerialization) {
+  auto *node1 = TreeNode::FromVector({1, 2, null, 3, 4, null, 5});
+  std::ostringstream ss;
+
+  ASSERT_TRUE(node1);
+  ss << *node1;
+
+  EXPECT_EQ(ss.str(), "{1, 2, null, 3, 4, null, 5}");
+
+  TreeNode::Release(node1);
 }

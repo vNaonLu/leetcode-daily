@@ -194,3 +194,36 @@ TEST(ListNode, EqualStaggerd) {
   ListNode::Release(l1, l2);
 }
 
+TEST(ListNode, MacroEquel) {
+  auto *l1_loop = new ListNode(3);
+  auto *l2_loop = new ListNode(3);
+  auto *l1 = new ListNode(1, new ListNode(2, l1_loop));
+  l1_loop->next = l1;
+  auto *l2 = new ListNode(1, new ListNode(2, l2_loop));
+  l2_loop->next = l2;
+  auto *l3 = ListNode::FromVector({1, 2, 3}, 0);
+
+  EXPECT_LISTNODE_EQ(l1, l2);
+  EXPECT_LISTNODE_EQ(l1, l3);
+  EXPECT_LISTNODE_EQ(l2, l3);
+  ListNode::Release(l1, l2, l3);
+}
+
+TEST(ListNode, LiteralSerialization) {
+  auto *node1 = ListNode::FromVector({1, 2, 3, 4, 5});
+  auto *looped = ListNode::FromVector({1, 2, 3, 4, 5}, 2);
+  std::ostringstream ss;
+
+  ASSERT_TRUE(node1);
+  ss << *node1;
+  EXPECT_EQ(ss.str(), "{1, 2, 3, 4, 5}");
+
+  ss.str("");
+  ss.clear();
+
+  ASSERT_TRUE(looped);
+  ss << *looped;
+  EXPECT_EQ(ss.str(), "{1, 2, 3, 4, 5, 3(Loop to index-2)}");
+
+  ListNode::Release(node1);
+}
