@@ -1,9 +1,11 @@
 #!/usr/bin/env python3
-from utils import *
 import regex
 import sys
 # prevent generating __pycache__
 sys.dont_write_bytecode = True
+
+
+from utils import *
 
 
 class _CPPTypeAbstract:
@@ -214,6 +216,8 @@ class CPPTypeVector(CPPTypeValid):
         self._template_type = deduceCPPType(mat.group("template_type"))
         super().__init__(mat.group(0))
         self._appendHeader("<vector>")
+        for header in self._template_type.getHeaders():
+            self._appendHeader(header)
 
     def evaluateInputRegex(self) -> str:
         assert self._template_type
@@ -247,7 +251,8 @@ class CPPTypeVector(CPPTypeValid):
 class CPPTypeListNode(CPPTypeValid):
     @staticmethod
     def deduceType(type_name: str):
-        mat = regex.match("^(?:ListNode)$", type_name)
+        # only support pointer
+        mat = regex.match("^(?:ListNode) *\*$", type_name)
         return (mat and mat.group(0)) or None
 
     def __init__(self, type_name: str):
@@ -255,6 +260,9 @@ class CPPTypeListNode(CPPTypeValid):
         self.__content_type = CPPTypeInt("int")
         self.__content_regex = self.__content_type.evaluateInputRegex()[1:-1]
         self._appendHeader("\"leetcode/list_node.h\"")
+
+    def expectEuql(self, lhs: str, rhs: str):
+        return f'EXPECT_LISTNODE_EQ({lhs}, {rhs})'
 
     def evaluateInputRegex(self) -> str:
         content = self.__content_regex
@@ -268,7 +276,7 @@ class CPPTypeListNode(CPPTypeValid):
         if not mat_bracket:
             LOG.failure("CPPTypeListNode failed to parse: {}",
                         LOG.format(value, flag=LOG.HIGHTLIGHT))
-            return "{{}}"
+            return "ListNode::FromVector({{}})"
         inner = value[1:-1]
         inner_regex = f'(?:( *{self.__content_regex}) *,?)'
         LOG.verbose("search inner with: {}", inner_regex)
@@ -283,7 +291,8 @@ class CPPTypeListNode(CPPTypeValid):
 class CPPTypeTreeNode(CPPTypeValid):
     @staticmethod
     def deduceType(type_name: str):
-        mat = regex.match("^(?:TreeNode)$", type_name)
+        # only support pointer
+        mat = regex.match("^(?:TreeNode) *\*$", type_name)
         return (mat and mat.group(0)) or None
 
     def __init__(self, type_name: str):
@@ -291,6 +300,9 @@ class CPPTypeTreeNode(CPPTypeValid):
         self.__content_type = CPPTypeInt("int")
         self.__content_regex = f'(?:{self.__content_type.evaluateInputRegex()[1:-1]}|null)'
         self._appendHeader("\"leetcode/tree_node.h\"")
+
+    def expectEuql(self, lhs: str, rhs: str):
+        return f'EXPECT_TREENODE_EQ({lhs}, {rhs})'
 
     def evaluateInputRegex(self) -> str:
         content = self.__content_regex
@@ -304,7 +316,7 @@ class CPPTypeTreeNode(CPPTypeValid):
         if not mat_bracket:
             LOG.failure("CPPTypeTreeNode failed to parse: {}",
                         LOG.format(value, flag=LOG.HIGHTLIGHT))
-            return "{{}}"
+            return "TreeNode::FromVector({{}})"
         inner = value[1:-1]
         inner_regex = f'(?:( *{self.__content_regex}) *,?)'
         LOG.verbose("search inner with: {}", inner_regex)
@@ -349,7 +361,7 @@ def deduceCPPType(type: str) -> _CPPTypeAbstract:
 # TEST field
 if __name__ == "__main__":
     LOG = prompt.Log.getInstance(verbose=True)
-    t = deduceCPPType("TreeNode")
+    t = deduceCPPType("vector<string>")
     test_val: list[str] = [
         "'a'",
         '"ab"',
