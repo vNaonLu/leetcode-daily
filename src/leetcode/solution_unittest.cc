@@ -9,7 +9,7 @@
 using namespace lcd;
 using namespace std;
 
-SOLUTION_BEGIN(q1_sample, Solution);
+LEETCODE_BEGIN_RESOLVING(1, SampleTwoSum, Solution);
 
 class Solution {
 public:
@@ -31,10 +31,11 @@ public:
   }
 };
 
-SOLUTION_END(q1_sample, Solution);
+LEETCODE_END_RESOLVING(Solution);
 
-SOLUTION_TESTCASE(q1_sample, sameple_1) {
-  auto        solution = GetSolution();
+
+LEETCODE_SOLUTION_UNITTEST(1, SampleTwoSum, sameple_1) {
+  auto        solution = MakeSolution();
   vector<int> nums     = {2, 7, 11, 15};
   int         target   = 9;
   vector<int> expect   = {0, 1};
@@ -44,7 +45,8 @@ SOLUTION_TESTCASE(q1_sample, sameple_1) {
 
 // =====
 
-SOLUTION_BEGIN(q146_sample, LRUCache);
+LEETCODE_BEGIN_RESOLVING(146, SampleLRUCache, LRUCache);
+
 class LRUCache {
 private:
   unordered_map<int, list<pair<int, int>>::iterator> memos;
@@ -84,11 +86,11 @@ public:
   void put(int key, int value) { add(key, value); }
 };
 
-SOLUTION_END(q146_sample, LRUCache);
+LEETCODE_END_RESOLVING(LRUCache);
 
-SOLUTION_TESTCASE(q146_sample, sample_1) {
+LEETCODE_SOLUTION_UNITTEST(146, SampleLRUCache, sample_1) {
   int  capacity  = 2;
-  auto lru_cache = GetLRUCache(capacity);
+  auto lru_cache = MakeLRUCache(capacity);
   lru_cache->put(1, 1);
   lru_cache->put(2, 2);
   EXPECT_EQ(lru_cache->get(1), 1);
@@ -102,7 +104,7 @@ SOLUTION_TESTCASE(q146_sample, sample_1) {
 
 // =====
 
-SOLUTION_BEGIN(q234_sample, Solution);
+LEETCODE_BEGIN_RESOLVING(234, SampleIsPalindrome, Solution);
 class Solution {
 public:
   bool isPalindrome(ListNode *head) {
@@ -124,10 +126,10 @@ public:
     return true;
   }
 };
-SOLUTION_END(q234_sample, Solution);
+LEETCODE_END_RESOLVING(Solution);
 
-SOLUTION_TESTCASE(q234_sample, sample_1) {
-  auto      solution = GetSolution();
+LEETCODE_SOLUTION_UNITTEST(234, SampleIsPalindrome, sample_1) {
+  auto      solution = MakeSolution();
   ListNode *head     = ListNode::FromVector({1, 2, 2, 1});
   bool      exp      = true;
   bool      act      = solution->isPalindrome(head);
@@ -135,7 +137,7 @@ SOLUTION_TESTCASE(q234_sample, sample_1) {
   ListNode::Release(head);
 }
 
-SOLUTION_BEGIN(q783_sample, Solution);
+LEETCODE_BEGIN_RESOLVING(783, SampleMinDiffInBST, Solution);
 class Solution {
 private:
   void solve(TreeNode *p, int &prev, int &res) {
@@ -157,13 +159,16 @@ public:
     return res;
   }
 };
-SOLUTION_END(q783_sample, Solution);
+LEETCODE_END_RESOLVING(Solution);
 
-SOLUTION_TESTCASE(q783_sample, sample_1) {
-  auto      solution = GetSolution();
+LEETCODE_SOLUTION_UNITTEST(783, SampleMinDiffInBST, sample_1) {
+  auto      solution = MakeSolution();
   TreeNode *root     = TreeNode::FromVector({4, 2, 6, 1, 3});
   int       exp      = 1;
   int       act      = solution->minDiffInBST(root);
   EXPECT_EQ(act, exp);
   TreeNode::Release(root);
 }
+
+
+

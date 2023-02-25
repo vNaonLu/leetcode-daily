@@ -12,8 +12,6 @@ from cpp_types import _CPPTypeAbstract, deduceCPPType
 class _CPPCodeSnippetInformation:
 
     class _CPPSolutionFunction:
-        __RETURN_TYPE = "__return__"
-
         def __init__(self, *, func_name: str, return_type: _CPPTypeAbstract) -> None:
             self.name: str = func_name
             self.arg_types: dict[str, _CPPTypeAbstract] = {}
@@ -41,11 +39,7 @@ class _CPPCodeSnippetInformation:
             if len(args) != len(self.input_args):
                 LOG.failure("the length between arguments not matched.")
                 return ""
-            return '{}{}({})'.format("Get" if not self.return_type else "", self.name, ','.join([*args]))
-
-        def returnType(self):
-            # if self.return_type is None then the function is a constructor
-            return self.return_type
+            return '{}{}({})'.format("Make" if not self.return_type else "", self.name, ','.join([*args]))
 
     class _CPPSolutionClass:
         def __init__(self) -> None:

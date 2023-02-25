@@ -9,7 +9,11 @@ namespace lcd {
 
 namespace detail {
 
-class SolutionWrapper : public ::testing::Test {
+class SolutionFixture : public ::testing::Test {
+protected:
+  virtual void SolutionSetUp() {}
+  virtual void SolutionTearDown() {}
+
 private:
   void SetUp() override {
 #ifdef LEETCODE_TREE_NODE_H_
@@ -20,15 +24,17 @@ private:
     ListNode::ReleaseAll();
     ASSERT_EQ(ListNode::CheckRemainRefs(), 0);
 #endif
+    SolutionSetUp();
   }
 
   void TearDown() override {
+    SolutionTearDown();
 #ifdef LEETCODE_TREE_NODE_H_
-    EXPECT_EQ(TreeNode::CheckRemainRefs(), 0);
+    EXPECT_EQ(TreeNode::CheckRemainRefs(), 0) << "Dangling TreeNode(s) found.";
     TreeNode::ReleaseAll();
 #endif
 #ifdef LEETCODE_LIST_NODE_H_
-    EXPECT_EQ(ListNode::CheckRemainRefs(), 0);
+    EXPECT_EQ(ListNode::CheckRemainRefs(), 0) << "Dangling ListNode(s) found.";
     ListNode::ReleaseAll();
 #endif
   }
@@ -38,18 +44,22 @@ private:
 
 } // namespace lcd
 
-#define SOLUTION_BEGIN(solution_id, solution_class)                            \
-  class solution_id : public ::lcd::detail::SolutionWrapper {                  \
-  protected:                                                                   \
-    class solution_class
+#define _LEETCODE_UNITTEST_FIXTURE_NAME(id, name) q##id##_##name
 
-#define SOLUTION_END(solution_id, solution_class)                              \
-  template <typename... ArgTypes>                                              \
-  std::unique_ptr<solution_class> Get##solution_class(ArgTypes &&...args) {    \
-    return std::make_unique<solution_class>(std::forward<ArgTypes>(args)...);  \
+#define LEETCODE_BEGIN_RESOLVING(id, name, solve_class)                        \
+  class _LEETCODE_UNITTEST_FIXTURE_NAME(id, name)                              \
+      : public ::lcd::detail::SolutionFixture {                                \
+  protected:                                                                   \
+    class solve_class
+
+#define LEETCODE_END_RESOLVING(solve_class)                                    \
+  template <typename... ArgsType>                                              \
+  std::unique_ptr<solve_class> Make##solve_class(ArgsType &&...args) {         \
+    return std::make_unique<solve_class>(std::forward<ArgsType>(args)...);     \
   }                                                                            \
   }
 
-#define SOLUTION_TESTCASE(solution_id, test_name) TEST_F(solution_id, test_name)
+#define LEETCODE_SOLUTION_UNITTEST(id, name, suite_name)                       \
+  TEST_F(_LEETCODE_UNITTEST_FIXTURE_NAME(id, name), suite_name)
 
 #endif // TESTING_SOLUTION_HELPER_H_
