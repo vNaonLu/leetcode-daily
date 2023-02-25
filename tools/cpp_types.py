@@ -10,7 +10,7 @@ from utils import *
 
 class _CPPTypeAbstract:
     def __init__(self, type_name: str):
-        self.__include_headers: set[str] = set(["iosfwd"])
+        self.__include_headers: set[str] = set(["<iosfwd>"])
         self.__type_name = type_name
 
     def __str__(self) -> str:
@@ -188,7 +188,7 @@ class CPPTypeString(CPPTypeValid):
 
     def __init__(self, type_name: str):
         super().__init__(CPPTypeString.deduceType(type_name))
-        self._appendHeader("string")
+        self._appendHeader("<string>")
 
     def evaluateInputRegex(self) -> str:
         return "^(?:'[\w\W]*?'|\"[\w\W]*?\")$"
@@ -214,7 +214,7 @@ class CPPTypeVector(CPPTypeValid):
         mat = CPPTypeVector.deduceType(type_name)
         self._template_type = deduceCPPType(mat.group("template_type"))
         super().__init__(mat.group(0))
-        self._appendHeader("vector")
+        self._appendHeader("<vector>")
 
     def evaluateInputRegex(self) -> str:
         assert self._template_type
@@ -245,6 +245,42 @@ class CPPTypeVector(CPPTypeValid):
         return not not self._template_type
 
 
+class CPPTypeListNode(CPPTypeValid):
+    @staticmethod
+    def deduceType(type_name: str):
+        mat = regex.match("^(?:ListNode)$", type_name)
+        return (mat and mat.group(0)) or None
+
+    def __init__(self, type_name: str):
+        super().__init__(CPPTypeListNode.deduceType(type_name))
+        self.__content_type = CPPTypeInt("int")
+        self.__content_regex = self.__content_type.evaluateInputRegex()
+        self._appendHeader("\"leetcode/list_node.h\"")
+
+    def evaluateInputRegex(self) -> str:
+        content = self.__content_regex[1:-1]
+        return f'^(?:\[(?:(?:(?: *{content}) *,?)*)?\])$'
+
+    def evaluateInput(self, value: str) -> str:
+        LOG = prompt.Log.getInstance()
+        content: list[str] = []
+        LOG.funcVerbose("bracket regex: {}", self.evaluateInputRegex())
+        mat_bracket = regex.match(self.evaluateInputRegex(), value)
+        if not mat_bracket:
+            LOG.failure("CPPTypeListNode failed to parse: {}",
+                        LOG.format(value, flag=LOG.HIGHTLIGHT))
+            return "{{}}"
+        inner = value[1:-1]
+        inner_regex = f'(?:( *{self.__content_regex[1:-1]}) *,?)'
+        LOG.verbose("search inner with: {}", inner_regex)
+        LOG.verbose("search inner content: {}", inner)
+        for elem in regex.findall(inner_regex, inner):
+            elem_ = str(elem).strip()
+            LOG.funcVerbose("element: {}", elem_)
+            content.append(self.__content_type.evaluateInput(elem_))
+        return "ListNode::FromVector({{{}}}/*, looped_index*/)".format(",".join(content))
+
+
 def deduceCPPType(type: str) -> _CPPTypeAbstract:
     LOG = prompt.Log.getInstance()
     if CPPTypeVoid.deduceType(type):
@@ -263,14 +299,17 @@ def deduceCPPType(type: str) -> _CPPTypeAbstract:
         return CPPTypeString(type)
     if CPPTypeVector.deduceType(type):
         return CPPTypeVector(type)
+    if CPPTypeListNode.deduceType(type):
+        return CPPTypeListNode(type)
     LOG.failure("no matched CPPType: {}",
                 LOG.format(type, flag=LOG.HIGHTLIGHT))
     return None
 
 
+# TEST field
 if __name__ == "__main__":
     LOG = prompt.Log.getInstance(verbose=True)
-    t = deduceCPPType("vector<vector<vector<string>>>")
+    t = deduceCPPType("ListNode")
     test_val: list[str] = [
         "'a'",
         '"ab"',
@@ -292,6 +331,7 @@ if __name__ == "__main__":
         "+12333.0324f",
         "+12333",
         "[123, 4356, 657, 768, 8797, 8]",
+        "[123, 4356, null, 657, 768, null, 8797, 8]",
         "[[123, 4356, 657], [768, 8797, 8]]",
         "[123.4, 4356, 657, 768.2, 8797.0, 8]",
         "[[123.4], [4356, 657, 768.2, 8797.0], [8]]",
