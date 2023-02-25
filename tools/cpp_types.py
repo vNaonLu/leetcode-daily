@@ -19,6 +19,9 @@ class _CPPTypeAbstract:
     def __call__(self, value: str) -> str:
         return self.evaluateInput(value)
 
+    def destroy(self) -> str | None:
+        return None
+
     def evaluateInput(self, value: str) -> str:
         assert False, "_CPPTypeAbstract Not Implement."
 
@@ -208,13 +211,13 @@ class CPPTypeVector(CPPTypeValid):
     @staticmethod
     def deduceType(type_name: str):
         mat = regex.match(
-            "^(?:(?:std::)?vector<(?P<template_type>[\w\W]+)>)$", type_name)
+            "^((?:std::)?vector<(?P<template_type>[\w\W]+)>) *&?$", type_name)
         return mat
 
     def __init__(self, type_name: str):
         mat = CPPTypeVector.deduceType(type_name)
         self._template_type = deduceCPPType(mat.group("template_type"))
-        super().__init__(mat.group(0))
+        super().__init__(mat.group(1))
         self._appendHeader("<vector>")
         for header in self._template_type.getHeaders():
             self._appendHeader(header)
@@ -261,6 +264,9 @@ class CPPTypeListNode(CPPTypeValid):
         self.__content_regex = self.__content_type.evaluateInputRegex()[1:-1]
         self._appendHeader("\"leetcode/list_node.h\"")
 
+    def destroy(self) -> str:
+        return "ListNode::ReleaseAll()"
+
     def expectEuql(self, lhs: str, rhs: str):
         return f'EXPECT_LISTNODE_EQ({lhs}, {rhs})'
 
@@ -300,6 +306,9 @@ class CPPTypeTreeNode(CPPTypeValid):
         self.__content_type = CPPTypeInt("int")
         self.__content_regex = f'(?:{self.__content_type.evaluateInputRegex()[1:-1]}|null)'
         self._appendHeader("\"leetcode/tree_node.h\"")
+
+    def destroy(self) -> str:
+        return "TreeNode::ReleaseAll()"
 
     def expectEuql(self, lhs: str, rhs: str):
         return f'EXPECT_TREENODE_EQ({lhs}, {rhs})'
@@ -353,7 +362,7 @@ def deduceCPPType(type: str) -> _CPPTypeAbstract:
         return CPPTypeListNode(type)
     if CPPTypeTreeNode.deduceType(type):
         return CPPTypeTreeNode(type)
-    LOG.failure("no matched CPPType: {}",
+    LOG.warn("no matched CPPType: {}",
                 LOG.format(type, flag=LOG.HIGHTLIGHT))
     return None
 
@@ -361,7 +370,7 @@ def deduceCPPType(type: str) -> _CPPTypeAbstract:
 # TEST field
 if __name__ == "__main__":
     LOG = prompt.Log.getInstance(verbose=True)
-    t = deduceCPPType("vector<string>")
+    t = deduceCPPType("vector<string>&")
     test_val: list[str] = [
         "'a'",
         '"ab"',
