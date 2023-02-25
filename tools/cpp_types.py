@@ -1,11 +1,9 @@
 #!/usr/bin/env python3
+from utils import *
 import regex
 import sys
 # prevent generating __pycache__
 sys.dont_write_bytecode = True
-
-
-from utils import *
 
 
 class _CPPTypeAbstract:
@@ -207,7 +205,8 @@ class CPPTypeString(CPPTypeValid):
 class CPPTypeVector(CPPTypeValid):
     @staticmethod
     def deduceType(type_name: str):
-        mat = regex.match("^(?:(?:std::)?vector<(?P<template_type>[\w\W]+)>)$", type_name)
+        mat = regex.match(
+            "^(?:(?:std::)?vector<(?P<template_type>[\w\W]+)>)$", type_name)
         return mat
 
     def __init__(self, type_name: str):
@@ -254,11 +253,11 @@ class CPPTypeListNode(CPPTypeValid):
     def __init__(self, type_name: str):
         super().__init__(CPPTypeListNode.deduceType(type_name))
         self.__content_type = CPPTypeInt("int")
-        self.__content_regex = self.__content_type.evaluateInputRegex()
+        self.__content_regex = self.__content_type.evaluateInputRegex()[1:-1]
         self._appendHeader("\"leetcode/list_node.h\"")
 
     def evaluateInputRegex(self) -> str:
-        content = self.__content_regex[1:-1]
+        content = self.__content_regex
         return f'^(?:\[(?:(?:(?: *{content}) *,?)*)?\])$'
 
     def evaluateInput(self, value: str) -> str:
@@ -271,7 +270,7 @@ class CPPTypeListNode(CPPTypeValid):
                         LOG.format(value, flag=LOG.HIGHTLIGHT))
             return "{{}}"
         inner = value[1:-1]
-        inner_regex = f'(?:( *{self.__content_regex[1:-1]}) *,?)'
+        inner_regex = f'(?:( *{self.__content_regex}) *,?)'
         LOG.verbose("search inner with: {}", inner_regex)
         LOG.verbose("search inner content: {}", inner)
         for elem in regex.findall(inner_regex, inner):
@@ -279,6 +278,45 @@ class CPPTypeListNode(CPPTypeValid):
             LOG.funcVerbose("element: {}", elem_)
             content.append(self.__content_type.evaluateInput(elem_))
         return "ListNode::FromVector({{{}}}/*, looped_index*/)".format(",".join(content))
+
+
+class CPPTypeTreeNode(CPPTypeValid):
+    @staticmethod
+    def deduceType(type_name: str):
+        mat = regex.match("^(?:TreeNode)$", type_name)
+        return (mat and mat.group(0)) or None
+
+    def __init__(self, type_name: str):
+        super().__init__(CPPTypeTreeNode.deduceType(type_name))
+        self.__content_type = CPPTypeInt("int")
+        self.__content_regex = f'(?:{self.__content_type.evaluateInputRegex()[1:-1]}|null)'
+        self._appendHeader("\"leetcode/tree_node.h\"")
+
+    def evaluateInputRegex(self) -> str:
+        content = self.__content_regex
+        return f'^(?:\[(?:(?:(?: *{content}) *,?)*)?\])$'
+
+    def evaluateInput(self, value: str) -> str:
+        LOG = prompt.Log.getInstance()
+        content: list[str] = []
+        LOG.funcVerbose("bracket regex: {}", self.evaluateInputRegex())
+        mat_bracket = regex.match(self.evaluateInputRegex(), value)
+        if not mat_bracket:
+            LOG.failure("CPPTypeTreeNode failed to parse: {}",
+                        LOG.format(value, flag=LOG.HIGHTLIGHT))
+            return "{{}}"
+        inner = value[1:-1]
+        inner_regex = f'(?:( *{self.__content_regex}) *,?)'
+        LOG.verbose("search inner with: {}", inner_regex)
+        LOG.verbose("search inner content: {}", inner)
+        for elem in regex.findall(inner_regex, inner):
+            elem_ = str(elem).strip()
+            LOG.funcVerbose("element: {}", elem_)
+            if elem_ != "null":
+                content.append(self.__content_type.evaluateInput(elem_))
+            else:
+                content.append("null")
+        return "TreeNode::FromVector({{{}}})".format(",".join(content))
 
 
 def deduceCPPType(type: str) -> _CPPTypeAbstract:
@@ -301,6 +339,8 @@ def deduceCPPType(type: str) -> _CPPTypeAbstract:
         return CPPTypeVector(type)
     if CPPTypeListNode.deduceType(type):
         return CPPTypeListNode(type)
+    if CPPTypeTreeNode.deduceType(type):
+        return CPPTypeTreeNode(type)
     LOG.failure("no matched CPPType: {}",
                 LOG.format(type, flag=LOG.HIGHTLIGHT))
     return None
@@ -309,7 +349,7 @@ def deduceCPPType(type: str) -> _CPPTypeAbstract:
 # TEST field
 if __name__ == "__main__":
     LOG = prompt.Log.getInstance(verbose=True)
-    t = deduceCPPType("ListNode")
+    t = deduceCPPType("TreeNode")
     test_val: list[str] = [
         "'a'",
         '"ab"',
