@@ -238,7 +238,7 @@ class CPPTypeVector(CPPTypeValid):
                         LOG.format(value, flag=LOG.HIGHTLIGHT))
             return "{{}}"
         inner = value[1:-1]
-        inner_regex = f'(?:( *{self._template_type.evaluateInputRegex()[1:-1]}) *,?)'
+        inner_regex = f'(?: *({self._template_type.evaluateInputRegex()[1:-1]}) *,?)'
         LOG.verbose("search inner with: {}", inner_regex)
         LOG.verbose("search inner content: {}", inner)
         for elem in regex.findall(inner_regex, inner):

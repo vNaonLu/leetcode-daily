@@ -9,7 +9,7 @@ from utils import *
 from cpp_types import _CPPTypeAbstract, deduceCPPType
 
 
-class _CPPCodeSnippet:
+class _CPPCodeSnippetInformation:
 
     class _CPPSolutionFunction:
         __RETURN_TYPE = "__return__"
@@ -50,8 +50,8 @@ class _CPPCodeSnippet:
     class _CPPSolutionClass:
         def __init__(self) -> None:
             self.name: str = ""
-            self.member_func: list[_CPPCodeSnippet._CPPSolutionFunction] = []
-            self.constructor: list[_CPPCodeSnippet._CPPSolutionFunction] = []
+            self.member_func: list[_CPPCodeSnippetInformation._CPPSolutionFunction] = []
+            self.constructor: list[_CPPCodeSnippetInformation._CPPSolutionFunction] = []
 
         def __bool__(self):
             LOG = prompt.Log.getInstance()
@@ -68,11 +68,13 @@ class _CPPCodeSnippet:
 
     def __init__(self) -> None:
         # name -> cpptype
+        self.raw: str = ""
         self.type: int = CPPCodeSnippetAnalyzer.TYPE_UNDEFINED
-        self.classblock = _CPPCodeSnippet._CPPSolutionClass()
+        self.classblock = _CPPCodeSnippetInformation._CPPSolutionClass()
 
     def __bool__(self):
         return self.classblock.__bool__()
+
 
 class CPPCodeSnippetAnalyzer:
     TYPE_UNDEFINED = 0
@@ -97,12 +99,13 @@ class CPPCodeSnippetAnalyzer:
     def parse(maybe_code_snippet: str):
         assert isinstance(maybe_code_snippet, str)
         LOG = prompt.Log.getInstance()
-        result = _CPPCodeSnippet()
+        result = _CPPCodeSnippetInformation()
         trimmed = maybe_code_snippet.strip()
         trimmed = CPPCodeSnippetAnalyzer._trimComment(trimmed)
 
         LOG.funcVerbose("parse code snippet with regex: {}", CPPCodeSnippetAnalyzer._CLASS_PARSER)
         mat = regex.match(CPPCodeSnippetAnalyzer._CLASS_PARSER, trimmed)
+        result.raw = trimmed
 
         if not mat:
             LOG.failure("failed to parse with: {}", LOG.format(
@@ -122,9 +125,9 @@ class CPPCodeSnippetAnalyzer:
             result.type = CPPCodeSnippetAnalyzer.TYPE_STRUCTURED
             args = ctor_mat.group(1).strip()
             LOG.funcVerbose("find a constructor: {}", ctor_mat)
-            LOG.funcVerbose("    arguments: {}", args)
-            f = _CPPCodeSnippet._CPPSolutionFunction(func_name=class_block.name,
-                                                     return_type=None)
+            LOG.funcVerbose("         arguments: {}", args)
+            f = _CPPCodeSnippetInformation._CPPSolutionFunction(func_name=class_block.name,
+                                                                return_type=None)
             LOG.funcVerbose("parse arguments with regex: {}", CPPCodeSnippetAnalyzer._FUNC_ARGS_PARSER)
             for arg in regex.findall(CPPCodeSnippetAnalyzer._FUNC_ARGS_PARSER, args):
                 arg_type = deduceCPPType(arg[0].strip())
@@ -137,7 +140,7 @@ class CPPCodeSnippetAnalyzer:
             class_block.constructor.append(f)
         else:
             result.type = CPPCodeSnippetAnalyzer.TYPE_REGULAR
-            f = _CPPCodeSnippet._CPPSolutionFunction(func_name=class_block.name,
+            f = _CPPCodeSnippetInformation._CPPSolutionFunction(func_name=class_block.name,
                                                      return_type=None)
             class_block.constructor.append(f)
 
@@ -156,7 +159,7 @@ class CPPCodeSnippetAnalyzer:
             LOG.funcVerbose("function name: {}", fun_name)
             LOG.funcVerbose("  return type: {}", ret_type)
             LOG.funcVerbose("    arguments: {}", args)
-            f = _CPPCodeSnippet._CPPSolutionFunction(func_name=fun_name,
+            f = _CPPCodeSnippetInformation._CPPSolutionFunction(func_name=fun_name,
                                                      return_type=ret_type)
             LOG.funcVerbose("parse arguments with regex: {}", CPPCodeSnippetAnalyzer._FUNC_ARGS_PARSER)
             for arg in regex.findall(CPPCodeSnippetAnalyzer._FUNC_ARGS_PARSER, args):
@@ -169,6 +172,9 @@ class CPPCodeSnippetAnalyzer:
                 f.arg_types[arg_name] = arg_type
 
             class_block.member_func.append(f)
+
+        if not result:
+            result.type = CPPCodeSnippetAnalyzer.TYPE_UNDEFINED
 
         return result
 
