@@ -1,6 +1,6 @@
 # Unsolved Solutions List
 
-There are **1685** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
+There are **1684** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
 
 The questions which have been solved are not shown in this page, more information about solved questions can be found at [docs/solved_solutions.md](./solved_solutions.md).
 
@@ -1382,7 +1382,6 @@ The questions which have been solved are not shown in this page, more informatio
 |2217|[Find Palindrome With Fixed Length](https://leetcode.com/problems/find-palindrome-with-fixed-length/)|Medium||
 |2218|[Maximum Value of K Coins From Piles](https://leetcode.com/problems/maximum-value-of-k-coins-from-piles/)|Hard||
 |2219|[Maximum Sum Score of Array](https://leetcode.com/problems/maximum-sum-score-of-array/)|Medium|🔒|
-|2220|[Minimum Bit Flips to Convert Number](https://leetcode.com/problems/minimum-bit-flips-to-convert-number/)|Easy||
 |2222|[Number of Ways to Select Buildings](https://leetcode.com/problems/number-of-ways-to-select-buildings/)|Medium||
 |2223|[Sum of Scores of Built Strings](https://leetcode.com/problems/sum-of-scores-of-built-strings/)|Hard||
 |2224|[Minimum Number of Operations to Convert Time](https://leetcode.com/problems/minimum-number-of-operations-to-convert-time/)|Easy||
