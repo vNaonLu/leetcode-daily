@@ -10,7 +10,7 @@ from utils import *
 
 class _CPPTypeAbstract:
     @staticmethod
-    def destory(self, *args) -> str | None:
+    def destroy(*args) -> str | None:
         # no need to delete onject
         return None
 

@@ -1,11 +1,12 @@
 #!/usr/bin/env python3
-from cpp_analyze import _CPPCodeSnippetInformation
-from cpp_analyze import *
 import regex
 import sys
 # prevent generating __pycache__
 sys.dont_write_bytecode = True
 
+from cpp_types import _CPPTypeAbstract
+from cpp_analyze import _CPPCodeSnippetInformation
+from cpp_analyze import *
 
 class _UnitTestFlavor:
     def __init__(self, *, instance: str, function: _CPPCodeSnippetInformation._CPPSolutionFunction) -> None:
@@ -24,13 +25,13 @@ class _UnitTestFlavor:
     def genUnitTestSnippet(self, *, variable_prefix: str = ""):
         return ""
 
-    def getTypeCollection(self):
+    def getTypeCollection(self, *, variable_prefix: str = ""):
         res: dict[__builtins__._ClassInfo, list[str]] = {}
         for name in self._function.input_args:
             tp = self._function.arg_types[name]
             if tp.__class__ not in res:
-                res[tp.__class_] = []
-            res[tp.__class_].append(name)
+                res[tp.__class__] = []
+            res[tp.__class__].append(variable_prefix + name)
         return res
 
 
@@ -100,6 +101,14 @@ class _UnitTestRegularFlavor(_UnitTestFlavor):
             result += f'{self._return_type} {self._actual} = {variable_prefix}{self._instance}->{self._function(*self._function.input_args)};'
 
         result += f'{self._return_type.expectEuql("expect", self._actual)};'
+
+        gc = self.getTypeCollection()
+        for cls, variables in gc.items():
+            assert issubclass(cls, _CPPTypeAbstract)
+            destroy = cls.destroy(*variables)
+            if destroy and destroy != "":
+                result += f'{destroy};'
+
         return result
 
 
@@ -280,6 +289,21 @@ class _UnitTestStageFlavor(_UnitTestFlavor):
             obj_prefix = f's{idx}_'
             result += step.genUnitTestSnippet(variable_prefix=obj_prefix)
             idx += 1
+
+        destory_map = {}
+        for step in self._stages:
+            mp = step.getTypeCollection()
+            for cls, variables in mp.items():
+                if cls not in destory_map:
+                    destory_map[cls] = []
+                destory_map[cls] += variables
+
+        for cls, variables in destory_map.items():
+            assert issubclass(cls, _CPPTypeAbstract)
+            destroy = cls.destroy(*variables)
+            if destroy and destroy != "":
+                result += f'{destroy};'
+
         return result
 
 
@@ -398,6 +422,28 @@ if __name__ == "__main__":
 [[2], [1, 1], [2, 2], [1], [3, 3], [2], [4, 4], [1], [3], [4]]'''
     q146_output = '[null, null, null, 1, null, -1, null, -1, 3, 4]'
 
+    q783 = '\n'.join([
+        '/**',
+        ' * Definition for a binary tree node.',
+        ' * struct TreeNode {',
+        ' *     int val;',
+        ' *     TreeNode *left;',
+        ' *     TreeNode *right;',
+        ' *     TreeNode() : val(0), left(nullptr), right(nullptr) {}',
+        ' *     TreeNode(int x) : val(x), left(nullptr), right(nullptr) {}',
+        ' *     TreeNode(int x, TreeNode *left, TreeNode *right) : val(x), left(left), right(right) {}',
+        ' * };',
+        ' */',
+        'class Solution {',
+        'public:',
+        '    int minDiffInBST(TreeNode* root) {',
+        '        ',
+        '    }',
+        '};',
+    ])
+    q783_input = "root = [4,2,6,1,3]"
+    q783_output = '1'
+
     q234 = '\n'.join([
         '/**',
         ' * Definition for singly-linked list.',
@@ -419,8 +465,11 @@ if __name__ == "__main__":
     q234_input = "head = [1,2,2,1]"
     q234_output = 'true'
 
-    code = CPPCodeSnippet(q146)
-    a = code.genUnitTest(input=q146_input, output=q146_output)
+    q       = q146
+    input   = q146_input
+    output  = q146_output
+    code = CPPCodeSnippet(q)
+    a = code.genUnitTest(input=input, output=output)
     LOG.print(a.replace(';', ';\n'))
-    a = code.genUnitTest(input=q146_input, output=q146_output)
+    a = code.genUnitTest(input=input, output=output)
     LOG.print(a.replace(';', ';\n'))
