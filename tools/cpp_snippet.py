@@ -12,8 +12,8 @@ class _UnitTestFlavor:
         self._instance: str = instance
         self._function: _CPPCodeSnippetInformation._CPPSolutionFunction = function
 
-    def getFunction(self):
-        return self._function
+    def clear(self):
+        pass
 
     def addInput(self, input: str) -> bool:
         return False
@@ -44,9 +44,14 @@ class _UnitTestRegularFlavor(_UnitTestFlavor):
         self._inputs: list[tuple[str, str]] = None
         self._inplace_case = self._function.return_type.getTypeName() == "void"
         self._actual = "actual" if not self._inplace_case else self._function.input_args[0]
-        self._return_type=  self._function.return_type if not self._inplace_case else self._function.arg_types[self._actual]
+        self._return_type = self._function.return_type if not self._inplace_case else self._function.arg_types[
+            self._actual]
         self._output: str = None
         assert self._ctor, "invalid consturctor"
+
+    def clear(self):
+        self._inputs = None
+        self._output = None
 
     def addInput(self, input: str) -> bool:
         assert self._inputs is None, "duplicately added input."
@@ -98,7 +103,7 @@ class _UnitTestRegularFlavor(_UnitTestFlavor):
         return result
 
 
-class _UnitTestStagedFlavor(_UnitTestFlavor):
+class _UnitTestStageFlavorSingleStage(_UnitTestFlavor):
     def __init__(self, *,
                  instance: str,
                  function: _CPPCodeSnippetInformation._CPPSolutionFunction):
@@ -132,7 +137,8 @@ class _UnitTestStagedFlavor(_UnitTestFlavor):
             tp = self._function.arg_types[name]
             reg += f' *(?P<{name}>(?:{tp.evaluateInputRegex()[1:-1]})) *,'
         reg = reg[:-1]
-        LOG.funcVerbose("parse arguments for {}: {}", self._function.name, input)
+        LOG.funcVerbose("parse arguments for {}: {}",
+                        self._function.name, input)
         LOG.funcVerbose("parse arguments with regex: {}", reg)
 
         mat = regex.search(reg, input)
@@ -170,46 +176,22 @@ class _UnitTestStagedFlavor(_UnitTestFlavor):
         return res
 
 
-class CPPCodeSnippet:
-    def __init__(self, code_snippet: str) -> None:
-        self.snippet_info = CPPCodeSnippetAnalyzer.parse(code_snippet.strip())
+class _UnitTestStageFlavor(_UnitTestFlavor):
+    def __init__(self, *,
+                 instance: str, snippet_info: _CPPCodeSnippetInformation):
+        super().__init__(instance=instance, function=None)
+        assert snippet_info.type == CPPCodeSnippetAnalyzer.TYPE_STRUCTURED
+        self._stages: list[_UnitTestStageFlavorSingleStage] = None
+        self._class_info = snippet_info.classblock
 
-    def __bool__(self):
-        return self.snippet_info and self.snippet_info.__bool__()
+    def clear(self):
+        self._stages = None
 
-    def solutionDefine(self):
-        return self.snippet_info.raw
-
-    def _genSkipped(self):
-        return 'GTEST_SKIP() << "Unittest Not Implemented";'
-
-    def _getSolutionObjectName(self):
-        return '_'.join(filter(lambda e: e != "", regex.split("([A-Z][a-z]+)", self.snippet_info.classblock.name))).lower()
-
-    def _genUnitTestAsRegularSolution(self, input: str, output: str):
-        assert self.snippet_info.type == CPPCodeSnippetAnalyzer.TYPE_REGULAR
-
+    def addInput(self, input: str) -> bool:
+        assert self._stages is None, "duplicately added input."
         LOG = prompt.Log.getInstance()
 
-        class_block = self.snippet_info.classblock
-        utrf = _UnitTestRegularFlavor(constructor=class_block.constructor[0],
-                                      instance=self._getSolutionObjectName(),
-                                      function=class_block.member_func[0])
-        if not utrf.addInput(input):
-            LOG.failure("failed to parse inputs: {}", input)
-            return self._genSkipped()
-        if not utrf.addExpect(output):
-            LOG.failure("failed to parse output: {}", output)
-            return self._genSkipped()
-        return utrf.genUnitTestSnippet()
-
-    def _initUnitTestAsUTSFs(self, *, input: str) -> list[_UnitTestStagedFlavor]:
-        assert self.snippet_info.type == CPPCodeSnippetAnalyzer.TYPE_STRUCTURED
-
-        LOG = prompt.Log.getInstance()
-        result: list[_UnitTestStagedFlavor] = []
-        class_block = self.snippet_info.classblock
-
+        self._stages = []
         # Parse input as vector<string> like.
         command_regex = "(?:'[\w\W]*?'|\"[\w\W]*?\")"
         input_func_regex = f"(?:\[(?:(?:(?: *{command_regex}) *,?)*)?\])"
@@ -218,7 +200,7 @@ class CPPCodeSnippet:
         mat = regex.search(input_func_regex, input)
         if not mat:
             LOG.failure("falied to parse commands int input: {}", input)
-            return []
+            return False
 
         # Getting the function name and initialize the teststep
         input_inner_func_regex = f"(?: *({command_regex}) *,?)"
@@ -230,28 +212,23 @@ class CPPCodeSnippet:
                 function_name).strip()).group(0)[1:-1]
             LOG.funcVerbose("find function name: {}", name)
             f: _CPPCodeSnippetInformation._CPPSolutionFunction = None
-            if name == class_block.name:
-                f = class_block.constructor[0]
+            if name == self._class_info.name:
+                f = self._class_info.constructor[0]
             else:
-                for mem_f in class_block.member_func:
+                for mem_f in self._class_info.member_func:
                     if name == mem_f.name:
                         f = mem_f
                         break
             if not f:
                 LOG.failure("test function not found: {}", name)
                 return []
-            result.append(_UnitTestStagedFlavor(instance=self._getSolutionObjectName(),
-                                                function=f))
-        return result
 
-    def _parseInputOutputForUTSFs(self, utsf: list[_UnitTestStagedFlavor], *, input: str, output: str):
-        assert self.snippet_info.type == CPPCodeSnippetAnalyzer.TYPE_STRUCTURED
-
-        LOG = prompt.Log.getInstance()
+            self._stages.append(_UnitTestStageFlavorSingleStage(instance=self._instance,
+                                                                function=f))
 
         idx = 0
         input_args_regex = f"(?:\[(?:(?:"
-        for step in utsf:
+        for step in self._stages:
             input_args_regex += f"(?: *\[ *(?P<step_{idx}>"
             input_args_regex += step.getChainedArgumentsEvaluateRegex()
             input_args_regex += f")) *\] *,?"
@@ -265,13 +242,17 @@ class CPPCodeSnippet:
             LOG.failure("falied to parse arguments: {}", input)
             return False
         idx = 0
-        for step in utsf:
+        for step in self._stages:
             step.addInput(mat.group(f"step_{idx}").strip())
             idx += 1
 
+        return True
+
+    def addExpect(self, output: str) -> bool:
+        LOG = prompt.Log.getInstance()
         idx = 0
         output_regex = f"(?:\[(?:(?:"
-        for step in utsf:
+        for step in self._stages:
             output_regex += f"(?: *(?P<step_{idx}>"
             output_regex += step.getExpectRegex()[1:-1]
             output_regex += f")) *,?"
@@ -286,46 +267,68 @@ class CPPCodeSnippet:
             return False
 
         idx = 0
-        for step in utsf:
+        for step in self._stages:
             step.addExpect(mat.group(f"step_{idx}"))
             idx += 1
 
         return True
 
-    def _genUnitTestAsStructuredSolution(self, input: str, output: str):
-        assert self.snippet_info.type == CPPCodeSnippetAnalyzer.TYPE_STRUCTURED
-
-        LOG = prompt.Log.getInstance()
-
-        utsfs = self._initUnitTestAsUTSFs(input=input)
-        if not utsfs:
-            LOG.failure("failed to generate the structured unittests.")
-            return self._genSkipped()
-
-        if not self._parseInputOutputForUTSFs(utsfs, input=input, output=output):
-            LOG.failure(
-                "failed to parse input/output for the structured unittests.")
-            return self._genSkipped()
-
-        # Gen test steps
+    def genUnitTestSnippet(self, *, variable_prefix: str = ""):
         result = ""
         idx = 0
-        for step in utsfs:
+        for step in self._stages:
             obj_prefix = f's{idx}_'
             result += step.genUnitTestSnippet(variable_prefix=obj_prefix)
             idx += 1
-
         return result
+
+
+class CPPCodeSnippet:
+    def __init__(self, code_snippet: str) -> None:
+        LOG = prompt.Log.getInstance()
+        self.snippet_info = CPPCodeSnippetAnalyzer.parse(code_snippet.strip())
+        self._unittest_flavor: _UnitTestFlavor = None
+
+        if self.snippet_info.type == CPPCodeSnippetAnalyzer.TYPE_REGULAR:
+            class_block = self.snippet_info.classblock
+            self._unittest_flavor = _UnitTestRegularFlavor(constructor=class_block.constructor[0],
+                                                           instance=self._getSolutionObjectName(),
+                                                           function=class_block.member_func[0])
+            LOG.funcVerbose("attached unittest regular flavor.")
+
+        elif self.snippet_info.type == CPPCodeSnippetAnalyzer.TYPE_STRUCTURED:
+            self._unittest_flavor = _UnitTestStageFlavor(instance=self._getSolutionObjectName(),
+                                                         snippet_info=self.snippet_info)
+            LOG.funcVerbose("attached unittest stages flavor.")
+
+        else:
+            LOG.failure("unsupport this type of question.")
+
+    def __bool__(self):
+        return self.snippet_info and self.snippet_info.__bool__() and self._unittest_flavor
+
+    def solutionDefine(self):
+        return self.snippet_info.raw
+
+    def _genSkipped(self):
+        return 'GTEST_SKIP() << "Unittest Not Implemented";'
+
+    def _getSolutionObjectName(self):
+        return '_'.join(filter(lambda e: e != "", regex.split("([A-Z][a-z]+)", self.snippet_info.classblock.name))).lower()
 
     def genUnitTest(self, *, input: str, output: str) -> str:
         LOG = prompt.Log.getInstance()
-        if self.snippet_info.type == CPPCodeSnippetAnalyzer.TYPE_REGULAR:
-            LOG.funcVerbose("generate unittest as regular solution mode.")
-            return self._genUnitTestAsRegularSolution(input, output)
-        elif self.snippet_info.type == CPPCodeSnippetAnalyzer.TYPE_STRUCTURED:
-            LOG.funcVerbose("generate unittest as structured solution mode.")
-            return self._genUnitTestAsStructuredSolution(input, output)
-        return self._genSkipped()
+        self._unittest_flavor.clear()
+
+        if not self._unittest_flavor.addInput(input):
+            LOG.failure("failed to parse inputs: {}", input)
+            return self._genSkipped()
+
+        if not self._unittest_flavor.addExpect(output):
+            LOG.failure("failed to parse output: {}", output)
+            return self._genSkipped()
+
+        return self._unittest_flavor.genUnitTestSnippet()
 
 
 if __name__ == "__main__":
@@ -416,6 +419,8 @@ if __name__ == "__main__":
     q234_input = "head = [1,2,2,1]"
     q234_output = 'true'
 
-    code = CPPCodeSnippet(q1)
-    a = code.genUnitTest(input=q1_input, output=q1_output)
+    code = CPPCodeSnippet(q146)
+    a = code.genUnitTest(input=q146_input, output=q146_output)
+    LOG.print(a.replace(';', ';\n'))
+    a = code.genUnitTest(input=q146_input, output=q146_output)
     LOG.print(a.replace(';', ';\n'))
