@@ -9,6 +9,11 @@ from utils import *
 
 
 class _CPPTypeAbstract:
+    @staticmethod
+    def destory(self, *args) -> str | None:
+        # no need to delete onject
+        return None
+
     def __init__(self, type_name: str):
         self.__include_headers: set[str] = set(["<iosfwd>"])
         self.__type_name = type_name
@@ -18,9 +23,6 @@ class _CPPTypeAbstract:
 
     def __call__(self, value: str) -> str:
         return self.evaluateInput(value)
-
-    def destroy(self) -> str | None:
-        return None
 
     def evaluateInput(self, value: str) -> str:
         assert False, "_CPPTypeAbstract Not Implement."
@@ -264,8 +266,9 @@ class CPPTypeListNode(CPPTypeValid):
         self.__content_regex = self.__content_type.evaluateInputRegex()[1:-1]
         self._appendHeader("\"leetcode/list_node.h\"")
 
-    def destroy(self) -> str:
-        return "ListNode::ReleaseAll()"
+    @staticmethod
+    def destroy(*args) -> str:
+        return "ListNode::Release({})".format(','.join([*args]))
 
     def expectEuql(self, lhs: str, rhs: str):
         return f'EXPECT_LISTNODE_EQ({lhs}, {rhs})'
@@ -307,8 +310,9 @@ class CPPTypeTreeNode(CPPTypeValid):
         self.__content_regex = f'(?:{self.__content_type.evaluateInputRegex()[1:-1]}|null)'
         self._appendHeader("\"leetcode/tree_node.h\"")
 
-    def destroy(self) -> str:
-        return "TreeNode::ReleaseAll()"
+    @staticmethod
+    def destroy(*args) -> str:
+        return "TreeNode::Release({})".format(','.join([*args]))
 
     def expectEuql(self, lhs: str, rhs: str):
         return f'EXPECT_TREENODE_EQ({lhs}, {rhs})'

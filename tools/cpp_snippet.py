@@ -1,10 +1,173 @@
 #!/usr/bin/env python3
-from cpp_analyze import *
 from cpp_analyze import _CPPCodeSnippetInformation
+from cpp_analyze import *
 import regex
 import sys
 # prevent generating __pycache__
 sys.dont_write_bytecode = True
+
+
+class _UnitTestFlavor:
+    def __init__(self, *, instance: str, function: _CPPCodeSnippetInformation._CPPSolutionFunction) -> None:
+        self._instance: str = instance
+        self._function: _CPPCodeSnippetInformation._CPPSolutionFunction = function
+
+    def getFunction(self):
+        return self._function
+
+    def addInput(self, input: str) -> bool:
+        return False
+
+    def addExpect(self, output: str) -> bool:
+        return False
+
+    def genUnitTestSnippet(self, *, variable_prefix: str = ""):
+        return ""
+
+    def getTypeCollection(self):
+        res: dict[__builtins__._ClassInfo, list[str]] = {}
+        for name in self._function.input_args:
+            tp = self._function.arg_types[name]
+            if tp.__class__ not in res:
+                res[tp.__class_] = []
+            res[tp.__class_].append(name)
+        return res
+
+
+class _UnitTestRegularFlavor(_UnitTestFlavor):
+    def __init__(self, *,
+                 constructor:  _CPPCodeSnippetInformation._CPPSolutionFunction,
+                 instance: str,
+                 function: _CPPCodeSnippetInformation._CPPSolutionFunction) -> None:
+        super().__init__(instance=instance, function=function)
+        self._ctor = constructor
+        self._inputs: list[tuple[str, str]] = None
+        self._inplace_case = self._function.return_type.getTypeName() == "void"
+        self._actual = "actual" if not self._inplace_case else self._function.input_args[0]
+        self._return_type=  self._function.return_type if not self._inplace_case else self._function.arg_types[self._actual]
+        self._output: str = None
+        assert self._ctor, "invalid consturctor"
+
+    def addInput(self, input: str) -> bool:
+        assert self._inputs is None, "duplicately added input."
+
+        self._inputs = []
+        LOG = prompt.Log.getInstance()
+
+        for name in self._function.input_args:
+            tp = self._function.arg_types[name]
+            reg = f'{name} *= *({tp.evaluateInputRegex()[1:-1]})'
+            LOG.funcVerbose("parse input for {} with regex: {}", name, reg)
+            mat = regex.search(reg, input)
+            if not mat:
+                LOG.failure("falied to parse input: {}", input)
+                return False
+            self._inputs.append((name, mat.group(1)))
+        return True
+
+    def addExpect(self, output: str):
+        assert self._output is None, "duplicately added output."
+
+        LOG = prompt.Log.getInstance()
+        self._output = ""
+        reg = self._return_type.evaluateInputRegex()[1:-1]
+        LOG.funcVerbose("parse output: {}", output)
+        LOG.funcVerbose("parse output with regex: {}", reg)
+        mat = regex.search(reg, output)
+        if not mat:
+            LOG.failure("falied to parse output: {}", output)
+            return False
+
+        self._output = mat.group(0)
+        return True
+
+    def genUnitTestSnippet(self, *, variable_prefix: str = ""):
+        result = ""
+        # consturct
+        result += f'auto {variable_prefix}{self._instance} = {self._ctor()};'
+        for name, input in self._inputs:
+            tp = self._function.arg_types[name]
+            result += f'{tp} {name} = {tp(input)};'
+
+        if self._inplace_case:
+            result += f'{variable_prefix}{self._instance}->{self._function(*self._function.input_args)};'
+        else:
+            result += f'{self._return_type} {self._actual} = {variable_prefix}{self._instance}->{self._function(*self._function.input_args)};'
+
+        result += f'{self._return_type.expectEuql("expect", self._actual)};'
+        return result
+
+
+class _UnitTestStagedFlavor(_UnitTestFlavor):
+    def __init__(self, *,
+                 instance: str,
+                 function: _CPPCodeSnippetInformation._CPPSolutionFunction):
+        super().__init__(instance=instance, function=function)
+        self._inputs: list[tuple[str, str]] = None
+        self._expect: str = None
+
+    def _isConstructor(self):
+        return self._function.return_type is None
+
+    def getChainedArgumentsEvaluateRegex(self):
+        res = ""
+        for tp in [self._function.arg_types[n] for n in self._function.input_args]:
+            res += f'(?: *(?:{tp.evaluateInputRegex()[1:-1]}) *),'
+        res = res[:-1]
+        return res
+
+    def getExpectRegex(self):
+        if not self._function.return_type or self._function.return_type.getTypeName() == "void":
+            return "^null$"
+        return self._function.return_type.evaluateInputRegex()
+
+    def addInput(self, input: str) -> bool:
+        assert self._inputs is None, "duplicately added input."
+
+        LOG = prompt.Log.getInstance()
+        self._inputs = []
+
+        reg = ""
+        for name in self._function.input_args:
+            tp = self._function.arg_types[name]
+            reg += f' *(?P<{name}>(?:{tp.evaluateInputRegex()[1:-1]})) *,'
+        reg = reg[:-1]
+        LOG.funcVerbose("parse arguments for {}: {}", self._function.name, input)
+        LOG.funcVerbose("parse arguments with regex: {}", reg)
+
+        mat = regex.search(reg, input)
+        if not mat:
+            LOG.failure("falied to parse arguments for {}: {}",
+                        self._function.name, input)
+            return False
+
+        for name in self._function.input_args:
+            tp = self._function.arg_types[name]
+            self._inputs.append((name, tp.evaluateInput(mat.group(name))))
+        return True
+
+    def addExpect(self, output: str):
+        assert self._expect is None, "duplicately added output."
+        if self._function.return_type and self._function.return_type.getTypeName() != "void":
+            self._expect = self._function.return_type.evaluateInput(output)
+        return True
+
+    def genUnitTestSnippet(self, *, variable_prefix: str = ""):
+        res = ""
+        f = self._function
+        for n, v in self._inputs:
+            tp = f.arg_types[n]
+            res += f'{tp} {variable_prefix}{n} = {v};'
+        variables = [f'{variable_prefix}{n}' for n in f.input_args]
+        if self._isConstructor():
+            res += f'auto {self._instance} = {f(*variables)};'
+        elif f.return_type.getTypeName() == "void":
+            res += f'{self._instance}->{f(*variables)};'
+        else:
+            res += f'{f.return_type} {variable_prefix}expect = {f.return_type(self._expect)};'
+            res += f'{f.return_type} {variable_prefix}actual = {self._instance}->{f(*variables)};'
+            res += f'{f.return_type.expectEuql(variable_prefix + "expect", variable_prefix + "actual")};'
+        return res
 
 
 class CPPCodeSnippet:
@@ -27,66 +190,27 @@ class CPPCodeSnippet:
         assert self.snippet_info.type == CPPCodeSnippetAnalyzer.TYPE_REGULAR
 
         LOG = prompt.Log.getInstance()
-        result = ""
+
         class_block = self.snippet_info.classblock
-        ctor = class_block.constructor[0]
-        func = class_block.member_func[0]
-        obj = self._getSolutionObjectName()
-        result = f'auto {obj} = {ctor()};'
-
-        for name in func.input_args:
-            tp = func.arg_types[name]
-            input_regex = f'{name} *= *({tp.evaluateInputRegex()[1:-1]})'
-            LOG.funcVerbose("parse input for {} with regex: {}",
-                            name, input_regex)
-            mat = regex.search(input_regex, input)
-            if not mat:
-                LOG.failure("falied to parse input: {}", input)
-                return self._genSkipped()
-            result += f'{tp} {name} = {tp(mat.group(1))};'
-
-        is_inplace_case = func.return_type.getTypeName() == "void"
-        actual = "actual" if not is_inplace_case else func.input_args[0]
-        tp = func.return_type if not is_inplace_case else func.arg_types[actual]
-
-        output_regex = tp.evaluateInputRegex()[1:-1]
-        LOG.funcVerbose("parse output with regex: {}", output_regex)
-        mat = regex.search(output_regex, output)
-        if not mat:
-            LOG.failure("falied to parse output: {}", output)
+        utrf = _UnitTestRegularFlavor(constructor=class_block.constructor[0],
+                                      instance=self._getSolutionObjectName(),
+                                      function=class_block.member_func[0])
+        if not utrf.addInput(input):
+            LOG.failure("failed to parse inputs: {}", input)
             return self._genSkipped()
+        if not utrf.addExpect(output):
+            LOG.failure("failed to parse output: {}", output)
+            return self._genSkipped()
+        return utrf.genUnitTestSnippet()
 
-        result += f'{tp} expect = {tp(mat.group(0))};'
-        if is_inplace_case:
-            result += f'{obj}->{func(*func.input_args)};'
-        else:
-            result += f'{func.return_type} {actual} = {obj}->{func(*func.input_args)};'
-        result += f'{tp.expectEuql("expect", actual)};'
-
-        for name in func.input_args:
-            tp = func.arg_types[name]
-            dtor = tp.destroy()
-            if dtor and dtor != "":
-                result += dtor + ";"
-
-        return result
-
-    def _genUnitTestAsStructuredSolution(self, input: str, output: str):
+    def _initUnitTestAsUTSFs(self, *, input: str) -> list[_UnitTestStagedFlavor]:
         assert self.snippet_info.type == CPPCodeSnippetAnalyzer.TYPE_STRUCTURED
 
         LOG = prompt.Log.getInstance()
-        result = ""
+        result: list[_UnitTestStagedFlavor] = []
         class_block = self.snippet_info.classblock
 
-        class TestStep:
-            def __init__(self) -> None:
-                self.function: _CPPCodeSnippetInformation._CPPSolutionFunction = None
-                self.args_val: list[str] = []
-                self.expect: str = ""
-
-        test_steps: list[TestStep] = []
-
-        # first line of input is formatted in vector<string>-like
+        # Parse input as vector<string> like.
         command_regex = "(?:'[\w\W]*?'|\"[\w\W]*?\")"
         input_func_regex = f"(?:\[(?:(?:(?: *{command_regex}) *,?)*)?\])"
         LOG.funcVerbose("parse input: {}", input)
@@ -94,17 +218,16 @@ class CPPCodeSnippet:
         mat = regex.search(input_func_regex, input)
         if not mat:
             LOG.failure("falied to parse commands int input: {}", input)
-            return self._genSkipped()
-        secondline_input = regex.sub(input_func_regex, "", input).strip(" \n")
+            return []
 
         # Getting the function name and initialize the teststep
         input_inner_func_regex = f"(?: *({command_regex}) *,?)"
         commands_input = mat.group(0)[1:-1]
         LOG.funcVerbose("parse input commands with regex: {}",
                         input_inner_func_regex)
-        for elem in regex.findall(input_inner_func_regex, commands_input):
+        for function_name in regex.findall(input_inner_func_regex, commands_input):
             name = regex.search(command_regex, str(
-                elem).strip()).group(0)[1:-1]
+                function_name).strip()).group(0)[1:-1]
             LOG.funcVerbose("find function name: {}", name)
             f: _CPPCodeSnippetInformation._CPPSolutionFunction = None
             if name == class_block.name:
@@ -114,53 +237,43 @@ class CPPCodeSnippet:
                     if name == mem_f.name:
                         f = mem_f
                         break
-
             if not f:
                 LOG.failure("test function not found: {}", name)
-                return self._genSkipped()
-            step = TestStep()
-            step.function = f
-            test_steps.append(step)
+                return []
+            result.append(_UnitTestStagedFlavor(instance=self._getSolutionObjectName(),
+                                                function=f))
+        return result
 
-        # Parse arguments in each test step
-        # Gen regex for parsing input
+    def _parseInputOutputForUTSFs(self, utsf: list[_UnitTestStagedFlavor], *, input: str, output: str):
+        assert self.snippet_info.type == CPPCodeSnippetAnalyzer.TYPE_STRUCTURED
+
+        LOG = prompt.Log.getInstance()
+
         idx = 0
         input_args_regex = f"(?:\[(?:(?:"
-        for step in test_steps:
-            func = step.function
-            tps = [func.arg_types[n] for n in func.input_args]
+        for step in utsf:
             input_args_regex += f"(?: *\[ *(?P<step_{idx}>"
-            for tp in tps:
-                reg = tp.evaluateInputRegex()[1:-1]
-                input_args_regex += f"(?: *(?:{reg})) *,?"
+            input_args_regex += step.getChainedArgumentsEvaluateRegex()
             input_args_regex += f")) *\] *,?"
             idx += 1
         input_args_regex += ")*)?\])"
-        LOG.funcVerbose("parse arguments input: {}", secondline_input)
+        LOG.funcVerbose("parse arguments input: {}", input)
         LOG.funcVerbose("parse input arguments with regex: {}",
                         input_args_regex)
-
-        mat = regex.match(input_args_regex, secondline_input)
+        mat = regex.search(input_args_regex, input)
         if not mat:
-            LOG.failure("falied to parse arguments: {}", secondline_input)
-            return self._genSkipped()
-
+            LOG.failure("falied to parse arguments: {}", input)
+            return False
         idx = 0
-        for step in test_steps:
-            step.args_val = mat.group(f"step_{idx}").strip()
+        for step in utsf:
+            step.addInput(mat.group(f"step_{idx}").strip())
             idx += 1
 
-        # Gen regex for parse output
         idx = 0
         output_regex = f"(?:\[(?:(?:"
-        for step in test_steps:
+        for step in utsf:
             output_regex += f"(?: *(?P<step_{idx}>"
-            f = step.function
-            if not f.return_type or f.return_type.getTypeName() == "void":
-                output_regex += "null"
-            else:
-                reg = f.return_type.evaluateInputRegex()[1:-1]
-                output_regex += f"(?: *(?:{reg}))"
+            output_regex += step.getExpectRegex()[1:-1]
             output_regex += f")) *,?"
             idx += 1
         output_regex += ")*)?\])"
@@ -170,54 +283,38 @@ class CPPCodeSnippet:
         mat = regex.match(output_regex, output)
         if not mat:
             LOG.failure("falied to parse arguments: {}", output)
+            return False
+
+        idx = 0
+        for step in utsf:
+            step.addExpect(mat.group(f"step_{idx}"))
+            idx += 1
+
+        return True
+
+    def _genUnitTestAsStructuredSolution(self, input: str, output: str):
+        assert self.snippet_info.type == CPPCodeSnippetAnalyzer.TYPE_STRUCTURED
+
+        LOG = prompt.Log.getInstance()
+
+        utsfs = self._initUnitTestAsUTSFs(input=input)
+        if not utsfs:
+            LOG.failure("failed to generate the structured unittests.")
             return self._genSkipped()
 
-        idx = 0
-        for step in test_steps:
-            step.expect = mat.group(f"step_{idx}")
-            idx += 1
+        if not self._parseInputOutputForUTSFs(utsfs, input=input, output=output):
+            LOG.failure(
+                "failed to parse input/output for the structured unittests.")
+            return self._genSkipped()
 
         # Gen test steps
+        result = ""
         idx = 0
-        for step in test_steps:
-            idx += 1
-            f = step.function
+        for step in utsfs:
             obj_prefix = f's{idx}_'
+            result += step.genUnitTestSnippet(variable_prefix=obj_prefix)
+            idx += 1
 
-            ## Gen argument regex
-            arg_idx = 0
-            arg_regex = ""
-            for tp in [f.arg_types[t] for t in f.input_args]:
-                arg_regex += f' *(?P<step_{arg_idx}>{tp.evaluateInputRegex()[1:-1]}) *,'
-                arg_idx += 1
-            # slice last ','
-            arg_regex = arg_regex[:-1]
-            LOG.funcVerbose("parse arguments for {}: {}", f.name, step.args_val)
-            LOG.funcVerbose("parse arguments with regex: {}", arg_regex)
-
-            mat = regex.search(arg_regex, step.args_val)
-            if not mat:
-                LOG.failure("falied to parse arguments for {}: {}",
-                            f.name, step.args_val)
-                return self._genSkipped()
-
-            arg_idx = 0
-            for name in f.input_args:
-                tp = f.arg_types[name]
-                result += f'{tp} {obj_prefix}{name} = '
-                result += '{};'.format(tp(mat.group(f"step_{arg_idx}")))
-                arg_idx += 1
-
-            args = [obj_prefix + n for n in f.input_args]
-            if not f.return_type:
-                # construct case
-                result += f'auto {self._getSolutionObjectName()} = {f(*args)};'
-            elif f.return_type.getTypeName() == "void":
-                result += f'{self._getSolutionObjectName()}->{f(*args)};'
-            else:
-                result += f'{f.return_type} {obj_prefix}expect = {f.return_type(step.expect)};'
-                result += f'{f.return_type} {obj_prefix}actual = {self._getSolutionObjectName()}->{f(*args)};'
-                result += f'{f.return_type.expectEuql(obj_prefix + "expect", obj_prefix + "actual")};'
         return result
 
     def genUnitTest(self, *, input: str, output: str) -> str:
@@ -298,6 +395,27 @@ if __name__ == "__main__":
 [[2], [1, 1], [2, 2], [1], [3, 3], [2], [4, 4], [1], [3], [4]]'''
     q146_output = '[null, null, null, 1, null, -1, null, -1, 3, 4]'
 
-    code = CPPCodeSnippet(q146)
-    a = code.genUnitTest(input=q146_input, output=q146_output)
+    q234 = '\n'.join([
+        '/**',
+        ' * Definition for singly-linked list.',
+        ' * struct ListNode {',
+        ' *     int val;',
+        ' *     ListNode *next;',
+        ' *     ListNode() : val(0), next(nullptr) {}',
+        ' *     ListNode(int x) : val(x), next(nullptr) {}',
+        ' *     ListNode(int x, ListNode *next) : val(x), next(next) {}',
+        ' * };',
+        ' */',
+        'class Solution {',
+        'public:',
+        'bool isPalindrome(ListNode* head) {',
+        '        ',
+        '}',
+        '};',
+    ])
+    q234_input = "head = [1,2,2,1]"
+    q234_output = 'true'
+
+    code = CPPCodeSnippet(q1)
+    a = code.genUnitTest(input=q1_input, output=q1_output)
     LOG.print(a.replace(';', ';\n'))
