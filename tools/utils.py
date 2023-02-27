@@ -8,7 +8,7 @@ import time
 import subprocess
 from pathlib import Path
 from typing import Callable
-from datetime import date
+from datetime import date, datetime
 # prevent generating __pycache__
 sys.dont_write_bytecode = True
 
@@ -40,7 +40,7 @@ QUESTIONS_LOG_ABSOLUTE = SRC_ABSOLUTE.joinpath("logs.csv")
 QUESTIONS_LIST_ABSOLUTE = SRC_ABSOLUTE.joinpath("questions_list.csv")
 README_ABSOLUTE = PROJECT_ROOT.joinpath("README.md")
 
-TODAY = date.today()
+TODAY = datetime.now()
 
 
 def concat(*args, delimiter: str = '\n'):

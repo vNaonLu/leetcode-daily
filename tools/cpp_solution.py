@@ -11,7 +11,9 @@ from utils import *
 
 
 class CPPSoltuion:
-    def __init__(self, obj: object, *, existed_solution: str = None) -> None:
+    def __init__(self, obj: object, *,
+                 timestamp: int = time.mktime(TODAY.timetuple()),
+                 existed_solution: str = None) -> None:
         assert obj
         assert 'content' in obj
         assert 'questionFrontendId' in obj
@@ -19,6 +21,7 @@ class CPPSoltuion:
         assert 'titleSlug' in obj
         assert 'difficulty' in obj
         LOG = prompt.Log.getInstance()
+        self._timestamp: int = timestamp
         self._id: int = int(obj['questionFrontendId'])
         self._title: str = obj['questionTitle']
         self._slug: str = obj['titleSlug']
@@ -52,10 +55,12 @@ class CPPSoltuion:
 
     def _solutionInformation(self, *, prefix: str) -> str:
         return concat(
-            f'Solution For  : https://leetcode.com/problems/{self._slug}/',
-            f'Question ID   : {self._id}',
-            f'Question Title: {self._title}',
-            f'Difficult     : {self._difficulty}',
+            f'Solution For   : https://leetcode.com/problems/{self._slug}/',
+            f'Question ID    : {self._id}',
+            f'Question Title : {self._title}',
+            f'Difficult      : {self._difficulty}',
+            'Resolutino Time: {}'.format(time.strftime('%Y/%m/%d %H:%M',
+                                                       time.localtime(self._timestamp))),
             delimiter=f'\n{prefix}')
 
     def getUnitTest(self, *, name: str, suite_name: str, input: str, output: str, explanation: str = None):
