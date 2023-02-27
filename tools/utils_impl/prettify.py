@@ -42,6 +42,8 @@ def subscript(content: str):
 
 
 class __HTMLParser(_NativeHTMLParser):
+    _INDENT = "  "
+
     def __init__(self, *, convert_charrefs: bool = True) -> None:
         super().__init__(convert_charrefs=convert_charrefs)
         self.buffer = ""
@@ -51,10 +53,19 @@ class __HTMLParser(_NativeHTMLParser):
 
     def handle_starttag(self, tag, attrs):
         self.current_tag.append((tag, attrs))
+
         if tag == 'ul' or tag == 'ol':
             self.relative_tag.append(tag)
             if tag == 'ol':
-                self.ordinated_idx.append(0)
+                self.ordinated_idx.append(1)
+
+        elif tag == 'li':
+            if self.relative_tag[-1] == 'ol':
+                self.buffer += f'\n{self._INDENT * (len(self.relative_tag) - 1)} {self.ordinated_idx[-1]}. '
+                self.ordinated_idx[-1] += 1
+            else:
+                self.buffer += f'\n{self._INDENT * (len(self.relative_tag) - 1)} • '
+
         elif tag == 'code':
             if len(self.buffer) > 0 and not regex.match("[ \t\n]", self.buffer[-1]):
                 self.buffer += " "
@@ -70,14 +81,17 @@ class __HTMLParser(_NativeHTMLParser):
                 self.ordinated_idx.pop()
 
         if tag == 'li' or tag == 'ul' or tag == 'ol':
-            self.buffer += '\n'
+            pass
+
         elif tag == 'a' and 'href' in attrs:
             self.buffer += '({})'.format(attrs['href'])
+
         elif tag == 'img':
             for attr, val in attrs:
                 if attr == 'src':
                     self.buffer += '![img]({})'.format(val)
                     break
+
         elif tag == 'code':
             self.buffer += "|"
 
@@ -91,24 +105,21 @@ class __HTMLParser(_NativeHTMLParser):
 
         if tag == 'a':
             data = f'[{data}]'
-        elif tag == 'li':
-            if self.relative_tag[-1] == 'ol':
-                self.buffer += f' {self.ordinated_idx[-1]}. ' 
-                self.ordinated_idx[-1] += 1
-            else:
-                self.buffer += f' • ' 
+
         elif tag == "sub":
             repl = subscript(data)
             if repl == data:
                 data = f'^{{{repl}}}'
             else:
                 data = repl
+
         elif tag == "sup":
             repl = superscript(data)
             if repl == data:
                 data = f'^{{{repl}}}'
             else:
                 data = repl
+
         self.buffer += data
 
 

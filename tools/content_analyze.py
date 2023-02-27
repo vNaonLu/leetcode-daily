@@ -72,15 +72,15 @@ class QuestionContentAnalyzer:
             return content
 
         content = regex.sub(reg, "", content)
-        example_regex = "<pre>(?:[\w\W]*?)<strong>Input:<\/strong>([\w\W]*?)<strong>Output:<\/strong>([\w\W]*?)(?:<strong>Explanation:<\/strong>([\w\W]*?))?<\/pre>"
+        example_regex = "<pre>(?:[\w\W]*?)<strong>Input: *<\/strong>([\w\W]*?)<strong>Output: *<\/strong>([\w\W]*?)(?:<strong>Explanation: *<\/strong>([\w\W]*?))?<\/pre>"
         LOG.funcVerbose("find examples section: {}", mat.group(1))
         LOG.funcVerbose("parse the examples items with regex: {}", example_regex)
         for item in regex.findall(example_regex, mat.group(1)):
             LOG.funcVerbose("example found: {}", item)
             example = _QuestionContentInformation._QuestionExample()
-            example.input = str(item[0]).strip()
-            example.output = str(item[1]).strip()
-            example.explanation = str(item[2]).strip()
+            example.input = parseHtml(str(item[0]).strip())
+            example.output = parseHtml(str(item[1]).strip())
+            example.explanation = parseHtml(str(item[2]).strip())
             result.examples.append(example)
         return content
 

@@ -29,8 +29,7 @@ class _CPPCodeSnippetInformation:
                 return False
             for type in self.arg_types.values():
                 if not type or not type.isVaild():
-                    LOG.funcVerbose("invalid type: {}", LOG.format(
-                        type, flag=LOG.DARK_RED))
+                    LOG.funcVerbose("invalid type: {}", LOG.format(type, flag=LOG.DARK_RED))
                     return False
             return True
 
@@ -154,7 +153,7 @@ class CPPCodeSnippetAnalyzer:
             LOG.funcVerbose("    arguments: {}", args)
             LOG.funcVerbose("----------------------------")
             f = _CPPCodeSnippetInformation._CPPSolutionFunction(func_name=fun_name,
-                                                     return_type=ret_type)
+                                                                return_type=ret_type)
             LOG.funcVerbose("parse arguments with regex: {}", CPPCodeSnippetAnalyzer._FUNC_ARGS_PARSER)
             for arg in regex.findall(CPPCodeSnippetAnalyzer._FUNC_ARGS_PARSER, args):
                 arg_type = deduceCPPType(arg[0].strip())

@@ -53,7 +53,9 @@ class _UnitTestRegularFlavor(_UnitTestFlavor):
         super().__init__(instance=instance, function=function)
         self._ctor = constructor
         self._inputs: list[tuple[str, str]] = None
-        self._inplace_case = self._function.return_type.getTypeName() == "void"
+        self._inplace_case = False
+        if self._function.return_type and self._function.return_type.getTypeName() == "void":
+            self._inplace_case = True
         self._actual = "actual" if not self._inplace_case else self._function.input_args[0]
         self._return_type = self._function.return_type if not self._inplace_case else self._function.arg_types[
             self._actual]
@@ -83,6 +85,9 @@ class _UnitTestRegularFlavor(_UnitTestFlavor):
 
     def addExpect(self, output: str):
         assert self._output is None, "duplicately added output."
+
+        if not self._return_type:
+            return False
 
         LOG = prompt.Log.getInstance()
         self._output = ""
@@ -346,7 +351,7 @@ class CPPCodeSnippet:
             LOG.failure("unsupport this type of question.")
 
     def __bool__(self):
-        return self._unittest_flavor and self.snippet_info and self.snippet_info.__bool__()
+        return self._unittest_flavor and self.snippet_info.__bool__()
 
     def solutionDefine(self):
         return self.snippet_info.raw
