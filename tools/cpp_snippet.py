@@ -72,14 +72,16 @@ class _UnitTestRegularFlavor(_UnitTestFlavor):
         self._inputs = []
         LOG = prompt.Log.getInstance()
 
+        LOG.funcVerbose("parse the input: {}", input)
         for name in self._function.input_args:
             tp = self._function.arg_types[name]
             reg = f'{name} *= *({tp.evaluateInputRegex()[1:-1]})'
-            LOG.funcVerbose("parse input for {} with regex: {}", name, reg)
+            LOG.funcVerbose("     with regex: {}", reg)
             mat = regex.search(reg, input)
             if not mat:
                 LOG.failure("falied to parse input: {}", input)
                 return False
+            LOG.funcVerbose("    found value: {}", mat.group(1))
             self._inputs.append((name, mat.group(1)))
         return True
 
@@ -92,19 +94,22 @@ class _UnitTestRegularFlavor(_UnitTestFlavor):
         LOG = prompt.Log.getInstance()
         self._output = ""
         reg = self._return_type.evaluateInputRegex()[1:-1]
-        LOG.funcVerbose("parse output: {}", output)
-        LOG.funcVerbose("parse output with regex: {}", reg)
+        LOG.funcVerbose("parse the output: {}", output)
+        LOG.funcVerbose("      with regex: {}", reg)
         mat = regex.search(reg, output)
         if not mat:
             LOG.failure("falied to parse output: {}", output)
             return False
 
+        LOG.funcVerbose("     found value: {}", mat.group(0))
         self._output = mat.group(0)
         return True
 
     def genUnitTestSnippet(self, *, variable_prefix: str = ""):
         result = ""
         # consturct
+        LOG = prompt.Log.getInstance()
+        LOG.funcVerbose("generating the unittest snippet.")
         result += f'auto {variable_prefix}{self._instance} = {self._ctor()};'
         for name, input in self._inputs:
             tp = self._function.arg_types[name]
@@ -113,6 +118,7 @@ class _UnitTestRegularFlavor(_UnitTestFlavor):
         if self._inplace_case:
             result += f'{variable_prefix}{self._instance}->{self._function(*self._function.input_args)};'
         else:
+            result += f'{self._return_type} expect = {self._return_type(self._output)};'
             result += f'{self._return_type} {self._actual} = {variable_prefix}{self._instance}->{self._function(*self._function.input_args)};'
 
         result += f'{self._return_type.expectEuql("expect", self._actual)};'
@@ -161,25 +167,26 @@ class _UnitTestStageFlavorSingleStage(_UnitTestFlavor):
             tp = self._function.arg_types[name]
             reg += f' *(?P<{name}>(?:{tp.evaluateInputRegex()[1:-1]})) *,'
         reg = reg[:-1]
-        LOG.funcVerbose("parse arguments for {}: {}",
-                        self._function.name, input)
-        LOG.funcVerbose("parse arguments with regex: {}", reg)
+
+        LOG.funcVerbose("parse the input: {}", input)
+        LOG.funcVerbose("     with regex: {}", reg)
 
         mat = regex.search(reg, input)
         if not mat:
-            LOG.failure("falied to parse arguments for {}: {}",
-                        self._function.name, input)
+            LOG.failure("falied to parse arguments for {}: {}", self._function.name, input)
             return False
 
         for name in self._function.input_args:
             tp = self._function.arg_types[name]
-            self._inputs.append((name, tp.evaluateInput(mat.group(name))))
+            val = tp(mat.group(name))
+            self._inputs.append((name, val))
+            LOG.funcVerbose("    found value: {}", val)
         return True
 
     def addExpect(self, output: str):
         assert self._expect is None, "duplicately added output."
         if self._function.return_type and self._function.return_type.getTypeName() != "void":
-            self._expect = self._function.return_type.evaluateInput(output)
+            self._expect = self._function.return_type(output)
         return True
 
     def genUnitTestSnippet(self, *, variable_prefix: str = ""):

@@ -220,7 +220,8 @@ class _LogImpl(_PrintTool):
                                   symbol_flag=self.VERBOSE)
 
     def funcVerbose(self, s: str, *args):
-        self.verbose(f'[{inspect.stack()[1][3]}] {s}', *args)
+        frame_info = inspect.stack()[1]
+        self.verbose(f'[{frame_info[1]}:{frame_info[2]}] {s}', *args)
 
     def __successForm(self, s: str, *args, flag: int = 0):
         return self._formatWithSymbol('[+]', f'{s}', *args, flag=flag,

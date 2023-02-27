@@ -22,7 +22,11 @@ class _CPPTypeAbstract:
         return self.__type_name
 
     def __call__(self, value: str) -> str:
-        return self.evaluateInput(value)
+        LOG = prompt.Log.getInstance()
+        LOG.funcVerbose("the type |{}| evaluate the input: {}", self, value)
+        v = self.evaluateInput(value)
+        LOG.funcVerbose("result: {}", v)
+        return v
 
     def evaluateInput(self, value: str) -> str:
         assert False, "_CPPTypeAbstract Not Implement."
@@ -83,8 +87,7 @@ class CPPTypeBool(CPPTypeValid):
         LOG = prompt.Log.getInstance()
         mat = regex.match(self.evaluateInputRegex(), value, regex.IGNORECASE)
         if not mat:
-            LOG.failure("CPPTypeBool failed to parse: {}",
-                        LOG.format(val, flag=LOG.HIGHTLIGHT))
+            LOG.failure("CPPTypeBool failed to parse: {}", LOG.format(val, flag=LOG.HIGHTLIGHT))
             return "false"
         return mat.group(0)
 
@@ -233,7 +236,8 @@ class CPPTypeVector(CPPTypeValid):
         LOG = prompt.Log.getInstance()
         assert self._template_type
         content: list[str] = []
-        LOG.funcVerbose("bracket regex: {}", self.evaluateInputRegex())
+        LOG.funcVerbose("evaluate value: {}", value)
+        LOG.funcVerbose("    with regex: {}", self.evaluateInputRegex())
         mat_bracket = regex.match(self.evaluateInputRegex(), value)
         if not mat_bracket:
             LOG.failure("CPPTypeVector ({}) failed to parse: {}", self.getTypeName(),
@@ -241,11 +245,10 @@ class CPPTypeVector(CPPTypeValid):
             return "{{}}"
         inner = value[1:-1]
         inner_regex = f'(?: *({self._template_type.evaluateInputRegex()[1:-1]}) *,?)'
-        LOG.verbose("search inner with: {}", inner_regex)
-        LOG.verbose("search inner content: {}", inner)
+        LOG.funcVerbose("evaluate inner content: {}", inner)
+        LOG.funcVerbose("            with regex: {}", inner_regex)
         for elem in regex.findall(inner_regex, inner):
             elem_ = str(elem).strip()
-            LOG.funcVerbose("element: {}", elem_)
             content.append(self._template_type.evaluateInput(elem_))
         return "{{{}}}".format(",".join(content))
 
@@ -283,16 +286,14 @@ class CPPTypeListNode(CPPTypeValid):
         LOG.funcVerbose("bracket regex: {}", self.evaluateInputRegex())
         mat_bracket = regex.match(self.evaluateInputRegex(), value)
         if not mat_bracket:
-            LOG.failure("CPPTypeListNode failed to parse: {}",
-                        LOG.format(value, flag=LOG.HIGHTLIGHT))
+            LOG.failure("CPPTypeListNode failed to parse: {}", LOG.format(value, flag=LOG.HIGHTLIGHT))
             return "ListNode::FromVector({{}})"
         inner = value[1:-1]
         inner_regex = f'(?:( *{self.__content_regex}) *,?)'
-        LOG.verbose("search inner with: {}", inner_regex)
-        LOG.verbose("search inner content: {}", inner)
+        LOG.funcVerbose("evaluate inner content: {}", inner)
+        LOG.funcVerbose("            with regex: {}", inner_regex)
         for elem in regex.findall(inner_regex, inner):
             elem_ = str(elem).strip()
-            LOG.funcVerbose("element: {}", elem_)
             content.append(self.__content_type.evaluateInput(elem_))
         return "ListNode::FromVector({{{}}}/*, looped_index*/)".format(",".join(content))
 
@@ -324,19 +325,16 @@ class CPPTypeTreeNode(CPPTypeValid):
     def evaluateInput(self, value: str) -> str:
         LOG = prompt.Log.getInstance()
         content: list[str] = []
-        LOG.funcVerbose("bracket regex: {}", self.evaluateInputRegex())
         mat_bracket = regex.match(self.evaluateInputRegex(), value)
         if not mat_bracket:
-            LOG.failure("CPPTypeTreeNode failed to parse: {}",
-                        LOG.format(value, flag=LOG.HIGHTLIGHT))
+            LOG.failure("CPPTypeTreeNode failed to parse: {}", LOG.format(value, flag=LOG.HIGHTLIGHT))
             return "TreeNode::FromVector({{}})"
         inner = value[1:-1]
         inner_regex = f'(?:( *{self.__content_regex}) *,?)'
-        LOG.verbose("search inner with: {}", inner_regex)
-        LOG.verbose("search inner content: {}", inner)
+        LOG.funcVerbose("evaluate inner content: {}", inner)
+        LOG.funcVerbose("            with regex: {}", inner_regex)
         for elem in regex.findall(inner_regex, inner):
             elem_ = str(elem).strip()
-            LOG.funcVerbose("element: {}", elem_)
             if elem_ != "null":
                 content.append(self.__content_type.evaluateInput(elem_))
             else:

@@ -78,9 +78,9 @@ class CPPCodeSnippetAnalyzer:
         assert False, "_CPPCodeSnippetAnalyzer shouldn't be constructed."
 
     def _trimComment(code: str):
-        trimmed = regex.sub("//[^\n]*?\n", "", code)
-        trimmed = regex.sub("/\*[\w\W]*?\*/", "", trimmed)
-        return trimmed.strip()
+        code = regex.sub("//[^\n]*?\n", "", code)
+        code = regex.sub("\/\*[\w\W]*?\*\/", "", code)
+        return code.strip()
 
     _CLASS_PARSER = '^(?:class +(?P<classname>\w+) *{(?P<class_define>[\w\W]*)?};)$'
     _TYPE_PARSER = '( *\w+ *(?:<[\w\W]*?>)? *(?:[*&])*)'
@@ -96,71 +96,72 @@ class CPPCodeSnippetAnalyzer:
         trimmed = maybe_code_snippet.strip()
         trimmed = CPPCodeSnippetAnalyzer._trimComment(trimmed)
 
-        LOG.funcVerbose("parse code snippet with regex: {}", CPPCodeSnippetAnalyzer._CLASS_PARSER)
+        LOG.funcVerbose("parse the code snippet:\n {}", trimmed)
+        LOG.funcVerbose("            with regex: {}", CPPCodeSnippetAnalyzer._CLASS_PARSER)
         mat = regex.match(CPPCodeSnippetAnalyzer._CLASS_PARSER, trimmed)
         result.raw = trimmed
 
         if not mat:
-            LOG.failure("failed to parse with: {}", LOG.format(
-                CPPCodeSnippetAnalyzer._CLASS_PARSER, flag=LOG.VERBOSE))
+            LOG.failure("failed to parse code snippet: {}", repr(maybe_code_snippet))
+            LOG.failure("                  with regex: {}", LOG.format(CPPCodeSnippetAnalyzer._CLASS_PARSER,
+                                                                       flag=LOG.VERBOSE))
             return result
         
         class_block = result.classblock
         class_block.name = mat.group("classname").strip()
         class_definition = mat.group("class_define").strip()
-        LOG.funcVerbose("  class name: {}", class_block.name)
-        LOG.funcVerbose("class define:\n    {}", class_definition.replace('\n', '\n    '))
+        LOG.funcVerbose("parsed successfully.")
+        LOG.funcVerbose("  found class name: {}", class_block.name)
+        LOG.funcVerbose("      found define:\n {}", class_definition)
 
         constructor = class_block.name + CPPCodeSnippetAnalyzer._CONSTRUCTOR_PARSER
-        LOG.funcVerbose("parse constructor with regex: {}", constructor)
+        LOG.funcVerbose("search for constructor with regex: {}", constructor)
         ctor_mat = regex.search(constructor, class_definition)
         if ctor_mat:
             result.type = CPPCodeSnippetAnalyzer.TYPE_STRUCTURED
             args = ctor_mat.group(1).strip()
-            LOG.funcVerbose("find a constructor: {}", ctor_mat)
-            LOG.funcVerbose("         arguments: {}", args)
+            LOG.funcVerbose("found a constructor, treat it as a structured solution.")
+            LOG.funcVerbose("          constructor: {}", ctor_mat)
+            LOG.funcVerbose("             its args: {}", args)
             f = _CPPCodeSnippetInformation._CPPSolutionFunction(func_name=class_block.name,
                                                                 return_type=None)
-            LOG.funcVerbose("parse arguments with regex: {}", CPPCodeSnippetAnalyzer._FUNC_ARGS_PARSER)
+            LOG.funcVerbose("parse args with regex: {}", CPPCodeSnippetAnalyzer._FUNC_ARGS_PARSER)
             for arg in regex.findall(CPPCodeSnippetAnalyzer._FUNC_ARGS_PARSER, args):
                 arg_type = deduceCPPType(arg[0].strip())
                 arg_name = arg[1].strip()
-                LOG.funcVerbose("----------------------------")
-                LOG.funcVerbose("argument type: {}", arg_type)
-                LOG.funcVerbose("argument name: {}", arg_name)
+                LOG.funcVerbose("found argument with type |{}| and name |{}|", arg_type, arg_name)
                 f.input_args.append(arg_name)
                 f.arg_types[arg_name] = arg_type
             class_block.constructor.append(f)
         else:
+            LOG.funcVerbose("constructor not found, treat it as a regular solution.")
             result.type = CPPCodeSnippetAnalyzer.TYPE_REGULAR
             f = _CPPCodeSnippetInformation._CPPSolutionFunction(func_name=class_block.name,
                                                      return_type=None)
             class_block.constructor.append(f)
 
-        LOG.funcVerbose("parse function definition with regex: {}", CPPCodeSnippetAnalyzer._FUNC_PARSER)
+        LOG.funcVerbose("parse the class definition:\n {}", class_definition)
+        LOG.funcVerbose("                with regex: {}", CPPCodeSnippetAnalyzer._FUNC_PARSER)
         for func_mat in regex.findall(CPPCodeSnippetAnalyzer._FUNC_PARSER, class_definition):
-            LOG.funcVerbose("find a function: {}", func_mat)
-            fun_name = func_mat[1].strip()
-            args = func_mat[2].strip()
-            ret_type = deduceCPPType(func_mat[0].strip())
+            fun_name = str(func_mat[1]).strip()
+            args = str(func_mat[2]).strip()
+            ret_type = deduceCPPType(str(func_mat[0]).strip())
 
-            if not fun_name or fun_name == "":
-                LOG.funcVerbose("failed to get function name.")
+            if fun_name == "":
+                LOG.funcVerbose("function name is empty.")
                 continue
 
-            LOG.funcVerbose("function name: {}", fun_name)
-            LOG.funcVerbose("  return type: {}", ret_type)
-            LOG.funcVerbose("    arguments: {}", args)
-            LOG.funcVerbose("----------------------------")
+            LOG.funcVerbose("found a function.")
+            LOG.funcVerbose("   function name: {}", fun_name)
+            LOG.funcVerbose("     return type: {}", ret_type)
+            LOG.funcVerbose("       arguments: {}", args)
             f = _CPPCodeSnippetInformation._CPPSolutionFunction(func_name=fun_name,
                                                                 return_type=ret_type)
             LOG.funcVerbose("parse arguments with regex: {}", CPPCodeSnippetAnalyzer._FUNC_ARGS_PARSER)
             for arg in regex.findall(CPPCodeSnippetAnalyzer._FUNC_ARGS_PARSER, args):
                 arg_type = deduceCPPType(arg[0].strip())
-                arg_name = arg[1].strip()
-                LOG.funcVerbose("argument type: {}", arg_type)
-                LOG.funcVerbose("argument name: {}", arg_name)
-                LOG.funcVerbose("----------------------------")
+                arg_name = str(arg[1]).strip()
+                LOG.funcVerbose("found argument with type |{}| and name |{}|", arg_type, arg_name)
                 f.input_args.append(arg_name)
                 f.arg_types[arg_name] = arg_type
 
