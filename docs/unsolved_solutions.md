@@ -1,6 +1,6 @@
 # Unsolved Solutions List
 
-There are **1684** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
+There are **1683** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
 
 The questions which have been solved are not shown in this page, more information about solved questions can be found at [docs/solved_solutions.md](./solved_solutions.md).
 
@@ -136,7 +136,6 @@ The questions which have been solved are not shown in this page, more informatio
 |423|[Reconstruct Original Digits from English](https://leetcode.com/problems/reconstruct-original-digits-from-english/)|Medium||
 |425|[Word Squares](https://leetcode.com/problems/word-squares/)|Hard|🔒|
 |426|[Convert Binary Search Tree to Sorted Doubly Linked List](https://leetcode.com/problems/convert-binary-search-tree-to-sorted-doubly-linked-list/)|Medium|🔒|
-|427|[Construct Quad Tree](https://leetcode.com/problems/construct-quad-tree/)|Medium||
 |428|[Serialize and Deserialize N-ary Tree](https://leetcode.com/problems/serialize-and-deserialize-n-ary-tree/)|Hard|🔒|
 |431|[Encode N-ary Tree to Binary Tree](https://leetcode.com/problems/encode-n-ary-tree-to-binary-tree/)|Hard|🔒|
 |432|[All O`one Data Structure](https://leetcode.com/problems/all-oone-data-structure/)|Hard||

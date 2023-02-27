@@ -1,6 +1,6 @@
 # Solved Solutions List
 
-This document contains **889** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
+This document contains **890** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
 
 Some questions which are still being resolved are not shown in this page, more information about unsolved questions can be found at [docs/unsolved_solutions.md](./unsolved_solutions.md).
 
@@ -304,6 +304,7 @@ Some questions which are still being resolved are not shown in this page, more i
 |417|[Pacific Atlantic Water Flow](https://leetcode.com/problems/pacific-atlantic-water-flow/)|[src/q_401_450/q0417.cc](../src/q_401_450/q0417.cc)|2022/03/13 14:08|
 |421|[Maximum XOR of Two Numbers in an Array](https://leetcode.com/problems/maximum-xor-of-two-numbers-in-an-array/)|[src/q_401_450/q0421.cc](../src/q_401_450/q0421.cc)|2022/01/27 18:12|
 |424|[Longest Repeating Character Replacement](https://leetcode.com/problems/longest-repeating-character-replacement/)|[src/q_401_450/q0424.cc](../src/q_401_450/q0424.cc)|2022/09/04 15:37|
+|427|[Construct Quad Tree](https://leetcode.com/problems/construct-quad-tree/)|[src/q_401_450/q0427.cc](../src/q_401_450/q0427.cc)|2023/02/27 15:12|
 |429|[N-ary Tree Level Order Traversal](https://leetcode.com/problems/n-ary-tree-level-order-traversal/)|[src/q_401_450/q0429.cc](../src/q_401_450/q0429.cc)|2022/05/04 18:14|
 |430|[Flatten a Multilevel Doubly Linked List](https://leetcode.com/problems/flatten-a-multilevel-doubly-linked-list/)|[src/q_401_450/q0430.cc](../src/q_401_450/q0430.cc)|2021/10/31 13:12|
 |433|[Minimum Genetic Mutation](https://leetcode.com/problems/minimum-genetic-mutation/)|[src/q_401_450/q0433.cc](../src/q_401_450/q0433.cc)|2022/03/21 16:31|
