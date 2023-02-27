@@ -25,6 +25,16 @@ class _UnitTestFlavor:
     def genUnitTestSnippet(self, *, variable_prefix: str = ""):
         return ""
 
+    def getHeaders(self):
+        res: set[str] = set()
+        for tp in  self._function.arg_types.values():
+            for header in tp.getHeaders():
+                res.add(header)
+        if self._function.return_type:
+            for header in self._function.return_type.getHeaders():
+                res.add(header)
+        return res
+
     def getTypeCollection(self, *, variable_prefix: str = ""):
         res: dict[__builtins__._ClassInfo, list[str]] = {}
         for name in self._function.input_args:
@@ -282,6 +292,13 @@ class _UnitTestStageFlavor(_UnitTestFlavor):
 
         return True
 
+    def getHeaders(self):
+        res: set[str] = set()
+        for step in self._stages:
+            for header in step.getHeaders():
+                res.add(header)
+        return res
+
     def genUnitTestSnippet(self, *, variable_prefix: str = ""):
         result = ""
         idx = 0
@@ -329,7 +346,7 @@ class CPPCodeSnippet:
             LOG.failure("unsupport this type of question.")
 
     def __bool__(self):
-        return self.snippet_info and self.snippet_info.__bool__() and self._unittest_flavor
+        return self._unittest_flavor and self.snippet_info and self.snippet_info.__bool__()
 
     def solutionDefine(self):
         return self.snippet_info.raw
@@ -337,8 +354,14 @@ class CPPCodeSnippet:
     def _genSkipped(self):
         return 'GTEST_SKIP() << "Unittest Not Implemented";'
 
+    def getClassName(self):
+        return self.snippet_info.classblock.name
+
     def _getSolutionObjectName(self):
-        return '_'.join(filter(lambda e: e != "", regex.split("([A-Z][a-z]+)", self.snippet_info.classblock.name))).lower()
+        return '_'.join(filter(lambda e: e != "", regex.split("([A-Z][a-z]+)", self.getClassName()))).lower()
+
+    def getHeaders(self):
+        return self._unittest_flavor.getHeaders()
 
     def genUnitTest(self, *, input: str, output: str) -> str:
         LOG = prompt.Log.getInstance()

@@ -57,8 +57,8 @@ class QuestionContentAnalyzer:
         for item in regex.findall(con_list_regex, mat.group(1)):
             LOG.funcVerbose("constraint found: {}", item)
             cons = _QuestionContentInformation._QuestionConstraints()
-            cons.content = item
-            result.constraints.append(item)
+            cons.content = parseHtml(item)
+            result.constraints.append(cons)
         return content
 
     @staticmethod
@@ -89,8 +89,8 @@ class QuestionContentAnalyzer:
         THIS = QuestionContentAnalyzer
         result = _QuestionContentInformation()
         content = THIS._parseAndCutConstraintsSection(content, result)
-        result.description.content = THIS._parseExamplesSection(content,
-                                                                result)
+        result.description.content = parseHtml(THIS._parseExamplesSection(content,
+                                                                          result))
 
         return result
 

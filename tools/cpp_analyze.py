@@ -149,19 +149,19 @@ class CPPCodeSnippetAnalyzer:
                 LOG.funcVerbose("failed to get function name.")
                 continue
 
-            LOG.funcVerbose("----------------------------")
             LOG.funcVerbose("function name: {}", fun_name)
             LOG.funcVerbose("  return type: {}", ret_type)
             LOG.funcVerbose("    arguments: {}", args)
+            LOG.funcVerbose("----------------------------")
             f = _CPPCodeSnippetInformation._CPPSolutionFunction(func_name=fun_name,
                                                      return_type=ret_type)
             LOG.funcVerbose("parse arguments with regex: {}", CPPCodeSnippetAnalyzer._FUNC_ARGS_PARSER)
             for arg in regex.findall(CPPCodeSnippetAnalyzer._FUNC_ARGS_PARSER, args):
                 arg_type = deduceCPPType(arg[0].strip())
                 arg_name = arg[1].strip()
-                LOG.funcVerbose("----------------------------")
                 LOG.funcVerbose("argument type: {}", arg_type)
                 LOG.funcVerbose("argument name: {}", arg_name)
+                LOG.funcVerbose("----------------------------")
                 f.input_args.append(arg_name)
                 f.arg_types[arg_name] = arg_type
 

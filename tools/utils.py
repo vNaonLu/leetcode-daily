@@ -13,6 +13,7 @@ from datetime import date
 sys.dont_write_bytecode = True
 
 import prompt
+from utils_impl.prettify import *
 
 SCRIPT_NAME = "LeetCodeDailyTools"
 CAT_SCRIPT_NAME = f"{SCRIPT_NAME}_Cat"
@@ -47,7 +48,7 @@ def concat(*args, delimiter: str = '\n'):
         return ""
     elif len(args) == 1 and isinstance(*args, str):
         return str(*args)
-    return delimiter.join(*args)
+    return delimiter.join([*args])
 
 
 def fixedWidth(*args, width: int = 80):
