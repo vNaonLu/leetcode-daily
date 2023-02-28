@@ -9,9 +9,13 @@ from cpp_analyze import _CPPCodeSnippetInformation
 from cpp_analyze import *
 
 class _UnitTestFlavor:
-    def __init__(self, *, instance: str, function: _CPPCodeSnippetInformation._CPPSolutionFunction) -> None:
+    def __init__(self, *,
+                 instance: str,
+                 function: _CPPCodeSnippetInformation._CPPSolutionFunction,
+                 compare_in_any_order: bool = False) -> None:
         self._instance: str = instance
         self._function: _CPPCodeSnippetInformation._CPPSolutionFunction = function
+        self._in_any_order = compare_in_any_order
 
     def clear(self):
         pass
@@ -45,12 +49,33 @@ class _UnitTestFlavor:
         return res
 
 
+class _UnitTestUnsupportFlavor(_UnitTestFlavor):
+    def __init__(self, *, 
+                 instance: str,
+                 function: _CPPCodeSnippetInformation._CPPSolutionFunction,
+                 compare_in_any_order: bool = False) -> None:
+        super().__init__(instance=instance, function=function,
+                         compare_in_any_order=compare_in_any_order)
+
+    def getHeaders(self):
+        res: set[str] = set()
+        for tp in  self._function.arg_types.values():
+            for header in tp.getHeaders():
+                res.add(header)
+        if self._function.return_type:
+            for header in self._function.return_type.getHeaders():
+                res.add(header)
+        return res
+
+
 class _UnitTestRegularFlavor(_UnitTestFlavor):
     def __init__(self, *,
                  constructor:  _CPPCodeSnippetInformation._CPPSolutionFunction,
                  instance: str,
-                 function: _CPPCodeSnippetInformation._CPPSolutionFunction) -> None:
-        super().__init__(instance=instance, function=function)
+                 function: _CPPCodeSnippetInformation._CPPSolutionFunction,
+                 compare_in_any_order: bool = False) -> None:
+        super().__init__(instance=instance, function=function,
+                         compare_in_any_order=compare_in_any_order)
         self._ctor = constructor
         self._inputs: list[tuple[str, str]] = None
         self._inplace_case = False
@@ -75,7 +100,7 @@ class _UnitTestRegularFlavor(_UnitTestFlavor):
         LOG.funcVerbose("parse the input: {}", input)
         for name in self._function.input_args:
             tp = self._function.arg_types[name]
-            reg = f'{name} *= *({tp.evaluateInputRegex()[1:-1]})'
+            reg = f'{name}[ \\n]*=[ \\n]*({tp.evaluateInputRegex()[1:-1]})'
             LOG.funcVerbose("     with regex: {}", reg)
             mat = regex.search(reg, input)
             if not mat:
@@ -116,12 +141,17 @@ class _UnitTestRegularFlavor(_UnitTestFlavor):
             result += f'{tp} {name} = {tp(input)};'
 
         if self._inplace_case:
+            tp = self._function.arg_types[self._function.input_args[0]]
+            result += f'{tp} expect = {tp(self._output)};'
             result += f'{variable_prefix}{self._instance}->{self._function(*self._function.input_args)};'
         else:
             result += f'{self._return_type} expect = {self._return_type(self._output)};'
             result += f'{self._return_type} {self._actual} = {variable_prefix}{self._instance}->{self._function(*self._function.input_args)};'
 
-        result += f'{self._return_type.expectEuql("expect", self._actual)};'
+        if self._in_any_order:
+            result += f'EXPECT_ANYORDER_EQ(expect, {self._actual});'
+        else:
+            result += f'LCD_EXPECT_EQ(expect, {self._actual});'
 
         gc = self.getTypeCollection()
         for cls, variables in gc.items():
@@ -136,8 +166,10 @@ class _UnitTestRegularFlavor(_UnitTestFlavor):
 class _UnitTestStageFlavorSingleStage(_UnitTestFlavor):
     def __init__(self, *,
                  instance: str,
-                 function: _CPPCodeSnippetInformation._CPPSolutionFunction):
-        super().__init__(instance=instance, function=function)
+                 function: _CPPCodeSnippetInformation._CPPSolutionFunction,
+                 compare_in_any_order: bool = False):
+        super().__init__(instance=instance, function=function,
+                         compare_in_any_order=compare_in_any_order)
         self._inputs: list[tuple[str, str]] = None
         self._expect: str = None
 
@@ -203,14 +235,15 @@ class _UnitTestStageFlavorSingleStage(_UnitTestFlavor):
         else:
             res += f'{f.return_type} {variable_prefix}expect = {f.return_type(self._expect)};'
             res += f'{f.return_type} {variable_prefix}actual = {self._instance}->{f(*variables)};'
-            res += f'{f.return_type.expectEuql(variable_prefix + "expect", variable_prefix + "actual")};'
+            res += f'LCD_EXPECT_EQ({variable_prefix}expect, {variable_prefix}actual);'
         return res
 
 
 class _UnitTestStageFlavor(_UnitTestFlavor):
     def __init__(self, *,
-                 instance: str, snippet_info: _CPPCodeSnippetInformation):
-        super().__init__(instance=instance, function=None)
+                 instance: str, snippet_info: _CPPCodeSnippetInformation, compare_in_any_order: bool = False):
+        super().__init__(instance=instance, function=None,
+                         compare_in_any_order=compare_in_any_order)
         assert snippet_info.type == CPPCodeSnippetAnalyzer.TYPE_STRUCTURED
         self._stages: list[_UnitTestStageFlavorSingleStage] = None
         self._class_info = snippet_info.classblock
@@ -337,7 +370,7 @@ class _UnitTestStageFlavor(_UnitTestFlavor):
 
 
 class CPPCodeSnippet:
-    def __init__(self, code_snippet: str) -> None:
+    def __init__(self, code_snippet: str, compare_in_any_order: bool = False) -> None:
         LOG = prompt.Log.getInstance()
         self.snippet_info = CPPCodeSnippetAnalyzer.parse(code_snippet.strip())
         self._unittest_flavor: _UnitTestFlavor = None
@@ -346,12 +379,14 @@ class CPPCodeSnippet:
             class_block = self.snippet_info.classblock
             self._unittest_flavor = _UnitTestRegularFlavor(constructor=class_block.constructor[0],
                                                            instance=self._getSolutionObjectName(),
-                                                           function=class_block.member_func[0])
+                                                           function=class_block.member_func[0],
+                                                           compare_in_any_order=compare_in_any_order)
             LOG.funcVerbose("attached unittest regular flavor.")
 
         elif self.snippet_info.type == CPPCodeSnippetAnalyzer.TYPE_STRUCTURED:
             self._unittest_flavor = _UnitTestStageFlavor(instance=self._getSolutionObjectName(),
-                                                         snippet_info=self.snippet_info)
+                                                         snippet_info=self.snippet_info,
+                                                         compare_in_any_order=compare_in_any_order)
             LOG.funcVerbose("attached unittest stages flavor.")
 
         else:

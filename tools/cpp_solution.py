@@ -13,7 +13,8 @@ from utils import *
 class CPPSoltuion:
     def __init__(self, obj: object, *,
                  timestamp: int = time.mktime(TODAY.timetuple()),
-                 existed_solution: str = None) -> None:
+                 existed_solution: str = None,
+                 headers: set[str] = set([])) -> None:
         assert obj
         assert 'content' in obj
         assert 'questionFrontendId' in obj
@@ -21,11 +22,13 @@ class CPPSoltuion:
         assert 'titleSlug' in obj
         assert 'difficulty' in obj
         LOG = prompt.Log.getInstance()
+        self._headers = headers
         self._timestamp: int = timestamp
         self._id: int = int(obj['questionFrontendId'])
         self._title: str = obj['questionTitle']
         self._slug: str = obj['titleSlug']
-        self._cpp_slug: str = regex.sub(' ', '', self._title).strip()
+        title_split = [n[0].upper() + n[1:] for n in regex.findall("[\dA-Z]?\w+", self._title)]
+        self._cpp_slug: str = ''.join(title_split)
         self._difficulty: str = obj['difficulty']
         self._content_info: _QuestionContentInformation = None
         self._existed_solution = existed_solution
@@ -37,29 +40,38 @@ class CPPSoltuion:
         if "codeSnippets" in obj:
             for snippet in obj["codeSnippets"]:
                 if snippet['langSlug'] == 'cpp':
-                    self._code_snippet = CPPCodeSnippet(snippet['code'])
+                    self._code_snippet = CPPCodeSnippet(
+                        snippet['code'],
+                        regex.search("(?:in *)?any *order", obj["content"], regex.IGNORECASE) != None
+                    )
                     break
 
         if self._code_snippet is None:
             LOG.failure("no CPP code snippet for CPPSolution.")
+        else:
+            for h in self._code_snippet.getHeaders():
+                self._headers.add(h)
 
     def __bool__(self):
         return self._code_snippet is not None
 
     def _includeHeaders(self) -> str:
         res = ""
-        headers = sorted(self._code_snippet.getHeaders())
+        headers = sorted(self._headers)
         for header in headers:
             res += f'#include {header}\n'
         return res
 
     def _solutionInformation(self, *, prefix: str) -> str:
         return concat(
-            f'Solution For   : https://leetcode.com/problems/{self._slug}/',
-            f'Question ID    : {self._id}',
-            f'Question Title : {self._title}',
-            f'Difficult      : {self._difficulty}',
-            'Resolutino Time: {}'.format(time.strftime('%Y/%m/%d %H:%M',
+            f'This file describes the solution of',
+            f'{self._title}',
+            f'',
+            f'https://leetcode.com/problems/{self._slug}/',
+            f'',
+            f'Question ID: {self._id}',
+            f'Difficult  : {self._difficulty}',
+             'Solve Date : {}'.format(time.strftime('%Y/%m/%d %H:%M',
                                                        time.localtime(self._timestamp))),
             delimiter=f'\n{prefix}')
 

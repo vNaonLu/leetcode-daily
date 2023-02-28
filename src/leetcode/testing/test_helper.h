@@ -76,24 +76,6 @@ testing::AssertionResult AssertLCDCompare(const char *m_expr,
       (AssertLCDCompare<decltype(node_1), decltype(node_2), false>), node_1,   \
       node_2)
 
-#define EXPECT_TREENODE_EQ(node_1, node_2)                                     \
-  EXPECT_PRED_FORMAT2(                                                         \
-      (AssertLCDCompare<::lcd::TreeNode *, ::lcd::TreeNode *, true>),        \
-      node_1, node_2)
-#define EXPECT_TREENODE_NE(node_1, node_2)                                     \
-  EXPECT_PRED_FORMAT2(                                                         \
-      (AssertLCDCompare<::lcd::TreeNode *, ::lcd::TreeNode *, false>), node_1, \
-      node_2)
-
-#define EXPECT_LISTNODE_EQ(node_1, node_2)                                     \
-  EXPECT_PRED_FORMAT2(                                                         \
-      (AssertLCDCompare<::lcd::ListNode *, ::lcd::ListNode *, true>), node_1,  \
-      node_2)
-#define EXPECT_LISTNODE_NE(node_1, node_2)                                     \
-  EXPECT_PRED_FORMAT2(                                                         \
-      (AssertLCDCompare<::lcd::ListNode *, ::lcd::ListNode *, false>), node_1, \
-      node_2)
-
 #define EXPECT_ANYORDER_EQ(expect, actual)                                     \
   EXPECT_PRED_FORMAT2((AssertCompareInAnyOrder<0, decltype(expect), true>),    \
                       expect, actual)

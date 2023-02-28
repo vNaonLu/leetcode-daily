@@ -83,10 +83,10 @@ class CPPCodeSnippetAnalyzer:
         return code.strip()
 
     _CLASS_PARSER = '^(?:class +(?P<classname>\w+) *{(?P<class_define>[\w\W]*)?};)$'
-    _TYPE_PARSER = '( *\w+ *(?:<[\w\W]*?>)? *(?:[*&])*)'
-    _FUNC_ARGS_PARSER = _TYPE_PARSER + ' +(\w+) *?,?'
-    _FUNC_PARSER =  _TYPE_PARSER + ' +(\w+) *\(((?:' + _TYPE_PARSER + ' +\w+ *,?)*)?\) *{(?:[^}]*)?}'
-    _CONSTRUCTOR_PARSER = ' *\(((?:' + _TYPE_PARSER + ' +\w+ *,?)*)?\) *{(?:[^}]*)?}'
+    _TYPE_PARSER = '( *\w+ *(?:<[\w\W]*?>)?(?: *(?:[*&])* *)| +)?'
+    _FUNC_ARGS_PARSER = _TYPE_PARSER + '(\w+) *?,?'
+    _FUNC_PARSER =  _TYPE_PARSER + '(\w+) *\(((?:' + _TYPE_PARSER + '\w+ *,?)*)?\) *{(?:[^}]*)?}'
+    _CONSTRUCTOR_PARSER = ' *\(((?:' + _TYPE_PARSER + '\w+ *,?)*)?\) *{(?:[^}]*)?}'
 
     @staticmethod
     def parse(maybe_code_snippet: str):

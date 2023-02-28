@@ -55,12 +55,12 @@ def fixedWidth(*args, width: int = 80):
     if len(args) == 0:
         return ""
     elif len(args) == 1 and isinstance(*args, str):
-        return concat(textwrap.wrap(*args, width, break_long_words=False))
+        return concat(*textwrap.wrap(*args, width, break_long_words=False))
 
     res = []
     for s in args:
-        res.append(concat(textwrap.wrap(s, width, break_long_words=False)))
-    return concat(res)
+        res.append(concat(*textwrap.wrap(s, width, break_long_words=False)))
+    return concat(*res)
 
 
 __ID_INTERVAL = 50
@@ -216,8 +216,8 @@ def parseBuildLog(oneline: str):
     return percent, res[0].lower() + res[1:]
 
 
-__TEST_FAILED = regex.compile("^\[  FAILED  \] (?P<solution>[\w.]+)$", regex.MULTILINE)
-__TEST_PASSED = regex.compile("^\[       OK \] q(?P<solution_id>\d+)\.\w+ \(\d+ ms\)$", regex.MULTILINE)
+__TEST_FAILED = regex.compile("^\[  FAILED  \] (?P<solution>[\w_.]+)$", regex.MULTILINE)
+__TEST_PASSED = regex.compile("^\[       OK \] q(?P<solution_id>\d+)_\w+\.\w+ \(\d+ ms\)$", regex.MULTILINE)
 
 def parsePassedIds(text: str):
     find = __TEST_PASSED.findall(text)

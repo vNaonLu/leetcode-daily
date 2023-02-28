@@ -47,7 +47,7 @@ class _CPPTypeAbstract:
         return self.__include_headers
 
     def expectEuql(self, lhs: str, rhs: str):
-        return f'EXPECT_EQ({lhs}, {rhs})'
+        return f'LCD_EXPECT_EQ({lhs}, {rhs})'
 
 
 class CPPTypeValid(_CPPTypeAbstract):
@@ -102,7 +102,7 @@ class CPPTypeChar(CPPTypeValid):
         super().__init__(CPPTypeChar.deduceType(type_name))
 
     def evaluateInputRegex(self) -> str:
-        return "^(?:'\w'|\"\w\")$"
+        return "^(?:'[\\w\\W]'|\"[\\w\\W]\")$"
 
     def evaluateInput(self, value: str) -> str:
         LOG = prompt.Log.getInstance()
@@ -111,7 +111,7 @@ class CPPTypeChar(CPPTypeValid):
             LOG.failure("CPPTypeChar failed to parse: {}",
                         LOG.format(val, flag=LOG.HIGHTLIGHT))
             return "'\\0'"
-        mat = regex.search("\w", value)
+        mat = regex.search("[^'\"]", value)
         return "'{}'".format((mat and mat.group(0)) or '\\0')
 
 
@@ -126,7 +126,7 @@ class CPPTypeInt(CPPTypeValid):
         super().__init__(CPPTypeInt.deduceType(type_name))
 
     def evaluateInputRegex(self) -> str:
-        return "^[+-]?[\d]+$"
+        return "^[+-]?[\\d]+$"
 
     def evaluateInput(self, value: str) -> str:
         LOG = prompt.Log.getInstance()
@@ -147,11 +147,8 @@ class CPPTypeFloat(CPPTypeValid):
     def __init__(self, type_name):
         super().__init__(CPPTypeFloat.deduceType(type_name))
 
-    def expectEuql(self, lhs: str, rhs: str):
-        return f'EXPECT_FLOAT_EQ({lhs}, {rhs})'
-
     def evaluateInputRegex(self) -> str:
-        return "^[+-]?[\d]+(?:\.\d*f?)?$"
+        return "^[+-]?[\\d]+(?:\\.\\d*f?)?$"
 
     def evaluateInput(self, value: str) -> str:
         LOG = prompt.Log.getInstance()
@@ -172,11 +169,8 @@ class CPPTypeDouble(CPPTypeValid):
     def __init__(self, type_name: str):
         super().__init__(CPPTypeDouble.deduceType(type_name))
 
-    def expectEuql(self, lhs: str, rhs: str):
-        return f'EXPECT_DOUBLE_EQ({lhs}, {rhs})'
-
     def evaluateInputRegex(self) -> str:
-        return "^[+-]?[\d]+(?:\.\d*)?$"
+        return "^[+-]?[\\d]+(?:\\.\\d*)?$"
 
     def evaluateInput(self, value: str) -> str:
         LOG = prompt.Log.getInstance()
@@ -199,7 +193,7 @@ class CPPTypeString(CPPTypeValid):
         self._appendHeader("<string>")
 
     def evaluateInputRegex(self) -> str:
-        return "^(?:'[\w\W]*?'|\"[\w\W]*?\")$"
+        return "^(?:'[\\w\\W]*?'|\"[\\w\\W]*?\")$"
 
     def evaluateInput(self, value: str) -> str:
         LOG = prompt.Log.getInstance()
@@ -216,7 +210,7 @@ class CPPTypeVector(CPPTypeValid):
     @staticmethod
     def deduceType(type_name: str):
         mat = regex.match(
-            "^((?:std::)?vector<(?P<template_type>[\w\W]+)>) *&?$", type_name)
+            "^((?:std::)?vector<(?P<template_type>[\\w\\W]+)>) *&?$", type_name)
         return mat
 
     def __init__(self, type_name: str):
@@ -230,7 +224,7 @@ class CPPTypeVector(CPPTypeValid):
     def evaluateInputRegex(self) -> str:
         assert self._template_type
         inner = self._template_type.evaluateInputRegex()[1:-1]
-        return f'^(?:\[(?:(?:(?: *{inner}) *,?)*)?\])$'
+        return f'^(?:\\[(?:(?:(?: *{inner}) *\\n?,?\\n?)*)?\\])$'
 
     def evaluateInput(self, value: str) -> str:
         LOG = prompt.Log.getInstance()
@@ -249,7 +243,7 @@ class CPPTypeVector(CPPTypeValid):
         LOG.funcVerbose("            with regex: {}", inner_regex)
         for elem in regex.findall(inner_regex, inner):
             elem_ = str(elem).strip()
-            content.append(self._template_type.evaluateInput(elem_))
+            content.append(self._template_type(elem_))
         return "{{{}}}".format(",".join(content))
 
     def isVaild(self):
@@ -260,7 +254,7 @@ class CPPTypeListNode(CPPTypeValid):
     @staticmethod
     def deduceType(type_name: str):
         # only support pointer
-        mat = regex.match("^(?:ListNode) *\*$", type_name)
+        mat = regex.match("^(?:ListNode) *\\*$", type_name)
         return (mat and mat.group(0)) or None
 
     def __init__(self, type_name: str):
@@ -273,12 +267,9 @@ class CPPTypeListNode(CPPTypeValid):
     def destroy(*args) -> str:
         return "ListNode::Release({})".format(','.join([*args]))
 
-    def expectEuql(self, lhs: str, rhs: str):
-        return f'EXPECT_LISTNODE_EQ({lhs}, {rhs})'
-
     def evaluateInputRegex(self) -> str:
         content = self.__content_regex
-        return f'^(?:\[(?:(?:(?: *{content}) *,?)*)?\])$'
+        return f'^(?:\\[(?:(?:(?: *{content}) *\\n?,?\\n?)*)?\\])$'
 
     def evaluateInput(self, value: str) -> str:
         LOG = prompt.Log.getInstance()
@@ -294,7 +285,7 @@ class CPPTypeListNode(CPPTypeValid):
         LOG.funcVerbose("            with regex: {}", inner_regex)
         for elem in regex.findall(inner_regex, inner):
             elem_ = str(elem).strip()
-            content.append(self.__content_type.evaluateInput(elem_))
+            content.append(self.__content_type(elem_))
         return "ListNode::FromVector({{{}}}/*, looped_index*/)".format(",".join(content))
 
 
@@ -302,7 +293,7 @@ class CPPTypeTreeNode(CPPTypeValid):
     @staticmethod
     def deduceType(type_name: str):
         # only support pointer
-        mat = regex.match("^(?:TreeNode) *\*$", type_name)
+        mat = regex.match("^(?:TreeNode) *\\*$", type_name)
         return (mat and mat.group(0)) or None
 
     def __init__(self, type_name: str):
@@ -315,12 +306,9 @@ class CPPTypeTreeNode(CPPTypeValid):
     def destroy(*args) -> str:
         return "TreeNode::Release({})".format(','.join([*args]))
 
-    def expectEuql(self, lhs: str, rhs: str):
-        return f'EXPECT_TREENODE_EQ({lhs}, {rhs})'
-
     def evaluateInputRegex(self) -> str:
         content = self.__content_regex
-        return f'^(?:\[(?:(?:(?: *{content}) *,?)*)?\])$'
+        return f'^(?:\\[(?:(?:(?: *{content}) *\\n?,?\\n?)*)?\\])$'
 
     def evaluateInput(self, value: str) -> str:
         LOG = prompt.Log.getInstance()
@@ -336,7 +324,7 @@ class CPPTypeTreeNode(CPPTypeValid):
         for elem in regex.findall(inner_regex, inner):
             elem_ = str(elem).strip()
             if elem_ != "null":
-                content.append(self.__content_type.evaluateInput(elem_))
+                content.append(self.__content_type(elem_))
             else:
                 content.append("null")
         return "TreeNode::FromVector({{{}}})".format(",".join(content))
@@ -372,7 +360,7 @@ def deduceCPPType(type: str) -> _CPPTypeAbstract:
 # TEST field
 if __name__ == "__main__":
     LOG = prompt.Log.getInstance(verbose=True)
-    t = deduceCPPType("vector<string>&")
+    t = deduceCPPType("vector<vector<char>>&")
     test_val: list[str] = [
         "'a'",
         '"ab"',
@@ -400,8 +388,17 @@ if __name__ == "__main__":
         "[[123.4], [4356, 657, 768.2, 8797.0], [8]]",
         "['c', 'c', 'f', 'f', 'f']",
         "['c', 'ccc', 'dsf', 'daaf, fdf', 'ff']",
-        "[['c', 'ccc'], ['dsf'], ['daaf, fdf', 'ff']]",
+        "[['c', 'ccc'],\n['dsf'],\n['daaf, fdf', 'ff']]",
         "[[['c', 'ccc'], ['dsf']], [['daaf, fdf', 'ff']]]",
+        '''[["8","3",".",".","7",".",".",".","."]
+,["6",".",".","1","9","5",".",".","."]
+,[".","9","8",".",".",".",".","6","."]
+,["8",".",".",".","6",".",".",".","3"]
+,["4",".",".","8",".","3",".",".","1"]
+,["7",".",".",".","2",".",".",".","6"]
+,[".","6",".",".",".",".","2","8","."]
+,[".",".",".","4","1","9",".",".","5"]
+,[".",".",".",".","8",".",".","7","9"]]'''
     ]
 
     if not t:
@@ -410,7 +407,7 @@ if __name__ == "__main__":
 
     LOG.log(f'{"type"}     => {t}')
     LOG.log(f'{"include"}  => {t.getHeaders()}')
-    LOG.log(f'{"expected"} => {t.expectEuql("expect", "actual")}')
+    # LOG.log(f'{"expected"} => {t.expectEuql("expect", "actual")}')
     LOG.log(f'{"is valid"} => {t.isVaild()}')
 
     if not t.isVaild():

@@ -389,7 +389,7 @@ def ldtRunImpl(*, build_path: Path, infra_test: bool, ids: list[int] = []):
                 LOG.warn("discard the specified ids due to |--infra| enabled: {}", ARG_IDS)
                 ARG_IDS = []
             else:
-                solutions = [f'q{id}.*' for id in ARG_IDS]
+                solutions = [f'q{id}_*' for id in ARG_IDS]
                 filter = "--gtest_filter={}".format(":".join(solutions))
                 CMD.append(filter)
 
