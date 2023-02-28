@@ -390,6 +390,10 @@ class CPPCodeSnippet:
             LOG.funcVerbose("attached unittest stages flavor.")
 
         else:
+            class_block = self.snippet_info.classblock
+            self._unittest_flavor = _UnitTestUnsupportFlavor(instance=self._getSolutionObjectName(),
+                                                             function=class_block.member_func[0],
+                                                             compare_in_any_order=compare_in_any_order)
             LOG.failure("unsupport this type of question.")
 
     def __bool__(self):

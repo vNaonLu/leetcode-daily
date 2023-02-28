@@ -218,9 +218,18 @@ def parseBuildLog(oneline: str):
 
 __TEST_FAILED = regex.compile("^\[  FAILED  \] (?P<solution>[\w_.]+)$", regex.MULTILINE)
 __TEST_PASSED = regex.compile("^\[       OK \] q(?P<solution_id>\d+)_\w+\.\w+ \(\d+ ms\)$", regex.MULTILINE)
+__TEST_SKIPPED = regex.compile("^\[  SKIPPED \] q(?P<solution_id>\d+)_\w+\.\w+ \(\d+ ms\)$", regex.MULTILINE)
 
 def parsePassedIds(text: str):
     find = __TEST_PASSED.findall(text)
+
+    if find:
+        return set(int(id) for id in find)
+    return set([])
+
+
+def parseSkippedIds(text: str):
+    find = __TEST_SKIPPED.findall(text)
 
     if find:
         return set(int(id) for id in find)

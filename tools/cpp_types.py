@@ -37,7 +37,7 @@ class _CPPTypeAbstract:
     def getTypeName(self) -> str:
         return self.__type_name
 
-    def isVaild(self):
+    def __bool__(self):
         return False
 
     def _appendHeader(self, header):
@@ -54,7 +54,7 @@ class CPPTypeValid(_CPPTypeAbstract):
     def __init__(self, *args, **kwargs):
         super().__init__(*args, **kwargs)
 
-    def isVaild(self):
+    def __bool__(self):
         return True
 
 
@@ -246,8 +246,8 @@ class CPPTypeVector(CPPTypeValid):
             content.append(self._template_type(elem_))
         return "{{{}}}".format(",".join(content))
 
-    def isVaild(self):
-        return not not self._template_type
+    def __bool__(self):
+        return self._template_type.__bool__()
 
 
 class CPPTypeListNode(CPPTypeValid):
@@ -354,7 +354,7 @@ def deduceCPPType(type: str) -> _CPPTypeAbstract:
         return CPPTypeTreeNode(type)
     LOG.warn("no matched CPPType: {}",
                 LOG.format(type, flag=LOG.HIGHTLIGHT))
-    return None
+    return _CPPTypeAbstract(type)
 
 
 # TEST field
@@ -408,9 +408,9 @@ if __name__ == "__main__":
     LOG.log(f'{"type"}     => {t}')
     LOG.log(f'{"include"}  => {t.getHeaders()}')
     # LOG.log(f'{"expected"} => {t.expectEuql("expect", "actual")}')
-    LOG.log(f'{"is valid"} => {t.isVaild()}')
+    # LOG.log(f'{"is valid"} => {t.isVaild()}')
 
-    if not t.isVaild():
+    if t:
         import sys
         sys.exit()
 

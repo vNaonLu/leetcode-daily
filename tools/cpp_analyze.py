@@ -24,11 +24,11 @@ class _CPPCodeSnippetInformation:
             if self.name == "":
                 LOG.failure("empty function name.")
                 return False
-            if self.return_type and not self.return_type.isVaild():
-                LOG.failure("invalid return type.")
+            if self.return_type is not None and not self.return_type:
+                LOG.failure("invalid return type: {}", self.return_type)
                 return False
             for type in self.arg_types.values():
-                if not type or not type.isVaild():
+                if type is not None and not type:
                     LOG.funcVerbose("invalid type: {}", LOG.format(type, flag=LOG.DARK_RED))
                     return False
             return True
@@ -137,7 +137,7 @@ class CPPCodeSnippetAnalyzer:
             LOG.funcVerbose("constructor not found, treat it as a regular solution.")
             result.type = CPPCodeSnippetAnalyzer.TYPE_REGULAR
             f = _CPPCodeSnippetInformation._CPPSolutionFunction(func_name=class_block.name,
-                                                     return_type=None)
+                                                                return_type=None)
             class_block.constructor.append(f)
 
         LOG.funcVerbose("parse the class definition:\n {}", class_definition)

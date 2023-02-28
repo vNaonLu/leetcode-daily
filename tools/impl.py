@@ -401,16 +401,19 @@ def ldtRunImpl(*, build_path: Path, infra_test: bool, ids: list[int] = []):
             TASK.log("parsing the test logs.")
             LOG.verbose(result.replace('\n', '\n    '))
             passed = parsePassedIds(result)
+            skipped = parseSkippedIds(result)
             failed = parseFailedTests(result)
 
             missing_ids = []
             for id in ARG_IDS:
-                if id not in passed and id not in failed:
+                if id not in passed and id not in failed and id not in skipped:
                     missing_ids.append(id)
 
             if len(failed) == 0 and len(missing_ids) == 0:
                 TASK.done("passed all tests.",
                           LOG.format(len(passed), flag=LOG.HIGHTLIGHT), is_success=True)
+                if len(skipped) > 0:
+                    LOG.warn("some tests has skipped: {}", list(skipped))
                 return 0
 
             elif len(failed) == 0 and len(missing_ids) > 0:
