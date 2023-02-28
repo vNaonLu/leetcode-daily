@@ -9,12 +9,12 @@ class TreeNodeTest : public ::testing::Test {
 protected:
   void SetUp() override {
     TreeNode::ReleaseAll();
-    ASSERT_EQ(TreeNode::CheckRemainRefs(), 0);
+    LCD_ASSERT_EQ(TreeNode::CheckRemainRefs(), 0);
   }
 
   void TearDown() override {
     TreeNode::ReleaseAll();
-    ASSERT_EQ(TreeNode::CheckRemainRefs(), 0);
+    LCD_ASSERT_EQ(TreeNode::CheckRemainRefs(), 0);
   }
 };
 
@@ -25,25 +25,25 @@ TEST_F(TreeNodeTest, Construct) {
   TreeNode node4(30, nullptr, &node2);
   TreeNode node5(40, &node1, nullptr);
 
-  EXPECT_EQ(node1.val, 0);
-  EXPECT_EQ(node1.left, nullptr);
-  EXPECT_EQ(node1.right, nullptr);
+  LCD_EXPECT_EQ(node1.val, 0);
+  LCD_EXPECT_EQ(node1.left, nullptr);
+  LCD_EXPECT_EQ(node1.right, nullptr);
 
-  EXPECT_EQ(node2.val, 10);
-  EXPECT_EQ(node2.left, nullptr);
-  EXPECT_EQ(node2.right, nullptr);
+  LCD_EXPECT_EQ(node2.val, 10);
+  LCD_EXPECT_EQ(node2.left, nullptr);
+  LCD_EXPECT_EQ(node2.right, nullptr);
 
-  EXPECT_EQ(node3.val, 20);
-  EXPECT_EQ(node3.left, &node1);
-  EXPECT_EQ(node3.right, &node2);
+  LCD_EXPECT_EQ(node3.val, 20);
+  LCD_EXPECT_EQ(node3.left, &node1);
+  LCD_EXPECT_EQ(node3.right, &node2);
 
-  EXPECT_EQ(node4.val, 30);
-  EXPECT_EQ(node4.left, nullptr);
-  EXPECT_EQ(node4.right, &node2);
+  LCD_EXPECT_EQ(node4.val, 30);
+  LCD_EXPECT_EQ(node4.left, nullptr);
+  LCD_EXPECT_EQ(node4.right, &node2);
 
-  EXPECT_EQ(node5.val, 40);
-  EXPECT_EQ(node5.left, &node1);
-  EXPECT_EQ(node5.right, nullptr);
+  LCD_EXPECT_EQ(node5.val, 40);
+  LCD_EXPECT_EQ(node5.left, &node1);
+  LCD_EXPECT_EQ(node5.right, nullptr);
 }
 
 TEST_F(TreeNodeTest, GetChild) {
@@ -55,22 +55,22 @@ TEST_F(TreeNodeTest, GetChild) {
   TreeNode node2(0, &node3, &node4);
   TreeNode node1(0, &node2, &node5);
 
-  EXPECT_EQ(node1.GetChild(0), &node1);
-  EXPECT_EQ(node1.GetChild(1), &node2);
-  EXPECT_EQ(node1.GetChild(2), &node3);
-  EXPECT_EQ(node1.GetChild(3), &node4);
-  EXPECT_EQ(node1.GetChild(4), &node5);
-  EXPECT_EQ(node1.GetChild(5), &node6);
-  EXPECT_EQ(node1.GetChild(6), &node7);
-  EXPECT_EQ(node1.GetChild(7), nullptr);
-  EXPECT_EQ(node1.GetChild(8), nullptr);
+  LCD_EXPECT_EQ(node1.GetChild(0), &node1);
+  LCD_EXPECT_EQ(node1.GetChild(1), &node2);
+  LCD_EXPECT_EQ(node1.GetChild(2), &node3);
+  LCD_EXPECT_EQ(node1.GetChild(3), &node4);
+  LCD_EXPECT_EQ(node1.GetChild(4), &node5);
+  LCD_EXPECT_EQ(node1.GetChild(5), &node6);
+  LCD_EXPECT_EQ(node1.GetChild(6), &node7);
+  LCD_EXPECT_EQ(node1.GetChild(7), nullptr);
+  LCD_EXPECT_EQ(node1.GetChild(8), nullptr);
 }
 
 TEST_F(TreeNodeTest, ReleaseManual) {
   auto *node = new TreeNode();
-  EXPECT_EQ(TreeNode::CheckRemainRefs(), 1);
+  LCD_EXPECT_EQ(TreeNode::CheckRemainRefs(), 1);
   delete node;
-  EXPECT_EQ(TreeNode::CheckRemainRefs(), 0);
+  LCD_EXPECT_EQ(TreeNode::CheckRemainRefs(), 0);
 }
 
 TEST_F(TreeNodeTest, ReleaseChain) {
@@ -82,27 +82,27 @@ TEST_F(TreeNodeTest, ReleaseChain) {
   auto *node2 = new TreeNode(0, node3, node4);
   auto *node1 = new TreeNode(0, node2, node5);
 
-  EXPECT_EQ(TreeNode::CheckRemainRefs(), 7);
+  LCD_EXPECT_EQ(TreeNode::CheckRemainRefs(), 7);
   TreeNode::Release(node1);
-  EXPECT_EQ(TreeNode::CheckRemainRefs(), 0);
+  LCD_EXPECT_EQ(TreeNode::CheckRemainRefs(), 0);
 }
 
 TEST_F(TreeNodeTest, ReleaseMultiple) {
   auto *l1 = new TreeNode();
   auto *l2 = new TreeNode();
-  EXPECT_EQ(TreeNode::CheckRemainRefs(), 2);
+  LCD_EXPECT_EQ(TreeNode::CheckRemainRefs(), 2);
 
   TreeNode::Release(l1, l2);
-  EXPECT_EQ(TreeNode::CheckRemainRefs(), 0);
+  LCD_EXPECT_EQ(TreeNode::CheckRemainRefs(), 0);
 }
 
 TEST_F(TreeNodeTest, ReleaseMultipleChain) {
   auto *l1 = new TreeNode(0, new TreeNode(0, new TreeNode(), nullptr), nullptr);
   auto *l2 = new TreeNode(0, nullptr, new TreeNode(0, nullptr, new TreeNode()));
-  EXPECT_EQ(TreeNode::CheckRemainRefs(), 6);
+  LCD_EXPECT_EQ(TreeNode::CheckRemainRefs(), 6);
 
   TreeNode::Release(l1, l2);
-  EXPECT_EQ(TreeNode::CheckRemainRefs(), 0);
+  LCD_EXPECT_EQ(TreeNode::CheckRemainRefs(), 0);
 }
 
 TEST_F(TreeNodeTest, ReleaseWithModified) {
@@ -111,37 +111,39 @@ TEST_F(TreeNodeTest, ReleaseWithModified) {
   replace->left = l1->left->left;
   auto *dangle  = l1->left;
   l1->left      = replace;
+  dangle->left = nullptr;
+  dangle->right = nullptr;
 
-  EXPECT_EQ(TreeNode::CheckRemainRefs(), 4);
+  LCD_EXPECT_EQ(TreeNode::CheckRemainRefs(), 4);
 
   TreeNode::Release(l1);
-  EXPECT_EQ(TreeNode::CheckRemainRefs(), 1);
+  LCD_EXPECT_EQ(TreeNode::CheckRemainRefs(), 1);
   TreeNode::Release(dangle);
-  EXPECT_EQ(TreeNode::CheckRemainRefs(), 0);
+  LCD_EXPECT_EQ(TreeNode::CheckRemainRefs(), 0);
 }
 
 TEST_F(TreeNodeTest, FromVector) {
   auto *node = TreeNode::FromVector({1, 2, 3, null, 5, 6});
-  EXPECT_EQ(TreeNode::CheckRemainRefs(), 5);
+  LCD_EXPECT_EQ(TreeNode::CheckRemainRefs(), 5);
 
-  ASSERT_NE(nullptr, node->GetChild(0));
-  EXPECT_EQ(1, node->GetChild(0)->val);
+  LCD_ASSERT_NE(nullptr, node->GetChild(0));
+  LCD_EXPECT_EQ(1, node->GetChild(0)->val);
 
-  ASSERT_NE(nullptr, node->GetChild(1));
-  EXPECT_EQ(2, node->GetChild(1)->val);
+  LCD_ASSERT_NE(nullptr, node->GetChild(1));
+  LCD_EXPECT_EQ(2, node->GetChild(1)->val);
 
-  ASSERT_NE(nullptr, node->GetChild(2));
-  EXPECT_EQ(5, node->GetChild(2)->val);
+  LCD_ASSERT_NE(nullptr, node->GetChild(2));
+  LCD_EXPECT_EQ(5, node->GetChild(2)->val);
 
-  ASSERT_NE(nullptr, node->GetChild(3));
-  EXPECT_EQ(3, node->GetChild(3)->val);
+  LCD_ASSERT_NE(nullptr, node->GetChild(3));
+  LCD_EXPECT_EQ(3, node->GetChild(3)->val);
 
-  ASSERT_NE(nullptr, node->GetChild(4));
-  EXPECT_EQ(6, node->GetChild(4)->val);
+  LCD_ASSERT_NE(nullptr, node->GetChild(4));
+  LCD_EXPECT_EQ(6, node->GetChild(4)->val);
 
-  EXPECT_EQ(nullptr, node->GetChild(5));
+  LCD_EXPECT_EQ(nullptr, node->GetChild(5));
   TreeNode::Release(node);
-  EXPECT_EQ(TreeNode::CheckRemainRefs(), 0);
+  LCD_EXPECT_EQ(TreeNode::CheckRemainRefs(), 0);
 }
 
 TEST_F(TreeNodeTest, ExpectComparison) {
@@ -153,10 +155,10 @@ TEST_F(TreeNodeTest, ExpectComparison) {
       new TreeNode(1, new TreeNode(2, new TreeNode(4), nullptr), nullptr);
   auto *l4 = TreeNode::FromVector({1, 2, null, 3});
 
-  EXPECT_EQ(*l1, *l2);
-  EXPECT_NE(*l2, *l3);
-  EXPECT_NE(*l1, *l3);
-  EXPECT_EQ(*l1, *l4);
+  LCD_EXPECT_EQ(*l1, *l2);
+  LCD_EXPECT_NE(*l2, *l3);
+  LCD_EXPECT_NE(*l1, *l3);
+  LCD_EXPECT_EQ(*l1, *l4);
   TreeNode::Release(l1, l2, l3, l4);
 }
 
@@ -170,13 +172,13 @@ TEST_F(TreeNodeTest, MacroExpectComparison) {
   auto *l4 = TreeNode::FromVector({1, 2, null, 3});
   TreeNode *l5 = nullptr;
 
-  EXPECT_TREENODE_EQ(l1, l2);
-  EXPECT_TREENODE_NE(l2, l3);
-  EXPECT_TREENODE_NE(l1, l3);
-  EXPECT_TREENODE_EQ(l1, l4);
-  EXPECT_TREENODE_NE(l1, l5);
-  EXPECT_TREENODE_NE(l2, l5);
-  EXPECT_TREENODE_NE(l3, l5);
+  LCD_EXPECT_EQ(l1, l2);
+  LCD_EXPECT_NE(l2, l3);
+  LCD_EXPECT_NE(l1, l3);
+  LCD_EXPECT_EQ(l1, l4);
+  LCD_EXPECT_NE(l1, l5);
+  LCD_EXPECT_NE(l2, l5);
+  LCD_EXPECT_NE(l3, l5);
   TreeNode::Release(l1, l2, l3, l4);
 }
 
@@ -187,7 +189,7 @@ TEST_F(TreeNodeTest, LiteralSerialization) {
   ASSERT_TRUE(node1);
   ss << *node1;
 
-  EXPECT_EQ(ss.str(), "{1, 2, null, 3, 4, null, 5}");
+  LCD_EXPECT_EQ(ss.str(), "{1, 2, null, 3, 4, null, 5}");
 
   TreeNode::Release(node1);
 }
@@ -202,5 +204,5 @@ TEST_F(TreeNodeTest, ReleaseAll) {
   auto *l4 = TreeNode::FromVector({1, 2, null, 3});
 
   TreeNode::ReleaseAll();
-  EXPECT_EQ(TreeNode::CheckRemainRefs(), 0);
+  LCD_EXPECT_EQ(TreeNode::CheckRemainRefs(), 0);
 }

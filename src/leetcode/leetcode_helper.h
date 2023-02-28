@@ -49,19 +49,19 @@ public:
   static void Release(It beg, It end) noexcept;
 
 private:
-  LCD_INLINE_VARIABLE std::unordered_set<void *> static_record_;
+  LCD_INLINE_VARIABLE std::unordered_set<T *> static_record_;
 };
 
 template <typename T>
 inline AllocationCounted<T>::AllocationCounted() noexcept {
-  if (!static_record_.emplace(reinterpret_cast<void *>(this)).second) {
+  if (!static_record_.emplace(reinterpret_cast<T *>(this)).second) {
     assert(false);
   }
 }
 
 template <typename T>
 inline AllocationCounted<T>::~AllocationCounted() noexcept {
-  if (static_record_.erase(reinterpret_cast<void *>(this)) == 0) {
+  if (static_record_.erase(reinterpret_cast<T *>(this)) == 0) {
     assert(false);
   }
 }
@@ -74,14 +74,15 @@ inline size_t AllocationCounted<T>::CheckRemainRefs() noexcept {
 template <typename T>
 template <typename S>
 inline bool AllocationCounted<T>::CheckValid(S *node) noexcept {
-  return static_record_.count(reinterpret_cast<void *>(node));
+  return static_record_.count(reinterpret_cast<T *>(node));
 }
 
 template <typename T>
 inline void AllocationCounted<T>::ReleaseAll() noexcept {
   std::vector<T *> all_refs;
-  for (auto ptr : static_record_) {
-    all_refs.emplace_back(reinterpret_cast<T*>(ptr));
+  for (auto *ptr : static_record_) {
+    ptr->Reset();
+    all_refs.emplace_back(ptr);
   }
   Release(all_refs.begin(), all_refs.end());
 }
@@ -90,12 +91,14 @@ template <typename T>
 template <typename S, typename... Ss>
 requires std::derived_from<S, AllocationCounted<S>>
 inline void AllocationCounted<T>::Release(S *node, Ss... nodes) noexcept {
-  std::vector<S *> children = static_cast<S *>(node)->GetChildren();
-  if (static_record_.count(reinterpret_cast<void *>(node))) {
+  std::vector<S *> children;
+  if (CheckValid(node)) {
+    children = static_cast<S *>(node)->GetChildren();
+    node->Reset();
     delete node;
   }
   for (auto *ptr : children) {
-    if (static_record_.count(reinterpret_cast<void *>(ptr))) {
+    if (CheckValid(ptr)) {
       delete ptr;
     }
   }

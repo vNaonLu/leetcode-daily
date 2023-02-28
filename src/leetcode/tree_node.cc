@@ -15,6 +15,18 @@ TreeNode::TreeNode(int32_t x, TreeNode *node1, TreeNode *node2)
 
 TreeNode::~TreeNode() = default;
 
+void TreeNode::Reset() noexcept {
+  if (left) {
+    left->Reset();
+    left = nullptr;
+  }
+
+  if (right) {
+    right->Reset();
+    right = nullptr;
+  }
+}
+
 TreeNode *
 TreeNode::FromVector(const std::vector<Optional<int32_t>> &args) noexcept {
   std::vector<TreeNode *> nodes;

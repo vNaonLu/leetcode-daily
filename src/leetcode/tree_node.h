@@ -27,6 +27,7 @@ public:
   TreeNode *right;
 
 public:
+  void Reset() noexcept;
   static TreeNode           *
   FromVector(std::vector<Optional<int32_t>> const &args) noexcept;
   TreeNode *GetChild(size_t preorder_idx) noexcept;

@@ -26,6 +26,7 @@ public:
   int32_t   val;
 
 public:
+  void                    Reset() noexcept;
   static ListNode        *FromVector(std::vector<int32_t> const &args,
                                      Optional<int> repeat_to = null) noexcept;
   ListNode               *GetChild(size_t idx) noexcept;

@@ -13,6 +13,30 @@ ListNode::ListNode(int32_t x, ListNode *next) : val{x}, next{next} {}
 
 ListNode::~ListNode() = default;
 
+std::vector<std::pair<ListNode const *, size_t>>
+ToVector(ListNode const *node) {
+  size_t                                           idx       = 0;
+  bool                                             is_repeat = false;
+  std::unordered_map<ListNode const *, size_t>     avoid_loop;
+  std::vector<std::pair<ListNode const *, size_t>> list_vector;
+
+  while (!is_repeat && node) {
+    is_repeat = !avoid_loop.emplace(node, idx++).second;
+    list_vector.emplace_back(node, avoid_loop[node]);
+    node = node->next;
+  }
+
+  return list_vector;
+}
+
+void ListNode::Reset() noexcept {
+  auto children = GetChildren();
+  for (auto *node : children) {
+    node->next = nullptr;
+  }
+  next = nullptr;
+}
+
 ListNode *ListNode::FromVector(const std::vector<int32_t> &args,
                                Optional<int>               repeat_to) noexcept {
   std::vector<ListNode *> nodes;
@@ -36,22 +60,6 @@ ListNode *ListNode::FromVector(const std::vector<int32_t> &args,
   }
 
   return nodes.front();
-}
-
-std::vector<std::pair<ListNode const *, size_t>>
-ToVector(ListNode const *node) {
-  size_t                                           idx       = 0;
-  bool                                             is_repeat = false;
-  std::unordered_map<ListNode const *, size_t>     avoid_loop;
-  std::vector<std::pair<ListNode const *, size_t>> list_vector;
-
-  while (!is_repeat && node) {
-    is_repeat = !avoid_loop.emplace(node, idx++).second;
-    list_vector.emplace_back(node, avoid_loop[node]);
-    node = node->next;
-  }
-
-  return list_vector;
 }
 
 ListNode *ListNode::GetChild(size_t idx) noexcept {
