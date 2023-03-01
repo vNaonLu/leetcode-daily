@@ -70,5 +70,9 @@ LEETCODE_END_RESOLVING(Solution);
 // it.
 
 LEETCODE_SOLUTION_UNITTEST(535, EncodeAndDecodeTinyURL, example_1) {
-  GTEST_SKIP() << "Unittest Not Implemented";
+  auto   solution = MakeSolution();
+  string longUrl  = "https://leetcode.com/problems/design-tinyurl";
+  string expect   = "https://leetcode.com/problems/design-tinyurl";
+  string actual   = solution->encode(longUrl);
+  LCD_EXPECT_EQ(expect, actual);
 }
