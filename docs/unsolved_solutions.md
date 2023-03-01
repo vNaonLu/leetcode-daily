@@ -1,6 +1,6 @@
 # Unsolved Solutions List
 
-There are **1682** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
+There are **1681** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
 
 The questions which have been solved are not shown in this page, more information about solved questions can be found at [docs/solved_solutions.md](./solved_solutions.md).
 
@@ -1490,7 +1490,6 @@ The questions which have been solved are not shown in this page, more informatio
 |2354|[Number of Excellent Pairs](https://leetcode.com/problems/number-of-excellent-pairs/)|Hard||
 |2355|[Maximum Number of Books You Can Take](https://leetcode.com/problems/maximum-number-of-books-you-can-take/)|Hard|🔒|
 |2356|[Number of Unique Subjects Taught by Each Teacher](https://leetcode.com/problems/number-of-unique-subjects-taught-by-each-teacher/)|Easy|🔒|
-|2357|[Make Array Zero by Subtracting Equal Amounts](https://leetcode.com/problems/make-array-zero-by-subtracting-equal-amounts/)|Easy||
 |2358|[Maximum Number of Groups Entering a Competition](https://leetcode.com/problems/maximum-number-of-groups-entering-a-competition/)|Medium||
 |2360|[Longest Cycle in a Graph](https://leetcode.com/problems/longest-cycle-in-a-graph/)|Hard||
 |2361|[Minimum Costs Using the Train Line](https://leetcode.com/problems/minimum-costs-using-the-train-line/)|Hard|🔒|
