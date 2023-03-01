@@ -59,7 +59,9 @@ LEETCODE_END_RESOLVING(Codec);
 //
 
 LEETCODE_SOLUTION_UNITTEST(297, SerializeAndDeserializeBinaryTree, example_1) {
-  GTEST_SKIP() << "Unittest Not Implemented";
+  auto      codec = MakeCodec();
+  TreeNode *root  = TreeNode::FromVector({1, 2, 3, null, null, 4, 5});
+  LCD_EXPECT_EQ(root, codec->deserialize(codec->serialize(root)));
 }
 
 // [Example #2]
@@ -67,4 +69,8 @@ LEETCODE_SOLUTION_UNITTEST(297, SerializeAndDeserializeBinaryTree, example_1) {
 // Output: []
 //
 
-LEETCODE_SOLUTION_UNITTEST(297, SerializeAndDeserializeBinaryTree, example_2) {}
+LEETCODE_SOLUTION_UNITTEST(297, SerializeAndDeserializeBinaryTree, example_2) {
+  auto      codec = MakeCodec();
+  TreeNode *root  = TreeNode::FromVector({});
+  LCD_EXPECT_EQ(root, codec->deserialize(codec->serialize(root)));
+}
