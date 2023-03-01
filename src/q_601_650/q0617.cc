@@ -69,7 +69,7 @@ LEETCODE_SOLUTION_UNITTEST(617, MergeTwoBinaryTrees, example_1) {
   TreeNode *expect   = TreeNode::FromVector({3, 4, 5, 5, 4, null, 7});
   TreeNode *actual   = solution->mergeTrees(root1, root2);
   LCD_EXPECT_EQ(expect, actual);
-  TreeNode::Release(root1, root2);
+  TreeNode::Release(root1, root2, expect, actual);
 }
 
 // [Example #2]
@@ -84,5 +84,5 @@ LEETCODE_SOLUTION_UNITTEST(617, MergeTwoBinaryTrees, example_2) {
   TreeNode *expect   = TreeNode::FromVector({2, 2});
   TreeNode *actual   = solution->mergeTrees(root1, root2);
   LCD_EXPECT_EQ(expect, actual);
-  TreeNode::Release(root1, root2);
+  TreeNode::Release(root1, root2, expect, actual);
 }

@@ -11,9 +11,11 @@
 
 #include "leetcode/list_node.h"
 #include <iosfwd>
+#include <optional>
 
 // -- This header must be included after others --
 #include "leetcode/testing/solution_test_helper.h"
+#include "test_helper.h"
 
 using namespace std;
 using namespace lcd;
@@ -71,7 +73,12 @@ LEETCODE_END_RESOLVING(Solution);
 // There is a cycle in the linked list, where tail connects to the second node.
 
 LEETCODE_SOLUTION_UNITTEST(142, LinkedListCycleII, example_1) {
-  GTEST_SKIP() << "Unittest Not Implemented";
+  auto      solution = MakeSolution();
+  ListNode *head     = ListNode::FromVector({3, 2, 0, -4}, 1);
+  ListNode *expect   = head->GetChild(1);
+  ListNode *actual   = solution->detectCycle(head);
+  LCD_EXPECT_EQ(expect, actual);
+  ListNode::Release(head, expect, actual);
 }
 
 // [Example #2]
@@ -81,7 +88,12 @@ LEETCODE_SOLUTION_UNITTEST(142, LinkedListCycleII, example_1) {
 // There is a cycle in the linked list, where tail connects to the first node.
 
 LEETCODE_SOLUTION_UNITTEST(142, LinkedListCycleII, example_2) {
-  GTEST_SKIP() << "Unittest Not Implemented";
+  auto      solution = MakeSolution();
+  ListNode *head     = ListNode::FromVector({1, 2}, 0);
+  ListNode *expect   = head->GetChild(0);
+  ListNode *actual   = solution->detectCycle(head);
+  LCD_EXPECT_EQ(expect, actual);
+  ListNode::Release(head, expect, actual);
 }
 
 // [Example #3]
@@ -91,5 +103,10 @@ LEETCODE_SOLUTION_UNITTEST(142, LinkedListCycleII, example_2) {
 // There is no cycle in the linked list.
 
 LEETCODE_SOLUTION_UNITTEST(142, LinkedListCycleII, example_3) {
-  GTEST_SKIP() << "Unittest Not Implemented";
+  auto      solution = MakeSolution();
+  ListNode *head     = ListNode::FromVector({1}, nullopt);
+  ListNode *expect   = nullptr;
+  ListNode *actual   = solution->detectCycle(head);
+  LCD_EXPECT_EQ(expect, actual);
+  ListNode::Release(head, expect, actual);
 }
