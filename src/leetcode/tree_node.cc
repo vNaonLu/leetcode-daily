@@ -16,14 +16,18 @@ TreeNode::TreeNode(int32_t x, TreeNode *node1, TreeNode *node2)
 TreeNode::~TreeNode() = default;
 
 void TreeNode::Reset() noexcept {
-  if (left) {
-    left->Reset();
-    left = nullptr;
-  }
+  if (CheckValid(this)) {
+    if (left) {
+      auto *ptr = left;
+      left      = nullptr;
+      ptr->Reset();
+    }
 
-  if (right) {
-    right->Reset();
-    right = nullptr;
+    if (right) {
+      auto *ptr = right;
+      right     = nullptr;
+      ptr->Reset();
+    }
   }
 }
 
@@ -66,7 +70,7 @@ namespace {
 
 template <typename T>
 void PreOrderImpl(T *node, std::vector<T *> *view) {
-  if (node) {
+  if (node && T::CheckValid(node)) {
     view->push_back(node);
     PreOrderImpl<T>(node->left, view);
     PreOrderImpl<T>(node->right, view);
@@ -89,7 +93,8 @@ TreeNode *TreeNode::GetChild(size_t preorder_idx) noexcept {
 }
 
 std::vector<TreeNode *> TreeNode::GetChildren() noexcept {
-  return PreOrder(this);
+  auto res = PreOrder(this);
+  return std::vector<TreeNode *>(res.begin() + 1, res.end());
 }
 
 bool TreeNode::operator==(TreeNode const &rhs) const noexcept {

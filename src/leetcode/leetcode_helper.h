@@ -35,7 +35,7 @@ public:
   static size_t CheckRemainRefs() noexcept;
 
   template <typename S>
-  static bool CheckValid(S *node) noexcept;
+  static bool CheckValid(S const *node) noexcept;
 
   static void ReleaseAll() noexcept;
 
@@ -49,19 +49,19 @@ public:
   static void Release(It beg, It end) noexcept;
 
 private:
-  LCD_INLINE_VARIABLE std::unordered_set<T *> static_record_;
+  LCD_INLINE_VARIABLE std::unordered_set<void *> static_record_;
 };
 
 template <typename T>
 inline AllocationCounted<T>::AllocationCounted() noexcept {
-  if (!static_record_.emplace(reinterpret_cast<T *>(this)).second) {
+  if (!static_record_.emplace(reinterpret_cast<void *>(this)).second) {
     assert(false);
   }
 }
 
 template <typename T>
 inline AllocationCounted<T>::~AllocationCounted() noexcept {
-  if (static_record_.erase(reinterpret_cast<T *>(this)) == 0) {
+  if (static_record_.erase(reinterpret_cast<void *>(this)) == 0) {
     assert(false);
   }
 }
@@ -73,14 +73,16 @@ inline size_t AllocationCounted<T>::CheckRemainRefs() noexcept {
 
 template <typename T>
 template <typename S>
-inline bool AllocationCounted<T>::CheckValid(S *node) noexcept {
-  return static_record_.count(reinterpret_cast<T *>(node));
+inline bool AllocationCounted<T>::CheckValid(S const *node) noexcept {
+  return static_record_.count(
+      const_cast<void *>(reinterpret_cast<void const *>(node)));
 }
 
 template <typename T>
 inline void AllocationCounted<T>::ReleaseAll() noexcept {
   std::vector<T *> all_refs;
-  for (auto *ptr : static_record_) {
+  for (auto *raw_ptr : static_record_) {
+    auto *ptr = reinterpret_cast<T *>(raw_ptr);
     ptr->Reset();
     all_refs.emplace_back(ptr);
   }
@@ -92,16 +94,13 @@ template <typename S, typename... Ss>
 requires std::derived_from<S, AllocationCounted<S>>
 inline void AllocationCounted<T>::Release(S *node, Ss... nodes) noexcept {
   std::vector<S *> children;
+  using namespace std;
   if (CheckValid(node)) {
-    children = static_cast<S *>(node)->GetChildren();
+    children = node->GetChildren();
     node->Reset();
     delete node;
   }
-  for (auto *ptr : children) {
-    if (CheckValid(ptr)) {
-      delete ptr;
-    }
-  }
+  Release(children.begin(), children.end());
   Release(nodes...);
 }
 

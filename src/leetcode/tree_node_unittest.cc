@@ -1,5 +1,6 @@
 #include "leetcode/tree_node.h"
 #include "leetcode/testing/test_helper.h"
+#include <memory>
 #include <sstream>
 
 using namespace std;
@@ -204,5 +205,57 @@ TEST_F(TreeNodeTest, ReleaseAll) {
   auto *l4 = TreeNode::FromVector({1, 2, null, 3});
 
   TreeNode::ReleaseAll();
+  LCD_EXPECT_EQ(TreeNode::CheckRemainRefs(), 0);
+}
+
+namespace seg_fault {
+
+class Solution {
+private:
+  void build_inorder(TreeNode *p, vector<TreeNode *> &inorder) {
+    if (p == nullptr) {
+      return;
+    }
+
+    build_inorder(p->left, inorder);
+    inorder.emplace_back(p);
+    build_inorder(p->right, inorder);
+  }
+
+  template <typename iterator>
+  TreeNode *build_tree_from_inorder(iterator beg, iterator end) {
+    if (beg == end) {
+      return nullptr;
+    }
+
+    auto mid      = beg + (end - beg) / 2;
+    (*mid)->left  = build_tree_from_inorder(beg, mid);
+    (*mid)->right = build_tree_from_inorder(mid + 1, end);
+
+    return *mid;
+  }
+
+public:
+  TreeNode *balanceBST(TreeNode *root) {
+    vector<TreeNode *> order;
+    build_inorder(root, order);
+
+    return build_tree_from_inorder(order.begin(), order.end());
+  }
+};
+} // namespace seg_fault
+
+TEST_F(TreeNodeTest, SegFault) {
+
+  auto solution = std::make_unique<seg_fault::Solution>();
+  // seg_fault::Solution solution ;
+
+  TreeNode *root =
+      TreeNode::FromVector({1, null, 2, null, 3, null, 4, null, null});
+  TreeNode *expect = TreeNode::FromVector({3, 2, 4, 1});
+  TreeNode *actual = solution->balanceBST(root);
+  // TreeNode *actual = solution.balanceBST(root);
+
+  TreeNode::Release(root, expect, actual);
   LCD_EXPECT_EQ(TreeNode::CheckRemainRefs(), 0);
 }
