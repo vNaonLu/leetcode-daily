@@ -16,6 +16,7 @@
 
 // -- This header must be included after others --
 #include "leetcode/testing/solution_test_helper.h"
+#include "test_helper.h"
 
 using namespace std;
 using namespace lcd;
@@ -53,6 +54,8 @@ using namespace lcd;
 //
 
 LEETCODE_BEGIN_RESOLVING(1093, StatisticsFromALargeSample, Solution);
+
+inline static constexpr double kError = 1E-5;
 
 class Solution {
 public:
@@ -148,7 +151,10 @@ LEETCODE_SOLUTION_UNITTEST(1093, StatisticsFromALargeSample, example_1) {
       0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0};
   vector<double> expect = {1.00000, 3.00000, 2.37500, 2.50000, 3.00000};
   vector<double> actual = solution->sampleStats(count);
-  LCD_EXPECT_EQ(expect, actual);
+  LCD_ASSERT_EQ(expect.size(), actual.size());
+  for (size_t i = 0; i < expect.size(); ++i) {
+    EXPECT_NEAR(expect[i], actual[i], kError);
+  }
 }
 
 // [Example #2]
@@ -164,7 +170,6 @@ LEETCODE_SOLUTION_UNITTEST(1093, StatisticsFromALargeSample, example_1) {
 // as it appears the most in the sample.
 
 LEETCODE_SOLUTION_UNITTEST(1093, StatisticsFromALargeSample, example_2) {
-  GTEST_SKIP()<< "Double Precision Problem";
   auto        solution = MakeSolution();
   vector<int> count    = {
       0, 4, 3, 2, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
@@ -180,5 +185,8 @@ LEETCODE_SOLUTION_UNITTEST(1093, StatisticsFromALargeSample, example_2) {
       0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0};
   vector<double> expect = {1.00000, 4.00000, 2.18182, 2.00000, 1.00000};
   vector<double> actual = solution->sampleStats(count);
-  LCD_EXPECT_EQ(expect, actual);
+  LCD_ASSERT_EQ(expect.size(), actual.size());
+  for (size_t i = 0; i < expect.size(); ++i) {
+    EXPECT_NEAR(expect[i], actual[i], kError);
+  }
 }
