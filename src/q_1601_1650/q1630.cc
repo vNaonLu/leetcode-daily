@@ -99,7 +99,13 @@ LEETCODE_END_RESOLVING(Solution);
 // arithmetic sequence.
 
 LEETCODE_SOLUTION_UNITTEST(1630, ArithmeticSubarrays, example_1) {
-  GTEST_SKIP() << "Unittest Not Implemented";
+  auto         solution = MakeSolution();
+  vector<int>  nums     = {4, 6, 5, 9, 3, 7};
+  vector<int>  l        = {0, 0, 2};
+  vector<int>  r        = {2, 3, 5};
+  vector<bool> expect   = {true, false, true};
+  vector<bool> actual   = solution->checkArithmeticSubarrays(nums, l, r);
+  LCD_EXPECT_EQ(expect, actual);
 }
 
 // [Example #2]
