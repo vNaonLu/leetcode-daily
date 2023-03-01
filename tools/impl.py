@@ -333,23 +333,28 @@ def ldtBuildImpl(*, build_path: Path, build_args: str = ""):
 
     TASK = LOG.createTaskLog("Build Project")
 
+
     def stdoutCallback(out: str):
         percent, msg = parseBuildLog(out)
         TASK.log(msg, percent=percent)
         LOG.verbose(out)
 
-    with launchSubprocess(CMD) as proc:
-        TASK.begin()
-        asyncStdout(proc, stdoutCallback)
+    try:
+        with launchSubprocess(CMD) as proc:
+            TASK.begin()
+            asyncStdout(proc, stdoutCallback)
 
-        if proc.poll() != 0:
-            TASK.done("failed to build in {}.", ARG_BUILD_PATH, is_success=False)
-            LOG.print(proc.stderr.read(), flag=LOG.VERBOSE)
-            return 1
+            if proc.poll() != 0:
+                TASK.done("failed to build in {}.", ARG_BUILD_PATH, is_success=False)
+                LOG.print(proc.stderr.read(), flag=LOG.VERBOSE)
+                return 1
 
-        TASK.done("successfully built in {}.", ARG_BUILD_PATH, is_success=True)
-
-    return 0
+            TASK.done("successfully built in {}.", ARG_BUILD_PATH, is_success=True)
+            return 0
+    except KeyboardInterrupt:
+        if TASK.isActive():
+            TASK.done("interrupted by user.", is_success=False)
+        return 1
 
 
 def ldtRunImpl(*, build_path: Path, infra_test: bool, ids: list[int] = []):

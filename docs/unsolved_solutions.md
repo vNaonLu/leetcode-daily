@@ -1,6 +1,6 @@
 # Unsolved Solutions List
 
-There are **1689** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
+There are **1683** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
 
 The questions which have been solved are not shown in this page, more information about solved questions can be found at [docs/solved_solutions.md](./solved_solutions.md).
 
@@ -136,7 +136,6 @@ The questions which have been solved are not shown in this page, more informatio
 |423|[Reconstruct Original Digits from English](https://leetcode.com/problems/reconstruct-original-digits-from-english/)|Medium||
 |425|[Word Squares](https://leetcode.com/problems/word-squares/)|Hard|🔒|
 |426|[Convert Binary Search Tree to Sorted Doubly Linked List](https://leetcode.com/problems/convert-binary-search-tree-to-sorted-doubly-linked-list/)|Medium|🔒|
-|427|[Construct Quad Tree](https://leetcode.com/problems/construct-quad-tree/)|Medium||
 |428|[Serialize and Deserialize N-ary Tree](https://leetcode.com/problems/serialize-and-deserialize-n-ary-tree/)|Hard|🔒|
 |431|[Encode N-ary Tree to Binary Tree](https://leetcode.com/problems/encode-n-ary-tree-to-binary-tree/)|Hard|🔒|
 |432|[All O`one Data Structure](https://leetcode.com/problems/all-oone-data-structure/)|Hard||
@@ -173,7 +172,6 @@ The questions which have been solved are not shown in this page, more informatio
 |497|[Random Point in Non-overlapping Rectangles](https://leetcode.com/problems/random-point-in-non-overlapping-rectangles/)|Medium||
 |498|[Diagonal Traverse](https://leetcode.com/problems/diagonal-traverse/)|Medium||
 |499|[The Maze III](https://leetcode.com/problems/the-maze-iii/)|Hard|🔒|
-|502|[IPO](https://leetcode.com/problems/ipo/)|Hard||
 |505|[The Maze II](https://leetcode.com/problems/the-maze-ii/)|Medium|🔒|
 |506|[Relative Ranks](https://leetcode.com/problems/relative-ranks/)|Easy||
 |508|[Most Frequent Subtree Sum](https://leetcode.com/problems/most-frequent-subtree-sum/)|Medium||
@@ -454,7 +452,6 @@ The questions which have been solved are not shown in this page, more informatio
 |1004|[Max Consecutive Ones III](https://leetcode.com/problems/max-consecutive-ones-iii/)|Medium||
 |1005|[Maximize Sum Of Array After K Negations](https://leetcode.com/problems/maximize-sum-of-array-after-k-negations/)|Easy||
 |1006|[Clumsy Factorial](https://leetcode.com/problems/clumsy-factorial/)|Medium||
-|1011|[Capacity To Ship Packages Within D Days](https://leetcode.com/problems/capacity-to-ship-packages-within-d-days/)|Medium||
 |1012|[Numbers With Repeated Digits](https://leetcode.com/problems/numbers-with-repeated-digits/)|Hard||
 |1013|[Partition Array Into Three Parts With Equal Sum](https://leetcode.com/problems/partition-array-into-three-parts-with-equal-sum/)|Easy||
 |1016|[Binary String With Substrings Representing 1 To N](https://leetcode.com/problems/binary-string-with-substrings-representing-1-to-n/)|Medium||
@@ -1322,7 +1319,6 @@ The questions which have been solved are not shown in this page, more informatio
 |2145|[Count the Hidden Sequences](https://leetcode.com/problems/count-the-hidden-sequences/)|Medium||
 |2146|[K Highest Ranked Items Within a Price Range](https://leetcode.com/problems/k-highest-ranked-items-within-a-price-range/)|Medium||
 |2147|[Number of Ways to Divide a Long Corridor](https://leetcode.com/problems/number-of-ways-to-divide-a-long-corridor/)|Hard||
-|2148|[Count Elements With Strictly Smaller and Greater Elements ](https://leetcode.com/problems/count-elements-with-strictly-smaller-and-greater-elements/)|Easy||
 |2150|[Find All Lonely Numbers in the Array](https://leetcode.com/problems/find-all-lonely-numbers-in-the-array/)|Medium||
 |2151|[Maximum Good People Based on Statements](https://leetcode.com/problems/maximum-good-people-based-on-statements/)|Hard||
 |2152|[Minimum Number of Lines to Cover Points](https://leetcode.com/problems/minimum-number-of-lines-to-cover-points/)|Medium|🔒|
@@ -1385,7 +1381,6 @@ The questions which have been solved are not shown in this page, more informatio
 |2217|[Find Palindrome With Fixed Length](https://leetcode.com/problems/find-palindrome-with-fixed-length/)|Medium||
 |2218|[Maximum Value of K Coins From Piles](https://leetcode.com/problems/maximum-value-of-k-coins-from-piles/)|Hard||
 |2219|[Maximum Sum Score of Array](https://leetcode.com/problems/maximum-sum-score-of-array/)|Medium|🔒|
-|2220|[Minimum Bit Flips to Convert Number](https://leetcode.com/problems/minimum-bit-flips-to-convert-number/)|Easy||
 |2222|[Number of Ways to Select Buildings](https://leetcode.com/problems/number-of-ways-to-select-buildings/)|Medium||
 |2223|[Sum of Scores of Built Strings](https://leetcode.com/problems/sum-of-scores-of-built-strings/)|Hard||
 |2224|[Minimum Number of Operations to Convert Time](https://leetcode.com/problems/minimum-number-of-operations-to-convert-time/)|Easy||
@@ -1413,7 +1408,6 @@ The questions which have been solved are not shown in this page, more informatio
 |2254|[Design Video Sharing Platform](https://leetcode.com/problems/design-video-sharing-platform/)|Hard|🔒|
 |2257|[Count Unguarded Cells in the Grid](https://leetcode.com/problems/count-unguarded-cells-in-the-grid/)|Medium||
 |2258|[Escape the Spreading Fire](https://leetcode.com/problems/escape-the-spreading-fire/)|Hard||
-|2259|[Remove Digit From Number to Maximize Result](https://leetcode.com/problems/remove-digit-from-number-to-maximize-result/)|Easy||
 |2260|[Minimum Consecutive Cards to Pick Up](https://leetcode.com/problems/minimum-consecutive-cards-to-pick-up/)|Medium||
 |2261|[K Divisible Elements Subarrays](https://leetcode.com/problems/k-divisible-elements-subarrays/)|Medium||
 |2262|[Total Appeal of A String](https://leetcode.com/problems/total-appeal-of-a-string/)|Hard||
