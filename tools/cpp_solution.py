@@ -10,7 +10,7 @@ from cpp_snippet import *
 from utils import *
 
 
-class CPPSoltuion:
+class CPPSolution:
     def __init__(self, obj: object, *,
                  timestamp: int = time.mktime(TODAY.timetuple()),
                  existed_solution: str = None,
@@ -185,5 +185,5 @@ if __name__ == "__main__":
         sys.exit()
 
     raw_content = json.loads(resp.content.decode('utf-8'))['data']['question']
-    cpp_solution = CPPSoltuion(raw_content)
+    cpp_solution = CPPSolution(raw_content)
     LOG.print(clangFormat(cpp_solution.solutionTemplate()))

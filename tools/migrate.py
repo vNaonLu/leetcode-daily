@@ -135,7 +135,7 @@ try:
             header.add("<deque>")
 
 
-        cpp_solution = CPPSoltuion(raw_content,
+        cpp_solution = CPPSolution(raw_content,
                                    timestamp=lg.timestamp,
                                    existed_solution=solution_source,
                                    headers=header)

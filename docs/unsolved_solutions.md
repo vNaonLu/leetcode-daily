@@ -1,6 +1,6 @@
 # Unsolved Solutions List
 
-There are **1681** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
+There are **1685** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
 
 The questions which have been solved are not shown in this page, more information about solved questions can be found at [docs/solved_solutions.md](./solved_solutions.md).
 
@@ -1688,3 +1688,7 @@ The questions which have been solved are not shown in this page, more informatio
 |2571|[Minimum Operations to Reduce an Integer to 0](https://leetcode.com/problems/minimum-operations-to-reduce-an-integer-to-0/)|Medium||
 |2572|[Count the Number of Square-Free Subsets](https://leetcode.com/problems/count-the-number-of-square-free-subsets/)|Medium||
 |2573|[Find the String with LCP](https://leetcode.com/problems/find-the-string-with-lcp/)|Hard||
+|2574|[Left and Right Sum Differences](https://leetcode.com/problems/left-and-right-sum-differences/)|Easy||
+|2575|[Find the Divisibility Array of a String](https://leetcode.com/problems/find-the-divisibility-array-of-a-string/)|Medium||
+|2576|[Find the Maximum Number of Marked Indices](https://leetcode.com/problems/find-the-maximum-number-of-marked-indices/)|Medium||
+|2577|[Minimum Time to Visit a Cell In a Grid](https://leetcode.com/problems/minimum-time-to-visit-a-cell-in-a-grid/)|Hard||
