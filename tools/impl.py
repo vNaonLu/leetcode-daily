@@ -402,7 +402,7 @@ def ldtRunImpl(*, build_path: Path, infra_test: bool, ids: list[int] = []):
 
         with launchSubprocess(CMD) as proc:
             TASK.begin("running the executable: {}", executable)
-            result = proc.stdout.read()
+            result, err = proc.communicate()
             TASK.log("parsing the test logs.")
             LOG.verbose(result.replace('\n', '\n    '))
             passed = parsePassedIds(result)
@@ -414,29 +414,42 @@ def ldtRunImpl(*, build_path: Path, infra_test: bool, ids: list[int] = []):
                 if id not in passed and id not in failed and id not in skipped:
                     missing_ids.append(id)
 
-            if len(failed) == 0 and len(missing_ids) == 0:
+            returncode = proc.wait()
+
+            if returncode == 0 and len(failed) == 0 and len(missing_ids) == 0:
                 TASK.done("passed all tests.",
                           LOG.format(len(passed), flag=LOG.HIGHTLIGHT), is_success=True)
                 if len(skipped) > 0:
                     LOG.warn("some tests has skipped: {}", list(skipped))
                 return 0
 
-            elif len(failed) == 0 and len(missing_ids) > 0:
-                TASK.done("solutions without any tests: {}", list(missing_ids), is_success=False)
-                return 1
+            elif returncode != 0:
+                TASK.done("tests return code: {}",
+                          LOG.format(returncode, flag=LOG.HIGHTLIGHT), is_success=False)
 
-            else:
-                TASK.done("failed on test(s): {}", list(failed), is_success=False)
+                if returncode != 1:
+                    # LOG.failure("the full message:")
+                    # # proc.stdout.seek()
+                    # LOG.print(result, flag=LOG.VERBOSE)
+                    # LOG.print(err, flag=LOG.VERBOSE)
+                    return 1
 
-                for test in failed:
-                    LOG.failure("{} failed to pass:", LOG.format(test, flag=LOG.HIGHTLIGHT))
-                    block = parseTestBlock(result, test)
-                    LOG.print(block, flag=LOG.VERBOSE)
+                elif len(failed) == 0 and len(missing_ids) > 0:
+                    LOG.failure("solutions without any tests: {}", list(missing_ids))
+                    return 1
 
-                if len(missing_ids) > 1:
-                    LOG.failure("there is no tests for the solution: {}", list(missing_ids))
+                else:
+                    LOG.failure("failed on test(s): {}", list(failed))
 
-                return 1
+                    for test in failed:
+                        LOG.failure("{} failed to pass:", LOG.format(test, flag=LOG.HIGHTLIGHT))
+                        block = parseTestBlock(result, test)
+                        LOG.print(block, flag=LOG.VERBOSE)
+
+                    if len(missing_ids) > 1:
+                        LOG.failure("there is no tests for the solution: {}", list(missing_ids))
+
+                    return 1
 
 
 def ldtRemoveImpl(*, src_path: Path, resolve_logs: ResolveLogsFile, ids: list[int]):
