@@ -76,7 +76,15 @@ LEETCODE_END_RESOLVING(Solution);
 
 LEETCODE_SOLUTION_UNITTEST(235, LowestCommonAncestorOfABinarySearchTree,
                            example_1) {
-  GTEST_SKIP() << "Unittest Not Implemented";
+  auto      solution = MakeSolution();
+  TreeNode *root =
+      TreeNode::FromVector({6, 2, 8, 0, 4, 7, 9, null, null, 3, 5});
+  TreeNode *p      = TreeNode::FromVector({});
+  TreeNode *q      = TreeNode::FromVector({});
+  TreeNode *expect = TreeNode::FromVector({});
+  TreeNode *actual = solution->lowestCommonAncestor(root, p, q);
+  LCD_EXPECT_EQ(expect, actual);
+  TreeNode::Release(root, p, q, expect, actual);
 }
 
 // [Example #2]
@@ -88,7 +96,15 @@ LEETCODE_SOLUTION_UNITTEST(235, LowestCommonAncestorOfABinarySearchTree,
 
 LEETCODE_SOLUTION_UNITTEST(235, LowestCommonAncestorOfABinarySearchTree,
                            example_2) {
-  GTEST_SKIP() << "Unittest Not Implemented";
+  auto      solution = MakeSolution();
+  TreeNode *root =
+      TreeNode::FromVector({6, 2, 8, 0, 4, 7, 9, null, null, 3, 5});
+  TreeNode *p      = TreeNode::FromVector({});
+  TreeNode *q      = TreeNode::FromVector({});
+  TreeNode *expect = TreeNode::FromVector({});
+  TreeNode *actual = solution->lowestCommonAncestor(root, p, q);
+  LCD_EXPECT_EQ(expect, actual);
+  TreeNode::Release(root, p, q, expect, actual);
 }
 
 // [Example #3]
@@ -98,5 +114,12 @@ LEETCODE_SOLUTION_UNITTEST(235, LowestCommonAncestorOfABinarySearchTree,
 
 LEETCODE_SOLUTION_UNITTEST(235, LowestCommonAncestorOfABinarySearchTree,
                            example_3) {
-  GTEST_SKIP() << "Unittest Not Implemented";
+  auto      solution = MakeSolution();
+  TreeNode *root     = TreeNode::FromVector({2, 1});
+  TreeNode *p        = TreeNode::FromVector({});
+  TreeNode *q        = TreeNode::FromVector({});
+  TreeNode *expect   = TreeNode::FromVector({});
+  TreeNode *actual   = solution->lowestCommonAncestor(root, p, q);
+  LCD_EXPECT_EQ(expect, actual);
+  TreeNode::Release(root, p, q, expect, actual);
 }
