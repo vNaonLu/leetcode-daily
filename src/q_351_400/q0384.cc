@@ -77,5 +77,10 @@ LEETCODE_END_RESOLVING(Solution);
 // of array [1,2,3]. Example: return [1, 3, 2]
 
 LEETCODE_SOLUTION_UNITTEST(384, ShuffleAnArray, example_1) {
-  GTEST_SKIP() << "Unittest Not Implemented";
+  vector<int> nums     = {1, 2, 3};
+  auto        solution = MakeSolution(nums);
+  vector<int> expect   = {1, 2, 3};
+  EXPECT_ANYORDER_EQ(expect, solution->shuffle());
+  LCD_EXPECT_EQ(expect, solution->reset());
+  EXPECT_ANYORDER_EQ(expect, solution->shuffle());
 }
