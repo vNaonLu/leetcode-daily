@@ -14,6 +14,7 @@
 
 // -- This header must be included after others --
 #include "leetcode/testing/solution_test_helper.h"
+#include "test_helper.h"
 
 using namespace std;
 using namespace lcd;
@@ -70,7 +71,20 @@ LEETCODE_END_RESOLVING(Solution);
 //
 
 LEETCODE_SOLUTION_UNITTEST(1260, Shift2DGrid, example_1) {
-  GTEST_SKIP() << "Unittest Not Implemented";
+  auto                solution = MakeSolution();
+  vector<vector<int>> grid     = {
+      {1, 2, 3},
+      {4, 5, 6},
+      {7, 8, 9}
+  };
+  int                 k      = 1;
+  vector<vector<int>> expect = {
+      {9, 1, 2},
+      {3, 4, 5},
+      {6, 7, 8}
+  };
+  vector<vector<int>> actual = solution->shiftGrid(grid, k);
+  LCD_EXPECT_EQ(expect, actual);
 }
 
 // [Example #2]
@@ -79,7 +93,22 @@ LEETCODE_SOLUTION_UNITTEST(1260, Shift2DGrid, example_1) {
 //
 
 LEETCODE_SOLUTION_UNITTEST(1260, Shift2DGrid, example_2) {
-  GTEST_SKIP() << "Unittest Not Implemented";
+  auto                solution = MakeSolution();
+  vector<vector<int>> grid     = {
+      { 3, 8,  1,  9},
+      {19, 7,  2,  5},
+      { 4, 6, 11, 10},
+      {12, 0, 21, 13}
+  };
+  int                 k      = 4;
+  vector<vector<int>> expect = {
+      {12, 0, 21, 13},
+      { 3, 8,  1,  9},
+      {19, 7,  2,  5},
+      { 4, 6, 11, 10}
+  };
+  vector<vector<int>> actual = solution->shiftGrid(grid, k);
+  LCD_EXPECT_EQ(expect, actual);
 }
 
 // [Example #3]
@@ -88,5 +117,18 @@ LEETCODE_SOLUTION_UNITTEST(1260, Shift2DGrid, example_2) {
 //
 
 LEETCODE_SOLUTION_UNITTEST(1260, Shift2DGrid, example_3) {
-  GTEST_SKIP() << "Unittest Not Implemented";
+  auto                solution = MakeSolution();
+  vector<vector<int>> grid     = {
+      {1, 2, 3},
+      {4, 5, 6},
+      {7, 8, 9}
+  };
+  int                 k      = 9;
+  vector<vector<int>> expect = {
+      {1, 2, 3},
+      {4, 5, 6},
+      {7, 8, 9}
+  };
+  vector<vector<int>> actual = solution->shiftGrid(grid, k);
+  LCD_EXPECT_EQ(expect, actual);
 }
