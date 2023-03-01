@@ -11,6 +11,7 @@
 
 #include <iosfwd>
 #include <random>
+#include <unordered_set>
 #include <vector>
 
 // -- This header must be included after others --
@@ -78,7 +79,6 @@ LEETCODE_END_RESOLVING(Solution);
 // is only one element in w.
 
 LEETCODE_SOLUTION_UNITTEST(528, RandomPickWithWeight, example_1) {
-  GTEST_SKIP() << "Random Output";
   vector<int> s0_w      = {1};
   auto        solution  = MakeSolution(s0_w);
   int         s1_expect = 0;
@@ -106,22 +106,17 @@ LEETCODE_SOLUTION_UNITTEST(528, RandomPickWithWeight, example_1) {
 // and so on.
 
 LEETCODE_SOLUTION_UNITTEST(528, RandomPickWithWeight, example_2) {
-  GTEST_SKIP() << "Random Output";
-  vector<int> s0_w      = {1, 3};
-  auto        solution  = MakeSolution(s0_w);
-  int         s1_expect = 1;
-  int         s1_actual = solution->pickIndex();
-  LCD_EXPECT_EQ(s1_expect, s1_actual);
-  int s2_expect = 1;
+  vector<int>        s0_w = {1, 3};
+  auto               solution  = MakeSolution(s0_w);
+  unordered_set<int> must_in = {0, 1};
+  int                s1_actual = solution->pickIndex();
+  EXPECT_TRUE(must_in.count(s1_actual));
   int s2_actual = solution->pickIndex();
-  LCD_EXPECT_EQ(s2_expect, s2_actual);
-  int s3_expect = 1;
+  EXPECT_TRUE(must_in.count(s2_actual));
   int s3_actual = solution->pickIndex();
-  LCD_EXPECT_EQ(s3_expect, s3_actual);
-  int s4_expect = 1;
+  EXPECT_TRUE(must_in.count(s3_actual));
   int s4_actual = solution->pickIndex();
-  LCD_EXPECT_EQ(s4_expect, s4_actual);
-  int s5_expect = 0;
+  EXPECT_TRUE(must_in.count(s4_actual));
   int s5_actual = solution->pickIndex();
-  LCD_EXPECT_EQ(s5_expect, s5_actual);
+  EXPECT_TRUE(must_in.count(s5_actual));
 }
