@@ -1,6 +1,6 @@
 # Unsolved Solutions List
 
-There are **1685** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
+There are **1684** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
 
 The questions which have been solved are not shown in this page, more information about solved questions can be found at [docs/solved_solutions.md](./solved_solutions.md).
 
@@ -1497,7 +1497,6 @@ The questions which have been solved are not shown in this page, more informatio
 |2364|[Count Number of Bad Pairs](https://leetcode.com/problems/count-number-of-bad-pairs/)|Medium||
 |2365|[Task Scheduler II](https://leetcode.com/problems/task-scheduler-ii/)|Medium||
 |2366|[Minimum Replacements to Sort the Array](https://leetcode.com/problems/minimum-replacements-to-sort-the-array/)|Hard||
-|2367|[Number of Arithmetic Triplets](https://leetcode.com/problems/number-of-arithmetic-triplets/)|Easy||
 |2369|[Check if There is a Valid Partition For The Array](https://leetcode.com/problems/check-if-there-is-a-valid-partition-for-the-array/)|Medium||
 |2370|[Longest Ideal Subsequence](https://leetcode.com/problems/longest-ideal-subsequence/)|Medium||
 |2371|[Minimize Maximum Value in a Grid](https://leetcode.com/problems/minimize-maximum-value-in-a-grid/)|Hard|🔒|
