@@ -119,7 +119,11 @@ LEETCODE_END_RESOLVING(Solution);
 // The total sum is 5 + 10 + 15 = 30.
 
 LEETCODE_SOLUTION_UNITTEST(682, BaseballGame, example_1) {
-  GTEST_SKIP() << "Unittest Not Implemented";
+  auto           solution = MakeSolution();
+  vector<string> ops      = {"5", "2", "C", "D", "+"};
+  int            expect   = 30;
+  int            actual   = solution->calPoints(ops);
+  LCD_EXPECT_EQ(expect, actual);
 }
 
 // [Example #2]
@@ -137,7 +141,11 @@ LEETCODE_SOLUTION_UNITTEST(682, BaseballGame, example_1) {
 // The total sum is 5 + -2 + -4 + 9 + 5 + 14 = 27.
 
 LEETCODE_SOLUTION_UNITTEST(682, BaseballGame, example_2) {
-  GTEST_SKIP() << "Unittest Not Implemented";
+  auto           solution = MakeSolution();
+  vector<string> ops      = {"5", "-2", "4", "C", "D", "9", "+", "+"};
+  int            expect   = 27;
+  int            actual   = solution->calPoints(ops);
+  LCD_EXPECT_EQ(expect, actual);
 }
 
 // [Example #3]
@@ -149,5 +157,9 @@ LEETCODE_SOLUTION_UNITTEST(682, BaseballGame, example_2) {
 // Since the record is empty, the total sum is 0.
 
 LEETCODE_SOLUTION_UNITTEST(682, BaseballGame, example_3) {
-  GTEST_SKIP() << "Unittest Not Implemented";
+  auto           solution = MakeSolution();
+  vector<string> ops      = {"1"};
+  int            expect   = 1;
+  int            actual   = solution->calPoints(ops);
+  LCD_EXPECT_EQ(expect, actual);
 }
