@@ -18,12 +18,6 @@ def _addSolutionImpl(*, questions_list: QuestionsList, solution_file: SolutionFi
     LOG = prompt.Log.getInstance()
     id = solution_file.id()
 
-    LOG.verbose("check whether the solution with id {} exists in: {}", id, solution_file)
-    if solution_file.exists():
-        LOG.failure("the solution for question #{} already exists.",
-                    LOG.format(id, flag=LOG.HIGHTLIGHT))
-        return False
-
     LOG.verbose("check whether the detail for question #{} exists.", id)
     if id not in questions_list:
         LOG.failure("there exists no detail for question #{} in questions list. "
@@ -67,6 +61,11 @@ def _addSolutionImpl(*, questions_list: QuestionsList, solution_file: SolutionFi
     gen_task.done("generated the solution template: {}",
                   LOG.format(slug, flag=LOG.HIGHTLIGHT),
                   is_success=True)
+
+    if not solution_file.parent.exists():
+        solution_file.parent.mkdir(exist_ok=True)
+        LOG.log("generated the directory: {}", LOG.format(
+            solution_file.parent, LOG.HIGHTLIGHT))
 
     solution_file.write_text(clangFormat(content))
     LOG.success("saved the solution file for question #{}: {}",
@@ -314,6 +313,13 @@ def ldtAdd(args: object):
 
     for id in ARG_IDS:
         solution_file = SolutionFile(id, ARG_SRC_PATH)
+
+        LOG.verbose("check whether the solution with id {} exists in: {}", id, solution_file)
+        if solution_file.exists():
+            LOG.warn("the solution for question #{} already exists. skipped.",
+                     LOG.format(id, flag=LOG.HIGHTLIGHT))
+            continue
+
         if not _addProcess(src_path=ARG_SRC_PATH,
                            build_path=ARG_BUILD_PATH,
                            docs_path=ARG_DOCS_PATH,
@@ -326,9 +332,9 @@ def ldtAdd(args: object):
                            without_test=ARG_WITHOUT_TEST_FLAG,
                            without_update=ARG_WITHOUT_UPDATE_FLAG,
                            without_commit=ARG_WITHOUT_COMMIT_FLAG):
-
-            LOG.failure("abort adding the solution #{}.",
-                        LOG.format(id, flag=LOG.HIGHTLIGHT))
+            LOG.failure("abort adding the solution #{}.", LOG.format(id, flag=LOG.HIGHTLIGHT))
+            solution_file.unlink()
+            LOG.log("remove the file: {}", LOG.format(solution_file, LOG.HIGHTLIGHT))
             continue
         LOG.success("the solution #{} added successfully.",
                     LOG.format(id, flag=LOG.HIGHTLIGHT))
