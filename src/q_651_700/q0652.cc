@@ -76,14 +76,13 @@ LEETCODE_END_RESOLVING(Solution);
 //
 
 LEETCODE_SOLUTION_UNITTEST(652, FindDuplicateSubtrees, example_1) {
-  GTEST_SKIP() << "Not Implment";
   auto      solution = MakeSolution();
   TreeNode *root =
       TreeNode::FromVector({1, 2, 3, 4, null, 2, 4, null, null, 4});
   vector<TreeNode *> expect = {TreeNode::FromVector({2, 4}),
                                TreeNode::FromVector({4})};
   vector<TreeNode *> actual = solution->findDuplicateSubtrees(root);
-  LCD_EXPECT_EQ(expect, actual);
+  EXPECT_ANYORDER_EQ(expect, actual);
   TreeNode::Release(root);
 }
 
@@ -93,12 +92,11 @@ LEETCODE_SOLUTION_UNITTEST(652, FindDuplicateSubtrees, example_1) {
 //
 
 LEETCODE_SOLUTION_UNITTEST(652, FindDuplicateSubtrees, example_2) {
-  GTEST_SKIP() << "Not Implment";
   auto               solution = MakeSolution();
   TreeNode          *root     = TreeNode::FromVector({2, 1, 1});
   vector<TreeNode *> expect   = {TreeNode::FromVector({1})};
   vector<TreeNode *> actual   = solution->findDuplicateSubtrees(root);
-  LCD_EXPECT_EQ(expect, actual);
+  EXPECT_ANYORDER_EQ(expect, actual);
   TreeNode::Release(root);
 }
 
@@ -108,12 +106,11 @@ LEETCODE_SOLUTION_UNITTEST(652, FindDuplicateSubtrees, example_2) {
 //
 
 LEETCODE_SOLUTION_UNITTEST(652, FindDuplicateSubtrees, example_3) {
-  GTEST_SKIP() << "Not Implment";
   auto               solution = MakeSolution();
   TreeNode          *root   = TreeNode::FromVector({2, 2, 2, 3, null, 3, null});
   vector<TreeNode *> expect = {TreeNode::FromVector({2, 3}),
                                TreeNode::FromVector({3})};
   vector<TreeNode *> actual = solution->findDuplicateSubtrees(root);
-  LCD_EXPECT_EQ(expect, actual);
+  EXPECT_ANYORDER_EQ(expect, actual);
   TreeNode::Release(root);
 }
