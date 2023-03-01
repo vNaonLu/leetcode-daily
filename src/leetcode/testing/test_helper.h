@@ -134,8 +134,8 @@ public:
 };
 
 template <typename T, typename S>
-requires(IsSameAs<T, float> || IsSameAs<T, double>) &&
-        (IsSameAs<S, float> || IsSameAs<S, double>)
+requires(IsSameAs<T, float> && IsSameAs<S, float>) ||
+        (IsSameAs<T, double> && IsSameAs<S, double>)
 class CompareHelper<T, S> {
 public:
   inline bool operator()(T const &a, T const &b) const {
