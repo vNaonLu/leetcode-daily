@@ -25,23 +25,23 @@ _BLOCK_STEP = 11.52
 _BLOCK_STRIDE = 2
 
 _TITLE_STYLE = _combineStyle(["font-weight: 500",
-                                 "font-size: 1rem"])
+                              "font-size: 1rem"])
 _ROTATE90_STYLE = _combineStyle(["transform: rotate(-90deg)",
-                                    "transform-origin: center",
-                                    "transform-box: fill-box"])
+                                 "transform-origin: center",
+                                 "transform-box: fill-box"])
 _STATE_STYLE = _combineStyle(["font-size: .75rem"])
 _LIGHT_STYLE = _combineStyle(["color: {}".format(_WHITE),
-                                 "fill: {}".format(_WHITE)])
+                              "fill: {}".format(_WHITE)])
 _LIGHT_GRAY_STYLE = _combineStyle(["color: {}".format(_LIGHT_GRAY),
-                                     "fill: {}".format(_LIGHT_GRAY)])
+                                   "fill: {}".format(_LIGHT_GRAY)])
 _DARK_GRAY_STYLE = _combineStyle(["color: {}".format(_DARK_GRAY),
-                                    "fill: {}".format(_DARK_GRAY)])
+                                  "fill: {}".format(_DARK_GRAY)])
 _GRAY_STYLE = _combineStyle(["color: {}".format(_GRAY),
-                                "fill: {}".format(_GRAY)])
+                             "fill: {}".format(_GRAY)])
 _ORANGE_STYLE = _combineStyle(["color: {}".format(_ORANGE),
-                                  "fill: {}".format(_ORANGE)])
+                               "fill: {}".format(_ORANGE)])
 _BACKGROUND_STYLE = _combineStyle(["color: {}".format(_PANEL_BACKGROUND),
-                                      "fill: {}".format(_PANEL_BACKGROUND)])
+                                   "fill: {}".format(_PANEL_BACKGROUND)])
 
 
 class ProblemResolveProgress:
@@ -521,26 +521,29 @@ class Readme:
             "All solved solution information can be found at [docs/solved_solutions.md](./docs/solved_solutions.md) and "
             "their source store in the directories in `./src` by their question identifier. "
             "For instance, the solution for [1. Two Sum](https://leetcode.com/problems/two-sum/) is stored in [src/q_1_50/q0001.cc](./src/q_1_50/q0001.cc). "
-            "The source usually contains a structure which is named by question identifier and inherits from the google test structure `testing::Test` and several testcases:",
+            "The solution source usually contains a structure which is named by question identifier "
+            "and inherits from the google test structure `testing::Test` and several testcases:",
             "```cpp",
-            "#include <gtest/gtest.h>",
-            "#include <iostream>",
-            "",
             "// ...",
+            "LEETCODE_BEGIN_RESOLVING(1, TwoSum, Solution);",
             "",
-            "struct q1 : public ::testing::Test {",
-            "  class Solution {",
-            "  public:",
-            "    vector<int> twoSum(vector<int> &nums, int target) {",
-            "      // some solution...",
+            "class Solution {",
+            "public:",
+            "  vector<int> twoSum(vector<int> &nums, int target) {",
+            "    auto memo = unordered_map<int, int>();",
+            "    auto i    = (int)0;",
+            "    for (int i = 0; i < nums.size(); ++i) {",
+            "      auto find = memo.find(target - nums[i]);",
+            "      if (find != memo.end()) {",
+            "        return vector<int>{find->second, i};",
+            "      }",
+            "      memo.emplace(nums[i], i);",
             "    }",
-            "  };",
-            "// ...",
+            "    return vector<int>{-1, -1};",
+            "  }",
             "};",
             "",
-            "TEST_F(q1, sample_input01) {",
-            "// some test input...",
-            "}",
+            "LEETCODE_END_RESOLVING(Solution);",
             "// ...",
             "```",
             "The approach is always appeared in the `struct` block."

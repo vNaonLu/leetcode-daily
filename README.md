@@ -27,26 +27,28 @@ More information about full activities can be found at:
 
 ## Finding Solution
 
-All solved solution information can be found at [docs/solved_solutions.md](./docs/solved_solutions.md) and their source store in the directories in `./src` by their question identifier. For instance, the solution for [1. Two Sum](https://leetcode.com/problems/two-sum/) is stored in [src/q_1_50/q0001.cc](./src/q_1_50/q0001.cc). The source usually contains a structure which is named by question identifier and inherits from the google test structure `testing::Test` and several testcases:
+All solved solution information can be found at [docs/solved_solutions.md](./docs/solved_solutions.md) and their source store in the directories in `./src` by their question identifier. For instance, the solution for [1. Two Sum](https://leetcode.com/problems/two-sum/) is stored in [src/q_1_50/q0001.cc](./src/q_1_50/q0001.cc). The solution source usually contains a structure which is named by question identifier and inherits from the google test structure `testing::Test` and several testcases:
 ```cpp
-#include <gtest/gtest.h>
-#include <iostream>
-
 // ...
+LEETCODE_BEGIN_RESOLVING(1, TwoSum, Solution);
 
-struct q1 : public ::testing::Test {
-  class Solution {
-  public:
-    vector<int> twoSum(vector<int> &nums, int target) {
-      // some solution...
+class Solution {
+public:
+  vector<int> twoSum(vector<int> &nums, int target) {
+    auto memo = unordered_map<int, int>();
+    auto i    = (int)0;
+    for (int i = 0; i < nums.size(); ++i) {
+      auto find = memo.find(target - nums[i]);
+      if (find != memo.end()) {
+        return vector<int>{find->second, i};
+      }
+      memo.emplace(nums[i], i);
     }
-  };
-// ...
+    return vector<int>{-1, -1};
+  }
 };
 
-TEST_F(q1, sample_input01) {
-// some test input...
-}
+LEETCODE_END_RESOLVING(Solution);
 // ...
 ```
 The approach is always appeared in the `struct` block. Or you can simply use the script `ldt` to cat the exist solution via:
