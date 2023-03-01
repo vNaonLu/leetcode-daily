@@ -43,18 +43,15 @@ using namespace lcd;
 LEETCODE_BEGIN_RESOLVING(284, PeekingIterator, PeekingIterator);
 
 class Iterator {
-  struct Data;
-  Data *data;
-
 public:
-  Iterator(const vector<int> &nums);
-  Iterator(const Iterator &iter);
+  Iterator(const vector<int> &nums) {}
+  Iterator(const Iterator &iter) {}
 
   // Returns the next element in the iteration.
-  int next();
+  int next() {}
 
   // Returns true if the iteration has more elements.
-  bool hasNext() const;
+  bool hasNext() const {}
 };
 
 class PeekingIterator : public Iterator {
@@ -104,22 +101,21 @@ LEETCODE_END_RESOLVING(PeekingIterator);
 // next element [1,2,3] peekingIterator.hasNext(); // return False
 
 LEETCODE_SOLUTION_UNITTEST(284, PeekingIterator, example_1) {
-  GTEST_SKIP() << "Unittest Not Implemented";
-  // const vector<int> s0_nums          = {1, 2, 3};
-  // auto              peeking_iterator = MakePeekingIterator(s0_nums);
-  // int               s1_expect        = 1;
-  // int               s1_actual        = peeking_iterator->next();
-  // LCD_EXPECT_EQ(s1_expect, s1_actual);
-  // int s2_expect = 2;
-  // int s2_actual = peeking_iterator->peek();
-  // LCD_EXPECT_EQ(s2_expect, s2_actual);
-  // int s3_expect = 2;
-  // int s3_actual = peeking_iterator->next();
-  // LCD_EXPECT_EQ(s3_expect, s3_actual);
-  // int s4_expect = 3;
-  // int s4_actual = peeking_iterator->next();
-  // LCD_EXPECT_EQ(s4_expect, s4_actual);
-  // bool s5_expect = false;
-  // bool s5_actual = peeking_iterator->hasNext();
-  // LCD_EXPECT_EQ(s5_expect, s5_actual);
+  const vector<int> s0_nums          = {1, 2, 3};
+  auto              peeking_iterator = MakePeekingIterator(s0_nums);
+  int               s1_expect        = 1;
+  int               s1_actual        = peeking_iterator->next();
+  LCD_EXPECT_EQ(s1_expect, s1_actual);
+  int s2_expect = 2;
+  int s2_actual = peeking_iterator->peek();
+  LCD_EXPECT_EQ(s2_expect, s2_actual);
+  int s3_expect = 2;
+  int s3_actual = peeking_iterator->next();
+  LCD_EXPECT_EQ(s3_expect, s3_actual);
+  int s4_expect = 3;
+  int s4_actual = peeking_iterator->next();
+  LCD_EXPECT_EQ(s4_expect, s4_actual);
+  bool s5_expect = false;
+  bool s5_actual = peeking_iterator->hasNext();
+  LCD_EXPECT_EQ(s5_expect, s5_actual);
 }
