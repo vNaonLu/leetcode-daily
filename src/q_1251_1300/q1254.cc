@@ -129,5 +129,17 @@ LEETCODE_SOLUTION_UNITTEST(1254, NumberOfClosedIslands, example_2) {
 //
 
 LEETCODE_SOLUTION_UNITTEST(1254, NumberOfClosedIslands, example_3) {
-  GTEST_SKIP() << "Unittest Not Implemented";
+  auto                solution = MakeSolution();
+  vector<vector<int>> grid     = {
+      {1, 1, 1, 1, 1, 1, 1},
+   {1, 0, 0, 0, 0, 0, 1},
+   {1, 0, 1, 1, 1, 0, 1},
+   {1, 0, 1, 0, 1, 0, 1},
+   {1, 0, 1, 1, 1, 0, 1},
+   {1, 0, 0, 0, 0, 0, 1},
+      {1, 1, 1, 1, 1, 1, 1}
+  };
+  int expect = 2;
+  int actual = solution->closedIsland(grid);
+  LCD_EXPECT_EQ(expect, actual);
 }
