@@ -193,7 +193,7 @@ class CPPTypeString(CPPTypeValid):
         self._appendHeader("<string>")
 
     def evaluateInputRegex(self) -> str:
-        return "^(?:'[\\w\\W]*?'|\"[\\w\\W]*?\")$"
+        return "^(?:'[\\w\\W]*?'|\\\"[\\w\\W]*?\\\")$"
 
     def evaluateInput(self, value: str) -> str:
         LOG = prompt.Log.getInstance()
@@ -210,7 +210,7 @@ class CPPTypeVector(CPPTypeValid):
     @staticmethod
     def deduceType(type_name: str):
         mat = regex.match(
-            "^((?:std::)?vector<(?P<template_type>[\\w\\W]+)>) *&?$", type_name)
+            "^((?:const *)?(?:std::)?vector<(?P<template_type>[\\w\\W]+)>) *&?$", type_name)
         return mat
 
     def __init__(self, type_name: str):
@@ -224,7 +224,7 @@ class CPPTypeVector(CPPTypeValid):
     def evaluateInputRegex(self) -> str:
         assert self._template_type
         inner = self._template_type.evaluateInputRegex()[1:-1]
-        return f'^(?:\\[(?:(?:(?: *{inner}) *\\n?,?\\n?)*)?\\])$'
+        return f'^(?:\\[\\n?(?:(?:(?: *{inner}) *\\n?,?\\n?)*)?\\])$'
 
     def evaluateInput(self, value: str) -> str:
         LOG = prompt.Log.getInstance()

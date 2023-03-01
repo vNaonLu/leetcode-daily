@@ -4,7 +4,7 @@ import sys
 # prevent generating __pycache__
 sys.dont_write_bytecode = True
 
-from cpp_types import _CPPTypeAbstract
+from cpp_types import _CPPTypeAbstract, CPPTypeVector
 from cpp_analyze import _CPPCodeSnippetInformation
 from cpp_analyze import *
 
@@ -31,7 +31,7 @@ class _UnitTestFlavor:
 
     def getHeaders(self):
         res: set[str] = set()
-        for tp in  self._function.arg_types.values():
+        for tp in self._function.arg_types.values():
             for header in tp.getHeaders():
                 res.add(header)
         if self._function.return_type:
@@ -97,6 +97,7 @@ class _UnitTestRegularFlavor(_UnitTestFlavor):
         self._inputs = []
         LOG = prompt.Log.getInstance()
 
+        input = input.replace('\xa0', '')
         LOG.funcVerbose("parse the input: {}", input)
         for name in self._function.input_args:
             tp = self._function.arg_types[name]
@@ -104,7 +105,7 @@ class _UnitTestRegularFlavor(_UnitTestFlavor):
             LOG.funcVerbose("     with regex: {}", reg)
             mat = regex.search(reg, input)
             if not mat:
-                LOG.failure("falied to parse input: {}", input)
+                LOG.failure("falied to parse input: {}", repr(input))
                 return False
             LOG.funcVerbose("    found value: {}", mat.group(1))
             self._inputs.append((name, mat.group(1)))
@@ -118,6 +119,7 @@ class _UnitTestRegularFlavor(_UnitTestFlavor):
 
         LOG = prompt.Log.getInstance()
         self._output = ""
+        output = output.replace('\xa0', '')
         reg = self._return_type.evaluateInputRegex()[1:-1]
         LOG.funcVerbose("parse the output: {}", output)
         LOG.funcVerbose("      with regex: {}", reg)
@@ -136,24 +138,31 @@ class _UnitTestRegularFlavor(_UnitTestFlavor):
         LOG = prompt.Log.getInstance()
         LOG.funcVerbose("generating the unittest snippet.")
         result += f'auto {variable_prefix}{self._instance} = {self._ctor()};'
+        gc = self.getTypeCollection()
         for name, input in self._inputs:
             tp = self._function.arg_types[name]
             result += f'{tp} {name} = {tp(input)};'
 
         if self._inplace_case:
             tp = self._function.arg_types[self._function.input_args[0]]
+            if tp.__class__ not in gc:
+                gc[tp.__class__] = []
+            gc[tp.__class__].append("expect")
             result += f'{tp} expect = {tp(self._output)};'
             result += f'{variable_prefix}{self._instance}->{self._function(*self._function.input_args)};'
         else:
+            if self._return_type.__class__ not in gc:
+                gc[self._return_type.__class__] = []
+            gc[self._return_type.__class__].append("expect")
+            gc[self._return_type.__class__].append(self._actual)
             result += f'{self._return_type} expect = {self._return_type(self._output)};'
             result += f'{self._return_type} {self._actual} = {variable_prefix}{self._instance}->{self._function(*self._function.input_args)};'
 
-        if self._in_any_order:
+        if self._in_any_order and isinstance(self._return_type, CPPTypeVector):
             result += f'EXPECT_ANYORDER_EQ(expect, {self._actual});'
         else:
             result += f'LCD_EXPECT_EQ(expect, {self._actual});'
 
-        gc = self.getTypeCollection()
         for cls, variables in gc.items():
             assert issubclass(cls, _CPPTypeAbstract)
             destroy = cls.destroy(*variables)
@@ -200,6 +209,7 @@ class _UnitTestStageFlavorSingleStage(_UnitTestFlavor):
             reg += f' *(?P<{name}>(?:{tp.evaluateInputRegex()[1:-1]})) *,'
         reg = reg[:-1]
 
+        input = input.replace('\xa0', '')
         LOG.funcVerbose("parse the input: {}", input)
         LOG.funcVerbose("     with regex: {}", reg)
 
@@ -217,8 +227,8 @@ class _UnitTestStageFlavorSingleStage(_UnitTestFlavor):
 
     def addExpect(self, output: str):
         assert self._expect is None, "duplicately added output."
-        if self._function.return_type and self._function.return_type.getTypeName() != "void":
-            self._expect = self._function.return_type(output)
+        output = output.replace('\xa0', '')
+        self._expect = output
         return True
 
     def genUnitTestSnippet(self, *, variable_prefix: str = ""):
@@ -236,6 +246,16 @@ class _UnitTestStageFlavorSingleStage(_UnitTestFlavor):
             res += f'{f.return_type} {variable_prefix}expect = {f.return_type(self._expect)};'
             res += f'{f.return_type} {variable_prefix}actual = {self._instance}->{f(*variables)};'
             res += f'LCD_EXPECT_EQ({variable_prefix}expect, {variable_prefix}actual);'
+        return res
+
+    def getTypeCollection(self, *, variable_prefix: str = ""):
+        res = super().getTypeCollection(variable_prefix=variable_prefix)
+        f = self._function
+        if not self._isConstructor() and f.return_type.getTypeName() != "void":
+            if f.return_type.__class__ not in res:
+                res[f.return_type.__class__] = []
+            res[f.return_type.__class__].append("expect")
+            res[f.return_type.__class__].append("actual")
         return res
 
 
@@ -272,8 +292,7 @@ class _UnitTestStageFlavor(_UnitTestFlavor):
         LOG.funcVerbose("parse input commands with regex: {}",
                         input_inner_func_regex)
         for function_name in regex.findall(input_inner_func_regex, commands_input):
-            name = regex.search(command_regex, str(
-                function_name).strip()).group(0)[1:-1]
+            name = regex.search(command_regex, str(function_name).strip()).group(0)[1:-1].strip()
             LOG.funcVerbose("find function name: {}", name)
             f: _CPPCodeSnippetInformation._CPPSolutionFunction = None
             if name == self._class_info.name:
@@ -339,8 +358,18 @@ class _UnitTestStageFlavor(_UnitTestFlavor):
 
     def getHeaders(self):
         res: set[str] = set()
-        for step in self._stages:
-            for header in step.getHeaders():
+        for func in self._class_info.member_func:
+            for tp in  func.arg_types.values():
+                for header in tp.getHeaders():
+                    res.add(header)
+            if func.return_type:
+                for header in func.return_type.getHeaders():
+                    res.add(header)
+        for tp in self._class_info.constructor[0].arg_types.values():
+            for header in tp.getHeaders():
+                res.add(header)
+        if func.return_type:
+            for header in func.return_type.getHeaders():
                 res.add(header)
         return res
 
@@ -353,12 +382,15 @@ class _UnitTestStageFlavor(_UnitTestFlavor):
             idx += 1
 
         destory_map = {}
+        idx = 0
         for step in self._stages:
-            mp = step.getTypeCollection()
+            obj_prefix = f's{idx}_'
+            mp = step.getTypeCollection(variable_prefix=obj_prefix)
             for cls, variables in mp.items():
                 if cls not in destory_map:
                     destory_map[cls] = []
                 destory_map[cls] += variables
+            idx += 1
 
         for cls, variables in destory_map.items():
             assert issubclass(cls, _CPPTypeAbstract)

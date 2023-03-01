@@ -123,10 +123,16 @@ try:
             header.add("<limits>")
         if regex.search("sort", solution_source):
             header.add("<algorithm>")
+        if regex.search("(?:sqrt|pow)", solution_source):
+            header.add("<cmath>")
         if regex.search("unique_ptr", solution_source):
             header.add("<memory>")
+        if regex.search("(?:accumulate|iota|gcd)", solution_source):
+            header.add("<numeric>")
         if regex.search("array", solution_source):
             header.add("<array>")
+        if regex.search("deque", solution_source):
+            header.add("<deque>")
 
 
         cpp_solution = CPPSoltuion(raw_content,
@@ -151,7 +157,7 @@ try:
 
         while not passed:
             try:
-                passed = ldtBuildImpl(build_path=BUILD_ABSOLUTE) == 0 and \
+                passed = ldtBuildImpl(build_path=BUILD_ABSOLUTE, build_args="-j8") == 0 and \
                     ldtRunImpl(build_path=BUILD_ABSOLUTE,
                                infra_test=False, ids=[lg.id]) == 0
             except InterruptedError:
@@ -162,13 +168,13 @@ try:
                     sys.exit()
                 openEditor(new_src)
 
-        tc, sc, notes = \
-            _getComplexityInformation(lg.id,
-                                        clangFormat(parseSolution(new_src.read_text())),
-                                        lg.tc, lg.sc, lg.notes)
-        lg.tc = tc
-        lg.sc = sc
-        lg.notes = notes
+        # tc, sc, notes = \
+        #     _getComplexityInformation(lg.id,
+        #                                 clangFormat(parseSolution(new_src.read_text())),
+        #                                 lg.tc, lg.sc, lg.notes)
+        # lg.tc = tc
+        # lg.sc = sc
+        # lg.notes = notes
 
         msg = f"migrated q{lg.id}"
         if lg.tc != "-" and lg.sc != "-":

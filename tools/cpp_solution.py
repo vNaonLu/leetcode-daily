@@ -37,7 +37,7 @@ class CPPSoltuion:
         if obj["content"] is not None:
             self._content_info = QuestionContentAnalyzer.parse(obj["content"])
 
-        if "codeSnippets" in obj:
+        if "codeSnippets" in obj and obj["codeSnippets"]:
             for snippet in obj["codeSnippets"]:
                 if snippet['langSlug'] == 'cpp':
                     self._code_snippet = CPPCodeSnippet(
@@ -96,6 +96,8 @@ class CPPSoltuion:
 
     def _defaultExamples(self) -> str:
         res = ""
+        if not self._content_info:
+            return res
 
         idx = 1
         for example in self._content_info.examples:
@@ -111,11 +113,15 @@ class CPPSoltuion:
         return res
 
     def solutionTemplate(self) -> str:
-        assert self.__bool__()
-        solution_body = self._existed_solution or self._code_snippet.solutionDefine()
+        solution_body = self._existed_solution or (
+            self._code_snippet and self._code_snippet.solutionDefine()) or ""
+        
+        class_name = "Solution"
+        if self._code_snippet:
+            class_name = self._code_snippet.getClassName()
 
         constrains_section = ""
-        if len(self._content_info.constraints) > 0:
+        if self._content_info and len(self._content_info.constraints) > 0:
             constrains_section = concat(
                 f'///////////////////////////////////////////////////////////////////////////////',
                 f'// The following is test data for unit test.',
@@ -124,8 +130,12 @@ class CPPSoltuion:
                 f'///////////////////////////////////////////////////////////////////////////////',
             )
 
-        description_section = regex.sub('\n+$', '\n', self._content_info.description.content, regex.MULTILINE)
-        description_section = regex.sub('\n+', '\n// ', description_section)
+        description_section = ""
+        if self._content_info:
+            description_section = regex.sub('\n+$', '\n', self._content_info.description.content, regex.MULTILINE)
+            description_section = regex.sub('\n+', '\n// ', description_section)
+        else:
+            description_section = "This question is marked as premium question."
 
         return concat(
             f'// Copyright {TODAY.year} Naon Lu',
@@ -143,11 +153,11 @@ class CPPSoltuion:
             f'//',
             f'// {description_section}',
             f'',
-            f'LEETCODE_BEGIN_RESOLVING({self._id}, {self._cpp_slug}, {self._code_snippet.getClassName()});',
+            f'LEETCODE_BEGIN_RESOLVING({self._id}, {self._cpp_slug}, {class_name});',
             f'',
             f'' + solution_body,
             f'',
-            f'LEETCODE_END_RESOLVING({self._code_snippet.getClassName()});',
+            f'LEETCODE_END_RESOLVING({class_name});',
             f'',
             constrains_section,
             f'',

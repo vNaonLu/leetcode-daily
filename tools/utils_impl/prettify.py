@@ -44,8 +44,9 @@ def subscript(content: str):
 class __HTMLParser(_NativeHTMLParser):
     _INDENT = "  "
 
-    def __init__(self, *, convert_charrefs: bool = True) -> None:
+    def __init__(self, *, convert_charrefs: bool = True, show_raw_data: bool = False) -> None:
         super().__init__(convert_charrefs=convert_charrefs)
+        self.show_raw_data = show_raw_data
         self.buffer = ""
         self.current_tag: list[tuple[str, object]] = []
         self.relative_tag: list[str] = []
@@ -69,7 +70,8 @@ class __HTMLParser(_NativeHTMLParser):
         elif tag == 'code':
             if len(self.buffer) > 0 and not regex.match("[ \t\n]", self.buffer[-1]):
                 self.buffer += " "
-            self.buffer += "|"
+            if not self.show_raw_data:
+                self.buffer += "|"
 
     def handle_endtag(self, ctag):
         tag, attrs = self.current_tag.pop()
@@ -92,7 +94,7 @@ class __HTMLParser(_NativeHTMLParser):
                     self.buffer += '![img]({})'.format(val)
                     break
 
-        elif tag == 'code':
+        elif tag == 'code' and not self.show_raw_data:
             self.buffer += "|"
 
     def handle_data(self, data):
@@ -120,11 +122,11 @@ class __HTMLParser(_NativeHTMLParser):
             else:
                 data = repl
 
-        self.buffer += data
+        self.buffer += data.replace('\xa0', '')
 
 
-def parseHtml(content: str):
-    parser = __HTMLParser()
+def parseHtml(content: str, *, show_raw_data = False):
+    parser = __HTMLParser(show_raw_data=show_raw_data)
     parser.feed(content)
     return regex.sub('\n+', '\n', parser.buffer)
 

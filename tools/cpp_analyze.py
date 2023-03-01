@@ -82,11 +82,11 @@ class CPPCodeSnippetAnalyzer:
         code = regex.sub("\/\*[\w\W]*?\*\/", "", code)
         return code.strip()
 
-    _CLASS_PARSER = '^(?:class +(?P<classname>\w+) *{(?P<class_define>[\w\W]*)?};)$'
-    _TYPE_PARSER = '( *\w+ *(?:<[\w\W]*?>)?(?: *(?:[*&])* *)| +)?'
+    _CLASS_PARSER = '(?:class +(?P<classname>\w+) *(?:: *(?:private|public|protected)? *\w+(?:<[\w\W]*?>)? *)?{(?P<class_define>[\w\W]*)?};)'
+    _TYPE_PARSER = '( *(?:const *)?\w+ *(?:<[\w\W]*?>)?(?: *(?:[*&])+ *| +))'
     _FUNC_ARGS_PARSER = _TYPE_PARSER + '(\w+) *?,?'
-    _FUNC_PARSER =  _TYPE_PARSER + '(\w+) *\(((?:' + _TYPE_PARSER + '\w+ *,?)*)?\) *{(?:[^}]*)?}'
-    _CONSTRUCTOR_PARSER = ' *\(((?:' + _TYPE_PARSER + '\w+ *,?)*)?\) *{(?:[^}]*)?}'
+    _FUNC_PARSER =  _TYPE_PARSER + '(\w+) *\(((?:' + _TYPE_PARSER + '\w+ *,?)*)?\) *(?:(?:const)?(?: *noexcept)? *)?{(?:[^}]*)?}'
+    _CONSTRUCTOR_PARSER = ' *\(((?:' + _TYPE_PARSER + '\w+ *,?)*)?\) *(?:: *(?:private|public|protected)? *\w+(?:<[\w\W]*?>)? *\([\w\W]*?\) *)?{(?:[^}]*)?}'
 
     @staticmethod
     def parse(maybe_code_snippet: str):
@@ -95,6 +95,7 @@ class CPPCodeSnippetAnalyzer:
         result = _CPPCodeSnippetInformation()
         trimmed = maybe_code_snippet.strip()
         trimmed = CPPCodeSnippetAnalyzer._trimComment(trimmed)
+        trimmed = trimmed.replace('\xa0', '')
 
         LOG.funcVerbose("parse the code snippet:\n {}", trimmed)
         LOG.funcVerbose("            with regex: {}", CPPCodeSnippetAnalyzer._CLASS_PARSER)
@@ -117,11 +118,15 @@ class CPPCodeSnippetAnalyzer:
         constructor = class_block.name + CPPCodeSnippetAnalyzer._CONSTRUCTOR_PARSER
         LOG.funcVerbose("search for constructor with regex: {}", constructor)
         ctor_mat = regex.search(constructor, class_definition)
-        if ctor_mat:
+        if ctor_mat or class_block.name != "Solution":
             result.type = CPPCodeSnippetAnalyzer.TYPE_STRUCTURED
-            args = ctor_mat.group(1).strip()
-            LOG.funcVerbose("found a constructor, treat it as a structured solution.")
-            LOG.funcVerbose("          constructor: {}", ctor_mat)
+            args = ""
+            if ctor_mat:
+                args = ctor_mat.group(1).strip()
+                LOG.funcVerbose("found a constructor, treat it as a structured solution.")
+                LOG.funcVerbose("          constructor: {}", ctor_mat)
+            else:
+                LOG.funcVerbose("constructor not found while class name is not |Solution|, treat it as a structured solution.")
             LOG.funcVerbose("             its args: {}", args)
             f = _CPPCodeSnippetInformation._CPPSolutionFunction(func_name=class_block.name,
                                                                 return_type=None)
