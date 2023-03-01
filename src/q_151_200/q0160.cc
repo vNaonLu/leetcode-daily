@@ -102,7 +102,13 @@ LEETCODE_END_RESOLVING(Solution);
 // point to the same location in memory.
 
 LEETCODE_SOLUTION_UNITTEST(160, IntersectionOfTwoLinkedLists, example_1) {
-  GTEST_SKIP() << "Unittest Not Implemented";
+  auto      solution       = MakeSolution();
+  ListNode *headA          = ListNode::FromVector({4, 1, 8, 4, 5});
+  ListNode *headB          = ListNode::FromVector({5, 6, 1});
+  ListNode *expect         = headA->GetChild(2);
+  headB->GetChild(2)->next = expect;
+  ListNode *actual         = solution->getIntersectionNode(headA, headB);
+  LCD_EXPECT_EQ(expect, actual);
 }
 
 // [Example #2]
@@ -116,7 +122,13 @@ LEETCODE_SOLUTION_UNITTEST(160, IntersectionOfTwoLinkedLists, example_1) {
 // A; There are 1 node before the intersected node in B.
 
 LEETCODE_SOLUTION_UNITTEST(160, IntersectionOfTwoLinkedLists, example_2) {
-  GTEST_SKIP() << "Unittest Not Implemented";
+  auto      solution       = MakeSolution();
+  ListNode *headA          = ListNode::FromVector({1, 9, 1, 2, 4});
+  ListNode *headB          = ListNode::FromVector({3});
+  ListNode *expect         = headA->GetChild(3);
+  headB->GetChild(0)->next = expect;
+  ListNode *actual         = solution->getIntersectionNode(headA, headB);
+  LCD_EXPECT_EQ(expect, actual);
 }
 
 // [Example #3]
@@ -130,5 +142,10 @@ LEETCODE_SOLUTION_UNITTEST(160, IntersectionOfTwoLinkedLists, example_2) {
 // intersect, so return null.
 
 LEETCODE_SOLUTION_UNITTEST(160, IntersectionOfTwoLinkedLists, example_3) {
-  GTEST_SKIP() << "Unittest Not Implemented";
+  auto      solution = MakeSolution();
+  ListNode *headA    = ListNode::FromVector({2, 6, 3});
+  ListNode *headB    = ListNode::FromVector({1, 5});
+  ListNode *expect   = nullptr;
+  ListNode *actual   = solution->getIntersectionNode(headA, headB);
+  LCD_EXPECT_EQ(expect, actual);
 }
