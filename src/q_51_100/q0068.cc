@@ -137,7 +137,14 @@ LEETCODE_END_RESOLVING(Solution);
 //
 
 LEETCODE_SOLUTION_UNITTEST(68, TextJustification, example_1) {
-  GTEST_SKIP() << "Unittest Not Implemented";
+  auto           solution = MakeSolution();
+  vector<string> words = {"This",          "is", "an", "example", "of", "text",
+                          "justification."};
+  int            maxWidth = 16;
+  vector<string> expect   = {"This    is    an", "example  of text",
+                             "justification.  "};
+  vector<string> actual   = solution->fullJustify(words, maxWidth);
+  LCD_EXPECT_EQ(expect, actual);
 }
 
 // [Example #2]
@@ -154,7 +161,14 @@ LEETCODE_SOLUTION_UNITTEST(68, TextJustification, example_1) {
 // second line is also left-justified because it contains only one word.
 
 LEETCODE_SOLUTION_UNITTEST(68, TextJustification, example_2) {
-  GTEST_SKIP() << "Unittest Not Implemented";
+  auto           solution = MakeSolution();
+  vector<string> words    = {"What",           "must",  "be",
+                             "acknowledgment", "shall", "be"};
+  int            maxWidth = 16;
+  vector<string> expect   = {"What   must   be", "acknowledgment  ",
+                             "shall be        "};
+  vector<string> actual   = solution->fullJustify(words, maxWidth);
+  LCD_EXPECT_EQ(expect, actual);
 }
 
 // [Example #3]
@@ -172,5 +186,15 @@ LEETCODE_SOLUTION_UNITTEST(68, TextJustification, example_2) {
 //
 
 LEETCODE_SOLUTION_UNITTEST(68, TextJustification, example_3) {
-  GTEST_SKIP() << "Unittest Not Implemented";
+  auto           solution = MakeSolution();
+  vector<string> words    = {
+      "Science", "is", "what",       "we",   "understand", "well",
+      "enough",  "to", "explain",    "to",   "a",          "computer.",
+      "Art",     "is", "everything", "else", "we",         "do"};
+  int            maxWidth = 20;
+  vector<string> expect   = {"Science  is  what we", "understand      well",
+                             "enough to explain to", "a  computer.  Art is",
+                             "everything  else  we", "do                  "};
+  vector<string> actual   = solution->fullJustify(words, maxWidth);
+  LCD_EXPECT_EQ(expect, actual);
 }
