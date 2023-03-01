@@ -86,7 +86,15 @@ LEETCODE_END_RESOLVING(Solution);
 // The LCA of nodes 5 and 1 is 3.
 
 LEETCODE_SOLUTION_UNITTEST(236, LowestCommonAncestorOfABinaryTree, example_1) {
-  GTEST_SKIP() << "Unittest Not Implemented";
+  auto      solution = MakeSolution();
+  TreeNode *root =
+      TreeNode::FromVector({3, 5, 1, 6, 2, 0, 8, null, null, 7, 4});
+  TreeNode *p      = root->GetChild(1);
+  TreeNode *q      = root->GetChild(6);
+  TreeNode *expect = root->GetChild(0);
+  TreeNode *actual = solution->lowestCommonAncestor(root, p, q);
+  LCD_EXPECT_EQ(expect, actual);
+  TreeNode::Release(root, p, q, expect, actual);
 }
 
 // [Example #2]
@@ -97,7 +105,15 @@ LEETCODE_SOLUTION_UNITTEST(236, LowestCommonAncestorOfABinaryTree, example_1) {
 // according to the LCA definition.
 
 LEETCODE_SOLUTION_UNITTEST(236, LowestCommonAncestorOfABinaryTree, example_2) {
-  GTEST_SKIP() << "Unittest Not Implemented";
+  auto      solution = MakeSolution();
+  TreeNode *root =
+      TreeNode::FromVector({3, 5, 1, 6, 2, 0, 8, null, null, 7, 4});
+  TreeNode *p      = root->GetChild(1);
+  TreeNode *q      = root->GetChild(5);
+  TreeNode *expect = root->GetChild(1);
+  TreeNode *actual = solution->lowestCommonAncestor(root, p, q);
+  LCD_EXPECT_EQ(expect, actual);
+  TreeNode::Release(root, p, q, expect, actual);
 }
 
 // [Example #3]
@@ -106,5 +122,12 @@ LEETCODE_SOLUTION_UNITTEST(236, LowestCommonAncestorOfABinaryTree, example_2) {
 //
 
 LEETCODE_SOLUTION_UNITTEST(236, LowestCommonAncestorOfABinaryTree, example_3) {
-  GTEST_SKIP() << "Unittest Not Implemented";
+  auto      solution = MakeSolution();
+  TreeNode *root     = TreeNode::FromVector({1, 2});
+  TreeNode *p      = root->GetChild(0);
+  TreeNode *q      = root->GetChild(1);
+  TreeNode *expect = root->GetChild(0);
+  TreeNode *actual = solution->lowestCommonAncestor(root, p, q);
+  LCD_EXPECT_EQ(expect, actual);
+  TreeNode::Release(root, p, q, expect, actual);
 }
