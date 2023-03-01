@@ -100,7 +100,6 @@ LEETCODE_END_RESOLVING(RandomizedSet);
 // getRandom() will always return 2.
 
 LEETCODE_SOLUTION_UNITTEST(380, InsertDeleteGetRandomO1, example_1) {
-  GTEST_SKIP() << "Random Output";
   auto randomized_set = MakeRandomizedSet();
   int  s1_val         = 1;
   bool s1_expect      = true;
@@ -114,9 +113,8 @@ LEETCODE_SOLUTION_UNITTEST(380, InsertDeleteGetRandomO1, example_1) {
   bool s3_expect = true;
   bool s3_actual = randomized_set->insert(s3_val);
   LCD_EXPECT_EQ(s3_expect, s3_actual);
-  int s4_expect = 2;
   int s4_actual = randomized_set->getRandom();
-  LCD_EXPECT_EQ(s4_expect, s4_actual);
+  EXPECT_TRUE(s4_actual == 1 || s4_actual == 2);
   int  s5_val    = 1;
   bool s5_expect = true;
   bool s5_actual = randomized_set->remove(s5_val);
