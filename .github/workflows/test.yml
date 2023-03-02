@@ -18,14 +18,14 @@ jobs:
       - name: Generate Build Files.
         shell: bash
         env:
-          CXX:  clang-14
+          CXX:  g++-12
         run: |
           cmake . -DENABLE_LEETCODE_TEST=ON -DENABLE_INFRA_TEST=ON
 
       - name: Build Infrastructure and Solutions Unittests.
         shell: bash
         env:
-          CXX:  clang-14
+          CXX:  g++-12
         run: |
           cmake --build . -j8
 
