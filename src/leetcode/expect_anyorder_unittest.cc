@@ -44,10 +44,10 @@ TEST(ExpectAnyOrder, Depth0) {
   EXPECT_ANYORDER_EQ(expect_list, actual_list);
   EXPECT_ANYORDER_EQ(expect_tree, actual_tree);
 
-  ListNode::Release(expect_list.begin(), expect_list.end());
-  ListNode::Release(actual_list.begin(), actual_list.end());
-  TreeNode::Release(expect_tree.begin(), expect_tree.end());
-  TreeNode::Release(actual_tree.begin(), actual_tree.end());
+  ListNode::ReleaseRange(expect_list.begin(), expect_list.end());
+  ListNode::ReleaseRange(actual_list.begin(), actual_list.end());
+  TreeNode::ReleaseRange(expect_tree.begin(), expect_tree.end());
+  TreeNode::ReleaseRange(actual_tree.begin(), actual_tree.end());
   EXPECT_EQ(ListNode::CheckRemainRefs(), 0);
   EXPECT_EQ(TreeNode::CheckRemainRefs(), 0);
 }

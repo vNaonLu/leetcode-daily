@@ -261,8 +261,8 @@ TEST_F(ListNodeTest, ReleaseAll) {
   l2_loop->next = l2;
   auto *l3 = new ListNode(1, new ListNode(2, l3_loop));
   l3_loop->next = l3;
-  auto *l4 = ListNode::FromVector({1, 2, 3}, 0);
-  ListNode *l5 = nullptr;
+  [[maybe_unused]] auto *l4 = ListNode::FromVector({1, 2, 3}, 0);
+  [[maybe_unused]] ListNode *l5 = nullptr;
 
   ListNode::ReleaseAll();
   LCD_EXPECT_EQ(ListNode::CheckRemainRefs(), 0);

@@ -55,7 +55,7 @@ ListNode *ListNode::FromVector(const std::vector<int32_t> &args,
   }
 
   if (repeat_to) {
-    assert(repeat_to.value() < nodes.size());
+    assert(static_cast<size_t>(repeat_to.value()) < nodes.size());
     nodes.back()->next = nodes[repeat_to.value()];
   }
 
@@ -65,7 +65,6 @@ ListNode *ListNode::FromVector(const std::vector<int32_t> &args,
 ListNode *ListNode::GetChild(size_t idx) noexcept {
   std::unordered_set<ListNode *> avoid_dup;
   auto                          *ptr       = this;
-  bool                           is_repeat = false;
   while (ptr && idx--) {
     if (!avoid_dup.emplace(ptr).second) {
       return nullptr;

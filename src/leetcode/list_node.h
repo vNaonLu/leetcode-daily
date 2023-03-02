@@ -22,8 +22,8 @@ public:
   ~ListNode() override;
 
 public:
-  ListNode *next;
   int32_t   val;
+  ListNode *next;
 
 public:
   void                    Reset() noexcept;

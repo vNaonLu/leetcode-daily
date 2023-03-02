@@ -196,13 +196,13 @@ TEST_F(TreeNodeTest, LiteralSerialization) {
 }
 
 TEST_F(TreeNodeTest, ReleaseAll) {
-  auto *l1 =
+  [[maybe_unused]] auto *l1 =
       new TreeNode(1, new TreeNode(2, new TreeNode(3), nullptr), nullptr);
-  auto *l2 =
+  [[maybe_unused]] auto *l2 =
       new TreeNode(1, new TreeNode(2, new TreeNode(3), nullptr), nullptr);
-  auto *l3 =
+  [[maybe_unused]] auto *l3 =
       new TreeNode(1, new TreeNode(2, new TreeNode(4), nullptr), nullptr);
-  auto *l4 = TreeNode::FromVector({1, 2, null, 3});
+  [[maybe_unused]] auto *l4 = TreeNode::FromVector({1, 2, null, 3});
 
   TreeNode::ReleaseAll();
   LCD_EXPECT_EQ(TreeNode::CheckRemainRefs(), 0);

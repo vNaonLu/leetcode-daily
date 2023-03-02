@@ -63,7 +63,7 @@ private:
 
   void add(int key, int value) {
     remove(key);
-    if (memos.size() == cap) {
+    if (memos.size() == static_cast<size_t>(cap)) {
       remove(cache.back().first);
     }
     cache.emplace_front(key, value);
