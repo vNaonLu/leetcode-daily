@@ -31,7 +31,7 @@ jobs:
 
       - name: Run Infrastructure Unittests.
         run: |
-          ./infra_test
+          ./leetcode_helper_test
 
       - name: Run Leetcode Solution Unittests.
         run: |
