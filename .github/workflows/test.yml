@@ -27,7 +27,7 @@ jobs:
         env:
           CXX:  g++-12
         run: |
-          cmake --build . -j8
+          cmake --build . -j4
 
       - name: Run Infrastructure Unittests.
         run: |

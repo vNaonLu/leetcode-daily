@@ -64,7 +64,7 @@ private:
     for (int i = 0; i < words.size(); ++i) {
       const auto &s = words[i];
       for (int j = 0; j < s.size(); ++j) {
-        string tmp = s.substr(j) + "[" + s;
+        string tmp = s.substr(j) + "{" + s;
         build_trie(memo.get(), i, tmp.begin(), tmp.end());
       }
     }
@@ -85,7 +85,7 @@ public:
   }
 
   int f(string pre, string suf) {
-    string key = suf + "[" + pre;
+    string key = suf + "{" + pre;
     auto   res = match(memo.get(), key.begin(), key.end());
 
     return res == nullptr ? -1 : res->index;
