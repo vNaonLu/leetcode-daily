@@ -1,6 +1,6 @@
 # Solved Solutions List
 
-This document contains **893** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
+This document contains **894** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
 
 Some questions which are still being resolved are not shown in this page, more information about unsolved questions can be found at [docs/unsolved_solutions.md](./unsolved_solutions.md).
 
@@ -315,6 +315,7 @@ Some questions which are still being resolved are not shown in this page, more i
 |438|[Find All Anagrams in a String](https://leetcode.com/problems/find-all-anagrams-in-a-string/)|[src/q_401_450/q0438.cc](../src/q_401_450/q0438.cc)|2021/09/23 08:00|
 |441|[Arranging Coins](https://leetcode.com/problems/arranging-coins/)|[src/q_401_450/q0441.cc](../src/q_401_450/q0441.cc)|2021/11/05 18:21|
 |442|[Find All Duplicates in an Array](https://leetcode.com/problems/find-all-duplicates-in-an-array/)|[src/q_401_450/q0442.cc](../src/q_401_450/q0442.cc)|2021/10/06 12:29|
+|443|[String Compression](https://leetcode.com/problems/string-compression/)|[src/q_401_450/q0443.cc](../src/q_401_450/q0443.cc)|2023/03/02 20:03|
 |445|[Add Two Numbers II](https://leetcode.com/problems/add-two-numbers-ii/)|[src/q_401_450/q0445.cc](../src/q_401_450/q0445.cc)|2022/05/10 19:27|
 |446|[Arithmetic Slices II - Subsequence](https://leetcode.com/problems/arithmetic-slices-ii-subsequence/)|[src/q_401_450/q0446.cc](../src/q_401_450/q0446.cc)|2021/09/10 08:00|
 |448|[Find All Numbers Disappeared in an Array](https://leetcode.com/problems/find-all-numbers-disappeared-in-an-array/)|[src/q_401_450/q0448.cc](../src/q_401_450/q0448.cc)|2021/11/18 18:27|
