@@ -136,7 +136,7 @@ def _addProcess(*,
 
     test_passed = False
     while not test_passed:
-        test_passed = ldtBuildImpl(build_path=build_path) == 0 and \
+        test_passed = ldtBuildImpl(build_path=build_path, build_args="-j8") == 0 and \
             ldtRunImpl(build_path=build_path, infra_test=False, ids=[ID]) == 0
 
         if test_passed:
@@ -276,6 +276,7 @@ def _getComplexityInformation(id: int, snippets: str):
     )
 )
 def ldtAdd(args: object):
+    PMT = prompt.Prompt.getInstance()
     LOG = prompt.Log.getInstance(verbose=getattr(args, "verbose"))
     ARG_SRC_PATH = Path(getattr(args, "src_path")).resolve()
     ARG_BUILD_PATH = Path(getattr(args, "build_path")).resolve()
@@ -333,8 +334,9 @@ def ldtAdd(args: object):
                            without_update=ARG_WITHOUT_UPDATE_FLAG,
                            without_commit=ARG_WITHOUT_COMMIT_FLAG):
             LOG.failure("abort adding the solution #{}.", LOG.format(id, flag=LOG.HIGHTLIGHT))
-            solution_file.unlink()
-            LOG.log("remove the file: {}", LOG.format(solution_file, LOG.HIGHTLIGHT))
+            if PMT.ask("remove the solution #{}?", LOG.format(id, flag=LOG.HIGHTLIGHT)):
+                solution_file.unlink()
+                LOG.log("remove the file: {}", LOG.format(solution_file, LOG.HIGHTLIGHT))
             continue
         LOG.success("the solution #{} added successfully.",
                     LOG.format(id, flag=LOG.HIGHTLIGHT))
