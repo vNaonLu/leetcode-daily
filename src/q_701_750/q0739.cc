@@ -34,7 +34,6 @@ public:
   vector<int> dailyTemperatures(vector<int> &temperatures) {
     vector<int> res(temperatures.size(), 0);
     stack<int>  stack;
-    int         wait = 1;
     for (int i = 0; i < temperatures.size(); ++i) {
       int cur = temperatures[i];
       while (!stack.empty() && temperatures[stack.top()] < cur) {

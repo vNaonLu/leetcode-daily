@@ -53,7 +53,8 @@ public:
       } else if (dominoes[i] == 'L') {
         fs = 0;
       } else {
-        fs = max(0, --fs);
+        --fs;
+        fs = max(0, fs);
       }
       f[i] += fs;
     }
@@ -64,7 +65,8 @@ public:
       } else if (dominoes[i] == 'R') {
         fs = 0;
       } else {
-        fs = max(0, --fs);
+        --fs;
+        fs = max(0, fs);
       }
       f[i] -= fs;
     }

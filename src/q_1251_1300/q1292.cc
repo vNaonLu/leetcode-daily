@@ -68,7 +68,6 @@ public:
     }
 
     int lo = 0, hi = min(m, n);
-    int res = 0;
     while (lo + 1 < hi) {
       int mid = lo + (hi - lo) / 2;
       if (helper(mid, threshold)) {

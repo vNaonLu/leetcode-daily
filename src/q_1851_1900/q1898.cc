@@ -43,7 +43,6 @@ private:
     for (int i = 0; i < mid; ++i) {
       s[rm[i]] = ' ';
     }
-    int  j   = 0;
     auto it  = s.begin();
     auto pit = p.begin();
     while (it != s.end() && pit != p.end()) {

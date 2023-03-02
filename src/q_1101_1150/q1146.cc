@@ -40,8 +40,8 @@ LEETCODE_BEGIN_RESOLVING(1146, SnapshotArray, SnapshotArray);
 
 class SnapshotArray {
 private:
-  int                   snap_idx = 0;
   vector<map<int, int>> data;
+  int                   snap_idx = 0;
 
 public:
   SnapshotArray(int length)

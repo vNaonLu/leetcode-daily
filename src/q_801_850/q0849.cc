@@ -40,7 +40,7 @@ public:
       if (seats[i] == 1) {
         left = i;
       } else {
-        while (right < seats.size() && seats[right] == 0 || right < i)
+        while ((right < seats.size() && seats[right] == 0) || (right < i))
           ++right;
         res = max(res,
                   min((left == -1 ? std::numeric_limits<int>::max() : i - left),

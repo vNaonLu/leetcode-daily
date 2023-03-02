@@ -34,7 +34,6 @@ class Solution {
 public:
   vector<int> twoSum(vector<int> &nums, int target) {
     auto memo = unordered_map<int, int>();
-    auto i    = (int)0;
     for (int i = 0; i < nums.size(); ++i) {
       auto find = memo.find(target - nums[i]);
       if (find != memo.end()) {

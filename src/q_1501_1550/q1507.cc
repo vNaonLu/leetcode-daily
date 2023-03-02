@@ -75,7 +75,7 @@ public:
     auto year  = date.substr(suffix_pos + 7, 4);
 
     char res[20];
-    sprintf(res, "%s-%02d-%02d", year.c_str(), month, day);
+    snprintf(res, 20, "%s-%02d-%02d", year.c_str(), month, day);
     return res;
   }
 };

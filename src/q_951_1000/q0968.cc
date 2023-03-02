@@ -38,7 +38,7 @@ private:
       helper(p->left, p, memo, res);
       helper(p->right, p, memo, res);
 
-      if (nullptr == prev && !memo.count(p) || !memo.count(p->left) ||
+      if ((nullptr == prev && !memo.count(p)) || !memo.count(p->left) ||
           !memo.count(p->right)) {
         ++res;
         memo.insert(p);

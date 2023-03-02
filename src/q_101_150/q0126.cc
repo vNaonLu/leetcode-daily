@@ -87,7 +87,7 @@ private:
     }
   };
 
-  void bfs(string &a, string &b, map<string, vector<string>> &parent, Trie &s) {
+  void bfs(string &a, map<string, vector<string>> &parent, Trie &s) {
     map<string, int> dis;
     dis[a]            = 1;
     deque<string> que = {a};
@@ -142,7 +142,7 @@ public:
       s.insert(i);
     }
     map<string, vector<string>> parent;
-    bfs(start, end, parent, s);
+    bfs(start, parent, s);
     if (parent.count(end) == 0) {
       return {};
     }

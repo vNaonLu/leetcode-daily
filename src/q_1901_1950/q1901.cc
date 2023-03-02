@@ -35,7 +35,6 @@ class Solution {
 public:
   vector<int> findPeakGrid(vector<vector<int>> &mat) {
     auto m  = mat.size();
-    auto n  = mat.front().size();
     int  lo = 0, hi = m - 1;
 
     while (lo <= hi) {

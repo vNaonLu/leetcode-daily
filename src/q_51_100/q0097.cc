@@ -55,8 +55,8 @@ public:
         } else if (j == 0) {
           dp[j] = dp[j] && s1[i - 1] == s3[i + j - 1];
         } else {
-          dp[j] = (dp[j] && s1[i - 1] == s3[i + j - 1] ||
-                   dp[j - 1] && s2[j - 1] == s3[i + j - 1]);
+          dp[j] = ((dp[j] && s1[i - 1] == s3[i + j - 1]) ||
+                   (dp[j - 1] && s2[j - 1] == s3[i + j - 1]));
         }
       }
     }

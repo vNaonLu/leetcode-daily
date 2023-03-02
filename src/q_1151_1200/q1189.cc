@@ -53,7 +53,7 @@ public:
       }
     }
     int res = text.size();
-    for (const auto [a, b] : cnt) {
+    for (const auto &[a, b] : cnt) {
       res = min(b / tar[a], res);
     }
     return res;

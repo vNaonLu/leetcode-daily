@@ -34,7 +34,7 @@ LEETCODE_BEGIN_RESOLVING(1007, MinimumDominoRotationsForEqualRow, Solution);
 class Solution {
 public:
   int minDominoRotations(vector<int> &tops, vector<int> &bottoms) {
-    int res = numeric_limits<int>::max(), n = tops.size();
+    int res = numeric_limits<int>::max();
     for (int i = 1; i <= 6; ++i) {
       int  top_cnt = 0, bottom_cnt = 0;
       auto top_it = tops.begin(), bottom_it = bottoms.begin();

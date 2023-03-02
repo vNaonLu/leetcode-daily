@@ -37,7 +37,7 @@ public:
       uniq_intv.insert({intv[1], intv[0]});
     int res = intervals.size();
     int end = numeric_limits<int>::min();
-    for (const auto intv : uniq_intv) {
+    for (const auto &intv : uniq_intv) {
       if (intv.second >= end || intv.first < end) {
         --res;
         end = intv.first;

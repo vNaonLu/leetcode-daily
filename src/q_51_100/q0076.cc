@@ -43,7 +43,6 @@ private:
 
 public:
   string minWindow(string s, string t) {
-    auto sv     = string_view(s);
     auto target = count(t.begin(), t.end());
     auto left   = s.begin();
     auto beg    = s.begin();

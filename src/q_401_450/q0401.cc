@@ -9,6 +9,7 @@
 // Difficult  : Easy
 // Solve Date : 2022/08/15 18:05
 
+#include <bitset>
 #include <iosfwd>
 #include <set>
 #include <string>

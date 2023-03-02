@@ -43,7 +43,7 @@ public:
       if (isdigit(c))
         cur = cur * 10 + (c - '0');
 
-      if (!isdigit(c) && !iswspace(c) || i == s.size() - 1) {
+      if ((!isdigit(c) && !iswspace(c)) || (i == s.size() - 1)) {
         switch (prev_op) {
         case '+':
           nums.emplace(cur);

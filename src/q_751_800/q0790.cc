@@ -34,7 +34,6 @@ LEETCODE_BEGIN_RESOLVING(790, DominoAndTrominoTiling, Solution);
 class Solution {
 public:
   int numTilings(int n) {
-    uint32_t         _module = (1 << 9) + 7;
     vector<uint32_t> dp(1001, 0);
     dp[1] = 1;
     dp[2] = 2;

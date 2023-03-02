@@ -54,8 +54,8 @@ LEETCODE_BEGIN_RESOLVING(707, DesignLinkedList, MyLinkedList);
 class MyLinkedList {
 private:
   struct node {
-    int   val;
     node *next;
+    int   val;
     node(int val) : next(nullptr), val(val) {}
   }     *m_node;
   size_t m_size;

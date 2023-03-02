@@ -38,7 +38,7 @@ public:
     vector<int> res = nums;
     for (int i = 1; i < res.size() - 1; ++i) {
       int x = res[i - 1], y = res[i], z = res[i + 1];
-      if (x < y && y < z || x > y && y > z) {
+      if ((x < y && y < z) || (x > y && y > z)) {
         swap(res[i], res[i + 1]);
       }
     }

@@ -68,7 +68,6 @@ public:
       for (int j = 0; j < n; ++j) {
         if (i > 0 && i < m - 1 && j > 0 && j < n - 1 && board[i][j] == 'O' &&
             !visit[i][j]) {
-          int                    beg = 0;
           vector<pair<int, int>> path;
           path.emplace_back(i, j);
           if (isSurreounded(board, path)) {
