@@ -146,12 +146,11 @@ def _addProcess(*,
                       flag=LOG.DARK_GREEN)
             if not PMT.ask("was the solution accepted by LeetCode?"):
                 test_passed = False
-        else:
-            if not PMT.ask("the solution #{} failed to pass the testcases, continue to solve?",
-                       LOG.format(ID, flag=LOG.HIGHTLIGHT)):
-                return False
 
         if not test_passed:
+            if not PMT.ask("the solution #{} failed to pass, continue to solve?",
+                       LOG.format(ID, flag=LOG.HIGHTLIGHT)):
+                return False
             openEditor(solution_file)
 
     resolve = _addResolveLogs(solution_file=solution_file,
