@@ -15,19 +15,25 @@ jobs:
     steps:
       - uses: actions/checkout@v3
 
-      - name: Configure CMakeLists.txt
+      - name: Generate Build Files.
+        shell: bash
+        env:
+          CXX:  clang-14
         run: |
           cmake . -DENABLE_LEETCODE_TEST=ON -DENABLE_INFRA_TEST=ON
 
-      - name: Build Source
+      - name: Build Infrastructure and Solutions Unittests.
+        shell: bash
+        env:
+          CXX:  clang-14
         run: |
           cmake --build . -j8
 
-      - name: Run Infra Test
+      - name: Run Infrastructure Unittests.
         run: |
           ./infra_test
 
-      - name: Run Leetcode Test
+      - name: Run Leetcode Solution Unittests.
         run: |
           ./leetcode_test
 
