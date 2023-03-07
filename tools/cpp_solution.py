@@ -75,6 +75,12 @@ class CPPSolution:
                                                        time.localtime(self._timestamp))),
             delimiter=f'\n{prefix}')
 
+    def genExtraInputPrompt(self, *, id: int, title: str):
+        return self._code_snippet.genExtraInputPrompt(id=id, title=title)
+
+    def parseExtraInput(self, input: str) -> tuple[str, str]:
+        return self._code_snippet.parseExtraInput(input)
+
     def getUnitTest(self, *, name: str, suite_name: str, input: str, output: str, explanation: str = None):
         explanation_str = ""
         if explanation and explanation != "":
@@ -115,7 +121,7 @@ class CPPSolution:
     def solutionTemplate(self) -> str:
         solution_body = self._existed_solution or (
             self._code_snippet and self._code_snippet.solutionDefine()) or ""
-        
+
         class_name = "Solution"
         if self._code_snippet:
             class_name = self._code_snippet.getClassName()
@@ -187,3 +193,11 @@ if __name__ == "__main__":
     raw_content = json.loads(resp.content.decode('utf-8'))['data']['question']
     cpp_solution = CPPSolution(raw_content)
     LOG.print(clangFormat(cpp_solution.solutionTemplate()))
+
+    inp = inputByEditor(cpp_solution.genExtraInputPrompt(id=1, title="TwoSum"))
+    input, expect = cpp_solution.parseExtraInput(inp)
+    LOG.log(f'{input}, {expect}')
+
+    if input and expect:
+        LOG.print(cpp_solution.getUnitTest(name="Sample",
+                suite_name="input_1", input=input, output=expect))

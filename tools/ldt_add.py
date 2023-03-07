@@ -14,7 +14,42 @@ import net
 import cli
 
 
-def _addSolutionImpl(*, questions_list: QuestionsList, solution_file: SolutionFile, no_testcases: bool):
+def _getComplexityInformation(id: int, snippets: str):
+    init_msg = [
+        f'# time complexity in the first line:',
+        f'# O(',
+        f'',
+        f'# )',
+        f'',
+        f'# space complexity in the second line:',
+        f'# O(',
+        f'',
+        f'# )',
+        f'',
+        f'# notes in third line if necessary:',
+        f'',
+        f'',
+        f'# please enter the complexities information for the solution #{id}.',
+        f'# lines starting with \'#\' will be ignored.',
+        f'# the solution is as follows',
+        '# {}'.format(snippets.replace('\n', '\n# '))
+    ]
+    user_input = inputByEditor('\n'.join(init_msg))
+    input_lines = user_input.splitlines()
+    if len(input_lines) > 2:
+        complexities = []
+        for line in input_lines:
+            line = line.strip()
+            if len(line) > 0 and line[0] != "#":
+                complexities.append(line)
+        if len(complexities) == 2:
+            return complexities[0], complexities[1], ""
+        if len(complexities) == 3:
+            return complexities[0], complexities[1], complexities[2]
+    return "-", "-", ""
+
+
+def _getCPPSolution(*, questions_list: QuestionsList, solution_file: SolutionFile, no_testcases: bool):
     LOG = prompt.Log.getInstance()
     id = solution_file.id()
 
@@ -23,7 +58,7 @@ def _addSolutionImpl(*, questions_list: QuestionsList, solution_file: SolutionFi
         LOG.failure("there exists no detail for question #{} in questions list. "
                     "please update the questions list first.",
                     LOG.format(id, flag=LOG.HIGHTLIGHT))
-        return False
+        return None
         
     raw_content: object = None
     slug = questions_list[id].slug
@@ -52,7 +87,7 @@ def _addSolutionImpl(*, questions_list: QuestionsList, solution_file: SolutionFi
         cpp_solution = CPPSolution(raw_content)
     except Exception as _:
         LOG.failure("caught exception when generating the C++ template.")
-        return False
+        return None
 
     gen_task = LOG.createTaskLog(f"Generate Template for Solution #{id}")
     gen_task.begin("generating the solution template: {}",
@@ -71,7 +106,7 @@ def _addSolutionImpl(*, questions_list: QuestionsList, solution_file: SolutionFi
     LOG.success("saved the solution file for question #{}: {}",
                 LOG.format(id, flag=LOG.HIGHTLIGHT),
                 LOG.format(solution_file, flag=LOG.HIGHTLIGHT))
-    return True
+    return cpp_solution
 
 
 def _addResolveLogs(*, solution_file: SolutionFile, resolve_logs: ResolveLogsFile, id: int, timestamp: int):
@@ -112,9 +147,11 @@ def _addProcess(*,
     ADD_TIME = int(time.time())
     ID = solution_file.id()
 
-    if not _addSolutionImpl(questions_list=questions_list,
-                            solution_file=solution_file,
-                            no_testcases=without_testcase):
+    cpp_solution = _getCPPSolution(questions_list=questions_list,
+                                   solution_file=solution_file,
+                                   no_testcases=without_testcase)
+
+    if not cpp_solution:
         return False
 
     openEditor(solution_file)
@@ -195,40 +232,6 @@ def _addProcess(*,
                     LOG.format(commit_msg, flag=LOG.IMPORTANT))
 
     return True
-
-
-def _getComplexityInformation(id: int, snippets: str):
-    init_msg = [
-        f'# The Solution #{id} requires complexities information.',
-        f'# Time complexity in the first line:',
-        f'# O(',
-        f'',
-        f'# )',
-        f'',
-        f'# Space complexity in the second line:',
-        f'# O(',
-        f'',
-        f'# )',
-        f'',
-        f'# Notes in third line if necessary:',
-        f'',
-        f'',
-        f'# The solution is as follows',
-        '# {}'.format(snippets.replace('\n', '\n# '))
-    ]
-    user_input = inputByEditor('\n'.join(init_msg))
-    input_lines = user_input.splitlines()
-    if len(input_lines) > 2:
-        complexities = []
-        for line in input_lines:
-            line = line.strip()
-            if len(line) > 0 and line[0] != "#":
-                complexities.append(line)
-        if len(complexities) == 2:
-            return complexities[0], complexities[1], ""
-        if len(complexities) == 3:
-            return complexities[0], complexities[1], complexities[2]
-    return "-", "-", ""
 
 
 @cli.command(

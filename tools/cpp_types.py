@@ -119,7 +119,7 @@ class CPPTypeInt(CPPTypeValid):
     @staticmethod
     def deduceType(type_name: str):
         mat = regex.match(
-            "^(?:u?int(?:(?:8|16|32|64)_t)?|(?:unsigned )?(long )?(?:long|int))$", type_name)
+            "^(?:u?int(?:(?:8|16|32|64)_t)?|(?:unsigned +)?(?:long +)?(?:long|int))$", type_name)
         return (mat and mat.group(0)) or None
 
     def __init__(self, type_name: str):

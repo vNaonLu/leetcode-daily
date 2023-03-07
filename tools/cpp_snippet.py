@@ -29,6 +29,12 @@ class _UnitTestFlavor:
     def genUnitTestSnippet(self, *, variable_prefix: str = ""):
         return ""
 
+    def parseExtraInput(self, input: str) -> tuple[str, str]:
+        return None, None
+
+    def genExtraInputPrompt(self, *, id: int, title: str):
+        return ""
+
     def getHeaders(self):
         res: set[str] = set()
         for tp in self._function.arg_types.values():
@@ -90,6 +96,39 @@ class _UnitTestRegularFlavor(_UnitTestFlavor):
     def clear(self):
         self._inputs = None
         self._output = None
+
+    def _verifyExtraInput(self, input: str, output: str):
+        LOG = prompt.Log.getInstance()
+
+        input_str = ""
+        output_str = ""
+        input = input.replace('\xa0', '')
+        LOG.funcVerbose("parse the input: {}", input)
+        for name in self._function.input_args:
+            tp = self._function.arg_types[name]
+            reg = f'{name}[ \\n]*=[ \\n]*({tp.evaluateInputRegex()[1:-1]})'
+            LOG.funcVerbose("     with regex: {}", reg)
+            mat = regex.search(reg, input)
+            if not mat:
+                LOG.failure("falied to parse input: {}", repr(input))
+                return None, None
+            LOG.funcVerbose("    found value: {}", mat.group(1))
+            input_str += f'{name} = {mat.group(1)}, '
+
+        input_str = input_str[:-2]
+
+        output = output.replace('\xa0', '')
+        reg = self._return_type.evaluateInputRegex()[1:-1]
+        LOG.funcVerbose("parse the output: {}", output)
+        LOG.funcVerbose("      with regex: {}", reg)
+        mat = regex.search(reg, output)
+        if not mat:
+            LOG.failure("falied to parse output: {}", output)
+            return None, None
+
+        LOG.funcVerbose("     found value: {}", mat.group(0))
+        output_str = mat.group(0)
+        return input_str, output_str
 
     def addInput(self, input: str) -> bool:
         assert self._inputs is None, "duplicately added input."
@@ -170,6 +209,29 @@ class _UnitTestRegularFlavor(_UnitTestFlavor):
                 result += f'{destroy};'
 
         return result
+
+    def parseExtraInput(self, input: str) -> bool:
+        input = regex.sub("#[\w\W]*?\n", "", input)
+        lines = regex.sub("\n+", "\n", input).splitlines()
+        if len(lines) < 2:
+            return None, None
+        input_str = '\n'.join(lines[0:-1])
+        output_str = lines[-1]
+        return self._verifyExtraInput(input_str, output_str)
+
+    def genExtraInputPrompt(self, *, id: int, title: str):
+        args = '\n'.join([f'#{tp}\n{name} = \n' for name, tp in self._function.arg_types.items()])
+        print(args)
+        return concat(
+            f'{args}',
+            f'',
+            f'# expected answer in the last line.',
+            f'# {self._return_type}',
+            f'',
+            f'',
+            f'# please enter the input and output for the unittest.',
+            f'# lines starting with \'#\' will be ignored.',
+        )
 
 
 class _UnitTestStageFlavorSingleStage(_UnitTestFlavor):
@@ -459,6 +521,12 @@ class CPPCodeSnippet:
             return self._genSkipped()
 
         return self._unittest_flavor.genUnitTestSnippet()
+
+    def genExtraInputPrompt(self, *, id: int, title: str):
+        return self._unittest_flavor.genExtraInputPrompt(id=id, title=title)
+
+    def parseExtraInput(self, input: str) -> tuple[str, str]:
+        return self._unittest_flavor.parseExtraInput(input)
 
 
 if __name__ == "__main__":
