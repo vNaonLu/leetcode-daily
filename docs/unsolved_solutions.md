@@ -1,6 +1,6 @@
 # Unsolved Solutions List
 
-There are **1678** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
+There are **1677** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
 
 The questions which have been solved are not shown in this page, more information about solved questions can be found at [docs/solved_solutions.md](./solved_solutions.md).
 
@@ -1554,7 +1554,6 @@ The questions which have been solved are not shown in this page, more informatio
 |2434|[Using a Robot to Print the Lexicographically Smallest String](https://leetcode.com/problems/using-a-robot-to-print-the-lexicographically-smallest-string/)|Medium||
 |2435|[Paths in Matrix Whose Sum Is Divisible by K](https://leetcode.com/problems/paths-in-matrix-whose-sum-is-divisible-by-k/)|Hard||
 |2436|[Minimum Split Into Subarrays With GCD Greater Than One](https://leetcode.com/problems/minimum-split-into-subarrays-with-gcd-greater-than-one/)|Medium|🔒|
-|2437|[Number of Valid Clock Times](https://leetcode.com/problems/number-of-valid-clock-times/)|Easy||
 |2438|[Range Product Queries of Powers](https://leetcode.com/problems/range-product-queries-of-powers/)|Medium||
 |2439|[Minimize Maximum of Array](https://leetcode.com/problems/minimize-maximum-of-array/)|Medium||
 |2440|[Create Components With Same Value](https://leetcode.com/problems/create-components-with-same-value/)|Hard||
