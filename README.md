@@ -2,15 +2,15 @@
 
 [![githubbuild](https://github.com/vNaonLu/Daily_LeetCode/actions/workflows/test.yml/badge.svg)](https://github.com/vNaonLu/leetcode-daily/actions)
 
-This repository collects some of my LeetCode solutions for **free** questions since 2021/09/06. The remain questions is still being solved so the current project may not contain the solutions you are looking for. Please check the chapter [Getting Started](#getting-started) for more details.
+This repository collects some of my LeetCode solutions in C++ for **free** questions since 2021/09/06. The remain questions is still being solved so the current project may not contain the solutions you are looking for. Please check the chapter [Getting Started](#getting-started) for more details.
 
 Here is my [LeetCode account](https://leetcode.com/naon/) if you are interested.
 
 ## Getting Started
 
 See [Activity](#activity) to check the recent solution resolution status, including the historical statistics and the recent submissions.
-All solved ssolutions are stored in `src` and more information can be found at [Find Solution](#finding-solution).
-See [Installation](#installation) if you are interested in how to build the project or want to add some testcases for some solutions.
+All solved solutions are stored in `src` and more information can be found at [Find Solution](#finding-solution).
+See [Installation](#installation) if you are interested in how to build the project or add some testcases for some solutions.
 
 More information about solved solution can be found at [docs/solved_solutions.md](./docs/solved_solutions.md) and unsolved questions can be found at [docs/unsolved_solutions.md](./docs/unsolved_solutions.md).
 
@@ -27,7 +27,8 @@ More information about full activities can be found at:
 
 ## Finding Solution
 
-All solved solution information can be found at [docs/solved_solutions.md](./docs/solved_solutions.md) and their source store in the directories in `./src` by their question identifier. For instance, the solution for [1. Two Sum](https://leetcode.com/problems/two-sum/) is stored in [src/q_1_50/q0001.cc](./src/q_1_50/q0001.cc). The solution source usually contains a structure which is named by question identifier and inherits from the google test structure `testing::Test` and several testcases:
+All solved solution information can be found at [docs/solved_solutions.md](./docs/solved_solutions.md) and all solutions are in the directory of [src](./src) corresponding to their LeetCode frontend ID. For instance, the solution for [1. Two Sum](https://leetcode.com/problems/two-sum/) is stored in [src/q_1_50/q0001.cc](./src/q_1_50/q0001.cc). In addition, the solution fragment always appear between `LEETCODE_BEGIN_RESOLVING` and `LEETCODE_END_RESOLVING`, e.g.
+
 ```cpp
 // ...
 LEETCODE_BEGIN_RESOLVING(1, TwoSum, Solution);
@@ -50,7 +51,7 @@ public:
 LEETCODE_END_RESOLVING(Solution);
 // ...
 ```
-The approach is always appeared in the `struct` block. Or you can simply use the script `ldt` to cat the exist solution via:
+ Or you can simply use the script `ldt` to cat the specific solution via:
 ```sh
 # in the project root
 $ ./ldt cat <question id>
@@ -58,24 +59,21 @@ $ ./ldt cat <question id>
 But the script probably won't work as it is very rough currently.
 
 ## Installation
-It is not necessary to build or install this project if you just want specific solutions, but you can still build and run this project. 
+It is not necessary to build or install this project if you just want to find specific solutions, but you can still build and run this project. 
 There has a script named `ldt` in the root, which is a tool to automatically add/delete the solution in this project, generate the solution template or update the readme or log. However the script may too rough to use since I haven't tested it in other environment.
 
-Before running to build project, please check below dependencies exist in the build environment:
- - Compiler supports `C++17`.
+Before running to build project, please check below dependencies:
+ - GCC-12.
  - CMake above `3.11`.
  - Unix-like OS.
 
-Then you can build the project easily by
+Then you can build the project manually by
 
 ``` sh
-# Clone this project and change workspace to the project root.
 $ git clone https://github.com/vNaonLu/leetcode-daily.git
 $ cd leetcode-daily
-# Configure the cmake build files and build it.
 $ cmake -S . -B build -DENABLE_LEETCODE_TEST=ON
 $ cmake --build build
-# Run the leetcode test by GTest interface.
 $ ./build/leetcode_test
 ```
 
