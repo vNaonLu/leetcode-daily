@@ -1,12 +1,12 @@
 #!/usr/bin/env python3
+from cpp_analyze import *
+from cpp_analyze import _CPPCodeSnippetInformation
+from cpp_types import _CPPTypeAbstract, CPPTypeVector
 import regex
 import sys
 # prevent generating __pycache__
 sys.dont_write_bytecode = True
 
-from cpp_types import _CPPTypeAbstract, CPPTypeVector
-from cpp_analyze import _CPPCodeSnippetInformation
-from cpp_analyze import *
 
 class _UnitTestFlavor:
     def __init__(self, *,
@@ -56,7 +56,7 @@ class _UnitTestFlavor:
 
 
 class _UnitTestUnsupportFlavor(_UnitTestFlavor):
-    def __init__(self, *, 
+    def __init__(self, *,
                  instance: str,
                  function: _CPPCodeSnippetInformation._CPPSolutionFunction,
                  compare_in_any_order: bool = False) -> None:
@@ -65,7 +65,7 @@ class _UnitTestUnsupportFlavor(_UnitTestFlavor):
 
     def getHeaders(self):
         res: set[str] = set()
-        for tp in  self._function.arg_types.values():
+        for tp in self._function.arg_types.values():
             for header in tp.getHeaders():
                 res.add(header)
         if self._function.return_type:
@@ -211,25 +211,42 @@ class _UnitTestRegularFlavor(_UnitTestFlavor):
         return result
 
     def parseExtraInput(self, input: str) -> bool:
-        input = regex.sub("#[\w\W]*?\n", "", input)
-        lines = regex.sub("\n+", "\n", input).splitlines()
+        LOG = prompt.Log.getInstance()
+        LOG.funcVerbose("got input:\n{}", input)
+        input = regex.sub("^ *#[\w\W]*?\n*$", "", input, flags=regex.MULTILINE)
+        input = regex.sub(" *\n+ *", "\n", input)
+        input = input.strip()
+        LOG.funcVerbose("substitute input to:\n{}", input)
+        lines = list(filter(lambda str: str != ' ', input.splitlines()))
         if len(lines) < 2:
+            LOG.failure("failed to parse extra input: expect more than {} lines got {}",
+                        LOG.format('2', flag=LOG.IMPORTANT), LOG.format(len(lines), flag=LOG.HIGHTLIGHT))
             return None, None
         input_str = '\n'.join(lines[0:-1])
         output_str = lines[-1]
         return self._verifyExtraInput(input_str, output_str)
 
     def genExtraInputPrompt(self, *, id: int, title: str):
-        args = '\n'.join([f'#{tp}\n{name} = \n' for name, tp in self._function.arg_types.items()])
-        print(args)
+        args = '\n'.join([f'{name} = ' for name in self._function.input_args])
+        function_snippets = str(self._function.return_type) + ' '
+        arguments = [
+            f'{self._function.arg_types[name]} {name}' for name in self._function.input_args]
+        function_snippets += self._function(*arguments)
+
         return concat(
+            f'# input:',
             f'{args}',
             f'',
-            f'# expected answer in the last line.',
-            f'# {self._return_type}',
+            f'# expected output:',
             f'',
             f'',
-            f'# please enter the input and output for the unittest.',
+            f'# please enter the input and expected output of the unittest in following format.',
+            f'# several lines show the argument name and its input (e.g. Name = Input), and the last',
+            f'# line shows the expected output value.',
+            f'# function snippets:',
+            f'',
+            f'# {function_snippets}',
+            f'',
             f'# lines starting with \'#\' will be ignored.',
         )
 
@@ -277,7 +294,8 @@ class _UnitTestStageFlavorSingleStage(_UnitTestFlavor):
 
         mat = regex.search(reg, input)
         if not mat:
-            LOG.failure("falied to parse arguments for {}: {}", self._function.name, input)
+            LOG.failure("falied to parse arguments for {}: {}",
+                        self._function.name, input)
             return False
 
         for name in self._function.input_args:
@@ -354,7 +372,8 @@ class _UnitTestStageFlavor(_UnitTestFlavor):
         LOG.funcVerbose("parse input commands with regex: {}",
                         input_inner_func_regex)
         for function_name in regex.findall(input_inner_func_regex, commands_input):
-            name = regex.search(command_regex, str(function_name).strip()).group(0)[1:-1].strip()
+            name = regex.search(command_regex, str(
+                function_name).strip()).group(0)[1:-1].strip()
             LOG.funcVerbose("find function name: {}", name)
             f: _CPPCodeSnippetInformation._CPPSolutionFunction = None
             if name == self._class_info.name:
@@ -366,7 +385,7 @@ class _UnitTestStageFlavor(_UnitTestFlavor):
                         break
             if not f:
                 LOG.failure("test function not found: {}", name)
-                return []
+                return False
 
             self._stages.append(_UnitTestStageFlavorSingleStage(instance=self._instance,
                                                                 function=f))
@@ -421,7 +440,7 @@ class _UnitTestStageFlavor(_UnitTestFlavor):
     def getHeaders(self):
         res: set[str] = set()
         for func in self._class_info.member_func:
-            for tp in  func.arg_types.values():
+            for tp in func.arg_types.values():
                 for header in tp.getHeaders():
                     res.add(header)
             if func.return_type:
@@ -461,6 +480,147 @@ class _UnitTestStageFlavor(_UnitTestFlavor):
                 result += f'{destroy};'
 
         return result
+
+    def _verifyExtraInput(self, input: str, output: str):
+        LOG = prompt.Log.getInstance()
+        input = input.replace('\xa0', '')
+
+        input_funcs: list[str] = []
+        input_args: list[list[str]] = []
+        outputs: list[str] = []
+        input_str = ""
+        output_str = ""
+
+        # Inputs
+        stages: list[_UnitTestStageFlavorSingleStage] = []
+        # Parse input as vector<string> like.
+        command_regex = "(?:'[\w\W]*?'|\"[\w\W]*?\")"
+        input_func_regex = f"(?:\[(?:(?:(?: *{command_regex}) *,?)*)?\])"
+        LOG.funcVerbose("parse input: {}", input)
+        LOG.funcVerbose("parse input with regex: {}", input_func_regex)
+        mat = regex.search(input_func_regex, input)
+        if not mat:
+            LOG.failure("falied to parse commands int input: {}", input)
+            return None, None
+
+        # Getting the function name and initialize the teststep
+        input_inner_func_regex = f"(?: *({command_regex}) *,?)"
+        commands_input = mat.group(0)[1:-1]
+        LOG.funcVerbose("parse input commands with regex: {}",
+                        input_inner_func_regex)
+        for function_name in regex.findall(input_inner_func_regex, commands_input):
+            name = regex.search(command_regex, str(
+                function_name).strip()).group(0)[1:-1].strip()
+            LOG.funcVerbose("find function name: {}", name)
+            f: _CPPCodeSnippetInformation._CPPSolutionFunction = None
+            if name == self._class_info.name:
+                f = self._class_info.constructor[0]
+            else:
+                for mem_f in self._class_info.member_func:
+                    if name == mem_f.name:
+                        f = mem_f
+                        break
+            if not f:
+                LOG.failure("test function not found: {}", name)
+                return None, None
+
+            input_funcs.append(f'"{(f.name)}"')
+            stages.append(_UnitTestStageFlavorSingleStage(instance=self._instance,
+                                                          function=f))
+
+        idx = 0
+        input_args_regex = f"(?:\[(?:(?:"
+        for step in stages:
+            input_args_regex += f"(?: *\[ *(?P<step_{idx}>"
+            input_args_regex += step.getChainedArgumentsEvaluateRegex()
+            input_args_regex += f")) *\] *,?"
+            idx += 1
+        input_args_regex += ")*)?\])"
+        LOG.funcVerbose("parse arguments input: {}", input)
+        LOG.funcVerbose("parse input arguments with regex: {}",
+                        input_args_regex)
+        mat = regex.search(input_args_regex, input)
+        if not mat:
+            LOG.failure("falied to parse arguments: {}", input)
+            return None, None
+        idx = 0
+        for step in stages:
+            step.addInput(mat.group(f"step_{idx}").strip())
+            input_args.append('[{}]'.format(','.join([str(val) for _, val in step._inputs])))
+            idx += 1
+        input_str = '[{}] [{}]'.format(','.join(input_funcs), ','.join(input_args))
+
+        # Outputs
+        idx = 0
+        output_regex = f"(?:\[(?:(?:"
+        for step in stages:
+            output_regex += f"(?: *(?P<step_{idx}>"
+            output_regex += step.getExpectRegex()[1:-1]
+            output_regex += f")) *,?"
+            idx += 1
+        output_regex += ")*)?\])"
+        LOG.funcVerbose("parse output: {}", output)
+        LOG.funcVerbose("parse output with regex: {}", output_regex)
+
+        mat = regex.match(output_regex, output)
+        if not mat:
+            LOG.failure("falied to parse arguments: {}", output)
+            return None, None
+
+        idx = 0
+        for step in stages:
+            step.addExpect(mat.group(f"step_{idx}"))
+            outputs.append(step._expect)
+            idx += 1
+        output_str = '[{}]'.format(','.join(outputs))
+
+        return input_str, output_str
+
+    def parseExtraInput(self, input: str) -> bool:
+        LOG = prompt.Log.getInstance()
+        LOG.funcVerbose("got input:\n{}", input)
+        input = regex.sub("^ *#[\w\W]*?\n*$", "", input, flags=regex.MULTILINE)
+        input = regex.sub(" *\n+ *", "\n", input)
+        input = input.strip()
+        LOG.funcVerbose("substitute input to:\n{}", input)
+        lines = list(filter(lambda str: str != ' ', input.splitlines()))
+        if len(lines) != 3:
+            LOG.failure("failed to parse extra input: expect {} lines got {}",
+                        LOG.format('3', flag=LOG.IMPORTANT), LOG.format(len(lines), flag=LOG.HIGHTLIGHT))
+            return None, None
+        return self._verifyExtraInput(f'{lines[0]}{lines[1]}', lines[2])
+
+    def genExtraInputPrompt(self, *, id: int, title: str):
+        info = self._class_info
+        valid_functions: list[str] = []
+
+        ctor_args_types = [str(info.constructor[0].arg_types[name])
+                           for name in info.constructor[0].input_args]
+        valid_functions.append(info.constructor[0](*ctor_args_types))
+
+        for func in info.member_func:
+            args_types = [str(func.arg_types[name])
+                          for name in func.input_args]
+            valid_functions.append(f'{func.return_type} {func(*args_types)}')
+
+        return concat(
+            f'# input:',
+            f'[]',
+            f'[]',
+            f'',
+            f'# expect output:',
+            f'[]',
+            f'',
+            f'# please enter the input and expected output of the unittest in the following format.',
+            f'# first line shows function names array, second line shows arguments array for specific functions',
+            f'# and third line shows the expected output array. note that |null| should be explicit if the',
+            f'# function does not return anything.',
+            f'# valid functions:',
+            f'',
+            '# - {}'.format('\n# - '.join(valid_functions)),
+            f'',
+            f'# lines starting with \'#\' will be ignored.',
+        )
 
 
 class CPPCodeSnippet:
@@ -639,9 +799,9 @@ if __name__ == "__main__":
     q234_input = "head = [1,2,2,1]"
     q234_output = 'true'
 
-    q       = q146
-    input   = q146_input
-    output  = q146_output
+    q = q146
+    input = q146_input
+    output = q146_output
     code = CPPCodeSnippet(q)
     a = code.genUnitTest(input=input, output=output)
     LOG.print(a.replace(';', ';\n'))
