@@ -223,7 +223,7 @@ def _addProcess(*,
         if resolve.tc != "-" and resolve.sc != "-":
             commit_msg += f" with TC O({resolve.tc}) and SC O({resolve.sc})"
             if resolve.notes != "":
-                commit_msg += f", {resolve.notes}"
+                commit_msg += f", where {resolve.notes}"
         commit_msg += "."
 
         CMD = ["git", "-C", PROJECT_ROOT, "commit", "-m", commit_msg]
