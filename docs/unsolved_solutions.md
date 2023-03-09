@@ -1,6 +1,6 @@
 # Unsolved Solutions List
 
-There are **1675** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
+There are **1682** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
 
 The questions which have been solved are not shown in this page, more information about solved questions can be found at [docs/solved_solutions.md](./solved_solutions.md).
 
@@ -1613,7 +1613,6 @@ The questions which have been solved are not shown in this page, more informatio
 |2503|[Maximum Number of Points From Grid Queries](https://leetcode.com/problems/maximum-number-of-points-from-grid-queries/)|Hard||
 |2504|[Concatenate the Name and the Profession](https://leetcode.com/problems/concatenate-the-name-and-the-profession/)|Easy|🔒|
 |2505|[Bitwise OR of All Subsequence Sums](https://leetcode.com/problems/bitwise-or-of-all-subsequence-sums/)|Medium|🔒|
-|2506|[Count Pairs Of Similar Strings](https://leetcode.com/problems/count-pairs-of-similar-strings/)|Easy||
 |2507|[Smallest Value After Replacing With Sum of Prime Factors](https://leetcode.com/problems/smallest-value-after-replacing-with-sum-of-prime-factors/)|Medium||
 |2508|[Add Edges to Make Degrees of All Nodes Even](https://leetcode.com/problems/add-edges-to-make-degrees-of-all-nodes-even/)|Hard||
 |2509|[Cycle Length Queries in a Tree](https://leetcode.com/problems/cycle-length-queries-in-a-tree/)|Hard||
@@ -1682,3 +1681,11 @@ The questions which have been solved are not shown in this page, more informatio
 |2575|[Find the Divisibility Array of a String](https://leetcode.com/problems/find-the-divisibility-array-of-a-string/)|Medium||
 |2576|[Find the Maximum Number of Marked Indices](https://leetcode.com/problems/find-the-maximum-number-of-marked-indices/)|Medium||
 |2577|[Minimum Time to Visit a Cell In a Grid](https://leetcode.com/problems/minimum-time-to-visit-a-cell-in-a-grid/)|Hard||
+|2578|[Split With Minimum Sum](https://leetcode.com/problems/split-with-minimum-sum/)|Easy||
+|2579|[Count Total Number of Colored Cells](https://leetcode.com/problems/count-total-number-of-colored-cells/)|Medium||
+|2580|[Count Ways to Group Overlapping Ranges](https://leetcode.com/problems/count-ways-to-group-overlapping-ranges/)|Medium||
+|2581|[Count Number of Possible Root Nodes](https://leetcode.com/problems/count-number-of-possible-root-nodes/)|Hard||
+|2582|[Pass the Pillow](https://leetcode.com/problems/pass-the-pillow/)|Easy||
+|2583|[Kth Largest Sum in a Binary Tree](https://leetcode.com/problems/kth-largest-sum-in-a-binary-tree/)|Medium||
+|2584|[Split the Array to Make Coprime Products](https://leetcode.com/problems/split-the-array-to-make-coprime-products/)|Hard||
+|2585|[Number of Ways to Earn Points](https://leetcode.com/problems/number-of-ways-to-earn-points/)|Hard||

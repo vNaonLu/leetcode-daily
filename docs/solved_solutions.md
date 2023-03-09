@@ -1,6 +1,6 @@
 # Solved Solutions List
 
-This document contains **902** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
+This document contains **903** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
 
 Some questions which are still being resolved are not shown in this page, more information about unsolved questions can be found at [docs/unsolved_solutions.md](./unsolved_solutions.md).
 
@@ -906,6 +906,7 @@ Some questions which are still being resolved are not shown in this page, more i
 |2477|[Minimum Fuel Cost to Report to the Capital](https://leetcode.com/problems/minimum-fuel-cost-to-report-to-the-capital/)|[src/q_2451_2500/q2477.cc](../src/q_2451_2500/q2477.cc)|2023/02/12 14:52|
 |2485|[Find the Pivot Integer](https://leetcode.com/problems/find-the-pivot-integer/)|[src/q_2451_2500/q2485.cc](../src/q_2451_2500/q2485.cc)|2023/02/19 22:48|
 |2490|[Circular Sentence](https://leetcode.com/problems/circular-sentence/)|[src/q_2451_2500/q2490.cc](../src/q_2451_2500/q2490.cc)|2023/03/06 14:54|
+|2506|[Count Pairs Of Similar Strings](https://leetcode.com/problems/count-pairs-of-similar-strings/)|[src/q_2501_2550/q2506.cc](../src/q_2501_2550/q2506.cc)|2023/03/09 19:52|
 |2535|[Difference Between Element Sum and Digit Sum of an Array](https://leetcode.com/problems/difference-between-element-sum-and-digit-sum-of-an-array/)|[src/q_2501_2550/q2535.cc](../src/q_2501_2550/q2535.cc)|2023/02/18 13:32|
 |2540|[Minimum Common Value](https://leetcode.com/problems/minimum-common-value/)|[src/q_2501_2550/q2540.cc](../src/q_2501_2550/q2540.cc)|2023/02/05 21:53|
 |2544|[Alternating Digit Sum](https://leetcode.com/problems/alternating-digit-sum/)|[src/q_2501_2550/q2544.cc](../src/q_2501_2550/q2544.cc)|2023/02/06 16:42|
