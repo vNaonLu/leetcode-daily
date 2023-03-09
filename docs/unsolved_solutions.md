@@ -1,6 +1,6 @@
 # Unsolved Solutions List
 
-There are **1676** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
+There are **1675** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
 
 The questions which have been solved are not shown in this page, more information about solved questions can be found at [docs/solved_solutions.md](./solved_solutions.md).
 
@@ -1564,7 +1564,6 @@ The questions which have been solved are not shown in this page, more informatio
 |2448|[Minimum Cost to Make Array Equal](https://leetcode.com/problems/minimum-cost-to-make-array-equal/)|Hard||
 |2449|[Minimum Number of Operations to Make Arrays Similar](https://leetcode.com/problems/minimum-number-of-operations-to-make-arrays-similar/)|Hard||
 |2450|[Number of Distinct Binary Strings After Applying Operations](https://leetcode.com/problems/number-of-distinct-binary-strings-after-applying-operations/)|Medium|🔒|
-|2451|[Odd String Difference](https://leetcode.com/problems/odd-string-difference/)|Easy||
 |2452|[Words Within Two Edits of Dictionary](https://leetcode.com/problems/words-within-two-edits-of-dictionary/)|Medium||
 |2453|[Destroy Sequential Targets](https://leetcode.com/problems/destroy-sequential-targets/)|Medium||
 |2454|[Next Greater Element IV](https://leetcode.com/problems/next-greater-element-iv/)|Hard||
