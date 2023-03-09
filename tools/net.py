@@ -114,8 +114,70 @@ def requestQuestionInformation(slug: int, *, timeout: int = 5):
     LOG.funcVerbose("request URL    : {}", URL)
     LOG.funcVerbose("request headers: {}", HEADERS)
     LOG.funcVerbose("timeout        : {}", timeout)
+    LOG.funcVerbose("payload        : {}", json.dumps(param))
 
     TASK = LOG.createTaskLog("Request Questions Information")
+    TASK.begin("requesting to: {}", URL)
+    state, resp = _safeRequest(
+        partial(requests.Session().post,
+                URL,
+                headers=HEADERS, timeout=timeout, data=json.dumps(param).encode('utf-8')))
+    LOG.funcVerbose("request finished: {}", state)
+
+    if state == REQUEST_OK:
+        TASK.done("successfully requested from: {}", URL, is_success=True)
+        return state, resp
+
+    TASK.done("failed to request ({}): {}",
+              __toString(state), URL, is_success=False)
+    return state, None
+
+
+def requestQuestionOfToday(*, timeout: int = 5):
+    import json
+    LOG = prompt.Log.getInstance()
+    param = {
+        'variables': {},
+        'query': '''query questionOfToday {
+          activeDailyCodingChallengeQuestion {
+                date
+                userStatus
+                link
+                question {
+                    acRate
+                    difficulty
+                    freqBar
+                    frontendQuestionId: questionFrontendId
+                    isFavor
+                    paidOnly: isPaidOnly
+                    status
+                    title
+                    titleSlug
+                    hasVideoSolution
+                    hasSolution
+                    topicTags {
+                        name
+                        id
+                        slug
+                    }
+                }
+            }
+        }'''}
+
+    URL = _LEETCODE_GRAPHQL_API_URL
+    HEADERS = {
+        'User-Agent': _USER_AGENT,
+        'Connection': 'keep-alive',
+        'Content-Type': 'application/json',
+        'Referer': 'https://leetcode.com/problemset/all/'
+    }
+
+    LOG.funcVerbose("request URL    : {}", URL)
+    LOG.funcVerbose("request headers: {}", HEADERS)
+    LOG.funcVerbose("timeout        : {}", timeout)
+    LOG.funcVerbose("payload        : {}", json.dumps(param))
+
+    TASK = LOG.createTaskLog("Request Questions of Today")
     TASK.begin("requesting to: {}", URL)
     state, resp = _safeRequest(
         partial(requests.Session().post,
