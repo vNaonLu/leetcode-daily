@@ -49,22 +49,15 @@ def _getComplexityInformation(id: int, snippets: str):
     return "-", "-", ""
 
 
-def _getCPPSolution(*, questions_list: QuestionsList, solution_file: SolutionFile, no_testcases: bool):
+def _getCPPSolution(*, questions_details: QuestionDetails, solution_file: SolutionFile):
     LOG = prompt.Log.getInstance()
-    id = solution_file.id()
-
-    LOG.verbose("check whether the detail for question #{} exists.", id)
-    if id not in questions_list:
-        LOG.failure("there exists no detail for question #{} in questions list. "
-                    "please update the questions list first.",
-                    LOG.format(id, flag=LOG.HIGHTLIGHT))
-        return None
+    ID = questions_details.id
         
     raw_content: object = None
-    slug = questions_list[id].slug
+    slug = questions_details.slug
     try_cnt = 0
     while True:
-        LOG.verbose("trying to get the information about question #{} from LeetCode.", id)
+        LOG.verbose("trying to get the information about question #{} from LeetCode.", ID)
         state, resp = net.requestQuestionInformation(slug)
 
         if state == net.REQUEST_OK and \
@@ -89,7 +82,7 @@ def _getCPPSolution(*, questions_list: QuestionsList, solution_file: SolutionFil
         LOG.failure("caught exception when generating the C++ template.")
         return None
 
-    gen_task = LOG.createTaskLog(f"Generate Template for Solution #{id}")
+    gen_task = LOG.createTaskLog(f"Generate Template for Solution #{ID}")
     gen_task.begin("generating the solution template: {}",
                    LOG.format(slug, flag=LOG.HIGHTLIGHT))
     content = cpp_solution.solutionTemplate()
@@ -104,7 +97,7 @@ def _getCPPSolution(*, questions_list: QuestionsList, solution_file: SolutionFil
 
     solution_file.write_text(clangFormat(content))
     LOG.success("saved the solution file for question #{}: {}",
-                LOG.format(id, flag=LOG.HIGHTLIGHT),
+                LOG.format(ID, flag=LOG.HIGHTLIGHT),
                 LOG.format(solution_file, flag=LOG.HIGHTLIGHT))
     return cpp_solution
 
@@ -138,7 +131,6 @@ def _addProcess(*,
                 questions_list: QuestionsList,
                 resolve_logs: ResolveLogsFile,
                 solution_file: SolutionFile,
-                without_testcase: bool,
                 without_test: bool,
                 without_update: bool,
                 without_commit: bool):
@@ -147,14 +139,23 @@ def _addProcess(*,
     ADD_TIME = int(time.time())
     ID = solution_file.id()
 
-    cpp_solution = _getCPPSolution(questions_list=questions_list,
-                                   solution_file=solution_file,
-                                   no_testcases=without_testcase)
+    LOG.verbose("check whether the detail for question #{} exists.", ID)
+    if ID not in questions_list:
+        LOG.failure("there exists no detail for question #{} in questions list. "
+                    "please update the questions list first.",
+                    LOG.format(ID, flag=LOG.HIGHTLIGHT))
+        return False
+
+    INFO = questions_list[ID]
+
+    cpp_solution = _getCPPSolution(questions_details=INFO,
+                                   solution_file=solution_file)
 
     if not cpp_solution:
         return False
 
     openEditor(solution_file)
+    solution_file.write_text(clangFormat(solution_file.read_text()))
 
     if without_test:
         LOG.log("skipped running testcase due to enabling flag: {}",
@@ -172,6 +173,7 @@ def _addProcess(*,
                infra_test_flag="ON")
 
     test_passed = False
+    extra_input_idx = 1
     while not test_passed:
         test_passed = ldtBuildImpl(build_path=build_path, build_args="-j8") == 0 and \
             ldtRunImpl(build_path=build_path, infra_test=False, ids=[ID]) == 0
@@ -184,11 +186,24 @@ def _addProcess(*,
             if not PMT.ask("was the solution accepted by LeetCode?"):
                 test_passed = False
 
+                if PMT.ask("add an extra test case for unittest?"):
+                    extra_input = inputByEditor(cpp_solution.genExtraInputPrompt(id=ID,
+                                                                         title=INFO.title))
+                    input, expect = cpp_solution.parseExtraInput(extra_input)
+                    if input and expect:
+                        unittest = cpp_solution.getUnitTest(name=f'Extra Testcase #{extra_input_idx}',
+                                                            suite_name=f'extra_testcase_{extra_input_idx}',
+                                                            input=input, output=expect)
+                        extra_input_idx += 1
+                        content = solution_file.read_text() + f'\n{unittest}'
+                        solution_file.write_text(clangFormat(content))
+
         if not test_passed:
             if not PMT.ask("the solution #{} failed to pass, continue to solve?",
                        LOG.format(ID, flag=LOG.HIGHTLIGHT)):
                 return False
             openEditor(solution_file)
+            solution_file.write_text(clangFormat(solution_file.read_text()))
 
     resolve = _addResolveLogs(solution_file=solution_file,
                               resolve_logs=resolve_logs,
@@ -249,8 +264,6 @@ def _addProcess(*,
             metavar="[Docs_path]", help="specify the directory to save created documents."),
     cli.arg("--readme", dest="readme_path", default=str(README_ABSOLUTE), action="store",
             metavar="[Docs_path]", help="specify the file to save readme."),
-    cli.arg("--without-testcase", dest="without_testcase", default=False, action="store_true",
-            help="disable test cases generation."),
     cli.arg("--without-test", dest="without_test", default=False, action="store_true",
             help="disable run test after each problem solving."),
     cli.arg("--without-update", dest="without_update", default=False, action="store_true",
@@ -287,7 +300,6 @@ def ldtAdd(args: object):
     ARG_ASSETS_PATH = Path(getattr(args, "assets_path")).resolve()
     ARG_DOCS_PATH = Path(getattr(args, "docs_path")).resolve()
     ARG_README = Path(getattr(args, "readme_path")).resolve()
-    ARG_NOTESTCASE_FLAG = getattr(args, "without_testcase")
     ARG_WITHOUT_TEST_FLAG = getattr(args, "without_test")
     ARG_WITHOUT_UPDATE_FLAG = getattr(args, "without_update")
     ARG_WITHOUT_COMMIT_FLAG = getattr(args, "without_commit")
@@ -331,7 +343,6 @@ def ldtAdd(args: object):
                            questions_list=questions_list,
                            resolve_logs=resolve_logs,
                            solution_file=solution_file,
-                           without_testcase=ARG_NOTESTCASE_FLAG,
                            without_test=ARG_WITHOUT_TEST_FLAG,
                            without_update=ARG_WITHOUT_UPDATE_FLAG,
                            without_commit=ARG_WITHOUT_COMMIT_FLAG):
