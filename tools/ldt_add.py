@@ -2,6 +2,7 @@
 from impl import *
 import sys
 import json
+import regex
 from argparse import RawTextHelpFormatter
 # prevent generating __pycache__
 sys.dont_write_bytecode = True
@@ -82,31 +83,34 @@ def _getCPPSolution(*, questions_details: QuestionDetails, solution_file: Soluti
         LOG.failure("caught exception when generating the C++ template.")
         return None
 
-    gen_task = LOG.createTaskLog(f"Generate Template for Solution #{ID}")
-    gen_task.begin("generating the solution template: {}",
-                   LOG.format(slug, flag=LOG.HIGHTLIGHT))
-    content = cpp_solution.solutionTemplate()
-    gen_task.done("generated the solution template: {}",
-                  LOG.format(slug, flag=LOG.HIGHTLIGHT),
-                  is_success=True)
-
     if not solution_file.parent.exists():
         solution_file.parent.mkdir(exist_ok=True)
         LOG.log("generated the directory: {}", LOG.format(
             solution_file.parent, LOG.HIGHTLIGHT))
 
-    solution_file.write_text(clangFormat(content))
-    LOG.success("saved the solution file for question #{}: {}",
-                LOG.format(ID, flag=LOG.HIGHTLIGHT),
-                LOG.format(solution_file, flag=LOG.HIGHTLIGHT))
+    if not solution_file.exists():
+        gen_task = LOG.createTaskLog(f"Generate Template for Solution #{ID}")
+        gen_task.begin("generating the solution template: {}",
+                    LOG.format(slug, flag=LOG.HIGHTLIGHT))
+        content = cpp_solution.solutionTemplate()
+        gen_task.done("generated the solution template: {}",
+                      LOG.format(slug, flag=LOG.HIGHTLIGHT), is_success=True)
+
+        solution_file.write_text(clangFormat(content))
+        LOG.success("saved the solution file for question #{}: {}",
+                    LOG.format(ID, flag=LOG.HIGHTLIGHT),
+                    LOG.format(solution_file, flag=LOG.HIGHTLIGHT))
+
     return cpp_solution
 
 
-def _addResolveLogs(*, solution_file: SolutionFile, resolve_logs: ResolveLogsFile, id: int, timestamp: int):
+def _addResolveLogs(*, solution_file: SolutionFile, resolve_logs: ResolveLogsFile,
+                    id: int, timestamp: int):
     LOG = prompt.Log.getInstance()
 
-    tc, sc, notes = _getComplexityInformation(id,
-                                              clangFormat(parseSolution(solution_file.read_text())))
+    tc, sc, notes = _getComplexityInformation(
+        id, clangFormat(parseSolution(solution_file.read_text())))
+
     log = ResolveLog({"timestamp": timestamp,
                       "id": id,
                       "tc": tc,
@@ -122,21 +126,59 @@ def _addResolveLogs(*, solution_file: SolutionFile, resolve_logs: ResolveLogsFil
     return log
 
 
-def _addProcess(*,
-                src_path: Path,
-                build_path: Path,
-                docs_path: Path,
-                assets_path: Path,
-                readme_path: Path,
-                questions_list: QuestionsList,
-                resolve_logs: ResolveLogsFile,
-                solution_file: SolutionFile,
-                without_test: bool,
-                without_update: bool,
-                without_commit: bool):
+def _buildAndTest(*, build_path: Path, solution_file: SolutionFile, id: int,
+                  detail: QuestionDetails, cpp_solution: CPPSolution) -> bool:
     PMT = prompt.Prompt.getInstance()
     LOG = prompt.Log.getInstance()
-    ADD_TIME = int(time.time())
+
+    ldtGenImpl(src_path=PROJECT_ROOT,
+               build_path=build_path,
+               build_flag="Debug",
+               compile_commands_flag="OFF",
+               leetcode_test_flag="ON",
+               infra_test_flag="ON")
+
+    test_passed = False
+    extra_input_idx = 1
+    while not test_passed:
+        test_passed = ldtBuildImpl(build_path=build_path, build_args="-j8") == 0 and \
+            ldtRunImpl(build_path=build_path, infra_test=False, ids=[id]) == 0
+
+        if test_passed:
+            LOG.log("while passed all local test cases, "
+                    "please try submitting to LeetCode to see whether the solution is correct:")
+            LOG.print(clangFormat(parseSolution(solution_file.read_text())),
+                      flag=LOG.DARK_GREEN)
+            if not PMT.ask("was the solution accepted by LeetCode?"):
+                test_passed = False
+
+                if PMT.ask("add an extra test case for unittest?"):
+                    extra_input = inputByEditor(cpp_solution.genExtraInputPrompt(id=id,
+                                                                                 title=detail.title))
+                    input, expect = cpp_solution.parseExtraInput(extra_input)
+                    if input and expect:
+                        unittest = cpp_solution.getUnitTest(name=f'Extra Testcase #{extra_input_idx}',
+                                                            suite_name=f'extra_testcase_{extra_input_idx}',
+                                                            input=input, output=expect)
+                        extra_input_idx += 1
+                        content = solution_file.read_text() + f'\n{unittest}'
+                        solution_file.write_text(clangFormat(content))
+                        LOG.success("added an extra testcase for solution:")
+                        LOG.print(clangFormat(unittest), flag=LOG.VERBOSE)
+
+        if not test_passed:
+            if not PMT.ask("the solution #{} failed to pass, continue to solve?",
+                           LOG.format(id, flag=LOG.HIGHTLIGHT)):
+                break
+            openEditor(solution_file)
+            solution_file.write_text(clangFormat(solution_file.read_text()))
+
+    return test_passed
+
+
+def _addAndPassTestsIfNecessary(*, build_path: Path, questions_list: QuestionsList,
+                                solution_file: SolutionFile, without_test: bool) -> bool:
+    LOG = prompt.Log.getInstance()
     ID = solution_file.id()
 
     LOG.verbose("check whether the detail for question #{} exists.", ID)
@@ -157,94 +199,8 @@ def _addProcess(*,
     openEditor(solution_file)
     solution_file.write_text(clangFormat(solution_file.read_text()))
 
-    if without_test:
-        LOG.log("skipped running testcase due to enabling flag: {}",
-                LOG.format("--without-test", flag=LOG.HIGHTLIGHT))
-        _addResolveLogs(solution_file=solution_file,
-                        resolve_logs=resolve_logs,
-                        id=ID, timestamp=ADD_TIME)
-        return True
-
-    ldtGenImpl(src_path=PROJECT_ROOT,
-               build_path=build_path,
-               build_flag="Debug",
-               compile_commands_flag="OFF",
-               leetcode_test_flag="ON",
-               infra_test_flag="ON")
-
-    test_passed = False
-    extra_input_idx = 1
-    while not test_passed:
-        test_passed = ldtBuildImpl(build_path=build_path, build_args="-j8") == 0 and \
-            ldtRunImpl(build_path=build_path, infra_test=False, ids=[ID]) == 0
-
-        if test_passed:
-            LOG.log("while passed all local test cases, "
-                    "please try submitting to LeetCode to see whether the solution is correct:")
-            LOG.print(clangFormat(parseSolution(solution_file.read_text())),
-                      flag=LOG.DARK_GREEN)
-            if not PMT.ask("was the solution accepted by LeetCode?"):
-                test_passed = False
-
-                if PMT.ask("add an extra test case for unittest?"):
-                    extra_input = inputByEditor(cpp_solution.genExtraInputPrompt(id=ID,
-                                                                         title=INFO.title))
-                    input, expect = cpp_solution.parseExtraInput(extra_input)
-                    if input and expect:
-                        unittest = cpp_solution.getUnitTest(name=f'Extra Testcase #{extra_input_idx}',
-                                                            suite_name=f'extra_testcase_{extra_input_idx}',
-                                                            input=input, output=expect)
-                        extra_input_idx += 1
-                        content = solution_file.read_text() + f'\n{unittest}'
-                        solution_file.write_text(clangFormat(content))
-
-        if not test_passed:
-            if not PMT.ask("the solution #{} failed to pass, continue to solve?",
-                       LOG.format(ID, flag=LOG.HIGHTLIGHT)):
-                return False
-            openEditor(solution_file)
-            solution_file.write_text(clangFormat(solution_file.read_text()))
-
-    resolve = _addResolveLogs(solution_file=solution_file,
-                              resolve_logs=resolve_logs,
-                              id=ID, timestamp=ADD_TIME)
-
-    if without_update:
-        LOG.log("skipped updating documents due to enabling flag: {}",
-                LOG.format("--without-update", flag=LOG.HIGHTLIGHT))
-        return True
-
-    if not updateResolveReferenceImpl(questions_list=questions_list,
-                                      resolve_logs=resolve_logs,
-                                      docs_path=docs_path,
-                                      assets_path=assets_path,
-                                      src_path=src_path):
-        LOG.failure("failed to update references.")
-        return False
-
-    if not updateReadmeDocument(resolve_logs=resolve_logs,
-                                assets_path=assets_path,
-                                docs_path=docs_path,
-                                readme_path=readme_path):
-        LOG.failure("failed to update readme.")
-        return False
-
-    if not without_commit:
-        CMD = ["git", "-C", PROJECT_ROOT, "add",
-               solution_file, readme_path, docs_path, assets_path, resolve_logs]
-        launchSubprocess(CMD).communicate()
-
-        commit_msg = f"adds q{ID}"
-        if resolve.tc != "-" and resolve.sc != "-":
-            commit_msg += f" with TC O({resolve.tc}) and SC O({resolve.sc})"
-            if resolve.notes != "":
-                commit_msg += f", where {resolve.notes}"
-        commit_msg += "."
-
-        CMD = ["git", "-C", PROJECT_ROOT, "commit", "-m", commit_msg]
-        launchSubprocess(CMD).communicate()
-        LOG.success("committed with message: {}",
-                    LOG.format(commit_msg, flag=LOG.IMPORTANT))
+    if not without_test:
+        return _buildAndTest(build_path=build_path, solution_file=solution_file, id=ID, detail=INFO, cpp_solution=cpp_solution)
 
     return True
 
@@ -307,6 +263,7 @@ def ldtAdd(args: object):
 
     if not checkFile(ARG_QUESTIONS_LIST) or not checkFile(ARG_RESOLVE_LOGS):
         return 1
+
     if not checkPath(ARG_ASSETS_PATH) or not checkPath(ARG_DOCS_PATH) or not checkPath(ARG_SRC_PATH):
         return 1
     
@@ -327,32 +284,65 @@ def ldtAdd(args: object):
                           is_success=True)
 
     for id in ARG_IDS:
+        ADD_TIME = int(time.time())
         solution_file = SolutionFile(id, ARG_SRC_PATH)
 
         LOG.verbose("check whether the solution with id {} exists in: {}", id, solution_file)
         if solution_file.exists():
-            LOG.warn("the solution for question #{} already exists. skipped.",
-                     LOG.format(id, flag=LOG.HIGHTLIGHT))
-            continue
+            LOG.verbose("solution exists, check whether the solution is committed.")
+            CMD = ["git", "-C", PROJECT_ROOT, "ls-files", PROJECT_ROOT, "--exclude-standard", "--others"]
+            out, _ = launchSubprocess(CMD).communicate()
+            LOG.verbose("got stdout: {}", out)
+            if not regex.search(solution_file.fileName(), out):
+                LOG.success("skip solving question #{} since the solution exists and has already committed.",
+                            LOG.format(id, flag=LOG.HIGHTLIGHT))
+                continue
+            elif not PMT.ask("continue to solve question #{}?",
+                         LOG.format(id, flag=LOG.HIGHTLIGHT)):
+                continue
 
-        if not _addProcess(src_path=ARG_SRC_PATH,
-                           build_path=ARG_BUILD_PATH,
-                           docs_path=ARG_DOCS_PATH,
-                           assets_path=ARG_ASSETS_PATH,
-                           readme_path=ARG_README,
-                           questions_list=questions_list,
-                           resolve_logs=resolve_logs,
-                           solution_file=solution_file,
-                           without_test=ARG_WITHOUT_TEST_FLAG,
-                           without_update=ARG_WITHOUT_UPDATE_FLAG,
-                           without_commit=ARG_WITHOUT_COMMIT_FLAG):
+        if not _addAndPassTestsIfNecessary(build_path=ARG_BUILD_PATH, questions_list=questions_list,
+                                           solution_file=solution_file, without_test=ARG_WITHOUT_TEST_FLAG):
+
             LOG.failure("abort adding the solution #{}.", LOG.format(id, flag=LOG.HIGHTLIGHT))
-            if PMT.ask("remove the solution #{}?", LOG.format(id, flag=LOG.HIGHTLIGHT)):
+
+            if solution_file.exists() and PMT.ask("remove the solution #{}?", LOG.format(id, flag=LOG.HIGHTLIGHT)):
                 solution_file.unlink()
                 LOG.log("remove the file: {}", LOG.format(solution_file, LOG.HIGHTLIGHT))
-            continue
-        LOG.success("the solution #{} added successfully.",
-                    LOG.format(id, flag=LOG.HIGHTLIGHT))
+
+        else:
+            RESOLVE_LOG = _addResolveLogs(solution_file=solution_file, resolve_logs=resolve_logs,
+                                          id=id, timestamp=ADD_TIME)
+            ADD_CMD = ["git", "-C", PROJECT_ROOT, "add", solution_file, resolve_logs]
+
+            if not ARG_WITHOUT_UPDATE_FLAG:
+                updateResolveReferenceImpl(questions_list=questions_list, resolve_logs=resolve_logs,
+                                           docs_path=ARG_DOCS_PATH, assets_path=ARG_ASSETS_PATH, src_path=ARG_SRC_PATH)
+                ADD_CMD += [ARG_DOCS_PATH, ARG_ASSETS_PATH]
+
+                updateReadmeDocument(resolve_logs=resolve_logs, assets_path=ARG_ASSETS_PATH,
+                                     docs_path=ARG_DOCS_PATH, readme_path=ARG_README)
+                ADD_CMD += [ARG_README]
+
+            if not ARG_WITHOUT_COMMIT_FLAG:
+                launchSubprocess(ADD_CMD).communicate()
+
+                commit_msg = f"adds q{id}"
+                if RESOLVE_LOG.tc != "-" and RESOLVE_LOG.sc != "-":
+                    commit_msg += f" with TC O({RESOLVE_LOG.tc}) and SC O({RESOLVE_LOG.sc})"
+                    if RESOLVE_LOG.notes != "":
+                        commit_msg += f", where {RESOLVE_LOG.notes}"
+                commit_msg += "."
+
+                CMD = ["git", "-C", PROJECT_ROOT, "commit", "-m", commit_msg]
+                launchSubprocess(CMD).communicate()
+
+                LOG.success("committed with message: {}",
+                            LOG.format(commit_msg, flag=LOG.IMPORTANT))
+
+            LOG.success("the solution #{} added successfully.",
+                        LOG.format(id, flag=LOG.HIGHTLIGHT))
+    return 0
 
 if __name__ == "__main__":
     sys.exit(safeRun(ldtAdd))
