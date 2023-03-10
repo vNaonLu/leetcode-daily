@@ -1,8 +1,16 @@
+# build directory
 build*
+
+# local config
+compile_commands.json
 .vscode
 __pycache__
 .DS_Store
 .cache
-*.swp
-compile_commands.json
 .config
+
+# vim temporary
+*.swp
+
+# ldt temporary
+*.ldtconf

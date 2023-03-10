@@ -11,6 +11,7 @@ from utils import *
 from cpp_solution import *
 from questions import *
 from filesystem import *
+from config import *
 import net
 import cli
 import session
@@ -246,6 +247,8 @@ def _addAndPassTestsIfNecessary(*, build_path: Path, questions_list: QuestionsLi
             metavar="[Source_Root]", help="specify the source root."),
     cli.arg("-B", dest="build_path", default=str(BUILD_ABSOLUTE), action="store",
             metavar="[Build_Path]", help="specify the directory to build. Default: './build'."),
+    cli.arg("--session", dest="session_name", default="", action="store",
+            help="explicitly use specific session cache."),
     cli.arg("--guest", dest="leetcode_session", default=True, action="store_false",
             help="identifier to skip the leetcode session establishment."),
     cli.arg("--list", dest="questions_list_file", default=str(QUESTIONS_LIST_ABSOLUTE), action="store",
@@ -253,11 +256,11 @@ def _addAndPassTestsIfNecessary(*, build_path: Path, questions_list: QuestionsLi
     cli.arg("--resolve", dest="questions_log_file", default=str(QUESTIONS_LOG_ABSOLUTE), action="store",
             nargs=1, metavar="[Solve_Log]", help="specify the resolve log in CSV format."),
     cli.arg("--assets", dest="assets_path", default=str(ASSETS_ABSOLUTE), action="store",
-            nargs=1, metavar="[Assets_path]", help="specify the directory to save created assets."),
+            nargs=1, metavar="[Assets_Path]", help="specify the directory to save created assets."),
     cli.arg("--docs", dest="docs_path", default=str(DOCS_ABSOLUTE), action="store",
-            metavar="[Docs_path]", help="specify the directory to save created documents."),
+            metavar="[Docs_Path]", help="specify the directory to save created documents."),
     cli.arg("--readme", dest="readme_path", default=str(README_ABSOLUTE), action="store",
-            metavar="[Docs_path]", help="specify the file to save readme."),
+            metavar="[Docs_Path]", help="specify the file to save readme."),
     cli.arg("--without-test", dest="without_test", default=False, action="store_true",
             help="disable run test after each problem solving."),
     cli.arg("--without-update", dest="without_update", default=False, action="store_true",
@@ -290,6 +293,8 @@ def _addAndPassTestsIfNecessary(*, build_path: Path, questions_list: QuestionsLi
 def ldtAdd(args: object):
     PMT = prompt.Prompt.getInstance()
     LOG = prompt.Log.getInstance(verbose=getattr(args, "verbose"))
+    CONFIG = Configuration.getInstance()
+
     ARG_SRC_PATH = Path(getattr(args, "src_path")).resolve()
     ARG_BUILD_PATH = Path(getattr(args, "build_path")).resolve()
     ARG_QUESTIONS_LIST = Path(getattr(args, "questions_list_file")).resolve()
@@ -297,6 +302,7 @@ def ldtAdd(args: object):
     ARG_ASSETS_PATH = Path(getattr(args, "assets_path")).resolve()
     ARG_DOCS_PATH = Path(getattr(args, "docs_path")).resolve()
     ARG_README = Path(getattr(args, "readme_path")).resolve()
+    ARG_SESSION_NAME = getattr(args, "session_name")
     ARG_ENABLE_LEETCODE_SESSION = getattr(args, "leetcode_session")
     ARG_WITHOUT_TEST_FLAG = getattr(args, "without_test")
     ARG_WITHOUT_UPDATE_FLAG = getattr(args, "without_update")
@@ -306,13 +312,28 @@ def ldtAdd(args: object):
 
     LEETCODE_SESSION: session.LeetCodeSession = None
 
-    if ARG_ENABLE_LEETCODE_SESSION:
-        LEETCODE_SESSION = session.LeetCodeSession()
+    use_session_name = CONFIG.default_user
 
-        while not LEETCODE_SESSION.loginWithLeetCodeSession(use_cache=not ARG_NO_CACHE):
-            if not PMT.ask("log in failed, try again?"):
-                LEETCODE_SESSION = None
-                break
+    if ARG_SESSION_NAME != "":
+        if regex.search('\W', ARG_SESSION_NAME):
+            LOG.failure("invalid session name: {}", LOG.format(
+                ARG_SESSION_NAME, flag=LOG.HIGHTLIGHT))
+            return 1
+        else:
+            use_session_name = ARG_SESSION_NAME
+
+
+    if ARG_ENABLE_LEETCODE_SESSION:
+
+        if use_session_name != "":
+            LEETCODE_SESSION = session.LeetCodeSession()
+
+            while not LEETCODE_SESSION.loginWithLeetCodeSession(use_session_name, use_cache=not ARG_NO_CACHE):
+                if not PMT.ask("log in failed, try again?"):
+                    LEETCODE_SESSION = None
+                    break
+        else:
+            LOG.warn("default session name is not set, run |ldt config session| to set the default session.")
 
     if not checkFile(ARG_QUESTIONS_LIST) or not checkFile(ARG_RESOLVE_LOGS):
         return 1

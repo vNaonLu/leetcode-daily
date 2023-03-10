@@ -36,5 +36,6 @@ from ldt_build import *
 from ldt_add import *
 from ldt_remove import *
 from ldt_update import *
+from ldt_config import *
 
 sys.exit(safeRun(ldtMain))

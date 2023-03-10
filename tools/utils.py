@@ -23,17 +23,17 @@ RUN_SCRIPT_NAME = f"{SCRIPT_NAME}_Run"
 BUILD_SCRIPT_NAME = f"{SCRIPT_NAME}_Build"
 REMOVE_SCRIPT_NAME = f"{SCRIPT_NAME}_Remove"
 UPDATE_SCRIPT_NAME = f"{SCRIPT_NAME}_Update"
+CONFIG_SCRIPT_NAME = f"{SCRIPT_NAME}_Config"
 UPDATE_ALL_SCRIPT_NAME = f"{UPDATE_SCRIPT_NAME}_All"
 UPDATE_README_SCRIPT_NAME = f"{UPDATE_SCRIPT_NAME}_Readme"
 UPDATE_QUESTIONS_LIST_SCRIPT_NAME = f"{UPDATE_SCRIPT_NAME}_QuestionsList"
 UPDATE_RESOLVE_REFERENCE_SCRIPT_NAME = f"{UPDATE_SCRIPT_NAME}_ResolveReference"
+CONFIG_SESSION_SCRIPT_NAME = f"{SCRIPT_NAME}_ConfigDefaultSession"
 PROJECT_ROOT = Path(__file__).parent.parent.resolve()
-CONFIG_RELATIVE = Path('./.config')
 SRC_RELATIVE = Path('./src')
 DOCS_RELATIVE = Path('./docs')
 ASSETS_RELATIVE = Path('./assets')
 BUILD_RELATIVE = Path('./build')
-CONFIG_ABSOLUTE = PROJECT_ROOT.joinpath(CONFIG_RELATIVE).resolve()
 SRC_ABSOLUTE = PROJECT_ROOT.joinpath(SRC_RELATIVE).resolve()
 DOCS_ABSOLUTE = PROJECT_ROOT.joinpath(DOCS_RELATIVE).resolve()
 ASSETS_ABSOLUTE = PROJECT_ROOT.joinpath(ASSETS_RELATIVE).resolve()
@@ -41,10 +41,11 @@ BUILD_ABSOLUTE = PROJECT_ROOT.joinpath(BUILD_RELATIVE).resolve()
 QUESTIONS_LOG_ABSOLUTE = SRC_ABSOLUTE.joinpath("solution_logs.csv")
 QUESTIONS_LIST_ABSOLUTE = SRC_ABSOLUTE.joinpath("questions_list.csv")
 README_ABSOLUTE = PROJECT_ROOT.joinpath("README.md")
-LEETCODE_SESSION_ABSOLUTE = CONFIG_ABSOLUTE.joinpath("leetcode_session.dat").resolve()
+
+LDTCONFIG_EXTENSION = ".ldtconf"
+LDTCONFIG_ABSOLUTE = PROJECT_ROOT.joinpath(LDTCONFIG_EXTENSION).resolve()
 
 TODAY = datetime.now()
-
 
 def concat(*args, delimiter: str = '\n'):
     if len(args) == 0:
