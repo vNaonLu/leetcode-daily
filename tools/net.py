@@ -14,6 +14,9 @@ HOME_URL = 'https://leetcode.com/'
 LOGIN_URL = 'https://leetcode.com/accounts/login/'
 ALL_PROBLEMS_URL = 'https://leetcode.com/problemset/all'
 GRAPHQL_URL = 'https://leetcode.com/graphql'
+PROBLEM_URL = 'https://leetcode.com/problems/{}/'
+SUBMIT_URL = 'https://leetcode.com/problems/{}/submit/'
+SUBMISSION_CHECK_URL = 'https://leetcode.com/submissions/detail/{}/check/'
 USER_AGENT = r'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36'
 
 REQUEST_OK = 0
@@ -32,6 +35,18 @@ def __toString(state: int):
     assert False
 
 
+def getProblemURL(slug: str):
+    return PROBLEM_URL.format(slug)
+
+
+def getSubmitUrl(slug: str):
+    return SUBMIT_URL.format(slug)
+
+
+def getSubmissionCheckUrl(submission_id: str):
+    return SUBMISSION_CHECK_URL.format(submission_id)
+
+
 def safeRequest(func: Callable):
     LOG = prompt.Log.getInstance()
 
@@ -48,6 +63,7 @@ def safeRequest(func: Callable):
 
 
 __QUESTIONS_LIST_CACHE = None
+
 
 def requestQuestionsList(timeout: int = 5):
     global __QUESTIONS_LIST_CACHE
@@ -85,7 +101,7 @@ def requestQuestionsList(timeout: int = 5):
     return state, None
 
 
-def requestGraphQL(payload: str, *, timeout: int = 5, headers: object, name: str, session = requests.Session(), cookies = None):
+def requestGraphQL(payload: str, *, timeout: int = 5, headers: object, name: str, session=requests.Session(), cookies=None):
     LOG = prompt.Log.getInstance()
 
     LOG.funcVerbose("request URL    : {}", GRAPHQL_URL)
@@ -135,42 +151,3 @@ def requestQuestionInformation(slug: int, *, timeout: int = 5):
     }
 
     return requestGraphQL(json.dumps(param), headers=HEADERS, timeout=timeout, name='Request Questions Information')
-
-
-def requestQuestionOfToday(*, timeout: int = 5):
-    param = {
-        'variables': {},
-        'query': '''query questionOfToday {
-          activeDailyCodingChallengeQuestion {
-                date
-                userStatus
-                link
-                question {
-                    acRate
-                    difficulty
-                    freqBar
-                    frontendQuestionId: questionFrontendId
-                    isFavor
-                    paidOnly: isPaidOnly
-                    status
-                    title
-                    titleSlug
-                    hasVideoSolution
-                    hasSolution
-                    topicTags {
-                        name
-                        id
-                        slug
-                    }
-                }
-            }
-        }'''}
-
-    HEADERS = {
-        'User-Agent': USER_AGENT,
-        'Connection': 'keep-alive',
-        'Content-Type': 'application/json',
-        'Referer': 'https://leetcode.com/problemset/all/'
-    }
-
-    return requestGraphQL(json.dumps(param), headers=HEADERS, timeout=timeout, name='Request Questions of Today')

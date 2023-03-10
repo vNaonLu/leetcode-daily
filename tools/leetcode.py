@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 from functools import partial
 from requests.cookies import RequestsCookieJar
+from enum import Enum
 import regex
 import json
 import requests
@@ -11,32 +12,65 @@ sys.dont_write_bytecode = True
 import net
 from utils import *
 
-class QuestionOfToday:
-    def __init__(self, content: object) -> None:
-        self.id = int(content['frontendQuestionId'])
-        self.paid_only = content['paidOnly']
-        self.difficulty = content['difficulty']
-        self.title = content['title']
-        self.slug = content['titleSlug']
 
+class Submission:
+    class Result(Enum):
+        PASSED = 0
+        NOT_SIGNED_IN = 1
+        HTTP_ERROR = 2
 
-def getQuestionOfToday(*, timeout: int = 5) -> QuestionOfToday | None:
-    LOG = prompt.Log.getInstance()
+        WRONG_ANSWER = 3
+        RUNTIME_ERROR = 4
+        COMPILE_ERROR = 5
+        UNDEFINED = 6
 
-    state, resp = net.requestQuestionOfToday(timeout=timeout)
-    if not (state == net.REQUEST_OK and
-            isinstance(resp, net.requests.Response) and resp.status_code == 200):
-        LOG.failure("network error")
-        return None
+    def __init__(self, *, resp: requests.Response = None):
+        self.result: Submission.Result = Submission.Result.NOT_SIGNED_IN
+        self.error_msg: str = ""
+        self.last_input: str = ""
+        self.expect_output: str = ""
+        if resp is not None:
+            if resp.status_code != 200:
+                self.result = Submission.Result.HTTP_ERROR
+                return
 
-    content = json.loads(resp.content.decode(
-        'utf-8'))['data']['activeDailyCodingChallengeQuestion']['question']
-    return QuestionOfToday(content)
+            content = json.loads(resp.content.decode('utf-8'))
+            msg = content["status_msg"]
+
+            if msg == "Accepted":
+                self.result = Submission.Result.PASSED
+            elif msg == "Compile Error":
+                self.result = Submission.Result.COMPILE_ERROR
+                self.error_msg = content['compile_error']
+            elif msg == "Runtime Error":
+                self.result = Submission.Result.RUNTIME_ERROR
+                self.error_msg = content['runtime_error']
+            elif msg == "Wrong Answer":
+                self.result = Submission.Result.WRONG_ANSWER
+                self.last_input = content['last_testcase']
+                self.expect_output = content['expected_output']
+            else:
+                self.result = Submission.Result.UNDEFINED
+
+    def __bool__(self):
+        return self.result == Submission.Result.PASSED
 
 
 class LeetCodeSession:
 
     LEETCODE_SESSION_KEY = "LEETCODE_SESSION"
+    FINISH = "Finish"
+
+    class QuestionOfToday:
+        def __init__(self, content: object) -> None:
+            import pprint
+            pprint.pprint(content)
+            self.id = int(content['question']['frontendQuestionId'])
+            self.paid_only = content['question']['paidOnly']
+            self.difficulty = content['question']['difficulty']
+            self.title = content['question']['title']
+            self.slug = content['question']['titleSlug']
+            self.done = content['userStatus'] == LeetCodeSession.FINISH
 
     def __init__(self) -> None:
         LOG = prompt.Log.getInstance()
@@ -57,6 +91,17 @@ class LeetCodeSession:
         for name, val in self.__cookies.items():
             LOG.funcVerbose("initialized cookies: {} = {}", name, val)
         LOG.funcVerbose("initialized recaptcha_key: {}", self.__recaptcha_key)
+
+    def isSignedIn(self) -> bool:
+        LOG = prompt.Log.getInstance()
+        if self.__is_signed_in:
+            self.__initUserData()
+
+            if not self.__is_signed_in:
+                LOG.log("logged out due to expired session.")
+                self.logout()
+
+        return self.__is_signed_in and self.__login_as != ""
 
     def __updateCookies(self, cookies: RequestsCookieJar):
         LOG = prompt.Log.getInstance()
@@ -108,7 +153,8 @@ class LeetCodeSession:
             pass
 
     def __handleUserData(self, resp: requests.Response):
-        content = json.loads(resp.content.decode('utf-8'))['data']['userStatus']
+        content = json.loads(resp.content.decode('utf-8')
+                             )['data']['userStatus']
         self.__login_as = content['username']
         self.__is_signed_in = content['isSignedIn']
 
@@ -123,7 +169,7 @@ class LeetCodeSession:
         return self.__reqPost(net.GRAPHQL_URL, headers=HEADERS, payload=PARAMS, callback=self.__handleUserData)
 
     def getQuestionOfToday(self):
-        PARAMS = r'{"query":"\n    query questionOfToday {\n  activeDailyCodingChallengeQuestion {\n    question {\n      difficulty\n      frontendQuestionId: questionFrontendId\n      paidOnly: isPaidOnly\n      title\n      titleSlug\n      }\n  }\n}\n    ","variables":{}}'
+        PARAMS = r'{"query":"\n    query questionOfToday {\n  activeDailyCodingChallengeQuestion {\n    userStatus\n    question {\n      difficulty\n      frontendQuestionId: questionFrontendId\n      paidOnly: isPaidOnly\n      title\n      titleSlug\n      }\n  }\n}\n    ","variables":{}}'
         HEADERS = {
             'User-Agent': net.USER_AGENT,
             'Connection': 'keep-alive',
@@ -138,8 +184,8 @@ class LeetCodeSession:
 
         self.__updateCookies(resp.cookies)
         content = json.loads(resp.content.decode(
-            'utf-8'))['data']['activeDailyCodingChallengeQuestion']['question']
-        return QuestionOfToday(content)
+            'utf-8'))['data']['activeDailyCodingChallengeQuestion']
+        return LeetCodeSession.QuestionOfToday(content)
 
     def clearLeetCodeSessionCache(self):
         LOG = prompt.Log.getInstance()
@@ -189,24 +235,89 @@ class LeetCodeSession:
 
             if self.__initUserData():
                 if self.__is_signed_in:
-                    TASK.done("done.", is_success=True)
+                    TASK.done("signed in as: {}", LOG.format(
+                        self.__login_as, flag=LOG.HIGHTLIGHT | LOG.BOLD), is_success=True)
                 else:
                     TASK.done("session expired.", is_success=False)
                     self.clearLeetCodeSessionCache()
             else:
                 TASK.done("failed to request user data.", is_success=False)
 
-        if self.__is_signed_in:
-            LOG.success("signed in as: {}", LOG.format(
-                self.__login_as, flag=LOG.HIGHTLIGHT | LOG.BOLD))
-            return True
-        return False
+        return self.__is_signed_in
+
+    def submitSolution(self, *, id: int, slug: str, content: str) -> Submission:
+        LOG = prompt.Log.getInstance()
+        if not self.isSignedIn():
+            return Submission()
+
+        PROBLEM_PAGE = net.getProblemURL(slug)
+
+        LOG.funcVerbose(
+            "trying to submit the solution for: {}. {}\n {}", id, slug, content)
+
+        PARAMS = {
+            "lang": "cpp",
+            "question_id": id,
+            "typed_code": content
+        }
+
+        HEADERS = {
+            'User-Agent': net.USER_AGENT,
+            'Connection': 'keep-alive',
+            'Content-Type': 'application/json',
+            'Referer': PROBLEM_PAGE,
+            'Origin': net.HOME_URL,
+        }
+
+        self.__reqGet(PROBLEM_PAGE, headers=HEADERS)
+
+        HEADERS["x-csrftoken"] = self.__cookies['csrftoken']
+        REQ = partial(self.__session.post, url=net.getSubmitUrl(
+            slug), headers=HEADERS, data=json.dumps(PARAMS).encode('utf-8'), cookies=self.__cookies)
+        stat, resp = net.safeRequest(REQ)
+
+        if stat != net.REQUEST_OK or not isinstance(resp, requests.Response) or resp.status_code != 200:
+            return Submission(resp)
+
+        self.__updateCookies(resp.cookies)
+
+        SUBMISSION_ID = json.loads(
+            resp.content.decode('utf-8'))['submission_id']
+        LOG.funcVerbose("got submission id: {}", SUBMISSION_ID)
+
+        result = None
+        while result is None:
+            time.sleep(1.5)
+            HEADERS["x-csrftoken"] = self.__cookies['csrftoken']
+            REQ = partial(self.__session.get, url=net.getSubmissionCheckUrl(
+                SUBMISSION_ID), headers=HEADERS, cookies=self.__cookies)
+            stat, resp = net.safeRequest(REQ)
+            if stat != net.REQUEST_OK or not isinstance(resp, requests.Response) or resp.status_code != 200:
+                continue
+            resp_content = json.loads(resp.content.decode('utf-8'))
+            LOG.funcVerbose("got submission state: {}", resp_content['state'])
+
+            if resp_content['state'] != "PENDING":
+                result = Submission(resp=resp)
+
+        return result
 
 
-LOG = prompt.Log.getInstance(verbose=True)
-session = LeetCodeSession()
+if __name__ == "__main__":
+    LOG = prompt.Log.getInstance(verbose=True)
+    session = LeetCodeSession()
 
-q = session.getQuestionOfToday()
-LOG.log(f'{q.id}')
+    LOG.log(session.loginWithLeetCodeSession())
+    # q = session.getQuestionOfToday()
+    # LOG.log(f'question of today: {q.id}')
+    # LOG.log(f'is finished      : {q.done}')
 
-LOG.log(session.loginWithLeetCodeSession())
+    # ans = '''class Solution {
+    # public:
+    #     vector<int> twoSum(vector<int>& nums, int target) {
+    #         return vector<int>{-1, -1};
+    #     }
+    # };'''
+
+    # r = session.submitSolution(id=1, slug='two-sum', content=ans)
+    # LOG.log('get result: {}', r.result)
