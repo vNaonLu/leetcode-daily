@@ -506,7 +506,7 @@ class _UnitTestStageFlavor(_UnitTestFlavor):
         return result
 
     def genExtraInputFromSubmissionResult(self, *, variable_prefix: str = "", input: str, output: str):
-        if not self.addInput('\n'.join(input)):
+        if not self.addInput(input):
             return ""
 
         if not self.addExpect(output):
@@ -717,7 +717,7 @@ class CPPCodeSnippet:
 
         return self._unittest_flavor.genUnitTestSnippet()
 
-    def genUnitTestFromSubmissionResult(self, *, intput: str, output: str) -> str:
+    def genUnitTestFromSubmissionResult(self, *, input: str, output: str) -> str:
         self._unittest_flavor.clear()
         result = self._unittest_flavor.genExtraInputFromSubmissionResult(input=input, output=output)
         if result != "":

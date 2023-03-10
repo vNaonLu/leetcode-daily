@@ -151,18 +151,17 @@ def _buildAndTest(*, build_path: Path, solution_file: SolutionFile, id: int,
             session_mode = leetcode_session is not None
 
             if session_mode:
-                LOG.log("passed all local test cases.")
                 TASK = LOG.createTaskLog("Submit to LeetCode")
-                TASK.begin()
-                LOG.print(answer, flag=LOG.DARK_GREEN)
+                TASK.begin("connecting to LeetCode...")
                 submission = leetcode_session.submitSolution(
                     id=detail.id, slug=detail.slug, content=answer)
 
                 if not submission:
                     Result = session.Submission.Result
                     test_passed = False
-                    TASK.done("not accepted by LeetCode", is_success=False)
                     if submission.result == Result.WRONG_ANSWER:
+                        TASK.done("testcase not passed: {}", repr(LOG.format(
+                            submission.last_input, flag=LOG.HIGHTLIGHT)), is_success=False)
                         unittest = cpp_solution.getUnitTestFromSubmissionResult(
                             name=f'Extra Testcase #{extra_input_idx}', suite_name=f'extra_testcase_{extra_input_idx}',
                             input=submission.last_input, output=submission.expect_output)
@@ -172,8 +171,8 @@ def _buildAndTest(*, build_path: Path, solution_file: SolutionFile, id: int,
                         LOG.success("added an extra testcase for solution:")
                         LOG.print(clangFormat(unittest), flag=LOG.VERBOSE)
                     else:
-                        LOG.failure("not handled the error: {}", LOG.format(
-                            submission.result, flag=LOG.HIGHTLIGHT))
+                        TASK.done("error: {}", LOG.format(
+                            submission.result, flag=LOG.HIGHTLIGHT), is_success=False)
                         LOG.log("switch the non-session mode.")
                         session_mode = False
                         leetcode_session = None
@@ -243,12 +242,12 @@ def _addAndPassTestsIfNecessary(*, build_path: Path, questions_list: QuestionsLi
 
 
 @cli.command(
-    cli.arg("-s", dest="leetcode_session", default=False, action="store_true",
-            help="enable the LeetCode session feature."),
     cli.arg("-C", dest="src_path", default=str(SRC_ABSOLUTE), action="store",
             metavar="[Source_Root]", help="specify the source root."),
     cli.arg("-B", dest="build_path", default=str(BUILD_ABSOLUTE), action="store",
             metavar="[Build_Path]", help="specify the directory to build. Default: './build'."),
+    cli.arg("--guest", dest="leetcode_session", default=True, action="store_false",
+            help="disable the LeetCode session feature."),
     cli.arg("--list", dest="questions_list_file", default=str(QUESTIONS_LIST_ABSOLUTE), action="store",
             nargs=1, metavar="[Ques_List]", help="specify the questions list in CSV format."),
     cli.arg("--resolve", dest="questions_log_file", default=str(QUESTIONS_LOG_ABSOLUTE), action="store",
@@ -352,7 +351,8 @@ def ldtAdd(args: object):
                 continue
 
         if not _addAndPassTestsIfNecessary(build_path=ARG_BUILD_PATH, questions_list=questions_list,
-                                           solution_file=solution_file, without_test=ARG_WITHOUT_TEST_FLAG):
+                                           solution_file=solution_file, without_test=ARG_WITHOUT_TEST_FLAG,
+                                           leetcode_session=LEETCODE_SESSION):
 
             LOG.failure("abort adding the solution #{}.", LOG.format(id, flag=LOG.HIGHTLIGHT))
 

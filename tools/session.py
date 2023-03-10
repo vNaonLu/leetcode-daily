@@ -22,7 +22,8 @@ class Submission:
         WRONG_ANSWER = 3
         RUNTIME_ERROR = 4
         COMPILE_ERROR = 5
-        UNDEFINED = 6
+        TLE_ERROR = 6
+        UNDEFINED = 7
 
     def __init__(self, *, resp: requests.Response = None):
         self.result: Submission.Result = Submission.Result.NOT_SIGNED_IN
@@ -47,6 +48,10 @@ class Submission:
                 self.error_msg = content['runtime_error']
             elif msg == "Wrong Answer":
                 self.result = Submission.Result.WRONG_ANSWER
+                self.last_input = content['last_testcase']
+                self.expect_output = content['expected_output']
+            elif msg == "Time Limit Exceeded":
+                self.result = Submission.Result.TLE_ERROR
                 self.last_input = content['last_testcase']
                 self.expect_output = content['expected_output']
             else:
