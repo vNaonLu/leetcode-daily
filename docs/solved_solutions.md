@@ -1,6 +1,6 @@
 # Solved Solutions List
 
-This document contains **906** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
+This document contains **907** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
 
 Some questions which are still being resolved are not shown in this page, more information about unsolved questions can be found at [docs/unsolved_solutions.md](./unsolved_solutions.md).
 
@@ -850,6 +850,7 @@ Some questions which are still being resolved are not shown in this page, more i
 |2164|[Sort Even and Odd Indices Independently](https://leetcode.com/problems/sort-even-and-odd-indices-independently/)|[src/q_2151_2200/q2164.cc](../src/q_2151_2200/q2164.cc)|2023/01/23 14:30|
 |2169|[Count Operations to Obtain Zero](https://leetcode.com/problems/count-operations-to-obtain-zero/)|[src/q_2151_2200/q2169.cc](../src/q_2151_2200/q2169.cc)|2023/02/16 18:40|
 |2180|[Count Integers With Even Digit Sum](https://leetcode.com/problems/count-integers-with-even-digit-sum/)|[src/q_2151_2200/q2180.cc](../src/q_2151_2200/q2180.cc)|2022/03/16 18:36|
+|2181|[Merge Nodes in Between Zeros](https://leetcode.com/problems/merge-nodes-in-between-zeros/)|[src/q_2151_2200/q2181.cc](../src/q_2151_2200/q2181.cc)|2023/03/11 01:36|
 |2187|[Minimum Time to Complete Trips](https://leetcode.com/problems/minimum-time-to-complete-trips/)|[src/q_2151_2200/q2187.cc](../src/q_2151_2200/q2187.cc)|2023/03/07 20:26|
 |2194|[Cells in a Range on an Excel Sheet](https://leetcode.com/problems/cells-in-a-range-on-an-excel-sheet/)|[src/q_2151_2200/q2194.cc](../src/q_2151_2200/q2194.cc)|2023/02/21 18:45|
 |2200|[Find All K-Distant Indices in an Array](https://leetcode.com/problems/find-all-k-distant-indices-in-an-array/)|[src/q_2151_2200/q2200.cc](../src/q_2151_2200/q2200.cc)|2022/03/13 14:53|
