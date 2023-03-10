@@ -1,6 +1,6 @@
 # Unsolved Solutions List
 
-There are **1680** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
+There are **1679** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
 
 The questions which have been solved are not shown in this page, more information about solved questions can be found at [docs/solved_solutions.md](./solved_solutions.md).
 
@@ -1437,7 +1437,6 @@ The questions which have been solved are not shown in this page, more informatio
 |2296|[Design a Text Editor](https://leetcode.com/problems/design-a-text-editor/)|Hard||
 |2297|[Jump Game VIII](https://leetcode.com/problems/jump-game-viii/)|Medium|🔒|
 |2298|[Tasks Count in the Weekend](https://leetcode.com/problems/tasks-count-in-the-weekend/)|Medium|🔒|
-|2299|[Strong Password Checker II](https://leetcode.com/problems/strong-password-checker-ii/)|Easy||
 |2300|[Successful Pairs of Spells and Potions](https://leetcode.com/problems/successful-pairs-of-spells-and-potions/)|Medium||
 |2301|[Match Substring After Replacement](https://leetcode.com/problems/match-substring-after-replacement/)|Hard||
 |2302|[Count Subarrays With Score Less Than K](https://leetcode.com/problems/count-subarrays-with-score-less-than-k/)|Hard||
