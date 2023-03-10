@@ -100,6 +100,22 @@ class CPPSolution:
         )
         return res
 
+    def getUnitTestFromSubmissionResult(self, *, name: str, suite_name: str, input: str, output: str):
+        res = concat(
+            f'// [{name}]',
+            '//  Input: {}'.format(input.replace("\n", "\n// ")),
+            '// Output: {}'.format(output.replace("\n", "\n// ")),
+            f'//',
+            f'',
+            f'LEETCODE_SOLUTION_UNITTEST({self._id}, {self._cpp_slug}, {suite_name}) {{',
+            self._code_snippet.genUnitTestFromSubmissionResult(
+                input=input, output=output),
+            f'}}',
+            f'',
+            f'',
+        )
+        return res
+
     def _defaultExamples(self) -> str:
         res = ""
         if not self._content_info:
@@ -170,3 +186,39 @@ class CPPSolution:
             self._defaultExamples(),
             ''
         )
+
+
+if __name__ == "__main__":
+    import json, pprint
+    import net
+    from questions import *
+    LOG = prompt.Log.getInstance(verbose=True)
+    questions_list = QuestionsList(QUESTIONS_LIST_ABSOLUTE)
+
+    id = int(sys.argv[1])
+    slug = questions_list[id].slug
+
+
+    state, resp = net.requestQuestionInformation(slug)
+
+    if not(state == net.REQUEST_OK and \
+            isinstance(resp, net.requests.Response) and resp.status_code == 200):
+        LOG.failure("network error")
+        sys.exit()
+
+    raw_content = json.loads(resp.content.decode('utf-8'))['data']['question']
+    cpp_solution = CPPSolution(raw_content)
+    LOG.print(clangFormat(cpp_solution.solutionTemplate()))
+
+    inp = inputByEditor(cpp_solution.genExtraInputPrompt(id=1, title="TwoSum"))
+    input, expect = cpp_solution.parseExtraInput(inp)
+    LOG.log(f'{input}, {expect}')
+
+    if input and expect:
+        ut = cpp_solution.getUnitTest(name="Sample",
+                                      suite_name="input_1", input=input, output=expect)
+        LOG.print(ut)
+
+        LOG.log("after clang format:")
+
+        LOG.print(clangFormat(ut))

@@ -29,6 +29,9 @@ class _UnitTestFlavor:
     def genUnitTestSnippet(self, *, variable_prefix: str = ""):
         return ""
 
+    def genExtraInputFromSubmissionResult(self, *, variable_prefix: str = "", input: str, output: str):
+        return ""
+
     def parseExtraInput(self, input: str) -> tuple[str, str]:
         return None, None
 
@@ -76,7 +79,7 @@ class _UnitTestUnsupportFlavor(_UnitTestFlavor):
 
 class _UnitTestRegularFlavor(_UnitTestFlavor):
     def __init__(self, *,
-                 constructor:  _CPPCodeSnippetInformation._CPPSolutionFunction,
+                 constructor: _CPPCodeSnippetInformation._CPPSolutionFunction,
                  instance: str,
                  function: _CPPCodeSnippetInformation._CPPSolutionFunction,
                  compare_in_any_order: bool = False) -> None:
@@ -209,6 +212,27 @@ class _UnitTestRegularFlavor(_UnitTestFlavor):
                 result += f'{destroy};'
 
         return result
+
+    def genExtraInputFromSubmissionResult(self, *, variable_prefix: str = "", input: str, output: str):
+        LOG = prompt.Log.getInstance()
+        args = input.splitlines()
+
+        if len(args) != len(self._function.input_args):
+            LOG.failure("the length of input arguments does not same as function args.")
+            return ""
+
+        inputs_args = []
+        for idx in range(len(args)):
+            name = self._function.input_args[idx]
+            inputs_args.append(f'{name} = {args[idx].strip()}')
+
+        if not self.addInput('\n'.join(inputs_args)):
+            return ""
+
+        if not self.addExpect(output):
+            return ""
+
+        return self.genUnitTestSnippet(variable_prefix=variable_prefix)
 
     def parseExtraInput(self, input: str) -> bool:
         LOG = prompt.Log.getInstance()
@@ -481,6 +505,15 @@ class _UnitTestStageFlavor(_UnitTestFlavor):
 
         return result
 
+    def genExtraInputFromSubmissionResult(self, *, variable_prefix: str = "", input: str, output: str):
+        if not self.addInput('\n'.join(input)):
+            return ""
+
+        if not self.addExpect(output):
+            return ""
+
+        return self.genUnitTestSnippet(variable_prefix=variable_prefix)
+
     def _verifyExtraInput(self, input: str, output: str):
         LOG = prompt.Log.getInstance()
         input = input.replace('\xa0', '')
@@ -546,9 +579,11 @@ class _UnitTestStageFlavor(_UnitTestFlavor):
         idx = 0
         for step in stages:
             step.addInput(mat.group(f"step_{idx}").strip())
-            input_args.append('[{}]'.format(','.join([str(val) for _, val in step._inputs])))
+            input_args.append('[{}]'.format(
+                ','.join([str(val) for _, val in step._inputs])))
             idx += 1
-        input_str = '[{}] [{}]'.format(','.join(input_funcs), ','.join(input_args))
+        input_str = '[{}] [{}]'.format(
+            ','.join(input_funcs), ','.join(input_args))
 
         # Outputs
         idx = 0
@@ -681,6 +716,13 @@ class CPPCodeSnippet:
             return self._genSkipped()
 
         return self._unittest_flavor.genUnitTestSnippet()
+
+    def genUnitTestFromSubmissionResult(self, *, intput: str, output: str) -> str:
+        self._unittest_flavor.clear()
+        result = self._unittest_flavor.genExtraInputFromSubmissionResult(input=input, output=output)
+        if result != "":
+            return result
+        return self._genSkipped()
 
     def genExtraInputPrompt(self, *, id: int, title: str):
         return self._unittest_flavor.genExtraInputPrompt(id=id, title=title)

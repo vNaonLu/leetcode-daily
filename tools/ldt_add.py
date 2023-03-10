@@ -13,6 +13,7 @@ from questions import *
 from filesystem import *
 import net
 import cli
+import session
 
 
 def _getComplexityInformation(id: int, snippets: str):
@@ -127,7 +128,8 @@ def _addResolveLogs(*, solution_file: SolutionFile, resolve_logs: ResolveLogsFil
 
 
 def _buildAndTest(*, build_path: Path, solution_file: SolutionFile, id: int,
-                  detail: QuestionDetails, cpp_solution: CPPSolution) -> bool:
+                  detail: QuestionDetails, cpp_solution: CPPSolution,
+                  leetcode_session: session.LeetCodeSession) -> bool:
     PMT = prompt.Prompt.getInstance()
     LOG = prompt.Log.getInstance()
 
@@ -145,26 +147,59 @@ def _buildAndTest(*, build_path: Path, solution_file: SolutionFile, id: int,
             ldtRunImpl(build_path=build_path, infra_test=False, ids=[id]) == 0
 
         if test_passed:
-            LOG.log("while passed all local test cases, "
-                    "please try submitting to LeetCode to see whether the solution is correct:")
-            LOG.print(clangFormat(parseSolution(solution_file.read_text())),
-                      flag=LOG.DARK_GREEN)
-            if not PMT.ask("was the solution accepted by LeetCode?"):
-                test_passed = False
+            answer = clangFormat(parseSolution(solution_file.read_text()))
+            session_mode = leetcode_session is not None
 
-                if PMT.ask("add an extra test case for unittest?"):
-                    extra_input = inputByEditor(cpp_solution.genExtraInputPrompt(id=id,
-                                                                                 title=detail.title))
-                    input, expect = cpp_solution.parseExtraInput(extra_input)
-                    if input and expect:
-                        unittest = cpp_solution.getUnitTest(name=f'Extra Testcase #{extra_input_idx}',
-                                                            suite_name=f'extra_testcase_{extra_input_idx}',
-                                                            input=input, output=expect)
+            if session_mode:
+                LOG.log("passed all local test cases.")
+                TASK = LOG.createTaskLog("Submit to LeetCode")
+                TASK.begin()
+                LOG.print(answer, flag=LOG.DARK_GREEN)
+                submission = leetcode_session.submitSolution(
+                    id=detail.id, slug=detail.slug, content=answer)
+
+                if not submission:
+                    Result = session.Submission.Result
+                    test_passed = False
+                    TASK.done("not accepted by LeetCode", is_success=False)
+                    if submission.result == Result.WRONG_ANSWER:
+                        unittest = cpp_solution.getUnitTestFromSubmissionResult(
+                            name=f'Extra Testcase #{extra_input_idx}', suite_name=f'extra_testcase_{extra_input_idx}',
+                            input=submission.last_input, output=submission.expect_output)
                         extra_input_idx += 1
                         content = solution_file.read_text() + f'\n{unittest}'
                         solution_file.write_text(clangFormat(content))
                         LOG.success("added an extra testcase for solution:")
                         LOG.print(clangFormat(unittest), flag=LOG.VERBOSE)
+                    else:
+                        LOG.failure("not handled the error: {}", LOG.format(
+                            submission.result, flag=LOG.HIGHTLIGHT))
+                        LOG.log("switch the non-session mode.")
+                        session_mode = False
+                        leetcode_session = None
+                else:
+                    TASK.done("accepted by LeetCode", is_success=True)
+
+            if not session_mode:
+                LOG.log("while passed all local test cases, "
+                        "please try submitting to LeetCode to see whether the solution is correct:")
+                LOG.print(answer, flag=LOG.DARK_GREEN)
+                if not PMT.ask("was the solution accepted by LeetCode?"):
+                    test_passed = False
+
+                    if PMT.ask("add an extra test case for unittest?"):
+                        extra_input = inputByEditor(cpp_solution.genExtraInputPrompt(id=id,
+                                                                                     title=detail.title))
+                        input, expect = cpp_solution.parseExtraInput(extra_input)
+                        if input and expect:
+                            unittest = cpp_solution.getUnitTest(name=f'Extra Testcase #{extra_input_idx}',
+                                                                suite_name=f'extra_testcase_{extra_input_idx}',
+                                                                input=input, output=expect)
+                            extra_input_idx += 1
+                            content = solution_file.read_text() + f'\n{unittest}'
+                            solution_file.write_text(clangFormat(content))
+                            LOG.success("added an extra testcase for solution:")
+                            LOG.print(clangFormat(unittest), flag=LOG.VERBOSE)
 
         if not test_passed:
             if not PMT.ask("the solution #{} failed to pass, continue to solve?",
@@ -177,7 +212,8 @@ def _buildAndTest(*, build_path: Path, solution_file: SolutionFile, id: int,
 
 
 def _addAndPassTestsIfNecessary(*, build_path: Path, questions_list: QuestionsList,
-                                solution_file: SolutionFile, without_test: bool) -> bool:
+                                solution_file: SolutionFile, without_test: bool,
+                                leetcode_session: session.LeetCodeSession) -> bool:
     LOG = prompt.Log.getInstance()
     ID = solution_file.id()
 
@@ -200,12 +236,15 @@ def _addAndPassTestsIfNecessary(*, build_path: Path, questions_list: QuestionsLi
     solution_file.write_text(clangFormat(solution_file.read_text()))
 
     if not without_test:
-        return _buildAndTest(build_path=build_path, solution_file=solution_file, id=ID, detail=INFO, cpp_solution=cpp_solution)
+        return _buildAndTest(build_path=build_path, solution_file=solution_file, id=ID, detail=INFO,
+                             cpp_solution=cpp_solution, leetcode_session=leetcode_session)
 
     return True
 
 
 @cli.command(
+    cli.arg("-s", dest="leetcode_session", default=False, action="store_true",
+            help="enable the LeetCode session feature."),
     cli.arg("-C", dest="src_path", default=str(SRC_ABSOLUTE), action="store",
             metavar="[Source_Root]", help="specify the source root."),
     cli.arg("-B", dest="build_path", default=str(BUILD_ABSOLUTE), action="store",
@@ -256,10 +295,21 @@ def ldtAdd(args: object):
     ARG_ASSETS_PATH = Path(getattr(args, "assets_path")).resolve()
     ARG_DOCS_PATH = Path(getattr(args, "docs_path")).resolve()
     ARG_README = Path(getattr(args, "readme_path")).resolve()
+    ARG_ENABLE_LEETCODE_SESSION = getattr(args, "leetcode_session")
     ARG_WITHOUT_TEST_FLAG = getattr(args, "without_test")
     ARG_WITHOUT_UPDATE_FLAG = getattr(args, "without_update")
     ARG_WITHOUT_COMMIT_FLAG = getattr(args, "without_commit")
     ARG_IDS = getattr(args, "ids")
+
+    LEETCODE_SESSION: session.LeetCodeSession = None
+
+    if ARG_ENABLE_LEETCODE_SESSION:
+        LEETCODE_SESSION = session.LeetCodeSession()
+
+        while not LEETCODE_SESSION.loginWithLeetCodeSession():
+            if not PMT.ask("log in failed, try again?"):
+                LEETCODE_SESSION = None
+                break
 
     if not checkFile(ARG_QUESTIONS_LIST) or not checkFile(ARG_RESOLVE_LOGS):
         return 1
