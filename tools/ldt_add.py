@@ -154,7 +154,7 @@ def _buildAndTest(*, build_path: Path, solution_file: SolutionFile, id: int,
                 TASK = LOG.createTaskLog("Submit to LeetCode")
                 TASK.begin("connecting to LeetCode...")
                 submission = leetcode_session.submitSolution(
-                    id=detail.id, slug=detail.slug, content=answer)
+                    backend_id=detail.backend_id, slug=detail.slug, content=answer)
 
                 if not submission:
                     Result = session.Submission.Result
@@ -264,6 +264,8 @@ def _addAndPassTestsIfNecessary(*, build_path: Path, questions_list: QuestionsLi
             help="disable update references after running tests."),
     cli.arg("--no-commit", dest="without_commit", default=False, action="store_true",
             help="disable automatic commit after references updating."),
+    cli.arg("--no-cache", dest="no_cache", default=False, action="store_true",
+            help="delete the LeetCode session cache."),
     cli.arg("-v", "--verbose", dest="verbose", default=False, action="store_true",
             help="enable verbose logging."),
     cli.arg("ids", metavar="id", nargs="+", type=int, help="question identifiers to add."),
@@ -298,6 +300,7 @@ def ldtAdd(args: object):
     ARG_WITHOUT_TEST_FLAG = getattr(args, "without_test")
     ARG_WITHOUT_UPDATE_FLAG = getattr(args, "without_update")
     ARG_WITHOUT_COMMIT_FLAG = getattr(args, "without_commit")
+    ARG_NO_CACHE = getattr(args, "no_cache")
     ARG_IDS = getattr(args, "ids")
 
     LEETCODE_SESSION: session.LeetCodeSession = None
@@ -305,7 +308,7 @@ def ldtAdd(args: object):
     if ARG_ENABLE_LEETCODE_SESSION:
         LEETCODE_SESSION = session.LeetCodeSession()
 
-        while not LEETCODE_SESSION.loginWithLeetCodeSession():
+        while not LEETCODE_SESSION.loginWithLeetCodeSession(use_cache=not ARG_NO_CACHE):
             if not PMT.ask("log in failed, try again?"):
                 LEETCODE_SESSION = None
                 break

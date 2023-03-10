@@ -26,16 +26,19 @@ class Submission:
         UNDEFINED = 7
 
     def __init__(self, *, resp: requests.Response = None):
+        LOG = prompt.Log.getInstance()
         self.result: Submission.Result = Submission.Result.NOT_SIGNED_IN
         self.error_msg: str = ""
         self.last_input: str = ""
         self.expect_output: str = ""
         if resp is not None:
             if resp.status_code != 200:
+                LOG.funcVerbose("get status code: {}", resp.status_code)
                 self.result = Submission.Result.HTTP_ERROR
                 return
 
             content = json.loads(resp.content.decode('utf-8'))
+            LOG.funcVerbose("get content: {}", resp.content.decode('utf-8'))
             msg = content["status_msg"]
 
             if msg == "Accepted":
@@ -250,7 +253,7 @@ class LeetCodeSession:
 
         return self.__is_signed_in
 
-    def submitSolution(self, *, id: int, slug: str, content: str) -> Submission:
+    def submitSolution(self, *, backend_id: int, slug: str, content: str) -> Submission:
         LOG = prompt.Log.getInstance()
         if not self.isSignedIn():
             return Submission()
@@ -258,11 +261,11 @@ class LeetCodeSession:
         PROBLEM_PAGE = net.getProblemURL(slug)
 
         LOG.funcVerbose(
-            "trying to submit the solution for: {}. {}\n {}", id, slug, content)
+            "trying to submit the solution for: {}. {}\n {}", backend_id, slug, content)
 
         PARAMS = {
             "lang": "cpp",
-            "question_id": id,
+            "question_id": backend_id,
             "typed_code": content
         }
 

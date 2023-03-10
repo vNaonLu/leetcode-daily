@@ -70,12 +70,12 @@ def updateQuestionsListImpl(*, questions_list: QuestionsList, list_path: Path):
                 break
         try_cnt += 1
 
+    raw_list.sort(key=lambda q: q['stat']['frontend_question_id'])
+
     if raw_list == None or len(questions_list) == len(raw_list):
-        # TODO: update new questions list from LeetCode since the details change is possible.
-        LOG.log("no new question found, skipped updating question list.")
+        LOG.log("no new question found, skipped append question list.")
     else:
-        raw_list.sort(key=lambda q: q['stat']['frontend_question_id'])
-        LOG.log("{} new questions found, update to the questions list.",
+        LOG.log("{} new questions found, append to the questions list.",
                 LOG.format(len(raw_list) - len(questions_list), flag=LOG.HIGHTLIGHT))
 
         for info in raw_list:
@@ -83,11 +83,32 @@ def updateQuestionsListImpl(*, questions_list: QuestionsList, list_path: Path):
             if ID not in questions_list:
                 detail = QuestionDetails()
                 detail.id = ID
+                detail.backend_id = info['stat']['question_id']
                 detail.title = info['stat']['question__title']
                 detail.level = info['difficulty']['level']
                 detail.slug = info['stat']['question__title_slug']
                 detail.paid = info['paid_only']
                 questions_list[ID] = detail
+
+    def compareAndReturn(id: int, label: str, old, new):
+        if old != new:
+            LOG.log("update question #{}'s {}: {} => {}",
+                    LOG.format(id, flag=LOG.HIGHTLIGHT), label, old, new)
+        return new
+
+    for info in raw_list:
+        ID = info['stat']['frontend_question_id']
+        DETAIL = questions_list[ID]
+        DETAIL.backend_id = compareAndReturn(ID, "backend id", DETAIL.backend_id,
+                                             info['stat']['question_id'])
+        DETAIL.title = compareAndReturn(ID, "title", DETAIL.title,
+                                        info['stat']['question__title'])
+        DETAIL.level = compareAndReturn(ID, "difficulty", DETAIL.level,
+                                        info['difficulty']['level'])
+        DETAIL.slug = compareAndReturn(ID, "slug", DETAIL.slug,
+                                       info['stat']['question__title_slug'])
+        DETAIL.paid = compareAndReturn(ID, "paid info", DETAIL.paid,
+                                       info['paid_only'])
 
     if not questions_list.isGood():
         LOG.failure("refused to update due to invalid questions list.")
@@ -97,7 +118,8 @@ def updateQuestionsListImpl(*, questions_list: QuestionsList, list_path: Path):
     if not questions_list.save(list_path):
         LOG.failure("failed to save the question list.")
         return False
-    LOG.success("saved the question list: {}", LOG.format(list_path, flag=LOG.HIGHTLIGHT))
+    LOG.success("saved the question list: {}",
+                LOG.format(list_path, flag=LOG.HIGHTLIGHT))
     return True
 
 
@@ -106,7 +128,6 @@ def updateResolveReferenceImpl(*, docs_path: Path, assets_path: Path, src_path: 
     assert assets_path.exists() and assets_path.is_dir()
     assert src_path.exists() and src_path.is_dir()
     LOG = prompt.Log.getInstance()
-
 
     cnt_by_level = [0, 0, 0]
     cnt_solved_by_level = [0, 0, 0]
@@ -210,7 +231,7 @@ def ldtCatImpl(*, id: int, src_path: Path):
     ARG_SRC_PATH = src_path
 
     LOG.log("collecting the details for the solution of question #{}.",
-              LOG.format(ARG_ID, flag=LOG.HIGHTLIGHT))
+            LOG.format(ARG_ID, flag=LOG.HIGHTLIGHT))
     qf = SolutionFile(ARG_ID, ARG_SRC_PATH)
 
     LOG.verbose("cat LeetCode solution...")
@@ -247,6 +268,7 @@ def ldtCatImpl(*, id: int, src_path: Path):
 
     return 0
 
+
 def ldtGenImpl(*, src_path: Path, build_path: Path, build_flag: str, compile_commands_flag: str, leetcode_test_flag: str, infra_test_flag: str):
     LOG = prompt.Log.getInstance()
     ARG_SRC_PATH = src_path
@@ -256,9 +278,11 @@ def ldtGenImpl(*, src_path: Path, build_path: Path, build_flag: str, compile_com
     ARG_LEETCODE_TEST_FLAG = leetcode_test_flag
     ARG_INFRA_TEST_FLAG = infra_test_flag
 
-    LOG.verbose("checking whether the CMakeLists.txt exists in the directory: {}", ARG_SRC_PATH)
+    LOG.verbose(
+        "checking whether the CMakeLists.txt exists in the directory: {}", ARG_SRC_PATH)
     if not ARG_SRC_PATH.joinpath("CMakeLists.txt").exists():
-        LOG.failure("there is no |CMakeLists.txt| exists in the directory: {}", ARG_SRC_PATH)
+        LOG.failure(
+            "there is no |CMakeLists.txt| exists in the directory: {}", ARG_SRC_PATH)
         return 1
 
     cmake = findExecutable("cmake")
@@ -333,7 +357,6 @@ def ldtBuildImpl(*, build_path: Path, build_args: str = ""):
 
     TASK = LOG.createTaskLog("Build Project")
 
-
     def stdoutCallback(out: str):
         percent, msg = parseBuildLog(out)
         TASK.log(msg, percent=percent)
@@ -345,11 +368,13 @@ def ldtBuildImpl(*, build_path: Path, build_args: str = ""):
             asyncStdout(proc, stdoutCallback)
 
             if proc.poll() != 0:
-                TASK.done("failed to build in {}.", ARG_BUILD_PATH, is_success=False)
+                TASK.done("failed to build in {}.",
+                          ARG_BUILD_PATH, is_success=False)
                 LOG.print(proc.stderr.read(), flag=LOG.VERBOSE)
                 return 1
 
-            TASK.done("successfully built in {}.", ARG_BUILD_PATH, is_success=True)
+            TASK.done("successfully built in {}.",
+                      ARG_BUILD_PATH, is_success=True)
             return 0
     except KeyboardInterrupt:
         if TASK.isActive():
@@ -391,7 +416,8 @@ def ldtRunImpl(*, build_path: Path, infra_test: bool, ids: list[int] = []):
 
         if len(ARG_IDS) > 0:
             if ARG_INFRA_TEST:
-                LOG.warn("discard the specified ids due to |--infra| enabled: {}", ARG_IDS)
+                LOG.warn(
+                    "discard the specified ids due to |--infra| enabled: {}", ARG_IDS)
                 ARG_IDS = []
             else:
                 solutions = [f'q{id}_*' for id in ARG_IDS]
@@ -435,19 +461,22 @@ def ldtRunImpl(*, build_path: Path, infra_test: bool, ids: list[int] = []):
                     return 1
 
                 elif len(failed) == 0 and len(missing_ids) > 0:
-                    LOG.failure("solutions without any tests: {}", list(missing_ids))
+                    LOG.failure("solutions without any tests: {}",
+                                list(missing_ids))
                     return 1
 
                 else:
                     LOG.failure("failed on test(s): {}", list(failed))
 
                     for test in failed:
-                        LOG.failure("{} failed to pass:", LOG.format(test, flag=LOG.HIGHTLIGHT))
+                        LOG.failure("{} failed to pass:", LOG.format(
+                            test, flag=LOG.HIGHTLIGHT))
                         block = parseTestBlock(result, test)
                         LOG.print(block, flag=LOG.VERBOSE)
 
                     if len(missing_ids) > 1:
-                        LOG.failure("there is no tests for the solution: {}", list(missing_ids))
+                        LOG.failure(
+                            "there is no tests for the solution: {}", list(missing_ids))
 
                     return 1
 
