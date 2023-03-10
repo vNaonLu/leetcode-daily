@@ -11,6 +11,7 @@ from utils import *
 from cpp_solution import *
 from questions import *
 from filesystem import *
+from config import *
 import net
 import cli
 import session
@@ -246,18 +247,20 @@ def _addAndPassTestsIfNecessary(*, build_path: Path, questions_list: QuestionsLi
             metavar="[Source_Root]", help="specify the source root."),
     cli.arg("-B", dest="build_path", default=str(BUILD_ABSOLUTE), action="store",
             metavar="[Build_Path]", help="specify the directory to build. Default: './build'."),
+    cli.arg("--session", dest="session_name", default="", action="store",
+            help="explicitly use specific session cache."),
     cli.arg("--guest", dest="leetcode_session", default=True, action="store_false",
-            help="disable the LeetCode session feature."),
+            help="identifier to skip the leetcode session establishment."),
     cli.arg("--list", dest="questions_list_file", default=str(QUESTIONS_LIST_ABSOLUTE), action="store",
             nargs=1, metavar="[Ques_List]", help="specify the questions list in CSV format."),
     cli.arg("--resolve", dest="questions_log_file", default=str(QUESTIONS_LOG_ABSOLUTE), action="store",
             nargs=1, metavar="[Solve_Log]", help="specify the resolve log in CSV format."),
     cli.arg("--assets", dest="assets_path", default=str(ASSETS_ABSOLUTE), action="store",
-            nargs=1, metavar="[Assets_path]", help="specify the directory to save created assets."),
+            nargs=1, metavar="[Assets_Path]", help="specify the directory to save created assets."),
     cli.arg("--docs", dest="docs_path", default=str(DOCS_ABSOLUTE), action="store",
-            metavar="[Docs_path]", help="specify the directory to save created documents."),
+            metavar="[Docs_Path]", help="specify the directory to save created documents."),
     cli.arg("--readme", dest="readme_path", default=str(README_ABSOLUTE), action="store",
-            metavar="[Docs_path]", help="specify the file to save readme."),
+            metavar="[Docs_Path]", help="specify the file to save readme."),
     cli.arg("--without-test", dest="without_test", default=False, action="store_true",
             help="disable run test after each problem solving."),
     cli.arg("--without-update", dest="without_update", default=False, action="store_true",
@@ -268,8 +271,9 @@ def _addAndPassTestsIfNecessary(*, build_path: Path, questions_list: QuestionsLi
             help="delete the LeetCode session cache."),
     cli.arg("-v", "--verbose", dest="verbose", default=False, action="store_true",
             help="enable verbose logging."),
-    cli.arg("ids", metavar="id", nargs="+", type=int, help="question identifiers to add."),
-    formatter_class=RawTextHelpFormatter, usage="%(prog)s [options] id [id ...]",
+    cli.arg("ids", metavar="id", nargs="?", default=[],
+            type=int, help="question identifiers to add."),
+    formatter_class=RawTextHelpFormatter, usage="%(prog)s [options] [id [id ...]]",
     name="add", prog=ADD_SCRIPT_NAME,
     help=fixedWidth(
         "add questions by their LeetCode identifier and generate C++ solution template.",
@@ -277,9 +281,9 @@ def _addAndPassTestsIfNecessary(*, build_path: Path, questions_list: QuestionsLi
     ),
     description=fixedWidth(
         'A script to add multiple unsolve questions by their LeetCode question number, '
-        'and generate a C++ solution template, which is based on the code snippet queied'
-        'from LeetCode, with GoogleTest interface and several test cases based on'
-        'examples on the LeetCode website. This script will do the process:',
+        'and generate a C++ solution template, with GoogleTest interface and several test cases based on'
+        'examples on the LeetCode website. This script will automatically grab the question of today if '
+        '|ids| is empty and |--guest| is not specified. This script will do the process:',
         '  - Generate the C++ template, and open an editor to solve.',
         '  - Run the testcases.',
         '  - Updates all references such as documents and diagrams.',
@@ -289,6 +293,8 @@ def _addAndPassTestsIfNecessary(*, build_path: Path, questions_list: QuestionsLi
 def ldtAdd(args: object):
     PMT = prompt.Prompt.getInstance()
     LOG = prompt.Log.getInstance(verbose=getattr(args, "verbose"))
+    CONFIG = Configuration.getInstance()
+
     ARG_SRC_PATH = Path(getattr(args, "src_path")).resolve()
     ARG_BUILD_PATH = Path(getattr(args, "build_path")).resolve()
     ARG_QUESTIONS_LIST = Path(getattr(args, "questions_list_file")).resolve()
@@ -296,30 +302,46 @@ def ldtAdd(args: object):
     ARG_ASSETS_PATH = Path(getattr(args, "assets_path")).resolve()
     ARG_DOCS_PATH = Path(getattr(args, "docs_path")).resolve()
     ARG_README = Path(getattr(args, "readme_path")).resolve()
+    ARG_SESSION_NAME = getattr(args, "session_name")
     ARG_ENABLE_LEETCODE_SESSION = getattr(args, "leetcode_session")
     ARG_WITHOUT_TEST_FLAG = getattr(args, "without_test")
     ARG_WITHOUT_UPDATE_FLAG = getattr(args, "without_update")
     ARG_WITHOUT_COMMIT_FLAG = getattr(args, "without_commit")
     ARG_NO_CACHE = getattr(args, "no_cache")
-    ARG_IDS = getattr(args, "ids")
+    ARG_IDS: list[int] = getattr(args, "ids")
 
     LEETCODE_SESSION: session.LeetCodeSession = None
 
-    if ARG_ENABLE_LEETCODE_SESSION:
-        LEETCODE_SESSION = session.LeetCodeSession()
+    use_session_name = CONFIG.default_user
 
-        while not LEETCODE_SESSION.loginWithLeetCodeSession(use_cache=not ARG_NO_CACHE):
-            if not PMT.ask("log in failed, try again?"):
-                LEETCODE_SESSION = None
-                break
+    if ARG_SESSION_NAME != "":
+        if regex.search('\W', ARG_SESSION_NAME):
+            LOG.failure("invalid session name: {}", LOG.format(
+                ARG_SESSION_NAME, flag=LOG.HIGHTLIGHT))
+            return 1
+        else:
+            use_session_name = ARG_SESSION_NAME
+
+
+    if ARG_ENABLE_LEETCODE_SESSION:
+
+        if use_session_name != "":
+            LEETCODE_SESSION = session.LeetCodeSession()
+
+            while not LEETCODE_SESSION.loginWithLeetCodeSession(use_session_name, use_cache=not ARG_NO_CACHE):
+                if not PMT.ask("log in failed, try again?"):
+                    LEETCODE_SESSION = None
+                    break
+        else:
+            LOG.warn("default session name is not set, run |ldt config session| to set the default session.")
 
     if not checkFile(ARG_QUESTIONS_LIST) or not checkFile(ARG_RESOLVE_LOGS):
         return 1
 
     if not checkPath(ARG_ASSETS_PATH) or not checkPath(ARG_DOCS_PATH) or not checkPath(ARG_SRC_PATH):
         return 1
-    
-    LOGS_PARSE_TASK = LOG.createTaskLog("Parse Resolving Logs")
+
+    LOGS_PARSE_TASK = LOG.createTaskLog("Parse Solution Logs")
     LOGS_PARSE_TASK.begin("parsing the resolved logs: {}", ARG_RESOLVE_LOGS)
     resolve_logs = ResolveLogsFile(ARG_RESOLVE_LOGS)
     LOGS_PARSE_TASK.done("loaded {} resolved logs from: {}",
@@ -327,13 +349,36 @@ def ldtAdd(args: object):
                          LOG.format(ARG_RESOLVE_LOGS, flag=LOG.HIGHTLIGHT),
                          is_success=True)
 
-    QLIST_PARSE_TASK = LOG.createTaskLog("Parse Questions list")
+    QLIST_PARSE_TASK = LOG.createTaskLog("Parse Questions List")
     QLIST_PARSE_TASK.begin("parsing the questions list: {}", ARG_QUESTIONS_LIST)
     questions_list = QuestionsList(ARG_QUESTIONS_LIST)
     QLIST_PARSE_TASK.done("loaded {} questions details from: {}",
                           LOG.format(len(questions_list), flag=LOG.HIGHTLIGHT),
                           LOG.format(ARG_QUESTIONS_LIST, flag=LOG.HIGHTLIGHT),
                           is_success=True)
+
+    if len(ARG_IDS) == 0 and LEETCODE_SESSION:
+        TASK = LOG.createTaskLog("Question of Today")
+        question_of_today: session.LeetCodeSession.QuestionOfToday = None
+
+        try_cnt = 0
+        TASK.begin("request question of today...")
+        while not question_of_today:
+            try:
+                time.sleep(1)
+                TASK.log("request question of today...{}",
+                         f'({try_cnt})' if try_cnt > 0 else "")
+                question_of_today = LEETCODE_SESSION.getQuestionOfToday()
+                try_cnt += 1
+            except KeyboardInterrupt:
+                break
+
+        if question_of_today:
+            TASK.done("get {}", LOG.format('{}. {}', question_of_today.id,
+                      question_of_today.title, flag=LOG.HIGHTLIGHT), is_success=True)
+            ARG_IDS.append(question_of_today.id)
+        else:
+            TASK.done("aborted", is_success=False)
 
     for id in ARG_IDS:
         ADD_TIME = int(time.time())

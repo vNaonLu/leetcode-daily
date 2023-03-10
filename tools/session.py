@@ -71,8 +71,6 @@ class LeetCodeSession:
 
     class QuestionOfToday:
         def __init__(self, content: object) -> None:
-            import pprint
-            pprint.pprint(content)
             self.id = int(content['question']['frontendQuestionId'])
             self.paid_only = content['question']['paidOnly']
             self.difficulty = content['question']['difficulty']
@@ -83,6 +81,7 @@ class LeetCodeSession:
     def __init__(self) -> None:
         LOG = prompt.Log.getInstance()
         self.__cookies: dict[str, str] = {}
+        self.__session_cache: Path = None
         self.__session = requests.session()
         self.__recaptcha_key: str = ""
         self.__is_signed_in: bool = False
@@ -110,6 +109,9 @@ class LeetCodeSession:
                 self.logout()
 
         return self.__is_signed_in and self.__login_as != ""
+
+    def getLogInName(self):
+        return self.__login_as
 
     def __updateCookies(self, cookies: RequestsCookieJar):
         LOG = prompt.Log.getInstance()
@@ -185,7 +187,7 @@ class LeetCodeSession:
             'Referer': net.ALL_PROBLEMS_URL
         }
         state, resp = net.requestGraphQL(
-            PARAMS, headers=HEADERS, name="Request Question of Today", session=self.__session, cookies=self.__cookies)
+            PARAMS, headers=HEADERS, session=self.__session, cookies=self.__cookies)
 
         if state != net.REQUEST_OK or not isinstance(resp, requests.Response) or resp.status_code != 200:
             return None
@@ -197,28 +199,33 @@ class LeetCodeSession:
 
     def clearLeetCodeSessionCache(self):
         LOG = prompt.Log.getInstance()
-        LEETCODE_SESSION_ABSOLUTE.unlink(missing_ok=True)
+        assert self.__session_cache is not None
+        self.__session_cache.unlink(missing_ok=True)
         LOG.funcVerbose("removed the leetcode session cache.")
 
     def logout(self):
         del self.__cookies[self.LEETCODE_SESSION_KEY]
-        self.clearLeetCodeSessionCache()
         self.__is_signed_in = False
         self.__login_as = ""
 
-    def loginWithLeetCodeSession(self, *, use_cache: bool = True) -> bool:
+    def loginWithLeetCodeSession(self, session: str, *, use_cache: bool = True) -> bool:
         LOG = prompt.Log.getInstance()
+
+        CACHE_PATH = PROJECT_ROOT.joinpath(f'.{session}.session{LDTCONFIG_EXTENSION}')
+
+        assert self.__session_cache is None or self.__session_cache == CACHE_PATH
+        self.__session_cache = CACHE_PATH
 
         if not use_cache:
             self.clearLeetCodeSessionCache()
 
         if not self.__is_signed_in or not self.__login_as:
-            if not LEETCODE_SESSION_ABSOLUTE.exists():
+            if not self.__session_cache.exists():
                 LOG.funcVerbose("leetcode session not found.")
-                if not LEETCODE_SESSION_ABSOLUTE.parent.exists():
-                    LEETCODE_SESSION_ABSOLUTE.parent.mkdir(exist_ok=True)
+                if not self.__session_cache.parent.exists():
+                    self.__session_cache.parent.mkdir(exist_ok=True)
                     LOG.funcVerbose("create a directory: {}",
-                                    LEETCODE_SESSION_ABSOLUTE.parent)
+                                    self.__session_cache.parent)
 
                 content = inputByEditor(concat(
                     f'',
@@ -229,11 +236,11 @@ class LeetCodeSession:
                 content = regex.sub("^ *#[\w\W]*?\n*$",
                                     "", content, flags=regex.MULTILINE)
                 content = content.strip()
-                LEETCODE_SESSION_ABSOLUTE.write_text(content)
+                self.__session_cache.write_text(content)
 
             TASK = LOG.createTaskLog("Login to LeetCode")
             TASK.begin("loading the session content...")
-            session = LEETCODE_SESSION_ABSOLUTE.read_text()
+            session = self.__session_cache.read_text()
             if not session:
                 TASK.done("empty session content.", is_success=False)
                 return False
