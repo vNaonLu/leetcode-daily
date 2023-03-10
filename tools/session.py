@@ -71,8 +71,6 @@ class LeetCodeSession:
 
     class QuestionOfToday:
         def __init__(self, content: object) -> None:
-            import pprint
-            pprint.pprint(content)
             self.id = int(content['question']['frontendQuestionId'])
             self.paid_only = content['question']['paidOnly']
             self.difficulty = content['question']['difficulty']
@@ -185,7 +183,7 @@ class LeetCodeSession:
             'Referer': net.ALL_PROBLEMS_URL
         }
         state, resp = net.requestGraphQL(
-            PARAMS, headers=HEADERS, name="Request Question of Today", session=self.__session, cookies=self.__cookies)
+            PARAMS, headers=HEADERS, session=self.__session, cookies=self.__cookies)
 
         if state != net.REQUEST_OK or not isinstance(resp, requests.Response) or resp.status_code != 200:
             return None

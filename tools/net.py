@@ -101,7 +101,7 @@ def requestQuestionsList(timeout: int = 5):
     return state, None
 
 
-def requestGraphQL(payload: str, *, timeout: int = 5, headers: object, name: str, session=requests.Session(), cookies=None):
+def requestGraphQL(payload: str, *, timeout: int = 5, headers: object, name: str = "", session=requests.Session(), cookies=None):
     LOG = prompt.Log.getInstance()
 
     LOG.funcVerbose("request URL    : {}", GRAPHQL_URL)
@@ -109,18 +109,25 @@ def requestGraphQL(payload: str, *, timeout: int = 5, headers: object, name: str
     LOG.funcVerbose("payload        : {}", payload)
     LOG.funcVerbose("timeout        : {}", timeout)
 
-    TASK = LOG.createTaskLog(name)
-    TASK.begin()
-    state, resp = safeRequest(partial(session.post, GRAPHQL_URL, headers=headers,
-                              timeout=timeout, data=payload.encode('utf-8'), cookies=cookies))
-    LOG.funcVerbose("request finished: {}", state)
+    if name != "":
+        TASK = LOG.createTaskLog(name)
+        TASK.begin()
+        state, resp = safeRequest(partial(session.post, GRAPHQL_URL, headers=headers,
+                                timeout=timeout, data=payload.encode('utf-8'), cookies=cookies))
+        LOG.funcVerbose("request finished: {}", state)
 
-    if state == REQUEST_OK:
-        TASK.done("successfully requested", is_success=True)
-        return state, resp
+        if state == REQUEST_OK:
+            TASK.done("successfully requested", is_success=True)
+            return state, resp
 
-    TASK.done("failed to request ({})", __toString(state, is_success=False))
-    return state, None
+        TASK.done("failed to request ({})", __toString(state, is_success=False))
+        return state, None
+    else:
+        state, resp = safeRequest(partial(session.post, GRAPHQL_URL, headers=headers,
+                                timeout=timeout, data=payload.encode('utf-8'), cookies=cookies))
+        if state == REQUEST_OK:
+            return state, resp
+        return state, None
 
 
 def requestQuestionInformation(slug: int, *, timeout: int = 5):
