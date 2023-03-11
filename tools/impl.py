@@ -400,7 +400,7 @@ def ldtRunImpl(*, build_path: Path, infra_test: bool, ids: list[int] = []):
 
         if ARG_INFRA_TEST:
             LOG.verbose("run the infrastructure unit tests.")
-            executable = executable.joinpath("infra_test")
+            executable = executable.joinpath("leetcode_helper_test")
         else:
             LOG.verbose("run the LeetCode solution unit tests.")
             executable = executable.joinpath("leetcode_test")

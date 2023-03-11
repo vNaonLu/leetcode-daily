@@ -1,5 +1,6 @@
 # build directory
-build*
+build*/
+out*/
 
 # local config
 compile_commands.json
