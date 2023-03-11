@@ -1,6 +1,6 @@
 # Unsolved Solutions List
 
-There are **1678** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
+There are **1677** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
 
 The questions which have been solved are not shown in this page, more information about solved questions can be found at [docs/solved_solutions.md](./solved_solutions.md).
 
@@ -1384,7 +1384,6 @@ The questions which have been solved are not shown in this page, more informatio
 |2228|[Users With Two Purchases Within Seven Days](https://leetcode.com/problems/users-with-two-purchases-within-seven-days/)|Medium|🔒|
 |2229|[Check if an Array Is Consecutive](https://leetcode.com/problems/check-if-an-array-is-consecutive/)|Easy|🔒|
 |2230|[The Users That Are Eligible for Discount](https://leetcode.com/problems/the-users-that-are-eligible-for-discount/)|Easy|🔒|
-|2231|[Largest Number After Digit Swaps by Parity](https://leetcode.com/problems/largest-number-after-digit-swaps-by-parity/)|Easy||
 |2232|[Minimize Result by Adding Parentheses to Expression](https://leetcode.com/problems/minimize-result-by-adding-parentheses-to-expression/)|Medium||
 |2233|[Maximum Product After K Increments](https://leetcode.com/problems/maximum-product-after-k-increments/)|Medium||
 |2234|[Maximum Total Beauty of the Gardens](https://leetcode.com/problems/maximum-total-beauty-of-the-gardens/)|Hard||
