@@ -171,6 +171,9 @@ def _buildAndTest(*, build_path: Path, solution_file: SolutionFile, id: int,
                         solution_file.write_text(clangFormat(content))
                         LOG.success("added an extra testcase for solution:")
                         LOG.print(clangFormat(unittest), flag=LOG.VERBOSE)
+                    elif submission.result == Result.RUNTIME_ERROR:
+                        TASK.done("testcase not passed as Runtime Error: {}", repr(
+                            LOG.format(submission.error_msg, flag=LOG.HIGHTLIGHT)), is_success=False)
                     else:
                         TASK.done("error: {}", LOG.format(
                             submission.result, flag=LOG.HIGHTLIGHT), is_success=False)
@@ -271,7 +274,7 @@ def _addAndPassTestsIfNecessary(*, build_path: Path, questions_list: QuestionsLi
             help="delete the LeetCode session cache."),
     cli.arg("-v", "--verbose", dest="verbose", default=False, action="store_true",
             help="enable verbose logging."),
-    cli.arg("ids", metavar="id", nargs="?", default=[],
+    cli.arg("ids", metavar="id", nargs="*", default=[],
             type=int, help="question identifiers to add."),
     formatter_class=RawTextHelpFormatter, usage="%(prog)s [options] [id [id ...]]",
     name="add", prog=ADD_SCRIPT_NAME,
