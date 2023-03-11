@@ -1,6 +1,7 @@
 #ifndef LEETCODE_TESTING_TEST_HELPER_H_
 #define LEETCODE_TESTING_TEST_HELPER_H_
 
+#include "leetcode/concepts.h"
 #include "gtest/gtest-printers.h"
 #include "gtest/gtest.h"
 #include "gtest/internal/gtest-internal.h"
@@ -14,22 +15,6 @@ class ListNode;
 
 namespace detail {
 
-template <typename T, typename U>
-concept IsSameAs = std::is_same_v<T, U>;
-
-template <typename T>
-concept Sortable = requires(T item, typename T::value_type val) {
-                     item.begin();
-                     item.end();
-                     { val < val } -> IsSameAs<bool>;
-                   };
-
-template <typename T>
-concept LCDNodeType = requires(T object, size_t idx) {
-                        { object->GetChild(idx) } -> IsSameAs<T>;
-                        { object->GetChildren() } -> IsSameAs<std::vector<T>>;
-                      };
-
 template <typename T, typename S>
 class CompareLTHelper;
 
@@ -41,10 +26,10 @@ class FailureAssertionResult;
 
 } // namespace detail
 
-template <size_t kDepth, detail::Sortable T>
+template <size_t kDepth, Sortable T>
 bool CompareInAnyOrder(T lhs, T rhs) noexcept;
 
-template <size_t kDepth, detail::Sortable T, bool Equal>
+template <size_t kDepth, Sortable T, bool Equal>
 testing::AssertionResult AssertCompareInAnyOrder(const char *m_expr,
                                                  const char *n_expr, T const &m,
                                                  T const &n) noexcept;
@@ -202,7 +187,7 @@ public:
 
 } // namespace detail
 
-template <size_t kDepth, detail::Sortable T>
+template <size_t kDepth, Sortable T>
 inline bool CompareInAnyOrder(T lhs, T rhs) noexcept {
   static const detail::CompareHelper<T, T> cmp_helper{};
   detail::SortItem<kDepth>(&lhs);
@@ -210,7 +195,7 @@ inline bool CompareInAnyOrder(T lhs, T rhs) noexcept {
   return cmp_helper(lhs, rhs);
 }
 
-template <size_t kDepth, detail::Sortable T, bool Equal>
+template <size_t kDepth, Sortable T, bool Equal>
 testing::AssertionResult AssertCompareInAnyOrder(const char *m_expr,
                                                  const char *n_expr, T const &m,
                                                  T const &n) noexcept {
