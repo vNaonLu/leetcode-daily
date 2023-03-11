@@ -49,6 +49,8 @@ class Submission:
             elif msg == "Runtime Error":
                 self.result = Submission.Result.RUNTIME_ERROR
                 self.error_msg = content['runtime_error']
+                self.last_input = content['last_testcase']
+                self.expect_output = content['expected_output']
             elif msg == "Wrong Answer":
                 self.result = Submission.Result.WRONG_ANSWER
                 self.last_input = content['last_testcase']

@@ -160,26 +160,34 @@ def _buildAndTest(*, build_path: Path, solution_file: SolutionFile, id: int,
                 if not submission:
                     Result = session.Submission.Result
                     test_passed = False
+
                     if submission.result == Result.WRONG_ANSWER:
-                        TASK.done("testcase not passed: {}", repr(LOG.format(
-                            submission.last_input, flag=LOG.HIGHTLIGHT)), is_success=False)
-                        unittest = cpp_solution.getUnitTestFromSubmissionResult(
-                            name=f'Extra Testcase #{extra_input_idx}', suite_name=f'extra_testcase_{extra_input_idx}',
-                            input=submission.last_input, output=submission.expect_output)
-                        extra_input_idx += 1
-                        content = solution_file.read_text() + f'\n{unittest}'
-                        solution_file.write_text(clangFormat(content))
-                        LOG.success("added an extra testcase for solution:")
-                        LOG.print(clangFormat(unittest), flag=LOG.VERBOSE)
+                        TASK.done("testcase not passed as Wrong Answer: {}", LOG.format(
+                            repr(submission.last_input), flag=LOG.HIGHTLIGHT), is_success=False)
                     elif submission.result == Result.RUNTIME_ERROR:
-                        TASK.done("testcase not passed as Runtime Error: {}", repr(
-                            LOG.format(submission.error_msg, flag=LOG.HIGHTLIGHT)), is_success=False)
+                        TASK.done("testcase not passed as Runtime Error: {}", LOG.format(
+                            submission.error_msg, flag=LOG.HIGHTLIGHT), is_success=False)
+                    elif submission.result == Result.TLE_ERROR:
+                        TASK.done("testcase not passed as Time Limit Exceed: {}", LOG.format(
+                            submission.error_msg, flag=LOG.HIGHTLIGHT), is_success=False)
                     else:
                         TASK.done("error: {}", LOG.format(
                             submission.result, flag=LOG.HIGHTLIGHT), is_success=False)
                         LOG.log("switch the non-session mode.")
                         session_mode = False
                         leetcode_session = None
+
+                    if submission.last_input != "" and submission.expect_output != "":
+                        unittest = cpp_solution.getUnitTestFromSubmissionResult(
+                            name=f'Extra Testcase #{extra_input_idx}',
+                            suite_name=f'extra_testcase_{extra_input_idx}',
+                            input=submission.last_input, output=submission.expect_output)
+                        extra_input_idx += 1
+                        content = solution_file.read_text() + f'\n{unittest}'
+                        solution_file.write_text(clangFormat(content))
+                        LOG.success("added an extra testcase for solution:")
+                        LOG.print(clangFormat(unittest), flag=LOG.VERBOSE)
+
                 else:
                     TASK.done("accepted by LeetCode", is_success=True)
 
