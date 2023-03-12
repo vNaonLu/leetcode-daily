@@ -83,7 +83,7 @@ LEETCODE_SOLUTION_UNITTEST(2032, TwoOutOfThree, example_1) {
   vector<int> nums3    = {3};
   vector<int> expect   = {3, 2};
   vector<int> actual   = solution->twoOutOfThree(nums1, nums2, nums3);
-  LCD_EXPECT_EQ(expect, actual);
+  EXPECT_ANYORDER_EQ(expect, actual);
 }
 
 // [Example #2]
@@ -102,7 +102,7 @@ LEETCODE_SOLUTION_UNITTEST(2032, TwoOutOfThree, example_2) {
   vector<int> nums3    = {1, 2};
   vector<int> expect   = {2, 3, 1};
   vector<int> actual   = solution->twoOutOfThree(nums1, nums2, nums3);
-  LCD_EXPECT_EQ(expect, actual);
+  EXPECT_ANYORDER_EQ(expect, actual);
 }
 
 // [Example #3]
@@ -118,5 +118,5 @@ LEETCODE_SOLUTION_UNITTEST(2032, TwoOutOfThree, example_3) {
   vector<int> nums3    = {5};
   vector<int> expect   = {};
   vector<int> actual   = solution->twoOutOfThree(nums1, nums2, nums3);
-  LCD_EXPECT_EQ(expect, actual);
+  EXPECT_ANYORDER_EQ(expect, actual);
 }

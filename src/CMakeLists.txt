@@ -12,6 +12,7 @@ FetchContent_MakeAvailable(googletest)
 add_subdirectory(leetcode)
 
 if(${ENABLE_LEETCODE_TEST})
+  message(STATUS "Enabled leetcode unittests")
   file(
     GLOB_RECURSE LEECODE_SOURCE
     "q*/*.cc"

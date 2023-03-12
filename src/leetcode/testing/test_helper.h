@@ -5,6 +5,7 @@
 #include "gtest/gtest-printers.h"
 #include "gtest/gtest.h"
 #include "gtest/internal/gtest-internal.h"
+#include <algorithm>
 #include <concepts>
 #include <sstream>
 #include <type_traits>

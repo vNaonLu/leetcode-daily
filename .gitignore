@@ -4,10 +4,12 @@ out*/
 
 # local config
 .vscode
-__pycache__
+.vs
 .DS_Store
 .cache
 .config
+__pycache__
+CMakeSettings.json
 
 # vim temporary
 *.swp

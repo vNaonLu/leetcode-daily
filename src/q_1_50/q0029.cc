@@ -9,6 +9,7 @@
 // Difficult  : Medium
 // Solve Date : 2021/11/20 14:38
 
+#include <cstdint>
 #include <iosfwd>
 #include <limits>
 
@@ -38,9 +39,9 @@ public:
   int divide(int dividend, int divisor) {
     if (dividend == numeric_limits<int>::min() && divisor == -1)
       return numeric_limits<int>::max();
-    long l_divisor, l_dividend, quotient = 0;
-    l_divisor  = static_cast<long>(divisor);
-    l_dividend = static_cast<long>(dividend);
+    int64_t l_divisor, l_dividend, quotient = 0;
+    l_divisor  = static_cast<int64_t>(divisor);
+    l_dividend = static_cast<int64_t>(dividend);
     int sign =
         (l_dividend < 0 && l_divisor > 0) || (l_divisor < 0 && l_dividend > 0)
             ? -1
@@ -50,7 +51,7 @@ public:
     for (int shift_counter = 31; shift_counter >= 0; shift_counter--) {
       if ((l_divisor << shift_counter) <= l_dividend) {
         l_dividend -= l_divisor << shift_counter;
-        quotient = quotient | static_cast<long>(1) << shift_counter;
+        quotient = quotient | static_cast<int64_t>(1) << shift_counter;
       }
     }
     return sign * quotient;

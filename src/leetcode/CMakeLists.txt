@@ -13,6 +13,7 @@ target_include_directories(
 message(STATUS "ENABLE_INFRA_TEST = ${ENABLE_INFRA_TEST}")
 
 if(${ENABLE_INFRA_TEST})
+  message(STATUS "Enabled infrastructure unittests")
   set(LEETCODE_HELPER_TEST_SOURCES
     "solution_unittest.cc"
     "expect_anyorder_unittest.cc"

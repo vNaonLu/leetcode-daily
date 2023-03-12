@@ -41,7 +41,7 @@ public:
     auto iter = s.begin();
     auto res  = string("");
     while (beg != s.end()) {
-      if (*iter == ' ' || iter == s.end()) {
+      if (iter == s.end() || *iter == ' ') {
         res += string(beg, iter);
         beg = iter;
         --k;

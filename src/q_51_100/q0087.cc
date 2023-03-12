@@ -12,6 +12,7 @@
 #include <iosfwd>
 #include <set>
 #include <string>
+#include <vector>
 
 // -- This header must be included after others --
 #include "leetcode/testing/solution_test_helper.h"
@@ -47,8 +48,7 @@ class Solution {
 public:
   bool isScramble(string s1, string s2) {
     auto n = s1.size();
-    bool dp[n][n][n];
-    memset(&dp, 0, sizeof(dp));
+    vector<vector<vector<bool>>> dp(n, vector<vector<bool>>(n, vector<bool>(n, false)));
 
     for (auto i = 0; i < n; ++i) {
       for (auto j = 0; j < n; ++j) {
@@ -61,10 +61,12 @@ public:
         for (auto j = 0; j <= n - length; ++j) {
           for (auto len1 = 1; len1 < length; ++len1) {
             auto len2 = length - len1;
-            dp[i][j][length - 1] |=
-                dp[i][j][len1 - 1] && dp[i + len1][j + len1][len2 - 1];
-            dp[i][j][length - 1] |=
-                dp[i + len1][j][len2 - 1] && dp[i][j + len2][len1 - 1];
+            dp[i][j][length - 1] =
+                dp[i][j][length - 1] ||
+                (dp[i][j][len1 - 1] && dp[i + len1][j + len1][len2 - 1]);
+            dp[i][j][length - 1] =
+                dp[i][j][length - 1] ||
+                (dp[i + len1][j][len2 - 1] && dp[i][j + len2][len1 - 1]);
           }
         }
       }
