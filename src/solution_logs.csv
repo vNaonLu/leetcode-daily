@@ -908,3 +908,4 @@ timestamp,id,tc,sc,notes
 1678469818,2181,n,1,n = nodes cound of |head|
 1678517174,2231,n,n,n = digits of |num|
 1678604263,2269,n,1,n = digits of |num|
+1678611581,2185,n * m,1,n = |words.size()| and m = |pref.size()|
