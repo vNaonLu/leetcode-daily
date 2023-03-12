@@ -14,14 +14,15 @@ jobs:
 
     steps:
       - uses: actions/checkout@v3
+      - uses: seanmiddleditch/gha-setup-ninja@master
 
       - name: Generate Build Files.
         run: |
-          cmake . -DENABLE_LEETCODE_TEST=ON -DENABLE_INFRA_TEST=ON
+          cmake -G Ninja . -DENABLE_LEETCODE_TEST=ON -DENABLE_INFRA_TEST=ON
 
       - name: Build Infrastructure and Solutions Unittests.
         run: |
-          cmake --build . -- /maxcpucount:8
+          cmake --build .
 
       - name: Run Infrastructure Unittests.
         run: |
