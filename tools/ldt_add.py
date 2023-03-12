@@ -162,14 +162,15 @@ def _buildAndTest(*, build_path: Path, solution_file: SolutionFile, id: int,
                     test_passed = False
 
                     if submission.result == Result.WRONG_ANSWER:
-                        TASK.done("testcase not passed as Wrong Answer: {}", LOG.format(
+                        TASK.done("testcase not accepted due to Wrong Answer: {}", LOG.format(
                             repr(submission.last_input), flag=LOG.HIGHTLIGHT), is_success=False)
                     elif submission.result == Result.RUNTIME_ERROR:
-                        TASK.done("testcase not passed as Runtime Error: {}", LOG.format(
+                        TASK.done("testcase not accepted due to Runtime Error: {}", LOG.format(
                             submission.error_msg, flag=LOG.HIGHTLIGHT), is_success=False)
                     elif submission.result == Result.TLE_ERROR:
-                        TASK.done("testcase not passed as Time Limit Exceed: {}", LOG.format(
+                        TASK.done("testcase not accepted due to Time Limit Exceed: {}", LOG.format(
                             submission.error_msg, flag=LOG.HIGHTLIGHT), is_success=False)
+                        cpp_solution.setUnittestTimeout(submission.elapse_time)
                     else:
                         TASK.done("error: {}", LOG.format(
                             submission.result, flag=LOG.HIGHTLIGHT), is_success=False)
@@ -178,15 +179,16 @@ def _buildAndTest(*, build_path: Path, solution_file: SolutionFile, id: int,
                         leetcode_session = None
 
                     if submission.last_input != "" and submission.expect_output != "":
-                        unittest = cpp_solution.getUnitTestFromSubmissionResult(
+                        unittest, suite_name = cpp_solution.getUnitTestFromSubmissionResult(
                             name=f'Extra Testcase #{extra_input_idx}',
                             suite_name=f'extra_testcase_{extra_input_idx}',
-                            input=submission.last_input, output=submission.expect_output)
+                            input=submission.last_input,
+                            output=submission.expect_output)
                         extra_input_idx += 1
                         content = solution_file.read_text() + f'\n{unittest}'
                         solution_file.write_text(clangFormat(content))
-                        LOG.success("added an extra testcase for solution:")
-                        LOG.print(clangFormat(unittest), flag=LOG.VERBOSE)
+                        LOG.success("added an extra testcase for solution: {}",
+                                    LOG.format(suite_name, flag=LOG.HIGHTLIGHT))
 
                 else:
                     TASK.done("accepted by LeetCode", is_success=True)
@@ -203,14 +205,15 @@ def _buildAndTest(*, build_path: Path, solution_file: SolutionFile, id: int,
                                                                                      title=detail.title))
                         input, expect = cpp_solution.parseExtraInput(extra_input)
                         if input and expect:
-                            unittest = cpp_solution.getUnitTest(name=f'Extra Testcase #{extra_input_idx}',
-                                                                suite_name=f'extra_testcase_{extra_input_idx}',
-                                                                input=input, output=expect)
+                            unittest, suite_name = cpp_solution.getUnitTestFromSubmissionResult(
+                                name=f'Extra Testcase #{extra_input_idx}',
+                                suite_name=f'extra_testcase_{extra_input_idx}',
+                                input=input, output=expect)
                             extra_input_idx += 1
                             content = solution_file.read_text() + f'\n{unittest}'
                             solution_file.write_text(clangFormat(content))
-                            LOG.success("added an extra testcase for solution:")
-                            LOG.print(clangFormat(unittest), flag=LOG.VERBOSE)
+                            LOG.success("added an extra testcase for solution: {}",
+                                        LOG.format(suite_name, flag=LOG.HIGHTLIGHT))
 
         if not test_passed:
             if not PMT.ask("the solution #{} failed to pass, continue to solve?",

@@ -33,11 +33,11 @@ import cli
 def ldtRun(args):
     prompt.Log.getInstance(verbose=getattr(args, "verbose"))
     ARG_BUILD_PATH = Path(getattr(args, "build_path")).resolve()
-    ARG_INFRA_TEST = getattr(args, "infra_test")
+    # ARG_INFRA_TEST = getattr(args, "infra_test")
     ARG_IDS = getattr(args, "ids")
 
     return ldtRunImpl(build_path=ARG_BUILD_PATH,
-                      infra_test=ARG_INFRA_TEST,
+                      infra_test=False,
                       ids=ARG_IDS)
 
 if __name__ == "__main__":

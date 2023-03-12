@@ -2,6 +2,7 @@
 #define LEETCODE_CONCEPTS_H_
 
 #include <concepts>
+#include <cstddef>
 #include <limits>
 #include <type_traits>
 #include <vector>

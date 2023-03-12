@@ -220,9 +220,16 @@ def parseBuildLog(oneline: str):
     return percent, res[0].lower() + res[1:]
 
 
+__TEST_TIMEDOUT = regex.compile("[\w_.]+ exceeded the time limit: \d+ms *$", regex.MULTILINE)
 __TEST_FAILED = regex.compile("\[  FAILED  \] (?P<solution>[\w_.]+)$", regex.MULTILINE)
 __TEST_PASSED = regex.compile("\[       OK \] q(?P<solution_id>\d+)_\w+\.\w+ \(\d+ ms\)$", regex.MULTILINE)
 __TEST_SKIPPED = regex.compile("\[  SKIPPED \] q(?P<solution_id>\d+)_\w+\.\w+$", regex.MULTILINE)
+
+
+def parseTimeoutCase(text: str):
+    mat = __TEST_TIMEDOUT.search(text)
+    return mat and mat.group(0)
+
 
 def parsePassedIds(text: str):
     find = __TEST_PASSED.findall(text)

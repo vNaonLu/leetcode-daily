@@ -22,6 +22,7 @@ class CPPSolution:
         assert 'titleSlug' in obj
         assert 'difficulty' in obj
         LOG = prompt.Log.getInstance()
+        self._timeout: int = 0
         self._headers = headers
         self._timestamp: int = timestamp
         self._id: int = int(obj['questionFrontendId'])
@@ -75,6 +76,16 @@ class CPPSolution:
                                                        time.localtime(self._timestamp))),
             delimiter=f'\n{prefix}')
 
+    def setUnittestTimeout(self, timeout: int):
+        LOG = prompt.Log.getInstance()
+        if not isinstance(timeout, int) or timeout <= 0:
+            LOG.failure("invalid timeout value: {}",
+                        LOG.format(timeout, flag=LOG.HIGHTLIGHT))
+        else:
+            LOG.success("add timeout duration: {}ms",
+                        LOG.format(timeout, flag=LOG.HIGHTLIGHT))
+            self._timeout = timeout
+
     def genExtraInputPrompt(self, *, id: int, title: str):
         return self._code_snippet.genExtraInputPrompt(id=id, title=title)
 
@@ -85,6 +96,13 @@ class CPPSolution:
         explanation_str = ""
         if explanation and explanation != "":
             explanation_str = '// {}'.format(explanation.replace("\n", "\n// "))
+
+        test_suite = ""
+        if self._timeout != 0:
+            test_suite = f'LEETCODE_SOLUTION_UNITTEST_WITH_TIMED_OUT({self._id}, {self._cpp_slug}, {suite_name}, {self._timeout})'
+        else:
+            test_suite = f'LEETCODE_SOLUTION_UNITTEST({self._id}, {self._cpp_slug}, {suite_name})'
+
         res = concat(
             f'// [{name}]',
             '//  Input: {}'.format(input.replace("\n", "\n// ")),
@@ -92,7 +110,7 @@ class CPPSolution:
             f'//',
             f'{explanation_str}',
             f'',
-            f'LEETCODE_SOLUTION_UNITTEST({self._id}, {self._cpp_slug}, {suite_name}) {{',
+            f'{test_suite} {{',
             self._code_snippet.genUnitTest(input=input, output=output),
             f'}}',
             f'',
@@ -101,20 +119,28 @@ class CPPSolution:
         return res
 
     def getUnitTestFromSubmissionResult(self, *, name: str, suite_name: str, input: str, output: str):
+        test_suite_name = f'q{self._id}_{self._cpp_slug}.{suite_name}'
+
+        test_suite = ""
+        if self._timeout != 0:
+            test_suite = f'LEETCODE_SOLUTION_UNITTEST_WITH_TIMED_OUT({self._id}, {self._cpp_slug}, {suite_name}, {self._timeout})'
+        else:
+            test_suite = f'LEETCODE_SOLUTION_UNITTEST({self._id}, {self._cpp_slug}, {suite_name})'
+
         res = concat(
             f'// [{name}]',
             '//  Input: {}'.format(input.replace("\n", "\n// ")),
             '// Output: {}'.format(output.replace("\n", "\n// ")),
             f'//',
             f'',
-            f'LEETCODE_SOLUTION_UNITTEST({self._id}, {self._cpp_slug}, {suite_name}) {{',
+            f'{test_suite} {{',
             self._code_snippet.genUnitTestFromSubmissionResult(
                 input=input, output=output),
             f'}}',
             f'',
             f'',
         )
-        return res
+        return res, test_suite_name
 
     def _defaultExamples(self) -> str:
         res = ""
