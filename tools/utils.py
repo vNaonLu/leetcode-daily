@@ -215,9 +215,12 @@ def parseCMakeGenarateLog(oneline: str):
 def parseBuildLog(oneline: str):
     # [  0%] Built target gtest
     res = oneline.replace('\n', '')
-    percent = int(res[1:4].strip())
-    res = res[7:]
-    return percent, res[0].lower() + res[1:]
+    try:
+        percent = int(res[1:4].strip())
+        res = res[7:]
+        return percent, res[0].lower() + res[1:]
+    except:
+        return None, None
 
 
 __TEST_TIMEDOUT = regex.compile("[\w_.]+ exceeded the time limit: \d+ms *$", regex.MULTILINE)

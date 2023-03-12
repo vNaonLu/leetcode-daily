@@ -4,7 +4,7 @@ include(FetchContent)
 FetchContent_Declare(
   googletest
   GIT_REPOSITORY https://github.com/google/googletest.git
-  GIT_TAG e2239ee6043f73722e7aa812a459f54a28552929)
+  GIT_TAG 391ce627def20c1e8a54d10b12949b15086473dd)
 set(gtest_force_shared_crt ON CACHE BOOL "" FORCE)
 set(BUILD_GMOCK OFF CACHE BOOL "" FORCE)
 FetchContent_MakeAvailable(googletest)
