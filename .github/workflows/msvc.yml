@@ -25,7 +25,7 @@ jobs:
 
       - name: Build Infrastructure and Solutions Unittests.
         run: |
-          cmake --build .
+          cmake --build . -j
 
       - name: Run Infrastructure Unittests.
         run: |
