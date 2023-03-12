@@ -64,7 +64,7 @@ class QuestionContentAnalyzer:
     @staticmethod
     def _parseExamplesSection(content: str, result: _QuestionContentInformation) -> str:
         LOG = prompt.Log.getInstance()
-        reg = "[^\n]*<strong class=\"example\">Example([\w\W]*)$"
+        reg = '[^\n]<strong(?: class="example")?>Example([\w\W]*)$'
         LOG.funcVerbose("parse the examples section with regex: {}", reg)
         mat = regex.search(reg, content)
         if not mat:
@@ -91,7 +91,6 @@ class QuestionContentAnalyzer:
         content = THIS._parseAndCutConstraintsSection(content, result)
         result.description.content = parseHtml(THIS._parseExamplesSection(content,
                                                                           result))
-
         return result
 
 
