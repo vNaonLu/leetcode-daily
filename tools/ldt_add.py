@@ -137,7 +137,7 @@ def _buildAndTest(*, build_path: Path, solution_file: SolutionFile, id: int,
     ldtGenImpl(src_path=PROJECT_ROOT,
                build_path=build_path,
                build_flag="Debug",
-               compile_commands_flag="OFF",
+               compile_commands_flag="ON",
                leetcode_test_flag="ON",
                infra_test_flag="ON")
 

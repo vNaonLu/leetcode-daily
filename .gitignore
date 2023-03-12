@@ -3,7 +3,6 @@ build*/
 out*/
 
 # local config
-compile_commands.json
 .vscode
 __pycache__
 .DS_Store

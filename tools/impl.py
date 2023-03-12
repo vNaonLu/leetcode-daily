@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 import sys
-from datetime import datetime, timedelta
+import shutil
 # prevent generating __pycache__
 sys.dont_write_bytecode = True
 
@@ -329,6 +329,12 @@ def ldtGenImpl(*, src_path: Path, build_path: Path, build_flag: str, compile_com
             return 1
 
         TASK.done(is_success=True)
+
+    if ARG_COMPILE_COMMAND_FLAG == "ON":
+        compile_commands = ARG_BUILD_PATH.joinpath("compile_commands.json")
+        if compile_commands.exists():
+            shutil.copy2(compile_commands, PROJECT_ROOT)
+
     return 0
 
 
