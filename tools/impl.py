@@ -432,17 +432,18 @@ def ldtRunImpl(*, build_path: Path, infra_test: bool, ids: list[int] = []):
             TASK.begin("running the executable: {}", executable)
             returncode = 0
             result = ""
+
             try:
-                returncode = proc.wait(10)
-                result, err = proc.communicate()
+                result, _ = proc.communicate(timeout=10)
             except subprocess.TimeoutExpired:
                 TASK.log("aborting process due to timeout...")
                 proc.kill()
-                result = proc.stdout.read()
+                result, _ = proc.communicate()
                 returncode = CODE_TIMEOUT
 
             TASK.log("parsing the test logs...")
             LOG.verbose(result.replace('\n', '\n    '))
+
             passed = parsePassedIds(result)
             skipped = parseSkippedIds(result)
             failed = parseFailedTests(result)
