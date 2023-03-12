@@ -13,8 +13,8 @@ import cli
     cli.arg("-C", dest="build_path", default=str(BUILD_ABSOLUTE), action="store",
             metavar="[Build_Path]",
             help="specify the directory to run executables. Default: './build'."),
-    # cli.arg("--infra", dest="infra_test", default=False, action="store_true",
-    #         help="identifier to build infrastructures instead of solutions."),
+    cli.arg("--infra", dest="infra_test", default=False, action="store_true",
+            help="identifier to build infrastructures instead of solutions."),
     cli.arg("ids", metavar="id", nargs="*", type=int,
             help="question identifiers to run test. run all tests if not specified."),
     cli.arg("-v", "--verbose", dest="verbose", default=False, action="store_true",
@@ -33,11 +33,11 @@ import cli
 def ldtRun(args):
     prompt.Log.getInstance(verbose=getattr(args, "verbose"))
     ARG_BUILD_PATH = Path(getattr(args, "build_path")).resolve()
-    # ARG_INFRA_TEST = getattr(args, "infra_test")
+    ARG_INFRA_TEST = getattr(args, "infra_test")
     ARG_IDS = getattr(args, "ids")
 
     return ldtRunImpl(build_path=ARG_BUILD_PATH,
-                      infra_test=False,
+                      infra_test=ARG_INFRA_TEST,
                       ids=ARG_IDS)
 
 if __name__ == "__main__":

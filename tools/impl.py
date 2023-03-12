@@ -416,80 +416,80 @@ def ldtRunImpl(*, build_path: Path, infra_test: bool, ids: list[int] = []):
 
         if len(ARG_IDS) > 0:
             if ARG_INFRA_TEST:
-                LOG.warn(
-                    "discard the specified ids due to |--infra| enabled: {}", ARG_IDS)
+                LOG.warn("discard the specified ids due to |--infra| enabled")
                 ARG_IDS = []
             else:
                 solutions = [f'q{id}_*' for id in ARG_IDS]
-                filter = "--gtest_filter={}".format(":".join(solutions))
-                CMD.append(filter)
+                CMD.append("--gtest_filter={}".format(":".join(solutions)))
 
         TASK = LOG.createTaskLog("Run Tests")
 
-        CODE_TIMEOUT = -999
+        PROCESS_RAN_TIMEOUT = -999
 
         with launchSubprocess(CMD) as proc:
-            TASK.begin("running the executable: {}", executable)
+            TASK.begin("running the unittests...")
             returncode = 0
             result = ""
 
             try:
                 result, _ = proc.communicate(timeout=10)
+                returncode = proc.wait()
             except subprocess.TimeoutExpired:
                 TASK.log("aborting process due to timeout...")
                 proc.kill()
                 result, _ = proc.communicate()
-                returncode = CODE_TIMEOUT
+                returncode = PROCESS_RAN_TIMEOUT
 
-            TASK.log("parsing the test logs...")
-            LOG.verbose(result.replace('\n', '\n    '))
+            TASK.log("analyzing the test logs...")
+            LOG.funcVerbose(f'\n{result}')
 
-            passed = parsePassedIds(result)
-            skipped = parseSkippedIds(result)
-            failed = parseFailedTests(result)
+            skipped_cases = regex.findall('^\[  SKIPPED \] ([\w_.]+)$', result, regex.MULTILINE)
+            skipped_ids = set([int(regex.search('q(\d+)_\w+\.\w+', test).group(1)) for test in skipped_cases])
 
-            missing_ids = []
-            for id in ARG_IDS:
-                if id not in passed and id not in failed and id not in skipped:
-                    missing_ids.append(id)
-
-            if returncode == 0 and len(failed) == 0 and len(missing_ids) == 0:
-                TASK.done("passed all tests.",
-                          LOG.format(len(passed), flag=LOG.HIGHTLIGHT), is_success=True)
-                if len(skipped) > 0:
-                    LOG.warn("some tests has skipped: {}", list(skipped))
-                return 0
-
-            elif returncode != 0:
-                if returncode == CODE_TIMEOUT:
-                    TASK.done("test ran timeout: {}", LOG.format(
-                        parseTimeoutCase(result), flag=LOG.HIGHTLIGHT), is_success=False)
+            if returncode == 0:
+                missing_ids = []
+                if not infra_test and len(ARG_IDS) > 0:
+                    passed_ids = set([int(d) for d in regex.findall('\[       OK \] q(\d+)_\w+\.\w+ \(\d+ ms\)', result)])
+                    LOG.funcVerbose("passed ids: {}", passed_ids)
+                    LOG.funcVerbose("skipped ids: {}", skipped_ids)
+                    for id in ARG_IDS:
+                        if id not in passed_ids and id not in skipped_ids:
+                            LOG.failure("the unittest for solution #{} not found.", LOG.format(
+                                id, flag=LOG.HIGHTLIGHT))
+                            missing_ids.append(str(id))
+                if len(missing_ids) == 0:
+                    TASK.done("all unittests passed.", is_success=True)
                 else:
-                    TASK.done("tests return code: {}",
-                            LOG.format(returncode, flag=LOG.HIGHTLIGHT), is_success=False)
+                    TASK.done("missing unittests for solution(s): {}", ', '.join(missing_ids), is_success=False)
+                    returncode = 1
+            else:
+                failed_tests = regex.findall('^\[  FAILED  \] ([\w_.]+)$', result, regex.MULTILINE)
+                failed_ids = set([int(regex.search('q(\d+)_\w+\.\w+', test).group(1)) for test in failed_tests])
 
-                if returncode != 1:
-                    return 1
+                LOG.failure("the following test(s) ran failed:")
+                for test in failed_tests:
+                    id = regex.search('q(\d+)_\w+\.\w+', test).group(1)
+                    fid = LOG.format(id, flag=LOG.HIGHTLIGHT)
+                    LOG.log(' - {}', regex.sub(f'q{id}_', f'q{fid}_', test))
 
-                elif len(failed) == 0 and len(missing_ids) > 0:
-                    LOG.failure("solutions without any tests: {}",
-                                list(missing_ids))
-                    return 1
+                target_failed = []
+                if not infra_test and len(ARG_IDS) > 0:
+                    target_failed = list(filter(lambda d : d in failed_ids, ARG_IDS))
 
+                if len(target_failed) == 0:
+                    TASK.done("some unittest(s) ran failed.", is_success=False)
                 else:
-                    LOG.failure("failed on test(s): {}", list(failed))
+                    TASK.done("failed to pass unittest(s) for solutions: {}", ', '.join(
+                        [str(d) for d in target_failed]), is_success=False)
 
-                    for test in failed:
-                        LOG.failure("{} failed to pass:", LOG.format(
-                            test, flag=LOG.HIGHTLIGHT))
-                        block = parseTestBlock(result, test)
-                        LOG.print(block, flag=LOG.VERBOSE)
+            if len(skipped_cases) > 0:
+                LOG.warn("the following test(s) have been skipped:")
+                for test in skipped_cases:
+                    id = regex.search('q(\d+)_\w+\.\w+', test).group(1)
+                    fid = LOG.format(id, flag=LOG.HIGHTLIGHT)
+                    LOG.log(' - {}', regex.sub(f'q{id}_', f'q{fid}_', test))
 
-                    if len(missing_ids) > 1:
-                        LOG.failure(
-                            "there is no tests for the solution: {}", list(missing_ids))
-
-                    return 1
+            return returncode
 
 
 def ldtRemoveImpl(*, src_path: Path, resolve_logs: ResolveLogsFile, ids: list[int]):
