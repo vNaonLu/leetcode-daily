@@ -31,6 +31,7 @@ class Submission:
         self.error_msg: str = ""
         self.last_input: str = ""
         self.expect_output: str = ""
+        self.elapse_time: int = 0
         if resp is not None:
             if resp.status_code != 200:
                 LOG.funcVerbose("get status code: {}", resp.status_code)
@@ -59,6 +60,7 @@ class Submission:
                 self.result = Submission.Result.TLE_ERROR
                 self.last_input = content['last_testcase']
                 self.expect_output = content['expected_output']
+                self.elapse_time = content['elapsed_time']
             else:
                 self.result = Submission.Result.UNDEFINED
 
@@ -314,7 +316,7 @@ class LeetCodeSession:
             resp_content = json.loads(resp.content.decode('utf-8'))
             LOG.funcVerbose("got submission state: {}", resp_content['state'])
 
-            if resp_content['state'] != "PENDING":
+            if resp_content['state'] != "PENDING" and resp_content['state'] != "STARTED":
                 result = Submission(resp=resp)
 
         return result

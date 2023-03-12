@@ -426,10 +426,22 @@ def ldtRunImpl(*, build_path: Path, infra_test: bool, ids: list[int] = []):
 
         TASK = LOG.createTaskLog("Run Tests")
 
+        CODE_TIMEOUT = -999
+
         with launchSubprocess(CMD) as proc:
             TASK.begin("running the executable: {}", executable)
-            result, err = proc.communicate()
-            TASK.log("parsing the test logs.")
+            returncode = 0
+            result = ""
+            try:
+                returncode = proc.wait(10)
+                result, err = proc.communicate()
+            except subprocess.TimeoutExpired:
+                TASK.log("aborting process due to timeout...")
+                proc.kill()
+                result = proc.stdout.read()
+                returncode = CODE_TIMEOUT
+
+            TASK.log("parsing the test logs...")
             LOG.verbose(result.replace('\n', '\n    '))
             passed = parsePassedIds(result)
             skipped = parseSkippedIds(result)
@@ -440,8 +452,6 @@ def ldtRunImpl(*, build_path: Path, infra_test: bool, ids: list[int] = []):
                 if id not in passed and id not in failed and id not in skipped:
                     missing_ids.append(id)
 
-            returncode = proc.wait()
-
             if returncode == 0 and len(failed) == 0 and len(missing_ids) == 0:
                 TASK.done("passed all tests.",
                           LOG.format(len(passed), flag=LOG.HIGHTLIGHT), is_success=True)
@@ -450,14 +460,14 @@ def ldtRunImpl(*, build_path: Path, infra_test: bool, ids: list[int] = []):
                 return 0
 
             elif returncode != 0:
-                TASK.done("tests return code: {}",
-                          LOG.format(returncode, flag=LOG.HIGHTLIGHT), is_success=False)
+                if returncode == CODE_TIMEOUT:
+                    TASK.done("test ran timeout: {}", LOG.format(
+                        parseTimeoutCase(result), flag=LOG.HIGHTLIGHT), is_success=False)
+                else:
+                    TASK.done("tests return code: {}",
+                            LOG.format(returncode, flag=LOG.HIGHTLIGHT), is_success=False)
 
                 if returncode != 1:
-                    # LOG.failure("the full message:")
-                    # # proc.stdout.seek()
-                    # LOG.print(result, flag=LOG.VERBOSE)
-                    # LOG.print(err, flag=LOG.VERBOSE)
                     return 1
 
                 elif len(failed) == 0 and len(missing_ids) > 0:
