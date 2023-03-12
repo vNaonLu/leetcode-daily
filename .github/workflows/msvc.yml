@@ -15,10 +15,12 @@ jobs:
     steps:
       - uses: actions/checkout@v3
       - uses: seanmiddleditch/gha-setup-ninja@master
+      - uses: TheMrMilchmann/setup-msvc-dev@v2
+        with:
+          arch: x64
 
       - name: Generate Build Files.
         run: |
-          'C:/Program Files/Microsoft Visual Studio/2022/Enterprise/VC/Auxiliary/Build/vcvarsall.bat' x64
           cmake -G Ninja . -DENABLE_LEETCODE_TEST=ON -DENABLE_INFRA_TEST=ON
 
       - name: Build Infrastructure and Solutions Unittests.
