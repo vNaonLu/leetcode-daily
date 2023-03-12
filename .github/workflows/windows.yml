@@ -1,0 +1,33 @@
+name: Windows 2022
+
+on:
+  push:
+    branches: [main, devel/windows-support]
+  pull_request:
+    branches: [main]
+
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: windows-2022
+
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Generate Build Files.
+        run: |
+          cmake . -DENABLE_LEETCODE_TEST=ON -DENABLE_INFRA_TEST=ON
+
+      - name: Build Infrastructure and Solutions Unittests.
+        run: |
+          cmake --build . -- /maxcpucount:8
+
+      - name: Run Infrastructure Unittests.
+        run: |
+          ./leetcode_helper_test.exe
+
+      - name: Run Leetcode Solution Unittests.
+        run: |
+          ./leetcode_test.exe
+
