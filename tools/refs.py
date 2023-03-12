@@ -447,7 +447,8 @@ class Readme:
         res = [
             "# LeetCode Daily in C++",
             "",
-            "[![githubbuild](https://github.com/vNaonLu/Daily_LeetCode/actions/workflows/test.yml/badge.svg)](https://github.com/vNaonLu/leetcode-daily/actions)",
+            "[![gccbuild](https://github.com/vNaonLu/Daily_LeetCode/actions/workflows/gcc.yml/badge.svg)](https://github.com/vNaonLu/leetcode-daily/actions)",
+            "[![msvcbuild](https://github.com/vNaonLu/Daily_LeetCode/actions/workflows/msvc.yml/badge.svg)](https://github.com/vNaonLu/leetcode-daily/actions)",
             "",
             "This repository collects some of my LeetCode solutions in C++ for **free** questions since 2021/09/06. "
             "The remain questions is still being solved so the current project may not contain the solutions you are looking for. "

@@ -1,4 +1,4 @@
-name: Windows 2022
+name: GCC12
 
 on:
   push:
@@ -10,24 +10,30 @@ on:
 
 jobs:
   build:
-    runs-on: windows-2022
+    runs-on: ubuntu-latest
 
     steps:
       - uses: actions/checkout@v3
 
       - name: Generate Build Files.
+        shell: bash
+        env:
+          CXX:  g++-12
         run: |
           cmake . -DENABLE_LEETCODE_TEST=ON -DENABLE_INFRA_TEST=ON
 
       - name: Build Infrastructure and Solutions Unittests.
+        shell: bash
+        env:
+          CXX:  g++-12
         run: |
-          cmake --build . -- /maxcpucount:8
+          cmake --build . -j8
 
       - name: Run Infrastructure Unittests.
         run: |
-          ./leetcode_helper_test.exe
+          ./leetcode_helper_test
 
       - name: Run Leetcode Solution Unittests.
         run: |
-          ./leetcode_test.exe
+          ./leetcode_test
 
