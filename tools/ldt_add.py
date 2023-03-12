@@ -154,8 +154,10 @@ def _buildAndTest(*, build_path: Path, solution_file: SolutionFile, id: int,
             if session_mode:
                 TASK = LOG.createTaskLog("Submit to LeetCode")
                 TASK.begin("connecting to LeetCode...")
-                submission = leetcode_session.submitSolution(
-                    backend_id=detail.backend_id, slug=detail.slug, content=answer)
+                submission = leetcode_session.submitSolution(backend_id=detail.backend_id,
+                                                             slug=detail.slug,
+                                                             content=answer,
+                                                             TASK=TASK)
 
                 if not submission:
                     Result = session.Submission.Result

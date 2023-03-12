@@ -264,7 +264,7 @@ class LeetCodeSession:
 
         return self.__is_signed_in
 
-    def submitSolution(self, *, backend_id: int, slug: str, content: str) -> Submission:
+    def submitSolution(self, *, backend_id: int, slug: str, content: str, TASK: prompt._LogImpl.Task = None) -> Submission:
         LOG = prompt.Log.getInstance()
         if not self.isSignedIn():
             return Submission()
@@ -291,12 +291,17 @@ class LeetCodeSession:
         self.__reqGet(PROBLEM_PAGE, headers=HEADERS)
 
         HEADERS["x-csrftoken"] = self.__cookies['csrftoken']
+
+        TASK and TASK.log("trying to submit code...")
+
         REQ = partial(self.__session.post, url=net.getSubmitUrl(
             slug), headers=HEADERS, data=json.dumps(PARAMS).encode('utf-8'), cookies=self.__cookies)
         stat, resp = net.safeRequest(REQ)
 
         if stat != net.REQUEST_OK or not isinstance(resp, requests.Response) or resp.status_code != 200:
             return Submission(resp)
+
+        TASK and TASK.log("the submission is pending...")
 
         self.__updateCookies(resp.cookies)
 
@@ -318,25 +323,8 @@ class LeetCodeSession:
 
             if resp_content['state'] != "PENDING" and resp_content['state'] != "STARTED":
                 result = Submission(resp=resp)
+            else:
+                TASK and TASK.log("the submission is in status: {}", LOG.format(
+                    resp_content['state'], flag=LOG.HIGHTLIGHT))
 
         return result
-
-
-if __name__ == "__main__":
-    LOG = prompt.Log.getInstance(verbose=True)
-    session = LeetCodeSession()
-
-    LOG.log(session.loginWithLeetCodeSession())
-    # q = session.getQuestionOfToday()
-    # LOG.log(f'question of today: {q.id}')
-    # LOG.log(f'is finished      : {q.done}')
-
-    # ans = '''class Solution {
-    # public:
-    #     vector<int> twoSum(vector<int>& nums, int target) {
-    #         return vector<int>{-1, -1};
-    #     }
-    # };'''
-
-    # r = session.submitSolution(id=1, slug='two-sum', content=ans)
-    # LOG.log('get result: {}', r.result)
