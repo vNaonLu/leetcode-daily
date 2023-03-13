@@ -1,6 +1,6 @@
 # Unsolved Solutions List
 
-There are **1674** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
+There are **1673** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
 
 The questions which have been solved are not shown in this page, more information about solved questions can be found at [docs/solved_solutions.md](./solved_solutions.md).
 
@@ -1561,7 +1561,6 @@ The questions which have been solved are not shown in this page, more informatio
 |2452|[Words Within Two Edits of Dictionary](https://leetcode.com/problems/words-within-two-edits-of-dictionary/)|Medium||
 |2453|[Destroy Sequential Targets](https://leetcode.com/problems/destroy-sequential-targets/)|Medium||
 |2454|[Next Greater Element IV](https://leetcode.com/problems/next-greater-element-iv/)|Hard||
-|2455|[Average Value of Even Numbers That Are Divisible by Three](https://leetcode.com/problems/average-value-of-even-numbers-that-are-divisible-by-three/)|Easy||
 |2456|[Most Popular Video Creator](https://leetcode.com/problems/most-popular-video-creator/)|Medium||
 |2457|[Minimum Addition to Make Integer Beautiful](https://leetcode.com/problems/minimum-addition-to-make-integer-beautiful/)|Medium||
 |2458|[Height of Binary Tree After Subtree Removal Queries](https://leetcode.com/problems/height-of-binary-tree-after-subtree-removal-queries/)|Hard||
