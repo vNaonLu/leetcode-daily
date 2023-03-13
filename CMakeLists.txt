@@ -6,7 +6,7 @@ set(CMAKE_CXX_STANDARD_REQUIRED ON)
 if(WIN32)
         message(VERBOSE "Build in MSVC")
 
-        set(CMAKE_CXX_FLAGS "/W1 /WX /wd4244 /wd4267 /wd4018 /wd4305 /wd4805 /wd26812 /wd26439 /MP -EHsc")
+        set(CMAKE_CXX_FLAGS "/W1 /WX /wd4244 /wd4267 /wd4018 /wd4305 /wd4805 /wd26812 /wd26439 /MP /bigobj -EHsc")
 else()
         message(VERBOSE "Build in gcc-12")
 
