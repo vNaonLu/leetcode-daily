@@ -37,7 +37,9 @@ private:
     if (nullptr == root) {
       return nullptr;
     } else if (root->val < target) {
-      return trim_low(root->right, target);
+      auto right = root->right;
+      delete root;
+      return trim_low(right, target);
     } else {
       root->left = trim_low(root->left, target);
 
@@ -49,7 +51,9 @@ private:
     if (nullptr == root) {
       return nullptr;
     } else if (root->val > target) {
-      return trim_high(root->left, target);
+      auto left = root->left;
+      delete root;
+      return trim_high(left, target);
     } else {
       root->right = trim_high(root->right, target);
 

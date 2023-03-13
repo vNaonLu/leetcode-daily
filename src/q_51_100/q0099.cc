@@ -52,8 +52,10 @@ private:
 
 public:
   void recoverTree(TreeNode *root) {
-    TreeNode *p = new TreeNode(numeric_limits<int>::min()), *miss_1 = nullptr,
-             *miss_2 = nullptr;
+    TreeNode  dummy(numeric_limits<int>::min());
+    TreeNode *p      = &dummy;
+    TreeNode *miss_1 = nullptr;
+    TreeNode *miss_2 = nullptr;
     find(root, p, miss_1, miss_2);
     swap(miss_1->val, miss_2->val);
   }

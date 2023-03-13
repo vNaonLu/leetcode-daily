@@ -15,7 +15,6 @@
 
 // -- This header must be included after others --
 #include "leetcode/testing/solution_test_helper.h"
-#include "test_helper.h"
 
 using namespace std;
 using namespace lcd;

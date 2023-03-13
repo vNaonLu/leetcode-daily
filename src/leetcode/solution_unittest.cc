@@ -1,6 +1,5 @@
 #include "leetcode/list_node.h"
 #include "leetcode/tree_node.h"
-#include "test_helper.h"
 #include <list>
 #include <unordered_map>
 

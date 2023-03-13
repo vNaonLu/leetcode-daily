@@ -109,6 +109,7 @@ LEETCODE_SOLUTION_UNITTEST(160, IntersectionOfTwoLinkedLists, example_1) {
   headB->GetChild(2)->next = expect;
   ListNode *actual         = solution->getIntersectionNode(headA, headB);
   LCD_EXPECT_EQ(expect, actual);
+  ListNode::Release(headA, headB, expect, actual);
 }
 
 // [Example #2]
@@ -129,6 +130,7 @@ LEETCODE_SOLUTION_UNITTEST(160, IntersectionOfTwoLinkedLists, example_2) {
   headB->GetChild(0)->next = expect;
   ListNode *actual         = solution->getIntersectionNode(headA, headB);
   LCD_EXPECT_EQ(expect, actual);
+  ListNode::Release(headA, headB, expect, actual);
 }
 
 // [Example #3]
@@ -148,4 +150,5 @@ LEETCODE_SOLUTION_UNITTEST(160, IntersectionOfTwoLinkedLists, example_3) {
   ListNode *expect   = nullptr;
   ListNode *actual   = solution->getIntersectionNode(headA, headB);
   LCD_EXPECT_EQ(expect, actual);
+  ListNode::Release(headA, headB, expect, actual);
 }

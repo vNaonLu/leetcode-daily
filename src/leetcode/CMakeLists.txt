@@ -1,5 +1,3 @@
-add_subdirectory(testing)
-
 set(LEETCODE_HELPER_SOURCES
   "list_node.cc"
   "tree_node.cc")
@@ -10,7 +8,21 @@ target_include_directories(
   PUBLIC ${SOURCE_INCLUDES}
 )
 
-message(STATUS "ENABLE_INFRA_TEST = ${ENABLE_INFRA_TEST}")
+if(${ENABLE_LEETCODE_TEST} OR ${ENABLE_INFRA_TEST})
+  add_library(
+    gtest_helper
+    STATIC ${CMAKE_CURRENT_SOURCE_DIR}/testing/solution_test_helper.cc)
+  target_include_directories(
+    gtest_helper
+    PUBLIC ${SOURCE_INCLUDES}
+  )
+  target_link_libraries(
+    gtest_helper
+    PUBLIC leetcode_helper
+    PUBLIC gtest_main
+  )
+endif(${ENABLE_LEETCODE_TEST} OR ${ENABLE_INFRA_TEST})
+
 
 if(${ENABLE_INFRA_TEST})
   message(STATUS "Enabled infrastructure unittests")
@@ -24,6 +36,5 @@ if(${ENABLE_INFRA_TEST})
   target_link_libraries(
     leetcode_helper_test
     PRIVATE gtest_helper
-    PRIVATE leetcode_helper
   )
 endif(${ENABLE_INFRA_TEST})

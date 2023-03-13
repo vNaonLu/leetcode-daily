@@ -41,7 +41,9 @@ public:
       hi = hi->next->next;
       lo = lo->next;
     }
+    auto rm = lo->next;
     lo->next = lo->next->next;
+    delete rm;
     return dummy.next;
   }
 };

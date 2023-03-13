@@ -32,12 +32,17 @@ public:
     ListNode  dummy(-1, head);
     ListNode *p = head, *pre = &dummy;
     while (p != nullptr) {
+      ListNode *rm = nullptr;
       if (p->val == val) {
+        rm        = p;
         pre->next = p->next;
       } else {
         pre = p;
       }
       p = p->next;
+      if (rm) {
+        delete rm;
+      }
     }
     return dummy.next;
   }
@@ -66,7 +71,7 @@ LEETCODE_SOLUTION_UNITTEST(203, RemoveLinkedListElements, example_1) {
   ListNode *expect = ListNode::FromVector({1, 2, 3, 4, 5} /*, looped_index*/);
   ListNode *actual = solution->removeElements(head, val);
   LCD_EXPECT_EQ(expect, actual);
-  ListNode::Release(head);
+  ListNode::Release(head, expect, actual);
 }
 
 // [Example #2]
@@ -81,7 +86,7 @@ LEETCODE_SOLUTION_UNITTEST(203, RemoveLinkedListElements, example_2) {
   ListNode *expect   = ListNode::FromVector({} /*, looped_index*/);
   ListNode *actual   = solution->removeElements(head, val);
   LCD_EXPECT_EQ(expect, actual);
-  ListNode::Release(head);
+  ListNode::Release(head, expect, actual);
 }
 
 // [Example #3]
@@ -96,5 +101,5 @@ LEETCODE_SOLUTION_UNITTEST(203, RemoveLinkedListElements, example_3) {
   ListNode *expect   = ListNode::FromVector({} /*, looped_index*/);
   ListNode *actual   = solution->removeElements(head, val);
   LCD_EXPECT_EQ(expect, actual);
-  ListNode::Release(head);
+  ListNode::Release(head, expect, actual);
 }

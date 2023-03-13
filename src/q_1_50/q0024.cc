@@ -63,7 +63,7 @@ LEETCODE_SOLUTION_UNITTEST(24, SwapNodesInPairs, example_1) {
   ListNode *expect   = ListNode::FromVector({2, 1, 4, 3} /*, looped_index*/);
   ListNode *actual   = solution->swapPairs(head);
   LCD_EXPECT_EQ(expect, actual);
-  ListNode::Release(head, expect);
+  ListNode::Release(head, expect, actual);
 }
 
 // [Example #2]
@@ -77,7 +77,7 @@ LEETCODE_SOLUTION_UNITTEST(24, SwapNodesInPairs, example_2) {
   ListNode *expect   = ListNode::FromVector({} /*, looped_index*/);
   ListNode *actual   = solution->swapPairs(head);
   LCD_EXPECT_EQ(expect, actual);
-  ListNode::Release(head, expect);
+  ListNode::Release(head, expect, actual);
 }
 
 // [Example #3]
@@ -91,5 +91,5 @@ LEETCODE_SOLUTION_UNITTEST(24, SwapNodesInPairs, example_3) {
   ListNode *expect   = ListNode::FromVector({1} /*, looped_index*/);
   ListNode *actual   = solution->swapPairs(head);
   LCD_EXPECT_EQ(expect, actual);
-  ListNode::Release(head, expect);
+  ListNode::Release(head, expect, actual);
 }

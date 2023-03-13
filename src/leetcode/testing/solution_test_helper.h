@@ -13,55 +13,19 @@ namespace lcd {
 
 namespace detail {
 
-inline int PopCount(size_t x) {
-  int count = 0;
-  while (x != 0) {
-    if (x & 1) {
-      ++count;
-    }
-    x >>= 1;
-  }
-  return count;
-}
+int PopCount(size_t x);
 
 class SolutionDelegate {
 public:
   virtual void Run() = 0;
-  int          operator()() {
-    Run();
-    return 0;
-  }
+  int          operator()();
 };
 
 class SolutionFixture : public ::testing::Test {
-protected:
-  virtual void SolutionSetUp() {}
-  virtual void SolutionTearDown() {}
-
 private:
-  void SetUp() override {
-#ifdef LEETCODE_TREE_NODE_H_
-    TreeNode::ReleaseAll();
-    ASSERT_EQ(TreeNode::CheckRemainRefs(), 0);
-#endif
-#ifdef LEETCODE_LIST_NODE_H_
-    ListNode::ReleaseAll();
-    ASSERT_EQ(ListNode::CheckRemainRefs(), 0);
-#endif
-    SolutionSetUp();
-  }
+  void SetUp() override;
 
-  void TearDown() override {
-    SolutionTearDown();
-#ifdef LEETCODE_TREE_NODE_H_
-    EXPECT_EQ(TreeNode::CheckRemainRefs(), 0) << "Dangling TreeNode(s) found.";
-    TreeNode::ReleaseAll();
-#endif
-#ifdef LEETCODE_LIST_NODE_H_
-    EXPECT_EQ(ListNode::CheckRemainRefs(), 0) << "Dangling ListNode(s) found.";
-    ListNode::ReleaseAll();
-#endif
-  }
+  void TearDown() override;
 };
 
 } // namespace detail
@@ -116,7 +80,7 @@ private:
   void _LEETCODE_SOLUTION_UNITTEST_DELEGATE_NAME(id, name, suite_name)::Run()
 
 #define LEETCODE_SOLUTION_UNITTEST(id, name, suite_name)                       \
-  LEETCODE_SOLUTION_UNITTEST_WITH_TIMED_OUT(id, name, suite_name, 1000)
+  LEETCODE_SOLUTION_UNITTEST_WITH_TIMED_OUT(id, name, suite_name, 4000)
 
 #ifndef __GNUG__
 

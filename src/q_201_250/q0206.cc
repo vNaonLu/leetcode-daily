@@ -61,7 +61,7 @@ LEETCODE_SOLUTION_UNITTEST(206, ReverseLinkedList, example_1) {
   ListNode *expect   = ListNode::FromVector({5, 4, 3, 2, 1} /*, looped_index*/);
   ListNode *actual   = solution->reverseList(head);
   LCD_EXPECT_EQ(expect, actual);
-  ListNode::Release(head);
+  ListNode::Release(head, expect, actual);
 }
 
 // [Example #2]
@@ -75,7 +75,7 @@ LEETCODE_SOLUTION_UNITTEST(206, ReverseLinkedList, example_2) {
   ListNode *expect   = ListNode::FromVector({2, 1} /*, looped_index*/);
   ListNode *actual   = solution->reverseList(head);
   LCD_EXPECT_EQ(expect, actual);
-  ListNode::Release(head);
+  ListNode::Release(head, expect, actual);
 }
 
 // [Example #3]
@@ -89,5 +89,5 @@ LEETCODE_SOLUTION_UNITTEST(206, ReverseLinkedList, example_3) {
   ListNode *expect   = ListNode::FromVector({} /*, looped_index*/);
   ListNode *actual   = solution->reverseList(head);
   LCD_EXPECT_EQ(expect, actual);
-  ListNode::Release(head);
+  ListNode::Release(head, expect, actual);
 }
