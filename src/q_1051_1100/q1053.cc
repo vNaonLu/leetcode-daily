@@ -36,7 +36,8 @@ public:
     for (int i = arr.size() - 2; i >= 0; --i) {
       if (arr[i] > arr[i + 1]) {
         int largest = arr[i];
-        int smaller = numeric_limits<int>::min(), index;
+        int smaller = numeric_limits<int>::min();
+        int index   = 0;
         for (int j = i + 1; j < arr.size(); ++j) {
           if (arr[j] < arr[i] && arr[j] > smaller) {
             smaller = arr[j];

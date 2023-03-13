@@ -12,15 +12,62 @@ FetchContent_MakeAvailable(googletest)
 add_subdirectory(leetcode)
 
 if(${ENABLE_LEETCODE_TEST})
-  message(STATUS "Enabled leetcode unittests")
-  file(
-    GLOB_RECURSE LEECODE_SOURCE
-    "q*/*.cc"
-  )
-  add_executable(leetcode_test ${LEECODE_SOURCE})
-  target_link_libraries(
-    leetcode_test
-    PRIVATE gtest_helper
-    PRIVATE leetcode_helper
-  )
+  if(${ENABLE_UNITED_BUILD})
+    set(MENIFEST_UNIT_SOURCE)
+
+    file(GLOB MENIFEST_DIRS LIST_DIRECTORIES TRUE RELATIVE ${CMAKE_CURRENT_SOURCE_DIR} "*")
+
+    foreach(MENIFEST_NAME ${MENIFEST_DIRS})
+      set(MENIFEST_DIR "${CMAKE_CURRENT_SOURCE_DIR}/${MENIFEST_NAME}")
+
+      if(NOT IS_DIRECTORY ${MENIFEST_DIR} OR ${MENIFEST_DIR} STREQUAL "${CMAKE_CURRENT_SOURCE_DIR}/leetcode")
+        continue()
+      endif(NOT IS_DIRECTORY ${MENIFEST_DIR} OR ${MENIFEST_DIR} STREQUAL "${CMAKE_CURRENT_SOURCE_DIR}/leetcode")
+
+      file(
+        GLOB_RECURSE MENIFEST_SOURCE
+        "${MENIFEST_DIR}/*.cc"
+      )
+
+      set(UNITY_SOURCE "${CMAKE_CURRENT_BINARY_DIR}/${MENIFEST_NAME}.unity.cc")
+      file(REMOVE ${UNITY_SOURCE})
+
+      foreach(SOLUTION ${MENIFEST_SOURCE})
+        if(${SOLUTION} STREQUAL ${UNITY_SOURCE})
+          continue()
+        endif(${SOLUTION} STREQUAL ${UNITY_SOURCE})
+
+        file(STRINGS ${SOLUTION} SOLUTION_CONTENT NEWLINE_CONSUME)
+
+        # remove comments
+        set(COMPRESSED_SOLUTION_CONTENT "${SOLUTION_CONTENT}")
+        string(REGEX REPLACE "\n+" "\n" COMPRESSED_SOLUTION_CONTENT "${COMPRESSED_SOLUTION_CONTENT}")
+        string(REGEX REPLACE "\\\\;" ";" COMPRESSED_SOLUTION_CONTENT "${COMPRESSED_SOLUTION_CONTENT}")
+
+        file(APPEND ${UNITY_SOURCE} "${COMPRESSED_SOLUTION_CONTENT}")
+      endforeach()
+
+      list(APPEND MENIFEST_UNIT_SOURCE ${UNITY_SOURCE})
+      message(VERBOSE "Unified ${MENIFEST_NAME} solutions: ${UNITY_SOURCE}")
+    endforeach()
+
+    add_executable(leetcode_test ${MENIFEST_UNIT_SOURCE})
+    target_link_libraries(
+      leetcode_test
+      PRIVATE gtest_helper
+      PRIVATE leetcode_helper
+    )
+  else(${ENABLE_UNITED_BUILD})
+    message(STATUS "Enabled leetcode unittests")
+    file(
+      GLOB_RECURSE LEECODE_SOURCE
+      "q*/*.cc"
+    )
+    add_executable(leetcode_test ${LEECODE_SOURCE})
+    target_link_libraries(
+      leetcode_test
+      PRIVATE gtest_helper
+      PRIVATE leetcode_helper
+    )
+  endif(${ENABLE_UNITED_BUILD})
 endif(${ENABLE_LEETCODE_TEST})

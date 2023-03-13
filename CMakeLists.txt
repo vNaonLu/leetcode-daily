@@ -12,7 +12,7 @@ else()
 
         set(CMAKE_C_COMPILER "gcc-12")
         set(CMAKE_CXX_COMPILER "g++-12")
-        set(CMAKE_CXX_FLAGS "-Wall -Wextra -Werror -Wno-sign-compare")
+        set(CMAKE_CXX_FLAGS "-Wall -Wextra -Wno-sign-compare")
 endif(WIN32)
 
 set(CMAKE_RUNTIME_OUTPUT_DIRECTORY "${CMAKE_BINARY_DIR}")
