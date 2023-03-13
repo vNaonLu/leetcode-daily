@@ -45,7 +45,7 @@ private:
 
     auto it = beg;
     while (beg != s.end()) {
-      if (*it == ' ' || it == s.end()) {
+      if (it == s.end() || *it == ' ') {
         res.emplace_back(s.data() + distance(s.begin(), beg),
                          distance(beg, it));
         while (it != s.end() && *it == ' ') {

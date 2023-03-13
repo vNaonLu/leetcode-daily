@@ -48,7 +48,7 @@ public:
     while (!q.empty()) {
       auto [c, cnt] = q.top();
       q.pop();
-      if (c != res.back() - 'a') {
+      if (res.empty() || c != res.back() - 'a') {
         res.push_back(c + 'a');
         if (--cnt != 0)
           q.emplace(c, cnt);

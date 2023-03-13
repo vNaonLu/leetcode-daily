@@ -1,6 +1,7 @@
 # LeetCode Daily in C++
 
-[![githubbuild](https://github.com/vNaonLu/Daily_LeetCode/actions/workflows/test.yml/badge.svg)](https://github.com/vNaonLu/leetcode-daily/actions)
+[![gccbuild](https://github.com/vNaonLu/Daily_LeetCode/actions/workflows/gcc.yml/badge.svg)](https://github.com/vNaonLu/leetcode-daily/actions)
+[![msvcbuild](https://github.com/vNaonLu/Daily_LeetCode/actions/workflows/msvc.yml/badge.svg)](https://github.com/vNaonLu/leetcode-daily/actions)
 
 This repository collects some of my LeetCode solutions in C++ for **free** questions since 2021/09/06. The remain questions is still being solved so the current project may not contain the solutions you are looking for. Please check the chapter [Getting Started](#getting-started) for more details.
 
@@ -63,9 +64,8 @@ It is not necessary to build or install this project if you just want to find sp
 There has a script named `ldt` in the root, which is a tool to automatically add/delete the solution in this project, generate the solution template or update the readme or log. However the script may too rough to use since I haven't tested it in other environment.
 
 Before running to build project, please check below dependencies:
- - GCC-12.
- - CMake above `3.11`.
- - Unix-like OS.
+ - C++20 supported Compiler.
+ - CMake above `3.20`.
 
 Then you can build the project manually by
 
@@ -74,6 +74,7 @@ $ git clone https://github.com/vNaonLu/leetcode-daily.git
 $ cd leetcode-daily
 $ cmake -S . -B build -DENABLE_LEETCODE_TEST=ON
 $ cmake --build build
+# Run the unittests
 $ ./build/leetcode_test
 ```
 

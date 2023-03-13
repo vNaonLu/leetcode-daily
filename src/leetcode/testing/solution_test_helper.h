@@ -13,6 +13,17 @@ namespace lcd {
 
 namespace detail {
 
+inline int PopCount(size_t x) {
+  int count = 0;
+  while (x != 0) {
+    if (x & 1) {
+      ++count;
+    }
+    x >>= 1;
+  }
+  return count;
+}
+
 class SolutionDelegate {
 public:
   virtual void Run() = 0;
@@ -106,5 +117,13 @@ private:
 
 #define LEETCODE_SOLUTION_UNITTEST(id, name, suite_name)                       \
   LEETCODE_SOLUTION_UNITTEST_WITH_TIMED_OUT(id, name, suite_name, 1000)
+
+#ifndef __GNUG__
+
+#define __builtin_popcount(x) lcd::detail::PopCount(x)
+
+#define __builtin_popcountll(x) lcd::detail::PopCount(x)
+
+#endif
 
 #endif // TESTING_SOLUTION_HELPER_H_

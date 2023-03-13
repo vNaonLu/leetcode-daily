@@ -1,0 +1,37 @@
+name: MSVC
+
+on:
+  push:
+    branches: [main, devel/windows-support]
+  pull_request:
+    branches: [main]
+
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: windows-2022
+
+    steps:
+      - uses: actions/checkout@v3
+      - uses: seanmiddleditch/gha-setup-ninja@master
+      - uses: TheMrMilchmann/setup-msvc-dev@v2
+        with:
+          arch: x64
+
+      - name: Generate Build Files.
+        run: |
+          cmake -G Ninja . -DENABLE_LEETCODE_TEST=ON -DENABLE_INFRA_TEST=ON
+
+      - name: Build Infrastructure and Solutions Unittests.
+        run: |
+          cmake --build . -j8
+
+      - name: Run Infrastructure Unittests.
+        run: |
+          ./leetcode_helper_test.exe
+
+      - name: Run Leetcode Solution Unittests.
+        run: |
+          ./leetcode_test.exe
+

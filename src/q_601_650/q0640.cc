@@ -38,6 +38,10 @@ private:
 
   template <typename Iterator>
   int toInteger(Iterator beg, Iterator end) {
+    if (beg == end) {
+      return 0;
+    }
+
     if (beg + 1 == end) {
       switch (*beg) {
       case '+':

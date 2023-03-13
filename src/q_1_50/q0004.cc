@@ -33,7 +33,7 @@ public:
     int    m = nums1.size(), n = nums2.size();
     int    mid = (m + n) / 2;
     auto   i1 = nums1.begin(), i2 = nums2.begin();
-    double last, second;
+    double last = 0.0, second = 0.0;
     while (mid >= 0) {
       second = last;
       --mid;

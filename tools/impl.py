@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 import sys
 import shutil
+from platform import system
 # prevent generating __pycache__
 sys.dont_write_bytecode = True
 
@@ -355,7 +356,7 @@ def ldtBuildImpl(*, build_path: Path, build_args: str = ""):
         LOG.failure("cmake not found.")
         return 1
 
-    CMD = [cmake, "--build", ARG_BUILD_PATH]
+    CMD = [cmake, "--build", ARG_BUILD_PATH, "--"]
     build_args = ARG_BUILD_ARGS.split()
 
     if len(build_args) > 0:
@@ -365,7 +366,8 @@ def ldtBuildImpl(*, build_path: Path, build_args: str = ""):
 
     def stdoutCallback(out: str):
         percent, msg = parseBuildLog(out)
-        TASK.log(msg, percent=percent)
+        if percent != None and msg != None:
+            TASK.log(msg, percent=percent)
         LOG.verbose(out)
 
     try:
@@ -402,14 +404,19 @@ def ldtRunImpl(*, build_path: Path, infra_test: bool, ids: list[int] = []):
 
     with chDir(ARG_BUILD_PATH):
 
-        executable = ARG_BUILD_PATH
+        executable_name = ARG_BUILD_PATH
 
         if ARG_INFRA_TEST:
             LOG.verbose("run the infrastructure unit tests.")
-            executable = executable.joinpath("leetcode_helper_test")
+            executable_name = "leetcode_helper_test"
         else:
             LOG.verbose("run the LeetCode solution unit tests.")
-            executable = executable.joinpath("leetcode_test")
+            executable_name = "leetcode_test"
+
+        if system() == "Windows":
+            executable_name += ".exe"
+
+        executable = ARG_BUILD_PATH.joinpath(executable_name)
 
         LOG.verbose("check whether the executable exists: {}", executable)
 

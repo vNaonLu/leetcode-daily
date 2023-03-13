@@ -32,16 +32,20 @@ LEETCODE_BEGIN_RESOLVING(925, LongPressedName, Solution);
 class Solution {
 public:
   bool isLongPressedName(string name, string typed) {
+    if (name.size() > typed.size()) {
+      return false;
+    }
+
     auto nbeg = name.begin();
     auto tbeg = typed.begin();
     while (nbeg != name.end() || tbeg != typed.end()) {
       auto x = *nbeg++;
-      if (x != *tbeg) {
+      if (tbeg == typed.end() || x != *tbeg) {
         return false;
       }
       ++tbeg;
-      if (*nbeg != *tbeg) {
-        while (*tbeg == x) {
+      if (tbeg != typed.end() && *nbeg != *tbeg) {
+        while (tbeg != typed.end() && *tbeg == x) {
           ++tbeg;
         }
       }
