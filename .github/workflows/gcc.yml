@@ -20,20 +20,20 @@ jobs:
         env:
           CXX:  g++-12
         run: |
-          cmake . -DENABLE_LEETCODE_TEST=ON -DENABLE_INFRA_TEST=ON -DENABLE_UNITED_BUILD=ON
+          cmake -S . -B build -DENABLE_LEETCODE_TEST=ON -DENABLE_INFRA_TEST=ON -DENABLE_UNITED_BUILD=ON
 
       - name: Build Infrastructure and Solutions Unittests.
         shell: bash
         env:
           CXX:  g++-12
         run: |
-          cmake --build . -j8
+          cmake --build build -j8
 
       - name: Run Infrastructure Unittests.
         run: |
-          ./leetcode_helper_test
+          ./build/leetcode_helper_test
 
       - name: Run Leetcode Solution Unittests.
         run: |
-          ./leetcode_test
+          ./build/leetcode_test
 
