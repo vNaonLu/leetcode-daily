@@ -14,13 +14,14 @@ jobs:
 
     steps:
       - uses: actions/checkout@v3
+      - uses: seanmiddleditch/gha-setup-ninja@master
 
       - name: Generate Build Files.
         shell: bash
         env:
           CXX:  g++-12
         run: |
-          cmake -S . -B build -DENABLE_LEETCODE_TEST=ON -DENABLE_INFRA_TEST=ON -DENABLE_UNITED_BUILD=ON
+          cmake -G Ninja -S . -B build -DENABLE_LEETCODE_TEST=ON -DENABLE_INFRA_TEST=ON -DENABLE_UNITED_BUILD=ON
 
       - name: Build Infrastructure and Solutions Unittests.
         shell: bash
