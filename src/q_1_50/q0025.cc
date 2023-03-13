@@ -96,7 +96,7 @@ LEETCODE_SOLUTION_UNITTEST(25, ReverseNodesInKGroup, example_1) {
   ListNode *expect   = ListNode::FromVector({2, 1, 4, 3, 5} /*, looped_index*/);
   ListNode *actual   = solution->reverseKGroup(head, k);
   LCD_EXPECT_EQ(expect, actual);
-  ListNode::Release(head, expect);
+  ListNode::Release(head, expect, actual);
 }
 
 // [Example #2]
@@ -111,5 +111,5 @@ LEETCODE_SOLUTION_UNITTEST(25, ReverseNodesInKGroup, example_2) {
   ListNode *expect   = ListNode::FromVector({3, 2, 1, 4, 5} /*, looped_index*/);
   ListNode *actual   = solution->reverseKGroup(head, k);
   LCD_EXPECT_EQ(expect, actual);
-  ListNode::Release(head, expect);
+  ListNode::Release(head, expect, actual);
 }

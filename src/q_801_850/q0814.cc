@@ -29,6 +29,14 @@ LEETCODE_BEGIN_RESOLVING(814, BinaryTreePruning, Solution);
 
 class Solution {
 private:
+  void deleteTree(TreeNode *p) {
+    if (p) {
+      deleteTree(p->left);
+      deleteTree(p->right);
+      delete p;
+    }
+  }
+
   bool isPivotalNode(TreeNode *p) {
     if (nullptr == p) {
       return false;
@@ -42,6 +50,7 @@ private:
 public:
   TreeNode *pruneTree(TreeNode *root) {
     if (!isPivotalNode(root)) {
+      deleteTree(root);
       root = nullptr;
     } else {
       root->left  = pruneTree(root->left);

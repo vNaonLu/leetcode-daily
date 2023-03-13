@@ -32,16 +32,22 @@ public:
   ListNode *deleteDuplicates(ListNode *head) {
     ListNode  dummy(-101, head);
     ListNode *p = &dummy;
+    std::vector<ListNode *> rm;
     while (head != nullptr) {
       if (head->next != nullptr && head->val == head->next->val) {
         while (head->next != nullptr && head->val == head->next->val) {
+          rm.emplace_back(head);
           head = head->next;
         }
+        rm.emplace_back(head);
         p->next = head->next;
       } else {
         p = p->next;
       }
       head = head->next;
+    }
+    for(auto *p : rm) {
+      delete p;
     }
     return dummy.next;
   }
@@ -69,7 +75,7 @@ LEETCODE_SOLUTION_UNITTEST(82, RemoveDuplicatesFromSortedListII, example_1) {
   ListNode *expect = ListNode::FromVector({1, 2, 5} /*, looped_index*/);
   ListNode *actual = solution->deleteDuplicates(head);
   LCD_EXPECT_EQ(expect, actual);
-  ListNode::Release(head, expect);
+  ListNode::Release(head, expect, actual);
 }
 
 // [Example #2]
@@ -83,5 +89,5 @@ LEETCODE_SOLUTION_UNITTEST(82, RemoveDuplicatesFromSortedListII, example_2) {
   ListNode *expect   = ListNode::FromVector({2, 3} /*, looped_index*/);
   ListNode *actual   = solution->deleteDuplicates(head);
   LCD_EXPECT_EQ(expect, actual);
-  ListNode::Release(head, expect);
+  ListNode::Release(head, expect, actual);
 }

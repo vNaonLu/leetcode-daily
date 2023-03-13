@@ -93,6 +93,8 @@ LEETCODE_SOLUTION_UNITTEST(725, SplitLinkedListInParts, example_1) {
   vector<ListNode *> actual = solution->splitListToParts(head, k);
   LCD_EXPECT_EQ(expect, actual);
   ListNode::Release(head);
+  ListNode::ReleaseRange(expect.begin(), expect.end());
+  ListNode::ReleaseRange(actual.begin(), actual.end());
 }
 
 // [Example #2]
@@ -114,4 +116,6 @@ LEETCODE_SOLUTION_UNITTEST(725, SplitLinkedListInParts, example_2) {
   vector<ListNode *> actual = solution->splitListToParts(head, k);
   LCD_EXPECT_EQ(expect, actual);
   ListNode::Release(head);
+  ListNode::ReleaseRange(expect.begin(), expect.end());
+  ListNode::ReleaseRange(actual.begin(), actual.end());
 }

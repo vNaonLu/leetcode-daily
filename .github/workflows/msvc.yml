@@ -21,17 +21,17 @@ jobs:
 
       - name: Generate Build Files.
         run: |
-          cmake -G Ninja . -DENABLE_LEETCODE_TEST=ON -DENABLE_INFRA_TEST=ON
+          cmake -G Ninja -S . -B build -DENABLE_LEETCODE_TEST=ON -DENABLE_INFRA_TEST=ON -DENABLE_UNITED_BUILD=ON
 
       - name: Build Infrastructure and Solutions Unittests.
         run: |
-          cmake --build . -j8
+          cmake --build build -j8
 
       - name: Run Infrastructure Unittests.
         run: |
-          ./leetcode_helper_test.exe
+          ./build/leetcode_helper_test.exe
 
       - name: Run Leetcode Solution Unittests.
         run: |
-          ./leetcode_test.exe
+          ./build/leetcode_test.exe
 

@@ -61,7 +61,7 @@ LEETCODE_SOLUTION_UNITTEST(876, MiddleoftheLinkedList, example_1) {
   ListNode *expect   = ListNode::FromVector({3, 4, 5} /*, looped_index*/);
   ListNode *actual   = solution->middleNode(head);
   LCD_EXPECT_EQ(expect, actual);
-  ListNode::Release(head);
+  ListNode::Release(head, expect, actual);
 }
 
 // [Example #2]
@@ -77,5 +77,5 @@ LEETCODE_SOLUTION_UNITTEST(876, MiddleoftheLinkedList, example_2) {
   ListNode *expect = ListNode::FromVector({4, 5, 6} /*, looped_index*/);
   ListNode *actual = solution->middleNode(head);
   LCD_EXPECT_EQ(expect, actual);
-  ListNode::Release(head);
+  ListNode::Release(head, expect, actual);
 }

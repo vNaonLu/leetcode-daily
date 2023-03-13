@@ -31,21 +31,24 @@ LEETCODE_BEGIN_RESOLVING(143, ReorderList, Solution);
 class Solution {
 public:
   void reorderList(ListNode *head) {
-    vector<int> arr;
-    ListNode   *p = head;
+    vector<ListNode *> arr;
+    ListNode          *p = head;
     while (p != nullptr) {
-      arr.push_back(p->val);
+      arr.push_back(p);
       p = p->next;
     }
     int i = 1, j = arr.size() - 1, cnt = 0;
     p = head;
     while (i <= j) {
       if (cnt++ % 2 == 0) {
-        p->next = new ListNode(arr[j--]);
+        p->next = arr[j--];
       } else {
-        p->next = new ListNode(arr[i++]);
+        p->next = arr[i++];
       }
       p = p->next;
+    }
+    if (p) {
+      p->next = nullptr;
     }
   }
 };

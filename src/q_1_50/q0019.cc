@@ -39,7 +39,9 @@ public:
       fast = fast->next;
       slow = slow->next;
     }
+    auto rm    = slow->next;
     slow->next = slow->next->next;
+    delete rm;
     return dummy.next;
   }
 };
@@ -67,7 +69,7 @@ LEETCODE_SOLUTION_UNITTEST(19, RemoveNthNodeFromEndofList, example_1) {
   ListNode *expect   = ListNode::FromVector({1, 2, 3, 5} /*, looped_index*/);
   ListNode *actual   = solution->removeNthFromEnd(head, n);
   LCD_EXPECT_EQ(expect, actual);
-  ListNode::Release(head);
+  ListNode::Release(head, expect, actual);
 }
 
 // [Example #2]
@@ -82,7 +84,7 @@ LEETCODE_SOLUTION_UNITTEST(19, RemoveNthNodeFromEndofList, example_2) {
   ListNode *expect   = ListNode::FromVector({} /*, looped_index*/);
   ListNode *actual   = solution->removeNthFromEnd(head, n);
   LCD_EXPECT_EQ(expect, actual);
-  ListNode::Release(head);
+  ListNode::Release(head, expect, actual);
 }
 
 // [Example #3]
@@ -97,5 +99,5 @@ LEETCODE_SOLUTION_UNITTEST(19, RemoveNthNodeFromEndofList, example_3) {
   ListNode *expect   = ListNode::FromVector({1} /*, looped_index*/);
   ListNode *actual   = solution->removeNthFromEnd(head, n);
   LCD_EXPECT_EQ(expect, actual);
-  ListNode::Release(head);
+  ListNode::Release(head, expect, actual);
 }

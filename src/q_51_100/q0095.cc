@@ -88,6 +88,8 @@ LEETCODE_SOLUTION_UNITTEST(95, UniqueBinarySearchTreesII, example_1) {
                                  TreeNode::FromVector({3, 2, null, 1})};
   vector<TreeNode *> actual   = solution->generateTrees(n);
   EXPECT_ANYORDER_EQ(expect, actual);
+  TreeNode::ReleaseRange(expect.begin(), expect.end());
+  TreeNode::ReleaseRange(actual.begin(), actual.end());
 }
 
 // [Example #2]
@@ -101,4 +103,6 @@ LEETCODE_SOLUTION_UNITTEST(95, UniqueBinarySearchTreesII, example_2) {
   vector<TreeNode *> expect   = {TreeNode::FromVector({1})};
   vector<TreeNode *> actual   = solution->generateTrees(n);
   EXPECT_ANYORDER_EQ(expect, actual);
+  TreeNode::ReleaseRange(expect.begin(), expect.end());
+  TreeNode::ReleaseRange(actual.begin(), actual.end());
 }

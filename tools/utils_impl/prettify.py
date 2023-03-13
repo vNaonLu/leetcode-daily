@@ -111,7 +111,7 @@ class __HTMLParser(_NativeHTMLParser):
         elif tag == "sub":
             repl = subscript(data)
             if repl == data:
-                data = f'^{{{repl}}}'
+                data = f'_{{{repl}}}'
             else:
                 data = repl
 

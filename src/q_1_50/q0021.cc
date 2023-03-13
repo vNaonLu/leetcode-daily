@@ -76,7 +76,7 @@ LEETCODE_SOLUTION_UNITTEST(21, MergeTwoSortedLists, example_1) {
       ListNode::FromVector({1, 1, 2, 3, 4, 4} /*, looped_index*/);
   ListNode *actual = solution->mergeTwoLists(list1, list2);
   LCD_EXPECT_EQ(expect, actual);
-  ListNode::Release(list1, list2);
+  ListNode::Release(list1, list2, expect, actual);
 }
 
 // [Example #2]
@@ -91,7 +91,7 @@ LEETCODE_SOLUTION_UNITTEST(21, MergeTwoSortedLists, example_2) {
   ListNode *expect   = ListNode::FromVector({} /*, looped_index*/);
   ListNode *actual   = solution->mergeTwoLists(list1, list2);
   LCD_EXPECT_EQ(expect, actual);
-  ListNode::Release(list1, list2);
+  ListNode::Release(list1, list2, expect, actual);
 }
 
 // [Example #3]
@@ -106,5 +106,5 @@ LEETCODE_SOLUTION_UNITTEST(21, MergeTwoSortedLists, example_3) {
   ListNode *expect   = ListNode::FromVector({0} /*, looped_index*/);
   ListNode *actual   = solution->mergeTwoLists(list1, list2);
   LCD_EXPECT_EQ(expect, actual);
-  ListNode::Release(list1, list2);
+  ListNode::Release(list1, list2, expect, actual);
 }

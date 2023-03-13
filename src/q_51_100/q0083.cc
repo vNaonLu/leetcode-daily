@@ -35,10 +35,12 @@ public:
       if (pre->val != p->val) {
         pre->next = p;
         pre       = p;
+        p         = p->next;
       } else {
+        p = p->next;
+        delete pre->next;
         pre->next = nullptr;
       }
-      p = p->next;
     }
     return dummy.next;
   }
@@ -65,7 +67,7 @@ LEETCODE_SOLUTION_UNITTEST(83, RemoveDuplicatesFromSortedList, example_1) {
   ListNode *expect   = ListNode::FromVector({1, 2} /*, looped_index*/);
   ListNode *actual   = solution->deleteDuplicates(head);
   LCD_EXPECT_EQ(expect, actual);
-  ListNode::Release(head);
+  ListNode::Release(head, expect, actual);
 }
 
 // [Example #2]
@@ -79,5 +81,5 @@ LEETCODE_SOLUTION_UNITTEST(83, RemoveDuplicatesFromSortedList, example_2) {
   ListNode *expect   = ListNode::FromVector({1, 2, 3} /*, looped_index*/);
   ListNode *actual   = solution->deleteDuplicates(head);
   LCD_EXPECT_EQ(expect, actual);
-  ListNode::Release(head);
+  ListNode::Release(head, expect, actual);
 }

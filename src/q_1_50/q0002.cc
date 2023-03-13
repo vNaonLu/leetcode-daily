@@ -78,7 +78,7 @@ LEETCODE_SOLUTION_UNITTEST(2, AddTwoNumbers, example_1) {
   ListNode *expect   = ListNode::FromVector({7, 0, 8} /*, looped_index*/);
   ListNode *actual   = solution->addTwoNumbers(l1, l2);
   LCD_EXPECT_EQ(expect, actual);
-  ListNode::Release(l1, l2, expect);
+  ListNode::Release(l1, l2, expect, actual);
 }
 
 // [Example #2]
@@ -93,7 +93,7 @@ LEETCODE_SOLUTION_UNITTEST(2, AddTwoNumbers, example_2) {
   ListNode *expect   = ListNode::FromVector({0} /*, looped_index*/);
   ListNode *actual   = solution->addTwoNumbers(l1, l2);
   LCD_EXPECT_EQ(expect, actual);
-  ListNode::Release(l1, l2, expect);
+  ListNode::Release(l1, l2, expect, actual);
 }
 
 // [Example #3]
@@ -109,5 +109,5 @@ LEETCODE_SOLUTION_UNITTEST(2, AddTwoNumbers, example_3) {
       ListNode::FromVector({8, 9, 9, 9, 0, 0, 0, 1} /*, looped_index*/);
   ListNode *actual = solution->addTwoNumbers(l1, l2);
   LCD_EXPECT_EQ(expect, actual);
-  ListNode::Release(l1, l2, expect);
+  ListNode::Release(l1, l2, expect, actual);
 }

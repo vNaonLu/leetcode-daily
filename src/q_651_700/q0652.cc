@@ -84,6 +84,8 @@ LEETCODE_SOLUTION_UNITTEST(652, FindDuplicateSubtrees, example_1) {
   vector<TreeNode *> actual = solution->findDuplicateSubtrees(root);
   EXPECT_ANYORDER_EQ(expect, actual);
   TreeNode::Release(root);
+  TreeNode::ReleaseRange(expect.begin(), expect.end());
+  TreeNode::ReleaseRange(actual.begin(), actual.end());
 }
 
 // [Example #2]
@@ -98,6 +100,8 @@ LEETCODE_SOLUTION_UNITTEST(652, FindDuplicateSubtrees, example_2) {
   vector<TreeNode *> actual   = solution->findDuplicateSubtrees(root);
   EXPECT_ANYORDER_EQ(expect, actual);
   TreeNode::Release(root);
+  TreeNode::ReleaseRange(expect.begin(), expect.end());
+  TreeNode::ReleaseRange(actual.begin(), actual.end());
 }
 
 // [Example #3]
@@ -113,4 +117,6 @@ LEETCODE_SOLUTION_UNITTEST(652, FindDuplicateSubtrees, example_3) {
   vector<TreeNode *> actual = solution->findDuplicateSubtrees(root);
   EXPECT_ANYORDER_EQ(expect, actual);
   TreeNode::Release(root);
+  TreeNode::ReleaseRange(expect.begin(), expect.end());
+  TreeNode::ReleaseRange(actual.begin(), actual.end());
 }
