@@ -181,16 +181,19 @@ def _buildAndTest(*, build_path: Path, solution_file: SolutionFile, id: int,
                         leetcode_session = None
 
                     if submission.last_input != "" and submission.expect_output != "":
+                        gen_task = LOG.createTaskLog("Generate Unittest")
+                        gen_task.begin("generating testcase...")
                         unittest, suite_name = cpp_solution.getUnitTestFromSubmissionResult(
                             name=f'Extra Testcase #{extra_input_idx}',
                             suite_name=f'extra_testcase_{extra_input_idx}',
                             input=submission.last_input,
                             output=submission.expect_output)
+                        gen_task.log("writing to solution file...")
                         extra_input_idx += 1
                         content = solution_file.read_text() + f'\n{unittest}'
                         solution_file.write_text(clangFormat(content))
-                        LOG.success("added an extra testcase for solution: {}",
-                                    LOG.format(suite_name, flag=LOG.HIGHTLIGHT))
+                        gen_task.done("added an extra testcase for solution: {}",
+                                      LOG.format(suite_name, flag=LOG.HIGHTLIGHT), is_success=True)
 
                 else:
                     TASK.done("accepted by LeetCode", is_success=True)
