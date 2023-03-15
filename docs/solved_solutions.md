@@ -1,6 +1,6 @@
 # Solved Solutions List
 
-This document contains **913** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
+This document contains **914** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
 
 Some questions which are still being resolved are not shown in this page, more information about unsolved questions can be found at [docs/unsolved_solutions.md](./unsolved_solutions.md).
 
@@ -919,4 +919,5 @@ Some questions which are still being resolved are not shown in this page, more i
 |2535|[Difference Between Element Sum and Digit Sum of an Array](https://leetcode.com/problems/difference-between-element-sum-and-digit-sum-of-an-array/)|[src/q_2501_2550/q2535.cc](../src/q_2501_2550/q2535.cc)|2023/02/18 13:32|
 |2540|[Minimum Common Value](https://leetcode.com/problems/minimum-common-value/)|[src/q_2501_2550/q2540.cc](../src/q_2501_2550/q2540.cc)|2023/02/05 21:53|
 |2544|[Alternating Digit Sum](https://leetcode.com/problems/alternating-digit-sum/)|[src/q_2501_2550/q2544.cc](../src/q_2501_2550/q2544.cc)|2023/02/06 16:42|
+|2553|[Separate the Digits in an Array](https://leetcode.com/problems/separate-the-digits-in-an-array/)|[src/q_2551_2600/q2553.cc](../src/q_2551_2600/q2553.cc)|2023/03/15 15:44|
 |2574|[Left and Right Sum Differences](https://leetcode.com/problems/left-and-right-sum-differences/)|[src/q_2551_2600/q2574.cc](../src/q_2551_2600/q2574.cc)|2023/03/10 13:23|
