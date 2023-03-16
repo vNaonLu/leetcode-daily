@@ -1,6 +1,6 @@
 # Unsolved Solutions List
 
-There are **1675** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
+There are **1674** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
 
 The questions which have been solved are not shown in this page, more information about solved questions can be found at [docs/solved_solutions.md](./solved_solutions.md).
 
@@ -1340,7 +1340,6 @@ The questions which have been solved are not shown in this page, more informatio
 |2173|[Longest Winning Streak](https://leetcode.com/problems/longest-winning-streak/)|Hard|🔒|
 |2174|[Remove All Ones With Row and Column Flips II](https://leetcode.com/problems/remove-all-ones-with-row-and-column-flips-ii/)|Medium|🔒|
 |2175|[The Change in Global Rankings](https://leetcode.com/problems/the-change-in-global-rankings/)|Medium|🔒|
-|2176|[Count Equal and Divisible Pairs in an Array](https://leetcode.com/problems/count-equal-and-divisible-pairs-in-an-array/)|Easy||
 |2177|[Find Three Consecutive Integers That Sum to a Given Number](https://leetcode.com/problems/find-three-consecutive-integers-that-sum-to-a-given-number/)|Medium||
 |2178|[Maximum Split of Positive Even Integers](https://leetcode.com/problems/maximum-split-of-positive-even-integers/)|Medium||
 |2179|[Count Good Triplets in an Array](https://leetcode.com/problems/count-good-triplets-in-an-array/)|Hard||
