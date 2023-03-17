@@ -264,7 +264,6 @@ def ldtCatImpl(*, id: int, src_path: Path):
         solution = clangFormat(snippet)
         LOG.success("the solution for question #{} found:",
                     LOG.format(ARG_ID, flag=LOG.HIGHTLIGHT))
-        LOG.print('')
         LOG.print(solution, flag=LOG.DARK_GREEN)
 
     return 0
