@@ -84,31 +84,20 @@ def getSolutionFileName(id: int):
     return f'q{str(id).zfill(4)}.cc'
 
 
-__REGULAR_SOLUTION_FORMAT = regex.compile(
-    "(?P<solution>class Solution *({(?:(?:[^{}]|(?2))*)});)")
-
-__STRUCTURED_SOLUTION_FORMAT = regex.compile(
-    "(?P<solution>class \w+ *({(?:(?:[^{}]|(?2))*)});)")
+__SOLUTION_FORMAT = regex.compile(
+    "LEETCODE_BEGIN_RESOLVING\(\d+,[ \n]*\w+,[ \n]*\w+\);([\w\W]+)LEETCODE_END_RESOLVING\([ \n]*\w+\);"
+)
 
 
 def parseSolution(src: str):
     LOG = prompt.Log.getInstance()
-    LOG.funcVerbose("trying to search with regular type.")
-    regular = __REGULAR_SOLUTION_FORMAT.search(src)
-    if regular:
-        LOG.funcVerbose("the regular solution format found.")
-        return regular.group("solution")
-    LOG.funcVerbose("failed to search with the regular solution format.")
-
-    LOG.funcVerbose("trying to parse with structured type.")
-    structured = __STRUCTURED_SOLUTION_FORMAT.search(src)
-    if structured:
-        LOG.funcVerbose("the structured solution format found.")
-        return structured.group("solution")
-    LOG.funcVerbose("failed to search with the structured solution format.")
-
-    LOG.funcVerbose("failed to search all possible solution format.")
-    return None
+    LOG.funcVerbose("try to parse the source: \n{}", src)
+    LOG.funcVerbose("with regex: {}", __SOLUTION_FORMAT)
+    mat = __SOLUTION_FORMAT.search(src)
+    if not mat:
+        LOG.funcVerbose("solution segment not found.")
+        return None
+    return mat.group(1).strip()
 
 
 def findExecutable(name: str):
