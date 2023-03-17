@@ -117,6 +117,7 @@ def __getResolvedLogsList(path: Path):
         f"update the project documents and diagrams.",
         width=60
     ),
+    skip_if_has_subcmd=True,
     description=fixedWidth(
         f'A nested script to request and update the questions list and update the readme and '
         f'resolve diagrams including activities and progress SVG. Run without subcommand works '
@@ -125,8 +126,6 @@ def __getResolvedLogsList(path: Path):
     )
 )
 def ldtUpdate(args: object):
-    if getattr(args, "__subfunc") != ldtUpdate:
-        return 0
     LOG = prompt.Log.getInstance(verbose=getattr(args, "verbose"))
     ARG_SRC_PATH = Path(getattr(args, "src_path")).resolve()
     ARG_QUESTIONS_LIST = Path(getattr(args, "questions_list_file")).resolve()
