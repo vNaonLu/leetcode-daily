@@ -1,6 +1,6 @@
 # Solved Solutions List
 
-This document contains **916** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
+This document contains **917** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
 
 Some questions which are still being resolved are not shown in this page, more information about unsolved questions can be found at [docs/unsolved_solutions.md](./unsolved_solutions.md).
 
@@ -700,6 +700,7 @@ Some questions which are still being resolved are not shown in this page, more i
 |1466|[Reorder Routes to Make All Paths Lead to the City Zero](https://leetcode.com/problems/reorder-routes-to-make-all-paths-lead-to-the-city-zero/)|[src/q_1451_1500/q1466.cc](../src/q_1451_1500/q1466.cc)|2022/03/19 15:09|
 |1470|[Shuffle the Array](https://leetcode.com/problems/shuffle-the-array/)|[src/q_1451_1500/q1470.cc](../src/q_1451_1500/q1470.cc)|2022/11/26 16:08|
 |1471|[The k Strongest Values in an Array](https://leetcode.com/problems/the-k-strongest-values-in-an-array/)|[src/q_1451_1500/q1471.cc](../src/q_1451_1500/q1471.cc)|2022/03/25 18:11|
+|1472|[Design Browser History](https://leetcode.com/problems/design-browser-history/)|[src/q_1451_1500/q1472.cc](../src/q_1451_1500/q1472.cc)|2023/03/18 14:48|
 |1473|[Paint House III](https://leetcode.com/problems/paint-house-iii/)|[src/q_1451_1500/q1473.cc](../src/q_1451_1500/q1473.cc)|2022/07/08 18:21|
 |1480|[Running Sum of 1d Array](https://leetcode.com/problems/running-sum-of-1d-array/)|[src/q_1451_1500/q1480.cc](../src/q_1451_1500/q1480.cc)|2021/11/01 18:23|
 |1482|[Minimum Number of Days to Make m Bouquets](https://leetcode.com/problems/minimum-number-of-days-to-make-m-bouquets/)|[src/q_1451_1500/q1482.cc](../src/q_1451_1500/q1482.cc)|2022/07/20 18:38|
