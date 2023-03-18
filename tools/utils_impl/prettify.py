@@ -122,7 +122,7 @@ class __HTMLParser(_NativeHTMLParser):
             else:
                 data = repl
 
-        self.buffer += data.replace('\xa0', '')
+        self.buffer += data.replace('\xa0', ' ')
 
 
 def parseHtml(content: str, *, show_raw_data = False):

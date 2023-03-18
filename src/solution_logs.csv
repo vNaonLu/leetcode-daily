@@ -911,3 +911,8 @@ timestamp,id,tc,sc,notes
 1678611581,2185,n * m,1,n = |words.size()| and m = |pref.size()|
 1678612555,2520,n,1,n = digits of |num|
 1678676774,2455,n,1,n = |nums.size()|
+1678791649,2529,log(n),1,n = |nums.size()|
+1678866245,2553,n,m,"n = |nums.size()|, m = digits of |nums[i]|"
+1678951284,2176,n^2,1,n = |nums.size()|
+1679030016,1979,n,1,n = |nums.size()|
+1679122098,1472,-,-,not calculated

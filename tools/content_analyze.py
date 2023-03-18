@@ -72,7 +72,7 @@ class QuestionContentAnalyzer:
             return content
 
         content = regex.sub(reg, "", content)
-        example_regex = "<pre>(?:[\w\W]*?)<strong>Input:? *<\/strong>([\w\W]*?)<strong>Output:? *<\/strong>([\w\W]*?)(?:<strong>Explanation:? *<\/strong>([\w\W]*?))?<\/pre>"
+        example_regex = "<pre>(?:[\w\W]*?)<(?:strong|b)>Input:? *<\/(?:strong|b)>([\w\W]*?)<(?:strong|b)>Output:? *<\/(?:strong|b)>([\w\W]*?)(?:<(?:strong|b)>Explanation:? *<\/(?:strong|b)>([\w\W]*?))?<\/pre>"
         LOG.funcVerbose("find examples section: {}", mat.group(1))
         LOG.funcVerbose("parse the examples items with regex: {}", example_regex)
         for item in regex.findall(example_regex, mat.group(1)):

@@ -264,7 +264,6 @@ def ldtCatImpl(*, id: int, src_path: Path):
         solution = clangFormat(snippet)
         LOG.success("the solution for question #{} found:",
                     LOG.format(ARG_ID, flag=LOG.HIGHTLIGHT))
-        LOG.print('')
         LOG.print(solution, flag=LOG.DARK_GREEN)
 
     return 0
@@ -484,6 +483,7 @@ def ldtRunImpl(*, build_path: Path, infra_test: bool, ids: list[int] = []):
                     id = regex.search('q(\d+)_\w+\.\w+', test).group(1)
                     fid = LOG.format(id, flag=LOG.HIGHTLIGHT)
                     LOG.log(' - {}', regex.sub(f'q{id}_', f'q{fid}_', test))
+                    LOG.print(parseFailedBlock(result, test), flag=LOG.VERBOSE)
 
                 target_failed = []
                 if not infra_test and len(ARG_IDS) > 0:

@@ -10,6 +10,7 @@ out*/
 .config
 __pycache__
 CMakeSettings.json
+compile_commands.json
 
 # vim temporary
 *.swp

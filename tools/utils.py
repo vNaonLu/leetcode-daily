@@ -84,31 +84,20 @@ def getSolutionFileName(id: int):
     return f'q{str(id).zfill(4)}.cc'
 
 
-__REGULAR_SOLUTION_FORMAT = regex.compile(
-    "(?P<solution>class Solution *({(?:(?:[^{}]|(?2))*)});)")
-
-__STRUCTURED_SOLUTION_FORMAT = regex.compile(
-    "(?P<solution>class \w+ *({(?:(?:[^{}]|(?2))*)});)")
+__SOLUTION_FORMAT = regex.compile(
+    "LEETCODE_BEGIN_RESOLVING\(\d+,[ \n]*\w+,[ \n]*\w+\);([\w\W]+)LEETCODE_END_RESOLVING\([ \n]*\w+\);"
+)
 
 
 def parseSolution(src: str):
     LOG = prompt.Log.getInstance()
-    LOG.funcVerbose("trying to search with regular type.")
-    regular = __REGULAR_SOLUTION_FORMAT.search(src)
-    if regular:
-        LOG.funcVerbose("the regular solution format found.")
-        return regular.group("solution")
-    LOG.funcVerbose("failed to search with the regular solution format.")
-
-    LOG.funcVerbose("trying to parse with structured type.")
-    structured = __STRUCTURED_SOLUTION_FORMAT.search(src)
-    if structured:
-        LOG.funcVerbose("the structured solution format found.")
-        return structured.group("solution")
-    LOG.funcVerbose("failed to search with the structured solution format.")
-
-    LOG.funcVerbose("failed to search all possible solution format.")
-    return None
+    LOG.funcVerbose("try to parse the source: \n{}", src)
+    LOG.funcVerbose("with regex: {}", __SOLUTION_FORMAT)
+    mat = __SOLUTION_FORMAT.search(src)
+    if not mat:
+        LOG.funcVerbose("solution segment not found.")
+        return None
+    return mat.group(1).strip()
 
 
 def findExecutable(name: str):
@@ -222,48 +211,12 @@ def parseBuildLog(oneline: str):
     except:
         return None, None
 
-
-__TEST_TIMEDOUT = regex.compile("[\w_.]+ exceeded the time limit: \d+ms *$", regex.MULTILINE)
-__TEST_FAILED = regex.compile("\[  FAILED  \] (?P<solution>[\w_.]+)$", regex.MULTILINE)
-__TEST_PASSED = regex.compile("\[       OK \] q(?P<solution_id>\d+)_\w+\.\w+ \(\d+ ms\)$", regex.MULTILINE)
-__TEST_SKIPPED = regex.compile("\[  SKIPPED \] q(?P<solution_id>\d+)_\w+\.\w+$", regex.MULTILINE)
-
-
-def parseTimeoutCase(text: str):
-    mat = __TEST_TIMEDOUT.search(text)
-    return mat and mat.group(0)
-
-
-def parsePassedIds(text: str):
-    find = __TEST_PASSED.findall(text)
-
-    if find:
-        return set(int(id) for id in find)
-    return set([])
-
-
-def parseSkippedIds(text: str):
-    find = __TEST_SKIPPED.findall(text)
-
-    if find:
-        return set(int(id) for id in find)
-    return set([])
-
-
-def parseFailedTests(text: str):
-    find = __TEST_FAILED.findall(text)
-
-    if find:
-        return set(find)
-    return set([])
-
-
-def parseTestBlock(text: str, target: str):
+def parseFailedBlock(result: str, target: str):
     LOG = prompt.Log.getInstance()
     target = target.replace('.', r'\.')
     r = regex.compile(f"(?P<block>\[ RUN      \] {target}[\w\W]+\[  FAILED  \] {target} \(\d+ ms\))")
     LOG.funcVerbose("trying to search with regex: {}", r)
-    m = r.search(text)
+    m = r.search(result)
     if m:
         return m.group("block")
     LOG.funcVerbose("no target found.")
