@@ -63,19 +63,32 @@ def ldtCheck(args):
         else:
             features_commit.append((sha, msg))
 
+    weeks_cnt = int(1 + (TODAY - PROJECT_INITIAL_DATE).days / 7)
+    title_msg = ""
     detail_msg = ""
     if len(solution_commit) > 0:
+        title_msg += "adds {} solution(s)".format(
+            LOG.format(len(solution_commit), flag=LOG.HIGHTLIGHT))
         detail_msg += f"add solution(s) details:\n"
         for rev, msg in solution_commit:
             detail_msg += "  {} {}\n".format(
                 LOG.format(rev, flag=LOG.HIGHTLIGHT), msg)
     if len(features_commit) > 0:
-        detail_msg += "\nmodifies and fixes:\n"
+        title_msg += "{}modifies {} feature(s)".format(
+            ", " if len(solution_commit) else "",
+            LOG.format(len(features_commit), flag=LOG.HIGHTLIGHT))
+        detail_msg += "\nmodifies/fixes:\n"
         for rev, msg in features_commit:
             detail_msg += "  {} {}\n".format(
                 LOG.format(rev, flag=LOG.HIGHTLIGHT), msg)
 
+    if title_msg != "":
+        title_msg += " in week {}.".format(LOG.format(weeks_cnt,
+                                                      flag=LOG.HIGHTLIGHT))
+
+    LOG.print(title_msg)
     LOG.print(detail_msg)
+    return 0
 
 if __name__ == "__main__":
     sys.exit(safeRun(ldtCheck))

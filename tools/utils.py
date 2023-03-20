@@ -47,6 +47,7 @@ LDTCONFIG_EXTENSION = ".ldtconf"
 LDTCONFIG_ABSOLUTE = PROJECT_ROOT.joinpath(LDTCONFIG_EXTENSION).resolve()
 
 TODAY = datetime.now()
+PROJECT_INITIAL_DATE = datetime(2021, 9, 6)
 
 def concat(*args, delimiter: str = '\n'):
     if len(args) == 0:
