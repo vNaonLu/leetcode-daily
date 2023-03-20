@@ -32,6 +32,7 @@ def ldtMain(args: object):
 
 from ldt_cat import *
 from ldt_run import *
+from ldt_check import *
 from ldt_build import *
 from ldt_add import *
 from ldt_remove import *
