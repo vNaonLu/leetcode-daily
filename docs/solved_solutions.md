@@ -1,6 +1,6 @@
 # Solved Solutions List
 
-This document contains **917** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
+This document contains **919** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
 
 Some questions which are still being resolved are not shown in this page, more information about unsolved questions can be found at [docs/unsolved_solutions.md](./unsolved_solutions.md).
 
@@ -786,6 +786,7 @@ Some questions which are still being resolved are not shown in this page, more i
 |1786|[Number of Restricted Paths From First to Last Node](https://leetcode.com/problems/number-of-restricted-paths-from-first-to-last-node/)|[src/q_1751_1800/q1786.cc](../src/q_1751_1800/q1786.cc)|2022/02/10 19:37|
 |1790|[Check if One String Swap Can Make Strings Equal](https://leetcode.com/problems/check-if-one-string-swap-can-make-strings-equal/)|[src/q_1751_1800/q1790.cc](../src/q_1751_1800/q1790.cc)|2022/04/17 12:45|
 |1791|[Find Center of Star Graph](https://leetcode.com/problems/find-center-of-star-graph/)|[src/q_1751_1800/q1791.cc](../src/q_1751_1800/q1791.cc)|2022/02/23 19:25|
+|1796|[Second Largest Digit in a String](https://leetcode.com/problems/second-largest-digit-in-a-string/)|[src/q_1751_1800/q1796.cc](../src/q_1751_1800/q1796.cc)|2023/03/19 14:49|
 |1797|[Design Authentication Manager](https://leetcode.com/problems/design-authentication-manager/)|[src/q_1751_1800/q1797.cc](../src/q_1751_1800/q1797.cc)|2022/05/14 12:59|
 |1802|[Maximum Value at a Given Index in a Bounded Array](https://leetcode.com/problems/maximum-value-at-a-given-index-in-a-bounded-array/)|[src/q_1801_1850/q1802.cc](../src/q_1801_1850/q1802.cc)|2022/07/30 17:15|
 |1805|[Number of Different Integers in a String](https://leetcode.com/problems/number-of-different-integers-in-a-string/)|[src/q_1801_1850/q1805.cc](../src/q_1801_1850/q1805.cc)|2022/06/22 18:14|
@@ -841,6 +842,7 @@ Some questions which are still being resolved are not shown in this page, more i
 |2042|[Check if Numbers Are Ascending in a Sentence](https://leetcode.com/problems/check-if-numbers-are-ascending-in-a-sentence/)|[src/q_2001_2050/q2042.cc](../src/q_2001_2050/q2042.cc)|2022/01/12 17:59|
 |2053|[Kth Distinct String in an Array](https://leetcode.com/problems/kth-distinct-string-in-an-array/)|[src/q_2051_2100/q2053.cc](../src/q_2051_2100/q2053.cc)|2023/01/05 16:23|
 |2057|[Smallest Index With Equal Value](https://leetcode.com/problems/smallest-index-with-equal-value/)|[src/q_2051_2100/q2057.cc](../src/q_2051_2100/q2057.cc)|2023/01/01 14:48|
+|2068|[Check Whether Two Strings are Almost Equivalent](https://leetcode.com/problems/check-whether-two-strings-are-almost-equivalent/)|[src/q_2051_2100/q2068.cc](../src/q_2051_2100/q2068.cc)|2023/03/20 18:58|
 |2090|[K Radius Subarray Averages](https://leetcode.com/problems/k-radius-subarray-averages/)|[src/q_2051_2100/q2090.cc](../src/q_2051_2100/q2090.cc)|2022/02/10 16:36|
 |2095|[Delete the Middle Node of a Linked List](https://leetcode.com/problems/delete-the-middle-node-of-a-linked-list/)|[src/q_2051_2100/q2095.cc](../src/q_2051_2100/q2095.cc)|2022/10/14 10:08|
 |2131|[Longest Palindrome by Concatenating Two Letter Words](https://leetcode.com/problems/longest-palindrome-by-concatenating-two-letter-words/)|[src/q_2101_2150/q2131.cc](../src/q_2101_2150/q2131.cc)|2022/09/12 18:25|

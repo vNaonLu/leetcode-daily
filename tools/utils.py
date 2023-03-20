@@ -21,6 +21,7 @@ ADD_SCRIPT_NAME = f"{SCRIPT_NAME}_Add"
 GEN_SCRIPT_NAME = f"{SCRIPT_NAME}_Gen"
 RUN_SCRIPT_NAME = f"{SCRIPT_NAME}_Run"
 BUILD_SCRIPT_NAME = f"{SCRIPT_NAME}_Build"
+CHECK_SCRIPT_NAME = f"{SCRIPT_NAME}_Check"
 REMOVE_SCRIPT_NAME = f"{SCRIPT_NAME}_Remove"
 UPDATE_SCRIPT_NAME = f"{SCRIPT_NAME}_Update"
 CONFIG_SCRIPT_NAME = f"{SCRIPT_NAME}_Config"
@@ -46,6 +47,7 @@ LDTCONFIG_EXTENSION = ".ldtconf"
 LDTCONFIG_ABSOLUTE = PROJECT_ROOT.joinpath(LDTCONFIG_EXTENSION).resolve()
 
 TODAY = datetime.now()
+PROJECT_INITIAL_DATE = datetime(2021, 9, 6)
 
 def concat(*args, delimiter: str = '\n'):
     if len(args) == 0:

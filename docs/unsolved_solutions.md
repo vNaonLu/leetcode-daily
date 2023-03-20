@@ -1,6 +1,6 @@
 # Unsolved Solutions List
 
-There are **1672** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
+There are **1670** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
 
 The questions which have been solved are not shown in this page, more information about solved questions can be found at [docs/solved_solutions.md](./solved_solutions.md).
 
@@ -1023,7 +1023,6 @@ The questions which have been solved are not shown in this page, more informatio
 |1793|[Maximum Score of a Good Subarray](https://leetcode.com/problems/maximum-score-of-a-good-subarray/)|Hard||
 |1794|[Count Pairs of Equal Substrings With Minimum Difference](https://leetcode.com/problems/count-pairs-of-equal-substrings-with-minimum-difference/)|Medium|🔒|
 |1795|[Rearrange Products Table](https://leetcode.com/problems/rearrange-products-table/)|Easy||
-|1796|[Second Largest Digit in a String](https://leetcode.com/problems/second-largest-digit-in-a-string/)|Easy||
 |1798|[Maximum Number of Consecutive Values You Can Make](https://leetcode.com/problems/maximum-number-of-consecutive-values-you-can-make/)|Medium||
 |1799|[Maximize Score After N Operations](https://leetcode.com/problems/maximize-score-after-n-operations/)|Hard||
 |1800|[Maximum Ascending Subarray Sum](https://leetcode.com/problems/maximum-ascending-subarray-sum/)|Easy||
@@ -1240,7 +1239,6 @@ The questions which have been solved are not shown in this page, more informatio
 |2065|[Maximum Path Quality of a Graph](https://leetcode.com/problems/maximum-path-quality-of-a-graph/)|Hard||
 |2066|[Account Balance](https://leetcode.com/problems/account-balance/)|Medium|🔒|
 |2067|[Number of Equal Count Substrings](https://leetcode.com/problems/number-of-equal-count-substrings/)|Medium|🔒|
-|2068|[Check Whether Two Strings are Almost Equivalent](https://leetcode.com/problems/check-whether-two-strings-are-almost-equivalent/)|Easy||
 |2069|[Walking Robot Simulation II](https://leetcode.com/problems/walking-robot-simulation-ii/)|Medium||
 |2070|[Most Beautiful Item for Each Query](https://leetcode.com/problems/most-beautiful-item-for-each-query/)|Medium||
 |2071|[Maximum Number of Tasks You Can Assign](https://leetcode.com/problems/maximum-number-of-tasks-you-can-assign/)|Hard||
