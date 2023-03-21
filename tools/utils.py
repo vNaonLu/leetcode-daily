@@ -87,7 +87,7 @@ def getSolutionFileName(id: int):
 
 
 __SOLUTION_FORMAT = regex.compile(
-    "LEETCODE_BEGIN_RESOLVING\(\d+,[ \n]*\w+,[ \n]*\w+\);([\w\W]+)LEETCODE_END_RESOLVING\([ \n]*\w+\);"
+    "LEETCODE_BEGIN_RESOLVING\([ \n]*\d+,[ \n]*\w+,[ \n]*\w+\);([\w\W]+)LEETCODE_END_RESOLVING\([ \n]*\w+\);"
 )
 
 
