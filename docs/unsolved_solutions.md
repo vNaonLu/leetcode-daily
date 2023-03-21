@@ -1,6 +1,6 @@
 # Unsolved Solutions List
 
-There are **1670** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
+There are **1669** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
 
 The questions which have been solved are not shown in this page, more information about solved questions can be found at [docs/solved_solutions.md](./solved_solutions.md).
 
@@ -1469,7 +1469,6 @@ The questions which have been solved are not shown in this page, more informatio
 |2344|[Minimum Deletions to Make Array Divisible](https://leetcode.com/problems/minimum-deletions-to-make-array-divisible/)|Hard||
 |2345|[Finding the Number of Visible Mountains](https://leetcode.com/problems/finding-the-number-of-visible-mountains/)|Medium|🔒|
 |2346|[Compute the Rank as a Percentage](https://leetcode.com/problems/compute-the-rank-as-a-percentage/)|Medium|🔒|
-|2348|[Number of Zero-Filled Subarrays](https://leetcode.com/problems/number-of-zero-filled-subarrays/)|Medium||
 |2349|[Design a Number Container System](https://leetcode.com/problems/design-a-number-container-system/)|Medium||
 |2350|[Shortest Impossible Sequence of Rolls](https://leetcode.com/problems/shortest-impossible-sequence-of-rolls/)|Hard||
 |2352|[Equal Row and Column Pairs](https://leetcode.com/problems/equal-row-and-column-pairs/)|Medium||
