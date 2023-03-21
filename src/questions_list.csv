@@ -2588,3 +2588,12 @@ id,backend_id,title,level,slug,paid
 2587,2655,Rearrange Array to Maximize Prefix Score,2,rearrange-array-to-maximize-prefix-score,0
 2588,2656,Count the Number of Beautiful Subarrays,2,count-the-number-of-beautiful-subarrays,0
 2589,2657,Minimum Time to Complete All Tasks,3,minimum-time-to-complete-all-tasks,0
+2590,2688,Design a Todo List,2,design-a-todo-list,1
+2591,2663,Distribute Money to Maximum Children,1,distribute-money-to-maximum-children,0
+2592,2664,Maximize Greatness of an Array,2,maximize-greatness-of-an-array,0
+2593,2695,Find Score of an Array After Marking All Elements,2,find-score-of-an-array-after-marking-all-elements,0
+2594,2665,Minimum Time to Repair Cars,2,minimum-time-to-repair-cars,0
+2595,2659,Number of Even and Odd Bits,1,number-of-even-and-odd-bits,0
+2596,2662,Check Knight Tour Configuration,2,check-knight-tour-configuration,0
+2597,2696,The Number of Beautiful Subsets,2,the-number-of-beautiful-subsets,0
+2598,2661,Smallest Missing Non-negative Integer After Operations,2,smallest-missing-non-negative-integer-after-operations,0
