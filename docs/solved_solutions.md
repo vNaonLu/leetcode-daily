@@ -1,6 +1,6 @@
 # Solved Solutions List
 
-This document contains **925** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
+This document contains **926** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
 
 Some questions which are still being resolved are not shown in this page, more information about unsolved questions can be found at [docs/unsolved_solutions.md](./unsolved_solutions.md).
 
@@ -892,6 +892,7 @@ Some questions which are still being resolved are not shown in this page, more i
 |2306|[Naming a Company](https://leetcode.com/problems/naming-a-company/)|[src/q_2301_2350/q2306.cc](../src/q_2301_2350/q2306.cc)|2023/02/09 14:55|
 |2311|[Longest Binary Subsequence Less Than or Equal to K](https://leetcode.com/problems/longest-binary-subsequence-less-than-or-equal-to-k/)|[src/q_2301_2350/q2311.cc](../src/q_2301_2350/q2311.cc)|2022/08/03 18:50|
 |2315|[Count Asterisks](https://leetcode.com/problems/count-asterisks/)|[src/q_2301_2350/q2315.cc](../src/q_2301_2350/q2315.cc)|2023/02/13 18:33|
+|2316|[Count Unreachable Pairs of Nodes in an Undirected Graph](https://leetcode.com/problems/count-unreachable-pairs-of-nodes-in-an-undirected-graph/)|[src/q_2301_2350/q2316.cc](../src/q_2301_2350/q2316.cc)|2023/03/25 18:00|
 |2319|[Check if Matrix Is X-Matrix](https://leetcode.com/problems/check-if-matrix-is-x-matrix/)|[src/q_2301_2350/q2319.cc](../src/q_2301_2350/q2319.cc)|2023/01/17 21:30|
 |2325|[Decode the Message](https://leetcode.com/problems/decode-the-message/)|[src/q_2301_2350/q2325.cc](../src/q_2301_2350/q2325.cc)|2023/02/11 14:52|
 |2331|[Evaluate Boolean Binary Tree](https://leetcode.com/problems/evaluate-boolean-binary-tree/)|[src/q_2301_2350/q2331.cc](../src/q_2301_2350/q2331.cc)|2022/10/18 14:13|
