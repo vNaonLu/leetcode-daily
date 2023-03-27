@@ -1,6 +1,6 @@
 # Solved Solutions List
 
-This document contains **927** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
+This document contains **928** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
 
 Some questions which are still being resolved are not shown in this page, more information about unsolved questions can be found at [docs/unsolved_solutions.md](./unsolved_solutions.md).
 
@@ -651,6 +651,7 @@ Some questions which are still being resolved are not shown in this page, more i
 |1292|[Maximum Side Length of a Square with Sum Less than or Equal to Threshold](https://leetcode.com/problems/maximum-side-length-of-a-square-with-sum-less-than-or-equal-to-threshold/)|[src/q_1251_1300/q1292.cc](../src/q_1251_1300/q1292.cc)|2022/07/28 18:17|
 |1293|[Shortest Path in a Grid with Obstacles Elimination](https://leetcode.com/problems/shortest-path-in-a-grid-with-obstacles-elimination/)|[src/q_1251_1300/q1293.cc](../src/q_1251_1300/q1293.cc)|2021/09/25 15:43|
 |1295|[Find Numbers with Even Number of Digits](https://leetcode.com/problems/find-numbers-with-even-number-of-digits/)|[src/q_1251_1300/q1295.cc](../src/q_1251_1300/q1295.cc)|2022/10/24 21:19|
+|1299|[Replace Elements with Greatest Element on Right Side](https://leetcode.com/problems/replace-elements-with-greatest-element-on-right-side/)|[src/q_1251_1300/q1299.cc](../src/q_1251_1300/q1299.cc)|2023/03/27 12:58|
 |1300|[Sum of Mutated Array Closest to Target](https://leetcode.com/problems/sum-of-mutated-array-closest-to-target/)|[src/q_1251_1300/q1300.cc](../src/q_1251_1300/q1300.cc)|2022/07/29 18:49|
 |1302|[Deepest Leaves Sum](https://leetcode.com/problems/deepest-leaves-sum/)|[src/q_1301_1350/q1302.cc](../src/q_1301_1350/q1302.cc)|2022/05/15 12:59|
 |1305|[All Elements in Two Binary Search Trees](https://leetcode.com/problems/all-elements-in-two-binary-search-trees/)|[src/q_1301_1350/q1305.cc](../src/q_1301_1350/q1305.cc)|2022/01/26 18:06|
