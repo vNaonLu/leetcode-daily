@@ -120,7 +120,8 @@ def requestGraphQL(payload: str, *, timeout: int = 5, headers: object, name: str
             TASK.done("successfully requested", is_success=True)
             return state, resp
 
-        TASK.done("failed to request ({})", __toString(state, is_success=False))
+        TASK.done("failed to request ({})",
+                  __toString(state), is_success=False)
         return state, None
     else:
         state, resp = safeRequest(partial(session.post, GRAPHQL_URL, headers=headers,

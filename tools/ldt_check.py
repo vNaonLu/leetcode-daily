@@ -63,7 +63,7 @@ def ldtCheck(args):
         else:
             features_commit.append((sha, msg))
 
-    weeks_cnt = int(1 + (TODAY - PROJECT_INITIAL_DATE).days / 7)
+    weeks_cnt = int((TODAY - PROJECT_INITIAL_DATE).days / 7)
     title_msg = ""
     detail_msg = ""
     if len(solution_commit) > 0:
@@ -83,7 +83,7 @@ def ldtCheck(args):
                 LOG.format(rev, flag=LOG.HIGHTLIGHT), msg)
 
     if title_msg != "":
-        title_msg += " in week {}.".format(LOG.format(weeks_cnt,
+        title_msg += " in week {}.\n".format(LOG.format(weeks_cnt,
                                                       flag=LOG.HIGHTLIGHT))
 
     LOG.print(title_msg)
