@@ -224,7 +224,8 @@ def _buildAndTest(*, build_path: Path, solution_file: SolutionFile, id: int,
             if not PMT.ask("the solution #{} failed to pass, continue to solve?",
                            LOG.format(id, flag=LOG.HIGHTLIGHT)):
                 break
-            openEditor(solution_file)
+            openEditor(solution_file, line=getSolutionLine(
+                solution_file.read_text()))
             solution_file.write_text(clangFormat(solution_file.read_text()))
 
     return test_passed
@@ -251,7 +252,7 @@ def _addAndPassTestsIfNecessary(*, build_path: Path, questions_list: QuestionsLi
     if not cpp_solution:
         return False
 
-    openEditor(solution_file)
+    openEditor(solution_file, line=getSolutionLine(solution_file.read_text()))
     solution_file.write_text(clangFormat(solution_file.read_text()))
 
     if not without_test:

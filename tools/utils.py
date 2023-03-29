@@ -90,6 +90,8 @@ __SOLUTION_FORMAT = regex.compile(
     "LEETCODE_BEGIN_RESOLVING\([ \n]*\d+,[ \n]*\w+,[ \n]*\w+\);([\w\W]+)LEETCODE_END_RESOLVING\([ \n]*\w+\);"
 )
 
+__BEGIN_SOLUTION_SPECIFIER = "LEETCODE_BEGIN_RESOLVING"
+
 
 def parseSolution(src: str):
     LOG = prompt.Log.getInstance()
@@ -100,6 +102,13 @@ def parseSolution(src: str):
         LOG.funcVerbose("solution segment not found.")
         return None
     return mat.group(1).strip()
+
+
+def getSolutionLine(src: str) -> int:
+    occu = src.find(__BEGIN_SOLUTION_SPECIFIER)
+    if not occu:
+        return 0
+    return src[:occu].count('\n')
 
 
 def findExecutable(name: str):
@@ -142,10 +151,13 @@ def clangFormat(src: str):
         return after
 
 
-def openEditor(file: Path):
+def openEditor(file: Path, *, line: int = None):
     LOG = prompt.Log.getInstance()
     EDITOR = os.environ.get("EDITOR", findExecutable("vim"))
-    CMD = [EDITOR, "+set backupcopy=yes", file]
+    CMD = [EDITOR, "+set backupcopy=yes"]
+    if line != None and isinstance(line, int) and line >= 0:
+        CMD.append(f"+{line}")
+    CMD.append(file)
     LOG.funcVerbose("run a command: {}", CMD)
     subprocess.call(CMD)
 
