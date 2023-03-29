@@ -1,6 +1,6 @@
 # Solved Solutions List
 
-This document contains **930** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
+This document contains **931** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
 
 Some questions which are still being resolved are not shown in this page, more information about unsolved questions can be found at [docs/unsolved_solutions.md](./unsolved_solutions.md).
 
@@ -684,6 +684,7 @@ Some questions which are still being resolved are not shown in this page, more i
 |1385|[Find the Distance Value Between Two Arrays](https://leetcode.com/problems/find-the-distance-value-between-two-arrays/)|[src/q_1351_1400/q1385.cc](../src/q_1351_1400/q1385.cc)|2022/04/06 18:57|
 |1390|[Four Divisors](https://leetcode.com/problems/four-divisors/)|[src/q_1351_1400/q1390.cc](../src/q_1351_1400/q1390.cc)|2022/02/12 16:48|
 |1396|[Design Underground System](https://leetcode.com/problems/design-underground-system/)|[src/q_1351_1400/q1396.cc](../src/q_1351_1400/q1396.cc)|2022/04/24 14:23|
+|1402|[Reducing Dishes](https://leetcode.com/problems/reducing-dishes/)|[src/q_1401_1450/q1402.cc](../src/q_1401_1450/q1402.cc)|2023/03/29 18:37|
 |1408|[String Matching in an Array](https://leetcode.com/problems/string-matching-in-an-array/)|[src/q_1401_1450/q1408.cc](../src/q_1401_1450/q1408.cc)|2022/02/18 19:51|
 |1413|[Minimum Value to Get Positive Step by Step Sum](https://leetcode.com/problems/minimum-value-to-get-positive-step-by-step-sum/)|[src/q_1401_1450/q1413.cc](../src/q_1401_1450/q1413.cc)|2021/11/11 21:28|
 |1419|[Minimum Number of Frogs Croaking](https://leetcode.com/problems/minimum-number-of-frogs-croaking/)|[src/q_1401_1450/q1419.cc](../src/q_1401_1450/q1419.cc)|2022/02/10 18:03|

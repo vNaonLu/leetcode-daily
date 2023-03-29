@@ -1,6 +1,6 @@
 # Unsolved Solutions List
 
-There are **1668** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
+There are **1667** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
 
 The questions which have been solved are not shown in this page, more information about solved questions can be found at [docs/solved_solutions.md](./solved_solutions.md).
 
@@ -731,7 +731,6 @@ The questions which have been solved are not shown in this page, more informatio
 |1399|[Count Largest Group](https://leetcode.com/problems/count-largest-group/)|Easy||
 |1400|[Construct K Palindrome Strings](https://leetcode.com/problems/construct-k-palindrome-strings/)|Medium||
 |1401|[Circle and Rectangle Overlapping](https://leetcode.com/problems/circle-and-rectangle-overlapping/)|Medium||
-|1402|[Reducing Dishes](https://leetcode.com/problems/reducing-dishes/)|Hard||
 |1403|[Minimum Subsequence in Non-Increasing Order](https://leetcode.com/problems/minimum-subsequence-in-non-increasing-order/)|Easy||
 |1404|[Number of Steps to Reduce a Number in Binary Representation to One](https://leetcode.com/problems/number-of-steps-to-reduce-a-number-in-binary-representation-to-one/)|Medium||
 |1405|[Longest Happy String](https://leetcode.com/problems/longest-happy-string/)|Medium||
