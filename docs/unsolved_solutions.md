@@ -1,6 +1,6 @@
 # Unsolved Solutions List
 
-There are **1667** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
+There are **1666** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
 
 The questions which have been solved are not shown in this page, more information about solved questions can be found at [docs/solved_solutions.md](./solved_solutions.md).
 
@@ -577,7 +577,6 @@ The questions which have been solved are not shown in this page, more informatio
 |1181|[Before and After Puzzle](https://leetcode.com/problems/before-and-after-puzzle/)|Medium|🔒|
 |1182|[Shortest Distance to Target Color](https://leetcode.com/problems/shortest-distance-to-target-color/)|Medium|🔒|
 |1183|[Maximum Number of Ones](https://leetcode.com/problems/maximum-number-of-ones/)|Hard|🔒|
-|1185|[Day of the Week](https://leetcode.com/problems/day-of-the-week/)|Easy||
 |1186|[Maximum Subarray Sum with One Deletion](https://leetcode.com/problems/maximum-subarray-sum-with-one-deletion/)|Medium||
 |1187|[Make Array Strictly Increasing](https://leetcode.com/problems/make-array-strictly-increasing/)|Hard||
 |1188|[Design Bounded Blocking Queue](https://leetcode.com/problems/design-bounded-blocking-queue/)|Medium|🔒|
