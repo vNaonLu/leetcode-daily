@@ -1,6 +1,6 @@
 # Solved Solutions List
 
-This document contains **932** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
+This document contains **933** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
 
 Some questions which are still being resolved are not shown in this page, more information about unsolved questions can be found at [docs/unsolved_solutions.md](./unsolved_solutions.md).
 
@@ -692,6 +692,7 @@ Some questions which are still being resolved are not shown in this page, more i
 |1423|[Maximum Points You Can Obtain from Cards](https://leetcode.com/problems/maximum-points-you-can-obtain-from-cards/)|[src/q_1401_1450/q1423.cc](../src/q_1401_1450/q1423.cc)|2022/06/26 14:36|
 |1437|[Check If All 1's Are at Least Length K Places Away](https://leetcode.com/problems/check-if-all-1s-are-at-least-length-k-places-away/)|[src/q_1401_1450/q1437.cc](../src/q_1401_1450/q1437.cc)|2022/05/24 14:03|
 |1443|[Minimum Time to Collect All Apples in a Tree](https://leetcode.com/problems/minimum-time-to-collect-all-apples-in-a-tree/)|[src/q_1401_1450/q1443.cc](../src/q_1401_1450/q1443.cc)|2023/01/11 18:59|
+|1444|[Number of Ways of Cutting a Pizza](https://leetcode.com/problems/number-of-ways-of-cutting-a-pizza/)|[src/q_1401_1450/q1444.cc](../src/q_1401_1450/q1444.cc)|2023/03/31 15:02|
 |1446|[Consecutive Characters](https://leetcode.com/problems/consecutive-characters/)|[src/q_1401_1450/q1446.cc](../src/q_1401_1450/q1446.cc)|2021/12/13 18:10|
 |1448|[Count Good Nodes in Binary Tree](https://leetcode.com/problems/count-good-nodes-in-binary-tree/)|[src/q_1401_1450/q1448.cc](../src/q_1401_1450/q1448.cc)|2022/09/01 17:43|
 |1455|[Check If a Word Occurs As a Prefix of Any Word in a Sentence](https://leetcode.com/problems/check-if-a-word-occurs-as-a-prefix-of-any-word-in-a-sentence/)|[src/q_1451_1500/q1455.cc](../src/q_1451_1500/q1455.cc)|2022/12/05 16:10|

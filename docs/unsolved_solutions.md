@@ -1,6 +1,6 @@
 # Unsolved Solutions List
 
-There are **1666** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
+There are **1665** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
 
 The questions which have been solved are not shown in this page, more information about solved questions can be found at [docs/solved_solutions.md](./solved_solutions.md).
 
@@ -765,7 +765,6 @@ The questions which have been solved are not shown in this page, more informatio
 |1440|[Evaluate Boolean Expression](https://leetcode.com/problems/evaluate-boolean-expression/)|Medium|🔒|
 |1441|[Build an Array With Stack Operations](https://leetcode.com/problems/build-an-array-with-stack-operations/)|Medium||
 |1442|[Count Triplets That Can Form Two Arrays of Equal XOR](https://leetcode.com/problems/count-triplets-that-can-form-two-arrays-of-equal-xor/)|Medium||
-|1444|[Number of Ways of Cutting a Pizza](https://leetcode.com/problems/number-of-ways-of-cutting-a-pizza/)|Hard||
 |1445|[Apples & Oranges](https://leetcode.com/problems/apples-oranges/)|Medium|🔒|
 |1447|[Simplified Fractions](https://leetcode.com/problems/simplified-fractions/)|Medium||
 |1449|[Form Largest Integer With Digits That Add up to Target](https://leetcode.com/problems/form-largest-integer-with-digits-that-add-up-to-target/)|Hard||
