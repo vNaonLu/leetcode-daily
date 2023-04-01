@@ -1,6 +1,6 @@
 # Solved Solutions List
 
-This document contains **933** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
+This document contains **934** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
 
 Some questions which are still being resolved are not shown in this page, more information about unsolved questions can be found at [docs/unsolved_solutions.md](./unsolved_solutions.md).
 
@@ -728,6 +728,7 @@ Some questions which are still being resolved are not shown in this page, more i
 |1539|[Kth Missing Positive Number](https://leetcode.com/problems/kth-missing-positive-number/)|[src/q_1501_1550/q1539.cc](../src/q_1501_1550/q1539.cc)|2022/04/08 18:37|
 |1544|[Make The String Great](https://leetcode.com/problems/make-the-string-great/)|[src/q_1501_1550/q1544.cc](../src/q_1501_1550/q1544.cc)|2022/11/08 18:21|
 |1545|[Find Kth Bit in Nth Binary String](https://leetcode.com/problems/find-kth-bit-in-nth-binary-string/)|[src/q_1501_1550/q1545.cc](../src/q_1501_1550/q1545.cc)|2021/10/05 23:51|
+|1550|[Three Consecutive Odds](https://leetcode.com/problems/three-consecutive-odds/)|[src/q_1501_1550/q1550.cc](../src/q_1501_1550/q1550.cc)|2023/04/01 13:05|
 |1552|[Magnetic Force Between Two Balls](https://leetcode.com/problems/magnetic-force-between-two-balls/)|[src/q_1551_1600/q1552.cc](../src/q_1551_1600/q1552.cc)|2022/07/17 14:37|
 |1556|[Thousand Separator](https://leetcode.com/problems/thousand-separator/)|[src/q_1551_1600/q1556.cc](../src/q_1551_1600/q1556.cc)|2022/12/08 18:32|
 |1557|[Minimum Number of Vertices to Reach All Nodes](https://leetcode.com/problems/minimum-number-of-vertices-to-reach-all-nodes/)|[src/q_1551_1600/q1557.cc](../src/q_1551_1600/q1557.cc)|2021/10/07 10:32|
