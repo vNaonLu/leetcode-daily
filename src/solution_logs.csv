@@ -934,3 +934,4 @@ timestamp,id,tc,sc,notes
 1680246141,1444,m * k + n * k + m * n,m*n*k,"m = |pizza.size()|, n = |pizza[i].size()|"
 1680325505,1550,n,1,n = |arr.size()|
 1680418383,2300,m * log(m) + n * log(m),1,"m = |spells.size()|, n = |potions.size()|"
+1680422446,1725,n,1,n = |rectangles.size()|
