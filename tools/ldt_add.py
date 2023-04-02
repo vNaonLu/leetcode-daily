@@ -5,6 +5,7 @@ import json
 import regex
 import dcli
 from argparse import RawTextHelpFormatter
+from enum import Enum
 # prevent generating __pycache__
 sys.dont_write_bytecode = True
 
@@ -130,6 +131,68 @@ def _addResolveLogs(*, solution_file: SolutionFile, resolve_logs: ResolveLogsFil
     return log
 
 
+class _UploadResult(Enum):
+    Passed = 0
+    Failed = 1
+    UnsolvdProblem = 2
+
+
+def _uploadToLeetCode(*, solution_file: SolutionFile,
+                      leetcode_session: session.LeetCodeSession,
+                      detail: QuestionDetails,
+                      cpp_solution: CPPSolution,
+                      answer: str) -> _UploadResult:
+    result = _UploadResult.Failed
+    LOG = prompt.Log.getInstance()
+    TASK = LOG.createTaskLog("Submit to LeetCode")
+    TASK.begin("connecting to LeetCode...")
+    submission = leetcode_session.submitSolution(backend_id=detail.backend_id,
+                                                 slug=detail.slug,
+                                                 content=answer,
+                                                 TASK=TASK)
+
+    if not submission:
+        Result = session.Submission.Result
+        result = _UploadResult.Failed
+
+        if submission.result == Result.WRONG_ANSWER:
+            TASK.done("testcase not accepted due to Wrong Answer: {}", LOG.format(
+                repr(submission.last_input), flag=LOG.HIGHTLIGHT), is_success=False)
+        elif submission.result == Result.RUNTIME_ERROR:
+            TASK.done("testcase not accepted due to Runtime Error: {}", LOG.format(
+                submission.error_msg, flag=LOG.HIGHTLIGHT), is_success=False)
+        elif submission.result == Result.TLE_ERROR:
+            TASK.done("testcase not accepted due to Time Limit Exceed: {}", LOG.format(
+                submission.error_msg, flag=LOG.HIGHTLIGHT), is_success=False)
+            cpp_solution.setUnittestTimeout(submission.elapse_time)
+        else:
+            TASK.done("error: {}", LOG.format(
+                submission.result, flag=LOG.HIGHTLIGHT), is_success=False)
+            result = _UploadResult.UnsolvdProblem
+            return result
+
+        if submission.last_input != "" and submission.expect_output != "":
+            gen_task = LOG.createTaskLog("Generate Unittest")
+            gen_task.begin("generating testcase...")
+            extra_input_idx = getCurrentUnittestExtraIndex(solution_file.read_text()) + 1
+            unittest, suite_name = cpp_solution.getUnitTestFromSubmissionResult(
+                name=f'Extra Testcase #{extra_input_idx}',
+                suite_name=getExtraUnittestSuite(extra_input_idx),
+                input=submission.last_input,
+                output=submission.expect_output)
+            gen_task.log("writing to solution file...")
+            content = solution_file.read_text() + f'\n{unittest}'
+            solution_file.write_text(clangFormat(content))
+            gen_task.done("added an extra testcase for solution: {}",
+                            LOG.format(suite_name, flag=LOG.HIGHTLIGHT), is_success=True)
+
+    else:
+        TASK.done("accepted by LeetCode", is_success=True)
+        result = _UploadResult.Passed
+
+    return result
+
+
 def _buildAndTest(*, build_path: Path, solution_file: SolutionFile, id: int,
                   detail: QuestionDetails, cpp_solution: CPPSolution,
                   leetcode_session: session.LeetCodeSession) -> bool:
@@ -144,7 +207,6 @@ def _buildAndTest(*, build_path: Path, solution_file: SolutionFile, id: int,
                infra_test_flag="ON")
 
     test_passed = False
-    extra_input_idx = 1
     while not test_passed:
         test_passed = ldtBuildImpl(build_path=build_path, build_args="-j8") == 0 and \
             ldtRunImpl(build_path=build_path, infra_test=False, ids=[id]) == 0
@@ -154,53 +216,24 @@ def _buildAndTest(*, build_path: Path, solution_file: SolutionFile, id: int,
             session_mode = leetcode_session is not None
 
             if session_mode:
-                TASK = LOG.createTaskLog("Submit to LeetCode")
-                TASK.begin("connecting to LeetCode...")
-                submission = leetcode_session.submitSolution(backend_id=detail.backend_id,
-                                                             slug=detail.slug,
-                                                             content=answer,
-                                                             TASK=TASK)
-
-                if not submission:
-                    Result = session.Submission.Result
+                if not PMT.ask("passed all local test cases, submit the answer to LeetCode?"):
                     test_passed = False
+                else:
+                    result = _uploadToLeetCode(solution_file=solution_file,
+                                               leetcode_session=leetcode_session,
+                                               detail=detail,
+                                               cpp_solution=cpp_solution,
+                                               answer=answer)
 
-                    if submission.result == Result.WRONG_ANSWER:
-                        TASK.done("testcase not accepted due to Wrong Answer: {}", LOG.format(
-                            repr(submission.last_input), flag=LOG.HIGHTLIGHT), is_success=False)
-                    elif submission.result == Result.RUNTIME_ERROR:
-                        TASK.done("testcase not accepted due to Runtime Error: {}", LOG.format(
-                            submission.error_msg, flag=LOG.HIGHTLIGHT), is_success=False)
-                    elif submission.result == Result.TLE_ERROR:
-                        TASK.done("testcase not accepted due to Time Limit Exceed: {}", LOG.format(
-                            submission.error_msg, flag=LOG.HIGHTLIGHT), is_success=False)
-                        cpp_solution.setUnittestTimeout(submission.elapse_time)
-                    else:
-                        TASK.done("error: {}", LOG.format(
-                            submission.result, flag=LOG.HIGHTLIGHT), is_success=False)
-                        LOG.log("switch the non-session mode.")
+                    test_passed = result == _UploadResult.Passed
+
+                    if result == _UploadResult.UnsolvdProblem and \
+                            PMT.ask("there are some unsolved problem in LeetCode session, switch to non-session mode?"):
+                        LOG.log("switched to non-session mode.")
                         session_mode = False
                         leetcode_session = None
 
-                    if submission.last_input != "" and submission.expect_output != "":
-                        gen_task = LOG.createTaskLog("Generate Unittest")
-                        gen_task.begin("generating testcase...")
-                        unittest, suite_name = cpp_solution.getUnitTestFromSubmissionResult(
-                            name=f'Extra Testcase #{extra_input_idx}',
-                            suite_name=f'extra_testcase_{extra_input_idx}',
-                            input=submission.last_input,
-                            output=submission.expect_output)
-                        gen_task.log("writing to solution file...")
-                        extra_input_idx += 1
-                        content = solution_file.read_text() + f'\n{unittest}'
-                        solution_file.write_text(clangFormat(content))
-                        gen_task.done("added an extra testcase for solution: {}",
-                                      LOG.format(suite_name, flag=LOG.HIGHTLIGHT), is_success=True)
-
-                else:
-                    TASK.done("accepted by LeetCode", is_success=True)
-
-            if not session_mode:
+            if test_passed and not session_mode:
                 LOG.log("while passed all local test cases, "
                         "please try submitting to LeetCode to see whether the solution is correct:")
                 LOG.print(answer, flag=LOG.DARK_GREEN)
@@ -213,23 +246,21 @@ def _buildAndTest(*, build_path: Path, solution_file: SolutionFile, id: int,
                         input, expect = cpp_solution.parseExtraInput(
                             extra_input)
                         if input and expect:
+                            extra_input_idx = getCurrentUnittestExtraIndex(solution_file.read_text()) + 1
                             unittest, suite_name = cpp_solution.getUnitTestFromSubmissionResult(
                                 name=f'Extra Testcase #{extra_input_idx}',
-                                suite_name=f'extra_testcase_{extra_input_idx}',
+                                suite_name=getExtraUnittestSuite(extra_input_idx),
                                 input=input, output=expect)
-                            extra_input_idx += 1
-                            content = solution_file.read_text() + \
-                                f'\n{unittest}'
+                            content = solution_file.read_text() + f'\n{unittest}'
                             solution_file.write_text(clangFormat(content))
                             LOG.success("added an extra testcase for solution: {}",
                                         LOG.format(suite_name, flag=LOG.HIGHTLIGHT))
 
         if not test_passed:
-            if not PMT.ask("the solution #{} failed to pass, continue to solve?",
+            if not PMT.ask("the solution #{} failed to pass or was not accepted by LeetCode, continue to solve?",
                            LOG.format(id, flag=LOG.HIGHTLIGHT)):
                 break
-            openEditor(solution_file, line=getSolutionLine(
-                solution_file.read_text()))
+            openEditor(solution_file, line=getSolutionLine(solution_file.read_text()))
             solution_file.write_text(clangFormat(solution_file.read_text()))
 
     return test_passed

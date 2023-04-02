@@ -256,6 +256,16 @@ def asyncStdout(proc: subprocess.Popen[str], callback: Callable):
         out = readlineFromPipe(proc)
 
 
+def getCurrentUnittestExtraIndex(text: str):
+    result = 0
+    result = max([int(x) for x in regex.findall("extra_testcase_(\d+)", text)])
+    return result
+
+
+def getExtraUnittestSuite(index: int):
+    return f"extra_testcase_{index}"
+
+
 class _ChDir:
     def __init__(self, path) -> None:
         self._path = Path(path).resolve()
