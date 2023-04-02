@@ -1,6 +1,6 @@
 # Solved Solutions List
 
-This document contains **934** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
+This document contains **935** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
 
 Some questions which are still being resolved are not shown in this page, more information about unsolved questions can be found at [docs/unsolved_solutions.md](./unsolved_solutions.md).
 
@@ -896,6 +896,7 @@ Some questions which are still being resolved are not shown in this page, more i
 |2279|[Maximum Bags With Full Capacity of Rocks](https://leetcode.com/problems/maximum-bags-with-full-capacity-of-rocks/)|[src/q_2251_2300/q2279.cc](../src/q_2251_2300/q2279.cc)|2022/12/27 20:59|
 |2293|[Min Max Game](https://leetcode.com/problems/min-max-game/)|[src/q_2251_2300/q2293.cc](../src/q_2251_2300/q2293.cc)|2023/01/09 18:53|
 |2299|[Strong Password Checker II](https://leetcode.com/problems/strong-password-checker-ii/)|[src/q_2251_2300/q2299.cc](../src/q_2251_2300/q2299.cc)|2023/03/11 01:32|
+|2300|[Successful Pairs of Spells and Potions](https://leetcode.com/problems/successful-pairs-of-spells-and-potions/)|[src/q_2251_2300/q2300.cc](../src/q_2251_2300/q2300.cc)|2023/04/02 14:53|
 |2306|[Naming a Company](https://leetcode.com/problems/naming-a-company/)|[src/q_2301_2350/q2306.cc](../src/q_2301_2350/q2306.cc)|2023/02/09 14:55|
 |2311|[Longest Binary Subsequence Less Than or Equal to K](https://leetcode.com/problems/longest-binary-subsequence-less-than-or-equal-to-k/)|[src/q_2301_2350/q2311.cc](../src/q_2301_2350/q2311.cc)|2022/08/03 18:50|
 |2315|[Count Asterisks](https://leetcode.com/problems/count-asterisks/)|[src/q_2301_2350/q2315.cc](../src/q_2301_2350/q2315.cc)|2023/02/13 18:33|
