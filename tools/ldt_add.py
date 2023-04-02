@@ -49,7 +49,7 @@ def _getComplexityInformation(id: int, snippets: str):
             return complexities[0], complexities[1], ""
         if len(complexities) == 3:
             return complexities[0], complexities[1], complexities[2]
-    return "-", "-", ""
+    return "-", "-", "not calculated"
 
 
 def _getCPPSolution(*, questions_details: QuestionDetails, solution_file: SolutionFile):
