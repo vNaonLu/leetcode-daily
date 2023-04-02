@@ -236,15 +236,15 @@ if __name__ == "__main__":
     cpp_solution = CPPSolution(raw_content)
     LOG.print(clangFormat(cpp_solution.solutionTemplate()))
 
-    inp = inputByEditor(cpp_solution.genExtraInputPrompt(id=1, title="TwoSum"))
-    input, expect = cpp_solution.parseExtraInput(inp)
-    LOG.log(f'{input}, {expect}')
+    # inp = inputByEditor(cpp_solution.genExtraInputPrompt(id=1, title="TwoSum"))
+    # input, expect = cpp_solution.parseExtraInput(inp)
+    # LOG.log(f'{input}, {expect}')
 
-    if input and expect:
-        ut = cpp_solution.getUnitTest(name="Sample",
-                                      suite_name="input_1", input=input, output=expect)
-        LOG.print(ut)
+    # if input and expect:
+    #     ut = cpp_solution.getUnitTest(name="Sample",
+    #                                   suite_name="input_1", input=input, output=expect)
+    #     LOG.print(ut)
 
-        LOG.log("after clang format:")
+    #     LOG.log("after clang format:")
 
-        LOG.print(clangFormat(ut))
+    #     LOG.print(clangFormat(ut))

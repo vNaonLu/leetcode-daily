@@ -83,7 +83,7 @@ class CPPCodeSnippetAnalyzer:
         return code.strip()
 
     _CLASS_PARSER = '(?:class +(?P<classname>\w+) *(?:: *(?:private|public|protected)? *\w+(?:<[\w\W]*?>)? *)?{(?P<class_define>[\w\W]*)?};)'
-    _TYPE_PARSER = '( *(?:const *)?(?:\w+|(?:unsigned +)?long +long) *(?:<[\w\W]*?>)?(?: *(?:[*&])+ *| +))'
+    _TYPE_PARSER = '( *(?:const *)?(?:(?:unsigned +)?long +long|\w+) *(?:<[\w\W]*?>)?(?: *(?:[*&])+ *| +))'
     _FUNC_ARGS_PARSER = _TYPE_PARSER + '(\w+) *?,?'
     _FUNC_PARSER =  _TYPE_PARSER + '(\w+) *\(((?:' + _TYPE_PARSER + '\w+ *,?)*)?\) *(?:(?:const)?(?: *noexcept)? *)?{(?:[^}]*)?}'
     _CONSTRUCTOR_PARSER = ' *\(((?:' + _TYPE_PARSER + '\w+ *,?)*)?\) *(?:: *(?:private|public|protected)? *\w+(?:<[\w\W]*?>)? *\([\w\W]*?\) *)?{(?:[^}]*)?}'
