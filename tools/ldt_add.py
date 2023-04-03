@@ -144,6 +144,7 @@ def _uploadToLeetCode(*, solution_file: SolutionFile,
                       answer: str) -> _UploadResult:
     result = _UploadResult.Failed
     LOG = prompt.Log.getInstance()
+    PMT = prompt.Prompt.getInstance()
     TASK = LOG.createTaskLog("Submit to LeetCode")
     TASK.begin("connecting to LeetCode...")
     submission = leetcode_session.submitSolution(backend_id=detail.backend_id,
@@ -188,6 +189,10 @@ def _uploadToLeetCode(*, solution_file: SolutionFile,
 
     else:
         TASK.done("accepted by LeetCode", is_success=True)
+        LOG.log("the solution was accepted by LeetCode which beats {} in runtime and {} in memory usage.",
+                LOG.format("{:3.2f}%", submission.runtime_percent, flag=LOG.HIGHTLIGHT),
+                LOG.format("{:3.2f}%", submission.memory_percent, flag=LOG.HIGHTLIGHT))
+
         result = _UploadResult.Passed
 
     return result
@@ -224,14 +229,16 @@ def _buildAndTest(*, build_path: Path, solution_file: SolutionFile, id: int,
                                                detail=detail,
                                                cpp_solution=cpp_solution,
                                                answer=answer)
-
-                    test_passed = result == _UploadResult.Passed
-
                     if result == _UploadResult.UnsolvdProblem and \
                             PMT.ask("there are some unsolved problem in LeetCode session, switch to non-session mode?"):
-                        LOG.log("switched to non-session mode.")
                         session_mode = False
                         leetcode_session = None
+                        test_passed = False
+                        LOG.log("switched to non-session mode.")
+
+                    elif result == _UploadResult.Passed:
+                        if not PMT.ask("mark the question #{} as done?", LOG.format(detail.id, flag=LOG.HIGHTLIGHT)):
+                           test_passed = False
 
             if test_passed and not session_mode:
                 LOG.log("while passed all local test cases, "
@@ -243,11 +250,10 @@ def _buildAndTest(*, build_path: Path, solution_file: SolutionFile, id: int,
                     if PMT.ask("add an extra test case for unittest?"):
                         extra_input = inputByEditor(cpp_solution.genExtraInputPrompt(id=id,
                                                                                      title=detail.title))
-                        input, expect = cpp_solution.parseExtraInput(
-                            extra_input)
+                        input, expect = cpp_solution.parseExtraInput(extra_input)
                         if input and expect:
                             extra_input_idx = getCurrentUnittestExtraIndex(solution_file.read_text()) + 1
-                            unittest, suite_name = cpp_solution.getUnitTestFromSubmissionResult(
+                            unittest, suite_name = cpp_solution.getUnitTest(
                                 name=f'Extra Testcase #{extra_input_idx}',
                                 suite_name=getExtraUnittestSuite(extra_input_idx),
                                 input=input, output=expect)
@@ -257,8 +263,7 @@ def _buildAndTest(*, build_path: Path, solution_file: SolutionFile, id: int,
                                         LOG.format(suite_name, flag=LOG.HIGHTLIGHT))
 
         if not test_passed:
-            if not PMT.ask("the solution #{} failed to pass or was not accepted by LeetCode, continue to solve?",
-                           LOG.format(id, flag=LOG.HIGHTLIGHT)):
+            if not PMT.ask("continue to write the solution #{} ?", LOG.format(id, flag=LOG.HIGHTLIGHT)):
                 break
             openEditor(solution_file, line=getSolutionLine(solution_file.read_text()))
             solution_file.write_text(clangFormat(solution_file.read_text()))
@@ -354,8 +359,7 @@ def getCommand(parent=None):
 
         ARG_SRC_PATH = Path(getattr(args, "src_path")).resolve()
         ARG_BUILD_PATH = Path(getattr(args, "build_path")).resolve()
-        ARG_QUESTIONS_LIST = Path(
-            getattr(args, "questions_list_file")).resolve()
+        ARG_QUESTIONS_LIST = Path(getattr(args, "questions_list_file")).resolve()
         ARG_RESOLVE_LOGS = Path(getattr(args, "questions_log_file")).resolve()
         ARG_ASSETS_PATH = Path(getattr(args, "assets_path")).resolve()
         ARG_DOCS_PATH = Path(getattr(args, "docs_path")).resolve()
@@ -400,8 +404,8 @@ def getCommand(parent=None):
             return 1
 
         LOGS_PARSE_TASK = LOG.createTaskLog("Parse Solution Logs")
-        LOGS_PARSE_TASK.begin(
-            "parsing the resolved logs: {}", ARG_RESOLVE_LOGS)
+        LOGS_PARSE_TASK.begin("parsing the resolved logs: {}",
+                              ARG_RESOLVE_LOGS)
         resolve_logs = ResolveLogsFile(ARG_RESOLVE_LOGS)
         LOGS_PARSE_TASK.done("loaded {} resolved logs from: {}",
                              LOG.format(len(resolve_logs),
@@ -410,8 +414,8 @@ def getCommand(parent=None):
                              is_success=True)
 
         QLIST_PARSE_TASK = LOG.createTaskLog("Parse Questions List")
-        QLIST_PARSE_TASK.begin(
-            "parsing the questions list: {}", ARG_QUESTIONS_LIST)
+        QLIST_PARSE_TASK.begin("parsing the questions list: {}", 
+                               ARG_QUESTIONS_LIST)
         questions_list = QuestionsList(ARG_QUESTIONS_LIST)
         QLIST_PARSE_TASK.done("loaded {} questions details from: {}",
                               LOG.format(len(questions_list),
@@ -447,11 +451,9 @@ def getCommand(parent=None):
             ADD_TIME = int(time.time())
             solution_file = SolutionFile(id, ARG_SRC_PATH)
 
-            LOG.verbose(
-                "check whether the solution with id {} exists in: {}", id, solution_file)
+            LOG.verbose("check whether the solution with id {} exists in: {}", id, solution_file)
             if solution_file.exists():
-                LOG.verbose(
-                    "solution exists, check whether the solution is committed.")
+                LOG.verbose("solution exists, check whether the solution is committed.")
                 CMD = ["git", "-C", PROJECT_ROOT, "ls-files",
                        PROJECT_ROOT, "--exclude-standard", "--others"]
                 out, _ = launchSubprocess(CMD).communicate()
