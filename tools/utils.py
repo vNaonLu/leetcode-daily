@@ -258,7 +258,8 @@ def asyncStdout(proc: subprocess.Popen[str], callback: Callable):
 
 def getCurrentUnittestExtraIndex(text: str):
     result = 0
-    result = max([int(x) for x in regex.findall("extra_testcase_(\d+)", text)])
+    result = max([result] + [int(x)
+                 for x in regex.findall("extra_testcase_(\d+)", text)])
     return result
 
 
