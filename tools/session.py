@@ -32,6 +32,8 @@ class Submission:
         self.last_input: str = ""
         self.expect_output: str = ""
         self.elapse_time: int = 0
+        self.runtime_percent: float = 0.0
+        self.memory_percent: float = 0.0
         if resp is not None:
             if resp.status_code != 200:
                 LOG.funcVerbose("get status code: {}", resp.status_code)
@@ -44,6 +46,8 @@ class Submission:
 
             if msg == "Accepted":
                 self.result = Submission.Result.PASSED
+                self.runtime_percent = float(content["runtime_percentile"])
+                self.memory_percent = float(content["memory_percentile"])
             elif msg == "Compile Error":
                 self.result = Submission.Result.COMPILE_ERROR
                 self.error_msg = content['compile_error']
