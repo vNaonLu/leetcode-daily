@@ -1,6 +1,6 @@
 # Solved Solutions List
 
-This document contains **936** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
+This document contains **937** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
 
 Some questions which are still being resolved are not shown in this page, more information about unsolved questions can be found at [docs/unsolved_solutions.md](./unsolved_solutions.md).
 
@@ -755,6 +755,7 @@ Some questions which are still being resolved are not shown in this page, more i
 |1636|[Sort Array by Increasing Frequency](https://leetcode.com/problems/sort-array-by-increasing-frequency/)|[src/q_1601_1650/q1636.cc](../src/q_1601_1650/q1636.cc)|2023/03/24 11:38|
 |1641|[Count Sorted Vowel Strings](https://leetcode.com/problems/count-sorted-vowel-strings/)|[src/q_1601_1650/q1641.cc](../src/q_1601_1650/q1641.cc)|2022/05/11 11:15|
 |1642|[Furthest Building You Can Reach](https://leetcode.com/problems/furthest-building-you-can-reach/)|[src/q_1601_1650/q1642.cc](../src/q_1601_1650/q1642.cc)|2022/06/21 22:12|
+|1646|[Get Maximum in Generated Array](https://leetcode.com/problems/get-maximum-in-generated-array/)|[src/q_1601_1650/q1646.cc](../src/q_1601_1650/q1646.cc)|2023/04/03 15:36|
 |1647|[Minimum Deletions to Make Character Frequencies Unique](https://leetcode.com/problems/minimum-deletions-to-make-character-frequencies-unique/)|[src/q_1601_1650/q1647.cc](../src/q_1601_1650/q1647.cc)|2022/06/28 18:08|
 |1648|[Sell Diminishing-Valued Colored Balls](https://leetcode.com/problems/sell-diminishing-valued-colored-balls/)|[src/q_1601_1650/q1648.cc](../src/q_1601_1650/q1648.cc)|2022/08/01 18:48|
 |1652|[Defuse the Bomb](https://leetcode.com/problems/defuse-the-bomb/)|[src/q_1651_1700/q1652.cc](../src/q_1651_1700/q1652.cc)|2022/12/19 21:04|
