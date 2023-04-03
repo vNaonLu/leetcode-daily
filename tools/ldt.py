@@ -4,18 +4,28 @@ from argparse import RawTextHelpFormatter
 # prevent generating __pycache__
 sys.dont_write_bytecode = True
 
-import cli
+import dcli
 from utils import *
 
+import ldt_cat
+import ldt_run
+import ldt_check
+import ldt_build
+import ldt_add
+import ldt_remove
+import ldt_update
+import ldt_config
 
-@cli.command(
-    formatter_class=RawTextHelpFormatter, prog=SCRIPT_NAME,
+@dcli.command(
+    SCRIPT_NAME,
+    formatter_class=RawTextHelpFormatter,
     description=fixedWidth(
         'A script to manage LeetCode Daily project, including automatically adding '
         'and generating the C++ solution template for the LeetCode question, update '
         'the project readme and documents, or parse and print the C++ solution from '
         'specific solved solution.'
-    )
+    ),
+    skippable=False
 )
 def ldtMain(args: object):
     LOG = prompt.Log.getInstance(verbose=getattr(args, "verbose"))
@@ -23,20 +33,19 @@ def ldtMain(args: object):
     args_list: list[str] = []
     LOG.verbose("[arguments beg]")
     for arg in vars(args):
-        if arg != "__subfunc":
-            length = max(length, len(arg))
-            args_list.append(arg)
+        length = max(length, len(arg))
+        args_list.append(arg)
     for arg in args_list:
         LOG.verbose("{} : {}", arg.ljust(length), getattr(args, arg))
     LOG.verbose("[arguments end]")
 
-from ldt_cat import *
-from ldt_run import *
-from ldt_check import *
-from ldt_build import *
-from ldt_add import *
-from ldt_remove import *
-from ldt_update import *
-from ldt_config import *
+ldt_run.getCommand(ldtMain)
+ldt_cat.getCommand(ldtMain)
+ldt_check.getCommand(ldtMain)
+ldt_build.getCommand(ldtMain)
+ldt_add.getCommand(ldtMain)
+ldt_remove.getCommand(ldtMain)
+ldt_update.getCommand(ldtMain)
+ldt_config.getCommand(ldtMain)
 
 sys.exit(safeRun(ldtMain))

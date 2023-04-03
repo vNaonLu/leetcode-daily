@@ -927,3 +927,13 @@ timestamp,id,tc,sc,notes
 1679738437,2316,m + n,m + n,m = |edges.size()|
 1679823697,2360,n,n,n = |edges.size()|
 1679893104,1299,n,1,n = |arr.size()|
+1680002257,1496,n,n,n = |path.size()|
+1680003017,1184,n,n,n = |distance.size()|
+1680086236,1402,n * log(n),n,n = |satisfaction.size()|
+1680177118,1185,1,1,
+1680246141,1444,m * k + n * k + m * n,m*n*k,"m = |pizza.size()|, n = |pizza[i].size()|"
+1680325505,1550,n,1,n = |arr.size()|
+1680418383,2300,m * log(m) + n * log(m),1,"m = |spells.size()|, n = |potions.size()|"
+1680422446,1725,n,1,n = |rectangles.size()|
+1680507380,1646,n,n,
+1680509191,1399,n,n,

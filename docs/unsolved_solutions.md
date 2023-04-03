@@ -1,6 +1,6 @@
 # Unsolved Solutions List
 
-There are **1670** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
+There are **1660** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
 
 The questions which have been solved are not shown in this page, more information about solved questions can be found at [docs/solved_solutions.md](./solved_solutions.md).
 
@@ -577,8 +577,6 @@ The questions which have been solved are not shown in this page, more informatio
 |1181|[Before and After Puzzle](https://leetcode.com/problems/before-and-after-puzzle/)|Medium|🔒|
 |1182|[Shortest Distance to Target Color](https://leetcode.com/problems/shortest-distance-to-target-color/)|Medium|🔒|
 |1183|[Maximum Number of Ones](https://leetcode.com/problems/maximum-number-of-ones/)|Hard|🔒|
-|1184|[Distance Between Bus Stops](https://leetcode.com/problems/distance-between-bus-stops/)|Easy||
-|1185|[Day of the Week](https://leetcode.com/problems/day-of-the-week/)|Easy||
 |1186|[Maximum Subarray Sum with One Deletion](https://leetcode.com/problems/maximum-subarray-sum-with-one-deletion/)|Medium||
 |1187|[Make Array Strictly Increasing](https://leetcode.com/problems/make-array-strictly-increasing/)|Hard||
 |1188|[Design Bounded Blocking Queue](https://leetcode.com/problems/design-bounded-blocking-queue/)|Medium|🔒|
@@ -729,10 +727,8 @@ The questions which have been solved are not shown in this page, more informatio
 |1395|[Count Number of Teams](https://leetcode.com/problems/count-number-of-teams/)|Medium||
 |1397|[Find All Good Strings](https://leetcode.com/problems/find-all-good-strings/)|Hard||
 |1398|[Customers Who Bought Products A and B but Not C](https://leetcode.com/problems/customers-who-bought-products-a-and-b-but-not-c/)|Medium|🔒|
-|1399|[Count Largest Group](https://leetcode.com/problems/count-largest-group/)|Easy||
 |1400|[Construct K Palindrome Strings](https://leetcode.com/problems/construct-k-palindrome-strings/)|Medium||
 |1401|[Circle and Rectangle Overlapping](https://leetcode.com/problems/circle-and-rectangle-overlapping/)|Medium||
-|1402|[Reducing Dishes](https://leetcode.com/problems/reducing-dishes/)|Hard||
 |1403|[Minimum Subsequence in Non-Increasing Order](https://leetcode.com/problems/minimum-subsequence-in-non-increasing-order/)|Easy||
 |1404|[Number of Steps to Reduce a Number in Binary Representation to One](https://leetcode.com/problems/number-of-steps-to-reduce-a-number-in-binary-representation-to-one/)|Medium||
 |1405|[Longest Happy String](https://leetcode.com/problems/longest-happy-string/)|Medium||
@@ -768,7 +764,6 @@ The questions which have been solved are not shown in this page, more informatio
 |1440|[Evaluate Boolean Expression](https://leetcode.com/problems/evaluate-boolean-expression/)|Medium|🔒|
 |1441|[Build an Array With Stack Operations](https://leetcode.com/problems/build-an-array-with-stack-operations/)|Medium||
 |1442|[Count Triplets That Can Form Two Arrays of Equal XOR](https://leetcode.com/problems/count-triplets-that-can-form-two-arrays-of-equal-xor/)|Medium||
-|1444|[Number of Ways of Cutting a Pizza](https://leetcode.com/problems/number-of-ways-of-cutting-a-pizza/)|Hard||
 |1445|[Apples & Oranges](https://leetcode.com/problems/apples-oranges/)|Medium|🔒|
 |1447|[Simplified Fractions](https://leetcode.com/problems/simplified-fractions/)|Medium||
 |1449|[Form Largest Integer With Digits That Add up to Target](https://leetcode.com/problems/form-largest-integer-with-digits-that-add-up-to-target/)|Hard||
@@ -801,7 +796,6 @@ The questions which have been solved are not shown in this page, more informatio
 |1493|[Longest Subarray of 1's After Deleting One Element](https://leetcode.com/problems/longest-subarray-of-1s-after-deleting-one-element/)|Medium||
 |1494|[Parallel Courses II](https://leetcode.com/problems/parallel-courses-ii/)|Hard||
 |1495|[Friendly Movies Streamed Last Month](https://leetcode.com/problems/friendly-movies-streamed-last-month/)|Easy|🔒|
-|1496|[Path Crossing](https://leetcode.com/problems/path-crossing/)|Easy||
 |1497|[Check If Array Pairs Are Divisible by k](https://leetcode.com/problems/check-if-array-pairs-are-divisible-by-k/)|Medium||
 |1499|[Max Value of Equation](https://leetcode.com/problems/max-value-of-equation/)|Hard||
 |1500|[Design a File Sharing System](https://leetcode.com/problems/design-a-file-sharing-system/)|Medium|🔒|
@@ -840,7 +834,6 @@ The questions which have been solved are not shown in this page, more informatio
 |1547|[Minimum Cost to Cut a Stick](https://leetcode.com/problems/minimum-cost-to-cut-a-stick/)|Hard||
 |1548|[The Most Similar Path in a Graph](https://leetcode.com/problems/the-most-similar-path-in-a-graph/)|Hard|🔒|
 |1549|[The Most Recent Orders for Each Product](https://leetcode.com/problems/the-most-recent-orders-for-each-product/)|Medium|🔒|
-|1550|[Three Consecutive Odds](https://leetcode.com/problems/three-consecutive-odds/)|Easy||
 |1551|[Minimum Operations to Make Array Equal](https://leetcode.com/problems/minimum-operations-to-make-array-equal/)|Medium||
 |1553|[Minimum Number of Days to Eat N Oranges](https://leetcode.com/problems/minimum-number-of-days-to-eat-n-oranges/)|Hard||
 |1554|[Strings Differ by One Character](https://leetcode.com/problems/strings-differ-by-one-character/)|Medium|🔒|
@@ -910,7 +903,6 @@ The questions which have been solved are not shown in this page, more informatio
 |1643|[Kth Smallest Instructions](https://leetcode.com/problems/kth-smallest-instructions/)|Hard||
 |1644|[Lowest Common Ancestor of a Binary Tree II](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree-ii/)|Medium|🔒|
 |1645|[Hopper Company Queries II](https://leetcode.com/problems/hopper-company-queries-ii/)|Hard|🔒|
-|1646|[Get Maximum in Generated Array](https://leetcode.com/problems/get-maximum-in-generated-array/)|Easy||
 |1649|[Create Sorted Array through Instructions](https://leetcode.com/problems/create-sorted-array-through-instructions/)|Hard||
 |1650|[Lowest Common Ancestor of a Binary Tree III](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree-iii/)|Medium|🔒|
 |1651|[Hopper Company Queries III](https://leetcode.com/problems/hopper-company-queries-iii/)|Hard|🔒|
@@ -959,7 +951,6 @@ The questions which have been solved are not shown in this page, more informatio
 |1722|[Minimize Hamming Distance After Swap Operations](https://leetcode.com/problems/minimize-hamming-distance-after-swap-operations/)|Medium||
 |1723|[Find Minimum Time to Finish All Jobs](https://leetcode.com/problems/find-minimum-time-to-finish-all-jobs/)|Hard||
 |1724|[Checking Existence of Edge Length Limited Paths II](https://leetcode.com/problems/checking-existence-of-edge-length-limited-paths-ii/)|Hard|🔒|
-|1725|[Number Of Rectangles That Can Form The Largest Square](https://leetcode.com/problems/number-of-rectangles-that-can-form-the-largest-square/)|Easy||
 |1726|[Tuple with Same Product](https://leetcode.com/problems/tuple-with-same-product/)|Medium||
 |1727|[Largest Submatrix With Rearrangements](https://leetcode.com/problems/largest-submatrix-with-rearrangements/)|Medium||
 |1728|[Cat and Mouse II](https://leetcode.com/problems/cat-and-mouse-ii/)|Hard||
@@ -1423,7 +1414,6 @@ The questions which have been solved are not shown in this page, more informatio
 |2296|[Design a Text Editor](https://leetcode.com/problems/design-a-text-editor/)|Hard||
 |2297|[Jump Game VIII](https://leetcode.com/problems/jump-game-viii/)|Medium|🔒|
 |2298|[Tasks Count in the Weekend](https://leetcode.com/problems/tasks-count-in-the-weekend/)|Medium|🔒|
-|2300|[Successful Pairs of Spells and Potions](https://leetcode.com/problems/successful-pairs-of-spells-and-potions/)|Medium||
 |2301|[Match Substring After Replacement](https://leetcode.com/problems/match-substring-after-replacement/)|Hard||
 |2302|[Count Subarrays With Score Less Than K](https://leetcode.com/problems/count-subarrays-with-score-less-than-k/)|Hard||
 |2303|[Calculate Amount Paid in Taxes](https://leetcode.com/problems/calculate-amount-paid-in-taxes/)|Easy||
