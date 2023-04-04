@@ -1,6 +1,6 @@
 # Unsolved Solutions List
 
-There are **1660** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
+There are **1659** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
 
 The questions which have been solved are not shown in this page, more information about solved questions can be found at [docs/solved_solutions.md](./solved_solutions.md).
 
@@ -1498,7 +1498,6 @@ The questions which have been solved are not shown in this page, more informatio
 |2402|[Meeting Rooms III](https://leetcode.com/problems/meeting-rooms-iii/)|Hard||
 |2403|[Minimum Time to Kill All Monsters](https://leetcode.com/problems/minimum-time-to-kill-all-monsters/)|Hard|🔒|
 |2404|[Most Frequent Even Element](https://leetcode.com/problems/most-frequent-even-element/)|Easy||
-|2405|[Optimal Partition of String](https://leetcode.com/problems/optimal-partition-of-string/)|Medium||
 |2406|[Divide Intervals Into Minimum Number of Groups](https://leetcode.com/problems/divide-intervals-into-minimum-number-of-groups/)|Medium||
 |2407|[Longest Increasing Subsequence II](https://leetcode.com/problems/longest-increasing-subsequence-ii/)|Hard||
 |2408|[Design SQL](https://leetcode.com/problems/design-sql/)|Medium|🔒|

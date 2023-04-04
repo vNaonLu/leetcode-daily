@@ -1,6 +1,6 @@
 # Solved Solutions List
 
-This document contains **938** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
+This document contains **939** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
 
 Some questions which are still being resolved are not shown in this page, more information about unsolved questions can be found at [docs/unsolved_solutions.md](./unsolved_solutions.md).
 
@@ -920,6 +920,7 @@ Some questions which are still being resolved are not shown in this page, more i
 |2389|[Longest Subsequence With Limited Sum](https://leetcode.com/problems/longest-subsequence-with-limited-sum/)|[src/q_2351_2400/q2389.cc](../src/q_2351_2400/q2389.cc)|2022/12/25 14:43|
 |2395|[Find Subarrays With Equal Sum](https://leetcode.com/problems/find-subarrays-with-equal-sum/)|[src/q_2351_2400/q2395.cc](../src/q_2351_2400/q2395.cc)|2023/01/22 12:29|
 |2399|[Check Distances Between Same Letters](https://leetcode.com/problems/check-distances-between-same-letters/)|[src/q_2351_2400/q2399.cc](../src/q_2351_2400/q2399.cc)|2023/02/04 14:33|
+|2405|[Optimal Partition of String](https://leetcode.com/problems/optimal-partition-of-string/)|[src/q_2401_2450/q2405.cc](../src/q_2401_2450/q2405.cc)|2023/04/04 14:57|
 |2413|[Smallest Even Multiple](https://leetcode.com/problems/smallest-even-multiple/)|[src/q_2401_2450/q2413.cc](../src/q_2401_2450/q2413.cc)|2023/02/03 13:19|
 |2418|[Sort the People](https://leetcode.com/problems/sort-the-people/)|[src/q_2401_2450/q2418.cc](../src/q_2401_2450/q2418.cc)|2023/01/18 17:53|
 |2421|[Number of Good Paths](https://leetcode.com/problems/number-of-good-paths/)|[src/q_2401_2450/q2421.cc](../src/q_2401_2450/q2421.cc)|2023/01/15 17:33|
