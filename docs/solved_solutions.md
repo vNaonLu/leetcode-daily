@@ -1,6 +1,6 @@
 # Solved Solutions List
 
-This document contains **940** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
+This document contains **941** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
 
 Some questions which are still being resolved are not shown in this page, more information about unsolved questions can be found at [docs/unsolved_solutions.md](./unsolved_solutions.md).
 
@@ -794,6 +794,7 @@ Some questions which are still being resolved are not shown in this page, more i
 |1760|[Minimum Limit of Balls in a Bag](https://leetcode.com/problems/minimum-limit-of-balls-in-a-bag/)|[src/q_1751_1800/q1760.cc](../src/q_1751_1800/q1760.cc)|2022/07/16 15:15|
 |1768|[Merge Strings Alternately](https://leetcode.com/problems/merge-strings-alternately/)|[src/q_1751_1800/q1768.cc](../src/q_1751_1800/q1768.cc)|2022/04/21 09:01|
 |1770|[Maximum Score from Performing Multiplication Operations](https://leetcode.com/problems/maximum-score-from-performing-multiplication-operations/)|[src/q_1751_1800/q1770.cc](../src/q_1751_1800/q1770.cc)|2022/09/16 17:52|
+|1773|[Count Items Matching a Rule](https://leetcode.com/problems/count-items-matching-a-rule/)|[src/q_1751_1800/q1773.cc](../src/q_1751_1800/q1773.cc)|2023/04/05 12:36|
 |1779|[Find Nearest Point That Has the Same X or Y Coordinate](https://leetcode.com/problems/find-nearest-point-that-has-the-same-x-or-y-coordinate/)|[src/q_1751_1800/q1779.cc](../src/q_1751_1800/q1779.cc)|2022/04/16 10:53|
 |1784|[Check if Binary String Has at Most One Segment of Ones](https://leetcode.com/problems/check-if-binary-string-has-at-most-one-segment-of-ones/)|[src/q_1751_1800/q1784.cc](../src/q_1751_1800/q1784.cc)|2022/12/14 17:37|
 |1786|[Number of Restricted Paths From First to Last Node](https://leetcode.com/problems/number-of-restricted-paths-from-first-to-last-node/)|[src/q_1751_1800/q1786.cc](../src/q_1751_1800/q1786.cc)|2022/02/10 19:37|
