@@ -1,6 +1,6 @@
 # Solved Solutions List
 
-This document contains **939** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
+This document contains **940** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
 
 Some questions which are still being resolved are not shown in this page, more information about unsolved questions can be found at [docs/unsolved_solutions.md](./unsolved_solutions.md).
 
@@ -927,6 +927,7 @@ Some questions which are still being resolved are not shown in this page, more i
 |2423|[Remove Letter To Equalize Frequency](https://leetcode.com/problems/remove-letter-to-equalize-frequency/)|[src/q_2401_2450/q2423.cc](../src/q_2401_2450/q2423.cc)|2023/01/21 09:29|
 |2427|[Number of Common Factors](https://leetcode.com/problems/number-of-common-factors/)|[src/q_2401_2450/q2427.cc](../src/q_2401_2450/q2427.cc)|2023/02/02 19:03|
 |2437|[Number of Valid Clock Times](https://leetcode.com/problems/number-of-valid-clock-times/)|[src/q_2401_2450/q2437.cc](../src/q_2401_2450/q2437.cc)|2023/03/08 20:22|
+|2439|[Minimize Maximum of Array](https://leetcode.com/problems/minimize-maximum-of-array/)|[src/q_2401_2450/q2439.cc](../src/q_2401_2450/q2439.cc)|2023/04/05 12:02|
 |2441|[Largest Positive Integer That Exists With Its Negative](https://leetcode.com/problems/largest-positive-integer-that-exists-with-its-negative/)|[src/q_2401_2450/q2441.cc](../src/q_2401_2450/q2441.cc)|2023/03/05 12:42|
 |2444|[Count Subarrays With Fixed Bounds](https://leetcode.com/problems/count-subarrays-with-fixed-bounds/)|[src/q_2401_2450/q2444.cc](../src/q_2401_2450/q2444.cc)|2023/03/04 13:39|
 |2446|[Determine if Two Events Have Conflict](https://leetcode.com/problems/determine-if-two-events-have-conflict/)|[src/q_2401_2450/q2446.cc](../src/q_2401_2450/q2446.cc)|2023/03/09 21:32|

@@ -1,6 +1,6 @@
 # Unsolved Solutions List
 
-There are **1659** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
+There are **1658** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
 
 The questions which have been solved are not shown in this page, more information about solved questions can be found at [docs/solved_solutions.md](./solved_solutions.md).
 
@@ -1525,7 +1525,6 @@ The questions which have been solved are not shown in this page, more informatio
 |2435|[Paths in Matrix Whose Sum Is Divisible by K](https://leetcode.com/problems/paths-in-matrix-whose-sum-is-divisible-by-k/)|Hard||
 |2436|[Minimum Split Into Subarrays With GCD Greater Than One](https://leetcode.com/problems/minimum-split-into-subarrays-with-gcd-greater-than-one/)|Medium|🔒|
 |2438|[Range Product Queries of Powers](https://leetcode.com/problems/range-product-queries-of-powers/)|Medium||
-|2439|[Minimize Maximum of Array](https://leetcode.com/problems/minimize-maximum-of-array/)|Medium||
 |2440|[Create Components With Same Value](https://leetcode.com/problems/create-components-with-same-value/)|Hard||
 |2442|[Count Number of Distinct Integers After Reverse Operations](https://leetcode.com/problems/count-number-of-distinct-integers-after-reverse-operations/)|Medium||
 |2443|[Sum of Number and Its Reverse](https://leetcode.com/problems/sum-of-number-and-its-reverse/)|Medium||
