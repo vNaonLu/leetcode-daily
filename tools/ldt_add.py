@@ -459,15 +459,8 @@ def getCommand(parent=None):
                 out, _ = launchSubprocess(CMD).communicate()
                 LOG.verbose("got stdout: {}", out)
                 if not regex.search(solution_file.fileName(), out):
-                    LOG.verbose("solution exists in git, check whether the solution is modified.")
-
-                    CMD = ["git", "-C", PROJECT_ROOT, "diff", "--name-only"]
-                    out, _ = launchSubprocess(CMD).communicate()
-                    LOG.verbose("got stdout: {}", out)
-                    if not regex.search(solution_file.fileName(), out):
-                        LOG.success("skip solving question #{} since the solution exists and has already committed and not been modified.",
-                                    LOG.format(id, flag=LOG.HIGHTLIGHT))
-                        continue
+                    LOG.success("skip solving question #{} since the solution exists and has already committed and not been modified.",
+                                LOG.format(id, flag=LOG.HIGHTLIGHT))
 
                 if not PMT.ask("continue to solve question #{}?",
                                LOG.format(id, flag=LOG.HIGHTLIGHT)):
