@@ -461,6 +461,7 @@ def getCommand(parent=None):
                 if not regex.search(solution_file.fileName(), out):
                     LOG.success("skip solving question #{} since the solution exists and has already committed and not been modified.",
                                 LOG.format(id, flag=LOG.HIGHTLIGHT))
+                    continue
 
                 if not PMT.ask("continue to solve question #{}?",
                                LOG.format(id, flag=LOG.HIGHTLIGHT)):
