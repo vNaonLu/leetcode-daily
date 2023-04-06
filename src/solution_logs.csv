@@ -941,3 +941,4 @@ timestamp,id,tc,sc,notes
 1680667345,2439,n,1,n = |nums.size()|
 1680669366,1773,n * E,1,"n = |items.size()|, E = |items[i][j].size()|"
 1680670173,2309,n,n,n = |s.size()|
+1680768661,2094,n,1,n = |digits.size()|
