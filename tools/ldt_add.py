@@ -236,6 +236,9 @@ def _buildAndTest(*, build_path: Path, solution_file: SolutionFile, id: int,
                         test_passed = False
                         LOG.log("switched to non-session mode.")
 
+                    elif result == _UploadResult.Failed:
+                        test_passed = False
+
                     elif result == _UploadResult.Passed:
                         if not PMT.ask("mark the question #{} as done?", LOG.format(detail.id, flag=LOG.HIGHTLIGHT)):
                            test_passed = False
