@@ -1,6 +1,6 @@
 # Solved Solutions List
 
-This document contains **943** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
+This document contains **944** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
 
 Some questions which are still being resolved are not shown in this page, more information about unsolved questions can be found at [docs/unsolved_solutions.md](./unsolved_solutions.md).
 
@@ -862,6 +862,7 @@ Some questions which are still being resolved are not shown in this page, more i
 |2095|[Delete the Middle Node of a Linked List](https://leetcode.com/problems/delete-the-middle-node-of-a-linked-list/)|[src/q_2051_2100/q2095.cc](../src/q_2051_2100/q2095.cc)|2022/10/14 10:08|
 |2129|[Capitalize the Title](https://leetcode.com/problems/capitalize-the-title/)|[src/q_2101_2150/q2129.cc](../src/q_2101_2150/q2129.cc)|2023/03/21 21:07|
 |2131|[Longest Palindrome by Concatenating Two Letter Words](https://leetcode.com/problems/longest-palindrome-by-concatenating-two-letter-words/)|[src/q_2101_2150/q2131.cc](../src/q_2101_2150/q2131.cc)|2022/09/12 18:25|
+|2133|[Check if Every Row and Column Contains All Numbers](https://leetcode.com/problems/check-if-every-row-and-column-contains-all-numbers/)|[src/q_2101_2150/q2133.cc](../src/q_2101_2150/q2133.cc)|2023/04/07 12:09|
 |2134|[Minimum Swaps to Group All 1's Together II](https://leetcode.com/problems/minimum-swaps-to-group-all-1s-together-ii/)|[src/q_2101_2150/q2134.cc](../src/q_2101_2150/q2134.cc)|2022/02/16 18:17|
 |2136|[Earliest Possible Day of Full Bloom](https://leetcode.com/problems/earliest-possible-day-of-full-bloom/)|[src/q_2101_2150/q2136.cc](../src/q_2101_2150/q2136.cc)|2022/10/29 11:47|
 |2148|[Count Elements With Strictly Smaller and Greater Elements ](https://leetcode.com/problems/count-elements-with-strictly-smaller-and-greater-elements/)|[src/q_2101_2150/q2148.cc](../src/q_2101_2150/q2148.cc)|2023/02/25 13:24|
