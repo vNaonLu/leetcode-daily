@@ -1,6 +1,6 @@
 # Unsolved Solutions List
 
-There are **1652** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
+There are **1651** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
 
 The questions which have been solved are not shown in this page, more information about solved questions can be found at [docs/solved_solutions.md](./solved_solutions.md).
 
@@ -1049,7 +1049,6 @@ The questions which have been solved are not shown in this page, more informatio
 |1851|[Minimum Interval to Include Each Query](https://leetcode.com/problems/minimum-interval-to-include-each-query/)|Hard||
 |1852|[Distinct Numbers in Each Subarray](https://leetcode.com/problems/distinct-numbers-in-each-subarray/)|Medium|🔒|
 |1853|[Convert Date Format](https://leetcode.com/problems/convert-date-format/)|Easy|🔒|
-|1854|[Maximum Population Year](https://leetcode.com/problems/maximum-population-year/)|Easy||
 |1856|[Maximum Subarray Min-Product](https://leetcode.com/problems/maximum-subarray-min-product/)|Medium||
 |1858|[Longest Word With All Prefixes](https://leetcode.com/problems/longest-word-with-all-prefixes/)|Medium|🔒|
 |1860|[Incremental Memory Leak](https://leetcode.com/problems/incremental-memory-leak/)|Medium||
