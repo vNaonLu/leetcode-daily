@@ -15,6 +15,7 @@ import ldt_add
 import ldt_remove
 import ldt_update
 import ldt_config
+import ldt_detail
 
 @dcli.command(
     SCRIPT_NAME,
@@ -47,5 +48,6 @@ ldt_add.getCommand(ldtMain)
 ldt_remove.getCommand(ldtMain)
 ldt_update.getCommand(ldtMain)
 ldt_config.getCommand(ldtMain)
+ldt_detail.getCommand(ldtMain)
 
 sys.exit(safeRun(ldtMain))

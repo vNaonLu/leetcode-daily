@@ -120,6 +120,7 @@ class ResolveLogsList:
     def __init__(self, path: Path) -> None:
         self._path = Path(path)
         self._logs: dict[int, _YearlyResolvedLogList] = {}
+        self._map_to_log: dict[int, ResolveLog] = {}
         assert self._path.exists() and self._path.is_file()
 
         LOG = prompt.Log.getInstance()
@@ -131,6 +132,7 @@ class ResolveLogsList:
                     LOG.funcVerbose("create yearly resolved logs for year {}", log.year)
                     self._logs[log.year] = _YearlyResolvedLogList(log.year)
                 self._logs[log.year][log.month][log.day].append(log)
+                self._map_to_log[log.id] = log
 
     def data(self):
         res: list[ResolveLog] = []
@@ -168,3 +170,6 @@ class ResolveLogsList:
 
     def __len__(self):
         return sum(len(self._logs[y]) for y in self._logs)
+    
+    def __contains__(self, id: int):
+        return id in self._map_to_log
