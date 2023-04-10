@@ -54,7 +54,7 @@ def getCommand(parent=None):
         features_commit: list[tuple[str, str]] = []
 
         COMMIT_FORMAT = regex.compile("^([a-z\d]{7})(?: \([^)]+\))? ([^\n]+)$")
-        SOLUTION_FORMAT = regex.compile("^adds q(\d+) ")
+        SOLUTION_FORMAT = regex.compile("^adds q(\d+)")
         for rev in hashes:
             CMD = ["git", "-C", PROJECT_ROOT,
                    "show", "--quiet", "--oneline", rev]
