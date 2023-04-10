@@ -937,3 +937,12 @@ timestamp,id,tc,sc,notes
 1680422446,1725,n,1,n = |rectangles.size()|
 1680507380,1646,n,n,
 1680509191,1399,n,n,
+1680591475,2405,n,n,n = |s.size()|
+1680667345,2439,n,1,n = |nums.size()|
+1680669366,1773,n * E,1,"n = |items.size()|, E = |items[i][j].size()|"
+1680670173,2309,n,n,n = |s.size()|
+1680768661,2094,n,1,n = |digits.size()|
+1680840566,2133,n^2,n,n = |matrix.size()|
+1680919278,2465,n * log(n),n,n = |nums.size()|
+1681024719,1857,-,-,not calculated
+1681087935,1854,-,-,not calculated

@@ -1,6 +1,6 @@
 # Unsolved Solutions List
 
-There are **1660** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
+There are **1651** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
 
 The questions which have been solved are not shown in this page, more information about solved questions can be found at [docs/solved_solutions.md](./solved_solutions.md).
 
@@ -992,7 +992,6 @@ The questions which have been solved are not shown in this page, more informatio
 |1769|[Minimum Number of Operations to Move All Balls to Each Box](https://leetcode.com/problems/minimum-number-of-operations-to-move-all-balls-to-each-box/)|Medium||
 |1771|[Maximize Palindrome Length From Subsequences](https://leetcode.com/problems/maximize-palindrome-length-from-subsequences/)|Hard||
 |1772|[Sort Features by Popularity](https://leetcode.com/problems/sort-features-by-popularity/)|Medium|🔒|
-|1773|[Count Items Matching a Rule](https://leetcode.com/problems/count-items-matching-a-rule/)|Easy||
 |1774|[Closest Dessert Cost](https://leetcode.com/problems/closest-dessert-cost/)|Medium||
 |1775|[Equal Sum Arrays With Minimum Number of Operations](https://leetcode.com/problems/equal-sum-arrays-with-minimum-number-of-operations/)|Medium||
 |1776|[Car Fleet II](https://leetcode.com/problems/car-fleet-ii/)|Hard||
@@ -1050,9 +1049,7 @@ The questions which have been solved are not shown in this page, more informatio
 |1851|[Minimum Interval to Include Each Query](https://leetcode.com/problems/minimum-interval-to-include-each-query/)|Hard||
 |1852|[Distinct Numbers in Each Subarray](https://leetcode.com/problems/distinct-numbers-in-each-subarray/)|Medium|🔒|
 |1853|[Convert Date Format](https://leetcode.com/problems/convert-date-format/)|Easy|🔒|
-|1854|[Maximum Population Year](https://leetcode.com/problems/maximum-population-year/)|Easy||
 |1856|[Maximum Subarray Min-Product](https://leetcode.com/problems/maximum-subarray-min-product/)|Medium||
-|1857|[Largest Color Value in a Directed Graph](https://leetcode.com/problems/largest-color-value-in-a-directed-graph/)|Hard||
 |1858|[Longest Word With All Prefixes](https://leetcode.com/problems/longest-word-with-all-prefixes/)|Medium|🔒|
 |1860|[Incremental Memory Leak](https://leetcode.com/problems/incremental-memory-leak/)|Medium||
 |1861|[Rotating the Box](https://leetcode.com/problems/rotating-the-box/)|Medium||
@@ -1250,7 +1247,6 @@ The questions which have been solved are not shown in this page, more informatio
 |2091|[Removing Minimum and Maximum From Array](https://leetcode.com/problems/removing-minimum-and-maximum-from-array/)|Medium||
 |2092|[Find All People With Secret](https://leetcode.com/problems/find-all-people-with-secret/)|Hard||
 |2093|[Minimum Cost to Reach City With Discounts](https://leetcode.com/problems/minimum-cost-to-reach-city-with-discounts/)|Medium|🔒|
-|2094|[Finding 3-Digit Even Numbers](https://leetcode.com/problems/finding-3-digit-even-numbers/)|Easy||
 |2096|[Step-By-Step Directions From a Binary Tree Node to Another](https://leetcode.com/problems/step-by-step-directions-from-a-binary-tree-node-to-another/)|Medium||
 |2097|[Valid Arrangement of Pairs](https://leetcode.com/problems/valid-arrangement-of-pairs/)|Hard||
 |2098|[Subsequence of Size K With the Largest Even Sum](https://leetcode.com/problems/subsequence-of-size-k-with-the-largest-even-sum/)|Medium|🔒|
@@ -1286,7 +1282,6 @@ The questions which have been solved are not shown in this page, more informatio
 |2128|[Remove All Ones With Row and Column Flips](https://leetcode.com/problems/remove-all-ones-with-row-and-column-flips/)|Medium|🔒|
 |2130|[Maximum Twin Sum of a Linked List](https://leetcode.com/problems/maximum-twin-sum-of-a-linked-list/)|Medium||
 |2132|[Stamping the Grid](https://leetcode.com/problems/stamping-the-grid/)|Hard||
-|2133|[Check if Every Row and Column Contains All Numbers](https://leetcode.com/problems/check-if-every-row-and-column-contains-all-numbers/)|Easy||
 |2135|[Count Words Obtained After Adding a Letter](https://leetcode.com/problems/count-words-obtained-after-adding-a-letter/)|Medium||
 |2137|[Pour Water Between Buckets to Make Water Levels Equal](https://leetcode.com/problems/pour-water-between-buckets-to-make-water-levels-equal/)|Medium|🔒|
 |2138|[Divide a String Into Groups of Size k](https://leetcode.com/problems/divide-a-string-into-groups-of-size-k/)|Easy||
@@ -1421,7 +1416,6 @@ The questions which have been solved are not shown in this page, more informatio
 |2305|[Fair Distribution of Cookies](https://leetcode.com/problems/fair-distribution-of-cookies/)|Medium||
 |2307|[Check for Contradictions in Equations](https://leetcode.com/problems/check-for-contradictions-in-equations/)|Hard|🔒|
 |2308|[Arrange Table by Gender](https://leetcode.com/problems/arrange-table-by-gender/)|Medium|🔒|
-|2309|[Greatest English Letter in Upper and Lower Case](https://leetcode.com/problems/greatest-english-letter-in-upper-and-lower-case/)|Easy||
 |2310|[Sum of Numbers With Units Digit K](https://leetcode.com/problems/sum-of-numbers-with-units-digit-k/)|Medium||
 |2312|[Selling Pieces of Wood](https://leetcode.com/problems/selling-pieces-of-wood/)|Hard||
 |2313|[Minimum Flips in Binary Tree to Get Result](https://leetcode.com/problems/minimum-flips-in-binary-tree-to-get-result/)|Hard|🔒|
@@ -1498,7 +1492,6 @@ The questions which have been solved are not shown in this page, more informatio
 |2402|[Meeting Rooms III](https://leetcode.com/problems/meeting-rooms-iii/)|Hard||
 |2403|[Minimum Time to Kill All Monsters](https://leetcode.com/problems/minimum-time-to-kill-all-monsters/)|Hard|🔒|
 |2404|[Most Frequent Even Element](https://leetcode.com/problems/most-frequent-even-element/)|Easy||
-|2405|[Optimal Partition of String](https://leetcode.com/problems/optimal-partition-of-string/)|Medium||
 |2406|[Divide Intervals Into Minimum Number of Groups](https://leetcode.com/problems/divide-intervals-into-minimum-number-of-groups/)|Medium||
 |2407|[Longest Increasing Subsequence II](https://leetcode.com/problems/longest-increasing-subsequence-ii/)|Hard||
 |2408|[Design SQL](https://leetcode.com/problems/design-sql/)|Medium|🔒|
@@ -1526,7 +1519,6 @@ The questions which have been solved are not shown in this page, more informatio
 |2435|[Paths in Matrix Whose Sum Is Divisible by K](https://leetcode.com/problems/paths-in-matrix-whose-sum-is-divisible-by-k/)|Hard||
 |2436|[Minimum Split Into Subarrays With GCD Greater Than One](https://leetcode.com/problems/minimum-split-into-subarrays-with-gcd-greater-than-one/)|Medium|🔒|
 |2438|[Range Product Queries of Powers](https://leetcode.com/problems/range-product-queries-of-powers/)|Medium||
-|2439|[Minimize Maximum of Array](https://leetcode.com/problems/minimize-maximum-of-array/)|Medium||
 |2440|[Create Components With Same Value](https://leetcode.com/problems/create-components-with-same-value/)|Hard||
 |2442|[Count Number of Distinct Integers After Reverse Operations](https://leetcode.com/problems/count-number-of-distinct-integers-after-reverse-operations/)|Medium||
 |2443|[Sum of Number and Its Reverse](https://leetcode.com/problems/sum-of-number-and-its-reverse/)|Medium||
@@ -1546,7 +1538,6 @@ The questions which have been solved are not shown in this page, more informatio
 |2462|[Total Cost to Hire K Workers](https://leetcode.com/problems/total-cost-to-hire-k-workers/)|Medium||
 |2463|[Minimum Total Distance Traveled](https://leetcode.com/problems/minimum-total-distance-traveled/)|Hard||
 |2464|[Minimum Subarrays in a Valid Split](https://leetcode.com/problems/minimum-subarrays-in-a-valid-split/)|Medium|🔒|
-|2465|[Number of Distinct Averages](https://leetcode.com/problems/number-of-distinct-averages/)|Easy||
 |2466|[Count Ways To Build Good Strings](https://leetcode.com/problems/count-ways-to-build-good-strings/)|Medium||
 |2467|[Most Profitable Path in a Tree](https://leetcode.com/problems/most-profitable-path-in-a-tree/)|Medium||
 |2468|[Split Message Based on Limit](https://leetcode.com/problems/split-message-based-on-limit/)|Hard||

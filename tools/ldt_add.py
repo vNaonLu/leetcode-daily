@@ -236,6 +236,9 @@ def _buildAndTest(*, build_path: Path, solution_file: SolutionFile, id: int,
                         test_passed = False
                         LOG.log("switched to non-session mode.")
 
+                    elif result == _UploadResult.Failed:
+                        test_passed = False
+
                     elif result == _UploadResult.Passed:
                         if not PMT.ask("mark the question #{} as done?", LOG.format(detail.id, flag=LOG.HIGHTLIGHT)):
                            test_passed = False
@@ -459,15 +462,9 @@ def getCommand(parent=None):
                 out, _ = launchSubprocess(CMD).communicate()
                 LOG.verbose("got stdout: {}", out)
                 if not regex.search(solution_file.fileName(), out):
-                    LOG.verbose("solution exists in git, check whether the solution is modified.")
-
-                    CMD = ["git", "-C", PROJECT_ROOT, "diff", "--name-only"]
-                    out, _ = launchSubprocess(CMD).communicate()
-                    LOG.verbose("got stdout: {}", out)
-                    if not regex.search(solution_file.fileName(), out):
-                        LOG.success("skip solving question #{} since the solution exists and has already committed and not been modified.",
-                                    LOG.format(id, flag=LOG.HIGHTLIGHT))
-                        continue
+                    LOG.success("skip solving question #{} since the solution exists and has already committed and not been modified.",
+                                LOG.format(id, flag=LOG.HIGHTLIGHT))
+                    continue
 
                 if not PMT.ask("continue to solve question #{}?",
                                LOG.format(id, flag=LOG.HIGHTLIGHT)):

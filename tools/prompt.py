@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 from threading import Thread, Lock
 from typing import Callable
+from getkey import getkey
 import sys
 import inspect
 import time
@@ -73,13 +74,13 @@ class _PrintTool:
         with self.__lock:
             self._incYPos(sum((x.count('\n') if isinstance(
                 x, str) else 0 for x in args)))
-            print(*args, end="")
+            print(*args, end="", flush=True)
 
     def _oneline(self, *args):
         with self.__lock:
             self._incYPos(sum((x.count('\n') if isinstance(
                 x, str) else 0 for x in args)) + 1)
-            print(*args, end="\n")
+            print(*args, end="\n", flush=True)
 
     def _printAt(self, pmt: str, y: int):
         with self.__lock:
@@ -109,13 +110,6 @@ class _PrintTool:
         res += self.format(s, *args, flag=flag)
         return res
 
-    def _input(self, pmt: str):
-        with self.__lock:
-            self._incYPos(pmt.count('\n'))
-            res = input(pmt)
-            self._incYPos(1)
-            return res
-
 
 class _PromptImpl(_PrintTool):
     __DEFAULT_DISPATCHER = {
@@ -130,20 +124,25 @@ class _PromptImpl(_PrintTool):
 
     def pause(self):
         pmt = self._formatWithSymbol("[ ]", f'press any key to continue.\n',)
-        self._input(pmt)
+        getkey(pmt)
 
     def ask(self, s: str, *args, dispatcher: dict[str, Callable] = __DEFAULT_DISPATCHER, flag: int = 0):
         opts = [k[0] for k in dispatcher.items()]
         opts_prompt = self.format("[{}]", ", ".join(opts), flag=self.VERBOSE)
         question = self.format(s, *args, flag=flag)
+        miss = False
         while True:
-          pmt = self._formatWithSymbol("[?]", f'{question} {opts_prompt} \n',
-                                       symbol_flag=self.DARK_YELLOW)
-          ans = self._input(pmt)
+            pmt = self._formatWithSymbol("[{}]".format("?" if not miss else "x"), f'{question} {opts_prompt} ',
+                                        symbol_flag=self.DARK_YELLOW if not miss else self.DARK_RED)
+            self._print(pmt)
+            ans = getkey(pmt)
+            self._oneline(ans)
 
-          for kw, action in dispatcher.items():
-              if kw == ans or (not (flag & self.CASESENSITIVE) and kw.lower() == ans.lower()):
-                  return action()
+            for kw, action in dispatcher.items():
+                if kw == ans or (not (flag & self.CASESENSITIVE) and kw.lower() == ans.lower()):
+                    return action()
+
+            miss = True
 
 
 class _LogImpl(_PrintTool):
