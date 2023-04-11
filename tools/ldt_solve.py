@@ -15,20 +15,23 @@ import session
 
 
 def _getComplexityInformation(id: int,
-                              snippets: str):
+                              snippets: str,
+                              tc: str = "",
+                              sc: str = "",
+                              note: str = ""):
     init_msg = [
         f'# time complexity in the first line:',
         f'# O(',
-        f'',
+        f'{tc}',
         f'# )',
         f'',
         f'# space complexity in the second line:',
         f'# O(',
-        f'',
+        f'{sc}',
         f'# )',
         f'',
         f'# notes in third line if necessary:',
-        f'',
+        f'{note}',
         f'',
         f'# please enter the complexities information for the solution #{id}.',
         f'# lines starting with \'#\' will be ignored.',
@@ -50,39 +53,51 @@ def _getComplexityInformation(id: int,
     return "-", "-", "not calculated"
 
 
-def _addResolveLogs(*, solution_file: SolutionFile,
-                    resolve_logs: ResolveLogsFile,
-                    id: int,
-                    timestamp: int):
+def _modifyResolvedLog(*, solution_file: SolutionFile, resolve_logs: ResolveLogsFile,
+                    id: int, timestamp: int):
     LOG = prompt.Log.getInstance()
+    log: ResolveLog = None
 
-    tc, sc, notes = _getComplexityInformation(
-        id, clangFormat(parseSolution(solution_file.read_text())))
+    if id in resolve_logs:
+        log = resolve_logs.getLogById(id)
 
-    log = ResolveLog({"timestamp": timestamp,
-                      "id": id,
-                      "tc": tc,
-                      "sc": sc,
-                      "notes": notes})
-    resolve_logs.addLog(log)
-    LOG.funcVerbose(f"added new resolve log for solution #{log.id} with TC "
+        tc, sc, notes = _getComplexityInformation(
+            id,
+            clangFormat(parseSolution(solution_file.read_text())),
+            log.tc,
+            log.sc,
+            log.notes)
+
+        log.tc = tc
+        log.sc = sc
+        log.notes = notes
+
+    else:
+        tc, sc, notes = _getComplexityInformation(
+            id,
+            clangFormat(parseSolution(solution_file.read_text())))
+        log = ResolveLog({"timestamp": timestamp,
+                        "id": id,
+                        "tc": tc,
+                        "sc": sc,
+                        "notes": notes})
+        resolve_logs.addLog(log)
+        LOG.verbose(f"added new resolve log for solution #{log.id} with TC "
                     f"O({log.tc}) and SC O({log.sc}): {log.timestamp}")
 
-    resolve_logs.save()
-    LOG.success("the resolve log has been saved: {}",
-                LOG.format(resolve_logs, flag=LOG.HIGHTLIGHT))
+        resolve_logs.save()
+        LOG.success("the resolve log has been saved: {}",
+                    LOG.format(resolve_logs, flag=LOG.HIGHTLIGHT))
     return log
 
 
 def getCommand(parent=None):
     @dcli.command(
-        "add",
+        "solve",
         dcli.arg("-C", dest="src_path", default=str(SRC_ABSOLUTE), action="store",
                  metavar="[Source_Root]", help="specify the source root."),
         dcli.arg("-B", dest="build_path", default=str(BUILD_ABSOLUTE), action="store",
                  metavar="[Build_Path]", help="specify the directory to build. Default: './build'."),
-        dcli.arg("-s", "--solve", dest="solve_problem", default=False, action="store_true",
-                 help="identifier of whether solving problem."),
         dcli.arg("--session", dest="session_name", default="", action="store",
                  help="explicitly use specific session cache."),
         dcli.arg("--guest", dest="leetcode_session", default=True, action="store_false",
@@ -98,38 +113,35 @@ def getCommand(parent=None):
         dcli.arg("--readme", dest="readme_path", default=str(README_ABSOLUTE), action="store",
                  metavar="[Docs_Path]", help="specify the file to save readme."),
         dcli.arg("--without-update", dest="without_update", default=False, action="store_true",
-                 help="disable update references after running tests. only effects with |-s|."),
+                 help="disable update references after running tests."),
         dcli.arg("--no-commit", dest="without_commit", default=False, action="store_true",
-                 help="disable automatic commit after references updating. only effects with |-s|."),
+                 help="disable automatic commit after references updating."),
         dcli.arg("-v", "--verbose", dest="verbose", default=False, action="store_true",
                  help="enable verbose logging."),
-        dcli.arg("ids", metavar="id", nargs="*", default=[],
+        dcli.arg("ids", metavar="id", nargs="+", default=[],
                  type=int, help="question identifiers to add."),
         parent=parent,
-        formatter_class=RawTextHelpFormatter, usage="%(prog)s [options] [id [id ...]]",
+        formatter_class=RawTextHelpFormatter, usage="%(prog)s [options] id [id ...]",
         help=fixedWidth(
-            "add questions by their LeetCode identifier and generate C++ solution template.",
+            "solve problem by their LeetCode identifier.",
             width=60
         ),
         description=fixedWidth(
-            'A script to add multiple unsolve questions by their LeetCode question number, '
-            'and generate a C++ solution template, with GoogleTest interface and several test cases based on'
-            'examples on the LeetCode website. This script will automatically grab the question of today if '
-            '|ids| is empty and |--guest| is not specified. This script will do the process:',
-            '  - Generate the C++ template, and open an editor to solve.',
+            'A script to solve multiple unsolve problems by their LeetCode question number. '
+            'This script will do the process:',
+            '  - Open an editor to solve.',
             '  - Run the testcases.',
             '  - Updates all references such as documents and diagrams.',
             '  - Run `git commit` if all the previous stages passes.'
         )
     )
-    def ldtAdd(args: object):
+    def ldtSolve(args: object):
         PMT = prompt.Prompt.getInstance()
         LOG = prompt.Log.getInstance(verbose=getattr(args, "verbose"))
         CONFIG = Configuration.getInstance()
 
         ARG_SRC_PATH = Path(getattr(args, "src_path")).resolve()
         ARG_BUILD_PATH = Path(getattr(args, "build_path")).resolve()
-        ARG_SOLVE_FLAG = getattr(args, "solve_problem")
         ARG_QUESTIONS_LIST = Path(getattr(args, "questions_list_file")).resolve()
         ARG_RESOLVE_LOGS = Path(getattr(args, "questions_log_file")).resolve()
         ARG_ASSETS_PATH = Path(getattr(args, "assets_path")).resolve()
@@ -193,77 +205,29 @@ def getCommand(parent=None):
                                          flag=LOG.HIGHTLIGHT),
                               is_success=True)
 
-        if len(ARG_IDS) == 0 and LEETCODE_SESSION:
-            TASK = LOG.createTaskLog("Question of Today")
-            question_of_today: session.LeetCodeSession.QuestionOfToday = None
-
-            try_cnt = 0
-            TASK.begin("request question of today...")
-            while not question_of_today:
-                try:
-                    time.sleep(1)
-                    TASK.log("request question of today...{}",
-                             f'({try_cnt})' if try_cnt > 0 else "")
-                    question_of_today = LEETCODE_SESSION.getQuestionOfToday()
-                    try_cnt += 1
-                except KeyboardInterrupt:
-                    break
-
-            if question_of_today:
-                TASK.done("get {}", LOG.format('{}. {}', question_of_today.id,
-                                               question_of_today.title, flag=LOG.HIGHTLIGHT), is_success=True)
-                ARG_IDS.append(question_of_today.id)
-            else:
-                TASK.done("aborted", is_success=False)
-
         for id in ARG_IDS:
-            ADD_TIME = int(time.time())
+            TIME = int(time.time())
             solution_file = SolutionFile(id, ARG_SRC_PATH)
 
-            LOG.funcVerbose("check whether the solution with id {} exists in resolve logs", id)
-            if solution_file.id() in resolve_logs:
-                LOG.success("skip solving question #{} since the solution exists in resolve logs.",
+            LOG.verbose("check whether the solution with id {} exists in: {}", id, solution_file)
+            if not solution_file.exists():
+                LOG.failure("skip solving question #{} since the solution file not found.",
                             LOG.format(id, flag=LOG.HIGHTLIGHT))
                 continue
 
-            LOG.funcVerbose("check whether the solution with id {} exists in: {}", id, solution_file)
-            if solution_file.exists():
-                if not ARG_SOLVE_FLAG:
-                    LOG.success("skip adding solution #{} since it already exists.",
-                                LOG.format(id, flag=LOG.HIGHTLIGHT))
-                    continue
-
-                LOG.funcVerbose("solution exists, check whether the solution is committed.")
-                CMD = ["git", "-C", PROJECT_ROOT, "ls-files", PROJECT_ROOT, "--exclude-standard", "--others"]
-                out, _ = launchSubprocess(CMD).communicate()
-                LOG.funcVerbose("got stdout: {}", out)
-                if not regex.search(solution_file.fileName(), out):
-                    LOG.success("skip solving question #{} since the solution exists and has already committed and not been modified.",
-                                LOG.format(id, flag=LOG.HIGHTLIGHT))
-                    continue
-
-                if not PMT.ask("continue to solve question #{}?",
-                               LOG.format(id, flag=LOG.HIGHTLIGHT)):
-                    continue
-
-            LOG.funcVerbose("check whether the detail for question #{} exists.", id)
+            LOG.verbose("check whether the detail for question #{} exists.", id)
             if id not in questions_list:
-                LOG.failure("there does not exist detail for the problem #{} in questions list. "
+                LOG.failure("there exists no detail for the problem #{} in questions list. "
                             "please update the questions list first.",
                             LOG.format(id, flag=LOG.HIGHTLIGHT))
-                return False
+                LOG.failure("skip solving question #{} due to no information for it.",
+                            LOG.format(id, flag=LOG.HIGHTLIGHT))
+                continue
 
             INFO = questions_list[id]
 
-
             cpp_solution = requestAndGetCPPSolution(questions_details=INFO,
                                                     solution_file=solution_file)
-
-            LOG.success("the solution #{} added successfully.",
-                        LOG.format(id, flag=LOG.HIGHTLIGHT))
-
-            if not ARG_SOLVE_FLAG:
-                continue
 
             if not solveProblem(build_path=ARG_BUILD_PATH,
                                 solution_file=solution_file,
@@ -271,19 +235,16 @@ def getCommand(parent=None):
                                 cpp_solution=cpp_solution,
                                 leetcode_session=LEETCODE_SESSION):
 
-                LOG.failure("abort adding the solution #{}.",
+                LOG.failure("abort solving the problem #{}.",
                             LOG.format(id, flag=LOG.HIGHTLIGHT))
 
-                if solution_file.exists() and PMT.ask("remove the solution #{}?", LOG.format(id, flag=LOG.HIGHTLIGHT)):
-                    solution_file.unlink()
-                    LOG.log("remove the file: {}", LOG.format(
-                        solution_file, LOG.HIGHTLIGHT))
+                # TODO: resume the solution file.
 
             else:
-                RESOLVE_LOG = _addResolveLogs(solution_file=solution_file,
-                                              resolve_logs=resolve_logs,
-                                              id=id,
-                                              timestamp=ADD_TIME)
+                RESOLVE_LOG = _modifyResolvedLog(solution_file=solution_file,
+                                                 resolve_logs=resolve_logs,
+                                                 id=id,
+                                                 timestamp=TIME)
                 ADD_CMD = ["git", "-C", PROJECT_ROOT, "add", solution_file, resolve_logs]
 
                 if not ARG_WITHOUT_UPDATE_FLAG:
@@ -298,7 +259,7 @@ def getCommand(parent=None):
                 if not ARG_WITHOUT_COMMIT_FLAG:
                     launchSubprocess(ADD_CMD).communicate()
 
-                    msg = getCommitMessageFromResolveLog(RESOLVE_LOG, "adds")
+                    msg = getCommitMessageFromResolveLog(RESOLVE_LOG, "modifies")
 
                     CMD = ["git", "-C", PROJECT_ROOT, "commit", "-m", msg]
                     launchSubprocess(CMD).communicate()
@@ -310,7 +271,7 @@ def getCommand(parent=None):
                             LOG.format(id, flag=LOG.HIGHTLIGHT))
         return 0
 
-    return ldtAdd
+    return ldtSolve
 
 
 if __name__ == "__main__":

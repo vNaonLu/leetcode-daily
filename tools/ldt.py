@@ -15,6 +15,7 @@ import ldt_add
 import ldt_remove
 import ldt_update
 import ldt_config
+import ldt_solve
 
 
 @dcli.command(
@@ -46,6 +47,7 @@ ldt_cat.getCommand(ldtMain)
 ldt_check.getCommand(ldtMain)
 ldt_build.getCommand(ldtMain)
 ldt_add.getCommand(ldtMain)
+ldt_solve.getCommand(ldtMain)
 ldt_remove.getCommand(ldtMain)
 ldt_update.getCommand(ldtMain)
 ldt_config.getCommand(ldtMain)

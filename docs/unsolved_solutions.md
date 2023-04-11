@@ -1,6 +1,6 @@
 # Unsolved Solutions List
 
-There are **1650** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
+There are **1648** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
 
 The questions which have been solved are not shown in this page, more information about solved questions can be found at [docs/solved_solutions.md](./solved_solutions.md).
 
@@ -1059,7 +1059,6 @@ The questions which have been solved are not shown in this page, more informatio
 |1866|[Number of Ways to Rearrange Sticks With K Sticks Visible](https://leetcode.com/problems/number-of-ways-to-rearrange-sticks-with-k-sticks-visible/)|Hard||
 |1867|[Orders With Maximum Quantity Above Average](https://leetcode.com/problems/orders-with-maximum-quantity-above-average/)|Medium|🔒|
 |1868|[Product of Two Run-Length Encoded Arrays](https://leetcode.com/problems/product-of-two-run-length-encoded-arrays/)|Medium|🔒|
-|1869|[Longer Contiguous Segments of Ones than Zeros](https://leetcode.com/problems/longer-contiguous-segments-of-ones-than-zeros/)|Easy||
 |1871|[Jump Game VII](https://leetcode.com/problems/jump-game-vii/)|Medium||
 |1872|[Stone Game VIII](https://leetcode.com/problems/stone-game-viii/)|Hard||
 |1873|[Calculate Special Bonus](https://leetcode.com/problems/calculate-special-bonus/)|Easy||
@@ -1068,7 +1067,6 @@ The questions which have been solved are not shown in this page, more informatio
 |1876|[Substrings of Size Three with Distinct Characters](https://leetcode.com/problems/substrings-of-size-three-with-distinct-characters/)|Easy||
 |1877|[Minimize Maximum Pair Sum in Array](https://leetcode.com/problems/minimize-maximum-pair-sum-in-array/)|Medium||
 |1878|[Get Biggest Three Rhombus Sums in a Grid](https://leetcode.com/problems/get-biggest-three-rhombus-sums-in-a-grid/)|Medium||
-|1880|[Check if Word Equals Summation of Two Words](https://leetcode.com/problems/check-if-word-equals-summation-of-two-words/)|Easy||
 |1882|[Process Tasks Using Servers](https://leetcode.com/problems/process-tasks-using-servers/)|Medium||
 |1883|[Minimum Skips to Arrive at Meeting On Time](https://leetcode.com/problems/minimum-skips-to-arrive-at-meeting-on-time/)|Hard||
 |1884|[Egg Drop With 2 Eggs and N Floors](https://leetcode.com/problems/egg-drop-with-2-eggs-and-n-floors/)|Medium||

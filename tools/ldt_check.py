@@ -50,11 +50,13 @@ def getCommand(parent=None):
                 return proc.returncode
             hashes += out.splitlines()
 
-        solution_commit: list[tuple[str, str]] = []
+        adding_commit: list[tuple[str, str]] = []
+        modify_commit: list[tuple[str, str]] = []
         features_commit: list[tuple[str, str]] = []
 
         COMMIT_FORMAT = regex.compile("^([a-z\d]{7})(?: \([^)]+\))? ([^\n]+)$")
-        SOLUTION_FORMAT = regex.compile("^adds q(\d+)")
+        ADDING_FORMAT = regex.compile("^adds q(\d+)")
+        MODIFY_FORMAT = regex.compile("^modifies q(\d+)")
         for rev in hashes:
             CMD = ["git", "-C", PROJECT_ROOT,
                    "show", "--quiet", "--oneline", rev]
@@ -62,26 +64,33 @@ def getCommand(parent=None):
             commit_match = COMMIT_FORMAT.match(out)
             sha = commit_match.group(1)
             msg = commit_match.group(2)
-            if SOLUTION_FORMAT.search(msg):
-                solution_commit.append((sha, msg))
+            if ADDING_FORMAT.search(msg):
+                adding_commit.append((sha, msg))
+            elif MODIFY_FORMAT.search(msg):
+                modify_commit.append((sha, msg))
             else:
                 features_commit.append((sha, msg))
 
         weeks_cnt = int((TODAY - PROJECT_INITIAL_DATE).days / 7)
         title_msg = ""
         detail_msg = ""
-        if len(solution_commit) > 0:
+        if len(adding_commit) > 0:
             title_msg += "adds {} solution(s)".format(
-                LOG.format(len(solution_commit), flag=LOG.HIGHTLIGHT))
-            detail_msg += f"add solution(s) details:\n"
-            for rev, msg in solution_commit:
+                LOG.format(len(adding_commit), flag=LOG.HIGHTLIGHT))
+            detail_msg += f"add solution(s):\n"
+            for rev, msg in adding_commit:
+                detail_msg += "  {} {}\n".format(
+                    LOG.format(rev, flag=LOG.HIGHTLIGHT), msg)
+        if len(modify_commit) > 0:
+            title_msg += "{}modifies {} solution(s)".format(
+                ", " if len(adding_commit) else "",
+                LOG.format(len(features_commit), flag=LOG.HIGHTLIGHT))
+            detail_msg += f"\nmodify solution(s):\n"
+            for rev, msg in modify_commit:
                 detail_msg += "  {} {}\n".format(
                     LOG.format(rev, flag=LOG.HIGHTLIGHT), msg)
         if len(features_commit) > 0:
-            title_msg += "{}modifies {} feature(s)".format(
-                ", " if len(solution_commit) else "",
-                LOG.format(len(features_commit), flag=LOG.HIGHTLIGHT))
-            detail_msg += "\nmodifies/fixes:\n"
+            detail_msg += "\nother modification(s):\n"
             for rev, msg in features_commit:
                 detail_msg += "  {} {}\n".format(
                     LOG.format(rev, flag=LOG.HIGHTLIGHT), msg)
