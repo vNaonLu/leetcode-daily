@@ -260,21 +260,22 @@ def ldtGenImpl(*, src_path: Path, build_path: Path, build_flag: str, compile_com
         f"-DENABLE_INFRA_TEST={ARG_INFRA_TEST_FLAG}",
     ]
 
-    LOG.log("generate CMake build files with flag: {}", LOG.format(
+    LOG.funcVerbose("generate CMake build files with flag: {}", LOG.format(
         f"-DCMAKE_BUILD_TYPE={ARG_BUILD_FLAG}", flag=LOG.HIGHTLIGHT))
+
     if ARG_COMPILE_COMMAND_FLAG == "ON":
-        LOG.log("generate CMake build files with flag: {}", LOG.format(
+        LOG.funcVerbose("generate CMake build files with flag: {}", LOG.format(
             f"-DCMAKE_EXPORT_COMPILE_COMMANDS={ARG_COMPILE_COMMAND_FLAG}", flag=LOG.HIGHTLIGHT))
 
     if ARG_LEETCODE_TEST_FLAG == "ON":
-        LOG.log("generate CMake build files with flag: {}", LOG.format(
+        LOG.funcVerbose("generate CMake build files with flag: {}", LOG.format(
             f"-DENABLE_LEETCODE_TEST={ARG_LEETCODE_TEST_FLAG}", flag=LOG.HIGHTLIGHT))
 
     if ARG_INFRA_TEST_FLAG == "ON":
-        LOG.log("generate CMake build files with flag: {}", LOG.format(
+        LOG.funcVerbose("generate CMake build files with flag: {}", LOG.format(
             f"-DENABLE_INFRA_TEST={ARG_INFRA_TEST_FLAG}", flag=LOG.HIGHTLIGHT))
 
-    TASK = LOG.createTaskLog("Generate Build Files")
+    TASK = LOG.createTaskLog("Generate {} Build Files".format(ARG_BUILD_FLAG))
 
     def stdoutCallback(out: str):
         TASK.log(parseCMakeGenarateLog(out))

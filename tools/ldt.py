@@ -8,7 +8,6 @@ import dcli
 from utils import *
 
 import ldt_cat
-import ldt_run
 import ldt_check
 import ldt_build
 import ldt_add
@@ -42,7 +41,6 @@ def ldtMain(args: object):
     LOG.verbose("[arguments end]")
 
 
-ldt_run.getCommand(ldtMain)
 ldt_cat.getCommand(ldtMain)
 ldt_check.getCommand(ldtMain)
 ldt_build.getCommand(ldtMain)
