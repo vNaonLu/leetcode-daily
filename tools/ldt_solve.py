@@ -229,6 +229,8 @@ def getCommand(parent=None):
             cpp_solution = requestAndGetCPPSolution(questions_details=INFO,
                                                     solution_file=solution_file)
 
+            original_solution = solution_file.read_text()
+
             if not solveProblem(build_path=ARG_BUILD_PATH,
                                 solution_file=solution_file,
                                 detail=INFO,
@@ -238,7 +240,8 @@ def getCommand(parent=None):
                 LOG.failure("abort solving the problem #{}.",
                             LOG.format(id, flag=LOG.HIGHTLIGHT))
 
-                # TODO: resume the solution file.
+                if PMT.ask("resume the solution #{}?", LOG.format(id, flag=LOG.HIGHTLIGHT)):
+                    solution_file.write_text(original_solution)
 
             else:
                 RESOLVE_LOG = _modifyResolvedLog(solution_file=solution_file,
