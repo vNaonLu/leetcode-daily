@@ -151,6 +151,25 @@ def clangFormat(src: str):
         return after
 
 
+def showWithLess(src: str):
+    import tempfile
+    LOG = prompt.Log.getInstance()
+    less = findExecutable("less")
+    if not less:
+        return
+
+    with tempfile.NamedTemporaryFile(suffix=".tmp") as tmp:
+        LOG.funcVerbose("opened a temporary file and writing source in: {}", tmp.name)
+        tmp.write(src.encode('utf-8'))
+        tmp.flush()
+
+        CMD = [less, "-R", tmp.name]
+        LOG.funcVerbose("run a command: {}", CMD)
+
+        if result := subprocess.run(CMD).returncode != 0:
+            LOG.failure("failed to open: {}", result)
+
+
 def openEditor(file: Path, *, line: int = None):
     LOG = prompt.Log.getInstance()
     EDITOR = os.environ.get("EDITOR", findExecutable("vim"))
@@ -224,6 +243,7 @@ def parseBuildLog(oneline: str):
         return percent, res[0].lower() + res[1:]
     except:
         return None, None
+
 
 def parseFailedBlock(result: str, target: str):
     LOG = prompt.Log.getInstance()
