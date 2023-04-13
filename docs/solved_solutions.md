@@ -1,6 +1,6 @@
 # Solved Solutions List
 
-This document contains **951** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
+This document contains **952** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
 
 Some questions which are still being resolved are not shown in this page, more information about unsolved questions can be found at [docs/unsolved_solutions.md](./unsolved_solutions.md).
 
@@ -860,6 +860,7 @@ Some questions which are still being resolved are not shown in this page, more i
 |2042|[Check if Numbers Are Ascending in a Sentence](https://leetcode.com/problems/check-if-numbers-are-ascending-in-a-sentence/)|[src/q_2001_2050/q2042.cc](../src/q_2001_2050/q2042.cc)|2022/01/12 17:59|
 |2053|[Kth Distinct String in an Array](https://leetcode.com/problems/kth-distinct-string-in-an-array/)|[src/q_2051_2100/q2053.cc](../src/q_2051_2100/q2053.cc)|2023/01/05 16:23|
 |2057|[Smallest Index With Equal Value](https://leetcode.com/problems/smallest-index-with-equal-value/)|[src/q_2051_2100/q2057.cc](../src/q_2051_2100/q2057.cc)|2023/01/01 14:48|
+|2062|[Count Vowel Substrings of a String](https://leetcode.com/problems/count-vowel-substrings-of-a-string/)|[src/q_2051_2100/q2062.cc](../src/q_2051_2100/q2062.cc)|2023/04/13 18:51|
 |2068|[Check Whether Two Strings are Almost Equivalent](https://leetcode.com/problems/check-whether-two-strings-are-almost-equivalent/)|[src/q_2051_2100/q2068.cc](../src/q_2051_2100/q2068.cc)|2023/03/20 18:58|
 |2090|[K Radius Subarray Averages](https://leetcode.com/problems/k-radius-subarray-averages/)|[src/q_2051_2100/q2090.cc](../src/q_2051_2100/q2090.cc)|2022/02/10 16:36|
 |2094|[Finding 3-Digit Even Numbers](https://leetcode.com/problems/finding-3-digit-even-numbers/)|[src/q_2051_2100/q2094.cc](../src/q_2051_2100/q2094.cc)|2023/04/06 16:11|
