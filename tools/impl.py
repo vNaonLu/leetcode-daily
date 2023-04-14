@@ -713,5 +713,5 @@ def solveProblem(*, build_path: Path,
                     LOG.success("added an extra testcase for solution: {}",
                                 LOG.format(suite_name, flag=LOG.HIGHTLIGHT))
 
-        if not PMT.ask("continue to solve the problem #{} ?", LOG.format(id, flag=LOG.HIGHTLIGHT)):
+        if not PMT.ask("continue to solve the problem #{} ?", LOG.format(detail.id, flag=LOG.HIGHTLIGHT)):
             return False
