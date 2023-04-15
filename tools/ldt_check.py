@@ -84,7 +84,7 @@ def getCommand(parent=None):
         if len(modify_commit) > 0:
             title_msg += "{}modifies {} solution(s)".format(
                 ", " if len(adding_commit) else "",
-                LOG.format(len(features_commit), flag=LOG.HIGHTLIGHT))
+                LOG.format(len(modify_commit), flag=LOG.HIGHTLIGHT))
             detail_msg += f"\nmodify solution(s):\n"
             for rev, msg in modify_commit:
                 detail_msg += "  {} {}\n".format(
