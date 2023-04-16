@@ -112,7 +112,7 @@ def getCommand(parent=None):
                  metavar="[Docs_Path]", help="specify the directory to save created documents."),
         dcli.arg("--readme", dest="readme_path", default=str(README_ABSOLUTE), action="store",
                  metavar="[Docs_Path]", help="specify the file to save readme."),
-        dcli.arg("--without-update", dest="without_update", default=False, action="store_true",
+        dcli.arg("--no-update", dest="without_update", default=False, action="store_true",
                  help="disable update references after running tests."),
         dcli.arg("--no-commit", dest="without_commit", default=False, action="store_true",
                  help="disable automatic commit after references updating."),
