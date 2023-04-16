@@ -1,6 +1,6 @@
 # Solved Solutions List
 
-This document contains **954** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
+This document contains **955** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
 
 Some questions which are still being resolved are not shown in this page, more information about unsolved questions can be found at [docs/unsolved_solutions.md](./unsolved_solutions.md).
 
@@ -754,6 +754,7 @@ Some questions which are still being resolved are not shown in this page, more i
 |1630|[Arithmetic Subarrays](https://leetcode.com/problems/arithmetic-subarrays/)|[src/q_1601_1650/q1630.cc](../src/q_1601_1650/q1630.cc)|2022/05/04 18:04|
 |1631|[Path With Minimum Effort](https://leetcode.com/problems/path-with-minimum-effort/)|[src/q_1601_1650/q1631.cc](../src/q_1601_1650/q1631.cc)|2022/04/28 18:28|
 |1636|[Sort Array by Increasing Frequency](https://leetcode.com/problems/sort-array-by-increasing-frequency/)|[src/q_1601_1650/q1636.cc](../src/q_1601_1650/q1636.cc)|2023/03/24 11:38|
+|1639|[Number of Ways to Form a Target String Given a Dictionary](https://leetcode.com/problems/number-of-ways-to-form-a-target-string-given-a-dictionary/)|[src/q_1601_1650/q1639.cc](../src/q_1601_1650/q1639.cc)|2023/04/16 15:34|
 |1641|[Count Sorted Vowel Strings](https://leetcode.com/problems/count-sorted-vowel-strings/)|[src/q_1601_1650/q1641.cc](../src/q_1601_1650/q1641.cc)|2022/05/11 11:15|
 |1642|[Furthest Building You Can Reach](https://leetcode.com/problems/furthest-building-you-can-reach/)|[src/q_1601_1650/q1642.cc](../src/q_1601_1650/q1642.cc)|2022/06/21 22:12|
 |1646|[Get Maximum in Generated Array](https://leetcode.com/problems/get-maximum-in-generated-array/)|[src/q_1601_1650/q1646.cc](../src/q_1601_1650/q1646.cc)|2023/04/03 15:36|
