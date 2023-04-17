@@ -1,6 +1,6 @@
 # Solved Solutions List
 
-This document contains **955** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
+This document contains **956** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
 
 Some questions which are still being resolved are not shown in this page, more information about unsolved questions can be found at [docs/unsolved_solutions.md](./unsolved_solutions.md).
 
@@ -691,6 +691,7 @@ Some questions which are still being resolved are not shown in this page, more i
 |1413|[Minimum Value to Get Positive Step by Step Sum](https://leetcode.com/problems/minimum-value-to-get-positive-step-by-step-sum/)|[src/q_1401_1450/q1413.cc](../src/q_1401_1450/q1413.cc)|2021/11/11 21:28|
 |1419|[Minimum Number of Frogs Croaking](https://leetcode.com/problems/minimum-number-of-frogs-croaking/)|[src/q_1401_1450/q1419.cc](../src/q_1401_1450/q1419.cc)|2022/02/10 18:03|
 |1423|[Maximum Points You Can Obtain from Cards](https://leetcode.com/problems/maximum-points-you-can-obtain-from-cards/)|[src/q_1401_1450/q1423.cc](../src/q_1401_1450/q1423.cc)|2022/06/26 14:36|
+|1431|[Kids With the Greatest Number of Candies](https://leetcode.com/problems/kids-with-the-greatest-number-of-candies/)|[src/q_1401_1450/q1431.cc](../src/q_1401_1450/q1431.cc)|2023/04/17 19:54|
 |1437|[Check If All 1's Are at Least Length K Places Away](https://leetcode.com/problems/check-if-all-1s-are-at-least-length-k-places-away/)|[src/q_1401_1450/q1437.cc](../src/q_1401_1450/q1437.cc)|2022/05/24 14:03|
 |1443|[Minimum Time to Collect All Apples in a Tree](https://leetcode.com/problems/minimum-time-to-collect-all-apples-in-a-tree/)|[src/q_1401_1450/q1443.cc](../src/q_1401_1450/q1443.cc)|2023/01/11 18:59|
 |1444|[Number of Ways of Cutting a Pizza](https://leetcode.com/problems/number-of-ways-of-cutting-a-pizza/)|[src/q_1401_1450/q1444.cc](../src/q_1401_1450/q1444.cc)|2023/03/31 15:02|
