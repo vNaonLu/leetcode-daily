@@ -946,3 +946,12 @@ timestamp,id,tc,sc,notes
 1680919278,2465,n * log(n),n,n = |nums.size()|
 1681024719,1857,-,-,not calculated
 1681087935,1854,-,-,not calculated
+1681179503,2390,n,1,n = |s.size()|
+1681221959,1869,n,1,n = |s.size()|
+1681234075,1880,n + m + k,1,"n = |firstWord.size()|, m = |secondWord.size()|, k = |targetWord.size()|"
+1681296997,2124,n,1,n = |s.size()|
+1681383096,2062,n,1,n = |word.size()|
+1681454454,2283,n,n,n = |num.size()|
+1681534474,2218,n^2,n * k,n = |piles.size()|
+1681630460,1639,(n + m) * E,m * E,"n = |words.size()|, E = |words[i].size()|, m = |target.size()|"
+1681732488,1431,n,1,n = |candies.size()|

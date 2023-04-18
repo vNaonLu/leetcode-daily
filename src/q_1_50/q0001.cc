@@ -33,7 +33,7 @@ LEETCODE_BEGIN_RESOLVING(1, TwoSum, Solution);
 class Solution {
 public:
   vector<int> twoSum(vector<int> &nums, int target) {
-    auto memo = unordered_map<int, int>();
+    unordered_map<int, int> memo;
     for (int i = 0; i < nums.size(); ++i) {
       auto find = memo.find(target - nums[i]);
       if (find != memo.end()) {

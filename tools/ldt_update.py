@@ -12,7 +12,7 @@ import dcli
 
 
 __CACHED_QUESTIONS_LIST: QuestionsList = None
-__CACHED_SOLUTIONS_LIST: dict[SolutionFile] = None
+__CACHED_SOLUTIONS_LIST: dict[int, SolutionFile] = None
 __CACHED_RESOLVED_LOGS: ResolveLogsFile = None
 __QUESITONS_LIST_PATH: Path = None
 __SOLUTIONS_LIST_PATH: Path = None
@@ -119,11 +119,16 @@ def getCommand(parent=None):
                  metavar="[Docs_path]", help="specify the directory to save created documents."),
         dcli.arg("--readme", dest="readme_path", default=str(README_ABSOLUTE), action="store",
                  metavar="[Docs_path]", help="specify the file to save readme."),
+        dcli.arg("--no-readme", dest="no_readme", default=False, action="store_true",
+                 help="identifier to disable updating readme."),
+        dcli.arg("--no-ref", dest="no_ref", default=False, action="store_true",
+                 help="identifier to disable updating references."),
+        dcli.arg("--no-list", dest="no_list", default=False, action="store_true",
+                 help="identifier to disable updating question list."),
         dcli.arg("-v", "--verbose", dest="verbose", default=False, action="store_true",
                  help="enable verbose logging."),
         parent=parent,
         formatter_class=RawTextHelpFormatter,
-        need_sub=False,
         skippable=True,
         help=fixedWidth(
             f"update the project documents and diagrams.",
@@ -139,15 +144,22 @@ def getCommand(parent=None):
     def ldtUpdate(args: object):
         LOG = prompt.Log.getInstance(verbose=getattr(args, "verbose"))
         ARG_SRC_PATH = Path(getattr(args, "src_path")).resolve()
-        ARG_QUESTIONS_LIST = Path(
-            getattr(args, "questions_list_file")).resolve()
+        ARG_QUESTIONS_LIST = Path(getattr(args, "questions_list_file")).resolve()
         ARG_RESOLVE_LOGS = Path(getattr(args, "questions_log_file")).resolve()
         ARG_ASSETS_PATH = Path(getattr(args, "assets_path")).resolve()
         ARG_DOCS_PATH = Path(getattr(args, "docs_path")).resolve()
         ARG_README = Path(getattr(args, "readme_path")).resolve()
+        ARG_NO_README = getattr(args, "no_readme")
+        ARG_NO_REFS = getattr(args, "no_ref")
+        ARG_NO_LIST = getattr(args, "no_list")
+
         if not checkPath(ARG_ASSETS_PATH) or not checkPath(ARG_DOCS_PATH) or not checkPath(ARG_SRC_PATH):
             return 1
         if not checkFile(ARG_RESOLVE_LOGS) or not checkFile(ARG_README):
+            return 1
+
+        if ARG_NO_README and ARG_NO_REFS and ARG_NO_LIST:
+            LOG.failure("ldt update cannot run with all |--no-readme|, |--no-ref|, |--no-list| enabled.")
             return 1
 
         solutions = __getSolutionsList(ARG_SRC_PATH)
@@ -172,154 +184,23 @@ def getCommand(parent=None):
                 LOG.format(len(resolve_logs), flag=LOG.HIGHTLIGHT),
                 LOG.format(ARG_RESOLVE_LOGS, flag=LOG.HIGHTLIGHT))
 
-        if not updateQuestionsListImpl(list_path=ARG_QUESTIONS_LIST,
-                                       questions_list=questions_list):
+        if not ARG_NO_LIST and not updateQuestionsListImpl(list_path=ARG_QUESTIONS_LIST,
+                                                           questions_list=questions_list):
             return 1
 
-        if not updateResolveReferenceImpl(questions_list=questions_list,
-                                          resolve_logs=resolve_logs,
-                                          docs_path=ARG_DOCS_PATH,
-                                          assets_path=ARG_ASSETS_PATH,
-                                          src_path=ARG_SRC_PATH):
+        if not ARG_NO_REFS and not updateResolveReferenceImpl(questions_list=questions_list,
+                                                              resolve_logs=resolve_logs,
+                                                              docs_path=ARG_DOCS_PATH,
+                                                              assets_path=ARG_ASSETS_PATH,
+                                                              src_path=ARG_SRC_PATH):
             return 1
 
-        if not updateReadmeDocument(resolve_logs=resolve_logs,
-                                    assets_path=ARG_ASSETS_PATH,
-                                    docs_path=ARG_DOCS_PATH,
-                                    readme_path=ARG_README):
+        if not ARG_NO_README and not updateReadmeDocument(resolve_logs=resolve_logs,
+                                                          assets_path=ARG_ASSETS_PATH,
+                                                          docs_path=ARG_DOCS_PATH,
+                                                          readme_path=ARG_README):
             return 1
         return 0
-
-    @dcli.command(
-        "readme",
-        dcli.arg("--list", dest="questions_list_file", default=str(QUESTIONS_LIST_ABSOLUTE), action="store",
-                 nargs=1, metavar="[Ques_List]", help="specify the questions list in CSV format."),
-        dcli.arg("--resolve", dest="questions_log_file", default=str(QUESTIONS_LOG_ABSOLUTE), action="store",
-                 nargs=1, metavar="[Solve_Log]", help="specify the resolve log in CSV format."),
-        dcli.arg("--assets", dest="assets_path", default=str(ASSETS_ABSOLUTE), action="store",
-                 nargs=1, metavar="[Assets_path]", help="specify the directory to load resolve status."),
-        dcli.arg("--docs", dest="docs_path", default=str(DOCS_ABSOLUTE), action="store",
-                 nargs=1, metavar="[Docs_path]", help="specify the directory to load documents."),
-        dcli.arg("readme_path", metavar="Target", nargs="?", default=[str(README_ABSOLUTE)],
-                 type=str, help="target file to update."),
-        dcli.arg("-v", "--verbose", dest="verbose", default=False, action="store_true",
-                 help="enable verbose logging."),
-        formatter_class=RawTextHelpFormatter,
-        parent=ldtUpdate,
-        help=fixedWidth("update the readme document.", width=60),
-        description=fixedWidth('Update the readme document.')
-    )
-    def updateReadme(args: object):
-        LOG = prompt.Log.getInstance(verbose=getattr(args, "verbose"))
-        ARG_QUESTIONS_LIST = Path(
-            getattr(args, "questions_list_file")).resolve()
-        ARG_RESOLVE_LOGS = Path(getattr(args, "questions_log_file")).resolve()
-        ARG_ASSETS_PATH = Path(getattr(args, "assets_path")).resolve()
-        ARG_DOCS_PATH = Path(getattr(args, "docs_path")).resolve()
-        ARG_README = Path(getattr(args, "readme_path")[0]).resolve()
-        if not checkPath(ARG_ASSETS_PATH) or not checkPath(ARG_DOCS_PATH):
-            return 1
-        if not checkFile(ARG_QUESTIONS_LIST) or not checkFile(ARG_RESOLVE_LOGS):
-            return 1
-
-        resolve_logs = __getResolvedLogsList(ARG_RESOLVE_LOGS)
-        LOG.log("loaded {} resolved logs from: {}",
-                LOG.format(len(resolve_logs), flag=LOG.HIGHTLIGHT),
-                LOG.format(ARG_RESOLVE_LOGS, flag=LOG.HIGHTLIGHT))
-
-        return 0 if updateReadmeDocument(resolve_logs=resolve_logs,
-                                         assets_path=ARG_ASSETS_PATH,
-                                         docs_path=ARG_DOCS_PATH,
-                                         readme_path=ARG_README
-                                         ) else 1
-
-    @dcli.command(
-        "list",
-        dcli.arg("--src", dest="src_path", default=str(SRC_ABSOLUTE), action="store",
-                 metavar="[Source_Root]", help="specify the source root."),
-        dcli.arg("questions_list", metavar="Target", nargs="?", default=[str(QUESTIONS_LIST_ABSOLUTE)],
-                 type=str, help="target file to update."),
-        dcli.arg("-v", "--verbose", dest="verbose", default=False, action="store_true",
-                 help="enable verbose logging."),
-        formatter_class=RawTextHelpFormatter,
-        parent=ldtUpdate,
-        help=fixedWidth("request and update the questions list.", width=60),
-        description=fixedWidth(
-            'Request and update the questions list. '
-            'Generate the questions list if the specified destination not found or is invalid.'
-        )
-    )
-    def updateQuestionsList(args: object):
-        LOG = prompt.Log.getInstance(verbose=getattr(args, "verbose"))
-        ARG_SRC_PATH = Path(getattr(args, "src_path")).resolve()
-        ARG_QUESTIONS_LIST = Path(getattr(args, "questions_list")[0]).resolve()
-        if not checkPath(ARG_SRC_PATH):
-            return 1
-
-        questions_list: QuestionsList = None
-
-        if not ARG_QUESTIONS_LIST.exists():
-            LOG.log("the questions list not found: {}", ARG_QUESTIONS_LIST)
-            LOG.log("new questions list file will be created.")
-            questions_list = QuestionsList()
-        else:
-            questions_list = __getQuestionsList(ARG_QUESTIONS_LIST)
-            if not questions_list:
-                return False
-            LOG.log("loaded questions list from: {}",
-                    LOG.format(ARG_QUESTIONS_LIST, flag=LOG.HIGHTLIGHT))
-
-        return 0 if updateQuestionsListImpl(questions_list=questions_list,
-                                            list_path=ARG_QUESTIONS_LIST,
-                                            ) else 1
-
-    @dcli.command(
-        "ref",
-        dcli.arg("--src", dest="src_path", default=str(SRC_ABSOLUTE), action="store",
-                 metavar="[Source_Root]", help="specify the source root."),
-        dcli.arg("--list", dest="questions_list_file", default=str(QUESTIONS_LIST_ABSOLUTE), action="store",
-                 nargs=1, metavar="[Ques_List]", help="specify the questions list in CSV format."),
-        dcli.arg("--resolve", dest="questions_log_file", default=str(QUESTIONS_LOG_ABSOLUTE), action="store",
-                 nargs=1, metavar="[Solve_Log]", help="specify the resolve log in CSV format."),
-        dcli.arg("--assets", dest="assets_path", default=str(ASSETS_ABSOLUTE), action="store",
-                 nargs=1, metavar="[Assets_path]", help="specify the directory to save created assets."),
-        dcli.arg("--docs", dest="docs_path", default=str(DOCS_ABSOLUTE), action="store",
-                 nargs=1, metavar="[Docs_path]", help="specify the directory to save created documents."),
-        dcli.arg("-v", "--verbose", dest="verbose", default=False, action="store_true",
-                 help="enable verbose logging."),
-        formatter_class=RawTextHelpFormatter,
-        parent=ldtUpdate,
-        help=fixedWidth(
-            "update the resolve diagrams and documents.", width=60),
-        description=fixedWidth('Update the resolve diagrams and documents.')
-    )
-    def updateResolveReference(args: object):
-        LOG = prompt.Log.getInstance(verbose=getattr(args, "verbose"))
-        ARG_SRC_PATH = Path(getattr(args, "src_path")).resolve()
-        ARG_QUESTIONS_LIST_PATH = Path(
-            getattr(args, "questions_list_file")).resolve()
-        ARG_RESOLVE_LOGS_PATH = Path(
-            getattr(args, "questions_log_file")).resolve()
-        ARG_ASSETS_PATH = Path(getattr(args, "assets_path")).resolve()
-        ARG_DOCS_PATH = Path(getattr(args, "docs_path")).resolve()
-        if not checkFile(ARG_QUESTIONS_LIST_PATH) or not checkFile(ARG_RESOLVE_LOGS_PATH):
-            return 1
-        if not checkPath(ARG_DOCS_PATH) or not checkPath(ARG_ASSETS_PATH) or not checkPath(ARG_SRC_PATH):
-            return 1
-
-        questions_list = __getQuestionsList(ARG_QUESTIONS_LIST_PATH)
-        if not questions_list:
-            return False
-
-        resolve_logs = __getResolvedLogsList(ARG_RESOLVE_LOGS_PATH)
-        LOG.log("loaded {} resolved logs from: {}",
-                LOG.format(len(resolve_logs), flag=LOG.HIGHTLIGHT),
-                LOG.format(ARG_RESOLVE_LOGS_PATH, flag=LOG.HIGHTLIGHT))
-        return 0 if updateResolveReferenceImpl(questions_list=questions_list,
-                                               resolve_logs=resolve_logs,
-                                               docs_path=ARG_DOCS_PATH,
-                                               assets_path=ARG_ASSETS_PATH,
-                                               src_path=ARG_SRC_PATH) else 1
 
     return ldtUpdate
 

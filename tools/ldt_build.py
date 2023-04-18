@@ -28,6 +28,8 @@ def getCommand(parent=None):
                  metavar="[Build_Args]", type=str, help="specify arguments to build project. Default: '-j8'"),
         dcli.arg("--run", dest="run_ids", default=None, action="store", nargs="*",
                  metavar="[Ids]", type=int, help="run the tests with identifiers after build."),
+        dcli.arg("--run-infra", dest="run_infra", default=False, action="store_true",
+                 help="identifier to run infrastructure test. cannot not run with |--run| at the same time."),
         dcli.arg("-v", "--verbose", dest="verbose", default=False, action="store_true",
                  help="enable verbose logging."),
         parent=parent,
@@ -45,36 +47,47 @@ def getCommand(parent=None):
         ARG_SRC_PATH = Path(getattr(args, "src_path")).resolve()
         ARG_BUILD_PATH = Path(getattr(args, "build_path")).resolve()
         ARG_BUILD_ARGS = str(getattr(args, "build_args"))
-        ARG_BUILD_FLAG = "Release" if getattr(
-            args, "release_mode") else "Debug"
-        ARG_COMPILE_COMMAND_FLAG = "ON" if getattr(
-            args, "compile_command") else "OFF"
-        ARG_LEETCODE_TEST_FLAG = "OFF" if getattr(
-            args, "disable_leetcode_test") else "ON"
-        ARG_INFRA_TEST_FLAG = "OFF" if getattr(
-            args, "disable_infra_test") else "ON"
+        ARG_BUILD_FLAG = "Release" if getattr(args, "release_mode") else "Debug"
+        ARG_COMPILE_COMMAND_FLAG = "ON" if getattr(args, "compile_command") else "OFF"
+        ARG_LEETCODE_TEST_FLAG = "OFF" if getattr(args, "disable_leetcode_test") else "ON"
+        ARG_INFRA_TEST_FLAG = "OFF" if getattr(args, "disable_infra_test") else "ON"
         ARG_RUN_IDS = getattr(args, "run_ids")
+        ARG_RUN_INFRA = getattr(args, "run_infra")
 
-        result = ldtGenImpl(src_path=ARG_SRC_PATH,
-                            build_path=ARG_BUILD_PATH,
-                            build_flag=ARG_BUILD_FLAG,
-                            compile_commands_flag=ARG_COMPILE_COMMAND_FLAG,
-                            leetcode_test_flag=ARG_LEETCODE_TEST_FLAG,
-                            infra_test_flag=ARG_INFRA_TEST_FLAG)
+        if ARG_RUN_INFRA and ARG_RUN_IDS != None:
+            LOG.failure("ldt build cannot run with |--run| and |--run-infra| enabled at the same time.")
+            return 1
 
-        if result != 0:
-            LOG.failure("failed to generate build files, skipped the build.")
+        if ARG_RUN_INFRA and ARG_INFRA_TEST_FLAG == "OFF":
+            LOG.failure("when ldt build run with |--run-infra| enabled, |--disable-infra-test| must be disabled.")
+            return 1
+
+        if ARG_RUN_IDS != None and ARG_LEETCODE_TEST_FLAG == "OFF":
+            LOG.failure("when ldt build run with |--run| enabled, |--disable-leetcode-test| must be disabled.")
+            return 1
+
+        if result := ldtGenImpl(src_path=ARG_SRC_PATH,
+                                build_path=ARG_BUILD_PATH,
+                                build_flag=ARG_BUILD_FLAG,
+                                compile_commands_flag=ARG_COMPILE_COMMAND_FLAG,
+                                leetcode_test_flag=ARG_LEETCODE_TEST_FLAG,
+                                infra_test_flag=ARG_INFRA_TEST_FLAG) != 0:
             return result
 
-        result = ldtBuildImpl(build_path=ARG_BUILD_PATH,
-                              build_args=ARG_BUILD_ARGS)
-
-        if result != 0 or ARG_RUN_IDS is None:
+        if result := ldtBuildImpl(build_path=ARG_BUILD_PATH,
+                                  build_args=ARG_BUILD_ARGS) != 0:
             return result
 
-        return ldtRunImpl(build_path=ARG_BUILD_PATH,
-                          infra_test=False,
-                          ids=ARG_RUN_IDS)
+        if ARG_RUN_IDS != None:
+            return ldtRunImpl(build_path=ARG_BUILD_PATH,
+                              infra_test=False,
+                              ids=ARG_RUN_IDS)
+
+        elif ARG_RUN_INFRA:
+            return ldtRunImpl(build_path=ARG_BUILD_PATH,
+                              infra_test=True)
+
+        return 0
 
     return ldtBuild
 

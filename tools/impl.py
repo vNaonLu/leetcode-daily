@@ -1,7 +1,9 @@
 #!/usr/bin/env python3
 import sys
 import shutil
+import json
 from platform import system
+from enum import Enum
 # prevent generating __pycache__
 sys.dont_write_bytecode = True
 
@@ -10,6 +12,8 @@ from logs import *
 from refs import *
 from filesystem import *
 from questions import *
+from cpp_solution import CPPSolution
+import session
 import net
 
 
@@ -226,49 +230,6 @@ def updateReadmeDocument(*, resolve_logs: ResolveLogsList, assets_path: Path, do
     return True
 
 
-def ldtCatImpl(*, id: int, src_path: Path):
-    LOG = prompt.Log.getInstance()
-    ARG_ID = id
-    ARG_SRC_PATH = src_path
-
-    LOG.log("collecting the details for the solution of question #{}.",
-            LOG.format(ARG_ID, flag=LOG.HIGHTLIGHT))
-    qf = SolutionFile(ARG_ID, ARG_SRC_PATH)
-
-    LOG.verbose("cat LeetCode solution...")
-    LOG.verbose("[source detail beg]")
-    LOG.verbose(" - id     : {}", qf.id())
-    LOG.verbose(" - target : {}", qf)
-    LOG.verbose("[source detail end]")
-    LOG.verbose("checking whether the solution exists: {}", qf)
-
-    if not qf.exists():
-
-        LOG.failure("questions #{} is not resolved yet.",
-                    LOG.format(ARG_ID, flag=LOG.HIGHTLIGHT))
-        return 1
-
-    LOG.verbose("target found and trying to get solution snippet.")
-
-    with qf.open('r') as f:
-
-        LOG.verbose("solution file opened.")
-
-        code_buf = f.read()
-        snippet = parseSolution(code_buf)
-
-        if not snippet:
-            LOG.failure("failed to parse the solution from file: {}", qf)
-            return 1
-
-        solution = clangFormat(snippet)
-        LOG.success("the solution for question #{} found:",
-                    LOG.format(ARG_ID, flag=LOG.HIGHTLIGHT))
-        LOG.print(solution, flag=LOG.DARK_GREEN)
-
-    return 0
-
-
 def ldtGenImpl(*, src_path: Path, build_path: Path, build_flag: str, compile_commands_flag: str, leetcode_test_flag: str, infra_test_flag: str):
     LOG = prompt.Log.getInstance()
     ARG_SRC_PATH = src_path
@@ -299,21 +260,22 @@ def ldtGenImpl(*, src_path: Path, build_path: Path, build_flag: str, compile_com
         f"-DENABLE_INFRA_TEST={ARG_INFRA_TEST_FLAG}",
     ]
 
-    LOG.log("generate CMake build files with flag: {}", LOG.format(
+    LOG.funcVerbose("generate CMake build files with flag: {}", LOG.format(
         f"-DCMAKE_BUILD_TYPE={ARG_BUILD_FLAG}", flag=LOG.HIGHTLIGHT))
+
     if ARG_COMPILE_COMMAND_FLAG == "ON":
-        LOG.log("generate CMake build files with flag: {}", LOG.format(
+        LOG.funcVerbose("generate CMake build files with flag: {}", LOG.format(
             f"-DCMAKE_EXPORT_COMPILE_COMMANDS={ARG_COMPILE_COMMAND_FLAG}", flag=LOG.HIGHTLIGHT))
 
     if ARG_LEETCODE_TEST_FLAG == "ON":
-        LOG.log("generate CMake build files with flag: {}", LOG.format(
+        LOG.funcVerbose("generate CMake build files with flag: {}", LOG.format(
             f"-DENABLE_LEETCODE_TEST={ARG_LEETCODE_TEST_FLAG}", flag=LOG.HIGHTLIGHT))
 
     if ARG_INFRA_TEST_FLAG == "ON":
-        LOG.log("generate CMake build files with flag: {}", LOG.format(
+        LOG.funcVerbose("generate CMake build files with flag: {}", LOG.format(
             f"-DENABLE_INFRA_TEST={ARG_INFRA_TEST_FLAG}", flag=LOG.HIGHTLIGHT))
 
-    TASK = LOG.createTaskLog("Generate Build Files")
+    TASK = LOG.createTaskLog("Generate {} Build Files".format(ARG_BUILD_FLAG))
 
     def stdoutCallback(out: str):
         TASK.log(parseCMakeGenarateLog(out))
@@ -541,3 +503,215 @@ def ldtRemoveImpl(*, src_path: Path, resolve_logs: ResolveLogsFile, ids: list[in
         LOG.success("the resolve log has been saved: {}",
                     LOG.format(resolve_logs, flag=LOG.HIGHTLIGHT))
     return 0
+
+
+def requestAndGetCPPSolution(*, questions_details: QuestionDetails,
+                             solution_file: SolutionFile):
+    LOG = prompt.Log.getInstance()
+    ID = questions_details.id
+
+    raw_content: object = None
+    slug = questions_details.slug
+    try_cnt = 0
+    while True:
+        LOG.funcVerbose("trying to get the information for problem #{}.", ID)
+        state, resp = net.requestQuestionInformation(slug)
+
+        if state == net.REQUEST_OK and \
+                isinstance(resp, net.requests.Response) and resp.status_code == 200:
+
+            LOG.funcVerbose("trying to parse the response content.")
+            raw_content = json.loads(
+                resp.content.decode('utf-8'))['data']['question']
+            LOG.funcVerbose("got and parsed the questions list from LeetCode.")
+            break
+        else:
+            PMT = prompt.Prompt.getInstance()
+            if not PMT.ask("failed to get questions list, try again{}?",
+                           "" if try_cnt == 0 else f" ({try_cnt})"):
+                LOG.log("skipped getting questions list.")
+                break
+        try_cnt += 1
+
+    LOG.funcVerbose("generate the code template")
+    try:
+        cpp_solution = CPPSolution(raw_content)
+    except Exception as _:
+        LOG.failure("caught exception when generating the C++ template.")
+        return None
+
+    if not solution_file.parent.exists():
+        solution_file.parent.mkdir(exist_ok=True)
+        LOG.log("generated the directory: {}", 
+                LOG.format(solution_file.parent, LOG.HIGHTLIGHT))
+
+    if not solution_file.exists():
+        gen_task = LOG.createTaskLog(f"Generate Template for Solution #{ID}")
+        gen_task.begin("generating the solution template: {}",
+                       LOG.format(slug, flag=LOG.HIGHTLIGHT))
+        content = cpp_solution.solutionTemplate()
+        gen_task.done("generated the solution template: {}",
+                      LOG.format(slug, flag=LOG.HIGHTLIGHT), is_success=True)
+
+        solution_file.write_text(clangFormat(content))
+        LOG.success("saved the solution file for question #{}: {}",
+                    LOG.format(ID, flag=LOG.HIGHTLIGHT),
+                    LOG.format(solution_file, flag=LOG.HIGHTLIGHT))
+
+    return cpp_solution
+
+
+class SubmitResult(Enum):
+    Passed = 0
+    Failed = 1
+    UnsolvdProblem = 2
+
+
+def submitSolution(*, solution_file: SolutionFile,
+                   leetcode_session: session.LeetCodeSession,
+                   detail: QuestionDetails,
+                   cpp_solution: CPPSolution) -> SubmitResult:
+    result = SubmitResult.Failed
+    LOG = prompt.Log.getInstance()
+    TASK = LOG.createTaskLog("Submit to LeetCode")
+    TASK.begin("connecting to LeetCode...")
+
+    answer = clangFormat(parseSolution(solution_file.read_text()))
+
+    submission = leetcode_session.submitSolution(backend_id=detail.backend_id,
+                                                 slug=detail.slug,
+                                                 content=answer,
+                                                 TASK=TASK)
+
+    if not submission:
+        Result = session.Submission.Result
+        result = SubmitResult.Failed
+
+        if submission.result == Result.WRONG_ANSWER:
+            TASK.done("testcase not accepted due to Wrong Answer: {}", LOG.format(
+                repr(submission.last_input) + "\n" + repr(submission.expect_output),
+                flag=LOG.HIGHTLIGHT), is_success=False)
+        elif submission.result == Result.RUNTIME_ERROR:
+            TASK.done("testcase not accepted due to Runtime Error: {}", LOG.format(
+                submission.error_msg, flag=LOG.HIGHTLIGHT), is_success=False)
+        elif submission.result == Result.TLE_ERROR:
+            TASK.done("testcase not accepted due to Time Limit Exceed: {}", LOG.format(
+                submission.error_msg, flag=LOG.HIGHTLIGHT), is_success=False)
+            cpp_solution.setUnittestTimeout(submission.elapse_time)
+        else:
+            TASK.done("testcase not accepted due to {}", LOG.format(
+                submission.result, flag=LOG.HIGHTLIGHT), is_success=False)
+            result = SubmitResult.UnsolvdProblem
+            return result
+
+        if submission.last_input != "" and submission.expect_output != "":
+            gen_task = LOG.createTaskLog("Generate Unittest")
+            gen_task.begin("generating testcase...")
+            extra_input_idx = getCurrentUnittestExtraIndex(solution_file.read_text()) + 1
+            unittest, suite_name = cpp_solution.getUnitTestFromSubmissionResult(
+                name=f'Extra Testcase #{extra_input_idx}',
+                suite_name=getExtraUnittestSuite(extra_input_idx),
+                input=submission.last_input,
+                output=submission.expect_output)
+            gen_task.log("writing to solution file...")
+            content = solution_file.read_text() + f'\n{unittest}'
+            solution_file.write_text(clangFormat(content))
+            gen_task.done("added an extra testcase for solution: {}",
+                            LOG.format(suite_name, flag=LOG.HIGHTLIGHT), is_success=True)
+
+    else:
+        TASK.done("accepted by LeetCode", is_success=True)
+        LOG.log("the solution was accepted by LeetCode which beats {} in runtime and {} in memory usage.",
+                LOG.format("{:3.2f}%", submission.runtime_percent, flag=LOG.HIGHTLIGHT),
+                LOG.format("{:3.2f}%", submission.memory_percent, flag=LOG.HIGHTLIGHT))
+
+        result = SubmitResult.Passed
+
+    return result
+
+
+def solveProblem(*, build_path: Path,
+                 solution_file: SolutionFile,
+                 detail: QuestionDetails,
+                 cpp_solution: CPPSolution,
+                 leetcode_session: session.LeetCodeSession) -> bool:
+
+    PMT = prompt.Prompt.getInstance()
+    LOG = prompt.Log.getInstance()
+
+    if ldtGenImpl(src_path=PROJECT_ROOT,
+               build_path=build_path,
+               build_flag="Debug",
+               compile_commands_flag="ON",
+               leetcode_test_flag="ON",
+               infra_test_flag="ON") != 0:
+        LOG.failure("failed to generate build files for project.")
+        return False
+
+    while True:
+        manual_submit = leetcode_session == None
+
+        LOG.funcVerbose("open editor to solve problem #{}.", detail.id)
+        openEditor(solution_file, line=getSolutionLine(solution_file.read_text()))
+
+        LOG.funcVerbose("format the solution #{}.", detail.id)
+        solution_file.write_text(clangFormat(solution_file.read_text()))
+
+        if ldtBuildImpl(build_path=build_path,
+                        build_args="-j8") != 0:
+            if PMT.ask("failed to build the solution, continue to solve?"):
+                continue
+            else:
+                return False
+
+        if ldtRunImpl(build_path=build_path,
+                      infra_test=False,
+                      ids=[detail.id]) != 0:
+            if PMT.ask("failed to pass the testcase(s), continue to solve?"):
+                continue
+            else:
+                return False
+
+        if not manual_submit:
+            submit_result = submitSolution(solution_file=solution_file,
+                                           leetcode_session=leetcode_session,
+                                           detail=detail,
+                                           cpp_solution=cpp_solution)
+
+            if submit_result == SubmitResult.Passed and \
+                PMT.ask("mark the problem #{} as done?",
+                        LOG.format(detail.id, flag=LOG.HIGHTLIGHT)):
+                return True
+            elif submit_result == SubmitResult.UnsolvdProblem:
+                LOG.failure("unable to parse result of submission.")
+                if PMT.ask("switch to manual sumission mode?"):
+                    LOG.log("switched to manual sumission mode.")
+                    manual_submit = True
+
+        if manual_submit:
+            LOG.log("try submitting to LeetCode to see whether the solution is correct:")
+            LOG.print(parseSolution(solution_file.read_text()),
+                      flag=LOG.DARK_GREEN)
+
+            if PMT.ask("was solution accepted by LeetCode?"):
+                if PMT.ask("mark the problem #{} as done?",
+                           LOG.format(detail.id, flag=LOG.HIGHTLIGHT)):
+                    return True
+
+            elif PMT.ask("add an extra testcase for solution?"):
+                extra_input = inputByEditor(cpp_solution.genExtraInputPrompt(id=detail.id,
+                                                                             title=detail.title))
+                input, expect = cpp_solution.parseExtraInput(extra_input)
+                if input and expect:
+                    extra_input_idx = getCurrentUnittestExtraIndex(solution_file.read_text()) + 1
+                    unittest, suite_name = cpp_solution.getUnitTest(
+                        name=f'Extra Testcase #{extra_input_idx}',
+                        suite_name=getExtraUnittestSuite(extra_input_idx),
+                        input=input, output=expect)
+                    content = solution_file.read_text() + f'\n{unittest}'
+                    solution_file.write_text(clangFormat(content))
+                    LOG.success("added an extra testcase for solution: {}",
+                                LOG.format(suite_name, flag=LOG.HIGHTLIGHT))
+
+        if not PMT.ask("continue to solve the problem #{} ?", LOG.format(detail.id, flag=LOG.HIGHTLIGHT)):
+            return False

@@ -33,6 +33,16 @@ class ResolveLog:
                 "notes": self.notes}
 
 
+def getCommitMessageFromResolveLog(log: ResolveLog, prefix: str):
+    commit_msg = f"{prefix} q{log.id}"
+    if log.tc != "-" and log.sc != "-":
+        commit_msg += f" with TC O({log.tc}) and SC O({log.sc})"
+        if log.notes != "":
+            commit_msg += f", where {log.notes}"
+    commit_msg += "."
+    return commit_msg
+
+
 class _MonthlyResolvedLogLists:
     def __init__(self, day_cnt: int) -> None:
         self._logs: dict[int, list[ResolveLog]] = {}
@@ -120,6 +130,7 @@ class ResolveLogsList:
     def __init__(self, path: Path) -> None:
         self._path = Path(path)
         self._logs: dict[int, _YearlyResolvedLogList] = {}
+        self._map_to_log: dict[int, ResolveLog] = {}
         assert self._path.exists() and self._path.is_file()
 
         LOG = prompt.Log.getInstance()
@@ -131,6 +142,7 @@ class ResolveLogsList:
                     LOG.funcVerbose("create yearly resolved logs for year {}", log.year)
                     self._logs[log.year] = _YearlyResolvedLogList(log.year)
                 self._logs[log.year][log.month][log.day].append(log)
+                self._map_to_log[log.id] = log
 
     def data(self):
         res: list[ResolveLog] = []
@@ -141,6 +153,7 @@ class ResolveLogsList:
         return res
 
     def addLog(self, resolve_log: ResolveLog):
+        assert resolve_log.id not in self
         LOG = prompt.Log.getInstance()
         if resolve_log.year not in self._logs:
             LOG.funcVerbose("create yearly resolved logs for year {}", resolve_log.year)
@@ -168,3 +181,11 @@ class ResolveLogsList:
 
     def __len__(self):
         return sum(len(self._logs[y]) for y in self._logs)
+
+    def __contains__(self, id: int):
+        return id in self._map_to_log
+
+    def getLogById(self, id: int):
+        if id not in self:
+            raise IndexError
+        return self._map_to_log[id]
