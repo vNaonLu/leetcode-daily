@@ -1,6 +1,6 @@
 # Unsolved Solutions List
 
-There are **1658** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
+There are **1657** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
 
 The questions which have been solved are not shown in this page, more information about solved questions can be found at [docs/solved_solutions.md](./solved_solutions.md).
 
@@ -387,7 +387,6 @@ The questions which have been solved are not shown in this page, more informatio
 |873|[Length of Longest Fibonacci Subsequence](https://leetcode.com/problems/length-of-longest-fibonacci-subsequence/)|Medium||
 |874|[Walking Robot Simulation](https://leetcode.com/problems/walking-robot-simulation/)|Medium||
 |877|[Stone Game](https://leetcode.com/problems/stone-game/)|Medium||
-|879|[Profitable Schemes](https://leetcode.com/problems/profitable-schemes/)|Hard||
 |880|[Decoded String at Index](https://leetcode.com/problems/decoded-string-at-index/)|Medium||
 |883|[Projection Area of 3D Shapes](https://leetcode.com/problems/projection-area-of-3d-shapes/)|Easy||
 |885|[Spiral Matrix III](https://leetcode.com/problems/spiral-matrix-iii/)|Medium||

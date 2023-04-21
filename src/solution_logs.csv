@@ -958,3 +958,4 @@ timestamp,id,tc,sc,notes
 1681815566,1913,n,1,n = |nums.size()|
 1681877002,1372,n,n,n = nodes count of |root|
 1681988121,2496,n * E,1,"n = |strs.size()|, E = |strs[i].size()|"
+1682046621,879,m * n * k,m * n * k,"m = |group.size()|, k = |minProfit|"
