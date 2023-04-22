@@ -1,6 +1,6 @@
 # Solved Solutions List
 
-This document contains **960** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
+This document contains **961** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
 
 Some questions which are still being resolved are not shown in this page, more information about unsolved questions can be found at [docs/unsolved_solutions.md](./unsolved_solutions.md).
 
@@ -660,6 +660,7 @@ Some questions which are still being resolved are not shown in this page, more i
 |1305|[All Elements in Two Binary Search Trees](https://leetcode.com/problems/all-elements-in-two-binary-search-trees/)|[src/q_1301_1350/q1305.cc](../src/q_1301_1350/q1305.cc)|2022/01/26 18:06|
 |1306|[Jump Game III](https://leetcode.com/problems/jump-game-iii/)|[src/q_1301_1350/q1306.cc](../src/q_1301_1350/q1306.cc)|2021/12/09 17:58|
 |1309|[Decrypt String from Alphabet to Integer Mapping](https://leetcode.com/problems/decrypt-string-from-alphabet-to-integer-mapping/)|[src/q_1301_1350/q1309.cc](../src/q_1301_1350/q1309.cc)|2022/04/22 08:58|
+|1312|[Minimum Insertion Steps to Make a String Palindrome](https://leetcode.com/problems/minimum-insertion-steps-to-make-a-string-palindrome/)|[src/q_1301_1350/q1312.cc](../src/q_1301_1350/q1312.cc)|2023/04/22 13:51|
 |1314|[Matrix Block Sum](https://leetcode.com/problems/matrix-block-sum/)|[src/q_1301_1350/q1314.cc](../src/q_1301_1350/q1314.cc)|2021/10/23 09:56|
 |1319|[Number of Operations to Make Network Connected](https://leetcode.com/problems/number-of-operations-to-make-network-connected/)|[src/q_1301_1350/q1319.cc](../src/q_1301_1350/q1319.cc)|2022/03/17 18:22|
 |1323|[Maximum 69 Number](https://leetcode.com/problems/maximum-69-number/)|[src/q_1301_1350/q1323.cc](../src/q_1301_1350/q1323.cc)|2022/02/17 22:43|

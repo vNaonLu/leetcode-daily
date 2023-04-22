@@ -1,6 +1,6 @@
 # Unsolved Solutions List
 
-There are **1657** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
+There are **1656** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
 
 The questions which have been solved are not shown in this page, more information about solved questions can be found at [docs/solved_solutions.md](./solved_solutions.md).
 
@@ -665,7 +665,6 @@ The questions which have been solved are not shown in this page, more informatio
 |1308|[Running Total for Different Genders](https://leetcode.com/problems/running-total-for-different-genders/)|Medium|🔒|
 |1310|[XOR Queries of a Subarray](https://leetcode.com/problems/xor-queries-of-a-subarray/)|Medium||
 |1311|[Get Watched Videos by Your Friends](https://leetcode.com/problems/get-watched-videos-by-your-friends/)|Medium||
-|1312|[Minimum Insertion Steps to Make a String Palindrome](https://leetcode.com/problems/minimum-insertion-steps-to-make-a-string-palindrome/)|Hard||
 |1313|[Decompress Run-Length Encoded List](https://leetcode.com/problems/decompress-run-length-encoded-list/)|Easy||
 |1315|[Sum of Nodes with Even-Valued Grandparent](https://leetcode.com/problems/sum-of-nodes-with-even-valued-grandparent/)|Medium||
 |1316|[Distinct Echo Substrings](https://leetcode.com/problems/distinct-echo-substrings/)|Hard||
