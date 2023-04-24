@@ -1,6 +1,6 @@
 # Unsolved Solutions List
 
-There are **1661** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
+There are **1654** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
 
 The questions which have been solved are not shown in this page, more information about solved questions can be found at [docs/solved_solutions.md](./solved_solutions.md).
 
@@ -387,7 +387,6 @@ The questions which have been solved are not shown in this page, more informatio
 |873|[Length of Longest Fibonacci Subsequence](https://leetcode.com/problems/length-of-longest-fibonacci-subsequence/)|Medium||
 |874|[Walking Robot Simulation](https://leetcode.com/problems/walking-robot-simulation/)|Medium||
 |877|[Stone Game](https://leetcode.com/problems/stone-game/)|Medium||
-|879|[Profitable Schemes](https://leetcode.com/problems/profitable-schemes/)|Hard||
 |880|[Decoded String at Index](https://leetcode.com/problems/decoded-string-at-index/)|Medium||
 |883|[Projection Area of 3D Shapes](https://leetcode.com/problems/projection-area-of-3d-shapes/)|Easy||
 |885|[Spiral Matrix III](https://leetcode.com/problems/spiral-matrix-iii/)|Medium||
@@ -666,7 +665,6 @@ The questions which have been solved are not shown in this page, more informatio
 |1308|[Running Total for Different Genders](https://leetcode.com/problems/running-total-for-different-genders/)|Medium|🔒|
 |1310|[XOR Queries of a Subarray](https://leetcode.com/problems/xor-queries-of-a-subarray/)|Medium||
 |1311|[Get Watched Videos by Your Friends](https://leetcode.com/problems/get-watched-videos-by-your-friends/)|Medium||
-|1312|[Minimum Insertion Steps to Make a String Palindrome](https://leetcode.com/problems/minimum-insertion-steps-to-make-a-string-palindrome/)|Hard||
 |1313|[Decompress Run-Length Encoded List](https://leetcode.com/problems/decompress-run-length-encoded-list/)|Easy||
 |1315|[Sum of Nodes with Even-Valued Grandparent](https://leetcode.com/problems/sum-of-nodes-with-even-valued-grandparent/)|Medium||
 |1316|[Distinct Echo Substrings](https://leetcode.com/problems/distinct-echo-substrings/)|Hard||
@@ -707,7 +705,6 @@ The questions which have been solved are not shown in this page, more informatio
 |1369|[Get the Second Most Recent Activity](https://leetcode.com/problems/get-the-second-most-recent-activity/)|Hard|🔒|
 |1370|[Increasing Decreasing String](https://leetcode.com/problems/increasing-decreasing-string/)|Easy||
 |1371|[Find the Longest Substring Containing Vowels in Even Counts](https://leetcode.com/problems/find-the-longest-substring-containing-vowels-in-even-counts/)|Medium||
-|1372|[Longest ZigZag Path in a Binary Tree](https://leetcode.com/problems/longest-zigzag-path-in-a-binary-tree/)|Medium||
 |1373|[Maximum Sum BST in Binary Tree](https://leetcode.com/problems/maximum-sum-bst-in-binary-tree/)|Hard||
 |1374|[Generate a String With Characters That Have Odd Counts](https://leetcode.com/problems/generate-a-string-with-characters-that-have-odd-counts/)|Easy||
 |1375|[Number of Times Binary String Is Prefix-Aligned](https://leetcode.com/problems/number-of-times-binary-string-is-prefix-aligned/)|Medium||
@@ -740,7 +737,6 @@ The questions which have been solved are not shown in this page, more informatio
 |1412|[Find the Quiet Students in All Exams](https://leetcode.com/problems/find-the-quiet-students-in-all-exams/)|Hard|🔒|
 |1414|[Find the Minimum Number of Fibonacci Numbers Whose Sum Is K](https://leetcode.com/problems/find-the-minimum-number-of-fibonacci-numbers-whose-sum-is-k/)|Medium||
 |1415|[The k-th Lexicographical String of All Happy Strings of Length n](https://leetcode.com/problems/the-k-th-lexicographical-string-of-all-happy-strings-of-length-n/)|Medium||
-|1416|[Restore The Array](https://leetcode.com/problems/restore-the-array/)|Hard||
 |1417|[Reformat The String](https://leetcode.com/problems/reformat-the-string/)|Easy||
 |1418|[Display Table of Food Orders in a Restaurant](https://leetcode.com/problems/display-table-of-food-orders-in-a-restaurant/)|Medium||
 |1420|[Build Array Where You Can Find The Maximum Exactly K Comparisons](https://leetcode.com/problems/build-array-where-you-can-find-the-maximum-exactly-k-comparisons/)|Hard||
@@ -1089,7 +1085,6 @@ The questions which have been solved are not shown in this page, more informatio
 |1910|[Remove All Occurrences of a Substring](https://leetcode.com/problems/remove-all-occurrences-of-a-substring/)|Medium||
 |1911|[Maximum Alternating Subsequence Sum](https://leetcode.com/problems/maximum-alternating-subsequence-sum/)|Medium||
 |1912|[Design Movie Rental System](https://leetcode.com/problems/design-movie-rental-system/)|Hard||
-|1913|[Maximum Product Difference Between Two Pairs](https://leetcode.com/problems/maximum-product-difference-between-two-pairs/)|Easy||
 |1914|[Cyclically Rotating a Grid](https://leetcode.com/problems/cyclically-rotating-a-grid/)|Medium||
 |1915|[Number of Wonderful Substrings](https://leetcode.com/problems/number-of-wonderful-substrings/)|Medium||
 |1916|[Count Ways to Build Rooms in an Ant Colony](https://leetcode.com/problems/count-ways-to-build-rooms-in-an-ant-colony/)|Hard||
@@ -1260,7 +1255,6 @@ The questions which have been solved are not shown in this page, more informatio
 |2111|[Minimum Operations to Make the Array K-Increasing](https://leetcode.com/problems/minimum-operations-to-make-the-array-k-increasing/)|Hard||
 |2112|[The Airport With the Most Traffic](https://leetcode.com/problems/the-airport-with-the-most-traffic/)|Medium|🔒|
 |2113|[Elements in Array After Removing and Replacing Elements](https://leetcode.com/problems/elements-in-array-after-removing-and-replacing-elements/)|Medium|🔒|
-|2114|[Maximum Number of Words Found in Sentences](https://leetcode.com/problems/maximum-number-of-words-found-in-sentences/)|Easy||
 |2115|[Find All Possible Recipes from Given Supplies](https://leetcode.com/problems/find-all-possible-recipes-from-given-supplies/)|Medium||
 |2116|[Check if a Parentheses String Can Be Valid](https://leetcode.com/problems/check-if-a-parentheses-string-can-be-valid/)|Medium||
 |2117|[Abbreviating the Product of a Range](https://leetcode.com/problems/abbreviating-the-product-of-a-range/)|Hard||
@@ -1554,7 +1548,6 @@ The questions which have been solved are not shown in this page, more informatio
 |2493|[Divide Nodes Into the Maximum Number of Groups](https://leetcode.com/problems/divide-nodes-into-the-maximum-number-of-groups/)|Hard||
 |2494|[Merge Overlapping Events in the Same Hall](https://leetcode.com/problems/merge-overlapping-events-in-the-same-hall/)|Hard|🔒|
 |2495|[Number of Subarrays Having Even Product](https://leetcode.com/problems/number-of-subarrays-having-even-product/)|Medium|🔒|
-|2496|[Maximum Value of a String in an Array](https://leetcode.com/problems/maximum-value-of-a-string-in-an-array/)|Easy||
 |2497|[Maximum Star Sum of a Graph](https://leetcode.com/problems/maximum-star-sum-of-a-graph/)|Medium||
 |2498|[Frog Jump II](https://leetcode.com/problems/frog-jump-ii/)|Medium||
 |2499|[Minimum Total Cost to Make Arrays Unequal](https://leetcode.com/problems/minimum-total-cost-to-make-arrays-unequal/)|Hard||
