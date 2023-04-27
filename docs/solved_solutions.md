@@ -1,6 +1,6 @@
 # Solved Solutions List
 
-This document contains **965** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
+This document contains **966** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
 
 Some questions which are still being resolved are not shown in this page, more information about unsolved questions can be found at [docs/unsolved_solutions.md](./unsolved_solutions.md).
 
@@ -247,6 +247,7 @@ Some questions which are still being resolved are not shown in this page, more i
 |316|[Remove Duplicate Letters](https://leetcode.com/problems/remove-duplicate-letters/)|[src/q_301_350/q0316.cc](../src/q_301_350/q0316.cc)|2022/03/18 18:14|
 |317|[Shortest Distance from All Buildings](https://leetcode.com/problems/shortest-distance-from-all-buildings/)|[src/q_301_350/q0317.cc](../src/q_301_350/q0317.cc)|2022/08/24 18:00|
 |318|[Maximum Product of Word Lengths](https://leetcode.com/problems/maximum-product-of-word-lengths/)|[src/q_301_350/q0318.cc](../src/q_301_350/q0318.cc)|2022/05/29 14:09|
+|319|[Bulb Switcher](https://leetcode.com/problems/bulb-switcher/)|[src/q_301_350/q0319.cc](../src/q_301_350/q0319.cc)|2023/04/27 18:45|
 |322|[Coin Change](https://leetcode.com/problems/coin-change/)|[src/q_301_350/q0322.cc](../src/q_301_350/q0322.cc)|2021/10/06 13:01|
 |326|[Power of Three](https://leetcode.com/problems/power-of-three/)|[src/q_301_350/q0326.cc](../src/q_301_350/q0326.cc)|2022/08/17 18:25|
 |328|[Odd Even Linked List](https://leetcode.com/problems/odd-even-linked-list/)|[src/q_301_350/q0328.cc](../src/q_301_350/q0328.cc)|2021/12/02 13:04|

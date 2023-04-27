@@ -1,6 +1,6 @@
 # Unsolved Solutions List
 
-There are **1652** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
+There are **1651** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
 
 The questions which have been solved are not shown in this page, more information about solved questions can be found at [docs/solved_solutions.md](./solved_solutions.md).
 
@@ -85,7 +85,6 @@ The questions which have been solved are not shown in this page, more informatio
 |311|[Sparse Matrix Multiplication](https://leetcode.com/problems/sparse-matrix-multiplication/)|Medium|🔒|
 |313|[Super Ugly Number](https://leetcode.com/problems/super-ugly-number/)|Medium||
 |314|[Binary Tree Vertical Order Traversal](https://leetcode.com/problems/binary-tree-vertical-order-traversal/)|Medium|🔒|
-|319|[Bulb Switcher](https://leetcode.com/problems/bulb-switcher/)|Medium||
 |320|[Generalized Abbreviation](https://leetcode.com/problems/generalized-abbreviation/)|Medium|🔒|
 |321|[Create Maximum Number](https://leetcode.com/problems/create-maximum-number/)|Hard||
 |323|[Number of Connected Components in an Undirected Graph](https://leetcode.com/problems/number-of-connected-components-in-an-undirected-graph/)|Medium|🔒|
