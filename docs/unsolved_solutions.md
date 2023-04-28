@@ -1,6 +1,6 @@
 # Unsolved Solutions List
 
-There are **1651** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
+There are **1650** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
 
 The questions which have been solved are not shown in this page, more information about solved questions can be found at [docs/solved_solutions.md](./solved_solutions.md).
 
@@ -366,7 +366,6 @@ The questions which have been solved are not shown in this page, more informatio
 |834|[Sum of Distances in Tree](https://leetcode.com/problems/sum-of-distances-in-tree/)|Hard||
 |836|[Rectangle Overlap](https://leetcode.com/problems/rectangle-overlap/)|Easy||
 |837|[New 21 Game](https://leetcode.com/problems/new-21-game/)|Medium||
-|839|[Similar String Groups](https://leetcode.com/problems/similar-string-groups/)|Hard||
 |842|[Split Array into Fibonacci Sequence](https://leetcode.com/problems/split-array-into-fibonacci-sequence/)|Medium||
 |843|[Guess the Word](https://leetcode.com/problems/guess-the-word/)|Hard||
 |845|[Longest Mountain in Array](https://leetcode.com/problems/longest-mountain-in-array/)|Medium||

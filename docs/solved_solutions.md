@@ -1,6 +1,6 @@
 # Solved Solutions List
 
-This document contains **966** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
+This document contains **967** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
 
 Some questions which are still being resolved are not shown in this page, more information about unsolved questions can be found at [docs/unsolved_solutions.md](./unsolved_solutions.md).
 
@@ -486,6 +486,7 @@ Some questions which are still being resolved are not shown in this page, more i
 |830|[Positions of Large Groups](https://leetcode.com/problems/positions-of-large-groups/)|[src/q_801_850/q0830.cc](../src/q_801_850/q0830.cc)|2022/07/10 14:13|
 |835|[Image Overlap](https://leetcode.com/problems/image-overlap/)|[src/q_801_850/q0835.cc](../src/q_801_850/q0835.cc)|2022/10/27 14:32|
 |838|[Push Dominoes](https://leetcode.com/problems/push-dominoes/)|[src/q_801_850/q0838.cc](../src/q_801_850/q0838.cc)|2022/09/27 18:43|
+|839|[Similar String Groups](https://leetcode.com/problems/similar-string-groups/)|[src/q_801_850/q0839.cc](../src/q_801_850/q0839.cc)|2023/04/28 11:33|
 |840|[Magic Squares In Grid](https://leetcode.com/problems/magic-squares-in-grid/)|[src/q_801_850/q0840.cc](../src/q_801_850/q0840.cc)|2022/02/09 19:10|
 |841|[Keys and Rooms](https://leetcode.com/problems/keys-and-rooms/)|[src/q_801_850/q0841.cc](../src/q_801_850/q0841.cc)|2021/10/07 10:57|
 |844|[Backspace String Compare](https://leetcode.com/problems/backspace-string-compare/)|[src/q_801_850/q0844.cc](../src/q_801_850/q0844.cc)|2021/09/22 08:00|
