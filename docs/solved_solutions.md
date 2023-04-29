@@ -1,6 +1,6 @@
 # Solved Solutions List
 
-This document contains **967** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
+This document contains **968** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
 
 Some questions which are still being resolved are not shown in this page, more information about unsolved questions can be found at [docs/unsolved_solutions.md](./unsolved_solutions.md).
 
@@ -787,6 +787,7 @@ Some questions which are still being resolved are not shown in this page, more i
 |1694|[Reformat Phone Number](https://leetcode.com/problems/reformat-phone-number/)|[src/q_1651_1700/q1694.cc](../src/q_1651_1700/q1694.cc)|2023/03/22 20:05|
 |1695|[Maximum Erasure Value](https://leetcode.com/problems/maximum-erasure-value/)|[src/q_1651_1700/q1695.cc](../src/q_1651_1700/q1695.cc)|2022/06/12 14:29|
 |1696|[Jump Game VI](https://leetcode.com/problems/jump-game-vi/)|[src/q_1651_1700/q1696.cc](../src/q_1651_1700/q1696.cc)|2022/07/09 16:44|
+|1697|[Checking Existence of Edge Length Limited Paths](https://leetcode.com/problems/checking-existence-of-edge-length-limited-paths/)|[src/q_1651_1700/q1697.cc](../src/q_1651_1700/q1697.cc)|2023/04/29 13:49|
 |1704|[Determine if String Halves Are Alike](https://leetcode.com/problems/determine-if-string-halves-are-alike/)|[src/q_1701_1750/q1704.cc](../src/q_1701_1750/q1704.cc)|2022/12/01 20:19|
 |1705|[Maximum Number of Eaten Apples](https://leetcode.com/problems/maximum-number-of-eaten-apples/)|[src/q_1701_1750/q1705.cc](../src/q_1701_1750/q1705.cc)|2022/02/17 21:55|
 |1706|[Where Will the Ball Fall](https://leetcode.com/problems/where-will-the-ball-fall/)|[src/q_1701_1750/q1706.cc](../src/q_1701_1750/q1706.cc)|2022/09/08 17:53|
