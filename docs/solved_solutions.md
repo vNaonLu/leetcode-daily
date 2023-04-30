@@ -1,6 +1,6 @@
 # Solved Solutions List
 
-This document contains **968** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
+This document contains **969** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
 
 Some questions which are still being resolved are not shown in this page, more information about unsolved questions can be found at [docs/unsolved_solutions.md](./unsolved_solutions.md).
 
@@ -747,6 +747,7 @@ Some questions which are still being resolved are not shown in this page, more i
 |1574|[Shortest Subarray to be Removed to Make Array Sorted](https://leetcode.com/problems/shortest-subarray-to-be-removed-to-make-array-sorted/)|[src/q_1551_1600/q1574.cc](../src/q_1551_1600/q1574.cc)|2022/07/27 18:21|
 |1576|[Replace All ?'s to Avoid Consecutive Repeating Characters](https://leetcode.com/problems/replace-all-s-to-avoid-consecutive-repeating-characters/)|[src/q_1551_1600/q1576.cc](../src/q_1551_1600/q1576.cc)|2022/07/03 14:26|
 |1578|[Minimum Time to Make Rope Colorful](https://leetcode.com/problems/minimum-time-to-make-rope-colorful/)|[src/q_1551_1600/q1578.cc](../src/q_1551_1600/q1578.cc)|2022/10/03 12:31|
+|1579|[Remove Max Number of Edges to Keep Graph Fully Traversable](https://leetcode.com/problems/remove-max-number-of-edges-to-keep-graph-fully-traversable/)|[src/q_1551_1600/q1579.cc](../src/q_1551_1600/q1579.cc)|2023/04/30 15:05|
 |1582|[Special Positions in a Binary Matrix](https://leetcode.com/problems/special-positions-in-a-binary-matrix/)|[src/q_1551_1600/q1582.cc](../src/q_1551_1600/q1582.cc)|2022/02/12 17:00|
 |1584|[Min Cost to Connect All Points](https://leetcode.com/problems/min-cost-to-connect-all-points/)|[src/q_1551_1600/q1584.cc](../src/q_1551_1600/q1584.cc)|2022/04/26 18:35|
 |1588|[Sum of All Odd Length Subarrays](https://leetcode.com/problems/sum-of-all-odd-length-subarrays/)|[src/q_1551_1600/q1588.cc](../src/q_1551_1600/q1588.cc)|2022/04/19 11:57|
