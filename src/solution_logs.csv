@@ -962,3 +962,10 @@ timestamp,id,tc,sc,notes
 1682142698,1312,n^2,n^2,n = |s.size()|
 1682229557,1416,-,-,not calculated
 1682296811,2114,n * E,1,"n = |sentences.size()|, E = |sentences[i].size()|"
+1682419510,2336,-,-,not calculated
+1682506184,2160,1,1,
+1682592339,319,sqrt(n),1,
+1682652820,839,-,-,not calculated
+1682747375,1697,-,-,not calculated
+1682838348,1579,-,-,not calculated
+1682923995,2570,n * log(n),n,n = |id_i|
