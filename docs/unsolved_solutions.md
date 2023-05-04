@@ -1,6 +1,6 @@
 # Unsolved Solutions List
 
-There are **1645** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
+There are **1644** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
 
 The questions which have been solved are not shown in this page, more information about solved questions can be found at [docs/solved_solutions.md](./solved_solutions.md).
 
@@ -263,7 +263,6 @@ The questions which have been solved are not shown in this page, more informatio
 |644|[Maximum Average Subarray II](https://leetcode.com/problems/maximum-average-subarray-ii/)|Hard|🔒|
 |646|[Maximum Length of Pair Chain](https://leetcode.com/problems/maximum-length-of-pair-chain/)|Medium||
 |648|[Replace Words](https://leetcode.com/problems/replace-words/)|Medium||
-|649|[Dota2 Senate](https://leetcode.com/problems/dota2-senate/)|Medium||
 |650|[2 Keys Keyboard](https://leetcode.com/problems/2-keys-keyboard/)|Medium||
 |651|[4 Keys Keyboard](https://leetcode.com/problems/4-keys-keyboard/)|Medium|🔒|
 |656|[Coin Path](https://leetcode.com/problems/coin-path/)|Hard|🔒|
