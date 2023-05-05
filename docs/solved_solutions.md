@@ -1,6 +1,6 @@
 # Solved Solutions List
 
-This document contains **973** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
+This document contains **974** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
 
 Some questions which are still being resolved are not shown in this page, more information about unsolved questions can be found at [docs/unsolved_solutions.md](./unsolved_solutions.md).
 
@@ -705,6 +705,7 @@ Some questions which are still being resolved are not shown in this page, more i
 |1446|[Consecutive Characters](https://leetcode.com/problems/consecutive-characters/)|[src/q_1401_1450/q1446.cc](../src/q_1401_1450/q1446.cc)|2021/12/13 18:10|
 |1448|[Count Good Nodes in Binary Tree](https://leetcode.com/problems/count-good-nodes-in-binary-tree/)|[src/q_1401_1450/q1448.cc](../src/q_1401_1450/q1448.cc)|2022/09/01 17:43|
 |1455|[Check If a Word Occurs As a Prefix of Any Word in a Sentence](https://leetcode.com/problems/check-if-a-word-occurs-as-a-prefix-of-any-word-in-a-sentence/)|[src/q_1451_1500/q1455.cc](../src/q_1451_1500/q1455.cc)|2022/12/05 16:10|
+|1456|[Maximum Number of Vowels in a Substring of Given Length](https://leetcode.com/problems/maximum-number-of-vowels-in-a-substring-of-given-length/)|[src/q_1451_1500/q1456.cc](../src/q_1451_1500/q1456.cc)|2023/05/05 15:31|
 |1457|[Pseudo-Palindromic Paths in a Binary Tree](https://leetcode.com/problems/pseudo-palindromic-paths-in-a-binary-tree/)|[src/q_1451_1500/q1457.cc](../src/q_1451_1500/q1457.cc)|2022/09/14 15:01|
 |1461|[Check If a String Contains All Binary Codes of Size K](https://leetcode.com/problems/check-if-a-string-contains-all-binary-codes-of-size-k/)|[src/q_1451_1500/q1461.cc](../src/q_1451_1500/q1461.cc)|2022/05/31 18:19|
 |1462|[Course Schedule IV](https://leetcode.com/problems/course-schedule-iv/)|[src/q_1451_1500/q1462.cc](../src/q_1451_1500/q1462.cc)|2022/03/04 18:34|
