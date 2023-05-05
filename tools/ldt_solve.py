@@ -244,10 +244,12 @@ def getCommand(parent=None):
                     solution_file.write_text(original_solution)
 
             else:
-                RESOLVE_LOG = _modifyResolvedLog(solution_file=solution_file,
-                                                 resolve_logs=resolve_logs,
-                                                 id=id,
-                                                 timestamp=TIME)
+                if not ARG_WITHOUT_COMMIT_FLAG:
+                    RESOLVE_LOG = _modifyResolvedLog(solution_file=solution_file,
+                                                    resolve_logs=resolve_logs,
+                                                    id=id,
+                                                    timestamp=TIME)
+
                 ADD_CMD = ["git", "-C", PROJECT_ROOT, "add", solution_file, resolve_logs]
 
                 if not ARG_WITHOUT_UPDATE_FLAG:
