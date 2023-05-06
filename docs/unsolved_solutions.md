@@ -1,6 +1,6 @@
 # Unsolved Solutions List
 
-There are **1643** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
+There are **1642** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
 
 The questions which have been solved are not shown in this page, more information about solved questions can be found at [docs/solved_solutions.md](./solved_solutions.md).
 
@@ -1627,7 +1627,6 @@ The questions which have been solved are not shown in this page, more informatio
 |2592|[Maximize Greatness of an Array](https://leetcode.com/problems/maximize-greatness-of-an-array/)|Medium||
 |2593|[Find Score of an Array After Marking All Elements](https://leetcode.com/problems/find-score-of-an-array-after-marking-all-elements/)|Medium||
 |2594|[Minimum Time to Repair Cars](https://leetcode.com/problems/minimum-time-to-repair-cars/)|Medium||
-|2595|[Number of Even and Odd Bits](https://leetcode.com/problems/number-of-even-and-odd-bits/)|Easy||
 |2596|[Check Knight Tour Configuration](https://leetcode.com/problems/check-knight-tour-configuration/)|Medium||
 |2597|[The Number of Beautiful Subsets](https://leetcode.com/problems/the-number-of-beautiful-subsets/)|Medium||
 |2598|[Smallest Missing Non-negative Integer After Operations](https://leetcode.com/problems/smallest-missing-non-negative-integer-after-operations/)|Medium||
