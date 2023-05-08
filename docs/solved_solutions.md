@@ -1,6 +1,6 @@
 # Solved Solutions List
 
-This document contains **976** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
+This document contains **977** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
 
 Some questions which are still being resolved are not shown in this page, more information about unsolved questions can be found at [docs/unsolved_solutions.md](./unsolved_solutions.md).
 
@@ -983,3 +983,4 @@ Some questions which are still being resolved are not shown in this page, more i
 |2570|[Merge Two 2D Arrays by Summing Values](https://leetcode.com/problems/merge-two-2d-arrays-by-summing-values/)|[src/q_2551_2600/q2570.cc](../src/q_2551_2600/q2570.cc)|2023/05/01 14:53|
 |2574|[Left and Right Sum Differences](https://leetcode.com/problems/left-and-right-sum-differences/)|[src/q_2551_2600/q2574.cc](../src/q_2551_2600/q2574.cc)|2023/03/10 13:23|
 |2595|[Number of Even and Odd Bits](https://leetcode.com/problems/number-of-even-and-odd-bits/)|[src/q_2551_2600/q2595.cc](../src/q_2551_2600/q2595.cc)|2023/05/06 14:16|
+|2651|[Calculate Delayed Arrival Time](https://leetcode.com/problems/calculate-delayed-arrival-time/)|[src/q_2651_2700/q2651.cc](../src/q_2651_2700/q2651.cc)|2023/05/08 15:43|
