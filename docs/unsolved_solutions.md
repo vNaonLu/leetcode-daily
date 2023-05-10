@@ -1,6 +1,6 @@
 # Unsolved Solutions List
 
-There are **1695** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
+There are **1694** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
 
 The questions which have been solved are not shown in this page, more information about solved questions can be found at [docs/solved_solutions.md](./solved_solutions.md).
 
@@ -1680,7 +1680,6 @@ The questions which have been solved are not shown in this page, more informatio
 |2648|[Generate Fibonacci Sequence](https://leetcode.com/problems/generate-fibonacci-sequence/)|Easy||
 |2649|[Nested Array Generator](https://leetcode.com/problems/nested-array-generator/)|Medium||
 |2650|[Design Cancellable Function](https://leetcode.com/problems/design-cancellable-function/)|Hard||
-|2652|[Sum Multiples](https://leetcode.com/problems/sum-multiples/)|Easy||
 |2653|[Sliding Subarray Beauty](https://leetcode.com/problems/sliding-subarray-beauty/)|Medium||
 |2654|[Minimum Number of Operations to Make All Array Elements Equal to 1](https://leetcode.com/problems/minimum-number-of-operations-to-make-all-array-elements-equal-to-1/)|Medium||
 |2655|[Find Maximal Uncovered Ranges](https://leetcode.com/problems/find-maximal-uncovered-ranges/)|Medium|🔒|
