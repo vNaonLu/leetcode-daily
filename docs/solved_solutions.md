@@ -1,6 +1,6 @@
 # Solved Solutions List
 
-This document contains **983** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
+This document contains **984** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
 
 Some questions which are still being resolved are not shown in this page, more information about unsolved questions can be found at [docs/unsolved_solutions.md](./unsolved_solutions.md).
 
@@ -843,6 +843,7 @@ Some questions which are still being resolved are not shown in this page, more i
 |1881|[Maximum Value after Insertion](https://leetcode.com/problems/maximum-value-after-insertion/)|[src/q_1851_1900/q1881.cc](../src/q_1851_1900/q1881.cc)|2021/10/17 15:52|
 |1886|[Determine Whether Matrix Can Be Obtained By Rotation](https://leetcode.com/problems/determine-whether-matrix-can-be-obtained-by-rotation/)|[src/q_1851_1900/q1886.cc](../src/q_1851_1900/q1886.cc)|2022/05/02 13:31|
 |1887|[Reduction Operations to Make the Array Elements Equal](https://leetcode.com/problems/reduction-operations-to-make-the-array-elements-equal/)|[src/q_1851_1900/q1887.cc](../src/q_1851_1900/q1887.cc)|2021/10/12 12:18|
+|1893|[Check if All the Integers in a Range Are Covered](https://leetcode.com/problems/check-if-all-the-integers-in-a-range-are-covered/)|[src/q_1851_1900/q1893.cc](../src/q_1851_1900/q1893.cc)|2023/05/15 13:44|
 |1894|[Find the Student that Will Replace the Chalk](https://leetcode.com/problems/find-the-student-that-will-replace-the-chalk/)|[src/q_1851_1900/q1894.cc](../src/q_1851_1900/q1894.cc)|2022/07/15 21:00|
 |1898|[Maximum Number of Removable Characters](https://leetcode.com/problems/maximum-number-of-removable-characters/)|[src/q_1851_1900/q1898.cc](../src/q_1851_1900/q1898.cc)|2022/07/19 12:27|
 |1901|[Find a Peak Element II](https://leetcode.com/problems/find-a-peak-element-ii/)|[src/q_1901_1950/q1901.cc](../src/q_1901_1950/q1901.cc)|2022/07/30 17:22|

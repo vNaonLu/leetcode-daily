@@ -1,6 +1,6 @@
 # Unsolved Solutions List
 
-There are **1690** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
+There are **1689** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
 
 The questions which have been solved are not shown in this page, more information about solved questions can be found at [docs/solved_solutions.md](./solved_solutions.md).
 
@@ -1063,7 +1063,6 @@ The questions which have been solved are not shown in this page, more informatio
 |1890|[The Latest Login in 2020](https://leetcode.com/problems/the-latest-login-in-2020/)|Easy||
 |1891|[Cutting Ribbons](https://leetcode.com/problems/cutting-ribbons/)|Medium|🔒|
 |1892|[Page Recommendations II](https://leetcode.com/problems/page-recommendations-ii/)|Hard|🔒|
-|1893|[Check if All the Integers in a Range Are Covered](https://leetcode.com/problems/check-if-all-the-integers-in-a-range-are-covered/)|Easy||
 |1895|[Largest Magic Square](https://leetcode.com/problems/largest-magic-square/)|Medium||
 |1896|[Minimum Cost to Change the Final Value of Expression](https://leetcode.com/problems/minimum-cost-to-change-the-final-value-of-expression/)|Hard||
 |1897|[Redistribute Characters to Make All Strings Equal](https://leetcode.com/problems/redistribute-characters-to-make-all-strings-equal/)|Easy||
