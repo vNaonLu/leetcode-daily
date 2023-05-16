@@ -1,6 +1,6 @@
 # Solved Solutions List
 
-This document contains **977** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
+This document contains **984** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
 
 Some questions which are still being resolved are not shown in this page, more information about unsolved questions can be found at [docs/unsolved_solutions.md](./unsolved_solutions.md).
 
@@ -814,6 +814,7 @@ Some questions which are still being resolved are not shown in this page, more i
 |1791|[Find Center of Star Graph](https://leetcode.com/problems/find-center-of-star-graph/)|[src/q_1751_1800/q1791.cc](../src/q_1751_1800/q1791.cc)|2022/02/23 19:25|
 |1796|[Second Largest Digit in a String](https://leetcode.com/problems/second-largest-digit-in-a-string/)|[src/q_1751_1800/q1796.cc](../src/q_1751_1800/q1796.cc)|2023/03/19 14:49|
 |1797|[Design Authentication Manager](https://leetcode.com/problems/design-authentication-manager/)|[src/q_1751_1800/q1797.cc](../src/q_1751_1800/q1797.cc)|2022/05/14 12:59|
+|1799|[Maximize Score After N Operations](https://leetcode.com/problems/maximize-score-after-n-operations/)|[src/q_1751_1800/q1799.cc](../src/q_1751_1800/q1799.cc)|2023/05/14 19:19|
 |1802|[Maximum Value at a Given Index in a Bounded Array](https://leetcode.com/problems/maximum-value-at-a-given-index-in-a-bounded-array/)|[src/q_1801_1850/q1802.cc](../src/q_1801_1850/q1802.cc)|2022/07/30 17:15|
 |1805|[Number of Different Integers in a String](https://leetcode.com/problems/number-of-different-integers-in-a-string/)|[src/q_1801_1850/q1805.cc](../src/q_1801_1850/q1805.cc)|2022/06/22 18:14|
 |1816|[Truncate Sentence](https://leetcode.com/problems/truncate-sentence/)|[src/q_1801_1850/q1816.cc](../src/q_1801_1850/q1816.cc)|2022/12/15 10:20|
@@ -842,6 +843,7 @@ Some questions which are still being resolved are not shown in this page, more i
 |1881|[Maximum Value after Insertion](https://leetcode.com/problems/maximum-value-after-insertion/)|[src/q_1851_1900/q1881.cc](../src/q_1851_1900/q1881.cc)|2021/10/17 15:52|
 |1886|[Determine Whether Matrix Can Be Obtained By Rotation](https://leetcode.com/problems/determine-whether-matrix-can-be-obtained-by-rotation/)|[src/q_1851_1900/q1886.cc](../src/q_1851_1900/q1886.cc)|2022/05/02 13:31|
 |1887|[Reduction Operations to Make the Array Elements Equal](https://leetcode.com/problems/reduction-operations-to-make-the-array-elements-equal/)|[src/q_1851_1900/q1887.cc](../src/q_1851_1900/q1887.cc)|2021/10/12 12:18|
+|1893|[Check if All the Integers in a Range Are Covered](https://leetcode.com/problems/check-if-all-the-integers-in-a-range-are-covered/)|[src/q_1851_1900/q1893.cc](../src/q_1851_1900/q1893.cc)|2023/05/15 13:44|
 |1894|[Find the Student that Will Replace the Chalk](https://leetcode.com/problems/find-the-student-that-will-replace-the-chalk/)|[src/q_1851_1900/q1894.cc](../src/q_1851_1900/q1894.cc)|2022/07/15 21:00|
 |1898|[Maximum Number of Removable Characters](https://leetcode.com/problems/maximum-number-of-removable-characters/)|[src/q_1851_1900/q1898.cc](../src/q_1851_1900/q1898.cc)|2022/07/19 12:27|
 |1901|[Find a Peak Element II](https://leetcode.com/problems/find-a-peak-element-ii/)|[src/q_1901_1950/q1901.cc](../src/q_1901_1950/q1901.cc)|2022/07/30 17:22|
@@ -886,6 +888,7 @@ Some questions which are still being resolved are not shown in this page, more i
 |2133|[Check if Every Row and Column Contains All Numbers](https://leetcode.com/problems/check-if-every-row-and-column-contains-all-numbers/)|[src/q_2101_2150/q2133.cc](../src/q_2101_2150/q2133.cc)|2023/04/07 12:09|
 |2134|[Minimum Swaps to Group All 1's Together II](https://leetcode.com/problems/minimum-swaps-to-group-all-1s-together-ii/)|[src/q_2101_2150/q2134.cc](../src/q_2101_2150/q2134.cc)|2022/02/16 18:17|
 |2136|[Earliest Possible Day of Full Bloom](https://leetcode.com/problems/earliest-possible-day-of-full-bloom/)|[src/q_2101_2150/q2136.cc](../src/q_2101_2150/q2136.cc)|2022/10/29 11:47|
+|2140|[Solving Questions With Brainpower](https://leetcode.com/problems/solving-questions-with-brainpower/)|[src/q_2101_2150/q2140.cc](../src/q_2101_2150/q2140.cc)|2023/05/12 12:21|
 |2148|[Count Elements With Strictly Smaller and Greater Elements ](https://leetcode.com/problems/count-elements-with-strictly-smaller-and-greater-elements/)|[src/q_2101_2150/q2148.cc](../src/q_2101_2150/q2148.cc)|2023/02/25 13:24|
 |2149|[Rearrange Array Elements by Sign](https://leetcode.com/problems/rearrange-array-elements-by-sign/)|[src/q_2101_2150/q2149.cc](../src/q_2101_2150/q2149.cc)|2022/04/01 18:22|
 |2154|[Keep Multiplying Found Values by Two](https://leetcode.com/problems/keep-multiplying-found-values-by-two/)|[src/q_2151_2200/q2154.cc](../src/q_2151_2200/q2154.cc)|2023/01/07 14:40|
@@ -966,6 +969,7 @@ Some questions which are still being resolved are not shown in this page, more i
 |2455|[Average Value of Even Numbers That Are Divisible by Three](https://leetcode.com/problems/average-value-of-even-numbers-that-are-divisible-by-three/)|[src/q_2451_2500/q2455.cc](../src/q_2451_2500/q2455.cc)|2023/03/13 11:06|
 |2460|[Apply Operations to an Array](https://leetcode.com/problems/apply-operations-to-an-array/)|[src/q_2451_2500/q2460.cc](../src/q_2451_2500/q2460.cc)|2023/03/03 14:31|
 |2465|[Number of Distinct Averages](https://leetcode.com/problems/number-of-distinct-averages/)|[src/q_2451_2500/q2465.cc](../src/q_2451_2500/q2465.cc)|2023/04/08 10:01|
+|2466|[Count Ways To Build Good Strings](https://leetcode.com/problems/count-ways-to-build-good-strings/)|[src/q_2451_2500/q2466.cc](../src/q_2451_2500/q2466.cc)|2023/05/13 16:17|
 |2469|[Convert the Temperature](https://leetcode.com/problems/convert-the-temperature/)|[src/q_2451_2500/q2469.cc](../src/q_2451_2500/q2469.cc)|2023/02/17 18:37|
 |2477|[Minimum Fuel Cost to Report to the Capital](https://leetcode.com/problems/minimum-fuel-cost-to-report-to-the-capital/)|[src/q_2451_2500/q2477.cc](../src/q_2451_2500/q2477.cc)|2023/02/12 14:52|
 |2485|[Find the Pivot Integer](https://leetcode.com/problems/find-the-pivot-integer/)|[src/q_2451_2500/q2485.cc](../src/q_2451_2500/q2485.cc)|2023/02/19 22:48|
@@ -983,4 +987,7 @@ Some questions which are still being resolved are not shown in this page, more i
 |2570|[Merge Two 2D Arrays by Summing Values](https://leetcode.com/problems/merge-two-2d-arrays-by-summing-values/)|[src/q_2551_2600/q2570.cc](../src/q_2551_2600/q2570.cc)|2023/05/01 14:53|
 |2574|[Left and Right Sum Differences](https://leetcode.com/problems/left-and-right-sum-differences/)|[src/q_2551_2600/q2574.cc](../src/q_2551_2600/q2574.cc)|2023/03/10 13:23|
 |2595|[Number of Even and Odd Bits](https://leetcode.com/problems/number-of-even-and-odd-bits/)|[src/q_2551_2600/q2595.cc](../src/q_2551_2600/q2595.cc)|2023/05/06 14:16|
+|2643|[Row With Maximum Ones](https://leetcode.com/problems/row-with-maximum-ones/)|[src/q_2601_2650/q2643.cc](../src/q_2601_2650/q2643.cc)|2023/05/09 20:03|
 |2651|[Calculate Delayed Arrival Time](https://leetcode.com/problems/calculate-delayed-arrival-time/)|[src/q_2651_2700/q2651.cc](../src/q_2651_2700/q2651.cc)|2023/05/08 15:43|
+|2652|[Sum Multiples](https://leetcode.com/problems/sum-multiples/)|[src/q_2651_2700/q2652.cc](../src/q_2651_2700/q2652.cc)|2023/05/10 18:46|
+|2656|[Maximum Sum With Exactly K Elements ](https://leetcode.com/problems/maximum-sum-with-exactly-k-elements/)|[src/q_2651_2700/q2656.cc](../src/q_2651_2700/q2656.cc)|2023/05/11 18:26|

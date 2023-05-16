@@ -2616,3 +2616,59 @@ id,backend_id,title,level,slug,paid
 2615,2721,Sum of Distances,2,sum-of-distances,0
 2616,2720,Minimize the Maximum Difference of Pairs,2,minimize-the-maximum-difference-of-pairs,0
 2617,2697,Minimum Number of Visited Cells in a Grid,3,minimum-number-of-visited-cells-in-a-grid,0
+2618,2758,Check if Object Instance of Class,2,check-if-object-instance-of-class,0
+2619,2734,Array Prototype Last,1,array-prototype-last,0
+2620,2732,Counter,1,counter,0
+2621,2733,Sleep,1,sleep,0
+2622,2762,Cache With Time Limit,2,cache-with-time-limit,0
+2623,2731,Memoize,2,memoize,0
+2624,2760,Snail Traversal,2,snail-traversal,0
+2625,2759,Flatten Deeply Nested Array,2,flatten-deeply-nested-array,0
+2626,2761,Array Reduce Transformation,1,array-reduce-transformation,0
+2627,2743,Debounce,2,debounce,0
+2628,2735,JSON Deep Equal,2,json-deep-equal,0
+2629,2741,Function Composition,1,function-composition,0
+2630,2744,Memoize II,3,memoize-ii,0
+2631,2742,Group By,2,group-by,0
+2632,2740,Curry,2,curry,0
+2633,2745,Convert Object to JSON String,2,convert-object-to-json-string,0
+2634,2746,Filter Elements from Array,1,filter-elements-from-array,0
+2635,2747,Apply Transform Over Each Element in Array,1,apply-transform-over-each-element-in-array,0
+2636,2750,Promise Pool,2,promise-pool,0
+2637,2749,Promise Time Limit,1,promise-time-limit,0
+2638,2738,Count the Number of K-Free Subsets,2,count-the-number-of-k-free-subsets,1
+2639,2675,Find the Width of Columns of a Grid,1,find-the-width-of-columns-of-a-grid,0
+2640,2676,Find the Score of All Prefixes of an Array,2,find-the-score-of-all-prefixes-of-an-array,0
+2641,2677,Cousins in Binary Tree II,2,cousins-in-binary-tree-ii,0
+2642,2678,Design Graph With Shortest Path Calculator,3,design-graph-with-shortest-path-calculator,0
+2643,2737,Row With Maximum Ones,1,row-with-maximum-ones,0
+2644,2694,Find the Maximum Divisibility Score,1,find-the-maximum-divisibility-score,0
+2645,2736,Minimum Additions to Make Valid String,2,minimum-additions-to-make-valid-string,0
+2646,2739,Minimize the Total Price of the Trips,3,minimize-the-total-price-of-the-trips,0
+2647,2540,Color the Triangle Red,3,color-the-triangle-red,1
+2648,2775,Generate Fibonacci Sequence,1,generate-fibonacci-sequence,0
+2649,2783,Nested Array Generator,2,nested-array-generator,0
+2650,2788,Design Cancellable Function,3,design-cancellable-function,0
+2651,2748,Calculate Delayed Arrival Time,1,calculate-delayed-arrival-time,0
+2652,2752,Sum Multiples,1,sum-multiples,0
+2653,2751,Sliding Subarray Beauty,2,sliding-subarray-beauty,0
+2654,2753,Minimum Number of Operations to Make All Array Elements Equal to 1,2,minimum-number-of-operations-to-make-all-array-elements-equal-to-1,0
+2655,2815,Find Maximal Uncovered Ranges,2,find-maximal-uncovered-ranges,1
+2656,2767,Maximum Sum With Exactly K Elements ,1,maximum-sum-with-exactly-k-elements,0
+2657,2766,Find the Prefix Common Array of Two Arrays,2,find-the-prefix-common-array-of-two-arrays,0
+2658,2764,Maximum Number of Fish in a Grid,2,maximum-number-of-fish-in-a-grid,0
+2659,2765,Make Array Empty,3,make-array-empty,0
+2660,2684,Determine the Winner of a Bowling Game,1,determine-the-winner-of-a-bowling-game,0
+2661,2685,First Completely Painted Row or Column,2,first-completely-painted-row-or-column,0
+2662,2686,Minimum Cost of a Path With Special Roads,2,minimum-cost-of-a-path-with-special-roads,0
+2663,2687,Lexicographically Smallest Beautiful String,3,lexicographically-smallest-beautiful-string,0
+2664,2823,The Knight’s Tour,2,the-knights-tour,1
+2665,2789,Counter II,1,counter-ii,0
+2666,2796,Allow One Function Call,1,allow-one-function-call,0
+2667,2809,Create Hello World Function,1,create-hello-world-function,0
+2668,2829,Find Latest Salaries,1,find-latest-salaries,1
+2669,2830,Count Artist Occurrences On Spotify Ranking List,1,count-artist-occurrences-on-spotify-ranking-list,1
+2670,2777,Find the Distinct Difference Array,1,find-the-distinct-difference-array,0
+2671,2778,Frequency Tracker,2,frequency-tracker,0
+2672,2779,Number of Adjacent Elements With the Same Color,2,number-of-adjacent-elements-with-the-same-color,0
+2673,2780,Make Costs of Paths Equal in a Binary Tree,2,make-costs-of-paths-equal-in-a-binary-tree,0

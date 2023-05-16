@@ -1,6 +1,6 @@
 # Unsolved Solutions List
 
-There are **1696** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
+There are **1689** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
 
 The questions which have been solved are not shown in this page, more information about solved questions can be found at [docs/solved_solutions.md](./solved_solutions.md).
 
@@ -998,7 +998,6 @@ The questions which have been solved are not shown in this page, more informatio
 |1794|[Count Pairs of Equal Substrings With Minimum Difference](https://leetcode.com/problems/count-pairs-of-equal-substrings-with-minimum-difference/)|Medium|🔒|
 |1795|[Rearrange Products Table](https://leetcode.com/problems/rearrange-products-table/)|Easy||
 |1798|[Maximum Number of Consecutive Values You Can Make](https://leetcode.com/problems/maximum-number-of-consecutive-values-you-can-make/)|Medium||
-|1799|[Maximize Score After N Operations](https://leetcode.com/problems/maximize-score-after-n-operations/)|Hard||
 |1800|[Maximum Ascending Subarray Sum](https://leetcode.com/problems/maximum-ascending-subarray-sum/)|Easy||
 |1801|[Number of Orders in the Backlog](https://leetcode.com/problems/number-of-orders-in-the-backlog/)|Medium||
 |1803|[Count Pairs With XOR in a Range](https://leetcode.com/problems/count-pairs-with-xor-in-a-range/)|Hard||
@@ -1064,7 +1063,6 @@ The questions which have been solved are not shown in this page, more informatio
 |1890|[The Latest Login in 2020](https://leetcode.com/problems/the-latest-login-in-2020/)|Easy||
 |1891|[Cutting Ribbons](https://leetcode.com/problems/cutting-ribbons/)|Medium|🔒|
 |1892|[Page Recommendations II](https://leetcode.com/problems/page-recommendations-ii/)|Hard|🔒|
-|1893|[Check if All the Integers in a Range Are Covered](https://leetcode.com/problems/check-if-all-the-integers-in-a-range-are-covered/)|Easy||
 |1895|[Largest Magic Square](https://leetcode.com/problems/largest-magic-square/)|Medium||
 |1896|[Minimum Cost to Change the Final Value of Expression](https://leetcode.com/problems/minimum-cost-to-change-the-final-value-of-expression/)|Hard||
 |1897|[Redistribute Characters to Make All Strings Equal](https://leetcode.com/problems/redistribute-characters-to-make-all-strings-equal/)|Easy||
@@ -1267,7 +1265,6 @@ The questions which have been solved are not shown in this page, more informatio
 |2137|[Pour Water Between Buckets to Make Water Levels Equal](https://leetcode.com/problems/pour-water-between-buckets-to-make-water-levels-equal/)|Medium|🔒|
 |2138|[Divide a String Into Groups of Size k](https://leetcode.com/problems/divide-a-string-into-groups-of-size-k/)|Easy||
 |2139|[Minimum Moves to Reach Target Score](https://leetcode.com/problems/minimum-moves-to-reach-target-score/)|Medium||
-|2140|[Solving Questions With Brainpower](https://leetcode.com/problems/solving-questions-with-brainpower/)|Medium||
 |2141|[Maximum Running Time of N Computers](https://leetcode.com/problems/maximum-running-time-of-n-computers/)|Hard||
 |2142|[The Number of Passengers in Each Bus I](https://leetcode.com/problems/the-number-of-passengers-in-each-bus-i/)|Medium|🔒|
 |2143|[Choose Numbers From Two Arrays in Range](https://leetcode.com/problems/choose-numbers-from-two-arrays-in-range/)|Hard|🔒|
@@ -1513,7 +1510,6 @@ The questions which have been solved are not shown in this page, more informatio
 |2462|[Total Cost to Hire K Workers](https://leetcode.com/problems/total-cost-to-hire-k-workers/)|Medium||
 |2463|[Minimum Total Distance Traveled](https://leetcode.com/problems/minimum-total-distance-traveled/)|Hard||
 |2464|[Minimum Subarrays in a Valid Split](https://leetcode.com/problems/minimum-subarrays-in-a-valid-split/)|Medium|🔒|
-|2466|[Count Ways To Build Good Strings](https://leetcode.com/problems/count-ways-to-build-good-strings/)|Medium||
 |2467|[Most Profitable Path in a Tree](https://leetcode.com/problems/most-profitable-path-in-a-tree/)|Medium||
 |2468|[Split Message Based on Limit](https://leetcode.com/problems/split-message-based-on-limit/)|Hard||
 |2470|[Number of Subarrays With LCM Equal to K](https://leetcode.com/problems/number-of-subarrays-with-lcm-equal-to-k/)|Medium||
@@ -1673,7 +1669,6 @@ The questions which have been solved are not shown in this page, more informatio
 |2640|[Find the Score of All Prefixes of an Array](https://leetcode.com/problems/find-the-score-of-all-prefixes-of-an-array/)|Medium||
 |2641|[Cousins in Binary Tree II](https://leetcode.com/problems/cousins-in-binary-tree-ii/)|Medium||
 |2642|[Design Graph With Shortest Path Calculator](https://leetcode.com/problems/design-graph-with-shortest-path-calculator/)|Hard||
-|2643|[Row With Maximum Ones](https://leetcode.com/problems/row-with-maximum-ones/)|Easy||
 |2644|[Find the Maximum Divisibility Score](https://leetcode.com/problems/find-the-maximum-divisibility-score/)|Easy||
 |2645|[Minimum Additions to Make Valid String](https://leetcode.com/problems/minimum-additions-to-make-valid-string/)|Medium||
 |2646|[Minimize the Total Price of the Trips](https://leetcode.com/problems/minimize-the-total-price-of-the-trips/)|Hard||
@@ -1681,11 +1676,9 @@ The questions which have been solved are not shown in this page, more informatio
 |2648|[Generate Fibonacci Sequence](https://leetcode.com/problems/generate-fibonacci-sequence/)|Easy||
 |2649|[Nested Array Generator](https://leetcode.com/problems/nested-array-generator/)|Medium||
 |2650|[Design Cancellable Function](https://leetcode.com/problems/design-cancellable-function/)|Hard||
-|2652|[Sum Multiples](https://leetcode.com/problems/sum-multiples/)|Easy||
 |2653|[Sliding Subarray Beauty](https://leetcode.com/problems/sliding-subarray-beauty/)|Medium||
 |2654|[Minimum Number of Operations to Make All Array Elements Equal to 1](https://leetcode.com/problems/minimum-number-of-operations-to-make-all-array-elements-equal-to-1/)|Medium||
 |2655|[Find Maximal Uncovered Ranges](https://leetcode.com/problems/find-maximal-uncovered-ranges/)|Medium|🔒|
-|2656|[Maximum Sum With Exactly K Elements ](https://leetcode.com/problems/maximum-sum-with-exactly-k-elements/)|Easy||
 |2657|[Find the Prefix Common Array of Two Arrays](https://leetcode.com/problems/find-the-prefix-common-array-of-two-arrays/)|Medium||
 |2658|[Maximum Number of Fish in a Grid](https://leetcode.com/problems/maximum-number-of-fish-in-a-grid/)|Medium||
 |2659|[Make Array Empty](https://leetcode.com/problems/make-array-empty/)|Hard||
