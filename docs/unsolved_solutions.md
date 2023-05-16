@@ -1,6 +1,6 @@
 # Unsolved Solutions List
 
-There are **1689** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
+There are **1688** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
 
 The questions which have been solved are not shown in this page, more information about solved questions can be found at [docs/solved_solutions.md](./solved_solutions.md).
 
@@ -1240,7 +1240,6 @@ The questions which have been solved are not shown in this page, more informatio
 |2105|[Watering Plants II](https://leetcode.com/problems/watering-plants-ii/)|Medium||
 |2106|[Maximum Fruits Harvested After at Most K Steps](https://leetcode.com/problems/maximum-fruits-harvested-after-at-most-k-steps/)|Hard||
 |2107|[Number of Unique Flavors After Sharing K Candies](https://leetcode.com/problems/number-of-unique-flavors-after-sharing-k-candies/)|Medium|🔒|
-|2108|[Find First Palindromic String in the Array](https://leetcode.com/problems/find-first-palindromic-string-in-the-array/)|Easy||
 |2109|[Adding Spaces to a String](https://leetcode.com/problems/adding-spaces-to-a-string/)|Medium||
 |2110|[Number of Smooth Descent Periods of a Stock](https://leetcode.com/problems/number-of-smooth-descent-periods-of-a-stock/)|Medium||
 |2111|[Minimum Operations to Make the Array K-Increasing](https://leetcode.com/problems/minimum-operations-to-make-the-array-k-increasing/)|Hard||

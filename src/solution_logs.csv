@@ -983,3 +983,4 @@ timestamp,id,tc,sc,notes
 1683965830,2466,-,-,not calculated
 1684063185,1799,2^n * n^2,2^n,n = |nums.size()|
 1684129487,1893,1,1,
+1684248971,2108,n * E,1,"n = |words.size()|, E = |words[i].size()|"
