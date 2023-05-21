@@ -1,6 +1,6 @@
 # Unsolved Solutions List
 
-There are **1684** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
+There are **1683** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
 
 The questions which have been solved are not shown in this page, more information about solved questions can be found at [docs/solved_solutions.md](./solved_solutions.md).
 
@@ -509,7 +509,6 @@ The questions which have been solved are not shown in this page, more informatio
 |1105|[Filling Bookcase Shelves](https://leetcode.com/problems/filling-bookcase-shelves/)|Medium||
 |1106|[Parsing A Boolean Expression](https://leetcode.com/problems/parsing-a-boolean-expression/)|Hard||
 |1107|[New Users Daily Count](https://leetcode.com/problems/new-users-daily-count/)|Medium|🔒|
-|1108|[Defanging an IP Address](https://leetcode.com/problems/defanging-an-ip-address/)|Easy||
 |1109|[Corporate Flight Bookings](https://leetcode.com/problems/corporate-flight-bookings/)|Medium||
 |1110|[Delete Nodes And Return Forest](https://leetcode.com/problems/delete-nodes-and-return-forest/)|Medium||
 |1111|[Maximum Nesting Depth of Two Valid Parentheses Strings](https://leetcode.com/problems/maximum-nesting-depth-of-two-valid-parentheses-strings/)|Medium||

@@ -1,6 +1,6 @@
 # Solved Solutions List
 
-This document contains **989** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
+This document contains **990** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
 
 Some questions which are still being resolved are not shown in this page, more information about unsolved questions can be found at [docs/unsolved_solutions.md](./unsolved_solutions.md).
 
@@ -612,6 +612,7 @@ Some questions which are still being resolved are not shown in this page, more i
 |1091|[Shortest Path in Binary Matrix](https://leetcode.com/problems/shortest-path-in-binary-matrix/)|[src/q_1051_1100/q1091.cc](../src/q_1051_1100/q1091.cc)|2021/09/26 14:51|
 |1093|[Statistics from a Large Sample](https://leetcode.com/problems/statistics-from-a-large-sample/)|[src/q_1051_1100/q1093.cc](../src/q_1051_1100/q1093.cc)|2022/05/13 18:33|
 |1094|[Car Pooling](https://leetcode.com/problems/car-pooling/)|[src/q_1051_1100/q1094.cc](../src/q_1051_1100/q1094.cc)|2022/01/06 18:11|
+|1108|[Defanging an IP Address](https://leetcode.com/problems/defanging-an-ip-address/)|[src/q_1101_1150/q1108.cc](../src/q_1101_1150/q1108.cc)|2023/05/21 13:42|
 |1122|[Relative Sort Array](https://leetcode.com/problems/relative-sort-array/)|[src/q_1101_1150/q1122.cc](../src/q_1101_1150/q1122.cc)|2022/02/15 18:15|
 |1124|[Longest Well-Performing Interval](https://leetcode.com/problems/longest-well-performing-interval/)|[src/q_1101_1150/q1124.cc](../src/q_1101_1150/q1124.cc)|2022/02/24 18:41|
 |1128|[Number of Equivalent Domino Pairs](https://leetcode.com/problems/number-of-equivalent-domino-pairs/)|[src/q_1101_1150/q1128.cc](../src/q_1101_1150/q1128.cc)|2022/06/13 18:21|
