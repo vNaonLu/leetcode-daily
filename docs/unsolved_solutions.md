@@ -1,6 +1,6 @@
 # Unsolved Solutions List
 
-There are **1682** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
+There are **1709** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
 
 The questions which have been solved are not shown in this page, more information about solved questions can be found at [docs/solved_solutions.md](./solved_solutions.md).
 
@@ -1689,3 +1689,30 @@ The questions which have been solved are not shown in this page, more informatio
 |2671|[Frequency Tracker](https://leetcode.com/problems/frequency-tracker/)|Medium||
 |2672|[Number of Adjacent Elements With the Same Color](https://leetcode.com/problems/number-of-adjacent-elements-with-the-same-color/)|Medium||
 |2673|[Make Costs of Paths Equal in a Binary Tree](https://leetcode.com/problems/make-costs-of-paths-equal-in-a-binary-tree/)|Medium||
+|2674|[Split a Circular Linked List](https://leetcode.com/problems/split-a-circular-linked-list/)|Medium|🔒|
+|2675|[Array of Objects to Matrix](https://leetcode.com/problems/array-of-objects-to-matrix/)|Medium||
+|2676|[Throttle](https://leetcode.com/problems/throttle/)|Medium||
+|2677|[Chunk Array](https://leetcode.com/problems/chunk-array/)|Easy||
+|2678|[Number of Senior Citizens](https://leetcode.com/problems/number-of-senior-citizens/)|Easy||
+|2679|[Sum in a Matrix](https://leetcode.com/problems/sum-in-a-matrix/)|Medium||
+|2680|[Maximum OR](https://leetcode.com/problems/maximum-or/)|Medium||
+|2681|[Power of Heroes](https://leetcode.com/problems/power-of-heroes/)|Hard||
+|2682|[Find the Losers of the Circular Game](https://leetcode.com/problems/find-the-losers-of-the-circular-game/)|Easy||
+|2683|[Neighboring Bitwise XOR](https://leetcode.com/problems/neighboring-bitwise-xor/)|Medium||
+|2684|[Maximum Number of Moves in a Grid](https://leetcode.com/problems/maximum-number-of-moves-in-a-grid/)|Medium||
+|2685|[Count the Number of Complete Components](https://leetcode.com/problems/count-the-number-of-complete-components/)|Medium||
+|2686|[Immediate Food Delivery III](https://leetcode.com/problems/immediate-food-delivery-iii/)|Medium|🔒|
+|2687|[Bikes Last Time Used ](https://leetcode.com/problems/bikes-last-time-used/)|Easy|🔒|
+|2688|[Find Active Users](https://leetcode.com/problems/find-active-users/)|Medium|🔒|
+|2689|[Extract Kth Character From The Rope Tree](https://leetcode.com/problems/extract-kth-character-from-the-rope-tree/)|Easy|🔒|
+|2690|[Infinite Method Object](https://leetcode.com/problems/infinite-method-object/)|Easy|🔒|
+|2691|[Immutability Helper](https://leetcode.com/problems/immutability-helper/)|Hard|🔒|
+|2692|[Make Object Immutable](https://leetcode.com/problems/make-object-immutable/)|Medium|🔒|
+|2693|[Call Function with Custom Context](https://leetcode.com/problems/call-function-with-custom-context/)|Medium||
+|2694|[Event Emitter](https://leetcode.com/problems/event-emitter/)|Medium||
+|2695|[Array Wrapper](https://leetcode.com/problems/array-wrapper/)|Easy||
+|2696|[Minimum String Length After Removing Substrings](https://leetcode.com/problems/minimum-string-length-after-removing-substrings/)|Easy||
+|2697|[Lexicographically Smallest Palindrome](https://leetcode.com/problems/lexicographically-smallest-palindrome/)|Easy||
+|2698|[Find the Punishment Number of an Integer](https://leetcode.com/problems/find-the-punishment-number-of-an-integer/)|Medium||
+|2699|[Modify Graph Edge Weights](https://leetcode.com/problems/modify-graph-edge-weights/)|Hard||
+|2700|[Differences Between Two Objects](https://leetcode.com/problems/differences-between-two-objects/)|Medium||
