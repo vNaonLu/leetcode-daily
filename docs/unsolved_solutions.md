@@ -1,6 +1,6 @@
 # Unsolved Solutions List
 
-There are **1708** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
+There are **1707** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
 
 The questions which have been solved are not shown in this page, more information about solved questions can be found at [docs/solved_solutions.md](./solved_solutions.md).
 
@@ -1568,7 +1568,6 @@ The questions which have been solved are not shown in this page, more informatio
 |2538|[Difference Between Maximum and Minimum Price Sum](https://leetcode.com/problems/difference-between-maximum-and-minimum-price-sum/)|Hard||
 |2539|[Count the Number of Good Subsequences](https://leetcode.com/problems/count-the-number-of-good-subsequences/)|Medium|🔒|
 |2541|[Minimum Operations to Make Array Equal II](https://leetcode.com/problems/minimum-operations-to-make-array-equal-ii/)|Medium||
-|2542|[Maximum Subsequence Score](https://leetcode.com/problems/maximum-subsequence-score/)|Medium||
 |2543|[Check if Point Is Reachable](https://leetcode.com/problems/check-if-point-is-reachable/)|Hard||
 |2545|[Sort the Students by Their Kth Score](https://leetcode.com/problems/sort-the-students-by-their-kth-score/)|Medium||
 |2546|[Apply Bitwise Operations to Make Strings Equal](https://leetcode.com/problems/apply-bitwise-operations-to-make-strings-equal/)|Medium||
