@@ -1,6 +1,6 @@
 # Solved Solutions List
 
-This document contains **994** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
+This document contains **995** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
 
 Some questions which are still being resolved are not shown in this page, more information about unsolved questions can be found at [docs/unsolved_solutions.md](./unsolved_solutions.md).
 
@@ -619,6 +619,7 @@ Some questions which are still being resolved are not shown in this page, more i
 |1128|[Number of Equivalent Domino Pairs](https://leetcode.com/problems/number-of-equivalent-domino-pairs/)|[src/q_1101_1150/q1128.cc](../src/q_1101_1150/q1128.cc)|2022/06/13 18:21|
 |1129|[Shortest Path with Alternating Colors](https://leetcode.com/problems/shortest-path-with-alternating-colors/)|[src/q_1101_1150/q1129.cc](../src/q_1101_1150/q1129.cc)|2022/03/19 14:31|
 |1137|[N-th Tribonacci Number](https://leetcode.com/problems/n-th-tribonacci-number/)|[src/q_1101_1150/q1137.cc](../src/q_1101_1150/q1137.cc)|2021/09/24 15:23|
+|1140|[Stone Game II](https://leetcode.com/problems/stone-game-ii/)|[src/q_1101_1150/q1140.cc](../src/q_1101_1150/q1140.cc)|2023/05/26 16:57|
 |1143|[Longest Common Subsequence](https://leetcode.com/problems/longest-common-subsequence/)|[src/q_1101_1150/q1143.cc](../src/q_1101_1150/q1143.cc)|2021/10/01 11:36|
 |1145|[Binary Tree Coloring Game](https://leetcode.com/problems/binary-tree-coloring-game/)|[src/q_1101_1150/q1145.cc](../src/q_1101_1150/q1145.cc)|2022/02/18 18:39|
 |1146|[Snapshot Array](https://leetcode.com/problems/snapshot-array/)|[src/q_1101_1150/q1146.cc](../src/q_1101_1150/q1146.cc)|2022/07/14 18:33|

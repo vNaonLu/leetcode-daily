@@ -1,6 +1,6 @@
 # Unsolved Solutions List
 
-There are **1706** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
+There are **1705** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
 
 The questions which have been solved are not shown in this page, more information about solved questions can be found at [docs/solved_solutions.md](./solved_solutions.md).
 
@@ -534,7 +534,6 @@ The questions which have been solved are not shown in this page, more informatio
 |1136|[Parallel Courses](https://leetcode.com/problems/parallel-courses/)|Medium|🔒|
 |1138|[Alphabet Board Path](https://leetcode.com/problems/alphabet-board-path/)|Medium||
 |1139|[Largest 1-Bordered Square](https://leetcode.com/problems/largest-1-bordered-square/)|Medium||
-|1140|[Stone Game II](https://leetcode.com/problems/stone-game-ii/)|Medium||
 |1141|[User Activity for the Past 30 Days I](https://leetcode.com/problems/user-activity-for-the-past-30-days-i/)|Easy||
 |1142|[User Activity for the Past 30 Days II](https://leetcode.com/problems/user-activity-for-the-past-30-days-ii/)|Easy|🔒|
 |1144|[Decrease Elements To Make Array Zigzag](https://leetcode.com/problems/decrease-elements-to-make-array-zigzag/)|Medium||
