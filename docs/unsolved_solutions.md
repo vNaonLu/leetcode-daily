@@ -1,6 +1,6 @@
 # Unsolved Solutions List
 
-There are **1704** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
+There are **1703** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
 
 The questions which have been solved are not shown in this page, more information about solved questions can be found at [docs/solved_solutions.md](./solved_solutions.md).
 
@@ -817,7 +817,6 @@ The questions which have been solved are not shown in this page, more informatio
 |1542|[Find Longest Awesome Substring](https://leetcode.com/problems/find-longest-awesome-substring/)|Hard||
 |1543|[Fix Product Name Format](https://leetcode.com/problems/fix-product-name-format/)|Easy|🔒|
 |1546|[Maximum Number of Non-Overlapping Subarrays With Sum Equals Target](https://leetcode.com/problems/maximum-number-of-non-overlapping-subarrays-with-sum-equals-target/)|Medium||
-|1547|[Minimum Cost to Cut a Stick](https://leetcode.com/problems/minimum-cost-to-cut-a-stick/)|Hard||
 |1548|[The Most Similar Path in a Graph](https://leetcode.com/problems/the-most-similar-path-in-a-graph/)|Hard|🔒|
 |1549|[The Most Recent Orders for Each Product](https://leetcode.com/problems/the-most-recent-orders-for-each-product/)|Medium|🔒|
 |1551|[Minimum Operations to Make Array Equal](https://leetcode.com/problems/minimum-operations-to-make-array-equal/)|Medium||
