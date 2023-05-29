@@ -1,6 +1,6 @@
 # Unsolved Solutions List
 
-There are **1703** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
+There are **1702** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
 
 The questions which have been solved are not shown in this page, more information about solved questions can be found at [docs/solved_solutions.md](./solved_solutions.md).
 
@@ -1653,7 +1653,6 @@ The questions which have been solved are not shown in this page, more informatio
 |2636|[Promise Pool](https://leetcode.com/problems/promise-pool/)|Medium||
 |2637|[Promise Time Limit](https://leetcode.com/problems/promise-time-limit/)|Easy||
 |2638|[Count the Number of K-Free Subsets](https://leetcode.com/problems/count-the-number-of-k-free-subsets/)|Medium|🔒|
-|2639|[Find the Width of Columns of a Grid](https://leetcode.com/problems/find-the-width-of-columns-of-a-grid/)|Easy||
 |2640|[Find the Score of All Prefixes of an Array](https://leetcode.com/problems/find-the-score-of-all-prefixes-of-an-array/)|Medium||
 |2641|[Cousins in Binary Tree II](https://leetcode.com/problems/cousins-in-binary-tree-ii/)|Medium||
 |2642|[Design Graph With Shortest Path Calculator](https://leetcode.com/problems/design-graph-with-shortest-path-calculator/)|Hard||
