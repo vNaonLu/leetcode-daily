@@ -2672,3 +2672,30 @@ id,backend_id,title,level,slug,paid
 2671,2778,Frequency Tracker,2,frequency-tracker,0
 2672,2779,Number of Adjacent Elements With the Same Color,2,number-of-adjacent-elements-with-the-same-color,0
 2673,2780,Make Costs of Paths Equal in a Binary Tree,2,make-costs-of-paths-equal-in-a-binary-tree,0
+2674,2835,Split a Circular Linked List,2,split-a-circular-linked-list,1
+2675,2769,Array of Objects to Matrix,2,array-of-objects-to-matrix,0
+2676,2771,Throttle,2,throttle,0
+2677,2798,Chunk Array,1,chunk-array,0
+2678,2727,Number of Senior Citizens,1,number-of-senior-citizens,0
+2679,2728,Sum in a Matrix,2,sum-in-a-matrix,0
+2680,2730,Maximum OR,2,maximum-or,0
+2681,2784,Power of Heroes,3,power-of-heroes,0
+2682,2791,Find the Losers of the Circular Game,1,find-the-losers-of-the-circular-game,0
+2683,2792,Neighboring Bitwise XOR,2,neighboring-bitwise-xor,0
+2684,2794,Maximum Number of Moves in a Grid,2,maximum-number-of-moves-in-a-grid,0
+2685,2793,Count the Number of Complete Components,2,count-the-number-of-complete-components,0
+2686,2840,Immediate Food Delivery III,2,immediate-food-delivery-iii,1
+2687,2841,Bikes Last Time Used ,1,bikes-last-time-used,1
+2688,2842,Find Active Users,2,find-active-users,1
+2689,2843,Extract Kth Character From The Rope Tree,1,extract-kth-character-from-the-rope-tree,1
+2690,2772,Infinite Method Object,1,infinite-method-object,1
+2691,2773,Immutability Helper,3,immutability-helper,1
+2692,2776,Make Object Immutable,2,make-object-immutable,1
+2693,2790,Call Function with Custom Context,2,call-function-with-custom-context,0
+2694,2797,Event Emitter,2,event-emitter,0
+2695,2805,Array Wrapper,1,array-wrapper,0
+2696,2800,Minimum String Length After Removing Substrings,1,minimum-string-length-after-removing-substrings,0
+2697,2816,Lexicographically Smallest Palindrome,1,lexicographically-smallest-palindrome,0
+2698,2802,Find the Punishment Number of an Integer,2,find-the-punishment-number-of-an-integer,0
+2699,2803,Modify Graph Edge Weights,3,modify-graph-edge-weights,0
+2700,2774,Differences Between Two Objects,2,differences-between-two-objects,0
