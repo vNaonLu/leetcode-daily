@@ -1,6 +1,6 @@
 # Unsolved Solutions List
 
-There are **1701** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
+There are **1700** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
 
 The questions which have been solved are not shown in this page, more information about solved questions can be found at [docs/solved_solutions.md](./solved_solutions.md).
 
@@ -1597,7 +1597,6 @@ The questions which have been solved are not shown in this page, more informatio
 |2579|[Count Total Number of Colored Cells](https://leetcode.com/problems/count-total-number-of-colored-cells/)|Medium||
 |2580|[Count Ways to Group Overlapping Ranges](https://leetcode.com/problems/count-ways-to-group-overlapping-ranges/)|Medium||
 |2581|[Count Number of Possible Root Nodes](https://leetcode.com/problems/count-number-of-possible-root-nodes/)|Hard||
-|2582|[Pass the Pillow](https://leetcode.com/problems/pass-the-pillow/)|Easy||
 |2583|[Kth Largest Sum in a Binary Tree](https://leetcode.com/problems/kth-largest-sum-in-a-binary-tree/)|Medium||
 |2584|[Split the Array to Make Coprime Products](https://leetcode.com/problems/split-the-array-to-make-coprime-products/)|Hard||
 |2585|[Number of Ways to Earn Points](https://leetcode.com/problems/number-of-ways-to-earn-points/)|Hard||
