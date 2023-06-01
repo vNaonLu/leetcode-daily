@@ -1,6 +1,6 @@
 # Unsolved Solutions List
 
-There are **1700** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
+There are **1699** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
 
 The questions which have been solved are not shown in this page, more information about solved questions can be found at [docs/solved_solutions.md](./solved_solutions.md).
 
@@ -229,7 +229,6 @@ The questions which have been solved are not shown in this page, more informatio
 |596|[Classes More Than 5 Students](https://leetcode.com/problems/classes-more-than-5-students/)|Easy||
 |597|[Friend Requests I: Overall Acceptance Rate](https://leetcode.com/problems/friend-requests-i-overall-acceptance-rate/)|Easy|🔒|
 |598|[Range Addition II](https://leetcode.com/problems/range-addition-ii/)|Easy||
-|599|[Minimum Index Sum of Two Lists](https://leetcode.com/problems/minimum-index-sum-of-two-lists/)|Easy||
 |600|[Non-negative Integers without Consecutive Ones](https://leetcode.com/problems/non-negative-integers-without-consecutive-ones/)|Hard||
 |601|[Human Traffic of Stadium](https://leetcode.com/problems/human-traffic-of-stadium/)|Hard||
 |602|[Friend Requests II: Who Has the Most Friends](https://leetcode.com/problems/friend-requests-ii-who-has-the-most-friends/)|Medium||
