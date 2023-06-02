@@ -1000,3 +1000,4 @@ timestamp,id,tc,sc,notes
 1685447676,2481,1,1,
 1685499087,2582,1,1,
 1685616879,599,m * E_1 + n * E_2,m * E_1,"m = |lists.size()|, E_1 = |lists[i].size()|, n = |list2.size()|, E_2 = |list2[i].size|"
+1685688936,2101,n ^ 2,n ^ 2,n = |bombs.size()|
