@@ -1,6 +1,6 @@
 # Unsolved Solutions List
 
-There are **1697** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
+There are **1696** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
 
 The questions which have been solved are not shown in this page, more information about solved questions can be found at [docs/solved_solutions.md](./solved_solutions.md).
 
@@ -171,7 +171,6 @@ The questions which have been solved are not shown in this page, more informatio
 |498|[Diagonal Traverse](https://leetcode.com/problems/diagonal-traverse/)|Medium||
 |499|[The Maze III](https://leetcode.com/problems/the-maze-iii/)|Hard|🔒|
 |505|[The Maze II](https://leetcode.com/problems/the-maze-ii/)|Medium|🔒|
-|506|[Relative Ranks](https://leetcode.com/problems/relative-ranks/)|Easy||
 |508|[Most Frequent Subtree Sum](https://leetcode.com/problems/most-frequent-subtree-sum/)|Medium||
 |510|[Inorder Successor in BST II](https://leetcode.com/problems/inorder-successor-in-bst-ii/)|Medium|🔒|
 |511|[Game Play Analysis I](https://leetcode.com/problems/game-play-analysis-i/)|Easy||
