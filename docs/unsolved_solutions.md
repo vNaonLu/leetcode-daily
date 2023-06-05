@@ -1,6 +1,6 @@
 # Unsolved Solutions List
 
-There are **1702** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
+There are **1695** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
 
 The questions which have been solved are not shown in this page, more information about solved questions can be found at [docs/solved_solutions.md](./solved_solutions.md).
 
@@ -171,7 +171,6 @@ The questions which have been solved are not shown in this page, more informatio
 |498|[Diagonal Traverse](https://leetcode.com/problems/diagonal-traverse/)|Medium||
 |499|[The Maze III](https://leetcode.com/problems/the-maze-iii/)|Hard|🔒|
 |505|[The Maze II](https://leetcode.com/problems/the-maze-ii/)|Medium|🔒|
-|506|[Relative Ranks](https://leetcode.com/problems/relative-ranks/)|Easy||
 |508|[Most Frequent Subtree Sum](https://leetcode.com/problems/most-frequent-subtree-sum/)|Medium||
 |510|[Inorder Successor in BST II](https://leetcode.com/problems/inorder-successor-in-bst-ii/)|Medium|🔒|
 |511|[Game Play Analysis I](https://leetcode.com/problems/game-play-analysis-i/)|Easy||
@@ -229,7 +228,6 @@ The questions which have been solved are not shown in this page, more informatio
 |596|[Classes More Than 5 Students](https://leetcode.com/problems/classes-more-than-5-students/)|Easy||
 |597|[Friend Requests I: Overall Acceptance Rate](https://leetcode.com/problems/friend-requests-i-overall-acceptance-rate/)|Easy|🔒|
 |598|[Range Addition II](https://leetcode.com/problems/range-addition-ii/)|Easy||
-|599|[Minimum Index Sum of Two Lists](https://leetcode.com/problems/minimum-index-sum-of-two-lists/)|Easy||
 |600|[Non-negative Integers without Consecutive Ones](https://leetcode.com/problems/non-negative-integers-without-consecutive-ones/)|Hard||
 |601|[Human Traffic of Stadium](https://leetcode.com/problems/human-traffic-of-stadium/)|Hard||
 |602|[Friend Requests II: Who Has the Most Friends](https://leetcode.com/problems/friend-requests-ii-who-has-the-most-friends/)|Medium||
@@ -360,7 +358,6 @@ The questions which have been solved are not shown in this page, more informatio
 |828|[Count Unique Characters of All Substrings of a Given String](https://leetcode.com/problems/count-unique-characters-of-all-substrings-of-a-given-string/)|Hard||
 |829|[Consecutive Numbers Sum](https://leetcode.com/problems/consecutive-numbers-sum/)|Hard||
 |831|[Masking Personal Information](https://leetcode.com/problems/masking-personal-information/)|Medium||
-|832|[Flipping an Image](https://leetcode.com/problems/flipping-an-image/)|Easy||
 |833|[Find And Replace in String](https://leetcode.com/problems/find-and-replace-in-string/)|Medium||
 |834|[Sum of Distances in Tree](https://leetcode.com/problems/sum-of-distances-in-tree/)|Hard||
 |842|[Split Array into Fibonacci Sequence](https://leetcode.com/problems/split-array-into-fibonacci-sequence/)|Medium||
@@ -447,7 +444,6 @@ The questions which have been solved are not shown in this page, more informatio
 |1012|[Numbers With Repeated Digits](https://leetcode.com/problems/numbers-with-repeated-digits/)|Hard||
 |1013|[Partition Array Into Three Parts With Equal Sum](https://leetcode.com/problems/partition-array-into-three-parts-with-equal-sum/)|Easy||
 |1016|[Binary String With Substrings Representing 1 To N](https://leetcode.com/problems/binary-string-with-substrings-representing-1-to-n/)|Medium||
-|1021|[Remove Outermost Parentheses](https://leetcode.com/problems/remove-outermost-parentheses/)|Easy||
 |1023|[Camelcase Matching](https://leetcode.com/problems/camelcase-matching/)|Medium||
 |1024|[Video Stitching](https://leetcode.com/problems/video-stitching/)|Medium||
 |1025|[Divisor Game](https://leetcode.com/problems/divisor-game/)|Easy||
@@ -1226,7 +1222,6 @@ The questions which have been solved are not shown in this page, more informatio
 |2098|[Subsequence of Size K With the Largest Even Sum](https://leetcode.com/problems/subsequence-of-size-k-with-the-largest-even-sum/)|Medium|🔒|
 |2099|[Find Subsequence of Length K With the Largest Sum](https://leetcode.com/problems/find-subsequence-of-length-k-with-the-largest-sum/)|Easy||
 |2100|[Find Good Days to Rob the Bank](https://leetcode.com/problems/find-good-days-to-rob-the-bank/)|Medium||
-|2101|[Detonate the Maximum Bombs](https://leetcode.com/problems/detonate-the-maximum-bombs/)|Medium||
 |2102|[Sequentially Ordinal Rank Tracker](https://leetcode.com/problems/sequentially-ordinal-rank-tracker/)|Hard||
 |2103|[Rings and Rods](https://leetcode.com/problems/rings-and-rods/)|Easy||
 |2104|[Sum of Subarray Ranges](https://leetcode.com/problems/sum-of-subarray-ranges/)|Medium||
@@ -1513,7 +1508,6 @@ The questions which have been solved are not shown in this page, more informatio
 |2478|[Number of Beautiful Partitions](https://leetcode.com/problems/number-of-beautiful-partitions/)|Hard||
 |2479|[Maximum XOR of Two Non-Overlapping Subtrees](https://leetcode.com/problems/maximum-xor-of-two-non-overlapping-subtrees/)|Hard|🔒|
 |2480|[Form a Chemical Bond](https://leetcode.com/problems/form-a-chemical-bond/)|Easy|🔒|
-|2481|[Minimum Cuts to Divide a Circle](https://leetcode.com/problems/minimum-cuts-to-divide-a-circle/)|Easy||
 |2482|[Difference Between Ones and Zeros in Row and Column](https://leetcode.com/problems/difference-between-ones-and-zeros-in-row-and-column/)|Medium||
 |2483|[Minimum Penalty for a Shop](https://leetcode.com/problems/minimum-penalty-for-a-shop/)|Medium||
 |2484|[Count Palindromic Subsequences](https://leetcode.com/problems/count-palindromic-subsequences/)|Hard||
@@ -1598,7 +1592,6 @@ The questions which have been solved are not shown in this page, more informatio
 |2579|[Count Total Number of Colored Cells](https://leetcode.com/problems/count-total-number-of-colored-cells/)|Medium||
 |2580|[Count Ways to Group Overlapping Ranges](https://leetcode.com/problems/count-ways-to-group-overlapping-ranges/)|Medium||
 |2581|[Count Number of Possible Root Nodes](https://leetcode.com/problems/count-number-of-possible-root-nodes/)|Hard||
-|2582|[Pass the Pillow](https://leetcode.com/problems/pass-the-pillow/)|Easy||
 |2583|[Kth Largest Sum in a Binary Tree](https://leetcode.com/problems/kth-largest-sum-in-a-binary-tree/)|Medium||
 |2584|[Split the Array to Make Coprime Products](https://leetcode.com/problems/split-the-array-to-make-coprime-products/)|Hard||
 |2585|[Number of Ways to Earn Points](https://leetcode.com/problems/number-of-ways-to-earn-points/)|Hard||
