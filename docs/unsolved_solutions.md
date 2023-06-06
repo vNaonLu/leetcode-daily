@@ -1,6 +1,6 @@
 # Unsolved Solutions List
 
-There are **1695** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
+There are **1694** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
 
 The questions which have been solved are not shown in this page, more information about solved questions can be found at [docs/solved_solutions.md](./solved_solutions.md).
 
@@ -342,7 +342,6 @@ The questions which have been solved are not shown in this page, more informatio
 |801|[Minimum Swaps To Make Sequences Increasing](https://leetcode.com/problems/minimum-swaps-to-make-sequences-increasing/)|Hard||
 |803|[Bricks Falling When Hit](https://leetcode.com/problems/bricks-falling-when-hit/)|Hard||
 |805|[Split Array With Same Average](https://leetcode.com/problems/split-array-with-same-average/)|Hard||
-|806|[Number of Lines To Write String](https://leetcode.com/problems/number-of-lines-to-write-string/)|Easy||
 |807|[Max Increase to Keep City Skyline](https://leetcode.com/problems/max-increase-to-keep-city-skyline/)|Medium||
 |808|[Soup Servings](https://leetcode.com/problems/soup-servings/)|Medium||
 |809|[Expressive Words](https://leetcode.com/problems/expressive-words/)|Medium||
