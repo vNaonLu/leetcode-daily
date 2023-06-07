@@ -436,6 +436,8 @@ def ldtRunImpl(*, build_path: Path, infra_test: bool, ids: list[int] = []):
                 else:
                     TASK.done("missing unittests for solution(s): {}", ', '.join(missing_ids), is_success=False)
                     returncode = 1
+            elif returncode == PROCESS_RAN_TIMEOUT:
+                LOG.failure("abort process due to timeout.")
             else:
                 failed_tests = regex.findall('^\[  FAILED  \] ([\w_.]+)$', result, regex.MULTILINE)
                 failed_ids = set([int(regex.search('q(\d+)_\w+\.\w+', test).group(1)) for test in failed_tests])
