@@ -1,6 +1,6 @@
 # Solved Solutions List
 
-This document contains **1008** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
+This document contains **1009** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
 
 Some questions which are still being resolved are not shown in this page, more information about unsolved questions can be found at [docs/unsolved_solutions.md](./unsolved_solutions.md).
 
@@ -680,6 +680,7 @@ Some questions which are still being resolved are not shown in this page, more i
 |1323|[Maximum 69 Number](https://leetcode.com/problems/maximum-69-number/)|[src/q_1301_1350/q1323.cc](../src/q_1301_1350/q1323.cc)|2022/02/17 22:43|
 |1328|[Break a Palindrome](https://leetcode.com/problems/break-a-palindrome/)|[src/q_1301_1350/q1328.cc](../src/q_1301_1350/q1328.cc)|2021/09/23 08:00|
 |1329|[Sort the Matrix Diagonally](https://leetcode.com/problems/sort-the-matrix-diagonally/)|[src/q_1301_1350/q1329.cc](../src/q_1301_1350/q1329.cc)|2022/08/28 15:01|
+|1331|[Rank Transform of an Array](https://leetcode.com/problems/rank-transform-of-an-array/)|[src/q_1301_1350/q1331.cc](../src/q_1301_1350/q1331.cc)|2023/06/09 11:35|
 |1332|[Remove Palindromic Subsequences](https://leetcode.com/problems/remove-palindromic-subsequences/)|[src/q_1301_1350/q1332.cc](../src/q_1301_1350/q1332.cc)|2022/06/08 18:02|
 |1335|[Minimum Difficulty of a Job Schedule](https://leetcode.com/problems/minimum-difficulty-of-a-job-schedule/)|[src/q_1301_1350/q1335.cc](../src/q_1301_1350/q1335.cc)|2022/10/16 14:40|
 |1337|[The K Weakest Rows in a Matrix](https://leetcode.com/problems/the-k-weakest-rows-in-a-matrix/)|[src/q_1301_1350/q1337.cc](../src/q_1301_1350/q1337.cc)|2022/03/27 23:33|
