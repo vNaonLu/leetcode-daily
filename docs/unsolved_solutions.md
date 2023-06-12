@@ -1,6 +1,6 @@
 # Unsolved Solutions List
 
-There are **1695** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
+There are **1688** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
 
 The questions which have been solved are not shown in this page, more information about solved questions can be found at [docs/solved_solutions.md](./solved_solutions.md).
 
@@ -342,7 +342,6 @@ The questions which have been solved are not shown in this page, more informatio
 |801|[Minimum Swaps To Make Sequences Increasing](https://leetcode.com/problems/minimum-swaps-to-make-sequences-increasing/)|Hard||
 |803|[Bricks Falling When Hit](https://leetcode.com/problems/bricks-falling-when-hit/)|Hard||
 |805|[Split Array With Same Average](https://leetcode.com/problems/split-array-with-same-average/)|Hard||
-|806|[Number of Lines To Write String](https://leetcode.com/problems/number-of-lines-to-write-string/)|Easy||
 |807|[Max Increase to Keep City Skyline](https://leetcode.com/problems/max-increase-to-keep-city-skyline/)|Medium||
 |808|[Soup Servings](https://leetcode.com/problems/soup-servings/)|Medium||
 |809|[Expressive Words](https://leetcode.com/problems/expressive-words/)|Medium||
@@ -449,7 +448,6 @@ The questions which have been solved are not shown in this page, more informatio
 |1025|[Divisor Game](https://leetcode.com/problems/divisor-game/)|Easy||
 |1027|[Longest Arithmetic Subsequence](https://leetcode.com/problems/longest-arithmetic-subsequence/)|Medium||
 |1028|[Recover a Tree From Preorder Traversal](https://leetcode.com/problems/recover-a-tree-from-preorder-traversal/)|Hard||
-|1030|[Matrix Cells in Distance Order](https://leetcode.com/problems/matrix-cells-in-distance-order/)|Easy||
 |1033|[Moving Stones Until Consecutive](https://leetcode.com/problems/moving-stones-until-consecutive/)|Medium||
 |1034|[Coloring A Border](https://leetcode.com/problems/coloring-a-border/)|Medium||
 |1036|[Escape a Large Maze](https://leetcode.com/problems/escape-a-large-maze/)|Hard||
@@ -658,7 +656,6 @@ The questions which have been solved are not shown in this page, more informatio
 |1315|[Sum of Nodes with Even-Valued Grandparent](https://leetcode.com/problems/sum-of-nodes-with-even-valued-grandparent/)|Medium||
 |1316|[Distinct Echo Substrings](https://leetcode.com/problems/distinct-echo-substrings/)|Hard||
 |1317|[Convert Integer to the Sum of Two No-Zero Integers](https://leetcode.com/problems/convert-integer-to-the-sum-of-two-no-zero-integers/)|Easy||
-|1318|[Minimum Flips to Make a OR b Equal to c](https://leetcode.com/problems/minimum-flips-to-make-a-or-b-equal-to-c/)|Medium||
 |1320|[Minimum Distance to Type a Word Using Two Fingers](https://leetcode.com/problems/minimum-distance-to-type-a-word-using-two-fingers/)|Hard||
 |1321|[Restaurant Growth](https://leetcode.com/problems/restaurant-growth/)|Medium||
 |1322|[Ads Performance](https://leetcode.com/problems/ads-performance/)|Easy|🔒|
@@ -667,7 +664,6 @@ The questions which have been solved are not shown in this page, more informatio
 |1326|[Minimum Number of Taps to Open to Water a Garden](https://leetcode.com/problems/minimum-number-of-taps-to-open-to-water-a-garden/)|Hard||
 |1327|[List the Products Ordered in a Period](https://leetcode.com/problems/list-the-products-ordered-in-a-period/)|Easy||
 |1330|[Reverse Subarray To Maximize Array Value](https://leetcode.com/problems/reverse-subarray-to-maximize-array-value/)|Hard||
-|1331|[Rank Transform of an Array](https://leetcode.com/problems/rank-transform-of-an-array/)|Easy||
 |1333|[Filter Restaurants by Vegan-Friendly, Price and Distance](https://leetcode.com/problems/filter-restaurants-by-vegan-friendly-price-and-distance/)|Medium||
 |1334|[Find the City With the Smallest Number of Neighbors at a Threshold Distance](https://leetcode.com/problems/find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance/)|Medium||
 |1336|[Number of Transactions per Visit](https://leetcode.com/problems/number-of-transactions-per-visit/)|Hard|🔒|
@@ -705,7 +701,6 @@ The questions which have been solved are not shown in this page, more informatio
 |1386|[Cinema Seat Allocation](https://leetcode.com/problems/cinema-seat-allocation/)|Medium||
 |1387|[Sort Integers by The Power Value](https://leetcode.com/problems/sort-integers-by-the-power-value/)|Medium||
 |1388|[Pizza With 3n Slices](https://leetcode.com/problems/pizza-with-3n-slices/)|Hard||
-|1389|[Create Target Array in the Given Order](https://leetcode.com/problems/create-target-array-in-the-given-order/)|Easy||
 |1391|[Check if There is a Valid Path in a Grid](https://leetcode.com/problems/check-if-there-is-a-valid-path-in-a-grid/)|Medium||
 |1392|[Longest Happy Prefix](https://leetcode.com/problems/longest-happy-prefix/)|Hard||
 |1393|[Capital Gain/Loss](https://leetcode.com/problems/capital-gainloss/)|Medium||
@@ -1063,7 +1058,6 @@ The questions which have been solved are not shown in this page, more informatio
 |1906|[Minimum Absolute Difference Queries](https://leetcode.com/problems/minimum-absolute-difference-queries/)|Medium||
 |1907|[Count Salary Categories](https://leetcode.com/problems/count-salary-categories/)|Medium||
 |1908|[Game of Nim](https://leetcode.com/problems/game-of-nim/)|Medium|🔒|
-|1909|[Remove One Element to Make the Array Strictly Increasing](https://leetcode.com/problems/remove-one-element-to-make-the-array-strictly-increasing/)|Easy||
 |1910|[Remove All Occurrences of a Substring](https://leetcode.com/problems/remove-all-occurrences-of-a-substring/)|Medium||
 |1911|[Maximum Alternating Subsequence Sum](https://leetcode.com/problems/maximum-alternating-subsequence-sum/)|Medium||
 |1912|[Design Movie Rental System](https://leetcode.com/problems/design-movie-rental-system/)|Hard||
@@ -1084,7 +1078,6 @@ The questions which have been solved are not shown in this page, more informatio
 |1932|[Merge BSTs to Create Single BST](https://leetcode.com/problems/merge-bsts-to-create-single-bst/)|Hard||
 |1933|[Check if String Is Decomposable Into Value-Equal Substrings](https://leetcode.com/problems/check-if-string-is-decomposable-into-value-equal-substrings/)|Easy|🔒|
 |1934|[Confirmation Rate](https://leetcode.com/problems/confirmation-rate/)|Medium||
-|1935|[Maximum Number of Words You Can Type](https://leetcode.com/problems/maximum-number-of-words-you-can-type/)|Easy||
 |1936|[Add Minimum Number of Rungs](https://leetcode.com/problems/add-minimum-number-of-rungs/)|Medium||
 |1937|[Maximum Number of Points with Cost](https://leetcode.com/problems/maximum-number-of-points-with-cost/)|Medium||
 |1938|[Maximum Genetic Difference Query](https://leetcode.com/problems/maximum-genetic-difference-query/)|Hard||
