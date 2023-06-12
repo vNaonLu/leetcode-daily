@@ -1,6 +1,6 @@
 # Solved Solutions List
 
-This document contains **1011** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
+This document contains **1012** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
 
 Some questions which are still being resolved are not shown in this page, more information about unsolved questions can be found at [docs/unsolved_solutions.md](./unsolved_solutions.md).
 
@@ -864,6 +864,7 @@ Some questions which are still being resolved are not shown in this page, more i
 |1901|[Find a Peak Element II](https://leetcode.com/problems/find-a-peak-element-ii/)|[src/q_1901_1950/q1901.cc](../src/q_1901_1950/q1901.cc)|2022/07/30 17:22|
 |1903|[Largest Odd Number in String](https://leetcode.com/problems/largest-odd-number-in-string/)|[src/q_1901_1950/q1903.cc](../src/q_1901_1950/q1903.cc)|2022/02/23 19:13|
 |1905|[Count Sub Islands](https://leetcode.com/problems/count-sub-islands/)|[src/q_1901_1950/q1905.cc](../src/q_1901_1950/q1905.cc)|2022/03/12 14:08|
+|1909|[Remove One Element to Make the Array Strictly Increasing](https://leetcode.com/problems/remove-one-element-to-make-the-array-strictly-increasing/)|[src/q_1901_1950/q1909.cc](../src/q_1901_1950/q1909.cc)|2023/06/12 20:41|
 |1913|[Maximum Product Difference Between Two Pairs](https://leetcode.com/problems/maximum-product-difference-between-two-pairs/)|[src/q_1901_1950/q1913.cc](../src/q_1901_1950/q1913.cc)|2023/04/18 18:59|
 |1920|[Build Array from Permutation](https://leetcode.com/problems/build-array-from-permutation/)|[src/q_1901_1950/q1920.cc](../src/q_1901_1950/q1920.cc)|2022/08/11 12:04|
 |1925|[Count Square Sum Triples](https://leetcode.com/problems/count-square-sum-triples/)|[src/q_1901_1950/q1925.cc](../src/q_1901_1950/q1925.cc)|2022/12/13 19:38|
