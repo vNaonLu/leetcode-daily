@@ -1,6 +1,6 @@
 # Unsolved Solutions List
 
-There are **1688** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
+There are **1687** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
 
 The questions which have been solved are not shown in this page, more information about solved questions can be found at [docs/solved_solutions.md](./solved_solutions.md).
 
@@ -1401,7 +1401,6 @@ The questions which have been solved are not shown in this page, more informatio
 |2346|[Compute the Rank as a Percentage](https://leetcode.com/problems/compute-the-rank-as-a-percentage/)|Medium|🔒|
 |2349|[Design a Number Container System](https://leetcode.com/problems/design-a-number-container-system/)|Medium||
 |2350|[Shortest Impossible Sequence of Rolls](https://leetcode.com/problems/shortest-impossible-sequence-of-rolls/)|Hard||
-|2352|[Equal Row and Column Pairs](https://leetcode.com/problems/equal-row-and-column-pairs/)|Medium||
 |2353|[Design a Food Rating System](https://leetcode.com/problems/design-a-food-rating-system/)|Medium||
 |2354|[Number of Excellent Pairs](https://leetcode.com/problems/number-of-excellent-pairs/)|Hard||
 |2355|[Maximum Number of Books You Can Take](https://leetcode.com/problems/maximum-number-of-books-you-can-take/)|Hard|🔒|
