@@ -173,7 +173,7 @@ class CPPSolution:
             constrains_section = concat(
                 f'///////////////////////////////////////////////////////////////////////////////',
                 f'// The following is test data for unit test.',
-                f'// Note that inputs should be obey the constraints mentioned in LeetCode:',
+                f'// Note that inputs should obey the constraints mentioned in LeetCode:',
                 f'// * ' + concat(*[c.content for c in self._content_info.constraints], delimiter='\n// * '),
                 f'///////////////////////////////////////////////////////////////////////////////',
             )
