@@ -1,6 +1,6 @@
 # Unsolved Solutions List
 
-There are **1722** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
+There are **1721** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
 
 The questions which have been solved are not shown in this page, more information about solved questions can be found at [docs/solved_solutions.md](./solved_solutions.md).
 
@@ -542,7 +542,6 @@ The questions which have been solved are not shown in this page, more informatio
 |1157|[Online Majority Element In Subarray](https://leetcode.com/problems/online-majority-element-in-subarray/)|Hard||
 |1158|[Market Analysis I](https://leetcode.com/problems/market-analysis-i/)|Medium||
 |1159|[Market Analysis II](https://leetcode.com/problems/market-analysis-ii/)|Hard|🔒|
-|1161|[Maximum Level Sum of a Binary Tree](https://leetcode.com/problems/maximum-level-sum-of-a-binary-tree/)|Medium||
 |1163|[Last Substring in Lexicographical Order](https://leetcode.com/problems/last-substring-in-lexicographical-order/)|Hard||
 |1164|[Product Price at a Given Date](https://leetcode.com/problems/product-price-at-a-given-date/)|Medium||
 |1165|[Single-Row Keyboard](https://leetcode.com/problems/single-row-keyboard/)|Easy|🔒|

@@ -1,6 +1,6 @@
 # Solved Solutions List
 
-This document contains **1014** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
+This document contains **1015** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
 
 Some questions which are still being resolved are not shown in this page, more information about unsolved questions can be found at [docs/unsolved_solutions.md](./unsolved_solutions.md).
 
@@ -632,6 +632,7 @@ Some questions which are still being resolved are not shown in this page, more i
 |1154|[Day of the Year](https://leetcode.com/problems/day-of-the-year/)|[src/q_1151_1200/q1154.cc](../src/q_1151_1200/q1154.cc)|2022/11/13 13:49|
 |1155|[Number of Dice Rolls With Target Sum](https://leetcode.com/problems/number-of-dice-rolls-with-target-sum/)|[src/q_1151_1200/q1155.cc](../src/q_1151_1200/q1155.cc)|2022/02/10 15:42|
 |1160|[Find Words That Can Be Formed by Characters](https://leetcode.com/problems/find-words-that-can-be-formed-by-characters/)|[src/q_1151_1200/q1160.cc](../src/q_1151_1200/q1160.cc)|2022/12/03 17:23|
+|1161|[Maximum Level Sum of a Binary Tree](https://leetcode.com/problems/maximum-level-sum-of-a-binary-tree/)|[src/q_1151_1200/q1161.cc](../src/q_1151_1200/q1161.cc)|2023/06/15 14:12|
 |1162|[As Far from Land as Possible](https://leetcode.com/problems/as-far-from-land-as-possible/)|[src/q_1151_1200/q1162.cc](../src/q_1151_1200/q1162.cc)|2022/03/13 13:28|
 |1178|[Number of Valid Words for Each Puzzle](https://leetcode.com/problems/number-of-valid-words-for-each-puzzle/)|[src/q_1151_1200/q1178.cc](../src/q_1151_1200/q1178.cc)|2021/11/09 18:10|
 |1184|[Distance Between Bus Stops](https://leetcode.com/problems/distance-between-bus-stops/)|[src/q_1151_1200/q1184.cc](../src/q_1151_1200/q1184.cc)|2023/03/28 19:30|
