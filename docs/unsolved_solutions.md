@@ -1,6 +1,6 @@
 # Unsolved Solutions List
 
-There are **1720** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
+There are **1719** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
 
 The questions which have been solved are not shown in this page, more information about solved questions can be found at [docs/solved_solutions.md](./solved_solutions.md).
 
@@ -563,7 +563,6 @@ The questions which have been solved are not shown in this page, more informatio
 |1182|[Shortest Distance to Target Color](https://leetcode.com/problems/shortest-distance-to-target-color/)|Medium|🔒|
 |1183|[Maximum Number of Ones](https://leetcode.com/problems/maximum-number-of-ones/)|Hard|🔒|
 |1186|[Maximum Subarray Sum with One Deletion](https://leetcode.com/problems/maximum-subarray-sum-with-one-deletion/)|Medium||
-|1187|[Make Array Strictly Increasing](https://leetcode.com/problems/make-array-strictly-increasing/)|Hard||
 |1188|[Design Bounded Blocking Queue](https://leetcode.com/problems/design-bounded-blocking-queue/)|Medium|🔒|
 |1190|[Reverse Substrings Between Each Pair of Parentheses](https://leetcode.com/problems/reverse-substrings-between-each-pair-of-parentheses/)|Medium||
 |1193|[Monthly Transactions I](https://leetcode.com/problems/monthly-transactions-i/)|Medium||
