@@ -1,6 +1,6 @@
 # Solved Solutions List
 
-This document contains **1017** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
+This document contains **1018** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
 
 Some questions which are still being resolved are not shown in this page, more information about unsolved questions can be found at [docs/unsolved_solutions.md](./unsolved_solutions.md).
 
@@ -961,6 +961,7 @@ Some questions which are still being resolved are not shown in this page, more i
 |2316|[Count Unreachable Pairs of Nodes in an Undirected Graph](https://leetcode.com/problems/count-unreachable-pairs-of-nodes-in-an-undirected-graph/)|[src/q_2301_2350/q2316.cc](../src/q_2301_2350/q2316.cc)|2023/03/25 18:00|
 |2319|[Check if Matrix Is X-Matrix](https://leetcode.com/problems/check-if-matrix-is-x-matrix/)|[src/q_2301_2350/q2319.cc](../src/q_2301_2350/q2319.cc)|2023/01/17 21:30|
 |2325|[Decode the Message](https://leetcode.com/problems/decode-the-message/)|[src/q_2301_2350/q2325.cc](../src/q_2301_2350/q2325.cc)|2023/02/11 14:52|
+|2328|[Number of Increasing Paths in a Grid](https://leetcode.com/problems/number-of-increasing-paths-in-a-grid/)|[src/q_2301_2350/q2328.cc](../src/q_2301_2350/q2328.cc)|2023/06/18 14:58|
 |2331|[Evaluate Boolean Binary Tree](https://leetcode.com/problems/evaluate-boolean-binary-tree/)|[src/q_2301_2350/q2331.cc](../src/q_2301_2350/q2331.cc)|2022/10/18 14:13|
 |2336|[Smallest Number in Infinite Set](https://leetcode.com/problems/smallest-number-in-infinite-set/)|[src/q_2301_2350/q2336.cc](../src/q_2301_2350/q2336.cc)|2023/04/25 18:45|
 |2341|[Maximum Number of Pairs in Array](https://leetcode.com/problems/maximum-number-of-pairs-in-array/)|[src/q_2301_2350/q2341.cc](../src/q_2301_2350/q2341.cc)|2023/05/02 18:43|

@@ -1,6 +1,6 @@
 # Unsolved Solutions List
 
-There are **1719** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
+There are **1718** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
 
 The questions which have been solved are not shown in this page, more information about solved questions can be found at [docs/solved_solutions.md](./solved_solutions.md).
 
@@ -1380,7 +1380,6 @@ The questions which have been solved are not shown in this page, more informatio
 |2324|[Product Sales Analysis IV](https://leetcode.com/problems/product-sales-analysis-iv/)|Medium|🔒|
 |2326|[Spiral Matrix IV](https://leetcode.com/problems/spiral-matrix-iv/)|Medium||
 |2327|[Number of People Aware of a Secret](https://leetcode.com/problems/number-of-people-aware-of-a-secret/)|Medium||
-|2328|[Number of Increasing Paths in a Grid](https://leetcode.com/problems/number-of-increasing-paths-in-a-grid/)|Hard||
 |2329|[Product Sales Analysis V](https://leetcode.com/problems/product-sales-analysis-v/)|Easy|🔒|
 |2330|[Valid Palindrome IV](https://leetcode.com/problems/valid-palindrome-iv/)|Medium|🔒|
 |2332|[The Latest Time to Catch a Bus](https://leetcode.com/problems/the-latest-time-to-catch-a-bus/)|Medium||
