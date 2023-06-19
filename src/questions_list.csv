@@ -70,7 +70,7 @@ id,backend_id,title,level,slug,paid
 69,69,Sqrt(x),1,sqrtx,0
 70,70,Climbing Stairs,1,climbing-stairs,0
 71,71,Simplify Path,2,simplify-path,0
-72,72,Edit Distance,3,edit-distance,0
+72,72,Edit Distance,2,edit-distance,0
 73,73,Set Matrix Zeroes,2,set-matrix-zeroes,0
 74,74,Search a 2D Matrix,2,search-a-2d-matrix,0
 75,75,Sort Colors,2,sort-colors,0
@@ -2626,15 +2626,15 @@ id,backend_id,title,level,slug,paid
 2625,2759,Flatten Deeply Nested Array,2,flatten-deeply-nested-array,0
 2626,2761,Array Reduce Transformation,1,array-reduce-transformation,0
 2627,2743,Debounce,2,debounce,0
-2628,2735,JSON Deep Equal,2,json-deep-equal,0
+2628,2735,JSON Deep Equal,2,json-deep-equal,1
 2629,2741,Function Composition,1,function-composition,0
 2630,2744,Memoize II,3,memoize-ii,0
 2631,2742,Group By,2,group-by,0
-2632,2740,Curry,2,curry,0
-2633,2745,Convert Object to JSON String,2,convert-object-to-json-string,0
+2632,2740,Curry,2,curry,1
+2633,2745,Convert Object to JSON String,2,convert-object-to-json-string,1
 2634,2746,Filter Elements from Array,1,filter-elements-from-array,0
 2635,2747,Apply Transform Over Each Element in Array,1,apply-transform-over-each-element-in-array,0
-2636,2750,Promise Pool,2,promise-pool,0
+2636,2750,Promise Pool,2,promise-pool,1
 2637,2749,Promise Time Limit,1,promise-time-limit,0
 2638,2738,Count the Number of K-Free Subsets,2,count-the-number-of-k-free-subsets,1
 2639,2675,Find the Width of Columns of a Grid,1,find-the-width-of-columns-of-a-grid,0
@@ -2673,8 +2673,8 @@ id,backend_id,title,level,slug,paid
 2672,2779,Number of Adjacent Elements With the Same Color,2,number-of-adjacent-elements-with-the-same-color,0
 2673,2780,Make Costs of Paths Equal in a Binary Tree,2,make-costs-of-paths-equal-in-a-binary-tree,0
 2674,2835,Split a Circular Linked List,2,split-a-circular-linked-list,1
-2675,2769,Array of Objects to Matrix,2,array-of-objects-to-matrix,0
-2676,2771,Throttle,2,throttle,0
+2675,2769,Array of Objects to Matrix,2,array-of-objects-to-matrix,1
+2676,2771,Throttle,2,throttle,1
 2677,2798,Chunk Array,1,chunk-array,0
 2678,2727,Number of Senior Citizens,1,number-of-senior-citizens,0
 2679,2728,Sum in a Matrix,2,sum-in-a-matrix,0
@@ -2698,4 +2698,40 @@ id,backend_id,title,level,slug,paid
 2697,2816,Lexicographically Smallest Palindrome,1,lexicographically-smallest-palindrome,0
 2698,2802,Find the Punishment Number of an Integer,2,find-the-punishment-number-of-an-integer,0
 2699,2803,Modify Graph Edge Weights,3,modify-graph-edge-weights,0
-2700,2774,Differences Between Two Objects,2,differences-between-two-objects,0
+2700,2774,Differences Between Two Objects,2,differences-between-two-objects,1
+2701,2853,Consecutive Transactions with Increasing Amounts,3,consecutive-transactions-with-increasing-amounts,1
+2702,2729,Minimum Operations to Make Numbers Non-positive,3,minimum-operations-to-make-numbers-non-positive,1
+2703,2820,Return Length of Arguments Passed,1,return-length-of-arguments-passed,0
+2704,2813,To Be Or Not To Be,1,to-be-or-not-to-be,0
+2705,2804,Compact Object,2,compact-object,0
+2706,2756,Buy Two Chocolates,1,buy-two-chocolates,0
+2707,2755,Extra Characters in a String,2,extra-characters-in-a-string,0
+2708,2754,Maximum Strength of a Group,2,maximum-strength-of-a-group,0
+2709,2827,Greatest Common Divisor Traversal,3,greatest-common-divisor-traversal,0
+2710,2819,Remove Trailing Zeros From a String,1,remove-trailing-zeros-from-a-string,0
+2711,2801,Difference of Number of Distinct Values on Diagonals,2,difference-of-number-of-distinct-values-on-diagonals,0
+2712,2817,Minimum Cost to Make All Characters Equal,2,minimum-cost-to-make-all-characters-equal,0
+2713,2818,Maximum Strictly Increasing Cells in a Matrix,3,maximum-strictly-increasing-cells-in-a-matrix,0
+2714,2865,Find Shortest Path with K Hops,3,find-shortest-path-with-k-hops,1
+2715,2821,Execute Cancellable Function With Delay,1,execute-cancellable-function-with-delay,0
+2716,2825,Minimize String Length,1,minimize-string-length,0
+2717,2785,Semi-Ordered Permutation,1,semi-ordered-permutation,0
+2718,2838,Sum of Matrix After Queries,2,sum-of-matrix-after-queries,0
+2719,2757,Count of Integers,3,count-of-integers,0
+2720,2874,Popularity Percentage,3,popularity-percentage,1
+2721,2807,Execute Asynchronous Functions in Parallel,2,execute-asynchronous-functions-in-parallel,0
+2722,2858,Join Two Arrays by ID,2,join-two-arrays-by-id,0
+2723,2859,Add Two Promises,1,add-two-promises,0
+2724,2860,Sort By,1,sort-by,0
+2725,2862,Interval Cancellation,1,interval-cancellation,0
+2726,2863,Calculator with Method Chaining,1,calculator-with-method-chaining,0
+2727,2864,Is Object Empty,1,is-object-empty,0
+2728,2875,Count Houses in a Circular Street,1,count-houses-in-a-circular-street,1
+2729,2824,Check if The Number is Fascinating,1,check-if-the-number-is-fascinating,0
+2730,2786,Find the Longest Semi-Repetitive Substring,2,find-the-longest-semi-repetitive-substring,0
+2731,2787,Movement of Robots,2,movement-of-robots,0
+2732,2826,Find a Good Subset of the Matrix,3,find-a-good-subset-of-the-matrix,0
+2733,2836,Neither Minimum nor Maximum,1,neither-minimum-nor-maximum,0
+2734,2828,Lexicographically Smallest String After Substring Operation,2,lexicographically-smallest-string-after-substring-operation,0
+2735,2810,Collecting Chocolates,2,collecting-chocolates,0
+2736,2839,Maximum Sum Queries,3,maximum-sum-queries,0
