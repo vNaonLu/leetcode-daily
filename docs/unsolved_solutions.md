@@ -1,6 +1,6 @@
 # Unsolved Solutions List
 
-There are **1717** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
+There are **1716** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
 
 The questions which have been solved are not shown in this page, more information about solved questions can be found at [docs/solved_solutions.md](./solved_solutions.md).
 
@@ -678,7 +678,6 @@ The questions which have been solved are not shown in this page, more informatio
 |1355|[Activity Participants](https://leetcode.com/problems/activity-participants/)|Medium|🔒|
 |1357|[Apply Discount Every n Orders](https://leetcode.com/problems/apply-discount-every-n-orders/)|Medium||
 |1358|[Number of Substrings Containing All Three Characters](https://leetcode.com/problems/number-of-substrings-containing-all-three-characters/)|Medium||
-|1360|[Number of Days Between Two Dates](https://leetcode.com/problems/number-of-days-between-two-dates/)|Easy||
 |1362|[Closest Divisors](https://leetcode.com/problems/closest-divisors/)|Medium||
 |1363|[Largest Multiple of Three](https://leetcode.com/problems/largest-multiple-of-three/)|Hard||
 |1365|[How Many Numbers Are Smaller Than the Current Number](https://leetcode.com/problems/how-many-numbers-are-smaller-than-the-current-number/)|Easy||
