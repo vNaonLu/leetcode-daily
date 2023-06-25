@@ -1,6 +1,6 @@
 # Solved Solutions List
 
-This document contains **1024** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
+This document contains **1025** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
 
 Some questions which are still being resolved are not shown in this page, more information about unsolved questions can be found at [docs/unsolved_solutions.md](./unsolved_solutions.md).
 
@@ -770,6 +770,7 @@ Some questions which are still being resolved are not shown in this page, more i
 |1569|[Number of Ways to Reorder Array to Get Same BST](https://leetcode.com/problems/number-of-ways-to-reorder-array-to-get-same-bst/)|[src/q_1551_1600/q1569.cc](../src/q_1551_1600/q1569.cc)|2023/06/16 10:23|
 |1572|[Matrix Diagonal Sum](https://leetcode.com/problems/matrix-diagonal-sum/)|[src/q_1551_1600/q1572.cc](../src/q_1551_1600/q1572.cc)|2022/04/20 18:07|
 |1574|[Shortest Subarray to be Removed to Make Array Sorted](https://leetcode.com/problems/shortest-subarray-to-be-removed-to-make-array-sorted/)|[src/q_1551_1600/q1574.cc](../src/q_1551_1600/q1574.cc)|2022/07/27 18:21|
+|1575|[Count All Possible Routes](https://leetcode.com/problems/count-all-possible-routes/)|[src/q_1551_1600/q1575.cc](../src/q_1551_1600/q1575.cc)|2023/06/25 13:01|
 |1576|[Replace All ?'s to Avoid Consecutive Repeating Characters](https://leetcode.com/problems/replace-all-s-to-avoid-consecutive-repeating-characters/)|[src/q_1551_1600/q1576.cc](../src/q_1551_1600/q1576.cc)|2022/07/03 14:26|
 |1578|[Minimum Time to Make Rope Colorful](https://leetcode.com/problems/minimum-time-to-make-rope-colorful/)|[src/q_1551_1600/q1578.cc](../src/q_1551_1600/q1578.cc)|2022/10/03 12:31|
 |1579|[Remove Max Number of Edges to Keep Graph Fully Traversable](https://leetcode.com/problems/remove-max-number-of-edges-to-keep-graph-fully-traversable/)|[src/q_1551_1600/q1579.cc](../src/q_1551_1600/q1579.cc)|2023/04/30 15:05|
