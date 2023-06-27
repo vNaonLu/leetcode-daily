@@ -1018,3 +1018,10 @@ timestamp,id,tc,sc,notes
 1686971537,1187,-,-,not calculated
 1687071491,2328,m * n,m * n,"m = |grid.size()|, n = |grid[i].size()|"
 1687174797,551,n,1,n = |s.size()|
+1687264570,1360,1,1,
+1687331142,2448,n * log(n),n,n = |nums.size()|
+1687392236,1380,m * n,1,"m = |matrix.size()|, n = |matrix[i].size()|"
+1687517375,1027,n^2,n^2,n = |nums.size()|
+1687584076,956,n^2,n,n = |rods.size()|
+1687669282,1575,m * n^2,m * n,"m = |fuel|, n = |locations.size()|"
+1687757732,2462,n * log(n) * k,n,n = |costs.size()|

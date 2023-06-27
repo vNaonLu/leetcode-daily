@@ -1,6 +1,6 @@
 # Unsolved Solutions List
 
-There are **1717** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
+There are **1710** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
 
 The questions which have been solved are not shown in this page, more information about solved questions can be found at [docs/solved_solutions.md](./solved_solutions.md).
 
@@ -411,7 +411,6 @@ The questions which have been solved are not shown in this page, more informatio
 |950|[Reveal Cards In Increasing Order](https://leetcode.com/problems/reveal-cards-in-increasing-order/)|Medium||
 |954|[Array of Doubled Pairs](https://leetcode.com/problems/array-of-doubled-pairs/)|Medium||
 |955|[Delete Columns to Make Sorted II](https://leetcode.com/problems/delete-columns-to-make-sorted-ii/)|Medium||
-|956|[Tallest Billboard](https://leetcode.com/problems/tallest-billboard/)|Hard||
 |957|[Prison Cells After N Days](https://leetcode.com/problems/prison-cells-after-n-days/)|Medium||
 |959|[Regions Cut By Slashes](https://leetcode.com/problems/regions-cut-by-slashes/)|Medium||
 |960|[Delete Columns to Make Sorted III](https://leetcode.com/problems/delete-columns-to-make-sorted-iii/)|Hard||
@@ -445,7 +444,6 @@ The questions which have been solved are not shown in this page, more informatio
 |1023|[Camelcase Matching](https://leetcode.com/problems/camelcase-matching/)|Medium||
 |1024|[Video Stitching](https://leetcode.com/problems/video-stitching/)|Medium||
 |1025|[Divisor Game](https://leetcode.com/problems/divisor-game/)|Easy||
-|1027|[Longest Arithmetic Subsequence](https://leetcode.com/problems/longest-arithmetic-subsequence/)|Medium||
 |1028|[Recover a Tree From Preorder Traversal](https://leetcode.com/problems/recover-a-tree-from-preorder-traversal/)|Hard||
 |1033|[Moving Stones Until Consecutive](https://leetcode.com/problems/moving-stones-until-consecutive/)|Medium||
 |1034|[Coloring A Border](https://leetcode.com/problems/coloring-a-border/)|Medium||
@@ -678,7 +676,6 @@ The questions which have been solved are not shown in this page, more informatio
 |1355|[Activity Participants](https://leetcode.com/problems/activity-participants/)|Medium|🔒|
 |1357|[Apply Discount Every n Orders](https://leetcode.com/problems/apply-discount-every-n-orders/)|Medium||
 |1358|[Number of Substrings Containing All Three Characters](https://leetcode.com/problems/number-of-substrings-containing-all-three-characters/)|Medium||
-|1360|[Number of Days Between Two Dates](https://leetcode.com/problems/number-of-days-between-two-dates/)|Easy||
 |1362|[Closest Divisors](https://leetcode.com/problems/closest-divisors/)|Medium||
 |1363|[Largest Multiple of Three](https://leetcode.com/problems/largest-multiple-of-three/)|Hard||
 |1365|[How Many Numbers Are Smaller Than the Current Number](https://leetcode.com/problems/how-many-numbers-are-smaller-than-the-current-number/)|Easy||
@@ -692,7 +689,6 @@ The questions which have been solved are not shown in this page, more informatio
 |1375|[Number of Times Binary String Is Prefix-Aligned](https://leetcode.com/problems/number-of-times-binary-string-is-prefix-aligned/)|Medium||
 |1377|[Frog Position After T Seconds](https://leetcode.com/problems/frog-position-after-t-seconds/)|Hard||
 |1378|[Replace Employee ID With The Unique Identifier](https://leetcode.com/problems/replace-employee-id-with-the-unique-identifier/)|Easy||
-|1380|[Lucky Numbers in a Matrix](https://leetcode.com/problems/lucky-numbers-in-a-matrix/)|Easy||
 |1381|[Design a Stack With Increment Operation](https://leetcode.com/problems/design-a-stack-with-increment-operation/)|Medium||
 |1384|[Total Sales Amount by Year](https://leetcode.com/problems/total-sales-amount-by-year/)|Hard|🔒|
 |1386|[Cinema Seat Allocation](https://leetcode.com/problems/cinema-seat-allocation/)|Medium||
@@ -822,7 +818,6 @@ The questions which have been solved are not shown in this page, more informatio
 |1570|[Dot Product of Two Sparse Vectors](https://leetcode.com/problems/dot-product-of-two-sparse-vectors/)|Medium|🔒|
 |1571|[Warehouse Manager](https://leetcode.com/problems/warehouse-manager/)|Easy|🔒|
 |1573|[Number of Ways to Split a String](https://leetcode.com/problems/number-of-ways-to-split-a-string/)|Medium||
-|1575|[Count All Possible Routes](https://leetcode.com/problems/count-all-possible-routes/)|Hard||
 |1577|[Number of Ways Where Square of Number Is Equal to Product of Two Numbers](https://leetcode.com/problems/number-of-ways-where-square-of-number-is-equal-to-product-of-two-numbers/)|Medium||
 |1580|[Put Boxes Into the Warehouse II](https://leetcode.com/problems/put-boxes-into-the-warehouse-ii/)|Medium|🔒|
 |1581|[Customer Who Visited but Did Not Make Any Transactions](https://leetcode.com/problems/customer-who-visited-but-did-not-make-any-transactions/)|Easy||
@@ -1469,7 +1464,6 @@ The questions which have been solved are not shown in this page, more informatio
 |2443|[Sum of Number and Its Reverse](https://leetcode.com/problems/sum-of-number-and-its-reverse/)|Medium||
 |2445|[Number of Nodes With Value One](https://leetcode.com/problems/number-of-nodes-with-value-one/)|Medium|🔒|
 |2447|[Number of Subarrays With GCD Equal to K](https://leetcode.com/problems/number-of-subarrays-with-gcd-equal-to-k/)|Medium||
-|2448|[Minimum Cost to Make Array Equal](https://leetcode.com/problems/minimum-cost-to-make-array-equal/)|Hard||
 |2449|[Minimum Number of Operations to Make Arrays Similar](https://leetcode.com/problems/minimum-number-of-operations-to-make-arrays-similar/)|Hard||
 |2450|[Number of Distinct Binary Strings After Applying Operations](https://leetcode.com/problems/number-of-distinct-binary-strings-after-applying-operations/)|Medium|🔒|
 |2452|[Words Within Two Edits of Dictionary](https://leetcode.com/problems/words-within-two-edits-of-dictionary/)|Medium||
@@ -1480,7 +1474,6 @@ The questions which have been solved are not shown in this page, more informatio
 |2458|[Height of Binary Tree After Subtree Removal Queries](https://leetcode.com/problems/height-of-binary-tree-after-subtree-removal-queries/)|Hard||
 |2459|[Sort Array by Moving Items to Empty Space](https://leetcode.com/problems/sort-array-by-moving-items-to-empty-space/)|Hard|🔒|
 |2461|[Maximum Sum of Distinct Subarrays With Length K](https://leetcode.com/problems/maximum-sum-of-distinct-subarrays-with-length-k/)|Medium||
-|2462|[Total Cost to Hire K Workers](https://leetcode.com/problems/total-cost-to-hire-k-workers/)|Medium||
 |2463|[Minimum Total Distance Traveled](https://leetcode.com/problems/minimum-total-distance-traveled/)|Hard||
 |2464|[Minimum Subarrays in a Valid Split](https://leetcode.com/problems/minimum-subarrays-in-a-valid-split/)|Medium|🔒|
 |2467|[Most Profitable Path in a Tree](https://leetcode.com/problems/most-profitable-path-in-a-tree/)|Medium||
