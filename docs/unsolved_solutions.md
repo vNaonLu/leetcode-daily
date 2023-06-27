@@ -1,6 +1,6 @@
 # Unsolved Solutions List
 
-There are **1710** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
+There are **1709** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
 
 The questions which have been solved are not shown in this page, more information about solved questions can be found at [docs/solved_solutions.md](./solved_solutions.md).
 
@@ -113,7 +113,6 @@ The questions which have been solved are not shown in this page, more informatio
 |369|[Plus One Linked List](https://leetcode.com/problems/plus-one-linked-list/)|Medium|🔒|
 |370|[Range Addition](https://leetcode.com/problems/range-addition/)|Medium|🔒|
 |371|[Sum of Two Integers](https://leetcode.com/problems/sum-of-two-integers/)|Medium||
-|373|[Find K Pairs with Smallest Sums](https://leetcode.com/problems/find-k-pairs-with-smallest-sums/)|Medium||
 |379|[Design Phone Directory](https://leetcode.com/problems/design-phone-directory/)|Medium|🔒|
 |381|[Insert Delete GetRandom O(1) - Duplicates allowed](https://leetcode.com/problems/insert-delete-getrandom-o1-duplicates-allowed/)|Hard||
 |385|[Mini Parser](https://leetcode.com/problems/mini-parser/)|Medium||

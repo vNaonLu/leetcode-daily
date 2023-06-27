@@ -1,6 +1,6 @@
 # Solved Solutions List
 
-This document contains **1026** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
+This document contains **1027** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
 
 Some questions which are still being resolved are not shown in this page, more information about unsolved questions can be found at [docs/unsolved_solutions.md](./unsolved_solutions.md).
 
@@ -273,6 +273,7 @@ Some questions which are still being resolved are not shown in this page, more i
 |367|[Valid Perfect Square](https://leetcode.com/problems/valid-perfect-square/)|[src/q_351_400/q0367.cc](../src/q_351_400/q0367.cc)|2022/04/06 18:53|
 |368|[Largest Divisible Subset](https://leetcode.com/problems/largest-divisible-subset/)|[src/q_351_400/q0368.cc](../src/q_351_400/q0368.cc)|2021/11/15 18:09|
 |372|[Super Pow](https://leetcode.com/problems/super-pow/)|[src/q_351_400/q0372.cc](../src/q_351_400/q0372.cc)|2022/11/16 19:06|
+|373|[Find K Pairs with Smallest Sums](https://leetcode.com/problems/find-k-pairs-with-smallest-sums/)|[src/q_351_400/q0373.cc](../src/q_351_400/q0373.cc)|2023/06/27 20:44|
 |374|[Guess Number Higher or Lower](https://leetcode.com/problems/guess-number-higher-or-lower/)|[src/q_351_400/q0374.cc](../src/q_351_400/q0374.cc)|2021/10/12 11:20|
 |375|[Guess Number Higher or Lower II](https://leetcode.com/problems/guess-number-higher-or-lower-ii/)|[src/q_351_400/q0375.cc](../src/q_351_400/q0375.cc)|2022/02/17 22:24|
 |376|[Wiggle Subsequence](https://leetcode.com/problems/wiggle-subsequence/)|[src/q_351_400/q0376.cc](../src/q_351_400/q0376.cc)|2021/10/27 14:00|
