@@ -1,6 +1,6 @@
 # Solved Solutions List
 
-This document contains **1027** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
+This document contains **1028** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
 
 Some questions which are still being resolved are not shown in this page, more information about unsolved questions can be found at [docs/unsolved_solutions.md](./unsolved_solutions.md).
 
@@ -752,6 +752,7 @@ Some questions which are still being resolved are not shown in this page, more i
 |1509|[Minimum Difference Between Largest and Smallest Value in Three Moves](https://leetcode.com/problems/minimum-difference-between-largest-and-smallest-value-in-three-moves/)|[src/q_1501_1550/q1509.cc](../src/q_1501_1550/q1509.cc)|2022/02/16 18:35|
 |1510|[Stone Game IV](https://leetcode.com/problems/stone-game-iv/)|[src/q_1501_1550/q1510.cc](../src/q_1501_1550/q1510.cc)|2022/01/22 13:57|
 |1512|[Number of Good Pairs](https://leetcode.com/problems/number-of-good-pairs/)|[src/q_1501_1550/q1512.cc](../src/q_1501_1550/q1512.cc)|2022/12/07 19:34|
+|1514|[Path with Maximum Probability](https://leetcode.com/problems/path-with-maximum-probability/)|[src/q_1501_1550/q1514.cc](../src/q_1501_1550/q1514.cc)|2023/06/28 21:18|
 |1519|[Number of Nodes in the Sub-Tree With the Same Label](https://leetcode.com/problems/number-of-nodes-in-the-sub-tree-with-the-same-label/)|[src/q_1501_1550/q1519.cc](../src/q_1501_1550/q1519.cc)|2023/01/12 16:04|
 |1523|[Count Odd Numbers in an Interval Range](https://leetcode.com/problems/count-odd-numbers-in-an-interval-range/)|[src/q_1501_1550/q1523.cc](../src/q_1501_1550/q1523.cc)|2022/04/14 18:37|
 |1529|[Minimum Suffix Flips](https://leetcode.com/problems/minimum-suffix-flips/)|[src/q_1501_1550/q1529.cc](../src/q_1501_1550/q1529.cc)|2022/02/12 00:03|

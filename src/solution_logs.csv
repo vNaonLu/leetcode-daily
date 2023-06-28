@@ -1026,3 +1026,4 @@ timestamp,id,tc,sc,notes
 1687669282,1575,m * n^2,m * n,"m = |fuel|, n = |locations.size()|"
 1687757732,2462,n * log(n) * k,n,n = |costs.size()|
 1687869874,373,n * m * log(m + n),m + n,"m = |nums1.size()|, n = |nums2.size()|"
+1687958324,1514,m * log(m),m,m = |edges.size()|
