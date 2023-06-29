@@ -1,6 +1,6 @@
 # Solved Solutions List
 
-This document contains **1028** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
+This document contains **1029** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
 
 Some questions which are still being resolved are not shown in this page, more information about unsolved questions can be found at [docs/unsolved_solutions.md](./unsolved_solutions.md).
 
@@ -508,6 +508,7 @@ Some questions which are still being resolved are not shown in this page, more i
 |859|[Buddy Strings](https://leetcode.com/problems/buddy-strings/)|[src/q_851_900/q0859.cc](../src/q_851_900/q0859.cc)|2022/11/21 20:19|
 |860|[Lemonade Change](https://leetcode.com/problems/lemonade-change/)|[src/q_851_900/q0860.cc](../src/q_851_900/q0860.cc)|2022/05/12 18:11|
 |862|[Shortest Subarray with Sum at Least K](https://leetcode.com/problems/shortest-subarray-with-sum-at-least-k/)|[src/q_851_900/q0862.cc](../src/q_851_900/q0862.cc)|2022/02/21 22:34|
+|864|[Shortest Path to Get All Keys](https://leetcode.com/problems/shortest-path-to-get-all-keys/)|[src/q_851_900/q0864.cc](../src/q_851_900/q0864.cc)|2023/06/29 20:21|
 |867|[Transpose Matrix](https://leetcode.com/problems/transpose-matrix/)|[src/q_851_900/q0867.cc](../src/q_851_900/q0867.cc)|2022/06/02 18:21|
 |868|[Binary Gap](https://leetcode.com/problems/binary-gap/)|[src/q_851_900/q0868.cc](../src/q_851_900/q0868.cc)|2022/10/05 10:43|
 |869|[Reordered Power of 2](https://leetcode.com/problems/reordered-power-of-2/)|[src/q_851_900/q0869.cc](../src/q_851_900/q0869.cc)|2022/08/26 13:11|
