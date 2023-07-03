@@ -83,9 +83,14 @@ def getCommand(parent=None):
         LOG.success("get information for problem #{}",
                     LOG.format(ARG_ID, flag=LOG.HIGHTLIGHT))
 
+        less_msg = ""
         LOG.log("     title: {}", detail.title)
+        less_msg += LOG.format("//      title: {}\n", detail.title)
         LOG.log("difficulty: {}", getLevelWithColor(detail.levelString()))
+        less_msg += LOG.format("// difficulty: {}\n", getLevelWithColor(detail.levelString()))
         LOG.log("       url: {}", LOG.format(
+            "https://leetcode.com/problems/{}/", detail.slug, flag=LOG.HIGHTLIGHT))
+        less_msg += LOG.format("//        url: {}\n", LOG.format(
             "https://leetcode.com/problems/{}/", detail.slug, flag=LOG.HIGHTLIGHT))
 
         if ARG_ID in resolve_logs:
@@ -104,8 +109,10 @@ def getCommand(parent=None):
                     LOG.failure("failed to parse the solution from file: {}", solution_file)
                     return 1
 
-                solution = clangFormat(snippet)
-                LOG.print(solution, flag=LOG.DARK_GREEN)
+                solution = clangFormat(snippet).splitlines()
+                less_msg += "//     answer:\n\n"
+                less_msg += LOG.format("{}\n", "\n".join([LOG.format("{}", x, flag=LOG.DARK_GREEN) for x in solution]))
+                showWithLess(less_msg);
 
         return 0
 

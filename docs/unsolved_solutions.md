@@ -1,6 +1,6 @@
 # Unsolved Solutions List
 
-There are **1710** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
+There are **1703** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
 
 The questions which have been solved are not shown in this page, more information about solved questions can be found at [docs/solved_solutions.md](./solved_solutions.md).
 
@@ -113,7 +113,6 @@ The questions which have been solved are not shown in this page, more informatio
 |369|[Plus One Linked List](https://leetcode.com/problems/plus-one-linked-list/)|Medium|🔒|
 |370|[Range Addition](https://leetcode.com/problems/range-addition/)|Medium|🔒|
 |371|[Sum of Two Integers](https://leetcode.com/problems/sum-of-two-integers/)|Medium||
-|373|[Find K Pairs with Smallest Sums](https://leetcode.com/problems/find-k-pairs-with-smallest-sums/)|Medium||
 |379|[Design Phone Directory](https://leetcode.com/problems/design-phone-directory/)|Medium|🔒|
 |381|[Insert Delete GetRandom O(1) - Duplicates allowed](https://leetcode.com/problems/insert-delete-getrandom-o1-duplicates-allowed/)|Hard||
 |385|[Mini Parser](https://leetcode.com/problems/mini-parser/)|Medium||
@@ -178,7 +177,6 @@ The questions which have been solved are not shown in this page, more informatio
 |514|[Freedom Trail](https://leetcode.com/problems/freedom-trail/)|Hard||
 |517|[Super Washing Machines](https://leetcode.com/problems/super-washing-machines/)|Hard||
 |519|[Random Flip Matrix](https://leetcode.com/problems/random-flip-matrix/)|Medium||
-|521|[Longest Uncommon Subsequence I](https://leetcode.com/problems/longest-uncommon-subsequence-i/)|Easy||
 |522|[Longest Uncommon Subsequence II](https://leetcode.com/problems/longest-uncommon-subsequence-ii/)|Medium||
 |524|[Longest Word in Dictionary through Deleting](https://leetcode.com/problems/longest-word-in-dictionary-through-deleting/)|Medium||
 |526|[Beautiful Arrangement](https://leetcode.com/problems/beautiful-arrangement/)|Medium||
@@ -370,7 +368,6 @@ The questions which have been solved are not shown in this page, more informatio
 |857|[Minimum Cost to Hire K Workers](https://leetcode.com/problems/minimum-cost-to-hire-k-workers/)|Hard||
 |861|[Score After Flipping Matrix](https://leetcode.com/problems/score-after-flipping-matrix/)|Medium||
 |863|[All Nodes Distance K in Binary Tree](https://leetcode.com/problems/all-nodes-distance-k-in-binary-tree/)|Medium||
-|864|[Shortest Path to Get All Keys](https://leetcode.com/problems/shortest-path-to-get-all-keys/)|Hard||
 |865|[Smallest Subtree with all the Deepest Nodes](https://leetcode.com/problems/smallest-subtree-with-all-the-deepest-nodes/)|Medium||
 |866|[Prime Palindrome](https://leetcode.com/problems/prime-palindrome/)|Medium||
 |870|[Advantage Shuffle](https://leetcode.com/problems/advantage-shuffle/)|Medium||
@@ -776,7 +773,6 @@ The questions which have been solved are not shown in this page, more informatio
 |1506|[Find Root of N-Ary Tree](https://leetcode.com/problems/find-root-of-n-ary-tree/)|Medium|🔒|
 |1511|[Customer Order Frequency](https://leetcode.com/problems/customer-order-frequency/)|Easy|🔒|
 |1513|[Number of Substrings With Only 1s](https://leetcode.com/problems/number-of-substrings-with-only-1s/)|Medium||
-|1514|[Path with Maximum Probability](https://leetcode.com/problems/path-with-maximum-probability/)|Medium||
 |1515|[Best Position for a Service Centre](https://leetcode.com/problems/best-position-for-a-service-centre/)|Hard||
 |1516|[Move Sub-Tree of N-Ary Tree](https://leetcode.com/problems/move-sub-tree-of-n-ary-tree/)|Hard|🔒|
 |1517|[Find Users With Valid E-Mails](https://leetcode.com/problems/find-users-with-valid-e-mails/)|Easy||
@@ -836,7 +832,6 @@ The questions which have been solved are not shown in this page, more informatio
 |1597|[Build Binary Expression Tree From Infix Expression](https://leetcode.com/problems/build-binary-expression-tree-from-infix-expression/)|Hard|🔒|
 |1599|[Maximum Profit of Operating a Centennial Wheel](https://leetcode.com/problems/maximum-profit-of-operating-a-centennial-wheel/)|Medium||
 |1600|[Throne Inheritance](https://leetcode.com/problems/throne-inheritance/)|Medium||
-|1601|[Maximum Number of Achievable Transfer Requests](https://leetcode.com/problems/maximum-number-of-achievable-transfer-requests/)|Hard||
 |1602|[Find Nearest Right Node in Binary Tree](https://leetcode.com/problems/find-nearest-right-node-in-binary-tree/)|Medium|🔒|
 |1604|[Alert Using Same Key-Card Three or More Times in a One Hour Period](https://leetcode.com/problems/alert-using-same-key-card-three-or-more-times-in-a-one-hour-period/)|Medium||
 |1605|[Find Valid Matrix Given Row and Column Sums](https://leetcode.com/problems/find-valid-matrix-given-row-and-column-sums/)|Medium||
@@ -1094,7 +1089,6 @@ The questions which have been solved are not shown in this page, more informatio
 |1965|[Employees With Missing Information](https://leetcode.com/problems/employees-with-missing-information/)|Easy||
 |1966|[Binary Searchable Numbers in an Unsorted Array](https://leetcode.com/problems/binary-searchable-numbers-in-an-unsorted-array/)|Medium|🔒|
 |1969|[Minimum Non-Zero Product of the Array Elements](https://leetcode.com/problems/minimum-non-zero-product-of-the-array-elements/)|Medium||
-|1970|[Last Day Where You Can Still Cross](https://leetcode.com/problems/last-day-where-you-can-still-cross/)|Hard||
 |1972|[First and Last Call On the Same Day](https://leetcode.com/problems/first-and-last-call-on-the-same-day/)|Hard|🔒|
 |1973|[Count Nodes Equal to Sum of Descendants](https://leetcode.com/problems/count-nodes-equal-to-sum-of-descendants/)|Medium|🔒|
 |1974|[Minimum Time to Type Word Using Special Typewriter](https://leetcode.com/problems/minimum-time-to-type-word-using-special-typewriter/)|Easy||
@@ -1358,7 +1352,6 @@ The questions which have been solved are not shown in this page, more informatio
 |2302|[Count Subarrays With Score Less Than K](https://leetcode.com/problems/count-subarrays-with-score-less-than-k/)|Hard||
 |2303|[Calculate Amount Paid in Taxes](https://leetcode.com/problems/calculate-amount-paid-in-taxes/)|Easy||
 |2304|[Minimum Path Cost in a Grid](https://leetcode.com/problems/minimum-path-cost-in-a-grid/)|Medium||
-|2305|[Fair Distribution of Cookies](https://leetcode.com/problems/fair-distribution-of-cookies/)|Medium||
 |2307|[Check for Contradictions in Equations](https://leetcode.com/problems/check-for-contradictions-in-equations/)|Hard|🔒|
 |2308|[Arrange Table by Gender](https://leetcode.com/problems/arrange-table-by-gender/)|Medium|🔒|
 |2310|[Sum of Numbers With Units Digit K](https://leetcode.com/problems/sum-of-numbers-with-units-digit-k/)|Medium||
