@@ -1,6 +1,6 @@
 # Unsolved Solutions List
 
-There are **1703** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
+There are **1730** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
 
 The questions which have been solved are not shown in this page, more information about solved questions can be found at [docs/solved_solutions.md](./solved_solutions.md).
 
@@ -1710,3 +1710,30 @@ The questions which have been solved are not shown in this page, more informatio
 |2734|[Lexicographically Smallest String After Substring Operation](https://leetcode.com/problems/lexicographically-smallest-string-after-substring-operation/)|Medium||
 |2735|[Collecting Chocolates](https://leetcode.com/problems/collecting-chocolates/)|Medium||
 |2736|[Maximum Sum Queries](https://leetcode.com/problems/maximum-sum-queries/)|Hard||
+|2737|[Find the Closest Marked Node](https://leetcode.com/problems/find-the-closest-marked-node/)|Medium|🔒|
+|2738|[Count Occurrences in Text](https://leetcode.com/problems/count-occurrences-in-text/)|Medium|🔒|
+|2739|[Total Distance Traveled](https://leetcode.com/problems/total-distance-traveled/)|Easy||
+|2740|[Find the Value of the Partition](https://leetcode.com/problems/find-the-value-of-the-partition/)|Medium||
+|2741|[Special Permutations](https://leetcode.com/problems/special-permutations/)|Medium||
+|2742|[Painting the Walls](https://leetcode.com/problems/painting-the-walls/)|Hard||
+|2743|[Count Substrings Without Repeating Character](https://leetcode.com/problems/count-substrings-without-repeating-character/)|Medium|🔒|
+|2744|[Find Maximum Number of String Pairs](https://leetcode.com/problems/find-maximum-number-of-string-pairs/)|Easy||
+|2745|[Construct the Longest New String](https://leetcode.com/problems/construct-the-longest-new-string/)|Medium||
+|2746|[Decremental String Concatenation](https://leetcode.com/problems/decremental-string-concatenation/)|Medium||
+|2747|[Count Zero Request Servers](https://leetcode.com/problems/count-zero-request-servers/)|Medium||
+|2748|[Number of Beautiful Pairs](https://leetcode.com/problems/number-of-beautiful-pairs/)|Easy||
+|2749|[Minimum Operations to Make the Integer Zero](https://leetcode.com/problems/minimum-operations-to-make-the-integer-zero/)|Medium||
+|2750|[Ways to Split Array Into Good Subarrays](https://leetcode.com/problems/ways-to-split-array-into-good-subarrays/)|Medium||
+|2751|[Robot Collisions](https://leetcode.com/problems/robot-collisions/)|Hard||
+|2752|[Customers with Maximum Number of Transactions on Consecutive Days](https://leetcode.com/problems/customers-with-maximum-number-of-transactions-on-consecutive-days/)|Hard|🔒|
+|2753|[Count Houses in a Circular Street II](https://leetcode.com/problems/count-houses-in-a-circular-street-ii/)|Hard|🔒|
+|2754|[Bind Function to Context](https://leetcode.com/problems/bind-function-to-context/)|Medium|🔒|
+|2755|[Deep Merge of Two Objects](https://leetcode.com/problems/deep-merge-of-two-objects/)|Medium|🔒|
+|2756|[Query Batching](https://leetcode.com/problems/query-batching/)|Hard|🔒|
+|2757|[Generate Circular Array Values](https://leetcode.com/problems/generate-circular-array-values/)|Medium|🔒|
+|2758|[Next Day](https://leetcode.com/problems/next-day/)|Easy|🔒|
+|2759|[Convert JSON String to Object](https://leetcode.com/problems/convert-json-string-to-object/)|Hard|🔒|
+|2760|[Longest Even Odd Subarray With Threshold](https://leetcode.com/problems/longest-even-odd-subarray-with-threshold/)|Easy||
+|2761|[Prime Pairs With Target Sum](https://leetcode.com/problems/prime-pairs-with-target-sum/)|Medium||
+|2762|[Continuous Subarrays](https://leetcode.com/problems/continuous-subarrays/)|Medium||
+|2763|[Sum of Imbalance Numbers of All Subarrays](https://leetcode.com/problems/sum-of-imbalance-numbers-of-all-subarrays/)|Hard||
