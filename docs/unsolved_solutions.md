@@ -1,6 +1,6 @@
 # Unsolved Solutions List
 
-There are **1730** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
+There are **1729** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
 
 The questions which have been solved are not shown in this page, more information about solved questions can be found at [docs/solved_solutions.md](./solved_solutions.md).
 
@@ -207,7 +207,6 @@ The questions which have been solved are not shown in this page, more informatio
 |571|[Find Median Given Frequency of Numbers](https://leetcode.com/problems/find-median-given-frequency-of-numbers/)|Hard|🔒|
 |573|[Squirrel Simulation](https://leetcode.com/problems/squirrel-simulation/)|Medium|🔒|
 |574|[Winning Candidate](https://leetcode.com/problems/winning-candidate/)|Medium|🔒|
-|575|[Distribute Candies](https://leetcode.com/problems/distribute-candies/)|Easy||
 |577|[Employee Bonus](https://leetcode.com/problems/employee-bonus/)|Easy||
 |578|[Get Highest Answer Rate Question](https://leetcode.com/problems/get-highest-answer-rate-question/)|Medium|🔒|
 |579|[Find Cumulative Salary of an Employee](https://leetcode.com/problems/find-cumulative-salary-of-an-employee/)|Hard|🔒|

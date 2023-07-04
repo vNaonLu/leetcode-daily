@@ -1,6 +1,6 @@
 # Solved Solutions List
 
-This document contains **1033** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
+This document contains **1034** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
 
 Some questions which are still being resolved are not shown in this page, more information about unsolved questions can be found at [docs/unsolved_solutions.md](./unsolved_solutions.md).
 
@@ -381,6 +381,7 @@ Some questions which are still being resolved are not shown in this page, more i
 |566|[Reshape the Matrix](https://leetcode.com/problems/reshape-the-matrix/)|[src/q_551_600/q0566.cc](../src/q_551_600/q0566.cc)|2021/09/08 08:00|
 |567|[Permutation in String](https://leetcode.com/problems/permutation-in-string/)|[src/q_551_600/q0567.cc](../src/q_551_600/q0567.cc)|2021/09/10 08:00|
 |572|[Subtree of Another Tree](https://leetcode.com/problems/subtree-of-another-tree/)|[src/q_551_600/q0572.cc](../src/q_551_600/q0572.cc)|2021/09/25 16:06|
+|575|[Distribute Candies](https://leetcode.com/problems/distribute-candies/)|[src/q_551_600/q0575.cc](../src/q_551_600/q0575.cc)|2023/07/04 20:08|
 |576|[Out of Boundary Paths](https://leetcode.com/problems/out-of-boundary-paths/)|[src/q_551_600/q0576.cc](../src/q_551_600/q0576.cc)|2022/07/16 14:38|
 |581|[Shortest Unsorted Continuous Subarray](https://leetcode.com/problems/shortest-unsorted-continuous-subarray/)|[src/q_551_600/q0581.cc](../src/q_551_600/q0581.cc)|2022/05/03 17:59|
 |583|[Delete Operation for Two Strings](https://leetcode.com/problems/delete-operation-for-two-strings/)|[src/q_551_600/q0583.cc](../src/q_551_600/q0583.cc)|2021/10/05 12:06|
