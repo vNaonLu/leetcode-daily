@@ -1,6 +1,6 @@
 # Unsolved Solutions List
 
-There are **1728** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
+There are **1729** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
 
 The questions which have been solved are not shown in this page, more information about solved questions can be found at [docs/solved_solutions.md](./solved_solutions.md).
 
@@ -1735,3 +1735,4 @@ The questions which have been solved are not shown in this page, more informatio
 |2761|[Prime Pairs With Target Sum](https://leetcode.com/problems/prime-pairs-with-target-sum/)|Medium||
 |2762|[Continuous Subarrays](https://leetcode.com/problems/continuous-subarrays/)|Medium||
 |2763|[Sum of Imbalance Numbers of All Subarrays](https://leetcode.com/problems/sum-of-imbalance-numbers-of-all-subarrays/)|Hard||
+|2764|[is Array a Preorder of Some ‌Binary Tree](https://leetcode.com/problems/is-array-a-preorder-of-some-binary-tree/)|Medium|🔒|
