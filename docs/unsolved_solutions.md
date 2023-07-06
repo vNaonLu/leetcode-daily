@@ -1,6 +1,6 @@
 # Unsolved Solutions List
 
-There are **1729** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
+There are **1728** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
 
 The questions which have been solved are not shown in this page, more information about solved questions can be found at [docs/solved_solutions.md](./solved_solutions.md).
 
@@ -244,7 +244,6 @@ The questions which have been solved are not shown in this page, more informatio
 |625|[Minimum Factorization](https://leetcode.com/problems/minimum-factorization/)|Medium|🔒|
 |626|[Exchange Seats](https://leetcode.com/problems/exchange-seats/)|Medium||
 |627|[Swap Salary](https://leetcode.com/problems/swap-salary/)|Easy||
-|628|[Maximum Product of Three Numbers](https://leetcode.com/problems/maximum-product-of-three-numbers/)|Easy||
 |631|[Design Excel Sum Formula](https://leetcode.com/problems/design-excel-sum-formula/)|Hard|🔒|
 |632|[Smallest Range Covering Elements from K Lists](https://leetcode.com/problems/smallest-range-covering-elements-from-k-lists/)|Hard||
 |634|[Find the Derangement of An Array](https://leetcode.com/problems/find-the-derangement-of-an-array/)|Medium|🔒|
