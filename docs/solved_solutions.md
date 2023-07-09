@@ -1,6 +1,6 @@
 # Solved Solutions List
 
-This document contains **1038** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
+This document contains **1039** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
 
 Some questions which are still being resolved are not shown in this page, more information about unsolved questions can be found at [docs/unsolved_solutions.md](./unsolved_solutions.md).
 
@@ -963,6 +963,7 @@ Some questions which are still being resolved are not shown in this page, more i
 |2264|[Largest 3-Same-Digit Number in String](https://leetcode.com/problems/largest-3-same-digit-number-in-string/)|[src/q_2251_2300/q2264.cc](../src/q_2251_2300/q2264.cc)|2023/02/21 01:17|
 |2266|[Count Number of Texts](https://leetcode.com/problems/count-number-of-texts/)|[src/q_2251_2300/q2266.cc](../src/q_2251_2300/q2266.cc)|2022/06/01 18:04|
 |2269|[Find the K-Beauty of a Number](https://leetcode.com/problems/find-the-k-beauty-of-a-number/)|[src/q_2251_2300/q2269.cc](../src/q_2251_2300/q2269.cc)|2023/03/12 14:57|
+|2272|[Substring With Largest Variance](https://leetcode.com/problems/substring-with-largest-variance/)|[src/q_2251_2300/q2272.cc](../src/q_2251_2300/q2272.cc)|2023/07/09 12:43|
 |2274|[Maximum Consecutive Floors Without Special Floors](https://leetcode.com/problems/maximum-consecutive-floors-without-special-floors/)|[src/q_2251_2300/q2274.cc](../src/q_2251_2300/q2274.cc)|2022/07/11 18:21|
 |2278|[Percentage of Letter in String](https://leetcode.com/problems/percentage-of-letter-in-string/)|[src/q_2251_2300/q2278.cc](../src/q_2251_2300/q2278.cc)|2023/02/21 00:22|
 |2279|[Maximum Bags With Full Capacity of Rocks](https://leetcode.com/problems/maximum-bags-with-full-capacity-of-rocks/)|[src/q_2251_2300/q2279.cc](../src/q_2251_2300/q2279.cc)|2022/12/27 20:59|
