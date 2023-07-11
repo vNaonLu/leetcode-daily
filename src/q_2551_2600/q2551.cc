@@ -51,8 +51,8 @@ public:
       sums.emplace_back((int64_t)weights[i] + (int64_t)weights[i - 1]);
     }
     sort(sums.begin(), sums.end());
-    return accumulate(sums.rbegin(), sums.rbegin() + (k - 1), 0l) -
-           accumulate(sums.begin(), sums.begin() + (k - 1), 0l);
+    return accumulate(sums.rbegin(), sums.rbegin() + (k - 1), 0ll) -
+           accumulate(sums.begin(), sums.begin() + (k - 1), 0ll);
   }
 };
 
