@@ -265,7 +265,7 @@ class AnnualResolveDocument:
         res = [
             f"# All Submissions in {self._year}",
             f"",
-            f"![activity](../assets/{self._year}_activity.svg)",
+            f"![activity](assets/{self._year}_activity.svg)",
         ]
         return delimiter.join(res) + delimiter
     

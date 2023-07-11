@@ -16,8 +16,8 @@ More information about solved solution can be found at [docs/solved_solutions.md
 
 ## Activity
 
-![progress](./assets/progress.svg)
-![activity](./assets/recent_activity.svg)
+![progress](./docs/assets/progress.svg)
+![activity](./docs/assets/recent_activity.svg)
 
 More information about full activities can be found at:
 

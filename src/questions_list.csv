@@ -2735,3 +2735,31 @@ id,backend_id,title,level,slug,paid
 2734,2828,Lexicographically Smallest String After Substring Operation,2,lexicographically-smallest-string-after-substring-operation,0
 2735,2810,Collecting Chocolates,2,collecting-chocolates,0
 2736,2839,Maximum Sum Queries,3,maximum-sum-queries,0
+2737,2880,Find the Closest Marked Node,2,find-the-closest-marked-node,1
+2738,2885,Count Occurrences in Text,2,count-occurrences-in-text,1
+2739,2857,Total Distance Traveled,1,total-distance-traveled,0
+2740,2845,Find the Value of the Partition,2,find-the-value-of-the-partition,0
+2741,2848,Special Permutations,2,special-permutations,0
+2742,2808,Painting the Walls,3,painting-the-walls,0
+2743,2890,Count Substrings Without Repeating Character,2,count-substrings-without-repeating-character,1
+2744,2847,Find Maximum Number of String Pairs,1,find-maximum-number-of-string-pairs,0
+2745,2850,Construct the Longest New String,2,construct-the-longest-new-string,0
+2746,2854,Decremental String Concatenation,2,decremental-string-concatenation,0
+2747,2833,Count Zero Request Servers,2,count-zero-request-servers,0
+2748,2831,Number of Beautiful Pairs,1,number-of-beautiful-pairs,0
+2749,2837,Minimum Operations to Make the Integer Zero,2,minimum-operations-to-make-the-integer-zero,0
+2750,2867,Ways to Split Array Into Good Subarrays,2,ways-to-split-array-into-good-subarrays,0
+2751,2846,Robot Collisions,3,robot-collisions,0
+2752,2852,Customers with Maximum Number of Transactions on Consecutive Days,3,customers-with-maximum-number-of-transactions-on-consecutive-days,1
+2753,2897,Count Houses in a Circular Street II,3,count-houses-in-a-circular-street-ii,1
+2754,2770,Bind Function to Context,2,bind-function-to-context,1
+2755,2795,Deep Merge of Two Objects,2,deep-merge-of-two-objects,1
+2756,2806,Query Batching,3,query-batching,1
+2757,2814,Generate Circular Array Values,2,generate-circular-array-values,1
+2758,2822,Next Day,1,next-day,1
+2759,2851,Convert JSON String to Object,3,convert-json-string-to-object,1
+2760,2866,Longest Even Odd Subarray With Threshold,1,longest-even-odd-subarray-with-threshold,0
+2761,2873,Prime Pairs With Target Sum,2,prime-pairs-with-target-sum,0
+2762,2868,Continuous Subarrays,2,continuous-subarrays,0
+2763,2849,Sum of Imbalance Numbers of All Subarrays,3,sum-of-imbalance-numbers-of-all-subarrays,0
+2764,2918,is Array a Preorder of Some ‌Binary Tree,2,is-array-a-preorder-of-some-binary-tree,1
