@@ -1,6 +1,6 @@
 # Solved Solutions List
 
-This document contains **1040** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
+This document contains **1041** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
 
 Some questions which are still being resolved are not shown in this page, more information about unsolved questions can be found at [docs/unsolved_solutions.md](./unsolved_solutions.md).
 
@@ -388,6 +388,7 @@ Some questions which are still being resolved are not shown in this page, more i
 |587|[Erect the Fence](https://leetcode.com/problems/erect-the-fence/)|[src/q_551_600/q0587.cc](../src/q_551_600/q0587.cc)|2022/11/19 14:27|
 |589|[N-ary Tree Preorder Traversal](https://leetcode.com/problems/n-ary-tree-preorder-traversal/)|[src/q_551_600/q0589.cc](../src/q_551_600/q0589.cc)|2022/04/18 18:14|
 |590|[N-ary Tree Postorder Traversal](https://leetcode.com/problems/n-ary-tree-postorder-traversal/)|[src/q_551_600/q0590.cc](../src/q_551_600/q0590.cc)|2022/09/24 12:55|
+|594|[Longest Harmonious Subsequence](https://leetcode.com/problems/longest-harmonious-subsequence/)|[src/q_551_600/q0594.cc](../src/q_551_600/q0594.cc)|2023/07/12 19:52|
 |599|[Minimum Index Sum of Two Lists](https://leetcode.com/problems/minimum-index-sum-of-two-lists/)|[src/q_551_600/q0599.cc](../src/q_551_600/q0599.cc)|2023/06/01 18:54|
 |605|[Can Place Flowers](https://leetcode.com/problems/can-place-flowers/)|[src/q_601_650/q0605.cc](../src/q_601_650/q0605.cc)|2022/01/18 18:15|
 |606|[Construct String from Binary Tree](https://leetcode.com/problems/construct-string-from-binary-tree/)|[src/q_601_650/q0606.cc](../src/q_601_650/q0606.cc)|2022/09/07 17:52|
