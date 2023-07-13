@@ -1,6 +1,6 @@
 # Solved Solutions List
 
-This document contains **1041** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
+This document contains **1042** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
 
 Some questions which are still being resolved are not shown in this page, more information about unsolved questions can be found at [docs/unsolved_solutions.md](./unsolved_solutions.md).
 
@@ -422,6 +422,7 @@ Some questions which are still being resolved are not shown in this page, more i
 |669|[Trim a Binary Search Tree](https://leetcode.com/problems/trim-a-binary-search-tree/)|[src/q_651_700/q0669.cc](../src/q_651_700/q0669.cc)|2022/04/15 19:30|
 |671|[Second Minimum Node In a Binary Tree](https://leetcode.com/problems/second-minimum-node-in-a-binary-tree/)|[src/q_651_700/q0671.cc](../src/q_651_700/q0671.cc)|2022/10/19 09:00|
 |673|[Number of Longest Increasing Subsequence](https://leetcode.com/problems/number-of-longest-increasing-subsequence/)|[src/q_651_700/q0673.cc](../src/q_651_700/q0673.cc)|2021/10/04 12:25|
+|674|[Longest Continuous Increasing Subsequence](https://leetcode.com/problems/longest-continuous-increasing-subsequence/)|[src/q_651_700/q0674.cc](../src/q_651_700/q0674.cc)|2023/07/13 14:35|
 |680|[Valid Palindrome II](https://leetcode.com/problems/valid-palindrome-ii/)|[src/q_651_700/q0680.cc](../src/q_651_700/q0680.cc)|2022/04/02 16:10|
 |682|[Baseball Game](https://leetcode.com/problems/baseball-game/)|[src/q_651_700/q0682.cc](../src/q_651_700/q0682.cc)|2022/04/10 13:59|
 |684|[Redundant Connection](https://leetcode.com/problems/redundant-connection/)|[src/q_651_700/q0684.cc](../src/q_651_700/q0684.cc)|2022/02/17 23:02|

@@ -1,6 +1,6 @@
 # Unsolved Solutions List
 
-There are **1723** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
+There are **1722** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
 
 The questions which have been solved are not shown in this page, more information about solved questions can be found at [docs/solved_solutions.md](./solved_solutions.md).
 
@@ -265,7 +265,6 @@ The questions which have been solved are not shown in this page, more informatio
 |667|[Beautiful Arrangement II](https://leetcode.com/problems/beautiful-arrangement-ii/)|Medium||
 |670|[Maximum Swap](https://leetcode.com/problems/maximum-swap/)|Medium||
 |672|[Bulb Switcher II](https://leetcode.com/problems/bulb-switcher-ii/)|Medium||
-|674|[Longest Continuous Increasing Subsequence](https://leetcode.com/problems/longest-continuous-increasing-subsequence/)|Easy||
 |675|[Cut Off Trees for Golf Event](https://leetcode.com/problems/cut-off-trees-for-golf-event/)|Hard||
 |676|[Implement Magic Dictionary](https://leetcode.com/problems/implement-magic-dictionary/)|Medium||
 |677|[Map Sum Pairs](https://leetcode.com/problems/map-sum-pairs/)|Medium||
