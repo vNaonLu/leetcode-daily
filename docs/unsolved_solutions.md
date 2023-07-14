@@ -1,6 +1,6 @@
 # Unsolved Solutions List
 
-There are **1722** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
+There are **1721** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
 
 The questions which have been solved are not shown in this page, more information about solved questions can be found at [docs/solved_solutions.md](./solved_solutions.md).
 
@@ -573,7 +573,6 @@ The questions which have been solved are not shown in this page, more informatio
 |1214|[Two Sum BSTs](https://leetcode.com/problems/two-sum-bsts/)|Medium|🔒|
 |1215|[Stepping Numbers](https://leetcode.com/problems/stepping-numbers/)|Medium|🔒|
 |1216|[Valid Palindrome III](https://leetcode.com/problems/valid-palindrome-iii/)|Hard|🔒|
-|1218|[Longest Arithmetic Subsequence of Given Difference](https://leetcode.com/problems/longest-arithmetic-subsequence-of-given-difference/)|Medium||
 |1219|[Path with Maximum Gold](https://leetcode.com/problems/path-with-maximum-gold/)|Medium||
 |1222|[Queens That Can Attack the King](https://leetcode.com/problems/queens-that-can-attack-the-king/)|Medium||
 |1223|[Dice Roll Simulation](https://leetcode.com/problems/dice-roll-simulation/)|Hard||
