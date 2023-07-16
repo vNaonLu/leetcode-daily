@@ -1,6 +1,6 @@
 # Solved Solutions List
 
-This document contains **1044** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
+This document contains **1045** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
 
 Some questions which are still being resolved are not shown in this page, more information about unsolved questions can be found at [docs/unsolved_solutions.md](./unsolved_solutions.md).
 
@@ -633,6 +633,7 @@ Some questions which are still being resolved are not shown in this page, more i
 |1108|[Defanging an IP Address](https://leetcode.com/problems/defanging-an-ip-address/)|[src/q_1101_1150/q1108.cc](../src/q_1101_1150/q1108.cc)|2023/05/21 13:42|
 |1122|[Relative Sort Array](https://leetcode.com/problems/relative-sort-array/)|[src/q_1101_1150/q1122.cc](../src/q_1101_1150/q1122.cc)|2022/02/15 18:15|
 |1124|[Longest Well-Performing Interval](https://leetcode.com/problems/longest-well-performing-interval/)|[src/q_1101_1150/q1124.cc](../src/q_1101_1150/q1124.cc)|2022/02/24 18:41|
+|1125|[Smallest Sufficient Team](https://leetcode.com/problems/smallest-sufficient-team/)|[src/q_1101_1150/q1125.cc](../src/q_1101_1150/q1125.cc)|2023/07/16 13:35|
 |1128|[Number of Equivalent Domino Pairs](https://leetcode.com/problems/number-of-equivalent-domino-pairs/)|[src/q_1101_1150/q1128.cc](../src/q_1101_1150/q1128.cc)|2022/06/13 18:21|
 |1129|[Shortest Path with Alternating Colors](https://leetcode.com/problems/shortest-path-with-alternating-colors/)|[src/q_1101_1150/q1129.cc](../src/q_1101_1150/q1129.cc)|2022/03/19 14:31|
 |1137|[N-th Tribonacci Number](https://leetcode.com/problems/n-th-tribonacci-number/)|[src/q_1101_1150/q1137.cc](../src/q_1101_1150/q1137.cc)|2021/09/24 15:23|
