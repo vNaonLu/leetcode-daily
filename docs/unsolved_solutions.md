@@ -1,6 +1,6 @@
 # Unsolved Solutions List
 
-There are **1718** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
+There are **1717** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
 
 The questions which have been solved are not shown in this page, more information about solved questions can be found at [docs/solved_solutions.md](./solved_solutions.md).
 
@@ -374,7 +374,6 @@ The questions which have been solved are not shown in this page, more informatio
 |887|[Super Egg Drop](https://leetcode.com/problems/super-egg-drop/)|Hard||
 |889|[Construct Binary Tree from Preorder and Postorder Traversal](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-postorder-traversal/)|Medium||
 |891|[Sum of Subsequence Widths](https://leetcode.com/problems/sum-of-subsequence-widths/)|Hard||
-|892|[Surface Area of 3D Shapes](https://leetcode.com/problems/surface-area-of-3d-shapes/)|Easy||
 |893|[Groups of Special-Equivalent Strings](https://leetcode.com/problems/groups-of-special-equivalent-strings/)|Medium||
 |894|[All Possible Full Binary Trees](https://leetcode.com/problems/all-possible-full-binary-trees/)|Medium||
 |900|[RLE Iterator](https://leetcode.com/problems/rle-iterator/)|Medium||

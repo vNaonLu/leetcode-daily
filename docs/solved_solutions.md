@@ -1,6 +1,6 @@
 # Solved Solutions List
 
-This document contains **1046** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
+This document contains **1047** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
 
 Some questions which are still being resolved are not shown in this page, more information about unsolved questions can be found at [docs/unsolved_solutions.md](./unsolved_solutions.md).
 
@@ -531,6 +531,7 @@ Some questions which are still being resolved are not shown in this page, more i
 |886|[Possible Bipartition](https://leetcode.com/problems/possible-bipartition/)|[src/q_851_900/q0886.cc](../src/q_851_900/q0886.cc)|2022/03/23 18:42|
 |888|[Fair Candy Swap](https://leetcode.com/problems/fair-candy-swap/)|[src/q_851_900/q0888.cc](../src/q_851_900/q0888.cc)|2021/11/12 18:29|
 |890|[Find and Replace Pattern](https://leetcode.com/problems/find-and-replace-pattern/)|[src/q_851_900/q0890.cc](../src/q_851_900/q0890.cc)|2022/07/29 18:21|
+|892|[Surface Area of 3D Shapes](https://leetcode.com/problems/surface-area-of-3d-shapes/)|[src/q_851_900/q0892.cc](../src/q_851_900/q0892.cc)|2023/07/18 21:18|
 |895|[Maximum Frequency Stack](https://leetcode.com/problems/maximum-frequency-stack/)|[src/q_851_900/q0895.cc](../src/q_851_900/q0895.cc)|2022/03/19 13:40|
 |896|[Monotonic Array](https://leetcode.com/problems/monotonic-array/)|[src/q_851_900/q0896.cc](../src/q_851_900/q0896.cc)|2022/04/26 19:02|
 |897|[Increasing Order Search Tree](https://leetcode.com/problems/increasing-order-search-tree/)|[src/q_851_900/q0897.cc](../src/q_851_900/q0897.cc)|2022/04/17 12:10|
