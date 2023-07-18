@@ -1,6 +1,6 @@
 # Unsolved Solutions List
 
-There are **1725** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
+There are **1718** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
 
 The questions which have been solved are not shown in this page, more information about solved questions can be found at [docs/solved_solutions.md](./solved_solutions.md).
 
@@ -219,7 +219,6 @@ The questions which have been solved are not shown in this page, more informatio
 |591|[Tag Validator](https://leetcode.com/problems/tag-validator/)|Hard||
 |592|[Fraction Addition and Subtraction](https://leetcode.com/problems/fraction-addition-and-subtraction/)|Medium||
 |593|[Valid Square](https://leetcode.com/problems/valid-square/)|Medium||
-|594|[Longest Harmonious Subsequence](https://leetcode.com/problems/longest-harmonious-subsequence/)|Easy||
 |595|[Big Countries](https://leetcode.com/problems/big-countries/)|Easy||
 |596|[Classes More Than 5 Students](https://leetcode.com/problems/classes-more-than-5-students/)|Easy||
 |597|[Friend Requests I: Overall Acceptance Rate](https://leetcode.com/problems/friend-requests-i-overall-acceptance-rate/)|Easy|🔒|
@@ -266,7 +265,6 @@ The questions which have been solved are not shown in this page, more informatio
 |667|[Beautiful Arrangement II](https://leetcode.com/problems/beautiful-arrangement-ii/)|Medium||
 |670|[Maximum Swap](https://leetcode.com/problems/maximum-swap/)|Medium||
 |672|[Bulb Switcher II](https://leetcode.com/problems/bulb-switcher-ii/)|Medium||
-|674|[Longest Continuous Increasing Subsequence](https://leetcode.com/problems/longest-continuous-increasing-subsequence/)|Easy||
 |675|[Cut Off Trees for Golf Event](https://leetcode.com/problems/cut-off-trees-for-golf-event/)|Hard||
 |676|[Implement Magic Dictionary](https://leetcode.com/problems/implement-magic-dictionary/)|Medium||
 |677|[Map Sum Pairs](https://leetcode.com/problems/map-sum-pairs/)|Medium||
@@ -365,7 +363,6 @@ The questions which have been solved are not shown in this page, more informatio
 |855|[Exam Room](https://leetcode.com/problems/exam-room/)|Medium||
 |857|[Minimum Cost to Hire K Workers](https://leetcode.com/problems/minimum-cost-to-hire-k-workers/)|Hard||
 |861|[Score After Flipping Matrix](https://leetcode.com/problems/score-after-flipping-matrix/)|Medium||
-|863|[All Nodes Distance K in Binary Tree](https://leetcode.com/problems/all-nodes-distance-k-in-binary-tree/)|Medium||
 |865|[Smallest Subtree with all the Deepest Nodes](https://leetcode.com/problems/smallest-subtree-with-all-the-deepest-nodes/)|Medium||
 |866|[Prime Palindrome](https://leetcode.com/problems/prime-palindrome/)|Medium||
 |870|[Advantage Shuffle](https://leetcode.com/problems/advantage-shuffle/)|Medium||
@@ -373,7 +370,6 @@ The questions which have been solved are not shown in this page, more informatio
 |874|[Walking Robot Simulation](https://leetcode.com/problems/walking-robot-simulation/)|Medium||
 |877|[Stone Game](https://leetcode.com/problems/stone-game/)|Medium||
 |880|[Decoded String at Index](https://leetcode.com/problems/decoded-string-at-index/)|Medium||
-|883|[Projection Area of 3D Shapes](https://leetcode.com/problems/projection-area-of-3d-shapes/)|Easy||
 |885|[Spiral Matrix III](https://leetcode.com/problems/spiral-matrix-iii/)|Medium||
 |887|[Super Egg Drop](https://leetcode.com/problems/super-egg-drop/)|Hard||
 |889|[Construct Binary Tree from Preorder and Postorder Traversal](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-postorder-traversal/)|Medium||
@@ -508,7 +504,6 @@ The questions which have been solved are not shown in this page, more informatio
 |1120|[Maximum Average Subtree](https://leetcode.com/problems/maximum-average-subtree/)|Medium|🔒|
 |1121|[Divide Array Into Increasing Sequences](https://leetcode.com/problems/divide-array-into-increasing-sequences/)|Hard|🔒|
 |1123|[Lowest Common Ancestor of Deepest Leaves](https://leetcode.com/problems/lowest-common-ancestor-of-deepest-leaves/)|Medium||
-|1125|[Smallest Sufficient Team](https://leetcode.com/problems/smallest-sufficient-team/)|Hard||
 |1126|[Active Businesses](https://leetcode.com/problems/active-businesses/)|Medium|🔒|
 |1127|[User Purchase Platform](https://leetcode.com/problems/user-purchase-platform/)|Hard|🔒|
 |1130|[Minimum Cost Tree From Leaf Values](https://leetcode.com/problems/minimum-cost-tree-from-leaf-values/)|Medium||
@@ -576,7 +571,6 @@ The questions which have been solved are not shown in this page, more informatio
 |1214|[Two Sum BSTs](https://leetcode.com/problems/two-sum-bsts/)|Medium|🔒|
 |1215|[Stepping Numbers](https://leetcode.com/problems/stepping-numbers/)|Medium|🔒|
 |1216|[Valid Palindrome III](https://leetcode.com/problems/valid-palindrome-iii/)|Hard|🔒|
-|1218|[Longest Arithmetic Subsequence of Given Difference](https://leetcode.com/problems/longest-arithmetic-subsequence-of-given-difference/)|Medium||
 |1219|[Path with Maximum Gold](https://leetcode.com/problems/path-with-maximum-gold/)|Medium||
 |1222|[Queens That Can Attack the King](https://leetcode.com/problems/queens-that-can-attack-the-king/)|Medium||
 |1223|[Dice Roll Simulation](https://leetcode.com/problems/dice-roll-simulation/)|Hard||
@@ -930,7 +924,6 @@ The questions which have been solved are not shown in this page, more informatio
 |1747|[Leetflex Banned Accounts](https://leetcode.com/problems/leetflex-banned-accounts/)|Medium|🔒|
 |1749|[Maximum Absolute Sum of Any Subarray](https://leetcode.com/problems/maximum-absolute-sum-of-any-subarray/)|Medium||
 |1750|[Minimum Length of String After Deleting Similar Ends](https://leetcode.com/problems/minimum-length-of-string-after-deleting-similar-ends/)|Medium||
-|1751|[Maximum Number of Events That Can Be Attended II](https://leetcode.com/problems/maximum-number-of-events-that-can-be-attended-ii/)|Hard||
 |1753|[Maximum Score From Removing Stones](https://leetcode.com/problems/maximum-score-from-removing-stones/)|Medium||
 |1754|[Largest Merge Of Two Strings](https://leetcode.com/problems/largest-merge-of-two-strings/)|Medium||
 |1755|[Closest Subsequence Sum](https://leetcode.com/problems/closest-subsequence-sum/)|Hard||
