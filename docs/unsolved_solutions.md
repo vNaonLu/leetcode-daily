@@ -1,6 +1,6 @@
 # Unsolved Solutions List
 
-There are **1717** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
+There are **1716** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
 
 The questions which have been solved are not shown in this page, more information about solved questions can be found at [docs/solved_solutions.md](./solved_solutions.md).
 
@@ -394,7 +394,6 @@ The questions which have been solved are not shown in this page, more informatio
 |937|[Reorder Data in Log Files](https://leetcode.com/problems/reorder-data-in-log-files/)|Medium||
 |939|[Minimum Area Rectangle](https://leetcode.com/problems/minimum-area-rectangle/)|Medium||
 |940|[Distinct Subsequences II](https://leetcode.com/problems/distinct-subsequences-ii/)|Hard||
-|942|[DI String Match](https://leetcode.com/problems/di-string-match/)|Easy||
 |943|[Find the Shortest Superstring](https://leetcode.com/problems/find-the-shortest-superstring/)|Hard||
 |945|[Minimum Increment to Make Array Unique](https://leetcode.com/problems/minimum-increment-to-make-array-unique/)|Medium||
 |949|[Largest Time for Given Digits](https://leetcode.com/problems/largest-time-for-given-digits/)|Medium||
