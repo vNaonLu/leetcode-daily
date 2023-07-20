@@ -1,6 +1,6 @@
 # Solved Solutions List
 
-This document contains **1048** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
+This document contains **1049** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
 
 Some questions which are still being resolved are not shown in this page, more information about unsolved questions can be found at [docs/unsolved_solutions.md](./unsolved_solutions.md).
 
@@ -571,6 +571,7 @@ Some questions which are still being resolved are not shown in this page, more i
 |953|[Verifying an Alien Dictionary](https://leetcode.com/problems/verifying-an-alien-dictionary/)|[src/q_951_1000/q0953.cc](../src/q_951_1000/q0953.cc)|2022/04/22 09:06|
 |956|[Tallest Billboard](https://leetcode.com/problems/tallest-billboard/)|[src/q_951_1000/q0956.cc](../src/q_951_1000/q0956.cc)|2023/06/24 13:21|
 |958|[Check Completeness of a Binary Tree](https://leetcode.com/problems/check-completeness-of-a-binary-tree/)|[src/q_951_1000/q0958.cc](../src/q_951_1000/q0958.cc)|2022/08/10 20:36|
+|961|[N-Repeated Element in Size 2N Array](https://leetcode.com/problems/n-repeated-element-in-size-2n-array/)|[src/q_951_1000/q0961.cc](../src/q_951_1000/q0961.cc)|2023/07/20 19:54|
 |965|[Univalued Binary Tree](https://leetcode.com/problems/univalued-binary-tree/)|[src/q_951_1000/q0965.cc](../src/q_951_1000/q0965.cc)|2022/10/12 13:54|
 |967|[Numbers With Same Consecutive Differences](https://leetcode.com/problems/numbers-with-same-consecutive-differences/)|[src/q_951_1000/q0967.cc](../src/q_951_1000/q0967.cc)|2022/09/03 13:20|
 |968|[Binary Tree Cameras](https://leetcode.com/problems/binary-tree-cameras/)|[src/q_951_1000/q0968.cc](../src/q_951_1000/q0968.cc)|2022/06/17 22:09|
