@@ -1,6 +1,6 @@
 # Solved Solutions List
 
-This document contains **1049** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
+This document contains **1050** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
 
 Some questions which are still being resolved are not shown in this page, more information about unsolved questions can be found at [docs/unsolved_solutions.md](./unsolved_solutions.md).
 
@@ -594,6 +594,7 @@ Some questions which are still being resolved are not shown in this page, more i
 |997|[Find the Town Judge](https://leetcode.com/problems/find-the-town-judge/)|[src/q_951_1000/q0997.cc](../src/q_951_1000/q0997.cc)|2021/10/07 10:11|
 |999|[Available Captures for Rook](https://leetcode.com/problems/available-captures-for-rook/)|[src/q_951_1000/q0999.cc](../src/q_951_1000/q0999.cc)|2022/03/05 10:04|
 |1002|[Find Common Characters](https://leetcode.com/problems/find-common-characters/)|[src/q_1001_1050/q1002.cc](../src/q_1001_1050/q1002.cc)|2021/11/24 18:10|
+|1005|[Maximize Sum Of Array After K Negations](https://leetcode.com/problems/maximize-sum-of-array-after-k-negations/)|[src/q_1001_1050/q1005.cc](../src/q_1001_1050/q1005.cc)|2023/07/21 13:21|
 |1007|[Minimum Domino Rotations For Equal Row](https://leetcode.com/problems/minimum-domino-rotations-for-equal-row/)|[src/q_1001_1050/q1007.cc](../src/q_1001_1050/q1007.cc)|2022/03/09 18:17|
 |1008|[Construct Binary Search Tree from Preorder Traversal](https://leetcode.com/problems/construct-binary-search-tree-from-preorder-traversal/)|[src/q_1001_1050/q1008.cc](../src/q_1001_1050/q1008.cc)|2021/10/13 12:11|
 |1009|[Complement of Base 10 Integer](https://leetcode.com/problems/complement-of-base-10-integer/)|[src/q_1001_1050/q1009.cc](../src/q_1001_1050/q1009.cc)|2022/01/04 18:15|
