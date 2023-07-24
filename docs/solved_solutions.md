@@ -1,6 +1,6 @@
 # Solved Solutions List
 
-This document contains **1052** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
+This document contains **1053** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
 
 Some questions which are still being resolved are not shown in this page, more information about unsolved questions can be found at [docs/unsolved_solutions.md](./unsolved_solutions.md).
 
@@ -602,6 +602,7 @@ Some questions which are still being resolved are not shown in this page, more i
 |1009|[Complement of Base 10 Integer](https://leetcode.com/problems/complement-of-base-10-integer/)|[src/q_1001_1050/q1009.cc](../src/q_1001_1050/q1009.cc)|2022/01/04 18:15|
 |1010|[Pairs of Songs With Total Durations Divisible by 60](https://leetcode.com/problems/pairs-of-songs-with-total-durations-divisible-by-60/)|[src/q_1001_1050/q1010.cc](../src/q_1001_1050/q1010.cc)|2022/01/02 15:26|
 |1011|[Capacity To Ship Packages Within D Days](https://leetcode.com/problems/capacity-to-ship-packages-within-d-days/)|[src/q_1001_1050/q1011.cc](../src/q_1001_1050/q1011.cc)|2023/02/22 18:34|
+|1013|[Partition Array Into Three Parts With Equal Sum](https://leetcode.com/problems/partition-array-into-three-parts-with-equal-sum/)|[src/q_1001_1050/q1013.cc](../src/q_1001_1050/q1013.cc)|2023/07/24 13:49|
 |1014|[Best Sightseeing Pair](https://leetcode.com/problems/best-sightseeing-pair/)|[src/q_1001_1050/q1014.cc](../src/q_1001_1050/q1014.cc)|2021/10/16 13:29|
 |1015|[Smallest Integer Divisible by K](https://leetcode.com/problems/smallest-integer-divisible-by-k/)|[src/q_1001_1050/q1015.cc](../src/q_1001_1050/q1015.cc)|2021/12/30 18:05|
 |1017|[Convert to Base -2](https://leetcode.com/problems/convert-to-base-2/)|[src/q_1001_1050/q1017.cc](../src/q_1001_1050/q1017.cc)|2022/02/16 18:10|
