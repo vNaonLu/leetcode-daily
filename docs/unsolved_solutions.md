@@ -1,6 +1,6 @@
 # Unsolved Solutions List
 
-There are **1711** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
+There are **1710** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
 
 The questions which have been solved are not shown in this page, more information about solved questions can be found at [docs/solved_solutions.md](./solved_solutions.md).
 
@@ -427,7 +427,6 @@ The questions which have been solved are not shown in this page, more informatio
 |1016|[Binary String With Substrings Representing 1 To N](https://leetcode.com/problems/binary-string-with-substrings-representing-1-to-n/)|Medium||
 |1023|[Camelcase Matching](https://leetcode.com/problems/camelcase-matching/)|Medium||
 |1024|[Video Stitching](https://leetcode.com/problems/video-stitching/)|Medium||
-|1025|[Divisor Game](https://leetcode.com/problems/divisor-game/)|Easy||
 |1028|[Recover a Tree From Preorder Traversal](https://leetcode.com/problems/recover-a-tree-from-preorder-traversal/)|Hard||
 |1033|[Moving Stones Until Consecutive](https://leetcode.com/problems/moving-stones-until-consecutive/)|Medium||
 |1034|[Coloring A Border](https://leetcode.com/problems/coloring-a-border/)|Medium||

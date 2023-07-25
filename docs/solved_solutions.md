@@ -1,6 +1,6 @@
 # Solved Solutions List
 
-This document contains **1053** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
+This document contains **1054** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
 
 Some questions which are still being resolved are not shown in this page, more information about unsolved questions can be found at [docs/unsolved_solutions.md](./unsolved_solutions.md).
 
@@ -611,6 +611,7 @@ Some questions which are still being resolved are not shown in this page, more i
 |1020|[Number of Enclaves](https://leetcode.com/problems/number-of-enclaves/)|[src/q_1001_1050/q1020.cc](../src/q_1001_1050/q1020.cc)|2022/02/08 18:33|
 |1021|[Remove Outermost Parentheses](https://leetcode.com/problems/remove-outermost-parentheses/)|[src/q_1001_1050/q1021.cc](../src/q_1001_1050/q1021.cc)|2023/06/03 16:03|
 |1022|[Sum of Root To Leaf Binary Numbers](https://leetcode.com/problems/sum-of-root-to-leaf-binary-numbers/)|[src/q_1001_1050/q1022.cc](../src/q_1001_1050/q1022.cc)|2022/01/11 18:04|
+|1025|[Divisor Game](https://leetcode.com/problems/divisor-game/)|[src/q_1001_1050/q1025.cc](../src/q_1001_1050/q1025.cc)|2023/07/25 19:48|
 |1026|[Maximum Difference Between Node and Ancestor](https://leetcode.com/problems/maximum-difference-between-node-and-ancestor/)|[src/q_1001_1050/q1026.cc](../src/q_1001_1050/q1026.cc)|2021/12/31 14:34|
 |1027|[Longest Arithmetic Subsequence](https://leetcode.com/problems/longest-arithmetic-subsequence/)|[src/q_1001_1050/q1027.cc](../src/q_1001_1050/q1027.cc)|2023/06/23 18:49|
 |1029|[Two City Scheduling](https://leetcode.com/problems/two-city-scheduling/)|[src/q_1001_1050/q1029.cc](../src/q_1001_1050/q1029.cc)|2022/02/21 23:52|
