@@ -56,7 +56,7 @@ private:
         res |= !helper(dp, i - j);
       }
     }
-    return (*dp)[i] = res;
+    return (bool)((*dp)[i] = res);
   }
 };
 
