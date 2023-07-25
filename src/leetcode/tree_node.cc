@@ -132,7 +132,7 @@ bool TreeNode::operator<(TreeNode const &rhs) const noexcept {
     ++rb;
   }
 
-  return true;
+  return false;
 }
 
 void PrintTo(TreeNode *value, ::std::ostream *os) {
