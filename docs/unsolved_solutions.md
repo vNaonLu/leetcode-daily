@@ -1,6 +1,6 @@
 # Unsolved Solutions List
 
-There are **1706** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
+There are **1705** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
 
 The questions which have been solved are not shown in this page, more information about solved questions can be found at [docs/solved_solutions.md](./solved_solutions.md).
 
@@ -259,7 +259,6 @@ The questions which have been solved are not shown in this page, more informatio
 |656|[Coin Path](https://leetcode.com/problems/coin-path/)|Hard|🔒|
 |660|[Remove 9](https://leetcode.com/problems/remove-9/)|Hard|🔒|
 |663|[Equal Tree Partition](https://leetcode.com/problems/equal-tree-partition/)|Medium|🔒|
-|664|[Strange Printer](https://leetcode.com/problems/strange-printer/)|Hard||
 |666|[Path Sum IV](https://leetcode.com/problems/path-sum-iv/)|Medium|🔒|
 |667|[Beautiful Arrangement II](https://leetcode.com/problems/beautiful-arrangement-ii/)|Medium||
 |670|[Maximum Swap](https://leetcode.com/problems/maximum-swap/)|Medium||

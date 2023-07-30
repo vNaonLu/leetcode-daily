@@ -1,6 +1,6 @@
 # Solved Solutions List
 
-This document contains **1058** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
+This document contains **1059** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
 
 Some questions which are still being resolved are not shown in this page, more information about unsolved questions can be found at [docs/unsolved_solutions.md](./unsolved_solutions.md).
 
@@ -418,6 +418,7 @@ Some questions which are still being resolved are not shown in this page, more i
 |659|[Split Array into Consecutive Subsequences](https://leetcode.com/problems/split-array-into-consecutive-subsequences/)|[src/q_651_700/q0659.cc](../src/q_651_700/q0659.cc)|2022/08/19 18:17|
 |661|[Image Smoother](https://leetcode.com/problems/image-smoother/)|[src/q_651_700/q0661.cc](../src/q_651_700/q0661.cc)|2022/09/28 17:49|
 |662|[Maximum Width of Binary Tree](https://leetcode.com/problems/maximum-width-of-binary-tree/)|[src/q_651_700/q0662.cc](../src/q_651_700/q0662.cc)|2022/02/27 11:27|
+|664|[Strange Printer](https://leetcode.com/problems/strange-printer/)|[src/q_651_700/q0664.cc](../src/q_651_700/q0664.cc)|2023/07/30 11:37|
 |665|[Non-decreasing Array](https://leetcode.com/problems/non-decreasing-array/)|[src/q_651_700/q0665.cc](../src/q_651_700/q0665.cc)|2022/06/25 12:24|
 |668|[Kth Smallest Number in Multiplication Table](https://leetcode.com/problems/kth-smallest-number-in-multiplication-table/)|[src/q_651_700/q0668.cc](../src/q_651_700/q0668.cc)|2021/11/16 18:13|
 |669|[Trim a Binary Search Tree](https://leetcode.com/problems/trim-a-binary-search-tree/)|[src/q_651_700/q0669.cc](../src/q_651_700/q0669.cc)|2022/04/15 19:30|
