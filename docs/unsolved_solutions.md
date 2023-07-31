@@ -1,6 +1,6 @@
 # Unsolved Solutions List
 
-There are **1711** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
+There are **1704** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
 
 The questions which have been solved are not shown in this page, more information about solved questions can be found at [docs/solved_solutions.md](./solved_solutions.md).
 
@@ -159,7 +159,6 @@ The questions which have been solved are not shown in this page, more informatio
 |481|[Magical String](https://leetcode.com/problems/magical-string/)|Medium||
 |483|[Smallest Good Base](https://leetcode.com/problems/smallest-good-base/)|Hard||
 |484|[Find Permutation](https://leetcode.com/problems/find-permutation/)|Medium|🔒|
-|486|[Predict the Winner](https://leetcode.com/problems/predict-the-winner/)|Medium||
 |487|[Max Consecutive Ones II](https://leetcode.com/problems/max-consecutive-ones-ii/)|Medium|🔒|
 |488|[Zuma Game](https://leetcode.com/problems/zuma-game/)|Hard||
 |489|[Robot Room Cleaner](https://leetcode.com/problems/robot-room-cleaner/)|Hard|🔒|
@@ -260,7 +259,6 @@ The questions which have been solved are not shown in this page, more informatio
 |656|[Coin Path](https://leetcode.com/problems/coin-path/)|Hard|🔒|
 |660|[Remove 9](https://leetcode.com/problems/remove-9/)|Hard|🔒|
 |663|[Equal Tree Partition](https://leetcode.com/problems/equal-tree-partition/)|Medium|🔒|
-|664|[Strange Printer](https://leetcode.com/problems/strange-printer/)|Hard||
 |666|[Path Sum IV](https://leetcode.com/problems/path-sum-iv/)|Medium|🔒|
 |667|[Beautiful Arrangement II](https://leetcode.com/problems/beautiful-arrangement-ii/)|Medium||
 |670|[Maximum Swap](https://leetcode.com/problems/maximum-swap/)|Medium||
@@ -283,7 +281,6 @@ The questions which have been solved are not shown in this page, more informatio
 |708|[Insert into a Sorted Circular Linked List](https://leetcode.com/problems/insert-into-a-sorted-circular-linked-list/)|Medium|🔒|
 |710|[Random Pick with Blacklist](https://leetcode.com/problems/random-pick-with-blacklist/)|Hard||
 |711|[Number of Distinct Islands II](https://leetcode.com/problems/number-of-distinct-islands-ii/)|Hard|🔒|
-|712|[Minimum ASCII Delete Sum for Two Strings](https://leetcode.com/problems/minimum-ascii-delete-sum-for-two-strings/)|Medium||
 |715|[Range Module](https://leetcode.com/problems/range-module/)|Hard||
 |716|[Max Stack](https://leetcode.com/problems/max-stack/)|Hard|🔒|
 |719|[Find K-th Smallest Pair Distance](https://leetcode.com/problems/find-k-th-smallest-pair-distance/)|Hard||
@@ -335,7 +332,6 @@ The questions which have been solved are not shown in this page, more informatio
 |803|[Bricks Falling When Hit](https://leetcode.com/problems/bricks-falling-when-hit/)|Hard||
 |805|[Split Array With Same Average](https://leetcode.com/problems/split-array-with-same-average/)|Hard||
 |807|[Max Increase to Keep City Skyline](https://leetcode.com/problems/max-increase-to-keep-city-skyline/)|Medium||
-|808|[Soup Servings](https://leetcode.com/problems/soup-servings/)|Medium||
 |809|[Expressive Words](https://leetcode.com/problems/expressive-words/)|Medium||
 |810|[Chalkboard XOR Game](https://leetcode.com/problems/chalkboard-xor-game/)|Hard||
 |811|[Subdomain Visit Count](https://leetcode.com/problems/subdomain-visit-count/)|Medium||
@@ -427,7 +423,6 @@ The questions which have been solved are not shown in this page, more informatio
 |1016|[Binary String With Substrings Representing 1 To N](https://leetcode.com/problems/binary-string-with-substrings-representing-1-to-n/)|Medium||
 |1023|[Camelcase Matching](https://leetcode.com/problems/camelcase-matching/)|Medium||
 |1024|[Video Stitching](https://leetcode.com/problems/video-stitching/)|Medium||
-|1025|[Divisor Game](https://leetcode.com/problems/divisor-game/)|Easy||
 |1028|[Recover a Tree From Preorder Traversal](https://leetcode.com/problems/recover-a-tree-from-preorder-traversal/)|Hard||
 |1033|[Moving Stones Until Consecutive](https://leetcode.com/problems/moving-stones-until-consecutive/)|Medium||
 |1034|[Coloring A Border](https://leetcode.com/problems/coloring-a-border/)|Medium||
@@ -478,7 +473,6 @@ The questions which have been solved are not shown in this page, more informatio
 |1100|[Find K-Length Substrings With No Repeated Characters](https://leetcode.com/problems/find-k-length-substrings-with-no-repeated-characters/)|Medium|🔒|
 |1101|[The Earliest Moment When Everyone Become Friends](https://leetcode.com/problems/the-earliest-moment-when-everyone-become-friends/)|Medium|🔒|
 |1102|[Path With Maximum Minimum Value](https://leetcode.com/problems/path-with-maximum-minimum-value/)|Medium|🔒|
-|1103|[Distribute Candies to People](https://leetcode.com/problems/distribute-candies-to-people/)|Easy||
 |1104|[Path In Zigzag Labelled Binary Tree](https://leetcode.com/problems/path-in-zigzag-labelled-binary-tree/)|Medium||
 |1105|[Filling Bookcase Shelves](https://leetcode.com/problems/filling-bookcase-shelves/)|Medium||
 |1106|[Parsing A Boolean Expression](https://leetcode.com/problems/parsing-a-boolean-expression/)|Hard||
@@ -1211,7 +1205,6 @@ The questions which have been solved are not shown in this page, more informatio
 |2137|[Pour Water Between Buckets to Make Water Levels Equal](https://leetcode.com/problems/pour-water-between-buckets-to-make-water-levels-equal/)|Medium|🔒|
 |2138|[Divide a String Into Groups of Size k](https://leetcode.com/problems/divide-a-string-into-groups-of-size-k/)|Easy||
 |2139|[Minimum Moves to Reach Target Score](https://leetcode.com/problems/minimum-moves-to-reach-target-score/)|Medium||
-|2141|[Maximum Running Time of N Computers](https://leetcode.com/problems/maximum-running-time-of-n-computers/)|Hard||
 |2142|[The Number of Passengers in Each Bus I](https://leetcode.com/problems/the-number-of-passengers-in-each-bus-i/)|Medium|🔒|
 |2143|[Choose Numbers From Two Arrays in Range](https://leetcode.com/problems/choose-numbers-from-two-arrays-in-range/)|Hard|🔒|
 |2144|[Minimum Cost of Buying Candies With Discount](https://leetcode.com/problems/minimum-cost-of-buying-candies-with-discount/)|Easy||

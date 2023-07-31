@@ -1052,3 +1052,10 @@ timestamp,id,tc,sc,notes
 1690010759,688,-,-,not calculated
 1690082496,894,-,-,not calculated
 1690177763,1013,n,1,n = |arr.size()|
+1690285712,1025,n,n,
+1690381262,1103,n,n,n = |num_people|
+1690427020,2141,-,-,not calculated
+1690527064,486,-,-,not calculated
+1690617756,808,-,-,not calculated
+1690688243,664,-,-,not calculated
+1690805956,712,n * m,n + m,"n = |s1.size()|, m = |s2.size()|"
