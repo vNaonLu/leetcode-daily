@@ -1,6 +1,6 @@
 # Solved Solutions List
 
-This document contains **1059** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
+This document contains **1060** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
 
 Some questions which are still being resolved are not shown in this page, more information about unsolved questions can be found at [docs/unsolved_solutions.md](./unsolved_solutions.md).
 
@@ -444,6 +444,7 @@ Some questions which are still being resolved are not shown in this page, more i
 |706|[Design HashMap](https://leetcode.com/problems/design-hashmap/)|[src/q_701_750/q0706.cc](../src/q_701_750/q0706.cc)|2021/09/20 08:00|
 |707|[Design Linked List](https://leetcode.com/problems/design-linked-list/)|[src/q_701_750/q0707.cc](../src/q_701_750/q0707.cc)|2021/09/30 14:17|
 |709|[To Lower Case](https://leetcode.com/problems/to-lower-case/)|[src/q_701_750/q0709.cc](../src/q_701_750/q0709.cc)|2022/04/22 08:49|
+|712|[Minimum ASCII Delete Sum for Two Strings](https://leetcode.com/problems/minimum-ascii-delete-sum-for-two-strings/)|[src/q_701_750/q0712.cc](../src/q_701_750/q0712.cc)|2023/07/31 20:19|
 |713|[Subarray Product Less Than K](https://leetcode.com/problems/subarray-product-less-than-k/)|[src/q_701_750/q0713.cc](../src/q_701_750/q0713.cc)|2021/09/23 08:00|
 |714|[Best Time to Buy and Sell Stock with Transaction Fee](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-transaction-fee/)|[src/q_701_750/q0714.cc](../src/q_701_750/q0714.cc)|2021/10/17 14:20|
 |717|[1-bit and 2-bit Characters](https://leetcode.com/problems/1-bit-and-2-bit-characters/)|[src/q_701_750/q0717.cc](../src/q_701_750/q0717.cc)|2021/10/06 00:01|
