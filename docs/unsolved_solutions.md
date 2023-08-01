@@ -1,6 +1,6 @@
 # Unsolved Solutions List
 
-There are **1704** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
+There are **1703** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
 
 The questions which have been solved are not shown in this page, more information about solved questions can be found at [docs/solved_solutions.md](./solved_solutions.md).
 
@@ -528,7 +528,6 @@ The questions which have been solved are not shown in this page, more informatio
 |1172|[Dinner Plate Stacks](https://leetcode.com/problems/dinner-plate-stacks/)|Hard||
 |1173|[Immediate Food Delivery I](https://leetcode.com/problems/immediate-food-delivery-i/)|Easy|🔒|
 |1174|[Immediate Food Delivery II](https://leetcode.com/problems/immediate-food-delivery-ii/)|Medium||
-|1175|[Prime Arrangements](https://leetcode.com/problems/prime-arrangements/)|Easy||
 |1176|[Diet Plan Performance](https://leetcode.com/problems/diet-plan-performance/)|Easy|🔒|
 |1177|[Can Make Palindrome from Substring](https://leetcode.com/problems/can-make-palindrome-from-substring/)|Medium||
 |1179|[Reformat Department Table](https://leetcode.com/problems/reformat-department-table/)|Easy||
