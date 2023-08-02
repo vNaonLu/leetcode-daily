@@ -1,6 +1,6 @@
 # Solved Solutions List
 
-This document contains **1061** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
+This document contains **1062** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
 
 Some questions which are still being resolved are not shown in this page, more information about unsolved questions can be found at [docs/unsolved_solutions.md](./unsolved_solutions.md).
 
@@ -700,6 +700,7 @@ Some questions which are still being resolved are not shown in this page, more i
 |1299|[Replace Elements with Greatest Element on Right Side](https://leetcode.com/problems/replace-elements-with-greatest-element-on-right-side/)|[src/q_1251_1300/q1299.cc](../src/q_1251_1300/q1299.cc)|2023/03/27 12:58|
 |1300|[Sum of Mutated Array Closest to Target](https://leetcode.com/problems/sum-of-mutated-array-closest-to-target/)|[src/q_1251_1300/q1300.cc](../src/q_1251_1300/q1300.cc)|2022/07/29 18:49|
 |1302|[Deepest Leaves Sum](https://leetcode.com/problems/deepest-leaves-sum/)|[src/q_1301_1350/q1302.cc](../src/q_1301_1350/q1302.cc)|2022/05/15 12:59|
+|1304|[Find N Unique Integers Sum up to Zero](https://leetcode.com/problems/find-n-unique-integers-sum-up-to-zero/)|[src/q_1301_1350/q1304.cc](../src/q_1301_1350/q1304.cc)|2023/08/02 11:25|
 |1305|[All Elements in Two Binary Search Trees](https://leetcode.com/problems/all-elements-in-two-binary-search-trees/)|[src/q_1301_1350/q1305.cc](../src/q_1301_1350/q1305.cc)|2022/01/26 18:06|
 |1306|[Jump Game III](https://leetcode.com/problems/jump-game-iii/)|[src/q_1301_1350/q1306.cc](../src/q_1301_1350/q1306.cc)|2021/12/09 17:58|
 |1309|[Decrypt String from Alphabet to Integer Mapping](https://leetcode.com/problems/decrypt-string-from-alphabet-to-integer-mapping/)|[src/q_1301_1350/q1309.cc](../src/q_1301_1350/q1309.cc)|2022/04/22 08:58|
