@@ -1,6 +1,6 @@
 # Solved Solutions List
 
-This document contains **1062** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
+This document contains **1063** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
 
 Some questions which are still being resolved are not shown in this page, more information about unsolved questions can be found at [docs/unsolved_solutions.md](./unsolved_solutions.md).
 
@@ -705,6 +705,7 @@ Some questions which are still being resolved are not shown in this page, more i
 |1306|[Jump Game III](https://leetcode.com/problems/jump-game-iii/)|[src/q_1301_1350/q1306.cc](../src/q_1301_1350/q1306.cc)|2021/12/09 17:58|
 |1309|[Decrypt String from Alphabet to Integer Mapping](https://leetcode.com/problems/decrypt-string-from-alphabet-to-integer-mapping/)|[src/q_1301_1350/q1309.cc](../src/q_1301_1350/q1309.cc)|2022/04/22 08:58|
 |1312|[Minimum Insertion Steps to Make a String Palindrome](https://leetcode.com/problems/minimum-insertion-steps-to-make-a-string-palindrome/)|[src/q_1301_1350/q1312.cc](../src/q_1301_1350/q1312.cc)|2023/04/22 13:51|
+|1313|[Decompress Run-Length Encoded List](https://leetcode.com/problems/decompress-run-length-encoded-list/)|[src/q_1301_1350/q1313.cc](../src/q_1301_1350/q1313.cc)|2023/08/03 18:43|
 |1314|[Matrix Block Sum](https://leetcode.com/problems/matrix-block-sum/)|[src/q_1301_1350/q1314.cc](../src/q_1301_1350/q1314.cc)|2021/10/23 09:56|
 |1318|[Minimum Flips to Make a OR b Equal to c](https://leetcode.com/problems/minimum-flips-to-make-a-or-b-equal-to-c/)|[src/q_1301_1350/q1318.cc](../src/q_1301_1350/q1318.cc)|2023/06/07 18:59|
 |1319|[Number of Operations to Make Network Connected](https://leetcode.com/problems/number-of-operations-to-make-network-connected/)|[src/q_1301_1350/q1319.cc](../src/q_1301_1350/q1319.cc)|2022/03/17 18:22|
