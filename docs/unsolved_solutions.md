@@ -1,6 +1,6 @@
 # Unsolved Solutions List
 
-There are **1699** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
+There are **1698** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
 
 The questions which have been solved are not shown in this page, more information about solved questions can be found at [docs/solved_solutions.md](./solved_solutions.md).
 
@@ -376,7 +376,6 @@ The questions which have been solved are not shown in this page, more informatio
 |913|[Cat and Mouse](https://leetcode.com/problems/cat-and-mouse/)|Hard||
 |915|[Partition Array into Disjoint Intervals](https://leetcode.com/problems/partition-array-into-disjoint-intervals/)|Medium||
 |919|[Complete Binary Tree Inserter](https://leetcode.com/problems/complete-binary-tree-inserter/)|Medium||
-|920|[Number of Music Playlists](https://leetcode.com/problems/number-of-music-playlists/)|Hard||
 |921|[Minimum Add to Make Parentheses Valid](https://leetcode.com/problems/minimum-add-to-make-parentheses-valid/)|Medium||
 |924|[Minimize Malware Spread](https://leetcode.com/problems/minimize-malware-spread/)|Hard||
 |926|[Flip String to Monotone Increasing](https://leetcode.com/problems/flip-string-to-monotone-increasing/)|Medium||

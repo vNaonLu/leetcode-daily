@@ -1,6 +1,6 @@
 # Solved Solutions List
 
-This document contains **1065** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
+This document contains **1066** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
 
 Some questions which are still being resolved are not shown in this page, more information about unsolved questions can be found at [docs/unsolved_solutions.md](./unsolved_solutions.md).
 
@@ -557,6 +557,7 @@ Some questions which are still being resolved are not shown in this page, more i
 |916|[Word Subsets](https://leetcode.com/problems/word-subsets/)|[src/q_901_950/q0916.cc](../src/q_901_950/q0916.cc)|2022/07/30 16:44|
 |917|[Reverse Only Letters](https://leetcode.com/problems/reverse-only-letters/)|[src/q_901_950/q0917.cc](../src/q_901_950/q0917.cc)|2021/09/14 08:00|
 |918|[Maximum Sum Circular Subarray](https://leetcode.com/problems/maximum-sum-circular-subarray/)|[src/q_901_950/q0918.cc](../src/q_901_950/q0918.cc)|2021/10/14 12:48|
+|920|[Number of Music Playlists](https://leetcode.com/problems/number-of-music-playlists/)|[src/q_901_950/q0920.cc](../src/q_901_950/q0920.cc)|2023/08/06 15:10|
 |922|[Sort Array By Parity II](https://leetcode.com/problems/sort-array-by-parity-ii/)|[src/q_901_950/q0922.cc](../src/q_901_950/q0922.cc)|2021/09/28 18:22|
 |923|[3Sum With Multiplicity](https://leetcode.com/problems/3sum-with-multiplicity/)|[src/q_901_950/q0923.cc](../src/q_901_950/q0923.cc)|2022/04/06 18:10|
 |925|[Long Pressed Name](https://leetcode.com/problems/long-pressed-name/)|[src/q_901_950/q0925.cc](../src/q_901_950/q0925.cc)|2022/11/03 23:25|
