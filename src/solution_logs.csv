@@ -1059,3 +1059,10 @@ timestamp,id,tc,sc,notes
 1690617756,808,-,-,not calculated
 1690688243,664,-,-,not calculated
 1690805956,712,n * m,n + m,"n = |s1.size()|, m = |s2.size()|"
+1690893115,1175,n,n,
+1690946711,1304,n,1,
+1691059381,1313,n,n = |nums.size()|,
+1691147721,1317,-,-,not calculated
+1691245195,1365,n * log(n),n,n = |nums.size()|
+1691305817,920,n * m,n * m,m = |goal|
+1691410015,1370,n * log(n),n,n = |s.size()|

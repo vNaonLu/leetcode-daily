@@ -1,6 +1,6 @@
 # Unsolved Solutions List
 
-There are **1704** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
+There are **1697** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
 
 The questions which have been solved are not shown in this page, more information about solved questions can be found at [docs/solved_solutions.md](./solved_solutions.md).
 
@@ -376,7 +376,6 @@ The questions which have been solved are not shown in this page, more informatio
 |913|[Cat and Mouse](https://leetcode.com/problems/cat-and-mouse/)|Hard||
 |915|[Partition Array into Disjoint Intervals](https://leetcode.com/problems/partition-array-into-disjoint-intervals/)|Medium||
 |919|[Complete Binary Tree Inserter](https://leetcode.com/problems/complete-binary-tree-inserter/)|Medium||
-|920|[Number of Music Playlists](https://leetcode.com/problems/number-of-music-playlists/)|Hard||
 |921|[Minimum Add to Make Parentheses Valid](https://leetcode.com/problems/minimum-add-to-make-parentheses-valid/)|Medium||
 |924|[Minimize Malware Spread](https://leetcode.com/problems/minimize-malware-spread/)|Hard||
 |926|[Flip String to Monotone Increasing](https://leetcode.com/problems/flip-string-to-monotone-increasing/)|Medium||
@@ -528,7 +527,6 @@ The questions which have been solved are not shown in this page, more informatio
 |1172|[Dinner Plate Stacks](https://leetcode.com/problems/dinner-plate-stacks/)|Hard||
 |1173|[Immediate Food Delivery I](https://leetcode.com/problems/immediate-food-delivery-i/)|Easy|🔒|
 |1174|[Immediate Food Delivery II](https://leetcode.com/problems/immediate-food-delivery-ii/)|Medium||
-|1175|[Prime Arrangements](https://leetcode.com/problems/prime-arrangements/)|Easy||
 |1176|[Diet Plan Performance](https://leetcode.com/problems/diet-plan-performance/)|Easy|🔒|
 |1177|[Can Make Palindrome from Substring](https://leetcode.com/problems/can-make-palindrome-from-substring/)|Medium||
 |1179|[Reformat Department Table](https://leetcode.com/problems/reformat-department-table/)|Easy||
@@ -618,15 +616,12 @@ The questions which have been solved are not shown in this page, more informatio
 |1298|[Maximum Candies You Can Get from Boxes](https://leetcode.com/problems/maximum-candies-you-can-get-from-boxes/)|Hard||
 |1301|[Number of Paths with Max Score](https://leetcode.com/problems/number-of-paths-with-max-score/)|Hard||
 |1303|[Find the Team Size](https://leetcode.com/problems/find-the-team-size/)|Easy|🔒|
-|1304|[Find N Unique Integers Sum up to Zero](https://leetcode.com/problems/find-n-unique-integers-sum-up-to-zero/)|Easy||
 |1307|[Verbal Arithmetic Puzzle](https://leetcode.com/problems/verbal-arithmetic-puzzle/)|Hard||
 |1308|[Running Total for Different Genders](https://leetcode.com/problems/running-total-for-different-genders/)|Medium|🔒|
 |1310|[XOR Queries of a Subarray](https://leetcode.com/problems/xor-queries-of-a-subarray/)|Medium||
 |1311|[Get Watched Videos by Your Friends](https://leetcode.com/problems/get-watched-videos-by-your-friends/)|Medium||
-|1313|[Decompress Run-Length Encoded List](https://leetcode.com/problems/decompress-run-length-encoded-list/)|Easy||
 |1315|[Sum of Nodes with Even-Valued Grandparent](https://leetcode.com/problems/sum-of-nodes-with-even-valued-grandparent/)|Medium||
 |1316|[Distinct Echo Substrings](https://leetcode.com/problems/distinct-echo-substrings/)|Hard||
-|1317|[Convert Integer to the Sum of Two No-Zero Integers](https://leetcode.com/problems/convert-integer-to-the-sum-of-two-no-zero-integers/)|Easy||
 |1320|[Minimum Distance to Type a Word Using Two Fingers](https://leetcode.com/problems/minimum-distance-to-type-a-word-using-two-fingers/)|Hard||
 |1321|[Restaurant Growth](https://leetcode.com/problems/restaurant-growth/)|Medium||
 |1322|[Ads Performance](https://leetcode.com/problems/ads-performance/)|Easy|🔒|
@@ -654,11 +649,9 @@ The questions which have been solved are not shown in this page, more informatio
 |1358|[Number of Substrings Containing All Three Characters](https://leetcode.com/problems/number-of-substrings-containing-all-three-characters/)|Medium||
 |1362|[Closest Divisors](https://leetcode.com/problems/closest-divisors/)|Medium||
 |1363|[Largest Multiple of Three](https://leetcode.com/problems/largest-multiple-of-three/)|Hard||
-|1365|[How Many Numbers Are Smaller Than the Current Number](https://leetcode.com/problems/how-many-numbers-are-smaller-than-the-current-number/)|Easy||
 |1366|[Rank Teams by Votes](https://leetcode.com/problems/rank-teams-by-votes/)|Medium||
 |1368|[Minimum Cost to Make at Least One Valid Path in a Grid](https://leetcode.com/problems/minimum-cost-to-make-at-least-one-valid-path-in-a-grid/)|Hard||
 |1369|[Get the Second Most Recent Activity](https://leetcode.com/problems/get-the-second-most-recent-activity/)|Hard|🔒|
-|1370|[Increasing Decreasing String](https://leetcode.com/problems/increasing-decreasing-string/)|Easy||
 |1371|[Find the Longest Substring Containing Vowels in Even Counts](https://leetcode.com/problems/find-the-longest-substring-containing-vowels-in-even-counts/)|Medium||
 |1373|[Maximum Sum BST in Binary Tree](https://leetcode.com/problems/maximum-sum-bst-in-binary-tree/)|Hard||
 |1374|[Generate a String With Characters That Have Odd Counts](https://leetcode.com/problems/generate-a-string-with-characters-that-have-odd-counts/)|Easy||

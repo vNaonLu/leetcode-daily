@@ -1,6 +1,6 @@
 # Solved Solutions List
 
-This document contains **1060** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
+This document contains **1067** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
 
 Some questions which are still being resolved are not shown in this page, more information about unsolved questions can be found at [docs/unsolved_solutions.md](./unsolved_solutions.md).
 
@@ -557,6 +557,7 @@ Some questions which are still being resolved are not shown in this page, more i
 |916|[Word Subsets](https://leetcode.com/problems/word-subsets/)|[src/q_901_950/q0916.cc](../src/q_901_950/q0916.cc)|2022/07/30 16:44|
 |917|[Reverse Only Letters](https://leetcode.com/problems/reverse-only-letters/)|[src/q_901_950/q0917.cc](../src/q_901_950/q0917.cc)|2021/09/14 08:00|
 |918|[Maximum Sum Circular Subarray](https://leetcode.com/problems/maximum-sum-circular-subarray/)|[src/q_901_950/q0918.cc](../src/q_901_950/q0918.cc)|2021/10/14 12:48|
+|920|[Number of Music Playlists](https://leetcode.com/problems/number-of-music-playlists/)|[src/q_901_950/q0920.cc](../src/q_901_950/q0920.cc)|2023/08/06 15:10|
 |922|[Sort Array By Parity II](https://leetcode.com/problems/sort-array-by-parity-ii/)|[src/q_901_950/q0922.cc](../src/q_901_950/q0922.cc)|2021/09/28 18:22|
 |923|[3Sum With Multiplicity](https://leetcode.com/problems/3sum-with-multiplicity/)|[src/q_901_950/q0923.cc](../src/q_901_950/q0923.cc)|2022/04/06 18:10|
 |925|[Long Pressed Name](https://leetcode.com/problems/long-pressed-name/)|[src/q_901_950/q0925.cc](../src/q_901_950/q0925.cc)|2022/11/03 23:25|
@@ -660,6 +661,7 @@ Some questions which are still being resolved are not shown in this page, more i
 |1160|[Find Words That Can Be Formed by Characters](https://leetcode.com/problems/find-words-that-can-be-formed-by-characters/)|[src/q_1151_1200/q1160.cc](../src/q_1151_1200/q1160.cc)|2022/12/03 17:23|
 |1161|[Maximum Level Sum of a Binary Tree](https://leetcode.com/problems/maximum-level-sum-of-a-binary-tree/)|[src/q_1151_1200/q1161.cc](../src/q_1151_1200/q1161.cc)|2023/06/15 14:12|
 |1162|[As Far from Land as Possible](https://leetcode.com/problems/as-far-from-land-as-possible/)|[src/q_1151_1200/q1162.cc](../src/q_1151_1200/q1162.cc)|2022/03/13 13:28|
+|1175|[Prime Arrangements](https://leetcode.com/problems/prime-arrangements/)|[src/q_1151_1200/q1175.cc](../src/q_1151_1200/q1175.cc)|2023/08/01 20:31|
 |1178|[Number of Valid Words for Each Puzzle](https://leetcode.com/problems/number-of-valid-words-for-each-puzzle/)|[src/q_1151_1200/q1178.cc](../src/q_1151_1200/q1178.cc)|2021/11/09 18:10|
 |1184|[Distance Between Bus Stops](https://leetcode.com/problems/distance-between-bus-stops/)|[src/q_1151_1200/q1184.cc](../src/q_1151_1200/q1184.cc)|2023/03/28 19:30|
 |1185|[Day of the Week](https://leetcode.com/problems/day-of-the-week/)|[src/q_1151_1200/q1185.cc](../src/q_1151_1200/q1185.cc)|2023/03/30 19:51|
@@ -699,11 +701,14 @@ Some questions which are still being resolved are not shown in this page, more i
 |1299|[Replace Elements with Greatest Element on Right Side](https://leetcode.com/problems/replace-elements-with-greatest-element-on-right-side/)|[src/q_1251_1300/q1299.cc](../src/q_1251_1300/q1299.cc)|2023/03/27 12:58|
 |1300|[Sum of Mutated Array Closest to Target](https://leetcode.com/problems/sum-of-mutated-array-closest-to-target/)|[src/q_1251_1300/q1300.cc](../src/q_1251_1300/q1300.cc)|2022/07/29 18:49|
 |1302|[Deepest Leaves Sum](https://leetcode.com/problems/deepest-leaves-sum/)|[src/q_1301_1350/q1302.cc](../src/q_1301_1350/q1302.cc)|2022/05/15 12:59|
+|1304|[Find N Unique Integers Sum up to Zero](https://leetcode.com/problems/find-n-unique-integers-sum-up-to-zero/)|[src/q_1301_1350/q1304.cc](../src/q_1301_1350/q1304.cc)|2023/08/02 11:25|
 |1305|[All Elements in Two Binary Search Trees](https://leetcode.com/problems/all-elements-in-two-binary-search-trees/)|[src/q_1301_1350/q1305.cc](../src/q_1301_1350/q1305.cc)|2022/01/26 18:06|
 |1306|[Jump Game III](https://leetcode.com/problems/jump-game-iii/)|[src/q_1301_1350/q1306.cc](../src/q_1301_1350/q1306.cc)|2021/12/09 17:58|
 |1309|[Decrypt String from Alphabet to Integer Mapping](https://leetcode.com/problems/decrypt-string-from-alphabet-to-integer-mapping/)|[src/q_1301_1350/q1309.cc](../src/q_1301_1350/q1309.cc)|2022/04/22 08:58|
 |1312|[Minimum Insertion Steps to Make a String Palindrome](https://leetcode.com/problems/minimum-insertion-steps-to-make-a-string-palindrome/)|[src/q_1301_1350/q1312.cc](../src/q_1301_1350/q1312.cc)|2023/04/22 13:51|
+|1313|[Decompress Run-Length Encoded List](https://leetcode.com/problems/decompress-run-length-encoded-list/)|[src/q_1301_1350/q1313.cc](../src/q_1301_1350/q1313.cc)|2023/08/03 18:43|
 |1314|[Matrix Block Sum](https://leetcode.com/problems/matrix-block-sum/)|[src/q_1301_1350/q1314.cc](../src/q_1301_1350/q1314.cc)|2021/10/23 09:56|
+|1317|[Convert Integer to the Sum of Two No-Zero Integers](https://leetcode.com/problems/convert-integer-to-the-sum-of-two-no-zero-integers/)|[src/q_1301_1350/q1317.cc](../src/q_1301_1350/q1317.cc)|2023/08/04 19:15|
 |1318|[Minimum Flips to Make a OR b Equal to c](https://leetcode.com/problems/minimum-flips-to-make-a-or-b-equal-to-c/)|[src/q_1301_1350/q1318.cc](../src/q_1301_1350/q1318.cc)|2023/06/07 18:59|
 |1319|[Number of Operations to Make Network Connected](https://leetcode.com/problems/number-of-operations-to-make-network-connected/)|[src/q_1301_1350/q1319.cc](../src/q_1301_1350/q1319.cc)|2022/03/17 18:22|
 |1323|[Maximum 69 Number](https://leetcode.com/problems/maximum-69-number/)|[src/q_1301_1350/q1323.cc](../src/q_1301_1350/q1323.cc)|2022/02/17 22:43|
@@ -724,7 +729,9 @@ Some questions which are still being resolved are not shown in this page, more i
 |1360|[Number of Days Between Two Dates](https://leetcode.com/problems/number-of-days-between-two-dates/)|[src/q_1351_1400/q1360.cc](../src/q_1351_1400/q1360.cc)|2023/06/20 20:36|
 |1361|[Validate Binary Tree Nodes](https://leetcode.com/problems/validate-binary-tree-nodes/)|[src/q_1351_1400/q1361.cc](../src/q_1351_1400/q1361.cc)|2021/10/17 15:37|
 |1364|[Number of Trusted Contacts of a Customer](https://leetcode.com/problems/number-of-trusted-contacts-of-a-customer/)|[src/q_1351_1400/q1364.cc](../src/q_1351_1400/q1364.cc)|2022/06/24 18:06|
+|1365|[How Many Numbers Are Smaller Than the Current Number](https://leetcode.com/problems/how-many-numbers-are-smaller-than-the-current-number/)|[src/q_1351_1400/q1365.cc](../src/q_1351_1400/q1365.cc)|2023/08/05 22:19|
 |1367|[Linked List in Binary Tree](https://leetcode.com/problems/linked-list-in-binary-tree/)|[src/q_1351_1400/q1367.cc](../src/q_1351_1400/q1367.cc)|2022/04/29 15:24|
+|1370|[Increasing Decreasing String](https://leetcode.com/problems/increasing-decreasing-string/)|[src/q_1351_1400/q1370.cc](../src/q_1351_1400/q1370.cc)|2023/08/07 20:06|
 |1372|[Longest ZigZag Path in a Binary Tree](https://leetcode.com/problems/longest-zigzag-path-in-a-binary-tree/)|[src/q_1351_1400/q1372.cc](../src/q_1351_1400/q1372.cc)|2023/04/19 12:03|
 |1376|[Time Needed to Inform All Employees](https://leetcode.com/problems/time-needed-to-inform-all-employees/)|[src/q_1351_1400/q1376.cc](../src/q_1351_1400/q1376.cc)|2022/03/18 18:26|
 |1379|[Find a Corresponding Node of a Binary Tree in a Clone of That Tree](https://leetcode.com/problems/find-a-corresponding-node-of-a-binary-tree-in-a-clone-of-that-tree/)|[src/q_1351_1400/q1379.cc](../src/q_1351_1400/q1379.cc)|2022/05/17 18:15|
