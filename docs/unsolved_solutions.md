@@ -1,6 +1,6 @@
 # Unsolved Solutions List
 
-There are **1696** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
+There are **1695** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
 
 The questions which have been solved are not shown in this page, more information about solved questions can be found at [docs/solved_solutions.md](./solved_solutions.md).
 
@@ -1561,7 +1561,6 @@ The questions which have been solved are not shown in this page, more informatio
 |2612|[Minimum Reverse Operations](https://leetcode.com/problems/minimum-reverse-operations/)|Hard||
 |2613|[Beautiful Pairs](https://leetcode.com/problems/beautiful-pairs/)|Hard|🔒|
 |2615|[Sum of Distances](https://leetcode.com/problems/sum-of-distances/)|Medium||
-|2616|[Minimize the Maximum Difference of Pairs](https://leetcode.com/problems/minimize-the-maximum-difference-of-pairs/)|Medium||
 |2617|[Minimum Number of Visited Cells in a Grid](https://leetcode.com/problems/minimum-number-of-visited-cells-in-a-grid/)|Hard||
 |2618|[Check if Object Instance of Class](https://leetcode.com/problems/check-if-object-instance-of-class/)|Medium||
 |2619|[Array Prototype Last](https://leetcode.com/problems/array-prototype-last/)|Easy||
