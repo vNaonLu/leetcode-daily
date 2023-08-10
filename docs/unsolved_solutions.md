@@ -1,6 +1,6 @@
 # Unsolved Solutions List
 
-There are **1695** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
+There are **1694** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
 
 The questions which have been solved are not shown in this page, more information about solved questions can be found at [docs/solved_solutions.md](./solved_solutions.md).
 
@@ -665,7 +665,6 @@ The questions which have been solved are not shown in this page, more informatio
 |1391|[Check if There is a Valid Path in a Grid](https://leetcode.com/problems/check-if-there-is-a-valid-path-in-a-grid/)|Medium||
 |1392|[Longest Happy Prefix](https://leetcode.com/problems/longest-happy-prefix/)|Hard||
 |1393|[Capital Gain/Loss](https://leetcode.com/problems/capital-gainloss/)|Medium||
-|1394|[Find Lucky Integer in an Array](https://leetcode.com/problems/find-lucky-integer-in-an-array/)|Easy||
 |1395|[Count Number of Teams](https://leetcode.com/problems/count-number-of-teams/)|Medium||
 |1397|[Find All Good Strings](https://leetcode.com/problems/find-all-good-strings/)|Hard||
 |1398|[Customers Who Bought Products A and B but Not C](https://leetcode.com/problems/customers-who-bought-products-a-and-b-but-not-c/)|Medium|🔒|
