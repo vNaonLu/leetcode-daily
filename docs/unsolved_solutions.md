@@ -1,6 +1,6 @@
 # Unsolved Solutions List
 
-There are **1697** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
+There are **1690** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
 
 The questions which have been solved are not shown in this page, more information about solved questions can be found at [docs/solved_solutions.md](./solved_solutions.md).
 
@@ -654,7 +654,6 @@ The questions which have been solved are not shown in this page, more informatio
 |1369|[Get the Second Most Recent Activity](https://leetcode.com/problems/get-the-second-most-recent-activity/)|Hard|🔒|
 |1371|[Find the Longest Substring Containing Vowels in Even Counts](https://leetcode.com/problems/find-the-longest-substring-containing-vowels-in-even-counts/)|Medium||
 |1373|[Maximum Sum BST in Binary Tree](https://leetcode.com/problems/maximum-sum-bst-in-binary-tree/)|Hard||
-|1374|[Generate a String With Characters That Have Odd Counts](https://leetcode.com/problems/generate-a-string-with-characters-that-have-odd-counts/)|Easy||
 |1375|[Number of Times Binary String Is Prefix-Aligned](https://leetcode.com/problems/number-of-times-binary-string-is-prefix-aligned/)|Medium||
 |1377|[Frog Position After T Seconds](https://leetcode.com/problems/frog-position-after-t-seconds/)|Hard||
 |1378|[Replace Employee ID With The Unique Identifier](https://leetcode.com/problems/replace-employee-id-with-the-unique-identifier/)|Easy||
@@ -666,13 +665,11 @@ The questions which have been solved are not shown in this page, more informatio
 |1391|[Check if There is a Valid Path in a Grid](https://leetcode.com/problems/check-if-there-is-a-valid-path-in-a-grid/)|Medium||
 |1392|[Longest Happy Prefix](https://leetcode.com/problems/longest-happy-prefix/)|Hard||
 |1393|[Capital Gain/Loss](https://leetcode.com/problems/capital-gainloss/)|Medium||
-|1394|[Find Lucky Integer in an Array](https://leetcode.com/problems/find-lucky-integer-in-an-array/)|Easy||
 |1395|[Count Number of Teams](https://leetcode.com/problems/count-number-of-teams/)|Medium||
 |1397|[Find All Good Strings](https://leetcode.com/problems/find-all-good-strings/)|Hard||
 |1398|[Customers Who Bought Products A and B but Not C](https://leetcode.com/problems/customers-who-bought-products-a-and-b-but-not-c/)|Medium|🔒|
 |1400|[Construct K Palindrome Strings](https://leetcode.com/problems/construct-k-palindrome-strings/)|Medium||
 |1401|[Circle and Rectangle Overlapping](https://leetcode.com/problems/circle-and-rectangle-overlapping/)|Medium||
-|1403|[Minimum Subsequence in Non-Increasing Order](https://leetcode.com/problems/minimum-subsequence-in-non-increasing-order/)|Easy||
 |1404|[Number of Steps to Reduce a Number in Binary Representation to One](https://leetcode.com/problems/number-of-steps-to-reduce-a-number-in-binary-representation-to-one/)|Medium||
 |1405|[Longest Happy String](https://leetcode.com/problems/longest-happy-string/)|Medium||
 |1407|[Top Travellers](https://leetcode.com/problems/top-travellers/)|Easy||
@@ -682,11 +679,9 @@ The questions which have been solved are not shown in this page, more informatio
 |1412|[Find the Quiet Students in All Exams](https://leetcode.com/problems/find-the-quiet-students-in-all-exams/)|Hard|🔒|
 |1414|[Find the Minimum Number of Fibonacci Numbers Whose Sum Is K](https://leetcode.com/problems/find-the-minimum-number-of-fibonacci-numbers-whose-sum-is-k/)|Medium||
 |1415|[The k-th Lexicographical String of All Happy Strings of Length n](https://leetcode.com/problems/the-k-th-lexicographical-string-of-all-happy-strings-of-length-n/)|Medium||
-|1417|[Reformat The String](https://leetcode.com/problems/reformat-the-string/)|Easy||
 |1418|[Display Table of Food Orders in a Restaurant](https://leetcode.com/problems/display-table-of-food-orders-in-a-restaurant/)|Medium||
 |1420|[Build Array Where You Can Find The Maximum Exactly K Comparisons](https://leetcode.com/problems/build-array-where-you-can-find-the-maximum-exactly-k-comparisons/)|Hard||
 |1421|[NPV Queries](https://leetcode.com/problems/npv-queries/)|Easy|🔒|
-|1422|[Maximum Score After Splitting a String](https://leetcode.com/problems/maximum-score-after-splitting-a-string/)|Easy||
 |1424|[Diagonal Traverse II](https://leetcode.com/problems/diagonal-traverse-ii/)|Medium||
 |1425|[Constrained Subsequence Sum](https://leetcode.com/problems/constrained-subsequence-sum/)|Hard||
 |1426|[Counting Elements](https://leetcode.com/problems/counting-elements/)|Easy|🔒|
@@ -1361,7 +1356,6 @@ The questions which have been solved are not shown in this page, more informatio
 |2364|[Count Number of Bad Pairs](https://leetcode.com/problems/count-number-of-bad-pairs/)|Medium||
 |2365|[Task Scheduler II](https://leetcode.com/problems/task-scheduler-ii/)|Medium||
 |2366|[Minimum Replacements to Sort the Array](https://leetcode.com/problems/minimum-replacements-to-sort-the-array/)|Hard||
-|2369|[Check if There is a Valid Partition For The Array](https://leetcode.com/problems/check-if-there-is-a-valid-partition-for-the-array/)|Medium||
 |2370|[Longest Ideal Subsequence](https://leetcode.com/problems/longest-ideal-subsequence/)|Medium||
 |2371|[Minimize Maximum Value in a Grid](https://leetcode.com/problems/minimize-maximum-value-in-a-grid/)|Hard|🔒|
 |2372|[Calculate the Influence of Each Salesperson](https://leetcode.com/problems/calculate-the-influence-of-each-salesperson/)|Medium|🔒|
@@ -1562,7 +1556,6 @@ The questions which have been solved are not shown in this page, more informatio
 |2612|[Minimum Reverse Operations](https://leetcode.com/problems/minimum-reverse-operations/)|Hard||
 |2613|[Beautiful Pairs](https://leetcode.com/problems/beautiful-pairs/)|Hard|🔒|
 |2615|[Sum of Distances](https://leetcode.com/problems/sum-of-distances/)|Medium||
-|2616|[Minimize the Maximum Difference of Pairs](https://leetcode.com/problems/minimize-the-maximum-difference-of-pairs/)|Medium||
 |2617|[Minimum Number of Visited Cells in a Grid](https://leetcode.com/problems/minimum-number-of-visited-cells-in-a-grid/)|Hard||
 |2618|[Check if Object Instance of Class](https://leetcode.com/problems/check-if-object-instance-of-class/)|Medium||
 |2619|[Array Prototype Last](https://leetcode.com/problems/array-prototype-last/)|Easy||
