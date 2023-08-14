@@ -1,6 +1,6 @@
 # Unsolved Solutions List
 
-There are **1691** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
+There are **1690** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
 
 The questions which have been solved are not shown in this page, more information about solved questions can be found at [docs/solved_solutions.md](./solved_solutions.md).
 
@@ -682,7 +682,6 @@ The questions which have been solved are not shown in this page, more informatio
 |1418|[Display Table of Food Orders in a Restaurant](https://leetcode.com/problems/display-table-of-food-orders-in-a-restaurant/)|Medium||
 |1420|[Build Array Where You Can Find The Maximum Exactly K Comparisons](https://leetcode.com/problems/build-array-where-you-can-find-the-maximum-exactly-k-comparisons/)|Hard||
 |1421|[NPV Queries](https://leetcode.com/problems/npv-queries/)|Easy|🔒|
-|1422|[Maximum Score After Splitting a String](https://leetcode.com/problems/maximum-score-after-splitting-a-string/)|Easy||
 |1424|[Diagonal Traverse II](https://leetcode.com/problems/diagonal-traverse-ii/)|Medium||
 |1425|[Constrained Subsequence Sum](https://leetcode.com/problems/constrained-subsequence-sum/)|Hard||
 |1426|[Counting Elements](https://leetcode.com/problems/counting-elements/)|Easy|🔒|
