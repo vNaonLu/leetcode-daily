@@ -1,6 +1,6 @@
 # Unsolved Solutions List
 
-There are **1687** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
+There are **1686** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
 
 The questions which have been solved are not shown in this page, more information about solved questions can be found at [docs/solved_solutions.md](./solved_solutions.md).
 
@@ -706,7 +706,6 @@ The questions which have been solved are not shown in this page, more informatio
 |1454|[Active Users](https://leetcode.com/problems/active-users/)|Medium|🔒|
 |1458|[Max Dot Product of Two Subsequences](https://leetcode.com/problems/max-dot-product-of-two-subsequences/)|Hard||
 |1459|[Rectangles Area](https://leetcode.com/problems/rectangles-area/)|Medium|🔒|
-|1460|[Make Two Arrays Equal by Reversing Subarrays](https://leetcode.com/problems/make-two-arrays-equal-by-reversing-subarrays/)|Easy||
 |1467|[Probability of a Two Boxes Having The Same Number of Distinct Balls](https://leetcode.com/problems/probability-of-a-two-boxes-having-the-same-number-of-distinct-balls/)|Hard||
 |1468|[Calculate Salaries](https://leetcode.com/problems/calculate-salaries/)|Medium|🔒|
 |1469|[Find All The Lonely Nodes](https://leetcode.com/problems/find-all-the-lonely-nodes/)|Easy|🔒|
