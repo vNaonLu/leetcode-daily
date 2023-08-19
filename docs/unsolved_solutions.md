@@ -1,6 +1,6 @@
 # Unsolved Solutions List
 
-There are **1686** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
+There are **1685** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
 
 The questions which have been solved are not shown in this page, more information about solved questions can be found at [docs/solved_solutions.md](./solved_solutions.md).
 
@@ -720,7 +720,6 @@ The questions which have been solved are not shown in this page, more informatio
 |1484|[Group Sold Products By The Date](https://leetcode.com/problems/group-sold-products-by-the-date/)|Easy||
 |1485|[Clone Binary Tree With Random Pointer](https://leetcode.com/problems/clone-binary-tree-with-random-pointer/)|Medium|🔒|
 |1487|[Making File Names Unique](https://leetcode.com/problems/making-file-names-unique/)|Medium||
-|1489|[Find Critical and Pseudo-Critical Edges in Minimum Spanning Tree](https://leetcode.com/problems/find-critical-and-pseudo-critical-edges-in-minimum-spanning-tree/)|Hard||
 |1490|[Clone N-ary Tree](https://leetcode.com/problems/clone-n-ary-tree/)|Medium|🔒|
 |1492|[The kth Factor of n](https://leetcode.com/problems/the-kth-factor-of-n/)|Medium||
 |1494|[Parallel Courses II](https://leetcode.com/problems/parallel-courses-ii/)|Hard||
