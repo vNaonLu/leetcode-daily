@@ -1,6 +1,6 @@
 # Solved Solutions List
 
-This document contains **1079** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
+This document contains **1080** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
 
 Some questions which are still being resolved are not shown in this page, more information about unsolved questions can be found at [docs/unsolved_solutions.md](./unsolved_solutions.md).
 
@@ -673,6 +673,7 @@ Some questions which are still being resolved are not shown in this page, more i
 |1200|[Minimum Absolute Difference](https://leetcode.com/problems/minimum-absolute-difference/)|[src/q_1151_1200/q1200.cc](../src/q_1151_1200/q1200.cc)|2021/12/20 18:07|
 |1201|[Ugly Number III](https://leetcode.com/problems/ugly-number-iii/)|[src/q_1201_1250/q1201.cc](../src/q_1201_1250/q1201.cc)|2022/08/02 18:21|
 |1202|[Smallest String With Swaps](https://leetcode.com/problems/smallest-string-with-swaps/)|[src/q_1201_1250/q1202.cc](../src/q_1201_1250/q1202.cc)|2022/04/27 18:21|
+|1203|[Sort Items by Groups Respecting Dependencies](https://leetcode.com/problems/sort-items-by-groups-respecting-dependencies/)|[src/q_1201_1250/q1203.cc](../src/q_1201_1250/q1203.cc)|2023/08/20 18:22|
 |1207|[Unique Number of Occurrences](https://leetcode.com/problems/unique-number-of-occurrences/)|[src/q_1201_1250/q1207.cc](../src/q_1201_1250/q1207.cc)|2022/11/30 12:55|
 |1209|[Remove All Adjacent Duplicates in String II](https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string-ii/)|[src/q_1201_1250/q1209.cc](../src/q_1201_1250/q1209.cc)|2022/05/06 18:29|
 |1217|[Minimum Cost to Move Chips to The Same Position](https://leetcode.com/problems/minimum-cost-to-move-chips-to-the-same-position/)|[src/q_1201_1250/q1217.cc](../src/q_1201_1250/q1217.cc)|2021/12/06 18:16|

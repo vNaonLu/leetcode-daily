@@ -1,6 +1,6 @@
 # Unsolved Solutions List
 
-There are **1685** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
+There are **1684** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
 
 The questions which have been solved are not shown in this page, more information about solved questions can be found at [docs/solved_solutions.md](./solved_solutions.md).
 
@@ -543,7 +543,6 @@ The questions which have been solved are not shown in this page, more informatio
 |1197|[Minimum Knight Moves](https://leetcode.com/problems/minimum-knight-moves/)|Medium|🔒|
 |1198|[Find Smallest Common Element in All Rows](https://leetcode.com/problems/find-smallest-common-element-in-all-rows/)|Medium|🔒|
 |1199|[Minimum Time to Build Blocks](https://leetcode.com/problems/minimum-time-to-build-blocks/)|Hard|🔒|
-|1203|[Sort Items by Groups Respecting Dependencies](https://leetcode.com/problems/sort-items-by-groups-respecting-dependencies/)|Hard||
 |1204|[Last Person to Fit in the Bus](https://leetcode.com/problems/last-person-to-fit-in-the-bus/)|Medium||
 |1205|[Monthly Transactions II](https://leetcode.com/problems/monthly-transactions-ii/)|Medium|🔒|
 |1206|[Design Skiplist](https://leetcode.com/problems/design-skiplist/)|Hard||
