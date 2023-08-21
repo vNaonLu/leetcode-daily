@@ -1,6 +1,6 @@
 # Unsolved Solutions List
 
-There are **1690** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
+There are **1683** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
 
 The questions which have been solved are not shown in this page, more information about solved questions can be found at [docs/solved_solutions.md](./solved_solutions.md).
 
@@ -38,7 +38,6 @@ The questions which have been solved are not shown in this page, more informatio
 |204|[Count Primes](https://leetcode.com/problems/count-primes/)|Medium||
 |233|[Number of Digit One](https://leetcode.com/problems/number-of-digit-one/)|Hard||
 |237|[Delete Node in a Linked List](https://leetcode.com/problems/delete-node-in-a-linked-list/)|Medium||
-|239|[Sliding Window Maximum](https://leetcode.com/problems/sliding-window-maximum/)|Hard||
 |243|[Shortest Word Distance](https://leetcode.com/problems/shortest-word-distance/)|Easy|🔒|
 |244|[Shortest Word Distance II](https://leetcode.com/problems/shortest-word-distance-ii/)|Medium|🔒|
 |245|[Shortest Word Distance III](https://leetcode.com/problems/shortest-word-distance-iii/)|Medium|🔒|
@@ -544,7 +543,6 @@ The questions which have been solved are not shown in this page, more informatio
 |1197|[Minimum Knight Moves](https://leetcode.com/problems/minimum-knight-moves/)|Medium|🔒|
 |1198|[Find Smallest Common Element in All Rows](https://leetcode.com/problems/find-smallest-common-element-in-all-rows/)|Medium|🔒|
 |1199|[Minimum Time to Build Blocks](https://leetcode.com/problems/minimum-time-to-build-blocks/)|Hard|🔒|
-|1203|[Sort Items by Groups Respecting Dependencies](https://leetcode.com/problems/sort-items-by-groups-respecting-dependencies/)|Hard||
 |1204|[Last Person to Fit in the Bus](https://leetcode.com/problems/last-person-to-fit-in-the-bus/)|Medium||
 |1205|[Monthly Transactions II](https://leetcode.com/problems/monthly-transactions-ii/)|Medium|🔒|
 |1206|[Design Skiplist](https://leetcode.com/problems/design-skiplist/)|Hard||
@@ -693,7 +691,6 @@ The questions which have been solved are not shown in this page, more informatio
 |1433|[Check If a String Can Break Another String](https://leetcode.com/problems/check-if-a-string-can-break-another-string/)|Medium||
 |1434|[Number of Ways to Wear Different Hats to Each Other](https://leetcode.com/problems/number-of-ways-to-wear-different-hats-to-each-other/)|Hard||
 |1435|[Create a Session Bar Chart](https://leetcode.com/problems/create-a-session-bar-chart/)|Easy|🔒|
-|1436|[Destination City](https://leetcode.com/problems/destination-city/)|Easy||
 |1438|[Longest Continuous Subarray With Absolute Diff Less Than or Equal to Limit](https://leetcode.com/problems/longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit/)|Medium||
 |1439|[Find the Kth Smallest Sum of a Matrix With Sorted Rows](https://leetcode.com/problems/find-the-kth-smallest-sum-of-a-matrix-with-sorted-rows/)|Hard||
 |1440|[Evaluate Boolean Expression](https://leetcode.com/problems/evaluate-boolean-expression/)|Medium|🔒|
@@ -702,19 +699,16 @@ The questions which have been solved are not shown in this page, more informatio
 |1445|[Apples & Oranges](https://leetcode.com/problems/apples-oranges/)|Medium|🔒|
 |1447|[Simplified Fractions](https://leetcode.com/problems/simplified-fractions/)|Medium||
 |1449|[Form Largest Integer With Digits That Add up to Target](https://leetcode.com/problems/form-largest-integer-with-digits-that-add-up-to-target/)|Hard||
-|1450|[Number of Students Doing Homework at a Given Time](https://leetcode.com/problems/number-of-students-doing-homework-at-a-given-time/)|Easy||
 |1451|[Rearrange Words in a Sentence](https://leetcode.com/problems/rearrange-words-in-a-sentence/)|Medium||
 |1452|[People Whose List of Favorite Companies Is Not a Subset of Another List](https://leetcode.com/problems/people-whose-list-of-favorite-companies-is-not-a-subset-of-another-list/)|Medium||
 |1453|[Maximum Number of Darts Inside of a Circular Dartboard](https://leetcode.com/problems/maximum-number-of-darts-inside-of-a-circular-dartboard/)|Hard||
 |1454|[Active Users](https://leetcode.com/problems/active-users/)|Medium|🔒|
 |1458|[Max Dot Product of Two Subsequences](https://leetcode.com/problems/max-dot-product-of-two-subsequences/)|Hard||
 |1459|[Rectangles Area](https://leetcode.com/problems/rectangles-area/)|Medium|🔒|
-|1460|[Make Two Arrays Equal by Reversing Subarrays](https://leetcode.com/problems/make-two-arrays-equal-by-reversing-subarrays/)|Easy||
 |1467|[Probability of a Two Boxes Having The Same Number of Distinct Balls](https://leetcode.com/problems/probability-of-a-two-boxes-having-the-same-number-of-distinct-balls/)|Hard||
 |1468|[Calculate Salaries](https://leetcode.com/problems/calculate-salaries/)|Medium|🔒|
 |1469|[Find All The Lonely Nodes](https://leetcode.com/problems/find-all-the-lonely-nodes/)|Easy|🔒|
 |1474|[Delete N Nodes After M Nodes of a Linked List](https://leetcode.com/problems/delete-n-nodes-after-m-nodes-of-a-linked-list/)|Easy|🔒|
-|1475|[Final Prices With a Special Discount in a Shop](https://leetcode.com/problems/final-prices-with-a-special-discount-in-a-shop/)|Easy||
 |1476|[Subrectangle Queries](https://leetcode.com/problems/subrectangle-queries/)|Medium||
 |1477|[Find Two Non-overlapping Sub-arrays Each With Target Sum](https://leetcode.com/problems/find-two-non-overlapping-sub-arrays-each-with-target-sum/)|Medium||
 |1478|[Allocate Mailboxes](https://leetcode.com/problems/allocate-mailboxes/)|Hard||
@@ -724,7 +718,6 @@ The questions which have been solved are not shown in this page, more informatio
 |1484|[Group Sold Products By The Date](https://leetcode.com/problems/group-sold-products-by-the-date/)|Easy||
 |1485|[Clone Binary Tree With Random Pointer](https://leetcode.com/problems/clone-binary-tree-with-random-pointer/)|Medium|🔒|
 |1487|[Making File Names Unique](https://leetcode.com/problems/making-file-names-unique/)|Medium||
-|1489|[Find Critical and Pseudo-Critical Edges in Minimum Spanning Tree](https://leetcode.com/problems/find-critical-and-pseudo-critical-edges-in-minimum-spanning-tree/)|Hard||
 |1490|[Clone N-ary Tree](https://leetcode.com/problems/clone-n-ary-tree/)|Medium|🔒|
 |1492|[The kth Factor of n](https://leetcode.com/problems/the-kth-factor-of-n/)|Medium||
 |1494|[Parallel Courses II](https://leetcode.com/problems/parallel-courses-ii/)|Hard||
