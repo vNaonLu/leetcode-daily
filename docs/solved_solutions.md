@@ -1,6 +1,6 @@
 # Solved Solutions List
 
-This document contains **1080** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
+This document contains **1081** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
 
 Some questions which are still being resolved are not shown in this page, more information about unsolved questions can be found at [docs/unsolved_solutions.md](./unsolved_solutions.md).
 
@@ -779,6 +779,7 @@ Some questions which are still being resolved are not shown in this page, more i
 |1471|[The k Strongest Values in an Array](https://leetcode.com/problems/the-k-strongest-values-in-an-array/)|[src/q_1451_1500/q1471.cc](../src/q_1451_1500/q1471.cc)|2022/03/25 18:11|
 |1472|[Design Browser History](https://leetcode.com/problems/design-browser-history/)|[src/q_1451_1500/q1472.cc](../src/q_1451_1500/q1472.cc)|2023/03/18 14:48|
 |1473|[Paint House III](https://leetcode.com/problems/paint-house-iii/)|[src/q_1451_1500/q1473.cc](../src/q_1451_1500/q1473.cc)|2022/07/08 18:21|
+|1475|[Final Prices With a Special Discount in a Shop](https://leetcode.com/problems/final-prices-with-a-special-discount-in-a-shop/)|[src/q_1451_1500/q1475.cc](../src/q_1451_1500/q1475.cc)|2023/08/21 19:05|
 |1480|[Running Sum of 1d Array](https://leetcode.com/problems/running-sum-of-1d-array/)|[src/q_1451_1500/q1480.cc](../src/q_1451_1500/q1480.cc)|2021/11/01 18:23|
 |1482|[Minimum Number of Days to Make m Bouquets](https://leetcode.com/problems/minimum-number-of-days-to-make-m-bouquets/)|[src/q_1451_1500/q1482.cc](../src/q_1451_1500/q1482.cc)|2022/07/20 18:38|
 |1486|[XOR Operation in an Array](https://leetcode.com/problems/xor-operation-in-an-array/)|[src/q_1451_1500/q1486.cc](../src/q_1451_1500/q1486.cc)|2022/12/06 18:51|

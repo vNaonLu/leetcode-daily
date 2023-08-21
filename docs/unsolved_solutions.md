@@ -1,6 +1,6 @@
 # Unsolved Solutions List
 
-There are **1684** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
+There are **1683** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
 
 The questions which have been solved are not shown in this page, more information about solved questions can be found at [docs/solved_solutions.md](./solved_solutions.md).
 
@@ -709,7 +709,6 @@ The questions which have been solved are not shown in this page, more informatio
 |1468|[Calculate Salaries](https://leetcode.com/problems/calculate-salaries/)|Medium|🔒|
 |1469|[Find All The Lonely Nodes](https://leetcode.com/problems/find-all-the-lonely-nodes/)|Easy|🔒|
 |1474|[Delete N Nodes After M Nodes of a Linked List](https://leetcode.com/problems/delete-n-nodes-after-m-nodes-of-a-linked-list/)|Easy|🔒|
-|1475|[Final Prices With a Special Discount in a Shop](https://leetcode.com/problems/final-prices-with-a-special-discount-in-a-shop/)|Easy||
 |1476|[Subrectangle Queries](https://leetcode.com/problems/subrectangle-queries/)|Medium||
 |1477|[Find Two Non-overlapping Sub-arrays Each With Target Sum](https://leetcode.com/problems/find-two-non-overlapping-sub-arrays-each-with-target-sum/)|Medium||
 |1478|[Allocate Mailboxes](https://leetcode.com/problems/allocate-mailboxes/)|Hard||

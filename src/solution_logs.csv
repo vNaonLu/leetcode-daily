@@ -1079,3 +1079,4 @@ timestamp,id,tc,sc,notes
 1692353092,1460,n,1,n = |target.size()|
 1692416430,1489,-,-,not calculated
 1692526970,1203,-,-,not calculated
+1692615934,1475,n,n,n = |prices.size()|
