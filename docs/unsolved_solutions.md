@@ -1,6 +1,6 @@
 # Unsolved Solutions List
 
-There are **1683** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
+There are **1682** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
 
 The questions which have been solved are not shown in this page, more information about solved questions can be found at [docs/solved_solutions.md](./solved_solutions.md).
 
@@ -15,7 +15,6 @@ The questions which have been solved are not shown in this page, more informatio
 |161|[One Edit Distance](https://leetcode.com/problems/one-edit-distance/)|Medium|🔒|
 |163|[Missing Ranges](https://leetcode.com/problems/missing-ranges/)|Easy|🔒|
 |164|[Maximum Gap](https://leetcode.com/problems/maximum-gap/)|Hard||
-|168|[Excel Sheet Column Title](https://leetcode.com/problems/excel-sheet-column-title/)|Easy||
 |170|[Two Sum III - Data structure design](https://leetcode.com/problems/two-sum-iii-data-structure-design/)|Easy|🔒|
 |172|[Factorial Trailing Zeroes](https://leetcode.com/problems/factorial-trailing-zeroes/)|Medium||
 |175|[Combine Two Tables](https://leetcode.com/problems/combine-two-tables/)|Easy||

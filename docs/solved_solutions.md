@@ -1,6 +1,6 @@
 # Solved Solutions List
 
-This document contains **1081** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
+This document contains **1082** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
 
 Some questions which are still being resolved are not shown in this page, more information about unsolved questions can be found at [docs/unsolved_solutions.md](./unsolved_solutions.md).
 
@@ -166,6 +166,7 @@ Some questions which are still being resolved are not shown in this page, more i
 |165|[Compare Version Numbers](https://leetcode.com/problems/compare-version-numbers/)|[src/q_151_200/q0165.cc](../src/q_151_200/q0165.cc)|2022/02/25 16:04|
 |166|[Fraction to Recurring Decimal](https://leetcode.com/problems/fraction-to-recurring-decimal/)|[src/q_151_200/q0166.cc](../src/q_151_200/q0166.cc)|2022/08/22 00:04|
 |167|[Two Sum II - Input Array Is Sorted](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/)|[src/q_151_200/q0167.cc](../src/q_151_200/q0167.cc)|2021/09/07 08:00|
+|168|[Excel Sheet Column Title](https://leetcode.com/problems/excel-sheet-column-title/)|[src/q_151_200/q0168.cc](../src/q_151_200/q0168.cc)|2023/08/22 17:51|
 |169|[Majority Element](https://leetcode.com/problems/majority-element/)|[src/q_151_200/q0169.cc](../src/q_151_200/q0169.cc)|2021/09/19 08:00|
 |171|[Excel Sheet Column Number](https://leetcode.com/problems/excel-sheet-column-number/)|[src/q_151_200/q0171.cc](../src/q_151_200/q0171.cc)|2022/02/22 18:01|
 |173|[Binary Search Tree Iterator](https://leetcode.com/problems/binary-search-tree-iterator/)|[src/q_151_200/q0173.cc](../src/q_151_200/q0173.cc)|2021/10/05 12:37|
