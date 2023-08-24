@@ -1,6 +1,6 @@
 # Solved Solutions List
 
-This document contains **1083** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
+This document contains **1084** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
 
 Some questions which are still being resolved are not shown in this page, more information about unsolved questions can be found at [docs/unsolved_solutions.md](./unsolved_solutions.md).
 
@@ -800,6 +800,7 @@ Some questions which are still being resolved are not shown in this page, more i
 |1518|[Water Bottles](https://leetcode.com/problems/water-bottles/)|[src/q_1501_1550/q1518.cc](../src/q_1501_1550/q1518.cc)|2023/08/23 20:18|
 |1519|[Number of Nodes in the Sub-Tree With the Same Label](https://leetcode.com/problems/number-of-nodes-in-the-sub-tree-with-the-same-label/)|[src/q_1501_1550/q1519.cc](../src/q_1501_1550/q1519.cc)|2023/01/12 16:04|
 |1523|[Count Odd Numbers in an Interval Range](https://leetcode.com/problems/count-odd-numbers-in-an-interval-range/)|[src/q_1501_1550/q1523.cc](../src/q_1501_1550/q1523.cc)|2022/04/14 18:37|
+|1528|[Shuffle String](https://leetcode.com/problems/shuffle-string/)|[src/q_1501_1550/q1528.cc](../src/q_1501_1550/q1528.cc)|2023/08/24 19:54|
 |1529|[Minimum Suffix Flips](https://leetcode.com/problems/minimum-suffix-flips/)|[src/q_1501_1550/q1529.cc](../src/q_1501_1550/q1529.cc)|2022/02/12 00:03|
 |1531|[String Compression II](https://leetcode.com/problems/string-compression-ii/)|[src/q_1501_1550/q1531.cc](../src/q_1501_1550/q1531.cc)|2022/10/15 13:26|
 |1534|[Count Good Triplets](https://leetcode.com/problems/count-good-triplets/)|[src/q_1501_1550/q1534.cc](../src/q_1501_1550/q1534.cc)|2021/10/13 12:39|
