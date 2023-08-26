@@ -1,6 +1,6 @@
 # Solved Solutions List
 
-This document contains **1085** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
+This document contains **1086** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
 
 Some questions which are still being resolved are not shown in this page, more information about unsolved questions can be found at [docs/unsolved_solutions.md](./unsolved_solutions.md).
 
@@ -409,6 +409,7 @@ Some questions which are still being resolved are not shown in this page, more i
 |640|[Solve the Equation](https://leetcode.com/problems/solve-the-equation/)|[src/q_601_650/q0640.cc](../src/q_601_650/q0640.cc)|2022/07/06 18:18|
 |643|[Maximum Average Subarray I](https://leetcode.com/problems/maximum-average-subarray-i/)|[src/q_601_650/q0643.cc](../src/q_601_650/q0643.cc)|2022/05/20 18:17|
 |645|[Set Mismatch](https://leetcode.com/problems/set-mismatch/)|[src/q_601_650/q0645.cc](../src/q_601_650/q0645.cc)|2022/10/02 12:30|
+|646|[Maximum Length of Pair Chain](https://leetcode.com/problems/maximum-length-of-pair-chain/)|[src/q_601_650/q0646.cc](../src/q_601_650/q0646.cc)|2023/08/26 14:55|
 |647|[Palindromic Substrings](https://leetcode.com/problems/palindromic-substrings/)|[src/q_601_650/q0647.cc](../src/q_601_650/q0647.cc)|2022/05/22 14:26|
 |649|[Dota2 Senate](https://leetcode.com/problems/dota2-senate/)|[src/q_601_650/q0649.cc](../src/q_601_650/q0649.cc)|2023/05/04 16:42|
 |652|[Find Duplicate Subtrees](https://leetcode.com/problems/find-duplicate-subtrees/)|[src/q_651_700/q0652.cc](../src/q_651_700/q0652.cc)|2023/02/28 14:40|
