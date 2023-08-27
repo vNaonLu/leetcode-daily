@@ -1,6 +1,6 @@
 # Solved Solutions List
 
-This document contains **1086** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
+This document contains **1087** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
 
 Some questions which are still being resolved are not shown in this page, more information about unsolved questions can be found at [docs/unsolved_solutions.md](./unsolved_solutions.md).
 
@@ -295,6 +295,7 @@ Some questions which are still being resolved are not shown in this page, more i
 |399|[Evaluate Division](https://leetcode.com/problems/evaluate-division/)|[src/q_351_400/q0399.cc](../src/q_351_400/q0399.cc)|2022/04/30 10:39|
 |401|[Binary Watch](https://leetcode.com/problems/binary-watch/)|[src/q_401_450/q0401.cc](../src/q_401_450/q0401.cc)|2022/08/15 18:05|
 |402|[Remove K Digits](https://leetcode.com/problems/remove-k-digits/)|[src/q_401_450/q0402.cc](../src/q_401_450/q0402.cc)|2022/02/18 18:25|
+|403|[Frog Jump](https://leetcode.com/problems/frog-jump/)|[src/q_401_450/q0403.cc](../src/q_401_450/q0403.cc)|2023/08/27 14:05|
 |404|[Sum of Left Leaves](https://leetcode.com/problems/sum-of-left-leaves/)|[src/q_401_450/q0404.cc](../src/q_401_450/q0404.cc)|2021/11/04 18:00|
 |405|[Convert a Number to Hexadecimal](https://leetcode.com/problems/convert-a-number-to-hexadecimal/)|[src/q_401_450/q0405.cc](../src/q_401_450/q0405.cc)|2022/05/30 18:20|
 |406|[Queue Reconstruction by Height](https://leetcode.com/problems/queue-reconstruction-by-height/)|[src/q_401_450/q0406.cc](../src/q_401_450/q0406.cc)|2022/06/29 18:37|
