@@ -1,6 +1,6 @@
 # Unsolved Solutions List
 
-There are **1683** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
+There are **1676** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
 
 The questions which have been solved are not shown in this page, more information about solved questions can be found at [docs/solved_solutions.md](./solved_solutions.md).
 
@@ -15,7 +15,6 @@ The questions which have been solved are not shown in this page, more informatio
 |161|[One Edit Distance](https://leetcode.com/problems/one-edit-distance/)|Medium|🔒|
 |163|[Missing Ranges](https://leetcode.com/problems/missing-ranges/)|Easy|🔒|
 |164|[Maximum Gap](https://leetcode.com/problems/maximum-gap/)|Hard||
-|168|[Excel Sheet Column Title](https://leetcode.com/problems/excel-sheet-column-title/)|Easy||
 |170|[Two Sum III - Data structure design](https://leetcode.com/problems/two-sum-iii-data-structure-design/)|Easy|🔒|
 |172|[Factorial Trailing Zeroes](https://leetcode.com/problems/factorial-trailing-zeroes/)|Medium||
 |175|[Combine Two Tables](https://leetcode.com/problems/combine-two-tables/)|Easy||
@@ -122,7 +121,6 @@ The questions which have been solved are not shown in this page, more informatio
 |396|[Rotate Function](https://leetcode.com/problems/rotate-function/)|Medium||
 |398|[Random Pick Index](https://leetcode.com/problems/random-pick-index/)|Medium||
 |400|[Nth Digit](https://leetcode.com/problems/nth-digit/)|Medium||
-|403|[Frog Jump](https://leetcode.com/problems/frog-jump/)|Hard||
 |407|[Trapping Rain Water II](https://leetcode.com/problems/trapping-rain-water-ii/)|Hard||
 |408|[Valid Word Abbreviation](https://leetcode.com/problems/valid-word-abbreviation/)|Easy|🔒|
 |411|[Minimum Unique Word Abbreviation](https://leetcode.com/problems/minimum-unique-word-abbreviation/)|Hard|🔒|
@@ -251,7 +249,6 @@ The questions which have been solved are not shown in this page, more informatio
 |641|[Design Circular Deque](https://leetcode.com/problems/design-circular-deque/)|Medium||
 |642|[Design Search Autocomplete System](https://leetcode.com/problems/design-search-autocomplete-system/)|Hard|🔒|
 |644|[Maximum Average Subarray II](https://leetcode.com/problems/maximum-average-subarray-ii/)|Hard|🔒|
-|646|[Maximum Length of Pair Chain](https://leetcode.com/problems/maximum-length-of-pair-chain/)|Medium||
 |648|[Replace Words](https://leetcode.com/problems/replace-words/)|Medium||
 |650|[2 Keys Keyboard](https://leetcode.com/problems/2-keys-keyboard/)|Medium||
 |651|[4 Keys Keyboard](https://leetcode.com/problems/4-keys-keyboard/)|Medium|🔒|
@@ -735,7 +732,6 @@ The questions which have been solved are not shown in this page, more informatio
 |1515|[Best Position for a Service Centre](https://leetcode.com/problems/best-position-for-a-service-centre/)|Hard||
 |1516|[Move Sub-Tree of N-Ary Tree](https://leetcode.com/problems/move-sub-tree-of-n-ary-tree/)|Hard|🔒|
 |1517|[Find Users With Valid E-Mails](https://leetcode.com/problems/find-users-with-valid-e-mails/)|Easy||
-|1518|[Water Bottles](https://leetcode.com/problems/water-bottles/)|Easy||
 |1520|[Maximum Number of Non-Overlapping Substrings](https://leetcode.com/problems/maximum-number-of-non-overlapping-substrings/)|Hard||
 |1521|[Find a Value of a Mysterious Function Closest to Target](https://leetcode.com/problems/find-a-value-of-a-mysterious-function-closest-to-target/)|Hard||
 |1522|[Diameter of N-Ary Tree](https://leetcode.com/problems/diameter-of-n-ary-tree/)|Medium|🔒|
@@ -743,7 +739,6 @@ The questions which have been solved are not shown in this page, more informatio
 |1525|[Number of Good Ways to Split a String](https://leetcode.com/problems/number-of-good-ways-to-split-a-string/)|Medium||
 |1526|[Minimum Number of Increments on Subarrays to Form a Target Array](https://leetcode.com/problems/minimum-number-of-increments-on-subarrays-to-form-a-target-array/)|Hard||
 |1527|[Patients With a Condition](https://leetcode.com/problems/patients-with-a-condition/)|Easy||
-|1528|[Shuffle String](https://leetcode.com/problems/shuffle-string/)|Easy||
 |1530|[Number of Good Leaf Nodes Pairs](https://leetcode.com/problems/number-of-good-leaf-nodes-pairs/)|Medium||
 |1532|[The Most Recent Three Orders](https://leetcode.com/problems/the-most-recent-three-orders/)|Medium|🔒|
 |1533|[Find the Index of the Large Integer](https://leetcode.com/problems/find-the-index-of-the-large-integer/)|Medium|🔒|
@@ -763,12 +758,10 @@ The questions which have been solved are not shown in this page, more informatio
 |1554|[Strings Differ by One Character](https://leetcode.com/problems/strings-differ-by-one-character/)|Medium|🔒|
 |1555|[Bank Account Summary](https://leetcode.com/problems/bank-account-summary/)|Medium|🔒|
 |1558|[Minimum Numbers of Function Calls to Make Target Array](https://leetcode.com/problems/minimum-numbers-of-function-calls-to-make-target-array/)|Medium||
-|1560|[Most Visited Sector in  a Circular Track](https://leetcode.com/problems/most-visited-sector-in-a-circular-track/)|Easy||
 |1561|[Maximum Number of Coins You Can Get](https://leetcode.com/problems/maximum-number-of-coins-you-can-get/)|Medium||
 |1563|[Stone Game V](https://leetcode.com/problems/stone-game-v/)|Hard||
 |1564|[Put Boxes Into the Warehouse I](https://leetcode.com/problems/put-boxes-into-the-warehouse-i/)|Medium|🔒|
 |1565|[Unique Orders and Customers Per Month](https://leetcode.com/problems/unique-orders-and-customers-per-month/)|Easy|🔒|
-|1566|[Detect Pattern of Length M Repeated K or More Times](https://leetcode.com/problems/detect-pattern-of-length-m-repeated-k-or-more-times/)|Easy||
 |1568|[Minimum Number of Days to Disconnect Island](https://leetcode.com/problems/minimum-number-of-days-to-disconnect-island/)|Hard||
 |1570|[Dot Product of Two Sparse Vectors](https://leetcode.com/problems/dot-product-of-two-sparse-vectors/)|Medium|🔒|
 |1571|[Warehouse Manager](https://leetcode.com/problems/warehouse-manager/)|Easy|🔒|
