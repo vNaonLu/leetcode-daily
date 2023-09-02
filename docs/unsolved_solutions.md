@@ -1,6 +1,6 @@
 # Unsolved Solutions List
 
-There are **1672** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
+There are **1671** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
 
 The questions which have been solved are not shown in this page, more information about solved questions can be found at [docs/solved_solutions.md](./solved_solutions.md).
 
@@ -1621,7 +1621,6 @@ The questions which have been solved are not shown in this page, more informatio
 |2703|[Return Length of Arguments Passed](https://leetcode.com/problems/return-length-of-arguments-passed/)|Easy||
 |2704|[To Be Or Not To Be](https://leetcode.com/problems/to-be-or-not-to-be/)|Easy||
 |2705|[Compact Object](https://leetcode.com/problems/compact-object/)|Medium||
-|2707|[Extra Characters in a String](https://leetcode.com/problems/extra-characters-in-a-string/)|Medium||
 |2708|[Maximum Strength of a Group](https://leetcode.com/problems/maximum-strength-of-a-group/)|Medium||
 |2709|[Greatest Common Divisor Traversal](https://leetcode.com/problems/greatest-common-divisor-traversal/)|Hard||
 |2710|[Remove Trailing Zeros From a String](https://leetcode.com/problems/remove-trailing-zeros-from-a-string/)|Easy||
