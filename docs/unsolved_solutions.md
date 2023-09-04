@@ -1,6 +1,6 @@
 # Unsolved Solutions List
 
-There are **1670** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
+There are **1669** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
 
 The questions which have been solved are not shown in this page, more information about solved questions can be found at [docs/solved_solutions.md](./solved_solutions.md).
 
@@ -808,7 +808,6 @@ The questions which have been solved are not shown in this page, more informatio
 |1635|[Hopper Company Queries I](https://leetcode.com/problems/hopper-company-queries-i/)|Hard|🔒|
 |1637|[Widest Vertical Area Between Two Points Containing No Points](https://leetcode.com/problems/widest-vertical-area-between-two-points-containing-no-points/)|Medium||
 |1638|[Count Substrings That Differ by One Character](https://leetcode.com/problems/count-substrings-that-differ-by-one-character/)|Medium||
-|1640|[Check Array Formation Through Concatenation](https://leetcode.com/problems/check-array-formation-through-concatenation/)|Easy||
 |1643|[Kth Smallest Instructions](https://leetcode.com/problems/kth-smallest-instructions/)|Hard||
 |1644|[Lowest Common Ancestor of a Binary Tree II](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree-ii/)|Medium|🔒|
 |1645|[Hopper Company Queries II](https://leetcode.com/problems/hopper-company-queries-ii/)|Hard|🔒|

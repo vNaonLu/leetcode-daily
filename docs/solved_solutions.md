@@ -1,6 +1,6 @@
 # Solved Solutions List
 
-This document contains **1094** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
+This document contains **1095** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
 
 Some questions which are still being resolved are not shown in this page, more information about unsolved questions can be found at [docs/unsolved_solutions.md](./unsolved_solutions.md).
 
@@ -845,6 +845,7 @@ Some questions which are still being resolved are not shown in this page, more i
 |1631|[Path With Minimum Effort](https://leetcode.com/problems/path-with-minimum-effort/)|[src/q_1601_1650/q1631.cc](../src/q_1601_1650/q1631.cc)|2022/04/28 19:28|
 |1636|[Sort Array by Increasing Frequency](https://leetcode.com/problems/sort-array-by-increasing-frequency/)|[src/q_1601_1650/q1636.cc](../src/q_1601_1650/q1636.cc)|2023/03/24 12:38|
 |1639|[Number of Ways to Form a Target String Given a Dictionary](https://leetcode.com/problems/number-of-ways-to-form-a-target-string-given-a-dictionary/)|[src/q_1601_1650/q1639.cc](../src/q_1601_1650/q1639.cc)|2023/04/16 16:34|
+|1640|[Check Array Formation Through Concatenation](https://leetcode.com/problems/check-array-formation-through-concatenation/)|[src/q_1601_1650/q1640.cc](../src/q_1601_1650/q1640.cc)|2023/09/04 11:15|
 |1641|[Count Sorted Vowel Strings](https://leetcode.com/problems/count-sorted-vowel-strings/)|[src/q_1601_1650/q1641.cc](../src/q_1601_1650/q1641.cc)|2022/05/11 12:15|
 |1642|[Furthest Building You Can Reach](https://leetcode.com/problems/furthest-building-you-can-reach/)|[src/q_1601_1650/q1642.cc](../src/q_1601_1650/q1642.cc)|2022/06/21 23:12|
 |1646|[Get Maximum in Generated Array](https://leetcode.com/problems/get-maximum-in-generated-array/)|[src/q_1601_1650/q1646.cc](../src/q_1601_1650/q1646.cc)|2023/04/03 16:36|
