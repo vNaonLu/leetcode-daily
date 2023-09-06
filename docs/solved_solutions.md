@@ -1,6 +1,6 @@
 # Solved Solutions List
 
-This document contains **1096** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
+This document contains **1097** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
 
 Some questions which are still being resolved are not shown in this page, more information about unsolved questions can be found at [docs/unsolved_solutions.md](./unsolved_solutions.md).
 
@@ -883,6 +883,7 @@ Some questions which are still being resolved are not shown in this page, more i
 |1721|[Swapping Nodes in a Linked List](https://leetcode.com/problems/swapping-nodes-in-a-linked-list/)|[src/q_1701_1750/q1721.cc](../src/q_1701_1750/q1721.cc)|2022/04/04 14:28|
 |1725|[Number Of Rectangles That Can Form The Largest Square](https://leetcode.com/problems/number-of-rectangles-that-can-form-the-largest-square/)|[src/q_1701_1750/q1725.cc](../src/q_1701_1750/q1725.cc)|2023/04/02 17:00|
 |1732|[Find the Highest Altitude](https://leetcode.com/problems/find-the-highest-altitude/)|[src/q_1701_1750/q1732.cc](../src/q_1701_1750/q1732.cc)|2022/12/23 13:01|
+|1736|[Latest Time by Replacing Hidden Digits](https://leetcode.com/problems/latest-time-by-replacing-hidden-digits/)|[src/q_1701_1750/q1736.cc](../src/q_1701_1750/q1736.cc)|2023/09/06 09:44|
 |1748|[Sum of Unique Elements](https://leetcode.com/problems/sum-of-unique-elements/)|[src/q_1701_1750/q1748.cc](../src/q_1701_1750/q1748.cc)|2022/12/16 19:30|
 |1751|[Maximum Number of Events That Can Be Attended II](https://leetcode.com/problems/maximum-number-of-events-that-can-be-attended-ii/)|[src/q_1751_1800/q1751.cc](../src/q_1751_1800/q1751.cc)|2023/07/15 22:56|
 |1752|[Check if Array Is Sorted and Rotated](https://leetcode.com/problems/check-if-array-is-sorted-and-rotated/)|[src/q_1751_1800/q1752.cc](../src/q_1751_1800/q1752.cc)|2022/02/06 15:22|
