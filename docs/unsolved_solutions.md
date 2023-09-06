@@ -1,6 +1,6 @@
 # Unsolved Solutions List
 
-There are **1667** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
+There are **1666** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
 
 The questions which have been solved are not shown in this page, more information about solved questions can be found at [docs/solved_solutions.md](./solved_solutions.md).
 
@@ -622,7 +622,6 @@ The questions which have been solved are not shown in this page, more informatio
 |1322|[Ads Performance](https://leetcode.com/problems/ads-performance/)|Easy|🔒|
 |1324|[Print Words Vertically](https://leetcode.com/problems/print-words-vertically/)|Medium||
 |1325|[Delete Leaves With a Given Value](https://leetcode.com/problems/delete-leaves-with-a-given-value/)|Medium||
-|1326|[Minimum Number of Taps to Open to Water a Garden](https://leetcode.com/problems/minimum-number-of-taps-to-open-to-water-a-garden/)|Hard||
 |1327|[List the Products Ordered in a Period](https://leetcode.com/problems/list-the-products-ordered-in-a-period/)|Easy||
 |1330|[Reverse Subarray To Maximize Array Value](https://leetcode.com/problems/reverse-subarray-to-maximize-array-value/)|Hard||
 |1333|[Filter Restaurants by Vegan-Friendly, Price and Distance](https://leetcode.com/problems/filter-restaurants-by-vegan-friendly-price-and-distance/)|Medium||
