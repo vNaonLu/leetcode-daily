@@ -1,6 +1,6 @@
 # Unsolved Solutions List
 
-There are **1664** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
+There are **1663** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
 
 The questions which have been solved are not shown in this page, more information about solved questions can be found at [docs/solved_solutions.md](./solved_solutions.md).
 
@@ -911,7 +911,6 @@ The questions which have been solved are not shown in this page, more informatio
 |1794|[Count Pairs of Equal Substrings With Minimum Difference](https://leetcode.com/problems/count-pairs-of-equal-substrings-with-minimum-difference/)|Medium|🔒|
 |1795|[Rearrange Products Table](https://leetcode.com/problems/rearrange-products-table/)|Easy||
 |1798|[Maximum Number of Consecutive Values You Can Make](https://leetcode.com/problems/maximum-number-of-consecutive-values-you-can-make/)|Medium||
-|1800|[Maximum Ascending Subarray Sum](https://leetcode.com/problems/maximum-ascending-subarray-sum/)|Easy||
 |1801|[Number of Orders in the Backlog](https://leetcode.com/problems/number-of-orders-in-the-backlog/)|Medium||
 |1803|[Count Pairs With XOR in a Range](https://leetcode.com/problems/count-pairs-with-xor-in-a-range/)|Hard||
 |1804|[Implement Trie II (Prefix Tree)](https://leetcode.com/problems/implement-trie-ii-prefix-tree/)|Medium|🔒|

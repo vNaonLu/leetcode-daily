@@ -1,6 +1,6 @@
 # Solved Solutions List
 
-This document contains **1100** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
+This document contains **1101** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
 
 Some questions which are still being resolved are not shown in this page, more information about unsolved questions can be found at [docs/unsolved_solutions.md](./unsolved_solutions.md).
 
@@ -902,6 +902,7 @@ Some questions which are still being resolved are not shown in this page, more i
 |1796|[Second Largest Digit in a String](https://leetcode.com/problems/second-largest-digit-in-a-string/)|[src/q_1751_1800/q1796.cc](../src/q_1751_1800/q1796.cc)|2023/03/19 14:49|
 |1797|[Design Authentication Manager](https://leetcode.com/problems/design-authentication-manager/)|[src/q_1751_1800/q1797.cc](../src/q_1751_1800/q1797.cc)|2022/05/14 12:59|
 |1799|[Maximize Score After N Operations](https://leetcode.com/problems/maximize-score-after-n-operations/)|[src/q_1751_1800/q1799.cc](../src/q_1751_1800/q1799.cc)|2023/05/14 19:19|
+|1800|[Maximum Ascending Subarray Sum](https://leetcode.com/problems/maximum-ascending-subarray-sum/)|[src/q_1751_1800/q1800.cc](../src/q_1751_1800/q1800.cc)|2023/09/09 13:04|
 |1802|[Maximum Value at a Given Index in a Bounded Array](https://leetcode.com/problems/maximum-value-at-a-given-index-in-a-bounded-array/)|[src/q_1801_1850/q1802.cc](../src/q_1801_1850/q1802.cc)|2022/07/30 17:15|
 |1805|[Number of Different Integers in a String](https://leetcode.com/problems/number-of-different-integers-in-a-string/)|[src/q_1801_1850/q1805.cc](../src/q_1801_1850/q1805.cc)|2022/06/22 18:14|
 |1816|[Truncate Sentence](https://leetcode.com/problems/truncate-sentence/)|[src/q_1801_1850/q1816.cc](../src/q_1801_1850/q1816.cc)|2022/12/15 10:20|
