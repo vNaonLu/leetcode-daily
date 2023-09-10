@@ -1,6 +1,6 @@
 # Unsolved Solutions List
 
-There are **1663** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
+There are **1662** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
 
 The questions which have been solved are not shown in this page, more information about solved questions can be found at [docs/solved_solutions.md](./solved_solutions.md).
 
@@ -920,7 +920,6 @@ The questions which have been solved are not shown in this page, more informatio
 |1809|[Ad-Free Sessions](https://leetcode.com/problems/ad-free-sessions/)|Easy|🔒|
 |1810|[Minimum Path Cost in a Hidden Grid](https://leetcode.com/problems/minimum-path-cost-in-a-hidden-grid/)|Medium|🔒|
 |1811|[Find Interview Candidates](https://leetcode.com/problems/find-interview-candidates/)|Medium|🔒|
-|1812|[Determine Color of a Chessboard Square](https://leetcode.com/problems/determine-color-of-a-chessboard-square/)|Easy||
 |1813|[Sentence Similarity III](https://leetcode.com/problems/sentence-similarity-iii/)|Medium||
 |1814|[Count Nice Pairs in an Array](https://leetcode.com/problems/count-nice-pairs-in-an-array/)|Medium||
 |1815|[Maximum Number of Groups Getting Fresh Donuts](https://leetcode.com/problems/maximum-number-of-groups-getting-fresh-donuts/)|Hard||
