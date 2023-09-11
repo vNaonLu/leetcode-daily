@@ -1,6 +1,6 @@
 # Solved Solutions List
 
-This document contains **1102** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
+This document contains **1103** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
 
 Some questions which are still being resolved are not shown in this page, more information about unsolved questions can be found at [docs/unsolved_solutions.md](./unsolved_solutions.md).
 
@@ -694,6 +694,7 @@ Some questions which are still being resolved are not shown in this page, more i
 |1268|[Search Suggestions System](https://leetcode.com/problems/search-suggestions-system/)|[src/q_1251_1300/q1268.cc](../src/q_1251_1300/q1268.cc)|2022/06/19 13:18|
 |1275|[Find Winner on a Tic Tac Toe Game](https://leetcode.com/problems/find-winner-on-a-tic-tac-toe-game/)|[src/q_1251_1300/q1275.cc](../src/q_1251_1300/q1275.cc)|2021/09/20 08:00|
 |1281|[Subtract the Product and Sum of Digits of an Integer](https://leetcode.com/problems/subtract-the-product-and-sum-of-digits-of-an-integer/)|[src/q_1251_1300/q1281.cc](../src/q_1251_1300/q1281.cc)|2022/04/15 19:38|
+|1282|[Group the People Given the Group Size They Belong To](https://leetcode.com/problems/group-the-people-given-the-group-size-they-belong-to/)|[src/q_1251_1300/q1282.cc](../src/q_1251_1300/q1282.cc)|2023/09/11 19:45|
 |1283|[Find the Smallest Divisor Given a Threshold](https://leetcode.com/problems/find-the-smallest-divisor-given-a-threshold/)|[src/q_1251_1300/q1283.cc](../src/q_1251_1300/q1283.cc)|2022/07/18 18:54|
 |1286|[Iterator for Combination](https://leetcode.com/problems/iterator-for-combination/)|[src/q_1251_1300/q1286.cc](../src/q_1251_1300/q1286.cc)|2021/11/14 13:18|
 |1287|[Element Appearing More Than 25% In Sorted Array](https://leetcode.com/problems/element-appearing-more-than-25-in-sorted-array/)|[src/q_1251_1300/q1287.cc](../src/q_1251_1300/q1287.cc)|2022/11/27 16:24|
