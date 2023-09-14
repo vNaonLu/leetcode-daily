@@ -1,6 +1,6 @@
 # Solved Solutions List
 
-This document contains **1105** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
+This document contains **1106** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
 
 Some questions which are still being resolved are not shown in this page, more information about unsolved questions can be found at [docs/unsolved_solutions.md](./unsolved_solutions.md).
 
@@ -254,6 +254,7 @@ Some questions which are still being resolved are not shown in this page, more i
 |326|[Power of Three](https://leetcode.com/problems/power-of-three/)|[src/q_301_350/q0326.cc](../src/q_301_350/q0326.cc)|2022/08/17 18:25|
 |328|[Odd Even Linked List](https://leetcode.com/problems/odd-even-linked-list/)|[src/q_301_350/q0328.cc](../src/q_301_350/q0328.cc)|2021/12/02 13:04|
 |329|[Longest Increasing Path in a Matrix](https://leetcode.com/problems/longest-increasing-path-in-a-matrix/)|[src/q_301_350/q0329.cc](../src/q_301_350/q0329.cc)|2022/05/19 18:17|
+|332|[Reconstruct Itinerary](https://leetcode.com/problems/reconstruct-itinerary/)|[src/q_301_350/q0332.cc](../src/q_301_350/q0332.cc)|2023/09/14 20:25|
 |334|[Increasing Triplet Subsequence](https://leetcode.com/problems/increasing-triplet-subsequence/)|[src/q_301_350/q0334.cc](../src/q_301_350/q0334.cc)|2021/09/23 08:00|
 |336|[Palindrome Pairs](https://leetcode.com/problems/palindrome-pairs/)|[src/q_301_350/q0336.cc](../src/q_301_350/q0336.cc)|2022/09/17 13:41|
 |337|[House Robber III](https://leetcode.com/problems/house-robber-iii/)|[src/q_301_350/q0337.cc](../src/q_301_350/q0337.cc)|2021/12/05 14:08|

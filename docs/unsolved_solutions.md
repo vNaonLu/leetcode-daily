@@ -1,6 +1,6 @@
 # Unsolved Solutions List
 
-There are **1659** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
+There are **1658** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
 
 The questions which have been solved are not shown in this page, more information about solved questions can be found at [docs/solved_solutions.md](./solved_solutions.md).
 
@@ -91,7 +91,6 @@ The questions which have been solved are not shown in this page, more informatio
 |327|[Count of Range Sum](https://leetcode.com/problems/count-of-range-sum/)|Hard||
 |330|[Patching Array](https://leetcode.com/problems/patching-array/)|Hard||
 |331|[Verify Preorder Serialization of a Binary Tree](https://leetcode.com/problems/verify-preorder-serialization-of-a-binary-tree/)|Medium||
-|332|[Reconstruct Itinerary](https://leetcode.com/problems/reconstruct-itinerary/)|Hard||
 |333|[Largest BST Subtree](https://leetcode.com/problems/largest-bst-subtree/)|Medium|🔒|
 |335|[Self Crossing](https://leetcode.com/problems/self-crossing/)|Hard||
 |339|[Nested List Weight Sum](https://leetcode.com/problems/nested-list-weight-sum/)|Medium|🔒|
