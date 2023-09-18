@@ -1,6 +1,6 @@
 # Unsolved Solutions List
 
-There are **1661** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
+There are **1654** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
 
 The questions which have been solved are not shown in this page, more information about solved questions can be found at [docs/solved_solutions.md](./solved_solutions.md).
 
@@ -91,7 +91,6 @@ The questions which have been solved are not shown in this page, more informatio
 |327|[Count of Range Sum](https://leetcode.com/problems/count-of-range-sum/)|Hard||
 |330|[Patching Array](https://leetcode.com/problems/patching-array/)|Hard||
 |331|[Verify Preorder Serialization of a Binary Tree](https://leetcode.com/problems/verify-preorder-serialization-of-a-binary-tree/)|Medium||
-|332|[Reconstruct Itinerary](https://leetcode.com/problems/reconstruct-itinerary/)|Hard||
 |333|[Largest BST Subtree](https://leetcode.com/problems/largest-bst-subtree/)|Medium|🔒|
 |335|[Self Crossing](https://leetcode.com/problems/self-crossing/)|Hard||
 |339|[Nested List Weight Sum](https://leetcode.com/problems/nested-list-weight-sum/)|Medium|🔒|
@@ -884,7 +883,6 @@ The questions which have been solved are not shown in this page, more informatio
 |1759|[Count Number of Homogenous Substrings](https://leetcode.com/problems/count-number-of-homogenous-substrings/)|Medium||
 |1761|[Minimum Degree of a Connected Trio in a Graph](https://leetcode.com/problems/minimum-degree-of-a-connected-trio-in-a-graph/)|Hard||
 |1762|[Buildings With an Ocean View](https://leetcode.com/problems/buildings-with-an-ocean-view/)|Medium|🔒|
-|1763|[Longest Nice Substring](https://leetcode.com/problems/longest-nice-substring/)|Easy||
 |1764|[Form Array by Concatenating Subarrays of Another Array](https://leetcode.com/problems/form-array-by-concatenating-subarrays-of-another-array/)|Medium||
 |1765|[Map of Highest Peak](https://leetcode.com/problems/map-of-highest-peak/)|Medium||
 |1766|[Tree of Coprimes](https://leetcode.com/problems/tree-of-coprimes/)|Hard||
@@ -940,7 +938,6 @@ The questions which have been solved are not shown in this page, more informatio
 |1843|[Suspicious Bank Accounts](https://leetcode.com/problems/suspicious-bank-accounts/)|Medium|🔒|
 |1846|[Maximum Element After Decreasing and Rearranging](https://leetcode.com/problems/maximum-element-after-decreasing-and-rearranging/)|Medium||
 |1847|[Closest Room](https://leetcode.com/problems/closest-room/)|Hard||
-|1848|[Minimum Distance to the Target Element](https://leetcode.com/problems/minimum-distance-to-the-target-element/)|Easy||
 |1849|[Splitting a String Into Descending Consecutive Values](https://leetcode.com/problems/splitting-a-string-into-descending-consecutive-values/)|Medium||
 |1850|[Minimum Adjacent Swaps to Reach the Kth Smallest Number](https://leetcode.com/problems/minimum-adjacent-swaps-to-reach-the-kth-smallest-number/)|Medium||
 |1851|[Minimum Interval to Include Each Query](https://leetcode.com/problems/minimum-interval-to-include-each-query/)|Hard||
@@ -961,7 +958,6 @@ The questions which have been solved are not shown in this page, more informatio
 |1873|[Calculate Special Bonus](https://leetcode.com/problems/calculate-special-bonus/)|Easy||
 |1874|[Minimize Product Sum of Two Arrays](https://leetcode.com/problems/minimize-product-sum-of-two-arrays/)|Medium|🔒|
 |1875|[Group Employees of the Same Salary](https://leetcode.com/problems/group-employees-of-the-same-salary/)|Medium|🔒|
-|1876|[Substrings of Size Three with Distinct Characters](https://leetcode.com/problems/substrings-of-size-three-with-distinct-characters/)|Easy||
 |1877|[Minimize Maximum Pair Sum in Array](https://leetcode.com/problems/minimize-maximum-pair-sum-in-array/)|Medium||
 |1878|[Get Biggest Three Rhombus Sums in a Grid](https://leetcode.com/problems/get-biggest-three-rhombus-sums-in-a-grid/)|Medium||
 |1882|[Process Tasks Using Servers](https://leetcode.com/problems/process-tasks-using-servers/)|Medium||
@@ -975,7 +971,6 @@ The questions which have been solved are not shown in this page, more informatio
 |1892|[Page Recommendations II](https://leetcode.com/problems/page-recommendations-ii/)|Hard|🔒|
 |1895|[Largest Magic Square](https://leetcode.com/problems/largest-magic-square/)|Medium||
 |1896|[Minimum Cost to Change the Final Value of Expression](https://leetcode.com/problems/minimum-cost-to-change-the-final-value-of-expression/)|Hard||
-|1897|[Redistribute Characters to Make All Strings Equal](https://leetcode.com/problems/redistribute-characters-to-make-all-strings-equal/)|Easy||
 |1899|[Merge Triplets to Form Target Triplet](https://leetcode.com/problems/merge-triplets-to-form-target-triplet/)|Medium||
 |1900|[The Earliest and Latest Rounds Where Players Compete](https://leetcode.com/problems/the-earliest-and-latest-rounds-where-players-compete/)|Hard||
 |1902|[Depth of BST Given Insertion Order](https://leetcode.com/problems/depth-of-bst-given-insertion-order/)|Medium|🔒|
@@ -1021,7 +1016,6 @@ The questions which have been solved are not shown in this page, more informatio
 |1954|[Minimum Garden Perimeter to Collect Enough Apples](https://leetcode.com/problems/minimum-garden-perimeter-to-collect-enough-apples/)|Medium||
 |1955|[Count Number of Special Subsequences](https://leetcode.com/problems/count-number-of-special-subsequences/)|Hard||
 |1956|[Minimum Time For K Virus Variants to Spread](https://leetcode.com/problems/minimum-time-for-k-virus-variants-to-spread/)|Hard|🔒|
-|1957|[Delete Characters to Make Fancy String](https://leetcode.com/problems/delete-characters-to-make-fancy-string/)|Easy||
 |1958|[Check if Move is Legal](https://leetcode.com/problems/check-if-move-is-legal/)|Medium||
 |1959|[Minimum Total Space Wasted With K Resizing Operations](https://leetcode.com/problems/minimum-total-space-wasted-with-k-resizing-operations/)|Medium||
 |1960|[Maximum Product of the Length of Two Palindromic Substrings](https://leetcode.com/problems/maximum-product-of-the-length-of-two-palindromic-substrings/)|Hard||
@@ -1030,7 +1024,6 @@ The questions which have been solved are not shown in this page, more informatio
 |1969|[Minimum Non-Zero Product of the Array Elements](https://leetcode.com/problems/minimum-non-zero-product-of-the-array-elements/)|Medium||
 |1972|[First and Last Call On the Same Day](https://leetcode.com/problems/first-and-last-call-on-the-same-day/)|Hard|🔒|
 |1973|[Count Nodes Equal to Sum of Descendants](https://leetcode.com/problems/count-nodes-equal-to-sum-of-descendants/)|Medium|🔒|
-|1974|[Minimum Time to Type Word Using Special Typewriter](https://leetcode.com/problems/minimum-time-to-type-word-using-special-typewriter/)|Easy||
 |1975|[Maximum Matrix Sum](https://leetcode.com/problems/maximum-matrix-sum/)|Medium||
 |1976|[Number of Ways to Arrive at Destination](https://leetcode.com/problems/number-of-ways-to-arrive-at-destination/)|Medium||
 |1977|[Number of Ways to Separate Numbers](https://leetcode.com/problems/number-of-ways-to-separate-numbers/)|Hard||
