@@ -1,6 +1,6 @@
 # Solved Solutions List
 
-This document contains **1109** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
+This document contains **1110** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
 
 Some questions which are still being resolved are not shown in this page, more information about unsolved questions can be found at [docs/unsolved_solutions.md](./unsolved_solutions.md).
 
@@ -963,6 +963,7 @@ Some questions which are still being resolved are not shown in this page, more i
 |1968|[Array With Elements Not Equal to Average of Neighbors](https://leetcode.com/problems/array-with-elements-not-equal-to-average-of-neighbors/)|[src/q_1951_2000/q1968.cc](../src/q_1951_2000/q1968.cc)|2022/03/07 19:08|
 |1970|[Last Day Where You Can Still Cross](https://leetcode.com/problems/last-day-where-you-can-still-cross/)|[src/q_1951_2000/q1970.cc](../src/q_1951_2000/q1970.cc)|2023/06/30 14:47|
 |1971|[Find if Path Exists in Graph](https://leetcode.com/problems/find-if-path-exists-in-graph/)|[src/q_1951_2000/q1971.cc](../src/q_1951_2000/q1971.cc)|2022/12/09 11:43|
+|1974|[Minimum Time to Type Word Using Special Typewriter](https://leetcode.com/problems/minimum-time-to-type-word-using-special-typewriter/)|[src/q_1951_2000/q1974.cc](../src/q_1951_2000/q1974.cc)|2023/09/18 20:05|
 |1979|[Find Greatest Common Divisor of Array](https://leetcode.com/problems/find-greatest-common-divisor-of-array/)|[src/q_1951_2000/q1979.cc](../src/q_1951_2000/q1979.cc)|2023/03/17 13:13|
 |1991|[Find the Middle Index in Array](https://leetcode.com/problems/find-the-middle-index-in-array/)|[src/q_1951_2000/q1991.cc](../src/q_1951_2000/q1991.cc)|2022/05/21 14:03|
 |1996|[The Number of Weak Characters in the Game](https://leetcode.com/problems/the-number-of-weak-characters-in-the-game/)|[src/q_1951_2000/q1996.cc](../src/q_1951_2000/q1996.cc)|2022/09/09 15:43|

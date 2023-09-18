@@ -1,6 +1,6 @@
 # Unsolved Solutions List
 
-There are **1655** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
+There are **1654** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
 
 The questions which have been solved are not shown in this page, more information about solved questions can be found at [docs/solved_solutions.md](./solved_solutions.md).
 
@@ -1024,7 +1024,6 @@ The questions which have been solved are not shown in this page, more informatio
 |1969|[Minimum Non-Zero Product of the Array Elements](https://leetcode.com/problems/minimum-non-zero-product-of-the-array-elements/)|Medium||
 |1972|[First and Last Call On the Same Day](https://leetcode.com/problems/first-and-last-call-on-the-same-day/)|Hard|🔒|
 |1973|[Count Nodes Equal to Sum of Descendants](https://leetcode.com/problems/count-nodes-equal-to-sum-of-descendants/)|Medium|🔒|
-|1974|[Minimum Time to Type Word Using Special Typewriter](https://leetcode.com/problems/minimum-time-to-type-word-using-special-typewriter/)|Easy||
 |1975|[Maximum Matrix Sum](https://leetcode.com/problems/maximum-matrix-sum/)|Medium||
 |1976|[Number of Ways to Arrive at Destination](https://leetcode.com/problems/number-of-ways-to-arrive-at-destination/)|Medium||
 |1977|[Number of Ways to Separate Numbers](https://leetcode.com/problems/number-of-ways-to-separate-numbers/)|Hard||
