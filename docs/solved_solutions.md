@@ -1,6 +1,6 @@
 # Solved Solutions List
 
-This document contains **1110** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
+This document contains **1111** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
 
 Some questions which are still being resolved are not shown in this page, more information about unsolved questions can be found at [docs/unsolved_solutions.md](./unsolved_solutions.md).
 
@@ -965,6 +965,7 @@ Some questions which are still being resolved are not shown in this page, more i
 |1971|[Find if Path Exists in Graph](https://leetcode.com/problems/find-if-path-exists-in-graph/)|[src/q_1951_2000/q1971.cc](../src/q_1951_2000/q1971.cc)|2022/12/09 11:43|
 |1974|[Minimum Time to Type Word Using Special Typewriter](https://leetcode.com/problems/minimum-time-to-type-word-using-special-typewriter/)|[src/q_1951_2000/q1974.cc](../src/q_1951_2000/q1974.cc)|2023/09/18 20:05|
 |1979|[Find Greatest Common Divisor of Array](https://leetcode.com/problems/find-greatest-common-divisor-of-array/)|[src/q_1951_2000/q1979.cc](../src/q_1951_2000/q1979.cc)|2023/03/17 13:13|
+|1984|[Minimum Difference Between Highest and Lowest of K Scores](https://leetcode.com/problems/minimum-difference-between-highest-and-lowest-of-k-scores/)|[src/q_1951_2000/q1984.cc](../src/q_1951_2000/q1984.cc)|2023/09/19 18:54|
 |1991|[Find the Middle Index in Array](https://leetcode.com/problems/find-the-middle-index-in-array/)|[src/q_1951_2000/q1991.cc](../src/q_1951_2000/q1991.cc)|2022/05/21 14:03|
 |1996|[The Number of Weak Characters in the Game](https://leetcode.com/problems/the-number-of-weak-characters-in-the-game/)|[src/q_1951_2000/q1996.cc](../src/q_1951_2000/q1996.cc)|2022/09/09 15:43|
 |2000|[Reverse Prefix of Word](https://leetcode.com/problems/reverse-prefix-of-word/)|[src/q_1951_2000/q2000.cc](../src/q_1951_2000/q2000.cc)|2022/12/10 13:30|

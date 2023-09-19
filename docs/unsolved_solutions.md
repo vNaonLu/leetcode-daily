@@ -1,6 +1,6 @@
 # Unsolved Solutions List
 
-There are **1654** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
+There are **1653** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
 
 The questions which have been solved are not shown in this page, more information about solved questions can be found at [docs/solved_solutions.md](./solved_solutions.md).
 
@@ -1032,7 +1032,6 @@ The questions which have been solved are not shown in this page, more informatio
 |1981|[Minimize the Difference Between Target and Chosen Elements](https://leetcode.com/problems/minimize-the-difference-between-target-and-chosen-elements/)|Medium||
 |1982|[Find Array Given Subset Sums](https://leetcode.com/problems/find-array-given-subset-sums/)|Hard||
 |1983|[Widest Pair of Indices With Equal Range Sum](https://leetcode.com/problems/widest-pair-of-indices-with-equal-range-sum/)|Medium|🔒|
-|1984|[Minimum Difference Between Highest and Lowest of K Scores](https://leetcode.com/problems/minimum-difference-between-highest-and-lowest-of-k-scores/)|Easy||
 |1985|[Find the Kth Largest Integer in the Array](https://leetcode.com/problems/find-the-kth-largest-integer-in-the-array/)|Medium||
 |1986|[Minimum Number of Work Sessions to Finish the Tasks](https://leetcode.com/problems/minimum-number-of-work-sessions-to-finish-the-tasks/)|Medium||
 |1987|[Number of Unique Good Subsequences](https://leetcode.com/problems/number-of-unique-good-subsequences/)|Hard||
