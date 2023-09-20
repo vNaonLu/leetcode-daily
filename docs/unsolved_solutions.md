@@ -1,6 +1,6 @@
 # Unsolved Solutions List
 
-There are **1653** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
+There are **1652** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
 
 The questions which have been solved are not shown in this page, more information about solved questions can be found at [docs/solved_solutions.md](./solved_solutions.md).
 
@@ -1041,7 +1041,6 @@ The questions which have been solved are not shown in this page, more informatio
 |1992|[Find All Groups of Farmland](https://leetcode.com/problems/find-all-groups-of-farmland/)|Medium||
 |1993|[Operations on Tree](https://leetcode.com/problems/operations-on-tree/)|Medium||
 |1994|[The Number of Good Subsets](https://leetcode.com/problems/the-number-of-good-subsets/)|Hard||
-|1995|[Count Special Quadruplets](https://leetcode.com/problems/count-special-quadruplets/)|Easy||
 |1997|[First Day Where You Have Been in All the Rooms](https://leetcode.com/problems/first-day-where-you-have-been-in-all-the-rooms/)|Medium||
 |1998|[GCD Sort of an Array](https://leetcode.com/problems/gcd-sort-of-an-array/)|Hard||
 |1999|[Smallest Greater Multiple Made of Two Digits](https://leetcode.com/problems/smallest-greater-multiple-made-of-two-digits/)|Medium|🔒|
