@@ -1,6 +1,6 @@
 # Unsolved Solutions List
 
-There are **1651** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
+There are **1650** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
 
 The questions which have been solved are not shown in this page, more information about solved questions can be found at [docs/solved_solutions.md](./solved_solutions.md).
 
@@ -1063,7 +1063,6 @@ The questions which have been solved are not shown in this page, more informatio
 |2023|[Number of Pairs of Strings With Concatenation Equal to Target](https://leetcode.com/problems/number-of-pairs-of-strings-with-concatenation-equal-to-target/)|Medium||
 |2025|[Maximum Number of Ways to Partition an Array](https://leetcode.com/problems/maximum-number-of-ways-to-partition-an-array/)|Hard||
 |2026|[Low-Quality Problems](https://leetcode.com/problems/low-quality-problems/)|Easy|🔒|
-|2027|[Minimum Moves to Convert String](https://leetcode.com/problems/minimum-moves-to-convert-string/)|Easy||
 |2028|[Find Missing Observations](https://leetcode.com/problems/find-missing-observations/)|Medium||
 |2029|[Stone Game IX](https://leetcode.com/problems/stone-game-ix/)|Medium||
 |2030|[Smallest K-Length Subsequence With Occurrences of a Letter](https://leetcode.com/problems/smallest-k-length-subsequence-with-occurrences-of-a-letter/)|Hard||
