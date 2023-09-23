@@ -1,6 +1,6 @@
 # Solved Solutions List
 
-This document contains **1114** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
+This document contains **1115** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
 
 Some questions which are still being resolved are not shown in this page, more information about unsolved questions can be found at [docs/unsolved_solutions.md](./unsolved_solutions.md).
 
@@ -979,6 +979,7 @@ Some questions which are still being resolved are not shown in this page, more i
 |2024|[Maximize the Confusion of an Exam](https://leetcode.com/problems/maximize-the-confusion-of-an-exam/)|[src/q_2001_2050/q2024.cc](../src/q_2001_2050/q2024.cc)|2023/07/07 12:03|
 |2027|[Minimum Moves to Convert String](https://leetcode.com/problems/minimum-moves-to-convert-string/)|[src/q_2001_2050/q2027.cc](../src/q_2001_2050/q2027.cc)|2023/09/22 20:54|
 |2032|[Two Out of Three](https://leetcode.com/problems/two-out-of-three/)|[src/q_2001_2050/q2032.cc](../src/q_2001_2050/q2032.cc)|2022/12/12 19:51|
+|2037|[Minimum Number of Moves to Seat Everyone](https://leetcode.com/problems/minimum-number-of-moves-to-seat-everyone/)|[src/q_2001_2050/q2037.cc](../src/q_2001_2050/q2037.cc)|2023/09/23 11:19|
 |2042|[Check if Numbers Are Ascending in a Sentence](https://leetcode.com/problems/check-if-numbers-are-ascending-in-a-sentence/)|[src/q_2001_2050/q2042.cc](../src/q_2001_2050/q2042.cc)|2022/01/12 17:59|
 |2053|[Kth Distinct String in an Array](https://leetcode.com/problems/kth-distinct-string-in-an-array/)|[src/q_2051_2100/q2053.cc](../src/q_2051_2100/q2053.cc)|2023/01/05 16:23|
 |2057|[Smallest Index With Equal Value](https://leetcode.com/problems/smallest-index-with-equal-value/)|[src/q_2051_2100/q2057.cc](../src/q_2051_2100/q2057.cc)|2023/01/01 14:48|

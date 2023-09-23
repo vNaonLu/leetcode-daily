@@ -1,6 +1,6 @@
 # Unsolved Solutions List
 
-There are **1650** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
+There are **1649** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
 
 The questions which have been solved are not shown in this page, more information about solved questions can be found at [docs/solved_solutions.md](./solved_solutions.md).
 
@@ -1071,7 +1071,6 @@ The questions which have been solved are not shown in this page, more informatio
 |2034|[Stock Price Fluctuation ](https://leetcode.com/problems/stock-price-fluctuation/)|Medium||
 |2035|[Partition Array Into Two Arrays to Minimize Sum Difference](https://leetcode.com/problems/partition-array-into-two-arrays-to-minimize-sum-difference/)|Hard||
 |2036|[Maximum Alternating Subarray Sum](https://leetcode.com/problems/maximum-alternating-subarray-sum/)|Medium|🔒|
-|2037|[Minimum Number of Moves to Seat Everyone](https://leetcode.com/problems/minimum-number-of-moves-to-seat-everyone/)|Easy||
 |2038|[Remove Colored Pieces if Both Neighbors are the Same Color](https://leetcode.com/problems/remove-colored-pieces-if-both-neighbors-are-the-same-color/)|Medium||
 |2039|[The Time When the Network Becomes Idle](https://leetcode.com/problems/the-time-when-the-network-becomes-idle/)|Medium||
 |2040|[Kth Smallest Product of Two Sorted Arrays](https://leetcode.com/problems/kth-smallest-product-of-two-sorted-arrays/)|Hard||
