@@ -1109,3 +1109,10 @@ timestamp,id,tc,sc,notes
 1694835353,1897,n,1,n = |words.size()|
 1694928069,1957,n,1,n = |s.size()|
 1695038758,1974,n,1,n = |word.size()|
+1695120846,1984,n * log(n),1,n = |nums.size()|
+1695207208,1995,n^2,n,n = |nums.size()|
+1695294056,2016,n,1,n = |nums.size()|
+1695387240,2027,n,1,n = |s.size()|
+1695439158,2037,n * log(n),1,n = |students.size()|
+1695529552,2047,n,n,n = |sentences.size()|
+1695646680,2073,S,1,S = sum of |tickets|

@@ -1,6 +1,6 @@
 # Solved Solutions List
 
-This document contains **1110** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
+This document contains **1117** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
 
 Some questions which are still being resolved are not shown in this page, more information about unsolved questions can be found at [docs/unsolved_solutions.md](./unsolved_solutions.md).
 
@@ -965,21 +965,28 @@ Some questions which are still being resolved are not shown in this page, more i
 |1971|[Find if Path Exists in Graph](https://leetcode.com/problems/find-if-path-exists-in-graph/)|[src/q_1951_2000/q1971.cc](../src/q_1951_2000/q1971.cc)|2022/12/09 11:43|
 |1974|[Minimum Time to Type Word Using Special Typewriter](https://leetcode.com/problems/minimum-time-to-type-word-using-special-typewriter/)|[src/q_1951_2000/q1974.cc](../src/q_1951_2000/q1974.cc)|2023/09/18 20:05|
 |1979|[Find Greatest Common Divisor of Array](https://leetcode.com/problems/find-greatest-common-divisor-of-array/)|[src/q_1951_2000/q1979.cc](../src/q_1951_2000/q1979.cc)|2023/03/17 13:13|
+|1984|[Minimum Difference Between Highest and Lowest of K Scores](https://leetcode.com/problems/minimum-difference-between-highest-and-lowest-of-k-scores/)|[src/q_1951_2000/q1984.cc](../src/q_1951_2000/q1984.cc)|2023/09/19 18:54|
 |1991|[Find the Middle Index in Array](https://leetcode.com/problems/find-the-middle-index-in-array/)|[src/q_1951_2000/q1991.cc](../src/q_1951_2000/q1991.cc)|2022/05/21 14:03|
+|1995|[Count Special Quadruplets](https://leetcode.com/problems/count-special-quadruplets/)|[src/q_1951_2000/q1995.cc](../src/q_1951_2000/q1995.cc)|2023/09/20 18:53|
 |1996|[The Number of Weak Characters in the Game](https://leetcode.com/problems/the-number-of-weak-characters-in-the-game/)|[src/q_1951_2000/q1996.cc](../src/q_1951_2000/q1996.cc)|2022/09/09 15:43|
 |2000|[Reverse Prefix of Word](https://leetcode.com/problems/reverse-prefix-of-word/)|[src/q_1951_2000/q2000.cc](../src/q_1951_2000/q2000.cc)|2022/12/10 13:30|
 |2006|[Count Number of Pairs With Absolute Difference K](https://leetcode.com/problems/count-number-of-pairs-with-absolute-difference-k/)|[src/q_2001_2050/q2006.cc](../src/q_2001_2050/q2006.cc)|2022/05/01 11:21|
 |2007|[Find Original Array From Doubled Array](https://leetcode.com/problems/find-original-array-from-doubled-array/)|[src/q_2001_2050/q2007.cc](../src/q_2001_2050/q2007.cc)|2022/09/15 20:09|
 |2011|[Final Value of Variable After Performing Operations](https://leetcode.com/problems/final-value-of-variable-after-performing-operations/)|[src/q_2001_2050/q2011.cc](../src/q_2001_2050/q2011.cc)|2021/11/23 18:44|
+|2016|[Maximum Difference Between Increasing Elements](https://leetcode.com/problems/maximum-difference-between-increasing-elements/)|[src/q_2001_2050/q2016.cc](../src/q_2001_2050/q2016.cc)|2023/09/21 19:00|
 |2018|[Check if Word Can Be Placed In Crossword](https://leetcode.com/problems/check-if-word-can-be-placed-in-crossword/)|[src/q_2001_2050/q2018.cc](../src/q_2001_2050/q2018.cc)|2021/10/12 22:11|
 |2022|[Convert 1D Array Into 2D Array](https://leetcode.com/problems/convert-1d-array-into-2d-array/)|[src/q_2001_2050/q2022.cc](../src/q_2001_2050/q2022.cc)|2022/12/11 18:54|
 |2024|[Maximize the Confusion of an Exam](https://leetcode.com/problems/maximize-the-confusion-of-an-exam/)|[src/q_2001_2050/q2024.cc](../src/q_2001_2050/q2024.cc)|2023/07/07 12:03|
+|2027|[Minimum Moves to Convert String](https://leetcode.com/problems/minimum-moves-to-convert-string/)|[src/q_2001_2050/q2027.cc](../src/q_2001_2050/q2027.cc)|2023/09/22 20:54|
 |2032|[Two Out of Three](https://leetcode.com/problems/two-out-of-three/)|[src/q_2001_2050/q2032.cc](../src/q_2001_2050/q2032.cc)|2022/12/12 19:51|
+|2037|[Minimum Number of Moves to Seat Everyone](https://leetcode.com/problems/minimum-number-of-moves-to-seat-everyone/)|[src/q_2001_2050/q2037.cc](../src/q_2001_2050/q2037.cc)|2023/09/23 11:19|
 |2042|[Check if Numbers Are Ascending in a Sentence](https://leetcode.com/problems/check-if-numbers-are-ascending-in-a-sentence/)|[src/q_2001_2050/q2042.cc](../src/q_2001_2050/q2042.cc)|2022/01/12 17:59|
+|2047|[Number of Valid Words in a Sentence](https://leetcode.com/problems/number-of-valid-words-in-a-sentence/)|[src/q_2001_2050/q2047.cc](../src/q_2001_2050/q2047.cc)|2023/09/24 12:25|
 |2053|[Kth Distinct String in an Array](https://leetcode.com/problems/kth-distinct-string-in-an-array/)|[src/q_2051_2100/q2053.cc](../src/q_2051_2100/q2053.cc)|2023/01/05 16:23|
 |2057|[Smallest Index With Equal Value](https://leetcode.com/problems/smallest-index-with-equal-value/)|[src/q_2051_2100/q2057.cc](../src/q_2051_2100/q2057.cc)|2023/01/01 14:48|
 |2062|[Count Vowel Substrings of a String](https://leetcode.com/problems/count-vowel-substrings-of-a-string/)|[src/q_2051_2100/q2062.cc](../src/q_2051_2100/q2062.cc)|2023/04/13 18:51|
 |2068|[Check Whether Two Strings are Almost Equivalent](https://leetcode.com/problems/check-whether-two-strings-are-almost-equivalent/)|[src/q_2051_2100/q2068.cc](../src/q_2051_2100/q2068.cc)|2023/03/20 18:58|
+|2073|[Time Needed to Buy Tickets](https://leetcode.com/problems/time-needed-to-buy-tickets/)|[src/q_2051_2100/q2073.cc](../src/q_2051_2100/q2073.cc)|2023/09/25 20:58|
 |2090|[K Radius Subarray Averages](https://leetcode.com/problems/k-radius-subarray-averages/)|[src/q_2051_2100/q2090.cc](../src/q_2051_2100/q2090.cc)|2022/02/10 16:36|
 |2094|[Finding 3-Digit Even Numbers](https://leetcode.com/problems/finding-3-digit-even-numbers/)|[src/q_2051_2100/q2094.cc](../src/q_2051_2100/q2094.cc)|2023/04/06 16:11|
 |2095|[Delete the Middle Node of a Linked List](https://leetcode.com/problems/delete-the-middle-node-of-a-linked-list/)|[src/q_2051_2100/q2095.cc](../src/q_2051_2100/q2095.cc)|2022/10/14 10:08|

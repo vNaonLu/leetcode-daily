@@ -1,6 +1,6 @@
 # Unsolved Solutions List
 
-There are **1654** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
+There are **1647** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
 
 The questions which have been solved are not shown in this page, more information about solved questions can be found at [docs/solved_solutions.md](./solved_solutions.md).
 
@@ -1032,7 +1032,6 @@ The questions which have been solved are not shown in this page, more informatio
 |1981|[Minimize the Difference Between Target and Chosen Elements](https://leetcode.com/problems/minimize-the-difference-between-target-and-chosen-elements/)|Medium||
 |1982|[Find Array Given Subset Sums](https://leetcode.com/problems/find-array-given-subset-sums/)|Hard||
 |1983|[Widest Pair of Indices With Equal Range Sum](https://leetcode.com/problems/widest-pair-of-indices-with-equal-range-sum/)|Medium|🔒|
-|1984|[Minimum Difference Between Highest and Lowest of K Scores](https://leetcode.com/problems/minimum-difference-between-highest-and-lowest-of-k-scores/)|Easy||
 |1985|[Find the Kth Largest Integer in the Array](https://leetcode.com/problems/find-the-kth-largest-integer-in-the-array/)|Medium||
 |1986|[Minimum Number of Work Sessions to Finish the Tasks](https://leetcode.com/problems/minimum-number-of-work-sessions-to-finish-the-tasks/)|Medium||
 |1987|[Number of Unique Good Subsequences](https://leetcode.com/problems/number-of-unique-good-subsequences/)|Hard||
@@ -1042,7 +1041,6 @@ The questions which have been solved are not shown in this page, more informatio
 |1992|[Find All Groups of Farmland](https://leetcode.com/problems/find-all-groups-of-farmland/)|Medium||
 |1993|[Operations on Tree](https://leetcode.com/problems/operations-on-tree/)|Medium||
 |1994|[The Number of Good Subsets](https://leetcode.com/problems/the-number-of-good-subsets/)|Hard||
-|1995|[Count Special Quadruplets](https://leetcode.com/problems/count-special-quadruplets/)|Easy||
 |1997|[First Day Where You Have Been in All the Rooms](https://leetcode.com/problems/first-day-where-you-have-been-in-all-the-rooms/)|Medium||
 |1998|[GCD Sort of an Array](https://leetcode.com/problems/gcd-sort-of-an-array/)|Hard||
 |1999|[Smallest Greater Multiple Made of Two Digits](https://leetcode.com/problems/smallest-greater-multiple-made-of-two-digits/)|Medium|🔒|
@@ -1058,7 +1056,6 @@ The questions which have been solved are not shown in this page, more informatio
 |2013|[Detect Squares](https://leetcode.com/problems/detect-squares/)|Medium||
 |2014|[Longest Subsequence Repeated k Times](https://leetcode.com/problems/longest-subsequence-repeated-k-times/)|Hard||
 |2015|[Average Height of Buildings in Each Segment](https://leetcode.com/problems/average-height-of-buildings-in-each-segment/)|Medium|🔒|
-|2016|[Maximum Difference Between Increasing Elements](https://leetcode.com/problems/maximum-difference-between-increasing-elements/)|Easy||
 |2017|[Grid Game](https://leetcode.com/problems/grid-game/)|Medium||
 |2019|[The Score of Students Solving Math Expression](https://leetcode.com/problems/the-score-of-students-solving-math-expression/)|Hard||
 |2020|[Number of Accounts That Did Not Stream](https://leetcode.com/problems/number-of-accounts-that-did-not-stream/)|Medium|🔒|
@@ -1066,7 +1063,6 @@ The questions which have been solved are not shown in this page, more informatio
 |2023|[Number of Pairs of Strings With Concatenation Equal to Target](https://leetcode.com/problems/number-of-pairs-of-strings-with-concatenation-equal-to-target/)|Medium||
 |2025|[Maximum Number of Ways to Partition an Array](https://leetcode.com/problems/maximum-number-of-ways-to-partition-an-array/)|Hard||
 |2026|[Low-Quality Problems](https://leetcode.com/problems/low-quality-problems/)|Easy|🔒|
-|2027|[Minimum Moves to Convert String](https://leetcode.com/problems/minimum-moves-to-convert-string/)|Easy||
 |2028|[Find Missing Observations](https://leetcode.com/problems/find-missing-observations/)|Medium||
 |2029|[Stone Game IX](https://leetcode.com/problems/stone-game-ix/)|Medium||
 |2030|[Smallest K-Length Subsequence With Occurrences of a Letter](https://leetcode.com/problems/smallest-k-length-subsequence-with-occurrences-of-a-letter/)|Hard||
@@ -1075,7 +1071,6 @@ The questions which have been solved are not shown in this page, more informatio
 |2034|[Stock Price Fluctuation ](https://leetcode.com/problems/stock-price-fluctuation/)|Medium||
 |2035|[Partition Array Into Two Arrays to Minimize Sum Difference](https://leetcode.com/problems/partition-array-into-two-arrays-to-minimize-sum-difference/)|Hard||
 |2036|[Maximum Alternating Subarray Sum](https://leetcode.com/problems/maximum-alternating-subarray-sum/)|Medium|🔒|
-|2037|[Minimum Number of Moves to Seat Everyone](https://leetcode.com/problems/minimum-number-of-moves-to-seat-everyone/)|Easy||
 |2038|[Remove Colored Pieces if Both Neighbors are the Same Color](https://leetcode.com/problems/remove-colored-pieces-if-both-neighbors-are-the-same-color/)|Medium||
 |2039|[The Time When the Network Becomes Idle](https://leetcode.com/problems/the-time-when-the-network-becomes-idle/)|Medium||
 |2040|[Kth Smallest Product of Two Sorted Arrays](https://leetcode.com/problems/kth-smallest-product-of-two-sorted-arrays/)|Hard||
@@ -1084,7 +1079,6 @@ The questions which have been solved are not shown in this page, more informatio
 |2044|[Count Number of Maximum Bitwise-OR Subsets](https://leetcode.com/problems/count-number-of-maximum-bitwise-or-subsets/)|Medium||
 |2045|[Second Minimum Time to Reach Destination](https://leetcode.com/problems/second-minimum-time-to-reach-destination/)|Hard||
 |2046|[Sort Linked List Already Sorted Using Absolute Values](https://leetcode.com/problems/sort-linked-list-already-sorted-using-absolute-values/)|Medium|🔒|
-|2047|[Number of Valid Words in a Sentence](https://leetcode.com/problems/number-of-valid-words-in-a-sentence/)|Easy||
 |2048|[Next Greater Numerically Balanced Number](https://leetcode.com/problems/next-greater-numerically-balanced-number/)|Medium||
 |2049|[Count Nodes With the Highest Score](https://leetcode.com/problems/count-nodes-with-the-highest-score/)|Medium||
 |2050|[Parallel Courses III](https://leetcode.com/problems/parallel-courses-iii/)|Hard||
@@ -1106,7 +1100,6 @@ The questions which have been solved are not shown in this page, more informatio
 |2070|[Most Beautiful Item for Each Query](https://leetcode.com/problems/most-beautiful-item-for-each-query/)|Medium||
 |2071|[Maximum Number of Tasks You Can Assign](https://leetcode.com/problems/maximum-number-of-tasks-you-can-assign/)|Hard||
 |2072|[The Winner University](https://leetcode.com/problems/the-winner-university/)|Easy|🔒|
-|2073|[Time Needed to Buy Tickets](https://leetcode.com/problems/time-needed-to-buy-tickets/)|Easy||
 |2074|[Reverse Nodes in Even Length Groups](https://leetcode.com/problems/reverse-nodes-in-even-length-groups/)|Medium||
 |2075|[Decode the Slanted Ciphertext](https://leetcode.com/problems/decode-the-slanted-ciphertext/)|Medium||
 |2076|[Process Restricted Friend Requests](https://leetcode.com/problems/process-restricted-friend-requests/)|Hard||
