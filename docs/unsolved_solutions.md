@@ -1,6 +1,6 @@
 # Unsolved Solutions List
 
-There are **1647** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
+There are **1646** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
 
 The questions which have been solved are not shown in this page, more information about solved questions can be found at [docs/solved_solutions.md](./solved_solutions.md).
 
@@ -1104,7 +1104,6 @@ The questions which have been solved are not shown in this page, more informatio
 |2075|[Decode the Slanted Ciphertext](https://leetcode.com/problems/decode-the-slanted-ciphertext/)|Medium||
 |2076|[Process Restricted Friend Requests](https://leetcode.com/problems/process-restricted-friend-requests/)|Hard||
 |2077|[Paths in Maze That Lead to Same Room](https://leetcode.com/problems/paths-in-maze-that-lead-to-same-room/)|Medium|🔒|
-|2078|[Two Furthest Houses With Different Colors](https://leetcode.com/problems/two-furthest-houses-with-different-colors/)|Easy||
 |2079|[Watering Plants](https://leetcode.com/problems/watering-plants/)|Medium||
 |2080|[Range Frequency Queries](https://leetcode.com/problems/range-frequency-queries/)|Medium||
 |2081|[Sum of k-Mirror Numbers](https://leetcode.com/problems/sum-of-k-mirror-numbers/)|Hard||
