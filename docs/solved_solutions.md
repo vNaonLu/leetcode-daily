@@ -1,6 +1,6 @@
 # Solved Solutions List
 
-This document contains **1118** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
+This document contains **1119** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
 
 Some questions which are still being resolved are not shown in this page, more information about unsolved questions can be found at [docs/unsolved_solutions.md](./unsolved_solutions.md).
 
@@ -534,6 +534,7 @@ Some questions which are still being resolved are not shown in this page, more i
 |876|[Middle of the Linked List](https://leetcode.com/problems/middle-of-the-linked-list/)|[src/q_851_900/q0876.cc](../src/q_851_900/q0876.cc)|2021/09/09 08:00|
 |878|[Nth Magical Number](https://leetcode.com/problems/nth-magical-number/)|[src/q_851_900/q0878.cc](../src/q_851_900/q0878.cc)|2021/12/11 14:28|
 |879|[Profitable Schemes](https://leetcode.com/problems/profitable-schemes/)|[src/q_851_900/q0879.cc](../src/q_851_900/q0879.cc)|2023/04/21 11:10|
+|880|[Decoded String at Index](https://leetcode.com/problems/decoded-string-at-index/)|[src/q_851_900/q0880.cc](../src/q_851_900/q0880.cc)|2023/09/27 20:30|
 |881|[Boats to Save People](https://leetcode.com/problems/boats-to-save-people/)|[src/q_851_900/q0881.cc](../src/q_851_900/q0881.cc)|2022/03/24 18:23|
 |882|[Reachable Nodes In Subdivided Graph](https://leetcode.com/problems/reachable-nodes-in-subdivided-graph/)|[src/q_851_900/q0882.cc](../src/q_851_900/q0882.cc)|2021/09/12 08:00|
 |883|[Projection Area of 3D Shapes](https://leetcode.com/problems/projection-area-of-3d-shapes/)|[src/q_851_900/q0883.cc](../src/q_851_900/q0883.cc)|2023/07/17 16:36|
