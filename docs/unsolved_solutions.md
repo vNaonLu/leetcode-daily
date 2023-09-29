@@ -1,6 +1,6 @@
 # Unsolved Solutions List
 
-There are **1644** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
+There are **1643** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
 
 The questions which have been solved are not shown in this page, more information about solved questions can be found at [docs/solved_solutions.md](./solved_solutions.md).
 
@@ -1112,7 +1112,6 @@ The questions which have been solved are not shown in this page, more informatio
 |2086|[Minimum Number of Food Buckets to Feed the Hamsters](https://leetcode.com/problems/minimum-number-of-food-buckets-to-feed-the-hamsters/)|Medium||
 |2087|[Minimum Cost Homecoming of a Robot in a Grid](https://leetcode.com/problems/minimum-cost-homecoming-of-a-robot-in-a-grid/)|Medium||
 |2088|[Count Fertile Pyramids in a Land](https://leetcode.com/problems/count-fertile-pyramids-in-a-land/)|Hard||
-|2089|[Find Target Indices After Sorting Array](https://leetcode.com/problems/find-target-indices-after-sorting-array/)|Easy||
 |2091|[Removing Minimum and Maximum From Array](https://leetcode.com/problems/removing-minimum-and-maximum-from-array/)|Medium||
 |2092|[Find All People With Secret](https://leetcode.com/problems/find-all-people-with-secret/)|Hard||
 |2093|[Minimum Cost to Reach City With Discounts](https://leetcode.com/problems/minimum-cost-to-reach-city-with-discounts/)|Medium|🔒|

@@ -1,6 +1,6 @@
 # Solved Solutions List
 
-This document contains **1120** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
+This document contains **1121** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
 
 Some questions which are still being resolved are not shown in this page, more information about unsolved questions can be found at [docs/unsolved_solutions.md](./unsolved_solutions.md).
 
@@ -990,6 +990,7 @@ Some questions which are still being resolved are not shown in this page, more i
 |2073|[Time Needed to Buy Tickets](https://leetcode.com/problems/time-needed-to-buy-tickets/)|[src/q_2051_2100/q2073.cc](../src/q_2051_2100/q2073.cc)|2023/09/25 20:58|
 |2078|[Two Furthest Houses With Different Colors](https://leetcode.com/problems/two-furthest-houses-with-different-colors/)|[src/q_2051_2100/q2078.cc](../src/q_2051_2100/q2078.cc)|2023/09/26 22:17|
 |2085|[Count Common Words With One Occurrence](https://leetcode.com/problems/count-common-words-with-one-occurrence/)|[src/q_2051_2100/q2085.cc](../src/q_2051_2100/q2085.cc)|2023/09/28 21:54|
+|2089|[Find Target Indices After Sorting Array](https://leetcode.com/problems/find-target-indices-after-sorting-array/)|[src/q_2051_2100/q2089.cc](../src/q_2051_2100/q2089.cc)|2023/09/29 17:02|
 |2090|[K Radius Subarray Averages](https://leetcode.com/problems/k-radius-subarray-averages/)|[src/q_2051_2100/q2090.cc](../src/q_2051_2100/q2090.cc)|2022/02/10 16:36|
 |2094|[Finding 3-Digit Even Numbers](https://leetcode.com/problems/finding-3-digit-even-numbers/)|[src/q_2051_2100/q2094.cc](../src/q_2051_2100/q2094.cc)|2023/04/06 16:11|
 |2095|[Delete the Middle Node of a Linked List](https://leetcode.com/problems/delete-the-middle-node-of-a-linked-list/)|[src/q_2051_2100/q2095.cc](../src/q_2051_2100/q2095.cc)|2022/10/14 10:08|
