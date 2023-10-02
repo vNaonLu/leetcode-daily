@@ -1116,3 +1116,10 @@ timestamp,id,tc,sc,notes
 1695439158,2037,n * log(n),1,n = |students.size()|
 1695529552,2047,n,n,n = |sentences.size()|
 1695646680,2073,S,1,S = sum of |tickets|
+1695737825,2078,n,1,n = |colors.size()|
+1695817816,880,n,1,n = |s.size()|
+1695909273,2085,n * E,n * E,"n = |words.size()|, E = |words[i].size()|"
+1695978155,2089,n * log(n),1,n = |nums.size()|
+1696045232,2099,n + k * log(k),n,
+1696132266,2103,n,n,n = |rings.size()|
+1696252090,2038,n,1,n = |colors.size()|

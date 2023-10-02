@@ -1,6 +1,6 @@
 # Solved Solutions List
 
-This document contains **1117** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
+This document contains **1124** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
 
 Some questions which are still being resolved are not shown in this page, more information about unsolved questions can be found at [docs/unsolved_solutions.md](./unsolved_solutions.md).
 
@@ -534,6 +534,7 @@ Some questions which are still being resolved are not shown in this page, more i
 |876|[Middle of the Linked List](https://leetcode.com/problems/middle-of-the-linked-list/)|[src/q_851_900/q0876.cc](../src/q_851_900/q0876.cc)|2021/09/09 08:00|
 |878|[Nth Magical Number](https://leetcode.com/problems/nth-magical-number/)|[src/q_851_900/q0878.cc](../src/q_851_900/q0878.cc)|2021/12/11 14:28|
 |879|[Profitable Schemes](https://leetcode.com/problems/profitable-schemes/)|[src/q_851_900/q0879.cc](../src/q_851_900/q0879.cc)|2023/04/21 11:10|
+|880|[Decoded String at Index](https://leetcode.com/problems/decoded-string-at-index/)|[src/q_851_900/q0880.cc](../src/q_851_900/q0880.cc)|2023/09/27 20:30|
 |881|[Boats to Save People](https://leetcode.com/problems/boats-to-save-people/)|[src/q_851_900/q0881.cc](../src/q_851_900/q0881.cc)|2022/03/24 18:23|
 |882|[Reachable Nodes In Subdivided Graph](https://leetcode.com/problems/reachable-nodes-in-subdivided-graph/)|[src/q_851_900/q0882.cc](../src/q_851_900/q0882.cc)|2021/09/12 08:00|
 |883|[Projection Area of 3D Shapes](https://leetcode.com/problems/projection-area-of-3d-shapes/)|[src/q_851_900/q0883.cc](../src/q_851_900/q0883.cc)|2023/07/17 16:36|
@@ -980,6 +981,7 @@ Some questions which are still being resolved are not shown in this page, more i
 |2027|[Minimum Moves to Convert String](https://leetcode.com/problems/minimum-moves-to-convert-string/)|[src/q_2001_2050/q2027.cc](../src/q_2001_2050/q2027.cc)|2023/09/22 20:54|
 |2032|[Two Out of Three](https://leetcode.com/problems/two-out-of-three/)|[src/q_2001_2050/q2032.cc](../src/q_2001_2050/q2032.cc)|2022/12/12 19:51|
 |2037|[Minimum Number of Moves to Seat Everyone](https://leetcode.com/problems/minimum-number-of-moves-to-seat-everyone/)|[src/q_2001_2050/q2037.cc](../src/q_2001_2050/q2037.cc)|2023/09/23 11:19|
+|2038|[Remove Colored Pieces if Both Neighbors are the Same Color](https://leetcode.com/problems/remove-colored-pieces-if-both-neighbors-are-the-same-color/)|[src/q_2001_2050/q2038.cc](../src/q_2001_2050/q2038.cc)|2023/10/02 21:08|
 |2042|[Check if Numbers Are Ascending in a Sentence](https://leetcode.com/problems/check-if-numbers-are-ascending-in-a-sentence/)|[src/q_2001_2050/q2042.cc](../src/q_2001_2050/q2042.cc)|2022/01/12 17:59|
 |2047|[Number of Valid Words in a Sentence](https://leetcode.com/problems/number-of-valid-words-in-a-sentence/)|[src/q_2001_2050/q2047.cc](../src/q_2001_2050/q2047.cc)|2023/09/24 12:25|
 |2053|[Kth Distinct String in an Array](https://leetcode.com/problems/kth-distinct-string-in-an-array/)|[src/q_2051_2100/q2053.cc](../src/q_2051_2100/q2053.cc)|2023/01/05 16:23|
@@ -987,10 +989,15 @@ Some questions which are still being resolved are not shown in this page, more i
 |2062|[Count Vowel Substrings of a String](https://leetcode.com/problems/count-vowel-substrings-of-a-string/)|[src/q_2051_2100/q2062.cc](../src/q_2051_2100/q2062.cc)|2023/04/13 18:51|
 |2068|[Check Whether Two Strings are Almost Equivalent](https://leetcode.com/problems/check-whether-two-strings-are-almost-equivalent/)|[src/q_2051_2100/q2068.cc](../src/q_2051_2100/q2068.cc)|2023/03/20 18:58|
 |2073|[Time Needed to Buy Tickets](https://leetcode.com/problems/time-needed-to-buy-tickets/)|[src/q_2051_2100/q2073.cc](../src/q_2051_2100/q2073.cc)|2023/09/25 20:58|
+|2078|[Two Furthest Houses With Different Colors](https://leetcode.com/problems/two-furthest-houses-with-different-colors/)|[src/q_2051_2100/q2078.cc](../src/q_2051_2100/q2078.cc)|2023/09/26 22:17|
+|2085|[Count Common Words With One Occurrence](https://leetcode.com/problems/count-common-words-with-one-occurrence/)|[src/q_2051_2100/q2085.cc](../src/q_2051_2100/q2085.cc)|2023/09/28 21:54|
+|2089|[Find Target Indices After Sorting Array](https://leetcode.com/problems/find-target-indices-after-sorting-array/)|[src/q_2051_2100/q2089.cc](../src/q_2051_2100/q2089.cc)|2023/09/29 17:02|
 |2090|[K Radius Subarray Averages](https://leetcode.com/problems/k-radius-subarray-averages/)|[src/q_2051_2100/q2090.cc](../src/q_2051_2100/q2090.cc)|2022/02/10 16:36|
 |2094|[Finding 3-Digit Even Numbers](https://leetcode.com/problems/finding-3-digit-even-numbers/)|[src/q_2051_2100/q2094.cc](../src/q_2051_2100/q2094.cc)|2023/04/06 16:11|
 |2095|[Delete the Middle Node of a Linked List](https://leetcode.com/problems/delete-the-middle-node-of-a-linked-list/)|[src/q_2051_2100/q2095.cc](../src/q_2051_2100/q2095.cc)|2022/10/14 10:08|
+|2099|[Find Subsequence of Length K With the Largest Sum](https://leetcode.com/problems/find-subsequence-of-length-k-with-the-largest-sum/)|[src/q_2051_2100/q2099.cc](../src/q_2051_2100/q2099.cc)|2023/09/30 11:40|
 |2101|[Detonate the Maximum Bombs](https://leetcode.com/problems/detonate-the-maximum-bombs/)|[src/q_2101_2150/q2101.cc](../src/q_2101_2150/q2101.cc)|2023/06/02 14:55|
+|2103|[Rings and Rods](https://leetcode.com/problems/rings-and-rods/)|[src/q_2101_2150/q2103.cc](../src/q_2101_2150/q2103.cc)|2023/10/01 11:51|
 |2108|[Find First Palindromic String in the Array](https://leetcode.com/problems/find-first-palindromic-string-in-the-array/)|[src/q_2101_2150/q2108.cc](../src/q_2101_2150/q2108.cc)|2023/05/16 22:56|
 |2114|[Maximum Number of Words Found in Sentences](https://leetcode.com/problems/maximum-number-of-words-found-in-sentences/)|[src/q_2101_2150/q2114.cc](../src/q_2101_2150/q2114.cc)|2023/04/24 08:40|
 |2124|[Check if All A's Appears Before All B's](https://leetcode.com/problems/check-if-all-as-appears-before-all-bs/)|[src/q_2101_2150/q2124.cc](../src/q_2101_2150/q2124.cc)|2023/04/12 18:56|
