@@ -1,6 +1,6 @@
 # Solved Solutions List
 
-This document contains **1124** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
+This document contains **1125** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
 
 Some questions which are still being resolved are not shown in this page, more information about unsolved questions can be found at [docs/unsolved_solutions.md](./unsolved_solutions.md).
 
@@ -1000,6 +1000,7 @@ Some questions which are still being resolved are not shown in this page, more i
 |2103|[Rings and Rods](https://leetcode.com/problems/rings-and-rods/)|[src/q_2101_2150/q2103.cc](../src/q_2101_2150/q2103.cc)|2023/10/01 11:51|
 |2108|[Find First Palindromic String in the Array](https://leetcode.com/problems/find-first-palindromic-string-in-the-array/)|[src/q_2101_2150/q2108.cc](../src/q_2101_2150/q2108.cc)|2023/05/16 22:56|
 |2114|[Maximum Number of Words Found in Sentences](https://leetcode.com/problems/maximum-number-of-words-found-in-sentences/)|[src/q_2101_2150/q2114.cc](../src/q_2101_2150/q2114.cc)|2023/04/24 08:40|
+|2119|[A Number After a Double Reversal](https://leetcode.com/problems/a-number-after-a-double-reversal/)|[src/q_2101_2150/q2119.cc](../src/q_2101_2150/q2119.cc)|2023/10/03 19:05|
 |2124|[Check if All A's Appears Before All B's](https://leetcode.com/problems/check-if-all-as-appears-before-all-bs/)|[src/q_2101_2150/q2124.cc](../src/q_2101_2150/q2124.cc)|2023/04/12 18:56|
 |2129|[Capitalize the Title](https://leetcode.com/problems/capitalize-the-title/)|[src/q_2101_2150/q2129.cc](../src/q_2101_2150/q2129.cc)|2023/03/21 21:07|
 |2130|[Maximum Twin Sum of a Linked List](https://leetcode.com/problems/maximum-twin-sum-of-a-linked-list/)|[src/q_2101_2150/q2130.cc](../src/q_2101_2150/q2130.cc)|2023/05/17 18:53|

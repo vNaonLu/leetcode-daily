@@ -1,6 +1,6 @@
 # Unsolved Solutions List
 
-There are **1640** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
+There are **1639** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
 
 The questions which have been solved are not shown in this page, more information about solved questions can be found at [docs/solved_solutions.md](./solved_solutions.md).
 
@@ -1132,7 +1132,6 @@ The questions which have been solved are not shown in this page, more informatio
 |2116|[Check if a Parentheses String Can Be Valid](https://leetcode.com/problems/check-if-a-parentheses-string-can-be-valid/)|Medium||
 |2117|[Abbreviating the Product of a Range](https://leetcode.com/problems/abbreviating-the-product-of-a-range/)|Hard||
 |2118|[Build the Equation](https://leetcode.com/problems/build-the-equation/)|Hard|🔒|
-|2119|[A Number After a Double Reversal](https://leetcode.com/problems/a-number-after-a-double-reversal/)|Easy||
 |2120|[Execution of All Suffix Instructions Staying in a Grid](https://leetcode.com/problems/execution-of-all-suffix-instructions-staying-in-a-grid/)|Medium||
 |2121|[Intervals Between Identical Elements](https://leetcode.com/problems/intervals-between-identical-elements/)|Medium||
 |2122|[Recover the Original Array](https://leetcode.com/problems/recover-the-original-array/)|Hard||
