@@ -1,6 +1,6 @@
 # Solved Solutions List
 
-This document contains **1127** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
+This document contains **1128** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
 
 Some questions which are still being resolved are not shown in this page, more information about unsolved questions can be found at [docs/unsolved_solutions.md](./unsolved_solutions.md).
 
@@ -762,6 +762,7 @@ Some questions which are still being resolved are not shown in this page, more i
 |1416|[Restore The Array](https://leetcode.com/problems/restore-the-array/)|[src/q_1401_1450/q1416.cc](../src/q_1401_1450/q1416.cc)|2023/04/23 13:59|
 |1417|[Reformat The String](https://leetcode.com/problems/reformat-the-string/)|[src/q_1401_1450/q1417.cc](../src/q_1401_1450/q1417.cc)|2023/08/12 14:15|
 |1419|[Minimum Number of Frogs Croaking](https://leetcode.com/problems/minimum-number-of-frogs-croaking/)|[src/q_1401_1450/q1419.cc](../src/q_1401_1450/q1419.cc)|2022/02/10 18:03|
+|1420|[Build Array Where You Can Find The Maximum Exactly K Comparisons](https://leetcode.com/problems/build-array-where-you-can-find-the-maximum-exactly-k-comparisons/)|[src/q_1401_1450/q1420.cc](../src/q_1401_1450/q1420.cc)|2023/10/07 18:55|
 |1422|[Maximum Score After Splitting a String](https://leetcode.com/problems/maximum-score-after-splitting-a-string/)|[src/q_1401_1450/q1422.cc](../src/q_1401_1450/q1422.cc)|2023/08/14 22:30|
 |1423|[Maximum Points You Can Obtain from Cards](https://leetcode.com/problems/maximum-points-you-can-obtain-from-cards/)|[src/q_1401_1450/q1423.cc](../src/q_1401_1450/q1423.cc)|2022/06/26 14:36|
 |1431|[Kids With the Greatest Number of Candies](https://leetcode.com/problems/kids-with-the-greatest-number-of-candies/)|[src/q_1401_1450/q1431.cc](../src/q_1401_1450/q1431.cc)|2023/04/17 19:54|
