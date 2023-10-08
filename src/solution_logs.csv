@@ -1127,3 +1127,4 @@ timestamp,id,tc,sc,notes
 1696425382,2138,n,1,n = |s.size()|
 1696589607,2144,n * log(n),1,n = |cost.size()|
 1696676111,1420,-,-,not calculated
+1696739489,1458,n * m,n,"m = |nums1.size()|, n = |nums2.size)|"

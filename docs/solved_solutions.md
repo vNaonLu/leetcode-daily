@@ -1,6 +1,6 @@
 # Solved Solutions List
 
-This document contains **1128** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
+This document contains **1129** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
 
 Some questions which are still being resolved are not shown in this page, more information about unsolved questions can be found at [docs/unsolved_solutions.md](./unsolved_solutions.md).
 
@@ -776,6 +776,7 @@ Some questions which are still being resolved are not shown in this page, more i
 |1455|[Check If a Word Occurs As a Prefix of Any Word in a Sentence](https://leetcode.com/problems/check-if-a-word-occurs-as-a-prefix-of-any-word-in-a-sentence/)|[src/q_1451_1500/q1455.cc](../src/q_1451_1500/q1455.cc)|2022/12/05 16:10|
 |1456|[Maximum Number of Vowels in a Substring of Given Length](https://leetcode.com/problems/maximum-number-of-vowels-in-a-substring-of-given-length/)|[src/q_1451_1500/q1456.cc](../src/q_1451_1500/q1456.cc)|2023/05/05 15:31|
 |1457|[Pseudo-Palindromic Paths in a Binary Tree](https://leetcode.com/problems/pseudo-palindromic-paths-in-a-binary-tree/)|[src/q_1451_1500/q1457.cc](../src/q_1451_1500/q1457.cc)|2022/09/14 15:01|
+|1458|[Max Dot Product of Two Subsequences](https://leetcode.com/problems/max-dot-product-of-two-subsequences/)|[src/q_1451_1500/q1458.cc](../src/q_1451_1500/q1458.cc)|2023/10/08 12:31|
 |1460|[Make Two Arrays Equal by Reversing Subarrays](https://leetcode.com/problems/make-two-arrays-equal-by-reversing-subarrays/)|[src/q_1451_1500/q1460.cc](../src/q_1451_1500/q1460.cc)|2023/08/18 18:04|
 |1461|[Check If a String Contains All Binary Codes of Size K](https://leetcode.com/problems/check-if-a-string-contains-all-binary-codes-of-size-k/)|[src/q_1451_1500/q1461.cc](../src/q_1451_1500/q1461.cc)|2022/05/31 18:19|
 |1462|[Course Schedule IV](https://leetcode.com/problems/course-schedule-iv/)|[src/q_1451_1500/q1462.cc](../src/q_1451_1500/q1462.cc)|2022/03/04 18:34|
