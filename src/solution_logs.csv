@@ -1123,3 +1123,8 @@ timestamp,id,tc,sc,notes
 1696045232,2099,n + k * log(k),n,
 1696132266,2103,n,n,n = |rings.size()|
 1696252090,2038,n,1,n = |colors.size()|
+1696331134,2119,1,1,
+1696425382,2138,n,1,n = |s.size()|
+1696589607,2144,n * log(n),1,n = |cost.size()|
+1696676111,1420,-,-,not calculated
+1696739489,1458,n * m,n,"m = |nums1.size()|, n = |nums2.size)|"

@@ -1,6 +1,6 @@
 # Solved Solutions List
 
-This document contains **1124** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
+This document contains **1129** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
 
 Some questions which are still being resolved are not shown in this page, more information about unsolved questions can be found at [docs/unsolved_solutions.md](./unsolved_solutions.md).
 
@@ -762,6 +762,7 @@ Some questions which are still being resolved are not shown in this page, more i
 |1416|[Restore The Array](https://leetcode.com/problems/restore-the-array/)|[src/q_1401_1450/q1416.cc](../src/q_1401_1450/q1416.cc)|2023/04/23 13:59|
 |1417|[Reformat The String](https://leetcode.com/problems/reformat-the-string/)|[src/q_1401_1450/q1417.cc](../src/q_1401_1450/q1417.cc)|2023/08/12 14:15|
 |1419|[Minimum Number of Frogs Croaking](https://leetcode.com/problems/minimum-number-of-frogs-croaking/)|[src/q_1401_1450/q1419.cc](../src/q_1401_1450/q1419.cc)|2022/02/10 18:03|
+|1420|[Build Array Where You Can Find The Maximum Exactly K Comparisons](https://leetcode.com/problems/build-array-where-you-can-find-the-maximum-exactly-k-comparisons/)|[src/q_1401_1450/q1420.cc](../src/q_1401_1450/q1420.cc)|2023/10/07 18:55|
 |1422|[Maximum Score After Splitting a String](https://leetcode.com/problems/maximum-score-after-splitting-a-string/)|[src/q_1401_1450/q1422.cc](../src/q_1401_1450/q1422.cc)|2023/08/14 22:30|
 |1423|[Maximum Points You Can Obtain from Cards](https://leetcode.com/problems/maximum-points-you-can-obtain-from-cards/)|[src/q_1401_1450/q1423.cc](../src/q_1401_1450/q1423.cc)|2022/06/26 14:36|
 |1431|[Kids With the Greatest Number of Candies](https://leetcode.com/problems/kids-with-the-greatest-number-of-candies/)|[src/q_1401_1450/q1431.cc](../src/q_1401_1450/q1431.cc)|2023/04/17 19:54|
@@ -775,6 +776,7 @@ Some questions which are still being resolved are not shown in this page, more i
 |1455|[Check If a Word Occurs As a Prefix of Any Word in a Sentence](https://leetcode.com/problems/check-if-a-word-occurs-as-a-prefix-of-any-word-in-a-sentence/)|[src/q_1451_1500/q1455.cc](../src/q_1451_1500/q1455.cc)|2022/12/05 16:10|
 |1456|[Maximum Number of Vowels in a Substring of Given Length](https://leetcode.com/problems/maximum-number-of-vowels-in-a-substring-of-given-length/)|[src/q_1451_1500/q1456.cc](../src/q_1451_1500/q1456.cc)|2023/05/05 15:31|
 |1457|[Pseudo-Palindromic Paths in a Binary Tree](https://leetcode.com/problems/pseudo-palindromic-paths-in-a-binary-tree/)|[src/q_1451_1500/q1457.cc](../src/q_1451_1500/q1457.cc)|2022/09/14 15:01|
+|1458|[Max Dot Product of Two Subsequences](https://leetcode.com/problems/max-dot-product-of-two-subsequences/)|[src/q_1451_1500/q1458.cc](../src/q_1451_1500/q1458.cc)|2023/10/08 12:31|
 |1460|[Make Two Arrays Equal by Reversing Subarrays](https://leetcode.com/problems/make-two-arrays-equal-by-reversing-subarrays/)|[src/q_1451_1500/q1460.cc](../src/q_1451_1500/q1460.cc)|2023/08/18 18:04|
 |1461|[Check If a String Contains All Binary Codes of Size K](https://leetcode.com/problems/check-if-a-string-contains-all-binary-codes-of-size-k/)|[src/q_1451_1500/q1461.cc](../src/q_1451_1500/q1461.cc)|2022/05/31 18:19|
 |1462|[Course Schedule IV](https://leetcode.com/problems/course-schedule-iv/)|[src/q_1451_1500/q1462.cc](../src/q_1451_1500/q1462.cc)|2022/03/04 18:34|
@@ -1000,6 +1002,7 @@ Some questions which are still being resolved are not shown in this page, more i
 |2103|[Rings and Rods](https://leetcode.com/problems/rings-and-rods/)|[src/q_2101_2150/q2103.cc](../src/q_2101_2150/q2103.cc)|2023/10/01 11:51|
 |2108|[Find First Palindromic String in the Array](https://leetcode.com/problems/find-first-palindromic-string-in-the-array/)|[src/q_2101_2150/q2108.cc](../src/q_2101_2150/q2108.cc)|2023/05/16 22:56|
 |2114|[Maximum Number of Words Found in Sentences](https://leetcode.com/problems/maximum-number-of-words-found-in-sentences/)|[src/q_2101_2150/q2114.cc](../src/q_2101_2150/q2114.cc)|2023/04/24 08:40|
+|2119|[A Number After a Double Reversal](https://leetcode.com/problems/a-number-after-a-double-reversal/)|[src/q_2101_2150/q2119.cc](../src/q_2101_2150/q2119.cc)|2023/10/03 19:05|
 |2124|[Check if All A's Appears Before All B's](https://leetcode.com/problems/check-if-all-as-appears-before-all-bs/)|[src/q_2101_2150/q2124.cc](../src/q_2101_2150/q2124.cc)|2023/04/12 18:56|
 |2129|[Capitalize the Title](https://leetcode.com/problems/capitalize-the-title/)|[src/q_2101_2150/q2129.cc](../src/q_2101_2150/q2129.cc)|2023/03/21 21:07|
 |2130|[Maximum Twin Sum of a Linked List](https://leetcode.com/problems/maximum-twin-sum-of-a-linked-list/)|[src/q_2101_2150/q2130.cc](../src/q_2101_2150/q2130.cc)|2023/05/17 18:53|
@@ -1007,8 +1010,10 @@ Some questions which are still being resolved are not shown in this page, more i
 |2133|[Check if Every Row and Column Contains All Numbers](https://leetcode.com/problems/check-if-every-row-and-column-contains-all-numbers/)|[src/q_2101_2150/q2133.cc](../src/q_2101_2150/q2133.cc)|2023/04/07 12:09|
 |2134|[Minimum Swaps to Group All 1's Together II](https://leetcode.com/problems/minimum-swaps-to-group-all-1s-together-ii/)|[src/q_2101_2150/q2134.cc](../src/q_2101_2150/q2134.cc)|2022/02/16 18:17|
 |2136|[Earliest Possible Day of Full Bloom](https://leetcode.com/problems/earliest-possible-day-of-full-bloom/)|[src/q_2101_2150/q2136.cc](../src/q_2101_2150/q2136.cc)|2022/10/29 11:47|
+|2138|[Divide a String Into Groups of Size k](https://leetcode.com/problems/divide-a-string-into-groups-of-size-k/)|[src/q_2101_2150/q2138.cc](../src/q_2101_2150/q2138.cc)|2023/10/04 21:16|
 |2140|[Solving Questions With Brainpower](https://leetcode.com/problems/solving-questions-with-brainpower/)|[src/q_2101_2150/q2140.cc](../src/q_2101_2150/q2140.cc)|2023/05/12 12:21|
 |2141|[Maximum Running Time of N Computers](https://leetcode.com/problems/maximum-running-time-of-n-computers/)|[src/q_2101_2150/q2141.cc](../src/q_2101_2150/q2141.cc)|2023/07/27 11:03|
+|2144|[Minimum Cost of Buying Candies With Discount](https://leetcode.com/problems/minimum-cost-of-buying-candies-with-discount/)|[src/q_2101_2150/q2144.cc](../src/q_2101_2150/q2144.cc)|2023/10/06 18:53|
 |2148|[Count Elements With Strictly Smaller and Greater Elements ](https://leetcode.com/problems/count-elements-with-strictly-smaller-and-greater-elements/)|[src/q_2101_2150/q2148.cc](../src/q_2101_2150/q2148.cc)|2023/02/25 13:24|
 |2149|[Rearrange Array Elements by Sign](https://leetcode.com/problems/rearrange-array-elements-by-sign/)|[src/q_2101_2150/q2149.cc](../src/q_2101_2150/q2149.cc)|2022/04/01 18:22|
 |2154|[Keep Multiplying Found Values by Two](https://leetcode.com/problems/keep-multiplying-found-values-by-two/)|[src/q_2151_2200/q2154.cc](../src/q_2151_2200/q2154.cc)|2023/01/07 14:40|

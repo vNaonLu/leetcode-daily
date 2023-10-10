@@ -1,6 +1,6 @@
 # Unsolved Solutions List
 
-There are **1640** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
+There are **1635** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
 
 The questions which have been solved are not shown in this page, more information about solved questions can be found at [docs/solved_solutions.md](./solved_solutions.md).
 
@@ -671,7 +671,6 @@ The questions which have been solved are not shown in this page, more informatio
 |1414|[Find the Minimum Number of Fibonacci Numbers Whose Sum Is K](https://leetcode.com/problems/find-the-minimum-number-of-fibonacci-numbers-whose-sum-is-k/)|Medium||
 |1415|[The k-th Lexicographical String of All Happy Strings of Length n](https://leetcode.com/problems/the-k-th-lexicographical-string-of-all-happy-strings-of-length-n/)|Medium||
 |1418|[Display Table of Food Orders in a Restaurant](https://leetcode.com/problems/display-table-of-food-orders-in-a-restaurant/)|Medium||
-|1420|[Build Array Where You Can Find The Maximum Exactly K Comparisons](https://leetcode.com/problems/build-array-where-you-can-find-the-maximum-exactly-k-comparisons/)|Hard||
 |1421|[NPV Queries](https://leetcode.com/problems/npv-queries/)|Easy|🔒|
 |1424|[Diagonal Traverse II](https://leetcode.com/problems/diagonal-traverse-ii/)|Medium||
 |1425|[Constrained Subsequence Sum](https://leetcode.com/problems/constrained-subsequence-sum/)|Hard||
@@ -696,7 +695,6 @@ The questions which have been solved are not shown in this page, more informatio
 |1452|[People Whose List of Favorite Companies Is Not a Subset of Another List](https://leetcode.com/problems/people-whose-list-of-favorite-companies-is-not-a-subset-of-another-list/)|Medium||
 |1453|[Maximum Number of Darts Inside of a Circular Dartboard](https://leetcode.com/problems/maximum-number-of-darts-inside-of-a-circular-dartboard/)|Hard||
 |1454|[Active Users](https://leetcode.com/problems/active-users/)|Medium|🔒|
-|1458|[Max Dot Product of Two Subsequences](https://leetcode.com/problems/max-dot-product-of-two-subsequences/)|Hard||
 |1459|[Rectangles Area](https://leetcode.com/problems/rectangles-area/)|Medium|🔒|
 |1467|[Probability of a Two Boxes Having The Same Number of Distinct Balls](https://leetcode.com/problems/probability-of-a-two-boxes-having-the-same-number-of-distinct-balls/)|Hard||
 |1468|[Calculate Salaries](https://leetcode.com/problems/calculate-salaries/)|Medium|🔒|
@@ -1132,7 +1130,6 @@ The questions which have been solved are not shown in this page, more informatio
 |2116|[Check if a Parentheses String Can Be Valid](https://leetcode.com/problems/check-if-a-parentheses-string-can-be-valid/)|Medium||
 |2117|[Abbreviating the Product of a Range](https://leetcode.com/problems/abbreviating-the-product-of-a-range/)|Hard||
 |2118|[Build the Equation](https://leetcode.com/problems/build-the-equation/)|Hard|🔒|
-|2119|[A Number After a Double Reversal](https://leetcode.com/problems/a-number-after-a-double-reversal/)|Easy||
 |2120|[Execution of All Suffix Instructions Staying in a Grid](https://leetcode.com/problems/execution-of-all-suffix-instructions-staying-in-a-grid/)|Medium||
 |2121|[Intervals Between Identical Elements](https://leetcode.com/problems/intervals-between-identical-elements/)|Medium||
 |2122|[Recover the Original Array](https://leetcode.com/problems/recover-the-original-array/)|Hard||
@@ -1144,11 +1141,9 @@ The questions which have been solved are not shown in this page, more informatio
 |2132|[Stamping the Grid](https://leetcode.com/problems/stamping-the-grid/)|Hard||
 |2135|[Count Words Obtained After Adding a Letter](https://leetcode.com/problems/count-words-obtained-after-adding-a-letter/)|Medium||
 |2137|[Pour Water Between Buckets to Make Water Levels Equal](https://leetcode.com/problems/pour-water-between-buckets-to-make-water-levels-equal/)|Medium|🔒|
-|2138|[Divide a String Into Groups of Size k](https://leetcode.com/problems/divide-a-string-into-groups-of-size-k/)|Easy||
 |2139|[Minimum Moves to Reach Target Score](https://leetcode.com/problems/minimum-moves-to-reach-target-score/)|Medium||
 |2142|[The Number of Passengers in Each Bus I](https://leetcode.com/problems/the-number-of-passengers-in-each-bus-i/)|Medium|🔒|
 |2143|[Choose Numbers From Two Arrays in Range](https://leetcode.com/problems/choose-numbers-from-two-arrays-in-range/)|Hard|🔒|
-|2144|[Minimum Cost of Buying Candies With Discount](https://leetcode.com/problems/minimum-cost-of-buying-candies-with-discount/)|Easy||
 |2145|[Count the Hidden Sequences](https://leetcode.com/problems/count-the-hidden-sequences/)|Medium||
 |2146|[K Highest Ranked Items Within a Price Range](https://leetcode.com/problems/k-highest-ranked-items-within-a-price-range/)|Medium||
 |2147|[Number of Ways to Divide a Long Corridor](https://leetcode.com/problems/number-of-ways-to-divide-a-long-corridor/)|Hard||
