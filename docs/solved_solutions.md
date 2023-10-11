@@ -1,6 +1,6 @@
 # Solved Solutions List
 
-This document contains **1130** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
+This document contains **1131** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
 
 Some questions which are still being resolved are not shown in this page, more information about unsolved questions can be found at [docs/unsolved_solutions.md](./unsolved_solutions.md).
 
@@ -1043,6 +1043,7 @@ Some questions which are still being resolved are not shown in this page, more i
 |2244|[Minimum Rounds to Complete All Tasks](https://leetcode.com/problems/minimum-rounds-to-complete-all-tasks/)|[src/q_2201_2250/q2244.cc](../src/q_2201_2250/q2244.cc)|2023/01/04 20:33|
 |2246|[Longest Path With Different Adjacent Characters](https://leetcode.com/problems/longest-path-with-different-adjacent-characters/)|[src/q_2201_2250/q2246.cc](../src/q_2201_2250/q2246.cc)|2023/01/13 19:09|
 |2248|[Intersection of Multiple Arrays](https://leetcode.com/problems/intersection-of-multiple-arrays/)|[src/q_2201_2250/q2248.cc](../src/q_2201_2250/q2248.cc)|2023/01/10 14:06|
+|2251|[Number of Flowers in Full Bloom](https://leetcode.com/problems/number-of-flowers-in-full-bloom/)|[src/q_2251_2300/q2251.cc](../src/q_2251_2300/q2251.cc)|2023/10/11 20:42|
 |2255|[Count Prefixes of a Given String](https://leetcode.com/problems/count-prefixes-of-a-given-string/)|[src/q_2251_2300/q2255.cc](../src/q_2251_2300/q2255.cc)|2023/01/08 21:09|
 |2256|[Minimum Average Difference](https://leetcode.com/problems/minimum-average-difference/)|[src/q_2251_2300/q2256.cc](../src/q_2251_2300/q2256.cc)|2022/12/04 13:55|
 |2259|[Remove Digit From Number to Maximize Result](https://leetcode.com/problems/remove-digit-from-number-to-maximize-result/)|[src/q_2251_2300/q2259.cc](../src/q_2251_2300/q2259.cc)|2023/02/24 15:26|
