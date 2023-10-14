@@ -1132,3 +1132,4 @@ timestamp,id,tc,sc,notes
 1697028138,2251,n * log(n) + m,n,"n = |flowers.size()|, m = |people.size()|"
 1697118094,1095,-,-,not calculated
 1697165764,2190,n,n,n = |nums.size()|
+1697259870,2742,n ^ 2,n ^ 2,n = |cost.size()|
