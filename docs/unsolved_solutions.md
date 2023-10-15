@@ -1,6 +1,6 @@
 # Unsolved Solutions List
 
-There are **1630** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
+There are **1629** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
 
 The questions which have been solved are not shown in this page, more information about solved questions can be found at [docs/solved_solutions.md](./solved_solutions.md).
 
@@ -587,7 +587,6 @@ The questions which have been solved are not shown in this page, more informatio
 |1263|[Minimum Moves to Move a Box to Their Target Location](https://leetcode.com/problems/minimum-moves-to-move-a-box-to-their-target-location/)|Hard||
 |1264|[Page Recommendations](https://leetcode.com/problems/page-recommendations/)|Medium|🔒|
 |1265|[Print Immutable Linked List in Reverse](https://leetcode.com/problems/print-immutable-linked-list-in-reverse/)|Medium|🔒|
-|1269|[Number of Ways to Stay in the Same Place After Some Steps](https://leetcode.com/problems/number-of-ways-to-stay-in-the-same-place-after-some-steps/)|Hard||
 |1270|[All People Report to the Given Manager](https://leetcode.com/problems/all-people-report-to-the-given-manager/)|Medium|🔒|
 |1271|[Hexspeak](https://leetcode.com/problems/hexspeak/)|Easy|🔒|
 |1272|[Remove Interval](https://leetcode.com/problems/remove-interval/)|Medium|🔒|

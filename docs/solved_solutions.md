@@ -1,6 +1,6 @@
 # Solved Solutions List
 
-This document contains **1134** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
+This document contains **1135** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
 
 Some questions which are still being resolved are not shown in this page, more information about unsolved questions can be found at [docs/unsolved_solutions.md](./unsolved_solutions.md).
 
@@ -695,6 +695,7 @@ Some questions which are still being resolved are not shown in this page, more i
 |1266|[Minimum Time Visiting All Points](https://leetcode.com/problems/minimum-time-visiting-all-points/)|[src/q_1251_1300/q1266.cc](../src/q_1251_1300/q1266.cc)|2022/08/08 18:22|
 |1267|[Count Servers that Communicate](https://leetcode.com/problems/count-servers-that-communicate/)|[src/q_1251_1300/q1267.cc](../src/q_1251_1300/q1267.cc)|2022/02/01 13:41|
 |1268|[Search Suggestions System](https://leetcode.com/problems/search-suggestions-system/)|[src/q_1251_1300/q1268.cc](../src/q_1251_1300/q1268.cc)|2022/06/19 13:18|
+|1269|[Number of Ways to Stay in the Same Place After Some Steps](https://leetcode.com/problems/number-of-ways-to-stay-in-the-same-place-after-some-steps/)|[src/q_1251_1300/q1269.cc](../src/q_1251_1300/q1269.cc)|2023/10/15 14:30|
 |1275|[Find Winner on a Tic Tac Toe Game](https://leetcode.com/problems/find-winner-on-a-tic-tac-toe-game/)|[src/q_1251_1300/q1275.cc](../src/q_1251_1300/q1275.cc)|2021/09/20 08:00|
 |1281|[Subtract the Product and Sum of Digits of an Integer](https://leetcode.com/problems/subtract-the-product-and-sum-of-digits-of-an-integer/)|[src/q_1251_1300/q1281.cc](../src/q_1251_1300/q1281.cc)|2022/04/15 19:38|
 |1282|[Group the People Given the Group Size They Belong To](https://leetcode.com/problems/group-the-people-given-the-group-size-they-belong-to/)|[src/q_1251_1300/q1282.cc](../src/q_1251_1300/q1282.cc)|2023/09/11 19:45|
