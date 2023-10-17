@@ -1,6 +1,6 @@
 # Unsolved Solutions List
 
-There are **1635** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
+There are **1628** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
 
 The questions which have been solved are not shown in this page, more information about solved questions can be found at [docs/solved_solutions.md](./solved_solutions.md).
 
@@ -458,7 +458,6 @@ The questions which have been solved are not shown in this page, more informatio
 |1088|[Confusing Number II](https://leetcode.com/problems/confusing-number-ii/)|Hard|🔒|
 |1090|[Largest Values From Labels](https://leetcode.com/problems/largest-values-from-labels/)|Medium||
 |1092|[Shortest Common Supersequence ](https://leetcode.com/problems/shortest-common-supersequence/)|Hard||
-|1095|[Find in Mountain Array](https://leetcode.com/problems/find-in-mountain-array/)|Hard||
 |1096|[Brace Expansion II](https://leetcode.com/problems/brace-expansion-ii/)|Hard||
 |1097|[Game Play Analysis V](https://leetcode.com/problems/game-play-analysis-v/)|Hard|🔒|
 |1098|[Unpopular Books](https://leetcode.com/problems/unpopular-books/)|Medium|🔒|
@@ -588,7 +587,6 @@ The questions which have been solved are not shown in this page, more informatio
 |1263|[Minimum Moves to Move a Box to Their Target Location](https://leetcode.com/problems/minimum-moves-to-move-a-box-to-their-target-location/)|Hard||
 |1264|[Page Recommendations](https://leetcode.com/problems/page-recommendations/)|Medium|🔒|
 |1265|[Print Immutable Linked List in Reverse](https://leetcode.com/problems/print-immutable-linked-list-in-reverse/)|Medium|🔒|
-|1269|[Number of Ways to Stay in the Same Place After Some Steps](https://leetcode.com/problems/number-of-ways-to-stay-in-the-same-place-after-some-steps/)|Hard||
 |1270|[All People Report to the Given Manager](https://leetcode.com/problems/all-people-report-to-the-given-manager/)|Medium|🔒|
 |1271|[Hexspeak](https://leetcode.com/problems/hexspeak/)|Easy|🔒|
 |1272|[Remove Interval](https://leetcode.com/problems/remove-interval/)|Medium|🔒|
@@ -1047,7 +1045,6 @@ The questions which have been solved are not shown in this page, more informatio
 |2004|[The Number of Seniors and Juniors to Join the Company](https://leetcode.com/problems/the-number-of-seniors-and-juniors-to-join-the-company/)|Hard|🔒|
 |2005|[Subtree Removal Game with Fibonacci Tree](https://leetcode.com/problems/subtree-removal-game-with-fibonacci-tree/)|Hard|🔒|
 |2008|[Maximum Earnings From Taxi](https://leetcode.com/problems/maximum-earnings-from-taxi/)|Medium||
-|2009|[Minimum Number of Operations to Make Array Continuous](https://leetcode.com/problems/minimum-number-of-operations-to-make-array-continuous/)|Hard||
 |2010|[The Number of Seniors and Juniors to Join the Company II](https://leetcode.com/problems/the-number-of-seniors-and-juniors-to-join-the-company-ii/)|Hard|🔒|
 |2012|[Sum of Beauty in the Array](https://leetcode.com/problems/sum-of-beauty-in-the-array/)|Medium||
 |2013|[Detect Squares](https://leetcode.com/problems/detect-squares/)|Medium||
@@ -1178,7 +1175,6 @@ The questions which have been solved are not shown in this page, more informatio
 |2186|[Minimum Number of Steps to Make Two Strings Anagram II](https://leetcode.com/problems/minimum-number-of-steps-to-make-two-strings-anagram-ii/)|Medium||
 |2188|[Minimum Time to Finish the Race](https://leetcode.com/problems/minimum-time-to-finish-the-race/)|Hard||
 |2189|[Number of Ways to Build House of Cards](https://leetcode.com/problems/number-of-ways-to-build-house-of-cards/)|Medium|🔒|
-|2190|[Most Frequent Number Following Key In an Array](https://leetcode.com/problems/most-frequent-number-following-key-in-an-array/)|Easy||
 |2191|[Sort the Jumbled Numbers](https://leetcode.com/problems/sort-the-jumbled-numbers/)|Medium||
 |2192|[All Ancestors of a Node in a Directed Acyclic Graph](https://leetcode.com/problems/all-ancestors-of-a-node-in-a-directed-acyclic-graph/)|Medium||
 |2193|[Minimum Number of Moves to Make Palindrome](https://leetcode.com/problems/minimum-number-of-moves-to-make-palindrome/)|Hard||
@@ -1204,7 +1200,6 @@ The questions which have been solved are not shown in this page, more informatio
 |2219|[Maximum Sum Score of Array](https://leetcode.com/problems/maximum-sum-score-of-array/)|Medium|🔒|
 |2222|[Number of Ways to Select Buildings](https://leetcode.com/problems/number-of-ways-to-select-buildings/)|Medium||
 |2223|[Sum of Scores of Built Strings](https://leetcode.com/problems/sum-of-scores-of-built-strings/)|Hard||
-|2224|[Minimum Number of Operations to Convert Time](https://leetcode.com/problems/minimum-number-of-operations-to-convert-time/)|Easy||
 |2226|[Maximum Candies Allocated to K Children](https://leetcode.com/problems/maximum-candies-allocated-to-k-children/)|Medium||
 |2227|[Encrypt and Decrypt Strings](https://leetcode.com/problems/encrypt-and-decrypt-strings/)|Hard||
 |2228|[Users With Two Purchases Within Seven Days](https://leetcode.com/problems/users-with-two-purchases-within-seven-days/)|Medium|🔒|
@@ -1222,7 +1217,6 @@ The questions which have been solved are not shown in this page, more informatio
 |2247|[Maximum Cost of Trip With K Highways](https://leetcode.com/problems/maximum-cost-of-trip-with-k-highways/)|Hard|🔒|
 |2249|[Count Lattice Points Inside a Circle](https://leetcode.com/problems/count-lattice-points-inside-a-circle/)|Medium||
 |2250|[Count Number of Rectangles Containing Each Point](https://leetcode.com/problems/count-number-of-rectangles-containing-each-point/)|Medium||
-|2251|[Number of Flowers in Full Bloom](https://leetcode.com/problems/number-of-flowers-in-full-bloom/)|Hard||
 |2252|[Dynamic Pivoting of a Table](https://leetcode.com/problems/dynamic-pivoting-of-a-table/)|Hard|🔒|
 |2253|[Dynamic Unpivoting of a Table](https://leetcode.com/problems/dynamic-unpivoting-of-a-table/)|Hard|🔒|
 |2254|[Design Video Sharing Platform](https://leetcode.com/problems/design-video-sharing-platform/)|Hard|🔒|
@@ -1619,7 +1613,6 @@ The questions which have been solved are not shown in this page, more informatio
 |2739|[Total Distance Traveled](https://leetcode.com/problems/total-distance-traveled/)|Easy||
 |2740|[Find the Value of the Partition](https://leetcode.com/problems/find-the-value-of-the-partition/)|Medium||
 |2741|[Special Permutations](https://leetcode.com/problems/special-permutations/)|Medium||
-|2742|[Painting the Walls](https://leetcode.com/problems/painting-the-walls/)|Hard||
 |2743|[Count Substrings Without Repeating Character](https://leetcode.com/problems/count-substrings-without-repeating-character/)|Medium|🔒|
 |2744|[Find Maximum Number of String Pairs](https://leetcode.com/problems/find-maximum-number-of-string-pairs/)|Easy||
 |2745|[Construct the Longest New String](https://leetcode.com/problems/construct-the-longest-new-string/)|Medium||
