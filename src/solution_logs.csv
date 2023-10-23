@@ -1135,3 +1135,10 @@ timestamp,id,tc,sc,notes
 1697259870,2742,n ^ 2,n ^ 2,n = |cost.size()|
 1697351450,1269,-,-,not calculated
 1697464924,2224,1,1,
+1697545472,2273,n * E,E,"n = |words.size()|, E = |words[i].size()|"
+1697629198,2050,-,-,not calculated
+1697721878,2287,n * log(n),n,n = |s.size()|
+1697809381,2303,n,1,n = |brackets.size()|
+1697867976,1425,n * log(k),n,n = |nums.size()|
+1697958189,1793,n,1,n = |nums.size()|
+1698049501,2335,1,1,
