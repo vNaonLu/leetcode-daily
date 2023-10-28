@@ -1,6 +1,6 @@
 # Unsolved Solutions List
 
-There are **1618** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
+There are **1617** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
 
 The questions which have been solved are not shown in this page, more information about solved questions can be found at [docs/solved_solutions.md](./solved_solutions.md).
 
@@ -1368,7 +1368,6 @@ The questions which have been solved are not shown in this page, more informatio
 |2472|[Maximum Number of Non-overlapping Palindrome Substrings](https://leetcode.com/problems/maximum-number-of-non-overlapping-palindrome-substrings/)|Hard||
 |2473|[Minimum Cost to Buy Apples](https://leetcode.com/problems/minimum-cost-to-buy-apples/)|Medium|🔒|
 |2474|[Customers With Strictly Increasing Purchases](https://leetcode.com/problems/customers-with-strictly-increasing-purchases/)|Hard|🔒|
-|2475|[Number of Unequal Triplets in Array](https://leetcode.com/problems/number-of-unequal-triplets-in-array/)|Easy||
 |2476|[Closest Nodes Queries in a Binary Search Tree](https://leetcode.com/problems/closest-nodes-queries-in-a-binary-search-tree/)|Medium||
 |2478|[Number of Beautiful Partitions](https://leetcode.com/problems/number-of-beautiful-partitions/)|Hard||
 |2479|[Maximum XOR of Two Non-Overlapping Subtrees](https://leetcode.com/problems/maximum-xor-of-two-non-overlapping-subtrees/)|Hard|🔒|
