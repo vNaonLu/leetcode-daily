@@ -50,8 +50,13 @@ LEETCODE_BEGIN_RESOLVING(458, PoorPigs, Solution);
 class Solution {
 public:
   int poorPigs(int buckets, int minutesToDie, int minutesToTest) {
-
-    return ceil(log(buckets) / log(minutesToTest / minutesToDie + 1));
+    int res = 0;
+    int b   = minutesToTest / minutesToDie + 1;
+    int p   = 1;
+    for (; p < buckets; ++res) {
+      p *= b;
+    }
+    return res;
   }
 };
 
@@ -104,6 +109,23 @@ LEETCODE_SOLUTION_UNITTEST(458, PoorPigs, example_2) {
   int  minutesToDie  = 15;
   int  minutesToTest = 30;
   int  expect        = 2;
+  int  actual        = solution->poorPigs(buckets, minutesToDie, minutesToTest);
+  LCD_EXPECT_EQ(expect, actual);
+}
+
+// [Extra Testcase #1]
+//  Input: 125
+// 1
+// 4
+// Output: 3
+//
+
+LEETCODE_SOLUTION_UNITTEST(458, PoorPigs, extra_testcase_1) {
+  auto solution      = MakeSolution();
+  int  buckets       = 125;
+  int  minutesToDie  = 1;
+  int  minutesToTest = 4;
+  int  expect        = 3;
   int  actual        = solution->poorPigs(buckets, minutesToDie, minutesToTest);
   LCD_EXPECT_EQ(expect, actual);
 }
