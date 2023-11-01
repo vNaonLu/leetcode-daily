@@ -1,6 +1,6 @@
 # Unsolved Solutions List
 
-There are **1615** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
+There are **1614** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
 
 The questions which have been solved are not shown in this page, more information about solved questions can be found at [docs/solved_solutions.md](./solved_solutions.md).
 
@@ -1396,7 +1396,6 @@ The questions which have been solved are not shown in this page, more informatio
 |2512|[Reward Top K Students](https://leetcode.com/problems/reward-top-k-students/)|Medium||
 |2513|[Minimize the Maximum of Two Arrays](https://leetcode.com/problems/minimize-the-maximum-of-two-arrays/)|Medium||
 |2514|[Count Anagrams](https://leetcode.com/problems/count-anagrams/)|Hard||
-|2515|[Shortest Distance to Target String in a Circular Array](https://leetcode.com/problems/shortest-distance-to-target-string-in-a-circular-array/)|Easy||
 |2516|[Take K of Each Character From Left and Right](https://leetcode.com/problems/take-k-of-each-character-from-left-and-right/)|Medium||
 |2517|[Maximum Tastiness of Candy Basket](https://leetcode.com/problems/maximum-tastiness-of-candy-basket/)|Medium||
 |2518|[Number of Great Partitions](https://leetcode.com/problems/number-of-great-partitions/)|Hard||
