@@ -1,6 +1,6 @@
 # Solved Solutions List
 
-This document contains **1151** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
+This document contains **1152** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
 
 Some questions which are still being resolved are not shown in this page, more information about unsolved questions can be found at [docs/unsolved_solutions.md](./unsolved_solutions.md).
 
@@ -771,6 +771,7 @@ Some questions which are still being resolved are not shown in this page, more i
 |1431|[Kids With the Greatest Number of Candies](https://leetcode.com/problems/kids-with-the-greatest-number-of-candies/)|[src/q_1401_1450/q1431.cc](../src/q_1401_1450/q1431.cc)|2023/04/17 19:54|
 |1436|[Destination City](https://leetcode.com/problems/destination-city/)|[src/q_1401_1450/q1436.cc](../src/q_1401_1450/q1436.cc)|2023/08/15 17:31|
 |1437|[Check If All 1's Are at Least Length K Places Away](https://leetcode.com/problems/check-if-all-1s-are-at-least-length-k-places-away/)|[src/q_1401_1450/q1437.cc](../src/q_1401_1450/q1437.cc)|2022/05/24 14:03|
+|1441|[Build an Array With Stack Operations](https://leetcode.com/problems/build-an-array-with-stack-operations/)|[src/q_1401_1450/q1441.cc](../src/q_1401_1450/q1441.cc)|2023/11/03 19:46|
 |1443|[Minimum Time to Collect All Apples in a Tree](https://leetcode.com/problems/minimum-time-to-collect-all-apples-in-a-tree/)|[src/q_1401_1450/q1443.cc](../src/q_1401_1450/q1443.cc)|2023/01/11 18:59|
 |1444|[Number of Ways of Cutting a Pizza](https://leetcode.com/problems/number-of-ways-of-cutting-a-pizza/)|[src/q_1401_1450/q1444.cc](../src/q_1401_1450/q1444.cc)|2023/03/31 15:02|
 |1446|[Consecutive Characters](https://leetcode.com/problems/consecutive-characters/)|[src/q_1401_1450/q1446.cc](../src/q_1401_1450/q1446.cc)|2021/12/13 18:10|
