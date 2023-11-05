@@ -1,6 +1,6 @@
 # Solved Solutions List
 
-This document contains **1153** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
+This document contains **1154** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
 
 Some questions which are still being resolved are not shown in this page, more information about unsolved questions can be found at [docs/unsolved_solutions.md](./unsolved_solutions.md).
 
@@ -817,6 +817,7 @@ Some questions which are still being resolved are not shown in this page, more i
 |1529|[Minimum Suffix Flips](https://leetcode.com/problems/minimum-suffix-flips/)|[src/q_1501_1550/q1529.cc](../src/q_1501_1550/q1529.cc)|2022/02/12 00:03|
 |1531|[String Compression II](https://leetcode.com/problems/string-compression-ii/)|[src/q_1501_1550/q1531.cc](../src/q_1501_1550/q1531.cc)|2022/10/15 13:26|
 |1534|[Count Good Triplets](https://leetcode.com/problems/count-good-triplets/)|[src/q_1501_1550/q1534.cc](../src/q_1501_1550/q1534.cc)|2021/10/13 12:39|
+|1535|[Find the Winner of an Array Game](https://leetcode.com/problems/find-the-winner-of-an-array-game/)|[src/q_1501_1550/q1535.cc](../src/q_1501_1550/q1535.cc)|2023/11/05 12:13|
 |1539|[Kth Missing Positive Number](https://leetcode.com/problems/kth-missing-positive-number/)|[src/q_1501_1550/q1539.cc](../src/q_1501_1550/q1539.cc)|2022/04/08 18:37|
 |1544|[Make The String Great](https://leetcode.com/problems/make-the-string-great/)|[src/q_1501_1550/q1544.cc](../src/q_1501_1550/q1544.cc)|2022/11/08 18:21|
 |1545|[Find Kth Bit in Nth Binary String](https://leetcode.com/problems/find-kth-bit-in-nth-binary-string/)|[src/q_1501_1550/q1545.cc](../src/q_1501_1550/q1545.cc)|2021/10/05 23:51|
