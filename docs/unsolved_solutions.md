@@ -1,6 +1,6 @@
 # Unsolved Solutions List
 
-There are **1616** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
+There are **1609** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
 
 The questions which have been solved are not shown in this page, more information about solved questions can be found at [docs/solved_solutions.md](./solved_solutions.md).
 
@@ -683,7 +683,6 @@ The questions which have been solved are not shown in this page, more informatio
 |1438|[Longest Continuous Subarray With Absolute Diff Less Than or Equal to Limit](https://leetcode.com/problems/longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit/)|Medium||
 |1439|[Find the Kth Smallest Sum of a Matrix With Sorted Rows](https://leetcode.com/problems/find-the-kth-smallest-sum-of-a-matrix-with-sorted-rows/)|Hard||
 |1440|[Evaluate Boolean Expression](https://leetcode.com/problems/evaluate-boolean-expression/)|Medium|🔒|
-|1441|[Build an Array With Stack Operations](https://leetcode.com/problems/build-an-array-with-stack-operations/)|Medium||
 |1442|[Count Triplets That Can Form Two Arrays of Equal XOR](https://leetcode.com/problems/count-triplets-that-can-form-two-arrays-of-equal-xor/)|Medium||
 |1445|[Apples & Oranges](https://leetcode.com/problems/apples-oranges/)|Medium|🔒|
 |1447|[Simplified Fractions](https://leetcode.com/problems/simplified-fractions/)|Medium||
@@ -714,7 +713,6 @@ The questions which have been solved are not shown in this page, more informatio
 |1499|[Max Value of Equation](https://leetcode.com/problems/max-value-of-equation/)|Hard||
 |1500|[Design a File Sharing System](https://leetcode.com/problems/design-a-file-sharing-system/)|Medium|🔒|
 |1501|[Countries You Can Safely Invest In](https://leetcode.com/problems/countries-you-can-safely-invest-in/)|Medium|🔒|
-|1503|[Last Moment Before All Ants Fall Out of a Plank](https://leetcode.com/problems/last-moment-before-all-ants-fall-out-of-a-plank/)|Medium||
 |1504|[Count Submatrices With All Ones](https://leetcode.com/problems/count-submatrices-with-all-ones/)|Medium||
 |1505|[Minimum Possible Integer After at Most K Adjacent Swaps On Digits](https://leetcode.com/problems/minimum-possible-integer-after-at-most-k-adjacent-swaps-on-digits/)|Hard||
 |1506|[Find Root of N-Ary Tree](https://leetcode.com/problems/find-root-of-n-ary-tree/)|Medium|🔒|
@@ -733,7 +731,6 @@ The questions which have been solved are not shown in this page, more informatio
 |1530|[Number of Good Leaf Nodes Pairs](https://leetcode.com/problems/number-of-good-leaf-nodes-pairs/)|Medium||
 |1532|[The Most Recent Three Orders](https://leetcode.com/problems/the-most-recent-three-orders/)|Medium|🔒|
 |1533|[Find the Index of the Large Integer](https://leetcode.com/problems/find-the-index-of-the-large-integer/)|Medium|🔒|
-|1535|[Find the Winner of an Array Game](https://leetcode.com/problems/find-the-winner-of-an-array-game/)|Medium||
 |1536|[Minimum Swaps to Arrange a Binary Grid](https://leetcode.com/problems/minimum-swaps-to-arrange-a-binary-grid/)|Medium||
 |1537|[Get the Maximum Score](https://leetcode.com/problems/get-the-maximum-score/)|Hard||
 |1538|[Guess the Majority in a Hidden Array](https://leetcode.com/problems/guess-the-majority-in-a-hidden-array/)|Medium|🔒|
@@ -1223,7 +1220,6 @@ The questions which have been solved are not shown in this page, more informatio
 |2261|[K Divisible Elements Subarrays](https://leetcode.com/problems/k-divisible-elements-subarrays/)|Medium||
 |2262|[Total Appeal of A String](https://leetcode.com/problems/total-appeal-of-a-string/)|Hard||
 |2263|[Make Array Non-decreasing or Non-increasing](https://leetcode.com/problems/make-array-non-decreasing-or-non-increasing/)|Hard|🔒|
-|2265|[Count Nodes Equal to Average of Subtree](https://leetcode.com/problems/count-nodes-equal-to-average-of-subtree/)|Medium||
 |2267|[ Check if There Is a Valid Parentheses String Path](https://leetcode.com/problems/check-if-there-is-a-valid-parentheses-string-path/)|Hard||
 |2268|[Minimum Number of Keypresses](https://leetcode.com/problems/minimum-number-of-keypresses/)|Medium|🔒|
 |2270|[Number of Ways to Split Array](https://leetcode.com/problems/number-of-ways-to-split-array/)|Medium||
@@ -1339,7 +1335,6 @@ The questions which have been solved are not shown in this page, more informatio
 |2429|[Minimize XOR](https://leetcode.com/problems/minimize-xor/)|Medium||
 |2430|[Maximum Deletions on a String](https://leetcode.com/problems/maximum-deletions-on-a-string/)|Hard||
 |2431|[Maximize Total Tastiness of Purchased Fruits](https://leetcode.com/problems/maximize-total-tastiness-of-purchased-fruits/)|Medium|🔒|
-|2433|[Find The Original Array of Prefix Xor](https://leetcode.com/problems/find-the-original-array-of-prefix-xor/)|Medium||
 |2434|[Using a Robot to Print the Lexicographically Smallest String](https://leetcode.com/problems/using-a-robot-to-print-the-lexicographically-smallest-string/)|Medium||
 |2435|[Paths in Matrix Whose Sum Is Divisible by K](https://leetcode.com/problems/paths-in-matrix-whose-sum-is-divisible-by-k/)|Hard||
 |2436|[Minimum Split Into Subarrays With GCD Greater Than One](https://leetcode.com/problems/minimum-split-into-subarrays-with-gcd-greater-than-one/)|Medium|🔒|
@@ -1397,7 +1392,6 @@ The questions which have been solved are not shown in this page, more informatio
 |2512|[Reward Top K Students](https://leetcode.com/problems/reward-top-k-students/)|Medium||
 |2513|[Minimize the Maximum of Two Arrays](https://leetcode.com/problems/minimize-the-maximum-of-two-arrays/)|Medium||
 |2514|[Count Anagrams](https://leetcode.com/problems/count-anagrams/)|Hard||
-|2515|[Shortest Distance to Target String in a Circular Array](https://leetcode.com/problems/shortest-distance-to-target-string-in-a-circular-array/)|Easy||
 |2516|[Take K of Each Character From Left and Right](https://leetcode.com/problems/take-k-of-each-character-from-left-and-right/)|Medium||
 |2517|[Maximum Tastiness of Candy Basket](https://leetcode.com/problems/maximum-tastiness-of-candy-basket/)|Medium||
 |2518|[Number of Great Partitions](https://leetcode.com/problems/number-of-great-partitions/)|Hard||
@@ -1406,7 +1400,6 @@ The questions which have been solved are not shown in this page, more informatio
 |2522|[Partition String Into Substrings With Values at Most K](https://leetcode.com/problems/partition-string-into-substrings-with-values-at-most-k/)|Medium||
 |2523|[Closest Prime Numbers in Range](https://leetcode.com/problems/closest-prime-numbers-in-range/)|Medium||
 |2524|[Maximum Frequency Score of a Subarray](https://leetcode.com/problems/maximum-frequency-score-of-a-subarray/)|Hard|🔒|
-|2525|[Categorize Box According to Criteria](https://leetcode.com/problems/categorize-box-according-to-criteria/)|Easy||
 |2526|[Find Consecutive Integers from a Data Stream](https://leetcode.com/problems/find-consecutive-integers-from-a-data-stream/)|Medium||
 |2527|[Find Xor-Beauty of Array](https://leetcode.com/problems/find-xor-beauty-of-array/)|Medium||
 |2528|[Maximize the Minimum Powered City](https://leetcode.com/problems/maximize-the-minimum-powered-city/)|Hard||
