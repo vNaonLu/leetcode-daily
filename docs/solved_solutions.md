@@ -1,6 +1,6 @@
 # Solved Solutions List
 
-This document contains **1155** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
+This document contains **1156** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
 
 Some questions which are still being resolved are not shown in this page, more information about unsolved questions can be found at [docs/unsolved_solutions.md](./unsolved_solutions.md).
 
@@ -957,6 +957,7 @@ Some questions which are still being resolved are not shown in this page, more i
 |1909|[Remove One Element to Make the Array Strictly Increasing](https://leetcode.com/problems/remove-one-element-to-make-the-array-strictly-increasing/)|[src/q_1901_1950/q1909.cc](../src/q_1901_1950/q1909.cc)|2023/06/12 20:41|
 |1913|[Maximum Product Difference Between Two Pairs](https://leetcode.com/problems/maximum-product-difference-between-two-pairs/)|[src/q_1901_1950/q1913.cc](../src/q_1901_1950/q1913.cc)|2023/04/18 18:59|
 |1920|[Build Array from Permutation](https://leetcode.com/problems/build-array-from-permutation/)|[src/q_1901_1950/q1920.cc](../src/q_1901_1950/q1920.cc)|2022/08/11 12:04|
+|1921|[Eliminate Maximum Number of Monsters](https://leetcode.com/problems/eliminate-maximum-number-of-monsters/)|[src/q_1901_1950/q1921.cc](../src/q_1901_1950/q1921.cc)|2023/11/07 19:12|
 |1925|[Count Square Sum Triples](https://leetcode.com/problems/count-square-sum-triples/)|[src/q_1901_1950/q1925.cc](../src/q_1901_1950/q1925.cc)|2022/12/13 19:38|
 |1926|[Nearest Exit from Entrance in Maze](https://leetcode.com/problems/nearest-exit-from-entrance-in-maze/)|[src/q_1901_1950/q1926.cc](../src/q_1901_1950/q1926.cc)|2022/03/15 18:42|
 |1929|[Concatenation of Array](https://leetcode.com/problems/concatenation-of-array/)|[src/q_1901_1950/q1929.cc](../src/q_1901_1950/q1929.cc)|2022/02/10 16:31|

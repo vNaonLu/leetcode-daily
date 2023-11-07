@@ -1,6 +1,6 @@
 # Unsolved Solutions List
 
-There are **1609** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
+There are **1608** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
 
 The questions which have been solved are not shown in this page, more information about solved questions can be found at [docs/solved_solutions.md](./solved_solutions.md).
 
@@ -977,7 +977,6 @@ The questions which have been solved are not shown in this page, more informatio
 |1917|[Leetcodify Friends Recommendations](https://leetcode.com/problems/leetcodify-friends-recommendations/)|Hard|🔒|
 |1918|[Kth Smallest Subarray Sum](https://leetcode.com/problems/kth-smallest-subarray-sum/)|Medium|🔒|
 |1919|[Leetcodify Similar Friends](https://leetcode.com/problems/leetcodify-similar-friends/)|Hard|🔒|
-|1921|[Eliminate Maximum Number of Monsters](https://leetcode.com/problems/eliminate-maximum-number-of-monsters/)|Medium||
 |1922|[Count Good Numbers](https://leetcode.com/problems/count-good-numbers/)|Medium||
 |1923|[Longest Common Subpath](https://leetcode.com/problems/longest-common-subpath/)|Hard||
 |1924|[Erect the Fence II](https://leetcode.com/problems/erect-the-fence-ii/)|Hard|🔒|
