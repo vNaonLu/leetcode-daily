@@ -1,6 +1,6 @@
 # Solved Solutions List
 
-This document contains **1156** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
+This document contains **1157** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
 
 Some questions which are still being resolved are not shown in this page, more information about unsolved questions can be found at [docs/unsolved_solutions.md](./unsolved_solutions.md).
 
@@ -1163,3 +1163,4 @@ Some questions which are still being resolved are not shown in this page, more i
 |2706|[Buy Two Chocolates](https://leetcode.com/problems/buy-two-chocolates/)|[src/q_2701_2750/q2706.cc](../src/q_2701_2750/q2706.cc)|2023/06/14 20:04|
 |2707|[Extra Characters in a String](https://leetcode.com/problems/extra-characters-in-a-string/)|[src/q_2701_2750/q2707.cc](../src/q_2701_2750/q2707.cc)|2023/09/02 09:24|
 |2742|[Painting the Walls](https://leetcode.com/problems/painting-the-walls/)|[src/q_2701_2750/q2742.cc](../src/q_2701_2750/q2742.cc)|2023/10/14 13:04|
+|2849|[Determine if a Cell Is Reachable at a Given Time](https://leetcode.com/problems/determine-if-a-cell-is-reachable-at-a-given-time/)|[src/q_2801_2850/q2849.cc](../src/q_2801_2850/q2849.cc)|2023/11/08 19:16|

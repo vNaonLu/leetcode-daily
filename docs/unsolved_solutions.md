@@ -1,6 +1,6 @@
 # Unsolved Solutions List
 
-There are **1770** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
+There are **1769** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
 
 The questions which have been solved are not shown in this page, more information about solved questions can be found at [docs/solved_solutions.md](./solved_solutions.md).
 
@@ -1699,7 +1699,6 @@ The questions which have been solved are not shown in this page, more informatio
 |2846|[Minimum Edge Weight Equilibrium Queries in a Tree](https://leetcode.com/problems/minimum-edge-weight-equilibrium-queries-in-a-tree/)|Hard||
 |2847|[Smallest Number With Given Digit Product](https://leetcode.com/problems/smallest-number-with-given-digit-product/)|Medium|🔒|
 |2848|[Points That Intersect With Cars](https://leetcode.com/problems/points-that-intersect-with-cars/)|Easy||
-|2849|[Determine if a Cell Is Reachable at a Given Time](https://leetcode.com/problems/determine-if-a-cell-is-reachable-at-a-given-time/)|Medium||
 |2850|[Minimum Moves to Spread Stones Over Grid](https://leetcode.com/problems/minimum-moves-to-spread-stones-over-grid/)|Medium||
 |2851|[String Transformation](https://leetcode.com/problems/string-transformation/)|Hard||
 |2852|[Sum of Remoteness of All Cells](https://leetcode.com/problems/sum-of-remoteness-of-all-cells/)|Medium|🔒|
