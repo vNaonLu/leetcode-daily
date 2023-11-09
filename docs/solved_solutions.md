@@ -1,6 +1,6 @@
 # Solved Solutions List
 
-This document contains **1157** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
+This document contains **1158** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
 
 Some questions which are still being resolved are not shown in this page, more information about unsolved questions can be found at [docs/unsolved_solutions.md](./unsolved_solutions.md).
 
@@ -901,6 +901,7 @@ Some questions which are still being resolved are not shown in this page, more i
 |1751|[Maximum Number of Events That Can Be Attended II](https://leetcode.com/problems/maximum-number-of-events-that-can-be-attended-ii/)|[src/q_1751_1800/q1751.cc](../src/q_1751_1800/q1751.cc)|2023/07/15 21:56|
 |1752|[Check if Array Is Sorted and Rotated](https://leetcode.com/problems/check-if-array-is-sorted-and-rotated/)|[src/q_1751_1800/q1752.cc](../src/q_1751_1800/q1752.cc)|2022/02/06 14:22|
 |1758|[Minimum Changes To Make Alternating Binary String](https://leetcode.com/problems/minimum-changes-to-make-alternating-binary-string/)|[src/q_1751_1800/q1758.cc](../src/q_1751_1800/q1758.cc)|2023/09/08 16:49|
+|1759|[Count Number of Homogenous Substrings](https://leetcode.com/problems/count-number-of-homogenous-substrings/)|[src/q_1751_1800/q1759.cc](../src/q_1751_1800/q1759.cc)|2023/11/09 20:35|
 |1760|[Minimum Limit of Balls in a Bag](https://leetcode.com/problems/minimum-limit-of-balls-in-a-bag/)|[src/q_1751_1800/q1760.cc](../src/q_1751_1800/q1760.cc)|2022/07/16 15:15|
 |1763|[Longest Nice Substring](https://leetcode.com/problems/longest-nice-substring/)|[src/q_1751_1800/q1763.cc](../src/q_1751_1800/q1763.cc)|2023/09/12 19:07|
 |1768|[Merge Strings Alternately](https://leetcode.com/problems/merge-strings-alternately/)|[src/q_1751_1800/q1768.cc](../src/q_1751_1800/q1768.cc)|2022/04/21 09:01|

@@ -1,6 +1,6 @@
 # Unsolved Solutions List
 
-There are **1769** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
+There are **1768** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
 
 The questions which have been solved are not shown in this page, more information about solved questions can be found at [docs/solved_solutions.md](./solved_solutions.md).
 
@@ -871,7 +871,6 @@ The questions which have been solved are not shown in this page, more informatio
 |1755|[Closest Subsequence Sum](https://leetcode.com/problems/closest-subsequence-sum/)|Hard||
 |1756|[Design Most Recently Used Queue](https://leetcode.com/problems/design-most-recently-used-queue/)|Medium|🔒|
 |1757|[Recyclable and Low Fat Products](https://leetcode.com/problems/recyclable-and-low-fat-products/)|Easy||
-|1759|[Count Number of Homogenous Substrings](https://leetcode.com/problems/count-number-of-homogenous-substrings/)|Medium||
 |1761|[Minimum Degree of a Connected Trio in a Graph](https://leetcode.com/problems/minimum-degree-of-a-connected-trio-in-a-graph/)|Hard||
 |1762|[Buildings With an Ocean View](https://leetcode.com/problems/buildings-with-an-ocean-view/)|Medium|🔒|
 |1764|[Form Array by Concatenating Subarrays of Another Array](https://leetcode.com/problems/form-array-by-concatenating-subarrays-of-another-array/)|Medium||
