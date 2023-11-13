@@ -1,6 +1,6 @@
 # Unsolved Solutions List
 
-There are **1767** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
+There are **1766** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
 
 The questions which have been solved are not shown in this page, more information about solved questions can be found at [docs/solved_solutions.md](./solved_solutions.md).
 
@@ -1633,7 +1633,6 @@ The questions which have been solved are not shown in this page, more informatio
 |2782|[Number of Unique Categories](https://leetcode.com/problems/number-of-unique-categories/)|Medium|🔒|
 |2783|[Flight Occupancy and Waitlist Analysis](https://leetcode.com/problems/flight-occupancy-and-waitlist-analysis/)|Medium|🔒|
 |2784|[Check if Array is Good](https://leetcode.com/problems/check-if-array-is-good/)|Easy||
-|2785|[Sort Vowels in a String](https://leetcode.com/problems/sort-vowels-in-a-string/)|Medium||
 |2786|[Visit Array Positions to Maximize Score](https://leetcode.com/problems/visit-array-positions-to-maximize-score/)|Medium||
 |2787|[Ways to Express an Integer as Sum of Powers](https://leetcode.com/problems/ways-to-express-an-integer-as-sum-of-powers/)|Medium||
 |2788|[Split Strings by Separator](https://leetcode.com/problems/split-strings-by-separator/)|Easy||
