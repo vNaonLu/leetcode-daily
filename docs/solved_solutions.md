@@ -1,6 +1,6 @@
 # Solved Solutions List
 
-This document contains **1162** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
+This document contains **1163** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
 
 Some questions which are still being resolved are not shown in this page, more information about unsolved questions can be found at [docs/unsolved_solutions.md](./unsolved_solutions.md).
 
@@ -935,6 +935,7 @@ Some questions which are still being resolved are not shown in this page, more i
 |1838|[Frequency of the Most Frequent Element](https://leetcode.com/problems/frequency-of-the-most-frequent-element/)|[src/q_1801_1850/q1838.cc](../src/q_1801_1850/q1838.cc)|2022/02/24 18:19|
 |1844|[Replace All Digits with Characters](https://leetcode.com/problems/replace-all-digits-with-characters/)|[src/q_1801_1850/q1844.cc](../src/q_1801_1850/q1844.cc)|2022/12/31 13:18|
 |1845|[Seat Reservation Manager](https://leetcode.com/problems/seat-reservation-manager/)|[src/q_1801_1850/q1845.cc](../src/q_1801_1850/q1845.cc)|2022/05/12 18:19|
+|1846|[Maximum Element After Decreasing and Rearranging](https://leetcode.com/problems/maximum-element-after-decreasing-and-rearranging/)|[src/q_1801_1850/q1846.cc](../src/q_1801_1850/q1846.cc)|2023/11/15 19:07|
 |1848|[Minimum Distance to the Target Element](https://leetcode.com/problems/minimum-distance-to-the-target-element/)|[src/q_1801_1850/q1848.cc](../src/q_1801_1850/q1848.cc)|2023/09/13 19:20|
 |1854|[Maximum Population Year](https://leetcode.com/problems/maximum-population-year/)|[src/q_1851_1900/q1854.cc](../src/q_1851_1900/q1854.cc)|2023/04/10 08:52|
 |1855|[Maximum Distance Between a Pair of Values](https://leetcode.com/problems/maximum-distance-between-a-pair-of-values/)|[src/q_1851_1900/q1855.cc](../src/q_1851_1900/q1855.cc)|2022/04/13 19:07|
