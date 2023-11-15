@@ -162,7 +162,7 @@ id,backend_id,title,level,slug,paid
 161,161,One Edit Distance,2,one-edit-distance,1
 162,162,Find Peak Element,2,find-peak-element,0
 163,163,Missing Ranges,1,missing-ranges,1
-164,164,Maximum Gap,3,maximum-gap,0
+164,164,Maximum Gap,2,maximum-gap,0
 165,165,Compare Version Numbers,2,compare-version-numbers,0
 166,166,Fraction to Recurring Decimal,2,fraction-to-recurring-decimal,0
 167,167,Two Sum II - Input Array Is Sorted,2,two-sum-ii-input-array-is-sorted,0
@@ -220,7 +220,7 @@ id,backend_id,title,level,slug,paid
 219,219,Contains Duplicate II,1,contains-duplicate-ii,0
 220,220,Contains Duplicate III,3,contains-duplicate-iii,0
 221,221,Maximal Square,2,maximal-square,0
-222,222,Count Complete Tree Nodes,2,count-complete-tree-nodes,0
+222,222,Count Complete Tree Nodes,1,count-complete-tree-nodes,0
 223,223,Rectangle Area,2,rectangle-area,0
 224,224,Basic Calculator,3,basic-calculator,0
 225,225,Implement Stack using Queues,1,implement-stack-using-queues,0
@@ -2635,7 +2635,7 @@ id,backend_id,title,level,slug,paid
 2634,2746,Filter Elements from Array,1,filter-elements-from-array,0
 2635,2747,Apply Transform Over Each Element in Array,1,apply-transform-over-each-element-in-array,0
 2636,2750,Promise Pool,2,promise-pool,1
-2637,2749,Promise Time Limit,1,promise-time-limit,0
+2637,2749,Promise Time Limit,2,promise-time-limit,0
 2638,2738,Count the Number of K-Free Subsets,2,count-the-number-of-k-free-subsets,1
 2639,2675,Find the Width of Columns of a Grid,1,find-the-width-of-columns-of-a-grid,0
 2640,2676,Find the Score of All Prefixes of an Array,2,find-the-score-of-all-prefixes-of-an-array,0
@@ -2673,7 +2673,7 @@ id,backend_id,title,level,slug,paid
 2672,2779,Number of Adjacent Elements With the Same Color,2,number-of-adjacent-elements-with-the-same-color,0
 2673,2780,Make Costs of Paths Equal in a Binary Tree,2,make-costs-of-paths-equal-in-a-binary-tree,0
 2674,2835,Split a Circular Linked List,2,split-a-circular-linked-list,1
-2675,2769,Array of Objects to Matrix,2,array-of-objects-to-matrix,1
+2675,2769,Array of Objects to Matrix,3,array-of-objects-to-matrix,1
 2676,2771,Throttle,2,throttle,1
 2677,2798,Chunk Array,1,chunk-array,0
 2678,2727,Number of Senior Citizens,1,number-of-senior-citizens,0
@@ -2713,7 +2713,7 @@ id,backend_id,title,level,slug,paid
 2712,2817,Minimum Cost to Make All Characters Equal,2,minimum-cost-to-make-all-characters-equal,0
 2713,2818,Maximum Strictly Increasing Cells in a Matrix,3,maximum-strictly-increasing-cells-in-a-matrix,0
 2714,2865,Find Shortest Path with K Hops,3,find-shortest-path-with-k-hops,1
-2715,2821,Execute Cancellable Function With Delay,1,execute-cancellable-function-with-delay,0
+2715,2821,Timeout Cancellation,1,timeout-cancellation,0
 2716,2825,Minimize String Length,1,minimize-string-length,0
 2717,2785,Semi-Ordered Permutation,1,semi-ordered-permutation,0
 2718,2838,Sum of Matrix After Queries,2,sum-of-matrix-after-queries,0
@@ -2763,3 +2763,165 @@ id,backend_id,title,level,slug,paid
 2762,2868,Continuous Subarrays,2,continuous-subarrays,0
 2763,2849,Sum of Imbalance Numbers of All Subarrays,3,sum-of-imbalance-numbers-of-all-subarrays,0
 2764,2918,is Array a Preorder of Some ‌Binary Tree,2,is-array-a-preorder-of-some-binary-tree,1
+2765,2870,Longest Alternating Subarray,1,longest-alternating-subarray,0
+2766,2834,Relocate Marbles,2,relocate-marbles,0
+2767,2883,Partition String Into Minimum Beautiful Substrings,2,partition-string-into-minimum-beautiful-substrings,0
+2768,2889,Number of Black Blocks,2,number-of-black-blocks,0
+2769,2812,Find the Maximum Achievable Number,1,find-the-maximum-achievable-number,0
+2770,2855,Maximum Number of Jumps to Reach the Last Index,2,maximum-number-of-jumps-to-reach-the-last-index,0
+2771,2869,Longest Non-decreasing Subarray From Two Arrays,2,longest-non-decreasing-subarray-from-two-arrays,0
+2772,2878,Apply Operations to Make All Array Elements Equal to Zero,2,apply-operations-to-make-all-array-elements-equal-to-zero,0
+2773,2944,Height of Special Binary Tree,2,height-of-special-binary-tree,1
+2774,2768,Array Upper Bound,1,array-upper-bound,1
+2775,2781,Undefined to Null,2,undefined-to-null,1
+2776,2782,Convert Callback Based Function to Promise Based Function,2,convert-callback-based-function-to-promise-based-function,1
+2777,2799,Date Range Generator,2,date-range-generator,1
+2778,2844,Sum of Squares of Special Elements ,1,sum-of-squares-of-special-elements,0
+2779,2891,Maximum Beauty of an Array After Applying Operation,2,maximum-beauty-of-an-array-after-applying-operation,0
+2780,2888,Minimum Index of a Valid Split,2,minimum-index-of-a-valid-split,0
+2781,2884,Length of the Longest Valid Substring,3,length-of-the-longest-valid-substring,0
+2782,2995,Number of Unique Categories,2,number-of-unique-categories,1
+2783,3002,Flight Occupancy and Waitlist Analysis,2,flight-occupancy-and-waitlist-analysis,1
+2784,2892,Check if Array is Good,1,check-if-array-is-good,0
+2785,2887,Sort Vowels in a String,2,sort-vowels-in-a-string,0
+2786,2893,Visit Array Positions to Maximize Score,2,visit-array-positions-to-maximize-score,0
+2787,2882,Ways to Express an Integer as Sum of Powers,2,ways-to-express-an-integer-as-sum-of-powers,0
+2788,2881,Split Strings by Separator,1,split-strings-by-separator,0
+2789,2872,Largest Element in an Array after Merge Operations,2,largest-element-in-an-array-after-merge-operations,0
+2790,2919,Maximum Number of Groups With Increasing Length,3,maximum-number-of-groups-with-increasing-length,0
+2791,2905,Count Paths That Can Form a Palindrome in a Tree,3,count-paths-that-can-form-a-palindrome-in-a-tree,0
+2792,3016,Count Nodes That Are Great Enough,3,count-nodes-that-are-great-enough,1
+2793,3003,Status of Flight Tickets,3,status-of-flight-tickets,1
+2794,2861,Create Object from Two Arrays,1,create-object-from-two-arrays,1
+2795,2898,Parallel Execution of Promises for Individual Results Retrieval,2,parallel-execution-of-promises-for-individual-results-retrieval,1
+2796,2899,Repeat String,1,repeat-string,1
+2797,2900,Partial Function with Placeholders,1,partial-function-with-placeholders,1
+2798,2876,Number of Employees Who Met the Target,1,number-of-employees-who-met-the-target,0
+2799,2856,Count Complete Subarrays in an Array,2,count-complete-subarrays-in-an-array,0
+2800,2877,Shortest String That Contains Three Strings,2,shortest-string-that-contains-three-strings,0
+2801,2921,Count Stepping Numbers in Range,3,count-stepping-numbers-in-range,0
+2802,3030,Find The K-th Lucky Number,2,find-the-k-th-lucky-number,1
+2803,2901,Factorial Generator,1,factorial-generator,1
+2804,2907,Array Prototype ForEach,1,array-prototype-foreach,1
+2805,2908,Custom Interval,2,custom-interval,1
+2806,2955,Account Balance After Rounded Purchase,1,account-balance-after-rounded-purchase,0
+2807,2903,Insert Greatest Common Divisors in Linked List,2,insert-greatest-common-divisors-in-linked-list,0
+2808,2920,Minimum Seconds to Equalize a Circular Array,2,minimum-seconds-to-equalize-a-circular-array,0
+2809,2952,Minimum Time to Make Array Sum At Most x,3,minimum-time-to-make-array-sum-at-most-x,0
+2810,2886,Faulty Keyboard,1,faulty-keyboard,0
+2811,2916,Check if it is Possible to Split Array,2,check-if-it-is-possible-to-split-array,0
+2812,2914,Find the Safest Path in a Grid,2,find-the-safest-path-in-a-grid,0
+2813,2894,Maximum Elegance of a K-Length Subsequence,3,maximum-elegance-of-a-k-length-subsequence,0
+2814,3043,Minimum Time Takes to Reach Destination Without Drowning,3,minimum-time-takes-to-reach-destination-without-drowning,1
+2815,2902,Max Pair Sum in an Array,1,max-pair-sum-in-an-array,0
+2816,2871,Double a Number Represented as a Linked List,2,double-a-number-represented-as-a-linked-list,0
+2817,3000,Minimum Absolute Difference Between Elements With Constraint,2,minimum-absolute-difference-between-elements-with-constraint,0
+2818,3001,Apply Operations to Maximize Score,3,apply-operations-to-maximize-score,0
+2819,3077,Minimum Relative Loss After Buying Chocolates,3,minimum-relative-loss-after-buying-chocolates,1
+2820,3078,Election Results,2,election-results,1
+2821,2909,Delay the Resolution of Each Promise,1,delay-the-resolution-of-each-promise,1
+2822,2925,Inversion of Object,1,inversion-of-object,1
+2823,2912,Deep Object Filter,2,deep-object-filter,1
+2824,2917,Count Pairs Whose Sum is Less than Target,1,count-pairs-whose-sum-is-less-than-target,0
+2825,3018,Make String a Subsequence Using Cyclic Increments,2,make-string-a-subsequence-using-cyclic-increments,0
+2826,2904,Sorting Three Groups,2,sorting-three-groups,0
+2827,3017,Number of Beautiful Integers in the Range,3,number-of-beautiful-integers-in-the-range,0
+2828,2977,Check if a String Is an Acronym of Words,1,check-if-a-string-is-an-acronym-of-words,0
+2829,2811,Determine the Minimum Sum of a k-avoiding Array,2,determine-the-minimum-sum-of-a-k-avoiding-array,0
+2830,2979,Maximize the Profit as the Salesman,2,maximize-the-profit-as-the-salesman,0
+2831,2832,Find the Longest Equal Subarray,2,find-the-longest-equal-subarray,0
+2832,3088,Maximal Range That Each Element Is Maximum in It,2,maximal-range-that-each-element-is-maximum-in-it,1
+2833,3019,Furthest Point From Origin,1,furthest-point-from-origin,0
+2834,3026,Find the Minimum Possible Sum of a Beautiful Array,2,find-the-minimum-possible-sum-of-a-beautiful-array,0
+2835,3025,Minimum Operations to Form Subsequence With Target Sum,3,minimum-operations-to-form-subsequence-with-target-sum,0
+2836,3032,Maximize Value of Function in a Ball Passing Game,3,maximize-value-of-function-in-a-ball-passing-game,0
+2837,3097,Total Traveled Distance,1,total-traveled-distance,1
+2838,3101,Maximum Coins Heroes Can Collect,2,maximum-coins-heroes-can-collect,1
+2839,2999,Check if Strings Can be Made Equal With Operations I,1,check-if-strings-can-be-made-equal-with-operations-i,0
+2840,2978,Check if Strings Can be Made Equal With Operations II,2,check-if-strings-can-be-made-equal-with-operations-ii,0
+2841,2954,Maximum Sum of Almost Unique Subarray,2,maximum-sum-of-almost-unique-subarray,0
+2842,3057,Count K-Subsequences of a String With Maximum Beauty,3,count-k-subsequences-of-a-string-with-maximum-beauty,0
+2843,2998,  Count Symmetric Integers,1,count-symmetric-integers,0
+2844,3046,Minimum Operations to Make a Special Number,2,minimum-operations-to-make-a-special-number,0
+2845,2915,Count of Interesting Subarrays,2,count-of-interesting-subarrays,0
+2846,3079,Minimum Edge Weight Equilibrium Queries in a Tree,3,minimum-edge-weight-equilibrium-queries-in-a-tree,0
+2847,3111,Smallest Number With Given Digit Product,2,smallest-number-with-given-digit-product,1
+2848,3034,Points That Intersect With Cars,1,points-that-intersect-with-cars,0
+2849,3056,Determine if a Cell Is Reachable at a Given Time,2,determine-if-a-cell-is-reachable-at-a-given-time,0
+2850,3092,Minimum Moves to Spread Stones Over Grid,2,minimum-moves-to-spread-stones-over-grid,0
+2851,3024,String Transformation,3,string-transformation,0
+2852,3148,Sum of Remoteness of All Cells,2,sum-of-remoteness-of-all-cells,1
+2853,3155,Highest Salaries Difference,1,highest-salaries-difference,1
+2854,3156,Rolling Average Steps,2,rolling-average-steps,1
+2855,3045,Minimum Right Shifts to Sort the Array,1,minimum-right-shifts-to-sort-the-array,0
+2856,3081,Minimum Array Length After Pair Removals,2,minimum-array-length-after-pair-removals,0
+2857,2953,Count Pairs of Points With Distance k,2,count-pairs-of-points-with-distance-k,0
+2858,3105,Minimum Edge Reversals So Every Node Is Reachable,3,minimum-edge-reversals-so-every-node-is-reachable,0
+2859,3093,Sum of Values at Indices With K Set Bits,1,sum-of-values-at-indices-with-k-set-bits,0
+2860,3104,Happy Students,2,happy-students,0
+2861,3095,Maximum Number of Alloys,2,maximum-number-of-alloys,0
+2862,3047,Maximum Element-Sum of a Complete Subset of Indices,3,maximum-element-sum-of-a-complete-subset-of-indices,0
+2863,3158,Maximum Length of Semi-Decreasing Subarrays,2,maximum-length-of-semi-decreasing-subarrays,1
+2864,3055,Maximum Odd Binary Number,1,maximum-odd-binary-number,0
+2865,3114,Beautiful Towers I,2,beautiful-towers-i,0
+2866,3113,Beautiful Towers II,2,beautiful-towers-ii,0
+2867,3112,Count Valid Paths in a Tree,3,count-valid-paths-in-a-tree,0
+2868,3173,The Wording Game,3,the-wording-game,1
+2869,3044,Minimum Operations to Collect Elements,1,minimum-operations-to-collect-elements,0
+2870,3094,Minimum Number of Operations to Make Array Empty,2,minimum-number-of-operations-to-make-array-empty,0
+2871,3080,Split Array Into Maximum Number of Subarrays,2,split-array-into-maximum-number-of-subarrays,0
+2872,3058,Maximum Number of K-Divisible Components,3,maximum-number-of-k-divisible-components,0
+2873,3154,Maximum Value of an Ordered Triplet I,1,maximum-value-of-an-ordered-triplet-i,0
+2874,3152,Maximum Value of an Ordered Triplet II,2,maximum-value-of-an-ordered-triplet-ii,0
+2875,3141,Minimum Size Subarray in Infinite Array,2,minimum-size-subarray-in-infinite-array,0
+2876,3140,Count Visited Nodes in a Directed Graph,3,count-visited-nodes-in-a-directed-graph,0
+2877,3062,Create a DataFrame from List,1,create-a-dataframe-from-list,0
+2878,3076,Get the Size of a DataFrame,1,get-the-size-of-a-dataframe,0
+2879,3065,Display the First Three Rows,1,display-the-first-three-rows,0
+2880,3074,Select Data,1,select-data,0
+2881,3066,Create a New Column,1,create-a-new-column,0
+2882,3071,Drop Duplicate Rows,1,drop-duplicate-rows,0
+2883,3075,Drop Missing Data,1,drop-missing-data,0
+2884,3067,Modify Columns,1,modify-columns,0
+2885,3068,Rename Columns,1,rename-columns,0
+2886,3069,Change Data Type,1,change-data-type,0
+2887,3070,Fill Missing Data,1,fill-missing-data,0
+2888,3064,Reshape Data: Concatenate,1,reshape-data-concatenate,0
+2889,3072,Reshape Data: Pivot,1,reshape-data-pivot,0
+2890,3073,Reshape Data: Melt,1,reshape-data-melt,0
+2891,3063,Method Chaining,1,method-chaining,0
+2892,3177,Minimizing Array After Replacing Pairs With Their Product,2,minimizing-array-after-replacing-pairs-with-their-product,1
+2893,3160,Calculate Orders Within Each Interval,2,calculate-orders-within-each-interval,1
+2894,3172,Divisible and Non-divisible Sums Difference,1,divisible-and-non-divisible-sums-difference,0
+2895,3151,Minimum Processing Time,2,minimum-processing-time,0
+2896,3033,Apply Operations to Make Two Strings Equal,2,apply-operations-to-make-two-strings-equal,0
+2897,3153,Apply Operations on Array to Maximize Sum of Squares,3,apply-operations-on-array-to-maximize-sum-of-squares,0
+2898,3182,Maximum Linear Stock Score,2,maximum-linear-stock-score,1
+2899,3164,Last Visited Integers,1,last-visited-integers,0
+2900,3143,Longest Unequal Adjacent Groups Subsequence I,2,longest-unequal-adjacent-groups-subsequence-i,0
+2901,3142,Longest Unequal Adjacent Groups Subsequence II,2,longest-unequal-adjacent-groups-subsequence-ii,0
+2902,3091,Count of Sub-Multisets With Bounded Sum,3,count-of-sub-multisets-with-bounded-sum,0
+2903,3165,Find Indices With Index and Value Difference I,1,find-indices-with-index-and-value-difference-i,0
+2904,3150,Shortest and Lexicographically Smallest Beautiful String,2,shortest-and-lexicographically-smallest-beautiful-string,0
+2905,3170,Find Indices With Index and Value Difference II,2,find-indices-with-index-and-value-difference-ii,0
+2906,3031,Construct Product Matrix,2,construct-product-matrix,0
+2907,3187,Maximum Profitable Triplets With Increasing Prices I,2,maximum-profitable-triplets-with-increasing-prices-i,1
+2908,3176,Minimum Sum of Mountain Triplets I,1,minimum-sum-of-mountain-triplets-i,0
+2909,3186,Minimum Sum of Mountain Triplets II,2,minimum-sum-of-mountain-triplets-ii,0
+2910,3166,Minimum Number of Groups to Create a Valid Assignment,2,minimum-number-of-groups-to-create-a-valid-assignment,0
+2911,2879,Minimum Changes to Make K Semi-palindromes,3,minimum-changes-to-make-k-semi-palindromes,0
+2912,3198,Number of Ways to Reach Destination in the Grid,3,number-of-ways-to-reach-destination-in-the-grid,1
+2913,3163,Subarrays Distinct Element Sum of Squares I,1,subarrays-distinct-element-sum-of-squares-i,0
+2914,3174,Minimum Number of Changes to Make Binary String Beautiful,2,minimum-number-of-changes-to-make-binary-string-beautiful,0
+2915,3106,Length of the Longest Subsequence That Sums to Target,2,length-of-the-longest-subsequence-that-sums-to-target,0
+2916,3139,Subarrays Distinct Element Sum of Squares II,3,subarrays-distinct-element-sum-of-squares-ii,0
+2917,3183,Find the K-or of an Array,1,find-the-k-or-of-an-array,0
+2918,3171,Minimum Equal Sum of Two Arrays After Replacing Zeros,2,minimum-equal-sum-of-two-arrays-after-replacing-zeros,0
+2919,3178,Minimum Increment Operations to Make Array Beautiful,2,minimum-increment-operations-to-make-array-beautiful,0
+2920,3179,Maximum Points After Collecting Coins From All Nodes,3,maximum-points-after-collecting-coins-from-all-nodes,0
+2921,3204,Maximum Profitable Triplets With Increasing Prices II,3,maximum-profitable-triplets-with-increasing-prices-ii,1
+2922,3205,Market Analysis III,2,market-analysis-iii,1
+2923,3188,Find Champion I,1,find-champion-i,0
+2924,3189,Find Champion II,2,find-champion-ii,0
+2925,3191,Maximum Score After Applying Operations on a Tree,2,maximum-score-after-applying-operations-on-a-tree,0
+2926,3184,Maximum Balanced Subsequence Sum,3,maximum-balanced-subsequence-sum,0
