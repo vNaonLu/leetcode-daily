@@ -43,7 +43,9 @@ public:
         res = (res + (1 + distance(b, it)) * distance(b, it) / 2) % kMod;
         b   = it;
       }
-      ++it;
+      if (it != s.end()) {
+        ++it;
+      }
     }
     return res;
   }
