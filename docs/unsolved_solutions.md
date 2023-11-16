@@ -1,6 +1,6 @@
 # Unsolved Solutions List
 
-There are **1763** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
+There are **1776** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
 
 The questions which have been solved are not shown in this page, more information about solved questions can be found at [docs/solved_solutions.md](./solved_solutions.md).
 
@@ -1013,7 +1013,6 @@ The questions which have been solved are not shown in this page, more informatio
 |1976|[Number of Ways to Arrive at Destination](https://leetcode.com/problems/number-of-ways-to-arrive-at-destination/)|Medium||
 |1977|[Number of Ways to Separate Numbers](https://leetcode.com/problems/number-of-ways-to-separate-numbers/)|Hard||
 |1978|[Employees Whose Manager Left the Company](https://leetcode.com/problems/employees-whose-manager-left-the-company/)|Easy||
-|1980|[Find Unique Binary String](https://leetcode.com/problems/find-unique-binary-string/)|Medium||
 |1981|[Minimize the Difference Between Target and Chosen Elements](https://leetcode.com/problems/minimize-the-difference-between-target-and-chosen-elements/)|Medium||
 |1982|[Find Array Given Subset Sums](https://leetcode.com/problems/find-array-given-subset-sums/)|Hard||
 |1983|[Widest Pair of Indices With Equal Range Sum](https://leetcode.com/problems/widest-pair-of-indices-with-equal-range-sum/)|Medium|🔒|
@@ -1770,3 +1769,17 @@ The questions which have been solved are not shown in this page, more informatio
 |2924|[Find Champion II](https://leetcode.com/problems/find-champion-ii/)|Medium||
 |2925|[Maximum Score After Applying Operations on a Tree](https://leetcode.com/problems/maximum-score-after-applying-operations-on-a-tree/)|Medium||
 |2926|[Maximum Balanced Subsequence Sum](https://leetcode.com/problems/maximum-balanced-subsequence-sum/)|Hard||
+|2927|[Distribute Candies Among Children III](https://leetcode.com/problems/distribute-candies-among-children-iii/)|Hard|🔒|
+|2928|[Distribute Candies Among Children I](https://leetcode.com/problems/distribute-candies-among-children-i/)|Easy||
+|2929|[Distribute Candies Among Children II](https://leetcode.com/problems/distribute-candies-among-children-ii/)|Medium||
+|2930|[Number of Strings Which Can Be Rearranged to Contain Substring](https://leetcode.com/problems/number-of-strings-which-can-be-rearranged-to-contain-substring/)|Medium||
+|2931|[Maximum Spending After Buying Items](https://leetcode.com/problems/maximum-spending-after-buying-items/)|Hard||
+|2932|[Maximum Strong Pair XOR I](https://leetcode.com/problems/maximum-strong-pair-xor-i/)|Easy||
+|2933|[High-Access Employees](https://leetcode.com/problems/high-access-employees/)|Medium||
+|2934|[Minimum Operations to Maximize Last Elements in Arrays](https://leetcode.com/problems/minimum-operations-to-maximize-last-elements-in-arrays/)|Medium||
+|2935|[Maximum Strong Pair XOR II](https://leetcode.com/problems/maximum-strong-pair-xor-ii/)|Hard||
+|2936|[Number of Equal Numbers Blocks](https://leetcode.com/problems/number-of-equal-numbers-blocks/)|Medium|🔒|
+|2937|[Make Three Strings Equal](https://leetcode.com/problems/make-three-strings-equal/)|Easy||
+|2938|[Separate Black and White Balls](https://leetcode.com/problems/separate-black-and-white-balls/)|Medium||
+|2939|[Maximum Xor Product](https://leetcode.com/problems/maximum-xor-product/)|Medium||
+|2940|[Find Building Where Alice and Bob Can Meet](https://leetcode.com/problems/find-building-where-alice-and-bob-can-meet/)|Hard||
