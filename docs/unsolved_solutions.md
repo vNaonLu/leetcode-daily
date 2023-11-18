@@ -1,6 +1,6 @@
 # Unsolved Solutions List
 
-There are **1776** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
+There are **1775** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
 
 The questions which have been solved are not shown in this page, more information about solved questions can be found at [docs/solved_solutions.md](./solved_solutions.md).
 
@@ -945,7 +945,6 @@ The questions which have been solved are not shown in this page, more informatio
 |1873|[Calculate Special Bonus](https://leetcode.com/problems/calculate-special-bonus/)|Easy||
 |1874|[Minimize Product Sum of Two Arrays](https://leetcode.com/problems/minimize-product-sum-of-two-arrays/)|Medium|🔒|
 |1875|[Group Employees of the Same Salary](https://leetcode.com/problems/group-employees-of-the-same-salary/)|Medium|🔒|
-|1877|[Minimize Maximum Pair Sum in Array](https://leetcode.com/problems/minimize-maximum-pair-sum-in-array/)|Medium||
 |1878|[Get Biggest Three Rhombus Sums in a Grid](https://leetcode.com/problems/get-biggest-three-rhombus-sums-in-a-grid/)|Medium||
 |1882|[Process Tasks Using Servers](https://leetcode.com/problems/process-tasks-using-servers/)|Medium||
 |1883|[Minimum Skips to Arrive at Meeting On Time](https://leetcode.com/problems/minimum-skips-to-arrive-at-meeting-on-time/)|Hard||
