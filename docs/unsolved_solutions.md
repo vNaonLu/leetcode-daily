@@ -1,6 +1,6 @@
 # Unsolved Solutions List
 
-There are **1775** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
+There are **1774** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
 
 The questions which have been solved are not shown in this page, more information about solved questions can be found at [docs/solved_solutions.md](./solved_solutions.md).
 
@@ -1411,7 +1411,6 @@ The questions which have been solved are not shown in this page, more informatio
 |2546|[Apply Bitwise Operations to Make Strings Equal](https://leetcode.com/problems/apply-bitwise-operations-to-make-strings-equal/)|Medium||
 |2547|[Minimum Cost to Split an Array](https://leetcode.com/problems/minimum-cost-to-split-an-array/)|Hard||
 |2548|[Maximum Price to Fill a Bag](https://leetcode.com/problems/maximum-price-to-fill-a-bag/)|Medium|🔒|
-|2549|[Count Distinct Numbers on Board](https://leetcode.com/problems/count-distinct-numbers-on-board/)|Easy||
 |2550|[Count Collisions of Monkeys on a Polygon](https://leetcode.com/problems/count-collisions-of-monkeys-on-a-polygon/)|Medium||
 |2552|[Count Increasing Quadruplets](https://leetcode.com/problems/count-increasing-quadruplets/)|Hard||
 |2554|[Maximum Number of Integers to Choose From a Range I](https://leetcode.com/problems/maximum-number-of-integers-to-choose-from-a-range-i/)|Medium||

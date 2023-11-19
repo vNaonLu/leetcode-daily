@@ -1,6 +1,6 @@
 # Solved Solutions List
 
-This document contains **1165** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
+This document contains **1166** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
 
 Some questions which are still being resolved are not shown in this page, more information about unsolved questions can be found at [docs/unsolved_solutions.md](./unsolved_solutions.md).
 
@@ -1151,6 +1151,7 @@ Some questions which are still being resolved are not shown in this page, more i
 |2540|[Minimum Common Value](https://leetcode.com/problems/minimum-common-value/)|[src/q_2501_2550/q2540.cc](../src/q_2501_2550/q2540.cc)|2023/02/05 21:53|
 |2542|[Maximum Subsequence Score](https://leetcode.com/problems/maximum-subsequence-score/)|[src/q_2501_2550/q2542.cc](../src/q_2501_2550/q2542.cc)|2023/05/24 20:01|
 |2544|[Alternating Digit Sum](https://leetcode.com/problems/alternating-digit-sum/)|[src/q_2501_2550/q2544.cc](../src/q_2501_2550/q2544.cc)|2023/02/06 16:42|
+|2549|[Count Distinct Numbers on Board](https://leetcode.com/problems/count-distinct-numbers-on-board/)|[src/q_2501_2550/q2549.cc](../src/q_2501_2550/q2549.cc)|2023/11/19 14:18|
 |2551|[Put Marbles in Bags](https://leetcode.com/problems/put-marbles-in-bags/)|[src/q_2551_2600/q2551.cc](../src/q_2551_2600/q2551.cc)|2023/07/08 12:28|
 |2553|[Separate the Digits in an Array](https://leetcode.com/problems/separate-the-digits-in-an-array/)|[src/q_2551_2600/q2553.cc](../src/q_2551_2600/q2553.cc)|2023/03/15 15:44|
 |2570|[Merge Two 2D Arrays by Summing Values](https://leetcode.com/problems/merge-two-2d-arrays-by-summing-values/)|[src/q_2551_2600/q2570.cc](../src/q_2551_2600/q2570.cc)|2023/05/01 14:53|
