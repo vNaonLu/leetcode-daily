@@ -1,6 +1,6 @@
 # Unsolved Solutions List
 
-There are **1765** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
+There are **1773** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
 
 The questions which have been solved are not shown in this page, more information about solved questions can be found at [docs/solved_solutions.md](./solved_solutions.md).
 
@@ -924,7 +924,6 @@ The questions which have been solved are not shown in this page, more informatio
 |1841|[League Statistics](https://leetcode.com/problems/league-statistics/)|Medium|🔒|
 |1842|[Next Palindrome Using Same Digits](https://leetcode.com/problems/next-palindrome-using-same-digits/)|Hard|🔒|
 |1843|[Suspicious Bank Accounts](https://leetcode.com/problems/suspicious-bank-accounts/)|Medium|🔒|
-|1846|[Maximum Element After Decreasing and Rearranging](https://leetcode.com/problems/maximum-element-after-decreasing-and-rearranging/)|Medium||
 |1847|[Closest Room](https://leetcode.com/problems/closest-room/)|Hard||
 |1849|[Splitting a String Into Descending Consecutive Values](https://leetcode.com/problems/splitting-a-string-into-descending-consecutive-values/)|Medium||
 |1850|[Minimum Adjacent Swaps to Reach the Kth Smallest Number](https://leetcode.com/problems/minimum-adjacent-swaps-to-reach-the-kth-smallest-number/)|Medium||
@@ -946,7 +945,6 @@ The questions which have been solved are not shown in this page, more informatio
 |1873|[Calculate Special Bonus](https://leetcode.com/problems/calculate-special-bonus/)|Easy||
 |1874|[Minimize Product Sum of Two Arrays](https://leetcode.com/problems/minimize-product-sum-of-two-arrays/)|Medium|🔒|
 |1875|[Group Employees of the Same Salary](https://leetcode.com/problems/group-employees-of-the-same-salary/)|Medium|🔒|
-|1877|[Minimize Maximum Pair Sum in Array](https://leetcode.com/problems/minimize-maximum-pair-sum-in-array/)|Medium||
 |1878|[Get Biggest Three Rhombus Sums in a Grid](https://leetcode.com/problems/get-biggest-three-rhombus-sums-in-a-grid/)|Medium||
 |1882|[Process Tasks Using Servers](https://leetcode.com/problems/process-tasks-using-servers/)|Medium||
 |1883|[Minimum Skips to Arrive at Meeting On Time](https://leetcode.com/problems/minimum-skips-to-arrive-at-meeting-on-time/)|Hard||
@@ -980,7 +978,6 @@ The questions which have been solved are not shown in this page, more informatio
 |1924|[Erect the Fence II](https://leetcode.com/problems/erect-the-fence-ii/)|Hard|🔒|
 |1927|[Sum Game](https://leetcode.com/problems/sum-game/)|Medium||
 |1928|[Minimum Cost to Reach Destination in Time](https://leetcode.com/problems/minimum-cost-to-reach-destination-in-time/)|Hard||
-|1930|[Unique Length-3 Palindromic Subsequences](https://leetcode.com/problems/unique-length-3-palindromic-subsequences/)|Medium||
 |1931|[Painting a Grid With Three Different Colors](https://leetcode.com/problems/painting-a-grid-with-three-different-colors/)|Hard||
 |1932|[Merge BSTs to Create Single BST](https://leetcode.com/problems/merge-bsts-to-create-single-bst/)|Hard||
 |1933|[Check if String Is Decomposable Into Value-Equal Substrings](https://leetcode.com/problems/check-if-string-is-decomposable-into-value-equal-substrings/)|Easy|🔒|
@@ -1015,7 +1012,6 @@ The questions which have been solved are not shown in this page, more informatio
 |1976|[Number of Ways to Arrive at Destination](https://leetcode.com/problems/number-of-ways-to-arrive-at-destination/)|Medium||
 |1977|[Number of Ways to Separate Numbers](https://leetcode.com/problems/number-of-ways-to-separate-numbers/)|Hard||
 |1978|[Employees Whose Manager Left the Company](https://leetcode.com/problems/employees-whose-manager-left-the-company/)|Easy||
-|1980|[Find Unique Binary String](https://leetcode.com/problems/find-unique-binary-string/)|Medium||
 |1981|[Minimize the Difference Between Target and Chosen Elements](https://leetcode.com/problems/minimize-the-difference-between-target-and-chosen-elements/)|Medium||
 |1982|[Find Array Given Subset Sums](https://leetcode.com/problems/find-array-given-subset-sums/)|Hard||
 |1983|[Widest Pair of Indices With Equal Range Sum](https://leetcode.com/problems/widest-pair-of-indices-with-equal-range-sum/)|Medium|🔒|
@@ -1299,7 +1295,6 @@ The questions which have been solved are not shown in this page, more informatio
 |2386|[Find the K-Sum of an Array](https://leetcode.com/problems/find-the-k-sum-of-an-array/)|Hard||
 |2387|[Median of a Row Wise Sorted Matrix](https://leetcode.com/problems/median-of-a-row-wise-sorted-matrix/)|Medium|🔒|
 |2388|[Change Null Values in a Table to the Previous Value](https://leetcode.com/problems/change-null-values-in-a-table-to-the-previous-value/)|Medium|🔒|
-|2391|[Minimum Amount of Time to Collect Garbage](https://leetcode.com/problems/minimum-amount-of-time-to-collect-garbage/)|Medium||
 |2392|[Build a Matrix With Conditions](https://leetcode.com/problems/build-a-matrix-with-conditions/)|Hard||
 |2393|[Count Strictly Increasing Subarrays](https://leetcode.com/problems/count-strictly-increasing-subarrays/)|Medium|🔒|
 |2394|[Employees With Deductions](https://leetcode.com/problems/employees-with-deductions/)|Medium|🔒|
@@ -1415,7 +1410,6 @@ The questions which have been solved are not shown in this page, more informatio
 |2546|[Apply Bitwise Operations to Make Strings Equal](https://leetcode.com/problems/apply-bitwise-operations-to-make-strings-equal/)|Medium||
 |2547|[Minimum Cost to Split an Array](https://leetcode.com/problems/minimum-cost-to-split-an-array/)|Hard||
 |2548|[Maximum Price to Fill a Bag](https://leetcode.com/problems/maximum-price-to-fill-a-bag/)|Medium|🔒|
-|2549|[Count Distinct Numbers on Board](https://leetcode.com/problems/count-distinct-numbers-on-board/)|Easy||
 |2550|[Count Collisions of Monkeys on a Polygon](https://leetcode.com/problems/count-collisions-of-monkeys-on-a-polygon/)|Medium||
 |2552|[Count Increasing Quadruplets](https://leetcode.com/problems/count-increasing-quadruplets/)|Hard||
 |2554|[Maximum Number of Integers to Choose From a Range I](https://leetcode.com/problems/maximum-number-of-integers-to-choose-from-a-range-i/)|Medium||
@@ -1772,3 +1766,17 @@ The questions which have been solved are not shown in this page, more informatio
 |2924|[Find Champion II](https://leetcode.com/problems/find-champion-ii/)|Medium||
 |2925|[Maximum Score After Applying Operations on a Tree](https://leetcode.com/problems/maximum-score-after-applying-operations-on-a-tree/)|Medium||
 |2926|[Maximum Balanced Subsequence Sum](https://leetcode.com/problems/maximum-balanced-subsequence-sum/)|Hard||
+|2927|[Distribute Candies Among Children III](https://leetcode.com/problems/distribute-candies-among-children-iii/)|Hard|🔒|
+|2928|[Distribute Candies Among Children I](https://leetcode.com/problems/distribute-candies-among-children-i/)|Easy||
+|2929|[Distribute Candies Among Children II](https://leetcode.com/problems/distribute-candies-among-children-ii/)|Medium||
+|2930|[Number of Strings Which Can Be Rearranged to Contain Substring](https://leetcode.com/problems/number-of-strings-which-can-be-rearranged-to-contain-substring/)|Medium||
+|2931|[Maximum Spending After Buying Items](https://leetcode.com/problems/maximum-spending-after-buying-items/)|Hard||
+|2932|[Maximum Strong Pair XOR I](https://leetcode.com/problems/maximum-strong-pair-xor-i/)|Easy||
+|2933|[High-Access Employees](https://leetcode.com/problems/high-access-employees/)|Medium||
+|2934|[Minimum Operations to Maximize Last Elements in Arrays](https://leetcode.com/problems/minimum-operations-to-maximize-last-elements-in-arrays/)|Medium||
+|2935|[Maximum Strong Pair XOR II](https://leetcode.com/problems/maximum-strong-pair-xor-ii/)|Hard||
+|2936|[Number of Equal Numbers Blocks](https://leetcode.com/problems/number-of-equal-numbers-blocks/)|Medium|🔒|
+|2937|[Make Three Strings Equal](https://leetcode.com/problems/make-three-strings-equal/)|Easy||
+|2938|[Separate Black and White Balls](https://leetcode.com/problems/separate-black-and-white-balls/)|Medium||
+|2939|[Maximum Xor Product](https://leetcode.com/problems/maximum-xor-product/)|Medium||
+|2940|[Find Building Where Alice and Bob Can Meet](https://leetcode.com/problems/find-building-where-alice-and-bob-can-meet/)|Hard||
