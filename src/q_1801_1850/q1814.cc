@@ -10,7 +10,7 @@
 // Solve Date : 2023/11/21 19:11
 
 #include <iosfwd>
-#include <map>
+#include <unordered_map>
 #include <vector>
 
 // -- This header must be included after others --
@@ -39,8 +39,8 @@ LEETCODE_BEGIN_RESOLVING(1814, CountNicePairsInAnArray, Solution);
 class Solution {
 public:
   int countNicePairs(vector<int> &nums) {
-    int           res = 0;
-    map<int, int> mp;
+    int                     res = 0;
+    unordered_map<int, int> mp;
     for (int i = 0; i < nums.size(); ++i) {
       nums[i] = nums[i] - rev(nums[i]);
       ++mp[nums[i]];
