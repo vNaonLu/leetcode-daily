@@ -1,6 +1,6 @@
 # Unsolved Solutions List
 
-There are **1772** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
+There are **1771** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
 
 The questions which have been solved are not shown in this page, more information about solved questions can be found at [docs/solved_solutions.md](./solved_solutions.md).
 
@@ -670,7 +670,6 @@ The questions which have been solved are not shown in this page, more informatio
 |1415|[The k-th Lexicographical String of All Happy Strings of Length n](https://leetcode.com/problems/the-k-th-lexicographical-string-of-all-happy-strings-of-length-n/)|Medium||
 |1418|[Display Table of Food Orders in a Restaurant](https://leetcode.com/problems/display-table-of-food-orders-in-a-restaurant/)|Medium||
 |1421|[NPV Queries](https://leetcode.com/problems/npv-queries/)|Easy|🔒|
-|1424|[Diagonal Traverse II](https://leetcode.com/problems/diagonal-traverse-ii/)|Medium||
 |1426|[Counting Elements](https://leetcode.com/problems/counting-elements/)|Easy|🔒|
 |1427|[Perform String Shifts](https://leetcode.com/problems/perform-string-shifts/)|Easy|🔒|
 |1428|[Leftmost Column with at Least a One](https://leetcode.com/problems/leftmost-column-with-at-least-a-one/)|Medium|🔒|
