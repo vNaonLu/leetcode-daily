@@ -1168,3 +1168,4 @@ timestamp,id,tc,sc,notes
 1700482100,2391,n * E,1,"n = |garbage.size()|, E = |garbage[i].size()|"
 1700565084,1814,n * log(n),n,n = |nums.size()|
 1700652262,1424,N,N,N = elements in |nums.size()|
+1700738599,2558,(n + k) * log(n),n,n = |gifts.size()|
