@@ -1,6 +1,6 @@
 # Solved Solutions List
 
-This document contains **1170** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
+This document contains **1171** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
 
 Some questions which are still being resolved are not shown in this page, more information about unsolved questions can be found at [docs/unsolved_solutions.md](./unsolved_solutions.md).
 
@@ -829,6 +829,7 @@ Some questions which are still being resolved are not shown in this page, more i
 |1557|[Minimum Number of Vertices to Reach All Nodes](https://leetcode.com/problems/minimum-number-of-vertices-to-reach-all-nodes/)|[src/q_1551_1600/q1557.cc](../src/q_1551_1600/q1557.cc)|2021/10/07 10:32|
 |1559|[Detect Cycles in 2D Grid](https://leetcode.com/problems/detect-cycles-in-2d-grid/)|[src/q_1551_1600/q1559.cc](../src/q_1551_1600/q1559.cc)|2021/10/19 12:05|
 |1560|[Most Visited Sector in  a Circular Track](https://leetcode.com/problems/most-visited-sector-in-a-circular-track/)|[src/q_1551_1600/q1560.cc](../src/q_1551_1600/q1560.cc)|2023/08/25 20:09|
+|1561|[Maximum Number of Coins You Can Get](https://leetcode.com/problems/maximum-number-of-coins-you-can-get/)|[src/q_1551_1600/q1561.cc](../src/q_1551_1600/q1561.cc)|2023/11/24 11:22|
 |1562|[Find Latest Group of Size M](https://leetcode.com/problems/find-latest-group-of-size-m/)|[src/q_1551_1600/q1562.cc](../src/q_1551_1600/q1562.cc)|2022/08/01 18:36|
 |1566|[Detect Pattern of Length M Repeated K or More Times](https://leetcode.com/problems/detect-pattern-of-length-m-repeated-k-or-more-times/)|[src/q_1551_1600/q1566.cc](../src/q_1551_1600/q1566.cc)|2023/08/28 15:45|
 |1567|[Maximum Length of Subarray With Positive Product](https://leetcode.com/problems/maximum-length-of-subarray-with-positive-product/)|[src/q_1551_1600/q1567.cc](../src/q_1551_1600/q1567.cc)|2021/10/15 10:28|
