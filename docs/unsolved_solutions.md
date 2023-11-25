@@ -1,6 +1,6 @@
 # Unsolved Solutions List
 
-There are **1769** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
+There are **1768** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
 
 The questions which have been solved are not shown in this page, more information about solved questions can be found at [docs/solved_solutions.md](./solved_solutions.md).
 
@@ -818,7 +818,6 @@ The questions which have been solved are not shown in this page, more informatio
 |1681|[Minimum Incompatibility](https://leetcode.com/problems/minimum-incompatibility/)|Hard||
 |1682|[Longest Palindromic Subsequence II](https://leetcode.com/problems/longest-palindromic-subsequence-ii/)|Medium|🔒|
 |1683|[Invalid Tweets](https://leetcode.com/problems/invalid-tweets/)|Easy||
-|1685|[Sum of Absolute Differences in a Sorted Array](https://leetcode.com/problems/sum-of-absolute-differences-in-a-sorted-array/)|Medium||
 |1686|[Stone Game VI](https://leetcode.com/problems/stone-game-vi/)|Medium||
 |1687|[Delivering Boxes from Storage to Ports](https://leetcode.com/problems/delivering-boxes-from-storage-to-ports/)|Hard||
 |1690|[Stone Game VII](https://leetcode.com/problems/stone-game-vii/)|Medium||
