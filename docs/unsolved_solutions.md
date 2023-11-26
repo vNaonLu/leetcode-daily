@@ -1,6 +1,6 @@
 # Unsolved Solutions List
 
-There are **1768** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
+There are **1767** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
 
 The questions which have been solved are not shown in this page, more information about solved questions can be found at [docs/solved_solutions.md](./solved_solutions.md).
 
@@ -843,7 +843,6 @@ The questions which have been solved are not shown in this page, more informatio
 |1723|[Find Minimum Time to Finish All Jobs](https://leetcode.com/problems/find-minimum-time-to-finish-all-jobs/)|Hard||
 |1724|[Checking Existence of Edge Length Limited Paths II](https://leetcode.com/problems/checking-existence-of-edge-length-limited-paths-ii/)|Hard|🔒|
 |1726|[Tuple with Same Product](https://leetcode.com/problems/tuple-with-same-product/)|Medium||
-|1727|[Largest Submatrix With Rearrangements](https://leetcode.com/problems/largest-submatrix-with-rearrangements/)|Medium||
 |1728|[Cat and Mouse II](https://leetcode.com/problems/cat-and-mouse-ii/)|Hard||
 |1729|[Find Followers Count](https://leetcode.com/problems/find-followers-count/)|Easy||
 |1730|[Shortest Path to Get Food](https://leetcode.com/problems/shortest-path-to-get-food/)|Medium|🔒|
