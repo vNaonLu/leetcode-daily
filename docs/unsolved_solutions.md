@@ -1,6 +1,6 @@
 # Unsolved Solutions List
 
-There are **1767** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
+There are **1766** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
 
 The questions which have been solved are not shown in this page, more information about solved questions can be found at [docs/solved_solutions.md](./solved_solutions.md).
 
@@ -377,7 +377,6 @@ The questions which have been solved are not shown in this page, more informatio
 |928|[Minimize Malware Spread II](https://leetcode.com/problems/minimize-malware-spread-ii/)|Hard||
 |930|[Binary Subarrays With Sum](https://leetcode.com/problems/binary-subarrays-with-sum/)|Medium||
 |932|[Beautiful Array](https://leetcode.com/problems/beautiful-array/)|Medium||
-|935|[Knight Dialer](https://leetcode.com/problems/knight-dialer/)|Medium||
 |937|[Reorder Data in Log Files](https://leetcode.com/problems/reorder-data-in-log-files/)|Medium||
 |939|[Minimum Area Rectangle](https://leetcode.com/problems/minimum-area-rectangle/)|Medium||
 |940|[Distinct Subsequences II](https://leetcode.com/problems/distinct-subsequences-ii/)|Hard||
