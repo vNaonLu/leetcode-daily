@@ -1,6 +1,6 @@
 # Unsolved Solutions List
 
-There are **1773** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
+There are **1766** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
 
 The questions which have been solved are not shown in this page, more information about solved questions can be found at [docs/solved_solutions.md](./solved_solutions.md).
 
@@ -377,7 +377,6 @@ The questions which have been solved are not shown in this page, more informatio
 |928|[Minimize Malware Spread II](https://leetcode.com/problems/minimize-malware-spread-ii/)|Hard||
 |930|[Binary Subarrays With Sum](https://leetcode.com/problems/binary-subarrays-with-sum/)|Medium||
 |932|[Beautiful Array](https://leetcode.com/problems/beautiful-array/)|Medium||
-|935|[Knight Dialer](https://leetcode.com/problems/knight-dialer/)|Medium||
 |937|[Reorder Data in Log Files](https://leetcode.com/problems/reorder-data-in-log-files/)|Medium||
 |939|[Minimum Area Rectangle](https://leetcode.com/problems/minimum-area-rectangle/)|Medium||
 |940|[Distinct Subsequences II](https://leetcode.com/problems/distinct-subsequences-ii/)|Hard||
@@ -670,7 +669,6 @@ The questions which have been solved are not shown in this page, more informatio
 |1415|[The k-th Lexicographical String of All Happy Strings of Length n](https://leetcode.com/problems/the-k-th-lexicographical-string-of-all-happy-strings-of-length-n/)|Medium||
 |1418|[Display Table of Food Orders in a Restaurant](https://leetcode.com/problems/display-table-of-food-orders-in-a-restaurant/)|Medium||
 |1421|[NPV Queries](https://leetcode.com/problems/npv-queries/)|Easy|🔒|
-|1424|[Diagonal Traverse II](https://leetcode.com/problems/diagonal-traverse-ii/)|Medium||
 |1426|[Counting Elements](https://leetcode.com/problems/counting-elements/)|Easy|🔒|
 |1427|[Perform String Shifts](https://leetcode.com/problems/perform-string-shifts/)|Easy|🔒|
 |1428|[Leftmost Column with at Least a One](https://leetcode.com/problems/leftmost-column-with-at-least-a-one/)|Medium|🔒|
@@ -746,7 +744,6 @@ The questions which have been solved are not shown in this page, more informatio
 |1554|[Strings Differ by One Character](https://leetcode.com/problems/strings-differ-by-one-character/)|Medium|🔒|
 |1555|[Bank Account Summary](https://leetcode.com/problems/bank-account-summary/)|Medium|🔒|
 |1558|[Minimum Numbers of Function Calls to Make Target Array](https://leetcode.com/problems/minimum-numbers-of-function-calls-to-make-target-array/)|Medium||
-|1561|[Maximum Number of Coins You Can Get](https://leetcode.com/problems/maximum-number-of-coins-you-can-get/)|Medium||
 |1563|[Stone Game V](https://leetcode.com/problems/stone-game-v/)|Hard||
 |1564|[Put Boxes Into the Warehouse I](https://leetcode.com/problems/put-boxes-into-the-warehouse-i/)|Medium|🔒|
 |1565|[Unique Orders and Customers Per Month](https://leetcode.com/problems/unique-orders-and-customers-per-month/)|Easy|🔒|
@@ -820,7 +817,6 @@ The questions which have been solved are not shown in this page, more informatio
 |1681|[Minimum Incompatibility](https://leetcode.com/problems/minimum-incompatibility/)|Hard||
 |1682|[Longest Palindromic Subsequence II](https://leetcode.com/problems/longest-palindromic-subsequence-ii/)|Medium|🔒|
 |1683|[Invalid Tweets](https://leetcode.com/problems/invalid-tweets/)|Easy||
-|1685|[Sum of Absolute Differences in a Sorted Array](https://leetcode.com/problems/sum-of-absolute-differences-in-a-sorted-array/)|Medium||
 |1686|[Stone Game VI](https://leetcode.com/problems/stone-game-vi/)|Medium||
 |1687|[Delivering Boxes from Storage to Ports](https://leetcode.com/problems/delivering-boxes-from-storage-to-ports/)|Hard||
 |1690|[Stone Game VII](https://leetcode.com/problems/stone-game-vii/)|Medium||
@@ -846,7 +842,6 @@ The questions which have been solved are not shown in this page, more informatio
 |1723|[Find Minimum Time to Finish All Jobs](https://leetcode.com/problems/find-minimum-time-to-finish-all-jobs/)|Hard||
 |1724|[Checking Existence of Edge Length Limited Paths II](https://leetcode.com/problems/checking-existence-of-edge-length-limited-paths-ii/)|Hard|🔒|
 |1726|[Tuple with Same Product](https://leetcode.com/problems/tuple-with-same-product/)|Medium||
-|1727|[Largest Submatrix With Rearrangements](https://leetcode.com/problems/largest-submatrix-with-rearrangements/)|Medium||
 |1728|[Cat and Mouse II](https://leetcode.com/problems/cat-and-mouse-ii/)|Hard||
 |1729|[Find Followers Count](https://leetcode.com/problems/find-followers-count/)|Easy||
 |1730|[Shortest Path to Get Food](https://leetcode.com/problems/shortest-path-to-get-food/)|Medium|🔒|
@@ -906,7 +901,6 @@ The questions which have been solved are not shown in this page, more informatio
 |1810|[Minimum Path Cost in a Hidden Grid](https://leetcode.com/problems/minimum-path-cost-in-a-hidden-grid/)|Medium|🔒|
 |1811|[Find Interview Candidates](https://leetcode.com/problems/find-interview-candidates/)|Medium|🔒|
 |1813|[Sentence Similarity III](https://leetcode.com/problems/sentence-similarity-iii/)|Medium||
-|1814|[Count Nice Pairs in an Array](https://leetcode.com/problems/count-nice-pairs-in-an-array/)|Medium||
 |1815|[Maximum Number of Groups Getting Fresh Donuts](https://leetcode.com/problems/maximum-number-of-groups-getting-fresh-donuts/)|Hard||
 |1817|[Finding the Users Active Minutes](https://leetcode.com/problems/finding-the-users-active-minutes/)|Medium||
 |1819|[Number of Different Subsequences GCDs](https://leetcode.com/problems/number-of-different-subsequences-gcds/)|Hard||
@@ -1416,7 +1410,6 @@ The questions which have been solved are not shown in this page, more informatio
 |2555|[Maximize Win From Two Segments](https://leetcode.com/problems/maximize-win-from-two-segments/)|Medium||
 |2556|[Disconnect Path in a Binary Matrix by at Most One Flip](https://leetcode.com/problems/disconnect-path-in-a-binary-matrix-by-at-most-one-flip/)|Medium||
 |2557|[Maximum Number of Integers to Choose From a Range II](https://leetcode.com/problems/maximum-number-of-integers-to-choose-from-a-range-ii/)|Medium|🔒|
-|2558|[Take Gifts From the Richest Pile](https://leetcode.com/problems/take-gifts-from-the-richest-pile/)|Easy||
 |2559|[Count Vowel Strings in Ranges](https://leetcode.com/problems/count-vowel-strings-in-ranges/)|Medium||
 |2560|[House Robber IV](https://leetcode.com/problems/house-robber-iv/)|Medium||
 |2561|[Rearranging Fruits](https://leetcode.com/problems/rearranging-fruits/)|Hard||
