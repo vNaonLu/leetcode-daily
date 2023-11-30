@@ -1,6 +1,6 @@
 # Unsolved Solutions List
 
-There are **1765** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
+There are **1764** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
 
 The questions which have been solved are not shown in this page, more information about solved questions can be found at [docs/solved_solutions.md](./solved_solutions.md).
 
@@ -774,7 +774,6 @@ The questions which have been solved are not shown in this page, more informatio
 |1606|[Find Servers That Handled Most Number of Requests](https://leetcode.com/problems/find-servers-that-handled-most-number-of-requests/)|Hard||
 |1607|[Sellers With No Sales](https://leetcode.com/problems/sellers-with-no-sales/)|Easy|🔒|
 |1610|[Maximum Number of Visible Points](https://leetcode.com/problems/maximum-number-of-visible-points/)|Hard||
-|1611|[Minimum One Bit Operations to Make Integers Zero](https://leetcode.com/problems/minimum-one-bit-operations-to-make-integers-zero/)|Hard||
 |1612|[Check If Two Expression Trees are Equivalent](https://leetcode.com/problems/check-if-two-expression-trees-are-equivalent/)|Medium|🔒|
 |1613|[Find the Missing IDs](https://leetcode.com/problems/find-the-missing-ids/)|Medium|🔒|
 |1616|[Split Two Strings to Make Palindrome](https://leetcode.com/problems/split-two-strings-to-make-palindrome/)|Medium||
