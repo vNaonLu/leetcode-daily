@@ -1177,3 +1177,4 @@ timestamp,id,tc,sc,notes
 1701347543,1611,-,-,not calculated
 1701438899,2562,n,1,n = |nums.size()|
 1701508788,2566,n,n,n = digits of |num|
+1701614991,2586,n,1,n = |right - left|
