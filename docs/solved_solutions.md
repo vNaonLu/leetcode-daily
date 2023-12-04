@@ -1,6 +1,6 @@
 # Solved Solutions List
 
-This document contains **1179** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
+This document contains **1180** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
 
 Some questions which are still being resolved are not shown in this page, more information about unsolved questions can be found at [docs/unsolved_solutions.md](./unsolved_solutions.md).
 
@@ -1171,6 +1171,7 @@ Some questions which are still being resolved are not shown in this page, more i
 |2578|[Split With Minimum Sum](https://leetcode.com/problems/split-with-minimum-sum/)|[src/q_2551_2600/q2578.cc](../src/q_2551_2600/q2578.cc)|2023/05/22 17:39|
 |2582|[Pass the Pillow](https://leetcode.com/problems/pass-the-pillow/)|[src/q_2551_2600/q2582.cc](../src/q_2551_2600/q2582.cc)|2023/05/31 10:11|
 |2586|[Count the Number of Vowel Strings in Range](https://leetcode.com/problems/count-the-number-of-vowel-strings-in-range/)|[src/q_2551_2600/q2586.cc](../src/q_2551_2600/q2586.cc)|2023/12/03 22:49|
+|2591|[Distribute Money to Maximum Children](https://leetcode.com/problems/distribute-money-to-maximum-children/)|[src/q_2551_2600/q2591.cc](../src/q_2551_2600/q2591.cc)|2023/12/04 19:27|
 |2595|[Number of Even and Odd Bits](https://leetcode.com/problems/number-of-even-and-odd-bits/)|[src/q_2551_2600/q2595.cc](../src/q_2551_2600/q2595.cc)|2023/05/06 14:16|
 |2614|[Prime In Diagonal](https://leetcode.com/problems/prime-in-diagonal/)|[src/q_2601_2650/q2614.cc](../src/q_2601_2650/q2614.cc)|2023/05/19 11:53|
 |2616|[Minimize the Maximum Difference of Pairs](https://leetcode.com/problems/minimize-the-maximum-difference-of-pairs/)|[src/q_2601_2650/q2616.cc](../src/q_2601_2650/q2616.cc)|2023/08/09 12:06|
