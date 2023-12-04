@@ -1,6 +1,6 @@
 # Unsolved Solutions List
 
-There are **1766** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
+There are **1760** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
 
 The questions which have been solved are not shown in this page, more information about solved questions can be found at [docs/solved_solutions.md](./solved_solutions.md).
 
@@ -774,7 +774,6 @@ The questions which have been solved are not shown in this page, more informatio
 |1606|[Find Servers That Handled Most Number of Requests](https://leetcode.com/problems/find-servers-that-handled-most-number-of-requests/)|Hard||
 |1607|[Sellers With No Sales](https://leetcode.com/problems/sellers-with-no-sales/)|Easy|🔒|
 |1610|[Maximum Number of Visible Points](https://leetcode.com/problems/maximum-number-of-visible-points/)|Hard||
-|1611|[Minimum One Bit Operations to Make Integers Zero](https://leetcode.com/problems/minimum-one-bit-operations-to-make-integers-zero/)|Hard||
 |1612|[Check If Two Expression Trees are Equivalent](https://leetcode.com/problems/check-if-two-expression-trees-are-equivalent/)|Medium|🔒|
 |1613|[Find the Missing IDs](https://leetcode.com/problems/find-the-missing-ids/)|Medium|🔒|
 |1616|[Split Two Strings to Make Palindrome](https://leetcode.com/problems/split-two-strings-to-make-palindrome/)|Medium||
@@ -1124,7 +1123,6 @@ The questions which have been solved are not shown in this page, more informatio
 |2143|[Choose Numbers From Two Arrays in Range](https://leetcode.com/problems/choose-numbers-from-two-arrays-in-range/)|Hard|🔒|
 |2145|[Count the Hidden Sequences](https://leetcode.com/problems/count-the-hidden-sequences/)|Medium||
 |2146|[K Highest Ranked Items Within a Price Range](https://leetcode.com/problems/k-highest-ranked-items-within-a-price-range/)|Medium||
-|2147|[Number of Ways to Divide a Long Corridor](https://leetcode.com/problems/number-of-ways-to-divide-a-long-corridor/)|Hard||
 |2150|[Find All Lonely Numbers in the Array](https://leetcode.com/problems/find-all-lonely-numbers-in-the-array/)|Medium||
 |2151|[Maximum Good People Based on Statements](https://leetcode.com/problems/maximum-good-people-based-on-statements/)|Hard||
 |2152|[Minimum Number of Lines to Cover Points](https://leetcode.com/problems/minimum-number-of-lines-to-cover-points/)|Medium|🔒|
@@ -1413,11 +1411,9 @@ The questions which have been solved are not shown in this page, more informatio
 |2559|[Count Vowel Strings in Ranges](https://leetcode.com/problems/count-vowel-strings-in-ranges/)|Medium||
 |2560|[House Robber IV](https://leetcode.com/problems/house-robber-iv/)|Medium||
 |2561|[Rearranging Fruits](https://leetcode.com/problems/rearranging-fruits/)|Hard||
-|2562|[Find the Array Concatenation Value](https://leetcode.com/problems/find-the-array-concatenation-value/)|Easy||
 |2563|[Count the Number of Fair Pairs](https://leetcode.com/problems/count-the-number-of-fair-pairs/)|Medium||
 |2564|[Substring XOR Queries](https://leetcode.com/problems/substring-xor-queries/)|Medium||
 |2565|[Subsequence With the Minimum Score](https://leetcode.com/problems/subsequence-with-the-minimum-score/)|Hard||
-|2566|[Maximum Difference by Remapping a Digit](https://leetcode.com/problems/maximum-difference-by-remapping-a-digit/)|Easy||
 |2567|[Minimum Score by Changing Two Elements](https://leetcode.com/problems/minimum-score-by-changing-two-elements/)|Medium||
 |2568|[Minimum Impossible OR](https://leetcode.com/problems/minimum-impossible-or/)|Medium||
 |2569|[Handling Sum Queries After Update](https://leetcode.com/problems/handling-sum-queries-after-update/)|Hard||
@@ -1433,12 +1429,10 @@ The questions which have been solved are not shown in this page, more informatio
 |2583|[Kth Largest Sum in a Binary Tree](https://leetcode.com/problems/kth-largest-sum-in-a-binary-tree/)|Medium||
 |2584|[Split the Array to Make Coprime Products](https://leetcode.com/problems/split-the-array-to-make-coprime-products/)|Hard||
 |2585|[Number of Ways to Earn Points](https://leetcode.com/problems/number-of-ways-to-earn-points/)|Hard||
-|2586|[Count the Number of Vowel Strings in Range](https://leetcode.com/problems/count-the-number-of-vowel-strings-in-range/)|Easy||
 |2587|[Rearrange Array to Maximize Prefix Score](https://leetcode.com/problems/rearrange-array-to-maximize-prefix-score/)|Medium||
 |2588|[Count the Number of Beautiful Subarrays](https://leetcode.com/problems/count-the-number-of-beautiful-subarrays/)|Medium||
 |2589|[Minimum Time to Complete All Tasks](https://leetcode.com/problems/minimum-time-to-complete-all-tasks/)|Hard||
 |2590|[Design a Todo List](https://leetcode.com/problems/design-a-todo-list/)|Medium|🔒|
-|2591|[Distribute Money to Maximum Children](https://leetcode.com/problems/distribute-money-to-maximum-children/)|Easy||
 |2592|[Maximize Greatness of an Array](https://leetcode.com/problems/maximize-greatness-of-an-array/)|Medium||
 |2593|[Find Score of an Array After Marking All Elements](https://leetcode.com/problems/find-score-of-an-array-after-marking-all-elements/)|Medium||
 |2594|[Minimum Time to Repair Cars](https://leetcode.com/problems/minimum-time-to-repair-cars/)|Medium||

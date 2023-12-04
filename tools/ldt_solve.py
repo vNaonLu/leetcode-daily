@@ -118,7 +118,7 @@ def getCommand(parent=None):
                  help="disable automatic commit after references updating."),
         dcli.arg("-v", "--verbose", dest="verbose", default=False, action="store_true",
                  help="enable verbose logging."),
-        dcli.arg("ids", metavar="id", nargs="+", default=[],
+        dcli.arg("ids", metavar="id", nargs="*", default=[],
                  type=int, help="question identifiers to add."),
         parent=parent,
         formatter_class=RawTextHelpFormatter, usage="%(prog)s [options] id [id ...]",
@@ -204,6 +204,29 @@ def getCommand(parent=None):
                               LOG.format(ARG_QUESTIONS_LIST,
                                          flag=LOG.HIGHTLIGHT),
                               is_success=True)
+
+        if len(ARG_IDS) == 0 and LEETCODE_SESSION:
+            TASK = LOG.createTaskLog("Question of Today")
+            question_of_today: session.LeetCodeSession.QuestionOfToday = None
+
+            try_cnt = 0
+            TASK.begin("request question of today...")
+            while not question_of_today:
+                try:
+                    time.sleep(1)
+                    TASK.log("request question of today...{}",
+                             f'({try_cnt})' if try_cnt > 0 else "")
+                    question_of_today = LEETCODE_SESSION.getQuestionOfToday()
+                    try_cnt += 1
+                except KeyboardInterrupt:
+                    break
+
+            if question_of_today:
+                TASK.done("get {}", LOG.format('{}. {}', question_of_today.id,
+                                               question_of_today.title, flag=LOG.HIGHTLIGHT), is_success=True)
+                ARG_IDS.append(question_of_today.id)
+            else:
+                TASK.done("aborted", is_success=False)
 
         for id in ARG_IDS:
             TIME = int(time.time())
