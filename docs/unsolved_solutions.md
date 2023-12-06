@@ -1,6 +1,6 @@
 # Unsolved Solutions List
 
-There are **1759** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
+There are **1758** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
 
 The questions which have been solved are not shown in this page, more information about solved questions can be found at [docs/solved_solutions.md](./solved_solutions.md).
 
@@ -1444,7 +1444,6 @@ The questions which have been solved are not shown in this page, more informatio
 |2602|[Minimum Operations to Make All Array Elements Equal](https://leetcode.com/problems/minimum-operations-to-make-all-array-elements-equal/)|Medium||
 |2603|[Collect Coins in a Tree](https://leetcode.com/problems/collect-coins-in-a-tree/)|Hard||
 |2604|[Minimum Time to Eat All Grains](https://leetcode.com/problems/minimum-time-to-eat-all-grains/)|Hard|🔒|
-|2605|[Form Smallest Number From Two Digit Arrays](https://leetcode.com/problems/form-smallest-number-from-two-digit-arrays/)|Easy||
 |2606|[Find the Substring With Maximum Cost](https://leetcode.com/problems/find-the-substring-with-maximum-cost/)|Medium||
 |2607|[Make K-Subarray Sums Equal](https://leetcode.com/problems/make-k-subarray-sums-equal/)|Medium||
 |2608|[Shortest Cycle in a Graph](https://leetcode.com/problems/shortest-cycle-in-a-graph/)|Hard||
