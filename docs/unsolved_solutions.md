@@ -1,6 +1,6 @@
 # Unsolved Solutions List
 
-There are **1757** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
+There are **1756** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
 
 The questions which have been solved are not shown in this page, more information about solved questions can be found at [docs/solved_solutions.md](./solved_solutions.md).
 
@@ -1476,7 +1476,6 @@ The questions which have been solved are not shown in this page, more informatio
 |2638|[Count the Number of K-Free Subsets](https://leetcode.com/problems/count-the-number-of-k-free-subsets/)|Medium|🔒|
 |2640|[Find the Score of All Prefixes of an Array](https://leetcode.com/problems/find-the-score-of-all-prefixes-of-an-array/)|Medium||
 |2641|[Cousins in Binary Tree II](https://leetcode.com/problems/cousins-in-binary-tree-ii/)|Medium||
-|2644|[Find the Maximum Divisibility Score](https://leetcode.com/problems/find-the-maximum-divisibility-score/)|Easy||
 |2645|[Minimum Additions to Make Valid String](https://leetcode.com/problems/minimum-additions-to-make-valid-string/)|Medium||
 |2646|[Minimize the Total Price of the Trips](https://leetcode.com/problems/minimize-the-total-price-of-the-trips/)|Hard||
 |2647|[Color the Triangle Red](https://leetcode.com/problems/color-the-triangle-red/)|Hard|🔒|

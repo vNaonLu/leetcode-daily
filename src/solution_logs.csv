@@ -1182,3 +1182,4 @@ timestamp,id,tc,sc,notes
 1701781159,2600,1,1,
 1701861018,2605,n,1,"n = |max(nums1.size(), nums2.size())|"
 1701949431,2609,n,1,n = |s.size()|
+1702037888,2644,n * m,m,"n = |nums.size()|, m = |divisors.size()|"

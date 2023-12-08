@@ -1,6 +1,6 @@
 # Solved Solutions List
 
-This document contains **1183** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
+This document contains **1184** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
 
 Some questions which are still being resolved are not shown in this page, more information about unsolved questions can be found at [docs/unsolved_solutions.md](./unsolved_solutions.md).
 
@@ -1181,6 +1181,7 @@ Some questions which are still being resolved are not shown in this page, more i
 |2639|[Find the Width of Columns of a Grid](https://leetcode.com/problems/find-the-width-of-columns-of-a-grid/)|[src/q_2601_2650/q2639.cc](../src/q_2601_2650/q2639.cc)|2023/05/29 13:47|
 |2642|[Design Graph With Shortest Path Calculator](https://leetcode.com/problems/design-graph-with-shortest-path-calculator/)|[src/q_2601_2650/q2642.cc](../src/q_2601_2650/q2642.cc)|2023/11/13 19:12|
 |2643|[Row With Maximum Ones](https://leetcode.com/problems/row-with-maximum-ones/)|[src/q_2601_2650/q2643.cc](../src/q_2601_2650/q2643.cc)|2023/05/09 20:03|
+|2644|[Find the Maximum Divisibility Score](https://leetcode.com/problems/find-the-maximum-divisibility-score/)|[src/q_2601_2650/q2644.cc](../src/q_2601_2650/q2644.cc)|2023/12/08 20:18|
 |2651|[Calculate Delayed Arrival Time](https://leetcode.com/problems/calculate-delayed-arrival-time/)|[src/q_2651_2700/q2651.cc](../src/q_2651_2700/q2651.cc)|2023/05/08 15:43|
 |2652|[Sum Multiples](https://leetcode.com/problems/sum-multiples/)|[src/q_2651_2700/q2652.cc](../src/q_2651_2700/q2652.cc)|2023/05/10 18:46|
 |2656|[Maximum Sum With Exactly K Elements ](https://leetcode.com/problems/maximum-sum-with-exactly-k-elements/)|[src/q_2651_2700/q2656.cc](../src/q_2651_2700/q2656.cc)|2023/05/11 18:26|
