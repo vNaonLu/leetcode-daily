@@ -1,6 +1,6 @@
 # Unsolved Solutions List
 
-There are **1755** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
+There are **1754** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
 
 The questions which have been solved are not shown in this page, more information about solved questions can be found at [docs/solved_solutions.md](./solved_solutions.md).
 
@@ -1497,7 +1497,6 @@ The questions which have been solved are not shown in this page, more informatio
 |2667|[Create Hello World Function](https://leetcode.com/problems/create-hello-world-function/)|Easy||
 |2668|[Find Latest Salaries](https://leetcode.com/problems/find-latest-salaries/)|Easy|🔒|
 |2669|[Count Artist Occurrences On Spotify Ranking List](https://leetcode.com/problems/count-artist-occurrences-on-spotify-ranking-list/)|Easy|🔒|
-|2670|[Find the Distinct Difference Array](https://leetcode.com/problems/find-the-distinct-difference-array/)|Easy||
 |2671|[Frequency Tracker](https://leetcode.com/problems/frequency-tracker/)|Medium||
 |2672|[Number of Adjacent Elements With the Same Color](https://leetcode.com/problems/number-of-adjacent-elements-with-the-same-color/)|Medium||
 |2673|[Make Costs of Paths Equal in a Binary Tree](https://leetcode.com/problems/make-costs-of-paths-equal-in-a-binary-tree/)|Medium||

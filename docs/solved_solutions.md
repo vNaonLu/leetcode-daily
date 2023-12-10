@@ -1,6 +1,6 @@
 # Solved Solutions List
 
-This document contains **1185** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
+This document contains **1186** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
 
 Some questions which are still being resolved are not shown in this page, more information about unsolved questions can be found at [docs/unsolved_solutions.md](./unsolved_solutions.md).
 
@@ -1186,6 +1186,7 @@ Some questions which are still being resolved are not shown in this page, more i
 |2652|[Sum Multiples](https://leetcode.com/problems/sum-multiples/)|[src/q_2651_2700/q2652.cc](../src/q_2651_2700/q2652.cc)|2023/05/10 18:46|
 |2656|[Maximum Sum With Exactly K Elements ](https://leetcode.com/problems/maximum-sum-with-exactly-k-elements/)|[src/q_2651_2700/q2656.cc](../src/q_2651_2700/q2656.cc)|2023/05/11 18:26|
 |2660|[Determine the Winner of a Bowling Game](https://leetcode.com/problems/determine-the-winner-of-a-bowling-game/)|[src/q_2651_2700/q2660.cc](../src/q_2651_2700/q2660.cc)|2023/12/09 18:33|
+|2670|[Find the Distinct Difference Array](https://leetcode.com/problems/find-the-distinct-difference-array/)|[src/q_2651_2700/q2670.cc](../src/q_2651_2700/q2670.cc)|2023/12/10 14:49|
 |2678|[Number of Senior Citizens](https://leetcode.com/problems/number-of-senior-citizens/)|[src/q_2651_2700/q2678.cc](../src/q_2651_2700/q2678.cc)|2023/05/23 14:47|
 |2706|[Buy Two Chocolates](https://leetcode.com/problems/buy-two-chocolates/)|[src/q_2701_2750/q2706.cc](../src/q_2701_2750/q2706.cc)|2023/06/14 20:04|
 |2707|[Extra Characters in a String](https://leetcode.com/problems/extra-characters-in-a-string/)|[src/q_2701_2750/q2707.cc](../src/q_2701_2750/q2707.cc)|2023/09/02 09:24|
