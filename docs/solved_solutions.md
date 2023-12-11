@@ -1,6 +1,6 @@
 # Solved Solutions List
 
-This document contains **1180** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
+This document contains **1187** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
 
 Some questions which are still being resolved are not shown in this page, more information about unsolved questions can be found at [docs/unsolved_solutions.md](./unsolved_solutions.md).
 
@@ -1173,15 +1173,22 @@ Some questions which are still being resolved are not shown in this page, more i
 |2586|[Count the Number of Vowel Strings in Range](https://leetcode.com/problems/count-the-number-of-vowel-strings-in-range/)|[src/q_2551_2600/q2586.cc](../src/q_2551_2600/q2586.cc)|2023/12/03 22:49|
 |2591|[Distribute Money to Maximum Children](https://leetcode.com/problems/distribute-money-to-maximum-children/)|[src/q_2551_2600/q2591.cc](../src/q_2551_2600/q2591.cc)|2023/12/04 19:27|
 |2595|[Number of Even and Odd Bits](https://leetcode.com/problems/number-of-even-and-odd-bits/)|[src/q_2551_2600/q2595.cc](../src/q_2551_2600/q2595.cc)|2023/05/06 14:16|
+|2600|[K Items With the Maximum Sum](https://leetcode.com/problems/k-items-with-the-maximum-sum/)|[src/q_2551_2600/q2600.cc](../src/q_2551_2600/q2600.cc)|2023/12/05 20:59|
+|2605|[Form Smallest Number From Two Digit Arrays](https://leetcode.com/problems/form-smallest-number-from-two-digit-arrays/)|[src/q_2601_2650/q2605.cc](../src/q_2601_2650/q2605.cc)|2023/12/06 19:10|
+|2609|[Find the Longest Balanced Substring of a Binary String](https://leetcode.com/problems/find-the-longest-balanced-substring-of-a-binary-string/)|[src/q_2601_2650/q2609.cc](../src/q_2601_2650/q2609.cc)|2023/12/07 19:43|
 |2614|[Prime In Diagonal](https://leetcode.com/problems/prime-in-diagonal/)|[src/q_2601_2650/q2614.cc](../src/q_2601_2650/q2614.cc)|2023/05/19 11:53|
 |2616|[Minimize the Maximum Difference of Pairs](https://leetcode.com/problems/minimize-the-maximum-difference-of-pairs/)|[src/q_2601_2650/q2616.cc](../src/q_2601_2650/q2616.cc)|2023/08/09 12:06|
 |2639|[Find the Width of Columns of a Grid](https://leetcode.com/problems/find-the-width-of-columns-of-a-grid/)|[src/q_2601_2650/q2639.cc](../src/q_2601_2650/q2639.cc)|2023/05/29 13:47|
 |2642|[Design Graph With Shortest Path Calculator](https://leetcode.com/problems/design-graph-with-shortest-path-calculator/)|[src/q_2601_2650/q2642.cc](../src/q_2601_2650/q2642.cc)|2023/11/13 19:12|
 |2643|[Row With Maximum Ones](https://leetcode.com/problems/row-with-maximum-ones/)|[src/q_2601_2650/q2643.cc](../src/q_2601_2650/q2643.cc)|2023/05/09 20:03|
+|2644|[Find the Maximum Divisibility Score](https://leetcode.com/problems/find-the-maximum-divisibility-score/)|[src/q_2601_2650/q2644.cc](../src/q_2601_2650/q2644.cc)|2023/12/08 20:18|
 |2651|[Calculate Delayed Arrival Time](https://leetcode.com/problems/calculate-delayed-arrival-time/)|[src/q_2651_2700/q2651.cc](../src/q_2651_2700/q2651.cc)|2023/05/08 15:43|
 |2652|[Sum Multiples](https://leetcode.com/problems/sum-multiples/)|[src/q_2651_2700/q2652.cc](../src/q_2651_2700/q2652.cc)|2023/05/10 18:46|
 |2656|[Maximum Sum With Exactly K Elements ](https://leetcode.com/problems/maximum-sum-with-exactly-k-elements/)|[src/q_2651_2700/q2656.cc](../src/q_2651_2700/q2656.cc)|2023/05/11 18:26|
+|2660|[Determine the Winner of a Bowling Game](https://leetcode.com/problems/determine-the-winner-of-a-bowling-game/)|[src/q_2651_2700/q2660.cc](../src/q_2651_2700/q2660.cc)|2023/12/09 18:33|
+|2670|[Find the Distinct Difference Array](https://leetcode.com/problems/find-the-distinct-difference-array/)|[src/q_2651_2700/q2670.cc](../src/q_2651_2700/q2670.cc)|2023/12/10 14:49|
 |2678|[Number of Senior Citizens](https://leetcode.com/problems/number-of-senior-citizens/)|[src/q_2651_2700/q2678.cc](../src/q_2651_2700/q2678.cc)|2023/05/23 14:47|
+|2682|[Find the Losers of the Circular Game](https://leetcode.com/problems/find-the-losers-of-the-circular-game/)|[src/q_2651_2700/q2682.cc](../src/q_2651_2700/q2682.cc)|2023/12/11 18:56|
 |2706|[Buy Two Chocolates](https://leetcode.com/problems/buy-two-chocolates/)|[src/q_2701_2750/q2706.cc](../src/q_2701_2750/q2706.cc)|2023/06/14 20:04|
 |2707|[Extra Characters in a String](https://leetcode.com/problems/extra-characters-in-a-string/)|[src/q_2701_2750/q2707.cc](../src/q_2701_2750/q2707.cc)|2023/09/02 09:24|
 |2742|[Painting the Walls](https://leetcode.com/problems/painting-the-walls/)|[src/q_2701_2750/q2742.cc](../src/q_2701_2750/q2742.cc)|2023/10/14 13:04|

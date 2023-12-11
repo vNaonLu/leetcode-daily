@@ -1,6 +1,6 @@
 # Unsolved Solutions List
 
-There are **1760** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
+There are **1753** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
 
 The questions which have been solved are not shown in this page, more information about solved questions can be found at [docs/solved_solutions.md](./solved_solutions.md).
 
@@ -1440,16 +1440,13 @@ The questions which have been solved are not shown in this page, more informatio
 |2597|[The Number of Beautiful Subsets](https://leetcode.com/problems/the-number-of-beautiful-subsets/)|Medium||
 |2598|[Smallest Missing Non-negative Integer After Operations](https://leetcode.com/problems/smallest-missing-non-negative-integer-after-operations/)|Medium||
 |2599|[Make the Prefix Sum Non-negative](https://leetcode.com/problems/make-the-prefix-sum-non-negative/)|Medium|🔒|
-|2600|[K Items With the Maximum Sum](https://leetcode.com/problems/k-items-with-the-maximum-sum/)|Easy||
 |2601|[Prime Subtraction Operation](https://leetcode.com/problems/prime-subtraction-operation/)|Medium||
 |2602|[Minimum Operations to Make All Array Elements Equal](https://leetcode.com/problems/minimum-operations-to-make-all-array-elements-equal/)|Medium||
 |2603|[Collect Coins in a Tree](https://leetcode.com/problems/collect-coins-in-a-tree/)|Hard||
 |2604|[Minimum Time to Eat All Grains](https://leetcode.com/problems/minimum-time-to-eat-all-grains/)|Hard|🔒|
-|2605|[Form Smallest Number From Two Digit Arrays](https://leetcode.com/problems/form-smallest-number-from-two-digit-arrays/)|Easy||
 |2606|[Find the Substring With Maximum Cost](https://leetcode.com/problems/find-the-substring-with-maximum-cost/)|Medium||
 |2607|[Make K-Subarray Sums Equal](https://leetcode.com/problems/make-k-subarray-sums-equal/)|Medium||
 |2608|[Shortest Cycle in a Graph](https://leetcode.com/problems/shortest-cycle-in-a-graph/)|Hard||
-|2609|[Find the Longest Balanced Substring of a Binary String](https://leetcode.com/problems/find-the-longest-balanced-substring-of-a-binary-string/)|Easy||
 |2610|[Convert an Array Into a 2D Array With Conditions](https://leetcode.com/problems/convert-an-array-into-a-2d-array-with-conditions/)|Medium||
 |2611|[Mice and Cheese](https://leetcode.com/problems/mice-and-cheese/)|Medium||
 |2612|[Minimum Reverse Operations](https://leetcode.com/problems/minimum-reverse-operations/)|Hard||
@@ -1479,7 +1476,6 @@ The questions which have been solved are not shown in this page, more informatio
 |2638|[Count the Number of K-Free Subsets](https://leetcode.com/problems/count-the-number-of-k-free-subsets/)|Medium|🔒|
 |2640|[Find the Score of All Prefixes of an Array](https://leetcode.com/problems/find-the-score-of-all-prefixes-of-an-array/)|Medium||
 |2641|[Cousins in Binary Tree II](https://leetcode.com/problems/cousins-in-binary-tree-ii/)|Medium||
-|2644|[Find the Maximum Divisibility Score](https://leetcode.com/problems/find-the-maximum-divisibility-score/)|Easy||
 |2645|[Minimum Additions to Make Valid String](https://leetcode.com/problems/minimum-additions-to-make-valid-string/)|Medium||
 |2646|[Minimize the Total Price of the Trips](https://leetcode.com/problems/minimize-the-total-price-of-the-trips/)|Hard||
 |2647|[Color the Triangle Red](https://leetcode.com/problems/color-the-triangle-red/)|Hard|🔒|
@@ -1492,7 +1488,6 @@ The questions which have been solved are not shown in this page, more informatio
 |2657|[Find the Prefix Common Array of Two Arrays](https://leetcode.com/problems/find-the-prefix-common-array-of-two-arrays/)|Medium||
 |2658|[Maximum Number of Fish in a Grid](https://leetcode.com/problems/maximum-number-of-fish-in-a-grid/)|Medium||
 |2659|[Make Array Empty](https://leetcode.com/problems/make-array-empty/)|Hard||
-|2660|[Determine the Winner of a Bowling Game](https://leetcode.com/problems/determine-the-winner-of-a-bowling-game/)|Easy||
 |2661|[First Completely Painted Row or Column](https://leetcode.com/problems/first-completely-painted-row-or-column/)|Medium||
 |2662|[Minimum Cost of a Path With Special Roads](https://leetcode.com/problems/minimum-cost-of-a-path-with-special-roads/)|Medium||
 |2663|[Lexicographically Smallest Beautiful String](https://leetcode.com/problems/lexicographically-smallest-beautiful-string/)|Hard||
@@ -1502,7 +1497,6 @@ The questions which have been solved are not shown in this page, more informatio
 |2667|[Create Hello World Function](https://leetcode.com/problems/create-hello-world-function/)|Easy||
 |2668|[Find Latest Salaries](https://leetcode.com/problems/find-latest-salaries/)|Easy|🔒|
 |2669|[Count Artist Occurrences On Spotify Ranking List](https://leetcode.com/problems/count-artist-occurrences-on-spotify-ranking-list/)|Easy|🔒|
-|2670|[Find the Distinct Difference Array](https://leetcode.com/problems/find-the-distinct-difference-array/)|Easy||
 |2671|[Frequency Tracker](https://leetcode.com/problems/frequency-tracker/)|Medium||
 |2672|[Number of Adjacent Elements With the Same Color](https://leetcode.com/problems/number-of-adjacent-elements-with-the-same-color/)|Medium||
 |2673|[Make Costs of Paths Equal in a Binary Tree](https://leetcode.com/problems/make-costs-of-paths-equal-in-a-binary-tree/)|Medium||
@@ -1513,7 +1507,6 @@ The questions which have been solved are not shown in this page, more informatio
 |2679|[Sum in a Matrix](https://leetcode.com/problems/sum-in-a-matrix/)|Medium||
 |2680|[Maximum OR](https://leetcode.com/problems/maximum-or/)|Medium||
 |2681|[Power of Heroes](https://leetcode.com/problems/power-of-heroes/)|Hard||
-|2682|[Find the Losers of the Circular Game](https://leetcode.com/problems/find-the-losers-of-the-circular-game/)|Easy||
 |2683|[Neighboring Bitwise XOR](https://leetcode.com/problems/neighboring-bitwise-xor/)|Medium||
 |2684|[Maximum Number of Moves in a Grid](https://leetcode.com/problems/maximum-number-of-moves-in-a-grid/)|Medium||
 |2685|[Count the Number of Complete Components](https://leetcode.com/problems/count-the-number-of-complete-components/)|Medium||
