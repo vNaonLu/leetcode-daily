@@ -1,6 +1,6 @@
 # Unsolved Solutions List
 
-There are **1751** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
+There are **1750** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
 
 The questions which have been solved are not shown in this page, more information about solved questions can be found at [docs/solved_solutions.md](./solved_solutions.md).
 
@@ -1351,7 +1351,6 @@ The questions which have been solved are not shown in this page, more informatio
 |2478|[Number of Beautiful Partitions](https://leetcode.com/problems/number-of-beautiful-partitions/)|Hard||
 |2479|[Maximum XOR of Two Non-Overlapping Subtrees](https://leetcode.com/problems/maximum-xor-of-two-non-overlapping-subtrees/)|Hard|🔒|
 |2480|[Form a Chemical Bond](https://leetcode.com/problems/form-a-chemical-bond/)|Easy|🔒|
-|2482|[Difference Between Ones and Zeros in Row and Column](https://leetcode.com/problems/difference-between-ones-and-zeros-in-row-and-column/)|Medium||
 |2484|[Count Palindromic Subsequences](https://leetcode.com/problems/count-palindromic-subsequences/)|Hard||
 |2486|[Append Characters to String to Make Subsequence](https://leetcode.com/problems/append-characters-to-string-to-make-subsequence/)|Medium||
 |2487|[Remove Nodes From Linked List](https://leetcode.com/problems/remove-nodes-from-linked-list/)|Medium||
