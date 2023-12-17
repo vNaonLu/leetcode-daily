@@ -1,6 +1,6 @@
 # Solved Solutions List
 
-This document contains **1192** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
+This document contains **1193** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
 
 Some questions which are still being resolved are not shown in this page, more information about unsolved questions can be found at [docs/unsolved_solutions.md](./unsolved_solutions.md).
 
@@ -1104,6 +1104,7 @@ Some questions which are still being resolved are not shown in this page, more i
 |2348|[Number of Zero-Filled Subarrays](https://leetcode.com/problems/number-of-zero-filled-subarrays/)|[src/q_2301_2350/q2348.cc](../src/q_2301_2350/q2348.cc)|2023/03/21 18:38|
 |2351|[First Letter to Appear Twice](https://leetcode.com/problems/first-letter-to-appear-twice/)|[src/q_2351_2400/q2351.cc](../src/q_2351_2400/q2351.cc)|2023/02/15 19:45|
 |2352|[Equal Row and Column Pairs](https://leetcode.com/problems/equal-row-and-column-pairs/)|[src/q_2351_2400/q2352.cc](../src/q_2351_2400/q2352.cc)|2023/06/13 19:54|
+|2353|[Design a Food Rating System](https://leetcode.com/problems/design-a-food-rating-system/)|[src/q_2351_2400/q2353.cc](../src/q_2351_2400/q2353.cc)|2023/12/17 15:49|
 |2357|[Make Array Zero by Subtracting Equal Amounts](https://leetcode.com/problems/make-array-zero-by-subtracting-equal-amounts/)|[src/q_2351_2400/q2357.cc](../src/q_2351_2400/q2357.cc)|2023/03/01 10:43|
 |2359|[Find Closest Node to Given Two Nodes](https://leetcode.com/problems/find-closest-node-to-given-two-nodes/)|[src/q_2351_2400/q2359.cc](../src/q_2351_2400/q2359.cc)|2023/01/25 15:48|
 |2360|[Longest Cycle in a Graph](https://leetcode.com/problems/longest-cycle-in-a-graph/)|[src/q_2351_2400/q2360.cc](../src/q_2351_2400/q2360.cc)|2023/03/26 17:41|
