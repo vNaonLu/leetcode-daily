@@ -1,6 +1,6 @@
 # Unsolved Solutions List
 
-There are **1753** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
+There are **1746** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
 
 The questions which have been solved are not shown in this page, more information about solved questions can be found at [docs/solved_solutions.md](./solved_solutions.md).
 
@@ -1262,7 +1262,6 @@ The questions which have been solved are not shown in this page, more informatio
 |2346|[Compute the Rank as a Percentage](https://leetcode.com/problems/compute-the-rank-as-a-percentage/)|Medium|🔒|
 |2349|[Design a Number Container System](https://leetcode.com/problems/design-a-number-container-system/)|Medium||
 |2350|[Shortest Impossible Sequence of Rolls](https://leetcode.com/problems/shortest-impossible-sequence-of-rolls/)|Hard||
-|2353|[Design a Food Rating System](https://leetcode.com/problems/design-a-food-rating-system/)|Medium||
 |2354|[Number of Excellent Pairs](https://leetcode.com/problems/number-of-excellent-pairs/)|Hard||
 |2355|[Maximum Number of Books You Can Take](https://leetcode.com/problems/maximum-number-of-books-you-can-take/)|Hard|🔒|
 |2356|[Number of Unique Subjects Taught by Each Teacher](https://leetcode.com/problems/number-of-unique-subjects-taught-by-each-teacher/)|Easy||
@@ -1351,7 +1350,6 @@ The questions which have been solved are not shown in this page, more informatio
 |2478|[Number of Beautiful Partitions](https://leetcode.com/problems/number-of-beautiful-partitions/)|Hard||
 |2479|[Maximum XOR of Two Non-Overlapping Subtrees](https://leetcode.com/problems/maximum-xor-of-two-non-overlapping-subtrees/)|Hard|🔒|
 |2480|[Form a Chemical Bond](https://leetcode.com/problems/form-a-chemical-bond/)|Easy|🔒|
-|2482|[Difference Between Ones and Zeros in Row and Column](https://leetcode.com/problems/difference-between-ones-and-zeros-in-row-and-column/)|Medium||
 |2484|[Count Palindromic Subsequences](https://leetcode.com/problems/count-palindromic-subsequences/)|Hard||
 |2486|[Append Characters to String to Make Subsequence](https://leetcode.com/problems/append-characters-to-string-to-make-subsequence/)|Medium||
 |2487|[Remove Nodes From Linked List](https://leetcode.com/problems/remove-nodes-from-linked-list/)|Medium||
@@ -1520,8 +1518,6 @@ The questions which have been solved are not shown in this page, more informatio
 |2693|[Call Function with Custom Context](https://leetcode.com/problems/call-function-with-custom-context/)|Medium||
 |2694|[Event Emitter](https://leetcode.com/problems/event-emitter/)|Medium||
 |2695|[Array Wrapper](https://leetcode.com/problems/array-wrapper/)|Easy||
-|2696|[Minimum String Length After Removing Substrings](https://leetcode.com/problems/minimum-string-length-after-removing-substrings/)|Easy||
-|2697|[Lexicographically Smallest Palindrome](https://leetcode.com/problems/lexicographically-smallest-palindrome/)|Easy||
 |2698|[Find the Punishment Number of an Integer](https://leetcode.com/problems/find-the-punishment-number-of-an-integer/)|Medium||
 |2699|[Modify Graph Edge Weights](https://leetcode.com/problems/modify-graph-edge-weights/)|Hard||
 |2700|[Differences Between Two Objects](https://leetcode.com/problems/differences-between-two-objects/)|Medium|🔒|
@@ -1532,14 +1528,11 @@ The questions which have been solved are not shown in this page, more informatio
 |2705|[Compact Object](https://leetcode.com/problems/compact-object/)|Medium||
 |2708|[Maximum Strength of a Group](https://leetcode.com/problems/maximum-strength-of-a-group/)|Medium||
 |2709|[Greatest Common Divisor Traversal](https://leetcode.com/problems/greatest-common-divisor-traversal/)|Hard||
-|2710|[Remove Trailing Zeros From a String](https://leetcode.com/problems/remove-trailing-zeros-from-a-string/)|Easy||
 |2711|[Difference of Number of Distinct Values on Diagonals](https://leetcode.com/problems/difference-of-number-of-distinct-values-on-diagonals/)|Medium||
 |2712|[Minimum Cost to Make All Characters Equal](https://leetcode.com/problems/minimum-cost-to-make-all-characters-equal/)|Medium||
 |2713|[Maximum Strictly Increasing Cells in a Matrix](https://leetcode.com/problems/maximum-strictly-increasing-cells-in-a-matrix/)|Hard||
 |2714|[Find Shortest Path with K Hops](https://leetcode.com/problems/find-shortest-path-with-k-hops/)|Hard|🔒|
 |2715|[Timeout Cancellation](https://leetcode.com/problems/timeout-cancellation/)|Easy||
-|2716|[Minimize String Length](https://leetcode.com/problems/minimize-string-length/)|Easy||
-|2717|[Semi-Ordered Permutation](https://leetcode.com/problems/semi-ordered-permutation/)|Easy||
 |2718|[Sum of Matrix After Queries](https://leetcode.com/problems/sum-of-matrix-after-queries/)|Medium||
 |2719|[Count of Integers](https://leetcode.com/problems/count-of-integers/)|Hard||
 |2720|[Popularity Percentage](https://leetcode.com/problems/popularity-percentage/)|Hard|🔒|
