@@ -1,6 +1,6 @@
 # Unsolved Solutions List
 
-There are **1747** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
+There are **1746** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
 
 The questions which have been solved are not shown in this page, more information about solved questions can be found at [docs/solved_solutions.md](./solved_solutions.md).
 
@@ -1533,7 +1533,6 @@ The questions which have been solved are not shown in this page, more informatio
 |2713|[Maximum Strictly Increasing Cells in a Matrix](https://leetcode.com/problems/maximum-strictly-increasing-cells-in-a-matrix/)|Hard||
 |2714|[Find Shortest Path with K Hops](https://leetcode.com/problems/find-shortest-path-with-k-hops/)|Hard|🔒|
 |2715|[Timeout Cancellation](https://leetcode.com/problems/timeout-cancellation/)|Easy||
-|2717|[Semi-Ordered Permutation](https://leetcode.com/problems/semi-ordered-permutation/)|Easy||
 |2718|[Sum of Matrix After Queries](https://leetcode.com/problems/sum-of-matrix-after-queries/)|Medium||
 |2719|[Count of Integers](https://leetcode.com/problems/count-of-integers/)|Hard||
 |2720|[Popularity Percentage](https://leetcode.com/problems/popularity-percentage/)|Hard|🔒|

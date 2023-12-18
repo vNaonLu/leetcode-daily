@@ -1,6 +1,6 @@
 # Solved Solutions List
 
-This document contains **1193** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
+This document contains **1194** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
 
 Some questions which are still being resolved are not shown in this page, more information about unsolved questions can be found at [docs/unsolved_solutions.md](./unsolved_solutions.md).
 
@@ -1197,6 +1197,7 @@ Some questions which are still being resolved are not shown in this page, more i
 |2707|[Extra Characters in a String](https://leetcode.com/problems/extra-characters-in-a-string/)|[src/q_2701_2750/q2707.cc](../src/q_2701_2750/q2707.cc)|2023/09/02 09:24|
 |2710|[Remove Trailing Zeros From a String](https://leetcode.com/problems/remove-trailing-zeros-from-a-string/)|[src/q_2701_2750/q2710.cc](../src/q_2701_2750/q2710.cc)|2023/12/15 18:46|
 |2716|[Minimize String Length](https://leetcode.com/problems/minimize-string-length/)|[src/q_2701_2750/q2716.cc](../src/q_2701_2750/q2716.cc)|2023/12/16 12:48|
+|2717|[Semi-Ordered Permutation](https://leetcode.com/problems/semi-ordered-permutation/)|[src/q_2701_2750/q2717.cc](../src/q_2701_2750/q2717.cc)|2023/12/18 19:24|
 |2742|[Painting the Walls](https://leetcode.com/problems/painting-the-walls/)|[src/q_2701_2750/q2742.cc](../src/q_2701_2750/q2742.cc)|2023/10/14 13:04|
 |2785|[Sort Vowels in a String](https://leetcode.com/problems/sort-vowels-in-a-string/)|[src/q_2751_2800/q2785.cc](../src/q_2751_2800/q2785.cc)|2023/11/13 19:01|
 |2849|[Determine if a Cell Is Reachable at a Given Time](https://leetcode.com/problems/determine-if-a-cell-is-reachable-at-a-given-time/)|[src/q_2801_2850/q2849.cc](../src/q_2801_2850/q2849.cc)|2023/11/08 19:16|
