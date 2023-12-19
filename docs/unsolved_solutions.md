@@ -1,6 +1,6 @@
 # Unsolved Solutions List
 
-There are **1746** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
+There are **1745** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
 
 The questions which have been solved are not shown in this page, more information about solved questions can be found at [docs/solved_solutions.md](./solved_solutions.md).
 
@@ -1544,7 +1544,6 @@ The questions which have been solved are not shown in this page, more informatio
 |2726|[Calculator with Method Chaining](https://leetcode.com/problems/calculator-with-method-chaining/)|Easy||
 |2727|[Is Object Empty](https://leetcode.com/problems/is-object-empty/)|Easy||
 |2728|[Count Houses in a Circular Street](https://leetcode.com/problems/count-houses-in-a-circular-street/)|Easy|🔒|
-|2729|[Check if The Number is Fascinating](https://leetcode.com/problems/check-if-the-number-is-fascinating/)|Easy||
 |2730|[Find the Longest Semi-Repetitive Substring](https://leetcode.com/problems/find-the-longest-semi-repetitive-substring/)|Medium||
 |2731|[Movement of Robots](https://leetcode.com/problems/movement-of-robots/)|Medium||
 |2732|[Find a Good Subset of the Matrix](https://leetcode.com/problems/find-a-good-subset-of-the-matrix/)|Hard||
