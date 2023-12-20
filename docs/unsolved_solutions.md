@@ -1,6 +1,6 @@
 # Unsolved Solutions List
 
-There are **1745** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
+There are **1744** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
 
 The questions which have been solved are not shown in this page, more information about solved questions can be found at [docs/solved_solutions.md](./solved_solutions.md).
 
@@ -1547,7 +1547,6 @@ The questions which have been solved are not shown in this page, more informatio
 |2730|[Find the Longest Semi-Repetitive Substring](https://leetcode.com/problems/find-the-longest-semi-repetitive-substring/)|Medium||
 |2731|[Movement of Robots](https://leetcode.com/problems/movement-of-robots/)|Medium||
 |2732|[Find a Good Subset of the Matrix](https://leetcode.com/problems/find-a-good-subset-of-the-matrix/)|Hard||
-|2733|[Neither Minimum nor Maximum](https://leetcode.com/problems/neither-minimum-nor-maximum/)|Easy||
 |2734|[Lexicographically Smallest String After Substring Operation](https://leetcode.com/problems/lexicographically-smallest-string-after-substring-operation/)|Medium||
 |2735|[Collecting Chocolates](https://leetcode.com/problems/collecting-chocolates/)|Medium||
 |2736|[Maximum Sum Queries](https://leetcode.com/problems/maximum-sum-queries/)|Hard||
