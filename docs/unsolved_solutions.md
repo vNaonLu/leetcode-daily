@@ -1,6 +1,6 @@
 # Unsolved Solutions List
 
-There are **1743** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
+There are **1742** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
 
 The questions which have been solved are not shown in this page, more information about solved questions can be found at [docs/solved_solutions.md](./solved_solutions.md).
 
@@ -1551,7 +1551,6 @@ The questions which have been solved are not shown in this page, more informatio
 |2736|[Maximum Sum Queries](https://leetcode.com/problems/maximum-sum-queries/)|Hard||
 |2737|[Find the Closest Marked Node](https://leetcode.com/problems/find-the-closest-marked-node/)|Medium|🔒|
 |2738|[Count Occurrences in Text](https://leetcode.com/problems/count-occurrences-in-text/)|Medium|🔒|
-|2739|[Total Distance Traveled](https://leetcode.com/problems/total-distance-traveled/)|Easy||
 |2740|[Find the Value of the Partition](https://leetcode.com/problems/find-the-value-of-the-partition/)|Medium||
 |2741|[Special Permutations](https://leetcode.com/problems/special-permutations/)|Medium||
 |2743|[Count Substrings Without Repeating Character](https://leetcode.com/problems/count-substrings-without-repeating-character/)|Medium|🔒|
