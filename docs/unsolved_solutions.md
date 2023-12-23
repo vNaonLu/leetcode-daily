@@ -1,6 +1,6 @@
 # Unsolved Solutions List
 
-There are **1742** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
+There are **1741** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
 
 The questions which have been solved are not shown in this page, more information about solved questions can be found at [docs/solved_solutions.md](./solved_solutions.md).
 
@@ -1554,7 +1554,6 @@ The questions which have been solved are not shown in this page, more informatio
 |2740|[Find the Value of the Partition](https://leetcode.com/problems/find-the-value-of-the-partition/)|Medium||
 |2741|[Special Permutations](https://leetcode.com/problems/special-permutations/)|Medium||
 |2743|[Count Substrings Without Repeating Character](https://leetcode.com/problems/count-substrings-without-repeating-character/)|Medium|🔒|
-|2744|[Find Maximum Number of String Pairs](https://leetcode.com/problems/find-maximum-number-of-string-pairs/)|Easy||
 |2745|[Construct the Longest New String](https://leetcode.com/problems/construct-the-longest-new-string/)|Medium||
 |2746|[Decremental String Concatenation](https://leetcode.com/problems/decremental-string-concatenation/)|Medium||
 |2747|[Count Zero Request Servers](https://leetcode.com/problems/count-zero-request-servers/)|Medium||
