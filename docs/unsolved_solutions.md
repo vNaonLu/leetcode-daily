@@ -1,6 +1,6 @@
 # Unsolved Solutions List
 
-There are **1741** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
+There are **1740** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
 
 The questions which have been solved are not shown in this page, more information about solved questions can be found at [docs/solved_solutions.md](./solved_solutions.md).
 
@@ -1557,7 +1557,6 @@ The questions which have been solved are not shown in this page, more informatio
 |2745|[Construct the Longest New String](https://leetcode.com/problems/construct-the-longest-new-string/)|Medium||
 |2746|[Decremental String Concatenation](https://leetcode.com/problems/decremental-string-concatenation/)|Medium||
 |2747|[Count Zero Request Servers](https://leetcode.com/problems/count-zero-request-servers/)|Medium||
-|2748|[Number of Beautiful Pairs](https://leetcode.com/problems/number-of-beautiful-pairs/)|Easy||
 |2749|[Minimum Operations to Make the Integer Zero](https://leetcode.com/problems/minimum-operations-to-make-the-integer-zero/)|Medium||
 |2750|[Ways to Split Array Into Good Subarrays](https://leetcode.com/problems/ways-to-split-array-into-good-subarrays/)|Medium||
 |2751|[Robot Collisions](https://leetcode.com/problems/robot-collisions/)|Hard||

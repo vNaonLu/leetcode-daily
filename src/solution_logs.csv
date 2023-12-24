@@ -1198,3 +1198,4 @@ timestamp,id,tc,sc,notes
 1703156093,1637,n * log(n),1,n = |points.size()|
 1703247201,2739,-,-,not calculated
 1703316884,2744,n * E,E,"n = |words.size()|, m = |words[i].size()||"
+1703391700,2748,n ^ 2,1,n = |nums.size()|
