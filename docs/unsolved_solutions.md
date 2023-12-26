@@ -1,6 +1,6 @@
 # Unsolved Solutions List
 
-There are **1746** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
+There are **1740** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
 
 The questions which have been solved are not shown in this page, more information about solved questions can be found at [docs/solved_solutions.md](./solved_solutions.md).
 
@@ -790,7 +790,6 @@ The questions which have been solved are not shown in this page, more informatio
 |1633|[Percentage of Users Attended a Contest](https://leetcode.com/problems/percentage-of-users-attended-a-contest/)|Easy||
 |1634|[Add Two Polynomials Represented as Linked Lists](https://leetcode.com/problems/add-two-polynomials-represented-as-linked-lists/)|Medium|🔒|
 |1635|[Hopper Company Queries I](https://leetcode.com/problems/hopper-company-queries-i/)|Hard|🔒|
-|1637|[Widest Vertical Area Between Two Points Containing No Points](https://leetcode.com/problems/widest-vertical-area-between-two-points-containing-no-points/)|Medium||
 |1638|[Count Substrings That Differ by One Character](https://leetcode.com/problems/count-substrings-that-differ-by-one-character/)|Medium||
 |1643|[Kth Smallest Instructions](https://leetcode.com/problems/kth-smallest-instructions/)|Hard||
 |1644|[Lowest Common Ancestor of a Binary Tree II](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree-ii/)|Medium|🔒|
@@ -1544,25 +1543,20 @@ The questions which have been solved are not shown in this page, more informatio
 |2726|[Calculator with Method Chaining](https://leetcode.com/problems/calculator-with-method-chaining/)|Easy||
 |2727|[Is Object Empty](https://leetcode.com/problems/is-object-empty/)|Easy||
 |2728|[Count Houses in a Circular Street](https://leetcode.com/problems/count-houses-in-a-circular-street/)|Easy|🔒|
-|2729|[Check if The Number is Fascinating](https://leetcode.com/problems/check-if-the-number-is-fascinating/)|Easy||
 |2730|[Find the Longest Semi-Repetitive Substring](https://leetcode.com/problems/find-the-longest-semi-repetitive-substring/)|Medium||
 |2731|[Movement of Robots](https://leetcode.com/problems/movement-of-robots/)|Medium||
 |2732|[Find a Good Subset of the Matrix](https://leetcode.com/problems/find-a-good-subset-of-the-matrix/)|Hard||
-|2733|[Neither Minimum nor Maximum](https://leetcode.com/problems/neither-minimum-nor-maximum/)|Easy||
 |2734|[Lexicographically Smallest String After Substring Operation](https://leetcode.com/problems/lexicographically-smallest-string-after-substring-operation/)|Medium||
 |2735|[Collecting Chocolates](https://leetcode.com/problems/collecting-chocolates/)|Medium||
 |2736|[Maximum Sum Queries](https://leetcode.com/problems/maximum-sum-queries/)|Hard||
 |2737|[Find the Closest Marked Node](https://leetcode.com/problems/find-the-closest-marked-node/)|Medium|🔒|
 |2738|[Count Occurrences in Text](https://leetcode.com/problems/count-occurrences-in-text/)|Medium|🔒|
-|2739|[Total Distance Traveled](https://leetcode.com/problems/total-distance-traveled/)|Easy||
 |2740|[Find the Value of the Partition](https://leetcode.com/problems/find-the-value-of-the-partition/)|Medium||
 |2741|[Special Permutations](https://leetcode.com/problems/special-permutations/)|Medium||
 |2743|[Count Substrings Without Repeating Character](https://leetcode.com/problems/count-substrings-without-repeating-character/)|Medium|🔒|
-|2744|[Find Maximum Number of String Pairs](https://leetcode.com/problems/find-maximum-number-of-string-pairs/)|Easy||
 |2745|[Construct the Longest New String](https://leetcode.com/problems/construct-the-longest-new-string/)|Medium||
 |2746|[Decremental String Concatenation](https://leetcode.com/problems/decremental-string-concatenation/)|Medium||
 |2747|[Count Zero Request Servers](https://leetcode.com/problems/count-zero-request-servers/)|Medium||
-|2748|[Number of Beautiful Pairs](https://leetcode.com/problems/number-of-beautiful-pairs/)|Easy||
 |2749|[Minimum Operations to Make the Integer Zero](https://leetcode.com/problems/minimum-operations-to-make-the-integer-zero/)|Medium||
 |2750|[Ways to Split Array Into Good Subarrays](https://leetcode.com/problems/ways-to-split-array-into-good-subarrays/)|Medium||
 |2751|[Robot Collisions](https://leetcode.com/problems/robot-collisions/)|Hard||

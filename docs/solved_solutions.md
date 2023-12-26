@@ -1,6 +1,6 @@
 # Solved Solutions List
 
-This document contains **1194** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
+This document contains **1200** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
 
 Some questions which are still being resolved are not shown in this page, more information about unsolved questions can be found at [docs/unsolved_solutions.md](./unsolved_solutions.md).
 
@@ -860,6 +860,7 @@ Some questions which are still being resolved are not shown in this page, more i
 |1630|[Arithmetic Subarrays](https://leetcode.com/problems/arithmetic-subarrays/)|[src/q_1601_1650/q1630.cc](../src/q_1601_1650/q1630.cc)|2022/05/04 18:04|
 |1631|[Path With Minimum Effort](https://leetcode.com/problems/path-with-minimum-effort/)|[src/q_1601_1650/q1631.cc](../src/q_1601_1650/q1631.cc)|2022/04/28 18:28|
 |1636|[Sort Array by Increasing Frequency](https://leetcode.com/problems/sort-array-by-increasing-frequency/)|[src/q_1601_1650/q1636.cc](../src/q_1601_1650/q1636.cc)|2023/03/24 11:38|
+|1637|[Widest Vertical Area Between Two Points Containing No Points](https://leetcode.com/problems/widest-vertical-area-between-two-points-containing-no-points/)|[src/q_1601_1650/q1637.cc](../src/q_1601_1650/q1637.cc)|2023/12/21 18:54|
 |1639|[Number of Ways to Form a Target String Given a Dictionary](https://leetcode.com/problems/number-of-ways-to-form-a-target-string-given-a-dictionary/)|[src/q_1601_1650/q1639.cc](../src/q_1601_1650/q1639.cc)|2023/04/16 15:34|
 |1640|[Check Array Formation Through Concatenation](https://leetcode.com/problems/check-array-formation-through-concatenation/)|[src/q_1601_1650/q1640.cc](../src/q_1601_1650/q1640.cc)|2023/09/04 10:15|
 |1641|[Count Sorted Vowel Strings](https://leetcode.com/problems/count-sorted-vowel-strings/)|[src/q_1601_1650/q1641.cc](../src/q_1601_1650/q1641.cc)|2022/05/11 11:15|
@@ -1198,6 +1199,11 @@ Some questions which are still being resolved are not shown in this page, more i
 |2710|[Remove Trailing Zeros From a String](https://leetcode.com/problems/remove-trailing-zeros-from-a-string/)|[src/q_2701_2750/q2710.cc](../src/q_2701_2750/q2710.cc)|2023/12/15 18:46|
 |2716|[Minimize String Length](https://leetcode.com/problems/minimize-string-length/)|[src/q_2701_2750/q2716.cc](../src/q_2701_2750/q2716.cc)|2023/12/16 12:48|
 |2717|[Semi-Ordered Permutation](https://leetcode.com/problems/semi-ordered-permutation/)|[src/q_2701_2750/q2717.cc](../src/q_2701_2750/q2717.cc)|2023/12/18 19:24|
+|2729|[Check if The Number is Fascinating](https://leetcode.com/problems/check-if-the-number-is-fascinating/)|[src/q_2701_2750/q2729.cc](../src/q_2701_2750/q2729.cc)|2023/12/19 20:11|
+|2733|[Neither Minimum nor Maximum](https://leetcode.com/problems/neither-minimum-nor-maximum/)|[src/q_2701_2750/q2733.cc](../src/q_2701_2750/q2733.cc)|2023/12/20 20:31|
+|2739|[Total Distance Traveled](https://leetcode.com/problems/total-distance-traveled/)|[src/q_2701_2750/q2739.cc](../src/q_2701_2750/q2739.cc)|2023/12/22 20:13|
 |2742|[Painting the Walls](https://leetcode.com/problems/painting-the-walls/)|[src/q_2701_2750/q2742.cc](../src/q_2701_2750/q2742.cc)|2023/10/14 13:04|
+|2744|[Find Maximum Number of String Pairs](https://leetcode.com/problems/find-maximum-number-of-string-pairs/)|[src/q_2701_2750/q2744.cc](../src/q_2701_2750/q2744.cc)|2023/12/23 15:34|
+|2748|[Number of Beautiful Pairs](https://leetcode.com/problems/number-of-beautiful-pairs/)|[src/q_2701_2750/q2748.cc](../src/q_2701_2750/q2748.cc)|2023/12/24 12:21|
 |2785|[Sort Vowels in a String](https://leetcode.com/problems/sort-vowels-in-a-string/)|[src/q_2751_2800/q2785.cc](../src/q_2751_2800/q2785.cc)|2023/11/13 19:01|
 |2849|[Determine if a Cell Is Reachable at a Given Time](https://leetcode.com/problems/determine-if-a-cell-is-reachable-at-a-given-time/)|[src/q_2801_2850/q2849.cc](../src/q_2801_2850/q2849.cc)|2023/11/08 19:16|
