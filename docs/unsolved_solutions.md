@@ -1,6 +1,6 @@
 # Unsolved Solutions List
 
-There are **1740** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
+There are **1739** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
 
 The questions which have been solved are not shown in this page, more information about solved questions can be found at [docs/solved_solutions.md](./solved_solutions.md).
 
@@ -1568,7 +1568,6 @@ The questions which have been solved are not shown in this page, more informatio
 |2757|[Generate Circular Array Values](https://leetcode.com/problems/generate-circular-array-values/)|Medium|🔒|
 |2758|[Next Day](https://leetcode.com/problems/next-day/)|Easy|🔒|
 |2759|[Convert JSON String to Object](https://leetcode.com/problems/convert-json-string-to-object/)|Hard|🔒|
-|2760|[Longest Even Odd Subarray With Threshold](https://leetcode.com/problems/longest-even-odd-subarray-with-threshold/)|Easy||
 |2761|[Prime Pairs With Target Sum](https://leetcode.com/problems/prime-pairs-with-target-sum/)|Medium||
 |2762|[Continuous Subarrays](https://leetcode.com/problems/continuous-subarrays/)|Medium||
 |2763|[Sum of Imbalance Numbers of All Subarrays](https://leetcode.com/problems/sum-of-imbalance-numbers-of-all-subarrays/)|Hard||
