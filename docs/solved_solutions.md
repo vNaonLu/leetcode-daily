@@ -1,6 +1,6 @@
 # Solved Solutions List
 
-This document contains **1201** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
+This document contains **1202** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
 
 Some questions which are still being resolved are not shown in this page, more information about unsolved questions can be found at [docs/unsolved_solutions.md](./unsolved_solutions.md).
 
@@ -1206,5 +1206,6 @@ Some questions which are still being resolved are not shown in this page, more i
 |2744|[Find Maximum Number of String Pairs](https://leetcode.com/problems/find-maximum-number-of-string-pairs/)|[src/q_2701_2750/q2744.cc](../src/q_2701_2750/q2744.cc)|2023/12/23 15:34|
 |2748|[Number of Beautiful Pairs](https://leetcode.com/problems/number-of-beautiful-pairs/)|[src/q_2701_2750/q2748.cc](../src/q_2701_2750/q2748.cc)|2023/12/24 12:21|
 |2760|[Longest Even Odd Subarray With Threshold](https://leetcode.com/problems/longest-even-odd-subarray-with-threshold/)|[src/q_2751_2800/q2760.cc](../src/q_2751_2800/q2760.cc)|2023/12/26 20:03|
+|2765|[Longest Alternating Subarray](https://leetcode.com/problems/longest-alternating-subarray/)|[src/q_2751_2800/q2765.cc](../src/q_2751_2800/q2765.cc)|2023/12/27 19:05|
 |2785|[Sort Vowels in a String](https://leetcode.com/problems/sort-vowels-in-a-string/)|[src/q_2751_2800/q2785.cc](../src/q_2751_2800/q2785.cc)|2023/11/13 19:01|
 |2849|[Determine if a Cell Is Reachable at a Given Time](https://leetcode.com/problems/determine-if-a-cell-is-reachable-at-a-given-time/)|[src/q_2801_2850/q2849.cc](../src/q_2801_2850/q2849.cc)|2023/11/08 19:16|
