@@ -1,6 +1,6 @@
 # Solved Solutions List
 
-This document contains **1205** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
+This document contains **1206** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
 
 Some questions which are still being resolved are not shown in this page, more information about unsolved questions can be found at [docs/unsolved_solutions.md](./unsolved_solutions.md).
 
@@ -1211,4 +1211,5 @@ Some questions which are still being resolved are not shown in this page, more i
 |2778|[Sum of Squares of Special Elements ](https://leetcode.com/problems/sum-of-squares-of-special-elements/)|[src/q_2751_2800/q2778.cc](../src/q_2751_2800/q2778.cc)|2023/12/29 21:14|
 |2784|[Check if Array is Good](https://leetcode.com/problems/check-if-array-is-good/)|[src/q_2751_2800/q2784.cc](../src/q_2751_2800/q2784.cc)|2023/12/31 14:19|
 |2785|[Sort Vowels in a String](https://leetcode.com/problems/sort-vowels-in-a-string/)|[src/q_2751_2800/q2785.cc](../src/q_2751_2800/q2785.cc)|2023/11/13 19:01|
+|2788|[Split Strings by Separator](https://leetcode.com/problems/split-strings-by-separator/)|[src/q_2751_2800/q2788.cc](../src/q_2751_2800/q2788.cc)|2024/01/01 14:09|
 |2849|[Determine if a Cell Is Reachable at a Given Time](https://leetcode.com/problems/determine-if-a-cell-is-reachable-at-a-given-time/)|[src/q_2801_2850/q2849.cc](../src/q_2801_2850/q2849.cc)|2023/11/08 19:16|
