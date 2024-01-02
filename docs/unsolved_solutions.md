@@ -1,6 +1,6 @@
 # Unsolved Solutions List
 
-There are **1734** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
+There are **1733** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
 
 The questions which have been solved are not shown in this page, more information about solved questions can be found at [docs/solved_solutions.md](./solved_solutions.md).
 
@@ -1444,7 +1444,6 @@ The questions which have been solved are not shown in this page, more informatio
 |2606|[Find the Substring With Maximum Cost](https://leetcode.com/problems/find-the-substring-with-maximum-cost/)|Medium||
 |2607|[Make K-Subarray Sums Equal](https://leetcode.com/problems/make-k-subarray-sums-equal/)|Medium||
 |2608|[Shortest Cycle in a Graph](https://leetcode.com/problems/shortest-cycle-in-a-graph/)|Hard||
-|2610|[Convert an Array Into a 2D Array With Conditions](https://leetcode.com/problems/convert-an-array-into-a-2d-array-with-conditions/)|Medium||
 |2611|[Mice and Cheese](https://leetcode.com/problems/mice-and-cheese/)|Medium||
 |2612|[Minimum Reverse Operations](https://leetcode.com/problems/minimum-reverse-operations/)|Hard||
 |2613|[Beautiful Pairs](https://leetcode.com/problems/beautiful-pairs/)|Hard|🔒|
