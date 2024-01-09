@@ -1,6 +1,6 @@
 # Solved Solutions List
 
-This document contains **1205** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
+This document contains **1213** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
 
 Some questions which are still being resolved are not shown in this page, more information about unsolved questions can be found at [docs/unsolved_solutions.md](./unsolved_solutions.md).
 
@@ -688,6 +688,7 @@ Some questions which are still being resolved are not shown in this page, more i
 |1220|[Count Vowels Permutation](https://leetcode.com/problems/count-vowels-permutation/)|[src/q_1201_1250/q1220.cc](../src/q_1201_1250/q1220.cc)|2022/08/07 13:07|
 |1221|[Split a String in Balanced Strings](https://leetcode.com/problems/split-a-string-in-balanced-strings/)|[src/q_1201_1250/q1221.cc](../src/q_1201_1250/q1221.cc)|2021/11/11 21:34|
 |1232|[Check If It Is a Straight Line](https://leetcode.com/problems/check-if-it-is-a-straight-line/)|[src/q_1201_1250/q1232.cc](../src/q_1201_1250/q1232.cc)|2022/04/18 18:21|
+|1235|[Maximum Profit in Job Scheduling](https://leetcode.com/problems/maximum-profit-in-job-scheduling/)|[src/q_1201_1250/q1235.cc](../src/q_1201_1250/q1235.cc)|2024/01/06 15:21|
 |1239|[Maximum Length of a Concatenated String with Unique Characters](https://leetcode.com/problems/maximum-length-of-a-concatenated-string-with-unique-characters/)|[src/q_1201_1250/q1239.cc](../src/q_1201_1250/q1239.cc)|2021/09/22 08:00|
 |1249|[Minimum Remove to Make Valid Parentheses](https://leetcode.com/problems/minimum-remove-to-make-valid-parentheses/)|[src/q_1201_1250/q1249.cc](../src/q_1201_1250/q1249.cc)|2021/10/02 14:42|
 |1252|[Cells with Odd Values in a Matrix](https://leetcode.com/problems/cells-with-odd-values-in-a-matrix/)|[src/q_1251_1300/q1252.cc](../src/q_1251_1300/q1252.cc)|2022/11/29 18:27|
@@ -1028,6 +1029,7 @@ Some questions which are still being resolved are not shown in this page, more i
 |2114|[Maximum Number of Words Found in Sentences](https://leetcode.com/problems/maximum-number-of-words-found-in-sentences/)|[src/q_2101_2150/q2114.cc](../src/q_2101_2150/q2114.cc)|2023/04/24 08:40|
 |2119|[A Number After a Double Reversal](https://leetcode.com/problems/a-number-after-a-double-reversal/)|[src/q_2101_2150/q2119.cc](../src/q_2101_2150/q2119.cc)|2023/10/03 19:05|
 |2124|[Check if All A's Appears Before All B's](https://leetcode.com/problems/check-if-all-as-appears-before-all-bs/)|[src/q_2101_2150/q2124.cc](../src/q_2101_2150/q2124.cc)|2023/04/12 18:56|
+|2125|[Number of Laser Beams in a Bank](https://leetcode.com/problems/number-of-laser-beams-in-a-bank/)|[src/q_2101_2150/q2125.cc](../src/q_2101_2150/q2125.cc)|2024/01/03 20:42|
 |2129|[Capitalize the Title](https://leetcode.com/problems/capitalize-the-title/)|[src/q_2101_2150/q2129.cc](../src/q_2101_2150/q2129.cc)|2023/03/21 21:07|
 |2130|[Maximum Twin Sum of a Linked List](https://leetcode.com/problems/maximum-twin-sum-of-a-linked-list/)|[src/q_2101_2150/q2130.cc](../src/q_2101_2150/q2130.cc)|2023/05/17 18:53|
 |2131|[Longest Palindrome by Concatenating Two Letter Words](https://leetcode.com/problems/longest-palindrome-by-concatenating-two-letter-words/)|[src/q_2101_2150/q2131.cc](../src/q_2101_2150/q2131.cc)|2022/09/12 18:25|
@@ -1179,6 +1181,7 @@ Some questions which are still being resolved are not shown in this page, more i
 |2600|[K Items With the Maximum Sum](https://leetcode.com/problems/k-items-with-the-maximum-sum/)|[src/q_2551_2600/q2600.cc](../src/q_2551_2600/q2600.cc)|2023/12/05 20:59|
 |2605|[Form Smallest Number From Two Digit Arrays](https://leetcode.com/problems/form-smallest-number-from-two-digit-arrays/)|[src/q_2601_2650/q2605.cc](../src/q_2601_2650/q2605.cc)|2023/12/06 19:10|
 |2609|[Find the Longest Balanced Substring of a Binary String](https://leetcode.com/problems/find-the-longest-balanced-substring-of-a-binary-string/)|[src/q_2601_2650/q2609.cc](../src/q_2601_2650/q2609.cc)|2023/12/07 19:43|
+|2610|[Convert an Array Into a 2D Array With Conditions](https://leetcode.com/problems/convert-an-array-into-a-2d-array-with-conditions/)|[src/q_2601_2650/q2610.cc](../src/q_2601_2650/q2610.cc)|2024/01/02 16:26|
 |2614|[Prime In Diagonal](https://leetcode.com/problems/prime-in-diagonal/)|[src/q_2601_2650/q2614.cc](../src/q_2601_2650/q2614.cc)|2023/05/19 11:53|
 |2616|[Minimize the Maximum Difference of Pairs](https://leetcode.com/problems/minimize-the-maximum-difference-of-pairs/)|[src/q_2601_2650/q2616.cc](../src/q_2601_2650/q2616.cc)|2023/08/09 12:06|
 |2639|[Find the Width of Columns of a Grid](https://leetcode.com/problems/find-the-width-of-columns-of-a-grid/)|[src/q_2601_2650/q2639.cc](../src/q_2601_2650/q2639.cc)|2023/05/29 13:47|
@@ -1211,4 +1214,9 @@ Some questions which are still being resolved are not shown in this page, more i
 |2778|[Sum of Squares of Special Elements ](https://leetcode.com/problems/sum-of-squares-of-special-elements/)|[src/q_2751_2800/q2778.cc](../src/q_2751_2800/q2778.cc)|2023/12/29 21:14|
 |2784|[Check if Array is Good](https://leetcode.com/problems/check-if-array-is-good/)|[src/q_2751_2800/q2784.cc](../src/q_2751_2800/q2784.cc)|2023/12/31 14:19|
 |2785|[Sort Vowels in a String](https://leetcode.com/problems/sort-vowels-in-a-string/)|[src/q_2751_2800/q2785.cc](../src/q_2751_2800/q2785.cc)|2023/11/13 19:01|
+|2788|[Split Strings by Separator](https://leetcode.com/problems/split-strings-by-separator/)|[src/q_2751_2800/q2788.cc](../src/q_2751_2800/q2788.cc)|2024/01/01 14:09|
+|2798|[Number of Employees Who Met the Target](https://leetcode.com/problems/number-of-employees-who-met-the-target/)|[src/q_2751_2800/q2798.cc](../src/q_2751_2800/q2798.cc)|2024/01/05 17:22|
+|2806|[Account Balance After Rounded Purchase](https://leetcode.com/problems/account-balance-after-rounded-purchase/)|[src/q_2801_2850/q2806.cc](../src/q_2801_2850/q2806.cc)|2024/01/07 14:52|
+|2810|[Faulty Keyboard](https://leetcode.com/problems/faulty-keyboard/)|[src/q_2801_2850/q2810.cc](../src/q_2801_2850/q2810.cc)|2024/01/08 20:45|
 |2849|[Determine if a Cell Is Reachable at a Given Time](https://leetcode.com/problems/determine-if-a-cell-is-reachable-at-a-given-time/)|[src/q_2801_2850/q2849.cc](../src/q_2801_2850/q2849.cc)|2023/11/08 19:16|
+|2870|[Minimum Number of Operations to Make Array Empty](https://leetcode.com/problems/minimum-number-of-operations-to-make-array-empty/)|[src/q_2851_2900/q2870.cc](../src/q_2851_2900/q2870.cc)|2024/01/04 23:34|

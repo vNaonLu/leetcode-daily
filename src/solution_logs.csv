@@ -1204,3 +1204,11 @@ timestamp,id,tc,sc,notes
 1703761379,2769,1,1,
 1703855686,2778,n,1,n = |nums.size()|
 1704003582,2784,n,n * log(n),n = |nums.size()|
+1704089354,2788,n * E,1,"n = |words.size()|, E = |words[i].size()|"
+1704183986,2610,n,n,n = |nums.size()|
+1704285734,2125,n,n,n = |bank.size()|
+1704382464,2870,n,n,n = |nums.size()|
+1704446530,2798,n,1,n = |hours.size()|
+1704525698,1235,n * log(n),n,n = |startTime.size()|
+1704610347,2806,1,1,
+1704717900,2810,n ^ 2,1,n = |s.size()|

@@ -1,6 +1,6 @@
 # Unsolved Solutions List
 
-There are **1735** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
+There are **1727** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
 
 The questions which have been solved are not shown in this page, more information about solved questions can be found at [docs/solved_solutions.md](./solved_solutions.md).
 
@@ -560,7 +560,6 @@ The questions which have been solved are not shown in this page, more informatio
 |1231|[Divide Chocolate](https://leetcode.com/problems/divide-chocolate/)|Hard|🔒|
 |1233|[Remove Sub-Folders from the Filesystem](https://leetcode.com/problems/remove-sub-folders-from-the-filesystem/)|Medium||
 |1234|[Replace the Substring for Balanced String](https://leetcode.com/problems/replace-the-substring-for-balanced-string/)|Medium||
-|1235|[Maximum Profit in Job Scheduling](https://leetcode.com/problems/maximum-profit-in-job-scheduling/)|Hard||
 |1236|[Web Crawler](https://leetcode.com/problems/web-crawler/)|Medium|🔒|
 |1237|[Find Positive Integer Solution for a Given Equation](https://leetcode.com/problems/find-positive-integer-solution-for-a-given-equation/)|Medium||
 |1238|[Circular Permutation in Binary Representation](https://leetcode.com/problems/circular-permutation-in-binary-representation/)|Medium||
@@ -1110,7 +1109,6 @@ The questions which have been solved are not shown in this page, more informatio
 |2121|[Intervals Between Identical Elements](https://leetcode.com/problems/intervals-between-identical-elements/)|Medium||
 |2122|[Recover the Original Array](https://leetcode.com/problems/recover-the-original-array/)|Hard||
 |2123|[Minimum Operations to Remove Adjacent Ones in Matrix](https://leetcode.com/problems/minimum-operations-to-remove-adjacent-ones-in-matrix/)|Hard|🔒|
-|2125|[Number of Laser Beams in a Bank](https://leetcode.com/problems/number-of-laser-beams-in-a-bank/)|Medium||
 |2126|[Destroying Asteroids](https://leetcode.com/problems/destroying-asteroids/)|Medium||
 |2127|[Maximum Employees to Be Invited to a Meeting](https://leetcode.com/problems/maximum-employees-to-be-invited-to-a-meeting/)|Hard||
 |2128|[Remove All Ones With Row and Column Flips](https://leetcode.com/problems/remove-all-ones-with-row-and-column-flips/)|Medium|🔒|
@@ -1444,7 +1442,6 @@ The questions which have been solved are not shown in this page, more informatio
 |2606|[Find the Substring With Maximum Cost](https://leetcode.com/problems/find-the-substring-with-maximum-cost/)|Medium||
 |2607|[Make K-Subarray Sums Equal](https://leetcode.com/problems/make-k-subarray-sums-equal/)|Medium||
 |2608|[Shortest Cycle in a Graph](https://leetcode.com/problems/shortest-cycle-in-a-graph/)|Hard||
-|2610|[Convert an Array Into a 2D Array With Conditions](https://leetcode.com/problems/convert-an-array-into-a-2d-array-with-conditions/)|Medium||
 |2611|[Mice and Cheese](https://leetcode.com/problems/mice-and-cheese/)|Medium||
 |2612|[Minimum Reverse Operations](https://leetcode.com/problems/minimum-reverse-operations/)|Hard||
 |2613|[Beautiful Pairs](https://leetcode.com/problems/beautiful-pairs/)|Hard|🔒|
@@ -1590,7 +1587,6 @@ The questions which have been solved are not shown in this page, more informatio
 |2783|[Flight Occupancy and Waitlist Analysis](https://leetcode.com/problems/flight-occupancy-and-waitlist-analysis/)|Medium|🔒|
 |2786|[Visit Array Positions to Maximize Score](https://leetcode.com/problems/visit-array-positions-to-maximize-score/)|Medium||
 |2787|[Ways to Express an Integer as Sum of Powers](https://leetcode.com/problems/ways-to-express-an-integer-as-sum-of-powers/)|Medium||
-|2788|[Split Strings by Separator](https://leetcode.com/problems/split-strings-by-separator/)|Easy||
 |2789|[Largest Element in an Array after Merge Operations](https://leetcode.com/problems/largest-element-in-an-array-after-merge-operations/)|Medium||
 |2790|[Maximum Number of Groups With Increasing Length](https://leetcode.com/problems/maximum-number-of-groups-with-increasing-length/)|Hard||
 |2791|[Count Paths That Can Form a Palindrome in a Tree](https://leetcode.com/problems/count-paths-that-can-form-a-palindrome-in-a-tree/)|Hard||
@@ -1600,7 +1596,6 @@ The questions which have been solved are not shown in this page, more informatio
 |2795|[Parallel Execution of Promises for Individual Results Retrieval](https://leetcode.com/problems/parallel-execution-of-promises-for-individual-results-retrieval/)|Medium|🔒|
 |2796|[Repeat String](https://leetcode.com/problems/repeat-string/)|Easy|🔒|
 |2797|[Partial Function with Placeholders](https://leetcode.com/problems/partial-function-with-placeholders/)|Easy|🔒|
-|2798|[Number of Employees Who Met the Target](https://leetcode.com/problems/number-of-employees-who-met-the-target/)|Easy||
 |2799|[Count Complete Subarrays in an Array](https://leetcode.com/problems/count-complete-subarrays-in-an-array/)|Medium||
 |2800|[Shortest String That Contains Three Strings](https://leetcode.com/problems/shortest-string-that-contains-three-strings/)|Medium||
 |2801|[Count Stepping Numbers in Range](https://leetcode.com/problems/count-stepping-numbers-in-range/)|Hard||
@@ -1608,11 +1603,9 @@ The questions which have been solved are not shown in this page, more informatio
 |2803|[Factorial Generator](https://leetcode.com/problems/factorial-generator/)|Easy|🔒|
 |2804|[Array Prototype ForEach](https://leetcode.com/problems/array-prototype-foreach/)|Easy|🔒|
 |2805|[Custom Interval](https://leetcode.com/problems/custom-interval/)|Medium|🔒|
-|2806|[Account Balance After Rounded Purchase](https://leetcode.com/problems/account-balance-after-rounded-purchase/)|Easy||
 |2807|[Insert Greatest Common Divisors in Linked List](https://leetcode.com/problems/insert-greatest-common-divisors-in-linked-list/)|Medium||
 |2808|[Minimum Seconds to Equalize a Circular Array](https://leetcode.com/problems/minimum-seconds-to-equalize-a-circular-array/)|Medium||
 |2809|[Minimum Time to Make Array Sum At Most x](https://leetcode.com/problems/minimum-time-to-make-array-sum-at-most-x/)|Hard||
-|2810|[Faulty Keyboard](https://leetcode.com/problems/faulty-keyboard/)|Easy||
 |2811|[Check if it is Possible to Split Array](https://leetcode.com/problems/check-if-it-is-possible-to-split-array/)|Medium||
 |2812|[Find the Safest Path in a Grid](https://leetcode.com/problems/find-the-safest-path-in-a-grid/)|Medium||
 |2813|[Maximum Elegance of a K-Length Subsequence](https://leetcode.com/problems/maximum-elegance-of-a-k-length-subsequence/)|Hard||
@@ -1671,7 +1664,6 @@ The questions which have been solved are not shown in this page, more informatio
 |2867|[Count Valid Paths in a Tree](https://leetcode.com/problems/count-valid-paths-in-a-tree/)|Hard||
 |2868|[The Wording Game](https://leetcode.com/problems/the-wording-game/)|Hard|🔒|
 |2869|[Minimum Operations to Collect Elements](https://leetcode.com/problems/minimum-operations-to-collect-elements/)|Easy||
-|2870|[Minimum Number of Operations to Make Array Empty](https://leetcode.com/problems/minimum-number-of-operations-to-make-array-empty/)|Medium||
 |2871|[Split Array Into Maximum Number of Subarrays](https://leetcode.com/problems/split-array-into-maximum-number-of-subarrays/)|Medium||
 |2872|[Maximum Number of K-Divisible Components](https://leetcode.com/problems/maximum-number-of-k-divisible-components/)|Hard||
 |2873|[Maximum Value of an Ordered Triplet I](https://leetcode.com/problems/maximum-value-of-an-ordered-triplet-i/)|Easy||
