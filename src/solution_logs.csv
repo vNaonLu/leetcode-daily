@@ -1213,3 +1213,4 @@ timestamp,id,tc,sc,notes
 1704610347,2806,1,1,
 1704717900,2810,n ^ 2,1,n = |s.size()|
 1704805669,2815,n * E^2 * log(E),E,"n = |nums.size()|, E = digits of |nums[i]|"
+1704884465,2385,n,n,n = nodes of |root|

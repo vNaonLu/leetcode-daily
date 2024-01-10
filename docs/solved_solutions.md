@@ -1,6 +1,6 @@
 # Solved Solutions List
 
-This document contains **1214** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
+This document contains **1215** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
 
 Some questions which are still being resolved are not shown in this page, more information about unsolved questions can be found at [docs/unsolved_solutions.md](./unsolved_solutions.md).
 
@@ -1119,6 +1119,7 @@ Some questions which are still being resolved are not shown in this page, more i
 |2373|[Largest Local Values in a Matrix](https://leetcode.com/problems/largest-local-values-in-a-matrix/)|[src/q_2351_2400/q2373.cc](../src/q_2351_2400/q2373.cc)|2023/02/19 14:42|
 |2379|[Minimum Recolors to Get K Consecutive Black Blocks](https://leetcode.com/problems/minimum-recolors-to-get-k-consecutive-black-blocks/)|[src/q_2351_2400/q2379.cc](../src/q_2351_2400/q2379.cc)|2023/10/24 20:03|
 |2383|[Minimum Hours of Training to Win a Competition](https://leetcode.com/problems/minimum-hours-of-training-to-win-a-competition/)|[src/q_2351_2400/q2383.cc](../src/q_2351_2400/q2383.cc)|2023/10/25 20:18|
+|2385|[Amount of Time for Binary Tree to Be Infected](https://leetcode.com/problems/amount-of-time-for-binary-tree-to-be-infected/)|[src/q_2351_2400/q2385.cc](../src/q_2351_2400/q2385.cc)|2024/01/10 19:01|
 |2389|[Longest Subsequence With Limited Sum](https://leetcode.com/problems/longest-subsequence-with-limited-sum/)|[src/q_2351_2400/q2389.cc](../src/q_2351_2400/q2389.cc)|2022/12/25 14:43|
 |2390|[Removing Stars From a String](https://leetcode.com/problems/removing-stars-from-a-string/)|[src/q_2351_2400/q2390.cc](../src/q_2351_2400/q2390.cc)|2023/04/11 10:18|
 |2391|[Minimum Amount of Time to Collect Garbage](https://leetcode.com/problems/minimum-amount-of-time-to-collect-garbage/)|[src/q_2351_2400/q2391.cc](../src/q_2351_2400/q2391.cc)|2023/11/20 20:08|
