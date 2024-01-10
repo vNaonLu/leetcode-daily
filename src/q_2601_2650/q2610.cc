@@ -88,7 +88,7 @@ LEETCODE_SOLUTION_UNITTEST(2610, ConvertAnArrayIntoA2DArrayWithConditions,
       {1}
   };
   vector<vector<int>> actual = solution->findMatrix(nums);
-  LCD_EXPECT_EQ(expect, actual);
+  EXPECT_ANYORDER_WITH_DEPTH_EQ(1, expect, actual);
 }
 
 // [Example #2]
@@ -106,5 +106,5 @@ LEETCODE_SOLUTION_UNITTEST(2610, ConvertAnArrayIntoA2DArrayWithConditions,
       {4, 3, 2, 1}
   };
   vector<vector<int>> actual = solution->findMatrix(nums);
-  LCD_EXPECT_EQ(expect, actual);
+  EXPECT_ANYORDER_WITH_DEPTH_EQ(1, expect, actual);
 }
