@@ -1,6 +1,6 @@
 # Unsolved Solutions List
 
-There are **1724** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
+There are **1723** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
 
 The questions which have been solved are not shown in this page, more information about solved questions can be found at [docs/solved_solutions.md](./solved_solutions.md).
 
@@ -1620,7 +1620,6 @@ The questions which have been solved are not shown in this page, more informatio
 |2825|[Make String a Subsequence Using Cyclic Increments](https://leetcode.com/problems/make-string-a-subsequence-using-cyclic-increments/)|Medium||
 |2826|[Sorting Three Groups](https://leetcode.com/problems/sorting-three-groups/)|Medium||
 |2827|[Number of Beautiful Integers in the Range](https://leetcode.com/problems/number-of-beautiful-integers-in-the-range/)|Hard||
-|2828|[Check if a String Is an Acronym of Words](https://leetcode.com/problems/check-if-a-string-is-an-acronym-of-words/)|Easy||
 |2829|[Determine the Minimum Sum of a k-avoiding Array](https://leetcode.com/problems/determine-the-minimum-sum-of-a-k-avoiding-array/)|Medium||
 |2830|[Maximize the Profit as the Salesman](https://leetcode.com/problems/maximize-the-profit-as-the-salesman/)|Medium||
 |2831|[Find the Longest Equal Subarray](https://leetcode.com/problems/find-the-longest-equal-subarray/)|Medium||
