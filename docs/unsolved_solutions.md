@@ -1,6 +1,6 @@
 # Unsolved Solutions List
 
-There are **1723** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
+There are **1722** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
 
 The questions which have been solved are not shown in this page, more information about solved questions can be found at [docs/solved_solutions.md](./solved_solutions.md).
 
@@ -624,7 +624,6 @@ The questions which have been solved are not shown in this page, more informatio
 |1340|[Jump Game V](https://leetcode.com/problems/jump-game-v/)|Hard||
 |1341|[Movie Rating](https://leetcode.com/problems/movie-rating/)|Medium||
 |1343|[Number of Sub-arrays of Size K and Average Greater than or Equal to Threshold](https://leetcode.com/problems/number-of-sub-arrays-of-size-k-and-average-greater-than-or-equal-to-threshold/)|Medium||
-|1347|[Minimum Number of Steps to Make Two Strings Anagram](https://leetcode.com/problems/minimum-number-of-steps-to-make-two-strings-anagram/)|Medium||
 |1348|[Tweet Counts Per Frequency](https://leetcode.com/problems/tweet-counts-per-frequency/)|Medium||
 |1349|[Maximum Students Taking Exam](https://leetcode.com/problems/maximum-students-taking-exam/)|Hard||
 |1350|[Students With Invalid Departments](https://leetcode.com/problems/students-with-invalid-departments/)|Easy|🔒|
