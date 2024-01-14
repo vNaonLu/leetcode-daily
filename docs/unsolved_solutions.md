@@ -1,6 +1,6 @@
 # Unsolved Solutions List
 
-There are **1722** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
+There are **1721** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
 
 The questions which have been solved are not shown in this page, more information about solved questions can be found at [docs/solved_solutions.md](./solved_solutions.md).
 
@@ -1623,7 +1623,6 @@ The questions which have been solved are not shown in this page, more informatio
 |2830|[Maximize the Profit as the Salesman](https://leetcode.com/problems/maximize-the-profit-as-the-salesman/)|Medium||
 |2831|[Find the Longest Equal Subarray](https://leetcode.com/problems/find-the-longest-equal-subarray/)|Medium||
 |2832|[Maximal Range That Each Element Is Maximum in It](https://leetcode.com/problems/maximal-range-that-each-element-is-maximum-in-it/)|Medium|🔒|
-|2833|[Furthest Point From Origin](https://leetcode.com/problems/furthest-point-from-origin/)|Easy||
 |2834|[Find the Minimum Possible Sum of a Beautiful Array](https://leetcode.com/problems/find-the-minimum-possible-sum-of-a-beautiful-array/)|Medium||
 |2835|[Minimum Operations to Form Subsequence With Target Sum](https://leetcode.com/problems/minimum-operations-to-form-subsequence-with-target-sum/)|Hard||
 |2836|[Maximize Value of Function in a Ball Passing Game](https://leetcode.com/problems/maximize-value-of-function-in-a-ball-passing-game/)|Hard||
