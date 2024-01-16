@@ -1,6 +1,6 @@
 # Unsolved Solutions List
 
-There are **1727** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
+There are **1720** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
 
 The questions which have been solved are not shown in this page, more information about solved questions can be found at [docs/solved_solutions.md](./solved_solutions.md).
 
@@ -624,7 +624,6 @@ The questions which have been solved are not shown in this page, more informatio
 |1340|[Jump Game V](https://leetcode.com/problems/jump-game-v/)|Hard||
 |1341|[Movie Rating](https://leetcode.com/problems/movie-rating/)|Medium||
 |1343|[Number of Sub-arrays of Size K and Average Greater than or Equal to Threshold](https://leetcode.com/problems/number-of-sub-arrays-of-size-k-and-average-greater-than-or-equal-to-threshold/)|Medium||
-|1347|[Minimum Number of Steps to Make Two Strings Anagram](https://leetcode.com/problems/minimum-number-of-steps-to-make-two-strings-anagram/)|Medium||
 |1348|[Tweet Counts Per Frequency](https://leetcode.com/problems/tweet-counts-per-frequency/)|Medium||
 |1349|[Maximum Students Taking Exam](https://leetcode.com/problems/maximum-students-taking-exam/)|Hard||
 |1350|[Students With Invalid Departments](https://leetcode.com/problems/students-with-invalid-departments/)|Easy|🔒|
@@ -1279,7 +1278,6 @@ The questions which have been solved are not shown in this page, more informatio
 |2381|[Shifting Letters II](https://leetcode.com/problems/shifting-letters-ii/)|Medium||
 |2382|[Maximum Segment Sum After Removals](https://leetcode.com/problems/maximum-segment-sum-after-removals/)|Hard||
 |2384|[Largest Palindromic Number](https://leetcode.com/problems/largest-palindromic-number/)|Medium||
-|2385|[Amount of Time for Binary Tree to Be Infected](https://leetcode.com/problems/amount-of-time-for-binary-tree-to-be-infected/)|Medium||
 |2386|[Find the K-Sum of an Array](https://leetcode.com/problems/find-the-k-sum-of-an-array/)|Hard||
 |2387|[Median of a Row Wise Sorted Matrix](https://leetcode.com/problems/median-of-a-row-wise-sorted-matrix/)|Medium|🔒|
 |2388|[Change Null Values in a Table to the Previous Value](https://leetcode.com/problems/change-null-values-in-a-table-to-the-previous-value/)|Medium|🔒|
@@ -1610,7 +1608,6 @@ The questions which have been solved are not shown in this page, more informatio
 |2812|[Find the Safest Path in a Grid](https://leetcode.com/problems/find-the-safest-path-in-a-grid/)|Medium||
 |2813|[Maximum Elegance of a K-Length Subsequence](https://leetcode.com/problems/maximum-elegance-of-a-k-length-subsequence/)|Hard||
 |2814|[Minimum Time Takes to Reach Destination Without Drowning](https://leetcode.com/problems/minimum-time-takes-to-reach-destination-without-drowning/)|Hard|🔒|
-|2815|[Max Pair Sum in an Array](https://leetcode.com/problems/max-pair-sum-in-an-array/)|Easy||
 |2816|[Double a Number Represented as a Linked List](https://leetcode.com/problems/double-a-number-represented-as-a-linked-list/)|Medium||
 |2817|[Minimum Absolute Difference Between Elements With Constraint](https://leetcode.com/problems/minimum-absolute-difference-between-elements-with-constraint/)|Medium||
 |2818|[Apply Operations to Maximize Score](https://leetcode.com/problems/apply-operations-to-maximize-score/)|Hard||
@@ -1619,22 +1616,18 @@ The questions which have been solved are not shown in this page, more informatio
 |2821|[Delay the Resolution of Each Promise](https://leetcode.com/problems/delay-the-resolution-of-each-promise/)|Easy|🔒|
 |2822|[Inversion of Object](https://leetcode.com/problems/inversion-of-object/)|Easy|🔒|
 |2823|[Deep Object Filter](https://leetcode.com/problems/deep-object-filter/)|Medium|🔒|
-|2824|[Count Pairs Whose Sum is Less than Target](https://leetcode.com/problems/count-pairs-whose-sum-is-less-than-target/)|Easy||
 |2825|[Make String a Subsequence Using Cyclic Increments](https://leetcode.com/problems/make-string-a-subsequence-using-cyclic-increments/)|Medium||
 |2826|[Sorting Three Groups](https://leetcode.com/problems/sorting-three-groups/)|Medium||
 |2827|[Number of Beautiful Integers in the Range](https://leetcode.com/problems/number-of-beautiful-integers-in-the-range/)|Hard||
-|2828|[Check if a String Is an Acronym of Words](https://leetcode.com/problems/check-if-a-string-is-an-acronym-of-words/)|Easy||
 |2829|[Determine the Minimum Sum of a k-avoiding Array](https://leetcode.com/problems/determine-the-minimum-sum-of-a-k-avoiding-array/)|Medium||
 |2830|[Maximize the Profit as the Salesman](https://leetcode.com/problems/maximize-the-profit-as-the-salesman/)|Medium||
 |2831|[Find the Longest Equal Subarray](https://leetcode.com/problems/find-the-longest-equal-subarray/)|Medium||
 |2832|[Maximal Range That Each Element Is Maximum in It](https://leetcode.com/problems/maximal-range-that-each-element-is-maximum-in-it/)|Medium|🔒|
-|2833|[Furthest Point From Origin](https://leetcode.com/problems/furthest-point-from-origin/)|Easy||
 |2834|[Find the Minimum Possible Sum of a Beautiful Array](https://leetcode.com/problems/find-the-minimum-possible-sum-of-a-beautiful-array/)|Medium||
 |2835|[Minimum Operations to Form Subsequence With Target Sum](https://leetcode.com/problems/minimum-operations-to-form-subsequence-with-target-sum/)|Hard||
 |2836|[Maximize Value of Function in a Ball Passing Game](https://leetcode.com/problems/maximize-value-of-function-in-a-ball-passing-game/)|Hard||
 |2837|[Total Traveled Distance](https://leetcode.com/problems/total-traveled-distance/)|Easy|🔒|
 |2838|[Maximum Coins Heroes Can Collect](https://leetcode.com/problems/maximum-coins-heroes-can-collect/)|Medium|🔒|
-|2839|[Check if Strings Can be Made Equal With Operations I](https://leetcode.com/problems/check-if-strings-can-be-made-equal-with-operations-i/)|Easy||
 |2840|[Check if Strings Can be Made Equal With Operations II](https://leetcode.com/problems/check-if-strings-can-be-made-equal-with-operations-ii/)|Medium||
 |2841|[Maximum Sum of Almost Unique Subarray](https://leetcode.com/problems/maximum-sum-of-almost-unique-subarray/)|Medium||
 |2842|[Count K-Subsequences of a String With Maximum Beauty](https://leetcode.com/problems/count-k-subsequences-of-a-string-with-maximum-beauty/)|Hard||

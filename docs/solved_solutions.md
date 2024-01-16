@@ -1,6 +1,6 @@
 # Solved Solutions List
 
-This document contains **1213** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
+This document contains **1220** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
 
 Some questions which are still being resolved are not shown in this page, more information about unsolved questions can be found at [docs/unsolved_solutions.md](./unsolved_solutions.md).
 
@@ -736,6 +736,7 @@ Some questions which are still being resolved are not shown in this page, more i
 |1344|[Angle Between Hands of a Clock](https://leetcode.com/problems/angle-between-hands-of-a-clock/)|[src/q_1301_1350/q1344.cc](../src/q_1301_1350/q1344.cc)|2022/03/02 18:33|
 |1345|[Jump Game IV](https://leetcode.com/problems/jump-game-iv/)|[src/q_1301_1350/q1345.cc](../src/q_1301_1350/q1345.cc)|2022/01/15 14:26|
 |1346|[Check If N and Its Double Exist](https://leetcode.com/problems/check-if-n-and-its-double-exist/)|[src/q_1301_1350/q1346.cc](../src/q_1301_1350/q1346.cc)|2022/04/11 18:30|
+|1347|[Minimum Number of Steps to Make Two Strings Anagram](https://leetcode.com/problems/minimum-number-of-steps-to-make-two-strings-anagram/)|[src/q_1301_1350/q1347.cc](../src/q_1301_1350/q1347.cc)|2024/01/13 10:19|
 |1351|[Count Negative Numbers in a Sorted Matrix](https://leetcode.com/problems/count-negative-numbers-in-a-sorted-matrix/)|[src/q_1351_1400/q1351.cc](../src/q_1351_1400/q1351.cc)|2022/04/10 14:24|
 |1356|[Sort Integers by The Number of 1 Bits](https://leetcode.com/problems/sort-integers-by-the-number-of-1-bits/)|[src/q_1351_1400/q1356.cc](../src/q_1351_1400/q1356.cc)|2021/10/06 00:58|
 |1359|[Count All Valid Pickup and Delivery Options](https://leetcode.com/problems/count-all-valid-pickup-and-delivery-options/)|[src/q_1351_1400/q1359.cc](../src/q_1351_1400/q1359.cc)|2022/03/06 12:49|
@@ -1119,6 +1120,7 @@ Some questions which are still being resolved are not shown in this page, more i
 |2373|[Largest Local Values in a Matrix](https://leetcode.com/problems/largest-local-values-in-a-matrix/)|[src/q_2351_2400/q2373.cc](../src/q_2351_2400/q2373.cc)|2023/02/19 14:42|
 |2379|[Minimum Recolors to Get K Consecutive Black Blocks](https://leetcode.com/problems/minimum-recolors-to-get-k-consecutive-black-blocks/)|[src/q_2351_2400/q2379.cc](../src/q_2351_2400/q2379.cc)|2023/10/24 20:03|
 |2383|[Minimum Hours of Training to Win a Competition](https://leetcode.com/problems/minimum-hours-of-training-to-win-a-competition/)|[src/q_2351_2400/q2383.cc](../src/q_2351_2400/q2383.cc)|2023/10/25 20:18|
+|2385|[Amount of Time for Binary Tree to Be Infected](https://leetcode.com/problems/amount-of-time-for-binary-tree-to-be-infected/)|[src/q_2351_2400/q2385.cc](../src/q_2351_2400/q2385.cc)|2024/01/10 19:01|
 |2389|[Longest Subsequence With Limited Sum](https://leetcode.com/problems/longest-subsequence-with-limited-sum/)|[src/q_2351_2400/q2389.cc](../src/q_2351_2400/q2389.cc)|2022/12/25 14:43|
 |2390|[Removing Stars From a String](https://leetcode.com/problems/removing-stars-from-a-string/)|[src/q_2351_2400/q2390.cc](../src/q_2351_2400/q2390.cc)|2023/04/11 10:18|
 |2391|[Minimum Amount of Time to Collect Garbage](https://leetcode.com/problems/minimum-amount-of-time-to-collect-garbage/)|[src/q_2351_2400/q2391.cc](../src/q_2351_2400/q2391.cc)|2023/11/20 20:08|
@@ -1218,5 +1220,10 @@ Some questions which are still being resolved are not shown in this page, more i
 |2798|[Number of Employees Who Met the Target](https://leetcode.com/problems/number-of-employees-who-met-the-target/)|[src/q_2751_2800/q2798.cc](../src/q_2751_2800/q2798.cc)|2024/01/05 17:22|
 |2806|[Account Balance After Rounded Purchase](https://leetcode.com/problems/account-balance-after-rounded-purchase/)|[src/q_2801_2850/q2806.cc](../src/q_2801_2850/q2806.cc)|2024/01/07 14:52|
 |2810|[Faulty Keyboard](https://leetcode.com/problems/faulty-keyboard/)|[src/q_2801_2850/q2810.cc](../src/q_2801_2850/q2810.cc)|2024/01/08 20:45|
+|2815|[Max Pair Sum in an Array](https://leetcode.com/problems/max-pair-sum-in-an-array/)|[src/q_2801_2850/q2815.cc](../src/q_2801_2850/q2815.cc)|2024/01/09 21:07|
+|2824|[Count Pairs Whose Sum is Less than Target](https://leetcode.com/problems/count-pairs-whose-sum-is-less-than-target/)|[src/q_2801_2850/q2824.cc](../src/q_2801_2850/q2824.cc)|2024/01/11 22:54|
+|2828|[Check if a String Is an Acronym of Words](https://leetcode.com/problems/check-if-a-string-is-an-acronym-of-words/)|[src/q_2801_2850/q2828.cc](../src/q_2801_2850/q2828.cc)|2024/01/12 21:58|
+|2833|[Furthest Point From Origin](https://leetcode.com/problems/furthest-point-from-origin/)|[src/q_2801_2850/q2833.cc](../src/q_2801_2850/q2833.cc)|2024/01/14 12:35|
+|2839|[Check if Strings Can be Made Equal With Operations I](https://leetcode.com/problems/check-if-strings-can-be-made-equal-with-operations-i/)|[src/q_2801_2850/q2839.cc](../src/q_2801_2850/q2839.cc)|2024/01/15 18:50|
 |2849|[Determine if a Cell Is Reachable at a Given Time](https://leetcode.com/problems/determine-if-a-cell-is-reachable-at-a-given-time/)|[src/q_2801_2850/q2849.cc](../src/q_2801_2850/q2849.cc)|2023/11/08 19:16|
 |2870|[Minimum Number of Operations to Make Array Empty](https://leetcode.com/problems/minimum-number-of-operations-to-make-array-empty/)|[src/q_2851_2900/q2870.cc](../src/q_2851_2900/q2870.cc)|2024/01/04 23:34|
