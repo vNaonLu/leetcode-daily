@@ -1,6 +1,6 @@
 # Solved Solutions List
 
-This document contains **1220** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
+This document contains **1221** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
 
 Some questions which are still being resolved are not shown in this page, more information about unsolved questions can be found at [docs/unsolved_solutions.md](./unsolved_solutions.md).
 
@@ -1225,5 +1225,6 @@ Some questions which are still being resolved are not shown in this page, more i
 |2828|[Check if a String Is an Acronym of Words](https://leetcode.com/problems/check-if-a-string-is-an-acronym-of-words/)|[src/q_2801_2850/q2828.cc](../src/q_2801_2850/q2828.cc)|2024/01/12 21:58|
 |2833|[Furthest Point From Origin](https://leetcode.com/problems/furthest-point-from-origin/)|[src/q_2801_2850/q2833.cc](../src/q_2801_2850/q2833.cc)|2024/01/14 12:35|
 |2839|[Check if Strings Can be Made Equal With Operations I](https://leetcode.com/problems/check-if-strings-can-be-made-equal-with-operations-i/)|[src/q_2801_2850/q2839.cc](../src/q_2801_2850/q2839.cc)|2024/01/15 18:50|
+|2843|[  Count Symmetric Integers](https://leetcode.com/problems/count-symmetric-integers/)|[src/q_2801_2850/q2843.cc](../src/q_2801_2850/q2843.cc)|2024/01/16 19:32|
 |2849|[Determine if a Cell Is Reachable at a Given Time](https://leetcode.com/problems/determine-if-a-cell-is-reachable-at-a-given-time/)|[src/q_2801_2850/q2849.cc](../src/q_2801_2850/q2849.cc)|2023/11/08 19:16|
 |2870|[Minimum Number of Operations to Make Array Empty](https://leetcode.com/problems/minimum-number-of-operations-to-make-array-empty/)|[src/q_2851_2900/q2870.cc](../src/q_2851_2900/q2870.cc)|2024/01/04 23:34|
