@@ -1,6 +1,6 @@
 # Unsolved Solutions List
 
-There are **1718** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
+There are **1717** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
 
 The questions which have been solved are not shown in this page, more information about solved questions can be found at [docs/solved_solutions.md](./solved_solutions.md).
 
@@ -1640,7 +1640,6 @@ The questions which have been solved are not shown in this page, more informatio
 |2852|[Sum of Remoteness of All Cells](https://leetcode.com/problems/sum-of-remoteness-of-all-cells/)|Medium|🔒|
 |2853|[Highest Salaries Difference](https://leetcode.com/problems/highest-salaries-difference/)|Easy|🔒|
 |2854|[Rolling Average Steps](https://leetcode.com/problems/rolling-average-steps/)|Medium|🔒|
-|2855|[Minimum Right Shifts to Sort the Array](https://leetcode.com/problems/minimum-right-shifts-to-sort-the-array/)|Easy||
 |2856|[Minimum Array Length After Pair Removals](https://leetcode.com/problems/minimum-array-length-after-pair-removals/)|Medium||
 |2857|[Count Pairs of Points With Distance k](https://leetcode.com/problems/count-pairs-of-points-with-distance-k/)|Medium||
 |2858|[Minimum Edge Reversals So Every Node Is Reachable](https://leetcode.com/problems/minimum-edge-reversals-so-every-node-is-reachable/)|Hard||

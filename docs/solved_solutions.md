@@ -1,6 +1,6 @@
 # Solved Solutions List
 
-This document contains **1222** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
+This document contains **1223** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
 
 Some questions which are still being resolved are not shown in this page, more information about unsolved questions can be found at [docs/unsolved_solutions.md](./unsolved_solutions.md).
 
@@ -1228,4 +1228,5 @@ Some questions which are still being resolved are not shown in this page, more i
 |2843|[  Count Symmetric Integers](https://leetcode.com/problems/count-symmetric-integers/)|[src/q_2801_2850/q2843.cc](../src/q_2801_2850/q2843.cc)|2024/01/16 19:32|
 |2848|[Points That Intersect With Cars](https://leetcode.com/problems/points-that-intersect-with-cars/)|[src/q_2801_2850/q2848.cc](../src/q_2801_2850/q2848.cc)|2024/01/17 19:08|
 |2849|[Determine if a Cell Is Reachable at a Given Time](https://leetcode.com/problems/determine-if-a-cell-is-reachable-at-a-given-time/)|[src/q_2801_2850/q2849.cc](../src/q_2801_2850/q2849.cc)|2023/11/08 19:16|
+|2855|[Minimum Right Shifts to Sort the Array](https://leetcode.com/problems/minimum-right-shifts-to-sort-the-array/)|[src/q_2851_2900/q2855.cc](../src/q_2851_2900/q2855.cc)|2024/01/18 19:57|
 |2870|[Minimum Number of Operations to Make Array Empty](https://leetcode.com/problems/minimum-number-of-operations-to-make-array-empty/)|[src/q_2851_2900/q2870.cc](../src/q_2851_2900/q2870.cc)|2024/01/04 23:34|
