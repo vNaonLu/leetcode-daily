@@ -1,6 +1,6 @@
 # Unsolved Solutions List
 
-There are **1716** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
+There are **1715** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
 
 The questions which have been solved are not shown in this page, more information about solved questions can be found at [docs/solved_solutions.md](./solved_solutions.md).
 
@@ -1647,7 +1647,6 @@ The questions which have been solved are not shown in this page, more informatio
 |2861|[Maximum Number of Alloys](https://leetcode.com/problems/maximum-number-of-alloys/)|Medium||
 |2862|[Maximum Element-Sum of a Complete Subset of Indices](https://leetcode.com/problems/maximum-element-sum-of-a-complete-subset-of-indices/)|Hard||
 |2863|[Maximum Length of Semi-Decreasing Subarrays](https://leetcode.com/problems/maximum-length-of-semi-decreasing-subarrays/)|Medium|🔒|
-|2864|[Maximum Odd Binary Number](https://leetcode.com/problems/maximum-odd-binary-number/)|Easy||
 |2865|[Beautiful Towers I](https://leetcode.com/problems/beautiful-towers-i/)|Medium||
 |2866|[Beautiful Towers II](https://leetcode.com/problems/beautiful-towers-ii/)|Medium||
 |2867|[Count Valid Paths in a Tree](https://leetcode.com/problems/count-valid-paths-in-a-tree/)|Hard||
