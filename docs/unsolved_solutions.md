@@ -1,6 +1,6 @@
 # Unsolved Solutions List
 
-There are **1720** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
+There are **1715** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
 
 The questions which have been solved are not shown in this page, more information about solved questions can be found at [docs/solved_solutions.md](./solved_solutions.md).
 
@@ -1631,27 +1631,22 @@ The questions which have been solved are not shown in this page, more informatio
 |2840|[Check if Strings Can be Made Equal With Operations II](https://leetcode.com/problems/check-if-strings-can-be-made-equal-with-operations-ii/)|Medium||
 |2841|[Maximum Sum of Almost Unique Subarray](https://leetcode.com/problems/maximum-sum-of-almost-unique-subarray/)|Medium||
 |2842|[Count K-Subsequences of a String With Maximum Beauty](https://leetcode.com/problems/count-k-subsequences-of-a-string-with-maximum-beauty/)|Hard||
-|2843|[  Count Symmetric Integers](https://leetcode.com/problems/count-symmetric-integers/)|Easy||
 |2844|[Minimum Operations to Make a Special Number](https://leetcode.com/problems/minimum-operations-to-make-a-special-number/)|Medium||
 |2845|[Count of Interesting Subarrays](https://leetcode.com/problems/count-of-interesting-subarrays/)|Medium||
 |2846|[Minimum Edge Weight Equilibrium Queries in a Tree](https://leetcode.com/problems/minimum-edge-weight-equilibrium-queries-in-a-tree/)|Hard||
 |2847|[Smallest Number With Given Digit Product](https://leetcode.com/problems/smallest-number-with-given-digit-product/)|Medium|🔒|
-|2848|[Points That Intersect With Cars](https://leetcode.com/problems/points-that-intersect-with-cars/)|Easy||
 |2850|[Minimum Moves to Spread Stones Over Grid](https://leetcode.com/problems/minimum-moves-to-spread-stones-over-grid/)|Medium||
 |2851|[String Transformation](https://leetcode.com/problems/string-transformation/)|Hard||
 |2852|[Sum of Remoteness of All Cells](https://leetcode.com/problems/sum-of-remoteness-of-all-cells/)|Medium|🔒|
 |2853|[Highest Salaries Difference](https://leetcode.com/problems/highest-salaries-difference/)|Easy|🔒|
 |2854|[Rolling Average Steps](https://leetcode.com/problems/rolling-average-steps/)|Medium|🔒|
-|2855|[Minimum Right Shifts to Sort the Array](https://leetcode.com/problems/minimum-right-shifts-to-sort-the-array/)|Easy||
 |2856|[Minimum Array Length After Pair Removals](https://leetcode.com/problems/minimum-array-length-after-pair-removals/)|Medium||
 |2857|[Count Pairs of Points With Distance k](https://leetcode.com/problems/count-pairs-of-points-with-distance-k/)|Medium||
 |2858|[Minimum Edge Reversals So Every Node Is Reachable](https://leetcode.com/problems/minimum-edge-reversals-so-every-node-is-reachable/)|Hard||
-|2859|[Sum of Values at Indices With K Set Bits](https://leetcode.com/problems/sum-of-values-at-indices-with-k-set-bits/)|Easy||
 |2860|[Happy Students](https://leetcode.com/problems/happy-students/)|Medium||
 |2861|[Maximum Number of Alloys](https://leetcode.com/problems/maximum-number-of-alloys/)|Medium||
 |2862|[Maximum Element-Sum of a Complete Subset of Indices](https://leetcode.com/problems/maximum-element-sum-of-a-complete-subset-of-indices/)|Hard||
 |2863|[Maximum Length of Semi-Decreasing Subarrays](https://leetcode.com/problems/maximum-length-of-semi-decreasing-subarrays/)|Medium|🔒|
-|2864|[Maximum Odd Binary Number](https://leetcode.com/problems/maximum-odd-binary-number/)|Easy||
 |2865|[Beautiful Towers I](https://leetcode.com/problems/beautiful-towers-i/)|Medium||
 |2866|[Beautiful Towers II](https://leetcode.com/problems/beautiful-towers-ii/)|Medium||
 |2867|[Count Valid Paths in a Tree](https://leetcode.com/problems/count-valid-paths-in-a-tree/)|Hard||

@@ -1,6 +1,6 @@
 # Solved Solutions List
 
-This document contains **1220** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
+This document contains **1225** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
 
 Some questions which are still being resolved are not shown in this page, more information about unsolved questions can be found at [docs/unsolved_solutions.md](./unsolved_solutions.md).
 
@@ -1225,5 +1225,10 @@ Some questions which are still being resolved are not shown in this page, more i
 |2828|[Check if a String Is an Acronym of Words](https://leetcode.com/problems/check-if-a-string-is-an-acronym-of-words/)|[src/q_2801_2850/q2828.cc](../src/q_2801_2850/q2828.cc)|2024/01/12 21:58|
 |2833|[Furthest Point From Origin](https://leetcode.com/problems/furthest-point-from-origin/)|[src/q_2801_2850/q2833.cc](../src/q_2801_2850/q2833.cc)|2024/01/14 12:35|
 |2839|[Check if Strings Can be Made Equal With Operations I](https://leetcode.com/problems/check-if-strings-can-be-made-equal-with-operations-i/)|[src/q_2801_2850/q2839.cc](../src/q_2801_2850/q2839.cc)|2024/01/15 18:50|
+|2843|[  Count Symmetric Integers](https://leetcode.com/problems/count-symmetric-integers/)|[src/q_2801_2850/q2843.cc](../src/q_2801_2850/q2843.cc)|2024/01/16 19:32|
+|2848|[Points That Intersect With Cars](https://leetcode.com/problems/points-that-intersect-with-cars/)|[src/q_2801_2850/q2848.cc](../src/q_2801_2850/q2848.cc)|2024/01/17 19:08|
 |2849|[Determine if a Cell Is Reachable at a Given Time](https://leetcode.com/problems/determine-if-a-cell-is-reachable-at-a-given-time/)|[src/q_2801_2850/q2849.cc](../src/q_2801_2850/q2849.cc)|2023/11/08 19:16|
+|2855|[Minimum Right Shifts to Sort the Array](https://leetcode.com/problems/minimum-right-shifts-to-sort-the-array/)|[src/q_2851_2900/q2855.cc](../src/q_2851_2900/q2855.cc)|2024/01/18 19:57|
+|2859|[Sum of Values at Indices With K Set Bits](https://leetcode.com/problems/sum-of-values-at-indices-with-k-set-bits/)|[src/q_2851_2900/q2859.cc](../src/q_2851_2900/q2859.cc)|2024/01/19 20:53|
+|2864|[Maximum Odd Binary Number](https://leetcode.com/problems/maximum-odd-binary-number/)|[src/q_2851_2900/q2864.cc](../src/q_2851_2900/q2864.cc)|2024/01/21 15:02|
 |2870|[Minimum Number of Operations to Make Array Empty](https://leetcode.com/problems/minimum-number-of-operations-to-make-array-empty/)|[src/q_2851_2900/q2870.cc](../src/q_2851_2900/q2870.cc)|2024/01/04 23:34|
