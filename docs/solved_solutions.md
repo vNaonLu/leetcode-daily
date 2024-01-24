@@ -1,6 +1,6 @@
 # Solved Solutions List
 
-This document contains **1226** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
+This document contains **1227** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
 
 Some questions which are still being resolved are not shown in this page, more information about unsolved questions can be found at [docs/unsolved_solutions.md](./unsolved_solutions.md).
 
@@ -1233,3 +1233,4 @@ Some questions which are still being resolved are not shown in this page, more i
 |2864|[Maximum Odd Binary Number](https://leetcode.com/problems/maximum-odd-binary-number/)|[src/q_2851_2900/q2864.cc](../src/q_2851_2900/q2864.cc)|2024/01/21 15:02|
 |2869|[Minimum Operations to Collect Elements](https://leetcode.com/problems/minimum-operations-to-collect-elements/)|[src/q_2851_2900/q2869.cc](../src/q_2851_2900/q2869.cc)|2024/01/23 19:55|
 |2870|[Minimum Number of Operations to Make Array Empty](https://leetcode.com/problems/minimum-number-of-operations-to-make-array-empty/)|[src/q_2851_2900/q2870.cc](../src/q_2851_2900/q2870.cc)|2024/01/04 23:34|
+|2873|[Maximum Value of an Ordered Triplet I](https://leetcode.com/problems/maximum-value-of-an-ordered-triplet-i/)|[src/q_2851_2900/q2873.cc](../src/q_2851_2900/q2873.cc)|2024/01/24 19:43|
