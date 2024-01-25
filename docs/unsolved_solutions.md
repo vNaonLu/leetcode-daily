@@ -1,6 +1,6 @@
 # Unsolved Solutions List
 
-There are **1713** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
+There are **1712** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
 
 The questions which have been solved are not shown in this page, more information about solved questions can be found at [docs/solved_solutions.md](./solved_solutions.md).
 
@@ -1673,7 +1673,6 @@ The questions which have been solved are not shown in this page, more informatio
 |2891|[Method Chaining](https://leetcode.com/problems/method-chaining/)|Easy||
 |2892|[Minimizing Array After Replacing Pairs With Their Product](https://leetcode.com/problems/minimizing-array-after-replacing-pairs-with-their-product/)|Medium|🔒|
 |2893|[Calculate Orders Within Each Interval](https://leetcode.com/problems/calculate-orders-within-each-interval/)|Medium|🔒|
-|2894|[Divisible and Non-divisible Sums Difference](https://leetcode.com/problems/divisible-and-non-divisible-sums-difference/)|Easy||
 |2895|[Minimum Processing Time](https://leetcode.com/problems/minimum-processing-time/)|Medium||
 |2896|[Apply Operations to Make Two Strings Equal](https://leetcode.com/problems/apply-operations-to-make-two-strings-equal/)|Medium||
 |2897|[Apply Operations on Array to Maximize Sum of Squares](https://leetcode.com/problems/apply-operations-on-array-to-maximize-sum-of-squares/)|Hard||
