@@ -1,6 +1,6 @@
 # Solved Solutions List
 
-This document contains **1231** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
+This document contains **1232** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
 
 Some questions which are still being resolved are not shown in this page, more information about unsolved questions can be found at [docs/unsolved_solutions.md](./unsolved_solutions.md).
 
@@ -1238,3 +1238,4 @@ Some questions which are still being resolved are not shown in this page, more i
 |2899|[Last Visited Integers](https://leetcode.com/problems/last-visited-integers/)|[src/q_2851_2900/q2899.cc](../src/q_2851_2900/q2899.cc)|2024/01/27 16:20|
 |2903|[Find Indices With Index and Value Difference I](https://leetcode.com/problems/find-indices-with-index-and-value-difference-i/)|[src/q_2901_2950/q2903.cc](../src/q_2901_2950/q2903.cc)|2024/01/28 16:43|
 |2908|[Minimum Sum of Mountain Triplets I](https://leetcode.com/problems/minimum-sum-of-mountain-triplets-i/)|[src/q_2901_2950/q2908.cc](../src/q_2901_2950/q2908.cc)|2024/01/29 20:18|
+|2913|[Subarrays Distinct Element Sum of Squares I](https://leetcode.com/problems/subarrays-distinct-element-sum-of-squares-i/)|[src/q_2901_2950/q2913.cc](../src/q_2901_2950/q2913.cc)|2024/01/30 20:09|
