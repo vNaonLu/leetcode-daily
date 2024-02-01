@@ -1,6 +1,6 @@
 # Solved Solutions List
 
-This document contains **1233** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
+This document contains **1234** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
 
 Some questions which are still being resolved are not shown in this page, more information about unsolved questions can be found at [docs/unsolved_solutions.md](./unsolved_solutions.md).
 
@@ -1240,3 +1240,4 @@ Some questions which are still being resolved are not shown in this page, more i
 |2908|[Minimum Sum of Mountain Triplets I](https://leetcode.com/problems/minimum-sum-of-mountain-triplets-i/)|[src/q_2901_2950/q2908.cc](../src/q_2901_2950/q2908.cc)|2024/01/29 20:18|
 |2913|[Subarrays Distinct Element Sum of Squares I](https://leetcode.com/problems/subarrays-distinct-element-sum-of-squares-i/)|[src/q_2901_2950/q2913.cc](../src/q_2901_2950/q2913.cc)|2024/01/30 20:09|
 |2917|[Find the K-or of an Array](https://leetcode.com/problems/find-the-k-or-of-an-array/)|[src/q_2901_2950/q2917.cc](../src/q_2901_2950/q2917.cc)|2024/01/31 18:55|
+|2966|[Divide Array Into Arrays With Max Difference](https://leetcode.com/problems/divide-array-into-arrays-with-max-difference/)|[src/q_2951_3000/q2966.cc](../src/q_2951_3000/q2966.cc)|2024/02/01 18:52|

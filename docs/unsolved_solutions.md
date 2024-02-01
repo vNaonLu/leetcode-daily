@@ -1,6 +1,6 @@
 # Unsolved Solutions List
 
-There are **1707** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
+There are **1789** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
 
 The questions which have been solved are not shown in this page, more information about solved questions can be found at [docs/solved_solutions.md](./solved_solutions.md).
 
@@ -1566,7 +1566,7 @@ The questions which have been solved are not shown in this page, more informatio
 |2761|[Prime Pairs With Target Sum](https://leetcode.com/problems/prime-pairs-with-target-sum/)|Medium||
 |2762|[Continuous Subarrays](https://leetcode.com/problems/continuous-subarrays/)|Medium||
 |2763|[Sum of Imbalance Numbers of All Subarrays](https://leetcode.com/problems/sum-of-imbalance-numbers-of-all-subarrays/)|Hard||
-|2764|[is Array a Preorder of Some ‌Binary Tree](https://leetcode.com/problems/is-array-a-preorder-of-some-binary-tree/)|Medium|🔒|
+|2764|[Is Array a Preorder of Some ‌Binary Tree](https://leetcode.com/problems/is-array-a-preorder-of-some-binary-tree/)|Medium|🔒|
 |2766|[Relocate Marbles](https://leetcode.com/problems/relocate-marbles/)|Medium||
 |2767|[Partition String Into Minimum Beautiful Substrings](https://leetcode.com/problems/partition-string-into-minimum-beautiful-substrings/)|Medium||
 |2768|[Number of Black Blocks](https://leetcode.com/problems/number-of-black-blocks/)|Medium||
@@ -1714,3 +1714,85 @@ The questions which have been solved are not shown in this page, more informatio
 |2938|[Separate Black and White Balls](https://leetcode.com/problems/separate-black-and-white-balls/)|Medium||
 |2939|[Maximum Xor Product](https://leetcode.com/problems/maximum-xor-product/)|Medium||
 |2940|[Find Building Where Alice and Bob Can Meet](https://leetcode.com/problems/find-building-where-alice-and-bob-can-meet/)|Hard||
+|2941|[Maximum GCD-Sum of a Subarray](https://leetcode.com/problems/maximum-gcd-sum-of-a-subarray/)|Hard|🔒|
+|2942|[Find Words Containing Character](https://leetcode.com/problems/find-words-containing-character/)|Easy||
+|2943|[Maximize Area of Square Hole in Grid](https://leetcode.com/problems/maximize-area-of-square-hole-in-grid/)|Medium||
+|2944|[Minimum Number of Coins for Fruits](https://leetcode.com/problems/minimum-number-of-coins-for-fruits/)|Medium||
+|2945|[Find Maximum Non-decreasing Array Length](https://leetcode.com/problems/find-maximum-non-decreasing-array-length/)|Hard||
+|2946|[Matrix Similarity After Cyclic Shifts](https://leetcode.com/problems/matrix-similarity-after-cyclic-shifts/)|Easy||
+|2947|[Count Beautiful Substrings I](https://leetcode.com/problems/count-beautiful-substrings-i/)|Medium||
+|2948|[Make Lexicographically Smallest Array by Swapping Elements](https://leetcode.com/problems/make-lexicographically-smallest-array-by-swapping-elements/)|Medium||
+|2949|[Count Beautiful Substrings II](https://leetcode.com/problems/count-beautiful-substrings-ii/)|Hard||
+|2950|[Number of Divisible Substrings](https://leetcode.com/problems/number-of-divisible-substrings/)|Medium|🔒|
+|2951|[Find the Peaks](https://leetcode.com/problems/find-the-peaks/)|Easy||
+|2952|[Minimum Number of Coins to be Added](https://leetcode.com/problems/minimum-number-of-coins-to-be-added/)|Medium||
+|2953|[Count Complete Substrings](https://leetcode.com/problems/count-complete-substrings/)|Hard||
+|2954|[Count the Number of Infection Sequences](https://leetcode.com/problems/count-the-number-of-infection-sequences/)|Hard||
+|2955|[Number of Same-End Substrings](https://leetcode.com/problems/number-of-same-end-substrings/)|Medium|🔒|
+|2956|[Find Common Elements Between Two Arrays](https://leetcode.com/problems/find-common-elements-between-two-arrays/)|Easy||
+|2957|[Remove Adjacent Almost-Equal Characters](https://leetcode.com/problems/remove-adjacent-almost-equal-characters/)|Medium||
+|2958|[Length of Longest Subarray With at Most K Frequency](https://leetcode.com/problems/length-of-longest-subarray-with-at-most-k-frequency/)|Medium||
+|2959|[Number of Possible Sets of Closing Branches](https://leetcode.com/problems/number-of-possible-sets-of-closing-branches/)|Hard||
+|2960|[Count Tested Devices After Test Operations](https://leetcode.com/problems/count-tested-devices-after-test-operations/)|Easy||
+|2961|[Double Modular Exponentiation](https://leetcode.com/problems/double-modular-exponentiation/)|Medium||
+|2962|[Count Subarrays Where Max Element Appears at Least K Times](https://leetcode.com/problems/count-subarrays-where-max-element-appears-at-least-k-times/)|Medium||
+|2963|[Count the Number of Good Partitions](https://leetcode.com/problems/count-the-number-of-good-partitions/)|Hard||
+|2964|[Number of Divisible Triplet Sums](https://leetcode.com/problems/number-of-divisible-triplet-sums/)|Medium|🔒|
+|2965|[Find Missing and Repeated Values](https://leetcode.com/problems/find-missing-and-repeated-values/)|Easy||
+|2967|[Minimum Cost to Make Array Equalindromic](https://leetcode.com/problems/minimum-cost-to-make-array-equalindromic/)|Medium||
+|2968|[Apply Operations to Maximize Frequency Score](https://leetcode.com/problems/apply-operations-to-maximize-frequency-score/)|Hard||
+|2969|[Minimum Number of Coins for Fruits II](https://leetcode.com/problems/minimum-number-of-coins-for-fruits-ii/)|Hard|🔒|
+|2970|[Count the Number of Incremovable Subarrays I](https://leetcode.com/problems/count-the-number-of-incremovable-subarrays-i/)|Easy||
+|2971|[Find Polygon With the Largest Perimeter](https://leetcode.com/problems/find-polygon-with-the-largest-perimeter/)|Medium||
+|2972|[Count the Number of Incremovable Subarrays II](https://leetcode.com/problems/count-the-number-of-incremovable-subarrays-ii/)|Hard||
+|2973|[Find Number of Coins to Place in Tree Nodes](https://leetcode.com/problems/find-number-of-coins-to-place-in-tree-nodes/)|Hard||
+|2974|[Minimum Number Game](https://leetcode.com/problems/minimum-number-game/)|Easy||
+|2975|[Maximum Square Area by Removing Fences From a Field](https://leetcode.com/problems/maximum-square-area-by-removing-fences-from-a-field/)|Medium||
+|2976|[Minimum Cost to Convert String I](https://leetcode.com/problems/minimum-cost-to-convert-string-i/)|Medium||
+|2977|[Minimum Cost to Convert String II](https://leetcode.com/problems/minimum-cost-to-convert-string-ii/)|Hard||
+|2978|[Symmetric Coordinates](https://leetcode.com/problems/symmetric-coordinates/)|Medium|🔒|
+|2979|[Most Expensive Item That Can Not Be Bought](https://leetcode.com/problems/most-expensive-item-that-can-not-be-bought/)|Medium|🔒|
+|2980|[Check if Bitwise OR Has Trailing Zeros](https://leetcode.com/problems/check-if-bitwise-or-has-trailing-zeros/)|Easy||
+|2981|[Find Longest Special Substring That Occurs Thrice I](https://leetcode.com/problems/find-longest-special-substring-that-occurs-thrice-i/)|Medium||
+|2982|[Find Longest Special Substring That Occurs Thrice II](https://leetcode.com/problems/find-longest-special-substring-that-occurs-thrice-ii/)|Medium||
+|2983|[Palindrome Rearrangement Queries](https://leetcode.com/problems/palindrome-rearrangement-queries/)|Hard||
+|2984|[Find Peak Calling Hours for Each City](https://leetcode.com/problems/find-peak-calling-hours-for-each-city/)|Medium|🔒|
+|2985|[Calculate Compressed Mean](https://leetcode.com/problems/calculate-compressed-mean/)|Easy|🔒|
+|2986|[Find Third Transaction](https://leetcode.com/problems/find-third-transaction/)|Medium|🔒|
+|2987|[Find Expensive Cities](https://leetcode.com/problems/find-expensive-cities/)|Easy|🔒|
+|2988|[Manager of the Largest Department](https://leetcode.com/problems/manager-of-the-largest-department/)|Medium|🔒|
+|2989|[Class Performance](https://leetcode.com/problems/class-performance/)|Medium|🔒|
+|2990|[Loan Types](https://leetcode.com/problems/loan-types/)|Easy|🔒|
+|2991|[Top Three Wineries ](https://leetcode.com/problems/top-three-wineries/)|Hard|🔒|
+|2992|[Number of Self-Divisible Permutations](https://leetcode.com/problems/number-of-self-divisible-permutations/)|Medium|🔒|
+|2993|[Friday Purchases I](https://leetcode.com/problems/friday-purchases-i/)|Medium|🔒|
+|2994|[Friday Purchases II ](https://leetcode.com/problems/friday-purchases-ii/)|Hard|🔒|
+|2995|[Viewers Turned Streamers](https://leetcode.com/problems/viewers-turned-streamers/)|Hard|🔒|
+|2996|[Smallest Missing Integer Greater Than Sequential Prefix Sum](https://leetcode.com/problems/smallest-missing-integer-greater-than-sequential-prefix-sum/)|Easy||
+|2997|[Minimum Number of Operations to Make Array XOR Equal to K](https://leetcode.com/problems/minimum-number-of-operations-to-make-array-xor-equal-to-k/)|Medium||
+|2998|[Minimum Number of Operations to Make X and Y Equal](https://leetcode.com/problems/minimum-number-of-operations-to-make-x-and-y-equal/)|Medium||
+|2999|[Count the Number of Powerful Integers](https://leetcode.com/problems/count-the-number-of-powerful-integers/)|Hard||
+|3000|[Maximum Area of Longest Diagonal Rectangle](https://leetcode.com/problems/maximum-area-of-longest-diagonal-rectangle/)|Easy||
+|3001|[Minimum Moves to Capture The Queen](https://leetcode.com/problems/minimum-moves-to-capture-the-queen/)|Medium||
+|3002|[Maximum Size of a Set After Removals](https://leetcode.com/problems/maximum-size-of-a-set-after-removals/)|Medium||
+|3003|[Maximize the Number of Partitions After Operations](https://leetcode.com/problems/maximize-the-number-of-partitions-after-operations/)|Hard||
+|3004|[Maximum Subtree of the Same Color](https://leetcode.com/problems/maximum-subtree-of-the-same-color/)|Medium|🔒|
+|3005|[Count Elements With Maximum Frequency](https://leetcode.com/problems/count-elements-with-maximum-frequency/)|Easy||
+|3006|[Find Beautiful Indices in the Given Array I](https://leetcode.com/problems/find-beautiful-indices-in-the-given-array-i/)|Medium||
+|3007|[Maximum Number That Sum of the Prices Is Less Than or Equal to K](https://leetcode.com/problems/maximum-number-that-sum-of-the-prices-is-less-than-or-equal-to-k/)|Medium||
+|3008|[Find Beautiful Indices in the Given Array II](https://leetcode.com/problems/find-beautiful-indices-in-the-given-array-ii/)|Hard||
+|3009|[Maximum Number of Intersections on the Chart](https://leetcode.com/problems/maximum-number-of-intersections-on-the-chart/)|Hard|🔒|
+|3010|[Divide an Array Into Subarrays With Minimum Cost I](https://leetcode.com/problems/divide-an-array-into-subarrays-with-minimum-cost-i/)|Easy||
+|3011|[Find if Array Can Be Sorted](https://leetcode.com/problems/find-if-array-can-be-sorted/)|Medium||
+|3012|[Minimize Length of Array Using Operations](https://leetcode.com/problems/minimize-length-of-array-using-operations/)|Medium||
+|3013|[Divide an Array Into Subarrays With Minimum Cost II](https://leetcode.com/problems/divide-an-array-into-subarrays-with-minimum-cost-ii/)|Hard||
+|3014|[Minimum Number of Pushes to Type Word I](https://leetcode.com/problems/minimum-number-of-pushes-to-type-word-i/)|Easy||
+|3015|[Count the Number of Houses at a Certain Distance I](https://leetcode.com/problems/count-the-number-of-houses-at-a-certain-distance-i/)|Medium||
+|3016|[Minimum Number of Pushes to Type Word II](https://leetcode.com/problems/minimum-number-of-pushes-to-type-word-ii/)|Medium||
+|3017|[Count the Number of Houses at a Certain Distance II](https://leetcode.com/problems/count-the-number-of-houses-at-a-certain-distance-ii/)|Hard||
+|3018|[Maximum Number of Removal Queries That Can Be Processed I](https://leetcode.com/problems/maximum-number-of-removal-queries-that-can-be-processed-i/)|Hard|🔒|
+|3019|[Number of Changing Keys](https://leetcode.com/problems/number-of-changing-keys/)|Easy||
+|3020|[Find the Maximum Number of Elements in Subset](https://leetcode.com/problems/find-the-maximum-number-of-elements-in-subset/)|Medium||
+|3021|[Alice and Bob Playing Flower Game](https://leetcode.com/problems/alice-and-bob-playing-flower-game/)|Medium||
+|3022|[Minimize OR of Remaining Elements Using Operations](https://leetcode.com/problems/minimize-or-of-remaining-elements-using-operations/)|Hard||
+|3023|[Find Pattern in Infinite Stream I](https://leetcode.com/problems/find-pattern-in-infinite-stream-i/)|Medium|🔒|
