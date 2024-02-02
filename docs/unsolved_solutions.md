@@ -1,6 +1,6 @@
 # Unsolved Solutions List
 
-There are **1789** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
+There are **1788** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
 
 The questions which have been solved are not shown in this page, more information about solved questions can be found at [docs/solved_solutions.md](./solved_solutions.md).
 
@@ -1696,7 +1696,6 @@ The questions which have been solved are not shown in this page, more informatio
 |2920|[Maximum Points After Collecting Coins From All Nodes](https://leetcode.com/problems/maximum-points-after-collecting-coins-from-all-nodes/)|Hard||
 |2921|[Maximum Profitable Triplets With Increasing Prices II](https://leetcode.com/problems/maximum-profitable-triplets-with-increasing-prices-ii/)|Hard|🔒|
 |2922|[Market Analysis III](https://leetcode.com/problems/market-analysis-iii/)|Medium|🔒|
-|2923|[Find Champion I](https://leetcode.com/problems/find-champion-i/)|Easy||
 |2924|[Find Champion II](https://leetcode.com/problems/find-champion-ii/)|Medium||
 |2925|[Maximum Score After Applying Operations on a Tree](https://leetcode.com/problems/maximum-score-after-applying-operations-on-a-tree/)|Medium||
 |2926|[Maximum Balanced Subsequence Sum](https://leetcode.com/problems/maximum-balanced-subsequence-sum/)|Hard||
