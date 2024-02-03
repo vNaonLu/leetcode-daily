@@ -1,6 +1,6 @@
 # Unsolved Solutions List
 
-There are **1788** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
+There are **1787** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
 
 The questions which have been solved are not shown in this page, more information about solved questions can be found at [docs/solved_solutions.md](./solved_solutions.md).
 
@@ -1700,7 +1700,6 @@ The questions which have been solved are not shown in this page, more informatio
 |2925|[Maximum Score After Applying Operations on a Tree](https://leetcode.com/problems/maximum-score-after-applying-operations-on-a-tree/)|Medium||
 |2926|[Maximum Balanced Subsequence Sum](https://leetcode.com/problems/maximum-balanced-subsequence-sum/)|Hard||
 |2927|[Distribute Candies Among Children III](https://leetcode.com/problems/distribute-candies-among-children-iii/)|Hard|🔒|
-|2928|[Distribute Candies Among Children I](https://leetcode.com/problems/distribute-candies-among-children-i/)|Easy||
 |2929|[Distribute Candies Among Children II](https://leetcode.com/problems/distribute-candies-among-children-ii/)|Medium||
 |2930|[Number of Strings Which Can Be Rearranged to Contain Substring](https://leetcode.com/problems/number-of-strings-which-can-be-rearranged-to-contain-substring/)|Medium||
 |2931|[Maximum Spending After Buying Items](https://leetcode.com/problems/maximum-spending-after-buying-items/)|Hard||
