@@ -604,7 +604,7 @@ id,backend_id,title,level,slug,paid
 603,603,Consecutive Available Seats,1,consecutive-available-seats,1
 604,604,Design Compressed String Iterator,1,design-compressed-string-iterator,1
 605,605,Can Place Flowers,1,can-place-flowers,0
-606,606,Construct String from Binary Tree,1,construct-string-from-binary-tree,0
+606,606,Construct String from Binary Tree,2,construct-string-from-binary-tree,0
 607,607,Sales Person,1,sales-person,0
 608,608,Tree Node,2,tree-node,0
 609,609,Find Duplicate File in System,2,find-duplicate-file-in-system,0
@@ -1635,7 +1635,7 @@ id,backend_id,title,level,slug,paid
 1634,1774,Add Two Polynomials Represented as Linked Lists,2,add-two-polynomials-represented-as-linked-lists,1
 1635,1779,Hopper Company Queries I,3,hopper-company-queries-i,1
 1636,1741,Sort Array by Increasing Frequency,1,sort-array-by-increasing-frequency,0
-1637,1742,Widest Vertical Area Between Two Points Containing No Points,2,widest-vertical-area-between-two-points-containing-no-points,0
+1637,1742,Widest Vertical Area Between Two Points Containing No Points,1,widest-vertical-area-between-two-points-containing-no-points,0
 1638,1743,Count Substrings That Differ by One Character,2,count-substrings-that-differ-by-one-character,0
 1639,1744,Number of Ways to Form a Target String Given a Dictionary,3,number-of-ways-to-form-a-target-string-given-a-dictionary,0
 1640,1760,Check Array Formation Through Concatenation,1,check-array-formation-through-concatenation,0
@@ -2762,7 +2762,7 @@ id,backend_id,title,level,slug,paid
 2761,2873,Prime Pairs With Target Sum,2,prime-pairs-with-target-sum,0
 2762,2868,Continuous Subarrays,2,continuous-subarrays,0
 2763,2849,Sum of Imbalance Numbers of All Subarrays,3,sum-of-imbalance-numbers-of-all-subarrays,0
-2764,2918,is Array a Preorder of Some ‌Binary Tree,2,is-array-a-preorder-of-some-binary-tree,1
+2764,2918,Is Array a Preorder of Some ‌Binary Tree,2,is-array-a-preorder-of-some-binary-tree,1
 2765,2870,Longest Alternating Subarray,1,longest-alternating-subarray,0
 2766,2834,Relocate Marbles,2,relocate-marbles,0
 2767,2883,Partition String Into Minimum Beautiful Substrings,2,partition-string-into-minimum-beautiful-substrings,0
@@ -2939,3 +2939,86 @@ id,backend_id,title,level,slug,paid
 2938,3195,Separate Black and White Balls,2,separate-black-and-white-balls,0
 2939,3192,Maximum Xor Product,2,maximum-xor-product,0
 2940,3181,Find Building Where Alice and Bob Can Meet,3,find-building-where-alice-and-bob-can-meet,0
+2941,3232,Maximum GCD-Sum of a Subarray,3,maximum-gcd-sum-of-a-subarray,1
+2942,3194,Find Words Containing Character,1,find-words-containing-character,0
+2943,3214,Maximize Area of Square Hole in Grid,2,maximize-area-of-square-hole-in-grid,0
+2944,3209,Minimum Number of Coins for Fruits,2,minimum-number-of-coins-for-fruits,0
+2945,3211,Find Maximum Non-decreasing Array Length,3,find-maximum-non-decreasing-array-length,0
+2946,3215,Matrix Similarity After Cyclic Shifts,1,matrix-similarity-after-cyclic-shifts,0
+2947,3210,Count Beautiful Substrings I,2,count-beautiful-substrings-i,0
+2948,3219,Make Lexicographically Smallest Array by Swapping Elements,2,make-lexicographically-smallest-array-by-swapping-elements,0
+2949,3208,Count Beautiful Substrings II,3,count-beautiful-substrings-ii,0
+2950,3237,Number of Divisible Substrings,2,number-of-divisible-substrings,1
+2951,3221,Find the Peaks,1,find-the-peaks,0
+2952,3231,Minimum Number of Coins to be Added,2,minimum-number-of-coins-to-be-added,0
+2953,3223,Count Complete Substrings,3,count-complete-substrings,0
+2954,3224,Count the Number of Infection Sequences,3,count-the-number-of-infection-sequences,0
+2955,3247,Number of Same-End Substrings,2,number-of-same-end-substrings,1
+2956,3206,Find Common Elements Between Two Arrays,1,find-common-elements-between-two-arrays,0
+2957,3230,Remove Adjacent Almost-Equal Characters,2,remove-adjacent-almost-equal-characters,0
+2958,3225,Length of Longest Subarray With at Most K Frequency,2,length-of-longest-subarray-with-at-most-k-frequency,0
+2959,3217,Number of Possible Sets of Closing Branches,3,number-of-possible-sets-of-closing-branches,0
+2960,3220,Count Tested Devices After Test Operations,1,count-tested-devices-after-test-operations,0
+2961,3234,Double Modular Exponentiation,2,double-modular-exponentiation,0
+2962,3213,Count Subarrays Where Max Element Appears at Least K Times,2,count-subarrays-where-max-element-appears-at-least-k-times,0
+2963,3212,Count the Number of Good Partitions,3,count-the-number-of-good-partitions,0
+2964,3254,Number of Divisible Triplet Sums,2,number-of-divisible-triplet-sums,1
+2965,3227,Find Missing and Repeated Values,1,find-missing-and-repeated-values,0
+2966,3241,Divide Array Into Arrays With Max Difference,2,divide-array-into-arrays-with-max-difference,0
+2967,3229,Minimum Cost to Make Array Equalindromic,2,minimum-cost-to-make-array-equalindromic,0
+2968,3196,Apply Operations to Maximize Frequency Score,3,apply-operations-to-maximize-frequency-score,0
+2969,3268,Minimum Number of Coins for Fruits II,3,minimum-number-of-coins-for-fruits-ii,1
+2970,3252,Count the Number of Incremovable Subarrays I,1,count-the-number-of-incremovable-subarrays-i,0
+2971,3262,Find Polygon With the Largest Perimeter,2,find-polygon-with-the-largest-perimeter,0
+2972,3248,Count the Number of Incremovable Subarrays II,3,count-the-number-of-incremovable-subarrays-ii,0
+2973,3218,Find Number of Coins to Place in Tree Nodes,3,find-number-of-coins-to-place-in-tree-nodes,0
+2974,3226,Minimum Number Game,1,minimum-number-game,0
+2975,3250,Maximum Square Area by Removing Fences From a Field,2,maximum-square-area-by-removing-fences-from-a-field,0
+2976,3235,Minimum Cost to Convert String I,2,minimum-cost-to-convert-string-i,0
+2977,3238,Minimum Cost to Convert String II,3,minimum-cost-to-convert-string-ii,0
+2978,3253,Symmetric Coordinates,2,symmetric-coordinates,1
+2979,3273,Most Expensive Item That Can Not Be Bought,2,most-expensive-item-that-can-not-be-bought,1
+2980,3246,Check if Bitwise OR Has Trailing Zeros,1,check-if-bitwise-or-has-trailing-zeros,0
+2981,3267,Find Longest Special Substring That Occurs Thrice I,2,find-longest-special-substring-that-occurs-thrice-i,0
+2982,3266,Find Longest Special Substring That Occurs Thrice II,2,find-longest-special-substring-that-occurs-thrice-ii,0
+2983,3203,Palindrome Rearrangement Queries,3,palindrome-rearrangement-queries,0
+2984,3281,Find Peak Calling Hours for Each City,2,find-peak-calling-hours-for-each-city,1
+2985,3282,Calculate Compressed Mean,1,calculate-compressed-mean,1
+2986,3283,Find Third Transaction,2,find-third-transaction,1
+2987,3284,Find Expensive Cities,1,find-expensive-cities,1
+2988,3285,Manager of the Largest Department,2,manager-of-the-largest-department,1
+2989,3286,Class Performance,2,class-performance,1
+2990,3287,Loan Types,1,loan-types,1
+2991,3288,Top Three Wineries ,3,top-three-wineries,1
+2992,3294,Number of Self-Divisible Permutations,2,number-of-self-divisible-permutations,1
+2993,3300,Friday Purchases I,2,friday-purchases-i,1
+2994,3301,Friday Purchases II ,3,friday-purchases-ii,1
+2995,3302,Viewers Turned Streamers,3,viewers-turned-streamers,1
+2996,3236,Smallest Missing Integer Greater Than Sequential Prefix Sum,1,smallest-missing-integer-greater-than-sequential-prefix-sum,0
+2997,3249,Minimum Number of Operations to Make Array XOR Equal to K,2,minimum-number-of-operations-to-make-array-xor-equal-to-k,0
+2998,3239,Minimum Number of Operations to Make X and Y Equal,2,minimum-number-of-operations-to-make-x-and-y-equal,0
+2999,3243,Count the Number of Powerful Integers,3,count-the-number-of-powerful-integers,0
+3000,3251,Maximum Area of Longest Diagonal Rectangle,1,maximum-area-of-longest-diagonal-rectangle,0
+3001,3270,Minimum Moves to Capture The Queen,2,minimum-moves-to-capture-the-queen,0
+3002,3228,Maximum Size of a Set After Removals,2,maximum-size-of-a-set-after-removals,0
+3003,3233,Maximize the Number of Partitions After Operations,3,maximize-the-number-of-partitions-after-operations,0
+3004,3304,Maximum Subtree of the Same Color,2,maximum-subtree-of-the-same-color,1
+3005,3242,Count Elements With Maximum Frequency,1,count-elements-with-maximum-frequency,0
+3006,3245,Find Beautiful Indices in the Given Array I,2,find-beautiful-indices-in-the-given-array-i,0
+3007,3240,Maximum Number That Sum of the Prices Is Less Than or Equal to K,2,maximum-number-that-sum-of-the-prices-is-less-than-or-equal-to-k,0
+3008,3303,Find Beautiful Indices in the Given Array II,3,find-beautiful-indices-in-the-given-array-ii,0
+3009,3315,Maximum Number of Intersections on the Chart,3,maximum-number-of-intersections-on-the-chart,1
+3010,3263,Divide an Array Into Subarrays With Minimum Cost I,1,divide-an-array-into-subarrays-with-minimum-cost-i,0
+3011,3291,Find if Array Can Be Sorted,2,find-if-array-can-be-sorted,0
+3012,3244,Minimize Length of Array Using Operations,2,minimize-length-of-array-using-operations,0
+3013,3260,Divide an Array Into Subarrays With Minimum Cost II,3,divide-an-array-into-subarrays-with-minimum-cost-ii,0
+3014,3275,Minimum Number of Pushes to Type Word I,1,minimum-number-of-pushes-to-type-word-i,0
+3015,3271,Count the Number of Houses at a Certain Distance I,2,count-the-number-of-houses-at-a-certain-distance-i,0
+3016,3276,Minimum Number of Pushes to Type Word II,2,minimum-number-of-pushes-to-type-word-ii,0
+3017,3310,Count the Number of Houses at a Certain Distance II,3,count-the-number-of-houses-at-a-certain-distance-ii,0
+3018,3323,Maximum Number of Removal Queries That Can Be Processed I,3,maximum-number-of-removal-queries-that-can-be-processed-i,1
+3019,3312,Number of Changing Keys,1,number-of-changing-keys,0
+3020,3299,Find the Maximum Number of Elements in Subset,2,find-the-maximum-number-of-elements-in-subset,0
+3021,3279,Alice and Bob Playing Flower Game,2,alice-and-bob-playing-flower-game,0
+3022,3261,Minimize OR of Remaining Elements Using Operations,3,minimize-or-of-remaining-elements-using-operations,0
+3023,3333,Find Pattern in Infinite Stream I,2,find-pattern-in-infinite-stream-i,1
