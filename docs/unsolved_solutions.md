@@ -1,6 +1,6 @@
 # Unsolved Solutions List
 
-There are **1787** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
+There are **1786** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
 
 The questions which have been solved are not shown in this page, more information about solved questions can be found at [docs/solved_solutions.md](./solved_solutions.md).
 
@@ -1703,7 +1703,6 @@ The questions which have been solved are not shown in this page, more informatio
 |2929|[Distribute Candies Among Children II](https://leetcode.com/problems/distribute-candies-among-children-ii/)|Medium||
 |2930|[Number of Strings Which Can Be Rearranged to Contain Substring](https://leetcode.com/problems/number-of-strings-which-can-be-rearranged-to-contain-substring/)|Medium||
 |2931|[Maximum Spending After Buying Items](https://leetcode.com/problems/maximum-spending-after-buying-items/)|Hard||
-|2932|[Maximum Strong Pair XOR I](https://leetcode.com/problems/maximum-strong-pair-xor-i/)|Easy||
 |2933|[High-Access Employees](https://leetcode.com/problems/high-access-employees/)|Medium||
 |2934|[Minimum Operations to Maximize Last Elements in Arrays](https://leetcode.com/problems/minimum-operations-to-maximize-last-elements-in-arrays/)|Medium||
 |2935|[Maximum Strong Pair XOR II](https://leetcode.com/problems/maximum-strong-pair-xor-ii/)|Hard||
