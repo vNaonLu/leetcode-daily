@@ -1,6 +1,6 @@
 # Unsolved Solutions List
 
-There are **1786** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
+There are **1785** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
 
 The questions which have been solved are not shown in this page, more information about solved questions can be found at [docs/solved_solutions.md](./solved_solutions.md).
 
@@ -1707,7 +1707,6 @@ The questions which have been solved are not shown in this page, more informatio
 |2934|[Minimum Operations to Maximize Last Elements in Arrays](https://leetcode.com/problems/minimum-operations-to-maximize-last-elements-in-arrays/)|Medium||
 |2935|[Maximum Strong Pair XOR II](https://leetcode.com/problems/maximum-strong-pair-xor-ii/)|Hard||
 |2936|[Number of Equal Numbers Blocks](https://leetcode.com/problems/number-of-equal-numbers-blocks/)|Medium|🔒|
-|2937|[Make Three Strings Equal](https://leetcode.com/problems/make-three-strings-equal/)|Easy||
 |2938|[Separate Black and White Balls](https://leetcode.com/problems/separate-black-and-white-balls/)|Medium||
 |2939|[Maximum Xor Product](https://leetcode.com/problems/maximum-xor-product/)|Medium||
 |2940|[Find Building Where Alice and Bob Can Meet](https://leetcode.com/problems/find-building-where-alice-and-bob-can-meet/)|Hard||
