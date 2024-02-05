@@ -1,6 +1,6 @@
 # Solved Solutions List
 
-This document contains **1225** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
+This document contains **1238** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
 
 Some questions which are still being resolved are not shown in this page, more information about unsolved questions can be found at [docs/unsolved_solutions.md](./unsolved_solutions.md).
 
@@ -1231,4 +1231,17 @@ Some questions which are still being resolved are not shown in this page, more i
 |2855|[Minimum Right Shifts to Sort the Array](https://leetcode.com/problems/minimum-right-shifts-to-sort-the-array/)|[src/q_2851_2900/q2855.cc](../src/q_2851_2900/q2855.cc)|2024/01/18 19:57|
 |2859|[Sum of Values at Indices With K Set Bits](https://leetcode.com/problems/sum-of-values-at-indices-with-k-set-bits/)|[src/q_2851_2900/q2859.cc](../src/q_2851_2900/q2859.cc)|2024/01/19 20:53|
 |2864|[Maximum Odd Binary Number](https://leetcode.com/problems/maximum-odd-binary-number/)|[src/q_2851_2900/q2864.cc](../src/q_2851_2900/q2864.cc)|2024/01/21 15:02|
+|2869|[Minimum Operations to Collect Elements](https://leetcode.com/problems/minimum-operations-to-collect-elements/)|[src/q_2851_2900/q2869.cc](../src/q_2851_2900/q2869.cc)|2024/01/23 19:55|
 |2870|[Minimum Number of Operations to Make Array Empty](https://leetcode.com/problems/minimum-number-of-operations-to-make-array-empty/)|[src/q_2851_2900/q2870.cc](../src/q_2851_2900/q2870.cc)|2024/01/04 23:34|
+|2873|[Maximum Value of an Ordered Triplet I](https://leetcode.com/problems/maximum-value-of-an-ordered-triplet-i/)|[src/q_2851_2900/q2873.cc](../src/q_2851_2900/q2873.cc)|2024/01/24 19:43|
+|2894|[Divisible and Non-divisible Sums Difference](https://leetcode.com/problems/divisible-and-non-divisible-sums-difference/)|[src/q_2851_2900/q2894.cc](../src/q_2851_2900/q2894.cc)|2024/01/25 19:09|
+|2899|[Last Visited Integers](https://leetcode.com/problems/last-visited-integers/)|[src/q_2851_2900/q2899.cc](../src/q_2851_2900/q2899.cc)|2024/01/27 16:20|
+|2903|[Find Indices With Index and Value Difference I](https://leetcode.com/problems/find-indices-with-index-and-value-difference-i/)|[src/q_2901_2950/q2903.cc](../src/q_2901_2950/q2903.cc)|2024/01/28 16:43|
+|2908|[Minimum Sum of Mountain Triplets I](https://leetcode.com/problems/minimum-sum-of-mountain-triplets-i/)|[src/q_2901_2950/q2908.cc](../src/q_2901_2950/q2908.cc)|2024/01/29 20:18|
+|2913|[Subarrays Distinct Element Sum of Squares I](https://leetcode.com/problems/subarrays-distinct-element-sum-of-squares-i/)|[src/q_2901_2950/q2913.cc](../src/q_2901_2950/q2913.cc)|2024/01/30 20:09|
+|2917|[Find the K-or of an Array](https://leetcode.com/problems/find-the-k-or-of-an-array/)|[src/q_2901_2950/q2917.cc](../src/q_2901_2950/q2917.cc)|2024/01/31 18:55|
+|2923|[Find Champion I](https://leetcode.com/problems/find-champion-i/)|[src/q_2901_2950/q2923.cc](../src/q_2901_2950/q2923.cc)|2024/02/02 15:34|
+|2928|[Distribute Candies Among Children I](https://leetcode.com/problems/distribute-candies-among-children-i/)|[src/q_2901_2950/q2928.cc](../src/q_2901_2950/q2928.cc)|2024/02/03 12:20|
+|2932|[Maximum Strong Pair XOR I](https://leetcode.com/problems/maximum-strong-pair-xor-i/)|[src/q_2901_2950/q2932.cc](../src/q_2901_2950/q2932.cc)|2024/02/04 14:00|
+|2937|[Make Three Strings Equal](https://leetcode.com/problems/make-three-strings-equal/)|[src/q_2901_2950/q2937.cc](../src/q_2901_2950/q2937.cc)|2024/02/05 19:55|
+|2966|[Divide Array Into Arrays With Max Difference](https://leetcode.com/problems/divide-array-into-arrays-with-max-difference/)|[src/q_2951_3000/q2966.cc](../src/q_2951_3000/q2966.cc)|2024/02/01 18:52|
