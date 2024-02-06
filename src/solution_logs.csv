@@ -1237,3 +1237,4 @@ timestamp,id,tc,sc,notes
 1706934000,2928,n ^ 2,n,n = |candies||
 1707026440,2932,n^2,1,n = |nums.size()|
 1707134117,2937,n,1,n = |s1.size()|
+1707230977,2942,n * E,1,"n = |words.size()|, E = |words[i].size()|"

@@ -1,6 +1,6 @@
 # Solved Solutions List
 
-This document contains **1238** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
+This document contains **1239** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
 
 Some questions which are still being resolved are not shown in this page, more information about unsolved questions can be found at [docs/unsolved_solutions.md](./unsolved_solutions.md).
 
@@ -1244,4 +1244,5 @@ Some questions which are still being resolved are not shown in this page, more i
 |2928|[Distribute Candies Among Children I](https://leetcode.com/problems/distribute-candies-among-children-i/)|[src/q_2901_2950/q2928.cc](../src/q_2901_2950/q2928.cc)|2024/02/03 12:20|
 |2932|[Maximum Strong Pair XOR I](https://leetcode.com/problems/maximum-strong-pair-xor-i/)|[src/q_2901_2950/q2932.cc](../src/q_2901_2950/q2932.cc)|2024/02/04 14:00|
 |2937|[Make Three Strings Equal](https://leetcode.com/problems/make-three-strings-equal/)|[src/q_2901_2950/q2937.cc](../src/q_2901_2950/q2937.cc)|2024/02/05 19:55|
+|2942|[Find Words Containing Character](https://leetcode.com/problems/find-words-containing-character/)|[src/q_2901_2950/q2942.cc](../src/q_2901_2950/q2942.cc)|2024/02/06 22:49|
 |2966|[Divide Array Into Arrays With Max Difference](https://leetcode.com/problems/divide-array-into-arrays-with-max-difference/)|[src/q_2951_3000/q2966.cc](../src/q_2951_3000/q2966.cc)|2024/02/01 18:52|
