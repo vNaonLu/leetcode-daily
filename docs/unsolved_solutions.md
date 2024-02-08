@@ -1,6 +1,6 @@
 # Unsolved Solutions List
 
-There are **1783** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
+There are **1782** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
 
 The questions which have been solved are not shown in this page, more information about solved questions can be found at [docs/solved_solutions.md](./solved_solutions.md).
 
@@ -1718,7 +1718,6 @@ The questions which have been solved are not shown in this page, more informatio
 |2948|[Make Lexicographically Smallest Array by Swapping Elements](https://leetcode.com/problems/make-lexicographically-smallest-array-by-swapping-elements/)|Medium||
 |2949|[Count Beautiful Substrings II](https://leetcode.com/problems/count-beautiful-substrings-ii/)|Hard||
 |2950|[Number of Divisible Substrings](https://leetcode.com/problems/number-of-divisible-substrings/)|Medium|🔒|
-|2951|[Find the Peaks](https://leetcode.com/problems/find-the-peaks/)|Easy||
 |2952|[Minimum Number of Coins to be Added](https://leetcode.com/problems/minimum-number-of-coins-to-be-added/)|Medium||
 |2953|[Count Complete Substrings](https://leetcode.com/problems/count-complete-substrings/)|Hard||
 |2954|[Count the Number of Infection Sequences](https://leetcode.com/problems/count-the-number-of-infection-sequences/)|Hard||
