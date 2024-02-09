@@ -1,6 +1,6 @@
 # Unsolved Solutions List
 
-There are **1782** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
+There are **1781** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
 
 The questions which have been solved are not shown in this page, more information about solved questions can be found at [docs/solved_solutions.md](./solved_solutions.md).
 
@@ -1722,7 +1722,6 @@ The questions which have been solved are not shown in this page, more informatio
 |2953|[Count Complete Substrings](https://leetcode.com/problems/count-complete-substrings/)|Hard||
 |2954|[Count the Number of Infection Sequences](https://leetcode.com/problems/count-the-number-of-infection-sequences/)|Hard||
 |2955|[Number of Same-End Substrings](https://leetcode.com/problems/number-of-same-end-substrings/)|Medium|🔒|
-|2956|[Find Common Elements Between Two Arrays](https://leetcode.com/problems/find-common-elements-between-two-arrays/)|Easy||
 |2957|[Remove Adjacent Almost-Equal Characters](https://leetcode.com/problems/remove-adjacent-almost-equal-characters/)|Medium||
 |2958|[Length of Longest Subarray With at Most K Frequency](https://leetcode.com/problems/length-of-longest-subarray-with-at-most-k-frequency/)|Medium||
 |2959|[Number of Possible Sets of Closing Branches](https://leetcode.com/problems/number-of-possible-sets-of-closing-branches/)|Hard||

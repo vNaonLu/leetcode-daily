@@ -1240,3 +1240,4 @@ timestamp,id,tc,sc,notes
 1707230977,2942,n * E,1,"n = |words.size()|, E = |words[i].size()|"
 1707293977,2946,n * m,1,"m = |mat.size()|, n = |mat[i].size()|"
 1707356581,2951,n,1,n = |mountain.size()|
+1707451704,2956,n + m,n + m,"n = |nums1.size()|, m = |nums2.size()||"
