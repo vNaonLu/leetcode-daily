@@ -263,18 +263,18 @@ timestamp,id,tc,sc,notes
 1636537958,1043,n^2,n,n = |arr.size()|
 1636637312,1413,n,1,n = |nums.size()|
 1636637675,1221,n,1,n = |s.size()|
-1636712980,888,n + m,m,"n = |aliceSizes.size()|, m = |bobSizes.size()||"
+1636712980,888,n + m,m,"n = |aliceSizes.size()|, m = |bobSizes.size()|"
 1636775460,739,n^2,n,n = |temperatures.size()|
 1636867104,1286,-,-,not calculated
 1636970945,368,n^2,n,n = |nums.size()|
 1637057607,668,m * log(n),1,
 1637144267,16,n^2 + n * log(n),1,n = |nums.size()|
-1637145808,23,n,1,n = total nodes count in |lists||
+1637145808,23,n,1,n = total nodes count in |lists|
 1637231266,448,n,n,n = |nums.size()|
 1637332759,461,1,1,
 1637388855,26,n,1,n = |nums.size()|
 1637389266,27,n^2,1,n = |nums.size()|
-1637390195,28,n * m,m,"n = |haystack.size()|, m = |needle.size()||"
+1637390195,28,n * m,m,"n = |haystack.size()|, m = |needle.size()|"
 1637390313,29,-,-,not calculated
 1637472197,106,n,n,n = |inorder.size()|
 1637575977,18,n^3 + n * log(n),n,n = |nums.size()|
@@ -1169,7 +1169,7 @@ timestamp,id,tc,sc,notes
 1700565084,1814,n * log(n),n,n = |nums.size()|
 1700652262,1424,N,N,N = elements in |nums.size()|
 1700738599,2558,(n + k) * log(n),n,n = |gifts.size()|
-1700796163,1561,n + M,M,"M = max element in |piles|, n = |piles.size()||"
+1700796163,1561,n + M,M,"M = max element in |piles|, n = |piles.size()|"
 1700911182,1685,n,n,n = |nums.size()|
 1700975781,1727,m * n * log(n),1,"m = |matrix.size()|, n = |matrix[i].size()|"
 1701093949,935,n,n,
@@ -1197,7 +1197,7 @@ timestamp,id,tc,sc,notes
 1703075501,2733,n,1,n = |nums.size()|
 1703156093,1637,n * log(n),1,n = |points.size()|
 1703247201,2739,-,-,not calculated
-1703316884,2744,n * E,E,"n = |words.size()|, m = |words[i].size()||"
+1703316884,2744,n * E,E,"n = |words.size()|, m = |words[i].size()|"
 1703391700,2748,n ^ 2,1,n = |nums.size()|
 1703592225,2760,-,-,not calculated
 1703675114,2765,n,n,n = |nums.size()|
@@ -1234,6 +1234,13 @@ timestamp,id,tc,sc,notes
 1706698539,2917,n,1,n = |nums.size()|
 1706784752,2966,n,1,n = |nums.size()|
 1706859281,2923,n ^ 2,1,n = |grid.size()|
-1706934000,2928,n ^ 2,n,n = |candies||
+1706934000,2928,n ^ 2,n,n = |candies|
 1707026440,2932,n^2,1,n = |nums.size()|
 1707134117,2937,n,1,n = |s1.size()|
+1707230977,2942,n * E,1,"n = |words.size()|, E = |words[i].size()|"
+1707293977,2946,n * m,1,"m = |mat.size()|, n = |mat[i].size()|"
+1707356581,2951,n,1,n = |mountain.size()|
+1707451704,2956,n + m,n + m,"n = |nums1.size()|, m = |nums2.size()|"
+1707537037,2960,n,1,n = |batteryPercentages.size()|
+1707624955,2965,n * n,n * n,n = |grid.size()|
+1707711910,2970,n ^ 3,n,n = |nums.size()|

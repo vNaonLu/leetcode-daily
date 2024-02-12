@@ -1,6 +1,6 @@
 # Unsolved Solutions List
 
-There are **1785** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
+There are **1778** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
 
 The questions which have been solved are not shown in this page, more information about solved questions can be found at [docs/solved_solutions.md](./solved_solutions.md).
 
@@ -1711,34 +1711,27 @@ The questions which have been solved are not shown in this page, more informatio
 |2939|[Maximum Xor Product](https://leetcode.com/problems/maximum-xor-product/)|Medium||
 |2940|[Find Building Where Alice and Bob Can Meet](https://leetcode.com/problems/find-building-where-alice-and-bob-can-meet/)|Hard||
 |2941|[Maximum GCD-Sum of a Subarray](https://leetcode.com/problems/maximum-gcd-sum-of-a-subarray/)|Hard|🔒|
-|2942|[Find Words Containing Character](https://leetcode.com/problems/find-words-containing-character/)|Easy||
 |2943|[Maximize Area of Square Hole in Grid](https://leetcode.com/problems/maximize-area-of-square-hole-in-grid/)|Medium||
 |2944|[Minimum Number of Coins for Fruits](https://leetcode.com/problems/minimum-number-of-coins-for-fruits/)|Medium||
 |2945|[Find Maximum Non-decreasing Array Length](https://leetcode.com/problems/find-maximum-non-decreasing-array-length/)|Hard||
-|2946|[Matrix Similarity After Cyclic Shifts](https://leetcode.com/problems/matrix-similarity-after-cyclic-shifts/)|Easy||
 |2947|[Count Beautiful Substrings I](https://leetcode.com/problems/count-beautiful-substrings-i/)|Medium||
 |2948|[Make Lexicographically Smallest Array by Swapping Elements](https://leetcode.com/problems/make-lexicographically-smallest-array-by-swapping-elements/)|Medium||
 |2949|[Count Beautiful Substrings II](https://leetcode.com/problems/count-beautiful-substrings-ii/)|Hard||
 |2950|[Number of Divisible Substrings](https://leetcode.com/problems/number-of-divisible-substrings/)|Medium|🔒|
-|2951|[Find the Peaks](https://leetcode.com/problems/find-the-peaks/)|Easy||
 |2952|[Minimum Number of Coins to be Added](https://leetcode.com/problems/minimum-number-of-coins-to-be-added/)|Medium||
 |2953|[Count Complete Substrings](https://leetcode.com/problems/count-complete-substrings/)|Hard||
 |2954|[Count the Number of Infection Sequences](https://leetcode.com/problems/count-the-number-of-infection-sequences/)|Hard||
 |2955|[Number of Same-End Substrings](https://leetcode.com/problems/number-of-same-end-substrings/)|Medium|🔒|
-|2956|[Find Common Elements Between Two Arrays](https://leetcode.com/problems/find-common-elements-between-two-arrays/)|Easy||
 |2957|[Remove Adjacent Almost-Equal Characters](https://leetcode.com/problems/remove-adjacent-almost-equal-characters/)|Medium||
 |2958|[Length of Longest Subarray With at Most K Frequency](https://leetcode.com/problems/length-of-longest-subarray-with-at-most-k-frequency/)|Medium||
 |2959|[Number of Possible Sets of Closing Branches](https://leetcode.com/problems/number-of-possible-sets-of-closing-branches/)|Hard||
-|2960|[Count Tested Devices After Test Operations](https://leetcode.com/problems/count-tested-devices-after-test-operations/)|Easy||
 |2961|[Double Modular Exponentiation](https://leetcode.com/problems/double-modular-exponentiation/)|Medium||
 |2962|[Count Subarrays Where Max Element Appears at Least K Times](https://leetcode.com/problems/count-subarrays-where-max-element-appears-at-least-k-times/)|Medium||
 |2963|[Count the Number of Good Partitions](https://leetcode.com/problems/count-the-number-of-good-partitions/)|Hard||
 |2964|[Number of Divisible Triplet Sums](https://leetcode.com/problems/number-of-divisible-triplet-sums/)|Medium|🔒|
-|2965|[Find Missing and Repeated Values](https://leetcode.com/problems/find-missing-and-repeated-values/)|Easy||
 |2967|[Minimum Cost to Make Array Equalindromic](https://leetcode.com/problems/minimum-cost-to-make-array-equalindromic/)|Medium||
 |2968|[Apply Operations to Maximize Frequency Score](https://leetcode.com/problems/apply-operations-to-maximize-frequency-score/)|Hard||
 |2969|[Minimum Number of Coins for Fruits II](https://leetcode.com/problems/minimum-number-of-coins-for-fruits-ii/)|Hard|🔒|
-|2970|[Count the Number of Incremovable Subarrays I](https://leetcode.com/problems/count-the-number-of-incremovable-subarrays-i/)|Easy||
 |2971|[Find Polygon With the Largest Perimeter](https://leetcode.com/problems/find-polygon-with-the-largest-perimeter/)|Medium||
 |2972|[Count the Number of Incremovable Subarrays II](https://leetcode.com/problems/count-the-number-of-incremovable-subarrays-ii/)|Hard||
 |2973|[Find Number of Coins to Place in Tree Nodes](https://leetcode.com/problems/find-number-of-coins-to-place-in-tree-nodes/)|Hard||

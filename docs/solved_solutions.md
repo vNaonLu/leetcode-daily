@@ -1,6 +1,6 @@
 # Solved Solutions List
 
-This document contains **1238** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
+This document contains **1245** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
 
 Some questions which are still being resolved are not shown in this page, more information about unsolved questions can be found at [docs/unsolved_solutions.md](./unsolved_solutions.md).
 
@@ -1244,4 +1244,11 @@ Some questions which are still being resolved are not shown in this page, more i
 |2928|[Distribute Candies Among Children I](https://leetcode.com/problems/distribute-candies-among-children-i/)|[src/q_2901_2950/q2928.cc](../src/q_2901_2950/q2928.cc)|2024/02/03 12:20|
 |2932|[Maximum Strong Pair XOR I](https://leetcode.com/problems/maximum-strong-pair-xor-i/)|[src/q_2901_2950/q2932.cc](../src/q_2901_2950/q2932.cc)|2024/02/04 14:00|
 |2937|[Make Three Strings Equal](https://leetcode.com/problems/make-three-strings-equal/)|[src/q_2901_2950/q2937.cc](../src/q_2901_2950/q2937.cc)|2024/02/05 19:55|
+|2942|[Find Words Containing Character](https://leetcode.com/problems/find-words-containing-character/)|[src/q_2901_2950/q2942.cc](../src/q_2901_2950/q2942.cc)|2024/02/06 22:49|
+|2946|[Matrix Similarity After Cyclic Shifts](https://leetcode.com/problems/matrix-similarity-after-cyclic-shifts/)|[src/q_2901_2950/q2946.cc](../src/q_2901_2950/q2946.cc)|2024/02/07 16:19|
+|2951|[Find the Peaks](https://leetcode.com/problems/find-the-peaks/)|[src/q_2951_3000/q2951.cc](../src/q_2951_3000/q2951.cc)|2024/02/08 09:43|
+|2956|[Find Common Elements Between Two Arrays](https://leetcode.com/problems/find-common-elements-between-two-arrays/)|[src/q_2951_3000/q2956.cc](../src/q_2951_3000/q2956.cc)|2024/02/09 12:08|
+|2960|[Count Tested Devices After Test Operations](https://leetcode.com/problems/count-tested-devices-after-test-operations/)|[src/q_2951_3000/q2960.cc](../src/q_2951_3000/q2960.cc)|2024/02/10 11:50|
+|2965|[Find Missing and Repeated Values](https://leetcode.com/problems/find-missing-and-repeated-values/)|[src/q_2951_3000/q2965.cc](../src/q_2951_3000/q2965.cc)|2024/02/11 12:15|
 |2966|[Divide Array Into Arrays With Max Difference](https://leetcode.com/problems/divide-array-into-arrays-with-max-difference/)|[src/q_2951_3000/q2966.cc](../src/q_2951_3000/q2966.cc)|2024/02/01 18:52|
+|2970|[Count the Number of Incremovable Subarrays I](https://leetcode.com/problems/count-the-number-of-incremovable-subarrays-i/)|[src/q_2951_3000/q2970.cc](../src/q_2951_3000/q2970.cc)|2024/02/12 12:25|
