@@ -1,6 +1,6 @@
 # Solved Solutions List
 
-This document contains **1244** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
+This document contains **1245** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
 
 Some questions which are still being resolved are not shown in this page, more information about unsolved questions can be found at [docs/unsolved_solutions.md](./unsolved_solutions.md).
 
@@ -1251,3 +1251,4 @@ Some questions which are still being resolved are not shown in this page, more i
 |2960|[Count Tested Devices After Test Operations](https://leetcode.com/problems/count-tested-devices-after-test-operations/)|[src/q_2951_3000/q2960.cc](../src/q_2951_3000/q2960.cc)|2024/02/10 11:50|
 |2965|[Find Missing and Repeated Values](https://leetcode.com/problems/find-missing-and-repeated-values/)|[src/q_2951_3000/q2965.cc](../src/q_2951_3000/q2965.cc)|2024/02/11 12:15|
 |2966|[Divide Array Into Arrays With Max Difference](https://leetcode.com/problems/divide-array-into-arrays-with-max-difference/)|[src/q_2951_3000/q2966.cc](../src/q_2951_3000/q2966.cc)|2024/02/01 18:52|
+|2970|[Count the Number of Incremovable Subarrays I](https://leetcode.com/problems/count-the-number-of-incremovable-subarrays-i/)|[src/q_2951_3000/q2970.cc](../src/q_2951_3000/q2970.cc)|2024/02/12 12:25|
