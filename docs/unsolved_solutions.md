@@ -1,6 +1,6 @@
 # Unsolved Solutions List
 
-There are **1777** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
+There are **1776** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
 
 The questions which have been solved are not shown in this page, more information about solved questions can be found at [docs/solved_solutions.md](./solved_solutions.md).
 
@@ -1740,7 +1740,6 @@ The questions which have been solved are not shown in this page, more informatio
 |2977|[Minimum Cost to Convert String II](https://leetcode.com/problems/minimum-cost-to-convert-string-ii/)|Hard||
 |2978|[Symmetric Coordinates](https://leetcode.com/problems/symmetric-coordinates/)|Medium|🔒|
 |2979|[Most Expensive Item That Can Not Be Bought](https://leetcode.com/problems/most-expensive-item-that-can-not-be-bought/)|Medium|🔒|
-|2980|[Check if Bitwise OR Has Trailing Zeros](https://leetcode.com/problems/check-if-bitwise-or-has-trailing-zeros/)|Easy||
 |2981|[Find Longest Special Substring That Occurs Thrice I](https://leetcode.com/problems/find-longest-special-substring-that-occurs-thrice-i/)|Medium||
 |2982|[Find Longest Special Substring That Occurs Thrice II](https://leetcode.com/problems/find-longest-special-substring-that-occurs-thrice-ii/)|Medium||
 |2983|[Palindrome Rearrangement Queries](https://leetcode.com/problems/palindrome-rearrangement-queries/)|Hard||
