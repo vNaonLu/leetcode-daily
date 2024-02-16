@@ -1,6 +1,6 @@
 # Unsolved Solutions List
 
-There are **1775** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
+There are **1774** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
 
 The questions which have been solved are not shown in this page, more information about solved questions can be found at [docs/solved_solutions.md](./solved_solutions.md).
 
@@ -696,7 +696,6 @@ The questions which have been solved are not shown in this page, more informatio
 |1477|[Find Two Non-overlapping Sub-arrays Each With Target Sum](https://leetcode.com/problems/find-two-non-overlapping-sub-arrays-each-with-target-sum/)|Medium||
 |1478|[Allocate Mailboxes](https://leetcode.com/problems/allocate-mailboxes/)|Hard||
 |1479|[Sales by Day of the Week](https://leetcode.com/problems/sales-by-day-of-the-week/)|Hard|🔒|
-|1481|[Least Number of Unique Integers after K Removals](https://leetcode.com/problems/least-number-of-unique-integers-after-k-removals/)|Medium||
 |1483|[Kth Ancestor of a Tree Node](https://leetcode.com/problems/kth-ancestor-of-a-tree-node/)|Hard||
 |1484|[Group Sold Products By The Date](https://leetcode.com/problems/group-sold-products-by-the-date/)|Easy||
 |1485|[Clone Binary Tree With Random Pointer](https://leetcode.com/problems/clone-binary-tree-with-random-pointer/)|Medium|🔒|
