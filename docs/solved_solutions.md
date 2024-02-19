@@ -1,6 +1,6 @@
 # Solved Solutions List
 
-This document contains **1251** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
+This document contains **1252** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
 
 Some questions which are still being resolved are not shown in this page, more information about unsolved questions can be found at [docs/unsolved_solutions.md](./unsolved_solutions.md).
 
@@ -1258,3 +1258,4 @@ Some questions which are still being resolved are not shown in this page, more i
 |2971|[Find Polygon With the Largest Perimeter](https://leetcode.com/problems/find-polygon-with-the-largest-perimeter/)|[src/q_2951_3000/q2971.cc](../src/q_2951_3000/q2971.cc)|2024/02/15 18:03|
 |2974|[Minimum Number Game](https://leetcode.com/problems/minimum-number-game/)|[src/q_2951_3000/q2974.cc](../src/q_2951_3000/q2974.cc)|2024/02/13 13:30|
 |2980|[Check if Bitwise OR Has Trailing Zeros](https://leetcode.com/problems/check-if-bitwise-or-has-trailing-zeros/)|[src/q_2951_3000/q2980.cc](../src/q_2951_3000/q2980.cc)|2024/02/14 11:10|
+|2996|[Smallest Missing Integer Greater Than Sequential Prefix Sum](https://leetcode.com/problems/smallest-missing-integer-greater-than-sequential-prefix-sum/)|[src/q_2951_3000/q2996.cc](../src/q_2951_3000/q2996.cc)|2024/02/19 21:26|

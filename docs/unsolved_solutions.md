@@ -1,6 +1,6 @@
 # Unsolved Solutions List
 
-There are **1772** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
+There are **1771** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
 
 The questions which have been solved are not shown in this page, more information about solved questions can be found at [docs/solved_solutions.md](./solved_solutions.md).
 
@@ -1751,7 +1751,6 @@ The questions which have been solved are not shown in this page, more informatio
 |2993|[Friday Purchases I](https://leetcode.com/problems/friday-purchases-i/)|Medium|🔒|
 |2994|[Friday Purchases II ](https://leetcode.com/problems/friday-purchases-ii/)|Hard|🔒|
 |2995|[Viewers Turned Streamers](https://leetcode.com/problems/viewers-turned-streamers/)|Hard|🔒|
-|2996|[Smallest Missing Integer Greater Than Sequential Prefix Sum](https://leetcode.com/problems/smallest-missing-integer-greater-than-sequential-prefix-sum/)|Easy||
 |2997|[Minimum Number of Operations to Make Array XOR Equal to K](https://leetcode.com/problems/minimum-number-of-operations-to-make-array-xor-equal-to-k/)|Medium||
 |2998|[Minimum Number of Operations to Make X and Y Equal](https://leetcode.com/problems/minimum-number-of-operations-to-make-x-and-y-equal/)|Medium||
 |2999|[Count the Number of Powerful Integers](https://leetcode.com/problems/count-the-number-of-powerful-integers/)|Hard||
