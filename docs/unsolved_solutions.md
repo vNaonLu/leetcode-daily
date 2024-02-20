@@ -1,6 +1,6 @@
 # Unsolved Solutions List
 
-There are **1778** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
+There are **1771** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
 
 The questions which have been solved are not shown in this page, more information about solved questions can be found at [docs/solved_solutions.md](./solved_solutions.md).
 
@@ -696,7 +696,6 @@ The questions which have been solved are not shown in this page, more informatio
 |1477|[Find Two Non-overlapping Sub-arrays Each With Target Sum](https://leetcode.com/problems/find-two-non-overlapping-sub-arrays-each-with-target-sum/)|Medium||
 |1478|[Allocate Mailboxes](https://leetcode.com/problems/allocate-mailboxes/)|Hard||
 |1479|[Sales by Day of the Week](https://leetcode.com/problems/sales-by-day-of-the-week/)|Hard|🔒|
-|1481|[Least Number of Unique Integers after K Removals](https://leetcode.com/problems/least-number-of-unique-integers-after-k-removals/)|Medium||
 |1483|[Kth Ancestor of a Tree Node](https://leetcode.com/problems/kth-ancestor-of-a-tree-node/)|Hard||
 |1484|[Group Sold Products By The Date](https://leetcode.com/problems/group-sold-products-by-the-date/)|Easy||
 |1485|[Clone Binary Tree With Random Pointer](https://leetcode.com/problems/clone-binary-tree-with-random-pointer/)|Medium|🔒|
@@ -1289,7 +1288,6 @@ The questions which have been solved are not shown in this page, more informatio
 |2398|[Maximum Number of Robots Within Budget](https://leetcode.com/problems/maximum-number-of-robots-within-budget/)|Hard||
 |2400|[Number of Ways to Reach a Position After Exactly k Steps](https://leetcode.com/problems/number-of-ways-to-reach-a-position-after-exactly-k-steps/)|Medium||
 |2401|[Longest Nice Subarray](https://leetcode.com/problems/longest-nice-subarray/)|Medium||
-|2402|[Meeting Rooms III](https://leetcode.com/problems/meeting-rooms-iii/)|Hard||
 |2403|[Minimum Time to Kill All Monsters](https://leetcode.com/problems/minimum-time-to-kill-all-monsters/)|Hard|🔒|
 |2404|[Most Frequent Even Element](https://leetcode.com/problems/most-frequent-even-element/)|Easy||
 |2406|[Divide Intervals Into Minimum Number of Groups](https://leetcode.com/problems/divide-intervals-into-minimum-number-of-groups/)|Medium||
@@ -1677,7 +1675,6 @@ The questions which have been solved are not shown in this page, more informatio
 |2896|[Apply Operations to Make Two Strings Equal](https://leetcode.com/problems/apply-operations-to-make-two-strings-equal/)|Medium||
 |2897|[Apply Operations on Array to Maximize Sum of Squares](https://leetcode.com/problems/apply-operations-on-array-to-maximize-sum-of-squares/)|Hard||
 |2898|[Maximum Linear Stock Score](https://leetcode.com/problems/maximum-linear-stock-score/)|Medium|🔒|
-|2900|[Longest Unequal Adjacent Groups Subsequence I](https://leetcode.com/problems/longest-unequal-adjacent-groups-subsequence-i/)|Medium||
 |2901|[Longest Unequal Adjacent Groups Subsequence II](https://leetcode.com/problems/longest-unequal-adjacent-groups-subsequence-ii/)|Medium||
 |2902|[Count of Sub-Multisets With Bounded Sum](https://leetcode.com/problems/count-of-sub-multisets-with-bounded-sum/)|Hard||
 |2904|[Shortest and Lexicographically Smallest Beautiful String](https://leetcode.com/problems/shortest-and-lexicographically-smallest-beautiful-string/)|Medium||
@@ -1732,16 +1729,13 @@ The questions which have been solved are not shown in this page, more informatio
 |2967|[Minimum Cost to Make Array Equalindromic](https://leetcode.com/problems/minimum-cost-to-make-array-equalindromic/)|Medium||
 |2968|[Apply Operations to Maximize Frequency Score](https://leetcode.com/problems/apply-operations-to-maximize-frequency-score/)|Hard||
 |2969|[Minimum Number of Coins for Fruits II](https://leetcode.com/problems/minimum-number-of-coins-for-fruits-ii/)|Hard|🔒|
-|2971|[Find Polygon With the Largest Perimeter](https://leetcode.com/problems/find-polygon-with-the-largest-perimeter/)|Medium||
 |2972|[Count the Number of Incremovable Subarrays II](https://leetcode.com/problems/count-the-number-of-incremovable-subarrays-ii/)|Hard||
 |2973|[Find Number of Coins to Place in Tree Nodes](https://leetcode.com/problems/find-number-of-coins-to-place-in-tree-nodes/)|Hard||
-|2974|[Minimum Number Game](https://leetcode.com/problems/minimum-number-game/)|Easy||
 |2975|[Maximum Square Area by Removing Fences From a Field](https://leetcode.com/problems/maximum-square-area-by-removing-fences-from-a-field/)|Medium||
 |2976|[Minimum Cost to Convert String I](https://leetcode.com/problems/minimum-cost-to-convert-string-i/)|Medium||
 |2977|[Minimum Cost to Convert String II](https://leetcode.com/problems/minimum-cost-to-convert-string-ii/)|Hard||
 |2978|[Symmetric Coordinates](https://leetcode.com/problems/symmetric-coordinates/)|Medium|🔒|
 |2979|[Most Expensive Item That Can Not Be Bought](https://leetcode.com/problems/most-expensive-item-that-can-not-be-bought/)|Medium|🔒|
-|2980|[Check if Bitwise OR Has Trailing Zeros](https://leetcode.com/problems/check-if-bitwise-or-has-trailing-zeros/)|Easy||
 |2981|[Find Longest Special Substring That Occurs Thrice I](https://leetcode.com/problems/find-longest-special-substring-that-occurs-thrice-i/)|Medium||
 |2982|[Find Longest Special Substring That Occurs Thrice II](https://leetcode.com/problems/find-longest-special-substring-that-occurs-thrice-ii/)|Medium||
 |2983|[Palindrome Rearrangement Queries](https://leetcode.com/problems/palindrome-rearrangement-queries/)|Hard||
@@ -1757,7 +1751,6 @@ The questions which have been solved are not shown in this page, more informatio
 |2993|[Friday Purchases I](https://leetcode.com/problems/friday-purchases-i/)|Medium|🔒|
 |2994|[Friday Purchases II ](https://leetcode.com/problems/friday-purchases-ii/)|Hard|🔒|
 |2995|[Viewers Turned Streamers](https://leetcode.com/problems/viewers-turned-streamers/)|Hard|🔒|
-|2996|[Smallest Missing Integer Greater Than Sequential Prefix Sum](https://leetcode.com/problems/smallest-missing-integer-greater-than-sequential-prefix-sum/)|Easy||
 |2997|[Minimum Number of Operations to Make Array XOR Equal to K](https://leetcode.com/problems/minimum-number-of-operations-to-make-array-xor-equal-to-k/)|Medium||
 |2998|[Minimum Number of Operations to Make X and Y Equal](https://leetcode.com/problems/minimum-number-of-operations-to-make-x-and-y-equal/)|Medium||
 |2999|[Count the Number of Powerful Integers](https://leetcode.com/problems/count-the-number-of-powerful-integers/)|Hard||

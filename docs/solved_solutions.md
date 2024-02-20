@@ -1,6 +1,6 @@
 # Solved Solutions List
 
-This document contains **1245** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
+This document contains **1252** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
 
 Some questions which are still being resolved are not shown in this page, more information about unsolved questions can be found at [docs/unsolved_solutions.md](./unsolved_solutions.md).
 
@@ -798,6 +798,7 @@ Some questions which are still being resolved are not shown in this page, more i
 |1473|[Paint House III](https://leetcode.com/problems/paint-house-iii/)|[src/q_1451_1500/q1473.cc](../src/q_1451_1500/q1473.cc)|2022/07/08 18:21|
 |1475|[Final Prices With a Special Discount in a Shop](https://leetcode.com/problems/final-prices-with-a-special-discount-in-a-shop/)|[src/q_1451_1500/q1475.cc](../src/q_1451_1500/q1475.cc)|2023/08/21 19:05|
 |1480|[Running Sum of 1d Array](https://leetcode.com/problems/running-sum-of-1d-array/)|[src/q_1451_1500/q1480.cc](../src/q_1451_1500/q1480.cc)|2021/11/01 18:23|
+|1481|[Least Number of Unique Integers after K Removals](https://leetcode.com/problems/least-number-of-unique-integers-after-k-removals/)|[src/q_1451_1500/q1481.cc](../src/q_1451_1500/q1481.cc)|2024/02/16 17:35|
 |1482|[Minimum Number of Days to Make m Bouquets](https://leetcode.com/problems/minimum-number-of-days-to-make-m-bouquets/)|[src/q_1451_1500/q1482.cc](../src/q_1451_1500/q1482.cc)|2022/07/20 18:38|
 |1486|[XOR Operation in an Array](https://leetcode.com/problems/xor-operation-in-an-array/)|[src/q_1451_1500/q1486.cc](../src/q_1451_1500/q1486.cc)|2022/12/06 18:51|
 |1488|[Avoid Flood in The City](https://leetcode.com/problems/avoid-flood-in-the-city/)|[src/q_1451_1500/q1488.cc](../src/q_1451_1500/q1488.cc)|2022/07/31 13:00|
@@ -1126,6 +1127,7 @@ Some questions which are still being resolved are not shown in this page, more i
 |2391|[Minimum Amount of Time to Collect Garbage](https://leetcode.com/problems/minimum-amount-of-time-to-collect-garbage/)|[src/q_2351_2400/q2391.cc](../src/q_2351_2400/q2391.cc)|2023/11/20 20:08|
 |2395|[Find Subarrays With Equal Sum](https://leetcode.com/problems/find-subarrays-with-equal-sum/)|[src/q_2351_2400/q2395.cc](../src/q_2351_2400/q2395.cc)|2023/01/22 12:29|
 |2399|[Check Distances Between Same Letters](https://leetcode.com/problems/check-distances-between-same-letters/)|[src/q_2351_2400/q2399.cc](../src/q_2351_2400/q2399.cc)|2023/02/04 14:33|
+|2402|[Meeting Rooms III](https://leetcode.com/problems/meeting-rooms-iii/)|[src/q_2401_2450/q2402.cc](../src/q_2401_2450/q2402.cc)|2024/02/18 16:15|
 |2405|[Optimal Partition of String](https://leetcode.com/problems/optimal-partition-of-string/)|[src/q_2401_2450/q2405.cc](../src/q_2401_2450/q2405.cc)|2023/04/04 14:57|
 |2413|[Smallest Even Multiple](https://leetcode.com/problems/smallest-even-multiple/)|[src/q_2401_2450/q2413.cc](../src/q_2401_2450/q2413.cc)|2023/02/03 13:19|
 |2418|[Sort the People](https://leetcode.com/problems/sort-the-people/)|[src/q_2401_2450/q2418.cc](../src/q_2401_2450/q2418.cc)|2023/01/18 17:53|
@@ -1236,6 +1238,7 @@ Some questions which are still being resolved are not shown in this page, more i
 |2873|[Maximum Value of an Ordered Triplet I](https://leetcode.com/problems/maximum-value-of-an-ordered-triplet-i/)|[src/q_2851_2900/q2873.cc](../src/q_2851_2900/q2873.cc)|2024/01/24 19:43|
 |2894|[Divisible and Non-divisible Sums Difference](https://leetcode.com/problems/divisible-and-non-divisible-sums-difference/)|[src/q_2851_2900/q2894.cc](../src/q_2851_2900/q2894.cc)|2024/01/25 19:09|
 |2899|[Last Visited Integers](https://leetcode.com/problems/last-visited-integers/)|[src/q_2851_2900/q2899.cc](../src/q_2851_2900/q2899.cc)|2024/01/27 16:20|
+|2900|[Longest Unequal Adjacent Groups Subsequence I](https://leetcode.com/problems/longest-unequal-adjacent-groups-subsequence-i/)|[src/q_2851_2900/q2900.cc](../src/q_2851_2900/q2900.cc)|2024/02/17 14:29|
 |2903|[Find Indices With Index and Value Difference I](https://leetcode.com/problems/find-indices-with-index-and-value-difference-i/)|[src/q_2901_2950/q2903.cc](../src/q_2901_2950/q2903.cc)|2024/01/28 16:43|
 |2908|[Minimum Sum of Mountain Triplets I](https://leetcode.com/problems/minimum-sum-of-mountain-triplets-i/)|[src/q_2901_2950/q2908.cc](../src/q_2901_2950/q2908.cc)|2024/01/29 20:18|
 |2913|[Subarrays Distinct Element Sum of Squares I](https://leetcode.com/problems/subarrays-distinct-element-sum-of-squares-i/)|[src/q_2901_2950/q2913.cc](../src/q_2901_2950/q2913.cc)|2024/01/30 20:09|
@@ -1252,3 +1255,7 @@ Some questions which are still being resolved are not shown in this page, more i
 |2965|[Find Missing and Repeated Values](https://leetcode.com/problems/find-missing-and-repeated-values/)|[src/q_2951_3000/q2965.cc](../src/q_2951_3000/q2965.cc)|2024/02/11 12:15|
 |2966|[Divide Array Into Arrays With Max Difference](https://leetcode.com/problems/divide-array-into-arrays-with-max-difference/)|[src/q_2951_3000/q2966.cc](../src/q_2951_3000/q2966.cc)|2024/02/01 18:52|
 |2970|[Count the Number of Incremovable Subarrays I](https://leetcode.com/problems/count-the-number-of-incremovable-subarrays-i/)|[src/q_2951_3000/q2970.cc](../src/q_2951_3000/q2970.cc)|2024/02/12 12:25|
+|2971|[Find Polygon With the Largest Perimeter](https://leetcode.com/problems/find-polygon-with-the-largest-perimeter/)|[src/q_2951_3000/q2971.cc](../src/q_2951_3000/q2971.cc)|2024/02/15 18:03|
+|2974|[Minimum Number Game](https://leetcode.com/problems/minimum-number-game/)|[src/q_2951_3000/q2974.cc](../src/q_2951_3000/q2974.cc)|2024/02/13 13:30|
+|2980|[Check if Bitwise OR Has Trailing Zeros](https://leetcode.com/problems/check-if-bitwise-or-has-trailing-zeros/)|[src/q_2951_3000/q2980.cc](../src/q_2951_3000/q2980.cc)|2024/02/14 11:10|
+|2996|[Smallest Missing Integer Greater Than Sequential Prefix Sum](https://leetcode.com/problems/smallest-missing-integer-greater-than-sequential-prefix-sum/)|[src/q_2951_3000/q2996.cc](../src/q_2951_3000/q2996.cc)|2024/02/19 21:26|
