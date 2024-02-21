@@ -1,6 +1,6 @@
 # Solved Solutions List
 
-This document contains **1253** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
+This document contains **1254** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
 
 Some questions which are still being resolved are not shown in this page, more information about unsolved questions can be found at [docs/unsolved_solutions.md](./unsolved_solutions.md).
 
@@ -1260,3 +1260,4 @@ Some questions which are still being resolved are not shown in this page, more i
 |2980|[Check if Bitwise OR Has Trailing Zeros](https://leetcode.com/problems/check-if-bitwise-or-has-trailing-zeros/)|[src/q_2951_3000/q2980.cc](../src/q_2951_3000/q2980.cc)|2024/02/14 11:10|
 |2996|[Smallest Missing Integer Greater Than Sequential Prefix Sum](https://leetcode.com/problems/smallest-missing-integer-greater-than-sequential-prefix-sum/)|[src/q_2951_3000/q2996.cc](../src/q_2951_3000/q2996.cc)|2024/02/19 21:26|
 |3000|[Maximum Area of Longest Diagonal Rectangle](https://leetcode.com/problems/maximum-area-of-longest-diagonal-rectangle/)|[src/q_2951_3000/q3000.cc](../src/q_2951_3000/q3000.cc)|2024/02/20 19:16|
+|3005|[Count Elements With Maximum Frequency](https://leetcode.com/problems/count-elements-with-maximum-frequency/)|[src/q_3001_3050/q3005.cc](../src/q_3001_3050/q3005.cc)|2024/02/21 20:07|
