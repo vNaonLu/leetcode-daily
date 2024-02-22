@@ -1,6 +1,6 @@
 # Unsolved Solutions List
 
-There are **1769** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
+There are **1768** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
 
 The questions which have been solved are not shown in this page, more information about solved questions can be found at [docs/solved_solutions.md](./solved_solutions.md).
 
@@ -1762,7 +1762,6 @@ The questions which have been solved are not shown in this page, more informatio
 |3007|[Maximum Number That Sum of the Prices Is Less Than or Equal to K](https://leetcode.com/problems/maximum-number-that-sum-of-the-prices-is-less-than-or-equal-to-k/)|Medium||
 |3008|[Find Beautiful Indices in the Given Array II](https://leetcode.com/problems/find-beautiful-indices-in-the-given-array-ii/)|Hard||
 |3009|[Maximum Number of Intersections on the Chart](https://leetcode.com/problems/maximum-number-of-intersections-on-the-chart/)|Hard|🔒|
-|3010|[Divide an Array Into Subarrays With Minimum Cost I](https://leetcode.com/problems/divide-an-array-into-subarrays-with-minimum-cost-i/)|Easy||
 |3011|[Find if Array Can Be Sorted](https://leetcode.com/problems/find-if-array-can-be-sorted/)|Medium||
 |3012|[Minimize Length of Array Using Operations](https://leetcode.com/problems/minimize-length-of-array-using-operations/)|Medium||
 |3013|[Divide an Array Into Subarrays With Minimum Cost II](https://leetcode.com/problems/divide-an-array-into-subarrays-with-minimum-cost-ii/)|Hard||
