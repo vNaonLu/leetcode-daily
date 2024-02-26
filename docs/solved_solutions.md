@@ -1,6 +1,6 @@
 # Solved Solutions List
 
-This document contains **1252** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
+This document contains **1258** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
 
 Some questions which are still being resolved are not shown in this page, more information about unsolved questions can be found at [docs/unsolved_solutions.md](./unsolved_solutions.md).
 
@@ -1022,6 +1022,7 @@ Some questions which are still being resolved are not shown in this page, more i
 |2085|[Count Common Words With One Occurrence](https://leetcode.com/problems/count-common-words-with-one-occurrence/)|[src/q_2051_2100/q2085.cc](../src/q_2051_2100/q2085.cc)|2023/09/28 21:54|
 |2089|[Find Target Indices After Sorting Array](https://leetcode.com/problems/find-target-indices-after-sorting-array/)|[src/q_2051_2100/q2089.cc](../src/q_2051_2100/q2089.cc)|2023/09/29 17:02|
 |2090|[K Radius Subarray Averages](https://leetcode.com/problems/k-radius-subarray-averages/)|[src/q_2051_2100/q2090.cc](../src/q_2051_2100/q2090.cc)|2022/02/10 16:36|
+|2092|[Find All People With Secret](https://leetcode.com/problems/find-all-people-with-secret/)|[src/q_2051_2100/q2092.cc](../src/q_2051_2100/q2092.cc)|2024/02/24 11:21|
 |2094|[Finding 3-Digit Even Numbers](https://leetcode.com/problems/finding-3-digit-even-numbers/)|[src/q_2051_2100/q2094.cc](../src/q_2051_2100/q2094.cc)|2023/04/06 16:11|
 |2095|[Delete the Middle Node of a Linked List](https://leetcode.com/problems/delete-the-middle-node-of-a-linked-list/)|[src/q_2051_2100/q2095.cc](../src/q_2051_2100/q2095.cc)|2022/10/14 10:08|
 |2099|[Find Subsequence of Length K With the Largest Sum](https://leetcode.com/problems/find-subsequence-of-length-k-with-the-largest-sum/)|[src/q_2051_2100/q2099.cc](../src/q_2051_2100/q2099.cc)|2023/09/30 11:40|
@@ -1203,6 +1204,7 @@ Some questions which are still being resolved are not shown in this page, more i
 |2697|[Lexicographically Smallest Palindrome](https://leetcode.com/problems/lexicographically-smallest-palindrome/)|[src/q_2651_2700/q2697.cc](../src/q_2651_2700/q2697.cc)|2023/12/13 19:02|
 |2706|[Buy Two Chocolates](https://leetcode.com/problems/buy-two-chocolates/)|[src/q_2701_2750/q2706.cc](../src/q_2701_2750/q2706.cc)|2023/06/14 20:04|
 |2707|[Extra Characters in a String](https://leetcode.com/problems/extra-characters-in-a-string/)|[src/q_2701_2750/q2707.cc](../src/q_2701_2750/q2707.cc)|2023/09/02 09:24|
+|2709|[Greatest Common Divisor Traversal](https://leetcode.com/problems/greatest-common-divisor-traversal/)|[src/q_2701_2750/q2709.cc](../src/q_2701_2750/q2709.cc)|2024/02/25 14:59|
 |2710|[Remove Trailing Zeros From a String](https://leetcode.com/problems/remove-trailing-zeros-from-a-string/)|[src/q_2701_2750/q2710.cc](../src/q_2701_2750/q2710.cc)|2023/12/15 18:46|
 |2716|[Minimize String Length](https://leetcode.com/problems/minimize-string-length/)|[src/q_2701_2750/q2716.cc](../src/q_2701_2750/q2716.cc)|2023/12/16 12:48|
 |2717|[Semi-Ordered Permutation](https://leetcode.com/problems/semi-ordered-permutation/)|[src/q_2701_2750/q2717.cc](../src/q_2701_2750/q2717.cc)|2023/12/18 19:24|
@@ -1259,3 +1261,7 @@ Some questions which are still being resolved are not shown in this page, more i
 |2974|[Minimum Number Game](https://leetcode.com/problems/minimum-number-game/)|[src/q_2951_3000/q2974.cc](../src/q_2951_3000/q2974.cc)|2024/02/13 13:30|
 |2980|[Check if Bitwise OR Has Trailing Zeros](https://leetcode.com/problems/check-if-bitwise-or-has-trailing-zeros/)|[src/q_2951_3000/q2980.cc](../src/q_2951_3000/q2980.cc)|2024/02/14 11:10|
 |2996|[Smallest Missing Integer Greater Than Sequential Prefix Sum](https://leetcode.com/problems/smallest-missing-integer-greater-than-sequential-prefix-sum/)|[src/q_2951_3000/q2996.cc](../src/q_2951_3000/q2996.cc)|2024/02/19 21:26|
+|3000|[Maximum Area of Longest Diagonal Rectangle](https://leetcode.com/problems/maximum-area-of-longest-diagonal-rectangle/)|[src/q_2951_3000/q3000.cc](../src/q_2951_3000/q3000.cc)|2024/02/20 19:16|
+|3005|[Count Elements With Maximum Frequency](https://leetcode.com/problems/count-elements-with-maximum-frequency/)|[src/q_3001_3050/q3005.cc](../src/q_3001_3050/q3005.cc)|2024/02/21 20:07|
+|3010|[Divide an Array Into Subarrays With Minimum Cost I](https://leetcode.com/problems/divide-an-array-into-subarrays-with-minimum-cost-i/)|[src/q_3001_3050/q3010.cc](../src/q_3001_3050/q3010.cc)|2024/02/23 01:07|
+|3014|[Minimum Number of Pushes to Type Word I](https://leetcode.com/problems/minimum-number-of-pushes-to-type-word-i/)|[src/q_3001_3050/q3014.cc](../src/q_3001_3050/q3014.cc)|2024/02/26 19:09|
