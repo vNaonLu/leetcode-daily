@@ -1,6 +1,6 @@
 # Solved Solutions List
 
-This document contains **1258** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
+This document contains **1259** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
 
 Some questions which are still being resolved are not shown in this page, more information about unsolved questions can be found at [docs/unsolved_solutions.md](./unsolved_solutions.md).
 
@@ -1265,3 +1265,4 @@ Some questions which are still being resolved are not shown in this page, more i
 |3005|[Count Elements With Maximum Frequency](https://leetcode.com/problems/count-elements-with-maximum-frequency/)|[src/q_3001_3050/q3005.cc](../src/q_3001_3050/q3005.cc)|2024/02/21 20:07|
 |3010|[Divide an Array Into Subarrays With Minimum Cost I](https://leetcode.com/problems/divide-an-array-into-subarrays-with-minimum-cost-i/)|[src/q_3001_3050/q3010.cc](../src/q_3001_3050/q3010.cc)|2024/02/23 01:07|
 |3014|[Minimum Number of Pushes to Type Word I](https://leetcode.com/problems/minimum-number-of-pushes-to-type-word-i/)|[src/q_3001_3050/q3014.cc](../src/q_3001_3050/q3014.cc)|2024/02/26 19:09|
+|3019|[Number of Changing Keys](https://leetcode.com/problems/number-of-changing-keys/)|[src/q_3001_3050/q3019.cc](../src/q_3001_3050/q3019.cc)|2024/02/27 20:40|
