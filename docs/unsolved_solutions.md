@@ -1,6 +1,6 @@
 # Unsolved Solutions List
 
-There are **1764** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
+There are **1801** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
 
 The questions which have been solved are not shown in this page, more information about solved questions can be found at [docs/solved_solutions.md](./solved_solutions.md).
 
@@ -1771,3 +1771,40 @@ The questions which have been solved are not shown in this page, more informatio
 |3021|[Alice and Bob Playing Flower Game](https://leetcode.com/problems/alice-and-bob-playing-flower-game/)|Medium||
 |3022|[Minimize OR of Remaining Elements Using Operations](https://leetcode.com/problems/minimize-or-of-remaining-elements-using-operations/)|Hard||
 |3023|[Find Pattern in Infinite Stream I](https://leetcode.com/problems/find-pattern-in-infinite-stream-i/)|Medium|🔒|
+|3024|[Type of Triangle](https://leetcode.com/problems/type-of-triangle/)|Easy||
+|3025|[Find the Number of Ways to Place People I](https://leetcode.com/problems/find-the-number-of-ways-to-place-people-i/)|Medium||
+|3026|[Maximum Good Subarray Sum](https://leetcode.com/problems/maximum-good-subarray-sum/)|Medium||
+|3027|[Find the Number of Ways to Place People II](https://leetcode.com/problems/find-the-number-of-ways-to-place-people-ii/)|Hard||
+|3028|[Ant on the Boundary](https://leetcode.com/problems/ant-on-the-boundary/)|Easy||
+|3029|[Minimum Time to Revert Word to Initial State I](https://leetcode.com/problems/minimum-time-to-revert-word-to-initial-state-i/)|Medium||
+|3030|[Find the Grid of Region Average](https://leetcode.com/problems/find-the-grid-of-region-average/)|Medium||
+|3031|[Minimum Time to Revert Word to Initial State II](https://leetcode.com/problems/minimum-time-to-revert-word-to-initial-state-ii/)|Hard||
+|3032|[Count Numbers With Unique Digits II](https://leetcode.com/problems/count-numbers-with-unique-digits-ii/)|Easy|🔒|
+|3033|[Modify the Matrix](https://leetcode.com/problems/modify-the-matrix/)|Easy||
+|3034|[Number of Subarrays That Match a Pattern I](https://leetcode.com/problems/number-of-subarrays-that-match-a-pattern-i/)|Medium||
+|3035|[Maximum Palindromes After Operations](https://leetcode.com/problems/maximum-palindromes-after-operations/)|Medium||
+|3036|[Number of Subarrays That Match a Pattern II](https://leetcode.com/problems/number-of-subarrays-that-match-a-pattern-ii/)|Hard||
+|3037|[Find Pattern in Infinite Stream II](https://leetcode.com/problems/find-pattern-in-infinite-stream-ii/)|Hard|🔒|
+|3038|[Maximum Number of Operations With the Same Score I](https://leetcode.com/problems/maximum-number-of-operations-with-the-same-score-i/)|Easy||
+|3039|[Apply Operations to Make String Empty](https://leetcode.com/problems/apply-operations-to-make-string-empty/)|Medium||
+|3040|[Maximum Number of Operations With the Same Score II](https://leetcode.com/problems/maximum-number-of-operations-with-the-same-score-ii/)|Medium||
+|3041|[Maximize Consecutive Elements in an Array After Modification](https://leetcode.com/problems/maximize-consecutive-elements-in-an-array-after-modification/)|Hard||
+|3042|[Count Prefix and Suffix Pairs I](https://leetcode.com/problems/count-prefix-and-suffix-pairs-i/)|Easy||
+|3043|[Find the Length of the Longest Common Prefix](https://leetcode.com/problems/find-the-length-of-the-longest-common-prefix/)|Medium||
+|3044|[Most Frequent Prime](https://leetcode.com/problems/most-frequent-prime/)|Medium||
+|3045|[Count Prefix and Suffix Pairs II](https://leetcode.com/problems/count-prefix-and-suffix-pairs-ii/)|Hard||
+|3046|[Split the Array](https://leetcode.com/problems/split-the-array/)|Easy||
+|3047|[Find the Largest Area of Square Inside Two Rectangles](https://leetcode.com/problems/find-the-largest-area-of-square-inside-two-rectangles/)|Medium||
+|3048|[Earliest Second to Mark Indices I](https://leetcode.com/problems/earliest-second-to-mark-indices-i/)|Medium||
+|3049|[Earliest Second to Mark Indices II](https://leetcode.com/problems/earliest-second-to-mark-indices-ii/)|Hard||
+|3050|[Pizza Toppings Cost Analysis](https://leetcode.com/problems/pizza-toppings-cost-analysis/)|Medium|🔒|
+|3051|[Find Candidates for Data Scientist Position](https://leetcode.com/problems/find-candidates-for-data-scientist-position/)|Easy|🔒|
+|3052|[Maximize Items](https://leetcode.com/problems/maximize-items/)|Hard|🔒|
+|3053|[Classifying Triangles by Lengths](https://leetcode.com/problems/classifying-triangles-by-lengths/)|Easy|🔒|
+|3054|[Binary Tree Nodes](https://leetcode.com/problems/binary-tree-nodes/)|Medium|🔒|
+|3055|[Top Percentile Fraud](https://leetcode.com/problems/top-percentile-fraud/)|Medium|🔒|
+|3056|[Snaps Analysis](https://leetcode.com/problems/snaps-analysis/)|Medium|🔒|
+|3057|[Employees Project Allocation](https://leetcode.com/problems/employees-project-allocation/)|Hard|🔒|
+|3058|[Friends With No Mutual Friends](https://leetcode.com/problems/friends-with-no-mutual-friends/)|Medium|🔒|
+|3059|[Find All Unique Email Domains](https://leetcode.com/problems/find-all-unique-email-domains/)|Easy|🔒|
+|3060|[User Activities within Time Bounds](https://leetcode.com/problems/user-activities-within-time-bounds/)|Hard|🔒|

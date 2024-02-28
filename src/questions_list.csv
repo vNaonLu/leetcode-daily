@@ -2898,7 +2898,7 @@ id,backend_id,title,level,slug,paid
 2897,3153,Apply Operations on Array to Maximize Sum of Squares,3,apply-operations-on-array-to-maximize-sum-of-squares,0
 2898,3182,Maximum Linear Stock Score,2,maximum-linear-stock-score,1
 2899,3164,Last Visited Integers,1,last-visited-integers,0
-2900,3143,Longest Unequal Adjacent Groups Subsequence I,2,longest-unequal-adjacent-groups-subsequence-i,0
+2900,3143,Longest Unequal Adjacent Groups Subsequence I,1,longest-unequal-adjacent-groups-subsequence-i,0
 2901,3142,Longest Unequal Adjacent Groups Subsequence II,2,longest-unequal-adjacent-groups-subsequence-ii,0
 2902,3091,Count of Sub-Multisets With Bounded Sum,3,count-of-sub-multisets-with-bounded-sum,0
 2903,3165,Find Indices With Index and Value Difference I,1,find-indices-with-index-and-value-difference-i,0
@@ -3022,3 +3022,40 @@ id,backend_id,title,level,slug,paid
 3021,3279,Alice and Bob Playing Flower Game,2,alice-and-bob-playing-flower-game,0
 3022,3261,Minimize OR of Remaining Elements Using Operations,3,minimize-or-of-remaining-elements-using-operations,0
 3023,3333,Find Pattern in Infinite Stream I,2,find-pattern-in-infinite-stream-i,1
+3024,3321,Type of Triangle,1,type-of-triangle,0
+3025,3278,Find the Number of Ways to Place People I,2,find-the-number-of-ways-to-place-people-i,0
+3026,3265,Maximum Good Subarray Sum,2,maximum-good-subarray-sum,0
+3027,3277,Find the Number of Ways to Place People II,3,find-the-number-of-ways-to-place-people-ii,0
+3028,3311,Ant on the Boundary,1,ant-on-the-boundary,0
+3029,3297,Minimum Time to Revert Word to Initial State I,2,minimum-time-to-revert-word-to-initial-state-i,0
+3030,3272,Find the Grid of Region Average,2,find-the-grid-of-region-average,0
+3031,3296,Minimum Time to Revert Word to Initial State II,3,minimum-time-to-revert-word-to-initial-state-ii,0
+3032,3343,Count Numbers With Unique Digits II,1,count-numbers-with-unique-digits-ii,1
+3033,3330,Modify the Matrix,1,modify-the-matrix,0
+3034,3269,Number of Subarrays That Match a Pattern I,2,number-of-subarrays-that-match-a-pattern-i,0
+3035,3317,Maximum Palindromes After Operations,2,maximum-palindromes-after-operations,0
+3036,3290,Number of Subarrays That Match a Pattern II,3,number-of-subarrays-that-match-a-pattern-ii,0
+3037,3352,Find Pattern in Infinite Stream II,3,find-pattern-in-infinite-stream-ii,1
+3038,3320,Maximum Number of Operations With the Same Score I,1,maximum-number-of-operations-with-the-same-score-i,0
+3039,3308,Apply Operations to Make String Empty,2,apply-operations-to-make-string-empty,0
+3040,3318,Maximum Number of Operations With the Same Score II,2,maximum-number-of-operations-with-the-same-score-ii,0
+3041,3298,Maximize Consecutive Elements in an Array After Modification,3,maximize-consecutive-elements-in-an-array-after-modification,0
+3042,3309,Count Prefix and Suffix Pairs I,1,count-prefix-and-suffix-pairs-i,0
+3043,3329,Find the Length of the Longest Common Prefix,2,find-the-length-of-the-longest-common-prefix,0
+3044,3314,Most Frequent Prime,2,most-frequent-prime,0
+3045,3305,Count Prefix and Suffix Pairs II,3,count-prefix-and-suffix-pairs-ii,0
+3046,3324,Split the Array,1,split-the-array,0
+3047,3325,Find the Largest Area of Square Inside Two Rectangles,2,find-the-largest-area-of-square-inside-two-rectangles,0
+3048,3292,Earliest Second to Mark Indices I,2,earliest-second-to-mark-indices-i,0
+3049,3289,Earliest Second to Mark Indices II,3,earliest-second-to-mark-indices-ii,0
+3050,3255,Pizza Toppings Cost Analysis,2,pizza-toppings-cost-analysis,1
+3051,3256,Find Candidates for Data Scientist Position,1,find-candidates-for-data-scientist-position,1
+3052,3257,Maximize Items,3,maximize-items,1
+3053,3258,Classifying Triangles by Lengths,1,classifying-triangles-by-lengths,1
+3054,3259,Binary Tree Nodes,2,binary-tree-nodes,1
+3055,3339,Top Percentile Fraud,2,top-percentile-fraud,1
+3056,3340,Snaps Analysis,2,snaps-analysis,1
+3057,3357,Employees Project Allocation,3,employees-project-allocation,1
+3058,3358,Friends With No Mutual Friends,2,friends-with-no-mutual-friends,1
+3059,3365,Find All Unique Email Domains,1,find-all-unique-email-domains,1
+3060,3366,User Activities within Time Bounds,3,user-activities-within-time-bounds,1
