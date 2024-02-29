@@ -1,6 +1,6 @@
 # Unsolved Solutions List
 
-There are **1800** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
+There are **1799** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
 
 The questions which have been solved are not shown in this page, more information about solved questions can be found at [docs/solved_solutions.md](./solved_solutions.md).
 
@@ -1774,7 +1774,6 @@ The questions which have been solved are not shown in this page, more informatio
 |3025|[Find the Number of Ways to Place People I](https://leetcode.com/problems/find-the-number-of-ways-to-place-people-i/)|Medium||
 |3026|[Maximum Good Subarray Sum](https://leetcode.com/problems/maximum-good-subarray-sum/)|Medium||
 |3027|[Find the Number of Ways to Place People II](https://leetcode.com/problems/find-the-number-of-ways-to-place-people-ii/)|Hard||
-|3028|[Ant on the Boundary](https://leetcode.com/problems/ant-on-the-boundary/)|Easy||
 |3029|[Minimum Time to Revert Word to Initial State I](https://leetcode.com/problems/minimum-time-to-revert-word-to-initial-state-i/)|Medium||
 |3030|[Find the Grid of Region Average](https://leetcode.com/problems/find-the-grid-of-region-average/)|Medium||
 |3031|[Minimum Time to Revert Word to Initial State II](https://leetcode.com/problems/minimum-time-to-revert-word-to-initial-state-ii/)|Hard||
