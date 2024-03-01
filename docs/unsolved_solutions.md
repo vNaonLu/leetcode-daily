@@ -1,6 +1,6 @@
 # Unsolved Solutions List
 
-There are **1799** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
+There are **1798** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
 
 The questions which have been solved are not shown in this page, more information about solved questions can be found at [docs/solved_solutions.md](./solved_solutions.md).
 
@@ -1778,7 +1778,6 @@ The questions which have been solved are not shown in this page, more informatio
 |3030|[Find the Grid of Region Average](https://leetcode.com/problems/find-the-grid-of-region-average/)|Medium||
 |3031|[Minimum Time to Revert Word to Initial State II](https://leetcode.com/problems/minimum-time-to-revert-word-to-initial-state-ii/)|Hard||
 |3032|[Count Numbers With Unique Digits II](https://leetcode.com/problems/count-numbers-with-unique-digits-ii/)|Easy|🔒|
-|3033|[Modify the Matrix](https://leetcode.com/problems/modify-the-matrix/)|Easy||
 |3034|[Number of Subarrays That Match a Pattern I](https://leetcode.com/problems/number-of-subarrays-that-match-a-pattern-i/)|Medium||
 |3035|[Maximum Palindromes After Operations](https://leetcode.com/problems/maximum-palindromes-after-operations/)|Medium||
 |3036|[Number of Subarrays That Match a Pattern II](https://leetcode.com/problems/number-of-subarrays-that-match-a-pattern-ii/)|Hard||
