@@ -1,6 +1,6 @@
 # Unsolved Solutions List
 
-There are **1798** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
+There are **1797** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
 
 The questions which have been solved are not shown in this page, more information about solved questions can be found at [docs/solved_solutions.md](./solved_solutions.md).
 
@@ -1782,7 +1782,6 @@ The questions which have been solved are not shown in this page, more informatio
 |3035|[Maximum Palindromes After Operations](https://leetcode.com/problems/maximum-palindromes-after-operations/)|Medium||
 |3036|[Number of Subarrays That Match a Pattern II](https://leetcode.com/problems/number-of-subarrays-that-match-a-pattern-ii/)|Hard||
 |3037|[Find Pattern in Infinite Stream II](https://leetcode.com/problems/find-pattern-in-infinite-stream-ii/)|Hard|🔒|
-|3038|[Maximum Number of Operations With the Same Score I](https://leetcode.com/problems/maximum-number-of-operations-with-the-same-score-i/)|Easy||
 |3039|[Apply Operations to Make String Empty](https://leetcode.com/problems/apply-operations-to-make-string-empty/)|Medium||
 |3040|[Maximum Number of Operations With the Same Score II](https://leetcode.com/problems/maximum-number-of-operations-with-the-same-score-ii/)|Medium||
 |3041|[Maximize Consecutive Elements in an Array After Modification](https://leetcode.com/problems/maximize-consecutive-elements-in-an-array-after-modification/)|Hard||
