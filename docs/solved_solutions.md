@@ -1,6 +1,6 @@
 # Solved Solutions List
 
-This document contains **1263** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
+This document contains **1264** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
 
 Some questions which are still being resolved are not shown in this page, more information about unsolved questions can be found at [docs/unsolved_solutions.md](./unsolved_solutions.md).
 
@@ -1270,3 +1270,4 @@ Some questions which are still being resolved are not shown in this page, more i
 |3028|[Ant on the Boundary](https://leetcode.com/problems/ant-on-the-boundary/)|[src/q_3001_3050/q3028.cc](../src/q_3001_3050/q3028.cc)|2024/02/29 20:35|
 |3033|[Modify the Matrix](https://leetcode.com/problems/modify-the-matrix/)|[src/q_3001_3050/q3033.cc](../src/q_3001_3050/q3033.cc)|2024/03/01 17:30|
 |3038|[Maximum Number of Operations With the Same Score I](https://leetcode.com/problems/maximum-number-of-operations-with-the-same-score-i/)|[src/q_3001_3050/q3038.cc](../src/q_3001_3050/q3038.cc)|2024/03/02 12:37|
+|3042|[Count Prefix and Suffix Pairs I](https://leetcode.com/problems/count-prefix-and-suffix-pairs-i/)|[src/q_3001_3050/q3042.cc](../src/q_3001_3050/q3042.cc)|2024/03/03 21:42|

@@ -1262,3 +1262,4 @@ timestamp,id,tc,sc,notes
 1709210140,3028,n,1,n = |nums.size()|
 1709285440,3033,n * m,n,"m = |matrix.size()|, n = |matrix[i].size()|"
 1709354232,3038,n,1,n = |nums.size()|
+1709473352,3042,n^2 + E,1,"n = |words.size()|, E = |words[i].size()|"
