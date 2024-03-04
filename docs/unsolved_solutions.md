@@ -1,6 +1,6 @@
 # Unsolved Solutions List
 
-There are **1796** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
+There are **1795** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
 
 The questions which have been solved are not shown in this page, more information about solved questions can be found at [docs/solved_solutions.md](./solved_solutions.md).
 
@@ -1788,7 +1788,6 @@ The questions which have been solved are not shown in this page, more informatio
 |3043|[Find the Length of the Longest Common Prefix](https://leetcode.com/problems/find-the-length-of-the-longest-common-prefix/)|Medium||
 |3044|[Most Frequent Prime](https://leetcode.com/problems/most-frequent-prime/)|Medium||
 |3045|[Count Prefix and Suffix Pairs II](https://leetcode.com/problems/count-prefix-and-suffix-pairs-ii/)|Hard||
-|3046|[Split the Array](https://leetcode.com/problems/split-the-array/)|Easy||
 |3047|[Find the Largest Area of Square Inside Two Rectangles](https://leetcode.com/problems/find-the-largest-area-of-square-inside-two-rectangles/)|Medium||
 |3048|[Earliest Second to Mark Indices I](https://leetcode.com/problems/earliest-second-to-mark-indices-i/)|Medium||
 |3049|[Earliest Second to Mark Indices II](https://leetcode.com/problems/earliest-second-to-mark-indices-ii/)|Hard||
