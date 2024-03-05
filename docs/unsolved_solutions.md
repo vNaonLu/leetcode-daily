@@ -1,6 +1,6 @@
 # Unsolved Solutions List
 
-There are **1795** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
+There are **1794** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
 
 The questions which have been solved are not shown in this page, more information about solved questions can be found at [docs/solved_solutions.md](./solved_solutions.md).
 
@@ -854,7 +854,6 @@ The questions which have been solved are not shown in this page, more informatio
 |1746|[Maximum Subarray Sum After One Operation](https://leetcode.com/problems/maximum-subarray-sum-after-one-operation/)|Medium|🔒|
 |1747|[Leetflex Banned Accounts](https://leetcode.com/problems/leetflex-banned-accounts/)|Medium|🔒|
 |1749|[Maximum Absolute Sum of Any Subarray](https://leetcode.com/problems/maximum-absolute-sum-of-any-subarray/)|Medium||
-|1750|[Minimum Length of String After Deleting Similar Ends](https://leetcode.com/problems/minimum-length-of-string-after-deleting-similar-ends/)|Medium||
 |1753|[Maximum Score From Removing Stones](https://leetcode.com/problems/maximum-score-from-removing-stones/)|Medium||
 |1754|[Largest Merge Of Two Strings](https://leetcode.com/problems/largest-merge-of-two-strings/)|Medium||
 |1755|[Closest Subsequence Sum](https://leetcode.com/problems/closest-subsequence-sum/)|Hard||
