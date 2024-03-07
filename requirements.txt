@@ -2,3 +2,4 @@ requests>=2.28.1
 regex>=2022.7.25
 getkey>=0.6.5
 decorator-cli>=0.1.5
+browser-cookie3>=0.19.1

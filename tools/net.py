@@ -4,6 +4,7 @@ from typing import Callable
 import json
 import sys
 import requests
+import browser_cookie3
 # prevent generating __pycache__
 sys.dont_write_bytecode = True
 
@@ -76,17 +77,29 @@ def requestQuestionsList(timeout: int = 5):
     LOG.funcVerbose("cached questions list not found.")
 
     URL = _LEETCODE_QUESTIONS_QUERY_URL
-    HEADERS = {'User-Agent': USER_AGENT, 'Connection': 'keep-alive'}
+    HEADERS = {
+      'User-Agent': USER_AGENT,
+      'Connection': 'keep-alive',
+      'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
+      'Sec-Ch-Ua': '"Not A(Brand";v="99", "Google Chrome";v="121", "Chromium";v="121"',
+      'Sec-Ch-Ua-Mobile': '?0',
+      'Sec-Ch-Ua-Platform': '"macOS"',
+      'Sec-Fetch-Dest': 'document',
+      'Sec-Fetch-Mode': 'navigate',
+      'Sec-Fetch-Site': 'none',
+      'Sec-Fetch-User': '?1',
+      'Upgrade-Insecure-Requests': '1'}
 
     LOG.funcVerbose("request URL    : {}", URL)
     LOG.funcVerbose("request headers: {}", HEADERS)
     LOG.funcVerbose("timeout        : {}", timeout)
 
+    COOKIES = browser_cookie3.chrome(domain_name='.leetcode.com')
     TASK = LOG.createTaskLog("Request Questions List")
 
     TASK.begin("requesting to: {}", URL)
     state, resp = safeRequest(
-        partial(requests.Session().get, URL, headers=HEADERS, timeout=timeout))
+        partial(requests.Session().get, URL, headers=HEADERS, timeout=timeout, cookies=COOKIES))
 
     LOG.funcVerbose("request finished: {}", state)
 
@@ -94,6 +107,8 @@ def requestQuestionsList(timeout: int = 5):
         TASK.done("successfully requested from: {}", URL, is_success=True)
         LOG.funcVerbose("cached the result of questions list.")
         __QUESTIONS_LIST_CACHE = resp
+        LOG.verbose("http code=%d" % resp.status_code)
+        LOG.verbose("http resp=%s" % resp.content.decode('utf-8'))
         return state, resp
 
     TASK.done("failed to request ({}): {}",
@@ -155,7 +170,16 @@ def requestQuestionInformation(slug: int, *, timeout: int = 5):
         'User-Agent': USER_AGENT,
         'Connection': 'keep-alive',
         'Content-Type': 'application/json',
-        'Referer': 'https://leetcode.com/problems/' + slug
+        'Referer': 'https://leetcode.com/problems/' + slug,
+        'Sec-Ch-Ua': '"Not A(Brand";v="99", "Google Chrome";v="121", "Chromium";v="121"',
+        'Sec-Ch-Ua-Mobile': '?0',
+        'Sec-Ch-Ua-Platform': '"macOS"',
+        'Sec-Fetch-Dest': 'document',
+        'Sec-Fetch-Mode': 'navigate',
+        'Sec-Fetch-Site': 'none',
+        'Sec-Fetch-User': '?1',
+        'Upgrade-Insecure-Requests': '1'
     }
 
-    return requestGraphQL(json.dumps(param), headers=HEADERS, timeout=timeout, name='Request Questions Information')
+    COOKIES = browser_cookie3.chrome(domain_name='.leetcode.com')
+    return requestGraphQL(json.dumps(param), headers=HEADERS, timeout=timeout, name='Request Questions Information', cookies=COOKIES)
