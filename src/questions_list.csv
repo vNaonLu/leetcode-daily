@@ -3071,3 +3071,4 @@ id,backend_id,title,level,slug,paid
 3070,3338,Count Submatrices with Top-Left Element and Sum Less Than k,2,count-submatrices-with-top-left-element-and-sum-less-than-k,0
 3071,3335,Minimum Operations to Write the Letter Y on a Grid,2,minimum-operations-to-write-the-letter-y-on-a-grid,0
 3072,3350,Distribute Elements Into Two Arrays II,3,distribute-elements-into-two-arrays-ii,0
+3073,3378,Maximum Increasing Triplet Value,2,maximum-increasing-triplet-value,1
