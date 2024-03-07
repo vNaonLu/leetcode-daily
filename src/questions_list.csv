@@ -3059,3 +3059,15 @@ id,backend_id,title,level,slug,paid
 3058,3358,Friends With No Mutual Friends,2,friends-with-no-mutual-friends,1
 3059,3365,Find All Unique Email Domains,1,find-all-unique-email-domains,1
 3060,3366,User Activities within Time Bounds,3,user-activities-within-time-bounds,1
+3061,3369,Calculate Trapping Rain Water,3,calculate-trapping-rain-water,1
+3062,3368,Winner of the Linked List Game,1,winner-of-the-linked-list-game,1
+3063,3359,Linked List Frequency,2,linked-list-frequency,1
+3064,3370,Guess the Number Using Bitwise Questions I,2,guess-the-number-using-bitwise-questions-i,1
+3065,3331,Minimum Operations to Exceed Threshold Value I,1,minimum-operations-to-exceed-threshold-value-i,0
+3066,3332,Minimum Operations to Exceed Threshold Value II,2,minimum-operations-to-exceed-threshold-value-ii,0
+3067,3326,Count Pairs of Connectable Servers in a Weighted Tree Network,2,count-pairs-of-connectable-servers-in-a-weighted-tree-network,0
+3068,3307,Find the Maximum Sum of Node Values,3,find-the-maximum-sum-of-node-values,0
+3069,3347,Distribute Elements Into Two Arrays I,1,distribute-elements-into-two-arrays-i,0
+3070,3338,Count Submatrices with Top-Left Element and Sum Less Than k,2,count-submatrices-with-top-left-element-and-sum-less-than-k,0
+3071,3335,Minimum Operations to Write the Letter Y on a Grid,2,minimum-operations-to-write-the-letter-y-on-a-grid,0
+3072,3350,Distribute Elements Into Two Arrays II,3,distribute-elements-into-two-arrays-ii,0
