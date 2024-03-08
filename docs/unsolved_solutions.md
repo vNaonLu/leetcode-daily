@@ -1,6 +1,6 @@
 # Unsolved Solutions List
 
-There are **1805** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
+There are **1804** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
 
 The questions which have been solved are not shown in this page, more information about solved questions can be found at [docs/solved_solutions.md](./solved_solutions.md).
 
@@ -78,7 +78,6 @@ The questions which have been solved are not shown in this page, more informatio
 |301|[Remove Invalid Parentheses](https://leetcode.com/problems/remove-invalid-parentheses/)|Hard||
 |302|[Smallest Rectangle Enclosing Black Pixels](https://leetcode.com/problems/smallest-rectangle-enclosing-black-pixels/)|Hard|🔒|
 |305|[Number of Islands II](https://leetcode.com/problems/number-of-islands-ii/)|Hard|🔒|
-|306|[Additive Number](https://leetcode.com/problems/additive-number/)|Medium||
 |308|[Range Sum Query 2D - Mutable](https://leetcode.com/problems/range-sum-query-2d-mutable/)|Hard|🔒|
 |311|[Sparse Matrix Multiplication](https://leetcode.com/problems/sparse-matrix-multiplication/)|Medium|🔒|
 |313|[Super Ugly Number](https://leetcode.com/problems/super-ugly-number/)|Medium||

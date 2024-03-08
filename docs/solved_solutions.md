@@ -1,6 +1,6 @@
 # Solved Solutions List
 
-This document contains **1268** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
+This document contains **1269** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
 
 Some questions which are still being resolved are not shown in this page, more information about unsolved questions can be found at [docs/unsolved_solutions.md](./unsolved_solutions.md).
 
@@ -241,6 +241,7 @@ Some questions which are still being resolved are not shown in this page, more i
 |300|[Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence/)|[src/q_251_300/q0300.cc](../src/q_251_300/q0300.cc)|2021/10/04 12:12|
 |303|[Range Sum Query - Immutable](https://leetcode.com/problems/range-sum-query-immutable/)|[src/q_301_350/q0303.cc](../src/q_301_350/q0303.cc)|2022/04/25 18:49|
 |304|[Range Sum Query 2D - Immutable](https://leetcode.com/problems/range-sum-query-2d-immutable/)|[src/q_301_350/q0304.cc](../src/q_301_350/q0304.cc)|2021/10/23 09:57|
+|306|[Additive Number](https://leetcode.com/problems/additive-number/)|[src/q_301_350/q0306.cc](../src/q_301_350/q0306.cc)|2024/03/08 21:05|
 |307|[Range Sum Query - Mutable](https://leetcode.com/problems/range-sum-query-mutable/)|[src/q_301_350/q0307.cc](../src/q_301_350/q0307.cc)|2022/07/31 12:40|
 |309|[Best Time to Buy and Sell Stock with Cooldown](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-cooldown/)|[src/q_301_350/q0309.cc](../src/q_301_350/q0309.cc)|2021/10/15 10:08|
 |310|[Minimum Height Trees](https://leetcode.com/problems/minimum-height-trees/)|[src/q_301_350/q0310.cc](../src/q_301_350/q0310.cc)|2021/12/16 18:21|
