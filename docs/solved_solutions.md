@@ -1,6 +1,6 @@
 # Solved Solutions List
 
-This document contains **1269** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
+This document contains **1270** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
 
 Some questions which are still being resolved are not shown in this page, more information about unsolved questions can be found at [docs/unsolved_solutions.md](./unsolved_solutions.md).
 
@@ -252,6 +252,7 @@ Some questions which are still being resolved are not shown in this page, more i
 |318|[Maximum Product of Word Lengths](https://leetcode.com/problems/maximum-product-of-word-lengths/)|[src/q_301_350/q0318.cc](../src/q_301_350/q0318.cc)|2022/05/29 14:09|
 |319|[Bulb Switcher](https://leetcode.com/problems/bulb-switcher/)|[src/q_301_350/q0319.cc](../src/q_301_350/q0319.cc)|2023/04/27 18:45|
 |322|[Coin Change](https://leetcode.com/problems/coin-change/)|[src/q_301_350/q0322.cc](../src/q_301_350/q0322.cc)|2021/10/06 13:01|
+|324|[Wiggle Sort II](https://leetcode.com/problems/wiggle-sort-ii/)|[src/q_301_350/q0324.cc](../src/q_301_350/q0324.cc)|2024/03/09 14:51|
 |326|[Power of Three](https://leetcode.com/problems/power-of-three/)|[src/q_301_350/q0326.cc](../src/q_301_350/q0326.cc)|2022/08/17 18:25|
 |328|[Odd Even Linked List](https://leetcode.com/problems/odd-even-linked-list/)|[src/q_301_350/q0328.cc](../src/q_301_350/q0328.cc)|2021/12/02 13:04|
 |329|[Longest Increasing Path in a Matrix](https://leetcode.com/problems/longest-increasing-path-in-a-matrix/)|[src/q_301_350/q0329.cc](../src/q_301_350/q0329.cc)|2022/05/19 18:17|

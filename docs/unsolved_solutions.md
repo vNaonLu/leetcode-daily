@@ -1,6 +1,6 @@
 # Unsolved Solutions List
 
-There are **1804** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
+There are **1803** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
 
 The questions which have been solved are not shown in this page, more information about solved questions can be found at [docs/solved_solutions.md](./solved_solutions.md).
 
@@ -85,7 +85,6 @@ The questions which have been solved are not shown in this page, more informatio
 |320|[Generalized Abbreviation](https://leetcode.com/problems/generalized-abbreviation/)|Medium|🔒|
 |321|[Create Maximum Number](https://leetcode.com/problems/create-maximum-number/)|Hard||
 |323|[Number of Connected Components in an Undirected Graph](https://leetcode.com/problems/number-of-connected-components-in-an-undirected-graph/)|Medium|🔒|
-|324|[Wiggle Sort II](https://leetcode.com/problems/wiggle-sort-ii/)|Medium||
 |325|[Maximum Size Subarray Sum Equals k](https://leetcode.com/problems/maximum-size-subarray-sum-equals-k/)|Medium|🔒|
 |327|[Count of Range Sum](https://leetcode.com/problems/count-of-range-sum/)|Hard||
 |330|[Patching Array](https://leetcode.com/problems/patching-array/)|Hard||
