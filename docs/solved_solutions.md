@@ -1,6 +1,6 @@
 # Solved Solutions List
 
-This document contains **1271** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
+This document contains **1272** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
 
 Some questions which are still being resolved are not shown in this page, more information about unsolved questions can be found at [docs/unsolved_solutions.md](./unsolved_solutions.md).
 
@@ -488,6 +488,7 @@ Some questions which are still being resolved are not shown in this page, more i
 |785|[Is Graph Bipartite?](https://leetcode.com/problems/is-graph-bipartite/)|[src/q_751_800/q0785.cc](../src/q_751_800/q0785.cc)|2022/03/23 18:56|
 |787|[Cheapest Flights Within K Stops](https://leetcode.com/problems/cheapest-flights-within-k-stops/)|[src/q_751_800/q0787.cc](../src/q_751_800/q0787.cc)|2023/01/26 13:37|
 |790|[Domino and Tromino Tiling](https://leetcode.com/problems/domino-and-tromino-tiling/)|[src/q_751_800/q0790.cc](../src/q_751_800/q0790.cc)|2021/12/10 17:59|
+|791|[Custom Sort String](https://leetcode.com/problems/custom-sort-string/)|[src/q_751_800/q0791.cc](../src/q_751_800/q0791.cc)|2024/03/11 22:39|
 |792|[Number of Matching Subsequences](https://leetcode.com/problems/number-of-matching-subsequences/)|[src/q_751_800/q0792.cc](../src/q_751_800/q0792.cc)|2022/07/21 01:00|
 |794|[Valid Tic-Tac-Toe State](https://leetcode.com/problems/valid-tic-tac-toe-state/)|[src/q_751_800/q0794.cc](../src/q_751_800/q0794.cc)|2022/06/09 18:35|
 |796|[Rotate String](https://leetcode.com/problems/rotate-string/)|[src/q_751_800/q0796.cc](../src/q_751_800/q0796.cc)|2022/10/30 12:26|

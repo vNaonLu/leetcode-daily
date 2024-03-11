@@ -1,6 +1,6 @@
 # Unsolved Solutions List
 
-There are **1806** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
+There are **1805** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
 
 The questions which have been solved are not shown in this page, more information about solved questions can be found at [docs/solved_solutions.md](./solved_solutions.md).
 
@@ -316,7 +316,6 @@ The questions which have been solved are not shown in this page, more informatio
 |786|[K-th Smallest Prime Fraction](https://leetcode.com/problems/k-th-smallest-prime-fraction/)|Medium||
 |788|[Rotated Digits](https://leetcode.com/problems/rotated-digits/)|Medium||
 |789|[Escape The Ghosts](https://leetcode.com/problems/escape-the-ghosts/)|Medium||
-|791|[Custom Sort String](https://leetcode.com/problems/custom-sort-string/)|Medium||
 |793|[Preimage Size of Factorial Zeroes Function](https://leetcode.com/problems/preimage-size-of-factorial-zeroes-function/)|Hard||
 |795|[Number of Subarrays with Bounded Maximum](https://leetcode.com/problems/number-of-subarrays-with-bounded-maximum/)|Medium||
 |798|[Smallest Rotation with Highest Score](https://leetcode.com/problems/smallest-rotation-with-highest-score/)|Hard||
