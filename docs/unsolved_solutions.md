@@ -1,6 +1,6 @@
 # Unsolved Solutions List
 
-There are **1804** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
+There are **1803** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
 
 The questions which have been solved are not shown in this page, more information about solved questions can be found at [docs/solved_solutions.md](./solved_solutions.md).
 
@@ -62,7 +62,6 @@ The questions which have been solved are not shown in this page, more informatio
 |271|[Encode and Decode Strings](https://leetcode.com/problems/encode-and-decode-strings/)|Medium|🔒|
 |272|[Closest Binary Search Tree Value II](https://leetcode.com/problems/closest-binary-search-tree-value-ii/)|Hard|🔒|
 |273|[Integer to English Words](https://leetcode.com/problems/integer-to-english-words/)|Hard||
-|274|[H-Index](https://leetcode.com/problems/h-index/)|Medium||
 |276|[Paint Fence](https://leetcode.com/problems/paint-fence/)|Medium|🔒|
 |277|[Find the Celebrity](https://leetcode.com/problems/find-the-celebrity/)|Medium|🔒|
 |280|[Wiggle Sort](https://leetcode.com/problems/wiggle-sort/)|Medium|🔒|

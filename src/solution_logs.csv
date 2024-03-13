@@ -1272,3 +1272,4 @@ timestamp,id,tc,sc,notes
 1710059746,3074,n * log(n) + m,1,"n = |capacity.size()|, m = |apple.size()|"
 1710167999,791,n + m,n,"n = |order.size()|, m = |s.size()|"
 1710253396,1171,n,n,n = number of |head|
+1710330984,274,n * log(n),1,n = |citations.size()|
