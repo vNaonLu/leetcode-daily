@@ -1266,3 +1266,8 @@ timestamp,id,tc,sc,notes
 1709562627,3046,n,1,n = |nums.size()|
 1709654272,1750,n,1,n = |s.size()|
 1709728206,3065,n,1,n = |nums.size()|
+1709820509,3069,n,n,n = |nums.size()|
+1709903143,306,n^3,n,n = |num.size()|
+1709967116,324,n,1,n = |nums.size()|
+1710059746,3074,n * log(n) + m,1,"n = |capacity.size()|, m = |apple.size()|"
+1710167999,791,n + m,n,"n = |order.size()|, m = |s.size()|"

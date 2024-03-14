@@ -1,6 +1,6 @@
 # Solved Solutions List
 
-This document contains **1267** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
+This document contains **1272** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
 
 Some questions which are still being resolved are not shown in this page, more information about unsolved questions can be found at [docs/unsolved_solutions.md](./unsolved_solutions.md).
 
@@ -241,6 +241,7 @@ Some questions which are still being resolved are not shown in this page, more i
 |300|[Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence/)|[src/q_251_300/q0300.cc](../src/q_251_300/q0300.cc)|2021/10/04 12:12|
 |303|[Range Sum Query - Immutable](https://leetcode.com/problems/range-sum-query-immutable/)|[src/q_301_350/q0303.cc](../src/q_301_350/q0303.cc)|2022/04/25 18:49|
 |304|[Range Sum Query 2D - Immutable](https://leetcode.com/problems/range-sum-query-2d-immutable/)|[src/q_301_350/q0304.cc](../src/q_301_350/q0304.cc)|2021/10/23 09:57|
+|306|[Additive Number](https://leetcode.com/problems/additive-number/)|[src/q_301_350/q0306.cc](../src/q_301_350/q0306.cc)|2024/03/08 21:05|
 |307|[Range Sum Query - Mutable](https://leetcode.com/problems/range-sum-query-mutable/)|[src/q_301_350/q0307.cc](../src/q_301_350/q0307.cc)|2022/07/31 12:40|
 |309|[Best Time to Buy and Sell Stock with Cooldown](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-cooldown/)|[src/q_301_350/q0309.cc](../src/q_301_350/q0309.cc)|2021/10/15 10:08|
 |310|[Minimum Height Trees](https://leetcode.com/problems/minimum-height-trees/)|[src/q_301_350/q0310.cc](../src/q_301_350/q0310.cc)|2021/12/16 18:21|
@@ -251,6 +252,7 @@ Some questions which are still being resolved are not shown in this page, more i
 |318|[Maximum Product of Word Lengths](https://leetcode.com/problems/maximum-product-of-word-lengths/)|[src/q_301_350/q0318.cc](../src/q_301_350/q0318.cc)|2022/05/29 14:09|
 |319|[Bulb Switcher](https://leetcode.com/problems/bulb-switcher/)|[src/q_301_350/q0319.cc](../src/q_301_350/q0319.cc)|2023/04/27 18:45|
 |322|[Coin Change](https://leetcode.com/problems/coin-change/)|[src/q_301_350/q0322.cc](../src/q_301_350/q0322.cc)|2021/10/06 13:01|
+|324|[Wiggle Sort II](https://leetcode.com/problems/wiggle-sort-ii/)|[src/q_301_350/q0324.cc](../src/q_301_350/q0324.cc)|2024/03/09 14:51|
 |326|[Power of Three](https://leetcode.com/problems/power-of-three/)|[src/q_301_350/q0326.cc](../src/q_301_350/q0326.cc)|2022/08/17 18:25|
 |328|[Odd Even Linked List](https://leetcode.com/problems/odd-even-linked-list/)|[src/q_301_350/q0328.cc](../src/q_301_350/q0328.cc)|2021/12/02 13:04|
 |329|[Longest Increasing Path in a Matrix](https://leetcode.com/problems/longest-increasing-path-in-a-matrix/)|[src/q_301_350/q0329.cc](../src/q_301_350/q0329.cc)|2022/05/19 18:17|
@@ -486,6 +488,7 @@ Some questions which are still being resolved are not shown in this page, more i
 |785|[Is Graph Bipartite?](https://leetcode.com/problems/is-graph-bipartite/)|[src/q_751_800/q0785.cc](../src/q_751_800/q0785.cc)|2022/03/23 18:56|
 |787|[Cheapest Flights Within K Stops](https://leetcode.com/problems/cheapest-flights-within-k-stops/)|[src/q_751_800/q0787.cc](../src/q_751_800/q0787.cc)|2023/01/26 13:37|
 |790|[Domino and Tromino Tiling](https://leetcode.com/problems/domino-and-tromino-tiling/)|[src/q_751_800/q0790.cc](../src/q_751_800/q0790.cc)|2021/12/10 17:59|
+|791|[Custom Sort String](https://leetcode.com/problems/custom-sort-string/)|[src/q_751_800/q0791.cc](../src/q_751_800/q0791.cc)|2024/03/11 22:39|
 |792|[Number of Matching Subsequences](https://leetcode.com/problems/number-of-matching-subsequences/)|[src/q_751_800/q0792.cc](../src/q_751_800/q0792.cc)|2022/07/21 01:00|
 |794|[Valid Tic-Tac-Toe State](https://leetcode.com/problems/valid-tic-tac-toe-state/)|[src/q_751_800/q0794.cc](../src/q_751_800/q0794.cc)|2022/06/09 18:35|
 |796|[Rotate String](https://leetcode.com/problems/rotate-string/)|[src/q_751_800/q0796.cc](../src/q_751_800/q0796.cc)|2022/10/30 12:26|
@@ -1274,3 +1277,5 @@ Some questions which are still being resolved are not shown in this page, more i
 |3042|[Count Prefix and Suffix Pairs I](https://leetcode.com/problems/count-prefix-and-suffix-pairs-i/)|[src/q_3001_3050/q3042.cc](../src/q_3001_3050/q3042.cc)|2024/03/03 21:42|
 |3046|[Split the Array](https://leetcode.com/problems/split-the-array/)|[src/q_3001_3050/q3046.cc](../src/q_3001_3050/q3046.cc)|2024/03/04 22:30|
 |3065|[Minimum Operations to Exceed Threshold Value I](https://leetcode.com/problems/minimum-operations-to-exceed-threshold-value-i/)|[src/q_3051_3100/q3065.cc](../src/q_3051_3100/q3065.cc)|2024/03/06 20:30|
+|3069|[Distribute Elements Into Two Arrays I](https://leetcode.com/problems/distribute-elements-into-two-arrays-i/)|[src/q_3051_3100/q3069.cc](../src/q_3051_3100/q3069.cc)|2024/03/07 22:08|
+|3074|[Apple Redistribution into Boxes](https://leetcode.com/problems/apple-redistribution-into-boxes/)|[src/q_3051_3100/q3074.cc](../src/q_3051_3100/q3074.cc)|2024/03/10 16:35|

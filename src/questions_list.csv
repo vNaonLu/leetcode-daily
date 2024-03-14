@@ -3061,7 +3061,7 @@ id,backend_id,title,level,slug,paid
 3060,3366,User Activities within Time Bounds,3,user-activities-within-time-bounds,1
 3061,3369,Calculate Trapping Rain Water,3,calculate-trapping-rain-water,1
 3062,3368,Winner of the Linked List Game,1,winner-of-the-linked-list-game,1
-3063,3359,Linked List Frequency,2,linked-list-frequency,1
+3063,3359,Linked List Frequency,1,linked-list-frequency,1
 3064,3370,Guess the Number Using Bitwise Questions I,2,guess-the-number-using-bitwise-questions-i,1
 3065,3331,Minimum Operations to Exceed Threshold Value I,1,minimum-operations-to-exceed-threshold-value-i,0
 3066,3332,Minimum Operations to Exceed Threshold Value II,2,minimum-operations-to-exceed-threshold-value-ii,0
@@ -3071,3 +3071,8 @@ id,backend_id,title,level,slug,paid
 3070,3338,Count Submatrices with Top-Left Element and Sum Less Than k,2,count-submatrices-with-top-left-element-and-sum-less-than-k,0
 3071,3335,Minimum Operations to Write the Letter Y on a Grid,2,minimum-operations-to-write-the-letter-y-on-a-grid,0
 3072,3350,Distribute Elements Into Two Arrays II,3,distribute-elements-into-two-arrays-ii,0
+3073,3378,Maximum Increasing Triplet Value,2,maximum-increasing-triplet-value,1
+3074,3334,Apple Redistribution into Boxes,1,apple-redistribution-into-boxes,0
+3075,3351,Maximize Happiness of Selected Children,2,maximize-happiness-of-selected-children,0
+3076,3356,Shortest Uncommon Substring in an Array,2,shortest-uncommon-substring-in-an-array,0
+3077,3313,Maximum Strength of K Disjoint Subarrays,3,maximum-strength-of-k-disjoint-subarrays,0

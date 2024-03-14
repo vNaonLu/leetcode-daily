@@ -78,7 +78,6 @@ The questions which have been solved are not shown in this page, more informatio
 |301|[Remove Invalid Parentheses](https://leetcode.com/problems/remove-invalid-parentheses/)|Hard||
 |302|[Smallest Rectangle Enclosing Black Pixels](https://leetcode.com/problems/smallest-rectangle-enclosing-black-pixels/)|Hard|🔒|
 |305|[Number of Islands II](https://leetcode.com/problems/number-of-islands-ii/)|Hard|🔒|
-|306|[Additive Number](https://leetcode.com/problems/additive-number/)|Medium||
 |308|[Range Sum Query 2D - Mutable](https://leetcode.com/problems/range-sum-query-2d-mutable/)|Hard|🔒|
 |311|[Sparse Matrix Multiplication](https://leetcode.com/problems/sparse-matrix-multiplication/)|Medium|🔒|
 |313|[Super Ugly Number](https://leetcode.com/problems/super-ugly-number/)|Medium||
@@ -86,7 +85,6 @@ The questions which have been solved are not shown in this page, more informatio
 |320|[Generalized Abbreviation](https://leetcode.com/problems/generalized-abbreviation/)|Medium|🔒|
 |321|[Create Maximum Number](https://leetcode.com/problems/create-maximum-number/)|Hard||
 |323|[Number of Connected Components in an Undirected Graph](https://leetcode.com/problems/number-of-connected-components-in-an-undirected-graph/)|Medium|🔒|
-|324|[Wiggle Sort II](https://leetcode.com/problems/wiggle-sort-ii/)|Medium||
 |325|[Maximum Size Subarray Sum Equals k](https://leetcode.com/problems/maximum-size-subarray-sum-equals-k/)|Medium|🔒|
 |327|[Count of Range Sum](https://leetcode.com/problems/count-of-range-sum/)|Hard||
 |330|[Patching Array](https://leetcode.com/problems/patching-array/)|Hard||
@@ -318,7 +316,6 @@ The questions which have been solved are not shown in this page, more informatio
 |786|[K-th Smallest Prime Fraction](https://leetcode.com/problems/k-th-smallest-prime-fraction/)|Medium||
 |788|[Rotated Digits](https://leetcode.com/problems/rotated-digits/)|Medium||
 |789|[Escape The Ghosts](https://leetcode.com/problems/escape-the-ghosts/)|Medium||
-|791|[Custom Sort String](https://leetcode.com/problems/custom-sort-string/)|Medium||
 |793|[Preimage Size of Factorial Zeroes Function](https://leetcode.com/problems/preimage-size-of-factorial-zeroes-function/)|Hard||
 |795|[Number of Subarrays with Bounded Maximum](https://leetcode.com/problems/number-of-subarrays-with-bounded-maximum/)|Medium||
 |798|[Smallest Rotation with Highest Score](https://leetcode.com/problems/smallest-rotation-with-highest-score/)|Hard||
@@ -1803,12 +1800,15 @@ The questions which have been solved are not shown in this page, more informatio
 |3060|[User Activities within Time Bounds](https://leetcode.com/problems/user-activities-within-time-bounds/)|Hard|🔒|
 |3061|[Calculate Trapping Rain Water](https://leetcode.com/problems/calculate-trapping-rain-water/)|Hard|🔒|
 |3062|[Winner of the Linked List Game](https://leetcode.com/problems/winner-of-the-linked-list-game/)|Easy|🔒|
-|3063|[Linked List Frequency](https://leetcode.com/problems/linked-list-frequency/)|Medium|🔒|
+|3063|[Linked List Frequency](https://leetcode.com/problems/linked-list-frequency/)|Easy|🔒|
 |3064|[Guess the Number Using Bitwise Questions I](https://leetcode.com/problems/guess-the-number-using-bitwise-questions-i/)|Medium|🔒|
 |3066|[Minimum Operations to Exceed Threshold Value II](https://leetcode.com/problems/minimum-operations-to-exceed-threshold-value-ii/)|Medium||
 |3067|[Count Pairs of Connectable Servers in a Weighted Tree Network](https://leetcode.com/problems/count-pairs-of-connectable-servers-in-a-weighted-tree-network/)|Medium||
 |3068|[Find the Maximum Sum of Node Values](https://leetcode.com/problems/find-the-maximum-sum-of-node-values/)|Hard||
-|3069|[Distribute Elements Into Two Arrays I](https://leetcode.com/problems/distribute-elements-into-two-arrays-i/)|Easy||
 |3070|[Count Submatrices with Top-Left Element and Sum Less Than k](https://leetcode.com/problems/count-submatrices-with-top-left-element-and-sum-less-than-k/)|Medium||
 |3071|[Minimum Operations to Write the Letter Y on a Grid](https://leetcode.com/problems/minimum-operations-to-write-the-letter-y-on-a-grid/)|Medium||
 |3072|[Distribute Elements Into Two Arrays II](https://leetcode.com/problems/distribute-elements-into-two-arrays-ii/)|Hard||
+|3073|[Maximum Increasing Triplet Value](https://leetcode.com/problems/maximum-increasing-triplet-value/)|Medium|🔒|
+|3075|[Maximize Happiness of Selected Children](https://leetcode.com/problems/maximize-happiness-of-selected-children/)|Medium||
+|3076|[Shortest Uncommon Substring in an Array](https://leetcode.com/problems/shortest-uncommon-substring-in-an-array/)|Medium||
+|3077|[Maximum Strength of K Disjoint Subarrays](https://leetcode.com/problems/maximum-strength-of-k-disjoint-subarrays/)|Hard||
