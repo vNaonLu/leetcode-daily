@@ -62,6 +62,25 @@ LEETCODE_END_RESOLVING(Solution);
 // * It is guaranteed that there will be an answer for the given input |nums|.
 ///////////////////////////////////////////////////////////////////////////////
 
+bool isWiggleSort(vector<int> const &v) {
+  for (int i = 1; i < v.size(); ++i) {
+    if (i & 1) {
+      if (v[i] <= v[i - 1]) {
+        return false;
+      } else if (i + 1 < v.size() && v[i + 1] >= v[i]) {
+        return false;
+      }
+    } else {
+      if (v[i] >= v[i - 1]) {
+        return false;
+      } else if (i + 1 < v.size() && v[i + 1] <= v[i]) {
+        return false;
+      }
+    }
+  }
+  return true;
+}
+
 // [Example #1]
 //  Input: nums = [1,5,1,1,6,4]
 // Output: [1,6,1,5,1,4]
@@ -71,9 +90,8 @@ LEETCODE_END_RESOLVING(Solution);
 LEETCODE_SOLUTION_UNITTEST(324, WiggleSortII, example_1) {
   auto        solution = MakeSolution();
   vector<int> nums     = {1, 5, 1, 1, 6, 4};
-  vector<int> expect   = {1, 6, 1, 5, 1, 4};
   solution->wiggleSort(nums);
-  LCD_EXPECT_EQ(expect, nums);
+  EXPECT_TRUE(isWiggleSort(nums));
 }
 
 // [Example #2]
@@ -86,5 +104,5 @@ LEETCODE_SOLUTION_UNITTEST(324, WiggleSortII, example_2) {
   vector<int> nums     = {1, 3, 2, 2, 3, 1};
   vector<int> expect   = {2, 3, 1, 3, 1, 2};
   solution->wiggleSort(nums);
-  LCD_EXPECT_EQ(expect, nums);
+  EXPECT_TRUE(isWiggleSort(nums));
 }
