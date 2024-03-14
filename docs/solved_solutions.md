@@ -1,6 +1,6 @@
 # Solved Solutions List
 
-This document contains **1274** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
+This document contains **1275** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
 
 Some questions which are still being resolved are not shown in this page, more information about unsolved questions can be found at [docs/unsolved_solutions.md](./unsolved_solutions.md).
 
@@ -572,6 +572,7 @@ Some questions which are still being resolved are not shown in this page, more i
 |923|[3Sum With Multiplicity](https://leetcode.com/problems/3sum-with-multiplicity/)|[src/q_901_950/q0923.cc](../src/q_901_950/q0923.cc)|2022/04/06 18:10|
 |925|[Long Pressed Name](https://leetcode.com/problems/long-pressed-name/)|[src/q_901_950/q0925.cc](../src/q_901_950/q0925.cc)|2022/11/03 23:25|
 |929|[Unique Email Addresses](https://leetcode.com/problems/unique-email-addresses/)|[src/q_901_950/q0929.cc](../src/q_901_950/q0929.cc)|2021/09/27 16:02|
+|930|[Binary Subarrays With Sum](https://leetcode.com/problems/binary-subarrays-with-sum/)|[src/q_901_950/q0930.cc](../src/q_901_950/q0930.cc)|2024/03/14 21:35|
 |931|[Minimum Falling Path Sum](https://leetcode.com/problems/minimum-falling-path-sum/)|[src/q_901_950/q0931.cc](../src/q_901_950/q0931.cc)|2021/10/22 13:55|
 |933|[Number of Recent Calls](https://leetcode.com/problems/number-of-recent-calls/)|[src/q_901_950/q0933.cc](../src/q_901_950/q0933.cc)|2022/10/06 10:20|
 |934|[Shortest Bridge](https://leetcode.com/problems/shortest-bridge/)|[src/q_901_950/q0934.cc](../src/q_901_950/q0934.cc)|2022/03/15 18:19|
