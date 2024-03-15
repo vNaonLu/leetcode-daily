@@ -1,6 +1,6 @@
 # Solved Solutions List
 
-This document contains **1275** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
+This document contains **1276** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
 
 Some questions which are still being resolved are not shown in this page, more information about unsolved questions can be found at [docs/unsolved_solutions.md](./unsolved_solutions.md).
 
@@ -289,6 +289,7 @@ Some questions which are still being resolved are not shown in this page, more i
 |382|[Linked List Random Node](https://leetcode.com/problems/linked-list-random-node/)|[src/q_351_400/q0382.cc](../src/q_351_400/q0382.cc)|2022/01/07 18:11|
 |383|[Ransom Note](https://leetcode.com/problems/ransom-note/)|[src/q_351_400/q0383.cc](../src/q_351_400/q0383.cc)|2021/09/10 08:00|
 |384|[Shuffle an Array](https://leetcode.com/problems/shuffle-an-array/)|[src/q_351_400/q0384.cc](../src/q_351_400/q0384.cc)|2021/10/08 12:48|
+|385|[Mini Parser](https://leetcode.com/problems/mini-parser/)|[src/q_351_400/q0385.cc](../src/q_351_400/q0385.cc)|2024/03/15 21:07|
 |387|[First Unique Character in a String](https://leetcode.com/problems/first-unique-character-in-a-string/)|[src/q_351_400/q0387.cc](../src/q_351_400/q0387.cc)|2021/09/10 08:00|
 |388|[Longest Absolute File Path](https://leetcode.com/problems/longest-absolute-file-path/)|[src/q_351_400/q0388.cc](../src/q_351_400/q0388.cc)|2022/03/05 10:14|
 |389|[Find the Difference](https://leetcode.com/problems/find-the-difference/)|[src/q_351_400/q0389.cc](../src/q_351_400/q0389.cc)|2022/02/07 18:13|
