@@ -1,6 +1,6 @@
 # Unsolved Solutions List
 
-There are **1801** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
+There are **1800** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
 
 The questions which have been solved are not shown in this page, more information about solved questions can be found at [docs/solved_solutions.md](./solved_solutions.md).
 
@@ -109,7 +109,6 @@ The questions which have been solved are not shown in this page, more informatio
 |371|[Sum of Two Integers](https://leetcode.com/problems/sum-of-two-integers/)|Medium||
 |379|[Design Phone Directory](https://leetcode.com/problems/design-phone-directory/)|Medium|🔒|
 |381|[Insert Delete GetRandom O(1) - Duplicates allowed](https://leetcode.com/problems/insert-delete-getrandom-o1-duplicates-allowed/)|Hard||
-|386|[Lexicographical Numbers](https://leetcode.com/problems/lexicographical-numbers/)|Medium||
 |390|[Elimination Game](https://leetcode.com/problems/elimination-game/)|Medium||
 |391|[Perfect Rectangle](https://leetcode.com/problems/perfect-rectangle/)|Hard||
 |395|[Longest Substring with At Least K Repeating Characters](https://leetcode.com/problems/longest-substring-with-at-least-k-repeating-characters/)|Medium||
