@@ -3076,3 +3076,12 @@ id,backend_id,title,level,slug,paid
 3075,3351,Maximize Happiness of Selected Children,2,maximize-happiness-of-selected-children,0
 3076,3356,Shortest Uncommon Substring in an Array,2,shortest-uncommon-substring-in-an-array,0
 3077,3313,Maximum Strength of K Disjoint Subarrays,3,maximum-strength-of-k-disjoint-subarrays,0
+3078,3385,Match Alphanumerical Pattern in Matrix I,2,match-alphanumerical-pattern-in-matrix-i,1
+3079,3367,Find the Sum of Encrypted Integers,1,find-the-sum-of-encrypted-integers,0
+3080,3306,Mark Elements on Array by Performing Queries,2,mark-elements-on-array-by-performing-queries,0
+3081,3354,Replace Question Marks in String to Minimize Its Value,2,replace-question-marks-in-string-to-minimize-its-value,0
+3082,3345,Find the Sum of the Power of All Subsequences,3,find-the-sum-of-the-power-of-all-subsequences,0
+3083,3353,Existence of a Substring in a String and Its Reverse,1,existence-of-a-substring-in-a-string-and-its-reverse,0
+3084,3337,Count Substrings Starting and Ending with Given Character,2,count-substrings-starting-and-ending-with-given-character,0
+3085,3360,Minimum Deletions to Make String K-Special,2,minimum-deletions-to-make-string-k-special,0
+3086,3327,Minimum Moves to Pick K Ones,3,minimum-moves-to-pick-k-ones,0
