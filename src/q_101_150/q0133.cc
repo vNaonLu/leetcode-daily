@@ -21,27 +21,25 @@
 using namespace std;
 using namespace lcd;
 
-namespace {
-
-class Node {
-public:
-  int            val;
-  vector<Node *> neighbors;
-  Node() {
-    val       = 0;
-    neighbors = vector<Node *>();
-  }
-  Node(int _val) {
-    val       = _val;
-    neighbors = vector<Node *>();
-  }
-  Node(int _val, vector<Node *> _neighbors) {
-    val       = _val;
-    neighbors = _neighbors;
-  }
-};
-
-} // namespace
+LEETCODE_SOLUTION_NAMESPACE(133, CloneGraph) {
+  class Node {
+  public:
+    int            val;
+    vector<Node *> neighbors;
+    Node() {
+      val       = 0;
+      neighbors = vector<Node *>();
+    }
+    Node(int _val) {
+      val       = _val;
+      neighbors = vector<Node *>();
+    }
+    Node(int _val, vector<Node *> _neighbors) {
+      val       = _val;
+      neighbors = _neighbors;
+    }
+  };
+}
 
 // Description of |133. Clone Graph|:
 //
@@ -121,32 +119,55 @@ LEETCODE_END_RESOLVING(Solution);
 // node.
 ///////////////////////////////////////////////////////////////////////////////
 
-namespace {
-vector<vector<int>> genGraph(Node *node) {
-  vector<vector<int>> res;
-  if (!node) {
+LEETCODE_SOLUTION_NAMESPACE(133, CloneGraph) {
+  vector<vector<int>> genGraph(Node * node) {
+    vector<vector<int>> res;
+    if (!node) {
+      return res;
+    }
+    int n = 0;
+
+    {
+      unordered_set<Node *> memo;
+      queue<Node *>         q;
+      q.emplace(node);
+      memo.emplace(node);
+      while (!q.empty()) {
+        auto p = q.front();
+        q.pop();
+        n = max(n, p->val);
+        for (auto *pp : p->neighbors) {
+          if (memo.emplace(pp).second) {
+            q.emplace(pp);
+          }
+        }
+      }
+    }
+    res.resize(n + 1, vector<int>(n + 1, 0));
+    {
+      unordered_set<Node *> memo;
+      queue<Node *>         q;
+      q.emplace(node);
+      memo.emplace(node);
+      while (!q.empty()) {
+        auto p = q.front();
+        q.pop();
+        for (auto *pp : p->neighbors) {
+          res[p->val][pp->val] = 1;
+          res[pp->val][p->val] = 1;
+          if (memo.emplace(pp).second) {
+            q.emplace(pp);
+          }
+        }
+      }
+    }
     return res;
   }
-  int n = 0;
 
-  {
-    unordered_set<Node *> memo;
-    queue<Node *>         q;
-    q.emplace(node);
-    memo.emplace(node);
-    while (!q.empty()) {
-      auto p = q.front();
-      q.pop();
-      n = max(n, p->val);
-      for (auto *pp : p->neighbors) {
-        if (memo.emplace(pp).second) {
-          q.emplace(pp);
-        }
-      }
+  void releaseGraph(Node * node) {
+    if (!node) {
+      return;
     }
-  }
-  res.resize(n + 1, vector<int>(n + 1, 0));
-  {
     unordered_set<Node *> memo;
     queue<Node *>         q;
     q.emplace(node);
@@ -155,39 +176,16 @@ vector<vector<int>> genGraph(Node *node) {
       auto p = q.front();
       q.pop();
       for (auto *pp : p->neighbors) {
-        res[p->val][pp->val] = 1;
-        res[pp->val][p->val] = 1;
         if (memo.emplace(pp).second) {
           q.emplace(pp);
         }
       }
     }
-  }
-  return res;
-}
 
-void releaseGraph(Node *node) {
-  if (!node) {
-    return;
-  }
-  unordered_set<Node *> memo;
-  queue<Node *>         q;
-  q.emplace(node);
-  memo.emplace(node);
-  while (!q.empty()) {
-    auto p = q.front();
-    q.pop();
-    for (auto *pp : p->neighbors) {
-      if (memo.emplace(pp).second) {
-        q.emplace(pp);
-      }
+    for (auto *n : memo) {
+      delete n;
     }
   }
-
-  for (auto *n : memo) {
-    delete n;
-  }
-}
 } // namespace
 
 // [Example #1]
