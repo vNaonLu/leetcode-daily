@@ -16,6 +16,8 @@ def getCommand(parent=None):
                  metavar="[Project_Root]", help="specify the source directory which contains CMakeLists.txt."),
         dcli.arg("-C", dest="build_path", default=str(BUILD_ABSOLUTE), action="store",
                  metavar="[Build_Path]", help="specify the directory to build. Default: './build'."),
+        dcli.arg("--disable-ninja", dest="use_ninja", default=True, action="store_false",
+                 help="comfigure cmake without Ninja."),
         dcli.arg("--release", dest="release_mode", default=False, action="store_true",
                  help="generate the build file with release flags."),
         dcli.arg("--compile-commands", dest="compile_command", default=False, action="store_true",
@@ -53,6 +55,7 @@ def getCommand(parent=None):
         ARG_INFRA_TEST_FLAG = "OFF" if getattr(args, "disable_infra_test") else "ON"
         ARG_RUN_IDS = getattr(args, "run_ids")
         ARG_RUN_INFRA = getattr(args, "run_infra")
+        ARG_NINJA = getattr(args, "use_ninja")
 
         if ARG_RUN_INFRA and ARG_RUN_IDS != None:
             LOG.failure("ldt build cannot run with |--run| and |--run-infra| enabled at the same time.")
@@ -71,7 +74,8 @@ def getCommand(parent=None):
                                 build_flag=ARG_BUILD_FLAG,
                                 compile_commands_flag=ARG_COMPILE_COMMAND_FLAG,
                                 leetcode_test_flag=ARG_LEETCODE_TEST_FLAG,
-                                infra_test_flag=ARG_INFRA_TEST_FLAG) != 0:
+                                infra_test_flag=ARG_INFRA_TEST_FLAG,
+                                use_ninja=ARG_NINJA) != 0:
             return result
 
         if result := ldtBuildImpl(build_path=ARG_BUILD_PATH,

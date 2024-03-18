@@ -6,6 +6,7 @@ import math
 import regex
 import time
 import subprocess
+import re
 from pathlib import Path
 from typing import Callable
 from datetime import date, datetime
@@ -235,6 +236,13 @@ def parseCMakeGenarateLog(oneline: str):
 
 
 def parseBuildLog(oneline: str):
+    # ninja format
+    # [24/777] build...
+    mat = re.match("\[(\d+)\/(\d+)\] *([\w\W]*)$", oneline)
+    if mat:
+        return int(float(int(mat[1])/int(mat[2])) * 100), mat[3]
+
+    # gcc format
     # [  0%] Built target gtest
     res = oneline.replace('\n', '')
     try:

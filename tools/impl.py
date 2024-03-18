@@ -230,7 +230,7 @@ def updateReadmeDocument(*, resolve_logs: ResolveLogsList, assets_path: Path, do
     return True
 
 
-def ldtGenImpl(*, src_path: Path, build_path: Path, build_flag: str, compile_commands_flag: str, leetcode_test_flag: str, infra_test_flag: str):
+def ldtGenImpl(*, src_path: Path, build_path: Path, build_flag: str, compile_commands_flag: str, leetcode_test_flag: str, infra_test_flag: str, use_ninja: bool = True):
     LOG = prompt.Log.getInstance()
     ARG_SRC_PATH = src_path
     ARG_BUILD_PATH = build_path
@@ -252,13 +252,19 @@ def ldtGenImpl(*, src_path: Path, build_path: Path, build_flag: str, compile_com
         LOG.failure("cmake not found.")
         return 1
 
-    CMD = [
-        cmake, "-S", ARG_SRC_PATH, "-B", ARG_BUILD_PATH,
+    CMD = [cmake]
+
+    if use_ninja:
+        CMD.append("-G")
+        CMD.append("Ninja")
+
+    CMD.extend([
+        "-S", ARG_SRC_PATH, "-B", ARG_BUILD_PATH,
         f"-DCMAKE_EXPORT_COMPILE_COMMANDS={ARG_COMPILE_COMMAND_FLAG}",
         f"-DCMAKE_BUILD_TYPE={ARG_BUILD_FLAG}",
         f"-DENABLE_LEETCODE_TEST={ARG_LEETCODE_TEST_FLAG}",
         f"-DENABLE_INFRA_TEST={ARG_INFRA_TEST_FLAG}",
-    ]
+    ])
 
     LOG.funcVerbose("generate CMake build files with flag: {}", LOG.format(
         f"-DCMAKE_BUILD_TYPE={ARG_BUILD_FLAG}", flag=LOG.HIGHTLIGHT))
