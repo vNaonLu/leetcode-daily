@@ -13,12 +13,35 @@
 #include <map>
 #include <queue>
 #include <unordered_map>
+#include <unordered_set>
 
 // -- This header must be included after others --
 #include "leetcode/testing/solution_test_helper.h"
 
 using namespace std;
 using namespace lcd;
+
+namespace {
+
+class Node {
+public:
+  int            val;
+  vector<Node *> neighbors;
+  Node() {
+    val       = 0;
+    neighbors = vector<Node *>();
+  }
+  Node(int _val) {
+    val       = _val;
+    neighbors = vector<Node *>();
+  }
+  Node(int _val, vector<Node *> _neighbors) {
+    val       = _val;
+    neighbors = _neighbors;
+  }
+};
+
+} // namespace
 
 // Description of |133. Clone Graph|:
 //
@@ -42,24 +65,6 @@ using namespace lcd;
 //
 
 LEETCODE_BEGIN_RESOLVING(133, CloneGraph, Solution);
-
-class Node {
-public:
-  int            val;
-  vector<Node *> neighbors;
-  Node() {
-    val       = 0;
-    neighbors = vector<Node *>();
-  }
-  Node(int _val) {
-    val       = _val;
-    neighbors = vector<Node *>();
-  }
-  Node(int _val, vector<Node *> _neighbors) {
-    val       = _val;
-    neighbors = _neighbors;
-  }
-};
 
 class Solution {
 private:
@@ -116,6 +121,75 @@ LEETCODE_END_RESOLVING(Solution);
 // node.
 ///////////////////////////////////////////////////////////////////////////////
 
+namespace {
+vector<vector<int>> genGraph(Node *node) {
+  vector<vector<int>> res;
+  if (!node) {
+    return res;
+  }
+  int n = 0;
+
+  {
+    unordered_set<Node *> memo;
+    queue<Node *>         q;
+    q.emplace(node);
+    memo.emplace(node);
+    while (!q.empty()) {
+      auto p = q.front();
+      q.pop();
+      n = max(n, p->val);
+      for (auto *pp : p->neighbors) {
+        if (memo.emplace(pp).second) {
+          q.emplace(pp);
+        }
+      }
+    }
+  }
+  res.resize(n + 1, vector<int>(n + 1, 0));
+  {
+    unordered_set<Node *> memo;
+    queue<Node *>         q;
+    q.emplace(node);
+    memo.emplace(node);
+    while (!q.empty()) {
+      auto p = q.front();
+      q.pop();
+      for (auto *pp : p->neighbors) {
+        res[p->val][pp->val] = 1;
+        res[pp->val][p->val] = 1;
+        if (memo.emplace(pp).second) {
+          q.emplace(pp);
+        }
+      }
+    }
+  }
+  return res;
+}
+
+void releaseGraph(Node *node) {
+  if (!node) {
+    return;
+  }
+  unordered_set<Node *> memo;
+  queue<Node *>         q;
+  q.emplace(node);
+  memo.emplace(node);
+  while (!q.empty()) {
+    auto p = q.front();
+    q.pop();
+    for (auto *pp : p->neighbors) {
+      if (memo.emplace(pp).second) {
+        q.emplace(pp);
+      }
+    }
+  }
+
+  for (auto *n : memo) {
+    delete n;
+  }
+}
+} // namespace
+
 // [Example #1]
 //  Input: adjList = [[2,4],[1,3],[2,4],[1,3]]
 // Output: [[2,4],[1,3],[2,4],[1,3]]
@@ -127,7 +201,22 @@ LEETCODE_END_RESOLVING(Solution);
 // 4th node (val = 4)'s neighbors are 1st node (val = 1) and 3rd node (val = 3).
 
 LEETCODE_SOLUTION_UNITTEST(133, CloneGraph, example_1) {
-  GTEST_SKIP() << "Unittest Not Implemented";
+  auto solution = MakeSolution();
+  Node n4(4);
+  Node n3(3);
+  Node n2(2);
+  Node node(1);
+
+  node.neighbors = {&n2, &n4};
+  n2.neighbors   = {&node, &n3};
+  n3.neighbors   = {&n2, &n4};
+  n4.neighbors   = {&node, &n3};
+  Node *actual   = solution->cloneGraph(&node);
+
+  auto g1 = genGraph(&node);
+  auto g2 = genGraph(actual);
+  EXPECT_EQ(g1, g2);
+  releaseGraph(actual);
 }
 
 // [Example #2]
@@ -138,7 +227,12 @@ LEETCODE_SOLUTION_UNITTEST(133, CloneGraph, example_1) {
 // node with val = 1 and it does not have any neighbors.
 
 LEETCODE_SOLUTION_UNITTEST(133, CloneGraph, example_2) {
-  GTEST_SKIP() << "Unittest Not Implemented";
+  auto  solution = MakeSolution();
+  Node  node(1);
+  Node *actual = solution->cloneGraph(&node);
+  ASSERT_TRUE(actual);
+  EXPECT_EQ(actual->val, 1);
+  releaseGraph(actual);
 }
 
 // [Example #3]
@@ -148,5 +242,9 @@ LEETCODE_SOLUTION_UNITTEST(133, CloneGraph, example_2) {
 // This an empty graph, it does not have any nodes.
 
 LEETCODE_SOLUTION_UNITTEST(133, CloneGraph, example_3) {
-  GTEST_SKIP() << "Unittest Not Implemented";
+  auto  solution = MakeSolution();
+  Node *node     = nullptr;
+  Node *actual   = solution->cloneGraph(node);
+  ASSERT_TRUE(!actual);
+  releaseGraph(actual);
 }

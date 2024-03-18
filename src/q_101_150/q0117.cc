@@ -18,6 +18,20 @@
 using namespace std;
 using namespace lcd;
 
+namespace {
+class Node {
+public:
+  int   val;
+  Node *left;
+  Node *right;
+  Node *next;
+  Node() : val(0), left(NULL), right(NULL), next(NULL) {}
+  Node(int _val) : val(_val), left(NULL), right(NULL), next(NULL) {}
+  Node(int _val, Node *_left, Node *_right, Node *_next)
+      : val(_val), left(_left), right(_right), next(_next) {}
+};
+} // namespace
+
 // Description of |117. Populating Next Right Pointers in Each Node II|:
 //
 // Given a binary tree
@@ -34,18 +48,6 @@ using namespace lcd;
 
 LEETCODE_BEGIN_RESOLVING(117, PopulatingNextRightPointersInEachNodeII,
                          Solution);
-
-class Node {
-public:
-  int   val;
-  Node *left;
-  Node *right;
-  Node *next;
-  Node() : val(0), left(NULL), right(NULL), next(NULL) {}
-  Node(int _val) : val(_val), left(NULL), right(NULL), next(NULL) {}
-  Node(int _val, Node *_left, Node *_right, Node *_next)
-      : val(_val), left(_left), right(_right), next(_next) {}
-};
 class Solution {
 private:
   void helper(vector<vector<Node *>> &r, Node *p, int level = 0) {
@@ -94,7 +96,24 @@ LEETCODE_END_RESOLVING(Solution);
 
 LEETCODE_SOLUTION_UNITTEST(117, PopulatingNextRightPointersInEachNodeII,
                            example_1) {
-  GTEST_SKIP() << "Unittest Not Implemented";
+  auto solution = MakeSolution();
+  Node n4(4);
+  Node n5(5);
+  Node n7(7);
+
+  Node  n2(2, &n4, &n5, nullptr);
+  Node  n3(3, nullptr, &n7, nullptr);
+  Node  root(1, &n2, &n3, nullptr);
+  Node *actual = solution->connect(&root);
+  ASSERT_EQ(actual, &root);
+  ASSERT_EQ(actual->left, &n2);
+  ASSERT_EQ(actual->right, &n3);
+  ASSERT_EQ(actual->next, nullptr);
+  ASSERT_EQ(n2.next, &n3);
+  ASSERT_EQ(n3.next, nullptr);
+  ASSERT_EQ(n4.next, &n5);
+  ASSERT_EQ(n5.next, &n7);
+  ASSERT_EQ(n7.next, nullptr);
 }
 
 // [Example #2]
@@ -104,5 +123,9 @@ LEETCODE_SOLUTION_UNITTEST(117, PopulatingNextRightPointersInEachNodeII,
 
 LEETCODE_SOLUTION_UNITTEST(117, PopulatingNextRightPointersInEachNodeII,
                            example_2) {
-  GTEST_SKIP() << "Unittest Not Implemented";
+  auto  solution = MakeSolution();
+  Node *root     = nullptr;
+  Node *expect   = nullptr;
+  Node *actual   = solution->connect(root);
+  EXPECT_EQ(actual, expect);
 }

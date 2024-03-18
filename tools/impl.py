@@ -417,10 +417,11 @@ def ldtRunImpl(*, build_path: Path, infra_test: bool, ids: list[int] = []):
             TASK.log("analyzing the test logs...")
             LOG.funcVerbose(f'\n{result}')
 
-            skipped_cases = regex.findall('^\[  SKIPPED \] ([\w_.]+)$', result, regex.MULTILINE)
-            skipped_ids = set([int(regex.search('q(\d+)_\w+\.\w+', test).group(1)) for test in skipped_cases])
+            skipped_cases = []
 
             if returncode == 0:
+                skipped_cases = regex.findall('^\[  SKIPPED \] ([\w_.]+)$', result, regex.MULTILINE)
+                skipped_ids = set([int(regex.search('q(\d+)_\w+\.\w+', test).group(1)) for test in skipped_cases])
                 missing_ids = []
                 if not infra_test and len(ARG_IDS) > 0:
                     passed_ids = set([int(d) for d in regex.findall('\[       OK \] q(\d+)_\w+\.\w+ \(\d+ ms\)', result)])
@@ -437,7 +438,7 @@ def ldtRunImpl(*, build_path: Path, infra_test: bool, ids: list[int] = []):
                     TASK.done("missing unittests for solution(s): {}", ', '.join(missing_ids), is_success=False)
                     returncode = 1
             elif returncode == PROCESS_RAN_TIMEOUT:
-                LOG.failure("abort process due to timeout.")
+                TASK.done("abort process due to timeout.", is_success=False)
             else:
                 failed_tests = regex.findall('^\[  FAILED  \] ([\w_.]+)$', result, regex.MULTILINE)
                 failed_ids = set([int(regex.search('q(\d+)_\w+\.\w+', test).group(1)) for test in failed_tests])

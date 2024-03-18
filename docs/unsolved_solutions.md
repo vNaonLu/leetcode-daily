@@ -1,6 +1,6 @@
 # Unsolved Solutions List
 
-There are **1805** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
+There are **1807** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
 
 The questions which have been solved are not shown in this page, more information about solved questions can be found at [docs/solved_solutions.md](./solved_solutions.md).
 
@@ -62,7 +62,6 @@ The questions which have been solved are not shown in this page, more informatio
 |271|[Encode and Decode Strings](https://leetcode.com/problems/encode-and-decode-strings/)|Medium|🔒|
 |272|[Closest Binary Search Tree Value II](https://leetcode.com/problems/closest-binary-search-tree-value-ii/)|Hard|🔒|
 |273|[Integer to English Words](https://leetcode.com/problems/integer-to-english-words/)|Hard||
-|274|[H-Index](https://leetcode.com/problems/h-index/)|Medium||
 |276|[Paint Fence](https://leetcode.com/problems/paint-fence/)|Medium|🔒|
 |277|[Find the Celebrity](https://leetcode.com/problems/find-the-celebrity/)|Medium|🔒|
 |280|[Wiggle Sort](https://leetcode.com/problems/wiggle-sort/)|Medium|🔒|
@@ -110,9 +109,6 @@ The questions which have been solved are not shown in this page, more informatio
 |371|[Sum of Two Integers](https://leetcode.com/problems/sum-of-two-integers/)|Medium||
 |379|[Design Phone Directory](https://leetcode.com/problems/design-phone-directory/)|Medium|🔒|
 |381|[Insert Delete GetRandom O(1) - Duplicates allowed](https://leetcode.com/problems/insert-delete-getrandom-o1-duplicates-allowed/)|Hard||
-|385|[Mini Parser](https://leetcode.com/problems/mini-parser/)|Medium||
-|386|[Lexicographical Numbers](https://leetcode.com/problems/lexicographical-numbers/)|Medium||
-|390|[Elimination Game](https://leetcode.com/problems/elimination-game/)|Medium||
 |391|[Perfect Rectangle](https://leetcode.com/problems/perfect-rectangle/)|Hard||
 |395|[Longest Substring with At Least K Repeating Characters](https://leetcode.com/problems/longest-substring-with-at-least-k-repeating-characters/)|Medium||
 |396|[Rotate Function](https://leetcode.com/problems/rotate-function/)|Medium||
@@ -372,7 +368,6 @@ The questions which have been solved are not shown in this page, more informatio
 |926|[Flip String to Monotone Increasing](https://leetcode.com/problems/flip-string-to-monotone-increasing/)|Medium||
 |927|[Three Equal Parts](https://leetcode.com/problems/three-equal-parts/)|Hard||
 |928|[Minimize Malware Spread II](https://leetcode.com/problems/minimize-malware-spread-ii/)|Hard||
-|930|[Binary Subarrays With Sum](https://leetcode.com/problems/binary-subarrays-with-sum/)|Medium||
 |932|[Beautiful Array](https://leetcode.com/problems/beautiful-array/)|Medium||
 |937|[Reorder Data in Log Files](https://leetcode.com/problems/reorder-data-in-log-files/)|Medium||
 |939|[Minimum Area Rectangle](https://leetcode.com/problems/minimum-area-rectangle/)|Medium||
@@ -512,7 +507,6 @@ The questions which have been solved are not shown in this page, more informatio
 |1168|[Optimize Water Distribution in a Village](https://leetcode.com/problems/optimize-water-distribution-in-a-village/)|Hard|🔒|
 |1169|[Invalid Transactions](https://leetcode.com/problems/invalid-transactions/)|Medium||
 |1170|[Compare Strings by Frequency of the Smallest Character](https://leetcode.com/problems/compare-strings-by-frequency-of-the-smallest-character/)|Medium||
-|1171|[Remove Zero Sum Consecutive Nodes from Linked List](https://leetcode.com/problems/remove-zero-sum-consecutive-nodes-from-linked-list/)|Medium||
 |1172|[Dinner Plate Stacks](https://leetcode.com/problems/dinner-plate-stacks/)|Hard||
 |1173|[Immediate Food Delivery I](https://leetcode.com/problems/immediate-food-delivery-i/)|Easy|🔒|
 |1174|[Immediate Food Delivery II](https://leetcode.com/problems/immediate-food-delivery-ii/)|Medium||
@@ -1812,3 +1806,11 @@ The questions which have been solved are not shown in this page, more informatio
 |3075|[Maximize Happiness of Selected Children](https://leetcode.com/problems/maximize-happiness-of-selected-children/)|Medium||
 |3076|[Shortest Uncommon Substring in an Array](https://leetcode.com/problems/shortest-uncommon-substring-in-an-array/)|Medium||
 |3077|[Maximum Strength of K Disjoint Subarrays](https://leetcode.com/problems/maximum-strength-of-k-disjoint-subarrays/)|Hard||
+|3078|[Match Alphanumerical Pattern in Matrix I](https://leetcode.com/problems/match-alphanumerical-pattern-in-matrix-i/)|Medium|🔒|
+|3080|[Mark Elements on Array by Performing Queries](https://leetcode.com/problems/mark-elements-on-array-by-performing-queries/)|Medium||
+|3081|[Replace Question Marks in String to Minimize Its Value](https://leetcode.com/problems/replace-question-marks-in-string-to-minimize-its-value/)|Medium||
+|3082|[Find the Sum of the Power of All Subsequences](https://leetcode.com/problems/find-the-sum-of-the-power-of-all-subsequences/)|Hard||
+|3083|[Existence of a Substring in a String and Its Reverse](https://leetcode.com/problems/existence-of-a-substring-in-a-string-and-its-reverse/)|Easy||
+|3084|[Count Substrings Starting and Ending with Given Character](https://leetcode.com/problems/count-substrings-starting-and-ending-with-given-character/)|Medium||
+|3085|[Minimum Deletions to Make String K-Special](https://leetcode.com/problems/minimum-deletions-to-make-string-k-special/)|Medium||
+|3086|[Minimum Moves to Pick K Ones](https://leetcode.com/problems/minimum-moves-to-pick-k-ones/)|Hard||

@@ -72,15 +72,21 @@ class QuestionContentAnalyzer:
             return content
 
         content = regex.sub(reg, "", content)
-        example_regex = "<pre>(?:[\w\W]*?)<(?:strong|b)>Input:? *<\/(?:strong|b)>([\w\W]*?)<(?:strong|b)>Output:? *<\/(?:strong|b)>([\w\W]*?)(?:<(?:strong|b)>Explanation:? *<\/(?:strong|b)>([\w\W]*?))?<\/pre>"
+        INPUT_REGEX = "<(?:strong|b)>Input:? *<\/(?:strong|b)>([\w\W]*?)"
+        NESTED_INPUT_REGEX = "<p[^>]*><(?:strong|b)>Input:? *<\/(?:strong|b)><span[^>]*>([\w\W]*?)<\/span><\/p>(?:[\w\W]*?)"
+        OUTPUT_REGEX = "<(?:strong|b)>Output:? *<\/(?:strong|b)>([\w\W]*?)"
+        NESTED_OUTPUT_REGEX = "<p[^>]*><(?:strong|b)>Output:? *<\/(?:strong|b)><span[^>]*>([\w\W]*?)<\/span><\/p>(?:[\w\W]*?)"
+        EXPLAN_REGEX = "<(?:strong|b)>Explanation:? *<\/(?:strong|b)>([\w\W]*?)"
+        NESTED_EXPLAN_REGEX = "<p[^>]*><(?:strong|b)>Explanation:? *<\/(?:strong|b)>([\w\W]*?)<\/p>"
+        example_regex = f"<(?:pre|div)[^>]*>(?:[\w\W]*?)(?:{NESTED_INPUT_REGEX}|{INPUT_REGEX})(?:{NESTED_OUTPUT_REGEX}|{OUTPUT_REGEX})(?:{NESTED_EXPLAN_REGEX}|{EXPLAN_REGEX})?<\/(?:pre|div)>"
         LOG.funcVerbose("find examples section: {}", mat.group(1))
         LOG.funcVerbose("parse the examples items with regex: {}", example_regex)
         for item in regex.findall(example_regex, mat.group(1)):
             LOG.funcVerbose("example found: {}", item)
             example = _QuestionContentInformation._QuestionExample()
-            example.input = parseHtml(str(item[0]).strip(), show_raw_data=True)
-            example.output = parseHtml(str(item[1]).strip(), show_raw_data=True)
-            example.explanation = parseHtml(str(item[2]).strip())
+            example.input = parseHtml(str(item[0] or item[1]).strip(), show_raw_data=True)
+            example.output = parseHtml(str(item[2] or item[3]).strip(), show_raw_data=True)
+            example.explanation = parseHtml(str(item[4]).strip())
             result.examples.append(example)
         return content
 
@@ -89,8 +95,7 @@ class QuestionContentAnalyzer:
         THIS = QuestionContentAnalyzer
         result = _QuestionContentInformation()
         content = THIS._parseAndCutConstraintsSection(content, result)
-        result.description.content = parseHtml(THIS._parseExamplesSection(content,
-                                                                          result))
+        result.description.content = parseHtml(THIS._parseExamplesSection(content, result))
         return result
 
 
