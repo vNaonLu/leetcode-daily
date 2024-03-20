@@ -1,6 +1,6 @@
 # Solved Solutions List
 
-This document contains **1280** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
+This document contains **1281** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
 
 Some questions which are still being resolved are not shown in this page, more information about unsolved questions can be found at [docs/unsolved_solutions.md](./unsolved_solutions.md).
 
@@ -888,6 +888,7 @@ Some questions which are still being resolved are not shown in this page, more i
 |1662|[Check If Two String Arrays are Equivalent](https://leetcode.com/problems/check-if-two-string-arrays-are-equivalent/)|[src/q_1651_1700/q1662.cc](../src/q_1651_1700/q1662.cc)|2022/10/25 10:52|
 |1663|[Smallest String With A Given Numeric Value](https://leetcode.com/problems/smallest-string-with-a-given-numeric-value/)|[src/q_1651_1700/q1663.cc](../src/q_1651_1700/q1663.cc)|2022/03/22 11:51|
 |1668|[Maximum Repeating Substring](https://leetcode.com/problems/maximum-repeating-substring/)|[src/q_1651_1700/q1668.cc](../src/q_1651_1700/q1668.cc)|2022/12/18 13:45|
+|1669|[Merge In Between Linked Lists](https://leetcode.com/problems/merge-in-between-linked-lists/)|[src/q_1651_1700/q1669.cc](../src/q_1651_1700/q1669.cc)|2024/03/20 20:16|
 |1672|[Richest Customer Wealth](https://leetcode.com/problems/richest-customer-wealth/)|[src/q_1651_1700/q1672.cc](../src/q_1651_1700/q1672.cc)|2022/01/31 11:26|
 |1674|[Minimum Moves to Make Array Complementary](https://leetcode.com/problems/minimum-moves-to-make-array-complementary/)|[src/q_1651_1700/q1674.cc](../src/q_1651_1700/q1674.cc)|2022/02/22 18:05|
 |1675|[Minimize Deviation in Array](https://leetcode.com/problems/minimize-deviation-in-array/)|[src/q_1651_1700/q1675.cc](../src/q_1651_1700/q1675.cc)|2022/02/19 14:39|

@@ -1,6 +1,6 @@
 # Unsolved Solutions List
 
-There are **1806** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
+There are **1805** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
 
 The questions which have been solved are not shown in this page, more information about solved questions can be found at [docs/solved_solutions.md](./solved_solutions.md).
 
@@ -794,7 +794,6 @@ The questions which have been solved are not shown in this page, more informatio
 |1665|[Minimum Initial Energy to Finish Tasks](https://leetcode.com/problems/minimum-initial-energy-to-finish-tasks/)|Hard||
 |1666|[Change the Root of a Binary Tree](https://leetcode.com/problems/change-the-root-of-a-binary-tree/)|Medium|🔒|
 |1667|[Fix Names in a Table](https://leetcode.com/problems/fix-names-in-a-table/)|Easy||
-|1669|[Merge In Between Linked Lists](https://leetcode.com/problems/merge-in-between-linked-lists/)|Medium||
 |1670|[Design Front Middle Back Queue](https://leetcode.com/problems/design-front-middle-back-queue/)|Medium||
 |1671|[Minimum Number of Removals to Make Mountain Array](https://leetcode.com/problems/minimum-number-of-removals-to-make-mountain-array/)|Hard||
 |1673|[Find the Most Competitive Subsequence](https://leetcode.com/problems/find-the-most-competitive-subsequence/)|Medium||
