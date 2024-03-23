@@ -1,6 +1,6 @@
 # Solved Solutions List
 
-This document contains **1283** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
+This document contains **1284** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
 
 Some questions which are still being resolved are not shown in this page, more information about unsolved questions can be found at [docs/unsolved_solutions.md](./unsolved_solutions.md).
 
@@ -301,6 +301,7 @@ Some questions which are still being resolved are not shown in this page, more i
 |395|[Longest Substring with At Least K Repeating Characters](https://leetcode.com/problems/longest-substring-with-at-least-k-repeating-characters/)|[src/q_351_400/q0395.cc](../src/q_351_400/q0395.cc)|2024/03/21 20:27|
 |396|[Rotate Function](https://leetcode.com/problems/rotate-function/)|[src/q_351_400/q0396.cc](../src/q_351_400/q0396.cc)|2024/03/22 13:00|
 |397|[Integer Replacement](https://leetcode.com/problems/integer-replacement/)|[src/q_351_400/q0397.cc](../src/q_351_400/q0397.cc)|2022/02/11 23:41|
+|398|[Random Pick Index](https://leetcode.com/problems/random-pick-index/)|[src/q_351_400/q0398.cc](../src/q_351_400/q0398.cc)|2024/03/23 08:16|
 |399|[Evaluate Division](https://leetcode.com/problems/evaluate-division/)|[src/q_351_400/q0399.cc](../src/q_351_400/q0399.cc)|2022/04/30 10:39|
 |401|[Binary Watch](https://leetcode.com/problems/binary-watch/)|[src/q_401_450/q0401.cc](../src/q_401_450/q0401.cc)|2022/08/15 18:05|
 |402|[Remove K Digits](https://leetcode.com/problems/remove-k-digits/)|[src/q_401_450/q0402.cc](../src/q_401_450/q0402.cc)|2022/02/18 18:25|
