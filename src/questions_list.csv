@@ -3085,3 +3085,10 @@ id,backend_id,title,level,slug,paid
 3084,3337,Count Substrings Starting and Ending with Given Character,2,count-substrings-starting-and-ending-with-given-character,0
 3085,3360,Minimum Deletions to Make String K-Special,2,minimum-deletions-to-make-string-k-special,0
 3086,3327,Minimum Moves to Pick K Ones,3,minimum-moves-to-pick-k-ones,0
+3087,3392,Find Trending Hashtags,2,find-trending-hashtags,1
+3088,3393,Make String Anti-palindrome,3,make-string-anti-palindrome,1
+3089,3400,Find Bursty Behavior,2,find-bursty-behavior,1
+3090,3349,Maximum Length Substring With Two Occurrences,1,maximum-length-substring-with-two-occurrences,0
+3091,3328,Apply Operations to Make Sum of Array Greater Than or Equal to k,2,apply-operations-to-make-sum-of-array-greater-than-or-equal-to-k,0
+3092,3363,Most Frequent IDs,2,most-frequent-ids,0
+3093,3376,Longest Common Suffix Queries,3,longest-common-suffix-queries,0
