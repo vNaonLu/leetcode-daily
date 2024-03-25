@@ -1,6 +1,6 @@
 # Solved Solutions List
 
-This document contains **1285** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
+This document contains **1286** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
 
 Some questions which are still being resolved are not shown in this page, more information about unsolved questions can be found at [docs/unsolved_solutions.md](./unsolved_solutions.md).
 
@@ -318,6 +318,7 @@ Some questions which are still being resolved are not shown in this page, more i
 |415|[Add Strings](https://leetcode.com/problems/add-strings/)|[src/q_401_450/q0415.cc](../src/q_401_450/q0415.cc)|2021/09/24 16:00|
 |416|[Partition Equal Subset Sum](https://leetcode.com/problems/partition-equal-subset-sum/)|[src/q_401_450/q0416.cc](../src/q_401_450/q0416.cc)|2021/12/12 15:04|
 |417|[Pacific Atlantic Water Flow](https://leetcode.com/problems/pacific-atlantic-water-flow/)|[src/q_401_450/q0417.cc](../src/q_401_450/q0417.cc)|2022/03/13 14:08|
+|419|[Battleships in a Board](https://leetcode.com/problems/battleships-in-a-board/)|[src/q_401_450/q0419.cc](../src/q_401_450/q0419.cc)|2024/03/25 19:38|
 |421|[Maximum XOR of Two Numbers in an Array](https://leetcode.com/problems/maximum-xor-of-two-numbers-in-an-array/)|[src/q_401_450/q0421.cc](../src/q_401_450/q0421.cc)|2022/01/27 18:12|
 |424|[Longest Repeating Character Replacement](https://leetcode.com/problems/longest-repeating-character-replacement/)|[src/q_401_450/q0424.cc](../src/q_401_450/q0424.cc)|2022/09/04 15:37|
 |427|[Construct Quad Tree](https://leetcode.com/problems/construct-quad-tree/)|[src/q_401_450/q0427.cc](../src/q_401_450/q0427.cc)|2023/02/27 15:12|

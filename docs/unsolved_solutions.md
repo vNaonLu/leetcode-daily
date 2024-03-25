@@ -1,6 +1,6 @@
 # Unsolved Solutions List
 
-There are **1808** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
+There are **1807** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
 
 The questions which have been solved are not shown in this page, more information about solved questions can be found at [docs/solved_solutions.md](./solved_solutions.md).
 
@@ -114,7 +114,6 @@ The questions which have been solved are not shown in this page, more informatio
 |408|[Valid Word Abbreviation](https://leetcode.com/problems/valid-word-abbreviation/)|Easy|🔒|
 |411|[Minimum Unique Word Abbreviation](https://leetcode.com/problems/minimum-unique-word-abbreviation/)|Hard|🔒|
 |418|[Sentence Screen Fitting](https://leetcode.com/problems/sentence-screen-fitting/)|Medium|🔒|
-|419|[Battleships in a Board](https://leetcode.com/problems/battleships-in-a-board/)|Medium||
 |420|[Strong Password Checker](https://leetcode.com/problems/strong-password-checker/)|Hard||
 |422|[Valid Word Square](https://leetcode.com/problems/valid-word-square/)|Easy|🔒|
 |423|[Reconstruct Original Digits from English](https://leetcode.com/problems/reconstruct-original-digits-from-english/)|Medium||
