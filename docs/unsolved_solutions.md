@@ -110,15 +110,10 @@ The questions which have been solved are not shown in this page, more informatio
 |379|[Design Phone Directory](https://leetcode.com/problems/design-phone-directory/)|Medium|🔒|
 |381|[Insert Delete GetRandom O(1) - Duplicates allowed](https://leetcode.com/problems/insert-delete-getrandom-o1-duplicates-allowed/)|Hard||
 |391|[Perfect Rectangle](https://leetcode.com/problems/perfect-rectangle/)|Hard||
-|395|[Longest Substring with At Least K Repeating Characters](https://leetcode.com/problems/longest-substring-with-at-least-k-repeating-characters/)|Medium||
-|396|[Rotate Function](https://leetcode.com/problems/rotate-function/)|Medium||
-|398|[Random Pick Index](https://leetcode.com/problems/random-pick-index/)|Medium||
-|400|[Nth Digit](https://leetcode.com/problems/nth-digit/)|Medium||
 |407|[Trapping Rain Water II](https://leetcode.com/problems/trapping-rain-water-ii/)|Hard||
 |408|[Valid Word Abbreviation](https://leetcode.com/problems/valid-word-abbreviation/)|Easy|🔒|
 |411|[Minimum Unique Word Abbreviation](https://leetcode.com/problems/minimum-unique-word-abbreviation/)|Hard|🔒|
 |418|[Sentence Screen Fitting](https://leetcode.com/problems/sentence-screen-fitting/)|Medium|🔒|
-|419|[Battleships in a Board](https://leetcode.com/problems/battleships-in-a-board/)|Medium||
 |420|[Strong Password Checker](https://leetcode.com/problems/strong-password-checker/)|Hard||
 |422|[Valid Word Square](https://leetcode.com/problems/valid-word-square/)|Easy|🔒|
 |423|[Reconstruct Original Digits from English](https://leetcode.com/problems/reconstruct-original-digits-from-english/)|Medium||
@@ -794,7 +789,6 @@ The questions which have been solved are not shown in this page, more informatio
 |1665|[Minimum Initial Energy to Finish Tasks](https://leetcode.com/problems/minimum-initial-energy-to-finish-tasks/)|Hard||
 |1666|[Change the Root of a Binary Tree](https://leetcode.com/problems/change-the-root-of-a-binary-tree/)|Medium|🔒|
 |1667|[Fix Names in a Table](https://leetcode.com/problems/fix-names-in-a-table/)|Easy||
-|1669|[Merge In Between Linked Lists](https://leetcode.com/problems/merge-in-between-linked-lists/)|Medium||
 |1670|[Design Front Middle Back Queue](https://leetcode.com/problems/design-front-middle-back-queue/)|Medium||
 |1671|[Minimum Number of Removals to Make Mountain Array](https://leetcode.com/problems/minimum-number-of-removals-to-make-mountain-array/)|Hard||
 |1673|[Find the Most Competitive Subsequence](https://leetcode.com/problems/find-the-most-competitive-subsequence/)|Medium||
@@ -1810,7 +1804,13 @@ The questions which have been solved are not shown in this page, more informatio
 |3080|[Mark Elements on Array by Performing Queries](https://leetcode.com/problems/mark-elements-on-array-by-performing-queries/)|Medium||
 |3081|[Replace Question Marks in String to Minimize Its Value](https://leetcode.com/problems/replace-question-marks-in-string-to-minimize-its-value/)|Medium||
 |3082|[Find the Sum of the Power of All Subsequences](https://leetcode.com/problems/find-the-sum-of-the-power-of-all-subsequences/)|Hard||
-|3083|[Existence of a Substring in a String and Its Reverse](https://leetcode.com/problems/existence-of-a-substring-in-a-string-and-its-reverse/)|Easy||
 |3084|[Count Substrings Starting and Ending with Given Character](https://leetcode.com/problems/count-substrings-starting-and-ending-with-given-character/)|Medium||
 |3085|[Minimum Deletions to Make String K-Special](https://leetcode.com/problems/minimum-deletions-to-make-string-k-special/)|Medium||
 |3086|[Minimum Moves to Pick K Ones](https://leetcode.com/problems/minimum-moves-to-pick-k-ones/)|Hard||
+|3087|[Find Trending Hashtags](https://leetcode.com/problems/find-trending-hashtags/)|Medium|🔒|
+|3088|[Make String Anti-palindrome](https://leetcode.com/problems/make-string-anti-palindrome/)|Hard|🔒|
+|3089|[Find Bursty Behavior](https://leetcode.com/problems/find-bursty-behavior/)|Medium|🔒|
+|3090|[Maximum Length Substring With Two Occurrences](https://leetcode.com/problems/maximum-length-substring-with-two-occurrences/)|Easy||
+|3091|[Apply Operations to Make Sum of Array Greater Than or Equal to k](https://leetcode.com/problems/apply-operations-to-make-sum-of-array-greater-than-or-equal-to-k/)|Medium||
+|3092|[Most Frequent IDs](https://leetcode.com/problems/most-frequent-ids/)|Medium||
+|3093|[Longest Common Suffix Queries](https://leetcode.com/problems/longest-common-suffix-queries/)|Hard||

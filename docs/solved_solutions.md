@@ -1,6 +1,6 @@
 # Solved Solutions List
 
-This document contains **1279** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
+This document contains **1286** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
 
 Some questions which are still being resolved are not shown in this page, more information about unsolved questions can be found at [docs/unsolved_solutions.md](./unsolved_solutions.md).
 
@@ -298,8 +298,12 @@ Some questions which are still being resolved are not shown in this page, more i
 |392|[Is Subsequence](https://leetcode.com/problems/is-subsequence/)|[src/q_351_400/q0392.cc](../src/q_351_400/q0392.cc)|2021/10/28 14:32|
 |393|[UTF-8 Validation](https://leetcode.com/problems/utf-8-validation/)|[src/q_351_400/q0393.cc](../src/q_351_400/q0393.cc)|2022/02/11 18:48|
 |394|[Decode String](https://leetcode.com/problems/decode-string/)|[src/q_351_400/q0394.cc](../src/q_351_400/q0394.cc)|2021/12/19 17:38|
+|395|[Longest Substring with At Least K Repeating Characters](https://leetcode.com/problems/longest-substring-with-at-least-k-repeating-characters/)|[src/q_351_400/q0395.cc](../src/q_351_400/q0395.cc)|2024/03/21 20:27|
+|396|[Rotate Function](https://leetcode.com/problems/rotate-function/)|[src/q_351_400/q0396.cc](../src/q_351_400/q0396.cc)|2024/03/22 13:00|
 |397|[Integer Replacement](https://leetcode.com/problems/integer-replacement/)|[src/q_351_400/q0397.cc](../src/q_351_400/q0397.cc)|2022/02/11 23:41|
+|398|[Random Pick Index](https://leetcode.com/problems/random-pick-index/)|[src/q_351_400/q0398.cc](../src/q_351_400/q0398.cc)|2024/03/23 08:16|
 |399|[Evaluate Division](https://leetcode.com/problems/evaluate-division/)|[src/q_351_400/q0399.cc](../src/q_351_400/q0399.cc)|2022/04/30 10:39|
+|400|[Nth Digit](https://leetcode.com/problems/nth-digit/)|[src/q_351_400/q0400.cc](../src/q_351_400/q0400.cc)|2024/03/24 12:59|
 |401|[Binary Watch](https://leetcode.com/problems/binary-watch/)|[src/q_401_450/q0401.cc](../src/q_401_450/q0401.cc)|2022/08/15 18:05|
 |402|[Remove K Digits](https://leetcode.com/problems/remove-k-digits/)|[src/q_401_450/q0402.cc](../src/q_401_450/q0402.cc)|2022/02/18 18:25|
 |403|[Frog Jump](https://leetcode.com/problems/frog-jump/)|[src/q_401_450/q0403.cc](../src/q_401_450/q0403.cc)|2023/08/27 14:05|
@@ -314,6 +318,7 @@ Some questions which are still being resolved are not shown in this page, more i
 |415|[Add Strings](https://leetcode.com/problems/add-strings/)|[src/q_401_450/q0415.cc](../src/q_401_450/q0415.cc)|2021/09/24 16:00|
 |416|[Partition Equal Subset Sum](https://leetcode.com/problems/partition-equal-subset-sum/)|[src/q_401_450/q0416.cc](../src/q_401_450/q0416.cc)|2021/12/12 15:04|
 |417|[Pacific Atlantic Water Flow](https://leetcode.com/problems/pacific-atlantic-water-flow/)|[src/q_401_450/q0417.cc](../src/q_401_450/q0417.cc)|2022/03/13 14:08|
+|419|[Battleships in a Board](https://leetcode.com/problems/battleships-in-a-board/)|[src/q_401_450/q0419.cc](../src/q_401_450/q0419.cc)|2024/03/25 19:38|
 |421|[Maximum XOR of Two Numbers in an Array](https://leetcode.com/problems/maximum-xor-of-two-numbers-in-an-array/)|[src/q_401_450/q0421.cc](../src/q_401_450/q0421.cc)|2022/01/27 18:12|
 |424|[Longest Repeating Character Replacement](https://leetcode.com/problems/longest-repeating-character-replacement/)|[src/q_401_450/q0424.cc](../src/q_401_450/q0424.cc)|2022/09/04 15:37|
 |427|[Construct Quad Tree](https://leetcode.com/problems/construct-quad-tree/)|[src/q_401_450/q0427.cc](../src/q_401_450/q0427.cc)|2023/02/27 15:12|
@@ -888,6 +893,7 @@ Some questions which are still being resolved are not shown in this page, more i
 |1662|[Check If Two String Arrays are Equivalent](https://leetcode.com/problems/check-if-two-string-arrays-are-equivalent/)|[src/q_1651_1700/q1662.cc](../src/q_1651_1700/q1662.cc)|2022/10/25 10:52|
 |1663|[Smallest String With A Given Numeric Value](https://leetcode.com/problems/smallest-string-with-a-given-numeric-value/)|[src/q_1651_1700/q1663.cc](../src/q_1651_1700/q1663.cc)|2022/03/22 11:51|
 |1668|[Maximum Repeating Substring](https://leetcode.com/problems/maximum-repeating-substring/)|[src/q_1651_1700/q1668.cc](../src/q_1651_1700/q1668.cc)|2022/12/18 13:45|
+|1669|[Merge In Between Linked Lists](https://leetcode.com/problems/merge-in-between-linked-lists/)|[src/q_1651_1700/q1669.cc](../src/q_1651_1700/q1669.cc)|2024/03/20 20:16|
 |1672|[Richest Customer Wealth](https://leetcode.com/problems/richest-customer-wealth/)|[src/q_1651_1700/q1672.cc](../src/q_1651_1700/q1672.cc)|2022/01/31 11:26|
 |1674|[Minimum Moves to Make Array Complementary](https://leetcode.com/problems/minimum-moves-to-make-array-complementary/)|[src/q_1651_1700/q1674.cc](../src/q_1651_1700/q1674.cc)|2022/02/22 18:05|
 |1675|[Minimize Deviation in Array](https://leetcode.com/problems/minimize-deviation-in-array/)|[src/q_1651_1700/q1675.cc](../src/q_1651_1700/q1675.cc)|2022/02/19 14:39|
@@ -1286,3 +1292,4 @@ Some questions which are still being resolved are not shown in this page, more i
 |3069|[Distribute Elements Into Two Arrays I](https://leetcode.com/problems/distribute-elements-into-two-arrays-i/)|[src/q_3051_3100/q3069.cc](../src/q_3051_3100/q3069.cc)|2024/03/07 22:08|
 |3074|[Apple Redistribution into Boxes](https://leetcode.com/problems/apple-redistribution-into-boxes/)|[src/q_3051_3100/q3074.cc](../src/q_3051_3100/q3074.cc)|2024/03/10 16:35|
 |3079|[Find the Sum of Encrypted Integers](https://leetcode.com/problems/find-the-sum-of-encrypted-integers/)|[src/q_3051_3100/q3079.cc](../src/q_3051_3100/q3079.cc)|2024/03/17 14:45|
+|3083|[Existence of a Substring in a String and Its Reverse](https://leetcode.com/problems/existence-of-a-substring-in-a-string-and-its-reverse/)|[src/q_3051_3100/q3083.cc](../src/q_3051_3100/q3083.cc)|2024/03/19 22:04|
