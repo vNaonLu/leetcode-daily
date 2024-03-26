@@ -1,6 +1,6 @@
 # Unsolved Solutions List
 
-There are **1807** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
+There are **1806** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
 
 The questions which have been solved are not shown in this page, more information about solved questions can be found at [docs/solved_solutions.md](./solved_solutions.md).
 
@@ -116,7 +116,6 @@ The questions which have been solved are not shown in this page, more informatio
 |418|[Sentence Screen Fitting](https://leetcode.com/problems/sentence-screen-fitting/)|Medium|🔒|
 |420|[Strong Password Checker](https://leetcode.com/problems/strong-password-checker/)|Hard||
 |422|[Valid Word Square](https://leetcode.com/problems/valid-word-square/)|Easy|🔒|
-|423|[Reconstruct Original Digits from English](https://leetcode.com/problems/reconstruct-original-digits-from-english/)|Medium||
 |425|[Word Squares](https://leetcode.com/problems/word-squares/)|Hard|🔒|
 |426|[Convert Binary Search Tree to Sorted Doubly Linked List](https://leetcode.com/problems/convert-binary-search-tree-to-sorted-doubly-linked-list/)|Medium|🔒|
 |428|[Serialize and Deserialize N-ary Tree](https://leetcode.com/problems/serialize-and-deserialize-n-ary-tree/)|Hard|🔒|
