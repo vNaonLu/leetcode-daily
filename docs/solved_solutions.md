@@ -1,6 +1,6 @@
 # Solved Solutions List
 
-This document contains **1287** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
+This document contains **1288** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
 
 Some questions which are still being resolved are not shown in this page, more information about unsolved questions can be found at [docs/unsolved_solutions.md](./unsolved_solutions.md).
 
@@ -336,6 +336,7 @@ Some questions which are still being resolved are not shown in this page, more i
 |443|[String Compression](https://leetcode.com/problems/string-compression/)|[src/q_401_450/q0443.cc](../src/q_401_450/q0443.cc)|2023/03/02 20:03|
 |445|[Add Two Numbers II](https://leetcode.com/problems/add-two-numbers-ii/)|[src/q_401_450/q0445.cc](../src/q_401_450/q0445.cc)|2022/05/10 19:27|
 |446|[Arithmetic Slices II - Subsequence](https://leetcode.com/problems/arithmetic-slices-ii-subsequence/)|[src/q_401_450/q0446.cc](../src/q_401_450/q0446.cc)|2021/09/10 08:00|
+|447|[Number of Boomerangs](https://leetcode.com/problems/number-of-boomerangs/)|[src/q_401_450/q0447.cc](../src/q_401_450/q0447.cc)|2024/03/27 19:25|
 |448|[Find All Numbers Disappeared in an Array](https://leetcode.com/problems/find-all-numbers-disappeared-in-an-array/)|[src/q_401_450/q0448.cc](../src/q_401_450/q0448.cc)|2021/11/18 18:27|
 |450|[Delete Node in a BST](https://leetcode.com/problems/delete-node-in-a-bst/)|[src/q_401_450/q0450.cc](../src/q_401_450/q0450.cc)|2021/10/04 13:11|
 |451|[Sort Characters By Frequency](https://leetcode.com/problems/sort-characters-by-frequency/)|[src/q_451_500/q0451.cc](../src/q_451_500/q0451.cc)|2021/10/09 15:05|

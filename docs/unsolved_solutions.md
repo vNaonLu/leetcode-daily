@@ -1,6 +1,6 @@
 # Unsolved Solutions List
 
-There are **1806** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
+There are **1805** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
 
 The questions which have been solved are not shown in this page, more information about solved questions can be found at [docs/solved_solutions.md](./solved_solutions.md).
 
@@ -124,7 +124,6 @@ The questions which have been solved are not shown in this page, more informatio
 |439|[Ternary Expression Parser](https://leetcode.com/problems/ternary-expression-parser/)|Medium|🔒|
 |440|[K-th Smallest in Lexicographical Order](https://leetcode.com/problems/k-th-smallest-in-lexicographical-order/)|Hard||
 |444|[Sequence Reconstruction](https://leetcode.com/problems/sequence-reconstruction/)|Medium|🔒|
-|447|[Number of Boomerangs](https://leetcode.com/problems/number-of-boomerangs/)|Medium||
 |449|[Serialize and Deserialize BST](https://leetcode.com/problems/serialize-and-deserialize-bst/)|Medium||
 |453|[Minimum Moves to Equal Array Elements](https://leetcode.com/problems/minimum-moves-to-equal-array-elements/)|Medium||
 |457|[Circular Array Loop](https://leetcode.com/problems/circular-array-loop/)|Medium||
