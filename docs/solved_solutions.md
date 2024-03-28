@@ -1,6 +1,6 @@
 # Solved Solutions List
 
-This document contains **1288** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
+This document contains **1289** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
 
 Some questions which are still being resolved are not shown in this page, more information about unsolved questions can be found at [docs/unsolved_solutions.md](./unsolved_solutions.md).
 
@@ -1271,6 +1271,7 @@ Some questions which are still being resolved are not shown in this page, more i
 |2946|[Matrix Similarity After Cyclic Shifts](https://leetcode.com/problems/matrix-similarity-after-cyclic-shifts/)|[src/q_2901_2950/q2946.cc](../src/q_2901_2950/q2946.cc)|2024/02/07 16:19|
 |2951|[Find the Peaks](https://leetcode.com/problems/find-the-peaks/)|[src/q_2951_3000/q2951.cc](../src/q_2951_3000/q2951.cc)|2024/02/08 09:43|
 |2956|[Find Common Elements Between Two Arrays](https://leetcode.com/problems/find-common-elements-between-two-arrays/)|[src/q_2951_3000/q2956.cc](../src/q_2951_3000/q2956.cc)|2024/02/09 12:08|
+|2958|[Length of Longest Subarray With at Most K Frequency](https://leetcode.com/problems/length-of-longest-subarray-with-at-most-k-frequency/)|[src/q_2951_3000/q2958.cc](../src/q_2951_3000/q2958.cc)|2024/03/28 19:06|
 |2960|[Count Tested Devices After Test Operations](https://leetcode.com/problems/count-tested-devices-after-test-operations/)|[src/q_2951_3000/q2960.cc](../src/q_2951_3000/q2960.cc)|2024/02/10 11:50|
 |2965|[Find Missing and Repeated Values](https://leetcode.com/problems/find-missing-and-repeated-values/)|[src/q_2951_3000/q2965.cc](../src/q_2951_3000/q2965.cc)|2024/02/11 12:15|
 |2966|[Divide Array Into Arrays With Max Difference](https://leetcode.com/problems/divide-array-into-arrays-with-max-difference/)|[src/q_2951_3000/q2966.cc](../src/q_2951_3000/q2966.cc)|2024/02/01 18:52|
