@@ -1,6 +1,6 @@
 # Unsolved Solutions List
 
-There are **1804** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
+There are **1803** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
 
 The questions which have been solved are not shown in this page, more information about solved questions can be found at [docs/solved_solutions.md](./solved_solutions.md).
 
@@ -1702,7 +1702,6 @@ The questions which have been solved are not shown in this page, more informatio
 |2957|[Remove Adjacent Almost-Equal Characters](https://leetcode.com/problems/remove-adjacent-almost-equal-characters/)|Medium||
 |2959|[Number of Possible Sets of Closing Branches](https://leetcode.com/problems/number-of-possible-sets-of-closing-branches/)|Hard||
 |2961|[Double Modular Exponentiation](https://leetcode.com/problems/double-modular-exponentiation/)|Medium||
-|2962|[Count Subarrays Where Max Element Appears at Least K Times](https://leetcode.com/problems/count-subarrays-where-max-element-appears-at-least-k-times/)|Medium||
 |2963|[Count the Number of Good Partitions](https://leetcode.com/problems/count-the-number-of-good-partitions/)|Hard||
 |2964|[Number of Divisible Triplet Sums](https://leetcode.com/problems/number-of-divisible-triplet-sums/)|Medium|🔒|
 |2967|[Minimum Cost to Make Array Equalindromic](https://leetcode.com/problems/minimum-cost-to-make-array-equalindromic/)|Medium||
