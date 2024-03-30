@@ -1,6 +1,6 @@
 # Solved Solutions List
 
-This document contains **1290** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
+This document contains **1291** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
 
 Some questions which are still being resolved are not shown in this page, more information about unsolved questions can be found at [docs/unsolved_solutions.md](./unsolved_solutions.md).
 
@@ -618,6 +618,7 @@ Some questions which are still being resolved are not shown in this page, more i
 |989|[Add to Array-Form of Integer](https://leetcode.com/problems/add-to-array-form-of-integer/)|[src/q_951_1000/q0989.cc](../src/q_951_1000/q0989.cc)|2022/04/30 10:30|
 |990|[Satisfiability of Equality Equations](https://leetcode.com/problems/satisfiability-of-equality-equations/)|[src/q_951_1000/q0990.cc](../src/q_951_1000/q0990.cc)|2022/09/26 17:37|
 |991|[Broken Calculator](https://leetcode.com/problems/broken-calculator/)|[src/q_951_1000/q0991.cc](../src/q_951_1000/q0991.cc)|2022/03/23 18:27|
+|992|[Subarrays with K Different Integers](https://leetcode.com/problems/subarrays-with-k-different-integers/)|[src/q_951_1000/q0992.cc](../src/q_951_1000/q0992.cc)|2024/03/30 15:10|
 |993|[Cousins in Binary Tree](https://leetcode.com/problems/cousins-in-binary-tree/)|[src/q_951_1000/q0993.cc](../src/q_951_1000/q0993.cc)|2021/10/18 12:57|
 |994|[Rotting Oranges](https://leetcode.com/problems/rotting-oranges/)|[src/q_951_1000/q0994.cc](../src/q_951_1000/q0994.cc)|2021/09/13 08:00|
 |997|[Find the Town Judge](https://leetcode.com/problems/find-the-town-judge/)|[src/q_951_1000/q0997.cc](../src/q_951_1000/q0997.cc)|2021/10/07 10:11|
