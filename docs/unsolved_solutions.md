@@ -1,6 +1,6 @@
 # Unsolved Solutions List
 
-There are **1811** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
+There are **1810** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
 
 The questions which have been solved are not shown in this page, more information about solved questions can be found at [docs/solved_solutions.md](./solved_solutions.md).
 
@@ -1814,7 +1814,6 @@ The questions which have been solved are not shown in this page, more informatio
 |3096|[Minimum Levels to Gain More Points](https://leetcode.com/problems/minimum-levels-to-gain-more-points/)|Medium||
 |3097|[Shortest Subarray With OR at Least K II](https://leetcode.com/problems/shortest-subarray-with-or-at-least-k-ii/)|Medium||
 |3098|[Find the Sum of Subsequence Powers](https://leetcode.com/problems/find-the-sum-of-subsequence-powers/)|Hard||
-|3099|[Harshad Number](https://leetcode.com/problems/harshad-number/)|Easy||
 |3100|[Water Bottles II](https://leetcode.com/problems/water-bottles-ii/)|Medium||
 |3101|[Count Alternating Subarrays](https://leetcode.com/problems/count-alternating-subarrays/)|Medium||
 |3102|[Minimize Manhattan Distances](https://leetcode.com/problems/minimize-manhattan-distances/)|Hard||
