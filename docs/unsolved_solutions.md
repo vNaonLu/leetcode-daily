@@ -1,6 +1,6 @@
 # Unsolved Solutions List
 
-There are **1810** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
+There are **1809** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
 
 The questions which have been solved are not shown in this page, more information about solved questions can be found at [docs/solved_solutions.md](./solved_solutions.md).
 
@@ -1805,7 +1805,6 @@ The questions which have been solved are not shown in this page, more informatio
 |3087|[Find Trending Hashtags](https://leetcode.com/problems/find-trending-hashtags/)|Medium|🔒|
 |3088|[Make String Anti-palindrome](https://leetcode.com/problems/make-string-anti-palindrome/)|Hard|🔒|
 |3089|[Find Bursty Behavior](https://leetcode.com/problems/find-bursty-behavior/)|Medium|🔒|
-|3090|[Maximum Length Substring With Two Occurrences](https://leetcode.com/problems/maximum-length-substring-with-two-occurrences/)|Easy||
 |3091|[Apply Operations to Make Sum of Array Greater Than or Equal to k](https://leetcode.com/problems/apply-operations-to-make-sum-of-array-greater-than-or-equal-to-k/)|Medium||
 |3092|[Most Frequent IDs](https://leetcode.com/problems/most-frequent-ids/)|Medium||
 |3093|[Longest Common Suffix Queries](https://leetcode.com/problems/longest-common-suffix-queries/)|Hard||
