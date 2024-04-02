@@ -1,6 +1,6 @@
 # Unsolved Solutions List
 
-There are **1807** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
+There are **1809** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
 
 The questions which have been solved are not shown in this page, more information about solved questions can be found at [docs/solved_solutions.md](./solved_solutions.md).
 
@@ -116,7 +116,6 @@ The questions which have been solved are not shown in this page, more informatio
 |418|[Sentence Screen Fitting](https://leetcode.com/problems/sentence-screen-fitting/)|Medium|🔒|
 |420|[Strong Password Checker](https://leetcode.com/problems/strong-password-checker/)|Hard||
 |422|[Valid Word Square](https://leetcode.com/problems/valid-word-square/)|Easy|🔒|
-|423|[Reconstruct Original Digits from English](https://leetcode.com/problems/reconstruct-original-digits-from-english/)|Medium||
 |425|[Word Squares](https://leetcode.com/problems/word-squares/)|Hard|🔒|
 |426|[Convert Binary Search Tree to Sorted Doubly Linked List](https://leetcode.com/problems/convert-binary-search-tree-to-sorted-doubly-linked-list/)|Medium|🔒|
 |428|[Serialize and Deserialize N-ary Tree](https://leetcode.com/problems/serialize-and-deserialize-n-ary-tree/)|Hard|🔒|
@@ -125,7 +124,6 @@ The questions which have been solved are not shown in this page, more informatio
 |439|[Ternary Expression Parser](https://leetcode.com/problems/ternary-expression-parser/)|Medium|🔒|
 |440|[K-th Smallest in Lexicographical Order](https://leetcode.com/problems/k-th-smallest-in-lexicographical-order/)|Hard||
 |444|[Sequence Reconstruction](https://leetcode.com/problems/sequence-reconstruction/)|Medium|🔒|
-|447|[Number of Boomerangs](https://leetcode.com/problems/number-of-boomerangs/)|Medium||
 |449|[Serialize and Deserialize BST](https://leetcode.com/problems/serialize-and-deserialize-bst/)|Medium||
 |453|[Minimum Moves to Equal Array Elements](https://leetcode.com/problems/minimum-moves-to-equal-array-elements/)|Medium||
 |457|[Circular Array Loop](https://leetcode.com/problems/circular-array-loop/)|Medium||
@@ -389,7 +387,6 @@ The questions which have been solved are not shown in this page, more informatio
 |982|[Triples with Bitwise AND Equal To Zero](https://leetcode.com/problems/triples-with-bitwise-and-equal-to-zero/)|Hard||
 |984|[String Without AAA or BBB](https://leetcode.com/problems/string-without-aaa-or-bbb/)|Medium||
 |988|[Smallest String Starting From Leaf](https://leetcode.com/problems/smallest-string-starting-from-leaf/)|Medium||
-|992|[Subarrays with K Different Integers](https://leetcode.com/problems/subarrays-with-k-different-integers/)|Hard||
 |995|[Minimum Number of K Consecutive Bit Flips](https://leetcode.com/problems/minimum-number-of-k-consecutive-bit-flips/)|Hard||
 |996|[Number of Squareful Arrays](https://leetcode.com/problems/number-of-squareful-arrays/)|Hard||
 |998|[Maximum Binary Tree II](https://leetcode.com/problems/maximum-binary-tree-ii/)|Medium||
@@ -1702,10 +1699,8 @@ The questions which have been solved are not shown in this page, more informatio
 |2954|[Count the Number of Infection Sequences](https://leetcode.com/problems/count-the-number-of-infection-sequences/)|Hard||
 |2955|[Number of Same-End Substrings](https://leetcode.com/problems/number-of-same-end-substrings/)|Medium|🔒|
 |2957|[Remove Adjacent Almost-Equal Characters](https://leetcode.com/problems/remove-adjacent-almost-equal-characters/)|Medium||
-|2958|[Length of Longest Subarray With at Most K Frequency](https://leetcode.com/problems/length-of-longest-subarray-with-at-most-k-frequency/)|Medium||
 |2959|[Number of Possible Sets of Closing Branches](https://leetcode.com/problems/number-of-possible-sets-of-closing-branches/)|Hard||
 |2961|[Double Modular Exponentiation](https://leetcode.com/problems/double-modular-exponentiation/)|Medium||
-|2962|[Count Subarrays Where Max Element Appears at Least K Times](https://leetcode.com/problems/count-subarrays-where-max-element-appears-at-least-k-times/)|Medium||
 |2963|[Count the Number of Good Partitions](https://leetcode.com/problems/count-the-number-of-good-partitions/)|Hard||
 |2964|[Number of Divisible Triplet Sums](https://leetcode.com/problems/number-of-divisible-triplet-sums/)|Medium|🔒|
 |2967|[Minimum Cost to Make Array Equalindromic](https://leetcode.com/problems/minimum-cost-to-make-array-equalindromic/)|Medium||
@@ -1810,7 +1805,14 @@ The questions which have been solved are not shown in this page, more informatio
 |3087|[Find Trending Hashtags](https://leetcode.com/problems/find-trending-hashtags/)|Medium|🔒|
 |3088|[Make String Anti-palindrome](https://leetcode.com/problems/make-string-anti-palindrome/)|Hard|🔒|
 |3089|[Find Bursty Behavior](https://leetcode.com/problems/find-bursty-behavior/)|Medium|🔒|
-|3090|[Maximum Length Substring With Two Occurrences](https://leetcode.com/problems/maximum-length-substring-with-two-occurrences/)|Easy||
 |3091|[Apply Operations to Make Sum of Array Greater Than or Equal to k](https://leetcode.com/problems/apply-operations-to-make-sum-of-array-greater-than-or-equal-to-k/)|Medium||
 |3092|[Most Frequent IDs](https://leetcode.com/problems/most-frequent-ids/)|Medium||
 |3093|[Longest Common Suffix Queries](https://leetcode.com/problems/longest-common-suffix-queries/)|Hard||
+|3094|[Guess the Number Using Bitwise Questions II](https://leetcode.com/problems/guess-the-number-using-bitwise-questions-ii/)|Medium|🔒|
+|3095|[Shortest Subarray With OR at Least K I](https://leetcode.com/problems/shortest-subarray-with-or-at-least-k-i/)|Easy||
+|3096|[Minimum Levels to Gain More Points](https://leetcode.com/problems/minimum-levels-to-gain-more-points/)|Medium||
+|3097|[Shortest Subarray With OR at Least K II](https://leetcode.com/problems/shortest-subarray-with-or-at-least-k-ii/)|Medium||
+|3098|[Find the Sum of Subsequence Powers](https://leetcode.com/problems/find-the-sum-of-subsequence-powers/)|Hard||
+|3100|[Water Bottles II](https://leetcode.com/problems/water-bottles-ii/)|Medium||
+|3101|[Count Alternating Subarrays](https://leetcode.com/problems/count-alternating-subarrays/)|Medium||
+|3102|[Minimize Manhattan Distances](https://leetcode.com/problems/minimize-manhattan-distances/)|Hard||

@@ -3092,3 +3092,12 @@ id,backend_id,title,level,slug,paid
 3091,3328,Apply Operations to Make Sum of Array Greater Than or Equal to k,2,apply-operations-to-make-sum-of-array-greater-than-or-equal-to-k,0
 3092,3363,Most Frequent IDs,2,most-frequent-ids,0
 3093,3376,Longest Common Suffix Queries,3,longest-common-suffix-queries,0
+3094,3401,Guess the Number Using Bitwise Questions II,2,guess-the-number-using-bitwise-questions-ii,1
+3095,3381,Shortest Subarray With OR at Least K I,1,shortest-subarray-with-or-at-least-k-i,0
+3096,3355,Minimum Levels to Gain More Points,2,minimum-levels-to-gain-more-points,0
+3097,3380,Shortest Subarray With OR at Least K II,2,shortest-subarray-with-or-at-least-k-ii,0
+3098,3316,Find the Sum of Subsequence Powers,3,find-the-sum-of-subsequence-powers,0
+3099,3371,Harshad Number,1,harshad-number,0
+3100,3336,Water Bottles II,2,water-bottles-ii,0
+3101,3374,Count Alternating Subarrays,2,count-alternating-subarrays,0
+3102,3344,Minimize Manhattan Distances,3,minimize-manhattan-distances,0

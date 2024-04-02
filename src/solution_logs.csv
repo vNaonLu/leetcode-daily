@@ -1285,3 +1285,10 @@ timestamp,id,tc,sc,notes
 1711153013,398,-,-,not calculated
 1711256342,400,-,-,not calculated
 1711366682,419,n * m,"max(n, m)","m = |board.size()|, n = |board[0].size()|"
+1711457820,423,n,1,n = |s.size()|
+1711538724,447,-,-,not calculated
+1711624018,2958,n,n,n = |nums.size()|
+1711718183,2962,n,1,n = |nums.size()|
+1711782622,992,n,k,n = |nums.size()|
+1711869338,3099,1,1,
+1711964926,3090,n,1,n = |s.size()|

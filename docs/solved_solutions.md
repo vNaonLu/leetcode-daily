@@ -1,6 +1,6 @@
 # Solved Solutions List
 
-This document contains **1286** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
+This document contains **1293** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
 
 Some questions which are still being resolved are not shown in this page, more information about unsolved questions can be found at [docs/unsolved_solutions.md](./unsolved_solutions.md).
 
@@ -320,6 +320,7 @@ Some questions which are still being resolved are not shown in this page, more i
 |417|[Pacific Atlantic Water Flow](https://leetcode.com/problems/pacific-atlantic-water-flow/)|[src/q_401_450/q0417.cc](../src/q_401_450/q0417.cc)|2022/03/13 14:08|
 |419|[Battleships in a Board](https://leetcode.com/problems/battleships-in-a-board/)|[src/q_401_450/q0419.cc](../src/q_401_450/q0419.cc)|2024/03/25 19:38|
 |421|[Maximum XOR of Two Numbers in an Array](https://leetcode.com/problems/maximum-xor-of-two-numbers-in-an-array/)|[src/q_401_450/q0421.cc](../src/q_401_450/q0421.cc)|2022/01/27 18:12|
+|423|[Reconstruct Original Digits from English](https://leetcode.com/problems/reconstruct-original-digits-from-english/)|[src/q_401_450/q0423.cc](../src/q_401_450/q0423.cc)|2024/03/26 20:57|
 |424|[Longest Repeating Character Replacement](https://leetcode.com/problems/longest-repeating-character-replacement/)|[src/q_401_450/q0424.cc](../src/q_401_450/q0424.cc)|2022/09/04 15:37|
 |427|[Construct Quad Tree](https://leetcode.com/problems/construct-quad-tree/)|[src/q_401_450/q0427.cc](../src/q_401_450/q0427.cc)|2023/02/27 15:12|
 |429|[N-ary Tree Level Order Traversal](https://leetcode.com/problems/n-ary-tree-level-order-traversal/)|[src/q_401_450/q0429.cc](../src/q_401_450/q0429.cc)|2022/05/04 18:14|
@@ -335,6 +336,7 @@ Some questions which are still being resolved are not shown in this page, more i
 |443|[String Compression](https://leetcode.com/problems/string-compression/)|[src/q_401_450/q0443.cc](../src/q_401_450/q0443.cc)|2023/03/02 20:03|
 |445|[Add Two Numbers II](https://leetcode.com/problems/add-two-numbers-ii/)|[src/q_401_450/q0445.cc](../src/q_401_450/q0445.cc)|2022/05/10 19:27|
 |446|[Arithmetic Slices II - Subsequence](https://leetcode.com/problems/arithmetic-slices-ii-subsequence/)|[src/q_401_450/q0446.cc](../src/q_401_450/q0446.cc)|2021/09/10 08:00|
+|447|[Number of Boomerangs](https://leetcode.com/problems/number-of-boomerangs/)|[src/q_401_450/q0447.cc](../src/q_401_450/q0447.cc)|2024/03/27 19:25|
 |448|[Find All Numbers Disappeared in an Array](https://leetcode.com/problems/find-all-numbers-disappeared-in-an-array/)|[src/q_401_450/q0448.cc](../src/q_401_450/q0448.cc)|2021/11/18 18:27|
 |450|[Delete Node in a BST](https://leetcode.com/problems/delete-node-in-a-bst/)|[src/q_401_450/q0450.cc](../src/q_401_450/q0450.cc)|2021/10/04 13:11|
 |451|[Sort Characters By Frequency](https://leetcode.com/problems/sort-characters-by-frequency/)|[src/q_451_500/q0451.cc](../src/q_451_500/q0451.cc)|2021/10/09 15:05|
@@ -616,6 +618,7 @@ Some questions which are still being resolved are not shown in this page, more i
 |989|[Add to Array-Form of Integer](https://leetcode.com/problems/add-to-array-form-of-integer/)|[src/q_951_1000/q0989.cc](../src/q_951_1000/q0989.cc)|2022/04/30 10:30|
 |990|[Satisfiability of Equality Equations](https://leetcode.com/problems/satisfiability-of-equality-equations/)|[src/q_951_1000/q0990.cc](../src/q_951_1000/q0990.cc)|2022/09/26 17:37|
 |991|[Broken Calculator](https://leetcode.com/problems/broken-calculator/)|[src/q_951_1000/q0991.cc](../src/q_951_1000/q0991.cc)|2022/03/23 18:27|
+|992|[Subarrays with K Different Integers](https://leetcode.com/problems/subarrays-with-k-different-integers/)|[src/q_951_1000/q0992.cc](../src/q_951_1000/q0992.cc)|2024/03/30 15:10|
 |993|[Cousins in Binary Tree](https://leetcode.com/problems/cousins-in-binary-tree/)|[src/q_951_1000/q0993.cc](../src/q_951_1000/q0993.cc)|2021/10/18 12:57|
 |994|[Rotting Oranges](https://leetcode.com/problems/rotting-oranges/)|[src/q_951_1000/q0994.cc](../src/q_951_1000/q0994.cc)|2021/09/13 08:00|
 |997|[Find the Town Judge](https://leetcode.com/problems/find-the-town-judge/)|[src/q_951_1000/q0997.cc](../src/q_951_1000/q0997.cc)|2021/10/07 10:11|
@@ -1269,7 +1272,9 @@ Some questions which are still being resolved are not shown in this page, more i
 |2946|[Matrix Similarity After Cyclic Shifts](https://leetcode.com/problems/matrix-similarity-after-cyclic-shifts/)|[src/q_2901_2950/q2946.cc](../src/q_2901_2950/q2946.cc)|2024/02/07 16:19|
 |2951|[Find the Peaks](https://leetcode.com/problems/find-the-peaks/)|[src/q_2951_3000/q2951.cc](../src/q_2951_3000/q2951.cc)|2024/02/08 09:43|
 |2956|[Find Common Elements Between Two Arrays](https://leetcode.com/problems/find-common-elements-between-two-arrays/)|[src/q_2951_3000/q2956.cc](../src/q_2951_3000/q2956.cc)|2024/02/09 12:08|
+|2958|[Length of Longest Subarray With at Most K Frequency](https://leetcode.com/problems/length-of-longest-subarray-with-at-most-k-frequency/)|[src/q_2951_3000/q2958.cc](../src/q_2951_3000/q2958.cc)|2024/03/28 19:06|
 |2960|[Count Tested Devices After Test Operations](https://leetcode.com/problems/count-tested-devices-after-test-operations/)|[src/q_2951_3000/q2960.cc](../src/q_2951_3000/q2960.cc)|2024/02/10 11:50|
+|2962|[Count Subarrays Where Max Element Appears at Least K Times](https://leetcode.com/problems/count-subarrays-where-max-element-appears-at-least-k-times/)|[src/q_2951_3000/q2962.cc](../src/q_2951_3000/q2962.cc)|2024/03/29 21:16|
 |2965|[Find Missing and Repeated Values](https://leetcode.com/problems/find-missing-and-repeated-values/)|[src/q_2951_3000/q2965.cc](../src/q_2951_3000/q2965.cc)|2024/02/11 12:15|
 |2966|[Divide Array Into Arrays With Max Difference](https://leetcode.com/problems/divide-array-into-arrays-with-max-difference/)|[src/q_2951_3000/q2966.cc](../src/q_2951_3000/q2966.cc)|2024/02/01 18:52|
 |2970|[Count the Number of Incremovable Subarrays I](https://leetcode.com/problems/count-the-number-of-incremovable-subarrays-i/)|[src/q_2951_3000/q2970.cc](../src/q_2951_3000/q2970.cc)|2024/02/12 12:25|
@@ -1293,3 +1298,5 @@ Some questions which are still being resolved are not shown in this page, more i
 |3074|[Apple Redistribution into Boxes](https://leetcode.com/problems/apple-redistribution-into-boxes/)|[src/q_3051_3100/q3074.cc](../src/q_3051_3100/q3074.cc)|2024/03/10 16:35|
 |3079|[Find the Sum of Encrypted Integers](https://leetcode.com/problems/find-the-sum-of-encrypted-integers/)|[src/q_3051_3100/q3079.cc](../src/q_3051_3100/q3079.cc)|2024/03/17 14:45|
 |3083|[Existence of a Substring in a String and Its Reverse](https://leetcode.com/problems/existence-of-a-substring-in-a-string-and-its-reverse/)|[src/q_3051_3100/q3083.cc](../src/q_3051_3100/q3083.cc)|2024/03/19 22:04|
+|3090|[Maximum Length Substring With Two Occurrences](https://leetcode.com/problems/maximum-length-substring-with-two-occurrences/)|[src/q_3051_3100/q3090.cc](../src/q_3051_3100/q3090.cc)|2024/04/01 17:48|
+|3099|[Harshad Number](https://leetcode.com/problems/harshad-number/)|[src/q_3051_3100/q3099.cc](../src/q_3051_3100/q3099.cc)|2024/03/31 15:15|
