@@ -73,9 +73,9 @@ class QuestionContentAnalyzer:
 
         content = regex.sub(reg, "", content)
         INPUT_REGEX = "<(?:strong|b)>Input:? *<\/(?:strong|b)>([\w\W]*?)"
-        NESTED_INPUT_REGEX = "<p[^>]*><(?:strong|b)>Input:? *<\/(?:strong|b)><span[^>]*>([\w\W]*?)<\/span><\/p>(?:[\w\W]*?)"
+        NESTED_INPUT_REGEX = "<p[^>]*><(?:strong|b)>Input:? *<\/(?:strong|b)> ?<span[^>]*>([\w\W]*?)<\/span><\/p>(?:[\w\W]*?)"
         OUTPUT_REGEX = "<(?:strong|b)>Output:? *<\/(?:strong|b)>([\w\W]*?)"
-        NESTED_OUTPUT_REGEX = "<p[^>]*><(?:strong|b)>Output:? *<\/(?:strong|b)><span[^>]*>([\w\W]*?)<\/span><\/p>(?:[\w\W]*?)"
+        NESTED_OUTPUT_REGEX = "<p[^>]*><(?:strong|b)>Output:? *<\/(?:strong|b)> ?<span[^>]*>([\w\W]*?)<\/span><\/p>(?:[\w\W]*?)"
         EXPLAN_REGEX = "<(?:strong|b)>Explanation:? *<\/(?:strong|b)>([\w\W]*?)"
         NESTED_EXPLAN_REGEX = "<p[^>]*><(?:strong|b)>Explanation:? *<\/(?:strong|b)>([\w\W]*?)<\/p>"
         example_regex = f"<(?:pre|div)[^>]*>(?:[\w\W]*?)(?:{NESTED_INPUT_REGEX}|{INPUT_REGEX})(?:{NESTED_OUTPUT_REGEX}|{OUTPUT_REGEX})(?:{NESTED_EXPLAN_REGEX}|{EXPLAN_REGEX})?<\/(?:pre|div)>"
