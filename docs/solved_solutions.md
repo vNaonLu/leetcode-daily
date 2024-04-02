@@ -1,6 +1,6 @@
 # Solved Solutions List
 
-This document contains **1293** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
+This document contains **1294** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
 
 Some questions which are still being resolved are not shown in this page, more information about unsolved questions can be found at [docs/unsolved_solutions.md](./unsolved_solutions.md).
 
@@ -1299,4 +1299,5 @@ Some questions which are still being resolved are not shown in this page, more i
 |3079|[Find the Sum of Encrypted Integers](https://leetcode.com/problems/find-the-sum-of-encrypted-integers/)|[src/q_3051_3100/q3079.cc](../src/q_3051_3100/q3079.cc)|2024/03/17 14:45|
 |3083|[Existence of a Substring in a String and Its Reverse](https://leetcode.com/problems/existence-of-a-substring-in-a-string-and-its-reverse/)|[src/q_3051_3100/q3083.cc](../src/q_3051_3100/q3083.cc)|2024/03/19 22:04|
 |3090|[Maximum Length Substring With Two Occurrences](https://leetcode.com/problems/maximum-length-substring-with-two-occurrences/)|[src/q_3051_3100/q3090.cc](../src/q_3051_3100/q3090.cc)|2024/04/01 17:48|
+|3095|[Shortest Subarray With OR at Least K I](https://leetcode.com/problems/shortest-subarray-with-or-at-least-k-i/)|[src/q_3051_3100/q3095.cc](../src/q_3051_3100/q3095.cc)|2024/04/02 20:23|
 |3099|[Harshad Number](https://leetcode.com/problems/harshad-number/)|[src/q_3051_3100/q3099.cc](../src/q_3051_3100/q3099.cc)|2024/03/31 15:15|
