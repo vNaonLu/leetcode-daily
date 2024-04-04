@@ -1,6 +1,6 @@
 # Solved Solutions List
 
-This document contains **1295** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
+This document contains **1296** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
 
 Some questions which are still being resolved are not shown in this page, more information about unsolved questions can be found at [docs/unsolved_solutions.md](./unsolved_solutions.md).
 
@@ -342,6 +342,7 @@ Some questions which are still being resolved are not shown in this page, more i
 |450|[Delete Node in a BST](https://leetcode.com/problems/delete-node-in-a-bst/)|[src/q_401_450/q0450.cc](../src/q_401_450/q0450.cc)|2021/10/04 13:11|
 |451|[Sort Characters By Frequency](https://leetcode.com/problems/sort-characters-by-frequency/)|[src/q_451_500/q0451.cc](../src/q_451_500/q0451.cc)|2021/10/09 15:05|
 |452|[Minimum Number of Arrows to Burst Balloons](https://leetcode.com/problems/minimum-number-of-arrows-to-burst-balloons/)|[src/q_451_500/q0452.cc](../src/q_451_500/q0452.cc)|2022/01/13 18:10|
+|453|[Minimum Moves to Equal Array Elements](https://leetcode.com/problems/minimum-moves-to-equal-array-elements/)|[src/q_451_500/q0453.cc](../src/q_451_500/q0453.cc)|2024/04/04 15:35|
 |454|[4Sum II](https://leetcode.com/problems/4sum-ii/)|[src/q_451_500/q0454.cc](../src/q_451_500/q0454.cc)|2022/02/03 13:29|
 |455|[Assign Cookies](https://leetcode.com/problems/assign-cookies/)|[src/q_451_500/q0455.cc](../src/q_451_500/q0455.cc)|2022/10/01 12:12|
 |456|[132 Pattern](https://leetcode.com/problems/132-pattern/)|[src/q_451_500/q0456.cc](../src/q_451_500/q0456.cc)|2022/05/07 13:30|
