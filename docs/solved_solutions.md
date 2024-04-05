@@ -1,6 +1,6 @@
 # Solved Solutions List
 
-This document contains **1296** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
+This document contains **1297** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
 
 Some questions which are still being resolved are not shown in this page, more information about unsolved questions can be found at [docs/unsolved_solutions.md](./unsolved_solutions.md).
 
@@ -346,6 +346,7 @@ Some questions which are still being resolved are not shown in this page, more i
 |454|[4Sum II](https://leetcode.com/problems/4sum-ii/)|[src/q_451_500/q0454.cc](../src/q_451_500/q0454.cc)|2022/02/03 13:29|
 |455|[Assign Cookies](https://leetcode.com/problems/assign-cookies/)|[src/q_451_500/q0455.cc](../src/q_451_500/q0455.cc)|2022/10/01 12:12|
 |456|[132 Pattern](https://leetcode.com/problems/132-pattern/)|[src/q_451_500/q0456.cc](../src/q_451_500/q0456.cc)|2022/05/07 13:30|
+|457|[Circular Array Loop](https://leetcode.com/problems/circular-array-loop/)|[src/q_451_500/q0457.cc](../src/q_451_500/q0457.cc)|2024/04/05 15:32|
 |458|[Poor Pigs](https://leetcode.com/problems/poor-pigs/)|[src/q_451_500/q0458.cc](../src/q_451_500/q0458.cc)|2022/08/06 15:12|
 |459|[Repeated Substring Pattern](https://leetcode.com/problems/repeated-substring-pattern/)|[src/q_451_500/q0459.cc](../src/q_451_500/q0459.cc)|2022/04/27 18:40|
 |460|[LFU Cache](https://leetcode.com/problems/lfu-cache/)|[src/q_451_500/q0460.cc](../src/q_451_500/q0460.cc)|2023/01/29 11:28|
