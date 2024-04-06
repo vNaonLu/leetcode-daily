@@ -1,6 +1,6 @@
 # Solved Solutions List
 
-This document contains **1297** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
+This document contains **1298** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
 
 Some questions which are still being resolved are not shown in this page, more information about unsolved questions can be found at [docs/unsolved_solutions.md](./unsolved_solutions.md).
 
@@ -353,6 +353,7 @@ Some questions which are still being resolved are not shown in this page, more i
 |461|[Hamming Distance](https://leetcode.com/problems/hamming-distance/)|[src/q_451_500/q0461.cc](../src/q_451_500/q0461.cc)|2021/11/19 22:39|
 |462|[Minimum Moves to Equal Array Elements II](https://leetcode.com/problems/minimum-moves-to-equal-array-elements-ii/)|[src/q_451_500/q0462.cc](../src/q_451_500/q0462.cc)|2022/06/30 12:01|
 |463|[Island Perimeter](https://leetcode.com/problems/island-perimeter/)|[src/q_451_500/q0463.cc](../src/q_451_500/q0463.cc)|2021/10/04 11:24|
+|464|[Can I Win](https://leetcode.com/problems/can-i-win/)|[src/q_451_500/q0464.cc](../src/q_451_500/q0464.cc)|2024/04/06 14:35|
 |468|[Validate IP Address](https://leetcode.com/problems/validate-ip-address/)|[src/q_451_500/q0468.cc](../src/q_451_500/q0468.cc)|2022/08/24 18:50|
 |472|[Concatenated Words](https://leetcode.com/problems/concatenated-words/)|[src/q_451_500/q0472.cc](../src/q_451_500/q0472.cc)|2023/01/27 14:33|
 |473|[Matchsticks to Square](https://leetcode.com/problems/matchsticks-to-square/)|[src/q_451_500/q0473.cc](../src/q_451_500/q0473.cc)|2022/07/12 13:10|
