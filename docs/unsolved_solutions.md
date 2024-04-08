@@ -1,6 +1,6 @@
 # Unsolved Solutions List
 
-There are **1809** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
+There are **1808** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
 
 The questions which have been solved are not shown in this page, more information about solved questions can be found at [docs/solved_solutions.md](./solved_solutions.md).
 
@@ -1812,7 +1812,6 @@ The questions which have been solved are not shown in this page, more informatio
 |3102|[Minimize Manhattan Distances](https://leetcode.com/problems/minimize-manhattan-distances/)|Hard||
 |3103|[Find Trending Hashtags II ](https://leetcode.com/problems/find-trending-hashtags-ii/)|Hard|🔒|
 |3104|[Find Longest Self-Contained Substring](https://leetcode.com/problems/find-longest-self-contained-substring/)|Hard|🔒|
-|3105|[Longest Strictly Increasing or Strictly Decreasing Subarray](https://leetcode.com/problems/longest-strictly-increasing-or-strictly-decreasing-subarray/)|Easy||
 |3106|[Lexicographically Smallest String After Operations With Constraint](https://leetcode.com/problems/lexicographically-smallest-string-after-operations-with-constraint/)|Medium||
 |3107|[Minimum Operations to Make Median of Array Equal to K](https://leetcode.com/problems/minimum-operations-to-make-median-of-array-equal-to-k/)|Medium||
 |3108|[Minimum Cost Walk in Weighted Graph](https://leetcode.com/problems/minimum-cost-walk-in-weighted-graph/)|Hard||
