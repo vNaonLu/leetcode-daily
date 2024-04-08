@@ -1,6 +1,6 @@
 # Unsolved Solutions List
 
-There are **1809** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
+There are **1808** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
 
 The questions which have been solved are not shown in this page, more information about solved questions can be found at [docs/solved_solutions.md](./solved_solutions.md).
 
@@ -124,10 +124,6 @@ The questions which have been solved are not shown in this page, more informatio
 |439|[Ternary Expression Parser](https://leetcode.com/problems/ternary-expression-parser/)|Medium|🔒|
 |440|[K-th Smallest in Lexicographical Order](https://leetcode.com/problems/k-th-smallest-in-lexicographical-order/)|Hard||
 |444|[Sequence Reconstruction](https://leetcode.com/problems/sequence-reconstruction/)|Medium|🔒|
-|449|[Serialize and Deserialize BST](https://leetcode.com/problems/serialize-and-deserialize-bst/)|Medium||
-|453|[Minimum Moves to Equal Array Elements](https://leetcode.com/problems/minimum-moves-to-equal-array-elements/)|Medium||
-|457|[Circular Array Loop](https://leetcode.com/problems/circular-array-loop/)|Medium||
-|464|[Can I Win](https://leetcode.com/problems/can-i-win/)|Medium||
 |465|[Optimal Account Balancing](https://leetcode.com/problems/optimal-account-balancing/)|Hard|🔒|
 |466|[Count The Repetitions](https://leetcode.com/problems/count-the-repetitions/)|Hard||
 |467|[Unique Substrings in Wraparound String](https://leetcode.com/problems/unique-substrings-in-wraparound-string/)|Medium||
@@ -248,7 +244,6 @@ The questions which have been solved are not shown in this page, more informatio
 |675|[Cut Off Trees for Golf Event](https://leetcode.com/problems/cut-off-trees-for-golf-event/)|Hard||
 |676|[Implement Magic Dictionary](https://leetcode.com/problems/implement-magic-dictionary/)|Medium||
 |677|[Map Sum Pairs](https://leetcode.com/problems/map-sum-pairs/)|Medium||
-|678|[Valid Parenthesis String](https://leetcode.com/problems/valid-parenthesis-string/)|Medium||
 |679|[24 Game](https://leetcode.com/problems/24-game/)|Hard||
 |681|[Next Closest Time](https://leetcode.com/problems/next-closest-time/)|Medium|🔒|
 |683|[K Empty Slots](https://leetcode.com/problems/k-empty-slots/)|Hard|🔒|
@@ -1809,10 +1804,14 @@ The questions which have been solved are not shown in this page, more informatio
 |3092|[Most Frequent IDs](https://leetcode.com/problems/most-frequent-ids/)|Medium||
 |3093|[Longest Common Suffix Queries](https://leetcode.com/problems/longest-common-suffix-queries/)|Hard||
 |3094|[Guess the Number Using Bitwise Questions II](https://leetcode.com/problems/guess-the-number-using-bitwise-questions-ii/)|Medium|🔒|
-|3095|[Shortest Subarray With OR at Least K I](https://leetcode.com/problems/shortest-subarray-with-or-at-least-k-i/)|Easy||
 |3096|[Minimum Levels to Gain More Points](https://leetcode.com/problems/minimum-levels-to-gain-more-points/)|Medium||
 |3097|[Shortest Subarray With OR at Least K II](https://leetcode.com/problems/shortest-subarray-with-or-at-least-k-ii/)|Medium||
 |3098|[Find the Sum of Subsequence Powers](https://leetcode.com/problems/find-the-sum-of-subsequence-powers/)|Hard||
 |3100|[Water Bottles II](https://leetcode.com/problems/water-bottles-ii/)|Medium||
 |3101|[Count Alternating Subarrays](https://leetcode.com/problems/count-alternating-subarrays/)|Medium||
 |3102|[Minimize Manhattan Distances](https://leetcode.com/problems/minimize-manhattan-distances/)|Hard||
+|3103|[Find Trending Hashtags II ](https://leetcode.com/problems/find-trending-hashtags-ii/)|Hard|🔒|
+|3104|[Find Longest Self-Contained Substring](https://leetcode.com/problems/find-longest-self-contained-substring/)|Hard|🔒|
+|3106|[Lexicographically Smallest String After Operations With Constraint](https://leetcode.com/problems/lexicographically-smallest-string-after-operations-with-constraint/)|Medium||
+|3107|[Minimum Operations to Make Median of Array Equal to K](https://leetcode.com/problems/minimum-operations-to-make-median-of-array-equal-to-k/)|Medium||
+|3108|[Minimum Cost Walk in Weighted Graph](https://leetcode.com/problems/minimum-cost-walk-in-weighted-graph/)|Hard||

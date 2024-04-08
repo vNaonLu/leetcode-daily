@@ -1292,3 +1292,10 @@ timestamp,id,tc,sc,notes
 1711782622,992,n,k,n = |nums.size()|
 1711869338,3099,1,1,
 1711964926,3090,n,1,n = |s.size()|
+1712060606,3095,n ^ 2,1,n = |nums.size()|
+1712147970,449,n,n,n = number of |root|
+1712216133,453,n,1,n = |nums.size()|
+1712302351,457,n,n,n = |nums.size()|
+1712385302,464,-,-,not calculated
+1712509685,678,n,1,n = |s.size()|
+1712587601,3105,n,1,n = |nums.size()|
