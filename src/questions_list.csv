@@ -3101,3 +3101,9 @@ id,backend_id,title,level,slug,paid
 3100,3336,Water Bottles II,2,water-bottles-ii,0
 3101,3374,Count Alternating Subarrays,2,count-alternating-subarrays,0
 3102,3344,Minimize Manhattan Distances,3,minimize-manhattan-distances,0
+3103,3409,Find Trending Hashtags II ,3,find-trending-hashtags-ii,1
+3104,3410,Find Longest Self-Contained Substring,3,find-longest-self-contained-substring,1
+3105,3372,Longest Strictly Increasing or Strictly Decreasing Subarray,1,longest-strictly-increasing-or-strictly-decreasing-subarray,0
+3106,3346,Lexicographically Smallest String After Operations With Constraint,2,lexicographically-smallest-string-after-operations-with-constraint,0
+3107,3387,Minimum Operations to Make Median of Array Equal to K,2,minimum-operations-to-make-median-of-array-equal-to-k,0
+3108,3348,Minimum Cost Walk in Weighted Graph,3,minimum-cost-walk-in-weighted-graph,0
