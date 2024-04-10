@@ -1,6 +1,6 @@
 # Solved Solutions List
 
-This document contains **1301** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
+This document contains **1302** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
 
 Some questions which are still being resolved are not shown in this page, more information about unsolved questions can be found at [docs/unsolved_solutions.md](./unsolved_solutions.md).
 
@@ -601,6 +601,7 @@ Some questions which are still being resolved are not shown in this page, more i
 |946|[Validate Stack Sequences](https://leetcode.com/problems/validate-stack-sequences/)|[src/q_901_950/q0946.cc](../src/q_901_950/q0946.cc)|2021/10/13 12:55|
 |947|[Most Stones Removed with Same Row or Column](https://leetcode.com/problems/most-stones-removed-with-same-row-or-column/)|[src/q_901_950/q0947.cc](../src/q_901_950/q0947.cc)|2022/09/26 17:46|
 |948|[Bag of Tokens](https://leetcode.com/problems/bag-of-tokens/)|[src/q_901_950/q0948.cc](../src/q_901_950/q0948.cc)|2022/09/12 17:51|
+|950|[Reveal Cards In Increasing Order](https://leetcode.com/problems/reveal-cards-in-increasing-order/)|[src/q_901_950/q0950.cc](../src/q_901_950/q0950.cc)|2024/04/10 21:46|
 |951|[Flip Equivalent Binary Trees](https://leetcode.com/problems/flip-equivalent-binary-trees/)|[src/q_951_1000/q0951.cc](../src/q_951_1000/q0951.cc)|2021/11/07 15:03|
 |952|[Largest Component Size by Common Factor](https://leetcode.com/problems/largest-component-size-by-common-factor/)|[src/q_951_1000/q0952.cc](../src/q_951_1000/q0952.cc)|2021/11/23 18:31|
 |953|[Verifying an Alien Dictionary](https://leetcode.com/problems/verifying-an-alien-dictionary/)|[src/q_951_1000/q0953.cc](../src/q_951_1000/q0953.cc)|2022/04/22 09:06|
