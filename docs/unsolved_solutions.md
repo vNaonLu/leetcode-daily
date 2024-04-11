@@ -1,6 +1,6 @@
 # Unsolved Solutions List
 
-There are **1806** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
+There are **1805** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
 
 The questions which have been solved are not shown in this page, more information about solved questions can be found at [docs/solved_solutions.md](./solved_solutions.md).
 
@@ -127,7 +127,6 @@ The questions which have been solved are not shown in this page, more informatio
 |465|[Optimal Account Balancing](https://leetcode.com/problems/optimal-account-balancing/)|Hard|🔒|
 |466|[Count The Repetitions](https://leetcode.com/problems/count-the-repetitions/)|Hard||
 |469|[Convex Polygon](https://leetcode.com/problems/convex-polygon/)|Medium|🔒|
-|470|[Implement Rand10() Using Rand7()](https://leetcode.com/problems/implement-rand10-using-rand7/)|Medium||
 |471|[Encode String with Shortest Length](https://leetcode.com/problems/encode-string-with-shortest-length/)|Hard|🔒|
 |475|[Heaters](https://leetcode.com/problems/heaters/)|Medium||
 |477|[Total Hamming Distance](https://leetcode.com/problems/total-hamming-distance/)|Medium||

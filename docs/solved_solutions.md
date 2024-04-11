@@ -1,6 +1,6 @@
 # Solved Solutions List
 
-This document contains **1302** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
+This document contains **1303** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
 
 Some questions which are still being resolved are not shown in this page, more information about unsolved questions can be found at [docs/unsolved_solutions.md](./unsolved_solutions.md).
 
@@ -356,6 +356,7 @@ Some questions which are still being resolved are not shown in this page, more i
 |464|[Can I Win](https://leetcode.com/problems/can-i-win/)|[src/q_451_500/q0464.cc](../src/q_451_500/q0464.cc)|2024/04/06 14:35|
 |467|[Unique Substrings in Wraparound String](https://leetcode.com/problems/unique-substrings-in-wraparound-string/)|[src/q_451_500/q0467.cc](../src/q_451_500/q0467.cc)|2024/04/09 22:07|
 |468|[Validate IP Address](https://leetcode.com/problems/validate-ip-address/)|[src/q_451_500/q0468.cc](../src/q_451_500/q0468.cc)|2022/08/24 18:50|
+|470|[Implement Rand10() Using Rand7()](https://leetcode.com/problems/implement-rand10-using-rand7/)|[src/q_451_500/q0470.cc](../src/q_451_500/q0470.cc)|2024/04/11 19:08|
 |472|[Concatenated Words](https://leetcode.com/problems/concatenated-words/)|[src/q_451_500/q0472.cc](../src/q_451_500/q0472.cc)|2023/01/27 14:33|
 |473|[Matchsticks to Square](https://leetcode.com/problems/matchsticks-to-square/)|[src/q_451_500/q0473.cc](../src/q_451_500/q0473.cc)|2022/07/12 13:10|
 |474|[Ones and Zeroes](https://leetcode.com/problems/ones-and-zeroes/)|[src/q_451_500/q0474.cc](../src/q_451_500/q0474.cc)|2022/05/23 18:23|
