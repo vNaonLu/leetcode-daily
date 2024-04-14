@@ -3107,3 +3107,8 @@ id,backend_id,title,level,slug,paid
 3106,3346,Lexicographically Smallest String After Operations With Constraint,2,lexicographically-smallest-string-after-operations-with-constraint,0
 3107,3387,Minimum Operations to Make Median of Array Equal to K,2,minimum-operations-to-make-median-of-array-equal-to-k,0
 3108,3348,Minimum Cost Walk in Weighted Graph,3,minimum-cost-walk-in-weighted-graph,0
+3109,3417,Find the Index of Permutation,2,find-the-index-of-permutation,1
+3110,3379,Score of a String,1,score-of-a-string,0
+3111,3390,Minimum Rectangles to Cover Points,2,minimum-rectangles-to-cover-points,0
+3112,3389,Minimum Time to Visit Disappearing Nodes,2,minimum-time-to-visit-disappearing-nodes,0
+3113,3382,Find the Number of Subarrays Where Boundary Elements Are Maximum,3,find-the-number-of-subarrays-where-boundary-elements-are-maximum,0
