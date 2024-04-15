@@ -1,6 +1,6 @@
 # Unsolved Solutions List
 
-There are **1807** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
+There are **1812** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
 
 The questions which have been solved are not shown in this page, more information about solved questions can be found at [docs/solved_solutions.md](./solved_solutions.md).
 
@@ -1580,7 +1580,7 @@ The questions which have been solved are not shown in this page, more informatio
 |2818|[Apply Operations to Maximize Score](https://leetcode.com/problems/apply-operations-to-maximize-score/)|Hard||
 |2819|[Minimum Relative Loss After Buying Chocolates](https://leetcode.com/problems/minimum-relative-loss-after-buying-chocolates/)|Hard|🔒|
 |2820|[Election Results](https://leetcode.com/problems/election-results/)|Medium|🔒|
-|2821|[Delay the Resolution of Each Promise](https://leetcode.com/problems/delay-the-resolution-of-each-promise/)|Easy|🔒|
+|2821|[Delay the Resolution of Each Promise](https://leetcode.com/problems/delay-the-resolution-of-each-promise/)|Medium|🔒|
 |2822|[Inversion of Object](https://leetcode.com/problems/inversion-of-object/)|Easy|🔒|
 |2823|[Deep Object Filter](https://leetcode.com/problems/deep-object-filter/)|Medium|🔒|
 |2825|[Make String a Subsequence Using Cyclic Increments](https://leetcode.com/problems/make-string-a-subsequence-using-cyclic-increments/)|Medium||
@@ -1814,3 +1814,8 @@ The questions which have been solved are not shown in this page, more informatio
 |3111|[Minimum Rectangles to Cover Points](https://leetcode.com/problems/minimum-rectangles-to-cover-points/)|Medium||
 |3112|[Minimum Time to Visit Disappearing Nodes](https://leetcode.com/problems/minimum-time-to-visit-disappearing-nodes/)|Medium||
 |3113|[Find the Number of Subarrays Where Boundary Elements Are Maximum](https://leetcode.com/problems/find-the-number-of-subarrays-where-boundary-elements-are-maximum/)|Hard||
+|3114|[Latest Time You Can Obtain After Replacing Characters](https://leetcode.com/problems/latest-time-you-can-obtain-after-replacing-characters/)|Easy||
+|3115|[Maximum Prime Difference](https://leetcode.com/problems/maximum-prime-difference/)|Medium||
+|3116|[Kth Smallest Amount With Single Denomination Combination](https://leetcode.com/problems/kth-smallest-amount-with-single-denomination-combination/)|Hard||
+|3117|[Minimum Sum of Values by Dividing Array](https://leetcode.com/problems/minimum-sum-of-values-by-dividing-array/)|Hard||
+|3118|[Friday Purchase III ](https://leetcode.com/problems/friday-purchase-iii/)|Medium|🔒|

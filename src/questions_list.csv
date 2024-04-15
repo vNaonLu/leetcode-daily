@@ -2819,7 +2819,7 @@ id,backend_id,title,level,slug,paid
 2818,3001,Apply Operations to Maximize Score,3,apply-operations-to-maximize-score,0
 2819,3077,Minimum Relative Loss After Buying Chocolates,3,minimum-relative-loss-after-buying-chocolates,1
 2820,3078,Election Results,2,election-results,1
-2821,2909,Delay the Resolution of Each Promise,1,delay-the-resolution-of-each-promise,1
+2821,2909,Delay the Resolution of Each Promise,2,delay-the-resolution-of-each-promise,1
 2822,2925,Inversion of Object,1,inversion-of-object,1
 2823,2912,Deep Object Filter,2,deep-object-filter,1
 2824,2917,Count Pairs Whose Sum is Less than Target,1,count-pairs-whose-sum-is-less-than-target,0
@@ -3112,3 +3112,8 @@ id,backend_id,title,level,slug,paid
 3111,3390,Minimum Rectangles to Cover Points,2,minimum-rectangles-to-cover-points,0
 3112,3389,Minimum Time to Visit Disappearing Nodes,2,minimum-time-to-visit-disappearing-nodes,0
 3113,3382,Find the Number of Subarrays Where Boundary Elements Are Maximum,3,find-the-number-of-subarrays-where-boundary-elements-are-maximum,0
+3114,3361,Latest Time You Can Obtain After Replacing Characters,1,latest-time-you-can-obtain-after-replacing-characters,0
+3115,3373,Maximum Prime Difference,2,maximum-prime-difference,0
+3116,3375,Kth Smallest Amount With Single Denomination Combination,3,kth-smallest-amount-with-single-denomination-combination,0
+3117,3364,Minimum Sum of Values by Dividing Array,3,minimum-sum-of-values-by-dividing-array,0
+3118,3424,Friday Purchase III ,2,friday-purchase-iii,1
