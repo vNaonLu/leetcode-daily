@@ -1,6 +1,6 @@
 # Solved Solutions List
 
-This document contains **1300** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
+This document contains **1307** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
 
 Some questions which are still being resolved are not shown in this page, more information about unsolved questions can be found at [docs/unsolved_solutions.md](./unsolved_solutions.md).
 
@@ -354,11 +354,15 @@ Some questions which are still being resolved are not shown in this page, more i
 |462|[Minimum Moves to Equal Array Elements II](https://leetcode.com/problems/minimum-moves-to-equal-array-elements-ii/)|[src/q_451_500/q0462.cc](../src/q_451_500/q0462.cc)|2022/06/30 12:01|
 |463|[Island Perimeter](https://leetcode.com/problems/island-perimeter/)|[src/q_451_500/q0463.cc](../src/q_451_500/q0463.cc)|2021/10/04 11:24|
 |464|[Can I Win](https://leetcode.com/problems/can-i-win/)|[src/q_451_500/q0464.cc](../src/q_451_500/q0464.cc)|2024/04/06 14:35|
+|467|[Unique Substrings in Wraparound String](https://leetcode.com/problems/unique-substrings-in-wraparound-string/)|[src/q_451_500/q0467.cc](../src/q_451_500/q0467.cc)|2024/04/09 22:07|
 |468|[Validate IP Address](https://leetcode.com/problems/validate-ip-address/)|[src/q_451_500/q0468.cc](../src/q_451_500/q0468.cc)|2022/08/24 18:50|
+|470|[Implement Rand10() Using Rand7()](https://leetcode.com/problems/implement-rand10-using-rand7/)|[src/q_451_500/q0470.cc](../src/q_451_500/q0470.cc)|2024/04/11 19:08|
 |472|[Concatenated Words](https://leetcode.com/problems/concatenated-words/)|[src/q_451_500/q0472.cc](../src/q_451_500/q0472.cc)|2023/01/27 14:33|
 |473|[Matchsticks to Square](https://leetcode.com/problems/matchsticks-to-square/)|[src/q_451_500/q0473.cc](../src/q_451_500/q0473.cc)|2022/07/12 13:10|
 |474|[Ones and Zeroes](https://leetcode.com/problems/ones-and-zeroes/)|[src/q_451_500/q0474.cc](../src/q_451_500/q0474.cc)|2022/05/23 18:23|
+|475|[Heaters](https://leetcode.com/problems/heaters/)|[src/q_451_500/q0475.cc](../src/q_451_500/q0475.cc)|2024/04/12 20:13|
 |476|[Number Complement](https://leetcode.com/problems/number-complement/)|[src/q_451_500/q0476.cc](../src/q_451_500/q0476.cc)|2021/12/27 18:26|
+|477|[Total Hamming Distance](https://leetcode.com/problems/total-hamming-distance/)|[src/q_451_500/q0477.cc](../src/q_451_500/q0477.cc)|2024/04/13 14:20|
 |482|[License Key Formatting](https://leetcode.com/problems/license-key-formatting/)|[src/q_451_500/q0482.cc](../src/q_451_500/q0482.cc)|2022/07/22 23:34|
 |485|[Max Consecutive Ones](https://leetcode.com/problems/max-consecutive-ones/)|[src/q_451_500/q0485.cc](../src/q_451_500/q0485.cc)|2021/09/21 08:00|
 |486|[Predict the Winner](https://leetcode.com/problems/predict-the-winner/)|[src/q_451_500/q0486.cc](../src/q_451_500/q0486.cc)|2023/07/28 14:51|
@@ -600,6 +604,7 @@ Some questions which are still being resolved are not shown in this page, more i
 |946|[Validate Stack Sequences](https://leetcode.com/problems/validate-stack-sequences/)|[src/q_901_950/q0946.cc](../src/q_901_950/q0946.cc)|2021/10/13 12:55|
 |947|[Most Stones Removed with Same Row or Column](https://leetcode.com/problems/most-stones-removed-with-same-row-or-column/)|[src/q_901_950/q0947.cc](../src/q_901_950/q0947.cc)|2022/09/26 17:46|
 |948|[Bag of Tokens](https://leetcode.com/problems/bag-of-tokens/)|[src/q_901_950/q0948.cc](../src/q_901_950/q0948.cc)|2022/09/12 17:51|
+|950|[Reveal Cards In Increasing Order](https://leetcode.com/problems/reveal-cards-in-increasing-order/)|[src/q_901_950/q0950.cc](../src/q_901_950/q0950.cc)|2024/04/10 21:46|
 |951|[Flip Equivalent Binary Trees](https://leetcode.com/problems/flip-equivalent-binary-trees/)|[src/q_951_1000/q0951.cc](../src/q_951_1000/q0951.cc)|2021/11/07 15:03|
 |952|[Largest Component Size by Common Factor](https://leetcode.com/problems/largest-component-size-by-common-factor/)|[src/q_951_1000/q0952.cc](../src/q_951_1000/q0952.cc)|2021/11/23 18:31|
 |953|[Verifying an Alien Dictionary](https://leetcode.com/problems/verifying-an-alien-dictionary/)|[src/q_951_1000/q0953.cc](../src/q_951_1000/q0953.cc)|2022/04/22 09:06|
@@ -1307,3 +1312,5 @@ Some questions which are still being resolved are not shown in this page, more i
 |3095|[Shortest Subarray With OR at Least K I](https://leetcode.com/problems/shortest-subarray-with-or-at-least-k-i/)|[src/q_3051_3100/q3095.cc](../src/q_3051_3100/q3095.cc)|2024/04/02 20:23|
 |3099|[Harshad Number](https://leetcode.com/problems/harshad-number/)|[src/q_3051_3100/q3099.cc](../src/q_3051_3100/q3099.cc)|2024/03/31 15:15|
 |3105|[Longest Strictly Increasing or Strictly Decreasing Subarray](https://leetcode.com/problems/longest-strictly-increasing-or-strictly-decreasing-subarray/)|[src/q_3101_3150/q3105.cc](../src/q_3101_3150/q3105.cc)|2024/04/08 22:46|
+|3110|[Score of a String](https://leetcode.com/problems/score-of-a-string/)|[src/q_3101_3150/q3110.cc](../src/q_3101_3150/q3110.cc)|2024/04/14 10:35|
+|3114|[Latest Time You Can Obtain After Replacing Characters](https://leetcode.com/problems/latest-time-you-can-obtain-after-replacing-characters/)|[src/q_3101_3150/q3114.cc](../src/q_3101_3150/q3114.cc)|2024/04/15 21:28|

@@ -1,6 +1,6 @@
 # Unsolved Solutions List
 
-There are **1808** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
+There are **1811** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
 
 The questions which have been solved are not shown in this page, more information about solved questions can be found at [docs/solved_solutions.md](./solved_solutions.md).
 
@@ -126,12 +126,8 @@ The questions which have been solved are not shown in this page, more informatio
 |444|[Sequence Reconstruction](https://leetcode.com/problems/sequence-reconstruction/)|Medium|🔒|
 |465|[Optimal Account Balancing](https://leetcode.com/problems/optimal-account-balancing/)|Hard|🔒|
 |466|[Count The Repetitions](https://leetcode.com/problems/count-the-repetitions/)|Hard||
-|467|[Unique Substrings in Wraparound String](https://leetcode.com/problems/unique-substrings-in-wraparound-string/)|Medium||
 |469|[Convex Polygon](https://leetcode.com/problems/convex-polygon/)|Medium|🔒|
-|470|[Implement Rand10() Using Rand7()](https://leetcode.com/problems/implement-rand10-using-rand7/)|Medium||
 |471|[Encode String with Shortest Length](https://leetcode.com/problems/encode-string-with-shortest-length/)|Hard|🔒|
-|475|[Heaters](https://leetcode.com/problems/heaters/)|Medium||
-|477|[Total Hamming Distance](https://leetcode.com/problems/total-hamming-distance/)|Medium||
 |478|[Generate Random Point in a Circle](https://leetcode.com/problems/generate-random-point-in-a-circle/)|Medium||
 |479|[Largest Palindrome Product](https://leetcode.com/problems/largest-palindrome-product/)|Hard||
 |480|[Sliding Window Median](https://leetcode.com/problems/sliding-window-median/)|Hard||
@@ -363,7 +359,6 @@ The questions which have been solved are not shown in this page, more informatio
 |943|[Find the Shortest Superstring](https://leetcode.com/problems/find-the-shortest-superstring/)|Hard||
 |945|[Minimum Increment to Make Array Unique](https://leetcode.com/problems/minimum-increment-to-make-array-unique/)|Medium||
 |949|[Largest Time for Given Digits](https://leetcode.com/problems/largest-time-for-given-digits/)|Medium||
-|950|[Reveal Cards In Increasing Order](https://leetcode.com/problems/reveal-cards-in-increasing-order/)|Medium||
 |954|[Array of Doubled Pairs](https://leetcode.com/problems/array-of-doubled-pairs/)|Medium||
 |955|[Delete Columns to Make Sorted II](https://leetcode.com/problems/delete-columns-to-make-sorted-ii/)|Medium||
 |957|[Prison Cells After N Days](https://leetcode.com/problems/prison-cells-after-n-days/)|Medium||
@@ -1585,7 +1580,7 @@ The questions which have been solved are not shown in this page, more informatio
 |2818|[Apply Operations to Maximize Score](https://leetcode.com/problems/apply-operations-to-maximize-score/)|Hard||
 |2819|[Minimum Relative Loss After Buying Chocolates](https://leetcode.com/problems/minimum-relative-loss-after-buying-chocolates/)|Hard|🔒|
 |2820|[Election Results](https://leetcode.com/problems/election-results/)|Medium|🔒|
-|2821|[Delay the Resolution of Each Promise](https://leetcode.com/problems/delay-the-resolution-of-each-promise/)|Easy|🔒|
+|2821|[Delay the Resolution of Each Promise](https://leetcode.com/problems/delay-the-resolution-of-each-promise/)|Medium|🔒|
 |2822|[Inversion of Object](https://leetcode.com/problems/inversion-of-object/)|Easy|🔒|
 |2823|[Deep Object Filter](https://leetcode.com/problems/deep-object-filter/)|Medium|🔒|
 |2825|[Make String a Subsequence Using Cyclic Increments](https://leetcode.com/problems/make-string-a-subsequence-using-cyclic-increments/)|Medium||
@@ -1815,3 +1810,11 @@ The questions which have been solved are not shown in this page, more informatio
 |3106|[Lexicographically Smallest String After Operations With Constraint](https://leetcode.com/problems/lexicographically-smallest-string-after-operations-with-constraint/)|Medium||
 |3107|[Minimum Operations to Make Median of Array Equal to K](https://leetcode.com/problems/minimum-operations-to-make-median-of-array-equal-to-k/)|Medium||
 |3108|[Minimum Cost Walk in Weighted Graph](https://leetcode.com/problems/minimum-cost-walk-in-weighted-graph/)|Hard||
+|3109|[Find the Index of Permutation](https://leetcode.com/problems/find-the-index-of-permutation/)|Medium|🔒|
+|3111|[Minimum Rectangles to Cover Points](https://leetcode.com/problems/minimum-rectangles-to-cover-points/)|Medium||
+|3112|[Minimum Time to Visit Disappearing Nodes](https://leetcode.com/problems/minimum-time-to-visit-disappearing-nodes/)|Medium||
+|3113|[Find the Number of Subarrays Where Boundary Elements Are Maximum](https://leetcode.com/problems/find-the-number-of-subarrays-where-boundary-elements-are-maximum/)|Hard||
+|3115|[Maximum Prime Difference](https://leetcode.com/problems/maximum-prime-difference/)|Medium||
+|3116|[Kth Smallest Amount With Single Denomination Combination](https://leetcode.com/problems/kth-smallest-amount-with-single-denomination-combination/)|Hard||
+|3117|[Minimum Sum of Values by Dividing Array](https://leetcode.com/problems/minimum-sum-of-values-by-dividing-array/)|Hard||
+|3118|[Friday Purchase III ](https://leetcode.com/problems/friday-purchase-iii/)|Medium|🔒|
