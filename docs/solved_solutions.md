@@ -1,6 +1,6 @@
 # Solved Solutions List
 
-This document contains **1308** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
+This document contains **1309** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
 
 Some questions which are still being resolved are not shown in this page, more information about unsolved questions can be found at [docs/unsolved_solutions.md](./unsolved_solutions.md).
 
@@ -626,6 +626,7 @@ Some questions which are still being resolved are not shown in this page, more i
 |985|[Sum of Even Numbers After Queries](https://leetcode.com/problems/sum-of-even-numbers-after-queries/)|[src/q_951_1000/q0985.cc](../src/q_951_1000/q0985.cc)|2022/09/21 22:10|
 |986|[Interval List Intersections](https://leetcode.com/problems/interval-list-intersections/)|[src/q_951_1000/q0986.cc](../src/q_951_1000/q0986.cc)|2021/09/22 08:00|
 |987|[Vertical Order Traversal of a Binary Tree](https://leetcode.com/problems/vertical-order-traversal-of-a-binary-tree/)|[src/q_951_1000/q0987.cc](../src/q_951_1000/q0987.cc)|2022/09/04 15:59|
+|988|[Smallest String Starting From Leaf](https://leetcode.com/problems/smallest-string-starting-from-leaf/)|[src/q_951_1000/q0988.cc](../src/q_951_1000/q0988.cc)|2024/04/17 19:39|
 |989|[Add to Array-Form of Integer](https://leetcode.com/problems/add-to-array-form-of-integer/)|[src/q_951_1000/q0989.cc](../src/q_951_1000/q0989.cc)|2022/04/30 10:30|
 |990|[Satisfiability of Equality Equations](https://leetcode.com/problems/satisfiability-of-equality-equations/)|[src/q_951_1000/q0990.cc](../src/q_951_1000/q0990.cc)|2022/09/26 17:37|
 |991|[Broken Calculator](https://leetcode.com/problems/broken-calculator/)|[src/q_951_1000/q0991.cc](../src/q_951_1000/q0991.cc)|2022/03/23 18:27|
