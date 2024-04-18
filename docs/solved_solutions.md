@@ -1,6 +1,6 @@
 # Solved Solutions List
 
-This document contains **1309** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
+This document contains **1310** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
 
 Some questions which are still being resolved are not shown in this page, more information about unsolved questions can be found at [docs/unsolved_solutions.md](./unsolved_solutions.md).
 
@@ -364,6 +364,7 @@ Some questions which are still being resolved are not shown in this page, more i
 |476|[Number Complement](https://leetcode.com/problems/number-complement/)|[src/q_451_500/q0476.cc](../src/q_451_500/q0476.cc)|2021/12/27 18:26|
 |477|[Total Hamming Distance](https://leetcode.com/problems/total-hamming-distance/)|[src/q_451_500/q0477.cc](../src/q_451_500/q0477.cc)|2024/04/13 14:20|
 |478|[Generate Random Point in a Circle](https://leetcode.com/problems/generate-random-point-in-a-circle/)|[src/q_451_500/q0478.cc](../src/q_451_500/q0478.cc)|2024/04/16 21:41|
+|481|[Magical String](https://leetcode.com/problems/magical-string/)|[src/q_451_500/q0481.cc](../src/q_451_500/q0481.cc)|2024/04/18 21:07|
 |482|[License Key Formatting](https://leetcode.com/problems/license-key-formatting/)|[src/q_451_500/q0482.cc](../src/q_451_500/q0482.cc)|2022/07/22 23:34|
 |485|[Max Consecutive Ones](https://leetcode.com/problems/max-consecutive-ones/)|[src/q_451_500/q0485.cc](../src/q_451_500/q0485.cc)|2021/09/21 08:00|
 |486|[Predict the Winner](https://leetcode.com/problems/predict-the-winner/)|[src/q_451_500/q0486.cc](../src/q_451_500/q0486.cc)|2023/07/28 14:51|

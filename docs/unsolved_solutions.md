@@ -1,6 +1,6 @@
 # Unsolved Solutions List
 
-There are **1809** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
+There are **1808** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
 
 The questions which have been solved are not shown in this page, more information about solved questions can be found at [docs/solved_solutions.md](./solved_solutions.md).
 
@@ -130,7 +130,6 @@ The questions which have been solved are not shown in this page, more informatio
 |471|[Encode String with Shortest Length](https://leetcode.com/problems/encode-string-with-shortest-length/)|Hard|🔒|
 |479|[Largest Palindrome Product](https://leetcode.com/problems/largest-palindrome-product/)|Hard||
 |480|[Sliding Window Median](https://leetcode.com/problems/sliding-window-median/)|Hard||
-|481|[Magical String](https://leetcode.com/problems/magical-string/)|Medium||
 |483|[Smallest Good Base](https://leetcode.com/problems/smallest-good-base/)|Hard||
 |484|[Find Permutation](https://leetcode.com/problems/find-permutation/)|Medium|🔒|
 |487|[Max Consecutive Ones II](https://leetcode.com/problems/max-consecutive-ones-ii/)|Medium|🔒|
