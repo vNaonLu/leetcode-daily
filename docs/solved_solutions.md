@@ -1,6 +1,6 @@
 # Solved Solutions List
 
-This document contains **1310** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
+This document contains **1311** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
 
 Some questions which are still being resolved are not shown in this page, more information about unsolved questions can be found at [docs/unsolved_solutions.md](./unsolved_solutions.md).
 
@@ -370,6 +370,7 @@ Some questions which are still being resolved are not shown in this page, more i
 |486|[Predict the Winner](https://leetcode.com/problems/predict-the-winner/)|[src/q_451_500/q0486.cc](../src/q_451_500/q0486.cc)|2023/07/28 14:51|
 |491|[Non-decreasing Subsequences](https://leetcode.com/problems/non-decreasing-subsequences/)|[src/q_451_500/q0491.cc](../src/q_451_500/q0491.cc)|2023/01/20 10:23|
 |492|[Construct the Rectangle](https://leetcode.com/problems/construct-the-rectangle/)|[src/q_451_500/q0492.cc](../src/q_451_500/q0492.cc)|2022/02/13 21:46|
+|494|[Target Sum](https://leetcode.com/problems/target-sum/)|[src/q_451_500/q0494.cc](../src/q_451_500/q0494.cc)|2024/04/19 19:42|
 |495|[Teemo Attacking](https://leetcode.com/problems/teemo-attacking/)|[src/q_451_500/q0495.cc](../src/q_451_500/q0495.cc)|2022/09/08 01:18|
 |496|[Next Greater Element I](https://leetcode.com/problems/next-greater-element-i/)|[src/q_451_500/q0496.cc](../src/q_451_500/q0496.cc)|2021/10/19 10:51|
 |500|[Keyboard Row](https://leetcode.com/problems/keyboard-row/)|[src/q_451_500/q0500.cc](../src/q_451_500/q0500.cc)|2022/09/08 01:06|
