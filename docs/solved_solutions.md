@@ -1,6 +1,6 @@
 # Solved Solutions List
 
-This document contains **1311** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
+This document contains **1312** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
 
 Some questions which are still being resolved are not shown in this page, more information about unsolved questions can be found at [docs/unsolved_solutions.md](./unsolved_solutions.md).
 
@@ -1028,6 +1028,7 @@ Some questions which are still being resolved are not shown in this page, more i
 |1980|[Find Unique Binary String](https://leetcode.com/problems/find-unique-binary-string/)|[src/q_1951_2000/q1980.cc](../src/q_1951_2000/q1980.cc)|2023/11/16 19:11|
 |1984|[Minimum Difference Between Highest and Lowest of K Scores](https://leetcode.com/problems/minimum-difference-between-highest-and-lowest-of-k-scores/)|[src/q_1951_2000/q1984.cc](../src/q_1951_2000/q1984.cc)|2023/09/19 18:54|
 |1991|[Find the Middle Index in Array](https://leetcode.com/problems/find-the-middle-index-in-array/)|[src/q_1951_2000/q1991.cc](../src/q_1951_2000/q1991.cc)|2022/05/21 14:03|
+|1992|[Find All Groups of Farmland](https://leetcode.com/problems/find-all-groups-of-farmland/)|[src/q_1951_2000/q1992.cc](../src/q_1951_2000/q1992.cc)|2024/04/20 11:53|
 |1995|[Count Special Quadruplets](https://leetcode.com/problems/count-special-quadruplets/)|[src/q_1951_2000/q1995.cc](../src/q_1951_2000/q1995.cc)|2023/09/20 18:53|
 |1996|[The Number of Weak Characters in the Game](https://leetcode.com/problems/the-number-of-weak-characters-in-the-game/)|[src/q_1951_2000/q1996.cc](../src/q_1951_2000/q1996.cc)|2022/09/09 15:43|
 |2000|[Reverse Prefix of Word](https://leetcode.com/problems/reverse-prefix-of-word/)|[src/q_1951_2000/q2000.cc](../src/q_1951_2000/q2000.cc)|2022/12/10 13:30|

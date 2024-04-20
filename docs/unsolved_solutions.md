@@ -1,6 +1,6 @@
 # Unsolved Solutions List
 
-There are **1807** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
+There are **1806** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
 
 The questions which have been solved are not shown in this page, more information about solved questions can be found at [docs/solved_solutions.md](./solved_solutions.md).
 
@@ -977,7 +977,6 @@ The questions which have been solved are not shown in this page, more informatio
 |1988|[Find Cutoff Score for Each School](https://leetcode.com/problems/find-cutoff-score-for-each-school/)|Medium|🔒|
 |1989|[Maximum Number of People That Can Be Caught in Tag](https://leetcode.com/problems/maximum-number-of-people-that-can-be-caught-in-tag/)|Medium|🔒|
 |1990|[Count the Number of Experiments](https://leetcode.com/problems/count-the-number-of-experiments/)|Medium|🔒|
-|1992|[Find All Groups of Farmland](https://leetcode.com/problems/find-all-groups-of-farmland/)|Medium||
 |1993|[Operations on Tree](https://leetcode.com/problems/operations-on-tree/)|Medium||
 |1994|[The Number of Good Subsets](https://leetcode.com/problems/the-number-of-good-subsets/)|Hard||
 |1997|[First Day Where You Have Been in All the Rooms](https://leetcode.com/problems/first-day-where-you-have-been-in-all-the-rooms/)|Medium||

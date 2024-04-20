@@ -1310,3 +1310,4 @@ timestamp,id,tc,sc,notes
 1713353952,988,n * log(n),n,n = nodes of |root|
 1713445629,481,-,-,not calculated
 1713526932,494,2 ^ n,n,n = |nums.size()|
+1713585223,1992,n * m,n * m,"m = |land.size()|, n = |land.size()|"
