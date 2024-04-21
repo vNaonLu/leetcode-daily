@@ -1,6 +1,6 @@
 # Solved Solutions List
 
-This document contains **1312** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
+This document contains **1313** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
 
 Some questions which are still being resolved are not shown in this page, more information about unsolved questions can be found at [docs/unsolved_solutions.md](./unsolved_solutions.md).
 
@@ -373,6 +373,7 @@ Some questions which are still being resolved are not shown in this page, more i
 |494|[Target Sum](https://leetcode.com/problems/target-sum/)|[src/q_451_500/q0494.cc](../src/q_451_500/q0494.cc)|2024/04/19 19:42|
 |495|[Teemo Attacking](https://leetcode.com/problems/teemo-attacking/)|[src/q_451_500/q0495.cc](../src/q_451_500/q0495.cc)|2022/09/08 01:18|
 |496|[Next Greater Element I](https://leetcode.com/problems/next-greater-element-i/)|[src/q_451_500/q0496.cc](../src/q_451_500/q0496.cc)|2021/10/19 10:51|
+|498|[Diagonal Traverse](https://leetcode.com/problems/diagonal-traverse/)|[src/q_451_500/q0498.cc](../src/q_451_500/q0498.cc)|2024/04/21 16:59|
 |500|[Keyboard Row](https://leetcode.com/problems/keyboard-row/)|[src/q_451_500/q0500.cc](../src/q_451_500/q0500.cc)|2022/09/08 01:06|
 |501|[Find Mode in Binary Search Tree](https://leetcode.com/problems/find-mode-in-binary-search-tree/)|[src/q_501_550/q0501.cc](../src/q_501_550/q0501.cc)|2021/10/05 12:58|
 |502|[IPO](https://leetcode.com/problems/ipo/)|[src/q_501_550/q0502.cc](../src/q_501_550/q0502.cc)|2023/02/23 20:02|

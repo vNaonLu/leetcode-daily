@@ -1,6 +1,6 @@
 # Unsolved Solutions List
 
-There are **1811** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
+There are **1810** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
 
 The questions which have been solved are not shown in this page, more information about solved questions can be found at [docs/solved_solutions.md](./solved_solutions.md).
 
@@ -138,7 +138,6 @@ The questions which have been solved are not shown in this page, more informatio
 |490|[The Maze](https://leetcode.com/problems/the-maze/)|Medium|🔒|
 |493|[Reverse Pairs](https://leetcode.com/problems/reverse-pairs/)|Hard||
 |497|[Random Point in Non-overlapping Rectangles](https://leetcode.com/problems/random-point-in-non-overlapping-rectangles/)|Medium||
-|498|[Diagonal Traverse](https://leetcode.com/problems/diagonal-traverse/)|Medium||
 |499|[The Maze III](https://leetcode.com/problems/the-maze-iii/)|Hard|🔒|
 |505|[The Maze II](https://leetcode.com/problems/the-maze-ii/)|Medium|🔒|
 |508|[Most Frequent Subtree Sum](https://leetcode.com/problems/most-frequent-subtree-sum/)|Medium||
