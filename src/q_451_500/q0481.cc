@@ -41,14 +41,18 @@ public:
   int magicalString(int n) {
     queue<int> q;
     q.emplace(2);
-    int res = 1;
+    int res  = 1;
+    int prev = 2;
     for (int i = 2; i < n; ++i) {
       int x = q.front();
       q.pop();
       if (x == 1) {
         ++res;
       }
-      auto bk = q.back() == 2 ? 1 : 2;
+      if (!q.empty()) {
+        prev = q.back();
+      }
+      auto bk = prev == 2 ? 1 : 2;
       for (int j = 0; j < x; ++j) {
         q.emplace(bk);
       }
