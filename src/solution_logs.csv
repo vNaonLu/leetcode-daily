@@ -1306,3 +1306,10 @@ timestamp,id,tc,sc,notes
 1712989213,477,n,1,n = |nums.size()|
 1713062117,3110,n,1,n = |s.size()|
 1713187682,3114,1,1,
+1713274878,478,-,-,not calculated
+1713353952,988,n * log(n),n,n = nodes of |root|
+1713445629,481,-,-,not calculated
+1713526932,494,2 ^ n,n,n = |nums.size()|
+1713585223,1992,n * m,n * m,"m = |land.size()|, n = |land.size()|"
+1713689958,498,m * n,1,"m = |mat.size()|, n = |mat[i].size()|"
+1713797236,593,1,1,

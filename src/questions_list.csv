@@ -3117,3 +3117,8 @@ id,backend_id,title,level,slug,paid
 3116,3375,Kth Smallest Amount With Single Denomination Combination,3,kth-smallest-amount-with-single-denomination-combination,0
 3117,3364,Minimum Sum of Values by Dividing Array,3,minimum-sum-of-values-by-dividing-array,0
 3118,3424,Friday Purchase III ,2,friday-purchase-iii,1
+3119,3425,Maximum Number of Potholes That Can Be Fixed,2,maximum-number-of-potholes-that-can-be-fixed,1
+3120,3408,Count the Number of Special Characters I,1,count-the-number-of-special-characters-i,0
+3121,3405,Count the Number of Special Characters II,2,count-the-number-of-special-characters-ii,0
+3122,3404,Minimum Number of Operations to Satisfy Conditions,2,minimum-number-of-operations-to-satisfy-conditions,0
+3123,3386,Find Edges in Shortest Paths,3,find-edges-in-shortest-paths,0

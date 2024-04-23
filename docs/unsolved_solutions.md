@@ -1,6 +1,6 @@
 # Unsolved Solutions List
 
-There are **1811** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
+There are **1809** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
 
 The questions which have been solved are not shown in this page, more information about solved questions can be found at [docs/solved_solutions.md](./solved_solutions.md).
 
@@ -128,10 +128,8 @@ The questions which have been solved are not shown in this page, more informatio
 |466|[Count The Repetitions](https://leetcode.com/problems/count-the-repetitions/)|Hard||
 |469|[Convex Polygon](https://leetcode.com/problems/convex-polygon/)|Medium|🔒|
 |471|[Encode String with Shortest Length](https://leetcode.com/problems/encode-string-with-shortest-length/)|Hard|🔒|
-|478|[Generate Random Point in a Circle](https://leetcode.com/problems/generate-random-point-in-a-circle/)|Medium||
 |479|[Largest Palindrome Product](https://leetcode.com/problems/largest-palindrome-product/)|Hard||
 |480|[Sliding Window Median](https://leetcode.com/problems/sliding-window-median/)|Hard||
-|481|[Magical String](https://leetcode.com/problems/magical-string/)|Medium||
 |483|[Smallest Good Base](https://leetcode.com/problems/smallest-good-base/)|Hard||
 |484|[Find Permutation](https://leetcode.com/problems/find-permutation/)|Medium|🔒|
 |487|[Max Consecutive Ones II](https://leetcode.com/problems/max-consecutive-ones-ii/)|Medium|🔒|
@@ -139,9 +137,7 @@ The questions which have been solved are not shown in this page, more informatio
 |489|[Robot Room Cleaner](https://leetcode.com/problems/robot-room-cleaner/)|Hard|🔒|
 |490|[The Maze](https://leetcode.com/problems/the-maze/)|Medium|🔒|
 |493|[Reverse Pairs](https://leetcode.com/problems/reverse-pairs/)|Hard||
-|494|[Target Sum](https://leetcode.com/problems/target-sum/)|Medium||
 |497|[Random Point in Non-overlapping Rectangles](https://leetcode.com/problems/random-point-in-non-overlapping-rectangles/)|Medium||
-|498|[Diagonal Traverse](https://leetcode.com/problems/diagonal-traverse/)|Medium||
 |499|[The Maze III](https://leetcode.com/problems/the-maze-iii/)|Hard|🔒|
 |505|[The Maze II](https://leetcode.com/problems/the-maze-ii/)|Medium|🔒|
 |508|[Most Frequent Subtree Sum](https://leetcode.com/problems/most-frequent-subtree-sum/)|Medium||
@@ -192,7 +188,6 @@ The questions which have been solved are not shown in this page, more informatio
 |588|[Design In-Memory File System](https://leetcode.com/problems/design-in-memory-file-system/)|Hard|🔒|
 |591|[Tag Validator](https://leetcode.com/problems/tag-validator/)|Hard||
 |592|[Fraction Addition and Subtraction](https://leetcode.com/problems/fraction-addition-and-subtraction/)|Medium||
-|593|[Valid Square](https://leetcode.com/problems/valid-square/)|Medium||
 |595|[Big Countries](https://leetcode.com/problems/big-countries/)|Easy||
 |596|[Classes More Than 5 Students](https://leetcode.com/problems/classes-more-than-5-students/)|Easy||
 |597|[Friend Requests I: Overall Acceptance Rate](https://leetcode.com/problems/friend-requests-i-overall-acceptance-rate/)|Easy|🔒|
@@ -376,7 +371,6 @@ The questions which have been solved are not shown in this page, more informatio
 |979|[Distribute Coins in Binary Tree](https://leetcode.com/problems/distribute-coins-in-binary-tree/)|Medium||
 |982|[Triples with Bitwise AND Equal To Zero](https://leetcode.com/problems/triples-with-bitwise-and-equal-to-zero/)|Hard||
 |984|[String Without AAA or BBB](https://leetcode.com/problems/string-without-aaa-or-bbb/)|Medium||
-|988|[Smallest String Starting From Leaf](https://leetcode.com/problems/smallest-string-starting-from-leaf/)|Medium||
 |995|[Minimum Number of K Consecutive Bit Flips](https://leetcode.com/problems/minimum-number-of-k-consecutive-bit-flips/)|Hard||
 |996|[Number of Squareful Arrays](https://leetcode.com/problems/number-of-squareful-arrays/)|Hard||
 |998|[Maximum Binary Tree II](https://leetcode.com/problems/maximum-binary-tree-ii/)|Medium||
@@ -981,7 +975,6 @@ The questions which have been solved are not shown in this page, more informatio
 |1988|[Find Cutoff Score for Each School](https://leetcode.com/problems/find-cutoff-score-for-each-school/)|Medium|🔒|
 |1989|[Maximum Number of People That Can Be Caught in Tag](https://leetcode.com/problems/maximum-number-of-people-that-can-be-caught-in-tag/)|Medium|🔒|
 |1990|[Count the Number of Experiments](https://leetcode.com/problems/count-the-number-of-experiments/)|Medium|🔒|
-|1992|[Find All Groups of Farmland](https://leetcode.com/problems/find-all-groups-of-farmland/)|Medium||
 |1993|[Operations on Tree](https://leetcode.com/problems/operations-on-tree/)|Medium||
 |1994|[The Number of Good Subsets](https://leetcode.com/problems/the-number-of-good-subsets/)|Hard||
 |1997|[First Day Where You Have Been in All the Rooms](https://leetcode.com/problems/first-day-where-you-have-been-in-all-the-rooms/)|Medium||
@@ -1818,3 +1811,8 @@ The questions which have been solved are not shown in this page, more informatio
 |3116|[Kth Smallest Amount With Single Denomination Combination](https://leetcode.com/problems/kth-smallest-amount-with-single-denomination-combination/)|Hard||
 |3117|[Minimum Sum of Values by Dividing Array](https://leetcode.com/problems/minimum-sum-of-values-by-dividing-array/)|Hard||
 |3118|[Friday Purchase III ](https://leetcode.com/problems/friday-purchase-iii/)|Medium|🔒|
+|3119|[Maximum Number of Potholes That Can Be Fixed](https://leetcode.com/problems/maximum-number-of-potholes-that-can-be-fixed/)|Medium|🔒|
+|3120|[Count the Number of Special Characters I](https://leetcode.com/problems/count-the-number-of-special-characters-i/)|Easy||
+|3121|[Count the Number of Special Characters II](https://leetcode.com/problems/count-the-number-of-special-characters-ii/)|Medium||
+|3122|[Minimum Number of Operations to Satisfy Conditions](https://leetcode.com/problems/minimum-number-of-operations-to-satisfy-conditions/)|Medium||
+|3123|[Find Edges in Shortest Paths](https://leetcode.com/problems/find-edges-in-shortest-paths/)|Hard||
