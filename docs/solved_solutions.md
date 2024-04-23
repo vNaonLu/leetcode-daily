@@ -1,6 +1,6 @@
 # Solved Solutions List
 
-This document contains **1314** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
+This document contains **1315** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
 
 Some questions which are still being resolved are not shown in this page, more information about unsolved questions can be found at [docs/unsolved_solutions.md](./unsolved_solutions.md).
 
@@ -402,6 +402,7 @@ Some questions which are still being resolved are not shown in this page, more i
 |543|[Diameter of Binary Tree](https://leetcode.com/problems/diameter-of-binary-tree/)|[src/q_501_550/q0543.cc](../src/q_501_550/q0543.cc)|2021/10/11 14:53|
 |547|[Number of Provinces](https://leetcode.com/problems/number-of-provinces/)|[src/q_501_550/q0547.cc](../src/q_501_550/q0547.cc)|2021/09/24 15:56|
 |551|[Student Attendance Record I](https://leetcode.com/problems/student-attendance-record-i/)|[src/q_551_600/q0551.cc](../src/q_551_600/q0551.cc)|2023/06/19 19:39|
+|553|[Optimal Division](https://leetcode.com/problems/optimal-division/)|[src/q_551_600/q0553.cc](../src/q_551_600/q0553.cc)|2024/04/23 20:02|
 |556|[Next Greater Element III](https://leetcode.com/problems/next-greater-element-iii/)|[src/q_551_600/q0556.cc](../src/q_551_600/q0556.cc)|2022/05/05 18:24|
 |557|[Reverse Words in a String III](https://leetcode.com/problems/reverse-words-in-a-string-iii/)|[src/q_551_600/q0557.cc](../src/q_551_600/q0557.cc)|2021/09/08 08:00|
 |559|[Maximum Depth of N-ary Tree](https://leetcode.com/problems/maximum-depth-of-n-ary-tree/)|[src/q_551_600/q0559.cc](../src/q_551_600/q0559.cc)|2022/10/11 13:28|
