@@ -1,6 +1,6 @@
 # Solved Solutions List
 
-This document contains **1315** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
+This document contains **1316** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
 
 Some questions which are still being resolved are not shown in this page, more information about unsolved questions can be found at [docs/unsolved_solutions.md](./unsolved_solutions.md).
 
@@ -381,6 +381,7 @@ Some questions which are still being resolved are not shown in this page, more i
 |504|[Base 7](https://leetcode.com/problems/base-7/)|[src/q_501_550/q0504.cc](../src/q_501_550/q0504.cc)|2022/02/11 18:34|
 |506|[Relative Ranks](https://leetcode.com/problems/relative-ranks/)|[src/q_501_550/q0506.cc](../src/q_501_550/q0506.cc)|2023/06/04 19:14|
 |507|[Perfect Number](https://leetcode.com/problems/perfect-number/)|[src/q_501_550/q0507.cc](../src/q_501_550/q0507.cc)|2021/12/22 21:58|
+|508|[Most Frequent Subtree Sum](https://leetcode.com/problems/most-frequent-subtree-sum/)|[src/q_501_550/q0508.cc](../src/q_501_550/q0508.cc)|2024/04/24 22:56|
 |509|[Fibonacci Number](https://leetcode.com/problems/fibonacci-number/)|[src/q_501_550/q0509.cc](../src/q_501_550/q0509.cc)|2021/10/10 13:37|
 |513|[Find Bottom Left Tree Value](https://leetcode.com/problems/find-bottom-left-tree-value/)|[src/q_501_550/q0513.cc](../src/q_501_550/q0513.cc)|2022/10/09 13:12|
 |515|[Find Largest Value in Each Tree Row](https://leetcode.com/problems/find-largest-value-in-each-tree-row/)|[src/q_501_550/q0515.cc](../src/q_501_550/q0515.cc)|2022/01/30 13:24|
