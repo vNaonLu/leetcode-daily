@@ -1,6 +1,6 @@
 # Solved Solutions List
 
-This document contains **1317** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
+This document contains **1318** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
 
 Some questions which are still being resolved are not shown in this page, more information about unsolved questions can be found at [docs/unsolved_solutions.md](./unsolved_solutions.md).
 
@@ -740,6 +740,7 @@ Some questions which are still being resolved are not shown in this page, more i
 |1286|[Iterator for Combination](https://leetcode.com/problems/iterator-for-combination/)|[src/q_1251_1300/q1286.cc](../src/q_1251_1300/q1286.cc)|2021/11/14 13:18|
 |1287|[Element Appearing More Than 25% In Sorted Array](https://leetcode.com/problems/element-appearing-more-than-25-in-sorted-array/)|[src/q_1251_1300/q1287.cc](../src/q_1251_1300/q1287.cc)|2022/11/27 16:24|
 |1288|[Remove Covered Intervals](https://leetcode.com/problems/remove-covered-intervals/)|[src/q_1251_1300/q1288.cc](../src/q_1251_1300/q1288.cc)|2022/02/20 14:19|
+|1289|[Minimum Falling Path Sum II](https://leetcode.com/problems/minimum-falling-path-sum-ii/)|[src/q_1251_1300/q1289.cc](../src/q_1251_1300/q1289.cc)|2024/04/26 19:42|
 |1290|[Convert Binary Number in a Linked List to Integer](https://leetcode.com/problems/convert-binary-number-in-a-linked-list-to-integer/)|[src/q_1251_1300/q1290.cc](../src/q_1251_1300/q1290.cc)|2021/12/07 18:28|
 |1291|[Sequential Digits](https://leetcode.com/problems/sequential-digits/)|[src/q_1251_1300/q1291.cc](../src/q_1251_1300/q1291.cc)|2022/01/23 14:04|
 |1292|[Maximum Side Length of a Square with Sum Less than or Equal to Threshold](https://leetcode.com/problems/maximum-side-length-of-a-square-with-sum-less-than-or-equal-to-threshold/)|[src/q_1251_1300/q1292.cc](../src/q_1251_1300/q1292.cc)|2022/07/28 18:17|
