@@ -1,6 +1,6 @@
 # Solved Solutions List
 
-This document contains **1318** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
+This document contains **1319** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
 
 Some questions which are still being resolved are not shown in this page, more information about unsolved questions can be found at [docs/unsolved_solutions.md](./unsolved_solutions.md).
 
@@ -384,6 +384,7 @@ Some questions which are still being resolved are not shown in this page, more i
 |508|[Most Frequent Subtree Sum](https://leetcode.com/problems/most-frequent-subtree-sum/)|[src/q_501_550/q0508.cc](../src/q_501_550/q0508.cc)|2024/04/24 22:56|
 |509|[Fibonacci Number](https://leetcode.com/problems/fibonacci-number/)|[src/q_501_550/q0509.cc](../src/q_501_550/q0509.cc)|2021/10/10 13:37|
 |513|[Find Bottom Left Tree Value](https://leetcode.com/problems/find-bottom-left-tree-value/)|[src/q_501_550/q0513.cc](../src/q_501_550/q0513.cc)|2022/10/09 13:12|
+|514|[Freedom Trail](https://leetcode.com/problems/freedom-trail/)|[src/q_501_550/q0514.cc](../src/q_501_550/q0514.cc)|2024/04/27 17:20|
 |515|[Find Largest Value in Each Tree Row](https://leetcode.com/problems/find-largest-value-in-each-tree-row/)|[src/q_501_550/q0515.cc](../src/q_501_550/q0515.cc)|2022/01/30 13:24|
 |516|[Longest Palindromic Subsequence](https://leetcode.com/problems/longest-palindromic-subsequence/)|[src/q_501_550/q0516.cc](../src/q_501_550/q0516.cc)|2021/10/26 14:13|
 |518|[Coin Change II](https://leetcode.com/problems/coin-change-ii/)|[src/q_501_550/q0518.cc](../src/q_501_550/q0518.cc)|2021/10/29 12:56|
