@@ -1,6 +1,6 @@
 # Unsolved Solutions List
 
-There are **1802** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
+There are **1801** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
 
 The questions which have been solved are not shown in this page, more information about solved questions can be found at [docs/solved_solutions.md](./solved_solutions.md).
 
@@ -917,7 +917,6 @@ The questions which have been solved are not shown in this page, more informatio
 |1911|[Maximum Alternating Subsequence Sum](https://leetcode.com/problems/maximum-alternating-subsequence-sum/)|Medium||
 |1912|[Design Movie Rental System](https://leetcode.com/problems/design-movie-rental-system/)|Hard||
 |1914|[Cyclically Rotating a Grid](https://leetcode.com/problems/cyclically-rotating-a-grid/)|Medium||
-|1915|[Number of Wonderful Substrings](https://leetcode.com/problems/number-of-wonderful-substrings/)|Medium||
 |1916|[Count Ways to Build Rooms in an Ant Colony](https://leetcode.com/problems/count-ways-to-build-rooms-in-an-ant-colony/)|Hard||
 |1917|[Leetcodify Friends Recommendations](https://leetcode.com/problems/leetcodify-friends-recommendations/)|Hard|🔒|
 |1918|[Kth Smallest Subarray Sum](https://leetcode.com/problems/kth-smallest-subarray-sum/)|Medium|🔒|
