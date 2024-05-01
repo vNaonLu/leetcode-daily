@@ -1,6 +1,6 @@
 # Unsolved Solutions List
 
-There are **1801** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
+There are **1800** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
 
 The questions which have been solved are not shown in this page, more information about solved questions can be found at [docs/solved_solutions.md](./solved_solutions.md).
 
@@ -1804,7 +1804,6 @@ The questions which have been solved are not shown in this page, more informatio
 |3117|[Minimum Sum of Values by Dividing Array](https://leetcode.com/problems/minimum-sum-of-values-by-dividing-array/)|Hard||
 |3118|[Friday Purchase III ](https://leetcode.com/problems/friday-purchase-iii/)|Medium|🔒|
 |3119|[Maximum Number of Potholes That Can Be Fixed](https://leetcode.com/problems/maximum-number-of-potholes-that-can-be-fixed/)|Medium|🔒|
-|3120|[Count the Number of Special Characters I](https://leetcode.com/problems/count-the-number-of-special-characters-i/)|Easy||
 |3121|[Count the Number of Special Characters II](https://leetcode.com/problems/count-the-number-of-special-characters-ii/)|Medium||
 |3122|[Minimum Number of Operations to Satisfy Conditions](https://leetcode.com/problems/minimum-number-of-operations-to-satisfy-conditions/)|Medium||
 |3123|[Find Edges in Shortest Paths](https://leetcode.com/problems/find-edges-in-shortest-paths/)|Hard||

@@ -1,6 +1,6 @@
 # Solved Solutions List
 
-This document contains **1322** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
+This document contains **1323** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
 
 Some questions which are still being resolved are not shown in this page, more information about unsolved questions can be found at [docs/unsolved_solutions.md](./unsolved_solutions.md).
 
@@ -1329,3 +1329,4 @@ Some questions which are still being resolved are not shown in this page, more i
 |3105|[Longest Strictly Increasing or Strictly Decreasing Subarray](https://leetcode.com/problems/longest-strictly-increasing-or-strictly-decreasing-subarray/)|[src/q_3101_3150/q3105.cc](../src/q_3101_3150/q3105.cc)|2024/04/08 22:46|
 |3110|[Score of a String](https://leetcode.com/problems/score-of-a-string/)|[src/q_3101_3150/q3110.cc](../src/q_3101_3150/q3110.cc)|2024/04/14 10:35|
 |3114|[Latest Time You Can Obtain After Replacing Characters](https://leetcode.com/problems/latest-time-you-can-obtain-after-replacing-characters/)|[src/q_3101_3150/q3114.cc](../src/q_3101_3150/q3114.cc)|2024/04/15 21:28|
+|3120|[Count the Number of Special Characters I](https://leetcode.com/problems/count-the-number-of-special-characters-i/)|[src/q_3101_3150/q3120.cc](../src/q_3101_3150/q3120.cc)|2024/05/01 18:47|
