@@ -1,6 +1,6 @@
 # Unsolved Solutions List
 
-There are **1809** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
+There are **1802** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
 
 The questions which have been solved are not shown in this page, more information about solved questions can be found at [docs/solved_solutions.md](./solved_solutions.md).
 
@@ -140,11 +140,9 @@ The questions which have been solved are not shown in this page, more informatio
 |497|[Random Point in Non-overlapping Rectangles](https://leetcode.com/problems/random-point-in-non-overlapping-rectangles/)|Medium||
 |499|[The Maze III](https://leetcode.com/problems/the-maze-iii/)|Hard|🔒|
 |505|[The Maze II](https://leetcode.com/problems/the-maze-ii/)|Medium|🔒|
-|508|[Most Frequent Subtree Sum](https://leetcode.com/problems/most-frequent-subtree-sum/)|Medium||
 |510|[Inorder Successor in BST II](https://leetcode.com/problems/inorder-successor-in-bst-ii/)|Medium|🔒|
 |511|[Game Play Analysis I](https://leetcode.com/problems/game-play-analysis-i/)|Easy||
 |512|[Game Play Analysis II](https://leetcode.com/problems/game-play-analysis-ii/)|Easy|🔒|
-|514|[Freedom Trail](https://leetcode.com/problems/freedom-trail/)|Hard||
 |517|[Super Washing Machines](https://leetcode.com/problems/super-washing-machines/)|Hard||
 |519|[Random Flip Matrix](https://leetcode.com/problems/random-flip-matrix/)|Medium||
 |522|[Longest Uncommon Subsequence II](https://leetcode.com/problems/longest-uncommon-subsequence-ii/)|Medium||
@@ -164,7 +162,6 @@ The questions which have been solved are not shown in this page, more informatio
 |549|[Binary Tree Longest Consecutive Sequence II](https://leetcode.com/problems/binary-tree-longest-consecutive-sequence-ii/)|Medium|🔒|
 |550|[Game Play Analysis IV](https://leetcode.com/problems/game-play-analysis-iv/)|Medium||
 |552|[Student Attendance Record II](https://leetcode.com/problems/student-attendance-record-ii/)|Hard||
-|553|[Optimal Division](https://leetcode.com/problems/optimal-division/)|Medium||
 |554|[Brick Wall](https://leetcode.com/problems/brick-wall/)|Medium||
 |555|[Split Concatenated Strings](https://leetcode.com/problems/split-concatenated-strings/)|Medium|🔒|
 |558|[Logical OR of Two Binary Grids Represented as Quad-Trees](https://leetcode.com/problems/logical-or-of-two-binary-grids-represented-as-quad-trees/)|Medium||
@@ -313,7 +310,6 @@ The questions which have been solved are not shown in this page, more informatio
 |829|[Consecutive Numbers Sum](https://leetcode.com/problems/consecutive-numbers-sum/)|Hard||
 |831|[Masking Personal Information](https://leetcode.com/problems/masking-personal-information/)|Medium||
 |833|[Find And Replace in String](https://leetcode.com/problems/find-and-replace-in-string/)|Medium||
-|834|[Sum of Distances in Tree](https://leetcode.com/problems/sum-of-distances-in-tree/)|Hard||
 |842|[Split Array into Fibonacci Sequence](https://leetcode.com/problems/split-array-into-fibonacci-sequence/)|Medium||
 |843|[Guess the Word](https://leetcode.com/problems/guess-the-word/)|Hard||
 |845|[Longest Mountain in Array](https://leetcode.com/problems/longest-mountain-in-array/)|Medium||
@@ -564,7 +560,6 @@ The questions which have been solved are not shown in this page, more informatio
 |1280|[Students and Examinations](https://leetcode.com/problems/students-and-examinations/)|Easy||
 |1284|[Minimum Number of Flips to Convert Binary Matrix to Zero Matrix](https://leetcode.com/problems/minimum-number-of-flips-to-convert-binary-matrix-to-zero-matrix/)|Hard||
 |1285|[Find the Start and End Number of Continuous Ranges](https://leetcode.com/problems/find-the-start-and-end-number-of-continuous-ranges/)|Medium|🔒|
-|1289|[Minimum Falling Path Sum II](https://leetcode.com/problems/minimum-falling-path-sum-ii/)|Hard||
 |1294|[Weather Type in Each Country](https://leetcode.com/problems/weather-type-in-each-country/)|Easy|🔒|
 |1296|[Divide Array in Sets of K Consecutive Numbers](https://leetcode.com/problems/divide-array-in-sets-of-k-consecutive-numbers/)|Medium||
 |1297|[Maximum Number of Occurrences of a Substring](https://leetcode.com/problems/maximum-number-of-occurrences-of-a-substring/)|Medium||
@@ -1228,7 +1223,6 @@ The questions which have been solved are not shown in this page, more informatio
 |2362|[Generate the Invoice](https://leetcode.com/problems/generate-the-invoice/)|Hard|🔒|
 |2364|[Count Number of Bad Pairs](https://leetcode.com/problems/count-number-of-bad-pairs/)|Medium||
 |2365|[Task Scheduler II](https://leetcode.com/problems/task-scheduler-ii/)|Medium||
-|2370|[Longest Ideal Subsequence](https://leetcode.com/problems/longest-ideal-subsequence/)|Medium||
 |2371|[Minimize Maximum Value in a Grid](https://leetcode.com/problems/minimize-maximum-value-in-a-grid/)|Hard|🔒|
 |2372|[Calculate the Influence of Each Salesperson](https://leetcode.com/problems/calculate-the-influence-of-each-salesperson/)|Medium|🔒|
 |2374|[Node With Highest Edge Score](https://leetcode.com/problems/node-with-highest-edge-score/)|Medium||
@@ -1711,7 +1705,6 @@ The questions which have been solved are not shown in this page, more informatio
 |2993|[Friday Purchases I](https://leetcode.com/problems/friday-purchases-i/)|Medium|🔒|
 |2994|[Friday Purchases II ](https://leetcode.com/problems/friday-purchases-ii/)|Hard|🔒|
 |2995|[Viewers Turned Streamers](https://leetcode.com/problems/viewers-turned-streamers/)|Hard|🔒|
-|2997|[Minimum Number of Operations to Make Array XOR Equal to K](https://leetcode.com/problems/minimum-number-of-operations-to-make-array-xor-equal-to-k/)|Medium||
 |2998|[Minimum Number of Operations to Make X and Y Equal](https://leetcode.com/problems/minimum-number-of-operations-to-make-x-and-y-equal/)|Medium||
 |2999|[Count the Number of Powerful Integers](https://leetcode.com/problems/count-the-number-of-powerful-integers/)|Hard||
 |3001|[Minimum Moves to Capture The Queen](https://leetcode.com/problems/minimum-moves-to-capture-the-queen/)|Medium||
