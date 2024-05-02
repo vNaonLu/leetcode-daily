@@ -1,6 +1,6 @@
 # Solved Solutions List
 
-This document contains **1323** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
+This document contains **1324** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
 
 Some questions which are still being resolved are not shown in this page, more information about unsolved questions can be found at [docs/unsolved_solutions.md](./unsolved_solutions.md).
 
@@ -391,6 +391,7 @@ Some questions which are still being resolved are not shown in this page, more i
 |520|[Detect Capital](https://leetcode.com/problems/detect-capital/)|[src/q_501_550/q0520.cc](../src/q_501_550/q0520.cc)|2021/12/03 18:37|
 |521|[Longest Uncommon Subsequence I](https://leetcode.com/problems/longest-uncommon-subsequence-i/)|[src/q_501_550/q0521.cc](../src/q_501_550/q0521.cc)|2023/07/03 21:27|
 |523|[Continuous Subarray Sum](https://leetcode.com/problems/continuous-subarray-sum/)|[src/q_501_550/q0523.cc](../src/q_501_550/q0523.cc)|2022/10/26 11:03|
+|524|[Longest Word in Dictionary through Deleting](https://leetcode.com/problems/longest-word-in-dictionary-through-deleting/)|[src/q_501_550/q0524.cc](../src/q_501_550/q0524.cc)|2024/05/02 22:33|
 |525|[Contiguous Array](https://leetcode.com/problems/contiguous-array/)|[src/q_501_550/q0525.cc](../src/q_501_550/q0525.cc)|2022/02/04 12:02|
 |528|[Random Pick with Weight](https://leetcode.com/problems/random-pick-with-weight/)|[src/q_501_550/q0528.cc](../src/q_501_550/q0528.cc)|2022/07/26 19:19|
 |530|[Minimum Absolute Difference in BST](https://leetcode.com/problems/minimum-absolute-difference-in-bst/)|[src/q_501_550/q0530.cc](../src/q_501_550/q0530.cc)|2022/11/25 10:52|
