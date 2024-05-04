@@ -3122,3 +3122,15 @@ id,backend_id,title,level,slug,paid
 3121,3405,Count the Number of Special Characters II,2,count-the-number-of-special-characters-ii,0
 3122,3404,Minimum Number of Operations to Satisfy Conditions,2,minimum-number-of-operations-to-satisfy-conditions,0
 3123,3386,Find Edges in Shortest Paths,3,find-edges-in-shortest-paths,0
+3124,3432,Find Longest Calls,2,find-longest-calls,1
+3125,3433,Maximum Number That Makes Result of Bitwise AND Zero,2,maximum-number-that-makes-result-of-bitwise-and-zero,1
+3126,3440,Server Utilization Time,2,server-utilization-time,1
+3127,3398,Make a Square with the Same Color,1,make-a-square-with-the-same-color,0
+3128,3388,Right Triangles,2,right-triangles,0
+3129,3406,Find All Possible Stable Binary Arrays I,2,find-all-possible-stable-binary-arrays-i,0
+3130,3407,Find All Possible Stable Binary Arrays II,3,find-all-possible-stable-binary-arrays-ii,0
+3131,3397,Find the Integer Added to Array I,1,find-the-integer-added-to-array-i,0
+3132,3399,Find the Integer Added to Array II,2,find-the-integer-added-to-array-ii,0
+3133,3394,Minimum Array End,2,minimum-array-end,0
+3134,3362,Find the Median of the Uniqueness Array,3,find-the-median-of-the-uniqueness-array,0
+3135,3441,Equalize Strings by Adding or Removing Characters at Ends,2,equalize-strings-by-adding-or-removing-characters-at-ends,1

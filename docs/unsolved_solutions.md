@@ -1,6 +1,6 @@
 # Unsolved Solutions List
 
-There are **1798** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
+There are **1810** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
 
 The questions which have been solved are not shown in this page, more information about solved questions can be found at [docs/solved_solutions.md](./solved_solutions.md).
 
@@ -1805,3 +1805,15 @@ The questions which have been solved are not shown in this page, more informatio
 |3121|[Count the Number of Special Characters II](https://leetcode.com/problems/count-the-number-of-special-characters-ii/)|Medium||
 |3122|[Minimum Number of Operations to Satisfy Conditions](https://leetcode.com/problems/minimum-number-of-operations-to-satisfy-conditions/)|Medium||
 |3123|[Find Edges in Shortest Paths](https://leetcode.com/problems/find-edges-in-shortest-paths/)|Hard||
+|3124|[Find Longest Calls](https://leetcode.com/problems/find-longest-calls/)|Medium|🔒|
+|3125|[Maximum Number That Makes Result of Bitwise AND Zero](https://leetcode.com/problems/maximum-number-that-makes-result-of-bitwise-and-zero/)|Medium|🔒|
+|3126|[Server Utilization Time](https://leetcode.com/problems/server-utilization-time/)|Medium|🔒|
+|3127|[Make a Square with the Same Color](https://leetcode.com/problems/make-a-square-with-the-same-color/)|Easy||
+|3128|[Right Triangles](https://leetcode.com/problems/right-triangles/)|Medium||
+|3129|[Find All Possible Stable Binary Arrays I](https://leetcode.com/problems/find-all-possible-stable-binary-arrays-i/)|Medium||
+|3130|[Find All Possible Stable Binary Arrays II](https://leetcode.com/problems/find-all-possible-stable-binary-arrays-ii/)|Hard||
+|3131|[Find the Integer Added to Array I](https://leetcode.com/problems/find-the-integer-added-to-array-i/)|Easy||
+|3132|[Find the Integer Added to Array II](https://leetcode.com/problems/find-the-integer-added-to-array-ii/)|Medium||
+|3133|[Minimum Array End](https://leetcode.com/problems/minimum-array-end/)|Medium||
+|3134|[Find the Median of the Uniqueness Array](https://leetcode.com/problems/find-the-median-of-the-uniqueness-array/)|Hard||
+|3135|[Equalize Strings by Adding or Removing Characters at Ends](https://leetcode.com/problems/equalize-strings-by-adding-or-removing-characters-at-ends/)|Medium|🔒|
