@@ -1,6 +1,6 @@
 # Solved Solutions List
 
-This document contains **1325** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
+This document contains **1326** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
 
 Some questions which are still being resolved are not shown in this page, more information about unsolved questions can be found at [docs/unsolved_solutions.md](./unsolved_solutions.md).
 
@@ -1332,3 +1332,4 @@ Some questions which are still being resolved are not shown in this page, more i
 |3110|[Score of a String](https://leetcode.com/problems/score-of-a-string/)|[src/q_3101_3150/q3110.cc](../src/q_3101_3150/q3110.cc)|2024/04/14 10:35|
 |3114|[Latest Time You Can Obtain After Replacing Characters](https://leetcode.com/problems/latest-time-you-can-obtain-after-replacing-characters/)|[src/q_3101_3150/q3114.cc](../src/q_3101_3150/q3114.cc)|2024/04/15 21:28|
 |3120|[Count the Number of Special Characters I](https://leetcode.com/problems/count-the-number-of-special-characters-i/)|[src/q_3101_3150/q3120.cc](../src/q_3101_3150/q3120.cc)|2024/05/01 18:47|
+|3127|[Make a Square with the Same Color](https://leetcode.com/problems/make-a-square-with-the-same-color/)|[src/q_3101_3150/q3127.cc](../src/q_3101_3150/q3127.cc)|2024/05/04 14:14|

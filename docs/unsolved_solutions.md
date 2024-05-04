@@ -1,6 +1,6 @@
 # Unsolved Solutions List
 
-There are **1810** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
+There are **1809** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
 
 The questions which have been solved are not shown in this page, more information about solved questions can be found at [docs/solved_solutions.md](./solved_solutions.md).
 
@@ -1808,7 +1808,6 @@ The questions which have been solved are not shown in this page, more informatio
 |3124|[Find Longest Calls](https://leetcode.com/problems/find-longest-calls/)|Medium|🔒|
 |3125|[Maximum Number That Makes Result of Bitwise AND Zero](https://leetcode.com/problems/maximum-number-that-makes-result-of-bitwise-and-zero/)|Medium|🔒|
 |3126|[Server Utilization Time](https://leetcode.com/problems/server-utilization-time/)|Medium|🔒|
-|3127|[Make a Square with the Same Color](https://leetcode.com/problems/make-a-square-with-the-same-color/)|Easy||
 |3128|[Right Triangles](https://leetcode.com/problems/right-triangles/)|Medium||
 |3129|[Find All Possible Stable Binary Arrays I](https://leetcode.com/problems/find-all-possible-stable-binary-arrays-i/)|Medium||
 |3130|[Find All Possible Stable Binary Arrays II](https://leetcode.com/problems/find-all-possible-stable-binary-arrays-ii/)|Hard||
