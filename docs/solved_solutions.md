@@ -1,6 +1,6 @@
 # Solved Solutions List
 
-This document contains **1326** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
+This document contains **1327** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
 
 Some questions which are still being resolved are not shown in this page, more information about unsolved questions can be found at [docs/unsolved_solutions.md](./unsolved_solutions.md).
 
@@ -214,6 +214,7 @@ Some questions which are still being resolved are not shown in this page, more i
 |234|[Palindrome Linked List](https://leetcode.com/problems/palindrome-linked-list/)|[src/q_201_250/q0234.cc](../src/q_201_250/q0234.cc)|2022/08/23 18:07|
 |235|[Lowest Common Ancestor of a Binary Search Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/)|[src/q_201_250/q0235.cc](../src/q_201_250/q0235.cc)|2021/09/18 08:00|
 |236|[Lowest Common Ancestor of a Binary Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/)|[src/q_201_250/q0236.cc](../src/q_201_250/q0236.cc)|2021/10/06 13:27|
+|237|[Delete Node in a Linked List](https://leetcode.com/problems/delete-node-in-a-linked-list/)|[src/q_201_250/q0237.cc](../src/q_201_250/q0237.cc)|2024/05/05 12:39|
 |238|[Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/)|[src/q_201_250/q0238.cc](../src/q_201_250/q0238.cc)|2021/09/23 08:00|
 |239|[Sliding Window Maximum](https://leetcode.com/problems/sliding-window-maximum/)|[src/q_201_250/q0239.cc](../src/q_201_250/q0239.cc)|2023/08/16 11:52|
 |240|[Search a 2D Matrix II](https://leetcode.com/problems/search-a-2d-matrix-ii/)|[src/q_201_250/q0240.cc](../src/q_201_250/q0240.cc)|2021/09/22 08:00|
