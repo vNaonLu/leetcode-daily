@@ -1,6 +1,6 @@
 # Solved Solutions List
 
-This document contains **1328** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
+This document contains **1329** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
 
 Some questions which are still being resolved are not shown in this page, more information about unsolved questions can be found at [docs/unsolved_solutions.md](./unsolved_solutions.md).
 
@@ -1272,6 +1272,7 @@ Some questions which are still being resolved are not shown in this page, more i
 |2806|[Account Balance After Rounded Purchase](https://leetcode.com/problems/account-balance-after-rounded-purchase/)|[src/q_2801_2850/q2806.cc](../src/q_2801_2850/q2806.cc)|2024/01/07 14:52|
 |2810|[Faulty Keyboard](https://leetcode.com/problems/faulty-keyboard/)|[src/q_2801_2850/q2810.cc](../src/q_2801_2850/q2810.cc)|2024/01/08 20:45|
 |2815|[Max Pair Sum in an Array](https://leetcode.com/problems/max-pair-sum-in-an-array/)|[src/q_2801_2850/q2815.cc](../src/q_2801_2850/q2815.cc)|2024/01/09 21:07|
+|2816|[Double a Number Represented as a Linked List](https://leetcode.com/problems/double-a-number-represented-as-a-linked-list/)|[src/q_2801_2850/q2816.cc](../src/q_2801_2850/q2816.cc)|2024/05/07 22:48|
 |2824|[Count Pairs Whose Sum is Less than Target](https://leetcode.com/problems/count-pairs-whose-sum-is-less-than-target/)|[src/q_2801_2850/q2824.cc](../src/q_2801_2850/q2824.cc)|2024/01/11 22:54|
 |2828|[Check if a String Is an Acronym of Words](https://leetcode.com/problems/check-if-a-string-is-an-acronym-of-words/)|[src/q_2801_2850/q2828.cc](../src/q_2801_2850/q2828.cc)|2024/01/12 21:58|
 |2833|[Furthest Point From Origin](https://leetcode.com/problems/furthest-point-from-origin/)|[src/q_2801_2850/q2833.cc](../src/q_2801_2850/q2833.cc)|2024/01/14 12:35|
