@@ -1320,3 +1320,10 @@ timestamp,id,tc,sc,notes
 1714209630,514,-,-,not calculated
 1714286492,834,-,-,not calculated
 1714396833,2997,n,1,n = |nums.size()|
+1714491897,1915,n,1,n = |word.size()|
+1714560438,3120,n,1,n = |word.size()|
+1714660404,524,m * n * log(m),1,"n = |dictionary.size()|, m = |s.size()|"
+1714739719,526,-,-,not calculated
+1714803281,3127,1,1,
+1714883986,237,1,1,
+1715004425,2487,n,n,n = count of |head|

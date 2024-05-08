@@ -1,6 +1,6 @@
 # Unsolved Solutions List
 
-There are **1802** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
+There are **1807** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
 
 The questions which have been solved are not shown in this page, more information about solved questions can be found at [docs/solved_solutions.md](./solved_solutions.md).
 
@@ -36,7 +36,6 @@ The questions which have been solved are not shown in this page, more informatio
 |197|[Rising Temperature](https://leetcode.com/problems/rising-temperature/)|Easy||
 |204|[Count Primes](https://leetcode.com/problems/count-primes/)|Medium||
 |233|[Number of Digit One](https://leetcode.com/problems/number-of-digit-one/)|Hard||
-|237|[Delete Node in a Linked List](https://leetcode.com/problems/delete-node-in-a-linked-list/)|Medium||
 |243|[Shortest Word Distance](https://leetcode.com/problems/shortest-word-distance/)|Easy|🔒|
 |244|[Shortest Word Distance II](https://leetcode.com/problems/shortest-word-distance-ii/)|Medium|🔒|
 |245|[Shortest Word Distance III](https://leetcode.com/problems/shortest-word-distance-iii/)|Medium|🔒|
@@ -146,8 +145,6 @@ The questions which have been solved are not shown in this page, more informatio
 |517|[Super Washing Machines](https://leetcode.com/problems/super-washing-machines/)|Hard||
 |519|[Random Flip Matrix](https://leetcode.com/problems/random-flip-matrix/)|Medium||
 |522|[Longest Uncommon Subsequence II](https://leetcode.com/problems/longest-uncommon-subsequence-ii/)|Medium||
-|524|[Longest Word in Dictionary through Deleting](https://leetcode.com/problems/longest-word-in-dictionary-through-deleting/)|Medium||
-|526|[Beautiful Arrangement](https://leetcode.com/problems/beautiful-arrangement/)|Medium||
 |527|[Word Abbreviation](https://leetcode.com/problems/word-abbreviation/)|Hard|🔒|
 |529|[Minesweeper](https://leetcode.com/problems/minesweeper/)|Medium||
 |531|[Lonely Pixel I](https://leetcode.com/problems/lonely-pixel-i/)|Medium|🔒|
@@ -917,7 +914,6 @@ The questions which have been solved are not shown in this page, more informatio
 |1911|[Maximum Alternating Subsequence Sum](https://leetcode.com/problems/maximum-alternating-subsequence-sum/)|Medium||
 |1912|[Design Movie Rental System](https://leetcode.com/problems/design-movie-rental-system/)|Hard||
 |1914|[Cyclically Rotating a Grid](https://leetcode.com/problems/cyclically-rotating-a-grid/)|Medium||
-|1915|[Number of Wonderful Substrings](https://leetcode.com/problems/number-of-wonderful-substrings/)|Medium||
 |1916|[Count Ways to Build Rooms in an Ant Colony](https://leetcode.com/problems/count-ways-to-build-rooms-in-an-ant-colony/)|Hard||
 |1917|[Leetcodify Friends Recommendations](https://leetcode.com/problems/leetcodify-friends-recommendations/)|Hard|🔒|
 |1918|[Kth Smallest Subarray Sum](https://leetcode.com/problems/kth-smallest-subarray-sum/)|Medium|🔒|
@@ -1302,7 +1298,6 @@ The questions which have been solved are not shown in this page, more informatio
 |2480|[Form a Chemical Bond](https://leetcode.com/problems/form-a-chemical-bond/)|Easy|🔒|
 |2484|[Count Palindromic Subsequences](https://leetcode.com/problems/count-palindromic-subsequences/)|Hard||
 |2486|[Append Characters to String to Make Subsequence](https://leetcode.com/problems/append-characters-to-string-to-make-subsequence/)|Medium||
-|2487|[Remove Nodes From Linked List](https://leetcode.com/problems/remove-nodes-from-linked-list/)|Medium||
 |2488|[Count Subarrays With Median K](https://leetcode.com/problems/count-subarrays-with-median-k/)|Hard||
 |2489|[Number of Substrings With Fixed Ratio](https://leetcode.com/problems/number-of-substrings-with-fixed-ratio/)|Medium|🔒|
 |2491|[Divide Players Into Teams of Equal Skill](https://leetcode.com/problems/divide-players-into-teams-of-equal-skill/)|Medium||
@@ -1805,7 +1800,17 @@ The questions which have been solved are not shown in this page, more informatio
 |3117|[Minimum Sum of Values by Dividing Array](https://leetcode.com/problems/minimum-sum-of-values-by-dividing-array/)|Hard||
 |3118|[Friday Purchase III ](https://leetcode.com/problems/friday-purchase-iii/)|Medium|🔒|
 |3119|[Maximum Number of Potholes That Can Be Fixed](https://leetcode.com/problems/maximum-number-of-potholes-that-can-be-fixed/)|Medium|🔒|
-|3120|[Count the Number of Special Characters I](https://leetcode.com/problems/count-the-number-of-special-characters-i/)|Easy||
 |3121|[Count the Number of Special Characters II](https://leetcode.com/problems/count-the-number-of-special-characters-ii/)|Medium||
 |3122|[Minimum Number of Operations to Satisfy Conditions](https://leetcode.com/problems/minimum-number-of-operations-to-satisfy-conditions/)|Medium||
 |3123|[Find Edges in Shortest Paths](https://leetcode.com/problems/find-edges-in-shortest-paths/)|Hard||
+|3124|[Find Longest Calls](https://leetcode.com/problems/find-longest-calls/)|Medium|🔒|
+|3125|[Maximum Number That Makes Result of Bitwise AND Zero](https://leetcode.com/problems/maximum-number-that-makes-result-of-bitwise-and-zero/)|Medium|🔒|
+|3126|[Server Utilization Time](https://leetcode.com/problems/server-utilization-time/)|Medium|🔒|
+|3128|[Right Triangles](https://leetcode.com/problems/right-triangles/)|Medium||
+|3129|[Find All Possible Stable Binary Arrays I](https://leetcode.com/problems/find-all-possible-stable-binary-arrays-i/)|Medium||
+|3130|[Find All Possible Stable Binary Arrays II](https://leetcode.com/problems/find-all-possible-stable-binary-arrays-ii/)|Hard||
+|3131|[Find the Integer Added to Array I](https://leetcode.com/problems/find-the-integer-added-to-array-i/)|Easy||
+|3132|[Find the Integer Added to Array II](https://leetcode.com/problems/find-the-integer-added-to-array-ii/)|Medium||
+|3133|[Minimum Array End](https://leetcode.com/problems/minimum-array-end/)|Medium||
+|3134|[Find the Median of the Uniqueness Array](https://leetcode.com/problems/find-the-median-of-the-uniqueness-array/)|Hard||
+|3135|[Equalize Strings by Adding or Removing Characters at Ends](https://leetcode.com/problems/equalize-strings-by-adding-or-removing-characters-at-ends/)|Medium|🔒|
