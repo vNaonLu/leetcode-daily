@@ -1,6 +1,6 @@
 # Unsolved Solutions List
 
-There are **1804** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
+There are **1803** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
 
 The questions which have been solved are not shown in this page, more information about solved questions can be found at [docs/solved_solutions.md](./solved_solutions.md).
 
@@ -282,7 +282,6 @@ The questions which have been solved are not shown in this page, more informatio
 |778|[Swim in Rising Water](https://leetcode.com/problems/swim-in-rising-water/)|Hard||
 |780|[Reaching Points](https://leetcode.com/problems/reaching-points/)|Hard||
 |781|[Rabbits in Forest](https://leetcode.com/problems/rabbits-in-forest/)|Medium||
-|786|[K-th Smallest Prime Fraction](https://leetcode.com/problems/k-th-smallest-prime-fraction/)|Medium||
 |788|[Rotated Digits](https://leetcode.com/problems/rotated-digits/)|Medium||
 |789|[Escape The Ghosts](https://leetcode.com/problems/escape-the-ghosts/)|Medium||
 |793|[Preimage Size of Factorial Zeroes Function](https://leetcode.com/problems/preimage-size-of-factorial-zeroes-function/)|Hard||
