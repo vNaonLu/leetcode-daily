@@ -1,6 +1,6 @@
 # Unsolved Solutions List
 
-There are **1803** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
+There are **1802** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
 
 The questions which have been solved are not shown in this page, more information about solved questions can be found at [docs/solved_solutions.md](./solved_solutions.md).
 
@@ -315,7 +315,6 @@ The questions which have been solved are not shown in this page, more informatio
 |853|[Car Fleet](https://leetcode.com/problems/car-fleet/)|Medium||
 |854|[K-Similar Strings](https://leetcode.com/problems/k-similar-strings/)|Hard||
 |855|[Exam Room](https://leetcode.com/problems/exam-room/)|Medium||
-|857|[Minimum Cost to Hire K Workers](https://leetcode.com/problems/minimum-cost-to-hire-k-workers/)|Hard||
 |861|[Score After Flipping Matrix](https://leetcode.com/problems/score-after-flipping-matrix/)|Medium||
 |865|[Smallest Subtree with all the Deepest Nodes](https://leetcode.com/problems/smallest-subtree-with-all-the-deepest-nodes/)|Medium||
 |866|[Prime Palindrome](https://leetcode.com/problems/prime-palindrome/)|Medium||

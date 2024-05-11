@@ -1,6 +1,6 @@
 # Solved Solutions List
 
-This document contains **1332** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
+This document contains **1333** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
 
 Some questions which are still being resolved are not shown in this page, more information about unsolved questions can be found at [docs/unsolved_solutions.md](./unsolved_solutions.md).
 
@@ -555,6 +555,7 @@ Some questions which are still being resolved are not shown in this page, more i
 |849|[Maximize Distance to Closest Person](https://leetcode.com/problems/maximize-distance-to-closest-person/)|[src/q_801_850/q0849.cc](../src/q_801_850/q0849.cc)|2022/01/16 15:14|
 |852|[Peak Index in a Mountain Array](https://leetcode.com/problems/peak-index-in-a-mountain-array/)|[src/q_851_900/q0852.cc](../src/q_851_900/q0852.cc)|2021/10/13 13:21|
 |856|[Score of Parentheses](https://leetcode.com/problems/score-of-parentheses/)|[src/q_851_900/q0856.cc](../src/q_851_900/q0856.cc)|2022/03/17 18:08|
+|857|[Minimum Cost to Hire K Workers](https://leetcode.com/problems/minimum-cost-to-hire-k-workers/)|[src/q_851_900/q0857.cc](../src/q_851_900/q0857.cc)|2024/05/11 14:29|
 |858|[Mirror Reflection](https://leetcode.com/problems/mirror-reflection/)|[src/q_851_900/q0858.cc](../src/q_851_900/q0858.cc)|2022/08/04 18:31|
 |859|[Buddy Strings](https://leetcode.com/problems/buddy-strings/)|[src/q_851_900/q0859.cc](../src/q_851_900/q0859.cc)|2022/11/21 20:19|
 |860|[Lemonade Change](https://leetcode.com/problems/lemonade-change/)|[src/q_851_900/q0860.cc](../src/q_851_900/q0860.cc)|2022/05/12 18:11|
