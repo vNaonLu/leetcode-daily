@@ -3134,3 +3134,17 @@ id,backend_id,title,level,slug,paid
 3133,3394,Minimum Array End,2,minimum-array-end,0
 3134,3362,Find the Median of the Uniqueness Array,3,find-the-median-of-the-uniqueness-array,0
 3135,3441,Equalize Strings by Adding or Removing Characters at Ends,2,equalize-strings-by-adding-or-removing-characters-at-ends,1
+3136,3396,Valid Word,1,valid-word,0
+3137,3384,Minimum Number of Operations to Make Word K-Periodic,2,minimum-number-of-operations-to-make-word-k-periodic,0
+3138,3395,Minimum Length of Anagram Concatenation,2,minimum-length-of-anagram-concatenation,0
+3139,3402,Minimum Cost to Equalize Array,3,minimum-cost-to-equalize-array,0
+3140,3448,Consecutive Available Seats II,2,consecutive-available-seats-ii,1
+3141,3449,Maximum Hamming Distances,3,maximum-hamming-distances,1
+3142,3415,Check if Grid Satisfies Conditions,1,check-if-grid-satisfies-conditions,0
+3143,3419,Maximum Points Inside the Square,2,maximum-points-inside-the-square,0
+3144,3403,Minimum Substring Partition of Equal Character Frequency,2,minimum-substring-partition-of-equal-character-frequency,0
+3145,3411,Find Products of Elements of Big Array,3,find-products-of-elements-of-big-array,0
+3146,3412,Permutation Difference between Two Strings,1,permutation-difference-between-two-strings,0
+3147,3383,Taking Maximum Energy From the Mystic Dungeon,2,taking-maximum-energy-from-the-mystic-dungeon,0
+3148,3391,Maximum Difference Score in a Grid,2,maximum-difference-score-in-a-grid,0
+3149,3431,Find the Minimum Cost Array Permutation,3,find-the-minimum-cost-array-permutation,0

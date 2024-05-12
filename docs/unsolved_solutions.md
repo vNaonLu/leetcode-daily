@@ -1,6 +1,6 @@
 # Unsolved Solutions List
 
-There are **1802** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
+There are **1816** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
 
 The questions which have been solved are not shown in this page, more information about solved questions can be found at [docs/solved_solutions.md](./solved_solutions.md).
 
@@ -1809,3 +1809,17 @@ The questions which have been solved are not shown in this page, more informatio
 |3133|[Minimum Array End](https://leetcode.com/problems/minimum-array-end/)|Medium||
 |3134|[Find the Median of the Uniqueness Array](https://leetcode.com/problems/find-the-median-of-the-uniqueness-array/)|Hard||
 |3135|[Equalize Strings by Adding or Removing Characters at Ends](https://leetcode.com/problems/equalize-strings-by-adding-or-removing-characters-at-ends/)|Medium|🔒|
+|3136|[Valid Word](https://leetcode.com/problems/valid-word/)|Easy||
+|3137|[Minimum Number of Operations to Make Word K-Periodic](https://leetcode.com/problems/minimum-number-of-operations-to-make-word-k-periodic/)|Medium||
+|3138|[Minimum Length of Anagram Concatenation](https://leetcode.com/problems/minimum-length-of-anagram-concatenation/)|Medium||
+|3139|[Minimum Cost to Equalize Array](https://leetcode.com/problems/minimum-cost-to-equalize-array/)|Hard||
+|3140|[Consecutive Available Seats II](https://leetcode.com/problems/consecutive-available-seats-ii/)|Medium|🔒|
+|3141|[Maximum Hamming Distances](https://leetcode.com/problems/maximum-hamming-distances/)|Hard|🔒|
+|3142|[Check if Grid Satisfies Conditions](https://leetcode.com/problems/check-if-grid-satisfies-conditions/)|Easy||
+|3143|[Maximum Points Inside the Square](https://leetcode.com/problems/maximum-points-inside-the-square/)|Medium||
+|3144|[Minimum Substring Partition of Equal Character Frequency](https://leetcode.com/problems/minimum-substring-partition-of-equal-character-frequency/)|Medium||
+|3145|[Find Products of Elements of Big Array](https://leetcode.com/problems/find-products-of-elements-of-big-array/)|Hard||
+|3146|[Permutation Difference between Two Strings](https://leetcode.com/problems/permutation-difference-between-two-strings/)|Easy||
+|3147|[Taking Maximum Energy From the Mystic Dungeon](https://leetcode.com/problems/taking-maximum-energy-from-the-mystic-dungeon/)|Medium||
+|3148|[Maximum Difference Score in a Grid](https://leetcode.com/problems/maximum-difference-score-in-a-grid/)|Medium||
+|3149|[Find the Minimum Cost Array Permutation](https://leetcode.com/problems/find-the-minimum-cost-array-permutation/)|Hard||
