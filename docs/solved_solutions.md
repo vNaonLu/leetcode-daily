@@ -1,6 +1,6 @@
 # Solved Solutions List
 
-This document contains **1334** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
+This document contains **1335** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
 
 Some questions which are still being resolved are not shown in this page, more information about unsolved questions can be found at [docs/unsolved_solutions.md](./unsolved_solutions.md).
 
@@ -559,6 +559,7 @@ Some questions which are still being resolved are not shown in this page, more i
 |858|[Mirror Reflection](https://leetcode.com/problems/mirror-reflection/)|[src/q_851_900/q0858.cc](../src/q_851_900/q0858.cc)|2022/08/04 18:31|
 |859|[Buddy Strings](https://leetcode.com/problems/buddy-strings/)|[src/q_851_900/q0859.cc](../src/q_851_900/q0859.cc)|2022/11/21 20:19|
 |860|[Lemonade Change](https://leetcode.com/problems/lemonade-change/)|[src/q_851_900/q0860.cc](../src/q_851_900/q0860.cc)|2022/05/12 18:11|
+|861|[Score After Flipping Matrix](https://leetcode.com/problems/score-after-flipping-matrix/)|[src/q_851_900/q0861.cc](../src/q_851_900/q0861.cc)|2024/05/13 19:41|
 |862|[Shortest Subarray with Sum at Least K](https://leetcode.com/problems/shortest-subarray-with-sum-at-least-k/)|[src/q_851_900/q0862.cc](../src/q_851_900/q0862.cc)|2022/02/21 22:34|
 |863|[All Nodes Distance K in Binary Tree](https://leetcode.com/problems/all-nodes-distance-k-in-binary-tree/)|[src/q_851_900/q0863.cc](../src/q_851_900/q0863.cc)|2023/07/11 21:17|
 |864|[Shortest Path to Get All Keys](https://leetcode.com/problems/shortest-path-to-get-all-keys/)|[src/q_851_900/q0864.cc](../src/q_851_900/q0864.cc)|2023/06/29 20:21|
