@@ -1,6 +1,6 @@
 # Solved Solutions List
 
-This document contains **1335** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
+This document contains **1336** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
 
 Some questions which are still being resolved are not shown in this page, more information about unsolved questions can be found at [docs/unsolved_solutions.md](./unsolved_solutions.md).
 
@@ -728,6 +728,7 @@ Some questions which are still being resolved are not shown in this page, more i
 |1209|[Remove All Adjacent Duplicates in String II](https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string-ii/)|[src/q_1201_1250/q1209.cc](../src/q_1201_1250/q1209.cc)|2022/05/06 18:29|
 |1217|[Minimum Cost to Move Chips to The Same Position](https://leetcode.com/problems/minimum-cost-to-move-chips-to-the-same-position/)|[src/q_1201_1250/q1217.cc](../src/q_1201_1250/q1217.cc)|2021/12/06 18:16|
 |1218|[Longest Arithmetic Subsequence of Given Difference](https://leetcode.com/problems/longest-arithmetic-subsequence-of-given-difference/)|[src/q_1201_1250/q1218.cc](../src/q_1201_1250/q1218.cc)|2023/07/14 15:33|
+|1219|[Path with Maximum Gold](https://leetcode.com/problems/path-with-maximum-gold/)|[src/q_1201_1250/q1219.cc](../src/q_1201_1250/q1219.cc)|2024/05/14 23:29|
 |1220|[Count Vowels Permutation](https://leetcode.com/problems/count-vowels-permutation/)|[src/q_1201_1250/q1220.cc](../src/q_1201_1250/q1220.cc)|2022/08/07 13:07|
 |1221|[Split a String in Balanced Strings](https://leetcode.com/problems/split-a-string-in-balanced-strings/)|[src/q_1201_1250/q1221.cc](../src/q_1201_1250/q1221.cc)|2021/11/11 21:34|
 |1232|[Check If It Is a Straight Line](https://leetcode.com/problems/check-if-it-is-a-straight-line/)|[src/q_1201_1250/q1232.cc](../src/q_1201_1250/q1232.cc)|2022/04/18 18:21|
