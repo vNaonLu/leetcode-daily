@@ -1,6 +1,6 @@
 # Unsolved Solutions List
 
-There are **1807** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
+There are **1814** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
 
 The questions which have been solved are not shown in this page, more information about solved questions can be found at [docs/solved_solutions.md](./solved_solutions.md).
 
@@ -282,7 +282,6 @@ The questions which have been solved are not shown in this page, more informatio
 |778|[Swim in Rising Water](https://leetcode.com/problems/swim-in-rising-water/)|Hard||
 |780|[Reaching Points](https://leetcode.com/problems/reaching-points/)|Hard||
 |781|[Rabbits in Forest](https://leetcode.com/problems/rabbits-in-forest/)|Medium||
-|786|[K-th Smallest Prime Fraction](https://leetcode.com/problems/k-th-smallest-prime-fraction/)|Medium||
 |788|[Rotated Digits](https://leetcode.com/problems/rotated-digits/)|Medium||
 |789|[Escape The Ghosts](https://leetcode.com/problems/escape-the-ghosts/)|Medium||
 |793|[Preimage Size of Factorial Zeroes Function](https://leetcode.com/problems/preimage-size-of-factorial-zeroes-function/)|Hard||
@@ -316,8 +315,6 @@ The questions which have been solved are not shown in this page, more informatio
 |853|[Car Fleet](https://leetcode.com/problems/car-fleet/)|Medium||
 |854|[K-Similar Strings](https://leetcode.com/problems/k-similar-strings/)|Hard||
 |855|[Exam Room](https://leetcode.com/problems/exam-room/)|Medium||
-|857|[Minimum Cost to Hire K Workers](https://leetcode.com/problems/minimum-cost-to-hire-k-workers/)|Hard||
-|861|[Score After Flipping Matrix](https://leetcode.com/problems/score-after-flipping-matrix/)|Medium||
 |865|[Smallest Subtree with all the Deepest Nodes](https://leetcode.com/problems/smallest-subtree-with-all-the-deepest-nodes/)|Medium||
 |866|[Prime Palindrome](https://leetcode.com/problems/prime-palindrome/)|Medium||
 |870|[Advantage Shuffle](https://leetcode.com/problems/advantage-shuffle/)|Medium||
@@ -1557,7 +1554,6 @@ The questions which have been solved are not shown in this page, more informatio
 |2812|[Find the Safest Path in a Grid](https://leetcode.com/problems/find-the-safest-path-in-a-grid/)|Medium||
 |2813|[Maximum Elegance of a K-Length Subsequence](https://leetcode.com/problems/maximum-elegance-of-a-k-length-subsequence/)|Hard||
 |2814|[Minimum Time Takes to Reach Destination Without Drowning](https://leetcode.com/problems/minimum-time-takes-to-reach-destination-without-drowning/)|Hard|🔒|
-|2816|[Double a Number Represented as a Linked List](https://leetcode.com/problems/double-a-number-represented-as-a-linked-list/)|Medium||
 |2817|[Minimum Absolute Difference Between Elements With Constraint](https://leetcode.com/problems/minimum-absolute-difference-between-elements-with-constraint/)|Medium||
 |2818|[Apply Operations to Maximize Score](https://leetcode.com/problems/apply-operations-to-maximize-score/)|Hard||
 |2819|[Minimum Relative Loss After Buying Chocolates](https://leetcode.com/problems/minimum-relative-loss-after-buying-chocolates/)|Hard|🔒|
@@ -1763,7 +1759,6 @@ The questions which have been solved are not shown in this page, more informatio
 |3071|[Minimum Operations to Write the Letter Y on a Grid](https://leetcode.com/problems/minimum-operations-to-write-the-letter-y-on-a-grid/)|Medium||
 |3072|[Distribute Elements Into Two Arrays II](https://leetcode.com/problems/distribute-elements-into-two-arrays-ii/)|Hard||
 |3073|[Maximum Increasing Triplet Value](https://leetcode.com/problems/maximum-increasing-triplet-value/)|Medium|🔒|
-|3075|[Maximize Happiness of Selected Children](https://leetcode.com/problems/maximize-happiness-of-selected-children/)|Medium||
 |3076|[Shortest Uncommon Substring in an Array](https://leetcode.com/problems/shortest-uncommon-substring-in-an-array/)|Medium||
 |3077|[Maximum Strength of K Disjoint Subarrays](https://leetcode.com/problems/maximum-strength-of-k-disjoint-subarrays/)|Hard||
 |3078|[Match Alphanumerical Pattern in Matrix I](https://leetcode.com/problems/match-alphanumerical-pattern-in-matrix-i/)|Medium|🔒|
@@ -1809,8 +1804,20 @@ The questions which have been solved are not shown in this page, more informatio
 |3128|[Right Triangles](https://leetcode.com/problems/right-triangles/)|Medium||
 |3129|[Find All Possible Stable Binary Arrays I](https://leetcode.com/problems/find-all-possible-stable-binary-arrays-i/)|Medium||
 |3130|[Find All Possible Stable Binary Arrays II](https://leetcode.com/problems/find-all-possible-stable-binary-arrays-ii/)|Hard||
-|3131|[Find the Integer Added to Array I](https://leetcode.com/problems/find-the-integer-added-to-array-i/)|Easy||
 |3132|[Find the Integer Added to Array II](https://leetcode.com/problems/find-the-integer-added-to-array-ii/)|Medium||
 |3133|[Minimum Array End](https://leetcode.com/problems/minimum-array-end/)|Medium||
 |3134|[Find the Median of the Uniqueness Array](https://leetcode.com/problems/find-the-median-of-the-uniqueness-array/)|Hard||
 |3135|[Equalize Strings by Adding or Removing Characters at Ends](https://leetcode.com/problems/equalize-strings-by-adding-or-removing-characters-at-ends/)|Medium|🔒|
+|3137|[Minimum Number of Operations to Make Word K-Periodic](https://leetcode.com/problems/minimum-number-of-operations-to-make-word-k-periodic/)|Medium||
+|3138|[Minimum Length of Anagram Concatenation](https://leetcode.com/problems/minimum-length-of-anagram-concatenation/)|Medium||
+|3139|[Minimum Cost to Equalize Array](https://leetcode.com/problems/minimum-cost-to-equalize-array/)|Hard||
+|3140|[Consecutive Available Seats II](https://leetcode.com/problems/consecutive-available-seats-ii/)|Medium|🔒|
+|3141|[Maximum Hamming Distances](https://leetcode.com/problems/maximum-hamming-distances/)|Hard|🔒|
+|3142|[Check if Grid Satisfies Conditions](https://leetcode.com/problems/check-if-grid-satisfies-conditions/)|Easy||
+|3143|[Maximum Points Inside the Square](https://leetcode.com/problems/maximum-points-inside-the-square/)|Medium||
+|3144|[Minimum Substring Partition of Equal Character Frequency](https://leetcode.com/problems/minimum-substring-partition-of-equal-character-frequency/)|Medium||
+|3145|[Find Products of Elements of Big Array](https://leetcode.com/problems/find-products-of-elements-of-big-array/)|Hard||
+|3146|[Permutation Difference between Two Strings](https://leetcode.com/problems/permutation-difference-between-two-strings/)|Easy||
+|3147|[Taking Maximum Energy From the Mystic Dungeon](https://leetcode.com/problems/taking-maximum-energy-from-the-mystic-dungeon/)|Medium||
+|3148|[Maximum Difference Score in a Grid](https://leetcode.com/problems/maximum-difference-score-in-a-grid/)|Medium||
+|3149|[Find the Minimum Cost Array Permutation](https://leetcode.com/problems/find-the-minimum-cost-array-permutation/)|Hard||

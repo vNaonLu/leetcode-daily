@@ -81,13 +81,17 @@ class QuestionContentAnalyzer:
         example_regex = f"<(?:pre|div)[^>]*>(?:[\w\W]*?)(?:{NESTED_INPUT_REGEX}|{INPUT_REGEX})(?:{NESTED_OUTPUT_REGEX}|{OUTPUT_REGEX})(?:{NESTED_EXPLAN_REGEX}|{EXPLAN_REGEX})?<\/(?:pre|div)>"
         LOG.funcVerbose("find examples section: {}", mat.group(1))
         LOG.funcVerbose("parse the examples items with regex: {}", example_regex)
-        for item in regex.findall(example_regex, mat.group(1)):
-            LOG.funcVerbose("example found: {}", item)
-            example = _QuestionContentInformation._QuestionExample()
-            example.input = parseHtml(str(item[0] or item[1]).strip(), show_raw_data=True)
-            example.output = parseHtml(str(item[2] or item[3]).strip(), show_raw_data=True)
-            example.explanation = parseHtml(str(item[4]).strip())
-            result.examples.append(example)
+        try:
+            for item in regex.findall(example_regex, mat.group(1)):
+                LOG.funcVerbose("example found: {}", item)
+                example = _QuestionContentInformation._QuestionExample()
+                example.input = parseHtml(str(item[0] or item[1]).strip(), show_raw_data=True)
+                example.output = parseHtml(str(item[2] or item[3]).strip(), show_raw_data=True)
+                example.explanation = parseHtml(str(item[4]).strip())
+                result.examples.append(example)
+        except:
+            LOG.failure("failed to parse example segment.")
+            content = ""
         return content
 
     @staticmethod

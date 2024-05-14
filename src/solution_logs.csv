@@ -1327,3 +1327,10 @@ timestamp,id,tc,sc,notes
 1714803281,3127,1,1,
 1714883986,237,1,1,
 1715004425,2487,n,n,n = count of |head|
+1715093294,2816,n,n,n = nodes of |head|
+1715179844,3131,n,1,n = |nums1.size()|
+1715258591,3075,n * log(n),1,n = |nums.size()|
+1715336260,786,n ^ 2 * log(n),k,n = |arr.size()|
+1715408940,857,n * log(n),n,n = |quality.size()|
+1715494799,3136,n,1,n = |word.size()|
+1715600485,861,n * m,1,"m = |grid.size()|, n = |grid[i].size()|"
