@@ -1,6 +1,6 @@
 # Solved Solutions List
 
-This document contains **1338** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
+This document contains **1339** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
 
 Some questions which are still being resolved are not shown in this page, more information about unsolved questions can be found at [docs/unsolved_solutions.md](./unsolved_solutions.md).
 
@@ -634,6 +634,7 @@ Some questions which are still being resolved are not shown in this page, more i
 |976|[Largest Perimeter Triangle](https://leetcode.com/problems/largest-perimeter-triangle/)|[src/q_951_1000/q0976.cc](../src/q_951_1000/q0976.cc)|2022/04/16 11:12|
 |977|[Squares of a Sorted Array](https://leetcode.com/problems/squares-of-a-sorted-array/)|[src/q_951_1000/q0977.cc](../src/q_951_1000/q0977.cc)|2021/09/06 08:00|
 |978|[Longest Turbulent Subarray](https://leetcode.com/problems/longest-turbulent-subarray/)|[src/q_951_1000/q0978.cc](../src/q_951_1000/q0978.cc)|2021/09/15 08:00|
+|979|[Distribute Coins in Binary Tree](https://leetcode.com/problems/distribute-coins-in-binary-tree/)|[src/q_951_1000/q0979.cc](../src/q_951_1000/q0979.cc)|2024/05/18 14:58|
 |980|[Unique Paths III](https://leetcode.com/problems/unique-paths-iii/)|[src/q_951_1000/q0980.cc](../src/q_951_1000/q0980.cc)|2021/11/02 18:23|
 |981|[Time Based Key-Value Store](https://leetcode.com/problems/time-based-key-value-store/)|[src/q_951_1000/q0981.cc](../src/q_951_1000/q0981.cc)|2022/07/29 18:41|
 |983|[Minimum Cost For Tickets](https://leetcode.com/problems/minimum-cost-for-tickets/)|[src/q_951_1000/q0983.cc](../src/q_951_1000/q0983.cc)|2022/03/11 18:27|
