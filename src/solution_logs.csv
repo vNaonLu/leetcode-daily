@@ -1338,3 +1338,4 @@ timestamp,id,tc,sc,notes
 1715785174,2812,-,-,not calculated
 1715917444,1325,n,n,n = nodes of |root|
 1716015527,979,n,n,n = nodes of |root|
+1716103627,3068,n * log(n),n,n = |nums.size()|
