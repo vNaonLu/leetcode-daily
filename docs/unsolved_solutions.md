@@ -1,6 +1,6 @@
 # Unsolved Solutions List
 
-There are **1816** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
+There are **1815** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
 
 The questions which have been solved are not shown in this page, more information about solved questions can be found at [docs/solved_solutions.md](./solved_solutions.md).
 
@@ -1808,7 +1808,6 @@ The questions which have been solved are not shown in this page, more informatio
 |3139|[Minimum Cost to Equalize Array](https://leetcode.com/problems/minimum-cost-to-equalize-array/)|Hard||
 |3140|[Consecutive Available Seats II](https://leetcode.com/problems/consecutive-available-seats-ii/)|Medium|🔒|
 |3141|[Maximum Hamming Distances](https://leetcode.com/problems/maximum-hamming-distances/)|Hard|🔒|
-|3142|[Check if Grid Satisfies Conditions](https://leetcode.com/problems/check-if-grid-satisfies-conditions/)|Easy||
 |3143|[Maximum Points Inside the Square](https://leetcode.com/problems/maximum-points-inside-the-square/)|Medium||
 |3144|[Minimum Substring Partition of Equal Character Frequency](https://leetcode.com/problems/minimum-substring-partition-of-equal-character-frequency/)|Medium||
 |3145|[Find Products of Elements of Big Array](https://leetcode.com/problems/find-products-of-elements-of-big-array/)|Hard||
