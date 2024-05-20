@@ -1,6 +1,6 @@
 # Solved Solutions List
 
-This document contains **1335** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
+This document contains **1341** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
 
 Some questions which are still being resolved are not shown in this page, more information about unsolved questions can be found at [docs/unsolved_solutions.md](./unsolved_solutions.md).
 
@@ -634,6 +634,7 @@ Some questions which are still being resolved are not shown in this page, more i
 |976|[Largest Perimeter Triangle](https://leetcode.com/problems/largest-perimeter-triangle/)|[src/q_951_1000/q0976.cc](../src/q_951_1000/q0976.cc)|2022/04/16 11:12|
 |977|[Squares of a Sorted Array](https://leetcode.com/problems/squares-of-a-sorted-array/)|[src/q_951_1000/q0977.cc](../src/q_951_1000/q0977.cc)|2021/09/06 08:00|
 |978|[Longest Turbulent Subarray](https://leetcode.com/problems/longest-turbulent-subarray/)|[src/q_951_1000/q0978.cc](../src/q_951_1000/q0978.cc)|2021/09/15 08:00|
+|979|[Distribute Coins in Binary Tree](https://leetcode.com/problems/distribute-coins-in-binary-tree/)|[src/q_951_1000/q0979.cc](../src/q_951_1000/q0979.cc)|2024/05/18 14:58|
 |980|[Unique Paths III](https://leetcode.com/problems/unique-paths-iii/)|[src/q_951_1000/q0980.cc](../src/q_951_1000/q0980.cc)|2021/11/02 18:23|
 |981|[Time Based Key-Value Store](https://leetcode.com/problems/time-based-key-value-store/)|[src/q_951_1000/q0981.cc](../src/q_951_1000/q0981.cc)|2022/07/29 18:41|
 |983|[Minimum Cost For Tickets](https://leetcode.com/problems/minimum-cost-for-tickets/)|[src/q_951_1000/q0983.cc](../src/q_951_1000/q0983.cc)|2022/03/11 18:27|
@@ -728,6 +729,7 @@ Some questions which are still being resolved are not shown in this page, more i
 |1209|[Remove All Adjacent Duplicates in String II](https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string-ii/)|[src/q_1201_1250/q1209.cc](../src/q_1201_1250/q1209.cc)|2022/05/06 18:29|
 |1217|[Minimum Cost to Move Chips to The Same Position](https://leetcode.com/problems/minimum-cost-to-move-chips-to-the-same-position/)|[src/q_1201_1250/q1217.cc](../src/q_1201_1250/q1217.cc)|2021/12/06 18:16|
 |1218|[Longest Arithmetic Subsequence of Given Difference](https://leetcode.com/problems/longest-arithmetic-subsequence-of-given-difference/)|[src/q_1201_1250/q1218.cc](../src/q_1201_1250/q1218.cc)|2023/07/14 15:33|
+|1219|[Path with Maximum Gold](https://leetcode.com/problems/path-with-maximum-gold/)|[src/q_1201_1250/q1219.cc](../src/q_1201_1250/q1219.cc)|2024/05/14 23:29|
 |1220|[Count Vowels Permutation](https://leetcode.com/problems/count-vowels-permutation/)|[src/q_1201_1250/q1220.cc](../src/q_1201_1250/q1220.cc)|2022/08/07 13:07|
 |1221|[Split a String in Balanced Strings](https://leetcode.com/problems/split-a-string-in-balanced-strings/)|[src/q_1201_1250/q1221.cc](../src/q_1201_1250/q1221.cc)|2021/11/11 21:34|
 |1232|[Check If It Is a Straight Line](https://leetcode.com/problems/check-if-it-is-a-straight-line/)|[src/q_1201_1250/q1232.cc](../src/q_1201_1250/q1232.cc)|2022/04/18 18:21|
@@ -768,6 +770,7 @@ Some questions which are still being resolved are not shown in this page, more i
 |1318|[Minimum Flips to Make a OR b Equal to c](https://leetcode.com/problems/minimum-flips-to-make-a-or-b-equal-to-c/)|[src/q_1301_1350/q1318.cc](../src/q_1301_1350/q1318.cc)|2023/06/07 18:59|
 |1319|[Number of Operations to Make Network Connected](https://leetcode.com/problems/number-of-operations-to-make-network-connected/)|[src/q_1301_1350/q1319.cc](../src/q_1301_1350/q1319.cc)|2022/03/17 18:22|
 |1323|[Maximum 69 Number](https://leetcode.com/problems/maximum-69-number/)|[src/q_1301_1350/q1323.cc](../src/q_1301_1350/q1323.cc)|2022/02/17 22:43|
+|1325|[Delete Leaves With a Given Value](https://leetcode.com/problems/delete-leaves-with-a-given-value/)|[src/q_1301_1350/q1325.cc](../src/q_1301_1350/q1325.cc)|2024/05/17 11:44|
 |1326|[Minimum Number of Taps to Open to Water a Garden](https://leetcode.com/problems/minimum-number-of-taps-to-open-to-water-a-garden/)|[src/q_1301_1350/q1326.cc](../src/q_1301_1350/q1326.cc)|2023/09/06 08:50|
 |1328|[Break a Palindrome](https://leetcode.com/problems/break-a-palindrome/)|[src/q_1301_1350/q1328.cc](../src/q_1301_1350/q1328.cc)|2021/09/23 08:00|
 |1329|[Sort the Matrix Diagonally](https://leetcode.com/problems/sort-the-matrix-diagonally/)|[src/q_1301_1350/q1329.cc](../src/q_1301_1350/q1329.cc)|2022/08/28 15:01|
@@ -1274,6 +1277,7 @@ Some questions which are still being resolved are not shown in this page, more i
 |2798|[Number of Employees Who Met the Target](https://leetcode.com/problems/number-of-employees-who-met-the-target/)|[src/q_2751_2800/q2798.cc](../src/q_2751_2800/q2798.cc)|2024/01/05 17:22|
 |2806|[Account Balance After Rounded Purchase](https://leetcode.com/problems/account-balance-after-rounded-purchase/)|[src/q_2801_2850/q2806.cc](../src/q_2801_2850/q2806.cc)|2024/01/07 14:52|
 |2810|[Faulty Keyboard](https://leetcode.com/problems/faulty-keyboard/)|[src/q_2801_2850/q2810.cc](../src/q_2801_2850/q2810.cc)|2024/01/08 20:45|
+|2812|[Find the Safest Path in a Grid](https://leetcode.com/problems/find-the-safest-path-in-a-grid/)|[src/q_2801_2850/q2812.cc](../src/q_2801_2850/q2812.cc)|2024/05/15 22:59|
 |2815|[Max Pair Sum in an Array](https://leetcode.com/problems/max-pair-sum-in-an-array/)|[src/q_2801_2850/q2815.cc](../src/q_2801_2850/q2815.cc)|2024/01/09 21:07|
 |2816|[Double a Number Represented as a Linked List](https://leetcode.com/problems/double-a-number-represented-as-a-linked-list/)|[src/q_2801_2850/q2816.cc](../src/q_2801_2850/q2816.cc)|2024/05/07 22:48|
 |2824|[Count Pairs Whose Sum is Less than Target](https://leetcode.com/problems/count-pairs-whose-sum-is-less-than-target/)|[src/q_2801_2850/q2824.cc](../src/q_2801_2850/q2824.cc)|2024/01/11 22:54|
@@ -1327,6 +1331,7 @@ Some questions which are still being resolved are not shown in this page, more i
 |3042|[Count Prefix and Suffix Pairs I](https://leetcode.com/problems/count-prefix-and-suffix-pairs-i/)|[src/q_3001_3050/q3042.cc](../src/q_3001_3050/q3042.cc)|2024/03/03 21:42|
 |3046|[Split the Array](https://leetcode.com/problems/split-the-array/)|[src/q_3001_3050/q3046.cc](../src/q_3001_3050/q3046.cc)|2024/03/04 22:30|
 |3065|[Minimum Operations to Exceed Threshold Value I](https://leetcode.com/problems/minimum-operations-to-exceed-threshold-value-i/)|[src/q_3051_3100/q3065.cc](../src/q_3051_3100/q3065.cc)|2024/03/06 20:30|
+|3068|[Find the Maximum Sum of Node Values](https://leetcode.com/problems/find-the-maximum-sum-of-node-values/)|[src/q_3051_3100/q3068.cc](../src/q_3051_3100/q3068.cc)|2024/05/19 15:27|
 |3069|[Distribute Elements Into Two Arrays I](https://leetcode.com/problems/distribute-elements-into-two-arrays-i/)|[src/q_3051_3100/q3069.cc](../src/q_3051_3100/q3069.cc)|2024/03/07 22:08|
 |3074|[Apple Redistribution into Boxes](https://leetcode.com/problems/apple-redistribution-into-boxes/)|[src/q_3051_3100/q3074.cc](../src/q_3051_3100/q3074.cc)|2024/03/10 16:35|
 |3075|[Maximize Happiness of Selected Children](https://leetcode.com/problems/maximize-happiness-of-selected-children/)|[src/q_3051_3100/q3075.cc](../src/q_3051_3100/q3075.cc)|2024/05/09 20:43|
@@ -1342,3 +1347,4 @@ Some questions which are still being resolved are not shown in this page, more i
 |3127|[Make a Square with the Same Color](https://leetcode.com/problems/make-a-square-with-the-same-color/)|[src/q_3101_3150/q3127.cc](../src/q_3101_3150/q3127.cc)|2024/05/04 14:14|
 |3131|[Find the Integer Added to Array I](https://leetcode.com/problems/find-the-integer-added-to-array-i/)|[src/q_3101_3150/q3131.cc](../src/q_3101_3150/q3131.cc)|2024/05/08 22:50|
 |3136|[Valid Word](https://leetcode.com/problems/valid-word/)|[src/q_3101_3150/q3136.cc](../src/q_3101_3150/q3136.cc)|2024/05/12 14:19|
+|3142|[Check if Grid Satisfies Conditions](https://leetcode.com/problems/check-if-grid-satisfies-conditions/)|[src/q_3101_3150/q3142.cc](../src/q_3101_3150/q3142.cc)|2024/05/20 21:17|

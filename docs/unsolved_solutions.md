@@ -1,6 +1,6 @@
 # Unsolved Solutions List
 
-There are **1814** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
+There are **1815** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
 
 The questions which have been solved are not shown in this page, more information about solved questions can be found at [docs/solved_solutions.md](./solved_solutions.md).
 
@@ -358,7 +358,6 @@ The questions which have been solved are not shown in this page, more informatio
 |971|[Flip Binary Tree To Match Preorder Traversal](https://leetcode.com/problems/flip-binary-tree-to-match-preorder-traversal/)|Medium||
 |972|[Equal Rational Numbers](https://leetcode.com/problems/equal-rational-numbers/)|Hard||
 |975|[Odd Even Jump](https://leetcode.com/problems/odd-even-jump/)|Hard||
-|979|[Distribute Coins in Binary Tree](https://leetcode.com/problems/distribute-coins-in-binary-tree/)|Medium||
 |982|[Triples with Bitwise AND Equal To Zero](https://leetcode.com/problems/triples-with-bitwise-and-equal-to-zero/)|Hard||
 |984|[String Without AAA or BBB](https://leetcode.com/problems/string-without-aaa-or-bbb/)|Medium||
 |995|[Minimum Number of K Consecutive Bit Flips](https://leetcode.com/problems/minimum-number-of-k-consecutive-bit-flips/)|Hard||
@@ -504,7 +503,6 @@ The questions which have been solved are not shown in this page, more informatio
 |1214|[Two Sum BSTs](https://leetcode.com/problems/two-sum-bsts/)|Medium|🔒|
 |1215|[Stepping Numbers](https://leetcode.com/problems/stepping-numbers/)|Medium|🔒|
 |1216|[Valid Palindrome III](https://leetcode.com/problems/valid-palindrome-iii/)|Hard|🔒|
-|1219|[Path with Maximum Gold](https://leetcode.com/problems/path-with-maximum-gold/)|Medium||
 |1222|[Queens That Can Attack the King](https://leetcode.com/problems/queens-that-can-attack-the-king/)|Medium||
 |1223|[Dice Roll Simulation](https://leetcode.com/problems/dice-roll-simulation/)|Hard||
 |1224|[Maximum Equal Frequency](https://leetcode.com/problems/maximum-equal-frequency/)|Hard||
@@ -570,7 +568,6 @@ The questions which have been solved are not shown in this page, more informatio
 |1321|[Restaurant Growth](https://leetcode.com/problems/restaurant-growth/)|Medium||
 |1322|[Ads Performance](https://leetcode.com/problems/ads-performance/)|Easy|🔒|
 |1324|[Print Words Vertically](https://leetcode.com/problems/print-words-vertically/)|Medium||
-|1325|[Delete Leaves With a Given Value](https://leetcode.com/problems/delete-leaves-with-a-given-value/)|Medium||
 |1327|[List the Products Ordered in a Period](https://leetcode.com/problems/list-the-products-ordered-in-a-period/)|Easy||
 |1330|[Reverse Subarray To Maximize Array Value](https://leetcode.com/problems/reverse-subarray-to-maximize-array-value/)|Hard||
 |1333|[Filter Restaurants by Vegan-Friendly, Price and Distance](https://leetcode.com/problems/filter-restaurants-by-vegan-friendly-price-and-distance/)|Medium||
@@ -1551,7 +1548,6 @@ The questions which have been solved are not shown in this page, more informatio
 |2808|[Minimum Seconds to Equalize a Circular Array](https://leetcode.com/problems/minimum-seconds-to-equalize-a-circular-array/)|Medium||
 |2809|[Minimum Time to Make Array Sum At Most x](https://leetcode.com/problems/minimum-time-to-make-array-sum-at-most-x/)|Hard||
 |2811|[Check if it is Possible to Split Array](https://leetcode.com/problems/check-if-it-is-possible-to-split-array/)|Medium||
-|2812|[Find the Safest Path in a Grid](https://leetcode.com/problems/find-the-safest-path-in-a-grid/)|Medium||
 |2813|[Maximum Elegance of a K-Length Subsequence](https://leetcode.com/problems/maximum-elegance-of-a-k-length-subsequence/)|Hard||
 |2814|[Minimum Time Takes to Reach Destination Without Drowning](https://leetcode.com/problems/minimum-time-takes-to-reach-destination-without-drowning/)|Hard|🔒|
 |2817|[Minimum Absolute Difference Between Elements With Constraint](https://leetcode.com/problems/minimum-absolute-difference-between-elements-with-constraint/)|Medium||
@@ -1754,7 +1750,6 @@ The questions which have been solved are not shown in this page, more informatio
 |3064|[Guess the Number Using Bitwise Questions I](https://leetcode.com/problems/guess-the-number-using-bitwise-questions-i/)|Medium|🔒|
 |3066|[Minimum Operations to Exceed Threshold Value II](https://leetcode.com/problems/minimum-operations-to-exceed-threshold-value-ii/)|Medium||
 |3067|[Count Pairs of Connectable Servers in a Weighted Tree Network](https://leetcode.com/problems/count-pairs-of-connectable-servers-in-a-weighted-tree-network/)|Medium||
-|3068|[Find the Maximum Sum of Node Values](https://leetcode.com/problems/find-the-maximum-sum-of-node-values/)|Hard||
 |3070|[Count Submatrices with Top-Left Element and Sum Less Than k](https://leetcode.com/problems/count-submatrices-with-top-left-element-and-sum-less-than-k/)|Medium||
 |3071|[Minimum Operations to Write the Letter Y on a Grid](https://leetcode.com/problems/minimum-operations-to-write-the-letter-y-on-a-grid/)|Medium||
 |3072|[Distribute Elements Into Two Arrays II](https://leetcode.com/problems/distribute-elements-into-two-arrays-ii/)|Hard||
@@ -1813,7 +1808,6 @@ The questions which have been solved are not shown in this page, more informatio
 |3139|[Minimum Cost to Equalize Array](https://leetcode.com/problems/minimum-cost-to-equalize-array/)|Hard||
 |3140|[Consecutive Available Seats II](https://leetcode.com/problems/consecutive-available-seats-ii/)|Medium|🔒|
 |3141|[Maximum Hamming Distances](https://leetcode.com/problems/maximum-hamming-distances/)|Hard|🔒|
-|3142|[Check if Grid Satisfies Conditions](https://leetcode.com/problems/check-if-grid-satisfies-conditions/)|Easy||
 |3143|[Maximum Points Inside the Square](https://leetcode.com/problems/maximum-points-inside-the-square/)|Medium||
 |3144|[Minimum Substring Partition of Equal Character Frequency](https://leetcode.com/problems/minimum-substring-partition-of-equal-character-frequency/)|Medium||
 |3145|[Find Products of Elements of Big Array](https://leetcode.com/problems/find-products-of-elements-of-big-array/)|Hard||
@@ -1821,3 +1815,10 @@ The questions which have been solved are not shown in this page, more informatio
 |3147|[Taking Maximum Energy From the Mystic Dungeon](https://leetcode.com/problems/taking-maximum-energy-from-the-mystic-dungeon/)|Medium||
 |3148|[Maximum Difference Score in a Grid](https://leetcode.com/problems/maximum-difference-score-in-a-grid/)|Medium||
 |3149|[Find the Minimum Cost Array Permutation](https://leetcode.com/problems/find-the-minimum-cost-array-permutation/)|Hard||
+|3150|[Invalid Tweets II](https://leetcode.com/problems/invalid-tweets-ii/)|Easy|🔒|
+|3151|[Special Array I](https://leetcode.com/problems/special-array-i/)|Easy||
+|3152|[Special Array II](https://leetcode.com/problems/special-array-ii/)|Medium||
+|3153|[Sum of Digit Differences of All Pairs](https://leetcode.com/problems/sum-of-digit-differences-of-all-pairs/)|Medium||
+|3154|[Find Number of Ways to Reach the K-th Stair](https://leetcode.com/problems/find-number-of-ways-to-reach-the-k-th-stair/)|Hard||
+|3155|[Maximum Number of Upgradable Servers](https://leetcode.com/problems/maximum-number-of-upgradable-servers/)|Medium|🔒|
+|3156|[Employee Task Duration and Concurrent Tasks](https://leetcode.com/problems/employee-task-duration-and-concurrent-tasks/)|Hard|🔒|
