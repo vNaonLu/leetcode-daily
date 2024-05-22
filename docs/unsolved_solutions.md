@@ -1,6 +1,6 @@
 # Unsolved Solutions List
 
-There are **1814** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
+There are **1813** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
 
 The questions which have been solved are not shown in this page, more information about solved questions can be found at [docs/solved_solutions.md](./solved_solutions.md).
 
@@ -1815,7 +1815,6 @@ The questions which have been solved are not shown in this page, more informatio
 |3148|[Maximum Difference Score in a Grid](https://leetcode.com/problems/maximum-difference-score-in-a-grid/)|Medium||
 |3149|[Find the Minimum Cost Array Permutation](https://leetcode.com/problems/find-the-minimum-cost-array-permutation/)|Hard||
 |3150|[Invalid Tweets II](https://leetcode.com/problems/invalid-tweets-ii/)|Easy|🔒|
-|3151|[Special Array I](https://leetcode.com/problems/special-array-i/)|Easy||
 |3152|[Special Array II](https://leetcode.com/problems/special-array-ii/)|Medium||
 |3153|[Sum of Digit Differences of All Pairs](https://leetcode.com/problems/sum-of-digit-differences-of-all-pairs/)|Medium||
 |3154|[Find Number of Ways to Reach the K-th Stair](https://leetcode.com/problems/find-number-of-ways-to-reach-the-k-th-stair/)|Hard||

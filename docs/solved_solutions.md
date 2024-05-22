@@ -1,6 +1,6 @@
 # Solved Solutions List
 
-This document contains **1342** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
+This document contains **1343** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
 
 Some questions which are still being resolved are not shown in this page, more information about unsolved questions can be found at [docs/unsolved_solutions.md](./unsolved_solutions.md).
 
@@ -1349,3 +1349,4 @@ Some questions which are still being resolved are not shown in this page, more i
 |3136|[Valid Word](https://leetcode.com/problems/valid-word/)|[src/q_3101_3150/q3136.cc](../src/q_3101_3150/q3136.cc)|2024/05/12 14:19|
 |3142|[Check if Grid Satisfies Conditions](https://leetcode.com/problems/check-if-grid-satisfies-conditions/)|[src/q_3101_3150/q3142.cc](../src/q_3101_3150/q3142.cc)|2024/05/20 21:17|
 |3146|[Permutation Difference between Two Strings](https://leetcode.com/problems/permutation-difference-between-two-strings/)|[src/q_3101_3150/q3146.cc](../src/q_3101_3150/q3146.cc)|2024/05/21 20:44|
+|3151|[Special Array I](https://leetcode.com/problems/special-array-i/)|[src/q_3151_3200/q3151.cc](../src/q_3151_3200/q3151.cc)|2024/05/22 22:35|
