@@ -1,6 +1,6 @@
 # Unsolved Solutions List
 
-There are **1812** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
+There are **1811** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
 
 The questions which have been solved are not shown in this page, more information about solved questions can be found at [docs/solved_solutions.md](./solved_solutions.md).
 
@@ -530,7 +530,6 @@ The questions which have been solved are not shown in this page, more informatio
 |1250|[Check If It Is a Good Array](https://leetcode.com/problems/check-if-it-is-a-good-array/)|Hard||
 |1251|[Average Selling Price](https://leetcode.com/problems/average-selling-price/)|Easy||
 |1253|[Reconstruct a 2-Row Binary Matrix](https://leetcode.com/problems/reconstruct-a-2-row-binary-matrix/)|Medium||
-|1255|[Maximum Score Words Formed by Letters](https://leetcode.com/problems/maximum-score-words-formed-by-letters/)|Hard||
 |1256|[Encode Number](https://leetcode.com/problems/encode-number/)|Medium|🔒|
 |1257|[Smallest Common Region](https://leetcode.com/problems/smallest-common-region/)|Medium|🔒|
 |1258|[Synonymous Sentences](https://leetcode.com/problems/synonymous-sentences/)|Medium|🔒|
