@@ -1,6 +1,6 @@
 # Unsolved Solutions List
 
-There are **1810** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
+There are **1809** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
 
 The questions which have been solved are not shown in this page, more information about solved questions can be found at [docs/solved_solutions.md](./solved_solutions.md).
 
@@ -158,7 +158,6 @@ The questions which have been solved are not shown in this page, more informatio
 |548|[Split Array with Equal Sum](https://leetcode.com/problems/split-array-with-equal-sum/)|Hard|🔒|
 |549|[Binary Tree Longest Consecutive Sequence II](https://leetcode.com/problems/binary-tree-longest-consecutive-sequence-ii/)|Medium|🔒|
 |550|[Game Play Analysis IV](https://leetcode.com/problems/game-play-analysis-iv/)|Medium||
-|552|[Student Attendance Record II](https://leetcode.com/problems/student-attendance-record-ii/)|Hard||
 |554|[Brick Wall](https://leetcode.com/problems/brick-wall/)|Medium||
 |555|[Split Concatenated Strings](https://leetcode.com/problems/split-concatenated-strings/)|Medium|🔒|
 |558|[Logical OR of Two Binary Grids Represented as Quad-Trees](https://leetcode.com/problems/logical-or-of-two-binary-grids-represented-as-quad-trees/)|Medium||
