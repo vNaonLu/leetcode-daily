@@ -3155,3 +3155,13 @@ id,backend_id,title,level,slug,paid
 3154,3414,Find Number of Ways to Reach the K-th Stair,3,find-number-of-ways-to-reach-the-k-th-stair,0
 3155,3458,Maximum Number of Upgradable Servers,2,maximum-number-of-upgradable-servers,1
 3156,3465,Employee Task Duration and Concurrent Tasks,3,employee-task-duration-and-concurrent-tasks,1
+3157,3467,Find the Level of Tree with Minimum Sum,2,find-the-level-of-tree-with-minimum-sum,1
+3158,3428,Find the XOR of Numbers Which Appear Twice,1,find-the-xor-of-numbers-which-appear-twice,0
+3159,3420,Find Occurrences of an Element in an Array,2,find-occurrences-of-an-element-in-an-array,0
+3160,3434,Find the Number of Distinct Colors Among the Balls,2,find-the-number-of-distinct-colors-among-the-balls,0
+3161,3435,Block Placement Queries,3,block-placement-queries,0
+3162,3446,Find the Number of Good Pairs I,1,find-the-number-of-good-pairs-i,0
+3163,3451,String Compression III,2,string-compression-iii,0
+3164,3444,Find the Number of Good Pairs II,2,find-the-number-of-good-pairs-ii,0
+3165,3423,Maximum Sum of Subsequence With Non-adjacent Elements,3,maximum-sum-of-subsequence-with-non-adjacent-elements,0
+3166,3473,Calculate Parking Fees and Duration,2,calculate-parking-fees-and-duration,1
