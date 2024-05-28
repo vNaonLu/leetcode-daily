@@ -1,6 +1,6 @@
 # Unsolved Solutions List
 
-There are **1818** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
+There are **1817** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
 
 The questions which have been solved are not shown in this page, more information about solved questions can be found at [docs/solved_solutions.md](./solved_solutions.md).
 
@@ -493,7 +493,6 @@ The questions which have been solved are not shown in this page, more informatio
 |1204|[Last Person to Fit in the Bus](https://leetcode.com/problems/last-person-to-fit-in-the-bus/)|Medium||
 |1205|[Monthly Transactions II](https://leetcode.com/problems/monthly-transactions-ii/)|Medium|🔒|
 |1206|[Design Skiplist](https://leetcode.com/problems/design-skiplist/)|Hard||
-|1208|[Get Equal Substrings Within Budget](https://leetcode.com/problems/get-equal-substrings-within-budget/)|Medium||
 |1210|[Minimum Moves to Reach Target with Rotations](https://leetcode.com/problems/minimum-moves-to-reach-target-with-rotations/)|Hard||
 |1211|[Queries Quality and Percentage](https://leetcode.com/problems/queries-quality-and-percentage/)|Easy||
 |1212|[Team Scores in Football Tournament](https://leetcode.com/problems/team-scores-in-football-tournament/)|Medium|🔒|

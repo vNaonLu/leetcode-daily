@@ -1,6 +1,6 @@
 # Solved Solutions List
 
-This document contains **1348** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
+This document contains **1349** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
 
 Some questions which are still being resolved are not shown in this page, more information about unsolved questions can be found at [docs/unsolved_solutions.md](./unsolved_solutions.md).
 
@@ -728,6 +728,7 @@ Some questions which are still being resolved are not shown in this page, more i
 |1202|[Smallest String With Swaps](https://leetcode.com/problems/smallest-string-with-swaps/)|[src/q_1201_1250/q1202.cc](../src/q_1201_1250/q1202.cc)|2022/04/27 18:21|
 |1203|[Sort Items by Groups Respecting Dependencies](https://leetcode.com/problems/sort-items-by-groups-respecting-dependencies/)|[src/q_1201_1250/q1203.cc](../src/q_1201_1250/q1203.cc)|2023/08/20 18:22|
 |1207|[Unique Number of Occurrences](https://leetcode.com/problems/unique-number-of-occurrences/)|[src/q_1201_1250/q1207.cc](../src/q_1201_1250/q1207.cc)|2022/11/30 12:55|
+|1208|[Get Equal Substrings Within Budget](https://leetcode.com/problems/get-equal-substrings-within-budget/)|[src/q_1201_1250/q1208.cc](../src/q_1201_1250/q1208.cc)|2024/05/28 21:24|
 |1209|[Remove All Adjacent Duplicates in String II](https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string-ii/)|[src/q_1201_1250/q1209.cc](../src/q_1201_1250/q1209.cc)|2022/05/06 18:29|
 |1217|[Minimum Cost to Move Chips to The Same Position](https://leetcode.com/problems/minimum-cost-to-move-chips-to-the-same-position/)|[src/q_1201_1250/q1217.cc](../src/q_1201_1250/q1217.cc)|2021/12/06 18:16|
 |1218|[Longest Arithmetic Subsequence of Given Difference](https://leetcode.com/problems/longest-arithmetic-subsequence-of-given-difference/)|[src/q_1201_1250/q1218.cc](../src/q_1201_1250/q1218.cc)|2023/07/14 15:33|
