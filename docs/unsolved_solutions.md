@@ -1,6 +1,6 @@
 # Unsolved Solutions List
 
-There are **1815** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
+There are **1818** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
 
 The questions which have been solved are not shown in this page, more information about solved questions can be found at [docs/solved_solutions.md](./solved_solutions.md).
 
@@ -158,7 +158,6 @@ The questions which have been solved are not shown in this page, more informatio
 |548|[Split Array with Equal Sum](https://leetcode.com/problems/split-array-with-equal-sum/)|Hard|🔒|
 |549|[Binary Tree Longest Consecutive Sequence II](https://leetcode.com/problems/binary-tree-longest-consecutive-sequence-ii/)|Medium|🔒|
 |550|[Game Play Analysis IV](https://leetcode.com/problems/game-play-analysis-iv/)|Medium||
-|552|[Student Attendance Record II](https://leetcode.com/problems/student-attendance-record-ii/)|Hard||
 |554|[Brick Wall](https://leetcode.com/problems/brick-wall/)|Medium||
 |555|[Split Concatenated Strings](https://leetcode.com/problems/split-concatenated-strings/)|Medium|🔒|
 |558|[Logical OR of Two Binary Grids Represented as Quad-Trees](https://leetcode.com/problems/logical-or-of-two-binary-grids-represented-as-quad-trees/)|Medium||
@@ -181,7 +180,6 @@ The questions which have been solved are not shown in this page, more informatio
 |586|[Customer Placing the Largest Number of Orders](https://leetcode.com/problems/customer-placing-the-largest-number-of-orders/)|Easy||
 |588|[Design In-Memory File System](https://leetcode.com/problems/design-in-memory-file-system/)|Hard|🔒|
 |591|[Tag Validator](https://leetcode.com/problems/tag-validator/)|Hard||
-|592|[Fraction Addition and Subtraction](https://leetcode.com/problems/fraction-addition-and-subtraction/)|Medium||
 |595|[Big Countries](https://leetcode.com/problems/big-countries/)|Easy||
 |596|[Classes More Than 5 Students](https://leetcode.com/problems/classes-more-than-5-students/)|Easy||
 |597|[Friend Requests I: Overall Acceptance Rate](https://leetcode.com/problems/friend-requests-i-overall-acceptance-rate/)|Easy|🔒|
@@ -530,7 +528,6 @@ The questions which have been solved are not shown in this page, more informatio
 |1250|[Check If It Is a Good Array](https://leetcode.com/problems/check-if-it-is-a-good-array/)|Hard||
 |1251|[Average Selling Price](https://leetcode.com/problems/average-selling-price/)|Easy||
 |1253|[Reconstruct a 2-Row Binary Matrix](https://leetcode.com/problems/reconstruct-a-2-row-binary-matrix/)|Medium||
-|1255|[Maximum Score Words Formed by Letters](https://leetcode.com/problems/maximum-score-words-formed-by-letters/)|Hard||
 |1256|[Encode Number](https://leetcode.com/problems/encode-number/)|Medium|🔒|
 |1257|[Smallest Common Region](https://leetcode.com/problems/smallest-common-region/)|Medium|🔒|
 |1258|[Synonymous Sentences](https://leetcode.com/problems/synonymous-sentences/)|Medium|🔒|
@@ -1374,7 +1371,6 @@ The questions which have been solved are not shown in this page, more informatio
 |2593|[Find Score of an Array After Marking All Elements](https://leetcode.com/problems/find-score-of-an-array-after-marking-all-elements/)|Medium||
 |2594|[Minimum Time to Repair Cars](https://leetcode.com/problems/minimum-time-to-repair-cars/)|Medium||
 |2596|[Check Knight Tour Configuration](https://leetcode.com/problems/check-knight-tour-configuration/)|Medium||
-|2597|[The Number of Beautiful Subsets](https://leetcode.com/problems/the-number-of-beautiful-subsets/)|Medium||
 |2598|[Smallest Missing Non-negative Integer After Operations](https://leetcode.com/problems/smallest-missing-non-negative-integer-after-operations/)|Medium||
 |2599|[Make the Prefix Sum Non-negative](https://leetcode.com/problems/make-the-prefix-sum-non-negative/)|Medium|🔒|
 |2601|[Prime Subtraction Operation](https://leetcode.com/problems/prime-subtraction-operation/)|Medium||
@@ -1811,14 +1807,21 @@ The questions which have been solved are not shown in this page, more informatio
 |3143|[Maximum Points Inside the Square](https://leetcode.com/problems/maximum-points-inside-the-square/)|Medium||
 |3144|[Minimum Substring Partition of Equal Character Frequency](https://leetcode.com/problems/minimum-substring-partition-of-equal-character-frequency/)|Medium||
 |3145|[Find Products of Elements of Big Array](https://leetcode.com/problems/find-products-of-elements-of-big-array/)|Hard||
-|3146|[Permutation Difference between Two Strings](https://leetcode.com/problems/permutation-difference-between-two-strings/)|Easy||
 |3147|[Taking Maximum Energy From the Mystic Dungeon](https://leetcode.com/problems/taking-maximum-energy-from-the-mystic-dungeon/)|Medium||
 |3148|[Maximum Difference Score in a Grid](https://leetcode.com/problems/maximum-difference-score-in-a-grid/)|Medium||
 |3149|[Find the Minimum Cost Array Permutation](https://leetcode.com/problems/find-the-minimum-cost-array-permutation/)|Hard||
 |3150|[Invalid Tweets II](https://leetcode.com/problems/invalid-tweets-ii/)|Easy|🔒|
-|3151|[Special Array I](https://leetcode.com/problems/special-array-i/)|Easy||
 |3152|[Special Array II](https://leetcode.com/problems/special-array-ii/)|Medium||
 |3153|[Sum of Digit Differences of All Pairs](https://leetcode.com/problems/sum-of-digit-differences-of-all-pairs/)|Medium||
 |3154|[Find Number of Ways to Reach the K-th Stair](https://leetcode.com/problems/find-number-of-ways-to-reach-the-k-th-stair/)|Hard||
 |3155|[Maximum Number of Upgradable Servers](https://leetcode.com/problems/maximum-number-of-upgradable-servers/)|Medium|🔒|
 |3156|[Employee Task Duration and Concurrent Tasks](https://leetcode.com/problems/employee-task-duration-and-concurrent-tasks/)|Hard|🔒|
+|3157|[Find the Level of Tree with Minimum Sum](https://leetcode.com/problems/find-the-level-of-tree-with-minimum-sum/)|Medium|🔒|
+|3159|[Find Occurrences of an Element in an Array](https://leetcode.com/problems/find-occurrences-of-an-element-in-an-array/)|Medium||
+|3160|[Find the Number of Distinct Colors Among the Balls](https://leetcode.com/problems/find-the-number-of-distinct-colors-among-the-balls/)|Medium||
+|3161|[Block Placement Queries](https://leetcode.com/problems/block-placement-queries/)|Hard||
+|3162|[Find the Number of Good Pairs I](https://leetcode.com/problems/find-the-number-of-good-pairs-i/)|Easy||
+|3163|[String Compression III](https://leetcode.com/problems/string-compression-iii/)|Medium||
+|3164|[Find the Number of Good Pairs II](https://leetcode.com/problems/find-the-number-of-good-pairs-ii/)|Medium||
+|3165|[Maximum Sum of Subsequence With Non-adjacent Elements](https://leetcode.com/problems/maximum-sum-of-subsequence-with-non-adjacent-elements/)|Hard||
+|3166|[Calculate Parking Fees and Duration](https://leetcode.com/problems/calculate-parking-fees-and-duration/)|Medium|🔒|
