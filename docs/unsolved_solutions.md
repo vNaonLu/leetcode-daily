@@ -1,6 +1,6 @@
 # Unsolved Solutions List
 
-There are **1813** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
+There are **1818** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
 
 The questions which have been solved are not shown in this page, more information about solved questions can be found at [docs/solved_solutions.md](./solved_solutions.md).
 
@@ -1820,3 +1820,8 @@ The questions which have been solved are not shown in this page, more informatio
 |3164|[Find the Number of Good Pairs II](https://leetcode.com/problems/find-the-number-of-good-pairs-ii/)|Medium||
 |3165|[Maximum Sum of Subsequence With Non-adjacent Elements](https://leetcode.com/problems/maximum-sum-of-subsequence-with-non-adjacent-elements/)|Hard||
 |3166|[Calculate Parking Fees and Duration](https://leetcode.com/problems/calculate-parking-fees-and-duration/)|Medium|🔒|
+|3167|[Better Compression of String](https://leetcode.com/problems/better-compression-of-string/)|Medium|🔒|
+|3168|[Minimum Number of Chairs in a Waiting Room](https://leetcode.com/problems/minimum-number-of-chairs-in-a-waiting-room/)|Easy||
+|3169|[Count Days Without Meetings](https://leetcode.com/problems/count-days-without-meetings/)|Medium||
+|3170|[Lexicographically Minimum String After Removing Stars](https://leetcode.com/problems/lexicographically-minimum-string-after-removing-stars/)|Medium||
+|3171|[Find Subarray With Bitwise AND Closest to K](https://leetcode.com/problems/find-subarray-with-bitwise-and-closest-to-k/)|Hard||

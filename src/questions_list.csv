@@ -3165,3 +3165,8 @@ id,backend_id,title,level,slug,paid
 3164,3444,Find the Number of Good Pairs II,2,find-the-number-of-good-pairs-ii,0
 3165,3423,Maximum Sum of Subsequence With Non-adjacent Elements,3,maximum-sum-of-subsequence-with-non-adjacent-elements,0
 3166,3473,Calculate Parking Fees and Duration,2,calculate-parking-fees-and-duration,1
+3167,3474,Better Compression of String,2,better-compression-of-string,1
+3168,3426,Minimum Number of Chairs in a Waiting Room,1,minimum-number-of-chairs-in-a-waiting-room,0
+3169,3430,Count Days Without Meetings,2,count-days-without-meetings,0
+3170,3445,Lexicographically Minimum String After Removing Stars,2,lexicographically-minimum-string-after-removing-stars,0
+3171,3436,Find Subarray With Bitwise AND Closest to K,3,find-subarray-with-bitwise-and-closest-to-k,0
