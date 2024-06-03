@@ -1,6 +1,6 @@
 # Unsolved Solutions List
 
-There are **1817** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
+There are **1816** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
 
 The questions which have been solved are not shown in this page, more information about solved questions can be found at [docs/solved_solutions.md](./solved_solutions.md).
 
@@ -1284,7 +1284,6 @@ The questions which have been solved are not shown in this page, more informatio
 |2479|[Maximum XOR of Two Non-Overlapping Subtrees](https://leetcode.com/problems/maximum-xor-of-two-non-overlapping-subtrees/)|Hard|🔒|
 |2480|[Form a Chemical Bond](https://leetcode.com/problems/form-a-chemical-bond/)|Easy|🔒|
 |2484|[Count Palindromic Subsequences](https://leetcode.com/problems/count-palindromic-subsequences/)|Hard||
-|2486|[Append Characters to String to Make Subsequence](https://leetcode.com/problems/append-characters-to-string-to-make-subsequence/)|Medium||
 |2488|[Count Subarrays With Median K](https://leetcode.com/problems/count-subarrays-with-median-k/)|Hard||
 |2489|[Number of Substrings With Fixed Ratio](https://leetcode.com/problems/number-of-substrings-with-fixed-ratio/)|Medium|🔒|
 |2491|[Divide Players Into Teams of Equal Skill](https://leetcode.com/problems/divide-players-into-teams-of-equal-skill/)|Medium||
