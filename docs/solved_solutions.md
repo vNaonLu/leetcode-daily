@@ -1,6 +1,6 @@
 # Solved Solutions List
 
-This document contains **1355** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
+This document contains **1356** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
 
 Some questions which are still being resolved are not shown in this page, more information about unsolved questions can be found at [docs/unsolved_solutions.md](./unsolved_solutions.md).
 
@@ -462,6 +462,7 @@ Some questions which are still being resolved are not shown in this page, more i
 |668|[Kth Smallest Number in Multiplication Table](https://leetcode.com/problems/kth-smallest-number-in-multiplication-table/)|[src/q_651_700/q0668.cc](../src/q_651_700/q0668.cc)|2021/11/16 18:13|
 |669|[Trim a Binary Search Tree](https://leetcode.com/problems/trim-a-binary-search-tree/)|[src/q_651_700/q0669.cc](../src/q_651_700/q0669.cc)|2022/04/15 19:30|
 |671|[Second Minimum Node In a Binary Tree](https://leetcode.com/problems/second-minimum-node-in-a-binary-tree/)|[src/q_651_700/q0671.cc](../src/q_651_700/q0671.cc)|2022/10/19 09:00|
+|672|[Bulb Switcher II](https://leetcode.com/problems/bulb-switcher-ii/)|[src/q_651_700/q0672.cc](../src/q_651_700/q0672.cc)|2024/06/04 18:38|
 |673|[Number of Longest Increasing Subsequence](https://leetcode.com/problems/number-of-longest-increasing-subsequence/)|[src/q_651_700/q0673.cc](../src/q_651_700/q0673.cc)|2021/10/04 12:25|
 |674|[Longest Continuous Increasing Subsequence](https://leetcode.com/problems/longest-continuous-increasing-subsequence/)|[src/q_651_700/q0674.cc](../src/q_651_700/q0674.cc)|2023/07/13 14:35|
 |678|[Valid Parenthesis String](https://leetcode.com/problems/valid-parenthesis-string/)|[src/q_651_700/q0678.cc](../src/q_651_700/q0678.cc)|2024/04/08 01:08|
