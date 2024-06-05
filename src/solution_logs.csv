@@ -1355,3 +1355,4 @@ timestamp,id,tc,sc,notes
 1717303644,3168,n,1,n = |s.size()|
 1717412864,2486,"max(n, m)",1,"m = |s.size()|, n = |t.size()|"
 1717497513,672,1,1,
+1717588171,670,n ^ 2,n,n = digits of |num|
