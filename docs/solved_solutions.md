@@ -1,6 +1,6 @@
 # Solved Solutions List
 
-This document contains **1359** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
+This document contains **1360** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
 
 Some questions which are still being resolved are not shown in this page, more information about unsolved questions can be found at [docs/unsolved_solutions.md](./unsolved_solutions.md).
 
@@ -443,6 +443,7 @@ Some questions which are still being resolved are not shown in this page, more i
 |633|[Sum of Square Numbers](https://leetcode.com/problems/sum-of-square-numbers/)|[src/q_601_650/q0633.cc](../src/q_601_650/q0633.cc)|2022/04/12 18:24|
 |637|[Average of Levels in Binary Tree](https://leetcode.com/problems/average-of-levels-in-binary-tree/)|[src/q_601_650/q0637.cc](../src/q_601_650/q0637.cc)|2022/09/02 20:17|
 |640|[Solve the Equation](https://leetcode.com/problems/solve-the-equation/)|[src/q_601_650/q0640.cc](../src/q_601_650/q0640.cc)|2022/07/06 18:18|
+|641|[Design Circular Deque](https://leetcode.com/problems/design-circular-deque/)|[src/q_601_650/q0641.cc](../src/q_601_650/q0641.cc)|2024/06/08 10:17|
 |643|[Maximum Average Subarray I](https://leetcode.com/problems/maximum-average-subarray-i/)|[src/q_601_650/q0643.cc](../src/q_601_650/q0643.cc)|2022/05/20 18:17|
 |645|[Set Mismatch](https://leetcode.com/problems/set-mismatch/)|[src/q_601_650/q0645.cc](../src/q_601_650/q0645.cc)|2022/10/02 12:30|
 |646|[Maximum Length of Pair Chain](https://leetcode.com/problems/maximum-length-of-pair-chain/)|[src/q_601_650/q0646.cc](../src/q_601_650/q0646.cc)|2023/08/26 14:55|

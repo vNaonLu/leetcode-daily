@@ -1,6 +1,6 @@
 # Unsolved Solutions List
 
-There are **1812** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
+There are **1811** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
 
 The questions which have been solved are not shown in this page, more information about solved questions can be found at [docs/solved_solutions.md](./solved_solutions.md).
 
@@ -211,7 +211,6 @@ The questions which have been solved are not shown in this page, more informatio
 |636|[Exclusive Time of Functions](https://leetcode.com/problems/exclusive-time-of-functions/)|Medium||
 |638|[Shopping Offers](https://leetcode.com/problems/shopping-offers/)|Medium||
 |639|[Decode Ways II](https://leetcode.com/problems/decode-ways-ii/)|Hard||
-|641|[Design Circular Deque](https://leetcode.com/problems/design-circular-deque/)|Medium||
 |642|[Design Search Autocomplete System](https://leetcode.com/problems/design-search-autocomplete-system/)|Hard|🔒|
 |644|[Maximum Average Subarray II](https://leetcode.com/problems/maximum-average-subarray-ii/)|Hard|🔒|
 |650|[2 Keys Keyboard](https://leetcode.com/problems/2-keys-keyboard/)|Medium||
