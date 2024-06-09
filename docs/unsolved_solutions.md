@@ -1,6 +1,6 @@
 # Unsolved Solutions List
 
-There are **1811** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
+There are **1810** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
 
 The questions which have been solved are not shown in this page, more information about solved questions can be found at [docs/solved_solutions.md](./solved_solutions.md).
 
@@ -255,7 +255,6 @@ The questions which have been solved are not shown in this page, more informatio
 |750|[Number Of Corner Rectangles](https://leetcode.com/problems/number-of-corner-rectangles/)|Medium|🔒|
 |751|[IP to CIDR](https://leetcode.com/problems/ip-to-cidr/)|Medium|🔒|
 |753|[Cracking the Safe](https://leetcode.com/problems/cracking-the-safe/)|Hard||
-|754|[Reach a Number](https://leetcode.com/problems/reach-a-number/)|Medium||
 |755|[Pour Water](https://leetcode.com/problems/pour-water/)|Medium|🔒|
 |756|[Pyramid Transition Matrix](https://leetcode.com/problems/pyramid-transition-matrix/)|Medium||
 |757|[Set Intersection Size At Least Two](https://leetcode.com/problems/set-intersection-size-at-least-two/)|Hard||

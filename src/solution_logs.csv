@@ -1359,3 +1359,4 @@ timestamp,id,tc,sc,notes
 1717642819,846,n ^ 2,1,n = |hand.size()|
 1717727442,648,n * E + m,E,"n = |dictionary.size()|, E = |dictionary[i].size()||, m = |sentence.size()|"
 1717813051,641,-,-,not calculated
+1717912346,754,n,1,n = |target|
