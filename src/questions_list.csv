@@ -3169,4 +3169,15 @@ id,backend_id,title,level,slug,paid
 3168,3426,Minimum Number of Chairs in a Waiting Room,1,minimum-number-of-chairs-in-a-waiting-room,0
 3169,3430,Count Days Without Meetings,2,count-days-without-meetings,0
 3170,3445,Lexicographically Minimum String After Removing Stars,2,lexicographically-minimum-string-after-removing-stars,0
-3171,3436,Find Subarray With Bitwise AND Closest to K,3,find-subarray-with-bitwise-and-closest-to-k,0
+3171,3436,Find Subarray With Bitwise OR Closest to K,3,find-subarray-with-bitwise-or-closest-to-k,0
+3172,3481,Second Day Verification,1,second-day-verification,1
+3173,3472,Bitwise OR of Adjacent Elements,1,bitwise-or-of-adjacent-elements,1
+3174,3447,Clear Digits,1,clear-digits,0
+3175,3413,Find The First Player to win K Games in a Row,2,find-the-first-player-to-win-k-games-in-a-row,0
+3176,3456,Find the Maximum Length of a Good Subsequence I,2,find-the-maximum-length-of-a-good-subsequence-i,0
+3177,3452,Find the Maximum Length of a Good Subsequence II,3,find-the-maximum-length-of-a-good-subsequence-ii,0
+3178,3450,Find the Child Who Has the Ball After K Seconds,1,find-the-child-who-has-the-ball-after-k-seconds,0
+3179,3422,Find the N-th Value After K Seconds,2,find-the-n-th-value-after-k-seconds,0
+3180,3442,Maximum Total Reward Using Operations I,2,maximum-total-reward-using-operations-i,0
+3181,3443,Maximum Total Reward Using Operations II,3,maximum-total-reward-using-operations-ii,0
+3182,3488,Find Top Scoring Students,2,find-top-scoring-students,1
