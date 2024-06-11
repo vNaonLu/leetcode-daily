@@ -1,6 +1,6 @@
 # Unsolved Solutions List
 
-There are **1816** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
+There are **1820** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
 
 The questions which have been solved are not shown in this page, more information about solved questions can be found at [docs/solved_solutions.md](./solved_solutions.md).
 
@@ -211,10 +211,8 @@ The questions which have been solved are not shown in this page, more informatio
 |636|[Exclusive Time of Functions](https://leetcode.com/problems/exclusive-time-of-functions/)|Medium||
 |638|[Shopping Offers](https://leetcode.com/problems/shopping-offers/)|Medium||
 |639|[Decode Ways II](https://leetcode.com/problems/decode-ways-ii/)|Hard||
-|641|[Design Circular Deque](https://leetcode.com/problems/design-circular-deque/)|Medium||
 |642|[Design Search Autocomplete System](https://leetcode.com/problems/design-search-autocomplete-system/)|Hard|🔒|
 |644|[Maximum Average Subarray II](https://leetcode.com/problems/maximum-average-subarray-ii/)|Hard|🔒|
-|648|[Replace Words](https://leetcode.com/problems/replace-words/)|Medium||
 |650|[2 Keys Keyboard](https://leetcode.com/problems/2-keys-keyboard/)|Medium||
 |651|[4 Keys Keyboard](https://leetcode.com/problems/4-keys-keyboard/)|Medium|🔒|
 |656|[Coin Path](https://leetcode.com/problems/coin-path/)|Hard|🔒|
@@ -222,8 +220,6 @@ The questions which have been solved are not shown in this page, more informatio
 |663|[Equal Tree Partition](https://leetcode.com/problems/equal-tree-partition/)|Medium|🔒|
 |666|[Path Sum IV](https://leetcode.com/problems/path-sum-iv/)|Medium|🔒|
 |667|[Beautiful Arrangement II](https://leetcode.com/problems/beautiful-arrangement-ii/)|Medium||
-|670|[Maximum Swap](https://leetcode.com/problems/maximum-swap/)|Medium||
-|672|[Bulb Switcher II](https://leetcode.com/problems/bulb-switcher-ii/)|Medium||
 |675|[Cut Off Trees for Golf Event](https://leetcode.com/problems/cut-off-trees-for-golf-event/)|Hard||
 |676|[Implement Magic Dictionary](https://leetcode.com/problems/implement-magic-dictionary/)|Medium||
 |677|[Map Sum Pairs](https://leetcode.com/problems/map-sum-pairs/)|Medium||
@@ -259,7 +255,6 @@ The questions which have been solved are not shown in this page, more informatio
 |750|[Number Of Corner Rectangles](https://leetcode.com/problems/number-of-corner-rectangles/)|Medium|🔒|
 |751|[IP to CIDR](https://leetcode.com/problems/ip-to-cidr/)|Medium|🔒|
 |753|[Cracking the Safe](https://leetcode.com/problems/cracking-the-safe/)|Hard||
-|754|[Reach a Number](https://leetcode.com/problems/reach-a-number/)|Medium||
 |755|[Pour Water](https://leetcode.com/problems/pour-water/)|Medium|🔒|
 |756|[Pyramid Transition Matrix](https://leetcode.com/problems/pyramid-transition-matrix/)|Medium||
 |757|[Set Intersection Size At Least Two](https://leetcode.com/problems/set-intersection-size-at-least-two/)|Hard||
@@ -306,7 +301,6 @@ The questions which have been solved are not shown in this page, more informatio
 |842|[Split Array into Fibonacci Sequence](https://leetcode.com/problems/split-array-into-fibonacci-sequence/)|Medium||
 |843|[Guess the Word](https://leetcode.com/problems/guess-the-word/)|Hard||
 |845|[Longest Mountain in Array](https://leetcode.com/problems/longest-mountain-in-array/)|Medium||
-|846|[Hand of Straights](https://leetcode.com/problems/hand-of-straights/)|Medium||
 |850|[Rectangle Area II](https://leetcode.com/problems/rectangle-area-ii/)|Hard||
 |851|[Loud and Rich](https://leetcode.com/problems/loud-and-rich/)|Medium||
 |853|[Car Fleet](https://leetcode.com/problems/car-fleet/)|Medium||
@@ -1822,4 +1816,14 @@ The questions which have been solved are not shown in this page, more informatio
 |3167|[Better Compression of String](https://leetcode.com/problems/better-compression-of-string/)|Medium|🔒|
 |3169|[Count Days Without Meetings](https://leetcode.com/problems/count-days-without-meetings/)|Medium||
 |3170|[Lexicographically Minimum String After Removing Stars](https://leetcode.com/problems/lexicographically-minimum-string-after-removing-stars/)|Medium||
-|3171|[Find Subarray With Bitwise AND Closest to K](https://leetcode.com/problems/find-subarray-with-bitwise-and-closest-to-k/)|Hard||
+|3171|[Find Subarray With Bitwise OR Closest to K](https://leetcode.com/problems/find-subarray-with-bitwise-or-closest-to-k/)|Hard||
+|3172|[Second Day Verification](https://leetcode.com/problems/second-day-verification/)|Easy|🔒|
+|3173|[Bitwise OR of Adjacent Elements](https://leetcode.com/problems/bitwise-or-of-adjacent-elements/)|Easy|🔒|
+|3175|[Find The First Player to win K Games in a Row](https://leetcode.com/problems/find-the-first-player-to-win-k-games-in-a-row/)|Medium||
+|3176|[Find the Maximum Length of a Good Subsequence I](https://leetcode.com/problems/find-the-maximum-length-of-a-good-subsequence-i/)|Medium||
+|3177|[Find the Maximum Length of a Good Subsequence II](https://leetcode.com/problems/find-the-maximum-length-of-a-good-subsequence-ii/)|Hard||
+|3178|[Find the Child Who Has the Ball After K Seconds](https://leetcode.com/problems/find-the-child-who-has-the-ball-after-k-seconds/)|Easy||
+|3179|[Find the N-th Value After K Seconds](https://leetcode.com/problems/find-the-n-th-value-after-k-seconds/)|Medium||
+|3180|[Maximum Total Reward Using Operations I](https://leetcode.com/problems/maximum-total-reward-using-operations-i/)|Medium||
+|3181|[Maximum Total Reward Using Operations II](https://leetcode.com/problems/maximum-total-reward-using-operations-ii/)|Hard||
+|3182|[Find Top Scoring Students](https://leetcode.com/problems/find-top-scoring-students/)|Medium|🔒|
