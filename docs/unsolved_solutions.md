@@ -1,6 +1,6 @@
 # Unsolved Solutions List
 
-There are **1819** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
+There are **1818** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
 
 The questions which have been solved are not shown in this page, more information about solved questions can be found at [docs/solved_solutions.md](./solved_solutions.md).
 
@@ -248,7 +248,6 @@ The questions which have been solved are not shown in this page, more informatio
 |734|[Sentence Similarity](https://leetcode.com/problems/sentence-similarity/)|Easy|🔒|
 |736|[Parse Lisp Expression](https://leetcode.com/problems/parse-lisp-expression/)|Hard||
 |737|[Sentence Similarity II](https://leetcode.com/problems/sentence-similarity-ii/)|Medium|🔒|
-|738|[Monotone Increasing Digits](https://leetcode.com/problems/monotone-increasing-digits/)|Medium||
 |741|[Cherry Pickup](https://leetcode.com/problems/cherry-pickup/)|Hard||
 |742|[Closest Leaf in a Binary Tree](https://leetcode.com/problems/closest-leaf-in-a-binary-tree/)|Medium|🔒|
 |749|[Contain Virus](https://leetcode.com/problems/contain-virus/)|Hard||

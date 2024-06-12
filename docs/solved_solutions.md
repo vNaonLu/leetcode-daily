@@ -1,6 +1,6 @@
 # Solved Solutions List
 
-This document contains **1363** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
+This document contains **1364** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
 
 Some questions which are still being resolved are not shown in this page, more information about unsolved questions can be found at [docs/unsolved_solutions.md](./unsolved_solutions.md).
 
@@ -503,6 +503,7 @@ Some questions which are still being resolved are not shown in this page, more i
 |732|[My Calendar III](https://leetcode.com/problems/my-calendar-iii/)|[src/q_701_750/q0732.cc](../src/q_701_750/q0732.cc)|2022/10/07 10:11|
 |733|[Flood Fill](https://leetcode.com/problems/flood-fill/)|[src/q_701_750/q0733.cc](../src/q_701_750/q0733.cc)|2021/09/11 08:00|
 |735|[Asteroid Collision](https://leetcode.com/problems/asteroid-collision/)|[src/q_701_750/q0735.cc](../src/q_701_750/q0735.cc)|2022/09/25 18:35|
+|738|[Monotone Increasing Digits](https://leetcode.com/problems/monotone-increasing-digits/)|[src/q_701_750/q0738.cc](../src/q_701_750/q0738.cc)|2024/06/12 14:30|
 |739|[Daily Temperatures](https://leetcode.com/problems/daily-temperatures/)|[src/q_701_750/q0739.cc](../src/q_701_750/q0739.cc)|2021/11/13 11:51|
 |740|[Delete and Earn](https://leetcode.com/problems/delete-and-earn/)|[src/q_701_750/q0740.cc](../src/q_701_750/q0740.cc)|2021/10/12 11:52|
 |743|[Network Delay Time](https://leetcode.com/problems/network-delay-time/)|[src/q_701_750/q0743.cc](../src/q_701_750/q0743.cc)|2022/05/14 12:34|
