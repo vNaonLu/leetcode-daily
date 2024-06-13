@@ -1,6 +1,6 @@
 # Unsolved Solutions List
 
-There are **1818** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
+There are **1817** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
 
 The questions which have been solved are not shown in this page, more information about solved questions can be found at [docs/solved_solutions.md](./solved_solutions.md).
 
@@ -255,7 +255,6 @@ The questions which have been solved are not shown in this page, more informatio
 |751|[IP to CIDR](https://leetcode.com/problems/ip-to-cidr/)|Medium|🔒|
 |753|[Cracking the Safe](https://leetcode.com/problems/cracking-the-safe/)|Hard||
 |755|[Pour Water](https://leetcode.com/problems/pour-water/)|Medium|🔒|
-|756|[Pyramid Transition Matrix](https://leetcode.com/problems/pyramid-transition-matrix/)|Medium||
 |757|[Set Intersection Size At Least Two](https://leetcode.com/problems/set-intersection-size-at-least-two/)|Hard||
 |758|[Bold Words in String](https://leetcode.com/problems/bold-words-in-string/)|Medium|🔒|
 |759|[Employee Free Time](https://leetcode.com/problems/employee-free-time/)|Hard|🔒|
