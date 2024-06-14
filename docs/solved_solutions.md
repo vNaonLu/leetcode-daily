@@ -1,6 +1,6 @@
 # Solved Solutions List
 
-This document contains **1365** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
+This document contains **1366** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
 
 Some questions which are still being resolved are not shown in this page, more information about unsolved questions can be found at [docs/unsolved_solutions.md](./unsolved_solutions.md).
 
@@ -627,6 +627,7 @@ Some questions which are still being resolved are not shown in this page, more i
 |941|[Valid Mountain Array](https://leetcode.com/problems/valid-mountain-array/)|[src/q_901_950/q0941.cc](../src/q_901_950/q0941.cc)|2022/01/25 18:08|
 |942|[DI String Match](https://leetcode.com/problems/di-string-match/)|[src/q_901_950/q0942.cc](../src/q_901_950/q0942.cc)|2023/07/19 20:05|
 |944|[Delete Columns to Make Sorted](https://leetcode.com/problems/delete-columns-to-make-sorted/)|[src/q_901_950/q0944.cc](../src/q_901_950/q0944.cc)|2023/01/03 18:51|
+|945|[Minimum Increment to Make Array Unique](https://leetcode.com/problems/minimum-increment-to-make-array-unique/)|[src/q_901_950/q0945.cc](../src/q_901_950/q0945.cc)|2024/06/14 14:05|
 |946|[Validate Stack Sequences](https://leetcode.com/problems/validate-stack-sequences/)|[src/q_901_950/q0946.cc](../src/q_901_950/q0946.cc)|2021/10/13 12:55|
 |947|[Most Stones Removed with Same Row or Column](https://leetcode.com/problems/most-stones-removed-with-same-row-or-column/)|[src/q_901_950/q0947.cc](../src/q_901_950/q0947.cc)|2022/09/26 17:46|
 |948|[Bag of Tokens](https://leetcode.com/problems/bag-of-tokens/)|[src/q_901_950/q0948.cc](../src/q_901_950/q0948.cc)|2022/09/12 17:51|

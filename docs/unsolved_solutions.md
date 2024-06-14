@@ -1,6 +1,6 @@
 # Unsolved Solutions List
 
-There are **1817** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
+There are **1816** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
 
 The questions which have been solved are not shown in this page, more information about solved questions can be found at [docs/solved_solutions.md](./solved_solutions.md).
 
@@ -331,7 +331,6 @@ The questions which have been solved are not shown in this page, more informatio
 |939|[Minimum Area Rectangle](https://leetcode.com/problems/minimum-area-rectangle/)|Medium||
 |940|[Distinct Subsequences II](https://leetcode.com/problems/distinct-subsequences-ii/)|Hard||
 |943|[Find the Shortest Superstring](https://leetcode.com/problems/find-the-shortest-superstring/)|Hard||
-|945|[Minimum Increment to Make Array Unique](https://leetcode.com/problems/minimum-increment-to-make-array-unique/)|Medium||
 |949|[Largest Time for Given Digits](https://leetcode.com/problems/largest-time-for-given-digits/)|Medium||
 |954|[Array of Doubled Pairs](https://leetcode.com/problems/array-of-doubled-pairs/)|Medium||
 |955|[Delete Columns to Make Sorted II](https://leetcode.com/problems/delete-columns-to-make-sorted-ii/)|Medium||
