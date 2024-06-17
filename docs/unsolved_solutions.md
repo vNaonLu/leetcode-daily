@@ -1,6 +1,6 @@
 # Unsolved Solutions List
 
-There are **1819** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
+There are **1818** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
 
 The questions which have been solved are not shown in this page, more information about solved questions can be found at [docs/solved_solutions.md](./solved_solutions.md).
 
@@ -1822,7 +1822,6 @@ The questions which have been solved are not shown in this page, more informatio
 |3181|[Maximum Total Reward Using Operations II](https://leetcode.com/problems/maximum-total-reward-using-operations-ii/)|Hard||
 |3182|[Find Top Scoring Students](https://leetcode.com/problems/find-top-scoring-students/)|Medium|🔒|
 |3183|[The Number of Ways to Make the Sum](https://leetcode.com/problems/the-number-of-ways-to-make-the-sum/)|Medium|🔒|
-|3184|[Count Pairs That Form a Complete Day I](https://leetcode.com/problems/count-pairs-that-form-a-complete-day-i/)|Easy||
 |3185|[Count Pairs That Form a Complete Day II](https://leetcode.com/problems/count-pairs-that-form-a-complete-day-ii/)|Medium||
 |3186|[Maximum Total Damage With Spell Casting](https://leetcode.com/problems/maximum-total-damage-with-spell-casting/)|Medium||
 |3187|[Peaks in Array](https://leetcode.com/problems/peaks-in-array/)|Hard||
