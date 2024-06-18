@@ -1,6 +1,6 @@
 # Unsolved Solutions List
 
-There are **1818** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
+There are **1817** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
 
 The questions which have been solved are not shown in this page, more information about solved questions can be found at [docs/solved_solutions.md](./solved_solutions.md).
 
@@ -219,7 +219,6 @@ The questions which have been solved are not shown in this page, more informatio
 |663|[Equal Tree Partition](https://leetcode.com/problems/equal-tree-partition/)|Medium|🔒|
 |666|[Path Sum IV](https://leetcode.com/problems/path-sum-iv/)|Medium|🔒|
 |675|[Cut Off Trees for Golf Event](https://leetcode.com/problems/cut-off-trees-for-golf-event/)|Hard||
-|676|[Implement Magic Dictionary](https://leetcode.com/problems/implement-magic-dictionary/)|Medium||
 |677|[Map Sum Pairs](https://leetcode.com/problems/map-sum-pairs/)|Medium||
 |679|[24 Game](https://leetcode.com/problems/24-game/)|Hard||
 |681|[Next Closest Time](https://leetcode.com/problems/next-closest-time/)|Medium|🔒|
