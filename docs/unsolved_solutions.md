@@ -1,6 +1,6 @@
 # Unsolved Solutions List
 
-There are **1820** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
+There are **1818** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
 
 The questions which have been solved are not shown in this page, more information about solved questions can be found at [docs/solved_solutions.md](./solved_solutions.md).
 
@@ -85,7 +85,6 @@ The questions which have been solved are not shown in this page, more informatio
 |323|[Number of Connected Components in an Undirected Graph](https://leetcode.com/problems/number-of-connected-components-in-an-undirected-graph/)|Medium|🔒|
 |325|[Maximum Size Subarray Sum Equals k](https://leetcode.com/problems/maximum-size-subarray-sum-equals-k/)|Medium|🔒|
 |327|[Count of Range Sum](https://leetcode.com/problems/count-of-range-sum/)|Hard||
-|330|[Patching Array](https://leetcode.com/problems/patching-array/)|Hard||
 |331|[Verify Preorder Serialization of a Binary Tree](https://leetcode.com/problems/verify-preorder-serialization-of-a-binary-tree/)|Medium||
 |333|[Largest BST Subtree](https://leetcode.com/problems/largest-bst-subtree/)|Medium|🔒|
 |335|[Self Crossing](https://leetcode.com/problems/self-crossing/)|Hard||
@@ -219,7 +218,6 @@ The questions which have been solved are not shown in this page, more informatio
 |660|[Remove 9](https://leetcode.com/problems/remove-9/)|Hard|🔒|
 |663|[Equal Tree Partition](https://leetcode.com/problems/equal-tree-partition/)|Medium|🔒|
 |666|[Path Sum IV](https://leetcode.com/problems/path-sum-iv/)|Medium|🔒|
-|667|[Beautiful Arrangement II](https://leetcode.com/problems/beautiful-arrangement-ii/)|Medium||
 |675|[Cut Off Trees for Golf Event](https://leetcode.com/problems/cut-off-trees-for-golf-event/)|Hard||
 |676|[Implement Magic Dictionary](https://leetcode.com/problems/implement-magic-dictionary/)|Medium||
 |677|[Map Sum Pairs](https://leetcode.com/problems/map-sum-pairs/)|Medium||
@@ -248,7 +246,6 @@ The questions which have been solved are not shown in this page, more informatio
 |734|[Sentence Similarity](https://leetcode.com/problems/sentence-similarity/)|Easy|🔒|
 |736|[Parse Lisp Expression](https://leetcode.com/problems/parse-lisp-expression/)|Hard||
 |737|[Sentence Similarity II](https://leetcode.com/problems/sentence-similarity-ii/)|Medium|🔒|
-|738|[Monotone Increasing Digits](https://leetcode.com/problems/monotone-increasing-digits/)|Medium||
 |741|[Cherry Pickup](https://leetcode.com/problems/cherry-pickup/)|Hard||
 |742|[Closest Leaf in a Binary Tree](https://leetcode.com/problems/closest-leaf-in-a-binary-tree/)|Medium|🔒|
 |749|[Contain Virus](https://leetcode.com/problems/contain-virus/)|Hard||
@@ -256,7 +253,6 @@ The questions which have been solved are not shown in this page, more informatio
 |751|[IP to CIDR](https://leetcode.com/problems/ip-to-cidr/)|Medium|🔒|
 |753|[Cracking the Safe](https://leetcode.com/problems/cracking-the-safe/)|Hard||
 |755|[Pour Water](https://leetcode.com/problems/pour-water/)|Medium|🔒|
-|756|[Pyramid Transition Matrix](https://leetcode.com/problems/pyramid-transition-matrix/)|Medium||
 |757|[Set Intersection Size At Least Two](https://leetcode.com/problems/set-intersection-size-at-least-two/)|Hard||
 |758|[Bold Words in String](https://leetcode.com/problems/bold-words-in-string/)|Medium|🔒|
 |759|[Employee Free Time](https://leetcode.com/problems/employee-free-time/)|Hard|🔒|
@@ -333,7 +329,6 @@ The questions which have been solved are not shown in this page, more informatio
 |939|[Minimum Area Rectangle](https://leetcode.com/problems/minimum-area-rectangle/)|Medium||
 |940|[Distinct Subsequences II](https://leetcode.com/problems/distinct-subsequences-ii/)|Hard||
 |943|[Find the Shortest Superstring](https://leetcode.com/problems/find-the-shortest-superstring/)|Hard||
-|945|[Minimum Increment to Make Array Unique](https://leetcode.com/problems/minimum-increment-to-make-array-unique/)|Medium||
 |949|[Largest Time for Given Digits](https://leetcode.com/problems/largest-time-for-given-digits/)|Medium||
 |954|[Array of Doubled Pairs](https://leetcode.com/problems/array-of-doubled-pairs/)|Medium||
 |955|[Delete Columns to Make Sorted II](https://leetcode.com/problems/delete-columns-to-make-sorted-ii/)|Medium||
@@ -1822,8 +1817,11 @@ The questions which have been solved are not shown in this page, more informatio
 |3175|[Find The First Player to win K Games in a Row](https://leetcode.com/problems/find-the-first-player-to-win-k-games-in-a-row/)|Medium||
 |3176|[Find the Maximum Length of a Good Subsequence I](https://leetcode.com/problems/find-the-maximum-length-of-a-good-subsequence-i/)|Medium||
 |3177|[Find the Maximum Length of a Good Subsequence II](https://leetcode.com/problems/find-the-maximum-length-of-a-good-subsequence-ii/)|Hard||
-|3178|[Find the Child Who Has the Ball After K Seconds](https://leetcode.com/problems/find-the-child-who-has-the-ball-after-k-seconds/)|Easy||
 |3179|[Find the N-th Value After K Seconds](https://leetcode.com/problems/find-the-n-th-value-after-k-seconds/)|Medium||
 |3180|[Maximum Total Reward Using Operations I](https://leetcode.com/problems/maximum-total-reward-using-operations-i/)|Medium||
 |3181|[Maximum Total Reward Using Operations II](https://leetcode.com/problems/maximum-total-reward-using-operations-ii/)|Hard||
 |3182|[Find Top Scoring Students](https://leetcode.com/problems/find-top-scoring-students/)|Medium|🔒|
+|3183|[The Number of Ways to Make the Sum](https://leetcode.com/problems/the-number-of-ways-to-make-the-sum/)|Medium|🔒|
+|3185|[Count Pairs That Form a Complete Day II](https://leetcode.com/problems/count-pairs-that-form-a-complete-day-ii/)|Medium||
+|3186|[Maximum Total Damage With Spell Casting](https://leetcode.com/problems/maximum-total-damage-with-spell-casting/)|Medium||
+|3187|[Peaks in Array](https://leetcode.com/problems/peaks-in-array/)|Hard||
