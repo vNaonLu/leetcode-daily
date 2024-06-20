@@ -1,6 +1,6 @@
 # Unsolved Solutions List
 
-There are **1817** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
+There are **1816** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
 
 The questions which have been solved are not shown in this page, more information about solved questions can be found at [docs/solved_solutions.md](./solved_solutions.md).
 
@@ -145,7 +145,6 @@ The questions which have been solved are not shown in this page, more informatio
 |519|[Random Flip Matrix](https://leetcode.com/problems/random-flip-matrix/)|Medium||
 |522|[Longest Uncommon Subsequence II](https://leetcode.com/problems/longest-uncommon-subsequence-ii/)|Medium||
 |527|[Word Abbreviation](https://leetcode.com/problems/word-abbreviation/)|Hard|🔒|
-|529|[Minesweeper](https://leetcode.com/problems/minesweeper/)|Medium||
 |531|[Lonely Pixel I](https://leetcode.com/problems/lonely-pixel-i/)|Medium|🔒|
 |533|[Lonely Pixel II](https://leetcode.com/problems/lonely-pixel-ii/)|Medium|🔒|
 |534|[Game Play Analysis III](https://leetcode.com/problems/game-play-analysis-iii/)|Medium|🔒|
