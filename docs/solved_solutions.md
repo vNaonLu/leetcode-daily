@@ -1,6 +1,6 @@
 # Solved Solutions List
 
-This document contains **1371** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
+This document contains **1372** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
 
 Some questions which are still being resolved are not shown in this page, more information about unsolved questions can be found at [docs/unsolved_solutions.md](./unsolved_solutions.md).
 
@@ -700,6 +700,7 @@ Some questions which are still being resolved are not shown in this page, more i
 |1048|[Longest String Chain](https://leetcode.com/problems/longest-string-chain/)|[src/q_1001_1050/q1048.cc](../src/q_1001_1050/q1048.cc)|2022/06/15 21:21|
 |1049|[Last Stone Weight II](https://leetcode.com/problems/last-stone-weight-ii/)|[src/q_1001_1050/q1049.cc](../src/q_1001_1050/q1049.cc)|2022/06/06 18:16|
 |1051|[Height Checker](https://leetcode.com/problems/height-checker/)|[src/q_1051_1100/q1051.cc](../src/q_1051_1100/q1051.cc)|2022/11/05 12:20|
+|1052|[Grumpy Bookstore Owner](https://leetcode.com/problems/grumpy-bookstore-owner/)|[src/q_1051_1100/q1052.cc](../src/q_1051_1100/q1052.cc)|2024/06/21 23:22|
 |1053|[Previous Permutation With One Swap](https://leetcode.com/problems/previous-permutation-with-one-swap/)|[src/q_1051_1100/q1053.cc](../src/q_1051_1100/q1053.cc)|2022/02/19 14:52|
 |1061|[Lexicographically Smallest Equivalent String](https://leetcode.com/problems/lexicographically-smallest-equivalent-string/)|[src/q_1051_1100/q1061.cc](../src/q_1051_1100/q1061.cc)|2023/01/14 13:54|
 |1071|[Greatest Common Divisor of Strings](https://leetcode.com/problems/greatest-common-divisor-of-strings/)|[src/q_1051_1100/q1071.cc](../src/q_1051_1100/q1071.cc)|2022/11/07 18:48|

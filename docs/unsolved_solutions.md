@@ -1,6 +1,6 @@
 # Unsolved Solutions List
 
-There are **1816** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
+There are **1815** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
 
 The questions which have been solved are not shown in this page, more information about solved questions can be found at [docs/solved_solutions.md](./solved_solutions.md).
 
@@ -365,7 +365,6 @@ The questions which have been solved are not shown in this page, more informatio
 |1042|[Flower Planting With No Adjacent](https://leetcode.com/problems/flower-planting-with-no-adjacent/)|Medium||
 |1045|[Customers Who Bought All Products](https://leetcode.com/problems/customers-who-bought-all-products/)|Medium||
 |1050|[Actors and Directors Who Cooperated At Least Three Times](https://leetcode.com/problems/actors-and-directors-who-cooperated-at-least-three-times/)|Easy||
-|1052|[Grumpy Bookstore Owner](https://leetcode.com/problems/grumpy-bookstore-owner/)|Medium||
 |1054|[Distant Barcodes](https://leetcode.com/problems/distant-barcodes/)|Medium||
 |1055|[Shortest Way to Form String](https://leetcode.com/problems/shortest-way-to-form-string/)|Medium|🔒|
 |1056|[Confusing Number](https://leetcode.com/problems/confusing-number/)|Easy|🔒|
