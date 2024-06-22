@@ -1,6 +1,6 @@
 # Solved Solutions List
 
-This document contains **1372** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
+This document contains **1373** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
 
 Some questions which are still being resolved are not shown in this page, more information about unsolved questions can be found at [docs/unsolved_solutions.md](./unsolved_solutions.md).
 
@@ -753,6 +753,7 @@ Some questions which are still being resolved are not shown in this page, more i
 |1232|[Check If It Is a Straight Line](https://leetcode.com/problems/check-if-it-is-a-straight-line/)|[src/q_1201_1250/q1232.cc](../src/q_1201_1250/q1232.cc)|2022/04/18 18:21|
 |1235|[Maximum Profit in Job Scheduling](https://leetcode.com/problems/maximum-profit-in-job-scheduling/)|[src/q_1201_1250/q1235.cc](../src/q_1201_1250/q1235.cc)|2024/01/06 15:21|
 |1239|[Maximum Length of a Concatenated String with Unique Characters](https://leetcode.com/problems/maximum-length-of-a-concatenated-string-with-unique-characters/)|[src/q_1201_1250/q1239.cc](../src/q_1201_1250/q1239.cc)|2021/09/22 08:00|
+|1248|[Count Number of Nice Subarrays](https://leetcode.com/problems/count-number-of-nice-subarrays/)|[src/q_1201_1250/q1248.cc](../src/q_1201_1250/q1248.cc)|2024/06/22 17:11|
 |1249|[Minimum Remove to Make Valid Parentheses](https://leetcode.com/problems/minimum-remove-to-make-valid-parentheses/)|[src/q_1201_1250/q1249.cc](../src/q_1201_1250/q1249.cc)|2021/10/02 14:42|
 |1252|[Cells with Odd Values in a Matrix](https://leetcode.com/problems/cells-with-odd-values-in-a-matrix/)|[src/q_1251_1300/q1252.cc](../src/q_1251_1300/q1252.cc)|2022/11/29 18:27|
 |1254|[Number of Closed Islands](https://leetcode.com/problems/number-of-closed-islands/)|[src/q_1251_1300/q1254.cc](../src/q_1251_1300/q1254.cc)|2021/11/04 18:09|
