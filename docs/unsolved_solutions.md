@@ -1,6 +1,6 @@
 # Unsolved Solutions List
 
-There are **1818** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
+There are **1812** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
 
 The questions which have been solved are not shown in this page, more information about solved questions can be found at [docs/solved_solutions.md](./solved_solutions.md).
 
@@ -145,7 +145,6 @@ The questions which have been solved are not shown in this page, more informatio
 |519|[Random Flip Matrix](https://leetcode.com/problems/random-flip-matrix/)|Medium||
 |522|[Longest Uncommon Subsequence II](https://leetcode.com/problems/longest-uncommon-subsequence-ii/)|Medium||
 |527|[Word Abbreviation](https://leetcode.com/problems/word-abbreviation/)|Hard|🔒|
-|529|[Minesweeper](https://leetcode.com/problems/minesweeper/)|Medium||
 |531|[Lonely Pixel I](https://leetcode.com/problems/lonely-pixel-i/)|Medium|🔒|
 |533|[Lonely Pixel II](https://leetcode.com/problems/lonely-pixel-ii/)|Medium|🔒|
 |534|[Game Play Analysis III](https://leetcode.com/problems/game-play-analysis-iii/)|Medium|🔒|
@@ -219,7 +218,6 @@ The questions which have been solved are not shown in this page, more informatio
 |663|[Equal Tree Partition](https://leetcode.com/problems/equal-tree-partition/)|Medium|🔒|
 |666|[Path Sum IV](https://leetcode.com/problems/path-sum-iv/)|Medium|🔒|
 |675|[Cut Off Trees for Golf Event](https://leetcode.com/problems/cut-off-trees-for-golf-event/)|Hard||
-|676|[Implement Magic Dictionary](https://leetcode.com/problems/implement-magic-dictionary/)|Medium||
 |677|[Map Sum Pairs](https://leetcode.com/problems/map-sum-pairs/)|Medium||
 |679|[24 Game](https://leetcode.com/problems/24-game/)|Hard||
 |681|[Next Closest Time](https://leetcode.com/problems/next-closest-time/)|Medium|🔒|
@@ -346,7 +344,6 @@ The questions which have been solved are not shown in this page, more informatio
 |975|[Odd Even Jump](https://leetcode.com/problems/odd-even-jump/)|Hard||
 |982|[Triples with Bitwise AND Equal To Zero](https://leetcode.com/problems/triples-with-bitwise-and-equal-to-zero/)|Hard||
 |984|[String Without AAA or BBB](https://leetcode.com/problems/string-without-aaa-or-bbb/)|Medium||
-|995|[Minimum Number of K Consecutive Bit Flips](https://leetcode.com/problems/minimum-number-of-k-consecutive-bit-flips/)|Hard||
 |996|[Number of Squareful Arrays](https://leetcode.com/problems/number-of-squareful-arrays/)|Hard||
 |998|[Maximum Binary Tree II](https://leetcode.com/problems/maximum-binary-tree-ii/)|Medium||
 |1000|[Minimum Cost to Merge Stones](https://leetcode.com/problems/minimum-cost-to-merge-stones/)|Hard||
@@ -367,7 +364,6 @@ The questions which have been solved are not shown in this page, more informatio
 |1042|[Flower Planting With No Adjacent](https://leetcode.com/problems/flower-planting-with-no-adjacent/)|Medium||
 |1045|[Customers Who Bought All Products](https://leetcode.com/problems/customers-who-bought-all-products/)|Medium||
 |1050|[Actors and Directors Who Cooperated At Least Three Times](https://leetcode.com/problems/actors-and-directors-who-cooperated-at-least-three-times/)|Easy||
-|1052|[Grumpy Bookstore Owner](https://leetcode.com/problems/grumpy-bookstore-owner/)|Medium||
 |1054|[Distant Barcodes](https://leetcode.com/problems/distant-barcodes/)|Medium||
 |1055|[Shortest Way to Form String](https://leetcode.com/problems/shortest-way-to-form-string/)|Medium|🔒|
 |1056|[Confusing Number](https://leetcode.com/problems/confusing-number/)|Easy|🔒|
@@ -511,7 +507,6 @@ The questions which have been solved are not shown in this page, more informatio
 |1245|[Tree Diameter](https://leetcode.com/problems/tree-diameter/)|Medium|🔒|
 |1246|[Palindrome Removal](https://leetcode.com/problems/palindrome-removal/)|Hard|🔒|
 |1247|[Minimum Swaps to Make Strings Equal](https://leetcode.com/problems/minimum-swaps-to-make-strings-equal/)|Medium||
-|1248|[Count Number of Nice Subarrays](https://leetcode.com/problems/count-number-of-nice-subarrays/)|Medium||
 |1250|[Check If It Is a Good Array](https://leetcode.com/problems/check-if-it-is-a-good-array/)|Hard||
 |1251|[Average Selling Price](https://leetcode.com/problems/average-selling-price/)|Easy||
 |1253|[Reconstruct a 2-Row Binary Matrix](https://leetcode.com/problems/reconstruct-a-2-row-binary-matrix/)|Medium||
@@ -612,7 +607,6 @@ The questions which have been solved are not shown in this page, more informatio
 |1433|[Check If a String Can Break Another String](https://leetcode.com/problems/check-if-a-string-can-break-another-string/)|Medium||
 |1434|[Number of Ways to Wear Different Hats to Each Other](https://leetcode.com/problems/number-of-ways-to-wear-different-hats-to-each-other/)|Hard||
 |1435|[Create a Session Bar Chart](https://leetcode.com/problems/create-a-session-bar-chart/)|Easy|🔒|
-|1438|[Longest Continuous Subarray With Absolute Diff Less Than or Equal to Limit](https://leetcode.com/problems/longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit/)|Medium||
 |1439|[Find the Kth Smallest Sum of a Matrix With Sorted Rows](https://leetcode.com/problems/find-the-kth-smallest-sum-of-a-matrix-with-sorted-rows/)|Hard||
 |1440|[Evaluate Boolean Expression](https://leetcode.com/problems/evaluate-boolean-expression/)|Medium|🔒|
 |1445|[Apples & Oranges](https://leetcode.com/problems/apples-oranges/)|Medium|🔒|
