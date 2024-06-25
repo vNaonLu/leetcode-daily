@@ -1,6 +1,6 @@
 # Solved Solutions List
 
-This document contains **1375** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
+This document contains **1376** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
 
 Some questions which are still being resolved are not shown in this page, more information about unsolved questions can be found at [docs/unsolved_solutions.md](./unsolved_solutions.md).
 
@@ -692,6 +692,7 @@ Some questions which are still being resolved are not shown in this page, more i
 |1032|[Stream of Characters](https://leetcode.com/problems/stream-of-characters/)|[src/q_1001_1050/q1032.cc](../src/q_1001_1050/q1032.cc)|2021/12/04 22:22|
 |1035|[Uncrossed Lines](https://leetcode.com/problems/uncrossed-lines/)|[src/q_1001_1050/q1035.cc](../src/q_1001_1050/q1035.cc)|2022/03/26 11:56|
 |1037|[Valid Boomerang](https://leetcode.com/problems/valid-boomerang/)|[src/q_1001_1050/q1037.cc](../src/q_1001_1050/q1037.cc)|2022/11/20 15:06|
+|1038|[Binary Search Tree to Greater Sum Tree](https://leetcode.com/problems/binary-search-tree-to-greater-sum-tree/)|[src/q_1001_1050/q1038.cc](../src/q_1001_1050/q1038.cc)|2024/06/25 21:15|
 |1039|[Minimum Score Triangulation of Polygon](https://leetcode.com/problems/minimum-score-triangulation-of-polygon/)|[src/q_1001_1050/q1039.cc](../src/q_1001_1050/q1039.cc)|2022/02/15 18:46|
 |1041|[Robot Bounded In Circle](https://leetcode.com/problems/robot-bounded-in-circle/)|[src/q_1001_1050/q1041.cc](../src/q_1001_1050/q1041.cc)|2022/01/09 14:29|
 |1043|[Partition Array for Maximum Sum](https://leetcode.com/problems/partition-array-for-maximum-sum/)|[src/q_1001_1050/q1043.cc](../src/q_1001_1050/q1043.cc)|2021/11/10 17:52|
