@@ -1,6 +1,6 @@
 # Solved Solutions List
 
-This document contains **1376** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
+This document contains **1377** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
 
 Some questions which are still being resolved are not shown in this page, more information about unsolved questions can be found at [docs/unsolved_solutions.md](./unsolved_solutions.md).
 
@@ -1383,3 +1383,4 @@ Some questions which are still being resolved are not shown in this page, more i
 |3174|[Clear Digits](https://leetcode.com/problems/clear-digits/)|[src/q_3151_3200/q3174.cc](../src/q_3151_3200/q3174.cc)|2024/06/10 12:18|
 |3178|[Find the Child Who Has the Ball After K Seconds](https://leetcode.com/problems/find-the-child-who-has-the-ball-after-k-seconds/)|[src/q_3151_3200/q3178.cc](../src/q_3151_3200/q3178.cc)|2024/06/11 20:22|
 |3184|[Count Pairs That Form a Complete Day I](https://leetcode.com/problems/count-pairs-that-form-a-complete-day-i/)|[src/q_3151_3200/q3184.cc](../src/q_3151_3200/q3184.cc)|2024/06/17 20:51|
+|3190|[Find Minimum Operations to Make All Elements Divisible by Three](https://leetcode.com/problems/find-minimum-operations-to-make-all-elements-divisible-by-three/)|[src/q_3151_3200/q3190.cc](../src/q_3151_3200/q3190.cc)|2024/06/26 21:59|
