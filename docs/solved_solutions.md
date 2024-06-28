@@ -1,6 +1,6 @@
 # Solved Solutions List
 
-This document contains **1377** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
+This document contains **1378** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
 
 Some questions which are still being resolved are not shown in this page, more information about unsolved questions can be found at [docs/unsolved_solutions.md](./unsolved_solutions.md).
 
@@ -1164,6 +1164,7 @@ Some questions which are still being resolved are not shown in this page, more i
 |2278|[Percentage of Letter in String](https://leetcode.com/problems/percentage-of-letter-in-string/)|[src/q_2251_2300/q2278.cc](../src/q_2251_2300/q2278.cc)|2023/02/21 00:22|
 |2279|[Maximum Bags With Full Capacity of Rocks](https://leetcode.com/problems/maximum-bags-with-full-capacity-of-rocks/)|[src/q_2251_2300/q2279.cc](../src/q_2251_2300/q2279.cc)|2022/12/27 20:59|
 |2283|[Check if Number Has Equal Digit Count and Digit Value](https://leetcode.com/problems/check-if-number-has-equal-digit-count-and-digit-value/)|[src/q_2251_2300/q2283.cc](../src/q_2251_2300/q2283.cc)|2023/04/14 14:40|
+|2285|[Maximum Total Importance of Roads](https://leetcode.com/problems/maximum-total-importance-of-roads/)|[src/q_2251_2300/q2285.cc](../src/q_2251_2300/q2285.cc)|2024/06/28 21:08|
 |2287|[Rearrange Characters to Make Target String](https://leetcode.com/problems/rearrange-characters-to-make-target-string/)|[src/q_2251_2300/q2287.cc](../src/q_2251_2300/q2287.cc)|2023/10/19 21:24|
 |2293|[Min Max Game](https://leetcode.com/problems/min-max-game/)|[src/q_2251_2300/q2293.cc](../src/q_2251_2300/q2293.cc)|2023/01/09 18:53|
 |2299|[Strong Password Checker II](https://leetcode.com/problems/strong-password-checker-ii/)|[src/q_2251_2300/q2299.cc](../src/q_2251_2300/q2299.cc)|2023/03/11 01:32|
