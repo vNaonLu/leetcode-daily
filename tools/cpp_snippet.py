@@ -143,9 +143,13 @@ class _UnitTestRegularFlavor(_UnitTestFlavor):
         LOG.funcVerbose("parse the input: {}", input)
         for name in self._function.input_args:
             tp = self._function.arg_types[name]
-            reg = f'{name}[ \\n]*=[ \\n]*({tp.evaluateInputRegex()[1:-1]})'
-            LOG.funcVerbose("     with regex: {}", reg)
-            mat = regex.search(reg, input)
+            tries = [name, "\\w+"] # Try to parse without an explicit name.
+            for n in tries:
+                reg = f'{n}[ \\n]*=[ \\n]*({tp.evaluateInputRegex()[1:-1]})'
+                LOG.funcVerbose("     with regex: {}", reg)
+                mat = regex.search(reg, input)
+                if mat:
+                    break
             if not mat:
                 LOG.failure("falied to parse input: {}", repr(input))
                 return False
