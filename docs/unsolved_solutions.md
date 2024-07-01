@@ -1,6 +1,6 @@
 # Unsolved Solutions List
 
-There are **1812** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
+There are **1823** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
 
 The questions which have been solved are not shown in this page, more information about solved questions can be found at [docs/solved_solutions.md](./solved_solutions.md).
 
@@ -264,7 +264,6 @@ The questions which have been solved are not shown in this page, more informatio
 |774|[Minimize Max Distance to Gas Station](https://leetcode.com/problems/minimize-max-distance-to-gas-station/)|Hard|🔒|
 |775|[Global and Local Inversions](https://leetcode.com/problems/global-and-local-inversions/)|Medium||
 |776|[Split BST](https://leetcode.com/problems/split-bst/)|Medium|🔒|
-|777|[Swap Adjacent in LR String](https://leetcode.com/problems/swap-adjacent-in-lr-string/)|Medium||
 |778|[Swim in Rising Water](https://leetcode.com/problems/swim-in-rising-water/)|Hard||
 |780|[Reaching Points](https://leetcode.com/problems/reaching-points/)|Hard||
 |781|[Rabbits in Forest](https://leetcode.com/problems/rabbits-in-forest/)|Medium||
@@ -359,7 +358,6 @@ The questions which have been solved are not shown in this page, more informatio
 |1033|[Moving Stones Until Consecutive](https://leetcode.com/problems/moving-stones-until-consecutive/)|Medium||
 |1034|[Coloring A Border](https://leetcode.com/problems/coloring-a-border/)|Medium||
 |1036|[Escape a Large Maze](https://leetcode.com/problems/escape-a-large-maze/)|Hard||
-|1038|[Binary Search Tree to Greater Sum Tree](https://leetcode.com/problems/binary-search-tree-to-greater-sum-tree/)|Medium||
 |1040|[Moving Stones Until Consecutive II](https://leetcode.com/problems/moving-stones-until-consecutive-ii/)|Medium||
 |1042|[Flower Planting With No Adjacent](https://leetcode.com/problems/flower-planting-with-no-adjacent/)|Medium||
 |1045|[Customers Who Bought All Products](https://leetcode.com/problems/customers-who-bought-all-products/)|Medium||
@@ -1074,7 +1072,6 @@ The questions which have been solved are not shown in this page, more informatio
 |2188|[Minimum Time to Finish the Race](https://leetcode.com/problems/minimum-time-to-finish-the-race/)|Hard||
 |2189|[Number of Ways to Build House of Cards](https://leetcode.com/problems/number-of-ways-to-build-house-of-cards/)|Medium|🔒|
 |2191|[Sort the Jumbled Numbers](https://leetcode.com/problems/sort-the-jumbled-numbers/)|Medium||
-|2192|[All Ancestors of a Node in a Directed Acyclic Graph](https://leetcode.com/problems/all-ancestors-of-a-node-in-a-directed-acyclic-graph/)|Medium||
 |2193|[Minimum Number of Moves to Make Palindrome](https://leetcode.com/problems/minimum-number-of-moves-to-make-palindrome/)|Hard||
 |2195|[Append K Integers With Minimal Sum](https://leetcode.com/problems/append-k-integers-with-minimal-sum/)|Medium||
 |2196|[Create Binary Tree From Descriptions](https://leetcode.com/problems/create-binary-tree-from-descriptions/)|Medium||
@@ -1135,7 +1132,6 @@ The questions which have been solved are not shown in this page, more informatio
 |2281|[Sum of Total Strength of Wizards](https://leetcode.com/problems/sum-of-total-strength-of-wizards/)|Hard||
 |2282|[Number of People That Can Be Seen in a Grid](https://leetcode.com/problems/number-of-people-that-can-be-seen-in-a-grid/)|Medium|🔒|
 |2284|[Sender With Largest Word Count](https://leetcode.com/problems/sender-with-largest-word-count/)|Medium||
-|2285|[Maximum Total Importance of Roads](https://leetcode.com/problems/maximum-total-importance-of-roads/)|Medium||
 |2286|[Booking Concert Tickets in Groups](https://leetcode.com/problems/booking-concert-tickets-in-groups/)|Hard||
 |2288|[Apply Discount to Prices](https://leetcode.com/problems/apply-discount-to-prices/)|Medium||
 |2289|[Steps to Make Array Non-decreasing](https://leetcode.com/problems/steps-to-make-array-non-decreasing/)|Medium||
@@ -1819,3 +1815,18 @@ The questions which have been solved are not shown in this page, more informatio
 |3185|[Count Pairs That Form a Complete Day II](https://leetcode.com/problems/count-pairs-that-form-a-complete-day-ii/)|Medium||
 |3186|[Maximum Total Damage With Spell Casting](https://leetcode.com/problems/maximum-total-damage-with-spell-casting/)|Medium||
 |3187|[Peaks in Array](https://leetcode.com/problems/peaks-in-array/)|Hard||
+|3188|[Find Top Scoring Students II](https://leetcode.com/problems/find-top-scoring-students-ii/)|Hard|🔒|
+|3189|[Minimum Moves to Get a Peaceful Board](https://leetcode.com/problems/minimum-moves-to-get-a-peaceful-board/)|Medium|🔒|
+|3191|[Minimum Operations to Make Binary Array Elements Equal to One I](https://leetcode.com/problems/minimum-operations-to-make-binary-array-elements-equal-to-one-i/)|Medium||
+|3192|[Minimum Operations to Make Binary Array Elements Equal to One II](https://leetcode.com/problems/minimum-operations-to-make-binary-array-elements-equal-to-one-ii/)|Medium||
+|3193|[Count the Number of Inversions](https://leetcode.com/problems/count-the-number-of-inversions/)|Hard||
+|3195|[Find the Minimum Area to Cover All Ones I](https://leetcode.com/problems/find-the-minimum-area-to-cover-all-ones-i/)|Medium||
+|3196|[Maximize Total Cost of Alternating Subarrays](https://leetcode.com/problems/maximize-total-cost-of-alternating-subarrays/)|Medium||
+|3197|[Find the Minimum Area to Cover All Ones II](https://leetcode.com/problems/find-the-minimum-area-to-cover-all-ones-ii/)|Hard||
+|3198|[Find Cities in Each State](https://leetcode.com/problems/find-cities-in-each-state/)|Easy|🔒|
+|3199|[Count Triplets with Even XOR Set Bits I](https://leetcode.com/problems/count-triplets-with-even-xor-set-bits-i/)|Easy|🔒|
+|3200|[Maximum Height of a Triangle](https://leetcode.com/problems/maximum-height-of-a-triangle/)|Easy||
+|3201|[Find the Maximum Length of Valid Subsequence I](https://leetcode.com/problems/find-the-maximum-length-of-valid-subsequence-i/)|Medium||
+|3202|[Find the Maximum Length of Valid Subsequence II](https://leetcode.com/problems/find-the-maximum-length-of-valid-subsequence-ii/)|Medium||
+|3203|[Find Minimum Diameter After Merging Two Trees](https://leetcode.com/problems/find-minimum-diameter-after-merging-two-trees/)|Hard||
+|3204|[Bitwise User Permissions Analysis](https://leetcode.com/problems/bitwise-user-permissions-analysis/)|Medium|🔒|
