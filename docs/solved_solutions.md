@@ -1,6 +1,6 @@
 # Solved Solutions List
 
-This document contains **1384** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
+This document contains **1385** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
 
 Some questions which are still being resolved are not shown in this page, more information about unsolved questions can be found at [docs/unsolved_solutions.md](./unsolved_solutions.md).
 
@@ -1095,6 +1095,7 @@ Some questions which are still being resolved are not shown in this page, more i
 |2050|[Parallel Courses III](https://leetcode.com/problems/parallel-courses-iii/)|[src/q_2001_2050/q2050.cc](../src/q_2001_2050/q2050.cc)|2023/10/18 19:39|
 |2053|[Kth Distinct String in an Array](https://leetcode.com/problems/kth-distinct-string-in-an-array/)|[src/q_2051_2100/q2053.cc](../src/q_2051_2100/q2053.cc)|2023/01/05 16:23|
 |2057|[Smallest Index With Equal Value](https://leetcode.com/problems/smallest-index-with-equal-value/)|[src/q_2051_2100/q2057.cc](../src/q_2051_2100/q2057.cc)|2023/01/01 14:48|
+|2058|[Find the Minimum and Maximum Number of Nodes Between Critical Points](https://leetcode.com/problems/find-the-minimum-and-maximum-number-of-nodes-between-critical-points/)|[src/q_2051_2100/q2058.cc](../src/q_2051_2100/q2058.cc)|2024/07/05 19:59|
 |2062|[Count Vowel Substrings of a String](https://leetcode.com/problems/count-vowel-substrings-of-a-string/)|[src/q_2051_2100/q2062.cc](../src/q_2051_2100/q2062.cc)|2023/04/13 18:51|
 |2068|[Check Whether Two Strings are Almost Equivalent](https://leetcode.com/problems/check-whether-two-strings-are-almost-equivalent/)|[src/q_2051_2100/q2068.cc](../src/q_2051_2100/q2068.cc)|2023/03/20 18:58|
 |2073|[Time Needed to Buy Tickets](https://leetcode.com/problems/time-needed-to-buy-tickets/)|[src/q_2051_2100/q2073.cc](../src/q_2051_2100/q2073.cc)|2023/09/25 20:58|
