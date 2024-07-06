@@ -1,6 +1,6 @@
 # Solved Solutions List
 
-This document contains **1385** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
+This document contains **1386** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
 
 Some questions which are still being resolved are not shown in this page, more information about unsolved questions can be found at [docs/unsolved_solutions.md](./unsolved_solutions.md).
 
@@ -541,6 +541,7 @@ Some questions which are still being resolved are not shown in this page, more i
 |791|[Custom Sort String](https://leetcode.com/problems/custom-sort-string/)|[src/q_751_800/q0791.cc](../src/q_751_800/q0791.cc)|2024/03/11 22:39|
 |792|[Number of Matching Subsequences](https://leetcode.com/problems/number-of-matching-subsequences/)|[src/q_751_800/q0792.cc](../src/q_751_800/q0792.cc)|2022/07/21 01:00|
 |794|[Valid Tic-Tac-Toe State](https://leetcode.com/problems/valid-tic-tac-toe-state/)|[src/q_751_800/q0794.cc](../src/q_751_800/q0794.cc)|2022/06/09 18:35|
+|795|[Number of Subarrays with Bounded Maximum](https://leetcode.com/problems/number-of-subarrays-with-bounded-maximum/)|[src/q_751_800/q0795.cc](../src/q_751_800/q0795.cc)|2024/07/06 14:05|
 |796|[Rotate String](https://leetcode.com/problems/rotate-string/)|[src/q_751_800/q0796.cc](../src/q_751_800/q0796.cc)|2022/10/30 12:26|
 |797|[All Paths From Source to Target](https://leetcode.com/problems/all-paths-from-source-to-target/)|[src/q_751_800/q0797.cc](../src/q_751_800/q0797.cc)|2021/09/26 15:53|
 |799|[Champagne Tower](https://leetcode.com/problems/champagne-tower/)|[src/q_751_800/q0799.cc](../src/q_751_800/q0799.cc)|2022/03/04 18:09|
