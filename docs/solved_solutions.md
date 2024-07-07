@@ -1,6 +1,6 @@
 # Solved Solutions List
 
-This document contains **1386** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
+This document contains **1387** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
 
 Some questions which are still being resolved are not shown in this page, more information about unsolved questions can be found at [docs/unsolved_solutions.md](./unsolved_solutions.md).
 
@@ -1393,3 +1393,4 @@ Some questions which are still being resolved are not shown in this page, more i
 |3184|[Count Pairs That Form a Complete Day I](https://leetcode.com/problems/count-pairs-that-form-a-complete-day-i/)|[src/q_3151_3200/q3184.cc](../src/q_3151_3200/q3184.cc)|2024/06/17 20:51|
 |3190|[Find Minimum Operations to Make All Elements Divisible by Three](https://leetcode.com/problems/find-minimum-operations-to-make-all-elements-divisible-by-three/)|[src/q_3151_3200/q3190.cc](../src/q_3151_3200/q3190.cc)|2024/06/26 21:59|
 |3194|[Minimum Average of Smallest and Largest Elements](https://leetcode.com/problems/minimum-average-of-smallest-and-largest-elements/)|[src/q_3151_3200/q3194.cc](../src/q_3151_3200/q3194.cc)|2024/06/30 12:14|
+|3206|[Alternating Groups I](https://leetcode.com/problems/alternating-groups-i/)|[src/q_3201_3250/q3206.cc](../src/q_3201_3250/q3206.cc)|2024/07/07 12:56|
