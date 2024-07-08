@@ -1,6 +1,6 @@
 # Solved Solutions List
 
-This document contains **1387** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
+This document contains **1388** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
 
 Some questions which are still being resolved are not shown in this page, more information about unsolved questions can be found at [docs/unsolved_solutions.md](./unsolved_solutions.md).
 
@@ -548,6 +548,7 @@ Some questions which are still being resolved are not shown in this page, more i
 |802|[Find Eventual Safe States](https://leetcode.com/problems/find-eventual-safe-states/)|[src/q_801_850/q0802.cc](../src/q_801_850/q0802.cc)|2022/03/18 18:54|
 |804|[Unique Morse Code Words](https://leetcode.com/problems/unique-morse-code-words/)|[src/q_801_850/q0804.cc](../src/q_801_850/q0804.cc)|2022/08/16 18:33|
 |806|[Number of Lines To Write String](https://leetcode.com/problems/number-of-lines-to-write-string/)|[src/q_801_850/q0806.cc](../src/q_801_850/q0806.cc)|2023/06/06 14:10|
+|807|[Max Increase to Keep City Skyline](https://leetcode.com/problems/max-increase-to-keep-city-skyline/)|[src/q_801_850/q0807.cc](../src/q_801_850/q0807.cc)|2024/07/08 14:00|
 |808|[Soup Servings](https://leetcode.com/problems/soup-servings/)|[src/q_801_850/q0808.cc](../src/q_801_850/q0808.cc)|2023/07/29 16:02|
 |812|[Largest Triangle Area](https://leetcode.com/problems/largest-triangle-area/)|[src/q_801_850/q0812.cc](../src/q_801_850/q0812.cc)|2022/11/22 18:04|
 |814|[Binary Tree Pruning](https://leetcode.com/problems/binary-tree-pruning/)|[src/q_801_850/q0814.cc](../src/q_801_850/q0814.cc)|2022/09/06 18:11|
