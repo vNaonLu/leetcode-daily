@@ -1,6 +1,6 @@
 # Unsolved Solutions List
 
-There are **1825** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
+There are **1824** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
 
 The questions which have been solved are not shown in this page, more information about solved questions can be found at [docs/solved_solutions.md](./solved_solutions.md).
 
@@ -741,7 +741,6 @@ The questions which have been solved are not shown in this page, more informatio
 |1693|[Daily Leads and Partners](https://leetcode.com/problems/daily-leads-and-partners/)|Easy||
 |1698|[Number of Distinct Substrings in a String](https://leetcode.com/problems/number-of-distinct-substrings-in-a-string/)|Medium|🔒|
 |1699|[Number of Calls Between Two Persons](https://leetcode.com/problems/number-of-calls-between-two-persons/)|Medium|🔒|
-|1701|[Average Waiting Time](https://leetcode.com/problems/average-waiting-time/)|Medium||
 |1702|[Maximum Binary String After Change](https://leetcode.com/problems/maximum-binary-string-after-change/)|Medium||
 |1703|[Minimum Adjacent Swaps for K Consecutive Ones](https://leetcode.com/problems/minimum-adjacent-swaps-for-k-consecutive-ones/)|Hard||
 |1707|[Maximum XOR With an Element From Array](https://leetcode.com/problems/maximum-xor-with-an-element-from-array/)|Hard||
