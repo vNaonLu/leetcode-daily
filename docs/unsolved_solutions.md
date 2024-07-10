@@ -1,6 +1,6 @@
 # Unsolved Solutions List
 
-There are **1824** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
+There are **1823** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
 
 The questions which have been solved are not shown in this page, more information about solved questions can be found at [docs/solved_solutions.md](./solved_solutions.md).
 
@@ -262,7 +262,6 @@ The questions which have been solved are not shown in this page, more informatio
 |772|[Basic Calculator III](https://leetcode.com/problems/basic-calculator-iii/)|Hard|🔒|
 |773|[Sliding Puzzle](https://leetcode.com/problems/sliding-puzzle/)|Hard||
 |774|[Minimize Max Distance to Gas Station](https://leetcode.com/problems/minimize-max-distance-to-gas-station/)|Hard|🔒|
-|775|[Global and Local Inversions](https://leetcode.com/problems/global-and-local-inversions/)|Medium||
 |776|[Split BST](https://leetcode.com/problems/split-bst/)|Medium|🔒|
 |778|[Swim in Rising Water](https://leetcode.com/problems/swim-in-rising-water/)|Hard||
 |780|[Reaching Points](https://leetcode.com/problems/reaching-points/)|Hard||

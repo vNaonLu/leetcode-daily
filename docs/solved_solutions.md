@@ -1,6 +1,6 @@
 # Solved Solutions List
 
-This document contains **1389** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
+This document contains **1390** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
 
 Some questions which are still being resolved are not shown in this page, more information about unsolved questions can be found at [docs/unsolved_solutions.md](./unsolved_solutions.md).
 
@@ -526,6 +526,7 @@ Some questions which are still being resolved are not shown in this page, more i
 |767|[Reorganize String](https://leetcode.com/problems/reorganize-string/)|[src/q_751_800/q0767.cc](../src/q_751_800/q0767.cc)|2022/02/10 19:04|
 |769|[Max Chunks To Make Sorted](https://leetcode.com/problems/max-chunks-to-make-sorted/)|[src/q_751_800/q0769.cc](../src/q_751_800/q0769.cc)|2022/01/24 18:12|
 |771|[Jewels and Stones](https://leetcode.com/problems/jewels-and-stones/)|[src/q_751_800/q0771.cc](../src/q_751_800/q0771.cc)|2022/02/21 23:48|
+|775|[Global and Local Inversions](https://leetcode.com/problems/global-and-local-inversions/)|[src/q_751_800/q0775.cc](../src/q_751_800/q0775.cc)|2024/07/10 21:13|
 |777|[Swap Adjacent in LR String](https://leetcode.com/problems/swap-adjacent-in-lr-string/)|[src/q_751_800/q0777.cc](../src/q_751_800/q0777.cc)|2024/07/01 20:37|
 |779|[K-th Symbol in Grammar](https://leetcode.com/problems/k-th-symbol-in-grammar/)|[src/q_751_800/q0779.cc](../src/q_751_800/q0779.cc)|2022/03/09 18:07|
 |781|[Rabbits in Forest](https://leetcode.com/problems/rabbits-in-forest/)|[src/q_751_800/q0781.cc](../src/q_751_800/q0781.cc)|2024/07/02 19:56|
