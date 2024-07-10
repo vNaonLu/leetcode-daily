@@ -1380,3 +1380,10 @@ timestamp,id,tc,sc,notes
 1719642968,2192,-,-,not calculated
 1719720887,3194,n * log(n),1,n = |nums.size()|
 1719837443,777,n,1,n = |start.size()|
+1719921387,781,n * log(n),1,n = |answers.size()|
+1720007849,788,-,-,not calculated
+1720095827,789,n,1,n = |ghosts.size()|
+1720180743,2058,n,1,n = |head.size()|
+1720245920,795,n,1,n = |nums.size()|
+1720328212,3206,n,1,n = |colors.size()|
+1720418446,807,n ^ 2,n,n = |grid.size()|

@@ -1,6 +1,6 @@
 # Unsolved Solutions List
 
-There are **1823** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
+There are **1825** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
 
 The questions which have been solved are not shown in this page, more information about solved questions can be found at [docs/solved_solutions.md](./solved_solutions.md).
 
@@ -266,17 +266,12 @@ The questions which have been solved are not shown in this page, more informatio
 |776|[Split BST](https://leetcode.com/problems/split-bst/)|Medium|🔒|
 |778|[Swim in Rising Water](https://leetcode.com/problems/swim-in-rising-water/)|Hard||
 |780|[Reaching Points](https://leetcode.com/problems/reaching-points/)|Hard||
-|781|[Rabbits in Forest](https://leetcode.com/problems/rabbits-in-forest/)|Medium||
-|788|[Rotated Digits](https://leetcode.com/problems/rotated-digits/)|Medium||
-|789|[Escape The Ghosts](https://leetcode.com/problems/escape-the-ghosts/)|Medium||
 |793|[Preimage Size of Factorial Zeroes Function](https://leetcode.com/problems/preimage-size-of-factorial-zeroes-function/)|Hard||
-|795|[Number of Subarrays with Bounded Maximum](https://leetcode.com/problems/number-of-subarrays-with-bounded-maximum/)|Medium||
 |798|[Smallest Rotation with Highest Score](https://leetcode.com/problems/smallest-rotation-with-highest-score/)|Hard||
 |800|[Similar RGB Color](https://leetcode.com/problems/similar-rgb-color/)|Easy|🔒|
 |801|[Minimum Swaps To Make Sequences Increasing](https://leetcode.com/problems/minimum-swaps-to-make-sequences-increasing/)|Hard||
 |803|[Bricks Falling When Hit](https://leetcode.com/problems/bricks-falling-when-hit/)|Hard||
 |805|[Split Array With Same Average](https://leetcode.com/problems/split-array-with-same-average/)|Hard||
-|807|[Max Increase to Keep City Skyline](https://leetcode.com/problems/max-increase-to-keep-city-skyline/)|Medium||
 |809|[Expressive Words](https://leetcode.com/problems/expressive-words/)|Medium||
 |810|[Chalkboard XOR Game](https://leetcode.com/problems/chalkboard-xor-game/)|Hard||
 |811|[Subdomain Visit Count](https://leetcode.com/problems/subdomain-visit-count/)|Medium||
@@ -979,7 +974,6 @@ The questions which have been solved are not shown in this page, more informatio
 |2054|[Two Best Non-Overlapping Events](https://leetcode.com/problems/two-best-non-overlapping-events/)|Medium||
 |2055|[Plates Between Candles](https://leetcode.com/problems/plates-between-candles/)|Medium||
 |2056|[Number of Valid Move Combinations On Chessboard](https://leetcode.com/problems/number-of-valid-move-combinations-on-chessboard/)|Hard||
-|2058|[Find the Minimum and Maximum Number of Nodes Between Critical Points](https://leetcode.com/problems/find-the-minimum-and-maximum-number-of-nodes-between-critical-points/)|Medium||
 |2059|[Minimum Operations to Convert Number](https://leetcode.com/problems/minimum-operations-to-convert-number/)|Medium||
 |2060|[Check if an Original String Exists Given Two Encoded Strings](https://leetcode.com/problems/check-if-an-original-string-exists-given-two-encoded-strings/)|Hard||
 |2061|[Number of Spaces Cleaning Robot Cleaned](https://leetcode.com/problems/number-of-spaces-cleaning-robot-cleaned/)|Medium|🔒|
@@ -1830,3 +1824,11 @@ The questions which have been solved are not shown in this page, more informatio
 |3202|[Find the Maximum Length of Valid Subsequence II](https://leetcode.com/problems/find-the-maximum-length-of-valid-subsequence-ii/)|Medium||
 |3203|[Find Minimum Diameter After Merging Two Trees](https://leetcode.com/problems/find-minimum-diameter-after-merging-two-trees/)|Hard||
 |3204|[Bitwise User Permissions Analysis](https://leetcode.com/problems/bitwise-user-permissions-analysis/)|Medium|🔒|
+|3205|[Maximum Array Hopping Score I](https://leetcode.com/problems/maximum-array-hopping-score-i/)|Medium|🔒|
+|3207|[Maximum Points After Enemy Battles](https://leetcode.com/problems/maximum-points-after-enemy-battles/)|Medium||
+|3208|[Alternating Groups II](https://leetcode.com/problems/alternating-groups-ii/)|Medium||
+|3209|[Number of Subarrays With AND Value of K](https://leetcode.com/problems/number-of-subarrays-with-and-value-of-k/)|Hard||
+|3210|[Find the Encrypted String](https://leetcode.com/problems/find-the-encrypted-string/)|Easy||
+|3211|[Generate Binary Strings Without Adjacent Zeros](https://leetcode.com/problems/generate-binary-strings-without-adjacent-zeros/)|Medium||
+|3212|[Count Submatrices With Equal Frequency of X and Y](https://leetcode.com/problems/count-submatrices-with-equal-frequency-of-x-and-y/)|Medium||
+|3213|[Construct String with Minimum Cost](https://leetcode.com/problems/construct-string-with-minimum-cost/)|Hard||
