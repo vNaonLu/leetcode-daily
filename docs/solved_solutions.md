@@ -1,6 +1,6 @@
 # Solved Solutions List
 
-This document contains **1390** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
+This document contains **1391** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
 
 Some questions which are still being resolved are not shown in this page, more information about unsolved questions can be found at [docs/unsolved_solutions.md](./unsolved_solutions.md).
 
@@ -745,6 +745,7 @@ Some questions which are still being resolved are not shown in this page, more i
 |1185|[Day of the Week](https://leetcode.com/problems/day-of-the-week/)|[src/q_1151_1200/q1185.cc](../src/q_1151_1200/q1185.cc)|2023/03/30 19:51|
 |1187|[Make Array Strictly Increasing](https://leetcode.com/problems/make-array-strictly-increasing/)|[src/q_1151_1200/q1187.cc](../src/q_1151_1200/q1187.cc)|2023/06/17 11:12|
 |1189|[Maximum Number of Balloons](https://leetcode.com/problems/maximum-number-of-balloons/)|[src/q_1151_1200/q1189.cc](../src/q_1151_1200/q1189.cc)|2021/09/13 08:00|
+|1190|[Reverse Substrings Between Each Pair of Parentheses](https://leetcode.com/problems/reverse-substrings-between-each-pair-of-parentheses/)|[src/q_1151_1200/q1190.cc](../src/q_1151_1200/q1190.cc)|2024/07/11 21:22|
 |1191|[K-Concatenation Maximum Sum](https://leetcode.com/problems/k-concatenation-maximum-sum/)|[src/q_1151_1200/q1191.cc](../src/q_1151_1200/q1191.cc)|2022/02/17 18:49|
 |1192|[Critical Connections in a Network](https://leetcode.com/problems/critical-connections-in-a-network/)|[src/q_1151_1200/q1192.cc](../src/q_1151_1200/q1192.cc)|2022/05/18 18:21|
 |1200|[Minimum Absolute Difference](https://leetcode.com/problems/minimum-absolute-difference/)|[src/q_1151_1200/q1200.cc](../src/q_1151_1200/q1200.cc)|2021/12/20 18:07|
