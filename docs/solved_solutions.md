@@ -1,6 +1,6 @@
 # Solved Solutions List
 
-This document contains **1391** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
+This document contains **1392** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
 
 Some questions which are still being resolved are not shown in this page, more information about unsolved questions can be found at [docs/unsolved_solutions.md](./unsolved_solutions.md).
 
@@ -982,6 +982,7 @@ Some questions which are still being resolved are not shown in this page, more i
 |1710|[Maximum Units on a Truck](https://leetcode.com/problems/maximum-units-on-a-truck/)|[src/q_1701_1750/q1710.cc](../src/q_1701_1750/q1710.cc)|2022/07/01 18:20|
 |1712|[Ways to Split Array Into Three Subarrays](https://leetcode.com/problems/ways-to-split-array-into-three-subarrays/)|[src/q_1701_1750/q1712.cc](../src/q_1701_1750/q1712.cc)|2022/07/23 17:35|
 |1716|[Calculate Money in Leetcode Bank](https://leetcode.com/problems/calculate-money-in-leetcode-bank/)|[src/q_1701_1750/q1716.cc](../src/q_1701_1750/q1716.cc)|2022/12/17 13:03|
+|1717|[Maximum Score From Removing Substrings](https://leetcode.com/problems/maximum-score-from-removing-substrings/)|[src/q_1701_1750/q1717.cc](../src/q_1701_1750/q1717.cc)|2024/07/13 02:25|
 |1720|[Decode XORed Array](https://leetcode.com/problems/decode-xored-array/)|[src/q_1701_1750/q1720.cc](../src/q_1701_1750/q1720.cc)|2022/02/05 15:26|
 |1721|[Swapping Nodes in a Linked List](https://leetcode.com/problems/swapping-nodes-in-a-linked-list/)|[src/q_1701_1750/q1721.cc](../src/q_1701_1750/q1721.cc)|2022/04/04 13:28|
 |1725|[Number Of Rectangles That Can Form The Largest Square](https://leetcode.com/problems/number-of-rectangles-that-can-form-the-largest-square/)|[src/q_1701_1750/q1725.cc](../src/q_1701_1750/q1725.cc)|2023/04/02 16:00|
