@@ -1,6 +1,6 @@
 # Unsolved Solutions List
 
-There are **1821** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
+There are **1820** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
 
 The questions which have been solved are not shown in this page, more information about solved questions can be found at [docs/solved_solutions.md](./solved_solutions.md).
 
@@ -1457,7 +1457,6 @@ The questions which have been solved are not shown in this page, more informatio
 |2747|[Count Zero Request Servers](https://leetcode.com/problems/count-zero-request-servers/)|Medium||
 |2749|[Minimum Operations to Make the Integer Zero](https://leetcode.com/problems/minimum-operations-to-make-the-integer-zero/)|Medium||
 |2750|[Ways to Split Array Into Good Subarrays](https://leetcode.com/problems/ways-to-split-array-into-good-subarrays/)|Medium||
-|2751|[Robot Collisions](https://leetcode.com/problems/robot-collisions/)|Hard||
 |2752|[Customers with Maximum Number of Transactions on Consecutive Days](https://leetcode.com/problems/customers-with-maximum-number-of-transactions-on-consecutive-days/)|Hard|🔒|
 |2753|[Count Houses in a Circular Street II](https://leetcode.com/problems/count-houses-in-a-circular-street-ii/)|Hard|🔒|
 |2754|[Bind Function to Context](https://leetcode.com/problems/bind-function-to-context/)|Medium|🔒|
