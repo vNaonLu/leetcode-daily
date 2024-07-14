@@ -1,6 +1,6 @@
 # Solved Solutions List
 
-This document contains **1393** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
+This document contains **1394** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
 
 Some questions which are still being resolved are not shown in this page, more information about unsolved questions can be found at [docs/unsolved_solutions.md](./unsolved_solutions.md).
 
@@ -502,6 +502,7 @@ Some questions which are still being resolved are not shown in this page, more i
 |722|[Remove Comments](https://leetcode.com/problems/remove-comments/)|[src/q_701_750/q0722.cc](../src/q_701_750/q0722.cc)|2022/11/17 17:46|
 |724|[Find Pivot Index](https://leetcode.com/problems/find-pivot-index/)|[src/q_701_750/q0724.cc](../src/q_701_750/q0724.cc)|2022/08/24 21:08|
 |725|[Split Linked List in Parts](https://leetcode.com/problems/split-linked-list-in-parts/)|[src/q_701_750/q0725.cc](../src/q_701_750/q0725.cc)|2021/09/29 17:00|
+|726|[Number of Atoms](https://leetcode.com/problems/number-of-atoms/)|[src/q_701_750/q0726.cc](../src/q_701_750/q0726.cc)|2024/07/14 14:30|
 |728|[Self Dividing Numbers](https://leetcode.com/problems/self-dividing-numbers/)|[src/q_701_750/q0728.cc](../src/q_701_750/q0728.cc)|2022/11/01 18:55|
 |729|[My Calendar I](https://leetcode.com/problems/my-calendar-i/)|[src/q_701_750/q0729.cc](../src/q_701_750/q0729.cc)|2022/05/15 13:05|
 |732|[My Calendar III](https://leetcode.com/problems/my-calendar-iii/)|[src/q_701_750/q0732.cc](../src/q_701_750/q0732.cc)|2022/10/07 10:11|
