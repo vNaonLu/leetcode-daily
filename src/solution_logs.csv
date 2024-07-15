@@ -1393,3 +1393,4 @@ timestamp,id,tc,sc,notes
 1720808707,1717,n,1,n = |s.size()|
 1720848679,2751,n ^ 2,n,n = |positiions.size()|
 1720938630,726,-,-,not calculated
+1721042476,2196,n,n,n = |descriptions.size()|
