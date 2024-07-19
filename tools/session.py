@@ -98,7 +98,7 @@ class LeetCodeSession:
         TASK = LOG.createTaskLog("Establish LeetCode Session")
 
         TASK.begin("connecting to LeetCode...")
-        self.__initWithHomePage()
+        # self.__initWithHomePage()
         TASK.log("initializing...")
         self.__initWithGlobalData()
         TASK.done("established", is_success=True)

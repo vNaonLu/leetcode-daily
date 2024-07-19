@@ -545,8 +545,9 @@ def requestAndGetCPPSolution(*, questions_details: QuestionDetails,
     LOG.funcVerbose("generate the code template")
     try:
         cpp_solution = CPPSolution(raw_content)
-    except Exception as _:
+    except Exception as e:
         LOG.failure("caught exception when generating the C++ template.")
+        LOG.log(e)
         return None
 
     if not solution_file.parent.exists():
