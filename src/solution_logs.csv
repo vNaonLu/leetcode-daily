@@ -1398,3 +1398,4 @@ timestamp,id,tc,sc,notes
 1721215004,1110,n,n,n = |root.size()|
 1721305659,1530,-,-,not calculated
 1721398624,3210,n,1,n = |s.size()|
+1721455899,1605,n * m,1,"n = |colSum.size()|, m = |rowSum.size()|"

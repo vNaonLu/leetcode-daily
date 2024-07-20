@@ -1,6 +1,6 @@
 # Unsolved Solutions List
 
-There are **1822** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
+There are **1821** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
 
 The questions which have been solved are not shown in this page, more information about solved questions can be found at [docs/solved_solutions.md](./solved_solutions.md).
 
@@ -684,7 +684,6 @@ The questions which have been solved are not shown in this page, more informatio
 |1600|[Throne Inheritance](https://leetcode.com/problems/throne-inheritance/)|Medium||
 |1602|[Find Nearest Right Node in Binary Tree](https://leetcode.com/problems/find-nearest-right-node-in-binary-tree/)|Medium|🔒|
 |1604|[Alert Using Same Key-Card Three or More Times in a One Hour Period](https://leetcode.com/problems/alert-using-same-key-card-three-or-more-times-in-a-one-hour-period/)|Medium||
-|1605|[Find Valid Matrix Given Row and Column Sums](https://leetcode.com/problems/find-valid-matrix-given-row-and-column-sums/)|Medium||
 |1606|[Find Servers That Handled Most Number of Requests](https://leetcode.com/problems/find-servers-that-handled-most-number-of-requests/)|Hard||
 |1607|[Sellers With No Sales](https://leetcode.com/problems/sellers-with-no-sales/)|Easy|🔒|
 |1610|[Maximum Number of Visible Points](https://leetcode.com/problems/maximum-number-of-visible-points/)|Hard||
