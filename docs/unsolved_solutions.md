@@ -1,6 +1,6 @@
 # Unsolved Solutions List
 
-There are **1821** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
+There are **1820** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
 
 The questions which have been solved are not shown in this page, more information about solved questions can be found at [docs/solved_solutions.md](./solved_solutions.md).
 
@@ -1183,7 +1183,6 @@ The questions which have been solved are not shown in this page, more informatio
 |2386|[Find the K-Sum of an Array](https://leetcode.com/problems/find-the-k-sum-of-an-array/)|Hard||
 |2387|[Median of a Row Wise Sorted Matrix](https://leetcode.com/problems/median-of-a-row-wise-sorted-matrix/)|Medium|🔒|
 |2388|[Change Null Values in a Table to the Previous Value](https://leetcode.com/problems/change-null-values-in-a-table-to-the-previous-value/)|Medium|🔒|
-|2392|[Build a Matrix With Conditions](https://leetcode.com/problems/build-a-matrix-with-conditions/)|Hard||
 |2393|[Count Strictly Increasing Subarrays](https://leetcode.com/problems/count-strictly-increasing-subarrays/)|Medium|🔒|
 |2394|[Employees With Deductions](https://leetcode.com/problems/employees-with-deductions/)|Medium|🔒|
 |2396|[Strictly Palindromic Number](https://leetcode.com/problems/strictly-palindromic-number/)|Medium||
