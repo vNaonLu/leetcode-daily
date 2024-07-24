@@ -1,6 +1,6 @@
 # Unsolved Solutions List
 
-There are **1827** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
+There are **1826** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
 
 The questions which have been solved are not shown in this page, more information about solved questions can be found at [docs/solved_solutions.md](./solved_solutions.md).
 
@@ -1056,7 +1056,6 @@ The questions which have been solved are not shown in this page, more informatio
 |2186|[Minimum Number of Steps to Make Two Strings Anagram II](https://leetcode.com/problems/minimum-number-of-steps-to-make-two-strings-anagram-ii/)|Medium||
 |2188|[Minimum Time to Finish the Race](https://leetcode.com/problems/minimum-time-to-finish-the-race/)|Hard||
 |2189|[Number of Ways to Build House of Cards](https://leetcode.com/problems/number-of-ways-to-build-house-of-cards/)|Medium|🔒|
-|2191|[Sort the Jumbled Numbers](https://leetcode.com/problems/sort-the-jumbled-numbers/)|Medium||
 |2193|[Minimum Number of Moves to Make Palindrome](https://leetcode.com/problems/minimum-number-of-moves-to-make-palindrome/)|Hard||
 |2195|[Append K Integers With Minimal Sum](https://leetcode.com/problems/append-k-integers-with-minimal-sum/)|Medium||
 |2197|[Replace Non-Coprime Numbers in Array](https://leetcode.com/problems/replace-non-coprime-numbers-in-array/)|Hard||
