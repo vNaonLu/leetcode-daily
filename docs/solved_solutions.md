@@ -1,6 +1,6 @@
 # Solved Solutions List
 
-This document contains **1405** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
+This document contains **1406** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
 
 Some questions which are still being resolved are not shown in this page, more information about unsolved questions can be found at [docs/unsolved_solutions.md](./unsolved_solutions.md).
 
@@ -808,6 +808,7 @@ Some questions which are still being resolved are not shown in this page, more i
 |1329|[Sort the Matrix Diagonally](https://leetcode.com/problems/sort-the-matrix-diagonally/)|[src/q_1301_1350/q1329.cc](../src/q_1301_1350/q1329.cc)|2022/08/28 15:01|
 |1331|[Rank Transform of an Array](https://leetcode.com/problems/rank-transform-of-an-array/)|[src/q_1301_1350/q1331.cc](../src/q_1301_1350/q1331.cc)|2023/06/09 11:35|
 |1332|[Remove Palindromic Subsequences](https://leetcode.com/problems/remove-palindromic-subsequences/)|[src/q_1301_1350/q1332.cc](../src/q_1301_1350/q1332.cc)|2022/06/08 18:02|
+|1334|[Find the City With the Smallest Number of Neighbors at a Threshold Distance](https://leetcode.com/problems/find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance/)|[src/q_1301_1350/q1334.cc](../src/q_1301_1350/q1334.cc)|2024/07/26 21:42|
 |1335|[Minimum Difficulty of a Job Schedule](https://leetcode.com/problems/minimum-difficulty-of-a-job-schedule/)|[src/q_1301_1350/q1335.cc](../src/q_1301_1350/q1335.cc)|2022/10/16 14:40|
 |1337|[The K Weakest Rows in a Matrix](https://leetcode.com/problems/the-k-weakest-rows-in-a-matrix/)|[src/q_1301_1350/q1337.cc](../src/q_1301_1350/q1337.cc)|2022/03/27 23:33|
 |1338|[Reduce Array Size to The Half](https://leetcode.com/problems/reduce-array-size-to-the-half/)|[src/q_1301_1350/q1338.cc](../src/q_1301_1350/q1338.cc)|2022/08/18 18:23|
