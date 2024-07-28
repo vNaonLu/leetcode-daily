@@ -1394,3 +1394,10 @@ timestamp,id,tc,sc,notes
 1720848679,2751,n ^ 2,n,n = |positiions.size()|
 1720938630,726,-,-,not calculated
 1721042476,2196,n,n,n = |descriptions.size()|
+1721130767,2096,n,n,n = |root.size()|
+1721215004,1110,n,n,n = |root.size()|
+1721305659,1530,-,-,not calculated
+1721398624,3210,n,1,n = |s.size()|
+1721455899,1605,n * m,1,"n = |colSum.size()|, m = |rowSum.size()|"
+1721537075,2392,k ^ 2,k,
+1721651085,3216,n,1,n = |s.size()|

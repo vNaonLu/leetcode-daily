@@ -1,6 +1,6 @@
 # Unsolved Solutions List
 
-There are **1818** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
+There are **1819** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
 
 The questions which have been solved are not shown in this page, more information about solved questions can be found at [docs/solved_solutions.md](./solved_solutions.md).
 
@@ -399,7 +399,6 @@ The questions which have been solved are not shown in this page, more informatio
 |1106|[Parsing A Boolean Expression](https://leetcode.com/problems/parsing-a-boolean-expression/)|Hard||
 |1107|[New Users Daily Count](https://leetcode.com/problems/new-users-daily-count/)|Medium|🔒|
 |1109|[Corporate Flight Bookings](https://leetcode.com/problems/corporate-flight-bookings/)|Medium||
-|1110|[Delete Nodes And Return Forest](https://leetcode.com/problems/delete-nodes-and-return-forest/)|Medium||
 |1111|[Maximum Nesting Depth of Two Valid Parentheses Strings](https://leetcode.com/problems/maximum-nesting-depth-of-two-valid-parentheses-strings/)|Medium||
 |1112|[Highest Grade For Each Student](https://leetcode.com/problems/highest-grade-for-each-student/)|Medium|🔒|
 |1113|[Reported Posts](https://leetcode.com/problems/reported-posts/)|Easy|🔒|
@@ -642,7 +641,6 @@ The questions which have been solved are not shown in this page, more informatio
 |1525|[Number of Good Ways to Split a String](https://leetcode.com/problems/number-of-good-ways-to-split-a-string/)|Medium||
 |1526|[Minimum Number of Increments on Subarrays to Form a Target Array](https://leetcode.com/problems/minimum-number-of-increments-on-subarrays-to-form-a-target-array/)|Hard||
 |1527|[Patients With a Condition](https://leetcode.com/problems/patients-with-a-condition/)|Easy||
-|1530|[Number of Good Leaf Nodes Pairs](https://leetcode.com/problems/number-of-good-leaf-nodes-pairs/)|Medium||
 |1532|[The Most Recent Three Orders](https://leetcode.com/problems/the-most-recent-three-orders/)|Medium|🔒|
 |1533|[Find the Index of the Large Integer](https://leetcode.com/problems/find-the-index-of-the-large-integer/)|Medium|🔒|
 |1536|[Minimum Swaps to Arrange a Binary Grid](https://leetcode.com/problems/minimum-swaps-to-arrange-a-binary-grid/)|Medium||
@@ -686,7 +684,6 @@ The questions which have been solved are not shown in this page, more informatio
 |1600|[Throne Inheritance](https://leetcode.com/problems/throne-inheritance/)|Medium||
 |1602|[Find Nearest Right Node in Binary Tree](https://leetcode.com/problems/find-nearest-right-node-in-binary-tree/)|Medium|🔒|
 |1604|[Alert Using Same Key-Card Three or More Times in a One Hour Period](https://leetcode.com/problems/alert-using-same-key-card-three-or-more-times-in-a-one-hour-period/)|Medium||
-|1605|[Find Valid Matrix Given Row and Column Sums](https://leetcode.com/problems/find-valid-matrix-given-row-and-column-sums/)|Medium||
 |1606|[Find Servers That Handled Most Number of Requests](https://leetcode.com/problems/find-servers-that-handled-most-number-of-requests/)|Hard||
 |1607|[Sellers With No Sales](https://leetcode.com/problems/sellers-with-no-sales/)|Easy|🔒|
 |1610|[Maximum Number of Visible Points](https://leetcode.com/problems/maximum-number-of-visible-points/)|Hard||
@@ -996,7 +993,6 @@ The questions which have been solved are not shown in this page, more informatio
 |2088|[Count Fertile Pyramids in a Land](https://leetcode.com/problems/count-fertile-pyramids-in-a-land/)|Hard||
 |2091|[Removing Minimum and Maximum From Array](https://leetcode.com/problems/removing-minimum-and-maximum-from-array/)|Medium||
 |2093|[Minimum Cost to Reach City With Discounts](https://leetcode.com/problems/minimum-cost-to-reach-city-with-discounts/)|Medium|🔒|
-|2096|[Step-By-Step Directions From a Binary Tree Node to Another](https://leetcode.com/problems/step-by-step-directions-from-a-binary-tree-node-to-another/)|Medium||
 |2097|[Valid Arrangement of Pairs](https://leetcode.com/problems/valid-arrangement-of-pairs/)|Hard||
 |2098|[Subsequence of Size K With the Largest Even Sum](https://leetcode.com/problems/subsequence-of-size-k-with-the-largest-even-sum/)|Medium|🔒|
 |2100|[Find Good Days to Rob the Bank](https://leetcode.com/problems/find-good-days-to-rob-the-bank/)|Medium||
@@ -1187,7 +1183,6 @@ The questions which have been solved are not shown in this page, more informatio
 |2386|[Find the K-Sum of an Array](https://leetcode.com/problems/find-the-k-sum-of-an-array/)|Hard||
 |2387|[Median of a Row Wise Sorted Matrix](https://leetcode.com/problems/median-of-a-row-wise-sorted-matrix/)|Medium|🔒|
 |2388|[Change Null Values in a Table to the Previous Value](https://leetcode.com/problems/change-null-values-in-a-table-to-the-previous-value/)|Medium|🔒|
-|2392|[Build a Matrix With Conditions](https://leetcode.com/problems/build-a-matrix-with-conditions/)|Hard||
 |2393|[Count Strictly Increasing Subarrays](https://leetcode.com/problems/count-strictly-increasing-subarrays/)|Medium|🔒|
 |2394|[Employees With Deductions](https://leetcode.com/problems/employees-with-deductions/)|Medium|🔒|
 |2396|[Strictly Palindromic Number](https://leetcode.com/problems/strictly-palindromic-number/)|Medium||
@@ -1821,7 +1816,13 @@ The questions which have been solved are not shown in this page, more informatio
 |3207|[Maximum Points After Enemy Battles](https://leetcode.com/problems/maximum-points-after-enemy-battles/)|Medium||
 |3208|[Alternating Groups II](https://leetcode.com/problems/alternating-groups-ii/)|Medium||
 |3209|[Number of Subarrays With AND Value of K](https://leetcode.com/problems/number-of-subarrays-with-and-value-of-k/)|Hard||
-|3210|[Find the Encrypted String](https://leetcode.com/problems/find-the-encrypted-string/)|Easy||
 |3211|[Generate Binary Strings Without Adjacent Zeros](https://leetcode.com/problems/generate-binary-strings-without-adjacent-zeros/)|Medium||
 |3212|[Count Submatrices With Equal Frequency of X and Y](https://leetcode.com/problems/count-submatrices-with-equal-frequency-of-x-and-y/)|Medium||
 |3213|[Construct String with Minimum Cost](https://leetcode.com/problems/construct-string-with-minimum-cost/)|Hard||
+|3214|[Year on Year Growth Rate](https://leetcode.com/problems/year-on-year-growth-rate/)|Hard|🔒|
+|3215|[Count Triplets with Even XOR Set Bits II](https://leetcode.com/problems/count-triplets-with-even-xor-set-bits-ii/)|Medium|🔒|
+|3217|[Delete Nodes From Linked List Present in Array](https://leetcode.com/problems/delete-nodes-from-linked-list-present-in-array/)|Medium||
+|3218|[Minimum Cost for Cutting Cake I](https://leetcode.com/problems/minimum-cost-for-cutting-cake-i/)|Medium||
+|3219|[Minimum Cost for Cutting Cake II](https://leetcode.com/problems/minimum-cost-for-cutting-cake-ii/)|Hard||
+|3220|[Odd and Even Transactions](https://leetcode.com/problems/odd-and-even-transactions/)|Medium||
+|3221|[Maximum Array Hopping Score II](https://leetcode.com/problems/maximum-array-hopping-score-ii/)|Medium|🔒|

@@ -3212,3 +3212,11 @@ id,backend_id,title,level,slug,paid
 3211,3453,Generate Binary Strings Without Adjacent Zeros,2,generate-binary-strings-without-adjacent-zeros,0
 3212,3492,Count Submatrices With Equal Frequency of X and Y,2,count-submatrices-with-equal-frequency-of-x-and-y,0
 3213,3482,Construct String with Minimum Cost,3,construct-string-with-minimum-cost,0
+3214,3520,Year on Year Growth Rate,3,year-on-year-growth-rate,1
+3215,3521,Count Triplets with Even XOR Set Bits II,2,count-triplets-with-even-xor-set-bits-ii,1
+3216,3484,Lexicographically Smallest String After a Swap,1,lexicographically-smallest-string-after-a-swap,0
+3217,3501,Delete Nodes From Linked List Present in Array,2,delete-nodes-from-linked-list-present-in-array,0
+3218,3494,Minimum Cost for Cutting Cake I,2,minimum-cost-for-cutting-cake-i,0
+3219,3500,Minimum Cost for Cutting Cake II,3,minimum-cost-for-cutting-cake-ii,0
+3220,3530,Odd and Even Transactions,2,odd-and-even-transactions,0
+3221,3529,Maximum Array Hopping Score II,2,maximum-array-hopping-score-ii,1
