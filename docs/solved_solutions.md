@@ -1,6 +1,6 @@
 # Solved Solutions List
 
-This document contains **1409** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
+This document contains **1410** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
 
 Some questions which are still being resolved are not shown in this page, more information about unsolved questions can be found at [docs/unsolved_solutions.md](./unsolved_solutions.md).
 
@@ -958,6 +958,7 @@ Some questions which are still being resolved are not shown in this page, more i
 |1647|[Minimum Deletions to Make Character Frequencies Unique](https://leetcode.com/problems/minimum-deletions-to-make-character-frequencies-unique/)|[src/q_1601_1650/q1647.cc](../src/q_1601_1650/q1647.cc)|2022/06/28 18:08|
 |1648|[Sell Diminishing-Valued Colored Balls](https://leetcode.com/problems/sell-diminishing-valued-colored-balls/)|[src/q_1601_1650/q1648.cc](../src/q_1601_1650/q1648.cc)|2022/08/01 18:48|
 |1652|[Defuse the Bomb](https://leetcode.com/problems/defuse-the-bomb/)|[src/q_1651_1700/q1652.cc](../src/q_1651_1700/q1652.cc)|2022/12/19 21:04|
+|1653|[Minimum Deletions to Make String Balanced](https://leetcode.com/problems/minimum-deletions-to-make-string-balanced/)|[src/q_1651_1700/q1653.cc](../src/q_1651_1700/q1653.cc)|2024/07/30 20:35|
 |1654|[Minimum Jumps to Reach Home](https://leetcode.com/problems/minimum-jumps-to-reach-home/)|[src/q_1651_1700/q1654.cc](../src/q_1651_1700/q1654.cc)|2022/03/20 13:57|
 |1656|[Design an Ordered Stream](https://leetcode.com/problems/design-an-ordered-stream/)|[src/q_1651_1700/q1656.cc](../src/q_1651_1700/q1656.cc)|2022/12/26 14:39|
 |1657|[Determine if Two Strings Are Close](https://leetcode.com/problems/determine-if-two-strings-are-close/)|[src/q_1651_1700/q1657.cc](../src/q_1651_1700/q1657.cc)|2022/12/02 18:06|

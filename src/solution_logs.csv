@@ -1408,3 +1408,4 @@ timestamp,id,tc,sc,notes
 1722055519,2976,-,-,not calculated
 1722148429,2045,-,-,not calculated
 1722247376,1395,n,1,n = |rating.size()|
+1722342941,1653,n,n,n = |s.size()|
