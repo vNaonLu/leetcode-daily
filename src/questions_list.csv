@@ -3229,3 +3229,10 @@ id,backend_id,title,level,slug,paid
 3228,3493,Maximum Number of Operations to Move Ones to the End,2,maximum-number-of-operations-to-move-ones-to-the-end,0
 3229,3454,Minimum Operations to Make Array Equal to Target,3,minimum-operations-to-make-array-equal-to-target,0
 3230,3539,Customer Purchasing Behavior Analysis,2,customer-purchasing-behavior-analysis,1
+3231,3545,Minimum Number of Increasing Subsequence to Be Removed,3,minimum-number-of-increasing-subsequence-to-be-removed,1
+3232,3515,Find if Digit Game Can Be Won,1,find-if-digit-game-can-be-won,0
+3233,3507,Find the Count of Numbers Which Are Not Special,2,find-the-count-of-numbers-which-are-not-special,0
+3234,3479,Count the Number of Substrings With Dominant Ones,2,count-the-number-of-substrings-with-dominant-ones,0
+3235,3478,Check if the Rectangle Corner Is Reachable,3,check-if-the-rectangle-corner-is-reachable,0
+3236,3549,CEO Subordinate Hierarchy,3,ceo-subordinate-hierarchy,1
+3237,3538,Alt and Tab Simulation,2,alt-and-tab-simulation,1
