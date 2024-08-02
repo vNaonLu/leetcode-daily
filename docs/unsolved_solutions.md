@@ -1,6 +1,6 @@
 # Unsolved Solutions List
 
-There are **1825** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
+There are **1824** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
 
 The questions which have been solved are not shown in this page, more information about solved questions can be found at [docs/solved_solutions.md](./solved_solutions.md).
 
@@ -1800,7 +1800,6 @@ The questions which have been solved are not shown in this page, more informatio
 |3197|[Find the Minimum Area to Cover All Ones II](https://leetcode.com/problems/find-the-minimum-area-to-cover-all-ones-ii/)|Hard||
 |3198|[Find Cities in Each State](https://leetcode.com/problems/find-cities-in-each-state/)|Easy|🔒|
 |3199|[Count Triplets with Even XOR Set Bits I](https://leetcode.com/problems/count-triplets-with-even-xor-set-bits-i/)|Easy|🔒|
-|3200|[Maximum Height of a Triangle](https://leetcode.com/problems/maximum-height-of-a-triangle/)|Easy||
 |3201|[Find the Maximum Length of Valid Subsequence I](https://leetcode.com/problems/find-the-maximum-length-of-valid-subsequence-i/)|Medium||
 |3202|[Find the Maximum Length of Valid Subsequence II](https://leetcode.com/problems/find-the-maximum-length-of-valid-subsequence-ii/)|Medium||
 |3203|[Find Minimum Diameter After Merging Two Trees](https://leetcode.com/problems/find-minimum-diameter-after-merging-two-trees/)|Hard||
