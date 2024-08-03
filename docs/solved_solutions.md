@@ -1,6 +1,6 @@
 # Solved Solutions List
 
-This document contains **1402** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
+This document contains **1409** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
 
 Some questions which are still being resolved are not shown in this page, more information about unsolved questions can be found at [docs/unsolved_solutions.md](./unsolved_solutions.md).
 
@@ -808,6 +808,7 @@ Some questions which are still being resolved are not shown in this page, more i
 |1329|[Sort the Matrix Diagonally](https://leetcode.com/problems/sort-the-matrix-diagonally/)|[src/q_1301_1350/q1329.cc](../src/q_1301_1350/q1329.cc)|2022/08/28 15:01|
 |1331|[Rank Transform of an Array](https://leetcode.com/problems/rank-transform-of-an-array/)|[src/q_1301_1350/q1331.cc](../src/q_1301_1350/q1331.cc)|2023/06/09 11:35|
 |1332|[Remove Palindromic Subsequences](https://leetcode.com/problems/remove-palindromic-subsequences/)|[src/q_1301_1350/q1332.cc](../src/q_1301_1350/q1332.cc)|2022/06/08 18:02|
+|1334|[Find the City With the Smallest Number of Neighbors at a Threshold Distance](https://leetcode.com/problems/find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance/)|[src/q_1301_1350/q1334.cc](../src/q_1301_1350/q1334.cc)|2024/07/26 21:42|
 |1335|[Minimum Difficulty of a Job Schedule](https://leetcode.com/problems/minimum-difficulty-of-a-job-schedule/)|[src/q_1301_1350/q1335.cc](../src/q_1301_1350/q1335.cc)|2022/10/16 14:40|
 |1337|[The K Weakest Rows in a Matrix](https://leetcode.com/problems/the-k-weakest-rows-in-a-matrix/)|[src/q_1301_1350/q1337.cc](../src/q_1301_1350/q1337.cc)|2022/03/27 23:33|
 |1338|[Reduce Array Size to The Half](https://leetcode.com/problems/reduce-array-size-to-the-half/)|[src/q_1301_1350/q1338.cc](../src/q_1301_1350/q1338.cc)|2022/08/18 18:23|
@@ -836,6 +837,7 @@ Some questions which are still being resolved are not shown in this page, more i
 |1389|[Create Target Array in the Given Order](https://leetcode.com/problems/create-target-array-in-the-given-order/)|[src/q_1351_1400/q1389.cc](../src/q_1351_1400/q1389.cc)|2023/06/10 16:29|
 |1390|[Four Divisors](https://leetcode.com/problems/four-divisors/)|[src/q_1351_1400/q1390.cc](../src/q_1351_1400/q1390.cc)|2022/02/12 16:48|
 |1394|[Find Lucky Integer in an Array](https://leetcode.com/problems/find-lucky-integer-in-an-array/)|[src/q_1351_1400/q1394.cc](../src/q_1351_1400/q1394.cc)|2023/08/10 19:37|
+|1395|[Count Number of Teams](https://leetcode.com/problems/count-number-of-teams/)|[src/q_1351_1400/q1395.cc](../src/q_1351_1400/q1395.cc)|2024/07/29 18:02|
 |1396|[Design Underground System](https://leetcode.com/problems/design-underground-system/)|[src/q_1351_1400/q1396.cc](../src/q_1351_1400/q1396.cc)|2022/04/24 14:23|
 |1399|[Count Largest Group](https://leetcode.com/problems/count-largest-group/)|[src/q_1351_1400/q1399.cc](../src/q_1351_1400/q1399.cc)|2023/04/03 16:06|
 |1402|[Reducing Dishes](https://leetcode.com/problems/reducing-dishes/)|[src/q_1401_1450/q1402.cc](../src/q_1401_1450/q1402.cc)|2023/03/29 18:37|
@@ -1101,6 +1103,7 @@ Some questions which are still being resolved are not shown in this page, more i
 |2037|[Minimum Number of Moves to Seat Everyone](https://leetcode.com/problems/minimum-number-of-moves-to-seat-everyone/)|[src/q_2001_2050/q2037.cc](../src/q_2001_2050/q2037.cc)|2023/09/23 11:19|
 |2038|[Remove Colored Pieces if Both Neighbors are the Same Color](https://leetcode.com/problems/remove-colored-pieces-if-both-neighbors-are-the-same-color/)|[src/q_2001_2050/q2038.cc](../src/q_2001_2050/q2038.cc)|2023/10/02 21:08|
 |2042|[Check if Numbers Are Ascending in a Sentence](https://leetcode.com/problems/check-if-numbers-are-ascending-in-a-sentence/)|[src/q_2001_2050/q2042.cc](../src/q_2001_2050/q2042.cc)|2022/01/12 17:59|
+|2045|[Second Minimum Time to Reach Destination](https://leetcode.com/problems/second-minimum-time-to-reach-destination/)|[src/q_2001_2050/q2045.cc](../src/q_2001_2050/q2045.cc)|2024/07/28 14:33|
 |2047|[Number of Valid Words in a Sentence](https://leetcode.com/problems/number-of-valid-words-in-a-sentence/)|[src/q_2001_2050/q2047.cc](../src/q_2001_2050/q2047.cc)|2023/09/24 12:25|
 |2050|[Parallel Courses III](https://leetcode.com/problems/parallel-courses-iii/)|[src/q_2001_2050/q2050.cc](../src/q_2001_2050/q2050.cc)|2023/10/18 19:39|
 |2053|[Kth Distinct String in an Array](https://leetcode.com/problems/kth-distinct-string-in-an-array/)|[src/q_2051_2100/q2053.cc](../src/q_2051_2100/q2053.cc)|2023/01/05 16:23|
@@ -1148,6 +1151,7 @@ Some questions which are still being resolved are not shown in this page, more i
 |2185|[Counting Words With a Given Prefix](https://leetcode.com/problems/counting-words-with-a-given-prefix/)|[src/q_2151_2200/q2185.cc](../src/q_2151_2200/q2185.cc)|2023/03/12 16:59|
 |2187|[Minimum Time to Complete Trips](https://leetcode.com/problems/minimum-time-to-complete-trips/)|[src/q_2151_2200/q2187.cc](../src/q_2151_2200/q2187.cc)|2023/03/07 20:26|
 |2190|[Most Frequent Number Following Key In an Array](https://leetcode.com/problems/most-frequent-number-following-key-in-an-array/)|[src/q_2151_2200/q2190.cc](../src/q_2151_2200/q2190.cc)|2023/10/13 10:56|
+|2191|[Sort the Jumbled Numbers](https://leetcode.com/problems/sort-the-jumbled-numbers/)|[src/q_2151_2200/q2191.cc](../src/q_2151_2200/q2191.cc)|2024/07/24 12:18|
 |2192|[All Ancestors of a Node in a Directed Acyclic Graph](https://leetcode.com/problems/all-ancestors-of-a-node-in-a-directed-acyclic-graph/)|[src/q_2151_2200/q2192.cc](../src/q_2151_2200/q2192.cc)|2024/06/29 14:36|
 |2194|[Cells in a Range on an Excel Sheet](https://leetcode.com/problems/cells-in-a-range-on-an-excel-sheet/)|[src/q_2151_2200/q2194.cc](../src/q_2151_2200/q2194.cc)|2023/02/21 18:45|
 |2196|[Create Binary Tree From Descriptions](https://leetcode.com/problems/create-binary-tree-from-descriptions/)|[src/q_2151_2200/q2196.cc](../src/q_2151_2200/q2196.cc)|2024/07/15 19:21|
@@ -1364,6 +1368,7 @@ Some questions which are still being resolved are not shown in this page, more i
 |2970|[Count the Number of Incremovable Subarrays I](https://leetcode.com/problems/count-the-number-of-incremovable-subarrays-i/)|[src/q_2951_3000/q2970.cc](../src/q_2951_3000/q2970.cc)|2024/02/12 12:25|
 |2971|[Find Polygon With the Largest Perimeter](https://leetcode.com/problems/find-polygon-with-the-largest-perimeter/)|[src/q_2951_3000/q2971.cc](../src/q_2951_3000/q2971.cc)|2024/02/15 18:03|
 |2974|[Minimum Number Game](https://leetcode.com/problems/minimum-number-game/)|[src/q_2951_3000/q2974.cc](../src/q_2951_3000/q2974.cc)|2024/02/13 13:30|
+|2976|[Minimum Cost to Convert String I](https://leetcode.com/problems/minimum-cost-to-convert-string-i/)|[src/q_2951_3000/q2976.cc](../src/q_2951_3000/q2976.cc)|2024/07/27 12:45|
 |2980|[Check if Bitwise OR Has Trailing Zeros](https://leetcode.com/problems/check-if-bitwise-or-has-trailing-zeros/)|[src/q_2951_3000/q2980.cc](../src/q_2951_3000/q2980.cc)|2024/02/14 11:10|
 |2996|[Smallest Missing Integer Greater Than Sequential Prefix Sum](https://leetcode.com/problems/smallest-missing-integer-greater-than-sequential-prefix-sum/)|[src/q_2951_3000/q2996.cc](../src/q_2951_3000/q2996.cc)|2024/02/19 21:26|
 |2997|[Minimum Number of Operations to Make Array XOR Equal to K](https://leetcode.com/problems/minimum-number-of-operations-to-make-array-xor-equal-to-k/)|[src/q_2951_3000/q2997.cc](../src/q_2951_3000/q2997.cc)|2024/04/29 21:20|
@@ -1409,3 +1414,5 @@ Some questions which are still being resolved are not shown in this page, more i
 |3206|[Alternating Groups I](https://leetcode.com/problems/alternating-groups-i/)|[src/q_3201_3250/q3206.cc](../src/q_3201_3250/q3206.cc)|2024/07/07 12:56|
 |3210|[Find the Encrypted String](https://leetcode.com/problems/find-the-encrypted-string/)|[src/q_3201_3250/q3210.cc](../src/q_3201_3250/q3210.cc)|2024/07/19 22:17|
 |3216|[Lexicographically Smallest String After a Swap](https://leetcode.com/problems/lexicographically-smallest-string-after-a-swap/)|[src/q_3201_3250/q3216.cc](../src/q_3201_3250/q3216.cc)|2024/07/22 20:24|
+|3222|[Find the Winning Player in Coin Game](https://leetcode.com/problems/find-the-winning-player-in-coin-game/)|[src/q_3201_3250/q3222.cc](../src/q_3201_3250/q3222.cc)|2024/07/23 22:27|
+|3226|[Number of Bit Changes to Make Two Integers Equal](https://leetcode.com/problems/number-of-bit-changes-to-make-two-integers-equal/)|[src/q_3201_3250/q3226.cc](../src/q_3201_3250/q3226.cc)|2024/07/25 16:02|

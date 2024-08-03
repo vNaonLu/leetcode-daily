@@ -1,6 +1,6 @@
 # Unsolved Solutions List
 
-There are **1819** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
+There are **1821** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
 
 The questions which have been solved are not shown in this page, more information about solved questions can be found at [docs/solved_solutions.md](./solved_solutions.md).
 
@@ -539,7 +539,6 @@ The questions which have been solved are not shown in this page, more informatio
 |1327|[List the Products Ordered in a Period](https://leetcode.com/problems/list-the-products-ordered-in-a-period/)|Easy||
 |1330|[Reverse Subarray To Maximize Array Value](https://leetcode.com/problems/reverse-subarray-to-maximize-array-value/)|Hard||
 |1333|[Filter Restaurants by Vegan-Friendly, Price and Distance](https://leetcode.com/problems/filter-restaurants-by-vegan-friendly-price-and-distance/)|Medium||
-|1334|[Find the City With the Smallest Number of Neighbors at a Threshold Distance](https://leetcode.com/problems/find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance/)|Medium||
 |1336|[Number of Transactions per Visit](https://leetcode.com/problems/number-of-transactions-per-visit/)|Hard|🔒|
 |1339|[Maximum Product of Splitted Binary Tree](https://leetcode.com/problems/maximum-product-of-splitted-binary-tree/)|Medium||
 |1340|[Jump Game V](https://leetcode.com/problems/jump-game-v/)|Hard||
@@ -572,7 +571,6 @@ The questions which have been solved are not shown in this page, more informatio
 |1391|[Check if There is a Valid Path in a Grid](https://leetcode.com/problems/check-if-there-is-a-valid-path-in-a-grid/)|Medium||
 |1392|[Longest Happy Prefix](https://leetcode.com/problems/longest-happy-prefix/)|Hard||
 |1393|[Capital Gain/Loss](https://leetcode.com/problems/capital-gainloss/)|Medium||
-|1395|[Count Number of Teams](https://leetcode.com/problems/count-number-of-teams/)|Medium||
 |1397|[Find All Good Strings](https://leetcode.com/problems/find-all-good-strings/)|Hard||
 |1398|[Customers Who Bought Products A and B but Not C](https://leetcode.com/problems/customers-who-bought-products-a-and-b-but-not-c/)|Medium|🔒|
 |1400|[Construct K Palindrome Strings](https://leetcode.com/problems/construct-k-palindrome-strings/)|Medium||
@@ -957,7 +955,6 @@ The questions which have been solved are not shown in this page, more informatio
 |2041|[Accepted Candidates From the Interviews](https://leetcode.com/problems/accepted-candidates-from-the-interviews/)|Medium|🔒|
 |2043|[Simple Bank System](https://leetcode.com/problems/simple-bank-system/)|Medium||
 |2044|[Count Number of Maximum Bitwise-OR Subsets](https://leetcode.com/problems/count-number-of-maximum-bitwise-or-subsets/)|Medium||
-|2045|[Second Minimum Time to Reach Destination](https://leetcode.com/problems/second-minimum-time-to-reach-destination/)|Hard||
 |2046|[Sort Linked List Already Sorted Using Absolute Values](https://leetcode.com/problems/sort-linked-list-already-sorted-using-absolute-values/)|Medium|🔒|
 |2048|[Next Greater Numerically Balanced Number](https://leetcode.com/problems/next-greater-numerically-balanced-number/)|Medium||
 |2049|[Count Nodes With the Highest Score](https://leetcode.com/problems/count-nodes-with-the-highest-score/)|Medium||
@@ -1056,7 +1053,6 @@ The questions which have been solved are not shown in this page, more informatio
 |2186|[Minimum Number of Steps to Make Two Strings Anagram II](https://leetcode.com/problems/minimum-number-of-steps-to-make-two-strings-anagram-ii/)|Medium||
 |2188|[Minimum Time to Finish the Race](https://leetcode.com/problems/minimum-time-to-finish-the-race/)|Hard||
 |2189|[Number of Ways to Build House of Cards](https://leetcode.com/problems/number-of-ways-to-build-house-of-cards/)|Medium|🔒|
-|2191|[Sort the Jumbled Numbers](https://leetcode.com/problems/sort-the-jumbled-numbers/)|Medium||
 |2193|[Minimum Number of Moves to Make Palindrome](https://leetcode.com/problems/minimum-number-of-moves-to-make-palindrome/)|Hard||
 |2195|[Append K Integers With Minimal Sum](https://leetcode.com/problems/append-k-integers-with-minimal-sum/)|Medium||
 |2197|[Replace Non-Coprime Numbers in Array](https://leetcode.com/problems/replace-non-coprime-numbers-in-array/)|Hard||
@@ -1625,7 +1621,6 @@ The questions which have been solved are not shown in this page, more informatio
 |2972|[Count the Number of Incremovable Subarrays II](https://leetcode.com/problems/count-the-number-of-incremovable-subarrays-ii/)|Hard||
 |2973|[Find Number of Coins to Place in Tree Nodes](https://leetcode.com/problems/find-number-of-coins-to-place-in-tree-nodes/)|Hard||
 |2975|[Maximum Square Area by Removing Fences From a Field](https://leetcode.com/problems/maximum-square-area-by-removing-fences-from-a-field/)|Medium||
-|2976|[Minimum Cost to Convert String I](https://leetcode.com/problems/minimum-cost-to-convert-string-i/)|Medium||
 |2977|[Minimum Cost to Convert String II](https://leetcode.com/problems/minimum-cost-to-convert-string-ii/)|Hard||
 |2978|[Symmetric Coordinates](https://leetcode.com/problems/symmetric-coordinates/)|Medium|🔒|
 |2979|[Most Expensive Item That Can Not Be Bought](https://leetcode.com/problems/most-expensive-item-that-can-not-be-bought/)|Medium|🔒|
@@ -1826,3 +1821,10 @@ The questions which have been solved are not shown in this page, more informatio
 |3219|[Minimum Cost for Cutting Cake II](https://leetcode.com/problems/minimum-cost-for-cutting-cake-ii/)|Hard||
 |3220|[Odd and Even Transactions](https://leetcode.com/problems/odd-and-even-transactions/)|Medium||
 |3221|[Maximum Array Hopping Score II](https://leetcode.com/problems/maximum-array-hopping-score-ii/)|Medium|🔒|
+|3223|[Minimum Length of String After Operations](https://leetcode.com/problems/minimum-length-of-string-after-operations/)|Medium||
+|3224|[Minimum Array Changes to Make Differences Equal](https://leetcode.com/problems/minimum-array-changes-to-make-differences-equal/)|Medium||
+|3225|[Maximum Score From Grid Operations](https://leetcode.com/problems/maximum-score-from-grid-operations/)|Hard||
+|3227|[Vowels Game in a String](https://leetcode.com/problems/vowels-game-in-a-string/)|Medium||
+|3228|[Maximum Number of Operations to Move Ones to the End](https://leetcode.com/problems/maximum-number-of-operations-to-move-ones-to-the-end/)|Medium||
+|3229|[Minimum Operations to Make Array Equal to Target](https://leetcode.com/problems/minimum-operations-to-make-array-equal-to-target/)|Hard||
+|3230|[Customer Purchasing Behavior Analysis](https://leetcode.com/problems/customer-purchasing-behavior-analysis/)|Medium|🔒|
