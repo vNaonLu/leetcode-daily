@@ -1412,3 +1412,4 @@ timestamp,id,tc,sc,notes
 1722438306,1105,n ^ 2,n,n = |books.size()|
 1722510614,3232,n,1,n = |nums.size()|
 1722600397,3200,1,1,
+1722670488,809,n * E,1,"n = |s.size()|, E = |sum(words[i])|"

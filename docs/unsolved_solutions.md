@@ -1,6 +1,6 @@
 # Unsolved Solutions List
 
-There are **1824** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
+There are **1823** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
 
 The questions which have been solved are not shown in this page, more information about solved questions can be found at [docs/solved_solutions.md](./solved_solutions.md).
 
@@ -270,7 +270,6 @@ The questions which have been solved are not shown in this page, more informatio
 |801|[Minimum Swaps To Make Sequences Increasing](https://leetcode.com/problems/minimum-swaps-to-make-sequences-increasing/)|Hard||
 |803|[Bricks Falling When Hit](https://leetcode.com/problems/bricks-falling-when-hit/)|Hard||
 |805|[Split Array With Same Average](https://leetcode.com/problems/split-array-with-same-average/)|Hard||
-|809|[Expressive Words](https://leetcode.com/problems/expressive-words/)|Medium||
 |810|[Chalkboard XOR Game](https://leetcode.com/problems/chalkboard-xor-game/)|Hard||
 |811|[Subdomain Visit Count](https://leetcode.com/problems/subdomain-visit-count/)|Medium||
 |813|[Largest Sum of Averages](https://leetcode.com/problems/largest-sum-of-averages/)|Medium||
