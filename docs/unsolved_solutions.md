@@ -1,6 +1,6 @@
 # Unsolved Solutions List
 
-There are **1822** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
+There are **1821** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
 
 The questions which have been solved are not shown in this page, more information about solved questions can be found at [docs/solved_solutions.md](./solved_solutions.md).
 
@@ -271,7 +271,6 @@ The questions which have been solved are not shown in this page, more informatio
 |803|[Bricks Falling When Hit](https://leetcode.com/problems/bricks-falling-when-hit/)|Hard||
 |805|[Split Array With Same Average](https://leetcode.com/problems/split-array-with-same-average/)|Hard||
 |810|[Chalkboard XOR Game](https://leetcode.com/problems/chalkboard-xor-game/)|Hard||
-|813|[Largest Sum of Averages](https://leetcode.com/problems/largest-sum-of-averages/)|Medium||
 |816|[Ambiguous Coordinates](https://leetcode.com/problems/ambiguous-coordinates/)|Medium||
 |817|[Linked List Components](https://leetcode.com/problems/linked-list-components/)|Medium||
 |818|[Race Car](https://leetcode.com/problems/race-car/)|Hard||
