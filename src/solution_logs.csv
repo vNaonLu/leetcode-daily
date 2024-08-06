@@ -1415,3 +1415,4 @@ timestamp,id,tc,sc,notes
 1722670488,809,n * E,1,"n = |s.size()|, E = |sum(words[i])|"
 1722753275,811,E,E,E = |sum(cpdomains[i])|
 1722866983,813,-,-,not calculated
+1722952309,3016,n,1,n = |word.size()|
