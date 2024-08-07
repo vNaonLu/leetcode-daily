@@ -239,6 +239,7 @@ def ldtGenImpl(*, src_path: Path, build_path: Path, build_flag: str, compile_com
     ARG_COMPILE_COMMAND_FLAG = compile_commands_flag
     ARG_LEETCODE_TEST_FLAG = leetcode_test_flag
     ARG_INFRA_TEST_FLAG = infra_test_flag
+    ARG_IDS = questions
 
     LOG.verbose(
         "checking whether the CMakeLists.txt exists in the directory: {}", ARG_SRC_PATH)
@@ -267,9 +268,9 @@ def ldtGenImpl(*, src_path: Path, build_path: Path, build_flag: str, compile_com
         f"-DENABLE_INFRA_TEST={ARG_INFRA_TEST_FLAG}",
     ])
 
-    if questions:
+    if ARG_IDS:
         CMD.extend([
-            f"-DENABLE_BUILD_PARTIAL_SOURCE={';'.join([str(x) for x in questions])}"
+            f"-DENABLE_BUILD_PARTIAL_SOURCE={';'.join([str(x) for x in ARG_IDS])}"
         ])
 
     LOG.funcVerbose("generate CMake build files with flag: {}", LOG.format(
@@ -286,6 +287,10 @@ def ldtGenImpl(*, src_path: Path, build_path: Path, build_flag: str, compile_com
     if ARG_INFRA_TEST_FLAG == "ON":
         LOG.funcVerbose("generate CMake build files with flag: {}", LOG.format(
             f"-DENABLE_INFRA_TEST={ARG_INFRA_TEST_FLAG}", flag=LOG.HIGHTLIGHT))
+
+    if ARG_IDS:
+        LOG.funcVerbose("generate CMake build files with flag: {}", LOG.format(
+            f"-DENABLE_BUILD_PARTIAL_SOURCE={';'.join([str(x) for x in ARG_IDS])}", flag=LOG.HIGHTLIGHT))
 
     TASK = LOG.createTaskLog("Generate {} Build Files".format(ARG_BUILD_FLAG))
 
