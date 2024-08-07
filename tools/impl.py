@@ -7,6 +7,7 @@ from enum import Enum
 # prevent generating __pycache__
 sys.dont_write_bytecode = True
 
+from typing import Optional
 from utils import *
 from logs import *
 from refs import *
@@ -230,7 +231,7 @@ def updateReadmeDocument(*, resolve_logs: ResolveLogsList, assets_path: Path, do
     return True
 
 
-def ldtGenImpl(*, src_path: Path, build_path: Path, build_flag: str, compile_commands_flag: str, leetcode_test_flag: str, infra_test_flag: str, use_ninja: bool = True):
+def ldtGenImpl(*, src_path: Path, build_path: Path, build_flag: str, compile_commands_flag: str, leetcode_test_flag: str, infra_test_flag: str, questions: Optional[list[int]] = None, use_ninja: bool = True):
     LOG = prompt.Log.getInstance()
     ARG_SRC_PATH = src_path
     ARG_BUILD_PATH = build_path
@@ -265,6 +266,11 @@ def ldtGenImpl(*, src_path: Path, build_path: Path, build_flag: str, compile_com
         f"-DENABLE_LEETCODE_TEST={ARG_LEETCODE_TEST_FLAG}",
         f"-DENABLE_INFRA_TEST={ARG_INFRA_TEST_FLAG}",
     ])
+
+    if questions:
+        CMD.extend([
+            f"-DENABLE_BUILD_PARTIAL_SOURCE={';'.join([str(x) for x in questions])}"
+        ])
 
     LOG.funcVerbose("generate CMake build files with flag: {}", LOG.format(
         f"-DCMAKE_BUILD_TYPE={ARG_BUILD_FLAG}", flag=LOG.HIGHTLIGHT))
@@ -654,6 +660,7 @@ def solveProblem(*, build_path: Path,
                build_flag="Debug",
                compile_commands_flag="ON",
                leetcode_test_flag="ON",
+               questions=[detail.id],
                infra_test_flag="ON") != 0:
         LOG.failure("failed to generate build files for project.")
         return False
