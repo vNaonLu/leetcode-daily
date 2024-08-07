@@ -1,6 +1,6 @@
 # Solved Solutions List
 
-This document contains **1417** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
+This document contains **1418** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
 
 Some questions which are still being resolved are not shown in this page, more information about unsolved questions can be found at [docs/unsolved_solutions.md](./unsolved_solutions.md).
 
@@ -226,6 +226,7 @@ Some questions which are still being resolved are not shown in this page, more i
 |263|[Ugly Number](https://leetcode.com/problems/ugly-number/)|[src/q_251_300/q0263.cc](../src/q_251_300/q0263.cc)|2021/11/25 18:02|
 |264|[Ugly Number II](https://leetcode.com/problems/ugly-number-ii/)|[src/q_251_300/q0264.cc](../src/q_251_300/q0264.cc)|2021/10/20 13:30|
 |268|[Missing Number](https://leetcode.com/problems/missing-number/)|[src/q_251_300/q0268.cc](../src/q_251_300/q0268.cc)|2022/05/28 12:20|
+|273|[Integer to English Words](https://leetcode.com/problems/integer-to-english-words/)|[src/q_251_300/q0273.cc](../src/q_251_300/q0273.cc)|2024/08/07 21:28|
 |274|[H-Index](https://leetcode.com/problems/h-index/)|[src/q_251_300/q0274.cc](../src/q_251_300/q0274.cc)|2024/03/13 19:56|
 |275|[H-Index II](https://leetcode.com/problems/h-index-ii/)|[src/q_251_300/q0275.cc](../src/q_251_300/q0275.cc)|2022/07/21 19:57|
 |278|[First Bad Version](https://leetcode.com/problems/first-bad-version/)|[src/q_251_300/q0278.cc](../src/q_251_300/q0278.cc)|2022/04/07 18:35|
