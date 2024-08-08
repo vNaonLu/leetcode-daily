@@ -1,6 +1,6 @@
 # Solved Solutions List
 
-This document contains **1418** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
+This document contains **1419** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
 
 Some questions which are still being resolved are not shown in this page, more information about unsolved questions can be found at [docs/unsolved_solutions.md](./unsolved_solutions.md).
 
@@ -604,6 +604,7 @@ Some questions which are still being resolved are not shown in this page, more i
 |882|[Reachable Nodes In Subdivided Graph](https://leetcode.com/problems/reachable-nodes-in-subdivided-graph/)|[src/q_851_900/q0882.cc](../src/q_851_900/q0882.cc)|2021/09/12 08:00|
 |883|[Projection Area of 3D Shapes](https://leetcode.com/problems/projection-area-of-3d-shapes/)|[src/q_851_900/q0883.cc](../src/q_851_900/q0883.cc)|2023/07/17 16:36|
 |884|[Uncommon Words from Two Sentences](https://leetcode.com/problems/uncommon-words-from-two-sentences/)|[src/q_851_900/q0884.cc](../src/q_851_900/q0884.cc)|2021/11/06 20:16|
+|885|[Spiral Matrix III](https://leetcode.com/problems/spiral-matrix-iii/)|[src/q_851_900/q0885.cc](../src/q_851_900/q0885.cc)|2024/08/08 21:12|
 |886|[Possible Bipartition](https://leetcode.com/problems/possible-bipartition/)|[src/q_851_900/q0886.cc](../src/q_851_900/q0886.cc)|2022/03/23 18:42|
 |888|[Fair Candy Swap](https://leetcode.com/problems/fair-candy-swap/)|[src/q_851_900/q0888.cc](../src/q_851_900/q0888.cc)|2021/11/12 18:29|
 |890|[Find and Replace Pattern](https://leetcode.com/problems/find-and-replace-pattern/)|[src/q_851_900/q0890.cc](../src/q_851_900/q0890.cc)|2022/07/29 18:21|

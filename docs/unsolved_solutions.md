@@ -1,6 +1,6 @@
 # Unsolved Solutions List
 
-There are **1819** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
+There are **1818** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
 
 The questions which have been solved are not shown in this page, more information about solved questions can be found at [docs/solved_solutions.md](./solved_solutions.md).
 
@@ -294,7 +294,6 @@ The questions which have been solved are not shown in this page, more informatio
 |873|[Length of Longest Fibonacci Subsequence](https://leetcode.com/problems/length-of-longest-fibonacci-subsequence/)|Medium||
 |874|[Walking Robot Simulation](https://leetcode.com/problems/walking-robot-simulation/)|Medium||
 |877|[Stone Game](https://leetcode.com/problems/stone-game/)|Medium||
-|885|[Spiral Matrix III](https://leetcode.com/problems/spiral-matrix-iii/)|Medium||
 |887|[Super Egg Drop](https://leetcode.com/problems/super-egg-drop/)|Hard||
 |889|[Construct Binary Tree from Preorder and Postorder Traversal](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-postorder-traversal/)|Medium||
 |891|[Sum of Subsequence Widths](https://leetcode.com/problems/sum-of-subsequence-widths/)|Hard||
