@@ -54,9 +54,9 @@ if(${ENABLE_LEETCODE_TEST})
     message(STATUS "Enabled partial leetcode unittests")
     set(LEECODE_SOURCE)
     foreach(V ${ENABLE_BUILD_PARTIAL_SOURCE})
-      string(REGEX REPLACE "^([1-9][1-9][1-9][1-9])$" "q*/q\\1.cc" VAR ${V})
-      string(REGEX REPLACE "^([1-9][1-9][1-9])$" "q*/q0\\1.cc" VAR ${VAR})
-      string(REGEX REPLACE "^([1-9][1-9])$" "q*/q00\\1.cc" VAR ${VAR})
+      string(REGEX REPLACE "^([1-9][0-9][0-9][0-9])$" "q*/q\\1.cc" VAR ${V})
+      string(REGEX REPLACE "^([1-9][0-9][0-9])$" "q*/q0\\1.cc" VAR ${VAR})
+      string(REGEX REPLACE "^([1-9][0-9])$" "q*/q00\\1.cc" VAR ${VAR})
       string(REGEX REPLACE "^([1-9])$" "q*/q000\\1.cc" VAR ${VAR})
       file(
         GLOB_RECURSE SOURCE
