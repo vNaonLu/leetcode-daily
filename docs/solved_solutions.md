@@ -1,6 +1,6 @@
 # Solved Solutions List
 
-This document contains **1419** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
+This document contains **1420** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
 
 Some questions which are still being resolved are not shown in this page, more information about unsolved questions can be found at [docs/unsolved_solutions.md](./unsolved_solutions.md).
 
@@ -559,6 +559,7 @@ Some questions which are still being resolved are not shown in this page, more i
 |813|[Largest Sum of Averages](https://leetcode.com/problems/largest-sum-of-averages/)|[src/q_801_850/q0813.cc](../src/q_801_850/q0813.cc)|2024/08/05 22:09|
 |814|[Binary Tree Pruning](https://leetcode.com/problems/binary-tree-pruning/)|[src/q_801_850/q0814.cc](../src/q_801_850/q0814.cc)|2022/09/06 18:11|
 |815|[Bus Routes](https://leetcode.com/problems/bus-routes/)|[src/q_801_850/q0815.cc](../src/q_801_850/q0815.cc)|2022/09/18 14:27|
+|816|[Ambiguous Coordinates](https://leetcode.com/problems/ambiguous-coordinates/)|[src/q_801_850/q0816.cc](../src/q_801_850/q0816.cc)|2024/08/09 22:50|
 |819|[Most Common Word](https://leetcode.com/problems/most-common-word/)|[src/q_801_850/q0819.cc](../src/q_801_850/q0819.cc)|2022/10/04 12:48|
 |820|[Short Encoding of Words](https://leetcode.com/problems/short-encoding-of-words/)|[src/q_801_850/q0820.cc](../src/q_801_850/q0820.cc)|2022/06/20 18:11|
 |821|[Shortest Distance to a Character](https://leetcode.com/problems/shortest-distance-to-a-character/)|[src/q_801_850/q0821.cc](../src/q_801_850/q0821.cc)|2022/10/08 14:21|

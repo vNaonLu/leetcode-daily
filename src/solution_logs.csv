@@ -1418,3 +1418,4 @@ timestamp,id,tc,sc,notes
 1722952309,3016,n,1,n = |word.size()|
 1723037302,273,-,-,not calculated
 1723122776,885,-,-,not calculated
+1723215035,816,n ^ 2,n,n = |s.size()|
