@@ -270,10 +270,7 @@ The questions which have been solved are not shown in this page, more informatio
 |801|[Minimum Swaps To Make Sequences Increasing](https://leetcode.com/problems/minimum-swaps-to-make-sequences-increasing/)|Hard||
 |803|[Bricks Falling When Hit](https://leetcode.com/problems/bricks-falling-when-hit/)|Hard||
 |805|[Split Array With Same Average](https://leetcode.com/problems/split-array-with-same-average/)|Hard||
-|809|[Expressive Words](https://leetcode.com/problems/expressive-words/)|Medium||
 |810|[Chalkboard XOR Game](https://leetcode.com/problems/chalkboard-xor-game/)|Hard||
-|811|[Subdomain Visit Count](https://leetcode.com/problems/subdomain-visit-count/)|Medium||
-|813|[Largest Sum of Averages](https://leetcode.com/problems/largest-sum-of-averages/)|Medium||
 |816|[Ambiguous Coordinates](https://leetcode.com/problems/ambiguous-coordinates/)|Medium||
 |817|[Linked List Components](https://leetcode.com/problems/linked-list-components/)|Medium||
 |818|[Race Car](https://leetcode.com/problems/race-car/)|Hard||
@@ -395,7 +392,6 @@ The questions which have been solved are not shown in this page, more informatio
 |1101|[The Earliest Moment When Everyone Become Friends](https://leetcode.com/problems/the-earliest-moment-when-everyone-become-friends/)|Medium|🔒|
 |1102|[Path With Maximum Minimum Value](https://leetcode.com/problems/path-with-maximum-minimum-value/)|Medium|🔒|
 |1104|[Path In Zigzag Labelled Binary Tree](https://leetcode.com/problems/path-in-zigzag-labelled-binary-tree/)|Medium||
-|1105|[Filling Bookcase Shelves](https://leetcode.com/problems/filling-bookcase-shelves/)|Medium||
 |1106|[Parsing A Boolean Expression](https://leetcode.com/problems/parsing-a-boolean-expression/)|Hard||
 |1107|[New Users Daily Count](https://leetcode.com/problems/new-users-daily-count/)|Medium|🔒|
 |1109|[Corporate Flight Bookings](https://leetcode.com/problems/corporate-flight-bookings/)|Medium||
@@ -708,7 +704,6 @@ The questions which have been solved are not shown in this page, more informatio
 |1649|[Create Sorted Array through Instructions](https://leetcode.com/problems/create-sorted-array-through-instructions/)|Hard||
 |1650|[Lowest Common Ancestor of a Binary Tree III](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree-iii/)|Medium|🔒|
 |1651|[Hopper Company Queries III](https://leetcode.com/problems/hopper-company-queries-iii/)|Hard|🔒|
-|1653|[Minimum Deletions to Make String Balanced](https://leetcode.com/problems/minimum-deletions-to-make-string-balanced/)|Medium||
 |1655|[Distribute Repeating Integers](https://leetcode.com/problems/distribute-repeating-integers/)|Hard||
 |1659|[Maximize Grid Happiness](https://leetcode.com/problems/maximize-grid-happiness/)|Hard||
 |1660|[Correct a Binary Tree](https://leetcode.com/problems/correct-a-binary-tree/)|Medium|🔒|
@@ -1802,7 +1797,6 @@ The questions which have been solved are not shown in this page, more informatio
 |3197|[Find the Minimum Area to Cover All Ones II](https://leetcode.com/problems/find-the-minimum-area-to-cover-all-ones-ii/)|Hard||
 |3198|[Find Cities in Each State](https://leetcode.com/problems/find-cities-in-each-state/)|Easy|🔒|
 |3199|[Count Triplets with Even XOR Set Bits I](https://leetcode.com/problems/count-triplets-with-even-xor-set-bits-i/)|Easy|🔒|
-|3200|[Maximum Height of a Triangle](https://leetcode.com/problems/maximum-height-of-a-triangle/)|Easy||
 |3201|[Find the Maximum Length of Valid Subsequence I](https://leetcode.com/problems/find-the-maximum-length-of-valid-subsequence-i/)|Medium||
 |3202|[Find the Maximum Length of Valid Subsequence II](https://leetcode.com/problems/find-the-maximum-length-of-valid-subsequence-ii/)|Medium||
 |3203|[Find Minimum Diameter After Merging Two Trees](https://leetcode.com/problems/find-minimum-diameter-after-merging-two-trees/)|Hard||
@@ -1828,3 +1822,9 @@ The questions which have been solved are not shown in this page, more informatio
 |3228|[Maximum Number of Operations to Move Ones to the End](https://leetcode.com/problems/maximum-number-of-operations-to-move-ones-to-the-end/)|Medium||
 |3229|[Minimum Operations to Make Array Equal to Target](https://leetcode.com/problems/minimum-operations-to-make-array-equal-to-target/)|Hard||
 |3230|[Customer Purchasing Behavior Analysis](https://leetcode.com/problems/customer-purchasing-behavior-analysis/)|Medium|🔒|
+|3231|[Minimum Number of Increasing Subsequence to Be Removed](https://leetcode.com/problems/minimum-number-of-increasing-subsequence-to-be-removed/)|Hard|🔒|
+|3233|[Find the Count of Numbers Which Are Not Special](https://leetcode.com/problems/find-the-count-of-numbers-which-are-not-special/)|Medium||
+|3234|[Count the Number of Substrings With Dominant Ones](https://leetcode.com/problems/count-the-number-of-substrings-with-dominant-ones/)|Medium||
+|3235|[Check if the Rectangle Corner Is Reachable](https://leetcode.com/problems/check-if-the-rectangle-corner-is-reachable/)|Hard||
+|3236|[CEO Subordinate Hierarchy](https://leetcode.com/problems/ceo-subordinate-hierarchy/)|Hard|🔒|
+|3237|[Alt and Tab Simulation](https://leetcode.com/problems/alt-and-tab-simulation/)|Medium|🔒|

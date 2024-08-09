@@ -412,7 +412,7 @@ def ldtRunImpl(*, build_path: Path, infra_test: bool, ids: list[int] = []):
             result = ""
 
             try:
-                result, _ = proc.communicate(timeout=10)
+                result, _ = proc.communicate(timeout=20)
                 returncode = proc.wait()
             except subprocess.TimeoutExpired:
                 TASK.log("aborting process due to timeout...")

@@ -1408,3 +1408,10 @@ timestamp,id,tc,sc,notes
 1722055519,2976,-,-,not calculated
 1722148429,2045,-,-,not calculated
 1722247376,1395,n,1,n = |rating.size()|
+1722342941,1653,n,n,n = |s.size()|
+1722438306,1105,n ^ 2,n,n = |books.size()|
+1722510614,3232,n,1,n = |nums.size()|
+1722600397,3200,1,1,
+1722670488,809,n * E,1,"n = |s.size()|, E = |sum(words[i])|"
+1722753275,811,E,E,E = |sum(cpdomains[i])|
+1722866983,813,-,-,not calculated
