@@ -1,6 +1,6 @@
 # Unsolved Solutions List
 
-There are **1816** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
+There are **1815** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
 
 The questions which have been solved are not shown in this page, more information about solved questions can be found at [docs/solved_solutions.md](./solved_solutions.md).
 
@@ -651,7 +651,6 @@ The questions which have been solved are not shown in this page, more informatio
 |1563|[Stone Game V](https://leetcode.com/problems/stone-game-v/)|Hard||
 |1564|[Put Boxes Into the Warehouse I](https://leetcode.com/problems/put-boxes-into-the-warehouse-i/)|Medium|🔒|
 |1565|[Unique Orders and Customers Per Month](https://leetcode.com/problems/unique-orders-and-customers-per-month/)|Easy|🔒|
-|1568|[Minimum Number of Days to Disconnect Island](https://leetcode.com/problems/minimum-number-of-days-to-disconnect-island/)|Hard||
 |1570|[Dot Product of Two Sparse Vectors](https://leetcode.com/problems/dot-product-of-two-sparse-vectors/)|Medium|🔒|
 |1571|[Warehouse Manager](https://leetcode.com/problems/warehouse-manager/)|Easy|🔒|
 |1573|[Number of Ways to Split a String](https://leetcode.com/problems/number-of-ways-to-split-a-string/)|Medium||

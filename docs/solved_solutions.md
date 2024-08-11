@@ -1,6 +1,6 @@
 # Solved Solutions List
 
-This document contains **1421** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
+This document contains **1422** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
 
 Some questions which are still being resolved are not shown in this page, more information about unsolved questions can be found at [docs/unsolved_solutions.md](./unsolved_solutions.md).
 
@@ -930,6 +930,7 @@ Some questions which are still being resolved are not shown in this page, more i
 |1562|[Find Latest Group of Size M](https://leetcode.com/problems/find-latest-group-of-size-m/)|[src/q_1551_1600/q1562.cc](../src/q_1551_1600/q1562.cc)|2022/08/01 18:36|
 |1566|[Detect Pattern of Length M Repeated K or More Times](https://leetcode.com/problems/detect-pattern-of-length-m-repeated-k-or-more-times/)|[src/q_1551_1600/q1566.cc](../src/q_1551_1600/q1566.cc)|2023/08/28 15:45|
 |1567|[Maximum Length of Subarray With Positive Product](https://leetcode.com/problems/maximum-length-of-subarray-with-positive-product/)|[src/q_1551_1600/q1567.cc](../src/q_1551_1600/q1567.cc)|2021/10/15 10:28|
+|1568|[Minimum Number of Days to Disconnect Island](https://leetcode.com/problems/minimum-number-of-days-to-disconnect-island/)|[src/q_1551_1600/q1568.cc](../src/q_1551_1600/q1568.cc)|2024/08/11 13:15|
 |1569|[Number of Ways to Reorder Array to Get Same BST](https://leetcode.com/problems/number-of-ways-to-reorder-array-to-get-same-bst/)|[src/q_1551_1600/q1569.cc](../src/q_1551_1600/q1569.cc)|2023/06/16 10:23|
 |1572|[Matrix Diagonal Sum](https://leetcode.com/problems/matrix-diagonal-sum/)|[src/q_1551_1600/q1572.cc](../src/q_1551_1600/q1572.cc)|2022/04/20 18:07|
 |1574|[Shortest Subarray to be Removed to Make Array Sorted](https://leetcode.com/problems/shortest-subarray-to-be-removed-to-make-array-sorted/)|[src/q_1551_1600/q1574.cc](../src/q_1551_1600/q1574.cc)|2022/07/27 18:21|
