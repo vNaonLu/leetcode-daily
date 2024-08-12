@@ -1,6 +1,6 @@
 # Solved Solutions List
 
-This document contains **1422** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
+This document contains **1423** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
 
 Some questions which are still being resolved are not shown in this page, more information about unsolved questions can be found at [docs/unsolved_solutions.md](./unsolved_solutions.md).
 
@@ -1429,3 +1429,4 @@ Some questions which are still being resolved are not shown in this page, more i
 |3222|[Find the Winning Player in Coin Game](https://leetcode.com/problems/find-the-winning-player-in-coin-game/)|[src/q_3201_3250/q3222.cc](../src/q_3201_3250/q3222.cc)|2024/07/23 22:27|
 |3226|[Number of Bit Changes to Make Two Integers Equal](https://leetcode.com/problems/number-of-bit-changes-to-make-two-integers-equal/)|[src/q_3201_3250/q3226.cc](../src/q_3201_3250/q3226.cc)|2024/07/25 16:02|
 |3232|[Find if Digit Game Can Be Won](https://leetcode.com/problems/find-if-digit-game-can-be-won/)|[src/q_3201_3250/q3232.cc](../src/q_3201_3250/q3232.cc)|2024/08/01 19:10|
+|3238|[Find the Number of Winning Players](https://leetcode.com/problems/find-the-number-of-winning-players/)|[src/q_3201_3250/q3238.cc](../src/q_3201_3250/q3238.cc)|2024/08/12 21:36|

@@ -1,6 +1,6 @@
 # Unsolved Solutions List
 
-There are **1830** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
+There are **1829** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
 
 The questions which have been solved are not shown in this page, more information about solved questions can be found at [docs/solved_solutions.md](./solved_solutions.md).
 
@@ -1822,7 +1822,6 @@ The questions which have been solved are not shown in this page, more informatio
 |3235|[Check if the Rectangle Corner Is Reachable](https://leetcode.com/problems/check-if-the-rectangle-corner-is-reachable/)|Hard||
 |3236|[CEO Subordinate Hierarchy](https://leetcode.com/problems/ceo-subordinate-hierarchy/)|Hard|🔒|
 |3237|[Alt and Tab Simulation](https://leetcode.com/problems/alt-and-tab-simulation/)|Medium|🔒|
-|3238|[Find the Number of Winning Players](https://leetcode.com/problems/find-the-number-of-winning-players/)|Easy||
 |3239|[Minimum Number of Flips to Make Binary Grid Palindromic I](https://leetcode.com/problems/minimum-number-of-flips-to-make-binary-grid-palindromic-i/)|Medium||
 |3240|[Minimum Number of Flips to Make Binary Grid Palindromic II](https://leetcode.com/problems/minimum-number-of-flips-to-make-binary-grid-palindromic-ii/)|Medium||
 |3241|[Time Taken to Mark All Nodes](https://leetcode.com/problems/time-taken-to-mark-all-nodes/)|Hard||

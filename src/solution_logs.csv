@@ -1421,3 +1421,4 @@ timestamp,id,tc,sc,notes
 1723215035,816,n ^ 2,n,n = |s.size()|
 1723284428,959,n ^ 2,n ^ 2,n = |grid.size()|
 1723353319,1568,-,-,not calculated
+1723469786,3238,n * m,n * m,m = |pick.size()||
