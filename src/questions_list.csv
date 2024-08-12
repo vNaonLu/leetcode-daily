@@ -3236,3 +3236,18 @@ id,backend_id,title,level,slug,paid
 3235,3478,Check if the Rectangle Corner Is Reachable,3,check-if-the-rectangle-corner-is-reachable,0
 3236,3549,CEO Subordinate Hierarchy,3,ceo-subordinate-hierarchy,1
 3237,3538,Alt and Tab Simulation,2,alt-and-tab-simulation,1
+3238,3519,Find the Number of Winning Players,1,find-the-number-of-winning-players,0
+3239,3526,Minimum Number of Flips to Make Binary Grid Palindromic I,2,minimum-number-of-flips-to-make-binary-grid-palindromic-i,0
+3240,3524,Minimum Number of Flips to Make Binary Grid Palindromic II,2,minimum-number-of-flips-to-make-binary-grid-palindromic-ii,0
+3241,3532,Time Taken to Mark All Nodes,3,time-taken-to-mark-all-nodes,0
+3242,3516,Design Neighbor Sum Service,1,design-neighbor-sum-service,0
+3243,3517,Shortest Distance After Road Addition Queries I,2,shortest-distance-after-road-addition-queries-i,0
+3244,3514,Shortest Distance After Road Addition Queries II,3,shortest-distance-after-road-addition-queries-ii,0
+3245,3527,Alternating Groups III,3,alternating-groups-iii,0
+3246,3554,Premier League Table Ranking,1,premier-league-table-ranking,1
+3247,3537,Number of Subsequences with Odd Sum,2,number-of-subsequences-with-odd-sum,1
+3248,3533,Snake in Matrix,1,snake-in-matrix,0
+3249,3486,Count the Number of Good Nodes,2,count-the-number-of-good-nodes,0
+3250,3535,Find the Count of Monotonic Pairs I,3,find-the-count-of-monotonic-pairs-i,0
+3251,3536,Find the Count of Monotonic Pairs II,3,find-the-count-of-monotonic-pairs-ii,0
+3252,3564,Premier League Table Ranking II,2,premier-league-table-ranking-ii,1

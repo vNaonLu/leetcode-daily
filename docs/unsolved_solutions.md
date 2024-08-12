@@ -1,6 +1,6 @@
 # Unsolved Solutions List
 
-There are **1815** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
+There are **1830** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
 
 The questions which have been solved are not shown in this page, more information about solved questions can be found at [docs/solved_solutions.md](./solved_solutions.md).
 
@@ -1822,3 +1822,18 @@ The questions which have been solved are not shown in this page, more informatio
 |3235|[Check if the Rectangle Corner Is Reachable](https://leetcode.com/problems/check-if-the-rectangle-corner-is-reachable/)|Hard||
 |3236|[CEO Subordinate Hierarchy](https://leetcode.com/problems/ceo-subordinate-hierarchy/)|Hard|🔒|
 |3237|[Alt and Tab Simulation](https://leetcode.com/problems/alt-and-tab-simulation/)|Medium|🔒|
+|3238|[Find the Number of Winning Players](https://leetcode.com/problems/find-the-number-of-winning-players/)|Easy||
+|3239|[Minimum Number of Flips to Make Binary Grid Palindromic I](https://leetcode.com/problems/minimum-number-of-flips-to-make-binary-grid-palindromic-i/)|Medium||
+|3240|[Minimum Number of Flips to Make Binary Grid Palindromic II](https://leetcode.com/problems/minimum-number-of-flips-to-make-binary-grid-palindromic-ii/)|Medium||
+|3241|[Time Taken to Mark All Nodes](https://leetcode.com/problems/time-taken-to-mark-all-nodes/)|Hard||
+|3242|[Design Neighbor Sum Service](https://leetcode.com/problems/design-neighbor-sum-service/)|Easy||
+|3243|[Shortest Distance After Road Addition Queries I](https://leetcode.com/problems/shortest-distance-after-road-addition-queries-i/)|Medium||
+|3244|[Shortest Distance After Road Addition Queries II](https://leetcode.com/problems/shortest-distance-after-road-addition-queries-ii/)|Hard||
+|3245|[Alternating Groups III](https://leetcode.com/problems/alternating-groups-iii/)|Hard||
+|3246|[Premier League Table Ranking](https://leetcode.com/problems/premier-league-table-ranking/)|Easy|🔒|
+|3247|[Number of Subsequences with Odd Sum](https://leetcode.com/problems/number-of-subsequences-with-odd-sum/)|Medium|🔒|
+|3248|[Snake in Matrix](https://leetcode.com/problems/snake-in-matrix/)|Easy||
+|3249|[Count the Number of Good Nodes](https://leetcode.com/problems/count-the-number-of-good-nodes/)|Medium||
+|3250|[Find the Count of Monotonic Pairs I](https://leetcode.com/problems/find-the-count-of-monotonic-pairs-i/)|Hard||
+|3251|[Find the Count of Monotonic Pairs II](https://leetcode.com/problems/find-the-count-of-monotonic-pairs-ii/)|Hard||
+|3252|[Premier League Table Ranking II](https://leetcode.com/problems/premier-league-table-ranking-ii/)|Medium|🔒|
