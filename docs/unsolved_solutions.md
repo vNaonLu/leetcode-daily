@@ -1,6 +1,6 @@
 # Unsolved Solutions List
 
-There are **1821** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
+There are **1829** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
 
 The questions which have been solved are not shown in this page, more information about solved questions can be found at [docs/solved_solutions.md](./solved_solutions.md).
 
@@ -60,7 +60,6 @@ The questions which have been solved are not shown in this page, more informatio
 |270|[Closest Binary Search Tree Value](https://leetcode.com/problems/closest-binary-search-tree-value/)|Easy|🔒|
 |271|[Encode and Decode Strings](https://leetcode.com/problems/encode-and-decode-strings/)|Medium|🔒|
 |272|[Closest Binary Search Tree Value II](https://leetcode.com/problems/closest-binary-search-tree-value-ii/)|Hard|🔒|
-|273|[Integer to English Words](https://leetcode.com/problems/integer-to-english-words/)|Hard||
 |276|[Paint Fence](https://leetcode.com/problems/paint-fence/)|Medium|🔒|
 |277|[Find the Celebrity](https://leetcode.com/problems/find-the-celebrity/)|Medium|🔒|
 |280|[Wiggle Sort](https://leetcode.com/problems/wiggle-sort/)|Medium|🔒|
@@ -271,7 +270,6 @@ The questions which have been solved are not shown in this page, more informatio
 |803|[Bricks Falling When Hit](https://leetcode.com/problems/bricks-falling-when-hit/)|Hard||
 |805|[Split Array With Same Average](https://leetcode.com/problems/split-array-with-same-average/)|Hard||
 |810|[Chalkboard XOR Game](https://leetcode.com/problems/chalkboard-xor-game/)|Hard||
-|816|[Ambiguous Coordinates](https://leetcode.com/problems/ambiguous-coordinates/)|Medium||
 |817|[Linked List Components](https://leetcode.com/problems/linked-list-components/)|Medium||
 |818|[Race Car](https://leetcode.com/problems/race-car/)|Hard||
 |822|[Card Flipping Game](https://leetcode.com/problems/card-flipping-game/)|Medium||
@@ -295,7 +293,6 @@ The questions which have been solved are not shown in this page, more informatio
 |873|[Length of Longest Fibonacci Subsequence](https://leetcode.com/problems/length-of-longest-fibonacci-subsequence/)|Medium||
 |874|[Walking Robot Simulation](https://leetcode.com/problems/walking-robot-simulation/)|Medium||
 |877|[Stone Game](https://leetcode.com/problems/stone-game/)|Medium||
-|885|[Spiral Matrix III](https://leetcode.com/problems/spiral-matrix-iii/)|Medium||
 |887|[Super Egg Drop](https://leetcode.com/problems/super-egg-drop/)|Hard||
 |889|[Construct Binary Tree from Preorder and Postorder Traversal](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-postorder-traversal/)|Medium||
 |891|[Sum of Subsequence Widths](https://leetcode.com/problems/sum-of-subsequence-widths/)|Hard||
@@ -320,7 +317,6 @@ The questions which have been solved are not shown in this page, more informatio
 |954|[Array of Doubled Pairs](https://leetcode.com/problems/array-of-doubled-pairs/)|Medium||
 |955|[Delete Columns to Make Sorted II](https://leetcode.com/problems/delete-columns-to-make-sorted-ii/)|Medium||
 |957|[Prison Cells After N Days](https://leetcode.com/problems/prison-cells-after-n-days/)|Medium||
-|959|[Regions Cut By Slashes](https://leetcode.com/problems/regions-cut-by-slashes/)|Medium||
 |960|[Delete Columns to Make Sorted III](https://leetcode.com/problems/delete-columns-to-make-sorted-iii/)|Hard||
 |962|[Maximum Width Ramp](https://leetcode.com/problems/maximum-width-ramp/)|Medium||
 |963|[Minimum Area Rectangle II](https://leetcode.com/problems/minimum-area-rectangle-ii/)|Medium||
@@ -655,7 +651,6 @@ The questions which have been solved are not shown in this page, more informatio
 |1563|[Stone Game V](https://leetcode.com/problems/stone-game-v/)|Hard||
 |1564|[Put Boxes Into the Warehouse I](https://leetcode.com/problems/put-boxes-into-the-warehouse-i/)|Medium|🔒|
 |1565|[Unique Orders and Customers Per Month](https://leetcode.com/problems/unique-orders-and-customers-per-month/)|Easy|🔒|
-|1568|[Minimum Number of Days to Disconnect Island](https://leetcode.com/problems/minimum-number-of-days-to-disconnect-island/)|Hard||
 |1570|[Dot Product of Two Sparse Vectors](https://leetcode.com/problems/dot-product-of-two-sparse-vectors/)|Medium|🔒|
 |1571|[Warehouse Manager](https://leetcode.com/problems/warehouse-manager/)|Easy|🔒|
 |1573|[Number of Ways to Split a String](https://leetcode.com/problems/number-of-ways-to-split-a-string/)|Medium||
@@ -1648,7 +1643,6 @@ The questions which have been solved are not shown in this page, more informatio
 |3012|[Minimize Length of Array Using Operations](https://leetcode.com/problems/minimize-length-of-array-using-operations/)|Medium||
 |3013|[Divide an Array Into Subarrays With Minimum Cost II](https://leetcode.com/problems/divide-an-array-into-subarrays-with-minimum-cost-ii/)|Hard||
 |3015|[Count the Number of Houses at a Certain Distance I](https://leetcode.com/problems/count-the-number-of-houses-at-a-certain-distance-i/)|Medium||
-|3016|[Minimum Number of Pushes to Type Word II](https://leetcode.com/problems/minimum-number-of-pushes-to-type-word-ii/)|Medium||
 |3017|[Count the Number of Houses at a Certain Distance II](https://leetcode.com/problems/count-the-number-of-houses-at-a-certain-distance-ii/)|Hard||
 |3018|[Maximum Number of Removal Queries That Can Be Processed I](https://leetcode.com/problems/maximum-number-of-removal-queries-that-can-be-processed-i/)|Hard|🔒|
 |3020|[Find the Maximum Number of Elements in Subset](https://leetcode.com/problems/find-the-maximum-number-of-elements-in-subset/)|Medium||
@@ -1828,3 +1822,17 @@ The questions which have been solved are not shown in this page, more informatio
 |3235|[Check if the Rectangle Corner Is Reachable](https://leetcode.com/problems/check-if-the-rectangle-corner-is-reachable/)|Hard||
 |3236|[CEO Subordinate Hierarchy](https://leetcode.com/problems/ceo-subordinate-hierarchy/)|Hard|🔒|
 |3237|[Alt and Tab Simulation](https://leetcode.com/problems/alt-and-tab-simulation/)|Medium|🔒|
+|3239|[Minimum Number of Flips to Make Binary Grid Palindromic I](https://leetcode.com/problems/minimum-number-of-flips-to-make-binary-grid-palindromic-i/)|Medium||
+|3240|[Minimum Number of Flips to Make Binary Grid Palindromic II](https://leetcode.com/problems/minimum-number-of-flips-to-make-binary-grid-palindromic-ii/)|Medium||
+|3241|[Time Taken to Mark All Nodes](https://leetcode.com/problems/time-taken-to-mark-all-nodes/)|Hard||
+|3242|[Design Neighbor Sum Service](https://leetcode.com/problems/design-neighbor-sum-service/)|Easy||
+|3243|[Shortest Distance After Road Addition Queries I](https://leetcode.com/problems/shortest-distance-after-road-addition-queries-i/)|Medium||
+|3244|[Shortest Distance After Road Addition Queries II](https://leetcode.com/problems/shortest-distance-after-road-addition-queries-ii/)|Hard||
+|3245|[Alternating Groups III](https://leetcode.com/problems/alternating-groups-iii/)|Hard||
+|3246|[Premier League Table Ranking](https://leetcode.com/problems/premier-league-table-ranking/)|Easy|🔒|
+|3247|[Number of Subsequences with Odd Sum](https://leetcode.com/problems/number-of-subsequences-with-odd-sum/)|Medium|🔒|
+|3248|[Snake in Matrix](https://leetcode.com/problems/snake-in-matrix/)|Easy||
+|3249|[Count the Number of Good Nodes](https://leetcode.com/problems/count-the-number-of-good-nodes/)|Medium||
+|3250|[Find the Count of Monotonic Pairs I](https://leetcode.com/problems/find-the-count-of-monotonic-pairs-i/)|Hard||
+|3251|[Find the Count of Monotonic Pairs II](https://leetcode.com/problems/find-the-count-of-monotonic-pairs-ii/)|Hard||
+|3252|[Premier League Table Ranking II](https://leetcode.com/problems/premier-league-table-ranking-ii/)|Medium|🔒|

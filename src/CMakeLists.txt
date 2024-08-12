@@ -50,13 +50,27 @@ if(${ENABLE_LEETCODE_TEST})
       list(APPEND LEECODE_SOURCE ${UNITY_SOURCE})
       message(VERBOSE "Unified ${MENIFEST_NAME} solutions: ${UNITY_SOURCE}")
     endforeach()
-  else(${ENABLE_UNITED_BUILD})
+  elseif(NOT "${ENABLE_BUILD_PARTIAL_SOURCE}" STREQUAL "")
+    message(STATUS "Enabled partial leetcode unittests")
+    set(LEECODE_SOURCE)
+    foreach(V ${ENABLE_BUILD_PARTIAL_SOURCE})
+      string(REGEX REPLACE "^([1-9][0-9][0-9][0-9])$" "q*/q\\1.cc" VAR ${V})
+      string(REGEX REPLACE "^([1-9][0-9][0-9])$" "q*/q0\\1.cc" VAR ${VAR})
+      string(REGEX REPLACE "^([1-9][0-9])$" "q*/q00\\1.cc" VAR ${VAR})
+      string(REGEX REPLACE "^([1-9])$" "q*/q000\\1.cc" VAR ${VAR})
+      file(
+        GLOB_RECURSE SOURCE
+        "${VAR}"
+      )
+      list(APPEND LEECODE_SOURCE ${SOURCE})
+    endforeach(V ${ENABLE_BUILD_PARTIAL_SOURCE})
+  else()
     message(STATUS "Enabled leetcode unittests")
     file(
       GLOB_RECURSE LEECODE_SOURCE
       "q*/*.cc"
     )
-  endif(${ENABLE_UNITED_BUILD})
+  endif()
 
   add_executable(leetcode_test ${LEECODE_SOURCE})
   target_link_libraries(
