@@ -1,6 +1,6 @@
 # Unsolved Solutions List
 
-There are **1829** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
+There are **1828** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
 
 The questions which have been solved are not shown in this page, more information about solved questions can be found at [docs/solved_solutions.md](./solved_solutions.md).
 
@@ -1831,7 +1831,6 @@ The questions which have been solved are not shown in this page, more informatio
 |3245|[Alternating Groups III](https://leetcode.com/problems/alternating-groups-iii/)|Hard||
 |3246|[Premier League Table Ranking](https://leetcode.com/problems/premier-league-table-ranking/)|Easy|🔒|
 |3247|[Number of Subsequences with Odd Sum](https://leetcode.com/problems/number-of-subsequences-with-odd-sum/)|Medium|🔒|
-|3248|[Snake in Matrix](https://leetcode.com/problems/snake-in-matrix/)|Easy||
 |3249|[Count the Number of Good Nodes](https://leetcode.com/problems/count-the-number-of-good-nodes/)|Medium||
 |3250|[Find the Count of Monotonic Pairs I](https://leetcode.com/problems/find-the-count-of-monotonic-pairs-i/)|Hard||
 |3251|[Find the Count of Monotonic Pairs II](https://leetcode.com/problems/find-the-count-of-monotonic-pairs-ii/)|Hard||
