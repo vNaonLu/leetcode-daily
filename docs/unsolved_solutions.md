@@ -1,6 +1,6 @@
 # Unsolved Solutions List
 
-There are **1828** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
+There are **1827** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
 
 The questions which have been solved are not shown in this page, more information about solved questions can be found at [docs/solved_solutions.md](./solved_solutions.md).
 
@@ -234,7 +234,6 @@ The questions which have been solved are not shown in this page, more informatio
 |711|[Number of Distinct Islands II](https://leetcode.com/problems/number-of-distinct-islands-ii/)|Hard|🔒|
 |715|[Range Module](https://leetcode.com/problems/range-module/)|Hard||
 |716|[Max Stack](https://leetcode.com/problems/max-stack/)|Hard|🔒|
-|719|[Find K-th Smallest Pair Distance](https://leetcode.com/problems/find-k-th-smallest-pair-distance/)|Hard||
 |723|[Candy Crush](https://leetcode.com/problems/candy-crush/)|Medium|🔒|
 |727|[Minimum Window Subsequence](https://leetcode.com/problems/minimum-window-subsequence/)|Hard|🔒|
 |730|[Count Different Palindromic Subsequences](https://leetcode.com/problems/count-different-palindromic-subsequences/)|Hard||

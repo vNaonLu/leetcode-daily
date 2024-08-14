@@ -1,6 +1,6 @@
 # Solved Solutions List
 
-This document contains **1424** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
+This document contains **1425** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
 
 Some questions which are still being resolved are not shown in this page, more information about unsolved questions can be found at [docs/unsolved_solutions.md](./unsolved_solutions.md).
 
@@ -498,6 +498,7 @@ Some questions which are still being resolved are not shown in this page, more i
 |714|[Best Time to Buy and Sell Stock with Transaction Fee](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-transaction-fee/)|[src/q_701_750/q0714.cc](../src/q_701_750/q0714.cc)|2021/10/17 14:20|
 |717|[1-bit and 2-bit Characters](https://leetcode.com/problems/1-bit-and-2-bit-characters/)|[src/q_701_750/q0717.cc](../src/q_701_750/q0717.cc)|2021/10/06 00:01|
 |718|[Maximum Length of Repeated Subarray](https://leetcode.com/problems/maximum-length-of-repeated-subarray/)|[src/q_701_750/q0718.cc](../src/q_701_750/q0718.cc)|2022/09/20 17:12|
+|719|[Find K-th Smallest Pair Distance](https://leetcode.com/problems/find-k-th-smallest-pair-distance/)|[src/q_701_750/q0719.cc](../src/q_701_750/q0719.cc)|2024/08/14 21:03|
 |720|[Longest Word in Dictionary](https://leetcode.com/problems/longest-word-in-dictionary/)|[src/q_701_750/q0720.cc](../src/q_701_750/q0720.cc)|2024/06/01 15:01|
 |721|[Accounts Merge](https://leetcode.com/problems/accounts-merge/)|[src/q_701_750/q0721.cc](../src/q_701_750/q0721.cc)|2021/11/29 18:07|
 |722|[Remove Comments](https://leetcode.com/problems/remove-comments/)|[src/q_701_750/q0722.cc](../src/q_701_750/q0722.cc)|2022/11/17 17:46|
