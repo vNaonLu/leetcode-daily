@@ -1,6 +1,6 @@
 # Solved Solutions List
 
-This document contains **1426** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
+This document contains **1427** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
 
 Some questions which are still being resolved are not shown in this page, more information about unsolved questions can be found at [docs/unsolved_solutions.md](./unsolved_solutions.md).
 
@@ -440,6 +440,7 @@ Some questions which are still being resolved are not shown in this page, more i
 |621|[Task Scheduler](https://leetcode.com/problems/task-scheduler/)|[src/q_601_650/q0621.cc](../src/q_601_650/q0621.cc)|2021/11/08 18:26|
 |622|[Design Circular Queue](https://leetcode.com/problems/design-circular-queue/)|[src/q_601_650/q0622.cc](../src/q_601_650/q0622.cc)|2022/05/15 13:35|
 |623|[Add One Row to Tree](https://leetcode.com/problems/add-one-row-to-tree/)|[src/q_601_650/q0623.cc](../src/q_601_650/q0623.cc)|2022/05/26 18:26|
+|624|[Maximum Distance in Arrays](https://leetcode.com/problems/maximum-distance-in-arrays/)|[src/q_601_650/q0624.cc](../src/q_601_650/q0624.cc)|2024/08/16 19:08|
 |628|[Maximum Product of Three Numbers](https://leetcode.com/problems/maximum-product-of-three-numbers/)|[src/q_601_650/q0628.cc](../src/q_601_650/q0628.cc)|2023/07/06 19:57|
 |629|[K Inverse Pairs Array](https://leetcode.com/problems/k-inverse-pairs-array/)|[src/q_601_650/q0629.cc](../src/q_601_650/q0629.cc)|2022/07/17 14:25|
 |630|[Course Schedule III](https://leetcode.com/problems/course-schedule-iii/)|[src/q_601_650/q0630.cc](../src/q_601_650/q0630.cc)|2022/06/23 18:22|

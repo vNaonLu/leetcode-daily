@@ -1,6 +1,6 @@
 # Unsolved Solutions List
 
-There are **1826** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
+There are **1825** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
 
 The questions which have been solved are not shown in this page, more information about solved questions can be found at [docs/solved_solutions.md](./solved_solutions.md).
 
@@ -197,7 +197,6 @@ The questions which have been solved are not shown in this page, more informatio
 |618|[Students Report By Geography](https://leetcode.com/problems/students-report-by-geography/)|Hard|🔒|
 |619|[Biggest Single Number](https://leetcode.com/problems/biggest-single-number/)|Easy||
 |620|[Not Boring Movies](https://leetcode.com/problems/not-boring-movies/)|Easy||
-|624|[Maximum Distance in Arrays](https://leetcode.com/problems/maximum-distance-in-arrays/)|Medium|🔒|
 |625|[Minimum Factorization](https://leetcode.com/problems/minimum-factorization/)|Medium|🔒|
 |626|[Exchange Seats](https://leetcode.com/problems/exchange-seats/)|Medium||
 |627|[Swap Salary](https://leetcode.com/problems/swap-salary/)|Easy||
