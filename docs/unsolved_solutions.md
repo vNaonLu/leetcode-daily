@@ -1,6 +1,6 @@
 # Unsolved Solutions List
 
-There are **1825** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
+There are **1824** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
 
 The questions which have been solved are not shown in this page, more information about solved questions can be found at [docs/solved_solutions.md](./solved_solutions.md).
 
@@ -868,7 +868,6 @@ The questions which have been solved are not shown in this page, more informatio
 |1933|[Check if String Is Decomposable Into Value-Equal Substrings](https://leetcode.com/problems/check-if-string-is-decomposable-into-value-equal-substrings/)|Easy|🔒|
 |1934|[Confirmation Rate](https://leetcode.com/problems/confirmation-rate/)|Medium||
 |1936|[Add Minimum Number of Rungs](https://leetcode.com/problems/add-minimum-number-of-rungs/)|Medium||
-|1937|[Maximum Number of Points with Cost](https://leetcode.com/problems/maximum-number-of-points-with-cost/)|Medium||
 |1938|[Maximum Genetic Difference Query](https://leetcode.com/problems/maximum-genetic-difference-query/)|Hard||
 |1939|[Users That Actively Request Confirmation Messages](https://leetcode.com/problems/users-that-actively-request-confirmation-messages/)|Easy|🔒|
 |1940|[Longest Common Subsequence Between Sorted Arrays](https://leetcode.com/problems/longest-common-subsequence-between-sorted-arrays/)|Medium|🔒|
