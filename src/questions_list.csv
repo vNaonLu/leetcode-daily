@@ -622,7 +622,7 @@ id,backend_id,title,level,slug,paid
 621,621,Task Scheduler,2,task-scheduler,0
 622,860,Design Circular Queue,2,design-circular-queue,0
 623,623,Add One Row to Tree,2,add-one-row-to-tree,0
-624,624,Maximum Distance in Arrays,2,maximum-distance-in-arrays,1
+624,624,Maximum Distance in Arrays,2,maximum-distance-in-arrays,0
 625,625,Minimum Factorization,2,minimum-factorization,1
 626,626,Exchange Seats,2,exchange-seats,0
 627,627,Swap Salary,1,swap-salary,0
@@ -3251,3 +3251,12 @@ id,backend_id,title,level,slug,paid
 3250,3535,Find the Count of Monotonic Pairs I,3,find-the-count-of-monotonic-pairs-i,0
 3251,3536,Find the Count of Monotonic Pairs II,3,find-the-count-of-monotonic-pairs-ii,0
 3252,3564,Premier League Table Ranking II,2,premier-league-table-ranking-ii,1
+3253,3480,Construct String with Minimum Cost (Easy),2,construct-string-with-minimum-cost-easy,1
+3254,3522,Find the Power of K-Size Subarrays I,2,find-the-power-of-k-size-subarrays-i,0
+3255,3523,Find the Power of K-Size Subarrays II,2,find-the-power-of-k-size-subarrays-ii,0
+3256,3550,Maximum Value Sum by Placing Three Rooks I,3,maximum-value-sum-by-placing-three-rooks-i,0
+3257,3542,Maximum Value Sum by Placing Three Rooks II,3,maximum-value-sum-by-placing-three-rooks-ii,0
+3258,3543,Count Substrings That Satisfy K-Constraint I,1,count-substrings-that-satisfy-k-constraint-i,0
+3259,3525,Maximum Energy Boost From Two Drinks,2,maximum-energy-boost-from-two-drinks,0
+3260,3552,Find the Largest Palindrome Divisible by K,3,find-the-largest-palindrome-divisible-by-k,0
+3261,3546,Count Substrings That Satisfy K-Constraint II,3,count-substrings-that-satisfy-k-constraint-ii,0
