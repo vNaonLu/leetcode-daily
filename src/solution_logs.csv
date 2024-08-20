@@ -1422,3 +1422,10 @@ timestamp,id,tc,sc,notes
 1723284428,959,n ^ 2,n ^ 2,n = |grid.size()|
 1723353319,1568,-,-,not calculated
 1723469786,3238,n * m,n * m,m = |pick.size()||
+1723555349,3248,m,1,m = |commands.size()|
+1723640622,719,n * log(n),1,n = |nums.size()|
+1723731894,822,n,n,n = |fronts.size()|
+1723806523,624,n,1,n = |arrays.size()|
+1723875717,1937,m * n,n,"m = |points.size()|, n= |points[i].size()|"
+1723964991,3258,n,1,n = |s.size()|
+1724066114,650,sqrt(n),1,

@@ -1,6 +1,6 @@
 # Unsolved Solutions List
 
-There are **1829** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
+There are **1831** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
 
 The questions which have been solved are not shown in this page, more information about solved questions can be found at [docs/solved_solutions.md](./solved_solutions.md).
 
@@ -197,7 +197,6 @@ The questions which have been solved are not shown in this page, more informatio
 |618|[Students Report By Geography](https://leetcode.com/problems/students-report-by-geography/)|Hard|🔒|
 |619|[Biggest Single Number](https://leetcode.com/problems/biggest-single-number/)|Easy||
 |620|[Not Boring Movies](https://leetcode.com/problems/not-boring-movies/)|Easy||
-|624|[Maximum Distance in Arrays](https://leetcode.com/problems/maximum-distance-in-arrays/)|Medium|🔒|
 |625|[Minimum Factorization](https://leetcode.com/problems/minimum-factorization/)|Medium|🔒|
 |626|[Exchange Seats](https://leetcode.com/problems/exchange-seats/)|Medium||
 |627|[Swap Salary](https://leetcode.com/problems/swap-salary/)|Easy||
@@ -210,7 +209,6 @@ The questions which have been solved are not shown in this page, more informatio
 |639|[Decode Ways II](https://leetcode.com/problems/decode-ways-ii/)|Hard||
 |642|[Design Search Autocomplete System](https://leetcode.com/problems/design-search-autocomplete-system/)|Hard|🔒|
 |644|[Maximum Average Subarray II](https://leetcode.com/problems/maximum-average-subarray-ii/)|Hard|🔒|
-|650|[2 Keys Keyboard](https://leetcode.com/problems/2-keys-keyboard/)|Medium||
 |651|[4 Keys Keyboard](https://leetcode.com/problems/4-keys-keyboard/)|Medium|🔒|
 |656|[Coin Path](https://leetcode.com/problems/coin-path/)|Hard|🔒|
 |660|[Remove 9](https://leetcode.com/problems/remove-9/)|Hard|🔒|
@@ -234,7 +232,6 @@ The questions which have been solved are not shown in this page, more informatio
 |711|[Number of Distinct Islands II](https://leetcode.com/problems/number-of-distinct-islands-ii/)|Hard|🔒|
 |715|[Range Module](https://leetcode.com/problems/range-module/)|Hard||
 |716|[Max Stack](https://leetcode.com/problems/max-stack/)|Hard|🔒|
-|719|[Find K-th Smallest Pair Distance](https://leetcode.com/problems/find-k-th-smallest-pair-distance/)|Hard||
 |723|[Candy Crush](https://leetcode.com/problems/candy-crush/)|Medium|🔒|
 |727|[Minimum Window Subsequence](https://leetcode.com/problems/minimum-window-subsequence/)|Hard|🔒|
 |730|[Count Different Palindromic Subsequences](https://leetcode.com/problems/count-different-palindromic-subsequences/)|Hard||
@@ -272,7 +269,6 @@ The questions which have been solved are not shown in this page, more informatio
 |810|[Chalkboard XOR Game](https://leetcode.com/problems/chalkboard-xor-game/)|Hard||
 |817|[Linked List Components](https://leetcode.com/problems/linked-list-components/)|Medium||
 |818|[Race Car](https://leetcode.com/problems/race-car/)|Hard||
-|822|[Card Flipping Game](https://leetcode.com/problems/card-flipping-game/)|Medium||
 |825|[Friends Of Appropriate Ages](https://leetcode.com/problems/friends-of-appropriate-ages/)|Medium||
 |827|[Making A Large Island](https://leetcode.com/problems/making-a-large-island/)|Hard||
 |828|[Count Unique Characters of All Substrings of a Given String](https://leetcode.com/problems/count-unique-characters-of-all-substrings-of-a-given-string/)|Hard||
@@ -871,7 +867,6 @@ The questions which have been solved are not shown in this page, more informatio
 |1933|[Check if String Is Decomposable Into Value-Equal Substrings](https://leetcode.com/problems/check-if-string-is-decomposable-into-value-equal-substrings/)|Easy|🔒|
 |1934|[Confirmation Rate](https://leetcode.com/problems/confirmation-rate/)|Medium||
 |1936|[Add Minimum Number of Rungs](https://leetcode.com/problems/add-minimum-number-of-rungs/)|Medium||
-|1937|[Maximum Number of Points with Cost](https://leetcode.com/problems/maximum-number-of-points-with-cost/)|Medium||
 |1938|[Maximum Genetic Difference Query](https://leetcode.com/problems/maximum-genetic-difference-query/)|Hard||
 |1939|[Users That Actively Request Confirmation Messages](https://leetcode.com/problems/users-that-actively-request-confirmation-messages/)|Easy|🔒|
 |1940|[Longest Common Subsequence Between Sorted Arrays](https://leetcode.com/problems/longest-common-subsequence-between-sorted-arrays/)|Medium|🔒|
@@ -1831,8 +1826,15 @@ The questions which have been solved are not shown in this page, more informatio
 |3245|[Alternating Groups III](https://leetcode.com/problems/alternating-groups-iii/)|Hard||
 |3246|[Premier League Table Ranking](https://leetcode.com/problems/premier-league-table-ranking/)|Easy|🔒|
 |3247|[Number of Subsequences with Odd Sum](https://leetcode.com/problems/number-of-subsequences-with-odd-sum/)|Medium|🔒|
-|3248|[Snake in Matrix](https://leetcode.com/problems/snake-in-matrix/)|Easy||
 |3249|[Count the Number of Good Nodes](https://leetcode.com/problems/count-the-number-of-good-nodes/)|Medium||
 |3250|[Find the Count of Monotonic Pairs I](https://leetcode.com/problems/find-the-count-of-monotonic-pairs-i/)|Hard||
 |3251|[Find the Count of Monotonic Pairs II](https://leetcode.com/problems/find-the-count-of-monotonic-pairs-ii/)|Hard||
 |3252|[Premier League Table Ranking II](https://leetcode.com/problems/premier-league-table-ranking-ii/)|Medium|🔒|
+|3253|[Construct String with Minimum Cost (Easy)](https://leetcode.com/problems/construct-string-with-minimum-cost-easy/)|Medium|🔒|
+|3254|[Find the Power of K-Size Subarrays I](https://leetcode.com/problems/find-the-power-of-k-size-subarrays-i/)|Medium||
+|3255|[Find the Power of K-Size Subarrays II](https://leetcode.com/problems/find-the-power-of-k-size-subarrays-ii/)|Medium||
+|3256|[Maximum Value Sum by Placing Three Rooks I](https://leetcode.com/problems/maximum-value-sum-by-placing-three-rooks-i/)|Hard||
+|3257|[Maximum Value Sum by Placing Three Rooks II](https://leetcode.com/problems/maximum-value-sum-by-placing-three-rooks-ii/)|Hard||
+|3259|[Maximum Energy Boost From Two Drinks](https://leetcode.com/problems/maximum-energy-boost-from-two-drinks/)|Medium||
+|3260|[Find the Largest Palindrome Divisible by K](https://leetcode.com/problems/find-the-largest-palindrome-divisible-by-k/)|Hard||
+|3261|[Count Substrings That Satisfy K-Constraint II](https://leetcode.com/problems/count-substrings-that-satisfy-k-constraint-ii/)|Hard||
