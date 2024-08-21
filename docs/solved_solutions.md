@@ -1,6 +1,6 @@
 # Solved Solutions List
 
-This document contains **1431** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
+This document contains **1432** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
 
 Some questions which are still being resolved are not shown in this page, more information about unsolved questions can be found at [docs/unsolved_solutions.md](./unsolved_solutions.md).
 
@@ -572,6 +572,7 @@ Some questions which are still being resolved are not shown in this page, more i
 |824|[Goat Latin](https://leetcode.com/problems/goat-latin/)|[src/q_801_850/q0824.cc](../src/q_801_850/q0824.cc)|2022/10/23 20:54|
 |826|[Most Profit Assigning Work](https://leetcode.com/problems/most-profit-assigning-work/)|[src/q_801_850/q0826.cc](../src/q_801_850/q0826.cc)|2022/07/24 14:52|
 |830|[Positions of Large Groups](https://leetcode.com/problems/positions-of-large-groups/)|[src/q_801_850/q0830.cc](../src/q_801_850/q0830.cc)|2022/07/10 14:13|
+|831|[Masking Personal Information](https://leetcode.com/problems/masking-personal-information/)|[src/q_801_850/q0831.cc](../src/q_801_850/q0831.cc)|2024/08/21 21:27|
 |832|[Flipping an Image](https://leetcode.com/problems/flipping-an-image/)|[src/q_801_850/q0832.cc](../src/q_801_850/q0832.cc)|2023/06/05 11:21|
 |834|[Sum of Distances in Tree](https://leetcode.com/problems/sum-of-distances-in-tree/)|[src/q_801_850/q0834.cc](../src/q_801_850/q0834.cc)|2024/04/28 14:41|
 |835|[Image Overlap](https://leetcode.com/problems/image-overlap/)|[src/q_801_850/q0835.cc](../src/q_801_850/q0835.cc)|2022/10/27 14:32|
