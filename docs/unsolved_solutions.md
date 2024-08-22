@@ -1,6 +1,6 @@
 # Unsolved Solutions List
 
-There are **1829** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
+There are **1828** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
 
 The questions which have been solved are not shown in this page, more information about solved questions can be found at [docs/solved_solutions.md](./solved_solutions.md).
 
@@ -272,7 +272,6 @@ The questions which have been solved are not shown in this page, more informatio
 |827|[Making A Large Island](https://leetcode.com/problems/making-a-large-island/)|Hard||
 |828|[Count Unique Characters of All Substrings of a Given String](https://leetcode.com/problems/count-unique-characters-of-all-substrings-of-a-given-string/)|Hard||
 |829|[Consecutive Numbers Sum](https://leetcode.com/problems/consecutive-numbers-sum/)|Hard||
-|833|[Find And Replace in String](https://leetcode.com/problems/find-and-replace-in-string/)|Medium||
 |842|[Split Array into Fibonacci Sequence](https://leetcode.com/problems/split-array-into-fibonacci-sequence/)|Medium||
 |843|[Guess the Word](https://leetcode.com/problems/guess-the-word/)|Hard||
 |845|[Longest Mountain in Array](https://leetcode.com/problems/longest-mountain-in-array/)|Medium||
