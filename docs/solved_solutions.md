@@ -1,6 +1,6 @@
 # Solved Solutions List
 
-This document contains **1434** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
+This document contains **1435** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
 
 Some questions which are still being resolved are not shown in this page, more information about unsolved questions can be found at [docs/unsolved_solutions.md](./unsolved_solutions.md).
 
@@ -418,6 +418,7 @@ Some questions which are still being resolved are not shown in this page, more i
 |560|[Subarray Sum Equals K](https://leetcode.com/problems/subarray-sum-equals-k/)|[src/q_551_600/q0560.cc](../src/q_551_600/q0560.cc)|2021/09/23 08:00|
 |561|[Array Partition](https://leetcode.com/problems/array-partition/)|[src/q_551_600/q0561.cc](../src/q_551_600/q0561.cc)|2021/10/26 14:26|
 |563|[Binary Tree Tilt](https://leetcode.com/problems/binary-tree-tilt/)|[src/q_551_600/q0563.cc](../src/q_551_600/q0563.cc)|2021/12/08 17:51|
+|564|[Find the Closest Palindrome](https://leetcode.com/problems/find-the-closest-palindrome/)|[src/q_551_600/q0564.cc](../src/q_551_600/q0564.cc)|2024/08/24 16:28|
 |566|[Reshape the Matrix](https://leetcode.com/problems/reshape-the-matrix/)|[src/q_551_600/q0566.cc](../src/q_551_600/q0566.cc)|2021/09/08 08:00|
 |567|[Permutation in String](https://leetcode.com/problems/permutation-in-string/)|[src/q_551_600/q0567.cc](../src/q_551_600/q0567.cc)|2021/09/10 08:00|
 |572|[Subtree of Another Tree](https://leetcode.com/problems/subtree-of-another-tree/)|[src/q_551_600/q0572.cc](../src/q_551_600/q0572.cc)|2021/09/25 16:06|

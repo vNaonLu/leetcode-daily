@@ -1,6 +1,6 @@
 # Unsolved Solutions List
 
-There are **1827** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
+There are **1826** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
 
 The questions which have been solved are not shown in this page, more information about solved questions can be found at [docs/solved_solutions.md](./solved_solutions.md).
 
@@ -159,7 +159,6 @@ The questions which have been solved are not shown in this page, more informatio
 |555|[Split Concatenated Strings](https://leetcode.com/problems/split-concatenated-strings/)|Medium|🔒|
 |558|[Logical OR of Two Binary Grids Represented as Quad-Trees](https://leetcode.com/problems/logical-or-of-two-binary-grids-represented-as-quad-trees/)|Medium||
 |562|[Longest Line of Consecutive One in Matrix](https://leetcode.com/problems/longest-line-of-consecutive-one-in-matrix/)|Medium|🔒|
-|564|[Find the Closest Palindrome](https://leetcode.com/problems/find-the-closest-palindrome/)|Hard||
 |565|[Array Nesting](https://leetcode.com/problems/array-nesting/)|Medium||
 |568|[Maximum Vacation Days](https://leetcode.com/problems/maximum-vacation-days/)|Hard|🔒|
 |569|[Median Employee Salary](https://leetcode.com/problems/median-employee-salary/)|Hard|🔒|
