@@ -3260,3 +3260,9 @@ id,backend_id,title,level,slug,paid
 3259,3525,Maximum Energy Boost From Two Drinks,2,maximum-energy-boost-from-two-drinks,0
 3260,3552,Find the Largest Palindrome Divisible by K,3,find-the-largest-palindrome-divisible-by-k,0
 3261,3546,Count Substrings That Satisfy K-Constraint II,3,count-substrings-that-satisfy-k-constraint-ii,0
+3262,3574,Find Overlapping Shifts,2,find-overlapping-shifts,1
+3263,3577,Convert Doubly Linked List to Array I,1,convert-doubly-linked-list-to-array-i,1
+3264,3555,Final Array State After K Multiplication Operations I,1,final-array-state-after-k-multiplication-operations-i,0
+3265,3534,Count Almost Equal Pairs I,2,count-almost-equal-pairs-i,0
+3266,3556,Final Array State After K Multiplication Operations II,3,final-array-state-after-k-multiplication-operations-ii,0
+3267,3544,Count Almost Equal Pairs II,3,count-almost-equal-pairs-ii,0
