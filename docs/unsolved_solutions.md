@@ -1,6 +1,6 @@
 # Unsolved Solutions List
 
-There are **1832** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
+There are **1831** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
 
 The questions which have been solved are not shown in this page, more information about solved questions can be found at [docs/solved_solutions.md](./solved_solutions.md).
 
@@ -1835,7 +1835,6 @@ The questions which have been solved are not shown in this page, more informatio
 |3261|[Count Substrings That Satisfy K-Constraint II](https://leetcode.com/problems/count-substrings-that-satisfy-k-constraint-ii/)|Hard||
 |3262|[Find Overlapping Shifts](https://leetcode.com/problems/find-overlapping-shifts/)|Medium|🔒|
 |3263|[Convert Doubly Linked List to Array I](https://leetcode.com/problems/convert-doubly-linked-list-to-array-i/)|Easy|🔒|
-|3264|[Final Array State After K Multiplication Operations I](https://leetcode.com/problems/final-array-state-after-k-multiplication-operations-i/)|Easy||
 |3265|[Count Almost Equal Pairs I](https://leetcode.com/problems/count-almost-equal-pairs-i/)|Medium||
 |3266|[Final Array State After K Multiplication Operations II](https://leetcode.com/problems/final-array-state-after-k-multiplication-operations-ii/)|Hard||
 |3267|[Count Almost Equal Pairs II](https://leetcode.com/problems/count-almost-equal-pairs-ii/)|Hard||

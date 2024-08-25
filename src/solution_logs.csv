@@ -1434,3 +1434,4 @@ timestamp,id,tc,sc,notes
 1724328647,833,n + m,"max(n, m)","n = |s.size()|, m = |indices.size()|"
 1724428050,842,-,-,not calculated
 1724488104,564,-,-,not calculated
+1724570838,3264,n * k,1,n = |nums.size()|
