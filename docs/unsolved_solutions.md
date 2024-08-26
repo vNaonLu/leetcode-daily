@@ -1,6 +1,6 @@
 # Unsolved Solutions List
 
-There are **1831** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
+There are **1830** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
 
 The questions which have been solved are not shown in this page, more information about solved questions can be found at [docs/solved_solutions.md](./solved_solutions.md).
 
@@ -159,7 +159,6 @@ The questions which have been solved are not shown in this page, more informatio
 |555|[Split Concatenated Strings](https://leetcode.com/problems/split-concatenated-strings/)|Medium|🔒|
 |558|[Logical OR of Two Binary Grids Represented as Quad-Trees](https://leetcode.com/problems/logical-or-of-two-binary-grids-represented-as-quad-trees/)|Medium||
 |562|[Longest Line of Consecutive One in Matrix](https://leetcode.com/problems/longest-line-of-consecutive-one-in-matrix/)|Medium|🔒|
-|564|[Find the Closest Palindrome](https://leetcode.com/problems/find-the-closest-palindrome/)|Hard||
 |565|[Array Nesting](https://leetcode.com/problems/array-nesting/)|Medium||
 |568|[Maximum Vacation Days](https://leetcode.com/problems/maximum-vacation-days/)|Hard|🔒|
 |569|[Median Employee Salary](https://leetcode.com/problems/median-employee-salary/)|Hard|🔒|
@@ -267,15 +266,11 @@ The questions which have been solved are not shown in this page, more informatio
 |803|[Bricks Falling When Hit](https://leetcode.com/problems/bricks-falling-when-hit/)|Hard||
 |805|[Split Array With Same Average](https://leetcode.com/problems/split-array-with-same-average/)|Hard||
 |810|[Chalkboard XOR Game](https://leetcode.com/problems/chalkboard-xor-game/)|Hard||
-|817|[Linked List Components](https://leetcode.com/problems/linked-list-components/)|Medium||
 |818|[Race Car](https://leetcode.com/problems/race-car/)|Hard||
 |825|[Friends Of Appropriate Ages](https://leetcode.com/problems/friends-of-appropriate-ages/)|Medium||
 |827|[Making A Large Island](https://leetcode.com/problems/making-a-large-island/)|Hard||
 |828|[Count Unique Characters of All Substrings of a Given String](https://leetcode.com/problems/count-unique-characters-of-all-substrings-of-a-given-string/)|Hard||
 |829|[Consecutive Numbers Sum](https://leetcode.com/problems/consecutive-numbers-sum/)|Hard||
-|831|[Masking Personal Information](https://leetcode.com/problems/masking-personal-information/)|Medium||
-|833|[Find And Replace in String](https://leetcode.com/problems/find-and-replace-in-string/)|Medium||
-|842|[Split Array into Fibonacci Sequence](https://leetcode.com/problems/split-array-into-fibonacci-sequence/)|Medium||
 |843|[Guess the Word](https://leetcode.com/problems/guess-the-word/)|Hard||
 |845|[Longest Mountain in Array](https://leetcode.com/problems/longest-mountain-in-array/)|Medium||
 |850|[Rectangle Area II](https://leetcode.com/problems/rectangle-area-ii/)|Hard||
@@ -1820,7 +1815,6 @@ The questions which have been solved are not shown in this page, more informatio
 |3239|[Minimum Number of Flips to Make Binary Grid Palindromic I](https://leetcode.com/problems/minimum-number-of-flips-to-make-binary-grid-palindromic-i/)|Medium||
 |3240|[Minimum Number of Flips to Make Binary Grid Palindromic II](https://leetcode.com/problems/minimum-number-of-flips-to-make-binary-grid-palindromic-ii/)|Medium||
 |3241|[Time Taken to Mark All Nodes](https://leetcode.com/problems/time-taken-to-mark-all-nodes/)|Hard||
-|3242|[Design Neighbor Sum Service](https://leetcode.com/problems/design-neighbor-sum-service/)|Easy||
 |3243|[Shortest Distance After Road Addition Queries I](https://leetcode.com/problems/shortest-distance-after-road-addition-queries-i/)|Medium||
 |3244|[Shortest Distance After Road Addition Queries II](https://leetcode.com/problems/shortest-distance-after-road-addition-queries-ii/)|Hard||
 |3245|[Alternating Groups III](https://leetcode.com/problems/alternating-groups-iii/)|Hard||
@@ -1838,3 +1832,8 @@ The questions which have been solved are not shown in this page, more informatio
 |3259|[Maximum Energy Boost From Two Drinks](https://leetcode.com/problems/maximum-energy-boost-from-two-drinks/)|Medium||
 |3260|[Find the Largest Palindrome Divisible by K](https://leetcode.com/problems/find-the-largest-palindrome-divisible-by-k/)|Hard||
 |3261|[Count Substrings That Satisfy K-Constraint II](https://leetcode.com/problems/count-substrings-that-satisfy-k-constraint-ii/)|Hard||
+|3262|[Find Overlapping Shifts](https://leetcode.com/problems/find-overlapping-shifts/)|Medium|🔒|
+|3263|[Convert Doubly Linked List to Array I](https://leetcode.com/problems/convert-doubly-linked-list-to-array-i/)|Easy|🔒|
+|3265|[Count Almost Equal Pairs I](https://leetcode.com/problems/count-almost-equal-pairs-i/)|Medium||
+|3266|[Final Array State After K Multiplication Operations II](https://leetcode.com/problems/final-array-state-after-k-multiplication-operations-ii/)|Hard||
+|3267|[Count Almost Equal Pairs II](https://leetcode.com/problems/count-almost-equal-pairs-ii/)|Hard||
