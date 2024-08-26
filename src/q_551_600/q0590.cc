@@ -26,8 +26,6 @@ using namespace lcd;
 // examples)
 //
 
-LEETCODE_BEGIN_RESOLVING(590, NAryTreePostorderTraversal, Solution);
-
 class Node {
 public:
   int            val;
@@ -42,6 +40,8 @@ public:
     children = _children;
   }
 };
+
+LEETCODE_BEGIN_RESOLVING(590, NAryTreePostorderTraversal, Solution);
 
 class Solution {
 private:
