@@ -1,6 +1,6 @@
 # Unsolved Solutions List
 
-There are **1831** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
+There are **1830** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
 
 The questions which have been solved are not shown in this page, more information about solved questions can be found at [docs/solved_solutions.md](./solved_solutions.md).
 
@@ -1815,7 +1815,6 @@ The questions which have been solved are not shown in this page, more informatio
 |3239|[Minimum Number of Flips to Make Binary Grid Palindromic I](https://leetcode.com/problems/minimum-number-of-flips-to-make-binary-grid-palindromic-i/)|Medium||
 |3240|[Minimum Number of Flips to Make Binary Grid Palindromic II](https://leetcode.com/problems/minimum-number-of-flips-to-make-binary-grid-palindromic-ii/)|Medium||
 |3241|[Time Taken to Mark All Nodes](https://leetcode.com/problems/time-taken-to-mark-all-nodes/)|Hard||
-|3242|[Design Neighbor Sum Service](https://leetcode.com/problems/design-neighbor-sum-service/)|Easy||
 |3243|[Shortest Distance After Road Addition Queries I](https://leetcode.com/problems/shortest-distance-after-road-addition-queries-i/)|Medium||
 |3244|[Shortest Distance After Road Addition Queries II](https://leetcode.com/problems/shortest-distance-after-road-addition-queries-ii/)|Hard||
 |3245|[Alternating Groups III](https://leetcode.com/problems/alternating-groups-iii/)|Hard||

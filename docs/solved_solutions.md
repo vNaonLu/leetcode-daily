@@ -1,6 +1,6 @@
 # Solved Solutions List
 
-This document contains **1436** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
+This document contains **1437** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
 
 Some questions which are still being resolved are not shown in this page, more information about unsolved questions can be found at [docs/unsolved_solutions.md](./unsolved_solutions.md).
 
@@ -1440,6 +1440,7 @@ Some questions which are still being resolved are not shown in this page, more i
 |3226|[Number of Bit Changes to Make Two Integers Equal](https://leetcode.com/problems/number-of-bit-changes-to-make-two-integers-equal/)|[src/q_3201_3250/q3226.cc](../src/q_3201_3250/q3226.cc)|2024/07/25 16:02|
 |3232|[Find if Digit Game Can Be Won](https://leetcode.com/problems/find-if-digit-game-can-be-won/)|[src/q_3201_3250/q3232.cc](../src/q_3201_3250/q3232.cc)|2024/08/01 19:10|
 |3238|[Find the Number of Winning Players](https://leetcode.com/problems/find-the-number-of-winning-players/)|[src/q_3201_3250/q3238.cc](../src/q_3201_3250/q3238.cc)|2024/08/12 21:36|
+|3242|[Design Neighbor Sum Service](https://leetcode.com/problems/design-neighbor-sum-service/)|[src/q_3201_3250/q3242.cc](../src/q_3201_3250/q3242.cc)|2024/08/26 21:23|
 |3248|[Snake in Matrix](https://leetcode.com/problems/snake-in-matrix/)|[src/q_3201_3250/q3248.cc](../src/q_3201_3250/q3248.cc)|2024/08/13 21:22|
 |3258|[Count Substrings That Satisfy K-Constraint I](https://leetcode.com/problems/count-substrings-that-satisfy-k-constraint-i/)|[src/q_3251_3300/q3258.cc](../src/q_3251_3300/q3258.cc)|2024/08/18 15:09|
 |3264|[Final Array State After K Multiplication Operations I](https://leetcode.com/problems/final-array-state-after-k-multiplication-operations-i/)|[src/q_3251_3300/q3264.cc](../src/q_3251_3300/q3264.cc)|2024/08/25 15:27|
