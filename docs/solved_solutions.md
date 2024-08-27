@@ -1,6 +1,6 @@
 # Solved Solutions List
 
-This document contains **1437** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
+This document contains **1438** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
 
 Some questions which are still being resolved are not shown in this page, more information about unsolved questions can be found at [docs/unsolved_solutions.md](./unsolved_solutions.md).
 
@@ -586,6 +586,7 @@ Some questions which are still being resolved are not shown in this page, more i
 |841|[Keys and Rooms](https://leetcode.com/problems/keys-and-rooms/)|[src/q_801_850/q0841.cc](../src/q_801_850/q0841.cc)|2021/10/07 10:57|
 |842|[Split Array into Fibonacci Sequence](https://leetcode.com/problems/split-array-into-fibonacci-sequence/)|[src/q_801_850/q0842.cc](../src/q_801_850/q0842.cc)|2024/08/23 23:47|
 |844|[Backspace String Compare](https://leetcode.com/problems/backspace-string-compare/)|[src/q_801_850/q0844.cc](../src/q_801_850/q0844.cc)|2021/09/22 08:00|
+|845|[Longest Mountain in Array](https://leetcode.com/problems/longest-mountain-in-array/)|[src/q_801_850/q0845.cc](../src/q_801_850/q0845.cc)|2024/08/27 18:51|
 |846|[Hand of Straights](https://leetcode.com/problems/hand-of-straights/)|[src/q_801_850/q0846.cc](../src/q_801_850/q0846.cc)|2024/06/06 11:00|
 |847|[Shortest Path Visiting All Nodes](https://leetcode.com/problems/shortest-path-visiting-all-nodes/)|[src/q_801_850/q0847.cc](../src/q_801_850/q0847.cc)|2022/02/26 14:01|
 |848|[Shifting Letters](https://leetcode.com/problems/shifting-letters/)|[src/q_801_850/q0848.cc](../src/q_801_850/q0848.cc)|2021/09/08 08:00|

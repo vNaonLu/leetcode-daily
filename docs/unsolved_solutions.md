@@ -1,6 +1,6 @@
 # Unsolved Solutions List
 
-There are **1830** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
+There are **1829** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
 
 The questions which have been solved are not shown in this page, more information about solved questions can be found at [docs/solved_solutions.md](./solved_solutions.md).
 
@@ -272,7 +272,6 @@ The questions which have been solved are not shown in this page, more informatio
 |828|[Count Unique Characters of All Substrings of a Given String](https://leetcode.com/problems/count-unique-characters-of-all-substrings-of-a-given-string/)|Hard||
 |829|[Consecutive Numbers Sum](https://leetcode.com/problems/consecutive-numbers-sum/)|Hard||
 |843|[Guess the Word](https://leetcode.com/problems/guess-the-word/)|Hard||
-|845|[Longest Mountain in Array](https://leetcode.com/problems/longest-mountain-in-array/)|Medium||
 |850|[Rectangle Area II](https://leetcode.com/problems/rectangle-area-ii/)|Hard||
 |851|[Loud and Rich](https://leetcode.com/problems/loud-and-rich/)|Medium||
 |853|[Car Fleet](https://leetcode.com/problems/car-fleet/)|Medium||
