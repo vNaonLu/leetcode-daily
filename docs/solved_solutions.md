@@ -1,6 +1,6 @@
 # Solved Solutions List
 
-This document contains **1438** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
+This document contains **1439** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
 
 Some questions which are still being resolved are not shown in this page, more information about unsolved questions can be found at [docs/unsolved_solutions.md](./unsolved_solutions.md).
 
@@ -571,6 +571,7 @@ Some questions which are still being resolved are not shown in this page, more i
 |822|[Card Flipping Game](https://leetcode.com/problems/card-flipping-game/)|[src/q_801_850/q0822.cc](../src/q_801_850/q0822.cc)|2024/08/15 22:24|
 |823|[Binary Trees With Factors](https://leetcode.com/problems/binary-trees-with-factors/)|[src/q_801_850/q0823.cc](../src/q_801_850/q0823.cc)|2022/08/09 18:19|
 |824|[Goat Latin](https://leetcode.com/problems/goat-latin/)|[src/q_801_850/q0824.cc](../src/q_801_850/q0824.cc)|2022/10/23 20:54|
+|825|[Friends Of Appropriate Ages](https://leetcode.com/problems/friends-of-appropriate-ages/)|[src/q_801_850/q0825.cc](../src/q_801_850/q0825.cc)|2024/08/28 20:57|
 |826|[Most Profit Assigning Work](https://leetcode.com/problems/most-profit-assigning-work/)|[src/q_801_850/q0826.cc](../src/q_801_850/q0826.cc)|2022/07/24 14:52|
 |830|[Positions of Large Groups](https://leetcode.com/problems/positions-of-large-groups/)|[src/q_801_850/q0830.cc](../src/q_801_850/q0830.cc)|2022/07/10 14:13|
 |831|[Masking Personal Information](https://leetcode.com/problems/masking-personal-information/)|[src/q_801_850/q0831.cc](../src/q_801_850/q0831.cc)|2024/08/21 21:27|
