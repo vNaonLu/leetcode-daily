@@ -1,6 +1,6 @@
 # Solved Solutions List
 
-This document contains **1440** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
+This document contains **1441** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
 
 Some questions which are still being resolved are not shown in this page, more information about unsolved questions can be found at [docs/unsolved_solutions.md](./unsolved_solutions.md).
 
@@ -1329,6 +1329,7 @@ Some questions which are still being resolved are not shown in this page, more i
 |2682|[Find the Losers of the Circular Game](https://leetcode.com/problems/find-the-losers-of-the-circular-game/)|[src/q_2651_2700/q2682.cc](../src/q_2651_2700/q2682.cc)|2023/12/11 18:56|
 |2696|[Minimum String Length After Removing Substrings](https://leetcode.com/problems/minimum-string-length-after-removing-substrings/)|[src/q_2651_2700/q2696.cc](../src/q_2651_2700/q2696.cc)|2023/12/12 20:03|
 |2697|[Lexicographically Smallest Palindrome](https://leetcode.com/problems/lexicographically-smallest-palindrome/)|[src/q_2651_2700/q2697.cc](../src/q_2651_2700/q2697.cc)|2023/12/13 19:02|
+|2699|[Modify Graph Edge Weights](https://leetcode.com/problems/modify-graph-edge-weights/)|[src/q_2651_2700/q2699.cc](../src/q_2651_2700/q2699.cc)|2024/08/30 22:23|
 |2706|[Buy Two Chocolates](https://leetcode.com/problems/buy-two-chocolates/)|[src/q_2701_2750/q2706.cc](../src/q_2701_2750/q2706.cc)|2023/06/14 20:04|
 |2707|[Extra Characters in a String](https://leetcode.com/problems/extra-characters-in-a-string/)|[src/q_2701_2750/q2707.cc](../src/q_2701_2750/q2707.cc)|2023/09/02 09:24|
 |2709|[Greatest Common Divisor Traversal](https://leetcode.com/problems/greatest-common-divisor-traversal/)|[src/q_2701_2750/q2709.cc](../src/q_2701_2750/q2709.cc)|2024/02/25 14:59|

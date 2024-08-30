@@ -1,6 +1,6 @@
 # Unsolved Solutions List
 
-There are **1827** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
+There are **1826** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
 
 The questions which have been solved are not shown in this page, more information about solved questions can be found at [docs/solved_solutions.md](./solved_solutions.md).
 
@@ -1383,7 +1383,6 @@ The questions which have been solved are not shown in this page, more informatio
 |2694|[Event Emitter](https://leetcode.com/problems/event-emitter/)|Medium||
 |2695|[Array Wrapper](https://leetcode.com/problems/array-wrapper/)|Easy||
 |2698|[Find the Punishment Number of an Integer](https://leetcode.com/problems/find-the-punishment-number-of-an-integer/)|Medium||
-|2699|[Modify Graph Edge Weights](https://leetcode.com/problems/modify-graph-edge-weights/)|Hard||
 |2700|[Differences Between Two Objects](https://leetcode.com/problems/differences-between-two-objects/)|Medium|🔒|
 |2701|[Consecutive Transactions with Increasing Amounts](https://leetcode.com/problems/consecutive-transactions-with-increasing-amounts/)|Hard|🔒|
 |2702|[Minimum Operations to Make Numbers Non-positive](https://leetcode.com/problems/minimum-operations-to-make-numbers-non-positive/)|Hard|🔒|
