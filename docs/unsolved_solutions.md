@@ -1,6 +1,6 @@
 # Unsolved Solutions List
 
-There are **1826** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
+There are **1825** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
 
 The questions which have been solved are not shown in this page, more information about solved questions can be found at [docs/solved_solutions.md](./solved_solutions.md).
 
@@ -274,7 +274,6 @@ The questions which have been solved are not shown in this page, more informatio
 |850|[Rectangle Area II](https://leetcode.com/problems/rectangle-area-ii/)|Hard||
 |851|[Loud and Rich](https://leetcode.com/problems/loud-and-rich/)|Medium||
 |854|[K-Similar Strings](https://leetcode.com/problems/k-similar-strings/)|Hard||
-|855|[Exam Room](https://leetcode.com/problems/exam-room/)|Medium||
 |865|[Smallest Subtree with all the Deepest Nodes](https://leetcode.com/problems/smallest-subtree-with-all-the-deepest-nodes/)|Medium||
 |866|[Prime Palindrome](https://leetcode.com/problems/prime-palindrome/)|Medium||
 |870|[Advantage Shuffle](https://leetcode.com/problems/advantage-shuffle/)|Medium||
