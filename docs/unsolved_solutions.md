@@ -1,6 +1,6 @@
 # Unsolved Solutions List
 
-There are **1830** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
+There are **1823** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
 
 The questions which have been solved are not shown in this page, more information about solved questions can be found at [docs/solved_solutions.md](./solved_solutions.md).
 
@@ -267,19 +267,13 @@ The questions which have been solved are not shown in this page, more informatio
 |805|[Split Array With Same Average](https://leetcode.com/problems/split-array-with-same-average/)|Hard||
 |810|[Chalkboard XOR Game](https://leetcode.com/problems/chalkboard-xor-game/)|Hard||
 |818|[Race Car](https://leetcode.com/problems/race-car/)|Hard||
-|825|[Friends Of Appropriate Ages](https://leetcode.com/problems/friends-of-appropriate-ages/)|Medium||
 |827|[Making A Large Island](https://leetcode.com/problems/making-a-large-island/)|Hard||
 |828|[Count Unique Characters of All Substrings of a Given String](https://leetcode.com/problems/count-unique-characters-of-all-substrings-of-a-given-string/)|Hard||
 |829|[Consecutive Numbers Sum](https://leetcode.com/problems/consecutive-numbers-sum/)|Hard||
 |843|[Guess the Word](https://leetcode.com/problems/guess-the-word/)|Hard||
-|845|[Longest Mountain in Array](https://leetcode.com/problems/longest-mountain-in-array/)|Medium||
 |850|[Rectangle Area II](https://leetcode.com/problems/rectangle-area-ii/)|Hard||
 |851|[Loud and Rich](https://leetcode.com/problems/loud-and-rich/)|Medium||
-|853|[Car Fleet](https://leetcode.com/problems/car-fleet/)|Medium||
 |854|[K-Similar Strings](https://leetcode.com/problems/k-similar-strings/)|Hard||
-|855|[Exam Room](https://leetcode.com/problems/exam-room/)|Medium||
-|865|[Smallest Subtree with all the Deepest Nodes](https://leetcode.com/problems/smallest-subtree-with-all-the-deepest-nodes/)|Medium||
-|866|[Prime Palindrome](https://leetcode.com/problems/prime-palindrome/)|Medium||
 |870|[Advantage Shuffle](https://leetcode.com/problems/advantage-shuffle/)|Medium||
 |873|[Length of Longest Fibonacci Subsequence](https://leetcode.com/problems/length-of-longest-fibonacci-subsequence/)|Medium||
 |874|[Walking Robot Simulation](https://leetcode.com/problems/walking-robot-simulation/)|Medium||
@@ -1386,7 +1380,6 @@ The questions which have been solved are not shown in this page, more informatio
 |2694|[Event Emitter](https://leetcode.com/problems/event-emitter/)|Medium||
 |2695|[Array Wrapper](https://leetcode.com/problems/array-wrapper/)|Easy||
 |2698|[Find the Punishment Number of an Integer](https://leetcode.com/problems/find-the-punishment-number-of-an-integer/)|Medium||
-|2699|[Modify Graph Edge Weights](https://leetcode.com/problems/modify-graph-edge-weights/)|Hard||
 |2700|[Differences Between Two Objects](https://leetcode.com/problems/differences-between-two-objects/)|Medium|🔒|
 |2701|[Consecutive Transactions with Increasing Amounts](https://leetcode.com/problems/consecutive-transactions-with-increasing-amounts/)|Hard|🔒|
 |2702|[Minimum Operations to Make Numbers Non-positive](https://leetcode.com/problems/minimum-operations-to-make-numbers-non-positive/)|Hard|🔒|

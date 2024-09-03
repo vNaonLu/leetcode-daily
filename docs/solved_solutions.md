@@ -1,6 +1,6 @@
 # Solved Solutions List
 
-This document contains **1437** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
+This document contains **1444** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
 
 Some questions which are still being resolved are not shown in this page, more information about unsolved questions can be found at [docs/unsolved_solutions.md](./unsolved_solutions.md).
 
@@ -571,6 +571,7 @@ Some questions which are still being resolved are not shown in this page, more i
 |822|[Card Flipping Game](https://leetcode.com/problems/card-flipping-game/)|[src/q_801_850/q0822.cc](../src/q_801_850/q0822.cc)|2024/08/15 22:24|
 |823|[Binary Trees With Factors](https://leetcode.com/problems/binary-trees-with-factors/)|[src/q_801_850/q0823.cc](../src/q_801_850/q0823.cc)|2022/08/09 18:19|
 |824|[Goat Latin](https://leetcode.com/problems/goat-latin/)|[src/q_801_850/q0824.cc](../src/q_801_850/q0824.cc)|2022/10/23 20:54|
+|825|[Friends Of Appropriate Ages](https://leetcode.com/problems/friends-of-appropriate-ages/)|[src/q_801_850/q0825.cc](../src/q_801_850/q0825.cc)|2024/08/28 20:57|
 |826|[Most Profit Assigning Work](https://leetcode.com/problems/most-profit-assigning-work/)|[src/q_801_850/q0826.cc](../src/q_801_850/q0826.cc)|2022/07/24 14:52|
 |830|[Positions of Large Groups](https://leetcode.com/problems/positions-of-large-groups/)|[src/q_801_850/q0830.cc](../src/q_801_850/q0830.cc)|2022/07/10 14:13|
 |831|[Masking Personal Information](https://leetcode.com/problems/masking-personal-information/)|[src/q_801_850/q0831.cc](../src/q_801_850/q0831.cc)|2024/08/21 21:27|
@@ -586,11 +587,14 @@ Some questions which are still being resolved are not shown in this page, more i
 |841|[Keys and Rooms](https://leetcode.com/problems/keys-and-rooms/)|[src/q_801_850/q0841.cc](../src/q_801_850/q0841.cc)|2021/10/07 10:57|
 |842|[Split Array into Fibonacci Sequence](https://leetcode.com/problems/split-array-into-fibonacci-sequence/)|[src/q_801_850/q0842.cc](../src/q_801_850/q0842.cc)|2024/08/23 23:47|
 |844|[Backspace String Compare](https://leetcode.com/problems/backspace-string-compare/)|[src/q_801_850/q0844.cc](../src/q_801_850/q0844.cc)|2021/09/22 08:00|
+|845|[Longest Mountain in Array](https://leetcode.com/problems/longest-mountain-in-array/)|[src/q_801_850/q0845.cc](../src/q_801_850/q0845.cc)|2024/08/27 18:51|
 |846|[Hand of Straights](https://leetcode.com/problems/hand-of-straights/)|[src/q_801_850/q0846.cc](../src/q_801_850/q0846.cc)|2024/06/06 11:00|
 |847|[Shortest Path Visiting All Nodes](https://leetcode.com/problems/shortest-path-visiting-all-nodes/)|[src/q_801_850/q0847.cc](../src/q_801_850/q0847.cc)|2022/02/26 14:01|
 |848|[Shifting Letters](https://leetcode.com/problems/shifting-letters/)|[src/q_801_850/q0848.cc](../src/q_801_850/q0848.cc)|2021/09/08 08:00|
 |849|[Maximize Distance to Closest Person](https://leetcode.com/problems/maximize-distance-to-closest-person/)|[src/q_801_850/q0849.cc](../src/q_801_850/q0849.cc)|2022/01/16 15:14|
 |852|[Peak Index in a Mountain Array](https://leetcode.com/problems/peak-index-in-a-mountain-array/)|[src/q_851_900/q0852.cc](../src/q_851_900/q0852.cc)|2021/10/13 13:21|
+|853|[Car Fleet](https://leetcode.com/problems/car-fleet/)|[src/q_851_900/q0853.cc](../src/q_851_900/q0853.cc)|2024/08/29 22:08|
+|855|[Exam Room](https://leetcode.com/problems/exam-room/)|[src/q_851_900/q0855.cc](../src/q_851_900/q0855.cc)|2024/08/31 15:03|
 |856|[Score of Parentheses](https://leetcode.com/problems/score-of-parentheses/)|[src/q_851_900/q0856.cc](../src/q_851_900/q0856.cc)|2022/03/17 18:08|
 |857|[Minimum Cost to Hire K Workers](https://leetcode.com/problems/minimum-cost-to-hire-k-workers/)|[src/q_851_900/q0857.cc](../src/q_851_900/q0857.cc)|2024/05/11 14:29|
 |858|[Mirror Reflection](https://leetcode.com/problems/mirror-reflection/)|[src/q_851_900/q0858.cc](../src/q_851_900/q0858.cc)|2022/08/04 18:31|
@@ -600,6 +604,8 @@ Some questions which are still being resolved are not shown in this page, more i
 |862|[Shortest Subarray with Sum at Least K](https://leetcode.com/problems/shortest-subarray-with-sum-at-least-k/)|[src/q_851_900/q0862.cc](../src/q_851_900/q0862.cc)|2022/02/21 22:34|
 |863|[All Nodes Distance K in Binary Tree](https://leetcode.com/problems/all-nodes-distance-k-in-binary-tree/)|[src/q_851_900/q0863.cc](../src/q_851_900/q0863.cc)|2023/07/11 21:17|
 |864|[Shortest Path to Get All Keys](https://leetcode.com/problems/shortest-path-to-get-all-keys/)|[src/q_851_900/q0864.cc](../src/q_851_900/q0864.cc)|2023/06/29 20:21|
+|865|[Smallest Subtree with all the Deepest Nodes](https://leetcode.com/problems/smallest-subtree-with-all-the-deepest-nodes/)|[src/q_851_900/q0865.cc](../src/q_851_900/q0865.cc)|2024/09/01 10:48|
+|866|[Prime Palindrome](https://leetcode.com/problems/prime-palindrome/)|[src/q_851_900/q0866.cc](../src/q_851_900/q0866.cc)|2024/09/02 21:16|
 |867|[Transpose Matrix](https://leetcode.com/problems/transpose-matrix/)|[src/q_851_900/q0867.cc](../src/q_851_900/q0867.cc)|2022/06/02 18:21|
 |868|[Binary Gap](https://leetcode.com/problems/binary-gap/)|[src/q_851_900/q0868.cc](../src/q_851_900/q0868.cc)|2022/10/05 10:43|
 |869|[Reordered Power of 2](https://leetcode.com/problems/reordered-power-of-2/)|[src/q_851_900/q0869.cc](../src/q_851_900/q0869.cc)|2022/08/26 13:11|
@@ -1326,6 +1332,7 @@ Some questions which are still being resolved are not shown in this page, more i
 |2682|[Find the Losers of the Circular Game](https://leetcode.com/problems/find-the-losers-of-the-circular-game/)|[src/q_2651_2700/q2682.cc](../src/q_2651_2700/q2682.cc)|2023/12/11 18:56|
 |2696|[Minimum String Length After Removing Substrings](https://leetcode.com/problems/minimum-string-length-after-removing-substrings/)|[src/q_2651_2700/q2696.cc](../src/q_2651_2700/q2696.cc)|2023/12/12 20:03|
 |2697|[Lexicographically Smallest Palindrome](https://leetcode.com/problems/lexicographically-smallest-palindrome/)|[src/q_2651_2700/q2697.cc](../src/q_2651_2700/q2697.cc)|2023/12/13 19:02|
+|2699|[Modify Graph Edge Weights](https://leetcode.com/problems/modify-graph-edge-weights/)|[src/q_2651_2700/q2699.cc](../src/q_2651_2700/q2699.cc)|2024/08/30 22:23|
 |2706|[Buy Two Chocolates](https://leetcode.com/problems/buy-two-chocolates/)|[src/q_2701_2750/q2706.cc](../src/q_2701_2750/q2706.cc)|2023/06/14 20:04|
 |2707|[Extra Characters in a String](https://leetcode.com/problems/extra-characters-in-a-string/)|[src/q_2701_2750/q2707.cc](../src/q_2701_2750/q2707.cc)|2023/09/02 09:24|
 |2709|[Greatest Common Divisor Traversal](https://leetcode.com/problems/greatest-common-divisor-traversal/)|[src/q_2701_2750/q2709.cc](../src/q_2701_2750/q2709.cc)|2024/02/25 14:59|

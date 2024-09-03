@@ -1436,3 +1436,10 @@ timestamp,id,tc,sc,notes
 1724488104,564,-,-,not calculated
 1724570838,3264,n * k,1,n = |nums.size()|
 1724678637,3242,-,-,not calculated
+1724755918,845,n,n,n = |arr.size()|
+1724849840,825,n ^ 2,n,n = |ages.size()|
+1724940532,853,n,n,n = |position.size()|
+1725027784,2699,-,-,not calculated
+1725087781,855,-,-,not calculated
+1725158900,865,n,n,n = |root.size()|
+1725282974,866,-,-,not calculated
