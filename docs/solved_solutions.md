@@ -1,6 +1,6 @@
 # Solved Solutions List
 
-This document contains **1444** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
+This document contains **1445** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
 
 Some questions which are still being resolved are not shown in this page, more information about unsolved questions can be found at [docs/unsolved_solutions.md](./unsolved_solutions.md).
 
@@ -611,6 +611,7 @@ Some questions which are still being resolved are not shown in this page, more i
 |869|[Reordered Power of 2](https://leetcode.com/problems/reordered-power-of-2/)|[src/q_851_900/q0869.cc](../src/q_851_900/q0869.cc)|2022/08/26 13:11|
 |871|[Minimum Number of Refueling Stops](https://leetcode.com/problems/minimum-number-of-refueling-stops/)|[src/q_851_900/q0871.cc](../src/q_851_900/q0871.cc)|2022/08/20 14:10|
 |872|[Leaf-Similar Trees](https://leetcode.com/problems/leaf-similar-trees/)|[src/q_851_900/q0872.cc](../src/q_851_900/q0872.cc)|2022/10/20 07:19|
+|873|[Length of Longest Fibonacci Subsequence](https://leetcode.com/problems/length-of-longest-fibonacci-subsequence/)|[src/q_851_900/q0873.cc](../src/q_851_900/q0873.cc)|2024/09/03 22:44|
 |875|[Koko Eating Bananas](https://leetcode.com/problems/koko-eating-bananas/)|[src/q_851_900/q0875.cc](../src/q_851_900/q0875.cc)|2022/01/20 18:13|
 |876|[Middle of the Linked List](https://leetcode.com/problems/middle-of-the-linked-list/)|[src/q_851_900/q0876.cc](../src/q_851_900/q0876.cc)|2021/09/09 08:00|
 |878|[Nth Magical Number](https://leetcode.com/problems/nth-magical-number/)|[src/q_851_900/q0878.cc](../src/q_851_900/q0878.cc)|2021/12/11 14:28|
