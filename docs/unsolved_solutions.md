@@ -1,6 +1,6 @@
 # Unsolved Solutions List
 
-There are **1820** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
+There are **1832** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
 
 The questions which have been solved are not shown in this page, more information about solved questions can be found at [docs/solved_solutions.md](./solved_solutions.md).
 
@@ -1827,3 +1827,15 @@ The questions which have been solved are not shown in this page, more informatio
 |3265|[Count Almost Equal Pairs I](https://leetcode.com/problems/count-almost-equal-pairs-i/)|Medium||
 |3266|[Final Array State After K Multiplication Operations II](https://leetcode.com/problems/final-array-state-after-k-multiplication-operations-ii/)|Hard||
 |3267|[Count Almost Equal Pairs II](https://leetcode.com/problems/count-almost-equal-pairs-ii/)|Hard||
+|3268|[Find Overlapping Shifts II](https://leetcode.com/problems/find-overlapping-shifts-ii/)|Hard|🔒|
+|3269|[Constructing Two Increasing Arrays](https://leetcode.com/problems/constructing-two-increasing-arrays/)|Hard|🔒|
+|3270|[Find the Key of the Numbers](https://leetcode.com/problems/find-the-key-of-the-numbers/)|Easy||
+|3271|[Hash Divided String](https://leetcode.com/problems/hash-divided-string/)|Medium||
+|3272|[Find the Count of Good Integers](https://leetcode.com/problems/find-the-count-of-good-integers/)|Hard||
+|3273|[Minimum Amount of Damage Dealt to Bob](https://leetcode.com/problems/minimum-amount-of-damage-dealt-to-bob/)|Hard||
+|3274|[Check if Two Chessboard Squares Have the Same Color](https://leetcode.com/problems/check-if-two-chessboard-squares-have-the-same-color/)|Easy||
+|3275|[K-th Nearest Obstacle Queries](https://leetcode.com/problems/k-th-nearest-obstacle-queries/)|Medium||
+|3276|[Select Cells in Grid With Maximum Score](https://leetcode.com/problems/select-cells-in-grid-with-maximum-score/)|Hard||
+|3277|[Maximum XOR Score Subarray Queries](https://leetcode.com/problems/maximum-xor-score-subarray-queries/)|Hard||
+|3278|[Find Candidates for Data Scientist Position II](https://leetcode.com/problems/find-candidates-for-data-scientist-position-ii/)|Medium|🔒|
+|3279|[Maximum Total Area Occupied by Pistons](https://leetcode.com/problems/maximum-total-area-occupied-by-pistons/)|Hard|🔒|
