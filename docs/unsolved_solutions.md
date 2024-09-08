@@ -1,6 +1,6 @@
 # Unsolved Solutions List
 
-There are **1834** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
+There are **1833** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
 
 The questions which have been solved are not shown in this page, more information about solved questions can be found at [docs/solved_solutions.md](./solved_solutions.md).
 
@@ -1837,7 +1837,6 @@ The questions which have been solved are not shown in this page, more informatio
 |3277|[Maximum XOR Score Subarray Queries](https://leetcode.com/problems/maximum-xor-score-subarray-queries/)|Hard||
 |3278|[Find Candidates for Data Scientist Position II](https://leetcode.com/problems/find-candidates-for-data-scientist-position-ii/)|Medium|🔒|
 |3279|[Maximum Total Area Occupied by Pistons](https://leetcode.com/problems/maximum-total-area-occupied-by-pistons/)|Hard|🔒|
-|3280|[Convert Date to Binary](https://leetcode.com/problems/convert-date-to-binary/)|Easy||
 |3281|[Maximize Score of Numbers in Ranges](https://leetcode.com/problems/maximize-score-of-numbers-in-ranges/)|Medium||
 |3282|[Reach End of Array With Max Score](https://leetcode.com/problems/reach-end-of-array-with-max-score/)|Medium||
 |3283|[Maximum Number of Moves to Kill All Pawns](https://leetcode.com/problems/maximum-number-of-moves-to-kill-all-pawns/)|Hard||
