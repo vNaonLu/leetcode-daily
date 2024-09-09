@@ -1,6 +1,6 @@
 # Solved Solutions List
 
-This document contains **1450** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
+This document contains **1451** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
 
 Some questions which are still being resolved are not shown in this page, more information about unsolved questions can be found at [docs/unsolved_solutions.md](./unsolved_solutions.md).
 
@@ -1229,6 +1229,7 @@ Some questions which are still being resolved are not shown in this page, more i
 |2316|[Count Unreachable Pairs of Nodes in an Undirected Graph](https://leetcode.com/problems/count-unreachable-pairs-of-nodes-in-an-undirected-graph/)|[src/q_2301_2350/q2316.cc](../src/q_2301_2350/q2316.cc)|2023/03/25 18:00|
 |2319|[Check if Matrix Is X-Matrix](https://leetcode.com/problems/check-if-matrix-is-x-matrix/)|[src/q_2301_2350/q2319.cc](../src/q_2301_2350/q2319.cc)|2023/01/17 21:30|
 |2325|[Decode the Message](https://leetcode.com/problems/decode-the-message/)|[src/q_2301_2350/q2325.cc](../src/q_2301_2350/q2325.cc)|2023/02/11 14:52|
+|2326|[Spiral Matrix IV](https://leetcode.com/problems/spiral-matrix-iv/)|[src/q_2301_2350/q2326.cc](../src/q_2301_2350/q2326.cc)|2024/09/09 21:34|
 |2328|[Number of Increasing Paths in a Grid](https://leetcode.com/problems/number-of-increasing-paths-in-a-grid/)|[src/q_2301_2350/q2328.cc](../src/q_2301_2350/q2328.cc)|2023/06/18 14:58|
 |2331|[Evaluate Boolean Binary Tree](https://leetcode.com/problems/evaluate-boolean-binary-tree/)|[src/q_2301_2350/q2331.cc](../src/q_2301_2350/q2331.cc)|2022/10/18 14:13|
 |2335|[Minimum Amount of Time to Fill Cups](https://leetcode.com/problems/minimum-amount-of-time-to-fill-cups/)|[src/q_2301_2350/q2335.cc](../src/q_2301_2350/q2335.cc)|2023/10/23 16:25|

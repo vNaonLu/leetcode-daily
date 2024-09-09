@@ -1449,3 +1449,4 @@ timestamp,id,tc,sc,notes
 1725696822,3274,1,1,
 1725790409,2028,-,-,not calculated
 1725790517,3280,n,1,n = |date.size()|
+1725888847,2326,k,1,k = |head.size()|
