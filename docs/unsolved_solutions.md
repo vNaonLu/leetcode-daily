@@ -1,6 +1,6 @@
 # Unsolved Solutions List
 
-There are **1832** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
+There are **1831** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
 
 The questions which have been solved are not shown in this page, more information about solved questions can be found at [docs/solved_solutions.md](./solved_solutions.md).
 
@@ -1461,7 +1461,6 @@ The questions which have been solved are not shown in this page, more informatio
 |2803|[Factorial Generator](https://leetcode.com/problems/factorial-generator/)|Easy|🔒|
 |2804|[Array Prototype ForEach](https://leetcode.com/problems/array-prototype-foreach/)|Easy|🔒|
 |2805|[Custom Interval](https://leetcode.com/problems/custom-interval/)|Medium|🔒|
-|2807|[Insert Greatest Common Divisors in Linked List](https://leetcode.com/problems/insert-greatest-common-divisors-in-linked-list/)|Medium||
 |2808|[Minimum Seconds to Equalize a Circular Array](https://leetcode.com/problems/minimum-seconds-to-equalize-a-circular-array/)|Medium||
 |2809|[Minimum Time to Make Array Sum At Most x](https://leetcode.com/problems/minimum-time-to-make-array-sum-at-most-x/)|Hard||
 |2811|[Check if it is Possible to Split Array](https://leetcode.com/problems/check-if-it-is-possible-to-split-array/)|Medium||
