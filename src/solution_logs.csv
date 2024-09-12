@@ -1443,3 +1443,10 @@ timestamp,id,tc,sc,notes
 1725087781,855,-,-,not calculated
 1725158900,865,n,n,n = |root.size()|
 1725282974,866,-,-,not calculated
+1725374679,873,-,-,not calculated
+1725454999,874,n * log(m),m,"n = |commands.size()|, m = |obstacles.size()|"
+1725635592,3217,-,-,not calculated
+1725696822,3274,1,1,
+1725790409,2028,-,-,not calculated
+1725790517,3280,n,1,n = |date.size()|
+1725888847,2326,k,1,k = |head.size()|

@@ -3266,3 +3266,19 @@ id,backend_id,title,level,slug,paid
 3265,3534,Count Almost Equal Pairs I,2,count-almost-equal-pairs-i,0
 3266,3556,Final Array State After K Multiplication Operations II,3,final-array-state-after-k-multiplication-operations-ii,0
 3267,3544,Count Almost Equal Pairs II,3,count-almost-equal-pairs-ii,0
+3268,3585,Find Overlapping Shifts II,3,find-overlapping-shifts-ii,1
+3269,3586,Constructing Two Increasing Arrays,3,constructing-two-increasing-arrays,1
+3270,3568,Find the Key of the Numbers,1,find-the-key-of-the-numbers,0
+3271,3540,Hash Divided String,2,hash-divided-string,0
+3272,3548,Find the Count of Good Integers,3,find-the-count-of-good-integers,0
+3273,3531,Minimum Amount of Damage Dealt to Bob,3,minimum-amount-of-damage-dealt-to-bob,0
+3274,3553,Check if Two Chessboard Squares Have the Same Color,1,check-if-two-chessboard-squares-have-the-same-color,0
+3275,3495,K-th Nearest Obstacle Queries,2,k-th-nearest-obstacle-queries,0
+3276,3563,Select Cells in Grid With Maximum Score,3,select-cells-in-grid-with-maximum-score,0
+3277,3551,Maximum XOR Score Subarray Queries,3,maximum-xor-score-subarray-queries,0
+3278,3589,Find Candidates for Data Scientist Position II,2,find-candidates-for-data-scientist-position-ii,1
+3279,3590,Maximum Total Area Occupied by Pistons,3,maximum-total-area-occupied-by-pistons,1
+3280,3567,Convert Date to Binary,1,convert-date-to-binary,0
+3281,3485,Maximize Score of Numbers in Ranges,2,maximize-score-of-numbers-in-ranges,0
+3282,3528,Reach End of Array With Max Score,2,reach-end-of-array-with-max-score,0
+3283,3560,Maximum Number of Moves to Kill All Pawns,3,maximum-number-of-moves-to-kill-all-pawns,0

@@ -1,6 +1,6 @@
 # Unsolved Solutions List
 
-There are **1823** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
+There are **1832** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
 
 The questions which have been solved are not shown in this page, more information about solved questions can be found at [docs/solved_solutions.md](./solved_solutions.md).
 
@@ -275,8 +275,6 @@ The questions which have been solved are not shown in this page, more informatio
 |851|[Loud and Rich](https://leetcode.com/problems/loud-and-rich/)|Medium||
 |854|[K-Similar Strings](https://leetcode.com/problems/k-similar-strings/)|Hard||
 |870|[Advantage Shuffle](https://leetcode.com/problems/advantage-shuffle/)|Medium||
-|873|[Length of Longest Fibonacci Subsequence](https://leetcode.com/problems/length-of-longest-fibonacci-subsequence/)|Medium||
-|874|[Walking Robot Simulation](https://leetcode.com/problems/walking-robot-simulation/)|Medium||
 |877|[Stone Game](https://leetcode.com/problems/stone-game/)|Medium||
 |887|[Super Egg Drop](https://leetcode.com/problems/super-egg-drop/)|Hard||
 |889|[Construct Binary Tree from Preorder and Postorder Traversal](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-postorder-traversal/)|Medium||
@@ -916,7 +914,6 @@ The questions which have been solved are not shown in this page, more informatio
 |2023|[Number of Pairs of Strings With Concatenation Equal to Target](https://leetcode.com/problems/number-of-pairs-of-strings-with-concatenation-equal-to-target/)|Medium||
 |2025|[Maximum Number of Ways to Partition an Array](https://leetcode.com/problems/maximum-number-of-ways-to-partition-an-array/)|Hard||
 |2026|[Low-Quality Problems](https://leetcode.com/problems/low-quality-problems/)|Easy|🔒|
-|2028|[Find Missing Observations](https://leetcode.com/problems/find-missing-observations/)|Medium||
 |2029|[Stone Game IX](https://leetcode.com/problems/stone-game-ix/)|Medium||
 |2030|[Smallest K-Length Subsequence With Occurrences of a Letter](https://leetcode.com/problems/smallest-k-length-subsequence-with-occurrences-of-a-letter/)|Hard||
 |2031|[Count Subarrays With More Ones Than Zeros](https://leetcode.com/problems/count-subarrays-with-more-ones-than-zeros/)|Medium|🔒|
@@ -1113,7 +1110,6 @@ The questions which have been solved are not shown in this page, more informatio
 |2322|[Minimum Score After Removals on a Tree](https://leetcode.com/problems/minimum-score-after-removals-on-a-tree/)|Hard||
 |2323|[Find Minimum Time to Finish All Jobs II](https://leetcode.com/problems/find-minimum-time-to-finish-all-jobs-ii/)|Medium|🔒|
 |2324|[Product Sales Analysis IV](https://leetcode.com/problems/product-sales-analysis-iv/)|Medium|🔒|
-|2326|[Spiral Matrix IV](https://leetcode.com/problems/spiral-matrix-iv/)|Medium||
 |2327|[Number of People Aware of a Secret](https://leetcode.com/problems/number-of-people-aware-of-a-secret/)|Medium||
 |2329|[Product Sales Analysis V](https://leetcode.com/problems/product-sales-analysis-v/)|Easy|🔒|
 |2330|[Valid Palindrome IV](https://leetcode.com/problems/valid-palindrome-iv/)|Medium|🔒|
@@ -1787,7 +1783,6 @@ The questions which have been solved are not shown in this page, more informatio
 |3213|[Construct String with Minimum Cost](https://leetcode.com/problems/construct-string-with-minimum-cost/)|Hard||
 |3214|[Year on Year Growth Rate](https://leetcode.com/problems/year-on-year-growth-rate/)|Hard|🔒|
 |3215|[Count Triplets with Even XOR Set Bits II](https://leetcode.com/problems/count-triplets-with-even-xor-set-bits-ii/)|Medium|🔒|
-|3217|[Delete Nodes From Linked List Present in Array](https://leetcode.com/problems/delete-nodes-from-linked-list-present-in-array/)|Medium||
 |3218|[Minimum Cost for Cutting Cake I](https://leetcode.com/problems/minimum-cost-for-cutting-cake-i/)|Medium||
 |3219|[Minimum Cost for Cutting Cake II](https://leetcode.com/problems/minimum-cost-for-cutting-cake-ii/)|Hard||
 |3220|[Odd and Even Transactions](https://leetcode.com/problems/odd-and-even-transactions/)|Medium||
@@ -1830,3 +1825,17 @@ The questions which have been solved are not shown in this page, more informatio
 |3265|[Count Almost Equal Pairs I](https://leetcode.com/problems/count-almost-equal-pairs-i/)|Medium||
 |3266|[Final Array State After K Multiplication Operations II](https://leetcode.com/problems/final-array-state-after-k-multiplication-operations-ii/)|Hard||
 |3267|[Count Almost Equal Pairs II](https://leetcode.com/problems/count-almost-equal-pairs-ii/)|Hard||
+|3268|[Find Overlapping Shifts II](https://leetcode.com/problems/find-overlapping-shifts-ii/)|Hard|🔒|
+|3269|[Constructing Two Increasing Arrays](https://leetcode.com/problems/constructing-two-increasing-arrays/)|Hard|🔒|
+|3270|[Find the Key of the Numbers](https://leetcode.com/problems/find-the-key-of-the-numbers/)|Easy||
+|3271|[Hash Divided String](https://leetcode.com/problems/hash-divided-string/)|Medium||
+|3272|[Find the Count of Good Integers](https://leetcode.com/problems/find-the-count-of-good-integers/)|Hard||
+|3273|[Minimum Amount of Damage Dealt to Bob](https://leetcode.com/problems/minimum-amount-of-damage-dealt-to-bob/)|Hard||
+|3275|[K-th Nearest Obstacle Queries](https://leetcode.com/problems/k-th-nearest-obstacle-queries/)|Medium||
+|3276|[Select Cells in Grid With Maximum Score](https://leetcode.com/problems/select-cells-in-grid-with-maximum-score/)|Hard||
+|3277|[Maximum XOR Score Subarray Queries](https://leetcode.com/problems/maximum-xor-score-subarray-queries/)|Hard||
+|3278|[Find Candidates for Data Scientist Position II](https://leetcode.com/problems/find-candidates-for-data-scientist-position-ii/)|Medium|🔒|
+|3279|[Maximum Total Area Occupied by Pistons](https://leetcode.com/problems/maximum-total-area-occupied-by-pistons/)|Hard|🔒|
+|3281|[Maximize Score of Numbers in Ranges](https://leetcode.com/problems/maximize-score-of-numbers-in-ranges/)|Medium||
+|3282|[Reach End of Array With Max Score](https://leetcode.com/problems/reach-end-of-array-with-max-score/)|Medium||
+|3283|[Maximum Number of Moves to Kill All Pawns](https://leetcode.com/problems/maximum-number-of-moves-to-kill-all-pawns/)|Hard||
