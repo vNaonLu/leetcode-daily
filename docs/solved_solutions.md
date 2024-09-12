@@ -1,6 +1,6 @@
 # Solved Solutions List
 
-This document contains **1453** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
+This document contains **1454** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
 
 Some questions which are still being resolved are not shown in this page, more information about unsolved questions can be found at [docs/unsolved_solutions.md](./unsolved_solutions.md).
 
@@ -633,6 +633,7 @@ Some questions which are still being resolved are not shown in this page, more i
 |897|[Increasing Order Search Tree](https://leetcode.com/problems/increasing-order-search-tree/)|[src/q_851_900/q0897.cc](../src/q_851_900/q0897.cc)|2022/04/17 12:10|
 |898|[Bitwise ORs of Subarrays](https://leetcode.com/problems/bitwise-ors-of-subarrays/)|[src/q_851_900/q0898.cc](../src/q_851_900/q0898.cc)|2021/10/06 00:20|
 |899|[Orderly Queue](https://leetcode.com/problems/orderly-queue/)|[src/q_851_900/q0899.cc](../src/q_851_900/q0899.cc)|2022/11/06 14:21|
+|900|[RLE Iterator](https://leetcode.com/problems/rle-iterator/)|[src/q_851_900/q0900.cc](../src/q_851_900/q0900.cc)|2024/09/12 20:44|
 |901|[Online Stock Span](https://leetcode.com/problems/online-stock-span/)|[src/q_901_950/q0901.cc](../src/q_901_950/q0901.cc)|2022/11/09 18:41|
 |902|[Numbers At Most N Given Digit Set](https://leetcode.com/problems/numbers-at-most-n-given-digit-set/)|[src/q_901_950/q0902.cc](../src/q_901_950/q0902.cc)|2021/12/18 11:35|
 |904|[Fruit Into Baskets](https://leetcode.com/problems/fruit-into-baskets/)|[src/q_901_950/q0904.cc](../src/q_901_950/q0904.cc)|2023/02/07 21:56|
