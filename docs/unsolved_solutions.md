@@ -1,6 +1,6 @@
 # Unsolved Solutions List
 
-There are **1829** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
+There are **1828** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
 
 The questions which have been solved are not shown in this page, more information about solved questions can be found at [docs/solved_solutions.md](./solved_solutions.md).
 
@@ -502,7 +502,6 @@ The questions which have been solved are not shown in this page, more informatio
 |1303|[Find the Team Size](https://leetcode.com/problems/find-the-team-size/)|Easy|🔒|
 |1307|[Verbal Arithmetic Puzzle](https://leetcode.com/problems/verbal-arithmetic-puzzle/)|Hard||
 |1308|[Running Total for Different Genders](https://leetcode.com/problems/running-total-for-different-genders/)|Medium|🔒|
-|1310|[XOR Queries of a Subarray](https://leetcode.com/problems/xor-queries-of-a-subarray/)|Medium||
 |1311|[Get Watched Videos by Your Friends](https://leetcode.com/problems/get-watched-videos-by-your-friends/)|Medium||
 |1315|[Sum of Nodes with Even-Valued Grandparent](https://leetcode.com/problems/sum-of-nodes-with-even-valued-grandparent/)|Medium||
 |1316|[Distinct Echo Substrings](https://leetcode.com/problems/distinct-echo-substrings/)|Hard||
