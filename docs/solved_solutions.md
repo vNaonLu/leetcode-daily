@@ -1,6 +1,6 @@
 # Solved Solutions List
 
-This document contains **1456** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
+This document contains **1457** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
 
 Some questions which are still being resolved are not shown in this page, more information about unsolved questions can be found at [docs/unsolved_solutions.md](./unsolved_solutions.md).
 
@@ -853,6 +853,7 @@ Some questions which are still being resolved are not shown in this page, more i
 |1365|[How Many Numbers Are Smaller Than the Current Number](https://leetcode.com/problems/how-many-numbers-are-smaller-than-the-current-number/)|[src/q_1351_1400/q1365.cc](../src/q_1351_1400/q1365.cc)|2023/08/05 22:19|
 |1367|[Linked List in Binary Tree](https://leetcode.com/problems/linked-list-in-binary-tree/)|[src/q_1351_1400/q1367.cc](../src/q_1351_1400/q1367.cc)|2022/04/29 15:24|
 |1370|[Increasing Decreasing String](https://leetcode.com/problems/increasing-decreasing-string/)|[src/q_1351_1400/q1370.cc](../src/q_1351_1400/q1370.cc)|2023/08/07 20:06|
+|1371|[Find the Longest Substring Containing Vowels in Even Counts](https://leetcode.com/problems/find-the-longest-substring-containing-vowels-in-even-counts/)|[src/q_1351_1400/q1371.cc](../src/q_1351_1400/q1371.cc)|2024/09/15 15:43|
 |1372|[Longest ZigZag Path in a Binary Tree](https://leetcode.com/problems/longest-zigzag-path-in-a-binary-tree/)|[src/q_1351_1400/q1372.cc](../src/q_1351_1400/q1372.cc)|2023/04/19 12:03|
 |1374|[Generate a String With Characters That Have Odd Counts](https://leetcode.com/problems/generate-a-string-with-characters-that-have-odd-counts/)|[src/q_1351_1400/q1374.cc](../src/q_1351_1400/q1374.cc)|2023/08/08 19:39|
 |1376|[Time Needed to Inform All Employees](https://leetcode.com/problems/time-needed-to-inform-all-employees/)|[src/q_1351_1400/q1376.cc](../src/q_1351_1400/q1376.cc)|2022/03/18 18:26|
