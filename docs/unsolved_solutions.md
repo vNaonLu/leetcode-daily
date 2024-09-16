@@ -1,6 +1,6 @@
 # Unsolved Solutions List
 
-There are **1826** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
+There are **1835** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
 
 The questions which have been solved are not shown in this page, more information about solved questions can be found at [docs/solved_solutions.md](./solved_solutions.md).
 
@@ -1833,3 +1833,12 @@ The questions which have been solved are not shown in this page, more informatio
 |3281|[Maximize Score of Numbers in Ranges](https://leetcode.com/problems/maximize-score-of-numbers-in-ranges/)|Medium||
 |3282|[Reach End of Array With Max Score](https://leetcode.com/problems/reach-end-of-array-with-max-score/)|Medium||
 |3283|[Maximum Number of Moves to Kill All Pawns](https://leetcode.com/problems/maximum-number-of-moves-to-kill-all-pawns/)|Hard||
+|3284|[Sum of Consecutive Subarrays](https://leetcode.com/problems/sum-of-consecutive-subarrays/)|Medium|🔒|
+|3285|[Find Indices of Stable Mountains](https://leetcode.com/problems/find-indices-of-stable-mountains/)|Easy||
+|3286|[Find a Safe Walk Through a Grid](https://leetcode.com/problems/find-a-safe-walk-through-a-grid/)|Medium||
+|3287|[Find the Maximum Sequence Value of Array](https://leetcode.com/problems/find-the-maximum-sequence-value-of-array/)|Hard||
+|3288|[Length of the Longest Increasing Path](https://leetcode.com/problems/length-of-the-longest-increasing-path/)|Hard||
+|3289|[The Two Sneaky Numbers of Digitville](https://leetcode.com/problems/the-two-sneaky-numbers-of-digitville/)|Easy||
+|3290|[Maximum Multiplication Score](https://leetcode.com/problems/maximum-multiplication-score/)|Medium||
+|3291|[Minimum Number of Valid Strings to Form Target I](https://leetcode.com/problems/minimum-number-of-valid-strings-to-form-target-i/)|Medium||
+|3292|[Minimum Number of Valid Strings to Form Target II](https://leetcode.com/problems/minimum-number-of-valid-strings-to-form-target-ii/)|Hard||
