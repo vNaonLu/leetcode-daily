@@ -1,6 +1,6 @@
 # Solved Solutions List
 
-This document contains **1457** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
+This document contains **1458** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
 
 Some questions which are still being resolved are not shown in this page, more information about unsolved questions can be found at [docs/unsolved_solutions.md](./unsolved_solutions.md).
 
@@ -1464,3 +1464,4 @@ Some questions which are still being resolved are not shown in this page, more i
 |3270|[Find the Key of the Numbers](https://leetcode.com/problems/find-the-key-of-the-numbers/)|[src/q_3251_3300/q3270.cc](../src/q_3251_3300/q3270.cc)|2024/09/11 21:08|
 |3274|[Check if Two Chessboard Squares Have the Same Color](https://leetcode.com/problems/check-if-two-chessboard-squares-have-the-same-color/)|[src/q_3251_3300/q3274.cc](../src/q_3251_3300/q3274.cc)|2024/09/07 16:13|
 |3280|[Convert Date to Binary](https://leetcode.com/problems/convert-date-to-binary/)|[src/q_3251_3300/q3280.cc](../src/q_3251_3300/q3280.cc)|2024/09/08 18:15|
+|3285|[Find Indices of Stable Mountains](https://leetcode.com/problems/find-indices-of-stable-mountains/)|[src/q_3251_3300/q3285.cc](../src/q_3251_3300/q3285.cc)|2024/09/16 21:38|

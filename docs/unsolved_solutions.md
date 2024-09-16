@@ -1,6 +1,6 @@
 # Unsolved Solutions List
 
-There are **1835** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
+There are **1834** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
 
 The questions which have been solved are not shown in this page, more information about solved questions can be found at [docs/solved_solutions.md](./solved_solutions.md).
 
@@ -1834,7 +1834,6 @@ The questions which have been solved are not shown in this page, more informatio
 |3282|[Reach End of Array With Max Score](https://leetcode.com/problems/reach-end-of-array-with-max-score/)|Medium||
 |3283|[Maximum Number of Moves to Kill All Pawns](https://leetcode.com/problems/maximum-number-of-moves-to-kill-all-pawns/)|Hard||
 |3284|[Sum of Consecutive Subarrays](https://leetcode.com/problems/sum-of-consecutive-subarrays/)|Medium|🔒|
-|3285|[Find Indices of Stable Mountains](https://leetcode.com/problems/find-indices-of-stable-mountains/)|Easy||
 |3286|[Find a Safe Walk Through a Grid](https://leetcode.com/problems/find-a-safe-walk-through-a-grid/)|Medium||
 |3287|[Find the Maximum Sequence Value of Array](https://leetcode.com/problems/find-the-maximum-sequence-value-of-array/)|Hard||
 |3288|[Length of the Longest Increasing Path](https://leetcode.com/problems/length-of-the-longest-increasing-path/)|Hard||
