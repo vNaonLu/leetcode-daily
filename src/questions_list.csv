@@ -3282,3 +3282,12 @@ id,backend_id,title,level,slug,paid
 3281,3485,Maximize Score of Numbers in Ranges,2,maximize-score-of-numbers-in-ranges,0
 3282,3528,Reach End of Array With Max Score,2,reach-end-of-array-with-max-score,0
 3283,3560,Maximum Number of Moves to Kill All Pawns,3,maximum-number-of-moves-to-kill-all-pawns,0
+3284,3602,Sum of Consecutive Subarrays,2,sum-of-consecutive-subarrays,1
+3285,3582,Find Indices of Stable Mountains,1,find-indices-of-stable-mountains,0
+3286,3558,Find a Safe Walk Through a Grid,2,find-a-safe-walk-through-a-grid,0
+3287,3575,Find the Maximum Sequence Value of Array,3,find-the-maximum-sequence-value-of-array,0
+3288,3571,Length of the Longest Increasing Path,3,length-of-the-longest-increasing-path,0
+3289,3581,The Two Sneaky Numbers of Digitville,1,the-two-sneaky-numbers-of-digitville,0
+3290,3518,Maximum Multiplication Score,2,maximum-multiplication-score,0
+3291,3559,Minimum Number of Valid Strings to Form Target I,2,minimum-number-of-valid-strings-to-form-target-i,0
+3292,3557,Minimum Number of Valid Strings to Form Target II,3,minimum-number-of-valid-strings-to-form-target-ii,0
