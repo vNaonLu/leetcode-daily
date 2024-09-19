@@ -1,6 +1,6 @@
 # Solved Solutions List
 
-This document contains **1459** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
+This document contains **1460** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
 
 Some questions which are still being resolved are not shown in this page, more information about unsolved questions can be found at [docs/unsolved_solutions.md](./unsolved_solutions.md).
 
@@ -592,6 +592,7 @@ Some questions which are still being resolved are not shown in this page, more i
 |847|[Shortest Path Visiting All Nodes](https://leetcode.com/problems/shortest-path-visiting-all-nodes/)|[src/q_801_850/q0847.cc](../src/q_801_850/q0847.cc)|2022/02/26 14:01|
 |848|[Shifting Letters](https://leetcode.com/problems/shifting-letters/)|[src/q_801_850/q0848.cc](../src/q_801_850/q0848.cc)|2021/09/08 08:00|
 |849|[Maximize Distance to Closest Person](https://leetcode.com/problems/maximize-distance-to-closest-person/)|[src/q_801_850/q0849.cc](../src/q_801_850/q0849.cc)|2022/01/16 15:14|
+|851|[Loud and Rich](https://leetcode.com/problems/loud-and-rich/)|[src/q_851_900/q0851.cc](../src/q_851_900/q0851.cc)|2024/09/19 23:59|
 |852|[Peak Index in a Mountain Array](https://leetcode.com/problems/peak-index-in-a-mountain-array/)|[src/q_851_900/q0852.cc](../src/q_851_900/q0852.cc)|2021/10/13 13:21|
 |853|[Car Fleet](https://leetcode.com/problems/car-fleet/)|[src/q_851_900/q0853.cc](../src/q_851_900/q0853.cc)|2024/08/29 22:08|
 |855|[Exam Room](https://leetcode.com/problems/exam-room/)|[src/q_851_900/q0855.cc](../src/q_851_900/q0855.cc)|2024/08/31 15:03|
