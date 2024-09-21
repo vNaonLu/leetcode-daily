@@ -1,6 +1,6 @@
 # Solved Solutions List
 
-This document contains **1461** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
+This document contains **1462** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
 
 Some questions which are still being resolved are not shown in this page, more information about unsolved questions can be found at [docs/unsolved_solutions.md](./unsolved_solutions.md).
 
@@ -661,6 +661,7 @@ Some questions which are still being resolved are not shown in this page, more i
 |934|[Shortest Bridge](https://leetcode.com/problems/shortest-bridge/)|[src/q_901_950/q0934.cc](../src/q_901_950/q0934.cc)|2022/03/15 18:19|
 |935|[Knight Dialer](https://leetcode.com/problems/knight-dialer/)|[src/q_901_950/q0935.cc](../src/q_901_950/q0935.cc)|2023/11/27 22:05|
 |936|[Stamping The Sequence](https://leetcode.com/problems/stamping-the-sequence/)|[src/q_901_950/q0936.cc](../src/q_901_950/q0936.cc)|2022/08/21 14:48|
+|937|[Reorder Data in Log Files](https://leetcode.com/problems/reorder-data-in-log-files/)|[src/q_901_950/q0937.cc](../src/q_901_950/q0937.cc)|2024/09/21 16:33|
 |938|[Range Sum of BST](https://leetcode.com/problems/range-sum-of-bst/)|[src/q_901_950/q0938.cc](../src/q_901_950/q0938.cc)|2021/12/14 18:05|
 |941|[Valid Mountain Array](https://leetcode.com/problems/valid-mountain-array/)|[src/q_901_950/q0941.cc](../src/q_901_950/q0941.cc)|2022/01/25 18:08|
 |942|[DI String Match](https://leetcode.com/problems/di-string-match/)|[src/q_901_950/q0942.cc](../src/q_901_950/q0942.cc)|2023/07/19 20:05|
