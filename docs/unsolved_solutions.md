@@ -1,6 +1,6 @@
 # Unsolved Solutions List
 
-There are **1830** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
+There are **1829** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
 
 The questions which have been solved are not shown in this page, more information about solved questions can be found at [docs/solved_solutions.md](./solved_solutions.md).
 
@@ -119,7 +119,6 @@ The questions which have been solved are not shown in this page, more informatio
 |431|[Encode N-ary Tree to Binary Tree](https://leetcode.com/problems/encode-n-ary-tree-to-binary-tree/)|Hard|🔒|
 |432|[All O`one Data Structure](https://leetcode.com/problems/all-oone-data-structure/)|Hard||
 |439|[Ternary Expression Parser](https://leetcode.com/problems/ternary-expression-parser/)|Medium|🔒|
-|440|[K-th Smallest in Lexicographical Order](https://leetcode.com/problems/k-th-smallest-in-lexicographical-order/)|Hard||
 |444|[Sequence Reconstruction](https://leetcode.com/problems/sequence-reconstruction/)|Medium|🔒|
 |465|[Optimal Account Balancing](https://leetcode.com/problems/optimal-account-balancing/)|Hard|🔒|
 |466|[Count The Repetitions](https://leetcode.com/problems/count-the-repetitions/)|Hard||

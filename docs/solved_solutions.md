@@ -1,6 +1,6 @@
 # Solved Solutions List
 
-This document contains **1462** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
+This document contains **1463** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
 
 Some questions which are still being resolved are not shown in this page, more information about unsolved questions can be found at [docs/unsolved_solutions.md](./unsolved_solutions.md).
 
@@ -334,6 +334,7 @@ Some questions which are still being resolved are not shown in this page, more i
 |436|[Find Right Interval](https://leetcode.com/problems/find-right-interval/)|[src/q_401_450/q0436.cc](../src/q_401_450/q0436.cc)|2022/07/24 15:12|
 |437|[Path Sum III](https://leetcode.com/problems/path-sum-iii/)|[src/q_401_450/q0437.cc](../src/q_401_450/q0437.cc)|2021/10/17 14:07|
 |438|[Find All Anagrams in a String](https://leetcode.com/problems/find-all-anagrams-in-a-string/)|[src/q_401_450/q0438.cc](../src/q_401_450/q0438.cc)|2021/09/23 08:00|
+|440|[K-th Smallest in Lexicographical Order](https://leetcode.com/problems/k-th-smallest-in-lexicographical-order/)|[src/q_401_450/q0440.cc](../src/q_401_450/q0440.cc)|2024/09/22 14:51|
 |441|[Arranging Coins](https://leetcode.com/problems/arranging-coins/)|[src/q_401_450/q0441.cc](../src/q_401_450/q0441.cc)|2021/11/05 18:21|
 |442|[Find All Duplicates in an Array](https://leetcode.com/problems/find-all-duplicates-in-an-array/)|[src/q_401_450/q0442.cc](../src/q_401_450/q0442.cc)|2021/10/06 12:29|
 |443|[String Compression](https://leetcode.com/problems/string-compression/)|[src/q_401_450/q0443.cc](../src/q_401_450/q0443.cc)|2023/03/02 20:03|
