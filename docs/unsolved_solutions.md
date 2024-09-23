@@ -1,6 +1,6 @@
 # Unsolved Solutions List
 
-There are **1834** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
+There are **1828** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
 
 The questions which have been solved are not shown in this page, more information about solved questions can be found at [docs/solved_solutions.md](./solved_solutions.md).
 
@@ -119,7 +119,6 @@ The questions which have been solved are not shown in this page, more informatio
 |431|[Encode N-ary Tree to Binary Tree](https://leetcode.com/problems/encode-n-ary-tree-to-binary-tree/)|Hard|🔒|
 |432|[All O`one Data Structure](https://leetcode.com/problems/all-oone-data-structure/)|Hard||
 |439|[Ternary Expression Parser](https://leetcode.com/problems/ternary-expression-parser/)|Medium|🔒|
-|440|[K-th Smallest in Lexicographical Order](https://leetcode.com/problems/k-th-smallest-in-lexicographical-order/)|Hard||
 |444|[Sequence Reconstruction](https://leetcode.com/problems/sequence-reconstruction/)|Medium|🔒|
 |465|[Optimal Account Balancing](https://leetcode.com/problems/optimal-account-balancing/)|Hard|🔒|
 |466|[Count The Repetitions](https://leetcode.com/problems/count-the-repetitions/)|Hard||
@@ -272,26 +271,22 @@ The questions which have been solved are not shown in this page, more informatio
 |829|[Consecutive Numbers Sum](https://leetcode.com/problems/consecutive-numbers-sum/)|Hard||
 |843|[Guess the Word](https://leetcode.com/problems/guess-the-word/)|Hard||
 |850|[Rectangle Area II](https://leetcode.com/problems/rectangle-area-ii/)|Hard||
-|851|[Loud and Rich](https://leetcode.com/problems/loud-and-rich/)|Medium||
 |854|[K-Similar Strings](https://leetcode.com/problems/k-similar-strings/)|Hard||
 |870|[Advantage Shuffle](https://leetcode.com/problems/advantage-shuffle/)|Medium||
 |877|[Stone Game](https://leetcode.com/problems/stone-game/)|Medium||
 |887|[Super Egg Drop](https://leetcode.com/problems/super-egg-drop/)|Hard||
 |889|[Construct Binary Tree from Preorder and Postorder Traversal](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-postorder-traversal/)|Medium||
 |891|[Sum of Subsequence Widths](https://leetcode.com/problems/sum-of-subsequence-widths/)|Hard||
-|893|[Groups of Special-Equivalent Strings](https://leetcode.com/problems/groups-of-special-equivalent-strings/)|Medium||
 |903|[Valid Permutations for DI Sequence](https://leetcode.com/problems/valid-permutations-for-di-sequence/)|Hard||
 |906|[Super Palindromes](https://leetcode.com/problems/super-palindromes/)|Hard||
 |913|[Cat and Mouse](https://leetcode.com/problems/cat-and-mouse/)|Hard||
 |915|[Partition Array into Disjoint Intervals](https://leetcode.com/problems/partition-array-into-disjoint-intervals/)|Medium||
 |919|[Complete Binary Tree Inserter](https://leetcode.com/problems/complete-binary-tree-inserter/)|Medium||
-|921|[Minimum Add to Make Parentheses Valid](https://leetcode.com/problems/minimum-add-to-make-parentheses-valid/)|Medium||
 |924|[Minimize Malware Spread](https://leetcode.com/problems/minimize-malware-spread/)|Hard||
 |926|[Flip String to Monotone Increasing](https://leetcode.com/problems/flip-string-to-monotone-increasing/)|Medium||
 |927|[Three Equal Parts](https://leetcode.com/problems/three-equal-parts/)|Hard||
 |928|[Minimize Malware Spread II](https://leetcode.com/problems/minimize-malware-spread-ii/)|Hard||
 |932|[Beautiful Array](https://leetcode.com/problems/beautiful-array/)|Medium||
-|937|[Reorder Data in Log Files](https://leetcode.com/problems/reorder-data-in-log-files/)|Medium||
 |939|[Minimum Area Rectangle](https://leetcode.com/problems/minimum-area-rectangle/)|Medium||
 |940|[Distinct Subsequences II](https://leetcode.com/problems/distinct-subsequences-ii/)|Hard||
 |943|[Find the Shortest Superstring](https://leetcode.com/problems/find-the-shortest-superstring/)|Hard||
@@ -1837,7 +1832,6 @@ The questions which have been solved are not shown in this page, more informatio
 |3286|[Find a Safe Walk Through a Grid](https://leetcode.com/problems/find-a-safe-walk-through-a-grid/)|Medium||
 |3287|[Find the Maximum Sequence Value of Array](https://leetcode.com/problems/find-the-maximum-sequence-value-of-array/)|Hard||
 |3288|[Length of the Longest Increasing Path](https://leetcode.com/problems/length-of-the-longest-increasing-path/)|Hard||
-|3289|[The Two Sneaky Numbers of Digitville](https://leetcode.com/problems/the-two-sneaky-numbers-of-digitville/)|Easy||
 |3290|[Maximum Multiplication Score](https://leetcode.com/problems/maximum-multiplication-score/)|Medium||
 |3291|[Minimum Number of Valid Strings to Form Target I](https://leetcode.com/problems/minimum-number-of-valid-strings-to-form-target-i/)|Medium||
 |3292|[Minimum Number of Valid Strings to Form Target II](https://leetcode.com/problems/minimum-number-of-valid-strings-to-form-target-ii/)|Hard||
