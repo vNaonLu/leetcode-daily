@@ -1,6 +1,6 @@
 # Unsolved Solutions List
 
-There are **1828** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
+There are **1827** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
 
 The questions which have been solved are not shown in this page, more information about solved questions can be found at [docs/solved_solutions.md](./solved_solutions.md).
 
@@ -1632,7 +1632,6 @@ The questions which have been solved are not shown in this page, more informatio
 |3039|[Apply Operations to Make String Empty](https://leetcode.com/problems/apply-operations-to-make-string-empty/)|Medium||
 |3040|[Maximum Number of Operations With the Same Score II](https://leetcode.com/problems/maximum-number-of-operations-with-the-same-score-ii/)|Medium||
 |3041|[Maximize Consecutive Elements in an Array After Modification](https://leetcode.com/problems/maximize-consecutive-elements-in-an-array-after-modification/)|Hard||
-|3043|[Find the Length of the Longest Common Prefix](https://leetcode.com/problems/find-the-length-of-the-longest-common-prefix/)|Medium||
 |3044|[Most Frequent Prime](https://leetcode.com/problems/most-frequent-prime/)|Medium||
 |3045|[Count Prefix and Suffix Pairs II](https://leetcode.com/problems/count-prefix-and-suffix-pairs-ii/)|Hard||
 |3047|[Find the Largest Area of Square Inside Two Rectangles](https://leetcode.com/problems/find-the-largest-area-of-square-inside-two-rectangles/)|Medium||
