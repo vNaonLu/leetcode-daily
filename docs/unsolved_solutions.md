@@ -1,6 +1,6 @@
 # Unsolved Solutions List
 
-There are **1827** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
+There are **1826** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
 
 The questions which have been solved are not shown in this page, more information about solved questions can be found at [docs/solved_solutions.md](./solved_solutions.md).
 
@@ -1159,7 +1159,6 @@ The questions which have been solved are not shown in this page, more informatio
 |2412|[Minimum Money Required Before Transactions](https://leetcode.com/problems/minimum-money-required-before-transactions/)|Hard||
 |2414|[Length of the Longest Alphabetical Continuous Substring](https://leetcode.com/problems/length-of-the-longest-alphabetical-continuous-substring/)|Medium||
 |2415|[Reverse Odd Levels of Binary Tree](https://leetcode.com/problems/reverse-odd-levels-of-binary-tree/)|Medium||
-|2416|[Sum of Prefix Scores of Strings](https://leetcode.com/problems/sum-of-prefix-scores-of-strings/)|Hard||
 |2417|[Closest Fair Integer](https://leetcode.com/problems/closest-fair-integer/)|Medium|🔒|
 |2420|[Find All Good Indices](https://leetcode.com/problems/find-all-good-indices/)|Medium||
 |2422|[Merge Operations to Turn Array Into a Palindrome](https://leetcode.com/problems/merge-operations-to-turn-array-into-a-palindrome/)|Medium|🔒|
