@@ -1,6 +1,6 @@
 # Solved Solutions List
 
-This document contains **1467** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
+This document contains **1468** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
 
 Some questions which are still being resolved are not shown in this page, more information about unsolved questions can be found at [docs/unsolved_solutions.md](./unsolved_solutions.md).
 
@@ -511,6 +511,7 @@ Some questions which are still being resolved are not shown in this page, more i
 |726|[Number of Atoms](https://leetcode.com/problems/number-of-atoms/)|[src/q_701_750/q0726.cc](../src/q_701_750/q0726.cc)|2024/07/14 14:30|
 |728|[Self Dividing Numbers](https://leetcode.com/problems/self-dividing-numbers/)|[src/q_701_750/q0728.cc](../src/q_701_750/q0728.cc)|2022/11/01 18:55|
 |729|[My Calendar I](https://leetcode.com/problems/my-calendar-i/)|[src/q_701_750/q0729.cc](../src/q_701_750/q0729.cc)|2022/05/15 13:05|
+|731|[My Calendar II](https://leetcode.com/problems/my-calendar-ii/)|[src/q_701_750/q0731.cc](../src/q_701_750/q0731.cc)|2024/09/27 20:43|
 |732|[My Calendar III](https://leetcode.com/problems/my-calendar-iii/)|[src/q_701_750/q0732.cc](../src/q_701_750/q0732.cc)|2022/10/07 10:11|
 |733|[Flood Fill](https://leetcode.com/problems/flood-fill/)|[src/q_701_750/q0733.cc](../src/q_701_750/q0733.cc)|2021/09/11 08:00|
 |735|[Asteroid Collision](https://leetcode.com/problems/asteroid-collision/)|[src/q_701_750/q0735.cc](../src/q_701_750/q0735.cc)|2022/09/25 18:35|
