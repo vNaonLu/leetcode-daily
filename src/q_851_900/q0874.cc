@@ -79,7 +79,7 @@ public:
         } else {
           int  dy = dir.second * x + pos.second;
           auto it = xobs.find(pos.first);
-          if (it != yobs.end()) {
+          if (it != xobs.end()) {
             pos.second = advanceTo(pos.second, dy, it->second);
           } else {
             pos.second = dy;
@@ -109,10 +109,10 @@ private:
     if (before < after) {
       auto beg = o.upper_bound(before);
       auto end = o.upper_bound(after);
-      if (beg == end || end == o.begin() || *end == before) {
+      if (beg == end || end == o.begin() || *--end == before) {
         return after;
       } else {
-        return *(--end) - 1;
+        return *end - 1;
       }
     } else {
       auto beg = o.lower_bound(before);
@@ -120,7 +120,7 @@ private:
       if (beg == end || beg == o.begin() || *--beg == before) {
         return after;
       } else {
-        return *(beg) + 1;
+        return *beg + 1;
       }
     }
   }
