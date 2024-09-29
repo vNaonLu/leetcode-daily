@@ -1,6 +1,6 @@
 # Solved Solutions List
 
-This document contains **1469** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
+This document contains **1470** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
 
 Some questions which are still being resolved are not shown in this page, more information about unsolved questions can be found at [docs/unsolved_solutions.md](./unsolved_solutions.md).
 
@@ -328,6 +328,7 @@ Some questions which are still being resolved are not shown in this page, more i
 |427|[Construct Quad Tree](https://leetcode.com/problems/construct-quad-tree/)|[src/q_401_450/q0427.cc](../src/q_401_450/q0427.cc)|2023/02/27 15:12|
 |429|[N-ary Tree Level Order Traversal](https://leetcode.com/problems/n-ary-tree-level-order-traversal/)|[src/q_401_450/q0429.cc](../src/q_401_450/q0429.cc)|2022/05/04 18:14|
 |430|[Flatten a Multilevel Doubly Linked List](https://leetcode.com/problems/flatten-a-multilevel-doubly-linked-list/)|[src/q_401_450/q0430.cc](../src/q_401_450/q0430.cc)|2021/10/31 13:12|
+|432|[All O`one Data Structure](https://leetcode.com/problems/all-oone-data-structure/)|[src/q_401_450/q0432.cc](../src/q_401_450/q0432.cc)|2024/09/29 12:24|
 |433|[Minimum Genetic Mutation](https://leetcode.com/problems/minimum-genetic-mutation/)|[src/q_401_450/q0433.cc](../src/q_401_450/q0433.cc)|2022/03/21 16:31|
 |434|[Number of Segments in a String](https://leetcode.com/problems/number-of-segments-in-a-string/)|[src/q_401_450/q0434.cc](../src/q_401_450/q0434.cc)|2022/08/30 18:15|
 |435|[Non-overlapping Intervals](https://leetcode.com/problems/non-overlapping-intervals/)|[src/q_401_450/q0435.cc](../src/q_401_450/q0435.cc)|2021/09/22 08:00|
