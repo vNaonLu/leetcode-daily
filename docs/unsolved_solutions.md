@@ -1,6 +1,6 @@
 # Unsolved Solutions List
 
-There are **1822** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
+There are **1821** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
 
 The questions which have been solved are not shown in this page, more information about solved questions can be found at [docs/solved_solutions.md](./solved_solutions.md).
 
@@ -526,7 +526,6 @@ The questions which have been solved are not shown in this page, more informatio
 |1375|[Number of Times Binary String Is Prefix-Aligned](https://leetcode.com/problems/number-of-times-binary-string-is-prefix-aligned/)|Medium||
 |1377|[Frog Position After T Seconds](https://leetcode.com/problems/frog-position-after-t-seconds/)|Hard||
 |1378|[Replace Employee ID With The Unique Identifier](https://leetcode.com/problems/replace-employee-id-with-the-unique-identifier/)|Easy||
-|1381|[Design a Stack With Increment Operation](https://leetcode.com/problems/design-a-stack-with-increment-operation/)|Medium||
 |1384|[Total Sales Amount by Year](https://leetcode.com/problems/total-sales-amount-by-year/)|Hard|🔒|
 |1386|[Cinema Seat Allocation](https://leetcode.com/problems/cinema-seat-allocation/)|Medium||
 |1387|[Sort Integers by The Power Value](https://leetcode.com/problems/sort-integers-by-the-power-value/)|Medium||

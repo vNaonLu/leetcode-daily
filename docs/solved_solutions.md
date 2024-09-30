@@ -1,6 +1,6 @@
 # Solved Solutions List
 
-This document contains **1470** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
+This document contains **1471** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
 
 Some questions which are still being resolved are not shown in this page, more information about unsolved questions can be found at [docs/unsolved_solutions.md](./unsolved_solutions.md).
 
@@ -868,6 +868,7 @@ Some questions which are still being resolved are not shown in this page, more i
 |1376|[Time Needed to Inform All Employees](https://leetcode.com/problems/time-needed-to-inform-all-employees/)|[src/q_1351_1400/q1376.cc](../src/q_1351_1400/q1376.cc)|2022/03/18 18:26|
 |1379|[Find a Corresponding Node of a Binary Tree in a Clone of That Tree](https://leetcode.com/problems/find-a-corresponding-node-of-a-binary-tree-in-a-clone-of-that-tree/)|[src/q_1351_1400/q1379.cc](../src/q_1351_1400/q1379.cc)|2022/05/17 18:15|
 |1380|[Lucky Numbers in a Matrix](https://leetcode.com/problems/lucky-numbers-in-a-matrix/)|[src/q_1351_1400/q1380.cc](../src/q_1351_1400/q1380.cc)|2023/06/22 08:03|
+|1381|[Design a Stack With Increment Operation](https://leetcode.com/problems/design-a-stack-with-increment-operation/)|[src/q_1351_1400/q1381.cc](../src/q_1351_1400/q1381.cc)|2024/09/30 21:10|
 |1382|[Balance a Binary Search Tree](https://leetcode.com/problems/balance-a-binary-search-tree/)|[src/q_1351_1400/q1382.cc](../src/q_1351_1400/q1382.cc)|2022/06/14 18:26|
 |1383|[Maximum Performance of a Team](https://leetcode.com/problems/maximum-performance-of-a-team/)|[src/q_1351_1400/q1383.cc](../src/q_1351_1400/q1383.cc)|2022/09/11 14:17|
 |1385|[Find the Distance Value Between Two Arrays](https://leetcode.com/problems/find-the-distance-value-between-two-arrays/)|[src/q_1351_1400/q1385.cc](../src/q_1351_1400/q1385.cc)|2022/04/06 18:57|
