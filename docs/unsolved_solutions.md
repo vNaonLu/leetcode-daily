@@ -1,6 +1,6 @@
 # Unsolved Solutions List
 
-There are **1821** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
+There are **1820** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
 
 The questions which have been solved are not shown in this page, more information about solved questions can be found at [docs/solved_solutions.md](./solved_solutions.md).
 
@@ -582,7 +582,6 @@ The questions which have been solved are not shown in this page, more informatio
 |1492|[The kth Factor of n](https://leetcode.com/problems/the-kth-factor-of-n/)|Medium||
 |1494|[Parallel Courses II](https://leetcode.com/problems/parallel-courses-ii/)|Hard||
 |1495|[Friendly Movies Streamed Last Month](https://leetcode.com/problems/friendly-movies-streamed-last-month/)|Easy|🔒|
-|1497|[Check If Array Pairs Are Divisible by k](https://leetcode.com/problems/check-if-array-pairs-are-divisible-by-k/)|Medium||
 |1499|[Max Value of Equation](https://leetcode.com/problems/max-value-of-equation/)|Hard||
 |1500|[Design a File Sharing System](https://leetcode.com/problems/design-a-file-sharing-system/)|Medium|🔒|
 |1501|[Countries You Can Safely Invest In](https://leetcode.com/problems/countries-you-can-safely-invest-in/)|Medium|🔒|

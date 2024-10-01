@@ -1,6 +1,6 @@
 # Solved Solutions List
 
-This document contains **1471** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
+This document contains **1472** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
 
 Some questions which are still being resolved are not shown in this page, more information about unsolved questions can be found at [docs/unsolved_solutions.md](./unsolved_solutions.md).
 
@@ -928,6 +928,7 @@ Some questions which are still being resolved are not shown in this page, more i
 |1491|[Average Salary Excluding the Minimum and Maximum Salary](https://leetcode.com/problems/average-salary-excluding-the-minimum-and-maximum-salary/)|[src/q_1451_1500/q1491.cc](../src/q_1451_1500/q1491.cc)|2022/04/14 18:40|
 |1493|[Longest Subarray of 1's After Deleting One Element](https://leetcode.com/problems/longest-subarray-of-1s-after-deleting-one-element/)|[src/q_1451_1500/q1493.cc](../src/q_1451_1500/q1493.cc)|2023/07/05 14:29|
 |1496|[Path Crossing](https://leetcode.com/problems/path-crossing/)|[src/q_1451_1500/q1496.cc](../src/q_1451_1500/q1496.cc)|2023/03/28 19:17|
+|1497|[Check If Array Pairs Are Divisible by k](https://leetcode.com/problems/check-if-array-pairs-are-divisible-by-k/)|[src/q_1451_1500/q1497.cc](../src/q_1451_1500/q1497.cc)|2024/10/01 19:15|
 |1498|[Number of Subsequences That Satisfy the Given Sum Condition](https://leetcode.com/problems/number-of-subsequences-that-satisfy-the-given-sum-condition/)|[src/q_1451_1500/q1498.cc](../src/q_1451_1500/q1498.cc)|2022/07/28 18:56|
 |1502|[Can Make Arithmetic Progression From Sequence](https://leetcode.com/problems/can-make-arithmetic-progression-from-sequence/)|[src/q_1501_1550/q1502.cc](../src/q_1501_1550/q1502.cc)|2022/04/17 12:42|
 |1503|[Last Moment Before All Ants Fall Out of a Plank](https://leetcode.com/problems/last-moment-before-all-ants-fall-out-of-a-plank/)|[src/q_1501_1550/q1503.cc](../src/q_1501_1550/q1503.cc)|2023/11/04 22:15|
