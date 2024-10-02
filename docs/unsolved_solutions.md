@@ -1,6 +1,6 @@
 # Unsolved Solutions List
 
-There are **1828** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
+There are **1821** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
 
 The questions which have been solved are not shown in this page, more information about solved questions can be found at [docs/solved_solutions.md](./solved_solutions.md).
 
@@ -117,7 +117,6 @@ The questions which have been solved are not shown in this page, more informatio
 |426|[Convert Binary Search Tree to Sorted Doubly Linked List](https://leetcode.com/problems/convert-binary-search-tree-to-sorted-doubly-linked-list/)|Medium|🔒|
 |428|[Serialize and Deserialize N-ary Tree](https://leetcode.com/problems/serialize-and-deserialize-n-ary-tree/)|Hard|🔒|
 |431|[Encode N-ary Tree to Binary Tree](https://leetcode.com/problems/encode-n-ary-tree-to-binary-tree/)|Hard|🔒|
-|432|[All O`one Data Structure](https://leetcode.com/problems/all-oone-data-structure/)|Hard||
 |439|[Ternary Expression Parser](https://leetcode.com/problems/ternary-expression-parser/)|Medium|🔒|
 |444|[Sequence Reconstruction](https://leetcode.com/problems/sequence-reconstruction/)|Medium|🔒|
 |465|[Optimal Account Balancing](https://leetcode.com/problems/optimal-account-balancing/)|Hard|🔒|
@@ -233,7 +232,6 @@ The questions which have been solved are not shown in this page, more informatio
 |723|[Candy Crush](https://leetcode.com/problems/candy-crush/)|Medium|🔒|
 |727|[Minimum Window Subsequence](https://leetcode.com/problems/minimum-window-subsequence/)|Hard|🔒|
 |730|[Count Different Palindromic Subsequences](https://leetcode.com/problems/count-different-palindromic-subsequences/)|Hard||
-|731|[My Calendar II](https://leetcode.com/problems/my-calendar-ii/)|Medium||
 |734|[Sentence Similarity](https://leetcode.com/problems/sentence-similarity/)|Easy|🔒|
 |736|[Parse Lisp Expression](https://leetcode.com/problems/parse-lisp-expression/)|Hard||
 |737|[Sentence Similarity II](https://leetcode.com/problems/sentence-similarity-ii/)|Medium|🔒|
@@ -287,10 +285,8 @@ The questions which have been solved are not shown in this page, more informatio
 |927|[Three Equal Parts](https://leetcode.com/problems/three-equal-parts/)|Hard||
 |928|[Minimize Malware Spread II](https://leetcode.com/problems/minimize-malware-spread-ii/)|Hard||
 |932|[Beautiful Array](https://leetcode.com/problems/beautiful-array/)|Medium||
-|939|[Minimum Area Rectangle](https://leetcode.com/problems/minimum-area-rectangle/)|Medium||
 |940|[Distinct Subsequences II](https://leetcode.com/problems/distinct-subsequences-ii/)|Hard||
 |943|[Find the Shortest Superstring](https://leetcode.com/problems/find-the-shortest-superstring/)|Hard||
-|949|[Largest Time for Given Digits](https://leetcode.com/problems/largest-time-for-given-digits/)|Medium||
 |954|[Array of Doubled Pairs](https://leetcode.com/problems/array-of-doubled-pairs/)|Medium||
 |955|[Delete Columns to Make Sorted II](https://leetcode.com/problems/delete-columns-to-make-sorted-ii/)|Medium||
 |957|[Prison Cells After N Days](https://leetcode.com/problems/prison-cells-after-n-days/)|Medium||
@@ -530,7 +526,6 @@ The questions which have been solved are not shown in this page, more informatio
 |1375|[Number of Times Binary String Is Prefix-Aligned](https://leetcode.com/problems/number-of-times-binary-string-is-prefix-aligned/)|Medium||
 |1377|[Frog Position After T Seconds](https://leetcode.com/problems/frog-position-after-t-seconds/)|Hard||
 |1378|[Replace Employee ID With The Unique Identifier](https://leetcode.com/problems/replace-employee-id-with-the-unique-identifier/)|Easy||
-|1381|[Design a Stack With Increment Operation](https://leetcode.com/problems/design-a-stack-with-increment-operation/)|Medium||
 |1384|[Total Sales Amount by Year](https://leetcode.com/problems/total-sales-amount-by-year/)|Hard|🔒|
 |1386|[Cinema Seat Allocation](https://leetcode.com/problems/cinema-seat-allocation/)|Medium||
 |1387|[Sort Integers by The Power Value](https://leetcode.com/problems/sort-integers-by-the-power-value/)|Medium||
@@ -1159,7 +1154,6 @@ The questions which have been solved are not shown in this page, more informatio
 |2412|[Minimum Money Required Before Transactions](https://leetcode.com/problems/minimum-money-required-before-transactions/)|Hard||
 |2414|[Length of the Longest Alphabetical Continuous Substring](https://leetcode.com/problems/length-of-the-longest-alphabetical-continuous-substring/)|Medium||
 |2415|[Reverse Odd Levels of Binary Tree](https://leetcode.com/problems/reverse-odd-levels-of-binary-tree/)|Medium||
-|2416|[Sum of Prefix Scores of Strings](https://leetcode.com/problems/sum-of-prefix-scores-of-strings/)|Hard||
 |2417|[Closest Fair Integer](https://leetcode.com/problems/closest-fair-integer/)|Medium|🔒|
 |2420|[Find All Good Indices](https://leetcode.com/problems/find-all-good-indices/)|Medium||
 |2422|[Merge Operations to Turn Array Into a Palindrome](https://leetcode.com/problems/merge-operations-to-turn-array-into-a-palindrome/)|Medium|🔒|
@@ -1632,7 +1626,6 @@ The questions which have been solved are not shown in this page, more informatio
 |3039|[Apply Operations to Make String Empty](https://leetcode.com/problems/apply-operations-to-make-string-empty/)|Medium||
 |3040|[Maximum Number of Operations With the Same Score II](https://leetcode.com/problems/maximum-number-of-operations-with-the-same-score-ii/)|Medium||
 |3041|[Maximize Consecutive Elements in an Array After Modification](https://leetcode.com/problems/maximize-consecutive-elements-in-an-array-after-modification/)|Hard||
-|3043|[Find the Length of the Longest Common Prefix](https://leetcode.com/problems/find-the-length-of-the-longest-common-prefix/)|Medium||
 |3044|[Most Frequent Prime](https://leetcode.com/problems/most-frequent-prime/)|Medium||
 |3045|[Count Prefix and Suffix Pairs II](https://leetcode.com/problems/count-prefix-and-suffix-pairs-ii/)|Hard||
 |3047|[Find the Largest Area of Square Inside Two Rectangles](https://leetcode.com/problems/find-the-largest-area-of-square-inside-two-rectangles/)|Medium||
