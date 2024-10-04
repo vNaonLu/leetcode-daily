@@ -1,6 +1,6 @@
 # Solved Solutions List
 
-This document contains **1474** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
+This document contains **1475** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
 
 Some questions which are still being resolved are not shown in this page, more information about unsolved questions can be found at [docs/unsolved_solutions.md](./unsolved_solutions.md).
 
@@ -1307,6 +1307,7 @@ Some questions which are still being resolved are not shown in this page, more i
 |2486|[Append Characters to String to Make Subsequence](https://leetcode.com/problems/append-characters-to-string-to-make-subsequence/)|[src/q_2451_2500/q2486.cc](../src/q_2451_2500/q2486.cc)|2024/06/03 19:07|
 |2487|[Remove Nodes From Linked List](https://leetcode.com/problems/remove-nodes-from-linked-list/)|[src/q_2451_2500/q2487.cc](../src/q_2451_2500/q2487.cc)|2024/05/06 22:07|
 |2490|[Circular Sentence](https://leetcode.com/problems/circular-sentence/)|[src/q_2451_2500/q2490.cc](../src/q_2451_2500/q2490.cc)|2023/03/06 14:54|
+|2491|[Divide Players Into Teams of Equal Skill](https://leetcode.com/problems/divide-players-into-teams-of-equal-skill/)|[src/q_2451_2500/q2491.cc](../src/q_2451_2500/q2491.cc)|2024/10/04 22:19|
 |2492|[Minimum Score of a Path Between Two Cities](https://leetcode.com/problems/minimum-score-of-a-path-between-two-cities/)|[src/q_2451_2500/q2492.cc](../src/q_2451_2500/q2492.cc)|2023/03/22 19:47|
 |2496|[Maximum Value of a String in an Array](https://leetcode.com/problems/maximum-value-of-a-string-in-an-array/)|[src/q_2451_2500/q2496.cc](../src/q_2451_2500/q2496.cc)|2023/04/20 18:55|
 |2500|[Delete Greatest Value in Each Row](https://leetcode.com/problems/delete-greatest-value-in-each-row/)|[src/q_2451_2500/q2500.cc](../src/q_2451_2500/q2500.cc)|2023/05/03 19:02|
