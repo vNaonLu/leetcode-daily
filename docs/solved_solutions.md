@@ -1,6 +1,6 @@
 # Solved Solutions List
 
-This document contains **1475** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
+This document contains **1476** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
 
 Some questions which are still being resolved are not shown in this page, more information about unsolved questions can be found at [docs/unsolved_solutions.md](./unsolved_solutions.md).
 
@@ -1482,3 +1482,4 @@ Some questions which are still being resolved are not shown in this page, more i
 |3285|[Find Indices of Stable Mountains](https://leetcode.com/problems/find-indices-of-stable-mountains/)|[src/q_3251_3300/q3285.cc](../src/q_3251_3300/q3285.cc)|2024/09/16 21:38|
 |3289|[The Two Sneaky Numbers of Digitville](https://leetcode.com/problems/the-two-sneaky-numbers-of-digitville/)|[src/q_3251_3300/q3289.cc](../src/q_3251_3300/q3289.cc)|2024/09/17 21:10|
 |3300|[Minimum Element After Replacement With Digit Sum](https://leetcode.com/problems/minimum-element-after-replacement-with-digit-sum/)|[src/q_3251_3300/q3300.cc](../src/q_3251_3300/q3300.cc)|2024/10/02 12:50|
+|3304|[Find the K-th Character in String Game I](https://leetcode.com/problems/find-the-k-th-character-in-string-game-i/)|[src/q_3301_3350/q3304.cc](../src/q_3301_3350/q3304.cc)|2024/10/05 16:33|
