@@ -1475,3 +1475,4 @@ timestamp,id,tc,sc,notes
 1727940211,1590,n,n,n = |nums.size()|
 1728051590,2491,n,n,n = |skill.size()|
 1728117230,3304,-,-,not calculated
+1728190960,1813,E1 + E2,E1 + E2,"E1 = |sum(sentence1[i].size())|, E2 = |sum(sentenec2[i].size())|"

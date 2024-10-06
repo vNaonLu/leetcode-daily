@@ -1,6 +1,6 @@
 # Solved Solutions List
 
-This document contains **1476** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
+This document contains **1477** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
 
 Some questions which are still being resolved are not shown in this page, more information about unsolved questions can be found at [docs/unsolved_solutions.md](./unsolved_solutions.md).
 
@@ -1063,6 +1063,7 @@ Some questions which are still being resolved are not shown in this page, more i
 |1802|[Maximum Value at a Given Index in a Bounded Array](https://leetcode.com/problems/maximum-value-at-a-given-index-in-a-bounded-array/)|[src/q_1801_1850/q1802.cc](../src/q_1801_1850/q1802.cc)|2022/07/30 17:15|
 |1805|[Number of Different Integers in a String](https://leetcode.com/problems/number-of-different-integers-in-a-string/)|[src/q_1801_1850/q1805.cc](../src/q_1801_1850/q1805.cc)|2022/06/22 18:14|
 |1812|[Determine Color of a Chessboard Square](https://leetcode.com/problems/determine-color-of-a-chessboard-square/)|[src/q_1801_1850/q1812.cc](../src/q_1801_1850/q1812.cc)|2023/09/10 13:51|
+|1813|[Sentence Similarity III](https://leetcode.com/problems/sentence-similarity-iii/)|[src/q_1801_1850/q1813.cc](../src/q_1801_1850/q1813.cc)|2024/10/06 13:02|
 |1814|[Count Nice Pairs in an Array](https://leetcode.com/problems/count-nice-pairs-in-an-array/)|[src/q_1801_1850/q1814.cc](../src/q_1801_1850/q1814.cc)|2023/11/21 19:11|
 |1816|[Truncate Sentence](https://leetcode.com/problems/truncate-sentence/)|[src/q_1801_1850/q1816.cc](../src/q_1801_1850/q1816.cc)|2022/12/15 10:20|
 |1818|[Minimum Absolute Sum Difference](https://leetcode.com/problems/minimum-absolute-sum-difference/)|[src/q_1801_1850/q1818.cc](../src/q_1801_1850/q1818.cc)|2022/07/20 19:02|
