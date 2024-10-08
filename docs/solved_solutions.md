@@ -1,6 +1,6 @@
 # Solved Solutions List
 
-This document contains **1478** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
+This document contains **1479** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
 
 Some questions which are still being resolved are not shown in this page, more information about unsolved questions can be found at [docs/unsolved_solutions.md](./unsolved_solutions.md).
 
@@ -733,6 +733,7 @@ Some questions which are still being resolved are not shown in this page, more i
 |1030|[Matrix Cells in Distance Order](https://leetcode.com/problems/matrix-cells-in-distance-order/)|[src/q_1001_1050/q1030.cc](../src/q_1001_1050/q1030.cc)|2023/06/08 18:47|
 |1031|[Maximum Sum of Two Non-Overlapping Subarrays](https://leetcode.com/problems/maximum-sum-of-two-non-overlapping-subarrays/)|[src/q_1001_1050/q1031.cc](../src/q_1001_1050/q1031.cc)|2022/02/17 18:37|
 |1032|[Stream of Characters](https://leetcode.com/problems/stream-of-characters/)|[src/q_1001_1050/q1032.cc](../src/q_1001_1050/q1032.cc)|2021/12/04 22:22|
+|1034|[Coloring A Border](https://leetcode.com/problems/coloring-a-border/)|[src/q_1001_1050/q1034.cc](../src/q_1001_1050/q1034.cc)|2024/10/08 21:58|
 |1035|[Uncrossed Lines](https://leetcode.com/problems/uncrossed-lines/)|[src/q_1001_1050/q1035.cc](../src/q_1001_1050/q1035.cc)|2022/03/26 11:56|
 |1037|[Valid Boomerang](https://leetcode.com/problems/valid-boomerang/)|[src/q_1001_1050/q1037.cc](../src/q_1001_1050/q1037.cc)|2022/11/20 15:06|
 |1038|[Binary Search Tree to Greater Sum Tree](https://leetcode.com/problems/binary-search-tree-to-greater-sum-tree/)|[src/q_1001_1050/q1038.cc](../src/q_1001_1050/q1038.cc)|2024/06/25 21:15|
