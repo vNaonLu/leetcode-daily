@@ -1478,3 +1478,4 @@ timestamp,id,tc,sc,notes
 1728190960,1813,E1 + E2,E1 + E2,"E1 = |sum(sentence1[i].size())|, E2 = |sum(sentenec2[i].size())|"
 1728308233,998,n,n,n = |root.size()|
 1728395933,1034,-,-,not calculated
+1728456149,1104,log(label),1,
