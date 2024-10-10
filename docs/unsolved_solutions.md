@@ -1,6 +1,6 @@
 # Unsolved Solutions List
 
-There are **1828** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
+There are **1827** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
 
 The questions which have been solved are not shown in this page, more information about solved questions can be found at [docs/solved_solutions.md](./solved_solutions.md).
 
@@ -291,7 +291,6 @@ The questions which have been solved are not shown in this page, more informatio
 |955|[Delete Columns to Make Sorted II](https://leetcode.com/problems/delete-columns-to-make-sorted-ii/)|Medium||
 |957|[Prison Cells After N Days](https://leetcode.com/problems/prison-cells-after-n-days/)|Medium||
 |960|[Delete Columns to Make Sorted III](https://leetcode.com/problems/delete-columns-to-make-sorted-iii/)|Hard||
-|962|[Maximum Width Ramp](https://leetcode.com/problems/maximum-width-ramp/)|Medium||
 |963|[Minimum Area Rectangle II](https://leetcode.com/problems/minimum-area-rectangle-ii/)|Medium||
 |964|[Least Operators to Express Number](https://leetcode.com/problems/least-operators-to-express-number/)|Hard||
 |966|[Vowel Spellchecker](https://leetcode.com/problems/vowel-spellchecker/)|Medium||

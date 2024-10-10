@@ -1,6 +1,6 @@
 # Solved Solutions List
 
-This document contains **1480** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
+This document contains **1481** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
 
 Some questions which are still being resolved are not shown in this page, more information about unsolved questions can be found at [docs/unsolved_solutions.md](./unsolved_solutions.md).
 
@@ -684,6 +684,7 @@ Some questions which are still being resolved are not shown in this page, more i
 |958|[Check Completeness of a Binary Tree](https://leetcode.com/problems/check-completeness-of-a-binary-tree/)|[src/q_951_1000/q0958.cc](../src/q_951_1000/q0958.cc)|2022/08/10 20:36|
 |959|[Regions Cut By Slashes](https://leetcode.com/problems/regions-cut-by-slashes/)|[src/q_951_1000/q0959.cc](../src/q_951_1000/q0959.cc)|2024/08/10 18:07|
 |961|[N-Repeated Element in Size 2N Array](https://leetcode.com/problems/n-repeated-element-in-size-2n-array/)|[src/q_951_1000/q0961.cc](../src/q_951_1000/q0961.cc)|2023/07/20 19:54|
+|962|[Maximum Width Ramp](https://leetcode.com/problems/maximum-width-ramp/)|[src/q_951_1000/q0962.cc](../src/q_951_1000/q0962.cc)|2024/10/10 22:28|
 |965|[Univalued Binary Tree](https://leetcode.com/problems/univalued-binary-tree/)|[src/q_951_1000/q0965.cc](../src/q_951_1000/q0965.cc)|2022/10/12 13:54|
 |967|[Numbers With Same Consecutive Differences](https://leetcode.com/problems/numbers-with-same-consecutive-differences/)|[src/q_951_1000/q0967.cc](../src/q_951_1000/q0967.cc)|2022/09/03 13:20|
 |968|[Binary Tree Cameras](https://leetcode.com/problems/binary-tree-cameras/)|[src/q_951_1000/q0968.cc](../src/q_951_1000/q0968.cc)|2022/06/17 22:09|

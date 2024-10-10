@@ -1479,3 +1479,4 @@ timestamp,id,tc,sc,notes
 1728308233,998,n,n,n = |root.size()|
 1728395933,1034,-,-,not calculated
 1728456149,1104,log(label),1,
+1728570500,962,n,n,n = |nums.size()|
