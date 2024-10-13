@@ -1,6 +1,6 @@
 # Unsolved Solutions List
 
-There are **1825** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
+There are **1824** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
 
 The questions which have been solved are not shown in this page, more information about solved questions can be found at [docs/solved_solutions.md](./solved_solutions.md).
 
@@ -198,7 +198,6 @@ The questions which have been solved are not shown in this page, more informatio
 |626|[Exchange Seats](https://leetcode.com/problems/exchange-seats/)|Medium||
 |627|[Swap Salary](https://leetcode.com/problems/swap-salary/)|Easy||
 |631|[Design Excel Sum Formula](https://leetcode.com/problems/design-excel-sum-formula/)|Hard|🔒|
-|632|[Smallest Range Covering Elements from K Lists](https://leetcode.com/problems/smallest-range-covering-elements-from-k-lists/)|Hard||
 |634|[Find the Derangement of An Array](https://leetcode.com/problems/find-the-derangement-of-an-array/)|Medium|🔒|
 |635|[Design Log Storage System](https://leetcode.com/problems/design-log-storage-system/)|Medium|🔒|
 |636|[Exclusive Time of Functions](https://leetcode.com/problems/exclusive-time-of-functions/)|Medium||
