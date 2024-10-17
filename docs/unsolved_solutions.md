@@ -1,6 +1,6 @@
 # Unsolved Solutions List
 
-There are **1836** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
+There are **1835** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
 
 The questions which have been solved are not shown in this page, more information about solved questions can be found at [docs/solved_solutions.md](./solved_solutions.md).
 
@@ -1833,7 +1833,6 @@ The questions which have been solved are not shown in this page, more informatio
 |3311|[Construct 2D Grid Matching Graph Layout](https://leetcode.com/problems/construct-2d-grid-matching-graph-layout/)|Hard||
 |3312|[Sorted GCD Pair Queries](https://leetcode.com/problems/sorted-gcd-pair-queries/)|Hard||
 |3313|[Find the Last Marked Nodes in Tree](https://leetcode.com/problems/find-the-last-marked-nodes-in-tree/)|Hard|🔒|
-|3314|[Construct the Minimum Bitwise Array I](https://leetcode.com/problems/construct-the-minimum-bitwise-array-i/)|Easy||
 |3315|[Construct the Minimum Bitwise Array II](https://leetcode.com/problems/construct-the-minimum-bitwise-array-ii/)|Medium||
 |3316|[Find Maximum Removals From Source String](https://leetcode.com/problems/find-maximum-removals-from-source-string/)|Medium||
 |3317|[Find the Number of Possible Ways for an Event](https://leetcode.com/problems/find-the-number-of-possible-ways-for-an-event/)|Hard||
