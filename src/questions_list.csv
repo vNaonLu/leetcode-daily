@@ -3307,3 +3307,18 @@ id,backend_id,title,level,slug,paid
 3306,3569,Count of Substrings Containing Every Vowel and K Consonants II,2,count-of-substrings-containing-every-vowel-and-k-consonants-ii,0
 3307,3601,Find the K-th Character in String Game II,3,find-the-k-th-character-in-string-game-ii,0
 3308,3624,Find Top Performing Driver,2,find-top-performing-driver,1
+3309,3579,Maximum Possible Number by Binary Concatenation,2,maximum-possible-number-by-binary-concatenation,0
+3310,3561,Remove Methods From Project,2,remove-methods-from-project,0
+3311,3578,Construct 2D Grid Matching Graph Layout,3,construct-2d-grid-matching-graph-layout,0
+3312,3583,Sorted GCD Pair Queries,3,sorted-gcd-pair-queries,0
+3313,3497,Find the Last Marked Nodes in Tree,3,find-the-last-marked-nodes-in-tree,1
+3314,3605,Construct the Minimum Bitwise Array I,1,construct-the-minimum-bitwise-array-i,0
+3315,3611,Construct the Minimum Bitwise Array II,2,construct-the-minimum-bitwise-array-ii,0
+3316,3487,Find Maximum Removals From Source String,2,find-maximum-removals-from-source-string,0
+3317,3604,Find the Number of Possible Ways for an Event,3,find-the-number-of-possible-ways-for-an-event,0
+3318,3610,Find X-Sum of All K-Long Subarrays I,1,find-x-sum-of-all-k-long-subarrays-i,0
+3319,3509,K-th Largest Perfect Subtree Size in Binary Tree,2,k-th-largest-perfect-subtree-size-in-binary-tree,0
+3320,3588,Count The Number of Winning Sequences,3,count-the-number-of-winning-sequences,0
+3321,3592,Find X-Sum of All K-Long Subarrays II,3,find-x-sum-of-all-k-long-subarrays-ii,0
+3322,3642,Premier League Table Ranking III,2,premier-league-table-ranking-iii,1
+3323,3565,Minimize Connected Groups by Inserting Interval,2,minimize-connected-groups-by-inserting-interval,1

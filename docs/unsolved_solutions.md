@@ -1,6 +1,6 @@
 # Unsolved Solutions List
 
-There are **1821** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
+There are **1836** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
 
 The questions which have been solved are not shown in this page, more information about solved questions can be found at [docs/solved_solutions.md](./solved_solutions.md).
 
@@ -1828,3 +1828,18 @@ The questions which have been solved are not shown in this page, more informatio
 |3306|[Count of Substrings Containing Every Vowel and K Consonants II](https://leetcode.com/problems/count-of-substrings-containing-every-vowel-and-k-consonants-ii/)|Medium||
 |3307|[Find the K-th Character in String Game II](https://leetcode.com/problems/find-the-k-th-character-in-string-game-ii/)|Hard||
 |3308|[Find Top Performing Driver](https://leetcode.com/problems/find-top-performing-driver/)|Medium|🔒|
+|3309|[Maximum Possible Number by Binary Concatenation](https://leetcode.com/problems/maximum-possible-number-by-binary-concatenation/)|Medium||
+|3310|[Remove Methods From Project](https://leetcode.com/problems/remove-methods-from-project/)|Medium||
+|3311|[Construct 2D Grid Matching Graph Layout](https://leetcode.com/problems/construct-2d-grid-matching-graph-layout/)|Hard||
+|3312|[Sorted GCD Pair Queries](https://leetcode.com/problems/sorted-gcd-pair-queries/)|Hard||
+|3313|[Find the Last Marked Nodes in Tree](https://leetcode.com/problems/find-the-last-marked-nodes-in-tree/)|Hard|🔒|
+|3314|[Construct the Minimum Bitwise Array I](https://leetcode.com/problems/construct-the-minimum-bitwise-array-i/)|Easy||
+|3315|[Construct the Minimum Bitwise Array II](https://leetcode.com/problems/construct-the-minimum-bitwise-array-ii/)|Medium||
+|3316|[Find Maximum Removals From Source String](https://leetcode.com/problems/find-maximum-removals-from-source-string/)|Medium||
+|3317|[Find the Number of Possible Ways for an Event](https://leetcode.com/problems/find-the-number-of-possible-ways-for-an-event/)|Hard||
+|3318|[Find X-Sum of All K-Long Subarrays I](https://leetcode.com/problems/find-x-sum-of-all-k-long-subarrays-i/)|Easy||
+|3319|[K-th Largest Perfect Subtree Size in Binary Tree](https://leetcode.com/problems/k-th-largest-perfect-subtree-size-in-binary-tree/)|Medium||
+|3320|[Count The Number of Winning Sequences](https://leetcode.com/problems/count-the-number-of-winning-sequences/)|Hard||
+|3321|[Find X-Sum of All K-Long Subarrays II](https://leetcode.com/problems/find-x-sum-of-all-k-long-subarrays-ii/)|Hard||
+|3322|[Premier League Table Ranking III](https://leetcode.com/problems/premier-league-table-ranking-iii/)|Medium|🔒|
+|3323|[Minimize Connected Groups by Inserting Interval](https://leetcode.com/problems/minimize-connected-groups-by-inserting-interval/)|Medium|🔒|
