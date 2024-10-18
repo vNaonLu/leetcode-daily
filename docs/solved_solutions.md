@@ -1,6 +1,6 @@
 # Solved Solutions List
 
-This document contains **1488** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
+This document contains **1489** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
 
 Some questions which are still being resolved are not shown in this page, more information about unsolved questions can be found at [docs/unsolved_solutions.md](./unsolved_solutions.md).
 
@@ -1155,6 +1155,7 @@ Some questions which are still being resolved are not shown in this page, more i
 |2037|[Minimum Number of Moves to Seat Everyone](https://leetcode.com/problems/minimum-number-of-moves-to-seat-everyone/)|[src/q_2001_2050/q2037.cc](../src/q_2001_2050/q2037.cc)|2023/09/23 11:19|
 |2038|[Remove Colored Pieces if Both Neighbors are the Same Color](https://leetcode.com/problems/remove-colored-pieces-if-both-neighbors-are-the-same-color/)|[src/q_2001_2050/q2038.cc](../src/q_2001_2050/q2038.cc)|2023/10/02 21:08|
 |2042|[Check if Numbers Are Ascending in a Sentence](https://leetcode.com/problems/check-if-numbers-are-ascending-in-a-sentence/)|[src/q_2001_2050/q2042.cc](../src/q_2001_2050/q2042.cc)|2022/01/12 17:59|
+|2044|[Count Number of Maximum Bitwise-OR Subsets](https://leetcode.com/problems/count-number-of-maximum-bitwise-or-subsets/)|[src/q_2001_2050/q2044.cc](../src/q_2001_2050/q2044.cc)|2024/10/18 17:09|
 |2045|[Second Minimum Time to Reach Destination](https://leetcode.com/problems/second-minimum-time-to-reach-destination/)|[src/q_2001_2050/q2045.cc](../src/q_2001_2050/q2045.cc)|2024/07/28 14:33|
 |2047|[Number of Valid Words in a Sentence](https://leetcode.com/problems/number-of-valid-words-in-a-sentence/)|[src/q_2001_2050/q2047.cc](../src/q_2001_2050/q2047.cc)|2023/09/24 12:25|
 |2050|[Parallel Courses III](https://leetcode.com/problems/parallel-courses-iii/)|[src/q_2001_2050/q2050.cc](../src/q_2001_2050/q2050.cc)|2023/10/18 19:39|

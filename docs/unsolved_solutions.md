@@ -1,6 +1,6 @@
 # Unsolved Solutions List
 
-There are **1835** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
+There are **1834** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
 
 The questions which have been solved are not shown in this page, more information about solved questions can be found at [docs/solved_solutions.md](./solved_solutions.md).
 
@@ -902,7 +902,6 @@ The questions which have been solved are not shown in this page, more informatio
 |2040|[Kth Smallest Product of Two Sorted Arrays](https://leetcode.com/problems/kth-smallest-product-of-two-sorted-arrays/)|Hard||
 |2041|[Accepted Candidates From the Interviews](https://leetcode.com/problems/accepted-candidates-from-the-interviews/)|Medium|🔒|
 |2043|[Simple Bank System](https://leetcode.com/problems/simple-bank-system/)|Medium||
-|2044|[Count Number of Maximum Bitwise-OR Subsets](https://leetcode.com/problems/count-number-of-maximum-bitwise-or-subsets/)|Medium||
 |2046|[Sort Linked List Already Sorted Using Absolute Values](https://leetcode.com/problems/sort-linked-list-already-sorted-using-absolute-values/)|Medium|🔒|
 |2048|[Next Greater Numerically Balanced Number](https://leetcode.com/problems/next-greater-numerically-balanced-number/)|Medium||
 |2049|[Count Nodes With the Highest Score](https://leetcode.com/problems/count-nodes-with-the-highest-score/)|Medium||

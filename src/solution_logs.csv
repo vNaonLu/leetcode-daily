@@ -1487,3 +1487,4 @@ timestamp,id,tc,sc,notes
 1728998547,2938,n,1,n = |s.size()|
 1729084496,1405,n * log(n),n,n = |a + b + c|
 1729166402,3314,1,1,compile time calculation.
+1729242541,2044,2 ^ n,n,n = |nums.size()|
