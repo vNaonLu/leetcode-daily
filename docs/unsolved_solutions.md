@@ -1,6 +1,6 @@
 # Unsolved Solutions List
 
-There are **1834** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
+There are **1833** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
 
 The questions which have been solved are not shown in this page, more information about solved questions can be found at [docs/solved_solutions.md](./solved_solutions.md).
 
@@ -1835,7 +1835,6 @@ The questions which have been solved are not shown in this page, more informatio
 |3315|[Construct the Minimum Bitwise Array II](https://leetcode.com/problems/construct-the-minimum-bitwise-array-ii/)|Medium||
 |3316|[Find Maximum Removals From Source String](https://leetcode.com/problems/find-maximum-removals-from-source-string/)|Medium||
 |3317|[Find the Number of Possible Ways for an Event](https://leetcode.com/problems/find-the-number-of-possible-ways-for-an-event/)|Hard||
-|3318|[Find X-Sum of All K-Long Subarrays I](https://leetcode.com/problems/find-x-sum-of-all-k-long-subarrays-i/)|Easy||
 |3319|[K-th Largest Perfect Subtree Size in Binary Tree](https://leetcode.com/problems/k-th-largest-perfect-subtree-size-in-binary-tree/)|Medium||
 |3320|[Count The Number of Winning Sequences](https://leetcode.com/problems/count-the-number-of-winning-sequences/)|Hard||
 |3321|[Find X-Sum of All K-Long Subarrays II](https://leetcode.com/problems/find-x-sum-of-all-k-long-subarrays-ii/)|Hard||

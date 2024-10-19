@@ -1,6 +1,6 @@
 # Solved Solutions List
 
-This document contains **1489** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
+This document contains **1490** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
 
 Some questions which are still being resolved are not shown in this page, more information about unsolved questions can be found at [docs/unsolved_solutions.md](./unsolved_solutions.md).
 
@@ -1496,3 +1496,4 @@ Some questions which are still being resolved are not shown in this page, more i
 |3300|[Minimum Element After Replacement With Digit Sum](https://leetcode.com/problems/minimum-element-after-replacement-with-digit-sum/)|[src/q_3251_3300/q3300.cc](../src/q_3251_3300/q3300.cc)|2024/10/02 12:50|
 |3304|[Find the K-th Character in String Game I](https://leetcode.com/problems/find-the-k-th-character-in-string-game-i/)|[src/q_3301_3350/q3304.cc](../src/q_3301_3350/q3304.cc)|2024/10/05 16:33|
 |3314|[Construct the Minimum Bitwise Array I](https://leetcode.com/problems/construct-the-minimum-bitwise-array-i/)|[src/q_3301_3350/q3314.cc](../src/q_3301_3350/q3314.cc)|2024/10/17 20:00|
+|3318|[Find X-Sum of All K-Long Subarrays I](https://leetcode.com/problems/find-x-sum-of-all-k-long-subarrays-i/)|[src/q_3301_3350/q3318.cc](../src/q_3301_3350/q3318.cc)|2024/10/19 13:42|
