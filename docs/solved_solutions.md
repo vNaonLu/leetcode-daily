@@ -1,6 +1,6 @@
 # Solved Solutions List
 
-This document contains **1490** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
+This document contains **1491** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
 
 Some questions which are still being resolved are not shown in this page, more information about unsolved questions can be found at [docs/unsolved_solutions.md](./unsolved_solutions.md).
 
@@ -763,6 +763,7 @@ Some questions which are still being resolved are not shown in this page, more i
 |1103|[Distribute Candies to People](https://leetcode.com/problems/distribute-candies-to-people/)|[src/q_1101_1150/q1103.cc](../src/q_1101_1150/q1103.cc)|2023/07/26 22:21|
 |1104|[Path In Zigzag Labelled Binary Tree](https://leetcode.com/problems/path-in-zigzag-labelled-binary-tree/)|[src/q_1101_1150/q1104.cc](../src/q_1101_1150/q1104.cc)|2024/10/09 14:42|
 |1105|[Filling Bookcase Shelves](https://leetcode.com/problems/filling-bookcase-shelves/)|[src/q_1101_1150/q1105.cc](../src/q_1101_1150/q1105.cc)|2024/07/31 23:05|
+|1106|[Parsing A Boolean Expression](https://leetcode.com/problems/parsing-a-boolean-expression/)|[src/q_1101_1150/q1106.cc](../src/q_1101_1150/q1106.cc)|2024/10/20 13:53|
 |1108|[Defanging an IP Address](https://leetcode.com/problems/defanging-an-ip-address/)|[src/q_1101_1150/q1108.cc](../src/q_1101_1150/q1108.cc)|2023/05/21 13:42|
 |1110|[Delete Nodes And Return Forest](https://leetcode.com/problems/delete-nodes-and-return-forest/)|[src/q_1101_1150/q1110.cc](../src/q_1101_1150/q1110.cc)|2024/07/17 19:16|
 |1122|[Relative Sort Array](https://leetcode.com/problems/relative-sort-array/)|[src/q_1101_1150/q1122.cc](../src/q_1101_1150/q1122.cc)|2022/02/15 18:15|
