@@ -1491,3 +1491,4 @@ timestamp,id,tc,sc,notes
 1729316548,3318,n * k * log(k),k,n = |nums.size()|
 1729403635,1106,n,n,n = |expression.size()|
 1729512946,1593,-,-,not calculated
+1729594794,2583,n,n,n = |root.size()|
