@@ -1,6 +1,6 @@
 # Solved Solutions List
 
-This document contains **1493** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
+This document contains **1494** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
 
 Some questions which are still being resolved are not shown in this page, more information about unsolved questions can be found at [docs/unsolved_solutions.md](./unsolved_solutions.md).
 
@@ -1356,6 +1356,7 @@ Some questions which are still being resolved are not shown in this page, more i
 |2614|[Prime In Diagonal](https://leetcode.com/problems/prime-in-diagonal/)|[src/q_2601_2650/q2614.cc](../src/q_2601_2650/q2614.cc)|2023/05/19 11:53|
 |2616|[Minimize the Maximum Difference of Pairs](https://leetcode.com/problems/minimize-the-maximum-difference-of-pairs/)|[src/q_2601_2650/q2616.cc](../src/q_2601_2650/q2616.cc)|2023/08/09 12:06|
 |2639|[Find the Width of Columns of a Grid](https://leetcode.com/problems/find-the-width-of-columns-of-a-grid/)|[src/q_2601_2650/q2639.cc](../src/q_2601_2650/q2639.cc)|2023/05/29 13:47|
+|2641|[Cousins in Binary Tree II](https://leetcode.com/problems/cousins-in-binary-tree-ii/)|[src/q_2601_2650/q2641.cc](../src/q_2601_2650/q2641.cc)|2024/10/23 23:33|
 |2642|[Design Graph With Shortest Path Calculator](https://leetcode.com/problems/design-graph-with-shortest-path-calculator/)|[src/q_2601_2650/q2642.cc](../src/q_2601_2650/q2642.cc)|2023/11/13 19:12|
 |2643|[Row With Maximum Ones](https://leetcode.com/problems/row-with-maximum-ones/)|[src/q_2601_2650/q2643.cc](../src/q_2601_2650/q2643.cc)|2023/05/09 20:03|
 |2644|[Find the Maximum Divisibility Score](https://leetcode.com/problems/find-the-maximum-divisibility-score/)|[src/q_2601_2650/q2644.cc](../src/q_2601_2650/q2644.cc)|2023/12/08 20:18|
