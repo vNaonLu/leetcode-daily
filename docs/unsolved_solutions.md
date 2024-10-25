@@ -1,6 +1,6 @@
 # Unsolved Solutions List
 
-There are **1828** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
+There are **1827** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
 
 The questions which have been solved are not shown in this page, more information about solved questions can be found at [docs/solved_solutions.md](./solved_solutions.md).
 
@@ -442,7 +442,6 @@ The questions which have been solved are not shown in this page, more informatio
 |1229|[Meeting Scheduler](https://leetcode.com/problems/meeting-scheduler/)|Medium|🔒|
 |1230|[Toss Strange Coins](https://leetcode.com/problems/toss-strange-coins/)|Medium|🔒|
 |1231|[Divide Chocolate](https://leetcode.com/problems/divide-chocolate/)|Hard|🔒|
-|1233|[Remove Sub-Folders from the Filesystem](https://leetcode.com/problems/remove-sub-folders-from-the-filesystem/)|Medium||
 |1234|[Replace the Substring for Balanced String](https://leetcode.com/problems/replace-the-substring-for-balanced-string/)|Medium||
 |1236|[Web Crawler](https://leetcode.com/problems/web-crawler/)|Medium|🔒|
 |1237|[Find Positive Integer Solution for a Given Equation](https://leetcode.com/problems/find-positive-integer-solution-for-a-given-equation/)|Medium||
