@@ -1496,3 +1496,4 @@ timestamp,id,tc,sc,notes
 1729773503,1247,n,1,n = |s1.size()|
 1729868903,1233,-,-,not calculated
 1729919201,2458,n,100001,n = |queries.size()|
+1730008053,1277,m * n,m * n,"m = |matrix.size()|, n = |matrix[0].size()|"

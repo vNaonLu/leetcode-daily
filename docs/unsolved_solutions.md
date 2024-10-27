@@ -1,6 +1,6 @@
 # Unsolved Solutions List
 
-There are **1826** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
+There are **1825** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
 
 The questions which have been solved are not shown in this page, more information about solved questions can be found at [docs/solved_solutions.md](./solved_solutions.md).
 
@@ -471,7 +471,6 @@ The questions which have been solved are not shown in this page, more informatio
 |1273|[Delete Tree Nodes](https://leetcode.com/problems/delete-tree-nodes/)|Medium|🔒|
 |1274|[Number of Ships in a Rectangle](https://leetcode.com/problems/number-of-ships-in-a-rectangle/)|Hard|🔒|
 |1276|[Number of Burgers with No Waste of Ingredients](https://leetcode.com/problems/number-of-burgers-with-no-waste-of-ingredients/)|Medium||
-|1277|[Count Square Submatrices with All Ones](https://leetcode.com/problems/count-square-submatrices-with-all-ones/)|Medium||
 |1278|[Palindrome Partitioning III](https://leetcode.com/problems/palindrome-partitioning-iii/)|Hard||
 |1279|[Traffic Light Controlled Intersection](https://leetcode.com/problems/traffic-light-controlled-intersection/)|Easy|🔒|
 |1280|[Students and Examinations](https://leetcode.com/problems/students-and-examinations/)|Easy||
