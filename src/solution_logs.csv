@@ -1470,3 +1470,24 @@ timestamp,id,tc,sc,notes
 1727502005,949,n ^ 2,1,n = |arr.size()|
 1727583885,432,-,-,not calculated
 1727701813,1381,-,-,not calculated
+1727781348,1497,n,k,n = |arr.size()|
+1727844625,3300,n,1,n = |nums.size()|
+1727940211,1590,n,n,n = |nums.size()|
+1728051590,2491,n,n,n = |skill.size()|
+1728117230,3304,-,-,not calculated
+1728190960,1813,E1 + E2,E1 + E2,"E1 = |sum(sentence1[i].size())|, E2 = |sum(sentenec2[i].size())|"
+1728308233,998,n,n,n = |root.size()|
+1728395933,1034,-,-,not calculated
+1728456149,1104,log(label),1,
+1728570500,962,n,n,n = |nums.size()|
+1728654286,1942,-,-,not calculated
+1728715625,2406,n * log(n),n,n = |intervals.size()|
+1728830028,632,-,-,not calculated
+1728905342,2530,(n + k) * log(n),n,n = |nums.size()|
+1728998547,2938,n,1,n = |s.size()|
+1729084496,1405,n * log(n),n,n = |a + b + c|
+1729166402,3314,1,1,compile time calculation.
+1729242541,2044,2 ^ n,n,n = |nums.size()|
+1729316548,3318,n * k * log(k),k,n = |nums.size()|
+1729403635,1106,n,n,n = |expression.size()|
+1729512946,1593,-,-,not calculated
