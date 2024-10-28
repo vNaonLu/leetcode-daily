@@ -1491,3 +1491,10 @@ timestamp,id,tc,sc,notes
 1729316548,3318,n * k * log(k),k,n = |nums.size()|
 1729403635,1106,n,n,n = |expression.size()|
 1729512946,1593,-,-,not calculated
+1729594794,2583,n,n,n = |root.size()|
+1729697606,2641,-,-,not calculated
+1729773503,1247,n,1,n = |s1.size()|
+1729868903,1233,-,-,not calculated
+1729919201,2458,n,100001,n = |queries.size()|
+1730008053,1277,m * n,m * n,"m = |matrix.size()|, n = |matrix[0].size()|"
+1730113023,2501,n * log(n),n,n = |nums.size()|
