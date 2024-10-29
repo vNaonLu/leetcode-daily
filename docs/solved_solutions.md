@@ -1,6 +1,6 @@
 # Solved Solutions List
 
-This document contains **1499** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
+This document contains **1500** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
 
 Some questions which are still being resolved are not shown in this page, more information about unsolved questions can be found at [docs/unsolved_solutions.md](./unsolved_solutions.md).
 
@@ -1372,6 +1372,7 @@ Some questions which are still being resolved are not shown in this page, more i
 |2670|[Find the Distinct Difference Array](https://leetcode.com/problems/find-the-distinct-difference-array/)|[src/q_2651_2700/q2670.cc](../src/q_2651_2700/q2670.cc)|2023/12/10 14:49|
 |2678|[Number of Senior Citizens](https://leetcode.com/problems/number-of-senior-citizens/)|[src/q_2651_2700/q2678.cc](../src/q_2651_2700/q2678.cc)|2023/05/23 14:47|
 |2682|[Find the Losers of the Circular Game](https://leetcode.com/problems/find-the-losers-of-the-circular-game/)|[src/q_2651_2700/q2682.cc](../src/q_2651_2700/q2682.cc)|2023/12/11 18:56|
+|2684|[Maximum Number of Moves in a Grid](https://leetcode.com/problems/maximum-number-of-moves-in-a-grid/)|[src/q_2651_2700/q2684.cc](../src/q_2651_2700/q2684.cc)|2024/10/29 19:24|
 |2696|[Minimum String Length After Removing Substrings](https://leetcode.com/problems/minimum-string-length-after-removing-substrings/)|[src/q_2651_2700/q2696.cc](../src/q_2651_2700/q2696.cc)|2023/12/12 20:03|
 |2697|[Lexicographically Smallest Palindrome](https://leetcode.com/problems/lexicographically-smallest-palindrome/)|[src/q_2651_2700/q2697.cc](../src/q_2651_2700/q2697.cc)|2023/12/13 19:02|
 |2699|[Modify Graph Edge Weights](https://leetcode.com/problems/modify-graph-edge-weights/)|[src/q_2651_2700/q2699.cc](../src/q_2651_2700/q2699.cc)|2024/08/30 22:23|
