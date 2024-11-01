@@ -1,6 +1,6 @@
 # Unsolved Solutions List
 
-There are **1837** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
+There are **1836** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
 
 The questions which have been solved are not shown in this page, more information about solved questions can be found at [docs/solved_solutions.md](./solved_solutions.md).
 
@@ -1834,7 +1834,6 @@ The questions which have been solved are not shown in this page, more informatio
 |3327|[Check if DFS Strings Are Palindromes](https://leetcode.com/problems/check-if-dfs-strings-are-palindromes/)|Hard||
 |3328|[Find Cities in Each State II](https://leetcode.com/problems/find-cities-in-each-state-ii/)|Medium|🔒|
 |3329|[Count Substrings With K-Frequency Characters II](https://leetcode.com/problems/count-substrings-with-k-frequency-characters-ii/)|Hard|🔒|
-|3330|[Find the Original Typed String I](https://leetcode.com/problems/find-the-original-typed-string-i/)|Easy||
 |3331|[Find Subtree Sizes After Changes](https://leetcode.com/problems/find-subtree-sizes-after-changes/)|Medium||
 |3332|[Maximum Points Tourist Can Earn](https://leetcode.com/problems/maximum-points-tourist-can-earn/)|Medium||
 |3333|[Find the Original Typed String II](https://leetcode.com/problems/find-the-original-typed-string-ii/)|Hard||
