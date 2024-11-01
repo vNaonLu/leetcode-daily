@@ -3322,3 +3322,19 @@ id,backend_id,title,level,slug,paid
 3321,3592,Find X-Sum of All K-Long Subarrays II,3,find-x-sum-of-all-k-long-subarrays-ii,0
 3322,3642,Premier League Table Ranking III,2,premier-league-table-ranking-iii,1
 3323,3565,Minimize Connected Groups by Inserting Interval,2,minimize-connected-groups-by-inserting-interval,1
+3324,3566,Find the Sequence of Strings Appeared on the Screen,2,find-the-sequence-of-strings-appeared-on-the-screen,0
+3325,3502,Count Substrings With K-Frequency Characters I,2,count-substrings-with-k-frequency-characters-i,0
+3326,3607,Minimum Division Operations to Make Array Non Decreasing,2,minimum-division-operations-to-make-array-non-decreasing,0
+3327,3603,Check if DFS Strings Are Palindromes,3,check-if-dfs-strings-are-palindromes,0
+3328,3650,Find Cities in Each State II,2,find-cities-in-each-state-ii,1
+3329,3499,Count Substrings With K-Frequency Characters II,3,count-substrings-with-k-frequency-characters-ii,1
+3330,3617,Find the Original Typed String I,1,find-the-original-typed-string-i,0
+3331,3576,Find Subtree Sizes After Changes,2,find-subtree-sizes-after-changes,0
+3332,3587,Maximum Points Tourist Can Earn,2,maximum-points-tourist-can-earn,0
+3333,3618,Find the Original Typed String II,3,find-the-original-typed-string-ii,0
+3334,3593,Find the Maximum Factor Score of Array,2,find-the-maximum-factor-score-of-array,0
+3335,3629,Total Characters in String After Transformations I,2,total-characters-in-string-after-transformations-i,0
+3336,3608,Find the Number of Subsequences With Equal GCD,3,find-the-number-of-subsequences-with-equal-gcd,0
+3337,3630,Total Characters in String After Transformations II,3,total-characters-in-string-after-transformations-ii,0
+3338,3660,Second Highest Salary II,2,second-highest-salary-ii,1
+3339,3614,Find the Number of K-Even Arrays,2,find-the-number-of-k-even-arrays,1
