@@ -1,6 +1,6 @@
 # Solved Solutions List
 
-This document contains **1504** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
+This document contains **1505** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
 
 Some questions which are still being resolved are not shown in this page, more information about unsolved questions can be found at [docs/unsolved_solutions.md](./unsolved_solutions.md).
 
@@ -894,6 +894,7 @@ Some questions which are still being resolved are not shown in this page, more i
 |1405|[Longest Happy String](https://leetcode.com/problems/longest-happy-string/)|[src/q_1401_1450/q1405.cc](../src/q_1401_1450/q1405.cc)|2024/10/16 21:14|
 |1406|[Stone Game III](https://leetcode.com/problems/stone-game-iii/)|[src/q_1401_1450/q1406.cc](../src/q_1401_1450/q1406.cc)|2023/05/27 15:27|
 |1408|[String Matching in an Array](https://leetcode.com/problems/string-matching-in-an-array/)|[src/q_1401_1450/q1408.cc](../src/q_1401_1450/q1408.cc)|2022/02/18 19:51|
+|1410|[HTML Entity Parser](https://leetcode.com/problems/html-entity-parser/)|[src/q_1401_1450/q1410.cc](../src/q_1401_1450/q1410.cc)|2024/11/03 13:14|
 |1413|[Minimum Value to Get Positive Step by Step Sum](https://leetcode.com/problems/minimum-value-to-get-positive-step-by-step-sum/)|[src/q_1401_1450/q1413.cc](../src/q_1401_1450/q1413.cc)|2021/11/11 21:28|
 |1416|[Restore The Array](https://leetcode.com/problems/restore-the-array/)|[src/q_1401_1450/q1416.cc](../src/q_1401_1450/q1416.cc)|2023/04/23 13:59|
 |1417|[Reformat The String](https://leetcode.com/problems/reformat-the-string/)|[src/q_1401_1450/q1417.cc](../src/q_1401_1450/q1417.cc)|2023/08/12 14:15|
