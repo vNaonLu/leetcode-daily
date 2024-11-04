@@ -1,6 +1,6 @@
 # Unsolved Solutions List
 
-There are **1834** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
+There are **1833** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
 
 The questions which have been solved are not shown in this page, more information about solved questions can be found at [docs/solved_solutions.md](./solved_solutions.md).
 
@@ -1693,7 +1693,6 @@ The questions which have been solved are not shown in this page, more informatio
 |3159|[Find Occurrences of an Element in an Array](https://leetcode.com/problems/find-occurrences-of-an-element-in-an-array/)|Medium||
 |3160|[Find the Number of Distinct Colors Among the Balls](https://leetcode.com/problems/find-the-number-of-distinct-colors-among-the-balls/)|Medium||
 |3161|[Block Placement Queries](https://leetcode.com/problems/block-placement-queries/)|Hard||
-|3163|[String Compression III](https://leetcode.com/problems/string-compression-iii/)|Medium||
 |3164|[Find the Number of Good Pairs II](https://leetcode.com/problems/find-the-number-of-good-pairs-ii/)|Medium||
 |3165|[Maximum Sum of Subsequence With Non-adjacent Elements](https://leetcode.com/problems/maximum-sum-of-subsequence-with-non-adjacent-elements/)|Hard||
 |3166|[Calculate Parking Fees and Duration](https://leetcode.com/problems/calculate-parking-fees-and-duration/)|Medium|🔒|
