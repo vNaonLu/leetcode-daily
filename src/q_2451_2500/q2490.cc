@@ -46,7 +46,7 @@ LEETCODE_BEGIN_RESOLVING(2490, CircularSentence, Solution);
 class Solution {
 public:
   bool isCircularSentence(string sentence) {
-    auto beg = sentence.begin();
+    auto beg   = sentence.begin();
     auto first = beg;
     auto prev  = beg;
     while (++beg != sentence.end()) {
