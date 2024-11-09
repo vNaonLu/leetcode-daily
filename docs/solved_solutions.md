@@ -1,6 +1,6 @@
 # Solved Solutions List
 
-This document contains **1510** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
+This document contains **1511** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
 
 Some questions which are still being resolved are not shown in this page, more information about unsolved questions can be found at [docs/unsolved_solutions.md](./unsolved_solutions.md).
 
@@ -1480,6 +1480,7 @@ Some questions which are still being resolved are not shown in this page, more i
 |3120|[Count the Number of Special Characters I](https://leetcode.com/problems/count-the-number-of-special-characters-i/)|[src/q_3101_3150/q3120.cc](../src/q_3101_3150/q3120.cc)|2024/05/01 18:47|
 |3127|[Make a Square with the Same Color](https://leetcode.com/problems/make-a-square-with-the-same-color/)|[src/q_3101_3150/q3127.cc](../src/q_3101_3150/q3127.cc)|2024/05/04 14:14|
 |3131|[Find the Integer Added to Array I](https://leetcode.com/problems/find-the-integer-added-to-array-i/)|[src/q_3101_3150/q3131.cc](../src/q_3101_3150/q3131.cc)|2024/05/08 22:50|
+|3133|[Minimum Array End](https://leetcode.com/problems/minimum-array-end/)|[src/q_3101_3150/q3133.cc](../src/q_3101_3150/q3133.cc)|2024/11/09 15:36|
 |3136|[Valid Word](https://leetcode.com/problems/valid-word/)|[src/q_3101_3150/q3136.cc](../src/q_3101_3150/q3136.cc)|2024/05/12 14:19|
 |3142|[Check if Grid Satisfies Conditions](https://leetcode.com/problems/check-if-grid-satisfies-conditions/)|[src/q_3101_3150/q3142.cc](../src/q_3101_3150/q3142.cc)|2024/05/20 21:17|
 |3146|[Permutation Difference between Two Strings](https://leetcode.com/problems/permutation-difference-between-two-strings/)|[src/q_3101_3150/q3146.cc](../src/q_3101_3150/q3146.cc)|2024/05/21 20:44|
