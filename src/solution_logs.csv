@@ -1498,3 +1498,17 @@ timestamp,id,tc,sc,notes
 1729919201,2458,n,100001,n = |queries.size()|
 1730008053,1277,m * n,m * n,"m = |matrix.size()|, n = |matrix[0].size()|"
 1730113023,2501,n * log(n),n,n = |nums.size()|
+1730201081,2684,m * n,m * n,"m = |grid.size()|, n = |grid[i].size()|"
+1730286566,1671,n * n,n,n = |nums.size()|
+1730348827,2463,-,-,not calculated
+1730479157,3330,n,1,n = |word.size()|
+1730523284,1253,n,1,n = |colsum.size()|
+1730610861,1410,n,1,n = |text.size()|
+1730732921,3163,n,1,n = |word.size()|
+1730811873,2914,n,1,n = |s.size()|
+1730892238,3011,n,1,n = |nums.size()|
+1730983882,2275,n,1,n = |candidates.size()|
+1731067469,3340,n,1,n = |num.size()|
+1731137760,3133,-,-,not calculated
+1731220381,3097,-,-,not calculated
+1731327477,2601,-,-,not calculated
