@@ -1,6 +1,6 @@
 # Unsolved Solutions List
 
-There are **1837** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
+There are **1836** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
 
 The questions which have been solved are not shown in this page, more information about solved questions can be found at [docs/solved_solutions.md](./solved_solutions.md).
 
@@ -1835,7 +1835,6 @@ The questions which have been solved are not shown in this page, more informatio
 |3342|[Find Minimum Time to Reach Last Room II](https://leetcode.com/problems/find-minimum-time-to-reach-last-room-ii/)|Medium||
 |3343|[Count Number of Balanced Permutations](https://leetcode.com/problems/count-number-of-balanced-permutations/)|Hard||
 |3344|[Maximum Sized Array](https://leetcode.com/problems/maximum-sized-array/)|Medium|🔒|
-|3345|[Smallest Divisible Digit Product I](https://leetcode.com/problems/smallest-divisible-digit-product-i/)|Easy||
 |3346|[Maximum Frequency of an Element After Performing Operations I](https://leetcode.com/problems/maximum-frequency-of-an-element-after-performing-operations-i/)|Medium||
 |3347|[Maximum Frequency of an Element After Performing Operations II](https://leetcode.com/problems/maximum-frequency-of-an-element-after-performing-operations-ii/)|Hard||
 |3348|[Smallest Divisible Digit Product II](https://leetcode.com/problems/smallest-divisible-digit-product-ii/)|Hard||
