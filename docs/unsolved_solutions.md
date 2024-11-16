@@ -1,6 +1,6 @@
 # Unsolved Solutions List
 
-There are **1836** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
+There are **1835** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
 
 The questions which have been solved are not shown in this page, more information about solved questions can be found at [docs/solved_solutions.md](./solved_solutions.md).
 
@@ -1757,7 +1757,6 @@ The questions which have been solved are not shown in this page, more informatio
 |3251|[Find the Count of Monotonic Pairs II](https://leetcode.com/problems/find-the-count-of-monotonic-pairs-ii/)|Hard||
 |3252|[Premier League Table Ranking II](https://leetcode.com/problems/premier-league-table-ranking-ii/)|Medium|🔒|
 |3253|[Construct String with Minimum Cost (Easy)](https://leetcode.com/problems/construct-string-with-minimum-cost-easy/)|Medium|🔒|
-|3254|[Find the Power of K-Size Subarrays I](https://leetcode.com/problems/find-the-power-of-k-size-subarrays-i/)|Medium||
 |3255|[Find the Power of K-Size Subarrays II](https://leetcode.com/problems/find-the-power-of-k-size-subarrays-ii/)|Medium||
 |3256|[Maximum Value Sum by Placing Three Rooks I](https://leetcode.com/problems/maximum-value-sum-by-placing-three-rooks-i/)|Hard||
 |3257|[Maximum Value Sum by Placing Three Rooks II](https://leetcode.com/problems/maximum-value-sum-by-placing-three-rooks-ii/)|Hard||
