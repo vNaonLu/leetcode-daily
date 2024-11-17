@@ -1,6 +1,6 @@
 # Solved Solutions List
 
-This document contains **1518** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
+This document contains **1519** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
 
 Some questions which are still being resolved are not shown in this page, more information about unsolved questions can be found at [docs/unsolved_solutions.md](./unsolved_solutions.md).
 
@@ -1525,3 +1525,4 @@ Some questions which are still being resolved are not shown in this page, more i
 |3330|[Find the Original Typed String I](https://leetcode.com/problems/find-the-original-typed-string-i/)|[src/q_3301_3350/q3330.cc](../src/q_3301_3350/q3330.cc)|2024/11/02 00:39|
 |3340|[Check Balanced String](https://leetcode.com/problems/check-balanced-string/)|[src/q_3301_3350/q3340.cc](../src/q_3301_3350/q3340.cc)|2024/11/08 20:04|
 |3345|[Smallest Divisible Digit Product I](https://leetcode.com/problems/smallest-divisible-digit-product-i/)|[src/q_3301_3350/q3345.cc](../src/q_3301_3350/q3345.cc)|2024/11/15 20:53|
+|3349|[Adjacent Increasing Subarrays Detection I](https://leetcode.com/problems/adjacent-increasing-subarrays-detection-i/)|[src/q_3301_3350/q3349.cc](../src/q_3301_3350/q3349.cc)|2024/11/17 12:22|
