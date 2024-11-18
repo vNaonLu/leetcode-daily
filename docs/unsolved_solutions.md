@@ -1,6 +1,6 @@
 # Unsolved Solutions List
 
-There are **1831** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
+There are **1838** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
 
 The questions which have been solved are not shown in this page, more information about solved questions can be found at [docs/solved_solutions.md](./solved_solutions.md).
 
@@ -906,12 +906,10 @@ The questions which have been solved are not shown in this page, more informatio
 |2060|[Check if an Original String Exists Given Two Encoded Strings](https://leetcode.com/problems/check-if-an-original-string-exists-given-two-encoded-strings/)|Hard||
 |2061|[Number of Spaces Cleaning Robot Cleaned](https://leetcode.com/problems/number-of-spaces-cleaning-robot-cleaned/)|Medium|🔒|
 |2063|[Vowels of All Substrings](https://leetcode.com/problems/vowels-of-all-substrings/)|Medium||
-|2064|[Minimized Maximum of Products Distributed to Any Store](https://leetcode.com/problems/minimized-maximum-of-products-distributed-to-any-store/)|Medium||
 |2065|[Maximum Path Quality of a Graph](https://leetcode.com/problems/maximum-path-quality-of-a-graph/)|Hard||
 |2066|[Account Balance](https://leetcode.com/problems/account-balance/)|Medium|🔒|
 |2067|[Number of Equal Count Substrings](https://leetcode.com/problems/number-of-equal-count-substrings/)|Medium|🔒|
 |2069|[Walking Robot Simulation II](https://leetcode.com/problems/walking-robot-simulation-ii/)|Medium||
-|2070|[Most Beautiful Item for Each Query](https://leetcode.com/problems/most-beautiful-item-for-each-query/)|Medium||
 |2071|[Maximum Number of Tasks You Can Assign](https://leetcode.com/problems/maximum-number-of-tasks-you-can-assign/)|Hard||
 |2072|[The Winner University](https://leetcode.com/problems/the-winner-university/)|Easy|🔒|
 |2074|[Reverse Nodes in Even Length Groups](https://leetcode.com/problems/reverse-nodes-in-even-length-groups/)|Medium||
@@ -1227,7 +1225,6 @@ The questions which have been solved are not shown in this page, more informatio
 |2559|[Count Vowel Strings in Ranges](https://leetcode.com/problems/count-vowel-strings-in-ranges/)|Medium||
 |2560|[House Robber IV](https://leetcode.com/problems/house-robber-iv/)|Medium||
 |2561|[Rearranging Fruits](https://leetcode.com/problems/rearranging-fruits/)|Hard||
-|2563|[Count the Number of Fair Pairs](https://leetcode.com/problems/count-the-number-of-fair-pairs/)|Medium||
 |2564|[Substring XOR Queries](https://leetcode.com/problems/substring-xor-queries/)|Medium||
 |2565|[Subsequence With the Minimum Score](https://leetcode.com/problems/subsequence-with-the-minimum-score/)|Hard||
 |2567|[Minimum Score by Changing Two Elements](https://leetcode.com/problems/minimum-score-by-changing-two-elements/)|Medium||
@@ -1760,7 +1757,6 @@ The questions which have been solved are not shown in this page, more informatio
 |3251|[Find the Count of Monotonic Pairs II](https://leetcode.com/problems/find-the-count-of-monotonic-pairs-ii/)|Hard||
 |3252|[Premier League Table Ranking II](https://leetcode.com/problems/premier-league-table-ranking-ii/)|Medium|🔒|
 |3253|[Construct String with Minimum Cost (Easy)](https://leetcode.com/problems/construct-string-with-minimum-cost-easy/)|Medium|🔒|
-|3254|[Find the Power of K-Size Subarrays I](https://leetcode.com/problems/find-the-power-of-k-size-subarrays-i/)|Medium||
 |3255|[Find the Power of K-Size Subarrays II](https://leetcode.com/problems/find-the-power-of-k-size-subarrays-ii/)|Medium||
 |3256|[Maximum Value Sum by Placing Three Rooks I](https://leetcode.com/problems/maximum-value-sum-by-placing-three-rooks-i/)|Hard||
 |3257|[Maximum Value Sum by Placing Three Rooks II](https://leetcode.com/problems/maximum-value-sum-by-placing-three-rooks-ii/)|Hard||
@@ -1838,3 +1834,14 @@ The questions which have been solved are not shown in this page, more informatio
 |3342|[Find Minimum Time to Reach Last Room II](https://leetcode.com/problems/find-minimum-time-to-reach-last-room-ii/)|Medium||
 |3343|[Count Number of Balanced Permutations](https://leetcode.com/problems/count-number-of-balanced-permutations/)|Hard||
 |3344|[Maximum Sized Array](https://leetcode.com/problems/maximum-sized-array/)|Medium|🔒|
+|3346|[Maximum Frequency of an Element After Performing Operations I](https://leetcode.com/problems/maximum-frequency-of-an-element-after-performing-operations-i/)|Medium||
+|3347|[Maximum Frequency of an Element After Performing Operations II](https://leetcode.com/problems/maximum-frequency-of-an-element-after-performing-operations-ii/)|Hard||
+|3348|[Smallest Divisible Digit Product II](https://leetcode.com/problems/smallest-divisible-digit-product-ii/)|Hard||
+|3350|[Adjacent Increasing Subarrays Detection II](https://leetcode.com/problems/adjacent-increasing-subarrays-detection-ii/)|Medium||
+|3351|[Sum of Good Subsequences](https://leetcode.com/problems/sum-of-good-subsequences/)|Hard||
+|3352|[Count K-Reducible Numbers Less Than N](https://leetcode.com/problems/count-k-reducible-numbers-less-than-n/)|Hard||
+|3353|[Minimum Total Operations](https://leetcode.com/problems/minimum-total-operations/)|Easy|🔒|
+|3355|[Zero Array Transformation I](https://leetcode.com/problems/zero-array-transformation-i/)|Medium||
+|3356|[Zero Array Transformation II](https://leetcode.com/problems/zero-array-transformation-ii/)|Medium||
+|3357|[Minimize the Maximum Adjacent Element Difference](https://leetcode.com/problems/minimize-the-maximum-adjacent-element-difference/)|Hard||
+|3358|[Books with NULL Ratings](https://leetcode.com/problems/books-with-null-ratings/)|Easy|🔒|

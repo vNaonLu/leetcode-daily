@@ -3343,3 +3343,17 @@ id,backend_id,title,level,slug,paid
 3342,3628,Find Minimum Time to Reach Last Room II,2,find-minimum-time-to-reach-last-room-ii,0
 3343,3637,Count Number of Balanced Permutations,3,count-number-of-balanced-permutations,0
 3344,3679,Maximum Sized Array,2,maximum-sized-array,1
+3345,3626,Smallest Divisible Digit Product I,1,smallest-divisible-digit-product-i,0
+3346,3622,Maximum Frequency of an Element After Performing Operations I,2,maximum-frequency-of-an-element-after-performing-operations-i,0
+3347,3640,Maximum Frequency of an Element After Performing Operations II,3,maximum-frequency-of-an-element-after-performing-operations-ii,0
+3348,3635,Smallest Divisible Digit Product II,3,smallest-divisible-digit-product-ii,0
+3349,3612,Adjacent Increasing Subarrays Detection I,1,adjacent-increasing-subarrays-detection-i,0
+3350,3619,Adjacent Increasing Subarrays Detection II,2,adjacent-increasing-subarrays-detection-ii,0
+3351,3646,Sum of Good Subsequences,3,sum-of-good-subsequences,0
+3352,3631,Count K-Reducible Numbers Less Than N,3,count-k-reducible-numbers-less-than-n,0
+3353,3694,Minimum Total Operations,1,minimum-total-operations,1
+3354,3616,Make Array Elements Equal to Zero,1,make-array-elements-equal-to-zero,0
+3355,3639,Zero Array Transformation I,2,zero-array-transformation-i,0
+3356,3643,Zero Array Transformation II,2,zero-array-transformation-ii,0
+3357,3658,Minimize the Maximum Adjacent Element Difference,3,minimize-the-maximum-adjacent-element-difference,0
+3358,3695,Books with NULL Ratings,1,books-with-null-ratings,1

@@ -1512,3 +1512,10 @@ timestamp,id,tc,sc,notes
 1731137760,3133,-,-,not calculated
 1731220381,3097,-,-,not calculated
 1731327477,2601,-,-,not calculated
+1731411099,2070,(m + n) * log(n),n,"n = |items.size()|, m = |queries.size()|"
+1731498040,2563,n * log(n),1,n = |nums.size()|
+1731582756,2064,-,-,not calculated
+1731675181,3345,-,-,not calculated
+1731731573,3254,-,-,not calculated
+1731817365,3349,n,1,n = |nums.size()|
+1731933825,3354,n,1,n = |nums.size()|

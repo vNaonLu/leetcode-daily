@@ -1,6 +1,6 @@
 # Solved Solutions List
 
-This document contains **1513** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
+This document contains **1520** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
 
 Some questions which are still being resolved are not shown in this page, more information about unsolved questions can be found at [docs/unsolved_solutions.md](./unsolved_solutions.md).
 
@@ -1171,7 +1171,9 @@ Some questions which are still being resolved are not shown in this page, more i
 |2057|[Smallest Index With Equal Value](https://leetcode.com/problems/smallest-index-with-equal-value/)|[src/q_2051_2100/q2057.cc](../src/q_2051_2100/q2057.cc)|2023/01/01 14:48|
 |2058|[Find the Minimum and Maximum Number of Nodes Between Critical Points](https://leetcode.com/problems/find-the-minimum-and-maximum-number-of-nodes-between-critical-points/)|[src/q_2051_2100/q2058.cc](../src/q_2051_2100/q2058.cc)|2024/07/05 19:59|
 |2062|[Count Vowel Substrings of a String](https://leetcode.com/problems/count-vowel-substrings-of-a-string/)|[src/q_2051_2100/q2062.cc](../src/q_2051_2100/q2062.cc)|2023/04/13 18:51|
+|2064|[Minimized Maximum of Products Distributed to Any Store](https://leetcode.com/problems/minimized-maximum-of-products-distributed-to-any-store/)|[src/q_2051_2100/q2064.cc](../src/q_2051_2100/q2064.cc)|2024/11/14 19:12|
 |2068|[Check Whether Two Strings are Almost Equivalent](https://leetcode.com/problems/check-whether-two-strings-are-almost-equivalent/)|[src/q_2051_2100/q2068.cc](../src/q_2051_2100/q2068.cc)|2023/03/20 18:58|
+|2070|[Most Beautiful Item for Each Query](https://leetcode.com/problems/most-beautiful-item-for-each-query/)|[src/q_2051_2100/q2070.cc](../src/q_2051_2100/q2070.cc)|2024/11/12 19:31|
 |2073|[Time Needed to Buy Tickets](https://leetcode.com/problems/time-needed-to-buy-tickets/)|[src/q_2051_2100/q2073.cc](../src/q_2051_2100/q2073.cc)|2023/09/25 20:58|
 |2078|[Two Furthest Houses With Different Colors](https://leetcode.com/problems/two-furthest-houses-with-different-colors/)|[src/q_2051_2100/q2078.cc](../src/q_2051_2100/q2078.cc)|2023/09/26 22:17|
 |2085|[Count Common Words With One Occurrence](https://leetcode.com/problems/count-common-words-with-one-occurrence/)|[src/q_2051_2100/q2085.cc](../src/q_2051_2100/q2085.cc)|2023/09/28 21:54|
@@ -1349,6 +1351,7 @@ Some questions which are still being resolved are not shown in this page, more i
 |2553|[Separate the Digits in an Array](https://leetcode.com/problems/separate-the-digits-in-an-array/)|[src/q_2551_2600/q2553.cc](../src/q_2551_2600/q2553.cc)|2023/03/15 15:44|
 |2558|[Take Gifts From the Richest Pile](https://leetcode.com/problems/take-gifts-from-the-richest-pile/)|[src/q_2551_2600/q2558.cc](../src/q_2551_2600/q2558.cc)|2023/11/23 19:23|
 |2562|[Find the Array Concatenation Value](https://leetcode.com/problems/find-the-array-concatenation-value/)|[src/q_2551_2600/q2562.cc](../src/q_2551_2600/q2562.cc)|2023/12/01 21:54|
+|2563|[Count the Number of Fair Pairs](https://leetcode.com/problems/count-the-number-of-fair-pairs/)|[src/q_2551_2600/q2563.cc](../src/q_2551_2600/q2563.cc)|2024/11/13 19:40|
 |2566|[Maximum Difference by Remapping a Digit](https://leetcode.com/problems/maximum-difference-by-remapping-a-digit/)|[src/q_2551_2600/q2566.cc](../src/q_2551_2600/q2566.cc)|2023/12/02 17:19|
 |2570|[Merge Two 2D Arrays by Summing Values](https://leetcode.com/problems/merge-two-2d-arrays-by-summing-values/)|[src/q_2551_2600/q2570.cc](../src/q_2551_2600/q2570.cc)|2023/05/01 14:53|
 |2574|[Left and Right Sum Differences](https://leetcode.com/problems/left-and-right-sum-differences/)|[src/q_2551_2600/q2574.cc](../src/q_2551_2600/q2574.cc)|2023/03/10 13:23|
@@ -1507,6 +1510,7 @@ Some questions which are still being resolved are not shown in this page, more i
 |3238|[Find the Number of Winning Players](https://leetcode.com/problems/find-the-number-of-winning-players/)|[src/q_3201_3250/q3238.cc](../src/q_3201_3250/q3238.cc)|2024/08/12 21:36|
 |3242|[Design Neighbor Sum Service](https://leetcode.com/problems/design-neighbor-sum-service/)|[src/q_3201_3250/q3242.cc](../src/q_3201_3250/q3242.cc)|2024/08/26 21:23|
 |3248|[Snake in Matrix](https://leetcode.com/problems/snake-in-matrix/)|[src/q_3201_3250/q3248.cc](../src/q_3201_3250/q3248.cc)|2024/08/13 21:22|
+|3254|[Find the Power of K-Size Subarrays I](https://leetcode.com/problems/find-the-power-of-k-size-subarrays-i/)|[src/q_3251_3300/q3254.cc](../src/q_3251_3300/q3254.cc)|2024/11/16 12:32|
 |3258|[Count Substrings That Satisfy K-Constraint I](https://leetcode.com/problems/count-substrings-that-satisfy-k-constraint-i/)|[src/q_3251_3300/q3258.cc](../src/q_3251_3300/q3258.cc)|2024/08/18 15:09|
 |3264|[Final Array State After K Multiplication Operations I](https://leetcode.com/problems/final-array-state-after-k-multiplication-operations-i/)|[src/q_3251_3300/q3264.cc](../src/q_3251_3300/q3264.cc)|2024/08/25 15:27|
 |3270|[Find the Key of the Numbers](https://leetcode.com/problems/find-the-key-of-the-numbers/)|[src/q_3251_3300/q3270.cc](../src/q_3251_3300/q3270.cc)|2024/09/11 21:08|
@@ -1520,3 +1524,6 @@ Some questions which are still being resolved are not shown in this page, more i
 |3318|[Find X-Sum of All K-Long Subarrays I](https://leetcode.com/problems/find-x-sum-of-all-k-long-subarrays-i/)|[src/q_3301_3350/q3318.cc](../src/q_3301_3350/q3318.cc)|2024/10/19 13:42|
 |3330|[Find the Original Typed String I](https://leetcode.com/problems/find-the-original-typed-string-i/)|[src/q_3301_3350/q3330.cc](../src/q_3301_3350/q3330.cc)|2024/11/02 00:39|
 |3340|[Check Balanced String](https://leetcode.com/problems/check-balanced-string/)|[src/q_3301_3350/q3340.cc](../src/q_3301_3350/q3340.cc)|2024/11/08 20:04|
+|3345|[Smallest Divisible Digit Product I](https://leetcode.com/problems/smallest-divisible-digit-product-i/)|[src/q_3301_3350/q3345.cc](../src/q_3301_3350/q3345.cc)|2024/11/15 20:53|
+|3349|[Adjacent Increasing Subarrays Detection I](https://leetcode.com/problems/adjacent-increasing-subarrays-detection-i/)|[src/q_3301_3350/q3349.cc](../src/q_3301_3350/q3349.cc)|2024/11/17 12:22|
+|3354|[Make Array Elements Equal to Zero](https://leetcode.com/problems/make-array-elements-equal-to-zero/)|[src/q_3351_3400/q3354.cc](../src/q_3351_3400/q3354.cc)|2024/11/18 20:43|
