@@ -1,6 +1,6 @@
 # Unsolved Solutions List
 
-There are **1836** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
+There are **1835** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
 
 The questions which have been solved are not shown in this page, more information about solved questions can be found at [docs/solved_solutions.md](./solved_solutions.md).
 
@@ -1032,7 +1032,6 @@ The questions which have been solved are not shown in this page, more informatio
 |2252|[Dynamic Pivoting of a Table](https://leetcode.com/problems/dynamic-pivoting-of-a-table/)|Hard|🔒|
 |2253|[Dynamic Unpivoting of a Table](https://leetcode.com/problems/dynamic-unpivoting-of-a-table/)|Hard|🔒|
 |2254|[Design Video Sharing Platform](https://leetcode.com/problems/design-video-sharing-platform/)|Hard|🔒|
-|2257|[Count Unguarded Cells in the Grid](https://leetcode.com/problems/count-unguarded-cells-in-the-grid/)|Medium||
 |2258|[Escape the Spreading Fire](https://leetcode.com/problems/escape-the-spreading-fire/)|Hard||
 |2260|[Minimum Consecutive Cards to Pick Up](https://leetcode.com/problems/minimum-consecutive-cards-to-pick-up/)|Medium||
 |2261|[K Divisible Elements Subarrays](https://leetcode.com/problems/k-divisible-elements-subarrays/)|Medium||

@@ -1,6 +1,6 @@
 # Solved Solutions List
 
-This document contains **1522** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
+This document contains **1523** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
 
 Some questions which are still being resolved are not shown in this page, more information about unsolved questions can be found at [docs/unsolved_solutions.md](./unsolved_solutions.md).
 
@@ -1238,6 +1238,7 @@ Some questions which are still being resolved are not shown in this page, more i
 |2251|[Number of Flowers in Full Bloom](https://leetcode.com/problems/number-of-flowers-in-full-bloom/)|[src/q_2251_2300/q2251.cc](../src/q_2251_2300/q2251.cc)|2023/10/11 20:42|
 |2255|[Count Prefixes of a Given String](https://leetcode.com/problems/count-prefixes-of-a-given-string/)|[src/q_2251_2300/q2255.cc](../src/q_2251_2300/q2255.cc)|2023/01/08 21:09|
 |2256|[Minimum Average Difference](https://leetcode.com/problems/minimum-average-difference/)|[src/q_2251_2300/q2256.cc](../src/q_2251_2300/q2256.cc)|2022/12/04 13:55|
+|2257|[Count Unguarded Cells in the Grid](https://leetcode.com/problems/count-unguarded-cells-in-the-grid/)|[src/q_2251_2300/q2257.cc](../src/q_2251_2300/q2257.cc)|2024/11/21 20:00|
 |2259|[Remove Digit From Number to Maximize Result](https://leetcode.com/problems/remove-digit-from-number-to-maximize-result/)|[src/q_2251_2300/q2259.cc](../src/q_2251_2300/q2259.cc)|2023/02/24 15:26|
 |2264|[Largest 3-Same-Digit Number in String](https://leetcode.com/problems/largest-3-same-digit-number-in-string/)|[src/q_2251_2300/q2264.cc](../src/q_2251_2300/q2264.cc)|2023/02/21 01:17|
 |2265|[Count Nodes Equal to Average of Subtree](https://leetcode.com/problems/count-nodes-equal-to-average-of-subtree/)|[src/q_2251_2300/q2265.cc](../src/q_2251_2300/q2265.cc)|2023/11/02 19:36|
