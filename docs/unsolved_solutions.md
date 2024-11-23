@@ -1,6 +1,6 @@
 # Unsolved Solutions List
 
-There are **1835** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
+There are **1834** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
 
 The questions which have been solved are not shown in this page, more information about solved questions can be found at [docs/solved_solutions.md](./solved_solutions.md).
 
@@ -775,7 +775,6 @@ The questions which have been solved are not shown in this page, more informatio
 |1856|[Maximum Subarray Min-Product](https://leetcode.com/problems/maximum-subarray-min-product/)|Medium||
 |1858|[Longest Word With All Prefixes](https://leetcode.com/problems/longest-word-with-all-prefixes/)|Medium|🔒|
 |1860|[Incremental Memory Leak](https://leetcode.com/problems/incremental-memory-leak/)|Medium||
-|1861|[Rotating the Box](https://leetcode.com/problems/rotating-the-box/)|Medium||
 |1862|[Sum of Floored Pairs](https://leetcode.com/problems/sum-of-floored-pairs/)|Hard||
 |1864|[Minimum Number of Swaps to Make the Binary String Alternating](https://leetcode.com/problems/minimum-number-of-swaps-to-make-the-binary-string-alternating/)|Medium||
 |1865|[Finding Pairs With a Certain Sum](https://leetcode.com/problems/finding-pairs-with-a-certain-sum/)|Medium||

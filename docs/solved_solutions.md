@@ -1,6 +1,6 @@
 # Solved Solutions List
 
-This document contains **1523** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
+This document contains **1524** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
 
 Some questions which are still being resolved are not shown in this page, more information about unsolved questions can be found at [docs/unsolved_solutions.md](./unsolved_solutions.md).
 
@@ -1099,6 +1099,7 @@ Some questions which are still being resolved are not shown in this page, more i
 |1855|[Maximum Distance Between a Pair of Values](https://leetcode.com/problems/maximum-distance-between-a-pair-of-values/)|[src/q_1851_1900/q1855.cc](../src/q_1851_1900/q1855.cc)|2022/04/13 19:07|
 |1857|[Largest Color Value in a Directed Graph](https://leetcode.com/problems/largest-color-value-in-a-directed-graph/)|[src/q_1851_1900/q1857.cc](../src/q_1851_1900/q1857.cc)|2023/04/09 15:18|
 |1859|[Sorting the Sentence](https://leetcode.com/problems/sorting-the-sentence/)|[src/q_1851_1900/q1859.cc](../src/q_1851_1900/q1859.cc)|2022/12/22 19:32|
+|1861|[Rotating the Box](https://leetcode.com/problems/rotating-the-box/)|[src/q_1851_1900/q1861.cc](../src/q_1851_1900/q1861.cc)|2024/11/23 15:40|
 |1863|[Sum of All Subset XOR Totals](https://leetcode.com/problems/sum-of-all-subset-xor-totals/)|[src/q_1851_1900/q1863.cc](../src/q_1851_1900/q1863.cc)|2022/07/13 18:12|
 |1869|[Longer Contiguous Segments of Ones than Zeros](https://leetcode.com/problems/longer-contiguous-segments-of-ones-than-zeros/)|[src/q_1851_1900/q1869.cc](../src/q_1851_1900/q1869.cc)|2023/04/11 22:05|
 |1870|[Minimum Speed to Arrive on Time](https://leetcode.com/problems/minimum-speed-to-arrive-on-time/)|[src/q_1851_1900/q1870.cc](../src/q_1851_1900/q1870.cc)|2022/07/19 12:37|
