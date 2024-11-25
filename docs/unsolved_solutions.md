@@ -1,6 +1,6 @@
 # Unsolved Solutions List
 
-There are **1833** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
+There are **1832** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
 
 The questions which have been solved are not shown in this page, more information about solved questions can be found at [docs/solved_solutions.md](./solved_solutions.md).
 
@@ -250,7 +250,6 @@ The questions which have been solved are not shown in this page, more informatio
 |768|[Max Chunks To Make Sorted II](https://leetcode.com/problems/max-chunks-to-make-sorted-ii/)|Hard||
 |770|[Basic Calculator IV](https://leetcode.com/problems/basic-calculator-iv/)|Hard||
 |772|[Basic Calculator III](https://leetcode.com/problems/basic-calculator-iii/)|Hard|🔒|
-|773|[Sliding Puzzle](https://leetcode.com/problems/sliding-puzzle/)|Hard||
 |774|[Minimize Max Distance to Gas Station](https://leetcode.com/problems/minimize-max-distance-to-gas-station/)|Hard|🔒|
 |776|[Split BST](https://leetcode.com/problems/split-bst/)|Medium|🔒|
 |778|[Swim in Rising Water](https://leetcode.com/problems/swim-in-rising-water/)|Hard||
