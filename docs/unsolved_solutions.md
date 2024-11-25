@@ -1,6 +1,6 @@
 # Unsolved Solutions List
 
-There are **1838** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
+There are **1831** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
 
 The questions which have been solved are not shown in this page, more information about solved questions can be found at [docs/solved_solutions.md](./solved_solutions.md).
 
@@ -250,7 +250,6 @@ The questions which have been solved are not shown in this page, more informatio
 |768|[Max Chunks To Make Sorted II](https://leetcode.com/problems/max-chunks-to-make-sorted-ii/)|Hard||
 |770|[Basic Calculator IV](https://leetcode.com/problems/basic-calculator-iv/)|Hard||
 |772|[Basic Calculator III](https://leetcode.com/problems/basic-calculator-iii/)|Hard|🔒|
-|773|[Sliding Puzzle](https://leetcode.com/problems/sliding-puzzle/)|Hard||
 |774|[Minimize Max Distance to Gas Station](https://leetcode.com/problems/minimize-max-distance-to-gas-station/)|Hard|🔒|
 |776|[Split BST](https://leetcode.com/problems/split-bst/)|Medium|🔒|
 |778|[Swim in Rising Water](https://leetcode.com/problems/swim-in-rising-water/)|Hard||
@@ -333,7 +332,6 @@ The questions which have been solved are not shown in this page, more informatio
 |1068|[Product Sales Analysis I](https://leetcode.com/problems/product-sales-analysis-i/)|Easy||
 |1069|[Product Sales Analysis II](https://leetcode.com/problems/product-sales-analysis-ii/)|Easy|🔒|
 |1070|[Product Sales Analysis III](https://leetcode.com/problems/product-sales-analysis-iii/)|Medium||
-|1072|[Flip Columns For Maximum Number of Equal Rows](https://leetcode.com/problems/flip-columns-for-maximum-number-of-equal-rows/)|Medium||
 |1073|[Adding Two Negabinary Numbers](https://leetcode.com/problems/adding-two-negabinary-numbers/)|Medium||
 |1075|[Project Employees I](https://leetcode.com/problems/project-employees-i/)|Easy||
 |1076|[Project Employees II](https://leetcode.com/problems/project-employees-ii/)|Easy|🔒|
@@ -775,7 +773,6 @@ The questions which have been solved are not shown in this page, more informatio
 |1856|[Maximum Subarray Min-Product](https://leetcode.com/problems/maximum-subarray-min-product/)|Medium||
 |1858|[Longest Word With All Prefixes](https://leetcode.com/problems/longest-word-with-all-prefixes/)|Medium|🔒|
 |1860|[Incremental Memory Leak](https://leetcode.com/problems/incremental-memory-leak/)|Medium||
-|1861|[Rotating the Box](https://leetcode.com/problems/rotating-the-box/)|Medium||
 |1862|[Sum of Floored Pairs](https://leetcode.com/problems/sum-of-floored-pairs/)|Hard||
 |1864|[Minimum Number of Swaps to Make the Binary String Alternating](https://leetcode.com/problems/minimum-number-of-swaps-to-make-the-binary-string-alternating/)|Medium||
 |1865|[Finding Pairs With a Certain Sum](https://leetcode.com/problems/finding-pairs-with-a-certain-sum/)|Medium||
@@ -847,7 +844,6 @@ The questions which have been solved are not shown in this page, more informatio
 |1969|[Minimum Non-Zero Product of the Array Elements](https://leetcode.com/problems/minimum-non-zero-product-of-the-array-elements/)|Medium||
 |1972|[First and Last Call On the Same Day](https://leetcode.com/problems/first-and-last-call-on-the-same-day/)|Hard|🔒|
 |1973|[Count Nodes Equal to Sum of Descendants](https://leetcode.com/problems/count-nodes-equal-to-sum-of-descendants/)|Medium|🔒|
-|1975|[Maximum Matrix Sum](https://leetcode.com/problems/maximum-matrix-sum/)|Medium||
 |1976|[Number of Ways to Arrive at Destination](https://leetcode.com/problems/number-of-ways-to-arrive-at-destination/)|Medium||
 |1977|[Number of Ways to Separate Numbers](https://leetcode.com/problems/number-of-ways-to-separate-numbers/)|Hard||
 |1978|[Employees Whose Manager Left the Company](https://leetcode.com/problems/employees-whose-manager-left-the-company/)|Easy||
@@ -1032,7 +1028,6 @@ The questions which have been solved are not shown in this page, more informatio
 |2252|[Dynamic Pivoting of a Table](https://leetcode.com/problems/dynamic-pivoting-of-a-table/)|Hard|🔒|
 |2253|[Dynamic Unpivoting of a Table](https://leetcode.com/problems/dynamic-unpivoting-of-a-table/)|Hard|🔒|
 |2254|[Design Video Sharing Platform](https://leetcode.com/problems/design-video-sharing-platform/)|Hard|🔒|
-|2257|[Count Unguarded Cells in the Grid](https://leetcode.com/problems/count-unguarded-cells-in-the-grid/)|Medium||
 |2258|[Escape the Spreading Fire](https://leetcode.com/problems/escape-the-spreading-fire/)|Hard||
 |2260|[Minimum Consecutive Cards to Pick Up](https://leetcode.com/problems/minimum-consecutive-cards-to-pick-up/)|Medium||
 |2261|[K Divisible Elements Subarrays](https://leetcode.com/problems/k-divisible-elements-subarrays/)|Medium||
@@ -1158,7 +1153,6 @@ The questions which have been solved are not shown in this page, more informatio
 |2456|[Most Popular Video Creator](https://leetcode.com/problems/most-popular-video-creator/)|Medium||
 |2457|[Minimum Addition to Make Integer Beautiful](https://leetcode.com/problems/minimum-addition-to-make-integer-beautiful/)|Medium||
 |2459|[Sort Array by Moving Items to Empty Space](https://leetcode.com/problems/sort-array-by-moving-items-to-empty-space/)|Hard|🔒|
-|2461|[Maximum Sum of Distinct Subarrays With Length K](https://leetcode.com/problems/maximum-sum-of-distinct-subarrays-with-length-k/)|Medium||
 |2464|[Minimum Subarrays in a Valid Split](https://leetcode.com/problems/minimum-subarrays-in-a-valid-split/)|Medium|🔒|
 |2467|[Most Profitable Path in a Tree](https://leetcode.com/problems/most-profitable-path-in-a-tree/)|Medium||
 |2468|[Split Message Based on Limit](https://leetcode.com/problems/split-message-based-on-limit/)|Hard||
@@ -1191,7 +1185,6 @@ The questions which have been solved are not shown in this page, more informatio
 |2512|[Reward Top K Students](https://leetcode.com/problems/reward-top-k-students/)|Medium||
 |2513|[Minimize the Maximum of Two Arrays](https://leetcode.com/problems/minimize-the-maximum-of-two-arrays/)|Medium||
 |2514|[Count Anagrams](https://leetcode.com/problems/count-anagrams/)|Hard||
-|2516|[Take K of Each Character From Left and Right](https://leetcode.com/problems/take-k-of-each-character-from-left-and-right/)|Medium||
 |2517|[Maximum Tastiness of Candy Basket](https://leetcode.com/problems/maximum-tastiness-of-candy-basket/)|Medium||
 |2518|[Number of Great Partitions](https://leetcode.com/problems/number-of-great-partitions/)|Hard||
 |2519|[Count the Number of K-Big Indices](https://leetcode.com/problems/count-the-number-of-k-big-indices/)|Hard|🔒|
