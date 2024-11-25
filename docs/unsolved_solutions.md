@@ -1,6 +1,6 @@
 # Unsolved Solutions List
 
-There are **1832** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
+There are **1831** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
 
 The questions which have been solved are not shown in this page, more information about solved questions can be found at [docs/solved_solutions.md](./solved_solutions.md).
 
@@ -332,7 +332,6 @@ The questions which have been solved are not shown in this page, more informatio
 |1068|[Product Sales Analysis I](https://leetcode.com/problems/product-sales-analysis-i/)|Easy||
 |1069|[Product Sales Analysis II](https://leetcode.com/problems/product-sales-analysis-ii/)|Easy|🔒|
 |1070|[Product Sales Analysis III](https://leetcode.com/problems/product-sales-analysis-iii/)|Medium||
-|1072|[Flip Columns For Maximum Number of Equal Rows](https://leetcode.com/problems/flip-columns-for-maximum-number-of-equal-rows/)|Medium||
 |1073|[Adding Two Negabinary Numbers](https://leetcode.com/problems/adding-two-negabinary-numbers/)|Medium||
 |1075|[Project Employees I](https://leetcode.com/problems/project-employees-i/)|Easy||
 |1076|[Project Employees II](https://leetcode.com/problems/project-employees-ii/)|Easy|🔒|

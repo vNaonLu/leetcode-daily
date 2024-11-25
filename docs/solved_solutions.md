@@ -1,6 +1,6 @@
 # Solved Solutions List
 
-This document contains **1526** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
+This document contains **1527** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
 
 Some questions which are still being resolved are not shown in this page, more information about unsolved questions can be found at [docs/unsolved_solutions.md](./unsolved_solutions.md).
 
@@ -753,6 +753,7 @@ Some questions which are still being resolved are not shown in this page, more i
 |1053|[Previous Permutation With One Swap](https://leetcode.com/problems/previous-permutation-with-one-swap/)|[src/q_1051_1100/q1053.cc](../src/q_1051_1100/q1053.cc)|2022/02/19 14:52|
 |1061|[Lexicographically Smallest Equivalent String](https://leetcode.com/problems/lexicographically-smallest-equivalent-string/)|[src/q_1051_1100/q1061.cc](../src/q_1051_1100/q1061.cc)|2023/01/14 13:54|
 |1071|[Greatest Common Divisor of Strings](https://leetcode.com/problems/greatest-common-divisor-of-strings/)|[src/q_1051_1100/q1071.cc](../src/q_1051_1100/q1071.cc)|2022/11/07 18:48|
+|1072|[Flip Columns For Maximum Number of Equal Rows](https://leetcode.com/problems/flip-columns-for-maximum-number-of-equal-rows/)|[src/q_1051_1100/q1072.cc](../src/q_1051_1100/q1072.cc)|2024/11/25 21:31|
 |1074|[Number of Submatrices That Sum to Target](https://leetcode.com/problems/number-of-submatrices-that-sum-to-target/)|[src/q_1051_1100/q1074.cc](../src/q_1051_1100/q1074.cc)|2022/07/18 18:36|
 |1078|[Occurrences After Bigram](https://leetcode.com/problems/occurrences-after-bigram/)|[src/q_1051_1100/q1078.cc](../src/q_1051_1100/q1078.cc)|2022/11/11 19:44|
 |1081|[Smallest Subsequence of Distinct Characters](https://leetcode.com/problems/smallest-subsequence-of-distinct-characters/)|[src/q_1051_1100/q1081.cc](../src/q_1051_1100/q1081.cc)|2022/02/02 12:37|
