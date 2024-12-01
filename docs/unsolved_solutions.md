@@ -1,6 +1,6 @@
 # Unsolved Solutions List
 
-There are **1826** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
+There are **1837** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
 
 The questions which have been solved are not shown in this page, more information about solved questions can be found at [docs/solved_solutions.md](./solved_solutions.md).
 
@@ -75,7 +75,7 @@ The questions which have been solved are not shown in this page, more informatio
 |301|[Remove Invalid Parentheses](https://leetcode.com/problems/remove-invalid-parentheses/)|Hard||
 |302|[Smallest Rectangle Enclosing Black Pixels](https://leetcode.com/problems/smallest-rectangle-enclosing-black-pixels/)|Hard|🔒|
 |305|[Number of Islands II](https://leetcode.com/problems/number-of-islands-ii/)|Hard|🔒|
-|308|[Range Sum Query 2D - Mutable](https://leetcode.com/problems/range-sum-query-2d-mutable/)|Hard|🔒|
+|308|[Range Sum Query 2D - Mutable](https://leetcode.com/problems/range-sum-query-2d-mutable/)|Medium|🔒|
 |311|[Sparse Matrix Multiplication](https://leetcode.com/problems/sparse-matrix-multiplication/)|Medium|🔒|
 |313|[Super Ugly Number](https://leetcode.com/problems/super-ugly-number/)|Medium||
 |314|[Binary Tree Vertical Order Traversal](https://leetcode.com/problems/binary-tree-vertical-order-traversal/)|Medium|🔒|
@@ -1833,3 +1833,14 @@ The questions which have been solved are not shown in this page, more informatio
 |3356|[Zero Array Transformation II](https://leetcode.com/problems/zero-array-transformation-ii/)|Medium||
 |3357|[Minimize the Maximum Adjacent Element Difference](https://leetcode.com/problems/minimize-the-maximum-adjacent-element-difference/)|Hard||
 |3358|[Books with NULL Ratings](https://leetcode.com/problems/books-with-null-ratings/)|Easy|🔒|
+|3359|[Find Sorted Submatrices With Maximum Element at Most K](https://leetcode.com/problems/find-sorted-submatrices-with-maximum-element-at-most-k/)|Hard|🔒|
+|3360|[Stone Removal Game](https://leetcode.com/problems/stone-removal-game/)|Easy||
+|3361|[Shift Distance Between Two Strings](https://leetcode.com/problems/shift-distance-between-two-strings/)|Medium||
+|3362|[Zero Array Transformation III](https://leetcode.com/problems/zero-array-transformation-iii/)|Medium||
+|3363|[Find the Maximum Number of Fruits Collected](https://leetcode.com/problems/find-the-maximum-number-of-fruits-collected/)|Hard||
+|3364|[Minimum Positive Sum Subarray ](https://leetcode.com/problems/minimum-positive-sum-subarray/)|Easy||
+|3365|[Rearrange K Substrings to Form Target String](https://leetcode.com/problems/rearrange-k-substrings-to-form-target-string/)|Medium||
+|3366|[Minimum Array Sum](https://leetcode.com/problems/minimum-array-sum/)|Medium||
+|3367|[Maximize Sum of Weights after Edge Removals](https://leetcode.com/problems/maximize-sum-of-weights-after-edge-removals/)|Hard||
+|3368|[First Letter Capitalization](https://leetcode.com/problems/first-letter-capitalization/)|Hard|🔒|
+|3369|[Design an Array Statistics Tracker ](https://leetcode.com/problems/design-an-array-statistics-tracker/)|Hard|🔒|
