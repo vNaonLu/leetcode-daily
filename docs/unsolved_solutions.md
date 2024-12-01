@@ -1,6 +1,6 @@
 # Unsolved Solutions List
 
-There are **1837** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
+There are **1836** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
 
 The questions which have been solved are not shown in this page, more information about solved questions can be found at [docs/solved_solutions.md](./solved_solutions.md).
 
@@ -1834,7 +1834,6 @@ The questions which have been solved are not shown in this page, more informatio
 |3357|[Minimize the Maximum Adjacent Element Difference](https://leetcode.com/problems/minimize-the-maximum-adjacent-element-difference/)|Hard||
 |3358|[Books with NULL Ratings](https://leetcode.com/problems/books-with-null-ratings/)|Easy|🔒|
 |3359|[Find Sorted Submatrices With Maximum Element at Most K](https://leetcode.com/problems/find-sorted-submatrices-with-maximum-element-at-most-k/)|Hard|🔒|
-|3360|[Stone Removal Game](https://leetcode.com/problems/stone-removal-game/)|Easy||
 |3361|[Shift Distance Between Two Strings](https://leetcode.com/problems/shift-distance-between-two-strings/)|Medium||
 |3362|[Zero Array Transformation III](https://leetcode.com/problems/zero-array-transformation-iii/)|Medium||
 |3363|[Find the Maximum Number of Fruits Collected](https://leetcode.com/problems/find-the-maximum-number-of-fruits-collected/)|Hard||
