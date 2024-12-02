@@ -1,6 +1,6 @@
 # Unsolved Solutions List
 
-There are **1831** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
+There are **1835** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
 
 The questions which have been solved are not shown in this page, more information about solved questions can be found at [docs/solved_solutions.md](./solved_solutions.md).
 
@@ -75,7 +75,7 @@ The questions which have been solved are not shown in this page, more informatio
 |301|[Remove Invalid Parentheses](https://leetcode.com/problems/remove-invalid-parentheses/)|Hard||
 |302|[Smallest Rectangle Enclosing Black Pixels](https://leetcode.com/problems/smallest-rectangle-enclosing-black-pixels/)|Hard|🔒|
 |305|[Number of Islands II](https://leetcode.com/problems/number-of-islands-ii/)|Hard|🔒|
-|308|[Range Sum Query 2D - Mutable](https://leetcode.com/problems/range-sum-query-2d-mutable/)|Hard|🔒|
+|308|[Range Sum Query 2D - Mutable](https://leetcode.com/problems/range-sum-query-2d-mutable/)|Medium|🔒|
 |311|[Sparse Matrix Multiplication](https://leetcode.com/problems/sparse-matrix-multiplication/)|Medium|🔒|
 |313|[Super Ugly Number](https://leetcode.com/problems/super-ugly-number/)|Medium||
 |314|[Binary Tree Vertical Order Traversal](https://leetcode.com/problems/binary-tree-vertical-order-traversal/)|Medium|🔒|
@@ -923,7 +923,6 @@ The questions which have been solved are not shown in this page, more informatio
 |2088|[Count Fertile Pyramids in a Land](https://leetcode.com/problems/count-fertile-pyramids-in-a-land/)|Hard||
 |2091|[Removing Minimum and Maximum From Array](https://leetcode.com/problems/removing-minimum-and-maximum-from-array/)|Medium||
 |2093|[Minimum Cost to Reach City With Discounts](https://leetcode.com/problems/minimum-cost-to-reach-city-with-discounts/)|Medium|🔒|
-|2097|[Valid Arrangement of Pairs](https://leetcode.com/problems/valid-arrangement-of-pairs/)|Hard||
 |2098|[Subsequence of Size K With the Largest Even Sum](https://leetcode.com/problems/subsequence-of-size-k-with-the-largest-even-sum/)|Medium|🔒|
 |2100|[Find Good Days to Rob the Bank](https://leetcode.com/problems/find-good-days-to-rob-the-bank/)|Medium||
 |2102|[Sequentially Ordinal Rank Tracker](https://leetcode.com/problems/sequentially-ordinal-rank-tracker/)|Hard||
@@ -1046,7 +1045,6 @@ The questions which have been solved are not shown in this page, more informatio
 |2286|[Booking Concert Tickets in Groups](https://leetcode.com/problems/booking-concert-tickets-in-groups/)|Hard||
 |2288|[Apply Discount to Prices](https://leetcode.com/problems/apply-discount-to-prices/)|Medium||
 |2289|[Steps to Make Array Non-decreasing](https://leetcode.com/problems/steps-to-make-array-non-decreasing/)|Medium||
-|2290|[Minimum Obstacle Removal to Reach Corner](https://leetcode.com/problems/minimum-obstacle-removal-to-reach-corner/)|Hard||
 |2291|[Maximum Profit From Trading Stocks](https://leetcode.com/problems/maximum-profit-from-trading-stocks/)|Medium|🔒|
 |2292|[Products With Three or More Orders in Two Consecutive Years](https://leetcode.com/problems/products-with-three-or-more-orders-in-two-consecutive-years/)|Medium|🔒|
 |2294|[Partition Array Such That Maximum Difference Is K](https://leetcode.com/problems/partition-array-such-that-maximum-difference-is-k/)|Medium||
@@ -1228,7 +1226,6 @@ The questions which have been solved are not shown in this page, more informatio
 |2573|[Find the String with LCP](https://leetcode.com/problems/find-the-string-with-lcp/)|Hard||
 |2575|[Find the Divisibility Array of a String](https://leetcode.com/problems/find-the-divisibility-array-of-a-string/)|Medium||
 |2576|[Find the Maximum Number of Marked Indices](https://leetcode.com/problems/find-the-maximum-number-of-marked-indices/)|Medium||
-|2577|[Minimum Time to Visit a Cell In a Grid](https://leetcode.com/problems/minimum-time-to-visit-a-cell-in-a-grid/)|Hard||
 |2579|[Count Total Number of Colored Cells](https://leetcode.com/problems/count-total-number-of-colored-cells/)|Medium||
 |2580|[Count Ways to Group Overlapping Ranges](https://leetcode.com/problems/count-ways-to-group-overlapping-ranges/)|Medium||
 |2581|[Count Number of Possible Root Nodes](https://leetcode.com/problems/count-number-of-possible-root-nodes/)|Hard||
@@ -1496,7 +1493,6 @@ The questions which have been solved are not shown in this page, more informatio
 |2920|[Maximum Points After Collecting Coins From All Nodes](https://leetcode.com/problems/maximum-points-after-collecting-coins-from-all-nodes/)|Hard||
 |2921|[Maximum Profitable Triplets With Increasing Prices II](https://leetcode.com/problems/maximum-profitable-triplets-with-increasing-prices-ii/)|Hard|🔒|
 |2922|[Market Analysis III](https://leetcode.com/problems/market-analysis-iii/)|Medium|🔒|
-|2924|[Find Champion II](https://leetcode.com/problems/find-champion-ii/)|Medium||
 |2925|[Maximum Score After Applying Operations on a Tree](https://leetcode.com/problems/maximum-score-after-applying-operations-on-a-tree/)|Medium||
 |2926|[Maximum Balanced Subsequence Sum](https://leetcode.com/problems/maximum-balanced-subsequence-sum/)|Hard||
 |2927|[Distribute Candies Among Children III](https://leetcode.com/problems/distribute-candies-among-children-iii/)|Hard|🔒|
@@ -1740,7 +1736,6 @@ The questions which have been solved are not shown in this page, more informatio
 |3239|[Minimum Number of Flips to Make Binary Grid Palindromic I](https://leetcode.com/problems/minimum-number-of-flips-to-make-binary-grid-palindromic-i/)|Medium||
 |3240|[Minimum Number of Flips to Make Binary Grid Palindromic II](https://leetcode.com/problems/minimum-number-of-flips-to-make-binary-grid-palindromic-ii/)|Medium||
 |3241|[Time Taken to Mark All Nodes](https://leetcode.com/problems/time-taken-to-mark-all-nodes/)|Hard||
-|3243|[Shortest Distance After Road Addition Queries I](https://leetcode.com/problems/shortest-distance-after-road-addition-queries-i/)|Medium||
 |3244|[Shortest Distance After Road Addition Queries II](https://leetcode.com/problems/shortest-distance-after-road-addition-queries-ii/)|Hard||
 |3245|[Alternating Groups III](https://leetcode.com/problems/alternating-groups-iii/)|Hard||
 |3246|[Premier League Table Ranking](https://leetcode.com/problems/premier-league-table-ranking/)|Easy|🔒|
@@ -1838,3 +1833,12 @@ The questions which have been solved are not shown in this page, more informatio
 |3356|[Zero Array Transformation II](https://leetcode.com/problems/zero-array-transformation-ii/)|Medium||
 |3357|[Minimize the Maximum Adjacent Element Difference](https://leetcode.com/problems/minimize-the-maximum-adjacent-element-difference/)|Hard||
 |3358|[Books with NULL Ratings](https://leetcode.com/problems/books-with-null-ratings/)|Easy|🔒|
+|3359|[Find Sorted Submatrices With Maximum Element at Most K](https://leetcode.com/problems/find-sorted-submatrices-with-maximum-element-at-most-k/)|Hard|🔒|
+|3361|[Shift Distance Between Two Strings](https://leetcode.com/problems/shift-distance-between-two-strings/)|Medium||
+|3362|[Zero Array Transformation III](https://leetcode.com/problems/zero-array-transformation-iii/)|Medium||
+|3363|[Find the Maximum Number of Fruits Collected](https://leetcode.com/problems/find-the-maximum-number-of-fruits-collected/)|Hard||
+|3365|[Rearrange K Substrings to Form Target String](https://leetcode.com/problems/rearrange-k-substrings-to-form-target-string/)|Medium||
+|3366|[Minimum Array Sum](https://leetcode.com/problems/minimum-array-sum/)|Medium||
+|3367|[Maximize Sum of Weights after Edge Removals](https://leetcode.com/problems/maximize-sum-of-weights-after-edge-removals/)|Hard||
+|3368|[First Letter Capitalization](https://leetcode.com/problems/first-letter-capitalization/)|Hard|🔒|
+|3369|[Design an Array Statistics Tracker ](https://leetcode.com/problems/design-an-array-statistics-tracker/)|Hard|🔒|

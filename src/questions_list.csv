@@ -306,7 +306,7 @@ id,backend_id,title,level,slug,paid
 305,305,Number of Islands II,3,number-of-islands-ii,1
 306,306,Additive Number,2,additive-number,0
 307,307,Range Sum Query - Mutable,2,range-sum-query-mutable,0
-308,308,Range Sum Query 2D - Mutable,3,range-sum-query-2d-mutable,1
+308,308,Range Sum Query 2D - Mutable,2,range-sum-query-2d-mutable,1
 309,309,Best Time to Buy and Sell Stock with Cooldown,2,best-time-to-buy-and-sell-stock-with-cooldown,0
 310,310,Minimum Height Trees,2,minimum-height-trees,0
 311,311,Sparse Matrix Multiplication,2,sparse-matrix-multiplication,1
@@ -3357,3 +3357,14 @@ id,backend_id,title,level,slug,paid
 3356,3643,Zero Array Transformation II,2,zero-array-transformation-ii,0
 3357,3658,Minimize the Maximum Adjacent Element Difference,3,minimize-the-maximum-adjacent-element-difference,0
 3358,3695,Books with NULL Ratings,1,books-with-null-ratings,1
+3359,3652,Find Sorted Submatrices With Maximum Element at Most K,3,find-sorted-submatrices-with-maximum-element-at-most-k,1
+3360,3625,Stone Removal Game,1,stone-removal-game,0
+3361,3591,Shift Distance Between Two Strings,2,shift-distance-between-two-strings,0
+3362,3647,Zero Array Transformation III,2,zero-array-transformation-iii,0
+3363,3648,Find the Maximum Number of Fruits Collected,3,find-the-maximum-number-of-fruits-collected,0
+3364,3644,Minimum Positive Sum Subarray ,1,minimum-positive-sum-subarray,0
+3365,3595,Rearrange K Substrings to Form Target String,2,rearrange-k-substrings-to-form-target-string,0
+3366,3654,Minimum Array Sum,2,minimum-array-sum,0
+3367,3675,Maximize Sum of Weights after Edge Removals,3,maximize-sum-of-weights-after-edge-removals,0
+3368,3703,First Letter Capitalization,3,first-letter-capitalization,1
+3369,3710,Design an Array Statistics Tracker ,3,design-an-array-statistics-tracker,1

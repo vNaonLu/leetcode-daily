@@ -1526,3 +1526,10 @@ timestamp,id,tc,sc,notes
 1732431263,1975,m * n,1,"m = |matrix.size()|, n = |matrix[i].size()|"
 1732541033,773,-,-,not calculated
 1732541475,1072,-,-,not calculated
+1732620811,2924,n,n,
+1732803176,2290,-,-,not calculated
+1732803578,3243,-,-,not calculated
+1732892145,2577,-,-,not calculated
+1732951183,2097,-,-,not calculated
+1733019512,3360,n,1,
+1733136588,3364,n * D,1,"n = |nums.size()|, D = |r - l|"

@@ -1,6 +1,6 @@
 # Solved Solutions List
 
-This document contains **1527** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
+This document contains **1534** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
 
 Some questions which are still being resolved are not shown in this page, more information about unsolved questions can be found at [docs/unsolved_solutions.md](./unsolved_solutions.md).
 
@@ -1187,6 +1187,7 @@ Some questions which are still being resolved are not shown in this page, more i
 |2094|[Finding 3-Digit Even Numbers](https://leetcode.com/problems/finding-3-digit-even-numbers/)|[src/q_2051_2100/q2094.cc](../src/q_2051_2100/q2094.cc)|2023/04/06 16:11|
 |2095|[Delete the Middle Node of a Linked List](https://leetcode.com/problems/delete-the-middle-node-of-a-linked-list/)|[src/q_2051_2100/q2095.cc](../src/q_2051_2100/q2095.cc)|2022/10/14 10:08|
 |2096|[Step-By-Step Directions From a Binary Tree Node to Another](https://leetcode.com/problems/step-by-step-directions-from-a-binary-tree-node-to-another/)|[src/q_2051_2100/q2096.cc](../src/q_2051_2100/q2096.cc)|2024/07/16 19:52|
+|2097|[Valid Arrangement of Pairs](https://leetcode.com/problems/valid-arrangement-of-pairs/)|[src/q_2051_2100/q2097.cc](../src/q_2051_2100/q2097.cc)|2024/11/30 15:19|
 |2099|[Find Subsequence of Length K With the Largest Sum](https://leetcode.com/problems/find-subsequence-of-length-k-with-the-largest-sum/)|[src/q_2051_2100/q2099.cc](../src/q_2051_2100/q2099.cc)|2023/09/30 11:40|
 |2101|[Detonate the Maximum Bombs](https://leetcode.com/problems/detonate-the-maximum-bombs/)|[src/q_2101_2150/q2101.cc](../src/q_2101_2150/q2101.cc)|2023/06/02 14:55|
 |2103|[Rings and Rods](https://leetcode.com/problems/rings-and-rods/)|[src/q_2101_2150/q2103.cc](../src/q_2101_2150/q2103.cc)|2023/10/01 11:51|
@@ -1257,6 +1258,7 @@ Some questions which are still being resolved are not shown in this page, more i
 |2283|[Check if Number Has Equal Digit Count and Digit Value](https://leetcode.com/problems/check-if-number-has-equal-digit-count-and-digit-value/)|[src/q_2251_2300/q2283.cc](../src/q_2251_2300/q2283.cc)|2023/04/14 14:40|
 |2285|[Maximum Total Importance of Roads](https://leetcode.com/problems/maximum-total-importance-of-roads/)|[src/q_2251_2300/q2285.cc](../src/q_2251_2300/q2285.cc)|2024/06/28 21:08|
 |2287|[Rearrange Characters to Make Target String](https://leetcode.com/problems/rearrange-characters-to-make-target-string/)|[src/q_2251_2300/q2287.cc](../src/q_2251_2300/q2287.cc)|2023/10/19 21:24|
+|2290|[Minimum Obstacle Removal to Reach Corner](https://leetcode.com/problems/minimum-obstacle-removal-to-reach-corner/)|[src/q_2251_2300/q2290.cc](../src/q_2251_2300/q2290.cc)|2024/11/28 22:12|
 |2293|[Min Max Game](https://leetcode.com/problems/min-max-game/)|[src/q_2251_2300/q2293.cc](../src/q_2251_2300/q2293.cc)|2023/01/09 18:53|
 |2299|[Strong Password Checker II](https://leetcode.com/problems/strong-password-checker-ii/)|[src/q_2251_2300/q2299.cc](../src/q_2251_2300/q2299.cc)|2023/03/11 01:32|
 |2300|[Successful Pairs of Spells and Potions](https://leetcode.com/problems/successful-pairs-of-spells-and-potions/)|[src/q_2251_2300/q2300.cc](../src/q_2251_2300/q2300.cc)|2023/04/02 14:53|
@@ -1362,6 +1364,7 @@ Some questions which are still being resolved are not shown in this page, more i
 |2566|[Maximum Difference by Remapping a Digit](https://leetcode.com/problems/maximum-difference-by-remapping-a-digit/)|[src/q_2551_2600/q2566.cc](../src/q_2551_2600/q2566.cc)|2023/12/02 17:19|
 |2570|[Merge Two 2D Arrays by Summing Values](https://leetcode.com/problems/merge-two-2d-arrays-by-summing-values/)|[src/q_2551_2600/q2570.cc](../src/q_2551_2600/q2570.cc)|2023/05/01 14:53|
 |2574|[Left and Right Sum Differences](https://leetcode.com/problems/left-and-right-sum-differences/)|[src/q_2551_2600/q2574.cc](../src/q_2551_2600/q2574.cc)|2023/03/10 13:23|
+|2577|[Minimum Time to Visit a Cell In a Grid](https://leetcode.com/problems/minimum-time-to-visit-a-cell-in-a-grid/)|[src/q_2551_2600/q2577.cc](../src/q_2551_2600/q2577.cc)|2024/11/29 22:55|
 |2578|[Split With Minimum Sum](https://leetcode.com/problems/split-with-minimum-sum/)|[src/q_2551_2600/q2578.cc](../src/q_2551_2600/q2578.cc)|2023/05/22 17:39|
 |2582|[Pass the Pillow](https://leetcode.com/problems/pass-the-pillow/)|[src/q_2551_2600/q2582.cc](../src/q_2551_2600/q2582.cc)|2023/05/31 10:11|
 |2583|[Kth Largest Sum in a Binary Tree](https://leetcode.com/problems/kth-largest-sum-in-a-binary-tree/)|[src/q_2551_2600/q2583.cc](../src/q_2551_2600/q2583.cc)|2024/10/22 18:59|
@@ -1441,6 +1444,7 @@ Some questions which are still being resolved are not shown in this page, more i
 |2914|[Minimum Number of Changes to Make Binary String Beautiful](https://leetcode.com/problems/minimum-number-of-changes-to-make-binary-string-beautiful/)|[src/q_2901_2950/q2914.cc](../src/q_2901_2950/q2914.cc)|2024/11/05 21:04|
 |2917|[Find the K-or of an Array](https://leetcode.com/problems/find-the-k-or-of-an-array/)|[src/q_2901_2950/q2917.cc](../src/q_2901_2950/q2917.cc)|2024/01/31 18:55|
 |2923|[Find Champion I](https://leetcode.com/problems/find-champion-i/)|[src/q_2901_2950/q2923.cc](../src/q_2901_2950/q2923.cc)|2024/02/02 15:34|
+|2924|[Find Champion II](https://leetcode.com/problems/find-champion-ii/)|[src/q_2901_2950/q2924.cc](../src/q_2901_2950/q2924.cc)|2024/11/26 19:33|
 |2928|[Distribute Candies Among Children I](https://leetcode.com/problems/distribute-candies-among-children-i/)|[src/q_2901_2950/q2928.cc](../src/q_2901_2950/q2928.cc)|2024/02/03 12:20|
 |2932|[Maximum Strong Pair XOR I](https://leetcode.com/problems/maximum-strong-pair-xor-i/)|[src/q_2901_2950/q2932.cc](../src/q_2901_2950/q2932.cc)|2024/02/04 14:00|
 |2937|[Make Three Strings Equal](https://leetcode.com/problems/make-three-strings-equal/)|[src/q_2901_2950/q2937.cc](../src/q_2901_2950/q2937.cc)|2024/02/05 19:55|
@@ -1516,6 +1520,7 @@ Some questions which are still being resolved are not shown in this page, more i
 |3232|[Find if Digit Game Can Be Won](https://leetcode.com/problems/find-if-digit-game-can-be-won/)|[src/q_3201_3250/q3232.cc](../src/q_3201_3250/q3232.cc)|2024/08/01 19:10|
 |3238|[Find the Number of Winning Players](https://leetcode.com/problems/find-the-number-of-winning-players/)|[src/q_3201_3250/q3238.cc](../src/q_3201_3250/q3238.cc)|2024/08/12 21:36|
 |3242|[Design Neighbor Sum Service](https://leetcode.com/problems/design-neighbor-sum-service/)|[src/q_3201_3250/q3242.cc](../src/q_3201_3250/q3242.cc)|2024/08/26 21:23|
+|3243|[Shortest Distance After Road Addition Queries I](https://leetcode.com/problems/shortest-distance-after-road-addition-queries-i/)|[src/q_3201_3250/q3243.cc](../src/q_3201_3250/q3243.cc)|2024/11/28 22:19|
 |3248|[Snake in Matrix](https://leetcode.com/problems/snake-in-matrix/)|[src/q_3201_3250/q3248.cc](../src/q_3201_3250/q3248.cc)|2024/08/13 21:22|
 |3254|[Find the Power of K-Size Subarrays I](https://leetcode.com/problems/find-the-power-of-k-size-subarrays-i/)|[src/q_3251_3300/q3254.cc](../src/q_3251_3300/q3254.cc)|2024/11/16 12:32|
 |3258|[Count Substrings That Satisfy K-Constraint I](https://leetcode.com/problems/count-substrings-that-satisfy-k-constraint-i/)|[src/q_3251_3300/q3258.cc](../src/q_3251_3300/q3258.cc)|2024/08/18 15:09|
@@ -1534,3 +1539,5 @@ Some questions which are still being resolved are not shown in this page, more i
 |3345|[Smallest Divisible Digit Product I](https://leetcode.com/problems/smallest-divisible-digit-product-i/)|[src/q_3301_3350/q3345.cc](../src/q_3301_3350/q3345.cc)|2024/11/15 20:53|
 |3349|[Adjacent Increasing Subarrays Detection I](https://leetcode.com/problems/adjacent-increasing-subarrays-detection-i/)|[src/q_3301_3350/q3349.cc](../src/q_3301_3350/q3349.cc)|2024/11/17 12:22|
 |3354|[Make Array Elements Equal to Zero](https://leetcode.com/problems/make-array-elements-equal-to-zero/)|[src/q_3351_3400/q3354.cc](../src/q_3351_3400/q3354.cc)|2024/11/18 20:43|
+|3360|[Stone Removal Game](https://leetcode.com/problems/stone-removal-game/)|[src/q_3351_3400/q3360.cc](../src/q_3351_3400/q3360.cc)|2024/12/01 10:18|
+|3364|[Minimum Positive Sum Subarray ](https://leetcode.com/problems/minimum-positive-sum-subarray/)|[src/q_3351_3400/q3364.cc](../src/q_3351_3400/q3364.cc)|2024/12/02 18:49|
