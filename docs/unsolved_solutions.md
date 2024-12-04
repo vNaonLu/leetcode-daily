@@ -1,6 +1,6 @@
 # Unsolved Solutions List
 
-There are **1834** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
+There are **1833** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
 
 The questions which have been solved are not shown in this page, more information about solved questions can be found at [docs/solved_solutions.md](./solved_solutions.md).
 
@@ -1414,7 +1414,6 @@ The questions which have been solved are not shown in this page, more informatio
 |2821|[Delay the Resolution of Each Promise](https://leetcode.com/problems/delay-the-resolution-of-each-promise/)|Medium|🔒|
 |2822|[Inversion of Object](https://leetcode.com/problems/inversion-of-object/)|Easy|🔒|
 |2823|[Deep Object Filter](https://leetcode.com/problems/deep-object-filter/)|Medium|🔒|
-|2825|[Make String a Subsequence Using Cyclic Increments](https://leetcode.com/problems/make-string-a-subsequence-using-cyclic-increments/)|Medium||
 |2826|[Sorting Three Groups](https://leetcode.com/problems/sorting-three-groups/)|Medium||
 |2827|[Number of Beautiful Integers in the Range](https://leetcode.com/problems/number-of-beautiful-integers-in-the-range/)|Hard||
 |2829|[Determine the Minimum Sum of a k-avoiding Array](https://leetcode.com/problems/determine-the-minimum-sum-of-a-k-avoiding-array/)|Medium||
