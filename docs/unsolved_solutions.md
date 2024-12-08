@@ -1,6 +1,6 @@
 # Unsolved Solutions List
 
-There are **1831** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
+There are **1830** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
 
 The questions which have been solved are not shown in this page, more information about solved questions can be found at [docs/solved_solutions.md](./solved_solutions.md).
 
@@ -895,7 +895,6 @@ The questions which have been solved are not shown in this page, more informatio
 |2049|[Count Nodes With the Highest Score](https://leetcode.com/problems/count-nodes-with-the-highest-score/)|Medium||
 |2051|[The Category of Each Member in the Store](https://leetcode.com/problems/the-category-of-each-member-in-the-store/)|Medium|🔒|
 |2052|[Minimum Cost to Separate Sentence Into Rows](https://leetcode.com/problems/minimum-cost-to-separate-sentence-into-rows/)|Medium|🔒|
-|2054|[Two Best Non-Overlapping Events](https://leetcode.com/problems/two-best-non-overlapping-events/)|Medium||
 |2055|[Plates Between Candles](https://leetcode.com/problems/plates-between-candles/)|Medium||
 |2056|[Number of Valid Move Combinations On Chessboard](https://leetcode.com/problems/number-of-valid-move-combinations-on-chessboard/)|Hard||
 |2059|[Minimum Operations to Convert Number](https://leetcode.com/problems/minimum-operations-to-convert-number/)|Medium||
