@@ -1,6 +1,6 @@
 # Solved Solutions List
 
-This document contains **1541** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
+This document contains **1542** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
 
 Some questions which are still being resolved are not shown in this page, more information about unsolved questions can be found at [docs/unsolved_solutions.md](./unsolved_solutions.md).
 
@@ -1416,6 +1416,7 @@ Some questions which are still being resolved are not shown in this page, more i
 |2765|[Longest Alternating Subarray](https://leetcode.com/problems/longest-alternating-subarray/)|[src/q_2751_2800/q2765.cc](../src/q_2751_2800/q2765.cc)|2023/12/27 19:05|
 |2769|[Find the Maximum Achievable Number](https://leetcode.com/problems/find-the-maximum-achievable-number/)|[src/q_2751_2800/q2769.cc](../src/q_2751_2800/q2769.cc)|2023/12/28 19:02|
 |2778|[Sum of Squares of Special Elements ](https://leetcode.com/problems/sum-of-squares-of-special-elements/)|[src/q_2751_2800/q2778.cc](../src/q_2751_2800/q2778.cc)|2023/12/29 21:14|
+|2779|[Maximum Beauty of an Array After Applying Operation](https://leetcode.com/problems/maximum-beauty-of-an-array-after-applying-operation/)|[src/q_2751_2800/q2779.cc](../src/q_2751_2800/q2779.cc)|2024/12/11 20:13|
 |2784|[Check if Array is Good](https://leetcode.com/problems/check-if-array-is-good/)|[src/q_2751_2800/q2784.cc](../src/q_2751_2800/q2784.cc)|2023/12/31 14:19|
 |2785|[Sort Vowels in a String](https://leetcode.com/problems/sort-vowels-in-a-string/)|[src/q_2751_2800/q2785.cc](../src/q_2751_2800/q2785.cc)|2023/11/13 19:01|
 |2788|[Split Strings by Separator](https://leetcode.com/problems/split-strings-by-separator/)|[src/q_2751_2800/q2788.cc](../src/q_2751_2800/q2788.cc)|2024/01/01 14:09|

@@ -1,6 +1,6 @@
 # Unsolved Solutions List
 
-There are **1828** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
+There are **1827** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
 
 The questions which have been solved are not shown in this page, more information about solved questions can be found at [docs/solved_solutions.md](./solved_solutions.md).
 
@@ -1376,7 +1376,6 @@ The questions which have been solved are not shown in this page, more informatio
 |2775|[Undefined to Null](https://leetcode.com/problems/undefined-to-null/)|Medium|🔒|
 |2776|[Convert Callback Based Function to Promise Based Function](https://leetcode.com/problems/convert-callback-based-function-to-promise-based-function/)|Medium|🔒|
 |2777|[Date Range Generator](https://leetcode.com/problems/date-range-generator/)|Medium|🔒|
-|2779|[Maximum Beauty of an Array After Applying Operation](https://leetcode.com/problems/maximum-beauty-of-an-array-after-applying-operation/)|Medium||
 |2780|[Minimum Index of a Valid Split](https://leetcode.com/problems/minimum-index-of-a-valid-split/)|Medium||
 |2781|[Length of the Longest Valid Substring](https://leetcode.com/problems/length-of-the-longest-valid-substring/)|Hard||
 |2782|[Number of Unique Categories](https://leetcode.com/problems/number-of-unique-categories/)|Medium|🔒|
