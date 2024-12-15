@@ -1,6 +1,6 @@
 # Solved Solutions List
 
-This document contains **1544** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
+This document contains **1545** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
 
 Some questions which are still being resolved are not shown in this page, more information about unsolved questions can be found at [docs/unsolved_solutions.md](./unsolved_solutions.md).
 
@@ -1071,6 +1071,7 @@ Some questions which are still being resolved are not shown in this page, more i
 |1786|[Number of Restricted Paths From First to Last Node](https://leetcode.com/problems/number-of-restricted-paths-from-first-to-last-node/)|[src/q_1751_1800/q1786.cc](../src/q_1751_1800/q1786.cc)|2022/02/10 19:37|
 |1790|[Check if One String Swap Can Make Strings Equal](https://leetcode.com/problems/check-if-one-string-swap-can-make-strings-equal/)|[src/q_1751_1800/q1790.cc](../src/q_1751_1800/q1790.cc)|2022/04/17 12:45|
 |1791|[Find Center of Star Graph](https://leetcode.com/problems/find-center-of-star-graph/)|[src/q_1751_1800/q1791.cc](../src/q_1751_1800/q1791.cc)|2022/02/23 19:25|
+|1792|[Maximum Average Pass Ratio](https://leetcode.com/problems/maximum-average-pass-ratio/)|[src/q_1751_1800/q1792.cc](../src/q_1751_1800/q1792.cc)|2024/12/15 14:36|
 |1793|[Maximum Score of a Good Subarray](https://leetcode.com/problems/maximum-score-of-a-good-subarray/)|[src/q_1751_1800/q1793.cc](../src/q_1751_1800/q1793.cc)|2023/10/22 15:03|
 |1796|[Second Largest Digit in a String](https://leetcode.com/problems/second-largest-digit-in-a-string/)|[src/q_1751_1800/q1796.cc](../src/q_1751_1800/q1796.cc)|2023/03/19 14:49|
 |1797|[Design Authentication Manager](https://leetcode.com/problems/design-authentication-manager/)|[src/q_1751_1800/q1797.cc](../src/q_1751_1800/q1797.cc)|2022/05/14 12:59|
