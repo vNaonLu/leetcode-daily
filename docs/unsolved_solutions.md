@@ -1,6 +1,6 @@
 # Unsolved Solutions List
 
-There are **1824** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
+There are **1845** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
 
 The questions which have been solved are not shown in this page, more information about solved questions can be found at [docs/solved_solutions.md](./solved_solutions.md).
 
@@ -1831,3 +1831,24 @@ The questions which have been solved are not shown in this page, more informatio
 |3367|[Maximize Sum of Weights after Edge Removals](https://leetcode.com/problems/maximize-sum-of-weights-after-edge-removals/)|Hard||
 |3368|[First Letter Capitalization](https://leetcode.com/problems/first-letter-capitalization/)|Hard|🔒|
 |3369|[Design an Array Statistics Tracker ](https://leetcode.com/problems/design-an-array-statistics-tracker/)|Hard|🔒|
+|3370|[Smallest Number With All Set Bits](https://leetcode.com/problems/smallest-number-with-all-set-bits/)|Easy||
+|3371|[Identify the Largest Outlier in an Array](https://leetcode.com/problems/identify-the-largest-outlier-in-an-array/)|Medium||
+|3372|[Maximize the Number of Target Nodes After Connecting Trees I](https://leetcode.com/problems/maximize-the-number-of-target-nodes-after-connecting-trees-i/)|Medium||
+|3373|[Maximize the Number of Target Nodes After Connecting Trees II](https://leetcode.com/problems/maximize-the-number-of-target-nodes-after-connecting-trees-ii/)|Hard||
+|3374|[First Letter Capitalization II](https://leetcode.com/problems/first-letter-capitalization-ii/)|Hard||
+|3375|[Minimum Operations to Make Array Values Equal to K](https://leetcode.com/problems/minimum-operations-to-make-array-values-equal-to-k/)|Easy||
+|3376|[Minimum Time to Break Locks I](https://leetcode.com/problems/minimum-time-to-break-locks-i/)|Medium||
+|3377|[Digit Operations to Make Two Integers Equal](https://leetcode.com/problems/digit-operations-to-make-two-integers-equal/)|Medium||
+|3378|[Count Connected Components in LCM Graph](https://leetcode.com/problems/count-connected-components-in-lcm-graph/)|Hard||
+|3379|[Transformed Array](https://leetcode.com/problems/transformed-array/)|Easy||
+|3380|[Maximum Area Rectangle With Point Constraints I](https://leetcode.com/problems/maximum-area-rectangle-with-point-constraints-i/)|Medium||
+|3381|[Maximum Subarray Sum With Length Divisible by K](https://leetcode.com/problems/maximum-subarray-sum-with-length-divisible-by-k/)|Medium||
+|3382|[Maximum Area Rectangle With Point Constraints II](https://leetcode.com/problems/maximum-area-rectangle-with-point-constraints-ii/)|Hard||
+|3383|[Minimum Runes to Add to Cast Spell](https://leetcode.com/problems/minimum-runes-to-add-to-cast-spell/)|Hard|🔒|
+|3384|[Team Dominance by Pass Success](https://leetcode.com/problems/team-dominance-by-pass-success/)|Hard|🔒|
+|3385|[Minimum Time to Break Locks II](https://leetcode.com/problems/minimum-time-to-break-locks-ii/)|Hard|🔒|
+|3386|[Button with Longest Push Time](https://leetcode.com/problems/button-with-longest-push-time/)|Easy||
+|3387|[Maximize Amount After Two Days of Conversions](https://leetcode.com/problems/maximize-amount-after-two-days-of-conversions/)|Medium||
+|3388|[Count Beautiful Splits in an Array](https://leetcode.com/problems/count-beautiful-splits-in-an-array/)|Medium||
+|3389|[Minimum Operations to Make Character Frequencies Equal](https://leetcode.com/problems/minimum-operations-to-make-character-frequencies-equal/)|Hard||
+|3390|[Longest Team Pass Streak](https://leetcode.com/problems/longest-team-pass-streak/)|Hard|🔒|
