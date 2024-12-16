@@ -1,6 +1,6 @@
 # Unsolved Solutions List
 
-There are **1845** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
+There are **1844** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
 
 The questions which have been solved are not shown in this page, more information about solved questions can be found at [docs/solved_solutions.md](./solved_solutions.md).
 
@@ -1831,7 +1831,6 @@ The questions which have been solved are not shown in this page, more informatio
 |3367|[Maximize Sum of Weights after Edge Removals](https://leetcode.com/problems/maximize-sum-of-weights-after-edge-removals/)|Hard||
 |3368|[First Letter Capitalization](https://leetcode.com/problems/first-letter-capitalization/)|Hard|🔒|
 |3369|[Design an Array Statistics Tracker ](https://leetcode.com/problems/design-an-array-statistics-tracker/)|Hard|🔒|
-|3370|[Smallest Number With All Set Bits](https://leetcode.com/problems/smallest-number-with-all-set-bits/)|Easy||
 |3371|[Identify the Largest Outlier in an Array](https://leetcode.com/problems/identify-the-largest-outlier-in-an-array/)|Medium||
 |3372|[Maximize the Number of Target Nodes After Connecting Trees I](https://leetcode.com/problems/maximize-the-number-of-target-nodes-after-connecting-trees-i/)|Medium||
 |3373|[Maximize the Number of Target Nodes After Connecting Trees II](https://leetcode.com/problems/maximize-the-number-of-target-nodes-after-connecting-trees-ii/)|Hard||
