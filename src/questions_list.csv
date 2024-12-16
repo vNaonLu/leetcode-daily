@@ -3368,3 +3368,24 @@ id,backend_id,title,level,slug,paid
 3367,3675,Maximize Sum of Weights after Edge Removals,3,maximize-sum-of-weights-after-edge-removals,0
 3368,3703,First Letter Capitalization,3,first-letter-capitalization,1
 3369,3710,Design an Array Statistics Tracker ,3,design-an-array-statistics-tracker,1
+3370,3676,Smallest Number With All Set Bits,1,smallest-number-with-all-set-bits,0
+3371,3594,Identify the Largest Outlier in an Array,2,identify-the-largest-outlier-in-an-array,0
+3372,3633,Maximize the Number of Target Nodes After Connecting Trees I,2,maximize-the-number-of-target-nodes-after-connecting-trees-i,0
+3373,3645,Maximize the Number of Target Nodes After Connecting Trees II,3,maximize-the-number-of-target-nodes-after-connecting-trees-ii,0
+3374,3711,First Letter Capitalization II,3,first-letter-capitalization-ii,0
+3375,3621,Minimum Operations to Make Array Values Equal to K,1,minimum-operations-to-make-array-values-equal-to-k,0
+3376,3649,Minimum Time to Break Locks I,2,minimum-time-to-break-locks-i,0
+3377,3655,Digit Operations to Make Two Integers Equal,2,digit-operations-to-make-two-integers-equal,0
+3378,3680,Count Connected Components in LCM Graph,3,count-connected-components-in-lcm-graph,0
+3379,3651,Transformed Array,1,transformed-array,0
+3380,3681,Maximum Area Rectangle With Point Constraints I,2,maximum-area-rectangle-with-point-constraints-i,0
+3381,3653,Maximum Subarray Sum With Length Divisible by K,2,maximum-subarray-sum-with-length-divisible-by-k,0
+3382,3689,Maximum Area Rectangle With Point Constraints II,3,maximum-area-rectangle-with-point-constraints-ii,0
+3383,3718,Minimum Runes to Add to Cast Spell,3,minimum-runes-to-add-to-cast-spell,1
+3384,3719,Team Dominance by Pass Success,3,team-dominance-by-pass-success,1
+3385,3693,Minimum Time to Break Locks II,3,minimum-time-to-break-locks-ii,1
+3386,3632,Button with Longest Push Time,1,button-with-longest-push-time,0
+3387,3613,Maximize Amount After Two Days of Conversions,2,maximize-amount-after-two-days-of-conversions,0
+3388,3686,Count Beautiful Splits in an Array,2,count-beautiful-splits-in-an-array,0
+3389,3638,Minimum Operations to Make Character Frequencies Equal,3,minimum-operations-to-make-character-frequencies-equal,0
+3390,3726,Longest Team Pass Streak,3,longest-team-pass-streak,1

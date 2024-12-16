@@ -1533,3 +1533,15 @@ timestamp,id,tc,sc,notes
 1732951183,2097,-,-,not calculated
 1733019512,3360,n,1,
 1733136588,3364,n * D,1,"n = |nums.size()|, D = |r - l|"
+1733222685,2109,n,1,n = |s.size()|
+1733313350,2825,-,-,not calculated
+1733383586,2337,n,1,n = |s.size()|
+1733549898,2554,-,-,not calculated
+1733638204,2054,-,-,not calculated
+1733741690,3152,-,-,not calculated
+1733833925,2981,-,-,not calculated
+1733919234,2779,-,-,not calculated
+1734100951,2593,-,-,not calculated
+1734184098,2762,-,-,not calculated
+1734244603,1792,-,-,not calculated
+1734356245,3370,-,-,not calculated
