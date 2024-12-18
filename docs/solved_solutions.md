@@ -1,6 +1,6 @@
 # Solved Solutions List
 
-This document contains **1547** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
+This document contains **1548** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
 
 Some questions which are still being resolved are not shown in this page, more information about unsolved questions can be found at [docs/unsolved_solutions.md](./unsolved_solutions.md).
 
@@ -1554,3 +1554,4 @@ Some questions which are still being resolved are not shown in this page, more i
 |3360|[Stone Removal Game](https://leetcode.com/problems/stone-removal-game/)|[src/q_3351_3400/q3360.cc](../src/q_3351_3400/q3360.cc)|2024/12/01 10:18|
 |3364|[Minimum Positive Sum Subarray ](https://leetcode.com/problems/minimum-positive-sum-subarray/)|[src/q_3351_3400/q3364.cc](../src/q_3351_3400/q3364.cc)|2024/12/02 18:49|
 |3370|[Smallest Number With All Set Bits](https://leetcode.com/problems/smallest-number-with-all-set-bits/)|[src/q_3351_3400/q3370.cc](../src/q_3351_3400/q3370.cc)|2024/12/16 21:37|
+|3375|[Minimum Operations to Make Array Values Equal to K](https://leetcode.com/problems/minimum-operations-to-make-array-values-equal-to-k/)|[src/q_3351_3400/q3375.cc](../src/q_3351_3400/q3375.cc)|2024/12/18 22:19|

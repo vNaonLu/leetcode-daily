@@ -1,6 +1,6 @@
 # Unsolved Solutions List
 
-There are **1843** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
+There are **1842** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
 
 The questions which have been solved are not shown in this page, more information about solved questions can be found at [docs/solved_solutions.md](./solved_solutions.md).
 
@@ -1834,7 +1834,6 @@ The questions which have been solved are not shown in this page, more informatio
 |3372|[Maximize the Number of Target Nodes After Connecting Trees I](https://leetcode.com/problems/maximize-the-number-of-target-nodes-after-connecting-trees-i/)|Medium||
 |3373|[Maximize the Number of Target Nodes After Connecting Trees II](https://leetcode.com/problems/maximize-the-number-of-target-nodes-after-connecting-trees-ii/)|Hard||
 |3374|[First Letter Capitalization II](https://leetcode.com/problems/first-letter-capitalization-ii/)|Hard||
-|3375|[Minimum Operations to Make Array Values Equal to K](https://leetcode.com/problems/minimum-operations-to-make-array-values-equal-to-k/)|Easy||
 |3376|[Minimum Time to Break Locks I](https://leetcode.com/problems/minimum-time-to-break-locks-i/)|Medium||
 |3377|[Digit Operations to Make Two Integers Equal](https://leetcode.com/problems/digit-operations-to-make-two-integers-equal/)|Medium||
 |3378|[Count Connected Components in LCM Graph](https://leetcode.com/problems/count-connected-components-in-lcm-graph/)|Hard||
