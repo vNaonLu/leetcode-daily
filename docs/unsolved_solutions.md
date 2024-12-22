@@ -1,6 +1,6 @@
 # Unsolved Solutions List
 
-There are **1840** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
+There are **1839** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
 
 The questions which have been solved are not shown in this page, more information about solved questions can be found at [docs/solved_solutions.md](./solved_solutions.md).
 
@@ -1492,7 +1492,6 @@ The questions which have been solved are not shown in this page, more informatio
 |2935|[Maximum Strong Pair XOR II](https://leetcode.com/problems/maximum-strong-pair-xor-ii/)|Hard||
 |2936|[Number of Equal Numbers Blocks](https://leetcode.com/problems/number-of-equal-numbers-blocks/)|Medium|🔒|
 |2939|[Maximum Xor Product](https://leetcode.com/problems/maximum-xor-product/)|Medium||
-|2940|[Find Building Where Alice and Bob Can Meet](https://leetcode.com/problems/find-building-where-alice-and-bob-can-meet/)|Hard||
 |2941|[Maximum GCD-Sum of a Subarray](https://leetcode.com/problems/maximum-gcd-sum-of-a-subarray/)|Hard|🔒|
 |2943|[Maximize Area of Square Hole in Grid](https://leetcode.com/problems/maximize-area-of-square-hole-in-grid/)|Medium||
 |2944|[Minimum Number of Coins for Fruits](https://leetcode.com/problems/minimum-number-of-coins-for-fruits/)|Medium||
