@@ -1,6 +1,6 @@
 # Solved Solutions List
 
-This document contains **1551** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
+This document contains **1552** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
 
 Some questions which are still being resolved are not shown in this page, more information about unsolved questions can be found at [docs/unsolved_solutions.md](./unsolved_solutions.md).
 
@@ -1335,6 +1335,7 @@ Some questions which are still being resolved are not shown in this page, more i
 |2465|[Number of Distinct Averages](https://leetcode.com/problems/number-of-distinct-averages/)|[src/q_2451_2500/q2465.cc](../src/q_2451_2500/q2465.cc)|2023/04/08 10:01|
 |2466|[Count Ways To Build Good Strings](https://leetcode.com/problems/count-ways-to-build-good-strings/)|[src/q_2451_2500/q2466.cc](../src/q_2451_2500/q2466.cc)|2023/05/13 16:17|
 |2469|[Convert the Temperature](https://leetcode.com/problems/convert-the-temperature/)|[src/q_2451_2500/q2469.cc](../src/q_2451_2500/q2469.cc)|2023/02/17 18:37|
+|2471|[Minimum Number of Operations to Sort a Binary Tree by Level](https://leetcode.com/problems/minimum-number-of-operations-to-sort-a-binary-tree-by-level/)|[src/q_2451_2500/q2471.cc](../src/q_2451_2500/q2471.cc)|2024/12/23 19:07|
 |2475|[Number of Unequal Triplets in Array](https://leetcode.com/problems/number-of-unequal-triplets-in-array/)|[src/q_2451_2500/q2475.cc](../src/q_2451_2500/q2475.cc)|2023/10/28 13:42|
 |2477|[Minimum Fuel Cost to Report to the Capital](https://leetcode.com/problems/minimum-fuel-cost-to-report-to-the-capital/)|[src/q_2451_2500/q2477.cc](../src/q_2451_2500/q2477.cc)|2023/02/12 14:52|
 |2481|[Minimum Cuts to Divide a Circle](https://leetcode.com/problems/minimum-cuts-to-divide-a-circle/)|[src/q_2451_2500/q2481.cc](../src/q_2451_2500/q2481.cc)|2023/05/30 19:54|
