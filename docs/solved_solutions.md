@@ -1,6 +1,6 @@
 # Solved Solutions List
 
-This document contains **1554** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
+This document contains **1555** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
 
 Some questions which are still being resolved are not shown in this page, more information about unsolved questions can be found at [docs/unsolved_solutions.md](./unsolved_solutions.md).
 
@@ -1561,3 +1561,4 @@ Some questions which are still being resolved are not shown in this page, more i
 |3370|[Smallest Number With All Set Bits](https://leetcode.com/problems/smallest-number-with-all-set-bits/)|[src/q_3351_3400/q3370.cc](../src/q_3351_3400/q3370.cc)|2024/12/16 21:37|
 |3375|[Minimum Operations to Make Array Values Equal to K](https://leetcode.com/problems/minimum-operations-to-make-array-values-equal-to-k/)|[src/q_3351_3400/q3375.cc](../src/q_3351_3400/q3375.cc)|2024/12/18 22:19|
 |3379|[Transformed Array](https://leetcode.com/problems/transformed-array/)|[src/q_3351_3400/q3379.cc](../src/q_3351_3400/q3379.cc)|2024/12/25 19:16|
+|3386|[Button with Longest Push Time](https://leetcode.com/problems/button-with-longest-push-time/)|[src/q_3351_3400/q3386.cc](../src/q_3351_3400/q3386.cc)|2024/12/26 15:19|

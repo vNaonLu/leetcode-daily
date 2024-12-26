@@ -1,6 +1,6 @@
 # Unsolved Solutions List
 
-There are **1836** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
+There are **1835** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
 
 The questions which have been solved are not shown in this page, more information about solved questions can be found at [docs/solved_solutions.md](./solved_solutions.md).
 
@@ -1838,7 +1838,6 @@ The questions which have been solved are not shown in this page, more informatio
 |3383|[Minimum Runes to Add to Cast Spell](https://leetcode.com/problems/minimum-runes-to-add-to-cast-spell/)|Hard|🔒|
 |3384|[Team Dominance by Pass Success](https://leetcode.com/problems/team-dominance-by-pass-success/)|Hard|🔒|
 |3385|[Minimum Time to Break Locks II](https://leetcode.com/problems/minimum-time-to-break-locks-ii/)|Hard|🔒|
-|3386|[Button with Longest Push Time](https://leetcode.com/problems/button-with-longest-push-time/)|Easy||
 |3387|[Maximize Amount After Two Days of Conversions](https://leetcode.com/problems/maximize-amount-after-two-days-of-conversions/)|Medium||
 |3388|[Count Beautiful Splits in an Array](https://leetcode.com/problems/count-beautiful-splits-in-an-array/)|Medium||
 |3389|[Minimum Operations to Make Character Frequencies Equal](https://leetcode.com/problems/minimum-operations-to-make-character-frequencies-equal/)|Hard||
