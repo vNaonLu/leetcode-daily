@@ -1,6 +1,6 @@
 # Unsolved Solutions List
 
-There are **1835** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
+There are **1834** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
 
 The questions which have been solved are not shown in this page, more information about solved questions can be found at [docs/solved_solutions.md](./solved_solutions.md).
 
@@ -217,7 +217,6 @@ The questions which have been solved are not shown in this page, more informatio
 |683|[K Empty Slots](https://leetcode.com/problems/k-empty-slots/)|Hard|🔒|
 |685|[Redundant Connection II](https://leetcode.com/problems/redundant-connection-ii/)|Hard||
 |686|[Repeated String Match](https://leetcode.com/problems/repeated-string-match/)|Medium||
-|689|[Maximum Sum of 3 Non-Overlapping Subarrays](https://leetcode.com/problems/maximum-sum-of-3-non-overlapping-subarrays/)|Hard||
 |690|[Employee Importance](https://leetcode.com/problems/employee-importance/)|Medium||
 |691|[Stickers to Spell Word](https://leetcode.com/problems/stickers-to-spell-word/)|Hard||
 |694|[Number of Distinct Islands](https://leetcode.com/problems/number-of-distinct-islands/)|Medium|🔒|

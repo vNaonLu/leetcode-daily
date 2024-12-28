@@ -1,6 +1,6 @@
 # Solved Solutions List
 
-This document contains **1555** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
+This document contains **1556** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
 
 Some questions which are still being resolved are not shown in this page, more information about unsolved questions can be found at [docs/unsolved_solutions.md](./unsolved_solutions.md).
 
@@ -485,6 +485,7 @@ Some questions which are still being resolved are not shown in this page, more i
 |684|[Redundant Connection](https://leetcode.com/problems/redundant-connection/)|[src/q_651_700/q0684.cc](../src/q_651_700/q0684.cc)|2022/02/17 23:02|
 |687|[Longest Univalue Path](https://leetcode.com/problems/longest-univalue-path/)|[src/q_651_700/q0687.cc](../src/q_651_700/q0687.cc)|2022/09/01 00:35|
 |688|[Knight Probability in Chessboard](https://leetcode.com/problems/knight-probability-in-chessboard/)|[src/q_651_700/q0688.cc](../src/q_651_700/q0688.cc)|2023/07/22 15:25|
+|689|[Maximum Sum of 3 Non-Overlapping Subarrays](https://leetcode.com/problems/maximum-sum-of-3-non-overlapping-subarrays/)|[src/q_651_700/q0689.cc](../src/q_651_700/q0689.cc)|2024/12/28 12:45|
 |692|[Top K Frequent Words](https://leetcode.com/problems/top-k-frequent-words/)|[src/q_651_700/q0692.cc](../src/q_651_700/q0692.cc)|2022/05/09 17:55|
 |693|[Binary Number with Alternating Bits](https://leetcode.com/problems/binary-number-with-alternating-bits/)|[src/q_651_700/q0693.cc](../src/q_651_700/q0693.cc)|2021/10/06 00:46|
 |695|[Max Area of Island](https://leetcode.com/problems/max-area-of-island/)|[src/q_651_700/q0695.cc](../src/q_651_700/q0695.cc)|2021/09/11 08:00|
