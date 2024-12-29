@@ -54,14 +54,14 @@ def getCommand(parent=None):
         modify_commit: list[tuple[str, str]] = []
         features_commit: list[tuple[str, str]] = []
 
-        COMMIT_FORMAT = regex.compile("^([a-z\d]{7})(?: \([^)]+\))? ([^\n]+)$")
+        COMMIT_FORMAT = regex.compile("(\w*) (.*)")
         ADDING_FORMAT = regex.compile("^adds q(\d+)")
         MODIFY_FORMAT = regex.compile("^modifies q(\d+)")
         for rev in hashes:
             CMD = ["git", "-C", PROJECT_ROOT,
-                   "show", "--quiet", "--oneline", rev]
+                   "log", "-1", "--pretty=%H %B", rev]
             out, _ = launchSubprocess(CMD).communicate()
-            commit_match = COMMIT_FORMAT.match(out)
+            commit_match = COMMIT_FORMAT.search(out)
             sha = commit_match.group(1)
             msg = commit_match.group(2)
             if ADDING_FORMAT.search(msg):

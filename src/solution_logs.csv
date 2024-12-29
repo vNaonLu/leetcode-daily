@@ -1545,3 +1545,13 @@ timestamp,id,tc,sc,notes
 1734184098,2762,-,-,not calculated
 1734244603,1792,-,-,not calculated
 1734356245,3370,-,-,not calculated
+1734442001,2182,n,1,n = |s.size()|
+1734531587,3375,n,n,n = |nums.size()|
+1734705310,2415,n,n,n = |root.size()|
+1734768578,2872,-,-,not calculated
+1734869302,2940,-,-,not calculated
+1734952041,2471,-,-,not calculated
+1735048808,3203,-,-,not calculated
+1735125387,3379,n,n = |nums.size()|,
+1735197573,3386,n,1,n = |events.size()|
+1735361158,689,-,-,not calculated
