@@ -1,6 +1,6 @@
 # Unsolved Solutions List
 
-There are **1833** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
+There are **1832** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
 
 The questions which have been solved are not shown in this page, more information about solved questions can be found at [docs/solved_solutions.md](./solved_solutions.md).
 
@@ -1029,7 +1029,6 @@ The questions which have been solved are not shown in this page, more informatio
 |2263|[Make Array Non-decreasing or Non-increasing](https://leetcode.com/problems/make-array-non-decreasing-or-non-increasing/)|Hard|🔒|
 |2267|[ Check if There Is a Valid Parentheses String Path](https://leetcode.com/problems/check-if-there-is-a-valid-parentheses-string-path/)|Hard||
 |2268|[Minimum Number of Keypresses](https://leetcode.com/problems/minimum-number-of-keypresses/)|Medium|🔒|
-|2270|[Number of Ways to Split Array](https://leetcode.com/problems/number-of-ways-to-split-array/)|Medium||
 |2271|[Maximum White Tiles Covered by a Carpet](https://leetcode.com/problems/maximum-white-tiles-covered-by-a-carpet/)|Medium||
 |2276|[Count Integers in Intervals](https://leetcode.com/problems/count-integers-in-intervals/)|Hard||
 |2277|[Closest Node to Path in Tree](https://leetcode.com/problems/closest-node-to-path-in-tree/)|Hard|🔒|
