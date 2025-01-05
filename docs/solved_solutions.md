@@ -1,6 +1,6 @@
 # Solved Solutions List
 
-This document contains **1558** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
+This document contains **1559** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
 
 Some questions which are still being resolved are not shown in this page, more information about unsolved questions can be found at [docs/unsolved_solutions.md](./unsolved_solutions.md).
 
@@ -1300,6 +1300,7 @@ Some questions which are still being resolved are not shown in this page, more i
 |2370|[Longest Ideal Subsequence](https://leetcode.com/problems/longest-ideal-subsequence/)|[src/q_2351_2400/q2370.cc](../src/q_2351_2400/q2370.cc)|2024/04/25 19:42|
 |2373|[Largest Local Values in a Matrix](https://leetcode.com/problems/largest-local-values-in-a-matrix/)|[src/q_2351_2400/q2373.cc](../src/q_2351_2400/q2373.cc)|2023/02/19 14:42|
 |2379|[Minimum Recolors to Get K Consecutive Black Blocks](https://leetcode.com/problems/minimum-recolors-to-get-k-consecutive-black-blocks/)|[src/q_2351_2400/q2379.cc](../src/q_2351_2400/q2379.cc)|2023/10/24 20:03|
+|2381|[Shifting Letters II](https://leetcode.com/problems/shifting-letters-ii/)|[src/q_2351_2400/q2381.cc](../src/q_2351_2400/q2381.cc)|2025/01/05 14:23|
 |2383|[Minimum Hours of Training to Win a Competition](https://leetcode.com/problems/minimum-hours-of-training-to-win-a-competition/)|[src/q_2351_2400/q2383.cc](../src/q_2351_2400/q2383.cc)|2023/10/25 20:18|
 |2385|[Amount of Time for Binary Tree to Be Infected](https://leetcode.com/problems/amount-of-time-for-binary-tree-to-be-infected/)|[src/q_2351_2400/q2385.cc](../src/q_2351_2400/q2385.cc)|2024/01/10 19:01|
 |2389|[Longest Subsequence With Limited Sum](https://leetcode.com/problems/longest-subsequence-with-limited-sum/)|[src/q_2351_2400/q2389.cc](../src/q_2351_2400/q2389.cc)|2022/12/25 14:43|

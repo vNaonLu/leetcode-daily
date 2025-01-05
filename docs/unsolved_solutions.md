@@ -1,6 +1,6 @@
 # Unsolved Solutions List
 
-There are **1832** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
+There are **1831** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
 
 The questions which have been solved are not shown in this page, more information about solved questions can be found at [docs/solved_solutions.md](./solved_solutions.md).
 
@@ -1094,7 +1094,6 @@ The questions which have been solved are not shown in this page, more informatio
 |2377|[Sort the Olympic Table](https://leetcode.com/problems/sort-the-olympic-table/)|Easy|🔒|
 |2378|[Choose Edges to Maximize Score in a Tree](https://leetcode.com/problems/choose-edges-to-maximize-score-in-a-tree/)|Medium|🔒|
 |2380|[Time Needed to Rearrange a Binary String](https://leetcode.com/problems/time-needed-to-rearrange-a-binary-string/)|Medium||
-|2381|[Shifting Letters II](https://leetcode.com/problems/shifting-letters-ii/)|Medium||
 |2382|[Maximum Segment Sum After Removals](https://leetcode.com/problems/maximum-segment-sum-after-removals/)|Hard||
 |2384|[Largest Palindromic Number](https://leetcode.com/problems/largest-palindromic-number/)|Medium||
 |2386|[Find the K-Sum of an Array](https://leetcode.com/problems/find-the-k-sum-of-an-array/)|Hard||
