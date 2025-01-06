@@ -1,6 +1,6 @@
 # Unsolved Solutions List
 
-There are **1834** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
+There are **1830** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
 
 The questions which have been solved are not shown in this page, more information about solved questions can be found at [docs/solved_solutions.md](./solved_solutions.md).
 
@@ -717,7 +717,6 @@ The questions which have been solved are not shown in this page, more informatio
 |1765|[Map of Highest Peak](https://leetcode.com/problems/map-of-highest-peak/)|Medium||
 |1766|[Tree of Coprimes](https://leetcode.com/problems/tree-of-coprimes/)|Hard||
 |1767|[Find the Subtasks That Did Not Execute](https://leetcode.com/problems/find-the-subtasks-that-did-not-execute/)|Hard|🔒|
-|1769|[Minimum Number of Operations to Move All Balls to Each Box](https://leetcode.com/problems/minimum-number-of-operations-to-move-all-balls-to-each-box/)|Medium||
 |1771|[Maximize Palindrome Length From Subsequences](https://leetcode.com/problems/maximize-palindrome-length-from-subsequences/)|Hard||
 |1772|[Sort Features by Popularity](https://leetcode.com/problems/sort-features-by-popularity/)|Medium|🔒|
 |1774|[Closest Dessert Cost](https://leetcode.com/problems/closest-dessert-cost/)|Medium||
@@ -1029,7 +1028,6 @@ The questions which have been solved are not shown in this page, more informatio
 |2263|[Make Array Non-decreasing or Non-increasing](https://leetcode.com/problems/make-array-non-decreasing-or-non-increasing/)|Hard|🔒|
 |2267|[ Check if There Is a Valid Parentheses String Path](https://leetcode.com/problems/check-if-there-is-a-valid-parentheses-string-path/)|Hard||
 |2268|[Minimum Number of Keypresses](https://leetcode.com/problems/minimum-number-of-keypresses/)|Medium|🔒|
-|2270|[Number of Ways to Split Array](https://leetcode.com/problems/number-of-ways-to-split-array/)|Medium||
 |2271|[Maximum White Tiles Covered by a Carpet](https://leetcode.com/problems/maximum-white-tiles-covered-by-a-carpet/)|Medium||
 |2276|[Count Integers in Intervals](https://leetcode.com/problems/count-integers-in-intervals/)|Hard||
 |2277|[Closest Node to Path in Tree](https://leetcode.com/problems/closest-node-to-path-in-tree/)|Hard|🔒|
@@ -1095,7 +1093,6 @@ The questions which have been solved are not shown in this page, more informatio
 |2377|[Sort the Olympic Table](https://leetcode.com/problems/sort-the-olympic-table/)|Easy|🔒|
 |2378|[Choose Edges to Maximize Score in a Tree](https://leetcode.com/problems/choose-edges-to-maximize-score-in-a-tree/)|Medium|🔒|
 |2380|[Time Needed to Rearrange a Binary String](https://leetcode.com/problems/time-needed-to-rearrange-a-binary-string/)|Medium||
-|2381|[Shifting Letters II](https://leetcode.com/problems/shifting-letters-ii/)|Medium||
 |2382|[Maximum Segment Sum After Removals](https://leetcode.com/problems/maximum-segment-sum-after-removals/)|Hard||
 |2384|[Largest Palindromic Number](https://leetcode.com/problems/largest-palindromic-number/)|Medium||
 |2386|[Find the K-Sum of an Array](https://leetcode.com/problems/find-the-k-sum-of-an-array/)|Hard||
@@ -1204,7 +1201,6 @@ The questions which have been solved are not shown in this page, more informatio
 |2555|[Maximize Win From Two Segments](https://leetcode.com/problems/maximize-win-from-two-segments/)|Medium||
 |2556|[Disconnect Path in a Binary Matrix by at Most One Flip](https://leetcode.com/problems/disconnect-path-in-a-binary-matrix-by-at-most-one-flip/)|Medium||
 |2557|[Maximum Number of Integers to Choose From a Range II](https://leetcode.com/problems/maximum-number-of-integers-to-choose-from-a-range-ii/)|Medium|🔒|
-|2559|[Count Vowel Strings in Ranges](https://leetcode.com/problems/count-vowel-strings-in-ranges/)|Medium||
 |2560|[House Robber IV](https://leetcode.com/problems/house-robber-iv/)|Medium||
 |2561|[Rearranging Fruits](https://leetcode.com/problems/rearranging-fruits/)|Hard||
 |2564|[Substring XOR Queries](https://leetcode.com/problems/substring-xor-queries/)|Medium||

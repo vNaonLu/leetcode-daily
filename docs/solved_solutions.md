@@ -1,6 +1,6 @@
 # Solved Solutions List
 
-This document contains **1556** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
+This document contains **1560** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
 
 Some questions which are still being resolved are not shown in this page, more information about unsolved questions can be found at [docs/unsolved_solutions.md](./unsolved_solutions.md).
 
@@ -1065,6 +1065,7 @@ Some questions which are still being resolved are not shown in this page, more i
 |1760|[Minimum Limit of Balls in a Bag](https://leetcode.com/problems/minimum-limit-of-balls-in-a-bag/)|[src/q_1751_1800/q1760.cc](../src/q_1751_1800/q1760.cc)|2022/07/16 15:15|
 |1763|[Longest Nice Substring](https://leetcode.com/problems/longest-nice-substring/)|[src/q_1751_1800/q1763.cc](../src/q_1751_1800/q1763.cc)|2023/09/12 19:07|
 |1768|[Merge Strings Alternately](https://leetcode.com/problems/merge-strings-alternately/)|[src/q_1751_1800/q1768.cc](../src/q_1751_1800/q1768.cc)|2022/04/21 09:01|
+|1769|[Minimum Number of Operations to Move All Balls to Each Box](https://leetcode.com/problems/minimum-number-of-operations-to-move-all-balls-to-each-box/)|[src/q_1751_1800/q1769.cc](../src/q_1751_1800/q1769.cc)|2025/01/06 22:43|
 |1770|[Maximum Score from Performing Multiplication Operations](https://leetcode.com/problems/maximum-score-from-performing-multiplication-operations/)|[src/q_1751_1800/q1770.cc](../src/q_1751_1800/q1770.cc)|2022/09/16 17:52|
 |1773|[Count Items Matching a Rule](https://leetcode.com/problems/count-items-matching-a-rule/)|[src/q_1751_1800/q1773.cc](../src/q_1751_1800/q1773.cc)|2023/04/05 12:36|
 |1779|[Find Nearest Point That Has the Same X or Y Coordinate](https://leetcode.com/problems/find-nearest-point-that-has-the-same-x-or-y-coordinate/)|[src/q_1751_1800/q1779.cc](../src/q_1751_1800/q1779.cc)|2022/04/16 10:53|
@@ -1254,6 +1255,7 @@ Some questions which are still being resolved are not shown in this page, more i
 |2265|[Count Nodes Equal to Average of Subtree](https://leetcode.com/problems/count-nodes-equal-to-average-of-subtree/)|[src/q_2251_2300/q2265.cc](../src/q_2251_2300/q2265.cc)|2023/11/02 19:36|
 |2266|[Count Number of Texts](https://leetcode.com/problems/count-number-of-texts/)|[src/q_2251_2300/q2266.cc](../src/q_2251_2300/q2266.cc)|2022/06/01 18:04|
 |2269|[Find the K-Beauty of a Number](https://leetcode.com/problems/find-the-k-beauty-of-a-number/)|[src/q_2251_2300/q2269.cc](../src/q_2251_2300/q2269.cc)|2023/03/12 14:57|
+|2270|[Number of Ways to Split Array](https://leetcode.com/problems/number-of-ways-to-split-array/)|[src/q_2251_2300/q2270.cc](../src/q_2251_2300/q2270.cc)|2025/01/03 22:21|
 |2272|[Substring With Largest Variance](https://leetcode.com/problems/substring-with-largest-variance/)|[src/q_2251_2300/q2272.cc](../src/q_2251_2300/q2272.cc)|2023/07/09 12:43|
 |2273|[Find Resultant Array After Removing Anagrams](https://leetcode.com/problems/find-resultant-array-after-removing-anagrams/)|[src/q_2251_2300/q2273.cc](../src/q_2251_2300/q2273.cc)|2023/10/17 20:24|
 |2274|[Maximum Consecutive Floors Without Special Floors](https://leetcode.com/problems/maximum-consecutive-floors-without-special-floors/)|[src/q_2251_2300/q2274.cc](../src/q_2251_2300/q2274.cc)|2022/07/11 18:21|
@@ -1299,6 +1301,7 @@ Some questions which are still being resolved are not shown in this page, more i
 |2370|[Longest Ideal Subsequence](https://leetcode.com/problems/longest-ideal-subsequence/)|[src/q_2351_2400/q2370.cc](../src/q_2351_2400/q2370.cc)|2024/04/25 19:42|
 |2373|[Largest Local Values in a Matrix](https://leetcode.com/problems/largest-local-values-in-a-matrix/)|[src/q_2351_2400/q2373.cc](../src/q_2351_2400/q2373.cc)|2023/02/19 14:42|
 |2379|[Minimum Recolors to Get K Consecutive Black Blocks](https://leetcode.com/problems/minimum-recolors-to-get-k-consecutive-black-blocks/)|[src/q_2351_2400/q2379.cc](../src/q_2351_2400/q2379.cc)|2023/10/24 20:03|
+|2381|[Shifting Letters II](https://leetcode.com/problems/shifting-letters-ii/)|[src/q_2351_2400/q2381.cc](../src/q_2351_2400/q2381.cc)|2025/01/05 14:23|
 |2383|[Minimum Hours of Training to Win a Competition](https://leetcode.com/problems/minimum-hours-of-training-to-win-a-competition/)|[src/q_2351_2400/q2383.cc](../src/q_2351_2400/q2383.cc)|2023/10/25 20:18|
 |2385|[Amount of Time for Binary Tree to Be Infected](https://leetcode.com/problems/amount-of-time-for-binary-tree-to-be-infected/)|[src/q_2351_2400/q2385.cc](../src/q_2351_2400/q2385.cc)|2024/01/10 19:01|
 |2389|[Longest Subsequence With Limited Sum](https://leetcode.com/problems/longest-subsequence-with-limited-sum/)|[src/q_2351_2400/q2389.cc](../src/q_2351_2400/q2389.cc)|2022/12/25 14:43|
@@ -1368,6 +1371,7 @@ Some questions which are still being resolved are not shown in this page, more i
 |2553|[Separate the Digits in an Array](https://leetcode.com/problems/separate-the-digits-in-an-array/)|[src/q_2551_2600/q2553.cc](../src/q_2551_2600/q2553.cc)|2023/03/15 15:44|
 |2554|[Maximum Number of Integers to Choose From a Range I](https://leetcode.com/problems/maximum-number-of-integers-to-choose-from-a-range-i/)|[src/q_2551_2600/q2554.cc](../src/q_2551_2600/q2554.cc)|2024/12/07 13:38|
 |2558|[Take Gifts From the Richest Pile](https://leetcode.com/problems/take-gifts-from-the-richest-pile/)|[src/q_2551_2600/q2558.cc](../src/q_2551_2600/q2558.cc)|2023/11/23 19:23|
+|2559|[Count Vowel Strings in Ranges](https://leetcode.com/problems/count-vowel-strings-in-ranges/)|[src/q_2551_2600/q2559.cc](../src/q_2551_2600/q2559.cc)|2025/01/02 21:36|
 |2562|[Find the Array Concatenation Value](https://leetcode.com/problems/find-the-array-concatenation-value/)|[src/q_2551_2600/q2562.cc](../src/q_2551_2600/q2562.cc)|2023/12/01 21:54|
 |2563|[Count the Number of Fair Pairs](https://leetcode.com/problems/count-the-number-of-fair-pairs/)|[src/q_2551_2600/q2563.cc](../src/q_2551_2600/q2563.cc)|2024/11/13 19:40|
 |2566|[Maximum Difference by Remapping a Digit](https://leetcode.com/problems/maximum-difference-by-remapping-a-digit/)|[src/q_2551_2600/q2566.cc](../src/q_2551_2600/q2566.cc)|2023/12/02 17:19|

@@ -21,6 +21,7 @@ More information about solved solution can be found at [docs/solved_solutions.md
 
 More information about full activities can be found at:
 
+- All submissions in 2025: [docs/2025.md](./docs/2025.md)
 - All submissions in 2024: [docs/2024.md](./docs/2024.md)
 - All submissions in 2023: [docs/2023.md](./docs/2023.md)
 - All submissions in 2022: [docs/2022.md](./docs/2022.md)
