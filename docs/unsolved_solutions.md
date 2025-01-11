@@ -1,6 +1,6 @@
 # Unsolved Solutions List
 
-There are **1830** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
+There are **1829** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
 
 The questions which have been solved are not shown in this page, more information about solved questions can be found at [docs/solved_solutions.md](./solved_solutions.md).
 
@@ -522,7 +522,6 @@ The questions which have been solved are not shown in this page, more informatio
 |1393|[Capital Gain/Loss](https://leetcode.com/problems/capital-gainloss/)|Medium||
 |1397|[Find All Good Strings](https://leetcode.com/problems/find-all-good-strings/)|Hard||
 |1398|[Customers Who Bought Products A and B but Not C](https://leetcode.com/problems/customers-who-bought-products-a-and-b-but-not-c/)|Medium|🔒|
-|1400|[Construct K Palindrome Strings](https://leetcode.com/problems/construct-k-palindrome-strings/)|Medium||
 |1401|[Circle and Rectangle Overlapping](https://leetcode.com/problems/circle-and-rectangle-overlapping/)|Medium||
 |1407|[Top Travellers](https://leetcode.com/problems/top-travellers/)|Easy||
 |1409|[Queries on a Permutation With Key](https://leetcode.com/problems/queries-on-a-permutation-with-key/)|Medium||

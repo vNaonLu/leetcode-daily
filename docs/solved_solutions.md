@@ -1,6 +1,6 @@
 # Solved Solutions List
 
-This document contains **1560** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
+This document contains **1561** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
 
 Some questions which are still being resolved are not shown in this page, more information about unsolved questions can be found at [docs/unsolved_solutions.md](./unsolved_solutions.md).
 
@@ -891,6 +891,7 @@ Some questions which are still being resolved are not shown in this page, more i
 |1395|[Count Number of Teams](https://leetcode.com/problems/count-number-of-teams/)|[src/q_1351_1400/q1395.cc](../src/q_1351_1400/q1395.cc)|2024/07/29 18:02|
 |1396|[Design Underground System](https://leetcode.com/problems/design-underground-system/)|[src/q_1351_1400/q1396.cc](../src/q_1351_1400/q1396.cc)|2022/04/24 14:23|
 |1399|[Count Largest Group](https://leetcode.com/problems/count-largest-group/)|[src/q_1351_1400/q1399.cc](../src/q_1351_1400/q1399.cc)|2023/04/03 16:06|
+|1400|[Construct K Palindrome Strings](https://leetcode.com/problems/construct-k-palindrome-strings/)|[src/q_1351_1400/q1400.cc](../src/q_1351_1400/q1400.cc)|2025/01/11 13:02|
 |1402|[Reducing Dishes](https://leetcode.com/problems/reducing-dishes/)|[src/q_1401_1450/q1402.cc](../src/q_1401_1450/q1402.cc)|2023/03/29 18:37|
 |1403|[Minimum Subsequence in Non-Increasing Order](https://leetcode.com/problems/minimum-subsequence-in-non-increasing-order/)|[src/q_1401_1450/q1403.cc](../src/q_1401_1450/q1403.cc)|2023/08/11 12:13|
 |1404|[Number of Steps to Reduce a Number in Binary Representation to One](https://leetcode.com/problems/number-of-steps-to-reduce-a-number-in-binary-representation-to-one/)|[src/q_1401_1450/q1404.cc](../src/q_1401_1450/q1404.cc)|2024/05/29 20:51|
