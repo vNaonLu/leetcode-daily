@@ -1,6 +1,6 @@
 # Solved Solutions List
 
-This document contains **1560** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
+This document contains **1563** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
 
 Some questions which are still being resolved are not shown in this page, more information about unsolved questions can be found at [docs/unsolved_solutions.md](./unsolved_solutions.md).
 
@@ -891,6 +891,7 @@ Some questions which are still being resolved are not shown in this page, more i
 |1395|[Count Number of Teams](https://leetcode.com/problems/count-number-of-teams/)|[src/q_1351_1400/q1395.cc](../src/q_1351_1400/q1395.cc)|2024/07/29 18:02|
 |1396|[Design Underground System](https://leetcode.com/problems/design-underground-system/)|[src/q_1351_1400/q1396.cc](../src/q_1351_1400/q1396.cc)|2022/04/24 14:23|
 |1399|[Count Largest Group](https://leetcode.com/problems/count-largest-group/)|[src/q_1351_1400/q1399.cc](../src/q_1351_1400/q1399.cc)|2023/04/03 16:06|
+|1400|[Construct K Palindrome Strings](https://leetcode.com/problems/construct-k-palindrome-strings/)|[src/q_1351_1400/q1400.cc](../src/q_1351_1400/q1400.cc)|2025/01/11 13:02|
 |1402|[Reducing Dishes](https://leetcode.com/problems/reducing-dishes/)|[src/q_1401_1450/q1402.cc](../src/q_1401_1450/q1402.cc)|2023/03/29 18:37|
 |1403|[Minimum Subsequence in Non-Increasing Order](https://leetcode.com/problems/minimum-subsequence-in-non-increasing-order/)|[src/q_1401_1450/q1403.cc](../src/q_1401_1450/q1403.cc)|2023/08/11 12:13|
 |1404|[Number of Steps to Reduce a Number in Binary Representation to One](https://leetcode.com/problems/number-of-steps-to-reduce-a-number-in-binary-representation-to-one/)|[src/q_1401_1450/q1404.cc](../src/q_1401_1450/q1404.cc)|2024/05/29 20:51|
@@ -1198,6 +1199,7 @@ Some questions which are still being resolved are not shown in this page, more i
 |2108|[Find First Palindromic String in the Array](https://leetcode.com/problems/find-first-palindromic-string-in-the-array/)|[src/q_2101_2150/q2108.cc](../src/q_2101_2150/q2108.cc)|2023/05/16 22:56|
 |2109|[Adding Spaces to a String](https://leetcode.com/problems/adding-spaces-to-a-string/)|[src/q_2101_2150/q2109.cc](../src/q_2101_2150/q2109.cc)|2024/12/03 18:44|
 |2114|[Maximum Number of Words Found in Sentences](https://leetcode.com/problems/maximum-number-of-words-found-in-sentences/)|[src/q_2101_2150/q2114.cc](../src/q_2101_2150/q2114.cc)|2023/04/24 08:40|
+|2116|[Check if a Parentheses String Can Be Valid](https://leetcode.com/problems/check-if-a-parentheses-string-can-be-valid/)|[src/q_2101_2150/q2116.cc](../src/q_2101_2150/q2116.cc)|2025/01/12 16:29|
 |2119|[A Number After a Double Reversal](https://leetcode.com/problems/a-number-after-a-double-reversal/)|[src/q_2101_2150/q2119.cc](../src/q_2101_2150/q2119.cc)|2023/10/03 19:05|
 |2124|[Check if All A's Appears Before All B's](https://leetcode.com/problems/check-if-all-as-appears-before-all-bs/)|[src/q_2101_2150/q2124.cc](../src/q_2101_2150/q2124.cc)|2023/04/12 18:56|
 |2125|[Number of Laser Beams in a Bank](https://leetcode.com/problems/number-of-laser-beams-in-a-bank/)|[src/q_2101_2150/q2125.cc](../src/q_2101_2150/q2125.cc)|2024/01/03 20:42|
@@ -1538,6 +1540,7 @@ Some questions which are still being resolved are not shown in this page, more i
 |3216|[Lexicographically Smallest String After a Swap](https://leetcode.com/problems/lexicographically-smallest-string-after-a-swap/)|[src/q_3201_3250/q3216.cc](../src/q_3201_3250/q3216.cc)|2024/07/22 20:24|
 |3217|[Delete Nodes From Linked List Present in Array](https://leetcode.com/problems/delete-nodes-from-linked-list-present-in-array/)|[src/q_3201_3250/q3217.cc](../src/q_3201_3250/q3217.cc)|2024/09/06 23:13|
 |3222|[Find the Winning Player in Coin Game](https://leetcode.com/problems/find-the-winning-player-in-coin-game/)|[src/q_3201_3250/q3222.cc](../src/q_3201_3250/q3222.cc)|2024/07/23 22:27|
+|3223|[Minimum Length of String After Operations](https://leetcode.com/problems/minimum-length-of-string-after-operations/)|[src/q_3201_3250/q3223.cc](../src/q_3201_3250/q3223.cc)|2025/01/13 21:05|
 |3226|[Number of Bit Changes to Make Two Integers Equal](https://leetcode.com/problems/number-of-bit-changes-to-make-two-integers-equal/)|[src/q_3201_3250/q3226.cc](../src/q_3201_3250/q3226.cc)|2024/07/25 16:02|
 |3232|[Find if Digit Game Can Be Won](https://leetcode.com/problems/find-if-digit-game-can-be-won/)|[src/q_3201_3250/q3232.cc](../src/q_3201_3250/q3232.cc)|2024/08/01 19:10|
 |3238|[Find the Number of Winning Players](https://leetcode.com/problems/find-the-number-of-winning-players/)|[src/q_3201_3250/q3238.cc](../src/q_3201_3250/q3238.cc)|2024/08/12 21:36|

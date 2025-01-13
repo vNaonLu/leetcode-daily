@@ -1,6 +1,6 @@
 # Unsolved Solutions List
 
-There are **1830** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
+There are **1827** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
 
 The questions which have been solved are not shown in this page, more information about solved questions can be found at [docs/solved_solutions.md](./solved_solutions.md).
 
@@ -522,7 +522,6 @@ The questions which have been solved are not shown in this page, more informatio
 |1393|[Capital Gain/Loss](https://leetcode.com/problems/capital-gainloss/)|Medium||
 |1397|[Find All Good Strings](https://leetcode.com/problems/find-all-good-strings/)|Hard||
 |1398|[Customers Who Bought Products A and B but Not C](https://leetcode.com/problems/customers-who-bought-products-a-and-b-but-not-c/)|Medium|🔒|
-|1400|[Construct K Palindrome Strings](https://leetcode.com/problems/construct-k-palindrome-strings/)|Medium||
 |1401|[Circle and Rectangle Overlapping](https://leetcode.com/problems/circle-and-rectangle-overlapping/)|Medium||
 |1407|[Top Travellers](https://leetcode.com/problems/top-travellers/)|Easy||
 |1409|[Queries on a Permutation With Key](https://leetcode.com/problems/queries-on-a-permutation-with-key/)|Medium||
@@ -931,7 +930,6 @@ The questions which have been solved are not shown in this page, more informatio
 |2112|[The Airport With the Most Traffic](https://leetcode.com/problems/the-airport-with-the-most-traffic/)|Medium|🔒|
 |2113|[Elements in Array After Removing and Replacing Elements](https://leetcode.com/problems/elements-in-array-after-removing-and-replacing-elements/)|Medium|🔒|
 |2115|[Find All Possible Recipes from Given Supplies](https://leetcode.com/problems/find-all-possible-recipes-from-given-supplies/)|Medium||
-|2116|[Check if a Parentheses String Can Be Valid](https://leetcode.com/problems/check-if-a-parentheses-string-can-be-valid/)|Medium||
 |2117|[Abbreviating the Product of a Range](https://leetcode.com/problems/abbreviating-the-product-of-a-range/)|Hard||
 |2118|[Build the Equation](https://leetcode.com/problems/build-the-equation/)|Hard|🔒|
 |2120|[Execution of All Suffix Instructions Staying in a Grid](https://leetcode.com/problems/execution-of-all-suffix-instructions-staying-in-a-grid/)|Medium||
@@ -1698,7 +1696,6 @@ The questions which have been solved are not shown in this page, more informatio
 |3219|[Minimum Cost for Cutting Cake II](https://leetcode.com/problems/minimum-cost-for-cutting-cake-ii/)|Hard||
 |3220|[Odd and Even Transactions](https://leetcode.com/problems/odd-and-even-transactions/)|Medium||
 |3221|[Maximum Array Hopping Score II](https://leetcode.com/problems/maximum-array-hopping-score-ii/)|Medium|🔒|
-|3223|[Minimum Length of String After Operations](https://leetcode.com/problems/minimum-length-of-string-after-operations/)|Medium||
 |3224|[Minimum Array Changes to Make Differences Equal](https://leetcode.com/problems/minimum-array-changes-to-make-differences-equal/)|Medium||
 |3225|[Maximum Score From Grid Operations](https://leetcode.com/problems/maximum-score-from-grid-operations/)|Hard||
 |3227|[Vowels Game in a String](https://leetcode.com/problems/vowels-game-in-a-string/)|Medium||
