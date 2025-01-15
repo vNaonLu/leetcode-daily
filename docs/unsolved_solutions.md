@@ -1,6 +1,6 @@
 # Unsolved Solutions List
 
-There are **1826** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
+There are **1825** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
 
 The questions which have been solved are not shown in this page, more information about solved questions can be found at [docs/solved_solutions.md](./solved_solutions.md).
 
@@ -1119,7 +1119,6 @@ The questions which have been solved are not shown in this page, more informatio
 |2425|[Bitwise XOR of All Pairings](https://leetcode.com/problems/bitwise-xor-of-all-pairings/)|Medium||
 |2426|[Number of Pairs Satisfying Inequality](https://leetcode.com/problems/number-of-pairs-satisfying-inequality/)|Hard||
 |2428|[Maximum Sum of an Hourglass](https://leetcode.com/problems/maximum-sum-of-an-hourglass/)|Medium||
-|2429|[Minimize XOR](https://leetcode.com/problems/minimize-xor/)|Medium||
 |2430|[Maximum Deletions on a String](https://leetcode.com/problems/maximum-deletions-on-a-string/)|Hard||
 |2431|[Maximize Total Tastiness of Purchased Fruits](https://leetcode.com/problems/maximize-total-tastiness-of-purchased-fruits/)|Medium|🔒|
 |2434|[Using a Robot to Print the Lexicographically Smallest String](https://leetcode.com/problems/using-a-robot-to-print-the-lexicographically-smallest-string/)|Medium||

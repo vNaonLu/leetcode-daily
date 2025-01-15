@@ -1,6 +1,6 @@
 # Solved Solutions List
 
-This document contains **1564** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
+This document contains **1565** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
 
 Some questions which are still being resolved are not shown in this page, more information about unsolved questions can be found at [docs/unsolved_solutions.md](./unsolved_solutions.md).
 
@@ -1323,6 +1323,7 @@ Some questions which are still being resolved are not shown in this page, more i
 |2421|[Number of Good Paths](https://leetcode.com/problems/number-of-good-paths/)|[src/q_2401_2450/q2421.cc](../src/q_2401_2450/q2421.cc)|2023/01/15 17:33|
 |2423|[Remove Letter To Equalize Frequency](https://leetcode.com/problems/remove-letter-to-equalize-frequency/)|[src/q_2401_2450/q2423.cc](../src/q_2401_2450/q2423.cc)|2023/01/21 09:29|
 |2427|[Number of Common Factors](https://leetcode.com/problems/number-of-common-factors/)|[src/q_2401_2450/q2427.cc](../src/q_2401_2450/q2427.cc)|2023/02/02 19:03|
+|2429|[Minimize XOR](https://leetcode.com/problems/minimize-xor/)|[src/q_2401_2450/q2429.cc](../src/q_2401_2450/q2429.cc)|2025/01/15 19:35|
 |2432|[The Employee That Worked on the Longest Task](https://leetcode.com/problems/the-employee-that-worked-on-the-longest-task/)|[src/q_2401_2450/q2432.cc](../src/q_2401_2450/q2432.cc)|2023/10/27 19:42|
 |2433|[Find The Original Array of Prefix Xor](https://leetcode.com/problems/find-the-original-array-of-prefix-xor/)|[src/q_2401_2450/q2433.cc](../src/q_2401_2450/q2433.cc)|2023/10/31 19:23|
 |2437|[Number of Valid Clock Times](https://leetcode.com/problems/number-of-valid-clock-times/)|[src/q_2401_2450/q2437.cc](../src/q_2401_2450/q2437.cc)|2023/03/08 20:22|
