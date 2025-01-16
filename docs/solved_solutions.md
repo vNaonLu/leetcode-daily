@@ -1,6 +1,6 @@
 # Solved Solutions List
 
-This document contains **1565** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
+This document contains **1566** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
 
 Some questions which are still being resolved are not shown in this page, more information about unsolved questions can be found at [docs/unsolved_solutions.md](./unsolved_solutions.md).
 
@@ -1322,6 +1322,7 @@ Some questions which are still being resolved are not shown in this page, more i
 |2419|[Longest Subarray With Maximum Bitwise AND](https://leetcode.com/problems/longest-subarray-with-maximum-bitwise-and/)|[src/q_2401_2450/q2419.cc](../src/q_2401_2450/q2419.cc)|2024/09/14 14:19|
 |2421|[Number of Good Paths](https://leetcode.com/problems/number-of-good-paths/)|[src/q_2401_2450/q2421.cc](../src/q_2401_2450/q2421.cc)|2023/01/15 17:33|
 |2423|[Remove Letter To Equalize Frequency](https://leetcode.com/problems/remove-letter-to-equalize-frequency/)|[src/q_2401_2450/q2423.cc](../src/q_2401_2450/q2423.cc)|2023/01/21 09:29|
+|2425|[Bitwise XOR of All Pairings](https://leetcode.com/problems/bitwise-xor-of-all-pairings/)|[src/q_2401_2450/q2425.cc](../src/q_2401_2450/q2425.cc)|2025/01/16 21:17|
 |2427|[Number of Common Factors](https://leetcode.com/problems/number-of-common-factors/)|[src/q_2401_2450/q2427.cc](../src/q_2401_2450/q2427.cc)|2023/02/02 19:03|
 |2429|[Minimize XOR](https://leetcode.com/problems/minimize-xor/)|[src/q_2401_2450/q2429.cc](../src/q_2401_2450/q2429.cc)|2025/01/15 19:35|
 |2432|[The Employee That Worked on the Longest Task](https://leetcode.com/problems/the-employee-that-worked-on-the-longest-task/)|[src/q_2401_2450/q2432.cc](../src/q_2401_2450/q2432.cc)|2023/10/27 19:42|
