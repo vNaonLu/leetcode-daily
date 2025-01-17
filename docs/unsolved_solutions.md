@@ -1,6 +1,6 @@
 # Unsolved Solutions List
 
-There are **1824** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
+There are **1823** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
 
 The questions which have been solved are not shown in this page, more information about solved questions can be found at [docs/solved_solutions.md](./solved_solutions.md).
 
@@ -1286,7 +1286,6 @@ The questions which have been solved are not shown in this page, more informatio
 |2679|[Sum in a Matrix](https://leetcode.com/problems/sum-in-a-matrix/)|Medium||
 |2680|[Maximum OR](https://leetcode.com/problems/maximum-or/)|Medium||
 |2681|[Power of Heroes](https://leetcode.com/problems/power-of-heroes/)|Hard||
-|2683|[Neighboring Bitwise XOR](https://leetcode.com/problems/neighboring-bitwise-xor/)|Medium||
 |2685|[Count the Number of Complete Components](https://leetcode.com/problems/count-the-number-of-complete-components/)|Medium||
 |2686|[Immediate Food Delivery III](https://leetcode.com/problems/immediate-food-delivery-iii/)|Medium|🔒|
 |2687|[Bikes Last Time Used ](https://leetcode.com/problems/bikes-last-time-used/)|Easy|🔒|
