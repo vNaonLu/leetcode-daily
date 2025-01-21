@@ -1,6 +1,6 @@
 # Solved Solutions List
 
-This document contains **1569** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
+This document contains **1570** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
 
 Some questions which are still being resolved are not shown in this page, more information about unsolved questions can be found at [docs/unsolved_solutions.md](./unsolved_solutions.md).
 
@@ -1163,6 +1163,7 @@ Some questions which are still being resolved are not shown in this page, more i
 |2009|[Minimum Number of Operations to Make Array Continuous](https://leetcode.com/problems/minimum-number-of-operations-to-make-array-continuous/)|[src/q_2001_2050/q2009.cc](../src/q_2001_2050/q2009.cc)|2023/10/10 12:16|
 |2011|[Final Value of Variable After Performing Operations](https://leetcode.com/problems/final-value-of-variable-after-performing-operations/)|[src/q_2001_2050/q2011.cc](../src/q_2001_2050/q2011.cc)|2021/11/23 18:44|
 |2016|[Maximum Difference Between Increasing Elements](https://leetcode.com/problems/maximum-difference-between-increasing-elements/)|[src/q_2001_2050/q2016.cc](../src/q_2001_2050/q2016.cc)|2023/09/21 19:00|
+|2017|[Grid Game](https://leetcode.com/problems/grid-game/)|[src/q_2001_2050/q2017.cc](../src/q_2001_2050/q2017.cc)|2025/01/21 20:42|
 |2018|[Check if Word Can Be Placed In Crossword](https://leetcode.com/problems/check-if-word-can-be-placed-in-crossword/)|[src/q_2001_2050/q2018.cc](../src/q_2001_2050/q2018.cc)|2021/10/12 22:11|
 |2022|[Convert 1D Array Into 2D Array](https://leetcode.com/problems/convert-1d-array-into-2d-array/)|[src/q_2001_2050/q2022.cc](../src/q_2001_2050/q2022.cc)|2022/12/11 18:54|
 |2024|[Maximize the Confusion of an Exam](https://leetcode.com/problems/maximize-the-confusion-of-an-exam/)|[src/q_2001_2050/q2024.cc](../src/q_2001_2050/q2024.cc)|2023/07/07 12:03|
