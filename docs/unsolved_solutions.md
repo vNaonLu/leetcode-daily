@@ -1,6 +1,6 @@
 # Unsolved Solutions List
 
-There are **1820** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
+There are **1819** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
 
 The questions which have been solved are not shown in this page, more information about solved questions can be found at [docs/solved_solutions.md](./solved_solutions.md).
 
@@ -712,7 +712,6 @@ The questions which have been solved are not shown in this page, more informatio
 |1761|[Minimum Degree of a Connected Trio in a Graph](https://leetcode.com/problems/minimum-degree-of-a-connected-trio-in-a-graph/)|Hard||
 |1762|[Buildings With an Ocean View](https://leetcode.com/problems/buildings-with-an-ocean-view/)|Medium|🔒|
 |1764|[Form Array by Concatenating Subarrays of Another Array](https://leetcode.com/problems/form-array-by-concatenating-subarrays-of-another-array/)|Medium||
-|1765|[Map of Highest Peak](https://leetcode.com/problems/map-of-highest-peak/)|Medium||
 |1766|[Tree of Coprimes](https://leetcode.com/problems/tree-of-coprimes/)|Hard||
 |1767|[Find the Subtasks That Did Not Execute](https://leetcode.com/problems/find-the-subtasks-that-did-not-execute/)|Hard|🔒|
 |1771|[Maximize Palindrome Length From Subsequences](https://leetcode.com/problems/maximize-palindrome-length-from-subsequences/)|Hard||
