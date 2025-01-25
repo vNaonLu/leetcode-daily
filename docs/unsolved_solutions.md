@@ -1,6 +1,6 @@
 # Unsolved Solutions List
 
-There are **1819** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
+There are **1818** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
 
 The questions which have been solved are not shown in this page, more information about solved questions can be found at [docs/solved_solutions.md](./solved_solutions.md).
 
@@ -1481,7 +1481,6 @@ The questions which have been solved are not shown in this page, more informatio
 |2944|[Minimum Number of Coins for Fruits](https://leetcode.com/problems/minimum-number-of-coins-for-fruits/)|Medium||
 |2945|[Find Maximum Non-decreasing Array Length](https://leetcode.com/problems/find-maximum-non-decreasing-array-length/)|Hard||
 |2947|[Count Beautiful Substrings I](https://leetcode.com/problems/count-beautiful-substrings-i/)|Medium||
-|2948|[Make Lexicographically Smallest Array by Swapping Elements](https://leetcode.com/problems/make-lexicographically-smallest-array-by-swapping-elements/)|Medium||
 |2949|[Count Beautiful Substrings II](https://leetcode.com/problems/count-beautiful-substrings-ii/)|Hard||
 |2950|[Number of Divisible Substrings](https://leetcode.com/problems/number-of-divisible-substrings/)|Medium|🔒|
 |2952|[Minimum Number of Coins to be Added](https://leetcode.com/problems/minimum-number-of-coins-to-be-added/)|Medium||
