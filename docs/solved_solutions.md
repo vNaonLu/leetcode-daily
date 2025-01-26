@@ -1,6 +1,6 @@
 # Solved Solutions List
 
-This document contains **1572** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
+This document contains **1573** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
 
 Some questions which are still being resolved are not shown in this page, more information about unsolved questions can be found at [docs/unsolved_solutions.md](./unsolved_solutions.md).
 
@@ -1206,6 +1206,7 @@ Some questions which are still being resolved are not shown in this page, more i
 |2119|[A Number After a Double Reversal](https://leetcode.com/problems/a-number-after-a-double-reversal/)|[src/q_2101_2150/q2119.cc](../src/q_2101_2150/q2119.cc)|2023/10/03 19:05|
 |2124|[Check if All A's Appears Before All B's](https://leetcode.com/problems/check-if-all-as-appears-before-all-bs/)|[src/q_2101_2150/q2124.cc](../src/q_2101_2150/q2124.cc)|2023/04/12 18:56|
 |2125|[Number of Laser Beams in a Bank](https://leetcode.com/problems/number-of-laser-beams-in-a-bank/)|[src/q_2101_2150/q2125.cc](../src/q_2101_2150/q2125.cc)|2024/01/03 20:42|
+|2127|[Maximum Employees to Be Invited to a Meeting](https://leetcode.com/problems/maximum-employees-to-be-invited-to-a-meeting/)|[src/q_2101_2150/q2127.cc](../src/q_2101_2150/q2127.cc)|2025/01/26 12:31|
 |2129|[Capitalize the Title](https://leetcode.com/problems/capitalize-the-title/)|[src/q_2101_2150/q2129.cc](../src/q_2101_2150/q2129.cc)|2023/03/21 21:07|
 |2130|[Maximum Twin Sum of a Linked List](https://leetcode.com/problems/maximum-twin-sum-of-a-linked-list/)|[src/q_2101_2150/q2130.cc](../src/q_2101_2150/q2130.cc)|2023/05/17 18:53|
 |2131|[Longest Palindrome by Concatenating Two Letter Words](https://leetcode.com/problems/longest-palindrome-by-concatenating-two-letter-words/)|[src/q_2101_2150/q2131.cc](../src/q_2101_2150/q2131.cc)|2022/09/12 18:25|
