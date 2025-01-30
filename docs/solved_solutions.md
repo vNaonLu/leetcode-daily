@@ -1,6 +1,6 @@
 # Solved Solutions List
 
-This document contains **1574** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
+This document contains **1575** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
 
 Some questions which are still being resolved are not shown in this page, more information about unsolved questions can be found at [docs/unsolved_solutions.md](./unsolved_solutions.md).
 
@@ -1359,6 +1359,7 @@ Some questions which are still being resolved are not shown in this page, more i
 |2490|[Circular Sentence](https://leetcode.com/problems/circular-sentence/)|[src/q_2451_2500/q2490.cc](../src/q_2451_2500/q2490.cc)|2023/03/06 14:54|
 |2491|[Divide Players Into Teams of Equal Skill](https://leetcode.com/problems/divide-players-into-teams-of-equal-skill/)|[src/q_2451_2500/q2491.cc](../src/q_2451_2500/q2491.cc)|2024/10/04 22:19|
 |2492|[Minimum Score of a Path Between Two Cities](https://leetcode.com/problems/minimum-score-of-a-path-between-two-cities/)|[src/q_2451_2500/q2492.cc](../src/q_2451_2500/q2492.cc)|2023/03/22 19:47|
+|2493|[Divide Nodes Into the Maximum Number of Groups](https://leetcode.com/problems/divide-nodes-into-the-maximum-number-of-groups/)|[src/q_2451_2500/q2493.cc](../src/q_2451_2500/q2493.cc)|2025/01/30 11:05|
 |2496|[Maximum Value of a String in an Array](https://leetcode.com/problems/maximum-value-of-a-string-in-an-array/)|[src/q_2451_2500/q2496.cc](../src/q_2451_2500/q2496.cc)|2023/04/20 18:55|
 |2500|[Delete Greatest Value in Each Row](https://leetcode.com/problems/delete-greatest-value-in-each-row/)|[src/q_2451_2500/q2500.cc](../src/q_2451_2500/q2500.cc)|2023/05/03 19:02|
 |2501|[Longest Square Streak in an Array](https://leetcode.com/problems/longest-square-streak-in-an-array/)|[src/q_2501_2550/q2501.cc](../src/q_2501_2550/q2501.cc)|2024/10/28 18:57|
