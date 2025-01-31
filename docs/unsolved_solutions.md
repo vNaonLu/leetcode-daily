@@ -1,6 +1,6 @@
 # Unsolved Solutions List
 
-There are **1815** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
+There are **1814** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
 
 The questions which have been solved are not shown in this page, more information about solved questions can be found at [docs/solved_solutions.md](./solved_solutions.md).
 
@@ -261,7 +261,6 @@ The questions which have been solved are not shown in this page, more informatio
 |805|[Split Array With Same Average](https://leetcode.com/problems/split-array-with-same-average/)|Hard||
 |810|[Chalkboard XOR Game](https://leetcode.com/problems/chalkboard-xor-game/)|Hard||
 |818|[Race Car](https://leetcode.com/problems/race-car/)|Hard||
-|827|[Making A Large Island](https://leetcode.com/problems/making-a-large-island/)|Hard||
 |828|[Count Unique Characters of All Substrings of a Given String](https://leetcode.com/problems/count-unique-characters-of-all-substrings-of-a-given-string/)|Hard||
 |829|[Consecutive Numbers Sum](https://leetcode.com/problems/consecutive-numbers-sum/)|Hard||
 |843|[Guess the Word](https://leetcode.com/problems/guess-the-word/)|Hard||
