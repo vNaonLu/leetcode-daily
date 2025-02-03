@@ -1562,3 +1562,16 @@ timestamp,id,tc,sc,notes
 1736571747,1400,-,-,not calculated
 1736670581,2116,-,-,not calculated
 1736773525,3223,n,n,n = |s.size()|
+1736862495,2657,n,n,n = |A.size()|
+1736940914,2429,1,1,
+1737033427,2425,n,1,n = |nums1.size()|
+1737124189,2683,n,n,n = |derived.size()|
+1737168802,1368,-,-,not calculated
+1737374168,2661,m * n,"max(n, m)","n = |mat.size()|, m = |mat[i].size()|"
+1737463349,2017,-,-,not calculated
+1737545175,1765,-,-,not calculated
+1737767600,2948,-,-,not calculated
+1737865888,2127,-,-,not calculated
+1738032239,2658,m * n,m * n,"m = |grid.size()|, n = |grid[i].size()|"
+1738206356,2493,-,-,not calculated
+1738296281,827,-,-,not calculated
