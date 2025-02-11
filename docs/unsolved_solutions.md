@@ -1,6 +1,6 @@
 # Unsolved Solutions List
 
-There are **1810** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
+There are **1809** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
 
 The questions which have been solved are not shown in this page, more information about solved questions can be found at [docs/solved_solutions.md](./solved_solutions.md).
 
@@ -795,7 +795,6 @@ The questions which have been solved are not shown in this page, more informatio
 |1906|[Minimum Absolute Difference Queries](https://leetcode.com/problems/minimum-absolute-difference-queries/)|Medium||
 |1907|[Count Salary Categories](https://leetcode.com/problems/count-salary-categories/)|Medium||
 |1908|[Game of Nim](https://leetcode.com/problems/game-of-nim/)|Medium|🔒|
-|1910|[Remove All Occurrences of a Substring](https://leetcode.com/problems/remove-all-occurrences-of-a-substring/)|Medium||
 |1911|[Maximum Alternating Subsequence Sum](https://leetcode.com/problems/maximum-alternating-subsequence-sum/)|Medium||
 |1912|[Design Movie Rental System](https://leetcode.com/problems/design-movie-rental-system/)|Hard||
 |1914|[Cyclically Rotating a Grid](https://leetcode.com/problems/cyclically-rotating-a-grid/)|Medium||

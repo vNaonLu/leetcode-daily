@@ -1,6 +1,6 @@
 # Solved Solutions List
 
-This document contains **1580** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
+This document contains **1581** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
 
 Some questions which are still being resolved are not shown in this page, more information about unsolved questions can be found at [docs/unsolved_solutions.md](./unsolved_solutions.md).
 
@@ -1128,6 +1128,7 @@ Some questions which are still being resolved are not shown in this page, more i
 |1903|[Largest Odd Number in String](https://leetcode.com/problems/largest-odd-number-in-string/)|[src/q_1901_1950/q1903.cc](../src/q_1901_1950/q1903.cc)|2022/02/23 19:13|
 |1905|[Count Sub Islands](https://leetcode.com/problems/count-sub-islands/)|[src/q_1901_1950/q1905.cc](../src/q_1901_1950/q1905.cc)|2022/03/12 14:08|
 |1909|[Remove One Element to Make the Array Strictly Increasing](https://leetcode.com/problems/remove-one-element-to-make-the-array-strictly-increasing/)|[src/q_1901_1950/q1909.cc](../src/q_1901_1950/q1909.cc)|2023/06/12 20:41|
+|1910|[Remove All Occurrences of a Substring](https://leetcode.com/problems/remove-all-occurrences-of-a-substring/)|[src/q_1901_1950/q1910.cc](../src/q_1901_1950/q1910.cc)|2025/02/11 15:14|
 |1913|[Maximum Product Difference Between Two Pairs](https://leetcode.com/problems/maximum-product-difference-between-two-pairs/)|[src/q_1901_1950/q1913.cc](../src/q_1901_1950/q1913.cc)|2023/04/18 18:59|
 |1915|[Number of Wonderful Substrings](https://leetcode.com/problems/number-of-wonderful-substrings/)|[src/q_1901_1950/q1915.cc](../src/q_1901_1950/q1915.cc)|2024/04/30 23:44|
 |1920|[Build Array from Permutation](https://leetcode.com/problems/build-array-from-permutation/)|[src/q_1901_1950/q1920.cc](../src/q_1901_1950/q1920.cc)|2022/08/11 12:04|
