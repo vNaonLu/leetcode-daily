@@ -1580,3 +1580,4 @@ timestamp,id,tc,sc,notes
 1738993573,2349,-,-,not calculated
 1739082695,2364,-,-,not calculated
 1739258088,1910,-,-,not calculated
+1739365225,2342,n * log(n),n,n = |nums.size()|

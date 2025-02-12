@@ -1,6 +1,6 @@
 # Solved Solutions List
 
-This document contains **1581** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
+This document contains **1582** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
 
 Some questions which are still being resolved are not shown in this page, more information about unsolved questions can be found at [docs/unsolved_solutions.md](./unsolved_solutions.md).
 
@@ -1294,6 +1294,7 @@ Some questions which are still being resolved are not shown in this page, more i
 |2336|[Smallest Number in Infinite Set](https://leetcode.com/problems/smallest-number-in-infinite-set/)|[src/q_2301_2350/q2336.cc](../src/q_2301_2350/q2336.cc)|2023/04/25 18:45|
 |2337|[Move Pieces to Obtain a String](https://leetcode.com/problems/move-pieces-to-obtain-a-string/)|[src/q_2301_2350/q2337.cc](../src/q_2301_2350/q2337.cc)|2024/12/05 15:26|
 |2341|[Maximum Number of Pairs in Array](https://leetcode.com/problems/maximum-number-of-pairs-in-array/)|[src/q_2301_2350/q2341.cc](../src/q_2301_2350/q2341.cc)|2023/05/02 18:43|
+|2342|[Max Sum of a Pair With Equal Sum of Digits](https://leetcode.com/problems/max-sum-of-a-pair-with-equal-sum-of-digits/)|[src/q_2301_2350/q2342.cc](../src/q_2301_2350/q2342.cc)|2025/02/12 21:00|
 |2347|[Best Poker Hand](https://leetcode.com/problems/best-poker-hand/)|[src/q_2301_2350/q2347.cc](../src/q_2301_2350/q2347.cc)|2023/01/30 15:42|
 |2348|[Number of Zero-Filled Subarrays](https://leetcode.com/problems/number-of-zero-filled-subarrays/)|[src/q_2301_2350/q2348.cc](../src/q_2301_2350/q2348.cc)|2023/03/21 18:38|
 |2349|[Design a Number Container System](https://leetcode.com/problems/design-a-number-container-system/)|[src/q_2301_2350/q2349.cc](../src/q_2301_2350/q2349.cc)|2025/02/08 13:46|
