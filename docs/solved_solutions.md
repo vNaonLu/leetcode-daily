@@ -1,6 +1,6 @@
 # Solved Solutions List
 
-This document contains **1582** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
+This document contains **1583** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
 
 Some questions which are still being resolved are not shown in this page, more information about unsolved questions can be found at [docs/unsolved_solutions.md](./unsolved_solutions.md).
 
@@ -1520,6 +1520,7 @@ Some questions which are still being resolved are not shown in this page, more i
 |3043|[Find the Length of the Longest Common Prefix](https://leetcode.com/problems/find-the-length-of-the-longest-common-prefix/)|[src/q_3001_3050/q3043.cc](../src/q_3001_3050/q3043.cc)|2024/09/24 19:53|
 |3046|[Split the Array](https://leetcode.com/problems/split-the-array/)|[src/q_3001_3050/q3046.cc](../src/q_3001_3050/q3046.cc)|2024/03/04 22:30|
 |3065|[Minimum Operations to Exceed Threshold Value I](https://leetcode.com/problems/minimum-operations-to-exceed-threshold-value-i/)|[src/q_3051_3100/q3065.cc](../src/q_3051_3100/q3065.cc)|2024/03/06 20:30|
+|3066|[Minimum Operations to Exceed Threshold Value II](https://leetcode.com/problems/minimum-operations-to-exceed-threshold-value-ii/)|[src/q_3051_3100/q3066.cc](../src/q_3051_3100/q3066.cc)|2025/02/13 19:31|
 |3068|[Find the Maximum Sum of Node Values](https://leetcode.com/problems/find-the-maximum-sum-of-node-values/)|[src/q_3051_3100/q3068.cc](../src/q_3051_3100/q3068.cc)|2024/05/19 15:27|
 |3069|[Distribute Elements Into Two Arrays I](https://leetcode.com/problems/distribute-elements-into-two-arrays-i/)|[src/q_3051_3100/q3069.cc](../src/q_3051_3100/q3069.cc)|2024/03/07 22:08|
 |3074|[Apple Redistribution into Boxes](https://leetcode.com/problems/apple-redistribution-into-boxes/)|[src/q_3051_3100/q3074.cc](../src/q_3051_3100/q3074.cc)|2024/03/10 16:35|
