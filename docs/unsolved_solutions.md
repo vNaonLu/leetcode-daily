@@ -1,6 +1,6 @@
 # Unsolved Solutions List
 
-There are **1807** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
+There are **1806** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
 
 The questions which have been solved are not shown in this page, more information about solved questions can be found at [docs/solved_solutions.md](./solved_solutions.md).
 
@@ -497,7 +497,6 @@ The questions which have been solved are not shown in this page, more informatio
 |1348|[Tweet Counts Per Frequency](https://leetcode.com/problems/tweet-counts-per-frequency/)|Medium||
 |1349|[Maximum Students Taking Exam](https://leetcode.com/problems/maximum-students-taking-exam/)|Hard||
 |1350|[Students With Invalid Departments](https://leetcode.com/problems/students-with-invalid-departments/)|Easy|🔒|
-|1352|[Product of the Last K Numbers](https://leetcode.com/problems/product-of-the-last-k-numbers/)|Medium||
 |1353|[Maximum Number of Events That Can Be Attended](https://leetcode.com/problems/maximum-number-of-events-that-can-be-attended/)|Medium||
 |1354|[Construct Target Array With Multiple Sums](https://leetcode.com/problems/construct-target-array-with-multiple-sums/)|Hard||
 |1355|[Activity Participants](https://leetcode.com/problems/activity-participants/)|Medium|🔒|

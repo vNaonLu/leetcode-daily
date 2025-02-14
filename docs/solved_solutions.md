@@ -1,6 +1,6 @@
 # Solved Solutions List
 
-This document contains **1583** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
+This document contains **1584** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
 
 Some questions which are still being resolved are not shown in this page, more information about unsolved questions can be found at [docs/unsolved_solutions.md](./unsolved_solutions.md).
 
@@ -868,6 +868,7 @@ Some questions which are still being resolved are not shown in this page, more i
 |1346|[Check If N and Its Double Exist](https://leetcode.com/problems/check-if-n-and-its-double-exist/)|[src/q_1301_1350/q1346.cc](../src/q_1301_1350/q1346.cc)|2022/04/11 18:30|
 |1347|[Minimum Number of Steps to Make Two Strings Anagram](https://leetcode.com/problems/minimum-number-of-steps-to-make-two-strings-anagram/)|[src/q_1301_1350/q1347.cc](../src/q_1301_1350/q1347.cc)|2024/01/13 10:19|
 |1351|[Count Negative Numbers in a Sorted Matrix](https://leetcode.com/problems/count-negative-numbers-in-a-sorted-matrix/)|[src/q_1351_1400/q1351.cc](../src/q_1351_1400/q1351.cc)|2022/04/10 14:24|
+|1352|[Product of the Last K Numbers](https://leetcode.com/problems/product-of-the-last-k-numbers/)|[src/q_1351_1400/q1352.cc](../src/q_1351_1400/q1352.cc)|2025/02/14 22:32|
 |1356|[Sort Integers by The Number of 1 Bits](https://leetcode.com/problems/sort-integers-by-the-number-of-1-bits/)|[src/q_1351_1400/q1356.cc](../src/q_1351_1400/q1356.cc)|2021/10/06 00:58|
 |1359|[Count All Valid Pickup and Delivery Options](https://leetcode.com/problems/count-all-valid-pickup-and-delivery-options/)|[src/q_1351_1400/q1359.cc](../src/q_1351_1400/q1359.cc)|2022/03/06 12:49|
 |1360|[Number of Days Between Two Dates](https://leetcode.com/problems/number-of-days-between-two-dates/)|[src/q_1351_1400/q1360.cc](../src/q_1351_1400/q1360.cc)|2023/06/20 20:36|
