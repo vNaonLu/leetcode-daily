@@ -1,6 +1,6 @@
 # Solved Solutions List
 
-This document contains **1586** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
+This document contains **1587** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
 
 Some questions which are still being resolved are not shown in this page, more information about unsolved questions can be found at [docs/unsolved_solutions.md](./unsolved_solutions.md).
 
@@ -758,6 +758,7 @@ Some questions which are still being resolved are not shown in this page, more i
 |1072|[Flip Columns For Maximum Number of Equal Rows](https://leetcode.com/problems/flip-columns-for-maximum-number-of-equal-rows/)|[src/q_1051_1100/q1072.cc](../src/q_1051_1100/q1072.cc)|2024/11/25 21:31|
 |1074|[Number of Submatrices That Sum to Target](https://leetcode.com/problems/number-of-submatrices-that-sum-to-target/)|[src/q_1051_1100/q1074.cc](../src/q_1051_1100/q1074.cc)|2022/07/18 18:36|
 |1078|[Occurrences After Bigram](https://leetcode.com/problems/occurrences-after-bigram/)|[src/q_1051_1100/q1078.cc](../src/q_1051_1100/q1078.cc)|2022/11/11 19:44|
+|1079|[Letter Tile Possibilities](https://leetcode.com/problems/letter-tile-possibilities/)|[src/q_1051_1100/q1079.cc](../src/q_1051_1100/q1079.cc)|2025/02/17 20:19|
 |1081|[Smallest Subsequence of Distinct Characters](https://leetcode.com/problems/smallest-subsequence-of-distinct-characters/)|[src/q_1051_1100/q1081.cc](../src/q_1051_1100/q1081.cc)|2022/02/02 12:37|
 |1089|[Duplicate Zeros](https://leetcode.com/problems/duplicate-zeros/)|[src/q_1051_1100/q1089.cc](../src/q_1051_1100/q1089.cc)|2022/08/05 18:28|
 |1091|[Shortest Path in Binary Matrix](https://leetcode.com/problems/shortest-path-in-binary-matrix/)|[src/q_1051_1100/q1091.cc](../src/q_1051_1100/q1091.cc)|2021/09/26 14:51|

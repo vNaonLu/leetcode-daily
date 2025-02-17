@@ -1,6 +1,6 @@
 # Unsolved Solutions List
 
-There are **1804** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
+There are **1803** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
 
 The questions which have been solved are not shown in this page, more information about solved questions can be found at [docs/solved_solutions.md](./solved_solutions.md).
 
@@ -334,7 +334,6 @@ The questions which have been solved are not shown in this page, more informatio
 |1075|[Project Employees I](https://leetcode.com/problems/project-employees-i/)|Easy||
 |1076|[Project Employees II](https://leetcode.com/problems/project-employees-ii/)|Easy|🔒|
 |1077|[Project Employees III](https://leetcode.com/problems/project-employees-iii/)|Medium|🔒|
-|1079|[Letter Tile Possibilities](https://leetcode.com/problems/letter-tile-possibilities/)|Medium||
 |1080|[Insufficient Nodes in Root to Leaf Paths](https://leetcode.com/problems/insufficient-nodes-in-root-to-leaf-paths/)|Medium||
 |1082|[Sales Analysis I](https://leetcode.com/problems/sales-analysis-i/)|Easy|🔒|
 |1083|[Sales Analysis II](https://leetcode.com/problems/sales-analysis-ii/)|Easy|🔒|
