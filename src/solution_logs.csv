@@ -1575,3 +1575,14 @@ timestamp,id,tc,sc,notes
 1738032239,2658,m * n,m * n,"m = |grid.size()|, n = |grid[i].size()|"
 1738206356,2493,-,-,not calculated
 1738296281,827,-,-,not calculated
+1738843719,1726,-,-,not calculated
+1738935026,3160,n,n,n = |queries.size()|
+1738993573,2349,-,-,not calculated
+1739082695,2364,-,-,not calculated
+1739258088,1910,-,-,not calculated
+1739365225,2342,n * log(n),n,n = |nums.size()|
+1739446274,3066,n * log(n),n,n = |nums.size()|
+1739543574,1352,1,1,
+1739600081,2698,-,-,not calculated
+1739686573,1718,1,1,
+1739794747,1079,-,-,not calculated

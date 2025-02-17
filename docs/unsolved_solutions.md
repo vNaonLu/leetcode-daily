@@ -1,6 +1,6 @@
 # Unsolved Solutions List
 
-There are **1814** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
+There are **1803** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
 
 The questions which have been solved are not shown in this page, more information about solved questions can be found at [docs/solved_solutions.md](./solved_solutions.md).
 
@@ -334,7 +334,6 @@ The questions which have been solved are not shown in this page, more informatio
 |1075|[Project Employees I](https://leetcode.com/problems/project-employees-i/)|Easy||
 |1076|[Project Employees II](https://leetcode.com/problems/project-employees-ii/)|Easy|🔒|
 |1077|[Project Employees III](https://leetcode.com/problems/project-employees-iii/)|Medium|🔒|
-|1079|[Letter Tile Possibilities](https://leetcode.com/problems/letter-tile-possibilities/)|Medium||
 |1080|[Insufficient Nodes in Root to Leaf Paths](https://leetcode.com/problems/insufficient-nodes-in-root-to-leaf-paths/)|Medium||
 |1082|[Sales Analysis I](https://leetcode.com/problems/sales-analysis-i/)|Easy|🔒|
 |1083|[Sales Analysis II](https://leetcode.com/problems/sales-analysis-ii/)|Easy|🔒|
@@ -497,7 +496,6 @@ The questions which have been solved are not shown in this page, more informatio
 |1348|[Tweet Counts Per Frequency](https://leetcode.com/problems/tweet-counts-per-frequency/)|Medium||
 |1349|[Maximum Students Taking Exam](https://leetcode.com/problems/maximum-students-taking-exam/)|Hard||
 |1350|[Students With Invalid Departments](https://leetcode.com/problems/students-with-invalid-departments/)|Easy|🔒|
-|1352|[Product of the Last K Numbers](https://leetcode.com/problems/product-of-the-last-k-numbers/)|Medium||
 |1353|[Maximum Number of Events That Can Be Attended](https://leetcode.com/problems/maximum-number-of-events-that-can-be-attended/)|Medium||
 |1354|[Construct Target Array With Multiple Sums](https://leetcode.com/problems/construct-target-array-with-multiple-sums/)|Hard||
 |1355|[Activity Participants](https://leetcode.com/problems/activity-participants/)|Medium|🔒|
@@ -680,12 +678,10 @@ The questions which have been solved are not shown in this page, more informatio
 |1713|[Minimum Operations to Make a Subsequence](https://leetcode.com/problems/minimum-operations-to-make-a-subsequence/)|Hard||
 |1714|[Sum Of Special Evenly-Spaced Elements In Array](https://leetcode.com/problems/sum-of-special-evenly-spaced-elements-in-array/)|Hard|🔒|
 |1715|[Count Apples and Oranges](https://leetcode.com/problems/count-apples-and-oranges/)|Medium|🔒|
-|1718|[Construct the Lexicographically Largest Valid Sequence](https://leetcode.com/problems/construct-the-lexicographically-largest-valid-sequence/)|Medium||
 |1719|[Number Of Ways To Reconstruct A Tree](https://leetcode.com/problems/number-of-ways-to-reconstruct-a-tree/)|Hard||
 |1722|[Minimize Hamming Distance After Swap Operations](https://leetcode.com/problems/minimize-hamming-distance-after-swap-operations/)|Medium||
 |1723|[Find Minimum Time to Finish All Jobs](https://leetcode.com/problems/find-minimum-time-to-finish-all-jobs/)|Hard||
 |1724|[Checking Existence of Edge Length Limited Paths II](https://leetcode.com/problems/checking-existence-of-edge-length-limited-paths-ii/)|Hard|🔒|
-|1726|[Tuple with Same Product](https://leetcode.com/problems/tuple-with-same-product/)|Medium||
 |1728|[Cat and Mouse II](https://leetcode.com/problems/cat-and-mouse-ii/)|Hard||
 |1729|[Find Followers Count](https://leetcode.com/problems/find-followers-count/)|Easy||
 |1730|[Shortest Path to Get Food](https://leetcode.com/problems/shortest-path-to-get-food/)|Medium|🔒|
@@ -796,7 +792,6 @@ The questions which have been solved are not shown in this page, more informatio
 |1906|[Minimum Absolute Difference Queries](https://leetcode.com/problems/minimum-absolute-difference-queries/)|Medium||
 |1907|[Count Salary Categories](https://leetcode.com/problems/count-salary-categories/)|Medium||
 |1908|[Game of Nim](https://leetcode.com/problems/game-of-nim/)|Medium|🔒|
-|1910|[Remove All Occurrences of a Substring](https://leetcode.com/problems/remove-all-occurrences-of-a-substring/)|Medium||
 |1911|[Maximum Alternating Subsequence Sum](https://leetcode.com/problems/maximum-alternating-subsequence-sum/)|Medium||
 |1912|[Design Movie Rental System](https://leetcode.com/problems/design-movie-rental-system/)|Hard||
 |1914|[Cyclically Rotating a Grid](https://leetcode.com/problems/cyclically-rotating-a-grid/)|Medium||
@@ -1063,12 +1058,10 @@ The questions which have been solved are not shown in this page, more informatio
 |2338|[Count the Number of Ideal Arrays](https://leetcode.com/problems/count-the-number-of-ideal-arrays/)|Hard||
 |2339|[All the Matches of the League](https://leetcode.com/problems/all-the-matches-of-the-league/)|Easy|🔒|
 |2340|[Minimum Adjacent Swaps to Make a Valid Array](https://leetcode.com/problems/minimum-adjacent-swaps-to-make-a-valid-array/)|Medium|🔒|
-|2342|[Max Sum of a Pair With Equal Sum of Digits](https://leetcode.com/problems/max-sum-of-a-pair-with-equal-sum-of-digits/)|Medium||
 |2343|[Query Kth Smallest Trimmed Number](https://leetcode.com/problems/query-kth-smallest-trimmed-number/)|Medium||
 |2344|[Minimum Deletions to Make Array Divisible](https://leetcode.com/problems/minimum-deletions-to-make-array-divisible/)|Hard||
 |2345|[Finding the Number of Visible Mountains](https://leetcode.com/problems/finding-the-number-of-visible-mountains/)|Medium|🔒|
 |2346|[Compute the Rank as a Percentage](https://leetcode.com/problems/compute-the-rank-as-a-percentage/)|Medium|🔒|
-|2349|[Design a Number Container System](https://leetcode.com/problems/design-a-number-container-system/)|Medium||
 |2350|[Shortest Impossible Sequence of Rolls](https://leetcode.com/problems/shortest-impossible-sequence-of-rolls/)|Hard||
 |2354|[Number of Excellent Pairs](https://leetcode.com/problems/number-of-excellent-pairs/)|Hard||
 |2355|[Maximum Number of Books You Can Take](https://leetcode.com/problems/maximum-number-of-books-you-can-take/)|Hard|🔒|
@@ -1076,7 +1069,6 @@ The questions which have been solved are not shown in this page, more informatio
 |2358|[Maximum Number of Groups Entering a Competition](https://leetcode.com/problems/maximum-number-of-groups-entering-a-competition/)|Medium||
 |2361|[Minimum Costs Using the Train Line](https://leetcode.com/problems/minimum-costs-using-the-train-line/)|Hard|🔒|
 |2362|[Generate the Invoice](https://leetcode.com/problems/generate-the-invoice/)|Hard|🔒|
-|2364|[Count Number of Bad Pairs](https://leetcode.com/problems/count-number-of-bad-pairs/)|Medium||
 |2365|[Task Scheduler II](https://leetcode.com/problems/task-scheduler-ii/)|Medium||
 |2371|[Minimize Maximum Value in a Grid](https://leetcode.com/problems/minimize-maximum-value-in-a-grid/)|Hard|🔒|
 |2372|[Calculate the Influence of Each Salesperson](https://leetcode.com/problems/calculate-the-influence-of-each-salesperson/)|Medium|🔒|
@@ -1289,7 +1281,6 @@ The questions which have been solved are not shown in this page, more informatio
 |2693|[Call Function with Custom Context](https://leetcode.com/problems/call-function-with-custom-context/)|Medium||
 |2694|[Event Emitter](https://leetcode.com/problems/event-emitter/)|Medium||
 |2695|[Array Wrapper](https://leetcode.com/problems/array-wrapper/)|Easy||
-|2698|[Find the Punishment Number of an Integer](https://leetcode.com/problems/find-the-punishment-number-of-an-integer/)|Medium||
 |2700|[Differences Between Two Objects](https://leetcode.com/problems/differences-between-two-objects/)|Medium|🔒|
 |2701|[Consecutive Transactions with Increasing Amounts](https://leetcode.com/problems/consecutive-transactions-with-increasing-amounts/)|Hard|🔒|
 |2702|[Minimum Operations to Make Numbers Non-positive](https://leetcode.com/problems/minimum-operations-to-make-numbers-non-positive/)|Hard|🔒|
@@ -1564,7 +1555,6 @@ The questions which have been solved are not shown in this page, more informatio
 |3062|[Winner of the Linked List Game](https://leetcode.com/problems/winner-of-the-linked-list-game/)|Easy|🔒|
 |3063|[Linked List Frequency](https://leetcode.com/problems/linked-list-frequency/)|Easy|🔒|
 |3064|[Guess the Number Using Bitwise Questions I](https://leetcode.com/problems/guess-the-number-using-bitwise-questions-i/)|Medium|🔒|
-|3066|[Minimum Operations to Exceed Threshold Value II](https://leetcode.com/problems/minimum-operations-to-exceed-threshold-value-ii/)|Medium||
 |3067|[Count Pairs of Connectable Servers in a Weighted Tree Network](https://leetcode.com/problems/count-pairs-of-connectable-servers-in-a-weighted-tree-network/)|Medium||
 |3070|[Count Submatrices with Top-Left Element and Sum Less Than k](https://leetcode.com/problems/count-submatrices-with-top-left-element-and-sum-less-than-k/)|Medium||
 |3071|[Minimum Operations to Write the Letter Y on a Grid](https://leetcode.com/problems/minimum-operations-to-write-the-letter-y-on-a-grid/)|Medium||
@@ -1635,7 +1625,6 @@ The questions which have been solved are not shown in this page, more informatio
 |3156|[Employee Task Duration and Concurrent Tasks](https://leetcode.com/problems/employee-task-duration-and-concurrent-tasks/)|Hard|🔒|
 |3157|[Find the Level of Tree with Minimum Sum](https://leetcode.com/problems/find-the-level-of-tree-with-minimum-sum/)|Medium|🔒|
 |3159|[Find Occurrences of an Element in an Array](https://leetcode.com/problems/find-occurrences-of-an-element-in-an-array/)|Medium||
-|3160|[Find the Number of Distinct Colors Among the Balls](https://leetcode.com/problems/find-the-number-of-distinct-colors-among-the-balls/)|Medium||
 |3161|[Block Placement Queries](https://leetcode.com/problems/block-placement-queries/)|Hard||
 |3164|[Find the Number of Good Pairs II](https://leetcode.com/problems/find-the-number-of-good-pairs-ii/)|Medium||
 |3165|[Maximum Sum of Subsequence With Non-adjacent Elements](https://leetcode.com/problems/maximum-sum-of-subsequence-with-non-adjacent-elements/)|Hard||
