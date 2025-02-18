@@ -1,6 +1,6 @@
 # Solved Solutions List
 
-This document contains **1587** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
+This document contains **1588** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
 
 Some questions which are still being resolved are not shown in this page, more information about unsolved questions can be found at [docs/unsolved_solutions.md](./unsolved_solutions.md).
 
@@ -1315,6 +1315,7 @@ Some questions which are still being resolved are not shown in this page, more i
 |2369|[Check if There is a Valid Partition For The Array](https://leetcode.com/problems/check-if-there-is-a-valid-partition-for-the-array/)|[src/q_2351_2400/q2369.cc](../src/q_2351_2400/q2369.cc)|2023/08/13 16:26|
 |2370|[Longest Ideal Subsequence](https://leetcode.com/problems/longest-ideal-subsequence/)|[src/q_2351_2400/q2370.cc](../src/q_2351_2400/q2370.cc)|2024/04/25 19:42|
 |2373|[Largest Local Values in a Matrix](https://leetcode.com/problems/largest-local-values-in-a-matrix/)|[src/q_2351_2400/q2373.cc](../src/q_2351_2400/q2373.cc)|2023/02/19 14:42|
+|2375|[Construct Smallest Number From DI String](https://leetcode.com/problems/construct-smallest-number-from-di-string/)|[src/q_2351_2400/q2375.cc](../src/q_2351_2400/q2375.cc)|2025/02/18 19:27|
 |2379|[Minimum Recolors to Get K Consecutive Black Blocks](https://leetcode.com/problems/minimum-recolors-to-get-k-consecutive-black-blocks/)|[src/q_2351_2400/q2379.cc](../src/q_2351_2400/q2379.cc)|2023/10/24 20:03|
 |2381|[Shifting Letters II](https://leetcode.com/problems/shifting-letters-ii/)|[src/q_2351_2400/q2381.cc](../src/q_2351_2400/q2381.cc)|2025/01/05 14:23|
 |2383|[Minimum Hours of Training to Win a Competition](https://leetcode.com/problems/minimum-hours-of-training-to-win-a-competition/)|[src/q_2351_2400/q2383.cc](../src/q_2351_2400/q2383.cc)|2023/10/25 20:18|
