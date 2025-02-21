@@ -1,6 +1,6 @@
 # Solved Solutions List
 
-This document contains **1589** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
+This document contains **1590** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
 
 Some questions which are still being resolved are not shown in this page, more information about unsolved questions can be found at [docs/unsolved_solutions.md](./unsolved_solutions.md).
 
@@ -820,6 +820,7 @@ Some questions which are still being resolved are not shown in this page, more i
 |1254|[Number of Closed Islands](https://leetcode.com/problems/number-of-closed-islands/)|[src/q_1251_1300/q1254.cc](../src/q_1251_1300/q1254.cc)|2021/11/04 18:09|
 |1255|[Maximum Score Words Formed by Letters](https://leetcode.com/problems/maximum-score-words-formed-by-letters/)|[src/q_1251_1300/q1255.cc](../src/q_1251_1300/q1255.cc)|2024/05/24 22:03|
 |1260|[Shift 2D Grid](https://leetcode.com/problems/shift-2d-grid/)|[src/q_1251_1300/q1260.cc](../src/q_1251_1300/q1260.cc)|2022/04/11 18:21|
+|1261|[Find Elements in a Contaminated Binary Tree](https://leetcode.com/problems/find-elements-in-a-contaminated-binary-tree/)|[src/q_1251_1300/q1261.cc](../src/q_1251_1300/q1261.cc)|2025/02/21 18:54|
 |1266|[Minimum Time Visiting All Points](https://leetcode.com/problems/minimum-time-visiting-all-points/)|[src/q_1251_1300/q1266.cc](../src/q_1251_1300/q1266.cc)|2022/08/08 18:22|
 |1267|[Count Servers that Communicate](https://leetcode.com/problems/count-servers-that-communicate/)|[src/q_1251_1300/q1267.cc](../src/q_1251_1300/q1267.cc)|2022/02/01 13:41|
 |1268|[Search Suggestions System](https://leetcode.com/problems/search-suggestions-system/)|[src/q_1251_1300/q1268.cc](../src/q_1251_1300/q1268.cc)|2022/06/19 13:18|
