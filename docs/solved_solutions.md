@@ -1,6 +1,6 @@
 # Solved Solutions List
 
-This document contains **1591** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
+This document contains **1592** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
 
 Some questions which are still being resolved are not shown in this page, more information about unsolved questions can be found at [docs/unsolved_solutions.md](./unsolved_solutions.md).
 
@@ -633,6 +633,7 @@ Some questions which are still being resolved are not shown in this page, more i
 |885|[Spiral Matrix III](https://leetcode.com/problems/spiral-matrix-iii/)|[src/q_851_900/q0885.cc](../src/q_851_900/q0885.cc)|2024/08/08 21:12|
 |886|[Possible Bipartition](https://leetcode.com/problems/possible-bipartition/)|[src/q_851_900/q0886.cc](../src/q_851_900/q0886.cc)|2022/03/23 18:42|
 |888|[Fair Candy Swap](https://leetcode.com/problems/fair-candy-swap/)|[src/q_851_900/q0888.cc](../src/q_851_900/q0888.cc)|2021/11/12 18:29|
+|889|[Construct Binary Tree from Preorder and Postorder Traversal](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-postorder-traversal/)|[src/q_851_900/q0889.cc](../src/q_851_900/q0889.cc)|2025/02/23 13:25|
 |890|[Find and Replace Pattern](https://leetcode.com/problems/find-and-replace-pattern/)|[src/q_851_900/q0890.cc](../src/q_851_900/q0890.cc)|2022/07/29 18:21|
 |892|[Surface Area of 3D Shapes](https://leetcode.com/problems/surface-area-of-3d-shapes/)|[src/q_851_900/q0892.cc](../src/q_851_900/q0892.cc)|2023/07/18 21:18|
 |893|[Groups of Special-Equivalent Strings](https://leetcode.com/problems/groups-of-special-equivalent-strings/)|[src/q_851_900/q0893.cc](../src/q_851_900/q0893.cc)|2024/09/20 22:50|
