@@ -1,6 +1,6 @@
 # Solved Solutions List
 
-This document contains **1594** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
+This document contains **1595** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
 
 Some questions which are still being resolved are not shown in this page, more information about unsolved questions can be found at [docs/unsolved_solutions.md](./unsolved_solutions.md).
 
@@ -1069,6 +1069,7 @@ Some questions which are still being resolved are not shown in this page, more i
 |1742|[Maximum Number of Balls in a Box](https://leetcode.com/problems/maximum-number-of-balls-in-a-box/)|[src/q_1701_1750/q1742.cc](../src/q_1701_1750/q1742.cc)|2023/09/07 16:12|
 |1743|[Restore the Array From Adjacent Pairs](https://leetcode.com/problems/restore-the-array-from-adjacent-pairs/)|[src/q_1701_1750/q1743.cc](../src/q_1701_1750/q1743.cc)|2023/11/10 23:16|
 |1748|[Sum of Unique Elements](https://leetcode.com/problems/sum-of-unique-elements/)|[src/q_1701_1750/q1748.cc](../src/q_1701_1750/q1748.cc)|2022/12/16 18:30|
+|1749|[Maximum Absolute Sum of Any Subarray](https://leetcode.com/problems/maximum-absolute-sum-of-any-subarray/)|[src/q_1701_1750/q1749.cc](../src/q_1701_1750/q1749.cc)|2025/02/26 19:12|
 |1750|[Minimum Length of String After Deleting Similar Ends](https://leetcode.com/problems/minimum-length-of-string-after-deleting-similar-ends/)|[src/q_1701_1750/q1750.cc](../src/q_1701_1750/q1750.cc)|2024/03/05 23:57|
 |1751|[Maximum Number of Events That Can Be Attended II](https://leetcode.com/problems/maximum-number-of-events-that-can-be-attended-ii/)|[src/q_1751_1800/q1751.cc](../src/q_1751_1800/q1751.cc)|2023/07/15 21:56|
 |1752|[Check if Array Is Sorted and Rotated](https://leetcode.com/problems/check-if-array-is-sorted-and-rotated/)|[src/q_1751_1800/q1752.cc](../src/q_1751_1800/q1752.cc)|2022/02/06 14:22|
