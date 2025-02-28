@@ -1,6 +1,6 @@
 # Unsolved Solutions List
 
-There are **1795** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
+There are **1794** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
 
 The questions which have been solved are not shown in this page, more information about solved questions can be found at [docs/solved_solutions.md](./solved_solutions.md).
 
@@ -341,7 +341,6 @@ The questions which have been solved are not shown in this page, more informatio
 |1087|[Brace Expansion](https://leetcode.com/problems/brace-expansion/)|Medium|🔒|
 |1088|[Confusing Number II](https://leetcode.com/problems/confusing-number-ii/)|Hard|🔒|
 |1090|[Largest Values From Labels](https://leetcode.com/problems/largest-values-from-labels/)|Medium||
-|1092|[Shortest Common Supersequence ](https://leetcode.com/problems/shortest-common-supersequence/)|Hard||
 |1096|[Brace Expansion II](https://leetcode.com/problems/brace-expansion-ii/)|Hard||
 |1097|[Game Play Analysis V](https://leetcode.com/problems/game-play-analysis-v/)|Hard|🔒|
 |1098|[Unpopular Books](https://leetcode.com/problems/unpopular-books/)|Medium|🔒|

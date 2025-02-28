@@ -1,6 +1,6 @@
 # Solved Solutions List
 
-This document contains **1595** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
+This document contains **1596** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
 
 Some questions which are still being resolved are not shown in this page, more information about unsolved questions can be found at [docs/unsolved_solutions.md](./unsolved_solutions.md).
 
@@ -764,6 +764,7 @@ Some questions which are still being resolved are not shown in this page, more i
 |1081|[Smallest Subsequence of Distinct Characters](https://leetcode.com/problems/smallest-subsequence-of-distinct-characters/)|[src/q_1051_1100/q1081.cc](../src/q_1051_1100/q1081.cc)|2022/02/02 12:37|
 |1089|[Duplicate Zeros](https://leetcode.com/problems/duplicate-zeros/)|[src/q_1051_1100/q1089.cc](../src/q_1051_1100/q1089.cc)|2022/08/05 18:28|
 |1091|[Shortest Path in Binary Matrix](https://leetcode.com/problems/shortest-path-in-binary-matrix/)|[src/q_1051_1100/q1091.cc](../src/q_1051_1100/q1091.cc)|2021/09/26 14:51|
+|1092|[Shortest Common Supersequence ](https://leetcode.com/problems/shortest-common-supersequence/)|[src/q_1051_1100/q1092.cc](../src/q_1051_1100/q1092.cc)|2025/02/28 18:16|
 |1093|[Statistics from a Large Sample](https://leetcode.com/problems/statistics-from-a-large-sample/)|[src/q_1051_1100/q1093.cc](../src/q_1051_1100/q1093.cc)|2022/05/13 18:33|
 |1094|[Car Pooling](https://leetcode.com/problems/car-pooling/)|[src/q_1051_1100/q1094.cc](../src/q_1051_1100/q1094.cc)|2022/01/06 18:11|
 |1095|[Find in Mountain Array](https://leetcode.com/problems/find-in-mountain-array/)|[src/q_1051_1100/q1095.cc](../src/q_1051_1100/q1095.cc)|2023/10/12 21:41|
