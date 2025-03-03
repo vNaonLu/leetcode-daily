@@ -1,6 +1,6 @@
 # Unsolved Solutions List
 
-There are **1794** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
+There are **1793** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
 
 The questions which have been solved are not shown in this page, more information about solved questions can be found at [docs/solved_solutions.md](./solved_solutions.md).
 
@@ -939,7 +939,6 @@ The questions which have been solved are not shown in this page, more informatio
 |2157|[Groups of Strings](https://leetcode.com/problems/groups-of-strings/)|Hard||
 |2158|[Amount of New Area Painted Each Day](https://leetcode.com/problems/amount-of-new-area-painted-each-day/)|Hard|🔒|
 |2159|[Order Two Columns Independently](https://leetcode.com/problems/order-two-columns-independently/)|Medium|🔒|
-|2161|[Partition Array According to Given Pivot](https://leetcode.com/problems/partition-array-according-to-given-pivot/)|Medium||
 |2162|[Minimum Cost to Set Cooking Time](https://leetcode.com/problems/minimum-cost-to-set-cooking-time/)|Medium||
 |2163|[Minimum Difference in Sums After Removal of Elements](https://leetcode.com/problems/minimum-difference-in-sums-after-removal-of-elements/)|Hard||
 |2165|[Smallest Value of the Rearranged Number](https://leetcode.com/problems/smallest-value-of-the-rearranged-number/)|Medium||

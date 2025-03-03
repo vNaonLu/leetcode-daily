@@ -1,6 +1,6 @@
 # Solved Solutions List
 
-This document contains **1596** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
+This document contains **1597** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
 
 Some questions which are still being resolved are not shown in this page, more information about unsolved questions can be found at [docs/unsolved_solutions.md](./unsolved_solutions.md).
 
@@ -1235,6 +1235,7 @@ Some questions which are still being resolved are not shown in this page, more i
 |2149|[Rearrange Array Elements by Sign](https://leetcode.com/problems/rearrange-array-elements-by-sign/)|[src/q_2101_2150/q2149.cc](../src/q_2101_2150/q2149.cc)|2022/04/01 18:22|
 |2154|[Keep Multiplying Found Values by Two](https://leetcode.com/problems/keep-multiplying-found-values-by-two/)|[src/q_2151_2200/q2154.cc](../src/q_2151_2200/q2154.cc)|2023/01/07 14:40|
 |2160|[Minimum Sum of Four Digit Number After Splitting Digits](https://leetcode.com/problems/minimum-sum-of-four-digit-number-after-splitting-digits/)|[src/q_2151_2200/q2160.cc](../src/q_2151_2200/q2160.cc)|2023/04/26 18:49|
+|2161|[Partition Array According to Given Pivot](https://leetcode.com/problems/partition-array-according-to-given-pivot/)|[src/q_2151_2200/q2161.cc](../src/q_2151_2200/q2161.cc)|2025/03/03 18:22|
 |2164|[Sort Even and Odd Indices Independently](https://leetcode.com/problems/sort-even-and-odd-indices-independently/)|[src/q_2151_2200/q2164.cc](../src/q_2151_2200/q2164.cc)|2023/01/23 14:30|
 |2169|[Count Operations to Obtain Zero](https://leetcode.com/problems/count-operations-to-obtain-zero/)|[src/q_2151_2200/q2169.cc](../src/q_2151_2200/q2169.cc)|2023/02/16 18:40|
 |2176|[Count Equal and Divisible Pairs in an Array](https://leetcode.com/problems/count-equal-and-divisible-pairs-in-an-array/)|[src/q_2151_2200/q2176.cc](../src/q_2151_2200/q2176.cc)|2023/03/16 15:21|
