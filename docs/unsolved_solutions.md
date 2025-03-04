@@ -1,6 +1,6 @@
 # Unsolved Solutions List
 
-There are **1793** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
+There are **1792** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
 
 The questions which have been solved are not shown in this page, more information about solved questions can be found at [docs/solved_solutions.md](./solved_solutions.md).
 
@@ -709,7 +709,6 @@ The questions which have been solved are not shown in this page, more informatio
 |1776|[Car Fleet II](https://leetcode.com/problems/car-fleet-ii/)|Hard||
 |1777|[Product's Price for Each Store](https://leetcode.com/problems/products-price-for-each-store/)|Easy|🔒|
 |1778|[Shortest Path in a Hidden Grid](https://leetcode.com/problems/shortest-path-in-a-hidden-grid/)|Medium|🔒|
-|1780|[Check if Number is a Sum of Powers of Three](https://leetcode.com/problems/check-if-number-is-a-sum-of-powers-of-three/)|Medium||
 |1781|[Sum of Beauty of All Substrings](https://leetcode.com/problems/sum-of-beauty-of-all-substrings/)|Medium||
 |1782|[Count Pairs Of Nodes](https://leetcode.com/problems/count-pairs-of-nodes/)|Hard||
 |1783|[Grand Slam Titles](https://leetcode.com/problems/grand-slam-titles/)|Medium|🔒|
