@@ -1,6 +1,6 @@
 # Solved Solutions List
 
-This document contains **1599** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
+This document contains **1600** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
 
 Some questions which are still being resolved are not shown in this page, more information about unsolved questions can be found at [docs/unsolved_solutions.md](./unsolved_solutions.md).
 
@@ -1388,6 +1388,7 @@ Some questions which are still being resolved are not shown in this page, more i
 |2515|[Shortest Distance to Target String in a Circular Array](https://leetcode.com/problems/shortest-distance-to-target-string-in-a-circular-array/)|[src/q_2501_2550/q2515.cc](../src/q_2501_2550/q2515.cc)|2023/11/01 20:39|
 |2516|[Take K of Each Character From Left and Right](https://leetcode.com/problems/take-k-of-each-character-from-left-and-right/)|[src/q_2501_2550/q2516.cc](../src/q_2501_2550/q2516.cc)|2024/11/20 18:56|
 |2520|[Count the Digits That Divide a Number](https://leetcode.com/problems/count-the-digits-that-divide-a-number/)|[src/q_2501_2550/q2520.cc](../src/q_2501_2550/q2520.cc)|2023/03/12 17:15|
+|2523|[Closest Prime Numbers in Range](https://leetcode.com/problems/closest-prime-numbers-in-range/)|[src/q_2501_2550/q2523.cc](../src/q_2501_2550/q2523.cc)|2025/03/07 19:00|
 |2525|[Categorize Box According to Criteria](https://leetcode.com/problems/categorize-box-according-to-criteria/)|[src/q_2501_2550/q2525.cc](../src/q_2501_2550/q2525.cc)|2023/11/06 21:24|
 |2529|[Maximum Count of Positive Integer and Negative Integer](https://leetcode.com/problems/maximum-count-of-positive-integer-and-negative-integer/)|[src/q_2501_2550/q2529.cc](../src/q_2501_2550/q2529.cc)|2023/03/14 19:00|
 |2530|[Maximal Score After Applying K Operations](https://leetcode.com/problems/maximal-score-after-applying-k-operations/)|[src/q_2501_2550/q2530.cc](../src/q_2501_2550/q2530.cc)|2024/10/14 19:29|

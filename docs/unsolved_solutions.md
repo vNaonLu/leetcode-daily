@@ -1,6 +1,6 @@
 # Unsolved Solutions List
 
-There are **1791** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
+There are **1790** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
 
 The questions which have been solved are not shown in this page, more information about solved questions can be found at [docs/solved_solutions.md](./solved_solutions.md).
 
@@ -1148,7 +1148,6 @@ The questions which have been solved are not shown in this page, more informatio
 |2519|[Count the Number of K-Big Indices](https://leetcode.com/problems/count-the-number-of-k-big-indices/)|Hard|🔒|
 |2521|[Distinct Prime Factors of Product of Array](https://leetcode.com/problems/distinct-prime-factors-of-product-of-array/)|Medium||
 |2522|[Partition String Into Substrings With Values at Most K](https://leetcode.com/problems/partition-string-into-substrings-with-values-at-most-k/)|Medium||
-|2523|[Closest Prime Numbers in Range](https://leetcode.com/problems/closest-prime-numbers-in-range/)|Medium||
 |2524|[Maximum Frequency Score of a Subarray](https://leetcode.com/problems/maximum-frequency-score-of-a-subarray/)|Hard|🔒|
 |2526|[Find Consecutive Integers from a Data Stream](https://leetcode.com/problems/find-consecutive-integers-from-a-data-stream/)|Medium||
 |2527|[Find Xor-Beauty of Array](https://leetcode.com/problems/find-xor-beauty-of-array/)|Medium||
