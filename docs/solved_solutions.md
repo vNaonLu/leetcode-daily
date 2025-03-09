@@ -1,6 +1,6 @@
 # Solved Solutions List
 
-This document contains **1600** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
+This document contains **1601** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
 
 Some questions which are still being resolved are not shown in this page, more information about unsolved questions can be found at [docs/unsolved_solutions.md](./unsolved_solutions.md).
 
@@ -1573,6 +1573,7 @@ Some questions which are still being resolved are not shown in this page, more i
 |3200|[Maximum Height of a Triangle](https://leetcode.com/problems/maximum-height-of-a-triangle/)|[src/q_3151_3200/q3200.cc](../src/q_3151_3200/q3200.cc)|2024/08/02 20:06|
 |3203|[Find Minimum Diameter After Merging Two Trees](https://leetcode.com/problems/find-minimum-diameter-after-merging-two-trees/)|[src/q_3201_3250/q3203.cc](../src/q_3201_3250/q3203.cc)|2024/12/24 22:00|
 |3206|[Alternating Groups I](https://leetcode.com/problems/alternating-groups-i/)|[src/q_3201_3250/q3206.cc](../src/q_3201_3250/q3206.cc)|2024/07/07 12:56|
+|3208|[Alternating Groups II](https://leetcode.com/problems/alternating-groups-ii/)|[src/q_3201_3250/q3208.cc](../src/q_3201_3250/q3208.cc)|2025/03/09 11:20|
 |3210|[Find the Encrypted String](https://leetcode.com/problems/find-the-encrypted-string/)|[src/q_3201_3250/q3210.cc](../src/q_3201_3250/q3210.cc)|2024/07/19 22:17|
 |3216|[Lexicographically Smallest String After a Swap](https://leetcode.com/problems/lexicographically-smallest-string-after-a-swap/)|[src/q_3201_3250/q3216.cc](../src/q_3201_3250/q3216.cc)|2024/07/22 20:24|
 |3217|[Delete Nodes From Linked List Present in Array](https://leetcode.com/problems/delete-nodes-from-linked-list-present-in-array/)|[src/q_3201_3250/q3217.cc](../src/q_3201_3250/q3217.cc)|2024/09/06 23:13|
