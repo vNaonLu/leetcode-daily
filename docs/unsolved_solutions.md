@@ -1,6 +1,6 @@
 # Unsolved Solutions List
 
-There are **1788** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
+There are **1787** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
 
 The questions which have been solved are not shown in this page, more information about solved questions can be found at [docs/solved_solutions.md](./solved_solutions.md).
 
@@ -496,7 +496,6 @@ The questions which have been solved are not shown in this page, more informatio
 |1354|[Construct Target Array With Multiple Sums](https://leetcode.com/problems/construct-target-array-with-multiple-sums/)|Hard||
 |1355|[Activity Participants](https://leetcode.com/problems/activity-participants/)|Medium|🔒|
 |1357|[Apply Discount Every n Orders](https://leetcode.com/problems/apply-discount-every-n-orders/)|Medium||
-|1358|[Number of Substrings Containing All Three Characters](https://leetcode.com/problems/number-of-substrings-containing-all-three-characters/)|Medium||
 |1362|[Closest Divisors](https://leetcode.com/problems/closest-divisors/)|Medium||
 |1363|[Largest Multiple of Three](https://leetcode.com/problems/largest-multiple-of-three/)|Hard||
 |1366|[Rank Teams by Votes](https://leetcode.com/problems/rank-teams-by-votes/)|Medium||
