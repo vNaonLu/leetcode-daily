@@ -1,6 +1,6 @@
 # Solved Solutions List
 
-This document contains **1603** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
+This document contains **1604** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
 
 Some questions which are still being resolved are not shown in this page, more information about unsolved questions can be found at [docs/unsolved_solutions.md](./unsolved_solutions.md).
 
@@ -1604,6 +1604,7 @@ Some questions which are still being resolved are not shown in this page, more i
 |3345|[Smallest Divisible Digit Product I](https://leetcode.com/problems/smallest-divisible-digit-product-i/)|[src/q_3301_3350/q3345.cc](../src/q_3301_3350/q3345.cc)|2024/11/15 20:53|
 |3349|[Adjacent Increasing Subarrays Detection I](https://leetcode.com/problems/adjacent-increasing-subarrays-detection-i/)|[src/q_3301_3350/q3349.cc](../src/q_3301_3350/q3349.cc)|2024/11/17 12:22|
 |3354|[Make Array Elements Equal to Zero](https://leetcode.com/problems/make-array-elements-equal-to-zero/)|[src/q_3351_3400/q3354.cc](../src/q_3351_3400/q3354.cc)|2024/11/18 20:43|
+|3356|[Zero Array Transformation II](https://leetcode.com/problems/zero-array-transformation-ii/)|[src/q_3351_3400/q3356.cc](../src/q_3351_3400/q3356.cc)|2025/03/13 18:00|
 |3360|[Stone Removal Game](https://leetcode.com/problems/stone-removal-game/)|[src/q_3351_3400/q3360.cc](../src/q_3351_3400/q3360.cc)|2024/12/01 10:18|
 |3364|[Minimum Positive Sum Subarray ](https://leetcode.com/problems/minimum-positive-sum-subarray/)|[src/q_3351_3400/q3364.cc](../src/q_3351_3400/q3364.cc)|2024/12/02 18:49|
 |3370|[Smallest Number With All Set Bits](https://leetcode.com/problems/smallest-number-with-all-set-bits/)|[src/q_3351_3400/q3370.cc](../src/q_3351_3400/q3370.cc)|2024/12/16 21:37|

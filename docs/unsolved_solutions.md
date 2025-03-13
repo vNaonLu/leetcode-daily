@@ -1,6 +1,6 @@
 # Unsolved Solutions List
 
-There are **1787** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
+There are **1786** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
 
 The questions which have been solved are not shown in this page, more information about solved questions can be found at [docs/solved_solutions.md](./solved_solutions.md).
 
@@ -1765,7 +1765,6 @@ The questions which have been solved are not shown in this page, more informatio
 |3352|[Count K-Reducible Numbers Less Than N](https://leetcode.com/problems/count-k-reducible-numbers-less-than-n/)|Hard||
 |3353|[Minimum Total Operations](https://leetcode.com/problems/minimum-total-operations/)|Easy|🔒|
 |3355|[Zero Array Transformation I](https://leetcode.com/problems/zero-array-transformation-i/)|Medium||
-|3356|[Zero Array Transformation II](https://leetcode.com/problems/zero-array-transformation-ii/)|Medium||
 |3357|[Minimize the Maximum Adjacent Element Difference](https://leetcode.com/problems/minimize-the-maximum-adjacent-element-difference/)|Hard||
 |3358|[Books with NULL Ratings](https://leetcode.com/problems/books-with-null-ratings/)|Easy|🔒|
 |3359|[Find Sorted Submatrices With Maximum Element at Most K](https://leetcode.com/problems/find-sorted-submatrices-with-maximum-element-at-most-k/)|Hard|🔒|
