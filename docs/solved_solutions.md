@@ -1,6 +1,6 @@
 # Solved Solutions List
 
-This document contains **1604** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
+This document contains **1605** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
 
 Some questions which are still being resolved are not shown in this page, more information about unsolved questions can be found at [docs/unsolved_solutions.md](./unsolved_solutions.md).
 
@@ -1260,6 +1260,7 @@ Some questions which are still being resolved are not shown in this page, more i
 |2221|[Find Triangular Sum of an Array](https://leetcode.com/problems/find-triangular-sum-of-an-array/)|[src/q_2201_2250/q2221.cc](../src/q_2201_2250/q2221.cc)|2022/08/12 21:19|
 |2224|[Minimum Number of Operations to Convert Time](https://leetcode.com/problems/minimum-number-of-operations-to-convert-time/)|[src/q_2201_2250/q2224.cc](../src/q_2201_2250/q2224.cc)|2023/10/16 22:02|
 |2225|[Find Players With Zero or One Losses](https://leetcode.com/problems/find-players-with-zero-or-one-losses/)|[src/q_2201_2250/q2225.cc](../src/q_2201_2250/q2225.cc)|2022/11/29 18:03|
+|2226|[Maximum Candies Allocated to K Children](https://leetcode.com/problems/maximum-candies-allocated-to-k-children/)|[src/q_2201_2250/q2226.cc](../src/q_2201_2250/q2226.cc)|2025/03/14 19:30|
 |2231|[Largest Number After Digit Swaps by Parity](https://leetcode.com/problems/largest-number-after-digit-swaps-by-parity/)|[src/q_2201_2250/q2231.cc](../src/q_2201_2250/q2231.cc)|2023/03/11 14:46|
 |2235|[Add Two Integers](https://leetcode.com/problems/add-two-integers/)|[src/q_2201_2250/q2235.cc](../src/q_2201_2250/q2235.cc)|2023/01/16 16:02|
 |2236|[Root Equals Sum of Children](https://leetcode.com/problems/root-equals-sum-of-children/)|[src/q_2201_2250/q2236.cc](../src/q_2201_2250/q2236.cc)|2022/10/13 13:19|
