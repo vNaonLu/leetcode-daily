@@ -1586,3 +1586,23 @@ timestamp,id,tc,sc,notes
 1739600081,2698,-,-,not calculated
 1739686573,1718,1,1,
 1739794747,1079,-,-,not calculated
+1739878076,2375,n,n,n = |pattern.size()|
+1739963161,1415,-,-,not calculated
+1740135280,1261,n,n,n = |root.size()|
+1740204372,1028,-,-,not calculated
+1740288341,889,n,n,n = |preorder.size()|
+1740399421,2467,-,-,not calculated
+1740462850,1524,-,-,not calculated
+1740568348,1749,n,1,n = |nums.size()|
+1740737768,1092,-,-,not calculated
+1740997353,2161,n,1,
+1741084720,1780,-,-,not calculated
+1741149002,2579,1,1,
+1741345203,2523,-,-,not calculated
+1741490449,3208,n + k,1,n = |colors.size()|
+1741603621,3306,n,1,n = |word.size()|
+1741693193,1358,n,1,n = |s.size()|
+1741860021,3356,n,n,n = |nums.size()|
+1741951849,2226,n,1,n = |candies.size()|
+1742067422,2560,n * log(n),1,n = |nums.size()|
+1742102985,2594,-,-,not calculated
