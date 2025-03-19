@@ -1,6 +1,6 @@
 # Solved Solutions List
 
-This document contains **1608** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
+This document contains **1609** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
 
 Some questions which are still being resolved are not shown in this page, more information about unsolved questions can be found at [docs/unsolved_solutions.md](./unsolved_solutions.md).
 
@@ -1574,6 +1574,7 @@ Some questions which are still being resolved are not shown in this page, more i
 |3178|[Find the Child Who Has the Ball After K Seconds](https://leetcode.com/problems/find-the-child-who-has-the-ball-after-k-seconds/)|[src/q_3151_3200/q3178.cc](../src/q_3151_3200/q3178.cc)|2024/06/11 20:22|
 |3184|[Count Pairs That Form a Complete Day I](https://leetcode.com/problems/count-pairs-that-form-a-complete-day-i/)|[src/q_3151_3200/q3184.cc](../src/q_3151_3200/q3184.cc)|2024/06/17 20:51|
 |3190|[Find Minimum Operations to Make All Elements Divisible by Three](https://leetcode.com/problems/find-minimum-operations-to-make-all-elements-divisible-by-three/)|[src/q_3151_3200/q3190.cc](../src/q_3151_3200/q3190.cc)|2024/06/26 21:59|
+|3191|[Minimum Operations to Make Binary Array Elements Equal to One I](https://leetcode.com/problems/minimum-operations-to-make-binary-array-elements-equal-to-one-i/)|[src/q_3151_3200/q3191.cc](../src/q_3151_3200/q3191.cc)|2025/03/19 19:20|
 |3194|[Minimum Average of Smallest and Largest Elements](https://leetcode.com/problems/minimum-average-of-smallest-and-largest-elements/)|[src/q_3151_3200/q3194.cc](../src/q_3151_3200/q3194.cc)|2024/06/30 12:14|
 |3200|[Maximum Height of a Triangle](https://leetcode.com/problems/maximum-height-of-a-triangle/)|[src/q_3151_3200/q3200.cc](../src/q_3151_3200/q3200.cc)|2024/08/02 20:06|
 |3203|[Find Minimum Diameter After Merging Two Trees](https://leetcode.com/problems/find-minimum-diameter-after-merging-two-trees/)|[src/q_3201_3250/q3203.cc](../src/q_3201_3250/q3203.cc)|2024/12/24 22:00|

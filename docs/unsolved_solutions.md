@@ -1,6 +1,6 @@
 # Unsolved Solutions List
 
-There are **1782** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
+There are **1781** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
 
 The questions which have been solved are not shown in this page, more information about solved questions can be found at [docs/solved_solutions.md](./solved_solutions.md).
 
@@ -1630,7 +1630,6 @@ The questions which have been solved are not shown in this page, more informatio
 |3187|[Peaks in Array](https://leetcode.com/problems/peaks-in-array/)|Hard||
 |3188|[Find Top Scoring Students II](https://leetcode.com/problems/find-top-scoring-students-ii/)|Hard|🔒|
 |3189|[Minimum Moves to Get a Peaceful Board](https://leetcode.com/problems/minimum-moves-to-get-a-peaceful-board/)|Medium|🔒|
-|3191|[Minimum Operations to Make Binary Array Elements Equal to One I](https://leetcode.com/problems/minimum-operations-to-make-binary-array-elements-equal-to-one-i/)|Medium||
 |3192|[Minimum Operations to Make Binary Array Elements Equal to One II](https://leetcode.com/problems/minimum-operations-to-make-binary-array-elements-equal-to-one-ii/)|Medium||
 |3193|[Count the Number of Inversions](https://leetcode.com/problems/count-the-number-of-inversions/)|Hard||
 |3195|[Find the Minimum Area to Cover All Ones I](https://leetcode.com/problems/find-the-minimum-area-to-cover-all-ones-i/)|Medium||
