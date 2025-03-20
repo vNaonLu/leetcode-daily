@@ -1,6 +1,6 @@
 # Solved Solutions List
 
-This document contains **1609** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
+This document contains **1610** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
 
 Some questions which are still being resolved are not shown in this page, more information about unsolved questions can be found at [docs/unsolved_solutions.md](./unsolved_solutions.md).
 
@@ -1554,6 +1554,7 @@ Some questions which are still being resolved are not shown in this page, more i
 |3097|[Shortest Subarray With OR at Least K II](https://leetcode.com/problems/shortest-subarray-with-or-at-least-k-ii/)|[src/q_3051_3100/q3097.cc](../src/q_3051_3100/q3097.cc)|2024/11/10 14:33|
 |3099|[Harshad Number](https://leetcode.com/problems/harshad-number/)|[src/q_3051_3100/q3099.cc](../src/q_3051_3100/q3099.cc)|2024/03/31 15:15|
 |3105|[Longest Strictly Increasing or Strictly Decreasing Subarray](https://leetcode.com/problems/longest-strictly-increasing-or-strictly-decreasing-subarray/)|[src/q_3101_3150/q3105.cc](../src/q_3101_3150/q3105.cc)|2024/04/08 22:46|
+|3108|[Minimum Cost Walk in Weighted Graph](https://leetcode.com/problems/minimum-cost-walk-in-weighted-graph/)|[src/q_3101_3150/q3108.cc](../src/q_3101_3150/q3108.cc)|2025/03/20 22:14|
 |3110|[Score of a String](https://leetcode.com/problems/score-of-a-string/)|[src/q_3101_3150/q3110.cc](../src/q_3101_3150/q3110.cc)|2024/04/14 10:35|
 |3114|[Latest Time You Can Obtain After Replacing Characters](https://leetcode.com/problems/latest-time-you-can-obtain-after-replacing-characters/)|[src/q_3101_3150/q3114.cc](../src/q_3101_3150/q3114.cc)|2024/04/15 21:28|
 |3120|[Count the Number of Special Characters I](https://leetcode.com/problems/count-the-number-of-special-characters-i/)|[src/q_3101_3150/q3120.cc](../src/q_3101_3150/q3120.cc)|2024/05/01 18:47|

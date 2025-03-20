@@ -1,6 +1,6 @@
 # Unsolved Solutions List
 
-There are **1781** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
+There are **1780** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
 
 The questions which have been solved are not shown in this page, more information about solved questions can be found at [docs/solved_solutions.md](./solved_solutions.md).
 
@@ -1567,7 +1567,6 @@ The questions which have been solved are not shown in this page, more informatio
 |3104|[Find Longest Self-Contained Substring](https://leetcode.com/problems/find-longest-self-contained-substring/)|Hard|🔒|
 |3106|[Lexicographically Smallest String After Operations With Constraint](https://leetcode.com/problems/lexicographically-smallest-string-after-operations-with-constraint/)|Medium||
 |3107|[Minimum Operations to Make Median of Array Equal to K](https://leetcode.com/problems/minimum-operations-to-make-median-of-array-equal-to-k/)|Medium||
-|3108|[Minimum Cost Walk in Weighted Graph](https://leetcode.com/problems/minimum-cost-walk-in-weighted-graph/)|Hard||
 |3109|[Find the Index of Permutation](https://leetcode.com/problems/find-the-index-of-permutation/)|Medium|🔒|
 |3111|[Minimum Rectangles to Cover Points](https://leetcode.com/problems/minimum-rectangles-to-cover-points/)|Medium||
 |3112|[Minimum Time to Visit Disappearing Nodes](https://leetcode.com/problems/minimum-time-to-visit-disappearing-nodes/)|Medium||
