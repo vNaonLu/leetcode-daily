@@ -1,6 +1,6 @@
 # Unsolved Solutions List
 
-There are **1881** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
+There are **1880** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
 
 The questions which have been solved are not shown in this page, more information about solved questions can be found at [docs/solved_solutions.md](./solved_solutions.md).
 
@@ -859,7 +859,6 @@ The questions which have been solved are not shown in this page, more informatio
 |2029|[Stone Game IX](https://leetcode.com/problems/stone-game-ix/)|Medium||
 |2030|[Smallest K-Length Subsequence With Occurrences of a Letter](https://leetcode.com/problems/smallest-k-length-subsequence-with-occurrences-of-a-letter/)|Hard||
 |2031|[Count Subarrays With More Ones Than Zeros](https://leetcode.com/problems/count-subarrays-with-more-ones-than-zeros/)|Medium|🔒|
-|2033|[Minimum Operations to Make a Uni-Value Grid](https://leetcode.com/problems/minimum-operations-to-make-a-uni-value-grid/)|Medium||
 |2034|[Stock Price Fluctuation ](https://leetcode.com/problems/stock-price-fluctuation/)|Medium||
 |2035|[Partition Array Into Two Arrays to Minimize Sum Difference](https://leetcode.com/problems/partition-array-into-two-arrays-to-minimize-sum-difference/)|Hard||
 |2036|[Maximum Alternating Subarray Sum](https://leetcode.com/problems/maximum-alternating-subarray-sum/)|Medium|🔒|

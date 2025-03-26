@@ -1,6 +1,6 @@
 # Solved Solutions List
 
-This document contains **1615** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
+This document contains **1616** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
 
 Some questions which are still being resolved are not shown in this page, more information about unsolved questions can be found at [docs/unsolved_solutions.md](./unsolved_solutions.md).
 
@@ -1187,6 +1187,7 @@ Some questions which are still being resolved are not shown in this page, more i
 |2027|[Minimum Moves to Convert String](https://leetcode.com/problems/minimum-moves-to-convert-string/)|[src/q_2001_2050/q2027.cc](../src/q_2001_2050/q2027.cc)|2023/09/22 20:54|
 |2028|[Find Missing Observations](https://leetcode.com/problems/find-missing-observations/)|[src/q_2001_2050/q2028.cc](../src/q_2001_2050/q2028.cc)|2024/09/08 18:13|
 |2032|[Two Out of Three](https://leetcode.com/problems/two-out-of-three/)|[src/q_2001_2050/q2032.cc](../src/q_2001_2050/q2032.cc)|2022/12/12 19:51|
+|2033|[Minimum Operations to Make a Uni-Value Grid](https://leetcode.com/problems/minimum-operations-to-make-a-uni-value-grid/)|[src/q_2001_2050/q2033.cc](../src/q_2001_2050/q2033.cc)|2025/03/26 20:53|
 |2037|[Minimum Number of Moves to Seat Everyone](https://leetcode.com/problems/minimum-number-of-moves-to-seat-everyone/)|[src/q_2001_2050/q2037.cc](../src/q_2001_2050/q2037.cc)|2023/09/23 11:19|
 |2038|[Remove Colored Pieces if Both Neighbors are the Same Color](https://leetcode.com/problems/remove-colored-pieces-if-both-neighbors-are-the-same-color/)|[src/q_2001_2050/q2038.cc](../src/q_2001_2050/q2038.cc)|2023/10/02 21:08|
 |2042|[Check if Numbers Are Ascending in a Sentence](https://leetcode.com/problems/check-if-numbers-are-ascending-in-a-sentence/)|[src/q_2001_2050/q2042.cc](../src/q_2001_2050/q2042.cc)|2022/01/12 17:59|
