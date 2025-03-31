@@ -3389,3 +3389,109 @@ id,backend_id,title,level,slug,paid
 3388,3686,Count Beautiful Splits in an Array,2,count-beautiful-splits-in-an-array,0
 3389,3638,Minimum Operations to Make Character Frequencies Equal,3,minimum-operations-to-make-character-frequencies-equal,0
 3390,3726,Longest Team Pass Streak,3,longest-team-pass-streak,1
+3391,3735,Design a 3D Binary Matrix with Efficient Layer Tracking,2,design-a-3d-binary-matrix-with-efficient-layer-tracking,1
+3392,3685,Count Subarrays of Length Three With a Condition,1,count-subarrays-of-length-three-with-a-condition,0
+3393,3659,Count Paths With the Given XOR Value,2,count-paths-with-the-given-xor-value,0
+3394,3657,Check if Grid can be Cut into Sections,2,check-if-grid-can-be-cut-into-sections,0
+3395,3700,Subsequences with a Unique Middle Mode I,3,subsequences-with-a-unique-middle-mode-i,0
+3396,3656,Minimum Number of Operations to Make Elements in Array Distinct,1,minimum-number-of-operations-to-make-elements-in-array-distinct,0
+3397,3620,Maximum Number of Distinct Elements After Operations,2,maximum-number-of-distinct-elements-after-operations,0
+3398,3690,Smallest Substring With Identical Characters I,3,smallest-substring-with-identical-characters-i,0
+3399,3706,Smallest Substring With Identical Characters II,3,smallest-substring-with-identical-characters-ii,0
+3400,3740,Maximum Number of Matching Indices After Right Shifts,2,maximum-number-of-matching-indices-after-right-shifts,1
+3401,3746,Find Circular Gift Exchange Chains,3,find-circular-gift-exchange-chains,1
+3402,3691,Minimum Operations to Make Columns Strictly Increasing,1,minimum-operations-to-make-columns-strictly-increasing,0
+3403,3683,Find the Lexicographically Largest String From the Box I,2,find-the-lexicographically-largest-string-from-the-box-i,0
+3404,3699,Count Special Subsequences,2,count-special-subsequences,0
+3405,3682,Count the Number of Arrays with K Matching Adjacent Elements,3,count-the-number-of-arrays-with-k-matching-adjacent-elements,0
+3406,3749,Find the Lexicographically Largest String From the Box II,3,find-the-lexicographically-largest-string-from-the-box-ii,1
+3407,3684,Substring Matching Pattern,1,substring-matching-pattern,0
+3408,3678,Design Task Manager,2,design-task-manager,0
+3409,3716,Longest Subsequence With Decreasing Adjacent Difference,2,longest-subsequence-with-decreasing-adjacent-difference,0
+3410,3688,Maximize Subarray Sum After Removing All Occurrences of One Element,3,maximize-subarray-sum-after-removing-all-occurrences-of-one-element,0
+3411,3702,Maximum Subarray With Equal Products,1,maximum-subarray-with-equal-products,0
+3412,3634,Find Mirror Score of a String,2,find-mirror-score-of-a-string,0
+3413,3715,Maximum Coins From K Consecutive Bags,2,maximum-coins-from-k-consecutive-bags,0
+3414,3562,Maximum Score of Non-overlapping Intervals,3,maximum-score-of-non-overlapping-intervals,0
+3415,3757,Find Products with Three Consecutive Digits ,1,find-products-with-three-consecutive-digits,1
+3416,3756,Subsequences with a Unique Middle Mode II,3,subsequences-with-a-unique-middle-mode-ii,1
+3417,3708,Zigzag Grid Traversal With Skip,1,zigzag-grid-traversal-with-skip,0
+3418,3677,Maximum Amount of Money Robot Can Earn,2,maximum-amount-of-money-robot-can-earn,0
+3419,3720,Minimize the Maximum Edge Weight of Graph,2,minimize-the-maximum-edge-weight-of-graph,0
+3420,3674,Count Non-Decreasing Subarrays After K Operations,3,count-non-decreasing-subarrays-after-k-operations,0
+3421,3767,Find Students Who Improved,2,find-students-who-improved,0
+3422,3698,Minimum Operations to Make Subarray Elements Equal,2,minimum-operations-to-make-subarray-elements-equal,1
+3423,3747,Maximum Difference Between Adjacent Elements in a Circular Array,1,maximum-difference-between-adjacent-elements-in-a-circular-array,0
+3424,3712,Minimum Cost to Make Arrays Identical,2,minimum-cost-to-make-arrays-identical,0
+3425,3687,Longest Special Path,3,longest-special-path,0
+3426,3739,Manhattan Distances of All Arrangements of Pieces,3,manhattan-distances-of-all-arrangements-of-pieces,0
+3427,3731,Sum of Variable Length Subarrays,1,sum-of-variable-length-subarrays,0
+3428,3714,Maximum and Minimum Sums of at Most Size K Subsequences,2,maximum-and-minimum-sums-of-at-most-size-k-subsequences,0
+3429,3737,Paint House IV,2,paint-house-iv,0
+3430,3725,Maximum and Minimum Sums of at Most Size K Subarrays,3,maximum-and-minimum-sums-of-at-most-size-k-subarrays,0
+3431,3758,Minimum Unlocked Indices to Sort Nums,2,minimum-unlocked-indices-to-sort-nums,1
+3432,3704,Count Partitions with Even Sum Difference,1,count-partitions-with-even-sum-difference,0
+3433,3721,Count Mentions Per User,2,count-mentions-per-user,0
+3434,3751,Maximum Frequency After Subarray Operation,2,maximum-frequency-after-subarray-operation,0
+3435,3713,Frequencies of Shortest Supersequences,3,frequencies-of-shortest-supersequences,0
+3436,3782,Find Valid Emails,1,find-valid-emails,0
+3437,3780,Permutations III,2,permutations-iii,1
+3438,3736,Find Valid Pair of Adjacent Digits in String,1,find-valid-pair-of-adjacent-digits-in-string,0
+3439,3743,Reschedule Meetings for Maximum Free Time I,2,reschedule-meetings-for-maximum-free-time-i,0
+3440,3741,Reschedule Meetings for Maximum Free Time II,2,reschedule-meetings-for-maximum-free-time-ii,0
+3441,3701,Minimum Cost Good Caption,3,minimum-cost-good-caption,0
+3442,3753,Maximum Difference Between Even and Odd Frequency I,1,maximum-difference-between-even-and-odd-frequency-i,0
+3443,3754,Maximum Manhattan Distance After K Changes,2,maximum-manhattan-distance-after-k-changes,0
+3444,3697,Minimum Increments for Target Multiples in an Array,3,minimum-increments-for-target-multiples-in-an-array,0
+3445,3761,Maximum Difference Between Even and Odd Frequency II,3,maximum-difference-between-even-and-odd-frequency-ii,0
+3446,3748,Sort Matrix by Diagonals,2,sort-matrix-by-diagonals,0
+3447,3760,Assign Elements to Groups with Constraints,2,assign-elements-to-groups-with-constraints,0
+3448,3696,Count Substrings Divisible By Last Digit,3,count-substrings-divisible-by-last-digit,0
+3449,3762,Maximize the Minimum Game Score,3,maximize-the-minimum-game-score,0
+3450,3787,Maximum Students on a Single Bench,1,maximum-students-on-a-single-bench,1
+3451,3792,Find Invalid IP Addresses,3,find-invalid-ip-addresses,0
+3452,3723,Sum of Good Numbers,1,sum-of-good-numbers,0
+3453,3763,Separate Squares I,2,separate-squares-i,0
+3454,3775,Separate Squares II,3,separate-squares-ii,0
+3455,3692,Shortest Matching Substring,3,shortest-matching-substring,0
+3456,3709,Find Special Substring of Length K,1,find-special-substring-of-length-k,0
+3457,3779,Eat Pizzas!,2,eat-pizzas,0
+3458,3771,Select K Disjoint Special Substrings,2,select-k-disjoint-special-substrings,0
+3459,3733,Length of Longest V-Shaped Diagonal Segment,3,length-of-longest-v-shaped-diagonal-segment,0
+3460,3796,Longest Common Prefix After at Most One Removal,2,longest-common-prefix-after-at-most-one-removal,1
+3461,3768,Check If Digits Are Equal in String After Operations I,1,check-if-digits-are-equal-in-string-after-operations-i,0
+3462,3764,Maximum Sum With at Most K Elements,2,maximum-sum-with-at-most-k-elements,0
+3463,3774,Check If Digits Are Equal in String After Operations II,3,check-if-digits-are-equal-in-string-after-operations-ii,0
+3464,3781,Maximize the Distance Between Points on a Square,3,maximize-the-distance-between-points-on-a-square,0
+3465,3803,Find Products with Valid Serial Numbers,1,find-products-with-valid-serial-numbers,0
+3466,3806,Maximum Coin Collection ,2,maximum-coin-collection,1
+3467,3778,Transform Array by Parity,1,transform-array-by-parity,0
+3468,3785,Find the Number of Copy Arrays,2,find-the-number-of-copy-arrays,0
+3469,3776,Find Minimum Cost to Remove Array Elements,2,find-minimum-cost-to-remove-array-elements,0
+3470,3783,Permutations IV,3,permutations-iv,0
+3471,3705,Find the Largest Almost Missing Integer,1,find-the-largest-almost-missing-integer,0
+3472,3786,Longest Palindromic Subsequence After at Most K Operations,2,longest-palindromic-subsequence-after-at-most-k-operations,0
+3473,3722,Sum of K Subarrays With Length at Least M,2,sum-of-k-subarrays-with-length-at-least-m,0
+3474,3770,Lexicographically Smallest Generated String,3,lexicographically-smallest-generated-string,0
+3475,3816,DNA Pattern Recognition ,2,dna-pattern-recognition,0
+3476,3818,Maximize Profit from Task Assignment,2,maximize-profit-from-task-assignment,1
+3477,3790,Fruits Into Baskets II,1,fruits-into-baskets-ii,0
+3478,3759,Choose K Elements With Maximum Sum,2,choose-k-elements-with-maximum-sum,0
+3479,3791,Fruits Into Baskets III,2,fruits-into-baskets-iii,0
+3480,3789,Maximize Subarrays After Removing One Conflicting Pair,3,maximize-subarrays-after-removing-one-conflicting-pair,0
+3481,3825,Apply Substitutions,2,apply-substitutions,1
+3482,3828,Analyze Organization Hierarchy,3,analyze-organization-hierarchy,0
+3483,3799,Unique 3-Digit Even Numbers,1,unique-3-digit-even-numbers,0
+3484,3797,Design Spreadsheet,2,design-spreadsheet,0
+3485,3784,Longest Common Prefix of K Strings After Removal,3,longest-common-prefix-of-k-strings-after-removal,0
+3486,3798,Longest Special Path II,3,longest-special-path-ii,0
+3487,3788,Maximum Unique Subarray Sum After Deletion,1,maximum-unique-subarray-sum-after-deletion,0
+3488,3750,Closest Equal Element Queries,2,closest-equal-element-queries,0
+3489,3795,Zero Array Transformation IV,2,zero-array-transformation-iv,0
+3490,3801,Count Beautiful Numbers,3,count-beautiful-numbers,0
+3491,3836,Phone Number Prefix,1,phone-number-prefix,1
+3492,3817,Maximum Containers on a Ship,1,maximum-containers-on-a-ship,0
+3493,3809,Properties Graph,2,properties-graph,0
+3494,3794,Find the Minimum Amount of Time to Brew Potions,2,find-the-minimum-amount-of-time-to-brew-potions,0
+3495,3744,Minimum Operations to Make Array Elements Zero,3,minimum-operations-to-make-array-elements-zero,0
+3496,3839,Maximize Score After Pair Deletions,2,maximize-score-after-pair-deletions,1
