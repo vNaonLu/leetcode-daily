@@ -1,6 +1,6 @@
 # Solved Solutions List
 
-This document contains **1619** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
+This document contains **1620** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
 
 Some questions which are still being resolved are not shown in this page, more information about unsolved questions can be found at [docs/unsolved_solutions.md](./unsolved_solutions.md).
 
@@ -1501,6 +1501,7 @@ Some questions which are still being resolved are not shown in this page, more i
 |2870|[Minimum Number of Operations to Make Array Empty](https://leetcode.com/problems/minimum-number-of-operations-to-make-array-empty/)|[src/q_2851_2900/q2870.cc](../src/q_2851_2900/q2870.cc)|2024/01/04 23:34|
 |2872|[Maximum Number of K-Divisible Components](https://leetcode.com/problems/maximum-number-of-k-divisible-components/)|[src/q_2851_2900/q2872.cc](../src/q_2851_2900/q2872.cc)|2024/12/21 16:09|
 |2873|[Maximum Value of an Ordered Triplet I](https://leetcode.com/problems/maximum-value-of-an-ordered-triplet-i/)|[src/q_2851_2900/q2873.cc](../src/q_2851_2900/q2873.cc)|2024/01/24 19:43|
+|2874|[Maximum Value of an Ordered Triplet II](https://leetcode.com/problems/maximum-value-of-an-ordered-triplet-ii/)|[src/q_2851_2900/q2874.cc](../src/q_2851_2900/q2874.cc)|2025/04/03 14:38|
 |2894|[Divisible and Non-divisible Sums Difference](https://leetcode.com/problems/divisible-and-non-divisible-sums-difference/)|[src/q_2851_2900/q2894.cc](../src/q_2851_2900/q2894.cc)|2024/01/25 19:09|
 |2899|[Last Visited Integers](https://leetcode.com/problems/last-visited-integers/)|[src/q_2851_2900/q2899.cc](../src/q_2851_2900/q2899.cc)|2024/01/27 16:20|
 |2900|[Longest Unequal Adjacent Groups Subsequence I](https://leetcode.com/problems/longest-unequal-adjacent-groups-subsequence-i/)|[src/q_2851_2900/q2900.cc](../src/q_2851_2900/q2900.cc)|2024/02/17 14:29|

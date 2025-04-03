@@ -1,6 +1,6 @@
 # Unsolved Solutions List
 
-There are **1877** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
+There are **1876** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
 
 The questions which have been solved are not shown in this page, more information about solved questions can be found at [docs/solved_solutions.md](./solved_solutions.md).
 
@@ -1386,7 +1386,6 @@ The questions which have been solved are not shown in this page, more informatio
 |2867|[Count Valid Paths in a Tree](https://leetcode.com/problems/count-valid-paths-in-a-tree/)|Hard||
 |2868|[The Wording Game](https://leetcode.com/problems/the-wording-game/)|Hard|🔒|
 |2871|[Split Array Into Maximum Number of Subarrays](https://leetcode.com/problems/split-array-into-maximum-number-of-subarrays/)|Medium||
-|2874|[Maximum Value of an Ordered Triplet II](https://leetcode.com/problems/maximum-value-of-an-ordered-triplet-ii/)|Medium||
 |2875|[Minimum Size Subarray in Infinite Array](https://leetcode.com/problems/minimum-size-subarray-in-infinite-array/)|Medium||
 |2876|[Count Visited Nodes in a Directed Graph](https://leetcode.com/problems/count-visited-nodes-in-a-directed-graph/)|Hard||
 |2877|[Create a DataFrame from List](https://leetcode.com/problems/create-a-dataframe-from-list/)|Easy||
