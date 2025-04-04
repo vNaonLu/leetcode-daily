@@ -1,6 +1,6 @@
 # Unsolved Solutions List
 
-There are **1876** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
+There are **1875** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
 
 The questions which have been solved are not shown in this page, more information about solved questions can be found at [docs/solved_solutions.md](./solved_solutions.md).
 
@@ -361,7 +361,6 @@ The questions which have been solved are not shown in this page, more informatio
 |1119|[Remove Vowels from a String](https://leetcode.com/problems/remove-vowels-from-a-string/)|Easy|🔒|
 |1120|[Maximum Average Subtree](https://leetcode.com/problems/maximum-average-subtree/)|Medium|🔒|
 |1121|[Divide Array Into Increasing Sequences](https://leetcode.com/problems/divide-array-into-increasing-sequences/)|Hard|🔒|
-|1123|[Lowest Common Ancestor of Deepest Leaves](https://leetcode.com/problems/lowest-common-ancestor-of-deepest-leaves/)|Medium||
 |1126|[Active Businesses](https://leetcode.com/problems/active-businesses/)|Medium|🔒|
 |1127|[User Purchase Platform](https://leetcode.com/problems/user-purchase-platform/)|Hard|🔒|
 |1130|[Minimum Cost Tree From Leaf Values](https://leetcode.com/problems/minimum-cost-tree-from-leaf-values/)|Medium||
