@@ -1,6 +1,6 @@
 # Solved Solutions List
 
-This document contains **1621** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
+This document contains **1622** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
 
 Some questions which are still being resolved are not shown in this page, more information about unsolved questions can be found at [docs/unsolved_solutions.md](./unsolved_solutions.md).
 
@@ -1628,3 +1628,4 @@ Some questions which are still being resolved are not shown in this page, more i
 |3379|[Transformed Array](https://leetcode.com/problems/transformed-array/)|[src/q_3351_3400/q3379.cc](../src/q_3351_3400/q3379.cc)|2024/12/25 19:16|
 |3386|[Button with Longest Push Time](https://leetcode.com/problems/button-with-longest-push-time/)|[src/q_3351_3400/q3386.cc](../src/q_3351_3400/q3386.cc)|2024/12/26 15:19|
 |3394|[Check if Grid can be Cut into Sections](https://leetcode.com/problems/check-if-grid-can-be-cut-into-sections/)|[src/q_3351_3400/q3394.cc](../src/q_3351_3400/q3394.cc)|2025/03/25 21:15|
+|3396|[Minimum Number of Operations to Make Elements in Array Distinct](https://leetcode.com/problems/minimum-number-of-operations-to-make-elements-in-array-distinct/)|[src/q_3351_3400/q3396.cc](../src/q_3351_3400/q3396.cc)|2025/04/08 18:46|
