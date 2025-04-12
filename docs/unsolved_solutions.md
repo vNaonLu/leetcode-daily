@@ -1,6 +1,6 @@
 # Unsolved Solutions List
 
-There are **1873** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
+There are **1872** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
 
 The questions which have been solved are not shown in this page, more information about solved questions can be found at [docs/solved_solutions.md](./solved_solutions.md).
 
@@ -1678,7 +1678,6 @@ The questions which have been solved are not shown in this page, more informatio
 |3268|[Find Overlapping Shifts II](https://leetcode.com/problems/find-overlapping-shifts-ii/)|Hard|🔒|
 |3269|[Constructing Two Increasing Arrays](https://leetcode.com/problems/constructing-two-increasing-arrays/)|Hard|🔒|
 |3271|[Hash Divided String](https://leetcode.com/problems/hash-divided-string/)|Medium||
-|3272|[Find the Count of Good Integers](https://leetcode.com/problems/find-the-count-of-good-integers/)|Hard||
 |3273|[Minimum Amount of Damage Dealt to Bob](https://leetcode.com/problems/minimum-amount-of-damage-dealt-to-bob/)|Hard||
 |3275|[K-th Nearest Obstacle Queries](https://leetcode.com/problems/k-th-nearest-obstacle-queries/)|Medium||
 |3276|[Select Cells in Grid With Maximum Score](https://leetcode.com/problems/select-cells-in-grid-with-maximum-score/)|Hard||

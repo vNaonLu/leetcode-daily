@@ -1,6 +1,6 @@
 # Solved Solutions List
 
-This document contains **1623** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
+This document contains **1624** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
 
 Some questions which are still being resolved are not shown in this page, more information about unsolved questions can be found at [docs/unsolved_solutions.md](./unsolved_solutions.md).
 
@@ -1607,6 +1607,7 @@ Some questions which are still being resolved are not shown in this page, more i
 |3258|[Count Substrings That Satisfy K-Constraint I](https://leetcode.com/problems/count-substrings-that-satisfy-k-constraint-i/)|[src/q_3251_3300/q3258.cc](../src/q_3251_3300/q3258.cc)|2024/08/18 15:09|
 |3264|[Final Array State After K Multiplication Operations I](https://leetcode.com/problems/final-array-state-after-k-multiplication-operations-i/)|[src/q_3251_3300/q3264.cc](../src/q_3251_3300/q3264.cc)|2024/08/25 15:27|
 |3270|[Find the Key of the Numbers](https://leetcode.com/problems/find-the-key-of-the-numbers/)|[src/q_3251_3300/q3270.cc](../src/q_3251_3300/q3270.cc)|2024/09/11 21:08|
+|3272|[Find the Count of Good Integers](https://leetcode.com/problems/find-the-count-of-good-integers/)|[src/q_3251_3300/q3272.cc](../src/q_3251_3300/q3272.cc)|2025/04/12 13:25|
 |3274|[Check if Two Chessboard Squares Have the Same Color](https://leetcode.com/problems/check-if-two-chessboard-squares-have-the-same-color/)|[src/q_3251_3300/q3274.cc](../src/q_3251_3300/q3274.cc)|2024/09/07 16:13|
 |3280|[Convert Date to Binary](https://leetcode.com/problems/convert-date-to-binary/)|[src/q_3251_3300/q3280.cc](../src/q_3251_3300/q3280.cc)|2024/09/08 18:15|
 |3285|[Find Indices of Stable Mountains](https://leetcode.com/problems/find-indices-of-stable-mountains/)|[src/q_3251_3300/q3285.cc](../src/q_3251_3300/q3285.cc)|2024/09/16 21:38|
