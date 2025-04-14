@@ -1618,3 +1618,9 @@ timestamp,id,tc,sc,notes
 1743075532,2780,-,-,not calculated
 1743179806,2503,-,-,not calculated
 1743226645,2818,-,-,not calculated
+1743662337,2874,n,1,n = |nums.size()|
+1743739864,1123,n,n,n = |root.size()|
+1744109208,3396,n,1,n = |nums.size()|
+1744283122,2999,-,-,not calculated
+1744435534,3272,-,-,not calculated
+1744517732,1922,log(n),1,

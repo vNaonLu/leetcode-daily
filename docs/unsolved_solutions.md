@@ -1,6 +1,6 @@
 # Unsolved Solutions List
 
-There are **1877** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
+There are **1871** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
 
 The questions which have been solved are not shown in this page, more information about solved questions can be found at [docs/solved_solutions.md](./solved_solutions.md).
 
@@ -361,7 +361,6 @@ The questions which have been solved are not shown in this page, more informatio
 |1119|[Remove Vowels from a String](https://leetcode.com/problems/remove-vowels-from-a-string/)|Easy|🔒|
 |1120|[Maximum Average Subtree](https://leetcode.com/problems/maximum-average-subtree/)|Medium|🔒|
 |1121|[Divide Array Into Increasing Sequences](https://leetcode.com/problems/divide-array-into-increasing-sequences/)|Hard|🔒|
-|1123|[Lowest Common Ancestor of Deepest Leaves](https://leetcode.com/problems/lowest-common-ancestor-of-deepest-leaves/)|Medium||
 |1126|[Active Businesses](https://leetcode.com/problems/active-businesses/)|Medium|🔒|
 |1127|[User Purchase Platform](https://leetcode.com/problems/user-purchase-platform/)|Hard|🔒|
 |1130|[Minimum Cost Tree From Leaf Values](https://leetcode.com/problems/minimum-cost-tree-from-leaf-values/)|Medium||
@@ -790,7 +789,6 @@ The questions which have been solved are not shown in this page, more informatio
 |1917|[Leetcodify Friends Recommendations](https://leetcode.com/problems/leetcodify-friends-recommendations/)|Hard|🔒|
 |1918|[Kth Smallest Subarray Sum](https://leetcode.com/problems/kth-smallest-subarray-sum/)|Medium|🔒|
 |1919|[Leetcodify Similar Friends](https://leetcode.com/problems/leetcodify-similar-friends/)|Hard|🔒|
-|1922|[Count Good Numbers](https://leetcode.com/problems/count-good-numbers/)|Medium||
 |1923|[Longest Common Subpath](https://leetcode.com/problems/longest-common-subpath/)|Hard||
 |1924|[Erect the Fence II](https://leetcode.com/problems/erect-the-fence-ii/)|Hard|🔒|
 |1927|[Sum Game](https://leetcode.com/problems/sum-game/)|Medium||
@@ -1386,7 +1384,6 @@ The questions which have been solved are not shown in this page, more informatio
 |2867|[Count Valid Paths in a Tree](https://leetcode.com/problems/count-valid-paths-in-a-tree/)|Hard||
 |2868|[The Wording Game](https://leetcode.com/problems/the-wording-game/)|Hard|🔒|
 |2871|[Split Array Into Maximum Number of Subarrays](https://leetcode.com/problems/split-array-into-maximum-number-of-subarrays/)|Medium||
-|2874|[Maximum Value of an Ordered Triplet II](https://leetcode.com/problems/maximum-value-of-an-ordered-triplet-ii/)|Medium||
 |2875|[Minimum Size Subarray in Infinite Array](https://leetcode.com/problems/minimum-size-subarray-in-infinite-array/)|Medium||
 |2876|[Count Visited Nodes in a Directed Graph](https://leetcode.com/problems/count-visited-nodes-in-a-directed-graph/)|Hard||
 |2877|[Create a DataFrame from List](https://leetcode.com/problems/create-a-dataframe-from-list/)|Easy||
@@ -1478,7 +1475,6 @@ The questions which have been solved are not shown in this page, more informatio
 |2994|[Friday Purchases II ](https://leetcode.com/problems/friday-purchases-ii/)|Hard|🔒|
 |2995|[Viewers Turned Streamers](https://leetcode.com/problems/viewers-turned-streamers/)|Hard|🔒|
 |2998|[Minimum Number of Operations to Make X and Y Equal](https://leetcode.com/problems/minimum-number-of-operations-to-make-x-and-y-equal/)|Medium||
-|2999|[Count the Number of Powerful Integers](https://leetcode.com/problems/count-the-number-of-powerful-integers/)|Hard||
 |3001|[Minimum Moves to Capture The Queen](https://leetcode.com/problems/minimum-moves-to-capture-the-queen/)|Medium||
 |3002|[Maximum Size of a Set After Removals](https://leetcode.com/problems/maximum-size-of-a-set-after-removals/)|Medium||
 |3003|[Maximize the Number of Partitions After Operations](https://leetcode.com/problems/maximize-the-number-of-partitions-after-operations/)|Hard||
@@ -1681,7 +1677,6 @@ The questions which have been solved are not shown in this page, more informatio
 |3268|[Find Overlapping Shifts II](https://leetcode.com/problems/find-overlapping-shifts-ii/)|Hard|🔒|
 |3269|[Constructing Two Increasing Arrays](https://leetcode.com/problems/constructing-two-increasing-arrays/)|Hard|🔒|
 |3271|[Hash Divided String](https://leetcode.com/problems/hash-divided-string/)|Medium||
-|3272|[Find the Count of Good Integers](https://leetcode.com/problems/find-the-count-of-good-integers/)|Hard||
 |3273|[Minimum Amount of Damage Dealt to Bob](https://leetcode.com/problems/minimum-amount-of-damage-dealt-to-bob/)|Hard||
 |3275|[K-th Nearest Obstacle Queries](https://leetcode.com/problems/k-th-nearest-obstacle-queries/)|Medium||
 |3276|[Select Cells in Grid With Maximum Score](https://leetcode.com/problems/select-cells-in-grid-with-maximum-score/)|Hard||
@@ -1783,7 +1778,6 @@ The questions which have been solved are not shown in this page, more informatio
 |3392|[Count Subarrays of Length Three With a Condition](https://leetcode.com/problems/count-subarrays-of-length-three-with-a-condition/)|Easy||
 |3393|[Count Paths With the Given XOR Value](https://leetcode.com/problems/count-paths-with-the-given-xor-value/)|Medium||
 |3395|[Subsequences with a Unique Middle Mode I](https://leetcode.com/problems/subsequences-with-a-unique-middle-mode-i/)|Hard||
-|3396|[Minimum Number of Operations to Make Elements in Array Distinct](https://leetcode.com/problems/minimum-number-of-operations-to-make-elements-in-array-distinct/)|Easy||
 |3397|[Maximum Number of Distinct Elements After Operations](https://leetcode.com/problems/maximum-number-of-distinct-elements-after-operations/)|Medium||
 |3398|[Smallest Substring With Identical Characters I](https://leetcode.com/problems/smallest-substring-with-identical-characters-i/)|Hard||
 |3399|[Smallest Substring With Identical Characters II](https://leetcode.com/problems/smallest-substring-with-identical-characters-ii/)|Hard||
