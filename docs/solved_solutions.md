@@ -1,6 +1,6 @@
 # Solved Solutions List
 
-This document contains **1625** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
+This document contains **1626** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
 
 Some questions which are still being resolved are not shown in this page, more information about unsolved questions can be found at [docs/unsolved_solutions.md](./unsolved_solutions.md).
 
@@ -1246,6 +1246,7 @@ Some questions which are still being resolved are not shown in this page, more i
 |2164|[Sort Even and Odd Indices Independently](https://leetcode.com/problems/sort-even-and-odd-indices-independently/)|[src/q_2151_2200/q2164.cc](../src/q_2151_2200/q2164.cc)|2023/01/23 14:30|
 |2169|[Count Operations to Obtain Zero](https://leetcode.com/problems/count-operations-to-obtain-zero/)|[src/q_2151_2200/q2169.cc](../src/q_2151_2200/q2169.cc)|2023/02/16 18:40|
 |2176|[Count Equal and Divisible Pairs in an Array](https://leetcode.com/problems/count-equal-and-divisible-pairs-in-an-array/)|[src/q_2151_2200/q2176.cc](../src/q_2151_2200/q2176.cc)|2023/03/16 15:21|
+|2179|[Count Good Triplets in an Array](https://leetcode.com/problems/count-good-triplets-in-an-array/)|[src/q_2151_2200/q2179.cc](../src/q_2151_2200/q2179.cc)|2025/04/15 19:05|
 |2180|[Count Integers With Even Digit Sum](https://leetcode.com/problems/count-integers-with-even-digit-sum/)|[src/q_2151_2200/q2180.cc](../src/q_2151_2200/q2180.cc)|2022/03/16 18:36|
 |2181|[Merge Nodes in Between Zeros](https://leetcode.com/problems/merge-nodes-in-between-zeros/)|[src/q_2151_2200/q2181.cc](../src/q_2151_2200/q2181.cc)|2023/03/11 01:36|
 |2182|[Construct String With Repeat Limit](https://leetcode.com/problems/construct-string-with-repeat-limit/)|[src/q_2151_2200/q2182.cc](../src/q_2151_2200/q2182.cc)|2024/12/17 21:26|

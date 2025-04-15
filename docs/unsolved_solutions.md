@@ -1,6 +1,6 @@
 # Unsolved Solutions List
 
-There are **1871** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
+There are **1870** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
 
 The questions which have been solved are not shown in this page, more information about solved questions can be found at [docs/solved_solutions.md](./solved_solutions.md).
 
@@ -946,7 +946,6 @@ The questions which have been solved are not shown in this page, more informatio
 |2175|[The Change in Global Rankings](https://leetcode.com/problems/the-change-in-global-rankings/)|Medium|🔒|
 |2177|[Find Three Consecutive Integers That Sum to a Given Number](https://leetcode.com/problems/find-three-consecutive-integers-that-sum-to-a-given-number/)|Medium||
 |2178|[Maximum Split of Positive Even Integers](https://leetcode.com/problems/maximum-split-of-positive-even-integers/)|Medium||
-|2179|[Count Good Triplets in an Array](https://leetcode.com/problems/count-good-triplets-in-an-array/)|Hard||
 |2183|[Count Array Pairs Divisible by K](https://leetcode.com/problems/count-array-pairs-divisible-by-k/)|Hard||
 |2184|[Number of Ways to Build Sturdy Brick Wall](https://leetcode.com/problems/number-of-ways-to-build-sturdy-brick-wall/)|Medium|🔒|
 |2186|[Minimum Number of Steps to Make Two Strings Anagram II](https://leetcode.com/problems/minimum-number-of-steps-to-make-two-strings-anagram-ii/)|Medium||
