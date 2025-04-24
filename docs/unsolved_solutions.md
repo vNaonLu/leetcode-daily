@@ -1,6 +1,6 @@
 # Unsolved Solutions List
 
-There are **1867** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
+There are **1866** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
 
 The questions which have been solved are not shown in this page, more information about solved questions can be found at [docs/solved_solutions.md](./solved_solutions.md).
 
@@ -1327,7 +1327,6 @@ The questions which have been solved are not shown in this page, more informatio
 |2795|[Parallel Execution of Promises for Individual Results Retrieval](https://leetcode.com/problems/parallel-execution-of-promises-for-individual-results-retrieval/)|Medium|🔒|
 |2796|[Repeat String](https://leetcode.com/problems/repeat-string/)|Easy|🔒|
 |2797|[Partial Function with Placeholders](https://leetcode.com/problems/partial-function-with-placeholders/)|Easy|🔒|
-|2799|[Count Complete Subarrays in an Array](https://leetcode.com/problems/count-complete-subarrays-in-an-array/)|Medium||
 |2800|[Shortest String That Contains Three Strings](https://leetcode.com/problems/shortest-string-that-contains-three-strings/)|Medium||
 |2801|[Count Stepping Numbers in Range](https://leetcode.com/problems/count-stepping-numbers-in-range/)|Hard||
 |2802|[Find The K-th Lucky Number](https://leetcode.com/problems/find-the-k-th-lucky-number/)|Medium|🔒|
