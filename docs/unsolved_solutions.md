@@ -1,6 +1,6 @@
 # Unsolved Solutions List
 
-There are **1865** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
+There are **1864** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
 
 The questions which have been solved are not shown in this page, more information about solved questions can be found at [docs/solved_solutions.md](./solved_solutions.md).
 
@@ -1769,7 +1769,6 @@ The questions which have been solved are not shown in this page, more informatio
 |3389|[Minimum Operations to Make Character Frequencies Equal](https://leetcode.com/problems/minimum-operations-to-make-character-frequencies-equal/)|Hard||
 |3390|[Longest Team Pass Streak](https://leetcode.com/problems/longest-team-pass-streak/)|Hard|🔒|
 |3391|[Design a 3D Binary Matrix with Efficient Layer Tracking](https://leetcode.com/problems/design-a-3d-binary-matrix-with-efficient-layer-tracking/)|Medium|🔒|
-|3392|[Count Subarrays of Length Three With a Condition](https://leetcode.com/problems/count-subarrays-of-length-three-with-a-condition/)|Easy||
 |3393|[Count Paths With the Given XOR Value](https://leetcode.com/problems/count-paths-with-the-given-xor-value/)|Medium||
 |3395|[Subsequences with a Unique Middle Mode I](https://leetcode.com/problems/subsequences-with-a-unique-middle-mode-i/)|Hard||
 |3397|[Maximum Number of Distinct Elements After Operations](https://leetcode.com/problems/maximum-number-of-distinct-elements-after-operations/)|Medium||
