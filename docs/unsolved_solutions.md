@@ -1,6 +1,6 @@
 # Unsolved Solutions List
 
-There are **1863** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
+There are **1862** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
 
 The questions which have been solved are not shown in this page, more information about solved questions can be found at [docs/solved_solutions.md](./solved_solutions.md).
 
@@ -879,7 +879,6 @@ The questions which have been solved are not shown in this page, more informatio
 |2066|[Account Balance](https://leetcode.com/problems/account-balance/)|Medium|🔒|
 |2067|[Number of Equal Count Substrings](https://leetcode.com/problems/number-of-equal-count-substrings/)|Medium|🔒|
 |2069|[Walking Robot Simulation II](https://leetcode.com/problems/walking-robot-simulation-ii/)|Medium||
-|2071|[Maximum Number of Tasks You Can Assign](https://leetcode.com/problems/maximum-number-of-tasks-you-can-assign/)|Hard||
 |2072|[The Winner University](https://leetcode.com/problems/the-winner-university/)|Easy|🔒|
 |2074|[Reverse Nodes in Even Length Groups](https://leetcode.com/problems/reverse-nodes-in-even-length-groups/)|Medium||
 |2075|[Decode the Slanted Ciphertext](https://leetcode.com/problems/decode-the-slanted-ciphertext/)|Medium||
