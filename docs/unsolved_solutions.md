@@ -1,6 +1,6 @@
 # Unsolved Solutions List
 
-There are **1857** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
+There are **1856** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
 
 The questions which have been solved are not shown in this page, more information about solved questions can be found at [docs/solved_solutions.md](./solved_solutions.md).
 
@@ -1721,7 +1721,6 @@ The questions which have been solved are not shown in this page, more informatio
 |3333|[Find the Original Typed String II](https://leetcode.com/problems/find-the-original-typed-string-ii/)|Hard||
 |3334|[Find the Maximum Factor Score of Array](https://leetcode.com/problems/find-the-maximum-factor-score-of-array/)|Medium||
 |3336|[Find the Number of Subsequences With Equal GCD](https://leetcode.com/problems/find-the-number-of-subsequences-with-equal-gcd/)|Hard||
-|3337|[Total Characters in String After Transformations II](https://leetcode.com/problems/total-characters-in-string-after-transformations-ii/)|Hard||
 |3338|[Second Highest Salary II](https://leetcode.com/problems/second-highest-salary-ii/)|Medium|🔒|
 |3339|[Find the Number of K-Even Arrays](https://leetcode.com/problems/find-the-number-of-k-even-arrays/)|Medium|🔒|
 |3344|[Maximum Sized Array](https://leetcode.com/problems/maximum-sized-array/)|Medium|🔒|
