@@ -3495,3 +3495,72 @@ id,backend_id,title,level,slug,paid
 3494,3794,Find the Minimum Amount of Time to Brew Potions,2,find-the-minimum-amount-of-time-to-brew-potions,0
 3495,3744,Minimum Operations to Make Array Elements Zero,3,minimum-operations-to-make-array-elements-zero,0
 3496,3839,Maximize Score After Pair Deletions,2,maximize-score-after-pair-deletions,1
+3497,3848,Analyze Subscription Conversion ,2,analyze-subscription-conversion,0
+3498,3811,Reverse Degree of a String,1,reverse-degree-of-a-string,0
+3499,3805,Maximize Active Section with Trade I,2,maximize-active-section-with-trade-i,0
+3500,3765,Minimum Cost to Divide Array Into Subarrays,3,minimum-cost-to-divide-array-into-subarrays,0
+3501,3804,Maximize Active Section with Trade II,3,maximize-active-section-with-trade-ii,0
+3502,3832,Minimum Cost to Reach Every Position,1,minimum-cost-to-reach-every-position,0
+3503,3793,Longest Palindrome After Substring Concatenation I,2,longest-palindrome-after-substring-concatenation-i,0
+3504,3808,Longest Palindrome After Substring Concatenation II,3,longest-palindrome-after-substring-concatenation-ii,0
+3505,3717,Minimum Operations to Make Elements Within K Subarrays Equal,3,minimum-operations-to-make-elements-within-k-subarrays-equal,0
+3506,3814,Find Time Required to Eliminate Bacterial Strains,3,find-time-required-to-eliminate-bacterial-strains,1
+3507,3773,Minimum Pair Removal to Sort Array I,1,minimum-pair-removal-to-sort-array-i,0
+3508,3827,Implement Router,2,implement-router,0
+3509,3777,Maximum Product of Subsequences With an Alternating Sum Equal to K,3,maximum-product-of-subsequences-with-an-alternating-sum-equal-to-k,0
+3510,3772,Minimum Pair Removal to Sort Array II,3,minimum-pair-removal-to-sort-array-ii,0
+3511,3855,Make a Positive Array,2,make-a-positive-array,1
+3512,3846,Minimum Operations to Make Array Sum Divisible by K,1,minimum-operations-to-make-array-sum-divisible-by-k,0
+3513,3824,Number of Unique XOR Triplets I,2,number-of-unique-xor-triplets-i,0
+3514,3820,Number of Unique XOR Triplets II,2,number-of-unique-xor-triplets-ii,0
+3515,3829,Shortest Path in a Weighted Tree,3,shortest-path-in-a-weighted-tree,0
+3516,3830,Find Closest Person,1,find-closest-person,0
+3517,3812,Smallest Palindromic Rearrangement I,2,smallest-palindromic-rearrangement-i,0
+3518,3813,Smallest Palindromic Rearrangement II,3,smallest-palindromic-rearrangement-ii,0
+3519,3810,Count Numbers with Non-Decreasing Digits ,3,count-numbers-with-non-decreasing-digits,0
+3520,3861,Minimum Threshold for Inversion Pairs Count,2,minimum-threshold-for-inversion-pairs-count,1
+3521,3865,Find Product Recommendation Pairs,2,find-product-recommendation-pairs,0
+3522,3732,Calculate Score After Performing Instructions,2,calculate-score-after-performing-instructions,0
+3523,3738,Make Array Non-decreasing,2,make-array-non-decreasing,0
+3524,3831,Find X Value of Array I,2,find-x-value-of-array-i,0
+3525,3840,Find X Value of Array II,3,find-x-value-of-array-ii,0
+3526,3862,Range XOR Queries with Subarray Reversals,3,range-xor-queries-with-subarray-reversals,1
+3527,3707,Find the Most Common Response,2,find-the-most-common-response,0
+3528,3729,Unit Conversion I,2,unit-conversion-i,0
+3529,3821,Count Cells in Overlapping Horizontal and Vertical Substrings,2,count-cells-in-overlapping-horizontal-and-vertical-substrings,0
+3530,3826,Maximum Profit from Valid Topological Order in DAG,3,maximum-profit-from-valid-topological-order-in-dag,0
+3531,3819,Count Covered Buildings,2,count-covered-buildings,0
+3532,3838,Path Existence Queries in a Graph I,2,path-existence-queries-in-a-graph-i,0
+3533,3841,Concatenated Divisibility,3,concatenated-divisibility,0
+3534,3852,Path Existence Queries in a Graph II,3,path-existence-queries-in-a-graph-ii,0
+3535,3752,Unit Conversion II,2,unit-conversion-ii,1
+3536,3859,Maximum Product of Two Digits,1,maximum-product-of-two-digits,0
+3537,3822,Fill a Special Grid,2,fill-a-special-grid,0
+3538,3833,Merge Operations for Minimum Travel Time,3,merge-operations-for-minimum-travel-time,0
+3539,3851,Find Sum of Array Product of Magical Sequences,3,find-sum-of-array-product-of-magical-sequences,0
+3540,3880,Minimum Time to Visit All Houses,2,minimum-time-to-visit-all-houses,1
+3541,3872,Find Most Frequent Vowel and Consonant,1,find-most-frequent-vowel-and-consonant,0
+3542,3834,Minimum Operations to Convert All Elements to Zero,2,minimum-operations-to-convert-all-elements-to-zero,0
+3543,3856,Maximum Weighted K-Edge Path,2,maximum-weighted-k-edge-path,0
+3544,3858,Subtree Inversion Sum,3,subtree-inversion-sum,0
+3545,3871,Minimum Deletions for At Most K Distinct Characters,1,minimum-deletions-for-at-most-k-distinct-characters,0
+3546,3849,Equal Sum Grid Partition I,2,equal-sum-grid-partition-i,0
+3547,3845,Maximum Sum of Edge Values in a Graph,3,maximum-sum-of-edge-values-in-a-graph,0
+3548,3850,Equal Sum Grid Partition II,3,equal-sum-grid-partition-ii,0
+3549,3883,Multiply Two Polynomials,3,multiply-two-polynomials,1
+3550,3869,Smallest Index With Digit Sum Equal to Index,1,smallest-index-with-digit-sum-equal-to-index,0
+3551,3847,Minimum Swaps to Sort by Digit Sum,2,minimum-swaps-to-sort-by-digit-sum,0
+3552,3837,Grid Teleportation Traversal,2,grid-teleportation-traversal,0
+3553,3853,Minimum Weighted Subgraph With the Required Paths II,3,minimum-weighted-subgraph-with-the-required-paths-ii,0
+3554,3891,Find Category Recommendation Pairs,3,find-category-recommendation-pairs,0
+3555,3890,Smallest Subarray to Sort in Every Sliding Window,2,smallest-subarray-to-sort-in-every-sliding-window,1
+3556,3815,Sum of Largest Prime Substrings,2,sum-of-largest-prime-substrings,0
+3557,3857,Find Maximum Number of Non Intersecting Substrings,2,find-maximum-number-of-non-intersecting-substrings,0
+3558,3844,Number of Ways to Assign Edge Weights I,2,number-of-ways-to-assign-edge-weights-i,0
+3559,3842,Number of Ways to Assign Edge Weights II,3,number-of-ways-to-assign-edge-weights-ii,0
+3560,3879,Find Minimum Log Transportation Cost,1,find-minimum-log-transportation-cost,0
+3561,3860,Resulting String After Adjacent Removals,2,resulting-string-after-adjacent-removals,0
+3562,3854,Maximum Profit from Trading Stocks with Discounts,3,maximum-profit-from-trading-stocks-with-discounts,0
+3563,3867,Lexicographically Smallest String After Adjacent Removals,3,lexicographically-smallest-string-after-adjacent-removals,0
+3564,3898,Seasonal Sales Analysis,2,seasonal-sales-analysis,0
+3565,3899,Sequential Grid Path Cover,2,sequential-grid-path-cover,1

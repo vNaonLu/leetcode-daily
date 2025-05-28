@@ -1,6 +1,6 @@
 # Unsolved Solutions List
 
-There are **1853** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
+There are **1922** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
 
 The questions which have been solved are not shown in this page, more information about solved questions can be found at [docs/solved_solutions.md](./solved_solutions.md).
 
@@ -1860,3 +1860,72 @@ The questions which have been solved are not shown in this page, more informatio
 |3494|[Find the Minimum Amount of Time to Brew Potions](https://leetcode.com/problems/find-the-minimum-amount-of-time-to-brew-potions/)|Medium||
 |3495|[Minimum Operations to Make Array Elements Zero](https://leetcode.com/problems/minimum-operations-to-make-array-elements-zero/)|Hard||
 |3496|[Maximize Score After Pair Deletions](https://leetcode.com/problems/maximize-score-after-pair-deletions/)|Medium|🔒|
+|3497|[Analyze Subscription Conversion ](https://leetcode.com/problems/analyze-subscription-conversion/)|Medium||
+|3498|[Reverse Degree of a String](https://leetcode.com/problems/reverse-degree-of-a-string/)|Easy||
+|3499|[Maximize Active Section with Trade I](https://leetcode.com/problems/maximize-active-section-with-trade-i/)|Medium||
+|3500|[Minimum Cost to Divide Array Into Subarrays](https://leetcode.com/problems/minimum-cost-to-divide-array-into-subarrays/)|Hard||
+|3501|[Maximize Active Section with Trade II](https://leetcode.com/problems/maximize-active-section-with-trade-ii/)|Hard||
+|3502|[Minimum Cost to Reach Every Position](https://leetcode.com/problems/minimum-cost-to-reach-every-position/)|Easy||
+|3503|[Longest Palindrome After Substring Concatenation I](https://leetcode.com/problems/longest-palindrome-after-substring-concatenation-i/)|Medium||
+|3504|[Longest Palindrome After Substring Concatenation II](https://leetcode.com/problems/longest-palindrome-after-substring-concatenation-ii/)|Hard||
+|3505|[Minimum Operations to Make Elements Within K Subarrays Equal](https://leetcode.com/problems/minimum-operations-to-make-elements-within-k-subarrays-equal/)|Hard||
+|3506|[Find Time Required to Eliminate Bacterial Strains](https://leetcode.com/problems/find-time-required-to-eliminate-bacterial-strains/)|Hard|🔒|
+|3507|[Minimum Pair Removal to Sort Array I](https://leetcode.com/problems/minimum-pair-removal-to-sort-array-i/)|Easy||
+|3508|[Implement Router](https://leetcode.com/problems/implement-router/)|Medium||
+|3509|[Maximum Product of Subsequences With an Alternating Sum Equal to K](https://leetcode.com/problems/maximum-product-of-subsequences-with-an-alternating-sum-equal-to-k/)|Hard||
+|3510|[Minimum Pair Removal to Sort Array II](https://leetcode.com/problems/minimum-pair-removal-to-sort-array-ii/)|Hard||
+|3511|[Make a Positive Array](https://leetcode.com/problems/make-a-positive-array/)|Medium|🔒|
+|3512|[Minimum Operations to Make Array Sum Divisible by K](https://leetcode.com/problems/minimum-operations-to-make-array-sum-divisible-by-k/)|Easy||
+|3513|[Number of Unique XOR Triplets I](https://leetcode.com/problems/number-of-unique-xor-triplets-i/)|Medium||
+|3514|[Number of Unique XOR Triplets II](https://leetcode.com/problems/number-of-unique-xor-triplets-ii/)|Medium||
+|3515|[Shortest Path in a Weighted Tree](https://leetcode.com/problems/shortest-path-in-a-weighted-tree/)|Hard||
+|3516|[Find Closest Person](https://leetcode.com/problems/find-closest-person/)|Easy||
+|3517|[Smallest Palindromic Rearrangement I](https://leetcode.com/problems/smallest-palindromic-rearrangement-i/)|Medium||
+|3518|[Smallest Palindromic Rearrangement II](https://leetcode.com/problems/smallest-palindromic-rearrangement-ii/)|Hard||
+|3519|[Count Numbers with Non-Decreasing Digits ](https://leetcode.com/problems/count-numbers-with-non-decreasing-digits/)|Hard||
+|3520|[Minimum Threshold for Inversion Pairs Count](https://leetcode.com/problems/minimum-threshold-for-inversion-pairs-count/)|Medium|🔒|
+|3521|[Find Product Recommendation Pairs](https://leetcode.com/problems/find-product-recommendation-pairs/)|Medium||
+|3522|[Calculate Score After Performing Instructions](https://leetcode.com/problems/calculate-score-after-performing-instructions/)|Medium||
+|3523|[Make Array Non-decreasing](https://leetcode.com/problems/make-array-non-decreasing/)|Medium||
+|3524|[Find X Value of Array I](https://leetcode.com/problems/find-x-value-of-array-i/)|Medium||
+|3525|[Find X Value of Array II](https://leetcode.com/problems/find-x-value-of-array-ii/)|Hard||
+|3526|[Range XOR Queries with Subarray Reversals](https://leetcode.com/problems/range-xor-queries-with-subarray-reversals/)|Hard|🔒|
+|3527|[Find the Most Common Response](https://leetcode.com/problems/find-the-most-common-response/)|Medium||
+|3528|[Unit Conversion I](https://leetcode.com/problems/unit-conversion-i/)|Medium||
+|3529|[Count Cells in Overlapping Horizontal and Vertical Substrings](https://leetcode.com/problems/count-cells-in-overlapping-horizontal-and-vertical-substrings/)|Medium||
+|3530|[Maximum Profit from Valid Topological Order in DAG](https://leetcode.com/problems/maximum-profit-from-valid-topological-order-in-dag/)|Hard||
+|3531|[Count Covered Buildings](https://leetcode.com/problems/count-covered-buildings/)|Medium||
+|3532|[Path Existence Queries in a Graph I](https://leetcode.com/problems/path-existence-queries-in-a-graph-i/)|Medium||
+|3533|[Concatenated Divisibility](https://leetcode.com/problems/concatenated-divisibility/)|Hard||
+|3534|[Path Existence Queries in a Graph II](https://leetcode.com/problems/path-existence-queries-in-a-graph-ii/)|Hard||
+|3535|[Unit Conversion II](https://leetcode.com/problems/unit-conversion-ii/)|Medium|🔒|
+|3536|[Maximum Product of Two Digits](https://leetcode.com/problems/maximum-product-of-two-digits/)|Easy||
+|3537|[Fill a Special Grid](https://leetcode.com/problems/fill-a-special-grid/)|Medium||
+|3538|[Merge Operations for Minimum Travel Time](https://leetcode.com/problems/merge-operations-for-minimum-travel-time/)|Hard||
+|3539|[Find Sum of Array Product of Magical Sequences](https://leetcode.com/problems/find-sum-of-array-product-of-magical-sequences/)|Hard||
+|3540|[Minimum Time to Visit All Houses](https://leetcode.com/problems/minimum-time-to-visit-all-houses/)|Medium|🔒|
+|3541|[Find Most Frequent Vowel and Consonant](https://leetcode.com/problems/find-most-frequent-vowel-and-consonant/)|Easy||
+|3542|[Minimum Operations to Convert All Elements to Zero](https://leetcode.com/problems/minimum-operations-to-convert-all-elements-to-zero/)|Medium||
+|3543|[Maximum Weighted K-Edge Path](https://leetcode.com/problems/maximum-weighted-k-edge-path/)|Medium||
+|3544|[Subtree Inversion Sum](https://leetcode.com/problems/subtree-inversion-sum/)|Hard||
+|3545|[Minimum Deletions for At Most K Distinct Characters](https://leetcode.com/problems/minimum-deletions-for-at-most-k-distinct-characters/)|Easy||
+|3546|[Equal Sum Grid Partition I](https://leetcode.com/problems/equal-sum-grid-partition-i/)|Medium||
+|3547|[Maximum Sum of Edge Values in a Graph](https://leetcode.com/problems/maximum-sum-of-edge-values-in-a-graph/)|Hard||
+|3548|[Equal Sum Grid Partition II](https://leetcode.com/problems/equal-sum-grid-partition-ii/)|Hard||
+|3549|[Multiply Two Polynomials](https://leetcode.com/problems/multiply-two-polynomials/)|Hard|🔒|
+|3550|[Smallest Index With Digit Sum Equal to Index](https://leetcode.com/problems/smallest-index-with-digit-sum-equal-to-index/)|Easy||
+|3551|[Minimum Swaps to Sort by Digit Sum](https://leetcode.com/problems/minimum-swaps-to-sort-by-digit-sum/)|Medium||
+|3552|[Grid Teleportation Traversal](https://leetcode.com/problems/grid-teleportation-traversal/)|Medium||
+|3553|[Minimum Weighted Subgraph With the Required Paths II](https://leetcode.com/problems/minimum-weighted-subgraph-with-the-required-paths-ii/)|Hard||
+|3554|[Find Category Recommendation Pairs](https://leetcode.com/problems/find-category-recommendation-pairs/)|Hard||
+|3555|[Smallest Subarray to Sort in Every Sliding Window](https://leetcode.com/problems/smallest-subarray-to-sort-in-every-sliding-window/)|Medium|🔒|
+|3556|[Sum of Largest Prime Substrings](https://leetcode.com/problems/sum-of-largest-prime-substrings/)|Medium||
+|3557|[Find Maximum Number of Non Intersecting Substrings](https://leetcode.com/problems/find-maximum-number-of-non-intersecting-substrings/)|Medium||
+|3558|[Number of Ways to Assign Edge Weights I](https://leetcode.com/problems/number-of-ways-to-assign-edge-weights-i/)|Medium||
+|3559|[Number of Ways to Assign Edge Weights II](https://leetcode.com/problems/number-of-ways-to-assign-edge-weights-ii/)|Hard||
+|3560|[Find Minimum Log Transportation Cost](https://leetcode.com/problems/find-minimum-log-transportation-cost/)|Easy||
+|3561|[Resulting String After Adjacent Removals](https://leetcode.com/problems/resulting-string-after-adjacent-removals/)|Medium||
+|3562|[Maximum Profit from Trading Stocks with Discounts](https://leetcode.com/problems/maximum-profit-from-trading-stocks-with-discounts/)|Hard||
+|3563|[Lexicographically Smallest String After Adjacent Removals](https://leetcode.com/problems/lexicographically-smallest-string-after-adjacent-removals/)|Hard||
+|3564|[Seasonal Sales Analysis](https://leetcode.com/problems/seasonal-sales-analysis/)|Medium||
+|3565|[Sequential Grid Path Cover](https://leetcode.com/problems/sequential-grid-path-cover/)|Medium|🔒|
