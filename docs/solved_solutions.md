@@ -1,6 +1,6 @@
 # Solved Solutions List
 
-This document contains **1644** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
+This document contains **1645** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
 
 Some questions which are still being resolved are not shown in this page, more information about unsolved questions can be found at [docs/unsolved_solutions.md](./unsolved_solutions.md).
 
@@ -1525,6 +1525,7 @@ Some questions which are still being resolved are not shown in this page, more i
 |2923|[Find Champion I](https://leetcode.com/problems/find-champion-i/)|[src/q_2901_2950/q2923.cc](../src/q_2901_2950/q2923.cc)|2024/02/02 15:34|
 |2924|[Find Champion II](https://leetcode.com/problems/find-champion-ii/)|[src/q_2901_2950/q2924.cc](../src/q_2901_2950/q2924.cc)|2024/11/26 19:33|
 |2928|[Distribute Candies Among Children I](https://leetcode.com/problems/distribute-candies-among-children-i/)|[src/q_2901_2950/q2928.cc](../src/q_2901_2950/q2928.cc)|2024/02/03 12:20|
+|2929|[Distribute Candies Among Children II](https://leetcode.com/problems/distribute-candies-among-children-ii/)|[src/q_2901_2950/q2929.cc](../src/q_2901_2950/q2929.cc)|2025/06/01 13:04|
 |2932|[Maximum Strong Pair XOR I](https://leetcode.com/problems/maximum-strong-pair-xor-i/)|[src/q_2901_2950/q2932.cc](../src/q_2901_2950/q2932.cc)|2024/02/04 14:00|
 |2937|[Make Three Strings Equal](https://leetcode.com/problems/make-three-strings-equal/)|[src/q_2901_2950/q2937.cc](../src/q_2901_2950/q2937.cc)|2024/02/05 19:55|
 |2938|[Separate Black and White Balls](https://leetcode.com/problems/separate-black-and-white-balls/)|[src/q_2901_2950/q2938.cc](../src/q_2901_2950/q2938.cc)|2024/10/15 21:22|
