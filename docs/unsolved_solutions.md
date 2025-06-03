@@ -1,6 +1,6 @@
 # Unsolved Solutions List
 
-There are **1920** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
+There are **1919** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
 
 The questions which have been solved are not shown in this page, more information about solved questions can be found at [docs/solved_solutions.md](./solved_solutions.md).
 
@@ -468,7 +468,6 @@ The questions which have been solved are not shown in this page, more informatio
 |1294|[Weather Type in Each Country](https://leetcode.com/problems/weather-type-in-each-country/)|Easy|🔒|
 |1296|[Divide Array in Sets of K Consecutive Numbers](https://leetcode.com/problems/divide-array-in-sets-of-k-consecutive-numbers/)|Medium||
 |1297|[Maximum Number of Occurrences of a Substring](https://leetcode.com/problems/maximum-number-of-occurrences-of-a-substring/)|Medium||
-|1298|[Maximum Candies You Can Get from Boxes](https://leetcode.com/problems/maximum-candies-you-can-get-from-boxes/)|Hard||
 |1301|[Number of Paths with Max Score](https://leetcode.com/problems/number-of-paths-with-max-score/)|Hard||
 |1303|[Find the Team Size](https://leetcode.com/problems/find-the-team-size/)|Easy|🔒|
 |1307|[Verbal Arithmetic Puzzle](https://leetcode.com/problems/verbal-arithmetic-puzzle/)|Hard||
