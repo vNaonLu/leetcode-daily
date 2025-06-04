@@ -1,6 +1,6 @@
 # Unsolved Solutions List
 
-There are **1919** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
+There are **1918** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
 
 The questions which have been solved are not shown in this page, more information about solved questions can be found at [docs/solved_solutions.md](./solved_solutions.md).
 
@@ -1763,7 +1763,6 @@ The questions which have been solved are not shown in this page, more informatio
 |3400|[Maximum Number of Matching Indices After Right Shifts](https://leetcode.com/problems/maximum-number-of-matching-indices-after-right-shifts/)|Medium|🔒|
 |3401|[Find Circular Gift Exchange Chains](https://leetcode.com/problems/find-circular-gift-exchange-chains/)|Hard|🔒|
 |3402|[Minimum Operations to Make Columns Strictly Increasing](https://leetcode.com/problems/minimum-operations-to-make-columns-strictly-increasing/)|Easy||
-|3403|[Find the Lexicographically Largest String From the Box I](https://leetcode.com/problems/find-the-lexicographically-largest-string-from-the-box-i/)|Medium||
 |3404|[Count Special Subsequences](https://leetcode.com/problems/count-special-subsequences/)|Medium||
 |3405|[Count the Number of Arrays with K Matching Adjacent Elements](https://leetcode.com/problems/count-the-number-of-arrays-with-k-matching-adjacent-elements/)|Hard||
 |3406|[Find the Lexicographically Largest String From the Box II](https://leetcode.com/problems/find-the-lexicographically-largest-string-from-the-box-ii/)|Hard|🔒|
