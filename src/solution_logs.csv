@@ -1624,3 +1624,26 @@ timestamp,id,tc,sc,notes
 1744283122,2999,-,-,not calculated
 1744435534,3272,-,-,not calculated
 1744517732,1922,log(n),1,
+1744715151,2179,-,-,not calculated
+1744807791,2537,n,n,n = |nums.size()|
+1745239581,2145,n,1,n = |differences.size()|
+1745327813,2338,-,-,not calculated
+1745500270,2799,-,-,not calculated
+1745579550,2845,n,n,n = |nums.size()|
+1745731720,3392,n,1,n = |nums.size()|
+1745841975,2302,n,1,n = |nums.size()|
+1746063862,2071,-,-,not calculated
+1746620182,3341,-,-,not calculated
+1746684211,3342,-,-,not calculated
+1746792245,3343,-,-,not calculated
+1746849430,2918,n,1,"n = max(|nums1.size()|, |nums2.size()|)"
+1747125310,3335,n + t,t,n = |s.size()|
+1747221321,3337,-,-,not calculated
+1747393901,2901,n ^ 2 * E,n,"n = |groups.size()|, E = sum(|words[i].size()|)"
+1747749595,3355,-,-,not calculated
+1747925014,3362,-,-,not calculated
+1748431048,3372,m + n,m + n,"n = |edges1.size()|, m = |edges2.size()|"
+1748754281,2929,n,1,
+1748950266,1298,-,-,not calculated
+1749033977,3403,n,n,n = |word.size()|
+1749183902,2434,-,-,not calculated
