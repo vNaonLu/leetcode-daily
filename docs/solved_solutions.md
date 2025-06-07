@@ -1,6 +1,6 @@
 # Solved Solutions List
 
-This document contains **1648** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
+This document contains **1649** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
 
 Some questions which are still being resolved are not shown in this page, more information about unsolved questions can be found at [docs/unsolved_solutions.md](./unsolved_solutions.md).
 
@@ -1596,6 +1596,7 @@ Some questions which are still being resolved are not shown in this page, more i
 |3163|[String Compression III](https://leetcode.com/problems/string-compression-iii/)|[src/q_3151_3200/q3163.cc](../src/q_3151_3200/q3163.cc)|2024/11/04 23:08|
 |3168|[Minimum Number of Chairs in a Waiting Room](https://leetcode.com/problems/minimum-number-of-chairs-in-a-waiting-room/)|[src/q_3151_3200/q3168.cc](../src/q_3151_3200/q3168.cc)|2024/06/02 12:47|
 |3169|[Count Days Without Meetings](https://leetcode.com/problems/count-days-without-meetings/)|[src/q_3151_3200/q3169.cc](../src/q_3151_3200/q3169.cc)|2025/03/24 21:55|
+|3170|[Lexicographically Minimum String After Removing Stars](https://leetcode.com/problems/lexicographically-minimum-string-after-removing-stars/)|[src/q_3151_3200/q3170.cc](../src/q_3151_3200/q3170.cc)|2025/06/07 13:59|
 |3174|[Clear Digits](https://leetcode.com/problems/clear-digits/)|[src/q_3151_3200/q3174.cc](../src/q_3151_3200/q3174.cc)|2024/06/10 12:18|
 |3178|[Find the Child Who Has the Ball After K Seconds](https://leetcode.com/problems/find-the-child-who-has-the-ball-after-k-seconds/)|[src/q_3151_3200/q3178.cc](../src/q_3151_3200/q3178.cc)|2024/06/11 20:22|
 |3184|[Count Pairs That Form a Complete Day I](https://leetcode.com/problems/count-pairs-that-form-a-complete-day-i/)|[src/q_3151_3200/q3184.cc](../src/q_3151_3200/q3184.cc)|2024/06/17 20:51|
