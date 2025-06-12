@@ -1,6 +1,6 @@
 # Unsolved Solutions List
 
-There are **1914** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
+There are **1913** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
 
 The questions which have been solved are not shown in this page, more information about solved questions can be found at [docs/solved_solutions.md](./solved_solutions.md).
 
@@ -1780,7 +1780,6 @@ The questions which have been solved are not shown in this page, more informatio
 |3420|[Count Non-Decreasing Subarrays After K Operations](https://leetcode.com/problems/count-non-decreasing-subarrays-after-k-operations/)|Hard||
 |3421|[Find Students Who Improved](https://leetcode.com/problems/find-students-who-improved/)|Medium||
 |3422|[Minimum Operations to Make Subarray Elements Equal](https://leetcode.com/problems/minimum-operations-to-make-subarray-elements-equal/)|Medium|🔒|
-|3423|[Maximum Difference Between Adjacent Elements in a Circular Array](https://leetcode.com/problems/maximum-difference-between-adjacent-elements-in-a-circular-array/)|Easy||
 |3424|[Minimum Cost to Make Arrays Identical](https://leetcode.com/problems/minimum-cost-to-make-arrays-identical/)|Medium||
 |3425|[Longest Special Path](https://leetcode.com/problems/longest-special-path/)|Hard||
 |3426|[Manhattan Distances of All Arrangements of Pieces](https://leetcode.com/problems/manhattan-distances-of-all-arrangements-of-pieces/)|Hard||
