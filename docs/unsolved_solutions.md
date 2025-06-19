@@ -1,6 +1,6 @@
 # Unsolved Solutions List
 
-There are **1911** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
+There are **1910** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
 
 The questions which have been solved are not shown in this page, more information about solved questions can be found at [docs/solved_solutions.md](./solved_solutions.md).
 
@@ -1007,7 +1007,6 @@ The questions which have been solved are not shown in this page, more informatio
 |2289|[Steps to Make Array Non-decreasing](https://leetcode.com/problems/steps-to-make-array-non-decreasing/)|Medium||
 |2291|[Maximum Profit From Trading Stocks](https://leetcode.com/problems/maximum-profit-from-trading-stocks/)|Medium|🔒|
 |2292|[Products With Three or More Orders in Two Consecutive Years](https://leetcode.com/problems/products-with-three-or-more-orders-in-two-consecutive-years/)|Medium|🔒|
-|2294|[Partition Array Such That Maximum Difference Is K](https://leetcode.com/problems/partition-array-such-that-maximum-difference-is-k/)|Medium||
 |2295|[Replace Elements in an Array](https://leetcode.com/problems/replace-elements-in-an-array/)|Medium||
 |2296|[Design a Text Editor](https://leetcode.com/problems/design-a-text-editor/)|Hard||
 |2297|[Jump Game VIII](https://leetcode.com/problems/jump-game-viii/)|Medium|🔒|

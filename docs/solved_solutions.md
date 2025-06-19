@@ -1,6 +1,6 @@
 # Solved Solutions List
 
-This document contains **1654** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
+This document contains **1655** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
 
 Some questions which are still being resolved are not shown in this page, more information about unsolved questions can be found at [docs/unsolved_solutions.md](./unsolved_solutions.md).
 
@@ -1300,6 +1300,7 @@ Some questions which are still being resolved are not shown in this page, more i
 |2287|[Rearrange Characters to Make Target String](https://leetcode.com/problems/rearrange-characters-to-make-target-string/)|[src/q_2251_2300/q2287.cc](../src/q_2251_2300/q2287.cc)|2023/10/19 21:24|
 |2290|[Minimum Obstacle Removal to Reach Corner](https://leetcode.com/problems/minimum-obstacle-removal-to-reach-corner/)|[src/q_2251_2300/q2290.cc](../src/q_2251_2300/q2290.cc)|2024/11/28 22:12|
 |2293|[Min Max Game](https://leetcode.com/problems/min-max-game/)|[src/q_2251_2300/q2293.cc](../src/q_2251_2300/q2293.cc)|2023/01/09 18:53|
+|2294|[Partition Array Such That Maximum Difference Is K](https://leetcode.com/problems/partition-array-such-that-maximum-difference-is-k/)|[src/q_2251_2300/q2294.cc](../src/q_2251_2300/q2294.cc)|2025/06/19 19:05|
 |2299|[Strong Password Checker II](https://leetcode.com/problems/strong-password-checker-ii/)|[src/q_2251_2300/q2299.cc](../src/q_2251_2300/q2299.cc)|2023/03/11 01:32|
 |2300|[Successful Pairs of Spells and Potions](https://leetcode.com/problems/successful-pairs-of-spells-and-potions/)|[src/q_2251_2300/q2300.cc](../src/q_2251_2300/q2300.cc)|2023/04/02 14:53|
 |2302|[Count Subarrays With Score Less Than K](https://leetcode.com/problems/count-subarrays-with-score-less-than-k/)|[src/q_2301_2350/q2302.cc](../src/q_2301_2350/q2302.cc)|2025/04/28 20:06|
