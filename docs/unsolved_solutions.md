@@ -1,6 +1,6 @@
 # Unsolved Solutions List
 
-There are **1908** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
+There are **1907** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
 
 The questions which have been solved are not shown in this page, more information about solved questions can be found at [docs/solved_solutions.md](./solved_solutions.md).
 
@@ -884,7 +884,6 @@ The questions which have been solved are not shown in this page, more informatio
 |2077|[Paths in Maze That Lead to Same Room](https://leetcode.com/problems/paths-in-maze-that-lead-to-same-room/)|Medium|🔒|
 |2079|[Watering Plants](https://leetcode.com/problems/watering-plants/)|Medium||
 |2080|[Range Frequency Queries](https://leetcode.com/problems/range-frequency-queries/)|Medium||
-|2081|[Sum of k-Mirror Numbers](https://leetcode.com/problems/sum-of-k-mirror-numbers/)|Hard||
 |2082|[The Number of Rich Customers](https://leetcode.com/problems/the-number-of-rich-customers/)|Easy|🔒|
 |2083|[Substrings That Begin and End With the Same Letter](https://leetcode.com/problems/substrings-that-begin-and-end-with-the-same-letter/)|Medium|🔒|
 |2084|[Drop Type 1 Orders for Customers With Type 0 Orders](https://leetcode.com/problems/drop-type-1-orders-for-customers-with-type-0-orders/)|Medium|🔒|
