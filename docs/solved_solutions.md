@@ -1,6 +1,6 @@
 # Solved Solutions List
 
-This document contains **1659** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
+This document contains **1660** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
 
 Some questions which are still being resolved are not shown in this page, more information about unsolved questions can be found at [docs/unsolved_solutions.md](./unsolved_solutions.md).
 
@@ -1183,6 +1183,7 @@ Some questions which are still being resolved are not shown in this page, more i
 |2007|[Find Original Array From Doubled Array](https://leetcode.com/problems/find-original-array-from-doubled-array/)|[src/q_2001_2050/q2007.cc](../src/q_2001_2050/q2007.cc)|2022/09/15 20:09|
 |2009|[Minimum Number of Operations to Make Array Continuous](https://leetcode.com/problems/minimum-number-of-operations-to-make-array-continuous/)|[src/q_2001_2050/q2009.cc](../src/q_2001_2050/q2009.cc)|2023/10/10 12:16|
 |2011|[Final Value of Variable After Performing Operations](https://leetcode.com/problems/final-value-of-variable-after-performing-operations/)|[src/q_2001_2050/q2011.cc](../src/q_2001_2050/q2011.cc)|2021/11/23 18:44|
+|2014|[Longest Subsequence Repeated k Times](https://leetcode.com/problems/longest-subsequence-repeated-k-times/)|[src/q_2001_2050/q2014.cc](../src/q_2001_2050/q2014.cc)|2025/06/27 21:26|
 |2016|[Maximum Difference Between Increasing Elements](https://leetcode.com/problems/maximum-difference-between-increasing-elements/)|[src/q_2001_2050/q2016.cc](../src/q_2001_2050/q2016.cc)|2023/09/21 19:00|
 |2017|[Grid Game](https://leetcode.com/problems/grid-game/)|[src/q_2001_2050/q2017.cc](../src/q_2001_2050/q2017.cc)|2025/01/21 20:42|
 |2018|[Check if Word Can Be Placed In Crossword](https://leetcode.com/problems/check-if-word-can-be-placed-in-crossword/)|[src/q_2001_2050/q2018.cc](../src/q_2001_2050/q2018.cc)|2021/10/12 22:11|
