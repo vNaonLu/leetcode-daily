@@ -1,6 +1,6 @@
 # Solved Solutions List
 
-This document contains **1662** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
+This document contains **1663** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
 
 Some questions which are still being resolved are not shown in this page, more information about unsolved questions can be found at [docs/unsolved_solutions.md](./unsolved_solutions.md).
 
@@ -1126,6 +1126,7 @@ Some questions which are still being resolved are not shown in this page, more i
 |1859|[Sorting the Sentence](https://leetcode.com/problems/sorting-the-sentence/)|[src/q_1851_1900/q1859.cc](../src/q_1851_1900/q1859.cc)|2022/12/22 19:32|
 |1861|[Rotating the Box](https://leetcode.com/problems/rotating-the-box/)|[src/q_1851_1900/q1861.cc](../src/q_1851_1900/q1861.cc)|2024/11/23 15:40|
 |1863|[Sum of All Subset XOR Totals](https://leetcode.com/problems/sum-of-all-subset-xor-totals/)|[src/q_1851_1900/q1863.cc](../src/q_1851_1900/q1863.cc)|2022/07/13 18:12|
+|1865|[Finding Pairs With a Certain Sum](https://leetcode.com/problems/finding-pairs-with-a-certain-sum/)|[src/q_1851_1900/q1865.cc](../src/q_1851_1900/q1865.cc)|2025/07/06 12:28|
 |1869|[Longer Contiguous Segments of Ones than Zeros](https://leetcode.com/problems/longer-contiguous-segments-of-ones-than-zeros/)|[src/q_1851_1900/q1869.cc](../src/q_1851_1900/q1869.cc)|2023/04/11 22:05|
 |1870|[Minimum Speed to Arrive on Time](https://leetcode.com/problems/minimum-speed-to-arrive-on-time/)|[src/q_1851_1900/q1870.cc](../src/q_1851_1900/q1870.cc)|2022/07/19 12:37|
 |1876|[Substrings of Size Three with Distinct Characters](https://leetcode.com/problems/substrings-of-size-three-with-distinct-characters/)|[src/q_1851_1900/q1876.cc](../src/q_1851_1900/q1876.cc)|2023/09/15 22:50|
