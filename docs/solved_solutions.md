@@ -1,6 +1,6 @@
 # Solved Solutions List
 
-This document contains **1664** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
+This document contains **1665** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
 
 Some questions which are still being resolved are not shown in this page, more information about unsolved questions can be found at [docs/unsolved_solutions.md](./unsolved_solutions.md).
 
@@ -1668,6 +1668,7 @@ Some questions which are still being resolved are not shown in this page, more i
 |3403|[Find the Lexicographically Largest String From the Box I](https://leetcode.com/problems/find-the-lexicographically-largest-string-from-the-box-i/)|[src/q_3401_3450/q3403.cc](../src/q_3401_3450/q3403.cc)|2025/06/04 18:46|
 |3405|[Count the Number of Arrays with K Matching Adjacent Elements](https://leetcode.com/problems/count-the-number-of-arrays-with-k-matching-adjacent-elements/)|[src/q_3401_3450/q3405.cc](../src/q_3401_3450/q3405.cc)|2025/06/17 20:44|
 |3423|[Maximum Difference Between Adjacent Elements in a Circular Array](https://leetcode.com/problems/maximum-difference-between-adjacent-elements-in-a-circular-array/)|[src/q_3401_3450/q3423.cc](../src/q_3401_3450/q3423.cc)|2025/06/12 21:25|
+|3439|[Reschedule Meetings for Maximum Free Time I](https://leetcode.com/problems/reschedule-meetings-for-maximum-free-time-i/)|[src/q_3401_3450/q3439.cc](../src/q_3401_3450/q3439.cc)|2025/07/09 12:14|
 |3442|[Maximum Difference Between Even and Odd Frequency I](https://leetcode.com/problems/maximum-difference-between-even-and-odd-frequency-i/)|[src/q_3401_3450/q3442.cc](../src/q_3401_3450/q3442.cc)|2025/06/10 19:17|
 |3443|[Maximum Manhattan Distance After K Changes](https://leetcode.com/problems/maximum-manhattan-distance-after-k-changes/)|[src/q_3401_3450/q3443.cc](../src/q_3401_3450/q3443.cc)|2025/06/20 20:14|
 |3445|[Maximum Difference Between Even and Odd Frequency II](https://leetcode.com/problems/maximum-difference-between-even-and-odd-frequency-ii/)|[src/q_3401_3450/q3445.cc](../src/q_3401_3450/q3445.cc)|2025/06/11 20:29|

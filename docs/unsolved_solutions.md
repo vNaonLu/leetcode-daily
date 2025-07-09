@@ -1,6 +1,6 @@
 # Unsolved Solutions List
 
-There are **1901** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
+There are **1900** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
 
 The questions which have been solved are not shown in this page, more information about solved questions can be found at [docs/solved_solutions.md](./solved_solutions.md).
 
@@ -1784,7 +1784,6 @@ The questions which have been solved are not shown in this page, more informatio
 |3436|[Find Valid Emails](https://leetcode.com/problems/find-valid-emails/)|Easy||
 |3437|[Permutations III](https://leetcode.com/problems/permutations-iii/)|Medium|🔒|
 |3438|[Find Valid Pair of Adjacent Digits in String](https://leetcode.com/problems/find-valid-pair-of-adjacent-digits-in-string/)|Easy||
-|3439|[Reschedule Meetings for Maximum Free Time I](https://leetcode.com/problems/reschedule-meetings-for-maximum-free-time-i/)|Medium||
 |3440|[Reschedule Meetings for Maximum Free Time II](https://leetcode.com/problems/reschedule-meetings-for-maximum-free-time-ii/)|Medium||
 |3441|[Minimum Cost Good Caption](https://leetcode.com/problems/minimum-cost-good-caption/)|Hard||
 |3444|[Minimum Increments for Target Multiples in an Array](https://leetcode.com/problems/minimum-increments-for-target-multiples-in-an-array/)|Hard||
