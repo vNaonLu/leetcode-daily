@@ -1666,3 +1666,4 @@ timestamp,id,tc,sc,notes
 1752034476,3439,-,-,not calculated
 1752154971,3440,-,-,not calculated
 1752305539,1900,-,-,not calculated
+1752383693,2410,n * log(n) + m * log(m),1,"n = |players.size()|, m = |trainers.size()|"
