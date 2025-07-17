@@ -1,6 +1,6 @@
 # Solved Solutions List
 
-This document contains **1669** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
+This document contains **1670** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
 
 Some questions which are still being resolved are not shown in this page, more information about unsolved questions can be found at [docs/unsolved_solutions.md](./unsolved_solutions.md).
 
@@ -1615,6 +1615,7 @@ Some questions which are still being resolved are not shown in this page, more i
 |3194|[Minimum Average of Smallest and Largest Elements](https://leetcode.com/problems/minimum-average-of-smallest-and-largest-elements/)|[src/q_3151_3200/q3194.cc](../src/q_3151_3200/q3194.cc)|2024/06/30 12:14|
 |3200|[Maximum Height of a Triangle](https://leetcode.com/problems/maximum-height-of-a-triangle/)|[src/q_3151_3200/q3200.cc](../src/q_3151_3200/q3200.cc)|2024/08/02 20:06|
 |3201|[Find the Maximum Length of Valid Subsequence I](https://leetcode.com/problems/find-the-maximum-length-of-valid-subsequence-i/)|[src/q_3201_3250/q3201.cc](../src/q_3201_3250/q3201.cc)|2025/07/16 19:23|
+|3202|[Find the Maximum Length of Valid Subsequence II](https://leetcode.com/problems/find-the-maximum-length-of-valid-subsequence-ii/)|[src/q_3201_3250/q3202.cc](../src/q_3201_3250/q3202.cc)|2025/07/17 19:25|
 |3203|[Find Minimum Diameter After Merging Two Trees](https://leetcode.com/problems/find-minimum-diameter-after-merging-two-trees/)|[src/q_3201_3250/q3203.cc](../src/q_3201_3250/q3203.cc)|2024/12/24 22:00|
 |3206|[Alternating Groups I](https://leetcode.com/problems/alternating-groups-i/)|[src/q_3201_3250/q3206.cc](../src/q_3201_3250/q3206.cc)|2024/07/07 12:56|
 |3208|[Alternating Groups II](https://leetcode.com/problems/alternating-groups-ii/)|[src/q_3201_3250/q3208.cc](../src/q_3201_3250/q3208.cc)|2025/03/09 11:20|
