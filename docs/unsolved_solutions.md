@@ -1,6 +1,6 @@
 # Unsolved Solutions List
 
-There are **1893** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
+There are **1892** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
 
 The questions which have been solved are not shown in this page, more information about solved questions can be found at [docs/solved_solutions.md](./solved_solutions.md).
 
@@ -1015,7 +1015,6 @@ The questions which have been solved are not shown in this page, more informatio
 |2318|[Number of Distinct Roll Sequences](https://leetcode.com/problems/number-of-distinct-roll-sequences/)|Hard||
 |2320|[Count Number of Ways to Place Houses](https://leetcode.com/problems/count-number-of-ways-to-place-houses/)|Medium||
 |2321|[Maximum Score Of Spliced Array](https://leetcode.com/problems/maximum-score-of-spliced-array/)|Hard||
-|2322|[Minimum Score After Removals on a Tree](https://leetcode.com/problems/minimum-score-after-removals-on-a-tree/)|Hard||
 |2323|[Find Minimum Time to Finish All Jobs II](https://leetcode.com/problems/find-minimum-time-to-finish-all-jobs-ii/)|Medium|🔒|
 |2324|[Product Sales Analysis IV](https://leetcode.com/problems/product-sales-analysis-iv/)|Medium|🔒|
 |2327|[Number of People Aware of a Secret](https://leetcode.com/problems/number-of-people-aware-of-a-secret/)|Medium||
