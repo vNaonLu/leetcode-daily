@@ -1,6 +1,6 @@
 # Unsolved Solutions List
 
-There are **1892** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
+There are **1891** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
 
 The questions which have been solved are not shown in this page, more information about solved questions can be found at [docs/solved_solutions.md](./solved_solutions.md).
 
@@ -1820,7 +1820,6 @@ The questions which have been solved are not shown in this page, more informatio
 |3484|[Design Spreadsheet](https://leetcode.com/problems/design-spreadsheet/)|Medium||
 |3485|[Longest Common Prefix of K Strings After Removal](https://leetcode.com/problems/longest-common-prefix-of-k-strings-after-removal/)|Hard||
 |3486|[Longest Special Path II](https://leetcode.com/problems/longest-special-path-ii/)|Hard||
-|3487|[Maximum Unique Subarray Sum After Deletion](https://leetcode.com/problems/maximum-unique-subarray-sum-after-deletion/)|Easy||
 |3488|[Closest Equal Element Queries](https://leetcode.com/problems/closest-equal-element-queries/)|Medium||
 |3489|[Zero Array Transformation IV](https://leetcode.com/problems/zero-array-transformation-iv/)|Medium||
 |3490|[Count Beautiful Numbers](https://leetcode.com/problems/count-beautiful-numbers/)|Hard||
