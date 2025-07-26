@@ -1,6 +1,6 @@
 # Unsolved Solutions List
 
-There are **1891** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
+There are **1890** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
 
 The questions which have been solved are not shown in this page, more information about solved questions can be found at [docs/solved_solutions.md](./solved_solutions.md).
 
@@ -1813,7 +1813,6 @@ The questions which have been solved are not shown in this page, more informatio
 |3477|[Fruits Into Baskets II](https://leetcode.com/problems/fruits-into-baskets-ii/)|Easy||
 |3478|[Choose K Elements With Maximum Sum](https://leetcode.com/problems/choose-k-elements-with-maximum-sum/)|Medium||
 |3479|[Fruits Into Baskets III](https://leetcode.com/problems/fruits-into-baskets-iii/)|Medium||
-|3480|[Maximize Subarrays After Removing One Conflicting Pair](https://leetcode.com/problems/maximize-subarrays-after-removing-one-conflicting-pair/)|Hard||
 |3481|[Apply Substitutions](https://leetcode.com/problems/apply-substitutions/)|Medium|🔒|
 |3482|[Analyze Organization Hierarchy](https://leetcode.com/problems/analyze-organization-hierarchy/)|Hard||
 |3483|[Unique 3-Digit Even Numbers](https://leetcode.com/problems/unique-3-digit-even-numbers/)|Easy||
