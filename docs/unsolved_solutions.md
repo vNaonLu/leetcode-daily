@@ -1,6 +1,6 @@
 # Unsolved Solutions List
 
-There are **1890** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
+There are **1889** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
 
 The questions which have been solved are not shown in this page, more information about solved questions can be found at [docs/solved_solutions.md](./solved_solutions.md).
 
@@ -1060,7 +1060,6 @@ The questions which have been solved are not shown in this page, more informatio
 |2407|[Longest Increasing Subsequence II](https://leetcode.com/problems/longest-increasing-subsequence-ii/)|Hard||
 |2408|[Design SQL](https://leetcode.com/problems/design-sql/)|Medium|🔒|
 |2409|[Count Days Spent Together](https://leetcode.com/problems/count-days-spent-together/)|Easy||
-|2411|[Smallest Subarrays With Maximum Bitwise OR](https://leetcode.com/problems/smallest-subarrays-with-maximum-bitwise-or/)|Medium||
 |2412|[Minimum Money Required Before Transactions](https://leetcode.com/problems/minimum-money-required-before-transactions/)|Hard||
 |2414|[Length of the Longest Alphabetical Continuous Substring](https://leetcode.com/problems/length-of-the-longest-alphabetical-continuous-substring/)|Medium||
 |2417|[Closest Fair Integer](https://leetcode.com/problems/closest-fair-integer/)|Medium|🔒|

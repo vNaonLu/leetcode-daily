@@ -1,6 +1,6 @@
 # Solved Solutions List
 
-This document contains **1675** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
+This document contains **1676** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
 
 Some questions which are still being resolved are not shown in this page, more information about unsolved questions can be found at [docs/unsolved_solutions.md](./unsolved_solutions.md).
 
@@ -1364,6 +1364,7 @@ Some questions which are still being resolved are not shown in this page, more i
 |2405|[Optimal Partition of String](https://leetcode.com/problems/optimal-partition-of-string/)|[src/q_2401_2450/q2405.cc](../src/q_2401_2450/q2405.cc)|2023/04/04 14:57|
 |2406|[Divide Intervals Into Minimum Number of Groups](https://leetcode.com/problems/divide-intervals-into-minimum-number-of-groups/)|[src/q_2401_2450/q2406.cc](../src/q_2401_2450/q2406.cc)|2024/10/12 14:47|
 |2410|[Maximum Matching of Players With Trainers](https://leetcode.com/problems/maximum-matching-of-players-with-trainers/)|[src/q_2401_2450/q2410.cc](../src/q_2401_2450/q2410.cc)|2025/07/13 13:14|
+|2411|[Smallest Subarrays With Maximum Bitwise OR](https://leetcode.com/problems/smallest-subarrays-with-maximum-bitwise-or/)|[src/q_2401_2450/q2411.cc](../src/q_2401_2450/q2411.cc)|2025/07/29 20:46|
 |2413|[Smallest Even Multiple](https://leetcode.com/problems/smallest-even-multiple/)|[src/q_2401_2450/q2413.cc](../src/q_2401_2450/q2413.cc)|2023/02/03 13:19|
 |2415|[Reverse Odd Levels of Binary Tree](https://leetcode.com/problems/reverse-odd-levels-of-binary-tree/)|[src/q_2401_2450/q2415.cc](../src/q_2401_2450/q2415.cc)|2024/12/20 22:35|
 |2416|[Sum of Prefix Scores of Strings](https://leetcode.com/problems/sum-of-prefix-scores-of-strings/)|[src/q_2401_2450/q2416.cc](../src/q_2401_2450/q2416.cc)|2024/09/25 21:49|
