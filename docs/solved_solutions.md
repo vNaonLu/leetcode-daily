@@ -1,6 +1,6 @@
 # Solved Solutions List
 
-This document contains **1676** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
+This document contains **1677** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
 
 Some questions which are still being resolved are not shown in this page, more information about unsolved questions can be found at [docs/unsolved_solutions.md](./unsolved_solutions.md).
 
@@ -1433,6 +1433,7 @@ Some questions which are still being resolved are not shown in this page, more i
 |2558|[Take Gifts From the Richest Pile](https://leetcode.com/problems/take-gifts-from-the-richest-pile/)|[src/q_2551_2600/q2558.cc](../src/q_2551_2600/q2558.cc)|2023/11/23 19:23|
 |2559|[Count Vowel Strings in Ranges](https://leetcode.com/problems/count-vowel-strings-in-ranges/)|[src/q_2551_2600/q2559.cc](../src/q_2551_2600/q2559.cc)|2025/01/02 21:36|
 |2560|[House Robber IV](https://leetcode.com/problems/house-robber-iv/)|[src/q_2551_2600/q2560.cc](../src/q_2551_2600/q2560.cc)|2025/03/16 03:37|
+|2561|[Rearranging Fruits](https://leetcode.com/problems/rearranging-fruits/)|[src/q_2551_2600/q2561.cc](../src/q_2551_2600/q2561.cc)|2025/08/02 14:53|
 |2562|[Find the Array Concatenation Value](https://leetcode.com/problems/find-the-array-concatenation-value/)|[src/q_2551_2600/q2562.cc](../src/q_2551_2600/q2562.cc)|2023/12/01 21:54|
 |2563|[Count the Number of Fair Pairs](https://leetcode.com/problems/count-the-number-of-fair-pairs/)|[src/q_2551_2600/q2563.cc](../src/q_2551_2600/q2563.cc)|2024/11/13 19:40|
 |2566|[Maximum Difference by Remapping a Digit](https://leetcode.com/problems/maximum-difference-by-remapping-a-digit/)|[src/q_2551_2600/q2566.cc](../src/q_2551_2600/q2566.cc)|2023/12/02 17:19|
