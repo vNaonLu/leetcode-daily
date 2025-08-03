@@ -1,6 +1,6 @@
 # Solved Solutions List
 
-This document contains **1677** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
+This document contains **1678** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
 
 Some questions which are still being resolved are not shown in this page, more information about unsolved questions can be found at [docs/unsolved_solutions.md](./unsolved_solutions.md).
 
@@ -1228,6 +1228,7 @@ Some questions which are still being resolved are not shown in this page, more i
 |2099|[Find Subsequence of Length K With the Largest Sum](https://leetcode.com/problems/find-subsequence-of-length-k-with-the-largest-sum/)|[src/q_2051_2100/q2099.cc](../src/q_2051_2100/q2099.cc)|2023/09/30 11:40|
 |2101|[Detonate the Maximum Bombs](https://leetcode.com/problems/detonate-the-maximum-bombs/)|[src/q_2101_2150/q2101.cc](../src/q_2101_2150/q2101.cc)|2023/06/02 14:55|
 |2103|[Rings and Rods](https://leetcode.com/problems/rings-and-rods/)|[src/q_2101_2150/q2103.cc](../src/q_2101_2150/q2103.cc)|2023/10/01 11:51|
+|2106|[Maximum Fruits Harvested After at Most K Steps](https://leetcode.com/problems/maximum-fruits-harvested-after-at-most-k-steps/)|[src/q_2101_2150/q2106.cc](../src/q_2101_2150/q2106.cc)|2025/08/03 15:48|
 |2108|[Find First Palindromic String in the Array](https://leetcode.com/problems/find-first-palindromic-string-in-the-array/)|[src/q_2101_2150/q2108.cc](../src/q_2101_2150/q2108.cc)|2023/05/16 22:56|
 |2109|[Adding Spaces to a String](https://leetcode.com/problems/adding-spaces-to-a-string/)|[src/q_2101_2150/q2109.cc](../src/q_2101_2150/q2109.cc)|2024/12/03 18:44|
 |2114|[Maximum Number of Words Found in Sentences](https://leetcode.com/problems/maximum-number-of-words-found-in-sentences/)|[src/q_2101_2150/q2114.cc](../src/q_2101_2150/q2114.cc)|2023/04/24 08:40|
