@@ -1,6 +1,6 @@
 # Unsolved Solutions List
 
-There are **1887** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
+There are **1886** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
 
 The questions which have been solved are not shown in this page, more information about solved questions can be found at [docs/solved_solutions.md](./solved_solutions.md).
 
@@ -1807,7 +1807,6 @@ The questions which have been solved are not shown in this page, more informatio
 |3474|[Lexicographically Smallest Generated String](https://leetcode.com/problems/lexicographically-smallest-generated-string/)|Hard||
 |3475|[DNA Pattern Recognition ](https://leetcode.com/problems/dna-pattern-recognition/)|Medium||
 |3476|[Maximize Profit from Task Assignment](https://leetcode.com/problems/maximize-profit-from-task-assignment/)|Medium|🔒|
-|3477|[Fruits Into Baskets II](https://leetcode.com/problems/fruits-into-baskets-ii/)|Easy||
 |3478|[Choose K Elements With Maximum Sum](https://leetcode.com/problems/choose-k-elements-with-maximum-sum/)|Medium||
 |3479|[Fruits Into Baskets III](https://leetcode.com/problems/fruits-into-baskets-iii/)|Medium||
 |3481|[Apply Substitutions](https://leetcode.com/problems/apply-substitutions/)|Medium|🔒|
