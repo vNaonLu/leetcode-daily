@@ -1,6 +1,6 @@
 # Solved Solutions List
 
-This document contains **1682** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
+This document contains **1683** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
 
 Some questions which are still being resolved are not shown in this page, more information about unsolved questions can be found at [docs/unsolved_solutions.md](./unsolved_solutions.md).
 
@@ -1503,6 +1503,7 @@ Some questions which are still being resolved are not shown in this page, more i
 |2780|[Minimum Index of a Valid Split](https://leetcode.com/problems/minimum-index-of-a-valid-split/)|[src/q_2751_2800/q2780.cc](../src/q_2751_2800/q2780.cc)|2025/03/27 19:38|
 |2784|[Check if Array is Good](https://leetcode.com/problems/check-if-array-is-good/)|[src/q_2751_2800/q2784.cc](../src/q_2751_2800/q2784.cc)|2023/12/31 14:19|
 |2785|[Sort Vowels in a String](https://leetcode.com/problems/sort-vowels-in-a-string/)|[src/q_2751_2800/q2785.cc](../src/q_2751_2800/q2785.cc)|2023/11/13 19:01|
+|2787|[Ways to Express an Integer as Sum of Powers](https://leetcode.com/problems/ways-to-express-an-integer-as-sum-of-powers/)|[src/q_2751_2800/q2787.cc](../src/q_2751_2800/q2787.cc)|2025/08/12 20:48|
 |2788|[Split Strings by Separator](https://leetcode.com/problems/split-strings-by-separator/)|[src/q_2751_2800/q2788.cc](../src/q_2751_2800/q2788.cc)|2024/01/01 14:09|
 |2798|[Number of Employees Who Met the Target](https://leetcode.com/problems/number-of-employees-who-met-the-target/)|[src/q_2751_2800/q2798.cc](../src/q_2751_2800/q2798.cc)|2024/01/05 17:22|
 |2799|[Count Complete Subarrays in an Array](https://leetcode.com/problems/count-complete-subarrays-in-an-array/)|[src/q_2751_2800/q2799.cc](../src/q_2751_2800/q2799.cc)|2025/04/24 21:11|
