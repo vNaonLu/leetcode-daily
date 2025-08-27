@@ -1,6 +1,6 @@
 # Solved Solutions List
 
-This document contains **1687** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
+This document contains **1688** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
 
 Some questions which are still being resolved are not shown in this page, more information about unsolved questions can be found at [docs/unsolved_solutions.md](./unsolved_solutions.md).
 
@@ -1690,6 +1690,7 @@ Some questions which are still being resolved are not shown in this page, more i
 |3442|[Maximum Difference Between Even and Odd Frequency I](https://leetcode.com/problems/maximum-difference-between-even-and-odd-frequency-i/)|[src/q_3401_3450/q3442.cc](../src/q_3401_3450/q3442.cc)|2025/06/10 19:17|
 |3443|[Maximum Manhattan Distance After K Changes](https://leetcode.com/problems/maximum-manhattan-distance-after-k-changes/)|[src/q_3401_3450/q3443.cc](../src/q_3401_3450/q3443.cc)|2025/06/20 20:14|
 |3445|[Maximum Difference Between Even and Odd Frequency II](https://leetcode.com/problems/maximum-difference-between-even-and-odd-frequency-ii/)|[src/q_3401_3450/q3445.cc](../src/q_3401_3450/q3445.cc)|2025/06/11 20:29|
+|3459|[Length of Longest V-Shaped Diagonal Segment](https://leetcode.com/problems/length-of-longest-v-shaped-diagonal-segment/)|[src/q_3451_3500/q3459.cc](../src/q_3451_3500/q3459.cc)|2025/08/27 20:48|
 |3477|[Fruits Into Baskets II](https://leetcode.com/problems/fruits-into-baskets-ii/)|[src/q_3451_3500/q3477.cc](../src/q_3451_3500/q3477.cc)|2025/08/05 17:53|
 |3479|[Fruits Into Baskets III](https://leetcode.com/problems/fruits-into-baskets-iii/)|[src/q_3451_3500/q3479.cc](../src/q_3451_3500/q3479.cc)|2025/08/06 21:08|
 |3480|[Maximize Subarrays After Removing One Conflicting Pair](https://leetcode.com/problems/maximize-subarrays-after-removing-one-conflicting-pair/)|[src/q_3451_3500/q3480.cc](../src/q_3451_3500/q3480.cc)|2025/07/26 14:26|

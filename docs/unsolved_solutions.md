@@ -1,6 +1,6 @@
 # Unsolved Solutions List
 
-There are **1878** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
+There are **1877** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
 
 The questions which have been solved are not shown in this page, more information about solved questions can be found at [docs/solved_solutions.md](./solved_solutions.md).
 
@@ -1782,7 +1782,6 @@ The questions which have been solved are not shown in this page, more informatio
 |3456|[Find Special Substring of Length K](https://leetcode.com/problems/find-special-substring-of-length-k/)|Easy||
 |3457|[Eat Pizzas!](https://leetcode.com/problems/eat-pizzas/)|Medium||
 |3458|[Select K Disjoint Special Substrings](https://leetcode.com/problems/select-k-disjoint-special-substrings/)|Medium||
-|3459|[Length of Longest V-Shaped Diagonal Segment](https://leetcode.com/problems/length-of-longest-v-shaped-diagonal-segment/)|Hard||
 |3460|[Longest Common Prefix After at Most One Removal](https://leetcode.com/problems/longest-common-prefix-after-at-most-one-removal/)|Medium|🔒|
 |3461|[Check If Digits Are Equal in String After Operations I](https://leetcode.com/problems/check-if-digits-are-equal-in-string-after-operations-i/)|Easy||
 |3462|[Maximum Sum With at Most K Elements](https://leetcode.com/problems/maximum-sum-with-at-most-k-elements/)|Medium||
