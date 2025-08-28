@@ -1,6 +1,6 @@
 # Unsolved Solutions List
 
-There are **1877** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
+There are **1876** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
 
 The questions which have been solved are not shown in this page, more information about solved questions can be found at [docs/solved_solutions.md](./solved_solutions.md).
 
@@ -1769,7 +1769,6 @@ The questions which have been solved are not shown in this page, more informatio
 |3438|[Find Valid Pair of Adjacent Digits in String](https://leetcode.com/problems/find-valid-pair-of-adjacent-digits-in-string/)|Easy||
 |3441|[Minimum Cost Good Caption](https://leetcode.com/problems/minimum-cost-good-caption/)|Hard||
 |3444|[Minimum Increments for Target Multiples in an Array](https://leetcode.com/problems/minimum-increments-for-target-multiples-in-an-array/)|Hard||
-|3446|[Sort Matrix by Diagonals](https://leetcode.com/problems/sort-matrix-by-diagonals/)|Medium||
 |3447|[Assign Elements to Groups with Constraints](https://leetcode.com/problems/assign-elements-to-groups-with-constraints/)|Medium||
 |3448|[Count Substrings Divisible By Last Digit](https://leetcode.com/problems/count-substrings-divisible-by-last-digit/)|Hard||
 |3449|[Maximize the Minimum Game Score](https://leetcode.com/problems/maximize-the-minimum-game-score/)|Hard||
