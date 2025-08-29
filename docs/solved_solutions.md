@@ -1,6 +1,6 @@
 # Solved Solutions List
 
-This document contains **1689** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
+This document contains **1690** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
 
 Some questions which are still being resolved are not shown in this page, more information about unsolved questions can be found at [docs/unsolved_solutions.md](./unsolved_solutions.md).
 
@@ -1577,6 +1577,7 @@ Some questions which are still being resolved are not shown in this page, more i
 |3014|[Minimum Number of Pushes to Type Word I](https://leetcode.com/problems/minimum-number-of-pushes-to-type-word-i/)|[src/q_3001_3050/q3014.cc](../src/q_3001_3050/q3014.cc)|2024/02/26 19:09|
 |3016|[Minimum Number of Pushes to Type Word II](https://leetcode.com/problems/minimum-number-of-pushes-to-type-word-ii/)|[src/q_3001_3050/q3016.cc](../src/q_3001_3050/q3016.cc)|2024/08/06 21:51|
 |3019|[Number of Changing Keys](https://leetcode.com/problems/number-of-changing-keys/)|[src/q_3001_3050/q3019.cc](../src/q_3001_3050/q3019.cc)|2024/02/27 20:40|
+|3021|[Alice and Bob Playing Flower Game](https://leetcode.com/problems/alice-and-bob-playing-flower-game/)|[src/q_3001_3050/q3021.cc](../src/q_3001_3050/q3021.cc)|2025/08/29 22:19|
 |3024|[Type of Triangle](https://leetcode.com/problems/type-of-triangle/)|[src/q_3001_3050/q3024.cc](../src/q_3001_3050/q3024.cc)|2024/02/28 19:05|
 |3028|[Ant on the Boundary](https://leetcode.com/problems/ant-on-the-boundary/)|[src/q_3001_3050/q3028.cc](../src/q_3001_3050/q3028.cc)|2024/02/29 20:35|
 |3033|[Modify the Matrix](https://leetcode.com/problems/modify-the-matrix/)|[src/q_3001_3050/q3033.cc](../src/q_3001_3050/q3033.cc)|2024/03/01 17:30|
