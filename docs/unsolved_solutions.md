@@ -1,6 +1,6 @@
 # Unsolved Solutions List
 
-There are **1873** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
+There are **1872** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
 
 The questions which have been solved are not shown in this page, more information about solved questions can be found at [docs/solved_solutions.md](./solved_solutions.md).
 
@@ -1830,7 +1830,6 @@ The questions which have been solved are not shown in this page, more informatio
 |3513|[Number of Unique XOR Triplets I](https://leetcode.com/problems/number-of-unique-xor-triplets-i/)|Medium||
 |3514|[Number of Unique XOR Triplets II](https://leetcode.com/problems/number-of-unique-xor-triplets-ii/)|Medium||
 |3515|[Shortest Path in a Weighted Tree](https://leetcode.com/problems/shortest-path-in-a-weighted-tree/)|Hard||
-|3516|[Find Closest Person](https://leetcode.com/problems/find-closest-person/)|Easy||
 |3517|[Smallest Palindromic Rearrangement I](https://leetcode.com/problems/smallest-palindromic-rearrangement-i/)|Medium||
 |3518|[Smallest Palindromic Rearrangement II](https://leetcode.com/problems/smallest-palindromic-rearrangement-ii/)|Hard||
 |3519|[Count Numbers with Non-Decreasing Digits ](https://leetcode.com/problems/count-numbers-with-non-decreasing-digits/)|Hard||

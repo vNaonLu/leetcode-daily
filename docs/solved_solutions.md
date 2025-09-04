@@ -1,6 +1,6 @@
 # Solved Solutions List
 
-This document contains **1692** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
+This document contains **1693** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
 
 Some questions which are still being resolved are not shown in this page, more information about unsolved questions can be found at [docs/unsolved_solutions.md](./unsolved_solutions.md).
 
@@ -1699,3 +1699,4 @@ Some questions which are still being resolved are not shown in this page, more i
 |3479|[Fruits Into Baskets III](https://leetcode.com/problems/fruits-into-baskets-iii/)|[src/q_3451_3500/q3479.cc](../src/q_3451_3500/q3479.cc)|2025/08/06 21:08|
 |3480|[Maximize Subarrays After Removing One Conflicting Pair](https://leetcode.com/problems/maximize-subarrays-after-removing-one-conflicting-pair/)|[src/q_3451_3500/q3480.cc](../src/q_3451_3500/q3480.cc)|2025/07/26 14:26|
 |3487|[Maximum Unique Subarray Sum After Deletion](https://leetcode.com/problems/maximum-unique-subarray-sum-after-deletion/)|[src/q_3451_3500/q3487.cc](../src/q_3451_3500/q3487.cc)|2025/07/25 19:00|
+|3516|[Find Closest Person](https://leetcode.com/problems/find-closest-person/)|[src/q_3501_3550/q3516.cc](../src/q_3501_3550/q3516.cc)|2025/09/04 21:12|
