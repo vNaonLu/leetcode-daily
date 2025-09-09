@@ -1,6 +1,6 @@
 # Unsolved Solutions List
 
-There are **1870** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
+There are **1869** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
 
 The questions which have been solved are not shown in this page, more information about solved questions can be found at [docs/solved_solutions.md](./solved_solutions.md).
 
@@ -1014,7 +1014,6 @@ The questions which have been solved are not shown in this page, more informatio
 |2321|[Maximum Score Of Spliced Array](https://leetcode.com/problems/maximum-score-of-spliced-array/)|Hard||
 |2323|[Find Minimum Time to Finish All Jobs II](https://leetcode.com/problems/find-minimum-time-to-finish-all-jobs-ii/)|Medium|🔒|
 |2324|[Product Sales Analysis IV](https://leetcode.com/problems/product-sales-analysis-iv/)|Medium|🔒|
-|2327|[Number of People Aware of a Secret](https://leetcode.com/problems/number-of-people-aware-of-a-secret/)|Medium||
 |2329|[Product Sales Analysis V](https://leetcode.com/problems/product-sales-analysis-v/)|Easy|🔒|
 |2330|[Valid Palindrome IV](https://leetcode.com/problems/valid-palindrome-iv/)|Medium|🔒|
 |2332|[The Latest Time to Catch a Bus](https://leetcode.com/problems/the-latest-time-to-catch-a-bus/)|Medium||

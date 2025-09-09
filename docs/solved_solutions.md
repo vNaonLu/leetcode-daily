@@ -1,6 +1,6 @@
 # Solved Solutions List
 
-This document contains **1695** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
+This document contains **1696** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
 
 Some questions which are still being resolved are not shown in this page, more information about unsolved questions can be found at [docs/unsolved_solutions.md](./unsolved_solutions.md).
 
@@ -1326,6 +1326,7 @@ Some questions which are still being resolved are not shown in this page, more i
 |2322|[Minimum Score After Removals on a Tree](https://leetcode.com/problems/minimum-score-after-removals-on-a-tree/)|[src/q_2301_2350/q2322.cc](../src/q_2301_2350/q2322.cc)|2025/07/24 21:08|
 |2325|[Decode the Message](https://leetcode.com/problems/decode-the-message/)|[src/q_2301_2350/q2325.cc](../src/q_2301_2350/q2325.cc)|2023/02/11 14:52|
 |2326|[Spiral Matrix IV](https://leetcode.com/problems/spiral-matrix-iv/)|[src/q_2301_2350/q2326.cc](../src/q_2301_2350/q2326.cc)|2024/09/09 21:34|
+|2327|[Number of People Aware of a Secret](https://leetcode.com/problems/number-of-people-aware-of-a-secret/)|[src/q_2301_2350/q2327.cc](../src/q_2301_2350/q2327.cc)|2025/09/09 19:04|
 |2328|[Number of Increasing Paths in a Grid](https://leetcode.com/problems/number-of-increasing-paths-in-a-grid/)|[src/q_2301_2350/q2328.cc](../src/q_2301_2350/q2328.cc)|2023/06/18 14:58|
 |2331|[Evaluate Boolean Binary Tree](https://leetcode.com/problems/evaluate-boolean-binary-tree/)|[src/q_2301_2350/q2331.cc](../src/q_2301_2350/q2331.cc)|2022/10/18 14:13|
 |2335|[Minimum Amount of Time to Fill Cups](https://leetcode.com/problems/minimum-amount-of-time-to-fill-cups/)|[src/q_2301_2350/q2335.cc](../src/q_2301_2350/q2335.cc)|2023/10/23 16:25|
