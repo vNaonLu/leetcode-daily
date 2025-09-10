@@ -1,6 +1,6 @@
 # Solved Solutions List
 
-This document contains **1696** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
+This document contains **1697** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
 
 Some questions which are still being resolved are not shown in this page, more information about unsolved questions can be found at [docs/unsolved_solutions.md](./unsolved_solutions.md).
 
@@ -1073,6 +1073,7 @@ Some questions which are still being resolved are not shown in this page, more i
 |1726|[Tuple with Same Product](https://leetcode.com/problems/tuple-with-same-product/)|[src/q_1701_1750/q1726.cc](../src/q_1701_1750/q1726.cc)|2025/02/06 20:08|
 |1727|[Largest Submatrix With Rearrangements](https://leetcode.com/problems/largest-submatrix-with-rearrangements/)|[src/q_1701_1750/q1727.cc](../src/q_1701_1750/q1727.cc)|2023/11/26 13:16|
 |1732|[Find the Highest Altitude](https://leetcode.com/problems/find-the-highest-altitude/)|[src/q_1701_1750/q1732.cc](../src/q_1701_1750/q1732.cc)|2022/12/23 12:01|
+|1733|[Minimum Number of People to Teach](https://leetcode.com/problems/minimum-number-of-people-to-teach/)|[src/q_1701_1750/q1733.cc](../src/q_1701_1750/q1733.cc)|2025/09/10 19:01|
 |1736|[Latest Time by Replacing Hidden Digits](https://leetcode.com/problems/latest-time-by-replacing-hidden-digits/)|[src/q_1701_1750/q1736.cc](../src/q_1701_1750/q1736.cc)|2023/09/06 08:44|
 |1742|[Maximum Number of Balls in a Box](https://leetcode.com/problems/maximum-number-of-balls-in-a-box/)|[src/q_1701_1750/q1742.cc](../src/q_1701_1750/q1742.cc)|2023/09/07 16:12|
 |1743|[Restore the Array From Adjacent Pairs](https://leetcode.com/problems/restore-the-array-from-adjacent-pairs/)|[src/q_1701_1750/q1743.cc](../src/q_1701_1750/q1743.cc)|2023/11/10 23:16|

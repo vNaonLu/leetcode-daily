@@ -1,6 +1,6 @@
 # Unsolved Solutions List
 
-There are **1869** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
+There are **1868** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
 
 The questions which have been solved are not shown in this page, more information about solved questions can be found at [docs/solved_solutions.md](./solved_solutions.md).
 
@@ -673,7 +673,6 @@ The questions which have been solved are not shown in this page, more informatio
 |1729|[Find Followers Count](https://leetcode.com/problems/find-followers-count/)|Easy||
 |1730|[Shortest Path to Get Food](https://leetcode.com/problems/shortest-path-to-get-food/)|Medium|🔒|
 |1731|[The Number of Employees Which Report to Each Employee](https://leetcode.com/problems/the-number-of-employees-which-report-to-each-employee/)|Easy||
-|1733|[Minimum Number of People to Teach](https://leetcode.com/problems/minimum-number-of-people-to-teach/)|Medium||
 |1734|[Decode XORed Permutation](https://leetcode.com/problems/decode-xored-permutation/)|Medium||
 |1735|[Count Ways to Make Array With Product](https://leetcode.com/problems/count-ways-to-make-array-with-product/)|Hard||
 |1737|[Change Minimum Characters to Satisfy One of Three Conditions](https://leetcode.com/problems/change-minimum-characters-to-satisfy-one-of-three-conditions/)|Medium||
