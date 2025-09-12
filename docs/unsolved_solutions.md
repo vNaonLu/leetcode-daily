@@ -1,6 +1,6 @@
 # Unsolved Solutions List
 
-There are **1868** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
+There are **1867** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
 
 The questions which have been solved are not shown in this page, more information about solved questions can be found at [docs/solved_solutions.md](./solved_solutions.md).
 
@@ -1597,7 +1597,6 @@ The questions which have been solved are not shown in this page, more informatio
 |3221|[Maximum Array Hopping Score II](https://leetcode.com/problems/maximum-array-hopping-score-ii/)|Medium|🔒|
 |3224|[Minimum Array Changes to Make Differences Equal](https://leetcode.com/problems/minimum-array-changes-to-make-differences-equal/)|Medium||
 |3225|[Maximum Score From Grid Operations](https://leetcode.com/problems/maximum-score-from-grid-operations/)|Hard||
-|3227|[Vowels Game in a String](https://leetcode.com/problems/vowels-game-in-a-string/)|Medium||
 |3228|[Maximum Number of Operations to Move Ones to the End](https://leetcode.com/problems/maximum-number-of-operations-to-move-ones-to-the-end/)|Medium||
 |3229|[Minimum Operations to Make Array Equal to Target](https://leetcode.com/problems/minimum-operations-to-make-array-equal-to-target/)|Hard||
 |3230|[Customer Purchasing Behavior Analysis](https://leetcode.com/problems/customer-purchasing-behavior-analysis/)|Medium|🔒|
