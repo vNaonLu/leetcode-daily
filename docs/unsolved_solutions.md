@@ -1,6 +1,6 @@
 # Unsolved Solutions List
 
-There are **1867** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
+There are **1866** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
 
 The questions which have been solved are not shown in this page, more information about solved questions can be found at [docs/solved_solutions.md](./solved_solutions.md).
 
@@ -287,7 +287,6 @@ The questions which have been solved are not shown in this page, more informatio
 |960|[Delete Columns to Make Sorted III](https://leetcode.com/problems/delete-columns-to-make-sorted-iii/)|Hard||
 |963|[Minimum Area Rectangle II](https://leetcode.com/problems/minimum-area-rectangle-ii/)|Medium||
 |964|[Least Operators to Express Number](https://leetcode.com/problems/least-operators-to-express-number/)|Hard||
-|966|[Vowel Spellchecker](https://leetcode.com/problems/vowel-spellchecker/)|Medium||
 |969|[Pancake Sorting](https://leetcode.com/problems/pancake-sorting/)|Medium||
 |970|[Powerful Integers](https://leetcode.com/problems/powerful-integers/)|Medium||
 |971|[Flip Binary Tree To Match Preorder Traversal](https://leetcode.com/problems/flip-binary-tree-to-match-preorder-traversal/)|Medium||

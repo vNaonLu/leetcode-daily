@@ -1,6 +1,6 @@
 # Solved Solutions List
 
-This document contains **1698** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
+This document contains **1699** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
 
 Some questions which are still being resolved are not shown in this page, more information about unsolved questions can be found at [docs/unsolved_solutions.md](./unsolved_solutions.md).
 
@@ -692,6 +692,7 @@ Some questions which are still being resolved are not shown in this page, more i
 |961|[N-Repeated Element in Size 2N Array](https://leetcode.com/problems/n-repeated-element-in-size-2n-array/)|[src/q_951_1000/q0961.cc](../src/q_951_1000/q0961.cc)|2023/07/20 20:54|
 |962|[Maximum Width Ramp](https://leetcode.com/problems/maximum-width-ramp/)|[src/q_951_1000/q0962.cc](../src/q_951_1000/q0962.cc)|2024/10/10 23:28|
 |965|[Univalued Binary Tree](https://leetcode.com/problems/univalued-binary-tree/)|[src/q_951_1000/q0965.cc](../src/q_951_1000/q0965.cc)|2022/10/12 14:54|
+|966|[Vowel Spellchecker](https://leetcode.com/problems/vowel-spellchecker/)|[src/q_951_1000/q0966.cc](../src/q_951_1000/q0966.cc)|2025/09/14 09:10|
 |967|[Numbers With Same Consecutive Differences](https://leetcode.com/problems/numbers-with-same-consecutive-differences/)|[src/q_951_1000/q0967.cc](../src/q_951_1000/q0967.cc)|2022/09/03 14:20|
 |968|[Binary Tree Cameras](https://leetcode.com/problems/binary-tree-cameras/)|[src/q_951_1000/q0968.cc](../src/q_951_1000/q0968.cc)|2022/06/17 23:09|
 |973|[K Closest Points to Origin](https://leetcode.com/problems/k-closest-points-to-origin/)|[src/q_951_1000/q0973.cc](../src/q_951_1000/q0973.cc)|2021/10/09 16:18|
