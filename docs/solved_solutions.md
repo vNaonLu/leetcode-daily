@@ -1,6 +1,6 @@
 # Solved Solutions List
 
-This document contains **1699** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
+This document contains **1700** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
 
 Some questions which are still being resolved are not shown in this page, more information about unsolved questions can be found at [docs/unsolved_solutions.md](./unsolved_solutions.md).
 
@@ -1274,6 +1274,7 @@ Some questions which are still being resolved are not shown in this page, more i
 |2192|[All Ancestors of a Node in a Directed Acyclic Graph](https://leetcode.com/problems/all-ancestors-of-a-node-in-a-directed-acyclic-graph/)|[src/q_2151_2200/q2192.cc](../src/q_2151_2200/q2192.cc)|2024/06/29 15:36|
 |2194|[Cells in a Range on an Excel Sheet](https://leetcode.com/problems/cells-in-a-range-on-an-excel-sheet/)|[src/q_2151_2200/q2194.cc](../src/q_2151_2200/q2194.cc)|2023/02/21 19:45|
 |2196|[Create Binary Tree From Descriptions](https://leetcode.com/problems/create-binary-tree-from-descriptions/)|[src/q_2151_2200/q2196.cc](../src/q_2151_2200/q2196.cc)|2024/07/15 20:21|
+|2197|[Replace Non-Coprime Numbers in Array](https://leetcode.com/problems/replace-non-coprime-numbers-in-array/)|[src/q_2151_2200/q2197.cc](../src/q_2151_2200/q2197.cc)|2025/09/16 10:51|
 |2200|[Find All K-Distant Indices in an Array](https://leetcode.com/problems/find-all-k-distant-indices-in-an-array/)|[src/q_2151_2200/q2200.cc](../src/q_2151_2200/q2200.cc)|2022/03/13 15:53|
 |2206|[Divide Array Into Equal Pairs](https://leetcode.com/problems/divide-array-into-equal-pairs/)|[src/q_2201_2250/q2206.cc](../src/q_2201_2250/q2206.cc)|2023/02/01 21:07|
 |2210|[Count Hills and Valleys in an Array](https://leetcode.com/problems/count-hills-and-valleys-in-an-array/)|[src/q_2201_2250/q2210.cc](../src/q_2201_2250/q2210.cc)|2023/03/09 02:49|
