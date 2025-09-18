@@ -1,6 +1,6 @@
 # Unsolved Solutions List
 
-There are **1865** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
+There are **1864** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
 
 The questions which have been solved are not shown in this page, more information about solved questions can be found at [docs/solved_solutions.md](./solved_solutions.md).
 
@@ -1728,7 +1728,6 @@ The questions which have been solved are not shown in this page, more informatio
 |3404|[Count Special Subsequences](https://leetcode.com/problems/count-special-subsequences/)|Medium||
 |3406|[Find the Lexicographically Largest String From the Box II](https://leetcode.com/problems/find-the-lexicographically-largest-string-from-the-box-ii/)|Hard|🔒|
 |3407|[Substring Matching Pattern](https://leetcode.com/problems/substring-matching-pattern/)|Easy||
-|3408|[Design Task Manager](https://leetcode.com/problems/design-task-manager/)|Medium||
 |3409|[Longest Subsequence With Decreasing Adjacent Difference](https://leetcode.com/problems/longest-subsequence-with-decreasing-adjacent-difference/)|Medium||
 |3410|[Maximize Subarray Sum After Removing All Occurrences of One Element](https://leetcode.com/problems/maximize-subarray-sum-after-removing-all-occurrences-of-one-element/)|Hard||
 |3411|[Maximum Subarray With Equal Products](https://leetcode.com/problems/maximum-subarray-with-equal-products/)|Easy||

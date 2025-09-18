@@ -1,6 +1,6 @@
 # Solved Solutions List
 
-This document contains **1700** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
+This document contains **1701** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
 
 Some questions which are still being resolved are not shown in this page, more information about unsolved questions can be found at [docs/unsolved_solutions.md](./unsolved_solutions.md).
 
@@ -1693,6 +1693,7 @@ Some questions which are still being resolved are not shown in this page, more i
 |3396|[Minimum Number of Operations to Make Elements in Array Distinct](https://leetcode.com/problems/minimum-number-of-operations-to-make-elements-in-array-distinct/)|[src/q_3351_3400/q3396.cc](../src/q_3351_3400/q3396.cc)|2025/04/08 19:46|
 |3403|[Find the Lexicographically Largest String From the Box I](https://leetcode.com/problems/find-the-lexicographically-largest-string-from-the-box-i/)|[src/q_3401_3450/q3403.cc](../src/q_3401_3450/q3403.cc)|2025/06/04 19:46|
 |3405|[Count the Number of Arrays with K Matching Adjacent Elements](https://leetcode.com/problems/count-the-number-of-arrays-with-k-matching-adjacent-elements/)|[src/q_3401_3450/q3405.cc](../src/q_3401_3450/q3405.cc)|2025/06/17 21:44|
+|3408|[Design Task Manager](https://leetcode.com/problems/design-task-manager/)|[src/q_3401_3450/q3408.cc](../src/q_3401_3450/q3408.cc)|2025/09/18 10:35|
 |3423|[Maximum Difference Between Adjacent Elements in a Circular Array](https://leetcode.com/problems/maximum-difference-between-adjacent-elements-in-a-circular-array/)|[src/q_3401_3450/q3423.cc](../src/q_3401_3450/q3423.cc)|2025/06/12 22:25|
 |3439|[Reschedule Meetings for Maximum Free Time I](https://leetcode.com/problems/reschedule-meetings-for-maximum-free-time-i/)|[src/q_3401_3450/q3439.cc](../src/q_3401_3450/q3439.cc)|2025/07/09 13:14|
 |3440|[Reschedule Meetings for Maximum Free Time II](https://leetcode.com/problems/reschedule-meetings-for-maximum-free-time-ii/)|[src/q_3401_3450/q3440.cc](../src/q_3401_3450/q3440.cc)|2025/07/10 22:42|
