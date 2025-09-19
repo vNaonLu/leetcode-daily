@@ -1,6 +1,6 @@
 # Unsolved Solutions List
 
-There are **1864** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
+There are **1863** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
 
 The questions which have been solved are not shown in this page, more information about solved questions can be found at [docs/solved_solutions.md](./solved_solutions.md).
 
@@ -1792,7 +1792,6 @@ The questions which have been solved are not shown in this page, more informatio
 |3481|[Apply Substitutions](https://leetcode.com/problems/apply-substitutions/)|Medium|🔒|
 |3482|[Analyze Organization Hierarchy](https://leetcode.com/problems/analyze-organization-hierarchy/)|Hard||
 |3483|[Unique 3-Digit Even Numbers](https://leetcode.com/problems/unique-3-digit-even-numbers/)|Easy||
-|3484|[Design Spreadsheet](https://leetcode.com/problems/design-spreadsheet/)|Medium||
 |3485|[Longest Common Prefix of K Strings After Removal](https://leetcode.com/problems/longest-common-prefix-of-k-strings-after-removal/)|Hard||
 |3486|[Longest Special Path II](https://leetcode.com/problems/longest-special-path-ii/)|Hard||
 |3488|[Closest Equal Element Queries](https://leetcode.com/problems/closest-equal-element-queries/)|Medium||
