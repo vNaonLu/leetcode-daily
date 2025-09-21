@@ -1,6 +1,6 @@
 # Unsolved Solutions List
 
-There are **1862** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
+There are **1861** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
 
 The questions which have been solved are not shown in this page, more information about solved questions can be found at [docs/solved_solutions.md](./solved_solutions.md).
 
@@ -1844,7 +1844,6 @@ The questions which have been solved are not shown in this page, more informatio
 |3538|[Merge Operations for Minimum Travel Time](https://leetcode.com/problems/merge-operations-for-minimum-travel-time/)|Hard||
 |3539|[Find Sum of Array Product of Magical Sequences](https://leetcode.com/problems/find-sum-of-array-product-of-magical-sequences/)|Hard||
 |3540|[Minimum Time to Visit All Houses](https://leetcode.com/problems/minimum-time-to-visit-all-houses/)|Medium|🔒|
-|3541|[Find Most Frequent Vowel and Consonant](https://leetcode.com/problems/find-most-frequent-vowel-and-consonant/)|Easy||
 |3542|[Minimum Operations to Convert All Elements to Zero](https://leetcode.com/problems/minimum-operations-to-convert-all-elements-to-zero/)|Medium||
 |3543|[Maximum Weighted K-Edge Path](https://leetcode.com/problems/maximum-weighted-k-edge-path/)|Medium||
 |3544|[Subtree Inversion Sum](https://leetcode.com/problems/subtree-inversion-sum/)|Hard||
