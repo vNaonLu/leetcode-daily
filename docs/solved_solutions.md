@@ -1,6 +1,6 @@
 # Solved Solutions List
 
-This document contains **1704** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
+This document contains **1705** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
 
 Some questions which are still being resolved are not shown in this page, more information about unsolved questions can be found at [docs/unsolved_solutions.md](./unsolved_solutions.md).
 
@@ -1605,6 +1605,7 @@ Some questions which are still being resolved are not shown in this page, more i
 |3095|[Shortest Subarray With OR at Least K I](https://leetcode.com/problems/shortest-subarray-with-or-at-least-k-i/)|[src/q_3051_3100/q3095.cc](../src/q_3051_3100/q3095.cc)|2024/04/02 20:23|
 |3097|[Shortest Subarray With OR at Least K II](https://leetcode.com/problems/shortest-subarray-with-or-at-least-k-ii/)|[src/q_3051_3100/q3097.cc](../src/q_3051_3100/q3097.cc)|2024/11/10 14:33|
 |3099|[Harshad Number](https://leetcode.com/problems/harshad-number/)|[src/q_3051_3100/q3099.cc](../src/q_3051_3100/q3099.cc)|2024/03/31 15:15|
+|3100|[Water Bottles II](https://leetcode.com/problems/water-bottles-ii/)|[src/q_3051_3100/q3100.cc](../src/q_3051_3100/q3100.cc)|2025/10/02 18:36|
 |3105|[Longest Strictly Increasing or Strictly Decreasing Subarray](https://leetcode.com/problems/longest-strictly-increasing-or-strictly-decreasing-subarray/)|[src/q_3101_3150/q3105.cc](../src/q_3101_3150/q3105.cc)|2024/04/08 22:46|
 |3108|[Minimum Cost Walk in Weighted Graph](https://leetcode.com/problems/minimum-cost-walk-in-weighted-graph/)|[src/q_3101_3150/q3108.cc](../src/q_3101_3150/q3108.cc)|2025/03/20 22:14|
 |3110|[Score of a String](https://leetcode.com/problems/score-of-a-string/)|[src/q_3101_3150/q3110.cc](../src/q_3101_3150/q3110.cc)|2024/04/14 10:35|

@@ -1,6 +1,6 @@
 # Unsolved Solutions List
 
-There are **1861** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
+There are **1860** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
 
 The questions which have been solved are not shown in this page, more information about solved questions can be found at [docs/solved_solutions.md](./solved_solutions.md).
 
@@ -1508,7 +1508,6 @@ The questions which have been solved are not shown in this page, more informatio
 |3094|[Guess the Number Using Bitwise Questions II](https://leetcode.com/problems/guess-the-number-using-bitwise-questions-ii/)|Medium|🔒|
 |3096|[Minimum Levels to Gain More Points](https://leetcode.com/problems/minimum-levels-to-gain-more-points/)|Medium||
 |3098|[Find the Sum of Subsequence Powers](https://leetcode.com/problems/find-the-sum-of-subsequence-powers/)|Hard||
-|3100|[Water Bottles II](https://leetcode.com/problems/water-bottles-ii/)|Medium||
 |3101|[Count Alternating Subarrays](https://leetcode.com/problems/count-alternating-subarrays/)|Medium||
 |3102|[Minimize Manhattan Distances](https://leetcode.com/problems/minimize-manhattan-distances/)|Hard||
 |3103|[Find Trending Hashtags II ](https://leetcode.com/problems/find-trending-hashtags-ii/)|Hard|🔒|
