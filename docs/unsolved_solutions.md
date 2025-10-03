@@ -1,6 +1,6 @@
 # Unsolved Solutions List
 
-There are **1860** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
+There are **1859** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
 
 The questions which have been solved are not shown in this page, more information about solved questions can be found at [docs/solved_solutions.md](./solved_solutions.md).
 
@@ -107,7 +107,6 @@ The questions which have been solved are not shown in this page, more informatio
 |379|[Design Phone Directory](https://leetcode.com/problems/design-phone-directory/)|Medium|🔒|
 |381|[Insert Delete GetRandom O(1) - Duplicates allowed](https://leetcode.com/problems/insert-delete-getrandom-o1-duplicates-allowed/)|Hard||
 |391|[Perfect Rectangle](https://leetcode.com/problems/perfect-rectangle/)|Hard||
-|407|[Trapping Rain Water II](https://leetcode.com/problems/trapping-rain-water-ii/)|Hard||
 |408|[Valid Word Abbreviation](https://leetcode.com/problems/valid-word-abbreviation/)|Easy|🔒|
 |411|[Minimum Unique Word Abbreviation](https://leetcode.com/problems/minimum-unique-word-abbreviation/)|Hard|🔒|
 |418|[Sentence Screen Fitting](https://leetcode.com/problems/sentence-screen-fitting/)|Medium|🔒|

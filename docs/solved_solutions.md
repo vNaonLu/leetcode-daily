@@ -1,6 +1,6 @@
 # Solved Solutions List
 
-This document contains **1705** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
+This document contains **1706** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
 
 Some questions which are still being resolved are not shown in this page, more information about unsolved questions can be found at [docs/unsolved_solutions.md](./unsolved_solutions.md).
 
@@ -313,6 +313,7 @@ Some questions which are still being resolved are not shown in this page, more i
 |404|[Sum of Left Leaves](https://leetcode.com/problems/sum-of-left-leaves/)|[src/q_401_450/q0404.cc](../src/q_401_450/q0404.cc)|2021/11/04 18:00|
 |405|[Convert a Number to Hexadecimal](https://leetcode.com/problems/convert-a-number-to-hexadecimal/)|[src/q_401_450/q0405.cc](../src/q_401_450/q0405.cc)|2022/05/30 18:20|
 |406|[Queue Reconstruction by Height](https://leetcode.com/problems/queue-reconstruction-by-height/)|[src/q_401_450/q0406.cc](../src/q_401_450/q0406.cc)|2022/06/29 18:37|
+|407|[Trapping Rain Water II](https://leetcode.com/problems/trapping-rain-water-ii/)|[src/q_401_450/q0407.cc](../src/q_401_450/q0407.cc)|2025/10/03 19:48|
 |409|[Longest Palindrome](https://leetcode.com/problems/longest-palindrome/)|[src/q_401_450/q0409.cc](../src/q_401_450/q0409.cc)|2021/09/24 16:11|
 |410|[Split Array Largest Sum](https://leetcode.com/problems/split-array-largest-sum/)|[src/q_401_450/q0410.cc](../src/q_401_450/q0410.cc)|2022/03/31 13:48|
 |412|[Fizz Buzz](https://leetcode.com/problems/fizz-buzz/)|[src/q_401_450/q0412.cc](../src/q_401_450/q0412.cc)|2022/08/31 18:11|
