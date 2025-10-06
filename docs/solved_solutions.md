@@ -1,6 +1,6 @@
 # Solved Solutions List
 
-This document contains **1706** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
+This document contains **1707** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
 
 Some questions which are still being resolved are not shown in this page, more information about unsolved questions can be found at [docs/unsolved_solutions.md](./unsolved_solutions.md).
 
@@ -542,6 +542,7 @@ Some questions which are still being resolved are not shown in this page, more i
 |773|[Sliding Puzzle](https://leetcode.com/problems/sliding-puzzle/)|[src/q_751_800/q0773.cc](../src/q_751_800/q0773.cc)|2024/11/25 21:23|
 |775|[Global and Local Inversions](https://leetcode.com/problems/global-and-local-inversions/)|[src/q_751_800/q0775.cc](../src/q_751_800/q0775.cc)|2024/07/10 21:13|
 |777|[Swap Adjacent in LR String](https://leetcode.com/problems/swap-adjacent-in-lr-string/)|[src/q_751_800/q0777.cc](../src/q_751_800/q0777.cc)|2024/07/01 20:37|
+|778|[Swim in Rising Water](https://leetcode.com/problems/swim-in-rising-water/)|[src/q_751_800/q0778.cc](../src/q_751_800/q0778.cc)|2025/10/06 14:19|
 |779|[K-th Symbol in Grammar](https://leetcode.com/problems/k-th-symbol-in-grammar/)|[src/q_751_800/q0779.cc](../src/q_751_800/q0779.cc)|2022/03/09 18:07|
 |781|[Rabbits in Forest](https://leetcode.com/problems/rabbits-in-forest/)|[src/q_751_800/q0781.cc](../src/q_751_800/q0781.cc)|2024/07/02 19:56|
 |782|[Transform to Chessboard](https://leetcode.com/problems/transform-to-chessboard/)|[src/q_751_800/q0782.cc](../src/q_751_800/q0782.cc)|2021/09/26 18:44|
