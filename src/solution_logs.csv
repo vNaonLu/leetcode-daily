@@ -1706,3 +1706,4 @@ timestamp,id,tc,sc,notes
 1759401367,3100,-,-,not calculated
 1759492128,407,-,-,not calculated
 1759731576,778,-,-,not calculated
+1759982150,3494,m * n,n,"n = |skill.size()|, m = |mana.size()|"

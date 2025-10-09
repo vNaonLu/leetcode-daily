@@ -1,6 +1,6 @@
 # Unsolved Solutions List
 
-There are **1858** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
+There are **1857** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
 
 The questions which have been solved are not shown in this page, more information about solved questions can be found at [docs/solved_solutions.md](./solved_solutions.md).
 
@@ -1797,7 +1797,6 @@ The questions which have been solved are not shown in this page, more informatio
 |3491|[Phone Number Prefix](https://leetcode.com/problems/phone-number-prefix/)|Easy|🔒|
 |3492|[Maximum Containers on a Ship](https://leetcode.com/problems/maximum-containers-on-a-ship/)|Easy||
 |3493|[Properties Graph](https://leetcode.com/problems/properties-graph/)|Medium||
-|3494|[Find the Minimum Amount of Time to Brew Potions](https://leetcode.com/problems/find-the-minimum-amount-of-time-to-brew-potions/)|Medium||
 |3496|[Maximize Score After Pair Deletions](https://leetcode.com/problems/maximize-score-after-pair-deletions/)|Medium|🔒|
 |3497|[Analyze Subscription Conversion ](https://leetcode.com/problems/analyze-subscription-conversion/)|Medium||
 |3498|[Reverse Degree of a String](https://leetcode.com/problems/reverse-degree-of-a-string/)|Easy||

@@ -1,6 +1,6 @@
 # Solved Solutions List
 
-This document contains **1707** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
+This document contains **1708** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
 
 Some questions which are still being resolved are not shown in this page, more information about unsolved questions can be found at [docs/unsolved_solutions.md](./unsolved_solutions.md).
 
@@ -1710,6 +1710,7 @@ Some questions which are still being resolved are not shown in this page, more i
 |3480|[Maximize Subarrays After Removing One Conflicting Pair](https://leetcode.com/problems/maximize-subarrays-after-removing-one-conflicting-pair/)|[src/q_3451_3500/q3480.cc](../src/q_3451_3500/q3480.cc)|2025/07/26 14:26|
 |3484|[Design Spreadsheet](https://leetcode.com/problems/design-spreadsheet/)|[src/q_3451_3500/q3484.cc](../src/q_3451_3500/q3484.cc)|2025/09/19 19:58|
 |3487|[Maximum Unique Subarray Sum After Deletion](https://leetcode.com/problems/maximum-unique-subarray-sum-after-deletion/)|[src/q_3451_3500/q3487.cc](../src/q_3451_3500/q3487.cc)|2025/07/25 19:00|
+|3494|[Find the Minimum Amount of Time to Brew Potions](https://leetcode.com/problems/find-the-minimum-amount-of-time-to-brew-potions/)|[src/q_3451_3500/q3494.cc](../src/q_3451_3500/q3494.cc)|2025/10/09 11:55|
 |3495|[Minimum Operations to Make Array Elements Zero](https://leetcode.com/problems/minimum-operations-to-make-array-elements-zero/)|[src/q_3451_3500/q3495.cc](../src/q_3451_3500/q3495.cc)|2025/09/06 21:09|
 |3508|[Implement Router](https://leetcode.com/problems/implement-router/)|[src/q_3501_3550/q3508.cc](../src/q_3501_3550/q3508.cc)|2025/09/20 12:01|
 |3516|[Find Closest Person](https://leetcode.com/problems/find-closest-person/)|[src/q_3501_3550/q3516.cc](../src/q_3501_3550/q3516.cc)|2025/09/04 21:12|
