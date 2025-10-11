@@ -1,6 +1,6 @@
 # Unsolved Solutions List
 
-There are **1856** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
+There are **1855** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
 
 The questions which have been solved are not shown in this page, more information about solved questions can be found at [docs/solved_solutions.md](./solved_solutions.md).
 
@@ -1567,7 +1567,6 @@ The questions which have been solved are not shown in this page, more informatio
 |3182|[Find Top Scoring Students](https://leetcode.com/problems/find-top-scoring-students/)|Medium|🔒|
 |3183|[The Number of Ways to Make the Sum](https://leetcode.com/problems/the-number-of-ways-to-make-the-sum/)|Medium|🔒|
 |3185|[Count Pairs That Form a Complete Day II](https://leetcode.com/problems/count-pairs-that-form-a-complete-day-ii/)|Medium||
-|3186|[Maximum Total Damage With Spell Casting](https://leetcode.com/problems/maximum-total-damage-with-spell-casting/)|Medium||
 |3187|[Peaks in Array](https://leetcode.com/problems/peaks-in-array/)|Hard||
 |3188|[Find Top Scoring Students II](https://leetcode.com/problems/find-top-scoring-students-ii/)|Hard|🔒|
 |3189|[Minimum Moves to Get a Peaceful Board](https://leetcode.com/problems/minimum-moves-to-get-a-peaceful-board/)|Medium|🔒|
