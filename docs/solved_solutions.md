@@ -1,6 +1,6 @@
 # Solved Solutions List
 
-This document contains **1710** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
+This document contains **1711** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
 
 Some questions which are still being resolved are not shown in this page, more information about unsolved questions can be found at [docs/unsolved_solutions.md](./unsolved_solutions.md).
 
@@ -1716,4 +1716,5 @@ Some questions which are still being resolved are not shown in this page, more i
 |3495|[Minimum Operations to Make Array Elements Zero](https://leetcode.com/problems/minimum-operations-to-make-array-elements-zero/)|[src/q_3451_3500/q3495.cc](../src/q_3451_3500/q3495.cc)|2025/09/06 21:09|
 |3508|[Implement Router](https://leetcode.com/problems/implement-router/)|[src/q_3501_3550/q3508.cc](../src/q_3501_3550/q3508.cc)|2025/09/20 12:01|
 |3516|[Find Closest Person](https://leetcode.com/problems/find-closest-person/)|[src/q_3501_3550/q3516.cc](../src/q_3501_3550/q3516.cc)|2025/09/04 21:12|
+|3539|[Find Sum of Array Product of Magical Sequences](https://leetcode.com/problems/find-sum-of-array-product-of-magical-sequences/)|[src/q_3501_3550/q3539.cc](../src/q_3501_3550/q3539.cc)|2025/10/12 10:44|
 |3541|[Find Most Frequent Vowel and Consonant](https://leetcode.com/problems/find-most-frequent-vowel-and-consonant/)|[src/q_3501_3550/q3541.cc](../src/q_3501_3550/q3541.cc)|2025/09/21 19:38|
