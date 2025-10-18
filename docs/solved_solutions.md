@@ -1,6 +1,6 @@
 # Solved Solutions List
 
-This document contains **1714** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
+This document contains **1715** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
 
 Some questions which are still being resolved are not shown in this page, more information about unsolved questions can be found at [docs/unsolved_solutions.md](./unsolved_solutions.md).
 
@@ -1699,6 +1699,7 @@ Some questions which are still being resolved are not shown in this page, more i
 |3392|[Count Subarrays of Length Three With a Condition](https://leetcode.com/problems/count-subarrays-of-length-three-with-a-condition/)|[src/q_3351_3400/q3392.cc](../src/q_3351_3400/q3392.cc)|2025/04/27 13:28|
 |3394|[Check if Grid can be Cut into Sections](https://leetcode.com/problems/check-if-grid-can-be-cut-into-sections/)|[src/q_3351_3400/q3394.cc](../src/q_3351_3400/q3394.cc)|2025/03/25 21:15|
 |3396|[Minimum Number of Operations to Make Elements in Array Distinct](https://leetcode.com/problems/minimum-number-of-operations-to-make-elements-in-array-distinct/)|[src/q_3351_3400/q3396.cc](../src/q_3351_3400/q3396.cc)|2025/04/08 18:46|
+|3397|[Maximum Number of Distinct Elements After Operations](https://leetcode.com/problems/maximum-number-of-distinct-elements-after-operations/)|[src/q_3351_3400/q3397.cc](../src/q_3351_3400/q3397.cc)|2025/10/18 22:34|
 |3403|[Find the Lexicographically Largest String From the Box I](https://leetcode.com/problems/find-the-lexicographically-largest-string-from-the-box-i/)|[src/q_3401_3450/q3403.cc](../src/q_3401_3450/q3403.cc)|2025/06/04 18:46|
 |3405|[Count the Number of Arrays with K Matching Adjacent Elements](https://leetcode.com/problems/count-the-number-of-arrays-with-k-matching-adjacent-elements/)|[src/q_3401_3450/q3405.cc](../src/q_3401_3450/q3405.cc)|2025/06/17 20:44|
 |3408|[Design Task Manager](https://leetcode.com/problems/design-task-manager/)|[src/q_3401_3450/q3408.cc](../src/q_3401_3450/q3408.cc)|2025/09/18 09:35|
