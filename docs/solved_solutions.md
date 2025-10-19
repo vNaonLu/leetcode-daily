@@ -1,6 +1,6 @@
 # Solved Solutions List
 
-This document contains **1715** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
+This document contains **1716** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
 
 Some questions which are still being resolved are not shown in this page, more information about unsolved questions can be found at [docs/unsolved_solutions.md](./unsolved_solutions.md).
 
@@ -1022,6 +1022,7 @@ Some questions which are still being resolved are not shown in this page, more i
 |1615|[Maximal Network Rank](https://leetcode.com/problems/maximal-network-rank/)|[src/q_1601_1650/q1615.cc](../src/q_1601_1650/q1615.cc)|2022/03/23 18:34|
 |1619|[Mean of Array After Removing Some Elements](https://leetcode.com/problems/mean-of-array-after-removing-some-elements/)|[src/q_1601_1650/q1619.cc](../src/q_1601_1650/q1619.cc)|2023/09/01 19:59|
 |1624|[Largest Substring Between Two Equal Characters](https://leetcode.com/problems/largest-substring-between-two-equal-characters/)|[src/q_1601_1650/q1624.cc](../src/q_1601_1650/q1624.cc)|2023/09/03 08:08|
+|1625|[Lexicographically Smallest String After Applying Operations](https://leetcode.com/problems/lexicographically-smallest-string-after-applying-operations/)|[src/q_1601_1650/q1625.cc](../src/q_1601_1650/q1625.cc)|2025/10/19 17:52|
 |1626|[Best Team With No Conflicts](https://leetcode.com/problems/best-team-with-no-conflicts/)|[src/q_1601_1650/q1626.cc](../src/q_1601_1650/q1626.cc)|2023/01/31 20:56|
 |1629|[Slowest Key](https://leetcode.com/problems/slowest-key/)|[src/q_1601_1650/q1629.cc](../src/q_1601_1650/q1629.cc)|2021/09/06 08:00|
 |1630|[Arithmetic Subarrays](https://leetcode.com/problems/arithmetic-subarrays/)|[src/q_1601_1650/q1630.cc](../src/q_1601_1650/q1630.cc)|2022/05/04 18:04|
