@@ -1,6 +1,6 @@
 # Unsolved Solutions List
 
-There are **1848** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
+There are **1847** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
 
 The questions which have been solved are not shown in this page, more information about solved questions can be found at [docs/solved_solutions.md](./solved_solutions.md).
 
@@ -1676,7 +1676,6 @@ The questions which have been solved are not shown in this page, more informatio
 |3338|[Second Highest Salary II](https://leetcode.com/problems/second-highest-salary-ii/)|Medium|🔒|
 |3339|[Find the Number of K-Even Arrays](https://leetcode.com/problems/find-the-number-of-k-even-arrays/)|Medium|🔒|
 |3344|[Maximum Sized Array](https://leetcode.com/problems/maximum-sized-array/)|Medium|🔒|
-|3347|[Maximum Frequency of an Element After Performing Operations II](https://leetcode.com/problems/maximum-frequency-of-an-element-after-performing-operations-ii/)|Hard||
 |3348|[Smallest Divisible Digit Product II](https://leetcode.com/problems/smallest-divisible-digit-product-ii/)|Hard||
 |3351|[Sum of Good Subsequences](https://leetcode.com/problems/sum-of-good-subsequences/)|Hard||
 |3352|[Count K-Reducible Numbers Less Than N](https://leetcode.com/problems/count-k-reducible-numbers-less-than-n/)|Hard||

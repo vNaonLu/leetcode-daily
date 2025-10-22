@@ -1,6 +1,6 @@
 # Solved Solutions List
 
-This document contains **1717** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
+This document contains **1718** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
 
 Some questions which are still being resolved are not shown in this page, more information about unsolved questions can be found at [docs/unsolved_solutions.md](./unsolved_solutions.md).
 
@@ -1684,6 +1684,7 @@ Some questions which are still being resolved are not shown in this page, more i
 |3343|[Count Number of Balanced Permutations](https://leetcode.com/problems/count-number-of-balanced-permutations/)|[src/q_3301_3350/q3343.cc](../src/q_3301_3350/q3343.cc)|2025/05/09 20:04|
 |3345|[Smallest Divisible Digit Product I](https://leetcode.com/problems/smallest-divisible-digit-product-i/)|[src/q_3301_3350/q3345.cc](../src/q_3301_3350/q3345.cc)|2024/11/15 20:53|
 |3346|[Maximum Frequency of an Element After Performing Operations I](https://leetcode.com/problems/maximum-frequency-of-an-element-after-performing-operations-i/)|[src/q_3301_3350/q3346.cc](../src/q_3301_3350/q3346.cc)|2025/10/21 18:55|
+|3347|[Maximum Frequency of an Element After Performing Operations II](https://leetcode.com/problems/maximum-frequency-of-an-element-after-performing-operations-ii/)|[src/q_3301_3350/q3347.cc](../src/q_3301_3350/q3347.cc)|2025/10/22 20:42|
 |3349|[Adjacent Increasing Subarrays Detection I](https://leetcode.com/problems/adjacent-increasing-subarrays-detection-i/)|[src/q_3301_3350/q3349.cc](../src/q_3301_3350/q3349.cc)|2024/11/17 12:22|
 |3350|[Adjacent Increasing Subarrays Detection II](https://leetcode.com/problems/adjacent-increasing-subarrays-detection-ii/)|[src/q_3301_3350/q3350.cc](../src/q_3301_3350/q3350.cc)|2025/10/15 19:21|
 |3354|[Make Array Elements Equal to Zero](https://leetcode.com/problems/make-array-elements-equal-to-zero/)|[src/q_3351_3400/q3354.cc](../src/q_3351_3400/q3354.cc)|2024/11/18 20:43|
