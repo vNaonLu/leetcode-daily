@@ -1,6 +1,6 @@
 # Solved Solutions List
 
-This document contains **1719** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
+This document contains **1720** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
 
 Some questions which are still being resolved are not shown in this page, more information about unsolved questions can be found at [docs/unsolved_solutions.md](./unsolved_solutions.md).
 
@@ -1211,6 +1211,7 @@ Some questions which are still being resolved are not shown in this page, more i
 |2044|[Count Number of Maximum Bitwise-OR Subsets](https://leetcode.com/problems/count-number-of-maximum-bitwise-or-subsets/)|[src/q_2001_2050/q2044.cc](../src/q_2001_2050/q2044.cc)|2024/10/18 17:09|
 |2045|[Second Minimum Time to Reach Destination](https://leetcode.com/problems/second-minimum-time-to-reach-destination/)|[src/q_2001_2050/q2045.cc](../src/q_2001_2050/q2045.cc)|2024/07/28 14:33|
 |2047|[Number of Valid Words in a Sentence](https://leetcode.com/problems/number-of-valid-words-in-a-sentence/)|[src/q_2001_2050/q2047.cc](../src/q_2001_2050/q2047.cc)|2023/09/24 12:25|
+|2048|[Next Greater Numerically Balanced Number](https://leetcode.com/problems/next-greater-numerically-balanced-number/)|[src/q_2001_2050/q2048.cc](../src/q_2001_2050/q2048.cc)|2025/10/24 14:50|
 |2050|[Parallel Courses III](https://leetcode.com/problems/parallel-courses-iii/)|[src/q_2001_2050/q2050.cc](../src/q_2001_2050/q2050.cc)|2023/10/18 19:39|
 |2053|[Kth Distinct String in an Array](https://leetcode.com/problems/kth-distinct-string-in-an-array/)|[src/q_2051_2100/q2053.cc](../src/q_2051_2100/q2053.cc)|2023/01/05 16:23|
 |2054|[Two Best Non-Overlapping Events](https://leetcode.com/problems/two-best-non-overlapping-events/)|[src/q_2051_2100/q2054.cc](../src/q_2051_2100/q2054.cc)|2024/12/08 14:10|
