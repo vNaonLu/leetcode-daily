@@ -1,6 +1,6 @@
 # Solved Solutions List
 
-This document contains **1721** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
+This document contains **1722** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
 
 Some questions which are still being resolved are not shown in this page, more information about unsolved questions can be found at [docs/unsolved_solutions.md](./unsolved_solutions.md).
 
@@ -977,6 +977,7 @@ Some questions which are still being resolved are not shown in this page, more i
 |1519|[Number of Nodes in the Sub-Tree With the Same Label](https://leetcode.com/problems/number-of-nodes-in-the-sub-tree-with-the-same-label/)|[src/q_1501_1550/q1519.cc](../src/q_1501_1550/q1519.cc)|2023/01/12 16:04|
 |1523|[Count Odd Numbers in an Interval Range](https://leetcode.com/problems/count-odd-numbers-in-an-interval-range/)|[src/q_1501_1550/q1523.cc](../src/q_1501_1550/q1523.cc)|2022/04/14 18:37|
 |1524|[Number of Sub-arrays With Odd Sum](https://leetcode.com/problems/number-of-sub-arrays-with-odd-sum/)|[src/q_1501_1550/q1524.cc](../src/q_1501_1550/q1524.cc)|2025/02/25 13:54|
+|1526|[Minimum Number of Increments on Subarrays to Form a Target Array](https://leetcode.com/problems/minimum-number-of-increments-on-subarrays-to-form-a-target-array/)|[src/q_1501_1550/q1526.cc](../src/q_1501_1550/q1526.cc)|2025/10/30 19:52|
 |1528|[Shuffle String](https://leetcode.com/problems/shuffle-string/)|[src/q_1501_1550/q1528.cc](../src/q_1501_1550/q1528.cc)|2023/08/24 19:54|
 |1529|[Minimum Suffix Flips](https://leetcode.com/problems/minimum-suffix-flips/)|[src/q_1501_1550/q1529.cc](../src/q_1501_1550/q1529.cc)|2022/02/12 00:03|
 |1530|[Number of Good Leaf Nodes Pairs](https://leetcode.com/problems/number-of-good-leaf-nodes-pairs/)|[src/q_1501_1550/q1530.cc](../src/q_1501_1550/q1530.cc)|2024/07/18 20:27|
