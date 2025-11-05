@@ -1,6 +1,6 @@
 # Unsolved Solutions List
 
-There are **1843** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
+There are **1842** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
 
 The questions which have been solved are not shown in this page, more information about solved questions can be found at [docs/solved_solutions.md](./solved_solutions.md).
 
@@ -1657,7 +1657,6 @@ The questions which have been solved are not shown in this page, more informatio
 |3317|[Find the Number of Possible Ways for an Event](https://leetcode.com/problems/find-the-number-of-possible-ways-for-an-event/)|Hard||
 |3319|[K-th Largest Perfect Subtree Size in Binary Tree](https://leetcode.com/problems/k-th-largest-perfect-subtree-size-in-binary-tree/)|Medium||
 |3320|[Count The Number of Winning Sequences](https://leetcode.com/problems/count-the-number-of-winning-sequences/)|Hard||
-|3321|[Find X-Sum of All K-Long Subarrays II](https://leetcode.com/problems/find-x-sum-of-all-k-long-subarrays-ii/)|Hard||
 |3322|[Premier League Table Ranking III](https://leetcode.com/problems/premier-league-table-ranking-iii/)|Medium|🔒|
 |3323|[Minimize Connected Groups by Inserting Interval](https://leetcode.com/problems/minimize-connected-groups-by-inserting-interval/)|Medium|🔒|
 |3324|[Find the Sequence of Strings Appeared on the Screen](https://leetcode.com/problems/find-the-sequence-of-strings-appeared-on-the-screen/)|Medium||
