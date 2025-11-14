@@ -1,6 +1,6 @@
 # Unsolved Solutions List
 
-There are **2007** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
+There are **2006** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
 
 The questions which have been solved are not shown in this page, more information about solved questions can be found at [docs/solved_solutions.md](./solved_solutions.md).
 
@@ -1112,7 +1112,6 @@ The questions which have been solved are not shown in this page, more informatio
 |2532|[Time to Cross a Bridge](https://leetcode.com/problems/time-to-cross-a-bridge/)|Hard||
 |2533|[Number of Good Binary Strings](https://leetcode.com/problems/number-of-good-binary-strings/)|Medium|🔒|
 |2534|[Time Taken to Cross the Door](https://leetcode.com/problems/time-taken-to-cross-the-door/)|Hard|🔒|
-|2536|[Increment Submatrices by One](https://leetcode.com/problems/increment-submatrices-by-one/)|Medium||
 |2538|[Difference Between Maximum and Minimum Price Sum](https://leetcode.com/problems/difference-between-maximum-and-minimum-price-sum/)|Hard||
 |2539|[Count the Number of Good Subsequences](https://leetcode.com/problems/count-the-number-of-good-subsequences/)|Medium|🔒|
 |2541|[Minimum Operations to Make Array Equal II](https://leetcode.com/problems/minimum-operations-to-make-array-equal-ii/)|Medium||
