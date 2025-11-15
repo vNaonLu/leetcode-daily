@@ -1,6 +1,6 @@
 # Unsolved Solutions List
 
-There are **2006** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
+There are **2005** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
 
 The questions which have been solved are not shown in this page, more information about solved questions can be found at [docs/solved_solutions.md](./solved_solutions.md).
 
@@ -1585,7 +1585,6 @@ The questions which have been solved are not shown in this page, more informatio
 |3230|[Customer Purchasing Behavior Analysis](https://leetcode.com/problems/customer-purchasing-behavior-analysis/)|Medium|🔒|
 |3231|[Minimum Number of Increasing Subsequence to Be Removed](https://leetcode.com/problems/minimum-number-of-increasing-subsequence-to-be-removed/)|Hard|🔒|
 |3233|[Find the Count of Numbers Which Are Not Special](https://leetcode.com/problems/find-the-count-of-numbers-which-are-not-special/)|Medium||
-|3234|[Count the Number of Substrings With Dominant Ones](https://leetcode.com/problems/count-the-number-of-substrings-with-dominant-ones/)|Medium||
 |3235|[Check if the Rectangle Corner Is Reachable](https://leetcode.com/problems/check-if-the-rectangle-corner-is-reachable/)|Hard||
 |3236|[CEO Subordinate Hierarchy](https://leetcode.com/problems/ceo-subordinate-hierarchy/)|Hard|🔒|
 |3237|[Alt and Tab Simulation](https://leetcode.com/problems/alt-and-tab-simulation/)|Medium|🔒|

@@ -1,6 +1,6 @@
 # Solved Solutions List
 
-This document contains **1729** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
+This document contains **1730** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
 
 Some questions which are still being resolved are not shown in this page, more information about unsolved questions can be found at [docs/unsolved_solutions.md](./unsolved_solutions.md).
 
@@ -1662,6 +1662,7 @@ Some questions which are still being resolved are not shown in this page, more i
 |3227|[Vowels Game in a String](https://leetcode.com/problems/vowels-game-in-a-string/)|[src/q_3201_3250/q3227.cc](../src/q_3201_3250/q3227.cc)|2025/09/13 07:05|
 |3228|[Maximum Number of Operations to Move Ones to the End](https://leetcode.com/problems/maximum-number-of-operations-to-move-ones-to-the-end/)|[src/q_3201_3250/q3228.cc](../src/q_3201_3250/q3228.cc)|2025/11/13 19:16|
 |3232|[Find if Digit Game Can Be Won](https://leetcode.com/problems/find-if-digit-game-can-be-won/)|[src/q_3201_3250/q3232.cc](../src/q_3201_3250/q3232.cc)|2024/08/01 19:10|
+|3234|[Count the Number of Substrings With Dominant Ones](https://leetcode.com/problems/count-the-number-of-substrings-with-dominant-ones/)|[src/q_3201_3250/q3234.cc](../src/q_3201_3250/q3234.cc)|2025/11/15 16:11|
 |3238|[Find the Number of Winning Players](https://leetcode.com/problems/find-the-number-of-winning-players/)|[src/q_3201_3250/q3238.cc](../src/q_3201_3250/q3238.cc)|2024/08/12 21:36|
 |3242|[Design Neighbor Sum Service](https://leetcode.com/problems/design-neighbor-sum-service/)|[src/q_3201_3250/q3242.cc](../src/q_3201_3250/q3242.cc)|2024/08/26 21:23|
 |3243|[Shortest Distance After Road Addition Queries I](https://leetcode.com/problems/shortest-distance-after-road-addition-queries-i/)|[src/q_3201_3250/q3243.cc](../src/q_3201_3250/q3243.cc)|2024/11/28 22:19|
