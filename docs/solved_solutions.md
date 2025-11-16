@@ -1,6 +1,6 @@
 # Solved Solutions List
 
-This document contains **1730** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
+This document contains **1731** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
 
 Some questions which are still being resolved are not shown in this page, more information about unsolved questions can be found at [docs/unsolved_solutions.md](./unsolved_solutions.md).
 
@@ -972,6 +972,7 @@ Some questions which are still being resolved are not shown in this page, more i
 |1509|[Minimum Difference Between Largest and Smallest Value in Three Moves](https://leetcode.com/problems/minimum-difference-between-largest-and-smallest-value-in-three-moves/)|[src/q_1501_1550/q1509.cc](../src/q_1501_1550/q1509.cc)|2022/02/16 18:35|
 |1510|[Stone Game IV](https://leetcode.com/problems/stone-game-iv/)|[src/q_1501_1550/q1510.cc](../src/q_1501_1550/q1510.cc)|2022/01/22 13:57|
 |1512|[Number of Good Pairs](https://leetcode.com/problems/number-of-good-pairs/)|[src/q_1501_1550/q1512.cc](../src/q_1501_1550/q1512.cc)|2022/12/07 19:34|
+|1513|[Number of Substrings With Only 1s](https://leetcode.com/problems/number-of-substrings-with-only-1s/)|[src/q_1501_1550/q1513.cc](../src/q_1501_1550/q1513.cc)|2025/11/16 10:26|
 |1514|[Path with Maximum Probability](https://leetcode.com/problems/path-with-maximum-probability/)|[src/q_1501_1550/q1514.cc](../src/q_1501_1550/q1514.cc)|2023/06/28 21:18|
 |1518|[Water Bottles](https://leetcode.com/problems/water-bottles/)|[src/q_1501_1550/q1518.cc](../src/q_1501_1550/q1518.cc)|2023/08/23 20:18|
 |1519|[Number of Nodes in the Sub-Tree With the Same Label](https://leetcode.com/problems/number-of-nodes-in-the-sub-tree-with-the-same-label/)|[src/q_1501_1550/q1519.cc](../src/q_1501_1550/q1519.cc)|2023/01/12 16:04|
