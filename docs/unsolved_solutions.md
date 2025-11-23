@@ -1,6 +1,6 @@
 # Unsolved Solutions List
 
-There are **2003** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
+There are **2002** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
 
 The questions which have been solved are not shown in this page, more information about solved questions can be found at [docs/solved_solutions.md](./solved_solutions.md).
 
@@ -445,7 +445,6 @@ The questions which have been solved are not shown in this page, more informatio
 |1257|[Smallest Common Region](https://leetcode.com/problems/smallest-common-region/)|Medium|🔒|
 |1258|[Synonymous Sentences](https://leetcode.com/problems/synonymous-sentences/)|Medium|🔒|
 |1259|[Handshakes That Don't Cross](https://leetcode.com/problems/handshakes-that-dont-cross/)|Hard|🔒|
-|1262|[Greatest Sum Divisible by Three](https://leetcode.com/problems/greatest-sum-divisible-by-three/)|Medium||
 |1263|[Minimum Moves to Move a Box to Their Target Location](https://leetcode.com/problems/minimum-moves-to-move-a-box-to-their-target-location/)|Hard||
 |1264|[Page Recommendations](https://leetcode.com/problems/page-recommendations/)|Medium|🔒|
 |1265|[Print Immutable Linked List in Reverse](https://leetcode.com/problems/print-immutable-linked-list-in-reverse/)|Medium|🔒|
