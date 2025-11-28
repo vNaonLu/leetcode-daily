@@ -1,6 +1,6 @@
 # Unsolved Solutions List
 
-There are **2001** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
+There are **2000** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
 
 The questions which have been solved are not shown in this page, more information about solved questions can be found at [docs/solved_solutions.md](./solved_solutions.md).
 
@@ -1683,7 +1683,6 @@ The questions which have been solved are not shown in this page, more informatio
 |3377|[Digit Operations to Make Two Integers Equal](https://leetcode.com/problems/digit-operations-to-make-two-integers-equal/)|Medium||
 |3378|[Count Connected Components in LCM Graph](https://leetcode.com/problems/count-connected-components-in-lcm-graph/)|Hard||
 |3380|[Maximum Area Rectangle With Point Constraints I](https://leetcode.com/problems/maximum-area-rectangle-with-point-constraints-i/)|Medium||
-|3381|[Maximum Subarray Sum With Length Divisible by K](https://leetcode.com/problems/maximum-subarray-sum-with-length-divisible-by-k/)|Medium||
 |3382|[Maximum Area Rectangle With Point Constraints II](https://leetcode.com/problems/maximum-area-rectangle-with-point-constraints-ii/)|Hard||
 |3383|[Minimum Runes to Add to Cast Spell](https://leetcode.com/problems/minimum-runes-to-add-to-cast-spell/)|Hard|🔒|
 |3384|[Team Dominance by Pass Success](https://leetcode.com/problems/team-dominance-by-pass-success/)|Hard|🔒|

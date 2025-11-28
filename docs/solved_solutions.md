@@ -1,6 +1,6 @@
 # Solved Solutions List
 
-This document contains **1734** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
+This document contains **1735** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
 
 Some questions which are still being resolved are not shown in this page, more information about unsolved questions can be found at [docs/unsolved_solutions.md](./unsolved_solutions.md).
 
@@ -1711,6 +1711,7 @@ Some questions which are still being resolved are not shown in this page, more i
 |3372|[Maximize the Number of Target Nodes After Connecting Trees I](https://leetcode.com/problems/maximize-the-number-of-target-nodes-after-connecting-trees-i/)|[src/q_3351_3400/q3372.cc](../src/q_3351_3400/q3372.cc)|2025/05/28 19:17|
 |3375|[Minimum Operations to Make Array Values Equal to K](https://leetcode.com/problems/minimum-operations-to-make-array-values-equal-to-k/)|[src/q_3351_3400/q3375.cc](../src/q_3351_3400/q3375.cc)|2024/12/18 22:19|
 |3379|[Transformed Array](https://leetcode.com/problems/transformed-array/)|[src/q_3351_3400/q3379.cc](../src/q_3351_3400/q3379.cc)|2024/12/25 19:16|
+|3381|[Maximum Subarray Sum With Length Divisible by K](https://leetcode.com/problems/maximum-subarray-sum-with-length-divisible-by-k/)|[src/q_3351_3400/q3381.cc](../src/q_3351_3400/q3381.cc)|2025/11/28 19:13|
 |3386|[Button with Longest Push Time](https://leetcode.com/problems/button-with-longest-push-time/)|[src/q_3351_3400/q3386.cc](../src/q_3351_3400/q3386.cc)|2024/12/26 15:19|
 |3392|[Count Subarrays of Length Three With a Condition](https://leetcode.com/problems/count-subarrays-of-length-three-with-a-condition/)|[src/q_3351_3400/q3392.cc](../src/q_3351_3400/q3392.cc)|2025/04/27 13:28|
 |3394|[Check if Grid can be Cut into Sections](https://leetcode.com/problems/check-if-grid-can-be-cut-into-sections/)|[src/q_3351_3400/q3394.cc](../src/q_3351_3400/q3394.cc)|2025/03/25 21:15|
