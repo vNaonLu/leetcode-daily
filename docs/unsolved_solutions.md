@@ -1,6 +1,6 @@
 # Unsolved Solutions List
 
-There are **1997** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
+There are **1996** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
 
 The questions which have been solved are not shown in this page, more information about solved questions can be found at [docs/solved_solutions.md](./solved_solutions.md).
 
@@ -937,7 +937,6 @@ The questions which have been solved are not shown in this page, more informatio
 |2207|[Maximize Number of Subsequences in a String](https://leetcode.com/problems/maximize-number-of-subsequences-in-a-string/)|Medium||
 |2208|[Minimum Operations to Halve Array Sum](https://leetcode.com/problems/minimum-operations-to-halve-array-sum/)|Medium||
 |2209|[Minimum White Tiles After Covering With Carpets](https://leetcode.com/problems/minimum-white-tiles-after-covering-with-carpets/)|Hard||
-|2211|[Count Collisions on a Road](https://leetcode.com/problems/count-collisions-on-a-road/)|Medium||
 |2212|[Maximum Points in an Archery Competition](https://leetcode.com/problems/maximum-points-in-an-archery-competition/)|Medium||
 |2213|[Longest Substring of One Repeating Character](https://leetcode.com/problems/longest-substring-of-one-repeating-character/)|Hard||
 |2214|[Minimum Health to Beat Game](https://leetcode.com/problems/minimum-health-to-beat-game/)|Medium|🔒|

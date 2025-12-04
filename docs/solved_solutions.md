@@ -1,6 +1,6 @@
 # Solved Solutions List
 
-This document contains **1738** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
+This document contains **1739** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
 
 Some questions which are still being resolved are not shown in this page, more information about unsolved questions can be found at [docs/unsolved_solutions.md](./unsolved_solutions.md).
 
@@ -1287,6 +1287,7 @@ Some questions which are still being resolved are not shown in this page, more i
 |2200|[Find All K-Distant Indices in an Array](https://leetcode.com/problems/find-all-k-distant-indices-in-an-array/)|[src/q_2151_2200/q2200.cc](../src/q_2151_2200/q2200.cc)|2022/03/13 14:53|
 |2206|[Divide Array Into Equal Pairs](https://leetcode.com/problems/divide-array-into-equal-pairs/)|[src/q_2201_2250/q2206.cc](../src/q_2201_2250/q2206.cc)|2023/02/01 20:07|
 |2210|[Count Hills and Valleys in an Array](https://leetcode.com/problems/count-hills-and-valleys-in-an-array/)|[src/q_2201_2250/q2210.cc](../src/q_2201_2250/q2210.cc)|2023/03/09 01:49|
+|2211|[Count Collisions on a Road](https://leetcode.com/problems/count-collisions-on-a-road/)|[src/q_2201_2250/q2211.cc](../src/q_2201_2250/q2211.cc)|2025/12/04 21:20|
 |2215|[Find the Difference of Two Arrays](https://leetcode.com/problems/find-the-difference-of-two-arrays/)|[src/q_2201_2250/q2215.cc](../src/q_2201_2250/q2215.cc)|2023/02/08 18:17|
 |2218|[Maximum Value of K Coins From Piles](https://leetcode.com/problems/maximum-value-of-k-coins-from-piles/)|[src/q_2201_2250/q2218.cc](../src/q_2201_2250/q2218.cc)|2023/04/15 12:54|
 |2220|[Minimum Bit Flips to Convert Number](https://leetcode.com/problems/minimum-bit-flips-to-convert-number/)|[src/q_2201_2250/q2220.cc](../src/q_2201_2250/q2220.cc)|2023/02/26 15:51|
