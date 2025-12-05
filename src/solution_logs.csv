@@ -1738,3 +1738,4 @@ timestamp,id,tc,sc,notes
 1764672529,3623,-,-,not calculated
 1764763157,3625,-,-,not calculated
 1764854408,2211,-,-,not calculated
+1764917483,3432,n,1,n = |nums.size()|
