@@ -1,6 +1,6 @@
 # Unsolved Solutions List
 
-There are **1994** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
+There are **1993** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
 
 The questions which have been solved are not shown in this page, more information about solved questions can be found at [docs/solved_solutions.md](./solved_solutions.md).
 
@@ -1851,7 +1851,6 @@ The questions which have been solved are not shown in this page, more informatio
 |3580|[Find Consistently Improving Employees](https://leetcode.com/problems/find-consistently-improving-employees/)|Medium||
 |3581|[Count Odd Letters from Number](https://leetcode.com/problems/count-odd-letters-from-number/)|Easy|🔒|
 |3582|[Generate Tag for Video Caption](https://leetcode.com/problems/generate-tag-for-video-caption/)|Easy||
-|3583|[Count Special Triplets](https://leetcode.com/problems/count-special-triplets/)|Medium||
 |3584|[Maximum Product of First and Last Elements of a Subsequence](https://leetcode.com/problems/maximum-product-of-first-and-last-elements-of-a-subsequence/)|Medium||
 |3585|[Find Weighted Median Node in Tree](https://leetcode.com/problems/find-weighted-median-node-in-tree/)|Hard||
 |3586|[Find COVID Recovery Patients](https://leetcode.com/problems/find-covid-recovery-patients/)|Medium||
