@@ -1,6 +1,6 @@
 # Unsolved Solutions List
 
-There are **1993** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
+There are **1992** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
 
 The questions which have been solved are not shown in this page, more information about solved questions can be found at [docs/solved_solutions.md](./solved_solutions.md).
 
@@ -1846,7 +1846,6 @@ The questions which have been solved are not shown in this page, more informatio
 |3574|[Maximize Subarray GCD Score](https://leetcode.com/problems/maximize-subarray-gcd-score/)|Hard||
 |3575|[Maximum Good Subtree Score](https://leetcode.com/problems/maximum-good-subtree-score/)|Hard||
 |3576|[Transform Array to All Equal Elements](https://leetcode.com/problems/transform-array-to-all-equal-elements/)|Medium||
-|3577|[Count the Number of Computer Unlocking Permutations](https://leetcode.com/problems/count-the-number-of-computer-unlocking-permutations/)|Medium||
 |3579|[Minimum Steps to Convert String with Operations](https://leetcode.com/problems/minimum-steps-to-convert-string-with-operations/)|Hard||
 |3580|[Find Consistently Improving Employees](https://leetcode.com/problems/find-consistently-improving-employees/)|Medium||
 |3581|[Count Odd Letters from Number](https://leetcode.com/problems/count-odd-letters-from-number/)|Easy|🔒|
