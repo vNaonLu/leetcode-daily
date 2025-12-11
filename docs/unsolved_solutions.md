@@ -1,6 +1,6 @@
 # Unsolved Solutions List
 
-There are **1992** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
+There are **1991** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
 
 The questions which have been solved are not shown in this page, more information about solved questions can be found at [docs/solved_solutions.md](./solved_solutions.md).
 
@@ -1803,7 +1803,6 @@ The questions which have been solved are not shown in this page, more informatio
 |3528|[Unit Conversion I](https://leetcode.com/problems/unit-conversion-i/)|Medium||
 |3529|[Count Cells in Overlapping Horizontal and Vertical Substrings](https://leetcode.com/problems/count-cells-in-overlapping-horizontal-and-vertical-substrings/)|Medium||
 |3530|[Maximum Profit from Valid Topological Order in DAG](https://leetcode.com/problems/maximum-profit-from-valid-topological-order-in-dag/)|Hard||
-|3531|[Count Covered Buildings](https://leetcode.com/problems/count-covered-buildings/)|Medium||
 |3532|[Path Existence Queries in a Graph I](https://leetcode.com/problems/path-existence-queries-in-a-graph-i/)|Medium||
 |3533|[Concatenated Divisibility](https://leetcode.com/problems/concatenated-divisibility/)|Hard||
 |3534|[Path Existence Queries in a Graph II](https://leetcode.com/problems/path-existence-queries-in-a-graph-ii/)|Hard||
