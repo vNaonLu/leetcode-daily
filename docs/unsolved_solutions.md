@@ -1,6 +1,6 @@
 # Unsolved Solutions List
 
-There are **1991** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
+There are **1990** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
 
 The questions which have been solved are not shown in this page, more information about solved questions can be found at [docs/solved_solutions.md](./solved_solutions.md).
 
@@ -1723,7 +1723,6 @@ The questions which have been solved are not shown in this page, more informatio
 |3429|[Paint House IV](https://leetcode.com/problems/paint-house-iv/)|Medium||
 |3430|[Maximum and Minimum Sums of at Most Size K Subarrays](https://leetcode.com/problems/maximum-and-minimum-sums-of-at-most-size-k-subarrays/)|Hard||
 |3431|[Minimum Unlocked Indices to Sort Nums](https://leetcode.com/problems/minimum-unlocked-indices-to-sort-nums/)|Medium|🔒|
-|3433|[Count Mentions Per User](https://leetcode.com/problems/count-mentions-per-user/)|Medium||
 |3434|[Maximum Frequency After Subarray Operation](https://leetcode.com/problems/maximum-frequency-after-subarray-operation/)|Medium||
 |3435|[Frequencies of Shortest Supersequences](https://leetcode.com/problems/frequencies-of-shortest-supersequences/)|Hard||
 |3436|[Find Valid Emails](https://leetcode.com/problems/find-valid-emails/)|Easy||

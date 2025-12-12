@@ -1,6 +1,6 @@
 # Solved Solutions List
 
-This document contains **1744** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
+This document contains **1745** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
 
 Some questions which are still being resolved are not shown in this page, more information about unsolved questions can be found at [docs/unsolved_solutions.md](./unsolved_solutions.md).
 
@@ -1723,6 +1723,7 @@ Some questions which are still being resolved are not shown in this page, more i
 |3408|[Design Task Manager](https://leetcode.com/problems/design-task-manager/)|[src/q_3401_3450/q3408.cc](../src/q_3401_3450/q3408.cc)|2025/09/18 09:35|
 |3423|[Maximum Difference Between Adjacent Elements in a Circular Array](https://leetcode.com/problems/maximum-difference-between-adjacent-elements-in-a-circular-array/)|[src/q_3401_3450/q3423.cc](../src/q_3401_3450/q3423.cc)|2025/06/12 21:25|
 |3432|[Count Partitions with Even Sum Difference](https://leetcode.com/problems/count-partitions-with-even-sum-difference/)|[src/q_3401_3450/q3432.cc](../src/q_3401_3450/q3432.cc)|2025/12/05 14:51|
+|3433|[Count Mentions Per User](https://leetcode.com/problems/count-mentions-per-user/)|[src/q_3401_3450/q3433.cc](../src/q_3401_3450/q3433.cc)|2025/12/12 19:27|
 |3439|[Reschedule Meetings for Maximum Free Time I](https://leetcode.com/problems/reschedule-meetings-for-maximum-free-time-i/)|[src/q_3401_3450/q3439.cc](../src/q_3401_3450/q3439.cc)|2025/07/09 12:14|
 |3440|[Reschedule Meetings for Maximum Free Time II](https://leetcode.com/problems/reschedule-meetings-for-maximum-free-time-ii/)|[src/q_3401_3450/q3440.cc](../src/q_3401_3450/q3440.cc)|2025/07/10 21:42|
 |3442|[Maximum Difference Between Even and Odd Frequency I](https://leetcode.com/problems/maximum-difference-between-even-and-odd-frequency-i/)|[src/q_3401_3450/q3442.cc](../src/q_3401_3450/q3442.cc)|2025/06/10 19:17|
