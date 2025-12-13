@@ -1,6 +1,6 @@
 # Solved Solutions List
 
-This document contains **1745** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
+This document contains **1746** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
 
 Some questions which are still being resolved are not shown in this page, more information about unsolved questions can be found at [docs/unsolved_solutions.md](./unsolved_solutions.md).
 
@@ -1749,6 +1749,7 @@ Some questions which are still being resolved are not shown in this page, more i
 |3577|[Count the Number of Computer Unlocking Permutations](https://leetcode.com/problems/count-the-number-of-computer-unlocking-permutations/)|[src/q_3551_3600/q3577.cc](../src/q_3551_3600/q3577.cc)|2025/12/10 19:55|
 |3578|[Count Partitions With Max-Min Difference at Most K](https://leetcode.com/problems/count-partitions-with-max-min-difference-at-most-k/)|[src/q_3551_3600/q3578.cc](../src/q_3551_3600/q3578.cc)|2025/12/06 21:46|
 |3583|[Count Special Triplets](https://leetcode.com/problems/count-special-triplets/)|[src/q_3551_3600/q3583.cc](../src/q_3551_3600/q3583.cc)|2025/12/09 22:13|
+|3606|[Coupon Code Validator](https://leetcode.com/problems/coupon-code-validator/)|[src/q_3601_3650/q3606.cc](../src/q_3601_3650/q3606.cc)|2025/12/13 13:52|
 |3607|[Power Grid Maintenance](https://leetcode.com/problems/power-grid-maintenance/)|[src/q_3601_3650/q3607.cc](../src/q_3601_3650/q3607.cc)|2025/11/06 20:14|
 |3623|[Count Number of Trapezoids I](https://leetcode.com/problems/count-number-of-trapezoids-i/)|[src/q_3601_3650/q3623.cc](../src/q_3601_3650/q3623.cc)|2025/12/02 18:48|
 |3625|[Count Number of Trapezoids II](https://leetcode.com/problems/count-number-of-trapezoids-ii/)|[src/q_3601_3650/q3625.cc](../src/q_3601_3650/q3625.cc)|2025/12/03 19:59|

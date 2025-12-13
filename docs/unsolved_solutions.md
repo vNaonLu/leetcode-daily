@@ -1,6 +1,6 @@
 # Unsolved Solutions List
 
-There are **1990** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
+There are **1989** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
 
 The questions which have been solved are not shown in this page, more information about solved questions can be found at [docs/solved_solutions.md](./solved_solutions.md).
 
@@ -1870,7 +1870,6 @@ The questions which have been solved are not shown in this page, more informatio
 |3603|[Minimum Cost Path with Alternating Directions II](https://leetcode.com/problems/minimum-cost-path-with-alternating-directions-ii/)|Medium||
 |3604|[Minimum Time to Reach Destination in Directed Graph](https://leetcode.com/problems/minimum-time-to-reach-destination-in-directed-graph/)|Medium||
 |3605|[Minimum Stability Factor of Array](https://leetcode.com/problems/minimum-stability-factor-of-array/)|Hard||
-|3606|[Coupon Code Validator](https://leetcode.com/problems/coupon-code-validator/)|Easy||
 |3608|[Minimum Time for K Connected Components](https://leetcode.com/problems/minimum-time-for-k-connected-components/)|Medium||
 |3609|[Minimum Moves to Reach Target in Grid](https://leetcode.com/problems/minimum-moves-to-reach-target-in-grid/)|Hard||
 |3610|[Minimum Number of Primes to Sum to Target](https://leetcode.com/problems/minimum-number-of-primes-to-sum-to-target/)|Medium|🔒|
