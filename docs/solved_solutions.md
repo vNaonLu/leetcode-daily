@@ -1,6 +1,6 @@
 # Solved Solutions List
 
-This document contains **1746** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
+This document contains **1747** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
 
 Some questions which are still being resolved are not shown in this page, more information about unsolved questions can be found at [docs/unsolved_solutions.md](./unsolved_solutions.md).
 
@@ -1244,6 +1244,7 @@ Some questions which are still being resolved are not shown in this page, more i
 |2106|[Maximum Fruits Harvested After at Most K Steps](https://leetcode.com/problems/maximum-fruits-harvested-after-at-most-k-steps/)|[src/q_2101_2150/q2106.cc](../src/q_2101_2150/q2106.cc)|2025/08/03 15:48|
 |2108|[Find First Palindromic String in the Array](https://leetcode.com/problems/find-first-palindromic-string-in-the-array/)|[src/q_2101_2150/q2108.cc](../src/q_2101_2150/q2108.cc)|2023/05/16 22:56|
 |2109|[Adding Spaces to a String](https://leetcode.com/problems/adding-spaces-to-a-string/)|[src/q_2101_2150/q2109.cc](../src/q_2101_2150/q2109.cc)|2024/12/03 18:44|
+|2110|[Number of Smooth Descent Periods of a Stock](https://leetcode.com/problems/number-of-smooth-descent-periods-of-a-stock/)|[src/q_2101_2150/q2110.cc](../src/q_2101_2150/q2110.cc)|2025/12/15 19:56|
 |2114|[Maximum Number of Words Found in Sentences](https://leetcode.com/problems/maximum-number-of-words-found-in-sentences/)|[src/q_2101_2150/q2114.cc](../src/q_2101_2150/q2114.cc)|2023/04/24 08:40|
 |2115|[Find All Possible Recipes from Given Supplies](https://leetcode.com/problems/find-all-possible-recipes-from-given-supplies/)|[src/q_2101_2150/q2115.cc](../src/q_2101_2150/q2115.cc)|2025/03/21 15:45|
 |2116|[Check if a Parentheses String Can Be Valid](https://leetcode.com/problems/check-if-a-parentheses-string-can-be-valid/)|[src/q_2101_2150/q2116.cc](../src/q_2101_2150/q2116.cc)|2025/01/12 16:29|
