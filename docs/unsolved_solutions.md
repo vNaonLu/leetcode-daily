@@ -1,6 +1,6 @@
 # Unsolved Solutions List
 
-There are **1988** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
+There are **1987** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
 
 The questions which have been solved are not shown in this page, more information about solved questions can be found at [docs/solved_solutions.md](./solved_solutions.md).
 
@@ -1828,7 +1828,6 @@ The questions which have been solved are not shown in this page, more informatio
 |3559|[Number of Ways to Assign Edge Weights II](https://leetcode.com/problems/number-of-ways-to-assign-edge-weights-ii/)|Hard||
 |3560|[Find Minimum Log Transportation Cost](https://leetcode.com/problems/find-minimum-log-transportation-cost/)|Easy||
 |3561|[Resulting String After Adjacent Removals](https://leetcode.com/problems/resulting-string-after-adjacent-removals/)|Medium||
-|3562|[Maximum Profit from Trading Stocks with Discounts](https://leetcode.com/problems/maximum-profit-from-trading-stocks-with-discounts/)|Hard||
 |3563|[Lexicographically Smallest String After Adjacent Removals](https://leetcode.com/problems/lexicographically-smallest-string-after-adjacent-removals/)|Hard||
 |3564|[Seasonal Sales Analysis](https://leetcode.com/problems/seasonal-sales-analysis/)|Medium||
 |3565|[Sequential Grid Path Cover](https://leetcode.com/problems/sequential-grid-path-cover/)|Medium|🔒|
