@@ -1,6 +1,6 @@
 # Unsolved Solutions List
 
-There are **1987** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
+There are **1986** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
 
 The questions which have been solved are not shown in this page, more information about solved questions can be found at [docs/solved_solutions.md](./solved_solutions.md).
 
@@ -1838,7 +1838,6 @@ The questions which have been solved are not shown in this page, more informatio
 |3570|[Find Books with No Available Copies](https://leetcode.com/problems/find-books-with-no-available-copies/)|Easy||
 |3571|[Find the Shortest Superstring II](https://leetcode.com/problems/find-the-shortest-superstring-ii/)|Easy|🔒|
 |3572|[Maximize Y‑Sum by Picking a Triplet of Distinct X‑Values](https://leetcode.com/problems/maximize-ysum-by-picking-a-triplet-of-distinct-xvalues/)|Medium||
-|3573|[Best Time to Buy and Sell Stock V](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-v/)|Medium||
 |3574|[Maximize Subarray GCD Score](https://leetcode.com/problems/maximize-subarray-gcd-score/)|Hard||
 |3575|[Maximum Good Subtree Score](https://leetcode.com/problems/maximum-good-subtree-score/)|Hard||
 |3576|[Transform Array to All Equal Elements](https://leetcode.com/problems/transform-array-to-all-equal-elements/)|Medium||
