@@ -1,6 +1,6 @@
 # Solved Solutions List
 
-This document contains **1749** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
+This document contains **1750** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
 
 Some questions which are still being resolved are not shown in this page, more information about unsolved questions can be found at [docs/unsolved_solutions.md](./unsolved_solutions.md).
 
@@ -1756,3 +1756,4 @@ Some questions which are still being resolved are not shown in this page, more i
 |3607|[Power Grid Maintenance](https://leetcode.com/problems/power-grid-maintenance/)|[src/q_3601_3650/q3607.cc](../src/q_3601_3650/q3607.cc)|2025/11/06 20:14|
 |3623|[Count Number of Trapezoids I](https://leetcode.com/problems/count-number-of-trapezoids-i/)|[src/q_3601_3650/q3623.cc](../src/q_3601_3650/q3623.cc)|2025/12/02 18:48|
 |3625|[Count Number of Trapezoids II](https://leetcode.com/problems/count-number-of-trapezoids-ii/)|[src/q_3601_3650/q3625.cc](../src/q_3601_3650/q3625.cc)|2025/12/03 19:59|
+|3652|[Best Time to Buy and Sell Stock using Strategy](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-using-strategy/)|[src/q_3651_3700/q3652.cc](../src/q_3651_3700/q3652.cc)|2025/12/18 21:42|
