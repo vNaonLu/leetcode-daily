@@ -1,6 +1,6 @@
 # Solved Solutions List
 
-This document contains **1750** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
+This document contains **1751** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
 
 Some questions which are still being resolved are not shown in this page, more information about unsolved questions can be found at [docs/unsolved_solutions.md](./unsolved_solutions.md).
 
@@ -689,6 +689,7 @@ Some questions which are still being resolved are not shown in this page, more i
 |951|[Flip Equivalent Binary Trees](https://leetcode.com/problems/flip-equivalent-binary-trees/)|[src/q_951_1000/q0951.cc](../src/q_951_1000/q0951.cc)|2021/11/07 15:03|
 |952|[Largest Component Size by Common Factor](https://leetcode.com/problems/largest-component-size-by-common-factor/)|[src/q_951_1000/q0952.cc](../src/q_951_1000/q0952.cc)|2021/11/23 18:31|
 |953|[Verifying an Alien Dictionary](https://leetcode.com/problems/verifying-an-alien-dictionary/)|[src/q_951_1000/q0953.cc](../src/q_951_1000/q0953.cc)|2022/04/22 09:06|
+|955|[Delete Columns to Make Sorted II](https://leetcode.com/problems/delete-columns-to-make-sorted-ii/)|[src/q_951_1000/q0955.cc](../src/q_951_1000/q0955.cc)|2025/12/21 16:18|
 |956|[Tallest Billboard](https://leetcode.com/problems/tallest-billboard/)|[src/q_951_1000/q0956.cc](../src/q_951_1000/q0956.cc)|2023/06/24 13:21|
 |958|[Check Completeness of a Binary Tree](https://leetcode.com/problems/check-completeness-of-a-binary-tree/)|[src/q_951_1000/q0958.cc](../src/q_951_1000/q0958.cc)|2022/08/10 20:36|
 |959|[Regions Cut By Slashes](https://leetcode.com/problems/regions-cut-by-slashes/)|[src/q_951_1000/q0959.cc](../src/q_951_1000/q0959.cc)|2024/08/10 18:07|
