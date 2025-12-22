@@ -1,6 +1,6 @@
 # Unsolved Solutions List
 
-There are **1984** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
+There are **1983** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
 
 The questions which have been solved are not shown in this page, more information about solved questions can be found at [docs/solved_solutions.md](./solved_solutions.md).
 
@@ -280,7 +280,6 @@ The questions which have been solved are not shown in this page, more informatio
 |943|[Find the Shortest Superstring](https://leetcode.com/problems/find-the-shortest-superstring/)|Hard||
 |954|[Array of Doubled Pairs](https://leetcode.com/problems/array-of-doubled-pairs/)|Medium||
 |957|[Prison Cells After N Days](https://leetcode.com/problems/prison-cells-after-n-days/)|Medium||
-|960|[Delete Columns to Make Sorted III](https://leetcode.com/problems/delete-columns-to-make-sorted-iii/)|Hard||
 |963|[Minimum Area Rectangle II](https://leetcode.com/problems/minimum-area-rectangle-ii/)|Medium||
 |964|[Least Operators to Express Number](https://leetcode.com/problems/least-operators-to-express-number/)|Hard||
 |969|[Pancake Sorting](https://leetcode.com/problems/pancake-sorting/)|Medium||
