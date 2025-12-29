@@ -594,7 +594,7 @@ id,backend_id,title,level,slug,paid
 593,593,Valid Square,2,valid-square,0
 594,594,Longest Harmonious Subsequence,1,longest-harmonious-subsequence,0
 595,595,Big Countries,1,big-countries,0
-596,596,Classes More Than 5 Students,1,classes-more-than-5-students,0
+596,596,Classes With at Least 5 Students,1,classes-with-at-least-5-students,0
 597,597,Friend Requests I: Overall Acceptance Rate,1,friend-requests-i-overall-acceptance-rate,1
 598,598,Range Addition II,1,range-addition-ii,0
 599,599,Minimum Index Sum of Two Lists,1,minimum-index-sum-of-two-lists,0
@@ -3564,3 +3564,173 @@ id,backend_id,title,level,slug,paid
 3563,3867,Lexicographically Smallest String After Adjacent Removals,3,lexicographically-smallest-string-after-adjacent-removals,0
 3564,3898,Seasonal Sales Analysis,2,seasonal-sales-analysis,0
 3565,3899,Sequential Grid Path Cover,2,sequential-grid-path-cover,1
+3566,3843,Partition Array into Two Equal Product Subsets,2,partition-array-into-two-equal-product-subsets,0
+3567,3884,Minimum Absolute Difference in Sliding Submatrix,2,minimum-absolute-difference-in-sliding-submatrix,0
+3568,3870,Minimum Moves to Clean the Classroom,2,minimum-moves-to-clean-the-classroom,0
+3569,3878,Maximize Count of Distinct Primes After Split,3,maximize-count-of-distinct-primes-after-split,0
+3570,3910,Find Books with No Available Copies,1,find-books-with-no-available-copies,0
+3571,3911,Find the Shortest Superstring II,1,find-the-shortest-superstring-ii,1
+3572,3894,Maximize Y‑Sum by Picking a Triplet of Distinct X‑Values,2,maximize-ysum-by-picking-a-triplet-of-distinct-xvalues,0
+3573,3892,Best Time to Buy and Sell Stock V,2,best-time-to-buy-and-sell-stock-v,0
+3574,3888,Maximize Subarray GCD Score,3,maximize-subarray-gcd-score,0
+3575,3875,Maximum Good Subtree Score,3,maximum-good-subtree-score,0
+3576,3876,Transform Array to All Equal Elements,2,transform-array-to-all-equal-elements,0
+3577,3864,Count the Number of Computer Unlocking Permutations,2,count-the-number-of-computer-unlocking-permutations,0
+3578,3835,Count Partitions With Max-Min Difference at Most K,2,count-partitions-with-max-min-difference-at-most-k,0
+3579,3866,Minimum Steps to Convert String with Operations,3,minimum-steps-to-convert-string-with-operations,0
+3580,3921,Find Consistently Improving Employees,2,find-consistently-improving-employees,0
+3581,3924,Count Odd Letters from Number,1,count-odd-letters-from-number,1
+3582,3893,Generate Tag for Video Caption,1,generate-tag-for-video-caption,0
+3583,3885,Count Special Triplets,2,count-special-triplets,0
+3584,3755,Maximum Product of First and Last Elements of a Subsequence,2,maximum-product-of-first-and-last-elements-of-a-subsequence,0
+3585,3900,Find Weighted Median Node in Tree,3,find-weighted-median-node-in-tree,0
+3586,3932,Find COVID Recovery Patients,2,find-covid-recovery-patients,0
+3587,3904,Minimum Adjacent Swaps to Alternate Parity,2,minimum-adjacent-swaps-to-alternate-parity,0
+3588,3868,Find Maximum Area of a Triangle,2,find-maximum-area-of-a-triangle,0
+3589,3907,Count Prime-Gap Balanced Subarrays,2,count-prime-gap-balanced-subarrays,0
+3590,3906,Kth Smallest Path XOR Sum,3,kth-smallest-path-xor-sum,0
+3591,3914,Check if Any Element Has Prime Frequency,1,check-if-any-element-has-prime-frequency,0
+3592,3903,Inverse Coin Change,2,inverse-coin-change,0
+3593,3909,Minimum Increments to Equalize Leaf Paths,2,minimum-increments-to-equalize-leaf-paths,0
+3594,3896,Minimum Time to Transport All Individuals,3,minimum-time-to-transport-all-individuals,0
+3595,3935,Once Twice,2,once-twice,1
+3596,3925,Minimum Cost Path with Alternating Directions I,2,minimum-cost-path-with-alternating-directions-i,1
+3597,3905,Partition String ,2,partition-string,0
+3598,3800,Longest Common Prefix Between Adjacent Strings After Removals,2,longest-common-prefix-between-adjacent-strings-after-removals,0
+3599,3913,Partition Array to Minimize XOR,2,partition-array-to-minimize-xor,0
+3600,3902,Maximize Spanning Tree Stability with Upgrades,3,maximize-spanning-tree-stability-with-upgrades,0
+3601,3942,Find Drivers with Improved Fuel Efficiency,2,find-drivers-with-improved-fuel-efficiency,0
+3602,3912,Hexadecimal and Hexatrigesimal Conversion,1,hexadecimal-and-hexatrigesimal-conversion,0
+3603,3927,Minimum Cost Path with Alternating Directions II,2,minimum-cost-path-with-alternating-directions-ii,0
+3604,3916,Minimum Time to Reach Destination in Directed Graph,2,minimum-time-to-reach-destination-in-directed-graph,0
+3605,3920,Minimum Stability Factor of Array,3,minimum-stability-factor-of-array,0
+3606,3934,Coupon Code Validator,1,coupon-code-validator,0
+3607,3863,Power Grid Maintenance,2,power-grid-maintenance,0
+3608,3908,Minimum Time for K Connected Components,2,minimum-time-for-k-connected-components,0
+3609,3922,Minimum Moves to Reach Target in Grid,3,minimum-moves-to-reach-target-in-grid,0
+3610,3949,Minimum Number of Primes to Sum to Target,2,minimum-number-of-primes-to-sum-to-target,1
+3611,3943,Find Overbooked Employees,2,find-overbooked-employees,0
+3612,3931,Process String with Special Operations I,2,process-string-with-special-operations-i,0
+3613,3881,Minimize Maximum Component Cost,2,minimize-maximum-component-cost,0
+3614,3939,Process String with Special Operations II,3,process-string-with-special-operations-ii,0
+3615,3930,Longest Palindromic Path in Graph,3,longest-palindromic-path-in-graph,0
+3616,3960,Number of Student Replacements,2,number-of-student-replacements,1
+3617,3961,Find Students with Study Spiral Pattern,3,find-students-with-study-spiral-pattern,0
+3618,3936,Split Array by Prime Indices,2,split-array-by-prime-indices,0
+3619,3823,Count Islands With Total Value Divisible by K,2,count-islands-with-total-value-divisible-by-k,0
+3620,3919,Network Recovery Pathways,3,network-recovery-pathways,0
+3621,3937,Number of Integers With Popcount-Depth Equal to K I,3,number-of-integers-with-popcount-depth-equal-to-k-i,0
+3622,3918,Check Divisibility by Digit Sum and Product,1,check-divisibility-by-digit-sum-and-product,0
+3623,3886,Count Number of Trapezoids I,2,count-number-of-trapezoids-i,0
+3624,3941,Number of Integers With Popcount-Depth Equal to K II,3,number-of-integers-with-popcount-depth-equal-to-k-ii,0
+3625,3897,Count Number of Trapezoids II,3,count-number-of-trapezoids-ii,0
+3626,3971,Find Stores with Inventory Imbalance,2,find-stores-with-inventory-imbalance,0
+3627,3766,Maximum Median Sum of Subsequences of Size 3,2,maximum-median-sum-of-subsequences-of-size-3,0
+3628,3948,Maximum Number of Subsequences After One Inserting,2,maximum-number-of-subsequences-after-one-inserting,0
+3629,3933,Minimum Jumps to Reach End via Prime Teleportation,2,minimum-jumps-to-reach-end-via-prime-teleportation,0
+3630,3882,Partition Array for Maximum XOR and AND,3,partition-array-for-maximum-xor-and-and,0
+3631,3969,Sort Threats by Severity and Exploitability,2,sort-threats-by-severity-and-exploitability,1
+3632,3929,Subarrays with XOR at Least K,3,subarrays-with-xor-at-least-k,1
+3633,3965,Earliest Finish Time for Land and Water Rides I,1,earliest-finish-time-for-land-and-water-rides-i,0
+3634,3958,Minimum Removals to Balance Array,2,minimum-removals-to-balance-array,0
+3635,3967,Earliest Finish Time for Land and Water Rides II,2,earliest-finish-time-for-land-and-water-rides-ii,0
+3636,3955,Threshold Majority Queries,3,threshold-majority-queries,0
+3637,3952,Trionic Array I,1,trionic-array-i,0
+3638,3954,Maximum Balanced Shipments,2,maximum-balanced-shipments,0
+3639,3944,Minimum Time to Activate String,2,minimum-time-to-activate-string,0
+3640,3956,Trionic Array II,3,trionic-array-ii,0
+3641,3992,Longest Semi-Repeating Subarray,2,longest-semi-repeating-subarray,1
+3642,3996,Find Books with Polarized Opinions,1,find-books-with-polarized-opinions,0
+3643,3973,Flip Square Submatrix Vertically,1,flip-square-submatrix-vertically,0
+3644,3950,Maximum K to Sort a Permutation,2,maximum-k-to-sort-a-permutation,0
+3645,3959,Maximum Total from Optimal Activation Order,2,maximum-total-from-optimal-activation-order,0
+3646,3951,Next Special Palindrome Number,3,next-special-palindrome-number,0
+3647,3987,Maximum Weight in Two Bags,2,maximum-weight-in-two-bags,1
+3648,3945,Minimum Sensors to Cover Grid,2,minimum-sensors-to-cover-grid,0
+3649,3963,Number of Perfect Pairs,2,number-of-perfect-pairs,0
+3650,3887,Minimum Cost Path with Edge Reversals,2,minimum-cost-path-with-edge-reversals,0
+3651,3889,Minimum Cost Path with Teleportations,3,minimum-cost-path-with-teleportations,0
+3652,3980,Best Time to Buy and Sell Stock using Strategy,2,best-time-to-buy-and-sell-stock-using-strategy,0
+3653,3974,XOR After Range Multiplication Queries I,2,xor-after-range-multiplication-queries-i,0
+3654,3966,Minimum Sum After Divisible Sum Deletions,2,minimum-sum-after-divisible-sum-deletions,0
+3655,3975,XOR After Range Multiplication Queries II,3,xor-after-range-multiplication-queries-ii,0
+3656,4006,Determine if a Simple Graph Exists,2,determine-if-a-simple-graph-exists,1
+3657,4025,Find Loyal Customers,2,find-loyal-customers,0
+3658,3995,GCD of Odd and Even Sums,1,gcd-of-odd-and-even-sums,0
+3659,3979,Partition Array Into K-Distinct Groups,2,partition-array-into-k-distinct-groups,0
+3660,3981,Jump Game IX,2,jump-game-ix,0
+3661,3982,Maximum Walls Destroyed by Robots,3,maximum-walls-destroyed-by-robots,0
+3662,4017,Filter Characters by Frequency,1,filter-characters-by-frequency,1
+3663,3994,Find The Least Frequent Digit,1,find-the-least-frequent-digit,0
+3664,3877,Two-Letter Card Game,2,two-letter-card-game,0
+3665,3938,Twisted Mirror Path Count,2,twisted-mirror-path-count,0
+3666,3983,Minimum Operations to Equalize Binary String,3,minimum-operations-to-equalize-binary-string,0
+3667,4029,Sort Array By Absolute Value,1,sort-array-by-absolute-value,1
+3668,4008,Restore Finishing Order,1,restore-finishing-order,0
+3669,3947,Balanced K-Factor Decomposition,2,balanced-k-factor-decomposition,0
+3670,3915,Maximum Product of Two Integers With No Common Bits,2,maximum-product-of-two-integers-with-no-common-bits,0
+3671,3989,Sum of Beautiful Subsequences,3,sum-of-beautiful-subsequences,0
+3672,4036,Sum of Weighted Modes in Subarrays,2,sum-of-weighted-modes-in-subarrays,1
+3673,4043,Find Zombie Sessions,3,find-zombie-sessions,0
+3674,3998,Minimum Operations to Equalize Array,1,minimum-operations-to-equalize-array,0
+3675,3999,Minimum Operations to Transform String,2,minimum-operations-to-transform-string,0
+3676,4000,Count Bowl Subarrays,2,count-bowl-subarrays,0
+3677,4023,Count Binary Palindromic Numbers,3,count-binary-palindromic-numbers,0
+3678,4011,Smallest Absent Positive Greater Than Average,1,smallest-absent-positive-greater-than-average,0
+3679,3953, Minimum Discards to Balance Inventory,2,minimum-discards-to-balance-inventory,0
+3680,3991,Generate Schedule,2,generate-schedule,0
+3681,3990,Maximum XOR of Subsequences,3,maximum-xor-of-subsequences,0
+3682,4050,Minimum Index Sum of Common Elements,2,minimum-index-sum-of-common-elements,1
+3683,4012,Earliest Time to Finish One Task,1,earliest-time-to-finish-one-task,0
+3684,3997,Maximize Sum of At Most K Distinct Elements,1,maximize-sum-of-at-most-k-distinct-elements,0
+3685,3873,Subsequence Sum After Capping Elements,2,subsequence-sum-after-capping-elements,0
+3686,4027,Number of Stable Subsequences,3,number-of-stable-subsequences,0
+3687,4060,Library Late Fee Calculator,1,library-late-fee-calculator,1
+3688,4009,Bitwise OR of Even Numbers in an Array,1,bitwise-or-of-even-numbers-in-an-array,0
+3689,4005,Maximum Total Subarray Value I,2,maximum-total-subarray-value-i,0
+3690,3928,Split and Merge Array Transformation,2,split-and-merge-array-transformation,0
+3691,4007,Maximum Total Subarray Value II,3,maximum-total-subarray-value-ii,0
+3692,4053,Majority Frequency Characters,1,majority-frequency-characters,0
+3693,4041,Climbing Stairs II,2,climbing-stairs-ii,0
+3694,4021,Distinct Points Reachable After Substring Removal,2,distinct-points-reachable-after-substring-removal,0
+3695,4010,Maximize Alternating Sum Using Swaps,3,maximize-alternating-sum-using-swaps,0
+3696,4066,Maximum Distance Between Unequal Words in Array I,1,maximum-distance-between-unequal-words-in-array-i,1
+3697,4039,Compute Decimal Representation,1,compute-decimal-representation,0
+3698,4015,Split Array With Minimum Difference,2,split-array-with-minimum-difference,0
+3699,3962,Number of ZigZag Arrays I,3,number-of-zigzag-arrays-i,0
+3700,3964,Number of ZigZag Arrays II,3,number-of-zigzag-arrays-ii,0
+3701,4058,Compute Alternating Sum,1,compute-alternating-sum,0
+3702,4033,Longest Subsequence With Non-Zero Bitwise XOR,2,longest-subsequence-with-non-zero-bitwise-xor,0
+3703,4019,Remove K-Balanced Substrings,2,remove-k-balanced-substrings,0
+3704,4049,Count No-Zero Pairs That Sum to N,3,count-no-zero-pairs-that-sum-to-n,0
+3705,4091,Find Golden Hour Customers,2,find-golden-hour-customers,0
+3706,4070,Maximum Distance Between Unequal Words in Array II,2,maximum-distance-between-unequal-words-in-array-ii,1
+3707,4052,Equal Score Substrings,1,equal-score-substrings,0
+3708,4003,Longest Fibonacci Subarray,2,longest-fibonacci-subarray,0
+3709,4059,Design Exam Scores Tracker,2,design-exam-scores-tracker,0
+3710,4035,Maximum Partition Factor,3,maximum-partition-factor,0
+3711,4081,Maximum Transactions Without Negative Balance,2,maximum-transactions-without-negative-balance,1
+3712,4068,Sum of Elements With Frequency Divisible by K,1,sum-of-elements-with-frequency-divisible-by-k,0
+3713,4055,Longest Balanced Substring I,2,longest-balanced-substring-i,0
+3714,4056,Longest Balanced Substring II,2,longest-balanced-substring-ii,0
+3715,3957,Sum of Perfect Square Ancestors,3,sum-of-perfect-square-ancestors,0
+3716,4103,Find Churn Risk Customers,2,find-churn-risk-customers,0
+3717,4108,Minimum Operations to Make the Array Beautiful,2,minimum-operations-to-make-the-array-beautiful,1
+3718,4080,Smallest Missing Multiple of K,1,smallest-missing-multiple-of-k,0
+3719,4045,Longest Balanced Subarray I,2,longest-balanced-subarray-i,0
+3720,4020,Lexicographically Smallest Permutation Greater Than Target,2,lexicographically-smallest-permutation-greater-than-target,0
+3721,4047,Longest Balanced Subarray II,3,longest-balanced-subarray-ii,0
+3722,4073,Lexicographically Smallest String After Reverse,2,lexicographically-smallest-string-after-reverse,0
+3723,4084,Maximize Sum of Squares of Digits,2,maximize-sum-of-squares-of-digits,0
+3724,4042,Minimum Operations to Transform Array,2,minimum-operations-to-transform-array,0
+3725,4069,Count Ways to Choose Coprime Integers from Rows,3,count-ways-to-choose-coprime-integers-from-rows,0
+3726,4051,Remove Zeros in Decimal Representation,1,remove-zeros-in-decimal-representation,0
+3727,4078,Maximum Alternating Sum of Squares,2,maximum-alternating-sum-of-squares,0
+3728,4083,Stable Subarrays With Equal Boundary and Interior Sum,2,stable-subarrays-with-equal-boundary-and-interior-sum,0
+3729,4063,Count Distinct Subarrays Divisible by K in Sorted Array,3,count-distinct-subarrays-divisible-by-k-in-sorted-array,0
+3730,4109,Maximum Calories Burnt from Jumps,2,maximum-calories-burnt-from-jumps,1
+3731,4107,Find Missing Elements,1,find-missing-elements,0
+3732,4101,Maximum Product of Three Elements After One Replacement,2,maximum-product-of-three-elements-after-one-replacement,0
+3733,4048,Minimum Time to Complete All Deliveries,2,minimum-time-to-complete-all-deliveries,0
+3734,4037,Lexicographically Smallest Palindromic Permutation Greater Than Target,3,lexicographically-smallest-palindromic-permutation-greater-than-target,0
+3735,4106,Lexicographically Smallest String After Reverse II,3,lexicographically-smallest-string-after-reverse-ii,1

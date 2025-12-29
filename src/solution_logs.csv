@@ -1657,3 +1657,97 @@ timestamp,id,tc,sc,notes
 1750421690,3443,n,1,n = |s.size()|
 1750484645,3085,n,1,n = |wors.size()|
 1750678227,2081,-,-,not calculated
+1750855583,2040,-,-,not calculated
+1751030801,2014,-,-,not calculated
+1751430270,3333,-,-,not calculated
+1751627884,3307,-,-,not calculated
+1751776135,1865,-,-,not calculated
+1751886157,1353,-,-,not calculated
+1752034476,3439,-,-,not calculated
+1752154971,3440,-,-,not calculated
+1752305539,1900,-,-,not calculated
+1752383693,2410,n * log(n) + m * log(m),1,"n = |players.size()|, m = |trainers.size()|"
+1752664995,3201,-,-,not calculated
+1752751523,3202,n * k,k,n = |nums.size()|
+1752838742,2163,-,-,not calculated
+1752987483,1948,-,-,not calculated
+1753362539,2322,-,-,not calculated
+1753441203,3487,n * log(n),1,n = |nums.size()|
+1753511199,3480,-,-,not calculated
+1753793215,2411,n,1,n = |nums.size()|
+1754117626,2561,-,-,not calculated
+1754207284,2106,-,-,not calculated
+1754387632,3477,-,-,not calculated
+1754485698,3479,-,-,not calculated
+1754569514,3363,-,-,not calculated
+1754920554,2438,m * log(n),log(n),m = |queries.size()|
+1755002892,2787,-,-,not calculated
+1755520639,679,-,-,not calculated
+1755782383,1504,-,-,not calculated
+1755834720,3195,-,-,not calculated
+1755951770,3197,-,-,not calculated
+1756298887,3459,-,-,not calculated
+1756379094,3446,n * n * log(n),n * n * log(n),n = |grid.size()|
+1756477156,3021,1,1,
+1756811235,3025,-,-,not calculated
+1756901422,3027,-,-,not calculated
+1756991547,3516,1,1,
+1757067187,2749,-,-,not calculated
+1757164197,3495,-,-,not calculated
+1757415859,2327,n,n,
+1757502114,1733,-,-,not calculated
+1757718305,3227,-,-,not calculated
+1757808652,966,-,-,not calculated
+1757987515,2197,-,-,not calculated
+1758159307,3408,-,-,not calculated
+1758283104,3484,-,-,not calculated
+1758340905,3508,-,-,not calculated
+1758454712,3541,n,1,n = |s.size()|
+1759401367,3100,-,-,not calculated
+1759492128,407,-,-,not calculated
+1759731576,778,-,-,not calculated
+1759982150,3494,m * n,n,"n = |skill.size()|, m = |mana.size()|"
+1760071251,3147,-,-,not calculated
+1760172474,3186,-,-,not calculated
+1760237090,3539,-,-,not calculated
+1760527296,3350,-,-,not calculated
+1760612036,2598,-,-,not calculated
+1760698582,3003,-,-,not calculated
+1760798048,3397,n * log(n),1,n = |nums.size()|
+1760867549,1625,-,-,not calculated
+1761044107,3346,m + n,m,"m = |max(nums)|, n = |nums.size()|"
+1761136971,3347,-,-,not calculated
+1761193543,3461,n,n,n = |s.size()|
+1761288617,2048,-,-,not calculated
+1761461283,2043,-,-,not calculated
+1761825168,1526,n,1,n = |target.size()|
+1762346001,3321,-,-,not calculated
+1762431278,3607,-,-,not calculated
+1762513942,2528,-,-,not calculated
+1762773443,3542,-,-,not calculated
+1762948055,2654,n ^ 2,1,n = |nums.size()|
+1763032565,3228,n,1,n = |s.size()|
+1763096660,2536,n ^ 2 + q,n ^ 2,q = |queries.size()|
+1763194284,3234,-,-,not calculated
+1763259993,1513,n,1,n = |s.size()|
+1763646046,757,-,-,not calculated
+1763876414,1262,-,-,not calculated
+1764166829,2435,-,-,not calculated
+1764328392,3381,-,-,not calculated
+1764394430,3512,n,1,n = |nums.size()|
+1764672529,3623,-,-,not calculated
+1764763157,3625,-,-,not calculated
+1764854408,2211,-,-,not calculated
+1764917483,3432,n,1,n = |nums.size()|
+1765028780,3578,-,-,not calculated
+1765289590,3583,-,-,not calculated
+1765367739,3577,n,1,n = |complexity.size()|
+1765464995,3531,-,-,not calculated
+1765538844,3433,-,-,not calculated
+1765605146,3606,-,-,not calculated
+1765799771,2110,-,-,not calculated
+1765852749,3562,-,-,not calculated
+1765969910,3573,-,-,not calculated
+1766065352,3652,-,-,not calculated
+1766305107,955,-,-,not calculated
+1766412733,960,-,-,not calculated

@@ -11,6 +11,8 @@
 
 #include <iosfwd>
 #include <string>
+#include <string_view>
+#include <unordered_set>
 
 // -- This header must be included after others --
 #include "leetcode/testing/solution_test_helper.h"
@@ -33,41 +35,29 @@ LEETCODE_BEGIN_RESOLVING(1935, MaximumNumberOfWordsYouCanType, Solution);
 class Solution {
 public:
   int canBeTypedWords(string text, string brokenLetters) {
-    vector<bool> broke(26, false);
-    int          res = 0;
-    for (auto c : brokenLetters) {
-      broke[c - 'a'] = true;
+    unordered_set<char> broke(brokenLetters.begin(), brokenLetters.end());
+    string_view         sv = text;
+    vector<string_view> words;
+    auto                find = sv.find(' ');
+    while (find != string_view::npos) {
+      words.emplace_back(sv.substr(0, find));
+      sv   = sv.substr(find + 1);
+      find = sv.find(' ');
     }
-    auto beg = text.begin();
-    auto end = text.end();
-    while (beg != end) {
-      forwardNextWord(&beg, end);
-      while (beg != end && *beg != ' ') {
-        if (broke[*beg - 'a']) {
+    if (!sv.empty()) {
+      words.emplace_back(sv);
+    }
+    int res = 0;
+    for (auto &s : words) {
+      ++res;
+      for (auto c : s) {
+        if (broke.count(c)) {
+          --res;
           break;
         }
-        ++beg;
       }
-      if (beg == end || *beg == ' ') {
-        ++res;
-      }
-      forwardToGap(&beg, end);
     }
     return res;
-  }
-
-private:
-  template <typename It>
-  void forwardNextWord(It *beg, It end) {
-    while (*beg != end && **beg == ' ') {
-      ++*beg;
-    }
-  }
-  template <typename It>
-  void forwardToGap(It *beg, It end) {
-    while (*beg != end && **beg != ' ') {
-      ++*beg;
-    }
   }
 };
 

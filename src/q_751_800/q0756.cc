@@ -11,7 +11,9 @@
 
 #include <iosfwd>
 #include <string>
+#include <string_view>
 #include <unordered_map>
+#include <unordered_set>
 #include <vector>
 
 // -- This header must be included after others --
@@ -48,43 +50,61 @@ LEETCODE_BEGIN_RESOLVING(756, PyramidTransitionMatrix, Solution);
 class Solution {
 public:
   bool pyramidTransition(string bottom, vector<string> &allowed) {
-    unordered_map<string, vector<char>> mp;
+    unordered_map<string_view, unordered_set<char>> mp;
     for (auto &s : allowed) {
-      mp[s.substr(0, 2)].emplace_back(s[2]);
+      string_view sv = s;
+      mp[sv.substr(0, 2)].emplace(s[2]);
     }
-    string tmp;
-    return iterateNextLayer(mp, bottom.begin(), bottom.end(), &tmp);
+    return dfs(mp, bottom);
   }
 
 private:
-  template <typename MapType, typename It>
-  bool iterateNextLayer(MapType const &mp, It beg, It end, string *cur_layer) {
-    if (beg == end || beg + 1 == end) {
-      if (cur_layer->size() == 1) {
-        return true;
+  template <typename MapType>
+  vector<string> iterateNextLayer(MapType const &mp, string_view layer) {
+    vector<string> res = {""};
+    auto           n   = layer.size();
+
+    res.reserve(layer.size());
+    for (int i = 0; i < n - 1; ++i) {
+      auto key  = layer.substr(i, 2);
+      auto find = mp.find(key);
+      if (find == mp.end()) {
+        return {};
       }
 
-      string tmp;
-      return iterateNextLayer(mp, cur_layer->begin(), cur_layer->end(), &tmp);
+      decltype(res) next;
+      next.reserve(layer.size());
+      for (auto &s : res) {
+        for (auto c : find->second) {
+          next.emplace_back(s + c);
+        }
+      }
+
+      res = std::move(next);
+    }
+    return res;
+  }
+
+  template <typename MapType>
+  bool dfs(MapType const &mp, string_view layer) {
+    if (layer.size() == 1) {
+      return true;
     }
 
-    string key  = (string("") + *beg) + *(beg + 1);
-    auto   find = mp.find(key);
-    if (find == mp.end()) {
-      // not found
+    if (auto [_, ok] = tried_but_failed_.emplace(layer); !ok) {
       return false;
     }
 
-    for (auto c : find->second) {
-      cur_layer->push_back(c);
-      if (iterateNextLayer(mp, beg + 1, end, cur_layer)) {
+    for (auto &s : iterateNextLayer(mp, layer)) {
+      if (dfs(mp, s)) {
         return true;
       }
-      cur_layer->pop_back();
     }
 
     return false;
   }
+
+  unordered_set<string> tried_but_failed_;
 };
 
 LEETCODE_END_RESOLVING(Solution);
@@ -125,5 +145,30 @@ LEETCODE_SOLUTION_UNITTEST(756, PyramidTransitionMatrix, example_2) {
   vector<string> allowed  = {"AAB", "AAC", "BCD", "BBE", "DEF"};
   bool           expect   = false;
   bool           actual   = solution->pyramidTransition(bottom, allowed);
+  LCD_EXPECT_EQ(expect, actual);
+}
+
+// [Extra Testcase #1]
+//  Input: "ABBBBA"
+// ["ACA","ACF","ACE","ACD","ABA","ABF","ABE","ABD","FCA","FCF","FCE","FCD","FBA","FBF","FBE","FBD","ECA","ECF","ECE","ECD","EBA","EBF","EBE","EBD","DCA","DCF","DCE","DCD","DBA","DBF","DBE","DBD","CAA","CAF","CAE","CAD","CFA","CFF","CFE","CFD","CEA","CEF","CEE","CED","CDA","CDF","CDE","CDD","BAA","BAF","BAE","BAD","BFA","BFF","BFE","BFD","BEA","BEF","BEE","BED","BDA","BDF","BDE","BDD","CCA","CCF","CCE","CCD","CBA","CBF","CBE","CBD","BCA","BCF","BCE","BCD","BBA","BBF","BBE","BBD","CCC","CCB","CBC","CBB","BCC","BCB","BBC","BBB"]
+// Output: false
+//
+
+LEETCODE_SOLUTION_UNITTEST_WITH_TIMED_OUT(756, PyramidTransitionMatrix,
+                                          extra_testcase_1, 4021) {
+  auto           solution = MakeSolution();
+  string         bottom   = "ABBBBA";
+  vector<string> allowed  = {
+      "ACA", "ACF", "ACE", "ACD", "ABA", "ABF", "ABE", "ABD", "FCA", "FCF",
+      "FCE", "FCD", "FBA", "FBF", "FBE", "FBD", "ECA", "ECF", "ECE", "ECD",
+      "EBA", "EBF", "EBE", "EBD", "DCA", "DCF", "DCE", "DCD", "DBA", "DBF",
+      "DBE", "DBD", "CAA", "CAF", "CAE", "CAD", "CFA", "CFF", "CFE", "CFD",
+      "CEA", "CEF", "CEE", "CED", "CDA", "CDF", "CDE", "CDD", "BAA", "BAF",
+      "BAE", "BAD", "BFA", "BFF", "BFE", "BFD", "BEA", "BEF", "BEE", "BED",
+      "BDA", "BDF", "BDE", "BDD", "CCA", "CCF", "CCE", "CCD", "CBA", "CBF",
+      "CBE", "CBD", "BCA", "BCF", "BCE", "BCD", "BBA", "BBF", "BBE", "BBD",
+      "CCC", "CCB", "CBC", "CBB", "BCC", "BCB", "BBC", "BBB"};
+  bool expect = false;
+  bool actual = solution->pyramidTransition(bottom, allowed);
   LCD_EXPECT_EQ(expect, actual);
 }

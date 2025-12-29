@@ -36,8 +36,8 @@ public:
   string fractionToDecimal(int numerator, int denominator) {
     auto mp  = unordered_map<int64_t, int>();
     auto res = string("");
-    auto num = int64_t(abs(numerator));
-    auto den = int64_t(abs(denominator));
+    auto num = abs(int64_t(numerator));
+    auto den = abs(int64_t(denominator));
 
     if ((numerator < 0) ^ (denominator < 0 && numerator != 0)) {
       res.push_back('-');
@@ -114,6 +114,21 @@ LEETCODE_SOLUTION_UNITTEST(166, FractionToRecurringDecimal, example_3) {
   int    numerator   = 4;
   int    denominator = 333;
   string expect      = "0.(012)";
+  string actual      = solution->fractionToDecimal(numerator, denominator);
+  LCD_EXPECT_EQ(expect, actual);
+}
+
+// [Extra Testcase #1]
+//  Input: -1
+// -2147483648
+// Output: "0.0000000004656612873077392578125"
+//
+
+LEETCODE_SOLUTION_UNITTEST(166, FractionToRecurringDecimal, extra_testcase_1) {
+  auto   solution    = MakeSolution();
+  int    numerator   = -1;
+  int    denominator = -2147483648;
+  string expect      = "0.0000000004656612873077392578125";
   string actual      = solution->fractionToDecimal(numerator, denominator);
   LCD_EXPECT_EQ(expect, actual);
 }
