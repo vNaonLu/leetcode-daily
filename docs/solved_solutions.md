@@ -1,6 +1,6 @@
 # Solved Solutions List
 
-This document contains **1752** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
+This document contains **1753** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
 
 Some questions which are still being resolved are not shown in this page, more information about unsolved questions can be found at [docs/unsolved_solutions.md](./unsolved_solutions.md).
 
@@ -919,6 +919,7 @@ Some questions which are still being resolved are not shown in this page, more i
 |1406|[Stone Game III](https://leetcode.com/problems/stone-game-iii/)|[src/q_1401_1450/q1406.cc](../src/q_1401_1450/q1406.cc)|2023/05/27 15:27|
 |1408|[String Matching in an Array](https://leetcode.com/problems/string-matching-in-an-array/)|[src/q_1401_1450/q1408.cc](../src/q_1401_1450/q1408.cc)|2022/02/18 19:51|
 |1410|[HTML Entity Parser](https://leetcode.com/problems/html-entity-parser/)|[src/q_1401_1450/q1410.cc](../src/q_1401_1450/q1410.cc)|2024/11/03 13:14|
+|1411|[Number of Ways to Paint N × 3 Grid](https://leetcode.com/problems/number-of-ways-to-paint-n-3-grid/)|[src/q_1401_1450/q1411.cc](../src/q_1401_1450/q1411.cc)|2026/01/03 15:23|
 |1413|[Minimum Value to Get Positive Step by Step Sum](https://leetcode.com/problems/minimum-value-to-get-positive-step-by-step-sum/)|[src/q_1401_1450/q1413.cc](../src/q_1401_1450/q1413.cc)|2021/11/11 21:28|
 |1415|[The k-th Lexicographical String of All Happy Strings of Length n](https://leetcode.com/problems/the-k-th-lexicographical-string-of-all-happy-strings-of-length-n/)|[src/q_1401_1450/q1415.cc](../src/q_1401_1450/q1415.cc)|2025/02/19 19:06|
 |1416|[Restore The Array](https://leetcode.com/problems/restore-the-array/)|[src/q_1401_1450/q1416.cc](../src/q_1401_1450/q1416.cc)|2023/04/23 13:59|
