@@ -1,6 +1,6 @@
 # Solved Solutions List
 
-This document contains **1753** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
+This document contains **1754** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
 
 Some questions which are still being resolved are not shown in this page, more information about unsolved questions can be found at [docs/unsolved_solutions.md](./unsolved_solutions.md).
 
@@ -877,6 +877,7 @@ Some questions which are still being resolved are not shown in this page, more i
 |1335|[Minimum Difficulty of a Job Schedule](https://leetcode.com/problems/minimum-difficulty-of-a-job-schedule/)|[src/q_1301_1350/q1335.cc](../src/q_1301_1350/q1335.cc)|2022/10/16 14:40|
 |1337|[The K Weakest Rows in a Matrix](https://leetcode.com/problems/the-k-weakest-rows-in-a-matrix/)|[src/q_1301_1350/q1337.cc](../src/q_1301_1350/q1337.cc)|2022/03/27 23:33|
 |1338|[Reduce Array Size to The Half](https://leetcode.com/problems/reduce-array-size-to-the-half/)|[src/q_1301_1350/q1338.cc](../src/q_1301_1350/q1338.cc)|2022/08/18 18:23|
+|1339|[Maximum Product of Splitted Binary Tree](https://leetcode.com/problems/maximum-product-of-splitted-binary-tree/)|[src/q_1301_1350/q1339.cc](../src/q_1301_1350/q1339.cc)|2026/01/07 19:25|
 |1342|[Number of Steps to Reduce a Number to Zero](https://leetcode.com/problems/number-of-steps-to-reduce-a-number-to-zero/)|[src/q_1301_1350/q1342.cc](../src/q_1301_1350/q1342.cc)|2022/05/27 18:13|
 |1344|[Angle Between Hands of a Clock](https://leetcode.com/problems/angle-between-hands-of-a-clock/)|[src/q_1301_1350/q1344.cc](../src/q_1301_1350/q1344.cc)|2022/03/02 18:33|
 |1345|[Jump Game IV](https://leetcode.com/problems/jump-game-iv/)|[src/q_1301_1350/q1345.cc](../src/q_1301_1350/q1345.cc)|2022/01/15 14:26|
