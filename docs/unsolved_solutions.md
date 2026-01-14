@@ -1,6 +1,6 @@
 # Unsolved Solutions List
 
-There are **1980** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
+There are **1979** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
 
 The questions which have been solved are not shown in this page, more information about solved questions can be found at [docs/solved_solutions.md](./solved_solutions.md).
 
@@ -1731,7 +1731,6 @@ The questions which have been solved are not shown in this page, more informatio
 |3450|[Maximum Students on a Single Bench](https://leetcode.com/problems/maximum-students-on-a-single-bench/)|Easy|🔒|
 |3451|[Find Invalid IP Addresses](https://leetcode.com/problems/find-invalid-ip-addresses/)|Hard||
 |3452|[Sum of Good Numbers](https://leetcode.com/problems/sum-of-good-numbers/)|Easy||
-|3454|[Separate Squares II](https://leetcode.com/problems/separate-squares-ii/)|Hard||
 |3455|[Shortest Matching Substring](https://leetcode.com/problems/shortest-matching-substring/)|Hard||
 |3456|[Find Special Substring of Length K](https://leetcode.com/problems/find-special-substring-of-length-k/)|Easy||
 |3457|[Eat Pizzas!](https://leetcode.com/problems/eat-pizzas/)|Medium||
