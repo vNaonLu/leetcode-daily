@@ -1,6 +1,6 @@
 # Solved Solutions List
 
-This document contains **1756** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
+This document contains **1757** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
 
 Some questions which are still being resolved are not shown in this page, more information about unsolved questions can be found at [docs/unsolved_solutions.md](./unsolved_solutions.md).
 
@@ -1577,6 +1577,7 @@ Some questions which are still being resolved are not shown in this page, more i
 |2938|[Separate Black and White Balls](https://leetcode.com/problems/separate-black-and-white-balls/)|[src/q_2901_2950/q2938.cc](../src/q_2901_2950/q2938.cc)|2024/10/15 21:22|
 |2940|[Find Building Where Alice and Bob Can Meet](https://leetcode.com/problems/find-building-where-alice-and-bob-can-meet/)|[src/q_2901_2950/q2940.cc](../src/q_2901_2950/q2940.cc)|2024/12/22 20:08|
 |2942|[Find Words Containing Character](https://leetcode.com/problems/find-words-containing-character/)|[src/q_2901_2950/q2942.cc](../src/q_2901_2950/q2942.cc)|2024/02/06 22:49|
+|2943|[Maximize Area of Square Hole in Grid](https://leetcode.com/problems/maximize-area-of-square-hole-in-grid/)|[src/q_2901_2950/q2943.cc](../src/q_2901_2950/q2943.cc)|2026/01/15 20:52|
 |2946|[Matrix Similarity After Cyclic Shifts](https://leetcode.com/problems/matrix-similarity-after-cyclic-shifts/)|[src/q_2901_2950/q2946.cc](../src/q_2901_2950/q2946.cc)|2024/02/07 16:19|
 |2948|[Make Lexicographically Smallest Array by Swapping Elements](https://leetcode.com/problems/make-lexicographically-smallest-array-by-swapping-elements/)|[src/q_2901_2950/q2948.cc](../src/q_2901_2950/q2948.cc)|2025/01/25 09:13|
 |2951|[Find the Peaks](https://leetcode.com/problems/find-the-peaks/)|[src/q_2951_3000/q2951.cc](../src/q_2951_3000/q2951.cc)|2024/02/08 09:43|
