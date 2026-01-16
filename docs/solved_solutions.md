@@ -1,6 +1,6 @@
 # Solved Solutions List
 
-This document contains **1757** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
+This document contains **1758** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
 
 Some questions which are still being resolved are not shown in this page, more information about unsolved questions can be found at [docs/unsolved_solutions.md](./unsolved_solutions.md).
 
@@ -1590,6 +1590,7 @@ Some questions which are still being resolved are not shown in this page, more i
 |2970|[Count the Number of Incremovable Subarrays I](https://leetcode.com/problems/count-the-number-of-incremovable-subarrays-i/)|[src/q_2951_3000/q2970.cc](../src/q_2951_3000/q2970.cc)|2024/02/12 12:25|
 |2971|[Find Polygon With the Largest Perimeter](https://leetcode.com/problems/find-polygon-with-the-largest-perimeter/)|[src/q_2951_3000/q2971.cc](../src/q_2951_3000/q2971.cc)|2024/02/15 18:03|
 |2974|[Minimum Number Game](https://leetcode.com/problems/minimum-number-game/)|[src/q_2951_3000/q2974.cc](../src/q_2951_3000/q2974.cc)|2024/02/13 13:30|
+|2975|[Maximum Square Area by Removing Fences From a Field](https://leetcode.com/problems/maximum-square-area-by-removing-fences-from-a-field/)|[src/q_2951_3000/q2975.cc](../src/q_2951_3000/q2975.cc)|2026/01/16 19:06|
 |2976|[Minimum Cost to Convert String I](https://leetcode.com/problems/minimum-cost-to-convert-string-i/)|[src/q_2951_3000/q2976.cc](../src/q_2951_3000/q2976.cc)|2024/07/27 12:45|
 |2980|[Check if Bitwise OR Has Trailing Zeros](https://leetcode.com/problems/check-if-bitwise-or-has-trailing-zeros/)|[src/q_2951_3000/q2980.cc](../src/q_2951_3000/q2980.cc)|2024/02/14 11:10|
 |2981|[Find Longest Special Substring That Occurs Thrice I](https://leetcode.com/problems/find-longest-special-substring-that-occurs-thrice-i/)|[src/q_2951_3000/q2981.cc](../src/q_2951_3000/q2981.cc)|2024/12/10 20:32|
