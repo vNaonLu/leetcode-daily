@@ -1,6 +1,6 @@
 # Solved Solutions List
 
-This document contains **1762** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
+This document contains **1763** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
 
 Some questions which are still being resolved are not shown in this page, more information about unsolved questions can be found at [docs/unsolved_solutions.md](./unsolved_solutions.md).
 
@@ -1753,6 +1753,7 @@ Some questions which are still being resolved are not shown in this page, more i
 |3495|[Minimum Operations to Make Array Elements Zero](https://leetcode.com/problems/minimum-operations-to-make-array-elements-zero/)|[src/q_3451_3500/q3495.cc](../src/q_3451_3500/q3495.cc)|2025/09/06 21:09|
 |3507|[Minimum Pair Removal to Sort Array I](https://leetcode.com/problems/minimum-pair-removal-to-sort-array-i/)|[src/q_3501_3550/q3507.cc](../src/q_3501_3550/q3507.cc)|2026/01/22 20:36|
 |3508|[Implement Router](https://leetcode.com/problems/implement-router/)|[src/q_3501_3550/q3508.cc](../src/q_3501_3550/q3508.cc)|2025/09/20 12:01|
+|3510|[Minimum Pair Removal to Sort Array II](https://leetcode.com/problems/minimum-pair-removal-to-sort-array-ii/)|[src/q_3501_3550/q3510.cc](../src/q_3501_3550/q3510.cc)|2026/01/23 13:14|
 |3512|[Minimum Operations to Make Array Sum Divisible by K](https://leetcode.com/problems/minimum-operations-to-make-array-sum-divisible-by-k/)|[src/q_3501_3550/q3512.cc](../src/q_3501_3550/q3512.cc)|2025/11/29 13:33|
 |3516|[Find Closest Person](https://leetcode.com/problems/find-closest-person/)|[src/q_3501_3550/q3516.cc](../src/q_3501_3550/q3516.cc)|2025/09/04 21:12|
 |3531|[Count Covered Buildings](https://leetcode.com/problems/count-covered-buildings/)|[src/q_3501_3550/q3531.cc](../src/q_3501_3550/q3531.cc)|2025/12/11 22:56|
