@@ -1,6 +1,6 @@
 # Unsolved Solutions List
 
-There are **1968** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
+There are **1967** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
 
 The questions which have been solved are not shown in this page, more information about solved questions can be found at [docs/solved_solutions.md](./solved_solutions.md).
 
@@ -1879,7 +1879,6 @@ The questions which have been solved are not shown in this page, more informatio
 |3634|[Minimum Removals to Balance Array](https://leetcode.com/problems/minimum-removals-to-balance-array/)|Medium||
 |3635|[Earliest Finish Time for Land and Water Rides II](https://leetcode.com/problems/earliest-finish-time-for-land-and-water-rides-ii/)|Medium||
 |3636|[Threshold Majority Queries](https://leetcode.com/problems/threshold-majority-queries/)|Hard||
-|3637|[Trionic Array I](https://leetcode.com/problems/trionic-array-i/)|Easy||
 |3638|[Maximum Balanced Shipments](https://leetcode.com/problems/maximum-balanced-shipments/)|Medium||
 |3639|[Minimum Time to Activate String](https://leetcode.com/problems/minimum-time-to-activate-string/)|Medium||
 |3640|[Trionic Array II](https://leetcode.com/problems/trionic-array-ii/)|Hard||
