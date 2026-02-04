@@ -1,6 +1,6 @@
 # Unsolved Solutions List
 
-There are **1967** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
+There are **1966** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
 
 The questions which have been solved are not shown in this page, more information about solved questions can be found at [docs/solved_solutions.md](./solved_solutions.md).
 
@@ -1881,7 +1881,6 @@ The questions which have been solved are not shown in this page, more informatio
 |3636|[Threshold Majority Queries](https://leetcode.com/problems/threshold-majority-queries/)|Hard||
 |3638|[Maximum Balanced Shipments](https://leetcode.com/problems/maximum-balanced-shipments/)|Medium||
 |3639|[Minimum Time to Activate String](https://leetcode.com/problems/minimum-time-to-activate-string/)|Medium||
-|3640|[Trionic Array II](https://leetcode.com/problems/trionic-array-ii/)|Hard||
 |3641|[Longest Semi-Repeating Subarray](https://leetcode.com/problems/longest-semi-repeating-subarray/)|Medium|🔒|
 |3642|[Find Books with Polarized Opinions](https://leetcode.com/problems/find-books-with-polarized-opinions/)|Easy||
 |3643|[Flip Square Submatrix Vertically](https://leetcode.com/problems/flip-square-submatrix-vertically/)|Easy||
