@@ -1,6 +1,6 @@
 # Unsolved Solutions List
 
-There are **1966** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
+There are **1965** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
 
 The questions which have been solved are not shown in this page, more information about solved questions can be found at [docs/solved_solutions.md](./solved_solutions.md).
 
@@ -1876,7 +1876,6 @@ The questions which have been solved are not shown in this page, more informatio
 |3631|[Sort Threats by Severity and Exploitability](https://leetcode.com/problems/sort-threats-by-severity-and-exploitability/)|Medium|🔒|
 |3632|[Subarrays with XOR at Least K](https://leetcode.com/problems/subarrays-with-xor-at-least-k/)|Hard|🔒|
 |3633|[Earliest Finish Time for Land and Water Rides I](https://leetcode.com/problems/earliest-finish-time-for-land-and-water-rides-i/)|Easy||
-|3634|[Minimum Removals to Balance Array](https://leetcode.com/problems/minimum-removals-to-balance-array/)|Medium||
 |3635|[Earliest Finish Time for Land and Water Rides II](https://leetcode.com/problems/earliest-finish-time-for-land-and-water-rides-ii/)|Medium||
 |3636|[Threshold Majority Queries](https://leetcode.com/problems/threshold-majority-queries/)|Hard||
 |3638|[Maximum Balanced Shipments](https://leetcode.com/problems/maximum-balanced-shipments/)|Medium||
