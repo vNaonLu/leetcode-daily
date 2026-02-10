@@ -1,6 +1,6 @@
 # Unsolved Solutions List
 
-There are **1965** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
+There are **1964** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
 
 The questions which have been solved are not shown in this page, more information about solved questions can be found at [docs/solved_solutions.md](./solved_solutions.md).
 
@@ -1955,7 +1955,6 @@ The questions which have been solved are not shown in this page, more informatio
 |3716|[Find Churn Risk Customers](https://leetcode.com/problems/find-churn-risk-customers/)|Medium||
 |3717|[Minimum Operations to Make the Array Beautiful](https://leetcode.com/problems/minimum-operations-to-make-the-array-beautiful/)|Medium|🔒|
 |3718|[Smallest Missing Multiple of K](https://leetcode.com/problems/smallest-missing-multiple-of-k/)|Easy||
-|3719|[Longest Balanced Subarray I](https://leetcode.com/problems/longest-balanced-subarray-i/)|Medium||
 |3720|[Lexicographically Smallest Permutation Greater Than Target](https://leetcode.com/problems/lexicographically-smallest-permutation-greater-than-target/)|Medium||
 |3721|[Longest Balanced Subarray II](https://leetcode.com/problems/longest-balanced-subarray-ii/)|Hard||
 |3722|[Lexicographically Smallest String After Reverse](https://leetcode.com/problems/lexicographically-smallest-string-after-reverse/)|Medium||
