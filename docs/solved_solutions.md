@@ -1,6 +1,6 @@
 # Solved Solutions List
 
-This document contains **1773** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
+This document contains **1774** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
 
 Some questions which are still being resolved are not shown in this page, more information about unsolved questions can be found at [docs/unsolved_solutions.md](./unsolved_solutions.md).
 
@@ -1778,5 +1778,6 @@ Some questions which are still being resolved are not shown in this page, more i
 |3651|[Minimum Cost Path with Teleportations](https://leetcode.com/problems/minimum-cost-path-with-teleportations/)|[src/q_3651_3700/q3651.cc](../src/q_3651_3700/q3651.cc)|2026/01/28 18:46|
 |3652|[Best Time to Buy and Sell Stock using Strategy](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-using-strategy/)|[src/q_3651_3700/q3652.cc](../src/q_3651_3700/q3652.cc)|2025/12/18 21:42|
 |3713|[Longest Balanced Substring I](https://leetcode.com/problems/longest-balanced-substring-i/)|[src/q_3701_3750/q3713.cc](../src/q_3701_3750/q3713.cc)|2026/02/12 16:04|
+|3714|[Longest Balanced Substring II](https://leetcode.com/problems/longest-balanced-substring-ii/)|[src/q_3701_3750/q3714.cc](../src/q_3701_3750/q3714.cc)|2026/02/13 12:42|
 |3719|[Longest Balanced Subarray I](https://leetcode.com/problems/longest-balanced-subarray-i/)|[src/q_3701_3750/q3719.cc](../src/q_3701_3750/q3719.cc)|2026/02/10 19:13|
 |3721|[Longest Balanced Subarray II](https://leetcode.com/problems/longest-balanced-subarray-ii/)|[src/q_3701_3750/q3721.cc](../src/q_3701_3750/q3721.cc)|2026/02/11 19:19|

@@ -1,6 +1,6 @@
 # Unsolved Solutions List
 
-There are **1962** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
+There are **1961** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
 
 The questions which have been solved are not shown in this page, more information about solved questions can be found at [docs/solved_solutions.md](./solved_solutions.md).
 
@@ -1949,7 +1949,6 @@ The questions which have been solved are not shown in this page, more informatio
 |3710|[Maximum Partition Factor](https://leetcode.com/problems/maximum-partition-factor/)|Hard||
 |3711|[Maximum Transactions Without Negative Balance](https://leetcode.com/problems/maximum-transactions-without-negative-balance/)|Medium|🔒|
 |3712|[Sum of Elements With Frequency Divisible by K](https://leetcode.com/problems/sum-of-elements-with-frequency-divisible-by-k/)|Easy||
-|3714|[Longest Balanced Substring II](https://leetcode.com/problems/longest-balanced-substring-ii/)|Medium||
 |3715|[Sum of Perfect Square Ancestors](https://leetcode.com/problems/sum-of-perfect-square-ancestors/)|Hard||
 |3716|[Find Churn Risk Customers](https://leetcode.com/problems/find-churn-risk-customers/)|Medium||
 |3717|[Minimum Operations to Make the Array Beautiful](https://leetcode.com/problems/minimum-operations-to-make-the-array-beautiful/)|Medium|🔒|
