@@ -1,6 +1,6 @@
 # Solved Solutions List
 
-This document contains **1774** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
+This document contains **1775** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
 
 Some questions which are still being resolved are not shown in this page, more information about unsolved questions can be found at [docs/unsolved_solutions.md](./unsolved_solutions.md).
 
@@ -533,6 +533,7 @@ Some questions which are still being resolved are not shown in this page, more i
 |754|[Reach a Number](https://leetcode.com/problems/reach-a-number/)|[src/q_751_800/q0754.cc](../src/q_751_800/q0754.cc)|2024/06/09 13:52|
 |756|[Pyramid Transition Matrix](https://leetcode.com/problems/pyramid-transition-matrix/)|[src/q_751_800/q0756.cc](../src/q_751_800/q0756.cc)|2024/06/13 21:14|
 |757|[Set Intersection Size At Least Two](https://leetcode.com/problems/set-intersection-size-at-least-two/)|[src/q_751_800/q0757.cc](../src/q_751_800/q0757.cc)|2025/11/20 21:40|
+|761|[Special Binary String](https://leetcode.com/problems/special-binary-string/)|[src/q_751_800/q0761.cc](../src/q_751_800/q0761.cc)|2026/02/20 11:32|
 |762|[Prime Number of Set Bits in Binary Representation](https://leetcode.com/problems/prime-number-of-set-bits-in-binary-representation/)|[src/q_751_800/q0762.cc](../src/q_751_800/q0762.cc)|2021/10/06 01:12|
 |763|[Partition Labels](https://leetcode.com/problems/partition-labels/)|[src/q_751_800/q0763.cc](../src/q_751_800/q0763.cc)|2021/09/25 16:47|
 |764|[Largest Plus Sign](https://leetcode.com/problems/largest-plus-sign/)|[src/q_751_800/q0764.cc](../src/q_751_800/q0764.cc)|2021/09/09 08:00|

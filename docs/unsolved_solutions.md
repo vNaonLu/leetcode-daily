@@ -1,6 +1,6 @@
 # Unsolved Solutions List
 
-There are **1961** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
+There are **1960** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
 
 The questions which have been solved are not shown in this page, more information about solved questions can be found at [docs/solved_solutions.md](./solved_solutions.md).
 
@@ -241,7 +241,6 @@ The questions which have been solved are not shown in this page, more informatio
 |758|[Bold Words in String](https://leetcode.com/problems/bold-words-in-string/)|Medium|🔒|
 |759|[Employee Free Time](https://leetcode.com/problems/employee-free-time/)|Hard|🔒|
 |760|[Find Anagram Mappings](https://leetcode.com/problems/find-anagram-mappings/)|Easy|🔒|
-|761|[Special Binary String](https://leetcode.com/problems/special-binary-string/)|Hard||
 |765|[Couples Holding Hands](https://leetcode.com/problems/couples-holding-hands/)|Hard||
 |768|[Max Chunks To Make Sorted II](https://leetcode.com/problems/max-chunks-to-make-sorted-ii/)|Hard||
 |770|[Basic Calculator IV](https://leetcode.com/problems/basic-calculator-iv/)|Hard||
