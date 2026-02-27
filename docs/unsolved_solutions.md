@@ -1,6 +1,6 @@
 # Unsolved Solutions List
 
-There are **1960** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
+There are **1959** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
 
 The questions which have been solved are not shown in this page, more information about solved questions can be found at [docs/solved_solutions.md](./solved_solutions.md).
 
@@ -1901,7 +1901,6 @@ The questions which have been solved are not shown in this page, more informatio
 |3663|[Find The Least Frequent Digit](https://leetcode.com/problems/find-the-least-frequent-digit/)|Easy||
 |3664|[Two-Letter Card Game](https://leetcode.com/problems/two-letter-card-game/)|Medium||
 |3665|[Twisted Mirror Path Count](https://leetcode.com/problems/twisted-mirror-path-count/)|Medium||
-|3666|[Minimum Operations to Equalize Binary String](https://leetcode.com/problems/minimum-operations-to-equalize-binary-string/)|Hard||
 |3667|[Sort Array By Absolute Value](https://leetcode.com/problems/sort-array-by-absolute-value/)|Easy|🔒|
 |3668|[Restore Finishing Order](https://leetcode.com/problems/restore-finishing-order/)|Easy||
 |3669|[Balanced K-Factor Decomposition](https://leetcode.com/problems/balanced-k-factor-decomposition/)|Medium||
