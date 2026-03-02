@@ -1,6 +1,6 @@
 # Unsolved Solutions List
 
-There are **1959** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
+There are **1958** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
 
 The questions which have been solved are not shown in this page, more information about solved questions can be found at [docs/solved_solutions.md](./solved_solutions.md).
 
@@ -557,7 +557,6 @@ The questions which have been solved are not shown in this page, more informatio
 |1527|[Patients With a Condition](https://leetcode.com/problems/patients-with-a-condition/)|Easy||
 |1532|[The Most Recent Three Orders](https://leetcode.com/problems/the-most-recent-three-orders/)|Medium|🔒|
 |1533|[Find the Index of the Large Integer](https://leetcode.com/problems/find-the-index-of-the-large-integer/)|Medium|🔒|
-|1536|[Minimum Swaps to Arrange a Binary Grid](https://leetcode.com/problems/minimum-swaps-to-arrange-a-binary-grid/)|Medium||
 |1537|[Get the Maximum Score](https://leetcode.com/problems/get-the-maximum-score/)|Hard||
 |1538|[Guess the Majority in a Hidden Array](https://leetcode.com/problems/guess-the-majority-in-a-hidden-array/)|Medium|🔒|
 |1540|[Can Convert String in K Moves](https://leetcode.com/problems/can-convert-string-in-k-moves/)|Medium||
