@@ -1,6 +1,6 @@
 # Solved Solutions List
 
-This document contains **1777** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
+This document contains **1778** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
 
 Some questions which are still being resolved are not shown in this page, more information about unsolved questions can be found at [docs/unsolved_solutions.md](./unsolved_solutions.md).
 
@@ -1154,6 +1154,7 @@ Some questions which are still being resolved are not shown in this page, more i
 |1881|[Maximum Value after Insertion](https://leetcode.com/problems/maximum-value-after-insertion/)|[src/q_1851_1900/q1881.cc](../src/q_1851_1900/q1881.cc)|2021/10/17 15:52|
 |1886|[Determine Whether Matrix Can Be Obtained By Rotation](https://leetcode.com/problems/determine-whether-matrix-can-be-obtained-by-rotation/)|[src/q_1851_1900/q1886.cc](../src/q_1851_1900/q1886.cc)|2022/05/02 13:31|
 |1887|[Reduction Operations to Make the Array Elements Equal](https://leetcode.com/problems/reduction-operations-to-make-the-array-elements-equal/)|[src/q_1851_1900/q1887.cc](../src/q_1851_1900/q1887.cc)|2021/10/12 12:18|
+|1888|[Minimum Number of Flips to Make the Binary String Alternating](https://leetcode.com/problems/minimum-number-of-flips-to-make-the-binary-string-alternating/)|[src/q_1851_1900/q1888.cc](../src/q_1851_1900/q1888.cc)|2026/03/07 22:24|
 |1893|[Check if All the Integers in a Range Are Covered](https://leetcode.com/problems/check-if-all-the-integers-in-a-range-are-covered/)|[src/q_1851_1900/q1893.cc](../src/q_1851_1900/q1893.cc)|2023/05/15 13:44|
 |1894|[Find the Student that Will Replace the Chalk](https://leetcode.com/problems/find-the-student-that-will-replace-the-chalk/)|[src/q_1851_1900/q1894.cc](../src/q_1851_1900/q1894.cc)|2022/07/15 21:00|
 |1895|[Largest Magic Square](https://leetcode.com/problems/largest-magic-square/)|[src/q_1851_1900/q1895.cc](../src/q_1851_1900/q1895.cc)|2026/01/18 16:02|

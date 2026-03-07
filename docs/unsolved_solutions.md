@@ -1,6 +1,6 @@
 # Unsolved Solutions List
 
-There are **1958** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
+There are **1957** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
 
 The questions which have been solved are not shown in this page, more information about solved questions can be found at [docs/solved_solutions.md](./solved_solutions.md).
 
@@ -747,7 +747,6 @@ The questions which have been solved are not shown in this page, more informatio
 |1883|[Minimum Skips to Arrive at Meeting On Time](https://leetcode.com/problems/minimum-skips-to-arrive-at-meeting-on-time/)|Hard||
 |1884|[Egg Drop With 2 Eggs and N Floors](https://leetcode.com/problems/egg-drop-with-2-eggs-and-n-floors/)|Medium||
 |1885|[Count Pairs in Two Arrays](https://leetcode.com/problems/count-pairs-in-two-arrays/)|Medium|🔒|
-|1888|[Minimum Number of Flips to Make the Binary String Alternating](https://leetcode.com/problems/minimum-number-of-flips-to-make-the-binary-string-alternating/)|Medium||
 |1889|[Minimum Space Wasted From Packaging](https://leetcode.com/problems/minimum-space-wasted-from-packaging/)|Hard||
 |1890|[The Latest Login in 2020](https://leetcode.com/problems/the-latest-login-in-2020/)|Easy||
 |1891|[Cutting Ribbons](https://leetcode.com/problems/cutting-ribbons/)|Medium|🔒|
