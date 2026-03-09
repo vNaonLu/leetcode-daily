@@ -1,6 +1,6 @@
 # Unsolved Solutions List
 
-There are **1957** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
+There are **1956** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
 
 The questions which have been solved are not shown in this page, more information about solved questions can be found at [docs/solved_solutions.md](./solved_solutions.md).
 
@@ -1500,7 +1500,6 @@ The questions which have been solved are not shown in this page, more informatio
 |3125|[Maximum Number That Makes Result of Bitwise AND Zero](https://leetcode.com/problems/maximum-number-that-makes-result-of-bitwise-and-zero/)|Medium|🔒|
 |3126|[Server Utilization Time](https://leetcode.com/problems/server-utilization-time/)|Medium|🔒|
 |3128|[Right Triangles](https://leetcode.com/problems/right-triangles/)|Medium||
-|3129|[Find All Possible Stable Binary Arrays I](https://leetcode.com/problems/find-all-possible-stable-binary-arrays-i/)|Medium||
 |3130|[Find All Possible Stable Binary Arrays II](https://leetcode.com/problems/find-all-possible-stable-binary-arrays-ii/)|Hard||
 |3132|[Find the Integer Added to Array II](https://leetcode.com/problems/find-the-integer-added-to-array-ii/)|Medium||
 |3134|[Find the Median of the Uniqueness Array](https://leetcode.com/problems/find-the-median-of-the-uniqueness-array/)|Hard||
