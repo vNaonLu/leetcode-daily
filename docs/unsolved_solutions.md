@@ -1,6 +1,6 @@
 # Unsolved Solutions List
 
-There are **1955** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
+There are **1954** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
 
 The questions which have been solved are not shown in this page, more information about solved questions can be found at [docs/solved_solutions.md](./solved_solutions.md).
 
@@ -1841,7 +1841,6 @@ The questions which have been solved are not shown in this page, more informatio
 |3597|[Partition String ](https://leetcode.com/problems/partition-string/)|Medium||
 |3598|[Longest Common Prefix Between Adjacent Strings After Removals](https://leetcode.com/problems/longest-common-prefix-between-adjacent-strings-after-removals/)|Medium||
 |3599|[Partition Array to Minimize XOR](https://leetcode.com/problems/partition-array-to-minimize-xor/)|Medium||
-|3600|[Maximize Spanning Tree Stability with Upgrades](https://leetcode.com/problems/maximize-spanning-tree-stability-with-upgrades/)|Hard||
 |3601|[Find Drivers with Improved Fuel Efficiency](https://leetcode.com/problems/find-drivers-with-improved-fuel-efficiency/)|Medium||
 |3602|[Hexadecimal and Hexatrigesimal Conversion](https://leetcode.com/problems/hexadecimal-and-hexatrigesimal-conversion/)|Easy||
 |3603|[Minimum Cost Path with Alternating Directions II](https://leetcode.com/problems/minimum-cost-path-with-alternating-directions-ii/)|Medium||
