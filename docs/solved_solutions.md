@@ -1,6 +1,6 @@
 # Solved Solutions List
 
-This document contains **1781** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
+This document contains **1782** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
 
 Some questions which are still being resolved are not shown in this page, more information about unsolved questions can be found at [docs/unsolved_solutions.md](./unsolved_solutions.md).
 
@@ -1031,6 +1031,7 @@ Some questions which are still being resolved are not shown in this page, more i
 |1614|[Maximum Nesting Depth of the Parentheses](https://leetcode.com/problems/maximum-nesting-depth-of-the-parentheses/)|[src/q_1601_1650/q1614.cc](../src/q_1601_1650/q1614.cc)|2022/12/07 00:17|
 |1615|[Maximal Network Rank](https://leetcode.com/problems/maximal-network-rank/)|[src/q_1601_1650/q1615.cc](../src/q_1601_1650/q1615.cc)|2022/03/23 18:34|
 |1619|[Mean of Array After Removing Some Elements](https://leetcode.com/problems/mean-of-array-after-removing-some-elements/)|[src/q_1601_1650/q1619.cc](../src/q_1601_1650/q1619.cc)|2023/09/01 19:59|
+|1622|[Fancy Sequence](https://leetcode.com/problems/fancy-sequence/)|[src/q_1601_1650/q1622.cc](../src/q_1601_1650/q1622.cc)|2026/03/15 15:57|
 |1624|[Largest Substring Between Two Equal Characters](https://leetcode.com/problems/largest-substring-between-two-equal-characters/)|[src/q_1601_1650/q1624.cc](../src/q_1601_1650/q1624.cc)|2023/09/03 08:08|
 |1625|[Lexicographically Smallest String After Applying Operations](https://leetcode.com/problems/lexicographically-smallest-string-after-applying-operations/)|[src/q_1601_1650/q1625.cc](../src/q_1601_1650/q1625.cc)|2025/10/19 17:52|
 |1626|[Best Team With No Conflicts](https://leetcode.com/problems/best-team-with-no-conflicts/)|[src/q_1601_1650/q1626.cc](../src/q_1601_1650/q1626.cc)|2023/01/31 20:56|
