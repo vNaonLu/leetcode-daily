@@ -1,6 +1,6 @@
 # Unsolved Solutions List
 
-There are **1952** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
+There are **1951** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
 
 The questions which have been solved are not shown in this page, more information about solved questions can be found at [docs/solved_solutions.md](./solved_solutions.md).
 
@@ -1610,7 +1610,6 @@ The questions which have been solved are not shown in this page, more informatio
 |3293|[Calculate Product Final Price](https://leetcode.com/problems/calculate-product-final-price/)|Medium|🔒|
 |3294|[Convert Doubly Linked List to Array II](https://leetcode.com/problems/convert-doubly-linked-list-to-array-ii/)|Medium|🔒|
 |3295|[Report Spam Message](https://leetcode.com/problems/report-spam-message/)|Medium||
-|3296|[Minimum Number of Seconds to Make Mountain Height Zero](https://leetcode.com/problems/minimum-number-of-seconds-to-make-mountain-height-zero/)|Medium||
 |3297|[Count Substrings That Can Be Rearranged to Contain a String I](https://leetcode.com/problems/count-substrings-that-can-be-rearranged-to-contain-a-string-i/)|Medium||
 |3298|[Count Substrings That Can Be Rearranged to Contain a String II](https://leetcode.com/problems/count-substrings-that-can-be-rearranged-to-contain-a-string-ii/)|Hard||
 |3299|[Sum of Consecutive Subsequences](https://leetcode.com/problems/sum-of-consecutive-subsequences/)|Hard|🔒|
