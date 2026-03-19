@@ -1,6 +1,6 @@
 # Unsolved Solutions List
 
-There are **1951** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
+There are **1950** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
 
 The questions which have been solved are not shown in this page, more information about solved questions can be found at [docs/solved_solutions.md](./solved_solutions.md).
 
@@ -1548,7 +1548,6 @@ The questions which have been solved are not shown in this page, more informatio
 |3207|[Maximum Points After Enemy Battles](https://leetcode.com/problems/maximum-points-after-enemy-battles/)|Medium||
 |3209|[Number of Subarrays With AND Value of K](https://leetcode.com/problems/number-of-subarrays-with-and-value-of-k/)|Hard||
 |3211|[Generate Binary Strings Without Adjacent Zeros](https://leetcode.com/problems/generate-binary-strings-without-adjacent-zeros/)|Medium||
-|3212|[Count Submatrices With Equal Frequency of X and Y](https://leetcode.com/problems/count-submatrices-with-equal-frequency-of-x-and-y/)|Medium||
 |3213|[Construct String with Minimum Cost](https://leetcode.com/problems/construct-string-with-minimum-cost/)|Hard||
 |3214|[Year on Year Growth Rate](https://leetcode.com/problems/year-on-year-growth-rate/)|Hard|🔒|
 |3215|[Count Triplets with Even XOR Set Bits II](https://leetcode.com/problems/count-triplets-with-even-xor-set-bits-ii/)|Medium|🔒|
