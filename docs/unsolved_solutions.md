@@ -1,6 +1,6 @@
 # Unsolved Solutions List
 
-There are **1950** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
+There are **1949** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
 
 The questions which have been solved are not shown in this page, more information about solved questions can be found at [docs/solved_solutions.md](./solved_solutions.md).
 
@@ -1808,7 +1808,6 @@ The questions which have been solved are not shown in this page, more informatio
 |3564|[Seasonal Sales Analysis](https://leetcode.com/problems/seasonal-sales-analysis/)|Medium||
 |3565|[Sequential Grid Path Cover](https://leetcode.com/problems/sequential-grid-path-cover/)|Medium|🔒|
 |3566|[Partition Array into Two Equal Product Subsets](https://leetcode.com/problems/partition-array-into-two-equal-product-subsets/)|Medium||
-|3567|[Minimum Absolute Difference in Sliding Submatrix](https://leetcode.com/problems/minimum-absolute-difference-in-sliding-submatrix/)|Medium||
 |3568|[Minimum Moves to Clean the Classroom](https://leetcode.com/problems/minimum-moves-to-clean-the-classroom/)|Medium||
 |3569|[Maximize Count of Distinct Primes After Split](https://leetcode.com/problems/maximize-count-of-distinct-primes-after-split/)|Hard||
 |3570|[Find Books with No Available Copies](https://leetcode.com/problems/find-books-with-no-available-copies/)|Easy||

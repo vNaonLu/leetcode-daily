@@ -1,6 +1,6 @@
 # Solved Solutions List
 
-This document contains **1785** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
+This document contains **1786** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
 
 Some questions which are still being resolved are not shown in this page, more information about unsolved questions can be found at [docs/unsolved_solutions.md](./unsolved_solutions.md).
 
@@ -1772,6 +1772,7 @@ Some questions which are still being resolved are not shown in this page, more i
 |3541|[Find Most Frequent Vowel and Consonant](https://leetcode.com/problems/find-most-frequent-vowel-and-consonant/)|[src/q_3501_3550/q3541.cc](../src/q_3501_3550/q3541.cc)|2025/09/21 19:38|
 |3542|[Minimum Operations to Convert All Elements to Zero](https://leetcode.com/problems/minimum-operations-to-convert-all-elements-to-zero/)|[src/q_3501_3550/q3542.cc](../src/q_3501_3550/q3542.cc)|2025/11/10 19:17|
 |3562|[Maximum Profit from Trading Stocks with Discounts](https://leetcode.com/problems/maximum-profit-from-trading-stocks-with-discounts/)|[src/q_3551_3600/q3562.cc](../src/q_3551_3600/q3562.cc)|2025/12/16 10:39|
+|3567|[Minimum Absolute Difference in Sliding Submatrix](https://leetcode.com/problems/minimum-absolute-difference-in-sliding-submatrix/)|[src/q_3551_3600/q3567.cc](../src/q_3551_3600/q3567.cc)|2026/03/20 19:22|
 |3573|[Best Time to Buy and Sell Stock V](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-v/)|[src/q_3551_3600/q3573.cc](../src/q_3551_3600/q3573.cc)|2025/12/17 19:11|
 |3577|[Count the Number of Computer Unlocking Permutations](https://leetcode.com/problems/count-the-number-of-computer-unlocking-permutations/)|[src/q_3551_3600/q3577.cc](../src/q_3551_3600/q3577.cc)|2025/12/10 19:55|
 |3578|[Count Partitions With Max-Min Difference at Most K](https://leetcode.com/problems/count-partitions-with-max-min-difference-at-most-k/)|[src/q_3551_3600/q3578.cc](../src/q_3551_3600/q3578.cc)|2025/12/06 21:46|
