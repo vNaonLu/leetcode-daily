@@ -1,6 +1,6 @@
 # Unsolved Solutions List
 
-There are **1949** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
+There are **1948** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
 
 The questions which have been solved are not shown in this page, more information about solved questions can be found at [docs/solved_solutions.md](./solved_solutions.md).
 
@@ -1871,7 +1871,6 @@ The questions which have been solved are not shown in this page, more informatio
 |3639|[Minimum Time to Activate String](https://leetcode.com/problems/minimum-time-to-activate-string/)|Medium||
 |3641|[Longest Semi-Repeating Subarray](https://leetcode.com/problems/longest-semi-repeating-subarray/)|Medium|🔒|
 |3642|[Find Books with Polarized Opinions](https://leetcode.com/problems/find-books-with-polarized-opinions/)|Easy||
-|3643|[Flip Square Submatrix Vertically](https://leetcode.com/problems/flip-square-submatrix-vertically/)|Easy||
 |3644|[Maximum K to Sort a Permutation](https://leetcode.com/problems/maximum-k-to-sort-a-permutation/)|Medium||
 |3645|[Maximum Total from Optimal Activation Order](https://leetcode.com/problems/maximum-total-from-optimal-activation-order/)|Medium||
 |3646|[Next Special Palindrome Number](https://leetcode.com/problems/next-special-palindrome-number/)|Hard||

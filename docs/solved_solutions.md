@@ -1,6 +1,6 @@
 # Solved Solutions List
 
-This document contains **1786** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
+This document contains **1787** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
 
 Some questions which are still being resolved are not shown in this page, more information about unsolved questions can be found at [docs/unsolved_solutions.md](./unsolved_solutions.md).
 
@@ -1785,6 +1785,7 @@ Some questions which are still being resolved are not shown in this page, more i
 |3634|[Minimum Removals to Balance Array](https://leetcode.com/problems/minimum-removals-to-balance-array/)|[src/q_3601_3650/q3634.cc](../src/q_3601_3650/q3634.cc)|2026/02/06 19:19|
 |3637|[Trionic Array I](https://leetcode.com/problems/trionic-array-i/)|[src/q_3601_3650/q3637.cc](../src/q_3601_3650/q3637.cc)|2026/02/03 18:52|
 |3640|[Trionic Array II](https://leetcode.com/problems/trionic-array-ii/)|[src/q_3601_3650/q3640.cc](../src/q_3601_3650/q3640.cc)|2026/02/04 21:42|
+|3643|[Flip Square Submatrix Vertically](https://leetcode.com/problems/flip-square-submatrix-vertically/)|[src/q_3601_3650/q3643.cc](../src/q_3601_3650/q3643.cc)|2026/03/21 15:47|
 |3650|[Minimum Cost Path with Edge Reversals](https://leetcode.com/problems/minimum-cost-path-with-edge-reversals/)|[src/q_3601_3650/q3650.cc](../src/q_3601_3650/q3650.cc)|2026/01/27 19:14|
 |3651|[Minimum Cost Path with Teleportations](https://leetcode.com/problems/minimum-cost-path-with-teleportations/)|[src/q_3651_3700/q3651.cc](../src/q_3651_3700/q3651.cc)|2026/01/28 18:46|
 |3652|[Best Time to Buy and Sell Stock using Strategy](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-using-strategy/)|[src/q_3651_3700/q3652.cc](../src/q_3651_3700/q3652.cc)|2025/12/18 21:42|
