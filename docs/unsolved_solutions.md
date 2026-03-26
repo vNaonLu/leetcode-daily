@@ -1,6 +1,6 @@
 # Unsolved Solutions List
 
-There are **1945** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
+There are **1944** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
 
 The questions which have been solved are not shown in this page, more information about solved questions can be found at [docs/solved_solutions.md](./solved_solutions.md).
 
@@ -1787,7 +1787,6 @@ The questions which have been solved are not shown in this page, more informatio
 |3544|[Subtree Inversion Sum](https://leetcode.com/problems/subtree-inversion-sum/)|Hard||
 |3545|[Minimum Deletions for At Most K Distinct Characters](https://leetcode.com/problems/minimum-deletions-for-at-most-k-distinct-characters/)|Easy||
 |3547|[Maximum Sum of Edge Values in a Graph](https://leetcode.com/problems/maximum-sum-of-edge-values-in-a-graph/)|Hard||
-|3548|[Equal Sum Grid Partition II](https://leetcode.com/problems/equal-sum-grid-partition-ii/)|Hard||
 |3549|[Multiply Two Polynomials](https://leetcode.com/problems/multiply-two-polynomials/)|Hard|🔒|
 |3550|[Smallest Index With Digit Sum Equal to Index](https://leetcode.com/problems/smallest-index-with-digit-sum-equal-to-index/)|Easy||
 |3551|[Minimum Swaps to Sort by Digit Sum](https://leetcode.com/problems/minimum-swaps-to-sort-by-digit-sum/)|Medium||
