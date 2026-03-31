@@ -1,6 +1,6 @@
 # Unsolved Solutions List
 
-There are **1942** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
+There are **1941** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
 
 The questions which have been solved are not shown in this page, more information about solved questions can be found at [docs/solved_solutions.md](./solved_solutions.md).
 
@@ -1728,7 +1728,6 @@ The questions which have been solved are not shown in this page, more informatio
 |3471|[Find the Largest Almost Missing Integer](https://leetcode.com/problems/find-the-largest-almost-missing-integer/)|Easy||
 |3472|[Longest Palindromic Subsequence After at Most K Operations](https://leetcode.com/problems/longest-palindromic-subsequence-after-at-most-k-operations/)|Medium||
 |3473|[Sum of K Subarrays With Length at Least M](https://leetcode.com/problems/sum-of-k-subarrays-with-length-at-least-m/)|Medium||
-|3474|[Lexicographically Smallest Generated String](https://leetcode.com/problems/lexicographically-smallest-generated-string/)|Hard||
 |3475|[DNA Pattern Recognition ](https://leetcode.com/problems/dna-pattern-recognition/)|Medium||
 |3476|[Maximize Profit from Task Assignment](https://leetcode.com/problems/maximize-profit-from-task-assignment/)|Medium|🔒|
 |3478|[Choose K Elements With Maximum Sum](https://leetcode.com/problems/choose-k-elements-with-maximum-sum/)|Medium||
