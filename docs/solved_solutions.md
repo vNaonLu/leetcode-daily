@@ -1,6 +1,6 @@
 # Solved Solutions List
 
-This document contains **1794** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
+This document contains **1795** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
 
 Some questions which are still being resolved are not shown in this page, more information about unsolved questions can be found at [docs/unsolved_solutions.md](./unsolved_solutions.md).
 
@@ -1746,6 +1746,7 @@ Some questions which are still being resolved are not shown in this page, more i
 |3403|[Find the Lexicographically Largest String From the Box I](https://leetcode.com/problems/find-the-lexicographically-largest-string-from-the-box-i/)|[src/q_3401_3450/q3403.cc](../src/q_3401_3450/q3403.cc)|2025/06/04 18:46|
 |3405|[Count the Number of Arrays with K Matching Adjacent Elements](https://leetcode.com/problems/count-the-number-of-arrays-with-k-matching-adjacent-elements/)|[src/q_3401_3450/q3405.cc](../src/q_3401_3450/q3405.cc)|2025/06/17 20:44|
 |3408|[Design Task Manager](https://leetcode.com/problems/design-task-manager/)|[src/q_3401_3450/q3408.cc](../src/q_3401_3450/q3408.cc)|2025/09/18 09:35|
+|3418|[Maximum Amount of Money Robot Can Earn](https://leetcode.com/problems/maximum-amount-of-money-robot-can-earn/)|[src/q_3401_3450/q3418.cc](../src/q_3401_3450/q3418.cc)|2026/04/02 14:30|
 |3423|[Maximum Difference Between Adjacent Elements in a Circular Array](https://leetcode.com/problems/maximum-difference-between-adjacent-elements-in-a-circular-array/)|[src/q_3401_3450/q3423.cc](../src/q_3401_3450/q3423.cc)|2025/06/12 21:25|
 |3432|[Count Partitions with Even Sum Difference](https://leetcode.com/problems/count-partitions-with-even-sum-difference/)|[src/q_3401_3450/q3432.cc](../src/q_3401_3450/q3432.cc)|2025/12/05 14:51|
 |3433|[Count Mentions Per User](https://leetcode.com/problems/count-mentions-per-user/)|[src/q_3401_3450/q3433.cc](../src/q_3401_3450/q3433.cc)|2025/12/12 19:27|

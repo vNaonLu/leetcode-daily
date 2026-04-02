@@ -1,6 +1,6 @@
 # Unsolved Solutions List
 
-There are **1941** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
+There are **1940** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
 
 The questions which have been solved are not shown in this page, more information about solved questions can be found at [docs/solved_solutions.md](./solved_solutions.md).
 
@@ -1685,7 +1685,6 @@ The questions which have been solved are not shown in this page, more informatio
 |3415|[Find Products with Three Consecutive Digits ](https://leetcode.com/problems/find-products-with-three-consecutive-digits/)|Easy|🔒|
 |3416|[Subsequences with a Unique Middle Mode II](https://leetcode.com/problems/subsequences-with-a-unique-middle-mode-ii/)|Hard|🔒|
 |3417|[Zigzag Grid Traversal With Skip](https://leetcode.com/problems/zigzag-grid-traversal-with-skip/)|Easy||
-|3418|[Maximum Amount of Money Robot Can Earn](https://leetcode.com/problems/maximum-amount-of-money-robot-can-earn/)|Medium||
 |3419|[Minimize the Maximum Edge Weight of Graph](https://leetcode.com/problems/minimize-the-maximum-edge-weight-of-graph/)|Medium||
 |3420|[Count Non-Decreasing Subarrays After K Operations](https://leetcode.com/problems/count-non-decreasing-subarrays-after-k-operations/)|Hard||
 |3421|[Find Students Who Improved](https://leetcode.com/problems/find-students-who-improved/)|Medium||
