@@ -1,6 +1,6 @@
 # Solved Solutions List
 
-This document contains **1795** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
+This document contains **1796** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
 
 Some questions which are still being resolved are not shown in this page, more information about unsolved questions can be found at [docs/unsolved_solutions.md](./unsolved_solutions.md).
 
@@ -1797,6 +1797,7 @@ Some questions which are still being resolved are not shown in this page, more i
 |3650|[Minimum Cost Path with Edge Reversals](https://leetcode.com/problems/minimum-cost-path-with-edge-reversals/)|[src/q_3601_3650/q3650.cc](../src/q_3601_3650/q3650.cc)|2026/01/27 19:14|
 |3651|[Minimum Cost Path with Teleportations](https://leetcode.com/problems/minimum-cost-path-with-teleportations/)|[src/q_3651_3700/q3651.cc](../src/q_3651_3700/q3651.cc)|2026/01/28 18:46|
 |3652|[Best Time to Buy and Sell Stock using Strategy](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-using-strategy/)|[src/q_3651_3700/q3652.cc](../src/q_3651_3700/q3652.cc)|2025/12/18 21:42|
+|3661|[Maximum Walls Destroyed by Robots](https://leetcode.com/problems/maximum-walls-destroyed-by-robots/)|[src/q_3651_3700/q3661.cc](../src/q_3651_3700/q3661.cc)|2026/04/03 12:12|
 |3666|[Minimum Operations to Equalize Binary String](https://leetcode.com/problems/minimum-operations-to-equalize-binary-string/)|[src/q_3651_3700/q3666.cc](../src/q_3651_3700/q3666.cc)|2026/02/27 13:56|
 |3713|[Longest Balanced Substring I](https://leetcode.com/problems/longest-balanced-substring-i/)|[src/q_3701_3750/q3713.cc](../src/q_3701_3750/q3713.cc)|2026/02/12 16:04|
 |3714|[Longest Balanced Substring II](https://leetcode.com/problems/longest-balanced-substring-ii/)|[src/q_3701_3750/q3714.cc](../src/q_3701_3750/q3714.cc)|2026/02/13 12:42|
