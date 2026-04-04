@@ -1,6 +1,6 @@
 # Unsolved Solutions List
 
-There are **1939** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
+There are **1938** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
 
 The questions which have been solved are not shown in this page, more information about solved questions can be found at [docs/solved_solutions.md](./solved_solutions.md).
 
@@ -849,7 +849,6 @@ The questions which have been solved are not shown in this page, more informatio
 |2069|[Walking Robot Simulation II](https://leetcode.com/problems/walking-robot-simulation-ii/)|Medium||
 |2072|[The Winner University](https://leetcode.com/problems/the-winner-university/)|Easy|🔒|
 |2074|[Reverse Nodes in Even Length Groups](https://leetcode.com/problems/reverse-nodes-in-even-length-groups/)|Medium||
-|2075|[Decode the Slanted Ciphertext](https://leetcode.com/problems/decode-the-slanted-ciphertext/)|Medium||
 |2076|[Process Restricted Friend Requests](https://leetcode.com/problems/process-restricted-friend-requests/)|Hard||
 |2077|[Paths in Maze That Lead to Same Room](https://leetcode.com/problems/paths-in-maze-that-lead-to-same-room/)|Medium|🔒|
 |2079|[Watering Plants](https://leetcode.com/problems/watering-plants/)|Medium||

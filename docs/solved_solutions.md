@@ -1,6 +1,6 @@
 # Solved Solutions List
 
-This document contains **1796** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
+This document contains **1797** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
 
 Some questions which are still being resolved are not shown in this page, more information about unsolved questions can be found at [docs/unsolved_solutions.md](./unsolved_solutions.md).
 
@@ -1239,6 +1239,7 @@ Some questions which are still being resolved are not shown in this page, more i
 |2070|[Most Beautiful Item for Each Query](https://leetcode.com/problems/most-beautiful-item-for-each-query/)|[src/q_2051_2100/q2070.cc](../src/q_2051_2100/q2070.cc)|2024/11/12 19:31|
 |2071|[Maximum Number of Tasks You Can Assign](https://leetcode.com/problems/maximum-number-of-tasks-you-can-assign/)|[src/q_2051_2100/q2071.cc](../src/q_2051_2100/q2071.cc)|2025/05/01 09:44|
 |2073|[Time Needed to Buy Tickets](https://leetcode.com/problems/time-needed-to-buy-tickets/)|[src/q_2051_2100/q2073.cc](../src/q_2051_2100/q2073.cc)|2023/09/25 20:58|
+|2075|[Decode the Slanted Ciphertext](https://leetcode.com/problems/decode-the-slanted-ciphertext/)|[src/q_2051_2100/q2075.cc](../src/q_2051_2100/q2075.cc)|2026/04/04 18:28|
 |2078|[Two Furthest Houses With Different Colors](https://leetcode.com/problems/two-furthest-houses-with-different-colors/)|[src/q_2051_2100/q2078.cc](../src/q_2051_2100/q2078.cc)|2023/09/26 22:17|
 |2081|[Sum of k-Mirror Numbers](https://leetcode.com/problems/sum-of-k-mirror-numbers/)|[src/q_2051_2100/q2081.cc](../src/q_2051_2100/q2081.cc)|2025/06/23 19:30|
 |2085|[Count Common Words With One Occurrence](https://leetcode.com/problems/count-common-words-with-one-occurrence/)|[src/q_2051_2100/q2085.cc](../src/q_2051_2100/q2085.cc)|2023/09/28 21:54|
