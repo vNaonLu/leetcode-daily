@@ -1,6 +1,6 @@
 # Solved Solutions List
 
-This document contains **1797** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
+This document contains **1798** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
 
 Some questions which are still being resolved are not shown in this page, more information about unsolved questions can be found at [docs/unsolved_solutions.md](./unsolved_solutions.md).
 
@@ -1236,6 +1236,7 @@ Some questions which are still being resolved are not shown in this page, more i
 |2062|[Count Vowel Substrings of a String](https://leetcode.com/problems/count-vowel-substrings-of-a-string/)|[src/q_2051_2100/q2062.cc](../src/q_2051_2100/q2062.cc)|2023/04/13 18:51|
 |2064|[Minimized Maximum of Products Distributed to Any Store](https://leetcode.com/problems/minimized-maximum-of-products-distributed-to-any-store/)|[src/q_2051_2100/q2064.cc](../src/q_2051_2100/q2064.cc)|2024/11/14 19:12|
 |2068|[Check Whether Two Strings are Almost Equivalent](https://leetcode.com/problems/check-whether-two-strings-are-almost-equivalent/)|[src/q_2051_2100/q2068.cc](../src/q_2051_2100/q2068.cc)|2023/03/20 18:58|
+|2069|[Walking Robot Simulation II](https://leetcode.com/problems/walking-robot-simulation-ii/)|[src/q_2051_2100/q2069.cc](../src/q_2051_2100/q2069.cc)|2026/04/07 19:44|
 |2070|[Most Beautiful Item for Each Query](https://leetcode.com/problems/most-beautiful-item-for-each-query/)|[src/q_2051_2100/q2070.cc](../src/q_2051_2100/q2070.cc)|2024/11/12 19:31|
 |2071|[Maximum Number of Tasks You Can Assign](https://leetcode.com/problems/maximum-number-of-tasks-you-can-assign/)|[src/q_2051_2100/q2071.cc](../src/q_2051_2100/q2071.cc)|2025/05/01 09:44|
 |2073|[Time Needed to Buy Tickets](https://leetcode.com/problems/time-needed-to-buy-tickets/)|[src/q_2051_2100/q2073.cc](../src/q_2051_2100/q2073.cc)|2023/09/25 20:58|
