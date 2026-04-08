@@ -1,6 +1,6 @@
 # Unsolved Solutions List
 
-There are **1937** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
+There are **1936** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
 
 The questions which have been solved are not shown in this page, more information about solved questions can be found at [docs/solved_solutions.md](./solved_solutions.md).
 
@@ -1867,7 +1867,6 @@ The questions which have been solved are not shown in this page, more informatio
 |3647|[Maximum Weight in Two Bags](https://leetcode.com/problems/maximum-weight-in-two-bags/)|Medium|🔒|
 |3648|[Minimum Sensors to Cover Grid](https://leetcode.com/problems/minimum-sensors-to-cover-grid/)|Medium||
 |3649|[Number of Perfect Pairs](https://leetcode.com/problems/number-of-perfect-pairs/)|Medium||
-|3653|[XOR After Range Multiplication Queries I](https://leetcode.com/problems/xor-after-range-multiplication-queries-i/)|Medium||
 |3654|[Minimum Sum After Divisible Sum Deletions](https://leetcode.com/problems/minimum-sum-after-divisible-sum-deletions/)|Medium||
 |3655|[XOR After Range Multiplication Queries II](https://leetcode.com/problems/xor-after-range-multiplication-queries-ii/)|Hard||
 |3656|[Determine if a Simple Graph Exists](https://leetcode.com/problems/determine-if-a-simple-graph-exists/)|Medium|🔒|
