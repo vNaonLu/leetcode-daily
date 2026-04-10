@@ -1,6 +1,6 @@
 # Solved Solutions List
 
-This document contains **1800** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
+This document contains **1801** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
 
 Some questions which are still being resolved are not shown in this page, more information about unsolved questions can be found at [docs/unsolved_solutions.md](./unsolved_solutions.md).
 
@@ -1807,3 +1807,4 @@ Some questions which are still being resolved are not shown in this page, more i
 |3714|[Longest Balanced Substring II](https://leetcode.com/problems/longest-balanced-substring-ii/)|[src/q_3701_3750/q3714.cc](../src/q_3701_3750/q3714.cc)|2026/02/13 12:42|
 |3719|[Longest Balanced Subarray I](https://leetcode.com/problems/longest-balanced-subarray-i/)|[src/q_3701_3750/q3719.cc](../src/q_3701_3750/q3719.cc)|2026/02/10 19:13|
 |3721|[Longest Balanced Subarray II](https://leetcode.com/problems/longest-balanced-subarray-ii/)|[src/q_3701_3750/q3721.cc](../src/q_3701_3750/q3721.cc)|2026/02/11 19:19|
+|3740|[Minimum Distance Between Three Equal Elements I](https://leetcode.com/problems/minimum-distance-between-three-equal-elements-i/)|[src/q_3701_3750/q3740.cc](../src/q_3701_3750/q3740.cc)|2026/04/10 18:40|
