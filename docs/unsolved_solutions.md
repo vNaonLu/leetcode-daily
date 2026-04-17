@@ -1,6 +1,6 @@
 # Unsolved Solutions List
 
-There are **2090** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
+There are **2089** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
 
 The questions which have been solved are not shown in this page, more information about solved questions can be found at [docs/solved_solutions.md](./solved_solutions.md).
 
@@ -1964,7 +1964,6 @@ The questions which have been solved are not shown in this page, more informatio
 |3758|[Convert Number Words to Digits](https://leetcode.com/problems/convert-number-words-to-digits/)|Medium|🔒|
 |3759|[Count Elements With at Least K Greater Values](https://leetcode.com/problems/count-elements-with-at-least-k-greater-values/)|Medium||
 |3760|[Maximum Substrings With Distinct Start](https://leetcode.com/problems/maximum-substrings-with-distinct-start/)|Medium||
-|3761|[Minimum Absolute Distance Between Mirror Pairs](https://leetcode.com/problems/minimum-absolute-distance-between-mirror-pairs/)|Medium||
 |3762|[Minimum Operations to Equalize Subarrays](https://leetcode.com/problems/minimum-operations-to-equalize-subarrays/)|Hard||
 |3763|[Maximum Total Sum with Threshold Constraints](https://leetcode.com/problems/maximum-total-sum-with-threshold-constraints/)|Medium|🔒|
 |3764|[Most Common Course Pairs](https://leetcode.com/problems/most-common-course-pairs/)|Hard||
