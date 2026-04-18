@@ -1,6 +1,6 @@
 # Unsolved Solutions List
 
-There are **2088** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
+There are **2087** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
 
 The questions which have been solved are not shown in this page, more information about solved questions can be found at [docs/solved_solutions.md](./solved_solutions.md).
 
@@ -1984,7 +1984,6 @@ The questions which have been solved are not shown in this page, more informatio
 |3780|[Maximum Sum of Three Numbers Divisible by Three](https://leetcode.com/problems/maximum-sum-of-three-numbers-divisible-by-three/)|Medium||
 |3781|[Maximum Score After Binary Swaps](https://leetcode.com/problems/maximum-score-after-binary-swaps/)|Medium||
 |3782|[Last Remaining Integer After Alternating Deletion Operations](https://leetcode.com/problems/last-remaining-integer-after-alternating-deletion-operations/)|Hard||
-|3783|[Mirror Distance of an Integer](https://leetcode.com/problems/mirror-distance-of-an-integer/)|Easy||
 |3784|[Minimum Deletion Cost to Make All Characters Equal](https://leetcode.com/problems/minimum-deletion-cost-to-make-all-characters-equal/)|Medium||
 |3785|[Minimum Swaps to Avoid Forbidden Values](https://leetcode.com/problems/minimum-swaps-to-avoid-forbidden-values/)|Hard||
 |3786|[Total Sum of Interaction Cost in Tree Groups](https://leetcode.com/problems/total-sum-of-interaction-cost-in-tree-groups/)|Hard||
