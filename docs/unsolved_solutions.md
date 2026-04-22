@@ -1,6 +1,6 @@
 # Unsolved Solutions List
 
-There are **2086** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
+There are **2085** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
 
 The questions which have been solved are not shown in this page, more information about solved questions can be found at [docs/solved_solutions.md](./solved_solutions.md).
 
@@ -1045,7 +1045,6 @@ The questions which have been solved are not shown in this page, more informatio
 |2447|[Number of Subarrays With GCD Equal to K](https://leetcode.com/problems/number-of-subarrays-with-gcd-equal-to-k/)|Medium||
 |2449|[Minimum Number of Operations to Make Arrays Similar](https://leetcode.com/problems/minimum-number-of-operations-to-make-arrays-similar/)|Hard||
 |2450|[Number of Distinct Binary Strings After Applying Operations](https://leetcode.com/problems/number-of-distinct-binary-strings-after-applying-operations/)|Medium|🔒|
-|2452|[Words Within Two Edits of Dictionary](https://leetcode.com/problems/words-within-two-edits-of-dictionary/)|Medium||
 |2453|[Destroy Sequential Targets](https://leetcode.com/problems/destroy-sequential-targets/)|Medium||
 |2454|[Next Greater Element IV](https://leetcode.com/problems/next-greater-element-iv/)|Hard||
 |2456|[Most Popular Video Creator](https://leetcode.com/problems/most-popular-video-creator/)|Medium||

@@ -1,6 +1,6 @@
 # Solved Solutions List
 
-This document contains **1807** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
+This document contains **1808** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
 
 Some questions which are still being resolved are not shown in this page, more information about unsolved questions can be found at [docs/unsolved_solutions.md](./unsolved_solutions.md).
 
@@ -1420,6 +1420,7 @@ Some questions which are still being resolved are not shown in this page, more i
 |2446|[Determine if Two Events Have Conflict](https://leetcode.com/problems/determine-if-two-events-have-conflict/)|[src/q_2401_2450/q2446.cc](../src/q_2401_2450/q2446.cc)|2023/03/09 21:32|
 |2448|[Minimum Cost to Make Array Equal](https://leetcode.com/problems/minimum-cost-to-make-array-equal/)|[src/q_2401_2450/q2448.cc](../src/q_2401_2450/q2448.cc)|2023/06/21 15:05|
 |2451|[Odd String Difference](https://leetcode.com/problems/odd-string-difference/)|[src/q_2451_2500/q2451.cc](../src/q_2451_2500/q2451.cc)|2023/03/09 12:10|
+|2452|[Words Within Two Edits of Dictionary](https://leetcode.com/problems/words-within-two-edits-of-dictionary/)|[src/q_2451_2500/q2452.cc](../src/q_2451_2500/q2452.cc)|2026/04/22 20:05|
 |2455|[Average Value of Even Numbers That Are Divisible by Three](https://leetcode.com/problems/average-value-of-even-numbers-that-are-divisible-by-three/)|[src/q_2451_2500/q2455.cc](../src/q_2451_2500/q2455.cc)|2023/03/13 11:06|
 |2458|[Height of Binary Tree After Subtree Removal Queries](https://leetcode.com/problems/height-of-binary-tree-after-subtree-removal-queries/)|[src/q_2451_2500/q2458.cc](../src/q_2451_2500/q2458.cc)|2024/10/26 13:06|
 |2460|[Apply Operations to an Array](https://leetcode.com/problems/apply-operations-to-an-array/)|[src/q_2451_2500/q2460.cc](../src/q_2451_2500/q2460.cc)|2023/03/03 14:31|
