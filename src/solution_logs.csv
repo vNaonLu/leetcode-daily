@@ -1807,3 +1807,4 @@ timestamp,id,tc,sc,notes
 1776514021,3783,-,-,not calculated
 1776762571,1722,-,-,not calculated
 1776859517,2452,E1 * E2 * m * n,1,"n = |queries.size()|, m = |dictionary.size()|, E1 = |queries[i].size()|, E2 = |dictionary[i].size()|"
+1777092844,3464,-,-,not calculated

@@ -1,6 +1,6 @@
 # Unsolved Solutions List
 
-There are **2085** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
+There are **2084** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
 
 The questions which have been solved are not shown in this page, more information about solved questions can be found at [docs/solved_solutions.md](./solved_solutions.md).
 
@@ -1712,7 +1712,6 @@ The questions which have been solved are not shown in this page, more informatio
 |3460|[Longest Common Prefix After at Most One Removal](https://leetcode.com/problems/longest-common-prefix-after-at-most-one-removal/)|Medium|🔒|
 |3462|[Maximum Sum With at Most K Elements](https://leetcode.com/problems/maximum-sum-with-at-most-k-elements/)|Medium||
 |3463|[Check If Digits Are Equal in String After Operations II](https://leetcode.com/problems/check-if-digits-are-equal-in-string-after-operations-ii/)|Hard||
-|3464|[Maximize the Distance Between Points on a Square](https://leetcode.com/problems/maximize-the-distance-between-points-on-a-square/)|Hard||
 |3465|[Find Products with Valid Serial Numbers](https://leetcode.com/problems/find-products-with-valid-serial-numbers/)|Easy||
 |3466|[Maximum Coin Collection ](https://leetcode.com/problems/maximum-coin-collection/)|Medium|🔒|
 |3467|[Transform Array by Parity](https://leetcode.com/problems/transform-array-by-parity/)|Easy||
