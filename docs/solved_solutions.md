@@ -1,6 +1,6 @@
 # Solved Solutions List
 
-This document contains **1809** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
+This document contains **1810** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
 
 Some questions which are still being resolved are not shown in this page, more information about unsolved questions can be found at [docs/unsolved_solutions.md](./unsolved_solutions.md).
 
@@ -1496,6 +1496,7 @@ Some questions which are still being resolved are not shown in this page, more i
 |2609|[Find the Longest Balanced Substring of a Binary String](https://leetcode.com/problems/find-the-longest-balanced-substring-of-a-binary-string/)|[src/q_2601_2650/q2609.cc](../src/q_2601_2650/q2609.cc)|2023/12/07 19:43|
 |2610|[Convert an Array Into a 2D Array With Conditions](https://leetcode.com/problems/convert-an-array-into-a-2d-array-with-conditions/)|[src/q_2601_2650/q2610.cc](../src/q_2601_2650/q2610.cc)|2024/01/02 16:26|
 |2614|[Prime In Diagonal](https://leetcode.com/problems/prime-in-diagonal/)|[src/q_2601_2650/q2614.cc](../src/q_2601_2650/q2614.cc)|2023/05/19 11:53|
+|2615|[Sum of Distances](https://leetcode.com/problems/sum-of-distances/)|[src/q_2601_2650/q2615.cc](../src/q_2601_2650/q2615.cc)|2026/04/26 19:28|
 |2616|[Minimize the Maximum Difference of Pairs](https://leetcode.com/problems/minimize-the-maximum-difference-of-pairs/)|[src/q_2601_2650/q2616.cc](../src/q_2601_2650/q2616.cc)|2023/08/09 12:06|
 |2639|[Find the Width of Columns of a Grid](https://leetcode.com/problems/find-the-width-of-columns-of-a-grid/)|[src/q_2601_2650/q2639.cc](../src/q_2601_2650/q2639.cc)|2023/05/29 13:47|
 |2641|[Cousins in Binary Tree II](https://leetcode.com/problems/cousins-in-binary-tree-ii/)|[src/q_2601_2650/q2641.cc](../src/q_2601_2650/q2641.cc)|2024/10/23 23:33|
