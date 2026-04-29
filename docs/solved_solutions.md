@@ -1,6 +1,6 @@
 # Solved Solutions List
 
-This document contains **1811** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
+This document contains **1812** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
 
 Some questions which are still being resolved are not shown in this page, more information about unsolved questions can be found at [docs/unsolved_solutions.md](./unsolved_solutions.md).
 
@@ -1693,6 +1693,7 @@ Some questions which are still being resolved are not shown in this page, more i
 |3217|[Delete Nodes From Linked List Present in Array](https://leetcode.com/problems/delete-nodes-from-linked-list-present-in-array/)|[src/q_3201_3250/q3217.cc](../src/q_3201_3250/q3217.cc)|2024/09/06 23:13|
 |3222|[Find the Winning Player in Coin Game](https://leetcode.com/problems/find-the-winning-player-in-coin-game/)|[src/q_3201_3250/q3222.cc](../src/q_3201_3250/q3222.cc)|2024/07/23 22:27|
 |3223|[Minimum Length of String After Operations](https://leetcode.com/problems/minimum-length-of-string-after-operations/)|[src/q_3201_3250/q3223.cc](../src/q_3201_3250/q3223.cc)|2025/01/13 21:05|
+|3225|[Maximum Score From Grid Operations](https://leetcode.com/problems/maximum-score-from-grid-operations/)|[src/q_3201_3250/q3225.cc](../src/q_3201_3250/q3225.cc)|2026/04/29 21:27|
 |3226|[Number of Bit Changes to Make Two Integers Equal](https://leetcode.com/problems/number-of-bit-changes-to-make-two-integers-equal/)|[src/q_3201_3250/q3226.cc](../src/q_3201_3250/q3226.cc)|2024/07/25 16:02|
 |3227|[Vowels Game in a String](https://leetcode.com/problems/vowels-game-in-a-string/)|[src/q_3201_3250/q3227.cc](../src/q_3201_3250/q3227.cc)|2025/09/13 07:05|
 |3228|[Maximum Number of Operations to Move Ones to the End](https://leetcode.com/problems/maximum-number-of-operations-to-move-ones-to-the-end/)|[src/q_3201_3250/q3228.cc](../src/q_3201_3250/q3228.cc)|2025/11/13 19:16|
