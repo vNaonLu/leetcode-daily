@@ -1,6 +1,6 @@
 # Unsolved Solutions List
 
-There are **2081** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
+There are **2080** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
 
 The questions which have been solved are not shown in this page, more information about solved questions can be found at [docs/solved_solutions.md](./solved_solutions.md).
 
@@ -1938,7 +1938,6 @@ The questions which have been solved are not shown in this page, more informatio
 |3737|[Count Subarrays With Majority Element I](https://leetcode.com/problems/count-subarrays-with-majority-element-i/)|Medium||
 |3738|[Longest Non-Decreasing Subarray After Replacing at Most One Element](https://leetcode.com/problems/longest-non-decreasing-subarray-after-replacing-at-most-one-element/)|Medium||
 |3739|[Count Subarrays With Majority Element II](https://leetcode.com/problems/count-subarrays-with-majority-element-ii/)|Hard||
-|3742|[Maximum Path Score in a Grid](https://leetcode.com/problems/maximum-path-score-in-a-grid/)|Medium||
 |3743|[Maximize Cyclic Partition Score](https://leetcode.com/problems/maximize-cyclic-partition-score/)|Hard||
 |3744|[Find Kth Character in Expanded String](https://leetcode.com/problems/find-kth-character-in-expanded-string/)|Medium|🔒|
 |3745|[Maximize Expression of Three Elements](https://leetcode.com/problems/maximize-expression-of-three-elements/)|Easy||

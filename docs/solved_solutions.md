@@ -1,6 +1,6 @@
 # Solved Solutions List
 
-This document contains **1812** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
+This document contains **1813** solved questions. To find the solution via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market. 
 
 Some questions which are still being resolved are not shown in this page, more information about unsolved questions can be found at [docs/unsolved_solutions.md](./unsolved_solutions.md).
 
@@ -1817,5 +1817,6 @@ Some questions which are still being resolved are not shown in this page, more i
 |3721|[Longest Balanced Subarray II](https://leetcode.com/problems/longest-balanced-subarray-ii/)|[src/q_3701_3750/q3721.cc](../src/q_3701_3750/q3721.cc)|2026/02/11 19:19|
 |3740|[Minimum Distance Between Three Equal Elements I](https://leetcode.com/problems/minimum-distance-between-three-equal-elements-i/)|[src/q_3701_3750/q3740.cc](../src/q_3701_3750/q3740.cc)|2026/04/10 18:40|
 |3741|[Minimum Distance Between Three Equal Elements II](https://leetcode.com/problems/minimum-distance-between-three-equal-elements-ii/)|[src/q_3701_3750/q3741.cc](../src/q_3701_3750/q3741.cc)|2026/04/11 10:15|
+|3742|[Maximum Path Score in a Grid](https://leetcode.com/problems/maximum-path-score-in-a-grid/)|[src/q_3701_3750/q3742.cc](../src/q_3701_3750/q3742.cc)|2026/04/30 19:06|
 |3761|[Minimum Absolute Distance Between Mirror Pairs](https://leetcode.com/problems/minimum-absolute-distance-between-mirror-pairs/)|[src/q_3751_3800/q3761.cc](../src/q_3751_3800/q3761.cc)|2026/04/17 14:11|
 |3783|[Mirror Distance of an Integer](https://leetcode.com/problems/mirror-distance-of-an-integer/)|[src/q_3751_3800/q3783.cc](../src/q_3751_3800/q3783.cc)|2026/04/18 20:07|
