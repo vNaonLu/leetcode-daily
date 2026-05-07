@@ -1,6 +1,6 @@
 # Unsolved Solutions List
 
-There are **2080** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
+There are **2079** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
 
 The questions which have been solved are not shown in this page, more information about solved questions can be found at [docs/solved_solutions.md](./solved_solutions.md).
 
@@ -1864,7 +1864,6 @@ The questions which have been solved are not shown in this page, more informatio
 |3657|[Find Loyal Customers](https://leetcode.com/problems/find-loyal-customers/)|Medium||
 |3658|[GCD of Odd and Even Sums](https://leetcode.com/problems/gcd-of-odd-and-even-sums/)|Easy||
 |3659|[Partition Array Into K-Distinct Groups](https://leetcode.com/problems/partition-array-into-k-distinct-groups/)|Medium||
-|3660|[Jump Game IX](https://leetcode.com/problems/jump-game-ix/)|Medium||
 |3662|[Filter Characters by Frequency](https://leetcode.com/problems/filter-characters-by-frequency/)|Easy|🔒|
 |3663|[Find The Least Frequent Digit](https://leetcode.com/problems/find-the-least-frequent-digit/)|Easy||
 |3664|[Two-Letter Card Game](https://leetcode.com/problems/two-letter-card-game/)|Medium||
