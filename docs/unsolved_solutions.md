@@ -1,6 +1,6 @@
 # Unsolved Solutions List
 
-There are **2079** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
+There are **2078** questions which have not been solved yet. To find the question via its identifier and the `Find-In-Page` feature or typing `ctrl+F` (or `cmd⌘+F`) in the most browsers on the market.
 
 The questions which have been solved are not shown in this page, more information about solved questions can be found at [docs/solved_solutions.md](./solved_solutions.md).
 
@@ -1842,7 +1842,6 @@ The questions which have been solved are not shown in this page, more informatio
 |3626|[Find Stores with Inventory Imbalance](https://leetcode.com/problems/find-stores-with-inventory-imbalance/)|Medium||
 |3627|[Maximum Median Sum of Subsequences of Size 3](https://leetcode.com/problems/maximum-median-sum-of-subsequences-of-size-3/)|Medium||
 |3628|[Maximum Number of Subsequences After One Inserting](https://leetcode.com/problems/maximum-number-of-subsequences-after-one-inserting/)|Medium||
-|3629|[Minimum Jumps to Reach End via Prime Teleportation](https://leetcode.com/problems/minimum-jumps-to-reach-end-via-prime-teleportation/)|Medium||
 |3630|[Partition Array for Maximum XOR and AND](https://leetcode.com/problems/partition-array-for-maximum-xor-and-and/)|Hard||
 |3631|[Sort Threats by Severity and Exploitability](https://leetcode.com/problems/sort-threats-by-severity-and-exploitability/)|Medium|🔒|
 |3632|[Subarrays with XOR at Least K](https://leetcode.com/problems/subarrays-with-xor-at-least-k/)|Hard|🔒|
