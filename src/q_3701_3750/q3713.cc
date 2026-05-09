@@ -44,7 +44,7 @@ public:
         const bool gr = f > maxF, eq = f == maxF, less = !(gr | eq);
         maxF            = (-gr & f) + (-!gr & maxF);
         cntMax          = (-gr & 1) + (-eq & (cntMax + 1)) + (-less & cntMax);
-        const bool need = (uniq == cntMax & cnt < r - l + 1);
+        const bool need = ((uniq == cntMax) & (cnt < r - l + 1));
         cnt             = (-need & (r - l + 1)) + (-!need & cnt);
       }
     }

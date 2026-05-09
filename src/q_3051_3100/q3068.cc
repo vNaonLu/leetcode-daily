@@ -50,6 +50,7 @@ class Solution {
 public:
   long long maximumValueSum(vector<int> &nums, int k,
                             vector<vector<int>> &edges) {
+    (void)edges;
     int         n = nums.size();
     vector<int> diff(n);
     uint64_t    res = 0;

@@ -47,6 +47,7 @@ public:
     int64_t         len = 1;
 
     for (int op : operations) {
+      (void)op;
       len *= 2;
       lengths.push_back(len);
       if (len >= k)

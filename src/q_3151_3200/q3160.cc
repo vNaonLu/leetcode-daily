@@ -38,6 +38,7 @@ LEETCODE_BEGIN_RESOLVING(3160, FindTheNumberOfDistinctColorsAmongTheBalls,
 class Solution {
 public:
   vector<int> queryResults(int limit, vector<vector<int>> &queries) {
+    (void)limit;
     int                     n = queries.size();
     vector<int>             res(n);
     unordered_map<int, int> cmp;

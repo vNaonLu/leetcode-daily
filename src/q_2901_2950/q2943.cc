@@ -36,6 +36,8 @@ class Solution {
 public:
   int maximizeSquareHoleArea(int n, int m, vector<int> &hBars,
                              vector<int> &vBars) {
+    (void)m;
+    (void)n;
     auto len = 1 + min(findLen(hBars), findLen(vBars));
     return len * len;
   }

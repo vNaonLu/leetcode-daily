@@ -36,8 +36,9 @@ using namespace lcd;
 
 LEETCODE_BEGIN_RESOLVING(3272, FindTheCountOfGoodIntegers, Solution);
 
-#define ll long long
 class Solution {
+private:
+  using ll = long long;
   ll vectorToNumber(const vector<int> &nums) {
     ll res = 0;
     for (int dig : nums)

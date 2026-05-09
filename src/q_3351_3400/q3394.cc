@@ -47,6 +47,7 @@ LEETCODE_BEGIN_RESOLVING(3394, CheckIfGridCanBeCutIntoSections, Solution);
 class Solution {
 public:
   bool checkValidCuts(int n, vector<vector<int>> &rectangles) {
+    (void)n;
     vector<vector<int>> xv;
     vector<vector<int>> yv;
     for (auto &v : rectangles) {

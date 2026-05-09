@@ -40,6 +40,7 @@ class Solution {
 public:
   int maxKDivisibleComponents(int n, vector<vector<int>> &edges,
                               vector<int> &values, int k) {
+    (void)n;
     unordered_map<int, vector<int>> adj;
     int                             res = 0;
     for (auto &v : edges) {

@@ -49,6 +49,7 @@ LEETCODE_BEGIN_RESOLVING(1441, BuildAnArrayWithStackOperations, Solution);
 class Solution {
 public:
   vector<string> buildArray(vector<int> &target, int n) {
+    (void)n;
     vector<string> res;
     int            cur = 1;
     for (int i = 0; i < target.size(); ++i) {

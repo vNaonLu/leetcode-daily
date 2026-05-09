@@ -41,7 +41,7 @@ LEETCODE_BEGIN_RESOLVING(2515, ShortestDistanceToTargetStringInACircularArray,
 
 class Solution {
 public:
-  int closetTarget(vector<string> &words, string target, int startIndex) {
+  int closestTarget(vector<string> &words, string target, int startIndex) {
     int res = words.size();
     for (int i = 0; i < words.size(); ++i) {
       if (words[i] == target) {
@@ -84,7 +84,7 @@ LEETCODE_SOLUTION_UNITTEST(2515, ShortestDistanceToTargetStringInACircularArray,
   string         target     = "hello";
   int            startIndex = 1;
   int            expect     = 1;
-  int            actual     = solution->closetTarget(words, target, startIndex);
+  int            actual = solution->closestTarget(words, target, startIndex);
   LCD_EXPECT_EQ(expect, actual);
 }
 
@@ -104,7 +104,7 @@ LEETCODE_SOLUTION_UNITTEST(2515, ShortestDistanceToTargetStringInACircularArray,
   string         target     = "leetcode";
   int            startIndex = 0;
   int            expect     = 1;
-  int            actual     = solution->closetTarget(words, target, startIndex);
+  int            actual = solution->closestTarget(words, target, startIndex);
   LCD_EXPECT_EQ(expect, actual);
 }
 
@@ -121,6 +121,6 @@ LEETCODE_SOLUTION_UNITTEST(2515, ShortestDistanceToTargetStringInACircularArray,
   string         target     = "ate";
   int            startIndex = 0;
   int            expect     = -1;
-  int            actual     = solution->closetTarget(words, target, startIndex);
+  int            actual = solution->closestTarget(words, target, startIndex);
   LCD_EXPECT_EQ(expect, actual);
 }
