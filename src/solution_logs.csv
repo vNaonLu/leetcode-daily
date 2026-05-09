@@ -1751,3 +1751,67 @@ timestamp,id,tc,sc,notes
 1766065352,3652,-,-,not calculated
 1766305107,955,-,-,not calculated
 1766412733,960,-,-,not calculated
+1767425032,1411,-,-,not calculated
+1767785146,1339,-,-,not calculated
+1768305807,3453,-,-,not calculated
+1768389083,3454,-,-,not calculated
+1768481571,2943,-,-,not calculated
+1768561582,2975,-,-,not calculated
+1768624943,3047,n ^ 2,1,n = |bottomLeft.size()|
+1768723321,1895,-,-,not calculated
+1769001619,3315,n,1,n = |nums.size()|
+1769085402,3507,n ^ 2,1,n = |nums.size()|
+1769145251,3510,-,-,not calculated
+1769512469,3650,-,-,not calculated
+1769597192,3651,-,-,not calculated
+1769777310,2977,-,-,not calculated
+1770029516,3013,-,-,not calculated
+1770115926,3637,n,1,n = |nums.size()|
+1770212553,3640,-,-,not calculated
+1770376745,3634,-,-,not calculated
+1770722015,3719,-,-,not calculated
+1770808760,3721,-,-,not calculated
+1770883471,3713,-,-,not calculated
+1770957734,3714,-,-,not calculated
+1771558360,761,-,-,not calculated
+1772171800,3666,-,-,not calculated
+1772447871,1536,-,-,not calculated
+1772893476,1888,-,-,not calculated
+1773050267,3129,-,-,not calculated
+1773120504,3130,-,-,not calculated
+1773313783,3600,-,-,not calculated
+1773561446,1622,-,-,not calculated
+1773638288,1878,-,-,not calculated
+1773833502,3296,-,-,not calculated
+1773919273,3212,n * m,n * m,"n = |grid.size()|, m = |grid[i].size()|"
+1774005748,3567,-,-,not calculated
+1774079259,3643,k ^ 2,1,
+1774263698,1594,-,-,not calculated
+1774361034,2906,m * n,1,"m = |grid.size()|, n = |grid[i].size()|"
+1774438381,3546,-,-,not calculated
+1774502140,3548,-,-,not calculated
+1774672135,2573,-,-,not calculated
+1774868793,2840,-,-,not calculated
+1774962978,3474,-,-,not calculated
+1775111417,3418,-,-,not calculated
+1775189576,3661,-,-,not calculated
+1775298522,2075,-,-,not calculated
+1775562254,2069,-,-,not calculated
+1775620654,3653,-,-,not calculated
+1775732421,3655,-,-,not calculated
+1775817652,3740,-,-,not calculated
+1775873745,3741,-,-,not calculated
+1775982952,1320,-,-,not calculated
+1776406269,3761,-,-,not calculated
+1776406372,3488,-,-,not calculated
+1776514021,3783,-,-,not calculated
+1776762571,1722,-,-,not calculated
+1776859517,2452,E1 * E2 * m * n,1,"n = |queries.size()|, m = |dictionary.size()|, E1 = |queries[i].size()|, E2 = |dictionary[i].size()|"
+1777092844,3464,-,-,not calculated
+1777202914,2615,n,n,n = |nums.size()|
+1777286385,1391,-,-,not calculated
+1777469255,3225,-,-,not calculated
+1777547183,3742,-,-,not calculated
+1778150587,3660,n,n,n = |nums.size()|
+1778238997,3629,-,-,not calculated
+1778295075,1914,m * n,m + n,"m = |grid.size()|, n = |grid[i].size()|"

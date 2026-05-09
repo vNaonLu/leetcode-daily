@@ -625,7 +625,7 @@ id,backend_id,title,level,slug,paid
 624,624,Maximum Distance in Arrays,2,maximum-distance-in-arrays,0
 625,625,Minimum Factorization,2,minimum-factorization,1
 626,626,Exchange Seats,2,exchange-seats,0
-627,627,Swap Salary,1,swap-salary,0
+627,627,Swap Sex of Employees,1,swap-sex-of-employees,0
 628,628,Maximum Product of Three Numbers,1,maximum-product-of-three-numbers,0
 629,629,K Inverse Pairs Array,3,k-inverse-pairs-array,0
 630,630,Course Schedule III,3,course-schedule-iii,0
@@ -3640,7 +3640,7 @@ id,backend_id,title,level,slug,paid
 3639,3944,Minimum Time to Activate String,2,minimum-time-to-activate-string,0
 3640,3956,Trionic Array II,3,trionic-array-ii,0
 3641,3992,Longest Semi-Repeating Subarray,2,longest-semi-repeating-subarray,1
-3642,3996,Find Books with Polarized Opinions,1,find-books-with-polarized-opinions,0
+3642,3996,Find Books with Polarized Opinions,2,find-books-with-polarized-opinions,0
 3643,3973,Flip Square Submatrix Vertically,1,flip-square-submatrix-vertically,0
 3644,3950,Maximum K to Sort a Permutation,2,maximum-k-to-sort-a-permutation,0
 3645,3959,Maximum Total from Optimal Activation Order,2,maximum-total-from-optimal-activation-order,0
@@ -3734,3 +3734,161 @@ id,backend_id,title,level,slug,paid
 3733,4048,Minimum Time to Complete All Deliveries,2,minimum-time-to-complete-all-deliveries,0
 3734,4037,Lexicographically Smallest Palindromic Permutation Greater Than Target,3,lexicographically-smallest-palindromic-permutation-greater-than-target,0
 3735,4106,Lexicographically Smallest String After Reverse II,3,lexicographically-smallest-string-after-reverse-ii,1
+3736,4116,Minimum Moves to Equal Array Elements III,1,minimum-moves-to-equal-array-elements-iii,0
+3737,4074,Count Subarrays With Majority Element I,2,count-subarrays-with-majority-element-i,0
+3738,4098,Longest Non-Decreasing Subarray After Replacing at Most One Element,2,longest-non-decreasing-subarray-after-replacing-at-most-one-element,0
+3739,4075,Count Subarrays With Majority Element II,3,count-subarrays-with-majority-element-ii,0
+3740,4115,Minimum Distance Between Three Equal Elements I,1,minimum-distance-between-three-equal-elements-i,0
+3741,4119,Minimum Distance Between Three Equal Elements II,2,minimum-distance-between-three-equal-elements-ii,0
+3742,3986,Maximum Path Score in a Grid,2,maximum-path-score-in-a-grid,0
+3743,4030,Maximize Cyclic Partition Score,3,maximize-cyclic-partition-score,0
+3744,4113,Find Kth Character in Expanded String,2,find-kth-character-in-expanded-string,1
+3745,4112,Maximize Expression of Three Elements,1,maximize-expression-of-three-elements,0
+3746,4090,Minimum String Length After Balanced Removals,2,minimum-string-length-after-balanced-removals,0
+3747,4054,Count Distinct Integers After Removing Zeros,2,count-distinct-integers-after-removing-zeros,0
+3748,4110,Count Stable Subarrays,3,count-stable-subarrays,0
+3749,4140,Evaluate Valid Expressions,3,evaluate-valid-expressions,1
+3750,4126,Minimum Number of Flips to Reverse Binary String,1,minimum-number-of-flips-to-reverse-binary-string,0
+3751,4057,Total Waviness of Numbers in Range I,2,total-waviness-of-numbers-in-range-i,0
+3752,4077,Lexicographically Smallest Negated Permutation that Sums to Target,2,lexicographically-smallest-negated-permutation-that-sums-to-target,0
+3753,4128,Total Waviness of Numbers in Range II,3,total-waviness-of-numbers-in-range-ii,0
+3754,4135,Concatenate Non-Zero Digits and Multiply by Sum I,1,concatenate-non-zero-digits-and-multiply-by-sum-i,0
+3755,3946,Find Maximum Balanced XOR Subarray Length,2,find-maximum-balanced-xor-subarray-length,0
+3756,4136,Concatenate Non-Zero Digits and Multiply by Sum II,2,concatenate-non-zero-digits-and-multiply-by-sum-ii,0
+3757,4134,Number of Effective Subsequences,3,number-of-effective-subsequences,0
+3758,4148,Convert Number Words to Digits,2,convert-number-words-to-digits,1
+3759,4141,Count Elements With at Least K Greater Values,2,count-elements-with-at-least-k-greater-values,0
+3760,4087,Maximum Substrings With Distinct Start,2,maximum-substrings-with-distinct-start,0
+3761,4139,Minimum Absolute Distance Between Mirror Pairs,2,minimum-absolute-distance-between-mirror-pairs,0
+3762,4022,Minimum Operations to Equalize Subarrays,3,minimum-operations-to-equalize-subarrays,0
+3763,4166,Maximum Total Sum with Threshold Constraints,2,maximum-total-sum-with-threshold-constraints,1
+3764,4169,Most Common Course Pairs,3,most-common-course-pairs,0
+3765,4100,Complete Prime Number,2,complete-prime-number,0
+3766,4099,Minimum Operations to Make Binary Palindrome,2,minimum-operations-to-make-binary-palindrome,0
+3767,4089,Maximize Points After Choosing K Tasks,2,maximize-points-after-choosing-k-tasks,0
+3768,4145,Minimum Inversion Count in Subarrays of Fixed Length,3,minimum-inversion-count-in-subarrays-of-fixed-length,0
+3769,4150,Sort Integers by Binary Reflection,1,sort-integers-by-binary-reflection,0
+3770,4085,Largest Prime from Consecutive Prime Sum,2,largest-prime-from-consecutive-prime-sum,0
+3771,4146,Total Score of Dungeon Runs,2,total-score-of-dungeon-runs,0
+3772,4151,Maximum Subgraph Score in a Tree,3,maximum-subgraph-score-in-a-tree,0
+3773,4155,Maximum Number of Equal Length Runs,2,maximum-number-of-equal-length-runs,1
+3774,4158,Absolute Difference Between Maximum and Minimum K Elements,1,absolute-difference-between-maximum-and-minimum-k-elements,0
+3775,4157,Reverse Words With Same Vowel Count,2,reverse-words-with-same-vowel-count,0
+3776,4018,Minimum Moves to Balance Circular Array,2,minimum-moves-to-balance-circular-array,0
+3777,4064,Minimum Deletions to Make Alternating Substring,3,minimum-deletions-to-make-alternating-substring,0
+3778,4127,Minimum Distance Excluding One Maximum Weighted Edge,2,minimum-distance-excluding-one-maximum-weighted-edge,1
+3779,4162,Minimum Number of Operations to Have Distinct Elements,2,minimum-number-of-operations-to-have-distinct-elements,0
+3780,4160,Maximum Sum of Three Numbers Divisible by Three,2,maximum-sum-of-three-numbers-divisible-by-three,0
+3781,4130,Maximum Score After Binary Swaps,2,maximum-score-after-binary-swaps,0
+3782,4164,Last Remaining Integer After Alternating Deletion Operations,3,last-remaining-integer-after-alternating-deletion-operations,0
+3783,4168,Mirror Distance of an Integer,1,mirror-distance-of-an-integer,0
+3784,4138,Minimum Deletion Cost to Make All Characters Equal,2,minimum-deletion-cost-to-make-all-characters-equal,0
+3785,4061,Minimum Swaps to Avoid Forbidden Values,3,minimum-swaps-to-avoid-forbidden-values,0
+3786,4072,Total Sum of Interaction Cost in Tree Groups,3,total-sum-of-interaction-cost-in-tree-groups,0
+3787,4165,Find Diameter Endpoints of a Tree,2,find-diameter-endpoints-of-a-tree,1
+3788,4173,Maximum Score of a Split,2,maximum-score-of-a-split,0
+3789,4147,Minimum Cost to Acquire Required Items,2,minimum-cost-to-acquire-required-items,0
+3790,4175,Smallest All-Ones Multiple,2,smallest-all-ones-multiple,0
+3791,4095,Number of Balanced Integers in a Range,3,number-of-balanced-integers-in-a-range,0
+3792,4172,Sum of Increasing Product Blocks,2,sum-of-increasing-product-blocks,1
+3793,4195,Find Users with High Token Usage,1,find-users-with-high-token-usage,0
+3794,4177,Reverse String Prefix,1,reverse-string-prefix,0
+3795,4152,Minimum Subarray Length With Distinct Sum At Least K,2,minimum-subarray-length-with-distinct-sum-at-least-k,0
+3796,3807,Find Maximum Value in a Constrained Sequence,2,find-maximum-value-in-a-constrained-sequence,0
+3797,4153,Count Routes to Climb a Rectangular Grid,3,count-routes-to-climb-a-rectangular-grid,0
+3798,4179,Largest Even Number,1,largest-even-number,0
+3799,4071,Word Squares II,2,word-squares-ii,0
+3800,4156,Minimum Cost to Make Two Binary Strings Equal,2,minimum-cost-to-make-two-binary-strings-equal,0
+3801,4144,Minimum Cost to Merge Sorted Lists,3,minimum-cost-to-merge-sorted-lists,0
+3802,4132,Number of Ways to Paint Sheets,3,number-of-ways-to-paint-sheets,1
+3803,4186,Count Residue Prefixes,1,count-residue-prefixes,0
+3804,4129,Number of Centered Subarrays,2,number-of-centered-subarrays,0
+3805,4183,Count Caesar Cipher Pairs,2,count-caesar-cipher-pairs,0
+3806,4154,Maximum Bitwise AND After Increment Operations,3,maximum-bitwise-and-after-increment-operations,0
+3807,4197,Minimum Cost to Repair Edges to Traverse a Graph,2,minimum-cost-to-repair-edges-to-traverse-a-graph,1
+3808,4208,Find Emotionally Consistent Users,2,find-emotionally-consistent-users,0
+3809,4187,Best Reachable Tower,2,best-reachable-tower,0
+3810,4190,Minimum Operations to Reach Target Array,2,minimum-operations-to-reach-target-array,0
+3811,4143,Number of Alternating XOR Partitions,2,number-of-alternating-xor-partitions,0
+3812,4181,Minimum Edge Toggles on a Tree,3,minimum-edge-toggles-on-a-tree,0
+3813,4178,Vowel-Consonant Score,1,vowel-consonant-score,0
+3814,4079,Maximum Capacity Within Budget,2,maximum-capacity-within-budget,0
+3815,4067,Design Auction System,2,design-auction-system,0
+3816,4086,Lexicographically Smallest String After Deleting Duplicate Characters,3,lexicographically-smallest-string-after-deleting-duplicate-characters,0
+3817,4207,Good Indices in a Digit String,2,good-indices-in-a-digit-string,1
+3818,4199,Minimum Prefix Removal to Make Array Strictly Increasing,2,minimum-prefix-removal-to-make-array-strictly-increasing,0
+3819,4171,Rotate Non Negative Elements,2,rotate-non-negative-elements,0
+3820,4180,Pythagorean Distance Nodes in a Tree,2,pythagorean-distance-nodes-in-a-tree,0
+3821,4189,Find Nth Smallest Integer With K One Bits,3,find-nth-smallest-integer-with-k-one-bits,0
+3822,4201,Design Order Management System,2,design-order-management-system,1
+3823,4200,Reverse Letters Then Special Characters in a String,1,reverse-letters-then-special-characters-in-a-string,0
+3824,4176,Minimum K to Reduce Array Within Limit,2,minimum-k-to-reduce-array-within-limit,0
+3825,4032,Longest Strictly Increasing Subsequence With Non-Zero Bitwise AND,2,longest-strictly-increasing-subsequence-with-non-zero-bitwise-and,0
+3826,4121,Minimum Partition Score,3,minimum-partition-score,0
+3827,4194,Count Monobit Integers,1,count-monobit-integers,0
+3828,4122,Final Element After Subarray Deletions,2,final-element-after-subarray-deletions,0
+3829,4118,Design Ride Sharing System,2,design-ride-sharing-system,0
+3830,4198,Longest Alternating Subarray After Removing At Most One Element,3,longest-alternating-subarray-after-removing-at-most-one-element,0
+3831,4210,Median of a Binary Search Tree Level,2,median-of-a-binary-search-tree-level,1
+3832,4227,Find Users with Persistent Behavior Patterns,3,find-users-with-persistent-behavior-patterns,0
+3833,4214,Count Dominant Indices,1,count-dominant-indices,0
+3834,4213,Merge Adjacent Equal Elements,2,merge-adjacent-equal-elements,0
+3835,4211,Count Subarrays With Cost Less Than or Equal to K,2,count-subarrays-with-cost-less-than-or-equal-to-k,0
+3836,4202,Maximum Score Using Exactly K Pairs,3,maximum-score-using-exactly-k-pairs,0
+3837,4228,Delayed Count of Equal Elements,2,delayed-count-of-equal-elements,1
+3838,4216,Weighted Word Mapping,1,weighted-word-mapping,0
+3839,4137,Number of Prefix Connected Groups,2,number-of-prefix-connected-groups,0
+3840,4062,House Robber V,2,house-robber-v,0
+3841,4209,Palindromic Path Queries in a Tree,3,palindromic-path-queries-in-a-tree,0
+3842,4212,Toggle Light Bulbs,1,toggle-light-bulbs,0
+3843,4217,First Element with Unique Frequency,2,first-element-with-unique-frequency,0
+3844,4221,Longest Almost-Palindromic Substring,2,longest-almost-palindromic-substring,0
+3845,4204,Maximum Subarray XOR with Bounded Range,3,maximum-subarray-xor-with-bounded-range,0
+3846,4170,Total Distance to Type a String Using One Finger,2,total-distance-to-type-a-string-using-one-finger,1
+3847,4224,Find the Score Difference in a Game,2,find-the-score-difference-in-a-game,0
+3848,4226,Check Digitorial Permutation,2,check-digitorial-permutation,0
+3849,4044,Maximum Bitwise XOR After Rearrangement,2,maximum-bitwise-xor-after-rearrangement,0
+3850,4065,Count Sequences to K,3,count-sequences-to-k,0
+3851,4250,Maximum Requests Without Violating the Limit,2,maximum-requests-without-violating-the-limit,1
+3852,4231,Smallest Pair With Different Frequencies,1,smallest-pair-with-different-frequencies,0
+3853,4013,Merge Close Characters,2,merge-close-characters,0
+3854,4219,Minimum Operations to Make Array Parity Alternating,2,minimum-operations-to-make-array-parity-alternating,0
+3855,4239,Sum of K-Digit Numbers in a Range,3,sum-of-k-digit-numbers-in-a-range,0
+3856,4229,Trim Trailing Vowels,1,trim-trailing-vowels,0
+3857,4024,Minimum Cost to Split into Ones,2,minimum-cost-to-split-into-ones,0
+3858,4161,Minimum Bitwise OR From Grid,2,minimum-bitwise-or-from-grid,0
+3859,4002,Count Subarrays With K Distinct Integers,3,count-subarrays-with-k-distinct-integers,0
+3860,4241,Unique Email Groups,2,unique-email-groups,1
+3861,4247,Minimum Capacity Box,1,minimum-capacity-box,0
+3862,4240,Find the Smallest Balanced Index,2,find-the-smallest-balanced-index,0
+3863,4220,Minimum Operations to Sort a String,2,minimum-operations-to-sort-a-string,0
+3864,4192,Minimum Cost to Partition a Binary String,3,minimum-cost-to-partition-a-binary-string,0
+3865,4261,Reverse K Subarrays,2,reverse-k-subarrays,1
+3866,4252,First Unique Even Element,1,first-unique-even-element,0
+3867,4242,Sum of GCD of Formed Pairs,2,sum-of-gcd-of-formed-pairs,0
+3868,4253,Minimum Cost to Equalize Arrays Using Swaps,2,minimum-cost-to-equalize-arrays-using-swaps,0
+3869,4159,Count Fancy Numbers in a Range,3,count-fancy-numbers-in-a-range,0
+3870,4245,Count Commas in Range,1,count-commas-in-range,0
+3871,4248,Count Commas in Range II,2,count-commas-in-range-ii,0
+3872,4230,Longest Arithmetic Sequence After Changing At Most One Element,2,longest-arithmetic-sequence-after-changing-at-most-one-element,0
+3873,4249,Maximum Points Activated with One Addition,3,maximum-points-activated-with-one-addition,0
+3874,4269,Valid Subarrays With Exactly One Peak,2,valid-subarrays-with-exactly-one-peak,1
+3875,4256,Construct Uniform Parity Array I,1,construct-uniform-parity-array-i,0
+3876,4258,Construct Uniform Parity Array II,2,construct-uniform-parity-array-ii,0
+3877,4097,Minimum Removals to Achieve Target XOR,2,minimum-removals-to-achieve-target-xor,0
+3878,4222,Count Good Subarrays,3,count-good-subarrays,0
+3879,4218,Maximum Distinct Path Sum in a Binary Tree,2,maximum-distinct-path-sum-in-a-binary-tree,1
+3880,4255,Minimum Absolute Difference Between Two Values,1,minimum-absolute-difference-between-two-values,0
+3881,4251,Direction Assignments with Exactly K Visible People,2,direction-assignments-with-exactly-k-visible-people,0
+3882,4205,Minimum XOR Path in a Grid,2,minimum-xor-path-in-a-grid,0
+3883,4259,Count Non Decreasing Arrays With Given Digit Sums,3,count-non-decreasing-arrays-with-given-digit-sums,0
+3884,4264,First Matching Character From Both Ends,1,first-matching-character-from-both-ends,0
+3885,4267,Design Event Manager,2,design-event-manager,0
+3886,4257,Sum of Sortable Integers,3,sum-of-sortable-integers,0
+3887,4114,Incremental Even-Weighted Cycle Queries,3,incremental-even-weighted-cycle-queries,0
+3888,4276,Minimum Operations to Make All Grid Elements Equal,3,minimum-operations-to-make-all-grid-elements-equal,1
+3889,4273,Mirror Frequency Distance,2,mirror-frequency-distance,0
+3890,4268,Integers With Multiple Sum of Two Cubes,2,integers-with-multiple-sum-of-two-cubes,0
+3891,4149,Minimum Increase to Maximize Special Indices,2,minimum-increase-to-maximize-special-indices,0
+3892,4263,Minimum Operations to Achieve At Least K Peaks,3,minimum-operations-to-achieve-at-least-k-peaks,0
+3893,4288,Maximum Team Size with Overlapping Intervals,2,maximum-team-size-with-overlapping-intervals,1
